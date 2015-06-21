@@ -1,0 +1,26 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='paleobioDB: a package for downlo... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/paleobioDB_0.2.tar.gz"
+LICENSE='GPL-2'
+
+IUSE="${IUSE-} r_suggests_roxygen2 r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+"
+DEPEND="sci-CRAN/scales
+	sci-CRAN/raster
+	sci-CRAN/rjson
+	sci-CRAN/maps
+	sci-CRAN/plyr
+	sci-CRAN/gtools
+	sci-CRAN/RCurl
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

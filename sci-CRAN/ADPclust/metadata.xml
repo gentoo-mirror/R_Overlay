@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Clustering Using Adaptive Density Peak Detection // An
+		implementation of ADPclust clustering procedures (Fast
+		Clustering Using Adaptive Density Peak Detection). The work is
+		built and improved upon Rodriguez and Laio[2014]'s idea.
+		ADPclust clusters data by finding density peaks in a density-
+		distance plot generated from local multivariate Gaussian
+		density estimation. It includes an automatic centroids
+		selection and parameter optimization algorithm, which finds the
+		number of clusters and cluster centroids by comparing average
+		silhouettes on a grid of testing clustering results; It also
+		includes an user interactive algorithm that allows the user to
+		manually selects cluster centroids from a two dimensional
+		"density-distance plot".
+	</longdescription>
+</pkgmetadata>

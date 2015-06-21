@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/BiasedUrn sci-BIOC/AnnotationDbi sci-BIOC/geneLenDataBase >=dev-lang/R-2.11.0 dev-lang/R
+DESCRIPTION=Gene Ontology analyser for RNA-s... (see metadata)
+EAPI=4
+IUSE=r_suggests_edger r_suggests_go_db r_suggests_org_hs_eg_db r_suggests_rtracklayer byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2+
+RDEPEND=sci-CRAN/BiasedUrn sci-BIOC/AnnotationDbi sci-BIOC/geneLenDataBase >=dev-lang/R-2.11.0 r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_go_db? ( sci-BIOC/GO_db ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_rtracklayer? ( sci-BIOC/rtracklayer ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/2.13/bioc/src/contrib/goseq_1.14.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=c37bd022fbe10733535d759d1a8ff08b

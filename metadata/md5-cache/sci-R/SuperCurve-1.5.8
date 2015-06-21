@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/cobs >=dev-lang/R-2.15 dev-lang/R
+DESCRIPTION=SuperCurve Package
+EAPI=4
+IUSE=r_suggests_quantreg r_suggests_robustbase r_suggests_supercurvesampledata r_suggests_timedate byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/cobs >=dev-lang/R-2.15 media-gfx/imagemagick r_suggests_quantreg? ( sci-CRAN/quantreg ) r_suggests_robustbase? ( sci-CRAN/robustbase ) r_suggests_supercurvesampledata? ( sci-R/SuperCurveSampleData ) r_suggests_timedate? ( sci-CRAN/timeDate ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/SuperCurve_1.5.8.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=fde15a859590f8492d04668f7ed08774

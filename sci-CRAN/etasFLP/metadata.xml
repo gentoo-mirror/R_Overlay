@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Mixed FLP and ML Estimation of ETAS Space-Time Point Processes //
+		Estimation of the components of an ETAS model for earthquake
+		description. Non-parametric background seismicity can be
+		estimated through FLP (Forward Likelihood Predictive), while
+		parametric components are estimated through maximum likelihood.
+		The two estimation steps are alternated until convergence is
+		obtained. For each event the probability of being a background
+		event is estimated and used as a weight for declustering steps.
+		Many options to control the estimation process are present,
+		together with some diagnostic tools. Some descriptive functions
+		for earthquakes catalogs are  present; also plot, print,
+		summary, profile methods are defined for main output (objects
+		of class 'etasclass').
+	</longdescription>
+</pkgmetadata>

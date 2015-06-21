@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/sp sci-CRAN/rgeos sci-CRAN/MBA dev-lang/R
+DESCRIPTION=Analysis of Spatially Distributed Data
+EAPI=4
+IUSE=r_suggests_colorspace r_suggests_dichromat r_suggests_rgdal r_suggests_rgl r_suggests_tripack r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/sp sci-CRAN/rgeos sci-CRAN/MBA dev-lang/R[tk] >=dev-tcltk/tktable-2.9 r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_dichromat? ( sci-CRAN/dichromat ) r_suggests_rgdal? ( sci-CRAN/rgdal ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_tripack? ( sci-CRAN/tripack ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RSurvey_0.8-2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=70001d7f5bd323d47a4599465a4a76e8

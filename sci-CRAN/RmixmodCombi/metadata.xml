@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Combining Mixture Components for Clustering // The Rmixmod
+		package provides model-based clustering by fitting a mixture
+		model (e.g. Gaussian components for quantitative continuous
+		data) to the data and identifying each cluster with one of its
+		components. The number of components can be determined from the
+		data, typically using the BIC criterion. In practice, however,
+		individual clusters can be poorly fitted by Gaussian
+		distributions, and in that case model-based clustering tends to
+		represent one non-Gaussian cluster by a mixture of two or more
+		Gaussian components. If the number of mixture components is
+		interpreted as the number of clusters, this can lead to
+		overestimation of the number of clusters. This is because BIC
+		selects the number of mixture components needed to provide a
+		good approximation to the density. This package, RmixmodCombi,
+		according to \emph{Combining Mixture Components for Clustering}
+		by J.P. Baudry, A.E. Raftery, G. Celeux, K. Lo, R. Gottardo,
+		combines the components of the EM/BIC solution (provided by
+		Rmixmod) hierarchically according to an entropy criterion. This
+		yields a clustering for each number of clusters less than or
+		equal to K. These clusterings can be compared on substantive
+		grounds, and we also provide a way of selecting the number of
+		clusters via a piecewise linear regression fit to the (possibly
+		rescaled) entropy plot.
+	</longdescription>
+</pkgmetadata>

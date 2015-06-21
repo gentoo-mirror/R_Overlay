@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		CoxPH Model with Log Concave Baseline Distribution // Computes a
+		cox PH model with a log concave baseline distribution. If no
+		covariates are provided, estimates the log concave NPMLE. Built
+		specifically for interval censored data, where data is a n by 2
+		matrix with [i, 1] as the left side of the interval for subject
+		i and [i,2] as right side. Uncensored data can be entered by
+		setting [i,1] = [i,2]. Alternatively, this can also handle
+		uncensored data. If all the data is uncensored, you may enter
+		data as a length(n) vector.
+	</longdescription>
+</pkgmetadata>

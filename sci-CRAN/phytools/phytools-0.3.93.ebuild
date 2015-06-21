@@ -1,0 +1,25 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Phylogenetic Tools for comparati... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/phytools_0.3-93.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="sci-CRAN/clusterGeneration
+	>=sci-CRAN/phangorn-1.6.3
+	sci-CRAN/animation
+	sci-CRAN/maps
+	>=sci-CRAN/ape-3.0.10
+	sci-CRAN/rgl
+	sci-CRAN/mnormt
+	sci-CRAN/plotrix
+	sci-CRAN/numDeriv
+	sci-CRAN/msm
+	sci-CRAN/scatterplot3d
+"
+RDEPEND="${DEPEND-}"

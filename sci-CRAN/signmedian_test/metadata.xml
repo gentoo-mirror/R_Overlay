@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Perform Exact Sign Test and Asymptotic Sign Test in Large Samples
+		// Perform sign test on one-sample data, which is one of the
+		oldest non-parametric statistical methods. Assume that X comes
+		from a continuous distribution with median = v ( unknown ).
+		Test the null hypothesis H0: median of X v = mu ( mu is the
+		location parameter and is given in the test ) v.s. the
+		alternative hypothesis H1: v  mu ( or v  mu or v != mu ) and
+		calculate the p-value. When the sample size is large, perform
+		the asymptotic sign test. In both ways, calculate the
+		R-estimate of location of X and the distribution free
+		confidence interval for mu.
+	</longdescription>
+</pkgmetadata>

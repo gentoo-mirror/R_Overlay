@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis of Variation in ChIP-seq using Functional PCA Statistics
+		// The double aim of the package is to apply a functional
+		version of principal component analysis (FPCA) to: (1) Process
+		data in wiggle track format (WIG) commonly produced by ChIP-seq
+		peak finders by applying FPCA over a set of selected candidate
+		enriched regions. This is done in order to shorten the genomic
+		locations accounting for a given proportion of variation among
+		the enrichment-score profiles. The function 'narrowpeaks'
+		allows the user to discriminate between binding regions in
+		close proximity to each other and to narrow down the length of
+		the putative transcription factor binding sites while
+		preserving the information present in the variability of the
+		dataset and capturing major sources of variation. (2) Analyze
+		differential variation when multiple ChIP-seq samples need to
+		compared. The function 'narrowpeaksDiff' quantifies differences
+		between the tag-enrichment, and uses non-parametric tests on
+		the FPC scores for testing differences between conditions.
+	</longdescription>
+</pkgmetadata>

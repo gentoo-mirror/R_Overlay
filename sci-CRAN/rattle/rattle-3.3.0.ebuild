@@ -1,0 +1,91 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Graphical user interface for data mining in R'
+SRC_URI="http://cran.r-project.org/src/contrib/rattle_3.3.0.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_ada r_suggests_amap r_suggests_arules
+	r_suggests_arulesviz r_suggests_biclust r_suggests_bitops
+	r_suggests_cairodevice r_suggests_cba r_suggests_colorspace
+	r_suggests_corrplot r_suggests_descr r_suggests_doby r_suggests_dplyr
+	r_suggests_e1071 r_suggests_ellipse r_suggests_fbasics r_suggests_fpc
+	r_suggests_gdata r_suggests_ggdendro r_suggests_ggplot2
+	r_suggests_gplots r_suggests_graph r_suggests_gtools
+	r_suggests_gwidgetsrgtk2 r_suggests_hmeasure r_suggests_hmisc
+	r_suggests_kernlab r_suggests_latticist r_suggests_mice
+	r_suggests_odfweave r_suggests_party r_suggests_pkgdeptools
+	r_suggests_playwith r_suggests_plyr r_suggests_pmml r_suggests_psych
+	r_suggests_randomforest r_suggests_rbgl r_suggests_rcolorbrewer
+	r_suggests_reshape r_suggests_rggobi r_suggests_rgtk2
+	r_suggests_rgtk2extras r_suggests_rocr r_suggests_snowballc
+	r_suggests_stringr r_suggests_timedate r_suggests_tm
+	r_suggests_verification r_suggests_weightedkmeans r_suggests_xlsx
+	r_suggests_xml"
+R_SUGGESTS="
+	r_suggests_ada? ( sci-CRAN/ada )
+	r_suggests_amap? ( sci-CRAN/amap )
+	r_suggests_arules? ( sci-CRAN/arules )
+	r_suggests_arulesviz? ( sci-CRAN/arulesViz )
+	r_suggests_biclust? ( sci-CRAN/biclust )
+	r_suggests_bitops? ( sci-CRAN/bitops )
+	r_suggests_cairodevice? ( sci-CRAN/cairoDevice )
+	r_suggests_cba? ( sci-CRAN/cba )
+	r_suggests_colorspace? ( sci-CRAN/colorspace )
+	r_suggests_corrplot? ( sci-CRAN/corrplot )
+	r_suggests_descr? ( sci-CRAN/descr )
+	r_suggests_doby? ( sci-CRAN/doBy )
+	r_suggests_dplyr? ( sci-CRAN/dplyr )
+	r_suggests_e1071? ( sci-CRAN/e1071 )
+	r_suggests_ellipse? ( sci-CRAN/ellipse )
+	r_suggests_fbasics? ( sci-CRAN/fBasics )
+	r_suggests_fpc? ( sci-CRAN/fpc )
+	r_suggests_gdata? ( sci-CRAN/gdata )
+	r_suggests_ggdendro? ( sci-CRAN/ggdendro )
+	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
+	r_suggests_gplots? ( sci-CRAN/gplots )
+	r_suggests_graph? ( sci-BIOC/graph )
+	r_suggests_gtools? ( sci-CRAN/gtools )
+	r_suggests_gwidgetsrgtk2? ( sci-CRAN/gWidgetsRGtk2 )
+	r_suggests_hmeasure? ( sci-CRAN/hmeasure )
+	r_suggests_hmisc? ( sci-CRAN/Hmisc )
+	r_suggests_kernlab? ( sci-CRAN/kernlab )
+	r_suggests_latticist? ( sci-CRAN/latticist )
+	r_suggests_mice? ( sci-CRAN/mice )
+	r_suggests_odfweave? ( sci-CRAN/odfWeave )
+	r_suggests_party? ( sci-CRAN/party )
+	r_suggests_pkgdeptools? ( sci-BIOC/pkgDepTools )
+	r_suggests_playwith? ( sci-CRAN/playwith )
+	r_suggests_plyr? ( sci-CRAN/plyr )
+	r_suggests_pmml? ( >=sci-CRAN/pmml-1.2.13 )
+	r_suggests_psych? ( sci-CRAN/psych )
+	r_suggests_randomforest? ( sci-CRAN/randomForest )
+	r_suggests_rbgl? ( sci-BIOC/RBGL )
+	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
+	r_suggests_reshape? ( sci-CRAN/reshape )
+	r_suggests_rggobi? ( sci-CRAN/rggobi )
+	r_suggests_rgtk2? ( sci-CRAN/RGtk2 )
+	r_suggests_rgtk2extras? ( sci-CRAN/RGtk2Extras )
+	r_suggests_rocr? ( sci-CRAN/ROCR )
+	r_suggests_snowballc? ( sci-CRAN/SnowballC )
+	r_suggests_stringr? ( sci-CRAN/stringr )
+	r_suggests_timedate? ( sci-CRAN/timeDate )
+	r_suggests_tm? ( sci-CRAN/tm )
+	r_suggests_verification? ( sci-CRAN/verification )
+	r_suggests_weightedkmeans? ( sci-CRAN/weightedKmeans )
+	r_suggests_xlsx? ( sci-CRAN/xlsx )
+	r_suggests_xml? ( sci-CRAN/XML )
+"
+DEPEND=">=dev-lang/R-2.13.0"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+
+_UNRESOLVED_PACKAGES=(
+	'rpart.plot'
+	'sci-BIOC/Rgraphviz'
+	'sci-CRAN/RODBC'
+)

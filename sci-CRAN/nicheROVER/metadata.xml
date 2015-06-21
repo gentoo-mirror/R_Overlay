@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		(Niche) (R)egion and Niche (Over)lap Metrics for Multidimensional
+		Ecological Niches // This package uses a probabilistic method
+		to calculate niche regions and pairwise niche overlap using
+		multidimensional niche indicator data (e.g., stable isotopes,
+		environmental variables, etc.). The niche region is defined as
+		the joint probability density function of the multidimensional
+		niche indicators at a user-defined probability alpha (e.g.,
+		95%).  Uncertainty is accounted for in a Bayesian framework,
+		and the method can be extended to three or more indicator
+		dimensions.  It provides directional estimates of niche
+		overlap, accounts for species-specific distributions in
+		multivariate niche space, and produces unique and consistent
+		bivariate projections of the multivariate niche region.  A
+		forthcoming article by Swanson et al. (Ecology, 2014) provides
+		a detailed description of the methodology.  See the package
+		vignette for a worked example using fish stable isotope data.
+	</longdescription>
+</pkgmetadata>

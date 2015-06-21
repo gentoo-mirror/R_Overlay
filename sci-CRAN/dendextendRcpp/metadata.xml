@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Faster Dendrogram Manipulation using 'Rcpp' // Offers faster
+		manipulation of dendrogram objects in R. A dendrogram object in
+		R is a list structure with attributes in its nodes and leaves.
+		Working with dendrogram objects often require a function to
+		recursively go through all (or most) element in the list
+		object. Naturally, such function are rather slow in R, but can
+		become much faster thanks to 'Rcpp'.
+	</longdescription>
+</pkgmetadata>

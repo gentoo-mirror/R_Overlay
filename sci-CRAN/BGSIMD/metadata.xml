@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Block Gibbs Sampler with Incomplete Multinomial Distribution //
+		Implement an efficient block Gibbs sampler with incomplete data
+		from a multinomial distribution taking values from the k
+		categories 1,2,...,k, where data are assumed to miss at random
+		and each missing datum belongs to one and only one of m
+		distinct non-empty proper subsets A1, A2,..., Am of 1,2,...,k
+		and the k categories are labelled such that only consecutive
+		A's may overlap.
+	</longdescription>
+</pkgmetadata>

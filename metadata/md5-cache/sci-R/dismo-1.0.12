@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.13.0 >=sci-CRAN/raster-2.2.30 >=sci-CRAN/sp-1.0.13 dev-lang/R
+DESCRIPTION=Species Distribution Modeling
+EAPI=4
+IUSE=r_suggests_deldir r_suggests_gbm r_suggests_gstat r_suggests_jsonlite r_suggests_kernlab r_suggests_maptools r_suggests_randomforest r_suggests_rgdal r_suggests_rgeos r_suggests_rjava r_suggests_rocr r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-2.13.0 >=sci-CRAN/raster-2.2.30 >=sci-CRAN/sp-1.0.13 r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_gbm? ( >=sci-CRAN/gbm-2.1.1 ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rgdal? ( sci-CRAN/rgdal ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_rjava? ( >=sci-CRAN/rJava-0.5.0 ) r_suggests_rocr? ( sci-CRAN/ROCR ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/dismo_1.0-12.tar.gz -> r-forge_dismo_1.0-12.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=e943207bdfc55e6e093dfc81a9143063

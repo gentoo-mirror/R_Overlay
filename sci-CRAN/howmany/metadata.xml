@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A lower bound for the number of correct rejections // When
+		testing multiple hypotheses simultaneously, this package
+		provides functionality to calculate a lower bound for the
+		number of correct rejections (as a function of the number of
+		rejected hypotheses), which holds simultaneously -with high
+		probability- for all possible number of rejections.  As a
+		special case, a lower bound for the total number of false null
+		hypotheses can be inferred.  Dependent test statistics can be
+		handled for multiple tests of associations. For independent
+		test statistics, it is sufficient to provide a list of
+		p-values.
+	</longdescription>
+</pkgmetadata>

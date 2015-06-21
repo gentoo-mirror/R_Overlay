@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/Rcpp-0.10.3 sci-CRAN/foreach sci-CRAN/raster dev-lang/R
+DESCRIPTION=Empirical Orthogonal Teleconnections in R
+EAPI=4
+IUSE=r_suggests_gridextra r_suggests_latticeextra r_suggests_mapdata r_suggests_scales byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/Rcpp-0.10.3 sci-CRAN/foreach sci-CRAN/raster sci-CRAN/Rcpp r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_latticeextra? ( sci-CRAN/latticeExtra ) r_suggests_mapdata? ( sci-CRAN/mapdata ) r_suggests_scales? ( sci-CRAN/scales ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Reot_0.1.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=b8d3d2f8844429ac45db2af15e01a59c

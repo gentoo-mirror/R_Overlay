@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spiked Eigenvalue Test for Pathway data // Tests gene expression
+		data from a biological pathway for biologically meaningful
+		differences in the eigenstructure between two classes.
+		Specifically, it tests the null hypothesis that the two
+		classes' leading eigenvalues and sums of eigenvalues are equal.
+		A pathway's leading eigenvalue arguably represents the total
+		variability due to variability in pathway activity, while the
+		sum of all its eigenvalues represents the variability due to
+		pathway activity and to other, unregulated causes.
+		Implementation of the method described in Danaher (2015),
+		"Covariance-based analyses of biological pathways".
+	</longdescription>
+</pkgmetadata>

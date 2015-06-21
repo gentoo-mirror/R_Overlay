@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Temporal and Spatio-Temporal Modeling and Monitoring of Epidemic
+		Phenomena // Implementation of statistical methods for the
+		modeling and change-point detection in time series of counts,
+		proportions and categorical data, as well as for the modeling
+		of continuous-time epidemic phenomena, e.g., discrete-space
+		setups such as the spatially enriched Susceptible-Exposed-
+		Infectious-Recovered (SEIR) models, or continuous-space point
+		process data such as the occurrence of infectious diseases.
+		Main focus is on outbreak detection in count data time series
+		originating from public health surveillance of communicable
+		diseases, but applications could just as well originate from
+		environmetrics, reliability engineering, econometrics or social
+		sciences. Currently, the package contains implementations of
+		many typical outbreak detection procedures such as Farrington
+		et al (1996), Noufaily et al (2012) or the negative binomial
+		LR-CUSUM method described in Hhle and Paul (2008). A novel
+		CUSUM approach combining logistic and multinomial logistic
+		modelling is also included. Furthermore, inference methods for
+		the retrospective infectious disease models in Held et al
+		(2005), Held et al (2006), Paul et al (2008), Paul and Held
+		(2011), Held and Paul (2012), and Meyer and Held (2014) are
+		provided. Continuous self-exciting spatio-temporal point
+		processes are modeled through additive-multiplicative
+		conditional intensities as described in Hhle (2009) ('twinSIR',
+		discrete space) and Meyer et al (2012) ('twinstim', continuous
+		space). The package contains several real-world data sets, the
+		ability to simulate outbreak data, visualize the results of the
+		monitoring in temporal, spatial or spatio-temporal fashion.
+		Note: Using the 'boda' algorithm requires the 'INLA' package,
+		which should be installed automatically through the specified
+		Additional_repositories, if uninstalled dependencies are also
+		requested. As this might not work under OS X it might be
+		necessary to manually install the 'INLA' package as specified
+		at http://www.r-inla.org/download.
+	</longdescription>
+</pkgmetadata>

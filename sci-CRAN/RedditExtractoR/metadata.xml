@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Reddit Data Extraction Toolkit // Reddit is an online bulletin
+		board and a social networking website where registered users
+		can submit and discuss content. This package uses Reddit API to
+		extract Reddit data using Reddit API. The retrieved data has
+		flat structure, i.e. the relationship between comments is not
+		preserved.This may be addressed in the next update of this
+		package. Note that due to the API limitations, the number of
+		comments that can extracted is limited to 500 per thread. The
+		package consists of 3 functions, one for extracting relevant
+		URLS, one for extracting features out of given URLs and one
+		that does both together.
+	</longdescription>
+</pkgmetadata>

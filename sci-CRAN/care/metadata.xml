@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		High-Dimensional Regression and CAR Score Variable Selection //
+		The "care" package implements the regression approach of Zuber
+		and Strimmer (2011) "High-dimensional regression and variable
+		selection using CAR scores" SAGMB 10: 34. CAR scores measure
+		the correlation between the response and the Mahalanobis-
+		decorrelated  predictors.  The squared CAR score is a natural
+		measure of variable importance and provides a canonical
+		ordering of variables. This package provides functions for
+		estimating CAR scores, for variable selection using CAR scores,
+		and for estimating corresponding regression coefficients. Both
+		shrinkage as well as empirical estimators are available.
+	</longdescription>
+</pkgmetadata>

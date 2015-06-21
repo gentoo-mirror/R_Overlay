@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Read big text files column by column, sometimes much bigger than
+		available RAM, into R. // This package tries to solve the
+		memory restrictions posed by large text files by breaking them
+		into their columns first. These columns are later read
+		individually into R. The package also provides some helper
+		functions for manipulating the newly created objects.
+	</longdescription>
+</pkgmetadata>

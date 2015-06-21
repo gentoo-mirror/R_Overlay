@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/timeSeries sci-CRAN/robustbase sci-CRAN/fBasics >=dev-lang/R-2.15.1 sci-CRAN/Rsolnp sci-CRAN/fAssets sci-CRAN/rneos sci-CRAN/kernlab sci-CRAN/Rglpk sci-CRAN/timeDate sci-CRAN/slam sci-CRAN/quadprog sci-CRAN/fCopulae sci-CRAN/Rsymphony dev-lang/R
+DESCRIPTION=Rmetrics - Portfolio Selection and Optimization
+EAPI=4
+IUSE=r_suggests_bcp r_suggests_dplr r_suggests_fgarch r_suggests_mvoutlier r_suggests_rdonlp2 r_suggests_rnlminb2 r_suggests_rsocp byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/timeSeries sci-CRAN/robustbase sci-CRAN/fBasics >=dev-lang/R-2.15.1 sci-CRAN/Rsolnp sci-CRAN/fAssets sci-CRAN/rneos sci-CRAN/kernlab sci-CRAN/Rglpk sci-CRAN/timeDate sci-CRAN/slam sci-CRAN/quadprog sci-CRAN/fCopulae sci-CRAN/Rsymphony r_suggests_bcp? ( sci-CRAN/bcp ) r_suggests_dplr? ( sci-CRAN/dplR ) r_suggests_fgarch? ( sci-CRAN/fGarch ) r_suggests_mvoutlier? ( sci-CRAN/mvoutlier ) r_suggests_rdonlp2? ( sci-R/Rdonlp2 ) r_suggests_rnlminb2? ( sci-R/Rnlminb2 ) r_suggests_rsocp? ( sci-R/Rsocp ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/fPortfolio_3011.81.tar.gz -> fPortfolio_3011.81-r3.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=14c9101c986ae34ff6ad704f5b716e49

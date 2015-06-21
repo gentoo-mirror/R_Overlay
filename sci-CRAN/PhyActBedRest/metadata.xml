@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Marks periods of sleep in Actigraph accelerometer data // Applies
+		an automated algorithm to mark Actigraph accelerometer data as
+		either bedrest or active.  There are separate functions for
+		waist and wrist data.  Its input is a dataframe with a
+		timestamp column and one of counts.  The output is the same
+		dataframe with an additional column, bedrest.  Bedrest will
+		have "a" active or "br" for each line.  Options also allow for
+		"n" nap which only differ than "s" in being for a shorter
+		(specifiable) time period.  Designed to be used after
+		wearmarking function in Physical Activity package.
+	</longdescription>
+</pkgmetadata>

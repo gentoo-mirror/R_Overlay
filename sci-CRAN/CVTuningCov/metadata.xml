@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regularized Estimators of Covariance Matrices with CV Tuning //
+		This is a package for selecting tuning parameters based on
+		cross-validation (CV) in regularized estimators of large
+		covariance matrices. Four regularized methods are implemented:
+		banding, tapering, hard-thresholding and soft-thresholding. Two
+		types of matrix norms are applied: Frobenius norm and operator
+		norm. Two types of CV are considered: K-fold CV and random CV.
+		Usually K-fold CV use K-1 folds to train a model and the rest
+		one fold to validate the model. The reverse version trains a
+		model with 1 fold and validates with the rest with K-1 folds.
+		Random CV randomly splits the data set to two parts, a training
+		set and a validation set with user-specified sizes.
+	</longdescription>
+</pkgmetadata>

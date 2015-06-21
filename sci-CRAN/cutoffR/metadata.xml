@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		CUTOFF: A Spatio-temporal Imputation Method // This package
+		provides a set of tools for spatio-temporal imputation in R. It
+		includes the implementation for then CUTOFF imputation method,
+		a useful cross-validation function that can be used not only by
+		the CUOTFF method but also by some other imputation  functions
+		to help choosing an optimal value for relevant parameters, such
+		as the number of k-nearest neighbors for the KNN imputation
+		method, or the number of components for the SVD imputation
+		method. It also contains tools for simulating data with missing
+		values with respect to some specific missing pattern, for
+		example, block missing. Some useful visualisation functions for
+		imputation purposes are also provided in the package.
+	</longdescription>
+</pkgmetadata>

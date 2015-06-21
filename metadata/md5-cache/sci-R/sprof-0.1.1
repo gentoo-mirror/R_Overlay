@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R
+DESCRIPTION=Profiling, timing and optimisation utilities
+EAPI=4
+IUSE=r_suggests_rcolorbrewer r_suggests_timeit r_suggests_wordcloud byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_timeit? ( sci-CRAN/timeit ) r_suggests_wordcloud? ( sci-CRAN/wordcloud ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/sprof_0.1-1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=27f8e4a75139b6e2908444252c1bb8a0

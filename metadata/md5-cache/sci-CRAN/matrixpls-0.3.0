@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/assertive sci-CRAN/matrixcalc sci-CRAN/psych sci-CRAN/lavaan dev-lang/R
+DESCRIPTION=Matrix-based Partial Least Squares estimation
+EAPI=4
+IUSE=r_suggests_plspm r_suggests_runit r_suggests_sempls r_suggests_simsem byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/assertive sci-CRAN/matrixcalc sci-CRAN/psych sci-CRAN/lavaan r_suggests_plspm? ( sci-CRAN/plspm ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_sempls? ( sci-CRAN/semPLS ) r_suggests_simsem? ( sci-CRAN/simsem ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/matrixpls_0.3.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=1d3736d63e3f650c6b850b10ceb89bcf

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast access to large ASCII files // Methods for fast access to
+		large ASCII files.  Currently the following file formats are
+		supported: comma separated format (csv) and fixed width format.
+		It is assumed that the files are too large to fit into memory,
+		although the package can also be used to efficiently access
+		files that do fit into memory. Methods are provided to access
+		and process files blockwise. Furthermore, an opened file can be
+		accessed as one would an ordinary data.frame. The LaF vignette
+		gives an overview of the functionality provided.
+	</longdescription>
+</pkgmetadata>

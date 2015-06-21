@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimal pricing of assets with fixed expiry date. // Calculates
+		the optimal price of assets (such as airline flight seats,
+		hotel room bookings) whose value becomes zero after a fixed
+		``expiry date''.  Assumes potential customers arrive (possibly
+		in groups) according to a known inhomogeneous Poisson process.
+		Also assumes a known time-varying elasticity of demand (price
+		sensitivity) function.  Uses elementary techniques based on
+		ordinary differential equations.  Uses the package deSolve to
+		effect the solution of these differential equations.
+	</longdescription>
+</pkgmetadata>

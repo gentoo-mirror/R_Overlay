@@ -1,0 +1,31 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Simultaneous Inference in Genera... (see metadata)'
+SRC_URI="http://download.r-forge.r-project.org/src/contrib/multcomp_1.3-2.tar.gz -> r-forge_multcomp_1.3-2.tar.gz"
+LICENSE='GPL-2'
+
+IUSE="${IUSE-} r_suggests_car r_suggests_coin r_suggests_coxme
+	r_suggests_lme4 r_suggests_lmtest r_suggests_mboost
+	r_suggests_robustbase r_suggests_simcomp r_suggests_xtable"
+R_SUGGESTS="
+	r_suggests_car? ( sci-CRAN/car )
+	r_suggests_coin? ( sci-CRAN/coin )
+	r_suggests_coxme? ( >=sci-CRAN/coxme-2.2.1 )
+	r_suggests_lme4? ( >=sci-CRAN/lme4-0.999375.16 )
+	r_suggests_lmtest? ( sci-CRAN/lmtest )
+	r_suggests_mboost? ( sci-CRAN/mboost )
+	r_suggests_robustbase? ( sci-CRAN/robustbase )
+	r_suggests_simcomp? ( sci-CRAN/SimComp )
+	r_suggests_xtable? ( sci-CRAN/xtable )
+"
+DEPEND=">=sci-R/TH_data-1.0.2
+	>=sci-CRAN/sandwich-2.3.0
+	>=sci-CRAN/mvtnorm-0.8.0
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

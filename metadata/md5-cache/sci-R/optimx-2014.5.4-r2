@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/optextras sci-CRAN/numDeriv dev-lang/R
+DESCRIPTION=A Replacement and Extension of t... (see metadata)
+EAPI=4
+IUSE=r_suggests_bb r_suggests_dfoptim r_suggests_minqa r_suggests_rcgmin r_suggests_rvmmin r_suggests_setrng r_suggests_svunit r_suggests_ucminf byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/optextras sci-CRAN/numDeriv r_suggests_bb? ( sci-CRAN/BB ) r_suggests_dfoptim? ( sci-CRAN/dfoptim ) r_suggests_minqa? ( sci-CRAN/minqa ) r_suggests_rcgmin? ( sci-CRAN/Rcgmin ) r_suggests_rvmmin? ( sci-CRAN/Rvmmin ) r_suggests_setrng? ( sci-CRAN/setRNG ) r_suggests_svunit? ( sci-CRAN/svUnit ) r_suggests_ucminf? ( sci-CRAN/ucminf ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/optimx_2014.5.4.tar.gz -> optimx_2014.5.4-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=a86662150c9d95cdefc1feb699c4f64d

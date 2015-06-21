@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Implementation of a SAS-Style Data Step // Based on a SAS data
+		step. This allows for row-wise dynamic building of data,
+		iteratively importing slices of existing dataframes, conducting
+		analyses, and exporting to a results frame. This is
+		particularly useful for differential or time-series analyses,
+		which are often not well suited to vector-based operations.
+	</longdescription>
+</pkgmetadata>

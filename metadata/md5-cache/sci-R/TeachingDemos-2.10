@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R
+DESCRIPTION=Demonstrations for teaching and learning
+EAPI=4
+IUSE=r_suggests_ebimage r_suggests_ggplot2 r_suggests_logspline r_suggests_maptools r_suggests_png r_suggests_rgl r_suggests_tcltk2 r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=r_suggests_ebimage? ( sci-BIOC/EBImage ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_logspline? ( sci-CRAN/logspline ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_png? ( sci-CRAN/png ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_tcltk2? ( sci-CRAN/tcltk2 ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/TeachingDemos_2.10.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=f4efde0d2b6023808f2ea9100e0e4504

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.2 dev-lang/R
+DESCRIPTION=Data sets and functions with Ana... (see metadata)
+EAPI=4
+IUSE=r_suggests_e1071 r_suggests_hmisc r_suggests_lme4 r_suggests_lmertest r_suggests_multcomp r_suggests_optimx r_suggests_rms r_suggests_zipfr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.2 r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_lmertest? ( sci-CRAN/lmerTest ) r_suggests_multcomp? ( sci-CRAN/multcomp ) r_suggests_optimx? ( sci-CRAN/optimx ) r_suggests_rms? ( sci-CRAN/rms ) r_suggests_zipfr? ( sci-CRAN/zipfR ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/languageR_1.4.1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=4eb777323312cc5e85e05e81347d635e

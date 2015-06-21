@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis of Data Acquired Using the Receiver Operating
+		Characteristic Paradigm and Its Extensions // A common task in
+		medical imaging is assessing whether a new imaging system or
+		device is an improvement over an existing one. Observer
+		performance methodology, such as receiver operating
+		characteristic analysis, is widely used for this purpose.
+		Receiver operating characteristic studies are often required
+		for regulatory approval of new devices. The purpose of this
+		work is to software for the analysis of data acquired using the
+		receiver operating characteristic paradigm and its location
+		specific extensions. It is an enhanced implementation of
+		existing Windows software (http://www.devchakraborty.com). In
+		this paradigm the radiologist rates each image for confidence
+		in presence of disease. The images are typically split equally
+		between actually non-diseased and diseased. A common figure of
+		merit is the area under the receiver operating characteristic
+		curve, which has the physical interpretation as the probability
+		that a diseased image is rated higher than a non-diseased one.
+		In receiver operating characteristic studies a number of
+		radiologists (readers) rate images in two or more treatments,
+		and the object of the analysis is to determine the significance
+		of the inter-treatment difference between reader-averaged
+		figures of merit. In the free-response paradigm the reader
+		marks the locations of suspicious regions and rates each region
+		for confidence in presence of disease, and credit for detection
+		is only given if a true lesion is correctly localized. In the
+		region of interest paradigm each image is divided into a number
+		of regions and the reader rates each region. Each paradigm
+		requires definition of a valid figure of merit that rewards
+		correct decisions and penalizes incorrect ones and specialized
+		significance testing procedures are applied. The package reads
+		data in all currently used data formats including Excel.
+		Significance testing uses two models in widespread use, a
+		jackknife pseudo-value based model and an analysis of variance
+		model with correlated errors. Included are tools for (1)
+		calculating a variety of free-response figures of merit; (2)
+		sample size estimation for planning a future study based on
+		pilot data; (3) viewing empirical operating characteristics in
+		receiver operating characteristic and free-response paradigms;
+		(4) producing formatted report files; and (5) saving a data
+		file in appropriate format for analysis with alternate
+		software.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Functions for Soil Water Retention and Soil Hydraulic
+		Conductivity // This package implements commonly used functions
+		for soil water retention (water content = f(matrix potential))
+		and soil hydraulic conductivity (hydraulic conductivity K =
+		f(matrix potential), or = f(water content)). The functions for
+		for soil water retention implemented are: van Genuchten 1980;
+		Brooks  Corey 1964; Campbell 1974. The functions for soil
+		hydraulic conductivity implemented are: Mualem 1976; Brooks
+		Corey 1964; Campbell 1974. NB: The package soilwaterptf
+		contains pedotransfer function for estimating the parameters of
+		these functions from basic soil properties (valid for european
+		soils).
+	</longdescription>
+</pkgmetadata>

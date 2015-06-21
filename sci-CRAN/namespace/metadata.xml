@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Provide namespace managment functions not (yet) present in base R
+		// This package provides user-level functions to manage
+		namespaces not (yet) available in base R: 'registerNamespace',
+		'unregisterNamespace', 'makeNamespace', and
+		'getRegisteredNamespace' . ('makeNamespaces' is extracted from
+		the R 'base' package source code:
+		src/library/base/R/namespace.R)
+	</longdescription>
+</pkgmetadata>

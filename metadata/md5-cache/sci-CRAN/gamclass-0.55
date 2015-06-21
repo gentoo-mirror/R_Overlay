@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/car sci-CRAN/ape sci-CRAN/randomForest sci-CRAN/DAAG sci-CRAN/latticeExtra dev-lang/R
+DESCRIPTION=Functions and data for a course ... (see metadata)
+EAPI=4
+IUSE=r_suggests_daagbio r_suggests_diagram r_suggests_ecdat r_suggests_forecast r_suggests_kernlab r_suggests_knitr r_suggests_leaps r_suggests_mlbench r_suggests_oz r_suggests_quantreg r_suggests_smir r_suggests_sp byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/car sci-CRAN/ape sci-CRAN/randomForest sci-CRAN/DAAG sci-CRAN/latticeExtra r_suggests_daagbio? ( sci-CRAN/DAAGbio ) r_suggests_diagram? ( sci-CRAN/diagram ) r_suggests_ecdat? ( sci-CRAN/Ecdat ) r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaps? ( sci-CRAN/leaps ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_oz? ( sci-CRAN/oz ) r_suggests_quantreg? ( sci-CRAN/quantreg ) r_suggests_smir? ( sci-CRAN/SMIR ) r_suggests_sp? ( sci-CRAN/sp ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gamclass_0.55.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=b2cac869076cfcf7f9f6d2f5d653f528

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generic S3 Classes for Simple Database Interfaces // Generic S3
+		classes for simple database interfaces. (presently RODBC and
+		RSQLite). 'easydb' provide common S3 classes for reading,
+		writing, listing and subsetting tables in RODBC and (R)SQLite
+		databases. Functions in 'easydb' alone DO NOT provide any
+		database interface, but they are used in other packages that
+		provide inteface to various database systems (see suggests).
+		'easydb' allows to retrieve, write and subset database's tables
+		in a similar way as data.frame's, using single square brackets
+		db[,,,]. easydb internalise many database operations (otherwise
+		tedious) such as rows and columns subsetting (no SQL needed)
+		and connection and disconnection to / from databases.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Sampling for Stick-Breaking Mixtures // This is a bare-
+		bones implementation of sampling algorithms for a variety of
+		Bayesian stick-breaking (marginally DP) mixture models,
+		including particle learning and Gibbs sampling for static DP
+		mixtures, particle learning for dynamic BAR stick-breaking, and
+		DP mixture regression.  The software is designed to be easy to
+		customize to suit different situations and for experimentation
+		with stick-breaking models.  Since particles are repeatedly
+		copied, it is not an especially efficient implementation.
+	</longdescription>
+</pkgmetadata>

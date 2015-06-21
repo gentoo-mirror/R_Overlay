@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Utilities for Data Manipulation, Disk Caching, Testing // This is
+		a set of simple utilities for various data manipulation and
+		caching tasks. The goal is to use base tools well, without
+		bringing in any dependencies. Main areas of interest are data
+		frame manipulation, such as converting factors in multiple
+		binary indicator columns, and disk caching of data frames
+		(which is optionally done by date range). There are testing
+		functions which provide testthat expectations to permute
+		arguments to function calls. There are functions and data to
+		test extreme numbers, dates, and bad input of various kinds
+		which should allow testing failure and corner cases. The test
+		suite has many examples of usage.
+	</longdescription>
+</pkgmetadata>

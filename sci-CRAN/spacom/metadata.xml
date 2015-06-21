@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spatially weighted context data for multilevel modelling // The
+		package provides tools to construct and exploit spatially
+		weighted context data. Spatial weights are derived by a Kernel
+		function from a user-defined matrix of distances between
+		contextual units. Spatial weights can then be applied either to
+		precise contextual measures or to aggregate estimates based on
+		micro-level survey data, to compute spatially weighted context
+		data. Available aggregation functions include indicators of
+		central tendency, dispersion, or inter-group variability, and
+		take into account survey design weights. The package further
+		allows combining the resulting spatially weighted context data
+		with individual-level predictor and outcome variables, for the
+		purposes of multilevel modelling. An ad hoc stratified
+		bootstrap resampling procedure generates robust point estimates
+		for multilevel regression coefficients and model fit
+		indicators, and computes confidence intervals adjusted for
+		measurement dependency and measurement error of aggregate
+		estimates. As an additional feature, residual and explained
+		spatial dependency can be estimated for the tested models.
+	</longdescription>
+</pkgmetadata>

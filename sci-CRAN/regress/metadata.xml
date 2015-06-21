@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gaussian linear models with linear covariance structure //
+		Functions to fit Gaussian linear model by maximising the
+		residual log likelihood where the covariance structure can be
+		written as a linear combination of known matrices.  Can be used
+		for multivariate models and random effects models.  Easy
+		straight forward manner to specify random effects models,
+		including random interactions. Code now optimised to use
+		Sherman Morrison Woodbury identities for matrix inversion in
+		random effects models. We've added the ability to fit models
+		using any kernel as well as a function to return the mean and
+		covariance of random effects conditional on the data (BLUPs).
+	</longdescription>
+</pkgmetadata>

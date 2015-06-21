@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Node Harvest for Regression and Classification // Node harvest is
+		a simple interpretable tree-like estimator for high-dimensional
+		regression and classification. A few nodes are selected from an
+		initially large ensemble of nodes, each associated with a
+		positive weight. New observations can fall into one or several
+		nodes and predictions are the weighted average response across
+		all these groups. The package offers visualization of the
+		estimator. Predictions can return the nodes a new observation
+		fell into, along with the mean response of training
+		observations in each node, offering a simple explanation of the
+		prediction.
+	</longdescription>
+</pkgmetadata>

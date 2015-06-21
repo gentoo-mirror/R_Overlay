@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 dev-lang/R
+DESCRIPTION=Companion Package to the Book R:... (see metadata)
+EAPI=4
+IUSE=r_suggests_car r_suggests_gparotation r_suggests_mclust r_suggests_psych r_suggests_usingr r_suggests_vcd byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.0.0 r_suggests_car? ( sci-CRAN/car ) r_suggests_gparotation? ( sci-CRAN/GPArotation ) r_suggests_mclust? ( sci-CRAN/mclust ) r_suggests_psych? ( sci-CRAN/psych ) r_suggests_usingr? ( sci-CRAN/UsingR ) r_suggests_vcd? ( sci-CRAN/vcd ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/REdaS_0.9.1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=de11c3972c1085fb4e6fb0362cadf4fb

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-BIOC/preprocessCore-1.19.0 >=sci-BIOC/affyio-1.25.0 sci-CRAN/ff >=sci-CRAN/DBI-0.2.5 >=sci-BIOC/Biostrings-2.25.12 >=sci-BIOC/BiocGenerics-0.3.2 sci-BIOC/zlibbioc >=sci-BIOC/oligoClasses-1.19.43 >=dev-lang/R-2.15.0 >=sci-BIOC/BiocGenerics-0.3.2 >=sci-BIOC/affxparser-1.29.11 >=sci-BIOC/Biobase-2.17.8 dev-lang/R
+DESCRIPTION=Preprocessing tools for oligonucleotide arrays.
+EAPI=4
+IUSE=r_suggests_genefilter r_suggests_hapmap100kxba r_suggests_limma r_suggests_maqcexpression4plex r_suggests_oligodata r_suggests_pd_hg18_60mer_expr r_suggests_pd_huex_1_0_st_v2 r_suggests_pd_hugene_1_0_st_v1 r_suggests_pd_mapping50k_xba240 r_suggests_rcolorbrewer r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2+
+RDEPEND=>=sci-BIOC/preprocessCore-1.19.0 >=sci-BIOC/affyio-1.25.0 sci-CRAN/ff >=sci-CRAN/DBI-0.2.5 >=sci-BIOC/Biostrings-2.25.12 >=sci-BIOC/BiocGenerics-0.3.2 sci-BIOC/zlibbioc >=sci-BIOC/oligoClasses-1.19.43 >=dev-lang/R-2.15.0 >=sci-BIOC/BiocGenerics-0.3.2 >=sci-BIOC/affxparser-1.29.11 >=sci-BIOC/Biobase-2.17.8 sci-BIOC/preprocessCore r_suggests_genefilter? ( sci-BIOC/genefilter ) r_suggests_hapmap100kxba? ( sci-BIOC/hapmap100kxba ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_maqcexpression4plex? ( sci-BIOC/maqcExpression4plex ) r_suggests_oligodata? ( sci-BIOC/oligoData ) r_suggests_pd_hg18_60mer_expr? ( sci-BIOC/pd_hg18_60mer_expr ) r_suggests_pd_huex_1_0_st_v2? ( sci-BIOC/pd_huex_1_0_st_v2 ) r_suggests_pd_hugene_1_0_st_v1? ( sci-BIOC/pd_hugene_1_0_st_v1 ) r_suggests_pd_mapping50k_xba240? ( sci-BIOC/pd_mapping50k_xba240 ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/2.13/bioc/src/contrib/oligo_1.26.6.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=eb9e06f28fbc37f97fbb36b22ba20e4f

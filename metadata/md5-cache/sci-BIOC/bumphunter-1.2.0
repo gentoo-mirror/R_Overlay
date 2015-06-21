@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/limma sci-CRAN/itertools sci-CRAN/iterators sci-BIOC/IRanges sci-CRAN/locfit sci-CRAN/matrixStats sci-CRAN/foreach sci-CRAN/doRNG sci-BIOC/GenomicRanges dev-lang/R
+DESCRIPTION=Bump Hunter
+EAPI=4
+IUSE=r_suggests_biocgenerics r_suggests_doparallel r_suggests_org_hs_eg_db r_suggests_runit r_suggests_txdb_hsapiens_ucsc_hg19_knowngene byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-BIOC/limma sci-CRAN/itertools sci-CRAN/iterators sci-BIOC/IRanges sci-CRAN/locfit sci-CRAN/matrixStats sci-CRAN/foreach sci-CRAN/doRNG sci-BIOC/GenomicRanges r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_txdb_hsapiens_ucsc_hg19_knowngene? ( sci-BIOC/TxDb_Hsapiens_UCSC_hg19_knownGene ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/2.13/bioc/src/contrib/bumphunter_1.2.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=c483ee10100913341d7d90d6b448cff2

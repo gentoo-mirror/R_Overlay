@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Extensible Package for Parallel, Batch Training of Base Learners
+		for Ensemble Modeling // Extensible S4 classes and methods for
+		batch training of regression and classification algorithms such
+		as Random Forest, Gradient Boosting Machine, Neural Network,
+		Support Vector Machines, and K-Nearest Neighbors. These
+		algorithms constitute a set of 'base learners', which can
+		subsequently be combined together to form ensemble predictions.
+		This package provides cross-validation wrappers to allow for
+		downstream application of ensemble integration techniques,
+		including best-error selection. All base learner estimation
+		objects are retained, allowing for repeated prediction calls
+		without the need for re-training. For large problems, an option
+		is provided to save estimation objects to disk, along with
+		prediction methods that utilize these objects. This allows
+		users to train and predict with large ensembles of base
+		learners without being constrained by system RAM.
+	</longdescription>
+</pkgmetadata>

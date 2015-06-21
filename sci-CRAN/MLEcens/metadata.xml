@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Computation of the MLE for bivariate (interval) censored data //
+		This package contains functions to compute the nonparametric
+		maximum likelihood estimator (MLE) for the bivariate
+		distribution of (X,Y), when realizations of (X,Y) cannot be
+		observed directly.  To be more precise, we consider the
+		situation where we observe a set of rectangles that are known
+		to contain the unobservable realizations of (X,Y). We compute
+		the MLE based on such a set of rectangles.  The methods can
+		also be used for univariate censored data (see data set
+		'cosmesis'), and for censored data with competing risks (see
+		data set 'menopause').  We also provide functions to visualize
+		the observed data and the MLE.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/igraph sci-CRAN/parmigene sci-CRAN/XML dev-lang/R
+DESCRIPTION=ESEA: Discovering the Dysregulat... (see metadata)
+EAPI=4
+IUSE=r_suggests_graph byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/igraph sci-CRAN/parmigene sci-CRAN/XML r_suggests_graph? ( sci-BIOC/graph ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ESEA_1.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=9f6fed6efe92d50479425d00ba2df528

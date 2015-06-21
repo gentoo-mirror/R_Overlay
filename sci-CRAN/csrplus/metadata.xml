@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Methods to Test Hypotheses on the Distribution of Spatial Point
+		Processes // Includes two functions to evaluate the hypothesis
+		of complete spatial randomness (csr) in point processes.  The
+		function 'mwin' calculates quadrat counts to estimate the
+		intensity of a spatial point process through the moving window
+		approach proposed by Bailey and Gatrell (1995).  Event counts
+		are computed within a window of a set size over a fine lattice
+		of points within the region of observation.  The function
+		'pielou' uses the nearest neighbor test statistic and
+		asymptotic distribution proposed by Pielou (1959) to compare
+		the observed point process to one generated under csr.  The
+		value can be compared to that given by the more widely used
+		test proposed by Clark and Evans (1954).
+	</longdescription>
+</pkgmetadata>

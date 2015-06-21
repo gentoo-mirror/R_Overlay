@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Selection Using Random Forests // Three steps variable
+		selection procedure based on random forests. Initially
+		developed to handle high dimensional data (for which number of
+		variables largely exceeds number of observations), the package
+		is very versatile and can treat most dimensions of data, for
+		regression and supervised classification problems. First step
+		is dedicated to eliminate irrelevant variables from the
+		dataset. Second step aims to select all variables related to
+		the response for interpretation purpose. Third step refines the
+		selection by eliminating redundancy in the set of variables
+		selected by the second step, for prediction purpose.
+	</longdescription>
+</pkgmetadata>

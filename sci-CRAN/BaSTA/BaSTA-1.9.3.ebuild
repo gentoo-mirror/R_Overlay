@@ -1,0 +1,16 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='A package for estimating age-spe... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/BaSTA_1.9.3.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_snowfall"
+R_SUGGESTS="r_suggests_snowfall? ( sci-CRAN/snowfall )"
+DEPEND="sci-CRAN/msm"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

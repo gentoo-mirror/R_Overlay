@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Doubly Robust Generalized Estimating Equations // Fit restricted
+		mean models for the conditional association between an exposure
+		and an outcome, given covariates. Three methods are
+		implemented: O-estimation, where a nuisance model for the
+		association between the covariates and the outcome is used;
+		E-estimation where a nuisance model for the association between
+		the covariates and the exposure is used, and doubly robust (DR)
+		estimation where both nuisance models are used. In DR-
+		estimation, the estimates will be consistent when at least one
+		of the nuisance models is correctly specified, not necessarily
+		both.
+	</longdescription>
+</pkgmetadata>

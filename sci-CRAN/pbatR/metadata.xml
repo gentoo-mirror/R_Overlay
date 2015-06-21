@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		P2BAT // This package provides data analysis via the pbat
+		program, and an alternative internal implementation of the
+		power calculations via simulation only.  For analysis, this
+		package provides a frontend to the PBAT software, automatically
+		reading in the output from the pbat program and displaying the
+		corresponding figure when appropriate (i.e. PBAT-logrank). It
+		includes support for multiple processes and clusters. For
+		analysis, users must download PBAT (developed by Christoph
+		Lange) and accept it's license, available on the PBAT webpage.
+		Both the data analysis and power calculations have command line
+		and graphical interfaces using tcltk.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Clustering Mutations using High Throughput Sequencing (HTS) Data
+		// Using HTS data, clusters mutations in order to recreate
+		putative clones from the data provided. It requires genotype at
+		the location of the variant as well as the depth of coverage
+		and number of reads supporting the mutation. Additional
+		information may be provided, such as the contamination in the
+		tumor sample. This package also provides a function
+		QuantumCat() which simulates data obtained from tumor
+		sequencing.
+	</longdescription>
+</pkgmetadata>

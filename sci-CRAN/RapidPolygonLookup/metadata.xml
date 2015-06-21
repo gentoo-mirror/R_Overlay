@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Polygon lookup using kd trees // Facilitates efficient polygon
+		search using kd trees. Coordinate level spatial data can be
+		aggregated to higher geographical identities like census
+		blocks, ZIP codes or police district boundaries. This process
+		requires mapping each point in the given data set to a
+		particular identity of the desired geographical hierarchy.
+		Unless efficient data structures are used, this can be a
+		daunting task. The operation point.in.polygon() from the
+		package sp is computationally expensive. Here, we exploit kd-
+		trees as efficient nearest neighbor search algorithm to
+		dramatically reduce the effective number of polygons being
+		searched.
+	</longdescription>
+</pkgmetadata>

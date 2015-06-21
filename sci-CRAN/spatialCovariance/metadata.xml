@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Computation of spatial covariance matrices for data on rectangles
+		// Functions that compute the spatial covariance matrix for the
+		matern and power classes of spatial models, for data that arise
+		on rectangular units.  This code can also be used for the
+		change of support problem and for spatial data that arise on
+		irregularly shaped regions like counties or zipcodes by laying
+		a fine grid of rectangles and aggregating the integrals in a
+		form of Riemann integration.
+	</longdescription>
+</pkgmetadata>

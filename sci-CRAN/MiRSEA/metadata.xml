@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Discovering the Risk Pathways Based on microRNA // The tools for
+		'MicroRNA Set Enrichment Analysis' can identify risk pathways
+		by investigating the expression changes of microRNA ('miRNA')
+		that regulate gene expression of pathways in the context of
+		microRNA expression data. (1) This package constructs a
+		correlation profile of microRNA and pathways by the
+		hypergeometric statistic test. The gene sets of pathways
+		derived from the three public databases (Kyoto Encyclopedia of
+		Genes and Genomes ('KEGG'); 'Reactome'; 'Biocarta') and the
+		target gene sets of microRNA are provided by four
+		databases('TarBaseV6.0'; 'mir2Disease'; 'miRecords';
+		'miRTarBase';). (2) This package can quantify the change of
+		correlation between microRNA for each pathway based on a
+		microRNA expression data with cases and controls. (3) This
+		package uses the weighted Kolmogorov-Smirnov statistic to
+		calculate an enrichment score (ES) of a microRNA set that co-
+		regulate to a pathway , which reflects the degree to which a
+		given pathway is associated the specific phenotype. (4) This
+		package can provide the visualization of the results.
+	</longdescription>
+</pkgmetadata>

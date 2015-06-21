@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stylized concatenation of data.frames or ffdfs // Stacks
+		rectangular datasets on top of each other, possibly performing
+		several type coercions along the way. For large datasets,
+		depends on the ff package. Provides an aggressive version of
+		ffbase::compact for data that may appear be real-typed but is
+		in fact int/short/byte. For many purposes plyr::rbind.fill may
+		be more appropriate, but for some kinds of survey data, the
+		rules here work better.
+	</longdescription>
+</pkgmetadata>

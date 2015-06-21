@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/numDeriv >=dev-lang/R-2.12.0 sci-CRAN/scatterplot3d sci-CRAN/kernlab sci-CRAN/rgl >=sci-CRAN/limSolve-1.5.2 sci-BIOC/qvalue sci-CRAN/LowRankQP >=sci-CRAN/quadprog-1.5.3 >=sci-CRAN/Iso-0.0.5 dev-lang/R
+DESCRIPTION=Estimating the proportion of tru... (see metadata)
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/numDeriv >=dev-lang/R-2.12.0 sci-CRAN/scatterplot3d sci-CRAN/kernlab sci-CRAN/rgl >=sci-CRAN/limSolve-1.5.2 sci-BIOC/qvalue sci-CRAN/LowRankQP >=sci-CRAN/quadprog-1.5.3 >=sci-CRAN/Iso-0.0.5 dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/pi0_1.3-354.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=c4acbae430f40b60c92f033e05081432

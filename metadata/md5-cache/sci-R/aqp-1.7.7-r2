@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/scales sci-CRAN/reshape sci-CRAN/sp sci-CRAN/plotrix >=dev-lang/R-2.15.0 sci-CRAN/plyr sci-CRAN/RColorBrewer sci-CRAN/stringr sci-CRAN/Hmisc dev-lang/R
+DESCRIPTION=Algorithms for Quantitative Pedology
+EAPI=4
+IUSE=r_suggests_ape r_suggests_colorspace r_suggests_digest r_suggests_latticeextra r_suggests_maps r_suggests_maptools byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/scales sci-CRAN/reshape sci-CRAN/sp sci-CRAN/plotrix >=dev-lang/R-2.15.0 sci-CRAN/plyr sci-CRAN/RColorBrewer sci-CRAN/stringr sci-CRAN/Hmisc r_suggests_ape? ( sci-CRAN/ape ) r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_digest? ( sci-CRAN/digest ) r_suggests_latticeextra? ( sci-CRAN/latticeExtra ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/aqp_1.7-7.tar.gz -> aqp_1.7-7-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=ef441ca1d230ad7a6ca6da4d205ca333

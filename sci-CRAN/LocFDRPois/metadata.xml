@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Functions for Performing Local FDR Estimation when Null and
+		Alternative are Poisson // The main idea of the Local FDR
+		algorithm is to estimate both proportion of null observations
+		and the ratio of null and alternative densities. In the case
+		that there are many null observations, this can be done
+		reliably, through maximum likelihood or generalized linear
+		models. This package implements this in the case that the null
+		and alternative densities are Poisson.
+	</longdescription>
+</pkgmetadata>

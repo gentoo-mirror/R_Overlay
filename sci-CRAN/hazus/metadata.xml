@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Damage functions from FEMA's HAZUS software for use in modeling
+		financial losses from natural disasters // Damage Functions
+		(DFs), also known as Vulnerability Functions, associate the
+		physical damage to a building or a structure (and also its
+		contents and inventory) from natural disasters to financial
+		damage. The Federal Emergency Management Agency (FEMA) in USA
+		developed several thousand DFs and these serve as a benchmark
+		in natural catastrophe modeling, both in academia and industry.
+		However, these DFs and their documentation are buried within
+		the HAZUS software are not easily accessible for analysis and
+		visualization. This package provides more than 1300 raw DFs
+		used by FEMA's HAZUS software and also functionality to extract
+		and visualize DFs specific to the flood hazard. The vignette
+		included with this package demonstrates its use.
+	</longdescription>
+</pkgmetadata>

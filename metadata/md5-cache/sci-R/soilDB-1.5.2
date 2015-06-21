@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/aqp sci-CRAN/plyr >=dev-lang/R-2.15.0 sci-CRAN/XML sci-CRAN/RCurl sci-CRAN/sp sci-CRAN/Hmisc dev-lang/R
+DESCRIPTION=Soil Database Interface
+EAPI=4
+IUSE=r_suggests_dismo r_suggests_jsonlite r_suggests_raster r_suggests_rgdal r_suggests_ssoap r_suggests_xmlschema byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/aqp sci-CRAN/plyr >=dev-lang/R-2.15.0 sci-CRAN/XML sci-CRAN/RCurl sci-CRAN/sp sci-CRAN/Hmisc r_suggests_dismo? ( sci-CRAN/dismo ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rgdal? ( sci-CRAN/rgdal ) r_suggests_ssoap? ( sci-omegahat/SSOAP ) r_suggests_xmlschema? ( sci-omegahat/XMLSchema ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/soilDB_1.5-2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=90ff31256b4defff9309bd1cd9c0e231

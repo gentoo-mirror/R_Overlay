@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/pso sci-CRAN/randtoolbox >=sci-CRAN/Rcpp-0.11.1 sci-CRAN/emoa sci-CRAN/rgenoud sci-CRAN/KrigInv >=sci-CRAN/DiceKriging-1.5.3 sci-CRAN/pbivnorm dev-lang/R
+DESCRIPTION=Gaussian Processes for Pareto Fr... (see metadata)
+EAPI=4
+IUSE=r_suggests_dicedesign byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/pso sci-CRAN/randtoolbox >=sci-CRAN/Rcpp-0.11.1 sci-CRAN/emoa sci-CRAN/rgenoud sci-CRAN/KrigInv >=sci-CRAN/DiceKriging-1.5.3 sci-CRAN/pbivnorm sci-CRAN/Rcpp r_suggests_dicedesign? ( >=sci-CRAN/DiceDesign-1.4 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GPareto_1.0.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=dd008e290b32416af9cd21b311ec71cd

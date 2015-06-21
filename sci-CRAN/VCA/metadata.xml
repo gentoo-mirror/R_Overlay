@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variance Component Analysis // ANOVA-type estimation (prediction)
+		of random effects and variance components in linear mixed
+		models, is implemented. Random models, a sub-set of mixed
+		models, can be fit applying a Variance Component Analysis
+		(VCA). This is a special type of analysis frequently used in
+		verifying the precision performance of diagnostics. The
+		Satterthwaite approximation of the total degrees of freedom is
+		implemented. There are several functions for extracting, random
+		effects, fixed effects, variance-covariance matrices of random
+		and fixed effects. Residuals can be extracted as raw,
+		standardized and studentized residuals. Additionally, a
+		variability chart is implemented for visualizing the
+		variability in sub-classes emerging from an experimental design
+		('varPlot').
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,22 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Ecological Niche in R and GRASS'
+SRC_URI="http://cran.r-project.org/src/contrib/ENiRG_0.1.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="sci-CRAN/raster
+	sci-CRAN/sp
+	sci-CRAN/spgrass6
+	sci-CRAN/R_utils
+	sci-CRAN/ade4
+	sci-CRAN/gdata
+	sci-CRAN/miniGUI
+	sci-CRAN/fgui
+"
+RDEPEND="${DEPEND-}"

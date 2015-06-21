@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		PCA, transpose and multicore functionality for big.matrix objects
+		// This package adds wrappers to add functionality for
+		big.matrix objects (see the bigmemory project). This allows
+		fast scalable principle components analysis (PCA), or singular
+		value decomposition (SVD). There are also functions for
+		transposing, using multicore 'apply' functionality, data
+		importing and for compact display of big.matrix objects. Most
+		functions also work for standard matrices if RAM is sufficient.
+	</longdescription>
+</pkgmetadata>

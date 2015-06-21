@@ -1,0 +1,102 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Automated caret feature selection'
+SRC_URI="http://cran.r-project.org/src/contrib/fscaret_0.8.5.4.tar.gz"
+LICENSE='|| ( GPL-2 GPL-3 )'
+
+IUSE="${IUSE-} r_suggests_ada r_suggests_arm r_suggests_boruta
+	r_suggests_bst r_suggests_c50 r_suggests_car r_suggests_catools
+	r_suggests_cubist r_suggests_e1071 r_suggests_earth
+	r_suggests_elasticnet r_suggests_ellipse r_suggests_evtree
+	r_suggests_extratrees r_suggests_fastica r_suggests_foba
+	r_suggests_gam r_suggests_gbm r_suggests_glmnet r_suggests_hda
+	r_suggests_hdclassif r_suggests_hidimda r_suggests_hmisc
+	r_suggests_ipred r_suggests_kernlab r_suggests_kknn r_suggests_klar
+	r_suggests_kohonen r_suggests_krls r_suggests_lars r_suggests_leaps
+	r_suggests_logicreg r_suggests_mboost r_suggests_mda
+	r_suggests_mlbench r_suggests_neuralnet r_suggests_nodeharvest
+	r_suggests_obliquerf r_suggests_pamr r_suggests_partdsa
+	r_suggests_party r_suggests_penalized r_suggests_penalizedlda
+	r_suggests_pls r_suggests_proc r_suggests_proxy r_suggests_qrnn
+	r_suggests_quantregforest r_suggests_randomforest r_suggests_rann
+	r_suggests_relaxo r_suggests_rferns r_suggests_rocc r_suggests_rrcov
+	r_suggests_rrf r_suggests_rrlda r_suggests_rsnns r_suggests_rweka
+	r_suggests_sda r_suggests_sdda r_suggests_sparselda r_suggests_spls
+	r_suggests_stepplr r_suggests_superpc"
+R_SUGGESTS="
+	r_suggests_ada? ( sci-CRAN/ada )
+	r_suggests_arm? ( sci-CRAN/arm )
+	r_suggests_boruta? ( sci-CRAN/Boruta )
+	r_suggests_bst? ( sci-CRAN/bst )
+	r_suggests_c50? ( sci-CRAN/C50 )
+	r_suggests_car? ( sci-CRAN/car )
+	r_suggests_catools? ( sci-CRAN/caTools )
+	r_suggests_cubist? ( sci-CRAN/Cubist )
+	r_suggests_e1071? ( sci-CRAN/e1071 )
+	r_suggests_earth? ( >=sci-CRAN/earth-2.2.3 )
+	r_suggests_elasticnet? ( sci-CRAN/elasticnet )
+	r_suggests_ellipse? ( sci-CRAN/ellipse )
+	r_suggests_evtree? ( sci-CRAN/evtree )
+	r_suggests_extratrees? ( sci-CRAN/extraTrees )
+	r_suggests_fastica? ( sci-CRAN/fastICA )
+	r_suggests_foba? ( sci-CRAN/foba )
+	r_suggests_gam? ( sci-CRAN/gam )
+	r_suggests_gbm? ( >=sci-CRAN/gbm-2.1 )
+	r_suggests_glmnet? ( >=sci-CRAN/glmnet-1.8 )
+	r_suggests_hda? ( sci-CRAN/hda )
+	r_suggests_hdclassif? ( sci-CRAN/HDclassif )
+	r_suggests_hidimda? ( sci-CRAN/HiDimDA )
+	r_suggests_hmisc? ( sci-CRAN/Hmisc )
+	r_suggests_ipred? ( sci-CRAN/ipred )
+	r_suggests_kernlab? ( sci-CRAN/kernlab )
+	r_suggests_kknn? ( sci-CRAN/kknn )
+	r_suggests_klar? ( sci-CRAN/klaR )
+	r_suggests_kohonen? ( sci-CRAN/kohonen )
+	r_suggests_krls? ( sci-CRAN/KRLS )
+	r_suggests_lars? ( sci-CRAN/lars )
+	r_suggests_leaps? ( sci-CRAN/leaps )
+	r_suggests_logicreg? ( sci-CRAN/LogicReg )
+	r_suggests_mboost? ( sci-CRAN/mboost )
+	r_suggests_mda? ( sci-CRAN/mda )
+	r_suggests_mlbench? ( sci-CRAN/mlbench )
+	r_suggests_neuralnet? ( sci-CRAN/neuralnet )
+	r_suggests_nodeharvest? ( sci-CRAN/nodeHarvest )
+	r_suggests_obliquerf? ( sci-CRAN/obliqueRF )
+	r_suggests_pamr? ( sci-CRAN/pamr )
+	r_suggests_partdsa? ( sci-CRAN/partDSA )
+	r_suggests_party? ( >=sci-CRAN/party-0.9.99992 )
+	r_suggests_penalized? ( sci-CRAN/penalized )
+	r_suggests_penalizedlda? ( sci-CRAN/penalizedLDA )
+	r_suggests_pls? ( sci-CRAN/pls )
+	r_suggests_proc? ( sci-CRAN/pROC )
+	r_suggests_proxy? ( sci-CRAN/proxy )
+	r_suggests_qrnn? ( sci-CRAN/qrnn )
+	r_suggests_quantregforest? ( sci-CRAN/quantregForest )
+	r_suggests_randomforest? ( sci-CRAN/randomForest )
+	r_suggests_rann? ( sci-CRAN/RANN )
+	r_suggests_relaxo? ( sci-CRAN/relaxo )
+	r_suggests_rferns? ( sci-CRAN/rFerns )
+	r_suggests_rocc? ( sci-CRAN/rocc )
+	r_suggests_rrcov? ( sci-CRAN/rrcov )
+	r_suggests_rrf? ( sci-CRAN/RRF )
+	r_suggests_rrlda? ( sci-CRAN/rrlda )
+	r_suggests_rsnns? ( sci-CRAN/RSNNS )
+	r_suggests_rweka? ( >=sci-CRAN/RWeka-0.4.1 )
+	r_suggests_sda? ( sci-CRAN/sda )
+	r_suggests_sdda? ( sci-CRAN/SDDA )
+	r_suggests_sparselda? ( >=sci-CRAN/sparseLDA-0.1.1 )
+	r_suggests_spls? ( sci-CRAN/spls )
+	r_suggests_stepplr? ( sci-CRAN/stepPlr )
+	r_suggests_superpc? ( sci-CRAN/superpc )
+"
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/caret
+	sci-CRAN/gsubfn
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

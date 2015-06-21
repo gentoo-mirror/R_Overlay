@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/abind sci-CRAN/rasterVis sci-CRAN/sp sci-CRAN/reshape sci-CRAN/raster sci-CRAN/pROC sci-CRAN/mda sci-CRAN/gbm sci-CRAN/randomForest dev-lang/R
+DESCRIPTION=Ensemble platform for species di... (see metadata)
+EAPI=4
+IUSE=r_suggests_ade4 r_suggests_gam r_suggests_hmisc byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/abind sci-CRAN/rasterVis sci-CRAN/sp sci-CRAN/reshape sci-CRAN/raster sci-CRAN/pROC sci-CRAN/mda sci-CRAN/gbm sci-CRAN/randomForest r_suggests_ade4? ( sci-CRAN/ade4 ) r_suggests_gam? ( sci-CRAN/gam ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/biomod2_3.1-64.tar.gz -> r-forge_biomod2_3.1-64.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=4c34135e2161b231e0c43b648fcd3d3f

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Meta-analysis of Multivariate Genome Wide Association Studies //
+		Allows running a meta-analysis of multivariate Genome Wide
+		Association Studies (GWAS) and easily visualizing results
+		through custom plotting functions. The multivariate setting
+		implies that results for each single nucleotide polymorphism
+		(SNP) include several effect sizes (also known as "beta
+		coefficients", one for each trait), as well as related variance
+		values, but also covariance between the betas. The main goal of
+		the package is to provide combined beta coefficients across
+		different cohorts, together with the combined
+		variance/covariance matrix. The method is inverse-variance
+		based, thus each beta is weighted by the inverse of its
+		variance-covariance matrix, before taking the average across
+		all betas. The default options of the main function
+		\code{multi_meta} will work with files obtained from GEMMA
+		multivariate option for GWAS (Zhou  Stephens, 2014). It will
+		work with any other output, as soon as columns are formatted to
+		have the according names. The package also provides several
+		plotting functions for QQ-plots, Manhattan Plots and custom
+		summary plots.
+	</longdescription>
+</pkgmetadata>

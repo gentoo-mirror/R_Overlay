@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Selection for Model-Based Clustering using the
+		Integrated Complete-Data Likelihood of a Latent Class Model //
+		Uses a finite mixture model for performing the cluster analysis
+		with variable selection of continuous data by assuming
+		independence between classes. The package deals dataset with
+		missing values by assuming that values are missing at random.
+		The one-dimensional marginals of the components follow Gaussian
+		distributions for facilitating both model interpretation and
+		model selection. The variable selection is led by the Maximum
+		Integrated Complete-Data Likelihood criterion. The maximum
+		likelihood inference is done by an EM algorithm for the
+		selected model. This package also performs the imputation of
+		missing values.
+	</longdescription>
+</pkgmetadata>

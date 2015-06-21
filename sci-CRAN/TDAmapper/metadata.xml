@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analyze High-Dimensional Data Using Discrete Morse Theory //
+		Topological Data Analysis using Mapper (discrete Morse theory).
+		Generate a 1-dimensional simplicial complex from a filter
+		function defined on the data:  1. Define a filter function
+		(lens) on the data.  2. Perform clustering within within each
+		level set and generate one node (vertex) for each cluster.  3.
+		For each pair of clusters in adjacent level sets with a
+		nonempty intersection, generate one edge between vertices.  The
+		function mapper1D uses a filter function with codomain R, while
+		the the function mapper2D uses a filter function with codomain
+		R^2.
+	</longdescription>
+</pkgmetadata>

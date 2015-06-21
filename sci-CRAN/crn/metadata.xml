@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Downloads and Builds datasets for Climate Reference Network //
+		The crn package provides the core functions required to
+		download and format data from the Climate Reference Network.
+		Both daily and hourly data are downloaded from the ftp, a
+		consolidated file of all stations is created, station metadata
+		is extracted. In addition functions for selecting individual
+		variables and creating R friendly datasets for them is
+		provided.
+	</longdescription>
+</pkgmetadata>

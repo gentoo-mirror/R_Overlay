@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Mposterior: R package for Robust and Scalable Bayes via a Median
+		of Subset Posterior Measures // Mposterior package provides a
+		general framework for estimating a median of subset posterior
+		measures (M-posterior). Each subset posterior measure is
+		represented as a matrix of posterior samples; rows represent
+		the atoms and columns index the dimensions. All subset measures
+		are represented as list of matrices; length of the list equals
+		the number of subsets (or machines). The distance between
+		subset posterior measures and M-posterior is measured using the
+		RBF kernel. M-posterior is represented as a weighted
+		combination of empirical measures based on subsets measures.
+		These weights are estimated using Weiszfeld algorithm
+		implemented in this package.
+	</longdescription>
+</pkgmetadata>

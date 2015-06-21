@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/sfsmisc sci-CRAN/SweaveListingUtils >=dev-lang/R-2.14.0 sci-CRAN/startupmsg dev-lang/R
+DESCRIPTION=Object oriented implementation of distributions
+EAPI=4
+IUSE=r_suggests_distrex r_suggests_svunit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=sci-CRAN/sfsmisc sci-CRAN/SweaveListingUtils >=dev-lang/R-2.14.0 sci-CRAN/startupmsg r_suggests_distrex? ( sci-CRAN/distrEx ) r_suggests_svunit? ( >=sci-CRAN/svUnit-0.7.11 ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/distr_2.5.3.tar.gz -> distr_2.5.3-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=c488a13161208991a1b7c2a84173667f

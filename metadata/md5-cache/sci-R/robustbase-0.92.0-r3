@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/DEoptimR >=dev-lang/R-2.15.1 dev-lang/R
+DESCRIPTION=Basic Robust Statistics
+EAPI=4
+IUSE=r_suggests_catdata r_suggests_ggplot2 r_suggests_mpv r_suggests_rcolorbrewer r_suggests_reshape2 r_suggests_robust r_suggests_sfsmisc r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/DEoptimR >=dev-lang/R-2.15.1 r_suggests_catdata? ( sci-CRAN/catdata ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_mpv? ( sci-CRAN/MPV ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_robust? ( sci-CRAN/robust ) r_suggests_sfsmisc? ( sci-CRAN/sfsmisc ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/robustbase_0.92-0.tar.gz -> robustbase_0.92-0-r3.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=ca218e18b1f47cdd4bcc1596e40fa43c

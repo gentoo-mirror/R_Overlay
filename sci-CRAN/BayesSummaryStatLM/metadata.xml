@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		MCMC Sampling of Bayesian Linear Models via Summary Statistics //
+		Methods for generating Markov Chain Monte Carlo (MCMC)
+		posterior samples of Bayesian linear regression model
+		parameters that require only summary statistics of data as
+		input. Summary statistics are useful for systems with very
+		limited amounts of physical memory. The package provides two
+		functions:  one function that computes summary statistics of
+		data and one function that carries out the MCMC posterior
+		sampling for Bayesian linear regression models where summary
+		statistics are used as input. The function read.regress.data.ff
+		utilizes the R package 'ff' to handle data sets that are too
+		large to fit into a user's physical memory, by reading in data
+		in chunks.
+	</longdescription>
+</pkgmetadata>

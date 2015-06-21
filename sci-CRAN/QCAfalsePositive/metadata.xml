@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tests for Type I Error in Qualitative Comparative Analysis (QCA)
+		// Implements tests for Type I error in Qualitative Comparative
+		Analysis (QCA) that take into account the multiple hypothesis
+		tests inherent in the procedure. Tests can be carried out on
+		three variants of QCA: crisp-set QCA (csQCA), multi-value QCA
+		(mvQCA) and fuzzy-set QCA (fsQCA). For fsQCA, the
+		fsQCApermTest() command implements a permutation test that
+		provides 95% confidence intervals for the number of
+		counterexamples and degree of consistency, respectively. The
+		distributions of permuted values can be plotted against the
+		observed values. For csQCA and mvQCA, simple binomial tests are
+		implemented in csQCAbinTest() and mvQCAbinTest(), respectively.
+	</longdescription>
+</pkgmetadata>

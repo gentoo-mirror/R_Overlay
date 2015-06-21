@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Quality speedy graphics compilation and caching with Sweave //
+		pgfSweave provides a number of improvements to the speed and
+		quality of Sweave output including: (1) capabilities for
+		'caching' graphics generated with Sweave on top of the caching
+		mechanisms provided by cacheSweave, (2) an interface to the
+		tikzDevice package which provides graphics with consistent font
+		style, sizing and quality as the main document and (3)
+		highlighting of echo'd source code via the highlight package.
+		pgfSweave provides a new driver for Sweave (pgfSweaveDriver)
+		with new chunk options tikz, external, sanitize, highlight and
+		tidy on top of the cache option provided by cacheSweave.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Conway-Maxwell-Poisson GLM and distribution functions // The
+		package contains a function (which uses a similar interface to
+		the `glm' function) for the fitting of a Conway-Maxwell-Poisson
+		GLM. There are also various methods for analysis of the model
+		fit. The package also contains functions for the Conway-
+		Maxwell-Poisson distribution in a similar interface to
+		functions `dpois', `ppois' and `rpois'. The functions are
+		generally quick, since the workhorse functions are written in
+		C++ (thanks to the Rcpp package).
+	</longdescription>
+</pkgmetadata>

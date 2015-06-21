@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interface for Genotype Probabilities from Outbred Intercross //
+		The package calculates and imports genotype probabilities from
+		outbred intercross designs into an R object. This allows fast
+		scans for main effect QTL and two way interactions. Note to
+		Linux users: On installation add the argument to the
+		install.packages function: lib = paste(R.home(), '/library/',
+		sep = '')
+	</longdescription>
+</pkgmetadata>

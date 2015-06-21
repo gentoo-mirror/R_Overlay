@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.15.1 sci-CRAN/timeDate sci-CRAN/timeSeries sci-CRAN/fBasics sci-CRAN/fMultivar dev-lang/R
+DESCRIPTION=Rmetrics - Analysing and Modelli... (see metadata)
+EAPI=4
+IUSE=r_suggests_ecodist r_suggests_energy r_suggests_mnormt r_suggests_mvnormtest r_suggests_robustbase r_suggests_runit r_suggests_sn byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.15.1 sci-CRAN/timeDate sci-CRAN/timeSeries sci-CRAN/fBasics sci-CRAN/fMultivar r_suggests_ecodist? ( sci-CRAN/ecodist ) r_suggests_energy? ( sci-CRAN/energy ) r_suggests_mnormt? ( sci-CRAN/mnormt ) r_suggests_mvnormtest? ( sci-CRAN/mvnormtest ) r_suggests_robustbase? ( sci-CRAN/robustbase ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_sn? ( sci-CRAN/sn ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/fAssets_3011.82.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=cb8edcad01fbfe9c5fbdf4035f6e5983

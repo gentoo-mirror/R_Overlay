@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Maximum penalized likelihood estimation with extended lasso
+		penalty // The package estimates coefficients of extended LASSO
+		penalized linear regression and generalized linear models.
+		Currently lasso and elastic net penalized linear regression and
+		generalized linear models are considered. The package currently
+		utilizes an accurate approximation of L1 penalty and then a
+		modified Jacobi algorithm to estimate the coefficients. There
+		is provision for plotting of the solutions and predictions of
+		coefficients at given values of lambda. The package also
+		contains functions for cross validation to select a suitable
+		lambda value given the data. The package also provides a
+		function for estimation in fused lasso penalized linear
+		regression.
+	</longdescription>
+</pkgmetadata>

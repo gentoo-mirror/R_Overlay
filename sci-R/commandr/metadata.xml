@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Command pattern in R // An S4 representation of the Command
+		design pattern. The Operation class is a simple implementation
+		using closures and supports forward and reverse (undo)
+		evaluation. The more complicated Protocol framework represents
+		each type of command (or analytical protocol) by a formal S4
+		class. Commands may be grouped and consecutively executed using
+		the Pipeline class. Example use cases include logging, do/undo,
+		analysis pipelines, GUI actions, parallel processing, etc.
+	</longdescription>
+</pkgmetadata>

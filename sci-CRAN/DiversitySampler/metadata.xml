@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Functions for re-sampling a community matrix to compute diversity
+		indices at different sampling levels. // There are two
+		functions in this package, which can be used together to
+		estimate the Shannon's Diversity index at different levels of
+		sample size. A Monte-Carlo procedure is used to re-sample a
+		given observation at each level of sampling. The expectation
+		being that the mean of the re-sampling will approach Shannon's
+		diversity index at that sample level.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Moment Corrected Correlation // A number of biomedical problems
+		involve performing many hypothesis tests, with an attendant
+		need to apply stringent thresholds. Often the data take the
+		form of a series of predictor vectors, each of which must be
+		compared with a single response vector, perhaps with nuisance
+		covariates. Parametric tests of association are often used, but
+		can result in inaccurate type I error at the extreme
+		thresholds, even for large sample sizes. Furthermore, standard
+		two-sided testing can reduce power compared to the doubled
+		p-value, due to asymmetry in the null distribution. Exact
+		(permutation) testing approaches are attractive, but can be
+		computationally intensive and cumbersome. MCC is an
+		approximation to exact association testing of two vectors that
+		is accurate and fast enough for standard use in high-throughput
+		settings, and can easily provide standard two-sided or doubled
+		p-values.
+	</longdescription>
+</pkgmetadata>

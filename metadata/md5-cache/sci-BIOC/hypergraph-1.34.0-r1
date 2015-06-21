@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/graph dev-lang/R
+DESCRIPTION=A package providing hypergraph data structures
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-BIOC/graph dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/2.13/bioc/src/contrib/hypergraph_1.34.0.tar.gz -> hypergraph_1.34.0-r1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=8053dc370de61d7b5d73e3d8131123c9

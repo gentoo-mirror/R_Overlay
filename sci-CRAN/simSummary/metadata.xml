@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulation summary // simSummary is a small utility package which
+		eases the process of summarizing simulation results.
+		Simulations often produce intermediate results - some focal
+		statistics that need to be summarized over several scenarios
+		and many replications. This step is in principle easy, but
+		tedious. The package simSummary fills this niche by providing a
+		generic way of summarizing the focal statistics of simulations.
+		The useR must provide properly structured input, holding focal
+		statistics, and then the summary step can be performed with one
+		line of code, calling the simSummary function.
+	</longdescription>
+</pkgmetadata>

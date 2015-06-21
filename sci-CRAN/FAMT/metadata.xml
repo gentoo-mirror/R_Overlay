@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Factor Analysis for Multiple Testing (FAMT) : simultaneous tests
+		under dependence in high-dimensional data // The method
+		proposed in this package takes into account the impact of
+		dependence on the multiple testing procedures for high-
+		throughput data as proposed by Friguet et al. (2009). The
+		common information shared by all the variables is modeled by a
+		factor analysis structure. The number of factors considered in
+		the model is chosen to reduce the false discoveries variance in
+		multiple tests. The model parameters are estimated thanks to an
+		EM algorithm. Adjusted tests statistics are derived, as well as
+		the associated p-values. The proportion of true null hypotheses
+		(an important parameter when controlling the false discovery
+		rate) is also estimated from the FAMT model. Graphics are
+		proposed to interpret and describe the factors.
+	</longdescription>
+</pkgmetadata>

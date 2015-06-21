@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fetch and plot financial stress index and component data. //
+		Forms queries to submit to the Cleveland Federal Reserve Bank
+		web site's financial stress index data site.  Provides query
+		functions for both the composite stress index and the
+		components data. By default the download includes daily time
+		series data starting September 25, 1991.  The functions return
+		a class of either type easing or cfsi which contain a list of
+		items related to the query and its graphical presentation.  The
+		list includes the time series data as an xts object.  The
+		package provides four lattice time series plots to render the
+		time series data in a manner similar to the bank's own
+		presentation.
+	</longdescription>
+</pkgmetadata>

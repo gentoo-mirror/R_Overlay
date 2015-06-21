@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bias-corrected Bayesian Classification with Selected Features //
+		This package is used to predict the discrete class labels based
+		on a selected subset of high-dimensional features, such as
+		expression levels of genes. The data are modeled with a
+		hierarchical Bayesian models using heavy-tailed t distributions
+		as priors. When a large number of features are available, one
+		may like to select only a subset of features to use, typically
+		those features strongly correlated with the response in
+		training cases. Such a feature selection procedure is however
+		invalid since the relationship between the response and the
+		features has be exaggerated by feature selection. This package
+		provides a way to avoid this bias and yield better-calibrated
+		predictions for future cases when one uses F-statistic to
+		select features.
+	</longdescription>
+</pkgmetadata>

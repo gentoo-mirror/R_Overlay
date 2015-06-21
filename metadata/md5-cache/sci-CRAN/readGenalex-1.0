@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/pegas-0.7 dev-lang/R
+DESCRIPTION=Read, Write, Manipulate and Conv... (see metadata)
+EAPI=4
+IUSE=r_suggests_adegenet r_suggests_ape r_suggests_combinat r_suggests_gdata r_suggests_genetics r_suggests_gtools r_suggests_mvtnorm r_suggests_testthat r_suggests_xlconnect byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/pegas-0.7 r_suggests_adegenet? ( sci-CRAN/adegenet ) r_suggests_ape? ( >=sci-CRAN/ape-2.4 ) r_suggests_combinat? ( sci-CRAN/combinat ) r_suggests_gdata? ( sci-CRAN/gdata ) r_suggests_genetics? ( sci-CRAN/genetics ) r_suggests_gtools? ( sci-CRAN/gtools ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xlconnect? ( sci-CRAN/XLConnect ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/readGenalex_1.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=5bef6e4e84bd77b557fd31063dd90b05

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interface to libffi to dynamically invoke arbitrary compiled
+		routines at run-time without compiled bindings // This package
+		allows one to use libffi to invoke compiled routines that are
+		dynamically loaded into R but for which there are no explicitly
+		compiled bindings. This package is both an interface to
+		functionality in the libffi library, and also an additional
+		layer of  R classes and functionality for run-time interaction
+		with native/compiled code. Byron Ellis did some work on this
+		several years ago.
+	</longdescription>
+</pkgmetadata>

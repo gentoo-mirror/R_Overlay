@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Continuous Time Structural Equation Modelling // ctsem is an R
+		package for continuous time structural equation modelling.
+		ctsem interfaces to the the OpenMx package (available from
+		http://openmx.psyc.virginia.edu/), and provides an easily
+		accessible dynamic modelling approach for panel and time series
+		data.  Most dynamic modelling approaches to longitudinal data
+		rely on the assumption that time intervals between observations
+		are consistent.  When this assumption is adhered to, the data
+		gathering process is necessarily limited to a specific
+		schedule, and when broken, the resulting parameter estimates
+		may be biased and reduced in power.  Continuous time models are
+		conceptually similar to vector autoregressive models (thus also
+		the latent change models popularised in a structural equation
+		modelling context), however by explicitly including the length
+		of time between observations, continuous time models are freed
+		from the assumption that measurement intervals are consistent.
+		This allows: data to be gathered irregularly; the elimination
+		of noise and bias due to varying measurement intervals. The
+		application of such a model in an SEM framework allows full-
+		information maximum-likelihood estimates for both N = 1 and N
+		1 cases, multiple measured indicators per latent process, and
+		the flexibility to incorporate additional elements, including
+		individual heterogeneity in the latent process and manifest
+		intercepts, and time dependent and independent exogenous
+		covariates. Furthermore, due to the SEM implementation we are
+		able to estimate a random effects model where the impact of
+		time dependent and time independent predictors can be assessed
+		simultaneously, but without the classic problems of random
+		effects models assuming no covariance between unit level
+		effects and predictors.  The flexibility of ctsem may also of
+		course be applicable for modelling of datasets where the
+		observations are regularly spaced.
+	</longdescription>
+</pkgmetadata>

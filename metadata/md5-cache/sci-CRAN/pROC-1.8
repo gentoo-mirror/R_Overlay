@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.14 sci-CRAN/plyr >=sci-CRAN/Rcpp-0.11.1 dev-lang/R
+DESCRIPTION=Display and Analyze ROC Curves
+EAPI=4
+IUSE=r_suggests_doparallel r_suggests_logcondens r_suggests_microbenchmark byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-2.14 sci-CRAN/plyr >=sci-CRAN/Rcpp-0.11.1 sci-CRAN/Rcpp r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_logcondens? ( sci-CRAN/logcondens ) r_suggests_microbenchmark? ( sci-CRAN/microbenchmark ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pROC_1.8.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=9496abf70733b835cce02e820bf5554b

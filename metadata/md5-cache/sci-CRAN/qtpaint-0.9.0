@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/qtbase-0.99.2 sci-CRAN/qtbase dev-lang/R
+DESCRIPTION=Qt-based painting infrastructure
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/qtbase-0.99.2 sci-CRAN/qtbase sci-CRAN/qtbase dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/qtpaint_0.9.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=1000b9af6006881157b4341978d31b2b

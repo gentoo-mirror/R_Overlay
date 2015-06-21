@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Clustering Discrete Distributions // Clustering of units
+		described with distributions is considered. Frequent approach
+		for clustering such data combines non-hierarchical method (to
+		allow clustering of large amount of units) with hierarchical
+		clustering method (to build dendrogram from the obtained
+		nonhierarchical clusters and determine the most 'natural' final
+		clustering(s) from it). The use of the squared Euclidean
+		distance as an error function favors patterns of distributions
+		that have one steep high peak. Here several alternative error
+		functions are implemented. They characterize errors between
+		clustered units and a cluster representative - leader (which
+		needs not be defined in the same space). For these error
+		functions the adapted leaders methods and compatible
+		agglomerative hierarchical clustering methods are implemented.
+	</longdescription>
+</pkgmetadata>

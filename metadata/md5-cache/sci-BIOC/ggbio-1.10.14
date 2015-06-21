@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/ggplot2-0.9.3 >=sci-BIOC/Rsamtools-1.13.1 sci-CRAN/plyr sci-BIOC/rtracklayer sci-BIOC/GenomicFeatures sci-CRAN/gtable sci-BIOC/IRanges sci-BIOC/BSgenome sci-BIOC/VariantAnnotation sci-BIOC/BiocGenerics sci-CRAN/gridExtra >=sci-BIOC/GenomicRanges-1.13.3 >=sci-CRAN/ggplot2-0.9.2 sci-CRAN/Hmisc sci-CRAN/reshape2 sci-BIOC/Biobase sci-CRAN/scales >=sci-BIOC/biovizBase-1.10.5 dev-lang/R
+DESCRIPTION=Visualization tools for genomic data.
+EAPI=4
+IUSE=r_suggests_affyplm r_suggests_chipseq r_suggests_knitr r_suggests_runit r_suggests_testthat r_suggests_txdb_hsapiens_ucsc_hg19_knowngene r_suggests_txdb_mmusculus_ucsc_mm9_knowngene r_suggests_vsn byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=>=sci-CRAN/ggplot2-0.9.3 >=sci-BIOC/Rsamtools-1.13.1 sci-CRAN/plyr sci-BIOC/rtracklayer sci-BIOC/GenomicFeatures sci-CRAN/gtable sci-BIOC/IRanges sci-BIOC/BSgenome sci-BIOC/VariantAnnotation sci-BIOC/BiocGenerics sci-CRAN/gridExtra >=sci-BIOC/GenomicRanges-1.13.3 >=sci-CRAN/ggplot2-0.9.2 sci-CRAN/Hmisc sci-CRAN/reshape2 sci-BIOC/Biobase sci-CRAN/scales >=sci-BIOC/biovizBase-1.10.5 r_suggests_affyplm? ( sci-BIOC/affyPLM ) r_suggests_chipseq? ( sci-BIOC/chipseq ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_txdb_hsapiens_ucsc_hg19_knowngene? ( sci-BIOC/TxDb_Hsapiens_UCSC_hg19_knownGene ) r_suggests_txdb_mmusculus_ucsc_mm9_knowngene? ( sci-BIOC/TxDb_Mmusculus_UCSC_mm9_knownGene ) r_suggests_vsn? ( sci-BIOC/vsn ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/2.13/bioc/src/contrib/ggbio_1.10.14.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=86ce2cbc4bed6479380ae6f9cdab4ae5

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Three methods to identify differentially expressed gene sets,
+		ordinary least square test, Multivariate Analysis Of Variance
+		test with n contrasts and Random forest. // This package is a
+		gene set analysis function for one-sided test (OLS), two-sided
+		test (multivariate analysis of variance). If the experimental
+		conditions are equal to 2, the p-value for Hotelling's t^2 test
+		is calculated. If the experimental conditions are great than 2,
+		the p-value for Wilks' Lambda is determined and post-hoc test
+		is reported too. Three multiple comparison procedures, Dunnett,
+		Tukey, and sequential pairwise comparison, are implemented. The
+		program computes the p-values and FDR (false discovery rate)
+		q-values for all gene sets. The p-values for individual genes
+		in a significant gene set are also listed. MAVTgsa generates
+		two visualization output: a p-value plot of gene sets (GSA
+		plot) and a GST-plot of the empirical distribution function of
+		the ranked test statistics of a given gene set. A Random
+		Forests-based procedure is to identify gene sets that can
+		accurately predict samples from different experimental
+		conditions or are associated with the continuous phenotypes.
+	</longdescription>
+</pkgmetadata>

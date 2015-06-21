@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Hierarchical Bayesian Small Area Estimation // Functions to
+		compute small area estimates based on a basic area or unit-
+		level model. The model is fit using restricted maximum
+		likelihood, or in a hierarchical Bayesian way. In the latter
+		case numerical integration is used to average over the
+		posterior density for the between-area variance.  The output
+		includes the model fit, small area estimates and corresponding
+		MSEs, as well as some model selection measures. Additional
+		functions provide means to compute aggregate estimates and
+		MSEs, to minimally adjust the small area estimates to
+		benchmarks at a higher aggregation level, and to graphically
+		compare different sets of small area estimates.
+	</longdescription>
+</pkgmetadata>

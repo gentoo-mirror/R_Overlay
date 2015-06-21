@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		function to run parallel jobs in STRUCTURE // MPI_structure" and
+		"parallel_structure" are two R functions that calls STRUCTURE
+		automatically for a set of predefined jobs. Jobs are
+		distributed among all available computing units (cores or cpu)
+		in order to make the best use of multi-core computer while
+		running analysis of large data sets in STRUCTURE.
+		MPI_structure" and "parallel_structure" have the same
+		functionality and use the same set of parameters. MPI_structure
+		relies on Rmpi package whereas parallel_structure relies on the
+		"parallel" package.
+	</longdescription>
+</pkgmetadata>

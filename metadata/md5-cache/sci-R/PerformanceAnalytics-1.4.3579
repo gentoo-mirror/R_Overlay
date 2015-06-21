@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/xts-0.9 sci-CRAN/zoo dev-lang/R
+DESCRIPTION=Econometric tools for performanc... (see metadata)
+EAPI=4
+IUSE=r_suggests_gamlss r_suggests_gplots r_suggests_hmisc r_suggests_quantmod r_suggests_quantreg r_suggests_robustbase byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/xts-0.9 sci-CRAN/zoo r_suggests_gamlss? ( sci-CRAN/gamlss ) r_suggests_gplots? ( sci-CRAN/gplots ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_quantmod? ( sci-CRAN/quantmod ) r_suggests_quantreg? ( sci-CRAN/quantreg ) r_suggests_robustbase? ( sci-CRAN/robustbase ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/PerformanceAnalytics_1.4.3579.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=4ccbfa8f069dd6d53030226d9da2572c

@@ -1,0 +1,21 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Applied Regression Tools'
+SRC_URI="http://download.r-forge.r-project.org/src/contrib/art_0.1-4.tar.gz"
+LICENSE='GPL-2'
+
+IUSE="${IUSE-} r_suggests_alr3 r_suggests_car r_suggests_lmtest
+	r_suggests_sandwich"
+R_SUGGESTS="
+	r_suggests_alr3? ( sci-CRAN/alr3 )
+	r_suggests_car? ( sci-CRAN/car )
+	r_suggests_lmtest? ( sci-CRAN/lmtest )
+	r_suggests_sandwich? ( sci-CRAN/sandwich )
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

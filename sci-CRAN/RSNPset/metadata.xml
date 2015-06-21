@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Efficient Score Statistics For Genome-Wide SNP Set Analysis //
+		RSNPset is an implementation of the use of efficient score
+		statistics in genome-wide SNP set analysis with complex traits.
+		The package provides three standard score statistics (Cox,
+		binomial, and Gaussian) but is easily extensible to include
+		others. Code implementing the inferential procedure is
+		primarily written in C++ and utilizes parallelization of the
+		analysis to reduce runtime. A supporting function offers simple
+		computation of observed, permutation, and FWER and FDR adjusted
+		p-values.
+	</longdescription>
+</pkgmetadata>

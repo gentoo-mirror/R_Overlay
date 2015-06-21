@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Methods for Analyzing Binned Income Data // Methods for model
+		selection, model averaging, and calculating metrics, such as
+		the Gini, Theil, Mean Log Deviation, etc, on binned income data
+		where the topmost bin is right-censored.  We provide both a
+		non-parametric method, termed the bounded midpoint estimator
+		(BME), which assigns cases to their bin midpoints; except for
+		the censored bins, where cases are assigned to an income
+		estimated by fitting a Pareto distribution. Because the usual
+		Pareto estimate can be inaccurate or undefined, especially in
+		small samples, we implement a bounded Pareto estimate that
+		yields much better results.  We also provide a parametric
+		approach, which fits distributions from the generalized beta
+		(GB) family. Because some GB distributions can have poor fit or
+		undefined estimates, we fit 10 GB-family distributions and use
+		multimodel inference to obtain definite estimates from the
+		best-fitting distributions. We also provide binned income data
+		from all United States of America school districts, counties,
+		and states.
+	</longdescription>
+</pkgmetadata>

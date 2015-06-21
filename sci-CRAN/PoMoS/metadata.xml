@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Polynomial (ordinary differential equation) Model Search //
+		PoMoS-package aims to determine from a set of N time series the
+		optimal polynomial structure of a model built on first-order
+		ordinary differential equations. The core of the package is
+		based on the poMoS function: an evolutionary algorithm combined
+		with a least square fitting. Optimality is estimated with AIC
+		(Akaike, 1974) or AIC-like criterions. Although efficient in
+		its selection, the identification of the optimal structure
+		cannot be guaranteed. Therefore, both selected and rejected
+		models are reconsidered after optimal solutions are obtained
+		from the evolutionary algorithm for another analysis. This
+		analysis is based on a statistical evaluation of the
+		regressors' quality.
+	</longdescription>
+</pkgmetadata>

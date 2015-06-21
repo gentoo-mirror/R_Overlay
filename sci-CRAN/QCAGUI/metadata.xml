@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		QCA Graphical User Interface // QCAGUI is a graphical user
+		interface (GUI) for the QCA package, derived from R Commander.
+		Because QCA has little to do with statistics, the menus from
+		Rcmdr were stripped down to the very basics.  In crisp sets
+		QCA, data is binary therefore it is fairly decent to treat it
+		as categorical (1 - presence; 0 - absence).  In order to ease
+		the primary analysis (e.g. tables of frequencies) and the
+		creation of basic graphs, this package activates some menus
+		that are not available in Rcmdr but for factors. Users should
+		be aware, however, that QCAGUI is not a package for statistics;
+		Rcmdr is better suited for this purpose.
+	</longdescription>
+</pkgmetadata>

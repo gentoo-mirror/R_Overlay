@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generate PMML for various models // The Predictive Modelling
+		Markup Language (PMML) is a language for representing models,
+		in an application independent way. Such models can then be
+		loaded into other applications supporting PMML, including ADAPA
+		from Zementis, Teradata Warehouse Miner and IBM's DB2. The
+		package provides a generic pmml function to generate pmml for
+		an object. Using a S3 generic function the appropriate method
+		for the class of the supplied object is dispatched. The package
+		currently supports the export of PMML for linear regression,
+		generalized linear regression, multinomial logistic regression,
+		SVMs, rpart classification trees, randomSurvivalForest,
+		randomForest, and kmeans clusters.
+	</longdescription>
+</pkgmetadata>

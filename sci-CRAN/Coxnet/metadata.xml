@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regularized Cox Model // Cox model regularized with net (L1 and
+		Laplacian), elastic-net (L1 and L2) or lasso (L1) penalty. In
+		addition, it can truncate the estimate by a hard threshold,
+		which is selected simultaneously with other tuning parameters.
+		Moreover, it can handle the adaptive version of these
+		regularization forms, such as adaptive lasso and net adjusting
+		for signs of linked coefficients. The package uses one-step
+		coordinate descent algorithm and runs extremely fast by taking
+		into account the sparsity structure of coefficients.
+	</longdescription>
+</pkgmetadata>

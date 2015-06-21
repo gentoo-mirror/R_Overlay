@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Prognostic ROC curves for evaluating the predictive capacity of a
+		binary test // Prognostic ROC curve is an alternative graphical
+		approach to represent the discriminative capacity of the
+		marker: a receiver operating characteristic (ROC) curve by
+		plotting 1 minus the survival in the high-risk group against 1
+		minus the survival in the low-risk group. This package contains
+		functions to assess prognostic ROC curve. The user can enter
+		the survival according to a model previously estimated or the
+		user can also enter individual survival data for estimating the
+		prognostic ROC curve by using Kaplan-Meier estimator. The area
+		under the curve (AUC) corresponds to the probability that a
+		patient in the low-risk group has a longer lifetime than a
+		patient in the high-risk group. The prognostic ROC curve
+		provides complementary information compared to survival curves.
+		The AUC is assessed by using the trapezoidal rules. When
+		survival curves do not reach 0, the prognostic ROC curve is
+		incomplete and the extrapolations of the AUC are performed by
+		assuming pessimist, optimist and non-informative situations.
+	</longdescription>
+</pkgmetadata>

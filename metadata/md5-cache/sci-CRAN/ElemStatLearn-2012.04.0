@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R
+DESCRIPTION=Data sets, functions and example... (see metadata)
+EAPI=4
+IUSE=r_suggests_earth r_suggests_gam r_suggests_lars r_suggests_lasso2 r_suggests_leaps r_suggests_mda r_suggests_prim byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=r_suggests_earth? ( sci-CRAN/earth ) r_suggests_gam? ( sci-CRAN/gam ) r_suggests_lars? ( sci-CRAN/lars ) r_suggests_lasso2? ( sci-CRAN/lasso2 ) r_suggests_leaps? ( sci-CRAN/leaps ) r_suggests_mda? ( sci-CRAN/mda ) r_suggests_prim? ( sci-CRAN/prim ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ElemStatLearn_2012.04-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=25bea92064a8e26d617e2a1beec4a8ee

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analyzes Differential Promoter Composition in CAGE data //
+		CAGExploreR implements an algorithm to calculate and evaluate
+		the statistical significance of the uncertainty coefficient
+		(a.k.a. Theil's U or the proportional entropy reduction). This
+		statistic measures the strength of association between two
+		nominal random variables. One specific application of this
+		package is the detection of differential composition
+		(differences in vectors of proportions) of genes subunits (e.g.
+		promoters) across various biological conditions. The two
+		nominal variables here are the biological conditions and the
+		promoters within genes. The differential composition and the
+		genomic location of these promoters can also be visualized
+		using this package.
+	</longdescription>
+</pkgmetadata>

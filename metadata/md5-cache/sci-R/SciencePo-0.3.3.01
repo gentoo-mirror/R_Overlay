@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0 sci-CRAN/maptools dev-lang/R
+DESCRIPTION=Political Behaviour Analysis Tool
+EAPI=4
+IUSE=r_suggests_data_table r_suggests_descr r_suggests_ggplot2 r_suggests_maptools r_suggests_mcmcpack r_suggests_plyr r_suggests_sandwich r_suggests_xtable r_suggests_zelig byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( LGPL-2 LGPL-2.1 )
+RDEPEND=>=dev-lang/R-3.0 sci-CRAN/maptools r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_descr? ( sci-CRAN/descr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_mcmcpack? ( sci-CRAN/MCMCpack ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_xtable? ( sci-CRAN/xtable ) r_suggests_zelig? ( sci-CRAN/Zelig ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/SciencePo_0.3.3-01.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=f8e9a993755766e46eefc80620422511

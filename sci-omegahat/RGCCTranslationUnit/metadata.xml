@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		R interface to GCC source code information // This package
+		provides rich facilities for extracting meta-data about C/C++
+		code to get a description of variables, routines, data
+		structures, classes and methods. We use these to
+		programmatically explore and summarize native code and
+		importantly, to generate R bindings to it (or for other
+		languages). This differs from SWIG in that a) it makes the
+		information available to R programmers directly and so the
+		analysis of the code and binding generation can be done
+		entirely within R, and b) it provides more information than
+		SWIG does, e.g. allowing us to examine the bodies of
+		routines/methods and so compute call graphs, analyze the use of
+		global variables. This holds some promise for helping to
+		automate the conversion of C code in R packages to thread-safe
+		code for use with in-process concurrent threads, and general
+		refactoring.
+	</longdescription>
+</pkgmetadata>

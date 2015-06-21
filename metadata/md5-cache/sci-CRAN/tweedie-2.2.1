@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R
+DESCRIPTION=Tweedie exponential family models
+EAPI=4
+IUSE=r_suggests_stabledist r_suggests_statmod byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=r_suggests_stabledist? ( sci-CRAN/stabledist ) r_suggests_statmod? ( >=sci-CRAN/statmod-1.4.20 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tweedie_2.2.1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=31e70ff24cf13a2f118a6ba89c0ac176

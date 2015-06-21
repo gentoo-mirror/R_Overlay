@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/waveslim sci-BIOC/Biostrings sci-BIOC/oligo sci-BIOC/IRanges sci-BIOC/oligoClasses sci-BIOC/GenomeGraphs sci-BIOC/Biobase sci-BIOC/preprocessCore sci-BIOC/affy sci-BIOC/GenomicRanges dev-lang/R
+DESCRIPTION=Wavelet-Based Models for Tiling ... (see metadata)
+EAPI=4
+IUSE=r_suggests_bsgenome r_suggests_bsgenome_athaliana_tair_tair9 r_suggests_pd_atdschip_tiling r_suggests_txdb_athaliana_biomart_plantsmart12 r_suggests_wavetilingdata byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/waveslim sci-BIOC/Biostrings sci-BIOC/oligo sci-BIOC/IRanges sci-BIOC/oligoClasses sci-BIOC/GenomeGraphs sci-BIOC/Biobase sci-BIOC/preprocessCore sci-BIOC/affy sci-BIOC/GenomicRanges r_suggests_bsgenome? ( sci-BIOC/BSgenome ) r_suggests_bsgenome_athaliana_tair_tair9? ( sci-BIOC/BSgenome_Athaliana_TAIR_TAIR9 ) r_suggests_pd_atdschip_tiling? ( sci-BIOC/pd_atdschip_tiling ) r_suggests_txdb_athaliana_biomart_plantsmart12? ( sci-BIOC/TxDb_Athaliana_BioMart_plantsmart12 ) r_suggests_wavetilingdata? ( sci-BIOC/waveTilingData ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/waveTiling_0.99.2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=21b910fb1cd99ace18afef6b6a3879a5

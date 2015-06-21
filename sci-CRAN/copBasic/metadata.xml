@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		General Copula Theory and Many Utility Functions // Extensive
+		functions for copula computations and related mathematical
+		operations are given that are oriented around the oft cited and
+		fundamental copula theory described by Nelsen (2006), Joe
+		(2015), and other selected works. The lower, upper, product,
+		and select other copulas are implemented. Individual copula
+		functional support is intentionally limited to keep the package
+		focused on an API to general copula theory. Expressions
+		available for an arbitrary copula include the diagonal of a
+		copula, the survival copula, the dual of a copula, co-copula,
+		and numerical copula density. Level curves (sets) are
+		available. Horizontal and vertical copula sections and
+		derivatives of such sections also are supported. The numerical
+		derivatives of a copula are provided as well as inverses;
+		functions for copula simulation thus are supported. Composition
+		of copulas is provided: (1) composition of a single copula
+		using two composition parameters, (2) composition of two
+		copulas using two composition parameters, (3) composition of
+		two copulas using four composition parameters, and (4) random
+		variates of composited copulas.  Characteristics of copulas
+		include Kendall Tau, Spearman Rho, Gini Gamma, Blomqvist Beta,
+		and Schweizer-Wolff Sigma, tail dependency, and tail order.
+		Logical evaluators of positively/negatively quadrant
+		dependency, left-tail decreasing, and right-tail increasing
+		also are available. The Kullback-Leibler divergence and Vuong's
+		Procedure to support inference are available. Quantile and
+		median regression for V with respect to U and U with respect to
+		V is available. Empirical copulas (EC) are supported. ECs are
+		dependent on gridded data structures for which generation
+		capability is provided. The derivatives of the EC grid are
+		computable. Also, the inverses of the derivatives, which are
+		the conditional QDFs of copula sections also are computable.
+		Median and quantile regression of an EC also is supported along
+		with support for EC simulation of V conditional on U.
+	</longdescription>
+</pkgmetadata>

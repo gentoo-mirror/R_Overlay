@@ -1,0 +1,11 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Characterization of functional g... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/TilePlot_1.3.1.tar.gz -> TilePlot_1.3.1-r1.tar.gz"
+LICENSE='GPL-2'

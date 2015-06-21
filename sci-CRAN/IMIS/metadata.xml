@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Increamental Mixture Importance Sampling // IMIS algorithm draws
+		samples from the posterior distribution. The user has to define
+		the following R functions in advance: prior(x) calculates prior
+		density of x, likelihood(x) calculates the likelihood of x, and
+		sample.prior(n) draws n samples from the prior distribution.
+	</longdescription>
+</pkgmetadata>

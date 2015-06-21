@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/hwriter dev-lang/R
+DESCRIPTION=A user friendly R package to per... (see metadata)
+EAPI=4
+IUSE=r_suggests_annotationdbi r_suggests_go_db r_suggests_kegg_db r_suggests_org_hs_eg_db r_suggests_reactome_db r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/hwriter r_suggests_annotationdbi? ( sci-BIOC/AnnotationDbi ) r_suggests_go_db? ( sci-BIOC/GO_db ) r_suggests_kegg_db? ( sci-BIOC/KEGG_db ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_reactome_db? ( sci-BIOC/reactome_db ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/neaGUI_0.99.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=1da7044477d7276a7a09d3ebb37d5542

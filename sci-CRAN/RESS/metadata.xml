@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Integrates R and Essentia // Contains two functions that query
+		AuriQ Systems' Essentia Database and return the results in R.
+		'essQuery' takes a single Essentia command and captures the
+		output in R, where you can save the output to a dataframe or
+		stream it directly into additional analysis. 'read.udb' takes a
+		file containing any number of Essentia commands and captures
+		the output of the specified statements into R dataframes.
+		Essentia can be downloaded for free at
+		http://www.auriq.com/documentation/source/install/index.html.
+	</longdescription>
+</pkgmetadata>

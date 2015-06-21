@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/lpSolve dev-lang/R
+DESCRIPTION=Qualitative Comparative Analysis
+EAPI=4
+IUSE=r_suggests_venndiagram byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/lpSolve r_suggests_venndiagram? ( sci-CRAN/VennDiagram ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/QCA_1.1-4.tar.gz -> cran_QCA_1.1-4-r1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=382b6f3a1d2518c5975ed849a3374d5b

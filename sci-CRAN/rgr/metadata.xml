@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Applied Geochemistry EDA // Geological Survey of Canada (GSC)
+		functions for exploratory data analysis with applied
+		geochemical data, with special application to the estimation of
+		background ranges and identification of outliers, 'anomalies',
+		to support mineral exploration and environmental studies.
+		Additional functions are provided to support analytical data
+		QA/QC, ANOVA for investigations of field sampling and
+		analytical variability, and utility tasks.  NOTE: function
+		caplot() for concentration-area plots employs package 'akima',
+		however, 'akima' is only licensed for not-for-profit use.
+		Therefore, not-for-profit users of 'rgr' will have to
+		independently make package 'akima' available through
+		library(....); and use of function caplot() by for-profit users
+		will fail.
+	</longdescription>
+</pkgmetadata>

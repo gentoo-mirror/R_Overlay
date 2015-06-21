@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/alabama sci-CRAN/BB sci-CRAN/nleqslv sci-CRAN/SQUAREM dev-lang/R
+DESCRIPTION=Computation of Generalized Nash Equilibria
+EAPI=4
+IUSE=r_suggests_sensitivity byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/alabama sci-CRAN/BB sci-CRAN/nleqslv sci-CRAN/SQUAREM r_suggests_sensitivity? ( sci-CRAN/sensitivity ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/GNE_0.99-1.tar.gz -> GNE_0.99-1-r1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=48a7ce417737d559361927944e87338e

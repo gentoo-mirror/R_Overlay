@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Build panel data sets from PSID raw data // Makes it easy to
+		build panel data in wide format from PSID delivered raw data.
+		Deals with data downloaded and pre-processed by Stata or SAS,
+		or can optionally download directly from the PSID server using
+		the SAScii package. psidR takes care of merging data from each
+		wave onto a cross-period index file, so that individuals can be
+		followed over time. The user must specify which years they are
+		interested in, and the PSID variable names (e.g. ER21003) for
+		each year (they differ in each year). There are different panel
+		data designs and two popular subsetting criteria (heads only
+		and core sample only) implemented.
+	</longdescription>
+</pkgmetadata>

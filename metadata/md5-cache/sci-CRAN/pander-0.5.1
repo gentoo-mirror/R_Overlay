@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.15.0 sci-CRAN/digest sci-CRAN/Rcpp dev-lang/R
+DESCRIPTION=An R Pandoc Writer
+EAPI=4
+IUSE=r_suggests_descr r_suggests_ggplot2 r_suggests_knitr r_suggests_korpus r_suggests_microbenchmark r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-2.15.0 sci-CRAN/digest sci-CRAN/Rcpp sci-CRAN/Rcpp app-text/pandoc r_suggests_descr? ( sci-CRAN/descr ) r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-0.9.2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_korpus? ( sci-CRAN/koRpus ) r_suggests_microbenchmark? ( sci-CRAN/microbenchmark ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pander_0.5.1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=3b22ae2a8a744c1809bda6aecc7e78a5

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/geometry sci-CRAN/proxy >=dev-lang/R-3.0.0 >=sci-CRAN/Rcpp-0.11.0 >=sci-CRAN/lpSolveAPI-5.5.0.14 dev-lang/R
+DESCRIPTION=Mixed Models, Particularly Spatial GLMMs
+EAPI=4
+IUSE=r_suggests_lme4 r_suggests_maps r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=CeCILL-2
+RDEPEND=sci-CRAN/geometry sci-CRAN/proxy >=dev-lang/R-3.0.0 >=sci-CRAN/Rcpp-0.11.0 >=sci-CRAN/lpSolveAPI-5.5.0.14 sci-CRAN/Rcpp sci-CRAN/RcppEigen r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spaMM_1.4.1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=35f4565ea6758e9f8fbb2741479d4457

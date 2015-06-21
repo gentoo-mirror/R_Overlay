@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Rcpp integration of different Ziggurat Normal RNG implementations
+		// The Ziggurat generator for normally distributed random
+		numbers, originally proposed by Marsaglia and Tsang (JSS,
+		2000), has been improved upon a few times starting with Leong
+		et al (JSS, 2005). This package provides an aggregation in
+		order to compare different implementations. The goal is to
+		provide an 'faster but good enough' alternative for use with R
+		and C++ code. . The package is still in an early state. Unless
+		you know what you are doing, sticking with the generators
+		provided by R may be a good idea as these have been extremely
+		diligently tested.
+	</longdescription>
+</pkgmetadata>

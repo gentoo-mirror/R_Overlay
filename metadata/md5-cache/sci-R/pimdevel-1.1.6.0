@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.12 sci-CRAN/nleqslv dev-lang/R
+DESCRIPTION=Probabilistic Index Models
+EAPI=4
+IUSE=r_suggests_bb r_suggests_glmnet r_suggests_lqa byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.12 sci-CRAN/nleqslv r_suggests_bb? ( sci-CRAN/BB ) r_suggests_glmnet? ( >=sci-CRAN/glmnet-1.9.3 ) r_suggests_lqa? ( sci-CRAN/lqa ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/pimdevel_1.1.6.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=67763e81da4a414eb4d6bb2cd2651619

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Draw Diagrams (mis)Representing the Results of Mass Spec
+		Experiments // The output of an affinity-purification mass
+		spectrometry experiment is typically a list of proteins that
+		were observed in the experiment, identified by UniProt
+		identifiers (http://www.uniprot.org/).  This package takes as
+		input a list of UniProt identifiers, and the associated Mascot
+		scores from the experiment (which indicate the likelihood that
+		the protein has been correctly identified), clusters them by
+		gene ontology category (http://geneontology.org/), then draws
+		diagrams showing the results in hierarchical clusters by
+		category, with lines for individual proteins representing the
+		associated Mascot score. The results are in general not
+		publication-ready, but will rather require editing via a
+		graphics editor that can interpret SVG (scalable vector
+		graphics) format.  As an alternative representation, the
+		package will also generate tag clouds based on the Mascot
+		scores.
+	</longdescription>
+</pkgmetadata>

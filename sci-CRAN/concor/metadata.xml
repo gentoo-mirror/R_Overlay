@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Concordance // The four functions svdcp (cp for column
+		partitioned), svdbip or svdbip2 (bip for bi-partitioned), and
+		svdbips (s for a simultaneous optimization of one set of r
+		solutions), correspond to a "SVD by blocks" notion, by
+		supposing each block depending on relative subspaces, rather
+		than on two whole spaces as usual SVD does. The other
+		functions, based on this notion, are relative to two column
+		partitioned data matrices x and y defining two sets of subsets
+		xi and yj of variables and amount to estimate a link between xi
+		and yj for the pair (xi, yj) relatively to the links associated
+		to all the other pairs.
+	</longdescription>
+</pkgmetadata>

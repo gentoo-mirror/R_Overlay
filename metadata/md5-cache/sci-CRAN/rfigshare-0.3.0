@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/XML >=dev-lang/R-3.0 >=sci-CRAN/httr-0.3 sci-CRAN/RJSONIO sci-CRAN/ggplot2 sci-CRAN/plyr sci-CRAN/yaml dev-lang/R
+DESCRIPTION=an R interface to figshare.com.
+EAPI=4
+IUSE=r_suggests_gdata r_suggests_knitr r_suggests_testthat r_suggests_uuid byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/XML >=dev-lang/R-3.0 >=sci-CRAN/httr-0.3 sci-CRAN/RJSONIO sci-CRAN/ggplot2 sci-CRAN/plyr sci-CRAN/yaml r_suggests_gdata? ( sci-CRAN/gdata ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_uuid? ( sci-CRAN/uuid ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rfigshare_0.3-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=e26b30b28d9e379914930667e5907a01

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/nutshell_bbdb sci-CRAN/nutshell_audioscrobbler dev-lang/R
+DESCRIPTION=Data for R in a Nutshell
+EAPI=4
+IUSE=r_suggests_arules r_suggests_rsqlite byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-NC-ND-3.0
+RDEPEND=sci-CRAN/nutshell_bbdb sci-CRAN/nutshell_audioscrobbler r_suggests_arules? ( sci-CRAN/arules ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nutshell_2.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=0fc5538a45816e03f3f0080df731f8c9

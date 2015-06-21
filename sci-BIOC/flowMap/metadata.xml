@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A probabilistic algorithm for matching and comparing multiple
+		flow cytometry samples // This package provides an algorithm to
+		compare and match cell populations across multiple flow
+		cytometry samples. The method is based on the Friedman-Rafsky
+		test, a nonparametric multivariate statistical test, where two
+		cell distributions match if they occupy a similar feature
+		space. The algorithm allows the users to specify a reference
+		sample for comparison or to construct a reference sample from
+		the available data. The output of the algorithm is a set of
+		text files where the cell population labels are replaced by a
+		metaset of population labels, generated from the matching
+		process.
+	</longdescription>
+</pkgmetadata>

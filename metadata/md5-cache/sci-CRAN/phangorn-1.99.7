@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/igraph-0.6 >=sci-CRAN/ape-3.0.11 >=dev-lang/R-2.15.0 sci-CRAN/fastmatch sci-CRAN/quadprog dev-lang/R
+DESCRIPTION=Phylogenetic analysis in R
+EAPI=4
+IUSE=r_suggests_flashclust r_suggests_phytools r_suggests_rgl r_suggests_seqinr r_suggests_seqlogo r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/igraph-0.6 >=sci-CRAN/ape-3.0.11 >=dev-lang/R-2.15.0 sci-CRAN/fastmatch sci-CRAN/quadprog r_suggests_flashclust? ( sci-CRAN/flashClust ) r_suggests_phytools? ( sci-CRAN/phytools ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_seqinr? ( sci-CRAN/seqinr ) r_suggests_seqlogo? ( sci-BIOC/seqLogo ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/phangorn_1.99-7.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=778110ccd5a0a8c4c4d3c72503cc28ed

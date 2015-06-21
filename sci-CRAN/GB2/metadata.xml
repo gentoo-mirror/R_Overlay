@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generalized Beta Distribution of the Second Kind: Properties,
+		Likelihood, Estimation // Package GB2 explores the Generalized
+		Beta distribution of the second kind. Density, cumulative
+		distribution function, quantiles and moments of the
+		distributions are given. Functions for the full log-likelihood,
+		the profile log-likelihood and the scores are provided.
+		Formulas for various indicators of inequality and poverty under
+		the GB2 are implemented. The GB2 is fitted by the methods of
+		maximum pseudo-likelihood estimation using the full and profile
+		log-likelihood, and non-linear least squares estimation of the
+		model parameters. Various plots for the visualization and
+		analysis of the results are provided. Variance estimation of
+		the parameters is provided for the method of maximum pseudo-
+		likelihood estimation. A mixture distribution based on the
+		compounding property of the GB2 is presented (denoted as
+		"compound" in the documentation). This mixture distribution is
+		based on the discretization of the distribution of the
+		underlying random scale parameter. The discretization can be
+		left or right tail. Density, cumulative distribution function,
+		moments and quantiles for the mixture distribution are
+		provided. The compound mixture distribution is fitted using the
+		method of maximum pseudo-likelihood estimation. The fit can
+		also incorporate the use of auxiliary information. In this new
+		version of the package, the mixture case is complemented with
+		new functions for variance estimation by linearization and
+		comparative density plots.
+	</longdescription>
+</pkgmetadata>

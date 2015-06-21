@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.10.1 sci-CRAN/sp sci-CRAN/knitr sci-CRAN/DEoptim dev-lang/R
+DESCRIPTION=Tools for modelling the growth d... (see metadata)
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=>=dev-lang/R-2.10.1 sci-CRAN/sp sci-CRAN/knitr sci-CRAN/DEoptim dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/qfa_0.0-22.tar.gz -> qfa_0.0-22-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=40a3b95cec6e5379a94f67be2de78f4c

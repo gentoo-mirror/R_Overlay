@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/zoo-1.7.10 dev-lang/R
+DESCRIPTION=eXtensible Time Series
+EAPI=4
+IUSE=r_suggests_chron r_suggests_fts r_suggests_its r_suggests_timedate r_suggests_timeseries r_suggests_tis r_suggests_tseries byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/zoo-1.7.10 sci-CRAN/zoo r_suggests_chron? ( sci-CRAN/chron ) r_suggests_fts? ( sci-CRAN/fts ) r_suggests_its? ( sci-CRAN/its ) r_suggests_timedate? ( sci-CRAN/timeDate ) r_suggests_timeseries? ( sci-CRAN/timeSeries ) r_suggests_tis? ( sci-CRAN/tis ) r_suggests_tseries? ( sci-CRAN/tseries ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/xts_0.9-7.tar.gz -> r-forge_xts_0.9-7-r8.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=40740ce1814faefe3cf6bf0203246b0a

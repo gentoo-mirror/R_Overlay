@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.0 dev-lang/R
+DESCRIPTION=A Toolkit for Recursive Partytioning
+EAPI=4
+IUSE=r_suggests_aer r_suggests_coin r_suggests_formula r_suggests_mlbench r_suggests_mvpart r_suggests_mvtnorm r_suggests_pmml r_suggests_psychotools r_suggests_psychotree r_suggests_rjava r_suggests_rweka r_suggests_sandwich r_suggests_strucchange r_suggests_vcd r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.1.0 r_suggests_aer? ( sci-CRAN/AER ) r_suggests_coin? ( sci-CRAN/coin ) r_suggests_formula? ( sci-CRAN/Formula ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_mvpart? ( sci-CRAN/mvpart ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_pmml? ( sci-CRAN/pmml ) r_suggests_psychotools? ( sci-CRAN/psychotools ) r_suggests_psychotree? ( sci-CRAN/psychotree ) r_suggests_rjava? ( sci-CRAN/rJava ) r_suggests_rweka? ( >=sci-CRAN/RWeka-0.4.19 ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_strucchange? ( sci-CRAN/strucchange ) r_suggests_vcd? ( sci-CRAN/vcd ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/partykit_0.8-1.tar.gz -> partykit_0.8-1-r3.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=5f4b69d598dac457f62effdbd3740b93

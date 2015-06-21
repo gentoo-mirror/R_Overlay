@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Communication Between Editor and Viewer for Literate Programs //
+		This utility eases the debugging of literate documents ('noweb'
+		files) by patching the synchronization information (the
+		'.synctex(.gz)' file) produced by 'pdflatex' with concordance
+		information produced by 'Sweave' or 'knitr' and 'Sweave' or
+		'knitr' ; this allows for bilateral communication between a
+		text editor (visualizing the 'noweb' source) and a viewer
+		(visualizing the resultant 'PDF'), thus bypassing the
+		intermediate 'TeX' file.
+	</longdescription>
+</pkgmetadata>

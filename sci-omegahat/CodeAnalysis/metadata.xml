@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tools for static analysis of R code // This package provides a
+		(growing) collection of functions that analyze R code and
+		identify particular idioms or characteristics. Some of these
+		functions modify the code to produce more streamlined version.
+		The package is motivated by compilation of R code and
+		simplifying code ahead of compilation. However, the
+		functionality may be useful generally for improving R code and
+		diagnosing issues, and also in other contexts such as dynamic
+		documents. We will continue to add functionality to analyze
+		code for different purposes, e.g. memory management,
+		opportunities for parallelism, data locality for parallel
+		computations, ... Currently, there is functionality to *  find
+		unused parameters/arguments *  find unused
+		variables/assignments *  identify constant parameters (i.e.
+		unchanged in the function's body) *  detect vector
+		concatenation in loops *  identify  remove dead code (after a
+		call to return()) *  remove dead if/else code blocks (i.e.
+		where we are certain the condition is TRUE or FALSE)
+	</longdescription>
+</pkgmetadata>

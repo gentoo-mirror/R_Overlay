@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Differentially Private Regularized Logistic Regression //
+		PrivateLR implements two differentially private algorithms for
+		estimating L2-regularized logistic regression coefficients. A
+		randomized algorithm F is epsilon-differentially private (C.
+		Dwork, Differential Privacy, ICALP 2006), if |log(P(F(D) in S))
+		- log(P(F(D') in S))| = epsilon for any pair D, D' of datasets
+		that differ in exactly one element, any set S, and the
+		randomness is taken over the choices F makes.
+	</longdescription>
+</pkgmetadata>

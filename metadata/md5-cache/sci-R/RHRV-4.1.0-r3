@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/nonlinearTseries-0.2 >=sci-CRAN/tkrplot-0.0.18 >=sci-CRAN/waveslim-1.6.4 dev-lang/R
+DESCRIPTION=Heart rate variability analysis of ECG data
+EAPI=4
+IUSE=r_suggests_highlight byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/nonlinearTseries-0.2 >=sci-CRAN/tkrplot-0.0.18 >=sci-CRAN/waveslim-1.6.4 r_suggests_highlight? ( sci-CRAN/highlight ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/RHRV_4.1.0.tar.gz -> RHRV_4.1.0-r3.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=1839ef1cb0e2d1fe6740a95207d91374

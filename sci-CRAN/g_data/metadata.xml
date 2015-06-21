@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Delayed-Data Packages // Create and maintain delayed-data
+		packages (ddp's).  Data stored in a ddp are available on
+		demand, but do not take up memory until requested. You attach a
+		ddp with g.data.attach(), then read from it and assign to it in
+		a manner similar to S-PLUS, except that you must run
+		g.data.save() to actually commit to disk.
+	</longdescription>
+</pkgmetadata>

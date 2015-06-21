@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Linear Model Bias Correction for RNA-Seq Data // This is the
+		package for implementing the method in "Bias Correction in RNA-
+		Seq Short-read Counts using Penalized Regression." It first
+		using a penalized regression to determine an appropriate
+		surrounding sequence, then refits the model using the
+		dinucleotide expansion.
+	</longdescription>
+</pkgmetadata>

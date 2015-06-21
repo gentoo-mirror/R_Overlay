@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Functions for Nonlinear Least Squares Solutions // nlmrt provides
+		tools for working with nonlinear least squares problems using a
+		calling structure similar to, but much simpler than, that of
+		the nls() function. Moreover, where nls() specifically does NOT
+		deal with small or zero residual problems, nlmrt is quite happy
+		to solve them. It also attempts to be more robust in finding
+		solutions, thereby avoiding 'singular gradient' messages that
+		arise in the Gauss-Newton method within nls(). The Marquardt-
+		Nash approach in nlmrt generally works more reliably to get a
+		solution, though this solution may be one of a set of
+		possibilities, and may also be statistically unsatisfactory.
+		Because of the intended aggressive policy to find solutions,
+		the approach may use additional and unnecessary function and
+		Jacobian evaluations. Note that the Jacobian function is
+		developed using analytic expressions rather than numerical
+		approximations if this is possible. Added print and summary as
+		of August 28, 2012.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Translates information from netcdf files with MC2 output into
+		inter-PVT transitions. // Post processes MC2 output, especially
+		for use by Path or ST-Sim.  MC2 (short for "MC1 version 2") is
+		a dynamic global vegetation model (en.wikipedia.org/wiki/DGVM).
+		Path (essa.com/tools/path) and ST-Sim (www.apexrms.com) are
+		state-and-transition model (STM) engines. MC2 has a user
+		website at sites.google.com/site/mc1dgvmusers.  Since 2001, MC1
+		has been used to simulate changes in natural vegetation due to
+		climate change at scales from regional to global.  In 2012, MC1
+		was reimplemented in C++ to make it faster and to reduce
+		storage requirements.  This newer version is referred to as
+		MC2, an abbreviation of "MC1 version 2".  Beginning in 2011,
+		output from MC1 and MC2 has been used to inform regional state-
+		and-transition model simulations by the U.S. Forest Service and
+		the Washington State Department of Natural Resources.  Projects
+		to date have involved study areas in central Oregon, the
+		Olympic Peninsula, the Blue Mountains ecoregion, southwestern
+		Oregon, and southeastern Oregon.  In the first of this series
+		of projects, the netCDF output files from MC2 were manually
+		post-processed, mostly in Excel, to produce input .csv files
+		for the STM engines. Beginning with the second project, R
+		scripts were used to automate the post-processing work.  These
+		R scripts have been collected into the MC2toPath R-package.
+	</longdescription>
+</pkgmetadata>

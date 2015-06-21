@@ -1,0 +1,18 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Data exploration tools from Yale University.'
+SRC_URI="http://cran.r-project.org/src/contrib/YaleToolkit_4.1.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="sci-CRAN/gpairs
+	sci-CRAN/vcd
+	sci-CRAN/barcode
+	sci-CRAN/colorspace
+"
+RDEPEND="${DEPEND-}"

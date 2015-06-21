@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Phonetic-Coding For Portuguese // The SoundexBR package provides
+		an algorithm for decoding names into phonetic codes, as
+		pronounced in Portuguese. The goal is for homophones to be
+		encoded to the same representation so that they can be matched
+		despite minor differences in spelling. The algorithm mainly
+		encodes consonants; a vowel will not be encoded unless it is
+		the first letter. The soundex code resultant consists of a four
+		digits long string composed by one letter followed by three
+		numerical digits: the letter is the first letter of the name,
+		and the digits encode the remaining consonants.
+	</longdescription>
+</pkgmetadata>

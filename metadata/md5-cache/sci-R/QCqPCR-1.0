@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/ReadqPCR sci-BIOC/NormqPCR sci-CRAN/RColorBrewer sci-BIOC/Biobase sci-CRAN/gplots dev-lang/R
+DESCRIPTION=Functions for quality control of RT-qPCR data
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=sci-BIOC/ReadqPCR sci-BIOC/NormqPCR sci-CRAN/RColorBrewer sci-BIOC/Biobase sci-CRAN/gplots dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/QCqPCR_1.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=2d8f7ad1bd2aa851eae3ef53cdbd2901

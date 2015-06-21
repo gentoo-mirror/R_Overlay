@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian emulation of computer programs // This package allows
+		one to estimate the output of a computer program, as a function
+		of the input parameters, without actually running it. The
+		computer program is assumed to be a Gaussian process, whose
+		parameters are estimated using Bayesian techniques that give a
+		PDF of expected program output.  This PDF is conditional on a
+		``training set'' of runs, each consisting of a point in
+		parameter space and the model output at that point.  The
+		emphasis is on complex codes that take weeks or months to run,
+		and that have a large number of undetermined input parameters;
+		many climate prediction models fall into this class.  The
+		emulator essentially determines Bayesian posterior estimates of
+		the PDF of the output of a model, conditioned on results from
+		previous runs and a user-specified prior linear model.  A
+		working example is given in the help page for function
+		`interpolant()', which should be the first point of reference.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.13 dev-lang/R
+DESCRIPTION=Composite-Likelihood Based Analy... (see metadata)
+EAPI=4
+IUSE=r_suggests_fields r_suggests_mapproj r_suggests_randomfields r_suggests_scatterplot3d r_suggests_spam byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.13 r_suggests_fields? ( sci-CRAN/fields ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_randomfields? ( sci-CRAN/RandomFields ) r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d ) r_suggests_spam? ( sci-CRAN/spam ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/CompRandFld_1.0.3-4.tar.gz -> CompRandFld_1.0.3-4-r3.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=a937fca51451026f01f697e7514ae7b7

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stochastic Newton Sampler (SNS) // Stochastic Newton Sampler
+		(SNS) is a Metropolis-Hastings-based, Markov Chain Monte Carlo
+		sampler for twice differentiable, log-concave probability
+		densities where the proposal density function is a multivariate
+		Gaussian resulting from a second-order Taylor-series expansion
+		of log-density around the current point. The mean of the
+		Gaussian proposal is the full Newton-Raphson step from the
+		current point. A boolean flag allows for switching from SNS to
+		Newton-Raphson optimization (by choosing the mean of proposal
+		function as next point). This can be used during burn-in to get
+		close to the mode of the pdf (which is unique due to
+		concavity). For high-dimensional densities, mixing can be
+		improved via 'state space partitioning' strategy, in which SNS
+		is applied to disjoint subsets of state space, wrapped in a
+		Gibbs cycle.
+	</longdescription>
+</pkgmetadata>

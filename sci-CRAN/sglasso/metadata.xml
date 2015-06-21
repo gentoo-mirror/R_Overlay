@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Lasso Method for RCON(V,E) Models // RCON(V, E) models (Hjsgaard,
+		et al., 2008) are a kind of restriction of the Gaussian
+		Graphical Models defined by a set of equality constraints on
+		the entries of the concentration matrix. 'sglasso' package
+		implements the structured graphical lasso (sglasso) estimator
+		proposed in Abbruzzo et al. (2014) for the weighted
+		l1-penalized RCON(V, E) model. Two cyclic coordinate algorithms
+		are implemented to compute the sglasso estimator, i.e. a cyclic
+		coordinate minimization (CCM) and a cyclic coordinate descent
+		(CCD) algorithm.
+	</longdescription>
+</pkgmetadata>

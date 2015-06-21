@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Collapsed Gibbs sampling methods for topic models. // This
+		package implements latent Dirichlet allocation (LDA) and
+		related models.  This includes (but is not limited to) sLDA,
+		corrLDA, and the mixed-membership stochastic blockmodel.
+		Inference for all of these models is implemented via a fast
+		collapsed Gibbs sampler writtten in C.  Utility functions for
+		reading/writing data typically used in topic models, as well as
+		tools for examining posterior distributions are also included.
+	</longdescription>
+</pkgmetadata>

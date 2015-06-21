@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/colorspace sci-CRAN/vcd sci-CRAN/reshape2 sci-CRAN/latticeExtra sci-CRAN/multcomp sci-CRAN/leaps sci-CRAN/gridExtra sci-CRAN/Rcmdr sci-CRAN/RColorBrewer sci-CRAN/shiny >=dev-lang/R-3.0.2 dev-lang/R
+DESCRIPTION=Statistical Analysis and Data Di... (see metadata)
+EAPI=4
+IUSE=r_suggests_abind r_suggests_car r_suggests_mvtnorm r_suggests_rcmdrplugin_hh byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/colorspace sci-CRAN/vcd sci-CRAN/reshape2 sci-CRAN/latticeExtra sci-CRAN/multcomp sci-CRAN/leaps sci-CRAN/gridExtra sci-CRAN/Rcmdr sci-CRAN/RColorBrewer sci-CRAN/shiny >=dev-lang/R-3.0.2 r_suggests_abind? ( sci-CRAN/abind ) r_suggests_car? ( sci-CRAN/car ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_rcmdrplugin_hh? ( sci-CRAN/RcmdrPlugin_HH ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/HH_3.1-14.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=2a264ff6950818e976c0c3e69728592b

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Analysis of qRT-PCR Data // Quantitative RT-PCR data are
+		analyzed using generalized linear mixed models based on
+		lognormal-Poisson error distribution, fitted using MCMC.
+		Control genes are not required but can be incorporated as
+		Bayesian priors or, when template abundances correlate with
+		conditions, as trackers of global effects (common to all
+		genes). The package also implements a lognormal model for
+		higher-abundance data and a "classic" model involving multi-
+		gene normalization on a by-sample basis. Several plotting
+		functions are included to extract and visualize results. The
+		detailed tutorial is available here: http://www.bio.utexas.edu/
+		research/matz_lab/matzlab/Methods_files/mcmc.qpcr.tutorial.pdf.
+	</longdescription>
+</pkgmetadata>

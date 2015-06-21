@@ -1,0 +1,18 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Microeconomic Analysis with Non-Parametric Methods'
+SRC_URI="http://download.r-forge.r-project.org/src/contrib/micEconNP_0.1-0.tar.gz -> micEconNP_0.1-0-r1.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND=">=sci-CRAN/np-0.30.0
+	>=sci-CRAN/miscTools-0.6.16
+	>=sci-CRAN/crs-0.15.13
+	>=sci-CRAN/micEcon-0.6.7
+"
+RDEPEND="${DEPEND-}"

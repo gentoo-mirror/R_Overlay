@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Uses an Archive to Amend Previous Stages of a Pipe using Current
+		Output // Remedies a common problem in piping: not having
+		access to intermediate outputs of the pipe. Within a "loop", a
+		piping intermediate is  stored in a stack archive, data is
+		processed, and then both the stored intermediate and the
+		current output are reintegrated using an "ending" function. Two
+		special ending functions are provided: amend and insert.
+		However, any ending function can be specified, including merge
+		functions, join functions, setNames(), etc. This framework
+		allows the following work-flow: focus on a particular aspect or
+		section of a data set, conduct specific operations, and then
+		reintegrate changes into the whole.
+	</longdescription>
+</pkgmetadata>

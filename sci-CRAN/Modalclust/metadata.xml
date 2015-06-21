@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Hierarchical Modal Clustering // Performs Modal Clustering (MAC)
+		including Hierarchical Modal Clustering (HMAC) along with their
+		parallel implementation (PHMAC) over several processors.  These
+		model-based non-parametric clustering techniques can extract
+		clusters in very high dimensions with arbitrary density shapes.
+		By default clustering is performed over several resolutions and
+		the results are summarised as a hierarchical tree. Associated
+		plot functions are also provided. There is a package vignette
+		that provides many examples. This version adheres to CRAN
+		policy of not spanning more than two child processes by
+		default.
+	</longdescription>
+</pkgmetadata>

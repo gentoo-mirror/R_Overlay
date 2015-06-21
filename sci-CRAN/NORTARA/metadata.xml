@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generation of Multivariate Data with Arbitrary Marginals // An
+		implementation of a specific method for generating
+		n-dimensional random vectors with given marginal distributions
+		and correlation matrix. The method uses the NORTA (NORmal To
+		Anything) approach which generates a standard normal random
+		vector and then transforms it into a random vector with
+		specified marginal distributions and the RA (Retrospective
+		Approximation) algorithm which is a generic stochastic root-
+		finding algorithm. The marginals can be continuous or discrete.
+		See the vignette of package for more details.
+	</longdescription>
+</pkgmetadata>

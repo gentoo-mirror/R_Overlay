@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/rJava-0.8.5 sci-CRAN/XML sci-CRAN/dataonelibs >=sci-CRAN/XML-3.95.0.1 sci-CRAN/rJava dev-lang/R
+DESCRIPTION=DataONE R Client
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=sci-CRAN/rJava-0.8.5 sci-CRAN/XML sci-CRAN/dataonelibs >=sci-CRAN/XML-3.95.0.1 sci-CRAN/rJava virtual/jdk:1.6 dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dataone_1.0.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=795ed456508cfd936c47c62a1fcb19b4

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Framework for Understanding Structural Errors (FUSE) //
+		Implementation of the framework for hydrological modelling
+		FUSE, based on the Fortran version described in Clark et al.
+		(2008). The package consists of two modules: Soil Moisture
+		Accounting module (\code{fuse.sim}) and Gamma routing module
+		(\code{routgamma.sim}). It also contains default parameter
+		ranges (see \code{fuse.ranges} and \code{routgamma.ranges}) and
+		three data objects: DATA, parameters and modlist.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Set Options if Unset // A single function 'options.ifunset(...)'
+		is contained herewith, which allows the user to set a global
+		option ONLY if it is not already set. By this token, for
+		package maintainers this function can be used in preference to
+		the standard 'options(...)' function, making provision for
+		THEIR end user to place 'options(...)' directives within their
+		'.Rprofile' file, which will not be overridden at the point
+		when a package is loaded.
+	</longdescription>
+</pkgmetadata>

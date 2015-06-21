@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-View Clustering // An implementation of Multi-View
+		Clustering (Bickel and Scheffer, 2004). Documents are generated
+		by drawing word values from a categorical distribution for each
+		word, given the cluster. This means words are not counted
+		(multinomial, as in the paper), but words take on different
+		values from a finite set of values (categorical). Thus, it
+		implements Mixture of Categoricals EM (as opposed to Mixture of
+		Multinomials developed in the paper), and Spherical k-Means.
+		The latter represents documents as vectors in the categorical
+		space.
+	</longdescription>
+</pkgmetadata>

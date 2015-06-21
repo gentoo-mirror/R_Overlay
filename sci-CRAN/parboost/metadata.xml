@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Distributed Model-Based Boosting // Distributed gradient boosting
+		based on the mboost package. The parboost package is designed
+		to scale up component-wise functional gradient boosting in a
+		distributed memory environment by splitting the observations
+		into disjoint subsets, or alternatively using bootstrap samples
+		(bagging). Each cluster node then fits a boosting model to its
+		subset of the data. These boosting models are combined in an
+		ensemble, either with equal weights, or by fitting a
+		(penalized) regression model on the predictions of the
+		individual models on the complete data.
+	</longdescription>
+</pkgmetadata>

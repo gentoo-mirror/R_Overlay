@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Replication Interval Functions // A common problem faced by
+		journal reviewers and authors is the question of whether the
+		results of a replication study are consistent with the original
+		published study. One solution to this problem is to examine the
+		effect size from the published study and generate the range of
+		effect sizes that could reasonably be obtained (due to random
+		sampling) in a replication attempt (i.e., calculate a
+		replication interval). If a replication effect size falls
+		outside the replication interval then that value could not have
+		occurred to due the effects of sampling error alone.
+		Alternatively, if a replication effect size falls within the
+		replication interval then the replication results could have
+		reasonably occurred due to the effects of sampling error alone.
+		This package has functions that calculate the replication
+		interval for two different types of effect sizes, namely
+		correlation (i.e., r) and the standardized mean difference
+		(i.e., d-value).
+	</longdescription>
+</pkgmetadata>

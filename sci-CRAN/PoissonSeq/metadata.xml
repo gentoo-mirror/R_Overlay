@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Significance analysis of sequencing data based on a Poisson log
+		linear model // This package implements a method for
+		normalization, testing, and false discovery rate estimation for
+		RNA-sequencing data. The description of the method is in Li J,
+		Witten DM, Johnstone I, Tibshirani R (2012). Normalization,
+		testing, and false discovery rate estimation for RNA-sequencing
+		data. Biostatistics 13(3): 523-38. We estimate the sequencing
+		depths of experiments using a new method based on Poisson
+		goodness-of-fit statistic, calculate a score statistic on the
+		basis of a Poisson log-linear model, and then estimate the
+		false discovery rate using a modified version of permutation
+		plug-in method. A more detailed instruction as well as sample
+		data is available at
+		http://www.stanford.edu/~junli07/research.html.  In this
+		version, we changed the way of calculating log foldchange for
+		two-class data. The FDR estimation part remains unchanged.
+	</longdescription>
+</pkgmetadata>

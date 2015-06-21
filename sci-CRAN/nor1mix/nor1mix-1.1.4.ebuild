@@ -1,0 +1,11 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Normal (1-d) Mixture Models (S3 ... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/nor1mix_1.1-4.tar.gz -> cran_nor1mix_1.1-4.tar.gz"
+LICENSE='GPL-2+'

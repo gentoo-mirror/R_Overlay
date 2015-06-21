@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Robust Periodogram and Periodicity Detection Methods //
+		Calculates periodograms based on (robustly) fitting periodic
+		functions to light curves (irregularly observed time series,
+		possibly with measurement accuracies, occurring in
+		astroparticle physics). Three main functions are included:
+		RobPer calculates the periodogram. Outlying periodogram bars
+		(indicating a period) can be detected with betaCvMfit.
+		Artificial light curves can be generated using the function
+		tsgen. For more details see Thieler, Fried and Rathjens (2013).
+	</longdescription>
+</pkgmetadata>

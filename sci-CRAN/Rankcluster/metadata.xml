@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model-based clustering for multivariate partial ranking data //
+		This package proposes a model-based clustering algorithm for
+		ranking data. Multivariate rankings as well as partial rankings
+		are taken into account. This algorithm is based on an extension
+		of the Insertion Sorting Rank (ISR) model for ranking data,
+		which is a meaningful and effective model parametrized by a
+		position parameter (the modal ranking, quoted by mu) and a
+		dispersion parameter (quoted by pi). The heterogeneity of the
+		rank population is modelled by a mixture of ISR, whereas
+		conditional independence assumption is considered for
+		multivariate rankings.
+	</longdescription>
+</pkgmetadata>

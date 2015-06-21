@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Batch Effects Removal // The functions in this package remove
+		batch effects from microarrary normalized data. The expression
+		levels of the genes are represented in a matrix where rows
+		correspond to independent samples and columns to genes
+		(variables). The batches are represented by categorical
+		variables (objects of class factor). When further covariates of
+		interest are available they can be used to remove efficiently
+		the batch effects and adjust the data.
+	</longdescription>
+</pkgmetadata>

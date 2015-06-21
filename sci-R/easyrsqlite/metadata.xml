@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simple database interface for SQLite. // Simple database
+		interface for SQLite. easyrsqlite is build on top of RSQLite.
+		It provides functions for reading, writing, listing and
+		subsetting tables in SQLite. easyrsqlite allow to retrieve,
+		write and subset database's tables in a similar way as
+		data.frame's, using single square brackets db[,,,]. easyrsqlite
+		internalise many database operations (otherwise tedious) such
+		as rows and columns subsetting (no SQL needed) and connection
+		and disconnection to / from databases.
+	</longdescription>
+</pkgmetadata>

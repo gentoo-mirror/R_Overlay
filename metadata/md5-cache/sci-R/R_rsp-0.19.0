@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/R_cache-0.9.0 >=sci-R/R_methodsS3-1.6.1 >=sci-CRAN/R_utils-1.32.4 >=sci-R/R_oo-1.18.0 dev-lang/R
+DESCRIPTION=Dynamic generation of scientific reports
+EAPI=4
+IUSE=r_suggests_ascii r_suggests_base64enc r_suggests_digest r_suggests_knitr r_suggests_markdown r_suggests_r_devices byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=>=sci-CRAN/R_cache-0.9.0 >=sci-R/R_methodsS3-1.6.1 >=sci-CRAN/R_utils-1.32.4 >=sci-R/R_oo-1.18.0 r_suggests_ascii? ( >=sci-CRAN/ascii-2.1 ) r_suggests_base64enc? ( >=sci-CRAN/base64enc-0.1.1 ) r_suggests_digest? ( >=sci-CRAN/digest-0.6.4 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.6 ) r_suggests_markdown? ( >=sci-CRAN/markdown-0.7 ) r_suggests_r_devices? ( >=sci-CRAN/R_devices-2.9.2 ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/R.rsp_0.19.0.tar.gz -> r-forge_R.rsp_0.19.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=386ecdb06e3dc2d88d415c2196e14784

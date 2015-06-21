@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Profiling a gene list into GOslim or KEGG function pie //
+		"geneListPie" package is for mapping a gene list to function
+		categories defined in GOSlim or Kegg. The results can be
+		plotted as a pie chart to provide a quick view of the genes
+		distribution of the gene list among the function categories.
+		The gene list must contain a list of gene symbols. The package
+		contains a set of pre-processed gene sets obtained from Gene
+		Ontology and MSigDB including human, mouse, rat and yeast. To
+		provide a high level concise view, only GO slim and kegg are
+		provided. The gene sets are regulared updated. User can also
+		use customized gene sets. User can use the R Pie() or Pie3D()
+		function for plotting the pie chart. Users can also choose to
+		output the gene function mapping results and use external
+		software such as Excel(R) for ploting.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ape sci-CRAN/vegan dev-lang/R
+DESCRIPTION=R tools for integrating phylogenies and ecology
+EAPI=4
+IUSE=r_suggests_brglm r_suggests_circular r_suggests_corpcor r_suggests_plotrix r_suggests_quantreg byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/ape sci-CRAN/vegan r_suggests_brglm? ( sci-CRAN/brglm ) r_suggests_circular? ( sci-CRAN/circular ) r_suggests_corpcor? ( sci-CRAN/corpcor ) r_suggests_plotrix? ( sci-CRAN/plotrix ) r_suggests_quantreg? ( sci-CRAN/quantreg ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/picante_1.6-1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=1ed8ad50b9ac5b56530022fd98fe83a7

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimates Output // This package is intended to speedup the
+		process of creating model-comparing tables common in
+		Macroeconomics. The function collection stores the estimates of
+		several models and formats it to a table of the form estimate
+		starred and std.err. below. The default output is LaTeX but
+		output to CSV for later editing in a spreadsheet tool is
+		possible as well. It works for linear models (lm) and panel
+		models from the "plm"-package (plm). Two further implemented
+		functions "descsto" and "desctab" enable you to export
+		descriptive statistics of data-frames and single variables to
+		LaTeX and CSV.
+	</longdescription>
+</pkgmetadata>

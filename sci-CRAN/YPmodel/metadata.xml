@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Short-term and Long-term Hazard Ratio Model for Survival Data
+		// This package contains various inference procedures
+		associated with a two-sample semi-parametric model that can
+		accommodate a flexible range of hazard ratio patterns. This
+		model contains the proportional hazards model and the
+		proportional odds model as sub-models, and accommodates non-
+		proportional hazards situations to the extreme of having
+		crossing hazards and crossing survivor functions. Overall, this
+		package has four major functions: 1) the parameter estimation,
+		namely short-term and long-term hazard ratio parameters; 2) 95
+		percent and 90 percent point-wise confidence intervals and
+		simultaneous confidence bands for the hazard ratio function; 3)
+		p-value of the adaptive weighted log-rank test; 4) p-values of
+		two lack-of-fit tests for the model. See the included
+		"read_me_first.pdf" for brief instructions. In this version
+		(1.1), there is no need to sort the data before applying this
+		package.
+	</longdescription>
+</pkgmetadata>

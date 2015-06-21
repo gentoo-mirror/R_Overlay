@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Experimental design for binary toxicity tests // Calculates
+		sample size and dose allocation for binary toxicity tests,
+		using the Fish Embryo Toxicity Test as example. An optimal test
+		design is obtained by running (i) spoD (calculate the number of
+		individuals to test under control conditions), (ii) setD
+		(estimate the minimal sample size per treatment given the users
+		precision requirements) and (iii) doseD (construct an
+		individual dose scheme).
+	</longdescription>
+</pkgmetadata>

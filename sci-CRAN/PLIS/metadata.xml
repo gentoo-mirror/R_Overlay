@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiplicity control using Pooled LIS statistic // PLIS is a
+		multiple testing procedure for testing several groups of
+		hypotheses. Linear dependency is expected from the hypotheses
+		within the same group and is modeled by hidden Markov Models.
+		It is noted that, for PLIS, a smaller p value does not
+		necessarily imply more significance because of dependency among
+		the hypotheses. A typical application of PLIS is to analyze
+		genome wide association studies datasets, where SNPs from the
+		same chromosome are treated as a group and exhibit strong
+		linear genomic dependency.
+	</longdescription>
+</pkgmetadata>

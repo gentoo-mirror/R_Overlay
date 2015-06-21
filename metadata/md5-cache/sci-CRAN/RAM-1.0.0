@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/gridExtra sci-CRAN/permute sci-CRAN/indicspecies sci-CRAN/vegan sci-CRAN/scales sci-CRAN/gplots sci-CRAN/labdsv sci-CRAN/plyr sci-CRAN/ggmap sci-BIOC/Heatplus sci-CRAN/splitstackshape sci-CRAN/stringr sci-CRAN/RColorBrewer dev-lang/R
+DESCRIPTION=R for Amplicon-based Metagenomics
+EAPI=4
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/gridExtra sci-CRAN/permute sci-CRAN/indicspecies sci-CRAN/vegan sci-CRAN/scales sci-CRAN/gplots sci-CRAN/labdsv sci-CRAN/plyr sci-CRAN/ggmap sci-BIOC/Heatplus sci-CRAN/splitstackshape sci-CRAN/stringr sci-CRAN/RColorBrewer r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RAM_1.0.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=a05090249bc013f50f07f89703a2a588

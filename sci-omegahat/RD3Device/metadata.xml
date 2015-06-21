@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		R Graphics device to create D3 content // This is an experiment
+		to create a graphics device for R that creates D3 code for
+		displaying the  R plot in JavaScript. As we go forward, we can
+		programmatically annotate the content of the plot to create
+		interactive, dynamic plots with animation. This is similar to
+		gridSVG, SVGAnnotation, etc. It is not intended to allow R
+		users to create arbitrary D3 code. It is solely focused on
+		mapping existing R plotting commands using R's graphics
+		system(s) to D3 code. Given the RGraphicsDevice package, this
+		is very easy to write entirely within R. It takes longer to
+		understand the D3 programming details than to implement the
+		graphics device's methods.
+	</longdescription>
+</pkgmetadata>

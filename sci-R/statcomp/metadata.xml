@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Statistical Complexity and Information measures for time series
+		analysis // An implementation of local and global statistical
+		complexity measures for time series analysis in R. The package
+		provides functions to compute statistical complexity and
+		information measures for any given time series based on ordinal
+		statistics (Bandt and Pompe 2002). The ordinal pattern
+		statistics are used to calculate a variety of global
+		(Permutation Entropy, MPR complexity) and local (Fisher
+		Information) complexity and information measures (for further
+		information, see Martin, Plastino and Rosso 2007; Olivares et
+		al 2012). In addition, methods to derive weighted ordinal
+		pattern distributions are supplied, where a user-specified
+		weights-generating function can be selected (e.g. variance-
+		weighted, Fadlallah et al 2013). Complexity and information
+		measures constitute a simple, quick and powerful tool to
+		classify and cluster (a large number of) time series, including
+		for model-data comparisons.
+	</longdescription>
+</pkgmetadata>

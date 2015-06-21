@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/deSolve sci-CRAN/RUnit dev-lang/R
+DESCRIPTION=Models of Soil Organic Matter Decomposition
+EAPI=4
+IUSE=r_suggests_fme byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/deSolve sci-CRAN/RUnit r_suggests_fme? ( sci-CRAN/FME ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/SoilR_1.1-21.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=70482946df4ca50b332f6f8e1ff6b4e3

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.14.0 >=sci-CRAN/sp-1.0.12 dev-lang/R
+DESCRIPTION=Interface to Geometry Engine - Open Source (GEOS)
+EAPI=4
+IUSE=r_suggests_maptools r_suggests_testthat r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.14.0 >=sci-CRAN/sp-1.0.12 sci-CRAN/sp >=sci-libs/geos-3.2.0 sci-libs/geos r_suggests_maptools? ( >=sci-CRAN/maptools-0.8.5 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rgeos_0.3-5.tar.gz -> cran_rgeos_0.3-5.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=83da3187fb70d5aece992b5ad87886b6

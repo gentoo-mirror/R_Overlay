@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/sp-0.9.84 >=sci-CRAN/raster-1.9.5 >=dev-lang/R-2.13.1 >=sci-CRAN/rasterVis-0.10.3 dev-lang/R
+DESCRIPTION=Sampling Surface Simulation for ... (see metadata)
+EAPI=4
+IUSE=r_suggests_rgeos r_suggests_rgl byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/sp-0.9.84 >=sci-CRAN/raster-1.9.5 >=dev-lang/R-2.13.1 >=sci-CRAN/rasterVis-0.10.3 r_suggests_rgeos? ( >=sci-CRAN/rgeos-0.2.9 ) r_suggests_rgl? ( sci-CRAN/rgl ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/sampSurf_0.7-3.tar.gz -> sampSurf_0.7-3-r1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=2066a313126d93e86cddedce7e2f9a79

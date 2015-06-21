@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		insideRODE includes buildin functions with deSolve solver and
+		C/FORTRAN interfaces to nlme, together with compiled codes. //
+		insideRODE package includes buildin functions from deSolve,
+		compiled functions from compiler, and C/FORTRAN code interfaces
+		to nlme. It includes nlmLSODA, nlmODE, nlmVODE,nlmLSODE for
+		general purpose; cfLSODA,cfLSODE, cfODE, cfVODE call C/FORTRAN
+		compiled dll functions.ver2.0 add sink()function into example
+		it helps to directly combine c/fortran source code in R files.
+		Finally, with new compiler package, we generated compiled
+		functions: nlmODEcp, nlmVODEcp, nlmLSODEcp,nlmLSODAcp and
+		cpODE, cpLSODA, cpLSODE, cpVODE. They will help to increase
+		speed.
+	</longdescription>
+</pkgmetadata>

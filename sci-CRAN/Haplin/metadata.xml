@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analyzing Case-Parent Triad and/or Case-Control Data with SNP
+		Haplotypes // Performs genetic association analyses of case-
+		parent triad (trio) data with multiple markers. It can also
+		incorporate complete or incomplete control triads, for instance
+		independent control children. Estimation is based on
+		haplotypes, for instance SNP haplotypes, even though phase is
+		not known from the genetic data. Haplin estimates relative risk
+		(RR + conf.int.) and p-value associated with each haplotype. It
+		uses maximum likelihood estimation to make optimal use of data
+		from triads with missing genotypic data, for instance if some
+		SNPs has not been typed for some individuals. Haplin also
+		allows estimation of effects of maternal haplotypes and parent-
+		of-origin effects, particularly appropriate in perinatal
+		epidemiology. Haplin allows special models, like
+		X-inactivation, to be fitted on the X-chromosome.
+	</longdescription>
+</pkgmetadata>

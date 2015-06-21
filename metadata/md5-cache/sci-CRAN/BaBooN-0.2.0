@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/Rcpp-0.11.2 >=dev-lang/R-3.1.0 sci-CRAN/Hmisc sci-CRAN/coda dev-lang/R
+DESCRIPTION=Bayesian Bootstrap Predictive Me... (see metadata)
+EAPI=4
+IUSE=r_suggests_mice r_suggests_norm byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-0.11.2 >=dev-lang/R-3.1.0 sci-CRAN/Hmisc sci-CRAN/coda sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_mice? ( sci-CRAN/mice ) r_suggests_norm? ( sci-CRAN/norm ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BaBooN_0.2-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=ecc0e6342138235d27022a94a3fabe53

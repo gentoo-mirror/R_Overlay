@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		General solvers for the general Black-Scholes (Fokker Planck)
+		partial differential equation (PDE) in a multi-dimensional
+		setting with main application in finance (option pricing). //
+		The main focus in this package is the solving of the Black-
+		Scholes (Fokker Planck) PDE for financial contract pricing. It
+		offers a general script languages that describes any financial
+		contract in an efficient and unique way. These financial
+		pricing problems can be in multi-dimensions, for which we
+		employ sparse grids with the combination technique. These
+		initial value parabolic problems require an efficient linear
+		solver, for which we developed a geometrical multigrid solver.
+		We tested this fitob package up to 12 dimensions, where
+		reasonable results were achieved only up to 5-8 dimensions
+		(accuracy is problem dependent). Solving such convection-
+		diffusion PDE in multi-dimensional setting could be beneficiary
+		in other applications (other than finance) as well.
+	</longdescription>
+</pkgmetadata>

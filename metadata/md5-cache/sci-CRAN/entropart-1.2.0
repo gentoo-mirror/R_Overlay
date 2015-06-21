@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ade4 dev-lang/R
+DESCRIPTION=Entropy partitioning to measure diversity
+EAPI=4
+IUSE=r_suggests_vegan byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ade4 r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/entropart_1.2.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=a658f777c11345cbc246a95350daf7df

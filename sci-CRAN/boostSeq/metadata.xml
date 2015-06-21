@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimized GWAS cohort subset selection for resequencing studies
+		// This package contains functionality to select a subsample of
+		a genotyped cohort e.g. from a GWAS that is preferential for
+		resequencing under the assumtion that causal variants share a
+		haplotype with the risk allele of associated variants. The
+		subsample is selected such that is contains risk alleles at
+		maximum frequency for all SNPs specified. Phentoypes can also
+		be included as additional variables to obtain a higher fraction
+		of extreme phenotypes. An arbitrary number of SNPs and/or
+		phentoypes can be specified for enrichment in a single
+		subsample.
+	</longdescription>
+</pkgmetadata>

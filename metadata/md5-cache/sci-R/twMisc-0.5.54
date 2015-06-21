@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-R/R_methodsS3 sci-CRAN/abind dev-lang/R
+DESCRIPTION=tw utility functions
+EAPI=4
+IUSE=r_suggests_debug r_suggests_inlinedocs r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=sci-R/R_methodsS3 sci-CRAN/abind r_suggests_debug? ( sci-CRAN/debug ) r_suggests_inlinedocs? ( sci-CRAN/inlinedocs ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/twMisc_0.5.54.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=32cfac1cc4841720de6be040f56e724f

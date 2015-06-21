@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimisation with Continuous Convex Piecewise (Linear and
+		Quadratic) Functions // Continuous convex piecewise linear
+		(ccpl) resp. quadratic (ccpq) functions can be implemented with
+		sorted breakpoints and slopes. This includes functions that are
+		ccpl (resp. ccpq) on a convex set (i.e. an interval or a point)
+		and infinite out of the domain. These functions can be very
+		useful for a large class of optimisation problems. Efficient
+		manipulation (such as log(N) insertion) of such data structure
+		is obtained with map standard template library of C++ (that
+		hides balanced trees). This package is a wrapper on such a
+		class based on Rcpp modules.
+	</longdescription>
+</pkgmetadata>

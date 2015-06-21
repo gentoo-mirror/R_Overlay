@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Semi- and nonparametric Bayesian Subset Selection Procedures //
+		Implement the Bayesian subset selection procedure proposed in
+		the paper titled "Bayesian Subset Selection Procedures with an
+		Application to Lumber Strength Properties" by Yumi Kondo, James
+		V. Zidek, Carolyn Taylor, and Constance van Eeden. This
+		procedure models the lumber strengths with Dirichlet processes
+		(DP) with the Weibull components and finds, with pre-specified
+		certainty, the smallest subset that contains those species
+		having the smallest alpha-th quantile of strength (i.e., the
+		weakest species). We consider two models for the strengths: [1]
+		A semi-parametric model which assumes that strengths are from
+		the DP mixture of Weibulls; [2] the nonparametric model which
+		assumes that probability measures of strengths are from DP with
+		Weibull base distribution. Either model can be used to estimate
+		the posterior probability that a subset contains the weakest
+		species.
+	</longdescription>
+</pkgmetadata>

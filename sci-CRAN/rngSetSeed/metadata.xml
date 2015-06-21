@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Seeding the Default RNG with a Numeric Vector // A function
+		setVectorSeed() is provided. Its argument is a numeric vector
+		of an arbitrary nonzero length, whose components have integer
+		values from [0, 2^32-1]. The input vector is transformed using
+		AES (Advanced Encryption Standard) algorithm into an initial
+		state of Mersenne-Twister random number generator. The function
+		provides a better alternative to the R base function
+		set.seed(), if the input vector is a single integer.
+		Initializing a stream of random numbers with a vector is a
+		convenient way to obtain several streams, each of which is
+		identified by several integer indices.
+	</longdescription>
+</pkgmetadata>

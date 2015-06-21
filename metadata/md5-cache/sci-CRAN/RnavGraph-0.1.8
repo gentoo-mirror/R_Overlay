@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/graph sci-CRAN/rgl sci-CRAN/scagnostics dev-lang/R
+DESCRIPTION=Using Graphs as a Navigational Infrastructure
+EAPI=4
+IUSE=r_suggests_hexbin r_suggests_pairviz r_suggests_png r_suggests_rdrtoolbox r_suggests_rnavgraphimagedata r_suggests_vegan byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-BIOC/graph sci-CRAN/rgl sci-CRAN/scagnostics r_suggests_hexbin? ( sci-CRAN/hexbin ) r_suggests_pairviz? ( sci-CRAN/PairViz ) r_suggests_png? ( sci-CRAN/png ) r_suggests_rdrtoolbox? ( sci-BIOC/RDRToolbox ) r_suggests_rnavgraphimagedata? ( sci-CRAN/RnavGraphImageData ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RnavGraph_0.1.8.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=5eed858cff2cdcca6e12eeff00f697bf

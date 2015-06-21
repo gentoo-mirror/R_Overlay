@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		ACC  LMA Graph Plotting // The main function is
+		plotLMA(sourcefile,header) that takes a data set and plots the
+		appropriate LMA and ACC graphs. If no sourcefile (a string) was
+		passed, a manual data entry window is opened. The header
+		parameter indicates by TRUE/FALSE (false by default) if the
+		source CSV file has a head row or not. The data set should
+		contain only one independent variable (X) and one dependent
+		varialbe (Y) and can contain a weight for each observation
+	</longdescription>
+</pkgmetadata>

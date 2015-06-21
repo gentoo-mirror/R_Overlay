@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automatic Tracing and Display of Changes to Row Count //
+		Classifies a data.frame such that row deletions and additions
+		are tracked.  A mechanism exists to give formal names to the
+		row subsets that are coming or going.  These names are used to
+		populate a directed graph giving an account of all the
+		transactions contributing to the state of the data.frame.  The
+		generic as.audited() has a method for keyed data.frames that
+		creates an audited data.frame. Methods exist that track row
+		count changes for the generics: Ops, !, ^, |, [, subset, head,
+		tail, unique, cast, melt, aggregate, and merge. audit()
+		extracts the transaction table from the audited object, while
+		write.audit() and read.audit() control exchange with the file
+		system. An audit method for as.igraph() creates a graph object
+		that can be displayed with the corresponding plot method.  Use
+		options(audit= ) to provide an extra level of classification.
+		Use options(artifact=TRUE) and as.xlsx() to save dropped
+		records to file.
+	</longdescription>
+</pkgmetadata>

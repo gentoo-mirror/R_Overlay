@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Determine Event Boundaries in Event Segmentation Experiments //
+		This package contains functions that help to determine event
+		boundaries in event segmentation experiments by bootstrapping a
+		critical segmentation magnitude under the null hypothesis that
+		all key presses were randomly distributed across the
+		experiment. Segmentation magnitude is defined as the sum of
+		Gaussians centered at the times of the segmentation key presses
+		performed by the participants. Within a participant, the
+		maximum of the overlaid Gaussians is used to prevent an
+		excessive influence of a single participant on the overall
+		outcome (e.g. if a participant is pressing the key multiple
+		times in succession). Further functions are included, such as
+		plotting the results.
+	</longdescription>
+</pkgmetadata>

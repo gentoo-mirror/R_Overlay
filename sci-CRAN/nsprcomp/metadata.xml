@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Non-Negative and Sparse PCA // This package implements two
+		methods for performing a constrained principal component
+		analysis (PCA), where non-negativity and/or sparsity
+		constraints are enforced on the principal axes (PAs). The
+		function 'nsprcomp' computes one principal component (PC) after
+		the other. Each PA is optimized such that the corresponding PC
+		has maximum additional variance not explained by the previous
+		components. In contrast, the function 'nscumcomp' jointly
+		computes all PCs such that the cumulative variance is maximal.
+		Both functions have the same interface as the 'prcomp' function
+		from the 'stats' package (plus some extra parameters), and both
+		return the result of the analysis as an object of class
+		'nsprcomp', which inherits from 'prcomp'.
+	</longdescription>
+</pkgmetadata>

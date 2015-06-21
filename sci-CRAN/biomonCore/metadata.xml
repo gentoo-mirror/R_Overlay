@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Controller Layer for Biomon App Data Analysis // Biomon app is a
+		software for data analysis automation in Biomonitoring. The
+		implementation is split in three packages taking into account
+		the development model Models-Views-Controllers. Each of these
+		layers supported by a different package: The package Analyz
+		concerns the Models layer of Biomon app; BiomonCore concerns
+		the Controllers layer and Biomon concerns the Views layer.
+		BiomonCore delivers two classes, the class Global prepares the
+		global environment for Biomon app execution and the class
+		Action that delivers methods to deal with the user's requests
+		from the interface, the View layer, and forward them to the
+		methods defined in the Model layer.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Finds roots, extrema and inflection points of a curve //
+		Implementation of the Taylor Regression Estimator method
+		described in Christopoulos
+		(2014,https://www.researchgate.net/publication/261562841) for
+		finding the root, extreme or inflection point of a curve, when
+		we only have a set of probably noisy xy points for it. The
+		method uses a suitable polynomial regression in order to find
+		the coefficients of the relevant Taylor polynomial for the
+		function that has generated our data.
+	</longdescription>
+</pkgmetadata>

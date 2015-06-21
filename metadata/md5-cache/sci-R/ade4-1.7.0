@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R
+DESCRIPTION=Analysis of Ecological Data : Ex... (see metadata)
+EAPI=4
+IUSE=r_suggests_ade4tkgui r_suggests_adegraphics r_suggests_ape r_suggests_deldir r_suggests_maptools r_suggests_pixmap r_suggests_sp r_suggests_spdep r_suggests_splancs r_suggests_waveslim byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=r_suggests_ade4tkgui? ( sci-CRAN/ade4TkGUI ) r_suggests_adegraphics? ( sci-R/adegraphics ) r_suggests_ape? ( sci-CRAN/ape ) r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_pixmap? ( sci-CRAN/pixmap ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_spdep? ( sci-CRAN/spdep ) r_suggests_splancs? ( sci-CRAN/splancs ) r_suggests_waveslim? ( sci-CRAN/waveslim ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/ade4_1.7-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=ca0be1e324c742cdd9eb9d243493391b

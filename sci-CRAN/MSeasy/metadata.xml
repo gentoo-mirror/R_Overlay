@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Preprocessing of Gas Chromatography-Mass Spectrometry (GC-MS)
+		data // Package for the detection of molecules in complex
+		mixtures of compounds. It creates an initial_DATA matrix from
+		several GC-MS analyses by collecting and assembling the
+		information from chromatograms and mass spectra
+		(MS.DataCreation), It can read several format (ASCII, CDF,
+		mzML, mzXML or mzData).It tests for the best unsupervised
+		clustering method to group similar mass spectra into molecules
+		(MS.test.clust).It runs the optimal unsupervised clustering
+		method on the initial_DATA matrix, identifies the optimal
+		number of clusters, produces different files for facilitating
+		the quality control and identification of putative molecules,
+		and returns fingerprinting or profiling matrices (MS.clust).It
+		converts output files from MS.clust for NIST mass spectral
+		library search and ARISTO webtool search
+	</longdescription>
+</pkgmetadata>

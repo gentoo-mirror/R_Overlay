@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tools to Support Optimization Methods // Tools to assist in
+		safely applying user-generated objective and derivative
+		functions to optimization programs. "Optimization" at the time
+		of writing refers primarily to function minimization methods
+		with at most bounds and masks on the parameters. Tools are
+		provided to check the basic computation of objective functions
+		that the user provides, along with proposed gradient and
+		Hessian functions, as well as to wrap such functions to avoid
+		failures when inadmissible parameters are provided. Checks on
+		bounds and masks (fixed parameters) are available, as are a
+		check on scaling or optimality conditions. An axial search to
+		seek lower points on the objective function surface is
+		included. Though numDeriv is used as the primary tool for
+		numerical derivative approximations, forward, central and
+		backward gradient approximation codes for convenience.
+	</longdescription>
+</pkgmetadata>

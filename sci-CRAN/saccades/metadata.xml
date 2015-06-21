@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detection of Fixations in Eye-Tracking Data // Functions for
+		detecting eye fixations in raw eye-tracking data.  The
+		detection is done using a velocity-based algorithm for saccade
+		detection proposed by Ralf Engbert and Reinhold Kliegl in 2003.
+		The algorithm labels segments as saccades when the velocity of
+		the eye movement exceeds a certain threshold.  Anything between
+		two saccades is considered a fixation.  Thus the algorithm is
+		not appropriate for data containing episodes of smooth pursuit
+		eye movements.
+	</longdescription>
+</pkgmetadata>

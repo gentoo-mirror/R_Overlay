@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A "corrective make-up" program for microarray chips // The
+		package is used to detect extended, diffuse and compact
+		blemishes on microarray chips. Harshlight automatically marks
+		the areas in a collection of chips (affybatch objects) and a
+		corrected AffyBatch object is returned, in which the defected
+		areas are substituted with NAs or the median of the values of
+		the same probe in the other chips in the collection. The new
+		version handle the substitute value as whole matrix to solve
+		the memory problem.
+	</longdescription>
+</pkgmetadata>

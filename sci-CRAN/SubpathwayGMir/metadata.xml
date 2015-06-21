@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Identify Metabolic Subpathways Mediated by MicroRNAs // Routines
+		for identifying metabolic subpathways mediated by microRNAs
+		(miRNAs) through topologically locating miRNAs and genes within
+		reconstructed Kyoto Encyclopedia of Genes and Genomes (KEGG)
+		metabolic pathway graphs embedded by miRNAs. (1) This package
+		can obtain the reconstructed KEGG metabolic pathway graphs with
+		genes and miRNAs as nodes, through converting KEGG metabolic
+		pathways to graphs with genes as nodes and compounds as edges,
+		and then integrating miRNA-target interactions verified by low-
+		throughput experiments from four databases (TarBase, miRecords,
+		mirTarBase and miR2Disease) into converted pathway graphs. (2)
+		This package can locate metabolic subpathways mediated by
+		miRNAs by topologically analyzing the "lenient distance" of
+		miRNAs and genes within reconstructed KEGG metabolic pathway
+		graphs.(3) This package can identify significantly enriched
+		miRNA-mediated metabolic subpathways based on located
+		subpathways by hypergenomic test. (4) This package can support
+		six species for metabolic subpathway identification, such as
+		caenorhabditis elegans, drosophila melanogaster, danio rerio,
+		homo sapiens, mus musculus and rattus norvegicus, and user only
+		need to update interested organism-specific environment
+		variables.
+	</longdescription>
+</pkgmetadata>

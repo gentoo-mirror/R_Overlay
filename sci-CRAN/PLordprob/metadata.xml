@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multivariate Ordered Probit Model via Pairwise Likelihood //
+		Multivariate ordered probit model, i.e. the extension of the
+		scalar ordered probit model where the observed variables have
+		dimension greater than one. Estimation of the parameters is
+		done via maximization of the pairwise likelihood, a special
+		case of the composite likehood obtained as product of bivariate
+		marginal distributions. The package uses the Fortran 77
+		subroutine SADMVN by Alan Genz, with minor adaptations made by
+		Adelchi Azzalini in his "mvnormt" package for evaluating the
+		two-dimensional Gaussian integrals involved in the pairwise
+		log-likelihood. Optimization of the latter objective function
+		is performed via quasi-Newton box-constrained optimization
+		algorithm, as implemented in nlminb.
+	</longdescription>
+</pkgmetadata>

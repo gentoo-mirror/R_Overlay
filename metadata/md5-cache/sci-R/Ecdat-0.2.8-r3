@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/Ecfun dev-lang/R
+DESCRIPTION=Data sets for econometrics
+EAPI=4
+IUSE=r_suggests_car r_suggests_gdata r_suggests_lmtest r_suggests_rcurl r_suggests_sandwich r_suggests_sem r_suggests_systemfit r_suggests_tis r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/Ecfun r_suggests_car? ( sci-CRAN/car ) r_suggests_gdata? ( sci-CRAN/gdata ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_sem? ( sci-CRAN/sem ) r_suggests_systemfit? ( sci-CRAN/systemfit ) r_suggests_tis? ( sci-CRAN/tis ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/Ecdat_0.2-8.tar.gz -> Ecdat_0.2-8-r3.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=991fbc611515958dfd22a36ced50dc5b

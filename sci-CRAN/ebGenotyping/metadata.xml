@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Genotyping using Next Generation Sequencing Data // Genotyping
+		the population using next generation sequencing data is
+		essentially important for the rare variant detection. In order
+		to distinguish the genomic structural variation from sequencing
+		error, we propose a statistical model which involves the
+		genotype effect through a latent variable to depict the
+		distribution of non-reference allele frequency data among
+		different samples and different genome loci, while decomposing
+		the sequencing error into sample effect and positional effect.
+		An ECM algorithm is implemented to estimate the model
+		parameters, and then the genotypes and SNPs are inferred based
+		on the empirical Bayes method.
+	</longdescription>
+</pkgmetadata>

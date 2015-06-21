@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/bitops sci-omegahat/Combinations >=sci-omegahat/RAutoGenRunTime-0.2.0 dev-lang/R
+DESCRIPTION=R interface to GCC source code information
+EAPI=4
+IUSE=r_suggests_bitops r_suggests_combinations r_suggests_graph byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/bitops sci-omegahat/Combinations >=sci-omegahat/RAutoGenRunTime-0.2.0 dev-libs/libpcre r_suggests_bitops? ( sci-CRAN/bitops ) r_suggests_combinations? ( sci-omegahat/Combinations ) r_suggests_graph? ( sci-BIOC/graph ) dev-lang/R
+SLOT=0
+SRC_URI=http://www.omegahat.org/R/src/contrib/RGCCTranslationUnit_0.6-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=4300373fd27730e3370a2c680eee71de

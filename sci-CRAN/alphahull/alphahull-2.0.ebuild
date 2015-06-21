@@ -1,0 +1,18 @@
+# Copyright 1999-2015 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Generalization of the Convex Hul... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/alphahull_2.0.tar.gz"
+
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/tripack
+	sci-CRAN/spatstat
+	sci-CRAN/sgeostat
+	sci-CRAN/splancs
+"
+RDEPEND="${DEPEND-}"

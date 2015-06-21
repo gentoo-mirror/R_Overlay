@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Construction of diagnostic or prognostic scoring system and
+		internal validation of its discriminative capacities based on
+		ROC curve and 0.633+ boostrap resampling. // This package
+		computes traditional ROC curves and time-dependent ROC curves
+		using the cross-validation, the 0.632 and the 0.632+
+		estimators. The 0.632+ estimator of time-dependent ROC curve is
+		useful to estimate the predictive accuracy of prognostic
+		signature based on high-dimensional data. For instance, it
+		outperforms the other approaches, especially the cross-
+		validation solution which is often used. The 0.632+ estimators
+		correct the area under the curve in order to adequately
+		estimate the prognostic capacities regardless of the
+		overfitting level. This package also allows for the
+		construction of diagnostic or prognostic scoring systems
+		(penalized regressions). The methodology is adapted to complete
+		data (penalized logistic regression associated with ROC curve)
+		or incomplete time-to-event data (penalized Cox model
+		associated with time-dependent ROC curve).
+	</longdescription>
+</pkgmetadata>

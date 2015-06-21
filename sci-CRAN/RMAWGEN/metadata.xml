@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-site Auto-regressive Weather GENerator // S3 and S4
+		functions are implemented for spatial multi-site stochastic
+		generation of daily time series of temperature and
+		precipitation. These tools make use of Vector AutoRegressive
+		models (VARs). The weather generator model is then saved as an
+		object and is calibrated by daily instrumental "Gaussianized"
+		time series through the 'vars' package tools. Once obtained
+		this model, it can it can be used for weather generations and
+		be adapted to work with several climatic monthly time series.
+	</longdescription>
+</pkgmetadata>

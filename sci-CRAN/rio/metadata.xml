@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Swiss-army knife for data file I/O // Rio is a set of tools
+		aims to simplify the process of importing/exporting data. The
+		import() and export() functions will determine data file format
+		base on the file extension, without the need to select
+		appropriate read/write function for the specific data file
+		format. For example, exporting the iris data into a csv file
+		can be achieved with the following command: export(iris,
+		"iris.csv")
+	</longdescription>
+</pkgmetadata>

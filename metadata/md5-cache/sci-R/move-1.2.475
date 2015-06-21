@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/rgdal >=sci-CRAN/raster-2.2.5 >=dev-lang/R-2.15.0 sci-CRAN/sp >=sci-CRAN/geosphere-1.3.8 dev-lang/R
+DESCRIPTION=Visualizing and analyzing animal track data
+EAPI=4
+IUSE=r_suggests_adehabitathr r_suggests_adehabitatlt r_suggests_circular r_suggests_ggmap r_suggests_mapproj r_suggests_maptools r_suggests_rcurl r_suggests_runit r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/rgdal >=sci-CRAN/raster-2.2.5 >=dev-lang/R-2.15.0 sci-CRAN/sp >=sci-CRAN/geosphere-1.3.8 r_suggests_adehabitathr? ( sci-CRAN/adehabitatHR ) r_suggests_adehabitatlt? ( sci-CRAN/adehabitatLT ) r_suggests_circular? ( sci-CRAN/circular ) r_suggests_ggmap? ( sci-CRAN/ggmap ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/move_1.2.475.tar.gz -> r-forge_move_1.2.475.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=09471fa75f50dd3e6e39ed8acbbcfeeb

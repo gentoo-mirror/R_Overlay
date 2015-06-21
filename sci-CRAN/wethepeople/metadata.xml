@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An R client for interacting with the White House's "We The
+		People" petition API. // Implements an R client for the We The
+		People petitions API. The client supports loading petitions,
+		signatures, and users. Additionally, the package includes
+		petition and signature data samples. There are also several
+		functions for analyzing and visualizing the data. Term
+		frequency calculations and word clouds are supported using the
+		tm and wordcloud package, respectively. Petition and issue
+		summary plots are also implemented using the ggplot2 package.
+		For additional information about the We The People project, see
+		https://petitions.whitehouse.gov. Note that the API limits
+		requests to 10/second. For bulk data loading, please use the
+		data dump provided by the White House:
+		https://petitions.whitehouse.gov/developers
+	</longdescription>
+</pkgmetadata>

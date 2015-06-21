@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.13.0 sci-CRAN/BayesXsrc sci-CRAN/colorspace dev-lang/R
+DESCRIPTION=Estimate Structured Additive Reg... (see metadata)
+EAPI=4
+IUSE=r_suggests_akima r_suggests_coda r_suggests_maps r_suggests_maptools r_suggests_mba r_suggests_shapefiles r_suggests_sp r_suggests_spdep byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-2.13.0 sci-CRAN/BayesXsrc sci-CRAN/colorspace r_suggests_akima? ( sci-CRAN/akima ) r_suggests_coda? ( sci-CRAN/coda ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_mba? ( sci-CRAN/MBA ) r_suggests_shapefiles? ( sci-CRAN/shapefiles ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_spdep? ( sci-CRAN/spdep ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/R2BayesX_0.3-2.tar.gz -> R2BayesX_0.3-2-r3.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=a6744c080be378f9bdf6bd5ecb631069

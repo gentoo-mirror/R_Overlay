@@ -1,0 +1,11 @@
+# Copyright 1999-2014 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='A Fast Segmentation Algorithm'
+SRC_URI="http://cran.r-project.org/src/contrib/Segmentor3IsBack_1.8.tar.gz -> cran_Segmentor3IsBack_1.8.tar.gz"
+LICENSE='GPL-2+'

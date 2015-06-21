@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		MultiSV: an R package for identification of structural variations
+		in multiple populations based on whole genome resequencing //
+		MultiSV is an R package for identification of structural
+		variations in multiple populations based on whole genome
+		resequencing. It fits linear mixed model and identifies
+		structural variations in multiple populations using whole
+		genome sequencing data. It could also be manipulated to use on
+		RNA-seq data for differential gene expression (implementation
+		in future releases). Main steps for analysis include generating
+		read depth in bins using ComputeBinCounts. conversion of bins
+		to MultiSV format using Bin2MultiSV. Finally, identification of
+		structural variations using CallMultiSV.
+	</longdescription>
+</pkgmetadata>

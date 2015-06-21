@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Penalized Regression with Polynomial Basis Expansions // Extends
+		the glmnet and relaxnet packages with polynomial basis
+		expansions. Basis expansion is applied to the predictors and a
+		subset of the basis functions is chosen using relaxnet.
+		Predictors may be screened using correlation or t-tests.
+		Screening is done separately within cross-validation folds.
+		Cross-validation may be used to select the order of basis
+		expansion and alpha, the elastic net tuning parameter.
+	</longdescription>
+</pkgmetadata>

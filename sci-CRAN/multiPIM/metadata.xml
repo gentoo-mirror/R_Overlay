@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Importance Analysis with Population Intervention Models
+		// Performs variable importance analysis using a causal
+		inference approach. This is done by fitting Population
+		Intervention Models. The default is to use a Targeted Maximum
+		Likelihood Estimator (TMLE). The other available estimators are
+		Inverse Probability of Censoring Weighted (IPCW), Double-Robust
+		IPCW (DR-IPCW), and Graphical Computation (G-COMP) estimators.
+		Inference can be obtained from the influence curve (plug-in) or
+		by bootstrapping.
+	</longdescription>
+</pkgmetadata>

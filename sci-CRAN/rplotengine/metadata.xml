@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		R as a plotting engine // This package is intended for using R as
+		a plotting engine either by custom applications, or from a
+		small script launched from the system console, or even within
+		the R console. Two ASCII text files are necessary: (1) The
+		graph parameters file, which name is passed to the function
+		'rplotengine()'. The user can specify the titles, choose the
+		type of the graph, graph output formats (e.g. png, eps),
+		proportion of the X-axis and Y-axis, position of the legend,
+		whether to show or not a grid at the background, etc. (2) The
+		data to be plotted, which name is specified as a parameter
+		('data_filename') in the previous file. This data file has a
+		tabulated format, with a single character (e.g. tab) between
+		each column, and a headers line located in the first row.
+		Optionally, the file could include data columns for showing
+		confidence intervals.
+	</longdescription>
+</pkgmetadata>

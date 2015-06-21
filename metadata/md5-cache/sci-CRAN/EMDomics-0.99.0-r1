@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/emdist sci-CRAN/matrixStats sci-BIOC/BiocParallel sci-CRAN/ggplot2 dev-lang/R
+DESCRIPTION=Earth Movers Distance for Differ... (see metadata)
+EAPI=4
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/emdist sci-CRAN/matrixStats sci-BIOC/BiocParallel sci-CRAN/ggplot2 r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EMDomics_0.99.0.tar.gz -> EMDomics_0.99.0-r1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=ec37172c78f8586374533df34b26695f

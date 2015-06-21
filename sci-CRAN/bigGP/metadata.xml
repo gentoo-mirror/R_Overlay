@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Distributed Gaussian Process Calculations // Distributes Gaussian
+		process calculations across nodes in a distributed memory
+		setting, using Rmpi. The bigGP class provides high-level
+		methods for maximum likelihood with normal data, prediction,
+		calculation of uncertainty (i.e., posterior covariance
+		calculations), and simulation of realizations. In addition,
+		bigGP provides an API for basic matrix calculations with
+		distributed covariance matrices, including Cholesky
+		decomposition, back/forwardsolve, crossproduct, and matrix
+		multiplication.
+	</longdescription>
+</pkgmetadata>

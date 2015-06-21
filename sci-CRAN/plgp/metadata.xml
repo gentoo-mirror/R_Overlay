@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Particle Learning of Gaussian Processes // Sequential Monte Carlo
+		inference for fully Bayesian Gaussian process (GP) regression
+		and classification models by particle learning (PL).  The
+		sequential nature of inference and the active learning (AL)
+		hooks provided facilitate thrifty sequential design (by
+		entropy) and optimization (by improvement) for classification
+		and regression models, respectively. This package essentially
+		provides a generic PL interface, and functions (arguments to
+		the interface) which implement the GP models and AL heuristics.
+		Functions for a special, linked, regression/classification GP
+		model and an integrated expected conditional improvement (IECI)
+		statistic is provides for optimization in the presence of
+		unknown constraints. Separable and isotropic Gaussian, and
+		single-index correlation functions are supported. See the
+		examples section of ?plgp and demo(package="plgp") for an index
+		of demos
+	</longdescription>
+</pkgmetadata>

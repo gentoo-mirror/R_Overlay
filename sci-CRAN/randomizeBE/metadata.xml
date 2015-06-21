@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Function to create a random list for crossover studies //
+		Contains a function to randomize subjects, patients in groups
+		of sequences (treatment sequences).  If a blocksize is given,
+		the randomization will be done within blocks.  The
+		randomization may be controlled by a Wald-Wolfowitz runs test.
+		Functions to obtain the p-value of that test are included.  The
+		package is mainly intended for randomization of bioequivalence
+		studies but may be used also for other clinical crossover
+		studies.  Contains two helper functions sequences() and
+		williams() to get the sequences of commonly used designs in BE
+		studies.
+	</longdescription>
+</pkgmetadata>

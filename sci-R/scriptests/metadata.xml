@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Transcript-Based Unit Tests that are Easy to Create and Maintain
+		// Support for using .Rt (transcript) tests in the tests
+		directory of a package.  Provides more convenience and features
+		than the standard .R/.Rout.save tests.  Tests can be run under
+		R CMD check and also interactively.  Provides source.pkg() for
+		quickly loading code, DLLs, and data from a package for use in
+		an edit/compile/test development cycle.
+	</longdescription>
+</pkgmetadata>

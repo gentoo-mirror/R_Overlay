@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/scatterplot3d >=dev-lang/R-3.1.0 sci-CRAN/RColorBrewer >=sci-CRAN/igraph-0.6 sci-CRAN/knitr sci-CRAN/shiny sci-CRAN/wordcloud dev-lang/R
+DESCRIPTION=SOM Bound to Realize Euclidean a... (see metadata)
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/scatterplot3d >=dev-lang/R-3.1.0 sci-CRAN/RColorBrewer >=sci-CRAN/igraph-0.6 sci-CRAN/knitr sci-CRAN/shiny sci-CRAN/wordcloud dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/SOMbrero_1.0.tar.gz -> r-forge_SOMbrero_1.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=97b5a79c1d1ffa9e3ad8b0a15d008369

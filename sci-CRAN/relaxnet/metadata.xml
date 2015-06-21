@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Relaxation of glmnet models (as in relaxed lasso, Meinshausen
+		2007) // Extends the glmnet package with "relaxation", done by
+		running glmnet once on the entire predictor matrix, then again
+		on each different subset of variables from along the
+		regularization path. Relaxation may lead to improved prediction
+		accuracy for truly sparse data generating models, as well as
+		fewer false positives (i.e. fewer noncontributing predictors in
+		the final model). Penalty may be lasso (alpha = 1) or elastic
+		net (0  alpha  1). For this version, family may be "gaussian"
+		or "binomial" only. Takes advantage of fast FORTRAN code from
+		the glmnet package.
+	</longdescription>
+</pkgmetadata>

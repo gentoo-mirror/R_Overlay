@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ggplot2 dev-lang/R
+DESCRIPTION=Implement tour methods in pure R code
+EAPI=4
+IUSE=r_suggests_ash r_suggests_rggobi r_suggests_teachingdemos byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggplot2 r_suggests_ash? ( sci-CRAN/ash ) r_suggests_rggobi? ( sci-CRAN/rggobi ) r_suggests_teachingdemos? ( sci-CRAN/TeachingDemos ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/tourr_0.1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=84617a7fa28ce29389a3dc6dd2379271

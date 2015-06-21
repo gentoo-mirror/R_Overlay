@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Association Analysis of CNV Data and Imputed SNPs // The CNVassoc
+		package carries out analysis of common Copy Number Variants
+		(CNVs) and imputed Single Nucleotide Polymorphisms (SNPs) in
+		population-based studies. It includes tools for estimating
+		association under a series of study designs (case-control,
+		cohort, etc), using several dependent variables (class status,
+		censored data, counts) as response, adjusting for covariates
+		and considering various inheritance models. Moreover, it is
+		possible to perform epistasis studies with pairs of CNVs or
+		imputed SNPs. It has been optimized in order to make feasible
+		the analyses of Genome Wide Association studies (GWAs) with
+		hundreds of thousands of genetic variants (CNVs / imputed
+		SNPs). Also, it incorporates functions for inferring copy
+		number (CNV genotype calling). Various classes and methods for
+		generic functions (print, summary, plot, anova, ...) have been
+		created to facilitate the analysis.
+	</longdescription>
+</pkgmetadata>

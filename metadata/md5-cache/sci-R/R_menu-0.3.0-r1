@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-R/R_methodsS3-1.5.2 >=sci-R/R_oo-1.15.8 >=sci-CRAN/R_utils-1.27.1 dev-lang/R
+DESCRIPTION=A text based menu system
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=>=sci-R/R_methodsS3-1.5.2 >=sci-R/R_oo-1.15.8 >=sci-CRAN/R_utils-1.27.1 dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/R.menu_0.3.0.tar.gz -> R.menu_0.3.0-r1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=c2dec0d8a0fe40eedc27cfbe8641ed78

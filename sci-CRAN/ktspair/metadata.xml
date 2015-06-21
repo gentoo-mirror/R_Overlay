@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		k-Top Scoring Pairs for Microarray Classification // These
+		functions compute the k best pairs of genes used to classify
+		samples based on the relative rank of the genes expression
+		within each profile. A score based on the sensitivity and the
+		specificity is calculated for every possible pair. The k pairs
+		with the highest score will be selected with the restriction
+		that a gene can appear in at most one pair. The value of k is
+		either set as a parameter chosen by the user or computed
+		through crossvalidation. Other functions related to the k-TSP
+		are also available, for example the functions prediction,
+		summary, plot, etc. can be found in the package.
+	</longdescription>
+</pkgmetadata>

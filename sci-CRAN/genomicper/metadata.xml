@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Circular Genomic Permutation using GWAS p-values of association
+		// Circular genomic permutation approach uses GWAS results to
+		establish the significance of pathway/gene-set associations
+		whilst accounting for genomic structure. All SNPs in the GWAS
+		are placed in a 'circular genome' according to their location.
+		Then the complete set of SNP association p-values are permuted
+		by rotation with respect to the SNPs' genomic locations
+	</longdescription>
+</pkgmetadata>

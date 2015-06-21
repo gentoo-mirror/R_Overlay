@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/expm sci-CRAN/rgenoud sci-CRAN/numDeriv sci-CRAN/nloptr sci-CRAN/corpcor sci-CRAN/phangorn sci-CRAN/ape dev-lang/R
+DESCRIPTION=Analysis of binary character evolution
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/expm sci-CRAN/rgenoud sci-CRAN/numDeriv sci-CRAN/nloptr sci-CRAN/corpcor sci-CRAN/phangorn sci-CRAN/ape dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/corHMM_1.13.tar.gz -> r-forge_corHMM_1.13.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=42e2ef95ac602e39b524a5732e0681bd

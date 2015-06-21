@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast agglomerative convex clustering, non-Rcpp implementation //
+		Implements the clusterpath, a clustering method in which all
+		the clusters are solutions to a convex optimization problem
+		with fusion penalties. This package uses standard R/C headers
+		to wrap the C++ implementation.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R
+DESCRIPTION=Raw Accelerometer Data Analysis
+EAPI=4
+IUSE=r_suggests_bitops r_suggests_genearead r_suggests_matlab r_suggests_mmap r_suggests_signal r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( LGPL-2 LGPL-2.1 )
+RDEPEND=r_suggests_bitops? ( sci-CRAN/bitops ) r_suggests_genearead? ( sci-CRAN/GENEAread ) r_suggests_matlab? ( sci-CRAN/matlab ) r_suggests_mmap? ( sci-CRAN/mmap ) r_suggests_signal? ( sci-CRAN/signal ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GGIR_1.1-4.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=ffcd2578461a2658dbde663c796f1c62

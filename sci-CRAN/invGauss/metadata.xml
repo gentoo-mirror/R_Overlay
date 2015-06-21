@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Threshold regression that fits the (randomized drift) inverse
+		Gaussian distribution to survival data. // invGauss fits the
+		(randomized drift) inverse Gaussian distribution to survival
+		data. The model is described in Aalen OO, Borgan O, Gjessing
+		HK. Survival and Event History Analysis. A Process Point of
+		View. Springer, 2008. It is based on describing time to event
+		as the barrier hitting time of a Wiener process, where drift
+		towards the barrier has been randomized with a Gaussian
+		distribution. The model allows covariates to influence starting
+		values of the Wiener process and/or average drift towards a
+		barrier, with a user-defined choice of link functions.
+	</longdescription>
+</pkgmetadata>

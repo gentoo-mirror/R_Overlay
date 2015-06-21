@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-R/blotter-0.9 >=sci-CRAN/xts-0.8.2 >=sci-CRAN/TTR-0.2 >=sci-CRAN/FinancialInstrument-0.12.5 >=sci-CRAN/foreach-1.4.0 dev-lang/R
+DESCRIPTION=Quantitative Strategy Model Framework
+EAPI=4
+IUSE=r_suggests_beanplot r_suggests_performanceanalytics r_suggests_portfolioanalytics r_suggests_reshape2 r_suggests_rgl r_suggests_testthat r_suggests_xtsextra byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=sci-R/blotter-0.9 >=sci-CRAN/xts-0.8.2 >=sci-CRAN/TTR-0.2 >=sci-CRAN/FinancialInstrument-0.12.5 >=sci-CRAN/foreach-1.4.0 r_suggests_beanplot? ( sci-CRAN/beanplot ) r_suggests_performanceanalytics? ( sci-CRAN/PerformanceAnalytics ) r_suggests_portfolioanalytics? ( sci-R/PortfolioAnalytics ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xtsextra? ( sci-R/xtsExtra ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/quantstrat_0.9.1669.tar.gz -> quantstrat_0.9.1669-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=b2b3fd4c40142263f0ed60049812f905

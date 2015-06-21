@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		R/EQS Interface // This package contains the function run.eqs()
+		which calls an EQS script file, executes the EQS estimation,
+		and, finally, imports the results as R objects. These two steps
+		can be performed separately: call.eqs() calls and executes EQS,
+		whereas read.eqs() imports existing EQS outputs as objects into
+		R. It requires EQS 6.2 (build 98 or higher).
+	</longdescription>
+</pkgmetadata>

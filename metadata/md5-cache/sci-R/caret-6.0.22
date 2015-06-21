@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/car sci-CRAN/reshape2 sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/plyr dev-lang/R
+DESCRIPTION=Classification and Regression Training
+EAPI=4
+IUSE=r_suggests_affy r_suggests_e1071 r_suggests_earth r_suggests_ellipse r_suggests_fastica r_suggests_gam r_suggests_ipred r_suggests_kernlab r_suggests_klar r_suggests_mda r_suggests_mlbench r_suggests_party r_suggests_pls r_suggests_proc r_suggests_proxy r_suggests_randomforest r_suggests_rann r_suggests_spls byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/car sci-CRAN/reshape2 sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/plyr r_suggests_affy? ( sci-BIOC/affy ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_earth? ( >=sci-CRAN/earth-2.2.3 ) r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_fastica? ( sci-CRAN/fastICA ) r_suggests_gam? ( sci-CRAN/gam ) r_suggests_ipred? ( sci-CRAN/ipred ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_klar? ( sci-CRAN/klaR ) r_suggests_mda? ( sci-CRAN/mda ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_party? ( >=sci-CRAN/party-0.9.99992 ) r_suggests_pls? ( sci-CRAN/pls ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_proxy? ( sci-CRAN/proxy ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rann? ( sci-CRAN/RANN ) r_suggests_spls? ( sci-CRAN/spls ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/caret_6.0-22.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=c8d7457f894ff9cc5ab786fe1bcf4827

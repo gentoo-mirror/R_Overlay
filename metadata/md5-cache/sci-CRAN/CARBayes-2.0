@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/coda >=sci-CRAN/Rcpp-0.10.6 sci-CRAN/truncdist sci-CRAN/spam dev-lang/R
+DESCRIPTION=Spatial areal unit modelling
+EAPI=4
+IUSE=r_suggests_deldir r_suggests_maptools r_suggests_shapefiles r_suggests_sp r_suggests_spdep byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/coda >=sci-CRAN/Rcpp-0.10.6 sci-CRAN/truncdist sci-CRAN/spam sci-CRAN/Rcpp r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_shapefiles? ( sci-CRAN/shapefiles ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_spdep? ( sci-CRAN/spdep ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CARBayes_2.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=0e43c3984fee9490f7321ed30d88789c

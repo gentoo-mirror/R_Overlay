@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Mixed-pair mutual information estimators // Uses a kernel
+		smoothing approach to calculate Mutual Information for
+		comparisons between all types of variables including continuous
+		vs continuous, continuous vs discrete and discrete vs discrete.
+		Uses a nonparametric bias correction giving Bias Corrected
+		Mutual Information (BCMI). Implemented efficiently in Fortran
+		95 with OpenMP and suited to large genomic datasets.
+	</longdescription>
+</pkgmetadata>

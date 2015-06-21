@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multivariate time series data imputation // This is an EM
+		algorithm based method for imputation of missing values in
+		multivariate normal time series. The imputation algorithm
+		accounts for both spatial and temporal correlation structures.
+		Temporal patterns can be modelled using an ARIMA(p,d,q),
+		optionally with seasonal components, a non-parametric cubic
+		spline or generalised additive models with exogenous
+		covariates. This algorithm is specially tailored for climate
+		data with missing measurements from several monitors along a
+		given region.
+	</longdescription>
+</pkgmetadata>

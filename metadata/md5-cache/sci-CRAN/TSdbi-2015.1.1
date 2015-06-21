@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/DBI-0.3.1 >=sci-CRAN/tframe-2015.1.1 dev-lang/R
+DESCRIPTION=Time Series Database Interface
+EAPI=4
+IUSE=r_suggests_tfplot r_suggests_tframeplus r_suggests_tis r_suggests_tseries r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/DBI-0.3.1 >=sci-CRAN/tframe-2015.1.1 r_suggests_tfplot? ( sci-CRAN/tfplot ) r_suggests_tframeplus? ( sci-CRAN/tframePlus ) r_suggests_tis? ( sci-CRAN/tis ) r_suggests_tseries? ( sci-CRAN/tseries ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TSdbi_2015.1-1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=61c4dc8a174239304f1c00c8c6321816

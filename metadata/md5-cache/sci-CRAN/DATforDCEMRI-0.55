@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/locfit sci-CRAN/R_oo sci-R/R_methodsS3 sci-CRAN/xtable sci-CRAN/akima >=dev-lang/R-2.11.0 sci-CRAN/matlab dev-lang/R
+DESCRIPTION=Deconvolution Analysis Tool for ... (see metadata)
+EAPI=4
+IUSE=r_suggests_r_matlab byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-NC-SA-3.0
+RDEPEND=sci-CRAN/locfit sci-CRAN/R_oo sci-R/R_methodsS3 sci-CRAN/xtable sci-CRAN/akima >=dev-lang/R-2.11.0 sci-CRAN/matlab r_suggests_r_matlab? ( sci-CRAN/R_matlab ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DATforDCEMRI_0.55.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=ee38b176aef2f43994edffb80bceef18

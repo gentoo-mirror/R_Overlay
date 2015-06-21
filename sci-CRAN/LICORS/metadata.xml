@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Light Cone Reconstruction of States - Predictive State Estimation
+		From Spatio-Temporal Data // Estimates predictive states from
+		spatio-temporal data and consequently can provide provably
+		optimal forecasts. Currently this implementation supports an
+		N-dimensional spatial grid observed over equally spaced time
+		intervals. E.g. a video is a 2D spatial systems observed over
+		time. This package implements mixed LICORS, has plotting tools
+		(for (1+1)D and (2+1)D systems), and methods for optimal
+		forecasting.  Due to memory limitations it is recommend to only
+		analyze (1+1)D systems.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Bootstrap Predictive Mean Matching - Multiple and Single
+		Imputation for Discrete Data // Included are two variants of
+		Bayesian Bootstrap Predictive Mean Matching to multiply impute
+		missing data. The first variant is a variable-by-variable
+		imputation combining sequential regression and Predictive Mean
+		Matching (PMM) that has been extended for unordered categorical
+		data. The Bayesian Bootstrap allows for generating
+		approximately proper multiple imputations. The second variant
+		is also based on PMM, but the focus is on imputing several
+		variables at the same time. The suggestion is to use this
+		variant, if the missing-data pattern resembles a data fusion
+		situation, or any other missing-by-design pattern, where
+		several variables have identical missing-data patterns. Both
+		variants can be run as 'single imputation' versions, in case
+		the analysis objective is of a purely descriptive nature.
+	</longdescription>
+</pkgmetadata>

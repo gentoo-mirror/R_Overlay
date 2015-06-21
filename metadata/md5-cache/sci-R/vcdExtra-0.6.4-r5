@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/vcd >=sci-CRAN/gnm-1.0.3 dev-lang/R
+DESCRIPTION=vcd Extensions and Additions
+EAPI=4
+IUSE=r_suggests_aer r_suggests_ca r_suggests_car r_suggests_effects r_suggests_fahrmeir r_suggests_ggplot2 r_suggests_gmodels r_suggests_lmtest r_suggests_plyr r_suggests_rgl r_suggests_sleuth2 r_suggests_vgam byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/vcd >=sci-CRAN/gnm-1.0.3 r_suggests_aer? ( sci-CRAN/AER ) r_suggests_ca? ( sci-CRAN/ca ) r_suggests_car? ( sci-CRAN/car ) r_suggests_effects? ( sci-CRAN/effects ) r_suggests_fahrmeir? ( sci-CRAN/Fahrmeir ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gmodels? ( sci-CRAN/gmodels ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_sleuth2? ( sci-CRAN/Sleuth2 ) r_suggests_vgam? ( sci-CRAN/VGAM ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/vcdExtra_0.6-4.tar.gz -> vcdExtra_0.6-4-r5.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=afb644549ab5bd5e7c74f8cf9c9d1589

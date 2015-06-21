@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		This packages provides an interface for a queue class along with
+		providing a uni-process queue class. // A queue is a sequential
+		data structure allowing users to push to the back of it to
+		store data and pull from the front of it to retrieve data.  The
+		queue data structure provided in this package is appropriate
+		for use on a single-process R session.  However, there are
+		other packages, such as redis.queue, that allow data structures
+		to be passed between processes.
+	</longdescription>
+</pkgmetadata>

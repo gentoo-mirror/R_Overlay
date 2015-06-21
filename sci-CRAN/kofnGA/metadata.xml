@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Genetic Algorithm for Fixed-Size Subset Selection // Function
+		kofnGA uses a genetic algorithm to choose a subset of a fixed
+		size k from the integers 1:n, such that a user-supplied
+		objective function is minimized at that subset.  The selection
+		step is done by tournament selection based on ranks, and
+		elitism may be used to retain a portion of the best solutions
+		from one generation to the next.
+	</longdescription>
+</pkgmetadata>

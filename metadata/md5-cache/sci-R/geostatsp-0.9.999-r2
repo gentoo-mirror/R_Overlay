@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/pracma sci-CRAN/raster sci-CRAN/sp sci-CRAN/abind >=dev-lang/R-3.0.0 sci-CRAN/numDeriv dev-lang/R
+DESCRIPTION=Geostatistics using SpatialPoints and rasters
+EAPI=4
+IUSE=r_suggests_geor r_suggests_randomfields r_suggests_rgdal byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/pracma sci-CRAN/raster sci-CRAN/sp sci-CRAN/abind >=dev-lang/R-3.0.0 sci-CRAN/numDeriv r_suggests_geor? ( sci-CRAN/geoR ) r_suggests_randomfields? ( sci-CRAN/RandomFields ) r_suggests_rgdal? ( sci-CRAN/rgdal ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/geostatsp_0.9.999.tar.gz -> geostatsp_0.9.999-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=91fb0970ec202f31f3780ab2451381f9

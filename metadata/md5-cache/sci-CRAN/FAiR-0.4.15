@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/gWidgetsRGtk2-0.0.31 >=sci-CRAN/rgenoud-5.4.7 sci-CRAN/rrcov dev-lang/R
+DESCRIPTION=Factor Analysis in R
+EAPI=4
+IUSE=r_suggests_corpcor r_suggests_energy r_suggests_gparotation r_suggests_mvnmle r_suggests_mvnormtest r_suggests_nfactors r_suggests_polycor r_suggests_psych r_suggests_sem byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=>=sci-CRAN/gWidgetsRGtk2-0.0.31 >=sci-CRAN/rgenoud-5.4.7 sci-CRAN/rrcov r_suggests_corpcor? ( sci-CRAN/corpcor ) r_suggests_energy? ( sci-CRAN/energy ) r_suggests_gparotation? ( sci-CRAN/GPArotation ) r_suggests_mvnmle? ( sci-CRAN/mvnmle ) r_suggests_mvnormtest? ( sci-CRAN/mvnormtest ) r_suggests_nfactors? ( sci-CRAN/nFactors ) r_suggests_polycor? ( sci-CRAN/polycor ) r_suggests_psych? ( sci-CRAN/psych ) r_suggests_sem? ( sci-CRAN/sem ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FAiR_0.4-15.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=a0b4eaf2518eac14a4ffc42ae5b21cac

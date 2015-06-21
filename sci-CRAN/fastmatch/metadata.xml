@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast match() function // Package providing a fast match()
+		replacement for cases that require repeated look-ups. It is
+		slightly faster that R's built-in match() function on first
+		match against a table, but extremely fast on any subsequent
+		lookup as it keeps the hash table in memory.
+	</longdescription>
+</pkgmetadata>

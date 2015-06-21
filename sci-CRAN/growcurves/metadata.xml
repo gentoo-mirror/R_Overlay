@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian semi and nonparametric growth curve models that
+		additionally include multiple membership random effects. //
+		Employs a non-parametric formulation for by-subject random
+		effect parameters to borrow strength over a constrained number
+		of repeated measurement waves in a fashion that permits
+		multiple effects per subject. One class of models employs a
+		Dirichlet process (DP) prior for the subject random effects and
+		includes an additional set of random effects that utilize a
+		different grouping factor and are mapped back to clients
+		through a multiple membership weight matrix; e.g. treatment(s)
+		exposure or dosage. A second class of models employs a
+		dependent DP (DDP) prior for the subject random effects that
+		directly incorporates the multiple membership pattern.
+	</longdescription>
+</pkgmetadata>

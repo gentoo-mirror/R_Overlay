@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/rggobi sci-CRAN/e1071 sci-CRAN/RGtk2 sci-CRAN/plyr sci-CRAN/reshape2 dev-lang/R
+DESCRIPTION=Explore clustering interactively using R and GGobi
+EAPI=4
+IUSE=r_suggests_ggplot2 r_suggests_kohonen r_suggests_mclust r_suggests_som byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/rggobi sci-CRAN/e1071 sci-CRAN/RGtk2 sci-CRAN/plyr sci-CRAN/reshape2 r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_kohonen? ( sci-CRAN/kohonen ) r_suggests_mclust? ( sci-CRAN/mclust ) r_suggests_som? ( sci-CRAN/som ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clusterfly_0.4.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=fa5af5f79902ef04599a972faa43212a

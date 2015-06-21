@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detects spatial outliers using a Random Walk on Bipartite Graph
+		// a Bipartite graph and is constructed based on the spatial
+		and/or non-spatial attributes of the spatial objects in the
+		dataset. Secondly, RW techniques are utilized on the graphs to
+		compute the outlierness for each point (the differences between
+		spatial objects and their spatial neighbours). The top k
+		objects with higher outlierness are recognized as outliers.
+	</longdescription>
+</pkgmetadata>

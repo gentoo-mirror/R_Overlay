@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/clue sci-CRAN/hash sci-CRAN/animation >=dev-lang/R-2.13.0 sci-CRAN/mlbench sci-CRAN/fpc >=sci-CRAN/proxy-0.4.7 sci-CRAN/clusterGeneration dev-lang/R
+DESCRIPTION=Infrastructure for Data Stream Mining
+EAPI=4
+IUSE=r_suggests_dbi r_suggests_rsqlite r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/clue sci-CRAN/hash sci-CRAN/animation >=dev-lang/R-2.13.0 sci-CRAN/mlbench sci-CRAN/fpc >=sci-CRAN/proxy-0.4.7 sci-CRAN/clusterGeneration r_suggests_dbi? ( sci-CRAN/DBI ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stream_1.1-1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=8b28bbb1ef8aebf0c4835c6946c996df

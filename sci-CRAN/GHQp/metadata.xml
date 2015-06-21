@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gauss Hermite Quadrature with pruning. // The GHQ function can be
+		used to obtain the quadrature points and weights to approximate
+		an integral in two or more dimensions. This function uses the
+		pruning approach to eliminate that points that do not
+		contribute to the approximation of the integral and increases
+		computational cost. The advantage to conducting this
+		elimination of points is the decrease in the number of times
+		that the function of interest is evaluated. This advantage is
+		crucial in mixed models in which we must address several
+		integrations within an iterative process to obtain model
+		parameters.
+	</longdescription>
+</pkgmetadata>

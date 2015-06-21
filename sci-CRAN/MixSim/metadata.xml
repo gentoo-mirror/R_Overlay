@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulating Data to Study Performance of Clustering Algorithms //
+		The utility of this package is in simulating mixtures of
+		Gaussian distributions with different levels of overlap between
+		mixture components.  Pairwise overlap, defined as a sum of two
+		misclassification probabilities, measures the degree of
+		interaction between components and can be readily employed to
+		control the clustering complexity of datasets simulated from
+		mixtures. These datasets can then be used for systematic
+		performance investigation of clustering and finite mixture
+		modeling algorithms. Among other capabilities of 'MixSim',
+		there are computing the exact overlap for Gaussian mixtures,
+		simulating Gaussian and non-Gaussian data, simulating outliers
+		and noise variables, calculating various measures of agreement
+		between two partitionings, and constructing parallel
+		distribution plots for the graphical display of finite mixture
+		models.
+	</longdescription>
+</pkgmetadata>

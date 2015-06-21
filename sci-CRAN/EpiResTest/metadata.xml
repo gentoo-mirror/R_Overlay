@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Latent Residuals Test for Epidemiology and Ecology Models //
+		Latent residual tests recently developed (Lau et al. 2014)
+		which are specifically designed to measure the goodness-of-fit
+		of different model components of a general spatial S-E-I-R
+		model commonly used in epidemiology and ecology studies. More
+		restrictive model classes such as S-I-R can be accommodated.
+		Note that although each test is specifically designed to be
+		sensitive to one particular component of a spatio-temporal
+		model, they are not theoretically restricted to only testing
+		these specific aspects and can be used as a general model
+		assessment tool like any other conventional model selection
+		techniques. The underlying functions are coded in C++ so they
+		should be generally quick.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.15.1 sci-CRAN/timeDate sci-CRAN/fBasics sci-CRAN/timeSeries dev-lang/R
+DESCRIPTION=Rmetrics - Pricing and Evaluating Bonds
+EAPI=4
+IUSE=r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.15.1 sci-CRAN/timeDate sci-CRAN/fBasics sci-CRAN/timeSeries r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/fBonds_3010.77.tar.gz -> r-forge_fBonds_3010.77-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=93522310a4b374adc6708c51b6862576

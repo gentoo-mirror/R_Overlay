@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/combinat dev-lang/R
+DESCRIPTION=Classification and visualization
+EAPI=4
+IUSE=r_suggests_e1071 r_suggests_evtree r_suggests_mlbench r_suggests_scatterplot3d r_suggests_som byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/combinat sci-libs/libsvm r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_evtree? ( sci-CRAN/evtree ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_scatterplot3d? ( >=sci-CRAN/scatterplot3d-0.3.22 ) r_suggests_som? ( sci-CRAN/som ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/klaR_0.6-10.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=cc1964db61028489c4b4c6539d8b5bd7

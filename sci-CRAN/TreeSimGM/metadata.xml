@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulating Phylogenetic Trees under a General Model // The
+		package is a flexible simulation tool for phylogenetic trees
+		under a general model. It is possible to assume any probability
+		distribution for the waiting time until speciation and
+		extinction independently. Thus, TreeSimGM allows to simulate
+		stochastic phylogenetic trees using any probability
+		distribution and parameters for speciation and  extinction. The
+		speciation modes have all binary splits and are: (i) symmetric,
+		where for every speciation event new waiting times until
+		speciation and extinction are drawn for both daughter lineages;
+		and (ii) asymmetric, where a speciation event results in one
+		species with new waiting times, and another that carries the
+		extinction time and age of its ancestor. Those two modes were
+		inspired by allopatric and peripatric speciation
+		respectively.Both models (symmetric and asymmetric) were
+		created and implemented so that different processes
+		(distributions) for speciation and extinction could be
+		independently and explicitly specified. It is also possible to
+		have an implicit extinction process by setting the extinction
+		rate to zero.
+	</longdescription>
+</pkgmetadata>

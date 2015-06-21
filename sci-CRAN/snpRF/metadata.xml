@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Random Forest for SNPs to Prevent X-chromosome SNP Importance
+		Bias // A modification of Breiman and Cutler's classification
+		random forests modified for SNP (Single Nucleotide
+		Polymorphism) data (based on randomForest v4.6-7) to prevent
+		X-chromosome SNP variable importance bias compared to autosomal
+		SNPs by simulating the process of X chromosome inactivation.
+		Classification is based on a forest of trees using random
+		subsets of SNPs and other variables as inputs.
+	</longdescription>
+</pkgmetadata>

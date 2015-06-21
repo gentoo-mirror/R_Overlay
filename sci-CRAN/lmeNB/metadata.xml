@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Compute the Personalized Activity Index Based on a Negative
+		Binomial Model // The functions in this package implement the
+		safety monitoring procedures proposed in the paper titled
+		"Detection of unusual increases in MRI lesion counts in
+		individual multiple sclerosis patients" by Zhao, Y., Li,
+		D.K.B., Petkau, A.J., Riddehough, A., Traboulsee, A., published
+		in Journal of the American Statistical Association in 2013. The
+		procedure first models longitudinally collected count variables
+		with a negative binomial mixed-effect regression model. To
+		account for the correlation among repeated measures from the
+		same patient, the model has subject-specific random intercept,
+		which can be modelled with a gamma or log-normal distributions.
+		One can also choose the semi-parametric option which does not
+		assume any distribution for the random effect. These mixed-
+		effect models could be useful beyond the application of the
+		safety monitoring. The maximum likelihood methods are used to
+		estimate the unknown fixed effect parameters of the model.
+		Based on the fitted model, the personalized activity index is
+		computed for each patient. Lastly, this package is companion to
+		R package lmeNBBayes, which contains the functions to compute
+		the Personalized Activity Index in Bayesian framework.
+	</longdescription>
+</pkgmetadata>

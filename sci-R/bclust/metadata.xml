@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian clustering using spike-and-slab hierarchical model,
+		suitable for clustering high-dimensional data. // The package
+		builds a dendrogram with log posterior as a natural distance
+		defined by the model. It is also capable to computing Bayesian
+		discrimination probabilities equivalent to the implemented
+		Bayesian clustering. Spike-and-Slab models are adopted in a way
+		to be able to produce an importance measure for clustering and
+		discriminant variables. The method works properly for data with
+		small sample size and high dimensions. The model parameter
+		estimation maybe difficult, depending on data structure and the
+		chosen distribution family.
+	</longdescription>
+</pkgmetadata>

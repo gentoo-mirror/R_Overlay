@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/rgl sci-CRAN/jpeg >=dev-lang/R-3.0 sci-CRAN/xtable sci-CRAN/plyr sci-CRAN/tkrgl sci-CRAN/RColorBrewer sci-CRAN/png dev-lang/R
+DESCRIPTION=2D and 3D Hive Plots for R
+EAPI=4
+IUSE=r_suggests_bipartite r_suggests_funcmap r_suggests_ggplot2 r_suggests_knitr r_suggests_mvbutils r_suggests_reshape r_suggests_sna byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/rgl sci-CRAN/jpeg >=dev-lang/R-3.0 sci-CRAN/xtable sci-CRAN/plyr sci-CRAN/tkrgl sci-CRAN/RColorBrewer sci-CRAN/png r_suggests_bipartite? ( sci-CRAN/bipartite ) r_suggests_funcmap? ( sci-CRAN/FuncMap ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mvbutils? ( sci-CRAN/mvbutils ) r_suggests_reshape? ( sci-CRAN/reshape ) r_suggests_sna? ( sci-CRAN/sna ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/HiveR_0.2-28.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=01b9b593735b0054e93095c916d2425d

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Methods to run batch jobs in R // The package provides methods to
+		batch run R scripts in a straightforward manner. A job batch is
+		defined by a root directory containing subdirectories todo/,
+		running/, finished/, failed/, src/ among others. A job to be
+		processed is a directory placed in todo/. A job is processed by
+		moving it to running/, then sourcing the R files in src/
+		(containing common code) and then the ones in the job directory
+		(contain job specific code), in which a function onRun() has to
+		be defined, which is then called. Succesfully jobs end up in
+		finished/ whereas failed jobs in failed/.
+	</longdescription>
+</pkgmetadata>

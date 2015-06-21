@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Wavelet routine for multiple correlation // Wavelet routines that
+		calculate single sets of wavelet multiple correlations and
+		cross-correlations out of n variables (either 1D time series,
+		2D images or 3D arrays). They can later be plotted in single
+		graphs, as an alternative to trying to make sense out of
+		several sets of wavelet correlations or wavelet cross-
+		correlations. The code is based on the calculation, at each
+		wavelet scale, of the square root of the coefficient of
+		determination in a linear combination of variables for which
+		such coefficient of determination is a maximum. The code
+		provided here is based on the wave.correlation routine in
+		Brandon Whitcher's waveslim R package Version: 1.6.4, which in
+		turn is based on wavelet methodology developed in Percival and
+		Walden (2000); Gencay, Selcuk and Whitcher (2001) and others.
+	</longdescription>
+</pkgmetadata>

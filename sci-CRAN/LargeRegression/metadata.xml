@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Large Regressions // Uses gradient descent to minimize the sum of
+		squared residuals for the regression problem.  Can include an
+		L2 penalty on the coefficient matrix. This function is very
+		useful when there is an initial guess of what B should be in Y
+		= XB. In general, this function performs faster than R's lm
+		function. GPU acceleration can be used to make this function
+		extremely fast.  This package suggests cudaMatrixOps, which is
+		not on CRAN but can be downloaded at stanford.edu/~jeffwong.
+	</longdescription>
+</pkgmetadata>

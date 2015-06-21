@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		SNP locations for Homo sapiens (dbSNP Build 137) // SNP locations
+		and alleles for Homo sapiens extracted from NCBI dbSNP Build
+		137. The source data files used for this package were created
+		by NCBI on June 7-8, 2012, and contain SNPs mapped to reference
+		genome GRCh37.p5. WARNING: Note that the GRCh37.p5 genome is a
+		patched version of GRCh37 but the patch doesn't alter
+		chromosomes 1-22, X, Y, MT. GRCh37 itself is the same as the
+		hg19 genome from UCSC *except* for the mitochondrion
+		chromosome. Therefore, the SNPs in this package can be
+		"injected" in BSgenome.Hsapiens.UCSC.hg19 and they will land at
+		the correct location but this injection will exclude chrM (i.e.
+		nothing will be injected in that sequence).
+	</longdescription>
+</pkgmetadata>

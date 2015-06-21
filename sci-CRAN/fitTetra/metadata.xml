@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		fitTetra is an R package for assigning tetraploid genotype scores
+		// Package fitTetra contains three functions that can be used
+		to assign genotypes to a collection of tetraploid samples based
+		on bialleleic marker assays. Functions fitTetra (to fit several
+		models for one marker from the data and select the best
+		fitting) or saveMarkerModels (calls fitTetra for multiple
+		markers and saves the results to files) will probably be the
+		most convenient to use. Function CodomMarker offers more
+		control and fits one specified model for a given marker.
+	</longdescription>
+</pkgmetadata>

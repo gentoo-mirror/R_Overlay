@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/kernlab dev-lang/R
+DESCRIPTION=probsvm: Class probability estim... (see metadata)
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/kernlab dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/probsvm_1.00.tar.gz -> probsvm_1.00-r1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=540a368fd5f5a808b4e98c9a4bd27514

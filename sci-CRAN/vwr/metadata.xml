@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Useful functions for visual word recognition research //
+		Functions and data for use in visual word recognition research:
+		Computation of neighbors (Hamming and Levenshtein distances),
+		average distances to neighbors (e.g., OLD20), and Coltheart's
+		N. Also includes the LD1NN algorithm to detect bias in the
+		composition of a lexical decision task. Most of the functions
+		support parallel execution. Supplies wordlists for several
+		languages. Uses the string distance functions from the
+		stringdist package by Mark van der Loo.
+	</longdescription>
+</pkgmetadata>

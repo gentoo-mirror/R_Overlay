@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Frailty Models via H-likelihood // The frailtyHL package
+		implements the h-likelihood estimation procedures for frailty
+		models. The package fits Cox's proportional hazards models with
+		random effects (or frailties). For the frailty distribution
+		lognormal and gamma are allowed. The h-likelihood uses the
+		Laplace approximation when the numerical integration is
+		intractable, giving a statistically efficient estimation in
+		frailty models.
+	</longdescription>
+</pkgmetadata>

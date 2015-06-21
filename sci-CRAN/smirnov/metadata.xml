@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Provides two taxonomic coefficients from E. S. Smirnov "Taxonomic
+		analysis" (1969) book // This tiny package contains one
+		function smirnov() which calculates two scaled taxonomic
+		coefficients, Txy (coefficient of similarity) and Txx
+		(coefficient of originality). These two characteristics may be
+		used for the analysis of similarities between any number of
+		taxonomic groups, and also for assessing uniqueness of giving
+		taxon. It is possible to use smirnov() output as a distance
+		measure: convert it to distance by "as.dist(1 - smirnov(x))".
+	</longdescription>
+</pkgmetadata>

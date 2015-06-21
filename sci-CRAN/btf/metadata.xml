@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimates univariate function via Bayesian trend filtering //
+		Trend filtering uses the generalized lasso framework to fit an
+		adaptive polynomial of degree k to estimate the function f_0 at
+		each input x_i in the model: y_i = f_0(x_i) + epsilon_i, for i
+		= 1, ..., n, and epsilon_i is sub-Gaussian with E(epsilon_i) =
+		0.  Bayesian trend filtering adapts the genlasso framework to a
+		fully Bayesian hierarchical model, estimating the penalty
+		parameter lambda within a tractable Gibbs sampler.
+	</longdescription>
+</pkgmetadata>

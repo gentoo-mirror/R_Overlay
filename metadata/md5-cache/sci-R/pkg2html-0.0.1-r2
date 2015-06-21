@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/RefManageR sci-CRAN/yaml >=dev-lang/R-2.14.0 sci-CRAN/knitr sci-CRAN/markdown dev-lang/R
+DESCRIPTION=Generate HTML Templates for CRAN Packages
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/RefManageR sci-CRAN/yaml >=dev-lang/R-2.14.0 sci-CRAN/knitr sci-CRAN/markdown dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/pkg2html_0.0-1.tar.gz -> pkg2html_0.0-1-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=722c0352e898e62290493ec1c0c8d064

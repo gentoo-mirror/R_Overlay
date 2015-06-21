@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.2 >=sci-CRAN/PDQutils-0.1.1 sci-CRAN/orthopolynom sci-CRAN/hypergeo dev-lang/R
+DESCRIPTION=Some Additional Distributions
+EAPI=4
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_shiny r_suggests_testthat r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-3.0.2 >=sci-CRAN/PDQutils-0.1.1 sci-CRAN/orthopolynom sci-CRAN/hypergeo r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sadists_0.2.1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=8104ebf8a4913828f5bc673628807aab

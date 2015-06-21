@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/lme4-1.0.5 sci-CRAN/coin sci-CRAN/car >=dev-lang/R-3.0.0 sci-CRAN/stringr >=sci-CRAN/pbkrtest-0.3.6 sci-CRAN/reshape2 dev-lang/R
+DESCRIPTION=Analysis of Factorial Experiments
+EAPI=4
+IUSE=r_suggests_ascii r_suggests_knitr r_suggests_lsmeans r_suggests_multcomp r_suggests_nloptr r_suggests_optimx r_suggests_plyr r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/lme4-1.0.5 sci-CRAN/coin sci-CRAN/car >=dev-lang/R-3.0.0 sci-CRAN/stringr >=sci-CRAN/pbkrtest-0.3.6 sci-CRAN/reshape2 r_suggests_ascii? ( sci-CRAN/ascii ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lsmeans? ( sci-CRAN/lsmeans ) r_suggests_multcomp? ( sci-CRAN/multcomp ) r_suggests_nloptr? ( sci-CRAN/nloptr ) r_suggests_optimx? ( sci-CRAN/optimx ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/afex_0.14-159.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=8c78d0062f4122579398c9333d80a1de

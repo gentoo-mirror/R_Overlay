@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.14.0 sci-BIOC/edgeR dev-lang/R
+DESCRIPTION=Ribosome profiling data analysis
+EAPI=4
+IUSE=r_suggests_r_devices r_suggests_r_rsp r_suggests_r_utils byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=>=dev-lang/R-2.14.0 sci-BIOC/edgeR r_suggests_r_devices? ( sci-CRAN/R_devices ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_r_utils? ( sci-CRAN/R_utils ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/babel_0.2-5.tar.gz -> r-forge_babel_0.2-5.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=f3c87669ef0a4039f9ff1f29716efac7
