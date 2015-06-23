@@ -3,11 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Select Features Reliably with Cohen's Effect Sizes // Functions
-		using Cohen's effect sizes (Cohen, J. A power primer.
-		Psychological bulletin 112, 155 (1992)) are provided for
-		reliable feature selection in biology data analysis.  With
-		Cohen's effect sizes, p-values are calculated and adjusted from
-		quasi-Poisson GLM, negative binomial GLM and Normal
-		distribution ANOVA.
+		using Cohen's effect sizes (Cohen, Jacob. Statistical power
+		analysis for the behavioral sciences. Academic press, 2013) are
+		provided for reliable feature selection in biology data
+		analysis.  In addition to Cohen's effect sizes, p-values are
+		calculated and adjusted from quasi-Poisson GLM, negative
+		binomial GLM and Normal distribution ANOVA.  Significant
+		features (genes, RNAs or proteins) are selected by adjusted
+		p-value and minimum Cohen's effect sizes, calculated to keep
+		certain level of statistical power of biology data analysis
+		given p-value threshold and sample size.
 	</longdescription>
 </pkgmetadata>

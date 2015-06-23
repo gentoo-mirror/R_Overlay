@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Diagnostic tools for hierarchical (multilevel) linear models // A
+		Diagnostic Tools for Hierarchical (Multilevel) Linear Models // A
 		suite of diagnostic tools for hierarchical (multilevel) linear
-		models. The package offers not only leverage and traditional
+		models. The tools include not only leverage and traditional
 		deletion diagnostics (Cook's distance, covratio, covtrace, and
-		MDFFITS) but also provides convenience functions and graphics
-		for residual analysis. The package assumes that models were fit
-		using the lme4 package.
+		MDFFITS) but also convenience functions and graphics for
+		residual analysis. Models can be fit using either lmer in the
+		'lme4' package or lme in the 'nlme' package, but only two-level
+		models fit using lme are currently supported.
 	</longdescription>
 </pkgmetadata>

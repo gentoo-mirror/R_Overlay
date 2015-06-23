@@ -1,0 +1,20 @@
+# Copyright 1999-2015 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Bayesian Model Averaging'
+SRC_URI="http://cran.r-project.org/src/contrib/BMA_3.18.4.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_forward"
+R_SUGGESTS="r_suggests_forward? ( sci-CRAN/forward )"
+DEPEND="sci-CRAN/leaps
+	sci-CRAN/robustbase
+	sci-CRAN/inline
+	sci-CRAN/rrcov
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
