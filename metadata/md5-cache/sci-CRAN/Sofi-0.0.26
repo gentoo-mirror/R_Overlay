@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/shiny sci-CRAN/sampling dev-lang/R
+DESCRIPTION=Interfaz interactiva con fines didacticos
+EAPI=4
+IUSE=r_suggests_ggextra r_suggests_ggplot2 r_suggests_gridextra r_suggests_shinyjs r_suggests_vgam byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/shiny sci-CRAN/sampling r_suggests_ggextra? ( sci-CRAN/ggExtra ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_shinyjs? ( sci-CRAN/shinyjs ) r_suggests_vgam? ( sci-CRAN/VGAM ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Sofi_0.0.26.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=d2bb9f333ffe5156634795c8550f4f11
