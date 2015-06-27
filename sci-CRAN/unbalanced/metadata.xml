@@ -2,17 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		The package implements different data-driven method for
-		unbalanced datasets // A dataset is said to be unbalanced when
-		the class of interest (minority class) is much rarer than
-		normal behaviour (majority class). The cost of missing a
-		minority class is typically much higher that missing a majority
-		class. Most learning systems are not prepared to cope with
-		unbalanced data. Proposed strategies essentially belong to the
-		following categories: sampling and distance-based. Sampling
-		techniques up-sample or down-sample a class of instances. SMOTE
-		generates synthetic minority examples. Distance based
-		techniques use distances between input points to under-sample
-		or to remove noisy and borderline examples.
+		Racing for Unbalanced Methods Selection // A dataset is said to
+		be unbalanced when the class of interest (minority class) is
+		much rarer than normal behaviour (majority class). The cost of
+		missing a minority class is typically much higher that missing
+		a majority class. Most learning systems are not prepared to
+		cope with unbalanced data and several techniques have been
+		proposed. This package implements some of most well-known
+		techniques and propose a racing algorithm to select adaptively
+		the most appropriate strategy for a given unbalanced task.
 	</longdescription>
 </pkgmetadata>
