@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'Knitr' Helpers - Mostly Tables // Provides several helper
+		functions for working with 'knitr' and 'LaTeX'. It includes
+		'xTab' for creating traditional 'LaTeX' tables, 'lTab' for
+		generating 'longtable' environments, and 'sTab' for generating
+		a 'supertabular' environment. Additionally, this package
+		contains a knitr_setup() function which fixes a well-known bug
+		in 'knitr', which distorts the 'results="asis"' command when
+		used in conjunction with user-defined commands; and a com
+		command (com=TRUE=) which renders the output from 'knitr' as a
+		'LaTeX' command.
+	</longdescription>
+</pkgmetadata>

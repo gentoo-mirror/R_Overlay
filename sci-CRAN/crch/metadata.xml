@@ -3,12 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Censored Regression with Conditional Heteroscedasticity //
-		Different approaches to censored regression with conditional
-		heteroscedasticity are provided. First, continuous
-		distributions can be used for the (right and/or left censored)
-		response with separate linear predictors for the mean and
-		variance. Second, cumulative link models for ordinal data
-		(obtained by interval-censoring continuous data) can be
+		Different approaches to censored or truncated regression with
+		conditional heteroscedasticity are provided. First, continuous
+		distributions can be used for the (right and/or left censored
+		or truncated) response with separate linear predictors for the
+		mean and variance. Second, cumulative link models for ordinal
+		data (obtained by interval-censoring continuous data) can be
 		employed for heteroscedastic extended logistic regression
 		(HXLR). In the latter type of models, the intercepts depend on
 		the thresholds that define the intervals.
