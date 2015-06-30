@@ -2,25 +2,27 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Power and Sample-size Distribution of 2-stage Bioequivalence
-		Studies // - Contains a function to calculate power and sample-
-		size distribution of 2-stage bioequivalence (BE) studies with a
-		2x2 crossover design according to Potvin et al. / Montague et
-		al. modified to include a futility Nmax and modified to do the
+		Power and Sample-Size Distribution of 2-Stage Bioequivalence
+		Studies // Functions to obtain the operational characteristics
+		of bioequivalence studies with 2-stage designs via simulations
+		- Contains a function to calculate power and sample-size
+		distribution of 2-stage bioequivalence (BE) studies with a 2x2
+		crossover design according to Potvin et al. / Montague et al.
+		modified to include a futility Nmax and modified to do the
 		sample size estimation step with PE and mse of stage 1. -
 		Contains further a function with the modifications according to
-		Karalis  Macheras which use PE and mse from stage 1 also for
-		the power monitoring steps. - The third function
-		power.2stage.fC() calculates power and sample size distribution
-		of 2-stage BE studies with a futility criterion for the point
-		estimator or CI of T/R from stage 1. - The fourth function
+		Karalis  Macheras which use both point estimate (PE) and mse
+		from stage 1 also for the power monitoring steps. - The third
+		function power.2stage.fC() calculates power and sample-size
+		distribution of 2-stage BE studies with a futility criterion
+		for the PE or CI of T/R from stage 1. - The fourth function
 		power.2stage.GS() calculates power of non-adaptive group
 		sequential (2-stage) BE studies. - The fifth function
 		power.2stage.p() calculates power and sample size distribution
-		of 2-stage BE studies with 2 parallel groups. - Another
-		function power.2stage.ssr() allows the power calculation for
-		2-stage studies with (blinded) interim sample size re-
-		estimation. All the functions use simulations to obtain their
-		results.
+		of 2-stage BE studies with 2 parallel groups. This function has
+		a sibling power.2stage.pAF(), which performs exactly as
+		described in A.Fuglsang 2014 - Another function
+		power.2stage.ssr() allows the power calculation for 2-stage
+		studies with (blinded) interim sample size re-estimation.
 	</longdescription>
 </pkgmetadata>

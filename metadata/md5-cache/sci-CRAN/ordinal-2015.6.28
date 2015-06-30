@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.13.0 sci-CRAN/ucminf dev-lang/R
+DESCRIPTION=Regression Models for Ordinal Data
+EAPI=4
+IUSE=r_suggests_lme4 r_suggests_testthat r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.13.0 sci-CRAN/ucminf r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ordinal_2015.6-28.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=8a8aa731b5732a3f330e0df698eeea3c
