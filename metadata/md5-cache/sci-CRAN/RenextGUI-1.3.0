@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/gWidgetstcltk-0.0.44 >=sci-CRAN/Renext-2.1.0 sci-CRAN/gWidgets dev-lang/R
+DESCRIPTION=GUI for Renext
+EAPI=4
+IUSE=r_suggests_r2html byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/gWidgetstcltk-0.0.44 >=sci-CRAN/Renext-2.1.0 sci-CRAN/gWidgets r_suggests_r2html? ( sci-CRAN/R2HTML ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RenextGUI_1.3-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=5329ac822f4eb52d28db27aac569b587

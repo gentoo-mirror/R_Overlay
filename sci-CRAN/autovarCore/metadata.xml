@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automated Vector Autoregression Models and Networks //
+		Automatically find the best vector autoregression models and
+		networks for a given time series data set. 'AutovarCore'
+		evaluates eight kinds of models: models with and without log
+		transforming the data, lag 1 and lag 2 models, and models with
+		and without day dummy variables. For each of these 8 model
+		configurations, 'AutovarCore' evaluates all possible
+		combinations for including outlier dummies (at 2.5x the
+		standard deviation of the residuals) and retains the best
+		model. Model evaluation includes the Eigenvalue stability test
+		and a configurable set of residual tests. These eight models
+		are further reduced to four models because 'AutovarCore'
+		determines whether adding day dummies improves the model fit.
+	</longdescription>
+</pkgmetadata>

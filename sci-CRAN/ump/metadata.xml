@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>Uniformly Most Powerful Tests // see title</longdescription>
+	<longdescription>
+		Uniformly Most Powerful Tests // Does uniformly most powerful
+		(UMP) and uniformly most powerful unbiased (UMPU) tests.  At
+		present only distribution implemented is binomial distribution.
+		Also does fuzzy tests and confidence intervals (following Geyer
+		and Meeden, Statistical Science, 2005) for the binomial
+		distribution (one-tailed procedures based on UMP test and two-
+		tailed procedures based on UMPU test).
+	</longdescription>
 </pkgmetadata>

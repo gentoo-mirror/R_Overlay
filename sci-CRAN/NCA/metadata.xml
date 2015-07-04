@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Necessary Condition Analysis // Performs a Necessary Condition
+		Analysis (NCA). (Dul, J. 2015. Necessary Condition Analysis
+		(NCA). ''Logic and Methodology of 'Necessary but not
+		Sufficient' causality." Organizational Research Methods) NCA
+		identifies necessary (but not sufficient) conditions in
+		datasets. Instead of drawing a regression line ''through the
+		middle of the data'' in an xy-plot, NCA draws the ceiling line.
+		The ceiling line y = f(x) separates the area with observations
+		from the area without observations. (Nearly) all observations
+		are below the ceiling line: y = f(x). The empty zone is in the
+		upper left hand corner of the xy-plot (with the convention that
+		the x-axis is ''horizontal'' and the y-axis is ''vertical'' and
+		that values increase ''upwards'' and ''to the right''). The
+		ceiling line is a (piecewise) linear non-decreasing line: a
+		linear step function or a straight line. It indicates which
+		level of x (e.g. an effort or input) is necessary but not
+		sufficient for a (desired) level of y (e.g. good performance or
+		output).
+	</longdescription>
+</pkgmetadata>
