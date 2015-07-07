@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Wild Scale-Enhanced Bootstrap // Perform the Wild Scale-Enhanced
+		(WiSE) bootstrap.  Specifically, the user may supply a single
+		or multiple equally-spaced time series and use the WiSE
+		bootstrap to select a wavelet-smoothed model.  Conversely, a
+		pre-selected smooth level may also be specified for the time
+		series.  Quantities such as the bootstrap sample of wavelet
+		coefficients, smoothed bootstrap samples, and specific
+		hypothesis testing and confidence region results of the wavelet
+		coefficients may be obtained.  Additional functions are
+		available to the user which help format the time series before
+		analysis.  This methodology is recommended to aid in model
+		selection and signal extraction. Note:  This package
+		specifically uses wavelet bases in the WiSE bootstrap
+		methodology, but the theoretical construct is much more
+		versatile.
+	</longdescription>
+</pkgmetadata>

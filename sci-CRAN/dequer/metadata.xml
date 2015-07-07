@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An R 'Deque' Container // Offers a special data structure called
+		a 'deque' (pronounced like 'deck'), which is a list-like
+		structure.  However, unlike R's list structure, data put into a
+		'deque' is not necessarily stored contiguously, making
+		insertions and deletions at the front/end of the structure much
+		faster.  The implementation here is new and uses a doubly
+		linked list, and whence does not rely on R's environments.  To
+		avoid unnecessary data copying, most 'deque' operations are
+		performed via side-effects.
+	</longdescription>
+</pkgmetadata>

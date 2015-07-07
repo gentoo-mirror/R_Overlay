@@ -2,13 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Poisson Log-linear Models with Spatio-temporal Random Effects //
-		Implements a series of Poisson log-linear models with spatio-
-		temporal random effects. The spatial and temporal
-		autocorrelation in the random effects are induced using the
-		class of Conditional AutoRegressive (CAR) priors, which are a
-		special case of Gaussian Markov Random Fields (GMRF). All
-		models are fitted in a Bayesian context using Markov chain
-		Monte Carlo (McMC) simulation.
+		Spatio-Temporal Generalised Linear Mixed Models for Areal Unit
+		Data // Implements a class of spatio-temporal generalised
+		linear mixed models for areal unit data, with inference in a
+		Bayesian setting using Markov chain Monte Carlo (McMC)
+		simulation. The response variable can be binomial, Gaussian or
+		Poisson. The spatio-temporal autocorrelation is modelled by
+		random effects,  which are assigned conditional autoregressive
+		(CAR) prior distributions. A number of different random effects
+		structures are available, and full details are given in the
+		vignette accompanying this package and the references below.
+		The creation of this package was supported by the Engineering
+		and Physical Science Research Council (EPSRC) grant
+		EP/J017442/1 and the Medical Research Council (MRC) grant
+		MR/L022184/1.
 	</longdescription>
 </pkgmetadata>
