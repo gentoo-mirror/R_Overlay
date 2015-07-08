@@ -2,8 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		adegenet: an R package for the exploratory analysis of genetic
-		and genomic data. // Classes and functions for genetic data
-		analysis within the multivariate framework.
+		Exploratory Analysis of Genetic and Genomic Data // Toolset for
+		the exploration of genetic and genomic data. Adegenet provides
+		formal (S4) classes for storing and handling various genetic
+		data, including genetic markers with varying ploidy and
+		hierarchical population structure ('genind' class), alleles
+		counts by populations ('genpop'), and genome-wide SNP data
+		('genlight'). It also implements original multivariate methods
+		(DAPC, sPCA), graphics, statistical tests, simulation tools,
+		distance and similarity measures, and several spatial methods.
+		A range of both empirical and simulated datasets is also
+		provided to illustrate various methods.
 	</longdescription>
 </pkgmetadata>
