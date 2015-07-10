@@ -3,12 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Efficient Estimation of Covariance and (Partial) Correlation //
-		This package implements a James-Stein-type shrinkage estimator
-		for the covariance matrix, with separate shrinkage for
-		variances and correlations. The details of the method are
-		explained in Sch\"afer and Strimmer (2005) and Opgen-Rhein and
-		Strimmer (2007).  The approach is both computationally as well
-		as statistically very efficient, it is applicable to "small n,
+		Implements a James-Stein-type shrinkage estimator for the
+		covariance matrix, with separate shrinkage for variances and
+		correlations. The details of the method are explained in
+		Sch\"afer and Strimmer (2005) and Opgen-Rhein and Strimmer
+		(2007).  The approach is both computationally as well as
+		statistically very efficient, it is applicable to "small n,
 		large p" data, and always returns a positive definite and well-
 		conditioned covariance matrix. In addition to inferring the
 		covariance matrix the package also provides shrinkage
