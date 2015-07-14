@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/sp-1.0.11 dev-lang/R
+DESCRIPTION=Tools for Reading and Handling Spatial Objects
+EAPI=4
+IUSE=r_suggests_maps r_suggests_pbsmapping r_suggests_polyclip r_suggests_raster r_suggests_rcolorbrewer r_suggests_rgeos r_suggests_spatstat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/sp-1.0.11 r_suggests_maps? ( sci-CRAN/maps ) r_suggests_pbsmapping? ( sci-CRAN/PBSmapping ) r_suggests_polyclip? ( sci-CRAN/polyclip ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rgeos? ( >=sci-CRAN/rgeos-0.1.8 ) r_suggests_spatstat? ( >=sci-CRAN/spatstat-1.18 ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/maptools_0.8-37.tar.gz -> maptools_0.8-37-r1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	025442f2eecab39ad0b4e541b6e142af	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=86466fbb048bf126be1d6ba83112cc92

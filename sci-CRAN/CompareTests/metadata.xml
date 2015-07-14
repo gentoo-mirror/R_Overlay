@@ -2,17 +2,23 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Estimate diagnostic accuracy (sensitivity, specificity, etc) and
-		agreement statistics when one test is conducted on only a
-		subsample of specimens // A standard test is observed on all
-		specimens.  We treat the second test (or sampled test) as being
-		conducted on only a stratified sample of specimens.  We treat
-		the total sample as stratified two-phase sampling and use
-		inverse probability weighting.  We estimate diagnostic accuracy
+		Correct for Verification Bias in Diagnostic Accuracy  Agreement
+		// A standard test is observed on all specimens.  We treat the
+		second test (or sampled test) as being conducted on only a
+		stratified sample of specimens.  Verification Bias is this
+		situation when the specimens for doing the second (sampled)
+		test is not under investigator control.  We treat the total
+		sample as stratified two-phase sampling and use inverse
+		probability weighting.  We estimate diagnostic accuracy
 		(category-specific classification probabilities; for binary
-		tests reduces to specificity and sensitivity) and agreement
-		statistics (percent agreement, percent agreement by category,
-		Kappa (unweighted), and symmetry tests (reduces to McNemar's
-		test for binary tests)).
+		tests reduces to specificity and sensitivity, and also
+		predictive values) and agreement statistics (percent agreement,
+		percent agreement by category, Kappa (unweighted), Kappa
+		(quadratic weighted) and symmetry tests (reduces to McNemar's
+		test for binary tests)).  See: Katki HA, Li Y, Edelstein DW,
+		Castle PE.  Estimating the agreement and diagnostic accuracy of
+		two diagnostic tests when one test is conducted on only a
+		subsample of specimens. Stat Med. 2012 Feb 28; 31(5):
+		10.1002/sim.4422.
 	</longdescription>
 </pkgmetadata>
