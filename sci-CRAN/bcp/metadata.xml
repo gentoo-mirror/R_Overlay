@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Package for Performing a Bayesian Analysis of Change Point
-		Problems // This package provides an implementation of an
-		approximation to the Barry and Hartigan (1993) product
+		Bayesian Analysis of Change Point Problems // Provides an
+		implementation of the Barry and Hartigan (1993) product
 		partition model for the normal errors change point problem
 		using Markov Chain Monte Carlo.  It also extends the
-		methodology to independent multivariate series with an assumed
-		common change point structure.
+		methodology to regression models on a connected graph (Wang and
+		Emerson, 2015); this allows estimation of change point models
+		with multivariate responses. Parallel MCMC, previously
+		available in bcp v.3.0.0, is currently not implemented.
 	</longdescription>
 </pkgmetadata>
