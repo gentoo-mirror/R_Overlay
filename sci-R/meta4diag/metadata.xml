@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Meta-analysis for diagnostic test studies // This package
-		contains functions which allow to perform Bayesian inference
+		Meta-Analysis for Diagnostic Test Studies // Bayesian inference
 		analysis for bivariate meta-analysis of diagnostic test studies
-		using integrated nested Laplace approximation. A purpose built
-		graphic user interface is available. The installation of R
-		package INLA is compulsory for successful usage of this
-		package.
+		using integrated nested Laplace approximation with INLA. A
+		purpose built graphic user interface is available. The
+		installation of R package INLA is compulsory for successful
+		usage. The INLA package can be obtained from
+		http://www.r-inla.org. We recommend the testing version, which
+		can be downloaded by running: install.packages("INLA",
+		repos="http://www.math.ntnu.no/inla/R/testing").
 	</longdescription>
 </pkgmetadata>
