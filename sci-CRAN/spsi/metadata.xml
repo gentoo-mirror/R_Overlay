@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Shape-Preserving Uni-Variate and Bi-Variate Spline Interpolation
+		// Program uses method of polynomial of variable degrees to
+		interpolate gridded data preserving monotonicity and/or
+		convexity or none. Method is implemented for univariate and
+		bivariate cases. If values of derivatives are provided, spline
+		will fix them,if not program will estimate them numerically.
+		Package written purely in R.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Time Delay Estimation for Stochastic Time Series of
+		Gravitationally Lensed Quasars // We provide a toolbox to
+		estimate the time delay between the brightness time series of
+		gravitationally lensed quasar images via Bayesian and profile
+		likelihood approaches. The model is based on a state-space
+		representation for  irregularly observed time series data
+		generated from a latent continuous-time Ornstein-Uhlenbeck
+		process. Our Bayesian method adopts scientifically motivated
+		hyper-prior distributions and a Metropolis-Hastings within
+		Gibbs sampler, producing posterior samples of the model
+		parameters that include the time delay. A profile likelihood of
+		the time delay is a simple approximation to the marginal
+		posterior distribution of the time delay. Both Bayesian and
+		profile likelihood approaches complement each other, producing
+		almost identical results; the Bayesian way is more principled
+		but the profile likelihood is easier to implement.
+	</longdescription>
+</pkgmetadata>

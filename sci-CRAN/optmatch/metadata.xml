@@ -2,7 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Functions for optimal matching // Functions for optimal matching,
-		including full matching
+		Functions for Optimal Matching // Provides routines for distance
+		based bipartite matching to reduce covariate imbalance between
+		treatment and control groups in observational studies. Routines
+		are provided to generate distances from GLM models (propensity
+		score matching) and formulas (Euclidean and Mahalanobis
+		matching), stratified matching (exact matching), and calipers.
+		Results of the fullmatch routine are guaranteed to provide
+		minimum average within matched set distance.
 	</longdescription>
 </pkgmetadata>

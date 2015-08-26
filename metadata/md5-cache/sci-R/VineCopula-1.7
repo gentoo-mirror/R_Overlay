@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ADGofTest sci-CRAN/network >=dev-lang/R-2.11.0 >=sci-CRAN/igraph-1.0.0 sci-CRAN/copula sci-CRAN/mvtnorm dev-lang/R
+DESCRIPTION=Statistical Inference of Vine Copulas
+EAPI=4
+IUSE=r_suggests_cdvine r_suggests_tsp byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ADGofTest sci-CRAN/network >=dev-lang/R-2.11.0 >=sci-CRAN/igraph-1.0.0 sci-CRAN/copula sci-CRAN/mvtnorm r_suggests_cdvine? ( sci-CRAN/CDVine ) r_suggests_tsp? ( sci-CRAN/TSP ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/VineCopula_1.7.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=b8999968443f81b54494b33e7d564774

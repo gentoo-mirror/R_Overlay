@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Estimate inverse probability weights. // Estimate inverse
-		probability weights. These are typically used to perform
-		inverse probability weighting (IPW) to fit a marginal
-		structural model (MSM), to estimate causal effects from
-		observational data. Both data from point treatment situations
-		and longitudinal studies can be used.
+		Estimate Inverse Probability Weights // Functions to estimate the
+		probability to receive the observed treatment, based on
+		individual characteristics. The inverse of these probabilities
+		can be used as weights when estimating causal effects from
+		observational data via marginal structural models. Both point
+		treatment situations and longitudinal studies can be analysed.
+		The same functions can be used to correct for informative
+		censoring.
 	</longdescription>
 </pkgmetadata>

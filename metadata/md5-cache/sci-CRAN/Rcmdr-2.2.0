@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/abind >=dev-lang/R-3.0.0 >=sci-CRAN/car-2.0.26 >=sci-CRAN/tcltk2-1.2.6 >=sci-CRAN/RcmdrMisc-1.0.3 dev-lang/R
+DESCRIPTION=R Commander
+EAPI=4
+IUSE=r_suggests_aplpack r_suggests_colorspace r_suggests_e1071 r_suggests_effects r_suggests_hmisc r_suggests_knitr r_suggests_leaps r_suggests_lmtest r_suggests_markdown r_suggests_multcomp r_suggests_readxl r_suggests_relimp r_suggests_rgl r_suggests_sem byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/abind >=dev-lang/R-3.0.0 >=sci-CRAN/car-2.0.26 >=sci-CRAN/tcltk2-1.2.6 >=sci-CRAN/RcmdrMisc-1.0.3 r_suggests_aplpack? ( sci-CRAN/aplpack ) r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_effects? ( >=sci-CRAN/effects-3.0.1 ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaps? ( sci-CRAN/leaps ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_multcomp? ( >=sci-CRAN/multcomp-0.991.2 ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_relimp? ( sci-CRAN/relimp ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_sem? ( >=sci-CRAN/sem-2.1.1 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Rcmdr_2.2-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=68a117b6c6b6c882eea8168f5834a6f0

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/colorspace sci-CRAN/polynom >=dev-lang/R-3.0.2 sci-CRAN/nnls sci-CRAN/Hmisc dev-lang/R
+DESCRIPTION=Multidimensional Scaling
+EAPI=4
+IUSE=r_suggests_knitr r_suggests_rgooglemaps byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/colorspace sci-CRAN/polynom >=dev-lang/R-3.0.2 sci-CRAN/nnls sci-CRAN/Hmisc r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rgooglemaps? ( sci-CRAN/RgoogleMaps ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/smacof_1.7-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=03bd7bd97492c18abe443148c0939b45

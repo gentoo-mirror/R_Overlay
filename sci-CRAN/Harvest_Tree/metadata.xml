@@ -3,11 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Harvest the Classification Tree // Aimed at applying the Harvest
-		classification tree algorithm, which is a modified algorithm of
-		classic classification tree. It was firstly used in drug
-		discovery field, but it also performs well in other kind of
-		data, especially when active region is unrelated.To learn more
-		about the harvest classification algorithm, you can go to
+		classification tree algorithm, modified algorithm of classic
+		classification tree.The harvested tree has advantage of
+		deleting redundant rules in trees, leading to a simplify and
+		more efficient tree model.It was firstly used in drug discovery
+		field, but it also performs well in other kinds of data,
+		especially when the region of a class is disconnected. This
+		package also improves the basic harvest classification tree
+		algorithm by extending the field of data of algorithm to both
+		continuous and categorical variables. To learn more about the
+		harvest classification tree algorithm, you can go to
 		http://www.stat.ubc.ca/Research/TechReports/techreports/220.pdf
 		for more information.
 	</longdescription>

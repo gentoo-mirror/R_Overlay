@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tools for CM SAF netcdf data // The Satellite Application
+		Tools for CM SAF Netcdf Data // The Satellite Application
 		Facility on Climate Monitoring (CM SAF) is a ground segment of
 		the European Organization for the Exploitation of
 		Meteorological Satellites (EUMETSAT) and one of EUMETSATs
@@ -22,6 +22,9 @@
 		`levbox_mergetime` function. The cmsaf R-package functions have
 		only minor checks for deviations from the recommended data
 		structure, and give only few specific error messages. Thus,
-		there is no warranty of accurate results.
+		there is no warranty of accurate results. A Windows binary file
+		and scripts for an easy application of the functions are
+		provided at the CM SAF homepage
+		(http://www.cmsaf.eu/EN/Products/Tools/Tools_node.html).
 	</longdescription>
 </pkgmetadata>

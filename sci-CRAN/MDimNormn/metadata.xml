@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-Dimensional MA Normalization for Plate Effect // Normalize
+		data to minimize the difference between sample plates (batch
+		effects). For given data in a matrix and grouping variable (or
+		plate), the function 'normn_MA' normalizes the data on MA
+		coordinates. More details are in the citation. The primary
+		method is 'Multi-MA'. Other fitting functions on MA coordinates
+		can also be employed e.g. loess.
+	</longdescription>
+</pkgmetadata>

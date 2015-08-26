@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Aspects of Multivariables // This package consists of two main
-		functions: The first function is corAspect() performs optimal
-		scaling by maximizing an aspect (i.e. a target function such as
-		the sum of eigenvalues, sum of squared correlations, squared
-		multiple correlations, etc.) of the corresponding correlation
-		matrix. The second function is lineals() performs optimal
-		scaling by minimization a non-correlational aspect based on
-		pairwise correlations and correlation ratios. The resulting
-		correlation matrix and category scores can be used for further
-		multivariate methods such as SEM. A platform including related
-		PsychoR packages is provided on R-Forge.
+		A General Framework for Multivariate Analysis with Optimal
+		Scaling // Contains various functions for optimal scaling. One
+		function performs optimal scaling by maximizing an aspect (i.e.
+		a target function such as the sum of eigenvalues, sum of
+		squared correlations, squared multiple correlations, etc.) of
+		the corresponding correlation matrix. Another function performs
+		implements the LINEALS approach for optimal scaling by
+		minimization of an aspect based on pairwise correlations and
+		correlation ratios. The resulting correlation matrix and
+		category scores can be used for further multivariate methods
+		such as structural equation models.
 	</longdescription>
 </pkgmetadata>

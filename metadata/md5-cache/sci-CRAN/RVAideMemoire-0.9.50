@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/statmod sci-CRAN/multcompView sci-CRAN/vegan sci-CRAN/car sci-CRAN/ade4 >=sci-CRAN/lme4-1.0.4 sci-CRAN/cramer sci-CRAN/pls sci-CRAN/pspearman >=sci-CRAN/mixOmics-5.0.2 dev-lang/R
+DESCRIPTION=Diverse Basic Statistical and Graphical Functions
+EAPI=4
+IUSE=r_suggests_emt r_suggests_lsmeans r_suggests_npsm r_suggests_ordinal byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/statmod sci-CRAN/multcompView sci-CRAN/vegan sci-CRAN/car sci-CRAN/ade4 >=sci-CRAN/lme4-1.0.4 sci-CRAN/cramer sci-CRAN/pls sci-CRAN/pspearman >=sci-CRAN/mixOmics-5.0.2 r_suggests_emt? ( sci-CRAN/EMT ) r_suggests_lsmeans? ( sci-CRAN/lsmeans ) r_suggests_npsm? ( sci-CRAN/npsm ) r_suggests_ordinal? ( sci-CRAN/ordinal ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RVAideMemoire_0.9-50.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=6fb5d9c8abdc709c798298f665d41def

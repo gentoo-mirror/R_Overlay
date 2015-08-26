@@ -2,15 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Some nonparametric tests for change-point detection in
-		(multivariate) observations // Provides nonparametric tests for
-		assessing whether possibly serially dependent (multivariate)
-		observations have the same c.d.f. or not. In addition to tests
-		focusing directly on the (multivariate) c.d.f., the package
+		Some Nonparametric Tests for Change-Point Detection in Possibly
+		Multivariate Observations // Provides nonparametric tests for
+		assessing whether possibly serially dependent univariate or
+		multivariate observations have the same c.d.f. or not. In
+		addition to tests focusing directly on the c.d.f., the package
 		contains tests designed to be particularly sensitive to changes
 		in the underlying copula, Spearman's rho or certain quantities
 		that can be estimated using one-sample U-statistics of order
 		two such as the variance, Gini's mean difference or Kendall's
-		tau.
+		tau. The latest addition is a nonparametric test for detecting
+		changes in the distribution of independent block maxima.
 	</longdescription>
 </pkgmetadata>

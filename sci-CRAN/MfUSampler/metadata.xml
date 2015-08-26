@@ -3,8 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Multivariate-from-Univariate (MfU) MCMC Sampler // Convenience
-		functions for multivariate MCMC using univariate samplers,
-		including slice sampler with stepout and shrinkage (Neal,
-		2003), and adaptive rejection sampler (Gilks and Wild, 1992).
+		functions for multivariate MCMC using univariate samplers
+		including: slice sampler with stepout and shrinkage (Neal,
+		2003), adaptive rejection sampler (Gilks and Wild, 1992),
+		adaptive rejection Metropolis (Gilks et al 1995), and
+		univariate Metropolis with Gaussian proposal.
 	</longdescription>
 </pkgmetadata>

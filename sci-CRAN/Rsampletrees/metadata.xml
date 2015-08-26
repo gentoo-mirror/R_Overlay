@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sampletrees Input/Output Processing // Contains functions that
+		are useful for pre- and post-processing the tree output from
+		the MCMC-based C++ program sampletrees. The program sampletrees
+		is used to sample gene genealogies conditional on either phased
+		or unphased SNP genotype data. More information about
+		sampletrees can be found at
+		http://stat.sfu.ca/statgen/research/sampletrees.html . Pre-
+		processing tasks involve creating the settings file, the
+		haplotype estimation files (if input data is genotype), and
+		error checking the settings. Post-processing involves reading
+		in the MCMC output from a run of sampletrees and computing
+		summary statistics.
+	</longdescription>
+</pkgmetadata>

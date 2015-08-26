@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Package for converting between attitude representations: DCM,
-		Euler angles, Quaternions, and Euler vectors. // A package for
-		converting between attitude representations: DCM, Euler angles,
-		Quaternions, and Euler vectors. Plus conversion between 2 Euler
-		angle set types (xyx, yzy, zxz, xzx, yxy, zyz, xyz, yzx, zxy,
-		xzy, yxz, zyx). Fully vectorized code, with warnings/errors for
-		Euler angles (singularity, out of range, invalid angle order),
-		DCM (orthogonality, not proper, exceeded tolerance to unity
+		Conversion Between Attitude Representations of DCM, Euler Angles,
+		Quaternions, and Euler Vectors // Conversion between attitude
+		representations: DCM, Euler angles, Quaternions, and Euler
+		vectors. Plus conversion between 2 Euler angle set types (xyx,
+		yzy, zxz, xzx, yxy, zyz, xyz, yzx, zxy, xzy, yxz, zyx). Fully
+		vectorized code, with warnings/errors for Euler angles
+		(singularity, out of range, invalid angle order), DCM
+		(orthogonality, not proper, exceeded tolerance to unity
 		determinant) and Euler vectors(not unity). Also quaternion and
 		other useful functions. Based on SpinCalc by John Fuller and
 		SpinConv by Paolo de Leva.

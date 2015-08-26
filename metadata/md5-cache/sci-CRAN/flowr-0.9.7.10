@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/knitr sci-CRAN/diagram >=sci-CRAN/params-0.2.4 sci-CRAN/whisker dev-lang/R
+DESCRIPTION=Streamlining Design and Deployme... (see metadata)
+EAPI=4
+IUSE=r_suggests_ggplot2 r_suggests_openxlsx r_suggests_reshape2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/knitr sci-CRAN/diagram >=sci-CRAN/params-0.2.4 sci-CRAN/whisker r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_openxlsx? ( sci-CRAN/openxlsx ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/flowr_0.9.7.10.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=34ab35f6fed3560411129055b1c70389

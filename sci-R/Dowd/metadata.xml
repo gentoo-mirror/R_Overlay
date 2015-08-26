@@ -2,9 +2,23 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R-version of MMR II toolbox offered in Kevin Dowd's book
-		Measuring Market Risk // This package is R-version of MMR2
-		Toolbox that supplements Kevin Dowd's book measuring market
-		risk.
+		Functions Ported From MMR2 Toolbox Offered in Kevin Dowd's Book
+		Measuring Market Risk // Kevin Dowd's book Measuring Market
+		Risk is a widely read book in the area of risk measurement and
+		is widely used by students and practitioners alike. As he
+		claims, MATLAB indeed might have been most suitable language
+		when Dowd originally wrote the functions, however, with growing
+		popularity of R and a large user base, this project should make
+		Dowd's code accessible to more readers. As Dowd's code was not
+		intended to be error free and were more for reference, some
+		functions in this package have inherited those errors. An
+		attempt will be made in future to identify and correct them.
+		Dowd's original code can be downloaded from . It should be
+		noted that Dowd offers both MMR2 and MMR1 toolboxes. Only MMR2
+		was ported to R. MMR2 is more recent version of MMR1 toolbox
+		and they both have mostly similar function. The toolbox mainly
+		contains different parametric and non parametric methods for
+		measurement of market risk as well as backtesting risk
+		measurement methods.
 	</longdescription>
 </pkgmetadata>

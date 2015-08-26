@@ -2,13 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Identify and visualize significantly responsive branches in a
-		phylogenetic tree // SigTree takes a phylogenetic tree (of
-		class phylo) and a data frame (or matrix) of corresponding tip
-		labels and p-values and determines the significance of the
-		branches (families of p-values) and plots the tree with colored
-		branches (corresponding to families) according to their levels
-		of significance.  Also produces a CSV file with the p-values of
+		Identify and Visualize Significantly Responsive Branches in a
+		Phylogenetic Tree // Takes a phylogenetic tree (of class phylo)
+		and a data frame (or matrix) of corresponding tip labels and
+		p-values, and determines the significance of the branches
+		(families of p-values) and plots the tree with colored branches
+		(corresponding to families) according to their levels of
+		significance.  Also produces a CSV file with the p-values of
 		all of the branches as well as which tips belong to which
 		branches.  Finally, it exports a file that can be opened in
 		FigTree that produces a colored plot (colored branches

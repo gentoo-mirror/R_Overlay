@@ -2,17 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multidimensional Scaling in R: SMACOF. // This package provides
-		the following approaches of multidimensional scaling (MDS)
-		based on stress minimization by means of majorization (smacof):
-		Simple smacof (basic MDS) on symmetric dissimilarity matrices,
-		smacof for rectangular matrices (unfolding models), smacof with
-		constraints on the configuration, three-way smacof for
-		individual differences (including constraints for idioscal,
-		indscal, and identity), and spherical smacof (primal and dual
-		algorithm). The MDS type can be ratio, interval, ordinal manner
-		(including primary, secondary, and tertiary approaches for tie
-		handling), and msplines. Jackknife and permutation tests are
-		provided.
+		Multidimensional Scaling // Provides the following approaches for
+		multidimensional scaling (MDS) based on stress minimization by
+		means of majorization (smacof): basic MDS on symmetric
+		dissimilarity matrices, MDS with external constraints on the
+		configuration, individual difference scaling (idioscal,
+		indscal, and friends), MDS with spherical restrictions, and
+		unfolding. The MDS type can be ratio, interval, ordinal, and
+		monotone splines. Various tools and extensiosn like jackknife
+		MDS, permutation tests, gravity models, inverse MDS,
+		unidimensional scaling, classical scaling, and Procrustes.
 	</longdescription>
 </pkgmetadata>

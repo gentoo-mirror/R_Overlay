@@ -2,8 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Aster Models // functions and datasets for Aster modeling (forest
-		graph exponential family conditional or unconditional canonical
-		statistic models for life history analysis)
+		Aster Models // Aster models are exponential family regression
+		models for life history analysis.  They are like generalized
+		linear models except that elements of the response vector can
+		have different families (e. g., some Bernoulli, some Poisson,
+		some zero-truncated Poisson, some normal) and can be dependent,
+		the dependence indicated by a graphical structure. Discrete
+		time survival analysis, zero-inflated Poisson regression, and
+		generalized linear models that are exponential family (e. g.,
+		logistic regression and Poisson regression with log link) are
+		special cases. Main use is for data in which there is survival
+		over discrete time periods and there is additional data about
+		what happens conditional on survival (e. g., number of
+		offspring).  Uses the exponential family canonical
+		parameterization (aster transform of usual parameterization).
 	</longdescription>
 </pkgmetadata>
