@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/Rcmdr-2.2.0 dev-lang/R
+DESCRIPTION=R Commander Plug-in for the EZR (Easy R) Package
+EAPI=4
+IUSE=r_suggests_abind r_suggests_aod r_suggests_aplpack r_suggests_car r_suggests_clinfun r_suggests_cmprsk r_suggests_meta r_suggests_metatest r_suggests_multcomp r_suggests_mvtnorm r_suggests_optmatch r_suggests_proc r_suggests_readxl r_suggests_tableone byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/Rcmdr-2.2.0 r_suggests_abind? ( sci-CRAN/abind ) r_suggests_aod? ( sci-CRAN/aod ) r_suggests_aplpack? ( sci-CRAN/aplpack ) r_suggests_car? ( sci-CRAN/car ) r_suggests_clinfun? ( sci-CRAN/clinfun ) r_suggests_cmprsk? ( sci-CRAN/cmprsk ) r_suggests_meta? ( sci-CRAN/meta ) r_suggests_metatest? ( sci-CRAN/metatest ) r_suggests_multcomp? ( sci-CRAN/multcomp ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_optmatch? ( sci-CRAN/optmatch ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_tableone? ( sci-CRAN/tableone ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcmdrPlugin.EZR_1.30.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=5df7c2b0cbd58492112cffe4dd1afeec
