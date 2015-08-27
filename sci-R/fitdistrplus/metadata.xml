@@ -8,8 +8,10 @@
 		distribution to non-censored or censored data. Censored data
 		may contain left censored, right censored and interval censored
 		values, with several lower and upper bounds. In addition to
-		maximum likelihood estimation method the package provides
-		moment matching, quantile matching and maximum goodness-of-fit
-		estimation methods (available only for non-censored data).
+		maximum likelihood estimation (MLE), the package provides
+		moment matching (MME), quantile matching (QME) and maximum
+		goodness-of-fit estimation (MGE) methods (available only for
+		non-censored data). Weighted versions of MLE, MME and QME are
+		available.
 	</longdescription>
 </pkgmetadata>
