@@ -2,19 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Optimal Experimental Designs for Accelerated Life Testing // This
-		package creates the optimal (D, U and I) designs for the
-		accelerated life testing with right censoring or interval
-		censoring. It uses generalized linear model (GLM) approach to
-		derive the asymptotic variance-covariance matrix of regression
+		Optimal Experimental Designs for Accelerated Life Testing //
+		Creates the optimal (D, U and I) designs for the accelerated
+		life testing with right censoring or interval censoring. It
+		uses generalized linear model (GLM) approach to derive the
+		asymptotic variance-covariance matrix of regression
 		coefficients. The failure time distribution is assumed to
 		follow Weibull distribution with a known shape parameter and
 		log-linear link functions are used to model the relationship
-		between failure time parameters and stress variables. Any
-		number of stress factors can be used but no more than 3 are
-		recommended due to the computational time. ALTopt package also
-		provides several plotting functions including contour plot,
-		Fraction of Use Space (FUS) plot and Variance Dispersion graphs
-		of Use Space (VDUS) plot.
+		between failure time parameters and stress variables. The
+		acceleration model may have multiple stress factors, although
+		most ALTs involve only two or less stress factors. ALTopt
+		package also provides several plotting functions including
+		contour plot, Fraction of Use Space (FUS) plot and Variance
+		Dispersion graphs of Use Space (VDUS) plot.
 	</longdescription>
 </pkgmetadata>
