@@ -3,22 +3,25 @@
 <pkgmetadata>
 	<longdescription>
 		General Frailty Models: Shared, Joint and Nested Frailty Models
-		with Prediction // Frailtypack fits several classes of frailty
+		with Prediction // The following several classes of frailty
 		models using a penalized likelihood estimation on the hazard
-		function but also a parametric estimation. 1) A shared frailty
-		model (with gamma or log-normal frailty distribution) and Cox
-		proportional hazard model. Clustered and recurrent survival
-		times can be studied. 2) Additive frailty models for
-		proportional hazard models with two correlated random effects
-		(intercept random effect with random slope). 3) Nested frailty
-		models for hierarchically clustered data (with 2 levels of
-		clustering) by including two iid gamma random effects. 4) Joint
-		frailty models in the context of joint modelling for recurrent
-		events with terminal event for clustered data or not.
-		Prediction values are available. Left-truncated (not for Joint
-		model), right-censored data, interval-censored data (only for
-		Cox proportional hazard and shared frailty model) and strata
-		are allowed. In each model, the random effects have a gamma
+		function but also a parametric estimation can be fit using this
+		R package: 1) A shared frailty model (with gamma or log-normal
+		frailty distribution) and Cox proportional hazard model.
+		Clustered and recurrent survival times can be studied. 2)
+		Additive frailty models for proportional hazard models with two
+		correlated random effects (intercept random effect with random
+		slope). 3) Nested frailty models for hierarchically clustered
+		data (with 2 levels of clustering) by including two iid gamma
+		random effects. 4) Joint frailty models in the context of joint
+		modelling for recurrent events with terminal event for
+		clustered data or not. 5) Joint General frailty models in the
+		context of a joint modelling for recurrent events with terminal
+		event data with two independent frailty terms. Prediction
+		values are available. Left-truncated (not for Joint model),
+		right-censored data, interval-censored data (only for Cox
+		proportional hazard and shared frailty model) and strata are
+		allowed. In each model, the random effects have a gamma
 		distribution, but you can switch to a log-normal in shared and
 		joint models. Now, you can also consider time-varying
 		covariates effects in Cox, shared and joint models. The package

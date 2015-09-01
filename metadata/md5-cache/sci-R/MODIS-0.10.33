@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/raster dev-lang/R
+DESCRIPTION=MODIS Acquisition and Processing
+EAPI=4
+IUSE=r_suggests_bitops r_suggests_mapdata r_suggests_ptw r_suggests_rcurl r_suggests_rgdal r_suggests_rgeos r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/raster r_suggests_bitops? ( sci-CRAN/bitops ) r_suggests_mapdata? ( sci-CRAN/mapdata ) r_suggests_ptw? ( sci-CRAN/ptw ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_rgdal? ( sci-CRAN/rgdal ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/MODIS_0.10-33.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=e9355013df86df5ecb5760e42909db99
