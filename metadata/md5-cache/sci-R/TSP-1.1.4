@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.14.0 sci-CRAN/foreach dev-lang/R
+DESCRIPTION=Traveling Salesperson Problem (TSP)
+EAPI=4
+IUSE=r_suggests_maps r_suggests_maptools r_suggests_sp r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-2.14.0 sci-CRAN/foreach r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/TSP_1.1-4.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=8ad5fec050412955b2e5a9d81863938d
