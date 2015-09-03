@@ -21,10 +21,10 @@
 		"daily" parameter, you can set daily="max", daily="min" or
 		daily="mean" to get aggregated daily values. The GetValues
 		function can also retrieve WaterML 1 or WaterML 2.0 data from a
-		custom URL. The package also has five data upload functions:
-		AddSites(), AddVariables(), AddMethods(), AddSources(), and
-		AddValues(). These functions can be used for uploading data to
-		a HydroServer Lite ODM database via the JSON data upload web
-		service interface.
+		custom URL or from a local file. The package also has five data
+		upload functions: AddSites(), AddVariables(), AddMethods(),
+		AddSources(), and AddValues(). These functions can be used for
+		uploading data to a HydroServer Lite ODM database via the JSON
+		data upload web service interface.
 	</longdescription>
 </pkgmetadata>

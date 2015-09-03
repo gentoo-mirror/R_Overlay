@@ -2,18 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Generator of semi-artificial data // Package semiArtificial
+		Generator of Semi-Artificial Data // Package semiArtificial
 		contains methods to generate and evaluate semi-artificial data
 		sets. Based on a given data set different methods learn data
 		properties using machine learning algorithms and generate new
 		data with the same properties. The package currently includes
 		the following data generator: -a RBF network based generator
-		using rbfDDA from RSNNS package. More generators are planned in
-		near future. Data evaluation support tools include: -single
-		attribute based statistical evaluation: mean, median,standard
-		deviation, skewness, kurtosis, KS test, Hellinger distance
-		-evaluation based on clustering using Adjusted Rand Index (ARI)
-		-evaluation based on classification performance with various
-		learning models, eg, random forests.
+		using rbfDDA from RSNNS package, -a Random Forest based
+		generator for both classification and regression problems -a
+		density forest based generator for unsupervised data Data
+		evaluation support tools include: -single attribute based
+		statistical evaluation: mean, median, standard deviation,
+		skewness, kurtosis, medcouple, L/RMC, KS test, Hellinger
+		distance -evaluation based on clustering using Adjusted Rand
+		Index (ARI) and FM -evaluation based on classification
+		performance with various learning models, eg, random forests.
 	</longdescription>
 </pkgmetadata>

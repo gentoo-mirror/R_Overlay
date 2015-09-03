@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Inversion of Laplace-Transformed Functions // Provides two
+		functions for the numerical inversion of Laplace-Transformed
+		functions, returning the value of the standard (time) domain
+		function at a specified value.  The first algorithm is the
+		first optimum contour algorithm described by Evans and Chung
+		(2000)[1]. The second algorithm uses the Bromwich contour as
+		per the definition of the inverse Laplace Transform.  The
+		latter is unstable for numerical inversion and mainly included
+		for comparison or interest.  There are also some additional
+		functions provided for utility, including plotting and some
+		simple Laplace Transform examples, for which there are known
+		analytical solutions.  Polar-cartesian conversion functions are
+		included in this package and are used by the inversion
+		functions. [1] Evans  Chung, 2000: Laplace transform inversions
+		using optimal contours in the complex plane; International
+		Journal of Computer Mathematics v73 pp531-543.
+	</longdescription>
+</pkgmetadata>
