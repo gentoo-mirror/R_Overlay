@@ -3,6 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Qualitative Validation Methods // Qualitative methods for the
-		validation of models.
+		validation of dynamic models. It contains (i) an orthogonal set
+		of deviance measures for absolute, relative and ordinal scale
+		and (ii) approaches accounting for time shifts. The first
+		approach transforms time to take time delays and speed
+		differences into account. The second divides the time series
+		into interval units according to their main features and finds
+		the longest common subsequence (LCS) using a dynamic
+		programming algorithm.
 	</longdescription>
 </pkgmetadata>
