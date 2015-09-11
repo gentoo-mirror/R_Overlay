@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.2 >=sci-CRAN/htmlwidgets-0.3.2 dev-lang/R
+DESCRIPTION=R Htmlwidget to Add Pan and Zoom... (see metadata)
+EAPI=4
+IUSE=r_suggests_gridsvg r_suggests_htmltools r_suggests_knitr r_suggests_svgannotation r_suggests_xml r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.1.2 >=sci-CRAN/htmlwidgets-0.3.2 r_suggests_gridsvg? ( sci-CRAN/gridSVG ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_svgannotation? ( sci-omegahat/SVGAnnotation ) r_suggests_xml? ( sci-CRAN/XML ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/svgPanZoom_0.3.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=913cdc7e9f261571a309056c7636376d
