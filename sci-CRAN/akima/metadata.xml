@@ -2,7 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Interpolation of irregularly spaced data // Linear or cubic
-		spline interpolation for irregular gridded data
+		Interpolation of Irregularly and Regularly Spaced Data // Several
+		cubic spline interpolation methods of H. Akima for irregular
+		and regular gridded data are available through this package,
+		both for the bivariate case (irregular data: ACM 526 and ACM
+		761, regular data: ACM 433) and univariate case (ACM 697).
+		Linear interpolation of irregular gridded data is also covered
+		by reusing D. J. Renkas triangulation code which is part of
+		Akimas Fortran code.
 	</longdescription>
 </pkgmetadata>

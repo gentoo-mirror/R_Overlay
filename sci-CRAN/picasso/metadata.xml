@@ -2,18 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Pathwise Calibrated Sparse Shooting Algorithm // Implement a new
-		family of efficient algorithms, called PathwIse CalibrAted
-		Sparse Shooting AlgOrithm, for a variety of sparse learning
-		problems, including Sparse Linear Regression, Sparse Logistic
-		Regression, Sparse Column Inverse Operator and Sparse
-		Multivariate Regression. Different types of active set
-		identification schemes are implemented, such as cyclic search,
-		greedy search, stochastic search and proximal gradient search.
-		Besides, the package provides the choices between convex (L1
-		norm) and non-convex (MCP and SCAD) regularizations. Moreover,
-		group regularization, such as group Lasso, group MCP and group
-		SCAD, are also implemented for Sparse Linear Regression, Sparse
-		Logistic Regression and Sparse Multivariate Regression.
+		Pathwise Calibrated Sparse Shooting Algorithm // Implement the
+		pathwise calibrated sparse shooting algorithm (PICASSO) for
+		high dimensional regularized sparse linear regression, sparse
+		logistic regression, and sparse undirected graphical model
+		estimation. As a pathwise coordinate optimization algorithm,
+		PICASSO exploits warm start initialization, active set
+		updating, and strong rule for coordinate preselection to boost
+		computation, and attains a linear convergence to a unique
+		sparse local optimum with optimal statistical properties.
+		Moreover, users can choose different regularizers, including
+		L1, MCP, and SCAD regularizers. The computation is memory-
+		optimized using the sparse matrix output.
 	</longdescription>
 </pkgmetadata>

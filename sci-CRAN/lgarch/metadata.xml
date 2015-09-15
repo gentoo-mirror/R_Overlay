@@ -2,14 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Simulation and estimation of log-GARCH models // Simulation and
+		Simulation and Estimation of Log-GARCH Models // Simulation and
 		estimation of univariate and multivariate log-GARCH models. The
-		main functions of the package are: lgarchSim, mlgarchSim,
-		lgarch and mlgarch. The first two functions simulate from a
+		main functions of the package are: lgarchSim(), mlgarchSim(),
+		lgarch() and mlgarch(). The first two functions simulate from a
 		univariate and a multivariate log-GARCH model, respectively,
 		whereas the latter two estimate a univariate and multivariate
-		log-GARCH model, respectively. A collection of methods can be
-		applied to objects of both the 'lgarch' and 'mlgarch' types:
-		coef, fitted, logLik, print, residuals, summary and vcov.
+		log-GARCH model, respectively.
 	</longdescription>
 </pkgmetadata>
