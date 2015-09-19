@@ -3,6 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Linear Sparse Group Lasso // Linear multiple output using sparse
-		group lasso
+		group lasso. The algorithm finds the sparse group lasso
+		penalized maximum likelihood estimator. This result in feature
+		and parameter selection, and parameter estimation. Use of
+		multiple processors for cross validation and subsampling is
+		supported through OpenMP. Development version is on github.
 	</longdescription>
 </pkgmetadata>

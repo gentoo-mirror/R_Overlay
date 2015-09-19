@@ -3,16 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Local Log-linear Models for Capture-Recapture // Applies local
-		log-linear capture-recapture models (LLLMs) a for closed
-		populations, as described in the ongoing doctoral thesis work
-		of Zachary Kurtz in the department of statistics at Carnegie
-		Mellon University.  The method is relevant when there are 3-4
-		capture occasions, with auxiliary covariates available for all
-		capture occasions.  As part of estimating the number of missing
+		log-linear capture-recapture models (LLLMs) for closed
+		populations, as described in the doctoral thesis of Zachary
+		Kurtz. The method is relevant when there are 3-5 capture
+		occasions, with auxiliary covariates available for all capture
+		occasions.  As part of estimating the number of missing
 		population units, the method estimates the "rate of
 		missingness" as it varies over the covariate space.  In
 		addition, user-friendly functions are provided to recreate
-		(approximately) the method of Zwane and Van der Heijden (2004),
+		(approximately) the method of Zwane and van der Heijden (2004),
 		which applied the VGAM package in a way that is closely related
 		to LLLMs.
 	</longdescription>

@@ -3,15 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		High Dimensional Multiclass Classification Using Sparse Group
-		Lasso // Sparse group lasso multiclass classification, suitable
-		for high dimensional problems with many classes. Fast algorithm
-		for solving the multinomial sparse group lasso convex
-		optimization problem. This package apply template
-		metaprogramming techniques, therefore -- when compiling the
-		package from source -- a high level of optimization is needed
-		to gain full speed (e.g. for the GCC compiler use -O3). Use of
-		multiple processors for cross validation and subsampling is
-		supported through OpenMP. The Armadillo C++ library is used as
-		the primary linear algebra engine.
+		Lasso // Multinomial logistic regression with sparse group
+		lasso penalty. Suitable for high dimensional multiclass
+		classification with many classes. The algorithm finds the
+		sparse group lasso penalized maximum likelihood estimator. This
+		result in feature and parameter selection, and parameter
+		estimation. Use of multiple processors for cross validation and
+		subsampling is supported through OpenMP. Development version is
+		on github.
 	</longdescription>
 </pkgmetadata>

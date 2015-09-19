@@ -2,18 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Sparse group lasso generic optimizer // Fast generic solver for
+		Generic Sparse Group Lasso Solver // Fast generic solver for
 		sparse group lasso optimization problems. The loss (objective)
-		function must be defined in a C++ module. This package apply
-		template metaprogramming techniques, therefore -- when
-		compiling the package from source -- a high level of
-		optimization is needed to gain full speed (e.g. for the GCC
-		compiler use -O3). Use of multiple processors for cross
-		validation and subsampling is supported through OpenMP. The
-		Armadillo C++ library is used as the primary linear algebra
-		engine. (The sglOptim package version a.b.c.d is interpreted as
-		follows: a - primary version, b - major updates and fixes, c -
-		source revision as corresponding to R-Forge, d - minor fixes
-		made only to the CRAN branch of the source)
+		function must be defined in a C++ module. Use of multiple
+		processors for cross validation and subsampling is supported
+		through OpenMP. The optimization problem is solved using a
+		coordinate gradient descent algorithm. The algorithm is
+		applicable to a broad class of convex loss
+		functions.Convergence of the algorithm is established (see
+		reference). Development version is on github.
 	</longdescription>
 </pkgmetadata>

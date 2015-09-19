@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/plyr >=dev-lang/R-3.1.2 sci-CRAN/iterators sci-CRAN/data_table sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/doParallel dev-lang/R
+DESCRIPTION=Data Exploration with Informatio... (see metadata)
+EAPI=4
+IUSE=r_suggests_clustofvar r_suggests_knitr r_suggests_reshape2 byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/plyr >=dev-lang/R-3.1.2 sci-CRAN/iterators sci-CRAN/data_table sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/doParallel r_suggests_clustofvar? ( sci-CRAN/ClustOfVar ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Information_0.0.3.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_md5_=6d4b1abf8974fb127bac7cc773dcb81f

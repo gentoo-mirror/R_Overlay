@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Data Exploration with Information Theory (Weight-of-Evidence and
+		Information Value) // Performs exploratory data analysis and
+		variable screening for binary classification models using
+		weight-of-evidence (WOE) and information value (IV). In order
+		to make the package as efficient as possible, aggregations are
+		done in data.table and creation of WOE vectors can be
+		distributed across multiple cores. The package also supports
+		exploration for uplift models (NWOE and NIV).
+	</longdescription>
+</pkgmetadata>

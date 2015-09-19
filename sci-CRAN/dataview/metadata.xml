@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Human readable data presentation // This package provides clear,
-		informative and colorful ways of presenting the contents of
-		data.frame, list, environment etc. in the prompt. Ideally this
-		package should be used in terminals supporting xterm 256 colour
-		mode, e.g. the standard Ubuntu terminal. The Mac OS X terminal
-		(as of Snow Leopard) only support ANSI colour, which still
-		works but doesn't look as nice. On Windows systems no colouring
-		is supported. If the output of functions like 'whos' is a mess
-		or somehow doesn't look like it should check the help for the
-		functions 'style' and 'style.mode' of the 'xtermStyle' package.
+		Data and Workspace Browser for Terminals // Tools for deciphering
+		the contents of unknown objects or environments from within the
+		terminal, a problem often encountered when working with
+		unfamiliar packages or debugging complex functions. If working
+		in xterm256 or ANSI terminals the output is coloured by default
+		to improve readability (e.g. the standard Ubuntu terminal).
 	</longdescription>
 </pkgmetadata>
