@@ -4,12 +4,12 @@
 	<longdescription>
 		Analysis of Factorial Experiments // Provides convenience
 		functions for analyzing factorial experiments using ANOVA or
-		mixed models. ez.glm(), aov.car(), and aov4() allow convenient
+		mixed models. aov_ez(), aov_car(), and aov_4() allow convenient
 		specification of between, within (i.e., repeated-measures), or
 		mixed between-within (i.e., split-plot) ANOVAs for data in long
 		format (i.e., one observation per row), potentially aggregating
 		multiple observations per individual and cell of the design.
-		mixed() fits a mixed model using lme4::lmer() and computes
+		mixed() fits mixed models using lme4::lmer() and computes
 		p-values for all effects using either Kenward-Roger
 		approximation for degrees of freedom (LMM only), parametric
 		bootstrap (LMMs and GLMMs), or likelihood ratio tests (LMMs and
