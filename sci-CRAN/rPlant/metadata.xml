@@ -2,14 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R interface to the iPlant Discovery Environment // rPlant is an R
-		interface to the the many computational resources iPlant offers
-		through their RESTful application programming interface.
-		Currently, rPlant functions interact with the iPlant
-		foundational API, the Taxonomic Name Resolution Service API,
-		and the Phylotastic Taxosaurus API. Before using rPlant, users
-		will have to register with the iPlant Collaborative.
-		http://www.iplantcollaborative.org/discover/discovery-
-		environment
+		Interface to the Agave API // Provides an interface to the the
+		many computational resources iPlant offers through their
+		RESTful application programming interface, see
+		http://www.iplantcollaborative.org/ for more information about
+		iPlant, and http://www.iplantcollaborative.org/ci/iplant-
+		science-apis for its APIs.  Currently, 'rPlant' functions
+		interact with the iPlant Agave API, the Taxonomic Name
+		Resolution Service API, and the Phylotastic Taxosaurus API.
+		Before using 'rPlant', users will have to register with the
+		iPlant Collaborative.  See http://agaveapi.co/ for more
+		information on the Agave API and
+		http://user.iplantcollaborative.org/ to register with iPlant.
 	</longdescription>
 </pkgmetadata>

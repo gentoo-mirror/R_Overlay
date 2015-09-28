@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Covariance Matrix Estimation // We implement a collection of
+		techniques for estimating covariance matrices. Covariance
+		matrices can be built using missing data. Stambaugh Estimation
+		and FMMC methods can be used to construct such matrices.
+		Covariance matrices can be built by denoising or shrinking the
+		eigenvalues of a sample covariance matrix. Such techniques work
+		by exploiting the tools in Random Matrix Theory to analyse the
+		distribution of eigenvalues. Covariance matrices can also be
+		built assuming that data has many underlying regimes. Each
+		regime is allowed to follow a Dynamic Conditional Correlation
+		model. Robust covariance matrices can be constructed by
+		multivariate cleaning and smoothing of noisy data.
+	</longdescription>
+</pkgmetadata>

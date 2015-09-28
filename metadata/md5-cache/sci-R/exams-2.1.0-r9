@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.15.0 dev-lang/R
+DESCRIPTION=Automatic Generation of Exams in R
+EAPI=4
+IUSE=r_suggests_base64enc r_suggests_knitr r_suggests_png r_suggests_rcurl r_suggests_rjsonio r_suggests_tth r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-2.15.0 r_suggests_base64enc? ( sci-CRAN/base64enc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_png? ( sci-CRAN/png ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_rjsonio? ( sci-CRAN/RJSONIO ) r_suggests_tth? ( sci-CRAN/tth ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/exams_2.1-0.tar.gz -> exams_2.1-0-r9.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	95613dd6157fb4a3b225eafdc56bd441	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=61734777ba4494a4af4d75b200ae8c5d
