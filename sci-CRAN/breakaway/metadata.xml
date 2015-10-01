@@ -2,21 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Species richness estimation and modelling // breakaway estimates
-		and models total (observed plus unobserved) species richness.
-		It is applicable to any situation where an unknown number of
-		classes is to be estimated, but is especially suited to the
-		microbial context. Microbial diversity datasets are
-		characterized by a large number of rare species and a small
-		number of highly abundant species. The class of models
-		implemented by breakaway is flexible enough to model both these
-		features. In the event that the practitioner does not believe
-		or trust their singleton count, the procedure breakaway_nof1
-		estimates diversity in a way that does not require a singleton
-		count. betta_basic runs a regression-type analysis of estimated
-		total diversity, thus permitting accounting for unobserved taxa
-		while also incorporating available covariate information.
-		betta_basic does not enforce use of breakaway for diversity
-		estimation.
+		Species Richness Estimation and Modeling // Species richness
+		estimation is an important problem in biodiversity analysis.
+		This package provides methods for total species richness
+		estimation (observed plus unobserved) and a method for
+		modelling total diversity with covariates. breakaway()
+		estimates total (observed plus unobserved) species richness.
+		Microbial diversity datasets are characterized by a large
+		number of rare species and a small number of highly abundant
+		species. The class of models implemented by breakaway() is
+		flexible enough to model both these features. breakaway_nof1()
+		implements a similar procedure however does not require a
+		singleton count. betta() provides a method for modelling total
+		diversity with covariates in a way that accounts for its
+		estimated nature and thus accounts for unobserved taxa.
 	</longdescription>
 </pkgmetadata>

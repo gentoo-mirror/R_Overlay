@@ -6,11 +6,13 @@
 		Panel Data // Sparse modeling provides a mean selecting a small
 		number of non-zero effects from a large possible number of
 		candidate effects.  This package includes a suite of methods
-		for sparse modeling.  Beyond regression analyses, applications
+		for sparse modeling: estimation via EM or MCMC, approximate
+		confidence intervals with nominal coverage, and diagnostic and
+		summary plots.  Beyond regression analyses, applications
 		include subgroup analysis, particularly for conjoint
-		experiments, and panel data.  Functionality for dichotomous and
-		censored outcome (Types I and II tobit) is also included.
-		Future plans involve extending the method to propensity score
-		and instrumental variable methods.
+		experiments, and panel data. Future versions will include
+		extensions to limited dependent variables, models with
+		truncated outcomes, and propensity score and instrumental
+		variable analysis.
 	</longdescription>
 </pkgmetadata>
