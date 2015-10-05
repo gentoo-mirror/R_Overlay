@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/reshape >=dev-lang/R-3.0.0 sci-CRAN/plyr dev-lang/R
+DESCRIPTION=A Collection of Robust Statistical Methods
+EAPI=4
+IUSE=r_suggests_beanplot r_suggests_car r_suggests_colorspace r_suggests_ez r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/reshape >=dev-lang/R-3.0.0 sci-CRAN/plyr r_suggests_beanplot? ( sci-CRAN/beanplot ) r_suggests_car? ( sci-CRAN/car ) r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_ez? ( sci-CRAN/ez ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/WRS2_0.4-0.tar.gz -> r-forge_WRS2_0.4-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=824c78cc6d27f6f8e59f64ac28e6750d

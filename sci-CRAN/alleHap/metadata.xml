@@ -2,14 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Allele simulation and Haplotype reconstruction from pedigree
-		databases // This package contains tools for simulating
-		alphanumeric alleles from parent-offspring pedigree databases
-		to later reconstruct the corresponding non-recombinant
-		haplotypes. Allelic simulations can be implemented taking into
-		account many different factors (such as number of families,
-		markers, alleles per marker, probability of missing genotypes,
-		recombination rate, etc). Haplotype reconstruction can be
-		performed even with missing data.
+		Allele Imputation and Haplotype Reconstruction from Pedigree
+		Databases // Simulation of alphanumeric alleles, imputation of
+		genetic missing data and reconstruction of non-recombinant
+		haplotypes from pedigree databases in a deterministic way.
+		Allelic simulations can be implemented taking into account many
+		different factors (such as number of families, markers, alleles
+		per marker, probability and proportion of missing genotypes,
+		recombination rate, etc). Genotype imputation can be used
+		either simulated datasets or loaded databases (in .ped file
+		biallelic format). Haplotype reconstruction can be performed
+		even with missing data because of alleHap, firstly imputes the
+		genotypes. All this considering that each member (due to
+		meiosis) should unequivocally have two alleles, one inherited
+		from each parent.
 	</longdescription>
 </pkgmetadata>
