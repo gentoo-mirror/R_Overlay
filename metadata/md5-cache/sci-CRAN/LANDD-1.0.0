@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/foreach sci-BIOC/GOSemSim sci-CRAN/fdrtool sci-CRAN/intergraph sci-CRAN/Rcpp sci-CRAN/doParallel sci-CRAN/GGally sci-BIOC/GOstats sci-CRAN/igraph sci-CRAN/modeest dev-lang/R
+DESCRIPTION=Liquid Association for Network Dynamics Detection
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/foreach sci-BIOC/GOSemSim sci-CRAN/fdrtool sci-CRAN/intergraph sci-CRAN/Rcpp sci-CRAN/doParallel sci-CRAN/GGally sci-BIOC/GOstats sci-CRAN/igraph sci-CRAN/modeest sci-CRAN/Rcpp sci-CRAN/BH dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LANDD_1.0.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=eeb4989b3b8b8b1d93fbe48bd8aa8cc9
