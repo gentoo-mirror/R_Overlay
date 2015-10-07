@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Dose-Response Data Evaluation // A somewhat outdated package of
+		basic and easy-to-use functions for fitting dose-response
+		curves to continuous dose-response data, calculating some
+		(eco)toxicological parameters and plotting the results. Please
+		consider using the more powerful and actively developed 'drc'
+		package.  Functions that are fitted are the cumulative density
+		function of the lognormal distribution (probit fit), of the
+		logistic distribution (logit fit), of the weibull distribution
+		(weibull fit) and a linear-logistic model ("linlogit" fit),
+		derived from the latter, which is used to describe data showing
+		stimulation at low doses (hormesis). In addition, functions
+		checking, plotting and retrieving dose-response data retrieved
+		from a database accessed via RODBC are included. As an
+		alternative to the original fitting methods, the algorithms
+		from the drc package can be used.
+	</longdescription>
+</pkgmetadata>
