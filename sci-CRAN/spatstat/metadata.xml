@@ -8,7 +8,7 @@
 		points and spatial covariates, in any two-dimensional spatial
 		region. Also supports three-dimensional point patterns, space-
 		time point patterns in any number of dimensions, and point
-		patterns on a linear network. Contains about 2000 functions for
+		patterns on a linear network. Contains over 2000 functions for
 		plotting spatial data, exploratory data analysis, model-
 		fitting, simulation, spatial sampling, model diagnostics, and
 		formal inference. Data types include point patterns, line
@@ -24,19 +24,24 @@
 		Smirnov, Diggle-Cressie-Loosmore-Ford, Dao-Genton) and tests
 		for covariate effects (Cox-Berman-Waller-Lawson, Kolmogorov-
 		Smirnov) are also supported. Parametric models can be fitted to
-		point pattern data using the functions ppm, kppm, slrm similar
-		to glm. Types of models include Poisson, Gibbs, Cox and cluster
-		point processes. Models may involve dependence on covariates,
-		interpoint interaction, cluster formation and dependence on
-		marks. Models are fitted by maximum likelihood, logistic
-		regression, minimum contrast, and composite likelihood methods.
-		Fitted point process models can be simulated, automatically.
-		Formal hypothesis tests of a fitted model are supported
-		(likelihood ratio test, analysis of deviance, Monte Carlo
-		tests) along with basic tools for model selection (stepwise,
-		AIC). Tools for validating the fitted model include simulation
-		envelopes, residuals, residual plots and Q-Q plots, leverage
-		and influence diagnostics, partial residuals, and added
-		variable plots.
+		point pattern data using the functions ppm, kppm, slrm, dppm
+		similar to glm. Types of models include Poisson, Gibbs and Cox
+		point processes, Neyman-Scott cluster processes, and
+		determinantal point processes. Models may involve dependence on
+		covariates, interpoint interaction, cluster formation and
+		dependence on marks. Models are fitted by maximum likelihood,
+		logistic regression, minimum contrast, and composite likelihood
+		methods. A model can be fitted to a list of point patterns
+		(replicated point pattern data) using the function mppm. The
+		model can include random effects and fixed effects depending on
+		the experimental design, in addition to all the features listed
+		above. Fitted point process models can be simulated,
+		automatically. Formal hypothesis tests of a fitted model are
+		supported (likelihood ratio test, analysis of deviance, Monte
+		Carlo tests) along with basic tools for model selection
+		(stepwise, AIC). Tools for validating the fitted model include
+		simulation envelopes, residuals, residual plots and Q-Q plots,
+		leverage and influence diagnostics, partial residuals, and
+		added variable plots.
 	</longdescription>
 </pkgmetadata>
