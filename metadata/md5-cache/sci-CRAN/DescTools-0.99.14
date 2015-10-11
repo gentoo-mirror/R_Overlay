@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/mvtnorm >=sci-CRAN/Rcpp-0.11.5 >=dev-lang/R-3.1.0 sci-mathematics/rstudio dev-lang/R
+DESCRIPTION=Tools for Descriptive Statistics
+EAPI=4
+IUSE=r_suggests_rdcomclient byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mvtnorm >=sci-CRAN/Rcpp-0.11.5 >=dev-lang/R-3.1.0 sci-mathematics/rstudio sci-CRAN/Rcpp sci-CRAN/BH r_suggests_rdcomclient? ( sci-omegahat/RDCOMClient ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DescTools_0.99.14.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=8bc8cb8f15616026e5e51cd444809ed6
