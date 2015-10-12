@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/deSolve sci-CRAN/polynom >=dev-lang/R-2.14.2 >=sci-CRAN/HelpersMG-1.2 dev-lang/R
+DESCRIPTION=Tools to Analyze the Thermal Rea... (see metadata)
+EAPI=4
+IUSE=r_suggests_coda r_suggests_entropy r_suggests_numderiv r_suggests_optimx r_suggests_shiny byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/deSolve sci-CRAN/polynom >=dev-lang/R-2.14.2 >=sci-CRAN/HelpersMG-1.2 r_suggests_coda? ( sci-CRAN/coda ) r_suggests_entropy? ( sci-CRAN/entropy ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_optimx? ( sci-CRAN/optimx ) r_suggests_shiny? ( sci-CRAN/shiny ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/embryogrowth_6.1.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
+_md5_=131bea0232a64ac96273e3752554df59
