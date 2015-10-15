@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/sp >=sci-CRAN/spacetime-1.0.9 >=sci-CRAN/VineCopula-1.4 >=sci-CRAN/copula-0.999.12 dev-lang/R
+DESCRIPTION=Copula Driven Spatio-Temporal Analysis
+EAPI=4
+IUSE=r_suggests_evd byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/sp >=sci-CRAN/spacetime-1.0.9 >=sci-CRAN/VineCopula-1.4 >=sci-CRAN/copula-0.999.12 r_suggests_evd? ( sci-CRAN/evd ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/spcopula_0.2-1.tar.gz -> spcopula_0.2-1-r4.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=c6f3d9d3ce9e66dedf978aeed395864f

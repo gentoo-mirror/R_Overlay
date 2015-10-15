@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/miceadds-1.3 sci-CRAN/TAM sci-CRAN/mitools >=dev-lang/R-2.15.0 sci-CRAN/Rcpp dev-lang/R
+DESCRIPTION=Tools for Survey Statistics in E... (see metadata)
+EAPI=4
+IUSE=r_suggests_car r_suggests_hmisc r_suggests_intsvy r_suggests_lme4 r_suggests_survey r_suggests_svypvpack byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/miceadds-1.3 sci-CRAN/TAM sci-CRAN/mitools >=dev-lang/R-2.15.0 sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_car? ( sci-CRAN/car ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_intsvy? ( sci-CRAN/intsvy ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_survey? ( sci-CRAN/survey ) r_suggests_svypvpack? ( sci-CRAN/svyPVpack ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BIFIEsurvey_1.6-0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=36e061d5361e73f3bd121560f30135ba

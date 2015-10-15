@@ -2,13 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Sparse and Non-Sparse Partial Robust M Regression // Robust
-		methods for dimension reduction and regression analysis are
-		implemented that yield estimates with a partial least squares
-		alike interpretability. Partial robust M regression is robust
-		to both vertical outliers and leverage points. Sparse partial
-		robust M regression is a related robust method with sparse
+		Sparse and Non-Sparse Partial Robust M Regression and
+		Classification // Robust dimension reduction methods for
+		regression and discriminant analysis are implemented that yield
+		estimates with a partial least squares alike interpretability.
+		Partial robust M regression (PRM) is robust to both vertical
+		outliers and leverage points. Sparse partial robust M
+		regression (SPRM) is a related robust method with sparse
 		coefficient estimate, and therefore with intrinsic variable
-		selection.
+		selection. For bianry classification related discriminant
+		methods are PRM-DA and SPRM-DA.
 	</longdescription>
 </pkgmetadata>
