@@ -2,25 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tools for Spatial Data // Fields is for curve, surface and
-		function fitting with an emphasis on splines, spatial data and
-		spatial statistics. The major methods include cubic, and thin
-		plate splines, Kriging and compact covariances for large data
-		sets. The splines and Kriging methods are supporting by
-		functions that can determine the smoothing parameter (nugget
-		and sill variance) by cross validation and also by restricted
-		maximum likelihood. For Kriging there is an easy to function
-		that also estimates the correlation scale (range). A major
-		feature is that any covariance function implemented in R and
-		following a simple fields format can be used for spatial
-		prediction. There are also many useful functions for plotting
-		and working with spatial data as images. This package also
-		contains an implementation of sparse matrix methods for large
-		spatial data sets and currently requires the sparse matrix
-		(spam) package. Use help(fields) to get started and for an
-		overview.  The fields source code is deliberately commented and
-		provides useful explanations of numerical details in addition
-		to the manual pages. The commented source code can be viewed by
+		Tools for Spatial Data // For curve, surface and function fitting
+		with an emphasis on splines, spatial data and spatial
+		statistics. The major methods include cubic, and thin plate
+		splines, Kriging and compact covariances for large data sets.
+		The splines and Kriging methods are supporting by functions
+		that can determine the smoothing parameter (nugget and sill
+		variance) by cross validation and also by restricted maximum
+		likelihood. For Kriging there is an easy to function that also
+		estimates the correlation scale (range). A major feature is
+		that any covariance function implemented in R and following a
+		simple fields format can be used for spatial prediction. There
+		are also many useful functions for plotting and working with
+		spatial data as images. This package also contains an
+		implementation of sparse matrix methods for large spatial data
+		sets and currently requires the sparse matrix (spam) package.
+		Use help(fields) to get started and for an overview.  The
+		fields source code is deliberately commented and provides
+		useful explanations of numerical details in addition to the
+		manual pages. The commented source code can be viewed by
 		expanding the source code .tar.gz file and looking in R
 		subdirectory.
 	</longdescription>
