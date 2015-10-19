@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A procedure for large scale contamination search // A fast
+		contamination search algorithm to search between trace samples
+		(mixtures) and between trace samples and reference samples
+		where the trace samples are selected within a range of time.
+		The match statistic uses likelihood ratio (LR) calculation
+		based on allele frequencies to create decreasing sorted table
+		of the most likely matches. The user can select threshold for
+		LR to assign matches and change the model to take into account
+		drop-in/out.
+	</longdescription>
+</pkgmetadata>

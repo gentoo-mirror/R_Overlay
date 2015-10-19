@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/gWidgets sci-CRAN/gWidgetstcltk dev-lang/R
+DESCRIPTION=Package for intepretation of qua... (see metadata)
+EAPI=4
+IUSE=r_suggests_cubature r_suggests_forensim byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/gWidgets sci-CRAN/gWidgetstcltk sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/BH r_suggests_cubature? ( sci-CRAN/cubature ) r_suggests_forensim? ( sci-CRAN/forensim ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/euroformix_0.3.11.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=f3d927a197f3b26f6b0ced789c6783d0
