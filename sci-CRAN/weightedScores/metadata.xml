@@ -3,21 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Weighted Scores Method for Regression Models with Dependent Data
-		// Has functions that handle the steps for the weighted scores
-		method in Nikoloulopoulos, Joe and Chaganty (2011,
-		Biostatistics, 12: 653-665) for binary (logistic and probit),
-		Poisson and negative binomial regression, with dependent data.
-		Two versions of negative binomial regression from Cameron and
-		Trivedi (1998) are used. Let NB(tau,xi) be a parametrization
-		with probability mass function f(y; tau, xi) = Gamma(tau + y)
-		xi^y / [ Gamma(tau) y! (1 + xi)^( tau + y )], for y = 0, 1, 2,
-		... , tau  0 , xi  0, with mean mu = tau*xi = exp(beta^T x) and
-		variance tau*xi*(1 + xi), where x is a vector of covariates.
-		For NB1, the parameter gamma is defined so that tau=mu/gamma,
-		xi=gamma; for NB2, the parameter gamma is defined so that
-		tau=1/gamma, xi=mu*gamma. In NB1, the convolution parameter tau
-		is a function of the covariate x and xi is constant; in NB2,
-		the convolution parameter tau is constant and xi is a function
-		of the covariate x.
+		// Has functions to implement the weighted scores method and
+		CL1 information criteria as an intermediate step for
+		variable/correlation selection for longitudinal categorical and
+		count data in Nikoloulopoulos, Joe and Chaganty (2011,
+		Biostatistics, 12: 653-665) and Nikoloulopoulos (2015a,2015b).
 	</longdescription>
 </pkgmetadata>

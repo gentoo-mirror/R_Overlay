@@ -2,26 +2,29 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multiresolution Kriging based on Markov random fields //
+		Multiresolution Kriging Based on Markov Random Fields //
 		Functions for the interpolation of large spatial datasets. This
 		package follows a "fixed rank Kriging" approach using a large
 		number of basis functions and provides spatial estimates that
 		are comparable to standard families of covariance functions.
 		Using a large number of basis functions allows for estimates
 		that can come close to interpolating the observations (a
-		spatial model with a small nugget variance.)  The covariance
-		model for this method can approximate the Matern covariance
-		family but also allows for a multi-resolution model and
-		supports efficient computation of the profile likelihood for
-		estimating covariance parameters. This is accomplished through
-		compactly supported basis functions and a Markov random field
-		model for the basis coefficients. These features lead to sparse
-		matrices for the computations. One benefit of this approach is
-		the facilty to do unconditional and conditional simulation of
-		the field for large numbers of arbitrary points. There is also
-		the flexibility for estimating nonstationary covariances.
-		Included are generic methods for prediction, standard errors
-		for prediction, plotting of the estimated surface and
-		conditional and unconditional simulation.
+		spatial model with a small nugget variance.)  Moreover, the
+		covariance model for this method can approximate the Matern
+		covariance family but also allows for a multi-resolution model
+		and supports efficient computation of the profile likelihood
+		for estimating covariance parameters. This is accomplished
+		through compactly supported basis functions and a Markov random
+		field model for the basis coefficients. These features lead to
+		sparse matrices for the computations. An extension of this
+		version over previous ones (  5.4 ) is the support for
+		different geometries besides a rectangular domain. One benefit
+		of the LatticeKrig model/approach is the facility to do
+		unconditional and conditional simulation of the field for large
+		numbers of arbitrary points. There is also the flexibility for
+		estimating non-stationary covariances. Included are generic
+		methods for prediction, standard errors for prediction,
+		plotting of the estimated surface and conditional and
+		unconditional simulation.
 	</longdescription>
 </pkgmetadata>
