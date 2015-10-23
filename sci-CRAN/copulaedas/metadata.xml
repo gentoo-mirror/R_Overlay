@@ -2,16 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Estimation of Distribution Algorithms Based on Copulas // This
-		package provides a platform where Estimation of Distribution
-		Algorithms (EDAs) based on copulas can be implemented and
-		studied. It contains complete implementations of various EDAs
-		based on copulas and vines, and it also offers the possibility
-		of implementing new algorithms. EDAs are implemented using S4
-		classes with generic functions for its main parts: seeding,
-		selection, learning, sampling, replacement, local optimization,
-		termination, and reporting. The package also provides a group
-		of well-known benchmark problems and utility functions to study
-		the behavior of EDAs.
+		Estimation of Distribution Algorithms Based on Copulas //
+		Provides a platform where EDAs (estimation of distribution
+		algorithms) based on copulas can be implemented and studied.
+		The package offers complete implementations of various EDAs
+		based on copulas and vines, a group of well-known optimization
+		problems, and utility functions to study the performance of the
+		algorithms. Newly developed EDAs can be easily integrated into
+		the package by extending an S4 class with generic functions for
+		their main components.
 	</longdescription>
 </pkgmetadata>
