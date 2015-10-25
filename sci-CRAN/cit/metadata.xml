@@ -2,13 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Causal Inference Test // A formal statistical hypothesis test,
-		resulting in a p-value, is provided to quantify uncertainty in
-		a causal inference pertaining to a measured factor, e.g. a
-		molecular species, which potentially mediates a known causal
-		association between a locus and a quantitative trait. The test
-		is applicable to data that includes genotype (discrete),
-		possible causal mediator such as gene expression (continuous)
-		and an outcome of interest (continuous).
+		Causal Inference Test // A likelihood-based hypothesis testing
+		approach is implemented for assessing causal mediation. For
+		example, it could be used to test for mediation of a known
+		causal association between a DNA variant, the 'instrumental
+		variable', and a clinical outcome or phenotype by gene
+		expression or DNA methylation, the potential mediator. Another
+		example would be testing mediation of the effect of a drug on a
+		clinical outcome by the molecular target. The hypothesis test
+		generates a p-value or permutation-based FDR value with
+		confidence intervals to quantify uncertainty in the causal
+		inference. The outcome can be represented by either a
+		continuous or binary variable, the potential mediator is
+		continuous, and the instrumental variable can be continuous or
+		binary and is not limited to a single variable but may be a
+		design matrix representing multiple variables.
 	</longdescription>
 </pkgmetadata>
