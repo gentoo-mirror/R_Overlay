@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/xtable sci-CRAN/Formula sci-CRAN/sandwich >=dev-lang/R-2.15.2 dev-lang/R
+DESCRIPTION=Linear Group Fixed Effects
+EAPI=4
+IUSE=r_suggests_igraph r_suggests_knitr r_suggests_plm byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/xtable sci-CRAN/Formula sci-CRAN/sandwich >=dev-lang/R-2.15.2 r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plm? ( sci-CRAN/plm ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lfe_2.4-1788.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=5a97abdbc536e8701f5976552a11ddb8
