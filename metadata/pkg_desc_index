@@ -172,6 +172,7 @@ sci-BIOC/ExpressionView 1.14.0: Visualize biclusters identified ... (see metadat
 sci-BIOC/FANTOM3and4CAGE 0.99.3 0.99.3-r1: CAGE data from FANTOM3 and FANTOM4 projects
 sci-BIOC/FDb_FANTOM4_promoters_hg19 1.0.0: Annotation package for FANTOM4 p... (see metadata)
 sci-BIOC/FDb_InfiniumMethylation_hg18 2.2.0: Annotation package for Illumina ... (see metadata)
+sci-BIOC/FDb_InfiniumMethylation_hg19 2.2.0: Annotation package for Illumina ... (see metadata)
 sci-BIOC/FDb_UCSC_snp135common_hg19 1.0.0: UCSC common SNPs track for dbSNP build 135
 sci-BIOC/FDb_UCSC_snp137common_hg19 1.0.0: UCSC common SNPs track for dbSNP build 137
 sci-BIOC/FDb_UCSC_tRNAs 1.0.0 1.0.1: Annotation package for FeatureDb object(s)
@@ -241,7 +242,7 @@ sci-BIOC/Homo_sapiens 1.1.2: Annotation package for the Homo.sapiens object
 sci-BIOC/Hs6UG171_db 2.10.1: A package containing metadata for Hs6UG171 arrays
 sci-BIOC/HsAgilentDesign026652_db 2.10.1: Agilent Chips that use Agilent d... (see metadata)
 sci-BIOC/Hspec 0.99.1: Hspec
-sci-BIOC/HuExExonProbesetLocation 1.0.5: Probe sequence data for microarrays of type HuEx
+sci-BIOC/HuExExonProbesetLocation 1.0.5 1.15.0: Probe sequence data for microarrays of type HuEx
 sci-BIOC/HuExExonProbesetLocationHg18 0.0.2: Exon-level probeset chromosome l... (see metadata)
 sci-BIOC/HuExExonProbesetLocationHg19 0.0.3: Exon-level probeset chromosome l... (see metadata)
 sci-BIOC/HuO22_db 2.10.1: FHCRC Genomics Shared Resource H... (see metadata)
@@ -255,9 +256,9 @@ sci-BIOC/IdMappingAnalysis 1.6.0: ID Mapping Analysis
 sci-BIOC/IdMappingRetrieval 1.8.0: ID Mapping Data Retrieval
 sci-BIOC/Illumina450ProbeVariants_db 0.99.3 0.99.3-r1: Annotation Package combining var... (see metadata)
 sci-BIOC/IlluminaDataTestFiles 1.0.2 1.0.2-r1: Illumina microarray files (IDAT) for testing
-sci-BIOC/IlluminaHumanMethylation27k_db 1.4.7: Illumina Illumina Human Methylat... (see metadata)
+sci-BIOC/IlluminaHumanMethylation27k_db 1.4.7 1.4.8: Illumina Illumina Human Methylat... (see metadata)
 sci-BIOC/IlluminaHumanMethylation27kmanifest 0.4.0: Annotation for Illuminas 27k methylation arrays
-sci-BIOC/IlluminaHumanMethylation450k_db 2.0.7: Illumina Human Methylation 450k annotation data
+sci-BIOC/IlluminaHumanMethylation450k_db 2.0.7 2.0.9: Illumina Human Methylation 450k annotation data
 sci-BIOC/IlluminaHumanMethylation450kanno_ilmn12_hg19 0.2.1: Annotation for Illuminas 450k methylation arrays
 sci-BIOC/IlluminaHumanMethylation450kmanifest 0.4.0: Annotation for Illuminas 450k methylation arrays
 sci-BIOC/IlluminaHumanMethylation450kprobe 2.0.6: Probe sequence data for microarr... (see metadata)
@@ -312,7 +313,7 @@ sci-BIOC/MiRaGE 1.4.0: MiRNA Ranking by Gene Expression
 sci-BIOC/MinimumDistance 1.6.0: A package for de novo CNV detect... (see metadata)
 sci-BIOC/MmAgilentDesign026655_db 2.10.1: Agilent Chips that use Agilent d... (see metadata)
 sci-BIOC/MmPalateMiRNA 1.12.0: Murine Palate miRNA Expression Analysis
-sci-BIOC/MoExExonProbesetLocation 1.0.5: Probe sequence data for microarrays of type MoEx
+sci-BIOC/MoExExonProbesetLocation 1.0.5 1.15.0: Probe sequence data for microarrays of type MoEx
 sci-BIOC/MotIV 1.18.0: Motif Identification and Validation
 sci-BIOC/MotifDb 1.4.1: An Annotated Collection of Prote... (see metadata)
 sci-BIOC/Mu15v1_db 2.10.1: FHCRC Genomics Shared Resource M... (see metadata)
@@ -438,12 +439,12 @@ sci-BIOC/SNAData 1.8.8 1.8.8-r1: Social Networks Analysis Data Examples
 sci-BIOC/SNAGEE 1.2.0 1.2.0-r1: Signal-to-Noise applied to Gene ... (see metadata)
 sci-BIOC/SNAGEEdata 0.99.2: SNAGEE data
 sci-BIOC/SNPchip 2.8.0: Visualizations for copy number alterations
-sci-BIOC/SNPlocs_Hsapiens_dbSNP_20090506 0.99.8: SNP locations for Homo sapiens (dbSNP Build 130)
+sci-BIOC/SNPlocs_Hsapiens_dbSNP_20090506 0.99.8 0.99.9: SNP locations for Homo sapiens (dbSNP Build 130)
 sci-BIOC/SNPlocs_Hsapiens_dbSNP_20100427 0.99.6: SNP locations for Homo sapiens (dbSNP BUILD 131)
 sci-BIOC/SNPlocs_Hsapiens_dbSNP_20101109 0.99.6: SNP locations for Homo sapiens (dbSNP Build 132)
 sci-BIOC/SNPlocs_Hsapiens_dbSNP_20110815 0.99.6: SNP locations for Homo sapiens (dbSNP Build 134)
 sci-BIOC/SNPlocs_Hsapiens_dbSNP_20111119 0.99.6: SNP locations for Homo sapiens (dbSNP Build 135)
-sci-BIOC/SNPlocs_Hsapiens_dbSNP_20120608 0.99.9: SNP locations for Homo sapiens (dbSNP Build 137)
+sci-BIOC/SNPlocs_Hsapiens_dbSNP_20120608 0.99.9 0.99.10: SNP locations for Homo sapiens (dbSNP Build 137)
 sci-BIOC/SPEM 1.2.0: S-system parameter estimation method
 sci-BIOC/SPIA 2.14.0 2.14.0-r1: Signaling Pathway Impact Analysi... (see metadata)
 sci-BIOC/SQUADD 1.12.0: Add-on of the SQUAD Software
@@ -530,7 +531,7 @@ sci-BIOC/affyio 1.30.0: Tools for parsing Affymetrix data files
 sci-BIOC/affylmGUI 1.36.0: GUI for affy analysis using limma package
 sci-BIOC/affypdnn 1.36.0: Probe Dependent Nearest Neighbou... (see metadata)
 sci-BIOC/ag_db 2.10.1: Affymetrix Arabidopsis Genome Ar... (see metadata)
-sci-BIOC/agcdf 2.13.0 2.13.0-r1: agcdf
+sci-BIOC/agcdf 2.13.0 2.13.0-r1 2.18.0: agcdf
 sci-BIOC/agilp 3.4.0 3.4.0-r1: Agilent expression array processing package
 sci-BIOC/agprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type ag
 sci-BIOC/altcdfenvs 2.24.0: alternative CDF environments (ak... (see metadata)
@@ -549,11 +550,11 @@ sci-BIOC/arrayMvout 1.20.0: multivariate outlier detection f... (see metadata)
 sci-BIOC/arrayQuality 1.40.0: Assessing array quality on spotted arrays
 sci-BIOC/arrayQualityMetrics 3.18.0: Quality metrics on microarray data sets
 sci-BIOC/ath1121501_db 2.10.1: Affymetrix Arabidopsis ATH1 Geno... (see metadata)
-sci-BIOC/ath1121501cdf 2.13.0 2.13.0-r1: ath1121501cdf
-sci-BIOC/ath1121501probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/ath1121501cdf 2.13.0 2.13.0-r1 2.18.0: ath1121501cdf
+sci-BIOC/ath1121501probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/attract 1.14.0: Methods to Find the Gene Express... (see metadata)
-sci-BIOC/barley1cdf 2.13.0 2.13.0-r1: barley1cdf
-sci-BIOC/barley1probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/barley1cdf 2.13.0 2.13.0-r1 2.18.0: barley1cdf
+sci-BIOC/barley1probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/baySeq 1.16.0: Empirical Bayesian analysis of p... (see metadata)
 sci-BIOC/beadarray 2.12.0: Quality assessment and low-level... (see metadata)
 sci-BIOC/beadarrayExampleData 1.0.8: Example data for the beadarray package
@@ -572,9 +573,9 @@ sci-BIOC/biovizBase 1.10.8: Basic graphic utilities for visu... (see metadata)
 sci-BIOC/birta 1.6.0: Bayesian Inference of Regulation... (see metadata)
 sci-BIOC/bladderbatch 1.0.7 1.0.7-r1: Bladder gene expression data ill... (see metadata)
 sci-BIOC/bovine_db 2.10.1: Affymetrix bovine annotation data (chip bovine)
-sci-BIOC/bovine_db0 2.10.1: Base Level Annotation databases for bovine
-sci-BIOC/bovinecdf 2.13.0 2.13.0-r1: bovinecdf
-sci-BIOC/bovineprobe 2.13.0: Probe sequence data for microarrays of type bovine
+sci-BIOC/bovine_db0 2.10.1 3.2.4: Base Level Annotation databases for bovine
+sci-BIOC/bovinecdf 2.13.0 2.13.0-r1 2.18.0: bovinecdf
+sci-BIOC/bovineprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type bovine
 sci-BIOC/breastCancerMAINZ 1.0.6: Gene expression dataset publishe... (see metadata)
 sci-BIOC/breastCancerNKI 1.0.6: Genexpression dataset published ... (see metadata)
 sci-BIOC/breastCancerTRANSBIG 1.0.6: Gene expression dataset publishe... (see metadata)
@@ -585,7 +586,7 @@ sci-BIOC/bridge 1.26.0 1.26.0-r1: Bayesian Robust Inference for Di... (see metad
 sci-BIOC/bronchialIL13 1.0.12: time course experiment involving il13
 sci-BIOC/bsseq 0.10.0: Analyze, manage and store bisulf... (see metadata)
 sci-BIOC/bsseqData 0.1.5: Example whole genome bisulfite d... (see metadata)
-sci-BIOC/bsubtiliscdf 2.13.0 2.13.0-r1: bsubtiliscdf
+sci-BIOC/bsubtiliscdf 2.13.0 2.13.0-r1 2.18.0: bsubtiliscdf
 sci-BIOC/bsubtilisprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/bumphunter 1.2.0: Bump Hunter
 sci-BIOC/cMAP 1.15.1 1.15.1-r1: A data package containing annotation data for cMAP
@@ -593,17 +594,17 @@ sci-BIOC/cMap2data 0.99.4 0.99.4-r1: Connectivity Map (version 2) Data
 sci-BIOC/cancerclass 1.6.0: Development and validation of di... (see metadata)
 sci-BIOC/cancerdata 1.1.3 1.1.3-r1: Development and validation of di... (see metadata)
 sci-BIOC/canine2_db 2.10.1: Affymetrix canine2 annotation data (chip canine2)
-sci-BIOC/canine2cdf 2.13.0 2.13.0-r1: canine2cdf
-sci-BIOC/canine2probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/canine2cdf 2.13.0 2.13.0-r1 2.18.0: canine2cdf
+sci-BIOC/canine2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/canine_db 2.10.1: Affymetrix canine annotation data (chip canine)
-sci-BIOC/canine_db0 2.10.1: Base Level Annotation databases for canine
-sci-BIOC/caninecdf 2.13.0 2.13.0-r1: caninecdf
-sci-BIOC/canineprobe 2.13.0: Probe sequence data for microarrays of type canine
+sci-BIOC/canine_db0 2.10.1 3.2.3: Base Level Annotation databases for canine
+sci-BIOC/caninecdf 2.13.0 2.13.0-r1 2.18.0: caninecdf
+sci-BIOC/canineprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type canine
 sci-BIOC/casper 1.4.0: Characterization of Alternative ... (see metadata)
 sci-BIOC/ccTutorial 1.0.24 1.0.26: Data package for ChIP-chip tutorial
 sci-BIOC/celegans_db 2.10.1: Affymetrix celegans annotation d... (see metadata)
 sci-BIOC/celeganscdf 2.13.0 2.13.0-r1 2.18.0: celeganscdf
-sci-BIOC/celegansprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/celegansprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/cellGrowth 1.6.0: Fitting cell population growth models
 sci-BIOC/cellHTS 1.32.0: Analysis of cell-based screens
 sci-BIOC/cellHTS2 2.26.0: Analysis of cell-based screens -... (see metadata)
@@ -616,18 +617,18 @@ sci-BIOC/charm 2.8.0: Analysis of DNA methylation data... (see metadata)
 sci-BIOC/charmData 0.99.9: An example dataset for use with the charm package
 sci-BIOC/cheung2010 0.0.29: resources for genetics of gene e... (see metadata)
 sci-BIOC/chicken_db 2.10.1: Affymetrix chicken annotation data (chip chicken)
-sci-BIOC/chicken_db0 2.10.1: Base Level Annotation databases for chicken
+sci-BIOC/chicken_db0 2.10.1 3.2.4: Base Level Annotation databases for chicken
 sci-BIOC/chickencdf 2.13.0 2.13.0-r1 2.18.0: chickencdf
 sci-BIOC/chickenprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
-sci-BIOC/chimp_db0 2.10.1: Base Level Annotation databases for chimp
+sci-BIOC/chimp_db0 2.10.1 3.2.3: Base Level Annotation databases for chimp
 sci-BIOC/chipenrich 1.0.0: Gene set enrichment for ChIP-seq peak data
 sci-BIOC/chipenrich_data 0.99.4: Gene set enrichment analysis for ChIP-seq data
 sci-BIOC/chipseq 1.12.0: chipseq: A package for analyzing chipseq data
 sci-BIOC/chopsticks 1.26.1 1.26.1-r1: The snp.matrix and X.snp.matrix classes
 sci-BIOC/chroGPS 1.6.1: chroGPS: visualizing the epigenome
 sci-BIOC/cisPath 1.2.6 1.2.7: Visualization and management of ... (see metadata)
-sci-BIOC/citruscdf 2.13.0 2.13.0-r1: citruscdf
-sci-BIOC/citrusprobe 2.13.0: Probe sequence data for microarrays of type citrus
+sci-BIOC/citruscdf 2.13.0 2.13.0-r1 2.18.0: citruscdf
+sci-BIOC/citrusprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type citrus
 sci-BIOC/cleanUpdTSeq 1.0.2: This package classifies putative... (see metadata)
 sci-BIOC/cleaver 1.0.0: Cleavage of polypeptide sequences
 sci-BIOC/clippda 1.12.0: A package for the clinical prote... (see metadata)
@@ -648,8 +649,8 @@ sci-BIOC/colonCA 1.4.12 1.4.12-r1: exprSet for Alon et al. (1999) colon cancer d
 sci-BIOC/convert 1.38.0: Convert Microarray Data Objects
 sci-BIOC/copa 1.30.0 1.30.0-r1: Functions to perform cancer outl... (see metadata)
 sci-BIOC/copynumber 1.2.0: Segmentation of single- and mult... (see metadata)
-sci-BIOC/cottoncdf 2.13.0 2.13.0-r1: cottoncdf
-sci-BIOC/cottonprobe 2.13.0: Probe sequence data for microarrays of type cotton
+sci-BIOC/cottoncdf 2.13.0 2.13.0-r1 2.18.0: cottoncdf
+sci-BIOC/cottonprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type cotton
 sci-BIOC/cqn 1.8.0: Conditional quantile normalization
 sci-BIOC/crlmm 1.20.4: Genotype Calling (CRLMM) and Cop... (see metadata)
 sci-BIOC/ctc 1.36.0 1.36.0-r1: Cluster and Tree Conversion.
@@ -658,7 +659,7 @@ sci-BIOC/curatedBladderData 0.99.2: Bladder Cancer Gene Expression Analysis
 sci-BIOC/curatedOvarianData 1.0.5: Clinically Annotated Data for th... (see metadata)
 sci-BIOC/customProDB 1.2.0: Generate customized protein data... (see metadata)
 sci-BIOC/cycle 1.16.0: Significance of periodic express... (see metadata)
-sci-BIOC/cyp450cdf 2.13.0 2.13.0-r1: cyp450cdf
+sci-BIOC/cyp450cdf 2.13.0 2.13.0-r1 2.18.0: cyp450cdf
 sci-BIOC/daMA 1.34.0 1.34.0-r1: Efficient design and analysis of... (see metadata)
 sci-BIOC/dagLogo 1.0.0: dagLogo
 sci-BIOC/davidTiling 1.2.19: Data and analysis scripts for Da... (see metadata)
@@ -673,24 +674,24 @@ sci-BIOC/domainsignatures 1.22.0: Geneset enrichment based on Inte... (see metad
 sci-BIOC/dressCheck 0.1.9: data and software for checking D... (see metadata)
 sci-BIOC/drosgenome1_db 2.10.1: Affymetrix Drosophila Genome Arr... (see metadata)
 sci-BIOC/drosgenome1cdf 2.13.0 2.13.0-r1 2.18.0: drosgenome1cdf
-sci-BIOC/drosgenome1probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/drosgenome1probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/drosophila2_db 2.10.1: Affymetrix Drosophila Genome 2.0... (see metadata)
-sci-BIOC/drosophila2cdf 2.13.0 2.13.0-r1: drosophila2cdf
-sci-BIOC/drosophila2probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/drosophila2cdf 2.13.0 2.13.0-r1 2.18.0: drosophila2cdf
+sci-BIOC/drosophila2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/dsQTL 0.0.24: dsQTL, data excerpt from Degner ... (see metadata)
 sci-BIOC/dyebias 1.20.0: The GASSCO method for correcting... (see metadata)
 sci-BIOC/dyebiasexamples 1.0.12: Example data for the dyebias pac... (see metadata)
 sci-BIOC/easyRNASeq 1.8.6 1.8.8: Count summarization and normaliz... (see metadata)
 sci-BIOC/ecoli2_db 2.10.1: Affymetrix E. coli Genome 2.0 Ar... (see metadata)
-sci-BIOC/ecoli2cdf 2.13.0 2.13.0-r1: ecoli2cdf
+sci-BIOC/ecoli2cdf 2.13.0 2.13.0-r1 2.18.0: ecoli2cdf
 sci-BIOC/ecoli2probe 2.13.0 2.18.0: Probe sequence data for microarrays of type ecoli2
-sci-BIOC/ecoliK12_db0 2.10.1: Base Level Annotation databases ... (see metadata)
+sci-BIOC/ecoliK12_db0 2.10.1 3.2.3: Base Level Annotation databases ... (see metadata)
 sci-BIOC/ecoliLeucine 1.2.11: Experimental data with Affymetrix E. coli chips
 sci-BIOC/ecoliSakai_db0 2.10.1 3.2.3: Base Level Annotation databases ... (see metadata)
-sci-BIOC/ecoliasv2cdf 2.13.0 2.13.0-r1: ecoliasv2cdf
+sci-BIOC/ecoliasv2cdf 2.13.0 2.13.0-r1 2.18.0: ecoliasv2cdf
 sci-BIOC/ecoliasv2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/ecolicdf 2.13.0 2.13.0-r1 2.18.0: ecolicdf
-sci-BIOC/ecoliprobe 2.13.0: Probe sequence data for microarrays of type ecoli
+sci-BIOC/ecoliprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type ecoli
 sci-BIOC/ecolitk 1.34.0: Meta-data and tools for E. coli
 sci-BIOC/edgeR 3.4.2: Empirical analysis of digital ge... (see metadata)
 sci-BIOC/eiR 1.2.0: Accelerated similarity searching... (see metadata)
@@ -733,7 +734,7 @@ sci-BIOC/flowTrans 1.14.0: Parameter Optimization for Flow ... (see metadata)
 sci-BIOC/flowUtils 1.22.0: Utilities for flow cytometry
 sci-BIOC/flowViz 1.26.16: Visualization for flow cytometry
 sci-BIOC/flowWorkspaceData 2.0.0 2.0.0-r1: A data package containing two fl... (see metadata)
-sci-BIOC/fly_db0 2.10.1: Base Level Annotation databases for fly
+sci-BIOC/fly_db0 2.10.1 3.2.3: Base Level Annotation databases for fly
 sci-BIOC/fmcsR 1.4.0: Mismatch Tolerant Maximum Common... (see metadata)
 sci-BIOC/frma 1.14.0: Frozen RMA and Barcode
 sci-BIOC/frmaExampleData 0.99.6 0.99.6-r1: Frma Example Data
@@ -794,7 +795,7 @@ sci-BIOC/goProfiles 1.24.0: goProfiles: an R package for the... (see metadata)
 sci-BIOC/goTools 1.36.0: Functions for Gene Ontology database
 sci-BIOC/golubEsets 1.4.14 1.4.14-r1: exprSets for golub leukemia data
 sci-BIOC/goseq 1.14.0: Gene Ontology analyser for RNA-s... (see metadata)
-sci-BIOC/gp53cdf 2.13.0 2.13.0-r1: gp53cdf
+sci-BIOC/gp53cdf 2.13.0 2.13.0-r1 2.18.0: gp53cdf
 sci-BIOC/gpls 1.34.0 1.34.0-r1: Classification using generalized... (see metadata)
 sci-BIOC/gprege 1.6.0: Gaussian Process Ranking and Est... (see metadata)
 sci-BIOC/graph 1.40.1: graph: A package to handle graph data structures
@@ -814,47 +815,47 @@ sci-BIOC/hapmapsnp5 1.4.3 1.4.3-r1: Sample data - Hapmap SNP 5.0 Affymetrix
 sci-BIOC/hapmapsnp6 1.4.3: Sample data - Hapmap SNP 6.0 Affymetrix
 sci-BIOC/harbChIP 1.0.12: Experimental Data Package: harbChIP
 sci-BIOC/hcg110_db 2.10.1: Affymetrix Human Cancer G110 Arr... (see metadata)
-sci-BIOC/hcg110cdf 2.13.0 2.13.0-r1: hcg110cdf
+sci-BIOC/hcg110cdf 2.13.0 2.13.0-r1 2.18.0: hcg110cdf
 sci-BIOC/hcg110probe 2.13.0 2.18.0: Probe sequence data for microarrays of type hcg110
 sci-BIOC/hgfocus_db 2.10.1: Affymetrix Human Genome Focus Ar... (see metadata)
 sci-BIOC/hgfocuscdf 2.13.0 2.13.0-r1 2.18.0: hgfocuscdf
 sci-BIOC/hgfocusprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hgu133a2_db 2.10.1: Affymetrix Human Genome U133A 2.... (see metadata)
-sci-BIOC/hgu133a2cdf 2.13.0 2.13.0-r1: hgu133a2cdf
-sci-BIOC/hgu133a2frmavecs 1.0.0 1.0.0-r1: Vectors used by frma for microar... (see metadata)
+sci-BIOC/hgu133a2cdf 2.13.0 2.13.0-r1 2.18.0: hgu133a2cdf
+sci-BIOC/hgu133a2frmavecs 1.0.0 1.0.0-r1 1.2.0: Vectors used by frma for microar... (see metadata)
 sci-BIOC/hgu133a2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hgu133a_db 2.10.1: Affymetrix Human Genome U133 Set... (see metadata)
 sci-BIOC/hgu133abarcodevecs 1.0.7 1.0.7-r1: hgu133a data for barcode
-sci-BIOC/hgu133acdf 2.13.0 2.13.0-r1: hgu133acdf
-sci-BIOC/hgu133afrmavecs 1.3.0 1.3.0-r1: Vectors used by frma for microar... (see metadata)
+sci-BIOC/hgu133acdf 2.13.0 2.13.0-r1 2.18.0: hgu133acdf
+sci-BIOC/hgu133afrmavecs 1.3.0 1.3.0-r1 1.5.0: Vectors used by frma for microar... (see metadata)
 sci-BIOC/hgu133aprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
-sci-BIOC/hgu133atagcdf 2.13.0 2.13.0-r1: hgu133atagcdf
-sci-BIOC/hgu133atagprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/hgu133atagcdf 2.13.0 2.13.0-r1 2.18.0: hgu133atagcdf
+sci-BIOC/hgu133atagprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hgu133b_db 2.10.1: Affymetrix Human Genome U133 Set... (see metadata)
-sci-BIOC/hgu133bcdf 2.13.0 2.13.0-r1: hgu133bcdf
-sci-BIOC/hgu133bprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/hgu133bcdf 2.13.0 2.13.0-r1 2.18.0: hgu133bcdf
+sci-BIOC/hgu133bprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hgu133plus2_db 2.10.1: Affymetrix Human Genome U133 Plu... (see metadata)
 sci-BIOC/hgu133plus2barcodevecs 1.0.7 1.0.7-r1: hgu133plus2 data for barcode
 sci-BIOC/hgu133plus2cdf 2.13.0 2.13.0-r1 2.18.0: hgu133plus2cdf
 sci-BIOC/hgu133plus2frmavecs 1.3.0 1.3.0-r1 1.5.0: Vectors used by frma for microar... (see metadata)
-sci-BIOC/hgu133plus2probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/hgu133plus2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hgu219_db 2.10.1: Affymetrix Human Genome 219 Plat... (see metadata)
-sci-BIOC/hgu219cdf 2.13.0 2.13.0-r1: hgu219cdf
+sci-BIOC/hgu219cdf 2.13.0 2.13.0-r1 2.18.0: hgu219cdf
 sci-BIOC/hgu219probe 2.13.0 2.18.0: Probe sequence data for microarrays of type hgu219
 sci-BIOC/hgu2beta7 1.2.9 1.2.9-r1: A data package containing annota... (see metadata)
 sci-BIOC/hgu95a_db 2.10.1: Affymetrix Human Genome U95 Set ... (see metadata)
 sci-BIOC/hgu95acdf 2.13.0 2.13.0-r1 2.18.0: hgu95acdf
-sci-BIOC/hgu95aprobe 2.13.0: Probe sequence data for microarrays of type hgu95a
+sci-BIOC/hgu95aprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type hgu95a
 sci-BIOC/hgu95av2 2.2.0 2.2.0-r1: Affymetrix Human Genome U95 Set ... (see metadata)
 sci-BIOC/hgu95av2_db 2.10.1: Affymetrix Human Genome U95 Set ... (see metadata)
-sci-BIOC/hgu95av2cdf 2.13.0 2.13.0-r1: hgu95av2cdf
+sci-BIOC/hgu95av2cdf 2.13.0 2.13.0-r1 2.18.0: hgu95av2cdf
 sci-BIOC/hgu95av2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hgu95b_db 2.10.1: Affymetrix Human Genome U95 Set ... (see metadata)
-sci-BIOC/hgu95bcdf 2.13.0 2.13.0-r1: hgu95bcdf
-sci-BIOC/hgu95bprobe 2.13.0: Probe sequence data for microarrays of type hgu95b
+sci-BIOC/hgu95bcdf 2.13.0 2.13.0-r1 2.18.0: hgu95bcdf
+sci-BIOC/hgu95bprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type hgu95b
 sci-BIOC/hgu95c_db 2.10.1: Affymetrix Human Genome U95 Set ... (see metadata)
 sci-BIOC/hgu95ccdf 2.13.0 2.13.0-r1 2.18.0: hgu95ccdf
-sci-BIOC/hgu95cprobe 2.13.0: Probe sequence data for microarrays of type hgu95c
+sci-BIOC/hgu95cprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type hgu95c
 sci-BIOC/hgu95d_db 2.10.1: Affymetrix Human Genome U95 Set ... (see metadata)
 sci-BIOC/hgu95dcdf 2.13.0 2.13.0-r1 2.18.0: hgu95dcdf
 sci-BIOC/hgu95dprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type hgu95d
@@ -872,7 +873,7 @@ sci-BIOC/hgug4112a_db 2.10.1: Agilent Human Genome, Whole anno... (see metadata)
 sci-BIOC/hgug4845a_db 0.0.3: agilent AMADID 026652 annotation... (see metadata)
 sci-BIOC/hguqiagenv3_db 2.10.1: Qiagen Qiagen V3.0 oligo set ann... (see metadata)
 sci-BIOC/hi16cod_db 2.17.0: Codelink Human Inflammation 16 B... (see metadata)
-sci-BIOC/hivprtplus2cdf 2.13.0 2.13.0-r1: hivprtplus2cdf
+sci-BIOC/hivprtplus2cdf 2.13.0 2.13.0-r1 2.18.0: hivprtplus2cdf
 sci-BIOC/hmyriB36 0.99.18: YRI hapmap + expression (GENEVAR... (see metadata)
 sci-BIOC/hom_At_inp_db 2.10.1: Homology information for Arabido... (see metadata)
 sci-BIOC/hom_Ce_inp_db 2.10.1: Homology information for Caenorh... (see metadata)
@@ -889,54 +890,54 @@ sci-BIOC/hspeccdf 0.99.1: hspeccdf
 sci-BIOC/htSeqTools 1.8.0: Quality Control, Visualization a... (see metadata)
 sci-BIOC/hthgu133a_db 2.10.1: Affymetrix HT Human Genome U133 ... (see metadata)
 sci-BIOC/hthgu133acdf 2.13.0 2.13.0-r1 2.18.0: hthgu133acdf
-sci-BIOC/hthgu133afrmavecs 1.1.0 1.1.0-r1: Vectors used by frma for microar... (see metadata)
-sci-BIOC/hthgu133aprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/hthgu133afrmavecs 1.1.0 1.1.0-r1 1.3.0: Vectors used by frma for microar... (see metadata)
+sci-BIOC/hthgu133aprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hthgu133b_db 2.10.1: Affymetrix HT Human Genome U133 ... (see metadata)
-sci-BIOC/hthgu133bcdf 2.13.0 2.13.0-r1: hthgu133bcdf
-sci-BIOC/hthgu133bprobe 2.13.0: Probe sequence data for microarr... (see metadata)
-sci-BIOC/hthgu133pluspmcdf 2.13.0 2.13.0-r1: hthgu133pluspmcdf
-sci-BIOC/hthgu133pluspmprobe 2.13.0: Probe sequence data for microarr... (see metadata)
-sci-BIOC/htmg430acdf 2.13.0 2.13.0-r1: htmg430acdf
-sci-BIOC/htmg430aprobe 2.13.0: Probe sequence data for microarr... (see metadata)
-sci-BIOC/htmg430bcdf 2.13.0 2.13.0-r1: htmg430bcdf
+sci-BIOC/hthgu133bcdf 2.13.0 2.13.0-r1 2.18.0: hthgu133bcdf
+sci-BIOC/hthgu133bprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/hthgu133pluspmcdf 2.13.0 2.13.0-r1 2.18.0: hthgu133pluspmcdf
+sci-BIOC/hthgu133pluspmprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/htmg430acdf 2.13.0 2.13.0-r1 2.18.0: htmg430acdf
+sci-BIOC/htmg430aprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/htmg430bcdf 2.13.0 2.13.0-r1 2.18.0: htmg430bcdf
 sci-BIOC/htmg430bprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
-sci-BIOC/htmg430pmcdf 2.13.0 2.13.0-r1: htmg430pmcdf
+sci-BIOC/htmg430pmcdf 2.13.0 2.13.0-r1 2.18.0: htmg430pmcdf
 sci-BIOC/htmg430pmprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/htrat230pmcdf 2.13.0 2.13.0-r1 2.18.0: htrat230pmcdf
-sci-BIOC/htrat230pmprobe 2.13.0: Probe sequence data for microarr... (see metadata)
-sci-BIOC/htratfocuscdf 2.13.0 2.13.0-r1: htratfocuscdf
-sci-BIOC/htratfocusprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/htrat230pmprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/htratfocuscdf 2.13.0 2.13.0-r1 2.18.0: htratfocuscdf
+sci-BIOC/htratfocusprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hu35ksuba_db 2.10.1: Affymetrix Human Genome HU35K Se... (see metadata)
-sci-BIOC/hu35ksubacdf 2.13.0 2.13.0-r1: hu35ksubacdf
+sci-BIOC/hu35ksubacdf 2.13.0 2.13.0-r1 2.18.0: hu35ksubacdf
 sci-BIOC/hu35ksubaprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hu35ksubb_db 2.10.1: Affymetrix Human Genome HU35K Se... (see metadata)
-sci-BIOC/hu35ksubbcdf 2.13.0 2.13.0-r1: hu35ksubbcdf
+sci-BIOC/hu35ksubbcdf 2.13.0 2.13.0-r1 2.18.0: hu35ksubbcdf
 sci-BIOC/hu35ksubbprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hu35ksubc_db 2.10.1: Affymetrix Human Genome HU35K Se... (see metadata)
-sci-BIOC/hu35ksubccdf 2.13.0 2.13.0-r1: hu35ksubccdf
-sci-BIOC/hu35ksubcprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/hu35ksubccdf 2.13.0 2.13.0-r1 2.18.0: hu35ksubccdf
+sci-BIOC/hu35ksubcprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hu35ksubd_db 2.10.1: Affymetrix Human Genome HU35K Se... (see metadata)
-sci-BIOC/hu35ksubdcdf 2.13.0 2.13.0-r1: hu35ksubdcdf
-sci-BIOC/hu35ksubdprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/hu35ksubdcdf 2.13.0 2.13.0-r1 2.18.0: hu35ksubdcdf
+sci-BIOC/hu35ksubdprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hu6800_db 2.10.1: Affymetrix HuGeneFL Genome Array... (see metadata)
-sci-BIOC/hu6800cdf 2.13.0 2.13.0-r1: hu6800cdf
-sci-BIOC/hu6800probe 2.13.0: Probe sequence data for microarrays of type hu6800
-sci-BIOC/hu6800subacdf 2.13.0 2.13.0-r1: hu6800subacdf
+sci-BIOC/hu6800cdf 2.13.0 2.13.0-r1 2.18.0: hu6800cdf
+sci-BIOC/hu6800probe 2.13.0 2.18.0: Probe sequence data for microarrays of type hu6800
+sci-BIOC/hu6800subacdf 2.13.0 2.13.0-r1 2.18.0: hu6800subacdf
 sci-BIOC/hu6800subbcdf 2.13.0 2.13.0-r1 2.18.0: hu6800subbcdf
 sci-BIOC/hu6800subccdf 2.13.0 2.13.0-r1 2.18.0: hu6800subccdf
 sci-BIOC/hu6800subdcdf 2.13.0 2.13.0-r1 2.18.0: hu6800subdcdf
-sci-BIOC/huex_1_0_st_v2frmavecs 1.0.0 1.0.0-r1: Vectors used by frma for microar... (see metadata)
+sci-BIOC/huex_1_0_st_v2frmavecs 1.0.0 1.0.0-r1 1.1.0: Vectors used by frma for microar... (see metadata)
 sci-BIOC/hugene10stprobeset_db 8.0.1: Affymetrix Human Gene 1.0-ST Pro... (see metadata)
 sci-BIOC/hugene10sttranscriptcluster_db 8.0.1: Affymetrix Human Gene 1.0-ST Arr... (see metadata)
-sci-BIOC/hugene10stv1cdf 2.13.0 2.13.0-r1: hugene10stv1cdf
-sci-BIOC/hugene10stv1probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/hugene10stv1cdf 2.13.0 2.13.0-r1 2.18.0: hugene10stv1cdf
+sci-BIOC/hugene10stv1probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/hugene11stprobeset_db 4.0.1: Affymetrix Human Gene 1.1-ST Arr... (see metadata)
 sci-BIOC/hugene11sttranscriptcluster_db 4.0.1: Affymetrix Human Gene 1.1-ST Arr... (see metadata)
 sci-BIOC/hugene20stprobeset_db 2.13.0: Affymetrix hugene20 annotation d... (see metadata)
 sci-BIOC/hugene20sttranscriptcluster_db 2.13.0: Affymetrix hugene20 annotation d... (see metadata)
 sci-BIOC/hugene21stprobeset_db 2.13.0: Affymetrix hugene21 annotation d... (see metadata)
 sci-BIOC/hugene21sttranscriptcluster_db 2.13.0: Affymetrix hugene21 annotation d... (see metadata)
-sci-BIOC/hugene_1_0_st_v1frmavecs 1.0.0 1.0.0-r1: Vectors used by frma for microar... (see metadata)
+sci-BIOC/hugene_1_0_st_v1frmavecs 1.0.0 1.0.0-r1 1.1.0: Vectors used by frma for microar... (see metadata)
 sci-BIOC/human1mduov3bCrlmm 1.0.4 1.0.4-r1: Metadata for fast genotyping wit... (see metadata)
 sci-BIOC/human1mv1cCrlmm 1.0.3 1.0.3-r1: Metadata for fast genotyping wit... (see metadata)
 sci-BIOC/human370quadv3cCrlmm 1.0.3 1.0.3-r1: Metadata for fast genotyping wit... (see metadata)
@@ -1022,8 +1023,8 @@ sci-BIOC/maanova 1.32.0 1.32.0-r1 1.33.2: Tools for analyzing Micro Array experi
 sci-BIOC/macat 1.36.0: MicroArray Chromosome Analysis Tool
 sci-BIOC/made4 1.36.1: Multivariate analysis of microar... (see metadata)
 sci-BIOC/maigesPack 1.26.0: Functions to handle cDNA microar... (see metadata)
-sci-BIOC/maizecdf 2.13.0 2.13.0-r1: maizecdf
-sci-BIOC/maizeprobe 2.13.0: Probe sequence data for microarrays of type maize
+sci-BIOC/maizecdf 2.13.0 2.13.0-r1 2.18.0: maizecdf
+sci-BIOC/maizeprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type maize
 sci-BIOC/makecdfenv 1.38.0: CDF Environment Maker
 sci-BIOC/malaria_db0 2.10.1 3.2.3: Base Level Annotation databases for malaria
 sci-BIOC/mammaPrintData 0.99.9: RGLists from the Glas and Buyse ... (see metadata)
@@ -1034,7 +1035,7 @@ sci-BIOC/maskBAD 1.6.0: Masking probes with binding affinity differences
 sci-BIOC/matchBox 1.4.0 1.4.0-r1: Utilities to compute, compare, a... (see metadata)
 sci-BIOC/mcaGUI 1.10.0: Microbial Community Analysis GUI
 sci-BIOC/mdqc 1.24.0 1.24.0-r1: Mahalanobis Distance Quality Con... (see metadata)
-sci-BIOC/medicagocdf 2.13.0 2.13.0-r1: medicagocdf
+sci-BIOC/medicagocdf 2.13.0 2.13.0-r1 2.18.0: medicagocdf
 sci-BIOC/medicagoprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/metaArray 1.40.0: Integration of Microarray Data for Meta-analysis
 sci-BIOC/metaSeq 1.2.2: Meta-analysis of RNA-Seq count d... (see metadata)
@@ -1047,22 +1048,22 @@ sci-BIOC/methylumi 2.8.0: Handle Illumina methylation data
 sci-BIOC/mgsa 1.10.0: Model-based gene set analysis
 sci-BIOC/mgu74a_db 2.10.1: Affymetrix Murine Genome U74v2 a... (see metadata)
 sci-BIOC/mgu74acdf 2.13.0 2.13.0-r1 2.18.0: mgu74acdf
-sci-BIOC/mgu74aprobe 2.13.0: Probe sequence data for microarrays of type mgu74a
+sci-BIOC/mgu74aprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type mgu74a
 sci-BIOC/mgu74av2_db 2.10.1: Affymetrix Murine Genome U74v2 a... (see metadata)
 sci-BIOC/mgu74av2cdf 2.13.0 2.13.0-r1 2.18.0: mgu74av2cdf
-sci-BIOC/mgu74av2probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/mgu74av2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mgu74b_db 2.10.1: Affymetrix Murine Genome U74v2 a... (see metadata)
-sci-BIOC/mgu74bcdf 2.13.0 2.13.0-r1: mgu74bcdf
-sci-BIOC/mgu74bprobe 2.13.0: Probe sequence data for microarrays of type mgu74b
+sci-BIOC/mgu74bcdf 2.13.0 2.13.0-r1 2.18.0: mgu74bcdf
+sci-BIOC/mgu74bprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type mgu74b
 sci-BIOC/mgu74bv2_db 2.10.1: Affymetrix Murine Genome U74v2 a... (see metadata)
-sci-BIOC/mgu74bv2cdf 2.13.0 2.13.0-r1: mgu74bv2cdf
-sci-BIOC/mgu74bv2probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/mgu74bv2cdf 2.13.0 2.13.0-r1 2.18.0: mgu74bv2cdf
+sci-BIOC/mgu74bv2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mgu74c_db 2.10.1: Affymetrix Murine Genome U74v2 a... (see metadata)
 sci-BIOC/mgu74ccdf 2.13.0 2.13.0-r1 2.18.0: mgu74ccdf
-sci-BIOC/mgu74cprobe 2.13.0: Probe sequence data for microarrays of type mgu74c
+sci-BIOC/mgu74cprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type mgu74c
 sci-BIOC/mgu74cv2_db 2.10.1: Affymetrix Murine Genome U74v2 a... (see metadata)
 sci-BIOC/mgu74cv2cdf 2.13.0 2.13.0-r1 2.18.0: mgu74cv2cdf
-sci-BIOC/mgu74cv2probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/mgu74cv2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mguatlas5k_db 2.10.1: Clontech BD Atlas Long Oligos Mo... (see metadata)
 sci-BIOC/mgug4104a_db 2.10.1: Agilent annotation data (chip mgug4104a)
 sci-BIOC/mgug4120a_db 2.10.1: Agilent annotation data (chip mgug4120a)
@@ -1077,19 +1078,19 @@ sci-BIOC/minfi 1.8.9: Analyze Illuminas 450k methylation arrays
 sci-BIOC/minfiData 0.4.2: Example data for the Illumina Me... (see metadata)
 sci-BIOC/mirbase_db 1.2.0: miRBase: the microRNA database
 sci-BIOC/mirna102xgaincdf 2.13.0 2.13.0-r1 2.18.0: mirna102xgaincdf
-sci-BIOC/mirna10cdf 2.13.0 2.13.0-r1: mirna10cdf
+sci-BIOC/mirna10cdf 2.13.0 2.13.0-r1 2.18.0: mirna10cdf
 sci-BIOC/mirna10probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mirna20cdf 2.13.0 2.13.0-r1 2.18.0: mirna20cdf
 sci-BIOC/mm24kresogen_db 2.5.0: RNG_MRC Mouse Pangenomic 24k Set... (see metadata)
 sci-BIOC/moe430a_db 2.10.1: Affymetrix Mouse Expression Set ... (see metadata)
-sci-BIOC/moe430acdf 2.13.0 2.13.0-r1: moe430acdf
+sci-BIOC/moe430acdf 2.13.0 2.13.0-r1 2.18.0: moe430acdf
 sci-BIOC/moe430aprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/moe430b_db 2.10.1: Affymetrix Mouse Expression Set ... (see metadata)
 sci-BIOC/moe430bcdf 2.13.0 2.13.0-r1 2.18.0: moe430bcdf
-sci-BIOC/moe430bprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/moe430bprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mogene10stprobeset_db 8.0.1: Affymetrix Mouse Gene 1.0-ST Arr... (see metadata)
 sci-BIOC/mogene10sttranscriptcluster_db 8.0.1: Affymetrix Mouse Gene 1.0-ST Arr... (see metadata)
-sci-BIOC/mogene10stv1cdf 2.13.0 2.13.0-r1: mogene10stv1cdf
+sci-BIOC/mogene10stv1cdf 2.13.0 2.13.0-r1 2.18.0: mogene10stv1cdf
 sci-BIOC/mogene10stv1probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mogene11stprobeset_db 4.0.1: Affymetrix Mouse Gene 1.1-ST Arr... (see metadata)
 sci-BIOC/mogene11sttranscriptcluster_db 4.0.1: Affymetrix Mouse Gene 1.1-ST Arr... (see metadata)
@@ -1097,18 +1098,18 @@ sci-BIOC/mogene20stprobeset_db 2.13.0: Affymetrix mogene20 annotation d... (see 
 sci-BIOC/mogene20sttranscriptcluster_db 2.13.0: Affymetrix mogene20 annotation d... (see metadata)
 sci-BIOC/mogene21stprobeset_db 2.13.0: Affymetrix mogene21 annotation d... (see metadata)
 sci-BIOC/mogene21sttranscriptcluster_db 2.13.0: Affymetrix mogene21 annotation d... (see metadata)
-sci-BIOC/mogene_1_0_st_v1frmavecs 1.0.0 1.0.0-r1: Vectors used by frma for microar... (see metadata)
+sci-BIOC/mogene_1_0_st_v1frmavecs 1.0.0 1.0.0-r1 1.1.0: Vectors used by frma for microar... (see metadata)
 sci-BIOC/mosaics 1.10.1: MOSAiCS (MOdel-based one and two... (see metadata)
 sci-BIOC/mosaicsExample 0.99.9 0.99.9-r1: Example data for the mosaics pac... (see metadata)
 sci-BIOC/motifStack 1.6.5: Plot stacked logos for single or... (see metadata)
 sci-BIOC/mouse4302_db 2.10.1: Affymetrix Mouse Genome 430 2.0 ... (see metadata)
 sci-BIOC/mouse4302barcodevecs 1.0.7 1.0.7-r1: mouse4302 data for barcode
-sci-BIOC/mouse4302cdf 2.13.0 2.13.0-r1: mouse4302cdf
-sci-BIOC/mouse4302frmavecs 1.3.0 1.3.0-r1: Vectors used by frma for microar... (see metadata)
-sci-BIOC/mouse4302probe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/mouse4302cdf 2.13.0 2.13.0-r1 2.18.0: mouse4302cdf
+sci-BIOC/mouse4302frmavecs 1.3.0 1.3.0-r1 1.5.0: Vectors used by frma for microar... (see metadata)
+sci-BIOC/mouse4302probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mouse430a2_db 2.10.1: Affymetrix Mouse Genome 430A 2.0... (see metadata)
 sci-BIOC/mouse430a2cdf 2.13.0 2.13.0-r1 2.18.0: mouse430a2cdf
-sci-BIOC/mouse430a2frmavecs 1.1.0 1.1.0-r1: Vectors used by frma for microar... (see metadata)
+sci-BIOC/mouse430a2frmavecs 1.1.0 1.1.0-r1 1.3.0: Vectors used by frma for microar... (see metadata)
 sci-BIOC/mouse430a2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mouseCHRLOC 2.1.6 2.1.6-r1: A data package containing annota... (see metadata)
 sci-BIOC/mouse_db0 2.10.1 3.2.4: Base Level Annotation databases for mouse
@@ -1117,21 +1118,21 @@ sci-BIOC/msdata 0.1.15: Various Mass Spectrometry raw data example files
 sci-BIOC/msmsEDA 1.0.0: Exploratory Data Analysis of LC-... (see metadata)
 sci-BIOC/msmsTests 1.0.0: LC-MS/MS Differential Expression Tests
 sci-BIOC/mu11ksuba_db 2.10.1: Affymetrix Murine 11K Set annota... (see metadata)
-sci-BIOC/mu11ksubacdf 2.13.0 2.13.0-r1: mu11ksubacdf
-sci-BIOC/mu11ksubaprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/mu11ksubacdf 2.13.0 2.13.0-r1 2.18.0: mu11ksubacdf
+sci-BIOC/mu11ksubaprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mu11ksubb_db 2.10.1: Affymetrix Murine 11K Set annota... (see metadata)
-sci-BIOC/mu11ksubbcdf 2.13.0 2.13.0-r1: mu11ksubbcdf
-sci-BIOC/mu11ksubbprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/mu11ksubbcdf 2.13.0 2.13.0-r1 2.18.0: mu11ksubbcdf
+sci-BIOC/mu11ksubbprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/mu19ksuba_db 2.10.1: Affymetrix Murine Genome 19k Set... (see metadata)
 sci-BIOC/mu19ksubacdf 2.13.0 2.13.0-r1 2.18.0: mu19ksubacdf
 sci-BIOC/mu19ksubb_db 2.10.1: Affymetrix Murine Genome 19k Set... (see metadata)
 sci-BIOC/mu19ksubbcdf 2.13.0 2.13.0-r1 2.18.0: mu19ksubbcdf
 sci-BIOC/mu19ksubc_db 2.10.1: Affymetrix Murine Genome 19k Set... (see metadata)
 sci-BIOC/mu19ksubccdf 2.13.0 2.13.0-r1 2.18.0: mu19ksubccdf
-sci-BIOC/mu6500subacdf 2.13.0 2.13.0-r1: mu6500subacdf
-sci-BIOC/mu6500subbcdf 2.13.0 2.13.0-r1: mu6500subbcdf
+sci-BIOC/mu6500subacdf 2.13.0 2.13.0-r1 2.18.0: mu6500subacdf
+sci-BIOC/mu6500subbcdf 2.13.0 2.13.0-r1 2.18.0: mu6500subbcdf
 sci-BIOC/mu6500subccdf 2.13.0 2.13.0-r1 2.18.0: mu6500subccdf
-sci-BIOC/mu6500subdcdf 2.13.0 2.13.0-r1: mu6500subdcdf
+sci-BIOC/mu6500subdcdf 2.13.0 2.13.0-r1 2.18.0: mu6500subdcdf
 sci-BIOC/multiscan 1.22.0 1.22.0-r1: R package for combining multiple scans
 sci-BIOC/multtest 2.18.0 2.18.0-r1: Resampling-based multiple hypothesis testing
 sci-BIOC/mvoutData 0.99.11: affy and illumina raw data for a... (see metadata)
@@ -1146,10 +1147,10 @@ sci-BIOC/nucleR 1.10.0: Nucleosome positioning package for R
 sci-BIOC/nudge 1.28.0 1.28.0-r1: Normal Uniform Differential Gene... (see metadata)
 sci-BIOC/nugohs1a520180_db 2.8.0: Affymetrix nugohs1a520180 annota... (see metadata)
 sci-BIOC/nugohs1a520180cdf 2.8.0 2.8.0-r1 3.4.0: nugohs1a520180cdf
-sci-BIOC/nugohs1a520180probe 2.8.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/nugohs1a520180probe 2.8.0 3.4.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/nugomm1a520177_db 2.8.0: Affymetrix nugomm1a520177 annota... (see metadata)
-sci-BIOC/nugomm1a520177cdf 2.8.0 2.8.0-r1: nugomm1a520177cdf
-sci-BIOC/nugomm1a520177probe 2.8.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/nugomm1a520177cdf 2.8.0 2.8.0-r1 3.4.0: nugomm1a520177cdf
+sci-BIOC/nugomm1a520177probe 2.8.0 3.4.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/occugene 1.22.0 1.22.0-r1: Functions for Multinomial Occupancy Distribution
 sci-BIOC/oligo 1.26.6: Preprocessing tools for oligonucleotide arrays.
 sci-BIOC/oligoClasses 1.24.0: Classes for high-throughput arra... (see metadata)
@@ -1180,8 +1181,8 @@ sci-BIOC/org_Tgondii_eg_db 1.0: Genome wide annotation for Toxoplasma gondii
 sci-BIOC/org_Xl_eg_db 2.10.1: Genome wide annotation for Xenopus
 sci-BIOC/pRoloc 1.2.1: A unifying bioinformatics framew... (see metadata)
 sci-BIOC/pRolocdata 1.0.3: Data accompanying the pRoloc package
-sci-BIOC/paeg1acdf 2.13.0 2.13.0-r1: paeg1acdf
-sci-BIOC/paeg1aprobe 2.13.0: Probe sequence data for microarrays of type paeg1a
+sci-BIOC/paeg1acdf 2.13.0 2.13.0-r1 2.18.0: paeg1acdf
+sci-BIOC/paeg1aprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type paeg1a
 sci-BIOC/panp 1.32.0: Presence-Absence Calls from Nega... (see metadata)
 sci-BIOC/parathyroid 0.99.8: RNA-Seq data of primary cultures... (see metadata)
 sci-BIOC/parathyroidSE 1.0.4: SummarizedExperiment for RNA-Seq... (see metadata)
@@ -1276,7 +1277,7 @@ sci-BIOC/pd_mg_u74cv2 1.10.0: Platform Design Info for The Man... (see metadata)
 sci-BIOC/pd_mirna_1_0 1.10.0: Platform Design Info for The Man... (see metadata)
 sci-BIOC/pd_mirna_2_0 3.8.0: Platform Design Info for Affymetrix miRNA-2_0
 sci-BIOC/pd_mirna_3_0 3.8.0: Platform Design Info for Affymetrix miRNA-3_0
-sci-BIOC/pd_mirna_3_1 3.8.0: Platform Design Info for Affymetrix miRNA-3_1
+sci-BIOC/pd_mirna_3_1 3.8.0 3.8.1: Platform Design Info for Affymetrix miRNA-3_1
 sci-BIOC/pd_moe430a 1.10.0: Platform Design Info for The Man... (see metadata)
 sci-BIOC/pd_moe430b 1.10.0: Platform Design Info for The Man... (see metadata)
 sci-BIOC/pd_moex_1_0_st_v1 3.8.0: Platform Design Info for Affymetrix MoEx-1_0-st-v1
@@ -1339,18 +1340,18 @@ sci-BIOC/phenoTest 1.10.0: Tools to test association betwee... (see metadata)
 sci-BIOC/phyloseq 1.6.1: Handling and analysis of high-th... (see metadata)
 sci-BIOC/piano 1.2.11 1.2.12: Platform for integrative analysis of omics data
 sci-BIOC/pickgene 1.34.0 1.34.0-r1: Adaptive Gene Picking for Microa... (see metadata)
-sci-BIOC/pig_db0 2.10.1: Base Level Annotation databases for pig
+sci-BIOC/pig_db0 2.10.1 3.2.3: Base Level Annotation databases for pig
 sci-BIOC/pint 1.14.0 1.14.0-r1: Pairwise INTegration of functional genomics data
 sci-BIOC/pkgDepTools 1.28.0: Package Dependency Tools
-sci-BIOC/plasmodiumanophelescdf 2.13.0 2.13.0-r1: plasmodiumanophelescdf
-sci-BIOC/plasmodiumanophelesprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/plasmodiumanophelescdf 2.13.0 2.13.0-r1 2.18.0: plasmodiumanophelescdf
+sci-BIOC/plasmodiumanophelesprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/plateCore 1.20.0: Statistical tools and data struc... (see metadata)
 sci-BIOC/plethy 1.0.0: R framework for exploration and ... (see metadata)
 sci-BIOC/plgem 1.34.0 1.34.0-r1: Detect differential expression i... (see metadata)
 sci-BIOC/plier 1.32.0: Implements the Affymetrix PLIER algorithm
 sci-BIOC/plrs 1.2.0: Piecewise Linear Regression Spli... (see metadata)
 sci-BIOC/plw 1.22.0: Probe level Locally moderated Weighted t-tests.
-sci-BIOC/poplarcdf 2.13.0 2.13.0-r1: poplarcdf
+sci-BIOC/poplarcdf 2.13.0 2.13.0-r1 2.18.0: poplarcdf
 sci-BIOC/poplarprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type poplar
 sci-BIOC/porcine_db 2.10.1: Affymetrix porcine annotation data (chip porcine)
 sci-BIOC/porcinecdf 2.13.0 2.13.0-r1 2.18.0: porcinecdf
@@ -1361,8 +1362,8 @@ sci-BIOC/prebs 1.2.1: Probe region expression estimati... (see metadata)
 sci-BIOC/prebsdata 0.99.5 0.99.5-r1: Data for prebs package
 sci-BIOC/predictionet 1.8.0: Inference for predictive network... (see metadata)
 sci-BIOC/preprocessCore 1.24.0 1.24.0-r1: A collection of pre-processing functions
-sci-BIOC/primeviewcdf 2.13.0 2.13.0-r1: primeviewcdf
-sci-BIOC/primeviewprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/primeviewcdf 2.13.0 2.13.0-r1 2.18.0: primeviewcdf
+sci-BIOC/primeviewprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/procoil 1.12.0 1.12.0-r1: Prediction of Oligomerization of... (see metadata)
 sci-BIOC/prot2D 1.0.0: Statistical Tools for volume dat... (see metadata)
 sci-BIOC/proteinProfiles 1.2.0 1.2.0-r1: Protein Profiling
@@ -1386,14 +1387,14 @@ sci-BIOC/rSFFreader 0.10.0: rSFFreader reads in sff files ge... (see metadata)
 sci-BIOC/rTRM 1.0.5: Identification of transcriptiona... (see metadata)
 sci-BIOC/rTRMui 1.0.4: A shiny user interface for rTRM
 sci-BIOC/rae230a_db 2.10.1: Affymetrix Rat Expression Set 23... (see metadata)
-sci-BIOC/rae230acdf 2.13.0 2.13.0-r1: rae230acdf
+sci-BIOC/rae230acdf 2.13.0 2.13.0-r1 2.18.0: rae230acdf
 sci-BIOC/rae230aprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/rae230b_db 2.10.1: Affymetrix Rat Expression Set 23... (see metadata)
-sci-BIOC/rae230bcdf 2.13.0 2.13.0-r1: rae230bcdf
+sci-BIOC/rae230bcdf 2.13.0 2.13.0-r1 2.18.0: rae230bcdf
 sci-BIOC/rae230bprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/ragene10stprobeset_db 7.0.1: Affymetrix Rat Gene 1.0-ST Array... (see metadata)
 sci-BIOC/ragene10sttranscriptcluster_db 7.0.1: Affymetrix Rat Gene 1.0-ST Array... (see metadata)
-sci-BIOC/ragene10stv1cdf 2.13.0 2.13.0-r1: ragene10stv1cdf
+sci-BIOC/ragene10stv1cdf 2.13.0 2.13.0-r1 2.18.0: ragene10stv1cdf
 sci-BIOC/ragene10stv1probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/ragene11stprobeset_db 4.0.1: Affymetrix Rat Gene 1.1-ST Array... (see metadata)
 sci-BIOC/ragene11sttranscriptcluster_db 4.0.1: Affymetrix Rat Gene 1.1-ST Array... (see metadata)
@@ -1404,19 +1405,19 @@ sci-BIOC/ragene21sttranscriptcluster_db 2.13.0: Affymetrix ragene21 annotation d
 sci-BIOC/rama 1.36.0 1.36.0-r1: Robust Analysis of MicroArrays
 sci-BIOC/randPack 1.8.0 1.8.0-r1: Randomization routines for Clinical Trials
 sci-BIOC/rat2302_db 2.10.1: Affymetrix Rat Genome 230 2.0 Ar... (see metadata)
-sci-BIOC/rat2302cdf 2.13.0 2.13.0-r1: rat2302cdf
+sci-BIOC/rat2302cdf 2.13.0 2.13.0-r1 2.18.0: rat2302cdf
 sci-BIOC/rat2302probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/ratCHRLOC 2.1.6 2.1.6-r1: A data package containing annota... (see metadata)
-sci-BIOC/rat_db0 2.10.1: Base Level Annotation databases for rat
-sci-BIOC/rattoxfxcdf 2.13.0 2.13.0-r1: rattoxfxcdf
+sci-BIOC/rat_db0 2.10.1 3.2.4: Base Level Annotation databases for rat
+sci-BIOC/rattoxfxcdf 2.13.0 2.13.0-r1 2.18.0: rattoxfxcdf
 sci-BIOC/rattoxfxprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/rbsurv 2.20.0 2.20.0-r1: Robust likelihood-based survival... (see metadata)
-sci-BIOC/reactome_db 1.46.1: A set of annotation maps for reactome
+sci-BIOC/reactome_db 1.46.1 1.54.1: A set of annotation maps for reactome
 sci-BIOC/reb 1.40.0: Regional Expression Biases
 sci-BIOC/rfPred 1.0.0: Assign rfPred functional predict... (see metadata)
 sci-BIOC/rgu34a_db 2.10.1: Affymetrix Rat Genome U34 Set an... (see metadata)
 sci-BIOC/rgu34acdf 2.13.0 2.13.0-r1 2.18.0: rgu34acdf
-sci-BIOC/rgu34aprobe 2.13.0: Probe sequence data for microarrays of type rgu34a
+sci-BIOC/rgu34aprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type rgu34a
 sci-BIOC/rgu34b_db 2.10.1: Affymetrix Rat Genome U34 Set an... (see metadata)
 sci-BIOC/rgu34bcdf 2.13.0 2.13.0-r1 2.18.0: rgu34bcdf
 sci-BIOC/rgu34bprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type rgu34b
@@ -1430,27 +1431,27 @@ sci-BIOC/rgug4131a_db 2.10.1: Agilent Rat Genome, Whole annota... (see metadata)
 sci-BIOC/rhdf5 2.6.0: HDF5 interface to R
 sci-BIOC/rhesus_db0 2.10.1 3.2.3: Base Level Annotation databases for rhesus
 sci-BIOC/rhesuscdf 2.13.0 2.13.0-r1 2.18.0: rhesuscdf
-sci-BIOC/rhesusprobe 2.13.0: Probe sequence data for microarrays of type rhesus
+sci-BIOC/rhesusprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type rhesus
 sci-BIOC/rheumaticConditionWOLLBOLD 1.0.4 1.0.4-r1: Normalized gene expression datas... (see metadata)
 sci-BIOC/ri16cod_db 2.17.0: Codelink Rat Inflammation 16 Bio... (see metadata)
-sci-BIOC/ricecdf 2.13.0 2.13.0-r1: ricecdf
-sci-BIOC/riceprobe 2.13.0: Probe sequence data for microarrays of type rice
+sci-BIOC/ricecdf 2.13.0 2.13.0-r1 2.18.0: ricecdf
+sci-BIOC/riceprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type rice
 sci-BIOC/rnaSeqMap 2.18.0: rnaSeq secondary analyses
 sci-BIOC/rnu34_db 2.10.1: Affymetrix Rat Neurobiology U34 ... (see metadata)
-sci-BIOC/rnu34cdf 2.13.0 2.13.0-r1: rnu34cdf
+sci-BIOC/rnu34cdf 2.13.0 2.13.0-r1 2.18.0: rnu34cdf
 sci-BIOC/rnu34probe 2.13.0 2.18.0: Probe sequence data for microarrays of type rnu34
 sci-BIOC/rols 1.4.0: An R interface to the Ontology Lookup Service
 sci-BIOC/rqubic 1.8.0: Qualitative biclustering algorit... (see metadata)
 sci-BIOC/rtracklayer 1.22.6 1.22.7: R interface to genome browsers a... (see metadata)
 sci-BIOC/rtu34_db 2.10.1: Affymetrix Rat Toxicology U34 Ar... (see metadata)
-sci-BIOC/rtu34cdf 2.13.0 2.13.0-r1: rtu34cdf
+sci-BIOC/rtu34cdf 2.13.0 2.13.0-r1 2.18.0: rtu34cdf
 sci-BIOC/rtu34probe 2.13.0 2.18.0: Probe sequence data for microarrays of type rtu34
 sci-BIOC/rwgcod_db 2.17.0: Codelink Rat Whole Genome Bioarr... (see metadata)
 sci-BIOC/sRAP 1.4.0: Simplified RNA-Seq Analysis Pipeline
 sci-BIOC/sSeq 1.0.0: Shrinkage estimation of dispersi... (see metadata)
 sci-BIOC/safe 3.2.0: Significance Analysis of Function and Expression
 sci-BIOC/sagenhaft 1.32.0: Collection of functions for read... (see metadata)
-sci-BIOC/saureuscdf 2.13.0 2.13.0-r1: saureuscdf
+sci-BIOC/saureuscdf 2.13.0 2.13.0-r1 2.18.0: saureuscdf
 sci-BIOC/saureusprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/segmentSeq 1.14.0: Methods for identifying small RN... (see metadata)
 sci-BIOC/seqCNA_annot 0.99.1 0.99.1-r1: Annotation for the copy number a... (see metadata)
@@ -1468,8 +1469,8 @@ sci-BIOC/sizepower 1.32.0 1.32.0-r1: Sample Size and Power Calculatio... (see me
 sci-BIOC/snapCGH 1.32.0: Segmentation, normalisation and ... (see metadata)
 sci-BIOC/snm 1.10.2: Supervised Normalization of Microarrays
 sci-BIOC/snpStats 1.12.0 1.12.0-r1: SnpMatrix and XSnpMatrix classes and methods
-sci-BIOC/soybeancdf 2.13.0 2.13.0-r1: soybeancdf
-sci-BIOC/soybeanprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/soybeancdf 2.13.0 2.13.0-r1 2.18.0: soybeancdf
+sci-BIOC/soybeanprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/spade 1.10.2: SPADE -- An analysis and visuali... (see metadata)
 sci-BIOC/spikeLI 2.22.0 2.22.0-r1: Affymetrix Spike-in Langmuir Iso... (see metadata)
 sci-BIOC/spkTools 1.18.0: Methods for Spike-in Arrays
@@ -1485,8 +1486,8 @@ sci-BIOC/stemHypoxia 0.99.4 0.99.4-r1: Differentiation of Human Embryon... (see 
 sci-BIOC/stepNorm 1.34.0 1.34.0-r1: Stepwise normalization functions... (see metadata)
 sci-BIOC/stepwiseCM 1.8.0: Stepwise Classification of Cance... (see metadata)
 sci-BIOC/stjudem 1.2.10 1.2.10-r1: Microarray Data from Yeoh et al. in MACAT format
-sci-BIOC/sugarcanecdf 2.13.0 2.13.0-r1: sugarcanecdf
-sci-BIOC/sugarcaneprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/sugarcanecdf 2.13.0 2.13.0-r1 2.18.0: sugarcanecdf
+sci-BIOC/sugarcaneprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/supraHex 1.0.0 1.0.0-r1: A supra-hexagonal map for analys... (see metadata)
 sci-BIOC/survcomp 1.12.0: Performance Assessment and Compa... (see metadata)
 sci-BIOC/sva 3.8.0: Surrogate Variable Analysis
@@ -1496,18 +1497,18 @@ sci-BIOC/tRanslatome 1.0.0: Comparison between multiple leve... (see metadata)
 sci-BIOC/targetscan_Hs_eg_db 0.6.1: TargetScan miRNA target predictions for human
 sci-BIOC/targetscan_Mm_eg_db 0.6.1: TargetScan miRNA target predictions for mouse
 sci-BIOC/ternarynet 1.6.0 1.6.0-r1: Ternary Network Estimation
-sci-BIOC/test1cdf 2.13.0 2.13.0-r1: test1cdf
-sci-BIOC/test2cdf 2.13.0 2.13.0-r1: test2cdf
-sci-BIOC/test3cdf 2.13.0 2.13.0-r1: test3cdf
-sci-BIOC/test3probe 2.13.0: Probe sequence data for microarrays of type test3
+sci-BIOC/test1cdf 2.13.0 2.13.0-r1 2.18.0: test1cdf
+sci-BIOC/test2cdf 2.13.0 2.13.0-r1 2.18.0: test2cdf
+sci-BIOC/test3cdf 2.13.0 2.13.0-r1 2.18.0: test3cdf
+sci-BIOC/test3probe 2.13.0 2.18.0: Probe sequence data for microarrays of type test3
 sci-BIOC/tigre 1.16.1: Transcription factor Inference t... (see metadata)
 sci-BIOC/tilingArray 1.40.0: Transcript mapping with high-den... (see metadata)
 sci-BIOC/timecourse 1.34.0: Statistical Analysis for Develop... (see metadata)
 sci-BIOC/tinesath1cdf 1.0.10 1.0.10-r1: tinesath1cdf
 sci-BIOC/tinesath1probe 1.0.10: Probe sequence data for microarr... (see metadata)
 sci-BIOC/tkWidgets 1.40.0: R based tk widgets
-sci-BIOC/tomatocdf 2.13.0 2.13.0-r1: tomatocdf
-sci-BIOC/tomatoprobe 2.13.0: Probe sequence data for microarrays of type tomato
+sci-BIOC/tomatocdf 2.13.0 2.13.0-r1 2.18.0: tomatocdf
+sci-BIOC/tomatoprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type tomato
 sci-BIOC/topGO 2.14.0: topGO: Enrichment analysis for Gene Ontology
 sci-BIOC/triform 1.4.0: Triform finds enriched regions (... (see metadata)
 sci-BIOC/trigger 1.8.0: Transcriptional Regulatory Infer... (see metadata)
@@ -1517,14 +1518,14 @@ sci-BIOC/tspair 1.20.0 1.20.0-r1: Top Scoring Pairs for Microarray Classificatio
 sci-BIOC/tweeDEseq 1.8.0: RNA-seq data analysis using the ... (see metadata)
 sci-BIOC/tweeDEseqCountData 1.0.10 1.0.10-r1: RNA-seq count data employed in t... (see metadata)
 sci-BIOC/twilight 1.38.0: Estimation of local false discovery rate
-sci-BIOC/u133aaofav2cdf 2.13.0 2.13.0-r1: u133aaofav2cdf
+sci-BIOC/u133aaofav2cdf 2.13.0 2.13.0-r1 2.18.0: u133aaofav2cdf
 sci-BIOC/u133x3p_db 2.10.1: Affymetrix Human X3P Array annot... (see metadata)
-sci-BIOC/u133x3pcdf 2.13.0 2.13.0-r1: u133x3pcdf
-sci-BIOC/u133x3pprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/u133x3pcdf 2.13.0 2.13.0-r1 2.18.0: u133x3pcdf
+sci-BIOC/u133x3pprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/vbmp 1.30.0 1.30.0-r1: Variational Bayesian Multinomial Probit Regression
 sci-BIOC/virtualArray 1.6.0: Build virtual array from differe... (see metadata)
-sci-BIOC/vitisviniferacdf 2.13.0 2.13.0-r1: vitisviniferacdf
-sci-BIOC/vitisviniferaprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/vitisviniferacdf 2.13.0 2.13.0-r1 2.18.0: vitisviniferacdf
+sci-BIOC/vitisviniferaprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/vsn 3.30.0: Variance stabilization and calib... (see metadata)
 sci-BIOC/vtpnet 0.2.0: variant-transcription factor-phenotype networks
 sci-BIOC/wateRmelon 1.2.2: Illumina 450 methylation array n... (see metadata)
@@ -1532,43 +1533,43 @@ sci-BIOC/waveTiling 1.4.0: Wavelet-Based Models for Tiling ... (see metadata)
 sci-BIOC/waveTilingData 0.99.3 0.99.3-r1: waveTiling Example Data
 sci-BIOC/weaver 1.28.0: Tools and extensions for process... (see metadata)
 sci-BIOC/webbioc 1.34.0: Bioconductor Web Interface
-sci-BIOC/wheatcdf 2.13.0 2.13.0-r1: wheatcdf
+sci-BIOC/wheatcdf 2.13.0 2.13.0-r1 2.18.0: wheatcdf
 sci-BIOC/wheatprobe 2.13.0 2.18.0: Probe sequence data for microarrays of type wheat
 sci-BIOC/widgetTools 1.40.0 1.40.0-r1: Creates an interactive tcltk widget
-sci-BIOC/worm_db0 2.10.1: Base Level Annotation databases for worm
+sci-BIOC/worm_db0 2.10.1 3.2.3: Base Level Annotation databases for worm
 sci-BIOC/xcms 1.38.0: LC/MS and GC/MS Data Analysis
 sci-BIOC/xenopus_db0 2.10.1 3.2.3: Base Level Annotation databases for xenopus
 sci-BIOC/xenopuslaeviscdf 2.13.0 2.13.0-r1 2.18.0: xenopuslaeviscdf
-sci-BIOC/xenopuslaevisprobe 2.13.0: Probe sequence data for microarr... (see metadata)
-sci-BIOC/xlaevis2cdf 2.13.0 2.13.0-r1: xlaevis2cdf
+sci-BIOC/xenopuslaevisprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/xlaevis2cdf 2.13.0 2.13.0-r1 2.18.0: xlaevis2cdf
 sci-BIOC/xlaevis2probe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/xlaevis_db 2.10.1: Affymetrix Xenopus laevis annota... (see metadata)
 sci-BIOC/xmapbridge 1.20.0: Export plotting files to the xma... (see metadata)
 sci-BIOC/xtropicaliscdf 2.13.0 2.13.0-r1 2.18.0: xtropicaliscdf
-sci-BIOC/xtropicalisprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/xtropicalisprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/yaqcaffy 1.22.0: Affymetrix expression data quali... (see metadata)
 sci-BIOC/ye6100subacdf 2.13.0 2.13.0-r1 2.18.0: ye6100subacdf
-sci-BIOC/ye6100subbcdf 2.13.0 2.13.0-r1: ye6100subbcdf
-sci-BIOC/ye6100subccdf 2.13.0 2.13.0-r1: ye6100subccdf
-sci-BIOC/ye6100subdcdf 2.13.0 2.13.0-r1: ye6100subdcdf
+sci-BIOC/ye6100subbcdf 2.13.0 2.13.0-r1 2.18.0: ye6100subbcdf
+sci-BIOC/ye6100subccdf 2.13.0 2.13.0-r1 2.18.0: ye6100subccdf
+sci-BIOC/ye6100subdcdf 2.13.0 2.13.0-r1 2.18.0: ye6100subdcdf
 sci-BIOC/yeast2_db 2.10.1: Affymetrix Yeast Genome 2.0 Arra... (see metadata)
 sci-BIOC/yeast2cdf 2.13.0 2.13.0-r1 2.18.0: yeast2cdf
-sci-BIOC/yeast2probe 2.13.0: Probe sequence data for microarrays of type yeast2
+sci-BIOC/yeast2probe 2.13.0 2.18.0: Probe sequence data for microarrays of type yeast2
 sci-BIOC/yeastCC 1.2.20 1.2.20-r1: Spellman et al. (1998) and Prami... (see metadata)
 sci-BIOC/yeastExpData 0.9.24 0.9.24-r1: Yeast Experimental Data
 sci-BIOC/yeastGSData 0.1.11 0.1.11-r1: Yeast Gold Standard Data
 sci-BIOC/yeastNagalakshmi 0.99.7 0.99.7-r1: Yeast genome RNA sequencing data... (see metadata)
 sci-BIOC/yeastRNASeq 0.0.10: Yeast RNA-Seq Experimental Data ... (see metadata)
-sci-BIOC/yeast_db0 2.10.1: Base Level Annotation databases for yeast
+sci-BIOC/yeast_db0 2.10.1 3.2.4: Base Level Annotation databases for yeast
 sci-BIOC/ygs98_db 2.10.1: Affymetrix Yeast Genome S98 Arra... (see metadata)
-sci-BIOC/ygs98cdf 2.13.0 2.13.0-r1: ygs98cdf
-sci-BIOC/ygs98frmavecs 1.1.0 1.1.0-r1: Vectors used by frma for microarrays of type ygs98
+sci-BIOC/ygs98cdf 2.13.0 2.13.0-r1 2.18.0: ygs98cdf
+sci-BIOC/ygs98frmavecs 1.1.0 1.1.0-r1 1.3.0: Vectors used by frma for microarrays of type ygs98
 sci-BIOC/ygs98probe 2.13.0 2.18.0: Probe sequence data for microarrays of type ygs98
 sci-BIOC/yri1kgv 0.5.2: expression + genotype on 79 unre... (see metadata)
 sci-BIOC/zebrafish_db 2.10.1: Affymetrix zebrafish annotation ... (see metadata)
 sci-BIOC/zebrafish_db0 2.10.1 3.2.4: Base Level Annotation databases for zebrafish
 sci-BIOC/zebrafishcdf 2.13.0 2.13.0-r1 2.18.0: zebrafishcdf
-sci-BIOC/zebrafishprobe 2.13.0: Probe sequence data for microarr... (see metadata)
+sci-BIOC/zebrafishprobe 2.13.0 2.18.0: Probe sequence data for microarr... (see metadata)
 sci-BIOC/zlibbioc 1.8.0 1.8.0-r1: An R packaged zlib-1.2.5
 sci-CRAN/A3 0.9.2 1.0.0: Accurate, Adaptable, and Accessi... (see metadata)
 sci-CRAN/ABCExtremes 1.0: ABC Extremes
@@ -1676,7 +1677,7 @@ sci-CRAN/BACprior 1.2.1 1.2.1-r1 2.0: Choice of the Hyperparameter Ome... (see m
 sci-CRAN/BAEssd 1.0.1 1.0.1-r1: Bayesian Average Error approach ... (see metadata)
 sci-CRAN/BAMMtools 1.0.1 2.0.2 2.0.4 2.0.5 2.0.6: Analysis and Visualization of Ma... (see metadata)
 sci-CRAN/BANFF 0.1 0.2 0.3 1.0: Bayesian Network Feature Finder
-sci-CRAN/BAS 1.0 1.0-r1 1.0.5: Bayesian Model Averaging using B... (see metadata)
+sci-CRAN/BAS 1.0 1.0-r1 1.0.5 1.0.6: Bayesian Model Averaging using B... (see metadata)
 sci-CRAN/BASIX 1.1 1.1-r1: BASIX: An efficient C/C++ toolset for R.
 sci-CRAN/BAT 1.0 1.0.1 1.1 1.2 1.2.1 1.3.0 1.3.1 1.4.0: Biodiversity Assessment Tools
 sci-CRAN/BAYSTAR 0.2.9 0.2.9-r1: On Bayesian analysis of Threshol... (see metadata)
@@ -1790,6 +1791,7 @@ sci-CRAN/BioGeoBEARS 0.2.1 0.2.1-r1: BioGeography with Bayesian (and ... (see me
 sci-CRAN/BioMark 0.4.1 0.4.2 0.4.5: Find Biomarkers in Two-Class Dis... (see metadata)
 sci-CRAN/BioPhysConnectoR 1.6.10: BioPhysConnectoR
 sci-CRAN/BioStatR 1.0.4 1.0.4-r1 2.0.0: Initiation la Statistique avec R
+sci-CRAN/Biocomb 0.1: Feature Selection and Classifica... (see metadata)
 sci-CRAN/Biodem 0.3 0.3-r1 0.4: Biodemography Functions
 sci-CRAN/BiodiversityR 2.4.1 2.4.4 2.5.1 2.5.2 2.5.3 2.5.4: Package for Community Ecology an... (see metadata)
 sci-CRAN/Biograph 2.0.4: Explore life histories
@@ -1933,7 +1935,7 @@ sci-CRAN/Claddis 0.1: Measuring Morphological Diversit... (see metadata)
 sci-CRAN/ClamR 2.1.1: Time Series Modeling for Climate Change Proxies
 sci-CRAN/ClickClust 0.1.1 1.1.2 1.1.3 1.1.4: Model-Based Clustering of Categorical Sequences
 sci-CRAN/ClimClass 1.0 2.0.1: Climate Classification According... (see metadata)
-sci-CRAN/ClueR 1.0: CLUster Evaluation (CLUE)
+sci-CRAN/ClueR 1.0 1.1: CLUster Evaluation (CLUE)
 sci-CRAN/ClustGeo 1.0: Clustering of Observations with ... (see metadata)
 sci-CRAN/ClustMMDD 1.0.0 1.0.1: Variable Selection in Clustering... (see metadata)
 sci-CRAN/ClustOfVar 0.8 0.8-r1: Clustering of variables
@@ -2056,7 +2058,7 @@ sci-CRAN/DTDA 2.1.1 2.1.1-r1: Doubly truncated data analysis
 sci-CRAN/DTK 3.5 3.5-r1: Dunnett-Tukey-Kramer Pairwise Mu... (see metadata)
 sci-CRAN/DTMCPack 0.1.2 0.1.2-r1: Suite of functions related to di... (see metadata)
 sci-CRAN/DTR 1.3 1.5 1.6: Estimation and Comparison of Dyn... (see metadata)
-sci-CRAN/DTRlearn 1.0: Learning Algorithms for Dynamic Treatment Regimes
+sci-CRAN/DTRlearn 1.0 1.1: Learning Algorithms for Dynamic Treatment Regimes
 sci-CRAN/DVHmetrics 0.1 0.2 0.3 0.3.1 0.3.3: Analyze Dose-Volume Histograms a... (see metadata)
 sci-CRAN/DWD 0.11 0.11-r1: DWD implementation based on A IPM SOCP solver
 sci-CRAN/DYM 0.1.1: Did You Mean?
@@ -2774,7 +2776,7 @@ sci-CRAN/MCDA 0.0.3 0.0.6 0.0.7 0.0.8 0.0.10 0.0.11: Functions to Support the Mu
 sci-CRAN/MCL 1.0: Markov Cluster Algorithm
 sci-CRAN/MCMC4Extremes 1.0: Posterior Distribution of Extrem... (see metadata)
 sci-CRAN/MCMC_OTU 1.0.8: Bayesian analysis of multivariate counts data
-sci-CRAN/MCMC_qpcr 1.0.3 1.1.3 1.1.5 1.1.7 1.2: Bayesian Analysis of qRT-PCR Data
+sci-CRAN/MCMC_qpcr 1.0.3 1.1.3 1.1.5 1.1.7 1.2 1.2.2: Bayesian Analysis of qRT-PCR Data
 sci-CRAN/MCMCglmm 2.18 2.19 2.20 2.21 2.22: MCMC Generalised Linear Mixed Models
 sci-CRAN/MCMChybridGP 4.3 4.3-r1: Hybrid Markov chain Monte Carlo ... (see metadata)
 sci-CRAN/MCMCpack 1.3.3 1.3.3-r1: Markov chain Monte Carlo (MCMC) Package
@@ -3092,6 +3094,7 @@ sci-CRAN/OutrankingTools 1.0: Functions for Solving Multiple-c... (see metadata)
 sci-CRAN/PAFit 0.7.2 0.7.5: Nonparametric Estimation of Pref... (see metadata)
 sci-CRAN/PAGI 1.0 1.0-r1: The package can identify the dys... (see metadata)
 sci-CRAN/PAGWAS 1.0: Pathway analysis methods for gen... (see metadata)
+sci-CRAN/PANDA 0.9.9: Preferential Attachment Based Co... (see metadata)
 sci-CRAN/PANICr 0.0.0.2 0.0.0.5: PANIC Tests of Nonstationarity
 sci-CRAN/PAS 1.2 1.2-r1: Polygenic Analysis System (PAS)
 sci-CRAN/PASWR 1.1 1.1-r1: PROBABILITY and STATISTICS WITH R
@@ -3333,7 +3336,7 @@ sci-CRAN/REEMtree 0.90.3: Regression Trees with Random Eff... (see metadata)
 sci-CRAN/REGENT 1.0.5 1.0.5-r1 1.0.6: Risk Estimation for Genetic and ... (see metadata)
 sci-CRAN/REPPlab 0.2 0.9 0.9.1 0.9.2: R Interface to EPP-Lab, a Java P... (see metadata)
 sci-CRAN/REQS 0.8.12: R/EQS Interface
-sci-CRAN/RESS 1.0 1.1 1.2: Integrates R and Essentia
+sci-CRAN/RESS 1.0 1.1 1.2 1.3: Integrates R and Essentia
 sci-CRAN/REST 1.0.1: RcmdrPlugin Easy Script Templates
 sci-CRAN/REdaS 0.9.1 0.9.2: Companion Package to the Book R:... (see metadata)
 sci-CRAN/RFGLS 1.1: Rapid Feasible Generalized Least Squares
@@ -3984,7 +3987,7 @@ sci-CRAN/TED 1.0 1.1 1.1.1: Turbulence Time Series Event Det... (see metadata)
 sci-CRAN/TEEReg 1.0: Trimmed Elemental Estimation for Linear Models
 sci-CRAN/TEQR 2.0.0 2.0.0-r1 4.0.0 5.0.0: Target Equivalence Range Design
 sci-CRAN/TERAplusB 1.0 1.0-r1: Test for A+B Traditional Escalation Rule
-sci-CRAN/TESS 1.2.1 2.0.0: Diversification Rate Estimation ... (see metadata)
+sci-CRAN/TESS 1.2.1 2.0.0 2.1.0: Diversification Rate Estimation ... (see metadata)
 sci-CRAN/TExPosition 2.6.10: Two-table ExPosition
 sci-CRAN/TFDEA 0.8.3 0.9.4 0.9.5 0.9.8 0.9.8.3: Technology Forecasting using DEA... (see metadata)
 sci-CRAN/TFMPvalue 0.0.4 0.0.5: Efficient and accurate P-value c... (see metadata)
@@ -4004,6 +4007,7 @@ sci-CRAN/TRAMPR 1.0.7 1.0.7-r1: TRFLP Analysis and Matching Package for R
 sci-CRAN/TRD 1.0: Transmission Ratio Distortion
 sci-CRAN/TRIANG 1.2 1.2-r1: Symmetric discrete triangular distributions
 sci-CRAN/TRIANGG 1.0 1.0-r1: General discrete triangular distribution
+sci-CRAN/TROM 1.1: Transcriptome Overlap Measure
 sci-CRAN/TRSbook 1.0 1.0.1: Functions and Datasets to Accomp... (see metadata)
 sci-CRAN/TSA 1.01: Time Series Analysis
 sci-CRAN/TSAgg 1.0.1: Time series Aggregation
@@ -4140,7 +4144,7 @@ sci-CRAN/WARN 1.0 1.0-r1 1.1: Weaning Age Reconstruction with ... (see metadata)
 sci-CRAN/WCE 1.0: Weighted Cumulative Exposure Models
 sci-CRAN/WCQ 0.2 0.2-r1: Detection of QTL effects in a sm... (see metadata)
 sci-CRAN/WDI 2.4 2.4-r1: World Development Indicators (World Bank)
-sci-CRAN/WGCNA 1.34 1.41.1 1.42: Weighted Correlation Network Analysis
+sci-CRAN/WGCNA 1.34 1.41.1 1.42 1.47: Weighted Correlation Network Analysis
 sci-CRAN/WMCapacity 0.9.6.6 0.9.6.7: GUI Implementing Bayesian Working Memory Models
 sci-CRAN/WMDB 1.0 1.0-r1: Discriminant Analysis Methods by... (see metadata)
 sci-CRAN/WMTregions 3.2.6: Exact Calculation of WMTR
@@ -4157,7 +4161,7 @@ sci-CRAN/WeightedPortTest 1.0 1.0-r1: Weighted Portmanteau Tests for T... (see m
 sci-CRAN/WhatIf 1.5.6 1.5.6-r1: WhatIf: Software for Evaluating Counterfactuals
 sci-CRAN/WhiteStripe 1.0: Whitestripe White Matter Normali... (see metadata)
 sci-CRAN/WhopGenome 0.8.2 0.8.9 0.9.0 0.9.1: High-Speed Processing of VCF, FA... (see metadata)
-sci-CRAN/WiSEBoot 1.0.0 1.1.0 1.2.0: Wild Scale-Enhanced Bootstrap
+sci-CRAN/WiSEBoot 1.0.0 1.1.0 1.2.0 1.3.0: Wild Scale-Enhanced Bootstrap
 sci-CRAN/WideLM 0.1.1 0.1.1-r1: Fitting many skinny linear model... (see metadata)
 sci-CRAN/WikidataR 1.0.0: API Client Library for Wikidata
 sci-CRAN/WikipediR 1.0.0 1.0.1 1.1.0 1.2.0: A MediaWiki API Wrapper
@@ -4409,7 +4413,7 @@ sci-CRAN/aylmer 1.0.11: A generalization of Fishers exact test
 sci-CRAN/b6e6rl 1.1 1.1-r1: Adaptive differential evolution, b6e6rl variant
 sci-CRAN/bPeaks 1.0 1.2: bPeaks: an intuitive peak-callin... (see metadata)
 sci-CRAN/bReeze 0.3.0 0.3.1 0.3.2 0.4.0: Functions for wind resource assessment
-sci-CRAN/bWGR 1.0 1.1: Bagging Whole-Genome Regression
+sci-CRAN/bWGR 1.0 1.1 1.2: Bagging Whole-Genome Regression
 sci-CRAN/babar 1.0: Bayesian Bacterial Growth Curve Analysis in R
 sci-CRAN/babel 0.2.5 0.2.6: Ribosome profiling data analysis
 sci-CRAN/babynames 0.1: US baby names 1880-2013
@@ -4458,7 +4462,7 @@ sci-CRAN/bbemkr 1.6 1.6-r1 2.0: Bayesian bandwidth estimation fo... (see metadat
 sci-CRAN/bbmle 1.0.16 1.0.17: Tools for general maximum likelihood estimation
 sci-CRAN/bbo 0.1 0.1-r1 0.2: Biogeography-Based Optimization
 sci-CRAN/bc3net 1.0.2 1.0.2-r1: BC3NET
-sci-CRAN/bcRep 1.1: Advanced Analysis of B Cell Rece... (see metadata)
+sci-CRAN/bcRep 1.1 1.2.2: Advanced Analysis of B Cell Rece... (see metadata)
 sci-CRAN/bclust 1.4 1.5: Bayesian Hierarchical Clustering... (see metadata)
 sci-CRAN/bcool 1.1 1.2: Bringing to light significant Co... (see metadata)
 sci-CRAN/bcp 3.0.1 4.0.0: Bayesian Analysis of Change Point Problems
@@ -4742,7 +4746,7 @@ sci-CRAN/cgwtools 1.1 1.1-r1 3.0: Miscellaneous Tools
 sci-CRAN/changeLOS 2.1 2.1-r1: Change in LOS
 sci-CRAN/changepoint 1.1.1 1.1.2 1.1.3 1.1.5 2.0.1 2.1.1: Changepoint Analysis
 sci-CRAN/cheb 0.3 0.3-r1: Discrete Linear Chebyshev Approximation
-sci-CRAN/chebpol 1.3.1040 1.3.1040-r1 1.3.1367: Multivariate Chebyshev interpolation
+sci-CRAN/chebpol 1.3.1040 1.3.1040-r1 1.3.1367 1.3.1789: Multivariate Chebyshev Interpolation
 sci-CRAN/checkmate 1.0 1.1 1.2 1.3 1.4 1.5.0 1.5.1 1.5.2 1.5.3 1.6.0 1.6.2 1.6.3: Fast and Versatile Argument Checks
 sci-CRAN/checkpoint 0.3.2 0.3.3 0.3.9 0.3.10 0.3.15: Install Packages from Snapshots ... (see metadata)
 sci-CRAN/cheddar 0.1.624 0.1.625 0.1.626 0.1.629 0.1.630: Analysis and Visualisation of Ec... (see metadata)
@@ -4769,7 +4773,7 @@ sci-CRAN/cimis 0.1.7: R package for retrieving data from CIMIS.
 sci-CRAN/cin 0.1 0.1-r1: Causal Inference for Neuroscience
 sci-CRAN/circlize 0.0.7 0.0.7-r1 0.0.8 0.0.9 0.1.0 0.1.1 0.1.2 0.1.3 0.2.0 0.2.1 0.2.2 0.2.3 0.2.4 0.2.5 0.3.1 0.3.2: Circular Visualization
 sci-CRAN/circular 0.4.7: Circular Statistics
-sci-CRAN/cit 1.2 1.2-r1 1.3 1.4 1.5: Causal Inference Test
+sci-CRAN/cit 1.2 1.2-r1 1.3 1.4 1.5 1.7: Causal Inference Test
 sci-CRAN/citbcmst 1.0.4 1.0.4-r1: CIT Breast Cancer Molecular SubTypes Prediction
 sci-CRAN/citccmst 1.0.2 1.0.2-r1: CIT Colon Cancer Molecular SubTypes Prediction
 sci-CRAN/cjoint 1.0.2 1.0.3 2.0.0 2.0.1: AMCE Estimator for Conjoint Experiments
@@ -5154,7 +5158,7 @@ sci-CRAN/diffusionMap 1.1.0: Diffusion map
 sci-CRAN/digest 0.6.4 0.6.5 0.6.6 0.6.7 0.6.8: Create Cryptographic Hash Digests of R Objects
 sci-CRAN/digitalPCR 1.0: Estimate copy number for digital PCR
 sci-CRAN/dils 0.8.1 0.8.1-r1: Data-Informed Link Strength. Com... (see metadata)
-sci-CRAN/dina 1.0: Bayesian Estimation of DINA Model
+sci-CRAN/dina 1.0 1.0.1: Bayesian Estimation of DINA Model
 sci-CRAN/dinamic 1.0 1.0-r1: DiNAMIC A Method To Analyze Recu... (see metadata)
 sci-CRAN/diptest 0.75.5 0.75.5-r1 0.75.6 0.75.7: Hartigans Dip Test Statistic for... (see metadata)
 sci-CRAN/directPA 1.0 1.0-r1 1.1 1.2: Direction Analysis for Pathways and Kinases
@@ -5305,7 +5309,7 @@ sci-CRAN/ecoval 1.0: Procedures for Ecological Assess... (see metadata)
 sci-CRAN/ecp 1.5.5 1.6.0 1.6.2 2.0.0: Non-Parametric Multiple Change-P... (see metadata)
 sci-CRAN/edcc 1.0.0: Economic Design of Control Charts
 sci-CRAN/edesign 1.0.13: Maximum Entropy Sampling
-sci-CRAN/edgar 1.0.1 1.0.2: Platform for EDGAR Filling Management
+sci-CRAN/edgar 1.0.1 1.0.2 1.0.3: Platform for EDGAR Filing Management
 sci-CRAN/edgeRun 1.0.9: More Powerful Unconditional Test... (see metadata)
 sci-CRAN/editrules 2.7.2 2.7.2-r1 2.9.0: Parsing, Applying, and Manipulat... (see metadata)
 sci-CRAN/edmr 0.6.3: Empirical differentially methyla... (see metadata)
@@ -5563,6 +5567,7 @@ sci-CRAN/fitTetra 1.0: fitTetra is an R package for ass... (see metadata)
 sci-CRAN/fit_models 0.5.10: fit.models
 sci-CRAN/fitbitScraper 0.1.1 0.1.2 0.1.3 0.1.4: Scrapes Data from www.fitbit.com
 sci-CRAN/fitdistrplus 1.0.2 1.0.3 1.0.4 1.0.5: Help to Fit of a Parametric Dist... (see metadata)
+sci-CRAN/flacco 1.0: Feature-Based Landscape Analysis... (see metadata)
 sci-CRAN/flam 1.0 2.0 3.0: Fits Piecewise Constant Models w... (see metadata)
 sci-CRAN/flare 1.0.0 1.1.0 1.3.0 1.4.0 1.5.0: Family of Lasso Regression
 sci-CRAN/flashClust 1.01.2 1.1.2-r1: Implementation of optimal hierarchical clustering
@@ -5734,7 +5739,7 @@ sci-CRAN/gdimap 0.1.3 0.1.6 0.1.8 0.1.9: Generalized Diffusion Magnetic Resonanc
 sci-CRAN/gdistance 1.1.5 1.1.6 1.1.7 1.1.9: Distances and Routes on Geographical Grids
 sci-CRAN/gdm 1.0 1.1.1 1.1.2 1.1.3 1.1.4: Functions for Generalized Dissimilarity Modeling
 sci-CRAN/gdsfmt 1.0.3 1.0.4 1.1.0 1.1.0.1 1.1.0.1-r1: R Interface to CoreArray Genomic... (see metadata)
-sci-CRAN/gdtools 0.0.3: Utilities for Graphical Rendering
+sci-CRAN/gdtools 0.0.3 0.0.4: Utilities for Graphical Rendering
 sci-CRAN/gee 4.13.18 4.13.18-r1 4.13.18-r2 4.13.19: Generalized Estimation Equation Solver
 sci-CRAN/geeM 0.07 0.7.1 0.7.2 0.7.3 0.7.4 0.8.0: Solve Generalized Estimating Equations
 sci-CRAN/geepack 1.1.6 1.1.6-r1 1.2.0: Generalized Estimating Equation Package
@@ -6247,6 +6252,7 @@ sci-CRAN/jaatha 2.3 2.4 2.5 2.5.1 2.6 2.7.0: A Fast Parameter Estimation Meth...
 sci-CRAN/jackknifeKME 1.0 1.1 1.2: Jackknife Estimates of Kaplan-Me... (see metadata)
 sci-CRAN/jackstraw 1.0 1.0-r1: Non-parametric Jackstraw for Pri... (see metadata)
 sci-CRAN/james_analysis 1.0.0 1.0.1: Analysis Tools for the JAMES Framework
+sci-CRAN/jetset 3.1.3: One-to-One Gene-Probeset Mapping... (see metadata)
 sci-CRAN/jiebaR 0.2 0.3 0.4 0.5 0.6: Chinese Text Segmentation
 sci-CRAN/jiebaRD 0.1: Chinese Text Segmentation Data for jiebaR Package
 sci-CRAN/jmec 1.0.4 1.0.4-r1: Fit joint model for event and ce... (see metadata)
@@ -6303,7 +6309,7 @@ sci-CRAN/kml3d 2.2 2.3 2.4: K-Means for Joint Longitudinal Data
 sci-CRAN/kmlcov 1.0.1 1.0.1-r1: Clustering longitudinal data usi... (see metadata)
 sci-CRAN/kmodR 0.1.0: K-Means with Simultaneous Outlier Detection
 sci-CRAN/knitLatex 0.9.0: Knitr Helpers - Mostly Tables
-sci-CRAN/knitcitations 0.5.0 0.6.0 0.6.2 1.0.1 1.0.4 1.0.5 1.0.6: Citations for Knitr Markdown Files
+sci-CRAN/knitcitations 0.5.0 0.6.0 0.6.2 1.0.1 1.0.4 1.0.5 1.0.6 1.0.7: Citations for Knitr Markdown Files
 sci-CRAN/knitr 1.5 1.6 1.7 1.8 1.9 1.10 1.10.5 1.11: A General-Purpose Package for Dy... (see metadata)
 sci-CRAN/knitrBootstrap 0.9.0: Knitr Bootstrap framework.
 sci-CRAN/knnGarden 1.0.1 1.0.1-r1: Multi-distance based k-Nearest Neighbors
@@ -6456,7 +6462,7 @@ sci-CRAN/lmfor 1.1: Functions for Forest Biometrics
 sci-CRAN/lmm 0.9 0.9-r1 1.0: Linear Mixed Models
 sci-CRAN/lmmfit 1.0 1.0-r1: Goodness-of-fit-measures for lin... (see metadata)
 sci-CRAN/lmmlasso 0.1.2: Linear mixed-effects models with Lasso
-sci-CRAN/lmmot 0.1.1 0.1.2: Multiple Ordinal Tobit (MOT) model
+sci-CRAN/lmmot 0.1.1 0.1.2 0.1.3: Multiple Ordinal Tobit (MOT) Model
 sci-CRAN/lmms 1.0 1.1 1.2 1.3: Linear Mixed Effect Model Spline... (see metadata)
 sci-CRAN/lmodel2 1.7.1 1.7.2: Model II Regression
 sci-CRAN/lmom 2.3 2.4 2.5: L-moments
@@ -6536,6 +6542,7 @@ sci-CRAN/ltsk 1.0.1 1.0.2 1.0.3 1.0.4: Local Time Space Kriging
 sci-CRAN/lubridate 1.3.3: Make dealing with dates a little easier
 sci-CRAN/luca 1.0.5 1.0.5-r1: Likelihood inference from case-c... (see metadata)
 sci-CRAN/lucid 1.0 1.1 1.2 1.3: Printing Floating Point Numbers ... (see metadata)
+sci-CRAN/lucr 0.1.1: Currency Formatting and Conversion
 sci-CRAN/lulcc 1.0.1: Land Use Change Modelling in R
 sci-CRAN/lunar 0.1.04: Lunar Phase & Distance, Seasons ... (see metadata)
 sci-CRAN/luzlogr 0.1.0 0.1.1: Lightweight Logging for R Scripts
@@ -6588,7 +6595,7 @@ sci-CRAN/marl 1.0: Multivariate Analysis Based on R... (see metadata)
 sci-CRAN/marmap 0.7 0.8 0.9 0.9.1 0.9.2 0.9.3: Import, Plot and Analyze Bathyme... (see metadata)
 sci-CRAN/marqLevAlg 1.1 1.1-r1: An algorithm for least-squares curve fitting
 sci-CRAN/matchingMarkets 0.1.2 0.1.3 0.1.4 0.1.5 0.1.6 0.1.7: Analysis of Stable Matchings
-sci-CRAN/matchingR 1.0.1 1.1 1.1.1: Matching Algorithms in R and C++
+sci-CRAN/matchingR 1.0.1 1.1 1.1.1 1.2: Matching Algorithms in R and C++
 sci-CRAN/mathgraph 0.9.11 0.9.11-r1: Directed and undirected graphs
 sci-CRAN/maticce 1.0.3 1.0.3-r1: Mapping Transitions in Continuou... (see metadata)
 sci-CRAN/matie 1.2: Measuring Association and Testin... (see metadata)
@@ -6878,7 +6885,7 @@ sci-CRAN/multiPIM 1.3.1 1.3.1-r1 1.4.1 1.4.3: Variable Importance Analysis wit..
 sci-CRAN/multiband 0.1.0: Period Estimation for Multiple Bands
 sci-CRAN/multic 0.3.8.1 0.4.2 0.4.3: Quantitative Linkage Analysis To... (see metadata)
 sci-CRAN/multicon 1.1 1.2 1.3 1.5 1.6: Multivariate Constructs
-sci-CRAN/multicool 0.1.2 0.1.2-r1 0.1.5 0.1.6 0.1.7 0.1.8: Permutations of Multisets in Cool-Lex Order
+sci-CRAN/multicool 0.1.2 0.1.2-r1 0.1.5 0.1.6 0.1.7 0.1.8 0.1.9: Permutations of Multisets in Cool-Lex Order
 sci-CRAN/multicore 0.1.7 0.1.7-r1 0.2: A stub package to ease transition to parallel.
 sci-CRAN/multigroup 0.1 0.1-r1 0.2 0.3 0.4 0.4.1 0.4.2 0.4.3 0.4.4: Multigroup Data Analysis
 sci-CRAN/multilevel 2.5 2.5-r1: Multilevel Functions
@@ -6894,6 +6901,7 @@ sci-CRAN/multispatialCCM 1.0: Multispatial Convergent Cross Mapping
 sci-CRAN/multitable 1.6: Simultaneous manipulation of mul... (see metadata)
 sci-CRAN/multitaper 1.0.8 1.0.9 1.0.10 1.0.11: Multitaper Spectral Analysis Tools
 sci-CRAN/multivator 1.1.4: A multivariate emulator
+sci-CRAN/multiwave 1.0: Estimation of Multivariate Long-... (see metadata)
 sci-CRAN/multiway 1.0.0 1.0.1: Component Models for Multi-Way Data
 sci-CRAN/multiwayvcov 1.0.4 1.2.0 1.2.1 1.2.2: Multi-way Standard Error Clustering
 sci-CRAN/multxpert 0.1: Common Multiple Testing Procedur... (see metadata)
@@ -7370,6 +7378,7 @@ sci-CRAN/pi0 1.3.250 1.4.0: Estimating the Proportion of Tru... (see metadata)
 sci-CRAN/picante 1.6.2: R tools for integrating phylogenies and ecology
 sci-CRAN/picasso 0.1.0 0.2.0 0.3.0 0.4.7: Pathwise Calibrated Sparse Shooting Algorithm
 sci-CRAN/pid 0.13 0.15 0.36: Process Improvement using Data
+sci-CRAN/piecewiseSEM 1.0.0: Piecewise Structural Equation Modeling
 sci-CRAN/pingr 1.0.0 1.1.0: Check If a Remote Computer is Up
 sci-CRAN/pinnacle_API 1.81 1.89: A Wrapper for the Pinnacle Sports API
 sci-CRAN/pipeR 0.2.4 0.3 0.3.1 0.3.2 0.3.3 0.4 0.4.1 0.4.2 0.5 0.6 0.6.0.6: Multi-Paradigm Pipeline Implementation
@@ -7487,7 +7496,7 @@ sci-CRAN/powerSurvEpi 0.0.6 0.0.6-r1 0.0.9: Power and Sample Size Calculatio... 
 sci-CRAN/powerpkg 1.5 1.5-r1: Power analyses for the affected ... (see metadata)
 sci-CRAN/powerr 0.1.3: Analysis of Power System
 sci-CRAN/ppcor 1.0 1.0-r1: Partial and Semi-partial (Part) correlation
-sci-CRAN/ppiPre 1.5: Predict protein-protein interact... (see metadata)
+sci-CRAN/ppiPre 1.5 1.9: Predict Protein-Protein Interact... (see metadata)
 sci-CRAN/ppls 1.6.0 1.6.0-r1 1.6.1: Penalized Partial Least Squares
 sci-CRAN/ppmlasso 1.0 1.1: Point Process Models with LASSO Penalties
 sci-CRAN/pps 0.94 0.94-r1: Functions for PPS sampling
@@ -7582,7 +7591,7 @@ sci-CRAN/ptycho 1.1.2: Bayesian Variable Selection with... (see metadata)
 sci-CRAN/pubmed_mineR 1.0.1 1.0.2 1.0.2.1 1.0.3 1.0.3.1 1.0.4: Text Mining of PubMed Abstracts
 sci-CRAN/pullword 0.1: R Interface to Pullword Service
 sci-CRAN/pumilioR 1.2 1.3: Pumilio in R
-sci-CRAN/purge 0.1.0: Purge Training Data from Models
+sci-CRAN/purge 0.1.0 0.2.0: Purge Training Data from Models
 sci-CRAN/purrr 0.1.0: Functional Programming Tools
 sci-CRAN/pushoverr 0.1.1 0.1.2 0.1.3 0.1.4: Send push notifications using Pushover
 sci-CRAN/pvar 1.0.9 1.0.9-r1 2.0 2.1 2.2: Calculation and Application of p-variation
@@ -7730,6 +7739,7 @@ sci-CRAN/randaes 0.3 0.3-r1: Random number generator based on AES cipher
 sci-CRAN/random 0.2.2 0.2.2-r1: True random numbers using random.org
 sci-CRAN/randomForest 4.6.7 4.6.10 4.6.12: Breiman and Cutlers Random Fores... (see metadata)
 sci-CRAN/randomForestSRC 1.4 1.4-r1 1.5.0 1.5.1 1.5.2 1.5.3 1.5.4 1.5.5 1.6.0 1.6.1: Random Forests for Survival, Reg... (see metadata)
+sci-CRAN/randomForest_ddR 0.1.0: Distributed randomForest for Big... (see metadata)
 sci-CRAN/randomGLM 1.02.1: Random General Linear Model Prediction
 sci-CRAN/randomLCA 0.8.7 0.9.0 1.0.0 1.0.1 1.0.2 1.0.3: Random Effects Latent Class Analysis
 sci-CRAN/randomNames 0.0.6 0.0.6-r1 0.1.0: Function for Generating Random Names and a Dataset
@@ -7745,7 +7755,7 @@ sci-CRAN/randtoolbox 1.14 1.15 1.16 1.17: Toolbox for Pseudo and Quasi Ran... (s
 sci-CRAN/rangeMapper 0.2.6 0.2.8: A platform for the study of macr... (see metadata)
 sci-CRAN/ranger 0.2.7: A Fast Implementation of Random Forests
 sci-CRAN/rankdist 0.3.1 0.4.1 1.0.0 1.1.0 1.1.1 1.1.2: Distance Based Ranking Models
-sci-CRAN/rankhazard 0.8.1 1.0: Rank-hazard plots
+sci-CRAN/rankhazard 0.8.1 1.0 1.0.2: Rank-Hazard Plots
 sci-CRAN/rappdirs 0.3: Application directories: determi... (see metadata)
 sci-CRAN/rapport 0.51: A report templating system
 sci-CRAN/rapportools 1.0: Miscellaneous (stats) helper fun... (see metadata)
@@ -8019,7 +8029,7 @@ sci-CRAN/rpubchem 1.5.0.1 1.5.0.2: rpubchem - Interface to the PubChem Collectio
 sci-CRAN/rpud 0.0.2 0.0.2-r1: R functions for computation on GPU
 sci-CRAN/rqPen 1.0 1.1 1.2: Penalized Quantile Regression
 sci-CRAN/rr 1.0 1.1 1.2 1.3: Statistical Methods for the Rand... (see metadata)
-sci-CRAN/rrBLUP 4.2 4.3: Ridge regression and other kerne... (see metadata)
+sci-CRAN/rrBLUP 4.2 4.3 4.4: Ridge Regression and Other Kerne... (see metadata)
 sci-CRAN/rrBlupMethod6 1.3 1.3-r1: Re-parametrization of RR-BLUP to... (see metadata)
 sci-CRAN/rrcov 1.3.4 1.3.8: Scalable Robust Estimators with ... (see metadata)
 sci-CRAN/rrcovHD 0.2.2 0.2.3: Robust multivariate Methods for ... (see metadata)
@@ -8322,7 +8332,7 @@ sci-CRAN/sisVIVE 1.0 1.1 1.2: Some Invalid Some Valid Instrume... (see metadata)
 sci-CRAN/sisus 3.9.12 3.9.13: SISUS: Stable Isotope Sourcing using Sampling
 sci-CRAN/sitar 1.0 1.0.1 1.0.2 1.0.3: Super Imposition by Translation ... (see metadata)
 sci-CRAN/sitools 1.4 1.4-r1: Format a number to a string with SI prefix
-sci-CRAN/sivipm 1.0.0: Sensitivity Indices with Dependent Inputs
+sci-CRAN/sivipm 1.0.0 1.1.2: Sensitivity Indices with Dependent Inputs
 sci-CRAN/sjPlot 1.2.2 1.4.1 1.4.2 1.4.3 1.5 1.6 1.6.5 1.6.8 1.6.9: Data Visualization for Statistic... (see metadata)
 sci-CRAN/sjdbc 1.5.0.71: JDBC Driver Interface
 sci-CRAN/sjmisc 1.0.0 1.0.1 1.0.2 1.0.3 1.1 1.2: Data Transformation and Labelled... (see metadata)
@@ -8595,11 +8605,12 @@ sci-CRAN/strataG 0.9.2 0.9.4: Summaries and Population Structu... (see metadata)
 sci-CRAN/stratification 2.2.3 2.2.3-r1 2.2.4 2.2.5: Univariate Stratification of Survey Populations
 sci-CRAN/stratigraph 0.64 0.64-r1 0.66: Toolkit for the plotting and ana... (see metadata)
 sci-CRAN/straweib 1.0 1.0-r1: Stratified Weibull Regression Model
-sci-CRAN/stream 1.0.0 1.0.1 1.0.2 1.0.3 1.1.0 1.1.1 1.1.2 1.1.3 1.1.4 1.1.5 1.2.0 1.2.1: Infrastructure for Data Stream Mining
+sci-CRAN/stream 1.0.0 1.0.1 1.0.2 1.0.3 1.1.0 1.1.1 1.1.2 1.1.3 1.1.4 1.1.5 1.2.0 1.2.1 1.2.2: Infrastructure for Data Stream Mining
 sci-CRAN/streamR 0.2.1: Access to Twitter Streaming API via R
 sci-CRAN/stremo 0.2: Functions to help the process of... (see metadata)
 sci-CRAN/stressr 1.0.0: Fetch and plot financial stress ... (see metadata)
 sci-CRAN/stringdist 0.7.0 0.7.2 0.7.3 0.8.0 0.8.1 0.8.2 0.9.0 0.9.1 0.9.2 0.9.3 0.9.4: Approximate String Matching and ... (see metadata)
+sci-CRAN/stringgaussnet 1.1: PPI and Gaussian Network Constru... (see metadata)
 sci-CRAN/stringr 0.6.2 0.6.2-r1: Make it easier to work with strings.
 sci-CRAN/strucchange 1.5.0 1.5.1: Testing, Monitoring, and Dating Structural Changes
 sci-CRAN/structSSI 1.1 1.1.1: Multiple Testing for Hypotheses ... (see metadata)
@@ -9314,7 +9325,7 @@ sci-R/INBOtheme 0.3.0.69 0.3.0.71 0.3.1 0.4.0: Themes for ggplot2
 sci-R/INLABMA 0.1.3 0.1.4 0.1.5 0.1.6 0.1.6-r1: Bayesian Model Averaging with INLA
 sci-R/IPMpack 2.1 2.1-r1 2.1-r2 2.1-r3 2.1-r4: Builds and analyses Integral Pro... (see metadata)
 sci-R/IPSUR 2.0: Introduction to Probability and Statistics Using R
-sci-R/IntClust 0.0.1 0.0.1-r1 0.0.1-r2 0.0.1-r3 0.0.1-r4 0.0.1-r5: Integrated Data Analysis via Clustering
+sci-R/IntClust 0.0.1 0.0.1-r1 0.0.1-r2 0.0.1-r3 0.0.1-r4 0.0.1-r5 0.0.1-r6: Integrated Data Analysis via Clustering
 sci-R/IntegratedJM 1.1 1.1-r1 1.1-r2 1.1-r3: Joint Modelling of the Gene-Expr... (see metadata)
 sci-R/IntroCompFinR 1.0 1.0-r1 1.0-r2 1.0-r3 1.0-r4 1.0-r5 1.0-r6: Introduction to Computational Finance in R
 sci-R/IsoGene 1.0.22 1.0.23 1.0.23-r1 1.0.23-r2 1.0.24 1.0.24-r1 1.0.24-r2: Order-Restricted Inference for M... (see metadata)
@@ -9659,7 +9670,7 @@ sci-R/TTR 0.22.0.1 0.22.0.1-r1: Technical Trading Rules
 sci-R/TabularManifest 0.1.16: Tabular Manifest
 sci-R/TailRank 3.0.1 3.0.4 3.0.4-r1 3.1.0 3.1.0-r1: The Tail-Rank Statistic
 sci-R/TeachingDemos 2.10 2.10-r1: Demonstrations for teaching and learning
-sci-R/Thresher 0.9.5 0.9.6 0.9.7 0.9.7-r1 0.9.7-r2 0.9.8 0.9.9 0.9.9-r1 0.9.15: Threshing and Reaping for Principal Components
+sci-R/Thresher 0.9.5 0.9.6 0.9.7 0.9.7-r1 0.9.7-r2 0.9.8 0.9.9 0.9.9-r1 0.9.15 0.9.21 0.9.22: Threshing and Reaping for Principal Components
 sci-R/Tides 0.2: Tides
 sci-R/TimeWarp 1.0.7 1.0.8 1.0.9 1.0.10 1.0.11 1.0.13: Date Calculations and Manipulation
 sci-R/TopKLists 0.9.18 1.0.1 1.0.1-r1 1.0.2 1.0.3 1.0.3-r1 1.0.3-r2 1.0.3-r3 1.0.3-r4 1.0.3-r5 1.0.3-r6 1.0.3-r7 1.0.3-r8 1.0.4 1.0.5: Inference, Aggregation and Visua... (see metadata)
@@ -9777,7 +9788,7 @@ sci-R/austin 0.2: A package for doing things with words
 sci-R/autocorr 0.1 0.1-r1 0.1-r2: Testing Autocorrelation through ... (see metadata)
 sci-R/babel 0.2.5 0.2.6: Ribosome profiling data analysis
 sci-R/background 0.1: This packages allow users to bac... (see metadata)
-sci-R/bamlss 0.1.1 0.1.1-r1 0.1.1-r2 0.1.1-r3 0.1.1-r4 0.1.1-r5 0.1.1-r6 0.1.1-r7 0.1.1-r8 0.1.1-r9 0.1.1-r10 0.1.1-r11 0.1.1-r12 0.1.1-r13 0.1.1-r14 0.1.1-r15 0.1.1-r16 0.1.1-r17 0.1.1-r18 0.1.1-r19 0.1.1-r20 0.1.1-r21 0.1.1-r22 0.1.1-r23 0.1.1-r24 0.1.1-r25 0.1.1-r26 0.1.1-r27 0.1.1-r28 0.1.1-r29 0.1.1-r30 0.1.1-r31 0.1.1-r32 0.1.1-r33 0.1.1-r34 0.1.1-r35 0.1.1-r36 0.1.1-r37 0.1.1-r38 0.1.1-r39 0.1.1-r40 0.1.1-r41 0.1.1-r42 0.1.1-r43 0.1.1-r44 0.1.1-r45 0.1.1-r46 0.1.1-r47 0.1.1-r48 0.1.1-r49 0.1.1-r50 0.1.1-r51 0.1.1-r52 0.1.1-r53 0.1.1-r54 0.1.1-r55 0.1.1-r56 0.1.1-r57 0.1.1-r58 0.1.1-r59 0.1.1-r60 0.1.1-r61 0.1.1-r62 0.1.1-r63 0.1.1-r64 0.1.1-r65: Bayesian Additive Models for Loc... (see metadata)
+sci-R/bamlss 0.1.1 0.1.1-r1 0.1.1-r2 0.1.1-r3 0.1.1-r4 0.1.1-r5 0.1.1-r6 0.1.1-r7 0.1.1-r8 0.1.1-r9 0.1.1-r10 0.1.1-r11 0.1.1-r12 0.1.1-r13 0.1.1-r14 0.1.1-r15 0.1.1-r16 0.1.1-r17 0.1.1-r18 0.1.1-r19 0.1.1-r20 0.1.1-r21 0.1.1-r22 0.1.1-r23 0.1.1-r24 0.1.1-r25 0.1.1-r26 0.1.1-r27 0.1.1-r28 0.1.1-r29 0.1.1-r30 0.1.1-r31 0.1.1-r32 0.1.1-r33 0.1.1-r34 0.1.1-r35 0.1.1-r36 0.1.1-r37 0.1.1-r38 0.1.1-r39 0.1.1-r40 0.1.1-r41 0.1.1-r42 0.1.1-r43 0.1.1-r44 0.1.1-r45 0.1.1-r46 0.1.1-r47 0.1.1-r48 0.1.1-r49 0.1.1-r50 0.1.1-r51 0.1.1-r52 0.1.1-r53 0.1.1-r54 0.1.1-r55 0.1.1-r56 0.1.1-r57 0.1.1-r58 0.1.1-r59 0.1.1-r60 0.1.1-r61 0.1.1-r62 0.1.1-r63 0.1.1-r64 0.1.1-r65 0.1.1-r66: Bayesian Additive Models for Loc... (see metadata)
 sci-R/barcode 1.1: Barcode distribution plots
 sci-R/barebone 1.0.4 1.0.4-r1 1.0.4-r2 1.0.4-r3 1.0.4-r4 1.0.4-r5 1.0.4-r6 1.0.4-r7 1.0.4-r8 1.0.4-r9 1.0.4-r10 1.0.4-r11 1.0.4-r12 1.0.4-r13: Multivariate Methods in Ecology ... (see metadata)
 sci-R/base64 1.2: Base 64 encoder/decoder
@@ -9931,7 +9942,7 @@ sci-R/ctmDevel 0.1.0: Conditional Transformation Models
 sci-R/ctmcMove 1.0: Modeling Animal Movement with Co... (see metadata)
 sci-R/ctmcmove 1.0: Modeling Animal Movement with Co... (see metadata)
 sci-R/ctsem 1.0 1.0-r1 1.0-r2 1.0-r3 1.0-r4 1.0-r5 1.1.1 1.1.3 1.1.4: Continuous Time Structural Equation Modelling
-sci-R/ctv 0.7.9 0.7.9-r1 0.7.9-r2 0.7.9-r3 0.7.9-r4 0.7.9-r5 0.7.9-r6 0.7.9-r7 0.7.9-r8 0.7.9-r9 0.7.9-r10 0.7.9-r11 0.7.9-r12 0.7.9-r13 0.7.9-r14 0.7.9-r15 0.7.9-r16 0.7.9-r17 0.7.9-r18 0.7.9-r19 0.7.9-r20 0.7.9-r21 0.8.0 0.8.0-r1 0.8.0-r2 0.8.0-r3 0.8.0-r4 0.8.0-r5 0.8.0-r6 0.8.0-r7 0.8.0-r8 0.8.0-r9 0.8.0-r10 0.8.0-r11 0.8.0-r12 0.8.0-r13 0.8.0-r14 0.8.0-r15 0.8.0-r16 0.8.0-r17 0.8.0-r18 0.8.0-r19 0.8.0-r20 0.8.0-r21 0.8.0-r22 0.8.0-r23 0.8.0-r24 0.8.0-r25 0.8.0-r26 0.8.0-r27 0.8.0-r28 0.8.0-r29 0.8.0-r30 0.8.0-r31 0.8.0-r32 0.8.0-r33 0.8.0-r34 0.8.0-r35 0.8.0-r36 0.8.0-r37 0.8.0-r38 0.8.0-r39 0.8.0-r40 0.8.0-r41 0.8.0-r42 0.8.0-r43 0.8.0-r44 0.8.0-r45 0.8.0-r46 0.8.0-r47 0.8.0-r48 0.8.0-r49 0.8.0-r50 0.8.0-r51 0.8.0-r52 0.8.0-r53 0.8.0-r54 0.8.0-r55 0.8.0-r56 0.8.0-r57 0.8.0-r58 0.8.0-r59 0.8.0-r60 0.8.0-r61 0.8.0-r62 0.8.0-r63 0.8.0-r64 0.8.0-r65 0.8.0-r66 0.8.0-r67 0.8.0-r68 0.8.0-r69 0.8.0-r70 0.8.0-r71 0.8.0-r72 0.8.0-r73 0.8.0-r74 0.8.0-r75 0.8.0-r76 0.8.0-r77 0.8.0-r78 0.8.0-r79 0.8.0-r80 0.8.0-r81 0.8.0-r82 0.8.0-r83 0.8.0-r84 0.8.0-r85 0.8.0-r86 0.8.0-r87 0.8.0-r88 0.8.0-r89 0.8.0-r90 0.8.0-r91 0.8.0-r92 0.8.0-r93 0.8.0-r94 0.8.0-r95 0.8.0-r96 0.8.0-r97 0.8.0-r98 0.8.1 0.8.1-r1 0.8.1-r2 0.8.1-r3 0.8.1-r4 0.8.1-r5 0.8.1-r6 0.8.1-r7 0.8.1-r8 0.8.1-r9 0.8.1-r10 0.8.1-r11 0.8.1-r12 0.8.1-r13 0.8.1-r14 0.8.1-r15 0.8.1-r16 0.8.1-r17 0.8.1-r18 0.8.1-r19 0.8.1-r20 0.8.1-r21 0.8.1-r22: CRAN Task Views
+sci-R/ctv 0.7.9 0.7.9-r1 0.7.9-r2 0.7.9-r3 0.7.9-r4 0.7.9-r5 0.7.9-r6 0.7.9-r7 0.7.9-r8 0.7.9-r9 0.7.9-r10 0.7.9-r11 0.7.9-r12 0.7.9-r13 0.7.9-r14 0.7.9-r15 0.7.9-r16 0.7.9-r17 0.7.9-r18 0.7.9-r19 0.7.9-r20 0.7.9-r21 0.8.0 0.8.0-r1 0.8.0-r2 0.8.0-r3 0.8.0-r4 0.8.0-r5 0.8.0-r6 0.8.0-r7 0.8.0-r8 0.8.0-r9 0.8.0-r10 0.8.0-r11 0.8.0-r12 0.8.0-r13 0.8.0-r14 0.8.0-r15 0.8.0-r16 0.8.0-r17 0.8.0-r18 0.8.0-r19 0.8.0-r20 0.8.0-r21 0.8.0-r22 0.8.0-r23 0.8.0-r24 0.8.0-r25 0.8.0-r26 0.8.0-r27 0.8.0-r28 0.8.0-r29 0.8.0-r30 0.8.0-r31 0.8.0-r32 0.8.0-r33 0.8.0-r34 0.8.0-r35 0.8.0-r36 0.8.0-r37 0.8.0-r38 0.8.0-r39 0.8.0-r40 0.8.0-r41 0.8.0-r42 0.8.0-r43 0.8.0-r44 0.8.0-r45 0.8.0-r46 0.8.0-r47 0.8.0-r48 0.8.0-r49 0.8.0-r50 0.8.0-r51 0.8.0-r52 0.8.0-r53 0.8.0-r54 0.8.0-r55 0.8.0-r56 0.8.0-r57 0.8.0-r58 0.8.0-r59 0.8.0-r60 0.8.0-r61 0.8.0-r62 0.8.0-r63 0.8.0-r64 0.8.0-r65 0.8.0-r66 0.8.0-r67 0.8.0-r68 0.8.0-r69 0.8.0-r70 0.8.0-r71 0.8.0-r72 0.8.0-r73 0.8.0-r74 0.8.0-r75 0.8.0-r76 0.8.0-r77 0.8.0-r78 0.8.0-r79 0.8.0-r80 0.8.0-r81 0.8.0-r82 0.8.0-r83 0.8.0-r84 0.8.0-r85 0.8.0-r86 0.8.0-r87 0.8.0-r88 0.8.0-r89 0.8.0-r90 0.8.0-r91 0.8.0-r92 0.8.0-r93 0.8.0-r94 0.8.0-r95 0.8.0-r96 0.8.0-r97 0.8.0-r98 0.8.1 0.8.1-r1 0.8.1-r2 0.8.1-r3 0.8.1-r4 0.8.1-r5 0.8.1-r6 0.8.1-r7 0.8.1-r8 0.8.1-r9 0.8.1-r10 0.8.1-r11 0.8.1-r12 0.8.1-r13 0.8.1-r14 0.8.1-r15 0.8.1-r16 0.8.1-r17 0.8.1-r18 0.8.1-r19 0.8.1-r20 0.8.1-r21 0.8.1-r22 0.8.1-r23: CRAN Task Views
 sci-R/curve 2014.2.1 2014.2.1-r1 2014.2.1-r2: Dynamic Systems Estimation - Curvature Extensions
 sci-R/cusp 2.2 2.3 2.3-r1 2.3-r2 2.3.1 2.3.1-r1 2.3.1-r2 2.3.1-r3 2.3.3: Cusp-Catastrophe Model Fitting U... (see metadata)
 sci-R/cvGWAS 0.1: Genome-wide association analysis... (see metadata)
@@ -10177,7 +10188,7 @@ sci-R/globalboosttest 1.1.1: Testing the additional predictiv... (see metadata)
 sci-R/glogis 0.1.1 0.1.2 0.1.2-r1 1.0.0: Fitting and Testing Generalized ... (see metadata)
 sci-R/glucpack 0.0.5: glucpack
 sci-R/gmkin 0.5.10: GUI for Fitting Kinetic Models t... (see metadata)
-sci-R/gmm 1.5.0 1.5.1 1.5.2 1.5.3 1.6.0: Generalized Method of Moments an... (see metadata)
+sci-R/gmm 1.5.0 1.5.1 1.5.2 1.5.3 1.6.0 1.6.0-r1: Generalized Method of Moments an... (see metadata)
 sci-R/gmodels 2.16.2: Various R Programming Tools for Model Fitting
 sci-R/gmpm 0.5.3: Generalized Multilevel Permutation Models
 sci-R/gnmf 0.7 0.8 0.9 0.9-r1 0.9-r2 0.9-r3 0.9-r4: Generalized Non-negative Matrix ... (see metadata)
@@ -10333,7 +10344,7 @@ sci-R/mGSZ 1.0: Gene set analysis based on GSZ-s... (see metadata)
 sci-R/mada 0.5.5 0.5.5-r1 0.5.6 0.5.7 0.5.7-r1: Meta-Analysis of Diagnostic Accuracy
 sci-R/mapmisc 0.9.3 0.9.4 0.9.4-r1 0.9.9 0.9.9-r1 0.9.99 0.9.99-r1 0.9.99-r2 0.9.99-r3 1.0.0 1.0.0-r1 1.0.0-r2 1.0.1 1.0.1-r1 1.0.1-r2 1.1.0 1.1.1 1.1.1-r1 1.1.2 1.1.3 1.1.4 1.1.4-r1 1.1.5 1.1.6 1.1.6-r1 1.2.0 1.2.0-r1 1.2.1 1.2.2 1.2.5 1.3.1 1.3.2 1.3.2-r1 1.3.2-r2 1.4.0 1.4.0-r1 1.4.0-r2 1.4.1 1.4.2 1.4.2-r1 1.4.3 1.4.3-r1 1.4.3-r2 1.4.3-r3 1.4.3-r4: Utilities for Producing Maps
 sci-R/mapoland 0.2.0: Maps of Poland for data visualization and graphics
-sci-R/maptools 0.8.29 0.8.30 0.8.31 0.8.35 0.8.37 0.8.37-r1 0.8.37-r2 0.8.38 0.8.38-r1: Tools for Reading and Handling Spatial Objects
+sci-R/maptools 0.8.29 0.8.30 0.8.31 0.8.35 0.8.37 0.8.37-r1 0.8.37-r2 0.8.38 0.8.38-r1 0.8.38-r2: Tools for Reading and Handling Spatial Objects
 sci-R/march 1.0 1.01 1.02 1.03 1.04: Markov Chains
 sci-R/marelac 2.1.3 2.1.4 2.1.4-r1 2.1.4-r2 2.1.4-r3 2.1.5 2.1.5-r1 2.1.5-r2: Tools for Aquatic Sciences
 sci-R/marelacTeaching 1.1.1: Datasets and tutorials for use in aquatic sciences
@@ -10344,7 +10355,7 @@ sci-R/mastermix 1.3.0 1.5.6 1.6.0: Procedure for deconvolving, weig... (see meta
 sci-R/matchingMarkets 0.1.2 0.1.2-r1 0.1.3 0.1.3-r1 0.1.4 0.1.5 0.1.5-r1 0.1.6 0.1.7 0.1.7-r1: Analysis of Stable Matchings
 sci-R/maticce 1.0.4: Mapping Transitions in Continuou... (see metadata)
 sci-R/matrixStats 0.8.14 0.9.3 0.10.1: Methods that apply to rows and columns of a matrix
-sci-R/maxLik 1.2.2 1.2.2-r1 1.2.2-r2 1.2.2-r3 1.2.4 1.2.5 1.2.5-r1 1.2.5-r2 1.2.5-r3 1.2.5-r4 1.2.5-r5 1.2.5-r6 1.2.5-r7 1.2.5-r8 1.2.5-r9 1.2.5-r10 1.2.5-r11 1.2.5-r12 1.2.5-r13 1.2.5-r14 1.2.5-r15 1.2.5-r16 1.2.5-r17 1.2.5-r18 1.2.5-r19 1.2.5-r20 1.2.5-r21 1.3.1: Maximum Likelihood Estimation and Related Tools
+sci-R/maxLik 1.2.2 1.2.2-r1 1.2.2-r2 1.2.2-r3 1.2.4 1.2.5 1.2.5-r1 1.2.5-r2 1.2.5-r3 1.2.5-r4 1.2.5-r5 1.2.5-r6 1.2.5-r7 1.2.5-r8 1.2.5-r9 1.2.5-r10 1.2.5-r11 1.2.5-r12 1.2.5-r13 1.2.5-r14 1.2.5-r15 1.2.5-r16 1.2.5-r17 1.2.5-r18 1.2.5-r19 1.2.5-r20 1.2.5-r21 1.3.1 1.3.1-r1: Maximum Likelihood Estimation and Related Tools
 sci-R/mboost 2.2.3 2.3.0 2.3.1 2.3.1-r1 2.3.1-r2 2.3.1-r3 2.3.1-r4 2.4.1 2.4.1-r1 2.4.1-r2 2.4.1-r3 2.4.2 2.4.2-r1 2.4.2-r2 2.4.2-r3 2.5.0 2.5.0-r1 2.5.1: Model-Based Boosting
 sci-R/mboostDevel 2.3.0 2.3.0-r1 2.3.0-r2 2.3.0-r3 2.4.0 2.4.0-r1 2.4.0-r2 2.4.0-r3 2.5.0 2.5.0-r1 2.5.0-r2 2.5.0-r3 2.5.0-r4 2.5.0-r5 2.6.0: Model-Based Boosting
 sci-R/mc2d 0.1.14 0.1.15 0.1.15-r1: Tools for Two-Dimensional Monte-Carlo Simulations
@@ -10640,7 +10651,7 @@ sci-R/pxR 0.40.0 0.40.1 0.42.0 0.42.1 0.42.2: PC-Axis with R
 sci-R/qRNASeq 0.0.1: What the package does (short line)
 sci-R/qaqc 0.1.4: Quality Assurance and Quality Co... (see metadata)
 sci-R/qfa 0.0.17 0.0.19 0.0.19-r1 0.0.19-r2 0.0.20 0.0.20-r1 0.0.20-r2 0.0.21 0.0.22 0.0.22-r1 0.0.22-r2 0.0.22-r3 0.0.22-r4 0.0.22-r5 0.0.23 0.0.24 0.0.25 0.0.26 0.0.26-r1 0.0.27 0.0.27-r1 0.0.28 0.0.29 0.0.29-r1 0.0.30 0.0.30-r1 0.0.30-r2 0.0.32 0.0.32-r1 0.0.33 0.0.33-r1 0.0.34 0.0.35 0.0.37 0.0.37-r1 0.0.42 0.0.42-r1: Tools for Quantitative Fitness A... (see metadata)
-sci-R/qfaBayes 0.0.1 0.0.1-r1: Tools for modelling the growth d... (see metadata)
+sci-R/qfaBayes 0.0.1 0.0.1-r1 0.0.1-r2: Tools for modelling the growth d... (see metadata)
 sci-R/qmao 1.6.9 1.6.10 1.6.10-r1 1.6.10-r2 1.6.10-r3 1.6.11: Quantmod Add-on
 sci-R/qmrobust 1.0: Quality Management: Examples fro... (see metadata)
 sci-R/qrmtools 0.0.1 0.0.1-r1 0.0.1-r2 0.0.1-r3 0.0.1-r4 0.0.1-r5 0.0.1-r6 0.0.1-r7 0.0.1-r8 0.0.1-r9 0.0.1-r10 0.0.1-r11 0.0.1-r12 0.0.1-r13 0.0.1-r14 0.0.1-r15 0.0.1-r16 0.0.1-r17 0.0.1-r18 0.0.1-r19 0.0.1-r20 0.0.1-r21 0.0.1-r22 0.0.1-r23 0.0.1-r24 0.0.1-r25 0.0.1-r26 0.0.1-r27 0.0.1-r28 0.0.1-r29 0.0.1-r30 0.0.1-r31 0.0.2 0.0.2-r1 0.0.2-r2 0.0.2-r3 0.0.2-r4: Tools for Quantitative Risk Management
@@ -10731,7 +10742,7 @@ sci-R/rgauges 0.1.1: R wrapper to gaug.es API
 sci-R/rgbif 0.3.7: Interface to the Global Biodiver... (see metadata)
 sci-R/rgeos 0.3.4 0.3.5 0.3.5-r1 0.3.6 0.3.7 0.3.7-r1 0.3.7-r2 0.3.7-r3 0.3.7-r4 0.3.8 0.3.8-r1 0.3.9 0.3.9-r1 0.3.9-r2 0.3.9-r3 0.3.11 0.3.12 0.3.12-r1 0.3.12-r2 0.3.12-r3 0.3.13 0.3.13-r1 0.3.13-r2: Interface to Geometry Engine - Open Source (GEOS)
 sci-R/rgl 0.93.998 0.93.999 0.93.999-r1 0.93.999-r2 0.93.1088 0.93.1088-r1 0.93.1098 0.93.1098-r1 0.94.1111 0.94.1118 0.94.1125 0.94.1131 0.94.1132 0.94.1133 0.94.1133-r1 0.94.1135 0.94.1138 0.94.1139 0.94.1140 0.94.1143 0.94.1152 0.95.1156 0.95.1157 0.95.1158 0.95.1162 0.95.1163 0.95.1165 0.95.1165-r1 0.95.1170 0.95.1176 0.95.1176-r1 0.95.1178 0.95.1182 0.95.1184 0.95.1191 0.95.1192 0.95.1193 0.95.1194 0.95.1198 0.95.1198-r1 0.95.1200 0.95.1202 0.95.1202-r1 0.95.1204 0.95.1204-r1 0.95.1208 0.95.1208-r1 0.95.1208-r2 0.95.1213 0.95.1217 0.95.1217-r1 0.95.1224 0.95.1227 0.95.1228 0.95.1228-r1 0.95.1232 0.95.1234 0.95.1236 0.95.1248 0.95.1249 0.95.1250 0.95.1251 0.95.1254 0.95.1256 0.95.1261 0.95.1307 0.95.1324 0.95.1324-r1 0.95.1332 0.95.1337 0.95.1352 0.95.1353 0.95.1357 0.95.1357-r1 0.95.1360 0.95.1362 0.95.1362-r1 0.95.1367 0.95.1372 0.95.1373: 3D Visualization Using OpenGL
-sci-R/rglwidget 0.1 0.1.1376 0.1.1376-r1 0.1.1376-r2: rgl in htmlwidgets Framework
+sci-R/rglwidget 0.1 0.1.1376 0.1.1376-r1 0.1.1376-r2 0.1.1376-r3: rgl in htmlwidgets Framework
 sci-R/rgmdh 0.0.1: group method of data handling
 sci-R/rgraph6 1.2: Interface to graph6 format for R
 sci-R/rgrass7 0.1.0 0.1.0-r1 0.1.0-r2 0.1.1 0.1.2 0.1.2-r1 0.1.2-r2 0.1.3 0.1.3-r1: Interface Between GRASS 7 Geogra... (see metadata)
@@ -10886,6 +10897,7 @@ sci-R/spacetime 1.0.10: classes and methods for spatio-temporal data
 sci-R/sparseLDA 0.1.6: Sparse Discriminant Analysis
 sci-R/spatial_tools 1.3.8 1.4.1 1.4.4 1.4.7 1.4.8 1.4.9 1.5.0 1.5.1: R Functions for Working with Spatial Data
 sci-R/spatialkernel 0.4.20: Nonparametric estimation of spat... (see metadata)
+sci-R/spatialwarnings 1.0: Spatial Early Warning Signals
 sci-R/spcopula 0.2.0 0.2.0-r1 0.2.1 0.2.1-r1 0.2.1-r2 0.2.1-r3 0.2.1-r4: Copula Driven Spatio-Temporal Analysis
 sci-R/spd 2.0.0 2.0.0-r1 2.0.0-r2 2.0.0-r3 2.0.0-r4 2.0.0-r5 2.0.0-r6 2.0.0-r7 2.0.0-r8 2.0.0-r9 2.0.0-r10 2.0.0-r11 2.0.0-r12 2.0.0-r13 2.0.0-r14 2.0.0-r15: Semi Parametric Distribution
 sci-R/spdep 0.5.73 0.5.74 0.5.74-r1 0.5.74-r2 0.5.75 0.5.75-r1 0.5.76 0.5.76-r1 0.5.78 0.5.79 0.5.79-r1 0.5.80 0.5.80-r1 0.5.80-r2 0.5.80-r3 0.5.80-r4 0.5.80-r5 0.5.80-r6 0.5.80-r7 0.5.80-r8 0.5.80-r9 0.5.80-r10 0.5.80-r11 0.5.82 0.5.82-r1 0.5.83 0.5.83-r1 0.5.85 0.5.85-r1 0.5.85-r2 0.5.85-r3 0.5.86 0.5.86-r1 0.5.86-r2 0.5.86-r3 0.5.86-r4 0.5.86-r5 0.5.86-r6 0.5.88 0.5.88-r1 0.5.89 0.5.89-r1 0.5.91 0.5.91-r1 0.5.92 0.5.92-r1 0.5.92-r2 0.5.92-r3: Spatial Dependence: Weighting Sc... (see metadata)

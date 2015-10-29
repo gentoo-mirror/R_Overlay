@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-BIOC/AnnotationDbi-1.12.0 sci-BIOC/AnnotationDbi >=sci-BIOC/org_Hs_eg_db-2.4.6 dev-lang/R
+DESCRIPTION=Illumina Human Methylation 450k annotation data
+EAPI=4
+IUSE=r_suggests_annotate r_suggests_methylumi byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=>=sci-BIOC/AnnotationDbi-1.12.0 sci-BIOC/AnnotationDbi >=sci-BIOC/org_Hs_eg_db-2.4.6 r_suggests_annotate? ( sci-BIOC/annotate ) r_suggests_methylumi? ( sci-BIOC/methylumi ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/IlluminaHumanMethylation450k.db_2.0.9.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=116c833f4e6376235249657ae72c68e1
