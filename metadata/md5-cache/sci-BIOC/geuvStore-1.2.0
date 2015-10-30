@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/BatchJobs sci-BIOC/GenomicRanges sci-BIOC/gQTLBase dev-lang/R
+DESCRIPTION=demonstrate storage discipline f... (see metadata)
+EAPI=4
+IUSE=r_suggests_homo_sapiens r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/BatchJobs sci-BIOC/GenomicRanges sci-BIOC/gQTLBase r_suggests_homo_sapiens? ( sci-BIOC/Homo_sapiens ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.7 ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/data/experiment/src/contrib/geuvStore_1.2.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=0b48a4a05ebbefcd1b966ffbd89e5739

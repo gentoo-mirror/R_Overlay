@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/methylumi >=dev-lang/R-3.1.1 sci-BIOC/wateRmelon sci-CRAN/mixsmsn sci-BIOC/IRanges sci-BIOC/IlluminaHumanMethylation450kmanifest sci-CRAN/RColorBrewer sci-BIOC/minfi dev-lang/R
+DESCRIPTION=Visualize Intensities Produced b... (see metadata)
+EAPI=4
+IUSE=r_suggests_geoquery r_suggests_knitr r_suggests_minfidata byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-BIOC/methylumi >=dev-lang/R-3.1.1 sci-BIOC/wateRmelon sci-CRAN/mixsmsn sci-BIOC/IRanges sci-BIOC/IlluminaHumanMethylation450kmanifest sci-CRAN/RColorBrewer sci-BIOC/minfi r_suggests_geoquery? ( sci-BIOC/GEOquery ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_minfidata? ( sci-BIOC/minfiData ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/skewr_1.2.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=2c1ad916be24d1a54360e908e7f022c0

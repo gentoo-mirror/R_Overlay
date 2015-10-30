@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.1 dev-lang/R
+DESCRIPTION=Processed BigWigs from BrainSpan for examples
+EAPI=4
+IUSE=r_suggests_devtools r_suggests_knitcitations r_suggests_knitr r_suggests_knitrbootstrap r_suggests_refmanager byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=>=dev-lang/R-3.1.1 r_suggests_devtools? ( >=sci-CRAN/devtools-1.6 ) r_suggests_knitcitations? ( >=sci-CRAN/knitcitations-1.0.1 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.6 ) r_suggests_knitrbootstrap? ( >=sci-CRAN/knitrBootstrap-0.9.0 ) r_suggests_refmanager? ( sci-CRAN/RefManageR ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/data/experiment/src/contrib/derfinderData_0.104.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=1b07c073df8a69cc9422bd965a5f0435

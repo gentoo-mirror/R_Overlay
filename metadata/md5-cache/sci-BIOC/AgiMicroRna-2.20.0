@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/affycoretools >=sci-BIOC/affy-1.22 sci-BIOC/Biobase sci-BIOC/limma sci-BIOC/Biobase sci-BIOC/preprocessCore dev-lang/R
+DESCRIPTION=Processing and Differential Expr... (see metadata)
+EAPI=4
+IUSE=r_suggests_codelink r_suggests_gdata r_suggests_geneplotter r_suggests_gplots r_suggests_gtools r_suggests_marray byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-BIOC/affycoretools >=sci-BIOC/affy-1.22 sci-BIOC/Biobase sci-BIOC/limma sci-BIOC/Biobase sci-BIOC/preprocessCore r_suggests_codelink? ( sci-BIOC/codelink ) r_suggests_gdata? ( sci-CRAN/gdata ) r_suggests_geneplotter? ( sci-BIOC/geneplotter ) r_suggests_gplots? ( sci-CRAN/gplots ) r_suggests_gtools? ( sci-CRAN/gtools ) r_suggests_marray? ( sci-BIOC/marray ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/AgiMicroRna_2.20.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=52a8b8506f5acd49e32c7f2a6dd2b87b

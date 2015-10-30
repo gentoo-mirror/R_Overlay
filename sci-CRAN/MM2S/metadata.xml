@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Single-Sample Classifier of Medulloblastoma Subtypes for
+		Medulloblastoma Patient Samples, Mouse Models, and Cell Lines
+		// Description: A single-sample classifier that generates
+		Medulloblastoma (MB) subtype predictions for single-samples of
+		human MB patients and model systems, including cell lines and
+		mouse-models. The MM2S algorithm uses a systems-based
+		methodology that facilitates application of the algorithm on
+		samples irrespective of their platform or source of origin.
+		MM2S demonstrates  96% accuracy for patients of well-
+		characterized normal cerebellum, Wingless (WNT), or Sonic
+		hedgehog (SHH) subtypes, and the less-characterized Group4
+		(86%) and Group3 (78.2%). MM2S also enables classification of
+		MB cell lines and mouse models into their human
+		counterparts.This package contains function for implementing
+		the classifier onto human data and mouse data, as well as
+		graphical rendering of the results as PCA plots and heatmaps.
+	</longdescription>
+</pkgmetadata>

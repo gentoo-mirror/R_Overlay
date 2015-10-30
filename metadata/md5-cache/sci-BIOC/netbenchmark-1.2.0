@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/GeneNet sci-CRAN/PCIT sci-CRAN/c3net sci-BIOC/minet sci-CRAN/randomForest sci-CRAN/pracma >=sci-CRAN/Rcpp-0.11.0 >=sci-BIOC/grndata-0.99.3 sci-CRAN/fdrtool sci-CRAN/corpcor dev-lang/R
+DESCRIPTION=Benchmarking of several gene net... (see metadata)
+EAPI=4
+IUSE=r_suggests_biocgenerics r_suggests_graph r_suggests_knitr r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+RDEPEND=sci-CRAN/GeneNet sci-CRAN/PCIT sci-CRAN/c3net sci-BIOC/minet sci-CRAN/randomForest sci-CRAN/pracma >=sci-CRAN/Rcpp-0.11.0 >=sci-BIOC/grndata-0.99.3 sci-CRAN/fdrtool sci-CRAN/corpcor sci-CRAN/Rcpp r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_graph? ( sci-BIOC/graph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/netbenchmark_1.2.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=8966ca221a2b9144b51af336d1197799

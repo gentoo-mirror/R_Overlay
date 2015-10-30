@@ -3,10 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Empirical analysis of digital gene expression data in R //
-		Differential expression analysis of RNA-seq and digital gene
-		expression profiles with biological replication.  Uses
-		empirical Bayes estimation and exact tests based on the
-		negative binomial distribution.  Also useful for differential
-		signal analysis with other types of genome-scale count data.
+		Differential expression analysis of RNA-seq expression profiles
+		with biological replication. Implements a range of statistical
+		methodology based on the negative binomial distributions,
+		including empirical Bayes estimation, exact tests, generalized
+		linear models and quasi-likelihood tests. As well as RNA-seq,
+		it be applied to differential signal analysis of other types of
+		genomic data that produce counts, including ChIP-seq, SAGE and
+		CAGE.
 	</longdescription>
 </pkgmetadata>

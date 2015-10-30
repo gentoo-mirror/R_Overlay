@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/GenomeInfoDb sci-BIOC/Biobase sci-CRAN/ggplot2 sci-CRAN/proxy sci-BIOC/IRanges sci-BIOC/GenomicRanges sci-BIOC/S4Vectors sci-CRAN/reshape2 sci-BIOC/VariantAnnotation sci-BIOC/pcaMethods sci-BIOC/Biostrings sci-BIOC/ggbio >=dev-lang/R-3.1.0 sci-CRAN/NMF dev-lang/R
+DESCRIPTION=Somatic Signatures
+EAPI=4
+IUSE=r_suggests_fastica r_suggests_ggdendro r_suggests_knitr r_suggests_somaticcanceralterations r_suggests_sva r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-BIOC/GenomeInfoDb sci-BIOC/Biobase sci-CRAN/ggplot2 sci-CRAN/proxy sci-BIOC/IRanges sci-BIOC/GenomicRanges sci-BIOC/S4Vectors sci-CRAN/reshape2 sci-BIOC/VariantAnnotation sci-BIOC/pcaMethods sci-BIOC/Biostrings sci-BIOC/ggbio >=dev-lang/R-3.1.0 sci-CRAN/NMF r_suggests_fastica? ( sci-CRAN/fastICA ) r_suggests_ggdendro? ( sci-CRAN/ggdendro ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_somaticcanceralterations? ( sci-BIOC/SomaticCancerAlterations ) r_suggests_sva? ( sci-BIOC/sva ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/SomaticSignatures_2.6.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=002296a120bd6e77c90254ee7ce9b0e6

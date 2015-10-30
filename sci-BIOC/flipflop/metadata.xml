@@ -5,6 +5,8 @@
 		Fast lasso-based isoform prediction as a flow problem // Flipflop
 		discovers which isoforms of a gene are expressed in a given
 		sample together with their abundances, based on RNA-Seq read
-		data.
+		data. It takes an alignment file in SAM format as input. It can
+		also discover transcripts from several samples simultaneously,
+		increasing statistical power.
 	</longdescription>
 </pkgmetadata>

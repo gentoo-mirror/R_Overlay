@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/limma >=dev-lang/R-3.0 sci-CRAN/foreach sci-BIOC/Biobase sci-CRAN/glmnet sci-CRAN/matrixStats sci-CRAN/RColorBrewer sci-CRAN/gplots dev-lang/R
+DESCRIPTION=Statistical analysis for sparse ... (see metadata)
+EAPI=4
+IUSE=r_suggests_annotate r_suggests_biocgenerics r_suggests_biom r_suggests_gss r_suggests_interactivedisplay r_suggests_knitr r_suggests_runit r_suggests_vegan byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-BIOC/limma >=dev-lang/R-3.0 sci-CRAN/foreach sci-BIOC/Biobase sci-CRAN/glmnet sci-CRAN/matrixStats sci-CRAN/RColorBrewer sci-CRAN/gplots r_suggests_annotate? ( sci-BIOC/annotate ) r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_biom? ( sci-CRAN/biom ) r_suggests_gss? ( sci-CRAN/gss ) r_suggests_interactivedisplay? ( sci-BIOC/interactiveDisplay ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/metagenomeSeq_1.12.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=badb364db25979cdadeaefe806737640

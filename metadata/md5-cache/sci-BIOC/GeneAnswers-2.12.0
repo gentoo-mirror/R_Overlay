@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/igraph sci-CRAN/XML sci-CRAN/RColorBrewer sci-CRAN/RSQLite sci-BIOC/Heatplus >=dev-lang/R-3.0.0 sci-CRAN/RCurl sci-CRAN/downloader >=sci-BIOC/Biobase-1.12.0 sci-BIOC/annotate sci-BIOC/annotate sci-BIOC/RBGL dev-lang/R
+DESCRIPTION=Integrated Interpretation of Genes
+EAPI=4
+IUSE=r_suggests_annotationdbi r_suggests_biomart r_suggests_go_db r_suggests_graph r_suggests_kegg_db r_suggests_org_dm_eg_db r_suggests_org_hs_eg_db r_suggests_org_mm_eg_db r_suggests_org_rn_eg_db byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2+
+RDEPEND=sci-CRAN/igraph sci-CRAN/XML sci-CRAN/RColorBrewer sci-CRAN/RSQLite sci-BIOC/Heatplus >=dev-lang/R-3.0.0 sci-CRAN/RCurl sci-CRAN/downloader >=sci-BIOC/Biobase-1.12.0 sci-BIOC/annotate sci-BIOC/annotate sci-BIOC/RBGL r_suggests_annotationdbi? ( sci-BIOC/AnnotationDbi ) r_suggests_biomart? ( sci-BIOC/biomaRt ) r_suggests_go_db? ( sci-BIOC/GO_db ) r_suggests_graph? ( sci-BIOC/graph ) r_suggests_kegg_db? ( sci-BIOC/KEGG_db ) r_suggests_org_dm_eg_db? ( sci-BIOC/org_Dm_eg_db ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_org_mm_eg_db? ( sci-BIOC/org_Mm_eg_db ) r_suggests_org_rn_eg_db? ( sci-BIOC/org_Rn_eg_db ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/GeneAnswers_2.12.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=771d08609be8b6f144bcdf4453f92094

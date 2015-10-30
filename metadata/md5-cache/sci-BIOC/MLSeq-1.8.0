@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/limma sci-BIOC/edgeR sci-CRAN/caret sci-BIOC/Biobase sci-BIOC/DESeq2 >=dev-lang/R-3.0.0 sci-CRAN/randomForest dev-lang/R
+DESCRIPTION=Machine learning interface for RNA-Seq data
+EAPI=4
+IUSE=r_suggests_affy r_suggests_e1071 r_suggests_earth r_suggests_ellipse r_suggests_fastica r_suggests_gam r_suggests_ipred r_suggests_kernlab r_suggests_klar r_suggests_knitr r_suggests_mda r_suggests_mlbench r_suggests_party r_suggests_pls r_suggests_proc r_suggests_proxy r_suggests_rann r_suggests_spls byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-BIOC/limma sci-BIOC/edgeR sci-CRAN/caret sci-BIOC/Biobase sci-BIOC/DESeq2 >=dev-lang/R-3.0.0 sci-CRAN/randomForest r_suggests_affy? ( sci-BIOC/affy ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_earth? ( sci-CRAN/earth ) r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_fastica? ( sci-CRAN/fastICA ) r_suggests_gam? ( sci-CRAN/gam ) r_suggests_ipred? ( sci-CRAN/ipred ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_klar? ( sci-CRAN/klaR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mda? ( sci-CRAN/mda ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_party? ( sci-CRAN/party ) r_suggests_pls? ( sci-CRAN/pls ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_proxy? ( sci-CRAN/proxy ) r_suggests_rann? ( sci-CRAN/RANN ) r_suggests_spls? ( sci-CRAN/spls ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/MLSeq_1.8.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=87ae89461fa12e4686be649bbf9180e3

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model-based analysis of DNA methylation data // This package
+		provides a function for reconstructing DNA methylation values
+		from raw measurements. It iteratively implements the group
+		fused lars to smooth related-by-location methylation values and
+		the constrained least squares to remove probe affinity effect
+		across multiple sequences.
+	</longdescription>
+</pkgmetadata>
