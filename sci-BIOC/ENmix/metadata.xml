@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Data preprocessing and quality control for Illumina
+		HumanMethylation450 BeadChip // Illumina HumanMethylation450
+		BeadChip array measurements have intrinsic levels of background
+		noise that degrade methylation measurement. The ENmix package
+		provides an efficient data pre-processing tool designed to
+		reduce background noise and improve signal for DNA methylation
+		estimation. The package utilizes a novel model-based background
+		correction method, ENmix, that significantly improve accuracy
+		and reproducibility of methylation measures. The data structure
+		used by the ENmix package is compatible with several other
+		related R packages, such as minfi, wateRmelon and ChAMP,
+		providing straightforward integration of ENmix-corrected
+		datasets for subsequent data analysis. The software is designed
+		to support large scale data analysis, and provides multi-
+		processor parallel computing wrappers for commonly used data
+		preprocessing methods, including BMIQ probe design type bias
+		correction and ComBat batch effect correction. In addition
+		ENmix package has selectable complementary functions for
+		efficient data visualization (such as data distribution
+		plotting), quality control (identification and filtering of low
+		quality data points, samples, probes, and outliers, along with
+		imputation of missing values), inter-array normalization (3
+		different quantile normalizations), identification of probes
+		with multimodal distributions due to SNPs and other factors,
+		and exploration of data variance structure using principal
+		component regression analysis plots. Together these provide a
+		set of flexible and transparent tools for preprocessing of EWAS
+		data in a computationally-efficient and user-friendly package.
+	</longdescription>
+</pkgmetadata>

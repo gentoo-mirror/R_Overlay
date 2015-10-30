@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Full masked genome sequences for Mus musculus (UCSC version mm10)
+		// Full genome sequences for Mus musculus (Mouse) as provided
+		by UCSC (mm10, Dec. 2011) and stored in Biostrings objects. The
+		sequences are the same as in BSgenome.Mmusculus.UCSC.mm10,
+		except that each of them has the 2 following masks on top: (1)
+		the mask of assembly gaps (AGAPS mask), and (2) the mask of
+		intra-contig ambiguities (AMB mask).
+	</longdescription>
+</pkgmetadata>

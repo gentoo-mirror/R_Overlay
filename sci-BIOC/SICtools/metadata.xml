@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Find SNV/Indel differences between two bam files with near
+		relationship // This package is to find SNV/Indel differences
+		between two bam files with near relationship in a way of
+		pairwise comparison thourgh each base position across the
+		genome region of interest. The difference is inferred by fisher
+		test and euclidean distance, the input of which is the base
+		count (A,T,G,C) in a given position and read counts for indels
+		that span no less than 2bp on both sides of indel region.
+	</longdescription>
+</pkgmetadata>

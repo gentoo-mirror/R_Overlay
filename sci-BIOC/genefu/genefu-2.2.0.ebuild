@@ -1,0 +1,39 @@
+# Copyright 1999-2015 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=4
+
+inherit R-packages
+
+DESCRIPTION='Computation of Gene Expression-B... (see metadata)'
+SRC_URI="http://master.bioconductor.org/packages/3.2/bioc/src/contrib/genefu_2.2.0.tar.gz"
+LICENSE='Artistic-2'
+
+IUSE="${IUSE-} r_suggests_biobase r_suggests_breastcancermainz
+	r_suggests_breastcancernki r_suggests_breastcancertransbig
+	r_suggests_breastcancerunt r_suggests_breastcancerupp
+	r_suggests_breastcancervdx r_suggests_caret r_suggests_genemeta
+	r_suggests_knitr r_suggests_rmeta r_suggests_xtable"
+R_SUGGESTS="
+	r_suggests_biobase? ( sci-BIOC/Biobase )
+	r_suggests_breastcancermainz? ( sci-BIOC/breastCancerMAINZ )
+	r_suggests_breastcancernki? ( sci-BIOC/breastCancerNKI )
+	r_suggests_breastcancertransbig? ( sci-BIOC/breastCancerTRANSBIG )
+	r_suggests_breastcancerunt? ( sci-BIOC/breastCancerUNT )
+	r_suggests_breastcancerupp? ( sci-BIOC/breastCancerUPP )
+	r_suggests_breastcancervdx? ( sci-BIOC/breastCancerVDX )
+	r_suggests_caret? ( sci-CRAN/caret )
+	r_suggests_genemeta? ( sci-BIOC/GeneMeta )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_rmeta? ( sci-CRAN/rmeta )
+	r_suggests_xtable? ( sci-CRAN/xtable )
+"
+DEPEND="sci-BIOC/biomaRt
+	sci-CRAN/amap
+	sci-CRAN/mclust
+	sci-BIOC/AIMS
+	sci-BIOC/survcomp
+	sci-CRAN/iC10
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/graph sci-BIOC/BiocGenerics sci-BIOC/AnnotationDbi sci-CRAN/rappdirs dev-lang/R
+DESCRIPTION=GRAPH Interaction from pathway T... (see metadata)
+EAPI=4
+IUSE=r_suggests_all r_suggests_biocstyle r_suggests_hgu133plus2_db r_suggests_rcytoscape r_suggests_spia byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=sci-BIOC/graph sci-BIOC/BiocGenerics sci-BIOC/AnnotationDbi sci-CRAN/rappdirs r_suggests_all? ( sci-BIOC/ALL ) r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_hgu133plus2_db? ( sci-BIOC/hgu133plus2_db ) r_suggests_rcytoscape? ( >=sci-BIOC/RCytoscape-1.6 ) r_suggests_spia? ( >=sci-BIOC/SPIA-2.2 ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/graphite_1.16.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=b5bdb7339662262a8dbfee733adb79d3

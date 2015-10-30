@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/knitr sci-CRAN/htmltools sci-CRAN/shiny sci-CRAN/jsonlite >=sci-CRAN/rgl-0.95.1367 sci-CRAN/htmlwidgets dev-lang/R
+DESCRIPTION=rgl in htmlwidgets Framework
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/knitr sci-CRAN/htmltools sci-CRAN/shiny sci-CRAN/jsonlite >=sci-CRAN/rgl-0.95.1367 sci-CRAN/htmlwidgets dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/rglwidget_0.1.1376.tar.gz -> rglwidget_0.1.1376-r4.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=d4dd1bfea9760435a776393e348f6a4e
