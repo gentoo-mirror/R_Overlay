@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/sandwich >=dev-lang/R-3.1.0 sci-CRAN/partykit sci-CRAN/strucchange sci-CRAN/ucminf sci-CRAN/zoo sci-CRAN/numDeriv dev-lang/R
+DESCRIPTION=Tree-Based Varying Coefficient R... (see metadata)
+EAPI=4
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/sandwich >=dev-lang/R-3.1.0 sci-CRAN/partykit sci-CRAN/strucchange sci-CRAN/ucminf sci-CRAN/zoo sci-CRAN/numDeriv dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/vcrpart_0.4-1.tar.gz -> vcrpart_0.4-1-r2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=6486198343a692144bbadb7a918298aa

@@ -2,17 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R wrapper of ARPACK for large scale eigenvalue/vector problems,
-		on both dense and sparse matrices // rARPACK is an R wrapper of
-		the ARPACK library (http://www.caam.rice.edu/software/ARPACK/)
-		to solve large scale eigenvalue/vector problems. It is
-		typically used to compute a few eigenvalues/vectors of an n by
-		n matrix, e.g., the k largest eigenvalues, which is usually
-		more efficient than eigen() if k  n. This package provides the
-		eigs() function which does the similar job as in Matlab,
-		Octave, Python SciPy and Julia. It also provides the svds()
-		function to calculate the largest k singular values and
-		corresponding singular vectors of a real matrix. Matrices can
-		be given in either dense or sparse form.
+		Solvers for Large Scale Eigenvalue and SVD Problems // An R
+		wrapper of the 'ARPACK' library
+		http://www.caam.rice.edu/software/ARPACK/ to solve large scale
+		eigenvalue/vector problems. It is typically used to compute a
+		few eigenvalues/vectors of an n by n matrix, e.g., the k
+		largest eigenvalues, which is usually more efficient than
+		eigen() if k  n. This package provides the 'eigs()' function
+		which does the similar job as in 'Matlab', 'Octave', 'Python
+		SciPy' and 'Julia'. It also provides the 'svds()' function to
+		calculate the largest k singular values and corresponding
+		singular vectors of a real matrix. Matrices can be given in
+		either dense or sparse form.
 	</longdescription>
 </pkgmetadata>
