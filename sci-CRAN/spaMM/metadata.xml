@@ -2,14 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Mixed Models, Particularly Spatial GLMMs // Implements a
-		collection of functions for inference in mixed models. It was
-		developed in particular for GLMMs with spatial correlations,
-		but also fits models with non-Gaussian random effects (e.g.,
-		Beta Binomial, or negative-binomial mixed models).
-		Heteroskedasticity can further be fitted by a linear model. The
-		algorithms are currently various Laplace approximations methods
-		for ML or REML, in particular h-likelihood and penalized-
-		likelihood methods.
+		Mixed Models, Particularly Spatial GLMMs // Inference in mixed
+		models, including GLMMs with spatial correlations and models
+		with non-Gaussian random effects (e.g., Beta Binomial, or
+		negative-binomial mixed models). Heteroskedasticity can further
+		be fitted by a linear model. The algorithms are currently
+		various Laplace approximations methods for ML or REML, in
+		particular h-likelihood and penalized-likelihood methods.
 	</longdescription>
 </pkgmetadata>
