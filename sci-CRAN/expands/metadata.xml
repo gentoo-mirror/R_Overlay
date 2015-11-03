@@ -2,33 +2,46 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		ExPANdS // Expanding Ploidy and Allele Frequency on Nested
-		Subpopulations (ExPANdS) characterizes coexisting
-		subpopulations in a tumor using copy number and allele
-		frequencies derived from exome- or whole genome sequencing
-		input data (http://www.ncbi.nlm.nih.gov/pubmed/24177718). The
-		model amplifies the statistical power to detect coexisting
-		genotypes, by exploiting run-specific tradeoffs between depth
-		of coverage and breadth of coverage. ExPANdS predicts the
-		number of clonal expansions, the size of the resulting
-		subpopulations in the tumor bulk, the mutations specific to
-		each subpopulation and tumor purity. The main function
-		runExPANdS provides the complete functionality needed to
-		predict coexisting subpopulations from single nucleotide
+		Expanding Ploidy and Allele-Frequency on Nested Subpopulations //
+		ExPANdS characterizes coexisting subpopulations in a single
+		tumor sample using copy number and allele frequencies derived
+		from exome- or whole genome sequencing input data
+		(http://www.ncbi.nlm.nih.gov/pubmed/24177718). The model
+		detects coexisting genotypes by leveraging run-specific
+		tradeoffs between depth of coverage and breadth of coverage.
+		ExPANdS predicts the number of clonal expansions, the size of
+		the resulting subpopulations in the tumor bulk, the mutations
+		specific to each subpopulation and tumor purity. The main
+		function runExPANdS provides the complete functionality needed
+		to predict coexisting subpopulations from single nucleotide
 		variations (SNVs) and associated copy numbers.  The robustness
 		of the subpopulation predictions by ExPANdS increases with the
 		number of mutations provided. It is recommended that at least
-		200 mutations are used as an input to obtain stable results.
-		Updates include: (1) Additional optional parameter
-		"min_CellFreq" provided for function runExPANdS, specifying the
-		minimum cellular prevalence of mutations to be included for
-		subpopulation predictions.(2) Filtered loci with high-level
-		amplifications, according to max_PM setting. This reduces
-		unnecessary processing time, as assignment of mutations within
-		amplified regions to subpopulations is not successful. (3)
-		Additional function "buildMultiSamplePhylo" available, which
-		integrates the subpopulations predicted in multiple,
-		geographically distinct tumor samples into one common
-		phylogeny.
+		200 mutations are used as input to obtain stable results.
+		Updates in EXPANDS version 1.6 include: (1) So far mutations
+		had been assigned to maximal one subpopulation. However
+		mutations may not be exclusive to the assigned subpopulation
+		but may also be present in smaller, descending subpopulations.
+		This version of expands decides whether or not this is the case
+		leveraging the predicted phylogenetic structure of the
+		subpopulation composition. (2) Included homozygous deletion as
+		potential scenario when modeling (SNV,CNV) pairs with
+		overlapping genomic location, that are propagated during
+		distinct clonal expansions. (3) Optimized solution to improve
+		sensitivity at cell-frequency distribution margins. Need for
+		improvement was because subpopulation detection sensitivity
+		correlates to centrality of subpopulation size during
+		clustering. Tolerance of copy number and allele frequency
+		measurement errors must be higher for marginal cell-frequencies
+		than for central cell-frequencies, in order to counteract the
+		reduced cluster detection sensitivity at the cell-frequency
+		distribution margins. This is only relevant during
+		subpopulation detection (SNV clustering), cell-frequency
+		independent error tolerance still applies during SNV
+		assignment. (4) Fixed a bug where incorrect data matrix
+		conversion could occur when handing non-numerical matrix as
+		parameter to function runExPANdS. Further documentation and FAQ
+		around ExPANdS is available at http://dna-
+		discovery.stanford.edu/software/expands.
 	</longdescription>
 </pkgmetadata>
