@@ -37,7 +37,7 @@ DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/gsl
 	sci-CRAN/pspline
 	>=sci-CRAN/stabledist-0.6.4
-	>=dev-lang/R-3.0.1
+	>=dev-lang/R-3.0.1[-minimal]
 	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
