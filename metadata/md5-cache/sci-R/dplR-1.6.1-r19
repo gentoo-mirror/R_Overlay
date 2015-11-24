@@ -8,5 +8,6 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-CRAN/png-0.1.1 >=sci-CRAN/stringr-0.4 >=sci-CRAN/gmp-0.5.2 >=dev-lang/R-2.15.0 >=sci-CRAN/digest-0.2.3 >=sci-CRAN/XML-2.1.0 r_suggests_biobase? ( sci-BIOC/Biobase ) r_suggests_dichromat? ( >=sci-CRAN/dichromat-1.2.3 ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_iterators? ( sci-CRAN/iterators ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_runit? ( >=sci-CRAN/RUnit-0.4.25 ) r_suggests_tikzdevice? ( sci-CRAN/tikzDevice ) r_suggests_waveslim? ( sci-CRAN/waveslim ) dev-lang/R
 SLOT=0
 SRC_URI=http://download.r-forge.r-project.org/src/contrib/dplR_1.6.1.tar.gz -> dplR_1.6.1-r19.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=d7d97329d4973786ad6a3e32a1c82244

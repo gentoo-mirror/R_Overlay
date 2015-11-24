@@ -8,5 +8,6 @@ LICENSE=GPL-2
 RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/knitr-1.4.1 >=sci-CRAN/markdown-0.5.5 r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/knitrBootstrap_0.9.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=b736e8d822421b5785fc4b7cebd81d02

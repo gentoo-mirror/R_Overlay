@@ -8,5 +8,6 @@ LICENSE=GPL-2
 RDEPEND=>=sci-CRAN/modeltools-0.2.21 >=dev-lang/R-2.14.0 >=sci-CRAN/sandwich-1.1.1 sci-CRAN/strucchange sci-CRAN/coin sci-CRAN/zoo r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_ipred? ( sci-CRAN/ipred ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_vcd? ( sci-CRAN/vcd ) dev-lang/R
 SLOT=0
 SRC_URI=http://download.r-forge.r-project.org/src/contrib/party_1.0-14.tar.gz -> r-forge_party_1.0-14-r1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=8f4b90d7a941273b59446d6fdd616ec6

@@ -8,5 +8,6 @@ LICENSE=GPL-3
 RDEPEND=>=sci-CRAN/xts-0.8.2 >=sci-CRAN/TTR-0.2 >=sci-CRAN/FinancialInstrument-0.12.5 >=sci-CRAN/foreach-1.4.0 >=sci-R/blotter-0.7.2 r_suggests_performanceanalytics? ( sci-CRAN/PerformanceAnalytics ) r_suggests_portfolioanalytics? ( sci-R/PortfolioAnalytics ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xtsextra? ( sci-R/xtsExtra ) dev-lang/R
 SLOT=0
 SRC_URI=http://download.r-forge.r-project.org/src/contrib/quantstrat_0.8.2.tar.gz -> quantstrat_0.8.2-r12.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=a7a1bd7e7fddb66a00f3855660a6d7aa

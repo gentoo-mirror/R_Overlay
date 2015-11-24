@@ -8,5 +8,6 @@ LICENSE=Artistic-2
 RDEPEND=>=sci-BIOC/biomaRt-2.11.0 >=sci-BIOC/biovizBase-1.5.7 >=sci-BIOC/GenomicFeatures-1.9.7 >=sci-BIOC/IRanges-1.19.5 >=sci-BIOC/Rsamtools-1.11.1 >=sci-BIOC/BSgenome-1.25.1 >=sci-CRAN/latticeExtra-0.6.26 >=sci-BIOC/rtracklayer-1.15.5 >=sci-BIOC/AnnotationDbi-1.17.11 sci-BIOC/XVector >=sci-BIOC/Biostrings-2.25.1 sci-CRAN/RColorBrewer >=sci-BIOC/Biobase-2.15.3 >=sci-BIOC/GenomicRanges-1.7.14 >=sci-BIOC/BiocGenerics-0.1.4 r_suggests_biomart? ( sci-BIOC/biomaRt ) r_suggests_genomicfeatures? ( sci-BIOC/GenomicFeatures ) r_suggests_rtracklayer? ( sci-BIOC/rtracklayer ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/2.13/bioc/src/contrib/Gviz_1.6.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=f54b0c06134c48fdb1f8a81cebfd359a

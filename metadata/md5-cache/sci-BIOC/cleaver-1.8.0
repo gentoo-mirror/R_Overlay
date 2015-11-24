@@ -8,5 +8,6 @@ LICENSE=GPL-3+
 RDEPEND=>=dev-lang/R-3.0.0 >=sci-BIOC/Biostrings-1.29.8 sci-BIOC/IRanges sci-BIOC/S4Vectors r_suggests_biocstyle? ( >=sci-BIOC/BiocStyle-0.0.14 ) r_suggests_brain? ( sci-BIOC/BRAIN ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 ) r_suggests_uniprot_ws? ( >=sci-BIOC/UniProt_ws-2.1.4 ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/cleaver_1.8.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=194e5b81e78c2dcd4e75fbbef8e81bfe

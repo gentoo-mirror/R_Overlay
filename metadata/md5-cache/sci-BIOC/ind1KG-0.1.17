@@ -8,5 +8,6 @@ LICENSE=Artistic-2
 RDEPEND=>=dev-lang/R-2.10.1 sci-BIOC/chopsticks r_suggests_genomicfeatures? ( sci-BIOC/GenomicFeatures ) r_suggests_ggbase? ( sci-BIOC/GGBase ) r_suggests_ggtools? ( sci-BIOC/GGtools ) r_suggests_hmyrib36? ( sci-BIOC/hmyriB36 ) r_suggests_lumihumanidmapping? ( sci-BIOC/lumiHumanIDMapping ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_rsamtools? ( sci-BIOC/Rsamtools ) r_suggests_rtracklayer? ( sci-BIOC/rtracklayer ) r_suggests_snplocs_hsapiens_dbsnp_20090506? ( sci-BIOC/SNPlocs_Hsapiens_dbSNP_20090506 ) r_suggests_txdb_hsapiens_ucsc_hg18_knowngene? ( sci-BIOC/TxDb_Hsapiens_UCSC_hg18_knownGene ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/2.13/data/experiment/src/contrib/ind1KG_0.1.17.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=ff0956dbb7a7227ac2f4cdc7e3aba1f2

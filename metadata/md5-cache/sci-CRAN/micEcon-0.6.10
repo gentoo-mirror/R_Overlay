@@ -8,5 +8,6 @@ LICENSE=GPL-2+
 RDEPEND=>=sci-CRAN/miscTools-0.6.1 r_suggests_ecdat? ( >=sci-CRAN/Ecdat-0.1.5 ) r_suggests_plm? ( >=sci-CRAN/plm-1.1.0 ) r_suggests_systemfit? ( >=sci-CRAN/systemfit-1.0.0 ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/micEcon_0.6-10.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=762791dfcb2138205635a31a093b9f16

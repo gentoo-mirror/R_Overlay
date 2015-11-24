@@ -8,5 +8,6 @@ LICENSE=GPL-2+
 RDEPEND=sci-CRAN/modeest sci-CRAN/sm sci-CRAN/ggplot2 sci-CRAN/gdata sci-CRAN/gplots sci-CRAN/caTools sci-CRAN/gtools sci-BIOC/limma sci-CRAN/vioplot sci-CRAN/markdown sci-CRAN/ROCR sci-BIOC/edgeR sci-CRAN/stringr >=dev-lang/R-3.0.2 >=sci-CRAN/knitr-1.2 r_suggests_bayseq? ( >=sci-BIOC/baySeq-2.2.0 ) r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_deseq? ( sci-BIOC/DESeq ) r_suggests_deseq2? ( >=sci-BIOC/DESeq2-1.1.31 ) r_suggests_ebseq? ( sci-BIOC/EBSeq ) r_suggests_genefilter? ( sci-BIOC/genefilter ) r_suggests_nbpseq? ( >=sci-CRAN/NBPSeq-0.3.0 ) r_suggests_noiseq? ( sci-BIOC/NOISeq ) r_suggests_samr? ( sci-CRAN/samr ) r_suggests_tcc? ( sci-BIOC/TCC ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/compcodeR_1.6.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=993df89d14d6c45c2adea592bbce19b7

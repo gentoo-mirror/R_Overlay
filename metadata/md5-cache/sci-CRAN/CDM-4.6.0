@@ -8,5 +8,6 @@ LICENSE=GPL-2+
 RDEPEND=sci-CRAN/Rcpp sci-CRAN/polycor >=dev-lang/R-2.15.0 sci-CRAN/mvtnorm sci-CRAN/psych sci-CRAN/plyr sci-CRAN/sfsmisc sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_bifiesurvey? ( sci-CRAN/BIFIEsurvey ) r_suggests_miceadds? ( sci-CRAN/miceadds ) r_suggests_mirt? ( sci-CRAN/mirt ) r_suggests_sirt? ( sci-CRAN/sirt ) r_suggests_tam? ( sci-CRAN/TAM ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/CDM_4.6-0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=e97c3249e1d54cdb2eb0277d27c635fb

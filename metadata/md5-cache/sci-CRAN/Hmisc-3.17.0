@@ -8,5 +8,6 @@ LICENSE=GPL-2+
 RDEPEND=sci-CRAN/latticeExtra sci-CRAN/proto sci-CRAN/Formula sci-CRAN/ggplot2 sci-CRAN/gtable sci-CRAN/scales sci-CRAN/gridExtra sci-CRAN/acepack r_suggests_chron? ( sci-CRAN/chron ) r_suggests_ff? ( sci-CRAN/ff ) r_suggests_ffbase? ( sci-CRAN/ffbase ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_rms? ( sci-CRAN/rms ) r_suggests_tables? ( sci-CRAN/tables ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/Hmisc_3.17-0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=203b5d6af826d066a291b901e4c84efc

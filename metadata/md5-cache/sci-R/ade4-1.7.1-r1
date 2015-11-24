@@ -8,5 +8,6 @@ LICENSE=GPL-2+
 RDEPEND=r_suggests_ade4tkgui? ( sci-CRAN/ade4TkGUI ) r_suggests_adegraphics? ( sci-R/adegraphics ) r_suggests_ape? ( sci-CRAN/ape ) r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_pixmap? ( sci-CRAN/pixmap ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_spdep? ( sci-CRAN/spdep ) r_suggests_splancs? ( sci-CRAN/splancs ) r_suggests_waveslim? ( sci-CRAN/waveslim ) dev-lang/R
 SLOT=0
 SRC_URI=http://download.r-forge.r-project.org/src/contrib/ade4_1.7-1.tar.gz -> ade4_1.7-1-r1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=4660dc1935a312ed5f8f5ca689026642

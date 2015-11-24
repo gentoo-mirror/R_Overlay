@@ -8,5 +8,6 @@ LICENSE=Artistic-2
 RDEPEND=sci-BIOC/S4Vectors sci-BIOC/BiocGenerics sci-BIOC/GenomicRanges sci-BIOC/GenomicFiles sci-CRAN/doParallel sci-CRAN/BBmisc sci-CRAN/BatchJobs sci-CRAN/ffbase sci-BIOC/rtracklayer sci-CRAN/foreach sci-CRAN/bit sci-CRAN/ff r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_erma? ( sci-BIOC/erma ) r_suggests_genomeinfodb? ( sci-BIOC/GenomeInfoDb ) r_suggests_geuvpack? ( sci-BIOC/geuvPack ) r_suggests_geuvstore? ( sci-BIOC/geuvStore ) r_suggests_ggtools? ( sci-BIOC/GGtools ) r_suggests_gwascat? ( sci-BIOC/gwascat ) r_suggests_homo_sapiens? ( sci-BIOC/Homo_sapiens ) r_suggests_iranges? ( sci-BIOC/IRanges ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/gQTLBase_1.2.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=47108cd4fbdc01b1b050a533fdf06ba2

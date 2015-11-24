@@ -8,5 +8,6 @@ LICENSE=Artistic-2
 RDEPEND=sci-BIOC/genefilter r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_bladderbatch? ( sci-BIOC/bladderbatch ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_pamr? ( sci-CRAN/pamr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_zebrafishrnaseq? ( sci-BIOC/zebrafishRNASeq ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/sva_3.18.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=6af80ff019314450a7ac619d184141f7

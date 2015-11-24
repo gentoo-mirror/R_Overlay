@@ -8,5 +8,6 @@ LICENSE=LGPL-3+
 RDEPEND=sci-BIOC/IRanges >=sci-BIOC/BiocGenerics-0.7.5 sci-BIOC/limma sci-CRAN/dplyr sci-CRAN/scales sci-CRAN/gtable sci-CRAN/magrittr sci-BIOC/Biobase sci-BIOC/BiocStyle sci-CRAN/ggplot2 sci-CRAN/RColorBrewer sci-CRAN/WriteXLS sci-CRAN/gridExtra sci-CRAN/gtools sci-CRAN/rainbow sci-CRAN/rgl sci-BIOC/biovizBase sci-CRAN/plyr >=dev-lang/R-3.2.1 sci-BIOC/GenomicRanges r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/BubbleTree_2.0.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=be23fa2975673664caa4e086935f62fa

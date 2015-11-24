@@ -8,5 +8,6 @@ LICENSE=GPL-2+
 RDEPEND=sci-CRAN/plotrix sci-CRAN/rgl sci-CRAN/animation >=sci-CRAN/ape-3.0.10 sci-CRAN/maps >=sci-CRAN/phangorn-1.6.3 sci-CRAN/clusterGeneration sci-CRAN/mnormt sci-CRAN/msm sci-CRAN/scatterplot3d sci-CRAN/numDeriv dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/phytools_0.4-05.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=b2c545739d551701c6a69ea8037a3718

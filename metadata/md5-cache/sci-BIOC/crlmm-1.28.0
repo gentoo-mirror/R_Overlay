@@ -8,5 +8,6 @@ LICENSE=Artistic-2
 RDEPEND=>=sci-BIOC/preprocessCore-1.17.7 sci-CRAN/foreach >=sci-BIOC/affyio-1.23.2 sci-CRAN/matrixStats >=sci-BIOC/Biobase-2.15.4 sci-CRAN/VGAM sci-CRAN/mvtnorm >=sci-BIOC/oligoClasses-1.21.12 sci-CRAN/ellipse >=dev-lang/R-2.14.0 >=sci-CRAN/RcppEigen-0.3.1.2.1 sci-BIOC/illuminaio sci-BIOC/SNPchip sci-BIOC/BiocGenerics sci-CRAN/ff >=sci-BIOC/preprocessCore-1.17.7 r_suggests_genomewidesnp6crlmm? ( >=sci-BIOC/genomewidesnp6Crlmm-1.0.7 ) r_suggests_ggdata? ( sci-BIOC/GGdata ) r_suggests_hapmapsnp6? ( sci-BIOC/hapmapsnp6 ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_snpstats? ( sci-BIOC/snpStats ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/crlmm_1.28.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	f20548a2f7b0128068388cd2ec26708a	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
 _md5_=967674ab0f72426ee85de11f68f7acc3
