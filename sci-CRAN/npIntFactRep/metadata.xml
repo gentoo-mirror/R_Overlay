@@ -3,10 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Nonparametric Interaction Tests for Factorial Designs with
-		Repeated Measures // Nonparametric aligned rank tests for
-		interaction in two-way factorial designs, on data set with
-		repeated measures in 'wide' format. There is a choice between
-		0) CHECK for alignment 1) Aligned REGULAR 2) FRIEDMAN 3) KOCH
-		ranks.
+		Repeated Measures // Returns nonparametric aligned rank tests
+		for the interaction in two-way factorial designs, on R data
+		sets with repeated measures in 'wide' format. Five ANOVAs
+		tables are reported. A PARAMETRIC one on the original data, one
+		for a CHECK upon the interaction alignments, and three aligned
+		rank tests: one on the aligned REGULAR, one on the FRIEDMAN,
+		and one on the KOCH ranks. In these rank tests, only the
+		resulting values for the interaction are relevant.
 	</longdescription>
 </pkgmetadata>

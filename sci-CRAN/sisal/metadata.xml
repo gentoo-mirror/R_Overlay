@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sequential Input Selection Algorithm // Implements the SISAL
+		algorithm by Tikka and Hollmn. It is a sequential backward
+		selection algorithm which uses a linear model in a cross-
+		validation setting. Starting from the full model, one variable
+		at a time is removed based on the regression coefficients. From
+		this set of models, a parsimonious (sparse) model is found by
+		choosing the model with the smallest number of variables among
+		those models where the validation error is smaller than a
+		threshold. Also implements extensions which explore larger
+		parts of the search space and/or use ridge regression instead
+		of ordinary least squares.
+	</longdescription>
+</pkgmetadata>

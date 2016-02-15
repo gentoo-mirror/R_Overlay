@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Inference on Prototypes from Clusters of Features // Procedures
+		for testing for group-wide signal in clusters of variables.
+		Tests can be performed for single groups in isolation
+		(univariate) or multiple groups together (multivariate).
+		Specific tests include the exact and approximate (un)selective
+		likelihood ratio tests described in Reid et al (2015), the
+		selective F test and marginal screening prototype test of Reid
+		and Tibshirani (2015). User may pre-specify columns to be
+		included in prototype formation, or allow the function to
+		select them itself. A mixture of these two is also possible.
+		Any variable selection is accounted for using the selective
+		inference framework. Options for non-sampling and hit-and-run
+		null reference distributions.
+	</longdescription>
+</pkgmetadata>

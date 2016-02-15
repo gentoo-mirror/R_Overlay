@@ -2,7 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Standard Normal Homogeneity Test // Robust and non-robust SNHT
-		tests for changepoint detection.
+		Standard Normal Homogeneity Test // Implementation of robust and
+		non-robust Standard Normal Homogeneity Test (SNHT) for
+		changepoint detection.  This test statistic is equal sided, as
+		proposed in "Homogenization of Radiosonde Temperature Time
+		Series Using Innovation Statistics" by Haimberger, L., 2007.
+		However, the statistic contains an estimate of sigma^2 in the
+		denominator instead of sigma, which seems to be a more
+		appropriate value (based on the paper "Homogenization of
+		Swedish temperature data. Part I: Homogeneity test for linear
+		trends." by Alexandersson, H., and A. Moberg, 1997).
 	</longdescription>
 </pkgmetadata>

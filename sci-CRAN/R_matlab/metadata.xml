@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Read and write of MAT files together with R-to-MATLAB
-		connectivity // This package provides methods readMat() and
-		writeMat() to read and write MAT files.  It also makes it
-		possible to communicate (evaluate code, send and retrieve
-		objects etc.) with MATLAB v6 or higher running locally or on a
-		remote host.
+		Read and Write MAT Files and Call MATLAB from Within R // Methods
+		readMat() and writeMat() for reading and writing MAT files.
+		For user with MATLAB v6 or newer installed (either locally or
+		on a remote host), the package also provides methods for
+		controlling MATLAB (trademark) via R and sending and retrieving
+		data between R and MATLAB.
 	</longdescription>
 </pkgmetadata>

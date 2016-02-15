@@ -21,10 +21,13 @@
 		functions power.scABEL() and sampleN.scABEL() to calculate
 		power and sample size for the BE decision via scaled (widened)
 		BE acceptance limits (EMA recommended) based on simulations.
-		Contains further functions power.RSABE() and sampleN.RSABE() to
-		calculate power and sample size for the BE decision via
-		reference scaled ABE criterion according to the FDA procedure
-		based on simulations. Contains further functions
+		Contains also functions scABEL.ad() and sampleN.scABEL.ad() to
+		iteratively adjust alpha in order to maintain the consumer risk
+		in ABEL studies and adapt the sample size for the loss in
+		power. Contains further functions power.RSABE() and
+		sampleN.RSABE() to calculate power and sample size for the BE
+		decision via reference scaled ABE criterion according to the
+		FDA procedure based on simulations. Contains further functions
 		power.NTIDFDA() and sampleN.NTIDFDA() to calculate power and
 		sample size for the BE decision via the FDA procedure for
 		NTID's based on simulations. Contains further functions

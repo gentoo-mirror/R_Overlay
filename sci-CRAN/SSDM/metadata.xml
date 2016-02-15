@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stacked Species Distribution Modelling // Allows to map species
+		richness and endemism based on stacked species distribution
+		models (SSDM). Individuals SDMs can be created using a single
+		or multiple algorithms (ensemble SDMs). For each species, an
+		SDM can yield a habitat suitability map, a binary map, a
+		between-algorithm variance map, and can assess variable
+		importance, algorithm accuracy, and between- algorithm
+		correlation. Methods to stack individual SDMs include summing
+		individual probabilities and thresholding then summing.
+		Thresholding can be based on a specific evaluation metric or by
+		drawing repeatedly from a Bernoulli distribution. The SSDM
+		package also provides a user-friendly interface.
+	</longdescription>
+</pkgmetadata>

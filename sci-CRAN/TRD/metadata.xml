@@ -3,21 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Transmission Ratio Distortion // Transmission Ratio Distortion
-		(TRD) is a genetic phenomenon where two alleles from either
-		parent are not transmitted to the offspring at the Mendelian
-		1:1 ratio. Occurrence of TRD in general population can lead to
-		false inflation or attenuation of association signals in case
-		populations. Therefore, it is necessary to adjust for TRD in
-		model fitting of case populations. This package uses models
-		such as loglinear model (Weinberg 1998), augmented loglinear
-		model (Huang 2014), and tests such as TDT (Spielman 1993),
-		augmented TDT (Labbe 2013), on simulated or real datasets. This
-		package has a simulation function which generates a population
-		that is under the influence of TRD, and samples a sub-
-		population, which can serve as the dataset to fit a loglinear
-		model or to perform a TDT. Real dataset with the same data
-		structure as described in the help file of the function 'll'
-		can also be used in the loglinear model and the TDT functions.
-		No real dataset is included in this package.
+		(TRD) is a genetic phenomenon where the two alleles from either
+		parent are not transmitted to the offspring at the expected 1:1
+		ratio under Mendelian inheritance, leading to spurious signals
+		in genetic association studies. Functions in this package are
+		developed to account for this phenomenon using loglinear model
+		and Transmission Disequilibrium Test (TDT). Some population
+		information can also be calculated.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiblock Sparse Multivariable Analysis // There are several
+		functions to implement the method for analysis in a multiblock
+		multivariable data. If the input is only a matrix, then the
+		principal components analysis (PCA) is implemented. If the
+		input is a list of matrices, then the multiblock PCA is
+		implemented. If the input is two matrices for exploratory and
+		objective variables, then the partial least squares (PLS)
+		analysis is implemented. If the input is two list of matrices
+		for exploratory and objective variables, then the multiblock
+		PLS analysis is implemented. Moreover, if the extra outcome
+		variable is specified, then the supervised version for the
+		methods above is implemented. For each methods, the sparse
+		modeling is also incorporated. Functions to select the number
+		of components and the regularized parameters are also provided.
+	</longdescription>
+</pkgmetadata>

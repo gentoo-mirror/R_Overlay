@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Semi-Supervised Generalized Structural Equation Modeling //
+		Conducts a semi-gSEM statistical analysis (semi-supervised
+		generalized structural equation modeling) on a data frame of
+		coincident observations of multiple predictive or intermediate
+		variables and a final continuous, outcome variable, via two
+		functions sgSEMp1() and sgSEMp2(), representing fittings based
+		on two statistical principles. Principle 1 determines all
+		sensible univariate relationships in the spirit of the
+		Markovian process. The relationship between each pair of
+		variables, including predictors and the final outcome variable,
+		is determined with the Markovian property that the value of the
+		current predictor is sufficient in relating to the next level
+		variable, i.e., the relationship is independent of the specific
+		value of the preceding-level variables to the current
+		predictor, given the current value. Principle 2 resembles the
+		multiple regression principle in the way multiple predictors
+		are considered simultaneously. Specifically, the relationship
+		of the first-level predictors (such as Time and irradiance etc)
+		to the outcome variable (such as, module degradation or
+		yellowing)  is fit by a supervised additive model. Then each
+		significant intermediate variable is taken as the new outcome
+		variable and the other variables (except the final outcome
+		variable) as the predictors in investigating the next-level
+		multivariate relationship by a supervised additive model. This
+		fitting process is continued until all sensible models are
+		investigated.
+	</longdescription>
+</pkgmetadata>

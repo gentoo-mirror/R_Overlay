@@ -2,12 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Gene Enrichment Analysis from ACSN Maps or Gmt Files // Compute
+		Gene Enrichment Analysis from ACSN Maps or GMT Files // Compute
 		and represent gene set enrichment or depletion from your data
 		based on pre-saved maps from the Atlas of Cancer Signalling
-		Networks (ACSN)  or user imported maps. The gene set enrichment
-		can be run with hypergeometric test or Fisher exact test, and
-		can use multiple corrections. Visualization of data can be done
-		either by barplots or heatmaps.
+		Networks (ACSN) or user imported maps. User imported maps must
+		be complying with the GMT format as defined by the Broad
+		Institute, that is to say that the file should be tab-
+		separated, that the first column should contain the module
+		name, the second column can contain comments that will be
+		overwritten with the number of genes in the module, and
+		subsequent columns must contain the list of genes (HUGO
+		symbols; tab-separated) inside the module. The gene set
+		enrichment can be run with hypergeometric test or Fisher exact
+		test, and can use multiple corrections. Visualization of data
+		can be done either by barplots or heatmaps.
 	</longdescription>
 </pkgmetadata>

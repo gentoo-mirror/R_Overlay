@@ -2,17 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Nested Block Designs for Unstructured Treatments // Nested block
-		designs for unstructured treatment sets where blocks can be
-		repeatedly nested and treatments can have different levels of
-		replication. Blocks are optimized hierarchically from the top
-		down with each set of nested blocks optimized within the levels
-		of any existing higher-level blocks. Block sizes are equal if
-		the number of blocks exactly divides the number of plots,
-		otherwise they differ by at most one plot. The design output is
-		a data table giving a randomised allocation of treatments to
-		blocks together with a plan table showing treatments in blocks
-		and a set of blocks-by-treatments incidence matrices, one for
-		each blocks stratum.
+		Nested Block Designs for Unstructured Treatments // Constructs
+		nested and crossed block designs for unstructured treatment
+		sets with arbitrary replication not necessarily all equal.
+		Blocks can be nested to any required depth of nesting and
+		blocks are optimized hierarchically from the top down with
+		successive nested blocks strata optimized within the levels of
+		all preceding blocks strata. Block sizes are all equal in any
+		one stratum if the number of blocks in that stratum exactly
+		divides the number of plots, otherwise they differ by at most
+		one plot. The design output is a data table showing a
+		randomised allocation of treatments to blocks together with
+		plans showing the allocation of treatments to blocks for each
+		block in the bottom stratum of the design. D and A-efficiency
+		factors are shown for each stratum together with A-efficiency
+		upper bounds, where available.
 	</longdescription>
 </pkgmetadata>

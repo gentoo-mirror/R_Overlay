@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Integrative Lasso with Penalty Factors // The core of the package
+		is cvr2.ipflasso(), an extension of glmnet to be used when the
+		(large) set of available predictors is partitioned into several
+		modalities which potentially differ with respect to their
+		information content in terms of prediction. For example, in
+		biomedical applications patient outcome such as survival time
+		or response to therapy may have to be predicted based on, say,
+		mRNA data, miRNA data, methylation data, CNV data, clinical
+		data, etc. The clinical predictors are on average often much
+		more important for outcome prediction than the mRNA data. The
+		ipflasso method takes this problem into account by using
+		different penalty parameters for predictors from different
+		modalities. The ratio between the different penalty parameters
+		can be chosen by cross-validation.
+	</longdescription>
+</pkgmetadata>

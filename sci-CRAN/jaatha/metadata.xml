@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Fast Parameter Estimation Method for Evolutionary Biology //
-		Jaatha is a composite likelihood method for inferring
-		evolutionary parameters using genetic data. Given a model of
-		the evolutionary history of two biological populations as well
-		as SNP data from multiple individuals from each population, it
-		estimates model parameters like the time of separation of both
-		species.
+		Simulation-Based Maximum Likelihood Parameter Estimation // An
+		estimation method that can use computer simulations to
+		approximate maximum-likelihood estimates even when the
+		likelihood function can not be evaluated directly. It can be
+		applied whenever it is feasible to conduct many simulations,
+		but works best when the data is approximately Poisson
+		distributed. It was originally designed for demographic
+		inference in evolutionary biology. It has optional support for
+		conducting coalescent simulation using the 'coala' package.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/magrittr-1.0.1 sci-CRAN/whisker dev-lang/R
+DESCRIPTION=Extending Rs Dendrogram Functionality
+EAPI=5
+IUSE=r_suggests_ape r_suggests_circlize r_suggests_colorspace r_suggests_corrplot r_suggests_covr r_suggests_d3heatmap r_suggests_dendextendrcpp r_suggests_dendser r_suggests_dynamictreecut r_suggests_ggplot2 r_suggests_gplots r_suggests_knitr r_suggests_microbenchmark r_suggests_nmf r_suggests_plyr r_suggests_profdpm r_suggests_pvclust r_suggests_r[-minimal] r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/magrittr-1.0.1 sci-CRAN/whisker r_suggests_ape? ( sci-CRAN/ape ) r_suggests_circlize? ( >=sci-CRAN/circlize-0.2.5 ) r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_d3heatmap? ( sci-CRAN/d3heatmap ) r_suggests_dendextendrcpp? ( >=sci-CRAN/dendextendRcpp-0.5.0 ) r_suggests_dendser? ( sci-CRAN/DendSer ) r_suggests_dynamictreecut? ( sci-CRAN/dynamicTreeCut ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gplots? ( sci-CRAN/gplots ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_microbenchmark? ( sci-CRAN/microbenchmark ) r_suggests_nmf? ( sci-CRAN/NMF ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_profdpm? ( sci-CRAN/profdpm ) r_suggests_pvclust? ( sci-CRAN/pvclust ) r_suggests_r[-minimal]? ( dev-lang/R[-minimal] dev-lang/R[-minimal] ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dendextend_1.1.8.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	28fb3e5852485af1c348d446b0b98389	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=245520334488d20f65c15bbb18f09f64

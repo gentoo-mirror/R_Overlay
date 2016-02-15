@@ -6,8 +6,9 @@
 		for Ensemble Modeling // Extensible S4 classes and methods for
 		batch training of regression and classification algorithms such
 		as Random Forest, Gradient Boosting Machine, Neural Network,
-		Support Vector Machines, and K-Nearest Neighbors. These
-		algorithms constitute a set of 'base learners', which can
+		Support Vector Machines, K-Nearest Neighbors, Penalized
+		Regression (L1/L2), and Bayesian Additive Regression Trees.
+		These algorithms constitute a set of 'base learners', which can
 		subsequently be combined together to form ensemble predictions.
 		This package provides cross-validation wrappers to allow for
 		downstream application of ensemble integration techniques,

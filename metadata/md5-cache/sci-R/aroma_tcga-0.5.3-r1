@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/R_methodsS3-1.2.0 >=sci-CRAN/R_oo-1.7.1 >=sci-CRAN/R_utils-1.4.0 >=sci-CRAN/R_cache-0.3.0 >=sci-CRAN/aroma_core-1.5.0 >=sci-CRAN/R_filesets-0.8.0 dev-lang/R
+DESCRIPTION=Methods for accessing online The... (see metadata)
+EAPI=5
+IUSE=r_suggests_aroma_affymetrix r_suggests_gsubfn r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=>=sci-CRAN/R_methodsS3-1.2.0 >=sci-CRAN/R_oo-1.7.1 >=sci-CRAN/R_utils-1.4.0 >=sci-CRAN/R_cache-0.3.0 >=sci-CRAN/aroma_core-1.5.0 >=sci-CRAN/R_filesets-0.8.0 r_suggests_aroma_affymetrix? ( >=sci-CRAN/aroma_affymetrix-1.5.0 ) r_suggests_gsubfn? ( >=sci-CRAN/gsubfn-0.5.2 ) r_suggests_xml? ( >=sci-CRAN/XML-2.8.1 ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/aroma.tcga_0.5.3.tar.gz -> aroma.tcga_0.5.3-r1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	28fb3e5852485af1c348d446b0b98389	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=abed423a27f4baa64e06c647f8c88ab6

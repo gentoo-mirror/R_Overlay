@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Transfer Entropy Package // Estimates the transfer entropy
+		from one time series to another, where each time series
+		consists of continuous random variables. The transfer entropy
+		is an extension of mutual information which takes into account
+		the direction of information flow, under the assumption that
+		the underlying processes can be described by a Markov model.
+		Two estimation methods are provided. The first calculates
+		transfer entropy as the difference of mutual information.
+		Mutual information is estimated using the Kraskov method, which
+		builds on a nearest-neighbor framework (see package
+		references). The second estimation method estimate transfer
+		entropy via the a generalized correlation sum.
+	</longdescription>
+</pkgmetadata>

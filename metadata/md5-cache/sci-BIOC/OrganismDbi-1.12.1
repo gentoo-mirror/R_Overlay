@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/graph sci-BIOC/IRanges >=sci-BIOC/BiocGenerics-0.15.10 >=sci-BIOC/AnnotationDbi-1.31.19 >=sci-BIOC/GenomicFeatures-1.21.12 sci-BIOC/Biobase sci-BIOC/BiocInstaller sci-BIOC/GenomicRanges sci-CRAN/RSQLite sci-BIOC/S4Vectors >=dev-lang/R-2.14.0 sci-BIOC/RBGL dev-lang/R
+DESCRIPTION=Software to enable the smooth in... (see metadata)
+EAPI=5
+IUSE=r_suggests_biomart r_suggests_homo_sapiens r_suggests_rattus_norvegicus r_suggests_rtracklayer r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-BIOC/graph sci-BIOC/IRanges >=sci-BIOC/BiocGenerics-0.15.10 >=sci-BIOC/AnnotationDbi-1.31.19 >=sci-BIOC/GenomicFeatures-1.21.12 sci-BIOC/Biobase sci-BIOC/BiocInstaller sci-BIOC/GenomicRanges sci-CRAN/RSQLite sci-BIOC/S4Vectors >=dev-lang/R-2.14.0 sci-BIOC/RBGL r_suggests_biomart? ( sci-BIOC/biomaRt ) r_suggests_homo_sapiens? ( sci-BIOC/Homo_sapiens ) r_suggests_rattus_norvegicus? ( sci-BIOC/Rattus_norvegicus ) r_suggests_rtracklayer? ( sci-BIOC/rtracklayer ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/OrganismDbi_1.12.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	28fb3e5852485af1c348d446b0b98389	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=8143b39aad66b77bc788d3a35b40bb3a

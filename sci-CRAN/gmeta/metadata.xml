@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Meta-Analysis via a Unified Framework of Confidence Distribution
+		// An implementation of an all-in-one function for a wide range
+		of meta-analysis problems. It contains a single function
+		gmeta() that unifies all standard meta-analysis methods and
+		also several newly developed ones under a framework of
+		combining confidence distributions (CDs). Specifically, the
+		package can perform classical p-value combination methods (such
+		as methods of Fisher, Stouffer, Tippett, etc.), fit meta-
+		analysis fixed-effect and random-effects models, and
+		synthesizes 2x2 tables. Furthermore, it can perform robust
+		meta-analysis, which provides protection against model-
+		misspecifications, and limits the impact of any unknown
+		outlying studies. In addition, the package implements two exact
+		meta-analysis methods from synthesizing 2x2 tables with rare
+		events (e.g., zero total event). A plot function to visualize
+		individual and combined CDs through extended forest plots is
+		also available.
+	</longdescription>
+</pkgmetadata>

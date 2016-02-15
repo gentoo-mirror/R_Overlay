@@ -3,21 +3,22 @@
 <pkgmetadata>
 	<longdescription>
 		Classifies RNA Structure Change in Chemical Mapping Data //
-		Mutations in RNA will create a riboSNitch, if important
-		structural elements are disrupted.Recent ultra-high throughput
-		techniques, such as SHAPE-MaP and PARS, enable the collection
-		of structural RNA information on a genome-wide scale. With the
-		ability to gather genome-wide structural information on RNA, it
-		is important to accurately classify these structural data in
-		order to identify those structural changes that result in a
-		phenotypic outcome. We have developed an automated approach to
-		classify structure change in SHAPE data. This method utilizes
-		random forest classification on a set of pattern and magnitude
-		parameters from the mutate and map SHAPE data set (or another
-		user specified data set) to build a classifier. The classifier
-		is then used to identify structure change in other SHAPE
-		traces. Enabling scientists to identify structure change may
-		help guide experiments that examine RNA structure and its role
-		in biological processes.
+		Variations in RNA sequence lead to differences in RNA structure
+		called riboSNitches, if important structural elements are
+		disrupted. Recent ultra-high throughput techniques, such as
+		SHAPE-MaP and PARS, enable the collection of structural
+		information on RNAs at a genome-wide scale. With the ability to
+		gather large amounts of structural information, it is important
+		to accurately identify those structural changes that can
+		potentially result in a phenotypic outcome. We have developed
+		an automated approach to identify and classify structure change
+		in chemical mapping data. This method utilizes random forest
+		classification on a set of seven characterizing features. The
+		default mutate and map SHAPE data sets (or another user
+		specified data set) can be used to build a classifier. The
+		classifier is then used to identify structure change in other
+		SHAPE traces. Enabling scientists to identify structure change
+		may help guide experiments that examine RNA structure and its
+		role in biological processes.
 	</longdescription>
 </pkgmetadata>

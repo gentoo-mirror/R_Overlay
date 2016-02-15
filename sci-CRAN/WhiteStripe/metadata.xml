@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Whitestripe White Matter Normalization for Magnetic Resonance
-		Images // Whitestripe normalization from Shinohara et. al does
-		For intensity-based normalization of T1 and T2 images, where
-		normal appearing white matter performs well, but requires
-		segmentation.  This method performs white matter mean and
+		White Matter Normalization for Magnetic Resonance Images using
+		Whitestripe // Shinohara et. al introduced Whitestripe, an
+		intensity-based normalization of T1 and T2 images, where normal
+		appearing white matter performs well, but requires
+		segmentation. This method performs white matter mean and
 		standard deviation estimates on data that has been rigidly-
 		registered to the MNI template and uses histogram-based
 		methods.

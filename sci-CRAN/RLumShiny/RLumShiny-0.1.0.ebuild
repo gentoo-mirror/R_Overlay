@@ -1,0 +1,20 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=5
+
+inherit R-packages
+
+DESCRIPTION='Shiny Applications for the R Package Luminescence'
+SRC_URI="http://cran.r-project.org/src/contrib/RLumShiny_0.1.0.tar.gz"
+LICENSE='GPL-3'
+
+DEPEND=">=sci-CRAN/Luminescence-0.4.2
+	>=sci-CRAN/shiny-0.11.1
+	sci-CRAN/googleVis
+	>=dev-lang/R-3.1.2
+	sci-CRAN/digest
+	sci-CRAN/RCurl
+"
+RDEPEND="${DEPEND-}"

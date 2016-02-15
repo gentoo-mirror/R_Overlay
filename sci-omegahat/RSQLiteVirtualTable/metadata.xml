@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Create virtual tables from R Objects that can be Used Directly in
+		an SQLite database // This is a mechanism to explore using
+		virtual tables in SQLite from within R and providing the
+		contents of an SQLite table via R objects, specifically, an R
+		data frame. At its very simplest, this is a means of not having
+		to explicitly import the data frame into SQLite (via INSERT
+		commands or dumping it as a CSV file and then .import).
+		Instead, we can take the data frame in memory in R and expose
+		it as a table via an abstract interface that does not require
+		an immediate copy of the data from R. This package aims to
+		facilitate exploring the ideas. We can experiment with
+		different indexing strategies, etc.
+	</longdescription>
+</pkgmetadata>

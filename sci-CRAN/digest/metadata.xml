@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Create Cryptographic Hash Digests of R Objects // Implementation
-		of a function 'digest()' for the creation of hash digests of
+		Create Compact Hash Digests of R Objects // Implementation of a
+		function 'digest()' for the creation of hash digests of
 		arbitrary R objects (using the md5, sha-1, sha-256, crc32,
 		xxhash and murmurhash algorithms) permitting easy comparison of
 		R language objects, as well as a function 'hmac()' to create
@@ -15,7 +15,7 @@
 		md5, sha-1, sha-256 and aes, this package uses small standalone
 		implementations that were provided by Christophe Devine. For
 		crc32, code from the zlib library is used. For sha-512, an
-		implementation by Aaron D. Gifford is used. For xxHash, the
+		implementation by Aaron D. Gifford is used. For xxhash, the
 		implementation by Yann Collet is used. For murmurhash, an
 		implementation by Shane Day is used. . Please note that this
 		package is not meant to be deployed for cryptographic purposes

@@ -7,11 +7,14 @@
 		completely new Artificial Neural Network representation that
 		offers unmatched efficiency, modularity, and extensibility.
 		FCNN4R provides standard teaching (backpropagation, Rprop,
-		simulated annealing) and pruning algorithms (minimum magnitude,
-		Optimal Brain Surgeon), but it is first and foremost an
-		efficient computational engine. Users can easily implement
-		their algorithms by taking advantage of fast gradient computing
-		routines, as well as network reconstruction functionality
-		(removing weights and redundant neurons).
+		simulated annealing, stochastic gradient) and pruning
+		algorithms (minimum magnitude, Optimal Brain Surgeon), but it
+		is first and foremost an efficient computational engine. Users
+		can easily implement their algorithms by taking advantage of
+		fast gradient computing routines, as well as network
+		reconstruction functionality (removing weights and redundant
+		neurons, reordering inputs, merging networks). Networks can be
+		exported to C functions in order to integrate them into
+		virtually any software solution.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Framework for Stochastic Disease Spread Simulations //
+		Livestock movements are important for the spread of many
+		infectious diseases between herds. The package provides an
+		efficient and flexible framework for stochastic disease spread
+		modelling that integrates within-herd disease dynamics as
+		continuous-time Markov chains and livestock movements between
+		herds as scheduled events. The core simulation solver is
+		implemented in C and uses 'OpenMP' (if available) to divide
+		work over multiple processors. The package contains template
+		models and can be extended with user defined models.
+	</longdescription>
+</pkgmetadata>

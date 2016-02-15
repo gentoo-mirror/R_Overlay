@@ -2,13 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Extensible Package for Principal-Component-Regression-based
-		Integration of Base Learners // This package extends the base
-		classes and methods of EnsembleBase package for Principal-
-		Components-Regression-based (PCR) integration of base learners.
-		Default implementation uses cross-validation error to choose
-		the optimal number of PC components for the final predictor.
-		The package takes advantage of the file method provided in
+		Extensible Package for Principal-Component-Regression-Based
+		Integration of Base Learners // Extends the base classes and
+		methods of EnsembleBase package for Principal-Components-
+		Regression-based (PCR) integration of base learners. Default
+		implementation uses cross-validation error to choose the
+		optimal number of PC components for the final predictor. The
+		package takes advantage of the file method provided in
 		EnsembleBase package for writing estimation objects to disk in
 		order to circumvent RAM bottleneck. Special save and load
 		methods are provided to allow estimation objects to be saved to

@@ -3,13 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Regularized Cox Model // Cox model regularized with net (L1 and
-		Laplacian), elastic-net (L1 and L2) or lasso (L1) penalty. In
-		addition, it can truncate the estimate by a hard threshold,
-		which is selected simultaneously with other tuning parameters.
-		Moreover, it can handle the adaptive version of these
-		regularization forms, such as adaptive lasso and net adjusting
-		for signs of linked coefficients. The package uses one-step
-		coordinate descent algorithm and runs extremely fast by taking
-		into account the sparsity structure of coefficients.
+		Laplacian), elastic-net (L1 and L2) or lasso (L1) penalty, and
+		their adaptive forms, such as adaptive lasso and net adjusting
+		for signs of linked coefficients. Moreover, it treats the
+		number of non-zero coefficients as another tuning parameter and
+		simultaneously selects with the regularization parameter
+		\code{lambda}. In addition, it fits a varying coefficient Cox
+		model by kernel smoothing, incorporated with the aforementioned
+		penalties. The package uses one-step coordinate descent
+		algorithm and runs extremely fast by taking into account the
+		sparsity structure of coefficients.
 	</longdescription>
 </pkgmetadata>

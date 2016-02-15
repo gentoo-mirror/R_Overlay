@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/beanplot sci-BIOC/Rsamtools sci-CRAN/som sci-BIOC/BSgenome sci-BIOC/GenomicRanges >=dev-lang/R-2.15.0 sci-BIOC/IRanges sci-BIOC/rtracklayer sci-CRAN/VGAM dev-lang/R
+DESCRIPTION=Analysis of CAGE (Cap Analysis o... (see metadata)
+EAPI=5
+IUSE=r_suggests_bsgenome_drerio_ucsc_danrer7 r_suggests_fantom3and4cage byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/data_table sci-CRAN/beanplot sci-BIOC/Rsamtools sci-CRAN/som sci-BIOC/BSgenome sci-BIOC/GenomicRanges >=dev-lang/R-2.15.0 sci-BIOC/IRanges sci-BIOC/rtracklayer sci-CRAN/VGAM r_suggests_bsgenome_drerio_ucsc_danrer7? ( sci-BIOC/BSgenome_Drerio_UCSC_danRer7 ) r_suggests_fantom3and4cage? ( sci-BIOC/FANTOM3and4CAGE ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/CAGEr_1.12.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	28fb3e5852485af1c348d446b0b98389	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=e1f8e4cfced2ef4e523627810b06dba8

@@ -1,8 +1,8 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 inherit R-packages
 
@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_bsgenome? ( >=sci-BIOC/BSgenome-1.16.1 )
 "
 DEPEND="sci-BIOC/IRanges
-	sci-BIOC/IRanges
-	sci-BIOC/GenomicRanges
 	sci-BIOC/GenomicRanges
 	sci-BIOC/S4Vectors
+	sci-BIOC/IRanges
+	sci-BIOC/GenomicRanges
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

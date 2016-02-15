@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Modified Maximum Contrast Method // This package provides an
-		implementation of modified maximum contrast methods and the
-		maximum contrast method. This version supports functions
-		mmcm.mvt, mcm.mvt that gives P-value by using randomized quasi-
-		Monte Carlo method from pmvt function of package mvtnorm, and
-		mmcm.resamp that gives P-value by using the permutation method.
+		Modified Maximum Contrast Method // An implementation of modified
+		maximum contrast methods and the maximum contrast method:
+		Functions 'mmcm.mvt' and 'mcm.mvt' give P-value by using
+		randomized quasi-Monte Carlo method with 'pmvt' function of
+		package 'mvtnorm', and 'mmcm.resamp' gives P-value by using a
+		permutation method.
 	</longdescription>
 </pkgmetadata>

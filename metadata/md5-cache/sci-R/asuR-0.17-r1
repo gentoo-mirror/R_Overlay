@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R[-minimal] dev-lang/R[-minimal] dev-lang/R
+DESCRIPTION=Advanced statistics using R
+EAPI=5
+IUSE=r_suggests_car byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=dev-lang/R[-minimal] dev-lang/R[-minimal] r_suggests_car? ( sci-CRAN/car ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/asuR_0.17.tar.gz -> asuR_0.17-r1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	28fb3e5852485af1c348d446b0b98389	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=4343d8e48b572ebf1d04e583eeec7259

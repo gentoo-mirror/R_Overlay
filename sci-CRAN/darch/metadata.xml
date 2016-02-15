@@ -2,18 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Package for deep architectures and Restricted-Bolzmann-Machines
-		// The darch package is build on the basis of the code from G.
+		Package for Deep Architectures and Restricted Boltzmann Machines
+		// The darch package is built on the basis of the code from G.
 		E. Hinton and R. R. Salakhutdinov (available under Matlab Code
-		for deep belief nets : last visit: 01.08.2013). This package is
-		for generating neural networks with many layers (deep
-		architectures) and train them with the method introduced by the
-		publications "A fast learning algorithm for deep belief nets"
-		(G. E. Hinton, S. Osindero, Y. W. Teh) and "Reducing the
+		for deep belief nets). This package is for generating neural
+		networks with many layers (deep architectures) and train them
+		with the method introduced by the publications "A fast learning
+		algorithm for deep belief nets" (G. E. Hinton, S. Osindero, Y.
+		W. Teh; doi: 10.1162/neco.2006.18.7.1527) and "Reducing the
 		dimensionality of data with neural networks" (G. E. Hinton, R.
-		R. Salakhutdinov). This method includes a pre training with the
-		contrastive divergence method publishing by G.E Hinton (2002)
+		R. Salakhutdinov; doi: 10.1126/science.1127647). This method
+		includes a pre training with the contrastive divergence method
+		published by G.E Hinton (2002; doi: 10.1162/089976602760128018)
 		and a fine tuning with common known training algorithms like
-		backpropagation or conjugate gradient.
+		backpropagation or conjugate gradients. Additionally,
+		supervised fine-tuning can be enhanced with maxout and dropout,
+		two recently developed techniques to improve fine-tuning for
+		deep learning.
 	</longdescription>
 </pkgmetadata>

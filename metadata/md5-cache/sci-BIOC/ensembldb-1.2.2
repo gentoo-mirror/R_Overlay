@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/AnnotationHub sci-BIOC/Rsamtools >=sci-BIOC/BiocGenerics-0.15.10 sci-BIOC/GenomicRanges sci-BIOC/GenomicFeatures sci-CRAN/RSQLite sci-CRAN/DBI sci-BIOC/Biobase sci-BIOC/GenomeInfoDb >=sci-BIOC/AnnotationDbi-1.31.19 sci-BIOC/rtracklayer sci-BIOC/IRanges sci-BIOC/S4Vectors dev-lang/R
+DESCRIPTION=Utilities to create and use an E... (see metadata)
+EAPI=5
+IUSE=r_suggests_biocstyle r_suggests_ensdb_hsapiens_v75 r_suggests_knitr r_suggests_runit r_suggests_shiny byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3+
+RDEPEND=sci-BIOC/AnnotationHub sci-BIOC/Rsamtools >=sci-BIOC/BiocGenerics-0.15.10 sci-BIOC/GenomicRanges sci-BIOC/GenomicFeatures sci-CRAN/RSQLite sci-CRAN/DBI sci-BIOC/Biobase sci-BIOC/GenomeInfoDb >=sci-BIOC/AnnotationDbi-1.31.19 sci-BIOC/rtracklayer sci-BIOC/IRanges sci-BIOC/S4Vectors r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_ensdb_hsapiens_v75? ( >=sci-BIOC/EnsDb_Hsapiens_v75-0.99.7 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_shiny? ( sci-CRAN/shiny ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/ensembldb_1.2.2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	28fb3e5852485af1c348d446b0b98389	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=6cfca860eed99159df9e74054c29ae12

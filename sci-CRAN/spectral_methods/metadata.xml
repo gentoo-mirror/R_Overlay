@@ -2,14 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Singular Spectrum Analysis (SSA) tools for time series analysis
-		// This package contains some implementations of Singular
-		Spectrum Analysis (SSA) for the gapfilling (gapfillSSA() ) and
-		spectral decomposition (filterTseriesSSA() ) of time series. It
-		contains the code used by Buttlar et. al. (2014), Nonlinear
-		Processes in Geophysics (gapfillNcdf). In addition, the
-		iterative SSA gapfilling of Kondrashov and Ghil (2006) is
+		Singular Spectrum Analysis (SSA) Tools for Time Series Analysis
+		// Contains some implementations of Singular Spectrum Analysis
+		(SSA) for the gapfilling and spectral decomposition of time
+		series. It contains the code used by Buttlar et. al. (2014),
+		Nonlinear Processes in Geophysics. In addition, the iterative
+		SSA gapfilling method of Kondrashov and Ghil (2006) is
 		implemented. All SSA calculations are done via the truncated
-		and fast SSA algorithm of Korobeneykov (2010) (package Rssa).
+		and fast SSA algorithm of Korobeynikov (2010) (package 'Rssa').
 	</longdescription>
 </pkgmetadata>

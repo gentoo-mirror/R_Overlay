@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Providing 'stringsAsFactors=FALSE' Variants of 'data.frame()' and
+		'as.data.frame()' // Base R's default setting for
+		'stringsAsFactors' within 'data.frame()' and 'as.data.frame()'
+		is supposedly the most often complained about piece of code in
+		the R infrastructure. The 'hellno' package provides an explicit
+		solution without changing R itself or having to mess around
+		with options. It tries to solve this problem by providing
+		alternative 'data.frame()' and 'as.data.frame()' functions that
+		are in fact simple wrappers around base R's 'data.frame()' and
+		'as.data.frame()' with 'stringsAsFactors' option set to
+		'HELLNO' ( which in turn equals FALSE ) by default.
+	</longdescription>
+</pkgmetadata>

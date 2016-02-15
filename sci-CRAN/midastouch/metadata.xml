@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiple Imputation by Distance Aided Donor Selection // Contains
+		the function mice.impute.midastouch(). Technically this
+		function is to be run from within the 'mice' package (van
+		Buuren et al. 2011), type ??mice. It substitutes the method
+		'pmm' within mice by 'midastouch'. The authors have shown that
+		'midastouch' is superior to default 'pmm'. Many ideas are based
+		on Siddique / Belin 2008's  MIDAS.
+	</longdescription>
+</pkgmetadata>

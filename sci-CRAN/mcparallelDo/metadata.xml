@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Simplified Interface for Running Commands on Parallel Processes
+		// Provides a function that wraps mcparallel() and mccollect()
+		from 'parallel' with temporary variables and a task handler.
+		Wrapped in this way the results of an mcparallel() call can be
+		returned to the R session when the fork is complete without
+		explicitly issuing a specific mccollect() to retrieve the
+		value. Outside of top-level tasks, multiple mcparallel() jobs
+		can be retrieved with a single call to mcparallelDoCheck().
+	</longdescription>
+</pkgmetadata>

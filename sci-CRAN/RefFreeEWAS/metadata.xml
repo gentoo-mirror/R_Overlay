@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		EWAS using reference-Free DNA methylation mixture deconvolution
+		EWAS using Reference-Free DNA Methylation Mixture Deconvolution
 		// Reference-free method for conducting EWAS while
 		deconvoluting DNA methylation arising as mixtures of cell
-		types.  This method is similar to surrogate variable analysis
-		(SVA and ISVA), except that it makes additional use of a
-		biological mixture assumption.
+		types. The older method (Houseman et al., 2014) is similar to
+		surrogate variable analysis (SVA and ISVA), except that it
+		makes additional use of a biological mixture assumption. The
+		newer method (Houseman et al., 2016) is similar to non-negative
+		matrix factorization, with additional constraints and
+		additional utilities.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Implementation of a Machine Learning Framework for Predicting
+		Drugs Side Effects // An implementation of a Machine Learning
+		Framework for prediction of new drugs Side Effects. Firstly
+		drugs are clustered with respect to their features description
+		and secondly predictions are made, according to Bayesian
+		scores. Moreover it can perform protein enrichment considering
+		the proteins clustered together in the first step of the
+		algorithm. This last tool is of extreme interest for biologist
+		and drug discovery purposes, given the fact that it can be used
+		either as a validation of the clusters obtained, as well as for
+		the possible discovery of new interactions between certain side
+		effects and non targeted pathways. Clustering of the drugs in
+		the feature space can be done using K-Means, PAM or K-Seeds (a
+		novel clustering algorithm proposed by the author).
+	</longdescription>
+</pkgmetadata>

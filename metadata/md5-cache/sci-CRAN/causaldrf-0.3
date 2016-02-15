@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.2 dev-lang/R[-minimal] sci-CRAN/survey dev-lang/R
+DESCRIPTION=Tools for Estimating Causal Dose... (see metadata)
+EAPI=5
+IUSE=r_suggests_bayestree r_suggests_dplyr r_suggests_hmisc r_suggests_knitr r_suggests_r[-minimal] r_suggests_reshape2 r_suggests_sas7bdat r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.1.2 dev-lang/R[-minimal] sci-CRAN/survey r_suggests_bayestree? ( sci-CRAN/BayesTree ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_r[-minimal]? ( dev-lang/R[-minimal] dev-lang/R[-minimal] dev-lang/R[-minimal] ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_sas7bdat? ( sci-CRAN/sas7bdat ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/causaldrf_0.3.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	28fb3e5852485af1c348d446b0b98389	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=639cf2820a5ff5aa9af3a04a96c04edb

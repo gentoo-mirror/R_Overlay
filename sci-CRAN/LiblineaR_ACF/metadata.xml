@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Linear Classification with Online Adaptation of Coordinate
+		Frequencies // Solving the linear SVM problem with coordinate
+		descent is very efficient and is implemented in one of the most
+		often used packages, 'LIBLINEAR' (available at
+		http://www.csie.ntu.edu.tw/~cjlin/liblinear). It has been shown
+		that the uniform selection of coordinates can be accelerated by
+		using an online adaptation of coordinate frequencies (ACF).
+		This package implements ACF and is based on 'LIBLINEAR' as well
+		as the 'LiblineaR' package
+		(https://cran.r-project.org/package=LiblineaR). It currently
+		supports L2-regularized L1-loss as well as L2-loss linear SVM.
+		Similar to 'LIBLINEAR' multi-class classification (one-vs-the
+		rest, and Crammer  Singer method) and cross validation for
+		model selection is supported. The training of the models based
+		on ACF is much faster than standard 'LIBLINEAR' on many
+		problems.
+	</longdescription>
+</pkgmetadata>

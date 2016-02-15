@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Penalized Regression-Based Clustering Method // Clustering is
+		unsupervised and exploratory in nature. Yet, it can be
+		performed through penalized regression with grouping pursuit.
+		In this package, we provide two algorithms for fitting the
+		penalized regression-based clustering (PRclust). One algorithm
+		is based on quadratic penalty and difference convex method.
+		Another algorithm is based on difference convex and ADMM,
+		called DC-ADD, which is more efficient. Generalized cross
+		validation was provided to select the tuning parameters. Rand
+		index, adjusted Rand index and Jaccard index were provided to
+		estimate the agreement between estimated cluster memberships
+		and the truth.
+	</longdescription>
+</pkgmetadata>
