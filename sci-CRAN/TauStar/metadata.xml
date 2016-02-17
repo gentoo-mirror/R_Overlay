@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Efficient Computation of the t* Statistic of Bergsma and Dassios
-		(2014) // Computes the t* statistic corresponding to the tau
-		star population coefficient introduced by Bergsma and Dassios
-		(Bernoulli 20(2), 2014, 1006-1028) and does so in
-		O(n^2*log(n)) time. Can provide both the V-statistic and
-		U-statistic related to the tau star measure depending on user
-		preference.
+		Efficient Computation and Testing of the Bergsma-Dassios Sign
+		Covariance // Computes the t* statistic corresponding to the
+		tau* population coefficient introduced by Bergsma and Dassios
+		(2014) DOI:10.3150/13-BEJ514 and does so in O(n^2*log(n)) time
+		following the algorithm of Weihs, Drton, and Leung (2016)
+		DOI:10.1007/s00180-015-0639-x. Also allows for independence
+		testing using the asymptotic distribution of t* as described by
+		Nandy, Weihs, and Drton (2016) http://arxiv.org/abs/1602.04387.
 	</longdescription>
 </pkgmetadata>
