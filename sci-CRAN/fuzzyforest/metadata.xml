@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fuzzy Forests // Fuzzy forests, a new algorithm based on random
+		forests, is designed to reduce the bias seen in random forest
+		feature selection caused by the presence of correlated
+		features.  Fuzzy forests uses recursive feature elimination
+		random forests to select features from separate blocks of
+		correlated features where the correlation within each block of
+		features is high and the correlation between blocks of features
+		is low. One final random forest is fit using the surviving
+		features. This package fits random forests using the
+		'randomForest' package and allows for easy use of 'WGCNA' to
+		split features into distinct blocks.
+	</longdescription>
+</pkgmetadata>
