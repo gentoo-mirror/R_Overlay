@@ -2,10 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Plotting (social) networks on maps // The package provides
-		methods for dealing with spatial social networks. It allows to
-		plot networks for which actors have a specific location on a
-		map (cities, participants in a political debate, etc.).
-		SpatialPolygons objects from the sp package are supported.
+		Plotting (Social) Networks on Maps // Facilitates the rendering
+		of networks for which nodes have a specific position on a map
+		(cities, participants in a political debate, etc.). Map data
+		and network data are stored together in a single object which
+		handles the match between network nodes and their respective
+		position on the map. The plot method renders both the map and
+		the network data. Several networks can be plot simultaneously.
+		The graphic is highly customisable and the legend is
+		automatically printed. Map data have to be supplied as
+		'SpatialPolygons' objects (from the 'sp' package) and network
+		data as 'named matrix'.
 	</longdescription>
 </pkgmetadata>
