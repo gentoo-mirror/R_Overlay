@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A MediaWiki API Wrapper // MediaWiki is  wiki platform. Providing
+		the infrastructure of Wikipedia, it also offers very
+		sophisticated archiving functionalities. This package is built
+		to store these wiki's archives to R object - data-frame, lists,
+		vector and variables. All data are downloaded with the help of
+		MediaWiki REST API. For instance, you can get all revisions
+		made by a contributor - contrib_list(), all the revisions of a
+		page page_revisions(), or create corpus of contributors -
+		corpus_contrib_create() - and pages corpus_page_create(). Then,
+		you can make these corpus rich of data about contributors or
+		pages - corpus_contrib_data() or corpus_page_data().
+	</longdescription>
+</pkgmetadata>
