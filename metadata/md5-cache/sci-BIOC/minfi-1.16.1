@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R[-minimal] >=sci-BIOC/Biobase-2.17.8 sci-CRAN/quadprog sci-BIOC/preprocessCore sci-BIOC/GenomeInfoDb sci-CRAN/beanplot sci-BIOC/limma sci-BIOC/siggenes sci-BIOC/S4Vectors sci-CRAN/reshape sci-BIOC/GEOquery >=sci-BIOC/BiocGenerics-0.15.3 sci-BIOC/genefilter sci-BIOC/Biostrings sci-CRAN/mixOmics >=sci-BIOC/SummarizedExperiment-0.3.1 sci-BIOC/IRanges >=sci-BIOC/bumphunter-1.1.9 sci-CRAN/nor1mix dev-lang/R[-minimal] dev-lang/R[-minimal] sci-BIOC/GenomicRanges sci-BIOC/illuminaio sci-CRAN/matrixStats sci-CRAN/mclust sci-CRAN/RColorBrewer dev-lang/R
+DESCRIPTION=Analyze Illuminas 450k methylation arrays
+EAPI=5
+IUSE=r_suggests_data_table r_suggests_digest r_suggests_flowsorted_blood_450k r_suggests_illuminahumanmethylation450kanno_ilmn12_hg19 r_suggests_illuminahumanmethylation450kmanifest r_suggests_minfidata r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=dev-lang/R[-minimal] >=sci-BIOC/Biobase-2.17.8 sci-CRAN/quadprog sci-BIOC/preprocessCore sci-BIOC/GenomeInfoDb sci-CRAN/beanplot sci-BIOC/limma sci-BIOC/siggenes sci-BIOC/S4Vectors sci-CRAN/reshape sci-BIOC/GEOquery >=sci-BIOC/BiocGenerics-0.15.3 sci-BIOC/genefilter sci-BIOC/Biostrings sci-CRAN/mixOmics >=sci-BIOC/SummarizedExperiment-0.3.1 sci-BIOC/IRanges >=sci-BIOC/bumphunter-1.1.9 sci-CRAN/nor1mix dev-lang/R[-minimal] dev-lang/R[-minimal] sci-BIOC/GenomicRanges sci-BIOC/illuminaio sci-CRAN/matrixStats sci-CRAN/mclust sci-CRAN/RColorBrewer r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_digest? ( sci-CRAN/digest ) r_suggests_flowsorted_blood_450k? ( >=sci-BIOC/FlowSorted_Blood_450k-1.0.1 ) r_suggests_illuminahumanmethylation450kanno_ilmn12_hg19? ( >=sci-BIOC/IlluminaHumanMethylation450kanno_ilmn12_hg19-0.2.1 ) r_suggests_illuminahumanmethylation450kmanifest? ( >=sci-BIOC/IlluminaHumanMethylation450kmanifest-0.2.0 ) r_suggests_minfidata? ( >=sci-BIOC/minfiData-0.4.1 ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/minfi_1.16.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=9c793cb401f48227b0dae8d4850425e7
