@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bagged k-Nearest Neighbors Survival Prediction // Implements a
+		bootstrap aggregated (bagged) version of the k-nearest
+		neighbors survival probability prediction method (Lowsky et al.
+		2013). In addition to the bootstrapping of training samples,
+		the features can be subsampled in each baselearner to break the
+		correlation between them. The Rcpp package is used to speed up
+		the computation.
+	</longdescription>
+</pkgmetadata>
