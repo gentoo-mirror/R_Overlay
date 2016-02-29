@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Residue-Residue Contact Detecting Method // Contact prediction
+		using shrinked covariance (COUSCOus). COUSCOus is a residue-
+		residue contact detecting method approaching the contact
+		inference using the glassofast implementation of Matyas and
+		Sustik (2012, The University of Texas at Austin UTCS Technical
+		Report 2012:1-3. TR-12-29.) that solves the L_1 regularised
+		Gaussian maximum likelihood estimation of the inverse of a
+		covariance matrix. Prior to the inverse covariance matrix
+		estimation we utilise a covariance matrix shrinkage approach,
+		the empirical Bayes covariance estimator, which has been shown
+		by Haff (1980) DOI:10.1214/aos/1176345010 to be the best
+		estimator in a Bayesian framework, especially dominating
+		estimators of the form aS, such as the smoothed covariance
+		estimator applied in a related contact inference technique
+		PSICOV.
+	</longdescription>
+</pkgmetadata>
