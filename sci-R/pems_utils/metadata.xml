@@ -2,7 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		pems.utils // tools for the analysis and visualisation of pems
-		data
+		'functions for the routine handling and analysis of data
+		collected by portable emissions measurement systems (PEMS) and
+		other similar mobile monitoring systems' 'Functions for the
+		Routine Handling and Analysis of Data Collected by Portable
+		Emissions Measurement Systems (PEMS) and Other Similar Mobile
+		Monitoring Systems' // The R package pems.utils contains
+		functions for the routine handling and analysis of data from
+		portable emissions measurement systems (PEMS) and other similar
+		mobile monitoring systems. The current version, pems.utils 0.2,
+		includes functions for data reading and importing, data
+		cleanup, reformatting, alignment and merging, data
+		visualization, screening and inspection, conditioning and sub-
+		sampling, summary statistics calculation and analysis, and
+		batch-wise analysis. The package also uses a dedicated 'pems'
+		data class that manages many of the quality control, unit
+		handling and data archiving issues that can sometimes hinder
+		efforts to standardize PEMS research.
 	</longdescription>
 </pkgmetadata>
