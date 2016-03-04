@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/NCmisc-1.1.4 sci-BIOC/GenomeInfoDb sci-BIOC/biomaRt >=dev-lang/R-3.2 >=sci-BIOC/IRanges-1.22.10 >=sci-CRAN/reader-1.0.1 >=sci-BIOC/BiocGenerics-0.10.0 sci-BIOC/S4Vectors sci-CRAN/Rcpp >=sci-BIOC/GenomicFeatures-1.22.10 >=sci-BIOC/genoset-1.16.2 >=sci-BIOC/GenomicRanges-1.16.4 sci-BIOC/rtracklayer >=sci-BIOC/BiocInstaller-1.20.1 dev-lang/R
+DESCRIPTION=Simplify Analysis and Annotation... (see metadata)
+EAPI=5
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/NCmisc-1.1.4 sci-BIOC/GenomeInfoDb sci-BIOC/biomaRt >=dev-lang/R-3.2 >=sci-BIOC/IRanges-1.22.10 >=sci-CRAN/reader-1.0.1 >=sci-BIOC/BiocGenerics-0.10.0 sci-BIOC/S4Vectors sci-CRAN/Rcpp >=sci-BIOC/GenomicFeatures-1.22.10 >=sci-BIOC/genoset-1.16.2 >=sci-BIOC/GenomicRanges-1.16.4 sci-BIOC/rtracklayer >=sci-BIOC/BiocInstaller-1.20.1 dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/humarray_1.0.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=c51725deac9f658bb8365d70119004f7

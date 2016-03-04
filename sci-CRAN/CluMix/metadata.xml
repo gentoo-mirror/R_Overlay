@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Clustering and Visualization of Mixed-Type Data // Provides
+		utilities for clustering subjects and variables of mixed data
+		types. Similarities between subjects are measured by Gower's
+		general similarity coefficient with an extension of Podani for
+		ordinal variables. Similarities between variables are assessed
+		by combination of appropriate measures of association for
+		different pairs of data types. Alternatively, variables can
+		also be clustered by the 'ClustOfVar' approach. The main
+		feature of the package is the generation of a mixed-data
+		heatmap. For visualizing similarities between either subjects
+		or variables, a heatmap of the corresponding distance matrix
+		can be drawn. Associations between variables can be explored by
+		a 'confounderPlot', which allows visual detection of possible
+		confounding, collinear, or surrogate factors for some variables
+		of primary interest. Distance matrices and dendrograms for
+		subjects and variables can be derived and used for further
+		visualizations and applications.
+	</longdescription>
+</pkgmetadata>
