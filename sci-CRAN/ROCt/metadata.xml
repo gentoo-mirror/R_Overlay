@@ -2,16 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Time-dependent ROC curve estimation and adaptation to the
-		relative survival context // This package contains functions in
-		order to estimate time-dependent ROC with right-censored data.
-		More precisely, two functions concern the estimation of ROC
-		curves defined by Heagerty, Lumley and Pepe (Biometrics, 2000).
-		The two other functions concern their adaptation for studying
-		the capacity of a marker to predict the excess of mortality of
-		a specific population compared to the general population (same
-		age, gender and calendar year). This last part is based on
-		additive relative survival models and the work of Pohar-Perme
-		(Biometrics, 2011).
+		Time-Dependent ROC Curve Estimators and Expected Utility
+		Functions // Contains functions in order to estimate diagnostic
+		and prognostic capacities of continuous markers. More
+		precisely, one function concerns the estimation of time-
+		dependent ROC (ROCt) curve, as proposed by Heagerty et al.
+		(2000) DOI: 10.1111/j.0006-341X.2000.00337.x. One function
+		concerns the adaptation of the ROCt theory for studying the
+		capacity of a marker to predict the excess of mortality of a
+		specific population compared to the general population. This
+		last part is based on additive relative survival models and the
+		work of Pohar-Perme et al. (2012) DOI:
+		10.1111/j.1541-0420.2011.01640.x. We also propose two functions
+		for cut-off estimation in medical decision making by maximizing
+		time-dependent expected utility function. Finally, we propose
+		confounder-adjusted estimators of ROC and ROCt curves by using
+		the Inverse Probability Weighting (IPW) approach.  For the
+		confounder-adjusted ROC curve (without censoring), we also
+		proposed the implementation of the estimator based on placement
+		values proposed by Pepe and Cai (2004) DOI:
+		10.1111/j.0006-341X.2004.00200.x.
 	</longdescription>
 </pkgmetadata>
