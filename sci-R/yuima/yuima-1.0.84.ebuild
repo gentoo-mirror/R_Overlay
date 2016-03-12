@@ -10,9 +10,9 @@ DESCRIPTION='The YUIMA Project Package for SDEs'
 SRC_URI="http://download.r-forge.r-project.org/src/contrib/yuima_1.0.84.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/cubature
-	sci-CRAN/mvtnorm
-	sci-CRAN/zoo
+DEPEND="sci-CRAN/zoo
 	sci-CRAN/expm
+	sci-CRAN/mvtnorm
+	sci-CRAN/cubature
 "
 RDEPEND="${DEPEND-}"

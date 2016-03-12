@@ -11,11 +11,11 @@ SRC_URI="http://download.r-forge.r-project.org/src/contrib/cffdrs_1.7.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/foreach
-	sci-CRAN/data_table
 	sci-CRAN/spatial_tools
-	sci-CRAN/rgdal
-	sci-CRAN/raster
-	>=dev-lang/R-3.2.2
 	sci-CRAN/doParallel
+	sci-CRAN/rgdal
+	>=dev-lang/R-3.2.2
+	sci-CRAN/raster
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

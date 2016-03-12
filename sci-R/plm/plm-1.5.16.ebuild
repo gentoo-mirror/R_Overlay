@@ -12,14 +12,14 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_aer"
 R_SUGGESTS="r_suggests_aer? ( sci-CRAN/AER )"
-DEPEND="sci-CRAN/bdsmatrix
-	sci-CRAN/zoo
-	dev-lang/R[-minimal]
-	sci-CRAN/lmtest
-	sci-CRAN/car
-	dev-lang/R[-minimal]
-	>=sci-CRAN/Formula-0.2.0
-	dev-lang/R[-minimal]
+DEPEND=">=sci-CRAN/Formula-0.2.0
+	virtual/nlme
 	sci-CRAN/sandwich
+	virtual/MASS
+	virtual/lattice
+	sci-CRAN/lmtest
+	sci-CRAN/bdsmatrix
+	sci-CRAN/zoo
+	sci-CRAN/car
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

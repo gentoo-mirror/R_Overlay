@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install postinst prepare unpack
 DEPEND=dev-lang/R
 DESCRIPTION=An R package for generalized and... (see metadata)
-EAPI=4
-IUSE=r_suggests_doparallel r_suggests_dorng r_suggests_sna byte-compile
+EAPI=5
+IUSE=r_suggests_doparallel r_suggests_dorng r_suggests_matrix r_suggests_sna byte-compile
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2+
-RDEPEND=r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_dorng? ( sci-CRAN/doRNG ) r_suggests_sna? ( sci-CRAN/sna ) dev-lang/R
+RDEPEND=r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_dorng? ( sci-CRAN/doRNG ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_sna? ( sci-CRAN/sna ) dev-lang/R
 SLOT=0
 SRC_URI=http://download.r-forge.r-project.org/src/contrib/blockmodeling_0.2.2.tar.gz
 _eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=e7dfa37b9e50242d488e0dd151fb7b6f
+_md5_=fdf30fd123fee18859f5f129a29ea797

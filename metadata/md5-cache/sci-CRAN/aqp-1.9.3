@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 virtual/cluster sci-CRAN/Hmisc sci-CRAN/stringr sci-CRAN/scales virtual/MASS sci-CRAN/plotrix virtual/lattice sci-CRAN/plyr sci-CRAN/reshape sci-CRAN/sp sci-CRAN/RColorBrewer sci-CRAN/digest dev-lang/R
+DESCRIPTION=Algorithms for Quantitative Pedology
+EAPI=5
+IUSE=r_suggests_ape r_suggests_colorspace r_suggests_compositions r_suggests_foreign r_suggests_latticeextra r_suggests_maps r_suggests_maptools r_suggests_sharpshootr r_suggests_soildb byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 virtual/cluster sci-CRAN/Hmisc sci-CRAN/stringr sci-CRAN/scales virtual/MASS sci-CRAN/plotrix virtual/lattice sci-CRAN/plyr sci-CRAN/reshape sci-CRAN/sp sci-CRAN/RColorBrewer sci-CRAN/digest r_suggests_ape? ( sci-CRAN/ape ) r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_compositions? ( sci-CRAN/compositions ) r_suggests_foreign? ( virtual/foreign ) r_suggests_latticeextra? ( sci-CRAN/latticeExtra ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_sharpshootr? ( sci-CRAN/sharpshootR ) r_suggests_soildb? ( sci-CRAN/soilDB ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/aqp_1.9.3.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=c7bf87542cef2ca67ab7fbb7234ab544

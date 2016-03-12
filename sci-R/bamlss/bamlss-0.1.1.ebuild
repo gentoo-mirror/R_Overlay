@@ -1,12 +1,12 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 inherit R-packages
 
-DESCRIPTION='Bayesian Regression in R'
+DESCRIPTION='Bayesian Additive Models for Loc... (see metadata)'
 SRC_URI="http://download.r-forge.r-project.org/src/contrib/bamlss_0.1-1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
@@ -16,9 +16,11 @@ R_SUGGESTS="
 	r_suggests_rjags? ( sci-CRAN/rjags )
 	r_suggests_rstan? ( sci-R/rstan )
 "
-DEPEND=">=dev-lang/R-2.13.0
+DEPEND="sci-CRAN/coda
+	>=dev-lang/R-3.2.3
+	virtual/mgcv
 	sci-CRAN/colorspace
 	sci-CRAN/Formula
-	sci-CRAN/coda
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
