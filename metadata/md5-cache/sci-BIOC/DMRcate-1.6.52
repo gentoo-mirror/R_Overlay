@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.2.2 sci-BIOC/DSS sci-BIOC/GenomicRanges sci-CRAN/plyr sci-BIOC/Gviz sci-BIOC/minfi sci-BIOC/DMRcatedata sci-BIOC/limma sci-BIOC/IRanges dev-lang/R
+DESCRIPTION=Methylation array and sequencing... (see metadata)
+EAPI=5
+IUSE=r_suggests_biocgenerics r_suggests_illuminahumanmethylation450kanno_ilmn12_hg19 r_suggests_knitr r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+RDEPEND=>=dev-lang/R-3.2.2 sci-BIOC/DSS sci-BIOC/GenomicRanges sci-CRAN/plyr sci-BIOC/Gviz sci-BIOC/minfi sci-BIOC/DMRcatedata sci-BIOC/limma sci-BIOC/IRanges r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_illuminahumanmethylation450kanno_ilmn12_hg19? ( sci-BIOC/IlluminaHumanMethylation450kanno_ilmn12_hg19 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/DMRcate_1.6.52.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=f48bc70cdb9360a61aa57248f74e1529

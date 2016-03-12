@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-BIOC/Biobase-2.15.1 >=sci-BIOC/ShortRead-1.11.42 sci-BIOC/BiocGenerics >=sci-BIOC/IRanges-1.13.9 sci-BIOC/DESeq sci-BIOC/aroma_light >=sci-BIOC/Rsamtools-1.5.75 sci-BIOC/biomaRt sci-BIOC/GenomicRanges sci-BIOC/Biostrings sci-BIOC/AnnotationDbi sci-BIOC/GenomicFeatures dev-lang/R
+DESCRIPTION=Exploratory Data Analysis and No... (see metadata)
+EAPI=5
+IUSE=r_suggests_biocstyle r_suggests_edger r_suggests_kernsmooth r_suggests_knitr r_suggests_leebamviews r_suggests_yeastrnaseq byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=>=sci-BIOC/Biobase-2.15.1 >=sci-BIOC/ShortRead-1.11.42 sci-BIOC/BiocGenerics >=sci-BIOC/IRanges-1.13.9 sci-BIOC/DESeq sci-BIOC/aroma_light >=sci-BIOC/Rsamtools-1.5.75 sci-BIOC/biomaRt sci-BIOC/GenomicRanges sci-BIOC/Biostrings sci-BIOC/AnnotationDbi sci-BIOC/GenomicFeatures r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_kernsmooth? ( sci-CRAN/KernSmooth ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leebamviews? ( sci-BIOC/leeBamViews ) r_suggests_yeastrnaseq? ( sci-BIOC/yeastRNASeq ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/EDASeq_2.4.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=bcb47846fb5f391cbacbc642556c6c60

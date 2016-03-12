@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/R_oo-1.20.0 >=dev-lang/R-2.14.0 >=sci-CRAN/R_utils-2.2.0 >=sci-CRAN/R_methodsS3-1.7.1 dev-lang/R
+DESCRIPTION=Read and Write MAT Files and Cal... (see metadata)
+EAPI=5
+IUSE=r_suggests_matrix r_suggests_sparsem byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=>=sci-CRAN/R_oo-1.20.0 >=dev-lang/R-2.14.0 >=sci-CRAN/R_utils-2.2.0 >=sci-CRAN/R_methodsS3-1.7.1 r_suggests_matrix? ( sci-CRAN/Matrix ) r_suggests_sparsem? ( sci-CRAN/SparseM ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/R.matlab_3.5.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=758e0c38d9aa12d26605089e39277d01

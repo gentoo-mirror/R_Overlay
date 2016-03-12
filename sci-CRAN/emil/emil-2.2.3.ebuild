@@ -1,0 +1,43 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=5
+
+inherit R-packages
+
+DESCRIPTION='Evaluation of Modeling without Information Leakage'
+SRC_URI="http://cran.r-project.org/src/contrib/emil_2.2.3.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_caret r_suggests_cmprsk r_suggests_e1071
+	r_suggests_glmnet r_suggests_hmisc r_suggests_mass r_suggests_pamr
+	r_suggests_party r_suggests_randomforest r_suggests_rcolorbrewer
+	r_suggests_rpart r_suggests_survival r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_caret? ( sci-CRAN/caret )
+	r_suggests_cmprsk? ( sci-CRAN/cmprsk )
+	r_suggests_e1071? ( sci-CRAN/e1071 )
+	r_suggests_glmnet? ( sci-CRAN/glmnet )
+	r_suggests_hmisc? ( sci-CRAN/Hmisc )
+	r_suggests_mass? ( sci-CRAN/MASS )
+	r_suggests_pamr? ( sci-CRAN/pamr )
+	r_suggests_party? ( sci-CRAN/party )
+	r_suggests_randomforest? ( sci-CRAN/randomForest )
+	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
+	r_suggests_rpart? ( sci-CRAN/rpart )
+	r_suggests_survival? ( sci-CRAN/survival )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
+"
+DEPEND="sci-CRAN/data_table
+	sci-CRAN/tidyr
+	sci-CRAN/dplyr
+	>=sci-CRAN/ggplot2-1.0.1
+	sci-CRAN/magrittr
+	>=sci-CRAN/Rcpp-0.12.1
+	sci-CRAN/lazyeval
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	${R_SUGGESTS-}
+"

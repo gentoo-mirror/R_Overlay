@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/MASS >=sci-CRAN/Formula-0.2.0 sci-CRAN/nlme sci-CRAN/sandwich sci-CRAN/bdsmatrix sci-CRAN/zoo sci-CRAN/car sci-CRAN/lmtest sci-CRAN/lattice dev-lang/R
+DESCRIPTION=Linear Models for Panel Data
+EAPI=5
+IUSE=r_suggests_aer byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/MASS >=sci-CRAN/Formula-0.2.0 sci-CRAN/nlme sci-CRAN/sandwich sci-CRAN/bdsmatrix sci-CRAN/zoo sci-CRAN/car sci-CRAN/lmtest sci-CRAN/lattice r_suggests_aer? ( sci-CRAN/AER ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/plm_1.5-16.tar.gz -> plm_1.5-16-r10.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=f22e3cb6597b43c1e3941990093b0f27

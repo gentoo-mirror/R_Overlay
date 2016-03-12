@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/MASS sci-CRAN/survival sci-CRAN/xtable sci-CRAN/Matrix sci-CRAN/nlme sci-CRAN/VGAM sci-CRAN/lattice sci-CRAN/unmarked dev-lang/R
+DESCRIPTION=Model Selection and Multimodel I... (see metadata)
+EAPI=5
+IUSE=r_suggests_betareg r_suggests_coxme r_suggests_fitdistrplus r_suggests_lavaan r_suggests_lme4 r_suggests_maxlike r_suggests_nnet r_suggests_ordinal r_suggests_pscl byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/MASS sci-CRAN/survival sci-CRAN/xtable sci-CRAN/Matrix sci-CRAN/nlme sci-CRAN/VGAM sci-CRAN/lattice sci-CRAN/unmarked r_suggests_betareg? ( sci-CRAN/betareg ) r_suggests_coxme? ( sci-CRAN/coxme ) r_suggests_fitdistrplus? ( sci-CRAN/fitdistrplus ) r_suggests_lavaan? ( sci-CRAN/lavaan ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_maxlike? ( sci-CRAN/maxlike ) r_suggests_nnet? ( sci-CRAN/nnet ) r_suggests_ordinal? ( sci-CRAN/ordinal ) r_suggests_pscl? ( sci-CRAN/pscl ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AICcmodavg_2.0-4.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=b139bd81f1fa283f52230d5bfe210779
