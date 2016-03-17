@@ -3,12 +3,21 @@
 <pkgmetadata>
 	<longdescription>
 		Improved False Positive Control of Gene-Permuting GSEA with
-		Absolute Filtering // Gene-permuting GSEA (or preranked GSEA)
-		generates a lot of false positive gene-sets due to the inter-
-		gene correlation in each gene set. Such false positives can be
-		successfully reduced by filtering with the one-tailed absolute
-		GSEA results. This package provides a function that performs
-		gene-permuting GSEA calculation with or without the absolute
-		filtering.
+		Absolute Filtering // Gene-set enrichment analysis (GSEA) is
+		popularly used to assess the enrichment of differential signal
+		in a pre-defined gene-set without using a cutoff threshold for
+		differential expression. The significance of enrichment is
+		evaluated through sample- or gene-permutation method. Although
+		the sample-permutation approach is highly recommended due to
+		its good false positive control, we must use gene-permuting
+		method if the number of samples is small. However, such gene-
+		permuting GSEA (or preranked GSEA) generates a lot of false
+		positive gene-sets as the inter-gene correlation in each gene
+		set increases. These false positives can be successfully
+		reduced by filtering with the one-tailed absolute GSEA results.
+		This package provides a function that performs gene-permuting
+		GSEA calculation with or without the absolute filtering.
+		Without filtering, users can perform (original) two-tailed or
+		one-tailed absolute GSEA.
 	</longdescription>
 </pkgmetadata>
