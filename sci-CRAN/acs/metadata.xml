@@ -2,14 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Download, manipulate, and present data from the US Census
-		American Community Survey // Provides a general toolkit for
-		downloading, managing, analyzing, and presenting data from the
-		U.S. Census American Community Survey (ACS).  Confidence
-		intervals provided with the data are converted to standard
-		errors to be bundled with estimates in complex acs objects.
-		Package provides new methods to conduct standard operations and
-		tests of significance on acs objects in statistically
-		appropriate ways. Current version is 1.2 +/- .05.
+		Download, Manipulate, and Present American Community Survey and
+		Decennial Data from the US Census // Provides a general toolkit
+		for downloading, managing, analyzing, and presenting data from
+		the U.S. Census, including SF1 (Decennial short-form), SF3
+		(Decennial long-form), and the American Community Survey (ACS).
+		Confidence intervals provided with ACS data are converted to
+		standard errors to be bundled with estimates in complex acs
+		objects.  Package provides new methods to conduct standard
+		operations on acs objects and present/plot data in
+		statistically appropriate ways. Current version is 2.0 +/-
+		.033.
 	</longdescription>
 </pkgmetadata>

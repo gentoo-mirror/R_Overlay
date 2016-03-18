@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Get Real-Time Meteorological Data in SMET Format // It manages
+		snow and weather local time series as provided by MeteoIO
+		(http://models.slf.ch/docserver/meteoio/html/index.html, http:/
+		/www.slf.ch/ueber/organisation/schnee_permafrost/projekte/Meteo
+		IO/index_EN, https://www.openhub.net/p/MeteoIO). MeteoIO is a
+		C/C++ Open Source library which "has been designed to
+		accomodate both the needs of carefully crafted simulations for
+		a specific purpose/study and for the needs of operational
+		simulations that run automatically and unattended". It is
+		integrated in physical spatially-distributed models and tackles
+		several issues with weather input/output data. Here a SMET S4
+		class object is defined and can be imported from/ exported to a
+		SMET ini files of MeteoIO , allowing interoperability from R to
+		MeteoIO and other SMET-compliant software.
+	</longdescription>
+</pkgmetadata>
