@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parallel Pseudo Random Number Generator (PPRNG) 'sitmo' Header
+		Files // Provided within is a high quality and fast PPRNG that
+		is able to be used in an 'OpenMP' parallel environment compiled
+		under either C++98 or C++11. The objective of this package
+		release is to consolidate the distribution of the 'sitmo'
+		library on CRAN by enabling others to link to the 'sitmo'
+		header file instead of including a copy of 'sitmo' within their
+		individual package. Lastly, the package contains example
+		implementations using 'sitmo' and two accompanying vignette
+		that provide additional information.
+	</longdescription>
+</pkgmetadata>
