@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		SQL Server R Database Interface (DBI) // RSQLServer wraps the
-		jTDS Project's JDBC 3.0 SQL Server driver and extends the RJDBC
-		classes and DBI methods. It defines a SQLServerDriver,
-		SQLServerConnection  SQLServerRsult S4 classes as extensions of
-		the RJDBC equivalent classes. Most of the DBI methods will
-		simply be calls to methods defined by RJDBC classes. However,
-		the dbConnect and some of the dbGetInfo methods are specific to
-		SQL Server. The jTDS drivers do extend to Sybase SQL Server,
-		but currently, only Microsoft SQL Server is supported by this
-		package.
+		SQL Server R Database Interface (DBI) and dplyr SQL Backend //
+		Utilises The jTDS Project's JDBC 3.0 SQL Server driver to
+		extend the RJDBC classes and DBI methods. It defines a
+		SQLServerDriver, SQLServerConnection  SQLServerRsult S4 classes
+		as extensions of the RJDBC equivalent classes with most DBI
+		methods being thin extensions of the methods defined by RJDBC
+		classes. However, the dbConnect interface is more convenient,
+		and the data reading and writing capabilities found in RJDBC's
+		fetch and dbWriteTable methods have been refined. The package
+		also implements a SQL backend to the dplyr package.
 	</longdescription>
 </pkgmetadata>

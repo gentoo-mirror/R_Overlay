@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.12.0 >=sci-CRAN/ff-2.2.11 sci-CRAN/fastmatch sci-CRAN/bit dev-lang/R
+DESCRIPTION=Basic Statistical Functions for Package ff
+EAPI=5
+IUSE=r_suggests_biglm r_suggests_laf r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-2.12.0 >=sci-CRAN/ff-2.2.11 sci-CRAN/fastmatch sci-CRAN/bit r_suggests_biglm? ( sci-CRAN/biglm ) r_suggests_laf? ( sci-CRAN/LaF ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ffbase_0.12.3.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=e68cfe1cac07a549f3c2444c8c4f2366
