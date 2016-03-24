@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/VennDiagram sci-CRAN/dplyr sci-CRAN/RCurl sci-BIOC/SSPA sci-CRAN/missForest sci-CRAN/ape sci-CRAN/plyr sci-BIOC/vsn virtual/lattice sci-CRAN/data_table sci-CRAN/reshape2 sci-BIOC/preprocessCore sci-CRAN/caret sci-CRAN/DiffCorr >=dev-lang/R-3.2.0 sci-CRAN/Nozzle_R1 sci-BIOC/pcaMethods sci-BIOC/impute sci-BIOC/xcms sci-CRAN/bootstrap sci-BIOC/faahKO sci-CRAN/pROC sci-CRAN/mixOmics virtual/boot sci-CRAN/RColorBrewer sci-CRAN/DiscriMiner sci-CRAN/pls sci-CRAN/pheatmap sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/BBmisc sci-CRAN/stringr sci-CRAN/doParallel sci-CRAN/scatterplot3d sci-BIOC/CAMERA dev-lang/R
+DESCRIPTION=An R package for metabolomic data analysis
+EAPI=5
+IUSE=r_suggests_biocgenerics r_suggests_biocstyle r_suggests_knitr r_suggests_r_utils r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2
+RDEPEND=sci-CRAN/VennDiagram sci-CRAN/dplyr sci-CRAN/RCurl sci-BIOC/SSPA sci-CRAN/missForest sci-CRAN/ape sci-CRAN/plyr sci-BIOC/vsn virtual/lattice sci-CRAN/data_table sci-CRAN/reshape2 sci-BIOC/preprocessCore sci-CRAN/caret sci-CRAN/DiffCorr >=dev-lang/R-3.2.0 sci-CRAN/Nozzle_R1 sci-BIOC/pcaMethods sci-BIOC/impute sci-BIOC/xcms sci-CRAN/bootstrap sci-BIOC/faahKO sci-CRAN/pROC sci-CRAN/mixOmics virtual/boot sci-CRAN/RColorBrewer sci-CRAN/DiscriMiner sci-CRAN/pls sci-CRAN/pheatmap sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/BBmisc sci-CRAN/stringr sci-CRAN/doParallel sci-CRAN/scatterplot3d sci-BIOC/CAMERA r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/metaX_1.0.3.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=beb2b60c34b79bf648bf844f2b8b512c

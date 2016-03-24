@@ -4,25 +4,34 @@
 	<longdescription>
 		Variance Component Analysis // ANOVA-type estimation (prediction)
 		of random effects in linear mixed models is implemented,
-		following Searle et al. 1991 (ANOVA for unbalanced data). For
-		better performance the SWEEP-Operator is now implemented for
-		generating the ANOVA Type-1 error sum of squares. The primary
-		objective of this package is to perform Variance Component
-		Analyses (VCA). This is a special type of analysis frequently
-		used in verifying the precision performance of diagnostics. The
-		Satterthwaite approximation of the total degrees of freedom and
-		for individual variance components is implemented. These are
-		used in the Chi-Squared tests against a claimed value, and in
-		the respective confidence intervals. Satterthwaite's
-		approximation of denominator degrees of freedom in t-/F-tests
-		of fixed effects are also available. There are several
-		functions for extracting, random effects, fixed effects,
-		variance-covariance matrices of random and fixed effects.
-		Residuals (marginal, conditional) can be extracted as raw,
-		standardized and studentized residuals. Additionally, plotting
-		methods for residuals and random effects and a variability
-		chart are available. The latter is useful for visualizing the
-		variability in sub-classes emerging from the experimental
-		design.
+		following Searle et al. (1991, ANOVA for unbalanced data). For
+		better performance the SWEEP-Operator is implemented for
+		generating the ANOVA Type-1 error sum of squares. Restricted
+		Maximum Likelihood (REML) estimation is also available making
+		use of the 'lme4' package. The primary objective of this
+		package is to perform Variance Component Analyses (VCA). This
+		is a special type of analysis frequently used in verifying the
+		precision performance of diagnostics. The Satterthwaite
+		approximation of the total degrees of freedom and for
+		individual variance components is implemented for models fitted
+		by ANOVA as well as for models fitted by REML. These are used
+		in the Chi-Squared tests against a claimed value, and in the
+		respective confidence intervals. Satterthwaite's approximation
+		of denominator degrees of freedom in t-/F-tests of fixed
+		effects are also available. For models fitted by (REML) the
+		variance-covariance matrix of the variance components is
+		approximated by the method pointed out in Giesbrecht  Burns
+		(1985), which is required for applying the Satterthwaite
+		approximation of the degrees of freedom. For models fitted by
+		ANOVA the method pointed out in Searle et al. (1991) employing
+		quadratic forms generating ANOVA sum of squares is also
+		available. There are several functions for extracting, random
+		effects, fixed effects, variance-covariance matrices of random
+		and fixed effects. Residuals (marginal, conditional) can be
+		extracted as raw, standardized and studentized residuals.
+		Additionally, plotting methods for residuals and random effects
+		and a variability chart are available. The latter is useful for
+		visualizing the variability in sub-classes emerging from the
+		experimental design.
 	</longdescription>
 </pkgmetadata>
