@@ -12,36 +12,32 @@
 		tradeoffs between depth of coverage and breadth of coverage.
 		This package predicts the number of clonal expansions, the size
 		of the resulting subpopulations in the tumor bulk, the
-		mutations specific to each subpopulation and tumor purity. The
-		main function runExPANdS() provides the complete functionality
-		needed to predict coexisting subpopulations from single
-		nucleotide variations (SNVs) and associated copy numbers.  The
-		robustness of subpopulation predictions increases with the
-		number of mutations provided. It is recommended that at least
-		200 mutations are used as input to obtain stable results.
-		Updates in version 1.6 include: (1) So far mutations had been
-		assigned to maximal one subpopulation. However mutations may
-		not be exclusive to the assigned subpopulation but may also be
-		present in smaller, descending subpopulations. Whether or not
-		this is the case is now decided by leveraging the predicted
-		phylogenetic structure of the subpopulation composition. (2)
-		Included homozygous deletion as potential scenario when
-		modeling (SNV,CNV) pairs with overlapping genomic location,
-		that are propagated during distinct clonal expansions. (3)
-		Optimized solution to improve sensitivity at cell-frequency
-		distribution margins. Need for improvement was because
-		subpopulation detection sensitivity correlates to centrality of
-		subpopulation size during clustering. Tolerance of copy number
-		and allele frequency measurement errors must be higher for
-		marginal cell-frequencies than for central cell-frequencies, in
-		order to counteract the reduced cluster detection sensitivity
-		at the cell-frequency distribution margins. This is only
-		relevant during subpopulation detection (SNV clustering), cell-
-		frequency independent error tolerance still applies during SNV
-		assignment. (4) Fixed a bug where incorrect data matrix
-		conversion could occur when handing non-numerical matrix as
-		parameter to function runExPANdS(). Further documentation and
-		FAQ around this package is available at http://dna-
+		mutations specific to each subpopulation, tumor purity and
+		phylogeny. The main function runExPANdS() provides the complete
+		functionality needed to predict coexisting subpopulations from
+		single nucleotide variations (SNVs) and associated copy
+		numbers.  The robustness of subpopulation predictions increases
+		with the number of mutations provided. It is recommended that
+		at least 200 mutations are used as input to obtain stable
+		results. Updates in version 1.7 include: (1) Higher
+		subpopulation detection specificity, in particular for small
+		subpopulations. (2) Higher accuracy for mutation assignment to
+		subpopulations. (3) Whenever possible, SNVs are assigned not
+		only to the subpopulation in which they first occurred, but
+		also to descending subpopulations. (4) Two additional output
+		files are created: subpopulation specific ploidy matrix and a
+		summary file of all detected subpopulations, including
+		information on the inferred ancestor and the closest descendant
+		of each subpopulation. (5) New subpopulation plotting options
+		(function plotSPs). (6) New phylogeny plotting option: user can
+		choose between consensus and germline population to be included
+		as control. (7) 50 simulated samples of various genetic
+		complexities and noise levels included for user testing.
+		Special thanks to Dr. Ryan Morin for his contributions that
+		have led to higher accuracy measures during simulations for
+		mutation assignment to subpopulations, as well as advanced
+		visualization features of assigned mutations. Further
+		documentation and FAQ available at http://dna-
 		discovery.stanford.edu/software/expands.
 	</longdescription>
 </pkgmetadata>
