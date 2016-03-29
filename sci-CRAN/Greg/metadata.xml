@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regression Helper Functions // Methods for manipulating
+		regression models and for describing these in a style adapted
+		for medical journals. Contains functions for generating an HTML
+		table with crude and adjusted estimates, plotting hazard ratio,
+		plotting model estimates and confidence intervals using forest
+		plots, extending this to comparing multiple models in a single
+		forest plots. In addition to the descriptives methods, there
+		are addons for the robust covariance matrix provided by the
+		sandwich package, a function for adding non-linearities to a
+		model, and a wrapper around the Epi package's Lexis functions
+		for time-spliting a dataset when modeling non-proportional
+		hazards in Cox regressions.
+	</longdescription>
+</pkgmetadata>

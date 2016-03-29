@@ -17,8 +17,8 @@ DEPEND=">=sci-BIOC/VariantFiltering-1.5.23
 	sci-BIOC/IRanges
 	sci-BIOC/Biostrings
 	sci-BIOC/Rsamtools
-	sci-BIOC/GenomicRanges
-	>=dev-lang/R-3.0.0
 	sci-BIOC/VariantAnnotation
+	>=dev-lang/R-3.0.0
+	sci-BIOC/GenomicRanges
 "
 RDEPEND="${DEPEND-}"
