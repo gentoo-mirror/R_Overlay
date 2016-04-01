@@ -8,13 +8,16 @@
 		sampling without replacement from posterior distributions.
 		Prior distributions on coefficients are from Zellner's g-prior
 		or mixtures of g-priors corresponding to the Zellner-Siow
-		Cauchy Priors or the Liang et al hyper-g priors (JASA 2008) or
-		mixtures of g-priors in GLMS of Li and Clyde 2015. Other model
-		selection criteria include AIC and BIC. Sampling probabilities
-		may be updated based on the sampled models using Sampling w/out
+		Cauchy Priors or the mixture of g-priors from Liang et al
+		(2008) http://dx.doi.org/10.1198/016214507000001337 for linear
+		models or mixtures of g-priors in GLMs of Li and Clyde (2015)
+		http://arxiv.org/abs/1503.06913 . Other model selection
+		criteria include AIC and BIC. Sampling probabilities may be
+		updated based on the sampled models using Sampling w/out
 		Replacement or an MCMC algorithm samples models using the BAS
 		tree structure as an efficient hash table. Allows uniform or
-		beta-binomial prior distributions on models, and may force
+		beta-binomial prior distributions on models and for large p
+		truncated priors on the model space.  The user may force
 		variables to always be included.
 	</longdescription>
 </pkgmetadata>
