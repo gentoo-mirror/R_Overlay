@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_bsgenome? ( >=sci-BIOC/BSgenome-1.16.1 )
 "
 DEPEND="sci-BIOC/S4Vectors
-	sci-BIOC/GenomicRanges
 	sci-BIOC/IRanges
+	sci-BIOC/GenomicRanges
 	sci-BIOC/IRanges
 	sci-BIOC/GenomicRanges
 "

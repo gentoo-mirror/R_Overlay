@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/affy sci-CRAN/gplots sci-CRAN/gtools sci-BIOC/AnnotationDbi sci-CRAN/gmodels sci-CRAN/plotrix sci-CRAN/gdata dev-lang/R
+DESCRIPTION=MLP
+EAPI=5
+IUSE=r_suggests_annotate r_suggests_go_db r_suggests_gostats r_suggests_kegg_db r_suggests_limma r_suggests_mouse4302_db r_suggests_org_cf_eg_db r_suggests_org_hs_eg_db r_suggests_org_mm_eg_db r_suggests_org_rn_eg_db r_suggests_reactome_db byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-BIOC/affy sci-CRAN/gplots sci-CRAN/gtools sci-BIOC/AnnotationDbi sci-CRAN/gmodels sci-CRAN/plotrix sci-CRAN/gdata r_suggests_annotate? ( sci-BIOC/annotate ) r_suggests_go_db? ( sci-BIOC/GO_db ) r_suggests_gostats? ( sci-BIOC/GOstats ) r_suggests_kegg_db? ( sci-BIOC/KEGG_db ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_mouse4302_db? ( sci-BIOC/mouse4302_db ) r_suggests_org_cf_eg_db? ( sci-BIOC/org_Cf_eg_db ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_org_mm_eg_db? ( sci-BIOC/org_Mm_eg_db ) r_suggests_org_rn_eg_db? ( sci-BIOC/org_Rn_eg_db ) r_suggests_reactome_db? ( sci-BIOC/reactome_db ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/MLP_1.18.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=0c12b1bff1ca86aab20e4e73aad74113
