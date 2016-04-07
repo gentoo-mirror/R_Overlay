@@ -4,17 +4,13 @@
 	<longdescription>
 		An Individual-Based Population Genetic Simulation Environment //
 		An interface between R and the metasim simulation engine. The
-		simulation environment is documented in: "A Strand. Metasim
-		1.0: an individual-based environment for simulating population
-		genetics of complex population dynamics. Mol. Ecol. Notes,
-		2:373-376, 2002". The current version has eliminated the
-		backend encoded output routines. These routines were accessed
-		using "landscape.write.foreign".  Now only output to GenePop
-		files remains. R based routines for population genetic data
-		analysis have improved dramatically and many can use the
-		'genind' format defined by the adegenet package. There is now a
-		new function called "landscape.make.genind" which converts a
-		landscape to a genind object.  Please contact the maintainer if
-		other output formats are needed.
+		simulation environment is documented in: "Strand, A.(2002)
+		DOI:10.1046/j.1471-8286.2002.00208.x Metasim 1.0: an
+		individual-based environment for simulating population genetics
+		of complex population dynamics. Mol. Ecol. Notes. Please see
+		the vignettes CreatingLandscapes and Simulating to get some
+		ideas on how to use the packages. See the rmetasim vignette to
+		get an overview and to see important changes to the code in the
+		most recent version.
 	</longdescription>
 </pkgmetadata>

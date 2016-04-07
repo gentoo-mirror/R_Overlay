@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Marks Periods of 'Bedrest' in Actigraph Accelerometer Data //
+		Contains a function to categorize accelerometer readings
+		collected in free-living (e.g., for 24 hours/day for 7 days),
+		preprocessed and compressed as counts (unit-less value) in a
+		specified time period termed epoch (e.g., 1 minute) as either
+		bedrest (sleep) or active.  The input is a matrix with a
+		timestamp column and a column with number of counts per epoch.
+		The output is the same dataframe with an additional column
+		termed bedrest. In the bedrest column each line (epoch)
+		contains a function-generated classification 'br' or 'a'
+		denoting bedrest/sleep and activity, respectively.  The package
+		is designed to be used after wear/nonwear marking function in
+		the 'PhysicalActivity' package.
+	</longdescription>
+</pkgmetadata>

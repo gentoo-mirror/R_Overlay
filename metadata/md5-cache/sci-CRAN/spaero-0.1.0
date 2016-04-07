@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.2.1 dev-lang/R
+DESCRIPTION=Software for Project AERO
+EAPI=5
+IUSE=r_suggests_earlywarnings r_suggests_knitr r_suggests_lintr r_suggests_np r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2.1 r_suggests_earlywarnings? ( >=sci-CRAN/earlywarnings-1.0.59 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.11 ) r_suggests_lintr? ( >=sci-CRAN/lintr-0.3.3 ) r_suggests_np? ( >=sci-CRAN/np-0.60.2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spaero_0.1.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=a2f5ee3d711499b2d4509aeb47f8d525
