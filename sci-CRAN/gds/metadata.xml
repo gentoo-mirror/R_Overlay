@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Descriptive Statistics of Grouped Data // Contains a function
+		called gds() which accepts three input parameters like lower
+		limits, upper limits and the frequencies of the corresponding
+		classes. The gds() function calculate and return the values of
+		mean ('gmean'), median ('gmedian'), mode ('gmode'), variance
+		('gvar'), standard deviation ('gstdev'), coefficient of
+		variance ('gcv'), quartiles ('gq1', 'gq2', 'gq3'), inter-
+		quartile range ('gIQR'), skewness ('g1'), and kurtosis ('g2')
+		which facilitate effective data analysis. For skewness and
+		kurtosis calculations we use moments.
+	</longdescription>
+</pkgmetadata>
