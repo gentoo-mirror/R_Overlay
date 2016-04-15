@@ -9,7 +9,9 @@
 		constrained generalized additive model is found using an
 		iteratively re-weighted cone projection algorithm. The cone
 		information criterion (CIC) may be used to select the best
-		combination of variables and shapes. This package depends on
-		the R package coneproj.
+		combination of variables and shapes. One extension of this
+		package is isotonic regression in two dimensions using warped-
+		plane splines without using additivity assumptions, which is
+		implemented by the wps routine.
 	</longdescription>
 </pkgmetadata>

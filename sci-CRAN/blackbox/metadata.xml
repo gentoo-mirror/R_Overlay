@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Black Box Optimization and Exploration of Parameter Space //
+		Performs prediction of a response function from simulated
+		response values, allowing black-box optimization of functions
+		estimated with some error. blackbox includes a simple user
+		interface for such applications, as well as more specialized
+		functions designed to be called by the Migraine software (see
+		URL). The latter functions are used for prediction of
+		likelihood surfaces and implied likelihood ratio confidence
+		intervals, and for exploration of predictor space of the
+		surface. Prediction of the response is based on ordinary
+		kriging (with residual error) of the input. Estimation of
+		smoothing parameters is performed by generalized cross
+		validation.
+	</longdescription>
+</pkgmetadata>

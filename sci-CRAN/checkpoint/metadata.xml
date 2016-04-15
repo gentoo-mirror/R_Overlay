@@ -7,7 +7,7 @@
 		problem of package reproducibility in R. Specifically,
 		checkpoint allows you to install packages as they existed on
 		CRAN on a specific snapshot date as if you had a CRAN time
-		machine.  To achieve reproducibility, the checkpoint() function
+		machine. To achieve reproducibility, the checkpoint() function
 		installs the packages required or called by your project and
 		scripts to a local library exactly as they existed at the
 		specified point in time. Only those packages are available to
@@ -15,11 +15,11 @@
 		later and may have altered your results. In this way, anyone
 		using checkpoint's checkpoint() can ensure the reproducibility
 		of your scripts or projects at any time. To create the snapshot
-		archives, once a day (at midnight UTC) Revolution Analytics
-		refreshes the Austria CRAN mirror, on the "Managed R Archived
-		Network" server (http://mran.revolutionanalytics.com/).
-		Immediately after completion of the rsync mirror process, the
-		process takes a snapshot, thus creating the archive. Snapshot
-		archives exist starting from 2014-09-17.
+		archives, once a day (at midnight UTC) Microsoft refreshes the
+		Austria CRAN mirror, on the "Microsoft R Archived Network"
+		server (http://mran.microsoft.com/). Immediately after
+		completion of the rsync mirror process, the process takes a
+		snapshot, thus creating the archive. Snapshot archives exist
+		starting from 2014-09-17.
 	</longdescription>
 </pkgmetadata>
