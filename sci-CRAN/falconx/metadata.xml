@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Finding Allele-Specific Copy Number in Whole-Exome Sequencing
+		Data // This is a method for Allele-specific DNA Copy Number
+		profiling for whole-Exome sequencing data.  Given the allele-
+		specific coverage and site biases at the variant loci, this
+		program segments the genome into regions of homogeneous allele-
+		specific copy number.  It requires, as input, the read counts
+		for each variant allele in a pair of case and control samples,
+		as well as the site biases. For detection of somatic mutations,
+		the case and control samples can be the tumor and normal sample
+		from the same individual.
+	</longdescription>
+</pkgmetadata>
