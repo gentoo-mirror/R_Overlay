@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/crayon sci-CRAN/R6 sci-CRAN/magrittr sci-CRAN/digest sci-CRAN/praise dev-lang/R
+DESCRIPTION=Unit Testing for R
+EAPI=5
+IUSE=r_suggests_covr r_suggests_devtools r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/crayon sci-CRAN/R6 sci-CRAN/magrittr sci-CRAN/digest sci-CRAN/praise r_suggests_covr? ( sci-CRAN/covr ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/testthat_1.0.2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=2edd07c710269af9d2573c54d668ba9e
