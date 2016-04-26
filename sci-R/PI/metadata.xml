@@ -6,13 +6,13 @@
 		Gene, Pathway and Network Level // Priority index or Pi is
 		developed as a genomic-led target prioritisation system, with
 		the focus on leveraging genetic data to prioritise targets at
-		the gene and pathway level. Based on evidence of genetic
-		association from GWAS data, this prioritisation system is able
-		to resolve modulated genes (seed genes) by utilising knowledge
-		of linkage disequilibrium (co-inherited variants), distance
-		from the gene, and evidence of genetic association with gene
-		expression. Seed genes are scored in an integrative way
-		quantifying the genetic influence. Scored seed genes are
+		the gene, pathway and network level. Based on evidence of
+		genetic association from GWAS data, this prioritisation system
+		is able to resolve modulated genes (seed genes) by utilising
+		knowledge of linkage disequilibrium (co-inherited variants),
+		distance from the gene, and evidence of genetic association
+		with gene expression. Seed genes are scored in an integrative
+		way quantifying the genetic influence. Scored seed genes are
 		subsequently used as baits to rank seed genes plus additional
 		(non-seed) genes; this is achieved by iteratively exploring the
 		global connectivity of a gene interaction network. Genes with
