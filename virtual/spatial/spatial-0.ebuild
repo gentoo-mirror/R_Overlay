@@ -3,7 +3,7 @@
 
 EAPI=5
 
-DESCRIPTION="Virtual of an R recommended package"
+DESCRIPTION="Virtual of a R recommended package"
 HOMEPAGE=""
 SRC_URI=""
 
