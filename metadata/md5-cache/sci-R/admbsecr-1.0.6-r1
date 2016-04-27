@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/lattice sci-CRAN/matrixStats sci-CRAN/plyr sci-CRAN/secr >=sci-CRAN/Rcpp-0.10.6 sci-CRAN/R2admb sci-CRAN/CircStats >=dev-lang/R-2.15.1 dev-lang/R
+DESCRIPTION=SECR models with supplementary l... (see metadata)
+EAPI=5
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=virtual/lattice sci-CRAN/matrixStats sci-CRAN/plyr sci-CRAN/secr >=sci-CRAN/Rcpp-0.10.6 sci-CRAN/R2admb sci-CRAN/CircStats >=dev-lang/R-2.15.1 sci-CRAN/Rcpp r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/admbsecr_1.0.6.tar.gz -> admbsecr_1.0.6-r1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=ad34a8ff3858c464e5024a5570cc8466

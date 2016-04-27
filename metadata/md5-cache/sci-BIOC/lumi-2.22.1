@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-BIOC/affy-1.23.4 sci-BIOC/annotate sci-CRAN/nleqslv virtual/KernSmooth sci-BIOC/AnnotationDbi >=sci-CRAN/mgcv-1.4.0 >=sci-BIOC/Biobase-2.5.5 >=sci-BIOC/methylumi-2.3.2 sci-BIOC/GenomicFeatures sci-CRAN/RSQLite virtual/MASS sci-BIOC/GenomicRanges >=sci-BIOC/Biobase-2.5.5 virtual/lattice sci-BIOC/preprocessCore sci-CRAN/DBI dev-lang/R
+DESCRIPTION=BeadArray Specific Methods for I... (see metadata)
+EAPI=5
+IUSE=r_suggests_beadarray r_suggests_genefilter r_suggests_limma r_suggests_lumibarnes r_suggests_lumihumanall_db r_suggests_lumihumanidmapping r_suggests_rcolorbrewer r_suggests_vsn byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2+
+RDEPEND=>=sci-BIOC/affy-1.23.4 sci-BIOC/annotate sci-CRAN/nleqslv virtual/KernSmooth sci-BIOC/AnnotationDbi >=sci-CRAN/mgcv-1.4.0 >=sci-BIOC/Biobase-2.5.5 >=sci-BIOC/methylumi-2.3.2 sci-BIOC/GenomicFeatures sci-CRAN/RSQLite virtual/MASS sci-BIOC/GenomicRanges >=sci-BIOC/Biobase-2.5.5 virtual/lattice sci-BIOC/preprocessCore sci-CRAN/DBI r_suggests_beadarray? ( sci-BIOC/beadarray ) r_suggests_genefilter? ( sci-BIOC/genefilter ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_lumibarnes? ( sci-BIOC/lumiBarnes ) r_suggests_lumihumanall_db? ( sci-BIOC/lumiHumanAll_db ) r_suggests_lumihumanidmapping? ( sci-BIOC/lumiHumanIDMapping ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_vsn? ( sci-BIOC/vsn ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/lumi_2.22.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=00103db8229a966b956d23f633dac1cb

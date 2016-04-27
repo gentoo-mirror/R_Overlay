@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.14.0 virtual/MASS sci-CRAN/Formula sci-CRAN/lmtest sci-CRAN/sandwich dev-lang/R
+DESCRIPTION=Generalized Linear Models Extended
+EAPI=5
+IUSE=r_suggests_aer r_suggests_gld r_suggests_numderiv r_suggests_pscl byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-2.14.0 virtual/MASS sci-CRAN/Formula sci-CRAN/lmtest sci-CRAN/sandwich r_suggests_aer? ( sci-CRAN/AER ) r_suggests_gld? ( sci-CRAN/gld ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_pscl? ( sci-CRAN/pscl ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/glmx_0.1-1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=b5dab98ebed0dac7b4e3457d4e378b5a

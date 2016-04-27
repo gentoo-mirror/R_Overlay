@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/nlme sci-CRAN/sp virtual/mgcv >=dev-lang/R-3.2.0 virtual/MASS sci-CRAN/raster sci-CRAN/abind dev-lang/R
+DESCRIPTION=Spatially Explicit Capture-Recapture
+EAPI=5
+IUSE=r_suggests_gdistance r_suggests_knitr r_suggests_maptools r_suggests_rgdal r_suggests_rgeos r_suggests_spsurvey byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=virtual/nlme sci-CRAN/sp virtual/mgcv >=dev-lang/R-3.2.0 virtual/MASS sci-CRAN/raster sci-CRAN/abind r_suggests_gdistance? ( sci-CRAN/gdistance ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_rgdal? ( sci-CRAN/rgdal ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_spsurvey? ( sci-CRAN/spsurvey ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/secr_2.10.2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=c5a3d317a41a4b8dee32a7edf05d3b82
