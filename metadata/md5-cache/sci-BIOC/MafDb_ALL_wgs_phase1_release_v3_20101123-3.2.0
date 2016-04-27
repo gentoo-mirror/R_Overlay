@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install postinst prepare unpack
-DEPEND=sci-BIOC/Rsamtools sci-BIOC/Biostrings >=sci-BIOC/VariantFiltering-1.5.23 sci-BIOC/IRanges sci-BIOC/GenomicRanges sci-BIOC/VariantAnnotation >=dev-lang/R-3.0.0 >=sci-CRAN/RSQLite-1.0.0 sci-BIOC/Biobase sci-BIOC/AnnotationDbi dev-lang/R
+DEPEND=>=sci-BIOC/VariantFiltering-1.5.23 >=sci-CRAN/RSQLite-1.0.0 sci-BIOC/Biostrings >=dev-lang/R-3.0.0 sci-BIOC/Biobase sci-BIOC/AnnotationDbi sci-BIOC/IRanges sci-BIOC/VariantAnnotation sci-BIOC/Rsamtools sci-BIOC/GenomicRanges dev-lang/R
 DESCRIPTION=Minor allele frequency data from 1000 Genomes
 EAPI=5
 IUSE=byte-compile
 KEYWORDS=~amd64 ~x86
 LICENSE=Artistic-2
-RDEPEND=sci-BIOC/Rsamtools sci-BIOC/Biostrings >=sci-BIOC/VariantFiltering-1.5.23 sci-BIOC/IRanges sci-BIOC/GenomicRanges sci-BIOC/VariantAnnotation >=dev-lang/R-3.0.0 >=sci-CRAN/RSQLite-1.0.0 sci-BIOC/Biobase sci-BIOC/AnnotationDbi dev-lang/R
+RDEPEND=>=sci-BIOC/VariantFiltering-1.5.23 >=sci-CRAN/RSQLite-1.0.0 sci-BIOC/Biostrings >=dev-lang/R-3.0.0 sci-BIOC/Biobase sci-BIOC/AnnotationDbi sci-BIOC/IRanges sci-BIOC/VariantAnnotation sci-BIOC/Rsamtools sci-BIOC/GenomicRanges dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/MafDb.ALL.wgs.phase1.release.v3.20101123_3.2.0.tar.gz
 _eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
-_md5_=cdbb18078144681b8034f9465abc1c5a
+_md5_=383cdcdd98c4f15d5fc27a50b809dde0
