@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/lattice-0.20.27 dev-lang/R
+DESCRIPTION=S3 Infrastructure for Regular an... (see metadata)
+EAPI=5
+IUSE=r_suggests_chron r_suggests_coda r_suggests_daag r_suggests_fts r_suggests_ggplot2 r_suggests_its r_suggests_mondate r_suggests_scales r_suggests_strucchange r_suggests_timedate r_suggests_timeseries r_suggests_tis r_suggests_tseries r_suggests_xts byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=sci-CRAN/lattice-0.20.27 r_suggests_chron? ( sci-CRAN/chron ) r_suggests_coda? ( sci-CRAN/coda ) r_suggests_daag? ( sci-CRAN/DAAG ) r_suggests_fts? ( sci-CRAN/fts ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_its? ( sci-CRAN/its ) r_suggests_mondate? ( sci-CRAN/mondate ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_strucchange? ( sci-CRAN/strucchange ) r_suggests_timedate? ( sci-CRAN/timeDate ) r_suggests_timeseries? ( sci-CRAN/timeSeries ) r_suggests_tis? ( sci-CRAN/tis ) r_suggests_tseries? ( sci-CRAN/tseries ) r_suggests_xts? ( sci-CRAN/xts ) dev-lang/R
+SLOT=0
+SRC_URI=http://download.r-forge.r-project.org/src/contrib/zoo_1.7-13.tar.gz -> zoo_1.7-13-r4.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	23ae8c186171e6476af098d2a50d0ee0	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=4237a8148af7924dd1d657ad18e15765
