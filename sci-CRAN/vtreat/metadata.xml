@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Simple Variable Treatment // Prepares variables so that data has
+		Simple Variable Treatment // A data.frame processor/conditioner
+		that prepares real-world data for predictive modeling in a
+		statistically sound manner. Prepares variables so that data has
 		fewer exceptional cases, making it easier to safely use models
 		in production. Common problems 'vtreat' defends against: Inf,
-		NA, too many categorical values, rare categorical values, new
-		categorical values (levels seen during application, but not
+		NA, too many categorical levels, rare categorical levels, new
+		categorical levels (levels seen during application, but not
 		during training). 'vtreat::prepare' should be used as you would
 		use 'model.matrix'.
 	</longdescription>
