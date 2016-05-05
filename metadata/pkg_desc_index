@@ -143,7 +143,7 @@ sci-BIOC/Biobase 2.22.0 2.30.0: Biobase: Base functions for Bioconductor
 sci-BIOC/BiocCaseStudies 1.24.0 1.32.0: BiocCaseStudies: Support for the... (see metadata)
 sci-BIOC/BiocCheck 1.6.0 1.6.1: Bioconductor-specific package checks
 sci-BIOC/BiocGenerics 0.8.0 0.16.0 0.16.1: S4 generic functions for Bioconductor
-sci-BIOC/BiocInstaller 1.12.0 1.12.1 1.20.0 1.20.1: Install/Update Bioconductor and CRAN Packages
+sci-BIOC/BiocInstaller 1.12.0 1.12.1 1.20.0 1.20.1 1.20.2: Install/Update Bioconductor, CRA... (see metadata)
 sci-BIOC/BiocParallel 1.4.3: Bioconductor facilities for parallel evaluation
 sci-BIOC/BiocStyle 1.0.0 1.0.0-r1 1.8.0: Standard styles for vignettes an... (see metadata)
 sci-BIOC/Biostrings 2.30.1 2.38.0 2.38.4: String objects representing biol... (see metadata)
@@ -2582,7 +2582,7 @@ sci-CRAN/CircNNTSR 2.1 2.1-r1: CircNNTSR: An R package for the ... (see metadata
 sci-CRAN/CircOutlier 3.1.3 3.2.3: Detection of Outliers in Circula... (see metadata)
 sci-CRAN/CircStats 0.2.4 0.2.4-r1: Circular Statistics, from Topics... (see metadata)
 sci-CRAN/CityPlot 2.0 2.0-r1: Visualization of structure and c... (see metadata)
-sci-CRAN/Ckmeans_1d_dp 2.5 3.0 3.02 3.3.0 3.3.1: Optimal k-Means Clustering for O... (see metadata)
+sci-CRAN/Ckmeans_1d_dp 2.5 3.0 3.02 3.3.0 3.3.1 3.3.3: Optimal k-Means Clustering for O... (see metadata)
 sci-CRAN/Claddis 0.1: Measuring Morphological Diversit... (see metadata)
 sci-CRAN/ClamR 2.1.1: Time Series Modeling for Climate Change Proxies
 sci-CRAN/ClickClust 0.1.1 1.1.2 1.1.3 1.1.4: Model-Based Clustering of Categorical Sequences
@@ -3083,7 +3083,7 @@ sci-CRAN/GLMMRR 0.1.2: Generalized Linear Mixed Model (... (see metadata)
 sci-CRAN/GLSME 1.0 1.0.1 1.0.2 1.0.3: Generalized Least Squares with Measurement Error
 sci-CRAN/GMCM 1.0 1.0.1 1.1 1.1.1 1.2 1.2.1 1.2.2 1.2.3: Fast Estimation of Gaussian Mixture Copula Models
 sci-CRAN/GMD 0.3.1.1 0.3.3: Generalized Minimum Distance of distributions
-sci-CRAN/GMDH 1.0 1.1 1.4: Short Term Forecasting via GMDH-... (see metadata)
+sci-CRAN/GMDH 1.0 1.1 1.4 1.5: Short Term Forecasting via GMDH-... (see metadata)
 sci-CRAN/GMMBoost 1.1.2: Likelihood-based Boosting for Ge... (see metadata)
 sci-CRAN/GNE 0.98 0.99.0 0.99.1: Computation of Generalized Nash Equilibria
 sci-CRAN/GOGANPA 1.0: GO-Functional-Network-based Gene-Set-Analysis
@@ -3150,7 +3150,7 @@ sci-CRAN/GeoLight 1.03 2.0.0: Analysis of Light Based Geolocator Data
 sci-CRAN/GeoXp 1.6.2: Interactive exploratory spatial data analysis
 sci-CRAN/GetNenshuJP 0.1 0.1-r1: Get data about Japanese company
 sci-CRAN/GetR 0.1: GetR: Calculate Guttman error trees in R
-sci-CRAN/GetTDData 1.0 1.1 1.2: Get Data for Brazilian Bonds (Tesouro Direto)
+sci-CRAN/GetTDData 1.0 1.1 1.2 1.2.1: Get Data for Brazilian Bonds (Tesouro Direto)
 sci-CRAN/GhcnDaily 1.5: Downloads and processes GHCN daily
 sci-CRAN/GiANT 1.0 1.1 1.2: Gene Set Uncertainty in Enrichment Analysis
 sci-CRAN/GiNA 1.0.1: High Throughput Phenotyping
@@ -3216,7 +3216,7 @@ sci-CRAN/HMR 0.3.1 0.3.1-r1 0.3.2 0.4.1: Flux Estimation with Static Chamber Dat
 sci-CRAN/HPOSim 1.2: Analysis semantic similarity bet... (see metadata)
 sci-CRAN/HPO_db 1.2: A set of annotation maps describ... (see metadata)
 sci-CRAN/HPbayes 0.1 0.1-r1: Heligman Pollard mortality model... (see metadata)
-sci-CRAN/HRM 0.1: High-Dimensional Repeated Measures
+sci-CRAN/HRM 0.1 0.3.5: High-Dimensional Repeated Measures
 sci-CRAN/HSAR 0.3.6: Hierarchical Spatial Autoregressive Model (HSAR)
 sci-CRAN/HSAUR 1.3.3 1.3.4 1.3.5 1.3.6 1.3.7: A Handbook of Statistical Analys... (see metadata)
 sci-CRAN/HSAUR2 1.1.9 1.1.10 1.1.11 1.1.12 1.1.13 1.1.14: A Handbook of Statistical Analys... (see metadata)
@@ -3850,7 +3850,7 @@ sci-CRAN/OUwie 1.41 1.42 1.43 1.44 1.45 1.46 1.49: Analysis of Evolutionary Rate
 sci-CRAN/Oarray 1.4.5 1.4.5-r1: Arrays with arbitrary offsets
 sci-CRAN/OceanView 1.0 1.0.1 1.0.2 1.0.3 1.0.4: Visualisation of Oceanographic D... (see metadata)
 sci-CRAN/Ohmage 2.11.3 2.11.4: R Client for Ohmage 2 server
-sci-CRAN/OjaNP 0.9.6 0.9.7 0.9.8: Multivariate Methods Based on th... (see metadata)
+sci-CRAN/OjaNP 0.9.6 0.9.7 0.9.8 0.9.9: Multivariate Methods Based on th... (see metadata)
 sci-CRAN/OligoSpecificitySystem 1.3: Oligo Specificity System
 sci-CRAN/OmicKriging 1.1 1.3 1.3-r1 1.4.0: Poly-Omic Prediction of Complex TRaits
 sci-CRAN/Oncotree 0.3.3: Estimating oncogenetic trees
@@ -4158,7 +4158,7 @@ sci-CRAN/REndo 1.0: Fitting Linear Models with Endog... (see metadata)
 sci-CRAN/RFGLS 1.1: Rapid Feasible Generalized Least Squares
 sci-CRAN/RFLPtools 1.5 1.6: Tools to analyse RFLP data
 sci-CRAN/RFOC 3.3.3: Graphics for Spherical Distribut... (see metadata)
-sci-CRAN/RFc 0.1.1: Client for FetchClimate Web Service
+sci-CRAN/RFc 0.1.1 0.1.1-r1: Client for FetchClimate Web Service
 sci-CRAN/RFgroove 1.0 1.1: Importance Measure and Selection... (see metadata)
 sci-CRAN/RFinanceYJ 0.3.1: RFinanceYJ
 sci-CRAN/RFmarkerDetector 1.0 1.0.1: Multivariate Analysis of Metabol... (see metadata)
@@ -4317,8 +4317,8 @@ sci-CRAN/RVtests 1.2: Rare Variant Tests
 sci-CRAN/RWBP 1.0: Detects spatial outliers using a... (see metadata)
 sci-CRAN/RWeather 0.4: R wrapper around the Yahoo! Weat... (see metadata)
 sci-CRAN/RWebLogo 1.0.0: an R package for plotting sequence logos
-sci-CRAN/RWeka 0.4.21 0.4.23 0.4.24 0.4.24-r1 0.4.25 0.4.26: R/Weka Interface
-sci-CRAN/RWekajars 3.7.10.1 3.7.11.1 3.7.11.1-r1 3.7.12.1 3.7.12.1-r1 3.7.13.1: R/Weka Interface Jars
+sci-CRAN/RWeka 0.4.21 0.4.23 0.4.24 0.4.24-r1 0.4.25 0.4.26 0.4.27: R/Weka Interface
+sci-CRAN/RWekajars 3.7.10.1 3.7.11.1 3.7.11.1-r1 3.7.12.1 3.7.12.1-r1 3.7.13.1 3.9.0.1: R/Weka Interface Jars
 sci-CRAN/RWiener 1.2.0 1.2.0-r1: Wiener process distribution functions
 sci-CRAN/RXKCD 1.7.5: Get XKCD comic from R
 sci-CRAN/RXMCDA 1.5.0 1.5.0-r1 1.5.3 1.5.5: Functions to Parse and Create XMCDA Files
@@ -4970,6 +4970,7 @@ sci-CRAN/TwoPhaseInd 1.1.1: Estimate Gene-Treatment Interact... (see metadata)
 sci-CRAN/TwoStepCLogit 1.2.2 1.2.2-r1 1.2.3 1.2.5: Conditional Logistic Regression:... (see metadata)
 sci-CRAN/UBCRM 1.0 1.0-r1 1.0.1 1.0.1-r1: Functions to Simulate and Conduc... (see metadata)
 sci-CRAN/UBL 0.0.3 0.0.4: An Implementation of Several App... (see metadata)
+sci-CRAN/UNCLES 1.0: Unification of Clustering Result... (see metadata)
 sci-CRAN/UNF 2.0 2.0-r1 2.0.1: Tools for Creating Universal Num... (see metadata)
 sci-CRAN/UPMASK 1.0: Unsupervised Photometric Members... (see metadata)
 sci-CRAN/USAboundaries 0.1 0.1.1 0.2.0: Historical and Contemporary Boun... (see metadata)
@@ -5183,7 +5184,7 @@ sci-CRAN/alr3 2.0.5: Data to accompany Applied Linear... (see metadata)
 sci-CRAN/alr4 1.0.3 1.0.5: Data to accompany Applied Linear... (see metadata)
 sci-CRAN/altmeta 1.0 2.0 2.1: Alternative Meta-Analysis Methods
 sci-CRAN/amap 0.8.7 0.8.12 0.8.14: Another Multidimensional Analysis Package
-sci-CRAN/ameco 0.1 0.2.2: European Commission Annual Macro... (see metadata)
+sci-CRAN/ameco 0.1 0.2.2 0.2.3: European Commission Annual Macro... (see metadata)
 sci-CRAN/amei 1.0.7 1.0.7-r1: Adaptive Management of Epidemiol... (see metadata)
 sci-CRAN/amen 0.975 0.999 1.0 1.1: Additive and Multiplicative Effe... (see metadata)
 sci-CRAN/aml 0.1.1 0.1.1-r1: Adaptive Mixed LASSO
@@ -5556,7 +5557,7 @@ sci-CRAN/boxplotdbl 1.2.2 1.2.2-r1: Double Box Plot for Two-Axes Correlation
 sci-CRAN/boxr 0.2.5 0.2.6 0.2.9: Interface for the Box.com API
 sci-CRAN/bpa 0.1 0.1.1: Basic Pattern Analysis
 sci-CRAN/bpca 1.2.2: Biplot of Multivariate Data Base... (see metadata)
-sci-CRAN/bpcp 1.3.1 1.3.2: Beta Product Confidence Procedur... (see metadata)
+sci-CRAN/bpcp 1.3.1 1.3.2 1.3.3: Beta Product Confidence Procedur... (see metadata)
 sci-CRAN/bpkde 1.0.2 1.0.4 1.0.7: Back-Projected Kernel Density Estimation
 sci-CRAN/bqtl 1.0.30 1.0.30-r1 1.0.32: Bayesian QTL Mapping Toolkit
 sci-CRAN/braQCA 0.9.7.0: Bootstrapped Robustness Assessme... (see metadata)
@@ -6404,7 +6405,7 @@ sci-CRAN/epandist 1.0.0 1.0.1 1.1.1: Statistical Functions for the Ce... (see me
 sci-CRAN/epanetReader 0.2.2 0.3.1: Read Epanet Files into R
 sci-CRAN/epi2loc 1.0.1: Epistatic and penetrance models ... (see metadata)
 sci-CRAN/epiDisplay 3.2.0.6 3.2.2.0: Epidemiological Data Display Package
-sci-CRAN/epiR 0.9.57 0.9.57-r1 0.9.58 0.9.59 0.9.61 0.9.62 0.9.69 0.9.74: Tools for the Analysis of Epidemiological Data
+sci-CRAN/epiR 0.9.57 0.9.57-r1 0.9.58 0.9.59 0.9.61 0.9.62 0.9.69 0.9.74 0.9.76: Tools for the Analysis of Epidemiological Data
 sci-CRAN/epibasix 1.3 1.3-r1: Elementary Epidemiological Funct... (see metadata)
 sci-CRAN/epicalc 2.15.1.0 2.15.1.0-r1: Epidemiological calculator
 sci-CRAN/epifit 0.0.6: Flexible Modelling Functions for... (see metadata)
@@ -6778,6 +6779,7 @@ sci-CRAN/gammSlice 1.2.6 1.2.6-r1 1.3: Generalized additive mixed model... (see 
 sci-CRAN/gamsel 1.7.3: Fit Regularization Path for Gene... (see metadata)
 sci-CRAN/gaoptim 1.1 1.1-r1: Genetic Algorithm optimization f... (see metadata)
 sci-CRAN/gap 1.1.10 1.1.12 1.1.13 1.1.14 1.1.16: Genetic Analysis Package
+sci-CRAN/gapfill 0.9.3: Fill Missing Values in Satellite Data
 sci-CRAN/gapmap 0.0.1 0.0.2 0.0.4: Functions for Drawing Gapped Clu... (see metadata)
 sci-CRAN/gapminder 0.1.0 0.2.0: Data from Gapminder
 sci-CRAN/gaselect 1.0.4 1.0.5: Genetic Algorithm (GA) for Varia... (see metadata)
@@ -6869,7 +6871,8 @@ sci-CRAN/geotech 1.0: Geotechnical Engineering
 sci-CRAN/geotools 0.1 0.1-r1: Geo tools
 sci-CRAN/geotopbricks 1.3.5 1.3.5.4 1.3.6 1.3.7.2: An R Plug-in for the Distributed... (see metadata)
 sci-CRAN/geozoo 0.4.3 0.5.0: Zoo of Geometric Objects
-sci-CRAN/gesca 1.0 1.0.1: Generalized Structured Component Analysis (GSCA)
+sci-CRAN/gepaf 0.1.0: Google Encoded Polyline Algorithm Format
+sci-CRAN/gesca 1.0 1.0.1 1.0.2: Generalized Structured Component Analysis (GSCA)
 sci-CRAN/gesis 0.1: R Client for GESIS Data Catalogue (DBK)
 sci-CRAN/getMet 0.2.1 0.3.2: Get Meteorological Data for Hydrologic Models
 sci-CRAN/getPass 0.1.0 0.1.1: Masked User Input
@@ -6889,7 +6892,7 @@ sci-CRAN/ggdendro 0.1.18 0.1.20: Create Dendrograms and Tree Diagrams Using ggpl
 sci-CRAN/gge 1.0: Genotype Plus Genotype-by-Environment Biplots
 sci-CRAN/ggenealogy 0.1.0: Visualization Tools for Genealogical Data
 sci-CRAN/ggfortify 0.1.0: Data Visualization Tools for Sta... (see metadata)
-sci-CRAN/ggiraph 0.1.0 0.2.0: Make ggplot2 Graphics Interactiv... (see metadata)
+sci-CRAN/ggiraph 0.1.0 0.2.0 0.3.0: Make ggplot2 Graphics Interactiv... (see metadata)
 sci-CRAN/gglasso 1.1 1.1-r1 1.2 1.3: Group Lasso Penalized Learning U... (see metadata)
 sci-CRAN/ggm 1.995.5 2.0 2.1 2.2 2.3: Functions for graphical Markov models
 sci-CRAN/ggmap 2.6.1: Spatial Visualization with ggplot2
@@ -8063,7 +8066,7 @@ sci-CRAN/morgenstemning 1.0: Color schemes compatible with re... (see metadata)
 sci-CRAN/morse 1.0.1 1.0.2: MOdelling tools for Reproduction... (see metadata)
 sci-CRAN/mosaic 0.8.18 0.8.27 0.9.0 0.9.1.3 0.9.2.2 0.12 0.13.0: Project MOSAIC Statistics and Ma... (see metadata)
 sci-CRAN/mosaicData 0.13.0: Project MOSAIC (mosaic-web.org) data sets
-sci-CRAN/moult 1.3 1.4: Models for analysing moult in birds
+sci-CRAN/moult 1.3 1.4 2.0.0: Models for Analysing Moult in Birds
 sci-CRAN/mountainplot 1.0 1.1: Mountain Plots, Folded Empirical... (see metadata)
 sci-CRAN/mousetrack 1.0.0: Mouse-Tracking Measures from Trajectory Data
 sci-CRAN/mousetrap 1.0.0: Process and Analyze Mouse-Tracking Data
@@ -8119,7 +8122,7 @@ sci-CRAN/muStat 1.7.0 1.7.0-r1: Prentice Rank Sum Test and McNemar Test
 sci-CRAN/mugnet 1.02.0 1.2.0-r1: Mixture of Gaussian Bayesian Network Model
 sci-CRAN/muhaz 1.2.5 1.2.5-r1 1.2.6: Hazard Function Estimation in Survival Analysis
 sci-CRAN/muir 0.1.0: Exploring Data with Tree Data Structures
-sci-CRAN/multcomp 1.4.4: Simultaneous Inference in Genera... (see metadata)
+sci-CRAN/multcomp 1.4.4 1.4.5: Simultaneous Inference in Genera... (see metadata)
 sci-CRAN/multcompView 0.1.5 0.1.7: Visualizations of Paired Comparisons
 sci-CRAN/multgee 1.4 1.5.0 1.5.1 1.5.2 1.5.3: GEE Solver for Correlated Nomina... (see metadata)
 sci-CRAN/multiAssetOptions 0.1.1: Finite Difference Method for Mul... (see metadata)
@@ -8196,7 +8199,7 @@ sci-CRAN/mvtsplot 1.0.1: Multivariate Time Series Plot
 sci-CRAN/mwa 0.1 0.2 0.3 0.3.1 0.3.2 0.4 0.4.1: Causal Inference in Spatiotemporal Event Data
 sci-CRAN/mwaved 1.0 1.0.1 1.1.0 1.1.1 1.1.2 1.1.3 1.1.4: Multichannel Wavelet Deconvoluti... (see metadata)
 sci-CRAN/mxkssd 1.1 1.1-r1: Efficient mixed-level k-circulan... (see metadata)
-sci-CRAN/myTAI 0.0.1 0.0.2 0.1.0 0.3.0: Performing Phylotranscriptomics with R
+sci-CRAN/myTAI 0.0.1 0.0.2 0.1.0 0.3.0 0.4.0: Perform Evolutionary Transcriptomics Studies
 sci-CRAN/mycobacrvR 1.0 1.0-r1: Integrative immunoinformatics fo... (see metadata)
 sci-CRAN/mycor 0.1: Automatic Correlation and Regres... (see metadata)
 sci-CRAN/myepisodes 1.1.1 1.1.1-r1: MyEpisodes RSS/API functions
@@ -8252,7 +8255,7 @@ sci-CRAN/networkD3 0.1.1 0.1.2.1 0.1.7 0.1.8 0.2.1 0.2.4 0.2.6 0.2.8 0.2.10: D3 
 sci-CRAN/networkDynamic 0.6.3 0.7.1 0.8.1 0.9.0: Dynamic Extensions for Network Objects
 sci-CRAN/networkDynamicData 0.1.0 0.2.1: Dynamic (Longitudinal) Network Datasets
 sci-CRAN/networkTomography 0.3: Tools for network tomography
-sci-CRAN/networkreporting 0.0.1: Tools for using network reporting estimators.
+sci-CRAN/networkreporting 0.0.1 0.1.0: Tools for using Network Reporting Estimators
 sci-CRAN/networksis 2.1.2 2.1.3: Simulate Bipartite Graphs with F... (see metadata)
 sci-CRAN/neuRosim 0.2.10 0.2.12: Functions to Generate fMRI Data ... (see metadata)
 sci-CRAN/neural 1.4.2.2: Neural Networks
@@ -8317,6 +8320,7 @@ sci-CRAN/normalp 0.6.9 0.6.9-r1 0.7.0: Routines for Exponential Power Distributi
 sci-CRAN/normtest 1.1: Tests for Normality
 sci-CRAN/normwhn_test 1.0 1.0-r1: Normality and White Noise Testing
 sci-CRAN/nortest 1.0.2 1.0.2-r1 1.0.3 1.0.4: Tests for Normality
+sci-CRAN/nortestARMA 1.0: Neyman Smooth Tests of Normality... (see metadata)
 sci-CRAN/nose 1.0 1.0-r1: nose Package for R
 sci-CRAN/notifyR 1.02: Send push notifications to your ... (see metadata)
 sci-CRAN/novelist 1.0: NOVEL Integration of the Sample ... (see metadata)
@@ -9069,7 +9073,7 @@ sci-CRAN/r_jive 1.2 1.4: Perform JIVE Decompositions for Multi-Source Data
 sci-CRAN/race 0.1.59 0.1.59-r1: Racing methods for the selection of the best
 sci-CRAN/radar 1.0.0: Fundamental Formulas for Radar
 sci-CRAN/radarchart 0.1.1 0.1.2: Radar Chart from Chart.js
-sci-CRAN/radiomics 0.1.1: Radiomic Image Processing Toolbox
+sci-CRAN/radiomics 0.1.1 0.1.2: Radiomic Image Processing Toolbox
 sci-CRAN/radir 1.0 1.0.1: Inverse-Regression Estimation of Radioactive Doses
 sci-CRAN/rafalib 1.0.0: Convenience Functions for Routine Data Exploration
 sci-CRAN/rags2ridges 1.1 1.2 1.3 1.4 2.0: Ridge Estimation of Precision Ma... (see metadata)
@@ -9203,6 +9207,7 @@ sci-CRAN/regpro 0.1.0 0.1.1: Nonparametric Regression
 sci-CRAN/regress 1.3.10 1.3.10-r1 1.3.13 1.3.14: Gaussian linear models with line... (see metadata)
 sci-CRAN/regsel 0.2: Variable Selection and Regression
 sci-CRAN/regsem 0.1.0 0.1.1 0.1.2: Performs Regularization on Struc... (see metadata)
+sci-CRAN/regspec 2.1: Non-Parametric Bayesian Spectrum... (see metadata)
 sci-CRAN/regsubseq 0.10 0.12: Detect and Test Regular Sequences and Subsequences
 sci-CRAN/regtest 0.05 0.5-r1: Regression testing
 sci-CRAN/rehh 1.11 1.12 1.13: Searching for Footprints of Sele... (see metadata)
@@ -9402,7 +9407,7 @@ sci-CRAN/rpartitions 0.1 0.1-r1: Code for integer partitioning
 sci-CRAN/rpca 0.2.3: RobustPCA: Decompose a Matrix in... (see metadata)
 sci-CRAN/rpcdsearch 1.0: Tools for the Construction of Cl... (see metadata)
 sci-CRAN/rpdo 0.0.1 0.1.0 0.1.1 0.1.2: Pacific Decadal Oscillation Index
-sci-CRAN/rpf 0.27 0.28 0.30 0.32 0.35 0.36 0.38 0.39 0.40 0.43 0.44 0.45 0.48 0.51: Response Probability Functions
+sci-CRAN/rpf 0.27 0.28 0.30 0.32 0.35 0.36 0.38 0.39 0.40 0.43 0.44 0.45 0.48 0.51 0.52: Response Probability Functions
 sci-CRAN/rphast 1.5 1.6: Interface to PHAST Software for ... (see metadata)
 sci-CRAN/rpivotTable 0.1.5.7: Build Powerful Pivot Tables and ... (see metadata)
 sci-CRAN/rplos 0.3.6 0.4.0 0.4.1 0.4.6 0.4.7 0.5.0 0.5.2 0.5.4 0.5.6: Interface to the Search API for PLoS Journals
@@ -9769,8 +9774,8 @@ sci-CRAN/skewt 0.1 0.1-r1: The Skewed Student-t Distribution
 sci-CRAN/skmeans 0.2.5 0.2.6 0.2.6-r1 0.2.7 0.2.8: Spherical k-Means Clustering
 sci-CRAN/sla 0.1: Two-Group Straight Line ANCOVA
 sci-CRAN/slackr 1.2 1.4.1: Send Messages, Images, R Objects... (see metadata)
-sci-CRAN/slam 0.1.31 0.1.31-r1 0.1.32: Sparse Lightweight Arrays and Matrices
-sci-CRAN/sld 0.2.1 0.3: Estimation and Use of the Quanti... (see metadata)
+sci-CRAN/slam 0.1.31 0.1.31-r1 0.1.32 0.1.34: Sparse Lightweight Arrays and Matrices
+sci-CRAN/sld 0.2.1 0.3 0.3.2: Estimation and Use of the Quanti... (see metadata)
 sci-CRAN/sleekts 1.0.2: 4253H, Twice Smoothing
 sci-CRAN/slfm 0.1 0.2.2: Tools for Fitting Sparse Latent Factor Model
 sci-CRAN/slp 1.0.3: Discrete Prolate Spheroidal (Sle... (see metadata)
@@ -9899,6 +9904,7 @@ sci-CRAN/sparsediscrim 0.1.0 0.2: Sparse and Regularized Discriminant Analysis
 sci-CRAN/sparsenet 1.2: Fit sparse linear regression mod... (see metadata)
 sci-CRAN/sparsereg 1.0 1.1 1.2: Sparse Bayesian Models for Regre... (see metadata)
 sci-CRAN/sparsesvd 0.1 0.1.1: Sparse Truncated Singular Value ... (see metadata)
+sci-CRAN/sparsevar 0.0.3: A Package for Sparse VAR/VECM Estimation
 sci-CRAN/spartan 1.3 2.0 2.1 2.2 2.2.1 2.3: Simulation Parameter Analysis R ... (see metadata)
 sci-CRAN/spatcounts 1.1 1.1-r1: Spatial count regression
 sci-CRAN/spate 1.3 1.4: Spatio-Temporal Modeling of Larg... (see metadata)
@@ -10107,7 +10113,7 @@ sci-CRAN/survSNP 0.21.7 0.23.2: Power Calculations for SNP Studi... (see metadat
 sci-CRAN/surveillance 1.11.0 1.12.0: Temporal and Spatio-Temporal Mod... (see metadata)
 sci-CRAN/survexp_fr 1.0 1.0-r1: Relative survival, AER and SMR b... (see metadata)
 sci-CRAN/survey 3.29.5 3.30.2 3.30.3: analysis of complex survey samples
-sci-CRAN/surveybootstrap 0.0.1: Tools for the Bootstrap with Survey Data
+sci-CRAN/surveybootstrap 0.0.1 0.0.1-r1: Tools for the Bootstrap with Survey Data
 sci-CRAN/surveydata 0.1.14: Tools to manipulate survey data
 sci-CRAN/surveyeditor 1.0: Generate a Survey that can be Co... (see metadata)
 sci-CRAN/surveyoutliers 0.1: Helps Manage Outliers in Sample Surveys
@@ -10161,6 +10167,7 @@ sci-CRAN/synbreed 0.9.7 0.10.1 0.10.2 0.10.3 0.10.4 0.10.5 0.11.2 0.11.4 0.11.8 
 sci-CRAN/synbreedData 1.4 1.4-r1 1.5: Data for the Synbreed Package
 sci-CRAN/synchronicity 1.1.2 1.1.4 1.1.9 1.1.9.1: Boost Mutex Functionality in R
 sci-CRAN/synchrony 0.2.1 0.2.2 0.2.3: Methods for computing spatial, t... (see metadata)
+sci-CRAN/synergyfinder 0.1: Calculate and Visualize Synergy ... (see metadata)
 sci-CRAN/synlik 0.1.0 0.1.1: Synthetic Likelihood methods for... (see metadata)
 sci-CRAN/synthpop 1.0.0 1.1.0 1.1.1 1.2.1: Generating Synthetic Versions of... (see metadata)
 sci-CRAN/sysfonts 0.1 0.2 0.3 0.4 0.5: Loading System Fonts into R
@@ -10274,7 +10281,7 @@ sci-CRAN/titrationCurves 0.1.0: Acid/Base, Complexation, Redox, ... (see metadat
 sci-CRAN/tkrgl 0.7 0.7-r1: TK widget tools for rgl package
 sci-CRAN/tkrplot 0.0.23 0.0.23-r1: TK Rplot
 sci-CRAN/tlemix 0.1.3 0.1.3-r1: Trimmed Maximum Likelihood Estimation
-sci-CRAN/tlm 0.1.2 0.1.3: Effects under Linear, Logistic a... (see metadata)
+sci-CRAN/tlm 0.1.2 0.1.3 0.1.4: Effects under Linear, Logistic a... (see metadata)
 sci-CRAN/tlmec 0.0.2 0.0.2-r1: Linear Student-t Mixed-Effects M... (see metadata)
 sci-CRAN/tlnise 2.0 2.0-r1: Two-level normal independent sampling estimation
 sci-CRAN/tm 0.5.10 0.6 0.6.1: Text Mining Package
@@ -10412,7 +10419,7 @@ sci-CRAN/ump 0.5.3 0.5.3-r1 0.5.4 0.5.6: Uniformly Most Powerful Tests
 sci-CRAN/umx 0.50 1.0.0 1.2.0 1.2.5: Structural Equation Modelling in R with OpenMx
 sci-CRAN/unbalanced 1.1 1.1-r1 2.0: Racing for Unbalanced Methods Selection
 sci-CRAN/unbalhaar 2.0 2.0-r1: Function estimation via Unbalanced Haar wavelets
-sci-CRAN/unfoldr 0.2 0.3 0.5: Stereological Unfolding for Spheroidal Particles
+sci-CRAN/unfoldr 0.2 0.3 0.5 0.5.1: Stereological Unfolding for Spheroidal Particles
 sci-CRAN/uniCox 1.0 1.0-r1: Univarate shrinkage prediction in the Cox model
 sci-CRAN/uniReg 1.0: Unimodal penalized spline regres... (see metadata)
 sci-CRAN/uniah 0.4: Unimodal Additive Hazards Model
@@ -11996,7 +12003,7 @@ sci-R/mskf 1.1.3 1.1.3-r1: Markov Switching Kalman Filter
 sci-R/msm 1.3 1.3.1 1.3.2 1.3.2-r1 1.3.3 1.3.3-r1 1.4 1.4.1 1.4.1-r1 1.4.2 1.4.3 1.5 1.5.1 1.5.2 1.5.3 1.6.2: Multi-State Markov and Hidden Ma... (see metadata)
 sci-R/mtable 0.99: Creating Tables of Model Estimat... (see metadata)
 sci-R/mtcreator 0.1: Creating MAGE-TAB files using mtcreator
-sci-R/multcomp 1.4.4 1.4.4-r1: Simultaneous Inference in Genera... (see metadata)
+sci-R/multcomp 1.4.4 1.4.4-r1 1.4.5: Simultaneous Inference in Genera... (see metadata)
 sci-R/multcompView 0.1.5: Visualizations of Paired Comparisons
 sci-R/multiCA 1.0 1.0-r1 1.0-r2: Multinomial Cochran-Armitage Trend Test
 sci-R/multivaRseg 1.0: What the package does (short line)
