@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculates Likelihood Support Intervals for Common Data Types //
+		Calculates likelihood based support intervals for several
+		common data types including binomial, Poisson, normal, lm(),
+		and glm(). For the binomial, Poisson, and normal data
+		likelihood intervals are calculated via root finding algorithm.
+		Additional parameters allow the user to specify whether they
+		would like to receive a parametric bootstrap estimate of the
+		confidence level of said support interval. For lm() and glm(),
+		the function returns profile likelihoods for each coefficient
+		in the model.
+	</longdescription>
+</pkgmetadata>
