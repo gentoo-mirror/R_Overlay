@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/nlme virtual/Matrix sci-CRAN/tensor >=sci-CRAN/polyclip-1.5.0 >=dev-lang/R-3.2.2 sci-CRAN/abind virtual/rpart >=sci-CRAN/deldir-0.0.21 sci-CRAN/goftest virtual/mgcv dev-lang/R
+DESCRIPTION=Spatial Point Pattern Analysis, ... (see metadata)
+EAPI=5
+IUSE=r_suggests_gsl r_suggests_locfit r_suggests_maptools r_suggests_randomfields r_suggests_rpanel r_suggests_sm r_suggests_spatial r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=virtual/nlme virtual/Matrix sci-CRAN/tensor >=sci-CRAN/polyclip-1.5.0 >=dev-lang/R-3.2.2 sci-CRAN/abind virtual/rpart >=sci-CRAN/deldir-0.0.21 sci-CRAN/goftest virtual/mgcv r_suggests_gsl? ( sci-CRAN/gsl ) r_suggests_locfit? ( sci-CRAN/locfit ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_randomfields? ( >=sci-CRAN/RandomFields-3.0.0 ) r_suggests_rpanel? ( sci-CRAN/rpanel ) r_suggests_sm? ( sci-CRAN/sm ) r_suggests_spatial? ( virtual/spatial ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatstat_1.45-2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=43112b15ecf37d5b84144601ba105fd6
