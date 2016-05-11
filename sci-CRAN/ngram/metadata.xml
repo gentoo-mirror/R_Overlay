@@ -2,8 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		An n-gram Babbler // This package offers utilities for creating,
-		displaying, and "babbling" n-grams.  The babbler is a simple
-		Markov process.
+		Fast n-Gram 'Tokenization' // An n-gram is a sequence of n
+		"words" taken from a body of text in order.  This package
+		offers utilities for creating, displaying, summarizing, and
+		"babbling" n-grams.  The 'tokenization' and "babbling" are
+		handled by very efficient C code, which can even be build as
+		its own standalone library. The babbler is a simple Markov
+		chain.  The package also offers a vignette with complete
+		example 'workflows' and information about the utilities offered
+		in the package.
 	</longdescription>
 </pkgmetadata>
