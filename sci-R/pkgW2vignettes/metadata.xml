@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		objects kept from vignette1 to vignette2 // This package
+		demonstrates that objects created in one vignette,
+		"vignette1")", are available for another, "vignette2")", with
+		"R CMD build pkgW2vignettes" + "R CMD check pkgW2vignettes" but
+		not when "vignette2"" is built alone in RStudio.
+	</longdescription>
+</pkgmetadata>

@@ -11,12 +11,16 @@
 		minimizing L2-type distance between certain weighted residual
 		empirical distribution functions. He also proposed a simpler
 		version of  the loss function by using symmetry of the
-		integrating measure in the distance. This package contains two
-		functions: KoulLrMde() and KoulArMde(). KoulLrMde() and
-		KoulArMde() provide minimum distance estimators for linear
-		regression model and autoregression model, respectively, where
-		both are based on Koul's method. These two functions take much
-		less time for the computation than those based on parametric
-		minimum distance estimation methods.
+		integrating measure in the distance. This package contains
+		three functions: KoulLrMde(), KoulArMde(), and Koul2StageMDE().
+		KoulLrMde() and KoulArMde() provide minimum distance estimators
+		for linear regression model and autoregression model,
+		respectively, where both are based on Koul's method. These two
+		functions take much less time for the computation than those
+		based on parametric minimum distance estimation methods.
+		Koul2StageMDE() provides estimators for regression and
+		autoregressive coefficients of linear regression model with
+		autoregressive errors through minimum distant method of two
+		stages.
 	</longdescription>
 </pkgmetadata>
