@@ -2,10 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Lake morphometry in R // Lake morphometry metrics are used by
-		limnologists to understand, among other things, the ecological
-		processes in a lake.  This package provides the tools to
-		calculate a typical suite of these metrics from an input
-		elevation model and lake polygon.
+		Lake Morphometry Metrics in R // Lake morphometry metrics are
+		used by limnologists to understand, among other things, the
+		ecological processes in a lake. Traditionally, these metrics
+		are calculated by hand, with planimeters, and increasingly with
+		commercial GIS products. All of these methods work; however,
+		they are either outdated, difficult to reproduce, or require
+		expensive licenses to use. The \code{lakemorpho} package
+		provides the tools to calculate a typical suite of these
+		metrics from an input elevation model and lake polygon. The
+		metrics currently supported are: fetch, maximum length, maximum
+		width, mean width, maximum depth, mean depth, shoreline
+		development, shoreline length, surface area, and volume.
 	</longdescription>
 </pkgmetadata>

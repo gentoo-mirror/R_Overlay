@@ -4,7 +4,7 @@
 	<longdescription>
 		Koul's Minimum Distance Estimation in Linear Regression and
 		Autoregression Model // Consider linear regression model and
-		autoregressive model of order p where errors in the linear
+		autoregressive model of order q where errors in the linear
 		regression model and innovations in the autoregression model
 		are independent and symmetrically distributed. Hira L. Koul
 		proposed a nonparametric minimum distance estimation method by
@@ -12,13 +12,13 @@
 		empirical distribution functions. He also proposed a simpler
 		version of  the loss function by using symmetry of the
 		integrating measure in the distance. This package contains
-		three functions: KoulLrMde(), KoulArMde(), and Koul2StageMDE().
+		three functions: KoulLrMde(), KoulArMde(), and Koul2StageMde().
 		KoulLrMde() and KoulArMde() provide minimum distance estimators
 		for linear regression model and autoregression model,
 		respectively, where both are based on Koul's method. These two
 		functions take much less time for the computation than those
 		based on parametric minimum distance estimation methods.
-		Koul2StageMDE() provides estimators for regression and
+		Koul2StageMde() provides estimators for regression and
 		autoregressive coefficients of linear regression model with
 		autoregressive errors through minimum distant method of two
 		stages.

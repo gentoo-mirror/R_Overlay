@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.14.0 sci-CRAN/SPOT sci-CRAN/twiddler sci-CRAN/testit sci-CRAN/adabag dev-lang/R
+DESCRIPTION=Tuned Data Mining in R
+EAPI=5
+IUSE=r_suggests_cmaes r_suggests_e1071 r_suggests_powell r_suggests_randomforest r_suggests_rcma r_suggests_rocr r_suggests_rsfa byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.14.0 sci-CRAN/SPOT sci-CRAN/twiddler sci-CRAN/testit sci-CRAN/adabag r_suggests_cmaes? ( sci-CRAN/cmaes ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_powell? ( sci-CRAN/powell ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rcma? ( sci-CRAN/rCMA ) r_suggests_rocr? ( sci-CRAN/ROCR ) r_suggests_rsfa? ( sci-CRAN/rSFA ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TDMR_1.4.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	c9d9187f4caa4026a0ceddd8dfceb3c1
+_md5_=d389d8b0951f30df080f584e6a36c4e4

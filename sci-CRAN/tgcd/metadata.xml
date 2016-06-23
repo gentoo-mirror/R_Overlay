@@ -3,14 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Thermoluminescence Glow Curve Deconvolution // Deconvolving
-		first-order and general-order thermoluminescence glow curves
-		using a modified Levenberg-Marquardt algorithm. It provides the
-		possibility of setting constraints or fixing any of parameters.
-		It offers an interactive way to initialize parameters by
-		clicking with a mouse on a plot at positions where peak maxima
-		should be located. The optimal estimate is obtained by "trial-
-		and-error". It also provides routines for simulating first-
-		order, second-order, and general-order glow peaks (or glow
-		curves).
+		thermoluminescence glow curves according to the general-order
+		empirical expression or the semi-analytical expression derived
+		from the one trap- one recombination (OTOR) model based on the
+		Lambert's W function using a modified Levenberg-Marquardt
+		algorithm. It provides the possibility of setting constraints
+		or fixing any of parameters. It offers an interactive way to
+		initialize parameters by clicking with a mouse on a plot at
+		positions where peak maxima should be located. The optimal
+		estimate is obtained by "trial-and-error". It also provides
+		routines for simulating first-order, second-order, and general-
+		order glow peaks (curves).
 	</longdescription>
 </pkgmetadata>

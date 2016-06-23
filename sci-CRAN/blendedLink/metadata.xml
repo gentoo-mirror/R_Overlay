@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A New Link Function that Blends Two Specified Link Functions // A
+		new link function that equals one specified link function up to
+		a cutover then a linear rescaling of another specified link
+		function. For use in glm() or glm2(). The intended use is in
+		binary regression, in which case the first link should be set
+		to "log" and the second to "logit". This ensures that fitted
+		probabilities are between 0 and 1 and that exponentiated
+		coefficients can be interpreted as relative risks for
+		probabilities up to the cutoff.
+	</longdescription>
+</pkgmetadata>

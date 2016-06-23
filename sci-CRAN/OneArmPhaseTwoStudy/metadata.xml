@@ -11,6 +11,12 @@
 		designs' and 'so-called' 'subset designs'. If you are
 		unfamiliar with this package a good starting point is to take a
 		closer look at the functions getSolutions() and
-		getSolutionsSub1().
+		getSolutionsSub1().The web-based tool
+		(https://imbi.shinyapps.io/phaseII-app/) extends the
+		functionality of our R package by means of a proper dealing
+		with over- and underrunning. The R function binom.test of the
+		'stats' R package and the package 'binom' might be helpful to
+		assess the performance of the corresponding one-stage design as
+		a reference.
 	</longdescription>
 </pkgmetadata>

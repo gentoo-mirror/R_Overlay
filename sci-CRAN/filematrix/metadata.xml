@@ -4,12 +4,13 @@
 	<longdescription>
 		File-Backed Matrix Class with Convenient Read and Write Access //
 		Interface for working with large matrices stored in files, not
-		in computer memory. Supports multiple data types (double,
-		integer, logical and raw) of different sizes (e.g. 4, 2, or 1
-		byte integers). Access to parts of the matrix is done by
+		in computer memory. Supports multiple non-character data types
+		(double, integer, logical and raw) of various sizes (e.g. 8 and
+		4 byte real values). Access to parts of the matrix is done by
 		indexing, exactly as with usual R matrices. Supports very large
-		matrices (tested on 1 terabyte matrix), allowing for more than
-		2^32 rows or columns. Cross-platform as the package has R code
-		only, no C/C++.
+		matrices. Tested on multi-terabyte matrices. Allows for more
+		than 2^32 rows or columns. Allows for quick addition of extra
+		columns to a filematrix. Cross-platform as the package has R
+		code only.
 	</longdescription>
 </pkgmetadata>

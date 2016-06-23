@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Implementation of 'kinn' Algorithm, a Graph Based Regression
+		Model // A graph based regression model from flat unstructured
+		dataset. Each line in the input data set is treated as a node
+		from which an edge to another line (node) can be formed. In the
+		training process, a model is created which contains sparse
+		graph adjacency matrix. This model is then used for prediction
+		by taking a predictor and the model as inputs and outputs a
+		prediction which is an average of the most similar node and its
+		neighbours in the model graph.
+	</longdescription>
+</pkgmetadata>

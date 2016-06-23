@@ -2,13 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Variational inference for Bayesian variable selection //
-		Implements the variational inference procedure for Bayesian
-		variable selection, as described in the "Scalable variational
+		Large-Scale Bayesian Variable Selection Using Variational Methods
+		// Fast algorithms for fitting Bayesian variable selection
+		models and computing Bayes factors, in which the outcome (or
+		response variable) is modeled using a linear regression or a
+		logistic regression. The algorithms are based on the
+		variational approximations described in "Scalable variational
 		inference for Bayesian variable selection in regression, and
-		its accuracy in genetic association studies" (Bayesian Analysis
-		7, March 2012, pages 73-108). This software has been used to
-		implement Bayesian variable selection for large problems with
-		over a million variables and thousands of samples.
+		its accuracy in genetic association studies" (P. Carbonetto  M.
+		Stephens, 2012, DOI:10.1214/12-BA703). This software has been
+		applied to large data sets with over a million variables and
+		thousands of samples.
 	</longdescription>
 </pkgmetadata>

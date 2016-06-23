@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulates Data from a Data Frame of Different Variable Types //
+		Generates fake data from a dataset of different variable types.
+		The package contains the functions simulate_dataset and
+		simulate_dataset_ts to simulate time-independent and time-
+		dependent data. It randomly samples character and factor
+		variables from contingency tables and  numeric and ordered
+		factors from a multivariate normal distribution. It currently
+		supports the simulation of stationary and zero-inflated count
+		time series.
+	</longdescription>
+</pkgmetadata>
