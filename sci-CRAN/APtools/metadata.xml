@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Average Positive Predictive Values (AP) for Binary Outcomes and
+		Censored Event Times // We provide tools to estimate two
+		prediction performance metrics, the average positive predictive
+		values (AP) as well as the well-known AUC (the area under the
+		receiver operator characteristic curve) for risk scores or
+		marker. The outcome of interest is either binary or censored
+		event time. Note that for censored event time, our functions
+		estimate the AP and the AUC are time-dependent for pre-
+		specified time interval(s). A function that compares the APs of
+		two risk scores/markers is also included. Optional outputs
+		include positive predictive values and true positive fractions
+		at the specified marker cut-off values, and a plot of the time-
+		dependent AP versus time (available for event time data).
+	</longdescription>
+</pkgmetadata>

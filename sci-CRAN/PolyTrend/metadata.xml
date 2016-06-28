@@ -2,12 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Trend Classification Algorithm // This algorithm can classify the
-		trends as linear, quadratic, cubic, concealed or no-trend. The
-		"concealed trend" are those trends that possess quadratic or
-		cubic forms, but the net change between the start and end of
-		the period hasn't been significant. While, the "no-trend"
-		category includes simple linear trends that are below the
-		significant slope coefficient.
+		Trend Classification Algorithm // This algorithm classifies the
+		trends into linear, quadratic, cubic, concealed and no-trend
+		types. The "concealed trends" are those trends that possess
+		quadratic or cubic forms, but the net change from the start of
+		the time period to the end of the time period hasn't been
+		significant. The "no-trend" category includes simple linear
+		trends with statistically in-significant slope coefficient.
 	</longdescription>
 </pkgmetadata>

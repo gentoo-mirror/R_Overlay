@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.2.2 sci-R/foreach sci-CRAN/ineq sci-R/gplots sci-CRAN/proxy sci-CRAN/plotrix sci-R/vegan sci-R/doParallel sci-R/ape sci-CRAN/stringdist dev-lang/R
+DESCRIPTION=Advanced Analysis of B Cell Rece... (see metadata)
+EAPI=5
+IUSE=r_suggests_knitr r_suggests_pander byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.2.2 sci-R/foreach sci-CRAN/ineq sci-R/gplots sci-CRAN/proxy sci-CRAN/plotrix sci-R/vegan sci-R/doParallel sci-R/ape sci-CRAN/stringdist r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pander? ( sci-CRAN/pander ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bcRep_1.3.5.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=4a494c93f71004fe6ada786612db2a50

@@ -2,23 +2,23 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Rcmdr Plug-in Biclust GUI // A plug-in for R Commander (Rcmdr).
-		The package is a Graphical User Interface (GUI) in which
-		several biclustering methods can be executed, followed by
+		'Rcmdr' Plug-in GUI for Biclustering // A plug-in for R Commander
+		('Rcmdr'). The package is a Graphical User Interface (GUI) in
+		which several biclustering methods can be executed, followed by
 		diagnostics and plots of the results. Further, the GUI also has
 		the possibility to connect the methods to more general
 		diagnostic packages for biclustering. Biclustering methods from
-		biclust, fabia, s4vd, iBBiG, isa2, rqubic and BicARE are
-		implemented. Additionally, superbiclust and BcDiag are also
-		implemented to be able to further investigate results. The GUI
-		also provides a couple of extra utilities to export, save,
-		search through and plot the results. RcmdrPlugin.BiclustGUI
-		also provides a very specific framework for biclustering in
-		which new methods, diagnostics and plots can be added. Scripts
-		were prepared so that R-package developers can freely design
-		their own dialogs in the GUI which can then be added by the
-		maintainer of RcmdrPlugin.BiclustGUI. These scripts do not
-		required any knowledge of tcltk and Rcmdr and are easy to fill
-		in.
+		'biclust', 'fabia', 's4vd', 'iBBiG', 'isa2', 'rqubic' and
+		'BicARE' are implemented. Additionally, 'superbiclust' and
+		'BcDiag' are also implemented to be able to further investigate
+		results. The GUI also provides a couple of extra utilities to
+		export, save, search through and plot the results.
+		'RcmdrPlugin.BiclustGUI' also provides a very specific
+		framework for biclustering in which new methods, diagnostics
+		and plots can be added. Scripts were prepared so that R-package
+		developers can freely design their own dialogs in the GUI which
+		can then be added by the maintainer of
+		'RcmdrPlugin.BiclustGUI'. These scripts do not required any
+		knowledge of 'tcltk' and 'Rcmdr' and are easy to fill in.
 	</longdescription>
 </pkgmetadata>
