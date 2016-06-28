@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/mnormt dev-lang/R
+DESCRIPTION=Functions and R Code to Accompan... (see metadata)
+EAPI=5
+IUSE=r_suggests_highlight r_suggests_knitr r_suggests_markdown byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/mnormt r_suggests_highlight? ( sci-R/highlight ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/derivmkts_0.2.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=d5055b7f4fa0ffc8b49ca1b5441dd6e2

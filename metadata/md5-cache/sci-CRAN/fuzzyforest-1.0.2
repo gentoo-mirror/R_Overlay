@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-R/doRNG sci-R/doParallel >=dev-lang/R-3.2.3 sci-CRAN/ggplot2 sci-R/randomForest sci-R/foreach dev-lang/R
+DESCRIPTION=Fuzzy Forests
+EAPI=5
+IUSE=r_suggests_wgcna byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-R/doRNG sci-R/doParallel >=dev-lang/R-3.2.3 sci-CRAN/ggplot2 sci-R/randomForest sci-R/foreach r_suggests_wgcna? ( sci-CRAN/WGCNA ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fuzzyforest_1.0.2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=140200d9dff536d440747b68809750cf

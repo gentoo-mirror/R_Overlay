@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tools for Preprocessing Visual World Data // Gaze data from the
+		Visual World Paradigm requires significant preprocessing prior
+		to plotting and analyzing the data. This package provides
+		functions for preparing visual world eye-tracking data for
+		statistical analysis and plotting. It can prepare data for
+		linear analyses (e.g., ANOVA, Gaussian-family LMER, Gaussian-
+		family GAMM) as well as logistic analyses (e.g., binomial-
+		family LMER and binomial-family GAMM). Additionally, it
+		contains various plotting functions for creating grand average
+		and conditional average plots. See the vignette for samples of
+		the functionality. Currently, the functions in this package are
+		designed for handling data collected with SR Research Eyelink
+		eye trackers using Sample Reports created in SR Research Data
+		Viewer; however, in subsequent releases we would like to add
+		functionality for data collected with other systems.
+	</longdescription>
+</pkgmetadata>
