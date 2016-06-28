@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Path-Based BCD for Proximal Function of Latent Group Lasso //
+		Implementation of the block coordinate descent procedure for
+		solving the proximal function of latent group Lasso,
+		highlighted by decomposing a DAG into several non-overlapping
+		path graphs, and getting closed-form solution for each path
+		graph. The procedure was introduced as Algorithm 4 in Yan and
+		Bien (2015) https://arxiv.org/abs/1512.01631 "Hierarchical
+		Sparse Modeling: A Choice of Two Regularizers", and the closed-
+		form solution for each path graph is solved in Algorithm 3 of
+		that paper.
+	</longdescription>
+</pkgmetadata>

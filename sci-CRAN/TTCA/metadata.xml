@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Transcript Time Course Analysis // The analysis of microarray
+		time series promises a deeper insight into the dynamics of the
+		cellular response following stimulation. A common observation
+		in this type of data is that some genes respond with quick,
+		transient dynamics, while other genes change their expression
+		slowly over time. The existing methods for the detection of
+		significant expression dynamics often fail when the expression
+		dynamics show a large heterogeneity, and often cannot cope with
+		irregular and sparse measurements. The method proposed here is
+		specifically designed for the analysis of perturbation
+		responses. It combines different scores to capture fast and
+		transient dynamics as well as slow expression changes, and
+		deals with low replicate numbers and irregular sampling times.
+		The results are given in the form of tables linked to figures.
+		These allow to quickly recognize the relevance of detection, to
+		identify possible false positives and to distinguish between
+		changes in the early and later expression. An extension of the
+		method allows the analysis of the expression dynamics of
+		functional groups of genes, providing a quick overview of the
+		cellular response. The performance of this package was tested
+		on microarray data derived from lung cancer cells stimulated
+		with epidermal growth factor. See publication "TTCA: An R
+		package for the identification of differentially expressed
+		genes in time course microarray data".
+	</longdescription>
+</pkgmetadata>

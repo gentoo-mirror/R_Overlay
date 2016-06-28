@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Heuristics Including Take the Best and Unit-Weight Linear //
+		Implements various heuristics like Take The Best and unit-
+		weight linear, which do two-alternative choice: which of two
+		objects will have a higher criterion?  Also offers functions to
+		assess performance, e.g. percent correct across all row pairs
+		in a data set and finding row pairs where models disagree. New
+		models can be added by implementing a fit and predict
+		function-- see vignette.
+	</longdescription>
+</pkgmetadata>
