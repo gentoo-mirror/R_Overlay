@@ -2,12 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Make it easier to work with strings. // stringr is a set of
-		simple wrappers that make R's string functions more consistent,
-		simpler and easier to use.  It does this by ensuring that:
-		function and argument names (and positions) are consistent, all
-		functions deal with NA's and zero length character
-		appropriately, and the output data structures from each
-		function matches the input data structures of other functions.
+		Simple, Consistent Wrappers for Common String Operations // A
+		consistent, simple and easy to use set of wrappers around the
+		fantastic 'stringi' package. All function and argument names
+		(and positions) are consistent, all functions deal with "NA"'s
+		and zero length vectors in the same way, and the output from
+		one function is easy to feed into the input of another.
 	</longdescription>
 </pkgmetadata>
