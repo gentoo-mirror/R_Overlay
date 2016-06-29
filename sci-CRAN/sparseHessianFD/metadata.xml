@@ -2,19 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Numerical estimation of sparse Hessians using ACM TOMS Algorithm
-		636. // Computes Hessian of a scalar-valued function, and
-		returns it in sparse Matrix format. The user must supply the
-		objective function, the gradient, and the row and column
-		indices of the non-zero elements of the lower triangle of the
-		Hessian (i.e., the sparsity structure must be known in
-		advance). The algorithm exploits this sparsity, so Hessians can
-		be computed quickly even when the number of arguments to the
-		objective functions is large. This package is intended to be
-		useful for numeric optimization (e.g., with the trustOptim
-		package) or in simulation (e.g., the sparseMVN package). The
-		underlying algorithm is ACM TOMS Algorithm 636, written by
-		Coleman, Garbow and More (ACM Transactions on Mathematical
-		Software, 11:4, Dec. 1985).
+		Numerical Estimation of Sparse Hessians // Estimates Hessian of a
+		scalar-valued function, and returns it in a sparse Matrix
+		format. The sparsity pattern must be known in advance. The
+		algorithm is especially efficient for hierarchical models with
+		a large number of heterogeneous units.
 	</longdescription>
 </pkgmetadata>
