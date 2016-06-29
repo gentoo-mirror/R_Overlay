@@ -3,18 +3,18 @@
 <pkgmetadata>
 	<longdescription>
 		Extensible Package for Principal-Component-Regression-Based
-		Integration of Base Learners // Extends the base classes and
-		methods of EnsembleBase package for Principal-Components-
-		Regression-based (PCR) integration of base learners. Default
-		implementation uses cross-validation error to choose the
-		optimal number of PC components for the final predictor. The
-		package takes advantage of the file method provided in
-		EnsembleBase package for writing estimation objects to disk in
-		order to circumvent RAM bottleneck. Special save and load
+		Heterogeneous Ensemble Meta-Learning // Extends the base
+		classes and methods of 'EnsembleBase' package for Principal-
+		Components-Regression-based (PCR) integration of base learners.
+		Default implementation uses cross-validation error to choose
+		the optimal number of PC components for the final predictor.
+		The package takes advantage of the file method provided in
+		'EnsembleBase' package for writing estimation objects to disk
+		in order to circumvent RAM bottleneck. Special save and load
 		methods are provided to allow estimation objects to be saved to
 		permanent files on disk, and to be loaded again into temporary
 		files in a later R session. Users and developers can extend the
 		package by extending the generic methods and classes provided
-		in EnsembleBase package as well as this package.
+		in 'EnsembleBase' package as well as this package.
 	</longdescription>
 </pkgmetadata>
