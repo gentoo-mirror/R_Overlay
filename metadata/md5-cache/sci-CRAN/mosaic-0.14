@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ggplot2 virtual/Matrix >=sci-CRAN/lazyeval-0.1.10.9000 sci-CRAN/gridExtra sci-CRAN/dplyr >=sci-CRAN/lattice-0.20.21 sci-CRAN/reshape2 sci-CRAN/mosaicData sci-CRAN/readr sci-CRAN/latticeExtra >=dev-lang/R-3.0.0 virtual/MASS sci-CRAN/ggdendro dev-lang/R
+DESCRIPTION=Project MOSAIC Statistics and Ma... (see metadata)
+EAPI=5
+IUSE=r_suggests_fastr r_suggests_knitr r_suggests_lubridate r_suggests_magrittr r_suggests_mapproj r_suggests_maptools r_suggests_nhanes r_suggests_rcurl r_suggests_rgl r_suggests_rmarkdown r_suggests_sp r_suggests_testthat r_suggests_tidyr r_suggests_vcd byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ggplot2 virtual/Matrix >=sci-CRAN/lazyeval-0.1.10.9000 sci-CRAN/gridExtra sci-CRAN/dplyr >=sci-CRAN/lattice-0.20.21 sci-CRAN/reshape2 sci-CRAN/mosaicData sci-CRAN/readr sci-CRAN/latticeExtra >=dev-lang/R-3.0.0 virtual/MASS sci-CRAN/ggdendro r_suggests_fastr? ( sci-CRAN/fastR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_nhanes? ( sci-CRAN/NHANES ) r_suggests_rcurl? ( sci-omegahat/RCurl ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_vcd? ( sci-CRAN/vcd ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mosaic_0.14.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=dcf02cbf38b174bca619dd34cadfe2fb

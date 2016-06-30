@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Import Articles from LexisNexis Using the tm Text Mining
-		Framework // Provides a tm Source to create corpora from
-		articles exported from the LexisNexis content provider as HTML
-		files. It is able to read both text content and meta-data
+		Import Articles from 'LexisNexis' Using the 'tm' Text Mining
+		Framework // Provides a 'tm' Source to create corpora from
+		articles exported from the 'LexisNexis' content provider as
+		HTML files. It is able to read both text content and meta-data
 		information (including source, date, title, author and pages).
+		Note that the file format is highly unstable: there is no
+		warranty that this package will work for your corpus, and you
+		may have to adjust the code to adapt it to your particular
+		format.
 	</longdescription>
 </pkgmetadata>

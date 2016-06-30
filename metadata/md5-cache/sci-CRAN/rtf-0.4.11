@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.10.1 sci-CRAN/R_oo sci-CRAN/R_methodsS3 dev-lang/R
+DESCRIPTION=Rich Text Format (RTF) Output
+EAPI=5
+IUSE=r_suggests_ggplot2 r_suggests_gsubfn r_suggests_lattice r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.10.1 sci-CRAN/R_oo sci-CRAN/R_methodsS3 r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gsubfn? ( sci-CRAN/gsubfn ) r_suggests_lattice? ( virtual/lattice ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rtf_0.4-11.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=5c64936306ce3b07db7aafced8e7d20e

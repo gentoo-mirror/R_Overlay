@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/iBBiG >=sci-CRAN/BcDiag-1.0.10 sci-BIOC/BicARE sci-CRAN/Rcmdr sci-CRAN/biclust sci-BIOC/fabia sci-BIOC/rqubic sci-CRAN/s4vd >=sci-CRAN/superbiclust-1.1 sci-CRAN/gplots dev-lang/R
+DESCRIPTION=Rcmdr Plug-in GUI for Biclustering
+EAPI=5
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-BIOC/iBBiG >=sci-CRAN/BcDiag-1.0.10 sci-BIOC/BicARE sci-CRAN/Rcmdr sci-CRAN/biclust sci-BIOC/fabia sci-BIOC/rqubic sci-CRAN/s4vd >=sci-CRAN/superbiclust-1.1 sci-CRAN/gplots r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcmdrPlugin.BiclustGUI_1.0.4.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=4c5cf959d1f67b301c9552a09662e590

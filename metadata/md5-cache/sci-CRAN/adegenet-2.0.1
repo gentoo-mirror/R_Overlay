@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.14 sci-CRAN/ade4 >=sci-CRAN/dplyr-0.4.1 virtual/MASS sci-CRAN/spdep sci-CRAN/vegan sci-CRAN/igraph sci-CRAN/ggplot2 sci-CRAN/seqinr virtual/boot sci-CRAN/reshape2 sci-CRAN/ape sci-CRAN/shiny dev-lang/R
+DESCRIPTION=Exploratory Analysis of Genetic and Genomic Data
+EAPI=5
+IUSE=r_suggests_adehabitat r_suggests_akima r_suggests_hierfstat r_suggests_maps r_suggests_pegas r_suggests_splancs r_suggests_testthat r_suggests_tripack byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.14 sci-CRAN/ade4 >=sci-CRAN/dplyr-0.4.1 virtual/MASS sci-CRAN/spdep sci-CRAN/vegan sci-CRAN/igraph sci-CRAN/ggplot2 sci-CRAN/seqinr virtual/boot sci-CRAN/reshape2 sci-CRAN/ape sci-CRAN/shiny r_suggests_adehabitat? ( sci-CRAN/adehabitat ) r_suggests_akima? ( sci-CRAN/akima ) r_suggests_hierfstat? ( sci-CRAN/hierfstat ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_pegas? ( sci-CRAN/pegas ) r_suggests_splancs? ( sci-CRAN/splancs ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tripack? ( sci-CRAN/tripack ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/adegenet_2.0.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf
+_md5_=1e7ed52c03816a03e0dc0c70f4c14213
