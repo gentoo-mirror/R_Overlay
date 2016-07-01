@@ -5,11 +5,14 @@
 		Metaheuristic Optimization Framework for Preprocessing
 		Combinations // Automation of preprocessing often requires
 		computationally costly preprocessing combinations. This package
-		helps to find near-best combinations faster. Sub heuristics
-		supported are random and grid restarts, taboo list, decreasing
-		probability for accepting inferior solutions and location of
-		previously best solution candidate is compared to. The package
-		is intended to be used with package 'preprocomb' and takes its
+		helps to find near-best combinations faster. Metaheuristics
+		supported are taboo search, simulated annealing, reheating and
+		late acceptance. Start conditions include random and grid
+		starts. End conditions include all iteration rounds completed,
+		objective threshold reached and convergence. Metaheuristics,
+		start and end conditions can be hybridized and hyperparameters
+		optimized. Parallel computations are supported. The package is
+		intended to be used with package 'preprocomb' and takes its
 		'GridClass' object as input.
 	</longdescription>
 </pkgmetadata>
