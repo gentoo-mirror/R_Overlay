@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Create Badges for 'Travis', 'Repostatus' 'Codecov.io' Etc in
+		Github Readme // Tired of copy and pasting almost identical
+		markdown for badges in every new R package that you create on
+		Github? This package will search your DESCRIPTION file and
+		extract the package name, licence, R-version, and current
+		projectversion and transform that into badges. It will also
+		search for a .travis.yml file and create a 'Travis' badge, if
+		you use 'Codecov.io' to check your code coverage after a
+		'Travis' build this package will also build a
+		'Codecov.io'-badge. All the badges will be placed below the top
+		YAML content of your Rmarkdown file (Readme.Rmd). Currently
+		creates badges for  Projectstatus (Repostatus.org), licence
+		travis build status, codecov, minimal R version, CRAN status,
+		current version of your package and last change of Readme.Rmd.
+	</longdescription>
+</pkgmetadata>
