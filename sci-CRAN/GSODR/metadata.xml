@@ -20,7 +20,7 @@
 		as a comma-separated values (CSV) file written to disk in a
 		location selected by the user, which summarises each year by
 		station and includes new variables: actual vapor pressure,
-		saturation vapor pressure and relative humidity are calculated
+		saturation vapor pressure and relative humidity, calculated
 		from the original GSOD data. The resulting files can be as
 		large as 500mb depending on the user's stringency for missing
 		data and geographic area of interest. Be sure to have
@@ -36,7 +36,8 @@
 		largely based on T. Hengl's 'getGSOD.R' script, available from
 		http://spatial-analyst.net/book/system/files/getGSOD.R with
 		enhancements to be more cross-platform, faster and more
-		flexible. See the GSOD readme.txt
+		flexible. For information on the original data from NCDC,
+		please see the GSOD readme.txt file available from,
 		http://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt.
 	</longdescription>
 </pkgmetadata>
