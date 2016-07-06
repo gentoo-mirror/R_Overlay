@@ -2,12 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Circular Genomic Permutation using GWAS p-values of association
+		Circular Genomic Permutation using Gwas p-Values of Association
 		// Circular genomic permutation approach uses GWAS results to
 		establish the significance of pathway/gene-set associations
 		whilst accounting for genomic structure. All SNPs in the GWAS
 		are placed in a 'circular genome' according to their location.
 		Then the complete set of SNP association p-values are permuted
-		by rotation with respect to the SNPs' genomic locations
+		by rotation with respect to the SNPs' genomic locations. Two
+		testing frameworks are available: permutations at the gene
+		level, and permutations at the SNP level. The permutation at
+		the gene level uses fisher's combination test to calculate a
+		single gene p-value, followed by the hypergeometric test. The
+		SNP count methodology maps each SNP to pathways/gene-sets and
+		calculates the proportion of SNPs for the real and the
+		permutated datasets above a pre-defined threshold. Genomicper
+		requires a matrix of GWAS association p-values. The SNPs
+		annotation and pathways annotations can be performed within the
+		package or provided by the user.
 	</longdescription>
 </pkgmetadata>
