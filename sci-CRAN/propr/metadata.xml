@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculating Proportionality Between Vectors of Compositional Data
+		// The bioinformatic evaluation of gene co-expression often
+		begins with correlation-based analyses. However, this approach
+		lacks statistical validity when applied to relative data,
+		including those biological count data produced by microarray
+		assays or high-throughput RNA-sequencing. As an alternative,
+		Lovell et al propose a proportionality metric, phi, derived
+		from compositional data analysis, a branch of math dealing
+		specifically with relative data. In a subsequent publication,
+		Erb and Nicodemus expounded these efforts by elaborating on
+		another proportionality metric, rho. This package introduces a
+		programmatic framework for the calculation of feature
+		dependence using proportionality and other compositional data
+		methods discussed in the cited publications.
+	</longdescription>
+</pkgmetadata>
