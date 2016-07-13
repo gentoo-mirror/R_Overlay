@@ -1,0 +1,17 @@
+# Copyright 1999-2016 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=5
+
+inherit R-packages
+
+DESCRIPTION='Tools for Analysing Forensic Genetic DNA Data'
+SRC_URI="http://cran.r-project.org/src/contrib/DNAtools_0.1-21.1.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="sci-CRAN/Rsolnp
+	sci-CRAN/multicool
+	>=sci-CRAN/Rcpp-0.11.2
+"
+RDEPEND="${DEPEND-} sci-CRAN/Rcpp"
