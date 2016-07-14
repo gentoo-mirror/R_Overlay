@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/abind sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/magrittr sci-CRAN/doParallel sci-CRAN/rms virtual/survival sci-CRAN/ggplot2 sci-CRAN/lazyeval sci-CRAN/tidyr dev-lang/R
+DESCRIPTION=Estimating Disease Prevalence from Registry Data
+EAPI=5
+IUSE=r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/abind sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/magrittr sci-CRAN/doParallel sci-CRAN/rms virtual/survival sci-CRAN/ggplot2 sci-CRAN/lazyeval sci-CRAN/tidyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rprev_0.2.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
+_md5_=cf09e3d342ff7d980613216efc3a016c
