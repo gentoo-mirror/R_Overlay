@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/BBmisc-1.10 >=sci-CRAN/checkmate-1.6.1 dev-lang/R
+DESCRIPTION=Helpers for Parameters in Black-... (see metadata)
+EAPI=5
+IUSE=r_suggests_akima r_suggests_eaf r_suggests_emoa r_suggests_ggally r_suggests_ggplot2 r_suggests_gridextra r_suggests_irace r_suggests_lhs r_suggests_plyr r_suggests_reshape2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=sci-CRAN/BBmisc-1.10 >=sci-CRAN/checkmate-1.6.1 r_suggests_akima? ( sci-CRAN/akima ) r_suggests_eaf? ( sci-CRAN/eaf ) r_suggests_emoa? ( sci-CRAN/emoa ) r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_irace? ( >=sci-CRAN/irace-1.0.7 ) r_suggests_lhs? ( sci-CRAN/lhs ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ParamHelpers_1.8.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
+_md5_=dc9eb0c746ce0c5df8b9b28439a4d566

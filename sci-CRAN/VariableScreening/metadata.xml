@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		High-Dimensional Screening for Semiparametric Longitudinal
+		Regression // Implements a screening procedure proposed by Chu,
+		Li, and Reimherr (2016) for varying coefficient longitudinal
+		models with ultra- high dimensional predictors
+		http://imstat.org/aoas/next_issue.html. The effect of each
+		predictor is allowed to vary over time, approximated by a low-
+		dimensional B-spline. Within-subject correlation is handled
+		using a generalized estimation equation approach with structure
+		specified by the user. Variance is allowed to change over time,
+		also approximated by a B-spline.
+	</longdescription>
+</pkgmetadata>
