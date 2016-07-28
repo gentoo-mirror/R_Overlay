@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'Simulates Univariate and Semi-Competing Risks Data Given
+		Covariates and Piecewise Exponential Baseline Hazards' //
+		Contains two functions for simulating survival data from
+		piecewise exponential hazards with a proportional hazards
+		adjustment for covariates. The first function SimUNIVPiecewise
+		simulates univariate survival data based on a piecewise
+		exponential hazard, covariate matrix and true regression
+		vector. The second function SimSCRPiecewise semi-competing
+		risks data based on three piecewise exponential hazards, three
+		true regression vectors and three matrices of patient
+		covariates (which can be different or the same). This simulates
+		from the Semi-Markov model of Lee et al (2015) given patient
+		covariates, regression parameters, patient frailties and
+		baseline hazard functions.
+	</longdescription>
+</pkgmetadata>
