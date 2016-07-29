@@ -3,12 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		High-Dimensional Screening for Semiparametric Longitudinal
-		Regression // Implements a screening procedure proposed by Chu,
-		Li, and Reimherr (2016) for varying coefficient longitudinal
-		models with ultra- high dimensional predictors
-		http://imstat.org/aoas/next_issue.html. The effect of each
-		predictor is allowed to vary over time, approximated by a low-
-		dimensional B-spline. Within-subject correlation is handled
+		Regression // Implements a screening procedure proposed by
+		Wanghuan Chu, Runze Li and Matthew Reimherr (2016)
+		DOI:10.1214/16-AOAS912 for varying coefficient longitudinal
+		models with ultra-high dimensional predictors . The effect of
+		each predictor is allowed to vary over time, approximated by a
+		low-dimensional B-spline. Within-subject correlation is handled
 		using a generalized estimation equation approach with structure
 		specified by the user. Variance is allowed to change over time,
 		also approximated by a B-spline.
