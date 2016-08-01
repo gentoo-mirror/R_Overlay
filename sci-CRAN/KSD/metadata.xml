@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Kernelized Stein Discrepancy // An adaptation of Kernelized Stein
-		Discrepancy, a discrepancy statistic for measuring differences
-		between two probability distributions based on combination of
-		Stein's method and reproducing kernel Hilbert space theory. It
-		provides a method for a user to evaluate how similar two
-		distributions are. It is based on "A Kernelized Stein
-		Discrepancy for Goodness-of-fit Tests and Model Evaluation" by
-		Liu, Lee, and Jordan, available at
+		Goodness-of-Fit Tests using Kernelized Stein Discrepancy // An
+		adaptation of Kernelized Stein Discrepancy, this package
+		provides a goodness-of-fit test of whether a given i.i.d.
+		sample is drawn from a given distribution. It works for any
+		distribution once its score function (the derivative of log-
+		density) can be provided. This method is based on "A Kernelized
+		Stein Discrepancy for Goodness-of-fit Tests and Model
+		Evaluation" by Liu, Lee, and Jordan, available at
 		http://arxiv.org/abs/1602.03253.
 	</longdescription>
 </pkgmetadata>
