@@ -2,11 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Lasso Penalization in Large Scale Generalized Linear Array Models
-		// Efficient design matrix free procedure for Lasso regularized
-		estimation in large scale 3-dimensional generalized linear
-		array models. The Gaussian model with identity link, the
-		Binomial model with logit link, the Poisson model with log link
-		and the Gamma model with log link is currently implemented.
+		Penalization in Large Scale Generalized Linear Array Models //
+		Efficient design matrix free procedure for penalized estimation
+		in large scale 2 and 3-dimensional generalized linear array
+		models. Currently either Lasso or SCAD penalized estimation is
+		possible for the followings models: The Gaussian model with
+		identity link, the Binomial model with logit link, the Poisson
+		model with log link and the Gamma model with log link.
 	</longdescription>
 </pkgmetadata>

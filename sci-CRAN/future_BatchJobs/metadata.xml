@@ -4,7 +4,7 @@
 	<longdescription>
 		A Future for BatchJobs // Simple parallel and distributed
 		processing using futures that utilizes the 'BatchJobs'
-		framework, e.g. 'fit %-% { glm(y ~ x + z) }'. This package
+		framework, e.g. 'fit %-% { lm.fit(x, y) }'. This package
 		implements the Future API of the 'future' package.
 	</longdescription>
 </pkgmetadata>
