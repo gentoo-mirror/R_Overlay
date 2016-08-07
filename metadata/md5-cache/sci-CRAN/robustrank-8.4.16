@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.3.0 dev-lang/R
+DESCRIPTION=Robust Rank-Based Tests
+EAPI=5
+IUSE=r_suggests_copula r_suggests_mvtnorm r_suggests_pracma r_suggests_runit r_suggests_vgam byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.3.0 r_suggests_copula? ( sci-CRAN/copula ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_pracma? ( sci-CRAN/pracma ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_vgam? ( sci-CRAN/VGAM ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/robustrank_8.4-16.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
+_md5_=267217736a6c534cafcde322e139d42d
