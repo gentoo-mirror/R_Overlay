@@ -2,8 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Convert Spatial Data Using Tidy Tables // Functions to convert
-		from `Spatial` classes to long table form, and from long table
-		form to `Spatial`.
+		Convert Spatial Data Using Tidy Tables // Tools to convert from
+		specific formats to more general forms of spatial data. Using
+		tables to store the actual entities present in spatial data
+		provides far greater flexibility, and the functions here
+		deliberately minimize the level of interpretation applied,
+		leaving that for specific applications. Includes round-trip for
+		'Spatial' classes and long-form tables, analogous to
+		'ggplot2::fortify'.
 	</longdescription>
 </pkgmetadata>
