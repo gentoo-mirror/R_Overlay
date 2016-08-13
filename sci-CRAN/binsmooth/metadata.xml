@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generate PDFs and CDFs from Binned Data // Provides several
+		methods for generating density functions based on binned data.
+		Data are assumed to be nonnegative, but the bin widths need not
+		be uniform, and the top bin may be unbounded. All PDF smoothing
+		methods maintain the areas specified by the binned data.
+		(Equivalently, all CDF smoothing methods interpolate the points
+		specified by the binned data.) An estimate for the mean of the
+		distribution may be supplied as an optional argument, which
+		greatly improves the reliability of statistics computed from
+		the smoothed density functions. Methods include step function,
+		recursive subdivision, and optimized spline.
+	</longdescription>
+</pkgmetadata>
