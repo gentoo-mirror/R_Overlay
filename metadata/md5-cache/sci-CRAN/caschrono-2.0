@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/zoo sci-CRAN/Hmisc dev-lang/R
+DESCRIPTION=Sries Temporelles Avec R
+EAPI=5
+IUSE=r_suggests_dse r_suggests_expsmooth r_suggests_fbasics r_suggests_fgarch r_suggests_fitarma r_suggests_forecast r_suggests_polynom r_suggests_timeseries r_suggests_tsa r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/zoo sci-CRAN/Hmisc r_suggests_dse? ( sci-CRAN/dse ) r_suggests_expsmooth? ( sci-CRAN/expsmooth ) r_suggests_fbasics? ( sci-CRAN/fBasics ) r_suggests_fgarch? ( sci-CRAN/fGarch ) r_suggests_fitarma? ( sci-CRAN/FitARMA ) r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_polynom? ( sci-CRAN/polynom ) r_suggests_timeseries? ( sci-CRAN/timeSeries ) r_suggests_tsa? ( sci-CRAN/TSA ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/caschrono_2.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=11ca27fd108a490356a218b7ac948bc5
