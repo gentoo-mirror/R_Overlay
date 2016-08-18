@@ -2,13 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Platform for EDGAR Filing Management // EDGAR is the Electronic
-		Data Gathering, Analysis, and Retrieval system which performs
-		automated collection, validation, indexing, acceptance, and
-		forwarding of submissions by companies and others who are
-		required by law to file forms with the U.S. Securities and
-		Exchange Commission (SEC). This package downloads EDGAR
-		quarterly master index, daily master index, filings from
-		SEC.org site and do sentiment analysis of 10-K statements.
+		Platform for EDGAR Filing Management // In the USA, firms file
+		different forms with the U.S. Securities and Exchange
+		Commission (SEC) through EDGAR (Electronic Data Gathering,
+		Analysis, and Retrieval system). EDGAR automated system
+		collects all the different necessary filings and make it
+		publicly available. Secondly, it validates collected filings,
+		then perform indexing and accepting of these submitted forms.
+		Investors, regulators, and researchers often require these
+		forms for various purposes. "edgar" R package helps various
+		individuals in data gathering, management, and visualization.
+		This package downloads SEC EDGAR quarterly master index, daily
+		master index, filings from SEC.org site and perform sentiment
+		analysis of filing.
 	</longdescription>
 </pkgmetadata>
