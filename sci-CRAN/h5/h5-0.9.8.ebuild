@@ -26,6 +26,6 @@ DEPEND=">=dev-lang/R-3.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-libs/hdf5[cxx] ::
+	sci-libs/hdf5[cxx]
 	${R_SUGGESTS-}
 "
