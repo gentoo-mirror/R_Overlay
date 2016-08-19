@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Methods for Clustering Mixed-Type Data // Implements methods for
+		clustering mixed-type data, specifically combinations of
+		continuous and nominal data. Special attention is paid to the
+		often-overlooked problem of equitably balancing the
+		contribution of the continuous and categorical variables. This
+		package implements KAMILA clustering, a novel method for
+		clustering mixed-type data in the spirit of k-means clustering.
+		It does not require dummy coding of variables, and is efficient
+		enough to scale to rather large data sets. Also implemented is
+		Modha-Spangler clustering, which uses a brute-force strategy to
+		maximize the cluster separation simultaneously in the
+		continuous and categorical variables.
+	</longdescription>
+</pkgmetadata>

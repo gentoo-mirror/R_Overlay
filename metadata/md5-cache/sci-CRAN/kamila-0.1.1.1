@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/KernSmooth sci-CRAN/Rcpp sci-CRAN/mclust sci-CRAN/gtools >=dev-lang/R-3.0.0 sci-CRAN/abind sci-CRAN/plyr dev-lang/R
+DESCRIPTION=Methods for Clustering Mixed-Type Data
+EAPI=5
+IUSE=r_suggests_clustmd r_suggests_ggplot2 r_suggests_hmisc r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=virtual/KernSmooth sci-CRAN/Rcpp sci-CRAN/mclust sci-CRAN/gtools >=dev-lang/R-3.0.0 sci-CRAN/abind sci-CRAN/plyr sci-CRAN/Rcpp r_suggests_clustmd? ( sci-CRAN/clustMD ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/kamila_0.1.1.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=6a98d7db63a1721e95844f3fbad92ca0
