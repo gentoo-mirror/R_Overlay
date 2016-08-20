@@ -12,8 +12,8 @@ LICENSE='Artistic-2'
 
 DEPEND=">=dev-lang/R-3.2.0
 	>=sci-BIOC/Biostrings-2.35.12
-	>=sci-CRAN/RSQLite-1.0.0
 	>=sci-BIOC/oligoClasses-1.29.6
+	>=sci-CRAN/RSQLite-1.0.0
 	>=sci-BIOC/oligo-1.31.5
 	>=sci-CRAN/DBI-0.3.1
 	>=sci-BIOC/IRanges-2.1.43
