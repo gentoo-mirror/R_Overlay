@@ -2,16 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Linear Regression using I-Priors // In a linear regression
-		setting, priors can be assigned to the regression function
-		using a vector space framework, and the posterior estimate of
-		the regression function obtained. I-priors are a class of such
-		priors based on the principle of maximum entropy. While the
-		main interest of I-prior modelling is prediction, inference is
-		also possible, e.g. via log-likelihood ratio tests. This
-		package supports both formula and non-formula based input.
-		Estimation is mainly done via an EM algorithm, but there is
-		flexibility in using any R optimiser to maximise the log-
-		likelihood computed by the kernel loader function.
+		Linear Regression using I-Priors // Provides methods to perform
+		and analyse I-prior regression models. Estimation is mainly
+		done via an EM algorithm, but there is flexibility in using any
+		optimiser.
 	</longdescription>
 </pkgmetadata>
