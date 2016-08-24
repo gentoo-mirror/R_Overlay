@@ -1,0 +1,42 @@
+Index: src/Makevars
+===================================================================
+--- a/rhdf5-2.14.0/src/Makevars
++++ b/rhdf5-2.14.0/src/Makevars
+@@ -1,35 +1,2 @@
+-PKG_CFLAGS = -Ihdf5/src
+-PKG_CXXFLAGS = -Ihdf5/src
+-PKG_LIBS = libhdf5ForBioC.a -lz -lm -L.
+-
+-all: $(SHLIB)
+-$(SHLIB): libhdf5ForBioC.a
+-H5.o: libhdf5ForBioC.a
+-H5A.o: libhdf5ForBioC.a
+-H5D.o: libhdf5ForBioC.a
+-H5F.o: libhdf5ForBioC.a
+-H5G.o: libhdf5ForBioC.a
+-H5I.o: libhdf5ForBioC.a
+-H5L.o: libhdf5ForBioC.a
+-H5O.o: libhdf5ForBioC.a
+-H5P.o: libhdf5ForBioC.a
+-H5S.o: libhdf5ForBioC.a
+-H5T.o: libhdf5ForBioC.a
+-H5constants.o: libhdf5ForBioC.a
+-h5dump.o: libhdf5ForBioC.a
+-h5ls.o: libhdf5ForBioC.a
+-h5writeDataFrame.o: libhdf5ForBioC.a
+-printdatatype.o: libhdf5ForBioC.a
+-wrap.o: libhdf5ForBioC.a
+-HandleList.o: libhdf5ForBioC.a
+-
+-libhdf5ForBioC.a: 
+-	cd hdf5source && \
+-	   gunzip -dc hdf5small.tgz | tar xf -;
+-	rm -rf hdf5
+-	mv hdf5source/hdf5 .
+-	cd hdf5 && \
+-	   ./configure CC="${CC}" CPP="${CPP}" CXX="${CXX}" CXXCPP="${CXXCPP}" F77="${F77}" --build="${R_ARCH#*/}" --with-pic 
+-	cd hdf5/src && \
+-	   $(MAKE)
+-	cp hdf5/src/.libs/libhdf5ForBioC.a .
++PKG_CPPFLAGS = -DDO_NOT_USE_CXX_HEADERS
++PKG_LIBS = -lhdf5 -lz -lm

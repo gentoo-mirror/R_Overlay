@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=6
 
 inherit R-packages
 
@@ -16,4 +16,10 @@ R_SUGGESTS="
 	r_suggests_bit64? ( sci-CRAN/bit64 )
 "
 DEPEND="sci-BIOC/zlibbioc"
-RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+RDEPEND="${DEPEND-} sci-libs/hdf5 ${R_SUGGESTS-}"
+PATCHES=( "${FILESDIR}/rhdf5-2.14.0-Makevars.patch" )
+
+src_prepare() {
+	ln -sf "${EPREFIX}"/usr/include/hdf5.h ${P}/src/myhdf5.h
+	default
+}
