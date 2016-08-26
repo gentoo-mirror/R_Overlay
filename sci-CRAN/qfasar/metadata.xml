@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Quantitative Fatty Acid Signature Analysis in R // An
+		implementation of Quantitative Fatty Acid Signature Analysis
+		(QFASA) in R.  QFASA is a method of estimating the diet
+		composition of predators.  The fundamental unit of information
+		in QFASA is a fatty acid signature (signature), which is a
+		vector of proportions describing the composition of fatty acids
+		within lipids. Signature data from at least one predator and
+		from samples of all potential prey types are required.
+		Calibration coefficients, which adjust for the differential
+		metabolism of individual fatty acids by predators, are also
+		required. Given those data inputs, a predator signature is
+		modeled as a mixture of prey signatures and its diet estimate
+		is obtained as the mixture that minimizes a measure of distance
+		between the observed and modeled signatures.  A variety of
+		estimation options and simulation capabilities are implemented.
+		Please refer to the vignette for additional details and
+		references.
+	</longdescription>
+</pkgmetadata>
