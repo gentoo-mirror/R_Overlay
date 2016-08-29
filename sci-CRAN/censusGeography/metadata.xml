@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Changes United States Census Geographic Code into Name of
+		Location // Converts the United States Census geographic code
+		for city, state (FIP and ICP), region, and birthplace, into the
+		name of the region. e.g. takes an input of Census city code
+		5330 to it's actual city, Philadelphia. Will return NA for code
+		that doesn't correspond to real location.
+	</longdescription>
+</pkgmetadata>
