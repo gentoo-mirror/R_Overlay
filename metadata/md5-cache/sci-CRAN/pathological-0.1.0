@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.15.0 >=sci-CRAN/assertive_base-0.0.3 sci-CRAN/assertive_files sci-CRAN/assertive_properties sci-CRAN/assertive_reflection sci-CRAN/assertive_strings sci-CRAN/assertive_types sci-CRAN/magrittr sci-CRAN/plyr sci-CRAN/assertive_numbers sci-CRAN/stringi dev-lang/R
+DESCRIPTION=Path Manipulation Utilities
+EAPI=5
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x86
+RDEPEND=>=dev-lang/R-2.15.0 >=sci-CRAN/assertive_base-0.0.3 sci-CRAN/assertive_files sci-CRAN/assertive_properties sci-CRAN/assertive_reflection sci-CRAN/assertive_strings sci-CRAN/assertive_types sci-CRAN/magrittr sci-CRAN/plyr sci-CRAN/assertive_numbers sci-CRAN/stringi r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pathological_0.1-0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	792f83d5ec9536cb5ccef375469d8bde	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=5aa6d205a421b762a85bf7ba7909d058
