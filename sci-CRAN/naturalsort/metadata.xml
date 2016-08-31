@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Natural Ordering // The package provides functions related to
-		human natural ordering. It handles adjacent digits in a
-		character sequence as a number so that natural sort function
-		arranges a character vector by their numbers, not digit
-		characters. It is typically seen when operating systems lists
-		file names. For example, a sequence a-1.png, a-2.png, a-10.png
-		looks naturally ordered because 1  2  10 and natural sort
-		algorithm arranges so whereas general sort algorithms arrange
-		it into a-1.png, a-10.png, a-2.png owing to their third and
-		fourth characters.
+		Natural Ordering // Provides functions related to human natural
+		ordering. It handles adjacent digits in a character sequence as
+		a number so that natural sort function arranges a character
+		vector by their numbers, not digit characters. It is typically
+		seen when operating systems lists file names. For example, a
+		sequence a-1.png, a-2.png, a-10.png looks naturally ordered
+		because 1  2  10 and natural sort algorithm arranges so whereas
+		general sort algorithms arrange it into a-1.png, a-10.png,
+		a-2.png owing to their third and fourth characters.
 	</longdescription>
 </pkgmetadata>

@@ -2,13 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Categorical Landscape Simulation Facility // This set of
-		functions allows the simulation of categorical maps from
-		scratch in a geographically referenced landscape or the
-		manipulation of existing ones. The basic algorithm currently
-		implemented uses a simple agent style/cellular automata growth
-		model, with no rules (apart from areas of exclusion), therefore
-		expands more or less circularly picking cells at the edges
-		randomly.
+		Categorical Landscape Simulation Facilities // Package is aimed
+		at simulating categorical maps on actual geographical realms,
+		starting from either empty landscapes, or landscapes provided
+		by the user (e.g. land use maps). landscapeR allows to tweak or
+		create landscapes while retaining a high degree of control on
+		its features, without the hassle of specifying each location
+		attribute. In this it differs from other tools which generate
+		null or neutral landscape in a theoretical space. The basic
+		algorithm currently implemented uses a simple agent
+		style/cellular automata growth model, with no rules (apart from
+		areas of exclusion). Outputs are raster dataset exportable to
+		any common GIS format.
 	</longdescription>
 </pkgmetadata>
