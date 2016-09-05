@@ -3,8 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Bootstrap Methods for Various Network Estimation Routines //
-		Bootstrap standard errors on various network estimation
-		routines, such as EBICglasso() from the 'qgraph' package and
-		IsingFit() from the 'IsingFit' package.
+		Bootstrap methods to assess accuracy and stability of estimated
+		network structures and centrality indices. Allows for flexible
+		specification of any undirected network estimation procedure in
+		R, and offers default sets for 'qgraph', 'IsingFit',
+		'IsingSampler', 'glasso', 'huge' and 'parcor' packages.
 	</longdescription>
 </pkgmetadata>
