@@ -2,14 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multi-Criteria Decision Making Methods // An R implementation of
-		Four Multi-Criteria Decision Making (MCDM) Methods: Technique
-		for Order of Preference by Similarity to Ideal Solution
-		(TOPSIS), "VIseKriterijumska Optimizacija I Kompromisno
-		Resenje" (VIKOR), both Multi-Objective Optimization by Ratio
-		Analysis and Full Multiplicative Form (Multi-MOORA) and
-		Weighted Aggregated Sum Product ASsessment (WASPAS). In
-		addition, this package provides a MetaRanking function which
-		combines the output of the previous methods.
+		Multi-Criteria Decision Making Methods for Crisp Data //
+		Implementation of several MCDM methos for crisp data for
+		decision making problems. The methods that are implemented in
+		this package are RIM, TOPSIS (with two normalization
+		procedures), VIKOR, Multi-MOORA and WASPAS. In addition,
+		MetaRanking function calculates a new ranking from the sum of
+		the rankings calculated, as well as an aggregated ranking.
 	</longdescription>
 </pkgmetadata>
