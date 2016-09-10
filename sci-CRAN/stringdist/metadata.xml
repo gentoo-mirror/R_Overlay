@@ -5,9 +5,9 @@
 		Approximate String Matching and String Distance Functions //
 		Implements an approximate string matching version of R's native
 		'match' function. Can calculate various string distances based
-		on edits (damerau-levenshtein, hamming, levenshtein, optimal
+		on edits (Damerau-Levenshtein, Hamming, Levenshtein, optimal
 		sting alignment), qgrams (q- gram, cosine, jaccard distance) or
-		heuristic metrics (jaro, jaro-winkler). An implementation of
+		heuristic metrics (Jaro, Jaro-Winkler). An implementation of
 		soundex is provided as well. Distances can be computed between
 		character vectors while taking proper care of encoding or
 		between integer vectors representing generic sequences.
