@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Faster 'ARFF' File Reader and Writer // Reads and writes 'ARFF'
+		files. 'ARFF' (Attribute-Relation File Format) files are like
+		'CSV' files, with a little bit of added meta information in a
+		header and standardized NA values. They are quite often used
+		for machine learning data sets and were introduced for the
+		'WEKA' machine learning 'Java' toolbox. See
+		http://weka.wikispaces.com/ARFF for further info on 'ARFF' and
+		for http://www.cs.waikato.ac.nz/ml/weka/ for more info on
+		'WEKA'. 'farff' gets rid of the 'Java' dependency that 'RWeka'
+		enforces, and it is at least a faster reader (for bigger
+		files). It uses 'readr' as parser back-end for the data section
+		of the 'ARFF' file. Consistency with 'RWeka' is tested on
+		'Github' and 'Travis CI' with hundreds of 'ARFF' files from
+		'OpenML'. Note that the 'OpenML' package is currently only
+		available from 'Github' at: https://github.com/openml/openml-r.
+	</longdescription>
+</pkgmetadata>

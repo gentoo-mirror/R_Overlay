@@ -3,36 +3,31 @@
 <pkgmetadata>
 	<longdescription>
 		L-Moments, Censored L-Moments, Trimmed L-Moments, L-Comoments,
-		and Many Distributions // Extensive functions for the theory of
-		L-moments (LMs) in addition to probability-weighted moments
-		(PWMs), and parameter (p) estimation for numerous familiar and
-		not-so-familiar distributions. Estimation of LMs for the same
-		distributions is provided as are L-moment ratio diagrams.
-		Estimation of LMs for right-tail and left-tail censoring by
-		known or unknown threshold and also by indicator variable is
-		available. Asymmetric trimmed LMs (TL-moments, TLMs) are
-		supported as are numerical integrations to dynamically compute
-		trajectories of select TLM ratios for TL-moment ratio diagram
-		construction.  LMs of residual (resid.) and reversed (rev.)
-		resid. life are implemented along with 13 operators on quantile
-		functions that are useful in reliability, lifetime, and
-		survival analysis.  Exact analytical bootstrap estimates of
-		order statistics, LMs, and variances-covariances of LMs are
-		provided. The Harri-Coble Tau34-squared Test for Normality is
-		available. Distribution support with "L" (LMs), "TL" (TLMs) and
-		added (+) support for right-tail censoring (RC) encompasses:
-		Asymmetric (Asy.) Exponential (Exp.) Power [L], Asy. Triangular
+		and Many Distributions // Extensive functions for L-moments
+		(LMs) and probability-weighted moments (PWMs), parameter
+		estimation for distributions, LM computation for distributions,
+		and L-moment ratio diagrams. Maximum likelihood and maximum
+		product of spacings estimation are also available. LMs for
+		right-tail and left-tail censoring by known or unknown
+		threshold and by indicator variable are available. Asymmetric
+		(asy.) trimmed LMs (TL-moments, TLMs) are supported. LMs of
+		residual (resid.) and reversed (rev.) resid. life are
+		implemented along with 13 quantile function operators for
+		reliability and survival analyses.  Exact analytical bootstrap
+		estimates of order statistics, LMs, and variances-covariances
+		of LMs are provided. The Harri-Coble Tau34-squared Normality
+		Test is available. Distribution support with "L" (LMs), "TL"
+		(TLMs) and added (+) support for right-tail censoring (RC)
+		encompasses: Asy. Exponential (Exp.) Power [L], Asy. Triangular
 		[L], Cauchy [TL], Eta-Mu [L], Exp. [L], Gamma [L], Generalized
 		(Gen.) Exp. Poisson [L], Gen. Extreme Value [L], Gen. Lambda
 		[L,TL], Gen. Logistic [L), Gen. Normal [L], Gen. Pareto [L+RC,
 		TL], Govindarajulu [L], Gumbel [L], Kappa [L], Kappa-Mu [L],
-		Kumaraswamy [L], Laplace [L], Linear Mean Residual Quantile
+		Kumaraswamy [L], Laplace [L], Linear Mean Resid. Quantile
 		Function [L], Normal [L], 3-p log-Normal [L], Pearson Type III
-		[L], Rayleigh [L], Rev. Gumbel [L+RC], Rice/Rician (L), Slash
+		[L], Rayleigh [L], Rev.-Gumbel [L+RC], Rice/Rician [L], Slash
 		[TL], 3-p Student t [L], Truncated Exponential [L], Wakeby [L],
-		and Weibull [L]. LMs have multivariate analogs; the sample
-		L-comoments (LCMs) are implemented and might have considerable
-		application with copulas because LCMs measure asymmetric
-		association and higher comoments or comovements of variables.
+		and Weibull [L]. Multivariate sample L-comoments (LCMs) are
+		implemented to measure asymmetric association.
 	</longdescription>
 </pkgmetadata>

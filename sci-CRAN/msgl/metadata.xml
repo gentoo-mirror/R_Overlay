@@ -4,12 +4,12 @@
 	<longdescription>
 		High Dimensional Multiclass Classification Using Sparse Group
 		Lasso // Multinomial logistic regression with sparse group
-		lasso penalty. Suitable for high dimensional multiclass
-		classification with many classes. The algorithm finds the
-		sparse group lasso penalized maximum likelihood estimator. This
-		result in feature and parameter selection, and parameter
-		estimation. Use of multiple processors for cross validation and
+		lasso penalty. Simultaneous feature selection and parameter
+		estimation for classification. Suitable for high dimensional
+		multiclass classification with many classes. The algorithm
+		computes the sparse group lasso penalized maximum likelihood
+		estimate. Use of multiple processors for cross validation and
 		subsampling is supported through OpenMP. Development version is
-		on github.
+		on github, please report package issues on github.
 	</longdescription>
 </pkgmetadata>
