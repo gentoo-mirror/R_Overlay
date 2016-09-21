@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Linear Step Up Procedure of BenjaminiHochberg FDR Method for
+		Huge-Scale Testing Problems // An efficient algorithm to apply
+		the BenjaminiHochberg Linear Step Up FDR controlling procedure
+		in huge-scale testing problems (proposed in Vered Madar and
+		Sandra Batista(2016) DOI:10.1093/bioinformatics/btw029). Unlike
+		"BH" method, the package does not require any p value ordering.
+		Besides, it permits separating p values arbitrarily into
+		computationally feasible chunks  of arbitrary size and produces
+		the same results as those from applying linear step up BH
+		procedure to the entire set of tests.
+	</longdescription>
+</pkgmetadata>
