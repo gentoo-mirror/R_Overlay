@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Wasserstein Barycenter // Computation of a Wasserstein
+		Barycenter. The package implements a method described in Cuturi
+		(2014) "Fast Computation of Wasserstein Barycenters". The paper
+		is available at
+		http://jmlr.org/proceedings/papers/v32/cuturi14.pdf. To speed
+		up the computation time the main iteration step is based on
+		'RcppArmadillo'.
+	</longdescription>
+</pkgmetadata>

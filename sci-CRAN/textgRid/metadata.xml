@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Praat TextGrid Objects in R // The software application Praat can
+		be used to annotate waveform data (e.g., to mark intervals of
+		interest or to label events). (See
+		http://www.fon.hum.uva.nl/praat/ for more information about
+		Praat.) These annotations are stored in a Praat TextGrid
+		object, which consists of a number of interval tiers and point
+		tiers. An interval tier consists of sequential (i.e., not
+		overlapping) labeled intervals. A point tier consists of
+		labeled events that have no duration. The 'textgRid' package
+		provides S4 classes, generics, and methods for accessing
+		information that is stored in Praat TextGrid objects.
+	</longdescription>
+</pkgmetadata>
