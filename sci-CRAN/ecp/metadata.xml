@@ -4,10 +4,11 @@
 	<longdescription>
 		Non-Parametric Multiple Change-Point Analysis of Multivariate
 		Data // Implements various procedures for finding multiple
-		change-points through the use of U-statistics. The procedures
-		do not make any distributional assumptions other than the
-		existence of certain absolute moments. Hierarchical and exact
-		search methods are included. All methods return the set of
-		estimated change-points as well as other summary information.
+		change-points. Two methods make use of dynamic programming and
+		probabilistic pruning, with no distributional assumptions other
+		than the existence of certain absolute moments in one method.
+		Hierarchical and exact search methods are included. All methods
+		return the set of estimated change- points as well as other
+		summary information.
 	</longdescription>
 </pkgmetadata>
