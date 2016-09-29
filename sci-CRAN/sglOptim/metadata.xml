@@ -4,13 +4,14 @@
 	<longdescription>
 		Generic Sparse Group Lasso Solver // Fast generic solver for
 		sparse group lasso optimization problems. The loss (objective)
-		function must be defined in a C++ module. Use of multiple
-		processors for cross validation and subsampling is supported
-		through OpenMP. The optimization problem is solved using a
-		coordinate gradient descent algorithm. The algorithm is
-		applicable to a broad class of convex loss functions.
-		Convergence of the algorithm is established (see reference).
-		Development version is on github, please report package issues
-		on github.
+		function must be defined in a C++ module. The optimization
+		problem is solved using a coordinate gradient descent
+		algorithm. The algorithm is applicable to a broad class of
+		convex loss functions. Convergence of the algorithm is
+		established (see reference).    Use of parallel computing for
+		cross validation and subsampling is supported through the
+		'foreach' and 'doParallel' packages. Development version is on
+		github, please report package issues on github. Development
+		version is on github, please report package issues on github.
 	</longdescription>
 </pkgmetadata>

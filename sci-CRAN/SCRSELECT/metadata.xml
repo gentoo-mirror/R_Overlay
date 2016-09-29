@@ -3,14 +3,23 @@
 <pkgmetadata>
 	<longdescription>
 		Performs Bayesian Variable Selection on the Covariates in a Semi-
-		Competing Risks Model // Uses Stochastic Search Variable
-		Selection to select important covariates in the three hazard
-		functions of a semi-competing risks model. This function
-		performs the Gibbs sampler for variable selection and a
-		Metropolis-Hastings-Green sampler for the number of split
-		points and parameters for the three baseline hazard function.
-		This function returns the posterior sample of all quantities
-		sampled in the Gibbs sampler after a burn-in period to a
-		desired file location.
+		Competing Risks Model // Contains four functions used in the
+		DIC-tau_g procedure. SCRSELECT() and SCRSELECTRUN() uses
+		Stochastic Search Variable Selection to select important
+		covariates in the three hazard functions of a semi-competing
+		risks model. These functions perform the Gibbs sampler for
+		variable selection and a Metropolis-Hastings-Green sampler for
+		the number of split points and parameters for the three
+		baseline hazard function. The function SCRSELECT() returns the
+		posterior sample of all quantities sampled in the Gibbs sampler
+		after a burn-in period to a desired file location, while the
+		function SCRSELECTRUN() returns posterior values of important
+		quantities to the DIC-Tau_g procedure in a list. The function
+		DICTAUG() returns a list containing the DIC values for the
+		unique models visited by the DIC-Tau_g grid search. The
+		function ReturnModel() uses SCRSELECTRUN() and DICTAUG() to
+		return a summary of the posterior coefficient vectors for the
+		optimal model along with saving this posterior sample to a
+		desired path location.
 	</longdescription>
 </pkgmetadata>

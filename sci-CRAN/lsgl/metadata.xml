@@ -6,7 +6,9 @@
 		group lasso. The algorithm finds the sparse group lasso
 		penalized maximum likelihood estimator. This result in feature
 		and parameter selection, and parameter estimation. Use of
-		multiple processors for cross validation and subsampling is
-		supported through OpenMP. Development version is on github.
+		parallel computing for cross validation and subsampling is
+		supported through the 'foreach' and 'doParallel' packages.
+		Development version is on github, please report package issues
+		on github.
 	</longdescription>
 </pkgmetadata>

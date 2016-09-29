@@ -8,8 +8,9 @@
 		estimation for classification. Suitable for high dimensional
 		multiclass classification with many classes. The algorithm
 		computes the sparse group lasso penalized maximum likelihood
-		estimate. Use of multiple processors for cross validation and
-		subsampling is supported through OpenMP. Development version is
-		on github, please report package issues on github.
+		estimate. Use of parallel computing for cross validation and
+		subsampling is supported through the 'foreach' and 'doParallel'
+		packages. Development version is on GitHub, please report
+		package issues on GitHub.
 	</longdescription>
 </pkgmetadata>
