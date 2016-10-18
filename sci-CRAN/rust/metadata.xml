@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Ratio-of-Uniforms Simulation with Transformation // Uses the
+		generalised ratio-of-uniforms (RU) method to simulate from
+		univariate and (low-dimensional) multivariate continuous
+		distributions. The user specifies the log-density, up to an
+		additive constant. The RU algorithm is applied after relocation
+		of mode of the density to zero, and the user can choose a
+		tuning parameter r. For details see Wakefield, Gelfand and
+		Smith (1991) DOI:10.1007/BF01889987, Efficient generation of
+		random variates via the ratio-of-uniforms method, Statistics
+		and Computing (1991) 1, 129-133. A Box-Cox variable
+		transformation can be used to make the input density suitable
+		for the RU method and to improve efficiency.  In the
+		multivariate case rotation of axes can also be used to improve
+		efficiency. See the rust website for more information,
+		documentation and examples.
+	</longdescription>
+</pkgmetadata>

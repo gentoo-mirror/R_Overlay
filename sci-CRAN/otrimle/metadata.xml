@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Robust Model-Based Clustering // Performs robust cluster analysis
+		allowing for outliers and noise that cannot be fitted by any
+		cluster. The data are modelled by a mixture of Gaussian
+		distributions and a noise component, which is an improper
+		uniform  distribution covering the whole Euclidean space.
+		Parameters are estimated by  (pseudo) maximum likelihood. This
+		is fitted by a EM-type algorithm. See Coretto and Hennig (2015)
+		https://arxiv.org/abs/1406.0808, and Coretto and Hennig (2016)
+		https://arxiv.org/abs/1309.6895.
+	</longdescription>
+</pkgmetadata>

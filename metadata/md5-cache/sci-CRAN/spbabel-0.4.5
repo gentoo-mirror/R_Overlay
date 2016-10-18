@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.2.3 sci-CRAN/dplyr sci-CRAN/sp sci-CRAN/tibble dev-lang/R
+DESCRIPTION=Convert Spatial Data Using Tidy Tables
+EAPI=5
+IUSE=r_suggests_broom r_suggests_covr r_suggests_ggalt r_suggests_ggplot2 r_suggests_ggpolypath r_suggests_knitr r_suggests_maps r_suggests_maptools r_suggests_raster r_suggests_rmarkdown r_suggests_scales r_suggests_testthat r_suggests_trip byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.2.3 sci-CRAN/dplyr sci-CRAN/sp sci-CRAN/tibble r_suggests_broom? ( sci-CRAN/broom ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggalt? ( sci-CRAN/ggalt ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggpolypath? ( sci-CRAN/ggpolypath ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_trip? ( sci-CRAN/trip ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spbabel_0.4.5.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=c45c4235aad4a18de54ef0305efec1ac

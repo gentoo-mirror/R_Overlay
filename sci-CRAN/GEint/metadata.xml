@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Misspecified Models for Gene-Environment Interaction // Compute
+		the bias in misspecified linear gene-environment interaction
+		models. The most generalized function for this objective is
+		GE_bias().  However GE_bias() requires specification of many
+		higher order moments of covariates in the model.  If users are
+		unsure about how to calculate/estimate these higher order
+		moments, it may be easier to use GE_bias_normal_squaredmis().
+		This function places many more assumptions on the covariates
+		(most notably that they are all jointly generated from a
+		multivariate normal distribution) and is thus able to
+		automatically calculate many of the higher order moments
+		automatically, necessitating only that the user specify some
+		covariances.  There are also functions to solve for the bias
+		through simulation and non-linear equation solvers, these can
+		be used to check your work.
+	</longdescription>
+</pkgmetadata>

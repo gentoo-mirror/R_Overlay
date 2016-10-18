@@ -2,12 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Persist Object Attributes Across Data Operations // In base R,
-		object attributes are lost when objects are modified by common
-		data operations such as subset, filter, slice, append, extract
-		etc. This packages allows objects to be marked as 'sticky' and
-		have resilient attributes that persist during these operations
-		or when inserted into or extracted from recursive (i.e. list-or
-		table-like) objects.
+		Persist Attributes Across Data Operations // In base R, object
+		attributes are lost when objects are modified by common data
+		operations such as subset, filter, slice, append, extract etc.
+		This packages allows objects to be marked as 'sticky' and have
+		attributes persisted during these operations or when inserted
+		into or extracted from recursive (i.e. list- or table-like)
+		objects.
 	</longdescription>
 </pkgmetadata>

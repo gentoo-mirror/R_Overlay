@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.15.0 virtual/MASS sci-CRAN/plyr sci-CRAN/polycor sci-CRAN/psych sci-CRAN/Rcpp sci-CRAN/sfsmisc virtual/lattice sci-CRAN/mvtnorm dev-lang/R
+DESCRIPTION=Cognitive Diagnosis Modeling
+EAPI=5
+IUSE=r_suggests_bifiesurvey r_suggests_miceadds r_suggests_mirt r_suggests_sirt r_suggests_tam byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.15.0 virtual/MASS sci-CRAN/plyr sci-CRAN/polycor sci-CRAN/psych sci-CRAN/Rcpp sci-CRAN/sfsmisc virtual/lattice sci-CRAN/mvtnorm sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_bifiesurvey? ( sci-CRAN/BIFIEsurvey ) r_suggests_miceadds? ( sci-CRAN/miceadds ) r_suggests_mirt? ( >=sci-CRAN/mirt-1.17 ) r_suggests_sirt? ( sci-CRAN/sirt ) r_suggests_tam? ( sci-CRAN/TAM ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CDM_5.2-1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=45b7f208b3919d1b6436faa7d00c9224

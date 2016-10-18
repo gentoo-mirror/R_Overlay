@@ -2,14 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Simulation of Time-to-Event Family Data and Penetrance Estimation
-		// Generates time-to-event family data associated with mutated
-		genes arising from various family study designs such as
-		population-based, clinic- based, or multi-stage designs and
-		provides functions to fit family data accounting for the study
-		design and estimate age-dependent penetrance functions. It also
-		provides carrier probabilities for those with missing genotypes
-		and penetrance estimations are based on an Expectation-
-		Maximization algorithm when genotypes are missing.
+		Family Age-at-Onset Data Simulation and Penetrance Estimation //
+		Simulates age-at-onset traits associated with a segregating
+		major gene in family data obtained from population-based,
+		clinic-based, or multi-stage designs. Appropriate ascertainment
+		correction is utilized to estimate age-dependent penetrance
+		functions either parametrically from the fitted model or
+		nonparametrically from the data. The Expectation and
+		Maximization algorithm can infer missing genotypes and carrier
+		probabilities estimated from family's genotype and phenotype
+		information or from a fitted model. Plot functions include
+		pedigrees of simulated families and predicted penetrance curves
+		based on specified parameter values.
 	</longdescription>
 </pkgmetadata>

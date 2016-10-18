@@ -3,9 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Model and Analyse Interval Data // Implements methodologies for
-		modelling interval data, considering appropriate
-		parameterizations of the variance-covariance matrix that take
-		into account the intrinsic nature of interval data, and lead to
-		five different possible configuration structures.
+		modelling interval data by Normal and Skew-Normal
+		distributions, considering appropriate parameterizations of the
+		variance-covariance matrix that takes into account the
+		intrinsic nature of interval data, and lead to four different
+		possible configuration structures. The Skew-Normal parameters
+		can be estimated by maximum likelihood, while Normal parameters
+		may be estimated by maximum likelihood or robust trimmed
+		maximum likelihood methods.
 	</longdescription>
 </pkgmetadata>

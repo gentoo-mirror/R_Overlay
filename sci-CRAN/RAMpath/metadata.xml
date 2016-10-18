@@ -2,18 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Structural Equation Modeling using the reticular action model
-		(RAM) Notation // RAMpath is a rewrite of RAMpath software
-		developed by John McArdle and Steven Boker. In addition to
+		Structural Equation Modeling Using the Reticular Action Model
+		(RAM) Notation // We rewrite of RAMpath software developed by
+		John McArdle and Steven Boker as an R package. In addition to
 		performing regular SEM analysis through the R package lavaan,
 		RAMpath has unique features.  First, it can generate path
 		diagrams according to a given model. Second, it can display
 		path tracing rules through path diagrams and decompose total
 		effects into their respective direct and indirect effects as
-		well as decompose variances and covariances into individual
+		well as decompose variance and covariance into individual
 		bridges. Furthermore, RAMpath can fit dynamic system models
 		automatically based on latent change scores and generate vector
 		field plots based upon results obtained from a bivariate
-		dynamic system.
+		dynamic system. Starting version 0.4, RAMpath can conduct power
+		analysis for both univariate and bivariate latent change score
+		models.
 	</longdescription>
 </pkgmetadata>

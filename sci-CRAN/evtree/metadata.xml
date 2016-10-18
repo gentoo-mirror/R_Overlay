@@ -10,12 +10,12 @@
 		tree methods are only locally optimal, as splits are chosen to
 		maximize homogeneity at the next step only. An alternative way
 		to search over the parameter space of trees is to use global
-		optimization methods like evolutionary algorithms. The evtree
+		optimization methods like evolutionary algorithms. The 'evtree'
 		package implements an evolutionary algorithm for learning
 		globally optimal classification and regression trees in R. CPU
 		and memory-intensive tasks are fully computed in C++ while the
-		partykit package is leveraged to represent the resulting trees
-		in R, providing unified infrastructure for summaries,
+		'partykit' package is leveraged to represent the resulting
+		trees in R, providing unified infrastructure for summaries,
 		visualizations, and predictions.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/sp >=dev-lang/R-3.0.2 >=sci-CRAN/RandomFieldsUtils-0.3.3 dev-lang/R
+DESCRIPTION=Simulation and Analysis of Random Fields
+EAPI=5
+IUSE=r_suggests_colorspace r_suggests_gensa r_suggests_geor r_suggests_minqa r_suggests_mvtnorm r_suggests_nloptr r_suggests_optimx r_suggests_pso r_suggests_raster r_suggests_rcolorbrewer r_suggests_soma r_suggests_spam r_suggests_tcltk2 r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/sp >=dev-lang/R-3.0.2 >=sci-CRAN/RandomFieldsUtils-0.3.3 sci-CRAN/RandomFieldsUtils r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_gensa? ( sci-CRAN/GenSA ) r_suggests_geor? ( sci-CRAN/geoR ) r_suggests_minqa? ( sci-CRAN/minqa ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_nloptr? ( sci-CRAN/nloptr ) r_suggests_optimx? ( sci-CRAN/optimx ) r_suggests_pso? ( sci-CRAN/pso ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_soma? ( sci-CRAN/soma ) r_suggests_spam? ( sci-CRAN/spam ) r_suggests_tcltk2? ( sci-CRAN/tcltk2 ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RandomFields_3.1.24.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=f15bf373048412fa5ff7d6649644b76e

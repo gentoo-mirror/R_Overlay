@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regularized PQL for Joint Selection in GLMMs // Performs joint
+		selection in Generalized Linear Mixed Models (GLMMs) using
+		penalized likelihood methods. Specifically, the Penalized
+		Quasi-Likelihood (PQL) is used as a loss function, and
+		penalties are then "added on" to perform simultaneous fixed and
+		random effects selection. Regularized PQL avoids the need for
+		integration (or approximations such as the Laplace's method)
+		during the estimation process, and so the full solution path
+		for model selection can be constructed relatively quickly.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Velocity and Accuracy of the LOg-RAnk TEst // The algorithm
+		implemented in this package was designed to quickly estimates
+		the distribution of the log-rank especially for heavy
+		unbalanced groups. VALORATE estimates the null distribution and
+		the p-value of the log-rank test based on a recent formulation.
+		For a given number of alterations that define the size of
+		survival groups, the estimation involves a weighted sum of
+		distributions that are conditional on a co-occurrence term
+		where mutations and events are both present. The estimation of
+		conditional distributions is quite fast allowing the analysis
+		of large datasets in few minutes
+		http://bioinformatica.mty.itesm.mx/valorate.
+	</longdescription>
+</pkgmetadata>
