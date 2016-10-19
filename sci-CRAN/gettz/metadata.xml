@@ -6,6 +6,7 @@
 		timezone on Unix systems which has been found to find an answer
 		when 'Sys.timezone()' has failed. It is based on an answer by
 		Duane McCully posted on 'StackOverflow', and adapted to be
-		callable from R.
+		callable from R. The package also builds on Windows, but just
+		returns NULL.
 	</longdescription>
 </pkgmetadata>

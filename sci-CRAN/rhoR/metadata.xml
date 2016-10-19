@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Rho for Inter Rater Reliability // Rho is used to test the
+		generalization of inter rater reliability (IRR) statistics.
+		Calculating rho starts by generating a large number of
+		simulated, fully-coded data sets: a sizable collection of
+		hypothetical populations, all of which have a kappa value below
+		a given threshold -- which indicates unacceptable agreement.
+		Then kappa is calculated on a sample from each of those sets in
+		the collection to see if it is equal to or higher than the
+		kappa in then real sample. If less than five percent of the
+		distribution of samples from the simulated data sets is greater
+		than actual observed kappa, the null hypothesis is rejected and
+		one can conclude that if the two raters had coded the rest of
+		the data, we would have acceptable agreement (kappa above the
+		threshold).
+	</longdescription>
+</pkgmetadata>
