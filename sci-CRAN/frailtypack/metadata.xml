@@ -27,13 +27,14 @@
 		recurrent events and a terminal event. 8) Joint models for
 		longitudinal data and a terminal event. 9) Trivariate joint
 		models for longitudinal data, recurrent events and a terminal
-		event. Prediction values are available. Left-truncated (not for
-		Joint model), right-censored data, interval-censored data (only
-		for Cox proportional hazard and shared frailty model) and
-		strata are allowed. In each model, the random effects have the
-		gamma or normal distribution. Now, you can also consider time-
-		varying covariates effects in Cox, shared and joint frailty
-		models (1-5). The package includes concordance measures for Cox
+		event. Prediction values are available (for a terminal event or
+		for a new recurrent event). Left-truncated (not for Joint
+		model), right-censored data, interval-censored data (only for
+		Cox proportional hazard and shared frailty model) and strata
+		are allowed. In each model, the random effects have the gamma
+		or normal distribution. Now, you can also consider time-varying
+		covariates effects in Cox, shared and joint frailty models
+		(1-5). The package includes concordance measures for Cox
 		proportional hazards models and for shared frailty models.
 	</longdescription>
 </pkgmetadata>
