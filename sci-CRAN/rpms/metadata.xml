@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Recursive Partitioning for Modeling Survey Data // Fits a linear
+		model to survey data in each node obtained by recursively
+		partitioning the data.  The splitting variables and splits
+		selected are obtained using a procedure which adjusts for
+		complex sample design features used to obtain the data.
+		Likewise the model fitting algorithm produces design-consistent
+		coefficients to the least squares linear model between the
+		dependent and independent variables. The first stage of the
+		design is accounted for in the provided variance estimates. The
+		main function returns the resulting binary tree with the linear
+		model fit at every endnode as an R object of class "rpms". The
+		package provides a number of functions and methods for this
+		rpms class.
+	</longdescription>
+</pkgmetadata>
