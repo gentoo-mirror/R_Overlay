@@ -2,18 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Fast, Easy-to-use Tool for Manipulating Tables in Databases and
-		A Wrapper of MADlib // R interface of Pivotal Data Fabrics
-		running on PostgreSQL or Pivotal (Greenplum and HAWQ) database
-		with parallel and distributed computation ability for big data
-		analytics. PivotalR is a package that enables users of R to
-		interact with the Pivotal (Greenplum) Database as well as
-		Pivotal HD/HAWQ for Big Data analytics. It does so by providing
-		an interface to the operations on tables/views in the database.
-		These operations are almost the same as those of data.frame.
-		Thus the users of R do not need to learn SQL when they operate
-		on the objects in the database. It also provides a wrapper for
-		MADlib, which is an open-source library for parallel and
-		scalable in-database analytics.
+		A Fast, Easy-to-Use Tool for Manipulating Tables in Databases and
+		a Wrapper of MADlib // Provides an R interface for the Pivotal
+		Data stack running on 'PostgreSQL', 'Greenplum' or 'Apache HAWQ
+		(incubating)' databases with parallel and distributed
+		computation ability for big data processing. 'PivotalR'
+		provides an R interface to various database operations on
+		tables or views. These operations are almost the same as the
+		corresponding native R operations. Thus users of R do not need
+		to learn 'SQL' when they operate on objects in the database. It
+		also provides a wrapper for 'Apache MADlib (incubating)', which
+		is an open- source library for parallel and scalable in-
+		database analytics.
 	</longdescription>
 </pkgmetadata>
