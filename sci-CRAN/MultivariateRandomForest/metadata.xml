@@ -2,14 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multivariate Random Forest for Linearly Related Output Features
-		// In Random Forest, prediction has been done for single output
-		feature, while linear relation between the output features has
-		not been considered in other packages. In this package, using
-		linear relation of the output features, a multivariate random
-		forest prediction has been done, which can predict all the
-		output features with one Random forest. If there is high
-		correlation among the features, this MRF prediction gives
-		better result than the individual RFs.
+		Models Multivariate Cases Using Random Forests // Models and
+		predicts Multiple Features in single random forest considering
+		the linear relation among the features.
 	</longdescription>
 </pkgmetadata>
