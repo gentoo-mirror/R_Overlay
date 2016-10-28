@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gaussian Process Ranking of Multiple Time Series // Implements a
+		Gaussian process (GP)-based ranking method which can be used to
+		rank multiple time series according to their temporal activity
+		levels. An example is the case when expression levels of all
+		genes are measured over a time course and the main concern is
+		to identify the most active genes, i.e. genes which show
+		significant non-random variation in their expression levels.
+		This is achieved by computing Bayes factors for each time
+		series by comparing the marginal likelihoods under time-
+		dependent and time-independent GP models. Additional variance
+		information from pre-processing of the observations is
+		incorporated into the GP models, which makes the ranking more
+		robust against model overfitting. The package supports
+		exporting the results to 'tigreBrowser' for visualisation,
+		filtering or ranking.
+	</longdescription>
+</pkgmetadata>
