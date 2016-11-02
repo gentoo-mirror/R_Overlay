@@ -2,8 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Methods for joint dimension reduction and clustering // A
-		collection of methods for joint dimension reduction and
-		clustering
+		Methods for Joint Dimension Reduction and Clustering // A class
+		of methods that combine dimension reduction and clustering of
+		continuous or categorical data. For continuous data, the
+		package contains implementations of factorial K-means (Vichi
+		and Kiers 2001; DOI:10.1016/S0167-9473(00)00064-5) and reduced
+		K-means (De Soete and Carroll 1994;
+		DOI:10.1007/978-3-642-51175-2_24); both methods that combine
+		principal component analysis with K-means clustering. For
+		categorical data, the package provides MCA K-means (Hwang,
+		Dillon and Takane 2006; DOI:10.1007/s11336-004-1173-x), i-FCB
+		(Iodice D'Enza and Palumbo 2013, DOI:10.1007/s00180-012-0329-x)
+		and Cluster Correspondence Analysis (van de Velden, Iodice
+		D'Enza and Palumbo 2016; DOI:10.1007/s11336-016-9514-0), which
+		combine multiple correspondence analysis with K-means.
 	</longdescription>
 </pkgmetadata>
