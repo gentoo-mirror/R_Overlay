@@ -2,20 +2,24 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Package for Analysis of Accelerated Destructive Degradation
-		Test Data // Accelerated destructive degradation tests (ADDT)
-		are often used to collect necessary data for assessing the
-		long-term properties of polymeric materials. Based on the
-		collected data, a thermal index (TI) is estimated. The TI can
-		be useful for material rating and comparison. This package
-		performs the least squares (LS) and maximum likelihood (ML)
-		procedures for estimating TI for polymeric materials. The LS
-		approach is a two-step approach that is currently used in
-		industrial standards, while the ML procedure is widely used in
-		the statistical literature. The ML approach allows one to do
-		statistical inference such as quantifying uncertainties in
-		estimation, hypothesis testing, and predictions. Two publicly
-		available datasets are provided to allow users to experiment
-		and practice with the functions.
+		Analysis of Accelerated Destructive Degradation Test Data //
+		Accelerated destructive degradation tests (ADDT) are often used
+		to collect necessary data for assessing the long-term
+		properties of polymeric materials. Based on the collected data,
+		a thermal index (TI) is estimated. The TI can be useful for
+		material rating and comparison. This package implements the
+		traditional method based on the least-squares method, the
+		parametric method based on maximum likelihood estimation, and
+		the semiparametric method based on spline methods, and the
+		corresponding methods for estimating TI for polymeric
+		materials. The traditional approach is a two-step approach that
+		is currently used in industrial standards, while the parametric
+		method is widely used in the statistical literature. The
+		semiparametric method is newly developed. Both the parametric
+		and semiparametric approaches allow one to do statistical
+		inference such as quantifying uncertainties in estimation,
+		hypothesis testing, and predictions. Publicly available
+		datasets are provided illustrations. More details can be found
+		in Jin et al. (2017).
 	</longdescription>
 </pkgmetadata>
