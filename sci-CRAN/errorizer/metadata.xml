@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Function Errorizer // Provides a function to convert existing R
+		functions into "errorized" versions with added logging and
+		handling functionality when encountering errors or warnings.
+		The errorize function accepts an existing R function as its
+		first argument and returns a R function with the exact same
+		arguments and functionality. However, if an error or warning
+		occurs when running that "errorized" R function, it will save a
+		.Rds file to the current working directory with the relevant
+		objects and information required to immediately recreate the
+		error.
+	</longdescription>
+</pkgmetadata>
