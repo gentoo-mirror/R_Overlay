@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Image Tools for Automated Wood Identification // This tool, wood
+		vision tool, is intended to facilitate preprocessing and
+		analyzing 2-dimensional wood images toward automated
+		recognition. The former includes some basics such as functions
+		to RGB to grayscale, gray to binary, cropping,
+		rotation(bilinear), median/mean/Gaussian filter, and
+		Canny/Sobel edge detection. The latter includes gray level co-
+		occurrence matrix (GLCM), Haralick parameters, local binary
+		pattern (LBP), higher order local autocorrelation (HLAC),
+		Fourier transform (radial and azimuthal integration), and Gabor
+		filtering. The functions are intended to read data using
+		'readTIFF(x,info=T)' from 'tiff' package. The functions in this
+		packages basically assumes the grayscale images as input data,
+		thus the color images should be subjected to the function
+		rgb2gray() before used for some other functions.
+	</longdescription>
+</pkgmetadata>
