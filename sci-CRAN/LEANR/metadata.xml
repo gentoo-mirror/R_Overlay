@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Finds "Local Subnetworks" Within an Interaction Network which
+		Show Enrichment for Differentially Expressed Genes //
+		Implements the method described in "Network-based analysis of
+		omics data: The LEAN method" [Gwinner Boulday (2016)
+		DOI:10.1093/bioinformatics/btw676] Given a protein interaction
+		network and a list of p-values describing a measure of interest
+		(as e.g. differential gene expression) this method computes an
+		enrichment p-value for the protein neighborhood of each gene
+		and compares it to a background distribution of randomly drawn
+		p-values. The resulting scores are corrected for multiple
+		testing and significant hits are returned in tabular format.
+	</longdescription>
+</pkgmetadata>
