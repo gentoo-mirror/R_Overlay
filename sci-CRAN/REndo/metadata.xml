@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fitting Linear Models with Endogenous Regressors when No External
-		Instruments are Available // Fits linear models with endogenous
-		regressors using Internal Instrumental Variables (IIV) methods.
-		These are statistical techniques to correct for endogeneity
-		when no strong, valid external instrumental variables are
-		available. The first version of the package offers two methods,
-		the Latent Instrumental Variables (Ebbes et al., 2005) and
-		Lewbel's higher moments approach (Lewbel, 1997). In a second
-		version of the package, two other methods will be added, joint
-		estimation using copulas (Park and Gupta, 2012) and multilevel
-		GMM (Kim and Frees, 2007).
+		Fitting Linear Models with Endogenous Regressors using Latent
+		Instrumental Variables // Fits linear models with endogenous
+		regressor using latent instrumental variable approaches. The
+		methods included in the package are Lewbel's (1997) higher
+		moments approach as well as Lewbel's (2012) heteroskedasticity
+		approach, Park and Gupta's (2012) joint estimation method that
+		uses Gaussian copula and Kim and Frees's (2007) multilevel
+		generalized method of moment approach that deals with
+		endogeneity in a multilevel setting. These are statistical
+		techniques to address the endogeneity problem where no external
+		instrumental variables are needed.
 	</longdescription>
 </pkgmetadata>

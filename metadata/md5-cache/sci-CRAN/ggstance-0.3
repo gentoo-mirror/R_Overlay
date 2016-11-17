@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.2.2 >=sci-CRAN/ggplot2-2.2 >=sci-CRAN/purrr-0.2 sci-CRAN/lazyeval sci-CRAN/plyr dev-lang/R
+DESCRIPTION=Horizontal ggplot2 Components
+EAPI=5
+IUSE=r_suggests_magrittr r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.2.2 >=sci-CRAN/ggplot2-2.2 >=sci-CRAN/purrr-0.2 sci-CRAN/lazyeval sci-CRAN/plyr r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggstance_0.3.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=2039e4a5784768aae18516025d22dc06

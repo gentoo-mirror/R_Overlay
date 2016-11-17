@@ -6,8 +6,11 @@
 		// It provides a generic set of tools for initializing a
 		synthetic population with each individual in specific disease
 		states, and making transitions between those disease states
-		according to the rates calculated on each timestep. Additional
-		functions will follow for changing attributes on demographic,
-		health belief and movement.
+		according to the rates calculated on each timestep. The new
+		version 1.0.0 has C++ code integration to make the functions
+		run faster. It has also a higher level function to actually run
+		the transitions for the number of timesteps that users specify.
+		Additional functions will follow for changing attributes on
+		demographic, health belief and movement.
 	</longdescription>
 </pkgmetadata>

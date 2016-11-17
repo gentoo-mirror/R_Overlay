@@ -12,14 +12,18 @@
 		(CADs). Produces Multidimensional Scaling (MDS) configurations
 		and Shepard plots of multi-sample detrital datasets using the
 		Kolmogorov-Smirnov distance as a dissimilarity measure.
-		Calculates 40A/39Ar ages, isochrons, and age spectra. Computes
+		Calculates 40Ar/39Ar ages, isochrons, and age spectra. Computes
 		weighted means accounting for overdispersion. Calculates U-Th-
 		He (single grain and central) ages, logratio plots and ternary
-		diagrams. Future versions will include functionality for the
-		Rb-Sr, Sm-Nd, Re-Os, fission track and cosmogenic nuclide
-		methods, radial plots and banana diagrams. A graphical user
-		interface is provided as an RStudio Shiny app at
-		http://isoplotr.london-geochron.com. Offline access to this
-		interface will be provided at a later point in time.
+		diagrams. Processes fission track data using the external
+		detector method and LA-ICP-MS, calculates central ages and
+		plots fission track and other data on radial (a.k.a.
+		'Galbraith') plots. Deconvolves finite mixtures and minimum
+		ages from heteroscedastic data. Future versions will include
+		functionality for the Rb-Sr, Sm-Nd, Re-Os, Lu-Hf and U-series
+		dating methods. A graphical user interface is provided as an
+		RStudio Shiny app at http://isoplotr.london-geochron.com.
+		Offline access to this interface will be provided at a later
+		point in time.
 	</longdescription>
 </pkgmetadata>
