@@ -3,8 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Forecasting for Stationary and Non-Stationary Time Series //
-		Methods to compute linear h-step prediction coefficients based
-		on localised and iterated Yule-Walker estimates and empirical
-		mean square prediction errors for the resulting predictors.
+		Methods to compute linear h-step ahead prediction coefficients
+		based on localised and iterated Yule-Walker estimates and
+		empirical mean squared prediction errors for the resulting
+		predictors. Also, functions to compute autocovariances for
+		AR(p) processes, to simulate tvARMA(p,q) time series, and to
+		verify an assumption from a paper by the authors.
 	</longdescription>
 </pkgmetadata>

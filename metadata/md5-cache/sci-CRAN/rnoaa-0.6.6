@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/rappdirs >=sci-CRAN/httr-1.0.0 sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/scales sci-omegahat/XML sci-CRAN/xml2 sci-CRAN/jsonlite sci-CRAN/gridExtra sci-CRAN/isdparser sci-CRAN/tibble dev-lang/R
+DESCRIPTION=NOAA Weather Data from R
+EAPI=5
+IUSE=r_suggests_covr r_suggests_ggmap r_suggests_knitr r_suggests_leaflet r_suggests_ncdf4 r_suggests_purrr r_suggests_rgdal r_suggests_rmarkdown r_suggests_ropenaq r_suggests_roxygen2 r_suggests_taxize r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/rappdirs >=sci-CRAN/httr-1.0.0 sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/scales sci-omegahat/XML sci-CRAN/xml2 sci-CRAN/jsonlite sci-CRAN/gridExtra sci-CRAN/isdparser sci-CRAN/tibble r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggmap? ( sci-CRAN/ggmap ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_ncdf4? ( sci-CRAN/ncdf4 ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rgdal? ( sci-CRAN/rgdal ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_ropenaq? ( sci-CRAN/ropenaq ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-5.0.1 ) r_suggests_taxize? ( sci-CRAN/taxize ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rnoaa_0.6.6.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=35a6758c073007809e5ac145fc2ee4ff

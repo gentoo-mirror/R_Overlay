@@ -4,13 +4,12 @@
 	<longdescription>
 		Tool for Ensemble Feature Selection // Provides a function to
 		check the importance of a feature based on a dependent
-		classification variable. An ensemble of correlation and
-		importance measure tests are used to determine the normed
-		importance value of all features. Combining these methods in
-		one function (building the sum of the importance values) leads
-		to a better tool for selecting most important features. This
-		selection can also be viewed in a barplot using the
-		barplot_fs() function and proved using an also provided
-		function for a logistic regression model, namely logreg_test().
+		classification variable. An ensemble of feature selection
+		methods is used to determine the normalized importance value of
+		all features. Combining these methods in one function (building
+		the cumulative importance values) provides a stable feature
+		selection tool. This selection can also be viewed in a barplot
+		using the barplot_fs() function and proved using the evaluation
+		function efs_eval().
 	</longdescription>
 </pkgmetadata>
