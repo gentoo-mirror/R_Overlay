@@ -6,11 +6,11 @@
 		Models // Conceived to calculate Bayes factors in linear models
 		and then to provide a formal Bayesian answer to testing and
 		variable selection problems. From a theoretical side, the
-		emphasis in the package is placed on the prior distributions
-		and BayesVarSel allows using a wide range of them: Jeffreys
-		(1961); Zellner and Siow(1980)DOI:10.1007/bf02888369; Zellner
-		and Siow(1984); Zellner (1986)DOI:10.2307/2233941; Fernandez et
-		al. (2001)DOI:10.1016/s0304-4076(00)00076-2; Liang et al.
+		emphasis in this package is placed on the prior distributions
+		and it allows a wide range of them: Jeffreys (1961); Zellner
+		and Siow(1980)DOI:10.1007/bf02888369; Zellner and Siow(1984);
+		Zellner (1986)DOI:10.2307/2233941; Fernandez et al.
+		(2001)DOI:10.1016/s0304-4076(00)00076-2; Liang et al.
 		(2008)DOI:10.1198/016214507000001337  and Bayarri et al.
 		(2012)DOI:10.1214/12-aos1013. The interaction with the package
 		is through a friendly interface that syntactically mimics the
@@ -20,7 +20,7 @@
 		of potential variables; the highest posterior probability
 		model, HPM; the median probability model, MPM) about the
 		structure of the true -data generating- model. Additionally,
-		"BayesVarSel" incorporates abilities to handle problems with a
+		this package incorporates abilities to handle problems with a
 		large number of potential explanatory variables through
 		parallel and heuristic versions of the main commands, Garcia-
 		Donato and Martinez-Beneito
