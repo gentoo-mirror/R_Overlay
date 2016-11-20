@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/estimability >=dev-lang/R-3.2 virtual/nlme sci-CRAN/multcomp sci-CRAN/plyr sci-CRAN/mvtnorm >=sci-CRAN/coda-0.17 >=sci-CRAN/xtable-1.8.2 dev-lang/R
+DESCRIPTION=Least-Squares Means
+EAPI=5
+IUSE=r_suggests_car r_suggests_carbayes r_suggests_coxme r_suggests_gee r_suggests_geepack r_suggests_lattice r_suggests_lme4 r_suggests_lmertest r_suggests_mass r_suggests_mcmcglmm r_suggests_mcmcpack r_suggests_mediation r_suggests_multcompview r_suggests_nnet r_suggests_ordinal r_suggests_pbkrtest r_suggests_pscl r_suggests_rsm r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/estimability >=dev-lang/R-3.2 virtual/nlme sci-CRAN/multcomp sci-CRAN/plyr sci-CRAN/mvtnorm >=sci-CRAN/coda-0.17 >=sci-CRAN/xtable-1.8.2 r_suggests_car? ( sci-CRAN/car ) r_suggests_carbayes? ( sci-CRAN/CARBayes ) r_suggests_coxme? ( sci-CRAN/coxme ) r_suggests_gee? ( sci-CRAN/gee ) r_suggests_geepack? ( sci-CRAN/geepack ) r_suggests_lattice? ( virtual/lattice ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_lmertest? ( >=sci-CRAN/lmerTest-2.0.32 ) r_suggests_mass? ( virtual/MASS ) r_suggests_mcmcglmm? ( sci-CRAN/MCMCglmm ) r_suggests_mcmcpack? ( sci-CRAN/MCMCpack ) r_suggests_mediation? ( sci-CRAN/mediation ) r_suggests_multcompview? ( sci-CRAN/multcompView ) r_suggests_nnet? ( virtual/nnet ) r_suggests_ordinal? ( sci-CRAN/ordinal ) r_suggests_pbkrtest? ( >=sci-CRAN/pbkrtest-0.4.1 ) r_suggests_pscl? ( sci-CRAN/pscl ) r_suggests_rsm? ( sci-CRAN/rsm ) r_suggests_survival? ( virtual/survival ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lsmeans_2.25.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=2451efe0c4ebc76a6c758b6c1f1ae038
