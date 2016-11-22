@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Relabel Loadings from MCMC Output for Confirmatory Factor
+		Analysis // In confirmatory factor analysis (CFA), structural
+		constraints typically ensure that the model is identified up to
+		all possible reflections, i.e., column sign changes of the
+		matrix of loadings. Such reflection invariance is problematic
+		for Bayesian CFA when the reflection modes are not well
+		separated in the posterior distribution. Imposing rotational
+		constraints -- fixing some loadings to be zero or positive in
+		order to pick a factor solution that corresponds to one
+		reflection mode -- may not provide a satisfactory solution for
+		Bayesian CFA. The function 'relabel' uses the relabeling
+		algorithm of Erosheva and Curtis to correct for sign invariance
+		in MCMC draws from CFA models. The MCMC draws should come from
+		Bayesian CFA models that are fit without rotational
+		constraints.
+	</longdescription>
+</pkgmetadata>

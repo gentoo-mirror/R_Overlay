@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Friendly R Startup Configuration // Adds support for R startup
+		configuration via '.Renviron.d' and '.Rprofile.d' directories
+		in addition to '.Renviron' and '.Rprofile' files.  This makes
+		it possible to keep private / secret environment variables
+		separate from other environment variables.  It also makes it
+		easier to share specific startup settings by simply copying a
+		file to a directory.
+	</longdescription>
+</pkgmetadata>

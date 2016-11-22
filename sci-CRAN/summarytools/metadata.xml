@@ -2,19 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Dataframe Summaries, Frequency Tables and Numerical Summaries
-		with Customizable Output // Generates formatted summary tables
-		for vectors and dataframes. Three summarizing functions: 1)
-		'freq' generates frequency tables reporting counts and
-		proportions (including cumulative); 2) 'descr' gives common
-		central tendency statistics and measures of dispersion for
-		numerical data; 3) 'dfSummary' gives as much information as
-		possible about a dataframe and its components in a clear,
-		legible table. All three functions can either display plain
-		text tables in the console or write markdown, text or html
-		files to disk. An additional misc function, 'what.is', extends
-		base 'is' function, checking the object against all 'is'
-		functions and gives a variety of other information about the
-		object.
+		Dataframe Summaries, Frequency Tables and Descriptive Stats with
+		Flexible Output Formats // Built around three key functions: 1)
+		freq() generates frequency tables reporting counts and
+		proportions (including cumulative) for factors and other
+		discrete data; 2) descr() gives all common central tendency
+		statistics and measures of dispersion for numerical data; 3)
+		dfSummary() gives as much information as possible on a
+		dataframe's columns in a legible table. freq() and descr()
+		support weights, and all three functions support 'Hmisc' or
+		'pander' labels. A variety of output formats are available
+		(plain text, 'rmarkdown' and HTML). An additional misc
+		function, what.is(), displays all common properties of an
+		object (its class, type, mode, attributes, etc.) and extends
+		the base is() function, checking the object against most is.()
+		functions.
 	</longdescription>
 </pkgmetadata>
