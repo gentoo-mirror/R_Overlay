@@ -8,10 +8,13 @@
 		all the five major asset classes have been created and, given
 		the inheritance- based structure of the application, the
 		addition of further trade types is straightforward. The
-		application automatically separates the trades on the
-		corresponding hedging and netting sets including the basis and
-		volatility transactions. All the examples appearing on the
-		regulatory paper (including the margined and the un-margined
-		workflow) have been implemented.
+		application returns a list of trees (one per CSA) after
+		automatically separating the trades based on the CSAs, the
+		hedging sets, the netting sets and the risk factors. The basis
+		and volatility transactions are also identified and treated in
+		specific hedging sets whereby the corresponding penalty factors
+		are applied. All the examples appearing on the regulatory paper
+		(including the margined and the un-margined workflow) have been
+		implemented.
 	</longdescription>
 </pkgmetadata>

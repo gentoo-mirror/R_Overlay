@@ -2,13 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Algorithm for searching the space of Gaussian directed acyclic
-		graphical models through moment fractional Bayes factors // We
+		Algorithm for Searching the Space of Gaussian Directed Acyclic
+		Graph Models Through Moment Fractional Bayes Factors // We
 		propose an objective Bayesian algorithm for searching the space
-		of Gaussian directed acyclic graphical models when the
-		variables are assumed to satisfy a given ordering. The approach
-		used is based on non-local parameter priors and thus it is
-		suitable for learning sparse graphs. The algorithm is
-		implemented in C++ using the open-source library Armadillo.
+		of Gaussian directed acyclic graph (DAG) models. The algorithm
+		proposed makes use of moment fractional Bayes factors (MFBF)
+		and thus it is suitable for learning sparse graph. The
+		algorithm is implemented by using Armadillo: an open-source C++
+		linear algebra library.
 	</longdescription>
 </pkgmetadata>
