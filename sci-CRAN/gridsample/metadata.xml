@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tools for Grid-Based Survey Sampling Design // Multi-stage
+		cluster household surveys are commonly performed by governments
+		and programs to monitor population demographic, social,
+		economic, and health outcomes. In these surveys, communities
+		are sampled in a first  stage of sampling from within
+		subpopulations of interest (or strata), households are sampled
+		in a second stage of sampling, and sometimes individuals are
+		listed and further sampled within households. The first stage
+		of sampling, where communities of sample populations are
+		defined, are called Primary Sampling Units (PSUs) while the
+		households are secondary sampling units (SSUs). Census data are
+		typically used to select PSUs within strata. If census data are
+		outdated, inaccurate, or not available at fine enough scale,
+		however, gridded population data can be used instead. This tool
+		selects PSUs within user-defined strata using gridded
+		population data, given desired numbers of sampled households
+		within each PSU. The population densities used to create PSUs
+		are drawn from rasters such as the population data from the
+		WorldPop Project (http://www.worldpop.org.uk). PSUs are defined
+		within a stratum using a serpentine sampling method, and can be
+		set to have a certain ratio of urban and rural PSUs, or to be
+		evenly distributed across a coarse, user-defined grid.
+	</longdescription>
+</pkgmetadata>
