@@ -2,19 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		FITS (Flexible Image Transport System) utilities // Utilities to
+		FITS (Flexible Image Transport System) Utilities // Utilities to
 		read and write files in the FITS (Flexible Image Transport
-		System) format, a standard format in astronomy. Present low-
-		level routines allow: reading, parsing, and modifying FITS
-		headers; reading FITS images (multi-dimensional arrays);
-		reading FITS binary tables; and writing FITS images (multi-
-		dimensional arrays).  Higher-level functions allow: reading
-		files composed of one or more headers and a single (perhaps
-		multidimensional) image or single bintable; reading bintables
-		into data frames; generating vectors for image array axes;
-		scaling and writing images as 16-bit integers.  Known
-		incompletenesses are reading FITS ASCII table and random group
-		extensions, as well as bit, complex, and array descriptor data
-		types in binary tables.
+		System) format, a standard format in astronomy (see e.g.
+		https://en.wikipedia.org/wiki/FITS for more information).
+		Present low-level routines allow: reading, parsing, and
+		modifying FITS headers; reading FITS images (multi-dimensional
+		arrays); reading FITS binary and ASCII tables; and writing FITS
+		images (multi-dimensional arrays).  Higher-level functions
+		allow: reading files composed of one or more headers and a
+		single (perhaps multidimensional) image or single table;
+		reading tables into data frames; generating vectors for image
+		array axes; scaling and writing images as 16-bit integers.
+		Known incompletenesses are reading random group extensions, as
+		well as bit, complex, and array descriptor data types in binary
+		tables.
 	</longdescription>
 </pkgmetadata>
