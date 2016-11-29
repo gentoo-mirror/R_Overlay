@@ -2,15 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Regression Estimation Based on the Compound Covariate Method
-		Under the Cox Proportional Hazard Model // Calculate regression
-		coefficients and their standard deviations under the Cox
-		proportional hazard model with a large number of covariates. A
-		shrinkage type estimation based on the compound covariate
-		method (Emura, Chen  Chen, 2012 PLoS ONE) and a univariate gene
-		selection method under dependent censoring (Emura  Chen, 2014
-		Statistical Methods in Medical Research) are implemented.
-		Algorithms for simulating gene expressions in these references
-		are also given.
+		Estimation and Gene Selection Based on the Compound Covariate
+		Method Under the Cox Proportional Hazard Model // Cox
+		regression for survival data with high-dimensional gene
+		expressions. Available are statistical methods in Emura et al
+		(2012 PLoS ONE) DOI:10.1371/journal.pone.0047627 and Emura
+		Chen (2016 Stat Methods Med Res) DOI:10.1177/0962280214533378
+		and a survival dataset for non-small-cell lung cancer patients
+		in Chen et al (2007 New Engl J Med) DOI:10.1056/NEJMoa060096.
 	</longdescription>
 </pkgmetadata>
