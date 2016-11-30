@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/lpSolve sci-CRAN/ggplot2 dev-lang/R
+DESCRIPTION=Multivariate Synthetic Control M... (see metadata)
+EAPI=5
+IUSE=r_suggests_cmaes r_suggests_deoptim r_suggests_deoptimr r_suggests_ga r_suggests_gensa r_suggests_hydropso r_suggests_knitr r_suggests_nloptr r_suggests_nmof r_suggests_optimx r_suggests_pso r_suggests_rgenoud r_suggests_rmalschains r_suggests_rmarkdown r_suggests_soma r_suggests_synth byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/lpSolve sci-CRAN/ggplot2 r_suggests_cmaes? ( sci-CRAN/cmaes ) r_suggests_deoptim? ( sci-CRAN/DEoptim ) r_suggests_deoptimr? ( sci-CRAN/DEoptimR ) r_suggests_ga? ( sci-CRAN/GA ) r_suggests_gensa? ( sci-CRAN/GenSA ) r_suggests_hydropso? ( sci-CRAN/hydroPSO ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nloptr? ( sci-CRAN/nloptr ) r_suggests_nmof? ( sci-CRAN/NMOF ) r_suggests_optimx? ( sci-CRAN/optimx ) r_suggests_pso? ( sci-CRAN/pso ) r_suggests_rgenoud? ( sci-CRAN/rgenoud ) r_suggests_rmalschains? ( sci-CRAN/Rmalschains ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_soma? ( sci-CRAN/soma ) r_suggests_synth? ( sci-CRAN/Synth ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MSCMT_1.1.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=ad6103be35925787edba6b84d9780b62
