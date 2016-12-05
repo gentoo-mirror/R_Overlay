@@ -3,8 +3,8 @@
 <pkgmetadata>
 	<longdescription>
 		A LazyData Facility // Supplies a LazyData facility for packages
-		which have data sets but do not provide LazyData.  A single
-		function is is included, requireData, which is a drop-in
+		which have data sets but do not provide LazyData: true.  A
+		single function is is included, requireData, which is a drop-in
 		replacement for base::require, but carrying the additional
 		functionality. By default, it suppresses package startup
 		messages as well.  See argument 'reallyQuitely'.
