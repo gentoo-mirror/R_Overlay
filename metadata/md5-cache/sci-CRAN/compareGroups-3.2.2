@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/gdata sci-CRAN/xtable sci-CRAN/SNPassoc sci-CRAN/Hmisc sci-CRAN/HardyWeinberg sci-CRAN/rmarkdown virtual/survival sci-CRAN/epitools >=dev-lang/R-2.13.1 sci-CRAN/knitr dev-lang/R
+DESCRIPTION=Descriptive Analysis by Groups
+EAPI=5
+IUSE=r_suggests_car r_suggests_dt r_suggests_shiny r_suggests_shinybs r_suggests_shinyjs r_suggests_tcltk2 r_suggests_xlsx byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/gdata sci-CRAN/xtable sci-CRAN/SNPassoc sci-CRAN/Hmisc sci-CRAN/HardyWeinberg sci-CRAN/rmarkdown virtual/survival sci-CRAN/epitools >=dev-lang/R-2.13.1 sci-CRAN/knitr r_suggests_car? ( sci-CRAN/car ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_shinybs? ( sci-CRAN/shinyBS ) r_suggests_shinyjs? ( sci-CRAN/shinyjs ) r_suggests_tcltk2? ( sci-CRAN/tcltk2 ) r_suggests_xlsx? ( sci-CRAN/xlsx ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/compareGroups_3.2.2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=10b8dd931e057ec09c0fb0736ac8840c

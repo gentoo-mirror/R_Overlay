@@ -2,13 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Noncompartmental Analysis of Pharmacokinetics // Conduct
-		noncompartmental analysis as close as possible to the most
-		widely used commercial pharmacokinetic analysis software, i.e.
-		'Phoenix(R) WinNonlin(R)' https://www.certara.com/software
-		/pkpd-modeling-and-simulation/phoenix-winnonlin/. For more
-		details on noncompartmental analysis, see the reference:
-		Rowland M, Tozer TN. Clinical Pharmacokinetics and
-		Pharmacodynamics - Concepts and Applications. 4e. 2011.
+		Noncompartmental Analysis for Pharmacokinetic Data // Conduct a
+		noncompartmental analysis as closely as possible to the most
+		widely used commercial software for pharmacokinetic analysis,
+		i.e. 'Phoenix(R) WinNonlin(R)' https://www.certara.com/software
+		/pkpd-modeling-and-simulation/phoenix-winnonlin/. Some features
+		include: - Use CDISC SDTM PP domain terms. - Automatic slope
+		selection with the same criterion of WinNonlin(R) - Support
+		both 'linear-up linear-down' and 'linear-up log-down' method -
+		Calculate partial(interval) AUC with 'linear' or 'log'
+		interpolation method For more details on noncompartmental
+		analysis, see the reference: Gabrielsson J, Weiner D.
+		Pharmacokinetic and Pharmacodynamic Data Analysis - Concepts
+		and Applications. 5th ed. 2016. (ISBN:9198299107)
+		Acknowldegement: Author thanks for the careful review and
+		valuable input of Dr. Jee Eun Lee.
 	</longdescription>
 </pkgmetadata>

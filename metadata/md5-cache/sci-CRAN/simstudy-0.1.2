@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.2.2 sci-CRAN/data_table sci-CRAN/Rcpp sci-CRAN/mvnfast dev-lang/R
+DESCRIPTION=Simulation of Study Data
+EAPI=5
+IUSE=r_suggests_ggplot2 r_suggests_gridextra r_suggests_knitr r_suggests_rmarkdown r_suggests_scales r_suggests_survival r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.2.2 sci-CRAN/data_table sci-CRAN/Rcpp sci-CRAN/mvnfast sci-CRAN/Rcpp r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/simstudy_0.1.2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=d08f2cf2a55976d792aa0eea594c4a57
