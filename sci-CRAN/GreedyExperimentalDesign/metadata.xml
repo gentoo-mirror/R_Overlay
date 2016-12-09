@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Greedy Experimental Design Construction // Computes experimental
+		designs for a two-arm experiment with covariates by greedily
+		optimizing a balance objective function. This optimization
+		provides lower variance for the treatment effect estimator (and
+		higher power) while preserving a design that is close to
+		complete randomization. We return all iterations of the designs
+		for use in a permutation test.
+	</longdescription>
+</pkgmetadata>
