@@ -2,20 +2,23 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Nested and Crossed Block Designs for Unstructured Treatment Sets
-		// Constructs nested and crossed block designs for unstructured
-		treatment sets with arbitrary replication not necessarily all
-		equal. Blocks can be nested to any required depth of nesting
-		and blocks are optimized hierarchically from the top down with
-		successive nested blocks strata optimized within the levels of
-		all preceding blocks strata. Block sizes are all equal in any
-		one stratum if the number of blocks in that stratum exactly
-		divides the number of plots, otherwise they differ by at most
-		one plot. The design output is a data table showing a
-		randomised allocation of treatments to blocks together with
-		plans showing the allocation of treatments to blocks for each
-		block in the bottom stratum of the design. D and A-efficiency
-		factors are shown for each stratum together with A-efficiency
-		upper bounds, where available.
+		Nested and Crossed Block Designs for Unstructured and Factorial
+		Treatment Sets // Constructs randomized nested or crossed block
+		designs for unstructured treatment sets or for factorial
+		treatments sets. Where the treatments are factorial, the
+		treatments model can be defined by using the model formulation
+		defined in the model.matrix {stats} base package. Blocks are
+		nested hierarchically in successive blocks strata and the
+		blocks model in any particular stratum can comprise either a
+		simple nested blocks design or a crossed row-and-column design.
+		Block sizes in any one stratum are either all equal or differ,
+		at most, by one plot. The design outputs include a data frame
+		showing the allocation of treatments to blocks, a table showing
+		block levels, the achieved D-efficiency, the achieved
+		A-efficiency (unstructured treatments only) and A-efficiency
+		upper bounds, where available, for each stratum in the design.
+		For designs with simple unstructured treatments, a plan layout
+		showing the allocation of treatments to blocks or to rows and
+		columns in the bottom stratum of the design is also given.
 	</longdescription>
 </pkgmetadata>
