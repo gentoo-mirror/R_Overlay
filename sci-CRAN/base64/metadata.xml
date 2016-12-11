@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>Base 64 encoder/decoder // Base 64 encoder/decoder</longdescription>
+	<longdescription>
+		Base64 Encoder and Decoder // Compatibility wrapper to replace
+		the orphaned package by Romain Francois. New applications
+		should use the 'openssl' or 'base64enc' package instead.
+	</longdescription>
 </pkgmetadata>
