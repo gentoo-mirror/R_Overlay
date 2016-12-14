@@ -6,11 +6,13 @@
 		unsupervised and exploratory in nature. Yet, it can be
 		performed through penalized regression with grouping pursuit.
 		In this package, we provide two algorithms for fitting the
-		penalized regression-based clustering (PRclust). One algorithm
-		is based on quadratic penalty and difference convex method.
-		Another algorithm is based on difference convex and ADMM,
-		called DC-ADD, which is more efficient. Generalized cross
-		validation was provided to select the tuning parameters. Rand
+		penalized regression-based clustering (PRclust) with non-convex
+		grouping penalties, such as group truncated lasso, MCP and
+		SCAD. One algorithm is based on quadratic penalty and
+		difference convex method. Another algorithm is based on
+		difference convex and ADMM, called DC-ADD, which is more
+		efficient. Generalized cross validation and stability based
+		method were provided to select the tuning parameters. Rand
 		index, adjusted Rand index and Jaccard index were provided to
 		estimate the agreement between estimated cluster memberships
 		and the truth.

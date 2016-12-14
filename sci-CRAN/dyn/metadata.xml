@@ -3,11 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Time Series Regression // Time series regression.  The dyn class
-		interfaces ts, irts, its, zoo and zooreg time series classes to
-		lm, glm, loess, quantreg::rq, MASS::rlm, MCMCpack::MCMCregress,
-		quantreg::rq, randomForest::randomForest and other regression
-		functions allowing those functions to be used with time series
-		including specifications that may contain lags, diffs and
-		missing values.
+		interfaces ts, irts(), its, zoo() and zooreg() time series
+		classes to lm(), glm(), loess(), quantreg::rq(), MASS::rlm(),
+		MCMCpack::MCMCregress(), quantreg::rq(),
+		randomForest::randomForest() and other regression functions
+		allowing those functions to be used with time series including
+		specifications that may contain lags, diffs and missing values.
 	</longdescription>
 </pkgmetadata>
