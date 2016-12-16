@@ -6,16 +6,15 @@
 		framework for response variables which are continuous self-
 		rating scales such as the Visual Analog Scale (VAS) used in
 		pain assessment, or the Linear Analog Self-Assessment (LASA)
-		scales in quality of life studies. These scales  measure
+		scales in quality of life studies. These scales measure
 		subjects' perception of an intangible quantity, and cannot be
-		handled as ratio variables because of their inherent
-		nonlinearity. We treat them as ordinal variables, measured on a
-		continuous scale. A function (the g function, currently the
-		generalized logistic function) connects the scale with an
-		underlying continuous latent  variable.  The link function is
-		the inverse of the CDF of the assumed underlying distribution
-		of the latent variable. Currently the logit link, which
-		corresponds to a standard logistic distribution, is
+		handled as ratio variables because of their inherent non-
+		linearity. We treat them as ordinal variables, measured on a
+		continuous scale. A function (the g function) connects the
+		scale with an underlying continuous latent variable. The link
+		function is the inverse of the CDF of the assumed underlying
+		distribution of the latent variable. Currently the logit link,
+		which corresponds to a standard logistic distribution, is
 		implemented.
 	</longdescription>
 </pkgmetadata>
