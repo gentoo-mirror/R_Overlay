@@ -2,9 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Expand Short URLs Using the 'URL-Expander' API // Interface to
-		the 'URL-Expander' API to expand vectors of short URLs with
-		optional error checking and URL validation. See
-		http://urlex.org/ for more information about their service.
+		Expand Short URLs // Tools expand vectors of short URLs into long
+		URLs. No API services are used, which may mean that this
+		operates more slowly than API services do (since they usually
+		cache results of expansions every user of the service
+		performs).
 	</longdescription>
 </pkgmetadata>
