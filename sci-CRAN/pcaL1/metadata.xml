@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Three L1-Norm PCA Methods // Three implementations of principal
-		component analysis methods using the L1 norm.  The package
+		L1-Norm PCA Methods // Implementations of six methods for
+		principal component analysis using the L1 norm.  The package
 		depends on COIN-OR Clp version = 1.12.0.  The methods
-		implemented are PCA-L1 (Kwak 2008), L1-PCA (Ke and Kanade 2003,
-		2005), and L1-PCA* (Brooks, Dula, and Boone 2013).
+		implemented are PCA-L1 (Kwak 2008) DOI:10.1109/TPAMI.2008.114,
+		L1-PCA (Ke and Kanade 2003, 2005) DOI:10.1109/CVPR.2005.309,
+		L1-PCA* (Brooks, Dula, and Boone 2013)
+		DOI:10.1016/j.csda.2012.11.007, L1-PCAhp (Visentin, Prestwich
+		and Armagan 2016) DOI:10.1007/978-3-319-46227-1_37, wPCA (Park
+		and Klabjan 2016), and awPCA (Park and Klabjan 2016).
 	</longdescription>
 </pkgmetadata>
