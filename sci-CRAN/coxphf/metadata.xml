@@ -2,7 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Cox regression with Firth's penalized likelihood // Cox
-		regression with Firth's penalized likelihood
+		Cox Regression with Firth's Penalized Likelihood // Implements
+		Firth's penalized maximum likelihood bias reduction method  for
+		Cox regression which has been shown to provide a solution in
+		case of monotone likelihood (nonconvergence of likelihood
+		function). The program fits profile penalized likelihood
+		confidence intervals which were proved to outperform Wald
+		confidence intervals.
 	</longdescription>
 </pkgmetadata>

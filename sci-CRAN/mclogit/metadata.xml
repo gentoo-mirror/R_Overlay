@@ -2,12 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Mixed Conditional Logit // This packages provides a function to
-		estimate parameters for the conditional logit model (also with
-		multinomial counts), and for the mixed conditional logit model,
-		or conditional logit with random effects (random intercepts
-		only, no random slopes yet). The current implementation of
-		random effects is limited to the PQL technique, which requires
-		large cluster sizes.
+		Mixed Conditional Logit Models // Specification and estimation of
+		conditional logit models of binary responses and multinomial
+		counts is provided, with or without alternative-specific random
+		effects (random intercepts only, no random slopes yet). The
+		current implementation of the estimator for random effects
+		variances uses a Laplace approximation (or PQL) approach and
+		thus should be used only if groups sizes are large.
 	</longdescription>
 </pkgmetadata>

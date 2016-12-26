@@ -2,10 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Wrapper for MUMPS Library // Exported class can be used for
-		storing sparse matrix and solving corresponding linear system
-		with one or many right hand sides. There is a possibility to do
-		separately symbolic analysis, LU factorization and system
-		solving.
+		Wrapper for MUMPS Library // Some basic features of MUMPS
+		(MUltifrontal Massively Parallel sparse direct Solver) are
+		wrapped in a Rmumps class. It can be used for storing a sparse
+		matrix and sequentially solving corresponding linear system
+		with one or many right hand sides (in their turn dense or
+		sparse). There is a possibility to do separately symbolic
+		analysis, LU factorization and system solving.
 	</longdescription>
 </pkgmetadata>
