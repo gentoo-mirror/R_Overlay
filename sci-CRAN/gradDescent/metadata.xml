@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gradient Descent for Regression Tasks // An implementation of
+		various learning algorithms based on Gradient Descent for
+		dealing with regression tasks. The variants of gradient descent
+		algorithm are : Mini-Batch Gradient Descent (MBGD), an
+		optimization to use training data partially to reduce the
+		computation load. Stochastic Gradient Descent (SGD), an
+		optimization to use a random data in learning to reduce the
+		computation load drastically. Stochastic Average Gradient
+		(SAG), a SGD-based algorithm to minimize stochastic step to
+		average. Momentum Gradient Descent (MGD), an optimization to
+		speed-up gradient descent learning. Accelerated Gradient
+		Descent (AGD), an optimization to accelerate gradient descent
+		learning. Adagrad, a gradient-descent-based algorithm that
+		accumulate previous cost to do adaptive learning. Adadelta, a
+		gradient-descent-based algorithm that use hessian approximation
+		to do adaptive learning. RMSprop, a gradient-descent-based
+		algorithm that combine Adagrad and Adadelta adaptive learning
+		ability. Adam, a gradient-descent-based algorithm that mean and
+		variance moment to do adaptive learning.
+	</longdescription>
+</pkgmetadata>

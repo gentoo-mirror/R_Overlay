@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1 sci-CRAN/plyr dev-lang/R
+DESCRIPTION=Exploratory Chemometrics for Spectroscopy
+EAPI=5
+IUSE=r_suggests_amap r_suggests_baseline r_suggests_clustercrit r_suggests_gsubfn r_suggests_idpmisc r_suggests_jsonlite r_suggests_knitr r_suggests_lattice r_suggests_mass r_suggests_mclust r_suggests_mvbutils r_suggests_nbclust r_suggests_pcapp r_suggests_pls r_suggests_r_utils r_suggests_rcolorbrewer r_suggests_readjdx r_suggests_rgl r_suggests_robustbase r_suggests_seriation r_suggests_signal r_suggests_sna r_suggests_speaq byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1 sci-CRAN/plyr r_suggests_amap? ( sci-CRAN/amap ) r_suggests_baseline? ( sci-CRAN/baseline ) r_suggests_clustercrit? ( sci-CRAN/clusterCrit ) r_suggests_gsubfn? ( sci-CRAN/gsubfn ) r_suggests_idpmisc? ( sci-CRAN/IDPmisc ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_mass? ( virtual/MASS ) r_suggests_mclust? ( sci-CRAN/mclust ) r_suggests_mvbutils? ( sci-CRAN/mvbutils ) r_suggests_nbclust? ( sci-CRAN/NbClust ) r_suggests_pcapp? ( sci-CRAN/pcaPP ) r_suggests_pls? ( sci-CRAN/pls ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_readjdx? ( sci-CRAN/readJDX ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_robustbase? ( sci-CRAN/robustbase ) r_suggests_seriation? ( sci-CRAN/seriation ) r_suggests_signal? ( sci-CRAN/signal ) r_suggests_sna? ( sci-CRAN/sna ) r_suggests_speaq? ( sci-CRAN/speaq ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ChemoSpec_4.4.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=0a49cb74fff33dba3e5ea4bfbefffca2

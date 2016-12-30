@@ -6,12 +6,11 @@
 		sparse group lasso optimization problems. The loss (objective)
 		function must be defined in a C++ module. The optimization
 		problem is solved using a coordinate gradient descent
-		algorithm. The algorithm is applicable to a broad class of
-		convex loss functions. Convergence of the algorithm is
-		established (see reference).    Use of parallel computing for
-		cross validation and subsampling is supported through the
-		'foreach' and 'doParallel' packages. Development version is on
-		github, please report package issues on github. Development
-		version is on github, please report package issues on github.
+		algorithm. Convergence of the algorithm is established (see
+		reference) and the algorithm is applicable to a broad class of
+		loss functions. Use of parallel computing for cross validation
+		and subsampling is supported through the 'foreach' and
+		'doParallel' packages. Development version is on GitHub, please
+		report package issues on GitHub.
 	</longdescription>
 </pkgmetadata>

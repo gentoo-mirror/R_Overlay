@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-2.15.1 sci-CRAN/RItools sci-CRAN/digest sci-CRAN/Rcpp virtual/survival dev-lang/R
+DESCRIPTION=Functions for Optimal Matching
+EAPI=5
+IUSE=r_suggests_arm r_suggests_biglm r_suggests_boot r_suggests_brglm r_suggests_knitr r_suggests_pander r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+RDEPEND=>=dev-lang/R-2.15.1 sci-CRAN/RItools sci-CRAN/digest sci-CRAN/Rcpp virtual/survival sci-CRAN/Rcpp r_suggests_arm? ( sci-CRAN/arm ) r_suggests_biglm? ( sci-CRAN/biglm ) r_suggests_boot? ( virtual/boot ) r_suggests_brglm? ( sci-CRAN/brglm ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pander? ( sci-CRAN/pander ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/optmatch_0.9-7.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=dbde2690eee1dc1561a6bda3fcab88e8

@@ -8,13 +8,13 @@
 		estimated such that it maximizes the resulting covariate
 		balance as well as the prediction of treatment assignment. The
 		method, therefore, avoids an iteration between model fitting
-		and balance checking.  The package also implements several
+		and balance checking. The package also implements several
 		extensions of the CBPS beyond the cross-sectional, binary
-		treatment setting.  The current version implements the CBPS for
+		treatment setting. The current version implements the CBPS for
 		longitudinal settings so that it can be used in conjunction
 		with marginal structural models from Imai and Ratkovic (2015)
 		DOI:10.1080/01621459.2014.956872, treatments with three- and
-		four-valued treatment variables, continuous-valued treatments
+		four- valued treatment variables, continuous-valued treatments
 		from Fong, Hazlett, and Imai (2015)
 		http://imai.princeton.edu/research/files/CBGPS.pdf, and the
 		situation with multiple distinct binary treatments administered

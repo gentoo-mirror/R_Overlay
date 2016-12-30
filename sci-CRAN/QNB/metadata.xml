@@ -2,13 +2,30 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Differential RNA Methylation Analysis with Quad-Negative-Binomial
-		Model // We present QNB, a statistical approach for
-		differential RNA methylation analysis with count-based small-
-		sample sequencing data. The method is based on 4 independent
-		negative binomial distributions, and with their variances and
-		means linked by local regressions, respectively. Please don't
-		hesitate to contact liulian19860905@163.com if you have any
-		questions.
+		Differential RNA Methylation Analysis for Count-Based Small-
+		Sample Sequencing Data with a Quad-Negative Binomial Model //
+		As a newly emerged research area, RNA epigenetics has drawn
+		increasing attention recently for the participation of RNA
+		methylation and other modifications in a number of crucial
+		biological processes. Thanks to high throughput sequencing
+		techniques, such as m6A-Seq, transcriptome-wide RNA methylation
+		profile is now available in the form of count-based data, with
+		which it is often of interests to study the dynamics in
+		epitranscriptomic layer. However, the sample size of RNA
+		methylation experiment is usually very small due to its costs;
+		and additionally, there usually exist a large number of genes
+		whose methylation level cannot be accurately estimated due to
+		their low expression level, making differential RNA methylation
+		analysis a difficult task. We present QNB, a statistical
+		approach for differential RNA methylation analysis with count-
+		based small-sample sequencing data. The method is based on 4
+		independent negative binomial dis-tributions with their
+		variances and means linked by local regressions. QNB showed
+		improved performance on simulated and real m6A-Seq datasets
+		when compared with competing algorithms. And the QNB model is
+		also applicable to other datasets related RNA modifications,
+		including but not limited to RNA bisulfite sequencing, m1A-Seq,
+		Par-CLIP, RIP-Seq, etc.Please don't hesitate to contact
+		liulian19860905@163.com if you have any questions.
 	</longdescription>
 </pkgmetadata>
