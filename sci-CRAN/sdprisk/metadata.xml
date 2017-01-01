@@ -3,15 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Measures of Risk for the Compound Poisson Risk Process with
-		Diffusion // The main purpose of this package is to provide
-		saddlepoint approximations to some measures of risk, based on
-		the compound Poisson risk process that is perturbed by a
-		Brownian motion.  Various approximation methods for the
-		probability of ruin are also included.  Furthermore, exact
-		values of both the risk measures as well as the probability of
-		ruin are available if the individual claims follow a hypo-
-		exponential distribution (i. e., if it can be represented as a
-		sum of independent exponentially distributed random variables
-		with different rate parameters).
+		Diffusion // Based on the compound Poisson risk process that is
+		perturbed by a Brownian motion, saddlepoint approximations to
+		some measures of risk are provided. Various approximation
+		methods for the probability of ruin are also included.
+		Furthermore, exact values of both the risk measures as well as
+		the probability of ruin are available if the individual claims
+		follow a hypo-exponential distribution (i. e., if it can be
+		represented as a sum of independent exponentially distributed
+		random variables with different rate parameters). For more
+		details see Gatto and Baumgartner (2014)
+		doi:10.1007/s11009-012-9316-5.
 	</longdescription>
 </pkgmetadata>

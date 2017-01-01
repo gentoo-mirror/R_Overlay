@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,9 +13,9 @@ LICENSE='Artistic-2'
 IUSE="${IUSE-} r_suggests_biostrings"
 R_SUGGESTS="r_suggests_biostrings? ( sci-BIOC/Biostrings )"
 DEPEND="sci-BIOC/GenomicRanges
+	sci-BIOC/BSgenome
 	sci-BIOC/IRanges
 	sci-BIOC/GenomicRanges
-	sci-BIOC/BSgenome
 	sci-BIOC/IRanges
 	>=sci-BIOC/BSgenome-1.25.6
 "
