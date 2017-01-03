@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Weighted Estimation in Cox Regression // This package implements
-		weighted estimation in Cox regression as proposed by Schemper,
-		Wakounig and Heinze (Statistics in Medicine, 2009). Weighted
-		Cox regression provides unbiased average hazard ratio estimates
-		also in case of non-proportional hazards. Approximated
-		generalized concordance probability an effect size measure for
-		clear-cut decisions can be obtained. Additionally estimation of
-		nonlinear effects using fractional polynomials similar to the
-		MFP algorithm (Royston, Sauerbrei, 2008) is provided. This
-		feature can also be used to estimate the interaction of a
-		covariate with a nonlinear function of time.
+		Weighted Estimation in Cox Regression // Implements weighted
+		estimation in Cox regression as proposed by Schemper, Wakounig
+		and Heinze (Statistics in Medicine, 2009,
+		doi:10.1002/sim.3623). Weighted Cox regression provides
+		unbiased average hazard ratio estimates also in case of non-
+		proportional hazards. Approximated generalized concordance
+		probability an effect size measure for clear-cut decisions can
+		be obtained. The package provides options to estimate time-
+		dependent effects conveniently by including interactions of
+		covariates with arbitrary functions of time, with or without
+		making use of the weighting option.
 	</longdescription>
 </pkgmetadata>
