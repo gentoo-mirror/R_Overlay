@@ -2,17 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Optimal and Fast Univariate k-Means Clustering // A dynamic
-		programming algorithm for optimal univariate k-means
-		clustering. Minimizing the sum of squares of within-cluster
-		distances, the algorithm guarantees optimality and
-		reproducibility. Its advantage over heuristic clustering
-		algorithms in efficiency and accuracy is increasingly
-		pronounced as the number of clusters k increases. With optional
-		weights, the algorithm can also analyze 1-D signals for
-		segmentation and peak calling. An auxiliary function can
-		generate adaptive histograms to make patterns in data stand
-		out. For univariate data analysis, the package provides a
-		powerful alternative to heuristic clustering algorithms.
+		Optimal and Fast Univariate Clustering // A fast dynamic
+		programming algorithm for optimal univariate clustering.
+		Minimizing the sum of squares of within-cluster distances, the
+		algorithm guarantees optimality and reproducibility. Its
+		advantage over heuristic clustering algorithms in efficiency
+		and accuracy is increasingly pronounced as the number of
+		clusters k increases. With optional weights, the algorithm can
+		also optimally segment time series and perform peak calling. An
+		auxiliary function generates histograms that are adaptive to
+		patterns in data. This package provides a powerful alternative
+		to heuristic methods for univariate data analysis.
 	</longdescription>
 </pkgmetadata>
