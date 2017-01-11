@@ -9,7 +9,15 @@
 		implemented. Since the basic model developed by Easley et al.
 		(1996) DOI:10.1111/j.1540-6261.1996.tb04074.x is nested in the
 		former due to equating the intensity of uninformed buys and
-		sells, functionalities can also be applied to this simpler
-		model structure, if needed.
+		sells, functions can also be applied to this simpler model
+		structure, if needed. State-of-the-art factorization of the
+		model likelihood function as well as most recent algorithms for
+		generating initial values for optimization routines are
+		implemented. In total, two likelihood factorizations and three
+		methodologies for starting values are included. Furthermore,
+		functions for simulating datasets of daily aggregated buys and
+		sells, calculating confidence intervals for the probability of
+		informed trading and posterior probabilities of trading days'
+		conditions are available.
 	</longdescription>
 </pkgmetadata>

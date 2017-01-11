@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/acs sci-CRAN/stringr sci-CRAN/WDI sci-CRAN/ggmap sci-CRAN/dplyr sci-CRAN/R6 sci-CRAN/scales sci-CRAN/Hmisc sci-CRAN/RgoogleMaps >=dev-lang/R-3.0.0 >=sci-CRAN/ggplot2-2.0.0 dev-lang/R
+DESCRIPTION=Simplify the Creation of Choropleth Maps in R
+EAPI=5
+IUSE=r_suggests_choroplethradmin1 r_suggests_choroplethrmaps r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=sci-CRAN/acs sci-CRAN/stringr sci-CRAN/WDI sci-CRAN/ggmap sci-CRAN/dplyr sci-CRAN/R6 sci-CRAN/scales sci-CRAN/Hmisc sci-CRAN/RgoogleMaps >=dev-lang/R-3.0.0 >=sci-CRAN/ggplot2-2.0.0 r_suggests_choroplethradmin1? ( >=sci-CRAN/choroplethrAdmin1-1.1.0 ) r_suggests_choroplethrmaps? ( sci-CRAN/choroplethrMaps ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/choroplethr_3.5.3.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	017377e73405d964cd0137088cddb9c3	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=001704eb26f8fc42e59a01a1b76294a7
