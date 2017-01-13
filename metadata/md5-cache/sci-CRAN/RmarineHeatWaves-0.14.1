@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/zoo sci-CRAN/lubridate sci-CRAN/tidyr sci-CRAN/lazyeval >=dev-lang/R-3.00 >=sci-CRAN/ggplot2-2.1.0 sci-CRAN/plyr sci-CRAN/raster dev-lang/R
+DESCRIPTION=Detect Marine Heat Waves and Marine Cold Spells
+EAPI=5
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/zoo sci-CRAN/lubridate sci-CRAN/tidyr sci-CRAN/lazyeval >=dev-lang/R-3.00 >=sci-CRAN/ggplot2-2.1.0 sci-CRAN/plyr sci-CRAN/raster r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RmarineHeatWaves_0.14.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	017377e73405d964cd0137088cddb9c3	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=bf4c54b79d5aa60debebbfaf75043804

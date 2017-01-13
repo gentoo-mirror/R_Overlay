@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Random Projection // Performs random projection using Johnson-
+		Lindenstrauss (JL) Lemma (see William B.Johnson and Joram
+		Lindenstrauss (1984) doi:10.1090/conm/026/737400). Random
+		Projection is a technique, where the data in the high
+		dimensional space is projected into the low dimensional space
+		using JL transform. The original high dimensional data matrix
+		is multiplied with the low dimensional random matrix which
+		results in reduced matrix. The random matrix can be generated
+		by Gaussian matrix or sparse matrix.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/httr sci-CRAN/rgeos sci-CRAN/rgdal sci-CRAN/sp dev-lang/R
+DESCRIPTION=Access NBN Data
+EAPI=5
+IUSE=r_suggests_knitr r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/httr sci-CRAN/rgeos sci-CRAN/rgdal sci-CRAN/sp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.0 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rnbn_1.1.2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	017377e73405d964cd0137088cddb9c3	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=1a5dacfc026e335611ef961fe4af9f56

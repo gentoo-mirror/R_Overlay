@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Empirical Bayes Ranking // Empirical Bayes ranking applicable to
+		parallel-estimation settings where the estimated parameters are
+		asymptotically unbiased and normal, with known standard errors.
+		A mixture normal prior for each parameter is estimated using
+		Empirical Bayes methods, subsequentially ranks for each
+		parameter are simulated from the resulting joint posterior over
+		all parameters (The marginal posterior densities for each
+		parameter are assumed independent). Finally, experiments are
+		ordered by expected posterior rank, although computations
+		minimizing other plausible rank-loss functions are also given.
+	</longdescription>
+</pkgmetadata>
