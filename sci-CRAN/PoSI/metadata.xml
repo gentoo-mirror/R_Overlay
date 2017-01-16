@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Valid Post-Selection Inference for Linear LS Regression // In
+		linear LS regression, calculate for a given design matrix the
+		multiplier K of coefficient standard errors such that the
+		confidence intervals [b - K*SE(b), b + K*SE(b)] have a
+		guaranteed coverage probability for all coefficient estimates b
+		in any submodels after performing arbitrary model selection.
+	</longdescription>
+</pkgmetadata>
