@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.2 sci-CRAN/digest virtual/MASS virtual/Matrix sci-CRAN/Rcpp dev-lang/R
+DESCRIPTION=Extended Structural Equation Modelling
+EAPI=5
+IUSE=r_suggests_lme4 r_suggests_mvtnorm r_suggests_numderiv r_suggests_rmpi r_suggests_roxygen2 r_suggests_rpf r_suggests_snowfall byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=dev-lang/R-3.0.2 sci-CRAN/digest virtual/MASS virtual/Matrix sci-CRAN/Rcpp sci-CRAN/RcppEigen >=sci-CRAN/rpf-0.45 sci-CRAN/Rcpp >=sci-CRAN/StanHeaders-2.10.0.2 >=sci-CRAN/BH-1.60 r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_rmpi? ( sci-CRAN/Rmpi ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-3.1 ) r_suggests_rpf? ( >=sci-CRAN/rpf-0.45 ) r_suggests_snowfall? ( sci-CRAN/snowfall ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/OpenMx_2.7.4.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	017377e73405d964cd0137088cddb9c3	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=719b121850009ae93c521ac001f24b62
