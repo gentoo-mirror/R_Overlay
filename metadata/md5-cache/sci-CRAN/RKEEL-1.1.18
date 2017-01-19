@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/foreach >=sci-CRAN/RKEELdata-1.0.2 sci-CRAN/arules virtual/Matrix >=dev-lang/R-3.0 sci-CRAN/doParallel sci-CRAN/rJava sci-CRAN/R6 sci-omegahat/XML sci-CRAN/gdata >=sci-CRAN/RKEELjars-1.0.14 sci-CRAN/pmml dev-lang/R
+DESCRIPTION=Using Keel in R Code
+EAPI=5
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/foreach >=sci-CRAN/RKEELdata-1.0.2 sci-CRAN/arules virtual/Matrix >=dev-lang/R-3.0 sci-CRAN/doParallel sci-CRAN/rJava sci-CRAN/R6 sci-omegahat/XML sci-CRAN/gdata >=sci-CRAN/RKEELjars-1.0.14 sci-CRAN/pmml >=virtual/jdk-8.0 dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RKEEL_1.1.18.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	017377e73405d964cd0137088cddb9c3	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=802f7cdb1a8b41a6cbf0e9e055d45da3
