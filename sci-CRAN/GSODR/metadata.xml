@@ -2,41 +2,29 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Download, Clean and Generate New Variables from GSOD Data //
-		Download, clean, reformat and create new variables from the USA
-		National Climatic Data Center (NCDC) Global Surface Summary of
-		the Day (GSOD) weather stations data,
-		https://data.noaa.gov/dataset/global-surface-summary-of-the-
-		day-gsod. The function, get_GSOD(), retrieves data from the
-		GSOD ftp site and reformats it from United States Customary
+		Global Summary Daily Weather Data in R // Provides automated
+		downloading, parsing, cleaning, unit conversion and formatting
+		of Global Surface Summary of the Day (GSOD) weather data from
+		the from the USA National Climatic Data Center (NCDC) for use
+		in R. All units are converted from from United States Customary
 		System (USCS) units to International System of Units (SI).
-		Stations are individually checked for number of missing days,
-		as defined by the user, to assure data quality. Stations with
-		too many missing observations are omitted from final file.
-		Stations with missing latitude or longitude or values for both
-		of 0 are omitted. Also omitted are stations with a latitude of
-		-90 or  90 or longitude of  - 180 or  180. Output is returned
-		as a comma-separated values (CSV) file written to disk in a
-		location selected by the user, which summarises each year by
-		station and includes new variables: actual vapor pressure,
-		saturation vapor pressure and relative humidity, calculated
-		from the original GSOD data. The resulting files can be as
-		large as 500mb depending on the user's stringency for missing
-		data and geographic area of interest. Be sure to have
-		sufficient RAM and disk space as well as a reasonably fast
-		internet connection to use this package to perform this
-		operation. However, for much smaller and more manageable data
-		sets, an individual country of interest may be selected as well
-		as only stations falling between -60/60 degrees latitude for
-		agroclimatology work or individual stations if the station ID
-		is known. The resulting files include station data (e.g.,
-		station name, country, latitude, longitude, elevation) for use
-		in a geographic information system (GIS). The function was
-		largely based on T. Hengl's 'getGSOD.R' script, available from
-		http://spatial-analyst.net/book/system/files/getGSOD.R with
-		enhancements to be cross-platform, faster and more flexible.
-		For information on the original data from NCDC, please see the
-		GSOD readme.txt file available from,
+		Stations may be individually checked for number of missing days
+		defined by the user, where stations with too many missing
+		observations are omitted. Only stations with valid reported
+		latitude and longitude values are permitted in the final data.
+		Additional useful variables, saturation vapour pressure (es),
+		actual vapour pressure (ea) and relative humidity are
+		calculated from the original data and included in the final
+		data set. The resulting data include station identification
+		information, state, country, latitude, longitude, elevation,
+		weather observations and associated flags. Data may be
+		automatically saved to disk. File output may be returned as a
+		comma-separated values (CSV) or GeoPackage (GPKG) file.
+		Additional data are included with this R package: a list of
+		elevation values for stations between -60 and 60 degrees
+		latitude derived from the Shuttle Radar Topography Measuring
+		Mission (SRTM). For information on the GSOD data from NCDC,
+		please see the  GSOD readme.txt file available from,
 		http://www1.ncdc.noaa.gov/pub/data/gsod/readme.txt.
 	</longdescription>
 </pkgmetadata>
