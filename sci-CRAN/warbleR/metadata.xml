@@ -2,9 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Streamline Bioacoustic Analysis // Offers three overarching
-		categories of functions to obtain bird vocalization recordings
-		from the web, manage sound files, and facilitate (bio)acoustic
-		analysis in R.
+		Streamline Bioacoustic Analysis // A tool to streamline the
+		analysis of animal acoustic signal structure. The package
+		offers functions for downloading avian vocalizations from the
+		open-access online repository Xeno-Canto, displaying the
+		geographic extent of the recordings, manipulating sound files,
+		detecting acoustic signals or importing detected signals from
+		other software, assessing performance of methods that measure
+		acoustic similarity, conducting cross-correlations, dynamic
+		time warping, measuring acoustic parameters and analysing
+		interactive vocal signals, among others. Most functions working
+		iteratively allow parallelization to improve computational
+		efficiency.
 	</longdescription>
 </pkgmetadata>
