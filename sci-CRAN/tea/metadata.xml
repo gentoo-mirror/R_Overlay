@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Threshold Estimation Approaches // Different approaches for
+		selecting the threshold in generalized Pareto distributions.
+		Most of them are based on minimizing the AMSE-criterion or at
+		least by reducing the bias of the assumed GPD-model. Others are
+		heuristically motivated by searching for stable sample paths,
+		i.e. a nearly constant region of the tail index estimator with
+		respect to k, which is the number of data in the tail. The
+		third class is motivated by graphical inspection. In addition
+		to the very helpful eva package which includes many goodness of
+		fit tests for the generalized Pareto distribution, the
+		sequential testing procedure provided in Thompson et al. (2009)
+		doi:10.1016/j.coastaleng.2009.06.003 is also implemented here.
+	</longdescription>
+</pkgmetadata>
