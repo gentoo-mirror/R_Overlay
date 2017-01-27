@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Selection in a Hierarchical Bayesian Model for a Hazard
+		Function // Fits a piecewise exponential hazard to survival
+		data using a Hierarchical Bayesian model with an Intrinsic
+		Conditional Autoregressive formulation for the spatial
+		dependency in the hazard rates for each piece. This function
+		uses Metropolis- Hastings-Green MCMC to allow the number of
+		split points to vary and also uses Stochastic Search Variable
+		Selection to determine what covariates drive the risk of the
+		event. This function outputs trace plots depicting the number
+		of split points in the hazard and the number of variables
+		included in the hazard. The function saves all posterior
+		quantities to the desired path.
+	</longdescription>
+</pkgmetadata>
