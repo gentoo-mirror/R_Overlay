@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Lightweight Portable Message Queue Using 'SQLite' // Temporary
+		and permanent message queues for R. Built on top of 'SQLite'
+		databases. 'SQLite' provides locking, and makes it possible to
+		detect crashed consumers. Crashed jobs can be automatically
+		marked as "failed", or put in the queue again, potentially a
+		limited number of times.
+	</longdescription>
+</pkgmetadata>
