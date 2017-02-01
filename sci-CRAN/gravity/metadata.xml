@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Compilation of Different Estimation Methods for Gravity Models
+		// One can use gravity models to explain bilateral flows
+		related to the sizes of bilateral partners, a measure of
+		distance between them and other influences on interaction
+		costs. The underlying idea is rather simple. The greater the
+		masses of two bodies and the smaller the distance between them,
+		the stronger they attract each other. This concept is applied
+		to several research topics such as trade, migration or foreign
+		direct investment. Even though the basic idea of gravity models
+		is rather simple, they can become very complex when it comes to
+		the choice of models or estimation methods. The package gravity
+		targets to provide R users with the functions necessary to
+		execute the most common estimation methods for gravity models,
+		especially for cross-sectional data. It contains the functions
+		Ordinary Least Squares (OLS), Fixed Effects, Double Demeaning
+		(DDM), Bonus vetus OLS with simple averages (BVU) and with GDP-
+		weights (BVW), Structural Iterated Least Squares (SILS),
+		Tetrads as well as Poisson Pseudo Maximum Likelihood (PPML). By
+		considering the descriptions of the estimation methods, users
+		can see which method and data may be suited for a certain
+		research question. In order to illustrate the estimation
+		methods, this package includes a dataset called Gravity (see
+		the description of the dataset for more information). On the
+		Gravity Cookbook website
+		(https://sites.google.com/site/hiegravity/) Keith Head and
+		Thierry Mayer provide Stata code for the most common estimation
+		methods for gravity models when using cross-sectional data. In
+		order to get comparable results in R, the methods presented in
+		the package gravity are designed to be consistent with this
+		Stata code when choosing the option of robust variance
+		estimation. However, compared to the Stata code available, the
+		functions presented in this package provide users with more
+		flexibility regarding the type of estimation (robust or not
+		robust), the number and type of independent variables as well
+		as the possible data. The functions all estimate gravity
+		models, but they differ in whether they estimate them in their
+		multiplicative or additive form, their requirements with
+		respect to the data, their handling of Multilateral Resistance
+		terms as well as their possibilities concerning the inclusion
+		of unilateral independent variables. Therefore, they normally
+		lead to different estimation results. We refer the user to the
+		Gravity Cookbook website
+		(https://sites.google.com/site/hiegravity/) for more
+		information on gravity models in general. Head, K. and Mayer,
+		T. (2014) DOI:10.1016/B978-0-444-54314-1.00003-3 provide a
+		comprehensive and accessible overview of the theoretical and
+		empirical development of the gravity literature as well as the
+		use of gravity models and the various estimation methods,
+		especially their merits and potential problems regarding
+		applicability as well as different gravity datasets. All
+		functions were tested to work on cross-sectional data and are
+		consistent with the Stata code mentioned above. For the use
+		with panel data no tests were performed. Therefore, it is up to
+		the user to ensure that the functions can be applied to panel
+		data. For a comprehensive overview of gravity models for panel
+		data see Egger, P.,  Pfaffermayr, M. (2003)
+		DOI:10.1007/s001810200146, Gomez-Herrera, E. (2013)
+		DOI:10.1007/s00181-012-0576-2 and Head, K., Mayer, T.,  Ries,
+		J. (2010) DOI:10.1016/j.jinteco.2010.01.002 as well as the
+		references therein (see also the references included in the
+		descriptions of the different functions). Depending on the
+		panel dataset and the variables - specifically the type of
+		fixed effects - included in the model, it may easily occur that
+		the model is not computable. Also, note that by including
+		bilateral fixed effects such as country-pair effects, the
+		coefficients of time-invariant observables such as distance can
+		no longer be estimated. Depending on the specific model, the
+		code of the respective function may has to be changed in order
+		to exclude the distance variable from the estimation. At the
+		very least, the user should take special care with respect to
+		the meaning of the estimated coefficients and variances as well
+		as the decision about which effects to include in the
+		estimation. As, to our knowledge at the moment, there is no
+		explicit literature covering the estimation of a gravity
+		equation by Double Demeaning, Structural Iterated Least Squares
+		or Bonus Vetus OLS using panel data, we do not recommend to
+		apply these methods in this case. Contributions, extensions and
+		error corrections are very welcome. Please do not hesitate to
+		contact us.
+	</longdescription>
+</pkgmetadata>

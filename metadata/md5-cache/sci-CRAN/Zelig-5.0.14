@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/survival sci-CRAN/VGAM sci-CRAN/sandwich sci-CRAN/AER sci-CRAN/quantreg sci-CRAN/Amelia >=sci-CRAN/dplyr-0.3.0.2 sci-CRAN/geepack virtual/MASS sci-CRAN/jsonlite sci-CRAN/MCMCpack sci-CRAN/coda sci-CRAN/MatchIt sci-CRAN/maxLik sci-CRAN/survey dev-lang/R
+DESCRIPTION=Everyones Statistical Software
+EAPI=5
+IUSE=r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=virtual/survival sci-CRAN/VGAM sci-CRAN/sandwich sci-CRAN/AER sci-CRAN/quantreg sci-CRAN/Amelia >=sci-CRAN/dplyr-0.3.0.2 sci-CRAN/geepack virtual/MASS sci-CRAN/jsonlite sci-CRAN/MCMCpack sci-CRAN/coda sci-CRAN/MatchIt sci-CRAN/maxLik sci-CRAN/survey r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Zelig_5.0-14.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	ea170b525f6a38a006be05c9d9429f13	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=430456acca19b3e81fdb90487f7ca8ce
