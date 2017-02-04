@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimistic Optimization in R // Implementation of optimistic
+		optimization methods for global optimization of deterministic
+		or stochastic functions. The algorithms feature guarantees of
+		the convergence to a global optimum. They require minimal
+		assumptions on the (only local) smoothness, where the
+		smoothness parameter does not need to be known. They are
+		expected to be useful for the most difficult functions when we
+		have no information on smoothness and the gradients are unknown
+		or do not exist. Due to the weak assumptions, however, they can
+		be mostly effective only in small dimensions, for example, for
+		hyperparameter tuning.
+	</longdescription>
+</pkgmetadata>
