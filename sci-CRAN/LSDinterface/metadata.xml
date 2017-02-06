@@ -4,10 +4,12 @@
 	<longdescription>
 		Reading LSD Results (.res) Files // Interfaces R with LSD. Reads
 		object-oriented data in results files (.res) produced by LSD
-		and creates appropriate multi-dimensional arrays in R. Also
-		provides functions to extract basic information and statistics
-		from those files. LSD (Laboratory for Simulation Development)
-		is free software developed by Marco Valente (documentation and
-		downloads available at http://labsimdev.org).
+		and creates appropriate multi-dimensional arrays in R. Supports
+		multiple core parallelization of multi-file data reading for
+		increased performance. Also provides functions to extract basic
+		information and statistics from data files. LSD (Laboratory for
+		Simulation Development) is free software developed by Marco
+		Valente (documentation and downloads available at
+		http://labsimdev.org).
 	</longdescription>
 </pkgmetadata>
