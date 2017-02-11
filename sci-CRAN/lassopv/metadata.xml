@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Nonparametric P-Value Estimation for Predictors in Lasso // The
-		purpose of this package is to estimate p-values for predictors
-		x against target variable y in lasso regression, using the
-		regularization strength when each predictor enters the active
-		set of regularization path for the first time as the statistic.
-		This is based on the assumption that predictors that (first)
-		become active earlier tend to be more significant. Null
-		distribution for each predictor is computed analytically under
-		approximation, which aims at efficiency and accuracy for small
-		p-values.
+		Nonparametric P-Value Estimation for Predictors in Lasso //
+		Estimate p-values for predictors x against target variable y in
+		lasso regression, using the regularization strength when each
+		predictor enters the active set of regularization path for the
+		first time as the statistic. This is based on the assumption
+		that predictors that (first) become active earlier tend to be
+		more significant. Null distribution for each predictor is
+		computed analytically under approximation, which aims at
+		efficiency and accuracy for small p-values.
 	</longdescription>
 </pkgmetadata>
