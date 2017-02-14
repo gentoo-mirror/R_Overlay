@@ -2,9 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Interactive R Timelines using 'plotly.js' // Create fully
-		interactive time lines or Gantt charts using 'plotly.js'. The
-		charts can be included in Shiny apps and manipulated via
-		'plotly_build()'.
+		Pretty Timeline Creation // Create timelines or Gantt charts,
+		offline and interactive, that are usable in the 'RStudio'
+		viewer pane, in 'R Markdown' documents and in 'Shiny' apps
+		using 'plotly.js', a high-level, declarative charting library
+		(see https://plot.ly/javascript/). Hover the mouse pointer over
+		a point or task to show details or drag a rectangle to zoom in.
+		Timelines (and the data behind them) can be manipulated using
+		'plotly_build()' or, once uploaded to a 'plotly' account,
+		viewed and modified in a web browser.
 	</longdescription>
 </pkgmetadata>
