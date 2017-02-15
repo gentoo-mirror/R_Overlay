@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/tm sci-CRAN/R6 virtual/Matrix sci-CRAN/foreach sci-CRAN/DT sci-CRAN/slam dev-lang/R
+DESCRIPTION=Toolset for Corpus Analysis
+EAPI=5
+IUSE=r_suggests_bigmemory r_suggests_bigtabulate r_suggests_doparallel r_suggests_htmltools r_suggests_knitr r_suggests_markdown r_suggests_rcqp r_suggests_rjava r_suggests_sendmailr r_suggests_shiny r_suggests_xlsx byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/data_table sci-CRAN/tm sci-CRAN/R6 virtual/Matrix sci-CRAN/foreach sci-CRAN/DT sci-CRAN/slam r_suggests_bigmemory? ( sci-CRAN/bigmemory ) r_suggests_bigtabulate? ( sci-CRAN/bigtabulate ) r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_rcqp? ( sci-CRAN/rcqp ) r_suggests_rjava? ( sci-CRAN/rJava ) r_suggests_sendmailr? ( sci-CRAN/sendmailR ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_xlsx? ( sci-CRAN/xlsx ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/polmineR_0.7.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	ea170b525f6a38a006be05c9d9429f13	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=0bf9303aef6106b080a99af6a3c3ab85
