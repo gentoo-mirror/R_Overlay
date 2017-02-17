@@ -4,7 +4,8 @@
 	<longdescription>
 		Shape Constrained Additive Models // Routines for generalized
 		additive modelling under shape constraints on the component
-		functions of the linear predictor. Models can contain multiple
+		functions of the linear predictor (Pya and Wood, 2015)
+		doi:10.1007/s11222-013-9448-7. Models can contain multiple
 		shape constrained (univariate and/or bivariate) and
 		unconstrained terms. The routines of gam() in package 'mgcv'
 		are used for setting up the model matrix, printing and plotting
