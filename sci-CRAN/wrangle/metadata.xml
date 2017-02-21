@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Systematic Data Wrangling Idiom // Supports systematic
+		scrutiny, modification, and integration of data. The function
+		status() counts rows that have missing values in grouping
+		columns (returned by na() ), have non-unique combinations of
+		grouping columns (returned by dup() ), and that are not locally
+		sorted (returned by unsorted() ). Functions enumerate() and
+		itemize() give sorted unique combinations of columns, with or
+		without occurrence counts, respectively. Function ignore()
+		drops columns in x that are present in y, and informative()
+		drops columns in x that are entirely NA. Data that have defined
+		unique combinations of grouping values behave more predictably
+		during merge operations.
+	</longdescription>
+</pkgmetadata>
