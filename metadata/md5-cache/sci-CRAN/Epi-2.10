@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/Matrix sci-CRAN/cmprsk sci-CRAN/plyr >=dev-lang/R-3.0.0 virtual/MASS virtual/survival sci-CRAN/numDeriv sci-CRAN/data_table sci-CRAN/etm dev-lang/R
+DESCRIPTION=A Package for Statistical Analysis in Epidemiology
+EAPI=5
+IUSE=r_suggests_lme4 r_suggests_mstate r_suggests_nlme byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/Matrix sci-CRAN/cmprsk sci-CRAN/plyr >=dev-lang/R-3.0.0 virtual/MASS virtual/survival sci-CRAN/numDeriv sci-CRAN/data_table sci-CRAN/etm r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_mstate? ( sci-CRAN/mstate ) r_suggests_nlme? ( virtual/nlme ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Epi_2.10.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	708f85bc1bf00876604e223fb56e062a	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=2c8791325328ad325fcf555a71d16e0c
