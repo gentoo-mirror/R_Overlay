@@ -6,6 +6,8 @@
 		implementation of hyperparameter optimization for Gradient
 		Boosted Trees on binary classification and regression problems.
 		The current version provides two optimization methods: Bayesian
-		optimization and random search.
+		optimization and random search. Instead of giving the single
+		best model, the final output is an ensemble of Gradient Boosted
+		Trees constructed via the method of ensemble selection.
 	</longdescription>
 </pkgmetadata>

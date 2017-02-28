@@ -2,11 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Toolset for Corpus Analysis // Tools for corpus analysis using
-		the CWB as an efficient backend. The package offers basic
-		functionality to flexibly create subcorpora and to carry out
-		and basic statistical operations. Beyond that, it is intended
-		to serve as an interface to packages implementing advanced
-		statistical procedures.
+		Toolkit for Corpus Analysis // Tools for corpus analysis using
+		the CWB as an efficient backend for indexing and querying large
+		corpora. The package offers functionality to flexibly create
+		subcorpora ("partitions") and to carry out basic statistical
+		operations (count, cooccurrences etc.). The original full text
+		of documents can be reconstructed and inspected at any time.
+		Beyond that, the package is intended to serve as an interface
+		to packages implementing advanced statistical procedures.
+		Respective data structures (document term matrices, term
+		cooccurrence matrices etc.) can be created based on the indexed
+		corpora.
 	</longdescription>
 </pkgmetadata>
