@@ -2,11 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Differential Geometric LARS (dgLARS) method // dglars implements
-		the differential geometric extension of the least angle
-		regression method for logistic and Poisson regression models.
-		To compute the implicitly defined solution curve, two different
-		algorithms are implemented, i.e. the predictor-corrector method
-		and the cyclic coordinate descent method.
+		Differential Geometric Least Angle Regression // Differential
+		geometric least angle regression method for fitting sparse
+		generalized linear models. In this version of the package, the
+		user can fit models specifying Gaussian, Poisson, Binomial,
+		Gamma and Inverse Gaussian family. Furthermore, several link
+		functions can be used to model the relationship between the
+		conditional expected value of the response variable and the
+		linear predictor. The solution curve can be computed using an
+		efficient predictor-corrector or a cyclic coordinate descent
+		algorithm, as described in the paper linked to via the URL
+		below.
 	</longdescription>
 </pkgmetadata>
