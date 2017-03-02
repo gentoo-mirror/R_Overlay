@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/crayon dev-lang/R
+DESCRIPTION=Debug R Packages
+EAPI=5
+IUSE=r_suggests_covr r_suggests_mockery r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/crayon r_suggests_covr? ( sci-CRAN/covr ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/debugme_1.0.2.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	53b75b4a49cf3e61530a523804045432
+_md5_=225824263113ec7a5ae7129387944a52
