@@ -3,8 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Patient Subgroup Identification for Clinical Drug Development //
-		Provides function to apply methods proposed in "Patient
-		Subgroup Identification for Clinical Drug Development"  by
-		Huang et al. (2017) 10.1002/sim.7236.
+		Function Wrapper contains four algorithms for developing
+		threshold-based multivariate (prognostic/predictive) biomarker
+		signatures via bootstrapping and aggregating of thresholds from
+		trees, Monte-Carlo variations of the Adaptive Indexing method
+		and Patient Rule Induction Method. Variable selection is
+		automatically built-in to these algorithms. Final signatures
+		are returned with interaction plots for predictive signatures.
+		Cross-validation performance evaluation and testing dataset
+		results are also output.
 	</longdescription>
 </pkgmetadata>
