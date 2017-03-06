@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/sas7bdat virtual/survival >=sci-CRAN/Rcpp-0.11.1 sci-CRAN/mice sci-CRAN/nloptr dev-lang/R
+DESCRIPTION=Stochastic Process Model for Ana... (see metadata)
+EAPI=5
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/sas7bdat virtual/survival >=sci-CRAN/Rcpp-0.11.1 sci-CRAN/mice sci-CRAN/nloptr sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( >=sci-CRAN/knitr-1.11 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stpm_1.6.4.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	53b75b4a49cf3e61530a523804045432
+_md5_=e5ed8e4bfcafb9a698ad1d95c19d86f5
