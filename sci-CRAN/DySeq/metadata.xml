@@ -2,13 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Functions for Dyadic Sequence Analyses // Small collection of
-		functions for dyadic binary/dichotomous sequence analyses, e.g.
-		transforming sequences into time-to-event data, implementation
-		of Bakeman  Gottman's (1997) approach of aggregated logit-
-		models, and simulating expected number of low/zero frequencies
-		for state-transition tables. Further functions will be added in
-		future releases. References: Bakeman, R.,  Gottman, J. M.
-		(1997) DOI:10.1017/cbo9780511527685.
+		Functions for Dyadic Sequence Analyses // Functions for dyadic
+		binary/dichotomous sequence analyses are implemented in this
+		contribution. The focus is on estimating actor-partner-
+		interaction models using various approaches, for instances the
+		approach of Bakeman  Gottman's (1997)
+		DOI:10.1017/cbo9780511527685, generalized multi-level models,
+		and basic Markov models. Moreover, coefficients of one model
+		can be translated into those of the other models. Finally,
+		simulation-based power analyses are provided.
 	</longdescription>
 </pkgmetadata>
