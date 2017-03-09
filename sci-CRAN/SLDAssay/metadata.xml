@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Serial Limiting Dilution Assay Statistics // Calculates maximum
-		likelihood estimate, exact and asymptotic confidence intervals,
-		and exact and asymptotic goodness of fit p-values for
-		infectious units per million (IUPM) from serial limiting
+		Software for Analyzing Limiting Dilution Assays // Calculates
+		maximum likelihood estimate, exact and asymptotic confidence
+		intervals, and exact and asymptotic goodness of fit p-values
+		for infectious units per million (IUPM) from serial limiting
 		dilution assays. This package uses the likelihood equation,
 		exact PGOF, and exact confidence intervals described in Meyers
 		et al. (1994) http://jcm.asm.org/content/32/3/732.full.pdf.
+		This software is also implemented as a web application through
+		the Shiny R package https://iupm.shinyapps.io/sldassay/.
 	</longdescription>
 </pkgmetadata>
