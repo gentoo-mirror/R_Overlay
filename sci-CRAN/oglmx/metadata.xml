@@ -6,11 +6,11 @@
 		such as ordered probit and ordered logit presume that the error
 		variance is constant across observations. In the case that this
 		assumption does not hold estimates of marginal effects are
-		typically biased. This package allows for generalization of
-		ordered probit and ordered logit models by allowing the user to
-		specify a model for the variance. Furthermore, the package
-		includes functions to calculate the marginal effects. Wrapper
-		functions to estimate the standard limited dependent variable
-		models are also included.
+		typically biased (Weiss (1997)). This package allows for
+		generalization of ordered probit and ordered logit models by
+		allowing the user to specify a model for the variance.
+		Furthermore, the package includes functions to calculate the
+		marginal effects. Wrapper functions to estimate the standard
+		limited dependent variable models are also included.
 	</longdescription>
 </pkgmetadata>
