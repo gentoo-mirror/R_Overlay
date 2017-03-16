@@ -2,8 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Markov Chain Monte Carlo for Potts Models // Does Markov chain
-		Monte Carlo (MCMC) simulation of Potts models and composite
-		likelihood inference for Potts models.
+		Markov Chain Monte Carlo for Potts Models // It does Markov chain
+		Monte Carlo (MCMC) simulation of Potts models (Potts, 1952,
+		http://doi.org/10.1017/S0305004100027419), which are the multi-
+		color generalization of Ising models (so, as as special case,
+		also simulates Ising models). It uses the Swendsen-Wang
+		algorithm (Swendsen and Wang, 1987,
+		http://doi.org/10.1103/PhysRevLett.58.86) so MCMC is fast. It
+		does maximum composite likelihood estimation of parameters
+		(Besag, 1975, http://doi.org/10.2307/2987782, Lindsay, 1988,
+		http://doi.org/10.1090/conm/080).
 	</longdescription>
 </pkgmetadata>
