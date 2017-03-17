@@ -2,10 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fast Simulation of Normal Random Variables // Ziggurat method in
-		order to simulate normal random variables approximately four
-		times faster than the usual rnorm(), reference : MARSAGLIA,
-		George, TSANG, Wai Wan, and al. (2000)
-		DOI:10.18637/jss.v005.i08.
+		Fast Simulation of Normal/Exponential Random Variables and
+		Stochastic Differential Equations // Fast simulation of some
+		random variables than the usual native functions, including
+		rnorm() and rexp(), using Ziggurat method, reference:
+		MARSAGLIA, George, TSANG, Wai Wan, and al. (2000)
+		doi:10.18637/jss.v005.i08, and fast simulation of stochastic
+		differential equations.
 	</longdescription>
 </pkgmetadata>

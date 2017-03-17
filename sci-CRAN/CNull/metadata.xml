@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Algorithms for Frequency-Preserving Null Models in Ecology
+		// Efficient computations for null models that require
+		shuffling columns on big matrix data. This package provides
+		functions for faster computation of diversity measure
+		statistics when independent random shuffling is applied to the
+		columns of a given matrix. Given a diversity measure f and a
+		matrix M, the provided functions can generate random samples
+		(shuffled matrix rows of M), the mean and variance of f, and
+		the p-values of this measure for two different null models that
+		involve independent random shuffling of the columns of M. The
+		package supports computations of alpha and beta diversity
+		measures.
+	</longdescription>
+</pkgmetadata>
