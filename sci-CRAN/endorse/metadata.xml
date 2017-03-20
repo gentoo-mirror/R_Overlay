@@ -2,14 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R Package for Analyzing Endorsement Experiments // This R package
-		implements the statistical model proposed by Bullock, Imai, and
-		Shapiro (2011; Political Analysis) to analyze endorsement
+		Bayesian Measurement Models for Analyzing Endorsement Experiments
+		// Fit the hierarchical and non-hierarchical Bayesian
+		measurement models proposed by Bullock, Imai, and Shapiro
+		(2011) DOI:10.1093/pan/mpr031 to analyze endorsement
 		experiments.  Endorsement experiments are a survey methodology
 		for eliciting truthful responses to sensitive questions.  This
 		methodology is helpful when measuring support for socially
 		sensitive political actors such as militant groups.  The model
-		is fitted with the Markov chain Monte Carlo algorithm and
+		is fitted with a Markov chain Monte Carlo algorithm and
 		produces the output containing draws from the posterior
 		distribution.
 	</longdescription>
