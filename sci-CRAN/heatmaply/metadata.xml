@@ -2,9 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Interactive Heat Maps Using 'plotly' // Create interactive
-		'heatmaps' that are usable from the R console, in the 'RStudio'
-		viewer pane, in 'R Markdown' documents, and in 'Shiny' apps.
+		Interactive Cluster Heat Maps Using 'plotly' // Create
+		interactive cluster 'heatmaps' that can be saved as a stand-
+		alone HTML file, embedded in 'R Markdown' documents or in a
+		'Shiny' apps, and available in the 'RStudio' viewer pane, .
 		Hover the mouse pointer over a cell to show details or drag a
 		rectangle to zoom. A 'heatmap' is a popular graphical method
 		for visualizing high-dimensional data, in which a table of
@@ -17,8 +18,9 @@
 		as well as zooming into a region of the 'heatmap' by dragging a
 		rectangle around the relevant area. This work is based on the
 		'ggplot2' and 'plotly.js' engine. It produces similar
-		'heatmaps' as 'd3heatmap', with the advantage of speed
-		('plotly.js' is able to handle larger size matrix), and the
-		ability to zoom from the 'dendrogram' panes.
+		'heatmaps' as 'heatmap.2' or 'd3heatmap', with the advantage of
+		speed ('plotly.js' is able to handle larger size matrix), the
+		ability to zoom from the 'dendrogram' panes, and the placing of
+		factor variables in the sides of the 'heatmap'.
 	</longdescription>
 </pkgmetadata>
