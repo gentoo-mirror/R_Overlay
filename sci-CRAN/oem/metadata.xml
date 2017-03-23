@@ -2,12 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Orthogonalizing EM // Solves penalized least squares problems
-		using the orthogonalizing EM algorithm of Xiong et al. (2016)
-		doi:10.1080/00401706.2015.1054436. The main fitting function is
-		oem() and the functions cv.oem() and xval.oem() are for cross
-		validation, the latter being an accelerated cross validation
-		function for linear models. The big.oem() function allows for
-		out of memory fitting.
+		Orthogonalizing EM // Solves penalized least squares problems for
+		big tall data using the orthogonalizing EM algorithm of Xiong
+		et al. (2016) doi:10.1080/00401706.2015.1054436. The main
+		fitting function is oem() and the functions cv.oem() and
+		xval.oem() are for cross validation, the latter being an
+		accelerated cross validation function for linear models. The
+		big.oem() function allows for out of memory fitting.
 	</longdescription>
 </pkgmetadata>

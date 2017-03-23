@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Focused, Interactive Multidimensional Scaling // Takes a distance
+		matrix and plots it as an interactive graph. Double click on
+		any point to choose a new focus point, and hover over points to
+		see their ID labels. In this graph, one point is focused on at
+		the center of the graph. All other points are plotted around
+		this central point at their exact distances to the point, as
+		given in the distance matrix. In other words, the distance
+		between each point and the focus point are the true distances
+		given in the distance matrix. The non focus points are plotted
+		with respect to each other as exactly as possible. For more
+		details, see https://lea-urpa.github.io/focusedMDS.html.
+	</longdescription>
+</pkgmetadata>
