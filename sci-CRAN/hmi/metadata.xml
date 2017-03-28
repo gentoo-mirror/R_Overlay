@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Hierarchical Multiple Imputation // Runs single level and
+		multilevel imputation models. The user just has to pass the
+		data to the main function and, optionally, his analysis model.
+		Basically the package then translates this analysis model into
+		commands to impute the data according to it with functions from
+		'mice', 'MCMCglmm' or routines build for this package.
+	</longdescription>
+</pkgmetadata>
