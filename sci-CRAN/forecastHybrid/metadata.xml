@@ -5,8 +5,10 @@
 		Convenient Functions for Ensemble Time Series Forecasts //
 		Convenient functions for ensemble forecasts in R combining
 		approaches from the 'forecast' package. Forecasts generated
-		from auto.arima(), ets(), nnetar(), stlm(), and tbats() can be
-		combined with equal weights or weights based on in-sample
-		errors. Future methods such as cross validation are planned.
+		from auto.arima(), ets(), thetam(), nnetar(), stlm(), and
+		tbats() can be combined with equal weights, weights based on
+		in-sample errors, or CV weights. Cross validation for time
+		series data and user-supplied models and forecasting functions
+		is also supported to evaluate model accuracy.
 	</longdescription>
 </pkgmetadata>

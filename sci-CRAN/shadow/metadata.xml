@@ -2,16 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R Package for Geometric Shade Calculations // Functions for
-		calculating (1) shade height at a single point, (2) shaded
-		proportion of a building facade; (3) a polygonal layer of shade
-		footprints on the ground; and (4) Sky View Factor value at a
-		single point. Typical inputs include a polygonal layer of
-		buildings outline along with the height of each building, sun
-		azimuth and sun elevation. The package also provides functions
-		for related preliminary calculations: converting polygons to
-		line segments, finding segment azimuth, shifting segments by
-		azimuth and distance, and constructing the footprint of a line
-		of sight between an observer and the sun.
+		Geometric Shadow Calculations // Functions for calculating (1)
+		shadow heights; (2) shadow footprint on ground polygons; and
+		(3) Sky View Factor values. Inputs include a polygonal layer of
+		obstacle outlines along with their heights, sun azimuth and sun
+		elevation. The package also provides functions for related
+		preliminary calculations: breaking polygons into line segments,
+		finding segment azimuth, shifting segments by azimuth and
+		distance, and constructing the footprint of a line of sight
+		between an observer and the sun.
 	</longdescription>
 </pkgmetadata>
