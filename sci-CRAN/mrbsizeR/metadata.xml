@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Scale Space Multiresolution Analysis of Random Signals // A
+		method for the multiresolution analysis of spatial fields and
+		images to capture scale-dependent features. mrbsizeR is based
+		on scale space smoothing and uses differences of smooths at
+		neighbouring scales for finding features on different scales.
+		To infer which of the captured features are credible, Bayesian
+		analysis is used. The scale space multiresolution analysis has
+		three steps: (1) Bayesian signal reconstruction. (2) Using
+		differences of smooths, scale-dependent features of the
+		reconstructed signal can be found. (3) Posterior credibility
+		analysis of the differences of smooths created. The method has
+		first been proposed by Holmstrom, Pasanen, Furrer, Sain (2011)
+		DOI:10.1016/j.csda.2011.04.011.
+	</longdescription>
+</pkgmetadata>

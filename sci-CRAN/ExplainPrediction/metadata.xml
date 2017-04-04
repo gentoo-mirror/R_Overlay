@@ -3,11 +3,19 @@
 <pkgmetadata>
 	<longdescription>
 		Explanation of Predictions for Classification and Regression
-		Models // Package contains methods to generate explanations for
-		individual predictions of classification and regression models.
-		Weighted averages of individual explanations form explanation
-		of the whole model. The package extends 'CORElearn' package,
-		but other prediction models can also be explained using a
-		wrapper.
+		Models // Generates explanations for classification and
+		regression models and visualizes them. Explanations are
+		generated for individual predictions as well as for models as a
+		whole. Two explanation methods are included, EXPLAIN and IME.
+		The EXPLAIN method is fast but might miss explanations
+		expressed redundantly in the model. The IME method is slower as
+		it samples from all feature subsets. For the EXPLAIN method see
+		Robnik-Sikonja and Kononenko (2008)
+		doi:10.1109/TKDE.2007.190734, and the IME method is described
+		in Strumbelj and Kononenko (2010, JMLR, vol. 11:1-18). All
+		models in package 'CORElearn' are natively supported, for other
+		prediction models a wrapper function is provided and
+		illustrated for models from packages 'randomForest', 'nnet',
+		and 'e1071'.
 	</longdescription>
 </pkgmetadata>
