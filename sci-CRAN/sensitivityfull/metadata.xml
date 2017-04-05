@@ -4,6 +4,10 @@
 	<longdescription>
 		Sensitivity Analysis for Full Matching in Observational Studies
 		// Sensitivity to unmeasured biases in an observational study
-		that is a full match.
+		that is a full match.  Function senfm() performs tests and
+		function senfmCI() creates confidence intervals.  The method
+		uses Huber's M-statistics, including least squares, and is
+		described in Rosenbaum (2007, Biometrics)
+		DOI:10.1111/j.1541-0420.2006.00717.x.
 	</longdescription>
 </pkgmetadata>

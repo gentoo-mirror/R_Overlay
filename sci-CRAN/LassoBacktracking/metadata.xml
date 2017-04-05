@@ -3,11 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Modelling Interactions in High-Dimensional Data with Backtracking
-		// Implementation of the algorithm introduced in "Shah, R. D.
-		(2016) Modelling interactions in high-dimensional data with
-		Backtracking, JMLR, to appear". Data with thousands of
-		predictors can be handled. The algorithm performs sequential
-		Lasso (Tibshirani, 1996) fits on design matrices containing
+		// Implementation of the algorithm introduced in Shah, R. D.
+		(2016) http://www.jmlr.org/papers/volume17/13-515/13-515.pdf.
+		Data with thousands of predictors can be handled. The algorithm
+		performs sequential Lasso fits on design matrices containing
 		increasing sets of candidate interactions. Previous fits are
 		used to greatly speed up subsequent fits so the algorithm is
 		very efficient.
