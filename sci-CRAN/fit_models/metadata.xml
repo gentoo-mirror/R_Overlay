@@ -2,7 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Compare Fitted Models // A collection of functions for comparing
-		fitted models.
+		Compare Fitted Models // The fit.models function and its
+		associated methods (coefficients, print, summary, plot, etc.)
+		were originally provided in the robust package to compare
+		robustly and classically fitted model objects. The aim of the
+		fit.models package is to separate this fitted model object
+		comparison functionality from the robust package and to extend
+		it to support fitting methods (e.g., classical, robust,
+		Bayesian, regularized, etc.) more generally.
 	</longdescription>
 </pkgmetadata>
