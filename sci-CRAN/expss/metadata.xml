@@ -2,11 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Some Useful Functions from Spreadsheets and 'SPSS' Statistics //
-		Package implements several popular functions from Excel
-		('COUNTIF', 'VLOOKUP', etc.) and 'SPSS' Statistics ('RECODE',
-		'COUNT', etc.). Also there are functions for basic tables with
-		value labels/variable labels support. Package aimed to help
-		people to move data processing from Excel/'SPSS' to R.
+		Tables with Labels and Some Useful Functions from Spreadsheets
+		and 'SPSS' Statistics // Package provides tabulation functions
+		with support of 'SPSS'-style labels, multiple / nested banners,
+		weights and multiple-response variables. Additionally it offers
+		useful functions for data processing in the social / marketing
+		research surveys - popular data transformation functions from
+		'SPSS' Statistics ('RECODE', 'COUNT', 'COMPUTE', 'DO IF', etc.)
+		and 'Excel' ('COUNTIF', 'VLOOKUP', etc.). Proper methods for
+		labelled variables add value labels support to base R and other
+		packages. Package aimed to help people to move data processing
+		from 'Excel'/'SPSS' to R.
 	</longdescription>
 </pkgmetadata>

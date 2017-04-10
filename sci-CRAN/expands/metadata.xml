@@ -19,25 +19,10 @@
 		numbers.  The robustness of subpopulation predictions increases
 		with the number of mutations provided. It is recommended that
 		at least 200 mutations are used as input to obtain stable
-		results. Updates in version 1.7 include: (1) Higher
-		subpopulation detection specificity, in particular for small
-		subpopulations. (2) Higher accuracy for mutation assignment to
-		subpopulations. (3) Whenever possible, SNVs are assigned not
-		only to the subpopulation in which they first occurred, but
-		also to descending subpopulations. (4) Two additional output
-		files are created: subpopulation specific ploidy matrix and a
-		summary file of all detected subpopulations, including
-		information on the inferred ancestor and the closest descendant
-		of each subpopulation. (5) New subpopulation plotting options
-		(function plotSPs). (6) New phylogeny plotting option: user can
-		choose between consensus and germline population to be included
-		as control. (7) 50 simulated samples of various genetic
-		complexities and measurement precision included for user
-		testing. Special thanks to Dr. Ryan Morin for his contributions
-		that have led to higher accuracy measures during simulations
-		for mutation assignment to subpopulations, as well as advanced
-		visualization features of assigned mutations. Further
-		documentation and FAQ available at http://dna-
-		discovery.stanford.edu/software/expands.
+		results. Updates in version 2.0 include: (i) copy-neutral LOH
+		are now modelled; (ii) more robust calculation of cell
+		frequency probabilities from kernel density estimates instead
+		of Gaussian mixtures. Further documentation and FAQ available
+		at http://dna-discovery.stanford.edu/software/expands.
 	</longdescription>
 </pkgmetadata>
