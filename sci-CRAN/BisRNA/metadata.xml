@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis of RNA Cytosine-5 Methylation // Bisulfite-treated RNA
+		non-conversion in a set of samples is analysed as follows: each
+		sample's Poisson parameter is estimated, and non-conversion
+		p-values are calculated for each sample and adjusted for
+		multiple testing. Finally, combined non-conversion p-value and
+		standard error of the non-conversion are calculated on the
+		intersection of the set of samples. A low combined non-
+		conversion p-value points to methylation of the corresponding
+		RNA cytosine, or another event blocking bisulfite conversion.
+	</longdescription>
+</pkgmetadata>
