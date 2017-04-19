@@ -2,10 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Data Checking // Checks column names, column classes, values,
-		keys, joins, vectors and scalars. If the user-defined
-		conditions are met the function returns an invisible copy of
-		the data frame, vector or scalar. Otherwise the function throws
-		an informative error.
+		Data Checking // Checks column names, classes, values, keys and
+		joins in data frames. Also checks length, class and values of
+		vectors and scalars. Returns an informative error message if
+		user-defined conditions are not met.
 	</longdescription>
 </pkgmetadata>

@@ -2,8 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Predicting the Number of Species in a Random Sample // Estimating
-		the number of species represented at least r times in a random
-		sample.
+		Predicting the Number of Species in a Random Sample // The
+		relation between the number of species and the number of
+		individuals in a random sample is a classic problem back to
+		Fisher (1943) doi:10.2307/1411. We generalize this problem to
+		estimate the number of species represented at least r times in
+		a random sample. In particular when r=1, it becomes the classic
+		problem. We use a mixture of Poisson processes to model
+		sampling procedures and apply a nonparametric empirical Bayes
+		approach to obtain an estimator. For more information on
+		preseqR, see Deng C, Daley T and Smith AD (2015)
+		doi:10.1007/s40484-015-0049-7 and Deng C and Smith AD (2016)
+		arXiv:1607.02804v2.
 	</longdescription>
 </pkgmetadata>
