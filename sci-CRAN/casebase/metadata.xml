@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fitting Flexible Smooth-in-Time Hazards and Risk Functions via
+		Logistic and Multinomial Regression // Implements the case-base
+		sampling approach of Hanley and Miettinen (2009)
+		DOI:10.2202/1557-4679.1125, Saarela and Arjas (2015)
+		DOI:10.1111/sjos.12125, and Saarela (2015)
+		DOI:10.1007/s10985-015-9352-x, for fitting flexible hazard
+		regression models to survival data with single event type or
+		multiple competing causes via logistic and multinomial
+		regression. From the fitted hazard function, cumulative
+		incidence, risk functions of time, treatment and profile can be
+		derived. This approach accommodates any log-linear hazard
+		function of prognostic time, treatment, and covariates, and
+		readily allows for non-proportionality. We also provide a plot
+		method for visualizing incidence density via population time
+		plots.
+	</longdescription>
+</pkgmetadata>
