@@ -2,8 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Learning Principal Graphs with DDRTree // Project data into a
-		reduced dimensional space and construct a principal graph from
-		the reduced dimension.
+		Learning Principal Graphs with DDRTree // Provides an
+		implementation of the framework of reversed graph embedding
+		(RGE) which projects data into a reduced dimensional space
+		while constructs a principal tree which passes through the
+		middle of the data simultaneously. DDRTree shows superiority to
+		alternatives (Wishbone, DPT) for inferring the ordering as well
+		as the intrinsic structure of the single cell genomics data. In
+		general, it could be used to reconstruct the temporal
+		progression as well as bifurcation structure of any datatype.
 	</longdescription>
 </pkgmetadata>
