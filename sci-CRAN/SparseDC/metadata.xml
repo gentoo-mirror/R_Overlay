@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Implementation of SparseDC Algorithm // Implements the algorithm
+		described in Barron, M., Zhang, S. and Li, J. "A sparse
+		differential clustering algorithm for tracing cell type changes
+		via single-cell RNA-sequencing data"  (Unpublished). This
+		algorithm clusters samples from two different populations,
+		links the clusters across the conditions and identifies marker
+		genes for these changes. The package was designed for scRNA-Seq
+		data but is also applicable to many other data types, just
+		replace cells with samples and genes with variables. The
+		package also contains functions for estimating the parameters
+		for SparseDC as outlined in the paper.
+	</longdescription>
+</pkgmetadata>
