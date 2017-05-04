@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/gridExtra sci-CRAN/GenSA virtual/MASS >=dev-lang/R-3.0.0 sci-CRAN/mvtnorm sci-CRAN/BayesLogit sci-CRAN/rjags >=sci-CRAN/ggplot2-2.0.0 dev-lang/R
+DESCRIPTION=Object-Oriented Implementation of CRM Designs
+EAPI=5
+IUSE=r_suggests_ggmcmc r_suggests_rcpp r_suggests_rcpparmadillo byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/gridExtra sci-CRAN/GenSA virtual/MASS >=dev-lang/R-3.0.0 sci-CRAN/mvtnorm sci-CRAN/BayesLogit sci-CRAN/rjags >=sci-CRAN/ggplot2-2.0.0 r_suggests_ggmcmc? ( sci-CRAN/ggmcmc ) r_suggests_rcpp? ( sci-CRAN/Rcpp ) r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/crmPack_0.2.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=91517334e5cf3d4d9c2c82ccfd74b41a

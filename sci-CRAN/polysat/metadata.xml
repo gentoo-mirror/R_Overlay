@@ -13,12 +13,13 @@
 		or infinite alleles model, with or without taking ploidies and
 		allele frequencies into account.  These distances can be used
 		for the calculation of clonal diversity statistics or used for
-		further analysis in R.  Allelic diversity statistics are also
-		available.  polysat can assist the user in estimating the
-		ploidy of samples, and it can estimate allele frequencies in
-		populations, calculate pairwise Fst values based on those
+		further analysis in R.  Allelic diversity statistics and
+		Polymorphic Information Content are also available.  polysat
+		can assist the user in estimating the ploidy of samples, and it
+		can estimate allele frequencies in populations, calculate
+		pairwise or global differentiation statistics based on those
 		frequencies, and export allele frequencies to 'SPAGeDi' and
-		'adegenet'.  Functions are also included for assigning alleles
+		'adegenet'. Functions are also included for assigning alleles
 		to isoloci in cases where one pair of microsatellite primers
 		amplifies alleles from two or more independently segregating
 		isoloci.

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Movement to Behaviour Inference using Random Forest // Prediction
+		of behaviour from movement characteristics using observation
+		and random forest for the analyses of movement data in ecology.
+		From movement information (speed, bearing...) the model
+		predicts the observed behaviour (movement, foraging...) using
+		random forest. The model can then extrapolate behavioural
+		information to movement data without direct observation of
+		behaviours. The specificity of this method relies on the
+		derivation of multiple predictor variables from the movement
+		data over a range of temporal windows. This procedure allows to
+		capture as much information as possible on the changes and
+		variations of movement and ensures the use of the random forest
+		algorithm to its best capacity. The method is very generic,
+		applicable to any set of data providing movement data together
+		with observation of behaviour.
+	</longdescription>
+</pkgmetadata>
