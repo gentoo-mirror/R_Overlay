@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A 'dplyr' Interface for Crunch // In order to facilitate analysis
+		of datasets hosted on the Crunch data platform
+		http://crunch.io/, the 'crplyr' package implements 'dplyr'
+		methods on top of the Crunch backend. The usual methods
+		"select", "filter", "mutate", "group_by", and "summarize" are
+		implemented in such a way as to perform as much computation on
+		the server and pull as little data locally as possible.
+	</longdescription>
+</pkgmetadata>
