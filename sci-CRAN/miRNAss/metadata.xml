@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Genome-Wide Discovery of Pre-miRNAs with few Labeled Examples //
+		Machine learning method specifically designed for pre-miRNA
+		prediction. It takes advantage of unlabeled sequences to
+		improve the prediction rates even when there are just a few
+		positive examples, when the negative examples are unreliable or
+		are not good representatives of its class. Furthermore, the
+		method can automatically search for negative examples if the
+		user is unable to provide them. MiRNAss can find a good
+		boundary to divide the pre-miRNAs from other groups of
+		sequences; it automatically optimizes the threshold that
+		defines the classes boundaries, and thus, it is robust to high
+		class imbalance. Each step of the method is scalable and can
+		handle large volumes of data.
+	</longdescription>
+</pkgmetadata>
