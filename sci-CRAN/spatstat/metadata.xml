@@ -22,14 +22,15 @@
 		selection, mark correlation functions, segregation indices,
 		mark dependence diagnostics, and kernel estimates of covariate
 		effects. Formal hypothesis tests of random pattern (chi-
-		squared, Kolmogorov-Smirnov, Diggle-Cressie-Loosmore-Ford, Dao-
-		Genton) and tests for covariate effects (Cox-Berman-Waller-
-		Lawson, Kolmogorov-Smirnov) are also supported. Parametric
-		models can be fitted to point pattern data using the functions
-		ppm(), kppm(), slrm(), dppm() similar to glm(). Types of models
-		include Poisson, Gibbs and Cox point processes, Neyman-Scott
-		cluster processes, and determinantal point processes. Models
-		may involve dependence on covariates, inter-point interaction,
+		squared, Kolmogorov-Smirnov, Monte Carlo, Diggle-Cressie-
+		Loosmore-Ford, Dao-Genton, two-stage Monte Carlo) and tests for
+		covariate effects (Cox-Berman-Waller-Lawson, Kolmogorov-
+		Smirnov, ANOVA) are also supported. Parametric models can be
+		fitted to point pattern data using the functions ppm(), kppm(),
+		slrm(), dppm() similar to glm(). Types of models include
+		Poisson, Gibbs and Cox point processes, Neyman-Scott cluster
+		processes, and determinantal point processes. Models may
+		involve dependence on covariates, inter-point interaction,
 		cluster formation and dependence on marks. Models are fitted by
 		maximum likelihood, logistic regression, minimum contrast, and
 		composite likelihood methods. A model can be fitted to a list
