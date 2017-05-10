@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/tidyr >=sci-CRAN/ggplot2-2.2.0 sci-CRAN/lazyeval sci-CRAN/memoise sci-CRAN/mvnfast sci-CRAN/pryr >=dev-lang/R-3.2.2 sci-CRAN/dplyr sci-CRAN/plyr sci-CRAN/tibble dev-lang/R
+DESCRIPTION=Models for Health Economic Evaluation
+EAPI=5
+IUSE=r_suggests_diagram r_suggests_flexsurv r_suggests_hmisc r_suggests_knitr r_suggests_logitnorm r_suggests_mgcv r_suggests_optimx r_suggests_readxl r_suggests_rgho r_suggests_rmarkdown r_suggests_survival r_suggests_testthat r_suggests_triangle byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/tidyr >=sci-CRAN/ggplot2-2.2.0 sci-CRAN/lazyeval sci-CRAN/memoise sci-CRAN/mvnfast sci-CRAN/pryr >=dev-lang/R-3.2.2 sci-CRAN/dplyr sci-CRAN/plyr sci-CRAN/tibble r_suggests_diagram? ( sci-CRAN/diagram ) r_suggests_flexsurv? ( sci-CRAN/flexsurv ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_logitnorm? ( sci-CRAN/logitnorm ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_optimx? ( sci-CRAN/optimx ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rgho? ( sci-CRAN/rgho ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_triangle? ( sci-CRAN/triangle ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/heemod_0.9.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=6d7f6a3584cf9e1f9cf3e7c806738b9e
