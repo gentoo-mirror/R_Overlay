@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bias Reduction with Missing Binary Response // Provides two main
+		functions, il() and fil(). The il() function implements the EM
+		algorithm developed by Ibrahim and Lipsitz (1996)
+		DOI:10.2307/2533068 to estimate the parameters of a logistic
+		regression model with the missing response when the missing
+		data mechanism is nonignorable. The fil() function implements
+		the algorithm proposed by Maity et. al. (2017+)
+		https://github.com/arnabkrmaity/brlrmr to reduce the bias
+		produced by the method of Ibrahim and Lipsitz (1996)
+		DOI:10.2307/2533068.
+	</longdescription>
+</pkgmetadata>
