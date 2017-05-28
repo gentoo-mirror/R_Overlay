@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Quick Way to Map U.S. Rates and Data of U. S. States, Counties,
+		Census Tracts, or Seer Registries using 2000 and 2010 U. S.
+		Census Boundaries // Provides an easy way to map seer registry
+		area rate data on a U. S, map. The U. S. data may be mapped at
+		the state, U. S. NCI Seer Register, state/county or census
+		tract level. The function can categorize the data into "n"
+		quantiles, where "n" is 3 to 11 or the caller can specify a cut
+		point list for the categorizes. The caller can also provide the
+		data and the comparison operation to request hatching over any
+		areas.  The default operation and value are  0.05 (p-values).
+		The location id provided in the data determines the geographic
+		level of the mapping. If states, state/counties or census
+		tracts are being mapped, the location ids used must be the U.S.
+		FIPS codes for states (2 digits), state/counties (5 digits) or
+		state/county/census tracts (11 digits). If the location id
+		references the U.S. Seer Registry areas, the Seer Registry area
+		identifier used to link the data to the geographical areas,
+		then the location id is the Seer Registry name or abbreviation.
+		Additional parameters are used to provide control over the
+		drawing of the boundaries at the data's boundary level and
+		higher levels. The package uses modified boundary data from the
+		2000 and 2010 U. S. Census to reduce the storage requirements
+		and improve drawing speed. The 'SeerMapper' package contains
+		the U. S. Census 2000 and 2010 boundary data for the regional,
+		state, Seer Registry, and county levels.  Six supplement
+		packages contain the census tract boundary data (see manual for
+		more details.)
+	</longdescription>
+</pkgmetadata>

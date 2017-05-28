@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/birk sci-CRAN/lubridate sci-CRAN/marelac >=sci-CRAN/measurements-1.1.0 >=sci-CRAN/seacarb-3.1 dev-lang/R
+DESCRIPTION=Tools for Conducting Respirometry Experiments
+EAPI=5
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/birk sci-CRAN/lubridate sci-CRAN/marelac >=sci-CRAN/measurements-1.1.0 >=sci-CRAN/seacarb-3.1 dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/respirometry_0.4.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=2333729aa5faa6c7109ce31386c3fa64

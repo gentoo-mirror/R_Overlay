@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Compute Recency Frequency Monetary Scores for your Customer Data
+		// This hosts the findRFM function which generates RFM scores
+		on a 1-5 point scale for customer transaction data. The
+		function consumes a data frame with Transaction Number,
+		Customer ID, Date of Purchase (in date format) and Amount of
+		Purchase as the attributes. The function returns a data frame
+		with RFM data for the sales information.
+	</longdescription>
+</pkgmetadata>
