@@ -2,12 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		SODA: Main and Interaction Effects Selection for Discriminant
-		Analysis and Logistic Regression // Variable and interaction
-		selection are essential to classification in high-dimensional
-		setting. In this package, we provide the implementation of SODA
-		procedure, which is a forward-backward algorithm that selects
-		both main and interaction effects under quadratic discriminant
-		analysis and logistic regression model.
+		SODA: Main and Interaction Effects Selection for Logistic
+		Regression, Quadratic Discriminant and General Index Models //
+		Variable and interaction selection are essential to
+		classification in high-dimensional setting. In this package, we
+		provide the implementation of SODA procedure, which is a
+		forward-backward algorithm that selects both main and
+		interaction effects under logistic regression and quadratic
+		discriminant analysis. We also provide an extension, S-SODA,
+		for dealing with the variable selection problem for semi-
+		parametric models with continuous responses.
 	</longdescription>
 </pkgmetadata>
