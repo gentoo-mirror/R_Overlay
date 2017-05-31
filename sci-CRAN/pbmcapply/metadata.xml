@@ -4,9 +4,9 @@
 	<longdescription>
 		Tracking the Progress of Mc*pply with Progress Bar // A light-
 		weight package helps you track and visualize the progress of
-		parallel version of vectorized R functions (mc*apply). The
-		package works on *nix (Linux, Unix such as macOS) system only
-		due to the lack of fork() functionality, which is essential for
-		mc*apply, on Windows.
+		parallel version of vectorized R functions (mc*apply).
+		Parallelization (mc.core  1) works only on *nix (Linux, Unix
+		such as macOS) system due to the lack of fork() functionality,
+		which is essential for mc*apply, on Windows.
 	</longdescription>
 </pkgmetadata>
