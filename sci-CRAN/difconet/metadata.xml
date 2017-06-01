@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Differential Coexpressed Networks // Estimation of DIFferential
+		COexpressed NETworks using diverse and user metrics. This
+		package is basically used for three functions related to the
+		estimation of differential coexpression. First, to estimate
+		differential coexpression where the coexpression is estimated,
+		by default, by Spearman correlation. For this, a metric to
+		compare two correlation distributions is needed. The package
+		includes 6 metrics. Some of them needs a threshold. A new
+		metric can also be specified as a user function with specific
+		parameters (see difconet.run). The significance is be estimated
+		by permutations. Second, to generate datasets with controlled
+		differential correlation data. This is done by either adding
+		noise, or adding specific correlation structure. Third, to show
+		the results of differential correlation analyses. Please see
+		http://bioinformatica.mty.itesm.mx/difconet for further
+		information.
+	</longdescription>
+</pkgmetadata>
