@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sensitivity Analyses for Unmeasured Confounding in Meta-Analyses
+		// Conducts sensitivity analyses for unmeasured confounding in
+		random-effects meta-analysis per Mathur  VanderWeele (in
+		preparation). Given output from a random-effects meta-analysis
+		with a relative risk outcome, computes point estimates and
+		inference for: (1) the proportion of studies with true causal
+		effect sizes more extreme than a specified threshold of
+		scientific significance; and (2) the minimum bias factor and
+		confounding strength required to reduce to less than a
+		specified threshold the proportion of studies with true effect
+		sizes of scientifically significant size. Creates plots and
+		tables for visualizing these metrics across a range of bias
+		values.
+	</longdescription>
+</pkgmetadata>

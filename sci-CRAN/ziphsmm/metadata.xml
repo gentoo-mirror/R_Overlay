@@ -4,7 +4,8 @@
 	<longdescription>
 		Zero-Inflated Poisson Hidden (Semi-)Markov Models // Fit zero-
 		inflated Poisson hidden (semi-)Markov models with or without
-		covariates by directly maximizing the log likelihood function.
-		Multiple starting values should be used to avoid local minima.
+		covariates by directly minimizing the negative log likelihood
+		function using the gradient descent algorithm. Multiple
+		starting values should be used to avoid local minima.
 	</longdescription>
 </pkgmetadata>
