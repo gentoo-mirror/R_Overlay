@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Kernel Ridge Mixed Model // Solves kernel ridge regression,
+		within the the mixed model framework, for the linear,
+		polynomial, Gaussian, Laplacian and ANOVA kernels. The model
+		components (i.e. fixed and random effects) and variance
+		parameters are estimated using the expectation-maximization
+		(EM) algorithm. All the estimated components and parameters,
+		e.g. BLUP of dual variables and BLUP of random predictor
+		effects for the linear kernel (also known as RR-BLUP), are
+		available. The kernel ridge mixed model (KRMM) is described in
+		Jacquin L, Cao T-V and Ahmadi N (2016) A Unified and
+		Comprehensible View of Parametric and Kernel Methods for
+		Genomic Prediction with Application to Rice. Front. Genet.
+		7:145. doi:10.3389/fgene.2016.00145.
+	</longdescription>
+</pkgmetadata>

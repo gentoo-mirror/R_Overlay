@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Hidden Markov Model for Return Time-Series Based on Lambda
+		Hidden Markov Model for Financial Time-Series Based on Lambda
 		Distribution // Hidden Markov Model (HMM) based on symmetric
 		lambda distribution framework is implemented for the study of
 		return time-series in the financial market. Major features in
 		the SP500 index, such as regime identification, volatility
 		clustering, and anti-correlation between return and volatility,
 		can be extracted from HMM cleanly. Univariate symmetric lambda
-		distribution is essentially a location-scale family of power-
-		exponential distribution. Such distribution is suitable for
-		describing highly leptokurtic time series obtained from the
+		distribution is essentially a location-scale family of
+		exponential power distribution. Such distribution is suitable
+		for describing highly leptokurtic time series obtained from the
 		financial market. It provides a theoretically solid foundation
 		to explore such data where the normal distribution is not
 		adequate. The HMM implementation follows closely the book:

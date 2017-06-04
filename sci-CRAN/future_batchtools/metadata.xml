@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Future API for Parallel and Distributed Processing using
+		'batchtools' // Implements of the Future API on top of the
+		'batchtools' package. This allows you to process futures, as
+		defined by the 'future' package, in parallel out of the box,
+		not only on your local machine or ad-hoc cluster of machines,
+		but also via high-performance compute ('HPC') job schedulers
+		such as 'LSF', 'OpenLava', 'Slurm', 'SGE', and 'TORQUE' /
+		'PBS', e.g. 'y - future_lapply(files, FUN = process)'.
+	</longdescription>
+</pkgmetadata>
