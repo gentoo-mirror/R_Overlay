@@ -2,23 +2,27 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Generalized Correlations and Initial Causal Path // Asymmetric
-		generalized correlations r*(x|y) measure strength of the
-		dependence of x on y. If |r*(x|y)| |r*(y|x)| it suggests that y
-		is more likely the "kernel cause" of x. There are at least two
-		additional ways of comparing two kernel regressions helping
-		identify the `cause'. In simultaneous equation models where
-		endogeneity of regressors is feared, we can use Prof. Koopmans'
-		method to ignore endogeneity problems when it kernel causes the
-		dependent variable. The usual partial correlations can be
-		generalized for the asymmetric matrix of r*'s. Partial
-		correlations help asses effect of x on y after removing the
-		effect of a set of variables. The package provides additional
-		tools for causal assessment, for printing the causal detections
-		in a clear, comprehensive compact summary form, for matrix
-		algebra, for outlier detection, and for numerical integration
-		by the trapezoidal rule, stochastic dominance, etc. The package
-		has functions for bootstrap-based statistical inference and one
-		for a heuristic t-test.
+		Generalized Correlations and Initial Causal Path // Since causal
+		paths from data are important for all sciences, the package
+		provides sophisticated functions. The idea is simply that if X
+		causes Y (path: X to Y) then non-deterministic variation in X
+		is more "original or independent" than similar variation in Y.
+		We compare two flipped kernel regressions: X=f(Y, Z) and
+		Y=g(X,Z), where Z are control variables. Our first two criteria
+		compare absolute gradients (Cr1) and absolute residuals (Cr2),
+		both quantified by stochastic dominance of four orders (SD1 to
+		SD4). Our third criterion (Cr3) expects X to be better able to
+		predict Y than the other way around using generalized partial
+		correlation If |r*(x|y)| |r*(y|x)| it suggests that y is more
+		likely the "kernel cause" of x. The usual partial correlations
+		are generalized for the asymmetric matrix of r*'s developed
+		here. Partial correlations help asses effect of x on y after
+		removing the effect of a set of variables. The package provides
+		additional tools for causal assessment, for printing the causal
+		directions in a clear, comprehensive compact summary form, for
+		matrix algebra, for "outlier detection", and for numerical
+		integration by the trapezoidal rule, stochastic dominance, etc.
+		The package has functions for bootstrap-based statistical
+		inference and one for a heuristic t-test.
 	</longdescription>
 </pkgmetadata>
