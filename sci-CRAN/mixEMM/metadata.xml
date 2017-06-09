@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Mixed-Effects Model for Analyzing Cluster-Level Non-Ignorable
+		Missing Data // Contains functions for estimating a mixed-
+		effects model for clustered data (or batch-processed data) with
+		cluster-level (or batch- level) missing values in the outcome,
+		i.e., the outcomes of some clusters are either all observed or
+		missing altogether. The model is developed for analyzing
+		incomplete data from labeling-based quantitative proteomics
+		experiments but is not limited to this type of data. We used an
+		expectation conditional maximization (ECM) algorithm for model
+		estimation. The cluster-level missingness may depend on the
+		average value of the outcome in the cluster (missing not at
+		random).
+	</longdescription>
+</pkgmetadata>

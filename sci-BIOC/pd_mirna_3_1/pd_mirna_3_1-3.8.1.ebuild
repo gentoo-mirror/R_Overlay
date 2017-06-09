@@ -15,7 +15,7 @@ DEPEND=">=sci-CRAN/RSQLite-0.11.1
 	>=sci-BIOC/oligo-1.21.5
 	sci-CRAN/DBI
 	>=sci-BIOC/Biostrings-2.25.12
-	>=sci-BIOC/IRanges-1.15.43
 	>=dev-lang/R-2.15.0
+	>=sci-BIOC/IRanges-1.15.43
 "
 RDEPEND="${DEPEND-}"
