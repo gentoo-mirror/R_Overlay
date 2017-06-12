@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Efficiently Generates Random Order Statistic Variables // All the
+		methods in this package generate a vector of uniform order
+		statistics using a beta distribution and use an inverse
+		cumulative distribution function for some distribution to give
+		a vector of random order statistic variables for some
+		distribution. This is much more efficient than using a loop
+		since it is directly sampling from the order statistic
+		distribution.
+	</longdescription>
+</pkgmetadata>
