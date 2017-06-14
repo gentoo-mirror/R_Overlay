@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Genetic Algorithm for Sequential Symmetric Games // Finds
+		adaptive strategies for sequential symmetric games using a
+		genetic algorithm. Currently, any symmetric two by two matrix
+		is allowed, and strategies can remember the history of an
+		opponent's play from the previous three rounds of moves in
+		iterated interactions between players. The genetic algorithm
+		returns a list of adaptive strategies given payoffs, and the
+		mean fitness of strategies in each generation.
+	</longdescription>
+</pkgmetadata>

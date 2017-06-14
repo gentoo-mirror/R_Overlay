@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Dirichlet Process Weibull Mixture Model for Survival Data // Use
+		Dirichlet process Weibull mixture model and dependent Dirichlet
+		process Weibull mixture model for survival data with and
+		without competing risks. Dirichlet process Weibull mixture
+		model is used for data without covariates and dependent
+		Dirichlet process model is used for regression data. The
+		package is designed to handle exact/right-censored/ interval-
+		censored observations without competing risks and exact/right-
+		censored observations for data with competing risks. Inside
+		each cluster of Dirichlet process, we assume a multiplicative
+		effect of covariates as in Cox model and Fine and Gray model.
+		In addition, we provide a wrapper for DPdensity() function from
+		the R package 'DPpackage'. This wrapper automatically uses Low
+		Information Omnibus prior and can model one and two dimensional
+		data with Dirichlet mixture of Gaussian distributions.
+	</longdescription>
+</pkgmetadata>
