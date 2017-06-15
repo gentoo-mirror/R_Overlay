@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		REgularization by Denoising (RED) // Regularization by Denoising
+		uses a denoising engine to solve many image reconstruction ill-
+		posed inverse problems. This is a R implementation of the
+		algorithm developed by Romano et.al. (2016) arXiv:1611.02862.
+		Currently, only the gradient descent optimization framework is
+		implemented. Also, only the median filter is implemented as a
+		denoiser engine. However, (almost) any denoiser engine can be
+		plugged in. There are currently available 3 reconstruction
+		tasks: denoise, deblur and super-resolution. And again, any
+		other task can be easily plugged into the main function 'RED'.
+	</longdescription>
+</pkgmetadata>

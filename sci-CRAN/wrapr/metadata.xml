@@ -2,15 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Wrap R Functions for Debugging and Ease of Use // Provides
-		'DebugFnW()' to capture function context on error for
+		Wrap R Functions for Debugging and Parametric Programming //
+		Provides 'DebugFnW()' to capture function context on error for
 		debugging, and 'let()' which converts non-standard evaluation
-		interfaces to standard evaluation interfaces. 'DebugFnW()'
-		captures the calling function and arguments prior to the call
-		causing the exception, while the classic
-		'options(error=dump.frames)' form captures at the moment of the
-		exception itself (thus function arguments may not be at their
-		starting values). 'let()' rebinds (possibly unbound) names to
-		names.
+		interfaces to parametric standard evaluation interfaces.
 	</longdescription>
 </pkgmetadata>
