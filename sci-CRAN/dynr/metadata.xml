@@ -7,13 +7,13 @@
 		such data sets are noisy, multivariate, and multi-subject in
 		nature. The change functions may also be continuous, or
 		continuous but interspersed with periods of discontinuities
-		(i.e., showing regime switches). The package \pkg{dynr}
-		(Dynamic Modeling in R) is an R package that implements a set
-		of computationally efficient algorithms for handling a broad
-		class of linear and nonlinear discrete- and continuous-time
-		models with regime-switching properties under the constraint of
-		linear Gaussian measurement functions. The discrete-time models
-		can generally take on the form of a state- space or difference
+		(i.e., showing regime switches). The package 'dynr' (Dynamic
+		Modeling in R) is an R package that implements a set of
+		computationally efficient algorithms for handling a broad class
+		of linear and nonlinear discrete- and continuous-time models
+		with regime-switching properties under the constraint of linear
+		Gaussian measurement functions. The discrete-time models can
+		generally take on the form of a state- space or difference
 		equation model. The continuous-time models are generally
 		expressed as a set of ordinary or stochastic differential
 		equations. All estimation and computations are performed in C,
