@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Dynamic Programming Algorithm for Peak Detection in ChIP-Seq Data
+		// A quadratic time dynamic programming algorithm can be used
+		to compute an approximate solution to the problem of finding
+		the most likely changepoints with respect to the Poisson
+		likelihood, subject to a constraint on the number of segments,
+		and the changes which must alternate: up, down, up, down, etc.
+		For more info read
+		http://proceedings.mlr.press/v37/hocking15.html "PeakSeg:
+		constrained optimal segmentation and supervised penalty
+		learning for peak detection in count data" by TD Hocking et al,
+		proceedings of ICML2015.
+	</longdescription>
+</pkgmetadata>
