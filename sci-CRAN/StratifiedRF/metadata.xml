@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Builds Trees by Sampling Variables from Groups // Random Forest
+		that works with groups of predictor variables. When building a
+		tree, a number of variables is taken randomly from each group
+		separately, thus ensuring that it contains variables from each
+		group. Useful when rows contain information about different
+		things (e.g. user information and product information) and it's
+		not sensible to make a prediction with information from only
+		one group of variables, or when there are far more variables
+		from one group than the other and it's desired to have groups
+		appear evenly on trees. Trees are grown using the C5.0
+		algorithm. Currently works for classification only.
+	</longdescription>
+</pkgmetadata>
