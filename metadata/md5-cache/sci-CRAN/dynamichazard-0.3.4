@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/Rcpp-0.12.6 sci-CRAN/stringr sci-CRAN/data_table >=dev-lang/R-3.3.2 virtual/survival virtual/boot dev-lang/R
+DESCRIPTION=Dynamic Hazard Models using State Space Models
+EAPI=5
+IUSE=r_suggests_biglm r_suggests_captioner r_suggests_colorspace r_suggests_dichromat r_suggests_formatr r_suggests_httr r_suggests_knitr r_suggests_mgcv r_suggests_r_rsp r_suggests_rmarkdown r_suggests_shiny r_suggests_speedglm r_suggests_testthat r_suggests_timereg byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/Rcpp-0.12.6 sci-CRAN/stringr sci-CRAN/data_table >=dev-lang/R-3.3.2 virtual/survival virtual/boot sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_biglm? ( sci-CRAN/biglm ) r_suggests_captioner? ( sci-CRAN/captioner ) r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_dichromat? ( sci-CRAN/dichromat ) r_suggests_formatr? ( sci-CRAN/formatR ) r_suggests_httr? ( sci-CRAN/httr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_speedglm? ( sci-CRAN/speedglm ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_timereg? ( sci-CRAN/timereg ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dynamichazard_0.3.4.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7
+_md5_=357913bc718b2a0a2a2d98ec1b708a6c
