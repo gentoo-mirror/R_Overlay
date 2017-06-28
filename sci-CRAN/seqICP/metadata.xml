@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sequential Invariant Causal Prediction // Contains an
+		implementation of invariant causal prediction for sequential
+		data. The main function in the package is 'seqICP', which
+		performs linear sequential invariant causal prediction and has
+		guaranteed type I error control. For non-linear dependencies
+		the package also contains a non-linear method 'seqICPnl', which
+		allows to input any regression procedure and performs tests
+		based on a permutation approach that is only approximately
+		correct. In order to test whether an individual set S is
+		invariant the package contains the subroutines 'seqICP.s' and
+		'seqICPnl.s' corresponding to the respective main methods.
+	</longdescription>
+</pkgmetadata>
