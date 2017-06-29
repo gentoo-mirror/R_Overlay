@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generalized Linear Density Ratio Models // Fits a generalized
+		linear density ratio model (GLDRM). A GLDRM is a semiparametric
+		generalized linear model. In contrast to a GLM, which assumes a
+		particular exponential family distribution, the GLDRM uses a
+		semiparametric likelihood to estimate the reference
+		distribution. The reference distribution may be any discrete,
+		continuous, or mixed exponential family distribution. The model
+		parameters, which include both the regression coefficients and
+		the cdf of the unspecified reference distribution, are
+		estimated by maximizing a semiparametric likelihood. Regression
+		coefficients are estimated with no loss of efficiency, i.e. the
+		asymptotic variance is the same as if the true exponential
+		family distribution were known.
+	</longdescription>
+</pkgmetadata>
