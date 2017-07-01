@@ -2,9 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Implementation of a generic adaptive Monte Carlo Markov Chain
-		sampler // This package provides an implementation of the
-		generic adaptive Monte Carlo Markov chain sampler proposed by
-		Vihola (2011).
+		Implementation of a Generic Adaptive Monte Carlo Markov Chain
+		Sampler // Enables sampling from arbitrary distributions if the
+		log density is known up to a constant; a common situation in
+		the context of Bayesian inference. The implemented sampling
+		algorithm was proposed by Vihola (2012)
+		DOI:10.1007/s11222-011-9269-5 and achieves often a high
+		efficiency by tuning the proposal distributions to a user
+		defined acceptance rate.
 	</longdescription>
 </pkgmetadata>
