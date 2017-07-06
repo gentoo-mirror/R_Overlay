@@ -11,20 +11,19 @@
 		Essential Climate Variables related to the energy and water
 		cycle of the atmosphere (http://www.cmsaf.eu). It is a joint
 		cooperation of seven National Meteorological and Hydrological
-		Services, including the Deutscher Wetterdienst (DWD). The
-		'cmsaf' R-package provides a small collection of R-functions,
-		which are inspired by the Climate Data Operators ('cdo'). This
-		gives the opportunity to analyse and manipulate CM SAF data
-		without the need of installing cdo. The 'cmsaf' R-package is
-		tested for CM SAF NetCDF data, which are structured in three-
-		dimensional arrays (longitude, latitude, time) on a rectangular
-		grid. Layered CM SAF data have to be converted with the
-		provided 'levbox_mergetime()' function. The 'cmsaf' R-package
-		functions have only minor checks for deviations from the
-		recommended data structure, and give only few specific error
-		messages. Thus, there is no warranty of accurate results.
-		Scripts for an easy application of the functions are provided
-		at the CM SAF homepage
+		Services. The 'cmsaf' R-package provides a small collection of
+		R-functions, which are inspired by the Climate Data Operators
+		('cdo'). This gives the opportunity to analyse and manipulate
+		CM SAF data without the need of installing cdo. The 'cmsaf'
+		R-package is tested for CM SAF NetCDF data, which are
+		structured in three-dimensional arrays (longitude, latitude,
+		time) on a rectangular grid. Layered CM SAF data have to be
+		converted with the provided 'levbox_mergetime()' function. The
+		'cmsaf' R-package functions have only minor checks for
+		deviations from the recommended data structure, and give only
+		few specific error messages. Thus, there is no warranty of
+		accurate results. Scripts for an easy application of the
+		functions are provided at the CM SAF homepage
 		(http://www.cmsaf.eu/EN/Products/Tools/Tools_node.html).
 	</longdescription>
 </pkgmetadata>

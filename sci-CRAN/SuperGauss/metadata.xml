@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Superfast Likelihood Inference for Stationary Gaussian Time
+		Series // Likelihood evaluations for stationary Gaussian time
+		series are typically obtained via the Durbin-Levinson
+		algorithm, which scales as O(n^2) in the number of time series
+		observations.  This package provides a "superfast" O(n log^2 n)
+		algorithm written in C++, crossing over with Durbin-Levinson
+		around n = 300.  Efficient implementations of the score and
+		Hessian functions are also provided, leading to superfast
+		versions of inference algorithms such as Newton-Raphson and
+		Hamiltonian Monte Carlo.  The C++ code provides a Toeplitz
+		matrix class packaged as a header-only library, to simplify
+		low-level usage in other packages and outside of R.
+	</longdescription>
+</pkgmetadata>

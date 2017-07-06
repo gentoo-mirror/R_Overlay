@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Inference for Multivariate Stochastic Differential
+		Equations // Implements an MCMC sampler for the posterior
+		distribution of arbitrary time-homogeneous multivariate
+		stochastic differential equation (SDE) models with possibly
+		latent components.  The package provides a simple entry point
+		to integrate user-defined models directly with the sampler's
+		C++ code, and parallelizes large portions of the calculations
+		when compiled with 'OpenMP'.
+	</longdescription>
+</pkgmetadata>
