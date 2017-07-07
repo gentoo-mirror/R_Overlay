@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Structural Filtering // An implementation of the fast
+		structural filtering with L0 penalty. It includes an adaptive
+		polynomial estimator by minimizing the least squares error with
+		constraints on the number of breaks in their (k + 1)-st
+		discrete derivative, for a chosen integer k = 0. It also
+		includes generalized structure sparsity constraint, i.e., graph
+		trend filtering. This package is implemented via the primal
+		dual active set algorithm, which formulates estimates and
+		residuals as primal and dual variables, and utilizes efficient
+		active set selection strategies based on the properties of the
+		primal and dual variables.
+	</longdescription>
+</pkgmetadata>
