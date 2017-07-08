@@ -3,9 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Finding Unique or Duplicated Rows or Columns for Atomic Matrices
-		// An alternative implementation and extension (grpDuplicated)
-		of base::duplicated.matrix, base:anyDuplicated.matrix and
-		base::unique.matrix for matrices of atomic mode, avoiding the
-		time consuming collapse of the matrix into a character vector.
+		// An alternative implementation of base::duplicated.matrix(),
+		base:anyDuplicated.matrix() and base::unique.matrix() for
+		matrices of atomic mode, avoiding the time consuming collapse
+		of the matrix into a character vector. An extra grpDuplicated()
+		function is added, which groups duplicated elements together.
 	</longdescription>
 </pkgmetadata>
