@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interface to the Poloniex Cryptocurrency Trading API // Provides
+		a user-friendly R wrapper on top of the Poloniex
+		(Cryptocurrency Trading) REST API (see
+		https://poloniex.com/support/api/ for more information).
+		Results are converted into R data structures and are returned
+		to the users in an intuitive manner. The package provides the
+		users with two separate S4 classes: - 'PoloniexPublicAPI':
+		Consists of wrapper methods on top of the Poloniex Public REST
+		API. - 'PoloniexTradingAPI': Consists of wrapper methods on top
+		of the Poloniex Trading REST API.
+	</longdescription>
+</pkgmetadata>
