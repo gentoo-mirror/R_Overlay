@@ -3,11 +3,18 @@
 <pkgmetadata>
 	<longdescription>
 		A Fast and Scalable Joint Estimator for Learning Multiple Related
-		Sparse Gaussian Graphical Models // The FASJEM (A Fast and
-		Scalable Joint Estimator for Learning Multiple Related Sparse
-		Gaussian Graphical Models) is a joint estimator which is fast
-		and scalable for learning multiple related sparse Gaussian
-		graphical models. For more details, please see https://www.cs.v
-		irginia.edu/yanjun/paperA14/2017_JEM_combined.pdf.
+		Sparse Gaussian Graphical Models // This is an R implementation
+		of "A Fast and Scalable Joint Estimator for Learning Multiple
+		Related Sparse Gaussian Graphical Models" (FASJEM). The FASJEM
+		algorithm can be used to estimate multiple related precision
+		matrices. For instance, it can identify context-specific gene
+		networks from multi-context gene expression datasets. By
+		performing data-driven network inference from high-dimensional
+		and heterogonous data sets, this tool  can help users
+		effectively translate aggregated data into knowledge that take
+		the form of graphs among entities. Please run demo(fasjem) to
+		learn the basic functions provided by this package. For more
+		details, please see
+		http://proceedings.mlr.press/v54/wang17e/wang17e.pdf.
 	</longdescription>
 </pkgmetadata>

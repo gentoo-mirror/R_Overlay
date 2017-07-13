@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Monadic Pipeline System // A monadic solution to pipeline
+		analysis. All operations -- and the errors, warnings and
+		messages they emit -- are merged into a directed graph. Infix
+		binary operators mediate when values are stored, how exceptions
+		are handled, and where pipelines branch and merge. The
+		resulting structure may be queried for debugging or report
+		generation. 'rmonad' complements, rather than competes with,
+		non-monadic pipeline packages like 'magrittr' or 'pipeR'.
+	</longdescription>
+</pkgmetadata>
