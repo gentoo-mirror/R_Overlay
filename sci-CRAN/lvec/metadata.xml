@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Out of Memory Vectors // Core functionality for working with
+		vectors (numeric, integer, logical and character) that are too
+		large to keep in memory. The vectors are kept (partially) on
+		disk using memory mapping. This package contains the basic
+		functionality for working with these memory mapped vectors
+		(e.g. creating, indexing, ordering and sorting) and provides
+		C++ headers which can be used by other packages to extend the
+		functionality provided in this package.
+	</longdescription>
+</pkgmetadata>
