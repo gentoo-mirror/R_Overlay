@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimate (Generalized) Linear Mixed Models with Factor Structures
+		// Utilizes the 'lme4' package and the optim() function from
+		'stats' to estimate (generalized) linear mixed models (GLMM)
+		with factor structures using a profile likelihood approach, as
+		outlined in Jeon and Rabe-Hesketh (2012)
+		doi:10.3102/1076998611417628. Factor analysis and item response
+		models can be extended to allow for an arbitrary number of
+		nested and crossed random effects, making it useful for
+		multilevel and cross-classified models.
+	</longdescription>
+</pkgmetadata>

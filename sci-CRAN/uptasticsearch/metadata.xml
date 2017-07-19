@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Get Data Frame Representations of 'Elasticsearch' Results //
+		'Elasticsearch' is an open-source, distributed, document-based
+		datastore (https://www.elastic.co/products/elasticsearch). It
+		provides an 'HTTP' 'API' for querying the database and
+		extracting datasets, but that 'API' was not designed for common
+		data science workflows like pulling large batches of records
+		and normalizing those documents into a data frame that can be
+		used as a training dataset for statistical models.
+		'uptasticsearch' provides an interface for 'Elasticsearch' that
+		is explicitly designed to make these data science workflows
+		easy and fun.
+	</longdescription>
+</pkgmetadata>
