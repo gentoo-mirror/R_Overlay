@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Inference for Directed Acyclic Graphs (BiDAG): Software
+		for the Efficient Inference and Sampling of Bayesian Networks
+		// Implementation of a collection of MCMC methods for Bayesian
+		structure learning of directed acyclic graphs (DAGs), both from
+		continuous and discrete data. For efficient inference on larger
+		DAGs, the space of DAGs is pruned according to the data. To
+		filter the search space, the algorithm employs a hybrid
+		approach, combining constraint-based learning with search and
+		score. A reduced search space is initially defined on the basis
+		of a skeleton obtained by means of the PC-algorithm, and then
+		iteratively improved with search and score. Search and score is
+		then performed following two approaches: Order MCMC, or
+		Partition MCMC. The BGe score is implemented for continuous
+		data and the BDe score is implemented for binary data. The
+		algorithms may provide the maximum a posteriori (MAP) graph or
+		a sample (a collection of DAGs) from the posterior distribution
+		given the data.
+	</longdescription>
+</pkgmetadata>
