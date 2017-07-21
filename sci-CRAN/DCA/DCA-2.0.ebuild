@@ -1,0 +1,21 @@
+# Copyright 1999-2017 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=5
+
+inherit R-packages
+
+DESCRIPTION='Dynamic Correlation Analysis for... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/DCA_2.0.tar.gz"
+LICENSE='GPL-2'
+
+DEPEND="sci-CRAN/GPArotation
+	sci-CRAN/PMA
+	sci-CRAN/coin
+	sci-CRAN/elasticnet
+	sci-CRAN/locfdr
+	sci-CRAN/modeest
+	sci-CRAN/mvtnorm
+"
+RDEPEND="${DEPEND-}"
