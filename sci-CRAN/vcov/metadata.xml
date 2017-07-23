@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variance-Covariance Matrices and Standard Errors // Methods for
+		faster extraction (about 5x faster in a few test cases) of
+		variance-covariance matrices and standard errors from models.
+		Methods in the 'stats' package tend to rely on the summary
+		method, which may waste time computing other summary statistics
+		which are summarily ignored.
+	</longdescription>
+</pkgmetadata>
