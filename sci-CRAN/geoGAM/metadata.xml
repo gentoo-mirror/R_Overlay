@@ -3,15 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Select Sparse Geoadditive Models for Spatial Prediction // A
-		model building procedure to select a sparse geoadditive model
-		from a large number of covariates. Continuous, binary and
+		model building procedure to build parsimonious geoadditive
+		model from a large number of covariates. Continuous, binary and
 		ordered categorical responses are supported. The model building
 		is based on component wise gradient boosting with linear
-		effects and smoothing splines. The resulting covariate set
-		after gradient boosting is further reduced through cross
-		validated backward selection and aggregation of factor levels.
-		The package provides a model based bootstrap method to simulate
-		prediction intervals for point predictions. A test data set of
-		a soil mapping case study is provided.
+		effects, smoothing splines and a smooth spatial surface to
+		model spatial autocorrelation. The resulting covariate set
+		after gradient boosting is further reduced through backward
+		elimination and aggregation of factor levels. The package
+		provides a model based bootstrap method to simulate prediction
+		intervals for point predictions. A test data set of a soil
+		mapping case study in Berne (Switzerland) is provided.
 	</longdescription>
 </pkgmetadata>

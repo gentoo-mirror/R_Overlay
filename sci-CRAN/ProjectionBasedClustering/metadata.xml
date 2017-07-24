@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Projection Based Clustering // A clustering approach for every
+		projection method based on the generalized  U*-matrix
+		visualization of a topographic map is made available here. The
+		number of clusters and the cluster structure can be estimated
+		by counting the valleys in a topographic map. If the number of
+		clusters and the clustering method are chosen correctly, then
+		the clusters will be well separated by mountains in the
+		visualization. Most projection methods are wrappers for already
+		available methods in R. However, the neighbor retrieval
+		visualizer (NeRV) is based on C++ source code of the 'dredviz'
+		software package and the Curvilinear Component Analysis (CCA)
+		is translated from 'MATLAB' ('SOM Toolbox' 2.0) to R.
+	</longdescription>
+</pkgmetadata>
