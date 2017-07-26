@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fit the GamBin Model to Species Abundance Distributions // Fits
-		the gambin distribution to species-abundance distributions from
-		ecological data. 'gambin' is short for 'gamma-binomial'. The
-		main function is fitGambin, which estimates the 'alpha'
-		parameter of the gambin distribution using maximum likelihood.
-		Functions are also provided to generate the gambin distribution
-		and for calculating likelihood statistics.
+		Fit the Gambin Model to Species Abundance Distributions // Fits
+		unimodal and multimodal gambin distributions to species-
+		abundance distributions from ecological data. 'gambin' is short
+		for 'gamma-binomial'. The main function is fit_abundances(),
+		which estimates the 'alpha' parameter(s) of the gambin
+		distribution using maximum likelihood. Functions are also
+		provided to generate the gambin distribution and for
+		calculating likelihood statistics.
 	</longdescription>
 </pkgmetadata>
