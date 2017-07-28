@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/plotrix sci-CRAN/TeachingDemos dev-lang/R
+DESCRIPTION=Plot a Models Response and Residuals
+EAPI=5
+IUSE=r_suggests_c50 r_suggests_earth r_suggests_gbm r_suggests_glmnet r_suggests_mass r_suggests_neuralnet r_suggests_rpart r_suggests_rpart_plot byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/plotrix sci-CRAN/TeachingDemos r_suggests_c50? ( >=sci-CRAN/C50-0.1.0.24 ) r_suggests_earth? ( >=sci-CRAN/earth-4.4.6 ) r_suggests_gbm? ( >=sci-CRAN/gbm-2.1.1 ) r_suggests_glmnet? ( >=sci-CRAN/glmnet-2.0.5 ) r_suggests_mass? ( >=sci-CRAN/MASS-7.3.45 ) r_suggests_neuralnet? ( >=sci-CRAN/neuralnet-1.33 ) r_suggests_rpart? ( >=sci-CRAN/rpart-4.1.10 ) r_suggests_rpart_plot? ( >=sci-CRAN/rpart_plot-2.1.0 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/plotmo_3.3.4.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
+_md5_=57a4fc27692c7e5b5f3f5fcbcdc50f52
