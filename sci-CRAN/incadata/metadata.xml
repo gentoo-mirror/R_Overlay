@@ -4,24 +4,26 @@
 	<longdescription>
 		Recognize and Handle Data in Formats Used by Swedish Cancer
 		Centers // Handle data in formats used by cancer centers in
-		Sweden, both from INCA (the current register platform, (see
+		Sweden, both from 'INCA' (the current register platform, (see
 		http://www.incanet.se for more information) and by the older
-		register platform Rockan (used in the Western and Northern part
-		of the country). All variables are coerced to suitable classes
-		based on their format. Dates (from various formats such as with
-		missing month or day, with or without century prefix or with
-		just a week number) are all recognised as dates and coerced to
-		the ISO 8601 standard (Y-m-d). Boolean variables (internally
-		stored either as 0/1 or "True"/"False"/blanks when exported)
-		are coerced to logical. Variable names ending in '_Beskrivning'
-		and '_Varde' will be character, and 'PERSNR' will be coerced
-		(if possible) to a valid personal identification number 'pin'
-		(by the 'sweidnumbr' package). The package also allow the user
-		to interactively choose if a variable should be coerced into a
-		potential format even though not all of its values might
-		conform to the recognised pattern. It also contain a caching
-		mechanism in order to temporarily store data sets with its
-		newly decided formats in order to not rerun the identification
-		process each time.
+		register platform 'Rockan' (used in the Western and Northern
+		part of the country). All variables are coerced to suitable
+		classes based on their format. Dates (from various formats such
+		as with missing month or day, with or without century prefix or
+		with just a week number) are all recognized as dates and
+		coerced to the ISO 8601 standard (Y-m-d). Boolean variables
+		(internally stored either as 0/1 or "True"/"False"/blanks when
+		exported) are coerced to logical. Variable names ending in
+		'_Beskrivning' and '_Varde' will be character, and 'PERSNR'
+		will be coerced (if possible) to a valid personal
+		identification number 'pin' (by the 'sweidnumbr' package). The
+		package also allow the user to interactively choose if a
+		variable should be coerced into a potential format even though
+		not all of its values might conform to the recognized pattern.
+		It also contain a caching mechanism in order to temporarily
+		store data sets with its newly decided formats in order to not
+		rerun the identification process each time. And finally, it
+		also include a mechanism to aid the documentation process
+		connected to projects build on data from 'INCA'.
 	</longdescription>
 </pkgmetadata>
