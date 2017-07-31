@@ -4,10 +4,15 @@
 	<longdescription>
 		Non-Parametric Trend Tests and Change-Point Detection // The
 		analysis of environmental data often requires the detection of
-		trends and change-points. This package provides the Mann-
-		Kendall Trend Test, seasonal Mann-Kendall Test, correlated
-		seasonal Mann-Kendall Test, partial Mann-Kendall Trend test,
-		(Seasonal) Sen's slope, partial correlation trend test and
-		change-point test after Pettitt.
+		trends and change-points. This package includes tests for trend
+		detection (Cox-Stuart Trend Test, Mann-Kendall Trend Test,
+		(correlated) Hirsch-Slack Test, partial Mann-Kendall Trend
+		Test, multivariate (multisite) Mann-Kendall Trend Test,
+		(Seasonal) Sen's slope, partial Pearson and Spearman
+		correlation trend test), change-point detection (Pettitt's
+		test, Buishand Range Test, Buishand U Test, Standard Normal
+		Homogeinity Test), detection of non-randomness (Wallis-Moore
+		Phase Frequency Test, Bartels rank von Neumann's ratio test,
+		Wald-Wolfowitz Test).
 	</longdescription>
 </pkgmetadata>

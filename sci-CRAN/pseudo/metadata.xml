@@ -2,7 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Pseudo - observations // Various functions for computing pseudo-
-		observations for censored data regression
+		Computes Pseudo-Observations for Modeling // Various functions
+		for computing pseudo-observations for censored data regression.
+		Computes pseudo-observations for modeling: competing risks
+		based on the cumulative incidence function, survival function
+		based on the restricted mean,  survival function based on the
+		Kaplan-Meier estimator see Klein et al. (2008)
+		doi:10.1016/j.cmpb.2007.11.017.
 	</longdescription>
 </pkgmetadata>
