@@ -5,10 +5,11 @@
 		Hierarchical Item Response Theory Models // Implementation of a
 		class of hierarchical item response theory (IRT) models where
 		both the mean and the variance of latent preferences (ability
-		parameters) can depend on observed covariates. The current
+		parameters) may depend on observed covariates. The current
 		implementation includes both the two-parameter latent trait
-		model and the graded response model. Both are fitted via the
-		Expectation-Maximization (EM) algorithm. Asymptotic standard
-		errors are derived from the observed information matrix.
+		model for binary data and the graded response model for ordinal
+		data. Both are fitted via the Expectation-Maximization (EM)
+		algorithm. Asymptotic standard errors are derived from the
+		observed information matrix.
 	</longdescription>
 </pkgmetadata>
