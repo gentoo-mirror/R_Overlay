@@ -3,9 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Spatial Extent as Polygons with Projection // Functions to
-		produce a fully fledged 'Spatial' object extent as a
+		produce a fully fledged 'geo-spatial' object extent as a
 		'SpatialPolygonsDataFrame'. Also included are functions to
-		generate polygons from raster using 'quadmesh' techniques, and
-		a round number buffered extent for generating data structures.
+		generate polygons from raster data using 'quadmesh' techniques,
+		a round number buffered extent, and general spatial-extent and
+		'raster-like' extent helpers missing from the originating
+		packages.
 	</longdescription>
 </pkgmetadata>
