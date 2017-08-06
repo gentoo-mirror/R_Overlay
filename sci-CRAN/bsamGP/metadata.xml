@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Spectral Analysis Models using Gaussian Process Priors
+		// Contains functions to perform Bayesian inference using a
+		spectral analysis of Gaussian process priors. Gaussian
+		processes are represented with a Fourier series based on cosine
+		basis functions. Currently the package includes parametric
+		linear models, partial linear additive models with/without
+		shape restrictions, generalized linear additive models
+		with/without shape restrictions, and density estimation model.
+		To maximize computational efficiency, the actual Markov chain
+		Monte Carlo sampling for each model is done using codes written
+		in FORTRAN 90.
+	</longdescription>
+</pkgmetadata>
