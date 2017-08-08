@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Shapefiles for the Contiguous United States of America // Data
+		package containing shapefiles for the US that may easily be
+		restricted to only the contiguous US. Shapefiles are provided
+		for; states, congressional districts and counties. All
+		shapefiles have the resolution of 1:20,000,000 and are from the
+		US Census Bureau - https://www.census.gov/geo/maps-data/data
+		/tiger-cart-boundary.html. State/County/District information
+		has been combined from multiple disjoint Census shapefile
+		products in this package, see the 'shapefile_details' tibble
+		for details. Please note, this package is explicitly designed
+		to fit all shapefiles within one CRAN-hosted package. You will
+		want to use the 'tigris' package for programmatic access to the
+		US Census' shapefile products.
+	</longdescription>
+</pkgmetadata>
