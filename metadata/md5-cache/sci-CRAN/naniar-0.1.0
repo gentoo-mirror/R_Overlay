@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/forcats sci-CRAN/viridis sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/visdat >=dev-lang/R-3.1.2 sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/purrrlyr dev-lang/R
+DESCRIPTION=Data Structures, Summaries, and ... (see metadata)
+EAPI=5
+IUSE=r_suggests_covr r_suggests_gridextra r_suggests_here r_suggests_imputets r_suggests_knitr r_suggests_rmarkdown r_suggests_rpart r_suggests_rpart_plot r_suggests_simputation r_suggests_testthat r_suggests_vdiffr r_suggests_wakefield byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/forcats sci-CRAN/viridis sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/visdat >=dev-lang/R-3.1.2 sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/purrrlyr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_here? ( sci-CRAN/here ) r_suggests_imputets? ( sci-CRAN/imputeTS ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpart? ( virtual/rpart ) r_suggests_rpart_plot? ( sci-CRAN/rpart_plot ) r_suggests_simputation? ( sci-CRAN/simputation ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_wakefield? ( sci-CRAN/wakefield ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/naniar_0.1.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
+_md5_=dd21d4f94b3a1f96d2f16514f28d9b4e
