@@ -10,7 +10,10 @@
 		clustering are available. Functionality can be easily extended
 		with custom distance measures and centroid definitions.
 		Implementations of DTW barycenter averaging and a distance
-		based on global alignment kernels are also provided. Several
-		cluster validity indices are included.
+		based on global alignment kernels are also provided. All
+		included distance functions have custom loops optimized for the
+		calculation of cross-distance matrices, including
+		parallelization support. Several cluster validity indices are
+		included.
 	</longdescription>
 </pkgmetadata>
