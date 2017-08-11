@@ -9,15 +9,15 @@
 		bias-reduced linearization estimator introduced by Bell and
 		McCaffrey (2002) http://www.statcan.gc.ca/pub/12-001-x/2002002/
 		article/9058-eng.pdf and developed further by Pustejovsky and
-		Tipton (2016) DOI:10.1080/07350015.2016.1247004. The package
+		Tipton (2017) DOI:10.1080/07350015.2016.1247004. The package
 		includes functions for estimating the variance- covariance
 		matrix and for testing single- and multiple-contrast hypotheses
 		based on Wald test statistics. Tests of single regression
 		coefficients use Satterthwaite or saddle-point corrections.
 		Tests of multiple-contrast hypotheses use an approximation to
 		Hotelling's T-squared distribution.  Methods are provided for a
-		variety of fitted models, including lm(), plm() (from package
-		'plm'), gls() and lme() (from 'nlme'), robu() (from
+		variety of fitted models, including lm(), glm(), plm() (from
+		package 'plm'), gls() and lme() (from 'nlme'), robu() (from
 		'robumeta'), and rma.uni() and rma.mv() (from 'metafor').
 	</longdescription>
 </pkgmetadata>
