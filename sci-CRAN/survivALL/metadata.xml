@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Continuous Biomarker Assessment by Exhaustive Survival Analysis
+		// In routine practice, biomarker performance is calculated by
+		splitting a patient cohort at some arbitrary level, often by
+		median gene expression. The logic behind this is to divide
+		patients into high or low expression groups that in turn
+		correlate with either good or poor prognosis. However, this
+		median-split approach assumes that the data set composition
+		adheres to a strict 1:1 proportion of high vs. low expression,
+		that for every one low there is an equivalent high. In reality,
+		data sets are often heterogeneous in their composition (Perou,
+		CM et al., 2000 doi:10.1038/35021093)- i.e. this 1:1
+		relationship is unlikely to exist and the true relationship
+		unknown. Given this limitation, it remains difficult to
+		determine where the most significant separation should be made.
+		For example, estrogen receptor (ER) status determined by
+		immunohistochemistry is standard practice in predicting hormone
+		therapy response, where ER is found in an ~1:3 ratio (-:+) in
+		the populationi (Selli, C et al., 2016
+		doi:10.1186/s13058-016-0779-0). We would expect therefore, upon
+		dividing patients by ER expression, 25% to be classified low
+		and 75% high, and an otherwise 50-50 split to incorrectly
+		classify 25% of our patient cohort, rendering our survival
+		estimate under powered. 'survivALL' is a data-driven approach
+		to calculate the relative survival estimates for all possible
+		points of separation - i.e. at all possible ratios of high vs.
+		low - allowing a measures relationship with survival to be more
+		reliably determined and quantified. We see this as a solution
+		to a flaw in common research practice, namely the failure of a
+		true biomarker as part of a meta-analysis.
+	</longdescription>
+</pkgmetadata>
