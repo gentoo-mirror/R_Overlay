@@ -15,8 +15,10 @@
 		interest. This allows for the qualitative distinction between
 		causal and other parameters, thereby making the variable
 		selection suitable for the exploration of causal heterogeneity.
-		The package also contains the function, CausalANOVA, which
-		estimates the average marginal interaction effects by a
-		regularized ANOVA as proposed by Egami and Imai (2016+).
+		The package also contains a class of functions, CausalANOVA,
+		which estimates the average marginal interaction effects
+		(AMIEs) by a regularized ANOVA as proposed by Egami and Imai
+		(2016+). It contains a variety of regularization techniques to
+		facilitate analysis of large factorial experiments.
 	</longdescription>
 </pkgmetadata>
