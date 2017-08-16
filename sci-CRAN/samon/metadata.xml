@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sensitivity Analysis for Missing Data // In a clinical trial with
+		repeated measures designs, outcomes are often taken from
+		subjects at fixed time-points.  The focus of the trial may be
+		to compare the mean outcome in two or more groups at some pre-
+		specified time after enrollment. In the presence of missing
+		data auxiliary assumptions are necessary to perform such
+		comparisons.  One commonly employed assumption is the missing
+		at random assumption (MAR).   The 'samon' package allows the
+		user to perform a (parameterized) sensitivity analysis of this
+		assumption.  In particular it can be used to examine the
+		sensitivity of tests in the difference in outcomes to
+		violations of the MAR assumption.  The sensitivity analysis can
+		be performed under two scenarios, a) where the data exhibit a
+		monotone missing data pattern (see the samon() function), and,
+		b) where in addition to a monotone missing data pattern the
+		data exhibit intermittent missing values (see the samonIM()
+		function).
+	</longdescription>
+</pkgmetadata>

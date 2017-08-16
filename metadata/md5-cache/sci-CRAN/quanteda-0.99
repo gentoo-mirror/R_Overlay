@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/data_table-1.9.6 sci-CRAN/RcppParallel sci-CRAN/RSpectra >=sci-CRAN/Matrix-1.2 sci-CRAN/stringi sci-CRAN/wordcloud >=sci-CRAN/Rcpp-0.12.12 sci-CRAN/fastmatch >=sci-CRAN/ggplot2-2.2.0 sci-omegahat/XML sci-CRAN/yaml >=dev-lang/R-3.2.2 sci-CRAN/SnowballC sci-CRAN/lubridate dev-lang/R
+DESCRIPTION=Quantitative Analysis of Textual Data
+EAPI=5
+IUSE=r_suggests_ca r_suggests_dt r_suggests_knitr r_suggests_lda r_suggests_proxy r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_slam r_suggests_testthat r_suggests_tm r_suggests_topicmodels r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/data_table-1.9.6 sci-CRAN/RcppParallel sci-CRAN/RSpectra >=sci-CRAN/Matrix-1.2 sci-CRAN/stringi sci-CRAN/wordcloud >=sci-CRAN/Rcpp-0.12.12 sci-CRAN/fastmatch >=sci-CRAN/ggplot2-2.2.0 sci-omegahat/XML sci-CRAN/yaml >=dev-lang/R-3.2.2 sci-CRAN/SnowballC sci-CRAN/lubridate sci-CRAN/Rcpp sci-CRAN/RcppParallel >=sci-CRAN/RcppArmadillo-0.7.600.1.0 r_suggests_ca? ( sci-CRAN/ca ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lda? ( sci-CRAN/lda ) r_suggests_proxy? ( sci-CRAN/proxy ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_slam? ( sci-CRAN/slam ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tm? ( >=sci-CRAN/tm-0.6 ) r_suggests_topicmodels? ( sci-CRAN/topicmodels ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/quanteda_0.99.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=8069f477df81ac56ec26d50a388fcb2f

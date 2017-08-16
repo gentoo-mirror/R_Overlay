@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R wrappers for EXPOKIT; other matrix functions // This package
-		wraps some of the matrix exponentiation utilities from EXPOKIT
+		R Wrappers for EXPOKIT; Other Matrix Functions // Wraps some of
+		the matrix exponentiation utilities from EXPOKIT
 		(http://www.maths.uq.edu.au/expokit/), a FORTRAN library that
 		is widely recommended for matrix exponentiation (Sidje RB,
 		1998. "Expokit: A Software Package for Computing Matrix
 		Exponentials." ACM Trans. Math. Softw. 24(1): 130-156).
 		EXPOKIT includes functions for exponentiating both small, dense
 		matrices, and large, sparse matrices (in sparse matrices, most
-		of the cells have value 0).  Rapid matrix exponentiation is
+		of the cells have value 0). Rapid matrix exponentiation is
 		useful in phylogenetics when we have a large number of states
 		(as we do when we are inferring the history of transitions
 		between the possible geographic ranges of a species), but is
