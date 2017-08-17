@@ -2,20 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Detection and Correction of Spatial Bias in HTS Screens // (1)
-		Detects plate-specific spatial bias by identifying rows and
+		Detection and Correction of Spatial Bias in HTS Screens // Allows
+		to correct bias in high-throughput screening (HTS) assays. It
+		(1) Detects plate-specific spatial bias by identifying rows and
 		columns of all plates of the assay affected by this bias
 		(following the results of the Mann-Whitney U test) as well as
 		assay-specific spatial bias by identifying well locations
 		(i.e., well positions scanned across all plates of a given
 		assay) affected by this bias (also following the results of the
 		Mann-Whitney U test); (2) Allows one to correct plate-specific
-		spatial bias using either the additive or multiplicative PMP
-		(Partial Mean Polish) method (the most appropriate spatial bias
-		model can be either specified by the user or determined by the
-		program following the results of the Kolmogorov-Smirnov two-
-		sample test) to correct the assay measurements as well as to
-		correct assay-specific spatial bias by carrying out robust
+		spatial bias using either of the three additive or either of
+		the three multiplicative PMP (Partial Mean Polish) methods (the
+		most appropriate spatial bias model can be either specified by
+		the user or determined by the program following the results of
+		the Kolmogorov-Smirnov, Anderson-Darling or Cramer-von-Mises
+		two-sample test) to correct the assay measurements as well as
+		to correct assay-specific spatial bias by carrying out robust
 		Z-scores within each plate of the assay and then traditional
 		Z-scores across well locations.
 	</longdescription>
