@@ -4,6 +4,19 @@
 	<longdescription>
 		Modelling Spatial Extremes // Tools for the statistical modelling
 		of spatial extremes using max-stable processes, copula or
-		Bayesian hierarchical models.
+		Bayesian hierarchical models. More precisely, this package
+		allows (conditional) simulations from various parametric max-
+		stable models, analysis of the extremal spatial dependence, the
+		fitting of such processes using composite likelihoods or least
+		square (simple max-stable processes only), model checking and
+		selection and prediction. Other approaches (althought not
+		completely in agreement with the extreme value theory) are
+		avaible such as the use of (spatial) copula and Bayesian
+		hierarchical models assuming the so-called conditional
+		assumptions. The latter approaches is handled through an
+		(efficient) Gibbs sampler. Some key references: Davison et al.
+		(2012) doi:10.1214/11-STS376, Padoan et al. (2010)
+		doi:10.1198/jasa.2009.tm08577, Dombry et al. (2013)
+		doi:10.1093/biomet/ass067.
 	</longdescription>
 </pkgmetadata>

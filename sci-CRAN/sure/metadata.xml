@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Surrogate Residuals for Ordinal and General Regression Models //
+		An implementation of the surrogate approach to residuals and
+		diagnostics for ordinal and general regression models; for
+		details, see Liu and Zhang (2017)
+		doi:10.1080/01621459.2017.1292915. These residuals can be used
+		to construct standard residual plots for model diagnostics
+		(e.g., residual-vs-fitted value plots, residual-vs-covariate
+		plots, Q-Q plots, etc.). The package also provides an
+		'autoplot' function for producing standard diagnostic plots
+		using 'ggplot2' graphics. The package currently supports
+		cumulative link models from packages 'MASS', 'ordinal', 'rms',
+		and 'VGAM'. Support for binary regression models using the
+		standard 'glm' function is also available.
+	</longdescription>
+</pkgmetadata>
