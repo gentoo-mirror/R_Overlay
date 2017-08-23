@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Package to Parse an INI File, Including Variable Interpolation //
+		Enhances the 'ini' package by adding the ability to interpolate
+		variables. The INI configuration file is read into an R6
+		ConfigParser object (loosely inspired by Pythons ConfigParser
+		module) and the keys can be read, where '%(....)s' instances
+		are interpolated by other included options or outside
+		variables.
+	</longdescription>
+</pkgmetadata>
