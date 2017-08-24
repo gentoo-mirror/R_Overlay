@@ -14,11 +14,11 @@ DEPEND=">=sci-BIOC/VariantFiltering-1.5.23
 	>=sci-CRAN/RSQLite-1.0.0
 	sci-BIOC/Biobase
 	sci-BIOC/AnnotationDbi
-	sci-BIOC/IRanges
-	sci-BIOC/Biostrings
-	>=dev-lang/R-3.0.0
-	sci-BIOC/GenomicRanges
 	sci-BIOC/Rsamtools
 	sci-BIOC/VariantAnnotation
+	>=dev-lang/R-3.0.0
+	sci-BIOC/IRanges
+	sci-BIOC/GenomicRanges
+	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-}"
