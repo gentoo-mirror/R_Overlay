@@ -17,9 +17,7 @@ S="${WORKDIR}"
 
 R-packages_src_unpack() {
 	unpack ${A}
-	if [[ -d ${PN//_/.} && ! -d ${P} ]]; then
-		 mv ${PN//_/.} ${P} || die
-	fi
+	mv ${PN//_/.} ${P}
 }
 
 R-packages_src_prepare() {

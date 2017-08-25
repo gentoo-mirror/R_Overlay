@@ -2,19 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Solving Mixed Model Equations in R // Multivariate linear mixed
-		model solver for estimation of heterogeneous variances and
-		specification of variance covariance structures. Maximum and
-		Restricted Maximum Likelihood (ML/REML) estimates can be
-		obtained using the Direct-Inversion Newton-Raphson (NR),
-		Direct-Inversion Average Information (AI), MME-based
-		Expectation-Maximization (EM), and Efficient Mixed Model
-		Association (EMMA) algorithms. Designed for genomic prediction
-		and genome wide association studies (GWAS) to include additive,
-		dominance and epistatic relationship structures or other
-		covariance structures in R, but also functional as a regular
-		multivariate mixed model software. Multivariate models
-		(multiple responses) can be fitted currently with NR, AI and
-		EMMA algorithms.
+		Solving Mixed Model Equations in R // Structural multivariate-
+		univariate linear mixed model solver for multiple random
+		effects allowing the specification of variance-covariance
+		structures for random effects and allowing the fit of
+		heterogeneous variance models. ML/REML estimates can be
+		obtained using the Direct-Inversion Newton-Raphson, and
+		Efficient Mixed Model Association algorithms. Designed for
+		genomic prediction and genome wide association studies (GWAS)
+		to include additive, dominance and epistatic relationship
+		structures or other covariance structures, but also functional
+		as a regular mixed model program.
 	</longdescription>
 </pkgmetadata>
