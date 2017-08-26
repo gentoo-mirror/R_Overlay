@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Implements Measures for the Comparison of Two Partitions //
+		Provides several measures ((dis)similarity, distance/metric,
+		correlation, entropy) for comparing two partitions of the same
+		set of objects. The different measures can be assigned to three
+		different classes: Pair comparison (containing the famous
+		Jaccard and Rand indices), set based, and information theory
+		based. Many of the implemented measures can be found in
+		Albatineh AN, Niewiadomska-Bugaj M and Mihalko D (2006)
+		doi:10.1007/s00357-006-0017-z and Meila M (2007)
+		doi:10.1016/j.jmva.2006.11.013. Partitions are represented by
+		vectors of class labels which allow a straightforward
+		integration with existing clustering algorithms (e.g.
+		kmeans()). The package is mostly based on the S4 object system.
+	</longdescription>
+</pkgmetadata>
