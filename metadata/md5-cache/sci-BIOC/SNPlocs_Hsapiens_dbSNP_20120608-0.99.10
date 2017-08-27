@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install postinst prepare unpack
-DEPEND=>=sci-BIOC/BSgenome-1.25.6 sci-BIOC/GenomicRanges sci-BIOC/IRanges sci-BIOC/BSgenome sci-BIOC/IRanges sci-BIOC/GenomicRanges dev-lang/R
+DEPEND=sci-BIOC/IRanges sci-BIOC/GenomicRanges >=sci-BIOC/BSgenome-1.25.6 sci-BIOC/IRanges sci-BIOC/GenomicRanges sci-BIOC/BSgenome dev-lang/R
 DESCRIPTION=SNP locations for Homo sapiens (dbSNP Build 137)
 EAPI=5
 IUSE=r_suggests_biostrings byte-compile
 KEYWORDS=~amd64 ~x86
 LICENSE=Artistic-2
-RDEPEND=>=sci-BIOC/BSgenome-1.25.6 sci-BIOC/GenomicRanges sci-BIOC/IRanges sci-BIOC/BSgenome sci-BIOC/IRanges sci-BIOC/GenomicRanges r_suggests_biostrings? ( sci-BIOC/Biostrings ) dev-lang/R
+RDEPEND=sci-BIOC/IRanges sci-BIOC/GenomicRanges >=sci-BIOC/BSgenome-1.25.6 sci-BIOC/IRanges sci-BIOC/GenomicRanges sci-BIOC/BSgenome r_suggests_biostrings? ( sci-BIOC/Biostrings ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP.20120608_0.99.10.tar.gz
 _eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
-_md5_=099d74dc57ca02e2bddd2e058c4b2afb
+_md5_=6c71c1ca28f6b0bac746cd638bf84de3
