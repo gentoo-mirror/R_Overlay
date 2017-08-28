@@ -3,10 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Measurement Units for R Vectors // Support for measurement units
-		in R vectors; automatic propagation, conversion, derivation and
-		simplification of units; raising errors in case of unit
-		incompatibility. Compatible with the difftime class. Uses the
-		UNIDATA udunits library and unit database for unit conversion
-		and compatibility checking.
+		in R vectors, matrices and arrays: automatic propagation,
+		conversion, derivation and simplification of units; raising
+		errors in case of unit incompatibility. Compatible with the
+		POSIXct, Date and difftime classes. Uses the UNIDATA udunits
+		library and unit database for unit compatibility checking and
+		conversion.
 	</longdescription>
 </pkgmetadata>
