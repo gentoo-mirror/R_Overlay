@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/Matrix sci-CRAN/httr >=sci-CRAN/benchmarkmeData-0.5.0 sci-CRAN/doParallel sci-CRAN/foreach dev-lang/R
+DESCRIPTION=Crowd Sourced System Benchmarks
+EAPI=5
+IUSE=r_suggests_dt r_suggests_ggplot2 r_suggests_knitr r_suggests_rcppziggurat r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=virtual/Matrix sci-CRAN/httr >=sci-CRAN/benchmarkmeData-0.5.0 sci-CRAN/doParallel sci-CRAN/foreach r_suggests_dt? ( sci-CRAN/DT ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcppziggurat? ( sci-CRAN/RcppZiggurat ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/benchmarkme_0.6.0.tar.gz
+_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=9e2961eb7aa0c1f697740c58390fbe1c
