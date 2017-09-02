@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Frequency Domain Analysis for Multivariate Time Series // Methods
-		for the analysis of multivariate time series using frequency
-		domain techniques. Implementations of dynamic principle
-		components analysis (DPCA) and estimators of operators in
-		lagged regression. Examples of usage in functional data
-		analysis setup.
+		Frequency Domain Based Analysis: Dynamic PCA // Implementation of
+		dynamic principal component analysis (DPCA), simulation of VAR
+		and VMA processes and frequency domain tools. These frequency
+		domain methods for dimensionality reduction of multivariate
+		time series were introduced by David Brillinger in his book
+		Time Series (1974). We follow implementation guidelines as
+		described in Hormann, Kidzinski and Hallin (2016), Dynamic
+		Functional Principal Component doi:10.1111/rssb.12076.
 	</longdescription>
 </pkgmetadata>

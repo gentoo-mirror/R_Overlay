@@ -2,8 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Combination of Factorial Methods and Cluster Analysis //
-		Multivariate exploration of a data table with factorial
-		analysis and cluster methods.
+		Combination of Factorial Methods and Cluster Analysis // Some
+		functions of 'ade4' and 'stats' are combined in order to obtain
+		a partition of the rows of a data table, with columns
+		representing variables of scales: quantitative, qualitative or
+		frequency. First, a principal axes method is performed and
+		then, a combination of Ward agglomerative hierarchical
+		classification and K-means is performed, using some of the
+		first coordinates obtained from the previous principal axes
+		method. The function 'kmeansW', a modification of 'kmeans',
+		programmed in C++, is included, in order to permit to have
+		different weights of the elements to be clustered. Some
+		complementary functions and datasets are included. See, for
+		example: Lebart, L. and Piron, M. and Morineau, A.  (2006).
+		Statitique exploratoire multidimensionnelle, Dunod, Paris.
 	</longdescription>
 </pkgmetadata>
