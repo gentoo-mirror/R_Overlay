@@ -2,12 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Wasserstein Barycenter // Computation of a Wasserstein
-		Barycenter. The package implements a method described in Cuturi
-		(2014) "Fast Computation of Wasserstein Barycenters". The paper
-		is available at
-		http://jmlr.org/proceedings/papers/v32/cuturi14.pdf. To speed
-		up the computation time the main iteration step is based on
+		Regularized Wasserstein Distances and Barycenters // Computations
+		of Sinkhorn Distances (upper bounds to the Wasserstein Distance
+		a.k.a. Earth Mover's Distance) and Wasserstein Barycenters.
+		Relevant papers are Marco Cuturi (2013) arXiv:1306.0895 and
+		Marco Cuturi (2014) arXiv:1310.4375. To speed up the
+		computation time the main iteration steps are based on
 		'RcppArmadillo'.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Threshold Selection and Uncertainty for Extreme Value Analysis //
+		Provides functions for the selection of thresholds for use in
+		extreme value models, based mainly on the methodology in
+		Northrop, Attalides and Jonathan (2017) doi:10.1111/rssc.12159.
+		It also performs predictive inferences about future extreme
+		values, based either on a single threshold or on a weighted
+		average of inferences from multiple thresholds, using the
+		'revdbayes' package
+		https://cran.r-project.org/package=revdbayes. At the moment
+		only the case where the data can be treated as independent
+		identically distributed observations is considered. See the
+		'threshr' website for more information, documentation and
+		examples.
+	</longdescription>
+</pkgmetadata>
