@@ -5,7 +5,14 @@
 		'Rcpp' Implementation of 'FSelector' Entropy-Based Feature
 		Selection Algorithms with a Sparse Matrix Support // 'Rcpp'
 		(free of 'Java'/'Weka') implementation of 'FSelector' entropy-
-		based feature selection algorithms with a sparse matrix
-		support. It is also equipped with a parallel backend.
+		based feature selection algorithms based on an MDL
+		discretization (Fayyad U. M., Irani K. B.: Multi-Interval
+		Discretization of Continuous-Valued Attributes for
+		Classification Learning. In 13'th International Joint
+		Conference on Uncertainly in Artificial Intelligence (IJCAI93),
+		pages 1022-1029, Chambery, France, 1993.)
+		https://www.ijcai.org/Proceedings/93-2/Papers/022.pdf with a
+		sparse matrix support. It is also equipped with a parallel
+		backend.
 	</longdescription>
 </pkgmetadata>

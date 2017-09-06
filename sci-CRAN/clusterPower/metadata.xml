@@ -2,13 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Power calculations for cluster-randomized and cluster-randomized
-		crossover trials // This package enables researchers to
-		calculate power for cluster-randomized crossover trials by
-		employing a simulation-based approach.  A particular study
-		design is specified, with fixed sample sizes for all clusters
-		and an assumed treatment effect, and the empirical power for
-		that study design is calculated by simulating hypothetical
-		datasets.
+		Power Calculations for Cluster-Randomized and Cluster-Randomized
+		Crossover Trials // Calculate power for cluster randomized
+		trials (CRTs) that compare two means, two proportions, or two
+		counts using closed-form solutions. In addition, calculate
+		power for cluster randomized  crossover trials using Monte
+		Carlo methods. For more information, see Reich et al. (2012)
+		doi:10.1371/journal.pone.0035564.
 	</longdescription>
 </pkgmetadata>
