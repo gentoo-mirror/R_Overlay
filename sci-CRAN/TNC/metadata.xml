@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Temporal Network Centrality (TNC) Measures // Node centrality
+		measures for temporal networks. Available measures are temporal
+		degree centrality, temporal closeness centrality and temporal
+		betweenness centrality defined by Kim and Anderson (2012)
+		doi:10.1103/PhysRevE.85.026107. Applying the REN algorithm by
+		Hanke and Foraita (2017) doi:10.1186/s12859-017-1677-x when
+		calculating the centrality measures keeps the computational
+		running time linear in the number of graph snapshots. Further,
+		all methods can run in parallel up to the number of nodes in
+		the network.
+	</longdescription>
+</pkgmetadata>

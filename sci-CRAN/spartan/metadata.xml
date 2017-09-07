@@ -5,8 +5,8 @@
 		Simulation Parameter Analysis R Toolkit ApplicatioN: Spartan //
 		Computer simulations are becoming a popular technique to use in
 		attempts to further our understanding of complex systems.
-		SPARTAN, described in our 2013 publication in PLoS
-		Computational Biology, provides code for four techniques
+		SPARTAN, first described in our 2013 publication in PLoS
+		Computational Biology, provided code for four techniques
 		described in available literature which aid the analysis of
 		simulation results, at both single and multiple timepoints in
 		the simulation run. The first technique addresses aleatory
@@ -24,12 +24,19 @@
 		included to partition the variance in simulation results
 		between input parameters, to determine the parameters which
 		have a significant effect on simulation behaviour. Version 1.3
-		adds support for Netlogo simulations, aiding simulation
+		added support for Netlogo simulations, aiding simulation
 		developers who use Netlogo to build their simulations perform
-		the same analyses. We have also added user support through the
-		group spartan-group[AT]york[DOT]ac[DOT]uk. Version 2.0 added
-		the ability to read all simulations in from a single CSV file
-		in addition to the prescribed folder structure in previous
-		versions.
+		the same analyses. Version 2.0 added the ability to read all
+		simulations in from a single CSV file in addition to the
+		prescribed folder structure in previous versions. Version 3.0
+		offers significant additional functionality that permits the
+		creation of emulations of simulation results, derived using the
+		same sampling techniques in the global sensitivity analysis
+		techniques, and the generation of combinations of these machine
+		learning algorithms to one create one predictive tool, more
+		commonly known as an ensemble model. Version 3.0 also improved
+		the standard of the graphs produced in the original sensitivity
+		analysis techniques, and introduced a polar plot to examine
+		parameter sensitivity.
 	</longdescription>
 </pkgmetadata>
