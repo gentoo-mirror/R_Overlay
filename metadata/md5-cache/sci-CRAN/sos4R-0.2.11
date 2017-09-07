@@ -8,6 +8,5 @@ LICENSE=GPL-2
 RDEPEND=sci-CRAN/XML >=sci-CRAN/RCurl-1.4.1 >=dev-lang/R-2.15.0 sci-CRAN/sp r_suggests_cshapes? ( sci-CRAN/cshapes ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_mapdata? ( sci-CRAN/mapdata ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_rgdal? ( sci-CRAN/rgdal ) r_suggests_spacetime? ( >=sci-CRAN/spacetime-0.2.0 ) r_suggests_xtable? ( sci-CRAN/xtable ) r_suggests_xts? ( sci-CRAN/xts ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/sos4R_0.2-11.tar.gz
-_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=da287673861e64670b95f2ef041ee6ea

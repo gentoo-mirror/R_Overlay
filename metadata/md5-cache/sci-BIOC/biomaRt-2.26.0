@@ -8,6 +8,5 @@ LICENSE=Artistic-2
 RDEPEND=sci-CRAN/RCurl sci-CRAN/XML sci-BIOC/AnnotationDbi r_suggests_annotate? ( sci-BIOC/annotate ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/biomaRt_2.26.0.tar.gz
-_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=da7932918945a33bb1aa2e39ced65273

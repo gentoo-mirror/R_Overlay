@@ -8,6 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-2.14.0 sci-BIOC/ProtGenerics sci-CRAN/RColorBrewer sci-BIOC/Biobase >=sci-BIOC/mzR-1.1.6 sci-BIOC/BiocGenerics r_suggests_faahko? ( sci-BIOC/faahKO ) r_suggests_massspecwavelet? ( >=sci-BIOC/MassSpecWavelet-1.5.2 ) r_suggests_msdata? ( sci-BIOC/msdata ) r_suggests_multtest? ( sci-BIOC/multtest ) r_suggests_ncdf? ( sci-CRAN/ncdf ) r_suggests_rann? ( sci-CRAN/RANN ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/xcms_1.46.0.tar.gz
-_eclass_exported_funcs=pkg_postinst:R-packages src_unpack:R-packages src_prepare:R-packages src_compile:R-packages src_install:R-packages
 _eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=e43353380d8aa5433d266b893cd87eeb
