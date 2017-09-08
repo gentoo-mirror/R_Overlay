@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fit a penalized constrained continuation ratio model for
-		predicting an ordinal response // This packages includes
+		Fit a Penalized Constrained Continuation Ratio Model for
+		Predicting an Ordinal Response // Penalized methods are useful
+		for fitting over-parameterized models. This package includes
 		functions for restructuring an ordinal response dataset for
-		fitting continuation ratio models for datasets where the number
-		of covariates exceeds the sample size or when there is
-		collinearity among the covariates. This package uses the glmnet
-		package fitting algorithm.
+		fitting continuation ratio models for datasets  where the
+		number of covariates exceeds the sample size or when there is
+		collinearity among the covariates. The glmnet fitting algorithm
+		is used to fit the continuation ratio model after data
+		restructuring.
 	</longdescription>
 </pkgmetadata>
