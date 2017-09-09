@@ -2,9 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Bayesian Inference for Directed Acyclic Graphs (BiDAG): Software
-		for the Efficient Inference and Sampling of Bayesian Networks
-		// Implementation of a collection of MCMC methods for Bayesian
+		Bayesian Inference for Directed Acyclic Graphs (BiDAG) //
+		Implementation of a collection of MCMC methods for Bayesian
 		structure learning of directed acyclic graphs (DAGs), both from
 		continuous and discrete data. For efficient inference on larger
 		DAGs, the space of DAGs is pruned according to the data. To
@@ -18,6 +17,10 @@
 		data and the BDe score is implemented for binary data. The
 		algorithms may provide the maximum a posteriori (MAP) graph or
 		a sample (a collection of DAGs) from the posterior distribution
-		given the data.
+		given the data. References: N. Friedman and D. Koller (2003)
+		doi:10.1023/A:1020249912095, D. Geiger and D. Heckerman (2002)
+		doi:10.1214/aos/1035844981, J. Kuipers and G. Moffa (2016)
+		doi:10.1080/01621459.2015.1133426, M. Kalisch et al.(2012)
+		doi:10.18637/jss.v047.i11.
 	</longdescription>
 </pkgmetadata>
