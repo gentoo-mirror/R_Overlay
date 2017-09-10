@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.2.2 virtual/Matrix sci-CRAN/glmnet >=sci-CRAN/Rcpp-0.11.3 sci-CRAN/data_table sci-CRAN/quadprog sci-CRAN/matrixStats sci-CRAN/slam sci-CRAN/lda sci-CRAN/quanteda sci-CRAN/stringr dev-lang/R
+DESCRIPTION=Estimation of the Structural Topic Model
+EAPI=5
+IUSE=r_suggests_clue r_suggests_geometry r_suggests_huge r_suggests_igraph r_suggests_kernsmooth r_suggests_ldavis r_suggests_nlp r_suggests_rsvd r_suggests_rtsne r_suggests_snowballc r_suggests_testthat r_suggests_tm r_suggests_wordcloud byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.2.2 virtual/Matrix sci-CRAN/glmnet >=sci-CRAN/Rcpp-0.11.3 sci-CRAN/data_table sci-CRAN/quadprog sci-CRAN/matrixStats sci-CRAN/slam sci-CRAN/lda sci-CRAN/quanteda sci-CRAN/stringr sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_clue? ( sci-CRAN/clue ) r_suggests_geometry? ( sci-CRAN/geometry ) r_suggests_huge? ( sci-CRAN/huge ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_ldavis? ( sci-CRAN/LDAvis ) r_suggests_nlp? ( sci-CRAN/NLP ) r_suggests_rsvd? ( sci-CRAN/rsvd ) r_suggests_rtsne? ( sci-CRAN/Rtsne ) r_suggests_snowballc? ( sci-CRAN/SnowballC ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tm? ( >=sci-CRAN/tm-0.6 ) r_suggests_wordcloud? ( sci-CRAN/wordcloud ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stm_1.3.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=bad80daa871e014d88f4aeb0e4c5249c
