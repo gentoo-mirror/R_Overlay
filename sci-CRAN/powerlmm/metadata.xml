@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Power Calculations for Longitudinal Multilevel Models //
+		Calculate power for two- and three-level multilevel
+		longitudinal studies with missing data. Both the third-level
+		factor (e.g. therapists, schools, or physicians), and the
+		second-level factor (e.g. subjects), can be assigned random
+		slopes. Studies with partially nested designs, unequal cluster
+		sizes, unequal allocation to treatment arms, and different
+		dropout patterns per treatment are supported. For all designs
+		power can be calculated both analytically and via simulations.
+		The analytical calculations extends the method described in
+		Galbraith et al. (2002) doi:10.1016/S0197-2456(02)00205-2, to
+		three-level models. Additionally, the simulation tools provides
+		flexible ways to investigate bias, type I errors and the
+		consequences of model misspecification.
+	</longdescription>
+</pkgmetadata>
