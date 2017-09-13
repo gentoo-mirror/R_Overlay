@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Semiparametric Regression on Cumulative Incidence Function with
-		Interval-Censored Competing Risks Data // The function
-		ciregic() fits semiparametric competing risks regression models
-		with interval-censored data as described in Bakoyannis, Yu, and
-		Yiannoutsos (2017) doi:10.1002/sim.7350.
+		Semiparametric Competing Risks Regression under Interval
+		Censoring // Semiparametric regression models for the
+		cumulative incidence function with interval-censored competing
+		risks data as described in Bakoyannis, Yu,  Yiannoutsos (2017)
+		doi:10.1002/sim.7350. The main function fits the proportional
+		subdistribution hazards model (Fine-Gray model), the
+		proportional odds model, and other models that belong to the
+		class of semiparametric generalized odds rate transformation
+		models.
 	</longdescription>
 </pkgmetadata>

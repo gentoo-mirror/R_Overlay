@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automatic Variable Reduction Using Principal Component Analysis
+		// PCA done by eigenvalue decomposition of a data correlation
+		matrix, here it automatically determines the number of factors
+		by eigenvalue greater than 1 and it gives the uncorrelated
+		variables based on the rotated component scores, Such that in
+		each principal component variable which has the high variance
+		are selected. It will be useful for non-statisticians in
+		selection of variables. For more information, see the
+		http://www.ijcem.org/papers032013/ijcem_032013_06.pdf web page.
+	</longdescription>
+</pkgmetadata>
