@@ -5,6 +5,14 @@
 		Nonparametric Robust Estimation and Inference Methods using Local
 		Polynomial Regression and Kernel Density Estimation // Tools
 		for data-driven statistical analysis using local polynomial
-		regression and kernel density methods.
+		regression and kernel density estimation methods as described
+		in Calonico, Cattaneo and Farrell (2017a): lprobust() for local
+		polynomial point estimation and robust bias-corrected inference
+		and kdrobust() for kernel density point estimation and robust
+		bias-corrected inference. Several optimal bandwidth selection
+		procedures are computed by lpbwselect() and kdbwselect() for
+		local polynomial and kernel density estimation, respectively.
+		Finally, nprobust.plot() for density and regression plots with
+		robust confidence interval.
 	</longdescription>
 </pkgmetadata>
