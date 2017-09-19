@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Silhouette to Area Ratio of Tilted Surfaces // Implementation of
+		trigonometric functions to calculate the exposure of flat,
+		tilted surfaces, such as leaves and slopes, to direct solar
+		radiation. It implements the equations in A.G. Escribano-
+		Rocafort, A. Ventre-Lespiaucq, C. Granado-Yela, et al. (2014)
+		doi:10.1111/2041-210X.12141 in a few user-friendly R functions.
+		All functions handle data obtained with 'Ahmes' 1.0 for
+		Android, as well as more traditional data sources (compass,
+		protractor, inclinometer). The main function (star())
+		calculates the potential exposure of flat, tilted surfaces to
+		direct solar radiation (silhouette to area ratio, STAR). It is
+		equivalent to the ratio of the leaf projected area to total
+		leaf area, but instead of using area data it uses spatial
+		position angles, such as pitch, roll and course, and
+		information on the geographical coordinates, hour, and date.
+		The package includes additional functions to recalculate STAR
+		with custom settings of location and time, to calculate the
+		tilt angle of a surface, and the minimum angle between two non-
+		orthogonal planes.
+	</longdescription>
+</pkgmetadata>
