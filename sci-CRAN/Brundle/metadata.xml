@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Normalisation Tools for Inter-Condition Variability of ChIP-Seq
+		Data // Inter-sample condition variability is a key challenge
+		of normalising ChIP-seq data. This implementation uses either
+		spike-in or a second factor as a control for normalisation.
+		Input can either be from 'DiffBind' or a matrix formatted for
+		'DESeq2'. The output is either a 'DiffBind' object or the
+		default 'DESeq2' output. Either can then be processed as
+		normal. Supporting manuscript Guertin, Markowetz and Holding
+		(2017) doi:10.1101/182261.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Granger Mediation Analysis // Performs Granger mediation analysis
+		(GMA) for time series. This package includes a single level GMA
+		model and a two-level GMA model, for time series with
+		hierarchically nested structure. The single level GMA model for
+		the time series of a single participant performs the causal
+		mediation analysis which integrates the structural equation
+		modeling and the Granger causality frameworks. A vector
+		autoregressive model of order p is employed to account for the
+		spatiotemporal dependencies in the data. Meanwhile, the model
+		introduces the unmeasured confounding effect through a nonzero
+		correlation parameter. Under the two-level model, by leveraging
+		the variabilities across participants, the parameters are
+		identifiable and consistently estimated based on a full
+		conditional likelihood or a two-stage method. See Zhao, Y.,
+		Luo, X. (2017), Granger Mediation Analysis of Multiple Time
+		Series with an Application to fMRI, arXiv:1709.05328 for
+		details.
+	</longdescription>
+</pkgmetadata>
