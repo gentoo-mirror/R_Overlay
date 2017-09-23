@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Interface to Statistical Modeling Independent of Model
+		Architecture // Provides functions for evaluating, displaying,
+		and interpreting statistical models. The goal is to abstract
+		the operations on models from the particular architecture of
+		the model. For instance, calculating effect sizes rather than
+		looking at coefficients. The package includes interfaces to
+		both regression and classification architectures, including
+		lm(), glm(), rlm() in 'MASS', random forests and recursive
+		partitioning, k-nearest neighbors, linear and quadratic
+		discriminant analysis, and models produced by the 'caret'
+		package's train(). It's straightforward to add in other other
+		model architectures.
+	</longdescription>
+</pkgmetadata>

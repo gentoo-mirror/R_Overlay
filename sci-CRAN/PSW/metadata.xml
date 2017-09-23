@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Propensity Score Weighting Methods for Dichotomous Treatments //
+		Provides propensity score weighting methods to control for
+		confounding in causal inference with dichotomous treatments and
+		continuous/binary outcomes. It includes the following
+		functional modules: (1) visualization of the propensity score
+		distribution in both treatment groups with mirror histogram,
+		(2) covariate balance diagnosis, (3) propensity score model
+		specification test, (4) weighted estimation of treatment
+		effect, and (5) doubly robust estimation of treatment effect.
+		The weighting methods include the inverse probability weight
+		(IPW) for estimating the average treatment effect (ATE), the
+		IPW for average treatment effect of the treated (ATT), the IPW
+		for the average treatment effect of the controls (ATC), the
+		matching weight (MW), the overlap weight (OVERLAP), and the
+		trapezoidal weight (TRAPEZOIDAL). Sandwich variance estimation
+		is provided to adjust for the sampling variability of the
+		estimated propensity score. These methods are discussed by
+		Hirano et al (2003) DOI:10.1111/1468-0262.00442, Li and Greene
+		(2013) DOI:10.1515/ijb-2012-0030, and Li et al (2016)
+		DOI:10.1080/01621459.2016.1260466.
+	</longdescription>
+</pkgmetadata>
