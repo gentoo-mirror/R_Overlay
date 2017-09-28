@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Inference of Parameters of Normal Distributions from a Mixture of
+		Normals // This MCMC method takes a data numeric vector (Y) and
+		assigns the elements of Y to a (potentially infinite) number of
+		normal distributions. The individual normal distributions from
+		a mixture of normals can be inferred. Following the method
+		described in Escobar (1994) doi:10.2307/2291223 we use a
+		Dirichlet Process Prior (DPP) to describe stochastically our
+		prior assumptions about the dimensionality of the data.
+	</longdescription>
+</pkgmetadata>
