@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Iterative Solvers for (Sparse) Linear System of Equations //
+		Solving a system of linear equations is one of the most
+		fundamental computational problems for many fields of
+		mathematical studies, such as regression problems from
+		statistics or numerical partial differential equations. We
+		provide basic stationary iterative solvers such as Jacobi,
+		Gauss-Seidel, Successive Over-Relaxation and SSOR methods.
+		Nonstationary - or, Krylov subspace methods are also provided;
+		Conjugate Gradient, Conjugate Gradient Squared, Biconjugate
+		Gradient, and Biconjugate Gradient Stabilized methods. Sparse
+		matrix computation is also supported in that solving large and
+		sparse linear systems can be manageable using 'Matrix' package
+		along with 'RcppArmadillo'. For a more detailed description,
+		see a book by Saad (2003) doi:10.1137/1.9780898718003.
+	</longdescription>
+</pkgmetadata>
