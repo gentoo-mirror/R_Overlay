@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Create FDA-Style Data and Program Definitions // Creates a
+		directory of archived files with a descriptive 'PDF' document
+		at the root level (i.e. 'define.pdf') containing tables of
+		definitions of data items and relative-path hyperlinks to the
+		documented files. Converts file extensions to 'txt' per FDA
+		expectations and converts 'CSV' files to 'SAS' Transport
+		format. Relies on data item descriptors stored as per R package
+		'spec'. See 'package?define'. See also '?define'. Requires a
+		compatible installation of 'pdflatex', e.g.
+		https://miktex.org/.
+	</longdescription>
+</pkgmetadata>
