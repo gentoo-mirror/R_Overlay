@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.0.0 virtual/Matrix dev-lang/R
+DESCRIPTION=Multi-Model Inference
+EAPI=5
+IUSE=r_suggests_gamm4 r_suggests_geepack r_suggests_lme4 r_suggests_mass r_suggests_mgcv r_suggests_nlme r_suggests_nnet r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.0.0 virtual/Matrix r_suggests_gamm4? ( sci-CRAN/gamm4 ) r_suggests_geepack? ( sci-CRAN/geepack ) r_suggests_lme4? ( >=sci-CRAN/lme4-1.1.0 ) r_suggests_mass? ( virtual/MASS ) r_suggests_mgcv? ( >=sci-CRAN/mgcv-1.7.5 ) r_suggests_nlme? ( virtual/nlme ) r_suggests_nnet? ( virtual/nnet ) r_suggests_survival? ( virtual/survival ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MuMIn_1.40.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=3606a7150fe1f0c7b17c7a8223b53d4a
