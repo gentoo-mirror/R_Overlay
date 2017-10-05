@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation and Plotting of IDF Curves // Intensity-duration-
+		frequency (IDF) curves are a widely used analysis-tool in
+		hydrology to assess extreme values of precipitation [e.g.
+		Mailhot et al., 2007, doi:10.1016/j.jhydrol.2007.09.019]. The
+		package 'IDF' provides a function to read precipitation data
+		from German weather service (DWD) 'webwerdis'
+		http://www.dwd.de/EN/ourservices/webwerdis/webwerdis.html files
+		and Berlin station data from 'Stadtmessnetz' http://www.geo.fu-
+		berlin.de/en/met/service/stadtmessnetz/index.html files, and
+		additionally IDF parameters can be estimated also from a given
+		data.frame containing a precipitation time series. The data is
+		aggregated to given levels yearly intensity maxima are
+		calculated either for the whole year or given months. From
+		these intensity maxima IDF parameters are estimated on the
+		basis of a duration-dependent generalised extreme value
+		distribution [Koutsoyannis et al., 1998,
+		doi:10.1016/S0022-1694(98)00097-3]. IDF curves based on these
+		estimated parameters can be plotted.
+	</longdescription>
+</pkgmetadata>

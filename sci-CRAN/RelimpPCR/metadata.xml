@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Relative Importance PCA Regression // Performs Principal
+		Components Analysis (also known as PCA) dimensionality
+		reduction in the context of a linear regression. In most cases,
+		PCA dimensionality reduction is performed independent of the
+		response variable for a regression. This captures the majority
+		of the variance of the model's predictors, but may not actually
+		be the optimal dimensionality reduction solution for a
+		regression against the response variable. An alternative
+		method, optimized for a regression against the response
+		variable, is to use both PCA and a relative importance measure.
+		This package applies PCA to a given data frame of predictors,
+		and then calculates the relative importance of each PCA factor
+		against the response variable. It outputs ordered factors that
+		are optimized for model fit. By performing dimensionality
+		reduction with this method, an individual can achieve a the
+		same r-squared value as performing just PCA, but with fewer PCA
+		factors. References: Gareth James, Daniela Witten, Trevor
+		Hastie, Robert Tibshirani (2013) http://www-
+		bcf.usc.edu/~gareth/ISL/.
+	</longdescription>
+</pkgmetadata>
