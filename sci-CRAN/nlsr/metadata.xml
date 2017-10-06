@@ -6,7 +6,9 @@
 		for working with nonlinear least squares problems. It is
 		intended to eventually supersede the nls() function in the R
 		distribution. For example, nls() specifically does NOT deal
-		with small or zero residual problems. Its Gauss-Newton method
-		frequently stops with 'singular gradient' messages.
+		with small or zero residual problems as its Gauss-Newton method
+		frequently stops with 'singular gradient' messages. nlsr is
+		based on the now-deprecated package nlmrt, and has refactored
+		functions and R-language symbolic derivative features.
 	</longdescription>
 </pkgmetadata>
