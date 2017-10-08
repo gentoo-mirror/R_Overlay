@@ -5,9 +5,9 @@
 		Methods to Enrich R Objects with Extra Components // Provides the
 		"enrich" method to enrich list-like R objects with new,
 		relevant components. The current version has methods for
-		enriching objects of class 'family', 'link-glm', 'lm' and
-		'glm'. The resulting objects preserve their class, so all
-		methods associated with them still apply. The package also
+		enriching objects of class 'family', 'link-glm', 'lm', 'glm'
+		and 'betareg'. The resulting objects preserve their class, so
+		all methods associated with them still apply. The package also
 		provides the 'enriched_glm' function that has the same
 		interface as 'glm' but results in objects of class
 		'enriched_glm'. In addition to the usual components in a `glm`
