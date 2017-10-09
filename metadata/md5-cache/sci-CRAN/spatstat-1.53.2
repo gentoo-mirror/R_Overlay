@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.3.0 virtual/mgcv virtual/rpart >=sci-CRAN/spatstat_utils-1.7.1 virtual/nlme >=sci-CRAN/spatstat_data-1.1.0 virtual/Matrix >=sci-CRAN/deldir-0.0.21 sci-CRAN/abind sci-CRAN/tensor >=sci-CRAN/polyclip-1.5.0 sci-CRAN/goftest dev-lang/R
+DESCRIPTION=Spatial Point Pattern Analysis, ... (see metadata)
+EAPI=5
+IUSE=r_suggests_fftwtools r_suggests_gsl r_suggests_locfit r_suggests_maptools r_suggests_randomfields r_suggests_randomfieldsutils r_suggests_rpanel r_suggests_sm r_suggests_spatial r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.3.0 virtual/mgcv virtual/rpart >=sci-CRAN/spatstat_utils-1.7.1 virtual/nlme >=sci-CRAN/spatstat_data-1.1.0 virtual/Matrix >=sci-CRAN/deldir-0.0.21 sci-CRAN/abind sci-CRAN/tensor >=sci-CRAN/polyclip-1.5.0 sci-CRAN/goftest r_suggests_fftwtools? ( >=sci-CRAN/fftwtools-0.9.8 ) r_suggests_gsl? ( sci-CRAN/gsl ) r_suggests_locfit? ( sci-CRAN/locfit ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_randomfields? ( >=sci-CRAN/RandomFields-3.1.24.1 ) r_suggests_randomfieldsutils? ( >=sci-CRAN/RandomFieldsUtils-0.3.3.1 ) r_suggests_rpanel? ( sci-CRAN/rpanel ) r_suggests_sm? ( sci-CRAN/sm ) r_suggests_spatial? ( virtual/spatial ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatstat_1.53-2.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=2e545b94896320dffe9d6daeda402dd2
