@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Family Sequence Kernel Association Test for Rare and Common
+		Variants // FamSKAT-RC is a family-based association kernel
+		test for both rare and common variants. This test is general
+		and several special cases are known as other methods: famSKAT,
+		which only focuses on rare variants in family-based data, SKAT,
+		which focuses on rare variants in population-based data
+		(unrelated individuals), and SKAT-RC, which focuses on both
+		rare and common variants in population-based data. When one
+		applies famSKAT-RC and sets the value of phi to 1, famSKAT-RC
+		becomes famSKAT. When one applies famSKAT-RC and set the value
+		of phi to 1 and the kinship matrix to the identity matrix,
+		famSKAT-RC becomes SKAT. When one applies famSKAT-RC and set
+		the kinship matrix (fullkins) to the identity matrix (and phi
+		is not equal to 1), famSKAT-RC becomes SKAT-RC. We also include
+		a small sample synthetic pedigree to demonstrate the method
+		with. For more details see Saad M and Wijsman EM (2014)
+		doi:10.1002/gepi.21844.
+	</longdescription>
+</pkgmetadata>
