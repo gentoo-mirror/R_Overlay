@@ -3,20 +3,19 @@
 <pkgmetadata>
 	<longdescription>
 		Dynamic Model Averaging and Dynamic Model Selection for
-		Continuous Outcomes // It allows to estimate Dynamic Model
-		Averaging, Dynamic Model Selection and Median Probability
-		Model. The original methods (see References) are implemented,
-		as well as, selected further modifications of these methods. In
-		particular the User might choose between recursive moment
-		estimation and exponentially moving average for variance
-		updating. Inclusion probabilities might be modified in a way
-		using Google Trends. The code is written in a way which
-		minimises the computational burden (which is quite an obstacle
-		for Dynamic Model Averaging if many variables are used). For
-		example, this package allows for parallel computations under
-		Windows machines. Additionally, the User might reduce a set of
-		models according to a certain algorithm. The package is
-		designed in a way that is hoped to be especially useful in
-		economics and finance.
+		Continuous Outcomes // Allows to estimate dynamic model
+		averaging, dynamic model selection and median probability
+		model. The original methods are implemented, as well as,
+		selected further modifications of these methods. In particular
+		the user might choose between recursive moment estimation and
+		exponentially moving average for variance updating. Inclusion
+		probabilities might be modified in a way using 'Google Trends'.
+		The code is written in a way which minimises the computational
+		burden (which is quite an obstacle for dynamic model averaging
+		if many variables are used). For example, this package allows
+		for parallel computations and Occam's window approach. The
+		package is designed in a way that is hoped to be especially
+		useful in economics and finance. Main reference: Raftery, A.E.,
+		Karny, M., Ettler, P. (2010) doi:10.1198/TECH.2009.08104.
 	</longdescription>
 </pkgmetadata>
