@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		An Extensible Approach to Flux Balance Analysis // This is a
-		simple package for Flux Balance Analysis and related metabolic
-		modelling techniques. Functions are provided for: parsing
-		models in tabular format, converting parsed metabolic models to
-		input formats for common linear programming solvers, and
-		evaluating and applying gene-protein-reaction mappings. In
-		addition, there are wrappers to parse a model, select a solver,
-		find the metabolic fluxes, and return the results applied to
-		the original model. Compared to other packages in this field,
-		this package puts a much heavier focus on providing reusable
+		An Extensible Approach to Flux Balance Analysis // A simple
+		package for Flux Balance Analysis and related metabolic
+		modeling techniques. Functions are provided for: parsing models
+		in tabular format, converting parsed metabolic models to input
+		formats for common linear programming solvers, and evaluating
+		and applying gene-protein-reaction mappings. In addition, there
+		are wrappers to parse a model, select a solver, find the
+		metabolic fluxes, and return the results applied to the
+		original model. Compared to other packages in this field, this
+		package puts a much heavier focus on providing reusable
 		components that can be used in the design of new implementation
 		of new techniques, in particular those that involve large
 		parameter sweeps.
