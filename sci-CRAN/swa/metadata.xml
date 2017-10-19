@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Subsampling Winner Algorithm for Classification // This algorithm
+		conducts variable selection in the classification setting. It
+		repeatedly subsamples variables and runs linear discriminant
+		analysis (LDA) on the subsampled variables. Variables are
+		scored based on the AUC and the t-statistics. Variables then
+		enter a competition and the semi-finalist variables will be
+		evaluated in a final round of LDA classification. The algorithm
+		then outputs a list of variable selected. Qiao, Sun and Fan
+		(2017) http://people.math.binghamton.edu/qiao/swa.html.
+	</longdescription>
+</pkgmetadata>
