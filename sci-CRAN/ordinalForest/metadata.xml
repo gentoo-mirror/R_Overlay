@@ -3,16 +3,19 @@
 <pkgmetadata>
 	<longdescription>
 		Ordinal Forests: Prediction and Variable Ranking with Ordinal
-		Target Variables // Ordinal forests (OF) are a method for
+		Target Variables // The ordinal forest (OF) method allows
 		ordinal regression with high-dimensional and low-dimensional
-		data that is able to predict the values of the ordinal target
-		variable for new observations based on a training dataset.
-		Using a (permutation-based) variable importance measure it is
-		moreover possible to rank the covariates with respect to their
-		importances in the prediction of the values of the ordinal
-		target variable. OF will be presented in an upcoming technical
-		report by Hornung et al.. The main functions of the package
-		are: ordfor() (construction of OF) and predict.ordfor()
-		(prediction of the target variable values of new observations).
+		data. After having constructed an OF prediction rule using a
+		training dataset, it can be used to predict the values of the
+		ordinal target variable for new observations. Moreover, by
+		means of the (permutation-based) variable importance measure of
+		OF, it is also possible to rank the covariates with respect to
+		their importances in the prediction of the values of the
+		ordinal target variable. OF is presented in Hornung (2017). The
+		main functions of the package are: ordfor() (construction of
+		OF) and predict.ordfor() (prediction of the target variable
+		values of new observations). References: Hornung R. (2017)
+		Ordinal Forests. Tech. Rep. 212, Department of Statistics,
+		University of Munich.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Models Dealing with Spatial Dependency in Genomic Data // Local
+		structure in genomic data often induces dependence between
+		observations taken at different genomic locations.  Ignoring
+		this dependence leads to underestimation of the standard error
+		of parameter estimates.  This package uses block bootstrapping
+		to estimate asymptotically correct standard errors of
+		parameters from any standard generalised linear model that may
+		be fit by the glm() function.
+	</longdescription>
+</pkgmetadata>
