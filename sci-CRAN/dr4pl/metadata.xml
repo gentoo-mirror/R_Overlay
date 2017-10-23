@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Dose Response Data Analysis using the 4 Parameter Logistic (4PL)
+		Model // Models the relationship between dose levels and
+		responses in a pharmacological experiment using the 4 Parameter
+		Logistic model. Traditional packages on dose-response modelling
+		such as 'drc' and 'nplr' often draw errors due to convergence
+		failure especially when data have outliers or non-logistic
+		shapes. This package provides robust estimation methods that
+		are less affected by outliers and other initialization methods
+		that work well for data lacking logistic shapes. We provide the
+		bounds on the parameters of the 4PL model that prevent
+		parameter estimates from diverging or converging to zero and
+		base their justification in a statistical principle. These
+		methods are used as remedies to convergence failure problems.
+		Gadagkar, S. R. and Call, G. B. (2015)
+		doi:10.1016/j.vascn.2014.08.006 Ritz, C. and Baty, F. and
+		Streibig, J. C. and Gerhard, D. (2015)
+		doi:10.1371/journal.pone.0146021.
+	</longdescription>
+</pkgmetadata>

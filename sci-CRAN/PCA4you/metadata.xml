@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		PCA Plotting in a User Friendly Way // A central part of using
+		PCA and similar methods are creating and using plots. Visual
+		inspection of these plots is an extremely powerful way of
+		understanding your matrix-form data. Doing this is essential
+		when applying multivariate methods on real-life matrix data.
+		This package provides plots, tailor made for understanding a
+		PCA model on a matrix dataset. We have worked to design plots
+		that supports the mathematical properties of PCA, but still
+		easy to use and understand. The flexibility of the plotting
+		capacity of R has been utilized to create a look and feel that
+		supports the understanding of the PCA model. In addition to
+		that, this package contains a prediction function, using PCA to
+		fill "holes" in a matrix. This package does not provide you
+		with the scores and loadings etc in numeric form. This is
+		provided through the underlying package 'mixOmics' which is the
+		basis of this package. In addition, applied PCA on real life
+		data requires flexibility. The original way of calculating a
+		PCA is by using the method SVD, used in e.g. 'stats' package.
+		This is preferred from a precision point of view. But 'PCA4you'
+		is based on the method NIPALS for calculating the PCA model.
+		Hence, the following cases, which are not (or poorly) supported
+		by SVD, are fully supported by 'PCA4you':  1) Non complete
+		matrices with little or a lot of missing values 2) More row
+		than columns, sometimes a huge difference 3) More columns than
+		rows, sometimes a huge difference 4) Complete decomposition is
+		not possible or desired. Sometimes all components can not be
+		calculated for different reasons. Big data, system resources or
+		time can limit the desired number of principal components.
+	</longdescription>
+</pkgmetadata>
