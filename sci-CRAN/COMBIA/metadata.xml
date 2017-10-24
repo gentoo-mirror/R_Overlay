@@ -3,16 +3,19 @@
 <pkgmetadata>
 	<longdescription>
 		Synergy/Antagonism Analyses of Drug Combinations // A
-		comprehensive synergy/antagonism  analyses of drug combinations
+		comprehensive synergy/antagonism analyses of drug combinations
 		with quality graphics and data. The analyses can be performed
-		by Bliss independence and Loewe additivity models. COMBIA
+		by Bliss independence and Loewe additivity models. 'COMBIA'
 		provides improved statistical analysis and makes only very weak
 		assumption of data variability while calculating bootstrap
-		intervals (BIs). Finally, package saves analyzed data, 2D and
-		3D plots ready to  use in research publications. COMBIA does
-		not require manual data entry. Data can be directly input from
+		intervals (BIs). It is based on heteroscedasticity controlled
+		resampling (bootstrapping) and includes a global (omnibus)
+		test. Finally, package saves analyzed data, 2D and 3D plots
+		ready to use in research publications. 'COMBIA' does not
+		require manual data entry. Data can be directly input from
 		wetlab experimental platforms for example fluostar, automated
-		robots etc. One needs to call a single function only to perform
-		all analysis (examples are provided with sample data).
+		robots etc. One only needs to call a single function,
+		analyzeCOMBO(), to perform all analysis (examples are provided
+		with sample data).
 	</longdescription>
 </pkgmetadata>

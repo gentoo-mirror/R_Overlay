@@ -5,12 +5,12 @@
 		Models for Continuous Traits Evolving in Macroevolutionary
 		Landscapes of any Shape // Provides a set of functions to fit
 		general macroevolutionary models for continuous traits evolving
-		in adaptive landscapes of any shape. The model is based on
-		bounded Brownian motion (BBM), in which a continuous trait
-		evolves along a phylogenetic tree under constant-rate diffusion
-		between two reflective bounds. In addition to this random
-		component, the trait evolves in a potential and is thus subject
-		to a force that pulls it towards specific values - this force
-		can be of any shape.
+		in adaptive landscapes of any shape. This package implements
+		the Fokker-Planck-Kolmogorov model (FPK), in which the trait
+		evolves under random diffusion but is also subject to a force
+		that pulls it towards specific values - this force can be of
+		any shape. FPK has a version in which hard reflective bounds
+		exist at the extremes of the trait interval: this second model
+		is called BBMV.
 	</longdescription>
 </pkgmetadata>
