@@ -4,8 +4,8 @@
 	<longdescription>
 		Meta-Analysis via a Unified Framework of Confidence Distribution
 		// An implementation of an all-in-one function for a wide range
-		of meta-analysis problems. It contains a single function
-		gmeta() that unifies all standard meta-analysis methods and
+		of meta-analysis problems. It contains three functions. The
+		gmeta() function unifies all standard meta-analysis methods and
 		also several newly developed ones under a framework of
 		combining confidence distributions (CDs). Specifically, the
 		package can perform classical p-value combination methods (such
@@ -16,8 +16,16 @@
 		misspecifications, and limits the impact of any unknown
 		outlying studies. In addition, the package implements two exact
 		meta-analysis methods from synthesizing 2x2 tables with rare
-		events (e.g., zero total event). A plot function to visualize
+		events (e.g., zero total event). The np.gmeta() function
+		summarizes information obtained from multiple studies and makes
+		inference for study-level parameters with no distributional
+		assumption. Specifically, it can construct confidence intervals
+		for unknown, fixed study-level parameters via confidence
+		distribution. Furthermore, it can perform  estimation via
+		asymptotic confidence distribution whether tie or near tie
+		condition exist or not. The plot.gmeta() function to visualize
 		individual and combined CDs through extended forest plots is
-		also available.
+		also available. Compared to version 2.2-6, version 2.3-0
+		contains a new function np.gmeta().
 	</longdescription>
 </pkgmetadata>

@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Out of Bag Learning Curve // Provides a function to calculate the
+		Out of Bag Learning Curve // Provides functions to calculate the
 		out-of-bag learning curve for random forests for any measure
 		that is available in the 'mlr' package. Supported random forest
 		packages are 'randomForest' and 'ranger' and trained models of
-		these packages with the train function of 'mlr'.
+		these packages with the train function of 'mlr'. The main
+		function is 'OOBCurve' that calculates the out-of-bag curve
+		depending on the number of trees. With the 'OOBCurvePars'
+		function out-of-bag curves can also be calculated for 'mtry',
+		'sample.fraction' and 'min.node.size' for the 'ranger' package.
 	</longdescription>
 </pkgmetadata>
