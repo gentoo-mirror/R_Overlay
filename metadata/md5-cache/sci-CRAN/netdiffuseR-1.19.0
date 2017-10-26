@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/network virtual/boot sci-CRAN/igraph virtual/MASS sci-CRAN/MatchIt sci-CRAN/SparseM sci-CRAN/sna virtual/Matrix >=dev-lang/R-3.1.1 >=sci-CRAN/Rcpp-0.12.1 sci-CRAN/networkDynamic dev-lang/R
+DESCRIPTION=Analysis of Diffusion and Contag... (see metadata)
+EAPI=5
+IUSE=r_suggests_ape r_suggests_covr r_suggests_knitr r_suggests_rsiena r_suggests_survival r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/network virtual/boot sci-CRAN/igraph virtual/MASS sci-CRAN/MatchIt sci-CRAN/SparseM sci-CRAN/sna virtual/Matrix >=dev-lang/R-3.1.1 >=sci-CRAN/Rcpp-0.12.1 sci-CRAN/networkDynamic sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_ape? ( sci-CRAN/ape ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rsiena? ( sci-CRAN/RSiena ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/netdiffuseR_1.19.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=6c5b22aad9ab3854e9c5c5754c5f615c
