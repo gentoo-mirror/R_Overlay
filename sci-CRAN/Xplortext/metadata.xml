@@ -2,7 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Statistical Analysis of Textual Data // A complete set of
-		functions devoted to statistical analysis of documents.
+		Statistical Analysis of Textual Data // Provides a set of
+		functions devoted to multivariate exploratory statistics on
+		textual data. Classical methods such as correspondence analysis
+		and agglomerative hierarchical clustering are available.
+		Chronologically constrained agglomerative hierarchical
+		clustering enriched with labelled-by-words trees is offered.
+		Given a division of the corpus into parts, their characteristic
+		words and documents are identified. Further, accessing to
+		'FactoMineR' functions is very easy. Two of them are relevant
+		in textual domain. MFA() addresses multiple lexical table
+		allowing applications such as dealing with multilingual corpora
+		as well as simultaneously analyzing both open-ended and closed
+		questions in surveys. CaGalt() helps to explore the
+		relationships between lexical choices and contextual variables.
+		See http://www.Xplortext.org for examples.
 	</longdescription>
 </pkgmetadata>
