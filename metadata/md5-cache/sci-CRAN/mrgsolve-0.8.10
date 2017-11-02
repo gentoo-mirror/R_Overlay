@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/dplyr-0.7.4 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/tibble-1.2 >=dev-lang/R-3.1.2 >=sci-CRAN/Rcpp-0.12.12 >=sci-CRAN/lazyeval-0.1.10 >=sci-CRAN/RcppArmadillo-0.7.900.2.0 dev-lang/R
+DESCRIPTION=Simulate from ODE-Based Populati... (see metadata)
+EAPI=5
+IUSE=r_suggests_lattice r_suggests_rmarkdown r_suggests_testthat r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/dplyr-0.7.4 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/tibble-1.2 >=dev-lang/R-3.1.2 >=sci-CRAN/Rcpp-0.12.12 >=sci-CRAN/lazyeval-0.1.10 >=sci-CRAN/RcppArmadillo-0.7.900.2.0 >=sci-CRAN/Rcpp-0.12.12 >=sci-CRAN/RcppArmadillo-0.7.900.2.0 >=sci-CRAN/BH-1.62.0.1 r_suggests_lattice? ( virtual/lattice ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xml? ( sci-omegahat/XML ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mrgsolve_0.8.10.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=c2f0486c43a8661c4b6f35237b23d129
