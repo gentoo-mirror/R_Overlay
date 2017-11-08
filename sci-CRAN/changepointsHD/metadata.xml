@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Change-Point Estimation for Expensive and High-Dimensional Models
+		// This implements the methods developed in, L. Bybee and Y.
+		Atchade. (2017) arXiv:1707.04306.  Contains a series of methods
+		for estimating change-points given user specified black-box
+		models.  The methods include binary segmentation for multiple
+		change-point estimation. For estimating each individual change-
+		point the package includes simulated annealing, brute force,
+		and, for Gaussian graphical models, an application specific
+		rank-one update implementation.  Additionally, code for
+		estimating Gaussian graphical models is included.  The goal of
+		this package is to allow for the efficient estimation of
+		change-points in complicated models with high dimensional data.
+	</longdescription>
+</pkgmetadata>
