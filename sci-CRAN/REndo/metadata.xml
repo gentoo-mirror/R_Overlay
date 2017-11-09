@@ -15,12 +15,12 @@
 		moment approach that deals with endogeneity in a multilevel
 		setting. These are statistical techniques to address the
 		endogeneity problem where no external instrumental variables
-		are needed. This version: - solves an error occurring when
-		using the multilevelIV() function with two levels, random
-		intercept. - returns the AIC and BIC for copulaCorrection()
-		(method 1) and latentIV() methods. - residuals and fitted
-		values can be saved by users for latentIV() and
-		copulaCorrection() methods. - improves the summary methods for
-		copulaCorrection() and multilevelIV() functions.
+		are needed. This version: - includes an omitted variable test
+		in the multilevel estimation. It is reported in the summary()
+		function of the multilevelIV() function. - resolves the error
+		"Error in listIDs[, 1] : incorrect number of dimensions" when
+		using the multilevelIV() function. - a new simulated dataset is
+		provided, dataMultilevelIV, on which to exemplify the
+		multilevelIV() function.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Query-Driven Pipeline Execution and Query Templates // Runs a
+		function iteratively over each row of either a dataframe or the
+		results of a query.  Use the 'BigQuery' and 'DBI' wrappers to
+		iteratively pass each row of query results to a function.  If a
+		field contains a 'JSON' string, it will be converted to an
+		object.  This is helpful for queries that return 'JSON' strings
+		that represent objects. These fields can then be treated as
+		objects by the pipeline.
+	</longdescription>
+</pkgmetadata>
