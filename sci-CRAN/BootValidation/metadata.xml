@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Adjusting for Optimism in 'glmnet' Regression using Bootstrapping
+		// Main objective of a predictive model is to provide accurated
+		predictions of a new observations. Unfortunately we don't know
+		how well the model performs. In addition, at the current era of
+		omic data where p  n, is not reasonable applying internal
+		validation using data-splitting. Under this background a good
+		method to assessing model performance is applying internal
+		bootstrap validation (Harrell Jr, Frank E (2015)
+		doi:10.1007/978-1-4757-3462-1.) This package provides bootstrap
+		validation for the linear and logistic 'glmnet' models.
+	</longdescription>
+</pkgmetadata>

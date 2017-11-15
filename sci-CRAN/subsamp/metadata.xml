@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Subsample Winner Algorithm for Variable Selection in Linear
+		Regression with a Large Number of Variables // This subsample
+		winner algorithm (SWA) for regression with a large-p data (X,
+		Y) selects the important variables (or features) among the p
+		features X in explaining the response Y.  The SWA first uses a
+		base procedure,  here a linear regression, on each of
+		subsamples randomly drawn from the p variables, and then
+		computes the scores of all features, i.e., the p variables,
+		according to the performance of these features collected in
+		each of the subsample analyses. It then obtains the
+		'semifinalist' of the features based on the resulting scores
+		and determines the 'finalists', i.e., the important features,
+		from the 'semifinalist'.  Fan, Sun and Qiao (2017)
+		http://sr2c.case.edu/swa-reg/.
+	</longdescription>
+</pkgmetadata>

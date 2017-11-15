@@ -10,9 +10,13 @@
 		named lists ('nlist', 'as.nlist', 'is.nlist'), formulas
 		('is.formula'), empty objects ('as.empty', 'is.empty'), whole
 		numbers ('as.wholenumber', 'is.wholenumber'); testing for
-		equality ('almost.equal', 'almost.zero'); getting modified
-		versions of usual functions ('rle2', 'sumNA'); making a pause
-		or a stop ('pause', 'stopif'); and others ('erase', '%nin%',
-		'unwhich').
+		equality ('almost.equal', 'almost.zero') and computing
+		uniqueness ('almost.unique'); getting modified versions of
+		usual functions ('rle2', 'sumNA'); making a pause or a stop
+		('pause', 'stopif'); converting into a function ('as.fun');
+		providing a C like ternary operator ('condition %?% true %:%
+		false'); finding packages and functions ('get_all_pkgs',
+		'get_all_funs'); and others ('erase', '%nin%', 'unwhich',
+		'top', 'bot', 'normlize').
 	</longdescription>
 </pkgmetadata>
