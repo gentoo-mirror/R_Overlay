@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<longdescription>
 		Log-Multiplicative Models, Including Association Models //
-		Functions to fit log-multiplicative models using gnm, with
+		Functions to fit log-multiplicative models using 'gnm', with
 		support for convenient printing, plots, and jackknife/bootstrap
 		standard errors. For complex survey data, models can be fitted
 		from design objects from the 'survey' package. Currently
@@ -12,6 +12,9 @@
 		association models: Goodman's row-column association models of
 		the RC(M) and RC(M)-L families with one or several dimensions;
 		two skew-symmetric association models proposed by Yamaguchi and
-		by van der Heijden  Mooijaart.
+		by van der Heijden  Mooijaart. Functions allow computing the
+		intrinsic association coefficient (and therefore the Altham
+		index), including via the Bayes shrinkage estimator proposed by
+		Zhou; and the RAS/IPF/Deming-Stephan algorithm.
 	</longdescription>
 </pkgmetadata>
