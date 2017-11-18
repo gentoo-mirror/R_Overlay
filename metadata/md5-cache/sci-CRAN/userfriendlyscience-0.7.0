@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/DiagrammeR sci-CRAN/ggridges sci-CRAN/fBasics sci-CRAN/lavaan sci-CRAN/psych sci-CRAN/pwr sci-CRAN/SuppDists sci-CRAN/xtable sci-CRAN/data_tree sci-CRAN/GPArotation virtual/MASS sci-CRAN/scales sci-CRAN/viridis sci-CRAN/pander sci-CRAN/digest sci-CRAN/car sci-CRAN/gridExtra sci-CRAN/minpack_lm sci-CRAN/GGally sci-CRAN/ggrepel sci-CRAN/knitr sci-CRAN/rio sci-CRAN/SCRT sci-omegahat/XML sci-CRAN/ggplot2 sci-CRAN/gtable sci-CRAN/lme4 sci-CRAN/MBESS sci-CRAN/RColorBrewer sci-CRAN/BiasedUrn sci-CRAN/diptest sci-CRAN/plyr dev-lang/R
+DESCRIPTION=Quantitative Analysis Made Accessible
+EAPI=5
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/DiagrammeR sci-CRAN/ggridges sci-CRAN/fBasics sci-CRAN/lavaan sci-CRAN/psych sci-CRAN/pwr sci-CRAN/SuppDists sci-CRAN/xtable sci-CRAN/data_tree sci-CRAN/GPArotation virtual/MASS sci-CRAN/scales sci-CRAN/viridis sci-CRAN/pander sci-CRAN/digest sci-CRAN/car sci-CRAN/gridExtra sci-CRAN/minpack_lm sci-CRAN/GGally sci-CRAN/ggrepel sci-CRAN/knitr sci-CRAN/rio sci-CRAN/SCRT sci-omegahat/XML sci-CRAN/ggplot2 sci-CRAN/gtable sci-CRAN/lme4 sci-CRAN/MBESS sci-CRAN/RColorBrewer sci-CRAN/BiasedUrn sci-CRAN/diptest sci-CRAN/plyr dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/userfriendlyscience_0.7.0.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=6be045eb2cfbe960f3f0a8216a379809
