@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Selection for Latent Class Analysis // Variable
+		selection for latent class analysis for model-based clustering
+		of multivariate categorical data. The package implements a
+		general framework for selecting the subset of variables with
+		relevant clustering information and discard those that are
+		redundant and/or not informative. The variable selection method
+		is based on the approach of Fop et al. (2015) arXiv:1512.03350
+		and Dean and Raftery (2010) doi:10.1007/s10463-009-0258-9.
+		Different algorithms are available to perform the selection:
+		stepwise, swap-stepwise and evolutionary stochastic search.
+		Concomitant covariates used to predict the class membership
+		probabilities can also be included in the latent class analysis
+		model. The selection procedure can be run in parallel on
+		multiple cores machines.
+	</longdescription>
+</pkgmetadata>

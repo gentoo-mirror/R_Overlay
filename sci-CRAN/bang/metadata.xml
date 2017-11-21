@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Analysis, No Gibbs // Provides functions for the
+		Bayesian analysis of some simple commonly-used models, without
+		using Markov Chain Monte Carlo (MCMC) methods such as Gibbs
+		sampling.  The 'rust' package
+		https://cran.r-project.org/package=rust is used to simulate a
+		random sample from the required posterior distribution. At the
+		moment three conjugate hierarchical models are available: beta-
+		binomial, gamma-Poisson and a 1-way analysis of variance
+		(ANOVA).
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/lme4 sci-CRAN/mitools sci-CRAN/sirt sci-CRAN/mice sci-CRAN/mvtnorm >=sci-CRAN/TAM-2.5.5 >=dev-lang/R-3.0 >=sci-CRAN/CDM-5.8.5 sci-CRAN/Rcpp dev-lang/R
+DESCRIPTION=Some Additional Multiple Imputat... (see metadata)
+EAPI=5
+IUSE=r_suggests_amelia r_suggests_bifiesurvey r_suggests_blme r_suggests_car r_suggests_foreign r_suggests_grouped r_suggests_haven r_suggests_hmi r_suggests_hmisc r_suggests_inline r_suggests_jomo r_suggests_mbess r_suggests_mcmcglmm r_suggests_micemd r_suggests_mitml r_suggests_multiwayvcov r_suggests_pan r_suggests_pls r_suggests_sjlabelled r_suggests_zelig byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/lme4 sci-CRAN/mitools sci-CRAN/sirt sci-CRAN/mice sci-CRAN/mvtnorm >=sci-CRAN/TAM-2.5.5 >=dev-lang/R-3.0 >=sci-CRAN/CDM-5.8.5 sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_amelia? ( sci-CRAN/Amelia ) r_suggests_bifiesurvey? ( sci-CRAN/BIFIEsurvey ) r_suggests_blme? ( sci-CRAN/blme ) r_suggests_car? ( sci-CRAN/car ) r_suggests_foreign? ( virtual/foreign ) r_suggests_grouped? ( sci-CRAN/grouped ) r_suggests_haven? ( sci-CRAN/haven ) r_suggests_hmi? ( sci-CRAN/hmi ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_inline? ( sci-CRAN/inline ) r_suggests_jomo? ( sci-CRAN/jomo ) r_suggests_mbess? ( sci-CRAN/MBESS ) r_suggests_mcmcglmm? ( sci-CRAN/MCMCglmm ) r_suggests_micemd? ( sci-CRAN/micemd ) r_suggests_mitml? ( sci-CRAN/mitml ) r_suggests_multiwayvcov? ( sci-CRAN/multiwayvcov ) r_suggests_pan? ( sci-CRAN/pan ) r_suggests_pls? ( sci-CRAN/pls ) r_suggests_sjlabelled? ( sci-CRAN/sjlabelled ) r_suggests_zelig? ( sci-CRAN/Zelig ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/miceadds_2.8-24.tar.gz
+_eclasses_=R-packages	973a1b065237e8f79f6e6123ef7a0ff6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=d87ddf01cc1e89c09fc34f81f536144c
