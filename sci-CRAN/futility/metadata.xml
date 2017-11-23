@@ -16,7 +16,9 @@
 		the follow-up period. The future (i.e., yet unobserved)
 		enrollment, endpoint, and dropout times are generated according
 		to mechanisms specified in the simTrial() function in the
-		'seqDesign' package. A Bayesian model for the endpoint rate is
-		used for generating future data (see the vignette for details).
+		'seqDesign' package. A Bayesian model for the endpoint rate,
+		offering the option to specify a robust mixture prior
+		distribution, is used for generating future data (see the
+		vignette for details).
 	</longdescription>
 </pkgmetadata>

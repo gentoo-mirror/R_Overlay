@@ -7,13 +7,14 @@
 		methods in this package are primarily for use in multiple step
 		procedures where the first step is to estimate a conditional
 		distribution.  In particular, there are functions for
-		implementing distribution regression.  Distribution regression
-		provides a way to flexibly model the distribution of some
-		outcome Y conditional on covariates X without imposing
-		parametric assumptions on the conditional distribution but
-		providing more structure than fully nonparametric estimation
-		(See Foresi and Peracchi (1995) doi:10.2307/2291056 and
-		Chernozhukov, Fernandez-Val, and Melly (2013)
-		doi:10.3982/ECTA10582).
+		implementing distribution regression, quantile regression, and
+		versions of local linear distribution regression; all in a
+		unified framework.  Distribution regression provides a way to
+		flexibly model the distribution of some outcome Y conditional
+		on covariates X without imposing parametric assumptions on the
+		conditional distribution but providing more structure than
+		fully nonparametric estimation (See Foresi and Peracchi (1995)
+		doi:10.2307/2291056 and Chernozhukov, Fernandez-Val, and Melly
+		(2013) doi:10.3982/ECTA10582).
 	</longdescription>
 </pkgmetadata>
