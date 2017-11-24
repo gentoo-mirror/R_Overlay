@@ -3,17 +3,18 @@
 <pkgmetadata>
 	<longdescription>
 		Fitting Point Process Models via the Palm Likelihood // Functions
-		for the fitting of point process models using the Palm
-		likelihood. First proposed by Tanaka, Ogata, and Stoyan (2008)
+		to fit point process models using the Palm likelihood. First
+		proposed by Tanaka, Ogata, and Stoyan (2008)
 		DOI:10.1002/bimj.200610339, maximisation of the Palm likelihood
-		can provide computationally efficient parameter estimation in
-		situations where the full likelihood is intractable. This
-		package is chiefly focused on Neyman-Scott point processes, but
-		can also fit void processes. The development of this package
-		was motivated by the analysis of capture-recapture surveys on
-		which individuals cannot be identified---the data from which
-		can conceptually be seen as a clustered point process. As such,
-		some of the functions in this package are specifically for the
-		estimation of cetacean density from two-camera aerial surveys.
+		can provide computationally efficient parameter estimation for
+		point process models in situations where the full likelihood is
+		intractable. This package is chiefly focused on Neyman-Scott
+		point processes, but can also fit void processes. The
+		development of this package was motivated by the analysis of
+		capture-recapture surveys on which individuals cannot be
+		identified---the data from which can conceptually be seen as a
+		clustered point process. As such, some of the functions in this
+		package are specifically for the estimation of cetacean density
+		from two-camera aerial surveys.
 	</longdescription>
 </pkgmetadata>
