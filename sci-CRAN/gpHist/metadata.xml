@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gaussian Process with Histogram Intersection Kernel // Provides
+		an implementation of a Gaussian process regression with a
+		histogram intersection kernel (HIK) and utilizes approximations
+		to speed up learning and prediction. In contrast to a squared
+		exponential kernel, an HIK provides advantages such as linear
+		memory and learning time requirements. However, the HIK only
+		provides a piecewise-linear approximation of the function.
+		Furthermore, the number of estimated eigenvalues is reduced.
+		The eigenvalues and vectors are required for the approximation
+		of the log-likelihood function as well as the approximation of
+		the predicted variance of new samples. This package provides
+		approximations for a single eigenvalue as well as multiple.
+		Further information of the variance and log-likelihood
+		approximation, as well as the Gaussian process with HIK, can be
+		found in the paper by Rodner et al. (2016)
+		doi:10.1007/s11263-016-0929-y.
+	</longdescription>
+</pkgmetadata>
