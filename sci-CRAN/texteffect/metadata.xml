@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Discovering Latent Treatments in Text Corpora and Estimating
+		Their Causal Effects // Implements the approach described in
+		Fong and Grimmer (2016)
+		https://aclweb.org/anthology/P/P16/P16-1151.pdf for
+		automatically discovering latent treatments from a corpus and
+		estimating the average marginal component effect (AMCE) of each
+		treatment.  The data is divided into a training and test set.
+		The supervised Indian Buffet Process (sibp) is used to discover
+		latent treatments in the training set.  The fitted model is
+		then applied to the test set to infer the values of the latent
+		treatments in the test set.  Finally, Y is regressed on the
+		latent treatments in the test set to estimate the causal effect
+		of each treatment.
+	</longdescription>
+</pkgmetadata>
