@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Adaptive Shrinkage of Correlation Vectors and Matrices //
+		Performs adaptive shrinkage of correlation and covariance
+		matrices using a mixture model prior over the Fisher
+		z-transformation of the correlations, Stephens (2016)
+		doi:10.1093/biostatistics/kxw041 with the method flexible in
+		choosing a separate shrinkage intensity for each cell of the
+		correlation or covariance matrices: it is particularly
+		efficient in handling missing data in the data matrix.
+	</longdescription>
+</pkgmetadata>

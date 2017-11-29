@@ -2,7 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Decision Forest // Decision forest: combining the predictions of
-		multiple independent decision tree models.
+		Decision Forest // Provides R-implementation of Decision forest
+		algorithm, which combines the predictions of multiple
+		independent decision tree models for a consensus decision. In
+		particular, Decision Forest is a novel pattern-recognition
+		method which can be used to analyze: (1) DNA microarray data;
+		(2) Surface-Enhanced Laser Desorption/Ionization Time-of-Flight
+		Mass Spectrometry  (SELDI-TOF-MS) data; and (3) Structure-
+		Activity Relation (SAR) data. In this package, three
+		fundamental functions are provided, as (1)DF_train, (2)DF_pred,
+		and (3)DF_CV. run Dforest() to see more instructions. Weida
+		Tong (2003) doi:10.1021/ci020058s.
 	</longdescription>
 </pkgmetadata>
