@@ -15,9 +15,9 @@
 		compute E-values for the relevant outcome types. Outcome types
 		include risk ratios, odds ratio with common or rare outcomes,
 		hazard ratios with common or rare outcomes, and standardized
-		differences in outcomes. Optionally, one can use the biasPlot()
-		function to plot the bias factor as a function of two
-		sensitivity parameters. (See VanderWeele  Ding, 2017
+		differences in outcomes. Optionally, one can use the
+		bias_plot() function to plot the bias factor as a function of
+		two sensitivity parameters. (See VanderWeele  Ding, 2017
 		[http://annals.org/aim/article/2643434] for details.) For a
 		meta-analysis, use the function confounded_meta to compute
 		point estimates and inference for: (1) the proportion of
