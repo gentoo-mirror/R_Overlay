@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulating Neutral Landscape Models // Provides neutral landscape
+		models (Gardner et al. 1987 doi:10.1007/BF02275262, With 1997
+		doi:10.1046/j.1523-1739.1997.96210.x) that can easily extend in
+		existing landscape analyses. Neutral landscape models range
+		from "hard" neutral models (only random functions) to "soft"
+		ones (with parameters) and generate landscape patterns that are
+		not grounded in ecological reasoning. Thus, these patterns can
+		be used as null models in landscape ecology. 'NLMR' combines a
+		large number of algorithms from published software (Saura
+		Martnez 2000   doi:10.1023/A:1008107902848, Etherington et al.
+		2015 doi:10.1111/2041-210X.12308) for simulating neutral
+		landscapes and includes utility functions to classify and
+		combine the landscapes. The simulation results are obtained in
+		a geospatial data format (raster* objects from the 'raster'
+		package) and can, therefore, be used in any sort of raster data
+		operation that is performed with standard observation data.
+	</longdescription>
+</pkgmetadata>
