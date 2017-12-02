@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Straightforward 'NetCDF' Metadata // Extract metadata from
+		'NetCDF' data sources, these can be files, file handles or
+		servers. This package leverages and extends the lower level
+		functions of the 'RNetCDF' package providing a consistent set
+		of functions that all return data frames. We introduce named
+		concepts of 'grid', 'axis' and 'source' which are all
+		meaningful entities without formal definition in the 'NetCDF'
+		library https://www.unidata.ucar.edu/software/netcdf/.
+		'RNetCDF' matches the library itself with only the named
+		concepts of 'variables', 'dimensions' and 'attributes'.
+		'ncmeta' provides a required framework for the in-development
+		'tidync' project https://github.com/hypertidy/ncmeta.
+	</longdescription>
+</pkgmetadata>

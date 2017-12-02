@@ -2,13 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Formalized Plots for Self-Describing Data // Creates fully-
-		annotated plots with minimum guidance. Since the data is self-
-		describing, less effort is needed for creating the plot.
-		Generally expects data of class folded (see 'fold' package). If
-		attributes GUIDE and LABEL are present, they will be used to
-		create formal axis labels. Several aesthetics are supported,
-		such as reference lines, unity lines, smooths, and log
-		transformations.
+		Formalized Plots with Systematic Metadata // Designs plots in
+		terms of core structure.  See 'example(metaplot)'. Primary
+		arguments are (unquoted) column names; order and type (numeric
+		or not) dictate the resulting plot.  Specify any y variables, x
+		variable, any groups variable, and any conditioning variables
+		to metaplot() to generate density plots, boxplots,
+		scatterplots, scatterplot matrices, or conditioned plots.
+		Honors scalar column attributes 'label' and 'guide' where
+		present to produce fully annotated plots using concise syntax.
+		Attribute 'guide' is typically units, but may be encoded() to
+		provide interpretations of categorical values (see 'encode'
+		package).  Utility unpack() transforms scalar column attributes
+		to row values and pack() does the reverse, supporting tool-
+		neutral storage of metadata along with primary data. Supports
+		customizable aesthetics such as such as reference lines, unity
+		lines, smooths, log transformation, and linear fits. Compact
+		syntax and isolated metadata promote workflow scalability.
 	</longdescription>
 </pkgmetadata>
