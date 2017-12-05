@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Over Sampling for Time Series Classification // Oversampling of
+		imbalanced univariate time series classification data using
+		integrated ESPO and ADASYN methods. Enhanced Structure
+		Preserving Oversampling (ESPO) is used to generate a large
+		percentage of the synthetic minority samples from univariate
+		labeled time series under the modeling assumption that the
+		predictors are Gaussian. ESPO estimates the covariance
+		structure of the minority-class samples and applies a spectral
+		filer to reduce noise. Adaptive Synthetic (ADASYN) sampling
+		approach is a nearest neighbor interpolation approach which is
+		subsequently applied to the ESPO samples. This code is ported
+		from a 'MATLAB' implementation by Cao et al.
+		doi:10.1109/TKDE.2013.37 and adapted for use with Recurrent
+		Neural Networks implemented in 'TensorFlow'.
+	</longdescription>
+</pkgmetadata>
