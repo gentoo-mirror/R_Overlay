@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parameter Inference for Systems of Differential Equation //
+		Efficient Bayesian parameter inference for systems of ordinary
+		differential equations. The inference is based on adaptive
+		gradient matching (AGM, Dondelinger et al. 2013
+		http://proceedings.mlr.press/v31/dondelinger13a.pdf, Macdonald
+		2017 http://theses.gla.ac.uk/7987/1/2017macdonaldphd.pdf),
+		which offers orders-of-magnitude improvements in computational
+		efficiency over standard methods that require solving the
+		differential equation system. Features of the package include
+		flexible specification of custom ODE systems as R functions,
+		support for missing variables, Bayesian inference via
+		population MCMC.
+	</longdescription>
+</pkgmetadata>

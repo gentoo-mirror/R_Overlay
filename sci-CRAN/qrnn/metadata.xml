@@ -2,8 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Quantile Regression Neural Network // Fit a quantile regression
-		neural network with optional left censoring using a variant of
-		the finite smoothing algorithm.
+		Quantile Regression Neural Network // Fit quantile regression
+		neural network models with optional left censoring, partial
+		monotonicity constraints, generalized additive model
+		constraints, and the ability to fit multiple non-crossing
+		quantile functions following Cannon (2011)
+		doi:10.1016/j.cageo.2010.07.005 and Cannon (2017)
+		doi:10.17605/OSF.IO/WG7SN.
 	</longdescription>
 </pkgmetadata>
