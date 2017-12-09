@@ -2,18 +2,21 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Randomized Singular Value Decomposition // Randomized singular
-		value decomposition (rsvd) is a very fast probabilistic
-		algorithm that can be used to compute the near optimal low-rank
-		singular value decomposition of massive data sets with high
-		accuracy. SVD plays a central role in data analysis and
-		scientific computing. SVD is also widely used for computing
-		(randomized) principal component analysis (PCA), a linear
-		dimensionality reduction technique. Randomized PCA (rpca) uses
-		the approximated singular value decomposition to compute the
-		most significant principal components. This package also
-		includes a function to compute (randomized) robust principal
-		component analysis (RPCA). In addition several plot functions
-		are provided.
+		Randomized Singular Value Decomposition // Low-rank matrix
+		decompositions are fundamental tools and widely used for data
+		analysis, dimension reduction, and data compression.
+		Classically, highly accurate deterministic matrix algorithms
+		are used for this task. However, the emergence of large-scale
+		data has severely challenged our computational ability to
+		analyze big data. The concept of randomness has been
+		demonstrated as an effective strategy to quickly produce
+		approximate answers to familiar problems such as the singular
+		value decomposition (SVD). The rsvd package provides several
+		randomized matrix algorithms such as the randomized singular
+		value decomposition (rsvd), randomized principal component
+		analysis (rpca), randomized robust principal component analysis
+		(rrpca), randomized interpolative decomposition (rid), and the
+		randomized CUR decomposition (rcur). In addition several plot
+		functions are provided.
 	</longdescription>
 </pkgmetadata>
