@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Dirichlet Process Mixture Model for Clustering Longitudinal
+		Gene Expression Data // Many clustering methods have been
+		proposed, but most of them cannot work for longitudinal gene
+		expression data. 'BClustLonG' is a package that allows us to
+		perform clustering analysis for longitudinal gene expression
+		data. It adopts a linear-mixed effects framework to model the
+		trajectory of genes over time, while clustering is jointly
+		conducted based on the regression coefficients obtained from
+		all genes. To account for the correlations among genes and
+		alleviate the high dimensionality challenges, factor analysis
+		models are adopted for the regression coefficients. The
+		Dirichlet process prior distribution is utilized for the means
+		of the regression coefficients to induce clustering. This
+		package allows users to specify which variables to use for
+		clustering (intercepts or slopes or both) and whether a factor
+		analysis model is desired. More details about this method can
+		be found in Jiehuan Sun, et al. (2017) doi:10.1002/sim.7374.
+	</longdescription>
+</pkgmetadata>

@@ -3,13 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Analysis of RNA Cytosine-5 Methylation // Bisulfite-treated RNA
-		non-conversion in a set of samples is analysed as follows: each
-		sample's Poisson parameter is estimated, and non-conversion
-		p-values are calculated for each sample and adjusted for
-		multiple testing. Finally, combined non-conversion p-value and
-		standard error of the non-conversion are calculated on the
-		intersection of the set of samples. A low combined non-
-		conversion p-value points to methylation of the corresponding
-		RNA cytosine, or another event blocking bisulfite conversion.
+		non-conversion in a set of samples is analysed as follows :
+		each sample's non-conversion distribution is identified to a
+		Poisson distribution. P-values adjusted for multiple testing
+		are calculated in each sample. Combined non-conversion P-values
+		and standard errors are calculated on the intersection of the
+		set of samples. For further details, see C Legrand, F Tuorto, M
+		Hartmann, R Liebers, D Jakob, M Helm and F Lyko (2017)
+		doi:10.1101/gr.210666.116.
 	</longdescription>
 </pkgmetadata>
