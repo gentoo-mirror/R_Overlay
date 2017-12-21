@@ -3,10 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Feasible Solution Algorithm for Finding Best Subsets and
-		Interactions // Uses the lm() and glm() functions to fit models
-		generated from a feasible solution algorithm. The feasible
-		solution algorithm comes up with model forms of a specific type
-		that can have fixed variables, higher order interactions and
-		their lower order terms.
+		Interactions // Assists in statistical model building to find
+		optimal and semi-optimal higher order interactions and best
+		subsets. Uses the lm(), glm(), and other R functions to fit
+		models generated from a feasible solution algorithm. Discussed
+		in Subset Selection in Regression, A Miller (2002). Applied and
+		explained for least median of squares in Hawkins (1993)
+		doi:10.1016/0167-9473(93)90246-P. The feasible solution
+		algorithm comes up with model forms of a specific type that can
+		have fixed variables, higher order interactions and their lower
+		order terms.
 	</longdescription>
 </pkgmetadata>
