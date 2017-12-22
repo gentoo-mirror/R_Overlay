@@ -10,6 +10,11 @@
 		mediator probability weights (RMPW). This strategy conveniently
 		relaxes the assumption of no treatment-by-mediator interaction
 		while greatly simplifying the outcome model specification
-		without invoking strong distributional assumptions.
+		without invoking strong distributional assumptions. We also
+		implement a sensitivity analysis by extending the RMPW method
+		to assess potential bias in the presence of omitted
+		pretreatment or posttreatment covariates. The sensitivity
+		strategy was proposed by Hong, Qin, and Yang (2018)
+		doi:10.3102/1076998615583902.
 	</longdescription>
 </pkgmetadata>

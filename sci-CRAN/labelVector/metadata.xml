@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Label Attributes for Atomic Vectors // Labels are a common
+		construct in statistical software providing a human readable
+		description of a variable. While variable names are succinct,
+		quick to type, and follow a language's naming conventions,
+		labels may be more illustrative and may use plain text and
+		spaces. R does not provide native support for labels. Some
+		packages, however, have made this feature available.  Most
+		notably, the 'Hmisc' package provides labelling methods for a
+		number of different object. Due to design decisions, these
+		methods are not all exported, and so are unavailable for use in
+		package development. The 'labelVector' package supports labels
+		for atomic vectors in a light-weight design that is suitable
+		for use in other packages.
+	</longdescription>
+</pkgmetadata>
