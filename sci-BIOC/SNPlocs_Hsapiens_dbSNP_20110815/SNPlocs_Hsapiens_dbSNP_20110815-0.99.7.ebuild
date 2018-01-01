@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_biostrings? ( sci-BIOC/Biostrings )
 	r_suggests_bsgenome? ( >=sci-BIOC/BSgenome-1.16.1 )
 "
-DEPEND="sci-BIOC/IRanges
+DEPEND="sci-BIOC/GenomicRanges
 	sci-BIOC/IRanges
 	sci-BIOC/GenomicRanges
 	sci-BIOC/S4Vectors
-	sci-BIOC/GenomicRanges
+	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

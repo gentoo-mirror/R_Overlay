@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,14 +11,14 @@ SRC_URI="http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib
 LICENSE='Artistic-2'
 
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-BIOC/VariantFiltering-1.6.0
-	sci-BIOC/GenomicRanges
 	sci-BIOC/AnnotationDbi
+	sci-BIOC/Biostrings
 	sci-BIOC/VariantAnnotation
-	sci-BIOC/Biobase
-	sci-BIOC/Rsamtools
 	>=sci-CRAN/RSQLite-1.0.0
 	sci-BIOC/IRanges
-	sci-BIOC/Biostrings
+	sci-BIOC/Rsamtools
+	sci-BIOC/GenomicRanges
+	>=sci-BIOC/VariantFiltering-1.6.0
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"
