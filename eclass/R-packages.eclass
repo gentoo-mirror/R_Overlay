@@ -13,26 +13,23 @@ IUSE="byte-compile"
 DEPEND="dev-lang/R"
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}"
-
 R-packages_src_unpack() {
 	unpack ${A}
 	mv ${PN//_/.} ${P}
 }
 
 R-packages_src_prepare() {
-	cd ${P}
 	epatch_user
 }
 
 R-packages_src_compile() {
 	MAKEFLAGS="CFLAGS=${CFLAGS// /\\ } CXXFLAGS=${CXXFLAGS// /\\ } FFLAGS=${FFLAGS// /\\ } FCFLAGS=${FCFLAGS// /\\ } LDFLAGS=${LDFLAGS// /\\ }" \
-		R CMD INSTALL ${S}/${P} -l . $(use byte-compile && echo "--byte-compile")
+		R CMD INSTALL . -l "${WORKDIR}" $(use byte-compile && echo "--byte-compile")
 }
 
 R-packages_src_install() {
 	insinto /usr/$(get_libdir)/R/site-library
-	doins -r ${PN//_/.}
+	doins -r "${WORKDIR}"/${PN//_/.}y
 }
 
 R-packages_pkg_postinst() {
