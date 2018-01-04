@@ -2,9 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Chronomics Analysis Toolkit (CAT): Analyze Periodicity //
-		Performs analysis of sinusoidal rhythms in time series data:
-		actogram, smoothing, autocorrelation, crosscorrelation, several
-		flavors of cosinor.
+		Chronomics Analysis Toolkit (CAT): Periodicity Analysis //
+		Calculates auto- and cross-correlation functions and plots an
+		actogram and a smoothing function from a time series to
+		identify and visualize periodic components. Tests presence of
+		anticipated rhythm and estimates rhythm parameters; fits model
+		consisting of multiple rhythmic components to data; performs
+		least squares spectral analysis and other cosinor-based
+		analyses, including population-mean cosinor (pmc).
 	</longdescription>
 </pkgmetadata>

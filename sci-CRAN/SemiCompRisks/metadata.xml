@@ -3,12 +3,20 @@
 <pkgmetadata>
 	<longdescription>
 		Hierarchical Models for Parametric and Semi-Parametric Analyses
-		of Semi-Competing Risks Data // Parametric and semi-parametric
-		analyses of semi-competing risks/univariate survival data. For
-		semi-competing risks data, the package contains implementations
-		of hierarchical models for independent data (Lee et al., 2015;
-		doi:10.1111/rssc.12078, Lee et al. 2017) and cluster-correlated
-		data (Lee et al., 2016; doi:10.1111/biom.12696
-		doi:10.1080/01621459.2016.1164052).
+		of Semi-Competing Risks Data // Hierarchical multistate models
+		are considered to perform the analysis of independent/clustered
+		semi-competing risks data. The package allows to choose the
+		specification for model components from a range of options
+		giving users substantial flexibility, including: accelerated
+		failure time or proportional hazards regression models;
+		parametric or non-parametric specifications for baseline
+		survival functions and cluster-specific random effects
+		distribution; a Markov or semi-Markov specification for
+		terminal event following non-terminal event. While estimation
+		is mainly performed within the Bayesian paradigm, the package
+		also provides the maximum likelihood estimation approach for
+		several para- metric models. The package also includes
+		functions for univariate survival analysis as complementary
+		analysis tools.
 	</longdescription>
 </pkgmetadata>

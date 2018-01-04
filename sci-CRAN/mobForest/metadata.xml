@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Model based Random Forest analysis // This package implements
+		Model Based Random Forest Analysis // Functions to implements
 		random forest method for model based recursive partitioning.
-		The mob() function, developed by Zeileis et al (2008), within
-		party package, is modified to construct model-based decision
+		The mob() function, developed by Zeileis et al. (2008), within
+		'party' package, is modified to construct model-based decision
 		trees based on random forests methodology. The main input
-		function mobForestAnalysis() takes all input parameters to
+		function mobforest.analysis() takes all input parameters to
 		construct trees, compute out-of-bag errors, predictions, and
 		overall accuracy of forest. The algorithm performs parallel
-		computation using clusterApply() function within 'parallel'
-		package.
+		computation using cluster functions within 'parallel' package.
 	</longdescription>
 </pkgmetadata>

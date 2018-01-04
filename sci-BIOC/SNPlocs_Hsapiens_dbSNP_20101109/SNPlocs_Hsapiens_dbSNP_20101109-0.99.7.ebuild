@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-BIOC/IRanges
 	sci-BIOC/IRanges
+	sci-BIOC/GenomicRanges
+	sci-BIOC/GenomicRanges
 	sci-BIOC/S4Vectors
-	sci-BIOC/GenomicRanges
-	sci-BIOC/GenomicRanges
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 
