@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Ensembling Regularized Linear Models // Functions for computing
+		the ensembles of regularized linear regression estimators
+		defined in Christidis, Lakshmanan, Smucler and Zamar (2017)
+		arXiv:1712.03561. The procedure works on top of a given
+		penalized linear regression estimator, the Elastic Net in this
+		implementation, by fitting it to possibly overlapping subsets
+		of features, while at the same time encouraging diversity among
+		the subsets, to reduce the correlations between the predictions
+		that result from each fitted model. The predictions from the
+		models are then aggregated.
+	</longdescription>
+</pkgmetadata>

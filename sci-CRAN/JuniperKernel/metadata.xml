@@ -9,9 +9,10 @@
 		interactive computing environment and a messaging protocol
 		defined over 'ZeroMQ' for multiple programming languages. This
 		package implements the 'Jupyter' kernel interface so that 'R'
-		is exposed to this interactive computing environment. 'Xeus' is
-		a C++ library that facilitates the implementation of kernels
-		for 'Jupyter'. Additionally, 'Xeus' provides an interface to
+		is exposed to this interactive computing environment. 'ZeroMQ'
+		functionality is provided by the 'pbdZMQ' package. 'Xeus' is a
+		C++ library that facilitates the implementation of kernels for
+		'Jupyter'. Additionally, 'Xeus' provides an interface to
 		libraries that exist in the 'Jupyter' ecosystem for building
 		widgets, plotting, and more https://blog.jupyter.org
 		/interactive-workflows-for-c-with-jupyter-fe9b54227d92.

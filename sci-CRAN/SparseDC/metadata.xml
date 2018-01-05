@@ -3,15 +3,18 @@
 <pkgmetadata>
 	<longdescription>
 		Implementation of SparseDC Algorithm // Implements the algorithm
-		described in Barron, M., Zhang, S. and Li, J. "A sparse
+		described in Barron, M., Zhang, S. and Li, J. 2017, "A sparse
 		differential clustering algorithm for tracing cell type changes
-		via single-cell RNA-sequencing data"  (Unpublished). This
-		algorithm clusters samples from two different populations,
-		links the clusters across the conditions and identifies marker
-		genes for these changes. The package was designed for scRNA-Seq
-		data but is also applicable to many other data types, just
-		replace cells with samples and genes with variables. The
-		package also contains functions for estimating the parameters
-		for SparseDC as outlined in the paper.
+		via single-cell RNA-sequencing data", Nucleic Acids Research,
+		gkx1113, doi:10.1093/nar/gkx1113. This algorithm clusters
+		samples from two different populations, links the clusters
+		across the conditions and identifies marker genes for these
+		changes. The package was designed for scRNA-Seq data but is
+		also applicable to many other data types, just replace cells
+		with samples and genes with variables. The package also
+		contains functions for estimating the parameters for SparseDC
+		as outlined in the paper. We recommend that users further
+		select their marker genes using the magnitude of the cluster
+		centers.
 	</longdescription>
 </pkgmetadata>
