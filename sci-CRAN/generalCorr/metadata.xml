@@ -9,15 +9,16 @@
 		is more "original or independent" than similar variation in Y.
 		We compare two flipped kernel regressions: X=f(Y, Z) and
 		Y=g(X,Z), where Z are control variables. Our first two criteria
-		compare absolute gradients (Cr1) and absolute residuals (Cr2),
-		both quantified by stochastic dominance of four orders (SD1 to
-		SD4). Our third criterion (Cr3) expects X to be better able to
+		compare absolute cross products of regressor values and
+		residuals (Cr1) and absolute residuals (Cr2), are both
+		quantified by stochastic dominance of four orders (SD1 to SD4).
+		Our third criterion (Cr3) expects X to be better able to
 		predict Y than the other way around using generalized partial
 		correlation If |r*(x|y)| |r*(y|x)| it suggests that y is more
 		likely the "kernel cause" of x. The usual partial correlations
-		are generalized for the asymmetric matrix of r*'s developed
-		here. Partial correlations help asses effect of x on y after
-		removing the effect of a set of variables. The package provides
+		are generalized with a new non-symmetric matrix developed here.
+		Partial correlations help asses effect of x on y after removing
+		the effect of a set of variables. The package provides
 		additional tools for causal assessment, for printing the causal
 		directions in a clear, comprehensive compact summary form, for
 		matrix algebra, for "outlier detection", and for numerical
