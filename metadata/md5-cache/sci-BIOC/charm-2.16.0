@@ -8,5 +8,5 @@ LICENSE=LGPL-2+
 RDEPEND=sci-BIOC/Biostrings sci-BIOC/preprocessCore sci-BIOC/genefilter sci-BIOC/BSgenome sci-BIOC/Biobase >=sci-BIOC/oligo-1.11.31 sci-BIOC/limma sci-CRAN/ff sci-BIOC/Biobase >=sci-BIOC/oligoClasses-1.17.39 >=dev-lang/R-2.14.0 sci-CRAN/SQN sci-CRAN/RColorBrewer sci-CRAN/nor1mix sci-CRAN/fields sci-BIOC/siggenes >=sci-BIOC/sva-3.1.2 sci-CRAN/gtools sci-BIOC/IRanges r_suggests_charmdata? ( sci-BIOC/charmData ) r_suggests_corpcor? ( sci-CRAN/corpcor ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/bioc/src/contrib/charm_2.16.0.tar.gz
-_eclasses_=R-packages	b7ca0e6ded14ad663206c1d8971aa905	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	97ce9decef1ff4b6c5be700283f67343	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=R-packages	b7ca0e6ded14ad663206c1d8971aa905	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e7258392d5eda499c1cfa94db650b61	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
 _md5_=a66753f7e5068cfbe33421ee3893e2a6
