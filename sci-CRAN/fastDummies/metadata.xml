@@ -2,11 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fast Creation of Dummy (Binary) Columns from Categorical
+		Fast Creation of Dummy (Binary) Columns and Rows from Categorical
 		Variables // Creates dummy columns from columns that have
 		categorical variables (character or factor types). You can also
 		specify which columns to make dummies out of, or which columns
-		to ignore. This package provides a significant speed increase
-		from creating dummy variables through model.matrix().
+		to ignore. Also creates dummy rows from character, factor, and
+		Date columns. This package provides a significant speed
+		increase from creating dummy variables through model.matrix().
 	</longdescription>
 </pkgmetadata>
