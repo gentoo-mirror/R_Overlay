@@ -9,5 +9,8 @@
 		computations are done using Hamiltonian Monte Carlo provided by
 		Stan, using a state space representation of the model in order
 		to marginalise over the coefficients for efficient sampling.
+		For non-Gaussian models, walker uses the importance sampling
+		type estimators based on approximate marginal MCMC as in
+		Vihola, Helske, Franks (2017, arXiv:1609.02541).
 	</longdescription>
 </pkgmetadata>

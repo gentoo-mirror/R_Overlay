@@ -2,7 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Column-Linked and Row-Linked Matrices // Matrices implemented as
-		collections of matrix-like nodes, linked by columns or rows.
+		Column-Linked and Row-Linked Matrices // A class that links
+		matrix-like objects (nodes) by rows or by columns while
+		behaving similarly to a base R matrix. Very large matrices are
+		supported if the nodes are memory-mapped objects.
 	</longdescription>
 </pkgmetadata>
