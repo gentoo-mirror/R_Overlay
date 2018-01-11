@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Microplots (Sparklines) in 'LaTeX', 'Word', 'HTML', 'Excel' //
+		The microplot() function writes a set of R graphics files to be
+		used as  microplots (sparklines) in tables in either 'LaTeX',
+		'HTML', 'Word', or 'Excel' files.  For 'LaTeX', use the
+		'Hmisc::latex' function or 'xtable::xtable' function to
+		construct 'latex' tabular environments which include the
+		graphs.  These can be used directly with the operating  system
+		'pdflatex' or 'latex' command, or by using one of  'Sweave',
+		'knitr', 'rmarkdown', or 'Emacs' 'org-mode' as  an
+		intermediary.  For 'Word', the MSWord* functions use the
+		'ReporteRs::FlexTable'  and 'ReporteRs::pot_img' functions to
+		construct 'Word' tables which include the graphs.  There are
+		several distinct approaches for constructing HTML file.  The
+		simplest is to use the MSWord* with argument 'filetype="html"'.
+		Alternatively, use either 'Emacs'  'org-mode' or the
+		'htmlTable::htmlTable' function to  construct an 'HTML' file
+		containing tables which include  the graphs.  For 'Excel' use
+		on  'Windows', the file 'examples/irisExcel.xls' includes
+		'VBA' code which brings the individual panels into  individual
+		cells in the spreadsheet.  Examples in the  'examples'
+		subdirectory and demos are shown with  'lattice' graphics,
+		'base' graphics, and 'ggplot2'  graphics.  Examples for 'LaTeX'
+		include 'Sweave' (both  'LaTeX'-style and 'Noweb'-style),
+		'knitr', 'emacs'  'org-mode', and 'rmarkdown' input files and
+		their 'pdf'  output files.  Examples for 'HTML' include 'org-
+		mode' and  'Rmd' input files and their webarchive 'HTML' output
+		files.  In addition, the 'as.orgtable' function can  display a
+		'data.frame' in an 'org-mode' document.  The  examples for
+		'Word' (with either 'filetype="docx"' or 'filetype="html"')
+		work with all operating systems.  The package does not require
+		the installation of 'LaTeX' or 'Word'  to be able to write
+		'.tex' or '.docx' files.
+	</longdescription>
+</pkgmetadata>
