@@ -4,11 +4,14 @@
 	<longdescription>
 		Bayesian Modeling and Analysis of Spatially Correlated Survival
 		Data // Provides several Bayesian survival models for spatial
-		/non-spatial survival data: marginal Bayesian Nonparametric
-		models, marginal Bayesian proportional hazards models,
-		generalized accelerated failure time frailty models, and
-		standard semiparametric frailty models within the context of
-		proportional hazards, proportional odds and accelerated failure
-		time.
+		/non-spatial survival data: proportional hazards (PH),
+		accelerated failure time (AFT), proportional odds (PO), and
+		accelerated hazards (AH), a super model that includes PH, AFT,
+		PO and AH as special cases, Bayesian nonparametric
+		nonproportional hazards (LDDPM), generalized accelerated
+		failure time (GAFT), and spatially smoothed density estimation.
+		The spatial dependence is modeled via frailties under PH, AFT,
+		PO, AH and GAFT, and via copulas under LDDPM and PH. Model
+		choice is carried out via LPML and DIC.
 	</longdescription>
 </pkgmetadata>

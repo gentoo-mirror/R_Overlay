@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis of Codon Data under Stationarity using a Bayesian
+		Framework // Is a collection of models to analyze genome scale
+		codon data using a Bayesian framework. Provides visualization
+		routines and checkpointing for model fittings. Currently
+		published models to analyze gene data for selection on codon
+		usage based on Ribosome Overhead Cost (ROC) are: ROC (Gilchrist
+		et al. (2015) doi:10.1093/gbe/evv087), and ROC with phi
+		(Wallace  Drummond (2013) doi:10.1093/molbev/mst051). In
+		addition 'AnaCoDa' contains three currently unpublished models.
+		The FONSE (First order approximation On NonSense Error) model
+		analyzes gene data for selection on codon usage against of
+		nonsense error rates. The PA (PAusing time) and PANSE (PAusing
+		time + NonSense Error) models use ribosome footprinting data to
+		analyze estimate ribosome pausing times with and without
+		nonsense error rate from ribosome footprinting data.
+	</longdescription>
+</pkgmetadata>
