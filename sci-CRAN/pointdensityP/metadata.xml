@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Point Density for Geospatial Data // For every spatial point in a
-		list, calculates the density and temporal tendency (average
-		age) of points within a user defined neighborhood; also
-		supports point density and temporal tendency visualization
-		using 'ggmap'.
+		Point Density for Geospatial Data // The function pointdensity
+		returns a density count and the temporal average for every
+		point in the original list. The dataframe returned includes
+		four columns: lat, lon, count, and date_avg. The "lat" column
+		is the original latitude data; the "lon" column is the original
+		longitude data; the "count" is the density count of the number
+		of points within a radius of radius*grid_size (the
+		neighborhood); and the date_avg column includes the average
+		date of each point in the neighborhood.
 	</longdescription>
 </pkgmetadata>
