@@ -3,11 +3,20 @@
 <pkgmetadata>
 	<longdescription>
 		A Combined Association Test for Genes using Summary Statistics //
-		To compute gene-based genetic association statistics from P
-		values at multiple SNPs and genotype data of ancestry matched
-		reference samples. COMBined Association Test (COMBAT)
-		incorporates strengths from multiple existing gene-based tests,
-		including VEGAS, GATES and SimpleM, and achieves much improved
-		performance than any individual test.
+		Genome-wide association studies (GWAS) have been widely used
+		for identifying common variants associated with complex
+		diseases. Due to the small effect sizes of common variants, the
+		power to detect individual risk variants is generally low.
+		Complementary to SNP-level analysis, a variety of gene-based
+		association tests have been proposed. However, the power of
+		existing gene-based tests is often dependent on the underlying
+		genetic models, and it is not known a priori which test is
+		optimal.  Here we proposed COMBined Association Test (COMBAT)
+		to incorporate strengths from multiple existing gene-based
+		tests, including VEGAS, GATES and simpleM. Compared to
+		individual tests, COMBAT shows higher overall performance and
+		robustness across a wide range of genetic models. The algorithm
+		behind this method is described in Wang et al (2017)
+		doi:10.1534/genetics.117.300257.
 	</longdescription>
 </pkgmetadata>
