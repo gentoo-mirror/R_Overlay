@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Partially Additive (Generalized) Linear Model Trees // This is an
+		implementation of model-based trees with global model
+		parameters (PALM trees). The PALM tree algorithm is an
+		extension to the MOB algorithm (implemented in the 'partykit'
+		package), where some parameters are fixed across all groups.
+		Details about the method can be found in Seibold, Hothorn,
+		Zeileis (2016) arXiv:1612.07498. The package offers coef(),
+		logLik(), plot(), and predict() functions for PALM trees.
+	</longdescription>
+</pkgmetadata>

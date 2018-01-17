@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tests for Same-Source of Toolmarks // Implements two tests for
+		same-source of toolmarks. The chumbley_non_random() test
+		follows the paper "An Improved Version of a Tool Mark
+		Comparison Algorithm" by Hadler and Morris (2017)
+		doi:10.1111/1556-4029.13640. This is an extension of the
+		Chumbley score as previously described in "Validation of Tool
+		Mark Comparisons Obtained Using a Quantitative, Comparative,
+		Statistical Algorithm" by Chumbley et al (2010)
+		doi:10.1111/j.1556-4029.2010.01424.x. fixed_width_no_modeling()
+		is based on correlation measures in a diamond shaped area of
+		the toolmark as described in Hadler (2017).
+	</longdescription>
+</pkgmetadata>
