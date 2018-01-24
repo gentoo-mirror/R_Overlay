@@ -5,10 +5,17 @@
 		Density Estimation and Random Number Generation with Distribution
 		Element Trees // Density estimation for possibly large data
 		sets and conditional/unconditional random number generation
-		with distribution element trees. For more details on
-		distribution element trees see: Meyer, D.W. (2016)
-		arXiv:1610.00345 or Meyer, D.W., Statistics and Computing
-		(2017) doi:10.1007/s11222-017-9751-9 and Meyer, D.W. (2017)
-		arXiv:1711.04632.
+		with distribution element trees. The function 'det.construct'
+		translates a dataset into a distribution element tree. To
+		evaluate the probability density based on a previously computed
+		tree at arbitrary query points, the function 'det.query' is
+		available. The functions 'det1' and 'det2' provide density
+		estimation and plotting for one- and two-dimensional datasets.
+		Conditional/unconditional smooth bootstrapping from an
+		available distribution element tree, can be performed by
+		'det.rnd'. For more details on distribution element trees see:
+		Meyer, D.W. (2016) arXiv:1610.00345 or Meyer, D.W., Statistics
+		and Computing (2017) doi:10.1007/s11222-017-9751-9 and Meyer,
+		D.W. (2017) arXiv:1711.04632.
 	</longdescription>
 </pkgmetadata>
