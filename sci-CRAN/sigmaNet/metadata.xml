@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Render Graphs Using 'Sigma.js' // Create interactive graph
+		visualizations using 'Sigma.js' http://sigmajs.org/.  This
+		package is meant to be used in conjunction with 'igraph',
+		replacing the (somewhat underwhelming) plotting features of the
+		package.  The idea is to quickly render graphs, regardless of
+		their size, in a way that allows for easy, iterative
+		modification of aesthetics.  Because 'Sigma.js' is a
+		'javascript' library, the visualizations are inherently
+		interactive and are well suited for integration with 'Shiny'
+		apps.  While there are several 'htmlwidgets' focused on network
+		visualization, they tend to underperform on medium to large
+		sized graphs.  'Sigma.js' was designed for larger network
+		visualizations and this package aims to make those strengths
+		available to 'R' users.
+	</longdescription>
+</pkgmetadata>
