@@ -6,11 +6,13 @@
 		Various algorithms for segmentation of 2D and 3D images, such
 		as computed tomography and satellite remote sensing. This
 		package implements Bayesian image analysis using the hidden
-		Potts model with external field prior. Latent labels are
-		sampled using chequerboard updating or Swendsen-Wang.
-		Algorithms for the smoothing parameter include
-		pseudolikelihood, path sampling, the exchange algorithm,
-		approximate Bayesian computation (ABC-MCMC and ABC-SMC), and
-		Bayesian indirect likelihood (BIL).
+		Potts model with external field prior of
+		doi:10.1016/j.csda.2014.12.001. Latent labels are sampled using
+		chequerboard updating or Swendsen-Wang. Algorithms for the
+		smoothing parameter include pseudolikelihood, path sampling,
+		the exchange algorithm, approximate Bayesian computation (ABC-
+		MCMC and ABC-SMC), and Bayesian indirect likelihood (BIL).
+		Refer to doi:10.1007/s11222-014-9525-6 and arXiv:1503.08066 for
+		further details.
 	</longdescription>
 </pkgmetadata>
