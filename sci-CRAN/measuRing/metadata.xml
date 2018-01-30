@@ -13,6 +13,8 @@
 		device, or automatically detect ring borders using a linear
 		detection algorithm. This algorithm detects ring borders
 		according to positive/negative extreme values in the smoothed
-		time-series of gray values.
+		time-series of gray values. Most of the in-package routines to
+		detect ring borders can be implemented using the multiDetect()
+		function.
 	</longdescription>
 </pkgmetadata>

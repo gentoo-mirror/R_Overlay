@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/ape-3.0.7
-	sci-CRAN/caper
+DEPEND="sci-CRAN/caper
+	>=sci-CRAN/ape-3.0.7
 	sci-CRAN/mvtnorm
 	virtual/MASS
 	sci-CRAN/coda
