@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Likelihood Based Optimal Partitioning for Indicator Species
-		Analysis // Likelihood based optimal partitioning for indicator
+		Likelihood Based Optimal Partitioning and Indicator Species
+		Analysis // Likelihood based optimal partitioning and indicator
 		species analysis. Finding the best binary partition for each
-		species based on model selection, possibly controlling for
-		modifying/confounding variables as described in Kemencei et al.
-		(2014) doi:10.1556/ComEc.15.2014.2.6. The package also
-		implements various measures of uncertainty based on binary
-		partitions, optimal multinomial partitioning, and exploratory
-		suitability indices, with native support for parallel
-		computations.
+		species based on model selection, with the possibility to take
+		into account modifying/confounding variables as described in
+		Kemencei et al. (2014) doi:10.1556/ComEc.15.2014.2.6. The
+		package implements binary and multi-level response models,
+		various measures of uncertainty, Lorenz-curve based
+		thresholding, with native support for parallel computations.
 	</longdescription>
 </pkgmetadata>
