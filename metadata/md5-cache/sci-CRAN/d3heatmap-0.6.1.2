@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/png sci-CRAN/htmlwidgets >=sci-CRAN/dendextend-0.18.0 >=sci-CRAN/scales-0.2.5 sci-CRAN/base64enc dev-lang/R
+DESCRIPTION=Interactive Heat Maps Using htmlwidgets and D3.js
+EAPI=5
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_shiny byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/png sci-CRAN/htmlwidgets >=sci-CRAN/dendextend-0.18.0 >=sci-CRAN/scales-0.2.5 sci-CRAN/base64enc r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/d3heatmap_0.6.1.2.tar.gz
+_eclasses_=R-packages	b7ca0e6ded14ad663206c1d8971aa905	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	b4eee44966573b7fb6761e507910b306	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_md5_=22db7fc05bc89afc70882c39c95c7f7c
