@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Inverse Regression for Text Analysis // Multinomial [inverse]
+		Inverse Regression for Text Analysis // Multinomial (inverse)
 		regression inference for text documents and associated
-		attributes. Provides fast sparse multinomial logistic
-		regression for phrase counts.  A minimalist partial least
-		squares routine is also included.  Note that the topic modeling
-		capability of textir is now a separate package, maptpx.
+		attributes.  For details see: Taddy (2013 JASA) Multinomial
+		Inverse Regression for Text Analysis arXiv:1012.2098 and Taddy
+		(2015, AoAS), Distributed Multinomial Regression,
+		arXiv:1311.6139. A minimalist partial least squares routine is
+		also included.  Note that the topic modeling capability of
+		earlier 'textir' is now a separate package, 'maptpx'.
 	</longdescription>
 </pkgmetadata>
