@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/GO_db >=sci-CRAN/Rcpp-0.11.0 sci-BIOC/AnnotationDbi sci-BIOC/preprocessCore sci-CRAN/Hmisc sci-CRAN/robust sci-CRAN/foreach >=sci-CRAN/dynamicTreeCut-1.62 virtual/survival sci-CRAN/doParallel sci-BIOC/impute sci-CRAN/fastcluster >=dev-lang/R-3.0 >=sci-CRAN/matrixStats-0.8.1 dev-lang/R
+DESCRIPTION=Weighted Correlation Network Analysis
+EAPI=5
+IUSE=r_suggests_entropy r_suggests_infotheo r_suggests_minet r_suggests_org_hs_eg_db r_suggests_org_mm_eg_db byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-BIOC/GO_db >=sci-CRAN/Rcpp-0.11.0 sci-BIOC/AnnotationDbi sci-BIOC/preprocessCore sci-CRAN/Hmisc sci-CRAN/robust sci-CRAN/foreach >=sci-CRAN/dynamicTreeCut-1.62 virtual/survival sci-CRAN/doParallel sci-BIOC/impute sci-CRAN/fastcluster >=dev-lang/R-3.0 >=sci-CRAN/matrixStats-0.8.1 sci-CRAN/Rcpp r_suggests_entropy? ( sci-CRAN/entropy ) r_suggests_infotheo? ( sci-CRAN/infotheo ) r_suggests_minet? ( sci-BIOC/minet ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_org_mm_eg_db? ( sci-BIOC/org_Mm_eg_db ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/WGCNA_1.62.tar.gz
+_eclasses_=R-packages	b7ca0e6ded14ad663206c1d8971aa905	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	b4eee44966573b7fb6761e507910b306	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_md5_=685fc68f7e897e409423e3be3481c88c
