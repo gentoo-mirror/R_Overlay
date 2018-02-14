@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Future API for Parallel Processing using 'callr' //
+		Implementation of the Future API on top of the 'callr' package.
+		This allows you to process futures, as defined by the 'future'
+		package, in parallel out of the box, on your local (Linux,
+		macOS, Windows, ...) machine.  Contrary to backends relying on
+		the 'parallel' package (e.g. 'future::multisession'), the
+		'callr' backend provided here can run more than 125 parallel R
+		processes.
+	</longdescription>
+</pkgmetadata>

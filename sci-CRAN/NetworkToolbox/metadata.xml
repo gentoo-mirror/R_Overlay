@@ -2,21 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Network Filtering Methods and Measures // Implements Information
-		Filtering Networks (IFN; Barfuss, Massara, Di Matteo,  Aste,
-		2016 doi:10.1103/PhysRevE.94.062306), ECO (ECO; Fallani,
-		Latora,  Chavez, 2017 doi:10.1371/journal.pcbi.1005305), and
-		regression-based filtering network approaches (including the
-		dependency network approach; Kenett, Tumminello, Madi, Gur-
-		Gershogoren, Mantegna,  Ben-Jacob, 2010
-		doi:10.1371/journal.pone.0015032). Also implements several
-		network measures like local network characteristics (e.g.,
-		centralities), global network characteristics (e.g., clustering
-		coefficient), and edge replication (Rubinov  Sporns, 2010
-		doi:10.1016/j.neuroimage.2009.10.003). Finally, there are a few
-		bootstrapping techniques that are aimed at increasing the
-		reliability and reproducibility of network analysis
-		(Tumminello, Coronnello,  Lillo, 2007
-		doi:10.1142/S0218127407018415).
+		Methods and Measures for Brain, Cognitive, and Psychometric
+		Network Analysis // Implements network analysis and graph
+		theory measures used in neuroscience, cognitive science, and
+		psychology. Methods include various filtering methods and
+		approaches such as threshold, dependency (Kenett, Tumminello,
+		Madi, Gur-Gershogoren, Mantegna,  Ben-Jacob, 2010
+		doi:10.1371/journal.pone.0015032), Information Filtering
+		Networks (Barfuss, Massara, Di Matteo,  Aste, 2016
+		doi:10.1103/PhysRevE.94.062306), and Efficiency-Cost
+		Optimization (Fallani, Latora,  Chavez, 2017
+		doi:10.1371/journal.pcbi.1005305). Brain methods include the
+		recently developed Connectome Predictive Modeling (see
+		references in package). Also implements several network
+		measures including local network characteristics (e.g.,
+		centrality), global network characteristics (e.g., clustering
+		coefficient), and various other measures associated with the
+		reliability and reproducibility of network analysis.
 	</longdescription>
 </pkgmetadata>
