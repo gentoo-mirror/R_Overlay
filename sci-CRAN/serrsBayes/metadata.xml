@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Modelling of Raman Spectroscopy // Sequential Monte
+		Carlo (SMC) algorithms for fitting a generalised additive mixed
+		model (GAMM) to surface-enhanced resonance Raman spectroscopy
+		(SERRS), using the method of Moores et al. (2016)
+		arXiv:1604.07299. Multivariate observations of SERRS are highly
+		collinear and lend themselves to a reduced-rank representation.
+		The GAMM separates the SERRS signal into three components: a
+		sequence of Lorentzian, Gaussian, or pseudo-Voigt peaks; a
+		smoothly-varying baseline; and additive white noise. The
+		parameters of each component of the model are estimated
+		iteratively using SMC. The posterior distributions of the
+		parameters given the observed spectra are represented as a
+		population of weighted particles.
+	</longdescription>
+</pkgmetadata>

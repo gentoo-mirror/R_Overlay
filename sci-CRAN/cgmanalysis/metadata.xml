@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Clean and Analyze Continuous Glucose Monitor Data // This code
+		provides several different functions for cleaning and analyzing
+		continuous glucose monitor data. Currently it works with
+		'Dexcom' (https://www.dexcom.com) or 'iPro 2'
+		(http://professional.medtronicdiabetes.com/ipro2-professional-
+		cgm) data. The makecsv() function can convert files to CSV if
+		they have been saved as 'Excel' documents. The cleaniprodata()
+		and cleandexcomdata() functions take a directory of CGM data
+		files and clean them for analysis. Finally, cgmvariables()
+		iterates through a directory of cleaned CGM data files and
+		produces a single spreadsheet with data for each file. This
+		spreadsheet is compatible with REDCap data upload ("--1" is
+		added to each subject ID automatically for double data entry).
+	</longdescription>
+</pkgmetadata>
