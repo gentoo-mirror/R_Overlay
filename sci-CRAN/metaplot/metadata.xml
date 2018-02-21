@@ -7,18 +7,19 @@
 		(unquoted) column names; order and type (numeric or not)
 		dictate the resulting plot.  Specify any y variables, x
 		variable, any groups variable, and any conditioning variables
-		to metaplot() to generate density plots, boxplots,
-		scatterplots, scatterplot matrices, or conditioned plots. Use
-		multiplot() to arrange plots in grids. Wherever present, scalar
-		column attributes 'label' and 'guide' are honored, producing
-		fully annotated plots with minimal effort. Attribute 'guide' is
-		typically units, but may be encoded() to provide
-		interpretations of categorical values (see '?encode').  Utility
-		unpack() transforms scalar column attributes to row values and
-		pack() does the reverse, supporting tool-neutral storage of
-		metadata along with primary data. The package supports
-		customizable aesthetics such as such as reference lines, unity
-		lines, smooths, log transformation, and linear fits. Compact
-		syntax and integrated metadata promote workflow scalability.
+		to metaplot() to generate density plots, boxplots, mosaic
+		plots, scatterplots, scatterplot matrices, or conditioned
+		plots. Use multiplot() to arrange plots in grids. Wherever
+		present, scalar column attributes 'label' and 'guide' are
+		honored, producing fully annotated plots with minimal effort.
+		Attribute 'guide' is typically units, but may be encoded() to
+		provide interpretations of categorical values (see '?encode').
+		Utility unpack() transforms scalar column attributes to row
+		values and pack() does the reverse, supporting tool-neutral
+		storage of metadata along with primary data. The package
+		supports customizable aesthetics such as such as reference
+		lines, unity lines, smooths, log transformation, and linear
+		fits. Compact syntax and integrated metadata promote workflow
+		scalability.
 	</longdescription>
 </pkgmetadata>

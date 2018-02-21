@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Nonparametric Additive Instrumental Variable Estimator: A Group
+		Shrinkage Estimation Perspective // In empirical studies,
+		instrumental variable (IV) regression is the signature method
+		to solve the endogeneity problem. If we enforce the exogeneity
+		condition of the IV, it is likely that we end up with a large
+		set of IVs without knowing which ones are good. This package
+		uses adaptive group lasso and B-spline methods to select the
+		nonparametric components of the IV function, with the linear
+		function being a special case. The package incorporates two
+		stage least squares estimator (2SLS), generalized method of
+		moment (GMM), generalized empirical likelihood (GEL) methods
+		post instrument selection. It is nonparametric version of
+		'ivregress' in 'Stata' with IV selection and high dimensional
+		features. The package is based on the paper "Nonparametric
+		Additive Instrumental Variable Estimator: A Group Shrinkage
+		Estimation Perspective" (2017) published online in Journal of
+		Business  Economic Statistics
+		doi:10.1080/07350015.2016.1180991.
+	</longdescription>
+</pkgmetadata>
