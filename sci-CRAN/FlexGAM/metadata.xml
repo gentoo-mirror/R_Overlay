@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generalized Additive Models with Flexible Response Functions //
+		Standard generalized additive models assume a response
+		function, which induces an assumption on the shape of the
+		distribution of the response. However, miss-specifying the
+		response function results in biased estimates. Therefore in
+		Spiegel et al. (2017) doi:10.1007/s11222-017-9799-6 we propose
+		to estimate the response function jointly with the covariate
+		effects. This package provides the underlying functions to
+		estimate these generalized additive models with flexible
+		response functions. The estimation is based on an iterative
+		algorithm. In the outer loop the response function is
+		estimated, while in the inner loop the covariate effects are
+		determined. For the response function a strictly monotone
+		P-spline is used while the covariate effects are estimated
+		based on a modified Fisher-Scoring algorithm. Overall the
+		estimation relies on the 'mgcv'-package.
+	</longdescription>
+</pkgmetadata>
