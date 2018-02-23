@@ -1,0 +1,17 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=5
+
+inherit R-packages
+
+DESCRIPTION='Generalized Competing Event Model'
+SRC_URI="http://cran.r-project.org/src/contrib/gcerisk_18.02.22.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="virtual/survival
+	sci-CRAN/cmprsk
+	sci-CRAN/ggplot2
+"
+RDEPEND="${DEPEND-}"
