@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fit a Stochastic Dynamical Array Model to Array Data // An
+		implementation of the method proposed in Lund and Hansen (2018)
+		for fitting 3-dimensional dynamical array models.  The
+		implementation is based on the glamlasso package, see Lund et
+		al. (2017) doi:10.1080/10618600.2017.1279548, for efficient
+		design matrix free lasso regularized estimation in a
+		generalized linear array model. The implementation uses a block
+		relaxation scheme to fit each individual component in the model
+		using functions from the glamlasso package.
+	</longdescription>
+</pkgmetadata>
