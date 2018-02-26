@@ -2,8 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Theme Enrichment Analysis for Stories // An implementation of the
-		hypergeometric test to check for over-represented themes in a
-		storyset relative to a background set of stories.
+		Functions for the Analysis of Star Trek Thematic Data // An
+		implementation of 1) the hypergeometric test for over-
+		representation of literary themes in a storyset (a list of
+		stories) relative to a background list of stories, and 2) a
+		recommendation system that takes a user-selected story as input
+		and returns a ranked list of similar stories on the basis of
+		shared themes. The package is currently implemented for the
+		episodes of the Star Trek television franchise series The
+		Original Series (TOS), The Animated Series (TAS), The Next
+		Generation (TNG), and Voyager (VOY).
 	</longdescription>
 </pkgmetadata>
