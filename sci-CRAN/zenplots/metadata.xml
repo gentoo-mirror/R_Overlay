@@ -3,8 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Zigzag Expanded Navigation Plots // Graphical tools for
-		visualizing high-dimensional data with a path of pairs (note
-		that this requires 'graph' from Bioconductor and R configured
-		with Tcl/Tk support).
+		visualizing high-dimensional data with a path of pairs. Note
+		that this requires 'graph' from Bioconductor. Furthermore, if
+		you want to use dynamic graphics based on 'loon', you need to
+		have R configured with Tcl/Tk support and you need to have
+		'loon' installed, for example, from
+		https://github.com/waddella/loon.
 	</longdescription>
 </pkgmetadata>
