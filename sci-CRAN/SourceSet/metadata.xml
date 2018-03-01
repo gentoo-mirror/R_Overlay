@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Graphical Model Approach to Identify Primary Genes in Perturbed
+		Biological Pathways // The algorithm pursues the identification
+		of the set of variables driving the differences in two
+		different experimental conditions (i.e., the primary genes)
+		within a graphical model context. It uses the idea of
+		simultaneously looking for the differences between two
+		multivariate normal distributions in all marginal and
+		conditional distributions associated with a decomposable graph,
+		which represents the pathway under exam. The implementation
+		accommodates genomics specific issues (low sample size and
+		multiple testing issues) and provides a number of functions
+		offering numerical and visual summaries to help the user
+		interpret the obtained results. In order to use the (optional)
+		'Cytoscape' functionalities, the suggested 'r2cytoscape'
+		package must be installed from the 'GitHub' repository
+		('devtools::install_github('cytoscape/r2cytoscape')').
+	</longdescription>
+</pkgmetadata>
