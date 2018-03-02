@@ -15,8 +15,8 @@ R_SUGGESTS="r_suggests_biostrings? ( sci-BIOC/Biostrings )"
 DEPEND="sci-BIOC/GenomicRanges
 	sci-BIOC/BSgenome
 	sci-BIOC/IRanges
-	sci-BIOC/IRanges
 	>=sci-BIOC/BSgenome-1.25.6
+	sci-BIOC/IRanges
 	sci-BIOC/GenomicRanges
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
