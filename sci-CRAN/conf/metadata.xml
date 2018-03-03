@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Plotting Two-Dimensional Confidence Regions // Plots the two-
+		dimensional confidence region for probability distribution
+		(Weibull or inverse Gaussian) parameters corresponding to a
+		user given dataset and level of significance. The crplot()
+		algorithm plots more points in areas of greater curvature to
+		ensure a smooth appearance throughout the confidence region
+		boundary.  An alternative heuristic plots a specified number of
+		points at roughly uniform intervals along its boundary.  Both
+		heuristics build upon the radial profile log-likelihood ratio
+		technique for plotting two-dimensional confidence regions given
+		by Jaeger (2016) doi:10.1080/00031305.2016.1182946.
+	</longdescription>
+</pkgmetadata>

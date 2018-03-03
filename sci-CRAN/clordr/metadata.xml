@@ -8,7 +8,10 @@
 		ordinal data with replications, where spatial ordinal response
 		with covariate and both spatial exponential covariance within
 		subject and independent and identically distributed measurement
-		error.  Parametric bootstrapping is used to estimate the
-		asymptotic standard error and covariance matrix.
+		error.  Parameter estimation can be performed by either solving
+		the gradient function or maximizing composite log-likelihood.
+		Parametric bootstrapping is used to estimate the Godambe
+		information matrix and hence the asymptotic standard error and
+		covariance matrix with parallel processing option.
 	</longdescription>
 </pkgmetadata>
