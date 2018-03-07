@@ -2,10 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fast Functions for Stock Market Analysis // Provides functions
-		for analyzing historical performance of stocks or other
-		investments. Functions are written in C++ to quickly calculate
-		maximum draw-down, Sharpe ratio, Sterling ratio, and other
-		commonly used metrics of stock performance.
+		Stock Market Analysis // Functions for analyzing stocks or other
+		investments. Main features are loading and aligning historical
+		data for ticker symbols, calculating performance metrics for
+		individual funds or portfolios (e.g. annualized growth, maximum
+		drawdown, Sharpe/Sortino ratio), and creating graphs. C++ code
+		is used to improve processing speed where possible.
 	</longdescription>
 </pkgmetadata>

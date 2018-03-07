@@ -2,15 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Geometric Shadow Calculations // Functions for calculating (1)
-		shadow heights; (2) shadow footprint on ground polygons; and
-		(3) Sky View Factor values. Inputs include a polygonal layer of
-		obstacle outlines along with their heights, sun azimuth and sun
-		elevation. The package also provides functions for related
+		Geometric Shadow Calculations // Functions for calculating: (1)
+		shadow height, (2) logical shadow flag, (3) shadow footprint,
+		(4) Sky View Factor and (5) radiation load. Basic required
+		inputs include a polygonal layer of obstacle outlines along
+		with their heights (i.e. "extruded polygons"), sun azimuth and
+		sun elevation. The package also provides functions for related
 		preliminary calculations: breaking polygons into line segments,
-		finding segment azimuth, shifting segments by azimuth and
-		distance, constructing the footprint of a line-of-sight between
-		an observer and the sun, and creating a 3D grid covering
-		surface area of extruded polygons.
+		determining azimuth of line segments, shifting segments by
+		azimuth and distance, constructing the footprint of a line-of-
+		sight between an observer and the sun, and creating a 3D grid
+		covering the surface area of extruded polygons.
 	</longdescription>
 </pkgmetadata>
