@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Isolate-Detect Methodology for Multiple Change-Point Detection //
+		Provides efficient implementation of the Isolate-Detect
+		methodology for the consistent estimation of the number and
+		location of multiple change-points in one-dimensional data
+		sequences from the "deterministic + noise" model. For details
+		on the Isolate-Detect methodology, please see Anastasiou and
+		Fryzlewicz (2018) https://docs.wixstatic.com/ugd/24cdcc_6a0866c
+		574654163b8255e272bc0001b.pdf. Currently implemented scenarios
+		are: piecewise-constant signal with Gaussian noise, piecewise-
+		constant signal with heavy-tailed noise, continuous piecewise-
+		linear signal with Gaussian noise, continuous piecewise-linear
+		signal with heavy-tailed noise.
+	</longdescription>
+</pkgmetadata>

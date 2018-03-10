@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Multivariate Log-Concave Density Estimation // A fast solver
+		for the maximum likelihood estimator (MLE) of a multivariate
+		log-concave probability function. Given a sample X, it
+		estimates a non-parametric density function whose logarithm is
+		a concave function. Many well-known parametric densities belong
+		to that class, among them the normal density, the uniform
+		density, the exponential distribution and many more. This
+		package provides functions for the estimation of a log-concave
+		density and a mixture of log-concave densities in multiple
+		dimensions. While being similar to the package LogConcDEAD,
+		fmlogcondens provides much fast run times for large samples (=
+		250 points). As a reference see Fabian Rathke, Christoph Schnrr
+		(2015), doi:10.1515/auom-2015-0053.
+	</longdescription>
+</pkgmetadata>
