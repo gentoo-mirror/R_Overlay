@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multi-Locus Random-SNP-Effect Mixed Linear Model for Genome-Wide
-		Association Studies and Linkage Analyses // Conduct multi-locus
-		GWAS and multi-locus QTL mapping under the framework of random-
-		SNP-effect mixed linear model (mrMLM). First, each position (or
-		marker) on the genome is scanned by mrMLM algorithm. Bonferroni
-		correction is replaced by a less stringent selection criterion
-		for significant test. Then, all the markers (or QTL) that are
-		potentially associated with the trait are included in a multi-
-		locus model, their effects are estimated by empirical Bayes and
-		true QTN or QTL are identified by likelihood ratio test.
+		Multi-Locus Random-SNP-Effect Mixed Linear Model Tools for
+		Genome-Wide Association Study // Conduct multi-locus genome-
+		wide association study under the framework of random-SNP-effect
+		mixed linear model (mrMLM). First, each marker on the genome is
+		scanned. Bonferroni correction is replaced by a less stringent
+		selection criterion for significant test. Then, all the markers
+		that are potentially associated with the trait are included in
+		a multi-locus model, their effects are estimated by empirical
+		Bayes and true QTN are identified by likelihood ratio test.
 	</longdescription>
 </pkgmetadata>
