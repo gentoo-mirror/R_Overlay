@@ -3,21 +3,21 @@
 <pkgmetadata>
 	<longdescription>
 		Meta-Analysis of Studies with Non Statistically-Significant
-		Unreported Effects // Revisited version of MetaNSUE, a novel
-		meta-analytic method that allows an unbiased inclusion of
+		Unreported Effects // Novel method to unbiasedly include
 		studies with Non Statistically-Significant Unreported Effects
-		(NSUEs). Briefly, the method first calculates the interval
-		where the unreported effects (e.g. t-values) should be
-		according to the threshold of statistical significance used in
-		each study. Afterwards, maximum likelihood techniques are used
-		to impute the expected effect size of each study with NSUEs,
-		accounting for between-study heterogeneity and potential
-		covariates. Multiple imputations of the NSUEs are then randomly
-		created based on the expected value, variance and statistical
-		significance bounds. Finally, a restricted-maximum likelihood
-		random-effects meta-analysis is separately conducted for each
-		set of imputations, and estimations from these meta-analyses
-		are pooled. Please read the reference in 'metansue' for details
-		of the procedure.
+		(NSUEs) in a meta-analysis
+		doi:10.1001/jamapsychiatry.2015.2196. Briefly, the method first
+		calculates the interval where the unreported effects (e.g.
+		t-values) should be according to the threshold of statistical
+		significance used in each study. Afterwards, maximum likelihood
+		techniques are used to impute the expected effect size of each
+		study with NSUEs, accounting for between-study heterogeneity
+		and potential covariates. Multiple imputations of the NSUEs are
+		then randomly created based on the expected value, variance and
+		statistical significance bounds. Finally, a restricted-maximum
+		likelihood random-effects meta-analysis is separately conducted
+		for each set of imputations, and estimations from these meta-
+		analyses are pooled. Please read the reference in 'metansue'
+		for details of the procedure.
 	</longdescription>
 </pkgmetadata>

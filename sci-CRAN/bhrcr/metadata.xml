@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Hierarchical Regression on Clearance Rates in the
+		Presence of Lag and Tail Phases // An implementation of the
+		Bayesian Clearance Estimator (Fogarty et al. (2015)
+		doi:10.1111/biom.12307). It takes serial measurements of a
+		response on an individual (e.g., parasite load after treatment)
+		that is decaying over time and performs Bayesian hierarchical
+		regression of the clearance rates on the given covariates. This
+		package provides tools to calculate WWARN PCE (WorldWide
+		Antimalarial Resistance Network's Parasite Clearance Estimator)
+		estimates of the clearance rates as well.
+	</longdescription>
+</pkgmetadata>

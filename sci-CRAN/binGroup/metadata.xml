@@ -2,16 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Evaluation and experimental design for binomial group testing //
-		This package provides methods for estimation and hypothesis
-		testing of proportions in group testing designs. It involves
-		methods for estimating a proportion in a single population
-		(assuming sensitivity and specificity 1 in designs with equal
-		group sizes), as well as hypothesis tests and functions for
-		experimental design for this situation. For estimating one
-		proportion or the difference of proportions, a number of
-		confidence interval methods are included, which can deal with
-		various different pool sizes. Further, regression methods are
-		implemented for simple pooling and matrix pooling designs.
+		Evaluation and Experimental Design for Binomial Group Testing //
+		Methods for estimation and hypothesis testing of proportions in
+		group testing designs: methods for estimating a proportion in a
+		single population (assuming sensitivity and specificity equal
+		to 1 in designs with equal group sizes), as well as hypothesis
+		tests and functions for experimental design for this situation.
+		For estimating one proportion or the difference of proportions,
+		a number of confidence interval methods are included, which can
+		deal with various different pool sizes. Further, regression
+		methods are implemented for simple pooling and matrix pooling
+		designs. Methods for identification of positive specimens in
+		group testing designs: methods for identification of positive
+		specimens in a number of group testing algorithms. Hierarchical
+		and array-based algorithms are implemented and used to find the
+		optimal testing configuration and calculate operating
+		characteristics for testing configurations across a wide
+		variety of situations.
 	</longdescription>
 </pkgmetadata>
