@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Compare Big Datasets to the Uniform Distribution // A quantile-
+		quantile plot can be used to compare a sample of p-values to
+		the uniform distribution.  But when the dataset is big (i.e.
+		1e4 p-values), plotting the quantile-quantile plot can be slow.
+		geom_QQ uses all the data to calculate the quantiles, but thins
+		it out in a way that focuses on points near zero before
+		plotting to speed up plotting and decrease file size, when
+		vector graphics are stored.
+	</longdescription>
+</pkgmetadata>
