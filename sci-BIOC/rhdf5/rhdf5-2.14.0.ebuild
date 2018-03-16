@@ -20,6 +20,6 @@ RDEPEND="${DEPEND-} sci-libs/hdf5 ${R_SUGGESTS-}"
 PATCHES=( "${FILESDIR}/rhdf5-2.14.0-Makevars.patch" )
 
 src_prepare() {
-	ln -sf "${EPREFIX}"/usr/include/hdf5.h ${P}/src/myhdf5.h
+	ln -sf "${EPREFIX}"/usr/include/hdf5.h src/myhdf5.h
 	default
 }
