@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Genotype Calling for Bi-Allelic Marker Assays // Genotyping
+		assays for bi-allelic markers (e.g. SNPs) produce signal
+		intensities for the two alleles. 'fitPoly' assigns genotypes
+		(allele dosages) to a collection of polyploid samples based on
+		these signal intensities. 'fitPoly' replaces the older package
+		'fitTetra' that was limited (a.o.) to only tetraploid
+		populations whereas 'fitPoly' accepts any ploidy level.
+		Reference: Voorrips RE, Gort G, Vosman B (2011)
+		doi:10.1186/1471-2105-12-172.
+	</longdescription>
+</pkgmetadata>
