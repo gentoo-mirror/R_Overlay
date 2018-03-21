@@ -2,13 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Package for analysis of spatial data // This package provides
-		tools to assess the association between two spatial processes.
-		Currently, three methodologies are implemented: An adapted
-		t-test to perform hypothesis testing about the independence
-		between the processes, a suitable nonparametric correlation
-		coefficient, and the codispersion coefficient. SpatialPack
-		gives methods to complement methodologies that are available in
-		geoR for one spatial process.
+		Tools for Assessment the Association Between Two Spatial
+		Processes // Tools to assess the association between two
+		spatial processes. Currently, four methodologies are
+		implemented: A modified t-test to perform hypothesis testing
+		about the independence between the processes, a suitable
+		nonparametric correlation coefficient, the codispersion
+		coefficient, and an F test for assessing the multiple
+		correlation between one spatial process and several others.
+		SpatialPack gives methods to complement methodologies that are
+		available in geoR for one spatial process.
 	</longdescription>
 </pkgmetadata>

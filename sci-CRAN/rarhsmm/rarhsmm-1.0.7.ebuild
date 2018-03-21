@@ -1,0 +1,20 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=5
+
+inherit R-packages
+
+DESCRIPTION='Regularized Autoregressive Hidde... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/rarhsmm_1.0.7.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND=">=dev-lang/R-3.0.0
+	>=sci-CRAN/Rcpp-0.12.9
+	sci-CRAN/glmnet
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	sci-CRAN/RcppArmadillo
+"

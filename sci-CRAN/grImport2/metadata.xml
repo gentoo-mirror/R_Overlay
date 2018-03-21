@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Importing 'SVG' Graphics // Functions for importing external
+		vector images and drawing them as part of 'R' plots.  This
+		package is different from the 'grImport' package because, where
+		that package imports 'PostScript' format images, this package
+		imports 'SVG' format images.  Furthermore, this package imports
+		a specific subset of 'SVG', so external images must be
+		preprocessed using a package like 'rsvg' to produce 'SVG' that
+		this package can import.  'SVG' features that are not supported
+		by 'R' graphics, e.g., gradient fills, can be imported and then
+		exported via the 'gridSVG' package.
+	</longdescription>
+</pkgmetadata>
