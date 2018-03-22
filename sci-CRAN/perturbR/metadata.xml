@@ -3,11 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Random Perturbation of Count Matrices // The perturbR() function
-		incrementally perturbs network edges and compares the resulting
-		community detection solutions from the rewired networks with
-		the solution found for the original network. These comparisons
-		aid in understanding the stability of the original solution.
-		The package requires symmetric, weighted (specifically, count)
-		matrices/networks.
+		incrementally perturbs network edges (using the   rewireR
+		function)and compares the resulting community detection
+		solutions from the rewired networks with the solution found for
+		the original network. These comparisons aid in understanding
+		the stability of the original solution. The package requires
+		symmetric, weighted (specifically, count) matrices/networks.
 	</longdescription>
 </pkgmetadata>

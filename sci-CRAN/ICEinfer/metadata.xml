@@ -2,21 +2,21 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Incremental Cost-Effectiveness (ICE) Statistical Inference from
-		Two Unbiased Samples // Given two unbiased samples of patient
-		level data on cost and effectiveness for a pair of treatments,
-		make head-to-head treatment comparisons by (i) generating the
-		bivariate bootstrap resampling distribution of ICE uncertainty
-		for a specified value of the shadow price of health, lambda,
-		(ii) form the wedge-shaped ICE confidence region with specified
-		confidence fraction within [0.50, 0.99] that is equivariant
-		with respect to changes in lambda, (iii) color the bootstrap
-		outcomes within the above confidence wedge with economic
-		preferences from an ICE map with specified values of lambda,
-		beta and gamma parameters, (iv) display VAGR and ALICE
-		acceptability curves, and (v) illustrate variation in ICE
-		preferences by displaying potentially non-linear indifference
-		(iso-preference) curves from an ICE map with specified values
-		of lambda, beta and gamma or eta parameters.
+		Incremental Cost-Effectiveness Inference on Two Unbiased Samples
+		// Given two unbiased samples of patient level data on cost and
+		effectiveness for a pair of treatments, make head-to-head
+		treatment comparisons by (i) generating the bivariate bootstrap
+		resampling distribution of ICE uncertainty for a specified
+		value of the shadow price of health, lambda, (ii) form the
+		wedge-shaped ICE confidence region with specified confidence
+		fraction within [0.50, 0.99] that is equivariant with respect
+		to changes in lambda, (iii) color the bootstrap outcomes within
+		the above confidence wedge with economic preferences from an
+		ICE map with specified values of lambda, beta and gamma
+		parameters, (iv) display VAGR and ALICE acceptability curves,
+		and (v) illustrate variation in ICE preferences by displaying
+		potentially non-linear indifference(iso-preference) curves from
+		an ICE map with specified values of lambda, beta and either
+		gamma or eta parameters.
 	</longdescription>
 </pkgmetadata>
