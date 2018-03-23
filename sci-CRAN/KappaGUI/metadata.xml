@@ -2,7 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		GUI for Cohen's and Fleiss' Kappa // A Shiny front-end for the
-		package 'irr' to compute Cohen's and Fleiss' Kappa.
+		An R-Shiny Application for Calculating Cohen's and Fleiss' Kappa
+		// Offers a graphical user interface for the evaluation of
+		inter-rater agreement with Cohen's and Fleiss' Kappa. The
+		calculation of kappa statistics is done using the R package
+		'irr', so that 'KappaGUI' is essentially a Shiny front-end for
+		'irr'.
 	</longdescription>
 </pkgmetadata>
