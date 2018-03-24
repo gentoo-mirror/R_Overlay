@@ -3,9 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Constrained Triangulation for Simple Features // Build a
-		constrained 'Delaunay' triangulation from simple features
+		constrained Delaunay triangulation from simple features
 		objects, applying constraints based on input line segments, and
 		triangle properties including maximum area, minimum internal
-		angle.
+		angle. The triangulation code in 'RTriangle' uses the method of
+		Cheng, Dey and Shewchuk (2012, ISBN:9781584887300). For a low-
+		dependency alternative with low-quality path-based constrained
+		triangulation see https://CRAN.R-project.org/package=decido.
 	</longdescription>
 </pkgmetadata>

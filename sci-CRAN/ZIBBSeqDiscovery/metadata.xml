@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Zero-Inflated Beta-Binomial Modeling of Microbiome Count Data //
+		Microbiome count data (Operational Taxonomic Unit, OTUs) is
+		usually overdispersed and has excessive zero counts. The
+		'ZIBBSeqDiscovery' assumes a zero-inflated beta-binomial model
+		for the distribution of the count data, and employes link
+		functions to adjust interested covariates. To fit the model,
+		two approaches are proposed (i) a free approach which treats
+		the overdispersion parameters for OTUs as independent, and (ii)
+		a constrained approach which proposes a mean-overdispersion
+		relationship to the count data. This package can be used to
+		test the association between the composition of the microbiome
+		counts and the interested covariates.
+	</longdescription>
+</pkgmetadata>
