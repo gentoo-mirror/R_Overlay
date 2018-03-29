@@ -4,28 +4,29 @@
 	<longdescription>
 		Indices of Productivity Using Data Envelopment Analysis (DEA) //
 		Levels and changes of productivity and profitability are
-		measured with various indices. In addition to the classic
-		Malmquist productivity index, the 'productivity' package
-		contains also the multiplicatively complete Fre-Primont,
-		Fisher, Laspeyres, Lowe, and Paasche indices. Fre-Primont and
-		Lowe indices verify the transitivity property and can therefore
-		be used for multilateral or multitemporal comparison. Fisher,
-		Laspeyres, Malmquist, and Paasche indices are not transitive
-		and are only to be used for binary comparison. All indices can
-		also be decomposed into different components, providing
-		insightful information on the sources of productivity and
-		profitability improvements. In the use of Malmquist
-		productivity index, the technological change index can be
-		further decomposed into bias technological change components.
-		In the case of the Fisher, Laspeyres, Paasche and the
-		transitive Fre-Primont and Lowe indices, it is furthermore
-		possible to rule out technological change. Deflated shadow
-		prices, used in those indices' computations, are also returned.
-		The package also allows to prohibit negative technological
-		change. All computations are carried out with the nonparametric
-		Data Envelopment Analysis (DEA), and several assumptions
-		regarding returns to scale are available. The package allows
-		parallel computing as an option, depending on the user's
-		computer configuration.
+		measured with various indices. The package contains the
+		multiplicatively complete Fre-Primont, Fisher, Hicks-Moorsteen,
+		Laspeyres, Lowe, and Paasche indices, as well as the classic
+		Malmquist productivity index. Fre-Primont and Lowe indices
+		verify the transitivity property and can therefore be used for
+		multilateral or multitemporal comparison. Fisher, Hicks-
+		Moorsteen, Laspeyres, Malmquist, and Paasche indices are not
+		transitive and are only to be used for binary comparison. All
+		indices can also be decomposed into different components,
+		providing insightful information on the sources of productivity
+		and profitability changes. In the use of Malmquist productivity
+		index, the technological change index can be further decomposed
+		into bias technological change components. The package also
+		allows to prohibit technological regression (negative
+		technological change). In the case of the Fisher, Hicks-
+		Moorsteen, Laspeyres, Paasche and the transitive Fre-Primont
+		and Lowe indices, it is furthermore possible to rule out
+		technological change. Deflated shadow prices can also be
+		obtained. Besides, the package allows parallel computing as an
+		option, depending on the user's computer configuration. All
+		computations are carried out with the nonparametric Data
+		Envelopment Analysis (DEA), and several assumptions regarding
+		returns to scale are available. All DEA linear programs are
+		implemented using 'lp_solve'.
 	</longdescription>
 </pkgmetadata>
