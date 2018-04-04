@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Reliable Plying of Remote or Big Data with R // Methods to use
-		'dplyr' remote data sources ('SQL' databases, 'Spark' 2.0.0 and
-		above) in a reliable "generic" fashion (generic meaning user
-		code works similarly on all such sources, without needing per-
-		source adaption). Adds convenience functions to make such tasks
-		more like working with an in-memory R 'data.frame'.
+		Patches to Use 'dplyr' on Remote Data Sources // Patches to use
+		'dplyr' on remote data sources ('SQL' databases, 'Spark' 2.0.0
+		and above) in a reliable "generic" fashion (generic meaning
+		user code works similarly on all such sources, without needing
+		per-source adaption).  Due to the fluctuating nature of
+		'dplyr'/'dbplyr'/'rlang' 'APIs' this package is going into
+		maintenance mode.  Most of the 'replyr' functions are already
+		done better by one of the non-monolithic replacement packages:
+		'wrapr', 'seplyr', 'rquery', or 'cdata'.
 	</longdescription>
 </pkgmetadata>
