@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Common and Individual Structure Explained for Multiple Graphs //
+		Specific dimension reduction methods for replicated graphs
+		(multiple undirected graphs repeatedly measured on a common set
+		of nodes). The package contains efficient procedures for
+		estimating a shared baseline propensity matrix and graph-
+		specific low rank matrices. The algorithm uses block coordinate
+		descent algorithm to solve the model, which alternatively
+		performs L2-penalized logistic regression and multiple partial
+		eigenvalue decompositions, as described in the paper Wang et
+		al. (2017) arXiv:1707.06360.
+	</longdescription>
+</pkgmetadata>
