@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Elicitation of Independent Conditional Means Priors for
+		Generalised Linear Models // Functions are provided to
+		facilitate prior elicitation for Bayesian generalised linear
+		models using independent conditional means priors. The package
+		supports the elicitation of multivariate normal priors for
+		generalised linear models. The approach can be applied to
+		indirect elicitation for a generalised linear model that is
+		linear in the parameters. The package is designed such that the
+		facilitator executes functions within the R console during the
+		elicitation session to provide graphical and numerical feedback
+		at each design point. Various methodologies for eliciting
+		fractiles (equivalently, percentiles or quantiles) are
+		supported, including versions of the approach of Hosack et al.
+		(2017) doi:10.1016/j.ress.2017.06.011. For example, experts may
+		be asked to provide central credible intervals that correspond
+		to a certain probability. Or experts may be allowed to vary the
+		probability allocated to the central credible interval for each
+		design point. Additionally, a median may or may not be
+		elicited.
+	</longdescription>
+</pkgmetadata>
