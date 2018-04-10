@@ -2,27 +2,27 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		105 Data Sets from "Introductory Econometrics: A Modern Approach"
-		by Jeffrey M. Wooldridge // Those new to econometrics and R may
-		find themselves challenged by data management tasks inherent to
-		both. The wooldridge data package aims to lighten the task by
-		efficiently loading any data set from the text with a single
-		command. Collectively, all data sets have been compressed to
-		62.73% of their original size. Most sets have robust
-		documentation including page numbers on which they are used,
-		original data sources, original year of publication, and notes
-		which chronicle their history while offering ideas for further
-		exploration and research. To resurrect a data set, one can pass
-		it's name to the `data()` function or just define it as the
-		`data =` argument of the model function. The data will lazily
-		load and, provided the syntax is correct, model estimates shall
-		spring forth from the otherwise lifeless abyss of your R
-		console! If the syntax is an issue, the wooldridge-vignette
-		displays solutions to examples from each chapter of the text,
-		providing a relevant introduction to econometric modeling with
-		R. The vignette closes with an Appendix of recommended sources
-		for R and econometrics. Note: Data sets are from the 5th
-		edition (Wooldridge 2013, ISBN-13:978-1-111-53104-1), and are
-		compatible with all others.
+		111 Data Sets from "Introductory Econometrics: A Modern Approach,
+		6e" by Jeffrey M. Wooldridge // Students learning both
+		econometrics and R may find the introduction to both
+		challenging. However, if the text is "Introductory
+		Econometrics: A Modern Approach" by Jeffrey M. Wooldridge, they
+		are in luck! The wooldridge data package aims to lighten the
+		task by efficiently loading any data set found in the text with
+		a single command. Data sets have all been compressed to a
+		fraction of their original size and are well documented.
+		Documentation files contain the page numbers of the text where
+		each set is used, the original source, time of publication, and
+		notes suggesting ideas for further exploratory data analysis
+		and research. To resurrect a data set, simply load it with the
+		"data("data")" function. In addition, data will also load
+		lazily by defining it using the "data = data" argument of any
+		model function. Provided the model syntax is correct, estimates
+		shall spring forth from the otherwise lifeless abyss of one's R
+		console! If you need brush up on model syntax, a vignette
+		contains code  and solutions to examples from each chapter of
+		the text. Note: Data sets are from the 6th edition (Wooldridge
+		2016, ISBN-13: 978-1-305-27010-7), and are backwards compatible
+		with all versions of the text.
 	</longdescription>
 </pkgmetadata>

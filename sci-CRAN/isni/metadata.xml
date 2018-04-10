@@ -2,23 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Index of Sensitivity to Nonignorability // The current version
-		provides functions to compute, print and summarize the Index of
-		Sensitivity to Nonignorability (ISNI) in the generalized linear
-		model for independent data, and in the marginal multivariate
-		Gaussian model and the linear mixed model for
-		longitudinal/clustered data. It allows for arbitrary patterns
-		of missingness in the regression outcomes  caused by dropout
-		and/or intermittent missingness. One can compute the
+		Index of Local Sensitivity to Nonignorability // The current
+		version provides functions to compute, print and summarize the
+		Index of Sensitivity to Nonignorability (ISNI) in the
+		generalized linear model for independent data, and in the
+		marginal multivariate Gaussian model and the linear mixed model
+		for longitudinal/clustered data. It allows for arbitrary
+		patterns of missingness in the regression outcomes  caused by
+		dropout and/or intermittent missingness. One can compute the
 		sensitivity index without estimating any nonignorable models or
 		positing specific magnitude of nonignorability. Thus ISNI
 		provides a simple quantitative assessment of how robust the
 		standard estimates assuming missing at random  is with respect
-		to the assumption of ignorability. For more details, see Troxel
-		Ma and Heitjan (2004) and Xie and Heijan (2004)
-		doi:10.1191/1740774504cn005oa and Ma Troxel and Heitjan (2005)
-		doi:10.1002/sim.2107 and  Xie (2008) doi:10.1002/sim.3117 and
-		Xie (2012) doi:10.1016/j.csda.2010.11.021 and Xie and Qian
-		(2012) doi:10.1002/jae.1157.
+		to the assumption of ignorability. For a tutorial, download at
+		http://huixie.people.uic.edu/Research/ISNI_R_tutorial.pdf.  For
+		more details, see Troxel Ma and Heitjan (2004) and Xie and
+		Heitjan (2004) doi:10.1191/1740774504cn005oa and Ma Troxel and
+		Heitjan (2005) doi:10.1002/sim.2107 and  Xie (2008)
+		doi:10.1002/sim.3117 and  Xie (2012)
+		doi:10.1016/j.csda.2010.11.021 and Xie and Qian (2012)
+		doi:10.1002/jae.1157.
 	</longdescription>
 </pkgmetadata>
