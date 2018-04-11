@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Adaptive Shrinkage/Thresholding Algorithm // A collection of
+		acceleration schemes for proximal gradient methods for
+		estimating penalized regression parameters described in
+		Goldstein, Studer, and Baraniuk (2016) arXiv:1411.3406. Schemes
+		such as Fast Iterative Shrinkage and Thresholding Algorithm
+		(FISTA) by Beck and Teboulle (2009) doi:10.1137/080716542 and
+		the adaptive stepsize rule introduced in Wright, Nowak, and
+		Figueiredo (2009) doi:10.1109/TSP.2009.2016892 are included.
+		You provide the objective function and proximal mappings, and
+		it takes care of the issues like stepsize selection,
+		acceleration, and stopping conditions for you.
+	</longdescription>
+</pkgmetadata>
