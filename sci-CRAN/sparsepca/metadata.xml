@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sparse Principal Component Analysis (SPCA) // Sparse principal
+		component analysis (SPCA) attempts to find sparse weight
+		vectors (loadings), i.e., a weight vector with only a few
+		'active' (nonzero) values. This approach provides better
+		interpretability for the principal components in high-
+		dimensional data settings. This is, because the principal
+		components are formed as a linear combination of only a few of
+		the original variables. This package provides efficient
+		routines to compute SPCA. Specifically, a variable projection
+		solver is used to compute the sparse solution. In addition, a
+		fast randomized accelerated SPCA routine and a robust SPCA
+		routine is provided. Robust SPCA allows to capture grossly
+		corrupted entries in the data. The methods are discussed in
+		detail by N. Benjamin Erichson et al. (2018) arXiv:1804.00341.
+	</longdescription>
+</pkgmetadata>
