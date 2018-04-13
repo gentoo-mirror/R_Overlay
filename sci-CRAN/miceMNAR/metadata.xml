@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Missing not at Random Imputation Models for Multiple Imputation
+		by Chained Equation // Provides imputation models and functions
+		for binary or continuous Missing Not At Random (MNAR) outcomes
+		through the use of the 'mice' package. The
+		mice.impute.hecknorm() function provides imputation model for
+		continuous outcome based on Heckman's model also named sample
+		selection model as described in Galimard et al (2016)
+		doi:10.1002/sim.6902. The mice.impute.heckprob() function
+		provides imputation model for binary outcome based on bivariate
+		probit model.
+	</longdescription>
+</pkgmetadata>
