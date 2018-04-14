@@ -2,12 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Variable Selection in the Multivariate Linear Model // It
-		provides a novel variable selection approach in the
-		multivariate framework of the general linear model taking into
-		account the dependence that may exist between the columns of
-		the observations matrix. For further details we refer the
-		reader to the paper Perrot-Dockes et al. (2017),
-		arXiv:1704.00076.
+		Variable Selection in a Multivariate Linear Model // It performs
+		variable selection in a multivariate linear model by estimating
+		the covariance matrix of the residuals then use it to remove
+		the dependence that may exist among the responses and
+		eventually performs variable selection by using the Lasso
+		criterion. The method is described in the paper Perrot-Docks et
+		al. (2017) arXiv:1704.00076.
 	</longdescription>
 </pkgmetadata>
