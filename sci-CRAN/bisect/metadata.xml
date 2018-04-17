@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimating Cell Type Composition from Methylation Sequencing Data
+		// An implementation of Bisect, a method for inferring cell
+		type composition of samples based on methylation sequencing
+		data (Whole Genome Bisulfite Sequencing and Reduced
+		Representation Sequencing). The method is specifically tailored
+		for sequencing data, and therefore works better than methods
+		developed for methylation arrays. It contains a supervised mode
+		that requires a reference (the methylation probabilities in the
+		pure cell types), and a semi-supervised mode, that requires
+		cell counts for a subset of the samples, but does not require a
+		reference.
+	</longdescription>
+</pkgmetadata>
