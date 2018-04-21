@@ -2,15 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Bayesian Analysis of Small Area Estimation // This package
-		provides a variety of functions to deal with several specific
-		small area area- level models in Bayesian context. Models
-		provided range from the basic Fay-Herriot model to its
-		improvement such as You-Chapman models, unmatched models,
-		spatial models and so on. Different types of priors for
-		specific parameters could be chosen to obtain MCMC posterior
-		draws. The main sampling function is written in C with GSL lab
-		so as to facilitate the computation. Model internal checking
-		and model comparison criteria are also involved.
+		Bayesian Analysis of Small Area Estimation // Provides a variety
+		of methods from Rao (2003, ISBN:0-471-41374-7) and some other
+		research articles to deal with several specific small area
+		area- level models in Bayesian framework. Models provided range
+		from the basic Fay-Herriot model to its improvement such as
+		You-Chapman models, unmatched models, spatial models and so on.
+		Different types of priors for specific parameters could be
+		chosen to obtain MCMC posterior draws. The main sampling
+		function is written in C with GSL lab so as to facilitate the
+		computation. Model internal checking and model comparison
+		criteria are also involved.
 	</longdescription>
 </pkgmetadata>
