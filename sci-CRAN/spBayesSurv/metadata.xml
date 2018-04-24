@@ -9,9 +9,11 @@
 		accelerated hazards (AH), a super model that includes PH, AFT,
 		PO and AH as special cases, Bayesian nonparametric
 		nonproportional hazards (LDDPM), generalized accelerated
-		failure time (GAFT), and spatially smoothed density estimation.
-		The spatial dependence is modeled via frailties under PH, AFT,
-		PO, AH and GAFT, and via copulas under LDDPM and PH. Model
-		choice is carried out via LPML and DIC.
+		failure time (GAFT), and spatially smoothed Polya tree density
+		estimation. The spatial dependence is modeled via frailties
+		under PH, AFT, PO, AH and GAFT, and via copulas under LDDPM and
+		PH. Model choice is carried out via the logarithm of the pseudo
+		marginal likelihood (LPML), the deviance information criterion
+		(DIC), and the Watanabe-Akaike information criterion (WAIC).
 	</longdescription>
 </pkgmetadata>

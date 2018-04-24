@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Heuristics Tools Based on Mutual Information for Variable Ranking
+		// A computational toolbox of heuristics approaches for
+		performing variable ranking and feature selection based on
+		mutual information well adapted for multivariate system
+		epidemiology datasets. The core function is a general
+		implementation of the minimum redundancy maximum relevance
+		model. R. Battiti (1994) doi:10.1109/72.298224. Continuous
+		variables are discretized using a large choice of rule.
+		Variables ranking can be learned with a sequential
+		forward/backward search algorithm. The two main problems that
+		can be addressed by this package is the selection of the most
+		representative variable within a group of variables of interest
+		(i.e. dimension reduction) and variable ranking with respect to
+		a set of features of interest.
+	</longdescription>
+</pkgmetadata>
