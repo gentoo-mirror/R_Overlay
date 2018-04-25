@@ -13,9 +13,15 @@ LICENSE='GPL-2+'
 R_SUGGESTS=""
 DEPEND="sci-CRAN/uuid"
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}
+	sci-CRAN/crayon
+	sci-CRAN/digest
+	sci-CRAN/evaluate
+	sci-CRAN/jsonlite
+	sci-CRAN/pbdZMQ
 	sci-R/IRdisplay
 	dev-python/jupyter_client"
 src_install() {
+	mv ${WORKDIR}/${P} ${WORKDIR}/${PN} || die
 	R-packages_src_install
 	dosym "${EPREFIX}"/usr/$(get_libdir)/R/site-library/IRkernel/kernelspec \
 		/usr/share/jupyter/kernels/ir

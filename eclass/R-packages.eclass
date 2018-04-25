@@ -29,7 +29,7 @@ R-packages_src_compile() {
 
 R-packages_src_install() {
 	insinto /usr/$(get_libdir)/R/site-library
-	doins -r "${WORKDIR}"/${PN//_/.}y
+	doins -r "${WORKDIR}"/${PN//_/.}
 }
 
 R-packages_pkg_postinst() {
