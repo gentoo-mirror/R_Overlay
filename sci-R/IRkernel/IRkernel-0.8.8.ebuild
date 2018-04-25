@@ -16,6 +16,7 @@ RDEPEND="${DEPEND-} ${R_SUGGESTS-}
 	sci-R/IRdisplay
 	dev-python/jupyter_client"
 src_install() {
+	mv ${WORKDIR}/${P} ${WORKDIR}/${PN} || die
 	R-packages_src_install
 	dosym "${EPREFIX}"/usr/$(get_libdir)/R/site-library/IRkernel/kernelspec \
 		/usr/share/jupyter/kernels/ir
