@@ -7,7 +7,7 @@ EAPI=5
 inherit R-packages
 
 DESCRIPTION='Programming with Big Data -- Interface to ZeroMQ'
-SRC_URI="http://cran.r-project.org/src/contrib/pbdZMQ_0.3-0.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/pbdZMQ_0.3-2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.0"
