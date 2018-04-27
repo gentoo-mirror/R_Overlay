@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		High-Level Functions to Read and Write Ensemble Forecast Time
+		Series in netCDF // The binary file format 'netCDF' is
+		developed primarily for climate, ocean and meteorological data,
+		and 'efts' is a package to read and write Ensemble Forecast
+		Time Series data in 'netCDF'. 'netCDF' has traditionally been
+		used to store time slices of gridded data, rather than complete
+		time series of point data. 'efts' facilitates data handling
+		stored in 'netCDF' files that follow a convention devised in
+		the domain of ensemble hydrologic forecasting, but possibly
+		applicable in other domains. 'efts' uses reference class
+		objects to provide a high level interface to read and write
+		such data, wrapping lower level operations performed using
+		'ncdf4'.
+	</longdescription>
+</pkgmetadata>
