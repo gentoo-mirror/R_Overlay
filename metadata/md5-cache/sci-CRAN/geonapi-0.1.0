@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/geometa >=dev-lang/R-3.1.0 sci-omegahat/XML sci-CRAN/httr sci-CRAN/R6 sci-CRAN/openssl dev-lang/R
+DESCRIPTION=GeoNetwork API R Interface
+EAPI=5
+IUSE=r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/geometa >=dev-lang/R-3.1.0 sci-omegahat/XML sci-CRAN/httr sci-CRAN/R6 sci-CRAN/openssl r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/geonapi_0.1-0.tar.gz
+_eclasses_=R-packages	b7ca0e6ded14ad663206c1d8971aa905	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=bf84d42f292217d00ec6a33754a7931c
