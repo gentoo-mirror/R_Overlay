@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst prepare unpack
-DEPEND=>=sci-BIOC/IRanges-2.1.43 >=sci-CRAN/RSQLite-1.0.0 >=dev-lang/R-3.2.0 >=sci-BIOC/S4Vectors-0.5.22 >=sci-BIOC/Biostrings-2.35.12 >=sci-CRAN/DBI-0.3.1 >=sci-BIOC/oligoClasses-1.29.6 >=sci-BIOC/oligo-1.31.5 dev-lang/R
+DEPEND=>=sci-CRAN/DBI-0.3.1 >=sci-BIOC/oligoClasses-1.29.6 >=sci-CRAN/RSQLite-1.0.0 >=dev-lang/R-3.2.0 >=sci-BIOC/Biostrings-2.35.12 >=sci-BIOC/IRanges-2.1.43 >=sci-BIOC/S4Vectors-0.5.22 >=sci-BIOC/oligo-1.31.5 dev-lang/R
 DESCRIPTION=Platform Design Info for The Man... (see metadata)
 EAPI=5
 IUSE=byte-compile
 KEYWORDS=~amd64 ~x86
 LICENSE=Artistic-2
-RDEPEND=>=sci-BIOC/IRanges-2.1.43 >=sci-CRAN/RSQLite-1.0.0 >=dev-lang/R-3.2.0 >=sci-BIOC/S4Vectors-0.5.22 >=sci-BIOC/Biostrings-2.35.12 >=sci-CRAN/DBI-0.3.1 >=sci-BIOC/oligoClasses-1.29.6 >=sci-BIOC/oligo-1.31.5 dev-lang/R
+RDEPEND=>=sci-CRAN/DBI-0.3.1 >=sci-BIOC/oligoClasses-1.29.6 >=sci-CRAN/RSQLite-1.0.0 >=dev-lang/R-3.2.0 >=sci-BIOC/Biostrings-2.35.12 >=sci-BIOC/IRanges-2.1.43 >=sci-BIOC/S4Vectors-0.5.22 >=sci-BIOC/oligo-1.31.5 dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/pd.hg.u133a.2_3.12.0.tar.gz
 _eclasses_=R-packages	b7ca0e6ded14ad663206c1d8971aa905	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=9cba1ad26e953863f342cbcab2b0dbfc
+_md5_=49df6e10d50aa76086466ff4f4549eaf
