@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detect Small Changes in Process Mean using CUSUM Control Chart by
+		v-Mask // The cumulative sum (CUSUM) control chart is
+		considered to be an alternative or complementary to Shewhart
+		control charts in statistical process control (SPC)
+		applications, owing to its higher sensitivity to small shifts
+		in the process mean. It utilizes all the available data rather
+		than the last few ones used in Shewhart control charts for
+		quick decision making. V-mask is a traditional technique for
+		separating meaningful data from unusual circumstances in a
+		Cumulative Sum (CUSUM) control chart; for see details about
+		v-mask see Montgomery (1985, ISBN:978-0471656319). The mask is
+		a V-shaped overlay placed on the CUSUM chart so that one arm of
+		the V lines up with the slope of data points, making it easy to
+		see data points that lie outside the slope and to determine
+		whether these points should be discarded as random events, or
+		treated as a performance trend that should be addressed. But,
+		complex computations is one disadvantage V-mask method for
+		detect small changes in mean using CUSUM control chart. Package
+		'vMask' can help to the applied users to overcome this
+		challenge by considering six different methods which each of
+		them are based on different information.
+	</longdescription>
+</pkgmetadata>
