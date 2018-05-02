@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bootstrap Stacking of Random Forest Models for Heterogeneous Data
+		// Generates and predicts a set of linearly stacked Random
+		Forest models using bootstrap sampling. Individual datasets may
+		be heterogeneous (not all samples have full sets of features).
+		Contains support for parallelization but the user should
+		register their cores before running. This is an extension of
+		the method found in Matlock (2018)
+		doi:10.1186/s12859-018-2060-2.
+	</longdescription>
+</pkgmetadata>
