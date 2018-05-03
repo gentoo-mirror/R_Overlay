@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Finding Optimal Microsampling Designs for Non-Compartmental
+		Pharmacokinetic Analysis // Find optimal microsampling designs
+		for non-compartmental pharacokinetic analysis using a  general
+		simulation methodology: Algorithm III of Barnett, Helen, Helena
+		Geys, Tom Jacobs, and Thomas Jaki. (2017) "Optimal Designs for
+		Non-Compartmental Analysis of Pharmacokinetic Studies.
+		(currently unpublished)" This methodology consist of (1)
+		specifying a pharmacokinetic model including variability among
+		animals; (2) generating possible sampling times; (3) evaluating
+		performance of each time point choice on simulated data; (4)
+		generating possible schemes given a time point choice and
+		additional constraints and finally (5) evaluating scheme
+		performance on simulated data. The default settings differ from
+		the article of Barnett and others, in the default
+		pharmacokinetic model used and the parameterization of
+		variability among animals. Details can be found in the package
+		vignette. A 'shiny' web application is included, which guides
+		users from model parametrization to optimal microsampling
+		scheme.
+	</longdescription>
+</pkgmetadata>
