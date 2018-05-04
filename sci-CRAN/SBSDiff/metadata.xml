@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Satorra-Bentler Scaled Chi-Squared Difference Test // Calculates
+		a Satorra-Bentler scaled chi-squared difference test between
+		nested models that were estimated using maximum likelihood (ML)
+		with robust standard errors, which cannot be calculated the
+		traditional way. For details see Satorra  Bentler (2001)
+		doi:10.1007/bf02296192 and Satorra  Bentler (2010)
+		doi:10.1007/s11336-009-9135-y. This package may be particularly
+		helpful when used in conjunction with 'Mplus' software,
+		specifically when implementing the complex survey option. In
+		such cases, the model estimator in 'Mplus' defaults to ML with
+		robust standard errors.
+	</longdescription>
+</pkgmetadata>
