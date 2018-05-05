@@ -3,11 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Regularized Wasserstein Distances and Barycenters // Computations
-		of Sinkhorn Distances (upper bounds to the Wasserstein Distance
-		a.k.a. Earth Mover's Distance) and regularized Wasserstein
+		of entropy regularized Wasserstein Distances, a.k.a. dual-
+		Sinkhorn divergences, and entropy regularized Wasserstein
 		Barycenters. Relevant papers are Marco Cuturi (2013)
 		arXiv:1306.0895, Marco Cuturi (2014) arXiv:1310.4375 and Jason
-		Altschuler et al. arXiv:1705.09634. To speed up the computation
-		time the main iteration steps are based on 'RcppArmadillo'.
+		Altschuler et al. arXiv:1705.09634.
 	</longdescription>
 </pkgmetadata>

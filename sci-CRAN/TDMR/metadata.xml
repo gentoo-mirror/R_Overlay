@@ -2,7 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tuned Data Mining in R // Tuned Data Mining in R (TDMR) performs
-		a complete tuning of a data mining task.
+		Tuned Data Mining in R // Tuned Data Mining in R ('TDMR')
+		performs the complete tuning of a data mining task (predictive
+		analytics, that is classification and regression).
+		Preprocessing parameters and modeling parameters can be tuned
+		simultaneously. It incorporates a variety of tuners (among them
+		'SPOT' and 'CMA' with package 'rCMA') and allows integration of
+		additional tuners. Noise handling in the data mining
+		optimization process is supported, see Koch et al. (2015)
+		doi:10.1016/j.asoc.2015.01.005.
 	</longdescription>
 </pkgmetadata>
