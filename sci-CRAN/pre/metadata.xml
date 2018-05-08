@@ -5,11 +5,11 @@
 		Prediction Rule Ensembles // Derives prediction rule ensembles
 		(PREs). Largely follows the procedure for deriving PREs as
 		described in Friedman  Popescu (2008; DOI:10.1214/07-AOAS148),
-		with several adjustments and improvements. The main function
-		pre() derives prediction rule ensembles consisting of rules
-		and/or linear terms for binary, count and continuous responses.
-		Function gpe() derives generalized prediction ensembles,
-		consisting of rules, hinge and linear functions of the
-		predictor variables.
+		with adjustments and improvements. The main function pre()
+		derives prediction rule ensembles consisting of rules and/or
+		linear terms for continuous, binary, count, multinomial, and
+		multivariate continuous responses. Function gpe() derives
+		generalized prediction ensembles, consisting of rules, hinge
+		and linear functions of the predictor variables.
 	</longdescription>
 </pkgmetadata>
