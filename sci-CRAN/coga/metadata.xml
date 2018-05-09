@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Convolution of Gamma Distributions // Convolution of gamma
-		distributions in R. The convolution of gamma distributions is
-		the sum of series of gamma distributions and all gamma
-		distributions here can have different parameters. This package
-		can calculate density, distribution function and do simulation
-		work.
+		Convolution of Gamma Distributions // Evaluation for density and
+		distribution function of convolution of gamma distributions in
+		R. Two related exact methods and one approximate method are
+		implemented with efficient algorithm and C++ code. A quick
+		guide for choosing correct method and usage of this package is
+		given in package vignette.
 	</longdescription>
 </pkgmetadata>
