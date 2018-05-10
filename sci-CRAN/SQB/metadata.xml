@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sequential Bagging on Regression // Methodology: Remove one
+		observation. Training the rest of data that are sampled without
+		replacement and given this observation's input, predict the
+		response back. Replicate this N times and for each response,
+		take a sample from these replicates with replacement. Average
+		each responses of sample and again replicate this step N time
+		for each observation. Approximate these N new responses and
+		generate another N responses y'. Training these y' and predict
+		to have N responses of each testing observation. The average of
+		N is the final prediction. Each observation will do the same.
+	</longdescription>
+</pkgmetadata>
