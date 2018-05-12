@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Safe Semi-Supervised Learning Tools // Implements several safe
+		graph-based semi-supervised learning algorithms. The first
+		algorithm is the Semi-Supervised Semi-Parametric Model (S4PM)
+		and the fast Anchor Graph version of this approach.  For
+		additional technical details, refer to Culp and Ryan (2013)
+		http://jmlr.org/papers/v14/culp13a.html, Ryan and Culp (2015)
+		http://www.jmlr.org/papers/v16/ryan15a.html and the package
+		vignette. The underlying fitting routines are executed in C++.
+		All tuning parameter estimation is optimized using K-fold
+		Cross-Validation.
+	</longdescription>
+</pkgmetadata>
