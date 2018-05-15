@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Covariate-Adjusted Tensor Classification in High-Dimensions //
+		Performs classification and variable selection on high-
+		dimensional tensors (multi-dimensional arrays) after adjusting
+		for additional covariates (scalar or vectors) as CATCH model in
+		Pan, Mai and Zhang (2018) arXiv:1805.04421. The low-dimensional
+		covariates and the high-dimensional tensors are jointly modeled
+		to predict a categorical outcome in a multi-class discriminant
+		analysis setting. The Covariate-Adjusted Tensor Classification
+		in High-dimensions (CATCH) model is fitted in two steps: (1)
+		adjust for the covariates within each class; and (2) penalized
+		estimation with the adjusted tensor using a cyclic block
+		coordinate descent algorithm. The package can provide a
+		solution path for tuning parameter in the penalized estimation
+		step. Special case of the CATCH model includes linear
+		discriminant analysis model and matrix (or tensor) discriminant
+		analysis without covariates.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/boot sci-CRAN/multcompView >=sci-CRAN/lme4-1.0.4 sci-CRAN/FactoMineR sci-CRAN/cramer sci-CRAN/pspearman virtual/nnet >=sci-CRAN/ade4-1.7.8 sci-CRAN/car sci-CRAN/pls >=sci-CRAN/vegan-2.4.3 >=sci-CRAN/mixOmics-5.0.2 virtual/MASS sci-CRAN/dunn_test dev-lang/R
+DESCRIPTION=Testing and Plotting Procedures for Biostatistics
+EAPI=5
+IUSE=r_suggests_dgof r_suggests_emmeans r_suggests_emt r_suggests_npsm r_suggests_ordinal r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/boot sci-CRAN/multcompView >=sci-CRAN/lme4-1.0.4 sci-CRAN/FactoMineR sci-CRAN/cramer sci-CRAN/pspearman virtual/nnet >=sci-CRAN/ade4-1.7.8 sci-CRAN/car sci-CRAN/pls >=sci-CRAN/vegan-2.4.3 >=sci-CRAN/mixOmics-5.0.2 virtual/MASS sci-CRAN/dunn_test r_suggests_dgof? ( sci-CRAN/dgof ) r_suggests_emmeans? ( sci-CRAN/emmeans ) r_suggests_emt? ( sci-CRAN/EMT ) r_suggests_npsm? ( sci-CRAN/npsm ) r_suggests_ordinal? ( sci-CRAN/ordinal ) r_suggests_survival? ( virtual/survival ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RVAideMemoire_0.9-69-3.tar.gz
+_eclasses_=R-packages	b7ca0e6ded14ad663206c1d8971aa905	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	fa02994d0beba88681127d93da4411ec	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=e83784c0f9a39ce45cf8035287ec233c

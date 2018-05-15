@@ -8,15 +8,15 @@
 		actual coverage for binomial proportions.  Both are given in
 		greater detail next. (1) Plots the two-dimensional confidence
 		region for probability distribution parameters (supported
-		distribution suffixes: gamma, invgauss, lnorm, llogis, norm,
-		weibull) corresponding to a user given dataset and level of
-		significance. The crplot() algorithm plots more points in areas
-		of greater curvature to ensure a smooth appearance throughout
-		the confidence region boundary.  An alternative heuristic plots
-		a specified number of points at roughly uniform intervals along
-		its boundary.  Both heuristics build upon the radial profile
-		log-likelihood ratio technique for plotting two-dimensional
-		confidence regions given by Jaeger (2016)
+		distribution suffixes: gamma, invgauss, llogis, lnorm, norm,
+		unif, weibull) corresponding to a user given dataset and level
+		of significance. The crplot() algorithm plots more points in
+		areas of greater curvature to ensure a smooth appearance
+		throughout the confidence region boundary.  An alternative
+		heuristic plots a specified number of points at roughly uniform
+		intervals along its boundary.  Both heuristics build upon the
+		radial profile log-likelihood ratio technique for plotting two-
+		dimensional confidence regions given by Jaeger (2016)
 		doi:10.1080/00031305.2016.1182946. (2) Calculates confidence
 		interval bounds for a binomial proportion with binomTest(),
 		calculates the actual coverage with binomTestCoverage(), and
