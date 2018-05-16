@@ -3,28 +3,22 @@
 <pkgmetadata>
 	<longdescription>
 		Efficient Estimation of Grouped Survival Models Using the Exact
-		Likelihood Function // The core of this 'Rcpp'-based package is
-		a set of functions to compute the efficient score statistics
-		for grouped survival models. The functions are designed to
-		analyze grouped time-to-event data with the optional inclusion
-		of either baseline covariates or family structure of related
-		individuals (e.g., trios). Functions for estimating the
-		baseline hazards, frailty variance, nuisance parameters, and
-		fixed effects are also provided. The functions encompass two
-		processes for discrete-time shared frailty model data with
-		random effects: (1) evaluation of the multiple variable
-		integration to compute the exact proportional-hazards-model-
-		based likelihood and (2) estimation of the desired parameters
-		using maximum likelihood. For data without family structure,
-		only the latter step is performed. The integration is evaluated
-		by the 'Cuhre' algorithm from the 'Cuba' library (Hahn, T.
-		(2005). Cuba-a library for multidimensional numerical
-		integration, Comput. Phys. Commun. 168, 78-95
-		doi:10.1016/j.cpc.2005.01.010), and the source files of the
-		'Cuhre' function are included in this package. The maximization
-		process is carried out using Brent's algorithm, with the 'C++'
-		code file from John Burkardt and John Denker (Brent, R.,
-		Algorithms for Minimization without Derivatives, Dover, 2002,
-		ISBN 0-486-41998-3).
+		Likelihood Function // These 'Rcpp'-based functions compute the
+		efficient score statistics for grouped time-to-event data
+		(Prentice and Gloeckler, 1978), with the optional inclusion of
+		baseline covariates. Functions for estimating the parameter of
+		interest and nuisance parameters, including baseline hazards,
+		using maximum likelihood are also provided. A parallel set of
+		functions allow for the incorporation of family structure of
+		related individuals (e.g., trios). Note that the current
+		implementation of the frailty model (Ripatti and Palmgren,
+		2000) is sensitive to departures from model assumptions, and
+		should be considered experimental. For these data, the exact
+		proportional-hazards-model-based likelihood is computed by
+		evaluating multiple variable integration. The integration is
+		accomplished using the 'Cuba' library (Hahn, 2005), and the
+		source files are included in this package. The maximization
+		process is carried out using Brent's algorithm, with the C++
+		code file from John Burkardt and John Denker (Brent, 2002).
 	</longdescription>
 </pkgmetadata>

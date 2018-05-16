@@ -1,0 +1,25 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+EAPI=5
+
+inherit R-packages
+
+DESCRIPTION='The Generalized Hyperbolic Distribution'
+SRC_URI="http://cran.r-project.org/src/contrib/GeneralizedHyperbolic_0.8-4.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_actuar r_suggests_runit r_suggests_skewhyperbolic
+	r_suggests_variancegamma"
+R_SUGGESTS="
+	r_suggests_actuar? ( sci-CRAN/actuar )
+	r_suggests_runit? ( sci-CRAN/RUnit )
+	r_suggests_skewhyperbolic? ( sci-CRAN/SkewHyperbolic )
+	r_suggests_variancegamma? ( sci-CRAN/VarianceGamma )
+"
+DEPEND=">=dev-lang/R-3.0.1
+	sci-CRAN/DistributionUtils
+	virtual/MASS
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
