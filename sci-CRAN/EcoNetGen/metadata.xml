@@ -3,11 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Simulate and Sample from Ecological Interaction Networks //
-		Generate a wide range of random networks given expected degree,
-		'modularity', and structure.  Simulations and sampling routines
-		are implemented in 'FORTRAN', providing efficient generation
-		times even for large networks. Basic visualization methods also
-		included.  Algorithms implemented here are described in de
-		Aguiar et al. (2017) arXiv:1708.01242.
+		Randomly generate a wide range of interaction networks with
+		specified size, average degree, 'modularity', and topological
+		structure. Sample nodes and links from within simulated
+		networks randomly, by degree, by module, or by abundance.
+		Simulations and sampling routines are implemented in 'FORTRAN',
+		providing efficient generation times even for large networks.
+		Basic visualization methods also included. Algorithms
+		implemented here are described in de Aguiar et al. (2017)
+		arXiv:1708.01242.
 	</longdescription>
 </pkgmetadata>
