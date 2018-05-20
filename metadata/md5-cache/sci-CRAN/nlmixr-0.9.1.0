@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/lbfgs sci-CRAN/inline sci-CRAN/cli virtual/lattice sci-CRAN/dparser >=sci-CRAN/vpc-1.0.0 virtual/nlme sci-CRAN/fastGHQuad sci-CRAN/rex sci-CRAN/n1qn1 sci-CRAN/RxODE sci-CRAN/ggplot2 >=sci-CRAN/RcppArmadillo-0.5.600.2.0 sci-CRAN/crayon sci-CRAN/numDeriv sci-CRAN/R_utils sci-CRAN/PreciseSums sci-CRAN/mvtnorm >=dev-lang/R-3.2 sci-CRAN/brew >=sci-CRAN/Rcpp-0.12.3 sci-CRAN/memoise virtual/Matrix sci-CRAN/minqa dev-lang/R
+DESCRIPTION=Nonlinear Mixed Effects Models i... (see metadata)
+EAPI=5
+IUSE=r_suggests_data_table r_suggests_devtools r_suggests_dplyr r_suggests_expm r_suggests_knitr r_suggests_lbfgsb3 r_suggests_madness r_suggests_matrixcalc r_suggests_reshape2 r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/lbfgs sci-CRAN/inline sci-CRAN/cli virtual/lattice sci-CRAN/dparser >=sci-CRAN/vpc-1.0.0 virtual/nlme sci-CRAN/fastGHQuad sci-CRAN/rex sci-CRAN/n1qn1 sci-CRAN/RxODE sci-CRAN/ggplot2 >=sci-CRAN/RcppArmadillo-0.5.600.2.0 sci-CRAN/crayon sci-CRAN/numDeriv sci-CRAN/R_utils sci-CRAN/PreciseSums sci-CRAN/mvtnorm >=dev-lang/R-3.2 sci-CRAN/brew >=sci-CRAN/Rcpp-0.12.3 sci-CRAN/memoise virtual/Matrix sci-CRAN/minqa >=sci-CRAN/dparser-0.1.8 >=sci-CRAN/Rcpp-0.12.3 sci-CRAN/BH >=sci-CRAN/RcppEigen-0.3.3.3.0 sci-CRAN/StanHeaders r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_expm? ( sci-CRAN/expm ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lbfgsb3? ( sci-CRAN/lbfgsb3 ) r_suggests_madness? ( sci-CRAN/madness ) r_suggests_matrixcalc? ( sci-CRAN/matrixcalc ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nlmixr_0.9.1-0.tar.gz
+_eclasses_=R-packages	b7ca0e6ded14ad663206c1d8971aa905	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	fa02994d0beba88681127d93da4411ec	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=1d311c4359c3ce61eff6936d5c6c42c5
