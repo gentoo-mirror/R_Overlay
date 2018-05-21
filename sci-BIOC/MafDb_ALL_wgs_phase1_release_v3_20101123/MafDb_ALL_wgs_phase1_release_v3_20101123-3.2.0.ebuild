@@ -11,14 +11,14 @@ SRC_URI="http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib
 LICENSE='Artistic-2'
 
 DEPEND=">=sci-BIOC/VariantFiltering-1.5.23
-	sci-BIOC/Biobase
-	>=sci-CRAN/RSQLite-1.0.0
-	sci-BIOC/IRanges
-	sci-BIOC/Biostrings
-	sci-BIOC/VariantAnnotation
-	sci-BIOC/GenomicRanges
-	sci-BIOC/AnnotationDbi
 	>=dev-lang/R-3.0.0
+	sci-BIOC/Biostrings
+	>=sci-CRAN/RSQLite-1.0.0
+	sci-BIOC/GenomicRanges
+	sci-BIOC/Biobase
 	sci-BIOC/Rsamtools
+	sci-BIOC/AnnotationDbi
+	sci-BIOC/VariantAnnotation
+	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-}"
