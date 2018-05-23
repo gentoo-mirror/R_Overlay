@@ -2,17 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Solvers for Large Scale Eigenvalue and SVD Problems // R
-		interface to the 'Spectra' library
-		http://yixuan.cos.name/spectra/ for large scale eigenvalue and
-		SVD problems. It is typically used to compute a few
-		eigenvalues/vectors of an n by n matrix, e.g., the k largest
-		eigenvalues, which is usually more efficient than eigen() if k
-		n. This package provides the 'eigs()' function which does the
-		similar job as in 'Matlab', 'Octave', 'Python SciPy' and
-		'Julia'. It also provides the 'svds()' function to calculate
-		the largest k singular values and corresponding singular
-		vectors of a real matrix. Matrices can be given in either dense
-		or sparse form.
+		Solvers for Large-Scale Eigenvalue and SVD Problems // R
+		interface to the 'Spectra' library https://spectralib.org/ for
+		large-scale eigenvalue and SVD problems. It is typically used
+		to compute a few eigenvalues/vectors of an n by n matrix, e.g.,
+		the k largest eigenvalues, which is usually more efficient than
+		eigen() if k  n. This package provides the 'eigs()' function
+		that does the similar job as in 'Matlab', 'Octave', 'Python
+		SciPy' and 'Julia'. It also provides the 'svds()' function to
+		calculate the largest k singular values and corresponding
+		singular vectors of a real matrix. The matrix to be computed on
+		can be dense, sparse, or in the form of an operator defined by
+		the user.
 	</longdescription>
 </pkgmetadata>
