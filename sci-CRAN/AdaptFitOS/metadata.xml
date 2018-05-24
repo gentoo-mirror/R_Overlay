@@ -2,9 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Adaptive Semiparametric Regression with Simultaneous Confidence
-		Bands // Fits semiparametric regression models with spatially
-		adaptive penalized splines and computes simultaneous confidence
-		bands.
+		Adaptive Semiparametric Additive Regression with Simultaneous
+		Confidence Bands and Specification Tests // Fits semiparametric
+		additive regression models with spatially adaptive penalized
+		splines and computes simultaneous confidence bands and
+		associated specification (lack-of-fit) tests. Simultaneous
+		confidence bands cover the entire curve with a prescribed level
+		of confidence and allow us to assess the estimation uncertainty
+		for the whole curve. In contrast to pointwise confidence bands,
+		they permit statements about the statistical significance of
+		certain features (e.g. bumps) in the underlying curve.The
+		method allows for handling of spatially heterogeneous functions
+		and their derivatives as well as heteroscedasticity in the
+		data. See Wiesenfarth et al (2012)
+		doi:10.1080/01621459.2012.682809.
 	</longdescription>
 </pkgmetadata>
