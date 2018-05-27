@@ -2,14 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Structural Equation Multidimensional Scaling // Fits a
-		multidimensional scaling (MDS) model for three-way data. It
-		integrates concepts from structural equation models (SEM) by
-		assuming an underlying, latent dissimilarity matrix. The
-		methods uses an alternating estimation procedure in which the
-		unknown symmetric dissimilarity matrix is estimated in a SEM
+		Structural Equation Multidimensional Scaling // Fits a structural
+		equation multidimensional scaling (SEMDS) model for asymmetric
+		and three-way input dissimilarities. It assumes that the
+		dissimilarities are measured with errors. The latent
+		dissimilarities are estimated as factor scores within an SEM
 		framework while the objects are represented in a low-
-		dimensional space. As a special case it can also handle
-		asymmetric input dissimilarities.
+		dimensional space as in MDS.
 	</longdescription>
 </pkgmetadata>
