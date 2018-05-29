@@ -15,7 +15,9 @@ RDEPEND="${DEPEND}"
 
 R-packages_src_unpack() {
 	unpack ${A}
-	mv ${PN//_/.} ${P}
+	if [[ -d "${PN//_/.}" ]] && [[ ! -d "${P}" ]]; then
+		mv ${PN//_/.} ${P}
+	fi
 }
 
 R-packages_src_prepare() {

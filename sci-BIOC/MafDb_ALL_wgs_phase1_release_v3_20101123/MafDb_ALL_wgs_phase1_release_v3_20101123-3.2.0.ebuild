@@ -1,8 +1,7 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=5
+EAPI=6
 
 inherit R-packages
 
@@ -13,12 +12,12 @@ LICENSE='Artistic-2'
 DEPEND=">=sci-BIOC/VariantFiltering-1.5.23
 	sci-BIOC/IRanges
 	>=dev-lang/R-3.0.0
-	sci-BIOC/Rsamtools
-	sci-BIOC/Biostrings
+	sci-BIOC/Biobase
 	>=sci-CRAN/RSQLite-1.0.0
-	sci-BIOC/GenomicRanges
+	sci-BIOC/Biostrings
+	sci-BIOC/Rsamtools
 	sci-BIOC/VariantAnnotation
 	sci-BIOC/AnnotationDbi
-	sci-BIOC/Biobase
+	sci-BIOC/GenomicRanges
 "
 RDEPEND="${DEPEND-}"

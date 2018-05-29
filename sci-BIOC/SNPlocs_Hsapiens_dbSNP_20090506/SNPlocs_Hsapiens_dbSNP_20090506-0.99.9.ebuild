@@ -1,8 +1,7 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=5
+EAPI=6
 
 inherit R-packages
 
@@ -12,12 +11,12 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_biostrings"
 R_SUGGESTS="r_suggests_biostrings? ( sci-BIOC/Biostrings )"
-DEPEND="sci-BIOC/GenomicRanges
-	sci-BIOC/GenomicRanges
-	sci-BIOC/IRanges
-	>=sci-BIOC/BSgenome-1.25.6
+DEPEND=">=sci-BIOC/BSgenome-1.25.6
 	sci-BIOC/IRanges
 	sci-BIOC/BSgenome
+	sci-BIOC/IRanges
+	sci-BIOC/GenomicRanges
+	sci-BIOC/GenomicRanges
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

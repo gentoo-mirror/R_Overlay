@@ -1,8 +1,7 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
-EAPI=5
+EAPI=6
 
 inherit R-packages
 
@@ -18,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.2
 	sci-BIOC/GenomicRanges
-	sci-BIOC/SummarizedExperiment
 	sci-BIOC/VariantAnnotation
+	sci-BIOC/SummarizedExperiment
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
