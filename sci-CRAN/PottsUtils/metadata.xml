@@ -2,7 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Utility Functions of the Potts Models // A package including
-		several functions related to the Potts models.
+		Utility Functions of the Potts Models // There are three sets of
+		functions. The first produces basic properties of a graph and
+		generates samples from multinomial distributions to facilitate
+		the simulation functions (they maybe used for other purposes as
+		well). The second provides various simulation functions for a
+		Potts model in Potts, R. B. (1952)
+		doi:10.1017/S0305004100027419. The third currently includes
+		only one function which computes the normalizing constant of a
+		Potts model based on simulation results.
 	</longdescription>
 </pkgmetadata>

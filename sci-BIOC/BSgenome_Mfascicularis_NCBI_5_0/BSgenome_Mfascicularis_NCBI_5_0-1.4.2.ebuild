@@ -9,7 +9,7 @@ DESCRIPTION='Full genome sequences for Macaca... (see metadata)'
 SRC_URI="http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/BSgenome.Mfascicularis.NCBI.5.0_1.4.2.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND=">=sci-BIOC/BSgenome-1.36.0
+DEPEND="sci-BIOC/BSgenome
 	sci-BIOC/BSgenome
 "
 RDEPEND="${DEPEND-}"

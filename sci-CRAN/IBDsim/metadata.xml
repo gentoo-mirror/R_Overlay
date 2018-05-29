@@ -2,14 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Simulation of Chromosomal Regions Shared by Family Members // R
-		package for simulation of IBD sharing among family members.
-		Using sex specific recombination rates from the Decode map
-		(2010) of the human genome, phased chromosomes are simulated
-		for all pedigree members, either by unconditional 'gene
-		dropping' or conditional on a specified IBD pattern. Regions
-		compatible with the query IBD pattern (possibly different from
-		the conditional pattern) are subsequently detected and
-		summarized.
+		Simulation of Chromosomal Regions Shared by Family Members //
+		Simulation of segments shared identical-by-descent (IBD) by
+		pedigree members. Using sex specific recombination rates along
+		the human genome (Kong et. al (2010) doi:10.1038/nature09525),
+		phased chromosomes are simulated for all pedigree members,
+		either by unconditional gene dropping or conditional on a
+		specified IBD pattern. Additional functions provide summaries
+		and further analysis of the simulated genomes.
 	</longdescription>
 </pkgmetadata>

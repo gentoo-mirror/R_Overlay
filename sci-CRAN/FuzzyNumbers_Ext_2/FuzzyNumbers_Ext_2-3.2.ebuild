@@ -8,6 +8,3 @@ inherit R-packages
 DESCRIPTION='Apply Two Fuzzy Numbers on a Monotone Function'
 SRC_URI="http://cran.r-project.org/src/contrib/FuzzyNumbers.Ext.2_3.2.tar.gz"
 LICENSE='LGPL-3+'
-
-DEPEND="sci-CRAN/FuzzyNumbers"
-RDEPEND="${DEPEND-}"
