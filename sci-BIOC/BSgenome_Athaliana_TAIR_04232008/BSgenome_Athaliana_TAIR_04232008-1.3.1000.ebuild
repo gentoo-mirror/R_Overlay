@@ -1,0 +1,15 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Full genome sequences for Arabid... (see metadata)'
+SRC_URI="http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/BSgenome.Athaliana.TAIR.04232008_1.3.1000.tar.gz"
+LICENSE='Artistic-2'
+
+DEPEND="sci-BIOC/BSgenome
+	sci-BIOC/BSgenome
+"
+RDEPEND="${DEPEND-}"

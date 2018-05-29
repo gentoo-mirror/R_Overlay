@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		aoristic analysis with spatial output (kml) // 'Aoristic' is one
+		of the past tenses in Greek and represents an uncertain
+		occurrence time.  Aoristic analysis suggested by Ratcliffe
+		(2002) is a method to analyze events that do not have exact
+		times of occurrence but have starting times and ending times.
+		For example, a property crime database (e.g., burglary)
+		typically has a starting time and ending time of the crime that
+		could have occurred.  Aoristic analysis allocates the
+		probability of a crime incident occurring at every hour over a
+		24-hour period. The probability is aggregated over a study area
+		to create an aoristic graph. Using crime incident data with
+		lat/lon, DateTimeFrom, and DateTimeTo, functions in this
+		package create a total of three (3) kml files and corresponding
+		aoristic graphs: 1) density and contour; 2) grid count; and 3)
+		shapefile boundary. (see also:
+		https://sites.google.com/site/georgekick/software)
+	</longdescription>
+</pkgmetadata>

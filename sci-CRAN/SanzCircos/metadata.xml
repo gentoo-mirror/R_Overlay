@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Functions for Creating 'Circos' Files // A series of functions
+		designed to aid in the creation of input files for the 'Circos'
+		visualization platform http://circos.ca/. Included are two main
+		function types - make_circos_x() and write_circos_x(). The
+		"make" functions are designed to process an input data set, and
+		return a data frame that can be manipulated and filtered to
+		eliminate the need to write Perl scripts within the 'Circos'
+		software platform for data filtering. The "write" functions
+		take processed data frames from the "make" functions, and write
+		.txt files compatible with the 'Circos' platform. In addition
+		to these function types, there are other accessory functions
+		that aid in the manipulation of the make_circos_x() returned
+		data frames to enhance final visual appeal (such as
+		color_circos_links()).
+	</longdescription>
+</pkgmetadata>

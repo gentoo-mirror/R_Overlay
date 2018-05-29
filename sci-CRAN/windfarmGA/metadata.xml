@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Genetic Algorithm for Wind Farm Layout Optimization // The
+		genetic algorithm is designed to optimize small wind farms with
+		irregular shapes. The algorithm works with a fixed amount of
+		turbines, a fixed rotor radius and a mean wind speed value for
+		every incoming wind direction. If required, it can include a
+		terrain effect model which downloads an 'SRTM' elevation model
+		automatically and loads a Corine Land Cover raster, which has
+		to be downloaded previously. Further information can be found
+		in the description of the function 'windfarmGA'. To start an
+		optimization run, either the function 'windfarmGA' or 'genAlgo'
+		can be used. The function 'windfarmGA' checks the user inputs
+		interactively and then runs the function 'genAlgo'. If the
+		input parameters are already known, an optimization can be run
+		directly via the function 'genAlgo'. Their output is identical.
+	</longdescription>
+</pkgmetadata>

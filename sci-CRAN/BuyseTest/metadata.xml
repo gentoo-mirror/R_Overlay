@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generalized Pairwise Comparisons // Implementation of the
+		Generalized Pairwise Comparisons. This test enables to compare
+		two groups of observations in randomized trials(e.g treated vs.
+		control patients) on several prioritized outcomes. Pairwise
+		comparisons require consideration of all possible pairs of
+		individuals, one taken from the treatment group and the other
+		taken from the control group. The outcomes of the two
+		individuals forming a pair are compared. Thresholds of minimal
+		clinically significant differences can be defined. It is
+		possible to analyze simultaneously several outcomes by
+		prioritizing the variables that capture them. The highest
+		priority is assigned to the variable considered the most
+		clinically relevant. A natural way of handling uninformative or
+		neutral pairs is to consider the outcomes in descending order
+		of priority: whenever a pair is uninformative or neutral for an
+		outcome of higher priority, the outcomes of lower priority are
+		examined In the case of time-to-event endpoint, four methods to
+		handle censored observations are available in this package
+		(Gehan, Peto, Efron, and Peron).
+	</longdescription>
+</pkgmetadata>
