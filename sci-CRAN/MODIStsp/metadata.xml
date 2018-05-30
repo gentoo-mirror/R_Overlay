@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Tool for Automating Download and Preprocessing of MODIS Land
+		Products Data // Allows automating the creation of time series
+		of rasters derived from MODIS Satellite Land Products data. It
+		performs several typical preprocessing steps such as download,
+		mosaicking, reprojection and resize of data acquired on a
+		specified time period. All processing parameters can be set
+		using a user-friendly GUI. Users can select which layers of the
+		original MODIS HDF files they want to process, which additional
+		Quality Indicators should be extracted from aggregated MODIS
+		Quality Assurance layers and, in the case of Surface
+		Reflectance products , which Spectral Indexes should be
+		computed from the original reflectance bands. For each output
+		layer, outputs are saved as single-band raster files
+		corresponding to each available acquisition date. Virtual files
+		allowing access to the entire time series as a single file are
+		also created. Command-line execution exploiting a previously
+		saved processing options file is also possible, allowing to
+		automatically update time series related to a MODIS product
+		whenever a new image is available.
+	</longdescription>
+</pkgmetadata>

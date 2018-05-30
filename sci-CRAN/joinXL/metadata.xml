@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Perform Joins or Minus Queries on 'Excel' Files // Performs Joins
+		and Minus Queries on 'Excel' Files fulljoinXL() Merges all rows
+		of 2 'Excel' files based upon a common column in the files.
+		innerjoinXL() Merges all rows from base file and join file when
+		the join condition is met. leftjoinXL() Merges all rows from
+		the base file, and all rows from the join file if the join
+		condition is met. rightjoinXL() Merges all rows from the join
+		file, and all rows from the base file if the join condition is
+		met. minusXL() Performs 2 operations source-minus-target and
+		target-minus-source If the files are identical all output files
+		will be empty. Choose two 'Excel' files via a dialog box, and
+		then follow prompts at the console to choose a base or source
+		file and columns to merge or minus on.
+	</longdescription>
+</pkgmetadata>
