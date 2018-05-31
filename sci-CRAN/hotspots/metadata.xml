@@ -2,7 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Hot spots // Calculates a hot spot cutoff and associated analyses
-		for statistical populations
+		Hot Spots // The hotspots package is designed to look within a
+		set of measured values of a variable and identify values that
+		are disproportionately high based on both the deviance of any
+		given value from a statistical distribution and its similarity
+		to other values. Because this relative magnitude of each value
+		is taken into account, a value that is a statistical outlier
+		may not always be a hot spot if other values are similarly
+		large.
 	</longdescription>
 </pkgmetadata>
