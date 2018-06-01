@@ -9,17 +9,19 @@
 		methods described in a book: 'Chakraborty' 'DP' (2017),
 		"Observer Performance Methods for Diagnostic Imaging -
 		Foundations, Modeling, and Applications with R-Based Examples",
-		Taylor-Francis https://www.crcpress.com/9781482214840. Data
-		collection paradigms include receiver operating characteristic
-		('ROC') and its location specific extensions, primarily free-
-		response 'ROC' ('FROC'). 'ROC' data consists of a single rating
-		per image, where the rating is the perceived confidence level
-		the image is of a diseased patient. 'FROC' data consists of a
-		variable number (including zero) of mark-rating pairs per
-		image, where a mark is the location of a clinically reportable
-		suspicious region and the rating is the corresponding
-		confidence level that it is a true lesion. The software
-		supersedes the current Windows version of 'JAFROC' software
+		Taylor-Francis https://www.crcpress.com/9781482214840 and its
+		Online Appendices
+		https://github.com/dpc10ster/onlinebookk21778. Data collection
+		paradigms include receiver operating characteristic ('ROC') and
+		its location specific extensions, primarily free-response 'ROC'
+		('FROC'). 'ROC' data consists of a single rating per image,
+		where the rating is the perceived confidence level the image is
+		of a diseased patient. 'FROC' data consists of a variable
+		number (including zero) of mark-rating pairs per image, where a
+		mark is the location of a clinically reportable suspicious
+		region and the rating is the corresponding confidence level
+		that it is a true lesion. The software supersedes the current
+		Windows version of 'JAFROC' software
 		http://www.devchakraborty.com. 'RJafroc' is derived from it
 		being an enhanced R version of original Windows 'JAFROC'.
 		Implemented are a number of figures of merit quantifying
@@ -50,9 +52,7 @@
 		in a pivotal study. Utility and data file manipulation
 		functions allow data to be read in any of the currently used
 		input formats, including Excel, and the results of the analysis
-		can be viewed in text or Excel output files. The package is
-		used extensively in the online appendices of the cited book.
-		Directions for accessing the online material are available by
-		following the software tab of http://www.devchakraborty.com.
+		can be viewed in text or Excel output files. 'RJafroc' is used
+		extensively in the cited book and its online appendices.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Alternative Conflict Resolution Strategy // R's default
+		conflict management system gives the most recently loaded
+		package precedence. This can make it hard to detect conflicts,
+		particularly when they arise because a package update creates
+		ambiguity that did not previously exist. 'conflicted' takes a
+		different approach, making every conflict an error and forcing
+		you to choose which function to use.
+	</longdescription>
+</pkgmetadata>
