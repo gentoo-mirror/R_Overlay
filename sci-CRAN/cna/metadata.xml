@@ -9,10 +9,15 @@
 		introduced in Baumgartner (2009) doi:10.1177/0049124109339369.
 		CNA is related to Qualitative Comparative Analysis (QCA), but
 		contrary to the latter, it is custom-built for uncovering
-		causal structures with multiple outcomes. While previous
-		versions have only been capable of processing dichotomous
-		variables, the current version generalizes CNA for multi-value
-		and continuous variables whose values are interpreted as
-		membership scores in fuzzy sets.
+		causal structures with multiple outcomes and it builds causal
+		models from the bottom up by gradually combining single factors
+		to complex dependency structures until the requested thresholds
+		of model fit are met. The new functionalities provided by this
+		package version include various new parameters of model fit, as
+		exhaustiveness and faithfulness, and a test for structural
+		redundancies in multi-outcome models with a corresponding
+		function that eliminates such redundancies. Also, the
+		algorithmic efficiency has been significantly increased.
+		Finally, the package now comes with an extensive vignette.
 	</longdescription>
 </pkgmetadata>
