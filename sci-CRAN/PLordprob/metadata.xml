@@ -7,10 +7,10 @@
 		scalar ordered probit model where the observed variables have
 		dimension greater than one. Estimation of the parameters is
 		done via maximization of the pairwise likelihood, a special
-		case of the composite likehood obtained as product of bivariate
-		marginal distributions. The package uses the Fortran 77
-		subroutine SADMVN by Alan Genz, with minor adaptations made by
-		Adelchi Azzalini in his "mvnormt" package for evaluating the
+		case of the composite likelihood obtained as product of
+		bivariate marginal distributions. The package uses the Fortran
+		77 subroutine SADMVN by Alan Genz, with minor adaptations made
+		by Adelchi Azzalini in his "mvnormt" package for evaluating the
 		two-dimensional Gaussian integrals involved in the pairwise
 		log-likelihood. Optimization of the latter objective function
 		is performed via quasi-Newton box-constrained optimization
