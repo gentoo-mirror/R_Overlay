@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Collection of Techniques Correcting for Sample Selection Bias
+		// A collection of various techniques correcting statistical
+		models for sample selection bias is provided. In particular,
+		the resampling-based methods "stochastic inverse-probability
+		oversampling" and "parametric inverse-probability bagging" are
+		placed at the disposal which generate synthetic observations
+		for correcting classifiers for biased samples resulting from
+		stratified random sampling. For further information, see the
+		article Krautenbacher, Theis, and Fuchs (2017)
+		doi:10.1155/2017/7847531. The methods may be used for further
+		purposes where weighting and generation of new observations is
+		needed.
+	</longdescription>
+</pkgmetadata>

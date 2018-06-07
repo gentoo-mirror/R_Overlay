@@ -15,7 +15,7 @@ DEPEND=">=sci-BIOC/oligo-1.31.5
 	>=dev-lang/R-3.2.0
 	>=sci-CRAN/RSQLite-1.0.0
 	>=sci-BIOC/Biostrings-2.35.12
-	>=sci-BIOC/IRanges-2.1.43
 	virtual/class
+	>=sci-BIOC/IRanges-2.1.43
 "
 RDEPEND="${DEPEND-}"
