@@ -5,26 +5,30 @@
 		Wavelet Routines for Global and Local Multiple Correlation //
 		Wavelet routines that calculate single sets of wavelet multiple
 		correlations (WMC) and cross-correlations (WMCC) out of n
-		variables (either 1D time series, 2D images or 3D arrays). They
-		can later be plotted in single graphs, as an alternative to
-		trying to make sense out of several sets of wavelet
-		correlations or wavelet cross-correlations. The code is based
-		on the calculation, at each wavelet scale, of the square root
-		of the coefficient of determination in a linear combination of
-		variables for which such coefficient of determination is a
-		maximum. The code provided here is based on the
-		wave.correlation routine in Brandon Whitcher's waveslim R
+		variables. They can later be plotted in single graphs, as an
+		alternative to trying to make sense out of several sets of
+		wavelet correlations or wavelet cross-correlations. The code is
+		based on the calculation, at each wavelet scale, of the square
+		root of the coefficient of determination in a linear
+		combination of variables for which such coefficient of
+		determination is a maximum. The code provided here is based on
+		the wave.correlation routine in Brandon Whitcher's waveslim R
 		package Version: 1.6.4, which in turn is based on wavelet
-		methodology developed in Percival and Walden (2000); Genay,
-		Seluk and Whitcher (2001) and others. Version 2 incorporates
-		wavelet local multiple correlations (WLMC). These are like the
-		previous global WMC but consisting in one single set of
-		multiscale correlations along time. That is, at each time t,
-		they are calculated by letting a window of weighted wavelet
-		coefficients around t move along time. Six weight functions are
-		provided. Namely, the  uniform window, Cleveland's tricube
-		window, Epanechnikov's parabolic window, Bartlett's triangular
-		window and Wendland's truncated power window and the Gaussian
-		window.
+		methodology developed in Percival and Walden (2000)
+		DOI:10.1017/CBO9780511841040; Genay, Seluk and Whitcher (2002)
+		DOI:10.1016/B978-012279670-8.50013-6 and others. Version 2
+		incorporates wavelet local multiple correlations (WLMC). These
+		are like the previous global WMC but consisting in one single
+		set of multiscale correlations along time. That is, at each
+		time t, they are calculated by letting a window of weighted
+		wavelet coefficients around t move along time. Six weight
+		functions are provided. Namely, the  uniform window,
+		Cleveland's tricube window, Epanechnikov's parabolic window,
+		Bartlett's triangular window and Wendland's truncated power
+		window and the Gaussian window. Version 2.2 incorporates an
+		auxiliary function that calculates local multiple correlations
+		(LMC). They are calculated by letting move along time a window
+		of weighted time series values around t. Any of the six weight
+		functions mentioned above can be used.
 	</longdescription>
 </pkgmetadata>
