@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Continuous Time Structural Equation Modelling // A multivariate
-		continuous (and discrete) time dynamic modelling package for
-		panel and time series data, using linear stochastic
+		Continuous Time Structural Equation Modelling // A hierarchical,
+		multivariate, continuous (and discrete) time dynamic modelling
+		package for panel and time series data, using stochastic
 		differential equations. Contains a faster frequentist set of
 		functions using OpenMx for single subject and mixed-effects
 		(random intercepts only) structural equation models, or a
 		hierarchical Bayesian implementation using Stan that allows for
-		random effects over all model parameters. Allows for modelling
-		of multiple noisy measurements of multiple stochastic
-		processes, time varying input / event covariates, and time
-		invariant covariates used to predict the parameters.
+		random effects and non-linearity over all model parameters.
+		Allows for modelling of multiple noisy measurements of multiple
+		stochastic processes, time varying input / event covariates,
+		and time invariant covariates used to predict the parameters.
 	</longdescription>
 </pkgmetadata>

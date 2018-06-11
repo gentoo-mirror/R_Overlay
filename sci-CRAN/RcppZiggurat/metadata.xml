@@ -5,10 +5,11 @@
 		'Rcpp' Integration of Different "Ziggurat" Normal RNG
 		Implementations // The Ziggurat generator for normally
 		distributed random numbers, originally proposed by Marsaglia
-		and Tsang (JSS, 2000), has been improved upon a few times
-		starting with Leong et al (JSS, 2005). This package provides an
-		aggregation in order to compare different implementations. The
-		goal is to provide an 'faster but good enough' alternative for
+		and Tsang (2000, doi:10.18637/jss.v005.i08) has been improved
+		upon a few times starting with Leong et al (2005,
+		doi:10.18637/jss.v012.i07). This package provides an
+		aggregation in order to compare different implementations in
+		order to provide an 'faster but good enough' alternative for
 		use with R and C++ code.
 	</longdescription>
 </pkgmetadata>
