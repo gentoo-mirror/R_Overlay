@@ -3,20 +3,25 @@
 <pkgmetadata>
 	<longdescription>
 		Nested and Crossed Block Designs for Factorial, Fractional
-		Factorial and Unstructured Treatment Sets // The 'blocksdesign'
-		package constructs nested block and D-optimal factorial designs
-		for any unstructured or factorial treatment model of any size.
-		The nested block designs can have repeated nesting down to any
-		required depth of nesting with either a simple set of nested
-		blocks or a crossed row-and-column blocks design at each level
-		of nesting. The block design at each level of nesting is
-		optimized for D-efficiency within the blocks of each preceding
-		set of blocks. Outputs include a table showing the allocation
-		of treatments to blocks, a plan layout showing the allocation
-		of treatments within blocks (unstructured treatment designs
-		only) the achieved D-efficiency factors for the block and
-		treatment design (factorial treatment designs only) and, where
-		feasible, an A-efficiency factor and A-efficiency upper bound
-		for the block design (unstructured treatment designs only).
+		Factorial and Unstructured Treatment Sets // Constructs
+		D-optimal or near D-optimal nested and crossed block designs
+		for unstructured or general factorial treatment designs. Where
+		a structured treatment design is required, a D-optimal or near
+		D-optimal treatment design is found based on a suitable model
+		matrix design formula. The required block design is then found
+		for the required treatment design based on a defined set of
+		block factors. The block factors are added in sequence and each
+		added block factor is optimized conditional on all previously
+		added block factors. The block design can have repeated nesting
+		down to any required depth of nesting with either a simple set
+		of nested blocks or a crossed blocks design at each level of
+		nesting. If a crossed blocks design has more than a single plot
+		in each crossed blocks intersection, the determinant of a
+		weighted combination of the information matrix for additive
+		crossed blocks effects and the information matrix for
+		multiplicative crossed blocks effects is used as the design
+		criterion. Outputs include a table showing the allocation of
+		treatments to blocks and tables showing the achieved
+		D-efficiency factors for each block and treatment design.
 	</longdescription>
 </pkgmetadata>

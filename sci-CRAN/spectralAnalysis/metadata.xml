@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Pre-Process, Visualize and Analyse Process Analytical Data, by
+		Spectral Data Measurements Made During a Chemical Process //
+		Infrared, near-infrared and Raman spectroscopic data measured
+		during chemical reactions, provide structural fingerprints by
+		which molecules can be identified and quantified. The
+		application of these spectroscopic techniques as inline process
+		analytical tools (PAT), provides the (pharma-)chemical industry
+		with novel tools, allowing to monitor their chemical processes,
+		resulting in a better process understanding through insight in
+		reaction rates, mechanistics, stability, etc. Data can be read
+		into R via the generic spc-format, which is generally supported
+		by spectrometer vendor software. Versatile pre-processing
+		functions are available to perform baseline correction by
+		linking to the 'baseline' package; noise reduction via the
+		'signal' package; as well as time alignment, normalization,
+		differentiation, integration and interpolation. Implementation
+		based on the S4 object system allows storing a pre-processing
+		pipeline as part of a spectral data object, and easily
+		transferring it to other datasets. Interactive plotting tools
+		are provided based on the 'plotly' package. Non-negative matrix
+		factorization (NMF) has been implemented to perform
+		multivariate analyses on individual spectral datasets or on
+		multiple datasets at once. NMF provides a parts-based
+		representation of the spectral data in terms of spectral
+		signatures of the chemical compounds and their relative
+		proportions. The functionality to read in spc-files was adapted
+		from the 'hyperSpec' package.
+	</longdescription>
+</pkgmetadata>

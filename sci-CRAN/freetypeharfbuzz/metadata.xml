@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Deterministic Computation of Text Box Metrics // Unlike other
+		tools that dynamically link to the 'Cairo' stack,
+		'freetypeharfbuzz' is statically linked to specific versions of
+		the 'FreeType' and 'harfbuzz' libraries (2.9 and 1.7.6
+		respectively). This ensures deterministic computation of text
+		box extents for situations where reproducible results are
+		crucial (for instance unit tests of graphics).
+	</longdescription>
+</pkgmetadata>
