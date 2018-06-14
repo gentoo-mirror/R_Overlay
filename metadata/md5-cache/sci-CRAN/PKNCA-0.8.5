@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/rlang >=sci-CRAN/dplyr-0.5.0 sci-CRAN/tidyr sci-CRAN/digest sci-CRAN/plyr virtual/lattice virtual/nlme dev-lang/R
+DESCRIPTION=Perform Pharmacokinetic Non-Compartmental Analysis
+EAPI=6
+IUSE=r_suggests_cowplot r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/rlang >=sci-CRAN/dplyr-0.5.0 sci-CRAN/tidyr sci-CRAN/digest sci-CRAN/plyr virtual/lattice virtual/nlme r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PKNCA_0.8.5.tar.gz
+_eclasses_=R-packages	3bb67585d6925926124f6ad44ce85104	desktop	1b286a7e7143d8c4ec89cd0d2743a097	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	5b8ce72259e08104b337fe28c6de5dbc	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=8cffd74a12a53f3480565876372f8190

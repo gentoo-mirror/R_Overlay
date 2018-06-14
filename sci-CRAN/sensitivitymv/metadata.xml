@@ -2,9 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Sensitivity Analysis in Observational Studies // Sensitivity
-		analysis in observational studies, including evidence factors
-		and amplification, using the permutation distribution of Huber-
-		Maritz M-statistics, including the permutational t-test.
+		Sensitivity Analysis in Observational Studies // The package
+		performs a sensitivity analysis in an observational study using
+		an M-statistic, for instance, the mean.  The main function in
+		the package is senmv(), but amplify() and truncatedP() are also
+		useful.  The method is developed in Rosenbaum Biometrics, 2007,
+		63, 456-464, doi:10.1111/j.1541-0420.2006.00717.x.
 	</longdescription>
 </pkgmetadata>
