@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Robust Tests for Equal Correlation // There are 6 novel robust
+		tests for equal correlation. They are all based on logistic
+		regressions. The difference between 6 methods is the difference
+		of U which are proportion to different types of correlation.
+		The ST1() is based on Pearson correlation. ST2() improved ST1()
+		by using median absolute deviation. ST3() utilized type M
+		correlation and ST4() used Spearman correlation. ST5() and
+		ST6() used two different ways to combine ST3() and ST4().  We
+		highly recommend ST5() according to the passage New Statistical
+		Methods for Constructing Robust Differential Correlation
+		Networks (expected to be public).
+	</longdescription>
+</pkgmetadata>

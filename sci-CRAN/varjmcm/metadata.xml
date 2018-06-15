@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimations for the Covariance of Estimated Parameters in Joint
+		Mean-Covariance Models // The goal of the package is to equip
+		the 'jmcm' package (current version 0.1.8.0) with estimations
+		of the covariance of estimated parameters. Two methods are
+		provided. The first method is to use the inverse of estimated
+		Fisher's information matrix, see M. Pourahmadi (2000)
+		doi:10.1093/biomet/87.2.425, M. Maadooliat, M. Pourahmadi and
+		J. Z. Huang (2013) doi:10.1007/s11222-011-9284-6, and W. Zhang,
+		C. Leng, C. Tang (2015) doi:10.1111/rssb.12065. The second
+		method is bootstrap based, see Liu, R.Y. (1988)
+		doi:10.1214/aos/1176351062 for reference.
+	</longdescription>
+</pkgmetadata>

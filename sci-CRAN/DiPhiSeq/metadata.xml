@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Robust Tests for Differential Dispersion and Differential
+		Expression in RNA-Sequencing Data // Implements the algorithm
+		described in Jun Li and Alicia T. Lamere, "DiPhiSeq: Robust
+		comparison of expression levels on RNA-Seq data with large
+		sample sizes"  (Unpublished). Detects not only genes that show
+		different average expressions ("differential expression", DE),
+		but also genes that show different diversities of expressions
+		in different groups ("differentially dispersed", DD). DD genes
+		can be important clinical markers. 'DiPhiSeq' uses a
+		redescending penalty on the quasi-likelihood function, and thus
+		has superior robustness against outliers and other noise.
+	</longdescription>
+</pkgmetadata>

@@ -2,17 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multidimensional Scaling // Provides the following approaches for
-		multidimensional scaling (MDS) based on stress minimization
-		using majorization (smacof): basic MDS on symmetric
-		dissimilarity matrices, MDS with external constraints on the
-		configuration, individual differences scaling (idioscal,
-		indscal, and friends), MDS with spherical restrictions, and
-		unfolding. The MDS type can be ratio, interval, ordinal, and
-		monotone splines. Various tools and extensions like jackknife
-		MDS, bootstrap MDS, permutation tests, MDS biplots, gravity
-		models, inverse MDS, unidimensional scaling, drift vectors
-		(asymmetric MDS), classical scaling, and Procrustes are
-		implemented as well.
+		Multidimensional Scaling // Implements the following approaches
+		for multidimensional scaling (MDS) based on stress minimization
+		using majorization (smacof): ratio/interval/ordinal/spline MDS
+		on symmetric dissimilarity matrices, MDS with external
+		constraints on the configuration, individual differences
+		scaling (idioscal, indscal), MDS with spherical restrictions,
+		and ratio/interval/ordinal/spline unfolding (circular
+		restrictions, row-conditional). Various tools and extensions
+		like jackknife MDS, bootstrap MDS, permutation tests, MDS
+		biplots, gravity models, inverse MDS, unidimensional scaling,
+		drift vectors (asymmetric MDS), classical scaling, and
+		Procrustes are implemented as well.
 	</longdescription>
 </pkgmetadata>

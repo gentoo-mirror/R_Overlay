@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Identifying Stocks in Genetic Data // Provides a mixture model
+		for clustering individuals (or sampling groups) into stocks
+		based on their genetic profile. Here, sampling groups are
+		individuals that are sure to come from the same stock (e.g.
+		breeding adults or larvae). The mixture (log-)likelihood is
+		maximised using the EM-algorithm after find good starting
+		values via a K-means clustering of the genetic data. Details
+		can be found in Foster, Feutry, Grewe, Berry, Hui, Davies (in
+		press) Reliably Discriminating Stock Structure with Genetic
+		Markers: Mixture Models with Robust and Fast Computation.
+		Molecular Ecology Resources.
+	</longdescription>
+</pkgmetadata>

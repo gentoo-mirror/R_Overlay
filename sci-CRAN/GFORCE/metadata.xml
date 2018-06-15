@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Clustering and Inference Procedures for High-Dimensional Latent
+		Variable Models // A complete suite of computationally
+		efficient methods for high dimensional clustering and inference
+		problems in G-Latent Models (a type of Latent Variable Gaussian
+		graphical model). The main feature is the FORCE (First-Order,
+		Certifiable, Efficient) clustering algorithm which is a fast
+		solver for a semi-definite programming (SDP) relaxation of the
+		K-means problem. For certain types of graphical models
+		(G-Latent Models), with high probability the algorithm not only
+		finds the optimal clustering, but produces a certificate of
+		having done so. This certificate, however, is model independent
+		and so can also be used to certify data clustering problems.
+		The 'GFORCE' package also contains implementations of
+		inferential procedures for G-Latent graphical models using
+		n-fold cross validation. Also included are native code
+		implementations of other popular clustering methods such as
+		Lloyd's algorithm with kmeans++ initialization and complete
+		linkage hierarchical clustering. The FORCE method is due to
+		Eisenach and Liu (2017) arxiv:1806.00530.
+	</longdescription>
+</pkgmetadata>
