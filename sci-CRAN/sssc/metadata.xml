@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Same Species Sample Contamination Detection // Imports Variant
+		Calling Format file into R. It can detect whether a sample
+		contains contaminant from the same species. In the first stage
+		of the approach, a change-point detection method is used to
+		identify copy number variations for filtering. Next, features
+		are extracted from the data for a support vector machine model.
+		For log-likelihood calculation, the deviation parameter is
+		estimated by maximum likelihood method. Using a radial basis
+		function kernel support vector machine, the contamination of a
+		sample can be detected.
+	</longdescription>
+</pkgmetadata>

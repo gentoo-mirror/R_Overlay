@@ -4,14 +4,26 @@
 	<longdescription>
 		Causal Mediation Analysis in Multisite Trials // We implement
 		multisite causal mediation analysis using the methods proposed
-		by Qin and Hong (in press). It enables causal mediation
-		analysis in multisite trials, in which individuals are assigned
-		to a treatment or a control group at each site. It allows for
-		estimation and hypothesis testing for not only the population
-		average but also the between-site variance of direct and
-		indirect effects. This strategy conveniently relaxes the
+		by Qin and Hong (2017) doi:10.3102/1076998617694879 and Qin,
+		Hong, Deutsch, and Bein (under review). It enables causal
+		mediation analysis in multisite trials, in which individuals
+		are assigned to a treatment or a control group at each site. It
+		allows for estimation and hypothesis testing for not only the
+		population average but also the between-site variance of direct
+		and indirect effects. This strategy conveniently relaxes the
 		assumption of no treatment-by-mediator interaction while
 		greatly simplifying the outcome model specification without
-		invoking strong distributional assumptions.
+		invoking strong distributional assumptions. This package also
+		provides a function that can further incorporate a sample
+		weight and a nonresponse weight for multisite causal mediation
+		analysis in the presence of complex sample and survey designs
+		and non-random nonresponse, to enhance both the internal
+		validity and external validity. Because the identification
+		assumptions are not always warranted, the package also provides
+		a weighting-based balance checking function for assessing the
+		remaining overt bias, as well as a weighting-based sensitivity
+		analysis function for further evaluating the potential bias
+		related to omitted confounding or to propensity score model
+		misspecification.
 	</longdescription>
 </pkgmetadata>
