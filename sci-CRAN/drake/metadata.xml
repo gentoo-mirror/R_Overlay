@@ -2,7 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Data Frames in R for Make // An R-focused pipeline toolkit for
-		reproducible code and high-performance computing.
+		A Pipeline Toolkit for Reproducible Computation at Scale // A
+		general-purpose computational engine for data analysis, drake
+		rebuilds intermediate data objects when their dependencies
+		change, and it skips work when the results are already up to
+		date. Not every execution starts from scratch, and completed
+		projects have tangible evidence that they are reproducible.
+		Extensive documentation, from beginner-friendly tutorials to
+		practical examples and more, is available at the reference
+		website https://ropensci.github.io/drake/ and the online manual
+		https://ropenscilabs.github.io/drake-manual/.
 	</longdescription>
 </pkgmetadata>

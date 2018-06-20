@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Partitioning of Individual Autozygosity into Multiple Homozygous-
+		by-Descent Classes // Functions to identify Homozygous-by-
+		Descent (HBD) segments associated with runs of homozygosity
+		(ROH) and to estimate individual autozygosity (or inbreeding
+		coefficient). HBD segments and autozygosity are assigned to
+		multiple HBD classes with a model-based approach relying on a
+		mixture of exponential distributions. The rate of the
+		exponential distribution is distinct for each HBD class and
+		defines the expected length of the HBD segments. These HBD
+		classes are therefore related to the age of the segments
+		(longer segments and smaller rates for recent autozygosity /
+		recent common ancestor). The functions allow to estimate the
+		parameters of the model (rates of the exponential
+		distributions, mixing proportions), to estimate global and
+		local autozygosity probabilities and to identify HBD segments
+		with the Viterbi decoding. The method is fully described in
+		Druet and Gautier (2017) doi:10.1111/mec.14324.
+	</longdescription>
+</pkgmetadata>
