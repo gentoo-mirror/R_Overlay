@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Boosting Beta Regression // Implements boosting beta regression
+		for potentially high-dimensional data (Mayr et al., 2018
+		doi:10.1093/ije/dyy093). The 'betaboost' package uses the same
+		parametrization as 'betareg' (Cribari-Neto and Zeileis, 2010
+		doi:10.18637/jss.v034.i02) to make results directly comparable.
+		The underlying algorithms are implemented via the R add-on
+		packages 'mboost' (Hofner et al., 2014
+		doi:10.1007/s00180-012-0382-5) and 'gamboostLSS' (Mayr et al.,
+		2012 doi:10.1111/j.1467-9876.2011.01033.x).
+	</longdescription>
+</pkgmetadata>
