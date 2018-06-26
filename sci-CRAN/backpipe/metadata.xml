@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Backward Pipe Operator // Provides a backward-pipe operator for
-		'magrittr' (%%) or 'pipeR' (%%) that allows for a performing
-		operations from right-to-left. This indispensable for writing
-		clear code where there is natural right-to-left ordering common
-		with nested structures and hierarchies such as
-		trees/directories or markup languages such as HTML and XML.
+		Backward Pipe (Right-to-Left) Operator // Provides a backward-
+		pipe operator for 'magrittr' (%%) or 'pipeR' (%%) that allows
+		for a performing operations from right-to-left. This allows
+		writing more legible code where right-to-left ordering is
+		natural. This is common with hierarchies and nested structures
+		such as trees, directories or markup languages (e.g. HTML and
+		XML). The package also includes a R-Studio add-in that can be
+		bound to a keyboard shortcut.
 	</longdescription>
 </pkgmetadata>
