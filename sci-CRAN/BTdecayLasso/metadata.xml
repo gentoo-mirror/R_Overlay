@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bradley-Terry Model with Exponential Time Decayed Log-Likelihood
+		and Adaptive Lasso // We apply Bradley-Terry Model to estimate
+		teams' ability in paired comparison data. Exponential Decayed
+		Log-likelihood function is applied for dynamic approximation of
+		current rankings and Lasso penalty is applied for variance
+		reduction and grouping. The main algorithm applies the
+		Augmented Lagrangian Method described by Masarotto and Varin
+		(2012) doi:10.1214/12-AOAS581.
+	</longdescription>
+</pkgmetadata>

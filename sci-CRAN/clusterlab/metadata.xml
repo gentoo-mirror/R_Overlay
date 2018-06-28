@@ -15,8 +15,10 @@
 		Then if the feature space is greater than 2D, the generated
 		points are considered principal component scores and projected
 		into N dimensional space using linear combinations using fixed
-		eigenvectors. The algorithm is highly customizable and well
-		suited to testing class discovery tools across a range of
-		fields.
+		eigenvectors. Through using vector rotations and scalar
+		multiplication clusterlab can generate complex patterns of
+		Gaussian clusters and outliers. The algorithm is highly
+		customizable and well suited to testing class discovery tools
+		across a range of fields.
 	</longdescription>
 </pkgmetadata>
