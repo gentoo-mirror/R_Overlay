@@ -3,8 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Multivariate Chebyshev Interpolation // Contains methods for
-		creating multivariate Chebyshev approximation of functions on a
-		hypercube. Some methods for non-Chebyshev grids are also
-		provided.
+		creating multivariate Chebyshev interpolations of functions on
+		a hypercube. If available through fftw3, the DCT-II/FFT is used
+		to compute the coefficients, so it is reasonably fast. Some
+		interpolation methods for multivariate non-Chebyshev grids are
+		also provided, as well as polyharmonic splines with a linear
+		term.
 	</longdescription>
 </pkgmetadata>

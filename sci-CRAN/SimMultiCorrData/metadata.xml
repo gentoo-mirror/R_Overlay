@@ -16,15 +16,15 @@
 		third-order (DOI:10.1007/BF02293811) or Headrick's fifth-order
 		(DOI:10.1016/S0167-9473(02)00072-5) polynomial transformation.
 		Binary and ordinal variables are simulated using a modification
-		of GenOrd's ordsample function.  Count variables are simulated
-		using the inverse cdf method.  There are two simulation
-		pathways which differ primarily according to the calculation of
-		the intermediate correlation matrix.  In Correlation Method 1,
-		the intercorrelations involving count variables are determined
-		using a simulation based, logarithmic correlation correction
-		(adapting Yahav and Shmueli's 2012 method,
-		DOI:10.1002/asmb.901).  In Correlation Method 2, the count
-		variables are treated as ordinal (adapting Barbiero and
+		of the ordsample() function from 'GenOrd'. Count variables are
+		simulated using the inverse cdf method.  There are two
+		simulation pathways which differ primarily according to the
+		calculation of the intermediate correlation matrix.  In
+		Correlation Method 1, the intercorrelations involving count
+		variables are determined using a simulation based, logarithmic
+		correlation correction (adapting Yahav and Shmueli's 2012
+		method, DOI:10.1002/asmb.901).  In Correlation Method 2, the
+		count variables are treated as ordinal (adapting Barbiero and
 		Ferrari's 2015 modification of GenOrd, DOI:10.1002/asmb.2072).
 		There is an optional error loop that corrects the final
 		correlation matrix to be within a user-specified precision
