@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Negative Binomial Linear Discriminant Analysis // We proposed a
+		package for classification task which uses Negative Binomial
+		distribution within Linear Discriminant Analysis (NBLDA). It is
+		basically an extension of 'PoiClaClu' package to Negative
+		Binomial distribution. The classification algorithms are based
+		on the papers Dong et al. (2016, ISSN: 1471-2105) and Witten,
+		DM (2011, ISSN: 1932-6157) for NBLDA and PLDA respectively.
+		Although PLDA is a sparse algorithm and can be used for
+		variable selection, the algorithm proposed by Dong et. al. is
+		not sparse, hence, it uses all variables in the classifier.
+		Here, we extent Dong et. al.'s algorithm to sparse case by
+		shrinking overdispersion towards 0 (Yu et. al., 2013, ISSN:
+		1367-4803) and offset parameter towards 1 (as proposed by
+		Witten DM, 2011). We support only the classification task with
+		this version. However, the clustering task will be included
+		with the following versions.
+	</longdescription>
+</pkgmetadata>
