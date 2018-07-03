@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Reproducible Data Embedding // Allows caching of raw data
+		directly in R code. This allows R scripts and R Notebooks to be
+		shared and re-run on a machine without access to the original
+		data. Cached data is encoded into an ASCII string that can be
+		pasted into R code. When the code is run, the data is
+		automatically loaded from the cached version if the original
+		data file is unavailable. Works best for small datasets (a few
+		hundred observations).
+	</longdescription>
+</pkgmetadata>
