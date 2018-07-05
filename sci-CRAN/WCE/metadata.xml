@@ -2,13 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Weighted Cumulative Exposure Models // WCE implements a flexible
-		method for modeling cumulative effects of time-varying
-		exposures, weighted according to their relative proximity in
-		time, and represented by time-dependent covariates. The current
-		implementation estimates the weight function in the Cox
-		proportional hazards model. The function that assigns weights
-		to doses taken in the past is estimated using cubic regression
-		splines.
+		Weighted Cumulative Exposure Models // A flexible method for
+		modeling cumulative effects of time-varying exposures, weighted
+		according to their relative proximity in time, and represented
+		by time-dependent covariates. The current implementation
+		estimates the weight function in the Cox proportional hazards
+		model. The function that assigns weights to doses taken in the
+		past is estimated using cubic regression splines.
 	</longdescription>
 </pkgmetadata>

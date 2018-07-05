@@ -2,8 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Empirical Transition Matrix // Matrix of transition probabilities
-		for any time-inhomogeneous multistate model with finite state
-		space.
+		Empirical Transition Matrix // The etm (empirical transition
+		matrix) package permits to estimate the matrix of transition
+		probabilities for any time-inhomogeneous multistate model with
+		finite state space using the Aalen-Johansen estimator.
+		Functions for data preparation and for displaying are also
+		included (Allignol et al., 2011 doi:10.18637/jss.v038.i04).
+		Functionals of the Aalen-Johansen estimator, e.g., excess
+		length-of-stay in an intermediate state, can also be computed
+		(Allignol et al. 2011 doi:10.1007/s00180-010-0200-x).
 	</longdescription>
 </pkgmetadata>
