@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Extreme Learning Machine Algorithm // Training and predict
+		functions for Single Hidden-layer Feedforward Neural Networks
+		(SLFN) using the Extreme Learning Machine (ELM) algorithm. The
+		ELM algorithm differs from the traditional gradient-based
+		algorithms for very short training times (it doesn't need any
+		iterative tuning, this makes learning time very fast) and there
+		is no need to set any other parameters like learning rate,
+		momentum, epochs, etc. This is a reimplementation of the
+		'elmNN' package using 'RcppArmadillo' after the 'elmNN' package
+		was archived. For more information, see "Extreme learning
+		machine: Theory and applications" by Guang-Bin Huang, Qin-Yu
+		Zhu, Chee-Kheong Siew (2006), Elsevier B.V,
+		doi:10.1016/j.neucom.2005.12.126.
+	</longdescription>
+</pkgmetadata>

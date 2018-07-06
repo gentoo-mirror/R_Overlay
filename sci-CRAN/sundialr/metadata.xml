@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Interface to 'SUNDIALS' Ordinary Differential Equation (ODE)
+		Solvers // Provides a way to call the functions in 'SUNDIALS' C
+		ODE solving library
+		(https://computation.llnl.gov/projects/sundials). Currently the
+		serial version of ODE solver, 'CVODE' from the library can be
+		accessed. The package requires ODE to be written using 'Rcpp'
+		and does not require the libraries to be installed on the
+		system.
+	</longdescription>
+</pkgmetadata>

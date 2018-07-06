@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multivariate Chebyshev Interpolation // Contains methods for
-		creating multivariate Chebyshev interpolations of functions on
-		a hypercube. If available through fftw3, the DCT-II/FFT is used
+		Multivariate Interpolation // Contains methods for creating
+		multivariate Chebyshev interpolations of functions on a
+		hypercube. If available through fftw3, the DCT-II/FFT is used
 		to compute the coefficients, so it is reasonably fast. Some
 		interpolation methods for multivariate non-Chebyshev grids are
-		also provided, as well as polyharmonic splines with a linear
-		term.
+		also provided, a multilinear, and the Floater-Hormann
+		barycenter method, as well as polyharmonic splines with a
+		linear term.
 	</longdescription>
 </pkgmetadata>
