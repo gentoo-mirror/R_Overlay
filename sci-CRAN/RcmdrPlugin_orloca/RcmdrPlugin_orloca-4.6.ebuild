@@ -1,0 +1,18 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='A GUI for Planar Location Problems'
+SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.orloca_4.6.tar.gz"
+LICENSE='GPL-3+'
+
+IUSE="${IUSE-} r_suggests_knitr"
+R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
+DEPEND=">=sci-CRAN/orloca-4.5
+	>=sci-CRAN/orloca_es-4.5
+	sci-CRAN/Rcmdr
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
