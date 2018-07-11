@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Flexible Genotyping for Polyploids // Implements empirical Bayes
+		approaches to genotype polyploids from next generation
+		sequencing data while accounting for allelic bias,
+		overdispersion, and sequencing error. The main function is
+		flexdog(), which allows the specification of many different
+		genotype distributions. An experimental function that takes
+		into account varying levels of relatedness is implemented in
+		mupdog(). Also provided are functions to simulate genotypes,
+		rgeno(), and read-counts, rflexdog(), as well as functions to
+		calculate oracle genotyping error rates, oracle_mis(), and
+		correlation with the true genotypes, oracle_cor(). These latter
+		two functions are useful for read depth calculations. Run
+		browseVignettes(package = "updog") in R for example usage. See
+		also Gerard et al. (2018) doi:10.1101/281550 for details on the
+		implemented methods.
+	</longdescription>
+</pkgmetadata>
