@@ -5,9 +5,14 @@
 		A Rules Engine Based on 'Drools' // An interface for using the
 		popular Java based Drools, which is a Business Rule Management
 		System (See https://www.drools.org for more information). This
-		package allows you to run a set of rules written in DRL format
-		on the data using the Drools engine. Credits to Mu Sigma for
-		their continued support throughout the development of the
-		package.
+		package provides data scientists an intuitive interface to
+		execute business rules on datasets for the purpose of analysis
+		or designing intelligent systems, while leveraging the Drools
+		rule engine. Rules can be defined in a simple format in a CSV,
+		imported into the R Session as a data frame, and passed
+		directly to the rule-checking functions. Rules written in DRL
+		format, accepted natively by Drools, can also be executed
+		through an R interface. Credits to Mu Sigma for their continued
+		support throughout the development of the package.
 	</longdescription>
 </pkgmetadata>

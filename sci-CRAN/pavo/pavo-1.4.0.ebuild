@@ -1,0 +1,27 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Perceptual Analysis, Visualizati... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/pavo_1.4.0.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_covr r_suggests_knitr r_suggests_rgl
+	r_suggests_testthat r_suggests_xml2"
+R_SUGGESTS="
+	r_suggests_covr? ( sci-CRAN/covr )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_rgl? ( sci-CRAN/rgl )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+	r_suggests_xml2? ( sci-CRAN/xml2 )
+"
+DEPEND="sci-CRAN/plot3D
+	sci-CRAN/rcdd
+	sci-CRAN/pbmcapply
+	sci-CRAN/mapproj
+	sci-CRAN/geometry
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

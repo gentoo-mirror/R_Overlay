@@ -7,9 +7,11 @@
 		observational studies with the use of optimal calipers to get a
 		sparse network. The caliper is optimal in the sense that it is
 		as small as possible such that a matching exists. The main
-		functions in the bigmatch package are optcal() to find the
-		optimal caliper and nfmatch() to find a near-fine balance match
-		with a caliper. Glover, F. (1967).  DOI:10.1002/nav.3800140304.
+		functions in the 'bigmatch' package are optcal() to find the
+		optimal caliper, optconstant() to find the optimal number of
+		nearest neighbors and nfmatch() to find a near-fine balance
+		match with a caliper and a restriction on number of nearest
+		neighbors. Glover, F. (1967).  DOI:10.1002/nav.3800140304.
 		Lipski, W., Jr, and Preparata, F. P. (1981).
 		DOI:10.1007/BF00264533. Rosenbaum, P.R. (1989).
 		DOI:10.1080/01621459.1989.10478868. Yang, D., Small, D. S.,
