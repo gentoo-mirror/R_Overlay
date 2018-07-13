@@ -7,23 +7,24 @@
 		provides sophisticated functions. The idea is simply that if X
 		causes Y (path: X to Y) then non-deterministic variation in X
 		is more "original or independent" than similar variation in Y.
-		We compare two flipped kernel regressions: X=f(Y, Z) and
-		Y=g(X,Z), where Z are control variables. Our first two criteria
-		compare absolute cross products of regressor values and
-		residuals (Cr1) and absolute residuals (Cr2), are both
-		quantified by stochastic dominance of four orders (SD1 to SD4).
-		Our third criterion (Cr3) expects X to be better able to
-		predict Y than the other way around using generalized partial
-		correlation If |r*(x|y)| |r*(y|x)| it suggests that y is more
-		likely the "kernel cause" of x. The usual partial correlations
-		are generalized with a new non-symmetric matrix developed here.
-		Partial correlations help asses effect of x on y after removing
-		the effect of a set of variables. The package provides
-		additional tools for causal assessment, for printing the causal
-		directions in a clear, comprehensive compact summary form, for
-		matrix algebra, for "outlier detection", and for numerical
-		integration by the trapezoidal rule, stochastic dominance, etc.
-		The package has functions for bootstrap-based statistical
-		inference and one for a heuristic t-test.
+		Since causal variables are also exogenous in a model, we
+		provide new exogeneity tests.  We compare two flipped kernel
+		regressions: X=f(Y, Z) and Y=g(X,Z), where Z are control
+		variables. Our first two criteria compare absolute cross
+		products of regressor values and residuals (Cr1) and absolute
+		residuals (Cr2), are both quantified by stochastic dominance of
+		four orders (SD1 to SD4). Our third criterion (Cr3) expects X
+		to be better able to predict Y than the other way around using
+		generalized partial correlation If |r*(x|y,z)| |r*(y|x,z)| it
+		suggests that y is more likely the "kernel cause" of x. The
+		usual partial correlations are generalized with a new non-
+		symmetric matrix developed here. Partial correlations help
+		asses effect of x on y after removing the effect of a set of
+		variables. The package provides additional tools for causal
+		assessment, for printing the causal directions in a clear,
+		comprehensive compact summary form, for matrix algebra, for
+		"outlier detection", and for numerical integration by the
+		trapezoidal rule, stochastic dominance, etc. The package has
+		functions for bootstrap-based statistical inference.
 	</longdescription>
 </pkgmetadata>
