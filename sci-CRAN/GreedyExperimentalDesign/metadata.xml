@@ -8,6 +8,8 @@
 		provides lower variance for the treatment effect estimator (and
 		higher power) while preserving a design that is close to
 		complete randomization. We return all iterations of the designs
-		for use in a permutation test.
+		for use in a permutation test. Additional functionality
+		includes using branch and bound optimization (via Gurobi) and
+		exhaustive enumeration.
 	</longdescription>
 </pkgmetadata>
