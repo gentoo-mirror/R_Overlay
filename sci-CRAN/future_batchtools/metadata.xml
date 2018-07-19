@@ -9,6 +9,7 @@
 		not only on your local machine or ad-hoc cluster of machines,
 		but also via high-performance compute ('HPC') job schedulers
 		such as 'LSF', 'OpenLava', 'Slurm', 'SGE', and 'TORQUE' /
-		'PBS', e.g. 'y - future_lapply(files, FUN = process)'.
+		'PBS', e.g. 'y - future.apply::future_lapply(files, FUN =
+		process)'.
 	</longdescription>
 </pkgmetadata>

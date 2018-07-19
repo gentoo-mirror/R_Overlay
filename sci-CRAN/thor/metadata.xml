@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interface to 'LMDB' // Key-value store, implemented as a wrapper
+		around 'LMDB'; the "lightning memory-mapped database"
+		https://symas.com/lmdb/. 'LMDB' is a transactional key value
+		store that uses a memory map for efficient access.  This
+		package wraps the entire 'LMDB' interface, providing objects
+		for transactions and cursors.
+	</longdescription>
+</pkgmetadata>
