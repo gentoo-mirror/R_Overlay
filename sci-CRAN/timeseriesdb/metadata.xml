@@ -2,16 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Manage Time Series with R and PostgreSQL // Store and organize a
-		large amount of low frequency time series data. The package was
-		designed to manage a large catalog of official statistics which
-		are typically published on monthly, quarterly or yearly basis.
-		Thus timeseriesdb is optimized to handle a large number of
-		lower frequency time series as opposed to a smaller amount of
-		high frequency time series such as real time data from
-		measuring devices. Hence timeseriesdb provides the opportunity
-		to store extensive multi-lingual meta information. The package
-		also provides a web GUI to explore the underlying PostgreSQL
-		database interactively.
+		Manage Time Series for Official Statistics with R and PostgreSQL
+		// Archive and manage times series data from official
+		statistics. The 'timeseriesdb' package was designed to manage a
+		large catalog of time series from official statistics which are
+		typically published on a monthly, quarterly or yearly basis.
+		Thus timeseriesdb is optimized to handle updates caused by data
+		revision as well as elaborate, multi-lingual meta information.
 	</longdescription>
 </pkgmetadata>

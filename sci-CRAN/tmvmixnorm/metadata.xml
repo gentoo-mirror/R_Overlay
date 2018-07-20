@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Efficient Sampling Truncated Scale of Normals with Constraints //
-		Efficient sampling of truncated multivariate (scale) mixtures
-		of normals under linear inequality constraints is nontrivial
-		due to the analytically intractable normalizing constant.
-		Meanwhile, traditional methods may subject to numerical issues,
-		especially when the dimension is high and dependence is strong.
-		Algorithms proposed by Li and Ghosh (2015) doi:
-		10.1080/15598608.2014.996690 are adopted for overcoming
-		difficulties in simulating truncated distributed random
-		numbers. Efficient rejection sampling for simulating truncated
+		Sampling from Truncated Multivariate Normal and t Distributions
+		// Efficient sampling of truncated multivariate (scale)
+		mixtures of normals under linear inequality constraints is
+		nontrivial due to the analytically intractable normalizing
+		constant. Meanwhile, traditional methods may subject to
+		numerical issues, especially when the dimension is high and
+		dependence is strong.    Algorithms proposed by Li and Ghosh
+		(2015) doi: 10.1080/15598608.2014.996690 are adopted for
+		overcoming difficulties in simulating truncated distributions.
+		Efficient rejection sampling for simulating truncated
 		univariate normal distribution is included in the package,
 		which shows superiority in terms of acceptance rate and
 		numerical stability compared to existing methods and R
@@ -20,7 +20,7 @@
 		restriction regions based on Gibbs sampler for conditional
 		truncated univariate distribution is provided. By extending the
 		sampling method, a function for sampling truncated multivariate
-		Student-t distribution is also developed.     Moreover, the
+		Student's t distribution is also developed.     Moreover, the
 		proposed method and computation remain valid for high
 		dimensional and strong dependence scenarios. Empirical results
 		in Li and Ghosh (2015) doi: 10.1080/15598608.2014.996690
