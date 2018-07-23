@@ -7,8 +7,10 @@
 		approaches from the 'forecast' package. Forecasts generated
 		from auto.arima(), ets(), thetam(), nnetar(), stlm(), and
 		tbats() can be combined with equal weights, weights based on
-		in-sample errors, or CV weights. Cross validation for time
-		series data and user-supplied models and forecasting functions
-		is also supported to evaluate model accuracy.
+		in-sample errors (introduced by Bates  Granger (1969)
+		doi:10.1057/jors.1969.103), or cross-validated weights. Cross
+		validation for time series data with user-supplied models and
+		forecasting functions is also supported to evaluate model
+		accuracy.
 	</longdescription>
 </pkgmetadata>
