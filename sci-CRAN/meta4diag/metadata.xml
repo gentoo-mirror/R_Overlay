@@ -10,6 +10,7 @@
 		usage. The INLA package can be obtained from
 		http://www.r-inla.org. We recommend the testing version, which
 		can be downloaded by running: install.packages("INLA",
-		repos="http://www.math.ntnu.no/inla/R/testing").
+		repos=c(getOption("repos"), INLA="https://inla.r-inla-
+		download.org/R/testing"), dep=TRUE).
 	</longdescription>
 </pkgmetadata>
