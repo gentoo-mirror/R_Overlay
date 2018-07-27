@@ -2,10 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Cross-Entropy Clustering // Cross-Entropy Clustering (CEC)
-		divides the data into Gaussian type clusters. It performs the
-		automatic reduction of unnecessary clusters, while at the same
-		time allows the simultaneous use of various type Gaussian
-		mixture models.
+		Cross-Entropy Clustering // CEC divides data into Gaussian type
+		clusters. The implementation allows the simultaneous use of
+		various type Gaussian mixture models, performs the reduction of
+		unnecessary clusters and it's able to discover new groups.
+		Based on Spurek, P. and Tabor, J. (2014)
+		doi:10.1016/j.patcog.2014.03.006.
 	</longdescription>
 </pkgmetadata>
