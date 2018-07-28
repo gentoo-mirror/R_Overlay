@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Animated Graph Layout Viewer // This is an 'R' interface to Alun
+		Thomas's 'ViewGraph' 'Java' graph viewing program. It takes a
+		graph specified as an incidence matrix, list of edges, or in
+		'igraph' format and runs a graphical user interface that shows
+		an animation of a force directed algorithm positioning the
+		vertices in two dimensions. It works well for graphs of various
+		structure of up to a few thousand vertices. It's not fazed by
+		graphs that comprise several components. The coordinates can be
+		read as an 'igraph' style layout matrix at any time. The user
+		can mess with the layout using a mouse, preferably one with 3
+		buttons, and some keyed commands. The 'Java' program
+		'ViewGraph' is contained in Alun Thomas's 'JPSGCS' collection
+		of 'Java' programs for statistical genetics and computational
+		statistics. The homepage for 'JPSGCS' is http://www-
+		genepi.med.utah.edu/~alun/software/index.html. The
+		documentation page for 'ViewGraph' is at http://www-
+		genepi.med.utah.edu/~alun/software/docs/ViewGraph.html.
+	</longdescription>
+</pkgmetadata>
