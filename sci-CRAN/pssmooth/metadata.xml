@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Flexible and Efficient Evaluation of Principal
+		Surrogates/Treatment Effect Modifiers // Implements estimation
+		and testing procedures for evaluating an intermediate biomarker
+		response as a principal surrogate of a clinical response to
+		treatment (i.e., principal stratification effect modification
+		analysis), as described in Juraska M, Huang Y, and Gilbert PB,
+		Inference on treatment effect modification by biomarker
+		response in a three-phase sampling design (under review). The
+		methods avoid the restrictive 'placebo structural risk'
+		modeling assumption common to past methods and further improve
+		robustness by the use of nonparametric kernel smoothing for
+		biomarker density estimation. A randomized controlled two-group
+		clinical efficacy trial is assumed with an ordered categorical
+		or continuous univariate biomarker response measured at a fixed
+		timepoint post-randomization and with a univariate baseline
+		surrogate measure allowed to be observed in only a subset of
+		trial participants with an observed biomarker response (see the
+		flexible three-phase sampling design in the paper for details).
+		Bootstrap-based procedures are available for pointwise and
+		simultaneous confidence intervals and testing of four relevant
+		hypotheses. Summary and plotting functions are provided for
+		estimation results.
+	</longdescription>
+</pkgmetadata>
