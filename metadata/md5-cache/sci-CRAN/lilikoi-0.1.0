@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/gbm sci-CRAN/Hmisc sci-CRAN/R_oo sci-CRAN/e1071 >=dev-lang/R-3.4.0 sci-CRAN/stringr sci-CRAN/reshape2 sci-CRAN/randomForest sci-CRAN/glmnet virtual/Matrix sci-CRAN/caret sci-CRAN/hash sci-CRAN/corrplot sci-CRAN/RWeka sci-CRAN/princurve sci-CRAN/pamr sci-CRAN/infotheo sci-CRAN/dplyr sci-CRAN/devtools sci-CRAN/pROC sci-CRAN/ggplot2 dev-lang/R
+DESCRIPTION=Metabolomics Personalized Pathway Analysis Tool
+EAPI=6
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/gbm sci-CRAN/Hmisc sci-CRAN/R_oo sci-CRAN/e1071 >=dev-lang/R-3.4.0 sci-CRAN/stringr sci-CRAN/reshape2 sci-CRAN/randomForest sci-CRAN/glmnet virtual/Matrix sci-CRAN/caret sci-CRAN/hash sci-CRAN/corrplot sci-CRAN/RWeka sci-CRAN/princurve sci-CRAN/pamr sci-CRAN/infotheo sci-CRAN/dplyr sci-CRAN/devtools sci-CRAN/pROC sci-CRAN/ggplot2 r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lilikoi_0.1.0.tar.gz
+_eclasses_=R-packages	3bb67585d6925926124f6ad44ce85104	desktop	1b286a7e7143d8c4ec89cd0d2743a097	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	b43d08fe0771faf2f5e7be19c2789d33	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=c5704f927f6ab7c557afe4cf8ead315e
