@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fit GLM's with High-Dimensional k-Way Fixed Effects // Provides a
+		routine to concentrate out factors with many levels during the
+		optimization of the log-likelihood function of the
+		corresponding generalized linear model (glm). The package is
+		based on the algorithm proposed by Stammann (2018)
+		arXiv:1707.01815 and is restricted to glm's that are based on
+		maximum likelihood estimation and non-linear. It also offers an
+		efficient algorithm to recover estimates of the fixed effects
+		in a post-estimation routine. The package also includes robust
+		and multi-way clustered standard errors.
+	</longdescription>
+</pkgmetadata>

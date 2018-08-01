@@ -16,8 +16,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/ape-3.0.7
 	virtual/MASS
+	sci-CRAN/coda
 	sci-CRAN/mvtnorm
 	sci-CRAN/caper
-	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
