@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Long Non-Coding RNA Identification Based on Features of Sequence,
-		EIIP and Secondary Structure // Functions for predicting
-		sequences are mRNAs or long non-coding RNAs. Default models are
-		trained on human, mouse and wheat datasets by employing SVM.
-		Features are based on intrinsic composition of sequence, EIIP
-		value (electron-ion interaction pseudopotential) and secondary
-		structure. The model can also be built on users' own data.
+		LncRNA Identification and Analysis Using Heterologous Features //
+		Long non-coding RNAs identification and analysis. Default
+		models are trained with human, mouse and wheat datasets by
+		employing SVM. Features are based on intrinsic composition of
+		sequence, EIIP value (electron-ion interaction
+		pseudopotential), and secondary structure. This package can
+		also extract other classic features and build new classifiers.
+		Reference: Han SY., Liang YC., Li Y., et al. (2018)
+		doi:10.1093/bib/bby065.
 	</longdescription>
 </pkgmetadata>
