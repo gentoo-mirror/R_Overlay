@@ -7,8 +7,13 @@
 		takes advantage of 'RcppArmadillo' to speed up computationally
 		intensive functions. The histogram of oriented gradients
 		descriptor is a modification of the 'findHOGFeatures' function
-		of the 'SimpleCV' computer vision platform and the
-		average_hash(), dhash() and phash() functions are based on the
-		'ImageHash' python library.
+		of the 'SimpleCV' computer vision platform, the average_hash(),
+		dhash() and phash() functions are based on the 'ImageHash'
+		python library and the Gabor Feature Extraction functions are
+		based on 'Matlab' code of the paper, "CloudID: Trustworthy
+		cloud-based and cross-enterprise biometric identification" by
+		M. Haghighat, S. Zonouz, M. Abdel-Mottaleb, Expert Systems with
+		Applications, vol. 42, no. 21, pp. 7905-7916, 2015,
+		doi:10.1016/j.eswa.2015.06.025.
 	</longdescription>
 </pkgmetadata>
