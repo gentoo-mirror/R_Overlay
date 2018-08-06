@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation of Marginal Treatment Effects using Local Instrumental
+		Variables // In the generalized Roy model, the marginal
+		treatment effect (MTE) can be used as a building block for
+		constructing conventional causal parameters such as the average
+		treatment effect (ATE) and the average treatment effect on the
+		treated (ATT) (Heckman, Urzua, and Vytlacil 2006
+		doi:10.1162/rest.88.3.389). Given a treatment selection model
+		and an outcome model, the function mte() estimates the MTE via
+		local instrumental variables (or via a normal selection model)
+		and also the projection of MTE onto the 2-dimensional space of
+		the propensity score and a latent variable representing
+		unobserved resistance to treatment (Zhou and Xie 2018
+		https://scholar.harvard.edu/files/xzhou/files/zhou-
+		xie_mte2.pdf). The object returned by mte() can be used to
+		estimate conventional parameters such as ATE and ATT (via
+		average()) or marginal policy-relevant treatment effects (via
+		mprte()).
+	</longdescription>
+</pkgmetadata>
