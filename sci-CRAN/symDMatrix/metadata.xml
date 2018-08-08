@@ -2,9 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Partitioned Symmetric Matrices // A class that partitions a
-		symmetric matrix into matrix-like objects (blocks) while
-		behaving similarly to a base R matrix. Very large symmetric
-		matrices are supported if the blocks are memory-mapped objects.
+		Partitioned Symmetric Matrices // A matrix-like class to
+		represent a symmetric matrix partitioned into file-backed
+		blocks.
 	</longdescription>
 </pkgmetadata>

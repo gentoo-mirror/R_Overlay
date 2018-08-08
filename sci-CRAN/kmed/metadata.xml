@@ -2,16 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Distance-Based k-Medoids // A simple and fast distance-based
-		k-medoids clustering algorithm from Park and Jun (2009)
-		doi:10.1016/j.eswa.2008.01.039. Calculate distances for mixed
-		variable data such as Gower (1971) doi:10.2307/2528823, Wishart
-		(2003) doi:10.1007/978-3-642-55721-7_23, Podani (1999)
+		Distance-Based k-Medoids // Algorithms of distance-based
+		k-medoids clustering: simple and fast k-medoids (Park and Jun,
+		2009) doi:10.1016/j.eswa.2008.01.039, ranked k-medoids (Zadegan
+		et al., 2013) doi:10.1016/j.knosys.2012.10.012, and step
+		k-medoids (Yu et al., 2018) doi:10.1016/j.eswa.2017.09.052.
+		Calculate distances for mixed variable data such as Gower
+		(1971) doi:10.2307/2528823, Wishart (2003)
+		doi:10.1007/978-3-642-55721-7_23, Podani (1999)
 		doi:10.2307/1224438, Huang (1997) http://citeseerx.ist.psu.edu/
-		viewdoc/download?doi=10.1.1.94.9984rep=rep1type=pdf, and
-		Harikumar and PV (2015) doi:10.1016/j.procs.2015.10.077.
-		Cluster validation applies bootstrap procedure producing a
-		heatmap with a flexible reordering matrix algorithm such as
-		complete, ward, or average linkages.
+		viewdoc/download?doi=10.1.1.94.9984rep=rep1type=pdf, Harikumar
+		and PV (2015) doi:10.1016/j.procs.2015.10.077, and Ahmad and
+		Dey (2007) doi:10.1016/j.datak.2007.03.016. Cluster validation
+		applies bootstrap procedure producing a heatmap with a flexible
+		reordering matrix algorithm such as complete, ward, or average
+		linkages.
 	</longdescription>
 </pkgmetadata>
