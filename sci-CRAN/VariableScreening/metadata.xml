@@ -3,14 +3,24 @@
 <pkgmetadata>
 	<longdescription>
 		High-Dimensional Screening for Semiparametric Longitudinal
-		Regression // Implements a screening procedure proposed by
-		Wanghuan Chu, Runze Li and Matthew Reimherr (2016)
-		DOI:10.1214/16-AOAS912 for varying coefficient longitudinal
-		models with ultra-high dimensional predictors . The effect of
-		each predictor is allowed to vary over time, approximated by a
-		low-dimensional B-spline. Within-subject correlation is handled
-		using a generalized estimation equation approach with structure
-		specified by the user. Variance is allowed to change over time,
-		also approximated by a B-spline.
+		Regression // Implements variable screening techniques for
+		ultra-high dimensional regression settings.  Techniques for
+		independent (iid) data, varying-coefficient models, and
+		longitudinal data are implemented. The package currently
+		contains three screen functions: screenIID(), screenLD() and
+		screenVCM(), and six methods for simulating dataset:
+		simulateDCSIS(), simulateLD, simulateMVSIS(),
+		simulateMVSISNY(), simulateSIRS() and simulateVCM(). The
+		package is based on the work of Li-Ping ZHU, Lexin LI, Runze
+		LI, and Li-Xing ZHU (2011) DOI:10.1198/jasa.2011.tm10563, Runze
+		LI, Wei ZHONG,  Liping ZHU (2012)
+		DOI:10.1080/01621459.2012.695654, Jingyuan LIU, Runze LI,
+		Rongling WU (2014) DOI:10.1080/01621459.2013.850086 Hengjian
+		CUI, Runze LI,  Wei ZHONG (2015)
+		DOI:10.1080/01621459.2014.920256, and Wanghuan CHU, Runze LI
+		and Matthew REIMHERR (2016) DOI:10.1214/16-AOAS912. Special
+		thanks are due to Ling Zhang for providing detailed testing and
+		proposing a method for speed improvement on the simulation of
+		data with AR-1 structure.
 	</longdescription>
 </pkgmetadata>
