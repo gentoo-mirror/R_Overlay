@@ -38,5 +38,5 @@ Index: src/Makevars
 -	cd hdf5/src && \
 -	   $(MAKE)
 -	cp hdf5/src/.libs/libhdf5ForBioC.a .
-+PKG_CPPFLAGS = -DDO_NOT_USE_CXX_HEADERS
++PKG_CPPFLAGS = -DDO_NOT_USE_CXX_HEADERS -DH5_USE_18_API
 +PKG_LIBS = -lhdf5 -lz -lm

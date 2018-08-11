@@ -1,0 +1,24 @@
+Index: rhdf5-2.14.0/DESCRIPTION
+===================================================================
+--- rhdf5-2.14.0.orig/DESCRIPTION
++++ rhdf5-2.14.0/DESCRIPTION
+@@ -7,7 +7,6 @@ Maintainer: Bernd Fischer <b.fischer@dkf
+ Description: This R/Bioconductor package provides an interface between HDF5 and R. HDF5's main features are the ability to store and access very large and/or complex datasets and a wide variety of metadata on mass storage (disk) through a completely portable file format. The rhdf5 package is thus suited for the exchange of large and/or complex datasets between R and other software package, and for letting R applications work on datasets that are larger than the available RAM. 
+ License: Artistic-2.0
+ LazyLoad: true
+-Imports: zlibbioc
+ Depends: methods
+ Suggests: bit64,BiocStyle
+ SystemRequirements: GNU make
+Index: rhdf5-2.14.0/NAMESPACE
+===================================================================
+--- rhdf5-2.14.0.orig/NAMESPACE
++++ rhdf5-2.14.0/NAMESPACE
+@@ -1,7 +1,5 @@
+ useDynLib(rhdf5)
+ 
+-import(zlibbioc)
+-
+ exportClasses(H5IdComponent)
+ ## exportClasses(H5file)
+ ## exportClasses(H5group)

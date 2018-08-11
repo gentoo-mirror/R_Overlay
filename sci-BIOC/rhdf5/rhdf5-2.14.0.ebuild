@@ -15,12 +15,10 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_bit64? ( sci-CRAN/bit64 )
 "
-
-# hid_t in hdf5-1.10 becomes int64, not supported by R
-DEPEND="sci-BIOC/zlibbioc
-	<sci-libs/hdf5-1.10"
+DEPEND=""
 RDEPEND="${DEPEND-} sci-libs/hdf5 ${R_SUGGESTS-}"
-PATCHES=( "${FILESDIR}/rhdf5-2.14.0-Makevars.patch" )
+PATCHES=( "${FILESDIR}/rhdf5-2.14.0-Makevars.patch"
+	"${FILESDIR}/rhdf5-2.14.0-remove-zlibbioc.patch" )
 
 src_prepare() {
 	ln -sf "${EPREFIX}"/usr/include/hdf5.h src/myhdf5.h

@@ -10,5 +10,6 @@ SRC_URI="https://github.com/IRkernel/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE='GPL-2+'
 
 R_SUGGESTS=""
-DEPEND=""
+DEPEND="sci-CRAN/htmltools
+	sci-CRAN/base64enc"
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

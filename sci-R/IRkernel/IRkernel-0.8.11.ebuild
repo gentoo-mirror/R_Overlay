@@ -11,7 +11,11 @@ SRC_URI="https://github.com/IRkernel/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE='GPL-2+'
 
 R_SUGGESTS=""
-DEPEND="sci-CRAN/uuid"
+DEPEND="sci-CRAN/uuid
+	sci-CRAN/evaluate
+	sci-CRAN/pbdZMQ
+	sci-CRAN/crayon
+	sci-CRAN/jsonlite"
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}
 	sci-R/IRdisplay
 	dev-python/jupyter_client"
