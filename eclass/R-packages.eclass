@@ -1,6 +1,5 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 inherit eutils
 
@@ -20,9 +19,15 @@ R-packages_src_unpack() {
 	fi
 }
 
-R-packages_src_prepare() {
-	epatch_user
-}
+if has "${EAPI:-0}" 0 1 2 3 4 5; then
+	R-packages_src_prepare() {
+		epatch_user
+	}
+else
+	R-packages_src_prepare() {
+		default
+	}
+fi
 
 R-packages_src_compile() {
 	MAKEFLAGS="CFLAGS=${CFLAGS// /\\ } CXXFLAGS=${CXXFLAGS// /\\ } FFLAGS=${FFLAGS// /\\ } FCFLAGS=${FCFLAGS// /\\ } LDFLAGS=${LDFLAGS// /\\ }" \
