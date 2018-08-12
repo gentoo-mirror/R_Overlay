@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Amazing Fast Way to Fit Elastic Net // Fit Elastic Net, Lasso,
+		and Ridge regression and do cross-validation in a fast way. We
+		build the algorithm based on Least Angle Regression by Bradley
+		Efron, Trevor Hastie, Iain Johnstone, etc.
+		(2004)(doi:10.1214/009053604000000067 ) and some algorithms
+		like Givens rotation and Forward/Back Substitution. In this
+		way, many matrices to be computed are retained as triangular
+		matrices which can eventually speed up the computation. The
+		fitting algorithm for Elastic Net is written in C++ using
+		Armadillo linear algebra library.
+	</longdescription>
+</pkgmetadata>
