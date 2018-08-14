@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generalized Array Arithmetic for Ragged Arrays with Named Margins
+		// Organize a so-called ragged array as generalized arrays,
+		which is simply an array with sub-dimensions denoting the
+		subdivision of dimensions (grouping of members within
+		dimensions). By the margins (names of dimensions and sub-
+		dimensions) in generalized arrays, operators and utility
+		functions provided in this package automatically match the
+		margins, doing map-reduce style calculation along margins.
+		Generalized arrays are also cooperative to R's native functions
+		that work on simple arrays.
+	</longdescription>
+</pkgmetadata>
