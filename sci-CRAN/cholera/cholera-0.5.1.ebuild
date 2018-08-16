@@ -1,0 +1,26 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Amend, Augment and Aid Analysis ... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/cholera_0.5.1.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_ggplot2 r_suggests_knitr"
+R_SUGGESTS="
+	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+"
+DEPEND="sci-CRAN/pracma
+	sci-CRAN/sp
+	sci-CRAN/scales
+	sci-CRAN/RColorBrewer
+	>=sci-CRAN/deldir-0.0.18
+	sci-CRAN/igraph
+	>=sci-CRAN/HistData-0.7.8
+	virtual/KernSmooth
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
