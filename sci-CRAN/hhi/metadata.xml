@@ -5,18 +5,14 @@
 		Calculate and Visualize the Herfindahl-Hirschman Index // Based
 		on the aggregated shares retained by individual firms or actors
 		within a market or space, the Herfindahl-Hirschman Index (HHI)
-		measures the level of concentration in the market or space. It
-		is often used as a measure of competition, where 0 equals
-		perfect competition amongst firms or actors and 10,000 equals
-		perfect monopoly. This package allows for intuitive and
-		straightforward computation of the HHI, requiring placement of
-		objects directly into the function, including the data frame
-		first, followed by the name of the vector (or variable)
-		corresponding with the market shares in quotation marks. The
-		package also includes a plot function for quick visual display
-		of HHI time series across any measure of time (year, quarter,
-		month, etc.) Suggested citation of the HHI: Rhoades, Stephen A.
-		(1993, "The herfindahl-hirschman index." Federal Reserve
-		Bulletin 79: 188).
+		measures the level of concentration in a space. This package
+		allows for intuitive and straightforward computation of HHI
+		scores, requiring placement of objects of interest directly
+		into the function. The package also includes a plot function
+		for quick visual display of an HHI time series using any
+		measure of time (year, quarter, month, etc.). For usage, please
+		cite the Journal of Open Source Software paper associated with
+		the package: Waggoner, Philip D. (2018)
+		doi:10.21105/joss.00828.
 	</longdescription>
 </pkgmetadata>

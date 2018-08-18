@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Pseudo-Realizations for Gaussian Process Excursions // Computes
+		pseudo-realizations from the posterior distribution of a
+		Gaussian Process (GP) with the method described in Azzimonti et
+		al. (2016) doi:10.1137/141000749. The realizations are obtained
+		from simulations of the field at few well chosen points that
+		minimize the expected distance in measure between the true
+		excursion set of the field and the approximate one. Also
+		implements a R interface for (the main function of) Distance
+		Transform of sampled Functions
+		(http://cs.brown.edu/people/pfelzens/dt/index.html).
+	</longdescription>
+</pkgmetadata>
