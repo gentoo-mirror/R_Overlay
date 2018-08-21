@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Metrics for Multiple Testing with Correlated Outcomes //
+		Implements methods in Mathur and VanderWeele (in preparation)
+		to characterize global evidence strength across W correlated
+		ordinary least squares (OLS) hypothesis tests. Specifically,
+		uses resampling to estimate a null interval for the total
+		number of rejections in, for example, 95% of samples generated
+		with no associations (the global null), the excess hits (the
+		difference between the observed number of rejections and the
+		upper limit of the null interval), and a test of the global
+		null based on the number of rejections.
+	</longdescription>
+</pkgmetadata>
