@@ -5,15 +5,19 @@
 		Clean and Analyze Continuous Glucose Monitor Data // This code
 		provides several different functions for cleaning and analyzing
 		continuous glucose monitor data. Currently it works with
-		'Dexcom' (https://www.dexcom.com) or 'iPro 2'
+		'Dexcom' (https://www.dexcom.com), 'iPro 2'
 		(http://professional.medtronicdiabetes.com/ipro2-professional-
-		cgm) data. The makecsv() function can convert files to CSV if
-		they have been saved as 'Excel' documents. The cleaniprodata()
-		and cleandexcomdata() functions take a directory of CGM data
-		files and clean them for analysis. Finally, cgmvariables()
-		iterates through a directory of cleaned CGM data files and
-		produces a single spreadsheet with data for each file. This
-		spreadsheet is compatible with REDCap data upload ("--1" is
-		added to each subject ID automatically for double data entry).
+		cgm), Diasend (https://diasend.com//us), Libre
+		(https://www.freestylelibre.us/) or Carelink
+		(https://www.medtronicdiabetes.com/products/carelink-personal-
+		diabetes-software) data. The cleandata() function takes a
+		directory of CGM data files and prepares them for analysis.
+		cgmvariables() iterates through a directory of cleaned CGM data
+		files and produces a single spreadsheet with data for each
+		file. This spreadsheet is compatible with REDCap data upload ("
+		--1" is added to each subject ID automatically for double data
+		entry). cgmreport() also iterates through a directory of
+		cleaned data, and produces PDFs of individual and aggregate AGP
+		plots.
 	</longdescription>
 </pkgmetadata>
