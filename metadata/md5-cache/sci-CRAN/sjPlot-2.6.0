@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/glmmTMB sci-CRAN/psych >=sci-CRAN/lme4-1.1.12 sci-CRAN/knitr sci-CRAN/modelr >=sci-CRAN/broom-0.4.5 virtual/nlme >=sci-CRAN/tidyr-0.7.0 >=sci-CRAN/sjmisc-2.7.4 virtual/MASS >=sci-CRAN/ggplot2-2.2.1 sci-CRAN/rlang sci-CRAN/forcats >=sci-CRAN/ggeffects-0.5.0 >=sci-CRAN/sjlabelled-1.0.13 sci-CRAN/scales sci-CRAN/purrr >=sci-CRAN/dplyr-0.7.5 sci-CRAN/magrittr >=sci-CRAN/sjstats-0.17.0 >=dev-lang/R-3.2 dev-lang/R
+DESCRIPTION=Data Visualization for Statistic... (see metadata)
+EAPI=6
+IUSE=r_suggests_aiccmodavg r_suggests_brms r_suggests_car r_suggests_cluster r_suggests_ggrepel r_suggests_ggridges r_suggests_gparotation r_suggests_gridextra r_suggests_pscl r_suggests_rstanarm r_suggests_survey r_suggests_testthat r_suggests_tmb r_suggests_zelig byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/glmmTMB sci-CRAN/psych >=sci-CRAN/lme4-1.1.12 sci-CRAN/knitr sci-CRAN/modelr >=sci-CRAN/broom-0.4.5 virtual/nlme >=sci-CRAN/tidyr-0.7.0 >=sci-CRAN/sjmisc-2.7.4 virtual/MASS >=sci-CRAN/ggplot2-2.2.1 sci-CRAN/rlang sci-CRAN/forcats >=sci-CRAN/ggeffects-0.5.0 >=sci-CRAN/sjlabelled-1.0.13 sci-CRAN/scales sci-CRAN/purrr >=sci-CRAN/dplyr-0.7.5 sci-CRAN/magrittr >=sci-CRAN/sjstats-0.17.0 >=dev-lang/R-3.2 r_suggests_aiccmodavg? ( sci-CRAN/AICcmodavg ) r_suggests_brms? ( sci-CRAN/brms ) r_suggests_car? ( sci-CRAN/car ) r_suggests_cluster? ( virtual/cluster ) r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_ggridges? ( sci-CRAN/ggridges ) r_suggests_gparotation? ( sci-CRAN/GPArotation ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_pscl? ( sci-CRAN/pscl ) r_suggests_rstanarm? ( sci-CRAN/rstanarm ) r_suggests_survey? ( sci-CRAN/survey ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tmb? ( sci-CRAN/TMB ) r_suggests_zelig? ( sci-CRAN/Zelig ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sjPlot_2.6.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=ac5fe13e13f520beb2c5b53ff2740ce7
