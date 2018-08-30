@@ -4,11 +4,13 @@
 	<longdescription>
 		Isoscape Computation and Inference of Spatial Origins using Mixed
 		Models // Building isoscapes using mixed models and inferring
-		the geographic origin of organisms based on their isotopic
+		the geographic origin of samples based on their isotopic
 		ratios. This package is essentially a simplified interface to
-		several other packages. It uses 'spaMM' for fitting and
-		predicting isoscapes, and assigning an organism's origin
+		several other packages which implements a new statistical
+		framework based on mixed models. It uses 'spaMM' for fitting
+		and predicting isoscapes, and assigning an organism's origin
 		depending on its isotopic ratio. 'IsoriX' also relies heavily
-		on the package 'rasterVis' for plotting the maps using lattice.
+		on the package 'rasterVis' for plotting the maps produced with
+		'raster' using 'lattice'.
 	</longdescription>
 </pkgmetadata>
