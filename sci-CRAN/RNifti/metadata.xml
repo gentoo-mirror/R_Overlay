@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fast R and C++ Access to NIfTI Images // Provides very fast
-		access to images stored in the NIfTI-1 file format
-		http://www.nitrc.org/docman/view.php/26/64/nifti1.h, with
-		seamless synchronisation between compiled C and interpreted R
-		code. Not to be confused with 'RNiftyReg', which provides tools
-		for image registration.
+		Fast R and C++ Access to NIfTI Images // Provides very fast read
+		and write access to images stored in the NIfTI-1 and
+		ANALYZE-7.5 formats, with seamless synchronisation between
+		compiled C and interpreted R code. Also provides a C/C++ API
+		that can be used by other packages. Not to be confused with
+		'RNiftyReg', which performs image registration.
 	</longdescription>
 </pkgmetadata>

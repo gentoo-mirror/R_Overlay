@@ -5,9 +5,10 @@
 		Wrap R Tools for Debugging and Parametric Programming // Tools
 		for writing and debugging R code. Provides: 'let()' (converts
 		non-standard evaluation interfaces to parametric standard
-		evaluation interfaces), '%.%' dot-pipe (an 'S3' configurable
-		pipe), 'build_frame()'/'draw_frame()' ('data.frame' example
-		tools), 'qc()' (quoting concatenate), ':=' (named map builder),
+		evaluation interfaces, inspired by 'gtools:strmacro()' and
+		'base::bquote()'), '%.%' dot-pipe (an 'S3' configurable pipe),
+		'build_frame()'/'draw_frame()' ('data.frame' example tools),
+		'qc()' (quoting concatenate), ':=' (named map builder),
 		'DebugFnW()' (capture function context on error for debugging),
 		and more.
 	</longdescription>
