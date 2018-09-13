@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/miceadds-2.13.60 sci-CRAN/Rcpp >=dev-lang/R-3.1 sci-CRAN/TAM sci-CRAN/sirt sci-CRAN/CDM virtual/MASS sci-CRAN/coda dev-lang/R
+DESCRIPTION=Model Based Treatment of Missing Data
+EAPI=6
+IUSE=r_suggests_mice byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/miceadds-2.13.60 sci-CRAN/Rcpp >=dev-lang/R-3.1 sci-CRAN/TAM sci-CRAN/sirt sci-CRAN/CDM virtual/MASS sci-CRAN/coda sci-CRAN/miceadds sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_mice? ( sci-CRAN/mice ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mdmb_0.10-13.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=1955dc53e92425e77a0d5793ad77403a

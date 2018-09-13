@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/tidyr-0.6.3 >=dev-lang/R-3.2.0 sci-CRAN/rvest virtual/foreign sci-CRAN/lubridate >=sci-CRAN/readr-1.1.1 >=sci-CRAN/magrittr-1.5 sci-CRAN/hoardr >=sci-CRAN/curl-2.8.1 >=sci-CRAN/httr-1.2.1 >=sci-CRAN/dplyr-0.7.0 >=sci-CRAN/janitor-1.0.0 >=sci-CRAN/data_table-1.10.4 sci-CRAN/rgdal >=sci-CRAN/jsonlite-1.5 >=sci-CRAN/xml2-1.1.1 sci-CRAN/raster dev-lang/R
+DESCRIPTION=Australian Government Bureau of ... (see metadata)
+EAPI=6
+IUSE=r_suggests_asgs_foyer r_suggests_covr r_suggests_ggplot2 r_suggests_ggthemes r_suggests_gridextra r_suggests_knitr r_suggests_mapproj r_suggests_maps r_suggests_rappdirs r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/tidyr-0.6.3 >=dev-lang/R-3.2.0 sci-CRAN/rvest virtual/foreign sci-CRAN/lubridate >=sci-CRAN/readr-1.1.1 >=sci-CRAN/magrittr-1.5 sci-CRAN/hoardr >=sci-CRAN/curl-2.8.1 >=sci-CRAN/httr-1.2.1 >=sci-CRAN/dplyr-0.7.0 >=sci-CRAN/janitor-1.0.0 >=sci-CRAN/data_table-1.10.4 sci-CRAN/rgdal >=sci-CRAN/jsonlite-1.5 >=sci-CRAN/xml2-1.1.1 sci-CRAN/raster r_suggests_asgs_foyer? ( sci-CRAN/ASGS_foyer ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggthemes? ( sci-CRAN/ggthemes ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_rappdirs? ( sci-CRAN/rappdirs ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-6.1.0 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bomrang_0.4.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=61c2ef350c1e10ac505b931670858761
