@@ -3,8 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Regularization Paths for SCAD and MCP Penalized Regression Models
-		// Efficient algorithms for fitting regularization paths for
-		linear or logistic regression models penalized by MCP or SCAD,
-		with optional additional L2 penalty.
+		// Fits regularization paths for linear regression, GLM, and
+		Cox regression models using lasso or nonconvex penalties, in
+		particular the minimax concave penalty (MCP) and smoothly
+		clipped absolute deviation (SCAD) penalty, with options for
+		additional L2 penalties (the "elastic net" idea).  Utilities
+		for carrying out cross-validation as well as post-fitting
+		visualization, summarization, inference, and prediction are
+		also provided.
 	</longdescription>
 </pkgmetadata>
