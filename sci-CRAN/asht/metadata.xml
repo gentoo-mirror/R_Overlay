@@ -2,13 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Applied Statistical Hypothesis Tests // Some hypothesis test
-		functions (sign test, median and other quantile tests, Wilcoxon
-		signed rank test, coefficient of variation test, test of normal
-		variance, test on weighted sums of Poisson, sample size for
-		t-tests with different variances and non-equal n per arm,
-		Behrens-Fisher test, nonparametric ABC intervals, Wilcoxon-
-		Mann-Whitney test) with a focus on non-asymptotic methods that
-		have matching confidence intervals.
+		Applied Statistical Hypothesis Tests // Gives some hypothesis
+		test functions (sign test, median and other quantile tests,
+		Wilcoxon signed rank test, coefficient of variation test, test
+		of normal variance, test on weighted sums of Poisson [see Fay
+		and Kim doi:10.1002/bimj.201600111], sample size for t-tests
+		with different variances and non-equal n per arm, Behrens-
+		Fisher test, nonparametric ABC intervals, Wilcoxon-Mann-Whitney
+		test [with effect estimates and confidence intervals, see Fay
+		and Malinovsky doi:10.1002/sim.7890], two-sample melding tests
+		[see Fay, Proschan, and Brittain doi:10.1111/biom.12231], one-
+		way ANOVA allowing var.equal=FALSE [see Brown and Forsythe,
+		1974, Biometrics]). The focus is on methods that have
+		compatible confidence intervals.
 	</longdescription>
 </pkgmetadata>

@@ -4,16 +4,18 @@
 	<longdescription>
 		Omnibus Test for Genetic Association Analysis using the Rank
 		Normal Transformation // Implementation of genetic association
-		tests using the rank based inverse normal transformation (INT).
-		The primary contribution is an omnibus test, which synthesizes
-		two complementary INT-based approaches. In simulations against
-		phenotypes with skewed and heavy tailed residuals, the omnibus
-		test provided valid inference in the absence of genetic
-		effects. When genetic effects were present, the omnibus test
-		provided power comparable to the more efficient of the
-		component methods. Under these settings, standard linear
+		tests for continuous outcomes utilizing the rank-based inverse
+		normal transformation (INT). For outcomes whose residual
+		distribution is heavily skewed or enriched for outliers, INT-
+		based tests provided valid inference and improved power. The
+		primary contribution is a rank normal omnibus test (RNOmni),
+		which synthesizes two complementary INT-based approaches. In
+		simulations against non-normal phenotypes, the omnibus test
+		controlled the type I error in the absence of genetic
+		associations, and improved power in the presence of genetic
+		associations. Under the same settings, standard linear
 		regression variously failed to control the type I error in the
-		absence of genetic effects, and was underpowered in the
-		presence of genetic effects.
+		absence of associations, and was underpowered in the presence
+		of associations.
 	</longdescription>
 </pkgmetadata>
