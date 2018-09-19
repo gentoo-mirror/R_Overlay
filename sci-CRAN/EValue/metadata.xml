@@ -11,11 +11,11 @@
 		that an unmeasured confounder would need to have with both the
 		treatment and the outcome to fully explain away a specific
 		treatment-outcome association, conditional on the measured
-		covariates. One can use one of the evalues.XX() functions to
+		covariates. You can use one of the evalues.XX() functions to
 		compute E-values for the relevant outcome types. Outcome types
 		include risk ratios, odds ratio with common or rare outcomes,
 		hazard ratios with common or rare outcomes, and standardized
-		differences in outcomes. Optionally, one can use the
+		differences in outcomes. Optionally, you can use the
 		bias_plot() function to plot the bias factor as a function of
 		two sensitivity parameters. (See VanderWeele  Ding, 2017
 		[http://annals.org/aim/article/2643434] for details.) For a
@@ -34,7 +34,7 @@
 		[https://osf.io/jkhfg/] for details.) Most of the analyses
 		available in this package can also be conducted using web-based
 		graphical interfaces (for a single observational study:
-		https://mmathur.shinyapps.io/evalue/; for a meta-analysis:
-		https://mmathur.shinyapps.io/meta_gui_2/).
+		[https://evalue.hmdc.harvard.edu/app/]; for a meta-analysis:
+		[https://mmathur.shinyapps.io/meta_gui_2/]).
 	</longdescription>
 </pkgmetadata>
