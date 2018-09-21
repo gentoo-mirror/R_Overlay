@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tidying Methods for Mixed Models // Convert fitted objects from
+		various R mixed-model packages into tidy data frames along the
+		lines of the 'broom' package. The package provides three S3
+		generics for each model: tidy(), which summarizes a model's
+		statistical findings such as coefficients of a regression;
+		augment(), which adds columns to the original data such as
+		predictions, residuals and cluster assignments; and glance(),
+		which provides a one-row summary of model-level statistics.
+	</longdescription>
+</pkgmetadata>
