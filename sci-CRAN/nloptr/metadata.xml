@@ -2,14 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R interface to NLopt // nloptr is an R interface to NLopt. NLopt
-		is a free/open-source library for nonlinear optimization,
-		providing a common interface for a number of different free
-		optimization routines available online as well as original
-		implementations of various other algorithms. See http://ab-
+		R Interface to NLopt // Solve optimization problems using an R
+		interface to NLopt. NLopt is a free/open-source library for
+		nonlinear optimization, providing a common interface for a
+		number of different free optimization routines available online
+		as well as original implementations of various other
+		algorithms. See http://ab-
 		initio.mit.edu/wiki/index.php/NLopt_Introduction for more
-		information on the available algorithms. During installation on
-		Unix the NLopt code is downloaded and compiled from the NLopt
-		website.
+		information on the available algorithms. During installation of
+		nloptr on Unix-based systems, the installer checks whether the
+		NLopt library is installed on the system. If the NLopt library
+		cannot be found, the code is compiled using the NLopt source
+		included in the nloptr package.
 	</longdescription>
 </pkgmetadata>

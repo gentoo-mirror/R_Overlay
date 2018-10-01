@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parameter-Free Domain-Agnostic Season Length Detection in Time
+		Series // Spectral and Average Autocorrelation Zero Distance
+		Density ('sazed') is a method for estimating the season length
+		of a seasonal time series. 'sazed' is aimed at practitioners,
+		as it employs only domain-agnostic preprocessing and does not
+		depend on parameter tuning or empirical constants. The
+		computation of 'sazed' relies on the efficient autocorrelation
+		computation methods suggested by Thibauld Nion (2012, URL:
+		http://www.tibonihoo.net/literate_musing/autocorrelations.html)
+		and by Bob Carpenter (2012, URL: https://lingpipe-
+		blog.com/2012/06/08/autocorrelation-fft-kiss-eigen/).
+	</longdescription>
+</pkgmetadata>

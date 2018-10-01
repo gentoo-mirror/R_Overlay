@@ -2,10 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Replacement and Extension of the optim() Function // Provides a
-		replacement and extension of the optim() function to unify and
-		streamline optimization capabilities in R for smooth, possibly
-		box constrained functions of several or many parameters. This
-		is the CRAN version of the package.
+		Expanded Replacement and Extension of the 'optim' Function //
+		Provides a replacement and extension of the optim() function to
+		call to several function minimization codes in R in a single
+		statement. These methods handle smooth, possibly box
+		constrained functions of several or many parameters. Note that
+		function 'optimr()' was prepared to simplify the incorporation
+		of minimization codes going forward. Also implements some
+		utility codes and some extra solvers, including safeguarded
+		Newton methods. Many methods previously separate are now
+		included here.
 	</longdescription>
 </pkgmetadata>

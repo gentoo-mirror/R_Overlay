@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spatial Variable Selection // Perform variable selection for the
+		spatial Poisson regression model under the adaptive elastic net
+		penalty. Spatial count data with covariates is the input. We
+		use a spatial Poisson regression model to link the spatial
+		counts and covariates. For maximization of the likelihood under
+		adaptive elastic net penalty, we implemented the penalized
+		quasi-likelihood (PQL) and the approximate penalized
+		loglikelihood (APL) methods. The proposed methods can
+		automatically select important covariates, while adjusting for
+		possible spatial correlations among the responses. More details
+		are available in Xie et al. (2018, arXiv:1809.06418). The
+		package also contains the Lyme disease dataset, which consists
+		of the disease case data from 2006 to 2011, and demographic
+		data and land cover data in Virginia. The Lyme disease case
+		data were collected by the Virginia Department of Health. The
+		demographic data (e.g., population density, median income, and
+		average age) are from the 2010 census. Land cover data were
+		obtained from the Multi-Resolution Land Cover Consortium for
+		2006.
+	</longdescription>
+</pkgmetadata>
