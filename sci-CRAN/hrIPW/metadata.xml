@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Hazard Ratio Estimation using Cox Model Weighted by the Estimated
+		Propensity Score // Estimates the log hazard ratio associated
+		with a binary exposure using a Cox PH model weighted by the
+		propensity score. Propensity model is estimated using a simple
+		logistic regression. Variance estimation takes into account the
+		propensity score estimation step with the method proposed by
+		Hajage et al. (2018) doi:10.1002/bimj.201700330. Both the
+		average treatment effect on the overall (ATE) or the treated
+		(ATT) population can be estimated. For the ATE estimation, both
+		unstabilized and stabilized weights can be used.
+	</longdescription>
+</pkgmetadata>
