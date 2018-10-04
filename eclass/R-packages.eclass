@@ -31,7 +31,7 @@ fi
 
 R-packages_src_compile() {
 	MAKEFLAGS="CFLAGS=${CFLAGS// /\\ } CXXFLAGS=${CXXFLAGS// /\\ } FFLAGS=${FFLAGS// /\\ } FCFLAGS=${FCFLAGS// /\\ } LDFLAGS=${LDFLAGS// /\\ }" \
-		R CMD INSTALL . -l "${WORKDIR}" $(use byte-compile && echo "--byte-compile")
+		R CMD INSTALL . -l "${WORKDIR}" $(use byte-compile && echo "--byte-compile") || die "R INSTALL failed"
 }
 
 R-packages_src_install() {
