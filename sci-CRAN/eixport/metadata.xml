@@ -2,17 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Export Emissions to Atmospheric Models // Emissions are mass of
-		pollutants released into the atmosphere. Air quality models
-		needs emission data, with spatial and temporal distribution, to
-		represent air pollutant concentrations. 'eixport' creates
-		inputs for the air quality models Weather Research and
-		Forecasting model coupled to Chemistry 'WRF-Chem' Grell et al
-		(2005) doi:10.1016/j.atmosenv.2005.04.027, Brazilian Regional
-		Atmospheric Modeling System with a simple photochemical module
-		'BRAMS-SPM' Freitas et al (2005)
-		doi:10.1016/j.atmosenv.2005.07.017 and  a line source
-		dispersion model 'RLINE' Snyder et al (2013)
-		doi:10.1016/j.atmosenv.2013.05.074.
+		Export Emissions to Atmospheric Models // Emissions are the mass
+		of pollutants released into the atmosphere. Air quality models
+		need emissions data, with spatial and temporal distribution, to
+		represent air pollutant concentrations. This package, eixport,
+		creates inputs for the air quality models 'WRF-Chem' Grell et
+		al (2005) doi:10.1016/j.atmosenv.2005.04.027, 'BRAMS-SPM'
+		Freitas et al (2005) doi:10.1016/j.atmosenv.2005.07.017 and
+		'RLINE' Snyder et al (2013) doi:10.1016/j.atmosenv.2013.05.074.
+		See the eixport website (https://atmoschem.github.io/eixport/)
+		for more information, documentations and examples. More details
+		in Ibarra-Espinosa et al (2018) doi.org/10.21105/joss.00607.
 	</longdescription>
 </pkgmetadata>
