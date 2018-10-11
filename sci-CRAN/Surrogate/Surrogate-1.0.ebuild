@@ -1,0 +1,28 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Evaluation of Surrogate Endpoint... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/Surrogate_1.0.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="sci-CRAN/mixtools
+	sci-CRAN/msm
+	virtual/survival
+	sci-CRAN/rgl
+	sci-CRAN/logistf
+	sci-CRAN/rootSolve
+	sci-CRAN/OrdinalLogisticBiplot
+	sci-CRAN/lme4
+	virtual/nlme
+	sci-CRAN/extraDistr
+	virtual/lattice
+	virtual/lattice
+	sci-CRAN/ks
+	sci-CRAN/rms
+	virtual/MASS
+"
+RDEPEND="${DEPEND-}"
