@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimal Binning of Continuous and Categorical Variables // Tool
+		for easy and efficient discretization of continuous and
+		categorical data. The package calculates the most optimal
+		binning of a given explanatory variable with respect to a user-
+		specified target variable. The purpose is to assign a unique
+		Weight-of-Evidence value to each of the calculated binpoints in
+		order to recode the original variable. The package allows users
+		to impose certain restrictions on the functional form on the
+		resulting binning while maximizing the overall information
+		value in the original data. The package is well suited for
+		logistic scoring models where input variables may be subject to
+		restrictions such as linearity by e.g. regulatory authorities.
+		An excellent source describing in detail the development of
+		scorecards, and the role of Weight-of-Evidence coding in credit
+		scoring is (Siddiqi 2006, ISBN: 9780-471754510). The package
+		utilizes the discrete nature of decision trees and Isotonic
+		Regression to accommodate the trade-off between flexible
+		functional forms and maximum information value.
+	</longdescription>
+</pkgmetadata>
