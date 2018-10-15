@@ -2,13 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tools of Utilization and Cost in Healthcare // Tools of
-		utilization and cost in healthcare is an R implementation of
-		the software tools developed in the H-CUP (Healthcare Cost and
-		Utilization Project) https://www.hcup-
-		us.ahrq.gov/toolssoftware/comorbidity/comorbidity.jsp at AHRQ
+		Tools of Utilization and Cost in Healthcare // R implementation
+		of the software tools developed in the H-CUP (Healthcare Cost
+		and Utilization Project) https://www.hcup-us.ahrq.gov and AHRQ
 		(Agency for Healthcare Research and Quality)
-		http://www.ahrq.gov. It currently contains functions to map
-		ICD9 code to AHRQ comorbidity measures.
+		https://www.ahrq.gov.  It currently contains functions for
+		mapping ICD-9 codes to the AHRQ comorbidity measures and
+		translating ICD-9 (resp. ICD-10) codes to ICD-10 (resp. ICD-9)
+		codes based on GEM (General Equivalence Mappings) from CMS
+		(Centers for Medicare and Medicaid Services).
 	</longdescription>
 </pkgmetadata>
