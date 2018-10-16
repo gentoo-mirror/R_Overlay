@@ -4,12 +4,15 @@
 	<longdescription>
 		Multidimensional Scaling of Asymmetric Data // Multidimensional
 		scaling models and methods for the visualization for asymmetric
-		data. A matrix is asymmetric if the number of rows equals the
-		number of columns, and these rows and columns refer to the same
-		set of objects. An example is a  student migration table, where
-		the rows correspond to the countries of origin of the students
-		and the columns to the destination countries. This package
-		provides the slide-vector model, a scaling model with unique
+		data doi:10.1111/j.2044-8317.1996.tb01078.x. An asymmetric
+		matrix has the same number of rows and columns, and these rows
+		and columns refer to the same set of objects. At least some
+		elements in the upper-triangle are different from the
+		corresponding elements in the lower triangle. An example is a
+		student migration table, where the rows correspond to the
+		countries of origin of the students and the columns to the
+		destination countries. This package provides the slide-vector
+		model doi:10.1007/BF02294474, a scaling model with unique
 		dimensions and the asymscal model for asymmetric
 		multidimensional scaling. Furthermore, a heat map for skew-
 		symmetric data, and the decomposition of asymmetry are provided
