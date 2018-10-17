@@ -2,10 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Passes an Array of IP Addresses to Iphub.info and Returns a
-		Dataframe with Details of IP // Takes as its input an array of
-		IPs and the user's X-Key, passes these to https://iphub.info/,
-		and returns a dataframe with the ip (used for merging), country
+		Detects Fraud in Online Surveys by Tracing and Scoring IP
+		Addresses // Takes as its input an array of IP addresses and
+		the user's X-Key, passes these to https://iphub.info/, and
+		returns a dataframe with the ip (used for merging), country
 		code, country name, asn, isp, block, and hostname. Especially
 		important in this is the variable "block", which gives a score
 		indicating whether the IP address is likely from a server farm
