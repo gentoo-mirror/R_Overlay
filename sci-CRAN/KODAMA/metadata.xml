@@ -2,8 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Knowledge Discovery by Accuracy Maximization // An unsupervised
-		and semi-supervised learning algorithm that performs feature
-		extraction from noisy and high-dimensional data.
+		Knowledge Discovery by Accuracy Maximization // KODAMA algorithm
+		is an unsupervised and semi-supervised learning algorithm that
+		performs feature extraction from noisy and high-dimensional
+		data. It facilitates identification of patterns representing
+		underlying groups on all samples in a data set. The algorithm
+		was published by Cacciatore et al. 2014
+		DOI:10.1073/pnas.1220873111. Addition functions was introduced
+		by Cacciatore et al. 2017 DOI:10.1093/bioinformatics/btw705 to
+		facilitate the identification of key features associated with
+		the generated output and are easily interpretable for the user.
+		Cross-validated techniques are also included in this package.
 	</longdescription>
 </pkgmetadata>

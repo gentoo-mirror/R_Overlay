@@ -13,15 +13,10 @@
 		block factors. The block factors are added in sequence and each
 		added block factor is optimized conditional on all previously
 		added block factors. The block design can have repeated nesting
-		down to any required depth of nesting with either a simple set
-		of nested blocks or a crossed blocks design at each level of
-		nesting. If a crossed blocks design has more than a single plot
-		in each crossed blocks intersection, the determinant of a
-		weighted combination of the information matrix for additive
-		crossed blocks effects and the information matrix for
-		multiplicative crossed blocks effects is used as the design
-		criterion. Outputs include a table showing the allocation of
-		treatments to blocks and tables showing the achieved
-		D-efficiency factors for each block and treatment design.
+		down to any required depth of nesting with either simple nested
+		blocks or a crossed blocks design at each level of nesting.
+		Outputs include a table showing the allocation of treatments to
+		blocks and tables showing the achieved D-efficiency factors for
+		each block and treatment design.
 	</longdescription>
 </pkgmetadata>
