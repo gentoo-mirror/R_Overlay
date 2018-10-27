@@ -9,13 +9,13 @@ DESCRIPTION='Platform Design Info for Affymetrix HTA-2_0'
 SRC_URI="http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/pd.hta.2.0_3.12.1.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND=">=sci-BIOC/S4Vectors-0.5.22
-	>=sci-CRAN/RSQLite-1.0.0
+DEPEND=">=sci-CRAN/RSQLite-1.0.0
 	>=dev-lang/R-3.2.0
-	>=sci-CRAN/DBI-0.3.1
-	>=sci-BIOC/IRanges-2.1.43
+	>=sci-BIOC/S4Vectors-0.5.22
 	>=sci-BIOC/Biostrings-2.35.12
 	virtual/class
+	>=sci-BIOC/IRanges-2.1.43
+	>=sci-CRAN/DBI-0.3.1
 	>=sci-BIOC/oligo-1.31.5
 "
 RDEPEND="${DEPEND-}"
