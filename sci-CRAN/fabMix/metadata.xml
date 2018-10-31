@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Overfitting Bayesian Mixtures of Factor Analyzers with
+		Parsimonious Covariance and Unknown Number of Components //
+		Model-based clustering of multivariate continuous data using
+		Bayesian mixtures of factor analyzers (Papastamoulis (2018)
+		DOI:10.1016/j.csda.2018.03.007). The number of clusters is
+		estimated using overfitting mixture models (Rousseau and
+		Mengersen (2011) DOI:10.1111/j.1467-9868.2011.00781.x):
+		suitable prior assumptions ensure that asymptotically the extra
+		components will have zero posterior weight, therefore, the
+		inference is based on the ``alive'' components. A Gibbs sampler
+		is implemented in order to (approximately) sample from the
+		posterior distribution of the overfitting mixture. A prior
+		parallel tempering scheme is also available, which allows to
+		run multiple parallel chains with different prior distributions
+		on the mixture weights. These chains run in parallel and can
+		swap states using a Metropolis-Hastings move. Eight different
+		parameterizations give rise to parsimonious representations of
+		the covariance per cluster (following Mc Nicholas and Murphy
+		(2008) DOI:10.1007/s11222-008-9056-0). The model
+		parameterization and number of factors is selected according to
+		the Bayesian Information Criterion. Identifiability issues
+		related to label switching are dealt by post-processing the
+		simulated output with the Equivalence Classes Representatives
+		algorithm (Papastamoulis and Iliopoulos (2010)
+		https://www.jstor.org/stable/25703571, Papastamoulis (2016)
+		DOI:10.18637/jss.v069.c01). Missing values are currently
+		allowed for two model parameterizations.
+	</longdescription>
+</pkgmetadata>
