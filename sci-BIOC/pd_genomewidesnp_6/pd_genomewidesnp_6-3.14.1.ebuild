@@ -9,13 +9,13 @@ DESCRIPTION='Platform Design Info for Affymet... (see metadata)'
 SRC_URI="http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/pd.genomewidesnp.6_3.14.1.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND=">=sci-BIOC/Biostrings-2.35.12
+DEPEND="virtual/class
 	>=sci-BIOC/IRanges-2.1.43
+	>=sci-CRAN/DBI-0.3.1
 	>=sci-BIOC/oligo-1.31.5
+	>=dev-lang/R-3.2.0
+	>=sci-BIOC/Biostrings-2.35.12
 	>=sci-BIOC/S4Vectors-0.5.22
 	>=sci-CRAN/RSQLite-1.0.0
-	virtual/class
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/DBI-0.3.1
 "
 RDEPEND="${DEPEND-}"

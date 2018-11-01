@@ -2,13 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Autologistic and Automultinomial Spatial Regression and Variable
-		Selection // Contains functions for autologistic variable
-		selection and parameter estimation for spatially correlated
-		categorical data (including k2). The main function is MPLE.
-		Capable of fitting the centered autologistic model described in
-		Caragea and Kaiser (2009)doi:10.1198/jabes.2009.07032, as well
-		as the traditional autologistic model of Besag
-		(1974)http://www.jstor.org/stable/2984812.
+		Models for Spatially Correlated Data // Fits the autologistic
+		model described in Besag's famous 1974 paper on auto- models
+		http://www.jstor.org/stable/2984812. Fits a multicategory
+		generalization of the autologistic model when there are more
+		than 2 response categories. Provides support for both
+		asymptotic and bootstrap confidence intervals. For full model
+		descriptions and a guide to the use of this package, please see
+		the vignette.
 	</longdescription>
 </pkgmetadata>
