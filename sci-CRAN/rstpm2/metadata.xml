@@ -3,8 +3,9 @@
 <pkgmetadata>
 	<longdescription>
 		Generalized Survival Models // R implementation of generalized
-		survival models, where g(S(t|x))=eta(t,x) for a link function
-		g, survival S at time t with covariates x and a linear
+		survival models (GSMs) and smooth accelerated failure time
+		(AFT) models. For the GSMs, g(S(t|x))=eta(t,x) for a link
+		function g, survival S at time t with covariates x and a linear
 		predictor eta(t,x). The main assumption is that the time
 		effect(s) are smooth. For fully parametric models with natural
 		splines, this re-implements Stata's 'stpm2' function, which are
@@ -14,7 +15,11 @@
 		the model to include any smooth penalized smoothers from the
 		'mgcv' package, using penalized likelihood. These models
 		include left truncation, right censoring, interval censoring,
-		gamma frailties and normal random effects. This also includes a
-		smooth implementation of accelerated failure time models.
+		gamma frailties and normal random effects. For the smooth AFTs,
+		S(t|x) = S_0(t*eta(t,x)), where the baseline survival function
+		S_0(t)=exp(-exp(eta_0(t))) is modelled for natural splines for
+		eta_0, and the time-dependent cumulative acceleration factor
+		eta(t,x)=\int_0^t exp(eta_1(u,x)) du for log acceleration
+		factor eta_1(u,x).
 	</longdescription>
 </pkgmetadata>

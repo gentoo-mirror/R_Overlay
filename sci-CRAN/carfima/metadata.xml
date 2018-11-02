@@ -8,18 +8,18 @@
 		process (CARFIMA) on univariate and irregularly spaced time
 		series data via frequentist or Bayesian machinery. A general-
 		order CARFIMA(p, H, q) model for pq is specified in Tsai and
-		Chan (2005)doi:10.1111/j.1467-9868.2005.00522.x and it involves
-		p+q+2 unknown model parameters, i.e., p AR parameters, q MA
-		parameters, Hurst parameter H, and process uncertainty
-		(standard deviation) sigma. The package produces their maximum
-		likelihood estimates and asymptotic uncertainties using a
-		global optimizer called the differential evolution algorithm.
-		It also produces their posterior distributions via Metropolis
-		within a Gibbs sampler equipped with adaptive Markov chain
-		Monte Carlo for posterior sampling. These fitting procedures,
-		however, may produce numerical errors if p2. The toolbox also
-		contains a function to simulate discrete time series data from
-		CARFIMA(p, H, q) process given the model parameters and
-		observation times.
+		Chan (2005) doi:10.1111/j.1467-9868.2005.00522.x and it
+		involves (p+q+2) unknown model parameters, i.e., p AR
+		parameters, q MA parameters, Hurst parameter H, and process
+		uncertainty (standard deviation) sigma. The package produces
+		their maximum likelihood estimates and asymptotic uncertainties
+		using a global optimizer called the differential evolution
+		algorithm. It also produces their posterior distributions via
+		Metropolis within a Gibbs sampler equipped with adaptive Markov
+		chain Monte Carlo for posterior sampling. These fitting
+		procedures, however, may produce numerical errors if p2. The
+		toolbox also contains a function to simulate discrete time
+		series data from CARFIMA(p, H, q) process given the model
+		parameters and observation times.
 	</longdescription>
 </pkgmetadata>
