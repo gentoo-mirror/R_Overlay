@@ -9,24 +9,25 @@
 		coverage for binomial proportions.  Each is given in greater
 		detail next. (1) Plots the two-dimensional confidence region
 		for probability distribution parameters (supported distribution
-		suffixes: gamma, invgauss, llogis, lnorm, norm, unif, weibull)
-		corresponding to a user given dataset and level of
-		significance. The crplot() algorithm plots more points in areas
-		of greater curvature to ensure a smooth appearance throughout
-		the confidence region boundary.  An alternative heuristic plots
-		a specified number of points at roughly uniform intervals along
-		its boundary.  Both heuristics build upon the radial profile
-		log-likelihood ratio technique for plotting two-dimensional
-		confidence regions given by Jaeger (2016)
-		doi:10.1080/00031305.2016.1182946. (2) Performs confidence
-		region coverage simulations for a random sample drawn from a
-		user-specified parametric population distribution, or for a
-		user-specified dataset and point of interest with coversim().
-		(3) Calculates confidence interval bounds for a binomial
-		proportion with binomTest(), calculates the actual coverage
-		with binomTestCoverage(), and plots the actual coverage with
-		binomTestCoveragePlot(). Calculates confidence interval bounds
-		for the binomial proportion using an ensemble of constituent
-		confidence intervals with binomTestEnsemble().
+		suffixes: cauchy, gamma, invgauss, logis, llogis, lnorm, norm,
+		unif, weibull) corresponding to a user-given complete or right-
+		censored dataset and level of significance.  The crplot()
+		algorithm plots more points in areas of greater curvature to
+		ensure a smooth appearance throughout the confidence region
+		boundary.  An alternative heuristic plots a specified number of
+		points at roughly uniform intervals along its boundary. Both
+		heuristics build upon the radial profile log-likelihood ratio
+		technique for plotting confidence regions given by Jaeger
+		(2016) doi:10.1080/00031305.2016.1182946. (2) Performs
+		confidence region coverage simulations for a random sample
+		drawn from a user- specified parametric population
+		distribution, or for a user-specified dataset and point of
+		interest with coversim(). (3) Calculates confidence interval
+		bounds for a binomial proportion with binomTest(), calculates
+		the actual coverage with binomTestCoverage(), and plots the
+		actual coverage with binomTestCoveragePlot(). Calculates
+		confidence interval bounds for the binomial proportion using an
+		ensemble of constituent confidence intervals with
+		binomTestEnsemble().
 	</longdescription>
 </pkgmetadata>

@@ -2,9 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Least-Squares Means // Obtain least-squares means for many
-		linear, generalized linear, and mixed models. Compute contrasts
-		or linear functions of least-squares means, and comparisons of
+		Least-Squares Means // Obtain least-squares means for linear,
+		generalized linear, and mixed models. Compute contrasts or
+		linear functions of least-squares means, and comparisons of
 		slopes. Plots and compact letter displays. Least-squares means
 		were proposed in Harvey, W (1960) "Least-squares analysis of
 		data with unequal subclass numbers", Tech Report ARS-20-8, USDA
@@ -12,8 +12,8 @@
 		Speed, and Milliken (1980) "Population marginal means in the
 		linear model: An alternative to least squares means", The
 		American Statistician 34(4), 216-221
-		doi:10.1080/00031305.1980.10483031. NOTE: Users are encouraged
-		to switch to the 'emmeans' package, as 'lsmeans' will be
-		archived in the not-too-distant future.
+		doi:10.1080/00031305.1980.10483031. NOTE: lsmeans now relies
+		primarily on code in the 'emmeans' package. 'lsmeans' will be
+		archived in the near future.
 	</longdescription>
 </pkgmetadata>
