@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Derive Polygenic Risk Score Based on Emprical Bayes Theory // EB-
+		PRS is a novel method that leverages information for effect
+		sizes across all the markers to improve the prediction
+		accuracy.  No parameter tuning is needed in the method, and no
+		external information is needed. This R-package provides the
+		calculation of polygenic risk scores from the given training
+		summary statistics and testing data. We can use EB-PRS to
+		extract main information, estimate Empirical Bayes parameters,
+		derive polygenic risk scores for  each individual in testing
+		data, and evaluate the PRS according to AUC and predictive r2.
+	</longdescription>
+</pkgmetadata>
