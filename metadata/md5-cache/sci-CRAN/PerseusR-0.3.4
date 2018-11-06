@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/Biobase sci-CRAN/plyr >=dev-lang/R-3.3.0 sci-omegahat/XML sci-CRAN/stringr dev-lang/R
+DESCRIPTION=Perseus R Interop
+EAPI=6
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-BIOC/Biobase sci-CRAN/plyr >=dev-lang/R-3.3.0 sci-omegahat/XML sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PerseusR_0.3.4.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=ad532669fb2e9cb0242ce700a97e3a01
