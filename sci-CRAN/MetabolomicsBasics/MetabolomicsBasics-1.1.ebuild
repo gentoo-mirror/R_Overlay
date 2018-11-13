@@ -1,0 +1,22 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Basic Functions to Investigate M... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/MetabolomicsBasics_1.1.tar.gz"
+LICENSE='GPL-3'
+
+DEPEND="sci-CRAN/C50
+	sci-BIOC/ropls
+	sci-CRAN/e1071
+	sci-CRAN/plyr
+	sci-BIOC/pcaMethods
+	sci-CRAN/mixOmics
+	sci-CRAN/rlang
+	virtual/rpart
+	sci-CRAN/caret
+"
+RDEPEND="${DEPEND-}"
