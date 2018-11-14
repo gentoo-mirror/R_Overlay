@@ -11,10 +11,10 @@ LICENSE='Artistic-2'
 
 DEPEND="virtual/class
 	>=sci-BIOC/Biostrings-2.25.12
-	>=sci-BIOC/IRanges-1.15.43
-	>=sci-CRAN/RSQLite-0.11.1
 	sci-CRAN/DBI
-	>=dev-lang/R-2.15.0
+	>=sci-CRAN/RSQLite-0.11.1
+	>=sci-BIOC/IRanges-1.15.43
 	>=sci-BIOC/oligo-1.21.5
+	>=dev-lang/R-2.15.0
 "
 RDEPEND="${DEPEND-}"
