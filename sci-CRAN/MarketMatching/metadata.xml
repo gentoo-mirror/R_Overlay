@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Market Matching and Causal Impact Inference // For a given test
+		market find the best control markets using time series matching
+		and analyze the impact of an intervention. The intervention
+		could be be a marketing event or some other local business
+		tactic that is being tested. The workflow implemented in
+		MarketMatching utilizes dynamic time warping (the dtw package)
+		to do the matching and the CausalImpact package to analyze the
+		causal impact. In fact, this package can be considered a
+		"workflow wrapper" for those two packages.
+	</longdescription>
+</pkgmetadata>

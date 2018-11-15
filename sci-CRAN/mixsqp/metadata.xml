@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sequential Quadratic Programming for Fast Maximum-Likelihood
+		Estimation of Mixture Proportions // Provides optimization
+		algorithms based on sequential quadratic programming (SQP) for
+		maximum likelihood estimation of the mixture proportions in a
+		finite mixture model where the component densities are known.
+		The algorithms are expected to obtain solutions that are at
+		least as accurate as the state-of-the-art MOSEK interior-point
+		solver (called by function "KWDual" in the 'REBayes' package),
+		and they are expected to arrive at solutions more quickly in
+		large data sets. The algorithms are described in Y. Kim, P.
+		Carbonetto, M. Stephens  M. Anitescu (2012) arXiv:1806.01412.
+	</longdescription>
+</pkgmetadata>
