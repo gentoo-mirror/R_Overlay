@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Robust and Powerful Test of Abnormal Stock Returns in Long-
+		Horizon Event Studies // Based on Dutta et al. (2018)
+		doi:10.1016/j.jempfin.2018.02.004, this package provides their
+		standardized test for abnormal returns in long-horizon event
+		studies. The methods used improve the major weaknesses of size,
+		power, and robustness of long-run statistical tests described
+		in Kothari/Warner (2007)
+		doi:10.1016/B978-0-444-53265-7.50015-9. Abnormal returns are
+		weighted by their statistical precision (i.e., standard
+		deviation), resulting in abnormal standardized returns. This
+		procedure efficiently captures the heteroskedasticity problem.
+		Clustering techniques following Cameron et al. (2011)
+		10.1198/jbes.2010.07136 are adopted for computing cross-
+		sectional correlation robust standard errors. The statistical
+		tests in this package therefore accounts for potential biases
+		arising from returns' cross-sectional correlation,
+		autocorrelation, and volatility clustering without power loss.
+	</longdescription>
+</pkgmetadata>
