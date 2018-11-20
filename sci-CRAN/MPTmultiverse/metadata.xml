@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiverse Analysis of Multinomial Processing Tree Models //
+		Statistical or cognitive modeling usually requires a number of
+		more or less arbitrary choices creating one specific path
+		through a 'garden of forking paths'. The multiverse approach
+		(Steegen, Tuerlinckx, Gelman,  Vanpaemel, 2016,
+		doi:10.1177/1745691616658637) offers a principled alternative
+		in which results for all possible combinations of reasonable
+		modeling choices are reported. MPTmultiverse performs a
+		multiverse analysis for multinomial processing tree (MPT,
+		Riefer  Batchelder, 1988, doi:10.1037/0033-295X.95.3.318)
+		models combining maximum-likelihood/frequentist and Bayesian
+		estimation approaches with different levels of pooling (i.e.,
+		data aggregation). For the frequentist approaches, no pooling
+		(with and without parametric or nonparametric bootstrap) and
+		complete pooling are implemented using MPTinR
+		https://cran.r-project.org/package=MPTinR. For the Bayesian
+		approaches, no pooling, complete pooling, and three different
+		variants of partial pooling are implemented using TreeBUGS
+		https://cran.r-project.org/package=TreeBUGS. The main function
+		is fit_mpt() who performs the multiverse analysis in one call.
+	</longdescription>
+</pkgmetadata>
