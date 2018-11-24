@@ -2,10 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Adaptive Multivariate Integration over Hypercubes // R wrapper
+		Adaptive Multivariate Integration over Hypercubes // R wrappers
 		around the cubature C library of Steven G. Johnson for adaptive
-		multivariate integration over hypercubes. This version provides
-		both hcubature and pcubature routines in addition to a vector
-		interface that results in substantial speed gains.
+		multivariate integration over hypercubes and the Cuba C library
+		of Thomas Hahn for deterministic and Monte Carlo integration.
+		Scalar and vector interfaces for cubature and Cuba routines are
+		provided; the vector interfaces are highly recommended as
+		demonstrated in the package vignette.
 	</longdescription>
 </pkgmetadata>

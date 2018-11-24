@@ -2,14 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Apply Functions to Multiple Multidimensional Arguments // The
-		base apply function and its variants, as well as the related
-		functions in the 'plyr' package, typically apply user-defined
-		functions to a single argument (or a list of vectorized
+		Apply Functions to Multiple Multidimensional Arrays or Vectors //
+		The base apply function and its variants, as well as the
+		related functions in the 'plyr' package, typically apply user-
+		defined functions to a single argument (or a list of vectorized
 		arguments in the case of mapply). The 'multiApply' package
-		extends this paradigm to functions taking a list of multiple
-		unidimensional or multidimensional arguments (or combinations
-		thereof) as input, which can have different numbers of
-		dimensions as well as different dimension lengths.
+		extends this paradigm with its only function, Apply, which
+		efficiently applies functions taking one or a list of multiple
+		unidimensional or multidimensional numeric arrays (or
+		combinations thereof) as input. The input arrays can have
+		different numbers of dimensions as well as different dimension
+		lengths, and the applied function can return one or a list of
+		unidimensional or multidimensional arrays as output. This saves
+		development time by preventing the R user from writing often
+		error-prone and memory-inefficient loops dealing with multiple
+		complex arrays. Also, a remarkable feature of Apply is the
+		transparent use of multi-core through its parameter 'ncores'.
+		In contrast to the base apply function, this package suggests
+		the use of 'target dimensions' as opposite to the 'margins' for
+		specifying the dimensions relevant to the function to be
+		applied.
 	</longdescription>
 </pkgmetadata>
