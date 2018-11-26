@@ -2,8 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Species Sensitivity Distributions // Fits and plots species
-		sensitivity distributions using maximum likelihood and
-		information-theoretic-based model averaging.
+		Species Sensitivity Distributions // Species sensitivity
+		distributions are cumulative probability distributions which
+		are fitted to toxicity concentrations for multiple species. The
+		ssdtools package uses Maximum Likelihood to fit log-normal,
+		log-logistic, log-Gumbel, Gompertz, gamma or Weibull
+		distributions. Multiple distributions can be averaged using
+		Information Criteria. Confidence intervals can be calculated
+		for the fitted cumulative distribution function or specific
+		hazard concentrations (percentiles). Confidence intervals are
+		currently produced by bootstrapping.
 	</longdescription>
 </pkgmetadata>
