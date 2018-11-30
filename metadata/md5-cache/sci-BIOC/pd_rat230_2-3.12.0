@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst prepare unpack
-DEPEND=>=sci-BIOC/oligo-1.31.5 >=sci-CRAN/DBI-0.3.1 >=sci-BIOC/IRanges-2.1.43 >=sci-BIOC/Biostrings-2.35.12 virtual/class >=dev-lang/R-3.2.0 >=sci-CRAN/RSQLite-1.0.0 >=sci-BIOC/S4Vectors-0.5.22 dev-lang/R
+DEPEND=>=sci-BIOC/IRanges-2.1.43 >=sci-CRAN/RSQLite-1.0.0 >=sci-BIOC/oligo-1.31.5 >=sci-BIOC/S4Vectors-0.5.22 virtual/class >=sci-BIOC/Biostrings-2.35.12 >=dev-lang/R-3.2.0 >=sci-CRAN/DBI-0.3.1 dev-lang/R
 DESCRIPTION=Platform Design Info for The Man... (see metadata)
 EAPI=6
 IUSE=byte-compile
 KEYWORDS=~amd64 ~x86
 LICENSE=Artistic-2
-RDEPEND=>=sci-BIOC/oligo-1.31.5 >=sci-CRAN/DBI-0.3.1 >=sci-BIOC/IRanges-2.1.43 >=sci-BIOC/Biostrings-2.35.12 virtual/class >=dev-lang/R-3.2.0 >=sci-CRAN/RSQLite-1.0.0 >=sci-BIOC/S4Vectors-0.5.22 dev-lang/R
+RDEPEND=>=sci-BIOC/IRanges-2.1.43 >=sci-CRAN/RSQLite-1.0.0 >=sci-BIOC/oligo-1.31.5 >=sci-BIOC/S4Vectors-0.5.22 virtual/class >=sci-BIOC/Biostrings-2.35.12 >=dev-lang/R-3.2.0 >=sci-CRAN/DBI-0.3.1 dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/pd.rat230.2_3.12.0.tar.gz
 _eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=0268d095d958f9c2f9b1558bead58540
+_md5_=c3dd6c7b4fcb8fea95be434d9dd4ac5f
