@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Performs the Joint Graphical Lasso for sparse inverse covariance
-		estimation on multiple classes // The Joint Graphical Lasso is
+		Performs the Joint Graphical Lasso for Sparse Inverse Covariance
+		Estimation on Multiple Classes // The Joint Graphical Lasso is
 		a generalized method for estimating Gaussian graphical models/
 		sparse inverse covariance matrices/ biological networks on
 		multiple classes of data.  We solve JGL under two penalty
@@ -11,6 +11,7 @@
 		fused penalty to encourage inverse covariance matrices to be
 		similar across classes, and the Group Graphical Lasso (GGL),
 		which encourages similar network structure between classes.
-		FGL is recommended over GGL for most applications.
+		FGL is recommended over GGL for most applications. Reference:
+		Danaher P, Wang P, Witten DM. (2013) doi:10.1111/rssb.12033.
 	</longdescription>
 </pkgmetadata>
