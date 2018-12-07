@@ -2,9 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Composite Likelihood Inference for Spatial Ordinal Data with
-		Replications // Composite likelihood parameter estimate and
-		asymptotic covariance matrix are calculated for the spatial
+		Composite Likelihood Inference and Diagnostics for Replicated
+		Spatial Ordinal Data // Composite likelihood parameter estimate
+		and asymptotic covariance matrix are calculated for the spatial
 		ordinal data with replications, where spatial ordinal response
 		with covariate and both spatial exponential covariance within
 		subject and independent and identically distributed measurement
@@ -12,6 +12,9 @@
 		the gradient function or maximizing composite log-likelihood.
 		Parametric bootstrapping is used to estimate the Godambe
 		information matrix and hence the asymptotic standard error and
-		covariance matrix with parallel processing option.
+		covariance matrix with parallel processing option. Moreover,
+		the proposed surrogate residual, which extends the results of
+		Liu and Zhang (2017) doi: 10.1080/01621459.2017.1292915, can
+		act as a useful tool for model diagnostics.
 	</longdescription>
 </pkgmetadata>
