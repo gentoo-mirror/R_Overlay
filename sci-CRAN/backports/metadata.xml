@@ -3,12 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Reimplementations of Functions Introduced Since R-3.0.0 //
-		Implementations of functions which have been introduced in R
-		since version 3.0.0. The backports are conditionally exported
-		which results in R resolving the function names to the version
-		shipped with R (if available) and uses the implemented
-		backports as fallback. This way package developers can make use
-		of the new functions without worrying about the minimum
-		required R version.
+		Functions introduced or changed since R v3.0.0 are re-
+		implemented in this package. The backports are conditionally
+		exported in order to let R resolve the function name to either
+		the implemented backport, or the respective base version, if
+		available. Package developers can make use of new functions or
+		arguments by selectively importing specific backports to
+		support older installations.
 	</longdescription>
 </pkgmetadata>
