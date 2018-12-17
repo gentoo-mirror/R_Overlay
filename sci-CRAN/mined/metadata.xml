@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Minimum Energy Designs // This is a method (MinED) for mining
+		probability distributions using deterministic sampling which is
+		proposed by Joseph, Wang, Gu, Lv, and Tuo (2018). The MinED
+		samples can be used for approximating the target distribution.
+		They can be generated from a density function that is known
+		only up to a proportionality constant and thus, it might find
+		applications in Bayesian computation. Moreover, the MinED
+		samples are generated with much fewer evaluations of the
+		density function compared to random sampling-based methods such
+		as MCMC and therefore, this method will be especially useful
+		when the unnormalized posterior is expensive or time consuming
+		to evaluate.
+	</longdescription>
+</pkgmetadata>
