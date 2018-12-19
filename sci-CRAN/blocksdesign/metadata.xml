@@ -5,18 +5,18 @@
 		Nested and Crossed Block Designs for Factorial, Fractional
 		Factorial and Unstructured Treatment Sets // Constructs
 		D-optimal or near D-optimal nested and crossed block designs
-		for unstructured or general factorial treatment designs. Where
-		a structured treatment design is required, a D-optimal or near
-		D-optimal treatment design is found based on a suitable model
-		matrix design formula. The required block design is then found
-		for the required treatment design based on a defined set of
-		block factors. The block factors are added in sequence and each
-		added block factor is optimized conditional on all previously
-		added block factors. The block design can have repeated nesting
-		down to any required depth of nesting with either simple nested
-		blocks or a crossed blocks design at each level of nesting.
-		Outputs include a table showing the allocation of treatments to
-		blocks and tables showing the achieved D-efficiency factors for
-		each block and treatment design.
+		for unstructured or general factorial treatment designs. The
+		treatment design, if required, is found from a defined model
+		matrix design formula. The block design is found from a defined
+		set of block factors and is conditional on the defined
+		treatment design. The block factors are added in sequence and
+		each added block factor is optimized conditional on all
+		previously added block factors. The block design can have
+		repeated nesting down to any required depth of nesting with
+		either simple nested blocks or a crossed blocks design at each
+		level of nesting. Outputs include a table showing the
+		allocation of treatments to blocks and tables showing the
+		achieved D-efficiency factors for each block and treatment
+		design.
 	</longdescription>
 </pkgmetadata>
