@@ -3,9 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Ensemble Empirical Mode Decomposition (EEMD) and Its Complete
-		Variant (CEEMDAN) // An R interface for C library libeemd for
-		performing the ensemble empirical mode decomposition (EEMD),
-		its complete variant (CEEMDAN) or the regular empirical mode
-		decomposition (EMD).
+		Variant (CEEMDAN) // An R interface for libeemd (Luukko,
+		Helske, Rsnen, 2016) doi:10.1007/s00180-015-0603-9, a C library
+		of highly efficient parallelizable functions  for performing
+		the ensemble empirical mode decomposition (EEMD), its complete
+		variant (CEEMDAN), the regular empirical mode decomposition
+		(EMD), and bivariate EMD (BEMD). Due to the possible
+		portability issues CRAN version no longer supports OpenMP, you
+		can install OpenMP-supported version from GitHub:
+		https://github.com/helske/Rlibeemd/.
 	</longdescription>
 </pkgmetadata>
