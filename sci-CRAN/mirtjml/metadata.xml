@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Joint Maximum Likelihood Estimation for High-Dimensional Item
+		Factor Analysis // Provides constrained joint maximum
+		likelihood estimation algorithms for item factor analysis (IFA)
+		based on multidimensional item response theory models. So far,
+		we provide functions for exploratory and confirmatory IFA based
+		on the multidimensional two parameter logistic (M2PL) model for
+		binary response data. Comparing with traditional estimation
+		methods for IFA, the methods implemented in this package scale
+		better to data with large numbers of respondents, items, and
+		latent factors. The computation is facilitated by
+		multiprocessing 'OpenMP' API. For more information, please
+		refer to: 1. Chen, Y., Li, X.,  Zhang, S. (2018). Joint Maximum
+		Likelihood Estimation for High-Dimensional Exploratory Item
+		Factor Analysis. Psychometrika, 1-23.
+		doi:10.1007/s11336-018-9646-5; 2. Chen, Y., Li, X.,  Zhang, S.
+		(2017). Structured Latent Factor Analysis for Large-scale Data:
+		Identifiability, Estimability, and Their Implications. arXiv
+		preprint arXiv:1712.08966.
+	</longdescription>
+</pkgmetadata>

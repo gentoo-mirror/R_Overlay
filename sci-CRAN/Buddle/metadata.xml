@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Deep Learning Package for Statistical Classification Analysis
+		// Statistical classification has been popular among various
+		fields and stayed in the limelight of scientists of those
+		fields. Examples of the fields include clinical trials where
+		the statistical classification of patients is indispensable to
+		predict the clinical courses of diseases. Considering the
+		negative impact of diseases on performing daily tasks,
+		correctly classifying patients based on the clinical
+		information is vital in that we need to identify patients of
+		the high-risk group to develop a severe state and arrange
+		medical treatment for them at an opportune moment. Deep
+		learning - a part of artificial intelligence - has gained much
+		attention, and research on it burgeons during past decades. It
+		is a veritable technique which was originally designed for the
+		classification, and hence, the EzDL package can provide sublime
+		solutions to various challenging classification problems
+		encountered in the clinical trials. The EzDL package is based
+		on the back-propagation algorithm which performs a multi-layer
+		feed-forward neural network. This package contains two
+		functions: Buddle_Main() and Buddle_Predict(). Buddle_Main()
+		builds a feed-forward neural network model and trains the
+		model. Buddle_Predict() provokes the trained model which is the
+		output of Buddle_Main(), classifies given data, and make a
+		final prediction for the data.
+	</longdescription>
+</pkgmetadata>
