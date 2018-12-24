@@ -1,0 +1,36 @@
+# Copyright 1999-2018 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Multiple Imputation using Weight... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/miWQS_0.0.9.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_knitr r_suggests_mice r_suggests_pander
+	r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat
+	r_suggests_wqs"
+R_SUGGESTS="
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_mice? ( >=sci-CRAN/mice-3.3.0 )
+	r_suggests_pander? ( >=sci-CRAN/pander-0.6.3 )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_spelling? ( sci-CRAN/spelling )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+	r_suggests_wqs? ( >=sci-CRAN/wqs-0.0.1 )
+"
+DEPEND=">=sci-CRAN/tidyr-0.8.2
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/Rsolnp-1.16
+	>=sci-CRAN/rlist-0.4.6.1
+	>=sci-CRAN/ggplot2-3.1.0
+	>=sci-CRAN/coda-0.19.2
+	virtual/survival
+	>=sci-CRAN/invgamma-1.1
+	>=sci-CRAN/glm2-1.2.1
+	>=sci-CRAN/truncnorm-1.0.8
+	>=sci-CRAN/Hmisc-4.1.1
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

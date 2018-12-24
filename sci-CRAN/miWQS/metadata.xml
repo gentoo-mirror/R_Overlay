@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiple Imputation using Weighted Quantile Sum Analysis //
+		Consider a set/mixture of continuous, correlated, and censored
+		components/chemicals that are reasonable to combine in an index
+		and share a common outcome. These components are also interval-
+		censored between zero and upper thresholds, or detection
+		limits, that may be different among the components. The `miWQS`
+		package applies the multiple imputation (MI) procedure to the
+		weighted quantile sum regression (WQS) methodology for
+		continuous, binary, or count outcomes.  In summary, MI consists
+		of three stages: (1) imputation, (2) analysis, and (3) pooling.
+		First,  the missing values are imputed by bootstrapping (Lubin
+		et.al (2004) doi:10.1289/ehp.7199), Bayesian imputation, or
+		placing the below the detection limits in the first quantile
+		(BDLQ1) (Ward et.al. (2014) doi:10.1289/ehp.1307602). Second,
+		the estimate.wqs() function implements WQS regression if the
+		components are complete, imputed, or missing (Carrico et.al.
+		(2014) doi:10.1007/s13253-014-0180-3) . If the data is missing,
+		BDLQ1 is automatically implemented.  Lastly, the pool.mi()
+		function calculates the pooled statistics according to Rubin's
+		rules (Rubin 1987).
+	</longdescription>
+</pkgmetadata>
