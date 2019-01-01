@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -16,8 +16,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/ape-3.0.7
 	sci-CRAN/coda
+	sci-CRAN/caper
 	sci-CRAN/mvtnorm
 	virtual/MASS
-	sci-CRAN/caper
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

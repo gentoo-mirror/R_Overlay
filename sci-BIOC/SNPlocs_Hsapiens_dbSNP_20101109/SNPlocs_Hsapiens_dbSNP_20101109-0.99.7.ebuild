@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_bsgenome? ( >=sci-BIOC/BSgenome-1.16.1 )
 "
 DEPEND="sci-BIOC/IRanges
+	sci-BIOC/GenomicRanges
+	sci-BIOC/GenomicRanges
 	sci-BIOC/IRanges
-	sci-BIOC/GenomicRanges
-	sci-BIOC/GenomicRanges
 	sci-BIOC/S4Vectors
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
