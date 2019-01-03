@@ -2,9 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		The H-measure and other scalar classification performance metrics
-		// Scalar performance metrics, including the H-measure, based
-		on classification scores for several classifiers applied to the
-		same dataset.
+		The H-Measure and Other Scalar Classification Performance Metrics
+		// Classification performance metrics that are derived from the
+		ROC curve of a classifier. The package includes the H-measure
+		performance metric as described in
+		http://link.springer.com/article/10.1007/s10994-009-5119-5,
+		which computes the minimum total misclassification cost,
+		integrating over any uncertainty about the relative
+		misclassification costs, as per a user-defined prior. It also
+		offers a one-stop-shop for other scalar metrics of performance,
+		including sensitivity, specificity and many others, and also
+		offers plotting tools for ROC curves and related statistics.
 	</longdescription>
 </pkgmetadata>

@@ -2,21 +2,21 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Analyses for Distance-Sampling and Abundance Estimation //
-		Distance-sampling is a popular method for abundance estimation
-		in ecology. This package contains functions and associated
-		routines to analyze distance-sampling data collected on point
-		or line transects. It accommodates line and point transect
-		analyses in one routine that accepts a regression-like formula
-		object. Abundance routines perform automated bootstrapping and
+		Distance-Sampling Analyses for Density and Abundance Estimation
+		// Distance-sampling is a popular method for estimating density
+		and abundance of organisms in ecology. Rdistance contains
+		routines that assist with analysis of distance-sampling data
+		collected on point or line transects. Distance models are
+		specified using regression-like formula (similar to lm, glm,
+		etc.). Abundance routines perform automated bootstrapping and
 		automated detection-function selection. Overall (study area)
 		and site-level (transect or point) abundance estimates are
 		available. A large suite of classical, parametric detection
-		functions are included.  Some uncommon (e.g., Gamma, negative
-		exponential) detection functions are also included and users
-		can define their own custom detection functions if needed. One
-		form of non-parametric smoothed distance function is included.
-		The help files and vignettes have been vetted by multiple
-		authors and tested in multiple workshop settings.
+		functions are included along with some uncommon parametric
+		functions (e.g., Gamma, negative exponential) and non-
+		parametric smoothed distance functions. Custom (user-defined)
+		detection functions are easily implemented (see vignette). The
+		help files and vignettes have been vetted by multiple authors
+		and tested in workshop settings.
 	</longdescription>
 </pkgmetadata>
