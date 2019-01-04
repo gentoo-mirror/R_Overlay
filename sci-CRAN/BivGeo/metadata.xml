@@ -3,12 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Basu-Dhar Bivariate Geometric Distribution // Computes the joint
-		probability mass function, the joint cumulative distribution,
-		the correlation coefficient and generate random deviates from
-		the Basu-Dhar bivariate geometric distribution. The package
-		also computes the joint survival function in presence of cure
-		fraction using the mixture model approach (For more details,
-		see Achcar et. al (2016) doi:10.1080/02664763.2015.1117589 and
-		de Oliveira et. al (2018) doi:10.1080/02664763.2018.1495701).
+		probability mass function (pmf), the joint cumulative function
+		(cdf), the joint survival function (sf), the correlation
+		coefficient, the covariance, the cross-factorial moment and
+		generate random deviates for the Basu-Dhar bivariate geometric
+		distribution as well the joint probability mass, cumulative and
+		survival function assuming the presence of a cure fraction
+		given by the standard bivariate mixture cure fraction model.
+		The package also computes the estimators based on the method of
+		moments.
 	</longdescription>
 </pkgmetadata>
