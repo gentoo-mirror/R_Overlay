@@ -3,25 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Track User-Defined Environment Names // Set of functions to keep
-		track of user-defined environment names which cannot be
-		retrieved with the built-in function environmentName. The main
-		function in this package for this purpose has a similar name:
-		environment_name(), which returns the name of the environment
-		given as parameter, be it a system, package, user-defined, or
-		function execution environment. The package also provides
-		additional functionality, the most important ones being: - A
-		function (obj_find()) to search for objects. This function
-		extends the functionality of exists() as follows: objects are
-		searched recursively within all user-defined environments. - A
-		way to get the stack of calling function names
-		(get_fun_calling_chain()), in an easier way than the built-in
-		function sys.call(), which requires further non-intuitive
-		parsing of the output. - A function (get_obj_address()) to
-		retrieve the memory address of an object. This package was
-		inspired by an "R for developers" course given by Andrea Spano
-		from Quantide (http://www.quantide.com/courses-overview/r-for-
-		developers) and by a post by Gabor Grothendieck at the R-Help
-		forum
-		(https://stat.ethz.ch/pipermail/r-help/2010-July/245646.html).
+		track of user-defined environment names (which cannot be
+		retrieved with the built-in function environmentName()). The
+		package also provides functionality to search for objects in
+		environments, deal with function calling chains, and retrieve
+		an object's memory address.
 	</longdescription>
 </pkgmetadata>
