@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variational Approximations for Generalized Additive Models //
+		Fits generalized additive models (GAMs) using a variational
+		approximations (VA) framework. In brief, the VA framework
+		provides a fully or at least closed to fully tractable lower
+		bound approximation to the marginal likelihood of a GAM when it
+		is parameterized as a mixed model (using penalized splines,
+		say). In doing so, the VA framework aims offers both the
+		stability and natural inference tools available in the mixed
+		model approach to GAMs, while achieving computation times
+		comparable to that of using the penalized likelihood approach
+		to GAMs. See Hui et al. (2018)
+		doi:10.1080/01621459.2018.1518235.
+	</longdescription>
+</pkgmetadata>
