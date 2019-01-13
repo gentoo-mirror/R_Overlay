@@ -2,20 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Omnibus Test for Genetic Association Analysis using the Rank
-		Normal Transformation // Implementation of genetic association
-		tests for continuous outcomes utilizing the rank-based inverse
-		normal transformation (INT). For outcomes whose residual
-		distribution is heavily skewed or enriched for outliers, INT-
-		based tests provided valid inference and improved power. The
-		primary contribution is a rank normal omnibus test (RNOmni),
-		which synthesizes two complementary INT-based approaches. In
-		simulations against non-normal phenotypes, the omnibus test
-		controlled the type I error in the absence of genetic
-		associations, and improved power in the presence of genetic
-		associations. Under the same settings, standard linear
-		regression variously failed to control the type I error in the
-		absence of associations, and was underpowered in the presence
-		of associations.
+		Rank Normal Transformation Omnibus Test // Implementation of
+		genetic association tests that incorporate the rank-based
+		inverse normal transformation (INT). These tests are broadly
+		indicated for traits with continuous residual distributions. In
+		the presence of non-normal residuals, INT-based tests robustly
+		control the type I error, whereas standard linear regression
+		may not. Moreover, INT-based tests dominate standard linear
+		regression in terms of power. There are two main strategies for
+		incorporating the INT in association analysis. In direct INT
+		(D-INT), the trait is directly transformed. In indirect INT
+		(I-INT), residuals are formed prior to transformation. Neither
+		D-INT nor I-INT is uniformly most powerful. The INT omnibus
+		test (O-INT) adaptively combines D-INT and I-INT into a single
+		robust and statistically powerful approach.
 	</longdescription>
 </pkgmetadata>
