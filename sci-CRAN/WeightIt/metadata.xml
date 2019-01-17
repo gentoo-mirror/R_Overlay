@@ -11,12 +11,15 @@
 		https://CRAN.R-project.org/package=CBPS for covariate balancing
 		propensity score weighting, 'ebal' (Hainmueller, 2014)
 		https://CRAN.R-project.org/package=ebal for entropy balancing,
-		'sbw' (Zubizarreta, 2015) doi:10.1080/01621459.2015.1023805,
-		and 'ATE' (Haris  Chan, 2015)
+		'optweight' (Greifer, 2018)
+		https://CRAN.R-project.org/package=optweight for optimization-
+		based weights, 'ATE' (Haris  Chan, 2015)
 		https://CRAN.R-project.org/package=ATE for empirical balancing
-		calibration weighting. Also allows for assessment of weights
-		and checking of covariate balance by interfacing directly with
-		'cobalt' (Greifer, 2018)
+		calibration weighting, and SuperLearner (Polley, LeDell,
+		Kenney,  van der Laan, 2018)
+		https://CRAN.R-project.org/package=SuperLearner. Also allows
+		for assessment of weights and checking of covariate balance by
+		interfacing directly with 'cobalt' (Greifer, 2018)
 		https://CRAN.R-project.org/package=cobalt.
 	</longdescription>
 </pkgmetadata>

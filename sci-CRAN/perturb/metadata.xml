@@ -2,10 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tools for evaluating collinearity // "perturb" evaluates
-		collinearity by adding random noise to selected variables.
-		"colldiag" calculates condition numbers and variance
-		decomposition proportions to test for collinearity and uncover
-		its sources.
+		Tools for Evaluating Collinearity // Use the perturb() function
+		to evaluates collinearity by adding random noise to selected
+		variables (Hendrickx  Pelzer 2004). The colldiag function()
+		calculates condition numbers and variance decomposition
+		proportions to test for collinearity and uncover its sources
+		(Belsley 1980).
 	</longdescription>
 </pkgmetadata>
