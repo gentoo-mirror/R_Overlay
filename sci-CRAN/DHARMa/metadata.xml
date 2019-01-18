@@ -7,8 +7,8 @@
 		based approach to create readily interpretable scaled
 		(quantile) residuals for fitted (generalized) linear mixed
 		models. Currently supported are (generalized) linear mixed
-		models from 'lme4' (classes 'lmerMod', 'glmerMod') and
-		'glmmTMB', generalized additive models ('gam' from 'mgcv'),
+		models from 'lme4' (classes 'lmerMod', 'glmerMod'), 'glmmTMB'
+		and 'spaMM', generalized additive models ('gam' from 'mgcv'),
 		'glm' (including 'negbin' from 'MASS', but excluding quasi-
 		distributions) and 'lm' model classes. Moreover, externally
 		created simulations, e.g. posterior predictive simulations from
