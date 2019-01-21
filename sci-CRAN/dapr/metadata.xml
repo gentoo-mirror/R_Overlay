@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'purrr'-Like Apply Functions Over Input Elements // An easy-to-
+		use, dependency-free set of functions for iterating over
+		elements of various input objects. Functions are wrappers
+		around base apply()/lapply()/vapply() functions but designed to
+		have similar functionality to the mapping functions in the
+		'purrr' package https://purrr.tidyverse.org/. Specifically,
+		function names more explicitly communicate the expected class
+		of the output and functions also allow for the convenient
+		shortcut of '~ .x' instead of the more verbose 'function(.x)
+		.x'.
+	</longdescription>
+</pkgmetadata>
