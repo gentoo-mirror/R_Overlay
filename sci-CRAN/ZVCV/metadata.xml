@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Zero-Variance Control Variates // Zero-variance control variates
+		(ZV-CV, Mira et al. (2013) doi:10.1007/s11222-012-9344-6) is a
+		post-processing method to reduce the variance of Monte Carlo
+		estimators of expectations using the derivatives of the log
+		target. Once the derivatives are available, the only additional
+		computational effort is in solving a linear regression problem.
+		Recently, this method has been extended to higher dimensions
+		using regularisation (South et al., 2018 arXiv:1811.05073).
+		This package can be used to easily perform ZV-CV or regularised
+		ZV-CV when a set of samples, derivatives and function
+		evaluations are available. Additional functions for applying
+		ZV-CV to two estimators for the normalising constant of the
+		posterior distribution in Bayesian statistics are also
+		supplied.
+	</longdescription>
+</pkgmetadata>
