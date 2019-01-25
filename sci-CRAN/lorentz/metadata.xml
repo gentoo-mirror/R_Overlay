@@ -2,12 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		The Lorentz Transform in Relativistic Physics // Addition of
-		velocities in special relativity is not straightforward: the
-		parallelogram addition law does not apply because velocity
-		addition is neither commutative nor associative.  This package
-		furnishes functionality to work with Lorentz transforms and the
-		gyrogroup structure of three-velocities.  For general
-		relativity, see the 'schwarzschild' package.
+		The Lorentz Transform in Relativistic Physics // This package
+		furnishes functionality to work with Lorentz transforms in
+		special relativity.  It also implements the gyrogroup structure
+		of three-velocities following Ungar (2006)
+		doi:10.1088/0143-0807/27/3/L02. For general relativity, see the
+		'schwarzschild' package.
 	</longdescription>
 </pkgmetadata>
