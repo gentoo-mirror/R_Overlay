@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tools for Writing MCMC // Simplifies MCMC setup by automatically
+		looping through sampling functions and saving the results.
+		Reduces the memory footprint of running MCMC and saves samples
+		to disk as the chain runs.  Allows samples from the chain to be
+		analyzed while the MCMC is still running.  Provides functions
+		for commonly performed operations such as calculating
+		Metropolis acceptance ratios and creating adaptive Metropolis
+		samplers.  References: Roberts and Rosenthal (2009)
+		doi:10.1198/jcgs.2009.06134.
+	</longdescription>
+</pkgmetadata>

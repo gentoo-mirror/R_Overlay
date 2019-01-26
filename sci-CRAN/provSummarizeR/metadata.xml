@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Summarizes Provenance Related to Inputs and Outputs of a Script
+		or Console Commands // Reads the provenance collected by the
+		'rdt' or 'rdtLite' packages, or other tools providing
+		compatible PROV JSON output created by the execution of a
+		script, and provides a human-readable summary identifying the
+		input and output files, the script used (if any), errors and
+		warnings produced, and the environment in which it was
+		executed.  It can also optionally package all the files into a
+		zip file.  The exact format of the JSON created by 'rdt' and
+		'rdtLite' is described in https://github.com/End-to-end-
+		provenance/ExtendedProvJson. More information about 'rdtLite'
+		and associated tools is available at https://github.com/End-to-
+		end-provenance/ and Barbara Lerner, Emery Boose, and Luis Perez
+		(2018), Using Introspection to Collect Provenance in R,
+		Informatics, doi: 10.3390/informatics5010012.
+	</longdescription>
+</pkgmetadata>
