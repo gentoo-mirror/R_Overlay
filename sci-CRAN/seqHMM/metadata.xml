@@ -12,11 +12,13 @@
 		subjects with one or multiple parallel sequences (channels).
 		External covariates can be added to explain cluster membership
 		in mixture models. The package provides functions for
-		evaluating and comparing models, as well as functions for easy
-		plotting of multichannel sequence data and hidden Markov
+		evaluating and comparing models, as well as functions for
+		visualizing of multichannel sequence data and hidden Markov
 		models. Models are estimated using maximum likelihood via the
 		EM algorithm and/or direct numerical maximization with
 		analytical gradients. All main algorithms are written in C++
-		with support for parallel computation.
+		with support for parallel computation. Documentation is
+		available via several vignettes in this page, and the paper by
+		Helske and Helske (2019, doi:10.18637/jss.v088.i03).
 	</longdescription>
 </pkgmetadata>
