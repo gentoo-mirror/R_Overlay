@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multinomial Mixed Effects Models // mme fit Gaussian Multinomial
+		Multinomial Mixed Effects Models // Fit Gaussian Multinomial
 		mixed-effects models for small area estimation: Model 1, with
-		one random effect in each category of the response variable;
+		one random effect in each category of the response variable
+		(Lopez-Vizcaino,E. et al., 2013) doi:10.1177/1471082X13478873;
 		Model 2, introducing independent time effect; Model 3,
-		introducing correlated time effect. mme calculates analytical
-		and parametric bootstrap MSE estimators.
+		introducing correlated time effect. mme calculates direct and
+		parametric bootstrap MSE estimators (Lopez-Vizcaino,E et al.,
+		2014) doi:10.1111/rssa.12085.
 	</longdescription>
 </pkgmetadata>
