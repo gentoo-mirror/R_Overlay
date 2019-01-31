@@ -15,8 +15,8 @@ DEPEND="sci-BIOC/IRanges
 	>=sci-BIOC/BSgenome-1.25.6
 	sci-BIOC/GenomicRanges
 	sci-BIOC/IRanges
-	sci-BIOC/BSgenome
 	sci-BIOC/GenomicRanges
+	sci-BIOC/BSgenome
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

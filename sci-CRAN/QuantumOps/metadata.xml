@@ -9,11 +9,14 @@
 		quantum operations. Has functionality for the creation of
 		arbitrarily sized kets, bras, matrices and implements quantum
 		gates, inner products, and tensor products. Contains all
-		commonly used quantum gates and can simulate complete or
-		partial measurements of kets. Can simulate the Quantum Fourier
+		commonly used quantum gates, creates arbitrarily controlled
+		versions of all gates, and can simulate complete or partial
+		measurements of kets. Can simulate the Quantum Fourier
 		Transform developed by Shor (1999) and implements Shor's
 		algorithm, factoring numbers up to 21. Implements modular
 		arithmetic commonly found in quantum algorithms and can convert
-		functions into equivalent quantum gates.
+		functions into equivalent quantum gates. Simulates the training
+		of a quantum neural network developed by Schuld (2018) which
+		can classify the MNIST dataset.
 	</longdescription>
 </pkgmetadata>
