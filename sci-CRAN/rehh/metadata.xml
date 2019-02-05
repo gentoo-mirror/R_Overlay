@@ -2,13 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Searching for Footprints of Selection using Haplotype
-		Homozygosity Based Tests // Functions for the detection of
-		footprints of selection on dense SNP data using Extended
-		Homozygosity Haplotype (EHH) based tests. The package includes
-		computation of EHH, iHS (within population) and Rsb or XP-EHH
-		(across pairs of populations) statistics. Various plotting
-		functions are also included to facilitate visualization and
-		interpretation of the results.
+		Searching for Footprints of Selection using "Extended Haplotype
+		Homozygosity" Based Tests // Population genetic data in form of
+		"Single Nucleotide Polymorphisms" (SNPs) is often used to
+		identify genomic regions that have been under recent natural or
+		artificial selection and might provide clues about the
+		molecular mechanisms of adaptation. The concept of an "Extended
+		Haplotype Homozygosity" (EHH), introduced by (Sabeti 2002)
+		doi:10.1038/nature01140, has given rise to several derived
+		statistics designed for whole genome scans. The package
+		provides functions to compute three of these, namely: "iHS"
+		(Voight 2006) doi:10.1371/journal.pbio.0040072 for detecting
+		selection within a single population as well as "Rsb" (Tang
+		2007) doi:10.1371/journal.pbio.0050171 and "XP-EHH" (Sabeti
+		2007) doi:10.1038/nature06250 to detect (differential)
+		selection between two populations. Various plotting functions
+		are also included to facilitate visualization and
+		interpretation of these statistics.
 	</longdescription>
 </pkgmetadata>

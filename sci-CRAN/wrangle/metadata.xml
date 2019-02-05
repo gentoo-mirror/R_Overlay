@@ -11,7 +11,8 @@
 		itemize() give sorted unique combinations of columns, with or
 		without occurrence counts, respectively. Function ignore()
 		drops columns in x that are present in y, and informative()
-		drops columns in x that are entirely NA. Data that have defined
+		drops columns in x that are entirely NA; constant() returns
+		values that are constant, given a key.  Data that have defined
 		unique combinations of grouping values behave more predictably
 		during merge operations.
 	</longdescription>

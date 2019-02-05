@@ -2,12 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Reads 'SPSS' and 'SAS' Files from ASCII Data Files (.txt) and
-		Setup Files (.sps or .sas) // Lets you open an 'SPSS' or 'SAS'
-		data file using a .txt file that has the data and a .sps or
-		.sas file with setup instructions. This will only run in a txt-
-		sps or txt-sas pair in which the setup file contains
-		instructions to open that text file. It will NOT open other
-		text files, .sav, .por, or 'SAS' files.
+		Reads Fixed-Width ASCII Data Files (.txt or .dat) that Have
+		Accompanying Setup Files (.sps or .sas) // Lets you open a
+		fixed-width ASCII file (.txt or .dat) that has an accompanying
+		setup file (.sps or .sas). These file combinations are
+		sometimes referred to as .txt+.sps, .txt+.sas, .dat+.sps, or
+		.dat+.sas. This will only run in a txt-sps or txt-sas pair in
+		which the setup file contains instructions to open that text
+		file. It will NOT open other text files, .sav, .sas, or .por
+		data files.  Fixed-width ASCII files with setup files are
+		common in older (pre-2000) government data.
 	</longdescription>
 </pkgmetadata>
