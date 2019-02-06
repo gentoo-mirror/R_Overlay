@@ -2,8 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Catch, Collect, and Raise Conditions // Simple code to catch,
-		collect, and raise conditions (errors, warnings, messages,
-		etc.) without halting/restarting processes.
+		Taking the Pain Out of Catching and Handling Conditions // R has
+		a unique way of dealing with warnings, errors, messages, and
+		other conditions, but it can often be troublesome to users
+		coming from different programming backgrounds. The purpose of
+		this package is to provide flexible and useful tools for
+		handling R conditions with less hassle. In order to lower the
+		barrier of entry, keep code clean and readable, and reduce the
+		amount of typing required, `catchr` uses a very simple domain-
+		specific language that simplifies things on the front-end. This
+		package aims to maintain a continuous learning curve that lets
+		new users jump straight in to condition-handling, while
+		simultaneously offering depth and complexity for more advanced
+		users.
 	</longdescription>
 </pkgmetadata>
