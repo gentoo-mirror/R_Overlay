@@ -18,12 +18,13 @@
 		methods for the construction of of confidence intervals for the
 		reduced-bias estimates are provided. In the special case of
 		generalized linear models for binomial and multinomial
-		responses, the adjusted score approaches return estimates with
-		improved frequentist properties, that are also always finite,
-		even in cases where the maximum likelihood estimates are
-		infinite (e.g. complete and quasi-complete separation).
-		'brglm2' also provides pre-fit and post-fit methods for
-		detecting separation and infinite maximum likelihood estimates
-		in binomial response generalized linear models.
+		responses (both ordinal and nominal), the adjusted score
+		approaches return estimates with improved frequentist
+		properties, that are also always finite, even in cases where
+		the maximum likelihood estimates are infinite (e.g. complete
+		and quasi-complete separation). 'brglm2' also provides pre-fit
+		and post-fit methods for detecting separation and infinite
+		maximum likelihood estimates in binomial response generalized
+		linear models.
 	</longdescription>
 </pkgmetadata>
