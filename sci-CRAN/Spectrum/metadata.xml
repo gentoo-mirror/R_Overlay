@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Versatile Ultra-Fast Spectral Clustering for Single and Multi-
+		View Data // A versatile ultra-fast spectral clustering method
+		for single or multi-view data. 'Spectrum' uses a new type of
+		adaptive density aware kernel that strengthens local
+		connections in dense regions in the graph. For integrating
+		multi-view data and reducing noise we use a recently developed
+		tensor product graph data integration and diffusion system.
+		'Spectrum' contains two techniques for finding the number of
+		clusters (K); the classical eigengap method and a novel
+		multimodality gap procedure. The multimodality gap analyses the
+		distribution of the eigenvectors of the graph Laplacian to
+		decide K and tune the kernel. 'Spectrum' is suited for
+		clustering a wide range of complex data.
+	</longdescription>
+</pkgmetadata>
