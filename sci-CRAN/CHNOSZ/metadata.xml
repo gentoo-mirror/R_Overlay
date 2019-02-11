@@ -2,18 +2,26 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Thermodynamic Calculations for Geobiochemistry // An integrated
-		set of tools for thermodynamic calculations in geochemistry and
-		compositional biology. Thermodynamic properties are taken from
-		a database for minerals and inorganic and organic aqueous
-		species including biomolecules, or from amino acid group
-		additivity for proteins. High-temperature properties are
-		calculated using the revised Helgeson-Kirkham-Flowers equations
-		of state for aqueous species, and activity coefficients can be
-		calculated for specified ionic strength. Functions are provided
-		to define a system using basis species, automatically balance
-		reactions, calculate the chemical affinities of formation
-		reactions for selected species, calculate equilibrium
-		activities, and plot the results on chemical activity diagrams.
+		Thermodynamic Calculations and Diagrams for Geochemistry // An
+		integrated set of tools for thermodynamic calculations in
+		aqueous geochemistry and geobiochemistry. Functions are
+		provided for writing balanced reactions to form species from
+		user-selected basis species and for calculating the standard
+		molal properties of species and reactions, including the
+		standard Gibbs energy and equilibrium constant. Calculations of
+		the non-equilibrium chemical affinity and equilibrium chemical
+		activity of species can be portrayed on diagrams as a function
+		of temperature, pressure, or activity of basis species; in two
+		dimensions, this gives a maximum affinity or predominance
+		diagram. The diagrams have formatted chemical formulas and axis
+		labels, and water stability limits can be added to Eh-pH,
+		oxygen fugacity- temperature, and other diagrams with a redox
+		variable. The package has been developed to handle common
+		calculations in aqueous geochemistry, such as solubility due to
+		complexation of metal ions, mineral buffers of redox or pH, and
+		changing the basis species across a diagram ("mosaic
+		diagrams"). CHNOSZ also has unique capabilities for comparing
+		the compositional and thermodynamic properties of different
+		proteins.
 	</longdescription>
 </pkgmetadata>
