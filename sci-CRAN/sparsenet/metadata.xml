@@ -2,8 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fit sparse linear regression models via nonconvex optimization //
-		Sparsenet uses the MC+ penalty of Zhang. It computes the
+		Fit Sparse Linear Regression Models via Nonconvex Optimization //
+		Efficient procedure for fitting regularization paths between L1
+		and L0, using the MC+ penalty of Zhang, C.H.
+		(2010)doi:10.1214/09-AOS729. Implements the methodology
+		described in Mazumder, Friedman and Hastie (2011) DOI:
+		10.1198/jasa.2011.tm09738. Sparsenet computes the
 		regularization surface over both the family parameter and the
 		tuning parameter by coordinate descent.
 	</longdescription>
