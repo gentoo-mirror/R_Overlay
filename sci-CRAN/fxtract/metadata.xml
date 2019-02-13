@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Feature Extraction from Grouped Data // An R6 implementation for
+		calculating features from grouped data. The output will be one
+		row for each group. This functionality is often needed in the
+		feature extraction process of machine learning problems. Very
+		large datasets are supported, since data is only read into RAM
+		when needed. Calculation can be done in parallel and the
+		process can be monitored. Global error handling is supported.
+		Results are available in one final dataframe.
+	</longdescription>
+</pkgmetadata>
