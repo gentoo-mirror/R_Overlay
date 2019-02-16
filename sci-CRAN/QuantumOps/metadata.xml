@@ -11,12 +11,13 @@
 		gates, inner products, and tensor products. Contains all
 		commonly used quantum gates, creates arbitrarily controlled
 		versions of all gates, and can simulate complete or partial
-		measurements of kets. Can simulate the Quantum Fourier
-		Transform developed by Shor (1999) and implements Shor's
-		algorithm, factoring numbers up to 21. Implements modular
-		arithmetic commonly found in quantum algorithms and can convert
-		functions into equivalent quantum gates. Simulates the training
-		of a quantum neural network developed by Schuld (2018) which
-		can classify the MNIST dataset.
+		measurements of kets. Implements modular arithmetic commonly
+		found in quantum algorithms and can convert functions into
+		equivalent quantum gates. It can also simulate larger
+		applications, including the Quantum Fourier Transform developed
+		by Shor (1999), Shor's algorithm which factors numbers up to
+		21, Grover's algorithm (1996), and the training of a quantum
+		neural network developed by Schuld (2018) which can classify
+		the MNIST dataset.
 	</longdescription>
 </pkgmetadata>
