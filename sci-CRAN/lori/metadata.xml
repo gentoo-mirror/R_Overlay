@@ -2,10 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Low-Rank Interaction Contingency Tables // Analysis of count data
-		with covariates. LORI uses a log-linear model where main row
-		and column effects are decomposed as regression terms on known
+		Low-Rank Interactions in Count Data with Covariates // Analysis,
+		imputation, and multiple imputation of count data using
+		covariates. LORI uses a log-linear model where main row and
+		column effects are decomposed as regression terms on known
 		covariates. A residual low-rank interaction term is also
-		fitted.
+		fitted. LORI returns estimates of covariate effects and
+		interactions, as well as an imputed count table. The package
+		also contains a multiple imputation procedure.
 	</longdescription>
 </pkgmetadata>
