@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Jump Q-Learning for Individualized Interval-Valued Dose Rule //
+		We provide tools to estimate the individualized interval-valued
+		dose rule (I2DR) that maximizes the expected beneficial
+		clinical outcome for each individual and returns an optimal
+		interval-valued dose, by using the jump Q-learning method. The
+		jump Q-learning method directly models the conditional mean of
+		the response given the dose level and the baseline covariates
+		via jump penalized least squares regression under the framework
+		of Q learning. We develop a searching algorithm by dynamic
+		programming in order to find the optimal I2DR with the time
+		complexity O(n2) and spatial complexity O(n). The outcome of
+		interest includes the best partition of the entire dosage of
+		interest, the regression coefficients of each partition, and
+		the value function under the estimated I2DR as well as the
+		Wald-type confidence interval of value function constructed
+		through the Bootstrap.
+	</longdescription>
+</pkgmetadata>

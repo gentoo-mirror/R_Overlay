@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Exponential Smoothing Models with Trend Modifications //
+		An implementation of a number of Global Trend models for time
+		series forecasting that are Bayesian generalizations and
+		extensions of some Exponential Smoothing models. The main
+		differences/additions include 1) nonlinear global trend, 2)
+		Student-t error distribution, and 3) a function for the error
+		size, so heteroscedasticity. The methods are particularly
+		useful for short time series. When tested on the well-known M3
+		dataset, they are able to outperform all classical time series
+		algorithms. The models are fitted with MCMC using the 'rstan'
+		package.
+	</longdescription>
+</pkgmetadata>

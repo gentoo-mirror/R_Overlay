@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Enrichment for Diseases in a Set of Genes // It provides a list
+		of genes associated to diseases (g2d$clean and g2d$complete)
+		based on the following  4 publications (GS2D, Fontaine (2016)
+		doi:10.18547/gcb.2016.vol2.iss1.e33, DisGeNET, Pinero (2016)
+		doi:10.1093/nar/gkw943 Berto2016, Berto (2016)
+		doi:10.3389/fgene.2016.00031 and  PsyGeNET, Sacristan (2015)
+		doi:10.1093/bioinformatics/btv301). Those lists were combined
+		and manually curated to have matching disease names.  When
+		provided a list of gene names, it calculates the disease
+		enrichment of the gene set. The enrichment is calculated using
+		proportion test and Fisher's exact test. Adjusted fdr p-values
+		are returned alongside with p-values combined using the
+		Fisher's method.
+	</longdescription>
+</pkgmetadata>

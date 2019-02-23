@@ -24,14 +24,14 @@
 		doi:10.18637/jss.v070.i10. For the retrospective analysis of
 		epidemic spread, the package provides three endemic-epidemic
 		modeling frameworks with tools for visualization, likelihood
-		inference, and simulation. 'hhh4' estimates models for
+		inference, and simulation. hhh4() estimates models for
 		(multivariate) count time series following Paul and Held (2011)
 		doi:10.1002/sim.4177 and Meyer and Held (2014)
-		doi:10.1214/14-AOAS743. 'twinSIR' models the susceptible-
+		doi:10.1214/14-AOAS743. twinSIR() models the susceptible-
 		infectious-recovered (SIR) event history of a fixed population,
 		e.g, epidemics across farms or networks, as a multivariate
 		point process as proposed by Hhle (2009)
-		doi:10.1002/bimj.200900050. 'twinstim' estimates self-exciting
+		doi:10.1002/bimj.200900050. twinstim() estimates self-exciting
 		point process models for a spatio-temporal point pattern of
 		infective events, e.g., time-stamped geo-referenced
 		surveillance data, as proposed by Meyer et al. (2012)
