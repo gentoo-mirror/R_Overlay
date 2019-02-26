@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/xtable virtual/nnet >=sci-CRAN/difR-5.0 sci-CRAN/ltm >=sci-CRAN/difNLR-1.2.2 sci-CRAN/deltaPlotR sci-CRAN/msm sci-CRAN/ggdendro sci-CRAN/corrplot sci-CRAN/knitr sci-CRAN/plotly sci-CRAN/gridExtra sci-CRAN/psych sci-CRAN/CTT sci-CRAN/psychometric sci-CRAN/data_table sci-CRAN/rmarkdown >=sci-CRAN/ggplot2-2.2.1 sci-CRAN/cowplot >=sci-CRAN/shiny-1.0.3 >=dev-lang/R-3.1 virtual/lattice sci-CRAN/shinyBS sci-CRAN/reshape2 sci-CRAN/shinydashboard sci-CRAN/moments >=sci-CRAN/mirt-1.24 >=sci-CRAN/shinyjs-0.9 sci-CRAN/DT sci-CRAN/stringr dev-lang/R
+DESCRIPTION=Test and Item Analysis via Shiny
+EAPI=6
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/xtable virtual/nnet >=sci-CRAN/difR-5.0 sci-CRAN/ltm >=sci-CRAN/difNLR-1.2.2 sci-CRAN/deltaPlotR sci-CRAN/msm sci-CRAN/ggdendro sci-CRAN/corrplot sci-CRAN/knitr sci-CRAN/plotly sci-CRAN/gridExtra sci-CRAN/psych sci-CRAN/CTT sci-CRAN/psychometric sci-CRAN/data_table sci-CRAN/rmarkdown >=sci-CRAN/ggplot2-2.2.1 sci-CRAN/cowplot >=sci-CRAN/shiny-1.0.3 >=dev-lang/R-3.1 virtual/lattice sci-CRAN/shinyBS sci-CRAN/reshape2 sci-CRAN/shinydashboard sci-CRAN/moments >=sci-CRAN/mirt-1.24 >=sci-CRAN/shinyjs-0.9 sci-CRAN/DT sci-CRAN/stringr dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ShinyItemAnalysis_1.3.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=9ecd147bfff87c3fbee780abe9d34930

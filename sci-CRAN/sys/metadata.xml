@@ -8,10 +8,6 @@
 		clean interruption, timeout, background tasks, and streaming
 		STDIN / STDOUT / STDERR over binary or text connections.
 		Arguments on Windows automatically get encoded and quoted to
-		work on different locales. On Unix platforms the package also
-		provides functions for evaluating expressions inside a
-		temporary fork. Such evaluations have no side effects on the
-		main R process, and support reliable interrupts and timeouts.
-		This provides the basis for a sandboxing mechanism.
+		work on different locales.
 	</longdescription>
 </pkgmetadata>
