@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Genetic Approach to Maximize Clustering Criterion // An
+		evolutionary approach to performing hard partitional
+		clustering. The algorithm uses genetic operators guided by
+		information about the quality of individual partitions. The
+		method looks for the best barycenters/centroids configuration
+		(encoded as real-value) to maximize or minimize one of the
+		given clustering validation criteria: Silhouette, Dunn Index,
+		C-Index or Calinski-Harabasz Index. As many other clustering
+		algorithms, 'gama' asks for k: a fixed a priori established
+		number of partitions. If the user does not know the best value
+		for k, the algorithm estimates it by using one of two user-
+		specified options: minimum or broad. The first method uses an
+		approximation of the second derivative of a set of points to
+		automatically detect the maximum curvature (the 'elbow') in the
+		within-cluster sum of squares error (WCSSE) graph. The second
+		method estimates the best k value through majority voting of 24
+		indices. One of the major advantages of 'gama' is to introduce
+		a bias to detect partitions which attend a particular
+		criterion. References: Scrucca, L. (2013)
+		doi:10.18637/jss.v053.i04; CHARRAD, Malika et al. (2014)
+		doi:10.18637/jss.v061.i06; Tsagris M, Papadakis M. (2018)
+		doi:10.7287/peerj.preprints.26605v1; Kaufman, L.,  Rousseeuw,
+		P. (1990, ISBN:0-47 1-73578-7).
+	</longdescription>
+</pkgmetadata>
