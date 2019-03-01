@@ -4,8 +4,8 @@
 	<longdescription>
 		Small Count Rounding of Tabular Data // A statistical disclosure
 		control tool to protect frequency tables in cases where small
-		values are sensitive. The function RoundViaDummy() performs
-		small count rounding of necessary inner cells so that all small
+		values are sensitive. The function PLSrounding() performs small
+		count rounding of necessary inner cells so that all small
 		frequencies of cross-classifications to be published
 		(publishable cells) are rounded. This is equivalent to changing
 		micro data since frequencies of unique combinations are
