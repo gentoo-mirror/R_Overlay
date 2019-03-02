@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/ChemoSpecUtils-0.2 sci-CRAN/plyr >=dev-lang/R-3.1 dev-lang/R
+DESCRIPTION=Exploratory Chemometrics for Spectroscopy
+EAPI=6
+IUSE=r_suggests_baseline r_suggests_cluster r_suggests_gsubfn r_suggests_idpmisc r_suggests_jsonlite r_suggests_knitr r_suggests_lattice r_suggests_mass r_suggests_mclust r_suggests_nbclust r_suggests_pcapp r_suggests_pls r_suggests_r_utils r_suggests_rcolorbrewer r_suggests_readjdx r_suggests_rgl r_suggests_robustbase r_suggests_seriation r_suggests_signal r_suggests_speaq r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/ChemoSpecUtils-0.2 sci-CRAN/plyr >=dev-lang/R-3.1 r_suggests_baseline? ( sci-CRAN/baseline ) r_suggests_cluster? ( virtual/cluster ) r_suggests_gsubfn? ( sci-CRAN/gsubfn ) r_suggests_idpmisc? ( sci-CRAN/IDPmisc ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_mass? ( virtual/MASS ) r_suggests_mclust? ( sci-CRAN/mclust ) r_suggests_nbclust? ( sci-CRAN/NbClust ) r_suggests_pcapp? ( sci-CRAN/pcaPP ) r_suggests_pls? ( sci-CRAN/pls ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_readjdx? ( >=sci-CRAN/readJDX-0.3 ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_robustbase? ( sci-CRAN/robustbase ) r_suggests_seriation? ( sci-CRAN/seriation ) r_suggests_signal? ( sci-CRAN/signal ) r_suggests_speaq? ( sci-CRAN/speaq ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ChemoSpec_5.0.229.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=ba25c79e3a4dc4f445529424158bd4be
