@@ -8,6 +8,9 @@
 		handle multiple columns simultaneously. This package enables to
 		select whether a dummy variable for base group is included (for
 		principal component analysis/factor analysis) or excluded (for
-		regression analysis) by an option.
+		regression analysis) by an option. 'makedummies' function
+		accepts 'data.frame', 'matrix', and 'tbl' (tibble) class (by
+		'tibble' package). 'matrix' class data is automatically
+		converted to 'data.frame' class.
 	</longdescription>
 </pkgmetadata>

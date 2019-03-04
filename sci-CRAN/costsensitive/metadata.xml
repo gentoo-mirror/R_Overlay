@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Cost-Sensitive Multi-Class Classification // Reduction-based
+		techniques for cost-sensitive multi-class classification, in
+		which each observation has a different cost for classifying it
+		into one class, and the goal is to predict the class with the
+		minimum expected cost for each new observation. Implements
+		Weighted All-Pairs (Beygelzimer, A., Langford, J.,  Zadrozny,
+		B., 2008, doi:10.1007/978-0-387-79361-0_1), Weighted One-Vs-
+		Rest (Beygelzimer, A., Dani, V., Hayes, T., Langford, J.,
+		Zadrozny, B., 2005, https://dl.acm.org/citation.cfm?id=1102358)
+		and Regression One-Vs-Rest. Works with arbitrary classifiers
+		taking observation weights, or with regressors. Also implements
+		cost-proportionate rejection sampling for working with
+		classifiers that don't accept observation weights.
+	</longdescription>
+</pkgmetadata>
