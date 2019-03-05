@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Equivalence Test for the Means of Two Normal Distributions // Two
+		methods for performing equivalence test for the means of two
+		(test and reference) normal distributions are implemented. The
+		null hypothesis of the equivalence test is that the absolute
+		difference between the two means are greater than or equal to
+		the equivalence margin and the alternative is that the absolute
+		difference is less than the margin. Given that the margin is
+		often difficult to obtain a priori, it is assumed to be a
+		constant multiple of the standard deviation of the reference
+		distribution. The first method assumes a fixed margin which is
+		a constant multiple of the estimated standard deviation of the
+		reference data and whose variability is ignored. The second
+		method takes into account the margin variability. In addition,
+		some tools to summarize and illustrate the data and test
+		results are included to facilitate the evaluation of the data
+		and interpretation of the results.
+	</longdescription>
+</pkgmetadata>
