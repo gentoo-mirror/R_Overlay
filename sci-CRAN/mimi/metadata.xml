@@ -3,14 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Main Effects and Interactions in Mixed and Incomplete Data //
-		Estimation of main effects and interactions in mixed data sets
-		with missing values. Numeric, binary and count variables are
-		supported. Main effects and interactions are modelled using an
-		exponential family parametric model. Particular examples
-		include the log-linear model for count data and the linear
-		model for numeric data. Estimation is done through a convex
-		program where main effects are assumed sparse and the
-		interactions low-rank. Genevive Robin, Olga Klopp, Julie Josse,
-		ric Moulines, Robert Tibshirani (2018) arXiv:1806.09734.
+		Generalized low-rank models for mixed and incomplete data
+		frames. The main function may be used for dimensionality
+		reduction of imputation of numeric, binary and count data
+		(simultaneously). Main effects such as column means, group
+		effects, or effects of row-column side information (e.g.
+		user/item attributes in recommendation system) may also be
+		modelled in addition to the low-rank model. Genevive Robin,
+		Olga Klopp, Julie Josse, ric Moulines, Robert Tibshirani (2018)
+		arXiv:1806.09734.
 	</longdescription>
 </pkgmetadata>

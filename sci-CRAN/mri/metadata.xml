@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Modified Rand and Wallace Indices // Provides modified Rand and
-		Wallace indices for comparing two partitions, which are usually
-		obtained on two different sets of units with a non-empty
-		intercept. Splitting and merging of clusters have a different
-		affects on the value of the indices.
+		Modified Rand and Wallace Indices // It provides functions to
+		compute the values of different modifications of the Rand and
+		Wallace indices. The indices are used to measure the stability
+		or similarity of two partitions obtained on two different sets
+		of units with a non-empty intercept. Splitting and merging of
+		clusters can (depends on the selected index) have a different
+		effect on the value of the indices.  The indices are proposed
+		in Cugmas and Ferligoj (2018) http://ibmi.mf.uni-
+		lj.si/mz/2018/no-1/Cugmas2018.pdf.
 	</longdescription>
 </pkgmetadata>

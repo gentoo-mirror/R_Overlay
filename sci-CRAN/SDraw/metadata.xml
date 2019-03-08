@@ -2,13 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Spatially Balanced Sample Draws for Spatial Objects // Routines
-		for drawing samples, focusing on spatially balanced algorithms.
-		Draws Halton Lattice (HAL), Balanced Acceptance Samples (BAS),
-		Generalized Random Tesselation Stratified (GRTS), Simple
-		Systematic Samples (SSS) and Simple Random Samples (SRS) from
-		point, line, and polygon resources.  Frames are
-		'SpatialPoints', 'SpatialLines', or 'SpatialPolygons' objects
-		from package 'sp'.
+		Spatially Balanced Samples of Spatial Objects // Routines for
+		drawing samples from spatial objects, focused on spatially
+		balanced algorithms. Draws Halton Iterative Partition (HIP)
+		(Robertson et al., 2018; doi:10.1007/s10651-018-0406-6),
+		Balanced Acceptance Samples (BAS) (Robertson et al., 2013;
+		doi:10.1111/biom.12059), Generalized Random Tessellation
+		Stratified (GRTS) (Stevens and Olsen, 2004;
+		doi:10.1198/016214504000000250), Simple Systematic Samples
+		(SSS) and Simple Random Samples (SRS) from point, line, and
+		polygon resources. Frames are 'SpatialPoints', 'SpatialLines',
+		or 'SpatialPolygons' objects from package 'sp'.
 	</longdescription>
 </pkgmetadata>
