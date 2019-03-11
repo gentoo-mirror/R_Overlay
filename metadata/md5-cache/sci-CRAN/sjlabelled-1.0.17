@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/insight sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/purrr >=dev-lang/R-3.2 sci-CRAN/magrittr >=sci-CRAN/haven-1.1.2 dev-lang/R
+DESCRIPTION=Labelled Data Utility Functions
+EAPI=6
+IUSE=r_suggests_glmmtmb r_suggests_hmisc r_suggests_knitr r_suggests_rmarkdown r_suggests_sjmisc r_suggests_sjplot r_suggests_snakecase r_suggests_survey r_suggests_testthat r_suggests_zelig byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/insight sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/purrr >=dev-lang/R-3.2 sci-CRAN/magrittr >=sci-CRAN/haven-1.1.2 r_suggests_glmmtmb? ( sci-CRAN/glmmTMB ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sjmisc? ( sci-CRAN/sjmisc ) r_suggests_sjplot? ( sci-CRAN/sjPlot ) r_suggests_snakecase? ( sci-CRAN/snakecase ) r_suggests_survey? ( sci-CRAN/survey ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_zelig? ( sci-CRAN/Zelig ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sjlabelled_1.0.17.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	b2f01ad412baf81650c23fcf0975fa33	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=eaa477bad899cc4fafd9a5b9aba5bfaa
