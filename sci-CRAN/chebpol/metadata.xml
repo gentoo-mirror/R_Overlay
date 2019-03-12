@@ -3,14 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Multivariate Interpolation // Contains methods for creating
-		multivariate interpolations of functions on a hypercube. If
-		available through fftw3, the DCT-II/FFT is used to compute
-		coefficients for a Chebyshev interpolation. Other interpolation
-		methods for arbitrary Cartesian grids are also provided, a
-		piecewise multilinear, and the Floater-Hormann barycenter
-		method. For scattered data polyharmonic splines with a linear
-		term is provided. The time-critical parts are written in C for
-		speed. All interpolants are parallelized if used to evaluate
-		more than one point.
+		multivariate/multidimensional interpolations of functions on a
+		hypercube. If available through fftw3, the DCT-II/FFT is used
+		to compute coefficients for a Chebyshev interpolation. Other
+		interpolation methods for arbitrary Cartesian grids are also
+		provided, a piecewise multilinear, and the Floater-Hormann
+		barycenter method. For scattered data polyharmonic splines with
+		a linear term is provided. The time-critical parts are written
+		in C for speed. All interpolants are parallelized if used to
+		evaluate more than one point.
 	</longdescription>
 </pkgmetadata>
