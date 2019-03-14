@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Create and Query a Local 'PubTator' Database // 'PubTator'
+		https://www.ncbi.nlm.nih.gov/CBBresearch/Lu/Demo/PubTator/ is a
+		National Center for Biotechnology Information (NCBI) tool that
+		enhances the annotation of articles on PubMed
+		https://www.ncbi.nlm.nih.gov/pubmed/. It makes it possible to
+		rapidly identify potential relationships between genes or
+		proteins using text mining techniques. In contrast, manually
+		searching for and reading the annotated articles would be very
+		time consuming. 'PubTator' offers both an online interface and
+		a RESTful API, however, neither of these approaches are well
+		suited for frequent, high-throughput analyses. The package
+		'pubtatordb' provides a set of functions that make it easy for
+		the average R user to download 'PubTator' annotations, create,
+		and then query a local version of the database.
+	</longdescription>
+</pkgmetadata>
