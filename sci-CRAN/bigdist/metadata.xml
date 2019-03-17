@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Store Distance Matrices on Disk // Provides utilities to compute,
+		store and access distance matrices on disk as file-backed
+		matrices provided by the 'bigstatsr' package. File-backed
+		distance matrices are stored as a symmetric matrix to
+		facilitate out-of-memory operations on file-backed matrix while
+		the in-memory 'dist' object stores only the lower diagonal
+		elements. 'disto' provides an unified interface to work with
+		in-memory and disk-based distance matrices.
+	</longdescription>
+</pkgmetadata>

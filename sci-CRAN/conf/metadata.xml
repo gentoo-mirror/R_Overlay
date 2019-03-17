@@ -18,16 +18,17 @@
 		points at roughly uniform intervals along its boundary. Both
 		heuristics build upon the radial profile log-likelihood ratio
 		technique for plotting confidence regions given by Jaeger
-		(2016) doi:10.1080/00031305.2016.1182946. (2) Performs
-		confidence region coverage simulations for a random sample
-		drawn from a user- specified parametric population
-		distribution, or for a user-specified dataset and point of
-		interest with coversim(). (3) Calculates confidence interval
-		bounds for a binomial proportion with binomTest(), calculates
-		the actual coverage with binomTestCoverage(), and plots the
-		actual coverage with binomTestCoveragePlot(). Calculates
-		confidence interval bounds for the binomial proportion using an
-		ensemble of constituent confidence intervals with
-		binomTestEnsemble().
+		(2016) doi:10.1080/00031305.2016.1182946, and are detailed in a
+		publication by Weld (2019) doi:10.1080/00031305.2018.1564696.
+		(2) Performs confidence region coverage simulations for a
+		random sample drawn from a user- specified parametric
+		population distribution, or for a user-specified dataset and
+		point of interest with coversim(). (3) Calculates confidence
+		interval bounds for a binomial proportion with binomTest(),
+		calculates the actual coverage with binomTestCoverage(), and
+		plots the actual coverage with binomTestCoveragePlot().
+		Calculates confidence interval bounds for the binomial
+		proportion using an ensemble of constituent confidence
+		intervals with binomTestEnsemble().
 	</longdescription>
 </pkgmetadata>
