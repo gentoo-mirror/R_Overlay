@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Plot Raster Images Interactively on a Plain HTML Canvas //
+		Provides methods for plotting potentially large (raster) images
+		interactively on a plain HTML canvas. In contrast to package
+		'mapview' data are plotted without background map, but data can
+		be projected to any spatial coordinate reference system.
+		Supports plotting of classes 'RasterLayer', 'RasterStack',
+		'RasterBrick' (from package 'raster') as well as 'png' files
+		located on disk. Interactivity includes zooming, panning, and
+		mouse location information. In case of multi-layer
+		'RasterStacks' or 'RasterBricks', RGB image plots are created
+		(similar to 'raster::plotRGB' - but interactive).
+	</longdescription>
+</pkgmetadata>
