@@ -2,20 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Cost Constrained FLux Balance Analysis: MetabOlic Modeling with
-		ENzyme kineTics (MOMENT) // An implementation of a cost
-		constrained flux balance analysis technique (i.e. MetabOlic
-		Modeling with ENzyme kineTics (MOMENT)). MOMENT uses enzyme
+		Cost Constrained Flux Balance Analysis (ccFBA): MetabOlic
+		Modeling with ENzyme kineTics (MOMENT) // Different techniques
+		of cost constrained flux balance analysis. 1- MetabOlic
+		Modeling with ENzyme kineTics 'MOMENT' which uses enzyme
 		kinetic data and enzyme molecular weights to constrain flux
 		balance analysis(FBA) and it is described in Adadi, R.,
 		Volkmer, B., Milo, R., Heinemann, M.,  Shlomi, T. (2012).
 		Prediction of Microbial Growth Rate versus Biomass Yield by a
 		Metabolic Network with Kinetic Parameters, 8(7).
-		doi:10.1371/journal.pcbi.1002575. This package also implements
-		an improvement of MOMENT that considers multi-functional
-		enzymes. FBA is a mathematical technique to find fluxes in
-		metabolic models at steady state. It is described in Orth,
-		J.D., Thiele, I. and Palsson, B.O.  What is flux balance
-		analysis? Nat. Biotech. 28, 245-248(2010).
+		doi:10.1371/journal.pcbi.1002575. 2- an improvement of 'MOMENT'
+		that considers multi-functional enzymes 'ccFBA'. Described in
+		Desouki, Abdelmoneim. Algorithms for improving the predictive
+		power of flux balance analysis. PhD dissertation, 2016. FBA is
+		a mathematical technique to find fluxes in metabolic models at
+		steady state. It is described in Orth, J.D., Thiele, I. and
+		Palsson, B.O.  What is flux balance analysis? Nat. Biotech. 28,
+		245-248(2010).
 	</longdescription>
 </pkgmetadata>
