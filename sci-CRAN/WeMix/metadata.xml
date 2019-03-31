@@ -2,9 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Weighted Mixed-Effects Models, using Multilevel Pseudo Maximum
+		Weighted Mixed-Effects Models Using Multilevel Pseudo Maximum
 		Likelihood Estimation // Run mixed-effects models that include
-		weights at every level. The WeMix package fits a Weighted Mixed
+		weights at every level. The WeMix package fits a weighted mixed
 		model, also known as a multilevel, mixed, or hierarchical
 		linear model (HLM). The weights could be inverse selection
 		probabilities, such as those developed for an education survey
@@ -12,6 +12,7 @@
 		inside of those schools are sampled probabilistically. Although
 		mixed-effects models are already available in R, WeMix is
 		unique in implementing methods for mixed models using weights
-		at multiple levels. The model is fit using adaptive quadrature.
+		at multiple levels. Both linear and logit models are supported.
+		Models may have up to three levels.
 	</longdescription>
 </pkgmetadata>

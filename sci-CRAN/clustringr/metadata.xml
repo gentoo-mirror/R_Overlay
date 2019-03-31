@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Cluster Strings by Edit-Distance // Returns an edit-distance
+		based clusterization of an input vector of strings. Each
+		cluster will contain a set of strings w/ small mutual edit-
+		distance (e.g., Levenshtein, optimum-sequence-alignment,
+		Damerau-Levenshtein), as computed by stringdist::stringdist().
+		The set of all mutual edit-distances is then used by graph
+		algorithms (from package 'igraph') to single out subsets of
+		high connectivity.
+	</longdescription>
+</pkgmetadata>
