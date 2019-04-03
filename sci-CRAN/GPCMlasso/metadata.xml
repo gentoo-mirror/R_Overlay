@@ -3,13 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Differential Item Functioning in Generalized Partial Credit
-		Models // Provides a function to detect Differential Item
+		Models // Provides a framework to detect Differential Item
 		Functioning (DIF) in Generalized Partial Credit Models (GPCM)
-		and special cases of the GPCM. A joint model is set up where
-		DIF is explicitly parametrized and penalized likelihood
-		estimation is used for parameter selection. The big advantage
-		of the method called GPCMlasso is that several variables can be
-		treated simultaneously and that both continuous and categorical
-		variables can be used to detect DIF.
+		and special cases of the GPCM as proposed by Schauberger and
+		Mair (2019) doi:10.3758/s13428-019-01224-2. A joint model is
+		set up where DIF is explicitly parametrized and penalized
+		likelihood estimation is used for parameter selection. The big
+		advantage of the method called GPCMlasso is that several
+		variables can be treated simultaneously and that both
+		continuous and categorical variables can be used to detect DIF.
 	</longdescription>
 </pkgmetadata>
