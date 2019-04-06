@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Unbiased Variable Importance for Random Forests // Computes a
+		novel variable importance for random forests: Impurity
+		reduction importance scores for out-of-bag (OOB) data
+		complementing the existing inbag Gini importance, see also
+		Strobl et al (2007) doi:10.1186/1471-2105-8-25, Strobl et al
+		(2007) doi:10.1016/j.csda.2006.12.030 and Breiman (2001)
+		DOI:10.1023/A:1010933404324. The Gini impurities for inbag and
+		OOB data are combined in three different ways, after which the
+		information gain is computed at each split. This gain is
+		aggregated for each split variable in a tree and averaged
+		across trees.
+	</longdescription>
+</pkgmetadata>

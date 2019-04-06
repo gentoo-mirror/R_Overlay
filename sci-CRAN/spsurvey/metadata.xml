@@ -2,9 +2,28 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Spatial Survey Design and Analysis // This group of functions
-		implements algorithms for design and analysis of probability
-		surveys.  The functions are tailored for Generalized Random
-		Tessellation Stratified survey designs.
+		Spatial Survey Design and Analysis // These functions provide
+		procedures for selecting sites for spatial surveys using
+		spatially balanced algorithms applied to discrete points,
+		linear networks, or polygons. The probability survey designs
+		available include independent random samples, stratified random
+		samples, and unequal probability random samples (categorical or
+		probability proportional to size).  Design-based estimation
+		based on the results from surveys is available for estimating
+		totals, means, quantiles, CDFs, and linear models. The analyses
+		rely on package survey for most results.  Variance estimation
+		options include a local neighborhood variance estimator that is
+		appropriate for spatially-balanced survey designs.  A reference
+		for the survey design portion of the package is: D. L. Stevens,
+		Jr. and A. R. Olsen (2004), "Spatially-balanced sampling of
+		natural resources.", Journal of the American Statistical
+		Association 99(465): 262-278, DOI:10.1198/016214504000000250.
+		Additional helpful references for this package are A. R. Olsen,
+		T. M. Kincaid, and Q. Payton (2012) and T. M. Kincaid and A. R.
+		Olsen (2012), both of which are chapters in the book "Design
+		and Analysis of Long-Term Ecological Monitoring Studies" (R. A.
+		Gitzen, J. J. Millspaugh, A. B. Cooper, and D. S. Licht (eds.),
+		Cambridge University Press, New York, Online
+		ISBN:9781139022422).
 	</longdescription>
 </pkgmetadata>
