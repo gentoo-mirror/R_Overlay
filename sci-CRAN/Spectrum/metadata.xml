@@ -6,10 +6,10 @@
 		// A self-tuning spectral clustering method for single or
 		multi-view data. 'Spectrum' uses a new type of adaptive density
 		aware kernel that strengthens local connections in the graph.
-		For integrating multi-view data and reducing noise a tensor
-		product graph data integration and diffusion procedure is used.
+		It uses a tensor product graph data integration and diffusion
+		procedure to integrate different data sources and reduce noise.
 		'Spectrum' analyses eigenvector variance or distribution to
-		determine the number of clusters. 'Spectrum' is well suited for
+		determine the number of clusters. The method is well suited for
 		a wide range of data, including both Gaussian and non-Gaussian
 		structures.
 	</longdescription>

@@ -3,12 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Machine Learning with AdaBoost on Decision Stumps // Creates
-		classifier for binary outcomes using Freund and Schapire's
-		Adaptive Boosting (AdaBoost) algorithm on decision stumps with
-		a fast C++ implementation. This type of classifier is
-		nonlinear, but easy to interpret and visualize. Feature vectors
-		may be a combination of continuous (numeric) and categorical
-		(string, factor) elements. Methods for classifier assessment,
-		predictions, and cross-validation also included.
+		classifier for binary outcomes using Adaptive Boosting
+		(AdaBoost) algorithm on decision stumps with a fast C++
+		implementation. For a description of AdaBoost, see Freund and
+		Schapire (1997) doi:10.1006/jcss.1997.1504. This type of
+		classifier is nonlinear, but easy to interpret and visualize.
+		Feature vectors may be a combination of continuous (numeric)
+		and categorical (string, factor) elements. Methods for
+		classifier assessment, predictions, and cross-validation also
+		included.
 	</longdescription>
 </pkgmetadata>
