@@ -1,0 +1,16 @@
+# Copyright 1999-2019 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Cost-Effectiveness Analysis using Markov Models'
+SRC_URI="http://cran.r-project.org/src/contrib/CEAmarkov_0.1.0.tar.gz"
+LICENSE='GPL-3'
+
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/WHO
+	sci-CRAN/xml2
+"
+RDEPEND="${DEPEND-}"

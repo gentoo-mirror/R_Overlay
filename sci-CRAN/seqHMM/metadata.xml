@@ -2,17 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Hidden Markov Models for Life Sequences and Other Multivariate,
-		Multichannel Categorical Time Series // Designed for fitting
-		hidden (latent) Markov models and mixture hidden Markov models
-		for social sequence data and other categorical time series.
-		Also some more restricted versions of these type of models are
-		available: Markov models, mixture Markov models, and latent
-		class models. The package supports models for one or multiple
-		subjects with one or multiple parallel sequences (channels).
-		External covariates can be added to explain cluster membership
-		in mixture models. The package provides functions for
-		evaluating and comparing models, as well as functions for
+		Mixture Hidden Markov Models for Social Sequence Data and Other
+		Multivariate, Multichannel Categorical Time Series // Designed
+		for fitting hidden (latent) Markov models and mixture hidden
+		Markov models for social sequence data and other categorical
+		time series. Also some more restricted versions of these type
+		of models are available: Markov models, mixture Markov models,
+		and latent class models. The package supports models for one or
+		multiple subjects with one or multiple parallel sequences
+		(channels). External covariates can be added to explain cluster
+		membership in mixture models. The package provides functions
+		for evaluating and comparing models, as well as functions for
 		visualizing of multichannel sequence data and hidden Markov
 		models. Models are estimated using maximum likelihood via the
 		EM algorithm and/or direct numerical maximization with
