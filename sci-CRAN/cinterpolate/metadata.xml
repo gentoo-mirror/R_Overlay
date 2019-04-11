@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interpolation From C // Simple interpolation methods designed to
+		be used from C code. Supports constant, linear and spline
+		interpolation. An R wrapper is included but this package is
+		primarily designed to be used from C code using 'LinkingTo'.
+		The spline calculations are classical cubic interpolation,
+		e.g., Forsythe, Malcolm and Moler (1977) ISBN: 9780131653320.
+	</longdescription>
+</pkgmetadata>
