@@ -5,11 +5,13 @@
 		Mixed-Effect Models, Particularly Spatial Models // Inference
 		based on mixed-effect models, including generalized linear
 		mixed models with spatial correlations and models with non-
-		Gaussian random effects (e.g., Beta). Variation in residual
-		variance (heteroscedasticity) can itself be represented by a
-		generalized linear mixed model. Various approximations of
-		likelihood or restricted likelihood are implemented, in
-		particular h-likelihood (Lee and Nelder 2001
-		doi:10.1093/biomet/88.4.987) and Laplace approximation.
+		Gaussian random effects (e.g., Beta). Both classical
+		geostatistical models, and Markov random field models on
+		irregular grids, can be fitted. Variation in residual variance
+		(heteroscedasticity) can itself be represented by a generalized
+		linear mixed model. Various approximations of likelihood or
+		restricted likelihood are implemented, in particular
+		h-likelihood (Lee and Nelder 2001 doi:10.1093/biomet/88.4.987)
+		and Laplace approximation.
 	</longdescription>
 </pkgmetadata>
