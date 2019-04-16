@@ -5,20 +5,18 @@
 		Calculate and Scale Moran's I // Provides a scaling method to
 		obtain a standardized Moran's I measure. Moran's I is a measure
 		for the spatial autocorrelation of a data set, it gives a
-		measure of similarity between data and its surrounding.
-		Researchers calculate Moran's I to express the spatial
-		autocorrelation of their data. The range of this value must be
-		[-1,1], but this does not happen in practice. This package
-		scale the Moran's I value and map it into the theoretical range
-		of [-1,1]. Once the Moran's I value is rescaled, it facilitates
-		the comparison between projects, for instance, a researcher can
-		calculate Moran's I in a city in China, with a sample size of
-		n1 and area of interest a1. Another researcher runs a similar
-		experiment in a city in Mexico with different sample size, n2,
-		and an area of interest a2. Due to the differences between the
-		conditions, it is not possible to compare Moran's I in a
-		straightforward way. In this version of the package, the
-		spatial autocorrelation Moran's I is calculated as proposed in
-		Chen(2009) arXiv:1606.03658.
+		measure of similarity between data and its surrounding. The
+		range of this value must be [-1,1], but this does not happen in
+		practice. This package scale the Moran's I value and map it
+		into the theoretical range of [-1,1]. Once the Moran's I value
+		is rescaled, it facilitates the comparison between projects,
+		for instance, a researcher can calculate Moran's I in a city in
+		China, with a sample size of n1 and area of interest a1.
+		Another researcher runs a similar experiment in a city in
+		Mexico with different sample size, n2, and an area of interest
+		a2. Due to the differences between the conditions, it is not
+		possible to compare Moran's I in a straightforward way. In this
+		version of the package, the spatial autocorrelation Moran's I
+		is calculated as proposed in Chen(2009) arXiv:1606.03658.
 	</longdescription>
 </pkgmetadata>
