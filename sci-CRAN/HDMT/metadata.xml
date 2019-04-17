@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Multiple Testing Procedure for High-Dimensional Mediation
+		Hypotheses // A multiple-testing procedure for high-dimensional
+		mediation hypotheses. Mediation analysis is of rising interest
+		in epidemiology and clinical trials. Among existing methods for
+		mediation analyses, the popular joint significance (JS) test
+		yields an overly conservative type I error rate and therefore
+		low power. In the R package 'HDMT' we implement a multiple-
+		testing procedure that accurately controls the family-wise
+		error rate (FWER) and the false discovery rate (FDR) when using
+		JS for testing high-dimensional mediation hypotheses. The core
+		of our procedure is based on estimating the proportions of
+		three component null hypotheses and deriving the corresponding
+		mixture distribution of null p-values. Results of the data
+		examples include better-behaved quantile-quantile plots and
+		improved detection of novel mediation relationships on the role
+		of DNA methylation in genetic regulation of gene expression.
+		With increasing interest in mediation by molecular
+		intermediaries such as gene expression and epigenetic markers,
+		the proposed method addresses an unmet methodological
+		challenge.
+	</longdescription>
+</pkgmetadata>
