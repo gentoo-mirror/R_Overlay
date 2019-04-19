@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Verbal Autopsy Data Transform for Use with Various Coding
+		Verbal Autopsy Data Transformation for InSilicoVA and InterVA5
 		Algorithms // Enables transformation of Verbal Autopsy data
 		collected with the WHO 2016 questionnaire (versions 1.4.1
-		1.5.1) for automated coding of Cause of Death using different
-		computer algorithms. Currently supports user-supplied mappings,
-		and provides unvalidated, experimental-stage mapping
-		definitions to transform to InterVA4, InterVA5, Tariff 2, and
-		InSilicoVA. This package is made available by WHO, in
-		collaboration with the Swiss Tropical and Public Health
-		Institute and the Bloomberg Data for Health Initiative.
+		1.5.1) or the WHO 2014 questionnaire for automated coding of
+		Cause of Death using the InSilicoVA (data.type = "WHO2016") and
+		InterVA5 algorithms. Previous versions of this package
+		supported user-supplied mappings (via the map_records
+		function), but this functionality has been removed.  This
+		package is made available by WHO and the Bloomberg Data for
+		Health Initiative.
 	</longdescription>
 </pkgmetadata>
