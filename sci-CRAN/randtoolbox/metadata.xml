@@ -2,20 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Toolbox for Pseudo and Quasi Random Number Generation and RNG
-		Tests // Provides (1) pseudo random generators - general linear
-		congruential generators, multiple recursive generators and
-		generalized feedback shift register (SF-Mersenne Twister
-		algorithm and WELL generators); (2) quasi random generators -
-		the Torus algorithm, the Sobol sequence, the Halton sequence
-		(including the Van der Corput sequence) and (3) some RNG tests
-		- the gap test, the serial test, the poker test. The package
-		depends on rngWELL package but it can be provided without this
-		dependency on demand to the maintainer. For true random number
-		generation, use the 'random' package, for Latin Hypercube
-		Sampling (a hybrid QMC method), use the 'lhs' package. A number
-		of RNGs and tests for RNGs are also provided by 'RDieHarder',
-		all available on CRAN. There is also a small stand-alone
-		package 'rngwell19937' for the WELL19937a RNG.
+		Toolbox for Pseudo and Quasi Random Number Generation and Random
+		Generator Tests // Provides (1) pseudo random generators -
+		general linear congruential generators, multiple recursive
+		generators and generalized feedback shift register (SF-Mersenne
+		Twister algorithm and WELL generators); (2) quasi random
+		generators - the Torus algorithm, the Sobol sequence, the
+		Halton sequence (including the Van der Corput sequence) and (3)
+		some generator tests - the gap test, the serial test, the poker
+		test. See e.g. Gentle (2003) doi:10.1007/b97336. The package
+		can be provided without the rngWELL dependency on demand. Take
+		a look at the Distribution task view of types and tests of
+		random number generators. Version in Memoriam of Diethelm and
+		Barbara Wuertz.
 	</longdescription>
 </pkgmetadata>
