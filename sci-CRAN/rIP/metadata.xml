@@ -2,19 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Detects Fraud in Online Surveys by Tracing and Scoring IP
-		Addresses // Takes as its input an array of IP addresses and
-		the user's X-Key, passes these to https://iphub.info/, and
-		returns a dataframe with the ip (used for merging), country
-		code, country name, asn, isp, block, and hostname. Especially
-		important in this is the variable "block", which gives a score
-		indicating whether the IP address is likely from a server farm
-		and should be excluded from the data. It is codes 0 if the IP
-		is residential/unclassified (i.e. safe IP), 1 if the IP is non-
-		residential IP (hostping provider, proxy, etc. -- should likely
-		be excluded), and 2 for non-residential and residential IPs
-		(more stringent, may flag innocent respondents). The
-		recommendation from https://iphub.info/ is to block or exclude
-		those who score block = 1.
+		Detects Fraud in Online Surveys by Tracing, Scoring, and
+		Visualizing IP Addresses // Takes an array of IPs and the keys
+		for the services the user wishes to use (IP Hub, IP Intel, and
+		Proxycheck), and passes these to all respective APIs. Returns a
+		dataframe with the IP addresses (used for merging), country,
+		ISP, labels for non-US IP Addresses, VPS use, and
+		recommendations for blocking. The package also provides
+		optional visualization tools for checking the distributions.
 	</longdescription>
 </pkgmetadata>
