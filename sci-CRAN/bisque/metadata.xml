@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Approximate Bayesian Inference via Sparse Grid Quadrature
+		Evaluation (BISQuE) for Hierarchical Models // Implementation
+		of the 'bisque' strategy for approximate Bayesian posterior
+		inference.  See Hewitt and Hoeting (2019) arXiv:1904.07270 for
+		complete details.  'bisque' combines conditioning with sparse
+		grid quadrature rules to approximate marginal posterior
+		quantities of hierarchical Bayesian models.  The resulting
+		approximations are computationally efficient for many
+		hierarchical Bayesian models.  The 'bisque' package allows
+		approximate posterior inference for custom models; users only
+		need to specify the conditional densities required for the
+		approximation.
+	</longdescription>
+</pkgmetadata>
