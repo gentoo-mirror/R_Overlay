@@ -9,6 +9,7 @@
 		encode() and decode() perform interconversion, while codes()
 		and decodes() extract components of an encoding. The function
 		encoded() checks whether something is interpretable as an
-		encoding.
+		encoding. If a vector has an encoded 'guide' attribute,
+		as_factor() uses it to coerce to factor.
 	</longdescription>
 </pkgmetadata>

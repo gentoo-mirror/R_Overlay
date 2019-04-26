@@ -35,6 +35,13 @@
 		fitted by the tps() function in the 'osDesign' package. Power
 		results as well as the relationship between the correlate of
 		risk effect size and treatment efficacy can be visualized using
-		various plotting functions.
+		various plotting functions. To link power calculations for
+		detecting a correlate of risk and a correlate of treatment
+		efficacy, a baseline immunogenicity predictor (BIP) can be
+		simulated according to a specified classification rule (for
+		dichotomous or trichotomous BIPs) or correlation with the
+		biomarker response (for continuous BIPs), then outputted along
+		with biomarker response data under assignment to treatment, and
+		clinical endpoint data for both treatment and placebo groups.
 	</longdescription>
 </pkgmetadata>
