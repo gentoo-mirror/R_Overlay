@@ -7,10 +7,13 @@
 		sources, along with associated color metadata. The package also
 		provides related helper functions for mapping among the
 		different Lego color naming conventions and between Lego
-		colors, hex colors, and 'R' color names. The functions include
-		nearest color matching based on Euclidean distance in RGB
-		space. Naming conventions for color mapping include those from
-		'BrickLink' (https://www.bricklink.com), 'The Lego Group'
+		colors, hex colors, and 'R' color names, making it easy to
+		convert any color palette to one based on existing Lego colors
+		while keeping as close to the original color palette as
+		possible. The functions use nearest color matching based on
+		Euclidean distance in RGB space. Naming conventions for color
+		mapping include those from 'BrickLink'
+		(https://www.bricklink.com), 'The Lego Group'
 		(https://www.lego.com), 'LDraw' (https://www.ldraw.org/), and
 		'Peeron' (http://www.peeron.com/).
 	</longdescription>
