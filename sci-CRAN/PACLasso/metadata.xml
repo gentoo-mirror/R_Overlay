@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Penalized and Constrained Lasso Optimization // An implementation
+		of both the equality and inequality constrained lasso functions
+		for the algorithm described in "Penalized and Constrained
+		Optimization" by James, Paulson, and Rusmevichientong (Journal
+		of the American Statistical Association, 2019; see http://www-
+		bcf.usc.edu/~gareth/research/PAC.pdf for a full-text version of
+		the paper). The algorithm here is designed to allow users to
+		define linear constraints (either equality or inequality
+		constraints) and use a penalized regression approach to solve
+		the constrained problem. The functions here are used
+		specifically for constraints with the lasso formulation, but
+		the method described in the PaC paper can be used for a variety
+		of scenarios. In addition to the simple examples included here
+		with the corresponding functions, complete code to entirely
+		reproduce the results of the paper is available online through
+		the Journal of the American Statistical Association.
+	</longdescription>
+</pkgmetadata>
