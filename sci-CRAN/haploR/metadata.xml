@@ -2,12 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Query 'HaploReg', 'RegulomeDB', 'LDlink' // A set of utilities
-		for querying 'HaploReg' http://archive.broadinstitute.org/mamma
-		ls/haploreg/haploreg.php, 'RegulomeDB'
-		http://www.regulomedb.org, and LDlink
-		https://analysistools.nci.nih.gov/LDlink web-based tools. The
-		package connects to 'HaploReg', 'RegulomeDB' and 'LDlink',
+		Query 'HaploReg', 'RegulomeDB' // A set of utilities for querying
+		'HaploReg' http://archive.broadinstitute.org/mammals/haploreg/h
+		aploreg.php, 'RegulomeDB' http://www.regulomedb.org web-based
+		tools. The package connects to 'HaploReg', 'RegulomeDB'
 		searches and downloads results, without opening web pages,
 		directly from R environment. Results are stored in a data frame
 		that can be directly used in various kinds of downstream
