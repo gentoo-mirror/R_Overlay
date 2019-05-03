@@ -2,14 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Inverse Probability Weighting Estimation of Average Treatment
-		Effect with Outcome Misclassification // An implementation of
-		the correction methods proposed by Shu and Yi (2017)
+		Inverse Probability Weighted Estimation of Average Treatment
+		Effect with Misclassified Binary Outcome // An implementation
+		of the correction methods proposed by Shu and Yi (2017)
 		doi:10.1177/0962280217743777 for the inverse probability
-		weighting (IPW) estimation of average treatment effect (ATE)
-		with misclassified outcomes. Logistic regression model is
-		assumed for treatment model for all implemented correction
+		weighted (IPW) estimation of average treatment effect (ATE)
+		with misclassified binary outcomes. Logistic regression model
+		is assumed for treatment model for all implemented correction
 		methods, and is assumed for the outcome model for the
-		implemented doubly robust correction method.
+		implemented doubly robust correction method. Misclassification
+		probability given a true value of the outcome is assumed to be
+		the same for all individuals.
 	</longdescription>
 </pkgmetadata>

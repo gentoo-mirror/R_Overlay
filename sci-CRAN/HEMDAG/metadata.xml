@@ -3,18 +3,23 @@
 <pkgmetadata>
 	<longdescription>
 		Hierarchical Ensemble Methods for Directed Acyclic Graphs // An
-		implementation of Hierarchical Ensemble Methods for Directed
-		Acyclic Graphs (DAGs). The 'HEMDAG' package can be used to
-		enhance the predictions of virtually any flat learning methods,
-		by taking into account the hierarchical nature of the classes
-		of a bio-ontology. 'HEMDAG' is specifically designed for
+		implementation of several Hierarchical Ensemble Methods (HEMs)
+		for Directed Acyclic Graphs (DAGs). 'HEMDAG' package: 1)
+		reconciles flat predictions with the topology of the ontology;
+		2) can enhance predictions of virtually any flat learning
+		methods by taking into account the hierarchical relationships
+		between ontology classes; 3) always provides biologically
+		consistent predictions according to the hierarchical nature of
+		the ontology classes; 4) is specifically designed for
 		exploiting the hierarchical relationships of DAG-structured
 		taxonomies, such as the Human Phenotype Ontology (HPO) or the
-		Gene Ontology (GO), but it can be also safely applied to tree-
-		structured taxonomies (as FunCat), since trees are DAGs.
-		'HEMDAG' scale nicely both in terms of the complexity of the
-		taxonomy and in the cardinality of the examples. (Marco Notaro,
-		Max Schubach, Peter N. Robinson and Giorgio Valentini (2017)
-		doi:10.1186/s12859-017-1854-y).
+		Gene Ontology (GO), but can be safely applied to tree-
+		structured taxonomies as well (e.g. FunCat), since trees are
+		DAGs; 5) scales nicely both in terms of the complexity of the
+		taxonomy and in the cardinality of the examples; 6) provides
+		several utility functions to process and analyze graphs; 7)
+		provides several performance metrics to evaluate HEMs
+		algorithms. (Marco Notaro, Max Schubach, Peter N. Robinson and
+		Giorgio Valentini (2017) doi:10.1186/s12859-017-1854-y).
 	</longdescription>
 </pkgmetadata>
