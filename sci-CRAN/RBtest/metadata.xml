@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regression-Based Approach for Testing the Type of Missing Data //
+		The regression-based (RB) approach is a method to test the
+		missing data mechanism. This package contains two functions
+		that test the type of missing data (Missing Completely At
+		Random vs Missing At Random) on the basis of the RB approach.
+		The first function applies the RB approach independently on
+		each variable with missing data, using the completely observed
+		variables only. The second function tests the missing data
+		mechanism globally (on all variables with missing data) with
+		the use of all available information. The algorithm is adapted
+		both to continuous and categorical data.
+	</longdescription>
+</pkgmetadata>
