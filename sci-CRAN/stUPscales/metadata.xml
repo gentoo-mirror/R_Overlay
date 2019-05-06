@@ -11,18 +11,19 @@
 		spatio-temporal domains. We implement the tool for uncertainty
 		propagation in environmental modelling, with examples in the
 		urban water domain. The functionalities of the class setup and
-		the methods and functions MC.setup, MC.sim, MC.analysis and
-		Agg.t are contained, which are used for setting up, running and
-		analysing Monte Carlo uncertainty propagation simulations, and
-		for spatio-temporal aggregation. We also implement
-		functionalities to model and predict variables that vary in
-		space and time. stUPscales takes uncertainty characterisation
-		and propagation a step further by including temporal and
-		spatio-temporal auto- and cross-correlation, resulting in more
-		realistic (spatio-)temporal series of environmental variables.
-		Due to its modularity, the package allows the implementation of
-		additional methods and functions for spatio-temporal
-		disaggregation of model inputs and outputs, when linking models
-		across multiple space-time scales.
+		the methods and functions MC.setup, MC.sim, MC.analysis,
+		MC.analysis_generic and Agg.t are contained, which are used for
+		setting up, running and analysing Monte Carlo uncertainty
+		propagation simulations, and for spatio-temporal aggregation.
+		We also implement functionalities to model and predict
+		variables that vary in space and time. stUPscales takes
+		uncertainty characterisation and propagation a step further by
+		including temporal and spatio-temporal auto- and cross-
+		correlation, resulting in more realistic (spatio-)temporal
+		series of environmental variables. Due to its modularity, the
+		package allows the implementation of additional methods and
+		functions for spatio-temporal disaggregation of model inputs
+		and outputs, when linking models across multiple space-time
+		scales.
 	</longdescription>
 </pkgmetadata>
