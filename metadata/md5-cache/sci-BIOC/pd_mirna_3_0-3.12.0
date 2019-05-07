@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst prepare unpack
-DEPEND=>=sci-BIOC/Biostrings-2.35.12 >=sci-BIOC/IRanges-2.1.43 >=sci-BIOC/S4Vectors-0.5.22 >=sci-BIOC/oligo-1.31.5 >=sci-CRAN/RSQLite-1.0.0 virtual/class >=dev-lang/R-3.2.0 >=sci-CRAN/DBI-0.3.1 dev-lang/R
+DEPEND=>=sci-BIOC/Biostrings-2.35.12 >=sci-BIOC/S4Vectors-0.5.22 >=sci-BIOC/oligo-1.31.5 >=sci-CRAN/DBI-0.3.1 >=sci-CRAN/RSQLite-1.0.0 virtual/class >=sci-BIOC/IRanges-2.1.43 >=dev-lang/R-3.2.0 dev-lang/R
 DESCRIPTION=Platform Design Info for Affymetrix miRNA-3_0
 EAPI=6
 IUSE=byte-compile
 KEYWORDS=~amd64 ~x86
 LICENSE=Artistic-2
-RDEPEND=>=sci-BIOC/Biostrings-2.35.12 >=sci-BIOC/IRanges-2.1.43 >=sci-BIOC/S4Vectors-0.5.22 >=sci-BIOC/oligo-1.31.5 >=sci-CRAN/RSQLite-1.0.0 virtual/class >=dev-lang/R-3.2.0 >=sci-CRAN/DBI-0.3.1 dev-lang/R
+RDEPEND=>=sci-BIOC/Biostrings-2.35.12 >=sci-BIOC/S4Vectors-0.5.22 >=sci-BIOC/oligo-1.31.5 >=sci-CRAN/DBI-0.3.1 >=sci-CRAN/RSQLite-1.0.0 virtual/class >=sci-BIOC/IRanges-2.1.43 >=dev-lang/R-3.2.0 dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/pd.mirna.3.0_3.12.0.tar.gz
 _eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=1f03730ba6136fd8db40c4e79db67824
+_md5_=5fc9978ada9d6427c4be66c0252652a8

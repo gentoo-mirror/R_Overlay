@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.2
 	sci-BIOC/GenomicRanges
-	sci-BIOC/VariantAnnotation
 	sci-BIOC/SummarizedExperiment
+	sci-BIOC/VariantAnnotation
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
