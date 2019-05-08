@@ -15,11 +15,11 @@
 		like chordal or unit interval graphs. In fact, the SFS
 		seriation algorithm implemented in this package is a multisweep
 		algorithm, which consists in repeating a finite number of SFS
-		iterations (at most \eqn{n} sweeps for a matrix of size
-		\eqn{n}). If the data matrix has a Robinsonian structure, then
-		the ranking returned by the multistep SFS algorithm is a
-		Robinson ordering of the input matrix. Otherwise the algorithm
-		can be used as a heuristic to return a ranking partially
-		satisfying the Robinson property.
+		iterations (at most n sweeps for a matrix of size n). If the
+		data matrix has a Robinsonian structure, then the ranking
+		returned by the multistep SFS algorithm is a Robinson ordering
+		of the input matrix. Otherwise the algorithm can be used as a
+		heuristic to return a ranking partially satisfying the Robinson
+		property.
 	</longdescription>
 </pkgmetadata>
