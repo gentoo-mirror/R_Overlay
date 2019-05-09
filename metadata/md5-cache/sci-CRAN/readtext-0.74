@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/antiword sci-CRAN/digest sci-CRAN/data_table sci-CRAN/httr >=sci-CRAN/jsonlite-0.9.10 sci-CRAN/xml2 sci-CRAN/readxl sci-CRAN/striprtf >=dev-lang/R-3.1 sci-CRAN/tibble sci-CRAN/streamR sci-CRAN/readODS sci-CRAN/pdftools sci-CRAN/stringi dev-lang/R
+DESCRIPTION=Import and Handling for Plain an... (see metadata)
+EAPI=6
+IUSE=r_suggests_knitr r_suggests_pkgload r_suggests_quanteda r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/antiword sci-CRAN/digest sci-CRAN/data_table sci-CRAN/httr >=sci-CRAN/jsonlite-0.9.10 sci-CRAN/xml2 sci-CRAN/readxl sci-CRAN/striprtf >=dev-lang/R-3.1 sci-CRAN/tibble sci-CRAN/streamR sci-CRAN/readODS sci-CRAN/pdftools sci-CRAN/stringi r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pkgload? ( sci-CRAN/pkgload ) r_suggests_quanteda? ( >=sci-CRAN/quanteda-1.1.0 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/readtext_0.74.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=6d3a7983eddc4d12c0d525ff5a1a81c0

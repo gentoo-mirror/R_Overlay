@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Set Operations for Many Sets // Set operations for many sets. The
+		base functions for set operations in R are good for only two
+		sets. This package uses 'purrr' to find the union, intersection
+		and difference of three or more sets. Further, based on
+		'ggplot2' and 'ggforce', Venn diagram can be drawn for two or
+		three sets (Venn diagrams with four or more sets are terrible,
+		please use 'UpSet' if you have lots of sets). Finally,
+		enrichment test can be applied to two sets whether an overlap
+		is statistically significant or not.
+	</longdescription>
+</pkgmetadata>
