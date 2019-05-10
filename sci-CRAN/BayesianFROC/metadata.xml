@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		FROC Analysis by Bayesian Approaches // For details please see
+		vignettes in this package. This package aims to provide new
+		methods for the so-called Free-response Receiver Operating
+		Characteristic (FROC) analysis. The ultimate aim of FROC
+		analysis is to compare observer performances, which means
+		comparing characteristics, such as area under the curve (AUC)
+		or figure of merit (FOM). In this package, we only use the
+		notion of AUC for modality comparison. In the radiological FROC
+		context, by a word modality we mean imaging methods such as
+		Magnetic Resonance Imaging (MRI), Computed Tomography
+		(CT),Positron Emission Tomography (PET). So there is a problem
+		that which imaging method is better to detect the lesions from
+		shadows in radiographs. To solve the modality comparison
+		issues, this package provides the new methods using
+		hierarchical Bayesian models proposed by the author of this
+		package. Using this package, one can obtain at least one
+		conclusion that which imaging methods are better for finding
+		lesions in radiographs with the case of your data. Fitting FROC
+		statistical models is sometimes not so good, it can easily
+		confirm by drawing FROC curves and comparing the curves and the
+		points constructed by False Positive fractions (FPFs) and True
+		Positive Fractions (TPFs), we can validate the goodness of fit
+		intuitively. Such validation is also implemented by the Chi
+		square goodness of fit statistics in the Bayesian context in
+		which the parameter is not deterministic, thus by integrating
+		it with the posterior predictive measure, we get a desired
+		value. To compare each imaging methods, i.e., modalities,  we
+		evaluate the AUC for each modality which gives us a comparison
+		of modalities. FROC is developed by Dev Chakraborty, his FROC
+		model in 1989 paper relies on the maximal likelihood
+		methodology. In this package, I modified and provided the
+		alternative Bayesian FROC model. Strictly speaking, his model
+		does not coincide with models in this package. I hope that
+		medical researchers use not only the frequentist method but
+		also alternative Bayesian methods. In medical research, many
+		problems are considered under only frequentist methods, such as
+		the notion of p-values. But p-value is sometimes misunderstood.
+		Bayesian methods provide very simple, direct, intuitive answer
+		for research questions. To know how to use this package, please
+		execute the following codes from the R (R studio) console,
+		demo(demo_MRMC,package="BayesianFROC"); demo(demo_srsc,
+		package="BayesianFROC"); demo(demo_stan, package =
+		"BayesianFROC"); demo(demo_drawcurves_srsc,
+		package="BayesianFROC"); demo_Bayesian_FROC(). References: Dev
+		Chakraborty (1989) doi:10.1118/1.596358 Maximum likelihood
+		analysis of free - response receiver operating characteristic
+		(FROC) data. Pre-print: Issei Tsunoda; Bayesian Models for
+		free-response receiver operating characteristic analysis.
+		Combining frequentist methods with Bayesian methods, we can
+		obtain more reliable answer for research questions.
+	</longdescription>
+</pkgmetadata>
