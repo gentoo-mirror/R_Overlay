@@ -11,12 +11,12 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_biostrings"
 R_SUGGESTS="r_suggests_biostrings? ( sci-BIOC/Biostrings )"
-DEPEND="sci-BIOC/GenomicRanges
-	sci-BIOC/IRanges
-	>=sci-BIOC/BSgenome-1.25.6
+DEPEND="sci-BIOC/IRanges
+	sci-BIOC/GenomicRanges
 	sci-BIOC/IRanges
 	sci-BIOC/GenomicRanges
 	sci-BIOC/BSgenome
+	>=sci-BIOC/BSgenome-1.25.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 
