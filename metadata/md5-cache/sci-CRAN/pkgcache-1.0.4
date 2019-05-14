@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/rappdirs sci-CRAN/assertthat sci-CRAN/R6 sci-CRAN/rematch2 sci-CRAN/filelock sci-CRAN/uuid sci-CRAN/digest >=sci-CRAN/curl-3.2 sci-CRAN/prettyunits sci-CRAN/tibble sci-CRAN/rlang sci-CRAN/glue sci-CRAN/withr sci-CRAN/crayon sci-CRAN/cliapp >=dev-lang/R-3.1 sci-CRAN/cli dev-lang/R
+DESCRIPTION=Cache CRAN-Like Metadata and R Packages
+EAPI=6
+IUSE=r_suggests_callr r_suggests_covr r_suggests_debugme r_suggests_desc r_suggests_fs r_suggests_jsonlite r_suggests_mockery r_suggests_pingr r_suggests_rprojroot r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/rappdirs sci-CRAN/assertthat sci-CRAN/R6 sci-CRAN/rematch2 sci-CRAN/filelock sci-CRAN/uuid sci-CRAN/digest >=sci-CRAN/curl-3.2 sci-CRAN/prettyunits sci-CRAN/tibble sci-CRAN/rlang sci-CRAN/glue sci-CRAN/withr sci-CRAN/crayon sci-CRAN/cliapp >=dev-lang/R-3.1 sci-CRAN/cli r_suggests_callr? ( sci-CRAN/callr ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_debugme? ( sci-CRAN/debugme ) r_suggests_desc? ( sci-CRAN/desc ) r_suggests_fs? ( sci-CRAN/fs ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_pingr? ( sci-CRAN/pingr ) r_suggests_rprojroot? ( sci-CRAN/rprojroot ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pkgcache_1.0.4.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=d298024b49a309b2786ef5e574af39eb
