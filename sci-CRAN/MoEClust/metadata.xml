@@ -2,14 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Gaussian Parsimonious Clustering Models with Covariates //
-		Clustering via parsimonious Gaussian Mixtures of Experts using
-		the MoEClust models introduced by Murphy and Murphy (2017)
-		arXiv:1711.05632. This package fits finite Gaussian mixture
-		models with a formula interface for supplying gating and/or
-		expert network covariates using a range of parsimonious
-		covariance parameterisations via the EM/CEM algorithm.
-		Visualisation of the results of such models using generalised
-		pairs plots is also facilitated.
+		Gaussian Parsimonious Clustering Models with Covariates and a
+		Noise Component // Clustering via parsimonious Gaussian
+		Mixtures of Experts using the MoEClust models introduced by
+		Murphy and Murphy (2018) arXiv:1711.05632. This package fits
+		finite Gaussian mixture models with a formula interface for
+		supplying gating and/or expert network covariates using a range
+		of parsimonious covariance parameterisations from the GPCM
+		family via the EM/CEM algorithm. Visualisation of the results
+		of such models using generalised pairs plots and the inclusion
+		of an additional noise component is also facilitated.
 	</longdescription>
 </pkgmetadata>

@@ -3,14 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Aids in Processing and Plotting Data from a Lemna-Tec
-		Scananalyzer // Extracts traits from imaging data produced
-		using a Lemna-Tec Scananalyzer (see
-		http://www.lemnatec.com/products/hardware-solutions/scanalyzer-
-		3d for more information). Growth rates between successive
-		imagings are obtained and those for a nominated set of
-		intervals can also be calculated. Profile or longitudinal plots
-		of the traits and growth rates can be produced. These allow one
-		to check for anomalous data and to explore growth patterns in
-		the data.
+		Scananalyzer // Note that 'imageData' has been superseded by
+		'growthPheno'. The package 'growthPheno' incorporates all the
+		functionality of 'imageData' and has functionality not
+		available in 'imageData', but some 'imageData' functions have
+		been renamed. The 'imageData' package is no longer maintained,
+		but is retained for legacy purposes.
 	</longdescription>
 </pkgmetadata>

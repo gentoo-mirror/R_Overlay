@@ -2,20 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Electrochemical Simulation Tools // Set of functions for digital
-		simulation of electrochemical processes. Each function allows
-		for implicit and explicit solution of the differential equation
-		using methods like Euler, Backwards implicit, Runge Kutta 4,
-		Crank Nicholson and Backward differentiation formula as well as
+		Electrochemical Reactions Simulation // Digital simulation of
+		electrochemical processes. Each function allows for implicit
+		and explicit solution of the differential equation using
+		methods like Euler, Backwards implicit, Runge Kutta 4, Crank
+		Nicholson and Backward differentiation formula as well as
 		different number of points for derivative approximation.
 		Several electrochemical processes can be simulated such as:
 		Chronoamperometry, Potential Step, Linear Sweep, Cyclic
 		Voltammetry, Cyclic Voltammetry with electrochemical reaction
 		followed by chemical reaction (EC mechanism) and CV with two
-		following electrochemical reaction (EE mechanism). Bibliography
-		regarding this methods can be found in the following texts.
-		Dieter Britz, Jorg Strutwolf (2016) ISBN:978-3-319-30292-8 .
-		Allen J. Bard, Larry R. Faulkner (2000) ISBN:978-0-471-04372-0
-		.
+		following electrochemical reaction (EE mechanism). In update
+		1.1.0 has been added a general purpose CV function that allow
+		to simulate up to 4 EE mechanism combined with chemical
+		reaction for each species. Bibliography regarding this methods
+		can be found in the following texts. Dieter Britz, Jorg
+		Strutwolf (2016) ISBN:978-3-319-30292-8. Allen J. Bard, Larry
+		R. Faulkner (2000) ISBN:978-0-471-04372-0.
 	</longdescription>
 </pkgmetadata>
