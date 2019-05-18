@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Yet Another 'ARFF' Reader // A parser and a writer for 'WEKA'
+		Attribute-Relation File Format https://waikato.github.io/weka-
+		wiki/arff_stable/ in pure R, with no dependencies. As opposed
+		to other R implementations, this package can read standard
+		(dense) as well as sparse files, i.e. those where each row does
+		only contain nonzero components. Unlike 'RWeka', 'yarr' does
+		not require any 'Java' installation nor is dependent on
+		external software. This implementation is generalized from
+		those in packages 'mldr' and 'mldr.datasets'.
+	</longdescription>
+</pkgmetadata>

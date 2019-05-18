@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Multivariate Analysis of Summary Statistics //
+		Multivariate tool for analyzing genome-wide association study
+		results in the form of univariate summary statistics. The goal
+		of 'bmass' is to comprehensively test all possible multivariate
+		models given the phenotypes and datasets provided. Multivariate
+		models are determined by assigning each phenotype to being
+		either Unassociated (U), Directly associated (D) or Indirectly
+		associated (I) with the genetic variant of interest. Test
+		results for each model are presented in the form of Bayes
+		factors, thereby allowing direct comparisons between models.
+		The underlying framework implemented here is based on the
+		modeling developed in "A Unified Framework for Association
+		Analysis with Multiple Related Phenotypes", M. Stephens (2013)
+		doi:10.1371/journal.pone.0065245.
+	</longdescription>
+</pkgmetadata>
