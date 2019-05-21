@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Monte Carlo Based Heterogeneity Test for Meta-Analysis //
+		Implements a Monte Carlo Based Heterogeneity Test for
+		standardized mean differences (d), Fisher-transformed Pearson's
+		correlations (r), and natural-logarithm-transformed odds ratio
+		(OR) in Meta-Analysis Studies. Depending on the presence of
+		moderators, this Monte Carlo Based Test can be implemented in
+		the random or mixed-effects model. This package uses rma()
+		function from the R package 'metafor' to obtain parameter
+		estimates and likelihood, so installation of R package
+		'metafor' is required.
+	</longdescription>
+</pkgmetadata>
