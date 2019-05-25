@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Genetics Input/Output Functions // Implements readers and writers
+		for file formats associated with genetics data.  Reading and
+		writing plink BED/BIM/FAM formats is fully supported, including
+		a lightning-fast BED reader and writer implementations.  Other
+		functions are 'readr' wrappers that are more constrained, user-
+		friendly, and efficient for these particular applications;
+		handles plink and eigenstrat tables (FAM, BIM, IND, and SNP
+		files).  There are also "make" functions for FAM and BIM tables
+		with default values to go with simulated genotype data.
+	</longdescription>
+</pkgmetadata>
