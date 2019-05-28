@@ -2,14 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Extreme Learning Machine for Survival Analysis // We use the
-		Buckley-James method to impute the data and extend the emerging
-		Extreme Learning Machine approach to survival analysis.
-		Currently, only right censored data are supported. For a
-		detailed information, see the paper by Hong Wang, Jianxin Wang
-		and Lifeng Zhou (2017)
-		https://github.com/whcsu/ELMSurv/blob/master/elmsurv-
-		revised.pdf, which will appear in Applied Intelligence
-		https://link.springer.com/journal/10489 soon.
+		Extreme Learning Machine for Survival Analysis // First, we use
+		the Buckley-James method to impute the data and extend the
+		emerging extreme learning machine approach to survival
+		analysis. Second, we present a kernel extreme learning machine
+		Cox model regularized by an L_0-based broken adaptive ridge
+		(BAR) penalization method. For a detailed information, see Hong
+		Wang et al(2018) DOI: 10.1007/s10489-017-1063-4, Hong Wang and
+		Gang Li(2019) DOI:10.1002/sim.8090.
 	</longdescription>
 </pkgmetadata>

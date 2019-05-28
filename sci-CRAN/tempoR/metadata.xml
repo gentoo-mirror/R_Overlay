@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Characterizing Temporal Dysregulation // TEMPO (TEmporal Modeling
+		of Pathway Outliers) is a pathway-based outlier detection
+		approach for finding pathways showing significant changes in
+		temporal expression patterns across conditions.  Given a gene
+		expression data set where each sample is characterized by an
+		age or time point as well as a phenotype (e.g. control or
+		disease), and a collection of gene sets or pathways, TEMPO
+		ranks each pathway by a score that characterizes how well a
+		partial least squares regression (PLSR) model can predict age
+		as a function of gene expression in the controls and how poorly
+		that same model performs in the disease. TEMPO v1.0.3 is
+		described in Pietras (2018) doi:10.1145/3233547.3233559.
+	</longdescription>
+</pkgmetadata>
