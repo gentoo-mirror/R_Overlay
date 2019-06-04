@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulating Survival Data from Change-Point Hazard Distributions
+		// Simulates time-to-event data with type I right censoring
+		using two methods: the inverse CDF method and our proposed
+		memoryless method. The latter method takes advantage of the
+		memoryless property of survival and simulates a separate
+		distribution between change-points. We include two parametric
+		distributions: exponential and Weibull. Inverse CDF method
+		draws on the work of Rainer Walke (2010), https://www.demogr.mp
+		g.de/papers/technicalreports/tr-2010-003.pdf.
+	</longdescription>
+</pkgmetadata>
