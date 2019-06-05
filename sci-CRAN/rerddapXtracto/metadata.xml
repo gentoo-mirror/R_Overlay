@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Extracts Environmental Data from 'ERDDAP' Web Services //
+		Contains three functions that access environmental data from
+		any 'ERDDAP' data web service. The rxtracto() function extracts
+		data along a trajectory for a given "radius" around the point.
+		The rxtracto_3D() function extracts data in a box. The
+		rxtractogon() function extracts data in a polygon. All of those
+		three function use the 'rerddap' package to extract the data,
+		and should work with any 'ERDDAP' server. There are also two
+		functions, plotBBox() and plotTrack() that use the 'plotdap'
+		package to simplify the creation of maps of the data.
+	</longdescription>
+</pkgmetadata>
