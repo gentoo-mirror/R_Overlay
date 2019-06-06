@@ -3,10 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Generalized Eigenvalues and QZ Decomposition // Generalized
-		eigenvalues and QZ decomposition (generalized Schur form) for
-		an N-by-N non-symmetric matrix A or paired matrices (A,B) with
-		eigenvalues reordering mechanism. The package is mainly based
-		complex*16 and double precision of LAPACK library (version
-		3.4.2.)
+		eigenvalues and eigenvectors use QZ decomposition (generalized
+		Schur decomposition). The decomposition needs an N-by-N non-
+		symmetric matrix A or paired matrices (A,B) with eigenvalues
+		reordering mechanism. The decomposition functions are mainly
+		based Fortran subroutines in complex*16 and double precision of
+		LAPACK library (version 3.4.2. or later).
 	</longdescription>
 </pkgmetadata>

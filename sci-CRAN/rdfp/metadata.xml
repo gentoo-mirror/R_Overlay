@@ -2,16 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		An Implementation of the 'DoubleClick for Publishers' API // An
-		implementation of Google's 'DoubleClick for Publishers' (DFP)
-		API https://developers.google.com/ad-manager/api/start
-		(recently renamed to 'Google Ad Manager'). This package is
-		automatically compiled from the API WSDLs (Web Service
-		Description Language) files to dictate how the API is
+		An Implementation of the 'DoubleClick for Publishers' API //
+		Functions to interact with the 'Google DoubleClick for
+		Publishers (DFP)' API https://developers.google.com/ad-
+		manager/api/start (recently renamed to 'Google Ad Manager').
+		This package is automatically compiled from the API WSDL (Web
+		Service Description Language) files to dictate how the API is
 		structured. Theoretically, all API actions are possible using
 		this package; however, care must be taken to format the inputs
-		correctly and parse the outputs correctly as well. Please see
-		Google's DFP API reference and this package's website
+		correctly and parse the outputs correctly. Please see the
+		'Google Ad Manager' API reference https://developers.google.com
+		/ad-manager/api/rel_notes and this package's website
 		https://stevenmmortimer.github.io/rdfp/ for more information,
 		documentation, and examples.
 	</longdescription>
