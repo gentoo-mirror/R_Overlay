@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/yaml >=sci-CRAN/jsonlite-1.1 sci-CRAN/magrittr >=sci-CRAN/httr-1.2.0 sci-CRAN/aws_s3 dev-lang/R
+DESCRIPTION=Interface to Digital Ocean
+EAPI=6
+IUSE=r_suggests_knitr r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/yaml >=sci-CRAN/jsonlite-1.1 sci-CRAN/magrittr >=sci-CRAN/httr-1.2.0 sci-CRAN/aws_s3 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-6.1.1 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/analogsea_0.7.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=2b0ece344e059137066294a8286e4c3b

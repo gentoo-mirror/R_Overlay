@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Linear Regression with the Stable Distribution // Efficient
+		regression for heavy-tailed and skewed data following a stable
+		distribution. Generalized regression where the skewness and
+		tail parameter of residuals are dependent on regressors is also
+		available. Includes fast calculation of stable densities.
+		Calculation of densities is based on efficient numerical
+		methods from Ament and O'Neil (2017)
+		doi:10.1007/s11222-017-9725-y. Parts of the code have been
+		ported to C from Ament's 'Matlab' code available at
+		https://gitlab.com/s_ament/qastable.
+	</longdescription>
+</pkgmetadata>

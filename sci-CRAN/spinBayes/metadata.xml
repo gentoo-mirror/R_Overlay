@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Semi-Parametric Gene-Environment Interaction via Bayesian
+		Variable Selection // Many complex diseases are known to be
+		affected by the interactions between genetic variants and
+		environmental exposures beyond the main genetic and
+		environmental effects. Existing Bayesian methods for gene-
+		environment (GE) interaction studies are challenged by the
+		high-dimensional nature of the study and the complexity of
+		environmental influences. We have developed a novel and
+		powerful semi-parametric Bayesian variable selection method
+		that can accommodate linear and nonlinear GE interactions
+		simultaneously (Ren et al. (2019) arXiv:1906.01057).
+		Furthermore, the proposed method can conduct structural
+		identification by distinguishing nonlinear interactions from
+		main effects only case within Bayesian framework. Spike-and-
+		slab priors are incorporated on both individual and group level
+		to shrink coefficients corresponding to irrelevant main and
+		interaction effects to zero exactly. The Markov chain Monte
+		Carlo algorithms of the proposed and alternative methods are
+		efficiently implemented in C++.
+	</longdescription>
+</pkgmetadata>

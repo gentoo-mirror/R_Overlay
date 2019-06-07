@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Topic SCORE Algorithm to Fit Topic Models // Provides
+		implementation of the "Topic SCORE" algorithm that is proposed
+		by Tracy Ke and Minzhe Wang. The singular value decomposition
+		step is optimized through the usage of svds() function in
+		'RSpectra' package, on a 'dgRMatrix' sparse matrix. Also
+		provides a column-wise error measure in the word-topic matrix
+		A, and an algorithm for recovering the topic-document matrix W
+		given A and D based on quadratic programming. The details about
+		the techniques are explained in the paper "A new SVD approach
+		to optimal topic estimation" by Tracy Ke and Minzhe Wang (2017)
+		arXiv:1704.07016.
+	</longdescription>
+</pkgmetadata>
