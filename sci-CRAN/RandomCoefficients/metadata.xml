@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Adaptive Estimation in the Linear Random Coefficients Models //
+		We implement adaptive estimation of the joint density linear
+		model where the coefficients - intercept and slopes - are
+		random and independent from regressors which support is a
+		proper subset. The estimator proposed in Gaillac and Gautier
+		(2019) arXiv:1905.06584 is based on Prolate Spheroidal Wave
+		Functions which are computed  efficiently in
+		'RandomCoefficients'. This package also provides a parallel
+		implementation of the estimator.
+	</longdescription>
+</pkgmetadata>
