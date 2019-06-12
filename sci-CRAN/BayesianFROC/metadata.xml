@@ -10,8 +10,8 @@
 		of merit (FOM). In this package, we only use the notion of AUC
 		for modality comparison, where by "modality",  we mean imaging
 		methods such as Magnetic Resonance Imaging (MRI), Computed
-		Tomography (CT), Positron Emission Tomography (PET),...,etc. So
-		there is a problem that which imaging method is better to
+		Tomography (CT), Positron Emission Tomography (PET), ..., etc.
+		So there is a problem that which imaging method is better to
 		detect lesions from shadows in radiographs. To solve modality
 		comparison issues, this package provides new methods using
 		hierarchical Bayesian models proposed by the author of this
@@ -26,10 +26,10 @@
 		square goodness of fit statistics in the Bayesian context which
 		means that the parameter is not deterministic, thus by
 		integrating it with the posterior predictive measure, we get a
-		desired value. To compare modalities (imaging methods:
-		MRI,CT,PET,...,etc),  we evaluate AUCs for each modality. FROC
-		is developed by Dev Chakraborty, his FROC model in his 1989
-		paper relies on the maximal likelihood methodology. The author
+		desired value. To compare modalities (imaging methods: MRI, CT,
+		PET, ... , etc),  we evaluate AUCs for each modality. FROC is
+		developed by Dev Chakraborty, his FROC model in his 1989 paper
+		relies on the maximal likelihood methodology. The author
 		modified and provided the alternative Bayesian FROC model.
 		Strictly speaking, his model does not coincide with models in
 		this package. In FROC context, we means by multiple reader and
