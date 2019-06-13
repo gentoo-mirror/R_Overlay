@@ -2,8 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Process Map Token Replay Animation // Token replay animation for
-		process maps created with 'processmapR' by using SVG animations
-		('SMIL') and the 'htmlwidget' package.
+		Process Map Token Replay Animation // Provides animated process
+		maps based on the 'procesmapR' package. Cases stored in event
+		logs created with with 'bupaR' S3 class eventlog() are rendered
+		as tokens (SVG shapes) and animated according to their
+		occurrence times on top of the process map. For rendering SVG
+		animations ('SMIL') and the 'htmlwidget' package are used.
 	</longdescription>
 </pkgmetadata>
