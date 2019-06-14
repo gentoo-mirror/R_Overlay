@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fitting Discrete Distribution Models to Count Data // Provides
+		functions for fitting discrete distribution models to count
+		data. Included are the Poisson, the negative binomial and, most
+		importantly, a new implementation of the Poisson-beta
+		distribution (density, distribution and quantile functions, and
+		random number generator) together with a needed new
+		implementation of Kummer's function (also: confluent
+		hypergeometric function of the first kind). Three different
+		implementations of the Gillespie algorithm allow data
+		simulation based on the basic, switching or bursting mRNA
+		generating processes. Moreover, likelihood functions for four
+		variants of each of the three aforementioned distributions are
+		also available. The variants include one population and two
+		population mixtures, both with and without zero-inflation. The
+		package depends on the 'MPFR' libraries which need to be
+		installed separately (see description at
+		https://github.com/fuchslab/scModels). This package is
+		supplement to the paper "A mechanistic model for the negative
+		binomial distribution of single-cell mRNA counts" by Lisa
+		Amrhein, Kumar Harsha and Christiane Fuchs (2019)
+		doi:10.1101/657619 available on bioRxiv.
+	</longdescription>
+</pkgmetadata>
