@@ -2,7 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Animal Dominance Hierarchies by Elo Rating // Calculate Elo
-		ratings as means to describe animal dominance hierarchies
+		Animal Dominance Hierarchies by Elo Rating // Provides functions
+		to quantify animal dominance hierarchies. The major focus is on
+		Elo rating and its ability to deal with temporal dynamics in
+		dominance interaction sequences. For static data, David's score
+		and de Vries' ISI are also implemented. In addition, the
+		package provides functions to assess transitivity, linearity
+		and stability of dominance networks. See Neumann et al (2011)
+		doi:10.1016/j.anbehav.2011.07.016 for an introduction.
 	</longdescription>
 </pkgmetadata>

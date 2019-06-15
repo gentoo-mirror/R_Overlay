@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Differential Risk Hotspots in a Linear Network // Performs the
+		identification of differential risk hotspots given a marked
+		point pattern (Diggle 2013) doi:10.1201/b15326 lying on a
+		linear network (Baddeley, Rubak and Turner 2015)
+		doi:10.1201/b19708. The algorithm makes use of a network-
+		constrained version of kernel density estimation (McSwiggan,
+		Baddeley and Nair 2017) doi:10.1111/sjos.12255, and then
+		follows a statistical approach to approximate the probability
+		of ocurrence across space for the type of event specified by
+		the user through the marks of the pattern (Kelsall and Diggle
+		1995) doi:10.2307/3318678. The final goal is to detect
+		microzones of the road network where the type of event
+		indicated by the user is overrepresented, considering the
+		network structure provided.
+	</longdescription>
+</pkgmetadata>
