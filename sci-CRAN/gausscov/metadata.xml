@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Gaussian Covariate Method for Variable Selection // Given the
+		standard linear model the traditional way of deciding whether
+		to include the jth covariate is to apply the F-test to decide
+		whether the corresponding beta coefficient is  zero. The
+		Gaussian covariate method is completely different. The question
+		as to whether the beta coefficient is or is not zero is
+		replaced by the question as to whether the covariate is better
+		or worse than i.i.d. Gaussian noise. The P-value for the
+		covariate is the probability that Gaussian noise is better.
+		Surprisingly this can be given exactly and it is the same a the
+		P-value for the classical model based on the F-distribution.
+		The Gaussian covariate P-value is model free, it is the same
+		for any data set. Using the idea it is possible to do covariate
+		selection for a small number of covariates 25 by considering
+		all subsets.  Post selection inference causes no problems as
+		the P-values hold whatever the data. The idea extends to
+		stepwise regression again with exact probabilities. In the
+		simplest version the only parameter is a specified cut-off
+		P-value which can be interpreted as the probability of a false
+		positive being included in the final selection. For more
+		information see the website below and the accompanying papers:
+		L. Davies and L. Duembgen, "A Model-free Approach to Linear
+		Least Squares Regression with Exact  Probabilities and
+		Applications to Covariate Selection", 2019, arXiv:1906.01990.
+		L. Davies, "Lasso, Knockoff and Gaussian covariates: A
+		comparison", 2018, arXiv:1807.09633v4.
+	</longdescription>
+</pkgmetadata>
