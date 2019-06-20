@@ -2,14 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Dynamic Nomograms for Linear, Generalized Linear and Proportional
-		Hazard Models // Demonstrate the results of a statistical model
-		object as a dynamic nomogram in an RStudio panel or web
-		browser. Also, the generic DNbuilder() function in this package
-		provides a simple and straightforward way to build and publish
-		a dynamic nomogram on the web to use the app independent of R.
-		'DynNom' supports a variety of model objects; lm(), glm(),
-		coxph() models and also ols(), Glm(), lrm(), cph() models in
-		the 'rms' package.
+		Visualising Statistical Models using Dynamic Nomograms //
+		Demonstrate the results of a statistical model object as a
+		dynamic nomogram in an RStudio panel or web browser. The
+		package provides two generics functions: DynNom, which display
+		statistical model objects as a dynamic nomogram; DNbuilder,
+		which builds required scripts to publish a dynamic nomogram on
+		a web server such as the https://www.shinyapps.io/. Current
+		version of 'DynNom' supports stats::lm, stats::glm,
+		survival::coxph, rms::ols, rms::Glm, rms::lrm, rms::cph,
+		mgcv::gam and gam::gam model objects.
 	</longdescription>
 </pkgmetadata>

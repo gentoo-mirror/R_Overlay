@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stratified Medicine // A toolkit for stratified medicine,
+		subgroup identification, and precision medicine. Current tools
+		include (1) filtering models (reduce covariate space), (2)
+		patient-level estimate models (counterfactual patient-level
+		quantities, for example the individual treatment effect), (3)
+		subgroup identification models (find subsets of patients with
+		similar treatment effects), and (4) parameter estimation and
+		inference (for the overall population and discovered
+		subgroups). These tools can directly feed into stratified
+		medicine algorithms including PRISM (patient identifiers for
+		stratified medicine; Jemielita and Mehrotra 2019 (in
+		progress)). PRISM is a flexible and general framework which
+		accepts user-created models/functions. This package is in beta
+		and will be continually updated.
+	</longdescription>
+</pkgmetadata>
