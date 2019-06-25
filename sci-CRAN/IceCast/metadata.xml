@@ -3,16 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Apply Statistical Post-Processing to Improve Sea Ice Predictions
-		// Tools for modeling and correcting biases in sea ice
-		predictions obtained from dynamical models. This package
-		depends on the 'ncdf4' and 'rgeos' R packages. These packages
-		respectively require installing externally from R Unidata's
+		// Tools for correcting biases and calibrating sea ice
+		predictions obtained from dynamic ensemble models. Implements
+		and extends Director et al. (2017) doi:10.1175/JCLI-D-17-0185.1
+		This package depends on the 'ncdf4' and 'rgeos' R packages.
+		These packages require installing externally from R Unidata's
 		'NetCDF' library and Geometry Engine - Open Source ('GEOS').
-		(See the 'rgeos' and 'ncdf4' packages for details.) References,
-		Bivand and Rundel (2017)
-		https://CRAN.R-project.org/package=rgeos, Open Source
-		Geospatial Foundation (2017) https://trac.osgeo.org/geos,
-		Pierce (2017) https://CRAN.R-project.org/package=ncdf4, Unidata
-		(2017) https://www.unidata.ucar.edu/software/netcdf/.
+		(See the 'rgeos' and 'ncdf4' packages for details.)
 	</longdescription>
 </pkgmetadata>

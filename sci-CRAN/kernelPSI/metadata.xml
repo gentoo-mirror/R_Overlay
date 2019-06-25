@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Post-Selection Inference for Nonlinear Variable Selection //
+		Different post-selection inference strategies for kernel
+		selection, as described in "kernelPSI: a Post-Selection
+		Inference Framework for Nonlinear Variable Selection", Slim et
+		al., Proceedings of Machine Learning Research, 2019,
+		http://proceedings.mlr.press/v97/slim19a/slim19a.pdf. The
+		strategies rest upon quadratic kernel association scores to
+		measure the association between a given kernel and an outcome
+		of interest. The inference step tests for the joint effect of
+		the selected kernels on the outcome. A fast constrained
+		sampling algorithm is proposed to derive empirical p-values for
+		the test statistics.
+	</longdescription>
+</pkgmetadata>
