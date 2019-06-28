@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/Formula sci-CRAN/ggplot2 >=sci-CRAN/bayesplot-1.4.0 sci-CRAN/assertthat >=sci-CRAN/Rcpp-0.12.0 sci-CRAN/mvtnorm sci-CRAN/dplyr >=sci-CRAN/rstan-2.18.1 >=dev-lang/R-3.4.0 sci-CRAN/checkmate dev-lang/R
+DESCRIPTION=R Bayesian Evidence Synthesis Tools
+EAPI=6
+IUSE=r_suggests_broom r_suggests_foreach r_suggests_knitr r_suggests_purrr r_suggests_rmarkdown r_suggests_rstanarm r_suggests_scales r_suggests_testthat r_suggests_tidyr r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/Formula sci-CRAN/ggplot2 >=sci-CRAN/bayesplot-1.4.0 sci-CRAN/assertthat >=sci-CRAN/Rcpp-0.12.0 sci-CRAN/mvtnorm sci-CRAN/dplyr >=sci-CRAN/rstan-2.18.1 >=dev-lang/R-3.4.0 sci-CRAN/checkmate app-text/pandoc >=sci-CRAN/BH-1.66.0 >=sci-CRAN/rstan-2.18.1 >=sci-CRAN/RcppEigen-0.3.3.3.0 >=sci-CRAN/Rcpp-0.12.0 app-text/pandoc r_suggests_broom? ( sci-CRAN/broom ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstanarm? ( >=sci-CRAN/rstanarm-2.17.2 ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RBesT_1.4-0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=519d5376629e066fa2bd7b7d592a9849
