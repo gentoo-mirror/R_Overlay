@@ -8,6 +8,11 @@
 		using a specified function within a moving window of a
 		specified size and shape prior to aggregation. The direct
 		method simply aggregates to the grid using the specified
-		function.
+		function. The package differs from other packages offering
+		moving window analysis in 2 key ways: 1. The moving window code
+		has been optimised so that it runs more quickly than
+		\code{raster::focal} or other packages that build on this; 2.
+		It combines moving window and aggregation in a way which can be
+		effectively parallelised.
 	</longdescription>
 </pkgmetadata>

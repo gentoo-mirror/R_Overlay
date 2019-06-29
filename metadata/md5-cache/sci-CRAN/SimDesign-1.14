@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/foreach >=dev-lang/R-3.2.1 >=sci-CRAN/pbapply-1.3.0 sci-CRAN/plyr dev-lang/R
+DESCRIPTION=Structure for Organizing Monte C... (see metadata)
+EAPI=6
+IUSE=r_suggests_copula r_suggests_dompi r_suggests_dplyr r_suggests_extradistr r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_shiny byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/foreach >=dev-lang/R-3.2.1 >=sci-CRAN/pbapply-1.3.0 sci-CRAN/plyr r_suggests_copula? ( sci-CRAN/copula ) r_suggests_dompi? ( sci-CRAN/doMPI ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_extradistr? ( sci-CRAN/extraDistr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SimDesign_1.14.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=1b4e5d82e609d82663bd1a1cd78acf1e
