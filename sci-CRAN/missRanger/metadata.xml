@@ -15,6 +15,7 @@
 		matching tries to raise the variance in the resulting
 		conditional distributions to a realistic level. This would
 		allow e.g. to do multiple imputation when repeating the call to
-		missRanger().
+		missRanger(). A formula interface allows to control which
+		variables should be imputed by which.
 	</longdescription>
 </pkgmetadata>
