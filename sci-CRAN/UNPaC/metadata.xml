@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Non-Parametric Cluster Significance Testing with Reference to a
+		Unimodal Null Distribution // Assess the significance of
+		identified clusters and estimates the true number of clusters
+		by comparing the explained variation due to the clustering from
+		the original data to that produced by clustering a unimodal
+		reference distribution which preserves the covariance structure
+		in the data. The reference distribution is generated using
+		kernel density estimation and a Gaussian copula framework. A
+		dimension reduction strategy and sparse covariance estimation
+		optimize this method for the high-dimensional, low-sample size
+		setting. This method is similar to them method described in
+		Helgeson and Bair (2016) arXiv:1610.01424 except a Gaussian
+		copula approach is used to account for feature correlation.
+	</longdescription>
+</pkgmetadata>

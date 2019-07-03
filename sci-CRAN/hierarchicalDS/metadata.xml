@@ -2,9 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Functions For Performing Hierarchical Analysis of Distance
-		Sampling Data // Functions for performing hierarchical analysis
-		of distance sampling data, with ability to use an areal spatial
+		Functions to Perform Hierarchical Analysis of Distance Sampling
+		Data // Functions for performing hierarchical analysis of
+		distance sampling data, with ability to use an areal spatial
 		ICAR model on top of user supplied covariates to get at
 		variation in abundance intensity.  The detection model can be
 		specified as a function of observer and individual covariates,
@@ -17,7 +17,7 @@
 		independence assumed for distance=0 or first distance bin), as
 		well as the ability to model species misclassification rates
 		using a multinomial logit formulation on data from double
-		observers.  New in version 2.1 is the ability to include zero
+		observers.  There is also the the ability to include zero
 		inflation, but this is only recommended for cases where sample
 		sizes and spatial coverage of the survey are high.
 	</longdescription>
