@@ -12,18 +12,17 @@
 		data for each patient exist. Examples of different omics data
 		types include gene expression measurements, mutation data and
 		copy number variation measurements. Block forest are presented
-		in Hornung  Wright (2018). The package includes four other
+		in Hornung  Wright (2019). The package includes four other
 		random forest variants for multi-omics data: 'RandomBlock',
 		'BlockVarSel', 'VarProb', and 'SplitWeights'. These were also
-		considered in Hornung  Wright (2018), but performed worse than
+		considered in Hornung  Wright (2019), but performed worse than
 		block forest in their comparison study based on 20 real multi-
 		omics data sets. Therefore, we recommend to use block forest
 		('BlockForest') in applications. The other random forest
 		variants can, however, be consulted for academic purposes, for
 		example, in the context of further methodological developments.
-		Reference: Hornung, R.  Wright, M. N. (2018) Block Forests:
+		Reference: Hornung, R.  Wright, M. N. (2019) Block Forests:
 		random forests for blocks of clinical and omics covariate data.
-		Technical Report, Department of Statistics, University of
-		Munich.
+		BMC Bioinformatics 20:358. doi:10.1186/s12859-019-2942-y.
 	</longdescription>
 </pkgmetadata>

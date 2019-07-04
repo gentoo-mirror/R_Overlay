@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Psychometric Networks for Intensive Longitudinal Data // In the
+		past decade, mental processes have been conceptualized as
+		complex networks of interacting psychiatric symptoms. These
+		networks that can be visualized by means of conditional
+		independence graphs. For estimating the underlying directed
+		graph from intensive longitudinal data, vector autoregression
+		(VAR) is the most commonly used tool. This package wraps
+		several methods in the VAR family that can be used to estimate
+		conditional independence graphs (networks) from multivariate
+		time-series data. The package can fit the simple VAR and VARX
+		model Lutkepohl, H. (2005) doi:10.1007/978-3-540-27752-1 that
+		are currently available from the R package 'vars', and its
+		sparse alternative by Basu S. and Michailidis, G.(2015)
+		doi:10.1214/15-AOS1315 and sparse VECM implemented in the R
+		package 'sparsevar'. The sparse graphical VAR with covariance
+		estimation by Wild, B., Eichler, M., Friederich, H. C.,
+		Hartmann, M., Zipfel, S.,  Herzog, W. (2010)
+		doi:10.1186/1471-2288-10-28 from the R package 'graphicalVAR'
+		and the dynamic factor model by Doz, Gianone  Reichlin (2011)
+		doi:10.1016/j.jeconom.2011.02.012 from the R package
+		'dynfactoR' are also available. Sparse estimation of high
+		dimensional VAR, VARMA and VARX models using hierarchical lag
+		structures Nicholson, W. B., Bien, J., Matteson, D. S. (2017)
+		arXiv:1412.5250v3 implemented in the R package 'bigtime' and
+		mixed VAR for symptom time series with marginal distributions
+		in the exponential family Haslbeck, J., Waldorp, L. J. (2015)
+		arXiv:1510.06871 from the package 'mgm' can also be used with
+		this package. For the inference of symptom networks from
+		multivariate time series of multiple individuals the 'psychNET'
+		package adopts the multi-level VAR by Epskamp, S., Waldorp, L.
+		J., Mottus, R.,  Borsboom, D. (2017) arXiv:1609.04156v6
+		implemented in the R package 'mlVAR' and for the high-
+		dimensional setting the sparse time series chain graphical
+		(group graphical VAR) model by Abegaz, F., Wit, E. (2013)
+		doi:10.1093/biostatistics/kxt005 available from the R package
+		'sparseTSCGM'.
+	</longdescription>
+</pkgmetadata>
