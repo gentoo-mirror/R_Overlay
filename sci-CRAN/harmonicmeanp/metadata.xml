@@ -10,13 +10,13 @@
 		more stringent than controlling the false discovery rate, and
 		is robust to positive correlations between tests and unequal
 		weights. It is a multi-level test in the sense that a superset
-		of one or more significant tests is almost certain to be
-		significant and conversely when the superset is non-
-		significant, the constituent tests are almost certain to be
-		non-significant. It is based on MAMML (model averaging by mean
-		maximum likelihood), a frequentist analogue to Bayesian model
-		averaging, and is theoretically grounded in generalized central
-		limit theorem. For detailed examples type
-		vignette("harmonicmeanp") after installation.
+		of one or more significant tests is certain to be significant
+		and conversely when the superset is non-significant, the
+		constituent tests are certain to be non-significant. It is
+		based on MAMML (model averaging by mean maximum likelihood), a
+		frequentist analogue to Bayesian model averaging, and is
+		theoretically grounded in generalized central limit theorem.
+		For detailed examples type vignette("harmonicmeanp") after
+		installation.
 	</longdescription>
 </pkgmetadata>
