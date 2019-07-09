@@ -2,12 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Retrieve 'Magic' Attributes from Files and Directories // The
-		'libmagic' library provides functions to determine 'MIME' type
-		and other metadata from files through their "magic" attributes.
-		This is useful when you do not wish to rely solely on the
-		honesty of a user or the extension on a file name. It also
-		incorporates other metadata from the mime-db database
-		https://github.com/jshttp/mime-db.
+		Retrieve 'Magic' Attributes from Files and Directories // 'MIME'
+		types are shorthand descriptors for file contents and can be
+		determined from "magic" bytes in file headers, file contents or
+		intuited from file extensions. Tools are provided to perform
+		curated "magic" tests as well as mapping 'MIME' types from a
+		database of over 1,500 extension mappings.
 	</longdescription>
 </pkgmetadata>
