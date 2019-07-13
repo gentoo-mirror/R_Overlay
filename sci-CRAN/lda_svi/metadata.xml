@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fit Latent Dirichlet Allocation Models using Stochastic
+		Variational Inference // Fits Latent Dirichlet Allocation topic
+		models to text data using the stochastic variational inference
+		algorithm described in Hoffman et. al. (2013)
+		arXiv:1206.7051v3. This method is more efficient than the
+		original batch variational inference algorithm for LDA, and
+		allows users to fit LDA models with more topics and to larger
+		text corpora than would be feasible using that older method.
+	</longdescription>
+</pkgmetadata>
