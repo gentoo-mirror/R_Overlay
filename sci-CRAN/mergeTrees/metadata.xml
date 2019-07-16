@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Aggregating Trees // Aggregates a set of trees with the same
+		leaves to create a consensus tree. The trees are typically
+		obtained via hierarchical clustering, hence the hclust format
+		is used to encode both the aggregated trees and the final
+		consensus tree. The method is exact and proven to be
+		O(nqlog(n)), n being the individuals and q being the number of
+		trees to aggregate.
+	</longdescription>
+</pkgmetadata>
