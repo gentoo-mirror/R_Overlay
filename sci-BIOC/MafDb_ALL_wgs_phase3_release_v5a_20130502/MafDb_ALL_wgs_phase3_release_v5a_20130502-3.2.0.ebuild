@@ -9,15 +9,15 @@ DESCRIPTION='Minor allele frequency data from... (see metadata)'
 SRC_URI="http://master.bioconductor.org/packages/3.2/data/annotation/src/contrib/MafDb.ALL.wgs.phase3.release.v5a.20130502_3.2.0.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-BIOC/AnnotationDbi
+	sci-BIOC/GenomicRanges
+	>=sci-CRAN/RSQLite-1.0.0
+	sci-BIOC/Biobase
+	sci-BIOC/Biostrings
 	>=sci-BIOC/VariantFiltering-1.6.0
+	sci-BIOC/VariantAnnotation
 	sci-BIOC/Rsamtools
 	sci-BIOC/IRanges
-	sci-BIOC/Biobase
-	sci-BIOC/AnnotationDbi
-	sci-BIOC/VariantAnnotation
-	>=sci-CRAN/RSQLite-1.0.0
-	sci-BIOC/GenomicRanges
-	sci-BIOC/Biostrings
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}"

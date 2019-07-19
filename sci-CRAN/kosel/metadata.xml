@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Selection by Revisited Knockoffs Procedures // Performs
+		variable selection for many types of L1-regularised regressions
+		using the revisited knockoffs procedure. This procedure uses a
+		matrix of knockoffs of the covariates independent from the
+		response variable Y. The idea is to determine if a covariate
+		belongs to the model depending on whether it enters the model
+		before or after its knockoff. The procedure suits for a wide
+		range of regressions with various types of response variables.
+		Regression models available are exported from the R packages
+		'glmnet' and 'ordinalNet'. Based on the paper linked to via the
+		URL below: Gegout A., Gueudin A., Karmann C. (2019)
+		arXiv:1907.03153.
+	</longdescription>
+</pkgmetadata>

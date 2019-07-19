@@ -3,12 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Set Operations for Many Sets // Set operations for many sets. The
-		base functions for set operations in R are good for only two
-		sets. This package uses 'purrr' to find the union, intersection
-		and difference of three or more sets. Further, based on
-		'ggplot2' and 'ggforce', Venn diagram can be drawn for two or
-		three sets (Venn diagrams with four or more sets are terrible,
-		please use 'UpSet' if you have lots of sets). Finally,
+		base functions for set operations in R can be used for only two
+		sets. This package uses 'purr' to find the union, intersection
+		and difference of three or more sets. This package also
+		provides functions for pairwise set operations among several
+		sets. Further, based on 'ggplot2' and 'ggforce', a Venn diagram
+		can be drawn for two or three sets. For bigger data sets, a
+		clustered heatmap showing presence/absence of the elements of
+		the sets can be drawn based on the 'pheatmap' package. Finally,
 		enrichment test can be applied to two sets whether an overlap
 		is statistically significant or not.
 	</longdescription>

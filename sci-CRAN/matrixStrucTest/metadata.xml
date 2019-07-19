@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tests of Matrix Structure for Construct Validation // Tests for
+		block-diagonal structure in symmetric matrices (e.g.
+		correlation matrices) under the null hypothesis of exchangeable
+		off-diagonal elements. As described in Segal et al. (2019),
+		these tests can be useful for construct validation either by
+		themselves or as a complement to confirmatory factor analysis.
+		Monte Carlo methods are used to approximate the permutation
+		p-value with Hubert's Gamma (Hubert, 1976) and a t-statistic.
+		This package also implements the chi-squared statistic
+		described by Steiger (1980). Please see Segal, et al. (2019)
+		doi:10.1007/s11336-018-9647-4 for more information.
+	</longdescription>
+</pkgmetadata>
