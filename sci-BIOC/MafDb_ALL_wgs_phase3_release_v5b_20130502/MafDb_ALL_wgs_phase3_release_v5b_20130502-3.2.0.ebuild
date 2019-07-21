@@ -11,13 +11,13 @@ LICENSE='Artistic-2'
 
 DEPEND="sci-BIOC/Biostrings
 	>=sci-BIOC/VariantFiltering-1.5.23
-	sci-BIOC/Rsamtools
-	>=dev-lang/R-3.0.0
+	sci-BIOC/AnnotationDbi
+	sci-BIOC/Biobase
 	>=sci-CRAN/RSQLite-1.0.0
 	sci-BIOC/GenomicRanges
+	>=dev-lang/R-3.0.0
 	sci-BIOC/IRanges
-	sci-BIOC/Biobase
-	sci-BIOC/AnnotationDbi
 	sci-BIOC/VariantAnnotation
+	sci-BIOC/Rsamtools
 "
 RDEPEND="${DEPEND-}"
