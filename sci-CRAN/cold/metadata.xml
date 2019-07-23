@@ -3,10 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Count Longitudinal Data // Performs regression analysis for
-		longitudinal count data using a self-decomposable probability
-		distribution, a random intercept term is also allowed.
-		Estimation is via maximization of the exact likelihood of a
-		suitably defined model. Missing values and unbalanced data are
-		allowed.
+		longitudinal count data, allowing for serial dependence among
+		observations from a given individual and two dimensional random
+		effects on the linear predictor. Estimation is via maximization
+		of the exact likelihood of a suitably defined model. Missing
+		values and unbalanced data are allowed; M. Helena Goncalves et
+		al.(2007) doi:10.1016/j.csda.2007.03.002.
 	</longdescription>
 </pkgmetadata>
