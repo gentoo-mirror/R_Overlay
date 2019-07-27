@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Create Color Palettes from Images // Provides ability to create
+		color palettes from image files. It offers control over the
+		type of color palette to derive from an image (qualitative,
+		sequential or divergent) and other palette properties.
+		Quantiles of an image color distribution can be trimmed. Near-
+		black or near-white colors can be trimmed in RGB color space
+		independent of trimming brightness or saturation distributions
+		in HSV color space. Creating sequential palettes also offers
+		control over the order of HSV color dimensions to sort by. This
+		package differs from other related packages like
+		'RImagePalette' in approaches to quantizing and extracting
+		colors in images to assemble color palettes and the level of
+		user control over palettes construction.
+	</longdescription>
+</pkgmetadata>

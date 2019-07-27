@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Ball Mapper Algorithm // The core algorithm is described in
+		"Ball mapper: a shape summary for topological data analysis" by
+		Pawel Dlotko, (2019) arXiv:1901.07410. Ball Mapper provide a
+		topologically accurate summary of a data in a form of an
+		abstract graph. To create it, please provide the coordinates of
+		points (in the points array), values of a function of interest
+		at those points (can be initialized randomly if you do not have
+		it) and the value epsilon which is the radius of the ball in
+		the Ball Mapper construction. It can be understood as the
+		minimal resolution on which we use to create the model of the
+		data.
+	</longdescription>
+</pkgmetadata>
