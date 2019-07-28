@@ -8,6 +8,7 @@
 		number of parameter checks required). Provides code
 		instrumentation to ease this change. Should reduce the code
 		size as many controls and type checks have no more reason to
-		exist.
+		exist. Should also speed up processing as many checks will be
+		reduced to single check.
 	</longdescription>
 </pkgmetadata>
