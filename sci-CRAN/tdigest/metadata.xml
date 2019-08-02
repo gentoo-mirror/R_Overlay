@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Wicked Fast, Accurate Quantiles Using t-Digests // The t-Digest
+		construction algorithm, by Dunning et al., (2019)
+		arXiv:1902.04023v1, uses a variant of 1-dimensional k-means
+		clustering to produce a very compact data structure that allows
+		accurate estimation of quantiles. This t-Digest data structure
+		can be used to estimate quantiles, compute other rank
+		statistics or even to estimate related measures like trimmed
+		means. The advantage of the t-Digest over previous digests for
+		this purpose is that the t-Digest handles data with full
+		floating point resolution. The accuracy of quantile estimates
+		produced by t-Digests can be orders of magnitude more accurate
+		than those produced by previous digest algorithms. Methods are
+		provided to create and update t-Digests and retrieve quantiles
+		from the accumulated distributions.
+	</longdescription>
+</pkgmetadata>

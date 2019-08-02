@@ -1,0 +1,28 @@
+# Copyright 1999-2019 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Efficient Designs for Discrete Choice Experiments'
+SRC_URI="http://cran.r-project.org/src/contrib/idefix_0.4.0.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_testthat"
+R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
+DEPEND=">=sci-CRAN/Rcpp-0.12.18
+	sci-CRAN/Rdpack
+	sci-CRAN/dplyr
+	sci-CRAN/shiny
+	>=dev-lang/R-3.1.1
+	sci-CRAN/mlogit
+	virtual/MASS
+	sci-CRAN/tmvtnorm
+	sci-CRAN/scales
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	sci-CRAN/RcppArmadillo
+	${R_SUGGESTS-}
+"
