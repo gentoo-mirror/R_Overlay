@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation of the Extremal Index // Performs frequentist
+		inference for the extremal index of a stationary time series.
+		Two types of methodology are used.  One type is based on a
+		model that relates the distribution of block maxima to the
+		marginal distribution of series and leads to the semiparametric
+		maxima estimators described in Northrop (2015)
+		doi:10.1007/s10687-015-0221-5 and Berghaus and Bucher (2018)
+		doi:10.1214/17-AOS1621.  Sliding block maxima are used to
+		increase precision of estimation. The other type of methodology
+		uses a model for the distribution of threshold inter-exceedance
+		times (Ferro and Segers (2003) doi:10.1111/1467-9868.00401).
+		Two versions of this type of approach are provided, following
+		Suveges (2007) doi:10.1007/s10687-007-0034-2 and Suveges and
+		Davison (2010) doi:10.1214/09-AOAS292.
+	</longdescription>
+</pkgmetadata>
