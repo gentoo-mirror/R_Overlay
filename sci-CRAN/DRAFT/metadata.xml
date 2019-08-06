@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Disease Rapid Analysis and Forecasting Tool // Fits epidemic data
+		to and generates stochastic profiles of a model with constant
+		or time-dependent behavior modification parameters. Two
+		parameters, p and q, describe the effect of reduced contact
+		rate of susceptible and infectious populations, respectively as
+		described by Brauer (2011, ISSN:1471-2458). In the absence of
+		behavior modification, p=q=1, we recover the familiar
+		compartmental Susceptible-Infectious-Recovered (SIR) equations.
+		'DRAFT' supports both constant values for p and q and a time-
+		dependent form which smoothly changes p and q from their
+		initial, pre-epidemic value of 1.0 to the user chosen values
+		that are between 0 and 1. The start and transient time of
+		behavior change are set by the user. 'DRAFT' can be used to
+		compare forecasts of epidemic incidence with and without
+		behavior modification.  Additional parameters and data fitting
+		methods are explained in Ben-Nun et al (2019)
+		doi:10.1371/journal.pcbi.1007013.
+	</longdescription>
+</pkgmetadata>

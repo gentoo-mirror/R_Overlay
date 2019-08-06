@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.1.2 sci-CRAN/gh sci-CRAN/magrittr dev-lang/R
+DESCRIPTION=Task Tracking and Project Management with GitHub
+EAPI=6
+IUSE=r_suggests_clipr r_suggests_covr r_suggests_curl r_suggests_dplyr r_suggests_ggplot2 r_suggests_htmltools r_suggests_httr r_suggests_knitr r_suggests_purrr r_suggests_reprex r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr r_suggests_yaml byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.1.2 sci-CRAN/gh sci-CRAN/magrittr r_suggests_clipr? ( sci-CRAN/clipr ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_httr? ( sci-CRAN/httr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_reprex? ( sci-CRAN/reprex ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_yaml? ( sci-CRAN/yaml ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/projmgr_0.1.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=c6c3e693d3ee2987f691a95bdfff3cd2
