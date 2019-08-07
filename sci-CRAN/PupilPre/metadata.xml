@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Preprocessing Pupil Size Data // Pupillometric data collected
+		using SR Research Eyelink eye trackers requires significant
+		preprocessing. This package contains functions for preparing
+		pupil dilation data for visualization and statistical analysis.
+		Specifically, it provides a pipeline of functions which aid in
+		data validation, the removal of blinks/artifacts, downsampling,
+		and baselining, among others. Additionally, plotting functions
+		for creating grand average and conditional average plots are
+		provided. See the vignette for samples of the functionality.
+		The package is designed for handling data collected with SR
+		Research Eyelink eye trackers using Sample Reports created in
+		SR Research Data Viewer.
+	</longdescription>
+</pkgmetadata>
