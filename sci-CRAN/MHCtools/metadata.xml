@@ -17,12 +17,14 @@
 		evaluate the accuracy of the haplotype inference. The PapaDiv()
 		function compares parent pairs in the data set and calculate
 		their joint MHC diversity, taking into account sequence
-		variants that occur in both parents. The MeanPdist() function
-		calculates the mean p-distance from pairwise comparisons
-		sequences in each sample in a data set. The function includes
-		the option to specify which codons to compare. The CreateFas()
-		function creates a fasta file with all the sequences in the
-		data set. The CreateSamplesFas() function creates a fasta file
-		for each sample in the data set.
+		variants that occur in both parents. The CalcPdist() function
+		calculates the p-distances from pairwise comparisons of all
+		sequences in a data set, and mean p-distances of all pairwise
+		comparisons within each sample in a data set. The function
+		includes the options to specify which codons to compare and to
+		calculate amino acid p-distances. The CreateFas() function
+		creates a fasta file with all the sequences in the data set.
+		The CreateSamplesFas() function creates a fasta file for each
+		sample in the data set.
 	</longdescription>
 </pkgmetadata>
