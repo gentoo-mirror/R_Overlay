@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		scrypt key derivation functions for R // scrypt is an R package
-		for working with scrypt. Scrypt is a password-based key
-		derivation function created by Colin Percival. The algorithm
-		was specifically designed to make it costly to perform large-
-		scale custom hardware attacks by requiring large amounts of
-		memory.
+		Key Derivation Functions for R Based on Scrypt // Functions for
+		working with the scrypt key derivation functions originally
+		described by Colin Percival
+		https://www.tarsnap.com/scrypt/scrypt.pdf and in Percival and
+		Josefsson (2016) doi:10.17487/RFC7914. Scrypt is a password-
+		based key derivation function created by Colin Percival. The
+		algorithm was specifically designed to make it costly to
+		perform large-scale custom hardware attacks by requiring large
+		amounts of memory.
 	</longdescription>
 </pkgmetadata>
