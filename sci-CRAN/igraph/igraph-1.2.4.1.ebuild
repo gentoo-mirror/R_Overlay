@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND=">=sci-CRAN/pkgconfig-2.0.0
+DEPEND="virtual/Matrix
+	>=sci-CRAN/pkgconfig-2.0.0
 	sci-CRAN/magrittr
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/glpk
