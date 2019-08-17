@@ -1,0 +1,32 @@
+# Copyright 1999-2019 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Gene Set Variation Analysis for ... (see metadata)'
+SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/GSVA_1.32.0.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_edger r_suggests_genefilter r_suggests_gsvadata
+	r_suggests_limma r_suggests_mclust r_suggests_rcolorbrewer
+	r_suggests_snow"
+R_SUGGESTS="
+	r_suggests_edger? ( sci-BIOC/edgeR )
+	r_suggests_genefilter? ( sci-BIOC/genefilter )
+	r_suggests_gsvadata? ( sci-BIOC/GSVAdata )
+	r_suggests_limma? ( sci-BIOC/limma )
+	r_suggests_mclust? ( sci-CRAN/mclust )
+	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
+	r_suggests_snow? ( sci-CRAN/snow )
+"
+DEPEND="sci-CRAN/shinythemes
+	>=dev-lang/R-3.0.0
+	sci-BIOC/BiocGenerics
+	sci-BIOC/Biobase
+	sci-BIOC/geneplotter
+	>=sci-BIOC/GSEABase-1.17.4
+	sci-CRAN/shiny
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

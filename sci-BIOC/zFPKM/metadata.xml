@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A suite of functions to facilitate zFPKM transformations //
+		Perform the zFPKM transform on RNA-seq FPKM data. This
+		algorithm is based on the publication by Hart et al., 2013
+		(Pubmed ID 24215113). Reference recommends using zFPKM  -3 to
+		select expressed genes. Validated with encode open/closed
+		chromosome data. Works well for gene level data using FPKM or
+		TPM. Does not appear to calibrate well for transcript level
+		data.
+	</longdescription>
+</pkgmetadata>

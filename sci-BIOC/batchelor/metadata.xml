@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Single-Cell Batch Correction Methods // Implements a variety of
+		methods for batch correction of single-cell (RNA sequencing)
+		data. This includes methods based on detecting mutually nearest
+		neighbors as well as a simple sparsity-preserving translation
+		of the population means. Functions are also provided for global
+		rescaling to remove differences in depth between batches, and
+		to perform a principal components analysis that is robust to
+		differences in the numbers of cells across different batches.
+	</longdescription>
+</pkgmetadata>

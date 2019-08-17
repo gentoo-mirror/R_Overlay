@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-BIOC/beadarray-2.0.0 sci-BIOC/BiocGenerics >=sci-CRAN/Rcpp-0.12.8 >=sci-BIOC/Biobase-2.0.0 >=dev-lang/R-3.3 dev-lang/R
+DESCRIPTION=Tools for the preprocessing and ... (see metadata)
+EAPI=6
+IUSE=r_suggests_biocstyle r_suggests_blimatestingdata r_suggests_illuminahumanv4_db r_suggests_knitr r_suggests_lumi r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=sci-BIOC/beadarray-2.0.0 sci-BIOC/BiocGenerics >=sci-CRAN/Rcpp-0.12.8 >=sci-BIOC/Biobase-2.0.0 >=dev-lang/R-3.3 sci-CRAN/Rcpp r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_blimatestingdata? ( sci-BIOC/blimaTestingData ) r_suggests_illuminahumanv4_db? ( sci-BIOC/illuminaHumanv4_db ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lumi? ( sci-BIOC/lumi ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/blima_1.18.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=27b939fd1f690cd91b23407af6eaba57
