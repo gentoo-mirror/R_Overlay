@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		GWAS Incorporating Networks // martini deals with the low power
+		inherent to GWAS studies by using prior knowledge represented
+		as a network. SNPs are the vertices of the network, and the
+		edges represent biological relationships between them (genomic
+		adjacency, belonging to the same gene, physical interaction
+		between protein products). The network is scanned using SConES,
+		which looks for groups of SNPs maximally associated with the
+		phenotype, that form a close subnetwork.
+	</longdescription>
+</pkgmetadata>

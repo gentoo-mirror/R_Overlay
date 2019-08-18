@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-CRAN/ape-3.3 >=sci-BIOC/AnnotationDbi-1.32.3 >=sci-CRAN/sybil-2.0.4 virtual/Matrix sci-CRAN/sys >=dev-lang/R-3.4.0 >=sci-BIOC/topGO-2.24.0 dev-lang/R
+DESCRIPTION=Gene Set Enrichment Analysis via... (see metadata)
+EAPI=6
+IUSE=r_suggests_clpapi r_suggests_ctc r_suggests_glpk r_suggests_keggrest r_suggests_kernsmooth r_suggests_knitr r_suggests_rmarkdown r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/ape-3.3 >=sci-BIOC/AnnotationDbi-1.32.3 >=sci-CRAN/sybil-2.0.4 virtual/Matrix sci-CRAN/sys >=dev-lang/R-3.4.0 >=sci-BIOC/topGO-2.24.0 r_suggests_clpapi? ( >=sci-CRAN/clpAPI-1.2.7 ) r_suggests_ctc? ( sci-BIOC/ctc ) r_suggests_glpk? ( sci-mathematics/glpk ) r_suggests_keggrest? ( sci-BIOC/KEGGREST ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survival? ( virtual/survival ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/metaboGSE_1.2.1.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=eb61a3e4286d920d4baff7be84eafc43

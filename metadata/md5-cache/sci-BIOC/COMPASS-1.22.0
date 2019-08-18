@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/RColorBrewer >=dev-lang/R-3.0.3 sci-CRAN/Rcpp sci-CRAN/reshape2 sci-CRAN/plyr sci-CRAN/clue sci-CRAN/magrittr sci-CRAN/pdist sci-CRAN/data_table sci-CRAN/tidyr sci-BIOC/BiocStyle sci-CRAN/rmarkdown sci-CRAN/knitr sci-CRAN/rlang sci-CRAN/scales sci-CRAN/abind sci-CRAN/dplyr dev-lang/R
+DESCRIPTION=Combinatorial Polyfunctionality ... (see metadata)
+EAPI=6
+IUSE=r_suggests_devtools r_suggests_flowcore r_suggests_flowworkspace r_suggests_flowworkspacedata r_suggests_ggplot2 r_suggests_ncdfflow r_suggests_shiny r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/RColorBrewer >=dev-lang/R-3.0.3 sci-CRAN/Rcpp sci-CRAN/reshape2 sci-CRAN/plyr sci-CRAN/clue sci-CRAN/magrittr sci-CRAN/pdist sci-CRAN/data_table sci-CRAN/tidyr sci-BIOC/BiocStyle sci-CRAN/rmarkdown sci-CRAN/knitr sci-CRAN/rlang sci-CRAN/scales sci-CRAN/abind sci-CRAN/dplyr >=sci-CRAN/Rcpp-0.11.0 r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_flowcore? ( sci-BIOC/flowCore ) r_suggests_flowworkspace? ( >=sci-BIOC/flowWorkspace-3.9.66 ) r_suggests_flowworkspacedata? ( sci-BIOC/flowWorkspaceData ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ncdfflow? ( sci-BIOC/ncdfFlow ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/COMPASS_1.22.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=e59ea2787d83678bd50d179f461b5828

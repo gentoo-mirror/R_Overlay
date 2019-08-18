@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Linear model and normality based transformation method (Linnorm)
+		// Linnorm is an R package for the analysis of RNA-seq, scRNA-
+		seq, ChIP-seq count data or any large scale count data. It
+		normalizes and performs variance-stabilizing transformation on
+		such datasets. In addition to the transformtion function
+		(Linnorm), the following pipelines are implemented: 1. Library
+		size/Batch effect normalization (Linnorm.Norm), 2. Cell
+		subpopluation analysis and visualization using t-SNE or PCA
+		K-means clustering or Hierarchical clustering (Linnorm.tSNE,
+		Linnorm.PCA, Linnorm.HClust), 3. Differential expression
+		analysis or differential peak detection using limma
+		(Linnorm.limma), 4. Highly variable gene discovery and
+		visualization (Linnorm.HVar), 5. Gene correlation network
+		analysis and visualization (Linnorm.Cor), 6. Stable gene
+		selection for scRNA-seq data; for users without or do not want
+		to rely on spike-in genes (Linnorm.SGenes). 7. Data imputation.
+		(under development) (Linnorm.DataImput). Linnorm can work with
+		raw count, CPM, RPKM, FPKM and TPM. Additionally, the RnaXSim
+		function is included for simulating RNA-seq data for the
+		evaluation of DEG analysis methods.
+	</longdescription>
+</pkgmetadata>

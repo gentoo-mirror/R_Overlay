@@ -1,0 +1,10 @@
+# Copyright 1999-2019 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='A Segmental Maximum A Posteriori... (see metadata)'
+SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/SMAP_1.48.0.tar.gz"
+LICENSE='GPL-2'

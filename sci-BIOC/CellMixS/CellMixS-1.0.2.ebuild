@@ -1,0 +1,38 @@
+# Copyright 1999-2019 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Evaluate Cellspecific Mixing'
+SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/CellMixS_1.0.2.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_biocstyle r_suggests_knitr r_suggests_limma
+	r_suggests_rmarkdown r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_limma? ( sci-BIOC/limma )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+"
+DEPEND="sci-BIOC/SingleCellExperiment
+	>=dev-lang/R-3.6
+	sci-BIOC/BiocParallel
+	sci-BIOC/SummarizedExperiment
+	sci-CRAN/cowplot
+	sci-CRAN/magrittr
+	sci-CRAN/tidyr
+	sci-CRAN/dplyr
+	sci-BIOC/scater
+	sci-BIOC/BiocNeighbors
+	sci-CRAN/viridis
+	sci-CRAN/ggplot2
+	sci-CRAN/purrr
+	sci-CRAN/kSamples
+	sci-CRAN/listarrays
+	sci-CRAN/ggridges
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

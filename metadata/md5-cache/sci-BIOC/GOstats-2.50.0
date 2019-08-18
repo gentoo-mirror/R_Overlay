@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/RBGL >=sci-BIOC/Category-2.43.2 >=sci-BIOC/annotate-1.13.2 >=sci-BIOC/AnnotationDbi-0.0.89 >=sci-BIOC/Biobase-1.15.29 sci-BIOC/AnnotationForge >=sci-BIOC/GO_db-1.13.0 sci-BIOC/Rgraphviz sci-BIOC/graph dev-lang/R
+DESCRIPTION=Tools for manipulating GO and microarrays
+EAPI=6
+IUSE=r_suggests_all r_suggests_biocgenerics r_suggests_genefilter r_suggests_geneplotter r_suggests_gseabase r_suggests_hgu95av2_db r_suggests_multtest r_suggests_org_hs_eg_db r_suggests_rcolorbrewer r_suggests_runit r_suggests_sparsem r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=Artistic-2
+RDEPEND=sci-BIOC/RBGL >=sci-BIOC/Category-2.43.2 >=sci-BIOC/annotate-1.13.2 >=sci-BIOC/AnnotationDbi-0.0.89 >=sci-BIOC/Biobase-1.15.29 sci-BIOC/AnnotationForge >=sci-BIOC/GO_db-1.13.0 sci-BIOC/Rgraphviz sci-BIOC/graph r_suggests_all? ( sci-BIOC/ALL ) r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_genefilter? ( sci-BIOC/genefilter ) r_suggests_geneplotter? ( sci-BIOC/geneplotter ) r_suggests_gseabase? ( sci-BIOC/GSEABase ) r_suggests_hgu95av2_db? ( >=sci-BIOC/hgu95av2_db-1.13.0 ) r_suggests_multtest? ( sci-BIOC/multtest ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_sparsem? ( sci-CRAN/SparseM ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/GOstats_2.50.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=c2523f6558fdd1fe0f641ab3aba6d355

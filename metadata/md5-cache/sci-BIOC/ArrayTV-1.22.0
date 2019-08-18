@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=sci-BIOC/S4Vectors-0.9.25 >=sci-BIOC/IRanges-2.13.24 sci-BIOC/DNAcopy virtual/class >=dev-lang/R-2.14 sci-CRAN/foreach dev-lang/R
+DESCRIPTION=Implementation of wave correction for arrays
+EAPI=6
+IUSE=r_suggests_biocgenerics r_suggests_crlmm r_suggests_ff r_suggests_lattice r_suggests_rcolorbrewer r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=>=sci-BIOC/S4Vectors-0.9.25 >=sci-BIOC/IRanges-2.13.24 sci-BIOC/DNAcopy virtual/class >=dev-lang/R-2.14 sci-CRAN/foreach r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_crlmm? ( sci-BIOC/crlmm ) r_suggests_ff? ( sci-CRAN/ff ) r_suggests_lattice? ( virtual/lattice virtual/lattice ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/ArrayTV_1.22.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=058f9baf9040a41b23cc20d30f325141

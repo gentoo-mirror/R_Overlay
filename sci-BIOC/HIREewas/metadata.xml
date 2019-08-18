@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detection of cell-type-specific risk-CpG sites in epigenome-wide
+		association studies // In epigenome-wide association studies,
+		the measured signals for each sample are a mixture of
+		methylation profiles from different cell types. The current
+		approaches to the association detection only claim whether a
+		cytosine-phosphate-guanine (CpG) site is associated with the
+		phenotype or not, but they cannot determine the cell type in
+		which the risk-CpG site is affected by the phenotype. We
+		propose a solid statistical method, HIgh REsolution (HIRE),
+		which not only substantially improves the power of association
+		detection at the aggregated level as compared to the existing
+		methods but also enables the detection of risk-CpG sites for
+		individual cell types. The "HIREewas" R package is to implement
+		HIRE model in R.
+	</longdescription>
+</pkgmetadata>

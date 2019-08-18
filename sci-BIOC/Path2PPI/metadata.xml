@@ -2,13 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Prediction of pathway-specific protein-protein interaction
-		networks // Package to predict pathway specific protein-protein
-		interaction (PPI) networks in target organisms for which only a
-		view information about PPIs is available. Path2PPI uses PPIs of
-		the pathway of interest from other well established model
-		organisms to predict a certain pathway in the target organism.
-		Path2PPI only depends on the sequence similarity of the
-		involved proteins.
+		Prediction of pathway-related protein-protein interaction
+		networks // Package to predict protein-protein interaction
+		(PPI) networks in target organisms for which only a view
+		information about PPIs is available. Path2PPI predicts PPI
+		networks based on sets of proteins which can belong to a
+		certain pathway from well-established model organisms. It helps
+		to combine and transfer information of a certain pathway or
+		biological process from several reference organisms to one
+		target organism. Path2PPI only depends on the sequence
+		similarity of the involved proteins.
 	</longdescription>
 </pkgmetadata>

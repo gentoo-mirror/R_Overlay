@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		HDF5 backend for DelayedArray objects // Implements the HDF5Array
+		and TENxMatrix classes, 2 convenient and memory-efficient
+		array-like containers for on-disk representation of HDF5
+		datasets. HDF5Array is for datasets that use the conventional
+		(i.e. dense) HDF5 representation. TENxMatrix is for datasets
+		that use the HDF5-based sparse matrix representation from 10x
+		Genomics (e.g. the 1.3 Million Brain Cell Dataset). Both
+		containers being DelayedArray extensions, they support all
+		operations supported by DelayedArray objects. These operations
+		can be either delayed or block-processed.
+	</longdescription>
+</pkgmetadata>

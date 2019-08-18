@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Implementation of the dot bracket annotations with Biostrings //
+		The Structstrings package implements the widely used dot
+		bracket annotation for storing base pairing information in
+		structured RNA. Structstrings uses the infrastructure provided
+		by the Biostrings package and derives the DotBracketString and
+		related classes from the BString class. From these, base pair
+		tables can be produced for in depth analysis. In addition, the
+		loop indices of the base pairs can be retrieved as well. For
+		better efficiency, information conversion is implemented in C,
+		inspired to a large extend by the ViennaRNA package.
+	</longdescription>
+</pkgmetadata>

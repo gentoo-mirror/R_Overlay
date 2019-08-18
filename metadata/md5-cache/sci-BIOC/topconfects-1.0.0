@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/assertthat >=dev-lang/R-3.6.0 dev-lang/R
+DESCRIPTION=Top Confident Effect Sizes
+EAPI=6
+IUSE=r_suggests_annotationdbi r_suggests_deseq2 r_suggests_dplyr r_suggests_edger r_suggests_knitr r_suggests_limma r_suggests_nbpseq r_suggests_org_at_tair_db r_suggests_readr r_suggests_reshape2 r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/assertthat >=dev-lang/R-3.6.0 r_suggests_annotationdbi? ( sci-BIOC/AnnotationDbi ) r_suggests_deseq2? ( sci-BIOC/DESeq2 ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_nbpseq? ( sci-CRAN/NBPSeq ) r_suggests_org_at_tair_db? ( sci-BIOC/org_At_tair_db ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/topconfects_1.0.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=11fe89aab3e943a5778fddc14cb20fd6

@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/IRanges sci-CRAN/ggsci sci-BIOC/minfi sci-CRAN/gtools sci-CRAN/dplyr sci-CRAN/gridExtra sci-BIOC/S4Vectors sci-BIOC/SummarizedExperiment sci-BIOC/limma >=dev-lang/R-3.4.0 virtual/cluster sci-CRAN/superheat sci-CRAN/tmle sci-CRAN/doFuture sci-CRAN/ggplot2 sci-BIOC/BiocGenerics sci-CRAN/future sci-BIOC/bumphunter sci-BIOC/BiocParallel sci-BIOC/GenomeInfoDb dev-lang/R
+DESCRIPTION=Targeted, Robust, and Model-free... (see metadata)
+EAPI=6
+IUSE=r_suggests_arm r_suggests_batchjobs r_suggests_biocstyle r_suggests_earth r_suggests_gam r_suggests_knitr r_suggests_minfidata r_suggests_nnet r_suggests_rmarkdown r_suggests_snow r_suggests_superlearner r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+RDEPEND=sci-BIOC/IRanges sci-CRAN/ggsci sci-BIOC/minfi sci-CRAN/gtools sci-CRAN/dplyr sci-CRAN/gridExtra sci-BIOC/S4Vectors sci-BIOC/SummarizedExperiment sci-BIOC/limma >=dev-lang/R-3.4.0 virtual/cluster sci-CRAN/superheat sci-CRAN/tmle sci-CRAN/doFuture sci-CRAN/ggplot2 sci-BIOC/BiocGenerics sci-CRAN/future sci-BIOC/bumphunter sci-BIOC/BiocParallel sci-BIOC/GenomeInfoDb r_suggests_arm? ( sci-CRAN/arm ) r_suggests_batchjobs? ( sci-CRAN/BatchJobs ) r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_earth? ( sci-CRAN/earth ) r_suggests_gam? ( sci-CRAN/gam ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_minfidata? ( sci-BIOC/minfiData ) r_suggests_nnet? ( virtual/nnet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_snow? ( sci-CRAN/snow ) r_suggests_superlearner? ( sci-CRAN/SuperLearner ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/methyvim_1.6.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=47d9f0a3932b748bd57672e245b2a216

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-BIOC/RankProd sci-CRAN/doBy sci-CRAN/reshape2 sci-CRAN/ggplot2 >=dev-lang/R-3.2.0 sci-CRAN/magrittr sci-CRAN/RColorBrewer sci-CRAN/dplyr dev-lang/R
+DESCRIPTION=Hits Selection for Synthetic Let... (see metadata)
+EAPI=6
+IUSE=r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-BIOC/RankProd sci-CRAN/doBy sci-CRAN/reshape2 sci-CRAN/ggplot2 >=dev-lang/R-3.2.0 sci-CRAN/magrittr sci-CRAN/RColorBrewer sci-CRAN/dplyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/synlet_1.14.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=bb7e0b70e07599fd72c3c1819875b8f6

@@ -2,7 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Categorized views of R package repositories // structures for
-		vocabularies and narratives of views
+		Categorized views of R package repositories // Infrastructure to
+		support 'views' used to classify Bioconductor packages.
+		'biocViews' are directed acyclic graphs of terms from a
+		controlled vocabulary. There are three major classifications,
+		corresponding to 'software', 'annotation', and 'experiment
+		data' packages.
 	</longdescription>
 </pkgmetadata>
