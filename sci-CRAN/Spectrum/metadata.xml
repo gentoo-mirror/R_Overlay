@@ -5,13 +5,13 @@
 		Fast Adaptive Spectral Clustering for Single and Multi-View Data
 		// A self-tuning spectral clustering method for single or
 		multi-view data. 'Spectrum' uses a new type of adaptive density
-		aware kernel that strengthens local connections in the graph.
-		It uses a tensor product graph data integration and diffusion
-		procedure to integrate different data sources and reduce noise.
-		'Spectrum' uses either the eigengap or multimodality gap
-		heuristics to determine the number of clusters. The method is
-		sufficiently flexible so that a wide range of Gaussian and non-
-		Gaussian structures can be clustered with automatic selection
-		of K.
+		aware kernel that strengthens connections in the graph based on
+		common nearest neighbours. It uses a tensor product graph data
+		integration and diffusion procedure to integrate different data
+		sources and reduce noise. 'Spectrum' uses either the eigengap
+		or multimodality gap heuristics to determine the number of
+		clusters. The method is sufficiently flexible so that a wide
+		range of Gaussian and non-Gaussian structures can be clustered
+		with automatic selection of K.
 	</longdescription>
 </pkgmetadata>

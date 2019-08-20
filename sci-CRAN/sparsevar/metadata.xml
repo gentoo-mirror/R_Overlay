@@ -2,8 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Package for Sparse VAR/VECM Estimation // A wrapper for sparse
+		Sparse VAR/VECM Models Estimation // A wrapper for sparse
 		VAR/VECM time series models estimation using penalties like
-		ENET, SCAD and MCP.
+		ENET (Elastic Net), SCAD (Smoothly Clipped Absolute Deviation)
+		and MCP (Minimax Concave Penalty). Based on the work of Sumanta
+		Basu and George Michailidis doi:10.1214/15-AOS1315.
 	</longdescription>
 </pkgmetadata>

@@ -2,14 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Presentation-Ready Data Summary Tables // Creates presentation-
-		ready tables summarizing data sets, regression models, and
-		more. The code to create the tables is concise and highly
-		customizable. Data frames can be summarized with many types of
-		statistics presented in any pattern. Regression models are
-		summarized including the reference row for categorical
-		independent variables. Function defaults follow reporting
-		guidelines outlined in Assel, Sjoberg, et al. (2019)
-		doi:10.1016/j.eururo.2018.12.014.
+		Presentation-Ready Data Summary and Analytic Result Tables //
+		Creates presentation-ready tables summarizing data sets,
+		regression models, and more. The code to create the tables is
+		concise and highly customizable. Data frames can be summarized
+		with any function, e.g. mean(), median(), even user-written
+		functions. Regression models are summarized and include the
+		reference rows for categorical variables. Common regression
+		models, such as logistic regression and Cox proportional
+		hazards regression, are automatically identified and the tables
+		are pre-filled with appropriate column headers. The package is
+		enhanced when the 'gt' package is installed. Use this code to
+		install: 'remotes::install_github("rstudio/gt")'.
 	</longdescription>
 </pkgmetadata>
