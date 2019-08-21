@@ -17,6 +17,9 @@
 		table of critical test values at different sample sizes. To
 		install this package, please use
 		'source("http://bioconductor.org/biocLite.R");
-		biocLite("ssizeRNA")'.
+		biocLite("ssizeRNA")'. For R version 3.5 or greater, please use
+		'if(!requireNamespace("BiocManager", quietly =
+		TRUE)){install.packages("BiocManager")};
+		BiocManager::install("ssizeRNA")'.
 	</longdescription>
 </pkgmetadata>
