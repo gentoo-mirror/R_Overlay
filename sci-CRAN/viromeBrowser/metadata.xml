@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Virome Sequencing Analysis Result Browser // Experiments in which
+		highly complex virome sequencing data is generated are
+		difficult to visualize and unpack for a person without
+		programming experience. After processing of the raw sequencing
+		data by a next generation sequencing (NGS) processing pipeline
+		the usual output consists of contiguous sequences (contigs) in
+		fasta format and an annotation file linking the contigs to a
+		reference sequence. The virome analysis browser app imports an
+		annotation file and a corresponding fasta file containing the
+		annotated contigs. It facilitates browsing of annotations in
+		multiple files and allows users to select and export specific
+		annotated sequences from the associated fasta files. Various
+		annotation quality thresholds can be set to filter contigs from
+		the annotation files. Further inspection of selected contigs
+		can be done in the form of automatic open reading frame (ORF)
+		detection. Separate contigs and/or separate ORFs can be
+		downloaded in nucleotide or amino acid format for further
+		analysis.
+	</longdescription>
+</pkgmetadata>
