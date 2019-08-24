@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Lightweight but Feature Complete Unit Testing Framework //
+		Lightweight and Feature Complete Unit Testing Framework //
 		Provides a lightweight (zero-dependency) and easy to use unit
 		testing framework. Main features: install tests with the
 		package. Test results are treated as data that can be stored
@@ -11,6 +11,7 @@
 		build-install-test sequence for packages. Skip tests when not
 		run locally (e.g. on CRAN). Flexible and configurable output
 		printing. Compare computed output with output stored with the
-		package.
+		package. Run tests in parallel. Extensible by other packages.
+		Report side effects.
 	</longdescription>
 </pkgmetadata>
