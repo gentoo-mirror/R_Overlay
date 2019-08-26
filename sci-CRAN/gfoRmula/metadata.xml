@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parametric G-Formula // Implements the parametric g-formula
+		algorithm of Robins (1986) doi:10.1016/0270-0255(86)90088-6.
+		The g-formula can be used to estimate the causal effects of
+		hypothetical time-varying treatment interventions on the mean
+		or risk of an outcome from longitudinal data with time-varying
+		confounding. This package allows: 1) binary or continuous
+		/multi-level time-varying treatments; 2) different types of
+		outcomes (survival or continuous/binary end of follow-up); 3)
+		data with competing events or truncation by death and loss to
+		follow-up and other types of censoring events; 4) different
+		options for handling competing events in the case of survival
+		outcomes; 5) a random measurement/visit process; 6) joint
+		interventions on multiple treatments; and 7) general
+		incorporation of a priori knowledge of the data structure.
+	</longdescription>
+</pkgmetadata>
