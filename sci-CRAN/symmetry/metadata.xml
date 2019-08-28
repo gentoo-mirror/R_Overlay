@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Testing for Symmetry of Data and Model Residuals //
+		Implementations of a large number of tests for symmetry and
+		their bootstrap variants, which can be used for testing the
+		symmetry of random samples around a known or unknown mean.
+		Functions are also there for testing the symmetry of model
+		residuals around zero. Currently, the supported models are
+		linear models and generalized autoregressive conditional
+		heteroskedasticity (GARCH) models (fitted with the 'fGarch'
+		package). All tests are implemented using the 'Rcpp' package
+		which ensures great performance of the code.
+	</longdescription>
+</pkgmetadata>
