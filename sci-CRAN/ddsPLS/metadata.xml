@@ -2,9 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Data-Driven Sparse PLS Robust to Missing Samples for Mono and
-		Multi-Block Data Sets // Allows to build Multi-Data-Driven
-		Sparse PLS models. Multi-blocks with high-dimensional settings
-		are particularly sensible to this.
+		Data-Driven Sparse Partial Least Squares Robust to Missing
+		Samples for Mono and Multi-Block Data Sets // Allows to build
+		Multi-Data-Driven Sparse Partial Least Squares models. Multi-
+		blocks with high-dimensional settings are particularly sensible
+		to this. It comes with visualization functions and uses 'Rcpp'
+		functions for fast computations and 'doParallel' to parallelize
+		cross-validation. This is based on H Lorenzo, J Saracco, R
+		Thiebaut (2019) arXiv:1901.04380. Many applications have been
+		successfully realized. See https://hadrienlorenzo.netlify.com/
+		for more information, documentation and examples.
 	</longdescription>
 </pkgmetadata>
