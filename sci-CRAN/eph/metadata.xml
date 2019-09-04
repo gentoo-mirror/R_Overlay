@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Argentina's Permanent Household Survey Data and Manipulation
+		Utilities // Tools to download and manipulate the Permanent
+		Household Survey from Argentina (EPH is the Spanish acronym for
+		Permanent Household Survey). e.g: get_microdata() for
+		downloading the datasets, get_poverty_lines() for downloading
+		the official poverty baskets, calculate_poverty() for the
+		calculation of stating if a household is in poverty or not,
+		following the official methodology. organize_panels() is used
+		to concatenate observations from different periods, and
+		organize_labels() adds the official labels to the data. The
+		implemented methods are based on INDEC (2016) http://www.estadi
+		stica.ec.gba.gov.ar/dpe/images/SOCIEDAD/EPH_metodologia_22_pobr
+		eza.pdf. As this package works with the argentinian Permanent
+		Household Survey and its main audience is from this country,
+		the documentation was written in Spanish.
+	</longdescription>
+</pkgmetadata>
