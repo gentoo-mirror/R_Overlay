@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis and Prediction of Bicycle Rental Amount // Provides
+		functions for analyzing citizens' bicycle usage pattern and
+		predicting rental amount on specific conditions. Functions on
+		this package interacts with data on 'tashudata' package, a
+		'drat' repository. 'tashudata' package contains rental/return
+		history on public bicycle system('Tashu'), weather for 3 years
+		and bicycle station information. To install this data package,
+		see the instructions at
+		https://github.com/zeee1/Tashu_Rpackage. top10_stations(),
+		top10_paths() function visualizes image showing the most used
+		top 10 stations and paths. daily_bike_rental() and
+		monthly_bike_rental() shows daily, monthly amount of bicycle
+		rental. create_train_dataset(), create_test_dataset() is data
+		processing function for prediction. Bicycle rental history from
+		2013 to 2014 is used to create training dataset and that on
+		2015 is for test dataset. Users can make random-forest
+		prediction model by using create_train_model() and predict
+		amount of bicycle rental in 2015 by using
+		predict_bike_rental().
+	</longdescription>
+</pkgmetadata>

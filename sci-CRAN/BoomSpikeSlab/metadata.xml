@@ -2,7 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		MCMC for Spike and Slab Regression // Spike and slab regression a
-		la McCulloch and George (1997).
+		MCMC for Spike and Slab Regression // Spike and slab regression
+		with a variety of residual error distributions corresponding to
+		Gaussian, Student T, probit, logit, SVM, and a few others.
+		Spike and slab regression is Bayesian regression with prior
+		distributions containing a point mass at zero.  The posterior
+		updates the amount of mass on this point, leading to a
+		posterior distribution that is actually sparse, in the sense
+		that if you sample from it many coefficients are actually
+		zeros.  Sampling from this posterior distribution is an elegant
+		way to handle Bayesian variable selection and model averaging.
+		See DOI:10.1504/IJMMNO.2014.059942 for an explanation of the
+		Gaussian case.
 	</longdescription>
 </pkgmetadata>
