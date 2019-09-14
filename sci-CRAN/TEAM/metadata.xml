@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiple Hypothesis Testing on an Aggregation Tree Method // An
+		implementation of the TEAM algorithm to identify local
+		differences between two (e.g. case and control) independent,
+		univariate distributions, as described in J Pura, C Chan, and J
+		Xie (2019) arXiv:1906.07757. The algorithm is based on
+		embedding a multiple-testing procedure on a hierarchical
+		structure to identify high-resolution differences between two
+		distributions. The hierarchical structure is designed to
+		identify strong, short-range differences at lower layers and
+		weaker, but long-range differences at increasing layers. TEAM
+		yields consistent layer-specific and overall false discovery
+		rate control.
+	</longdescription>
+</pkgmetadata>

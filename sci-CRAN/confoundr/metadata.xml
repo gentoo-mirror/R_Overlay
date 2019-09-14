@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Diagnostics for Confounding of Time-Varying and Other Joint
+		Exposures // Implements three covariate-balance diagnostics for
+		time-varying confounding and selection-bias in complex
+		longitudinal data, as described in Jackson (2016)
+		doi:10.1097/EDE.0000000000000547 and Jackson (2019)
+		doi:10.1093/aje/kwz136. Diagnostic 1 assesses measured
+		confounding/selection-bias, diagnostic 2 assesses exposure-
+		covariate feedback, and diagnostic 3 assesses residual
+		confounding/selection-bias after inverse probability weighting
+		or propensity score stratification. All diagnostics
+		appropriately account for exposure history, can be adapted to
+		assess a particular depth of covariate history, and can be
+		implemented in right-censored data. Balance assessments can be
+		obtained for all times, selected-times, or averaged across
+		person-time. The balance measures are reported as tables or
+		plots. These diagnostics can be applied to the study of
+		multivariate exposures including time-varying exposures, direct
+		effects, interaction, and censoring.
+	</longdescription>
+</pkgmetadata>

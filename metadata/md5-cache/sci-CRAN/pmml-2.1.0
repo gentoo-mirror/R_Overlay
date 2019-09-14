@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-omegahat/XML sci-CRAN/stringr dev-lang/R
+DESCRIPTION=Generate PMML for Various Models
+EAPI=6
+IUSE=r_suggests_ada r_suggests_amap r_suggests_arules r_suggests_caret r_suggests_clue r_suggests_covr r_suggests_data_table r_suggests_e1071 r_suggests_forecast r_suggests_gbm r_suggests_glmnet r_suggests_kernlab r_suggests_knitr r_suggests_matrix r_suggests_neighbr r_suggests_nnet r_suggests_randomforest r_suggests_randomforestsrc r_suggests_rmarkdown r_suggests_rpart r_suggests_survival r_suggests_testthat r_suggests_xgboost byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-omegahat/XML sci-CRAN/stringr r_suggests_ada? ( sci-CRAN/ada ) r_suggests_amap? ( sci-CRAN/amap ) r_suggests_arules? ( sci-CRAN/arules ) r_suggests_caret? ( sci-CRAN/caret ) r_suggests_clue? ( sci-CRAN/clue ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_neighbr? ( sci-CRAN/neighbr ) r_suggests_nnet? ( virtual/nnet ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_randomforestsrc? ( <=sci-CRAN/randomForestSRC-2.5.0 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpart? ( virtual/rpart ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pmml_2.1.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=cd37d970a6a731973575d8186f95acc5
