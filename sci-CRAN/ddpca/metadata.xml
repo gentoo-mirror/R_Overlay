@@ -2,19 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Diagonally Dominant Principal Component Analysis // Consider the
-		problem of decomposing a large covariance matrix into a low
-		rank matrix plus a diagonally dominant matrix. This problem is
-		called Diagonally Dominant Principal Component Analysis (DD-
-		PCA) in the reference Ke, Z., Xue, L. and Yang, F. (2019)
-		arXiv:1906.00051. DD-PCA can be used in covariance matrix
-		estimation and global detection in multiple testing. This
-		package implements DD-PCA using both convex approach and non-
-		convex approach; Convex approach refers to solving a convex
-		relaxation of the original problem using Alternating Direction
-		Method of Multipliers (ADMM), while non-convex approach resorts
-		to an iterative projection algorithm. This package also
-		implements two global testing methods proposed in the
-		reference.
+		Diagonally Dominant Principal Component Analysis // Efficient
+		procedures for fitting the DD-PCA (Ke et al., 2019,
+		arXiv:1906.00051)  by decomposing a large covariance matrix
+		into a low-rank matrix plus a diagonally dominant matrix. The
+		implementation of DD-PCA includes the convex approach using the
+		Alternating Direction Method of Multipliers (ADMM) and the non-
+		convex approach using the iterative projection algorithm.
+		Applications of DD-PCA to large covariance matrix estimation
+		and global multiple testing are also included in this package.
 	</longdescription>
 </pkgmetadata>
