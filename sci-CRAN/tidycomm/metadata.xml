@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Data Modifcation and Analysis for Communication Research //
+		Data Modification and Analysis for Communication Research //
 		Provides convenience functions for common data modification and
 		analysis tasks in communication research. This includes
 		functions for univariate and bivariate data analysis, index
@@ -11,13 +11,15 @@
 		the tidyverse, and are construed to perform their computations
 		on multiple variables at once. Functions for univariate and
 		bivariate data analysis comprise summary statistics for
-		continouos and categorical variables, as well as several tests
+		continuous and categorical variables, as well as several tests
 		of bivariate association including effect sizes. Functions for
 		data modification comprise index generation and automated
 		reliability analysis of index variables. Functions for
 		intercoder reliability comprise tests of several intercoder
 		reliability estimates, including simple and mean pairwise
-		percent agreement, Krippendorff's Alpha, and various Kappa
-		coefficients.
+		percent agreement, Krippendorff's Alpha (Krippendorff 2004,
+		ISBN: 9780761915454), and various Kappa coefficients (Brennan
+		Prediger 1981 doi: 10.1177/001316448104100307; Cohen 1960 doi:
+		10.1177/001316446002000104; Fleiss 1971 doi: 10.1037/h0031619).
 	</longdescription>
 </pkgmetadata>
