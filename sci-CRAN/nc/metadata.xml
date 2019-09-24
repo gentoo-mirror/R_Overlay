@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Named Capture to Data Tables // User-friendly functions for
+		extracting a data table (row for each match, column for each
+		group) from non-tabular text data using regular expressions.
+		Patterns are defined using a readable syntax that makes it easy
+		to build complex patterns in terms of simpler, re-usable sub-
+		patterns. Named R arguments are translated to column names in
+		the output; capture groups without names are used internally in
+		order to provide a standard interface to three regular
+		expression C libraries (PCRE, RE2, ICU). Output can also
+		include numeric columns via user-specified type conversion
+		functions.
+	</longdescription>
+</pkgmetadata>
