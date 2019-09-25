@@ -14,18 +14,19 @@
 		coefficients, or equivalently, the latent space-time process.
 		In comparison to the traditional approach of using a spatio-
 		temporal covariance function, the spectral SPDE approach is
-		computationally advantageous. This package aims at providing
-		tools for two different modeling approaches. First, the SPDE
-		based spatio-temporal model can be used as a component in a
-		customized hierarchical Bayesian model (HBM). The functions of
-		the package then provide parameterizations of the process part
-		of the model as well as computationally efficient algorithms
-		needed for doing inference with the HBM. Alternatively, the
-		adaptive MCMC algorithm implemented in the package can be used
-		as an algorithm for doing inference without any additional
-		modeling. The MCMC algorithm supports data that follow a
-		Gaussian or a censored distribution with point mass at zero.
-		Covariates can be included in the model through a regression
-		term.
+		computationally advantageous. See Sigrist, Kuensch, and Stahel
+		(2015) doi:10.1111/rssb.12061 for more information on the
+		methodology. This package aims at providing tools for two
+		different modeling approaches. First, the SPDE based spatio-
+		temporal model can be used as a component in a customized
+		hierarchical Bayesian model (HBM). The functions of the package
+		then provide parameterizations of the process part of the model
+		as well as computationally efficient algorithms needed for
+		doing inference with the HBM. Alternatively, the adaptive MCMC
+		algorithm implemented in the package can be used as an
+		algorithm for doing inference without any additional modeling.
+		The MCMC algorithm supports data that follow a Gaussian or a
+		censored distribution with point mass at zero. Covariates can
+		be included in the model through a regression term.
 	</longdescription>
 </pkgmetadata>
