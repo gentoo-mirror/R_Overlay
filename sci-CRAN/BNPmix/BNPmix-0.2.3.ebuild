@@ -1,0 +1,19 @@
+# Copyright 1999-2019 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Bayesian Nonparametric Mixture Models'
+SRC_URI="http://cran.r-project.org/src/contrib/BNPmix_0.2.3.tar.gz"
+LICENSE='LGPL-3'
+
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
+	sci-CRAN/coda
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/RcppArmadillo
+	>=sci-CRAN/Rcpp-0.12.13
+"
