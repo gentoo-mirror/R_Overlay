@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Modeling and Assessing Similarity of Drug Dissolutions Profiles
+		// Implementation of a model-based bootstrap approach for
+		testing whether two formulations are similar. The package
+		provides a function for fitting a pharmacokinetic model to
+		time-concentration data and comparing the results for all five
+		candidate models regarding the Residual Sum of Squares (RSS).
+		The candidate set contains a First order, Hixson-Crowell,
+		Higuchi, Weibull and a logistic model. The assessment of
+		similarity implemented in this package is performed regarding
+		the maximum deviation of the profiles. See Moellenhoff et al.
+		(2018) doi:10.1002/sim.7689 for details.
+	</longdescription>
+</pkgmetadata>
