@@ -2,7 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Gaussian Process Laboratory // Gaussian Process models with
-		customised covariance kernels.
+		Gaussian Process Laboratory // Gaussian process regression with
+		an emphasis on kernels. Quantitative and qualitative inputs are
+		accepted. Some pre-defined kernels are available, such as
+		radial or tensor-sum for quantitative inputs, and compound
+		symmetry, low rank, group kernel for qualitative inputs. The
+		user can define new kernels and composite kernels through a
+		formula mechanism. Useful methods include parameter estimation
+		by maximum likelihood, simulation, prediction and leave-one-out
+		validation.
 	</longdescription>
 </pkgmetadata>
