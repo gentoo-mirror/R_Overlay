@@ -2,8 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Utilities for Delaying Function Execution // Executes arbitrary R
-		or C functions some time after the current time, after the R
-		execution stack has emptied.
+		Utilities for Scheduling Functions to Execute Later with Event
+		Loops // Executes arbitrary R or C functions some time after
+		the current time, after the R execution stack has emptied. The
+		functions are scheduled in an event loop.
 	</longdescription>
 </pkgmetadata>
