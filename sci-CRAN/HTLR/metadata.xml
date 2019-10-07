@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Logistic Regression with Heavy-Tailed Priors //
+		Efficient Bayesian multinomial logistic regression based on
+		heavy-tailed (hyper-LASSO, non-convex) priors. The posterior of
+		coefficients and hyper-parameters is sampled with restricted
+		Gibbs sampling for leveraging the high-dimensionality and
+		Hamiltonian Monte Carlo for handling the high-correlation among
+		coefficients. A detailed description of the method: Li and Yao
+		(2018), JSCS, 88:14, 2827-2851, arXiv:1405.3319.
+	</longdescription>
+</pkgmetadata>
