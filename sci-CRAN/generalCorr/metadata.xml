@@ -2,29 +2,24 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Generalized Correlations and Initial Causal Path // Since causal
-		paths from data are important for all sciences, the package
-		provides sophisticated functions. The idea is simply that if X
-		causes Y (path: X to Y) then non-deterministic variation in X
-		is more "original or independent" than similar variation in Y.
-		Since causal variables are also exogenous in a model, we
-		provide new exogeneity tests.  We compare two flipped kernel
-		regressions: X=f(Y, Z) and Y=g(X,Z), where Z are control
-		variables. Our first two criteria compare absolute cross
-		products of regressor values and residuals (Cr1) and absolute
-		residuals (Cr2), are both quantified by stochastic dominance of
-		four orders (SD1 to SD4). Our third criterion (Cr3) expects X
-		to be better able to predict Y than the other way around using
-		generalized partial correlation If |r*(x|y,z)| |r*(y|x,z)| it
-		suggests that y is more likely the "kernel cause" of x. The
-		usual partial correlations are generalized with a new non-
-		symmetric matrix developed here. Partial correlations help
-		asses effect of x on y after removing the effect of a set of
-		variables. The package provides additional tools for causal
-		assessment, for printing the causal directions in a clear,
-		comprehensive compact summary form, for matrix algebra, for
-		"outlier detection", and for numerical integration by the
-		trapezoidal rule, stochastic dominance, etc. The package has
-		functions for bootstrap-based statistical inference.
+		Generalized Correlations and Plausible Causal Paths // Since
+		causal paths from data are important for all sciences, the
+		package provides many sophisticated functions. causeSummary()
+		gives easy-to-interpret causal paths.  Let Z denote control
+		variables and compare two flipped kernel regressions: X=f(Y,
+		Z)+e1 and Y=g(X,Z)+e2. Our criterion Cr1 says that if
+		|e1*Y||e2*X| then variation in X is more "exogenous or
+		independent" than in Y and causal path is X to Y. Criterion Cr2
+		requires |e2||e1|. These inequalities between many absolute
+		value are quantified by four orders of stochastic dominance.
+		Our third criterion Cr3 for the causal path X to Y requires new
+		generalized partial correlations to satisfy |r*(x|y,z)|
+		|r*(y|x,z)|. The function parcorMany() reports generalized
+		partials between the first variable and all others.  The
+		package provides additional R tools for causal assessment,
+		"outlier detection," and for numerical integration by the
+		trapezoidal rule, stochastic dominance, pillar 3D charts, etc.
+		We also provide functions for bootstrap-based statistical
+		inference for causal paths.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Higher Criticism Tuned Regression // A novel searching scheme for
+		tuning parameter in high-dimensional penalized regression. We
+		propose a new estimate of the regularization parameter based on
+		an estimated lower bound of the proportion of false null
+		hypotheses (Meinshausen and Rice (2006)
+		doi:10.1214/009053605000000741). The bound is estimated by
+		applying the empirical null distribution of the higher
+		criticism statistic, a second-level significance testing, which
+		is constructed by dependent p-values from a multi-split
+		regression and aggregation method (Jeng, Zhang and Tzeng (2019)
+		doi:10.1080/01621459.2018.1518236). An estimate of tuning
+		parameter in penalized regression is decided corresponding to
+		the lower bound of the proportion of false null hypotheses.
+		Different penalized regression methods are provided in the
+		multi-split algorithm.
+	</longdescription>
+</pkgmetadata>

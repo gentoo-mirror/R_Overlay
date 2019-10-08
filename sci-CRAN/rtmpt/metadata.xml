@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fitting RT-MPT Models // Fit response-time extended multinomial
+		processing tree (RT-MPT) models by Klauer and Kellen (2018)
+		doi:10.1016/j.jmp.2017.12.003. The RT-MPT class not only
+		incorporate frequencies like traditional multinomial processing
+		tree (MPT) models, but also latencies. This enables it to
+		estimate process completion times and encoding plus motor
+		execution times next to the process probabilities of
+		traditional MPTs. 'rtmpt' is a Bayesian framework and posterior
+		samples are sampled using a Metropolis-Gibbs sampler like the
+		one described in the Klauer and Kellen (2018), but with some
+		modifications. Other than in the original C++ program we use
+		the free and open source GNU Scientific Library (GSL). There is
+		also the possibility to suppress single process completion
+		times.
+	</longdescription>
+</pkgmetadata>
