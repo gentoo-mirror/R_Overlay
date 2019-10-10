@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Shrinkage Estimation Methods for Vector Autoregressive Models //
+		Vector autoregressive (VAR) model is a fundamental and
+		effective approach for multivariate time series analysis.
+		Shrinkage estimation methods can be applied to high-dimensional
+		VAR models with dimensionality greater than the number of
+		observations, contrary to the standard ordinary least squares
+		method. This package is an integrative package delivering
+		nonparametric, parametric, and semiparametric methods in a
+		unified and consistent manner, such as the multivariate ridge
+		regression in Golub, Heath, and Wahba (1979)
+		doi:10.2307/1268518, a James-Stein type nonparametric shrinkage
+		method in Opgen-Rhein and Strimmer (2007)
+		doi:10.1186/1471-2105-8-S2-S3, and Bayesian estimation methods
+		using noninformative and informative priors in Lee, Choi, and
+		S.-H. Kim (2016) doi:10.1016/j.csda.2016.03.007 and Ni and Sun
+		(2005) doi:10.1198/073500104000000622.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Single-Index Models with a Surface-Link // An implementation of a
+		single-index regression for optimizing individualized dose
+		rules from an observational study. To model interaction effects
+		between baseline covariates and a treatment variable defined on
+		a continuum, we employ two-dimensional penalized spline
+		regression on an index-treatment domain, where the index is
+		defined as a linear combination of the covariates (a single-
+		index). An unspecified main effect for the covariates is
+		allowed. A unique contribution of this work is in the
+		parsimonious single-index parametrization specifically defined
+		for the interaction effect term. We refer to Park, Petkova,
+		Tarpey, and Ogden (2020) doi:10.1016/j.jspi.2019.05.008 (for
+		the case of a discrete treatment) and Park, Petkova, Tarpey,
+		and Ogden (2019) "A single-index model with a surface-link for
+		optimizing individualized dose rules" (pre-print) for detail of
+		the method. The main function of this package is simsl().
+	</longdescription>
+</pkgmetadata>

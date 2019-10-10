@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Inverse Probability Weighted Cox Model with Corrected Sandwich
+		Variance // An implementation of corrected sandwich variance
+		(CSV) estimation method for making inference of marginal hazard
+		ratios (HR) in inverse probability weighted (IPW) Cox model
+		without and with clustered data, proposed by Shu, Young, Toh,
+		and Wang (2019) in their paper under revision for Biometrics.
+		Both conventional inverse probability weights and stabilized
+		weights are implemented. Logistic regression model is assumed
+		for propensity score model.
+	</longdescription>
+</pkgmetadata>
