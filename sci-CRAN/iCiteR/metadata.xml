@@ -2,13 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Returns Data from the NIH's 'iCite' API // A minimal wrapper
+		A Minimal Wrapper Around NIH's 'iCite' API // A minimal wrapper
 		around the NIH's 'iCite' API (https://icite.od.nih.gov/api).
 		Given a vector of pubmed IDs, this package returns a dataframe
 		of the information yielded by the 'iCite' API. The primary
-		metric yielded by 'iCite' is the paper's relative citation
-		ratio, but the API also returns other meta-data from the paper,
-		including author names, publication journal, publication year,
-		paper title, doi, and a number of other citation metrics.
+		metrics yielded by 'iCite' are measurements of a paper's
+		scientific influence and translational potential, but the API
+		also returns other meta-data from the paper, including author
+		names, publication journal, publication year, paper title, doi,
+		and a number of other citation metrics.
 	</longdescription>
 </pkgmetadata>
