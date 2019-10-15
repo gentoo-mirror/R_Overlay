@@ -2,11 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Subgroup Discovery with Evolutionary Fuzzy Systems in R //
+		Subgroup Discovery with Evolutionary Fuzzy Systems //
 		Implementation of evolutionary fuzzy systems for the data
-		mining task called "subgroup discovery". It also provide a
-		Shiny App for make the analysis easier. The algorithms works
-		with data sets provided in KEEL, ARFF and CSV format and also
-		with data.frame objects.
+		mining task called "subgroup discovery". In particular, the
+		algorithms presented in this package are: M. J. del Jesus, P.
+		Gonzalez, F. Herrera, M. Mesonero (2007)
+		doi:10.1109/TFUZZ.2006.890662 M. J. del Jesus, P. Gonzalez, F.
+		Herrera (2007) doi:10.1109/MCDM.2007.369416 C. J. Carmona, P.
+		Gonzalez, M. J. del Jesus, F. Herrera (2010)
+		doi:10.1109/TFUZZ.2010.2060200 C. J. Carmona, V. Ruiz-Rodado,
+		M. J. del Jesus, A. Weber, M. Grootveld, P. Gonzlez, D.
+		Elizondo (2015) doi:10.1016/j.ins.2014.11.030 It also provide a
+		Shiny App to ease the analysis. The algorithms work with data
+		sets provided in KEEL, ARFF and CSV format and also with
+		data.frame objects.
 	</longdescription>
 </pkgmetadata>
