@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Genomic Selection using Multiple Traits // Genomic selection (GS)
+		is recent development in animal and plant breeding. In GS whole
+		genome markers information is used to predict genetic merit of
+		an individual. This package is basically developed for genomic
+		predictions by estimating marker effects. These marker effects
+		are then further used for calculation of genotypic merit of
+		individual i.e. genome estimated breeding values (GEBVs).
+		However, as genetic correlations between quantitative traits
+		under breeding studies are obvious. These correlations indicate
+		that one trait carry information over other traits. Current,
+		single-trait genomic selection (STGS) methods could not able to
+		utilize this information. Genomic selection based on multiple
+		traits (MTGS) could be a better alternative to STGS. This
+		package performs genomic selection using multi traits
+		information hence named as MTGS i.e. multi trait genomic
+		selection. MTGS is a comprehensive package which gives single
+		step solution for genomic selection using various MTGS based
+		methods.
+	</longdescription>
+</pkgmetadata>
