@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Fast Way to Calculate the p-Value of One or Multiple Log-Rank-
+		Tests // It is for all people who have to compute many Log-
+		Rank-Tests and the 'survival' package is not fast enough for
+		their purpose. Therefore this small package provides two
+		functions, one for a single Log-Rank-Test and another which
+		calculates many Log-Rank-Tests at a time using threading. Both
+		runs very fast because it uses C++ code with 'Rcpp'.
+	</longdescription>
+</pkgmetadata>

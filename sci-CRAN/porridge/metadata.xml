@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Ridge-Type Penalized Estimation of a Potpourri of Models // The
+		name of the package is derived from the French, 'pour' ridge,
+		and provides functionality for ridge-type estimation of a
+		potpourri of models. Currently, this estimation concerns that
+		of various Gaussian graphical models from different study
+		designs. Among others it considers the regular Gaussian
+		graphical model and a mixture of such models. The porridge-
+		package implements the estimation of the former either from i)
+		data with replicated observations by penalized loglikelihood
+		maximization using the regular ridge penalty on the parameters
+		(van Wieringen, Chen, 2019) or ii) from non-replicated data by
+		means of the generalized ridge estimator that allows for both
+		the inclusion of quantitative and qualitative prior information
+		on the precision matrix via element-wise penalization and
+		shrinkage (van Wieringen, 2019,
+		doi.org/10.1080/10618600.2019.1604374). Additionally, the
+		porridge-package facilitates the ridge penalized estimation of
+		a mixture of Gaussian graphical models (Aflakparast et al.,
+		2018, doi.org/10.1002/bimj.201700102).
+	</longdescription>
+</pkgmetadata>

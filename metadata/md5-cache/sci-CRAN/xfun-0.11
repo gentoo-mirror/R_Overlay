@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=dev-lang/R
+DESCRIPTION=Miscellaneous Functions by Yihui Xie
+EAPI=6
+IUSE=r_suggests_base64enc r_suggests_htmltools r_suggests_knitr r_suggests_markdown r_suggests_mime r_suggests_remotes r_suggests_rmarkdown r_suggests_rstudioapi r_suggests_testit r_suggests_tinytex byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=r_suggests_base64enc? ( sci-CRAN/base64enc ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mime? ( sci-CRAN/mime ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_testit? ( sci-CRAN/testit ) r_suggests_tinytex? ( sci-CRAN/tinytex ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/xfun_0.11.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=311d716849f00575a4ee162a441830ec

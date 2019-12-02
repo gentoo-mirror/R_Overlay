@@ -4,12 +4,13 @@
 	<longdescription>
 		Bias Reduction in Generalized Linear Models // Estimation and
 		inference from generalized linear models based on various
-		methods for bias reduction. The 'brglmFit' fitting method can
-		achieve reduction of estimation bias by solving either the mean
-		bias-reducing adjusted score equations in Firth (1993)
-		doi:10.1093/biomet/80.1.27 and Kosmidis and Firth (2009)
-		doi:10.1093/biomet/asp055, or the median bias-reduction
-		adjusted score equations in Kenne et al. (2016)
+		methods for bias reduction and maximum penalized likelihood
+		with powers of the Jeffreys prior as penalty. The 'brglmFit'
+		fitting method can achieve reduction of estimation bias by
+		solving either the mean bias-reducing adjusted score equations
+		in Firth (1993) doi:10.1093/biomet/80.1.27 and Kosmidis and
+		Firth (2009) doi:10.1093/biomet/asp055, or the median bias-
+		reduction adjusted score equations in Kenne et al. (2016)
 		arXiv:1604.04768, or through the direct subtraction of an
 		estimate of the bias of the maximum likelihood estimator from
 		the maximum likelihood estimates as in Cordeiro and McCullagh

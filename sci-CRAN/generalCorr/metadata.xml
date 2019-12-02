@@ -4,7 +4,7 @@
 	<longdescription>
 		Generalized Correlations and Plausible Causal Paths // Since
 		causal paths from data are important for all sciences, the
-		package provides many sophisticated functions. causeSummary()
+		package provides many sophisticated functions. causeSummBlk()
 		gives easy-to-interpret causal paths.  Let Z denote control
 		variables and compare two flipped kernel regressions: X=f(Y,
 		Z)+e1 and Y=g(X,Z)+e2. Our criterion Cr1 says that if
@@ -14,12 +14,13 @@
 		value are quantified by four orders of stochastic dominance.
 		Our third criterion Cr3 for the causal path X to Y requires new
 		generalized partial correlations to satisfy |r*(x|y,z)|
-		|r*(y|x,z)|. The function parcorMany() reports generalized
+		|r*(y|x,z)|. The function parcorBMany() reports generalized
 		partials between the first variable and all others.  The
 		package provides additional R tools for causal assessment,
 		"outlier detection," and for numerical integration by the
 		trapezoidal rule, stochastic dominance, pillar 3D charts, etc.
 		We also provide functions for bootstrap-based statistical
-		inference for causal paths.
+		inference for causal paths. causeSummary() and causeSummBlk()
+		are easiest to use functions.
 	</longdescription>
 </pkgmetadata>

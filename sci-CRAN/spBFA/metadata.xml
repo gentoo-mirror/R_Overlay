@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spatial Bayesian Factor Analysis // Implements a spatial Bayesian
+		non-parametric factor analysis model with inference in a
+		Bayesian setting using Markov chain Monte Carlo (MCMC). Spatial
+		correlation is introduced in the columns of the factor loadings
+		matrix using a Bayesian non-parametric prior, the probit stick-
+		breaking process. Areal spatial data is modeled using a
+		conditional autoregressive (CAR) prior and point-referenced
+		spatial data is treated using a Gaussian process. The response
+		variable can be modeled as Gaussian, probit, Tobit, or Binomial
+		(using Polya-Gamma augmentation). Temporal correlation is
+		introduced for the latent factors through a hierarchical
+		structure and can be specified as exponential or first-order
+		autoregressive.
+	</longdescription>
+</pkgmetadata>

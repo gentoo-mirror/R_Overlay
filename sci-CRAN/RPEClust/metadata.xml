@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Random Projection Ensemble Clustering Algorithm // Implements the
+		methodology proposed by Anderlucci, Fortunato and Montanari
+		(2019) arXiv:1909.10832 for high-dimensional unsupervised
+		classification. The random projection ensemble clustering
+		algorithm applies a Gaussian Mixture Model to different random
+		projections of the high-dimensional data and selects a subset
+		of solutions accordingly to the Bayesian Information Criterion,
+		computed here as discussed in Raftery and Dean (2006)
+		doi:10.1198/016214506000000113. The clustering results obtained
+		on the selected projections are then aggregated via consensus
+		to derive the final partition.
+	</longdescription>
+</pkgmetadata>

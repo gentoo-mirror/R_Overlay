@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stratification and Matching for Large Observational Data Sets //
+		A pilot matching design to automatically stratify and match
+		large datasets.  The manual_stratify() function allows users to
+		manually stratify a dataset based on categorical variables of
+		interest, while the auto_stratify() function does automatically
+		by allocating a held-aside (pilot) data set, fitting a
+		prognostic score (see Hansen (2008) doi:10.1093/biomet/asn004)
+		on the pilot set, and stratifying the data set based on
+		prognostic score quantiles.  The strata_match() function then
+		does optimal matching of the data set in parallel within
+		strata.
+	</longdescription>
+</pkgmetadata>

@@ -4,13 +4,16 @@
 	<longdescription>
 		Statistical Functions for Probability Distributions and
 		Regression // A collection of miscellaneous statistical
-		functions for probability distributions: dbern(), pbern(),
-		qbern(), rbern() for the Bernoulli distribution, and
-		distr2name(), name2distr() for distribution names; probability
-		density estimation: densityfun(); most frequent value
-		estimation: mfv(), mfv1(); calculation of the Hellinger
-		distance: hellinger(); use of classical kernels: kernelfun(),
-		kernel_properties(); univariate piecewise-constant regression:
-		picor().
+		functions for probability distributions: 'dbern()', 'pbern()',
+		'qbern()', 'rbern()' for the Bernoulli distribution, and
+		'distr2name()', 'name2distr()' for distribution names;
+		probability density estimation: 'densityfun()'; most frequent
+		value estimation: 'mfv()', 'mfv1()'; other statistical measures
+		of location: 'cv()' (coefficient of variation), 'midhinge()',
+		'midrange()', 'trimean()'; construction of histograms:
+		'histo()', 'find_breaks()'; calculation of the Hellinger
+		distance: 'hellinger()'; use of classical kernels:
+		'kernelfun()', 'kernel_properties()'; univariate piecewise-
+		constant regression: 'picor()'.
 	</longdescription>
 </pkgmetadata>

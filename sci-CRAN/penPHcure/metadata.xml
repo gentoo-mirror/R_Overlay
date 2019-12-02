@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Selection in PH Cure Model with Time-Varying Covariates
+		// Implementation of the semi-parametric proportional-hazards
+		(PH) of Sy and Taylor (2000)
+		doi:10.1111/j.0006-341X.2000.00227.x extended to time-varying
+		covariates. Estimation and variable selection are based on the
+		methodology described in Beretta and Heuchenne (2019)
+		doi:10.1080/02664763.2018.1554627; confidence intervals of the
+		parameter estimates may be computed using a bootstrap approach.
+		Moreover, data following the PH cure model may be simulated
+		using a method similar to Hendry (2014) doi:10.1002/sim.5945,
+		where the event-times are generated on a continuous scale from
+		a piecewise exponential distribution conditional on time-
+		varying covariates.
+	</longdescription>
+</pkgmetadata>

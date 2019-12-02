@@ -7,13 +7,17 @@
 		mixtures of  truncated basis  functions (MoTBFs),  which
 		include mixtures of  polynomials (MOPs) and  mixtures of
 		truncated exponentials (MTEs). MoTBFs are a flexible framework
-		for modelling hybrid Bayesian networks. The  package provides
-		functionality for learning  univariate, multivariate and
-		conditional  densities, with the  possibility of incorporating
-		prior  knowledge. Structural learning of hybrid Bayesian
-		networks is also provided. A set of useful tools is provided,
-		including  plotting, printing  and likelihood  evaluation. This
-		package  makes use of  S3 objects, with two new classes called
-		'motbf' and 'jointmotbf'.
+		for modelling hybrid Bayesian networks (I. Prez-Bernab, A.
+		Salmern, H. Langseth (2015) doi:10.1007/978-3-319-20807-7_36;
+		H. Langseth, T.D. Nielsen, I. Prez-Bernab, A. Salmern (2014)
+		doi:10.1016/j.ijar.2013.09.012; I. Prez-Bernab, A. Fernndez, R.
+		Rum, A. Salmern (2016) doi:10.1007/s10618-015-0429-7). The
+		package provides  functionality for learning  univariate,
+		multivariate and conditional  densities, with the  possibility
+		of incorporating prior  knowledge. Structural learning of
+		hybrid Bayesian  networks is also provided. A set of useful
+		tools is provided, including  plotting, printing  and
+		likelihood  evaluation. This  package  makes use of  S3
+		objects, with two new classes called 'motbf' and 'jointmotbf'.
 	</longdescription>
 </pkgmetadata>
