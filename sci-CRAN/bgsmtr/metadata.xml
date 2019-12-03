@@ -2,14 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Bayesian Group Sparse Multi-Task Regression // Fits a Bayesian
-		group-sparse multi-task regression model using Gibbs sampling.
-		The hierarchical prior encourages shrinkage of the estimated
-		regression coefficients at both the gene and SNP level. The
-		model has been extended to a spatial model that allows for two
-		type correlation in neuroimaging genetics data and been applied
-		successfully to imaging phenotypes of dimension up to 100; it
-		can be used more generally for multivariate (non-imaging)
-		phenotypes.
+		Bayesian Group Sparse Multi-Task Regression // Implementation of
+		Bayesian multi-task regression models and was developed within
+		the context of imaging genetics. The package can currently fit
+		two models. The Bayesian group sparse multi-task regression
+		model of Greenlaw et al. (2017) can be fit with implementation
+		using Gibbs sampling. An extension of this model developed by
+		Song, Ge et al. (2019) to accommodate both spatial correlation
+		as well as correlation across brain hemispheres can also be fit
+		using either mean-field variational Bayes or Gibbs sampling.
+		The model can also be used more generally for multivariate
+		(non-imaging) phenotypes with spatial correlation.
 	</longdescription>
 </pkgmetadata>

@@ -9,12 +9,16 @@
 		of daily streamflow values and their temporal correlation as
 		expressed by short- and long-range dependence. The approach is
 		based on the randomization of the phases of the Fourier
+		transform or the phases of the wavelet transform. The function
+		prsim() is applicable to single site simulation and uses the
+		Fourier transform. The function prsim.wave() extends the
+		approach to multiple sites and is based on the complex wavelet
 		transform. We further use the flexible four-parameter Kappa
 		distribution, which allows for the extrapolation to yet
 		unobserved low and high flows. Alternatively, the empirical or
 		any other distribution can be used. A detailed description of
-		the simulation approach and an application example can be found
-		in https://www.hydrol-earth-syst-sci-
+		the simulation approach for single sites and an application
+		example can be found in https://www.hydrol-earth-syst-sci-
 		discuss.net/hess-2019-142/.
 	</longdescription>
 </pkgmetadata>

@@ -2,16 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Area Correction Methods // Bird and bat carcasses from wind
-		turbines often fall outside of the searched area. To
-		compensate, area correction (AC) estimations are calculated to
-		estimate the percentage of fatalities that fall within the
-		searched area versus those that fall outside of it. This
-		package provides two likelihood based methods and one physics
-		based method (Hull and Muir (2010)
-		doi:10.1080/14486563.2010.9725253) to estimate the carcass fall
-		distance distribution. There are also functions for calculating
-		the proportion of area searched in one unit annuli, log
+		Area Correction Methods // Post-construction fatality monitoring
+		studies at wind facilities are based on data from searches for
+		bird and bat carcasses in plots beneath turbines. Bird and bat
+		carcasses can fall outside of the search plot. Bird and bat
+		carcasses from wind turbines often fall outside of the searched
+		area. To compensate, area correction (AC) estimations are
+		calculated to estimate the percentage of fatalities that fall
+		within the searched area versus those that fall outside of it.
+		This package provides two likelihood based methods and one
+		physics based method (Hull and Muir (2010)
+		doi:10.1080/14486563.2010.9725253, Huso and Dalthorp (2014)
+		doi:10.1002/jwmg.663) to estimate the carcass fall
+		distribution. There are also functions for calculating the
+		proportion of area searched within one unit annuli, log
 		logistic distribution functions, and truncated distribution
 		functions.
 	</longdescription>
