@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		ROC based classification // Functions for a classification method
+		ROC Based Classification // Functions for a classification method
 		based on receiver operating characteristics (ROC). Briefly,
 		features are selected according to their ranked AUC value in
 		the training set. The selected features are merged by the mean
-		value to form a metagene. The samples are ranked by their
-		metagene value and the metagene threshold that has the highest
-		accuracy in splitting the training samples is determined. A new
-		sample is classified by its metagene value relative to the
-		threshold. In the first place, the package is aimed at two
-		class problems in gene expression data, but might also apply to
-		other problems.
+		value to form a meta-gene. The samples are ranked by their
+		meta-gene value and the meta-gene threshold that has the
+		highest accuracy in splitting the training samples is
+		determined. A new sample is classified by its meta-gene value
+		relative to the threshold. In the first place, the package is
+		aimed at two class problems in gene expression data, but might
+		also apply to other problems.
 	</longdescription>
 </pkgmetadata>
