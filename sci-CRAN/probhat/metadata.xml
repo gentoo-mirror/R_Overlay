@@ -2,13 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Generalized Kernel Smoothing // Computes nonparametric
-		probability distributions (probability density functions,
-		cumulative distribution functions and quantile functions) using
-		kernel smoothing. Supports univariate, multivariate and
-		conditional distributions, and weighted data (possibly useful
-		mixed with fuzzy clustering or frequency data). Also, supports
-		empirical continuous cumulative distribution functions and
-		their inverses, and random number generation.
+		Multivariate Generalized Kernel Smoothing and Related Statistical
+		Methods // Constructs, plots and evaluates probability
+		distributions (probability mass/density functions, cumulative
+		distribution functions and quantile functions) with continuous
+		kernel smoothing, and to a lesser extent, discrete kernel
+		smoothing. Supports univariate, multivariate and conditional
+		distributions, including multivariate-conditional
+		distributions. Also, supports other probability distributions
+		(categorical, frequency and empirical-like) and weighted data,
+		which is possibly useful mixed with fuzzy clustering.
+		Furthermore, there are extensions for computing multivariate
+		probabilities and multivariate random numbers, and for
+		parameter and mode estimation.
 	</longdescription>
 </pkgmetadata>

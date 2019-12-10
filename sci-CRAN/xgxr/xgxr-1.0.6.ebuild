@@ -1,0 +1,37 @@
+# Copyright 1999-2019 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Exploratory Graphics for Pharmacometrics'
+SRC_URI="http://cran.r-project.org/src/contrib/xgxr_1.0.6.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_catools r_suggests_gridextra r_suggests_knitr
+	r_suggests_rmarkdown r_suggests_rxode r_suggests_stringr
+	r_suggests_testthat r_suggests_tidyr"
+R_SUGGESTS="
+	r_suggests_catools? ( sci-CRAN/caTools )
+	r_suggests_gridextra? ( sci-CRAN/gridExtra )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_rxode? ( sci-CRAN/RxODE )
+	r_suggests_stringr? ( sci-CRAN/stringr )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+	r_suggests_tidyr? ( sci-CRAN/tidyr )
+"
+DEPEND="sci-CRAN/assertthat
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.5.0
+	sci-CRAN/scales
+	sci-CRAN/labeling
+	sci-CRAN/magrittr
+	sci-CRAN/binom
+	sci-CRAN/pander
+	sci-CRAN/tibble
+	sci-CRAN/png
+	sci-CRAN/dplyr
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

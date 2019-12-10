@@ -2,13 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Maximum Likelihood Shrinkage via Generalized Ridge or Least Angle
-		Regression // Identify and display TRACEs for a specified
-		shrinkage path and determine the extent of shrinkage most
-		likely, under normal distribution theory, to produce an optimal
-		reduction in MSE Risk in estimates of regression (beta)
-		coefficients. Alternative estimates are also provided when ill-
-		conditioned (nearly multicollinear) models yield OLS estimates
-		with "wrong" numerical signs.
+		Maximum Likelihood Shrinkage using Generalized Ridge or Least
+		Angle Regression Methods // Functions are provided to calculate
+		and display ridge TRACEs for various shrinkage PATHS. They
+		determine the m-Extent of shrinkage most likely, under Normal-
+		distribution theory, to produce biased estimates of regression
+		(beta) coefficients with minimum MSE Risk. An alternative
+		function, correct.signs(), provides beta coefficient estimates
+		when an ill-conditioned (nearly multicollinear) model yields
+		OLS estimates with ("wrong") numerical signs that disagree with
+		the signs of the observed correlations between the Y-outcome
+		and the selected X-predictor variables.
 	</longdescription>
 </pkgmetadata>
