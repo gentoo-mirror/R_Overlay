@@ -7,19 +7,22 @@
 		permutation-based non-parametric analysis on microbiome data
 		for biomarker discovery aims. This test executes thousands of
 		comparisons in a pairwise manner, after a random shuffling of
-		data into the different groups of study with prior selection of
-		the microbiome features with the largest variation among
+		data into the different groups of study with a prior selection
+		of the microbiome features with the largest variation among
 		groups. Previous to the permutation test itself, data can be
 		normalized according to different methods proposed to handle
-		microbiome data ('proportions', 'anders', and 'paulson'). The
-		median-based differences between groups resulting from the
-		multiple simulations are fitted to a normal distribution with
-		the aim to calculate their significance. A multiple testing
-		correction based on Benjamini-Hochberg method (fdr) is finally
-		applied to extract the differentially presented features
-		between groups of your dataset. LATEST UPDATES: v1.1 and olders
-		incorporates function to parse BIOM-like format; v1.2 and
-		olders incorporates "optimize" function to maximize evaluation
-		of features with largest inter-class variation.
+		microbiome data ('proportions' or 'Anders'). The median-based
+		differences between groups resulting from the multiple
+		simulations are fitted to a normal distribution with the aim to
+		calculate their significance. A multiple testing correction
+		based on Benjamini-Hochberg method (fdr) is finally applied to
+		extract the differentially presented features between groups of
+		your dataset. LATEST UPDATES: v1.1 and olders incorporates
+		function to parse COLUMN format; v1.2 and olders incorporates
+		-optimize- function to maximize evaluation of features with
+		largest inter-class variation; v1.3 and olders includes the
+		-size.effect- function to perform estimation statistics using
+		the bootstrap-coupled approach implemented in the 'dabestr' R
+		package.
 	</longdescription>
 </pkgmetadata>

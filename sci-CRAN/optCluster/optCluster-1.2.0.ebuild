@@ -1,0 +1,29 @@
+# Copyright 1999-2019 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Determine Optimal Clustering Alg... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/optCluster_1.2.0.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_annotate r_suggests_biobase r_suggests_go_db
+	r_suggests_org_at_tair_db"
+R_SUGGESTS="
+	r_suggests_annotate? ( sci-BIOC/annotate )
+	r_suggests_biobase? ( sci-BIOC/Biobase )
+	r_suggests_go_db? ( sci-BIOC/GO_db )
+	r_suggests_org_at_tair_db? ( sci-BIOC/org_At_tair_db )
+"
+DEPEND="virtual/cluster
+	sci-CRAN/kohonen
+	>=dev-lang/R-3.0
+	sci-CRAN/RankAggreg
+	sci-CRAN/clValid
+	sci-CRAN/gplots
+	sci-CRAN/mclust
+	virtual/cluster
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
