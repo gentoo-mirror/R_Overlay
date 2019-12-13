@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multiple Imputation using Weighted Quantile Sum Regression // The
+		Multiple Imputation Using Weighted Quantile Sum Regression // The
 		`miWQS` package handles the uncertainty due to below the
 		detection limit in a correlated component mixture problem.
 		Researchers want to determine if a set/mixture of continuous
@@ -13,9 +13,8 @@
 		limits, that may be different across the components. The
 		`miWQS` package applies the multiple imputation (MI) procedure
 		to the weighted quantile sum regression (WQS) methodology for
-		continuous, binary, or count outcomes.  The two imputation
-		models coded in `miWQS` package are: bootstrapping imputation
-		(Lubin et.al (2004) doi:10.1289/ehp.7199) and Bayesian
-		imputation.
+		continuous, binary, or count outcomes.  The imputation models
+		are: bootstrapping imputation (Lubin et.al (2004)
+		doi:10.1289/ehp.7199) and Bayesian imputation.
 	</longdescription>
 </pkgmetadata>
