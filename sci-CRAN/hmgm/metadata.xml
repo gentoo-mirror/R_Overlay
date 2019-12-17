@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		High-Dimensional Mixed Graphical Models Estimation // Provides
+		weighted group lasso framework for high-dimensional mixed data
+		graph estimation. In the graph estimation stage, the graph
+		structure is estimated by maximizing the conditional likelihood
+		of one variable given the rest. We focus on the conditional
+		loglikelihood of each variable and fit separate regressions to
+		estimate the parameters, much in the spirit of the neighborhood
+		selection approach proposed by Meinshausen-Buhlmann for the
+		Gaussian Graphical Model and by Ravikumar for the Ising Model.
+		Currently, the discrete variables can only take two values. In
+		the future, method for general discrete data and for
+		visualizing the estimated graph will be added. For more
+		details, see the linked paper.
+	</longdescription>
+</pkgmetadata>
