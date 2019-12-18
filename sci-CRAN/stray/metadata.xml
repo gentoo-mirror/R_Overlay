@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Anomaly Detection in High Dimensional and Temporal Data // This
+		is a modification of 'HDoutliers' package. The 'HDoutliers'
+		algorithm is a powerful unsupervised algorithm for detecting
+		anomalies in high-dimensional data, with a strong theoretical
+		foundation. However, it suffers from some limitations that
+		significantly hinder its performance level, under certain
+		circumstances. This package implements the algorithm proposed
+		in Talagala, Hyndman and Smith-Miles (2019) arXiv:1908.04000
+		for detecting anomalies in high-dimensional data that addresses
+		these limitations of 'HDoutliers' algorithm. We define an
+		anomaly as an observation that deviates markedly from the
+		majority with a large distance gap. An approach based on
+		extreme value theory is used for the anomalous threshold
+		calculation.
+	</longdescription>
+</pkgmetadata>
