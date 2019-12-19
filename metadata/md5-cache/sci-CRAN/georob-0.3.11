@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/quantreg virtual/nlme >=sci-CRAN/RandomFields-3.3.6 >=dev-lang/R-2.14.0 >=sci-CRAN/sp-0.9.60 sci-CRAN/nleqslv sci-CRAN/lmtest >=sci-CRAN/constrainedKriging-0.2.1 sci-CRAN/fields sci-CRAN/abind sci-CRAN/snowfall >=sci-CRAN/robustbase-0.90.2 dev-lang/R
+DESCRIPTION=Robust Geostatistical Analysis of Spatial Data
+EAPI=6
+IUSE=r_suggests_geor r_suggests_gstat r_suggests_lattice r_suggests_multcomp byte-compile
+KEYWORDS=~amd64 ~x86
+RDEPEND=sci-CRAN/quantreg virtual/nlme >=sci-CRAN/RandomFields-3.3.6 >=dev-lang/R-2.14.0 >=sci-CRAN/sp-0.9.60 sci-CRAN/nleqslv sci-CRAN/lmtest >=sci-CRAN/constrainedKriging-0.2.1 sci-CRAN/fields sci-CRAN/abind sci-CRAN/snowfall >=sci-CRAN/robustbase-0.90.2 r_suggests_geor? ( sci-CRAN/geoR ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_lattice? ( virtual/lattice ) r_suggests_multcomp? ( sci-CRAN/multcomp ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/georob_0.3-11.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=1bbdc57da9be794900163efcc996e7dd
