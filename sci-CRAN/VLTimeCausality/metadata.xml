@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable-Lag Time Series Causality Inference Framework // A
+		framework to infer causality on a pair of time series of real
+		numbers based on variable-lag Granger causality and transfer
+		entropy. Typically, Granger causality and transfer entropy have
+		an assumption of a fixed and constant time delay between the
+		cause and effect. However, for a non-stationary time series,
+		this assumption is not true. For example, considering two time
+		series of velocity of person A and person B where B follows A.
+		At some time, B stops tying his shoes, then running to catch up
+		A. The fixed-lag assumption is not true in this case. We
+		propose a framework that allows variable-lags between cause and
+		effect in Granger causality and transfer entropy to allow them
+		to deal with variable-lag non-stationary time series. Please
+		see Chainarong Amornbunchornvej, Elena Zheleva, and Tanya
+		Berger-Wolf (2019) https://www.cs.uic.edu/~elena/pubs
+		/amornbunchornvej-dsaa19.pdf when referring to this package in
+		publications.
+	</longdescription>
+</pkgmetadata>

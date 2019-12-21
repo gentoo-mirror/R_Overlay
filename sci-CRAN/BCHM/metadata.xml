@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Clinical Trial Calculation Based on BCHM Design // Users can
+		estimate the treatment effect for multiple subgroups basket
+		trials based on the Bayesian Cluster Hierarchical Model (BCHM).
+		In this model, a Bayesian non-parametric method is applied to
+		dynamically calculate the number of clusters by conducting the
+		multiple cluster classification based on subgroup outcomes.
+		Hierarchical model is used to compute the posterior probability
+		of treatment effect with the borrowing strength determined by
+		the Bayesian non-parametric clustering and the similarities
+		between subgroups. To use this package, 'JAGS' software and
+		'rjags' package are required, and users need to pre-install
+		them.
+	</longdescription>
+</pkgmetadata>
