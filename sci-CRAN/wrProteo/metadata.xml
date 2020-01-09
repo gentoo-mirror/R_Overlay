@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Proteomics Data Analysis Functions // Data analysis of proteomics
+		experiments by mass spectrometry is supported by this
+		collection of functions mostly dedicated to the analysis of
+		(bottom-up) quantitative (XIC) data. Fasta-formatted proteomes
+		(eg from Uniprot) can be read with automatic parsing and
+		multiple annotation types (like species origin, abbreviated
+		gene names, etc) extracted. Quantitative proteomics
+		measurements frequently contain multiple NA values, due to
+		physical absence of given peptides in some samples, limitations
+		in sensitivity or other reasons. The functions provided here
+		help to inspect graphically the data to investigate the nature
+		of NA-values via their respective replicate measurements and to
+		help/confirm the choice of NA-replacement by low random values.
+		Dedicated filtering and statistical testing using the framework
+		of package 'limma' can be run, enhanced by multiple rounds of
+		NA-replacements to provide robustness towards rare stochastic
+		events. Multi-species samples, as frequently used in benchmark-
+		tests, can be run with special options consideration separating
+		the data into sub-groups during normalization and testing.
+		Subsequently, ROC curves can be constructed to compare multiple
+		analysis approaches.
+	</longdescription>
+</pkgmetadata>

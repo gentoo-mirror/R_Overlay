@@ -4,10 +4,12 @@
 	<longdescription>
 		The Poisson Binomial Distribution // Implementation of both the
 		exact and approximation methods for computing the cdf of the
-		Poisson binomial distribution. It also provides the pmf,
-		quantile function, and random number generation for the Poisson
-		binomial distribution. We would like to acknowledge that the C
-		code for FFT is adopted from R distribution (fft.c, by Ross
-		Ihaka from University of Auckland, dated February 1997).
+		Poisson binomial distribution as described in Hong (2013) doi:
+		10.1016/j.csda.2012.10.006. It also provides the pmf, quantile
+		function, and random number generation for the Poisson binomial
+		distribution. The C code for fast Fourier transformation (FFT)
+		is written by R Core Team (2019)https://www.R-project.org/,
+		which implements the FFT algorithm in Singleton (1969) doi:
+		10.1109/TAU.1969.1162042.
 	</longdescription>
 </pkgmetadata>

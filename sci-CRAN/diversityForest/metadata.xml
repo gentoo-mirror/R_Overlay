@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Diversity Forests // Implements diversity forests as described in
+		an upcoming paper by the author of the package. This package is
+		a fork of the R package 'ranger' (main author: Marvin N.
+		Wright) that implements random forests using an efficient C++
+		implementation. More precisely, 'diversityForest' was written
+		by modifying the code of 'ranger', version 0.11.0. Therefore,
+		details on further functionalities of the code that are not
+		presented in the help pages of 'diversityForest' are found in
+		the help pages of 'ranger' (version 0.11.0). The code in the
+		example sections of the 'diversityForest' manual can be used as
+		a template for all basic application scenarios with respect to
+		classification using univariate, binary splitting. Some
+		function arguments adopted from the 'ranger' package are not be
+		useable with diversity forests (for the current package
+		version).
+	</longdescription>
+</pkgmetadata>
