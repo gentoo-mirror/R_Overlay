@@ -6,7 +6,8 @@
 		novel adaptation of longitudinal k-means clustering technique
 		(Genolini et al. (2015) doi:10.18637/jss.v065.i04) for grouping
 		trajectories based on the similarities of their long-term
-		trends and determines the optimal solution based on the
+		trends and determines the optimal solution based on either the
+		average silhouette width (Rousseeuw P. J. 1987) or the
 		Calinski-Harabatz criterion (Calinski and Harabatz (1974)
 		doi:10.1080/03610927408827101). Includes functions to extract
 		descriptive statistics and generate a visualisation of the

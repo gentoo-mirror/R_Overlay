@@ -9,9 +9,17 @@
 		Markov chain with finite state space. Model is proposed by
 		Alexander Andronov (2012) arXiv:1901.09600v1 and algorithm of
 		parameters estimation is based on eigenvalues and eigenvectors
-		decomposition. Also, package will provide a set of data
-		simulation tools for Markov-modulated linear regression (for
-		academical/research purposes). Research project No.
-		1.1.1.2/VIAA/1/16/075.
+		decomposition. Markov-switching regression models have the same
+		idea of varying the regression parameters randomly in
+		accordance with external environment. The difference is that
+		for Markov-modulated linear regression model the external
+		environment is described as a continuous-time homogeneous
+		irreducible Markov chain with known parameters while switching
+		models consider Markov chain as unobserved and estimation
+		procedure involves estimation of transition matrix. These
+		models have significant differences in terms of the analytical
+		approach. Also, package provides a set of data simulation tools
+		for Markov-modulated linear regression (for academical/research
+		purposes). Research project No. 1.1.1.2/VIAA/1/16/075.
 	</longdescription>
 </pkgmetadata>
