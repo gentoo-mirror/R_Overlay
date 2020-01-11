@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variance Components Testing for Linear and Nonlinear Mixed
+		Effects Models // An implementation of the Likelihood ratio
+		Test (LRT) for testing that, in a (non)linear mixed effects
+		model, the variances of a subset of the random effects are
+		equal to zero. There is no restriction on the subset of
+		variances that can be tested: for example, it is possible to
+		test that all the variances are equal to zero. Note that the
+		implemented test is asymptotic. This package should be used on
+		model fits from packages 'nlme', 'lmer', and 'saemix'.
+		Charlotte Baey, Paul-Henry Cournde and Estelle Kuhn (2019)
+		doi:10.1016/j.csda.2019.01.014.
+	</longdescription>
+</pkgmetadata>
