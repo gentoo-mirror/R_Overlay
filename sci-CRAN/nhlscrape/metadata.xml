@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Scrapes the 'NHL' API for Statistical Analysis // Add game events
+		to a database file to use for statistical analysis of hockey
+		games. This means we only call the 'NHL' API once for each game
+		we want to add. We will have very fast retrieval of data once
+		games have been added since the data is stored locally. We use
+		the API located at https://statsapi.web.nhl.com/api/v1/teams
+		with supplemental data from https://www.nhl.com/scores/. Other
+		endpoints can be found at https://gitlab.com/dword4/nhlapi.
+	</longdescription>
+</pkgmetadata>
