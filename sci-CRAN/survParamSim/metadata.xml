@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parametric Survival Simulation with Parameter Uncertainty //
+		Perform survival simulation with parametric survival model
+		generated from 'survreg' function in 'survival' package. In
+		each simulation coefficients are resampled from variance-
+		covariance matrix of parameter estimates to capture uncertainty
+		in model parameters. Prediction intervals of Kaplan-Meier
+		estimates and hazard ratio of treatment effect can be further
+		calculated using simulated survival data.
+	</longdescription>
+</pkgmetadata>
