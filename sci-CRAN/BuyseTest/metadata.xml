@@ -3,14 +3,21 @@
 <pkgmetadata>
 	<longdescription>
 		Generalized Pairwise Comparisons // Implementation of the
-		Generalized Pairwise Comparisons (GPC). GPC compare two groups
-		of observations (intervention vs. control group) regarding
-		several prioritized endpoints. The net benefit and win ratio
-		statistics can then be estimated and corresponding confidence
-		intervals and p-values can be estimated using resampling
-		methods or the asymptotic U-statistic theory. The software
-		enables the use of thresholds of minimal importance difference,
-		stratification, and corrections to deal with right-censored
-		endpoints or missing values.
+		Generalized Pairwise Comparisons (GPC) as defined in Buyse
+		(2010) doi:10.1002/sim.3923 for complete observations, and
+		extended in Peron (2018) doi:10.1177/0962280216658320 to deal
+		with right-censoring. GPC compare two groups of observations
+		(intervention vs. control group) regarding several prioritized
+		endpoints to estimate the probability that a random observation
+		drawn from one group performs better than a random observation
+		drawn from the other group. The net benefit and win ratio
+		statistics, i.e. the difference and ratio between the
+		probabilities relative to the intervention and control groups,
+		can then be estimated. Confidence intervals and p-values are
+		obtained using permutations, a non-parametric bootstrap, or the
+		asymptotic theory. The software enables the use of thresholds
+		of minimal importance difference, stratification, non-
+		prioritized endpoints (O'Brien test), and corrections to deal
+		with missing values.
 	</longdescription>
 </pkgmetadata>
