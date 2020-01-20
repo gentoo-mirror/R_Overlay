@@ -8,13 +8,13 @@
 		their adaptive forms, such as adaptive lasso / elastic-net and
 		net adjusting for signs of linked coefficients. It solves L0
 		penalty problem by simultaneously selecting regularization
-		parameters and the number of non-zero coefficients. This
-		augmented and penalized minimization method provides an
-		approximation solution to the L0 penalty problem, but runs as
-		fast as L1 regularization problem. The package uses one-step
-		coordinate descent algorithm and runs extremely fast by taking
-		into account the sparsity structure of coefficients. It could
-		deal with very high dimensional data and has superior selection
-		performance.
+		parameters and performing hard-thresholding or selecting number
+		of non-zeros. This augmented and penalized minimization method
+		provides an approximation solution to the L0 penalty problem,
+		but runs as fast as L1 regularization problem. The package uses
+		one-step coordinate descent algorithm and runs extremely fast
+		by taking into account the sparsity structure of coefficients.
+		It could deal with very high dimensional data and has superior
+		selection performance.
 	</longdescription>
 </pkgmetadata>

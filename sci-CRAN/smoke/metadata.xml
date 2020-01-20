@@ -4,9 +4,12 @@
 	<longdescription>
 		Small Molecule Octet/BLI Kinetics Experiment // Bio-Layer
 		Interferometry (BLI) is a technology to determine the binding
-		kinetics between biomolecule. BLI signals are small and noisy
-		when small molecule ligands are investigated. We develop this
-		package to process and analyze the BLI data acquired on Octet
-		Red96 (Fortebio) more accurately.
+		kinetics between biomolecules. BLI signals are small and noisy
+		when small molecules are investigated as ligands (analytes). We
+		develop this package to process and analyze the BLI data
+		acquired on Octet Red96 from Fortebio more accurately. Sun Q.,
+		Li X., et al (2020) doi:10.1038/s41467-019-14238-3. In this new
+		version, we organize the BLI experiment data and analysis
+		methods into a S4 class with self-explaining structure.
 	</longdescription>
 </pkgmetadata>
