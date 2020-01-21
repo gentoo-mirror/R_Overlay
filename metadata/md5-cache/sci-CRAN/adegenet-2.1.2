@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=virtual/MASS sci-CRAN/shiny sci-CRAN/ade4 >=dev-lang/R-2.14 sci-CRAN/spdep sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/vegan sci-CRAN/seqinr virtual/boot sci-CRAN/ape >=sci-CRAN/dplyr-0.4.1 sci-CRAN/reshape2 dev-lang/R
+DESCRIPTION=Exploratory Analysis of Genetic and Genomic Data
+EAPI=6
+IUSE=r_suggests_akima r_suggests_hierfstat r_suggests_maps r_suggests_pegas r_suggests_poppr r_suggests_splancs r_suggests_testthat r_suggests_tripack byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=virtual/MASS sci-CRAN/shiny sci-CRAN/ade4 >=dev-lang/R-2.14 sci-CRAN/spdep sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/vegan sci-CRAN/seqinr virtual/boot sci-CRAN/ape >=sci-CRAN/dplyr-0.4.1 sci-CRAN/reshape2 r_suggests_akima? ( sci-CRAN/akima ) r_suggests_hierfstat? ( sci-CRAN/hierfstat ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_pegas? ( sci-CRAN/pegas ) r_suggests_poppr? ( sci-CRAN/poppr ) r_suggests_splancs? ( sci-CRAN/splancs ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tripack? ( sci-CRAN/tripack ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/adegenet_2.1.2.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=98ae83e4e981d2f08402eb0a2cd59c37
