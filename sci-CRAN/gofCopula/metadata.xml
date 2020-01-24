@@ -2,14 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Goodness-of-Fit Tests for Copulae // Several GoF tests for
-		Copulae are provided. A new hybrid test is implemented which
-		supports all of the individual tests. Estimation methods for
-		the margins are provided. All the tests support parameter
-		estimation and predefined values. The parameters are estimated
-		by pseudo maximum likelihood but if it fails the estimation
-		switches automatically to inversion of Kendall's tau. All the
-		tests support automatized parallelization of the bootstrapping
-		tasks.
+		Goodness-of-Fit Tests for Copulae // Several Goodness-of-Fit
+		(GoF) tests for Copulae are provided. A new hybrid test, Zhang
+		et al. (2016) doi:10.1016/j.jeconom.2016.02.017 is implemented
+		which supports all of the individual tests in the package, e.g.
+		Genest et al. (2009) doi:10.1016/j.insmatheco.2007.10.005.
+		Estimation methods for the margins are provided and all the
+		tests support parameter estimation and predefined values. The
+		parameters are estimated by pseudo maximum likelihood but if it
+		fails the estimation switches automatically to inversion of
+		Kendall's tau. For reproducibility of results, the functions
+		support the definition of seeds. Also all the tests support
+		automatized parallelization of the bootstrapping tasks. The
+		package provides an interface to perform new GoF tests by
+		submitting the test statistic.
 	</longdescription>
 </pkgmetadata>

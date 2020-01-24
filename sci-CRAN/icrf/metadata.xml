@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interval Censored Recursive Forests // Implements interval
+		censored recursive forests (ICRF) based on Cho, Jewell, and
+		Kosorok (2020+). ICRF is a variant of random forests where the
+		outcome variable is interval censored survival data. It can be
+		used for usual right censored data and current status data as
+		well. A recursion technique is used to improve accuracy and
+		smoothed survival curves are provided.
+	</longdescription>
+</pkgmetadata>
