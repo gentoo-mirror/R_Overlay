@@ -4,14 +4,15 @@
 	<longdescription>
 		Inference of Gene Regulatory Networks // We present 'corto'
 		(Correlation Tool), a simple package to infer gene regulatory
-		networks using DPI (Data Processing Inequality) and
-		bootstrapping to recover edges. An initial step is performed to
-		calculate all significant edges between a list of source nodes
-		(centroids) and target genes. Then all triplets containing two
-		centroids and one target are tested in a DPI step which removes
-		edges. A bootstrapping process then calculates the robustness
-		of the network, eventually re-adding edges previously removed
-		by DPI. The package implements a similar pipeline as ARACNe-AP
+		networks and visualize master regulators from gene expression
+		data using DPI (Data Processing Inequality) and bootstrapping
+		to recover edges. An initial step is performed to calculate all
+		significant edges between a list of source nodes (centroids)
+		and target genes. Then all triplets containing two centroids
+		and one target are tested in a DPI step which removes edges. A
+		bootstrapping process then calculates the robustness of the
+		network, eventually re-adding edges previously removed by DPI.
+		The package implements a similar pipeline as ARACNe-AP
 		(Algorithm for the Reconstruction of Accurate Cellular Networks
 		with Adaptive Partitioning) by Giorgi (2016)
 		doi:10.1093/bioinformatics/btw216) with optimizations to run

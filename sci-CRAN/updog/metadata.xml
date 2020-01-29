@@ -5,11 +5,11 @@
 		Flexible Genotyping for Polyploids // Implements empirical Bayes
 		approaches to genotype polyploids from next generation
 		sequencing data while accounting for allelic bias,
-		overdispersion, and sequencing error. The main function is
-		flexdog(), which allows the specification of many different
-		genotype distributions. An experimental function that takes
-		into account varying levels of relatedness is implemented in
-		mupdog(). Also provided are functions to simulate genotypes,
+		overdispersion, and sequencing error. The main functions are
+		flexdog() and multidog(), which allow the specification of many
+		different genotype distributions. An experimental function that
+		takes into account varying levels of relatedness is implemented
+		in mupdog(). Also provided are functions to simulate genotypes,
 		rgeno(), and read-counts, rflexdog(), as well as functions to
 		calculate oracle genotyping error rates, oracle_mis(), and
 		correlation with the true genotypes, oracle_cor(). These latter
