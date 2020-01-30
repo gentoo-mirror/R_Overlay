@@ -2,17 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Change-in-Estimate Approach to Assess Confounding Effects // The
-		'chest' package applies the change-in-effect estimate method
-		for assessing confounding effects in medical and
-		epidemiological research. It starts with a crude model
+		Change-in-Estimate Approach to Assess Confounding Effects //
+		Applies the change-in-effect estimate method to assess
+		confounding effects in medical and epidemiological research
+		(Greenland  Pearce (2016) doi:10.1146/annurev-
+		publhealth-031914-122559 ). It starts with a crude model
 		including only the outcome and exposure variables. At each of
 		the subsequent steps, one variable which creates the largest
 		change among the remaining variables is selected. This process
 		is repeated until all variables have been entered into the
-		model (Wang Z (2007) doi:10.1177/1536867X0700700203).
+		model (Wang Z (2007) doi:10.1177/1536867X0700700203 ).
 		Currently, the 'chest' package has functions for linear
-		regression, logistic regression, Cox proportional hazards model
-		and conditional logistic regression.
+		regression, logistic regression, negative binomial regression,
+		Cox proportional hazards model and conditional logistic
+		regression.
 	</longdescription>
 </pkgmetadata>
