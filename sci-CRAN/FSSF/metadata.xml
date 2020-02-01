@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generate Fully-Sequential Space-Filling Designs Inside a Unit
+		Hypercube // Provides three methods proposed by Shang and Apley
+		(2019) doi:10.1080/00224065.2019.1705207 to generate fully-
+		sequential space-filling designs inside a unit hypercube. A
+		'fully-sequential space-filling design' means a sequence of
+		nested designs (as the design size varies from one point up to
+		some maximum number of points) with the design points added one
+		at a time and such that the design at each size has good space-
+		filling properties. Two methods target the minimum pairwise
+		distance criterion and generate maximin designs, among which
+		one method is more efficient when design size is large. One
+		method targets the maximum hole size criterion and uses a
+		heuristic to generate what is closer to a minimax design.
+	</longdescription>
+</pkgmetadata>
