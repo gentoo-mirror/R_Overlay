@@ -11,8 +11,8 @@
 		a given barcode sequence includes an insertion or deletion
 		error. The error assessment relies on the comparison of input
 		sequences against nucleotide and amino acid profile hidden
-		Markov models (for details see Durbin et al. 1998, ISBN:
-		9780521629713) trained on a taxonomically diverse set of
+		Markov models (PHMMs) (for details see Durbin et al. 1998,
+		ISBN: 9780521629713) trained on a taxonomically diverse set of
 		reference sequences. The functions are provided as a complete
 		pipeline and are also available individually for efficient and
 		targeted analysis of barcode data.

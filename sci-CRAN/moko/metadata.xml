@@ -4,6 +4,10 @@
 	<longdescription>
 		Multi-Objective Kriging Optimization // Multi-Objective
 		optimization based on the Kriging metamodel. Important
-		functions: mkm, VMPF, MEGO and HEGO.
+		functions: mkm() (builder for the multiobjective models),
+		MVPF() (sequential minimizator using variance reduction),
+		MEGO() (generalization of ParEgo) and HEGO() (minimizator using
+		the expected hypervolume improvement). References are Passos
+		and Luersen (2018) doi:10.1590/1679-78254324.
 	</longdescription>
 </pkgmetadata>
