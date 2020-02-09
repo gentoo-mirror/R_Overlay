@@ -3,16 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Determination of K Using Peak Counts of Features for Clustering
-		// The input argument k which is the number of clusters is
-		needed to start all of the partitioning clustering algorithms.
-		In unsupervised learning applications, an optimal value of this
-		argument is widely determined by using the internal validity
-		indexes. Since these indexes suggest a k value which is
-		computed on the clustering results after several runs of a
-		clustering algorithm they are computationally expensive. On the
-		contrary, 'kpeaks' enables to estimate k before running any
-		clustering algorithm. It is based on a simple novel technique
-		using the descriptive statistics of peak counts of the features
-		in a data set.
+		// The number of clusters (k) is needed to start all the
+		partitioning clustering algorithms. An optimal value of this
+		input argument is widely determined by using some internal
+		validity indices. Since most of the existing internal indices
+		suggest a k value which is computed from the clustering results
+		after several runs of a clustering algorithm they are
+		computationally expensive. On the contrary,  the package
+		'kpeaks' enables to estimate k before running any clustering
+		algorithm. It is based on a simple novel technique using the
+		descriptive statistics of peak counts of the features in a data
+		set.
 	</longdescription>
 </pkgmetadata>
