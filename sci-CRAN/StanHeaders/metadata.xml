@@ -3,10 +3,9 @@
 <pkgmetadata>
 	<longdescription>
 		C++ Header Files for Stan // The C++ header files of the Stan
-		project are provided by this package, but it contains little R
-		code or documentation. The main reference is the vignette.
-		There is a shared object containing part of the 'CVODES'
-		library, but its functionality is not accessible from R.
+		project are provided by this package, but it contains no R code
+		or function documentation. There is a shared object containing
+		part of the 'CVODES' library, but it is not accessible from R.
 		'StanHeaders' is only useful for developers who want to utilize
 		the 'LinkingTo' directive of their package's DESCRIPTION file
 		to build on the Stan library without incurring unnecessary

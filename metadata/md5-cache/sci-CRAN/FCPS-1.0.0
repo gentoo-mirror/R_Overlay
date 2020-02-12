@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/mclust dev-lang/R
+DESCRIPTION=Fundamental Clustering Problems Suite
+EAPI=6
+IUSE=r_suggests_abcanalysis r_suggests_adpclust r_suggests_cclust r_suggests_cluster r_suggests_databionicswarm r_suggests_datavisualizations r_suggests_dbscan r_suggests_densityclust r_suggests_energy r_suggests_flexclust r_suggests_kernlab r_suggests_kohonen r_suggests_matrix r_suggests_mcl r_suggests_mstknnclust r_suggests_orclus r_suggests_plotly r_suggests_pracma r_suggests_r_utils r_suggests_subspace r_suggests_tclust r_suggests_vegan byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/mclust r_suggests_abcanalysis? ( sci-CRAN/ABCanalysis ) r_suggests_adpclust? ( sci-CRAN/ADPclust ) r_suggests_cclust? ( sci-CRAN/cclust ) r_suggests_cluster? ( virtual/cluster virtual/cluster virtual/cluster virtual/cluster virtual/cluster ) r_suggests_databionicswarm? ( sci-CRAN/DatabionicSwarm ) r_suggests_datavisualizations? ( sci-CRAN/DataVisualizations ) r_suggests_dbscan? ( sci-CRAN/dbscan ) r_suggests_densityclust? ( sci-CRAN/densityClust ) r_suggests_energy? ( sci-CRAN/energy ) r_suggests_flexclust? ( sci-CRAN/flexclust ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_kohonen? ( sci-CRAN/kohonen ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_mcl? ( sci-CRAN/MCL ) r_suggests_mstknnclust? ( sci-CRAN/mstknnclust ) r_suggests_orclus? ( sci-CRAN/orclus ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_pracma? ( sci-CRAN/pracma ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_subspace? ( sci-CRAN/subspace ) r_suggests_tclust? ( sci-CRAN/tclust ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FCPS_1.0.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=fc9c5f7f46bddd657355aae0fe682532
