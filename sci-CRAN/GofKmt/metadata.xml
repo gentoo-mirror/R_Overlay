@@ -6,11 +6,12 @@
 		Consider a goodness-of-fit(GOF) problem of testing whether a
 		random sample comes from one sample location-scale model where
 		location and scale parameters are unknown. It is well known
-		that Khmaladze martingale transformation method provides
+		that Khmaladze martingale transformation method - which was
+		proposed by Khmaladze (1981) DOI:10.1137/1126027 - provides
 		asymptotic distribution free test for the GOF problem. This
 		package contains one function: KhmaladzeTrans(). In this
 		version, KhmaladzeTrans() provides test statistic and critical
-		value of GOF test for normal, Cauchy, logistic, Gamma, Weibull,
-		Gumbel, and Rayleigh distributions.
+		value of GOF test for normal, Cauchy, logistic, Gamma, and
+		Weibull distributions.
 	</longdescription>
 </pkgmetadata>
