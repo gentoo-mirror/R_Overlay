@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		ROBustness in Network // Many community detection algorithms have
-		been developed in network analysis. However, their applications
-		leave unaddressed the statistical validation of the results,
-		for this reason we developed ROBIN (ROBustness In Network), a
-		useful method for the validation of community detection. It has
-		a double aim, it studies the robustness of a single community
-		detection algorithm and compares two community detection
-		algorithms to understand which provides the best partition.
+		ROBustness in Network // In network analysis, many community
+		detection algorithms have been developed. However, their
+		applications leave unaddressed one important question: the
+		statistical validation of the results. robin (ROBustness In
+		Network) is an R package for the validation of community
+		detection. It has a double aim: to study the robustness of a
+		community detection algorithm and to compare the robustness of
+		different community detection algorithms on the same network.
 		Reference in Annamaria Carissimo, Luisa Cutillo, Italia De Feis
 		(2018) doi:10.1016/j.csda.2017.10.006.
 	</longdescription>
