@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Knockoff Boosted Tree // A novel strategy for conducting variable
+		selection without prior model topology knowledge using the
+		knockoff method (Barber and Candes (2015)
+		doi:10.1214/15-AOS1337) with extreme boosted tree models (Chen
+		and Guestrin (2016) doi:10.1145/2939672.2939785). This method
+		is inspired by the original knockoff method, where the
+		differences between original and knockoff variables are used
+		for variable selection with false discovery rate control. In
+		addition to the original knockoff generating methods, two new
+		sampling methods are available to be implemented, namely the
+		sparse covariance and principal component knockoff methods. As
+		results, the indices of selected variables are returned.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Inference for Log-Normal Data // Bayesian inference
+		under log-normality assumption must be performed very
+		carefully. In fact, under the common priors for the variance,
+		useful quantities in the original data scale (like mean and
+		quantiles) do not have posterior moments that are finite
+		(Fabrizi et al. 2012 doi:10.1214/12-BA733). This package allows
+		to easily carry out a proper Bayesian inferential procedure by
+		fixing a suitable distribution (the generalized inverse
+		Gaussian) as prior for the variance. Functions to estimate
+		several kind of means (unconditional, conditional and
+		conditional under a mixed model) and quantiles (unconditional
+		and conditional) are provided.
+	</longdescription>
+</pkgmetadata>

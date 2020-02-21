@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Study Strap and Multi-Study Learning Algorithms // Implements
+		multi-study learning algorithms such as merging, the study-
+		specific ensemble (trained-on-observed-studies ensemble) the
+		study strap, the covariate-matched study strap, covariate-
+		profile similarity weighting, and stacking weights. Embedded
+		within the 'caret' framework, this package allows for a wide
+		range of single-study learners (e.g., neural networks, lasso,
+		random forests). The package offers over 20 default similarity
+		measures and allows for specification of custom similarity
+		measures for covariate-profile similarity weighting and an
+		accept/reject step. This implements methods described in
+		Loewinger, Kishida, Patil, and Parmigiani. (2019)
+		doi:10.1101/856385.
+	</longdescription>
+</pkgmetadata>
