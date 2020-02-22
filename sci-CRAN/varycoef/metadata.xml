@@ -2,9 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Varying Coefficients // Gives maximum likelihood estimation (MLE)
-		method to estimate and predict spatially varying coefficient
-		(SVC) Models. It supports covariance tapering by Furrer et al.
-		(2006) doi:10.1198/106186006X132178 to allow MLE on large data.
+		Modeling Spatially Varying Coefficients // Implements a maximum
+		likelihood estimation (MLE) method for estimation and
+		prediction in spatially varying coefficient (SVC) models
+		(Dambon et al. (2020) arXiv:2001.08089). Covariance tapering
+		(Furrer et al. (2006) doi:10.1198/106186006X132178) can be
+		applied such that the method scales to large data.
 	</longdescription>
 </pkgmetadata>
