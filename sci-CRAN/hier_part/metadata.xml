@@ -2,7 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Hierarchical Partitioning // Variance partition of a multivariate
-		data set
+		Hierarchical Partitioning // Partitioning of the independent and
+		joint contributions of each variable in a multivariate data
+		set, to a linear regression by hierarchical decomposition of
+		goodness-of-fit measures of regressions using all subsets of
+		predictors in the data set. (i.e., model (1), (2), ..., (N),
+		(1,2), ..., (1,N), ..., (1,2,3,...,N)). A Z-score based
+		estimate of the 'importance' of each predictor is provided by
+		using a randomisation test.
 	</longdescription>
 </pkgmetadata>
