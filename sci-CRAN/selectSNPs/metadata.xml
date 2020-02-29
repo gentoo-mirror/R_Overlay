@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimal Selection of SNPs Using a Unified Local Function //
+		Applies a unified local function to select SNPs for low-density
+		SNPs. The method is described in Wu et al. (2020)
+		doi:10.1111/age.12916. Briefly, the local function gives
+		different weights to the uniformity (U score) and average
+		Shannon entropy (E score), depending on the inputs of the
+		weights, thus facilitating SNP designs under varied scenarios
+		for low-density SNP chips, including selecting uniformly-
+		distributed SNPs or SNPs with the highest minor allele
+		frequencies. This is an educational version. For more
+		information about this package, please contact Dr. Nick Wu.
+	</longdescription>
+</pkgmetadata>
