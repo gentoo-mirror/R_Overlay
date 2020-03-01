@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Testing Infrastructure for Broom Model Generics // Provides a
+		number of testthat tests that can be used to verify that
+		tidy(), glance() and augment() methods meet consistent
+		specifications. This allows methods for the same generic to be
+		spread across multiple packages, since all of those packages
+		can make the same guarantees to users about returned objects.
+	</longdescription>
+</pkgmetadata>

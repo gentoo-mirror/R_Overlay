@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Monotonic Optimal Binning // Generate the monotonic binning and
+		perform the woe (weight of evidence) transformation for the
+		logistic regression used in the consumer credit scorecard
+		development. The woe transformation is a piecewise
+		transformation that is linear to the log odds. For a numeric
+		variable, all of its monotonic functional transformations will
+		converge to the same woe transformation.
+	</longdescription>
+</pkgmetadata>
