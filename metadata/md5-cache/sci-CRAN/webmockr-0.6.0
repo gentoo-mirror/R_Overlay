@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/jsonlite >=sci-CRAN/magrittr-1.5 sci-CRAN/fauxpas >=sci-CRAN/crul-0.7.0 >=sci-CRAN/urltools-1.6.0 sci-CRAN/curl >=sci-CRAN/R6-2.1.3 dev-lang/R
+DESCRIPTION=Stubbing and Setting Expectations on HTTP Requests
+EAPI=6
+IUSE=r_suggests_httr r_suggests_testthat r_suggests_vcr r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/jsonlite >=sci-CRAN/magrittr-1.5 sci-CRAN/fauxpas >=sci-CRAN/crul-0.7.0 >=sci-CRAN/urltools-1.6.0 sci-CRAN/curl >=sci-CRAN/R6-2.1.3 r_suggests_httr? ( sci-CRAN/httr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vcr? ( sci-CRAN/vcr ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/webmockr_0.6.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=9a149814b7bf18e07f7e8c1e02a260be

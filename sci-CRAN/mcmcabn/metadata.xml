@@ -12,14 +12,14 @@
 		priors: a prior controlling for structure complexity from
 		Koivisto and Sood (2004)
 		http://dl.acm.org/citation.cfm?id=1005332.1005352, an
-		uninformative prior and a user defined prior. The three main
+		uninformative prior and a user-defined prior. The three main
 		problems that can be addressed by this R package are selecting
 		the most probable structure based on a cache of pre-computed
-		scores, controlling for overfitting and sampling the landscape
-		of high scoring structures. It allows to quantify the marginal
-		impact of relationships of interest by marginalising out over
-		structures or nuisance dependencies. Structural MCMC seems a
-		very elegant and natural way to estimate the true marginal
+		scores, controlling for overfitting, and sampling the landscape
+		of high scoring structures. It allows us to quantify the
+		marginal impact of relationships of interest by marginalizing
+		out over structures or nuisance dependencies. Structural MCMC
+		seems an elegant and natural way to estimate the true marginal
 		impact, so one can determine if it's magnitude is big enough to
 		consider as a worthwhile intervention.
 	</longdescription>
