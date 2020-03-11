@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Discriminant Analysis Incorporating Individual Uncertainties //
+		The qda() function from package 'MASS' is extended to calculate
+		a weighted linear (LDA) and quadratic discriminant analysis
+		(QDA) by changing the group variances and group means based on
+		cell-wise uncertainties. The uncertainties can be derived e.g.
+		through relative errors for each individual measurement (cell),
+		not only row-wise or column-wise uncertainties. The method can
+		be applied compositional data (e.g. portions of substances,
+		concentrations) and non-compositional data.
+	</longdescription>
+</pkgmetadata>

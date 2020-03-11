@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Depth-Dependent Binocular Visual Fields Simulation // Simulation
+		and visualization depth-dependent integrated visual fields.
+		Visual fields are measured monocularly at a single depth, yet
+		real-life activities involve predominantly binocular vision at
+		multiple depths. The package provides functions to simulate and
+		visualize binocular visual field impairment in a depth-
+		dependent fashion from monocular visual field results based on
+		Ping Liu, Allison McKendrick, Anna Ma-Wyatt, Andrew Turpin
+		(2019) doi:10.1167/tvst.9.3.8. At each location and depth
+		plane, sensitivities are linearly interpolated from
+		corresponding locations in monocular visual field and returned
+		as the higher value of the two. Its utility is demonstrated by
+		evaluating DD-IVF defects associated with 12 glaucomatous
+		archetypes of 24-2 visual field pattern in the included 'shiny'
+		apps.
+	</longdescription>
+</pkgmetadata>
