@@ -3,8 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Best Subset GLM and Regression Utilities // Best subset glm using
-		information criteria or cross-validation. Implements PCR and
+		information criteria or cross-validation, carried by using
+		'leaps' algorithm (Furnival and Wilson, 1974)
+		doi:10.2307/1267601 or complete enumeration (Morgan and Tatar,
+		1972) doi:10.1080/00401706.1972.10488918. Implements PCR and
 		PLS using AIC/BIC. Implements one-standard deviation rule for
-		use with the `caret` package.
+		use with the 'caret' package.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stabilizing Regression and Variable Selection // Contains an
+		implementation of 'StabilizedRegression', a regression
+		framework for heterogeneous data introduced in Pfister et al.
+		(2019) arXiv:1911.01850. The procedure uses averaging to
+		estimate a regression of a set of predictors X on a response
+		variable Y by enforcing stability with respect to a given
+		environment variable. The resulting regression leads to a
+		variable selection procedure which allows to distinguish
+		between stable and unstable predictors. The package further
+		implements a visualization technique which illustrates the
+		trade-off between stability and predictiveness of individual
+		predictors.
+	</longdescription>
+</pkgmetadata>
