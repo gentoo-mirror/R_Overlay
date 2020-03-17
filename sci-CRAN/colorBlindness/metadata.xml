@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Safe Color Set for Color Blindness // Provide the safe color set
+		for color blindness, the simulator of protanopia, deuteranopia.
+		The color sets are collected from: Wong, B. (2011)
+		doi:10.1038/nmeth.1618, http://mkweb.bcgsc.ca/biovis2012/, and
+		http://geog.uoregon.edu/datagraphics/color_scales.htm. The
+		simulations of the appearance of the colors to color-deficient
+		viewers were based on algorithms in Vienot, F., Brettel, H. and
+		Mollon, J.D. (1999)
+		doi:10.1002/(SICI)1520-6378(199908)24:4%3C243::AID-
+		COL5%3E3.0.CO;2-3. The cvdPlot() function to generate 'ggplot'
+		grobs of simulations were modified from
+		https://github.com/clauswilke/colorblindr.
+	</longdescription>
+</pkgmetadata>

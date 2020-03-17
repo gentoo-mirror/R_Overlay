@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Parametric Time to Event Analysis // Performs likelihood-based
-		estimation and inference on time to event data, possibly
+		Parametric Time to Event Analysis // Performs maximum likelihood
+		based estimation and inference on time to event data, possibly
 		subject to non-informative right censoring. fitParaSurv()
 		provides maximum likelihood estimates of model parameters and
-		distributional characteristics. compParaSurv() compares the
-		mean and median survival experiences of two treatment arms.
-		Candidate distributions currently include the exponential,
-		gamma, generalized gamma, log-logistic, log-normal, and
-		Weibull.
+		distributional characteristics, including the mean, median,
+		variance, and restricted mean. compParaSurv() compares the
+		mean, median, and restricted mean survival experiences of two
+		treatment groups. Candidate distributions include the
+		exponential, gamma, generalized gamma, log-normal, and Weibull.
 	</longdescription>
 </pkgmetadata>
