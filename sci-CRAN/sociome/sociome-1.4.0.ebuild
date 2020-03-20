@@ -1,0 +1,33 @@
+# Copyright 1999-2020 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Operationalizing Social Determin... (see metadata)'
+SRC_URI="http://cran.r-project.org/src/contrib/sociome_1.4.0.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_ggplot2 r_suggests_sf r_suggests_testthat
+	r_suggests_tibble r_suggests_tigris"
+R_SUGGESTS="
+	r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.2.1 )
+	r_suggests_sf? ( >=sci-CRAN/sf-0.8.0 )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-2.2.1 )
+	r_suggests_tibble? ( >=sci-CRAN/tibble-2.1.3 )
+	r_suggests_tigris? ( >=sci-CRAN/tigris-0.9.1 )
+"
+DEPEND=">=sci-CRAN/tidyr-1.0.2
+	>=sci-CRAN/censusapi-0.6.0
+	>=sci-CRAN/tidycensus-0.9.2
+	>=sci-CRAN/psych-1.9.12.31
+	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/purrr-0.3.3
+	>=dev-lang/R-3.3.0
+	>=sci-CRAN/rlang-0.4.3
+	>=sci-CRAN/mice-3.7.0
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
