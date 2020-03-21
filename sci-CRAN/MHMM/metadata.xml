@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Finite Mixture of Hidden Markov Model // Estimation of the latent
+		states and partition by maximum likelihood. Model can be used
+		for analyzing accelerometer data. In such a case, the latent
+		states corresponds to activity levels and the partition permits
+		to consider heterogeneity within the population. Emission laws
+		are zero-inflated gamma distributions. Their parameters depends
+		on the latent states but not on the partition, to compare the
+		time spent by activity levels between classes. Model
+		description is available in Du Roy de Chaumaray, M. and Marbac,
+		M. and Navarro, F. (2019) arXiv:1906.01547.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Penalized Transformation Models // Partially penalized versions
+		of specific transformation models implemented in package 'mlt'.
+		Available models include a fully parametric version of the Cox
+		model, other parametric survival models (Weibull, etc.), models
+		for binary and ordered categorical variables, normal and
+		transformed-normal (Box-Cox type) linear models, and continuous
+		outcome logistic regression. Hyperparameter tuning is
+		facilitated through model-based optimization functionalities
+		from package 'mlrMBO'. The accompanying vignette describes the
+		methodology used in 'tramnet' in detail. Transformation models
+		and model-based optimization are described here: Hothorn et al.
+		(2019) doi:10.1007/s11222-019-09870-4, Horn et al. (2016)
+		doi:10.1007/s11222-019-09870-4.
+	</longdescription>
+</pkgmetadata>
