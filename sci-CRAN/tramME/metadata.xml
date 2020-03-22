@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Transformation Models with Mixed Effects // Likelihood-based
+		estimation of mixed-effects transformation models using the
+		Template Model Builder (TMB). The technical details of
+		transformation models are given in Hothorn et al. (2018)
+		doi:10.1111/sjos.12291. The random effects are assumed to be
+		normally distributed on the scale of the transformation
+		function, the marginal likelihood is evaluated using the
+		Laplace approximation, and the gradients are calculated with
+		automatic differentiation (AD).
+	</longdescription>
+</pkgmetadata>
