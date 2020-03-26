@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Missing Data Segments Imputation in Multivariate Streams //
+		Helper functions provide an accurate imputation algorithm for
+		reconstructing the missing segment in a multi-variate data
+		streams. Inspired by single-shot learning, it reconstructs the
+		missing segment by identifying the first similar segment in the
+		stream. Nevertheless, there should be one column of data
+		available, i.e. a constraint column. The values of columns can
+		be characters (A, B, C, etc.). The result of the imputed
+		dataset will be returned a .csv file. For more details see Reza
+		Rawassizadeh (2019) doi:10.1109/TKDE.2019.2914653.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculate Crosstab and Topline Tables of Weighted Survey Data //
+		Calculate common types of tables for weighted survey data.
+		Options include topline and (2-way and 3-way) crosstab tables
+		of categorical or ordinal data as well as summary tables of
+		weighted numeric variables. Optionally, include the margin of
+		error at selected confidence intervals including the design
+		effect. The design effect is calculated as described by Kish
+		(1965) doi:10.1002/bimj.19680100122 beginning on page 257.
+		Output takes the form of tibbles (simple data frames). This
+		package conveniently handles labelled data, such as that
+		commonly used by 'Stata' and 'SPSS.' Complex survey design is
+		not supported at this time.
+	</longdescription>
+</pkgmetadata>
