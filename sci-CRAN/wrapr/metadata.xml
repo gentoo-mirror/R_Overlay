@@ -4,11 +4,12 @@
 	<longdescription>
 		Wrap R Tools for Debugging and Parametric Programming // Tools
 		for writing and debugging R code. Provides: '%.%' dot-pipe (an
-		'S3' configurable pipe), unpack/to, (converts non-standard
+		'S3' configurable pipe), unpack/to (R style multiple
+		assignment/return), 'build_frame()'/'draw_frame()'
+		('data.frame' example tools), 'qc()' (quoting concatenate),
+		':=' (named map builder), 'let()' (converts non-standard
 		evaluation interfaces to parametric standard evaluation
-		interfaces, inspired by 'gtools:strmacro()' and
-		'base::bquote()'), 'build_frame()'/'draw_frame()' ('data.frame'
-		example tools), 'qc()' (quoting concatenate), ':=' (named map
-		builder), 'let()', and more.
+		interfaces, inspired by 'gtools::strmacro()' and
+		'base::bquote()'), and more.
 	</longdescription>
 </pkgmetadata>
