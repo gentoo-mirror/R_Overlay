@@ -2,13 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Parallelized Algorithm for Least-Squares Curve Fitting // This
-		algorithm provides a numerical solution to the problem of
-		minimizing (or maximizing) a function. This is more efficient
-		than the Gauss-Newton-like algorithm when starting from points
-		very far from the final minimum (or maximum). A new convergence
-		test is implemented (RDM) in addition to the usual stopping
-		criterion : stopping rule is when the gradients are small
-		enough in the parameters metric (GH-1G).
+		A Parallelized General-Purpose Optimization Based on Marquardt-
+		Levenberg Algorithm // This algorithm provides a numerical
+		solution to the problem of minimizing (or maximizing) a
+		function. It is particularly suited for complex problems and
+		more efficient than the Gauss-Newton-like algorithm when
+		starting from points very far from the final minimum (or
+		maximum). Each iteration is parallelized and convergence relies
+		on a stringent stopping criterion based on the first and second
+		derivatives.
 	</longdescription>
 </pkgmetadata>

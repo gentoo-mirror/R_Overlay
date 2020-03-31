@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multivariate Normal Distribution Characterization Test //
+		Provides a test of multivariate normality of a sample which
+		does not require estimation of the nuisance parameters, the
+		mean and covariance matrix.  Rather, a sequence of
+		transformations removes these nuisance parameters and results
+		in a set of sample matrices that are positive definite.  These
+		matrices are uniformly distributed on the space of positive
+		definite matrices in the unit hyperrectangle if and only if the
+		original data is multivariate normal. The package performs a
+		goodness of fit test of this hypothesis. Four sample datasets
+		are included: a bivariate and a trivariate normal set and a
+		bivariate and trivariate Bernoulli set. In addition to the
+		test, functions in the package give rotatable visualizations of
+		the support region of positive definite matrices for bivariate
+		samples.
+	</longdescription>
+</pkgmetadata>

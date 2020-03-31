@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Estimation of Intervention Effects // An implementation
+		of intervention effect estimation for DAGs (directed acyclic
+		graphs) learned from binary data. First, parameters are
+		estimated or sampled for the DAG and then interventions on each
+		node (variable) are propagated through the network (do-
+		calculus). Both exact computation (up to around 20 variables)
+		and Monte Carlo schemes (for larger networks) are implemented.
+	</longdescription>
+</pkgmetadata>
