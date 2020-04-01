@@ -10,9 +10,9 @@
 		other checks if possibly numeric (even if all numbers reside in
 		a character vector) and coerce to numeric, or check if the
 		numbers are whole. It also offers, among others, a highly
-		flexible recoding function. Some functions need specific
+		flexible recoding routine. Some functions need specific
 		functionality from package QCA, but since that package depends
-		on this package, admisc cannot automatically load package QCA
-		due to circular dependency.
+		on this one, admisc cannot automatically load it due to
+		circular dependency.
 	</longdescription>
 </pkgmetadata>
