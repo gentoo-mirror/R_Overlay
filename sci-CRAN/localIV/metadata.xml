@@ -7,17 +7,14 @@
 		treatment effect (MTE) can be used as a building block for
 		constructing conventional causal parameters such as the average
 		treatment effect (ATE) and the average treatment effect on the
-		treated (ATT) (Heckman, Urzua, and Vytlacil 2006
-		doi:10.1162/rest.88.3.389). Given a treatment selection model
-		and an outcome model, the function mte() estimates the MTE via
-		a semiparametric local instrumental variables method (or via a
-		normal selection model). The function eval_mte() evaluates MTE
-		at any combination of covariates x and latent resistance u, and
-		the function eval_mte_tilde() evaluates MTE projected onto the
-		estimated propensity score (Zhou and Xie 2019
-		https://www.journals.uchicago.edu/doi/abs/10.1086/702172). The
-		object returned by mte() can be used to estimate conventional
-		parameters such as ATE and ATT (via average()) or marginal
-		policy-relevant treatment effects (via mprte()).
+		treated (ATT). Given a treatment selection equation and an
+		outcome equation, the function mte() estimates the MTE via the
+		semiparametric local instrumental variables method or the
+		normal selection model. The function mte_at() evaluates MTE at
+		different values of the latent resistance u with a given X = x,
+		and the function mte_tilde_at() evaluates MTE projected onto
+		the estimated propensity score. The function ace() estimates
+		population-level average causal effects such as ATE, ATT, or
+		the marginal policy relevant treatment effect.
 	</longdescription>
 </pkgmetadata>
