@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tree-Based Moving Average Forecasting Model // We provide a
+		forecasting model for time series forecasting problems with
+		predictors. The offered model, which is based on a submitted
+		research and called tree-based moving average (TBMA),  is based
+		on the integration of the moving average approach to tree-based
+		ensemble approach.  The tree-based ensemble models can capture
+		the complex correlations between the predictors and response
+		variable but lack in modelling time series components. The
+		integration of the moving average approach to the tree-based
+		ensemble approach helps the TBMA model to handle both
+		correlations and autocorrelations in time series data. This
+		package provides a tbma() forecasting function that utilizes
+		the ranger() function from the 'ranger' package. With the help
+		of the ranger() function, various types of tree-based ensemble
+		models, such as extremely randomized trees and random forests,
+		can be used in the TBMA model.
+	</longdescription>
+</pkgmetadata>

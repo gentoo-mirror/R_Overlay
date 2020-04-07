@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'PLINK' (and 'GCTA') File Helpers // Provide function that reads
+		binary genotype produced by 'PLINK' https://www.cog-
+		genomics.org/plink/1.9/input#bed into a R matrix, or scan the
+		genotype one variant at a time like apply(), it also provides
+		functions that reads and writes genotype relatedness/kinship
+		matrices created by 'PLINK' https://www.cog-
+		genomics.org/plink/1.9/distance#make_rel or 'GCTA'
+		https://cnsgenomics.com/software/gcta/#MakingaGRM. Currently it
+		does not support writing back into 'PLINK' binary, it is best
+		used for bringing data produced by 'PLINK' and 'GCTA' into R
+		environment.
+	</longdescription>
+</pkgmetadata>

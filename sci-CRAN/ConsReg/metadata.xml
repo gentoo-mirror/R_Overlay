@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fits Regression  ARMA Models Subject to Constraints to the
+		Coefficient // Fits or generalized linear models either a
+		regression with Autoregressive moving-average (ARMA) errors for
+		time series data. The package makes it easy to incorporate
+		constraints into the model's coefficients. The model is
+		specified by an objective function (Gaussian, Binomial or
+		Poisson) or an ARMA order (p,q), a vector of bound constraints
+		for the coefficients (i.e beta1  0) and the possibility to
+		incorporate restrictions among coefficients (i.e beta1  beta2).
+		The references of this packages are the same as 'stats' package
+		for glm() and arima() functions. See Brockwell, P. J. and
+		Davis, R. A. (1996, ISBN-10: 9783319298528). For the different
+		optimizers implemented, it is recommended to consult the
+		documentation of the corresponding packages.
+	</longdescription>
+</pkgmetadata>
