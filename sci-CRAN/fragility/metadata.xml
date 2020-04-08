@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Assessing and Visualizing Fragility of Clinical Results with
+		Binary Outcomes // A collection of user-friendly functions for
+		assessing and visualizing fragility of individual studies
+		(Walsh et al., 2014) doi:10.1016/j.jclinepi.2013.10.019,
+		conventional pairwise meta-analyses (Atal et al., 2019)
+		doi:10.1016/j.jclinepi.2019.03.012, and network meta-analyses
+		of multiple treatments with binary outcomes. The included
+		functions are designed to: 1) calculate the fragility index
+		(i.e., the minimal event status modifications that can alter
+		the significance or non-significance of the original result)
+		and fragility quotient (i.e., fragility index divided by sample
+		size) at a specific significance level; 2) give the cases of
+		event status modifications for altering the result's
+		significance or non-significance and visualize these cases; 3)
+		visualize the trend of statistical significance as event status
+		is modified; 4) efficiently derive fragility indexes and
+		fragility quotients at multiple significance levels, and
+		visualize the relationship between these fragility measures
+		against the significance levels; and 5) calculate fragility
+		indexes and fragility quotients of multiple datasets (e.g., a
+		collection of clinical trials or meta-analyses) and produce
+		plots of their overall distributions. The outputs from these
+		functions may inform the robustness of clinical results in
+		terms of statistical significance and aid the interpretation of
+		fragility measures.
+	</longdescription>
+</pkgmetadata>
