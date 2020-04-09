@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Gumbel Distribution Functions and Gradients // Gumbel
+		distribution functions (De Haan L. (2007)
+		doi:10.1007/0-387-34471-3) implemented with the techniques of
+		automatic differentiation (Griewank A. (2008)
+		isbn:978-0-89871-659-7). With this tool, a user should be able
+		to quickly model extreme events for which the Gumbel
+		distribution is the domain of attraction. The package makes
+		available the density function, the distribution function the
+		quantile function and a random generating function. In
+		addition, it supports gradient functions. The package combines
+		'Adept' (C++ templated automatic differentiation) (Hogan R.
+		(2017) doi:10.5281/zenodo.1004730) and 'Eigen' (templated
+		matrix-vector library) for fast computations of both objective
+		functions and exact gradients. It relies on 'RcppEigen' for
+		easy access to 'Eigen' and bindings to R.
+	</longdescription>
+</pkgmetadata>
