@@ -12,11 +12,11 @@
 		and one target are tested in a DPI step which removes edges. A
 		bootstrapping process then calculates the robustness of the
 		network, eventually re-adding edges previously removed by DPI.
-		The package implements a similar pipeline as ARACNe-AP
-		(Algorithm for the Reconstruction of Accurate Cellular Networks
-		with Adaptive Partitioning) by Giorgi (2016)
-		doi:10.1093/bioinformatics/btw216) with optimizations to run
-		outside a  computing cluster (most notably correlation to infer
-		feature dependencies instead of Mutual Information).
+		The algorithm has been optimized to run outside a computing
+		cluster, using a fast correlation implementation. The package
+		finally provides functions to calculate network enrichment
+		analysis from RNA-Seq and ATAC-Seq signatures as described in
+		the article by Giorgi lab (2020)
+		doi:10.1093/bioinformatics/btaa223.
 	</longdescription>
 </pkgmetadata>
