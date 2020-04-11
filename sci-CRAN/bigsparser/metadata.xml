@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sparse Matrix Format with Data on Disk // Provides a sparse
+		matrix format with data stored on disk, to be used in both R
+		and C++. This is intended for more efficient use of sparse data
+		in C++ and also when parallelizing, since data on disk does not
+		need copying. Only a limited number of features will be
+		implemented. For now, conversion can be performed from a
+		'dgCMatrix' of R package 'Matrix'.
+	</longdescription>
+</pkgmetadata>
