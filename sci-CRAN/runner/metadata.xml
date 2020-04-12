@@ -2,10 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Running Operations for Vectors // Calculates running functions
-		with varying window size and missing handling options. Package
-		brings also running streak and running which, what extends
-		beyond range of functions already implemented in R packages.
-		Calculating on windows depending on date also available.
+		Running Operations for Vectors // Fully supports rolling windows
+		operations by controlling window length, window lag, time
+		indexing. With runner one can apply any R function on rolling
+		windows. Package eases work with equally and unequally spaced
+		time series.
 	</longdescription>
 </pkgmetadata>
