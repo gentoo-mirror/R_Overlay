@@ -2,14 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Convenience Functions by Michael Chirico // A set of functions,
-		some subset of which I use in every .R file I write. Examples
-		are table2(), which adds useful functionalities to base table
-		(sorting, built-in proportion argument, etc.); lyx.xtable(),
-		which converts xtable() output to a format more easily copy-
-		pasted into LyX; pdf2(), which writes a plot to file while also
-		displaying it in the RStudio plot window; and
-		abbr_to_colClass(), which is a much more concise way of feeding
-		many types to a colClass argument in a data reader.
+		Convenience Functions by Michael Chirico // YACFP (Yet Another
+		Convenience Function Package). get_age() is a fast  accurate
+		tool for measuring fractional years between two dates.
+		abbr_to_colClass() is a much more concise way of feeding many
+		types to a colClass argument in a data reader.
+		stale_package_check() tries to identify any library() calls to
+		unused packages.
 	</longdescription>
 </pkgmetadata>
