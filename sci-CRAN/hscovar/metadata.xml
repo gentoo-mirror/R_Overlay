@@ -7,7 +7,9 @@
 		calculated from either paternal haplotypes and maternal linkage
 		disequilibrium (LD) or vise versa. A genetic map is required.
 		Grouping of markers is based on the correlation matrix and a
-		representative marker is suggested for each group. The
+		representative marker is suggested for each group. Employing
+		the correlation matrix, optimal sample size can be derived for
+		association studies based on a SNP-BLUP approach. The
 		implementation relies on paternal half-sib families and
 		biallelic markers. If maternal half-sib families are used, the
 		roles of sire/dam are swapped. Multiple families can be
