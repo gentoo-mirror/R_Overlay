@@ -2,8 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Trades, Curves, Rating Tables, Add-on Tables, CSAs // Contains
-		trades from the five major assets classes and also
+		CCR, Entropy-Based Correlation Estimates  Dynamic Beta //
+		Contains performance analysis metrics of track records
+		including entropy-based correlation and dynamic beta based on
+		the Kalman filter. The normalized sample entropy method has
+		been implemented which produces accurate entropy estimation
+		even on smaller datasets while for the dynamic beta calculation
+		the Kalman filter methodology has been utilized. On a separate
+		stream, trades from the five major assets classes and also
 		functionality to use pricing curves, rating tables, CSAs and
 		add-on tables. The implementation follows an object oriented
 		logic whereby each trade inherits from more abstract classes

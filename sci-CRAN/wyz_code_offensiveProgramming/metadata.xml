@@ -2,13 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Wizardry Code Offensive Programming // Allows to change R coding
-		from defensive programming (i.e. many input parameter checks
-		implementation required) to offensive programming (none/reduced
-		number of parameter checks required). Provides code
-		instrumentation to ease this change. Should reduce the code
-		size as many controls and type checks have no more reason to
-		exist. Should also speed up processing as many checks will be
-		reduced to single check.
+		Wizardry Code Offensive Programming // Allows to turn standard R
+		code into offensive programming code. Provides code
+		instrumentation to ease this change and tools to assist and
+		accelerate code production and tuning while using offensive
+		programming code technics. Should improve code robustness and
+		quality. Function calls can be easily verified on-demand or in
+		batch mode to assess parameter types and length conformities.
+		Should improve coders productivity as offensive programming
+		reduces the code size due to reduced number of controls all
+		along the call chain. Should speed up processing as many checks
+		will be reduced to one single check.
 	</longdescription>
 </pkgmetadata>
