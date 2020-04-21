@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/plyr dev-lang/R
+DESCRIPTION=Functions Supporting Packages Ch... (see metadata)
+EAPI=6
+IUSE=r_suggests_amap r_suggests_chemospec r_suggests_chemospec2d r_suggests_irlba r_suggests_lattice r_suggests_multiway r_suggests_rcolorbrewer r_suggests_robustbase r_suggests_threeway r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/plyr r_suggests_amap? ( sci-CRAN/amap ) r_suggests_chemospec? ( >=sci-CRAN/ChemoSpec-5.1 ) r_suggests_chemospec2d? ( >=sci-CRAN/ChemoSpec2D-0.3 ) r_suggests_irlba? ( sci-CRAN/irlba ) r_suggests_lattice? ( virtual/lattice ) r_suggests_multiway? ( sci-CRAN/multiway ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_robustbase? ( sci-CRAN/robustbase ) r_suggests_threeway? ( sci-CRAN/ThreeWay ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ChemoSpecUtils_0.4.51.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=527f479734d13d055e7288419a4dda3f
