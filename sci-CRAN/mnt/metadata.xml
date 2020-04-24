@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Affine Invariant Tests of Multivariate Normality // Various
+		affine invariant multivariate normality tests are provided. It
+		is designed to accompany the survey article Ebner, B. and
+		Henze, N. (2020) arXiv:2004.07332 titled "Tests for
+		multivariate normality -- a critical review with emphasis on
+		weighted L^2-statistics". We implement new and time honoured
+		L^2-type tests of multivariate normality, such as the
+		Baringhaus-Henze-Epps-Pulley (BHEP) test, the Henze-Zirkler
+		test, the test of Henze-Jimnes-Gamero, the test of Henze-
+		Jimnes-Gamero-Meintanis, the test of Henze-Visage, the Drr-
+		Ebner-Henze test based on harmonic oscillator and the Drr-
+		Ebner-Henze test based on a double estimation in a PDE.
+		Secondly, we include the measures of multivariate skewness and
+		kurtosis by Mardia, Koziol, Malkovich and Afifi and Mri,
+		Rohatgi and Szkely, as well as the associated tests. Thirdly,
+		we include the tests of multivariate normality by Cox and
+		Small, the 'energy' test of Szkely and Rizzo, the tests based
+		on spherical harmonics by Manzotti and Quiroz and the test of
+		Pudelko. All the functions and tests need the data to be a n x
+		d matrix where n is the samplesize (number of rows) and d is
+		the dimension (number of columns).
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,26 @@
+# Copyright 1999-2020 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Factor Big Integers with the Quadratic Sieve'
+SRC_URI="http://cran.r-project.org/src/contrib/RcppBigIntAlgos_0.2.2.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_numbers r_suggests_rcppalgos r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_numbers? ( sci-CRAN/numbers )
+	r_suggests_rcppalgos? ( sci-CRAN/RcppAlgos )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+"
+DEPEND="sci-CRAN/gmp
+	sci-CRAN/Rcpp
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	sci-CRAN/RcppThread
+	dev-libs/gmp
+	${R_SUGGESTS-}
+"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Factor Big Integers with the Quadratic Sieve // Features the
+		multiple polynomial quadratic sieve (MPQS) algorithm for
+		factoring large integers and a vectorized factoring function
+		that returns the complete factorization of an integer. The MPQS
+		is based off of the seminal work of Carl Pomerance (1984)
+		doi:10.1007/3-540-39757-4_17 along with the modification of
+		multiple polynomials introduced by Peter Montgomery and J.
+		Davis as outlined by Robert D. Silverman (1987)
+		doi:10.1090/S0025-5718-1987-0866119-8. Utilizes the C library
+		GMP (GNU Multiple Precision Arithmetic). The Pollard's rho
+		algorithm for factoring smaller numbers is the same algorithm
+		used by the factorize function in the 'gmp' package.
+	</longdescription>
+</pkgmetadata>
