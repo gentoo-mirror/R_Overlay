@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generates Aoristic Probability Distributions // It can sometimes
+		be difficult to ascertain when some events (such as property
+		crime) occur because the victim is not present when the crime
+		happens. As a result, police databases often record a 'start'
+		(or 'from') date and time, and an 'end' (or 'to') date and
+		time. The time span between these date/times can be minutes,
+		hours, or sometimes days, hence the term 'Aoristic'. Aoristic
+		is one of the past tenses in Greek and represents an uncertain
+		occurrence in time. For events with a location describes with
+		either a latitude/longitude, or X,Y coordinate pair, and a
+		start and end date/time, this package generates an aoristic
+		data frame with aoristic weighted probability values for each
+		hour of the week, for each observation. Outputs include an
+		aoristic data frame, as well as summary graphs and displays.
+		For more information see: Ratcliffe, JH (2002) Aoristic
+		signatures and the temporal analysis of high volume crime
+		patterns, Journal of Quantitative Criminology. 18 (1): 23-43.
+		Note: This package replaces an original 'aoristic' package
+		(version 0.6) by George Kikuchi that has been discontinued with
+		his permission.
+	</longdescription>
+</pkgmetadata>
