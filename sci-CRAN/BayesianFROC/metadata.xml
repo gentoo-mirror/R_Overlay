@@ -10,43 +10,38 @@
 		Chakraborty's classical model is non-generative in the sense
 		that it cannot synthesize data. This package aims to modify his
 		models to be generative using a Bayesian approach, and to
-		verify that our models fit practical datasets. We also develop
-		a Bayesian model for comparing modalities. Chakraborty [1]
-		defined a free-response receiver operating characteristic
-		(FROC) model based on maximum likelihood (ML). However, his
-		model is non-generative in the sense that it cannot generate
-		FROC datasets. In signal detection theory, the number of true
-		positives never exceeds the number of targets. However, this is
-		not explained by any existing model. Thus, in this package, the
-		author contributes to FROC theory by refining Chakrabortys
-		model to obtain models that are generative. This modification
-		allows us to use FROC analysis in a general statistical scheme,
-		and as a benefit, our generative model can be applied to
-		calculations of posterior predictive p values that require
-		generation of synthetic datasets from fitted models.
-		Furthermore, this package presents new models for comparison of
-		modalities. Modality comparison is a common problem in
-		radiology, and has been studied extensively. However, in many
-		medical studies, such problems are addressed with non-Bayesian
-		methods such as ANOVA. As a supplementary topic, this work
-		presents a Bayesian model that includes individual differences.
-		With this model, we can account for differences between
-		individual readers when comparing modalities, using Bayesian
-		rather than ML-methods. The author found the existing FROC
-		model in [1] to be non-generative for calculation of  posterior
-		predictive p values. Replacing the ML-based method with a
-		Bayesian approach differs from standard practice but provides
-		insight into the problems of existing methods. Please execute
-		the following R scripts from the R (R studio) console,
-		demo(demo_MRMC, package = "BayesianFROC"); demo(demo_srsc,
-		package = "BayesianFROC"); demo(demo_stan, package =
-		"BayesianFROC"); demo(demo_drawcurves_srsc, package =
-		"BayesianFROC"); demo_Bayesian_FROC();
-		demo_Bayesian_FROC_without_pause(). References: [1] Dev
-		Chakraborty (1989) doi:10.1118/1.596358 Maximum likelihood
-		analysis of free - response receiver operating characteristic
-		(FROC) data. Pre-print: Issei Tsunoda; Generative Models for
-		free-response receiver operating characteristic analysis. See
-		the vignettes for more details.
+		verify that our models fit practical datasets. In signal
+		detection theory, the number of true positives never exceeds
+		the number of targets. However, this is not explained by any
+		existing model. Thus, in this package, the author contributes
+		to FROC theory by refining Chakrabortys model to obtain models
+		that are generative. This modification allows us to use FROC
+		analysis in a general statistical scheme, and as a benefit, our
+		generative model can be applied to calculations of posterior
+		predictive p values that require generation of synthetic
+		datasets from fitted models. Furthermore, this package presents
+		new models for comparison of modalities. Modality comparison is
+		a common problem in radiology, and has been studied
+		extensively. However, in many medical studies, such problems
+		are addressed with non-Bayesian methods such as ANOVA. As a
+		supplementary topic, this work presents a Bayesian model that
+		includes individual differences. With this model, we can
+		account for differences between individual readers when
+		comparing modalities, using Bayesian rather than ML-methods.
+		The author found the existing FROC model in [1] to be non-
+		generative for calculation of  posterior predictive p values.
+		Replacing the ML-based method with a Bayesian approach differs
+		from standard practice but provides insight into the problems
+		of existing methods. Please execute the following R scripts
+		from the R (R studio) console, demo(demo_MRMC, package =
+		"BayesianFROC"); demo(demo_srsc, package = "BayesianFROC");
+		demo(demo_stan, package = "BayesianFROC");
+		demo(demo_drawcurves_srsc, package = "BayesianFROC");
+		demo_Bayesian_FROC(); demo_Bayesian_FROC_without_pause().
+		References: [1] Dev Chakraborty (1989) doi:10.1118/1.596358
+		Maximum likelihood analysis of free - response receiver
+		operating characteristic (FROC) data. Pre-print: Issei Tsunoda;
+		Generative Models for free-response receiver operating
+		characteristic analysis. See the vignettes for more details.
 	</longdescription>
 </pkgmetadata>
