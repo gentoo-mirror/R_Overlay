@@ -16,12 +16,14 @@
 		of NA-values via their respective replicate measurements and to
 		help/confirm the choice of NA-replacement by low random values.
 		Dedicated filtering and statistical testing using the framework
-		of package 'limma' can be run, enhanced by multiple rounds of
-		NA-replacements to provide robustness towards rare stochastic
-		events. Multi-species samples, as frequently used in benchmark-
-		tests, can be run with special options consideration separating
-		the data into sub-groups during normalization and testing.
-		Subsequently, ROC curves can be constructed to compare multiple
-		analysis approaches.
+		of package 'limma' doi:10.18129/B9.bioc.limma can be run,
+		enhanced by multiple rounds of NA-replacements to provide
+		robustness towards rare stochastic events. Multi-species
+		samples, as frequently used in benchmark-tests (eg Navarro et
+		al 2016 doi:10.1038/nbt.3685, Ramus et al 2016
+		doi:10.1016/j.jprot.2015.11.011), can be run with special
+		options separating the data into sub-groups during
+		normalization and testing. Subsequently, ROC curves can be
+		constructed to compare multiple analysis approaches.
 	</longdescription>
 </pkgmetadata>
