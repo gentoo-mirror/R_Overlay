@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model Confidence Bounds // When choosing proper variable
+		selection methods, it is important to consider the uncertainty
+		of a certain method. The Model Confidence Bound for variable
+		selection identifies two nested models (upper and lower
+		confidence bound models) containing the true model at a given
+		confidence level. A good variable selection method is the one
+		of which the Model Confidence Bound under a certain confidence
+		level has the shortest width. When visualizing the variability
+		of model selection and comparing different model selection
+		procedures, Model Uncertainty Curve is a good graphical tool. A
+		good variable selection method is the one of whose Model
+		Uncertainty Curve will tend to arch towards the upper left
+		corner. This function aims to obtain the Model Confidence Bound
+		and draw the Model Uncertainty Curve of certain single model
+		selection method under a coverage rate equal or little higher
+		than user-given confidential level. About what Model Confidence
+		Bound is and how it work please see Li,Y., Luo,Y., Ferrari,D.,
+		Hu,X. and Qin,Y. (2019) Model Confidence Bounds for Variable
+		Selection. Biometrics, 75:392-403. DOI:10.1111/biom.13024.
+	</longdescription>
+</pkgmetadata>
