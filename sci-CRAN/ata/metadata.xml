@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automated Test Assembly // Provides a collection of psychometric
+		methods to process item metadata and use target assessment and
+		measurement blueprint constraints to assemble a test form.
+		Currently two automatic test assembly (ata) approaches are
+		enabled. For example, the weighted (positive) deviations
+		method, wdm(), proposed by Swanson and Stocking (1993)
+		doi:10.1177/014662169301700205 was implemented in its full
+		specification allowing for both item selection as well as test
+		form refinement. The linear constraint programming approach,
+		atalp(), uses the linear equation solver by Berkelaar et. al
+		(2014) http://lpsolve.sourceforge.net/5.5/ to enable a variety
+		of approaches to select items.
+	</longdescription>
+</pkgmetadata>

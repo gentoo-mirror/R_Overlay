@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation and Inference for Multi-Kink Quantile Regression //
+		Estimation and inference for multiple kink quantile regression.
+		A bootstrap restarting iterative segmented quantile algorithm
+		is proposed to estimate the multiple kink quantile regression
+		model conditional on a given number of change points. The
+		number of kinks is also allowed to be unknown. In such case,
+		the backward elimination algorithm and the bootstrap restarting
+		iterative segmented quantile algorithm are combined to select
+		the number of change points based on a quantile BIC. A score-
+		type based test statistic is also developed for testing the
+		existence of kink effect. The package is based on the paper,
+		"Wei Zhong, Chuang Wan and Wenyang Zhang (2020). Estimation and
+		inference for multi-kink quantile regression, submitted".
+	</longdescription>
+</pkgmetadata>
