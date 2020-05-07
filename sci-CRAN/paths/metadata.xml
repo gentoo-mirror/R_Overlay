@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Imputation Approach to Estimating Path-Specific Causal Effects
+		// In causal mediation analysis with multiple causally ordered
+		mediators, a set of path-specific effects are identified under
+		standard ignorability assumptions. This package implements an
+		imputation approach to estimating these effects along with a
+		set of bias formulas for conducting sensitivity analysis (Zhou
+		and Yamamoto doi:10.31235/osf.io/2rx6p). It contains two main
+		functions: paths() for estimating path-specific effects and
+		sens() for conducting sensitivity analysis. Estimation
+		uncertainty is quantified using the nonparametric bootstrap.
+	</longdescription>
+</pkgmetadata>

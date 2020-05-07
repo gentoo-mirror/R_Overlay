@@ -10,11 +10,9 @@
 		(correlated) phenotypes based on many genetic settings. Thus,
 		we implemented various options for simulation of pleiotropy and
 		Linkage Disequilibrium under additive, dominance and epistatic
-		models. The simulation currently takes a HapMap file as an
-		input and numericalize it with GAPIT.numericalization Lipka et
-		al. (2012) doi:10.1093/bioinformatics/bts444. The numericalized
-		dataset is then used by a framework adapted from Rice and Lipka
-		(2019) doi:10.3835/plantgenome2018.07.0052 for simulating
-		multiple traits.
+		models. The simulation currently takes a marker data set as an
+		input and then uses it for simulating multiple traits as
+		described in Fernandes and Lipka (2020)
+		doi:10.1101/2020.01.11.902874.
 	</longdescription>
 </pkgmetadata>
