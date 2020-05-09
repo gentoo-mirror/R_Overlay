@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Bootstrap-Based Heterogeneity Test for Meta-Analysis //
+		Implements a bootstrap-based heterogeneity test for
+		standardized mean differences (d), Fisher-transformed Pearson's
+		correlations (r), and natural-logarithm-transformed odds ratio
+		(or) in meta-analysis studies. Depending on the presence of
+		moderators, this Monte Carlo based test can be implemented in
+		the random- or mixed-effects model. This package uses rma()
+		function from the R package 'metafor' to obtain parameter
+		estimates and likelihoods, so installation of R package
+		'metafor' is required. This approach refers to the studies of
+		Anscombe (1956) doi:10.2307/2332926, Haldane (1940)
+		doi:10.2307/2332614, Hedges (1981)
+		doi:10.3102/10769986006002107, Hedges  Olkin (1985,
+		ISBN:978-0123363800), Silagy, Lancaster, Stead, Mant,  Fowler
+		(2004) doi:10.1002/14651858.CD000146.pub2, Viechtbauer (2010)
+		doi:10.18637/jss.v036.i03, and Zuckerman (1994,
+		ISBN:978-0521432009).
+	</longdescription>
+</pkgmetadata>

@@ -20,6 +20,9 @@
 		repair if invalid geometries are found. The previous default
 		(FALSE, now '0L') is fastest and used for 'GEOS'  3.7.2, but
 		will not warn users of possible problems before the failure of
-		topological operations that previously succeeded.
+		topological operations that previously succeeded. From 'GEOS'
+		3.8.0, repair of geometries may also be attempted using
+		'gMakeValid()', which may, however, return a collection of
+		geometries of different types.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Survival Analysis for Right Censored Data // Performs
+		unadjusted Bayesian survival analysis for right censored time-
+		to-event data. The main function, BayesSurv(), computes the
+		posterior mean and a credible band for the survival function
+		and for the cumulative hazard, as well as the posterior mean
+		for the hazard, starting from a piecewise exponential
+		(histogram) prior with Gamma distributed heights that are
+		either independent, or have a Markovian dependence structure. A
+		function, PlotBayesSurv(), is provided to easily create plots
+		of the posterior means of the hazard, cumulative hazard and
+		survival function, with a credible band accompanying the latter
+		two. The priors and samplers are described in more detail in
+		Castillo and Van der Pas (2020) "Multiscale Bayesian survival
+		analysis" arXiv:2005.02889. In that paper it is also shown that
+		the credible bands for the survival function and the cumulative
+		hazard can be considered confidence bands (under mild
+		conditions) and thus offer reliable uncertainty quantification.
+	</longdescription>
+</pkgmetadata>
