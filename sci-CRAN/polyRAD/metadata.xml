@@ -7,8 +7,11 @@
 		sequencing (GBS) or restriction site-associated DNA sequencing
 		(RAD-seq) are imported and used to make Bayesian probability
 		estimates of genotypes in polyploids or diploids.  The genotype
-		probabilities, or genotypes sampled from those probabilties,
-		can then be exported for downstream analysis.  'polyRAD' is
-		described by Clark et al. (2019) doi:10.1534/g3.118.200913.
+		probabilities, posterior mean genotypes, or most probable
+		genotypes can then be exported for downstream analysis.
+		'polyRAD' is described by Clark et al. (2019)
+		doi:10.1534/g3.118.200913.  A variant calling pipeline for
+		highly duplicated genomes is also included and is described by
+		Clark et al. (2020) doi:10.1101/2020.01.11.902890.
 	</longdescription>
 </pkgmetadata>
