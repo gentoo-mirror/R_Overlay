@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Heterogeneous Treatment Effects in Regression Analysis //
+		Computes diagnostics for linear regression when treatment
+		effects are heterogeneous. The output of 'hettreatreg'
+		represents ordinary least squares (OLS) estimates of the effect
+		of a binary treatment as a weighted average of the average
+		treatment effect on the treated (ATT) and the average treatment
+		effect on the untreated (ATU). The program estimates the OLS
+		weights on these parameters, computes the associated model
+		diagnostics, and reports the implicit OLS estimate of the
+		average treatment effect (ATE). See Sloczynski (2019), http://p
+		eople.brandeis.edu/~tslocz/Sloczynski_paper_regression.pdf.
+	</longdescription>
+</pkgmetadata>
