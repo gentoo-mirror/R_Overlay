@@ -12,8 +12,8 @@
 		(called by function "KWDual" in the 'REBayes' package), and
 		they are expected to arrive at solutions more quickly when the
 		number of samples is large and the number of mixture components
-		is small. This implements the "mix-SQP" algorithm (without the
-		low-rank approximation) described in Y. Kim, P. Carbonetto, M.
-		Stephens  M. Anitescu (2018) arXiv:1806.01412.
+		is not too large. This implements the "mix-SQP" algorithm, with
+		some improvements, described in Y. Kim, P. Carbonetto, M.
+		Stephens  M. Anitescu (2020) DOI:10.1080/10618600.2019.1689985.
 	</longdescription>
 </pkgmetadata>
