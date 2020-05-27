@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Health Inequality Analysis // Tools for calculating deprivation
+		measures and analysing health outcomes and mortality by
+		deprivation. Included are the functions: zscore() and
+		w_pcntile() for developing deprivation measures and the
+		functions smr(), st_rate() and rii() for calculating
+		standardized mortality ratios, direct standardized rates and
+		Slope and Relative indices of Inequality (SII and RII). Test
+		data is included (dep_data and health_data). The RII/SII are
+		calculated following Pamuk ER (1985)
+		doi:10.1080/0032472031000141256. The confidence intervals for
+		SII/RII are calculated using a multinomial distribution as
+		described in Lumme et al (2015) doi:10.1007/s10742-015-0137-1.
+	</longdescription>
+</pkgmetadata>
