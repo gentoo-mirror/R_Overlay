@@ -3,7 +3,22 @@
 <pkgmetadata>
 	<longdescription>
 		Multi-Analysis Distance Sampling // Performs distance sampling
-		analyses on a number of species accounting for unidentified
-		sightings, model uncertainty and covariate uncertainty.
+		analyses on a number of species at once and can account for
+		unidentified sightings, model uncertainty and covariate
+		uncertainty. Unidentified sightings refer to sightings which
+		cannot be allocated to a single species but may instead be
+		allocated to a group of species. The abundance of each
+		unidentified group is estimated and then prorated to the
+		species estimates. Model uncertainty should be incorporated
+		when multiple models give equally good fit to the data but lead
+		to large differences in estimated density / abundance.
+		Covariate uncertainty should be incorporated when covariates
+		cannot be measured accurately, for example this is often the
+		case for group size in marine mammal surveys. Variance
+		estimation for these methods is via a non parametric bootstrap.
+		The methods implemented are described in Gerodette T. and
+		Forcada J. (2005) doi:10.3354/meps291001 Non-recovery of two
+		spotted and spinner dolphin populations in the eastern tropical
+		Pacific Ocean.
 	</longdescription>
 </pkgmetadata>
