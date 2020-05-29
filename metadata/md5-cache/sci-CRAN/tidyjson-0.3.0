@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/assertthat >=sci-CRAN/tidyr-1.0.0 sci-CRAN/purrr >=dev-lang/R-3.1.0 sci-CRAN/tibble >=sci-CRAN/dplyr-0.8.3 sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/jsonlite dev-lang/R
+DESCRIPTION=Tidy Complex JSON
+EAPI=6
+IUSE=r_suggests_covr r_suggests_forcats r_suggests_ggplot2 r_suggests_igraph r_suggests_knitr r_suggests_listviewer r_suggests_lubridate r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_testthat r_suggests_vctrs r_suggests_viridis r_suggests_wordcloud byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/assertthat >=sci-CRAN/tidyr-1.0.0 sci-CRAN/purrr >=dev-lang/R-3.1.0 sci-CRAN/tibble >=sci-CRAN/dplyr-0.8.3 sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/jsonlite r_suggests_covr? ( sci-CRAN/covr ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_listviewer? ( sci-CRAN/listviewer ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vctrs? ( sci-CRAN/vctrs ) r_suggests_viridis? ( sci-CRAN/viridis ) r_suggests_wordcloud? ( sci-CRAN/wordcloud ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tidyjson_0.3.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	0914eab919f4f11dd9e0407b92af4726	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=5d4ab24f1503e9555d6f0f1dd8e727a5

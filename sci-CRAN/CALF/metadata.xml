@@ -2,7 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Coarse Approximation Linear Function // Contains greedy
-		algorithms for coarse approximation linear functions.
+		Coarse Approximation Linear Function // Forward selection linear
+		regression greedy algorithm where selection is driven by
+		optimization of Welch t-test p-value or AUC (binary dependent
+		vector), or Pearson correlation (nonbinary). Functions now
+		enabled include data outputs for permutation tests of several
+		types plus cross-validation features. Please see preprint at
+		https://www.biorxiv.org/content/10.1101/2020.03.27.011700v1 or
+		doi:10.1101/2020.03.27.011700.
 	</longdescription>
 </pkgmetadata>

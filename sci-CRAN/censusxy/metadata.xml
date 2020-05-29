@@ -2,15 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Access the U.S. Census Bureau Geocoder // Provides access to the
-		U.S. Census Bureau's API for batch geocoding American street
-		addresses (https://geocoding.geo.census.gov/geocoder). The
-		package offers a batch solution for address geocoding, as
-		opposed to geocoding a single address at a time. It has also
-		been developed specifically with large data sets in mind - only
-		unique addresses are passed to the API for geocoding. If a data
-		set exceeds 1,000 unique addresses, it will be automatically
-		subset into appropriately sized API calls, geocoded, and then
-		put back together so that a single object is returned.
+		Access the U.S. Census Bureau's Geocoding A.P.I. System //
+		Provides access to the U.S. Census Bureau's A.P.I for matching
+		American street addresses with their longitude and latitude.
+		This includes both single address matching as well as batch
+		functionality for multiple addresses. Census geographies can be
+		appended to addresses if desired, and reverse geocoding of
+		point locations to census geographies is also supported.
 	</longdescription>
 </pkgmetadata>

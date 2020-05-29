@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/jsonlite sci-CRAN/htmlwidgets sci-CRAN/htmltools sci-CRAN/reactR sci-CRAN/digest >=dev-lang/R-3.1 dev-lang/R
+DESCRIPTION=Interactive Data Tables Based on React Table
+EAPI=6
+IUSE=r_suggests_covr r_suggests_crosstalk r_suggests_dplyr r_suggests_leaflet r_suggests_rmarkdown r_suggests_shiny r_suggests_sparkline r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/jsonlite sci-CRAN/htmlwidgets sci-CRAN/htmltools sci-CRAN/reactR sci-CRAN/digest >=dev-lang/R-3.1 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_crosstalk? ( sci-CRAN/crosstalk ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_sparkline? ( sci-CRAN/sparkline ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/reactable_0.2.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	0914eab919f4f11dd9e0407b92af4726	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=081c58437eb1043973e2e16d63cef3de

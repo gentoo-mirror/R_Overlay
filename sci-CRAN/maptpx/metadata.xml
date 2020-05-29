@@ -2,12 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		MAP Estimation of Topic Models // Posterior maximization for
-		topic models (LDA) in text analysis, as described in Taddy
-		(2012) `on estimation and selection for topic models'.
-		Previous versions of this code were included as part of the
-		textir package.  If you want to take advantage of openmp
-		parallelization, uncomment the relevant flags in src/MAKEVARS
-		before compiling.
+		MAP Estimation of Topic Models // Maximum a posteriori (MAP)
+		estimation for topic models (i.e., Latent Dirichlet Allocation)
+		in text analysis, as described in Taddy (2012) 'On estimation
+		and selection for topic models'.  Previous versions of this
+		code were included as part of the 'textir' package.  If you
+		want to take advantage of openmp parallelization, uncomment the
+		relevant flags in src/MAKEVARS before compiling.
 	</longdescription>
 </pkgmetadata>
