@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Cross-Quantilogram // Estimation and inference methods for the
+		cross-quantilogram.  The cross-quantilogram is a measure of
+		nonlinear dependence between two variables, based on either
+		unconditional or conditional quantile functions.  The cross-
+		quantilogram can be considered as an extension of the
+		correlogram, which is a correlation function over multiple lag
+		periods and mainly focuses on linear dependency.  One can use
+		the cross-quantilogram to detect the presence of directional
+		predictability from one time series to another.  This package
+		provides a statistical inference method based on the stationary
+		bootstrap.  See Linton and Whang (2007)
+		doi:10.1016/j.jeconom.2007.01.004 for univariate time series
+		analysis and Han, Linton, Oka and Whang (2016)
+		doi:10.1016/j.jeconom.2016.03.001 for multivariate time series
+		analysis.
+	</longdescription>
+</pkgmetadata>

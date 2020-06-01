@@ -6,10 +6,10 @@
 		Solvers // Provides a way to call the functions in 'SUNDIALS' C
 		ODE solving library
 		(https://computation.llnl.gov/projects/sundials). Currently the
-		serial version of ODE solver, 'CVODE' and sensitivity
-		calculator 'CVODES' from the 'SUNDIALS' library are
-		implemented. The package requires ODE to be written as an 'R'
-		or 'Rcpp' function and does not require the 'SUNDIALS' library
-		to be installed on the local machine.
+		serial version of ODE solver, 'CVODE', sensitivity calculator
+		'CVODES' and differential algebraic solver 'IDA' from the
+		'SUNDIALS' library are implemented. The package requires ODE to
+		be written as an 'R' or 'Rcpp' function and does not require
+		the 'SUNDIALS' library to be installed on the local machine.
 	</longdescription>
 </pkgmetadata>
