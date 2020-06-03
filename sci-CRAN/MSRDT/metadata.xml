@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-State Reliability Demonstration Tests (MSRDT) // This is a
+		implementation of design methods for multi-state reliability
+		demonstration tests (MSRDT) with failure count data, which is
+		associated with the work from the published paper "Multi-state
+		Reliability Demonstration Tests" by Suiyao Chen et al. (2017)
+		doi:10.1080/08982112.2017.1314493. It implements two types of
+		MSRDT, multiple periods (MP) and multiple failure modes (MFM).
+		For MP, two different scenarios with criteria on cumulative
+		periods (Cum) or separate periods (Sep) are implemented
+		respectively. It also provides the implementation of
+		conventional design method, namely binomial tests for failure
+		count data.
+	</longdescription>
+</pkgmetadata>

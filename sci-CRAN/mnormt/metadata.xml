@@ -2,12 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		The Multivariate Normal and t Distributions // Functions are
-		provided for computing the density and the distribution
-		function of multivariate normal and "t" random variables, and
-		for generating random vectors sampled from these distributions.
+		The Multivariate Normal and t Distributions, and Their Truncated
+		Versions // Functions are provided for computing the density
+		and the distribution function of d-dimensional normal and "t"
+		random variables, possibly truncated (on one side or two sides,
+		with componentwise choice), and for generating random vectors
+		sampled from these distributions, except sampling from the
+		truncated "t". Moments of arbitrary order of a truncated normal
+		are computed, and converted to cumulants up to order 4.
 		Probabilities are computed via non-Monte Carlo methods;
-		different routines are used in the case d=1, d=2, d2, if d
-		denotes the number of dimensions.
+		different routines are used in the case d=1, d=2, d=3, d2, if d
+		denotes the dimensionality.
 	</longdescription>
 </pkgmetadata>

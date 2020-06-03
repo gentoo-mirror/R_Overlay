@@ -2,10 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Point-In-Polyhedron Test (2D and 3D) // Function 'pip3d' tests
+		Point-in-Polyhedron Test (2D and 3D) // Function pip3d() tests
 		whether a point in 3D space is within, exactly on, or outside
 		an enclosed surface defined by a triangular mesh. Function
-		'pip2d' tests whether a point in 2D space is within, exactly
-		on, or outside a polygon.
+		pip2d() tests whether a point in 2D space is within, exactly
+		on, or outside a polygon. For a reference, see: Liu et al., A
+		new point containment test algorithm based on preprocessing and
+		determining triangles, Computer-Aided Design 42(12):1143-1150.
 	</longdescription>
 </pkgmetadata>

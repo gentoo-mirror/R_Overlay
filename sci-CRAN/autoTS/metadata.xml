@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automatic Model Selection and Prediction for Univariate Time
+		Series // Offers a set of functions to easily make predictions
+		for univariate time series. 'autoTS' is a wrapper of existing
+		functions of the 'forecast' and 'prophet' packages, harmonising
+		their outputs in tidy dataframes and using default values for
+		each. The core function getBestModel() allows the user to
+		effortlessly benchmark seven algorithms along with a bagged
+		estimator to identify which one performs the best for a given
+		time series.
+	</longdescription>
+</pkgmetadata>
