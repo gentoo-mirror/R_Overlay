@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/memoise sci-CRAN/httr sci-CRAN/xml2 sci-CRAN/Rcpp >=sci-CRAN/geosphere-1.4.3 sci-CRAN/sp >=dev-lang/R-3.5.0 sci-CRAN/rgdal >=sci-CRAN/raster-2.4.15 dev-lang/R
+DESCRIPTION=Visualizing and Analyzing Animal Track Data
+EAPI=6
+IUSE=r_suggests_adehabitathr r_suggests_adehabitatlt r_suggests_amt r_suggests_bcpa r_suggests_circular r_suggests_ctmm r_suggests_embc r_suggests_ggmap r_suggests_ggplot2 r_suggests_knitr r_suggests_leaflet r_suggests_lubridate r_suggests_mapproj r_suggests_maptools r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/memoise sci-CRAN/httr sci-CRAN/xml2 sci-CRAN/Rcpp >=sci-CRAN/geosphere-1.4.3 sci-CRAN/sp >=dev-lang/R-3.5.0 sci-CRAN/rgdal >=sci-CRAN/raster-2.4.15 sci-CRAN/Rcpp r_suggests_adehabitathr? ( sci-CRAN/adehabitatHR ) r_suggests_adehabitatlt? ( sci-CRAN/adehabitatLT ) r_suggests_amt? ( sci-CRAN/amt ) r_suggests_bcpa? ( sci-CRAN/bcpa ) r_suggests_circular? ( sci-CRAN/circular ) r_suggests_ctmm? ( sci-CRAN/ctmm ) r_suggests_embc? ( sci-CRAN/EMbC ) r_suggests_ggmap? ( sci-CRAN/ggmap ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/move_4.0.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	0914eab919f4f11dd9e0407b92af4726	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=34c6fc9da7eb273baa65c4ff84776e4c

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Graphical Independence Filtering // Provides a method of
+		recovering the precision matrix for Gaussian graphical models
+		efficiently. Our approach could be divided into three
+		categories. First of all, we use Hard Graphical Thresholding
+		for best subset selection problem of Gaussian graphical model,
+		and the core concept of this method was proposed by Luo et al.
+		(2014) arXiv:1407.7819. Secondly, a closed form solution for
+		graphical lasso under acyclic graph structure is implemented in
+		our package (Fattahi and Sojoudi (2019)
+		http://jmlr.org/papers/v20/17-501.html). Furthermore, we
+		implement block coordinate descent algorithm to efficiently
+		solve the covariance selection problem (Dempster (1972)
+		doi:10.2307/2528966). Our package is computationally efficient
+		and can solve ultra-high-dimensional problems, e.g. p  10,000,
+		in a few minutes.
+	</longdescription>
+</pkgmetadata>
