@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interactive Plotting of Three-Way Differential Expression
+		Analysis // Differential expression (DE) analysis can be used
+		to discover quantitative changes in expression levels between
+		experimental groups. Such results are typically visualised
+		using volcano plots, however in cases where more than two
+		experimental groups are involved, visualising results can
+		become convoluted and it quickly becomes difficult to see the
+		wood for the trees. This package provides easy-to-use functions
+		to extract and visualise outputs from DE between three groups
+		(primarily aimed at 'limma' and 'DESeq2' outputs). We present
+		novel methods to map DE results into polar coordinates to
+		enable users to combine and simultaneously view three sets of
+		results. These graphics also possess optional 'plotly' outputs
+		for interactive and three-dimensional functionality, as seen in
+		Lewis et. al. (2019) doi:10.1016/j.celrep.2019.07.091.
+	</longdescription>
+</pkgmetadata>

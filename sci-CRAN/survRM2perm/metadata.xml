@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Permutation Test for Comparing Restricted Mean Survival Time //
+		Performs the permutation test using difference in the
+		restricted mean survival time (RMST) between groups as a
+		summary measure of the survival time distribution. When the
+		sample size is less than 50 per group, it has been shown that
+		there is non-negligible inflation of the type I error rate in
+		the commonly used asymptotic test for the RMST comparison.
+		Generally, permutation tests can be useful in such a situation.
+		However, when we apply the permutation test for the RMST
+		comparison, particularly in small sample situations, there are
+		some cases where the survival function in either group cannot
+		be defined due to censoring in the permutation process.
+		Horiguchi and Uno (2020) doi:10.1002/sim.8565 have examined six
+		workable solutions to handle this numerical issue. It performs
+		permutation tests with implementation of the six methods
+		outlined in the paper when the numerical issue arises during
+		the permutation process. The result of the asymptotic test is
+		also provided for a reference.
+	</longdescription>
+</pkgmetadata>

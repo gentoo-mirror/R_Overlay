@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/spdep sci-CRAN/raster virtual/MASS sci-CRAN/sp sci-CRAN/spatstat sci-CRAN/sf >=dev-lang/R-3.6.0 sci-CRAN/rgeos dev-lang/R
+DESCRIPTION=Spatial Analysis and Modelling Utilities
+EAPI=6
+IUSE=r_suggests_cluster r_suggests_envstats r_suggests_exactextractr r_suggests_genetit r_suggests_gstat r_suggests_maptools r_suggests_mgcv r_suggests_rann r_suggests_rcurl r_suggests_readr r_suggests_rms r_suggests_rstoolbox r_suggests_spatial r_suggests_yaimpute byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/spdep sci-CRAN/raster virtual/MASS sci-CRAN/sp sci-CRAN/spatstat sci-CRAN/sf >=dev-lang/R-3.6.0 sci-CRAN/rgeos r_suggests_cluster? ( virtual/cluster ) r_suggests_envstats? ( sci-CRAN/EnvStats ) r_suggests_exactextractr? ( sci-CRAN/exactextractr ) r_suggests_genetit? ( sci-CRAN/GeNetIt ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_rann? ( sci-CRAN/RANN ) r_suggests_rcurl? ( sci-omegahat/RCurl ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rms? ( sci-CRAN/rms ) r_suggests_rstoolbox? ( sci-CRAN/RStoolbox ) r_suggests_spatial? ( virtual/spatial ) r_suggests_yaimpute? ( sci-CRAN/yaImpute ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatialEco_1.3-2.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	0914eab919f4f11dd9e0407b92af4726	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=4fb01ec0489abfdd046fa08ad9de49c7

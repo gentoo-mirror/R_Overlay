@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Inference for a Generalised SBM with a Split Merge Sampler //
+		Inference in a Bayesian framework for a generalised stochastic
+		block model. The generalised stochastic block model (SBM) can
+		capture group structure in network data without requiring
+		conjugate priors on the edge-states. Two sampling methods are
+		provided to perform inference on edge parameters and block
+		structure: a split-merge Markov chain Monte Carlo algorithm and
+		a Dirichlet process sampler. Green, Richardson (2001)
+		doi:10.1111/1467-9469.00242; Neal (2000)
+		doi:10.1080/10618600.2000.10474879; Ludkin (2019)
+		arXiv:1909.09421.
+	</longdescription>
+</pkgmetadata>
