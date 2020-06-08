@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=sci-CRAN/prismatic sci-CRAN/rstudioapi sci-CRAN/rlang sci-CRAN/rematch2 dev-lang/R
+DESCRIPTION=Comprehensive Collection of Color Palettes
+EAPI=6
+IUSE=r_suggests_covr r_suggests_gameofthrones r_suggests_ggplot2 r_suggests_ggthemes r_suggests_harrypotter r_suggests_knitr r_suggests_oompabase r_suggests_palr r_suggests_pals r_suggests_rmarkdown r_suggests_scico r_suggests_testthat r_suggests_vdiffr r_suggests_viridislite byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/prismatic sci-CRAN/rstudioapi sci-CRAN/rlang sci-CRAN/rematch2 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gameofthrones? ( >=sci-CRAN/gameofthrones-1.0.0 ) r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.3.0 ) r_suggests_ggthemes? ( >=sci-CRAN/ggthemes-4.0.0 ) r_suggests_harrypotter? ( >=sci-CRAN/harrypotter-2.1.0 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_oompabase? ( sci-CRAN/oompaBase ) r_suggests_palr? ( sci-CRAN/palr ) r_suggests_pals? ( sci-CRAN/pals ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scico? ( sci-CRAN/scico ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_viridislite? ( sci-CRAN/viridisLite ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/paletteer_1.2.0.tar.gz
+_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	0914eab919f4f11dd9e0407b92af4726	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_md5_=b063f0d6ebb07fe7473ca94ec1ce0454
