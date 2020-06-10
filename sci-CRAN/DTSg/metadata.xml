@@ -5,12 +5,12 @@
 		A Class for Working with Time Series Based on 'data.table' and
 		'R6' with Largely Optional Reference Semantics // Basic time
 		series functionalities such as listing of missing values,
-		application of arbitrary aggregation as well as rolling window
-		functions and automatic detection of periodicity. As it is
-		mainly based on 'data.table', it is fast and - in combination
-		with the 'R6' package - offers reference semantics. In addition
-		to its native R6 interface, it provides an S3 interface
-		inclusive an S3 wrapper method generator for those who prefer
-		the latter.
+		application of arbitrary aggregation as well as rolling
+		(asymmetric) window functions and automatic detection of
+		periodicity. As it is mainly based on 'data.table', it is fast
+		and - in combination with the 'R6' package - offers reference
+		semantics. In addition to its native R6 interface, it provides
+		an S3 interface inclusive an S3 wrapper method generator for
+		those who prefer the latter.
 	</longdescription>
 </pkgmetadata>

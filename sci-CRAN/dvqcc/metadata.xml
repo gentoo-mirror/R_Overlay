@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Dynamic VAR - Based Control Charts for Batch Process Monitoring
+		// A set of control charts for batch processes based on the VAR
+		model. The package contains the implementation of T2.var and
+		W.var control charts based on VAR model coefficients using the
+		couple vectors theory. In each time-instant the VAR
+		coefficients are estimated from a historical in-control dataset
+		and a decision rule is made for online classifying of a new
+		batch data. Those charts allow efficient online monitoring
+		since the very first time-instant. The offline version is
+		available too. In order to evaluate the chart's performance,
+		this package contains functions to generate batch data for
+		offline and online monitoring.See in Danilo Marcondes Filho and
+		Marcio Valk (2020) doi:10.1016/j.ejor.2019.12.038.
+	</longdescription>
+</pkgmetadata>
