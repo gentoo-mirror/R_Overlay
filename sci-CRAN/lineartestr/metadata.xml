@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Linear Specification Testing // Tests whether the linear
+		hypothesis of a model is correct specified using Dominguez-
+		Lobato test. Also Ramsey's RESET (Regression Equation
+		Specification Error Test) test is implemented and Wald tests
+		can be carried out. Although RESET test is widely used to test
+		the linear hypothesis of a model, Dominguez and Lobato (2019)
+		proposed a novel approach that generalizes well known
+		specification tests such as Ramsey's. This test relies on wild-
+		bootstrap; this package implements this approach to be usable
+		with any function that fits linear models and is compatible
+		with the update() function such as 'stats'::lm(), 'lfe'::felm()
+		and 'forecast'::Arima(), for ARMA (autoregressivemoving-
+		average) models. Also the package can handle custom statistics
+		such as Cramer von Mises and Kolmogorov Smirnov, described by
+		the authors, and custom distributions such as Mammen (discrete
+		and continuous) and Rademacher. Manuel A. Dominguez  Ignacio N.
+		Lobato (2019) doi:10.1080/07474938.2019.1687116.
+	</longdescription>
+</pkgmetadata>
