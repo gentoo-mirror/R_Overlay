@@ -8,11 +8,11 @@
 		relationships between input and output variables and also its
 		capacity to handle high-dimensional data. However, current
 		random forests approaches are not flexible enough to handle
-		longitudinal heterogeneous data.  In this package, we introduce
-		Frchet trees and Frchet random forests, which allow to manage
-		data for which input and output variables are curves. To this
-		end, a new way of splitting the nodes of trees is introduced
-		and the prediction procedures of trees and forests are
-		generalized.
+		longitudinal data, shapes and images.  In this package, we
+		introduce Frchet trees and Frchet random forests, which allow
+		to manage data for which input and output can either curves,
+		scalars, factors, shapes or images. To this end, a new way of
+		splitting the nodes of trees is introduced and the prediction
+		procedures of trees and forests are generalized.
 	</longdescription>
 </pkgmetadata>
