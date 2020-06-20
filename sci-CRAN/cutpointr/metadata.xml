@@ -6,6 +6,10 @@
 		Tasks // Estimate cutpoints that optimize a specified metric in
 		binary classification tasks and validate performance using
 		bootstrapping. Some methods for more robust cutpoint estimation
-		and various plotting functions are included.
+		are supported, e.g. a parametric method assuming normal
+		distributions, bootstrapped cutpoints, and smoothing of the
+		metric values per cutpoint using Generalized Additive Models.
+		Various plotting functions are included. For an overview of the
+		package see 'Thiele and Hirschfeld (2020)' arXiv:2002.09209.
 	</longdescription>
 </pkgmetadata>
