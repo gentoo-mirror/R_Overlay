@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Adaptive, Sine-Multitaper Power Spectral Density Estimation //
-		Produces power spectral density estimates through iterative
-		refinement of the optimal number of sine-tapers at each
-		frequency. This optimization procedure is based on the method
-		of Riedel and Sidorenko (1995), which minimizes the Mean Square
-		Error (sum of variance and bias) at each frequency, but
-		modified for computational stability.
+		Adaptive, Sine-Multitaper Power Spectral Density and Cross
+		Spectrum Estimation // Produces power spectral density
+		estimates through iterative refinement of the optimal number of
+		sine-tapers at each frequency. This optimization procedure is
+		based on the method of Riedel and Sidorenko (1995), which
+		minimizes the Mean Square Error (sum of variance and bias) at
+		each frequency, but modified for computational stability. The
+		same procedure can now be used to calculate the cross spectrum.
 	</longdescription>
 </pkgmetadata>
