@@ -3,8 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Stable Balancing Weights for Causal Inference and Estimation with
-		Incomplete Outcome Data // Weights of minimum variance that
-		approximately balance the empirical distribution of the
-		observed covariates.
+		Incomplete Outcome Data // Implements the Stable Balancing
+		Weights by Zubizarreta (2015)
+		DOI:10.1080/01621459.2015.1023805. These are the weights of
+		minimum variance that approximately balance the empirical
+		distribution of the observed covariates. For an overview, see
+		Chattopadhyay, Hase and Zubizarreta (2020)
+		DOI:10.1002/(ISSN)1097-0258. To solve the optimization problem
+		in 'sbw', the default solver is 'quadprog', which is readily
+		available through CRAN. To enhance the performance of 'sbw',
+		users are encouraged to install other solvers such as 'gurobi'
+		and 'Rmosek', which require special installation.
 	</longdescription>
 </pkgmetadata>
