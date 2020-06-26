@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Conditional Permutation Importance // An add-on to the 'party'
+		package, with a faster implementation of the partial-
+		conditional permutation importance for random forests. The
+		standard permutation importance is implemented exactly the same
+		as in the 'party' package. The conditional permutation
+		importance can be computed faster, with an option to be
+		backward compatible to the 'party' implementation. The package
+		is compatible with random forests fit using the 'party' and the
+		'randomForest' package. The methods are described in Strobl et
+		al. (2007) doi:10.1186/1471-2105-8-25 and Debeer and Strobl
+		(2020).
+	</longdescription>
+</pkgmetadata>
