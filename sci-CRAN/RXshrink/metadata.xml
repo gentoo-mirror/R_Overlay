@@ -4,16 +4,22 @@
 	<longdescription>
 		Maximum Likelihood Shrinkage using Generalized Ridge or Least
 		Angle Regression Methods // Functions are provided to calculate
-		and display ridge TRACEs for various shrinkage PATHS. They
+		and display ridge TRACEs for various shrinkage Paths. They
 		determine the m-Extent of shrinkage most likely, under Normal-
-		distribution theory, to produce biased estimates of regression
-		(beta) coefficients with minimum MSE Risk. An alternative
-		function, correct.signs(), provides beta coefficient estimates
-		when an ill-conditioned (nearly multicollinear) model yields
-		OLS estimates with ("wrong") numerical signs that disagree with
-		the signs of the observed correlations between the Y-outcome
-		and the selected X-predictor variables. In-Sample predictions
-		can be made for all five-types of RXshrink linear regression
-		model estimation.
+		theory, to produce optimally biased estimates of regression
+		beta-coefficients with minimum MSE Risk. The new unr.ridge()
+		function implements the "Unrestricted Path" introduced in
+		"Ridge TRACE Diagnostics" arXiv:2005.14291. This Path appears
+		more efficient than the Paths used by the qm.ridge(),
+		aug.lars() and uc.lars() functions. In-Sample predictions can
+		be made using RXpredict() for all five types of RXshrink linear
+		model TRACE diagnostics. New functions MLboot(), MLcalc(),
+		MLhist() and MLtrue() provide insights into the true bias and
+		MSE risk characteristics of non-linear Shrinkage estimators.
+		The correct.signs() function provides estimates with "correct"
+		numerical signs when ill-conditioned (nearly multicollinear)
+		models yield OLS estimates that disagree with the signs of the
+		observed correlations between the y-outcome and the selected
+		x-predictor variables.
 	</longdescription>
 </pkgmetadata>
