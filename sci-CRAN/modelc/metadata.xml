@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Linear Model to 'SQL' Compiler // This is a cross-platform
+		linear model to 'SQL' compiler. It generates 'SQL' from linear
+		and generalized linear models. Its interface consists of a
+		single function, modelc(), which takes the output of lm() or
+		glm() functions (or any object which has the same signature)
+		and outputs a 'SQL' character vector representing the
+		predictions on the scale of the response variable as described
+		in Dunn  Smith (2018) doi:10.1007/978-1-4419-0118-7 and
+		originating in Nelder  Wedderburn (1972) doi:10.2307/2344614.
+		The resultant 'SQL' can be included in a 'SELECT' statement and
+		returns output similar to that of the glm.predict() or
+		lm.predict() predictions, assuming numeric types are
+		represented in the database using sufficient precision.
+		Currently log and identity link functions are supported.
+	</longdescription>
+</pkgmetadata>
