@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Excess Certainty Adjusted Probability Estimate // Implements the
+		Excess Certainty Adjusted Probability adjustment procedure as
+		described in the paper "Irrational Exuberance: Correcting Bias
+		in Probability Estimates" by Gareth James, Peter Radchenko, and
+		Bradley Rava (Journal of the American Statistical Association,
+		2020;  arXiv:1910.13570). The package includes a function that
+		preforms the ECAP adjustment and a function that estimates the
+		parameters needed for implementing ECAP. For testing and
+		reproducibility, the ESPN and FiveThirtyEight data used in the
+		paper are also included.
+	</longdescription>
+</pkgmetadata>
