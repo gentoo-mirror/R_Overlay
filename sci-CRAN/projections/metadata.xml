@@ -7,8 +7,12 @@
 		estimates of the serial interval and reproduction number.
 		Projections are based on a branching process using a Poisson-
 		distributed number of new cases per day, similar to the model
-		used for estimating R0 in 'EpiEstim' or in 'earlyR', and
+		used for estimating R in 'EpiEstim' or in 'earlyR', and
 		described by Nouvellet et al. (2017)
-		doi:10.1016/j.epidem.2017.02.012.
+		doi:10.1016/j.epidem.2017.02.012. The package provides the S3
+		class 'projections' which extends 'matrix', with accessors and
+		additional helpers for handling, subsetting, merging, or adding
+		these objects, as well as dedicated printing and plotting
+		methods.
 	</longdescription>
 </pkgmetadata>
