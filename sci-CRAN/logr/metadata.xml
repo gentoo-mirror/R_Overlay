@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Creates Log Files // Contains functions to help create log files.
+		The package aims to overcome the difficulty of the base R
+		sink() command.  The log_print() function will print to both
+		the console and the file log, without interfering in other
+		write operations.
+	</longdescription>
+</pkgmetadata>

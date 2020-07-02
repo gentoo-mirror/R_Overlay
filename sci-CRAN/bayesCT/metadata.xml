@@ -3,8 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Simulation and Analysis of Adaptive Bayesian Clinical Trials //
-		Simulation and analysis of Bayesian adaptive clinical trial,
+		Simulation and analysis of Bayesian adaptive clinical trials
+		for binomial, Gaussian, and time-to-event data types,
 		incorporates historical data and allows early stopping for
-		futility or early success.
+		futility or early success. The package uses novel and efficient
+		Monte Carlo methods for estimating Bayesian posterior
+		probabilities, evaluation of loss to follow up, and imputation
+		of incomplete data. The package has the functionality for
+		dynamically incorporating historical data into the analysis via
+		the power prior or non-informative priors.
 	</longdescription>
 </pkgmetadata>

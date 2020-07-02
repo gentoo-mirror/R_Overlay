@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Mixed Conditional Logit Models // Specification and estimation of
-		conditional logit models of binary responses and multinomial
-		counts is provided, with or without random effects. The current
-		implementation of the estimator for random effects variances
-		uses a Laplace approximation (or PQL) approach and thus should
-		be used only if groups sizes are large.
+		Multinomial Logit Models, with or without Random Effects or
+		Overdispersion // Provides estimators for multinomial logit
+		models in their conditional logit and baseline logit variants,
+		with or without random effects, with or without overdispersion.
+		Random effects models are estimated using the PQL technique
+		(based on a Laplace approximation) or the MQL technique (based
+		on a Solomon-Cox approximation). Estimates should be treated
+		with caution if the group sizes are small.
 	</longdescription>
 </pkgmetadata>

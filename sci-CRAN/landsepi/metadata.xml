@@ -2,13 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Landscape Epidemiology and Evolution // A spatio-temporal
-		stochastic model to assess resistance deployment strategies
-		against plant pathogens. The model is based on stochastic
-		geometry for describing the landscape and the resistant hosts,
-		a dispersal kernel for the dissemination of the pathogen, and a
-		SEIR (Susceptible-Exposed-Infectious-Removed) architecture to
-		simulate plant response to disease. Loup Rimbaud, Julien Papax,
+		Landscape Epidemiology and Evolution // A stochastic, spatially-
+		explicit, demo-genetic model simulating the spread and
+		evolution of a plant pathogen in a heterogeneous landscape to
+		assess resistance deployment strategies. It is based on a
+		spatial geometry for describing the landscape and allocation of
+		different cultivars, a dispersal kernel for the dissemination
+		of the pathogen, and a SEIR ('Susceptible-Exposed-Infectious-
+		Removed) structure with a discrete time step. It provides a
+		useful tool to assess the performance of a wide range of
+		deployment options with respect to their epidemiological,
+		evolutionary and economic outcomes. Loup Rimbaud, Julien Papax,
 		Jean-Franois Rey, Luke G Barrett, Peter H Thrall (2018)
 		doi:10.1371/journal.pcbi.1006067.
 	</longdescription>
