@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Port of the 'Scilab' 'n1qn1' and 'qnbd' Modules for
-		(Un)constrained BFGS Optimization // Provides 'Scilab' 'n1qn1',
-		or Quasi-Newton BFGS "qn" without constraints and 'qnbd' or
-		Quasi-Newton BFGS with constraints. This takes more memory than
-		traditional L-BFGS.  The n1qn1 routine is useful since it
-		allows prespecification of a Hessian. If the Hessian is near
-		enough the truth in optimization it can speed up the
-		optimization problem. Both algorithms are described in the
-		'Scilab' optimization documentation located at https://www.scil
-		ab.org/sites/default/files/optimization_in_scilab.pdf.
+		Port of the 'Scilab' 'n1qn1' Modules for Un-constrained BFGS
+		Optimization // Provides 'Scilab' 'n1qn1', or Quasi-Newton BFGS
+		"qn" without constraints and 'qnbd' or Quasi-Newton BFGS with
+		constraints. This takes more memory than traditional L-BFGS.
+		The n1qn1 routine is useful since it allows prespecification of
+		a Hessian. If the Hessian is near enough the truth in
+		optimization it can speed up the optimization problem. Both
+		algorithms are described in the 'Scilab' optimization
+		documentation located at https://www.scilab.org/sites/default/f
+		iles/optimization_in_scilab.pdf.
 	</longdescription>
 </pkgmetadata>
