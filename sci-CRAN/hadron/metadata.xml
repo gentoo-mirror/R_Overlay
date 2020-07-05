@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis Framework for Monte Carlo Simulation Data in Physics //
+		Toolkit to perform statistical analyses of correlation
+		functions generated from Lattice Monte Carlo simulations. In
+		particular, a class 'cf' for correlation functions and methods
+		to analyse those are defined. This includes (blocked) bootstrap
+		(based on the 'boot' package) and jackknife, but also an
+		automatic determination of integrated autocorrelation times.
+		'hadron' also provides a very  general function
+		bootstrap.nlsfit() to bootstrap a non-linear least squares fit.
+		More specific functions are provided to extract hadronic
+		quantities from Lattice Quantum Chromodynamics simulations, a
+		particular Monte Carlo simulation,(see e.g. European Twisted
+		Mass Collaboration, P. Boucaud et al. (2008)
+		doi:10.1016/j.cpc.2008.06.013). Here, to determine energy
+		eigenvalues of hadronic states, specific fitting routines and
+		in particular the generalised eigenvalue method (see e.g. B.
+		Blossier et al. (2009) doi:10.1088/1126-6708/2009/04/094 and M.
+		Fischer et al. (2020)
+		https://inspirehep.net/literature/1792113) are implemented. In
+		addition, input/output and plotting routines are available.
+	</longdescription>
+</pkgmetadata>
