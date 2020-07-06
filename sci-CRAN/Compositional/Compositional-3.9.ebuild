@@ -1,0 +1,25 @@
+# Copyright 1999-2020 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=6
+
+inherit R-packages
+
+DESCRIPTION='Compositional Data Analysis'
+SRC_URI="http://cran.r-project.org/src/contrib/Compositional_3.9.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="sci-CRAN/FlexDir
+	sci-CRAN/Rfast
+	virtual/MASS
+	>=dev-lang/R-3.6.0
+	sci-CRAN/emplik
+	sci-CRAN/doParallel
+	sci-CRAN/Rfast2
+	sci-CRAN/RANN
+	sci-CRAN/mda
+	sci-CRAN/foreach
+	sci-CRAN/sn
+	sci-CRAN/mixture
+"
+RDEPEND="${DEPEND-}"
