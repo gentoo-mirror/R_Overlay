@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulate with 'mrgsolve' in Parallel // Simulation from an
+		'mrgsolve' https://cran.r-project.org/package=mrgsolve model
+		using a parallel backend. Input data sets are split (chunked)
+		and simulated in parallel using mclapply() or future_lapply()
+		https://cran.r-project.org/package=future.apply.
+	</longdescription>
+</pkgmetadata>
