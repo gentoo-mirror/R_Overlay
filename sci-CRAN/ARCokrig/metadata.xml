@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Autoregressive Cokriging Models for Multifidelity Codes // For
+		emulating multifidelity computer models. The major methods
+		include univariate autoregressive cokriging and multivariate
+		autoregressive cokriging. The autoregressive cokriging methods
+		are implemented for both hierarchically nested design and non-
+		nested design. For hierarchically nested design, the model
+		parameters are estimated via standard optimization algorithms;
+		For non-nested design, the model parameters are estimated via
+		Monte Carlo expectation-maximization (MCEM) algorithms. In both
+		cases, the priors are chosen such that the posterior
+		distributions are proper. Notice that the uniform priors on
+		range parameters in the correlation function lead to improper
+		posteriors. This should be avoided when Bayesian analysis is
+		adopted. The development of objective priors for autoregressive
+		cokriging models can be found in Pulong Ma (2019)
+		arXiv:1910.10225. The development of the multivariate
+		autoregressive cokriging models with possibly non-nested design
+		can be found in Pulong Ma, Georgios Karagiannis, Bledar A
+		Konomi, Taylor G Asher, Gabriel R Toro, and Andrew T Cox (2019)
+		arXiv:1909.01836.
+	</longdescription>
+</pkgmetadata>

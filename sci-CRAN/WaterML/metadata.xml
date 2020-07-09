@@ -22,6 +22,11 @@
 		variable code, start time and end time, fetch a data.frame of
 		all the observation time series data values. The GetValues()
 		function can also parse 'WaterML' data from a custom URL or
-		from a local file.
+		from a local file. The package also has five data upload
+		functions: AddSites(), AddVariables(), AddMethods(),
+		AddSources(), and AddValues(). These functions can be used for
+		uploading data to a 'HydroServer Lite' Observations Data Model
+		('ODM') database via the 'JSON' data upload web service
+		interface.
 	</longdescription>
 </pkgmetadata>

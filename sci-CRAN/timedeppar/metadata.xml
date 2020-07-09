@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Infer Constant and Stochastic, Time-Dependent Model Parameters //
+		Infer constant and stochastic, time-dependent parameters to
+		consider intrinsic stochasticity of a dynamic model and/or to
+		analyze model structure modifications that could reduce model
+		deficits. The concept is based on inferring time-dependent
+		parameters as stochastic processes in the form of Ornstein-
+		Uhlenbeck processes jointly with inferring constant model
+		parameters and parameters of the Ornstein-Uhlenbeck processes.
+		The package also contains functions to sample from and
+		calculate densities of Ornstein-Uhlenbeck processes.
+		References: Tomassini, L., Reichert, P., Kuensch, H.-R. Buser,
+		C., Knutti, R. and Borsuk, M.E. (2009) "A smoothing algorithm
+		for estimating stochastic, continuous-time model parameters and
+		its application to a simple climate model." Journal of the
+		Royal Statistical Society: Series C (Applied Statistics) 58,
+		679-704, doi:10.1111/j.1467-9876.2009.00678.x; Reichert, P.,
+		and Mieleitner, J. (2009) "Analyzing input and structural
+		uncertainty of nonlinear dynamic models with stochastic, time-
+		dependent parameters." Water Resources Research, 45, W10402,
+		doi:10.1029/2009WR007814; Reichert, P., Ammann, L. and Fenicia,
+		F. (2020) "Potential and challenges of investigating intrinsic
+		uncertainty of hydrological models with stochastic, time-
+		dependent parameters", in preparation; Reichert, P. (2020)
+		"timedeppar: An R package for inferring stochastic, time-
+		dependent model parameters", in preparation.
+	</longdescription>
+</pkgmetadata>
