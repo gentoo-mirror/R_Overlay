@@ -2,7 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		'hms' Based Timer // Tracks elapsed clock time using a 'hms()'
-		scalar (inherits from 'difftime()' with seconds as the unit).
+		'hms' Based Timer // Tracks elapsed clock time using a
+		`hms::hms()` scalar, which if running has an attribute named
+		start that specifies the system time when the timer was
+		started. The elapsed time is the value of the scalar plus the
+		difference between the current system time and the system time
+		when the timer was started.
 	</longdescription>
 </pkgmetadata>
