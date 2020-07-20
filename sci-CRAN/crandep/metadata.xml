@@ -4,13 +4,14 @@
 	<longdescription>
 		Network Analysis of Dependencies of CRAN Packages // The
 		dependencies of CRAN packages can be analysed in a network
-		fashion. Through scrapping the page of a package on CRAN, we
-		can obtain the packages that it depends, imports, suggests,
-		etc. By iterating this procedure over a number of packages, we
-		can build the dependency network and represent it by a graph
-		object, most easily through the 'igraph' package. Subsequently,
-		the dependency network can be visualised and analysed using
-		social network analysis methods, enabling us to have a
-		bird's-eye view of the CRAN ecosystem.
+		fashion. For each package we can obtain the packages that it
+		depends, imports, suggests, etc. By iterating this procedure
+		over a number of packages, we can build, visualise, and analyse
+		the dependency network, enabling us to have a bird's-eye view
+		of the CRAN ecosystem. One aspect of interest is the number of
+		reverse dependencies of the packages, or equivalently the in-
+		degree distribution of the dependency network. This can be
+		fitted by the power law and/or an extreme value mixture
+		distribution, of which functions are provided.
 	</longdescription>
 </pkgmetadata>

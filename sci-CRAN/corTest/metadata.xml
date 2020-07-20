@@ -4,14 +4,17 @@
 	<longdescription>
 		Robust Tests for Equal Correlation // There are 6 novel robust
 		tests for equal correlation. They are all based on logistic
-		regressions. U are proportion to different types of correlation
-		in  6 methods. The ST1() is based on Pearson correlation. ST2()
+		regressions. The score statistic U is proportion to difference
+		of two correlations based on different types of correlation in
+		6 methods. The ST1() is based on Pearson correlation. ST2()
 		improved ST1() by using median absolute deviation. ST3()
 		utilized type M correlation and ST4() used Spearman
-		correlation. ST5() and ST6() used two different ways to combine
-		ST3() and ST4().  We highly recommend ST5() according to the
-		passage New Statistical Methods for Constructing Robust
-		Differential Correlation Networks to characterize the
-		interactions among microRNAs published in Scientific Reports.
+		correlation.  ST5() and ST6() used two different ways to
+		combine ST3() and ST4().  We highly recommend ST5() according
+		to the article titled ''New Statistical Methods for
+		Constructing Robust Differential Correlation Networks to
+		characterize the interactions among microRNAs'' published in
+		Scientific Reports.  Please see the reference: Yu et al. (2019)
+		doi:10.1038/s41598-019-40167-8.
 	</longdescription>
 </pkgmetadata>
