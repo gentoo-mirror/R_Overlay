@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Comprehensive Feedback Loop Detection in ODE Models // Detect
+		feedback loops (cycles, circuits) between species (nodes) in
+		ordinary differential equation (ODE) models. Feedback loops are
+		paths from a node to itself without visiting any other node
+		twice, and they have important regulatory functions. Loops are
+		reported with their order of participating nodes and their
+		length, and whether the loop is a positive or a negative
+		feedback loop. An upper limit of the number of feedback loops
+		limits runtime (which scales with feedback loop count). Model
+		parametrizations and values of the modelled variables are
+		accounted for. Computation uses the characteristics of the
+		Jacobian matrix as described e.g. in Thomas and Kaufman (2002)
+		doi:10.1016/s1631-0691(02)01452-x. Input can be the Jacobian
+		matrix of the ODE model or the ODE function definition; in the
+		latter case, the Jacobian matrix is determined using
+		'numDeriv'. Graph-based algorithms from 'igraph' are employed
+		for path detection.
+	</longdescription>
+</pkgmetadata>
