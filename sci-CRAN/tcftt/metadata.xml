@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Two-Sample Tests for Skewed Data // The classical two-sample
+		t-test works well for the normally distributed data or data
+		with large sample size. The tcfu() and tt() tests implemented
+		in this package provide better type-I-error control with more
+		accurate power when testing the equality of two-sample means
+		for skewed populations having unequal variances. These tests
+		are especially useful when the sample sizes are moderate. The
+		tcfu() uses the Cornish-Fisher expansion to achieve a better
+		approximation to the true percentiles. The tt() provides
+		transformations of the Welch's t-statistic so that the sampling
+		distribution become more symmetric. For more technical details,
+		please refer to Zhang (2019) http://hdl.handle.net/2097/40235.
+	</longdescription>
+</pkgmetadata>
