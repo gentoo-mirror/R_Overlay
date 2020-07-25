@@ -3,12 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Monte Carlo Option Pricing Algorithms for Jump Diffusion Models
-		with Correlational Companies // Black-Scholes model [Black
-		(1973) doi:10.1086/260062] is important to calculate option
-		prices in the stock market and a variety of improved models are
-		studied. In this package, I propose methods in order to
-		calculate both Black-Scholes model and Jump diffusion model
-		[Kou (2002) doi:10.1287/mnsc.48.8.1086.166] by Monte Carlo
-		methods. This package can be used for computational finance.
+		with Correlational Companies // Option is a one of the
+		financial derivatives and its pricing is an important problem
+		in practice. The process of stock prices are represented as
+		Geometric Brownian motion [Black (1973) doi:10.1086/260062] or
+		jump diffusion processes [Kou (2002)
+		doi:10.1287/mnsc.48.8.1086.166]. In this package, algorithms
+		and visualizations are implemented by Monte Carlo method in
+		order to calculate European option price for three equations by
+		Geometric Brownian motion and jump diffusion processes and
+		furthermore a model that presents jumps among companies affect
+		each other.
 	</longdescription>
 </pkgmetadata>
