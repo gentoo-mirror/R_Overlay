@@ -4,16 +4,16 @@
 	<longdescription>
 		Wrappers for 'GDAL' Utilities Executables // R's 'sf' package
 		ships with self-contained 'GDAL' executables, including a bare
-		bones interface to several of the 'GDAL'-related utility
-		programs collectively known as the 'GDAL' utilities. For each
-		of those utilities, this package provides an R wrapper whose
-		formal arguments closely mirror those of the 'GDAL' command
-		line interface. All of the utilities operate on data stored in
-		files and typically write their output to other files. As a
-		result, processing data stored in any of R's more common
-		spatial formats (i.e. those supported by the 'sp', 'sf', and
-		'raster' packages) will require first writing to disk, then
-		processing with the package's wrapper functions before reading
-		back into R.
+		bones interface to several 'GDAL'-related utility programs
+		collectively known as the 'GDAL utilities'. For each of those
+		utilities, this package provides an R wrapper whose formal
+		arguments closely mirror those of the 'GDAL' command line
+		interface. The utilities operate on data stored in files and
+		typically write their output to other files. Therefore, to
+		process data stored in any of R's more common spatial formats
+		(i.e. those supported by the 'sp', 'sf', and 'raster'
+		packages), first write them to disk, then process them with the
+		package's wrapper functions before reading the outputted
+		results back into R.
 	</longdescription>
 </pkgmetadata>
