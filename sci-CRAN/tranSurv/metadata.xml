@@ -3,14 +3,17 @@
 <pkgmetadata>
 	<longdescription>
 		Estimating a Survival Distribution in the Presence of Dependent
-		Left Truncation and Right Censoring // A structural
-		transformation model for a latent, quasi-independent truncation
-		time as a function of the observed dependent truncation time
-		and the event time, and an unknown dependence parameter. The
-		dependence parameter is chosen to minimize the conditional
-		Kendall's tau (Martin and Betensky, 2005)
-		doi:10.1198/016214504000001538. The marginal distribution for
-		the truncation time and the event time are completely left
-		unspecified.
+		Left Truncation and Right Censoring // A latent, quasi-
+		independent truncation time is assumed to be linked with the
+		observed dependent truncation time, the event time, and an
+		unknown transformation parameter via a structural
+		transformation model. The transformation parameter is chosen to
+		minimize the conditional Kendall's tau (Martin and Betensky,
+		2005) doi:10.1198/016214504000001538 or the regression
+		coefficient estimates (Jones and Crowley, 1992)
+		doi:10.2307/2336782. The marginal distribution for the
+		truncation time and the event time are completely left
+		unspecified. The methodology is applied to survival curve
+		estimation and regression analysis.
 	</longdescription>
 </pkgmetadata>
