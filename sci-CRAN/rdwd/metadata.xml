@@ -6,7 +6,12 @@
 		Service) // Handle climate data from the 'DWD' ('Deutscher
 		Wetterdienst', see
 		https://www.dwd.de/EN/climate_environment/cdc/cdc.html for more
-		information). Choose files with 'selectDWD()', download and
-		process data sets with 'dataDWD()' and 'readDWD()'.
+		information). Choose observational time series from
+		meteorological stations with 'selectDWD()'. Find raster data
+		from radar and interpolation according to
+		https://bookdown.org/brry/rdwd/raster-data.html. Download
+		(multiple) data sets with progress bars and no re-downloads
+		through 'dataDWD()'. Read both tabular observational data and
+		binary gridded datasets with 'readDWD()'.
 	</longdescription>
 </pkgmetadata>
