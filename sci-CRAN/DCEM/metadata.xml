@@ -2,19 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Clustering for Multivariate and Univariate Data Using Expectation
-		Maximization Algorithm // Implements the Improved Expectation
-		Maximisation EM* and the traditional EM algorithm for
-		clustering finite gaussian mixture models for both multivariate
-		and univariate datasets. The initialization is done by randomly
-		selecting the samples from the dataset as the mean (meu) of the
-		Gaussian(s). This version implements the faster alternative EM*
+		Clustering Big Data using Expectation Maximization Star (EM*)
+		Algorithm // Implements the Improved Expectation Maximisation
+		EM* and the traditional EM algorithm for clustering big data
+		(gaussian mixture models for both multivariate and univariate
+		datasets). This version implements the faster alternative EM*
 		that avoids revisiting data by leveraging the heap structure.
-		The algorithm returns a set of Gaussian parameters-posterior
-		probabilities, mean (meu), co-variance matrices (multivariate
-		)/standard-deviation (univariate) and priors. Reference: Hasan
-		Kurban, Mark Jenne, Mehmet M. Dalkilic (2016)
-		doi:10.1007/s41060-017-0062-1. This work is partially supported
-		by NCI Grant 1R01CA213466-01.
+		The implementation supports both random and K-means++ based
+		initialization. Reference: Hasan Kurban, Mark Jenne, Mehmet M.
+		Dalkilic (2016) doi:10.1007/s41060-017-0062-1. This work is
+		partially supported by NCI Grant 1R01CA213466-01.
 	</longdescription>
 </pkgmetadata>
