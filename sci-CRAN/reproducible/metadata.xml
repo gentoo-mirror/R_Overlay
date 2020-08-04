@@ -3,17 +3,18 @@
 <pkgmetadata>
 	<longdescription>
 		A Set of Tools that Enhance Reproducibility Beyond Package
-		Management // Collection of high-level, robust, machine- and
-		OS-independent tools for making deeply reproducible and
-		reusable content in R. The three workhorse functions are Cache,
-		prepInputs, and Require; these allow for nested caching, robust
-		to environments, and objects with environments (like
-		functions), and data retrieval and processing, and package
-		handling in continuous workflow environments. In all cases,
-		efforts are made to make the first and subsequent calls of
-		functions have the same result, but vastly faster at subsequent
-		times by way of checksums and digesting. Several features are
-		still under active development, including cloud storage of
-		cached objects, allowing for sharing between users.
+		Management // Collection of high-level, machine- and OS-
+		independent tools for making deeply reproducible and reusable
+		content in R. The two workhorse functions are Cache and
+		prepInputs; these allow for: nested caching, robust to
+		environments, and objects with environments (like functions);
+		and data retrieval and processing in continuous workflow
+		environments. In all cases, efforts are made to make the first
+		and subsequent calls of functions have the same result, but
+		vastly faster at subsequent times by way of checksums and
+		digesting. Several features are still under active development,
+		including cloud storage of cached objects, allowing for sharing
+		between users. Several advanced options are available, see
+		?reproducibleOptions.
 	</longdescription>
 </pkgmetadata>
