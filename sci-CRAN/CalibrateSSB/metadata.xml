@@ -5,6 +5,17 @@
 		Weighting and Estimation for Panel Data with Non-Response //
 		Functions to calculate weights, estimates of changes and
 		corresponding variance estimates for panel data with non-
-		response.
+		response. Partially overlapping samples are handled. Initially,
+		weights are calculated by linear calibration. By default, the
+		survey package is used for this purpose. It is also possible to
+		use ReGenesees, which can be installed from
+		https://github.com/DiegoZardetto/ReGenesees. Variances of
+		linear combinations (changes and averages) and ratios are
+		calculated from a covariance matrix based on residuals
+		according to the calibration model. The methodology was
+		presented at the conference, The Use of R in Official
+		Statistics, and is described in Langsrud (2016)
+		http://www.revistadestatistica.ro/wp-
+		content/uploads/2016/06/RRS2_2016_A021.pdf.
 	</longdescription>
 </pkgmetadata>
