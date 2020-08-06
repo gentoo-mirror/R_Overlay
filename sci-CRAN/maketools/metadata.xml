@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Exploring and Testing the Toolchain and System Libraries //
+		Packages with C, C++, or Fortran code require a properly
+		configured toolchain and sometimes external system dependencies
+		to build. Because these things vary a lot by platform, getting
+		this all to work can be challenging. The 'maketools' package
+		contains a collection of helper functions that interface with
+		the appropriate system utilities to learn about the build
+		environment. It lets you explore 'make' rules to test the local
+		configuration, or query 'pkg-config'
+		https://www.freedesktop.org/wiki/Software/pkg-config/ to find
+		the cflags and libs needed for building packages with external
+		dependencies. It also contains tools to analyze which libraries
+		that a installed R package is linked to, by inspecting output
+		from 'ldd' https://man7.org/linux/man-pages/man1/ldd.1.html in
+		combination with information from the distribution package
+		manager, e.g. 'rpm' or 'dpkg'. For Windows there are special
+		utilities to automatically find or install the suitable version
+		of the 'Rtools' https://cran.r-project.org/bin/windows/Rtools/
+		build environment, and diagnose some common problems.
+	</longdescription>
+</pkgmetadata>
