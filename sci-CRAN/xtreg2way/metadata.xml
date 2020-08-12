@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Feasible Estimation of the Two-Way Fixed Effect Model //
+		Implemented is an algorithm to estimate the two-way fixed
+		effect linear model. The coefficients of interest are computed
+		using the residuals from the projection of all variables on the
+		two sets of fixed effects. Our algorithm has three desirable
+		features. First, it manages memory and computational resources
+		efficiently which speeds up the computation of the estimates.
+		Second, it allows the researcher to estimate multiple
+		specifications using the same set of fixed effects at a very
+		low computational cost. Third, the asymptotic variance of the
+		parameters of interest can be consistently estimated using
+		standard routines on the residualized data. Somaini P., Wolak
+		F. A. (2016) doi:10.1515/jem-2014-0008 Arellano, M. (1987)
+		https://ideas.repec.org/a/bla/obuest/v49y1987i4p431-34.html.
+	</longdescription>
+</pkgmetadata>
