@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Interface for Content-Based Identifiers // An interface for
+		creating, registering, and resolving content-based identifiers
+		for data management. Content-based identifiers rely on the
+		'cryptographic' hashes to refer to the files they identify,
+		thus, anyone possessing the file can compute the identifier
+		using a well-known standard algorithm, such as 'SHA256'.  By
+		registering a URL at which the content is accessible to a
+		public archive, such as https://hash-archive.org, the content
+		identifier can serve many functions typically associated with A
+		Digital Object Identifier ('DOI').  Unlike location-based
+		identifiers like 'DOIs', content-based identifiers permit the
+		same content to be registered in many locations.
+	</longdescription>
+</pkgmetadata>
