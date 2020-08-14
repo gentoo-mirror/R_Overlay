@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst prepare unpack
+DEFINED_PHASES=compile install postinst unpack
 DEPEND=sci-CRAN/CDM sci-CRAN/TAM sci-CRAN/Rcpp >=dev-lang/R-3.1 dev-lang/R
 DESCRIPTION=Supplementary Item Response Theory Models
 EAPI=6
@@ -8,5 +8,5 @@ LICENSE=GPL-2+
 RDEPEND=sci-CRAN/CDM sci-CRAN/TAM sci-CRAN/Rcpp >=dev-lang/R-3.1 sci-CRAN/pbv sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_coda? ( sci-CRAN/coda ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_lavaan? ( sci-CRAN/lavaan ) r_suggests_lavaan_survey? ( sci-CRAN/lavaan_survey ) r_suggests_mass? ( virtual/MASS ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_miceadds? ( sci-CRAN/miceadds ) r_suggests_mirt? ( sci-CRAN/mirt ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_pbivnorm? ( sci-CRAN/pbivnorm ) r_suggests_pbv? ( sci-CRAN/pbv ) r_suggests_psych? ( sci-CRAN/psych ) r_suggests_sfsmisc? ( sci-CRAN/sfsmisc ) r_suggests_sm? ( sci-CRAN/sm ) r_suggests_survey? ( sci-CRAN/survey ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/sirt_3.7-40.tar.gz
-_eclasses_=R-packages	21593d3af350fd1e2fe1c27c4d96cc98	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=990aaa5aa6831a02490b64c57e6f2d05

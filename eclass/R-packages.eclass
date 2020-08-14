@@ -3,7 +3,7 @@
 
 inherit eutils
 
-EXPORT_FUNCTIONS src_unpack src_prepare src_compile src_install pkg_postinst
+EXPORT_FUNCTIONS src_unpack src_compile src_install pkg_postinst
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
@@ -18,16 +18,6 @@ R-packages_src_unpack() {
 		mv ${PN//_/.} ${P}
 	fi
 }
-
-if has "${EAPI:-0}" 0 1 2 3 4 5; then
-	R-packages_src_prepare() {
-		epatch_user
-	}
-else
-	R-packages_src_prepare() {
-		default
-	}
-fi
 
 R-packages_src_compile() {
 	MAKEFLAGS="CFLAGS=${CFLAGS// /\\ } CXXFLAGS=${CXXFLAGS// /\\ } FFLAGS=${FFLAGS// /\\ } FCFLAGS=${FCFLAGS// /\\ } LDFLAGS=${LDFLAGS// /\\ }" \
