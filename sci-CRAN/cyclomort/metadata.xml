@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Survival Modeling with a Periodic Hazard Function // Modeling
+		periodic mortality (or other time-to event) processes from
+		right-censored data. Given observations of a process with a
+		known period (e.g. 365 days, 24 hours), functions determine the
+		number, intensity, timing, and duration of peaks of periods of
+		elevated hazard within a period.  The underlying model is a
+		mixed wrapped Cauchy function fitted using maximum likelihoods
+		(details in Gurarie et al. (2020) doi:10.1111/2041-210X.13305).
+		The development of these tools was motivated by the strongly
+		seasonal mortality patterns observed in many wild animal
+		populations, such that the respective periods of higher
+		mortality can be identified as "mortality seasons".
+	</longdescription>
+</pkgmetadata>
