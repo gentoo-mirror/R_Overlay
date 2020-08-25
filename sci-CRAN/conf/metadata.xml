@@ -29,6 +29,11 @@
 		plots the actual coverage with binomTestCoveragePlot().
 		Calculates confidence interval bounds for the binomial
 		proportion using an ensemble of constituent confidence
-		intervals with binomTestEnsemble().
+		intervals with binomTestEnsemble(). Calculates confidence
+		interval bounds for the binomial proportion using a complete
+		enumeration of all possible transitions from one actual
+		coverage acceptance curve to another which minimizes the root
+		mean square error for n = 15 and follows the transitions for
+		well-known confidence intervals for n  15 using binomTestMSE().
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Geodesic Regression // Provides a gradient descent algorithm to
+		find a geodesic relationship between real-valued independent
+		variables and a manifold-valued dependent variable (i.e.
+		geodesic regression). Available manifolds are Euclidean space,
+		the sphere, and Kendall's 2-dimensional shape space. Besides
+		the standard least-squares loss, the least absolute deviations,
+		Huber, and Tukey biweight loss functions can also be used to
+		perform robust geodesic regression. Functions to help choose
+		appropriate cutoff parameters to maintain high efficiency for
+		the Huber and Tukey biweight estimators are included. The
+		k-sphere is a k-dimensional manifold: we represent it as a
+		sphere of radius 1 and center 0 embedded in (k+1)-dimensional
+		space. Kendall's 2D shape space with K landmarks is of real
+		dimension 2K-4; preshapes are represented as complex K-vectors
+		with mean 0 and magnitude 1. Details are described in Shin,
+		H.-Y. and Oh, H.-S. (2020) arXiv:2007.04518. Also see Fletcher,
+		P. T. (2013) doi:10.1007/s11263-012-0591-y and Kim, H. J.,
+		Adluru, N., Collins, M. D., Chung, M. K., Bendin, B. B.,
+		Johnson, S. C., Davidson, R. J. and Singh, V. (2014)
+		doi:10.1109/CVPR.2014.352.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fisher's z-Tests Concerning Difference of Correlations //
+		Computations of Fisher's z-tests concerning differences between
+		correlations. diffcor.one() could be used to test for
+		differences regarding an expected value, e.g., in construct
+		validation. diffcor.two() may be useful in replication studies,
+		to test if the original study and the replication study
+		differed in terms of effects. diffcor.dep() can be applied to
+		check if the correlation between one construct with another one
+		(r12) is significantly different/higher/smaller than the
+		correlation of one of the constructs with a third construct
+		(r13), given the correlation of the constructs that are
+		compared (r23). The outputs for all the three functions provide
+		the test statistic in z-units as well as p-values. For
+		diffcor.one() and diffcor.two(), the effect size Cohens q is
+		additionally printed. It is a descriptive index to evaluate
+		differences of independent correlations. Cohen (1988) suggested
+		q = |.10|, |.30| and |.50| as small, moderate, and large
+		differences.
+	</longdescription>
+</pkgmetadata>
