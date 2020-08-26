@@ -3,11 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Fast R and C++ Access to NIfTI Images // Provides very fast read
-		and write access to images stored in the NIfTI-1 and
-		ANALYZE-7.5 formats, with seamless synchronisation between
-		compiled C and interpreted R code. Also provides a simple image
-		viewer, and a C/C++ API that can be used by other packages. Not
-		to be confused with 'RNiftyReg', which performs image
-		registration.
+		and write access to images stored in the NIfTI-1, NIfTI-2 and
+		ANALYZE-7.5 formats, with seamless synchronisation of in-memory
+		image objects between compiled C and interpreted R code. Also
+		provides a simple image viewer, and a C/C++ API that can be
+		used by other packages. Not to be confused with 'RNiftyReg',
+		which performs image registration and applies spatial
+		transformations.
 	</longdescription>
 </pkgmetadata>

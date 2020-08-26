@@ -2,10 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Idealisation of Patch Clamp Recordings // Allows for idealisation
-		of patch clamp recordings by implementing the non-parametric
-		JUmp Local dEconvolution Segmentation (JULES) filter, see F.
-		Pein, I. Tecuapetla-Gmez, O. Schtte, C. Steinem, and A. Munk
-		(2017) arXiv:1706.03671.
+		Idealisation of Patch Clamp Recordings // Implements the model-
+		free multiscale idealisation approaches: Jump-Segmentation by
+		MUltiResolution Filter (JSMURF) doi:10.1109/TNB.2013.2284063,
+		JUmp Local dEconvolution Segmentation filter (JULES)
+		doi:10.1109/TNB.2018.2845126 and Heterogeneous Idealization by
+		Local testing and DEconvolution (HILDE) arXiv:2008.02658.
+		Further details on how to use them are given in the
+		accompanying vignette.
 	</longdescription>
 </pkgmetadata>
