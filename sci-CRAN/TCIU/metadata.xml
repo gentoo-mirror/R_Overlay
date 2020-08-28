@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spacekime Analytics, Time Complexity and Inferential Uncertainty
+		// Provide the core functionality to transform longitudinal
+		data to complex-time (kime) data using analytic and numerical
+		techniques, visualize the original time-series and
+		reconstructed kime-surfaces, perform model based (e.g., tensor-
+		linear regression) and model-free classification and clustering
+		methods in the book Dinov, ID and Velev, MV. (2021) "Data
+		Science: Time Complexity, Inferential Uncertainty, and
+		Spacekime Analytics", De Gruyter STEM Series, ISBN
+		978-3-11-069780-3. https://www.degruyter.com/view/title/576646.
+		The package includes 18 core functions which can be separated
+		into three groups. 1) draw longitudinal data, such as fMRI
+		time-series, and forecast or transform the time-series data. 2)
+		simulate real-valued time-series data, e.g., fMRI time-courses,
+		detect the activated areas, report the corresponding p-values,
+		and visualize the p-values in the 3D brain space. 3) Laplace
+		transform and kimesurface reconstructions of the fMRI data.
+	</longdescription>
+</pkgmetadata>
