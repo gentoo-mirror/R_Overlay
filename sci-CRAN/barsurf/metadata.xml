@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Heatmap-Related Plots and Smooth Multiband Color Interpolation //
-		Supports combined contour-heat plots and 3D bar/surface plots,
-		for plotting scalar fields, either discretely-spaced or
-		continuously-spaced. Also, supports matrix visualization (per
-		se), isosurfaces (for scalar fields over three variables),
-		triangular plots and vector fields. All plots use static vector
-		graphics (suitable for Sweave documents), but high resolution
-		heatmaps can produce smooth raster-like visual effects.
-		Contains a flexible system for smooth multiband color
-		interpolation in RGB, HSV and HCL color spaces.
+		Multivariate Function Visualization and Smooth Multiband Color
+		Interpolation // Combined contour/heatmap plots, 3d bar/surface
+		plots, isosurface plots, triangular plots and 2d/3d vector
+		fields. Builds on the colorspace package (Zeileis, A., et al.
+		(2019) arxiv.org/abs/1903.06490), by supporting smooth
+		multiband color interpolation, in sRGB, HSV and HCL color
+		spaces. The default color functions for heatmaps, use HCL
+		(Zeileis, A., et al. (2009) doi:10.1016/j.csda.2008.11.033) and
+		support near-uniform perception.
 	</longdescription>
 </pkgmetadata>

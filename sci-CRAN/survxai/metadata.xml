@@ -5,12 +5,13 @@
 		Visualization of the Local and Global Survival Model Explanations
 		// Survival models may have very different structures. This
 		package contains functions for creating a unified
-		representation of a survival models, which can be further
+		representation of a 'survival' models, which can be further
 		processed by various survival explainers. Tools implemented in
 		'survxai' help to understand how input variables are used in
 		the model and what impact do they have on the final model
 		prediction. Currently, four explanation methods are
 		implemented. We can divide them into two groups: local and
-		global.
+		global. Explanations of the methods can be found in Grudziaz et
+		al.(2018) doi:10.21105/joss.00961.
 	</longdescription>
 </pkgmetadata>
