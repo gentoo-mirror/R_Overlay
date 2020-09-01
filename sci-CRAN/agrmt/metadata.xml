@@ -2,16 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Calculate Agreement or Consensus in Ordered Rating Scales //
-		Calculate agreement or consensus in ordered rating scales. The
-		package implements van der Eijk's (2001) DOI:
-		10.1023/A:1010374114305 measure of agreement A, which can be
-		used to describe agreement, consensus, or polarization among
-		respondents. It also implements measures of consensus
-		(dispersion) by Leik, Tatsle and Wierman, Blair and Lacy,
-		Kvalseth, Berry and Mielke, and Garcia-Montalvo and Reynal-
-		Querol. Furthermore, an implementation of Galtungs AJUS-system
-		is provided to classify distributions, as well as a function to
-		identify the position of multiple modes.
+		Calculate Concentration and Dispersion in Ordered Rating Scales
+		// Calculates concentration and dispersion in ordered rating
+		scales. It implements various measures of concentration and
+		dispersion to describe what researchers variably call
+		agreement, concentration, consensus, dispersion, or
+		polarization among respondents in ordered data. It also
+		implements other related measures to classify distributions. In
+		addition to a generic city-block based concentration measure
+		and a generic dispersion measure, the package implements
+		various measures, including van der Eijk's (2001) DOI:
+		10.1023/A:1010374114305 measure of agreement A, measures of
+		concentration by Leik, Tatsle and Wierman, Blair and Lacy,
+		Kvalseth, Berry and Mielke, Reardon, and Garcia-Montalvo and
+		Reynal-Querol. Furthermore, the package provides an
+		implementation of Galtungs AJUS-system to classify
+		distributions, as well as a function to identify the position
+		of multiple modes.
 	</longdescription>
 </pkgmetadata>

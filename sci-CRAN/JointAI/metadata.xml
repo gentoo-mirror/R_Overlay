@@ -2,16 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Joint Analysis and Imputation of Incomplete Data // Provides
-		joint analysis and imputation of (generalized) linear and
-		cumulative logit regression models, (generalized) linear and
-		cumulative logit mixed models and parametric (Weibull) as well
-		as Cox proportional hazards survival models with incomplete
-		(covariate) data in the Bayesian framework. The package
-		performs some preprocessing of the data and creates a 'JAGS'
-		model, which will then automatically be passed to 'JAGS' http
-		://mcmc-jags.sourceforge.net with the help of the package
-		'rjags'. It also provides summary and plotting functions for
-		the output and allows the user to export imputed values.
+		Joint Analysis and Imputation of Incomplete Data // Joint
+		analysis and imputation of incomplete data in the Bayesian
+		framework, using (generalized) linear (mixed) models and
+		extensions there of, survival models, or joint models for
+		longitudinal and survival data. Incomplete covariates, if
+		present, are automatically imputed. The package performs some
+		preprocessing of the data and creates a 'JAGS' model, which
+		will then automatically be passed to 'JAGS' http://mcmc-
+		jags.sourceforge.net/ with the help of the package 'rjags'.
 	</longdescription>
 </pkgmetadata>

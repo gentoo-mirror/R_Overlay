@@ -2,11 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Coordinate System Transformations for Map Data // Transform
-		coordinates via 'PROJ' using the library directly, by wrapping
-		the 'proj4' package. The 'reproj' function handles the need for
-		radian units for either source or target and allows removing an
-		explicit source definition in methods that extend the generic.
-		The 'PROJ' library is available at https://proj4.org/.
+		Coordinate System Transformations for Generic Map Data //
+		Transform coordinates from a specified source to a specified
+		target map projection. This uses the 'PROJ' library directly,
+		by wrapping the 'PROJ' package (if functional), otherwise the
+		'proj4' package. The 'reproj()' function is generic, methods
+		may be added to remove the need for an explicit source
+		definition. If 'proj4' is in use 'reproj()' handles the
+		requirement for conversion of angular units where necessary.
+		This is for use primarily to transform generic data formats and
+		direct leverage of the underlying 'PROJ' library. (There are
+		transformations that aren't possible with 'PROJ' and that are
+		provided by the 'GDAL' library, a limitation which users of
+		this package should be aware of.) The 'PROJ' library is
+		available at https://proj.org/.
 	</longdescription>
 </pkgmetadata>

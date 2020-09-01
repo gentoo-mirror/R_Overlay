@@ -3,20 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Automated Deconvolution Augmentation of Profiles for Tissue
-		Specific Cells // Augments existing or de-novo cell-type
-		signature matrices to deconvolve bulk gene expression data.
-		Useful for building signature matrices from single cell RNAseq
-		data, determine cell type deconvolution spillover, and
-		hierarchical deconvolution to use spillover to increase
-		deconvolution accuracy. Please cite: Danziger SA et al. (2019)
-		ADAPTS: Automated Deconvolution Augmentation of Profiles for
-		Tissue Specific cells doi:10.1101/633958. This package expands
-		on the techniques outlined in Newman AM, Liu CL, Green MR,
-		Gentles AJ, Feng W, Xu Y, Hoang CD, Diehn M, Alizadeh, AA
-		(2015) doi:10.1038/nmeth.3337's Nature Methods paper: 'Robust
-		enumeration of cell subsets from tissue expression profiles'
-		to allow a user to easily add their own cell types (e.g. a
-		tumor specific cell type) to Newman's LM22 or other signature
-		matrix.
+		Specific Cells // Tools to construct (or add to) cell-type
+		signature matrices using flow sorted or single cell samples and
+		deconvolve bulk gene expression data. Useful for assessing the
+		quality of single cell RNAseq experiments, estimating the
+		accuracy of signature matrices, and determining cell-type
+		spillover. Please cite: Danziger SA et al. (2019) ADAPTS:
+		Automated Deconvolution Augmentation of Profiles for Tissue
+		Specific cells doi:10.1371/journal.pone.0224693.
 	</longdescription>
 </pkgmetadata>
