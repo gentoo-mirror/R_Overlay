@@ -3,8 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		A Suite of R Functions Implementing Spline Smoothing Techniques
-		// A comprehensive package for fitting various non-parametric
-		/semi-parametric linear/nonlinear fixed/mixed smoothing spline
-		models.
+		// Fit various smoothing spline models. Includes an ssr()
+		function for smoothing spline regression, an nnr() function for
+		nonparametric nonlinear regression, an snr() function for
+		semiparametric nonlinear regression, an slm() function for
+		semiparametric linear mixed-effects models, and an snm()
+		function for semiparametric nonlinear mixed-effects models. See
+		Wang (2011) doi:10.1201/b10954 for an overview.
 	</longdescription>
 </pkgmetadata>

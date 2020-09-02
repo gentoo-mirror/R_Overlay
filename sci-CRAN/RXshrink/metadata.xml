@@ -15,11 +15,14 @@
 		using RXpredict() for all five types of RXshrink linear model
 		TRACE diagnostics. Functions MLboot(), MLcalc(), MLhist() and
 		MLtrue() provide insights into the true bias and MSE risk
-		characteristics of non-linear Shrinkage estimators. The
-		correct.signs() function provides estimates with "correct"
-		numerical signs when ill-conditioned (nearly multicollinear)
-		models yield OLS estimates that disagree with the signs of the
-		observed correlations between the y-outcome and the selected
-		x-predictor variables.
+		characteristics of non-linear Shrinkage estimators. Functions
+		unr.aug() and unr.biv() augment the calculations made by
+		unr.ridge() to provide plots of the bivariate confidence
+		ellipses corresponding to any of the p*(p-1) possible pairs of
+		shrunken regression coefficients. The correct.signs() function
+		provides estimates with "correct" numerical signs when ill-
+		conditioned (nearly multicollinear) models yield OLS estimates
+		that disagree with the signs of the observed correlations
+		between the y-outcome and the selected x-predictor variables.
 	</longdescription>
 </pkgmetadata>
