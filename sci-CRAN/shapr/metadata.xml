@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Prediction Explanation with Dependence-Aware Shapley Values //
+		Complex machine learning models are often hard to interpret.
+		However, in many situations it is crucial to understand and
+		explain why a model made a specific prediction. Shapley values
+		is the only method for such prediction explanation framework
+		with a solid theoretical foundation. Previously known methods
+		for estimating the Shapley values do, however, assume feature
+		independence. This package implements the method described in
+		Aas, Jullum and Lland (2019) arXiv:1903.10464, which accounts
+		for any feature dependence, and thereby produces more accurate
+		estimates of the true Shapley values.
+	</longdescription>
+</pkgmetadata>
