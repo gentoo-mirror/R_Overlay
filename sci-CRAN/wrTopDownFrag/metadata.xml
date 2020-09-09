@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Internal Fragment Identification from Top-Down Mass Spectrometry
+		// Top-Down mass spectrometry aims to identify entire proteins
+		as well as their (post-translational) modifications or ions
+		bound (eg Chen et al (2018) doi:10.1021/acs.analchem.7b04747).
+		The pattern of internal fragments (Haverland et al (2017)
+		doi:10.1007/s13361-017-1635-x) may reveal important information
+		about the original structure of the proteins studied (Skinner
+		et al (2018) doi:10.1038/nchembio.2515 and Li et al (2018)
+		doi:10.1038/nchem.2908). However, the number of possible
+		internal fragments gets huge with longer proteins and
+		subsequent identification of internal fragments remains
+		challenging, in particular since the the accuracy of
+		measurements with current mass spectrometers represents a
+		limiting factor. This package attempts to deal with the
+		complexity of internal fragments and allows identification of
+		terminal and internal fragments from deconvoluted mass-
+		spectrometry data.
+	</longdescription>
+</pkgmetadata>
