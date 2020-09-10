@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst unpack
+DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=sci-BIOC/RBGL-1.17.0 sci-BIOC/Biobase >=sci-CRAN/XML-2.4.0 >=sci-BIOC/annotate-1.21.0 >=sci-BIOC/graph-1.21.0 >=sci-BIOC/hypergraph-1.15.2 sci-BIOC/AnnotationDbi dev-lang/R
 DESCRIPTION=R interface to PSI-MI 2.5 files
 EAPI=6
@@ -8,5 +8,5 @@ LICENSE=LGPL-3
 RDEPEND=>=sci-BIOC/RBGL-1.17.0 sci-BIOC/Biobase >=sci-CRAN/XML-2.4.0 >=sci-BIOC/annotate-1.21.0 >=sci-BIOC/graph-1.21.0 >=sci-BIOC/hypergraph-1.15.2 sci-BIOC/AnnotationDbi r_suggests_hom_dm_inp_db? ( sci-BIOC/hom_Dm_inp_db ) r_suggests_hom_hs_inp_db? ( sci-BIOC/hom_Hs_inp_db ) r_suggests_hom_mm_inp_db? ( sci-BIOC/hom_Mm_inp_db ) r_suggests_hom_rn_inp_db? ( sci-BIOC/hom_Rn_inp_db ) r_suggests_hom_sc_inp_db? ( sci-BIOC/hom_Sc_inp_db ) r_suggests_org_dm_eg_db? ( sci-BIOC/org_Dm_eg_db ) r_suggests_org_hs_eg_db? ( sci-BIOC/org_Hs_eg_db ) r_suggests_org_mm_eg_db? ( sci-BIOC/org_Mm_eg_db ) r_suggests_org_rn_eg_db? ( sci-BIOC/org_Rn_eg_db ) r_suggests_org_sc_sgd_db? ( sci-BIOC/org_Sc_sgd_db ) r_suggests_ppistats? ( sci-BIOC/ppiStats ) r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz ) r_suggests_scisi? ( sci-BIOC/ScISI ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/RpsiXML_2.26.0.tar.gz
-_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=R-packages	426f9efb941b44cc4edfc19eed0e51d6	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=1a83864a9c0b523a565cc2a1ce1fabea

@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install postinst unpack
+DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/caret sci-CRAN/data_table sci-CRAN/dynamicTreeCut sci-CRAN/stringr sci-CRAN/pander sci-CRAN/WGCNA >=dev-lang/R-3.3.1 sci-CRAN/magrittr sci-CRAN/pacman dev-lang/R
 DESCRIPTION=Environment Based Clustering for... (see metadata)
 EAPI=5
@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=sci-CRAN/caret sci-CRAN/data_table sci-CRAN/dynamicTreeCut sci-CRAN/stringr sci-CRAN/pander sci-CRAN/WGCNA >=dev-lang/R-3.3.1 sci-CRAN/magrittr sci-CRAN/pacman r_suggests_circlize? ( sci-CRAN/circlize ) r_suggests_cluster? ( virtual/cluster ) r_suggests_earth? ( sci-CRAN/earth ) r_suggests_factoextra? ( sci-CRAN/factoextra ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_ncvreg? ( sci-CRAN/ncvreg ) r_suggests_pheatmap? ( sci-CRAN/pheatmap ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_protoclust? ( sci-CRAN/protoclust ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/eclust_0.1.0.tar.gz
-_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=R-packages	426f9efb941b44cc4edfc19eed0e51d6	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=4ccc026b6f6da1d64a76194a47dad68e
