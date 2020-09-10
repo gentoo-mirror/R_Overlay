@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install postinst unpack
+DEFINED_PHASES=compile install postinst unpack
 DEPEND=sci-CRAN/RSQLite >=sci-BIOC/Biobase-2.5.5 virtual/MASS sci-BIOC/GenomicFeatures >=sci-BIOC/affy-1.23.4 sci-BIOC/GenomicRanges sci-CRAN/DBI virtual/lattice sci-CRAN/nleqslv sci-BIOC/AnnotationDbi virtual/mgcv sci-BIOC/annotate virtual/KernSmooth >=sci-BIOC/methylumi-2.3.2 sci-BIOC/preprocessCore dev-lang/R
 DESCRIPTION=BeadArray Specific Methods for I... (see metadata)
 EAPI=6
@@ -8,5 +8,5 @@ LICENSE=LGPL-2+
 RDEPEND=sci-CRAN/RSQLite >=sci-BIOC/Biobase-2.5.5 virtual/MASS sci-BIOC/GenomicFeatures >=sci-BIOC/affy-1.23.4 sci-BIOC/GenomicRanges sci-CRAN/DBI virtual/lattice sci-CRAN/nleqslv sci-BIOC/AnnotationDbi virtual/mgcv sci-BIOC/annotate virtual/KernSmooth >=sci-BIOC/methylumi-2.3.2 sci-BIOC/preprocessCore r_suggests_beadarray? ( sci-BIOC/beadarray ) r_suggests_genefilter? ( sci-BIOC/genefilter ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_lumibarnes? ( sci-BIOC/lumiBarnes ) r_suggests_lumihumanall_db? ( sci-BIOC/lumiHumanAll_db ) r_suggests_lumihumanidmapping? ( sci-BIOC/lumiHumanIDMapping ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_vsn? ( sci-BIOC/vsn ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/lumi_2.36.0.tar.gz
-_eclasses_=R-packages	426f9efb941b44cc4edfc19eed0e51d6	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=aa5415365185d6625176d0af2b1f2973

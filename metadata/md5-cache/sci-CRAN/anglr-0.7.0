@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install postinst unpack
+DEFINED_PHASES=compile install postinst unpack
 DEPEND=sci-CRAN/RTriangle sci-CRAN/unjoin sci-CRAN/dplyr >=dev-lang/R-3.4.0 sci-CRAN/magrittr sci-CRAN/png sci-CRAN/raster >=sci-CRAN/silicate-0.6.1 sci-CRAN/rgl sci-CRAN/terrainmeshr sci-CRAN/viridis sci-CRAN/tibble >=sci-CRAN/crsmeta-0.3.0 sci-CRAN/polyclip sci-CRAN/scales sci-CRAN/gridBase >=sci-CRAN/reproj-0.4.2 sci-CRAN/palr sci-CRAN/sp sci-CRAN/rlang sci-CRAN/colourvalues dev-lang/R
 DESCRIPTION=Mesh Topology and Visualization for Spatial Data
 EAPI=6
@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 RDEPEND=sci-CRAN/RTriangle sci-CRAN/unjoin sci-CRAN/dplyr >=dev-lang/R-3.4.0 sci-CRAN/magrittr sci-CRAN/png sci-CRAN/raster >=sci-CRAN/silicate-0.6.1 sci-CRAN/rgl sci-CRAN/terrainmeshr sci-CRAN/viridis sci-CRAN/tibble >=sci-CRAN/crsmeta-0.3.0 sci-CRAN/polyclip sci-CRAN/scales sci-CRAN/gridBase >=sci-CRAN/reproj-0.4.2 sci-CRAN/palr sci-CRAN/sp sci-CRAN/rlang sci-CRAN/colourvalues sci-libs/proj virtual/glu virtual/opengl r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gibble? ( sci-CRAN/gibble ) r_suggests_graticule? ( sci-CRAN/graticule ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_trip? ( sci-CRAN/trip ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/anglr_0.7.0.tar.gz
-_eclasses_=R-packages	426f9efb941b44cc4edfc19eed0e51d6	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=cefce5b21d67a7e1685771d3251ba959

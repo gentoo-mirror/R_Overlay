@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install postinst unpack
+DEFINED_PHASES=compile install postinst unpack
 DEPEND=>=sci-CRAN/pracma-2.2.9 >=sci-CRAN/data_table-1.12.8 >=sci-CRAN/tibble-3.0.0 >=sci-CRAN/GGally-1.4 >=sci-CRAN/doParallel-1.0.15 >=sci-CRAN/tidyr-1.0.2 >=sci-CRAN/R_matlab-3.6.2 >=sci-CRAN/dplyr-0.8.5 >=sci-CRAN/multiway-1.0.6 >=sci-CRAN/cdom-0.1.0 >=sci-CRAN/foreach-1.5.0 >=sci-CRAN/drc-3.0.1 >=dev-lang/R-3.6 >=sci-CRAN/ggplot2-3.3.0 >=sci-CRAN/zoo-1.8.7 virtual/Matrix >=sci-CRAN/stringr-1.4.0 >=sci-CRAN/gtools-3.8.2 >=sci-CRAN/readr-1.3.1 >=sci-CRAN/MBA-0.0.9 >=sci-CRAN/eemR-1.0.1 dev-lang/R
 DESCRIPTION=PARAFAC Analysis of EEMs from DOM
 EAPI=6
@@ -8,5 +8,5 @@ LICENSE=AGPL-3
 RDEPEND=>=sci-CRAN/pracma-2.2.9 >=sci-CRAN/data_table-1.12.8 >=sci-CRAN/tibble-3.0.0 >=sci-CRAN/GGally-1.4 >=sci-CRAN/doParallel-1.0.15 >=sci-CRAN/tidyr-1.0.2 >=sci-CRAN/R_matlab-3.6.2 >=sci-CRAN/dplyr-0.8.5 >=sci-CRAN/multiway-1.0.6 >=sci-CRAN/cdom-0.1.0 >=sci-CRAN/foreach-1.5.0 >=sci-CRAN/drc-3.0.1 >=dev-lang/R-3.6 >=sci-CRAN/ggplot2-3.3.0 >=sci-CRAN/zoo-1.8.7 virtual/Matrix >=sci-CRAN/stringr-1.4.0 >=sci-CRAN/gtools-3.8.2 >=sci-CRAN/readr-1.3.1 >=sci-CRAN/MBA-0.0.9 >=sci-CRAN/eemR-1.0.1 r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_xlsx? ( sci-CRAN/xlsx ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/staRdom_1.1.10.tar.gz
-_eclasses_=R-packages	426f9efb941b44cc4edfc19eed0e51d6	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	desktop	7fd20552ce4cc97e8acb132a499a7dd8	epatch	ed88001f77c6dd0d5f09e45c1a5b480e	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	2477ebe553d3e4d2c606191fe6c33602	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
 _md5_=8fff239f7134e36976cfd670b67a0bfd
