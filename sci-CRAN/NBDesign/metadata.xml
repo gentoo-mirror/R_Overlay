@@ -3,8 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Design and Monitoring of Clinical Trials with Negative Binomial
-		Endpoint // Calculates various functions needed for design and
+		Endpoint // Calculate various functions needed for design and
 		monitoring clinical trials with negative binomial endpoint with
-		variable follow-up.
+		variable follow-up. This version has a few changes compared to
+		the previous version 1.0.0, including (1) correct a typo in
+		Type 1 censoring, mtbnull=bnull and (2) restructure the code to
+		account for shape parameter equal to zero, i.e. Poisson
+		scenario.
 	</longdescription>
 </pkgmetadata>

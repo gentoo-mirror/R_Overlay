@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Two-Part Estimation of Treatment Rules for Semi-Continuous Data
+		// Implements the methodology of Huling, Smith, and Chen (2020)
+		doi:10.1080/01621459.2020.1801449, which allows for subgroup
+		identification for semi-continuous outcomes by estimating
+		individualized treatment rules. It uses a two-part modeling
+		framework to handle semi-continuous data by separately modeling
+		the positive part of the outcome and an indicator of whether
+		each outcome is positive, but still results in a single
+		treatment rule. High dimensional data is handled with a
+		cooperative lasso penalty, which encourages the coefficients in
+		the two models to have the same sign.
+	</longdescription>
+</pkgmetadata>
