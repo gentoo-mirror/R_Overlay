@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimate IV-Optimal Individualized Treatment Rules // A method
+		that estimates an IV-optimal individualized treatment rule. An
+		individualized treatment rule is said to be IV-optimal if it
+		minimizes the maximum risk with respect to the putative IV and
+		the set of IV identification assumptions. Please refer to
+		arXiv:2002.02579 for more details on the methodology and some
+		theory underpinning the method. Function IV-PILE() uses
+		functions in the package 'locClass'. Package 'locClass' can be
+		accessed and installed from the 'R-Forge' repository via the
+		following link:
+		https://r-forge.r-project.org/projects/locclass/.
+		Alternatively, one can install the package by entering the
+		following in R: 'install.packages("locClass",
+		repos="http://R-Forge.R-project.org")'.
+	</longdescription>
+</pkgmetadata>
