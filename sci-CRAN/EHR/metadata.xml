@@ -3,13 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Electronic Health Record (EHR) Data Processing and Analysis Tool
-		// Process and analyze Electronic Health Record (EHR) data.
-		Frequency and contingency tables for many binary outcomes and a
-		binary exposure variable can be generated more efficiently.
-		Phenome Wide Association Study (PheWAS) performed using EHR
-		data can be analyzed using three commonly used statistical
-		analysis methods: Firth's penalized-likelihood logistic
-		regression; logistic regression with likelihood ratio test;
-		conventional logistic regression with Wald test.
+		// Process and analyze Electronic Health Record (EHR) data. The
+		`EHR` package provides modules to perform diverse medication-
+		related studies using data from EHR databases. Especially, the
+		package includes modules to perform
+		pharmacokinetic/pharmacodynamic (PK/PD) analyses using EHRs, as
+		outlined in Choi et al. (2020). Additional modules will be
+		added in future. In addition, this package provides various
+		functions useful to perform Phenome Wide Association Study
+		(PheWAS) to explore associations between drug exposure and
+		phenotypes obtained from EHR data (Choi et al., 2018).
 	</longdescription>
 </pkgmetadata>
