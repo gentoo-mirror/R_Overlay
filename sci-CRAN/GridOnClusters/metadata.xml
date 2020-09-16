@@ -2,12 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Joint Discretization of Data on a Grid that Preserves Clusters //
+		Cluster-Preserving Multivariate Joint Grid Discretization //
 		Discretize multivariate continuous data using a grid that
 		captures the joint distribution via preserving clusters in the
-		original data. Joint grid discretization is applicable as a
-		data transformation step before using other methods to infer
-		association, function, or causality without assuming a
-		parametric model.
+		original data (Wang et al. 2020). Joint grid discretization is
+		applicable as a data transformation step to prepare data for
+		model-free inference of association, function, or causality.
 	</longdescription>
 </pkgmetadata>

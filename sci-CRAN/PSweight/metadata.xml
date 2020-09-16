@@ -2,12 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Propensity Score Weighting for Causal Inference // Supports
+		Propensity Score Weighting for Causal Inference with
+		Observational Studies and Randomized Trials // Supports
 		propensity score weighting analysis of observational studies
 		and randomized trials. Enables the estimation and inference of
-		average causal effects among target populations with binary and
-		multiple treatments using the methods developed in Li, Morgan
-		and Zaslavsky (2018) doi:10.1080/01621459.2016.1260466 and Li
-		and Li (2019) doi:10.1214/19-AOAS1282.
+		average causal effects with binary and multiple treatments
+		using overlap weights (ATO), inverse probability of treatment
+		weights (ATE), average treatment effect among the treated
+		weights (ATT), matching weights (ATM) and entropy weights
+		(ATEN), with and without propensity score trimming. These
+		weights are members of the family of balancing weights
+		introduced in Li, Morgan and Zaslavsky (2018)
+		doi:10.1080/01621459.2016.1260466 and Li and Li (2019)
+		doi:10.1214/19-AOAS1282.
 	</longdescription>
 </pkgmetadata>
