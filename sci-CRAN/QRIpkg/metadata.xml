@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Quantile Regression Index (QRI) Score // QRI function performs
-		quantile regression analysis using age and sex as predictors to
-		calculate the Quantile Regression Index (QRI) score for each
-		individuals regional brain imaging metrics and then averages
-		across the regional scores to generate an average tissue
-		specific score for each subject.
+		Quantile Regression Index Score // The QRI_func() function
+		performs quantile regression analysis using age and sex as
+		predictors to calculate the Quantile Regression Index (QRI)
+		score for each individuals regional brain imaging metrics and
+		then averages across the regional scores to generate an average
+		tissue specific score for each subject. The QRI_plot() is used
+		to plot QRI and generate the normative curves for individual
+		measurements.
 	</longdescription>
 </pkgmetadata>
