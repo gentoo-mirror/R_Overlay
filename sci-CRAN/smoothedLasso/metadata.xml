@@ -2,22 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Smoothed LASSO Regression via Nesterov Smoothing // We provide
-		full functionality to compute smoothed LASSO regression
-		estimates. For this, the LASSO objective function is first
-		smoothed using Nesterov smoothing (see Y. Nesterov (2005)
-		doi:10.1007/s10107-004-0552-5), resulting in a modified LASSO
+		A Framework to Smooth L1 Penalized Regression Operators using
+		Nesterov Smoothing // We provide full functionality to smooth
+		L1 penalized regression operators and to compute regression
+		estimates thereof. For this, the objective function of a user-
+		specified regression operator is first smoothed using Nesterov
+		smoothing (see Y. Nesterov (2005)
+		doi:10.1007/s10107-004-0552-5), resulting in a modified
 		objective function with explicit gradients everywhere. The
-		smoothed objective function and its gradient are used to
-		minimize it via BFGS, and the obtained minimizer is returned.
-		Using Nesterov smoothing, the smoothed LASSO objective function
-		can be made arbitrarily close to the original (unsmoothed) one.
-		In particular, the Nesterov approach has the advantage that it
+		smoothed objective function and its gradient are minimized via
+		BFGS, and the obtained minimizer is returned. Using Nesterov
+		smoothing, the smoothed objective function can be made
+		arbitrarily close to the original (unsmoothed) one. In
+		particular, the Nesterov approach has the advantage that it
 		comes with explicit accuracy bounds, both on the L1/L2
-		difference of the unsmoothed to the smoothed LASSO objective
-		function as well as on their respective minimizers. A
-		progressive smoothing approach is provided which iteratively
-		smoothes the LASSO, resulting in more stable regression
-		estimates.
+		difference of the unsmoothed to the smoothed objective
+		functions as well as on their respective minimizers (see G.
+		Hahn, S.M. Lutz, N. Laha, C. Lange (2020)
+		doi:10.1101/2020.09.17.301788). A progressive smoothing
+		approach is provided which iteratively smoothes the objective
+		function, resulting in more stable regression estimates.
 	</longdescription>
 </pkgmetadata>

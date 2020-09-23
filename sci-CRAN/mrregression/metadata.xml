@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regression Analysis for Very Large Data Sets via Merge and Reduce
+		// Frequentist and Bayesian linear regression for large data
+		sets. Useful when the data does not fit into memory (for both
+		frequentist and Bayesian regression), to make running time
+		manageable (mainly for Bayesian regression), and to reduce the
+		total running time because of reduced or less severe memory-
+		spillover into the virtual memory. This is an implementation of
+		Merge  Reduce for linear regression as described in Geppert,
+		L.N., Ickstadt, K., Munteanu, A.,  Sohler, C. (2020).
+		'Streaming statistical models via Merge  Reduce'. International
+		Journal of Data Science and Analytics, 1-17,
+		doi:10.1007/s41060-020-00226-0.
+	</longdescription>
+</pkgmetadata>
