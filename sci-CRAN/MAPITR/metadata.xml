@@ -6,11 +6,11 @@
 		and variance component model for identifying marginal epistasis
 		between pathways and the rest of the genome. 'MAPITR' uses as
 		input a matrix of genotypes, a vector of phenotypes, and a list
-		of pathways, and iteratively tests each pathway for epistasis
-		between any variants within the pathway versus any variants
-		remaining in the rest of the genome. 'MAPITR' returns results
-		in the form of p-values for every pathway indicating whether
-		the null model of there being no epistatic interactions between
-		a pathway and the rest of the genome can be rejected.
+		of pathways. 'MAPITR' then iteratively tests each pathway for
+		epistasis between any variants within the pathway versus any
+		variants remaining in the rest of the genome. 'MAPITR' returns
+		results in the form of p-values for every pathway indicating
+		whether the null model of there being no epistatic interactions
+		between a pathway and the rest of the genome can be rejected.
 	</longdescription>
 </pkgmetadata>

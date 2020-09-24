@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Pathway Testing for Longitudinal Omics // A self-contained
+		hypothesis is tested for a given pathway of longitudinal omics.
+		'SlaPMEG' is a two-step procedure. First, a shared latent
+		process mixed model is fitted over the longitudinal measures of
+		omics in a pathway. This shared model allows deviation from the
+		shared process at subject level (a random intercept, slope, or
+		both per subject) and also at omic level (a random effect per
+		omic). These random effects summarize the longitudinal trend of
+		the observations which can be used to test for group
+		differences using 'Globaltest' in the second step. If the
+		pathway is large or the shared effect is small, the package
+		fits a series of pairwise models and estimates the shared
+		random effects based on them.
+	</longdescription>
+</pkgmetadata>

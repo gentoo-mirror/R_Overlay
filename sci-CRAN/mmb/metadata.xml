@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Arbitrary Dependency Mixed Multivariate Bayesian Models //
+		Supports Bayesian models with full and partial (hence
+		arbitrary) dependencies between random variables. Discrete and
+		continuous variables are supported, and conditional joint
+		probabilities and probability densities are estimated using
+		Kernel Density Estimation (KDE). The full general form, which
+		implements an extension to Bayes' theorem, as well as the
+		simple form, which is just a Bayesian network, both support
+		regression through segmentation and KDE and estimation of
+		probability or relative likelihood of discrete or continuous
+		target random variables. This package also provides true
+		statistical distance measures based on Bayesian models.
+		Furthermore, these measures can be facilitated on neighborhood
+		searches, and to estimate the similarity and distance between
+		data points. Related work is by Bayes (1763)
+		doi:10.1098/rstl.1763.0053 and by Scutari (2010)
+		doi:10.18637/jss.v035.i03.
+	</longdescription>
+</pkgmetadata>
