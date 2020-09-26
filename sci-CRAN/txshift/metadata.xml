@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Efficient Estimation of the Causal Effects of Stochastic
+		Interventions // Efficient estimation of the population-level
+		causal effects of stochastic interventions on a continuous-
+		valued exposure. Both one-step and targeted minimum loss
+		estimators are implemented for a causal parameter defined as
+		the counterfactual mean of an outcome of interest under a
+		stochastic intervention that may depend on the natural value of
+		the exposure (i.e., a modified treatment policy). To
+		accommodate settings in which two-phase sampling is employed,
+		procedures for making use of inverse probability of censoring
+		weights are provided to facilitate construction of inefficient
+		and efficient one-step and targeted minimum loss estimators.
+		The causal parameter and estimation methodology were first
+		described by Daz and van der Laan (2013)
+		doi:10.1111/j.1541-0420.2011.01685.x). Estimation of nuisance
+		parameters may be enhanced through the Super Learner ensemble
+		model in 'sl3', available for download from GitHub using
+		'remotes::install_github("tlverse/sl3")'.
+	</longdescription>
+</pkgmetadata>

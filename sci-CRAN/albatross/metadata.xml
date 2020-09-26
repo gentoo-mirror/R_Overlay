@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		PARAFAC Analysis of Fluorescence Excitation-Emission Matrices //
+		Perform parallel factor analysis (PARAFAC: Harshman, 2005)
+		doi:10.1121/1.1977523) on fluorescence excitation-emission
+		matrices (FEEMs): handle scattering signal (Bahram, 2007)
+		doi:10.1002/cem.978 and inner filter effect (Kothawala, 2013)
+		doi:10.4319/lom.2013.11.616, scale the dataset, fit the model;
+		perform split-half validation (DeSarbo, 1984)
+		https://papers.ssrn.com/abstract=2783446 or jack-knifing (Riu,
+		2003) doi:10.1016/S0169-7439(02)00090-4. The package has a low
+		dependency footprint (only two direct dependencies not in core
+		or recommended; four total non-core/recommended dependencies)
+		and has been tested on a wide range of R versions (including R
+		as old as 3.3.3 from Debian Stretch).
+	</longdescription>
+</pkgmetadata>
