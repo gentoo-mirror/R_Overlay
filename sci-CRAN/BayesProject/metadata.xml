@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Projection Direction for Multivariate Changepoint Detection
+		// Implementations in 'cpp' of the BayesProject algorithm (see
+		G. Hahn, P. Fearnhead, I.A. Eckley (2020)
+		doi:10.1007/s11222-020-09966-2) which implements a fast
+		approach to compute a projection direction for multivariate
+		changepoint detection, as well as the sum-cusum and max-cusum
+		methods, and a wild binary segmentation wrapper for all
+		algorithms.
+	</longdescription>
+</pkgmetadata>

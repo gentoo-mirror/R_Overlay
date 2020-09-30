@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiple Imputation using Denoising Autoencoders // A tool that
+		allows users to impute missing data with 'MIDAS', a multiple
+		imputation method using denoising autoencoders as documented in
+		Lall and Robinson (2020) doi:10.33774/apsa-2020-3tk40-v3. This
+		method has significant accuracy and efficiency advantages over
+		other multiple imputation strategies, particularly when run on
+		large datasets with many columns or categories. Alongside
+		interfacing with 'Python' to run the core algorithm, this
+		package contains tools to process the data before and after
+		model training, run imputation model diagnostics, generate
+		multiple completed datasets, and estimate multiply-imputed
+		regression models.
+	</longdescription>
+</pkgmetadata>
