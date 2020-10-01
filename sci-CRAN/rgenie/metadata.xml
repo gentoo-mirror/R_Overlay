@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis of GenIE Experiments // The R package for GenIE analysis
+		is designed to analyze the next-generation sequencing output
+		from a set of GenIE experimental replicates. GenIE (genome-
+		editing interrogation of enhancers) is an experimental method
+		to evaluate the effects of individual single-nucleotide
+		polymorphisms (SNPs) on gene transcription. It is based on
+		targeted CRISPR-Cas9 genome editing in cultured cells to
+		produce indels at a target locus, optionally with a homology-
+		dependent recombination (HDR) construct to create precisely
+		defined genomic changes. Following this, both genomic DNA
+		(gDNA) and RNA are extracted from the same pool of cells, then
+		complementary DNA (cDNA) is generated from the RNA. Both gDNA
+		and cDNA are amplified with locus-specific PCR primers, in
+		multiple replicates, and libraries of the experimental
+		replicates are prepared for next-generation sequencing. The
+		sequencing data from each replicate for each region should be
+		aligned to either the full reference genome or to a locus-
+		specific (amplicon) reference genome for analysis by 'rgenie'.
+	</longdescription>
+</pkgmetadata>
