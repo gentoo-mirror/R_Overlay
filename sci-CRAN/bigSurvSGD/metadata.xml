@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Big Survival Analysis Using Stochastic Gradient Descent // Fits
+		Cox model via stochastic gradient descent. This implementation
+		avoids computational instability of the standard Cox Model when
+		dealing large datasets. Furthermore, it scales up with large
+		datasets that do not fit the memory. It also handles large
+		sparse datasets using proximal stochastic gradient descent
+		algorithm. For more details about the method, please see
+		Aliasghar Tarkhan and Noah Simon (2020) arXiv:2003.00116v2.
+	</longdescription>
+</pkgmetadata>

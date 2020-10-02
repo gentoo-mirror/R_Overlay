@@ -3,10 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Hierarchical Multiple Imputation // Runs single level and
-		multilevel imputation models. The user just has to pass the
-		data to the main function and, optionally, his analysis model.
-		Basically the package then translates this analysis model into
-		commands to impute the data according to it with functions from
-		'mice', 'MCMCglmm' or routines build for this package.
+		multilevel imputation models as described in Speidel, Drechsler
+		and Jolani (2020) doi:10.18637/jss.v095.i09. The user just has
+		to pass the data to the main function and, optionally, his
+		analysis model. Basically the package then translates this
+		analysis model into commands to impute the data according to it
+		with functions from 'mice', 'MCMCglmm' or routines build for
+		this package.
 	</longdescription>
 </pkgmetadata>
