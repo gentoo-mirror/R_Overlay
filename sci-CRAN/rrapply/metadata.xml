@@ -8,9 +8,9 @@
 		to elements of a nested list based on a general condition
 		function and including the possibility to prune or aggregate
 		nested list elements from the result. In addition, special
-		arguments can be supplied to access the name and location in
-		the nested list of the element under evaluation. The rrapply()
-		function is implemented in 'R''s 'C' interface and requires no
-		other package dependencies.
+		arguments can be supplied to access the name, location, parents
+		and siblings in the nested list of the element under
+		evaluation. The rrapply() function is implemented in 'R''s 'C'
+		interface and requires no other package dependencies.
 	</longdescription>
 </pkgmetadata>

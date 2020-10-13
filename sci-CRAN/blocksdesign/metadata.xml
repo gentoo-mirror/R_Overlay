@@ -3,19 +3,24 @@
 <pkgmetadata>
 	<longdescription>
 		Nested and Crossed Block Designs for Factorial and Unstructured
-		Treatment Sets // Constructs D-optimal or near D-optimal
-		treatment and block designs for linear treatment models with
-		crossed or nested block factors. The treatment design can be
-		any arbitrary linear model defined by a treatment model formula
-		and the block design can be any feasible combination of crossed
-		or nested block factors. The block design factors are optimized
-		sequentially and the levels of each successive block factor are
-		optimized within the levels of each preceding block factor.
-		Crossed block designs with non-singular interaction effects are
-		optimized using a weighting scheme that allows for differential
-		weighting of first and second-order block effects. Outputs
-		include a table showing the allocation of treatments to blocks
-		and tables showing the achieved D-efficiency factors for each
-		block and treatment design.
+		Treatment Sets // Constructs treatment and block designs for
+		linear treatment models with crossed or nested block factors.
+		The treatment design can be any feasible linear model and the
+		block design can be any feasible combination of crossed or
+		nested block factors. The block design is a sum of one or more
+		block factors and the block design is optimized sequentially
+		with the levels of each successive block factor optimized
+		conditional on all previously optimized block factors.
+		D-optimality is used throughout except for square or
+		rectangular lattice block designs which are constructed
+		algebraically using mutually orthogonal Latin squares. Crossed
+		block designs with interaction effects are optimized using a
+		weighting scheme which allows for differential weighting of
+		first and second-order block effects. Outputs include a table
+		showing the allocation of treatments to blocks and tables
+		showing the achieved D-efficiency factors for each block and
+		treatment design. Edmondson, R.N. Multi-level Block Designs for
+		Comparative Experiments. JABES (2020).
+		doi:10.1007/s13253-020-00416-0.
 	</longdescription>
 </pkgmetadata>

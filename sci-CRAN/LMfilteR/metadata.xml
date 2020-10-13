@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Filter Methods for Parameter Estimation in Linear Regression
-		Models // We present a method based on filtering algorithms to
-		estimate the parameters of linear regressions, i.e. the
+		Filter Methods for Parameter Estimation in Linear and Non Linear
+		Regression Models // We present a method based on filtering
+		algorithms to estimate the parameters of linear, i.e. the
 		coefficients and the variance of the error term. The proposed
 		algorithms make use of Particle Filters following Ristic, B.,
 		Arulampalam, S., Gordon, N. (2004, ISBN: 158053631X) resampling
-		methods.
+		methods. Parameters of logistic regression models are also
+		estimated using an evolutionary particle filter method.
 	</longdescription>
 </pkgmetadata>
