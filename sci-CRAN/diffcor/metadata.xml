@@ -14,11 +14,14 @@
 		correlation of one of the constructs with a third construct
 		(r13), given the correlation of the constructs that are
 		compared (r23). The outputs for all the three functions provide
-		the test statistic in z-units as well as p-values. For
-		diffcor.one() and diffcor.two(), the effect size Cohens q is
-		additionally printed. It is a descriptive index to evaluate
-		differences of independent correlations. Cohen (1988) suggested
-		q = |.10|, |.30| and |.50| as small, moderate, and large
-		differences.
+		the test statistic in z-units, p-values, and alpha levels that
+		were corrected in terms of multiple testing according to
+		Bonferroni (if you did not set bonferroni = FALSE). To help
+		interpret the output, the procedure prompts if a single p value
+		is smaller than the corrected alpha. For diffcor.one() and
+		diffcor.two(), the effect size Cohens q is additionally
+		provided. It is a descriptive index to evaluate differences of
+		independent correlations. Cohen (1988) suggested q = |.10|,
+		|.30| and |.50| as small, moderate, and large differences.
 	</longdescription>
 </pkgmetadata>

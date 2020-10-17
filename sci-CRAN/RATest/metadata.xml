@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<longdescription>
 		Randomization Tests // A collection of randomization tests, data
-		sets and examples. The current version focuses on three testing
+		sets and examples. The current version focuses on four testing
 		problems and their implementation in empirical work. First, it
 		facilitates the empirical researcher to test for particular
 		hypotheses, such as comparisons of means, medians, and
@@ -14,7 +14,7 @@
 		Second, the description and implementation of a permutation
 		test for testing the continuity assumption of the baseline
 		covariates in the sharp regression discontinuity design (RDD)
-		as in Canay and Kamat (2017) https://goo.gl/UZFqt7. More
+		as in Canay and Kamat (2018) https://goo.gl/UZFqt7. More
 		specifically, it allows the user to select a set of covariates
 		and test the aforementioned hypothesis using a permutation test
 		based on the Cramer-von Miss test statistic. Graphical
@@ -23,6 +23,11 @@
 		it provides the practitioner with an effortless implementation
 		of a permutation test based on the martingale decomposition of
 		the empirical process for testing for heterogeneous treatment
-		effects in the presence of an estimated nuisance parameter.
+		effects in the presence of an estimated nuisance parameter as
+		in Chung and Olivares (2020) https://rb.gy/dwbbyx. Lastly, this
+		version considers the two-sample goodness-of-fit testing
+		problem under covariate adaptive randomization and implements a
+		permutation test based on a prepivoted Kolmogorov-Smirnov test
+		statistic.
 	</longdescription>
 </pkgmetadata>
