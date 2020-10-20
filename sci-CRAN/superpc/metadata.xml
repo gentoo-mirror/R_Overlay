@@ -2,8 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Supervised principal components // Supervised principal
-		components for regression and survival analsysis. Especially
-		useful for high-dimnesional data, including microarray data.
+		Supervised Principal Components // Does prediction in the case of
+		a censored survival outcome, or a regression outcome, using the
+		"supervised principal component" approach. 'Superpc' is
+		especially useful for high-dimensional data when the number of
+		features p dominates the number of samples n (p  n paradigm),
+		as generated, for instance, by high-throughput technologies.
 	</longdescription>
 </pkgmetadata>
