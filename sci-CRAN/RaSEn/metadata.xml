@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Random Subspace Ensemble Classification // We propose a new
-		model-free ensemble classification framework, RaSE algorithm,
-		for the sparse classification problem. In RaSE algorithm, for
-		each weak learner, some random subspaces are generated and the
-		optimal one is chosen to train the model on the basis of some
+		Random Subspace Ensemble Classification // We propose a flexible
+		ensemble classification framework, RaSE algorithm, for the
+		sparse classification problem. In RaSE algorithm, for each weak
+		learner, some random subspaces are generated and the optimal
+		one is chosen to train the model on the basis of some
 		criterion. To be adapted to the problem, a novel criterion,
 		ratio information criterion (RIC) is put up with based on
 		Kullback-Leibler divergence. Besides minimizing RIC, multiple
@@ -16,10 +16,13 @@
 		validation error, minimizing leave-one-out error. And the
 		choices of base classifiers are also various, for instance,
 		linear discriminant analysis, quadratic discriminant analysis,
-		k-nearest neighbour, logistic regression, decision trees,
-		random forest, support vector machines. RaSE algorithm can also
-		be applied to do feature ranking, providing us the importance
-		of each feature based on the selected percentage in multiple
-		subspaces.
+		k-nearest neighbor, logistic regression, decision trees, random
+		forest, support vector machines. RaSE algorithm can also be
+		applied to do feature ranking, providing us the importance of
+		each feature based on the selected percentage in multiple
+		subspaces. In addition, to relax the requirement of the number
+		of random subspaces to be generated, we propose an iterative
+		version of RaSE, which is shown to be effective under many
+		sparse binary classification settings.
 	</longdescription>
 </pkgmetadata>
