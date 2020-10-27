@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		SPatial and Optimally Temporal (SPOT) Sampling // In spatial
+		data, information of two neighboring units are generally very
+		similar. For spatial sampling, it is therefore more efficient
+		to select samples that are well spread out in space. Often, the
+		interest lies not only in estimating a measure at one point in
+		time, but rather in estimating several points in time to also
+		study the evolution. Three new methods called Orfs (Optimal
+		Rotation with Fixed sample Size), Orsp (Optimal Rotation with
+		Spread sample), and Spot (Spatial and Optimally Temporal
+		Sampling) are implemented in this package. Orfs allows to
+		select temporal samples with fixed size. Orsp selects spatio-
+		temporal samples with random size that are well spread out in
+		space at each point in time. And Spot generates spread sample
+		with fixed sample size at each wave. These methods provide an
+		optimal time rotation of the selected units using the
+		systematic sampling.
+	</longdescription>
+</pkgmetadata>
