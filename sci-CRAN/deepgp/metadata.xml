@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sequential Design for Deep Gaussian Processes using MCMC //
+		Performs model fitting and sequential design for deep Gaussian
+		processes using MCMC and elliptical slice sampling.  Models
+		extend up to three layers deep; a one layer model is equivalent
+		to typical Gaussian process regression.  Sequential design
+		criteria include integrated mean square prediction error
+		(IMSPE), active learning Cohn (ALC), and expected improvement
+		(EI).  Covariance structure is based on inverse exponentiated
+		squared euclidean distance.  Applicable to noisy and
+		deterministic functions. Incorporates SNOW parallelization and
+		utilizes C under the hood.  Manuscript forthcoming; see
+		Damianou and Lawrence (2013) arXiv:1211.0358 for deep Gaussian
+		process models and Murray, Adams, and MacKay (2010)
+		arXiv:1001.0175 for elliptical slice sampling.
+	</longdescription>
+</pkgmetadata>

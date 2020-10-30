@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Converts Tabular Data to Interleaved Vectors // Converts matrices
+		and lists of matrices into a single vector by interleaving
+		their values. That is, each element of the result vector is
+		filled from the input matrices one row at a time. This is the
+		same as transposing a matrix, then removing the dimension
+		attribute, but is designed to operate on matrices in nested
+		list structures.
+	</longdescription>
+</pkgmetadata>
