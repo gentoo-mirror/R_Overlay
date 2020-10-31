@@ -3,10 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Fit GLM's with High-Dimensional k-Way Fixed Effects // Provides a
-		routine to concentrate out factors with many levels during the
+		routine to partial out factors with many levels during the
 		optimization of the log-likelihood function of the
 		corresponding generalized linear model (glm). The package is
-		based on the algorithm proposed by Stammann (2018)
+		based on the algorithm described in Stammann (2018)
 		arXiv:1707.01815 and is restricted to glm's that are based on
 		maximum likelihood estimation and non-linear. It also offers an
 		efficient algorithm to recover estimates of the fixed effects
@@ -15,6 +15,6 @@
 		analytical bias corrections for binary choice models (logit and
 		probit) derived by Fernandez-Val and Weidner (2016)
 		doi:10.1016/j.jeconom.2015.12.014 and Hinz, Stammann, and
-		Wanner (2019).
+		Wanner (2020) arXiv:2004.12655.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Implements Generic Composite Similarity Measure // Provides
+		implementation of the generic composite similarity measure
+		(GCSM) described in Liu et al. (2020)
+		doi:10.1016/j.ecoinf.2020.101169. The implementation is in C++
+		and uses 'RcppArmadillo'. Additionally, implementations of the
+		structural similarity (SSIM) and the composite similarity
+		measure based on means, standard deviations, and correlation
+		coefficient (CMSC), are included.
+	</longdescription>
+</pkgmetadata>
