@@ -12,8 +12,8 @@
 		Obenchain (2020) arXiv:2005.14291. This Shrinkage-Path is more
 		efficient than the Paths used by the qm.ridge(), aug.lars() and
 		uc.lars() functions. Optimally biased predictions can be made
-		using RXpredict() for all five types of RXshrink linear model
-		TRACE diagnostics. Functions MLboot(), MLcalc(), MLhist() and
+		using RXpredict() for all six types of RXshrink linear model
+		estimation methods. Functions MLboot(), MLcalc(), MLhist() and
 		MLtrue() provide insights into the true bias and MSE risk
 		characteristics of non-linear Shrinkage estimators. Functions
 		unr.aug() and unr.biv() augment the calculations made by
