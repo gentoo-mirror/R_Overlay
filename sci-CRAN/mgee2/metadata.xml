@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Marginal Analysis of Misclassified Longitudinal Ordinal Data //
+		Three estimating equation methods are provided in this package
+		for marginal analysis of longitudinal ordinal data with
+		misclassified responses and covariates. The naive analysis
+		which is solely based on the observed data without adjustment
+		may lead to bias. The corrected generalized estimating
+		equations (GEE2) method which is unbiased requires the
+		misclassification parameters to be known beforehand. The
+		corrected generalized estimating equations (GEE2) with
+		validation subsample method estimates the misclassification
+		parameters based on a given validation set. This package is an
+		implementation of Chen (2013) doi:10.1002/bimj.201200195.
+	</longdescription>
+</pkgmetadata>
