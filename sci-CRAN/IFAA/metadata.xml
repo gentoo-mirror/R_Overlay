@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Robust Analysis for Absolute Abundance in Microbiome // A novel
+		approach to make inference on the association of covariates
+		with the absolute abundance (AA) of 'microbiome' in an
+		ecosystem. It can be also directly applied to relative
+		abundance (RA) data to make inference on AA because the ratio
+		of two RA is equal ratio of their AA. This algorithm can
+		estimate and test the associations of interest while adjusting
+		for potential 'confounders'. The estimates of this method have
+		easy interpretation like a typical regression analysis. High-
+		dimensional covariates are handled with regularization and it
+		is implemented by parallel computing. This algorithm finds
+		optimal reference 'taxa/OTU (Operational Taxonomic Unit)/ASV
+		(Amplicon Sequence Bariant)' and uses permutation to control
+		FDR (False Discovery Rate) as described in Zhigang Li, et al.
+		(2020) arXiv:1909.10101v3, Zhigang Li, et al. (2018)
+		doi:10.1007/s12561-018-9219-2.
+	</longdescription>
+</pkgmetadata>
