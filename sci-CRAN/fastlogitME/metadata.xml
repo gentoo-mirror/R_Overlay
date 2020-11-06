@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Basic Marginal Effects for Logit Models // Calculates marginal
+		effects based on logistic model objects such as 'glm' or
+		'speedglm' at the average (default) or at given values using
+		finite differences. It also returns confidence intervals for
+		said marginal effects and the p-values, which can easily be
+		used as input in stargazer. The function only returns the
+		essentials and is therefore much faster but not as detailed as
+		other functions available to calculate marginal effects. As a
+		result, it is highly suitable for large datasets for which
+		other packages may require too much time or calculating power.
+	</longdescription>
+</pkgmetadata>
