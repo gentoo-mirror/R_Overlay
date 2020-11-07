@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Verify the Scale, Anisotropy and Direction of Weather Forecasts
+		// Implementation of the wavelet-based spatial verification
+		method of Buschow and Friederichs "SAD: Verifying the Scale,
+		Anisotropy and Direction of precipitation forecasts" (2020,
+		submitted to QJRMS). Forecasts and Observations are transformed
+		by a decimated or redundant dual-tree complex wavelet transform
+		to analyze the spatial scale, degree of anisotropy and
+		preferred direction in each field. These structural attributes
+		are compared by a series of scores. An experimental algorithm
+		for the correction of these errors is included as well.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Zero Inflated Gamma Poisson Shrinker with Adverse Event Ontology
+		// The method zGPS.AO (Zero Inflated Gamma Poisson Shrinker
+		with AE (Adverse Event) ontology) is based on the zero-inflated
+		negative binomial distribution. It estimates the association
+		between a specific vaccine and an adverse event group, as well
+		as associations between that vaccine and individual adverse
+		events within the adverse event group. This model handles the
+		adverse event count data with excess zeros and over-dispersion,
+		and it allows borrowing information from adverse event data in
+		the same group. Details can be found in  "Data Mining in Large
+		Frequency Tables With Ontology, with an Application to the
+		Vaccine Adverse Event Reporting System." Bangyao Zhao, Lili
+		Zhao (2020) arXiv:2010.12471.
+	</longdescription>
+</pkgmetadata>
