@@ -2,15 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Sequentially-Allocated Latent Structure Optimization // Point
-		estimation for partition distributions using the sequentially-
-		allocated latent structure optimization (SALSO) method to
-		minimize the expectation of the Binder loss or the lower bound
-		of the expectation of the variation of information loss. The
-		SALSO method was presented at the workshop "Bayesian
-		Nonparametric Inference: Dependence Structures and their
-		Applications" in Oaxaca, Mexico on December 6, 2017. See
-		https://www.birs.ca/events/2017/5-day-
+		Search Algorithms and Loss Functions for Bayesian Clustering //
+		The SALSO algorithm is an efficient greedy search procedure to
+		obtain a clustering estimate based on a partition loss
+		function. The algorithm is implemented for many loss functions,
+		including the Binder loss and a generalization of the variation
+		of information loss, both of which allow for unequal weights on
+		the two types of clustering mistakes. Efficient implementations
+		are also provided for Monte Carlo estimation of the posterior
+		expected loss of a given clustering estimate. SALSO was first
+		presented at the workshop "Bayesian Nonparametric Inference:
+		Dependence Structures and their Applications" in Oaxaca, Mexico
+		on December 6, 2017. See https://www.birs.ca/events/2017/5-day-
 		workshops/17w5060/schedule.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Bayesian Spatial Bradley--Terry Model // An implementation of
+		the Bayesian Spatial Bradley--Terry (BSBT) model. It can be
+		used to investigate data sets where judges compared different
+		spatial areas. It constructs a network to describe how the
+		areas are connected, and then places a correlated prior
+		distribution on the quality parameter for each area, based on
+		the network. The package includes MCMC algorithms to estimate
+		the quality parameters. The methodology is published in Seymour
+		et. al. (2020) arXiv:2010.14128.
+	</longdescription>
+</pkgmetadata>

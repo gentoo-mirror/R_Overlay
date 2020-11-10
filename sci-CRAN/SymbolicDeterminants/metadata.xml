@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Symbolic Representation of the Determinant of a Square Matrix //
+		Produces the formula for calculating the determinant, as a
+		function of the elements of the matrix.  This formula is called
+		the symbolic representation of the determinant.  In other
+		words, for the 2x2 matrix V we want a function to return
+		'v11v22  v12v21' for an unstructured, general 2x2 matrix and
+		'v11v22  v12^2' for a symmetric 2x2 matrix, and not the numeric
+		values for a particular numeric matrix.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=sci-CRAN/MCMCpack sci-CRAN/Rcpp sci-CRAN/tibble sci-CRAN/rprojroot sci-CRAN/ggjoy sci-CRAN/stringr sci-CRAN/coda sci-CRAN/isotone sci-CRAN/LaplacesDemon sci-CRAN/ggridges sci-CRAN/tidyr sci-CRAN/mvtnorm sci-CRAN/purrr sci-CRAN/tidyverse sci-CRAN/ggplot2 sci-CRAN/formula_tools sci-CRAN/data_table sci-CRAN/ggpubr >=dev-lang/R-3.3.3 sci-CRAN/Hmisc sci-CRAN/dplyr sci-CRAN/questionr sci-CRAN/magrittr virtual/MASS dev-lang/R
+DESCRIPTION=Hierarchical Dirichlet Process G... (see metadata)
+EAPI=6
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=sci-CRAN/MCMCpack sci-CRAN/Rcpp sci-CRAN/tibble sci-CRAN/rprojroot sci-CRAN/ggjoy sci-CRAN/stringr sci-CRAN/coda sci-CRAN/isotone sci-CRAN/LaplacesDemon sci-CRAN/ggridges sci-CRAN/tidyr sci-CRAN/mvtnorm sci-CRAN/purrr sci-CRAN/tidyverse sci-CRAN/ggplot2 sci-CRAN/formula_tools sci-CRAN/data_table sci-CRAN/ggpubr >=dev-lang/R-3.3.3 sci-CRAN/Hmisc sci-CRAN/dplyr sci-CRAN/questionr sci-CRAN/magrittr virtual/MASS sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hdpGLM_1.0.0.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	desktop	7fd20552ce4cc97e8acb132a499a7dd8	edos2unix	33e347e171066657f91f8b0c72ec8773	epatch	e8f1ec13660dc2f44b32775765d85e42	estack	686eaab303305a908fd57b2fd7617800	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	ltprune	4f3f2db5ce3ccbeeacdf3f94954043aa	multilib	98584e405e2b0264d37e8f728327fed1	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=47bab2242e07825b6c5b802e0b8a71d0
