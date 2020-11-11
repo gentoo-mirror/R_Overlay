@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sparse Wrapper Algorithm // An algorithm that trains a meta-
+		learning procedure that combines screening and wrapper methods
+		to find a set of extremely low-dimensional attribute
+		combinations. This package works on top of the 'caret' package
+		and proceeds in a forward-step manner. More specifically, it
+		builds and tests learners starting from very few attributes
+		until it includes a maximal number of attributes by increasing
+		the number of attributes at each step. Hence, for each fixed
+		number of attributes, the algorithm tests various (randomly
+		selected) learners and picks those with the best performance in
+		terms of training error. Throughout, the algorithm uses the
+		information coming from the best learners at the previous step
+		to build and test learners in the following step. In the end,
+		it outputs a set of strong low-dimensional learners.
+	</longdescription>
+</pkgmetadata>

@@ -2,15 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Regularized Linear Models // Algorithms optimize penalized
-		models. Currently the models include penalized Poisson,
-		negative binomial, zero-inflated Poisson, zero-inflated
-		negative binomial regression models and robust models. The
-		penalties include least absolute shrinkage and selection
-		operator (LASSO), smoothly clipped absolute deviation (SCAD),
-		minimax concave penalty (MCP), and each possibly combining with
-		L_2 penalty. See Wang et al. (2014) doi:10.1002/sim.6314, Wang
-		et al. (2015) doi:10.1002/bimj.201400143, Wang et al. (2016)
-		doi:10.1177/0962280214530608, Wang (2019) arXiv:1912.11119.
+		Regularized Linear Models // Algorithms compute concave convex
+		(CC) estimators including robust (penalized) generalized linear
+		models and robust support vector machines via the COCO -
+		composite optimization by conjugation operator. The package
+		also contain penalized Poisson, negative binomial, zero-
+		inflated Poisson, zero-inflated negative binomial regression
+		models and robust models with non-convex loss functions. See
+		Wang et al. (2014) doi:10.1002/sim.6314, Wang et al. (2015)
+		doi:10.1002/bimj.201400143, Wang et al. (2016)
+		doi:10.1177/0962280214530608, Wang (2019) arXiv:1912.11119,
+		Wang (2020) arXiv:2010.02848.
 	</longdescription>
 </pkgmetadata>
