@@ -4,7 +4,7 @@
 	<longdescription>
 		Bayesian Reliability Estimation // Functionality for the most
 		common single test reliability estimates is provided:
-		Coefficient alpha, 'Guttman's' lambda-2/-4/-6, the greatest
+		Coefficient alpha, 'Guttman's' lambda-2/-4/-6, the Greatest
 		lower bound and coefficient omega. The Bayesian estimates are
 		provided with credible intervals. The frequentist estimates are
 		provided with bootstrapped confidence intervals The method for
@@ -16,12 +16,15 @@
 		single factor model. See 'Lee' (2007,
 		doi:10.1002/9780470024737). The glb method is adjusted code
 		from the 'Rcsdp' package by 'Hector Corrada Bravo',
-		https://CRAN.R-project.org/package=Rcsdp; lambda-4 is from
-		'Benton' (2015) doi:10.1007/978-3-319-07503-7_19; the principal
-		factor analysis for the frequentist omega is from 'Schlegel'
-		(2017) https://www.r-bloggers.com/iterated-principal-factor-
+		https://CRAN.R-project.org/package=Rcsdp, which now uses a
+		slightly adjusted solving algorithm from the 'CSDP' library by
+		'Brian Borchers' https://github.com/coin-or/Csdp/wiki,
+		doi.org/10.1080/10556789908805765 lambda-4 is from 'Benton'
+		(2015) doi:10.1007/978-3-319-07503-7_19; the principal factor
+		analysis for the frequentist omega is from 'Schlegel' (2017)
+		https://www.r-bloggers.com/2017/03/iterated-principal-factor-
 		method-of-factor-analysis-with-r/; and the analytic alpha
-		interval is from 'Bonett' and 'Wright' (2014)
+		interval is from 'Bonett' and 'Wright' (2015)
 		doi:10.1002/job.1960.
 	</longdescription>
 </pkgmetadata>

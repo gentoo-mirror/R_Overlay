@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'Rcpp' Bindings to Native C++ Implementation of MS Numpress //
+		'Rcpp' bindings to the native C++ implementation of MS
+		Numpress, that provides two compression schemes for numeric
+		data from mass spectrometers. The library provides
+		implementations of 3 different algorithms, 1 designed to
+		compress first order smooth data like retention time or M/Z
+		arrays, and 2 for compressing non smooth data with lower
+		requirements on precision like ion count arrays. Refer to the
+		publication (Teleman et al., (2014)
+		doi:10.1074/mcp.O114.037879) for more details.
+	</longdescription>
+</pkgmetadata>
