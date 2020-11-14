@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interaction Random Survival Forest // Builds ensemble survival
+		tree models to reveal variable interactions when the response
+		is a time-to-events outcome. Codes contain randomization,
+		interaction modeling, and prediction subroutines to be used in
+		addition to the following R packages: 'survival' for Kaplan-
+		Meier and Cox regression modeling, 'randomForestSRC' for RSF
+		modeling, and optionally 'ggRandomForests' for Random Forest
+		exploration/visualization. The current version contains
+		additional R codes in folder "/inst/doc" for the analysis and
+		generation of results shown in the corresponding article
+		(Dazard et al. (2018) doi:10.1515/sagmb-2017-0038).
+	</longdescription>
+</pkgmetadata>
