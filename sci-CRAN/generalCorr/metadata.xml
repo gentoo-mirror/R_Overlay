@@ -2,25 +2,29 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Generalized Correlations and Plausible Causal Paths // Since
-		causal paths from data are important for all sciences, the
-		package provides many sophisticated functions. causeSummBlk()
-		gives easy-to-interpret causal paths.  Let Z denote control
-		variables and compare two flipped kernel regressions: X=f(Y,
-		Z)+e1 and Y=g(X,Z)+e2. Our criterion Cr1 says that if
-		|e1*Y||e2*X| then variation in X is more "exogenous or
-		independent" than in Y and causal path is X to Y. Criterion Cr2
-		requires |e2||e1|. These inequalities between many absolute
-		value are quantified by four orders of stochastic dominance.
-		Our third criterion Cr3 for the causal path X to Y requires new
-		generalized partial correlations to satisfy |r*(x|y,z)|
-		|r*(y|x,z)|. The function parcorBMany() reports generalized
-		partials between the first variable and all others.  The
-		package provides additional R tools for causal assessment,
-		"outlier detection," and for numerical integration by the
-		trapezoidal rule, stochastic dominance, pillar 3D charts, etc.
-		We also provide functions for bootstrap-based statistical
-		inference for causal paths. causeSummary() and causeSummBlk()
-		are easiest to use functions.
+		Generalized Correlations and Various Causal Paths // Since causal
+		paths from data are important for all sciences, the package
+		provides many sophisticated functions. causeSummBlk() gives
+		easy-to-interpret causal paths.  Let Z denote control variables
+		and compare two flipped kernel regressions: X=f(Y, Z)+e1 and
+		Y=g(X,Z)+e2. Our criterion Cr1 says that if |e1*Y||e2*X| then
+		variation in X is more "exogenous or independent" than in Y and
+		causal path is X to Y. Criterion Cr2 requires |e2||e1|. These
+		inequalities between many absolute values are quantified by
+		four orders of stochastic dominance. Our third criterion Cr3
+		for the causal path X to Y requires new generalized partial
+		correlations to satisfy |r*(x|y,z)| |r*(y|x,z)|. The function
+		parcorBMany() reports generalized partials between the first
+		variable and all others.  The package provides several R
+		functions including get0outliers() for outlier detection,
+		bigfp() for numerical integration by the trapezoidal rule,
+		stochdom2() for stochastic dominance, pillar3D() for 3D charts,
+		canonRho() for generalized canonical correlations, depMeas()
+		measures nonlinear dependence, and causeSummary(mtx) reports
+		summary of causal paths among matrix columns is easiest to use.
+		Several functions whose names begin with 'boot' provide
+		bootstrap statistical inference including a new bootGcRsq()
+		test for "Granger-causality" allowing nonlinear relations. See
+		Vinod (2019) doi:10.1080/03610918.2015.1122048.
 	</longdescription>
 </pkgmetadata>
