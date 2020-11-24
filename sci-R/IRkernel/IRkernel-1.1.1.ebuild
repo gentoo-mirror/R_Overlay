@@ -19,6 +19,7 @@ DEPEND="sci-CRAN/uuid
 	sci-CRAN/jsonlite"
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}
 	sci-CRAN/IRdisplay
+	sci-CRAN/repr
 	dev-python/jupyter_client"
 src_install() {
 	R-packages_src_install
