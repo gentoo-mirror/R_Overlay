@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_commonmark? ( sci-CRAN/commonmark )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=sci-BIOC/RBGL-1.13.5
-	sci-CRAN/XML
+DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/RUnit
 	>=sci-BIOC/graph-1.9.26
+	sci-CRAN/XML
 	sci-BIOC/Biobase
-	>=dev-lang/R-3.6.0
-	sci-CRAN/RCurl
 	sci-CRAN/BiocManager
+	>=sci-BIOC/RBGL-1.13.5
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

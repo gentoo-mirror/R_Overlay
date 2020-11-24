@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/flowTrans_1.36.0.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND=">=dev-lang/R-2.11.0
-	sci-BIOC/flowCore
-	sci-BIOC/flowViz
-	sci-BIOC/flowCore
+DEPEND="sci-BIOC/flowCore
 	sci-BIOC/flowClust
-	sci-BIOC/flowViz
 	sci-BIOC/flowClust
+	sci-BIOC/flowCore
+	>=dev-lang/R-2.11.0
+	sci-BIOC/flowViz
+	sci-BIOC/flowViz
 "
 RDEPEND="${DEPEND-}"

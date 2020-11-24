@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/stepNorm_1.56.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="virtual/MASS
+DEPEND="sci-BIOC/marray
 	sci-BIOC/marray
-	sci-BIOC/marray
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

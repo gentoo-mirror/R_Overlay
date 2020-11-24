@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_matrix? ( virtual/Matrix )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-BIOC/BiocGenerics
-	sci-BIOC/Category
+DEPEND="sci-CRAN/isa2
 	sci-BIOC/AnnotationDbi
-	>=sci-BIOC/Biobase-2.17.8
-	sci-CRAN/isa2
-	sci-BIOC/genefilter
 	sci-CRAN/DBI
+	sci-BIOC/BiocGenerics
+	>=sci-BIOC/Biobase-2.17.8
+	sci-BIOC/Category
+	sci-BIOC/genefilter
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

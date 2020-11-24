@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_limma? ( sci-BIOC/limma )
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 "
-DEPEND="sci-CRAN/plotrix
-	sci-BIOC/affy
-	sci-CRAN/gmodels
-	sci-BIOC/AnnotationDbi
-	sci-CRAN/gplots
+DEPEND="sci-BIOC/AnnotationDbi
 	sci-CRAN/gdata
+	sci-CRAN/gplots
+	sci-CRAN/gmodels
 	sci-CRAN/gtools
+	sci-CRAN/plotrix
+	sci-BIOC/affy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

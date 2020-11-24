@@ -11,11 +11,11 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/flowUtils_
 LICENSE='Artistic-2'
 
 DEPEND="sci-BIOC/graph
-	sci-CRAN/XML
-	sci-CRAN/RUnit
-	>=sci-BIOC/flowCore-1.32.0
-	sci-BIOC/Biobase
 	sci-CRAN/corpcor
+	sci-CRAN/RUnit
+	sci-CRAN/XML
+	sci-BIOC/Biobase
+	>=sci-BIOC/flowCore-1.32.0
 "
 RDEPEND="${DEPEND-}"
 

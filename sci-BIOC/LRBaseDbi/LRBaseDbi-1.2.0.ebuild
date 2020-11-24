@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-BIOC/AnnotationDbi
+	>=dev-lang/R-3.5.0
+	sci-CRAN/DBI
 	sci-BIOC/Biobase
 	sci-CRAN/RSQLite
-	sci-BIOC/AnnotationDbi
-	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

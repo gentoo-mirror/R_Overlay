@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/BioMVCClass_1.52.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="sci-BIOC/graph
-	virtual/class
+DEPEND="virtual/class
 	sci-BIOC/Rgraphviz
 	sci-BIOC/Biobase
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-}"

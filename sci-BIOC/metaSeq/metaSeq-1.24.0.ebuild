@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/metaSeq_1.
 LICENSE='Artistic-2'
 
 DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/Rcpp
-	sci-BIOC/NOISeq
 	sci-CRAN/snow
+	sci-BIOC/NOISeq
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}"

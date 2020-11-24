@@ -24,13 +24,13 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/gridExtra
 	sci-CRAN/calibrate
-	sci-BIOC/edgeR
-	sci-BIOC/Biobase
 	virtual/MASS
+	sci-CRAN/ggplot2
+	sci-BIOC/Biobase
+	sci-CRAN/gplots
+	sci-BIOC/edgeR
+	sci-BIOC/limma
 	sci-CRAN/foreach
 	sci-BIOC/affy
-	sci-CRAN/ggplot2
-	sci-CRAN/gplots
-	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

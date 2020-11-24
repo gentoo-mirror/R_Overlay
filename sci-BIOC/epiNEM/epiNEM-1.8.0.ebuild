@@ -21,18 +21,18 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_stringdb? ( sci-BIOC/STRINGdb )
 "
-DEPEND="sci-CRAN/e1071
-	virtual/lattice
-	sci-CRAN/gtools
-	sci-CRAN/BoolNet
-	sci-BIOC/nem
-	sci-CRAN/RColorBrewer
-	sci-CRAN/pcalg
+DEPEND="sci-CRAN/BoolNet
 	sci-BIOC/minet
-	>=dev-lang/R-3.4
-	sci-CRAN/igraph
-	virtual/lattice
 	sci-BIOC/graph
+	sci-CRAN/gtools
+	sci-CRAN/pcalg
+	>=dev-lang/R-3.4
+	sci-CRAN/e1071
+	sci-CRAN/igraph
+	sci-BIOC/nem
+	virtual/lattice
+	virtual/lattice
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

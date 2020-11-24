@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/optparse
-	virtual/MASS
-	>=sci-CRAN/tmvtnorm-1.4.10
+DEPEND="virtual/MASS
+	sci-CRAN/optparse
 	sci-CRAN/MCMCpack
+	>=sci-CRAN/tmvtnorm-1.4.10
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

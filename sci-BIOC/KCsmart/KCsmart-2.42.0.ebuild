@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/KCsmart_2.
 LICENSE='GPL-3'
 
 DEPEND="sci-BIOC/siggenes
-	sci-BIOC/BiocGenerics
 	sci-BIOC/multtest
 	virtual/KernSmooth
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-}"

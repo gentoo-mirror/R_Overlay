@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/SimBindPro
 LICENSE='GPL-3'
 
 DEPEND="sci-BIOC/Ringo
+	sci-BIOC/limma
 	sci-BIOC/Biobase
 	sci-CRAN/mclust
-	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-}"

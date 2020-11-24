@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-BIOC/graphite
-	sci-CRAN/gplots
 	sci-BIOC/genefilter
 	sci-BIOC/BiocGenerics
+	sci-BIOC/graphite
+	sci-CRAN/gplots
 	sci-BIOC/GSEABase
 	sci-BIOC/Biobase
 	sci-CRAN/corpcor

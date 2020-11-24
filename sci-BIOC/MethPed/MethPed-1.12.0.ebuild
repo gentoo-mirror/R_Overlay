@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_markdown? ( sci-CRAN/markdown )
 "
 DEPEND="sci-BIOC/Biobase
-	sci-CRAN/randomForest
 	>=dev-lang/R-3.0.0
+	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

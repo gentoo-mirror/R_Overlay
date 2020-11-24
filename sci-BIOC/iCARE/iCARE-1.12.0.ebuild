@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/gtools
 	sci-CRAN/plotrix
 	sci-CRAN/Hmisc
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

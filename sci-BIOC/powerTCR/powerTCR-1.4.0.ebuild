@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/cubature
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/tcR
-	sci-CRAN/foreach
+	sci-CRAN/truncdist
 	sci-CRAN/evmix
-	sci-CRAN/vegan
-	sci-CRAN/doParallel
+	sci-CRAN/VGAM
+	sci-CRAN/cubature
+	sci-CRAN/foreach
 	sci-CRAN/magrittr
 	sci-CRAN/purrr
-	sci-CRAN/truncdist
-	sci-CRAN/VGAM
+	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

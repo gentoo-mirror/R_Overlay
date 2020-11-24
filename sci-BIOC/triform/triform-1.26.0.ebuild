@@ -14,9 +14,9 @@ IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
 DEPEND=">=dev-lang/R-2.11.0
 	sci-CRAN/yaml
-	sci-BIOC/BiocGenerics
-	sci-BIOC/IRanges
-	>=sci-BIOC/IRanges-2.5.27
 	sci-CRAN/yaml
+	>=sci-BIOC/IRanges-2.5.27
+	sci-BIOC/IRanges
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

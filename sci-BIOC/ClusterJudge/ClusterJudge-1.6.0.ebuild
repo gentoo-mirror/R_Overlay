@@ -20,9 +20,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/infotheo
 	sci-CRAN/jsonlite
+	virtual/lattice
 	sci-CRAN/httr
 	>=dev-lang/R-3.4
-	virtual/lattice
 	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

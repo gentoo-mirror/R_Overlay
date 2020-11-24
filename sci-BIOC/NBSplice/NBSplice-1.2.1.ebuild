@@ -17,12 +17,12 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-CRAN/car
-	sci-CRAN/ggplot2
 	sci-CRAN/mppa
 	sci-BIOC/BiocParallel
-	sci-CRAN/reshape2
-	>=dev-lang/R-3.5
 	sci-BIOC/edgeR
+	>=dev-lang/R-3.5
 	virtual/MASS
+	sci-CRAN/ggplot2
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

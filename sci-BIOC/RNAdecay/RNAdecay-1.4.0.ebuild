@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/TMB
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/nloptr
+	sci-CRAN/TMB
 	sci-CRAN/gplots
-	sci-CRAN/ggplot2
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

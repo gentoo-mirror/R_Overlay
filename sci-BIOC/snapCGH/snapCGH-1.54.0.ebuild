@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/snapCGH_1.54.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/cluster
+DEPEND="sci-BIOC/DNAcopy
 	sci-BIOC/DNAcopy
-	sci-BIOC/limma
 	sci-BIOC/tilingArray
+	sci-BIOC/limma
 	sci-BIOC/aCGH
-	sci-BIOC/DNAcopy
+	virtual/cluster
 	sci-BIOC/GLAD
 	sci-BIOC/limma
 "

@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/hyperdraw_
 LICENSE='GPL-2+'
 
 DEPEND="sci-BIOC/graph
-	sci-BIOC/Rgraphviz
 	sci-BIOC/hypergraph
+	sci-BIOC/Rgraphviz
 "
 RDEPEND="${DEPEND-} media-gfx/graphviz"

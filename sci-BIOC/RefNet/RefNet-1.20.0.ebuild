@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/PSICQUIC
-	sci-CRAN/RCurl
-	sci-BIOC/IRanges
-	>=dev-lang/R-2.15.0
-	sci-BIOC/AnnotationHub
-	sci-CRAN/shiny
+DEPEND="sci-BIOC/AnnotationHub
 	sci-BIOC/BiocGenerics
+	sci-CRAN/shiny
+	sci-CRAN/RCurl
+	>=dev-lang/R-2.15.0
+	sci-BIOC/PSICQUIC
+	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

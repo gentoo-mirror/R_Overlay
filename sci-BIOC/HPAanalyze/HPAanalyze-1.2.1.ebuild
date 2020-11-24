@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/tidyr
-	sci-CRAN/dplyr
-	sci-CRAN/xml2
-	sci-CRAN/tibble
-	sci-BIOC/hpar
-	sci-CRAN/gridExtra
-	sci-CRAN/ggplot2
-	sci-CRAN/readr
+DEPEND="sci-CRAN/gridExtra
 	sci-CRAN/openxlsx
+	sci-CRAN/dplyr
+	sci-CRAN/readr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
+	sci-CRAN/tibble
+	sci-CRAN/xml2
+	sci-CRAN/tidyr
+	sci-BIOC/hpar
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

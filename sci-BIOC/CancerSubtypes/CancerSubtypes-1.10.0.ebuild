@@ -17,15 +17,15 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="virtual/cluster
-	sci-CRAN/sigclust
+	virtual/survival
+	virtual/cluster
+	sci-CRAN/SNFtool
+	>=dev-lang/R-3.4
 	virtual/cluster
 	sci-CRAN/NMF
+	sci-CRAN/sigclust
 	sci-BIOC/impute
 	sci-BIOC/limma
-	virtual/cluster
-	>=dev-lang/R-3.4
-	sci-CRAN/SNFtool
-	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

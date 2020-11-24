@@ -9,9 +9,9 @@ DESCRIPTION='Microarray Analysis tool'
 KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/genArise_1.60.0.tar.gz"
 
-DEPEND="sci-CRAN/locfit
+DEPEND="sci-CRAN/tkrplot
 	dev-lang/R[tk]
 	sci-CRAN/xtable
-	sci-CRAN/tkrplot
+	sci-CRAN/locfit
 "
 RDEPEND="${DEPEND-}"

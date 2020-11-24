@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-BIOC/Biobase
+	sci-BIOC/ropls
 	sci-CRAN/randomForest
 	sci-CRAN/e1071
-	sci-BIOC/ropls
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

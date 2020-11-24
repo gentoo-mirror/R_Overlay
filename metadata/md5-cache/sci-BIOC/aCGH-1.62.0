@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=virtual/cluster sci-BIOC/multtest virtual/survival virtual/survival sci-BIOC/Biobase virtual/cluster sci-BIOC/multtest dev-lang/R
+DEPEND=sci-BIOC/Biobase sci-BIOC/multtest virtual/cluster virtual/survival virtual/cluster sci-BIOC/multtest virtual/survival dev-lang/R
 DESCRIPTION=Classes and functions for Array ... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=virtual/cluster sci-BIOC/multtest virtual/survival virtual/survival sci-BIOC/Biobase virtual/cluster sci-BIOC/multtest dev-lang/R
+RDEPEND=sci-BIOC/Biobase sci-BIOC/multtest virtual/cluster virtual/survival virtual/cluster sci-BIOC/multtest virtual/survival dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/aCGH_1.62.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=a1684f0172adbb8c242c25b556a88c90
+_md5_=748b13bf20e098da0025641f75dd8b9e

@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/foreach
-	virtual/class
+DEPEND=">=dev-lang/R-2.14
+	sci-CRAN/foreach
+	>=sci-BIOC/S4Vectors-0.9.25
 	sci-BIOC/DNAcopy
 	>=sci-BIOC/IRanges-2.13.24
-	>=dev-lang/R-2.14
-	>=sci-BIOC/S4Vectors-0.9.25
+	virtual/class
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

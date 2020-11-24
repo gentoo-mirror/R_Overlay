@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/birta_1.28
 LICENSE='GPL-2+'
 
 DEPEND="sci-BIOC/limma
-	sci-BIOC/Biobase
 	virtual/MASS
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

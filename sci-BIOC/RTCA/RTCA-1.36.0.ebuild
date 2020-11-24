@@ -12,8 +12,8 @@ LICENSE='LGPL-3'
 
 IUSE="${IUSE-} r_suggests_xtable"
 R_SUGGESTS="r_suggests_xtable? ( sci-CRAN/xtable )"
-DEPEND="sci-CRAN/RColorBrewer
+DEPEND="sci-BIOC/Biobase
 	sci-CRAN/gtools
-	sci-BIOC/Biobase
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

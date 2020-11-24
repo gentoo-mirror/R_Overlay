@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_gseabase? ( sci-BIOC/GSEABase )
 	r_suggests_limma? ( sci-BIOC/limma )
 "
-DEPEND="sci-BIOC/graph
-	sci-BIOC/KEGGREST
+DEPEND="sci-BIOC/KEGGREST
+	sci-BIOC/graph
 	sci-BIOC/AnnotationDbi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

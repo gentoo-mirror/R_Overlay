@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/sqldf
+DEPEND=">=dev-lang/R-2.14.0
+	sci-CRAN/png
 	sci-CRAN/RCurl
 	sci-CRAN/RColorBrewer
 	sci-CRAN/igraph
-	sci-CRAN/plyr
 	sci-CRAN/gplots
+	sci-CRAN/plyr
+	sci-CRAN/sqldf
 	sci-CRAN/hash
 	sci-CRAN/plotrix
-	>=dev-lang/R-2.14.0
-	sci-CRAN/png
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

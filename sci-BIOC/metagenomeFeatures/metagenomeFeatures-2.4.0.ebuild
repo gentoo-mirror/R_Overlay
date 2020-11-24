@@ -23,19 +23,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.3 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.10.0 )
 "
-DEPEND=">=sci-CRAN/RSQLite-1.0.0
-	virtual/lattice
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/ape-3.5
-	>=sci-BIOC/DECIPHER-2.4.0
-	>=dev-lang/R-3.5
-	>=sci-CRAN/dplyr-0.7.0
-	>=sci-BIOC/Biobase-2.17.8
+DEPEND=">=dev-lang/R-3.5
 	>=sci-BIOC/S4Vectors-0.14.7
+	>=sci-BIOC/Biobase-2.17.8
 	>=sci-BIOC/Biostrings-2.36.4
+	>=sci-CRAN/dplyr-0.7.0
 	>=sci-CRAN/dbplyr-1.0.0
 	>=sci-CRAN/stringr-1.0.0
+	>=sci-CRAN/magrittr-1.5
+	virtual/lattice
 	>=sci-CRAN/lazyeval-0.1.10
+	>=sci-CRAN/RSQLite-1.0.0
+	>=sci-CRAN/ape-3.5
+	>=sci-BIOC/DECIPHER-2.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

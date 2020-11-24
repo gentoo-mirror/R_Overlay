@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.3
 	>=sci-BIOC/Biostrings-2.36.4
-	>=sci-BIOC/BiocGenerics-0.16.1
 	>=sci-CRAN/seqinr-3.1.3
+	>=sci-BIOC/BiocGenerics-0.16.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

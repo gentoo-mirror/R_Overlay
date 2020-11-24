@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( >=sci-CRAN/RUnit-0.4 )
 "
-DEPEND=">=dev-lang/R-3.6
-	>=sci-CRAN/protViz-0.4
-	>=sci-CRAN/DBI-0.5
+DEPEND=">=sci-CRAN/protViz-0.4
 	>=sci-CRAN/seqinr-3.3
 	>=sci-CRAN/RSQLite-1.1
+	>=dev-lang/R-3.6
+	>=sci-CRAN/DBI-0.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

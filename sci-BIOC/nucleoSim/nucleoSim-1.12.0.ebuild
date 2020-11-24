@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/IRanges
-	sci-BIOC/S4Vectors
+DEPEND="sci-BIOC/S4Vectors
+	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

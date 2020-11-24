@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/ape
-	sci-BIOC/ggtree
-	sci-CRAN/phangorn
 	sci-CRAN/tidyr
+	sci-CRAN/phangorn
 	sci-CRAN/ggplot2
+	sci-BIOC/ggtree
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-2.11.0 sci-BIOC/flowCore sci-BIOC/flowViz sci-BIOC/flowCore sci-BIOC/flowClust sci-BIOC/flowViz sci-BIOC/flowClust dev-lang/R
+DEPEND=sci-BIOC/flowCore sci-BIOC/flowClust sci-BIOC/flowClust sci-BIOC/flowCore >=dev-lang/R-2.11.0 sci-BIOC/flowViz sci-BIOC/flowViz dev-lang/R
 DESCRIPTION=Parameter Optimization for Flow ... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=Artistic-2
-RDEPEND=>=dev-lang/R-2.11.0 sci-BIOC/flowCore sci-BIOC/flowViz sci-BIOC/flowCore sci-BIOC/flowClust sci-BIOC/flowViz sci-BIOC/flowClust dev-lang/R
+RDEPEND=sci-BIOC/flowCore sci-BIOC/flowClust sci-BIOC/flowClust sci-BIOC/flowCore >=dev-lang/R-2.11.0 sci-BIOC/flowViz sci-BIOC/flowViz dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/flowTrans_1.36.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=1d40fe528d492214c3c58cc0ff044bd5
+_md5_=52b1c084f06bb0c1a89d11052f9e7b11

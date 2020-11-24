@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
 DEPEND=">=dev-lang/R-3.4
+	sci-CRAN/biwt
 	sci-CRAN/gtools
 	virtual/MASS
-	sci-CRAN/biwt
 	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

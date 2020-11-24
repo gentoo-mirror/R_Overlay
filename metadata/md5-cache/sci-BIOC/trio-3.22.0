@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=virtual/survival >=dev-lang/R-3.0.1 sci-BIOC/siggenes >=sci-CRAN/LogicReg-1.5.3 dev-lang/R
+DEPEND=>=dev-lang/R-3.0.1 virtual/survival sci-BIOC/siggenes >=sci-CRAN/LogicReg-1.5.3 dev-lang/R
 DESCRIPTION=Testing of SNPs and SNP Interact... (see metadata)
 EAPI=7
 IUSE=r_suggests_haplo_stats r_suggests_kernsmooth r_suggests_logicfs r_suggests_mcbiopi byte-compile
 KEYWORDS=~amd64
 LICENSE=LGPL-2
-RDEPEND=virtual/survival >=dev-lang/R-3.0.1 sci-BIOC/siggenes >=sci-CRAN/LogicReg-1.5.3 r_suggests_haplo_stats? ( sci-CRAN/haplo_stats ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_logicfs? ( >=sci-BIOC/logicFS-1.28.1 ) r_suggests_mcbiopi? ( sci-CRAN/mcbiopi ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.0.1 virtual/survival sci-BIOC/siggenes >=sci-CRAN/LogicReg-1.5.3 r_suggests_haplo_stats? ( sci-CRAN/haplo_stats ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_logicfs? ( >=sci-BIOC/logicFS-1.28.1 ) r_suggests_mcbiopi? ( sci-CRAN/mcbiopi ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/trio_3.22.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=c5183ebfbe05bda9cf0ced8075b46924
+_md5_=84af972071bfebb8e890a046b58be904

@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/dplyr
+	sci-CRAN/MCMCpack
+	sci-CRAN/tibble
+	sci-CRAN/magrittr
+	sci-BIOC/Biobase
 	sci-CRAN/ggplot2
 	sci-CRAN/Rcpp
-	sci-CRAN/MCMCpack
-	sci-CRAN/dplyr
-	sci-CRAN/MCMCglmm
-	sci-CRAN/magrittr
 	sci-CRAN/ggmcmc
+	sci-CRAN/MCMCglmm
 	sci-CRAN/coda
-	sci-CRAN/tibble
-	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

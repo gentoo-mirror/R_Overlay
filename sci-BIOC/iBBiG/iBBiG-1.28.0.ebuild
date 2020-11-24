@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/iBBiG_1.28
 LICENSE='Artistic-2'
 
 DEPEND="sci-CRAN/biclust
-	sci-CRAN/ade4
 	sci-CRAN/xtable
+	sci-CRAN/ade4
 "
 RDEPEND="${DEPEND-}"

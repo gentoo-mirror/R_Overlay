@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-BIOC/graph
+DEPEND="sci-BIOC/RBGL
 	>=dev-lang/R-3.4.0
+	sci-BIOC/graph
 	sci-CRAN/igraph
-	sci-BIOC/RBGL
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

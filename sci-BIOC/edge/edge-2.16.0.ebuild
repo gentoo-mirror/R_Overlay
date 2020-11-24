@@ -20,9 +20,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	>=sci-BIOC/qvalue-1.99.0
-	sci-BIOC/Biobase
-	sci-BIOC/sva
 	sci-BIOC/snm
+	sci-BIOC/sva
+	sci-BIOC/Biobase
 	sci-CRAN/jackstraw
 	virtual/MASS
 "

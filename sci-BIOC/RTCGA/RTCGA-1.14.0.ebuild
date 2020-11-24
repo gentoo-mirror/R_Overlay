@@ -22,22 +22,22 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/rvest
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/XML
 	sci-CRAN/dplyr
 	sci-CRAN/xml2
 	sci-CRAN/assertthat
-	sci-CRAN/viridis
-	sci-CRAN/scales
-	>=dev-lang/R-3.3.0
-	sci-CRAN/XML
+	sci-CRAN/survminer
+	sci-CRAN/ggplot2
+	sci-CRAN/ggthemes
+	sci-CRAN/knitr
+	sci-CRAN/rvest
 	sci-CRAN/stringi
 	sci-CRAN/data_table
 	sci-CRAN/purrr
 	virtual/survival
-	sci-CRAN/survminer
-	sci-CRAN/ggthemes
-	sci-CRAN/knitr
+	sci-CRAN/viridis
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-BIOC/KEGGgraph
-	sci-BIOC/graph
-	sci-BIOC/KEGGREST
 	sci-BIOC/Rgraphviz
+	sci-BIOC/KEGGREST
+	sci-BIOC/graph
 	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

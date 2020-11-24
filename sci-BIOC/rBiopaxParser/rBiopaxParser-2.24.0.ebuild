@@ -24,7 +24,7 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/XML
 	sci-CRAN/data_table
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

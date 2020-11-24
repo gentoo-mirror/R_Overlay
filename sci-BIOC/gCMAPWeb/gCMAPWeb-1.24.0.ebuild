@@ -17,14 +17,14 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-BIOC/Biobase
+	>=sci-BIOC/gCMAP-1.3.0
+	sci-BIOC/annotate
+	sci-CRAN/Rook
+	sci-BIOC/BiocGenerics
+	sci-CRAN/hwriter
 	sci-CRAN/yaml
 	>=dev-lang/R-3.4
-	>=sci-BIOC/gCMAP-1.3.0
-	sci-CRAN/hwriter
-	sci-CRAN/Rook
 	sci-CRAN/brew
-	sci-BIOC/BiocGenerics
-	sci-BIOC/annotate
 	sci-BIOC/AnnotationDbi
 	sci-BIOC/GSEABase
 "

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/CGHnormaliter_1.38.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-BIOC/CGHbase
-	sci-BIOC/CGHcall
-	>=sci-BIOC/CGHcall-2.17.0
+DEPEND=">=sci-BIOC/CGHcall-2.17.0
 	>=sci-BIOC/CGHbase-1.15.0
 	sci-BIOC/Biobase
+	sci-BIOC/CGHbase
+	sci-BIOC/CGHcall
 "
 RDEPEND="${DEPEND-}"

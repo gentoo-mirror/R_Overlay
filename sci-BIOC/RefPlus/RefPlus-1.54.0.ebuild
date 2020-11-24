@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/RefPlus_1.54.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-BIOC/Biobase-2.1.0
+DEPEND=">=sci-BIOC/affy-1.20.0
+	>=sci-BIOC/Biobase-2.1.0
 	>=sci-BIOC/preprocessCore-1.4.0
 	>=sci-BIOC/affyPLM-1.18.0
-	>=sci-BIOC/affy-1.20.0
 "
 RDEPEND="${DEPEND-}"
 

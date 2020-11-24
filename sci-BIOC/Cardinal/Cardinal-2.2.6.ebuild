@@ -18,22 +18,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-BIOC/S4Vectors
-	sci-CRAN/sp
-	sci-BIOC/BiocGenerics
-	virtual/Matrix
-	sci-CRAN/signal
-	sci-CRAN/viridisLite
-	virtual/lattice
-	virtual/nlme
-	sci-BIOC/Biobase
-	sci-CRAN/magrittr
-	sci-BIOC/BiocParallel
-	sci-BIOC/EBImage
-	sci-BIOC/ProtGenerics
-	sci-CRAN/dplyr
-	sci-CRAN/irlba
-	sci-BIOC/matter
+DEPEND="sci-CRAN/irlba
 	sci-CRAN/mclust
+	sci-BIOC/BiocGenerics
+	sci-BIOC/BiocParallel
+	sci-CRAN/magrittr
+	sci-CRAN/viridisLite
+	sci-BIOC/EBImage
+	sci-BIOC/Biobase
+	sci-CRAN/dplyr
+	sci-CRAN/sp
+	virtual/nlme
+	virtual/lattice
+	sci-BIOC/matter
+	sci-CRAN/signal
+	sci-BIOC/S4Vectors
+	virtual/Matrix
+	sci-BIOC/ProtGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

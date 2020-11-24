@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/changepoint
-	sci-CRAN/plyr
-	sci-CRAN/knitr
-	sci-BIOC/flowCore
+DEPEND="sci-CRAN/plyr
+	sci-CRAN/rmarkdown
+	sci-CRAN/changepoint
 	sci-CRAN/ggplot2
+	>=dev-lang/R-3.4
+	sci-BIOC/flowCore
+	sci-CRAN/knitr
+	sci-CRAN/reshape2
 	sci-CRAN/RColorBrewer
 	sci-CRAN/scales
-	>=dev-lang/R-3.4
-	sci-CRAN/reshape2
-	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/IdMappingAnalysis_1.28.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/rChoiceDialogs
-	sci-BIOC/Biobase
-	virtual/boot
+DEPEND=">=dev-lang/R-2.14
 	>=sci-CRAN/R_oo-1.13.0
-	>=dev-lang/R-2.14
-	sci-CRAN/mclust
 	sci-CRAN/RColorBrewer
+	sci-BIOC/Biobase
+	sci-CRAN/rChoiceDialogs
+	virtual/boot
+	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}"

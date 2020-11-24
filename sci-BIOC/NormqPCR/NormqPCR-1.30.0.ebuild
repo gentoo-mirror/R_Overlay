@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/NormqPCR_1.30.0.tar.gz"
 LICENSE='LGPL-3'
 
-DEPEND=">=dev-lang/R-2.14.0
+DEPEND="sci-BIOC/Biobase
 	sci-CRAN/qpcR
-	sci-BIOC/ReadqPCR
-	sci-BIOC/Biobase
 	sci-CRAN/RColorBrewer
+	sci-BIOC/ReadqPCR
+	>=dev-lang/R-2.14.0
 "
 RDEPEND="${DEPEND-}"

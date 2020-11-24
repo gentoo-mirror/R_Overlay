@@ -18,21 +18,21 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_stringr? ( sci-CRAN/stringr )
 "
-DEPEND="sci-CRAN/entropy
-	sci-CRAN/ggplot2
-	sci-CRAN/statmod
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/igraph
 	sci-CRAN/scatterplot3d
-	virtual/cluster
-	>=dev-lang/R-3.0.2
-	>=sci-CRAN/Rcpp-0.11.2
 	virtual/MASS
+	sci-CRAN/entropy
+	virtual/cluster
+	>=sci-CRAN/Rcpp-0.11.2
 	sci-CRAN/TSP
+	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
 	sci-CRAN/fields
 	sci-CRAN/proxy
 	sci-CRAN/Rtsne
 	sci-CRAN/fastICA
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

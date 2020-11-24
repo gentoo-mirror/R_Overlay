@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_colorspace? ( sci-CRAN/colorspace )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-BIOC/flowCore
-	virtual/KernSmooth
-	sci-CRAN/hexbin
-	sci-CRAN/RColorBrewer
-	virtual/lattice
-	virtual/lattice
-	virtual/MASS
-	sci-CRAN/IDPmisc
+DEPEND="sci-CRAN/RColorBrewer
 	sci-BIOC/Biobase
+	virtual/KernSmooth
 	virtual/lattice
+	virtual/lattice
+	sci-CRAN/IDPmisc
+	virtual/lattice
+	sci-CRAN/hexbin
+	sci-BIOC/flowCore
 	>=sci-BIOC/flowCore-1.41.9
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

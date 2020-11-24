@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/reshape2
+DEPEND=">=dev-lang/R-3.4
+	>=sci-CRAN/ggplot2-2.0.0
+	sci-CRAN/shinyBS
+	sci-CRAN/shinydashboard
+	>=sci-CRAN/shiny-0.9.1.9008
 	sci-CRAN/scales
 	sci-CRAN/dplyr
-	sci-CRAN/shinydashboard
-	>=dev-lang/R-3.4
-	sci-CRAN/shinyBS
-	>=sci-CRAN/shiny-0.9.1.9008
-	>=sci-CRAN/ggplot2-2.0.0
-	sci-CRAN/ROCR
 	sci-CRAN/DT
-	sci-BIOC/limma
 	sci-CRAN/UpSetR
+	sci-CRAN/reshape2
+	sci-CRAN/ROCR
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

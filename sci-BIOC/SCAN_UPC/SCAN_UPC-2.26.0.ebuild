@@ -11,16 +11,16 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/SCAN.UPC_2
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-2.14.0
-	sci-BIOC/Biostrings
 	>=sci-BIOC/Biobase-2.6.0
-	sci-BIOC/affy
+	sci-BIOC/IRanges
 	sci-BIOC/GEOquery
+	sci-BIOC/Biostrings
+	sci-BIOC/oligo
+	sci-BIOC/affy
 	sci-BIOC/affyio
 	sci-CRAN/foreach
 	sci-BIOC/sva
 	virtual/MASS
-	sci-BIOC/oligo
-	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-}"
 

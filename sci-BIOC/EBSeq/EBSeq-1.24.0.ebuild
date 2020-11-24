@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/EBSeq_1.24
 LICENSE='Artistic-2'
 
 DEPEND="sci-CRAN/blockmodeling
-	sci-CRAN/testthat
-	>=dev-lang/R-3.0.0
 	sci-CRAN/gplots
+	>=dev-lang/R-3.0.0
+	sci-CRAN/testthat
 "
 RDEPEND="${DEPEND-}"

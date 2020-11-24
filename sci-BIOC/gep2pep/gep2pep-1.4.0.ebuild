@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_writexls? ( sci-CRAN/WriteXLS )
 "
 DEPEND=">=sci-CRAN/repo-2.1.1
-	sci-CRAN/XML
+	sci-BIOC/Biobase
 	sci-CRAN/foreach
 	sci-BIOC/GSEABase
+	sci-CRAN/XML
 	sci-BIOC/rhdf5
-	sci-BIOC/Biobase
 	sci-CRAN/digest
 	sci-CRAN/iterators
 "

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/geneRecommender_1.56.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-BIOC/Biobase-1.4.22
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
+	>=sci-BIOC/Biobase-1.4.22
 "
 RDEPEND="${DEPEND-}"

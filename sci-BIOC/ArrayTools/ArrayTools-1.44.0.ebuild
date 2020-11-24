@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_r2html? ( sci-CRAN/R2HTML )
 	r_suggests_simpleaffy? ( sci-BIOC/simpleaffy )
 "
-DEPEND="sci-BIOC/affy
-	sci-BIOC/Biobase
-	>=sci-BIOC/Biobase-2.5.5
+DEPEND="sci-BIOC/Biobase
 	sci-CRAN/xtable
-	>=sci-BIOC/affy-1.23.4
 	sci-BIOC/limma
+	>=sci-BIOC/affy-1.23.4
+	>=sci-BIOC/Biobase-2.5.5
+	sci-BIOC/affy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

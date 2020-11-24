@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
 DEPEND=">=sci-BIOC/BiocGenerics-0.7.1
-	sci-CRAN/jpeg
-	sci-CRAN/abind
-	sci-CRAN/tiff
-	sci-CRAN/png
 	sci-CRAN/locfit
-	>=sci-CRAN/fftwtools-0.9.7
-	sci-CRAN/RCurl
+	sci-CRAN/abind
+	sci-CRAN/png
+	sci-CRAN/jpeg
 	sci-CRAN/htmltools
 	sci-CRAN/htmlwidgets
+	sci-CRAN/tiff
+	>=sci-CRAN/fftwtools-0.9.7
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

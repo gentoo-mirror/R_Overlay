@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/OGSA_1.14.
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-BIOC/limma-3.18.13
 	>=sci-CRAN/gplots-2.8.0
+	>=sci-BIOC/limma-3.18.13
 	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

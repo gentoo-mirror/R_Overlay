@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/LMGene_2.40.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="sci-BIOC/affy
-	>=sci-BIOC/Biobase-2.5.5
+DEPEND="virtual/survival
 	sci-BIOC/multtest
-	virtual/survival
+	>=sci-BIOC/Biobase-2.5.5
+	sci-BIOC/affy
 "
 RDEPEND="${DEPEND-}"
 

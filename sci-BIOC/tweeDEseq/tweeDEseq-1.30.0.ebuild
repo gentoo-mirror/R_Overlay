@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_xtable"
 R_SUGGESTS="r_suggests_xtable? ( sci-CRAN/xtable )"
 DEPEND=">=dev-lang/R-2.12.0
 	virtual/MASS
-	sci-BIOC/cqn
 	sci-BIOC/edgeR
+	sci-BIOC/cqn
 	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

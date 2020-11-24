@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_princurve"
 R_SUGGESTS="r_suggests_princurve? ( >=sci-CRAN/princurve-2.1.2 )"
-DEPEND=">=dev-lang/R-2.15.2
+DEPEND=">=sci-CRAN/R_oo-1.22.0
 	virtual/Matrix
 	>=sci-CRAN/R_utils-2.7.0
-	>=sci-CRAN/R_oo-1.22.0
 	>=sci-CRAN/R_methodsS3-1.7.1
+	>=dev-lang/R-2.15.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

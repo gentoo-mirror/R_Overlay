@@ -21,7 +21,7 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-2.15.0
-	>=sci-BIOC/CellNOptR-1.4.0
 	sci-BIOC/graph
+	>=sci-BIOC/CellNOptR-1.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

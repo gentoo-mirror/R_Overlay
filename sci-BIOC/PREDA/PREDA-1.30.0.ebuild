@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_quantsmooth? ( sci-BIOC/quantsmooth )
 	r_suggests_qvalue? ( sci-BIOC/qvalue )
 "
-DEPEND="sci-BIOC/multtest
-	sci-BIOC/annotate
+DEPEND=">=sci-CRAN/lokern-1.0.9
+	sci-BIOC/multtest
 	sci-BIOC/Biobase
-	>=sci-CRAN/lokern-1.0.9
+	sci-BIOC/annotate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

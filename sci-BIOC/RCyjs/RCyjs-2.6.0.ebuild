@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-BIOC/graph-1.56.0
-	>=sci-BIOC/BrowserViz-2.5.14
-	>=sci-CRAN/httpuv-1.5.0
+DEPEND=">=sci-BIOC/graph-1.56.0
 	sci-BIOC/BiocGenerics
 	sci-CRAN/base64enc
+	>=dev-lang/R-3.5.0
+	>=sci-BIOC/BrowserViz-2.5.14
+	>=sci-CRAN/httpuv-1.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

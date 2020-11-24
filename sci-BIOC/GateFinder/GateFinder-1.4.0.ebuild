@@ -18,8 +18,8 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/alphahull
 	sci-CRAN/mvoutlier
 	sci-CRAN/splancs
-	sci-CRAN/maptools
 	sci-CRAN/diptest
+	sci-CRAN/maptools
 	sci-BIOC/flowCore
 	sci-BIOC/flowFP
 "

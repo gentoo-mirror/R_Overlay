@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_reticulate? ( sci-CRAN/reticulate )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/R6
-	sci-CRAN/httr
-	sci-BIOC/S4Vectors
+DEPEND="sci-CRAN/httr
 	sci-BIOC/DelayedArray
+	sci-CRAN/R6
+	sci-BIOC/S4Vectors
+	>=dev-lang/R-3.5
 	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

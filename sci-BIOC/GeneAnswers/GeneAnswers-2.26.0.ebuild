@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_biomart? ( sci-BIOC/biomaRt )
 	r_suggests_graph? ( sci-BIOC/graph )
 "
-DEPEND="sci-CRAN/RCurl
-	>=sci-BIOC/Biobase-1.12.0
-	sci-BIOC/RBGL
-	sci-BIOC/Heatplus
-	sci-CRAN/RColorBrewer
-	sci-BIOC/annotate
-	sci-CRAN/downloader
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/igraph
-	sci-BIOC/annotate
 	sci-CRAN/XML
 	sci-CRAN/RSQLite
+	sci-CRAN/RCurl
 	virtual/MASS
+	sci-BIOC/Heatplus
+	sci-CRAN/RColorBrewer
+	sci-CRAN/downloader
+	sci-BIOC/annotate
+	>=sci-BIOC/Biobase-1.12.0
+	sci-BIOC/RBGL
+	sci-BIOC/annotate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

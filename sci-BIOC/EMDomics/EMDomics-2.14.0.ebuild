@@ -14,10 +14,10 @@ IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.2.1
 	sci-BIOC/BiocParallel
-	sci-CRAN/emdist
+	sci-BIOC/preprocessCore
 	virtual/Matrix
+	sci-CRAN/emdist
 	sci-CRAN/ggplot2
 	sci-CRAN/CDFt
-	sci-BIOC/preprocessCore
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

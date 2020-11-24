@@ -12,8 +12,8 @@ LICENSE='LGPL-2'
 
 DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/heatmap_plus-1.3
-	>=sci-CRAN/signal-0.7
-	>=sci-CRAN/gplots-2.10.1
 	>=sci-CRAN/R2HTML-2.2.1
+	>=sci-CRAN/gplots-2.10.1
+	>=sci-CRAN/signal-0.7
 "
 RDEPEND="${DEPEND-}"

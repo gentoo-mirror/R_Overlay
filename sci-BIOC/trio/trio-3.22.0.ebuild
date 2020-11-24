@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_logicfs? ( >=sci-BIOC/logicFS-1.28.1 )
 	r_suggests_mcbiopi? ( sci-CRAN/mcbiopi )
 "
-DEPEND="virtual/survival
-	>=dev-lang/R-3.0.1
+DEPEND=">=dev-lang/R-3.0.1
+	virtual/survival
 	sci-BIOC/siggenes
 	>=sci-CRAN/LogicReg-1.5.3
 "

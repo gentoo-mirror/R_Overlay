@@ -21,17 +21,17 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/maptpx
-	>=sci-CRAN/plyr-1.7.1
 	sci-CRAN/SQUAREM
+	>=sci-CRAN/ggplot2-2.1.0
 	sci-CRAN/gtools
+	sci-CRAN/slam
+	sci-CRAN/flexmix
 	sci-CRAN/picante
 	sci-BIOC/limma
-	sci-CRAN/slam
-	>=sci-CRAN/ggplot2-2.1.0
-	sci-CRAN/cowplot
-	sci-CRAN/flexmix
 	sci-CRAN/reshape2
+	sci-CRAN/maptpx
+	>=sci-CRAN/plyr-1.7.1
+	sci-CRAN/cowplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/flowCyBar_
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/gplots
 	sci-CRAN/vegan
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-}"

@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/sybil
 	sci-BIOC/CoRegNet
+	sci-CRAN/sybil
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/glpk

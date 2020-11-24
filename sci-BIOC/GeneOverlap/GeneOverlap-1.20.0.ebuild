@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/gplots
-	sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/RColorBrewer
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

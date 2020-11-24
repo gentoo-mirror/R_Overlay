@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_biostrings? ( sci-BIOC/Biostrings )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=sci-BIOC/S4Vectors-0.21.13
-	sci-BIOC/BiocGenerics
+DEPEND=">=sci-BIOC/BiocGenerics-0.19.2
 	sci-BIOC/S4Vectors
-	>=sci-BIOC/BiocGenerics-0.19.2
 	>=sci-BIOC/IRanges-2.15.12
 	sci-BIOC/zlibbioc
+	>=sci-BIOC/S4Vectors-0.21.13
+	sci-BIOC/BiocGenerics
 	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-}

@@ -11,9 +11,9 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/affyILM_1.
 LICENSE='GPL-3'
 
 DEPEND=">=sci-BIOC/affxparser-1.16.0
-	sci-BIOC/Biobase
-	sci-BIOC/gcrma
 	sci-BIOC/affy
+	sci-BIOC/gcrma
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"
 

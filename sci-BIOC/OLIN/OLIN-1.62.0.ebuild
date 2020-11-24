@@ -12,9 +12,9 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_convert"
 R_SUGGESTS="r_suggests_convert? ( sci-BIOC/convert )"
-DEPEND="sci-BIOC/marray
+DEPEND="sci-BIOC/limma
 	sci-BIOC/marray
-	sci-BIOC/limma
 	sci-CRAN/locfit
+	sci-BIOC/marray
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

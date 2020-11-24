@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/plyr
-	sci-BIOC/multtest
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/Formula
 	sci-CRAN/optimx
+	sci-BIOC/multtest
 	sci-BIOC/Biobase
+	sci-CRAN/plyr
 	sci-BIOC/BiocParallel
 	sci-CRAN/ggplot2
 "

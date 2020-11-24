@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_mgsa? ( sci-BIOC/mgsa )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/GSEAlm
-	virtual/Matrix
-	>=sci-BIOC/limma-3.20.0
-	sci-BIOC/annotate
-	sci-BIOC/Biobase
-	sci-BIOC/DESeq
+DEPEND="sci-BIOC/Biobase
+	sci-BIOC/genefilter
 	sci-CRAN/bigmemory
+	sci-BIOC/Category
+	>=sci-BIOC/limma-3.20.0
 	>=sci-BIOC/bigmemoryExtras-1.1.2
 	sci-BIOC/GSEABase
-	sci-BIOC/Category
-	sci-BIOC/genefilter
+	sci-BIOC/GSEAlm
+	virtual/Matrix
+	sci-BIOC/annotate
 	sci-BIOC/AnnotationDbi
+	sci-BIOC/DESeq
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

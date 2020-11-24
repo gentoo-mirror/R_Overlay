@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2
+	sci-CRAN/Hmisc
 	sci-CRAN/data_table
 	virtual/Matrix
-	sci-CRAN/Hmisc
 	sci-CRAN/Delaporte
 	virtual/MASS
 "

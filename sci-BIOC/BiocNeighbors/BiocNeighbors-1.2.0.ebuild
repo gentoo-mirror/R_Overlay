@@ -24,8 +24,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/Rcpp
 	sci-BIOC/S4Vectors
-	sci-BIOC/BiocParallel
 	sci-BIOC/BiocGenerics
+	sci-BIOC/BiocParallel
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

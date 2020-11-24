@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/anota_1.32
 LICENSE='GPL-3'
 
 DEPEND="sci-BIOC/qvalue
-	sci-BIOC/qvalue
 	sci-BIOC/multtest
+	sci-BIOC/qvalue
 "
 RDEPEND="${DEPEND-}"

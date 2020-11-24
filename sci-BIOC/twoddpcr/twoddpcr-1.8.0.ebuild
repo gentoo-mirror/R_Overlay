@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/class
+DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/scales
-	sci-CRAN/shiny
-	sci-CRAN/ggplot2
 	sci-CRAN/RColorBrewer
-	sci-BIOC/S4Vectors
-	>=dev-lang/R-3.4
+	virtual/class
 	sci-CRAN/hexbin
+	sci-CRAN/ggplot2
+	sci-CRAN/shiny
+	sci-BIOC/S4Vectors
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

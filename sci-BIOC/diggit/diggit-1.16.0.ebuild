@@ -9,10 +9,10 @@ DESCRIPTION='Inference of Genetic Variants Dr... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/diggit_1.16.0.tar.gz"
 
-DEPEND="sci-BIOC/Biobase
-	sci-CRAN/ks
-	>=sci-BIOC/viper-1.3.1
+DEPEND="sci-CRAN/ks
+	sci-BIOC/Biobase
 	>=dev-lang/R-3.0.2
+	>=sci-BIOC/viper-1.3.1
 "
 RDEPEND="${DEPEND-}"
 

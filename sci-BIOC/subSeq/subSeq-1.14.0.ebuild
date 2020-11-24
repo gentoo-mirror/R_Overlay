@@ -21,8 +21,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.2
 	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
-	sci-CRAN/data_table
 	sci-CRAN/dplyr
+	sci-CRAN/data_table
 	sci-CRAN/magrittr
 	>=sci-BIOC/qvalue-1.99
 	sci-CRAN/digest

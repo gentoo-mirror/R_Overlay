@@ -17,12 +17,12 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_experimenthub? ( sci-BIOC/ExperimentHub )
 "
-DEPEND=">=sci-BIOC/DelayedArray-0.9.3
-	sci-BIOC/S4Vectors
-	>=sci-BIOC/BiocGenerics-0.25.1
+DEPEND=">=dev-lang/R-3.4
 	>=sci-BIOC/rhdf5-2.25.6
-	>=dev-lang/R-3.4
+	>=sci-BIOC/BiocGenerics-0.25.1
 	sci-BIOC/IRanges
+	>=sci-BIOC/DelayedArray-0.9.3
+	sci-BIOC/S4Vectors
 "
 RDEPEND="${DEPEND-}
 	>=sci-BIOC/S4Vectors-0.21.6

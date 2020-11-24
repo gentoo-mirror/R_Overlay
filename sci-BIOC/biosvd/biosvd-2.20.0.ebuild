@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/biosvd_2.2
 LICENSE='Artistic-2'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/NMF
 	sci-BIOC/Biobase
 	sci-BIOC/BiocGenerics
+	sci-CRAN/NMF
 "
 RDEPEND="${DEPEND-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/Cormotif_1.30.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-BIOC/affy
+DEPEND=">=dev-lang/R-2.12.0
 	sci-BIOC/affy
-	>=dev-lang/R-2.12.0
 	sci-BIOC/limma
+	sci-BIOC/affy
 "
 RDEPEND="${DEPEND-}"

@@ -22,8 +22,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.3
 	sci-CRAN/cometExactTest
 	sci-CRAN/data_table
-	sci-CRAN/NMF
 	sci-CRAN/RColorBrewer
+	sci-CRAN/NMF
 	sci-CRAN/wordcloud
 	virtual/survival
 "

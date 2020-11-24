@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/methylMnM_
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-2.12.1
-	sci-CRAN/statmod
 	sci-BIOC/edgeR
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-}"

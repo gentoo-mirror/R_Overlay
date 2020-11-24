@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/graph
-	sci-CRAN/SPARQL
+DEPEND=">=dev-lang/R-3.4
 	sci-BIOC/Rgraphviz
-	>=dev-lang/R-3.4
+	sci-BIOC/graph
+	sci-CRAN/SPARQL
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/dbplyr-1.0.0
-	sci-CRAN/dplyr
 	sci-CRAN/DBI
 	sci-CRAN/RSQLite
+	sci-CRAN/dplyr
+	>=sci-CRAN/dbplyr-1.0.0
 	sci-CRAN/rappdirs
 	sci-CRAN/curl
 	sci-CRAN/httr

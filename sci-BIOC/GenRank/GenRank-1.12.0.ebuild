@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	virtual/Matrix
 	sci-CRAN/reshape2
 	sci-BIOC/survcomp
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

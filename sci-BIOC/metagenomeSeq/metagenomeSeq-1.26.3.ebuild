@@ -23,16 +23,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND="sci-BIOC/Biobase
-	sci-BIOC/Wrench
+DEPEND="sci-CRAN/glmnet
+	virtual/Matrix
+	virtual/Matrix
 	sci-CRAN/foreach
-	sci-BIOC/IHW
+	sci-BIOC/limma
 	sci-CRAN/gplots
 	>=dev-lang/R-3.0
-	sci-BIOC/limma
-	sci-CRAN/glmnet
+	sci-BIOC/Biobase
 	sci-CRAN/RColorBrewer
-	virtual/Matrix
-	virtual/Matrix
+	sci-BIOC/Wrench
+	sci-BIOC/IHW
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

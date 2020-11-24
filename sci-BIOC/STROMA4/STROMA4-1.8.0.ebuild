@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/STROMA4_1.8.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.4
-	sci-BIOC/BiocParallel
+DEPEND="virtual/cluster
 	virtual/Matrix
-	virtual/cluster
 	sci-BIOC/Biobase
+	sci-BIOC/BiocParallel
+	>=dev-lang/R-3.4
 "
 RDEPEND="${DEPEND-}"
 

@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-BIOC/DelayedArray-0.9.8
-	virtual/Matrix
+DEPEND="virtual/Matrix
 	sci-BIOC/IRanges
 	>=sci-BIOC/S4Vectors-0.17.5
+	>=sci-BIOC/DelayedArray-0.9.8
 	virtual/Matrix
 	>=sci-BIOC/HDF5Array-1.7.10
 	sci-BIOC/BiocParallel

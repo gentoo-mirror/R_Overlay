@@ -25,9 +25,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	virtual/MASS
 	sci-CRAN/tibble
 	sci-BIOC/qvalue
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

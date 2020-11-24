@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_affy? ( sci-BIOC/affy )
 	r_suggests_annotationdbi? ( sci-BIOC/AnnotationDbi )
 "
-DEPEND="sci-BIOC/Biostrings
-	>=sci-BIOC/S4Vectors-0.9.25
-	sci-CRAN/RColorBrewer
-	>=sci-BIOC/Biobase-2.5.5
-	>=sci-BIOC/Biobase-2.5.5
+DEPEND=">=sci-BIOC/Biobase-2.5.5
 	sci-BIOC/affxparser
+	>=sci-BIOC/Biobase-2.5.5
+	>=sci-BIOC/S4Vectors-0.9.25
+	sci-BIOC/Biostrings
+	sci-CRAN/RColorBrewer
 	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

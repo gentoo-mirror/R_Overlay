@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_kernsmooth? ( virtual/KernSmooth )
 "
 DEPEND="sci-BIOC/Biobase
-	>=sci-CRAN/scrime-1.2.5
 	sci-BIOC/multtest
+	>=sci-CRAN/scrime-1.2.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

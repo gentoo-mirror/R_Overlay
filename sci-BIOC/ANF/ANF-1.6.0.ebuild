@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_snftool? ( sci-CRAN/SNFtool )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/survival
+DEPEND="sci-CRAN/igraph
+	virtual/survival
 	sci-BIOC/Biobase
-	virtual/MASS
 	sci-CRAN/RColorBrewer
-	sci-CRAN/igraph
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

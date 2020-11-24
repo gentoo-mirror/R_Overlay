@@ -12,9 +12,9 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
-DEPEND="sci-BIOC/flowCore
-	>=sci-BIOC/BiocGenerics-0.1.6
-	sci-BIOC/Biobase
+DEPEND=">=sci-BIOC/BiocGenerics-0.1.6
 	sci-BIOC/flowViz
+	sci-BIOC/Biobase
+	sci-BIOC/flowCore
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
