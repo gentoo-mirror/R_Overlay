@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 inherit eutils
@@ -6,11 +6,11 @@ inherit eutils
 EXPORT_FUNCTIONS src_unpack src_compile src_install pkg_postinst
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
 IUSE="byte-compile"
 
-DEPEND="dev-lang/R"
+DEPEND="dev-lang/R:="
 RDEPEND="${DEPEND}"
+BDEPEND="${DEPEND}"
 
 R-packages_src_unpack() {
 	unpack ${A}
