@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND="sci-CRAN/assertthat
-	sci-CRAN/ggplot2
 	>=dev-lang/R-3.6.0
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

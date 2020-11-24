@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lodGWAS_1.0-7.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/survival
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/rms
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

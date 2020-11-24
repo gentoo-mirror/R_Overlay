@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/plyr-1.8.4
 	>=sci-CRAN/ggplot2-3.2.1
 	>=sci-CRAN/Rcmdr-2.6.0
-	>=sci-CRAN/RColorBrewer-1.1.2
-	dev-lang/R[tk]
 	>=sci-CRAN/ggthemes-4.2.0
-	>=sci-CRAN/scales-1.0.0
 	virtual/survival
+	>=sci-CRAN/plyr-1.8.4
+	>=sci-CRAN/RColorBrewer-1.1.2
+	>=sci-CRAN/scales-1.0.0
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

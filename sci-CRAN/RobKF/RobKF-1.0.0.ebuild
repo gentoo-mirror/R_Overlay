@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RobKF_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Rdpack
-	sci-CRAN/ggplot2
-	>=sci-CRAN/Rcpp-1.0.2
-	sci-CRAN/reshape2
+DEPEND="sci-CRAN/ggplot2
 	virtual/Matrix
+	sci-CRAN/Rdpack
+	sci-CRAN/reshape2
+	>=sci-CRAN/Rcpp-1.0.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

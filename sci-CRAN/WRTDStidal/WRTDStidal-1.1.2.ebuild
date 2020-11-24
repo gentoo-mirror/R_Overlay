@@ -21,18 +21,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/fields
 	sci-CRAN/caret
 	sci-CRAN/ggplot2
+	sci-CRAN/fields
 	sci-CRAN/dplyr
 	sci-CRAN/foreach
 	sci-CRAN/forecast
 	sci-CRAN/gridExtra
 	sci-CRAN/lubridate
 	sci-CRAN/purrr
-	sci-CRAN/quantreg
-	sci-CRAN/tidyr
-	sci-CRAN/RColorBrewer
 	virtual/survival
+	sci-CRAN/RColorBrewer
+	sci-CRAN/tidyr
+	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

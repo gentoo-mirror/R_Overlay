@@ -15,25 +15,25 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/WRS2
+DEPEND="sci-CRAN/forcats
 	sci-CRAN/sjstats
-	sci-CRAN/sandwich
-	sci-CRAN/effsize
+	sci-CRAN/robust
+	sci-CRAN/WRS2
 	sci-CRAN/dplyr
-	sci-CRAN/forcats
+	sci-CRAN/car
 	sci-CRAN/ggplot2
-	virtual/nlme
+	sci-CRAN/lm_beta
+	sci-CRAN/learnr
+	sci-CRAN/effects
 	>=dev-lang/R-3.6.0
+	virtual/nlme
+	sci-CRAN/effsize
+	sci-CRAN/readr
+	sci-CRAN/sandwich
+	sci-CRAN/tidyr
 	sci-CRAN/BayesFactor
 	virtual/boot
-	sci-CRAN/lm_beta
-	sci-CRAN/readr
-	sci-CRAN/car
-	sci-CRAN/effects
 	sci-CRAN/GGally
 	sci-CRAN/Hmisc
-	sci-CRAN/tidyr
-	sci-CRAN/learnr
-	sci-CRAN/robust
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

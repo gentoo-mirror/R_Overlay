@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/algaeClassify_1.2.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/RCurl
 	sci-CRAN/lubridate
-	sci-CRAN/RCurl
-	sci-CRAN/httr
+	>=dev-lang/R-3.4.0
 	sci-CRAN/plyr
-	sci-CRAN/taxize
-	sci-CRAN/xml2
+	sci-CRAN/httr
 	sci-CRAN/rvest
+	sci-CRAN/taxize
 	sci-CRAN/XML
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/DengueRT_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/nlme
-	sci-CRAN/drc
 	sci-CRAN/ggplot2
+	sci-CRAN/drc
 "
 RDEPEND="${DEPEND-}"

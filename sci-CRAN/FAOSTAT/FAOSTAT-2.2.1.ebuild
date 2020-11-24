@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/RJSONIO-0.96.0
-	>=sci-CRAN/data_table-1.8.2
-	virtual/class
-	>=sci-CRAN/labeling-0.1
 	>=sci-CRAN/ggplot2-0.9.3
-	>=sci-CRAN/plyr-1.7.1
+	>=sci-CRAN/data_table-1.8.2
 	virtual/MASS
+	>=sci-CRAN/plyr-1.7.1
+	>=sci-CRAN/labeling-0.1
 	>=sci-CRAN/XML-3.0
+	virtual/class
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

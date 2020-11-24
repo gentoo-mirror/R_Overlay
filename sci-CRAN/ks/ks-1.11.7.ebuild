@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_oz? ( sci-CRAN/oz )
 	r_suggests_rgl? ( >=sci-CRAN/rgl-0.66 )
 "
-DEPEND=">=sci-CRAN/FNN-1.1
-	sci-CRAN/multicool
+DEPEND="virtual/Matrix
 	virtual/mgcv
-	sci-CRAN/kernlab
-	virtual/Matrix
-	virtual/KernSmooth
 	sci-CRAN/mclust
+	virtual/KernSmooth
+	sci-CRAN/kernlab
+	>=sci-CRAN/FNN-1.1
+	sci-CRAN/multicool
 	>=sci-CRAN/mvtnorm-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

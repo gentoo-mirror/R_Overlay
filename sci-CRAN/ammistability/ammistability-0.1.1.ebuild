@@ -18,8 +18,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ggcorrplot
-	sci-CRAN/reshape2
 	sci-CRAN/agricolae
+	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
 	sci-CRAN/Rdpack
 "

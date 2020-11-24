@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_geem? ( sci-CRAN/geeM )
 	r_suggests_geepack? ( sci-CRAN/geepack )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/MESS
+DEPEND="virtual/Matrix
+	sci-CRAN/foreach
 	sci-CRAN/XML
+	sci-CRAN/MESS
 	sci-CRAN/RCurl
-	virtual/Matrix
 	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

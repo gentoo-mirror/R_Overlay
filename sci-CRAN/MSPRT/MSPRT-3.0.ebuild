@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/MSPRT_3.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/iterators
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	sci-CRAN/iterators
 	sci-CRAN/nleqslv
 	sci-CRAN/ggpubr
 "

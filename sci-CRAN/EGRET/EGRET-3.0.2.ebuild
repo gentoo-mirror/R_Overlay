@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.0
-	virtual/survival
-	sci-CRAN/fields
-	>=sci-CRAN/dataRetrieval-2.0.1
-	sci-CRAN/truncnorm
 	sci-CRAN/foreach
+	virtual/survival
+	>=sci-CRAN/dataRetrieval-2.0.1
+	sci-CRAN/fields
+	sci-CRAN/truncnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

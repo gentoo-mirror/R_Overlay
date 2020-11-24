@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.plugin.osqp_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/Matrix
-	>=sci-CRAN/ROI-0.2.5
+DEPEND="sci-CRAN/osqp
 	sci-CRAN/slam
-	sci-CRAN/osqp
+	virtual/Matrix
+	>=sci-CRAN/ROI-0.2.5
 "
 RDEPEND="${DEPEND-}"

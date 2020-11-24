@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_nnet? ( virtual/nnet )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/gridBase
 	sci-CRAN/igraph
-	sci-CRAN/nloptr
-	>=sci-CRAN/Rcpp-0.11.3
-	virtual/Matrix
-	sci-CRAN/numDeriv
 	>=sci-CRAN/TraMineR-1.8.8
+	sci-CRAN/nloptr
+	virtual/Matrix
+	sci-CRAN/gridBase
+	sci-CRAN/numDeriv
+	>=sci-CRAN/Rcpp-0.11.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

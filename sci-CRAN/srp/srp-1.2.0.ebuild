@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/srp_1.2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/fda
 	virtual/mgcv
+	sci-CRAN/fda
 "
 RDEPEND="${DEPEND-}"

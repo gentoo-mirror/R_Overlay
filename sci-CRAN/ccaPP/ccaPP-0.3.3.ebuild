@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 "
 DEPEND=">=dev-lang/R-3.2.0
+	>=sci-CRAN/pcaPP-1.8.1
 	>=sci-CRAN/Rcpp-0.11.0
 	sci-CRAN/robustbase
-	>=sci-CRAN/pcaPP-1.8.1
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.0

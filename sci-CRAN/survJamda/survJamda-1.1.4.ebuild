@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/survJamda_1.1.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ecodist
-	virtual/survival
+DEPEND="virtual/survival
 	virtual/survival
 	sci-BIOC/survcomp
 	sci-CRAN/survJamda_data
+	sci-CRAN/ecodist
 "
 RDEPEND="${DEPEND-}"

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CA3variants_2.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/plotly
-	sci-CRAN/gridExtra
-	>dev-lang/R-3.0.1
+DEPEND=">dev-lang/R-3.0.1
 	sci-CRAN/ggforce
 	sci-CRAN/ggrepel
 	sci-CRAN/multichull
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-}"

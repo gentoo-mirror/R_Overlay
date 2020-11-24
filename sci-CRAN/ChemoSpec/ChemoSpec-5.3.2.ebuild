@@ -48,9 +48,9 @@ R_SUGGESTS="
 	r_suggests_speaq? ( sci-CRAN/speaq )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/plyr
-	>=sci-CRAN/ChemoSpecUtils-0.3
+DEPEND="sci-CRAN/plyr
 	>=sci-CRAN/readJDX-0.4
+	>=sci-CRAN/ChemoSpecUtils-0.3
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

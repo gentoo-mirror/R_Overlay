@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/AffyCompat
 LICENSE='Artistic-2'
 
 DEPEND="sci-BIOC/Biostrings
-	>=sci-CRAN/XML-2.8.1
 	>=sci-CRAN/RCurl-0.8.1
+	>=sci-CRAN/XML-2.8.1
 "
 RDEPEND="${DEPEND-}"

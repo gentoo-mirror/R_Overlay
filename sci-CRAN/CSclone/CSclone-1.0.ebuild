@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CSclone_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/DNAcopy
+DEPEND="sci-CRAN/lpSolve
 	sci-CRAN/mcclust
+	sci-BIOC/DNAcopy
 	sci-CRAN/moments
-	sci-CRAN/lpSolve
 "
 RDEPEND="${DEPEND-}"

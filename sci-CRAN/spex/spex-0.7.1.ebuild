@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/reproj
+DEPEND=">=dev-lang/R-3.2.5
 	sci-CRAN/sp
-	sci-CRAN/crsmeta
-	sci-CRAN/raster
-	>=dev-lang/R-3.2.5
 	sci-CRAN/quadmesh
+	sci-CRAN/raster
+	sci-CRAN/reproj
+	sci-CRAN/crsmeta
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

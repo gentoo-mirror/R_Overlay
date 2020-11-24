@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/sp
-	sci-CRAN/rgeos
+DEPEND="sci-CRAN/rgeos
+	sci-CRAN/sp
 	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

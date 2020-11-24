@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_sandwich? ( sci-CRAN/sandwich )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/R6
-	sci-CRAN/base64enc
-	sci-CRAN/magrittr
-	>=dev-lang/R-3.5.0
-	sci-CRAN/knitr
-	sci-CRAN/stringi
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/stringr
+	sci-CRAN/stringi
+	sci-CRAN/knitr
+	sci-CRAN/R6
+	sci-CRAN/magrittr
+	sci-CRAN/base64enc
 	sci-CRAN/digest
 	sci-CRAN/htmltools
 "

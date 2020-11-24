@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_islr? ( sci-CRAN/ISLR )
 	r_suggests_mass? ( virtual/MASS )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/sqldf
-	sci-CRAN/stringr
-	sci-CRAN/plyr
-	sci-CRAN/binr
+DEPEND="sci-CRAN/binr
 	sci-CRAN/ggplot2
 	sci-CRAN/ClustOfVar
+	sci-CRAN/plyr
+	sci-CRAN/gridExtra
+	sci-CRAN/sqldf
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,9 +12,9 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_muhaz"
 R_SUGGESTS="r_suggests_muhaz? ( sci-CRAN/muhaz )"
-DEPEND="sci-CRAN/plyr
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/data_table
+	sci-CRAN/plyr
 	sci-CRAN/msm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

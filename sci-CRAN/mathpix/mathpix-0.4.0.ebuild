@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/purrr
-	sci-CRAN/rstudioapi
 	sci-CRAN/httr
 	sci-CRAN/base64enc
+	sci-CRAN/purrr
+	sci-CRAN/rstudioapi
 	sci-CRAN/texPreview
 	sci-CRAN/magick
 "

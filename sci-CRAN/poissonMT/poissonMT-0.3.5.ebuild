@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/poissonMT_0.3-5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
+	sci-CRAN/checkmate
 	sci-CRAN/robcbi
 	sci-CRAN/robustbase
-	sci-CRAN/checkmate
 "
 RDEPEND="${DEPEND-}"

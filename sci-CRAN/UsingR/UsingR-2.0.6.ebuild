@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND=">=dev-lang/R-2.15.0
+	sci-CRAN/HistData
 	virtual/MASS
 	sci-CRAN/Hmisc
-	sci-CRAN/HistData
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

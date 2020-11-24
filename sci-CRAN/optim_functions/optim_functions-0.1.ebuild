@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/stringr
-	>=dev-lang/R-3.0
+DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/randtoolbox
 	sci-CRAN/lhs
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

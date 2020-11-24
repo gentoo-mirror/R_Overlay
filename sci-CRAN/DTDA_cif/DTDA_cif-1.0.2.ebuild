@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/DTDA.cif_1.0.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/doParallel
 	sci-CRAN/Rcpp
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

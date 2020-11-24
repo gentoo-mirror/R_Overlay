@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/networkD3
-	virtual/boot
+DEPEND="sci-CRAN/mclust
 	virtual/nnet
+	sci-CRAN/glmnet
+	virtual/boot
 	>=dev-lang/R-3.6.0
-	sci-CRAN/mclust
+	sci-CRAN/networkD3
 	sci-CRAN/lbfgs
 	sci-CRAN/glasso
-	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

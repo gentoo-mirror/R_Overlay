@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROMDB_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/httr
-	sci-CRAN/magick
-	sci-CRAN/RODBC
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/stringr
+	sci-CRAN/RODBC
+	sci-CRAN/magick
+	sci-CRAN/purrr
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

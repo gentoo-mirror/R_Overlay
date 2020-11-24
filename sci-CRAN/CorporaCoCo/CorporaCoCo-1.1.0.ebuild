@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_stringi? ( sci-CRAN/stringi )
 	r_suggests_unittest? ( sci-CRAN/unittest )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/data_table-1.9.6
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/rlist
-	sci-CRAN/RColorBrewer
+	>=sci-CRAN/data_table-1.9.6
+	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

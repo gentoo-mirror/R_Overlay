@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/data_table-1.9.6
-	sci-CRAN/bit64
 	sci-CRAN/stringr
 	sci-CRAN/plyr
 	>=sci-CRAN/lubridate-1.7.1
+	sci-CRAN/bit64
 	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/overlapping_1.6.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/testthat
 	sci-CRAN/ggplot2
+	sci-CRAN/testthat
 "
 RDEPEND="${DEPEND-}"

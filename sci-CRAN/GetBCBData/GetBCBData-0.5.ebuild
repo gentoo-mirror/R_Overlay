@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/RCurl
-	sci-CRAN/future
-	sci-CRAN/dplyr
-	sci-CRAN/curl
-	sci-CRAN/readr
+DEPEND="sci-CRAN/lubridate
+	sci-CRAN/memoise
+	sci-CRAN/furrr
 	sci-CRAN/jsonlite
 	sci-CRAN/purrr
 	>=dev-lang/R-3.3.0
 	sci-CRAN/stringr
-	sci-CRAN/lubridate
-	sci-CRAN/furrr
-	sci-CRAN/memoise
+	sci-CRAN/RCurl
+	sci-CRAN/readr
+	sci-CRAN/curl
+	sci-CRAN/dplyr
+	sci-CRAN/future
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

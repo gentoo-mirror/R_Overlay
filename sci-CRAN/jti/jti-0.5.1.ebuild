@@ -13,9 +13,9 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_tinytest"
 R_SUGGESTS="r_suggests_tinytest? ( sci-CRAN/tinytest )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/sparta
 	sci-CRAN/igraph
 	sci-CRAN/Rcpp
+	sci-CRAN/sparta
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

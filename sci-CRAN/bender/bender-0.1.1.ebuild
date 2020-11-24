@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/bender_0.1.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/R6
-	sci-CRAN/jsonlite
 	sci-CRAN/httr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

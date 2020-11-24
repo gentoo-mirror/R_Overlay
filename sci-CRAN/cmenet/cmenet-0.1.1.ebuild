@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cmenet_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/hierNet
-	sci-CRAN/glmnet
-	sci-CRAN/sparsenet
-	>=sci-CRAN/Rcpp-0.12.4
+DEPEND=">=sci-CRAN/Rcpp-0.12.4
 	virtual/MASS
+	sci-CRAN/sparsenet
+	sci-CRAN/hierNet
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

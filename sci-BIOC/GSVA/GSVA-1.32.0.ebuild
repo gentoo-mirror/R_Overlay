@@ -21,12 +21,12 @@ R_SUGGESTS="
 	r_suggests_snow? ( sci-CRAN/snow )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/shiny
 	sci-BIOC/Biobase
+	sci-CRAN/shinythemes
 	>=sci-BIOC/GSEABase-1.17.4
 	sci-BIOC/BiocGenerics
 	sci-BIOC/geneplotter
-	sci-CRAN/shinythemes
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

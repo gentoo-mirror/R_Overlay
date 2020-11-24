@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.EACSPIR_0.2-2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/R2HTML
-	sci-CRAN/RcmdrMisc
-	sci-CRAN/abind
-	sci-CRAN/ez
 	sci-CRAN/reshape
 	sci-CRAN/nortest
+	sci-CRAN/ez
+	sci-CRAN/abind
 	>=sci-CRAN/Rcmdr-2.1.6
+	sci-CRAN/RcmdrMisc
 "
 RDEPEND="${DEPEND-}"

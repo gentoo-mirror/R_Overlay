@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bpca_1.3-2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/scatterplot3d
-	sci-CRAN/rgl
+DEPEND="sci-CRAN/rgl
+	sci-CRAN/scatterplot3d
 	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}"

@@ -24,18 +24,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-BIOC/ggtree
-	sci-CRAN/Rcpp
-	sci-BIOC/BiocGenerics
-	sci-CRAN/yaml
-	sci-CRAN/ggplot2
 	sci-CRAN/ape
+	sci-CRAN/ggplot2
 	sci-CRAN/ggseqlogo
+	sci-BIOC/ggtree
 	sci-CRAN/gtools
+	sci-CRAN/Rcpp
 	>=sci-CRAN/Rdpack-0.7
-	sci-BIOC/Biostrings
-	sci-CRAN/processx
 	sci-BIOC/S4Vectors
+	sci-CRAN/yaml
+	sci-BIOC/Biostrings
+	sci-BIOC/BiocGenerics
+	sci-CRAN/processx
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

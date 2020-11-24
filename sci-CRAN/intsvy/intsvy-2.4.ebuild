@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/intsvy_2.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/plyr
+DEPEND="sci-CRAN/Hmisc
 	sci-CRAN/reshape
-	sci-CRAN/memisc
-	sci-CRAN/Hmisc
-	sci-CRAN/ggplot2
+	sci-CRAN/plyr
 	virtual/foreign
+	sci-CRAN/memisc
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

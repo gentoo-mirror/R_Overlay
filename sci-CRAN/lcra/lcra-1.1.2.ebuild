@@ -13,9 +13,9 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_gtools"
 R_SUGGESTS="r_suggests_gtools? ( sci-CRAN/gtools )"
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/rjags
 	sci-CRAN/rlang
 	sci-CRAN/coda
-	sci-CRAN/rjags
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

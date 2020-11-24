@@ -34,12 +34,12 @@ R_SUGGESTS="
 	r_suggests_rgeos? ( sci-CRAN/rgeos )
 	r_suggests_rpostgresql? ( sci-CRAN/RPostgreSQL )
 "
-DEPEND=">=sci-CRAN/zoo-1.7.9
-	>=sci-CRAN/xts-0.8.8
-	>=dev-lang/R-3.0.0
-	virtual/lattice
-	>=sci-CRAN/sp-1.1.0
+DEPEND="virtual/lattice
+	>=sci-CRAN/zoo-1.7.9
 	sci-CRAN/intervals
+	>=dev-lang/R-3.0.0
+	>=sci-CRAN/sp-1.1.0
+	>=sci-CRAN/xts-0.8.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

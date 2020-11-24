@@ -24,7 +24,7 @@ R_SUGGESTS="
 	r_suggests_timeseries? ( sci-CRAN/timeSeries )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/zoo
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/Hmisc
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/MLDAShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/shiny
+	virtual/MASS
+	sci-CRAN/rhandsontable
+	sci-CRAN/dplyr
 	>=dev-lang/R-3.0.3
 	sci-CRAN/klaR
-	virtual/MASS
 	sci-CRAN/rmarkdown
-	sci-CRAN/dplyr
 	sci-CRAN/caret
 	sci-CRAN/DiscriMiner
 	sci-CRAN/e1071
-	sci-CRAN/rhandsontable
 "
 RDEPEND="${DEPEND-}"

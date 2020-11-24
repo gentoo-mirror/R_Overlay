@@ -13,10 +13,10 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_tfplot"
 R_SUGGESTS="r_suggests_tfplot? ( sci-CRAN/tfplot )"
 DEPEND="sci-CRAN/tframe
-	sci-CRAN/tframePlus
-	>=sci-CRAN/DBI-0.3.1
-	>=sci-CRAN/TSdbi-2015.1.1
 	>=sci-CRAN/RJSDMX-1.3
+	>=sci-CRAN/DBI-0.3.1
+	sci-CRAN/tframePlus
+	>=sci-CRAN/TSdbi-2015.1.1
 	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

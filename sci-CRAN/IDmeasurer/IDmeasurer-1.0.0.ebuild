@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/infotheo
+DEPEND="virtual/MASS
+	sci-CRAN/infotheo
 	sci-CRAN/lme4
-	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

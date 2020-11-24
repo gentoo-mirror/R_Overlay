@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 "
 DEPEND=">=dev-lang/R-3.6
+	sci-CRAN/doParallel
 	sci-CRAN/foreach
 	>=sci-CRAN/Rcpp-0.12.18
-	sci-CRAN/doParallel
 	sci-CRAN/dplyr
 	sci-CRAN/tidyr
 	sci-CRAN/magrittr

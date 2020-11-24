@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_stringdist? ( sci-CRAN/stringdist )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/yaml
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/XML
 	>=dev-lang/R-2.15
-	sci-CRAN/XML
+	sci-CRAN/jsonlite
+	sci-CRAN/data_table
+	sci-CRAN/yaml
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

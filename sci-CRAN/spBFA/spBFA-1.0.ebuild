@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_womblr? ( >=sci-CRAN/womblR-1.0.3 )
 "
-DEPEND=">=sci-CRAN/msm-1.0.0
+DEPEND=">=dev-lang/R-3.0.2
+	>=sci-CRAN/mvtnorm-1.0.0
+	>=sci-CRAN/msm-1.0.0
 	>=sci-CRAN/Rcpp-0.12.9
 	>=sci-CRAN/pgdraw-1.0
-	>=dev-lang/R-3.0.2
-	>=sci-CRAN/mvtnorm-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

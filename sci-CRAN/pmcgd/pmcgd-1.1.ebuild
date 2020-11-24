@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/pmcgd_1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/mnormt
 	sci-CRAN/mixture
+	sci-CRAN/mnormt
 "
 RDEPEND="${DEPEND-}"

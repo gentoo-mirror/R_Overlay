@@ -20,7 +20,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/vegan
-	sci-CRAN/ggplot2
 	sci-CRAN/sampling
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

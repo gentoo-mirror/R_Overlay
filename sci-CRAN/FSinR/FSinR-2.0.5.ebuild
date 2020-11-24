@@ -18,19 +18,19 @@ R_SUGGESTS="
 	r_suggests_rsnns? ( sci-CRAN/RSNNS )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/rpart
-	sci-CRAN/neuralnet
-	sci-CRAN/mlbench
-	virtual/class
-	sci-CRAN/caret
-	sci-CRAN/Rdpack
-	sci-CRAN/purrr
-	sci-CRAN/e1071
-	sci-CRAN/digest
-	sci-CRAN/GA
-	sci-CRAN/dplyr
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/GA
 	sci-CRAN/prodlim
+	sci-CRAN/dplyr
 	sci-CRAN/rlang
+	virtual/class
+	sci-CRAN/e1071
+	sci-CRAN/purrr
+	virtual/rpart
+	sci-CRAN/caret
+	sci-CRAN/neuralnet
+	sci-CRAN/digest
+	sci-CRAN/mlbench
+	sci-CRAN/Rdpack
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

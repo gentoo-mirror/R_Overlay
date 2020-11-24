@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/assertive
-	sci-CRAN/pryr
-	sci-CRAN/seqinr
-	sci-CRAN/rappdirs
-	sci-CRAN/ape
 	sci-CRAN/stringr
+	sci-CRAN/pryr
+	sci-CRAN/rappdirs
 	sci-CRAN/testit
+	sci-CRAN/ape
+	sci-CRAN/seqinr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

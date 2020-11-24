@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/crayon
+DEPEND="sci-CRAN/crayon
 	sci-CRAN/rlang
+	sci-CRAN/rstudioapi
 	sci-CRAN/magrittr
 	sci-CRAN/dplyr
-	sci-CRAN/rstudioapi
 	sci-CRAN/tibble
-	sci-CRAN/zeallot
 	sci-CRAN/tidyr
+	sci-CRAN/zeallot
+	>=dev-lang/R-3.6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

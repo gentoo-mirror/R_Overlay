@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/coda
-	sci-CRAN/AER
-	>=sci-CRAN/Rcpp-0.11.6
-	virtual/MASS
-	sci-CRAN/data_table
-	sci-CRAN/rgl
+DEPEND="sci-CRAN/AER
 	sci-CRAN/sandwich
+	sci-CRAN/data_table
+	sci-CRAN/coda
+	virtual/MASS
+	>=sci-CRAN/Rcpp-0.11.6
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

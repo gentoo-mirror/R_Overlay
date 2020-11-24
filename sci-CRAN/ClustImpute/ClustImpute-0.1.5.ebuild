@@ -27,10 +27,10 @@ R_SUGGESTS="
 	r_suggests_tictoc? ( sci-CRAN/tictoc )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/dplyr
+DEPEND="sci-CRAN/copula
 	sci-CRAN/rlang
 	virtual/cluster
-	sci-CRAN/copula
 	sci-CRAN/magrittr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

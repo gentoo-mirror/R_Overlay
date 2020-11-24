@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/yaml
-	>=sci-CRAN/jsonlite-1.1
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/yaml
 	>=sci-CRAN/httr-1.2.0
-	sci-CRAN/magrittr
+	>=sci-CRAN/jsonlite-1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -32,20 +32,20 @@ R_SUGGESTS="
 	r_suggests_tidyselect? ( sci-CRAN/tidyselect )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/ggrepel
-	sci-CRAN/partykit
-	sci-CRAN/BayesFactor
-	>=sci-CRAN/DescTools-0.99.32
-	sci-CRAN/purrr
-	sci-CRAN/rlang
 	sci-CRAN/dplyr
-	sci-CRAN/forcats
+	sci-CRAN/BayesFactor
 	sci-CRAN/ggmosaic
+	sci-CRAN/forcats
 	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/ggrepel
 	sci-CRAN/paletteer
-	>=sci-CRAN/scales-1.1.0
-	>=sci-CRAN/sjstats-0.17.9
+	sci-CRAN/partykit
+	sci-CRAN/rlang
 	sci-CRAN/stringr
+	>=sci-CRAN/scales-1.1.0
+	>=sci-CRAN/DescTools-0.99.32
+	>=sci-CRAN/sjstats-0.17.9
 	sci-CRAN/tidyr
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

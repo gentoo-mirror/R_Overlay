@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GSelection_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/SAM
-	sci-CRAN/gdata
+DEPEND="sci-CRAN/gdata
+	>=dev-lang/R-3.5
 	sci-CRAN/penalized
+	sci-CRAN/SAM
 "
 RDEPEND="${DEPEND-}"

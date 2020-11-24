@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/CompQuadForm
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/lme4
+	sci-CRAN/CompQuadForm
 	sci-CRAN/car
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

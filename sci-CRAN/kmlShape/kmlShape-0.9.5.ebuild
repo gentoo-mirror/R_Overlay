@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/kmlShape_0.9.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/class
-	virtual/lattice
-	sci-CRAN/longitudinalData
+DEPEND="sci-CRAN/longitudinalData
+	virtual/class
 	sci-CRAN/kml
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

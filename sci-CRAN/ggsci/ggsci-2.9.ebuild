@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/scales
 	>=sci-CRAN/ggplot2-2.0.0
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sparseLDA_0.1-9.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/elasticnet
-	sci-CRAN/mda
+DEPEND="sci-CRAN/mda
+	sci-CRAN/elasticnet
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

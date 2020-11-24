@@ -12,9 +12,9 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND=">=sci-CRAN/Rcpp-0.11.2
-	sci-CRAN/reshape2
+DEPEND="sci-CRAN/reshape2
 	>=sci-CRAN/QCA-1.1.3
+	>=sci-CRAN/Rcpp-0.11.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

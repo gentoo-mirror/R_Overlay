@@ -10,18 +10,18 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/discoveR_1.2.9.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/shiny
-	sci-CRAN/zip
-	sci-CRAN/shinyjs
-	sci-CRAN/rstudioapi
-	sci-CRAN/DT
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/shinydashboard
-	sci-CRAN/shinydashboardPlus
+	sci-CRAN/zip
+	sci-CRAN/shiny
 	sci-CRAN/shinyAce
+	sci-CRAN/shinydashboardPlus
+	sci-CRAN/shinyjs
 	sci-CRAN/colourpicker
 	sci-CRAN/ggplot2
+	sci-CRAN/DT
 	sci-CRAN/factoextra
+	sci-CRAN/rstudioapi
 	sci-CRAN/rmarkdown
 	sci-CRAN/stringi
 "

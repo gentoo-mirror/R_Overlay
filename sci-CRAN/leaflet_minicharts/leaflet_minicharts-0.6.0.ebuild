@@ -22,7 +22,7 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/leaflet-1.1.0
-	sci-CRAN/htmltools
+DEPEND="sci-CRAN/htmltools
+	>=sci-CRAN/leaflet-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -13,7 +13,7 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_multiord"
 R_SUGGESTS="r_suggests_multiord? ( sci-CRAN/MultiOrd )"
 DEPEND=">=dev-lang/R-3.3.1
-	virtual/Matrix
 	>=sci-CRAN/arules-1.4.1
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

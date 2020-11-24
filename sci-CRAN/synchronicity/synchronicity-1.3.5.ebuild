@@ -9,9 +9,9 @@ DESCRIPTION='Boost Mutex Functionality in R'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/synchronicity_1.3.5.tar.gz"
 
-DEPEND="sci-CRAN/bigmemory_sri
+DEPEND="sci-CRAN/uuid
 	sci-CRAN/Rcpp
-	sci-CRAN/uuid
+	sci-CRAN/bigmemory_sri
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH

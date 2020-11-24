@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_rnrcs? ( sci-CRAN/RNRCS )
 "
 DEPEND="sci-CRAN/rjson
-	sci-CRAN/stringr
 	sci-CRAN/magrittr
+	sci-CRAN/stringr
 	sci-CRAN/dplyr
 	sci-CRAN/lubridate
 "

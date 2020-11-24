@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RCPmod_2.190.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/fishMod
-	>=sci-CRAN/glmnet-2.0.13
+DEPEND="sci-CRAN/gtools
+	sci-CRAN/fishMod
 	virtual/MASS
-	sci-CRAN/gtools
+	>=sci-CRAN/glmnet-2.0.13
 "
 RDEPEND="${DEPEND-}"

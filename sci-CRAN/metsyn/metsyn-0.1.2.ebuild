@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/metsyn_0.1.2.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.3
-	sci-CRAN/foreach
 	sci-CRAN/tibble
 	sci-CRAN/stringr
 	sci-CRAN/readr
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

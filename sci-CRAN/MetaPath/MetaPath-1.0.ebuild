@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MetaPath_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-BIOC/Biobase
 	sci-BIOC/genefilter
+	sci-BIOC/Biobase
 	sci-BIOC/GSEABase
 	sci-BIOC/impute
 "

@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/xml2
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/httr
+	sci-CRAN/xml2
 	sci-CRAN/readr
 	sci-CRAN/tibble
-	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

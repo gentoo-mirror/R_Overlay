@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RStripe_0.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/RCurl
-	sci-CRAN/jsonlite
 	sci-CRAN/httr
+	sci-CRAN/jsonlite
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

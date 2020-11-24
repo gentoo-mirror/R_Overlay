@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/perry_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-2.14.1
+DEPEND=">=sci-CRAN/ggplot2-0.9.2
 	sci-CRAN/robustbase
-	>=sci-CRAN/ggplot2-0.9.2
+	>=dev-lang/R-2.14.1
 "
 RDEPEND="${DEPEND-}"

@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rredis? ( sci-CRAN/rredis )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/RApiSerialize
+DEPEND="sci-CRAN/RApiSerialize
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RApiSerialize
 	sci-CRAN/BH
+	sci-CRAN/RApiSerialize
 	${R_SUGGESTS-}
 "

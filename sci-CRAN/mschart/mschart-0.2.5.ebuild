@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/officer-0.3.6
+	>=sci-CRAN/xml2-1.1.0
 	sci-CRAN/data_table
 	sci-CRAN/writexl
-	sci-CRAN/cellranger
 	sci-CRAN/R6
-	>=sci-CRAN/xml2-1.1.0
+	sci-CRAN/cellranger
 	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

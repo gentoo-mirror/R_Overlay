@@ -15,20 +15,20 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/scales
-	sci-CRAN/tidyr
-	sci-CRAN/rstudioapi
-	sci-CRAN/shinyAce
-	sci-CRAN/magrittr
-	sci-CRAN/miniUI
-	sci-CRAN/rlang
-	>=dev-lang/R-3.2.0
+DEPEND="sci-CRAN/tidyr
 	sci-CRAN/shinyBS
 	>=sci-CRAN/ggplot2-3.0.0
-	sci-CRAN/purrr
-	sci-CRAN/shiny
-	>=sci-CRAN/colourpicker-0.2
 	sci-CRAN/plyr
+	sci-CRAN/shiny
+	>=dev-lang/R-3.2.0
+	sci-CRAN/purrr
+	sci-CRAN/scales
+	>=sci-CRAN/colourpicker-0.2
+	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/miniUI
+	sci-CRAN/shinyAce
+	sci-CRAN/magrittr
+	sci-CRAN/rstudioapi
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

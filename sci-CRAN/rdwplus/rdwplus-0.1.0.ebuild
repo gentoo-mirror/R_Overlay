@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/rdwplus_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/raster
 	sci-CRAN/rgrass7
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-}"

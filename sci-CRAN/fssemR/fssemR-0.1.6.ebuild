@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_plotly? ( sci-CRAN/plotly )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/mvtnorm
-	virtual/Matrix
-	sci-CRAN/Rcpp
-	sci-CRAN/glmnet
-	virtual/MASS
 	sci-CRAN/qtl
+	virtual/Matrix
+	sci-CRAN/igraph
+	sci-CRAN/glmnet
 	sci-CRAN/stringr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -13,7 +13,7 @@ LICENSE='GPL-3'
 DEPEND="sci-CRAN/survey
 	>=sci-CRAN/gbm-1.5.3
 	virtual/lattice
-	sci-CRAN/xtable
 	virtual/lattice
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}"

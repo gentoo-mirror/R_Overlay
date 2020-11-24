@@ -21,16 +21,16 @@ R_SUGGESTS="
 	r_suggests_trip? ( sci-CRAN/trip )
 "
 DEPEND="sci-CRAN/purrr
-	sci-CRAN/rlang
-	>=sci-CRAN/gibble-0.4.0
 	sci-CRAN/decido
-	>=sci-CRAN/unjoin-0.1.0
 	sci-CRAN/magrittr
-	sci-CRAN/gridBase
-	>=sci-CRAN/crsmeta-0.3.0
+	>=sci-CRAN/gibble-0.4.0
+	>=sci-CRAN/unjoin-0.1.0
 	>=dev-lang/R-3.4.0
 	sci-CRAN/dplyr
+	sci-CRAN/rlang
 	sci-CRAN/tibble
+	sci-CRAN/gridBase
+	>=sci-CRAN/crsmeta-0.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

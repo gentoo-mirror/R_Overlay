@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_survival"
 R_SUGGESTS="r_suggests_survival? ( virtual/survival )"
-DEPEND=">=sci-CRAN/Rcpp-1.0.5
-	>=sci-CRAN/tidyverse-1.3.0
+DEPEND=">=dev-lang/R-4.0.0
+	>=sci-CRAN/Rcpp-1.0.5
 	sci-CRAN/dplyr
+	>=sci-CRAN/tidyverse-1.3.0
 	sci-CRAN/magrittr
-	>=dev-lang/R-4.0.0
 	sci-CRAN/tidyselect
 "
 RDEPEND="${DEPEND-}

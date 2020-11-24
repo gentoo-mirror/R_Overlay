@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_plotly? ( sci-CRAN/plotly )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/jsonlite
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/httr
 	sci-CRAN/countrycode
 	sci-CRAN/dplyr
-	sci-CRAN/httr
-	>=dev-lang/R-3.0.0
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

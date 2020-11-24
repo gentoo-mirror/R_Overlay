@@ -25,8 +25,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/data_table
+	sci-CRAN/htmlwidgets
 	sci-CRAN/geojsonsf
 	sci-CRAN/purrr
-	sci-CRAN/htmlwidgets
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

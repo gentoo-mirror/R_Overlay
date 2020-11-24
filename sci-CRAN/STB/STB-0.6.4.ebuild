@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/STB_0.6.4.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.2.2
+DEPEND="virtual/Matrix
+	>=dev-lang/R-3.2.2
 	>=sci-CRAN/VCA-1.3.1
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

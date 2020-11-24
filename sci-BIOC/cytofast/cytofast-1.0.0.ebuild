@@ -18,11 +18,11 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/Rdpack
-	sci-CRAN/reshape2
-	sci-BIOC/flowCore
 	sci-CRAN/ggplot2
-	sci-CRAN/RColorBrewer
-	sci-CRAN/ggridges
 	sci-BIOC/FlowSOM
+	sci-CRAN/ggridges
+	sci-CRAN/RColorBrewer
+	sci-BIOC/flowCore
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

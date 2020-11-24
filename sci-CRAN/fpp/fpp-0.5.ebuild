@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/forecast
 	sci-CRAN/tseries
-	sci-CRAN/expsmooth
 	sci-CRAN/lmtest
+	sci-CRAN/expsmooth
 	sci-CRAN/fma
 "
 RDEPEND="${DEPEND-}"

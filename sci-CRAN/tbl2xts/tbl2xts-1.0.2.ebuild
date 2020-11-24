@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_performanceanalytics? ( sci-CRAN/PerformanceAnalytics )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.3.1
-	>=sci-CRAN/dplyr-0.8.0.0
+DEPEND="sci-CRAN/xts
 	sci-CRAN/zoo
-	sci-CRAN/tibble
-	sci-CRAN/xts
 	sci-CRAN/rlang
+	sci-CRAN/tibble
+	>=dev-lang/R-3.3.1
+	>=sci-CRAN/dplyr-0.8.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

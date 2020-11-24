@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ddst_1.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/evd
-	sci-CRAN/orthopolynom
+DEPEND="sci-CRAN/orthopolynom
+	sci-CRAN/evd
 "
 RDEPEND="${DEPEND-}"

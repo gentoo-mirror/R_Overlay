@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-BIOC/edgeR
 	sci-CRAN/jsonlite
 	sci-BIOC/S4Vectors
+	sci-BIOC/edgeR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

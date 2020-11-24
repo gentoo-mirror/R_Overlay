@@ -20,11 +20,11 @@ R_SUGGESTS="
 "
 DEPEND="virtual/Matrix
 	sci-CRAN/bit
+	sci-CRAN/bigmemory
 	>=dev-lang/R-3.0.2
 	virtual/Matrix
 	virtual/Matrix
 	>=sci-CRAN/crochet-2.1.0
-	sci-CRAN/bigmemory
 	sci-CRAN/synchronicity
 	sci-CRAN/ff
 "

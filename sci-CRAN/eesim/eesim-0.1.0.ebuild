@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.5.0 )
 	r_suggests_tidyr? ( >=sci-CRAN/tidyr-0.6.2 )
 "
-DEPEND=">=sci-CRAN/dplyr-0.5.0
+DEPEND=">=sci-CRAN/viridis-0.4.0
 	>=sci-CRAN/purrr-0.2.2
-	>=sci-CRAN/viridis-0.4.0
+	>=sci-CRAN/dplyr-0.5.0
 	>=sci-CRAN/lubridate-1.5.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

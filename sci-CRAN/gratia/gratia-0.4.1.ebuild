@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_scam? ( sci-CRAN/scam )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/mgcv
-	sci-CRAN/mvnfast
-	sci-CRAN/cowplot
-	sci-CRAN/rlang
-	sci-CRAN/tibble
-	sci-CRAN/purrr
-	>=dev-lang/R-3.6.0
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/dplyr
+	virtual/mgcv
+	sci-CRAN/tibble
+	sci-CRAN/ggplot2
+	sci-CRAN/cowplot
+	sci-CRAN/mvnfast
+	sci-CRAN/purrr
 	sci-CRAN/tidyr
+	sci-CRAN/rlang
 	sci-CRAN/patchwork
 	sci-CRAN/vctrs
 "

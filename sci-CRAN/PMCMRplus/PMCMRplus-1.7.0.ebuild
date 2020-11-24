@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=sci-CRAN/mvtnorm-1.0
-	sci-CRAN/Rmpfr
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/multcompView
 	sci-CRAN/gmp
-	>=dev-lang/R-3.5.0
+	sci-CRAN/Rmpfr
+	>=sci-CRAN/mvtnorm-1.0
 	sci-CRAN/SuppDists
 	>=sci-CRAN/kSamples-1.2.7
 	>=sci-CRAN/BWStest-0.2.1

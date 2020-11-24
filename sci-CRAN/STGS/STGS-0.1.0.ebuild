@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/STGS_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/glmnet
-	sci-CRAN/randomForest
-	sci-CRAN/kernlab
+DEPEND="sci-CRAN/randomForest
 	sci-CRAN/brnn
 	sci-CRAN/rrBLUP
+	sci-CRAN/kernlab
+	>=dev-lang/R-3.6
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

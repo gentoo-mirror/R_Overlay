@@ -31,13 +31,13 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/generics
-	virtual/lattice
-	sci-CRAN/dplyr
-	sci-CRAN/broom
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/rlang
 	sci-CRAN/tidyr
+	sci-CRAN/broom
+	sci-CRAN/dplyr
+	sci-CRAN/generics
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/cpp11

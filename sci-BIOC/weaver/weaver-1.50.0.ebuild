@@ -12,7 +12,7 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_codetools"
 R_SUGGESTS="r_suggests_codetools? ( virtual/codetools )"
-DEPEND="virtual/codetools
-	sci-CRAN/digest
+DEPEND="sci-CRAN/digest
+	virtual/codetools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

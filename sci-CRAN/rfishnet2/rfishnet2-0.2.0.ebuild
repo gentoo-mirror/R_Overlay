@@ -12,9 +12,9 @@ LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.6
 	>=sci-CRAN/ggplot2-3.2.1
-	>=sci-CRAN/sf-0.8.0
 	>=sci-CRAN/pracma-2.2.5
 	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/sf-0.8.0
 	>=sci-CRAN/rworldmap-1.3.6
 "
 RDEPEND="${DEPEND-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/thief_0.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/forecast-7.2
 	sci-CRAN/ggplot2
 	sci-CRAN/hts
+	>=sci-CRAN/forecast-7.2
 "
 RDEPEND="${DEPEND-}"

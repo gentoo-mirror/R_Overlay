@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_xts? ( sci-CRAN/xts )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="sci-CRAN/minpack_lm
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/minpack_lm
 	sci-CRAN/timeSeries
-	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,11 +11,11 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/GeneSelect
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.13.2
-	sci-BIOC/limma
+	virtual/survival
 	sci-BIOC/Biobase
 	virtual/MASS
 	sci-BIOC/Biobase
-	virtual/survival
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-}"
 

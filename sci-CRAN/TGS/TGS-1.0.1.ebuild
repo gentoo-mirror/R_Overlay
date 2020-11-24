@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/rjson
-	sci-CRAN/foreach
 	sci-CRAN/bnstruct
-	sci-CRAN/doParallel
 	sci-CRAN/ggm
+	sci-CRAN/foreach
+	sci-CRAN/doParallel
 	>=sci-BIOC/minet-3.38.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_nlme? ( virtual/nlme )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/data_table
+DEPEND="virtual/survival
 	sci-CRAN/geepack
-	virtual/survival
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,9 +12,9 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )"
-DEPEND="sci-CRAN/flextable
-	sci-CRAN/msm
-	sci-CRAN/car
+DEPEND="sci-CRAN/car
 	sci-CRAN/officer
+	sci-CRAN/msm
+	sci-CRAN/flextable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

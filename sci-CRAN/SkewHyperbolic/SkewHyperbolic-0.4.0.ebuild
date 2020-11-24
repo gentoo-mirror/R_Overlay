@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
-DEPEND="sci-CRAN/GeneralizedHyperbolic
-	>=dev-lang/R-3.0.1
+DEPEND=">=dev-lang/R-3.0.1
 	sci-CRAN/DistributionUtils
+	sci-CRAN/GeneralizedHyperbolic
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

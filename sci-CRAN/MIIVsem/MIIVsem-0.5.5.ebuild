@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MIIVsem_0.5.5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/car
-	virtual/boot
-	virtual/Matrix
+DEPEND="sci-CRAN/lavaan
 	sci-CRAN/numDeriv
-	sci-CRAN/lavaan
+	virtual/Matrix
+	virtual/boot
+	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}"

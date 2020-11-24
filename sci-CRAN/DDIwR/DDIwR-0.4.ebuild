@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DDIwR_0.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/readr
-	sci-CRAN/tibble
-	sci-CRAN/haven
+DEPEND="sci-CRAN/tibble
 	>=sci-CRAN/admisc-0.4
 	sci-CRAN/xml2
+	sci-CRAN/haven
+	>=dev-lang/R-3.3.0
+	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-}"

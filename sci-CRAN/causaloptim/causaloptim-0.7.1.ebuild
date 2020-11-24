@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/igraph
-	sci-CRAN/shiny
 	>=sci-CRAN/Rcpp-1.0.1
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

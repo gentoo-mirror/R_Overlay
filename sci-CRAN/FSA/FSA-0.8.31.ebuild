@@ -27,15 +27,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/car
 	sci-CRAN/lmtest
-	sci-CRAN/sciplot
-	sci-CRAN/car
-	sci-CRAN/plotrix
-	sci-CRAN/withr
-	sci-CRAN/dplyr
-	sci-CRAN/dunn_test
 	sci-CRAN/plyr
+	sci-CRAN/dplyr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/dunn_test
+	sci-CRAN/plotrix
+	sci-CRAN/sciplot
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

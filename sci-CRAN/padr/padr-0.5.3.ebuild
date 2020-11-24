@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/rlang
-	sci-CRAN/lubridate
+DEPEND="sci-CRAN/rlang
 	>=sci-CRAN/dplyr-0.6.0
+	sci-CRAN/Rcpp
+	sci-CRAN/lubridate
 	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}

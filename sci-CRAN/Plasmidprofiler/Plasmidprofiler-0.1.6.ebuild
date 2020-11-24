@@ -15,18 +15,18 @@ R_SUGGESTS="r_suggests_lintr? ( sci-CRAN/lintr )"
 DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/dplyr
 	sci-CRAN/ape
-	sci-CRAN/ggdendro
-	sci-CRAN/gdata
-	sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
+	sci-CRAN/magrittr
 	sci-CRAN/gtable
-	sci-CRAN/plyr
+	sci-CRAN/plotly
 	sci-CRAN/RColorBrewer
 	sci-CRAN/reshape2
-	sci-CRAN/stringr
+	sci-CRAN/gdata
+	sci-CRAN/ggdendro
+	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
 	sci-CRAN/htmlwidgets
-	sci-CRAN/magrittr
-	sci-CRAN/plotly
+	sci-CRAN/plyr
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

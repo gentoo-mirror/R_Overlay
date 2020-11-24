@@ -27,12 +27,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_segmented? ( sci-CRAN/segmented )
 "
-DEPEND="virtual/boot
-	virtual/MASS
-	sci-CRAN/knitr
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/nlme
-	>=dev-lang/R-3.5.0
+	sci-CRAN/knitr
 	virtual/Matrix
+	virtual/boot
+	virtual/MASS
 	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_matrix? ( virtual/Matrix )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/stringr-1.4.0
-	virtual/nlme
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/lme4-1.1.23
+DEPEND=">=sci-CRAN/lme4-1.1.23
+	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/dplyr-0.8.5
+	>=dev-lang/R-3.2.0
+	virtual/nlme
 	>=sci-CRAN/rlang-0.4.6
+	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/tidyselect-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LongCART_2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/nlme
-	sci-CRAN/magic
-	sci-CRAN/Formula
-	>=dev-lang/R-3.4.0
-	virtual/rpart
+DEPEND=">=dev-lang/R-3.4.0
 	virtual/survival
+	sci-CRAN/Formula
+	sci-CRAN/magic
 	sci-CRAN/survminer
+	virtual/rpart
+	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

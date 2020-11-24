@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/lmviz_0.2.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/shinyjs
-	virtual/MASS
-	sci-CRAN/lmtest
-	virtual/mgcv
 	sci-CRAN/scatterplot3d
+	sci-CRAN/shinyjs
 	sci-CRAN/rgl
 	sci-CRAN/car
+	virtual/mgcv
+	sci-CRAN/lmtest
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

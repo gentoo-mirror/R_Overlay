@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/SCAN.UPC_2.26.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-2.14.0
-	>=sci-BIOC/Biobase-2.6.0
-	sci-BIOC/IRanges
-	sci-BIOC/GEOquery
-	sci-BIOC/Biostrings
+DEPEND="sci-BIOC/Biostrings
+	sci-BIOC/affyio
 	sci-BIOC/oligo
 	sci-BIOC/affy
-	sci-BIOC/affyio
+	sci-BIOC/GEOquery
 	sci-CRAN/foreach
 	sci-BIOC/sva
 	virtual/MASS
+	>=dev-lang/R-2.14.0
+	>=sci-BIOC/Biobase-2.6.0
+	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-}"
 

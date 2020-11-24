@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_rfoc? ( sci-CRAN/RFOC )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/reshape
-	>=dev-lang/R-4.0.0
-	sci-CRAN/stringr
-	sci-CRAN/XML
-	>=sci-CRAN/dplyr-1.0.0
+DEPEND=">=sci-CRAN/dplyr-1.0.0
 	sci-CRAN/shiny
 	sci-CRAN/diagram
+	sci-CRAN/XML
+	>=dev-lang/R-4.0.0
+	sci-CRAN/stringr
+	sci-CRAN/reshape
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

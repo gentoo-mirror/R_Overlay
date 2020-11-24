@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mixsep_0.2.1-2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/RODBC
+DEPEND="virtual/MASS
+	sci-CRAN/RODBC
 	dev-lang/R[tk]
 	dev-lang/R[tk]
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_boot? ( virtual/boot )
 	r_suggests_matchit? ( sci-CRAN/MatchIt )
 "
-DEPEND="sci-CRAN/htmltools
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/yaml
+	sci-CRAN/htmltools
 	sci-CRAN/knitr
-	sci-CRAN/yaml
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

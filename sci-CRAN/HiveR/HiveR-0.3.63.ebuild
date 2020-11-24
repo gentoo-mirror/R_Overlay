@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/RColorBrewer
-	sci-CRAN/jpeg
-	sci-CRAN/plyr
-	sci-CRAN/png
 	sci-CRAN/rgl
 	dev-lang/R[tk]
+	sci-CRAN/png
+	sci-CRAN/RColorBrewer
+	sci-CRAN/plyr
+	sci-CRAN/jpeg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

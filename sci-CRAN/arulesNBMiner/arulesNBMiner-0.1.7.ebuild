@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/arulesNBMiner_0.1-7.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-CRAN/rJava-0.9.0
+DEPEND=">=dev-lang/R-3.6
 	>=sci-CRAN/arules-1.6.0
-	>=dev-lang/R-3.6
+	>=sci-CRAN/rJava-0.9.0
 "
 RDEPEND="${DEPEND-} virtual/jdk"

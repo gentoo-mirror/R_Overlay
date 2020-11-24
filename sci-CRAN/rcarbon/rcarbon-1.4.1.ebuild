@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/sp
-	sci-CRAN/spatstat
-	sci-CRAN/doSNOW
-	sci-CRAN/snow
+DEPEND="sci-CRAN/snow
 	sci-CRAN/foreach
 	sci-CRAN/iterators
+	sci-CRAN/doSNOW
 	sci-CRAN/knitr
+	>=dev-lang/R-3.3.0
+	sci-CRAN/spatstat
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

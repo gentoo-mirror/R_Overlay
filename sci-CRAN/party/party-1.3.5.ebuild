@@ -22,14 +22,14 @@ R_SUGGESTS="
 	r_suggests_varimp? ( sci-CRAN/varImp )
 	r_suggests_vcd? ( sci-CRAN/vcd )
 "
-DEPEND=">=sci-CRAN/sandwich-1.1.1
-	sci-CRAN/strucchange
-	>=dev-lang/R-3.0.0
-	>=sci-CRAN/mvtnorm-1.0.2
-	>=sci-CRAN/modeltools-0.2.21
-	virtual/survival
-	>=sci-CRAN/coin-1.1.0
+DEPEND=">=sci-CRAN/coin-1.1.0
+	>=sci-CRAN/sandwich-1.1.1
 	sci-CRAN/zoo
+	>=sci-CRAN/mvtnorm-1.0.2
+	>=dev-lang/R-3.0.0
+	>=sci-CRAN/modeltools-0.2.21
+	sci-CRAN/strucchange
+	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/mvtnorm

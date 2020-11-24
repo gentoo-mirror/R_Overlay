@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/difR_5.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/ltm
+	sci-CRAN/deltaPlotR
 	sci-CRAN/lme4
 	sci-CRAN/mirt
-	sci-CRAN/ltm
-	sci-CRAN/deltaPlotR
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}"

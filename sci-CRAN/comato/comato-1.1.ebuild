@@ -12,10 +12,10 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/igraph
 	virtual/Matrix
-	sci-CRAN/XML
 	virtual/cluster
-	sci-CRAN/gdata
 	virtual/lattice
+	sci-CRAN/XML
+	sci-CRAN/gdata
 	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

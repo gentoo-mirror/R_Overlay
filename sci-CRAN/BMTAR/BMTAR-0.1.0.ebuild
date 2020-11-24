@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BMTAR_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.6.0
+DEPEND="sci-CRAN/expm
+	sci-CRAN/doParallel
+	sci-CRAN/ks
+	>=dev-lang/R-3.6.0
 	virtual/MASS
+	sci-CRAN/MCMCpack
 	sci-CRAN/Brobdingnag
 	sci-CRAN/mvtnorm
-	sci-CRAN/expm
-	sci-CRAN/MCMCpack
-	sci-CRAN/ks
-	sci-CRAN/doParallel
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

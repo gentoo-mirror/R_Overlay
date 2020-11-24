@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/accSDA_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/rARPACK-0.10.0
-	>=sci-CRAN/sparseLDA-0.1.7
+DEPEND=">=dev-lang/R-3.2
 	virtual/MASS
-	>=sci-CRAN/gridExtra-2.2.1
-	>=sci-CRAN/ggplot2-2.1.0
-	>=dev-lang/R-3.2
 	>=sci-CRAN/ggthemes-3.2.0
+	>=sci-CRAN/rARPACK-0.10.0
+	>=sci-CRAN/ggplot2-2.1.0
+	>=sci-CRAN/sparseLDA-0.1.7
+	>=sci-CRAN/gridExtra-2.2.1
 "
 RDEPEND="${DEPEND-}"

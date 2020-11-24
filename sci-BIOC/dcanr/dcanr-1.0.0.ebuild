@@ -28,16 +28,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/stringr
+DEPEND="sci-CRAN/igraph
 	sci-CRAN/circlize
+	sci-CRAN/doRNG
+	sci-CRAN/RColorBrewer
+	>=dev-lang/R-3.6.0
+	sci-CRAN/stringr
 	sci-CRAN/foreach
 	sci-CRAN/plyr
-	>=dev-lang/R-3.6.0
-	sci-CRAN/igraph
 	sci-CRAN/reshape2
 	virtual/Matrix
-	sci-CRAN/RColorBrewer
-	sci-CRAN/doRNG
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

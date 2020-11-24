@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/tibble
-	sci-CRAN/xml2
+	sci-CRAN/rvest
 	sci-CRAN/jsonlite
 	sci-CRAN/purrr
-	sci-CRAN/rvest
 	sci-CRAN/crul
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

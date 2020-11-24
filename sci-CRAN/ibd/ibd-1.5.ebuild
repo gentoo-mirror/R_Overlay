@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_multcompview"
 R_SUGGESTS="r_suggests_multcompview? ( sci-CRAN/multcompView )"
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/multcomp
-	sci-CRAN/car
 	sci-CRAN/emmeans
+	sci-CRAN/car
 	sci-CRAN/lpSolve
+	sci-CRAN/multcomp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

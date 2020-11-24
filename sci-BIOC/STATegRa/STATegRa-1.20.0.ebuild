@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/calibrate
-	virtual/MASS
-	sci-CRAN/ggplot2
-	sci-BIOC/Biobase
-	sci-CRAN/gplots
-	sci-BIOC/edgeR
+DEPEND="sci-CRAN/ggplot2
 	sci-BIOC/limma
 	sci-CRAN/foreach
+	sci-CRAN/gridExtra
+	sci-CRAN/gplots
 	sci-BIOC/affy
+	sci-BIOC/Biobase
+	virtual/MASS
+	sci-CRAN/calibrate
+	sci-BIOC/edgeR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

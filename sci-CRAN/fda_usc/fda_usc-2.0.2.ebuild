@@ -12,12 +12,12 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_rmarkdown"
 R_SUGGESTS="r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )"
-DEPEND="virtual/MASS
-	sci-CRAN/fda
+DEPEND="virtual/mgcv
 	virtual/nlme
-	virtual/mgcv
-	sci-CRAN/doParallel
-	sci-CRAN/iterators
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	virtual/MASS
+	sci-CRAN/fda
+	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

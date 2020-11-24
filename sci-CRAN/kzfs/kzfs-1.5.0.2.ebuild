@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_polynom"
 R_SUGGESTS="r_suggests_polynom? ( sci-CRAN/polynom )"
 DEPEND=">=dev-lang/R-3.3.2
-	sci-CRAN/digest
 	sci-CRAN/kzft
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

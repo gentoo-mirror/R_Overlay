@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/gensphere_1.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/SimplicialCubature
 	sci-CRAN/geometry
 	sci-CRAN/mvmesh
 	sci-CRAN/rgl
 	sci-CRAN/SphericalCubature
+	sci-CRAN/SimplicialCubature
 "
 RDEPEND="${DEPEND-}"

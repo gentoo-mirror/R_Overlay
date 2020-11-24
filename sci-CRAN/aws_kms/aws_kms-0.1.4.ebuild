@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/aws.kms_0.1.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/httr
+	>=sci-CRAN/aws_signature-0.4.0
 	sci-CRAN/jsonlite
 	sci-CRAN/base64enc
-	>=sci-CRAN/aws_signature-0.4.0
 "
 RDEPEND="${DEPEND-}"

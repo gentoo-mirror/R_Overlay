@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-2.15 sci-CRAN/optimx sci-CRAN/cmaes sci-CRAN/foreach dev-lang/R
+DEPEND=>=dev-lang/R-2.15 sci-CRAN/foreach sci-CRAN/optimx sci-CRAN/cmaes dev-lang/R
 DESCRIPTION=Automated Parameter Estimation f... (see metadata)
 EAPI=7
 IUSE=r_suggests_desolve byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=>=dev-lang/R-2.15 sci-CRAN/optimx sci-CRAN/cmaes sci-CRAN/foreach r_suggests_desolve? ( sci-CRAN/deSolve ) dev-lang/R
+RDEPEND=>=dev-lang/R-2.15 sci-CRAN/foreach sci-CRAN/optimx sci-CRAN/cmaes r_suggests_desolve? ( sci-CRAN/deSolve ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/calibrar_0.2.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=b082b11470d44cbb540d4e0200652a28
+_md5_=b513719fdee8dc4b636c23d74402134e

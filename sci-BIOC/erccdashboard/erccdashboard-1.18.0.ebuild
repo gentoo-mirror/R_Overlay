@@ -11,19 +11,19 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/erccdashbo
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/plyr
-	sci-CRAN/ROCR
-	sci-CRAN/reshape2
-	sci-BIOC/qvalue
-	sci-CRAN/scales
-	sci-CRAN/stringr
-	>=sci-CRAN/ggplot2-2.1.0
-	sci-CRAN/gplots
-	sci-BIOC/edgeR
 	>=sci-CRAN/gridExtra-2.0.0
+	>=sci-CRAN/ggplot2-2.1.0
+	sci-BIOC/edgeR
+	sci-CRAN/gplots
 	sci-CRAN/gtools
 	sci-BIOC/limma
 	sci-CRAN/locfit
 	virtual/MASS
+	sci-CRAN/stringr
+	sci-CRAN/plyr
+	sci-BIOC/qvalue
+	sci-CRAN/reshape2
+	sci-CRAN/ROCR
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}"

@@ -21,8 +21,8 @@ DEPEND=">=dev-lang/R-2.14.0
 "
 RDEPEND="${DEPEND-}
 	|| ( media-gfx/imagemagick media-gfx/graphicsmagick )
-	media-gfx/swftools
 	app-text/texlive
+	media-gfx/swftools
 	virtual/ffmpeg
 	${R_SUGGESTS-}
 "

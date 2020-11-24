@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/ideq_0.1.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/Matrix
-	sci-CRAN/mvtnorm
 	sci-CRAN/Rcpp
+	sci-CRAN/mvtnorm
 	sci-CRAN/pdist
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

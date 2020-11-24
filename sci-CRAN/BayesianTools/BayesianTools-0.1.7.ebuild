@@ -22,21 +22,21 @@ R_SUGGESTS="
 	r_suggests_sensitivity? ( sci-CRAN/sensitivity )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/gap
-	virtual/Matrix
-	sci-CRAN/bridgesampling
-	sci-CRAN/msm
+DEPEND="sci-CRAN/mvtnorm
+	virtual/MASS
+	sci-CRAN/emulator
+	sci-CRAN/ellipse
+	sci-CRAN/tmvtnorm
 	sci-CRAN/DHARMa
+	sci-CRAN/bridgesampling
 	>=dev-lang/R-3.1.2
 	sci-CRAN/coda
-	sci-CRAN/tmvtnorm
-	sci-CRAN/mvtnorm
-	sci-CRAN/emulator
 	sci-CRAN/IDPmisc
 	>=sci-CRAN/Rcpp-0.12.12
-	sci-CRAN/ellipse
 	sci-CRAN/numDeriv
+	sci-CRAN/msm
+	virtual/Matrix
+	sci-CRAN/gap
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

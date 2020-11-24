@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_hmisc? ( sci-CRAN/Hmisc )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/abind
-	sci-CRAN/Rcpp
-	virtual/KernSmooth
+DEPEND="sci-CRAN/Rcpp
+	sci-CRAN/abind
 	sci-CRAN/gtools
 	>=dev-lang/R-3.0.0
+	virtual/KernSmooth
 	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}

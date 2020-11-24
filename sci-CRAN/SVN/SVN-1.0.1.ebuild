@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/SVN_1.0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/igraph
-	sci-CRAN/memoise
 	sci-CRAN/data_table
+	sci-CRAN/memoise
 "
 RDEPEND="${DEPEND-}"

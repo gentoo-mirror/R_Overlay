@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_randomforest? ( sci-CRAN/randomForest )
 "
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/pbapply
 	sci-CRAN/xtable
+	sci-CRAN/pbapply
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

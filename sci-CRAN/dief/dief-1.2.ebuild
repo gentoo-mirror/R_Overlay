@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dief_1.2.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/flux
+	sci-CRAN/ggplot2
 	sci-CRAN/plyr
-	sci-CRAN/flux
 	sci-CRAN/fmsb
 "
 RDEPEND="${DEPEND-}"

@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_readstata13? ( sci-CRAN/readstata13 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/survival
-	virtual/mgcv
-	>=sci-CRAN/bbmle-1.0.20
-	>=dev-lang/R-3.0.2
-	>=sci-CRAN/Rcpp-0.10.2
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/fastGHQuad
+	virtual/survival
 	sci-CRAN/deSolve
+	virtual/mgcv
+	>=sci-CRAN/Rcpp-0.10.2
+	>=sci-CRAN/bbmle-1.0.20
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

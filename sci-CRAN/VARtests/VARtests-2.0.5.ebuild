@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/VARtests_2.0.5.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/Rcpp
 	sci-CRAN/sn
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.10

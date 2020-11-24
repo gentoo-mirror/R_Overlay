@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_modeldata? ( sci-CRAN/modeldata )
 "
-DEPEND="sci-CRAN/partykit
-	>=sci-CRAN/Cubist-0.2.3
+DEPEND=">=sci-CRAN/Cubist-0.2.3
+	sci-CRAN/partykit
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

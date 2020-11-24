@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tmap? ( sci-CRAN/tmap )
 "
-DEPEND=">=sci-CRAN/tidyr-1.0.0
-	>=sci-CRAN/circlize-0.4.8
-	>=sci-CRAN/dplyr-0.8.3
+DEPEND=">=dev-lang/R-3.4.0
 	>=sci-CRAN/ggplot2-3.2.1
-	>=dev-lang/R-3.4.0
+	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/tidyr-1.0.0
 	>=sci-CRAN/gridExtra-2.3
+	>=sci-CRAN/circlize-0.4.8
 	>=sci-CRAN/networkD3-0.4
 	>=sci-CRAN/raster-3.0.7
 "

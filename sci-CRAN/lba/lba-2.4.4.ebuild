@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/lba_2.4.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/rgl
+	sci-CRAN/plotrix
 	sci-CRAN/scatterplot3d
 	virtual/MASS
-	sci-CRAN/plotrix
 	sci-CRAN/alabama
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

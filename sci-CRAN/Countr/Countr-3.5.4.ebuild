@@ -15,25 +15,25 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Formula
-	sci-CRAN/optimx
+DEPEND="sci-CRAN/flexsurv
+	sci-CRAN/standardize
 	sci-CRAN/lmtest
+	sci-CRAN/RColorBrewer
+	sci-CRAN/numDeriv
 	virtual/Matrix
-	sci-CRAN/flexsurv
-	sci-CRAN/car
+	virtual/MASS
+	sci-CRAN/dplyr
+	sci-CRAN/pscl
+	sci-CRAN/xtable
+	>=dev-lang/R-3.3.0
 	>=sci-CRAN/Rcpp-0.11.3
 	sci-CRAN/VGAM
 	virtual/boot
-	virtual/MASS
-	virtual/lattice
-	sci-CRAN/dplyr
-	sci-CRAN/numDeriv
-	sci-CRAN/RColorBrewer
-	sci-CRAN/pscl
-	>=dev-lang/R-3.3.0
+	sci-CRAN/car
 	>=sci-CRAN/Rdpack-0.7.0
-	sci-CRAN/standardize
-	sci-CRAN/xtable
+	sci-CRAN/Formula
+	sci-CRAN/optimx
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/mssqlR_1.0.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/magrittr
 	sci-CRAN/RODBC
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

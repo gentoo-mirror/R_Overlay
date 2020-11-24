@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/xml2
+DEPEND="sci-CRAN/readxl
 	sci-CRAN/tibble
 	>=sci-CRAN/ckanr-0.4.0
+	sci-CRAN/magrittr
 	sci-CRAN/sf
-	sci-CRAN/readxl
+	sci-CRAN/xml2
 	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_lme4? ( sci-CRAN/lme4 )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND=">=dev-lang/R-3.2.1
+DEPEND="virtual/boot
+	>=dev-lang/R-3.2.1
 	sci-CRAN/TraMineR
-	virtual/boot
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/cvTools_0.3.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.11.0
-	sci-CRAN/robustbase
-	sci-CRAN/robustbase
 	virtual/lattice
 	virtual/lattice
+	sci-CRAN/robustbase
+	sci-CRAN/robustbase
 "
 RDEPEND="${DEPEND-}"

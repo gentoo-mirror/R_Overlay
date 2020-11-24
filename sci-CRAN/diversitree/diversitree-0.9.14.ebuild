@@ -22,12 +22,12 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/deSolve-1.7
 	sci-CRAN/ape
-	>=sci-CRAN/Rcpp-0.10.0
 	sci-CRAN/subplex
+	>=sci-CRAN/Rcpp-0.10.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-libs/gsl
 	>=sci-libs/fftw-3
+	sci-libs/gsl
 	${R_SUGGESTS-}
 "

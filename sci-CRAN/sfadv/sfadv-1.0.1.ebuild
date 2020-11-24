@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sfadv_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/gmm
-	sci-CRAN/minpack_lm
+DEPEND="sci-CRAN/minpack_lm
+	sci-CRAN/gmm
 "
 RDEPEND="${DEPEND-}"

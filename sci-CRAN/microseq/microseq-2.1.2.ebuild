@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/microseq_2.1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
-	sci-CRAN/tibble
-	>=sci-CRAN/Rcpp-0.12.0
-	sci-CRAN/data_table
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/rlang
+	sci-CRAN/stringr
+	sci-CRAN/tibble
+	>=dev-lang/R-3.5.0
+	sci-CRAN/data_table
+	>=sci-CRAN/Rcpp-0.12.0
 "
 RDEPEND="${DEPEND-} >=sci-CRAN/Rcpp-0.12.0"

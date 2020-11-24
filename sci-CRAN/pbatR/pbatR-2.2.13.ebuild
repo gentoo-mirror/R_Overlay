@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_kinship2? ( sci-CRAN/kinship2 )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND="virtual/survival
-	sci-CRAN/rootSolve
+DEPEND="sci-CRAN/rootSolve
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,15 +12,15 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_dompi"
 R_SUGGESTS="r_suggests_dompi? ( sci-CRAN/doMPI )"
-DEPEND="sci-CRAN/doParallel
+DEPEND="sci-CRAN/Rcpp
 	>=dev-lang/R-3.1.0
 	sci-CRAN/foreach
-	sci-CRAN/Rcpp
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppNumerical
-	sci-CRAN/RcppEigen
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppEigen
+	sci-CRAN/RcppNumerical
 	${R_SUGGESTS-}
 "

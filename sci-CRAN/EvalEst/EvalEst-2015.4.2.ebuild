@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EvalEst_2015.4-2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/tfplot
-	>=sci-CRAN/dse-2007.10.1
+DEPEND=">=sci-CRAN/tframe-2007.5.3
+	sci-CRAN/tfplot
 	sci-CRAN/setRNG
-	>=sci-CRAN/tframe-2007.5.3
+	>=sci-CRAN/dse-2007.10.1
 "
 RDEPEND="${DEPEND-}"

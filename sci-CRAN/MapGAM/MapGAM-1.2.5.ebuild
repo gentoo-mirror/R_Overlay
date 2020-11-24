@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_maps? ( sci-CRAN/maps )
 	r_suggests_pbsmapping? ( sci-CRAN/PBSmapping )
 "
-DEPEND="sci-CRAN/gam
-	sci-CRAN/colorspace
+DEPEND="sci-CRAN/sp
 	virtual/survival
-	sci-CRAN/sp
 	sci-CRAN/maptools
+	sci-CRAN/colorspace
+	sci-CRAN/gam
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

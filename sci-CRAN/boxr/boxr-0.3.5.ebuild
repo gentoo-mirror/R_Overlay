@@ -28,18 +28,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httpuv
-	sci-CRAN/bit64
-	sci-CRAN/digest
-	sci-CRAN/dplyr
-	sci-CRAN/fs
-	>=sci-CRAN/httr-1.1.0
-	sci-CRAN/stringr
-	sci-CRAN/assertthat
-	sci-CRAN/rio
-	sci-CRAN/mime
-	sci-CRAN/glue
+DEPEND="sci-CRAN/bit64
 	sci-CRAN/rlang
+	sci-CRAN/mime
+	sci-CRAN/rio
+	sci-CRAN/glue
+	>=sci-CRAN/httr-1.1.0
+	sci-CRAN/assertthat
+	sci-CRAN/httpuv
+	sci-CRAN/dplyr
+	sci-CRAN/stringr
+	sci-CRAN/digest
+	sci-CRAN/fs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

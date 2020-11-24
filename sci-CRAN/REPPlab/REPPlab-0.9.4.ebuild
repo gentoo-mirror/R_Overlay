@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_tourr? ( sci-CRAN/tourr )
 "
 DEPEND=">=dev-lang/R-2.15.1
-	>=sci-CRAN/LDRTools-0.2
 	virtual/lattice
+	>=sci-CRAN/LDRTools-0.2
 	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

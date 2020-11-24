@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ORION_1.0.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/knitr
-	sci-CRAN/randomForest
-	sci-CRAN/TunePareto
-	sci-CRAN/foreach
-	sci-CRAN/e1071
-	sci-CRAN/rmarkdown
+DEPEND="sci-CRAN/e1071
 	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	sci-CRAN/randomForest
+	sci-CRAN/knitr
+	sci-CRAN/rmarkdown
+	sci-CRAN/TunePareto
 	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

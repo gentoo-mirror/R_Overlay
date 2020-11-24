@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/reshape2
-	sci-CRAN/shiny
-	sci-CRAN/ggplot2
-	sci-CRAN/shinythemes
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/BiasedUrn
+	sci-CRAN/shiny
+	sci-CRAN/shinythemes
+	sci-CRAN/plyr
+	sci-CRAN/ggplot2
 	sci-CRAN/shinyBS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/bayeslongitudinal_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/mvtnorm
 	virtual/MASS
 	sci-CRAN/LearnBayes
-	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

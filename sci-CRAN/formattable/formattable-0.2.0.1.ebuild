@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/htmltools
-	>dev-lang/R-3.0.2
-	sci-CRAN/htmlwidgets
-	sci-CRAN/knitr
+DEPEND="sci-CRAN/knitr
 	sci-CRAN/rmarkdown
+	sci-CRAN/htmlwidgets
+	>dev-lang/R-3.0.2
+	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

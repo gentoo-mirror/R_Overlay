@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcfr? ( sci-CRAN/vcfR )
 "
-DEPEND=">=sci-CRAN/bigutilsr-0.3
+DEPEND="sci-CRAN/RSpectra
+	sci-CRAN/ggplot2
 	sci-CRAN/data_table
+	>=sci-CRAN/bigutilsr-0.3
 	>=sci-CRAN/mmapcharr-0.3
 	sci-CRAN/magrittr
-	sci-CRAN/ggplot2
 	>=sci-CRAN/Rcpp-0.12.8
-	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/mmapcharr
-	sci-CRAN/rmio
 	sci-CRAN/Rcpp
+	sci-CRAN/rmio
 	${R_SUGGESTS-}
 "

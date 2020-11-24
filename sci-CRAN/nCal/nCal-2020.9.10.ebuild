@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rjags? ( sci-CRAN/rjags )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/gdata
-	sci-CRAN/drc
-	sci-CRAN/gWidgets2
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/kyotil
+	sci-CRAN/gWidgets2
+	sci-CRAN/gdata
+	sci-CRAN/drc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

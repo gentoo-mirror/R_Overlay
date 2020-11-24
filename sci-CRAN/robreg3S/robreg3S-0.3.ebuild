@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/robreg3S_0.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/GSE
-	virtual/MASS
 	sci-CRAN/robustbase
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -27,16 +27,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
 DEPEND=">=sci-CRAN/glue-1.3.1
+	>=sci-CRAN/tidyr-0.8.3
 	>=sci-CRAN/rlang-0.3.4
-	>=sci-CRAN/withr-2.1.2
-	virtual/MASS
-	>=sci-CRAN/magrittr-1.5
-	>=dev-lang/R-3.2
 	>=sci-CRAN/dplyr-0.8.0.1
+	>=dev-lang/R-3.2
 	>=sci-CRAN/fgeo_tool-1.2.4
 	>=sci-CRAN/lubridate-1.7.4
+	>=sci-CRAN/magrittr-1.5
+	virtual/MASS
 	>=sci-CRAN/purrr-0.3.2
 	>=sci-CRAN/tibble-2.1.1
-	>=sci-CRAN/tidyr-0.8.3
+	>=sci-CRAN/withr-2.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

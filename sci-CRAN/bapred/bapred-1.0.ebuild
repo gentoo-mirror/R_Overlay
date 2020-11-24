@@ -13,15 +13,15 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_arrayexpress"
 R_SUGGESTS="r_suggests_arrayexpress? ( sci-BIOC/ArrayExpress )"
 DEPEND="sci-BIOC/sva
-	sci-CRAN/lme4
 	sci-BIOC/affyPLM
-	>=dev-lang/R-3.1.0
-	sci-CRAN/glmnet
-	virtual/MASS
+	sci-CRAN/mnormt
 	sci-CRAN/FNN
 	sci-CRAN/fuzzyRankTests
-	sci-CRAN/mnormt
 	sci-BIOC/affy
 	sci-BIOC/Biobase
+	>=dev-lang/R-3.1.0
+	sci-CRAN/glmnet
+	sci-CRAN/lme4
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

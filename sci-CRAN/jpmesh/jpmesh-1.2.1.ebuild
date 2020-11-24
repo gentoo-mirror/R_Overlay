@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.10 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/miniUI-0.1.1
-	>=sci-CRAN/units-0.5.1
+DEPEND=">=dev-lang/R-3.1
+	>=sci-CRAN/shiny-1.0.5
+	>=sci-CRAN/miniUI-0.1.1
 	>=sci-CRAN/purrr-0.2.4
 	>=sci-CRAN/rlang-0.1.4
-	>=sci-CRAN/sf-0.5.5
-	>=sci-CRAN/magrittr-1.5
-	>=dev-lang/R-3.1
-	>=sci-CRAN/leaflet-1.1.0
-	>=sci-CRAN/shiny-1.0.5
 	>=sci-CRAN/tibble-3.0.0
+	>=sci-CRAN/units-0.5.1
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/leaflet-1.1.0
+	>=sci-CRAN/sf-0.5.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

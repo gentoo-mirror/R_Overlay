@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_twang? ( >=sci-CRAN/twang-1.5 )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	virtual/Matrix
 	>=sci-CRAN/osqp-0.6.0.2
+	virtual/Matrix
 	>=sci-CRAN/ggplot2-3.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

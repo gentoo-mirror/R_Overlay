@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_vinecopula? ( sci-CRAN/VineCopula )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.11.2
-	sci-CRAN/locfit
+	sci-CRAN/qrng
 	virtual/lattice
 	>=dev-lang/R-3.0.0
-	sci-CRAN/qrng
+	sci-CRAN/locfit
 	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-}

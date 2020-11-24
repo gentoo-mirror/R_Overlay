@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_png? ( sci-CRAN/png )
 	r_suggests_randomforest? ( sci-CRAN/randomForest )
 "
-DEPEND="virtual/rpart
+DEPEND=">=dev-lang/R-3.2.0
+	virtual/rpart
 	virtual/rpart
 	sci-CRAN/plyr
-	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

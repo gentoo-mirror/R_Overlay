@@ -28,16 +28,16 @@ R_SUGGESTS="
 	r_suggests_survauc? ( sci-CRAN/survAUC )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/R6
-	>=sci-CRAN/distr6-1.4.5
-	virtual/survival
+DEPEND=">=sci-CRAN/mlr3-0.6.0
 	>=sci-CRAN/paradox-0.1.0
-	sci-CRAN/checkmate
-	>=sci-CRAN/mlr3-0.6.0
-	sci-CRAN/data_table
-	>=sci-CRAN/mlr3misc-0.1.7
 	>=sci-CRAN/Rcpp-1.0.4
+	>=sci-CRAN/mlr3misc-0.1.7
+	sci-CRAN/checkmate
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/distr6-1.4.5
+	sci-CRAN/data_table
+	sci-CRAN/R6
+	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

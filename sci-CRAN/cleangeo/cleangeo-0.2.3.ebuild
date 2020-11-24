@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-2.15
-	sci-CRAN/rgeos
 	sci-CRAN/sp
+	sci-CRAN/rgeos
 	sci-CRAN/maptools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

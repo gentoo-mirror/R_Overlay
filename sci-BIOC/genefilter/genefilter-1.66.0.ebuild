@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_roc? ( sci-BIOC/ROC )
 	r_suggests_tkwidgets? ( sci-BIOC/tkWidgets )
 "
-DEPEND=">=sci-BIOC/S4Vectors-0.9.42
+DEPEND="sci-BIOC/Biobase
 	sci-BIOC/AnnotationDbi
-	virtual/survival
+	>=sci-BIOC/S4Vectors-0.9.42
 	sci-BIOC/annotate
-	sci-BIOC/Biobase
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/metRology_0.9-28-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	>=dev-lang/R-2.14.0
-	sci-CRAN/numDeriv
+DEPEND=">=dev-lang/R-2.14.0
 	sci-CRAN/robustbase
+	sci-CRAN/numDeriv
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

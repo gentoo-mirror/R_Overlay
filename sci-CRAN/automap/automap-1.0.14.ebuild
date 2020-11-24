@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_gpclib? ( sci-CRAN/gpclib )
 	r_suggests_maptools? ( sci-CRAN/maptools )
 "
-DEPEND="sci-CRAN/gstat
-	virtual/lattice
+DEPEND="sci-CRAN/reshape
 	>=sci-CRAN/sp-0.9.55
-	sci-CRAN/reshape
+	virtual/lattice
+	sci-CRAN/gstat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

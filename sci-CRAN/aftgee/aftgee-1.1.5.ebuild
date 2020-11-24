@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/aftgee_1.1.5.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/geepack
 	virtual/survival
 	virtual/MASS
 	sci-CRAN/BB
-	sci-CRAN/geepack
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-}"

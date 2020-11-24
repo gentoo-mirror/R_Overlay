@@ -13,8 +13,8 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/shiny
+	sci-CRAN/gridExtra
 	>=sci-CRAN/ggplot2-2.0.0
 	sci-CRAN/scales
-	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

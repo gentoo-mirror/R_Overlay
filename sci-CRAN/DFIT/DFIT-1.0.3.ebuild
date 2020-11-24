@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/DFIT_1.0-3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/simex
-	sci-CRAN/mvtnorm
 	sci-CRAN/ggplot2
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

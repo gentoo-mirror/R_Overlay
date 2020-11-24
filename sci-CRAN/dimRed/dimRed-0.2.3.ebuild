@@ -51,8 +51,8 @@ R_SUGGESTS="
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/magrittr
 	sci-CRAN/DRR
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

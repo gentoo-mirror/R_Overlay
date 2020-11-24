@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	sci-CRAN/futile_logger
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/stringr
 	sci-CRAN/lubridate
+	sci-CRAN/futile_logger
+	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
 	sci-CRAN/gtable
 	sci-CRAN/mtconnectR
-	>=dev-lang/R-3.3.0
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

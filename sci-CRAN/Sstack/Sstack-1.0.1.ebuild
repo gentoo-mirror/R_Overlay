@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Sstack_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/randomForest
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/randomForest
 	sci-CRAN/dplyr
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_prodenica? ( sci-CRAN/ProDenICA )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.9.13
+	sci-CRAN/combinat
 	sci-CRAN/clue
 	virtual/MASS
-	sci-CRAN/combinat
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

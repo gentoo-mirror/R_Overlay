@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/metafor
-	sci-CRAN/coda
 	sci-CRAN/lme4
-	>=sci-CRAN/rjags-4.6
 	virtual/Matrix
+	sci-CRAN/coda
+	>=sci-CRAN/rjags-4.6
 "
 RDEPEND="${DEPEND-} sci-mathematics/jags"

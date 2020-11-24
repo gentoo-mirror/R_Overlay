@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/relSim_0.3-1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/multicool
-	sci-CRAN/stringr
 	sci-CRAN/xml2
-	sci-CRAN/rvest
 	sci-CRAN/xtable
+	sci-CRAN/stringr
+	sci-CRAN/rvest
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DDHFm_1.1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/lokern
-	sci-CRAN/wavethresh
+DEPEND="sci-CRAN/wavethresh
+	sci-CRAN/lokern
 "
 RDEPEND="${DEPEND-}"

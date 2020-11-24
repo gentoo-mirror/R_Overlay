@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/PolynomF-2.0.2
-	>=sci-CRAN/lagged-0.2.2
-	virtual/Matrix
-	sci-CRAN/zoo
-	sci-CRAN/lubridate
+DEPEND="virtual/Matrix
+	sci-CRAN/xts
 	sci-CRAN/BB
 	sci-CRAN/sarima
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/PolynomF-2.0.2
 	sci-CRAN/gbutils
-	sci-CRAN/xts
+	sci-CRAN/zoo
+	>=sci-CRAN/lagged-0.2.2
 	sci-CRAN/mcompanion
 	>=sci-CRAN/Rdpack-0.9
+	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

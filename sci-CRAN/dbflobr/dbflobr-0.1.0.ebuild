@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/chk
-	sci-CRAN/DBI
 	sci-CRAN/glue
 	sci-CRAN/flobr
 	sci-CRAN/RSQLite
+	sci-CRAN/DBI
 	sci-CRAN/crayon
 	sci-CRAN/clisymbols
 	sci-CRAN/rlang

@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/Kendall
-	sci-CRAN/circular
+DEPEND="sci-CRAN/sp
 	sci-CRAN/vegan
 	>=dev-lang/R-3.4.0
-	sci-CRAN/sp
 	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/Kendall
+	sci-CRAN/circular
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}

@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.6
-	sci-CRAN/coda
-	sci-CRAN/logspline
-	sci-CRAN/runjags
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/rjags
+	sci-CRAN/coda
+	sci-CRAN/runjags
 	virtual/MASS
 	sci-CRAN/hypergeo
+	>=sci-CRAN/Rcpp-0.12.6
+	sci-CRAN/logspline
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppArmadillo
 	sci-mathematics/jags
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

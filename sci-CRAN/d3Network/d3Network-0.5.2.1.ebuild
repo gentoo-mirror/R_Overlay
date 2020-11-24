@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_rcurl"
 R_SUGGESTS="r_suggests_rcurl? ( sci-CRAN/RCurl )"
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/rjson
-	sci-CRAN/plyr
 	sci-CRAN/whisker
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

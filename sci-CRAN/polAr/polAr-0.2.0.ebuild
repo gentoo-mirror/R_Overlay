@@ -19,35 +19,35 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_utf8? ( sci-CRAN/utf8 )
 "
-DEPEND=">=sci-CRAN/curl-4.2
-	sci-CRAN/cowplot
-	sci-CRAN/ggthemes
-	sci-CRAN/scales
-	sci-CRAN/formattable
-	sci-CRAN/magrittr
-	sci-CRAN/tibble
-	sci-CRAN/DT
-	sci-CRAN/gt
-	>=sci-CRAN/tidyr-1.1.0
-	sci-CRAN/forcats
+DEPEND="sci-CRAN/cowplot
+	sci-CRAN/wordcloud2
 	sci-CRAN/ggparliament
-	sci-CRAN/glue
-	sci-CRAN/attempt
-	sci-CRAN/purrr
-	sci-CRAN/lubridate
-	>=sci-CRAN/geofacet-0.2.0
-	sci-CRAN/readr
-	sci-CRAN/rvest
-	sci-CRAN/jsonlite
+	sci-CRAN/ggtext
+	sci-CRAN/gt
+	sci-CRAN/ggthemes
 	sci-CRAN/assertthat
 	sci-CRAN/ggplot2
-	sci-CRAN/wordcloud2
-	sci-CRAN/dplyr
-	sci-CRAN/stringr
-	sci-CRAN/xml2
-	>=sci-CRAN/rlang-0.4.3
+	sci-CRAN/scales
 	sci-CRAN/RColorBrewer
+	>=sci-CRAN/tidyr-1.1.0
+	sci-CRAN/readr
+	sci-CRAN/xml2
+	sci-CRAN/DT
+	sci-CRAN/jsonlite
+	sci-CRAN/lubridate
 	sci-CRAN/sf
-	sci-CRAN/ggtext
+	sci-CRAN/dplyr
+	sci-CRAN/formattable
+	sci-CRAN/rvest
+	sci-CRAN/tibble
+	sci-CRAN/forcats
+	>=sci-CRAN/geofacet-0.2.0
+	sci-CRAN/magrittr
+	sci-CRAN/stringr
+	sci-CRAN/glue
+	sci-CRAN/attempt
+	>=sci-CRAN/curl-4.2
+	sci-CRAN/purrr
+	>=sci-CRAN/rlang-0.4.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

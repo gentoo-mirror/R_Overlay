@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/nls2
-	sci-CRAN/reshape2
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/nlstools
-	sci-CRAN/ggplot2
+	sci-CRAN/reshape2
+	sci-CRAN/nls2
 	sci-CRAN/nlmrt
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,22 +18,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/lme4
-	sci-CRAN/ggrepel
+DEPEND=">=sci-CRAN/dplyr-1.0.0
 	sci-CRAN/ggforce
+	>=dev-lang/R-3.5.0
+	sci-CRAN/magrittr
+	sci-CRAN/mathjaxr
+	sci-CRAN/tibble
 	sci-CRAN/progress
 	sci-CRAN/cowplot
 	sci-CRAN/GGally
 	>=sci-CRAN/ggplot2-3.3.0
-	sci-CRAN/lmerTest
-	sci-CRAN/tibble
-	>=sci-CRAN/rlang-0.1.2
-	>=sci-CRAN/tidyselect-1.0.0
-	sci-CRAN/magrittr
-	sci-CRAN/mathjaxr
-	sci-CRAN/tidyr
 	sci-CRAN/purrr
+	sci-CRAN/ggrepel
+	>=sci-CRAN/rlang-0.1.2
+	sci-CRAN/tidyr
+	sci-CRAN/lme4
+	sci-CRAN/lmerTest
+	>=sci-CRAN/tidyselect-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

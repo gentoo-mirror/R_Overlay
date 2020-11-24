@@ -41,13 +41,13 @@ R_SUGGESTS="
 	r_suggests_simpleaffy? ( sci-BIOC/simpleaffy )
 "
 DEPEND="sci-CRAN/RGtk2
+	sci-BIOC/ssize
+	sci-BIOC/impute
+	sci-CRAN/gWidgets2
 	dev-lang/R[tk]
 	sci-BIOC/Rgraphviz
-	sci-CRAN/gWidgets2
 	sci-CRAN/gWidgets2RGtk2
-	sci-BIOC/ssize
 	sci-BIOC/Biobase
-	sci-BIOC/impute
 	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

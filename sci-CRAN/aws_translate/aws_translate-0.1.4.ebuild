@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/aws.translate_0.1.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/httr
-	sci-CRAN/jsonlite
 	>=sci-CRAN/aws_signature-0.3.4
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

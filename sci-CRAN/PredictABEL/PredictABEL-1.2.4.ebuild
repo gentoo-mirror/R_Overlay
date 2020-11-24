@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PredictABEL_1.2-4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/lazyeval
+DEPEND=">=dev-lang/R-2.12.0
 	sci-CRAN/Hmisc
-	>=dev-lang/R-2.12.0
-	sci-CRAN/ROCR
 	sci-CRAN/PBSmodelling
+	sci-CRAN/lazyeval
+	sci-CRAN/ROCR
 "
 RDEPEND="${DEPEND-}"

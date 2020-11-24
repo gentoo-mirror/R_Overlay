@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_eemr"
 R_SUGGESTS="r_suggests_eemr? ( sci-CRAN/eemR )"
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/broom
+	sci-CRAN/tidyr
 	sci-CRAN/minpack_lm
 	sci-CRAN/ggplot2
-	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_knitr? ( >=sci-CRAN/knitr-1.5 )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.1
-	>=sci-CRAN/ggplot2-0.9.3.1
-	>=sci-CRAN/foreach-1.4.1
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/plyr-1.8
 	virtual/survival
+	>=sci-CRAN/Rcpp-0.11.1
+	>=sci-CRAN/ggplot2-0.9.3.1
+	>=sci-CRAN/foreach-1.4.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

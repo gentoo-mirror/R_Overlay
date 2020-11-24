@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_azurevm? ( sci-CRAN/AzureVM )
 "
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/openssl
 	>=sci-CRAN/httr-1.3
+	sci-CRAN/openssl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

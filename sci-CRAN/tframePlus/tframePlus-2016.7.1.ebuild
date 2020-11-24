@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_xts? ( sci-CRAN/xts )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND=">=sci-CRAN/tframe-2015.1.1
-	sci-CRAN/timeSeries
+DEPEND="sci-CRAN/timeSeries
+	>=sci-CRAN/tframe-2015.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/hyperdraw_1.36.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/graph
-	sci-BIOC/hypergraph
+DEPEND="sci-BIOC/hypergraph
 	sci-BIOC/Rgraphviz
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} media-gfx/graphviz"

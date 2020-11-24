@@ -12,13 +12,13 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_statmod"
 R_SUGGESTS="r_suggests_statmod? ( sci-CRAN/statmod )"
-DEPEND="sci-CRAN/RColorBrewer
-	sci-BIOC/Biobase
-	sci-CRAN/gplots
+DEPEND="sci-BIOC/Biobase
+	sci-CRAN/RColorBrewer
 	sci-BIOC/affy
 	sci-BIOC/limma
+	sci-CRAN/gplots
+	sci-BIOC/Biobase
 	sci-BIOC/limma
 	sci-CRAN/RColorBrewer
-	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

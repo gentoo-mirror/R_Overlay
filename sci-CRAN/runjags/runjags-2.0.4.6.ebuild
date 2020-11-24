@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_modeest? ( sci-CRAN/modeest )
 	r_suggests_rjags? ( sci-CRAN/rjags )
 "
-DEPEND=">=sci-CRAN/coda-0.17.1
-	>=dev-lang/R-2.14.0
+DEPEND=">=dev-lang/R-2.14.0
+	>=sci-CRAN/coda-0.17.1
 	virtual/lattice
 "
 RDEPEND="${DEPEND-}

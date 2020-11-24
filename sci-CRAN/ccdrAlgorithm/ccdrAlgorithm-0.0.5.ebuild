@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	>=sci-CRAN/Rcpp-0.11.0
 	>=sci-CRAN/sparsebnUtils-0.0.5
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

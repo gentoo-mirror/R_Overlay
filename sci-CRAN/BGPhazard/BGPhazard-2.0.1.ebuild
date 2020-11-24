@@ -10,9 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BGPhazard_2.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/rlang
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/purrr
-	>=dev-lang/R-3.5.0
 	sci-CRAN/dplyr
 	sci-CRAN/tibble
 	sci-CRAN/magrittr
@@ -21,5 +20,6 @@ DEPEND="sci-CRAN/rlang
 	sci-CRAN/gridExtra
 	sci-CRAN/readr
 	virtual/survival
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}"

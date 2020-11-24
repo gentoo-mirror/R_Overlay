@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.4
 	sci-CRAN/FNN
-	sci-CRAN/moments
-	sci-CRAN/pryr
 	sci-CRAN/lmtest
+	sci-CRAN/pryr
+	sci-CRAN/moments
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

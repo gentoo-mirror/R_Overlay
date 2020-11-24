@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MetFns_3.2.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/plotrix
-	>=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/astroFns
 	sci-CRAN/lubridate
+	sci-CRAN/plotrix
 	sci-CRAN/pracma
-	sci-CRAN/astroFns
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-}"

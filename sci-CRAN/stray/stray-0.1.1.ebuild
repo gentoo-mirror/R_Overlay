@@ -14,7 +14,7 @@ DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/ggplot2
 	sci-CRAN/FNN
 	sci-CRAN/pcaPP
-	sci-CRAN/ks
 	sci-CRAN/colorspace
+	sci-CRAN/ks
 "
 RDEPEND="${DEPEND-}"

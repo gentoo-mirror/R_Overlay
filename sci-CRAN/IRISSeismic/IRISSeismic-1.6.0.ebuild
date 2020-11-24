@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/pracma
-	sci-CRAN/RCurl
-	>=sci-CRAN/seismicRoll-1.1.0
 	sci-CRAN/signal
+	>=sci-CRAN/seismicRoll-1.1.0
+	sci-CRAN/RCurl
 	sci-CRAN/stringr
 	sci-CRAN/XML
 "

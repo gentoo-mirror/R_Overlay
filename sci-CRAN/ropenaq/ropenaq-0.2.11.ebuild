@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 	r_suggests_webmockr? ( >=sci-CRAN/webmockr-0.6.2 )
 "
-DEPEND="sci-CRAN/crul
-	sci-CRAN/tidyr
-	sci-CRAN/dplyr
-	sci-CRAN/lubridate
-	sci-CRAN/magrittr
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/rlang
+	sci-CRAN/tidyr
+	sci-CRAN/lubridate
+	sci-CRAN/crul
+	sci-CRAN/jsonlite
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

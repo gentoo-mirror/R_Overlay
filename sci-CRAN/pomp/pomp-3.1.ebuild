@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_subplex? ( sci-CRAN/subplex )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/deSolve
-	sci-CRAN/plyr
-	>=dev-lang/R-4.0.0
-	sci-CRAN/mvtnorm
-	sci-CRAN/digest
-	sci-CRAN/coda
-	sci-CRAN/reshape2
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/magrittr
+	sci-CRAN/reshape2
+	sci-CRAN/digest
+	>=dev-lang/R-4.0.0
+	sci-CRAN/deSolve
+	sci-CRAN/coda
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

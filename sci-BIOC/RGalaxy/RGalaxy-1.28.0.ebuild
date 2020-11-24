@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/XML
+DEPEND="sci-CRAN/roxygen2
 	sci-BIOC/Biobase
+	sci-CRAN/XML
 	sci-BIOC/BiocGenerics
 	sci-CRAN/optparse
-	sci-CRAN/roxygen2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

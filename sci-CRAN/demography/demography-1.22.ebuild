@@ -13,10 +13,10 @@ LICENSE='GPL-2+'
 DEPEND="sci-CRAN/strucchange
 	sci-CRAN/RCurl
 	>=dev-lang/R-3.4
+	sci-CRAN/cobs
 	sci-CRAN/rainbow
 	>=sci-CRAN/ftsa-4.8
 	>=sci-CRAN/forecast-8.5
-	sci-CRAN/cobs
 	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

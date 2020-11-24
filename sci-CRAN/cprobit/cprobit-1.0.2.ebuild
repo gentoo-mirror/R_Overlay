@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/cprobit_1.0.2.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/car
+	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
 	sci-CRAN/nortest
-	sci-CRAN/gridExtra
-	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}"

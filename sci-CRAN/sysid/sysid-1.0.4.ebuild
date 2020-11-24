@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sysid_1.0.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1
-	>=sci-CRAN/ggplot2-2.1.0
+DEPEND="sci-CRAN/zoo
 	sci-CRAN/signal
-	sci-CRAN/tframe
+	>=dev-lang/R-3.1
+	>=sci-CRAN/ggplot2-2.1.0
 	sci-CRAN/reshape2
+	sci-CRAN/tframe
 	sci-CRAN/polynom
 	sci-CRAN/bitops
-	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}"

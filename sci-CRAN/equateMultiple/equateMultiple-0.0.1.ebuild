@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/equateIRT-2.0.4
+	sci-CRAN/numDeriv
 	>=sci-CRAN/Rcpp-0.12.11
 	sci-CRAN/statmod
-	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

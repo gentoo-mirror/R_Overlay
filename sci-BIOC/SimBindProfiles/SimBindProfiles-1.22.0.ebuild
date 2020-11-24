@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/SimBindProfiles_1.22.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-BIOC/Ringo
+DEPEND="sci-CRAN/mclust
+	sci-BIOC/Ringo
 	sci-BIOC/limma
 	sci-BIOC/Biobase
-	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}"

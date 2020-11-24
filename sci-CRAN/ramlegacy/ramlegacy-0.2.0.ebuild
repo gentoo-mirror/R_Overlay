@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/httr-1.3.1
-	>=sci-CRAN/rappdirs-0.3.1
-	>=sci-CRAN/readxl-1.1.0
 	>=sci-CRAN/cli-1.0.0
 	>=sci-CRAN/crayon-1.3.4
+	>=sci-CRAN/readxl-1.1.0
+	>=sci-CRAN/rappdirs-0.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

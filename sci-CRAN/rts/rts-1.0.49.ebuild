@@ -14,9 +14,9 @@ IUSE="${IUSE-} r_suggests_digest"
 R_SUGGESTS="r_suggests_digest? ( sci-CRAN/digest )"
 DEPEND="sci-CRAN/xts
 	sci-CRAN/zoo
-	sci-CRAN/raster
 	>=sci-CRAN/sp-1.2.0
-	sci-CRAN/RCurl
+	sci-CRAN/raster
 	>=dev-lang/R-3.0.0
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

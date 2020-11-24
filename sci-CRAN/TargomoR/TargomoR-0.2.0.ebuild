@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/leaflet
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/geojsonsf
 	sci-CRAN/httr
 	sci-CRAN/magrittr
+	sci-CRAN/leaflet
 	sci-CRAN/sf
 	sci-CRAN/tibble
 	sci-CRAN/xml2

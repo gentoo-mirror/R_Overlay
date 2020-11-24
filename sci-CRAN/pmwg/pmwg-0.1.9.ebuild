@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rtdists? ( sci-CRAN/rtdists )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/MCMCpack
+DEPEND="sci-CRAN/condMVNorm
 	virtual/MASS
-	sci-CRAN/coda
-	sci-CRAN/condMVNorm
-	>=dev-lang/R-3.5.0
 	sci-CRAN/mvtnorm
+	>=dev-lang/R-3.5.0
+	sci-CRAN/coda
+	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

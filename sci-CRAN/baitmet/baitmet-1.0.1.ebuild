@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_mzr? ( sci-BIOC/mzR )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND="sci-CRAN/XML
-	>=sci-CRAN/erah-1.0.5
-	sci-CRAN/Rcpp
-	sci-CRAN/HiClimR
+DEPEND=">=sci-CRAN/erah-1.0.5
 	sci-CRAN/signal
+	sci-CRAN/XML
+	sci-CRAN/HiClimR
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

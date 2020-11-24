@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 DEPEND="sci-CRAN/phytools
 	sci-CRAN/vegan
 	sci-CRAN/plotrix
-	sci-CRAN/phangorn
 	sci-CRAN/ape
 	sci-CRAN/picante
+	sci-CRAN/phangorn
 	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

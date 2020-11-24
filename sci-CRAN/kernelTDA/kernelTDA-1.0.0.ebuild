@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
 DEPEND=">=sci-CRAN/Rcpp-1.0.1
-	sci-CRAN/Rdpack
 	sci-CRAN/mvtnorm
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	sci-CRAN/BH
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "

@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_lars"
 R_SUGGESTS="r_suggests_lars? ( sci-CRAN/lars )"
 DEPEND="sci-CRAN/glmnet
-	virtual/Matrix
 	sci-CRAN/glasso
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

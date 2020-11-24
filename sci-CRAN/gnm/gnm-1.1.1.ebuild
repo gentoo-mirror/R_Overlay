@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcdextra? ( sci-CRAN/vcdExtra )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	virtual/MASS
+DEPEND=">=sci-CRAN/qvcalc-0.8.3
 	sci-CRAN/relimp
+	virtual/MASS
+	>=dev-lang/R-3.0.0
 	virtual/Matrix
 	virtual/nnet
-	>=sci-CRAN/qvcalc-0.8.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

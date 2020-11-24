@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_readr? ( sci-CRAN/readr )
 "
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/htmltools
 	>=sci-CRAN/leaflet-2.0.0
 	sci-CRAN/stringr
-	sci-CRAN/htmltools
 	sci-CRAN/htmlwidgets
 	sci-CRAN/magrittr
 "

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_prettydoc? ( sci-CRAN/prettydoc )
 "
-DEPEND="sci-CRAN/sysfonts
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/proto
-	>=dev-lang/R-3.4.0
-	sci-CRAN/ggplot2
 	sci-CRAN/showtext
+	sci-CRAN/ggplot2
+	sci-CRAN/sysfonts
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/PoisBinOrd_1.4.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/corpcor
-	sci-CRAN/GenOrd
 	virtual/Matrix
 	sci-CRAN/mvtnorm
+	sci-CRAN/GenOrd
 "
 RDEPEND="${DEPEND-}"

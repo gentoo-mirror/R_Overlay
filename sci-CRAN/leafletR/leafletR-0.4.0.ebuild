@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/jsonlite
 	sci-CRAN/brew
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

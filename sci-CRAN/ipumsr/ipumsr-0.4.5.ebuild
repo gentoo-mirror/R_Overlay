@@ -33,19 +33,19 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/haven-2.2.0
-	sci-CRAN/raster
-	>=sci-CRAN/dplyr-0.7.0
-	sci-CRAN/purrr
+DEPEND=">=sci-CRAN/dplyr-0.7.0
 	sci-CRAN/readr
-	sci-CRAN/tidyselect
+	sci-CRAN/rlang
+	sci-CRAN/purrr
+	sci-CRAN/raster
+	sci-CRAN/tibble
 	sci-CRAN/xml2
+	sci-CRAN/zeallot
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/haven-2.2.0
 	>=sci-CRAN/hipread-0.2.0
 	sci-CRAN/R6
-	sci-CRAN/rlang
-	sci-CRAN/tibble
-	sci-CRAN/zeallot
+	sci-CRAN/tidyselect
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

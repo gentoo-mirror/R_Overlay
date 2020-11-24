@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_network? ( sci-CRAN/network )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="dev-lang/R[tk]
-	virtual/MASS
-	virtual/Matrix
-	virtual/lattice
+DEPEND="virtual/Matrix
 	>=dev-lang/R-2.15.0
+	dev-lang/R[tk]
+	virtual/lattice
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	dev-lang/R[tk]

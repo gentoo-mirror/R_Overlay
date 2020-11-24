@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Rbitcoin_0.9.2.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/RCurl
-	sci-CRAN/RJSONIO
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/RJSONIO
 	sci-CRAN/digest
+	sci-CRAN/RCurl
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

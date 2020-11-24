@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pbkrtest_0.4-8.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	virtual/Matrix
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/magrittr
 	>=sci-CRAN/lme4-1.1.10
+	virtual/MASS
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sRDA_1.0.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/doParallel
-	virtual/Matrix
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/mvtnorm
 	sci-CRAN/elasticnet
+	sci-CRAN/doParallel
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

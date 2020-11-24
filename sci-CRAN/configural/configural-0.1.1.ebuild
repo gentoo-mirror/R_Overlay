@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/configural_0.1.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/dplyr
-	sci-CRAN/crayon
 	sci-CRAN/stringr
+	sci-CRAN/crayon
+	sci-CRAN/dplyr
 	sci-CRAN/cli
 "
 RDEPEND="${DEPEND-}"

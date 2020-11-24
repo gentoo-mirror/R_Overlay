@@ -15,23 +15,23 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/MCMCpack
-	sci-CRAN/ggrepel
-	sci-CRAN/Rmpfr
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/tidyr
 	sci-CRAN/sna
-	sci-CRAN/qgraph
+	sci-CRAN/ggrepel
 	sci-CRAN/network
-	sci-CRAN/rlang
-	sci-CRAN/GGally
-	sci-CRAN/tidyr
-	sci-CRAN/igraph
-	sci-CRAN/abind
+	sci-CRAN/Rmpfr
+	virtual/MASS
 	sci-CRAN/reshape
-	sci-CRAN/RColorBrewer
+	sci-CRAN/igraph
 	sci-CRAN/gridExtra
-	sci-CRAN/ggvis
+	sci-CRAN/GGally
+	sci-CRAN/MCMCpack
+	sci-CRAN/abind
+	sci-CRAN/RColorBrewer
+	sci-CRAN/mvtnorm
+	sci-CRAN/rlang
 	sci-CRAN/ggplot2
+	sci-CRAN/qgraph
+	sci-CRAN/ggvis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

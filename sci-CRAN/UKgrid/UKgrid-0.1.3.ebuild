@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_tsstudio? ( sci-CRAN/TSstudio )
 "
 DEPEND=">=dev-lang/R-3.0.2
+	>=sci-CRAN/dplyr-0.7.5
+	>=sci-CRAN/lubridate-1.6.0
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/data_table-1.11.2
-	>=sci-CRAN/lubridate-1.6.0
-	>=sci-CRAN/dplyr-0.7.5
 	>=sci-CRAN/tsibble-0.9.0
 	>=sci-CRAN/xts-0.12.0
 	>=sci-CRAN/zoo-1.8.0

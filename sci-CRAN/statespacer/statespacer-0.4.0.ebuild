@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_yieldcurve? ( >=sci-CRAN/YieldCurve-4.1 )
 "
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/Rcpp
 	sci-CRAN/Rdpack
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

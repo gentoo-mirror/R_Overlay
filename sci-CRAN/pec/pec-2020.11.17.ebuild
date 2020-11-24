@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_randomforestsrc? ( sci-CRAN/randomForestSRC )
 	r_suggests_rpart? ( virtual/rpart )
 "
-DEPEND=">=sci-CRAN/prodlim-1.4.9
-	>=sci-CRAN/riskRegression-2020.02.05
+DEPEND=">=sci-CRAN/lava-1.4.1
 	>=sci-CRAN/foreach-1.4.2
-	>=sci-CRAN/rms-4.2.0
 	virtual/survival
-	>=sci-CRAN/lava-1.4.1
+	>=sci-CRAN/prodlim-1.4.9
+	>=sci-CRAN/rms-4.2.0
+	>=sci-CRAN/riskRegression-2020.02.05
 	>=sci-CRAN/timereg-1.8.9
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,9 +12,9 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_flowcore"
 R_SUGGESTS="r_suggests_flowcore? ( sci-BIOC/flowCore )"
-DEPEND="sci-BIOC/Rgraphviz
-	sci-CRAN/sfsmisc
-	>=sci-BIOC/flowType-2.0.0
+DEPEND="sci-CRAN/sfsmisc
 	sci-BIOC/graph
+	sci-BIOC/Rgraphviz
+	>=sci-BIOC/flowType-2.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

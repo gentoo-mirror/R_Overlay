@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/Bergm_5.0.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ergm
-	sci-CRAN/MCMCpack
+	sci-CRAN/coda
 	sci-CRAN/network
 	virtual/Matrix
-	sci-CRAN/coda
-	sci-CRAN/mvtnorm
+	sci-CRAN/MCMCpack
 	virtual/Matrix
+	sci-CRAN/mvtnorm
 	sci-CRAN/statnet_common
 "
 RDEPEND="${DEPEND-}"

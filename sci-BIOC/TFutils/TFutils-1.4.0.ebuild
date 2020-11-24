@@ -31,9 +31,9 @@ R_SUGGESTS="
 	r_suggests_upsetr? ( sci-CRAN/UpSetR )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/shiny
 	sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/shiny
 	sci-CRAN/miniUI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

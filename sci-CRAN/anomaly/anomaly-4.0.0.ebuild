@@ -13,15 +13,15 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_magrittr"
 R_SUGGESTS="r_suggests_magrittr? ( sci-CRAN/magrittr )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	sci-CRAN/rlang
 	sci-CRAN/Rdpack
+	sci-CRAN/assertive
+	sci-CRAN/dplyr
+	sci-CRAN/rlang
+	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
 	>=sci-CRAN/Rcpp-0.12.18
 	sci-CRAN/robustbase
 	sci-CRAN/cowplot
-	sci-CRAN/assertive
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

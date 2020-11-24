@@ -17,12 +17,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/lubridate
-	>=sci-CRAN/Rcpp-0.12.9
-	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
 	virtual/cluster
+	sci-CRAN/ggplot2
+	sci-CRAN/lubridate
+	sci-CRAN/reshape2
 	sci-CRAN/scales
+	>=sci-CRAN/Rcpp-0.12.9
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

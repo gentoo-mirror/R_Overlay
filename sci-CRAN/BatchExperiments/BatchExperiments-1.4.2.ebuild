@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/data_table-1.9.6
-	>=sci-CRAN/checkmate-1.8.5
 	sci-CRAN/backports
 	>=sci-CRAN/BatchJobs-1.7
 	>=sci-CRAN/BBmisc-1.11
+	>=sci-CRAN/checkmate-1.8.5
 	sci-CRAN/DBI
 	>=sci-CRAN/RSQLite-2.0
+	>=sci-CRAN/data_table-1.9.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

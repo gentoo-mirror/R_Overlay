@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_shinydisconnect? ( sci-CRAN/shinydisconnect )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND=">=sci-CRAN/htmltools-0.2.9
 	>=sci-CRAN/digest-0.6.8
-	>=sci-CRAN/shiny-1.0.0
-	>=sci-CRAN/htmltools-0.2.9
 	sci-CRAN/jsonlite
+	>=dev-lang/R-3.1.0
+	>=sci-CRAN/shiny-1.0.0
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

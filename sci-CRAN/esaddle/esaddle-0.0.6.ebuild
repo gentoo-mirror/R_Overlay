@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/doParallel
+DEPEND="sci-CRAN/mvnfast
 	sci-CRAN/plyr
-	sci-CRAN/mvnfast
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

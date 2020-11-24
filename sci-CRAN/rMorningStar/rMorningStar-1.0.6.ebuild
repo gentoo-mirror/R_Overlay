@@ -11,16 +11,16 @@ SRC_URI="http://cran.r-project.org/src/contrib/rMorningStar_1.0.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/PerformanceAnalytics
-	sci-CRAN/purrr
 	sci-CRAN/xml2
-	sci-CRAN/xts
-	sci-CRAN/readr
-	sci-CRAN/tidyr
 	sci-CRAN/stringi
-	sci-CRAN/ggplot2
-	sci-CRAN/quantmod
 	sci-CRAN/rvest
 	sci-CRAN/stringr
+	sci-CRAN/quantmod
+	sci-CRAN/xts
+	sci-CRAN/readr
+	sci-CRAN/purrr
+	sci-CRAN/tidyr
+	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

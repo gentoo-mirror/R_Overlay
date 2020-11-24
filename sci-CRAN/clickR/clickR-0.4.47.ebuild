@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/clickR_0.4.47.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/flextable
-	sci-CRAN/xtable
-	sci-CRAN/lme4
-	sci-CRAN/beeswarm
+DEPEND="sci-CRAN/beeswarm
 	virtual/boot
+	sci-CRAN/flextable
+	sci-CRAN/lme4
 	sci-CRAN/lmerTest
 	sci-CRAN/officer
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}"

@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_qpdf? ( sci-CRAN/qpdf )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/magrittr
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/flextable
 	sci-CRAN/rmarkdown
-	sci-CRAN/flextable
 	sci-CRAN/rlang
 	sci-CRAN/stringr
-	sci-CRAN/tibble
+	sci-CRAN/purrr
 	>=sci-CRAN/tidyselect-1.1.0
-	sci-CRAN/xfun
 	sci-CRAN/dplyr
+	sci-CRAN/tidyr
 	sci-CRAN/jsonlite
+	sci-CRAN/magrittr
+	sci-CRAN/tibble
+	sci-CRAN/xfun
 	sci-CRAN/yaml
 "
 RDEPEND="${DEPEND-}

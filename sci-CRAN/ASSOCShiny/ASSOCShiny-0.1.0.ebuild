@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ASSOCShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/rmarkdown
-	sci-CRAN/dplyr
-	sci-CRAN/arulesViz
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/shiny
 	sci-CRAN/plotly
-	>=dev-lang/R-3.4.0
+	sci-CRAN/rmarkdown
 	sci-CRAN/arules
+	sci-CRAN/dplyr
+	sci-CRAN/arulesViz
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

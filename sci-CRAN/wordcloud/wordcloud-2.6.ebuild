@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_slam? ( sci-CRAN/slam )
 	r_suggests_tm? ( >=sci-CRAN/tm-0.6 )
 "
-DEPEND="sci-CRAN/RColorBrewer
-	>=sci-CRAN/Rcpp-0.9.4
+DEPEND=">=sci-CRAN/Rcpp-0.9.4
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

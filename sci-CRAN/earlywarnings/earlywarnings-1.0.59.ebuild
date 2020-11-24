@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/earlywarnings_1.0.59.tar.gz"
 LICENSE='BSD-2'
 
 DEPEND="sci-CRAN/lmtest
-	sci-CRAN/som
 	sci-CRAN/spam
-	sci-CRAN/moments
+	sci-CRAN/som
+	sci-CRAN/tseries
 	>=dev-lang/R-3.0.2
 	sci-CRAN/tgp
+	sci-CRAN/moments
 	sci-CRAN/ggplot2
-	sci-CRAN/tseries
 	sci-CRAN/fields
 	sci-CRAN/nortest
 	sci-CRAN/quadprog

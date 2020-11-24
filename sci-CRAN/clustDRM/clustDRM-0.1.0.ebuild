@@ -16,15 +16,15 @@ DEPEND="sci-CRAN/doParallel
 	sci-CRAN/ORIClust
 	sci-CRAN/ORCME
 	sci-CRAN/foreach
-	sci-CRAN/DoseFinding
-	sci-CRAN/pheatmap
-	sci-CRAN/shiny
-	sci-CRAN/MCPMod
-	sci-CRAN/RColorBrewer
 	sci-CRAN/caret
 	sci-CRAN/multcomp
 	sci-CRAN/IsoGene
+	sci-CRAN/DoseFinding
+	sci-CRAN/pheatmap
+	sci-CRAN/shiny
 	sci-CRAN/readr
+	sci-CRAN/RColorBrewer
 	sci-CRAN/DT
+	sci-CRAN/MCPMod
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

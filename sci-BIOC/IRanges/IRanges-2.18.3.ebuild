@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_xvector? ( sci-BIOC/XVector )
 "
-DEPEND=">=sci-BIOC/BiocGenerics-0.25.3
+DEPEND=">=dev-lang/R-3.1.0
+	>=sci-BIOC/BiocGenerics-0.25.3
 	>=sci-BIOC/S4Vectors-0.21.9
-	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-}
 	sci-BIOC/S4Vectors

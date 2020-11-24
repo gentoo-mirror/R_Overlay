@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=sci-CRAN/Rcpp-1.0.1
-	sci-CRAN/future
 	sci-CRAN/plyr
+	sci-CRAN/future
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppProgress
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppProgress
 	${R_SUGGESTS-}
 "
 

@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/digest
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

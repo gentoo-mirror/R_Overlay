@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/foreach
-	sci-CRAN/Rcpp
 	sci-CRAN/iterators
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
+	sci-CRAN/Rcpp
 	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}

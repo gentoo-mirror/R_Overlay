@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/Rdpack
+DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/modeltools
 	sci-CRAN/flexmix
-	>=dev-lang/R-3.6.0
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

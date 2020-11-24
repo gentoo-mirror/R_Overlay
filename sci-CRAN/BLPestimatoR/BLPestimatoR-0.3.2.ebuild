@@ -17,10 +17,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/mvQuad
-	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/Formula
 	sci-CRAN/randtoolbox
 	sci-CRAN/numDeriv
-	sci-CRAN/Formula
+	>=sci-CRAN/Rcpp-0.11.0
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}

@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/corpcor-1.6.9
 	>=sci-CRAN/foreach-1.4.4
+	virtual/MASS
 	>=sci-CRAN/psych-1.8.4
 	>=dev-lang/R-3.5.0
-	virtual/MASS
 	>=sci-CRAN/doParallel-1.0.14
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

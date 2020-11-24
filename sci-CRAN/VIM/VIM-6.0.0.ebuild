@@ -18,20 +18,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/sp
-	virtual/nnet
-	sci-CRAN/colorspace
-	>=sci-CRAN/data_table-1.9.4
-	>=dev-lang/R-3.5.0
-	sci-CRAN/robustbase
-	sci-CRAN/vcd
-	virtual/MASS
-	sci-CRAN/e1071
-	sci-CRAN/Rcpp
-	sci-CRAN/ranger
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/car
+	sci-CRAN/robustbase
+	>=sci-CRAN/data_table-1.9.4
 	sci-CRAN/magrittr
+	virtual/MASS
+	virtual/nnet
+	sci-CRAN/e1071
+	>=dev-lang/R-3.5.0
+	sci-CRAN/vcd
+	sci-CRAN/ranger
 	sci-CRAN/laeken
+	sci-CRAN/colorspace
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

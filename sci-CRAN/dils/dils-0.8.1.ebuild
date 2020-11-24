@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.1
-	>=sci-CRAN/Rcpp-0.10.4
 	sci-CRAN/igraph
+	>=sci-CRAN/Rcpp-0.10.4
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

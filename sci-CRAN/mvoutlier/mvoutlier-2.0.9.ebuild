@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/mvoutlier_2.0.9.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/sgeostat
-	sci-CRAN/robCompositions
 	sci-CRAN/robustbase
+	sci-CRAN/robCompositions
 	>=dev-lang/R-2.14
 "
 RDEPEND="${DEPEND-}"

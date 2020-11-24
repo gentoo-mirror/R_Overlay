@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/survival
+DEPEND="virtual/nnet
 	>=sci-CRAN/Rcpp-0.12.3
+	virtual/survival
 	virtual/nlme
-	virtual/nnet
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

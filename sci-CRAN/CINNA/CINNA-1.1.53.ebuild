@@ -15,22 +15,22 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/sna
-	sci-CRAN/network
-	sci-CRAN/centiserve
-	sci-CRAN/FactoMineR
-	sci-CRAN/factoextra
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/GGally
 	sci-CRAN/pheatmap
-	sci-CRAN/corrplot
-	sci-CRAN/dendextend
+	sci-CRAN/intergraph
 	sci-CRAN/viridis
 	sci-CRAN/ggplot2
-	sci-CRAN/intergraph
-	sci-CRAN/Rtsne
 	sci-CRAN/qdapTools
-	sci-CRAN/plyr
+	sci-CRAN/igraph
+	sci-CRAN/sna
+	sci-CRAN/network
+	sci-CRAN/FactoMineR
+	sci-CRAN/centiserve
+	sci-CRAN/factoextra
+	sci-CRAN/corrplot
+	sci-CRAN/Rtsne
+	sci-CRAN/dendextend
 	sci-CRAN/circlize
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

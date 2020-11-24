@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/PubMedWordcloud_0.3.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/XML
-	sci-CRAN/RColorBrewer
-	sci-CRAN/tm
 	sci-CRAN/stringr
-	sci-CRAN/RCurl
+	sci-CRAN/tm
 	sci-CRAN/wordcloud
+	sci-CRAN/RCurl
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-}"

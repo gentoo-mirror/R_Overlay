@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_geepack? ( sci-CRAN/geepack )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/mvtnorm
+DEPEND="virtual/Matrix
 	>=dev-lang/R-3.0.0
-	virtual/Matrix
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

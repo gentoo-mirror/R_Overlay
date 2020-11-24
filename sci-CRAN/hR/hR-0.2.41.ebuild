@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_rmarkdown"
 R_SUGGESTS="r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )"
 DEPEND="sci-CRAN/shiny
 	sci-CRAN/data_table
-	sci-CRAN/knitr
 	sci-CRAN/rhandsontable
+	sci-CRAN/knitr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

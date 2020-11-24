@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 "
 DEPEND=">=sci-CRAN/basefun-1.0.5
+	sci-CRAN/BB
 	>=sci-CRAN/variables-1.0.2
 	sci-CRAN/numDeriv
-	sci-CRAN/nloptr
 	sci-CRAN/alabama
-	sci-CRAN/BB
+	sci-CRAN/nloptr
 	sci-CRAN/coneproj
 	sci-CRAN/sandwich
 	virtual/survival

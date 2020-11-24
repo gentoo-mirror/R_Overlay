@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MuViCP_1.3.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/gtools
-	sci-CRAN/sm
+DEPEND="sci-CRAN/sm
+	sci-CRAN/gtools
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

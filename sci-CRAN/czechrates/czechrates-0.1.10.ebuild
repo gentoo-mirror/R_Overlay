@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/curl
-	sci-CRAN/httr
 	sci-CRAN/dplyr
 	sci-CRAN/readr
+	sci-CRAN/httr
 	sci-CRAN/magrittr
 	sci-CRAN/tibble
 "

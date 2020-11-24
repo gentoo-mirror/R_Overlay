@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/curl
 	sci-CRAN/slippymath
-	>=sci-CRAN/sf-0.9.5
-	sci-CRAN/curl
 	sci-CRAN/png
 	sci-CRAN/terra
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/sf-0.9.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

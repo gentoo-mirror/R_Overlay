@@ -22,8 +22,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/network-1.13
+	>=dev-lang/R-3.0
 	>=sci-CRAN/networkDynamic-0.9
 	sci-CRAN/statnet_common
-	>=dev-lang/R-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

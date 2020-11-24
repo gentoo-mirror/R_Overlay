@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_lavaan"
 R_SUGGESTS="r_suggests_lavaan? ( sci-CRAN/lavaan )"
-DEPEND="sci-CRAN/psych
-	virtual/MASS
+DEPEND="virtual/MASS
+	sci-CRAN/psych
 	sci-CRAN/copula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

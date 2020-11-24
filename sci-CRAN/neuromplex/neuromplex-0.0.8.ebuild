@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/neuromplex_0.0-8.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/BayesLogit
-	sci-CRAN/tidyr
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/gridExtra
+	sci-CRAN/BayesLogit
+	sci-CRAN/magrittr
+	sci-CRAN/tidyr
+	>=dev-lang/R-3.6
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

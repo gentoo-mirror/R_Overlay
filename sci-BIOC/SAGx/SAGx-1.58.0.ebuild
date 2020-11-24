@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND="sci-BIOC/Biobase
-	sci-BIOC/multtest
+DEPEND="sci-BIOC/multtest
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

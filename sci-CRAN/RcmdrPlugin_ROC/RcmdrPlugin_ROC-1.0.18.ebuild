@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.ROC_1.0-18.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/pROC
-	sci-CRAN/ResourceSelection
+DEPEND="sci-CRAN/ROCR
 	>=sci-CRAN/Rcmdr-1.7.0
-	sci-CRAN/ROCR
+	sci-CRAN/pROC
+	sci-CRAN/ResourceSelection
 "
 RDEPEND="${DEPEND-}"

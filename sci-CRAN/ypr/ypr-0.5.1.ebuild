@@ -22,10 +22,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/chk
-	sci-CRAN/yesno
-	sci-CRAN/lifecycle
 	sci-CRAN/ggplot2
 	sci-CRAN/scales
+	sci-CRAN/yesno
 	sci-CRAN/purrr
+	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

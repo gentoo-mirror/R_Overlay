@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PoisBinOrdNor_1.6.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/GenOrd
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/corpcor
-	sci-CRAN/mvtnorm
 	sci-CRAN/psych
+	sci-CRAN/GenOrd
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

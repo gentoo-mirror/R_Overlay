@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_gridsvg"
 R_SUGGESTS="r_suggests_gridsvg? ( sci-CRAN/gridSVG )"
 DEPEND=">=dev-lang/R-2.15.0
-	sci-BIOC/Rgraphviz
 	sci-BIOC/graph
+	sci-BIOC/Rgraphviz
 "
 RDEPEND="${DEPEND-}
 	media-gfx/graphviz

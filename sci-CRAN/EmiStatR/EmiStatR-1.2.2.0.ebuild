@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/EmiStatR_1.2.2.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/xts
-	sci-CRAN/foreach
-	sci-CRAN/doParallel
 	virtual/lattice
 	sci-CRAN/zoo
+	sci-CRAN/doParallel
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

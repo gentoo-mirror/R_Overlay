@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/tipitaka_0.1.0.tar.gz"
 LICENSE='CC0-1.0'
 
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/stringi
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringi
 	sci-CRAN/dplyr
+	sci-CRAN/stringr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

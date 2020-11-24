@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
 DEPEND="sci-CRAN/fftwtools
-	>=sci-CRAN/imager-0.40.2
-	>=sci-CRAN/Rcpp-0.12.14
 	sci-CRAN/magrittr
+	>=sci-CRAN/Rcpp-0.12.14
+	>=sci-CRAN/imager-0.40.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

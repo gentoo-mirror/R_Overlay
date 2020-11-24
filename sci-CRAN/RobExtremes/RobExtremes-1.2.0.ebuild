@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_ismev? ( >=sci-CRAN/ismev-1.39 )
 	r_suggests_runit? ( >=sci-CRAN/RUnit-0.4.26 )
 "
-DEPEND="sci-CRAN/RandVar
-	>=sci-CRAN/RobAStBase-1.2.0
-	>=sci-CRAN/distrMod-2.8.1
-	sci-CRAN/robustbase
-	>=dev-lang/R-3.4
-	>=sci-CRAN/ROptEst-1.2.0
-	sci-CRAN/evd
-	sci-CRAN/RobAStRDA
+DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/distr
+	sci-CRAN/robustbase
+	>=sci-CRAN/ROptEst-1.2.0
+	sci-CRAN/RobAStRDA
 	>=sci-CRAN/distrEx-2.8.0
+	>=sci-CRAN/RobAStBase-1.2.0
 	sci-CRAN/startupmsg
 	sci-CRAN/actuar
+	>=sci-CRAN/distrMod-2.8.1
+	sci-CRAN/evd
+	sci-CRAN/RandVar
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

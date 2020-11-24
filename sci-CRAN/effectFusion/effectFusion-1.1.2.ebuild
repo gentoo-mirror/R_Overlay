@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/effectFusion_1.1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.3
+DEPEND="virtual/MASS
+	virtual/cluster
+	sci-CRAN/GreedyEPL
+	virtual/Matrix
+	>=dev-lang/R-3.3
 	sci-CRAN/mcclust
 	sci-CRAN/bayesm
-	sci-CRAN/GreedyEPL
 	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
-	virtual/MASS
-	virtual/Matrix
-	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

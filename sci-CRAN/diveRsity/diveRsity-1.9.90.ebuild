@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_sendplot? ( sci-CRAN/sendplot )
 	r_suggests_xlsx? ( sci-CRAN/xlsx )
 "
-DEPEND="sci-CRAN/shiny
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.0.0
-	sci-CRAN/Rcpp
 	sci-CRAN/qgraph
+	sci-CRAN/shiny
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

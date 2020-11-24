@@ -13,12 +13,12 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_hmisc"
 R_SUGGESTS="r_suggests_hmisc? ( sci-CRAN/Hmisc )"
 DEPEND="sci-CRAN/data_table
-	sci-CRAN/ggplot2
 	virtual/survival
 	sci-CRAN/progress
-	>=dev-lang/R-3.4.0
-	sci-CRAN/ggpubr
 	virtual/nnet
+	>=dev-lang/R-3.4.0
+	sci-CRAN/ggplot2
+	sci-CRAN/ggpubr
 	sci-CRAN/stringr
 	sci-CRAN/truncnorm
 	sci-CRAN/truncreg

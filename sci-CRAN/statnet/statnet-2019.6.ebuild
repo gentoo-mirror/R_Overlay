@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_relevent? ( >=sci-CRAN/relevent-1.0.4 )
 "
 DEPEND=">=dev-lang/R-3.5
+	>=sci-CRAN/tsna-0.3
 	>=sci-CRAN/networkDynamic-0.10.0
 	>=sci-CRAN/tergm-3.6.1
-	>=sci-CRAN/ergm_count-3.3
-	>=sci-CRAN/network-1.15
 	>=sci-CRAN/statnet_common-4.2
-	>=sci-CRAN/tsna-0.3
+	>=sci-CRAN/ergm_count-3.3
 	>=sci-CRAN/sna-2.4
 	>=sci-CRAN/ergm-3.10.4
+	>=sci-CRAN/network-1.15
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

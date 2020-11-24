@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_png? ( sci-CRAN/png )
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 "
-DEPEND="sci-CRAN/cowplot
+DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/gridGraphics
 	sci-CRAN/colorspace
 	sci-CRAN/gtable
-	>=dev-lang/R-3.6
+	sci-CRAN/cowplot
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

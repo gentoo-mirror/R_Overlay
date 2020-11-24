@@ -19,21 +19,21 @@ R_SUGGESTS="
 	r_suggests_rwikipathways? ( sci-BIOC/rWikiPathways )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/doParallel
-	sci-CRAN/cgdsr
-	sci-CRAN/bnlearn
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/scales
+	sci-CRAN/foreach
+	sci-CRAN/iterators
 	sci-CRAN/circlize
 	sci-CRAN/gtable
 	sci-CRAN/R_matlab
-	sci-CRAN/gtools
-	sci-CRAN/gridExtra
+	sci-CRAN/bnlearn
 	>=dev-lang/R-3.6
-	sci-BIOC/Rgraphviz
-	sci-CRAN/RColorBrewer
+	sci-CRAN/doParallel
+	sci-CRAN/igraph
 	sci-CRAN/xtable
-	sci-CRAN/foreach
-	sci-CRAN/iterators
+	sci-BIOC/Rgraphviz
+	sci-CRAN/gtools
+	sci-CRAN/cgdsr
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -14,8 +14,8 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
-	>=dev-lang/R-3.1
+DEPEND=">=dev-lang/R-3.1
+	sci-CRAN/Rcpp
 	virtual/Matrix
 	sci-CRAN/spam
 "

@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/future-1.14.0
 	>=sci-CRAN/batchtools-0.9.11
+	>=sci-CRAN/future-1.14.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

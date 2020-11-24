@@ -11,11 +11,11 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/IdMappingA
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.14
-	>=sci-CRAN/R_oo-1.13.0
-	sci-CRAN/RColorBrewer
-	sci-BIOC/Biobase
 	sci-CRAN/rChoiceDialogs
+	>=sci-CRAN/R_oo-1.13.0
 	virtual/boot
 	sci-CRAN/mclust
+	sci-BIOC/Biobase
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-}"

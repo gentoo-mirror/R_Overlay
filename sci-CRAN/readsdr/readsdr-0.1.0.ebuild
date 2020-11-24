@@ -21,12 +21,12 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND="sci-CRAN/stringr
+	sci-CRAN/magrittr
+	sci-CRAN/xml2
+	sci-CRAN/rlang
+	sci-CRAN/purrr
 	sci-CRAN/dplyr
 	sci-CRAN/stringi
-	sci-CRAN/purrr
-	sci-CRAN/xml2
 	sci-CRAN/deSolve
-	sci-CRAN/rlang
-	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

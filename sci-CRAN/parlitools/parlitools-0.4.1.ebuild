@@ -27,11 +27,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/dplyr
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/stringi
+	sci-CRAN/dplyr
 	sci-CRAN/mnis
 	sci-CRAN/hansard
-	>=dev-lang/R-3.3.0
-	sci-CRAN/stringi
 	sci-CRAN/sf
 	sci-CRAN/snakecase
 	sci-CRAN/readr

@@ -24,8 +24,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/jsonlite-1.6
-	>=sci-CRAN/crul-0.7.4
 	>=sci-CRAN/fauxpas-0.2.0
+	>=sci-CRAN/crul-0.7.4
 	sci-CRAN/httr
 	>=sci-CRAN/xml2-1.2.0
 	>=sci-CRAN/tibble-2.1.3

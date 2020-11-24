@@ -27,10 +27,10 @@ R_SUGGESTS="
 	r_suggests_wpp2017? ( sci-CRAN/wpp2017 )
 "
 DEPEND=">=dev-lang/R-2.14.2
-	sci-CRAN/mvtnorm
-	sci-CRAN/wpp2019
-	virtual/MASS
 	sci-CRAN/coda
+	sci-CRAN/mvtnorm
+	virtual/MASS
+	sci-CRAN/wpp2019
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

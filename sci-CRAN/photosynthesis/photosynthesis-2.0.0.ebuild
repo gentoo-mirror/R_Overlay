@@ -18,24 +18,24 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=sci-CRAN/dplyr-0.8.5
-	>=sci-CRAN/furrr-0.1.0
-	>=sci-CRAN/pkgnet-0.4.1
-	>=sci-CRAN/glue-1.4.0
-	>=sci-CRAN/magrittr-1.5.0
-	>=sci-CRAN/tealeaves-1.0.5
-	>=sci-CRAN/ggplot2-3.3.0
-	>=sci-CRAN/rlang-0.4.6
-	>=sci-CRAN/future-1.17.0
+DEPEND=">=sci-CRAN/minpack_lm-1.2.1
 	>=dev-lang/R-4.0.0
-	>=sci-CRAN/checkmate-2.0.0
+	>=sci-CRAN/furrr-0.1.0
 	>=sci-CRAN/crayon-1.3.4
-	>=sci-CRAN/minpack_lm-1.2.1
-	>=sci-CRAN/gunit-1.0.0
-	>=sci-CRAN/tidyselect-1.0.0
-	>=sci-CRAN/units-0.6.6
-	>=sci-CRAN/stringr-1.4.0
-	virtual/nlme
+	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/future-1.17.0
+	>=sci-CRAN/pkgnet-0.4.1
 	>=sci-CRAN/purrr-0.3.3
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/tealeaves-1.0.5
+	>=sci-CRAN/checkmate-2.0.0
+	>=sci-CRAN/glue-1.4.0
+	>=sci-CRAN/gunit-1.0.0
+	>=sci-CRAN/magrittr-1.5.0
+	>=sci-CRAN/ggplot2-3.3.0
+	>=sci-CRAN/units-0.6.6
+	virtual/nlme
+	>=sci-CRAN/tidyselect-1.0.0
+	>=sci-CRAN/rlang-0.4.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

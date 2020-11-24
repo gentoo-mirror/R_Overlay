@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-3.0.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/hnp
-	>=sci-CRAN/ggplot2-2.2.1
-	sci-CRAN/doRNG
-	sci-CRAN/doSNOW
+DEPEND="virtual/nlme
 	sci-CRAN/foreach
+	sci-CRAN/doSNOW
+	sci-CRAN/doRNG
+	sci-CRAN/hnp
 	>=dev-lang/R-3.2.3
-	virtual/nlme
+	>=sci-CRAN/ggplot2-2.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

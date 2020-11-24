@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_stargazer? ( sci-CRAN/stargazer )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/prediction-0.3.6
+DEPEND="sci-CRAN/data_table
+	>=sci-CRAN/prediction-0.3.6
 	virtual/MASS
-	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

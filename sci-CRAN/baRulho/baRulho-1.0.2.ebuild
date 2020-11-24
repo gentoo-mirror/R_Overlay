@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_png? ( sci-CRAN/png )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND=">=dev-lang/R-3.2.1
+DEPEND="sci-CRAN/pbapply
 	sci-CRAN/seewave
 	>=sci-CRAN/warbleR-1.1.20
-	sci-CRAN/pbapply
+	>=dev-lang/R-3.2.1
 	sci-CRAN/tuneR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

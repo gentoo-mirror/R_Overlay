@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_datacombine? ( sci-CRAN/DataCombine )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="virtual/MASS
-	>=sci-CRAN/ggplot2-1.0.1.9003
+DEPEND=">=sci-CRAN/gridExtra-2.0.0
 	>=dev-lang/R-3.0.0
-	>=sci-CRAN/gridExtra-2.0.0
+	>=sci-CRAN/ggplot2-1.0.1.9003
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

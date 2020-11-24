@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 "
-DEPEND="virtual/survival
-	sci-CRAN/gbm
-	sci-CRAN/mpath
-	sci-CRAN/mboost
-	sci-CRAN/mda
+DEPEND="sci-CRAN/mda
 	sci-CRAN/earth
+	sci-CRAN/mpath
+	sci-CRAN/gbm
+	sci-CRAN/mboost
 	sci-CRAN/elasticnet
 	sci-CRAN/rms
 	sci-CRAN/modeltools
 	sci-CRAN/bst
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

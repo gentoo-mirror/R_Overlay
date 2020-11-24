@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_aid? ( sci-CRAN/AID )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/car
-	sci-CRAN/moments
+DEPEND="sci-CRAN/car
 	sci-CRAN/nortest
+	sci-CRAN/moments
 	sci-CRAN/ggplot2
+	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0
-	virtual/lattice
 	sci-CRAN/hydroGOF
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

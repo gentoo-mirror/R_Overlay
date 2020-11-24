@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/datamart_0.5.2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/markdown
+DEPEND="sci-CRAN/RJSONIO
 	sci-CRAN/RCurl
-	sci-CRAN/base64
-	sci-CRAN/gsubfn
-	sci-CRAN/RJSONIO
 	sci-CRAN/XML
+	sci-CRAN/gsubfn
+	sci-CRAN/base64
+	sci-CRAN/markdown
 "
 RDEPEND="${DEPEND-}"

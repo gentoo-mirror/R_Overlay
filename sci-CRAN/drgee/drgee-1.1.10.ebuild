@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/drgee_1.1.10.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/nleqslv
+	sci-CRAN/data_table
 	virtual/survival
 	sci-CRAN/Rcpp
-	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

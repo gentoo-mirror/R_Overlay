@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_sessioninfo? ( >=sci-CRAN/sessioninfo-1.1.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0 )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/httr-1.4.0
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/dplyr-0.8.0
-	>=sci-CRAN/rlang-0.4
+DEPEND=">=sci-CRAN/httr-1.4.0
+	>=sci-CRAN/tidyr-1.0
 	>=sci-CRAN/tibble-2.0
 	>=sci-CRAN/checkmate-2.0
+	>=dev-lang/R-3.0.0
+	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/readr-1.3.1
-	>=sci-CRAN/tidyr-1.0
+	>=sci-CRAN/rlang-0.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

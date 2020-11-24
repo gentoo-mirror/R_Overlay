@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/bcr_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

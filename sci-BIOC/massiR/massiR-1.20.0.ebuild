@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-CRAN/gplots
-	sci-CRAN/diptest
-	>=dev-lang/R-3.0.2
 	sci-BIOC/Biobase
+	>=dev-lang/R-3.0.2
+	sci-CRAN/diptest
 	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

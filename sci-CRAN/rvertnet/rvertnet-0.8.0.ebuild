@@ -18,8 +18,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/jsonlite-1.5
 	>=sci-CRAN/crul-0.5.2
-	sci-CRAN/maps
-	sci-CRAN/ggplot2
 	>=sci-CRAN/dplyr-0.5.0
+	sci-CRAN/ggplot2
+	sci-CRAN/maps
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

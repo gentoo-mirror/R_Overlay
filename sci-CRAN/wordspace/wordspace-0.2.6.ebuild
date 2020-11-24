@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tm? ( sci-CRAN/tm )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	virtual/MASS
-	sci-CRAN/sparsesvd
-	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/iotools
+DEPEND=">=sci-CRAN/Rcpp-0.11.0
 	virtual/Matrix
+	sci-CRAN/sparsesvd
+	sci-CRAN/iotools
+	>=dev-lang/R-3.0.0
 	virtual/cluster
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

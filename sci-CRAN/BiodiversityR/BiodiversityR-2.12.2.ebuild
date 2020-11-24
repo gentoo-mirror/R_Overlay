@@ -67,11 +67,11 @@ R_SUGGESTS="
 	r_suggests_spatial? ( virtual/spatial )
 	r_suggests_splancs? ( sci-CRAN/splancs )
 "
-DEPEND=">=dev-lang/R-3.2.2
-	sci-CRAN/rgl
+DEPEND="sci-CRAN/rgl
 	>=sci-CRAN/Rcmdr-2.5.3
 	dev-lang/R[tk]
 	sci-CRAN/vegan3d
+	>=dev-lang/R-3.2.2
 	>=sci-CRAN/vegan-2.5.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

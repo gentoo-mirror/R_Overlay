@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/subscore_3.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/CTT
-	sci-CRAN/sirt
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/irtoys
-	>=dev-lang/R-3.4.0
-	sci-CRAN/ltm
 	sci-CRAN/cocor
+	sci-CRAN/CTT
+	sci-CRAN/sirt
 	virtual/boot
+	sci-CRAN/ltm
 "
 RDEPEND="${DEPEND-}"

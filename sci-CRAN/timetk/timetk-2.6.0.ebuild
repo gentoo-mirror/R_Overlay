@@ -35,33 +35,33 @@ R_SUGGESTS="
 	r_suggests_workflows? ( sci-CRAN/workflows )
 	r_suggests_yardstick? ( sci-CRAN/yardstick )
 "
-DEPEND="sci-CRAN/plotly
-	sci-CRAN/stringr
-	>=sci-CRAN/recipes-0.1.4
-	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/lazyeval-0.2.0
-	>=sci-CRAN/readr-1.3.0
-	>=sci-CRAN/tidyr-1.1.0
-	>=sci-CRAN/rlang-0.4.7
-	sci-CRAN/anytime
-	sci-CRAN/hms
-	sci-CRAN/generics
-	>=sci-CRAN/tibble-3.0.3
-	>=sci-CRAN/zoo-1.7.14
+DEPEND=">=sci-CRAN/stringi-1.4.6
 	sci-CRAN/slider
 	sci-CRAN/forecast
-	sci-CRAN/rsample
-	>=sci-CRAN/padr-0.5.2
-	sci-CRAN/ggplot2
-	sci-CRAN/forcats
-	>=sci-CRAN/stringi-1.4.6
-	>=sci-CRAN/xts-0.9.7
-	>=sci-CRAN/tidyselect-1.1.0
 	sci-CRAN/timeDate
-	>=dev-lang/R-3.3.0
-	>=sci-CRAN/lubridate-1.6.0
-	sci-CRAN/assertthat
+	>=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/purrr-0.2.2
+	>=sci-CRAN/rlang-0.4.7
+	>=sci-CRAN/readr-1.3.0
+	>=sci-CRAN/tibble-3.0.3
+	sci-CRAN/anytime
+	sci-CRAN/generics
+	sci-CRAN/rsample
+	>=sci-CRAN/tidyr-1.1.0
+	>=sci-CRAN/zoo-1.7.14
+	>=sci-CRAN/tidyselect-1.1.0
+	sci-CRAN/forcats
+	sci-CRAN/stringr
+	>=sci-CRAN/lubridate-1.6.0
+	>=sci-CRAN/padr-0.5.2
+	sci-CRAN/hms
+	sci-CRAN/ggplot2
+	sci-CRAN/plotly
+	>=sci-CRAN/xts-0.9.7
+	>=dev-lang/R-3.3.0
+	>=sci-CRAN/recipes-0.1.4
+	>=sci-CRAN/lazyeval-0.2.0
+	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

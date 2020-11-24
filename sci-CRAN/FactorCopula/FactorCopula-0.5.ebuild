@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/FactorCopula_0.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/abind
 	sci-CRAN/statmod
 	sci-CRAN/polycor
+	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-}"

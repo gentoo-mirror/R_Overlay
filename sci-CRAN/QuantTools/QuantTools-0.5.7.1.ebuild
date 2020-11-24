@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/QuantTools_0.5.7.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/R6
-	sci-CRAN/fasttime
-	sci-CRAN/RCurl
-	sci-CRAN/readxl
+DEPEND="sci-CRAN/fasttime
 	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/data_table
+	sci-CRAN/readxl
+	sci-CRAN/RCurl
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

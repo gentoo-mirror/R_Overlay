@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mfx_1.2-2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/lmtest
+DEPEND="virtual/MASS
 	sci-CRAN/sandwich
 	sci-CRAN/betareg
-	virtual/MASS
+	sci-CRAN/lmtest
 "
 RDEPEND="${DEPEND-}"

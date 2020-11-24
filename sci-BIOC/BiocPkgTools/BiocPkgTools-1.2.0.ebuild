@@ -24,25 +24,25 @@ R_SUGGESTS="
 	r_suggests_tm? ( sci-CRAN/tm )
 	r_suggests_visnetwork? ( sci-CRAN/visNetwork )
 "
-DEPEND="sci-CRAN/tidyr
-	sci-CRAN/magrittr
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/htmlwidgets
 	sci-CRAN/httr
-	sci-CRAN/igraph
-	sci-CRAN/rex
-	sci-CRAN/readr
-	sci-CRAN/DT
-	sci-CRAN/htmlwidgets
-	sci-CRAN/tibble
-	sci-BIOC/biocViews
-	sci-CRAN/rvest
-	sci-CRAN/BiocManager
-	sci-CRAN/xml2
 	sci-CRAN/htmltools
-	sci-CRAN/gh
+	sci-BIOC/biocViews
+	sci-CRAN/tidyr
 	sci-BIOC/RBGL
-	sci-BIOC/graph
-	sci-CRAN/stringr
+	sci-CRAN/DT
+	sci-CRAN/igraph
+	sci-CRAN/BiocManager
 	sci-CRAN/dplyr
+	sci-CRAN/xml2
+	sci-CRAN/tibble
+	sci-CRAN/stringr
+	sci-CRAN/rvest
+	sci-CRAN/rex
+	sci-CRAN/gh
+	sci-CRAN/magrittr
+	sci-CRAN/readr
+	sci-CRAN/jsonlite
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

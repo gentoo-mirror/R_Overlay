@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/wfe_1.9.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/Matrix
 	sci-CRAN/arm
+	virtual/Matrix
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testit? ( sci-CRAN/testit )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/xfun
+DEPEND=">=sci-CRAN/rmarkdown-2.5
+	sci-CRAN/xfun
+	>=sci-CRAN/tinytex-0.27
 	sci-CRAN/yaml
 	>=sci-CRAN/knitr-1.30
-	>=sci-CRAN/rmarkdown-2.5
-	>=sci-CRAN/tinytex-0.27
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_marss? ( sci-CRAN/MARSS )
 	r_suggests_mass? ( virtual/MASS )
 "
-DEPEND=">=dev-lang/R-2.15.0
+DEPEND="sci-CRAN/mvtnorm
+	>=dev-lang/R-2.15.0
 	virtual/Matrix
-	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

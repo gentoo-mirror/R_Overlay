@@ -10,25 +10,25 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ShinyQuickStarter_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/DT
-	sci-CRAN/shinyjs
-	sci-CRAN/rlist
-	sci-CRAN/colourpicker
-	sci-CRAN/data_table
-	sci-CRAN/fs
-	sci-CRAN/shinycssloaders
-	sci-CRAN/styler
-	sci-CRAN/shinyalert
-	sci-CRAN/readr
-	>=dev-lang/R-3.2.0
-	sci-CRAN/shinyWidgets
-	sci-CRAN/shinyFiles
-	sci-CRAN/magrittr
-	sci-CRAN/dplyr
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/stringi
-	sci-CRAN/stringr
-	sci-CRAN/visNetwork
+	sci-CRAN/dplyr
+	sci-CRAN/shinyFiles
+	sci-CRAN/shinyalert
 	sci-CRAN/shiny
+	sci-CRAN/colourpicker
+	sci-CRAN/shinyjs
+	sci-CRAN/styler
+	sci-CRAN/data_table
+	sci-CRAN/rlist
+	sci-CRAN/visNetwork
+	sci-CRAN/readr
+	sci-CRAN/shinycssloaders
+	sci-CRAN/shinyWidgets
+	sci-CRAN/stringr
+	sci-CRAN/fs
 	sci-CRAN/miniUI
+	sci-CRAN/DT
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

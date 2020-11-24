@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SIGN_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/survival
-	sci-BIOC/GSVA
+DEPEND=">=dev-lang/R-3.4
+	virtual/survival
 	sci-BIOC/survcomp
-	>=dev-lang/R-3.4
+	sci-BIOC/GSVA
 "
 RDEPEND="${DEPEND-}"

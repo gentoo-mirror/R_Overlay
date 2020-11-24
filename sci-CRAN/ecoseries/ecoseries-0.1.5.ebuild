@@ -12,11 +12,11 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_xlsx"
 R_SUGGESTS="r_suggests_xlsx? ( sci-CRAN/xlsx )"
-DEPEND="sci-CRAN/rjson
-	sci-CRAN/rvest
+DEPEND="sci-CRAN/RCurl
+	sci-CRAN/rjson
 	sci-CRAN/xml2
-	sci-CRAN/RCurl
 	>=dev-lang/R-3.3.1
+	sci-CRAN/rvest
 	sci-CRAN/magrittr
 	sci-CRAN/readr
 	sci-CRAN/tibble

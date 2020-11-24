@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_htmltools? ( sci-CRAN/htmltools )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=sci-CRAN/knitr-1.12
+DEPEND="sci-CRAN/bookdown
+	>=sci-CRAN/rmarkdown-1.2
 	sci-CRAN/yaml
 	sci-CRAN/BiocManager
-	sci-CRAN/bookdown
-	>=sci-CRAN/rmarkdown-1.2
+	>=sci-CRAN/knitr-1.12
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

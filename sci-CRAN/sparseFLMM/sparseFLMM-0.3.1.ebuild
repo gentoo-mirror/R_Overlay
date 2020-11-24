@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/sparseFLMM_0.3.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.3
-	virtual/mgcv
-	virtual/Matrix
 	virtual/MASS
+	virtual/Matrix
+	virtual/mgcv
 	>=sci-CRAN/refund-0.1.22
 	sci-CRAN/data_table
 "

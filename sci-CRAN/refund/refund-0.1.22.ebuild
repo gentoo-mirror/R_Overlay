@@ -18,19 +18,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.00.0
-	virtual/boot
-	sci-CRAN/fda
-	sci-CRAN/grpreg
-	sci-CRAN/gamm4
-	sci-CRAN/ggplot2
-	sci-CRAN/pbs
-	virtual/lattice
-	virtual/Matrix
+	virtual/nlme
 	virtual/mgcv
+	virtual/Matrix
+	sci-CRAN/gamm4
+	sci-CRAN/RLRsim
+	sci-CRAN/pbs
+	virtual/boot
+	virtual/lattice
+	sci-CRAN/fda
 	virtual/MASS
 	sci-CRAN/magic
-	virtual/nlme
 	sci-CRAN/lme4
-	sci-CRAN/RLRsim
+	sci-CRAN/grpreg
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

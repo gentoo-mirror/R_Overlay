@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/polyclip
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/GenSA
 	sci-CRAN/Rcpp
+	sci-CRAN/polyclip
 	sci-CRAN/polylabelr
-	>=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.12

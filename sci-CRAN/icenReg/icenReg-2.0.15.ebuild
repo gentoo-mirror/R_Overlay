@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/icenReg_2.0.15.tar.gz"
 LICENSE='|| ( LGPL-2 LGPL-2.1 )'
 
-DEPEND="virtual/survival
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/MLEcens
-	sci-CRAN/foreach
-	sci-CRAN/Rcpp
 	sci-CRAN/coda
+	sci-CRAN/Rcpp
+	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

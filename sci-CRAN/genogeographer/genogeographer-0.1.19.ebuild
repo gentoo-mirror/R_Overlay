@@ -12,24 +12,24 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_tidyverse"
 R_SUGGESTS="r_suggests_tidyverse? ( sci-CRAN/tidyverse )"
-DEPEND="sci-CRAN/knitr
-	sci-CRAN/purrr
-	sci-CRAN/rmarkdown
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/forcats
+	sci-CRAN/rmarkdown
+	sci-CRAN/ggplot2
 	sci-CRAN/maps
 	sci-CRAN/rlang
 	sci-CRAN/shiny
-	sci-CRAN/readr
+	sci-CRAN/leaflet
+	>=dev-lang/R-3.1.0
+	sci-CRAN/knitr
+	sci-CRAN/purrr
 	sci-CRAN/rio
-	sci-CRAN/shinyjs
-	sci-CRAN/shinycssloaders
-	sci-CRAN/magrittr
-	sci-CRAN/ggplot2
 	sci-CRAN/tibble
 	sci-CRAN/shinyWidgets
-	>=dev-lang/R-3.1.0
-	sci-CRAN/leaflet
+	sci-CRAN/readr
+	sci-CRAN/tidyr
+	sci-CRAN/shinyjs
+	sci-CRAN/shinycssloaders
 	sci-CRAN/DT
 	sci-CRAN/dplyr
 "

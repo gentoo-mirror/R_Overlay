@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/plot3D
-	sci-CRAN/RColorBrewer
 	>=sci-CRAN/waveslim-1.7.5
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

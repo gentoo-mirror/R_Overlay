@@ -24,17 +24,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/readsdmx
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/stringr
-	sci-CRAN/tibble
-	sci-CRAN/tidyselect
-	sci-CRAN/dplyr
-	sci-CRAN/rlang
-	sci-CRAN/crayon
-	sci-CRAN/httr
-	sci-CRAN/xml2
-	sci-CRAN/lubridate
 	sci-CRAN/openssl
+	sci-CRAN/xml2
+	sci-CRAN/rlang
+	sci-CRAN/httr
+	sci-CRAN/readsdmx
+	sci-CRAN/tibble
+	sci-CRAN/lubridate
+	sci-CRAN/tidyselect
+	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/mvPot_0.1.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/MASS
-	sci-CRAN/gmp
 	sci-CRAN/evd
+	sci-CRAN/gmp
 	sci-CRAN/numbers
 "
 RDEPEND="${DEPEND-}"

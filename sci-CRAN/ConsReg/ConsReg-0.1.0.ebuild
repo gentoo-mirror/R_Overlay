@@ -16,21 +16,21 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/nloptr-1.2
-	>=sci-CRAN/Rsolnp-1.15
-	>=sci-CRAN/GenSA-1.1
-	>=sci-CRAN/MCMCpack-1.4
-	>=sci-CRAN/GA-3.0
-	sci-CRAN/ggplot2
-	sci-CRAN/adaptMCMC
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
 	>=sci-CRAN/forecast-8.0
+	>=sci-CRAN/nloptr-1.2
 	>=sci-CRAN/data_table-1.10
 	>=sci-CRAN/rlang-0.4
+	>=sci-CRAN/Rsolnp-1.15
+	>=sci-CRAN/GA-3.0
+	>=sci-CRAN/GenSA-1.1
+	sci-CRAN/adaptMCMC
+	sci-CRAN/Rcpp
 	>=sci-CRAN/FME-1.3
+	>=sci-CRAN/MCMCpack-1.4
 	>=sci-CRAN/DEoptim-2.2
 	sci-CRAN/dfoptim
 	sci-CRAN/Metrics
-	sci-CRAN/Rcpp
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 DEPEND="virtual/nnet
 	sci-CRAN/e1071
-	virtual/rpart
+	sci-CRAN/rgl
 	sci-CRAN/pROC
 	virtual/MASS
+	virtual/rpart
 	sci-CRAN/caret
-	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/surbayes_0.1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/Rcpp-1.0.4.6
-	sci-CRAN/rlist
 	virtual/Matrix
+	sci-CRAN/rlist
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

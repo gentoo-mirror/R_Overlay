@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/OutlierDC_0.3-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/quantreg
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/quantreg
 	virtual/survival
-	>=dev-lang/R-3.0.0
 	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-}"

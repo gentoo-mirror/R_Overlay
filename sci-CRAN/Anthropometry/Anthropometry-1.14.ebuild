@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_sportsanalytics? ( sci-CRAN/SportsAnalytics )
 "
-DEPEND="sci-CRAN/rgl
-	sci-CRAN/depth
-	sci-CRAN/archetypes
-	>=dev-lang/R-3.3.0
+DEPEND="sci-CRAN/shapes
 	sci-CRAN/nnls
-	sci-CRAN/shapes
+	sci-CRAN/depth
 	sci-CRAN/FNN
-	sci-CRAN/ICGE
+	sci-CRAN/rgl
 	virtual/cluster
 	sci-CRAN/biclust
+	>=dev-lang/R-3.3.0
+	sci-CRAN/archetypes
+	sci-CRAN/ICGE
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

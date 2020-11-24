@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/triebeard
-	>=dev-lang/R-3.0.0
-	sci-CRAN/readr
-	sci-CRAN/stringi
+DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/Rcpp-0.11.2
+	sci-CRAN/stringi
+	sci-CRAN/triebeard
+	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH

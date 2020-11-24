@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
 DEPEND="sci-CRAN/multiwayvcov
 	sci-CRAN/Matching
-	sci-CRAN/lmtest
 	sci-CRAN/lme4
+	sci-CRAN/lmtest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

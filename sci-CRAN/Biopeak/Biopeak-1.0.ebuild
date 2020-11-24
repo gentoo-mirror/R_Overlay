@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/dbscan
-	sci-CRAN/RColorBrewer
-	sci-CRAN/factoextra
-	virtual/cluster
 	sci-CRAN/gplots
+	sci-CRAN/factoextra
+	sci-CRAN/RColorBrewer
+	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

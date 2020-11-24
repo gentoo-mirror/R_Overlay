@@ -25,9 +25,9 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.2.4
-	virtual/nnet
-	sci-CRAN/NeuralNetTools
-	sci-CRAN/FNN
 	sci-CRAN/pracma
+	virtual/nnet
+	sci-CRAN/FNN
+	sci-CRAN/NeuralNetTools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

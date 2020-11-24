@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/BioPETsurv_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
-	virtual/survival
 	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

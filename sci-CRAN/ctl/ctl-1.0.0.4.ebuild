@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ctl_1.0.0-4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/qtl
-	virtual/MASS
+DEPEND="virtual/MASS
+	sci-CRAN/qtl
 "
 RDEPEND="${DEPEND-}"

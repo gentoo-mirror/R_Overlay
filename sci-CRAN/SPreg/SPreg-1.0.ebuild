@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/SPreg_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/ucminf
 	sci-CRAN/sn
+	sci-CRAN/ucminf
 "
 RDEPEND="${DEPEND-}"

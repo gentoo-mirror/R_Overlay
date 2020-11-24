@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/httr
+DEPEND="sci-CRAN/httr
 	>=sci-CRAN/assertthat-0.2.0
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

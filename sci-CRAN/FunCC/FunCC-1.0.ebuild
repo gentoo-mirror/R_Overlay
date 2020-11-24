@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/FunCC_1.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.5.1
-	sci-CRAN/reshape
-	sci-CRAN/biclust
 	sci-CRAN/narray
+	sci-CRAN/reshape
 	sci-CRAN/RColorBrewer
+	sci-CRAN/biclust
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

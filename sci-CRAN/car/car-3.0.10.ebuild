@@ -28,17 +28,17 @@ R_SUGGESTS="
 	r_suggests_survey? ( sci-CRAN/survey )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND="virtual/MASS
-	>=sci-CRAN/pbkrtest-0.4.4
-	sci-CRAN/abind
-	sci-CRAN/rio
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/carData-3.0.0
-	virtual/mgcv
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/nnet
+	>=sci-CRAN/carData-3.0.0
+	sci-CRAN/abind
+	virtual/MASS
+	>=sci-CRAN/pbkrtest-0.4.4
 	sci-CRAN/quantreg
 	sci-CRAN/maptools
-	sci-CRAN/lme4
 	virtual/nlme
+	virtual/mgcv
+	sci-CRAN/rio
+	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

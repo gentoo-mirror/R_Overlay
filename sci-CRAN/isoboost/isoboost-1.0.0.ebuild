@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/isoboost_1.0.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/Iso
-	sci-CRAN/isotone
 	virtual/rpart
+	sci-CRAN/isotone
 "
 RDEPEND="${DEPEND-}"

@@ -40,15 +40,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/mosaicCore
-	sci-CRAN/rlang
-	>=sci-CRAN/ggstance-0.3.1
-	>=sci-CRAN/ggplot2-3.0
+DEPEND="sci-CRAN/rlang
 	sci-CRAN/magrittr
-	sci-CRAN/tibble
 	sci-CRAN/stringr
+	>=sci-CRAN/ggplot2-3.0
+	>=sci-CRAN/ggstance-0.3.1
 	sci-CRAN/ggforce
+	>=dev-lang/R-3.1
+	sci-CRAN/mosaicCore
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PerFit_1.4.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/mirt
+DEPEND="sci-CRAN/ltm
 	sci-CRAN/fda
-	sci-CRAN/ltm
+	sci-CRAN/mirt
 	sci-CRAN/Hmisc
 	sci-CRAN/irtoys
 	virtual/MASS

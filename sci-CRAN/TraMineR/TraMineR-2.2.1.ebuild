@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_traminerextras? ( sci-CRAN/TraMineRextras )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/RColorBrewer
-	virtual/boot
-	sci-CRAN/colorspace
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/Hmisc
 	virtual/cluster
+	virtual/boot
+	sci-CRAN/RColorBrewer
+	>=dev-lang/R-3.0.0
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

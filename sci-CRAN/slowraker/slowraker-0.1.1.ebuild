@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/SnowballC
 	sci-CRAN/NLP
 	sci-CRAN/openNLP
+	sci-CRAN/SnowballC
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

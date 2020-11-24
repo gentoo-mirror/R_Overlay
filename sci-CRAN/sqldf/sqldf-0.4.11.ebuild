@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/chron
-	sci-CRAN/DBI
-	sci-CRAN/RSQLite
 	>=sci-CRAN/gsubfn-0.6
+	sci-CRAN/RSQLite
 	sci-CRAN/proto
+	sci-CRAN/DBI
+	sci-CRAN/chron
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

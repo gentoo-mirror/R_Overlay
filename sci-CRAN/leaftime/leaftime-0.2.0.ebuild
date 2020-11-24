@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/leaftime_0.2.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/htmlwidgets
-	sci-CRAN/htmltools
 	>=sci-CRAN/leaflet-2.0.0
+	sci-CRAN/htmltools
+	sci-CRAN/htmlwidgets
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

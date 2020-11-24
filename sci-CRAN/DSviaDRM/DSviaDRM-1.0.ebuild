@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DSviaDRM_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/ppcor
+DEPEND="sci-CRAN/ppcor
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

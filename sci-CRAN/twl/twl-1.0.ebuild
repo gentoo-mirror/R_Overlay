@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/twl_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/data_table
+DEPEND="sci-CRAN/MCMCpack
+	sci-CRAN/data_table
 	sci-CRAN/corrplot
-	sci-CRAN/MCMCpack
 	sci-CRAN/Rfast
 "
 RDEPEND="${DEPEND-}"

@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_udpipe? ( sci-CRAN/udpipe )
 "
-DEPEND=">=sci-CRAN/data_table-1.9.6
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rcpp
+	>=sci-CRAN/data_table-1.9.6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

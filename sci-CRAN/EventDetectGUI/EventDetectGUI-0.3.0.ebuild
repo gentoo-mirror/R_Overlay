@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/shinydashboard
-	sci-CRAN/EventDetectR
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/shinydashboard
 	sci-CRAN/shiny
 	sci-CRAN/shinyjs
-	sci-CRAN/shinyBS
 	sci-CRAN/XML
+	sci-CRAN/EventDetectR
+	sci-CRAN/shinyBS
 	sci-CRAN/plotly
 	sci-CRAN/DT
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

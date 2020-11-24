@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/qrcode_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/R_utils
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/stringr
+	sci-CRAN/R_utils
 "
 RDEPEND="${DEPEND-}"

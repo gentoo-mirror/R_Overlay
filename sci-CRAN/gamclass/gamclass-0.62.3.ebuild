@@ -40,9 +40,9 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 "
 DEPEND="virtual/lattice
-	virtual/lattice
-	virtual/rpart
 	sci-CRAN/randomForest
+	virtual/lattice
 	>=dev-lang/R-3.5.0
+	virtual/rpart
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -34,10 +34,10 @@ R_SUGGESTS="
 	r_suggests_scagnostics? ( sci-CRAN/scagnostics )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="sci-BIOC/graph
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/PairViz
 	virtual/MASS
-	>=dev-lang/R-3.4.0
 	sci-CRAN/loon
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

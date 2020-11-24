@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/decompr
-	sci-CRAN/diagonals
+DEPEND="sci-CRAN/diagonals
+	sci-CRAN/decompr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,13 +12,13 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_shinyitemanalysis"
 R_SUGGESTS="r_suggests_shinyitemanalysis? ( sci-CRAN/ShinyItemAnalysis )"
-DEPEND="sci-CRAN/msm
-	sci-CRAN/reshape2
-	>=sci-CRAN/ggplot2-2.2.1
+DEPEND=">=dev-lang/R-3.1
+	sci-CRAN/msm
+	sci-CRAN/VGAM
 	sci-CRAN/CTT
-	>=dev-lang/R-3.1
+	>=sci-CRAN/ggplot2-2.2.1
 	virtual/nnet
 	sci-CRAN/plyr
-	sci-CRAN/VGAM
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

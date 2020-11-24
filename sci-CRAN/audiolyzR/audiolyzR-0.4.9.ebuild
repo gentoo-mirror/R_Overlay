@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/audiolyzR_0.4-9.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/hexbin
-	sci-CRAN/plotrix
 	sci-CRAN/RJSONIO
+	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-}"

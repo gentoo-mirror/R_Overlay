@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RZabbix_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/jsonlite-0.9.19
 	>=sci-CRAN/httr-1.1.0
+	>=sci-CRAN/jsonlite-0.9.19
 "
 RDEPEND="${DEPEND-}"

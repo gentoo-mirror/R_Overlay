@@ -18,15 +18,15 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/gridExtra-0.9.0
-	>=sci-CRAN/dplyr-0.4.0
 	>=sci-CRAN/reshape2-1.2.0
+	>=sci-CRAN/dplyr-0.4.0
 	>=sci-CRAN/ggplot2-1.0.0
 	>=sci-CRAN/igraph-0.7.1
 	>=sci-CRAN/Rcpp-0.11.1
 	>=sci-CRAN/data_table-1.9.0
+	>=sci-CRAN/gtable-0.1.2
 	>=sci-CRAN/stringdist-0.7.3
 	>=sci-CRAN/scales-0.3.0
-	>=sci-CRAN/gtable-0.1.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

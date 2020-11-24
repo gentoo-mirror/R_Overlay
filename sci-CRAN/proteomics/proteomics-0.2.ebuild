@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/proteomics_0.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/plyr
-	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
 	sci-CRAN/foreach
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}"

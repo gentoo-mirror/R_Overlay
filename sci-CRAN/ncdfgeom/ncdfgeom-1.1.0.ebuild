@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/ncmeta
+	sci-CRAN/RNetCDF
 	sci-CRAN/dplyr
 	sci-CRAN/sf
-	sci-CRAN/RNetCDF
+	sci-CRAN/ncmeta
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/zoo-1.7.2
-	>=sci-CRAN/hydroGOF-0.3.5
-	>=sci-CRAN/hydroTSM-0.3.6
-	sci-CRAN/lhs
-	sci-CRAN/vioplot
-	sci-CRAN/scatterplot3d
+DEPEND="sci-CRAN/sp
+	virtual/lattice
+	sci-CRAN/Hmisc
 	sci-CRAN/data_table
 	>=dev-lang/R-3.6.0
-	sci-CRAN/Hmisc
-	sci-CRAN/sp
-	virtual/lattice
+	>=sci-CRAN/zoo-1.7.2
+	sci-CRAN/lhs
+	>=sci-CRAN/hydroTSM-0.3.6
+	>=sci-CRAN/hydroGOF-0.3.5
+	sci-CRAN/vioplot
+	sci-CRAN/scatterplot3d
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

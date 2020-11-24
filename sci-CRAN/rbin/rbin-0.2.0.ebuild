@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/ggplot2
+	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

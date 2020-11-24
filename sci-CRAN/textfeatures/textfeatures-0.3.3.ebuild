@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/dplyr
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/dplyr
 	sci-CRAN/text2vec
-	sci-CRAN/purrr
-	>=dev-lang/R-3.1.0
 	sci-CRAN/rlang
 	sci-CRAN/tfse
+	sci-CRAN/purrr
 	sci-CRAN/tibble
 	sci-CRAN/tokenizers
 "

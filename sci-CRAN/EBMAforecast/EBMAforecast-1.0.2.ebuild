@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EBMAforecast_1.0.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/Rcpp-1.0.2
-	sci-CRAN/separationplot
+DEPEND="sci-CRAN/separationplot
 	sci-CRAN/abind
-	sci-CRAN/plyr
 	sci-CRAN/Hmisc
+	sci-CRAN/plyr
+	>=sci-CRAN/Rcpp-1.0.2
 	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

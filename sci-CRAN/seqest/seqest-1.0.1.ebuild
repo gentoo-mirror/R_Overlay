@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/seqest_1.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/VGAM
-	sci-CRAN/mvtnorm
-	virtual/nnet
-	>=sci-CRAN/Rcpp-1.0.2
+DEPEND=">=sci-CRAN/Rcpp-1.0.2
 	sci-CRAN/geepack
-	virtual/MASS
+	sci-CRAN/mvtnorm
 	sci-CRAN/foreach
+	virtual/nnet
+	sci-CRAN/VGAM
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

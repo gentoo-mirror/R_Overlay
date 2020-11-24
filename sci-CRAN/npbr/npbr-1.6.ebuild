@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/npbr_1.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.3.1
-	sci-CRAN/quadprog
-	sci-mathematics/glpk
-	sci-CRAN/Benchmarking
+DEPEND="sci-mathematics/glpk
+	>=dev-lang/R-3.3.1
 	sci-CRAN/np
+	sci-CRAN/Benchmarking
+	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-}"

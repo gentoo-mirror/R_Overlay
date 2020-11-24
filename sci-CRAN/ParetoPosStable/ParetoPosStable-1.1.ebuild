@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/ParetoPosStable_1.1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/ADGofTest
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
-	>=dev-lang/R-3.0.0
 	sci-CRAN/lmom
+	sci-CRAN/foreach
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}"

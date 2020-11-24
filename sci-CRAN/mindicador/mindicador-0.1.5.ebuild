@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
 DEPEND="sci-CRAN/data_table
-	sci-CRAN/digest
 	sci-CRAN/memoise
-	sci-CRAN/xts
 	sci-CRAN/crul
+	sci-CRAN/digest
 	sci-CRAN/jsonlite
+	sci-CRAN/xts
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

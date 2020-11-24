@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_leafsync? ( sci-CRAN/leafsync )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/splancs
+DEPEND="sci-CRAN/aspace
 	sci-CRAN/geosphere
-	sci-CRAN/aspace
 	sci-CRAN/leaflet
-	>=dev-lang/R-3.5.0
 	sci-CRAN/pals
+	>=dev-lang/R-3.5.0
 	sci-CRAN/RANN
 	sci-CRAN/raster
 	sci-CRAN/sp
 	sci-CRAN/spatstat
+	sci-CRAN/splancs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

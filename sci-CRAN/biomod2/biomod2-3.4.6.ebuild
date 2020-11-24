@@ -21,33 +21,33 @@ R_SUGGESTS="
 	r_suggests_mgcv? ( virtual/mgcv )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/sp
-	sci-CRAN/rasterVis
-	sci-CRAN/ENMeval
-	>=sci-CRAN/gbm-2.1.3
-	virtual/MASS
+DEPEND="sci-CRAN/PresenceAbsence
+	sci-CRAN/doParallel
+	sci-CRAN/dplyr
 	sci-CRAN/earth
-	>=dev-lang/R-3.4.0
-	sci-CRAN/purrr
-	sci-CRAN/raster
-	sci-CRAN/ggplot2
 	sci-CRAN/caret
-	sci-CRAN/checkmate
+	>=dev-lang/R-3.4.0
 	virtual/lattice
 	virtual/nnet
-	sci-CRAN/randomForest
-	sci-CRAN/PresenceAbsence
-	sci-CRAN/tidyr
-	sci-CRAN/rlang
-	sci-CRAN/abind
-	sci-CRAN/mda
-	sci-CRAN/foreach
-	sci-CRAN/dplyr
-	sci-CRAN/maxnet
-	virtual/rpart
 	sci-CRAN/reshape
-	>=sci-CRAN/pROC-1.15.0
+	>=sci-CRAN/gbm-2.1.3
+	sci-CRAN/randomForest
+	sci-CRAN/purrr
+	sci-CRAN/rlang
+	sci-CRAN/rasterVis
+	virtual/MASS
+	sci-CRAN/maxnet
+	sci-CRAN/raster
+	sci-CRAN/ggplot2
+	sci-CRAN/abind
+	virtual/rpart
 	sci-CRAN/dismo
-	sci-CRAN/doParallel
+	sci-CRAN/ENMeval
+	sci-CRAN/foreach
+	sci-CRAN/sp
+	sci-CRAN/mda
+	sci-CRAN/checkmate
+	>=sci-CRAN/pROC-1.15.0
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

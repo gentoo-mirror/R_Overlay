@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/cromwellDashboard_0.5.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/httr
-	sci-CRAN/shinydashboard
 	sci-CRAN/dplyr
+	sci-CRAN/httr
 	sci-CRAN/stringr
+	sci-CRAN/shinydashboard
 	sci-CRAN/DT
 "
 RDEPEND="${DEPEND-}"

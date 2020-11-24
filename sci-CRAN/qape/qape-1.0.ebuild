@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/qape_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
 	sci-CRAN/lme4
 	virtual/Matrix
-	sci-CRAN/plyr
 	sci-CRAN/mvtnorm
+	sci-CRAN/plyr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

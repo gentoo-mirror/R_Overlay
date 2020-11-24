@@ -12,15 +12,15 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/tibble
-	sci-CRAN/pbmcapply
-	>=dev-lang/R-3.0.0
-	sci-CRAN/purrr
-	sci-CRAN/rlist
-	sci-CRAN/XML
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/xml2
+	sci-CRAN/tibble
+	sci-CRAN/XML
 	sci-CRAN/DT
 	sci-CRAN/urltools
+	sci-CRAN/jsonlite
+	sci-CRAN/purrr
+	sci-CRAN/pbmcapply
+	sci-CRAN/rlist
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/pheno_1.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.14
-	sci-CRAN/SparseM
 	virtual/nlme
+	sci-CRAN/SparseM
 	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-}"

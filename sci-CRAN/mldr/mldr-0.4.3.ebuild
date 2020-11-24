@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_proc? ( sci-CRAN/pROC )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/XML
-	>=dev-lang/R-3.0.0
-	sci-CRAN/circlize
+DEPEND="sci-CRAN/circlize
 	>=sci-CRAN/shiny-0.11
+	>=dev-lang/R-3.0.0
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

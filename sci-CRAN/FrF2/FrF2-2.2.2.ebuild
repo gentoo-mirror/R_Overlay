@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_bsmd? ( sci-CRAN/BsMD )
 	r_suggests_frf2_catlg128? ( sci-CRAN/FrF2_catlg128 )
 "
-DEPEND=">=sci-CRAN/DoE_base-0.25
+DEPEND=">=sci-CRAN/sfsmisc-1.0.26
 	>=sci-CRAN/igraph-0.7
 	sci-CRAN/scatterplot3d
 	>=dev-lang/R-2.13.0
-	>=sci-CRAN/sfsmisc-1.0.26
+	>=sci-CRAN/DoE_base-0.25
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

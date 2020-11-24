@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND="sci-CRAN/Rcpp
+DEPEND="sci-CRAN/partykit
+	sci-CRAN/Rcpp
 	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
-	sci-CRAN/partykit
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

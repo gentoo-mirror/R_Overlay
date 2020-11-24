@@ -13,8 +13,8 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_isingsampler"
 R_SUGGESTS="r_suggests_isingsampler? ( sci-CRAN/IsingSampler )"
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/glmnet
 	sci-CRAN/qgraph
 	virtual/Matrix
-	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

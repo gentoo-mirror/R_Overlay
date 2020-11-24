@@ -12,15 +12,15 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_snow"
 R_SUGGESTS="r_suggests_snow? ( sci-CRAN/snow )"
-DEPEND="sci-CRAN/igraph
-	sci-BIOC/cellHTS2
-	sci-BIOC/biomaRt
-	sci-BIOC/BioNet
-	>=dev-lang/R-2.15
+DEPEND=">=dev-lang/R-2.15
+	sci-CRAN/igraph
 	sci-BIOC/graph
 	sci-CRAN/igraph
+	sci-BIOC/BioNet
+	sci-BIOC/cellHTS2
 	sci-BIOC/GSEABase
 	sci-BIOC/AnnotationDbi
+	sci-BIOC/biomaRt
 	sci-BIOC/RankProd
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

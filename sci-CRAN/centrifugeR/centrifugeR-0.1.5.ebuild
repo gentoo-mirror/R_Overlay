@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/centrifugeR_0.1.5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/pracma-2.2.9
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
+	>=sci-CRAN/pracma-2.2.9
 "
 RDEPEND="${DEPEND-}"

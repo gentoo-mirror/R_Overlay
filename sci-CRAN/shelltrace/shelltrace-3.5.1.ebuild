@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/shelltrace_3.5.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/xlsx
-	sci-CRAN/bmp
-	>=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/bmp
 	sci-CRAN/tiff
+	sci-CRAN/xlsx
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-}"

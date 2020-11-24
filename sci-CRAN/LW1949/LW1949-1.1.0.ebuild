@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.2
-	virtual/mgcv
-	virtual/MASS
 	sci-CRAN/plotrix
+	virtual/MASS
 	dev-lang/R[tk]
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

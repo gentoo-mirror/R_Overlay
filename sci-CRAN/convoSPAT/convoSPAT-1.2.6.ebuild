@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/convoSPAT_1.2.6.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.2
-	virtual/MASS
 	sci-CRAN/StatMatch
+	virtual/MASS
 	sci-CRAN/fields
 	sci-CRAN/ellipse
 	sci-CRAN/plotrix

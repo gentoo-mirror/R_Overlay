@@ -10,21 +10,21 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bootcluster_0.2.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/cluster
-	sci-CRAN/sets
-	sci-CRAN/doParallel
-	sci-CRAN/fpc
-	sci-CRAN/igraph
-	sci-CRAN/GGally
-	sci-CRAN/gridExtra
-	>=dev-lang/R-3.3.1
-	sci-CRAN/flexclust
-	sci-CRAN/mclust
-	sci-CRAN/intergraph
-	sci-CRAN/plyr
-	sci-CRAN/dplyr
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/network
+	sci-CRAN/intergraph
 	sci-CRAN/ggplot2
+	>=dev-lang/R-3.3.1
+	sci-CRAN/dplyr
+	sci-CRAN/igraph
+	sci-CRAN/gridExtra
+	sci-CRAN/GGally
+	virtual/cluster
+	sci-CRAN/plyr
+	sci-CRAN/foreach
+	sci-CRAN/flexclust
+	sci-CRAN/fpc
+	sci-CRAN/mclust
+	sci-CRAN/sets
 "
 RDEPEND="${DEPEND-}"

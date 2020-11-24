@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/spThin_0.2.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/spam
-	sci-CRAN/fields
 	sci-CRAN/knitr
+	sci-CRAN/fields
 "
 RDEPEND="${DEPEND-}"

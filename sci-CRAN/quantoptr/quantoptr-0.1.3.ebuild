@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/quantoptr_0.1.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/rgenoud-5.7
-	sci-CRAN/Rdpack
-	>=sci-CRAN/quantreg-5.18
-	sci-CRAN/stringr
 	>=dev-lang/R-3.2
+	>=sci-CRAN/quantreg-5.18
+	sci-CRAN/Rdpack
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

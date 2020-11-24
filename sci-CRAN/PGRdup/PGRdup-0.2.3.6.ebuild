@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_xml? ( sci-CRAN/XML )
 "
 DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/stringdist-0.9.4
 	sci-CRAN/igraph
+	>=sci-CRAN/stringdist-0.9.4
 	>=sci-CRAN/data_table-1.9.3
 	sci-CRAN/stringi
 	sci-CRAN/ggplot2

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/sf
-	sci-CRAN/sp
+DEPEND="sci-CRAN/sp
 	sci-CRAN/raster
 	sci-CRAN/randomForest
+	sci-CRAN/sf
+	>=dev-lang/R-3.5.0
 	sci-CRAN/zoo
 	sci-CRAN/pbapply
 "

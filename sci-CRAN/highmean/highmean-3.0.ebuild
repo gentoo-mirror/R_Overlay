@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/highmean_3.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/mnormt
+DEPEND="virtual/MASS
+	sci-CRAN/mnormt
 	>=sci-CRAN/mvtnorm-1.0.0
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-BIOC/annotate-1.45.3
-	sci-BIOC/AnnotationDbi
-	>=sci-BIOC/BiocGenerics-0.13.8
-	>=sci-BIOC/Biobase-2.17.8
+DEPEND=">=sci-BIOC/BiocGenerics-0.13.8
 	>=sci-BIOC/graph-1.37.2
+	sci-BIOC/AnnotationDbi
+	>=sci-BIOC/annotate-1.45.3
+	>=sci-BIOC/Biobase-2.17.8
 	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

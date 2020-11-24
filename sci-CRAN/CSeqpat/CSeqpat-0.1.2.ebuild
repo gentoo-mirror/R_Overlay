@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/CSeqpat_0.1.2.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/NLP
 	sci-CRAN/tm
+	sci-CRAN/NLP
 "
 RDEPEND="${DEPEND-}"

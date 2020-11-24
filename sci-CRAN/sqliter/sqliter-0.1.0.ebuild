@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/sqliter_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/stringr
-	sci-CRAN/RSQLite
-	sci-CRAN/functional
 	sci-CRAN/DBI
+	sci-CRAN/functional
+	sci-CRAN/RSQLite
 "
 RDEPEND="${DEPEND-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RecurRisk_1.0.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/flexsurvcure
-	virtual/survival
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/SEER2R
+	sci-CRAN/flexsurvcure
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

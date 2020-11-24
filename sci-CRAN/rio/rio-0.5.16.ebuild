@@ -29,14 +29,14 @@ R_SUGGESTS="
 	r_suggests_xml2? ( >=sci-CRAN/xml2-1.2.0 )
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
-DEPEND=">=sci-CRAN/haven-1.1.0
-	>=sci-CRAN/data_table-1.9.8
+DEPEND=">=dev-lang/R-2.15.0
+	>=sci-CRAN/haven-1.1.0
 	>=sci-CRAN/curl-0.6
-	sci-CRAN/openxlsx
 	>=sci-CRAN/readxl-0.1.1
-	sci-CRAN/tibble
-	>=dev-lang/R-2.15.0
 	virtual/foreign
+	>=sci-CRAN/data_table-1.9.8
+	sci-CRAN/openxlsx
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

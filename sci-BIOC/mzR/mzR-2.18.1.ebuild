@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_xml? ( sci-CRAN/XML )
 "
-DEPEND="sci-BIOC/Biobase
+DEPEND=">=sci-CRAN/Rcpp-0.10.1
 	>=sci-BIOC/ProtGenerics-1.9.1
-	>=sci-CRAN/Rcpp-0.10.1
-	sci-CRAN/ncdf4
+	sci-BIOC/Biobase
 	>=sci-BIOC/BiocGenerics-0.13.6
+	sci-CRAN/ncdf4
 "
 RDEPEND="${DEPEND-}
+	>=sci-BIOC/Rhdf5lib-1.1.4
 	sci-CRAN/Rcpp
 	sci-BIOC/zlibbioc
-	>=sci-BIOC/Rhdf5lib-1.1.4
 	${R_SUGGESTS-}
 "
 

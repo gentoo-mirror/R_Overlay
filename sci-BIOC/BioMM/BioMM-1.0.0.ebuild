@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.6
+	virtual/lattice
+	sci-CRAN/rms
 	sci-CRAN/glmnet
 	sci-BIOC/BiocParallel
 	sci-CRAN/nsprcomp
-	sci-CRAN/rms
 	sci-CRAN/ranger
 	sci-CRAN/e1071
 	sci-BIOC/variancePartition
 	sci-CRAN/ggplot2
-	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

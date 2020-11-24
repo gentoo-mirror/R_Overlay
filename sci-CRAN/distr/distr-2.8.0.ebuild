@@ -18,7 +18,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-2.14.0
 	sci-CRAN/sfsmisc
-	virtual/MASS
 	sci-CRAN/startupmsg
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

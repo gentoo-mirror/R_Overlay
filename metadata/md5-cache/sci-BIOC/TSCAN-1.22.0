@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/shiny sci-CRAN/mclust sci-CRAN/fastICA sci-CRAN/combinat virtual/mgcv sci-CRAN/gplots sci-CRAN/plyr sci-CRAN/ggplot2 sci-CRAN/igraph dev-lang/R
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/fastICA virtual/mgcv sci-CRAN/combinat sci-CRAN/mclust sci-CRAN/plyr sci-CRAN/shiny sci-CRAN/gplots dev-lang/R
 DESCRIPTION=TSCAN: Tools for Single-Cell ANalysis
 EAPI=7
 IUSE=r_suggests_knitr byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=sci-CRAN/shiny sci-CRAN/mclust sci-CRAN/fastICA sci-CRAN/combinat virtual/mgcv sci-CRAN/gplots sci-CRAN/plyr sci-CRAN/ggplot2 sci-CRAN/igraph r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/fastICA virtual/mgcv sci-CRAN/combinat sci-CRAN/mclust sci-CRAN/plyr sci-CRAN/shiny sci-CRAN/gplots r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/TSCAN_1.22.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=ada2c91f9d15e9ddd613349a70ec9040
+_md5_=5b5a5940751b0fe15c24ae31d1db4d93

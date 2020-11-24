@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND=">=dev-lang/R-2.15.1
-	>=sci-CRAN/Rcpp-0.11.0
 	virtual/Matrix
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

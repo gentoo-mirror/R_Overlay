@@ -12,14 +12,14 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_roxygen2"
 R_SUGGESTS="r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.1.0 )"
-DEPEND=">=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/dplyr-0.8.5
-	>=sci-CRAN/rlang-0.1.2
-	>=sci-CRAN/tidyr-1.0.2
-	>=dev-lang/R-3.6.0
+DEPEND=">=sci-CRAN/rlang-0.1.2
+	>=sci-CRAN/gganimate-1.0.5
 	>=sci-CRAN/purrr-0.3.3
+	>=sci-CRAN/magrittr-1.5
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/tidyr-1.0.2
 	>=sci-CRAN/ggplot2-3.3.0
 	>=sci-CRAN/ggforce-0.3.1
-	>=sci-CRAN/gganimate-1.0.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

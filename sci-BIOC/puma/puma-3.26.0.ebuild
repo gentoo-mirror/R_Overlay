@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_rocr? ( sci-CRAN/ROCR )
 	r_suggests_snow? ( sci-CRAN/snow )
 "
-DEPEND="virtual/class
+DEPEND=">=sci-BIOC/Biobase-2.5.5
+	sci-BIOC/affyio
+	virtual/class
+	>=sci-BIOC/affy-1.46.0
 	>=dev-lang/R-3.2.0
 	>=sci-BIOC/oligo-1.32.0
-	>=sci-BIOC/Biobase-2.5.5
 	sci-CRAN/mclust
-	>=sci-BIOC/affy-1.46.0
-	sci-BIOC/affyio
 	virtual/class
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

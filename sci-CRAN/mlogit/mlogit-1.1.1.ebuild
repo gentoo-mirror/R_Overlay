@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_nnet? ( virtual/nnet )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/zoo
-	sci-CRAN/Formula
-	sci-CRAN/statmod
+DEPEND="sci-CRAN/dfidx
 	sci-CRAN/Rdpack
-	sci-CRAN/dfidx
-	sci-CRAN/lmtest
 	virtual/MASS
+	sci-CRAN/zoo
+	sci-CRAN/statmod
+	sci-CRAN/lmtest
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

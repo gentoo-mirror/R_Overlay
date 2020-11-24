@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/httr-1.0.0
+	sci-CRAN/assertthat
 	sci-CRAN/jsonlite
 	sci-CRAN/dplyr
-	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

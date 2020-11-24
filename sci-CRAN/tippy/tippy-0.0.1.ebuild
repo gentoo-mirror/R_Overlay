@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/tippy_0.0.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/htmlwidgets
-	sci-CRAN/shiny
-	sci-CRAN/htmltools
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/jsonlite
+	sci-CRAN/shiny
+	sci-CRAN/htmlwidgets
+	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-}"

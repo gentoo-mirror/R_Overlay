@@ -17,22 +17,22 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_sparsem? ( sci-CRAN/SparseM )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.2
-	virtual/Matrix
-	sci-CRAN/e1071
-	sci-CRAN/LiblineaR
+DEPEND=">=sci-BIOC/Biostrings-2.35.5
 	>=sci-BIOC/XVector-0.7.3
-	virtual/cluster
+	>=sci-BIOC/S4Vectors-0.5.11
+	sci-CRAN/LiblineaR
+	virtual/Matrix
 	>=dev-lang/R-3.2.0
 	sci-CRAN/kernlab
-	>=sci-BIOC/Biostrings-2.35.5
-	>=sci-BIOC/S4Vectors-0.5.11
+	>=sci-CRAN/Rcpp-0.11.2
+	sci-CRAN/e1071
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}
-	sci-BIOC/IRanges
-	sci-BIOC/Biostrings
-	sci-CRAN/Rcpp
 	sci-BIOC/XVector
+	sci-BIOC/IRanges
 	sci-BIOC/S4Vectors
+	sci-CRAN/Rcpp
+	sci-BIOC/Biostrings
 	${R_SUGGESTS-}
 "

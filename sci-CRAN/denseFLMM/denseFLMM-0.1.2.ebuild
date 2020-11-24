@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/denseFLMM_0.1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.3
-	virtual/MASS
+DEPEND="virtual/MASS
+	sci-CRAN/mvtnorm
 	virtual/Matrix
 	virtual/mgcv
-	sci-CRAN/mvtnorm
+	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-}"

@@ -15,8 +15,8 @@ R_SUGGESTS="r_suggests_imager? ( sci-CRAN/imager )"
 DEPEND=">=sci-CRAN/Rcpp-0.12.19
 	sci-CRAN/httr
 	sci-CRAN/data_table
-	sci-CRAN/rvest
 	sci-CRAN/jsonlite
+	sci-CRAN/rvest
 	virtual/survival
 "
 RDEPEND="${DEPEND-}

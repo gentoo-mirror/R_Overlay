@@ -26,8 +26,8 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-BIOC/limma-3.34
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5
+	>=sci-BIOC/limma-3.34
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

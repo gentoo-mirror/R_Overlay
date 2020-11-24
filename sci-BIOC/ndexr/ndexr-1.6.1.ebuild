@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/igraph
 	sci-CRAN/tidyr
+	sci-CRAN/jsonlite
 	sci-CRAN/httr
 	sci-CRAN/plyr
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

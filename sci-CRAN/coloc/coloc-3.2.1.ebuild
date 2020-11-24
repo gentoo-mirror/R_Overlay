@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/data_table
-	sci-CRAN/BMA
-	sci-BIOC/snpStats
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape
+	sci-CRAN/BMA
+	sci-BIOC/snpStats
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

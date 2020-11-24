@@ -33,19 +33,19 @@ R_SUGGESTS="
 	r_suggests_tripack? ( sci-CRAN/tripack )
 "
 DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/magrittr
-	sci-CRAN/shiny
+	sci-CRAN/htmlwidgets
 	sci-CRAN/htmltools
+	>=sci-CRAN/jsonlite-0.9.20
+	sci-CRAN/knitr
+	sci-CRAN/shiny
+	sci-CRAN/magrittr
 	sci-CRAN/crosstalk
 	sci-mathematics/rstudio
-	sci-CRAN/htmlwidgets
-	sci-CRAN/knitr
-	>=sci-CRAN/jsonlite-0.9.20
 	sci-CRAN/mathjaxr
 "
 RDEPEND="${DEPEND-}
 	virtual/opengl
-	app-text/pandoc
 	virtual/glu
+	app-text/pandoc
 	${R_SUGGESTS-}
 "

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/IMP_1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/tidyr
-	sci-CRAN/shiny
 	sci-CRAN/ggplot2
+	sci-CRAN/shiny
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

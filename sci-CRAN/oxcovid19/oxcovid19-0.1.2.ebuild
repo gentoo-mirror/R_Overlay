@@ -27,11 +27,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/RPostgres
-	sci-CRAN/lubridate
-	sci-CRAN/dbplyr
-	sci-CRAN/sf
 	sci-CRAN/DBI
+	sci-CRAN/dbplyr
 	sci-CRAN/dplyr
+	sci-CRAN/sf
+	sci-CRAN/lubridate
 	sci-CRAN/countrycode
 	sci-CRAN/magrittr
 "

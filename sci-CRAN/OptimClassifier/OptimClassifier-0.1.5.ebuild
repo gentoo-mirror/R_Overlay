@@ -17,15 +17,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/lme4
-	sci-CRAN/lmtest
-	sci-CRAN/e1071
+	virtual/rpart
 	virtual/MASS
+	sci-CRAN/dplyr
+	sci-CRAN/lme4
+	sci-CRAN/e1071
+	sci-CRAN/lmtest
 	sci-CRAN/nortest
 	sci-CRAN/clisymbols
 	sci-CRAN/crayon
-	sci-CRAN/dplyr
-	virtual/rpart
 	virtual/nnet
 	sci-CRAN/ggplot2
 "

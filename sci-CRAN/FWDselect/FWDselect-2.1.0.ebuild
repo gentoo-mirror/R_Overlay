@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FWDselect_2.1.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="virtual/mgcv
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/cvTools
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

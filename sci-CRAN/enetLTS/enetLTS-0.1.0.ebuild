@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/enetLTS_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/cvTools
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/glmnet
+	sci-CRAN/cvTools
 	sci-CRAN/robustHD
-	sci-CRAN/glmnet
 	sci-CRAN/reshape
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

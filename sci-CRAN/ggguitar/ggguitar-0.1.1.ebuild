@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.2 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 "
-DEPEND=">=sci-CRAN/dplyr-0.5.0
-	>=sci-CRAN/ggplot2-0.2.1.0
-	>=sci-CRAN/readr-1.0.0
+DEPEND=">=sci-CRAN/ggplot2-0.2.1.0
 	>=sci-CRAN/gridExtra-2.2.1
+	>=sci-CRAN/readr-1.0.0
+	>=sci-CRAN/dplyr-0.5.0
 	>=sci-CRAN/lazyeval-0.2.0
 	>=sci-CRAN/tibble-1.2
 "

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/bayess_1.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/gplots
+	sci-CRAN/combinat
 	virtual/MASS
 	sci-CRAN/mnormt
-	sci-CRAN/combinat
 "
 RDEPEND="${DEPEND-}"

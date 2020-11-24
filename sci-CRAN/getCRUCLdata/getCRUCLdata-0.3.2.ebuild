@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/hoardr
-	sci-CRAN/raster
+DEPEND="sci-CRAN/raster
 	sci-CRAN/curl
-	sci-CRAN/tibble
 	>=dev-lang/R-3.2.0
+	sci-CRAN/hoardr
 	sci-CRAN/data_table
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

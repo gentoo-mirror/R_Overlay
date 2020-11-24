@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_lattice? ( virtual/lattice )
 "
-DEPEND=">=sci-CRAN/gridSVG-1.1
-	>=dev-lang/R-3.0
-	sci-CRAN/gridGraphviz
+DEPEND=">=dev-lang/R-3.0
 	sci-BIOC/graph
+	sci-CRAN/gridGraphviz
+	>=sci-CRAN/gridSVG-1.1
 "
 RDEPEND="${DEPEND-}
 	media-gfx/graphviz

@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/assertive_base-0.0.7
-	virtual/codetools
 	sci-CRAN/assertive_properties
+	virtual/codetools
+	>=sci-CRAN/assertive_base-0.0.7
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

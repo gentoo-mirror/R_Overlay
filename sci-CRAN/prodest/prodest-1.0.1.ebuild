@@ -12,10 +12,10 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/dplyr
-	virtual/Matrix
+DEPEND="virtual/Matrix
 	sci-CRAN/AER
-	sci-CRAN/Rsolnp
 	sci-CRAN/DEoptim
+	sci-CRAN/dplyr
+	sci-CRAN/Rsolnp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

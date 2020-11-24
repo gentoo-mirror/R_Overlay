@@ -12,11 +12,11 @@ LICENSE='CC0-1.0'
 
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/pracma
-	sci-CRAN/pastecs
 	sci-CRAN/ggplot2
-	sci-CRAN/readxl
-	sci-CRAN/lubridate
 	sci-CRAN/zoo
+	sci-CRAN/lubridate
+	sci-CRAN/pastecs
+	sci-CRAN/readxl
 	sci-CRAN/readr
 	sci-CRAN/XML
 "

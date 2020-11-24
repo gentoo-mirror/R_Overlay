@@ -25,11 +25,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/doFuture
 	sci-CRAN/SuperLearner
 	sci-CRAN/np
-	sci-CRAN/future_apply
+	sci-CRAN/doFuture
 	sci-CRAN/future
+	sci-CRAN/future_apply
 	sci-CRAN/future_batchtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

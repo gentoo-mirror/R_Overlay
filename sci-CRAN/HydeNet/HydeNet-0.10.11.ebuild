@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="virtual/nnet
+	sci-CRAN/stringr
+	>=sci-CRAN/DiagrammeR-0.9.0
+	sci-CRAN/checkmate
+	>=dev-lang/R-3.0.0
 	sci-CRAN/plyr
 	sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	>=sci-CRAN/DiagrammeR-0.9.0
-	virtual/nnet
-	sci-CRAN/checkmate
 	sci-BIOC/graph
+	sci-CRAN/magrittr
 	>=sci-CRAN/pixiedust-0.6.1
 	sci-CRAN/rjags
-	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

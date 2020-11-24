@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_shinybs? ( sci-CRAN/shinyBS )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/magick
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/magick
 	sci-CRAN/imager
-	sci-CRAN/magrittr
 	sci-CRAN/shiny
 	sci-CRAN/scales
 "

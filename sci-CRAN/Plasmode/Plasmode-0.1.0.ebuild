@@ -10,23 +10,23 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Plasmode_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/survey
-	virtual/foreign
+DEPEND="virtual/nlme
+	sci-CRAN/gbm
+	virtual/lattice
 	sci-CRAN/arm
-	sci-CRAN/RColorBrewer
+	sci-CRAN/xtable
 	virtual/nnet
+	virtual/lattice
+	sci-CRAN/twang
 	virtual/survival
+	sci-CRAN/survey
+	virtual/foreign
+	sci-CRAN/RColorBrewer
+	sci-CRAN/lme4
+	virtual/mgcv
+	virtual/MASS
+	>=sci-CRAN/glm2-1.1.2
 	virtual/Matrix
 	sci-CRAN/epiDisplay
-	sci-CRAN/twang
-	virtual/lattice
-	virtual/mgcv
-	>=sci-CRAN/glm2-1.1.2
-	virtual/nlme
-	sci-CRAN/lme4
-	sci-CRAN/gbm
-	virtual/MASS
-	virtual/lattice
-	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}"

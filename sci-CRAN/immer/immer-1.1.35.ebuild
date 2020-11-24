@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_erm? ( sci-CRAN/eRm )
 	r_suggests_lme4? ( sci-CRAN/lme4 )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/psychotools
 	sci-CRAN/TAM
 	>=sci-CRAN/sirt-2.4.9
-	>=sci-CRAN/CDM-6.0.101
-	>=dev-lang/R-3.0.0
-	sci-CRAN/coda
-	sci-CRAN/psychotools
 	sci-CRAN/Rcpp
+	>=dev-lang/R-3.0.0
+	>=sci-CRAN/CDM-6.0.101
+	virtual/MASS
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

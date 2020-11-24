@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/xml2
 	sci-CRAN/Rcpp
 	sci-CRAN/cellranger
-	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

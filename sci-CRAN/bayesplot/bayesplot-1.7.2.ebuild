@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND="sci-CRAN/reshape2
-	sci-CRAN/tibble
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/ggridges
-	>=dev-lang/R-3.1.0
-	sci-CRAN/glue
 	>=sci-CRAN/ggplot2-3.0.0
 	>=sci-CRAN/dplyr-0.8.0
+	sci-CRAN/glue
+	sci-CRAN/reshape2
 	>=sci-CRAN/rlang-0.3.0
+	sci-CRAN/tibble
 	sci-CRAN/tidyselect
 "
 RDEPEND="${DEPEND-}

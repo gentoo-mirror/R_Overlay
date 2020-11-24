@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ILS_0.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/depthTools
 	sci-CRAN/fda_usc
-	sci-CRAN/depthTools
-	virtual/MASS
 	sci-CRAN/multcomp
+	>=dev-lang/R-3.1.0
 	virtual/lattice
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_diagrammer? ( sci-CRAN/DiagrammeR )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.15
-	sci-CRAN/fastDummies
-	virtual/Matrix
+DEPEND="sci-CRAN/fastDummies
 	sci-CRAN/spatstat
+	>=sci-CRAN/Rcpp-0.12.15
 	>=dev-lang/R-3.5.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

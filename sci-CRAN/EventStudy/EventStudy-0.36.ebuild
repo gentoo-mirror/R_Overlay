@@ -15,25 +15,25 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/tidyquant
-	sci-CRAN/purrr
-	sci-CRAN/rlang
-	sci-CRAN/readr
-	sci-CRAN/shiny
-	sci-CRAN/rstudioapi
-	sci-CRAN/jsonlite
-	sci-CRAN/tidyr
-	sci-CRAN/RColorBrewer
-	sci-CRAN/testthat
-	sci-CRAN/scales
-	sci-CRAN/dplyr
-	sci-CRAN/stringr
-	sci-CRAN/openxlsx
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/miniUI
-	sci-CRAN/httr
-	sci-CRAN/curl
-	>=sci-CRAN/magrittr-1.5
+	sci-CRAN/jsonlite
 	sci-CRAN/data_table
+	sci-CRAN/httr
+	sci-CRAN/dplyr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/rlang
+	sci-CRAN/purrr
+	sci-CRAN/openxlsx
+	sci-CRAN/testthat
+	sci-CRAN/curl
+	sci-CRAN/tidyquant
+	sci-CRAN/tidyr
+	sci-CRAN/stringr
+	sci-CRAN/shiny
+	>=sci-CRAN/magrittr-1.5
+	sci-CRAN/readr
+	sci-CRAN/rstudioapi
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
 DEPEND="virtual/Matrix
-	sci-CRAN/leapp
 	virtual/MASS
 	sci-CRAN/esaBcv
 	sci-CRAN/ruv
 	sci-BIOC/sva
 	sci-CRAN/corpcor
+	sci-CRAN/leapp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

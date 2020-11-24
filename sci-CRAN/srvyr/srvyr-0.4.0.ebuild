@@ -28,12 +28,12 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/magrittr
-	>=sci-CRAN/dplyr-0.7
-	sci-CRAN/tibble
-	>=dev-lang/R-3.1.2
-	sci-CRAN/survey
+DEPEND=">=dev-lang/R-3.1.2
+	sci-CRAN/rlang
 	sci-CRAN/tidyselect
+	>=sci-CRAN/dplyr-0.7
+	sci-CRAN/magrittr
+	sci-CRAN/survey
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

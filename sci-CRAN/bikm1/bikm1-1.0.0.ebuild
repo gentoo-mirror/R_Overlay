@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/gtools
 	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
 	sci-CRAN/ade4
+	sci-CRAN/reshape2
 	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}"

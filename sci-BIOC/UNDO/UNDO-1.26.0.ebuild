@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/UNDO_1.26.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/boot
-	sci-CRAN/nnls
-	virtual/MASS
-	sci-BIOC/BiocGenerics
+DEPEND="sci-BIOC/Biobase
+	virtual/boot
 	>=dev-lang/R-2.15.2
-	sci-BIOC/Biobase
+	sci-BIOC/BiocGenerics
+	virtual/MASS
+	sci-CRAN/nnls
 "
 RDEPEND="${DEPEND-}"

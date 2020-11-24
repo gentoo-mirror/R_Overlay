@@ -13,10 +13,10 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_lavaan"
 R_SUGGESTS="r_suggests_lavaan? ( sci-CRAN/lavaan )"
 DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/RcppArmadillo
 	sci-CRAN/Rcpp
 	sci-CRAN/knitr
 	sci-CRAN/glasso
-	sci-CRAN/RcppArmadillo
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

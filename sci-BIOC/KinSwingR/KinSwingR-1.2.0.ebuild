@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-BIOC/BiocParallel
 	sci-CRAN/sqldf
+	sci-BIOC/BiocParallel
 	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

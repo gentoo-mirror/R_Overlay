@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/wbsts_2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/mvtnorm
-	>=dev-lang/R-3.0.0
 	sci-CRAN/wavelets
+	>=dev-lang/R-3.0.0
 	>=sci-CRAN/Rcpp-0.12.12
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

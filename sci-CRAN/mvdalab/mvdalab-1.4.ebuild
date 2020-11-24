@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/mvdalab_1.4.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/car
-	virtual/MASS
 	sci-CRAN/penalized
-	sci-CRAN/ggplot2
 	sci-CRAN/moments
+	sci-CRAN/dummies
+	sci-CRAN/ggplot2
+	virtual/MASS
 	sci-CRAN/plyr
 	sci-CRAN/reshape2
 	sci-CRAN/sn
-	sci-CRAN/dummies
 "
 RDEPEND="${DEPEND-}"

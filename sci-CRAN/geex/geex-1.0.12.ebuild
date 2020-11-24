@@ -35,10 +35,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="virtual/Matrix
+DEPEND=">=dev-lang/R-3.3
+	virtual/Matrix
 	>=sci-CRAN/lme4-1.1.12
 	>=sci-CRAN/rootSolve-1.6.6
-	>=dev-lang/R-3.3
 	>=sci-CRAN/numDeriv-2014.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

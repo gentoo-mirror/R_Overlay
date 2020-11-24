@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/FARDEEP_1.0.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-BIOC/preprocessCore
 	>=sci-CRAN/nnls-1.4
+	sci-BIOC/preprocessCore
 "
 RDEPEND="${DEPEND-}"

@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/magrittr
-	sci-CRAN/data_table
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/plotly
-	>=dev-lang/R-3.4.0
+	sci-CRAN/rlang
+	sci-CRAN/data_table
 	sci-CRAN/Rcpp
 	sci-CRAN/ggplot2
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_mediation? ( sci-CRAN/mediation )
 "
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/mc2d
-	sci-CRAN/reshape
+DEPEND="sci-CRAN/mc2d
 	>=dev-lang/R-3.2.0
+	sci-CRAN/reshape
+	sci-CRAN/plyr
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

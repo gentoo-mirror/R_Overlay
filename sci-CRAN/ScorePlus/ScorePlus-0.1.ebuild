@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ScorePlus_0.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-CRAN/combinat
 	sci-CRAN/igraphdata
-	sci-CRAN/RSpectra
+	sci-CRAN/igraph
 	sci-CRAN/limSolve
-	sci-CRAN/combinat
+	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-}"

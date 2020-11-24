@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/uskewFactors_2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/tmvtnorm
-	sci-CRAN/mvtnorm
 	virtual/MASS
+	sci-CRAN/mvtnorm
 	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-}"

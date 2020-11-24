@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/bigtime_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/Rcpp
-	virtual/MASS
 	sci-CRAN/zoo
+	virtual/MASS
+	sci-CRAN/Rcpp
 	virtual/lattice
 	sci-CRAN/corrplot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppEigen
 "

@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/pkgconfig
-	>=dev-lang/R-3.1.0
-	sci-CRAN/bit64
+DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/DBI-1.1.0
+	>=sci-CRAN/Rcpp-0.12.7
+	sci-CRAN/pkgconfig
 	sci-CRAN/memoise
 	>=sci-CRAN/blob-1.2.0
-	>=sci-CRAN/Rcpp-0.12.7
+	sci-CRAN/bit64
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH
-	sci-CRAN/Rcpp
 	>=sci-CRAN/plogr-0.2.0
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

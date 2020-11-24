@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_randomforest? ( >=sci-CRAN/randomForest-4.5.35 )
 	r_suggests_superlearner? ( >=sci-CRAN/SuperLearner-2.0 )
 "
-DEPEND="virtual/MASS
+DEPEND="virtual/Matrix
 	sci-CRAN/R_oo
-	virtual/Matrix
-	>=sci-CRAN/R_utils-1.4.1
+	virtual/MASS
 	sci-CRAN/R_methodsS3
+	>=sci-CRAN/R_utils-1.4.1
 	sci-CRAN/geometry
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

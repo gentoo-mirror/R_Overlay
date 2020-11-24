@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/curl-2.7
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
+	>=sci-CRAN/curl-2.7
 	>=sci-CRAN/httr-1.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

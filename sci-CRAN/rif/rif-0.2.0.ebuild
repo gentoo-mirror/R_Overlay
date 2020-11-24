@@ -18,7 +18,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/tibble
-	>=sci-CRAN/crul-0.3.4
 	sci-CRAN/data_table
+	>=sci-CRAN/crul-0.3.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

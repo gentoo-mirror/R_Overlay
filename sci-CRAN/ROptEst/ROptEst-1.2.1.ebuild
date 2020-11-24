@@ -12,13 +12,13 @@ LICENSE='LGPL-3'
 
 IUSE="${IUSE-} r_suggests_roblox"
 R_SUGGESTS="r_suggests_roblox? ( sci-CRAN/RobLox )"
-DEPEND=">=sci-CRAN/distrEx-2.8.0
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.4
+	>=sci-CRAN/RobAStBase-1.2.0
 	>=sci-CRAN/RandVar-1.2.0
 	>=sci-CRAN/distrMod-2.8.1
-	>=dev-lang/R-3.4
+	>=sci-CRAN/distrEx-2.8.0
 	>=sci-CRAN/distr-2.8.0
-	>=sci-CRAN/RobAStBase-1.2.0
 	sci-CRAN/startupmsg
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

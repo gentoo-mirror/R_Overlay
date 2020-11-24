@@ -12,9 +12,9 @@ LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/SimplicialCubature
-	sci-CRAN/rcdd
 	sci-CRAN/rgl
 	sci-CRAN/abind
+	sci-CRAN/rcdd
 	sci-CRAN/geometry
 "
 RDEPEND="${DEPEND-}"

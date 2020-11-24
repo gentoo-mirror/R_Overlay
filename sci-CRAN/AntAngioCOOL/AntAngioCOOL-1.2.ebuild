@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AntAngioCOOL_1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/rpart
+DEPEND="sci-CRAN/caret
 	sci-CRAN/RWeka
+	virtual/rpart
 	sci-CRAN/rJava
-	sci-CRAN/caret
 "
 RDEPEND="${DEPEND-}"

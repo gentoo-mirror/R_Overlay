@@ -13,8 +13,8 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
 DEPEND="sci-CRAN/WRS2
-	>=sci-CRAN/jmvcore-0.9.1
 	sci-CRAN/ggplot2
 	sci-CRAN/R6
+	>=sci-CRAN/jmvcore-0.9.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -14,9 +14,9 @@ IUSE="${IUSE-} r_suggests_kst"
 R_SUGGESTS="r_suggests_kst? ( >=sci-CRAN/kst-0.5.1 )"
 DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/pks-0.4.0
-	sci-CRAN/stringr
-	sci-CRAN/sets
 	virtual/MASS
+	sci-CRAN/sets
+	sci-CRAN/stringr
 	sci-CRAN/relations
 	virtual/Matrix
 "

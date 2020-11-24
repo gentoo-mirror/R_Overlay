@@ -25,8 +25,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.1.2
 	>=sci-CRAN/doParallel-1.0.15
 	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/foreach-1.5.0
 	>=sci-CRAN/ggplot2-3.3.0
+	>=sci-CRAN/foreach-1.5.0
 	>=sci-CRAN/ggpubr-0.3.0
 	>=sci-CRAN/gridExtra-2.3
 	>=sci-CRAN/lmtest-0.9.36

@@ -20,25 +20,25 @@ R_SUGGESTS="
 	r_suggests_spatial? ( virtual/spatial )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/htmlwidgets
-	>=sci-CRAN/colourvalues-0.3.4
-	>=sci-CRAN/geojsonsf-1.3.3
-	>=sci-CRAN/googlePolylines-0.7.2
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/jsonify-1.1.1
-	sci-CRAN/magrittr
+DEPEND=">=sci-CRAN/googlePolylines-0.7.2
 	sci-CRAN/Rcpp
+	>=sci-CRAN/jsonify-1.1.1
+	>=sci-CRAN/geojsonsf-1.3.3
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/colourvalues-0.3.4
+	sci-CRAN/htmlwidgets
+	sci-CRAN/magrittr
 	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/BH
-	>=sci-CRAN/jsonify-1.1.1
-	sci-CRAN/geometries
-	>=sci-CRAN/geojsonsf-1.3.3
 	sci-CRAN/colourvalues
-	sci-CRAN/rapidjsonr
-	sci-CRAN/Rcpp
+	sci-CRAN/geometries
+	>=sci-CRAN/jsonify-1.1.1
 	virtual/spatial
+	sci-CRAN/rapidjsonr
+	sci-CRAN/BH
+	>=sci-CRAN/geojsonsf-1.3.3
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "
 

@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_scales? ( >=sci-CRAN/scales-0.5.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/party-1.3.3
+DEPEND=">=sci-CRAN/ipred-0.9.6
 	virtual/survival
+	>=sci-CRAN/party-1.3.3
+	>=dev-lang/R-3.6.0
 	>=sci-CRAN/randomForest-4.6.14
-	>=sci-CRAN/ipred-0.9.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

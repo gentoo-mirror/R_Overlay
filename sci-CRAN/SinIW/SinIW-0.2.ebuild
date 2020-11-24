@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/SinIW_0.2.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/fdrtool
 	sci-CRAN/pracma
+	sci-CRAN/fdrtool
 "
 RDEPEND="${DEPEND-}"

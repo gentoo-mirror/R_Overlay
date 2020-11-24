@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/TopicScore_0.0.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/quadprog
-	sci-CRAN/combinat
 	sci-CRAN/RSpectra
 	virtual/Matrix
+	sci-CRAN/quadprog
+	sci-CRAN/combinat
 	sci-CRAN/slam
 "
 RDEPEND="${DEPEND-}"

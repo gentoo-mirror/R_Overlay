@@ -13,15 +13,15 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
 DEPEND=">=dev-lang/R-2.14.0
-	sci-BIOC/BiocGenerics
 	sci-BIOC/Biostrings
 	sci-CRAN/plyr
-	dev-lang/R[tk]
-	sci-CRAN/sqldf
-	sci-CRAN/hash
-	sci-CRAN/ggplot2
-	sci-CRAN/RColorBrewer
-	sci-BIOC/STRINGdb
 	sci-BIOC/IRanges
+	dev-lang/R[tk]
+	sci-CRAN/hash
+	sci-CRAN/RColorBrewer
+	sci-BIOC/BiocGenerics
+	sci-BIOC/STRINGdb
+	sci-CRAN/sqldf
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/polaroid_0.0.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/colourpicker
-	sci-CRAN/png
+	sci-CRAN/ggplot2
 	sci-CRAN/shinyWidgets
 	sci-CRAN/shiny
 	sci-CRAN/argonDash
-	sci-CRAN/ggplot2
 	sci-CRAN/argonR
 	sci-CRAN/hexSticker
+	sci-CRAN/png
 "
 RDEPEND="${DEPEND-}"

@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_rstudioapi"
 R_SUGGESTS="r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )"
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/miniUI
-	sci-CRAN/shinyalert
 	sci-CRAN/shiny
+	sci-CRAN/shinyalert
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

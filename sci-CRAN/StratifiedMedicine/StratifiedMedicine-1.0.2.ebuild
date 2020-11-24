@@ -27,14 +27,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 "
-DEPEND="sci-CRAN/ranger
-	sci-CRAN/ggplot2
-	sci-CRAN/glmnet
-	sci-CRAN/partykit
-	>=dev-lang/R-3.4
-	virtual/survival
-	sci-CRAN/dplyr
-	sci-CRAN/ggparty
+DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/mvtnorm
+	sci-CRAN/ranger
+	virtual/survival
+	sci-CRAN/partykit
+	sci-CRAN/dplyr
+	sci-CRAN/glmnet
+	sci-CRAN/ggplot2
+	sci-CRAN/ggparty
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

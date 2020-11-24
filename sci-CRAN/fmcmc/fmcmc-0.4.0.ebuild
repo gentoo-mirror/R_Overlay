@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/coda
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
 	virtual/MASS
+	sci-CRAN/coda
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

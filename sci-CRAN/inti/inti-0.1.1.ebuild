@@ -20,17 +20,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/FactoMineR
+	sci-CRAN/lme4
 	sci-CRAN/ggplot2
 	sci-CRAN/agricolae
-	sci-CRAN/tibble
 	sci-CRAN/dplyr
+	sci-CRAN/FactoMineR
+	sci-CRAN/DT
+	sci-BIOC/multtest
 	sci-CRAN/tidyr
-	sci-CRAN/lme4
+	sci-CRAN/tibble
 	sci-CRAN/purrr
 	sci-CRAN/stringr
-	sci-CRAN/DT
 	sci-CRAN/emmeans
-	sci-BIOC/multtest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

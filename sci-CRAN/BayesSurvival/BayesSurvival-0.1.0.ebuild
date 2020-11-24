@@ -13,7 +13,7 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_simsurv"
 R_SUGGESTS="r_suggests_simsurv? ( sci-CRAN/simsurv )"
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/ggplot2
 	virtual/survival
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,7 +18,7 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/dplyr
 	sci-CRAN/rstudioapi
-	sci-CRAN/tibble
 	sci-CRAN/magrittr
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hyper.fit_1.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/magicaxis
+DEPEND=">=dev-lang/R-3.00
 	sci-CRAN/rgl
-	virtual/MASS
 	sci-CRAN/LaplacesDemon
-	>=dev-lang/R-3.00
+	sci-CRAN/magicaxis
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

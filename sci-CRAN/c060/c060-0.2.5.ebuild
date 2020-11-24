@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/c060_0.2-5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/survival
-	sci-CRAN/peperr
-	sci-CRAN/glmnet
-	sci-CRAN/tgp
+DEPEND="sci-CRAN/glmnet
 	sci-CRAN/mlegp
+	virtual/survival
+	sci-CRAN/tgp
+	sci-CRAN/peperr
 	sci-CRAN/penalizedSVM
 	virtual/lattice
 "

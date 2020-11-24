@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/doParallel
-	virtual/cluster
-	sci-CRAN/proxy
-	>=dev-lang/R-3.5
+DEPEND="virtual/cluster
 	sci-CRAN/ggplot2
+	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	>=dev-lang/R-3.5
 	sci-CRAN/pracma
+	sci-CRAN/proxy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

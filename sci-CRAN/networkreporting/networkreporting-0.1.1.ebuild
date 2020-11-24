@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-2.11.0
-	sci-CRAN/plyr
-	sci-CRAN/functional
-	virtual/boot
-	sci-CRAN/lazyeval
-	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/dplyr
+	sci-CRAN/stringr
+	sci-CRAN/functional
+	sci-CRAN/ggplot2
+	>=dev-lang/R-2.11.0
+	sci-CRAN/lazyeval
+	sci-CRAN/reshape2
+	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

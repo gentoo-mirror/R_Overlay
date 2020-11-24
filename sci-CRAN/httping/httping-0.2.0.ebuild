@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-6.0.1 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/pryr-0.1.3
-	>=sci-CRAN/httpcode-0.2.0
-	>=sci-CRAN/jsonlite-1.5
+DEPEND=">=sci-CRAN/httr-1.3.1
 	sci-CRAN/magrittr
-	>=sci-CRAN/httr-1.3.1
+	>=sci-CRAN/httpcode-0.2.0
+	>=sci-CRAN/pryr-0.1.3
+	>=sci-CRAN/jsonlite-1.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

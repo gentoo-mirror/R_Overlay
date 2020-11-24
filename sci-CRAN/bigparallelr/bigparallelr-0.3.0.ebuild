@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/doParallel
+DEPEND="sci-CRAN/flock
+	sci-CRAN/RhpcBLASctl
+	sci-CRAN/doParallel
 	>=sci-CRAN/bigassertr-0.1.1
 	sci-CRAN/foreach
-	sci-CRAN/flock
-	sci-CRAN/RhpcBLASctl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

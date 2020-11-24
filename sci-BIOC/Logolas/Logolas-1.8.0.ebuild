@@ -24,12 +24,12 @@ R_SUGGESTS="
 	r_suggests_seqlogo? ( sci-BIOC/seqLogo )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.4
-	sci-BIOC/Biostrings
-	sci-CRAN/LaplacesDemon
-	sci-CRAN/gridBase
+DEPEND="sci-CRAN/SQUAREM
 	sci-CRAN/ggplot2
-	sci-CRAN/SQUAREM
+	sci-CRAN/LaplacesDemon
+	>=dev-lang/R-3.4
+	sci-CRAN/gridBase
+	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

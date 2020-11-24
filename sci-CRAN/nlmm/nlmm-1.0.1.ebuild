@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nlmm_1.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/HI
+DEPEND=">=dev-lang/R-3.0.0
+	virtual/MASS
 	sci-CRAN/statmod
+	virtual/nlme
+	sci-CRAN/HI
+	virtual/Matrix
 	sci-CRAN/lqmm
 	sci-CRAN/mvtnorm
-	virtual/MASS
-	virtual/Matrix
-	>=dev-lang/R-3.0.0
-	virtual/nlme
 	sci-CRAN/numDeriv
 	sci-CRAN/Qtools
 	>=sci-CRAN/Rcpp-0.12.13

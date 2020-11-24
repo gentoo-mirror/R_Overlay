@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND="sci-CRAN/vars
+	sci-CRAN/urca
 	sci-CRAN/pbapply
 	sci-CRAN/knitr
-	sci-CRAN/urca
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

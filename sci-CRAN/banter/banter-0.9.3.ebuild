@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/banter_0.9.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/rlang
-	sci-CRAN/randomForest
-	sci-CRAN/gridExtra
-	sci-CRAN/magrittr
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/plyr
 	sci-CRAN/ranger
-	sci-CRAN/rfPermute
 	sci-CRAN/tibble
+	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
+	sci-CRAN/randomForest
+	sci-CRAN/rfPermute
+	sci-CRAN/rlang
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

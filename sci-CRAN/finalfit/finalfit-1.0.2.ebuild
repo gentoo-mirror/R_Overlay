@@ -26,24 +26,24 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/ggplot2
-	virtual/Matrix
-	sci-CRAN/forcats
-	sci-CRAN/gridExtra
-	sci-CRAN/broom
-	virtual/boot
-	sci-CRAN/lme4
+DEPEND="virtual/Matrix
 	sci-CRAN/scales
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/purrr
-	sci-CRAN/stringr
-	sci-CRAN/pillar
-	sci-CRAN/dplyr
-	sci-CRAN/GGally
-	sci-CRAN/magrittr
-	sci-CRAN/pROC
-	virtual/survival
+	sci-CRAN/lme4
 	sci-CRAN/mice
+	sci-CRAN/dplyr
+	sci-CRAN/stringr
+	sci-CRAN/pROC
+	sci-CRAN/broom
+	sci-CRAN/GGally
+	virtual/survival
+	sci-CRAN/purrr
+	sci-CRAN/magrittr
+	virtual/boot
+	sci-CRAN/forcats
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/ggplot2
+	sci-CRAN/pillar
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

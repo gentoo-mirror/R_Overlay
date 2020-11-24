@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.2
 	sci-CRAN/foreach
-	sci-BIOC/snpStats
 	sci-CRAN/doParallel
+	sci-BIOC/snpStats
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

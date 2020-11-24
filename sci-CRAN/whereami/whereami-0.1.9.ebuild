@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rstudioapi
-	sci-CRAN/cli
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/rstudioapi
 	sci-CRAN/jsonlite
+	sci-CRAN/cli
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

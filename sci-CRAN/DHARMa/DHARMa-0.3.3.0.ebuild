@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_spamm? ( >=sci-CRAN/spaMM-3.2.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.2
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/lmtest
+	>=sci-CRAN/qgam-1.3.2
+	virtual/mgcv
+	>=dev-lang/R-3.0.2
 	sci-CRAN/doParallel
-	>=sci-CRAN/glmmTMB-1.0.1
-	sci-CRAN/foreach
 	sci-CRAN/gap
 	sci-CRAN/ape
 	sci-CRAN/sfsmisc
 	virtual/MASS
-	>=sci-CRAN/qgam-1.3.2
 	sci-CRAN/lme4
-	virtual/mgcv
+	>=sci-CRAN/glmmTMB-1.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

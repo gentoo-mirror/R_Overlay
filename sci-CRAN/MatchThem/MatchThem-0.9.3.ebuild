@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_cobalt? ( sci-CRAN/cobalt )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/mice
+DEPEND="sci-CRAN/MatchIt
+	>=dev-lang/R-3.5.0
+	sci-CRAN/broom
 	sci-CRAN/WeightIt
 	sci-CRAN/dplyr
-	sci-CRAN/MatchIt
-	sci-CRAN/broom
+	sci-CRAN/mice
 	sci-CRAN/survey
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

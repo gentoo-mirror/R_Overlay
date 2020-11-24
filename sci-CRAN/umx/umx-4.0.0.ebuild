@@ -22,21 +22,21 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/cowplot
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/DiagrammeR
+	sci-CRAN/R2HTML
 	sci-CRAN/mvtnorm
+	sci-CRAN/ggplot2
+	sci-CRAN/RCurl
+	sci-CRAN/cowplot
+	>=sci-CRAN/OpenMx-2.11.5
+	sci-CRAN/lavaan
+	sci-CRAN/knitr
+	virtual/MASS
 	virtual/Matrix
 	sci-CRAN/MuMIn
-	sci-CRAN/knitr
 	virtual/nlme
 	sci-CRAN/polycor
-	sci-CRAN/RCurl
-	>=dev-lang/R-3.5.0
-	sci-CRAN/lavaan
-	sci-CRAN/DiagrammeR
-	>=sci-CRAN/OpenMx-2.11.5
-	sci-CRAN/ggplot2
-	virtual/MASS
-	sci-CRAN/R2HTML
 	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

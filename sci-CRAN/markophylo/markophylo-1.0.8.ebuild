@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_markdown? ( >sci-CRAN/markdown-1.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
-DEPEND=">=sci-CRAN/ape-3.2
-	>=sci-CRAN/phangorn-1.99.13
-	>=sci-CRAN/Rcpp-0.11.4
+DEPEND=">=sci-CRAN/phangorn-1.99.13
 	>=sci-CRAN/numDeriv-2012.9.1
+	>=sci-CRAN/Rcpp-0.11.4
+	>=sci-CRAN/ape-3.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

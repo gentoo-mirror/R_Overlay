@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dhglm_2.0.tar.gz"
 
 DEPEND="virtual/boot
-	sci-CRAN/sandwich
-	sci-CRAN/car
+	virtual/MASS
 	>=dev-lang/R-3.4.0
 	virtual/Matrix
-	virtual/MASS
+	sci-CRAN/car
+	sci-CRAN/sandwich
 "
 RDEPEND="${DEPEND-}"

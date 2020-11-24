@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/erp.easy_1.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/plyr-1.8.3
 	>=sci-CRAN/signal-0.7.6
+	>=sci-CRAN/plyr-1.8.3
 	>=sci-CRAN/gtools-3.5.0
 "
 RDEPEND="${DEPEND-}"

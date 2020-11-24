@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/minpack_lm
-	sci-CRAN/tmvtnorm
 	sci-CRAN/zoo
 	>=dev-lang/R-3.2.0
+	sci-CRAN/tmvtnorm
 	sci-CRAN/nloptr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

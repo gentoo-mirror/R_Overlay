@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/data_table
+	>=sci-CRAN/Rcpp-0.12.15
 	sci-CRAN/mvnfast
 	sci-CRAN/condMVNorm
-	>=sci-CRAN/Rcpp-0.12.15
-	sci-CRAN/data_table
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}

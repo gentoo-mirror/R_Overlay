@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-BIOC/S4Vectors
-	sci-BIOC/affyPLM
-	sci-CRAN/gtable
+	sci-CRAN/DBI
 	sci-CRAN/scales
+	sci-BIOC/preprocessCore
+	sci-BIOC/BiocGenerics
+	sci-BIOC/affy
+	sci-BIOC/affyPLM
 	sci-BIOC/oligo
 	sci-BIOC/Biobase
-	sci-BIOC/BiocGenerics
-	sci-BIOC/preprocessCore
-	sci-CRAN/DBI
-	sci-BIOC/affy
+	sci-CRAN/gtable
 	virtual/class
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

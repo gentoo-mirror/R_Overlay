@@ -32,15 +32,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/Rcpp
+DEPEND="virtual/Matrix
 	sci-CRAN/progress
+	sci-CRAN/Rcpp
 	virtual/MASS
 	sci-CRAN/rlist
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/RcppEigen
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

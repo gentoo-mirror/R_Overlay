@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ETAS_0.4.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/maps
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/maps
 	sci-CRAN/Rcpp
-	sci-CRAN/fields
-	>=dev-lang/R-3.3.0
 	virtual/lattice
-	sci-CRAN/goftest
 	sci-CRAN/spatstat
+	sci-CRAN/fields
+	sci-CRAN/goftest
 "
 RDEPEND="${DEPEND-} >=sci-CRAN/Rcpp-1.0.0"

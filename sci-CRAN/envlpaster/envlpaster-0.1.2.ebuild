@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/envlpaster_0.1-2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/aster
-	sci-CRAN/aster2
-	sci-CRAN/caTools
+DEPEND="sci-CRAN/caTools
+	sci-CRAN/aster
 	virtual/MASS
+	sci-CRAN/aster2
 "
 RDEPEND="${DEPEND-}"

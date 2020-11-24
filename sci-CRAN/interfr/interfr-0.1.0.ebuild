@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/colorSpec
-	sci-CRAN/CircStats
 	sci-CRAN/plotrix
+	sci-CRAN/CircStats
 "
 RDEPEND="${DEPEND-}"

@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_epimodel? ( >=sci-CRAN/EpiModel-1.8.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ergm-3.10.4
-	sci-CRAN/Rcpp
-	>=sci-CRAN/statnet_common-4.3.0
+DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/tergm-3.6.1
+	>=sci-CRAN/ergm-3.10.4
 	>=sci-CRAN/network-1.16.0
-	>=dev-lang/R-3.2.0
+	>=sci-CRAN/statnet_common-4.3.0
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

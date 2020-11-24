@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/rJava-0.5.0
-	>=dev-lang/R-2.70
+DEPEND=">=dev-lang/R-2.70
 	sci-CRAN/yaml
-	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
 	sci-CRAN/dplyr
 	sci-CRAN/stringi
-	sci-CRAN/gridExtra
-	sci-CRAN/igraph
+	sci-CRAN/reshape2
 	>=sci-CRAN/data_table-1.0.1
+	>=sci-CRAN/rJava-0.5.0
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=sci-CRAN/rcdklibs-2.3
-	sci-CRAN/itertools
-	sci-CRAN/fingerprint
-	sci-CRAN/rJava
 	sci-CRAN/png
 	sci-CRAN/iterators
+	sci-CRAN/rJava
+	sci-CRAN/fingerprint
+	sci-CRAN/itertools
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

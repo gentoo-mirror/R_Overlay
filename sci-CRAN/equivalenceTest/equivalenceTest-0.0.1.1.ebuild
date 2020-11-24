@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/equivalenceTest_0.0.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/Rdpack
+DEPEND="sci-CRAN/polynom
+	>=dev-lang/R-3.0.0
 	sci-CRAN/cubature
+	sci-CRAN/Rdpack
 	sci-CRAN/rootSolve
-	sci-CRAN/polynom
 "
 RDEPEND="${DEPEND-}"

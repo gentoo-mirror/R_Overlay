@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MSQC_1.0.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/rgl
+DEPEND="sci-CRAN/rgl
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-}"

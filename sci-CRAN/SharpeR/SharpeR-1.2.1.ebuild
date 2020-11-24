@@ -26,7 +26,7 @@ R_SUGGESTS="
 	r_suggests_xts? ( sci-CRAN/xts )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/sadists-0.2.0
 	virtual/Matrix
+	>=sci-CRAN/sadists-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

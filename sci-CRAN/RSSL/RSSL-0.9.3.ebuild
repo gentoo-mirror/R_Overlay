@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_sparsem? ( sci-CRAN/SparseM )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/kernlab
-	virtual/cluster
-	virtual/Matrix
-	sci-CRAN/quadprog
-	sci-CRAN/Rcpp
-	virtual/MASS
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/tidyr
 	sci-CRAN/ggplot2
+	virtual/MASS
+	sci-CRAN/dplyr
 	sci-CRAN/reshape2
 	sci-CRAN/scales
+	virtual/cluster
+	sci-CRAN/kernlab
+	sci-CRAN/quadprog
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

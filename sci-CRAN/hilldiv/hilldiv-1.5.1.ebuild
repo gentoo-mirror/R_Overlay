@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hilldiv_1.5.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/geiger
-	sci-CRAN/scales
-	sci-CRAN/RColorBrewer
-	sci-CRAN/ggplot2
-	sci-CRAN/ggpubr
-	sci-CRAN/data_table
-	sci-CRAN/ape
-	sci-CRAN/vegan
+DEPEND="sci-CRAN/ggpubr
 	sci-CRAN/qgraph
+	sci-CRAN/geiger
+	sci-CRAN/ape
 	sci-CRAN/FSA
+	>=dev-lang/R-3.1.0
+	sci-CRAN/scales
+	sci-CRAN/ggplot2
+	sci-CRAN/RColorBrewer
+	sci-CRAN/data_table
+	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-}"

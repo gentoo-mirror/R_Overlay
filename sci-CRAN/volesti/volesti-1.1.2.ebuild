@@ -15,7 +15,7 @@ R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=sci-CRAN/Rcpp-0.12.17"
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/BH
 	sci-CRAN/RcppEigen
+	sci-CRAN/BH
 	${R_SUGGESTS-}
 "

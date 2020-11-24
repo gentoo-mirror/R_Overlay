@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tidytext? ( sci-CRAN/tidytext )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/tm
-	sci-CRAN/foreach
-	sci-CRAN/slam
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
+	virtual/Matrix
 	sci-CRAN/topicmodels
+	sci-CRAN/tm
+	sci-CRAN/slam
 	sci-CRAN/magrittr
 	sci-CRAN/dplyr
 	sci-CRAN/doParallel
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-BIOC/BiocGenerics
 	sci-BIOC/lpsymphony
 	sci-CRAN/slam
 	sci-CRAN/fdrtool
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

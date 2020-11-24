@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/Rlinsolve_0.3.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.4
-	virtual/Matrix
 	sci-CRAN/Rdpack
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

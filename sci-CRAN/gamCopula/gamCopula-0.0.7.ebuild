@@ -13,12 +13,12 @@ LICENSE='GPL-3'
 DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/VineCopula-2.0.0
 	virtual/mgcv
-	sci-CRAN/gsl
-	virtual/MASS
 	sci-CRAN/numDeriv
+	sci-CRAN/gsl
 	sci-CRAN/copula
-	>=sci-CRAN/igraph-1.0.0
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
+	>=sci-CRAN/igraph-1.0.0
+	virtual/MASS
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

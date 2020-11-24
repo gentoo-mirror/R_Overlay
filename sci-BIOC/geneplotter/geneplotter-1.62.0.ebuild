@@ -12,12 +12,12 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_rgraphviz"
 R_SUGGESTS="r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )"
-DEPEND="virtual/lattice
+DEPEND="sci-BIOC/Biobase
 	sci-BIOC/AnnotationDbi
 	sci-BIOC/annotate
-	sci-BIOC/Biobase
-	sci-CRAN/RColorBrewer
 	sci-BIOC/BiocGenerics
+	virtual/lattice
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/Formula
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/numDeriv
 	virtual/MASS
-	sci-CRAN/Rcpp
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

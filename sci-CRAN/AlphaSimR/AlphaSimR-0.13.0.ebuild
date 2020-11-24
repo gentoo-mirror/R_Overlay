@@ -22,7 +22,7 @@ DEPEND=">=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	>=sci-CRAN/RcppArmadillo-0.7.500.0.0
 	sci-CRAN/BH
+	>=sci-CRAN/RcppArmadillo-0.7.500.0.0
 	${R_SUGGESTS-}
 "

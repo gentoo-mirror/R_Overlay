@@ -51,23 +51,23 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/NMF
-	sci-CRAN/future
-	>=sci-CRAN/rlang-0.1.2
-	sci-CRAN/furrr
-	sci-BIOC/maftools
-	>=sci-CRAN/cli-2.0.0
-	>=sci-CRAN/ggplot2-3.3.0
-	sci-CRAN/ggpubr
-	sci-CRAN/purrr
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/furrr
+	sci-CRAN/dplyr
 	sci-CRAN/tidyr
-	>=dev-lang/R-3.5
-	sci-CRAN/foreach
-	sci-CRAN/Rcpp
-	sci-CRAN/cowplot
 	sci-CRAN/magrittr
+	sci-CRAN/foreach
+	sci-CRAN/purrr
+	sci-CRAN/ggpubr
+	sci-BIOC/maftools
+	>=dev-lang/R-3.5
+	>=sci-CRAN/cli-2.0.0
+	sci-CRAN/cowplot
+	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/data_table
+	sci-CRAN/future
+	sci-CRAN/NMF
+	sci-CRAN/Rcpp
+	>=sci-CRAN/rlang-0.1.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

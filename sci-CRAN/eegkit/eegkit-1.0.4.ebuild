@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/eegkit_1.0-4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/eegkitdata
-	sci-CRAN/rgl
+DEPEND="sci-CRAN/ica
+	sci-CRAN/eegkitdata
 	sci-CRAN/signal
 	sci-CRAN/bigsplines
-	sci-CRAN/ica
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

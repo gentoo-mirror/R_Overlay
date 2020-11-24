@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_hexbin"
 R_SUGGESTS="r_suggests_hexbin? ( sci-CRAN/hexbin )"
-DEPEND="virtual/survival
-	virtual/Matrix
+DEPEND="sci-BIOC/BiocGenerics
 	sci-BIOC/zlibbioc
-	sci-BIOC/BiocGenerics
+	virtual/survival
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

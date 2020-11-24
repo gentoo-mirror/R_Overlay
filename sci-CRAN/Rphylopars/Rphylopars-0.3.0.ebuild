@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/Rphylopars_0.3.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ape
-	sci-CRAN/geiger
-	sci-CRAN/phytools
-	sci-CRAN/phylolm
 	sci-CRAN/doBy
+	sci-CRAN/phylolm
+	sci-CRAN/geiger
 	sci-CRAN/Rcpp
+	sci-CRAN/phytools
 	virtual/Matrix
 	virtual/MASS
 "

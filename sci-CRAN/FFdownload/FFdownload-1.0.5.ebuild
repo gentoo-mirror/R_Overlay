@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FFdownload_1.0.5.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/plyr
+DEPEND="sci-CRAN/xts
 	>=dev-lang/R-3.5.0
-	sci-CRAN/xts
-	sci-CRAN/xml2
 	sci-CRAN/rvest
 	sci-CRAN/zoo
+	sci-CRAN/xml2
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

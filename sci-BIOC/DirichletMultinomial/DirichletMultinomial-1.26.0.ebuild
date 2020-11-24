@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND="sci-BIOC/S4Vectors
-	sci-BIOC/IRanges
 	sci-BIOC/BiocGenerics
+	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-}
 	sci-libs/gsl

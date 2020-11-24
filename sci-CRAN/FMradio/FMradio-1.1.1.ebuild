@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FMradio_1.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/ggplot2
-	sci-BIOC/Biobase
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/expm
 	sci-CRAN/reshape
 	virtual/MASS
+	>=dev-lang/R-2.15.1
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

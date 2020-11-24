@@ -21,14 +21,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tsna? ( sci-CRAN/tsna )
 "
-DEPEND=">=sci-CRAN/networkDynamic-0.9
-	sci-CRAN/statnet_common
-	sci-CRAN/jsonlite
-	virtual/MASS
-	>=sci-CRAN/animation-2.4
-	>=dev-lang/R-3.0
-	sci-CRAN/sna
+DEPEND=">=dev-lang/R-3.0
+	>=sci-CRAN/networkDynamic-0.9
 	>=sci-CRAN/network-1.13
+	sci-CRAN/statnet_common
+	>=sci-CRAN/animation-2.4
+	sci-CRAN/sna
+	virtual/MASS
+	sci-CRAN/jsonlite
 	sci-CRAN/base64
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

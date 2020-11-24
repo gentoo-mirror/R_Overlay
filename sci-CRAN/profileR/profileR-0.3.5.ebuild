@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/profileR_0.3-5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ggplot2
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/reshape
 	sci-CRAN/RColorBrewer
 	sci-CRAN/lavaan
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

@@ -22,9 +22,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.00
 	sci-CRAN/pracma
-	sci-CRAN/lomb
 	sci-CRAN/behavr
 	sci-CRAN/data_table
+	sci-CRAN/lomb
 	sci-CRAN/WaveletComp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

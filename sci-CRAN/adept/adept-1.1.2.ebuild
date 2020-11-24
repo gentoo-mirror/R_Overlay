@@ -26,10 +26,10 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/magrittr
+DEPEND="sci-CRAN/future
+	sci-CRAN/magrittr
 	sci-CRAN/dplyr
-	sci-CRAN/tibble
-	sci-CRAN/future
 	sci-CRAN/dvmisc
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

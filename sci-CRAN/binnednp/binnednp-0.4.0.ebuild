@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/binnednp_0.4.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/doParallel
+DEPEND="sci-CRAN/fitdistrplus
+	sci-CRAN/Rdpack
 	>=sci-CRAN/Rcpp-0.12.12
-	sci-CRAN/fitdistrplus
 	sci-CRAN/nor1mix
 	sci-CRAN/foreach
 	sci-CRAN/kedd
 	sci-CRAN/mclust
-	sci-CRAN/Rdpack
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

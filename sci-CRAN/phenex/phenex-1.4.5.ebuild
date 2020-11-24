@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/phenex_1.4-5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/DEoptim
 	sci-CRAN/foreach
+	sci-CRAN/DEoptim
 "
 RDEPEND="${DEPEND-}"

@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 DEPEND="sci-CRAN/combinat
 	sci-CRAN/gtools
 	sci-CRAN/mvtnorm
-	virtual/MASS
 	sci-CRAN/gdata
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

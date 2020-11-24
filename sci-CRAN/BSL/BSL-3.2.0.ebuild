@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_rbenchmark? ( sci-CRAN/rbenchmark )
 "
 DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/whitening
+	>=sci-CRAN/Rdpack-0.7
+	sci-CRAN/ggplot2
+	sci-CRAN/stringr
 	sci-CRAN/glasso
 	sci-CRAN/mvtnorm
-	sci-CRAN/copula
 	virtual/MASS
-	sci-CRAN/whitening
+	sci-CRAN/copula
+	sci-CRAN/gridExtra
 	sci-CRAN/foreach
 	sci-CRAN/coda
-	sci-CRAN/stringr
-	sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
 	sci-CRAN/Rcpp
 	sci-CRAN/doRNG
-	>=sci-CRAN/Rdpack-0.7
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/RcppArmadillo

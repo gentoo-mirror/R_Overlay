@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/tidyr-1.1.0
-	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/tibble-3.0.1
-	>=sci-CRAN/data_table-1.12.8
 	>=sci-CRAN/htmlTable-1.5
-	>=sci-CRAN/openxlsx-4.1
 	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/openxlsx-4.1
+	>=sci-CRAN/tibble-3.0.1
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/data_table-1.12.8
+	>=sci-CRAN/tidyr-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

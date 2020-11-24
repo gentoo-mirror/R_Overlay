@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_wpp2017? ( sci-CRAN/wpp2017 )
 "
 DEPEND=">=sci-CRAN/bayesTFR-6.4.0
-	sci-CRAN/wpp2019
-	sci-CRAN/coda
 	sci-CRAN/hett
 	sci-CRAN/car
+	sci-CRAN/coda
+	sci-CRAN/wpp2019
 	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

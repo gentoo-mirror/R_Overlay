@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/raster
-	sci-CRAN/ape
-	sci-CRAN/vegan
-	sci-CRAN/picante
-	>=dev-lang/R-3.0
+DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/sp
+	sci-CRAN/ape
+	sci-CRAN/raster
+	sci-CRAN/picante
+	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

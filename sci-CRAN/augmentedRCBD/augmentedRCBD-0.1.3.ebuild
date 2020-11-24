@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/emmeans
-	sci-CRAN/dplyr
-	sci-CRAN/multcomp
-	sci-CRAN/moments
-	sci-CRAN/Rdpack
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/emmeans
 	sci-CRAN/flextable
 	sci-CRAN/multcompView
+	sci-CRAN/dplyr
+	sci-CRAN/Rdpack
 	sci-CRAN/stringi
+	>=dev-lang/R-3.0.1
+	sci-CRAN/ggplot2
+	sci-CRAN/moments
+	sci-CRAN/multcomp
 	sci-CRAN/officer
 	sci-CRAN/reshape2
 "

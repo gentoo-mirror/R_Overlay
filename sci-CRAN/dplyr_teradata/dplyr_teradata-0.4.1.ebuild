@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/dplyr-1.0.2
 	>=sci-CRAN/odbc-1.3.0
+	>=sci-CRAN/dbplyr-2.0.0
 	sci-CRAN/bit64
 	>=sci-CRAN/DBI-1.1.0
-	>=sci-CRAN/dbplyr-2.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

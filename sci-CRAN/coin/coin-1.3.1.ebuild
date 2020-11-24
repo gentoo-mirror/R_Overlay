@@ -20,11 +20,11 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4.0
 	virtual/survival
-	sci-CRAN/multcomp
+	>=sci-CRAN/mvtnorm-1.0.5
 	>=sci-CRAN/modeltools-0.2.9
+	sci-CRAN/multcomp
 	>=sci-CRAN/libcoin-1.0.0
 	virtual/Matrix
-	>=sci-CRAN/mvtnorm-1.0.5
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/libcoin-1.0.0

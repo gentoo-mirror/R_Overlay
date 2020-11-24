@@ -27,19 +27,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/bcp
-	sci-CRAN/shiny
-	sci-CRAN/fda_usc
-	sci-CRAN/pracma
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/zoo
-	sci-CRAN/changepoint
+	sci-CRAN/bcp
+	>=dev-lang/R-3.5.0
+	sci-CRAN/robustbase
 	sci-CRAN/ecp
 	sci-CRAN/chipPCR
+	sci-CRAN/changepoint
+	sci-CRAN/fda_usc
 	sci-CRAN/MBmca
 	sci-CRAN/pbapply
+	sci-CRAN/pracma
 	sci-CRAN/qpcR
-	sci-CRAN/robustbase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

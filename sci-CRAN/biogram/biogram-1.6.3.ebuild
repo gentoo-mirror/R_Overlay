@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/slam
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/slam
+	sci-CRAN/entropy
 	sci-CRAN/combinat
 	sci-CRAN/partitions
-	>=dev-lang/R-3.0.0
-	sci-CRAN/entropy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

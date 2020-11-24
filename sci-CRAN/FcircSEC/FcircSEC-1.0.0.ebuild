@@ -12,7 +12,7 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/stringi
-	sci-BIOC/Biostrings
 	sci-CRAN/seqRFLP
+	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-}"

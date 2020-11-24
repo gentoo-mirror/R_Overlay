@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND="sci-BIOC/gcrma
-	>=sci-BIOC/preprocessCore-1.5.1
-	>=sci-BIOC/Biobase-2.17.8
-	>=sci-BIOC/affy-1.11.0
+DEPEND=">=sci-BIOC/Biobase-2.17.8
 	>=sci-BIOC/BiocGenerics-0.3.2
+	>=sci-BIOC/preprocessCore-1.5.1
+	sci-BIOC/gcrma
+	>=sci-BIOC/affy-1.11.0
 	sci-BIOC/zlibbioc
 "
 RDEPEND="${DEPEND-}

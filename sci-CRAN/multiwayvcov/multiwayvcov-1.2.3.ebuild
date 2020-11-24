@@ -12,8 +12,8 @@ LICENSE='BSD-2'
 
 IUSE="${IUSE-} r_suggests_lmtest"
 R_SUGGESTS="r_suggests_lmtest? ( sci-CRAN/lmtest )"
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="virtual/boot
+	>=dev-lang/R-3.0.0
 	sci-CRAN/sandwich
-	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

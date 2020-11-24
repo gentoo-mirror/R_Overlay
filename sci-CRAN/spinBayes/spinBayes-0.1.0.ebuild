@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spinBayes_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/glmnet
-	>=dev-lang/R-3.5.0
-	sci-CRAN/Rcpp
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/glmnet
 	virtual/MASS
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_lubridate? ( sci-CRAN/lubridate )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/rlang
-	sci-CRAN/rappdirs
-	sci-CRAN/tibble
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/stringr
+	sci-CRAN/purrr
+	sci-CRAN/rappdirs
 	>=dev-lang/R-3.4
 	sci-CRAN/dplyr
+	sci-CRAN/rlang
+	sci-CRAN/tibble
 	sci-CRAN/tidyselect
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

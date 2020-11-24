@@ -13,8 +13,8 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_ltsa"
 R_SUGGESTS="r_suggests_ltsa? ( >=sci-CRAN/ltsa-1.4.6 )"
 DEPEND=">=dev-lang/R-3.2.3
-	>=sci-CRAN/gtools-3.5.0
 	>=sci-CRAN/MCMCpack-1.3.3
+	>=sci-CRAN/gtools-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

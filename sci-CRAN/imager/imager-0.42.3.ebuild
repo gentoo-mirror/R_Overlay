@@ -27,11 +27,11 @@ R_SUGGESTS="
 	r_suggests_spatstat? ( sci-CRAN/spatstat )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.5
-	sci-CRAN/jpeg
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/png
+	>=sci-CRAN/Rcpp-0.11.5
+	sci-CRAN/jpeg
 	sci-CRAN/magrittr
-	sci-CRAN/stringr
 	sci-CRAN/readbitmap
 	sci-CRAN/purrr
 	sci-CRAN/downloader
@@ -39,7 +39,7 @@ DEPEND=">=sci-CRAN/Rcpp-0.11.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	>=sci-libs/fftw-3
 	media-libs/tiff
+	>=sci-libs/fftw-3
 	${R_SUGGESTS-}
 "

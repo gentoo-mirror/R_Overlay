@@ -13,14 +13,14 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/caret
 	sci-CRAN/seqinr
-	sci-CRAN/plyr
 	virtual/lattice
+	sci-CRAN/caret
+	sci-CRAN/data_table
+	sci-CRAN/plyr
+	sci-CRAN/randomForest
 	sci-CRAN/ROCR
 	sci-CRAN/reshape2
 	sci-CRAN/bio3d
-	sci-CRAN/data_table
-	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

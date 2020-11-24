@@ -27,9 +27,9 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/foreach
+DEPEND=">=sci-CRAN/Rcpp-0.12.16
 	sci-CRAN/glue
-	>=sci-CRAN/Rcpp-0.12.16
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RCurl
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/httr
-	sci-CRAN/tibble
+	sci-CRAN/dplyr
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

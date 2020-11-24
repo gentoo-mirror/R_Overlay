@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/GVARX_1.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/tsDyn
-	sci-CRAN/strucchange
-	sci-CRAN/sandwich
-	sci-CRAN/lmtest
-	sci-CRAN/lubridate
 	sci-CRAN/xts
+	sci-CRAN/tsDyn
+	sci-CRAN/lubridate
 	sci-CRAN/vars
+	sci-CRAN/lmtest
 	sci-CRAN/urca
+	sci-CRAN/sandwich
+	sci-CRAN/strucchange
 "
 RDEPEND="${DEPEND-}"

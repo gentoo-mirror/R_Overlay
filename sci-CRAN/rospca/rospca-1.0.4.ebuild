@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/rospca_1.0.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/pcaPP
-	sci-CRAN/mvtnorm
-	sci-CRAN/rrcov
-	>=sci-CRAN/rrcovHD-0.2.3
-	sci-CRAN/pracma
 	>=sci-CRAN/mrfDepth-1.0.5
+	sci-CRAN/pcaPP
+	sci-CRAN/rrcov
 	>=sci-CRAN/robustbase-0.92.6
+	>=sci-CRAN/rrcovHD-0.2.3
 	sci-CRAN/elasticnet
+	sci-CRAN/mvtnorm
+	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}"

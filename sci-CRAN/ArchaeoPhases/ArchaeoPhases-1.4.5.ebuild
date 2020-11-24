@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/hdrcde
-	sci-CRAN/DT
-	sci-CRAN/ggthemes
-	sci-CRAN/shiny
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/toOrdinal
-	sci-CRAN/coda
 	sci-CRAN/shinythemes
+	sci-CRAN/DT
 	sci-CRAN/readr
+	sci-CRAN/hdrcde
+	sci-CRAN/coda
+	sci-CRAN/ggthemes
 	sci-CRAN/ggplot2
 	sci-CRAN/ggalt
 "

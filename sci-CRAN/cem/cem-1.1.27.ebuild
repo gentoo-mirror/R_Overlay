@@ -12,11 +12,11 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_amelia"
 R_SUGGESTS="r_suggests_amelia? ( >=sci-CRAN/Amelia-1.2.0 )"
-DEPEND="sci-CRAN/combinat
+DEPEND="dev-lang/R[tk]
 	sci-CRAN/MatchIt
-	virtual/nlme
-	sci-CRAN/randomForest
-	dev-lang/R[tk]
 	virtual/lattice
+	sci-CRAN/combinat
+	sci-CRAN/randomForest
+	virtual/nlme
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

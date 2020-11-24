@@ -18,7 +18,7 @@ R_SUGGESTS="
 	r_suggests_pixmap? ( sci-CRAN/pixmap )
 	r_suggests_robustbase? ( sci-CRAN/robustbase )
 "
-DEPEND="sci-CRAN/survey
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/survey
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

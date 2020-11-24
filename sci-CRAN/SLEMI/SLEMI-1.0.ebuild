@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/Hmisc
-	sci-CRAN/reshape2
-	sci-CRAN/caret
-	sci-CRAN/doParallel
-	sci-CRAN/stringr
-	sci-CRAN/corrplot
-	sci-CRAN/foreach
-	>=dev-lang/R-3.6.0
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/ggplot2
+	sci-CRAN/ggthemes
+	sci-CRAN/caret
+	>=dev-lang/R-3.6.0
 	sci-CRAN/e1071
 	sci-CRAN/gridExtra
-	sci-CRAN/ggthemes
 	virtual/nnet
+	sci-CRAN/Hmisc
+	sci-CRAN/reshape2
+	sci-CRAN/stringr
+	sci-CRAN/doParallel
+	sci-CRAN/corrplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

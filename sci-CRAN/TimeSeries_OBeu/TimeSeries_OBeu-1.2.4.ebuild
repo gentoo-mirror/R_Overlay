@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/forecast
-	sci-CRAN/jsonlite
-	sci-CRAN/locfit
 	sci-CRAN/tseries
 	sci-CRAN/trend
+	sci-CRAN/jsonlite
+	sci-CRAN/locfit
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

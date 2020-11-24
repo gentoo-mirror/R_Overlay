@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_polynom? ( sci-CRAN/polynom )
 	r_suggests_sfsmisc? ( >=sci-CRAN/sfsmisc-1.0.20 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/gmp-0.6.1
+DEPEND=">=sci-CRAN/gmp-0.6.1
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-}
 	dev-libs/gmp

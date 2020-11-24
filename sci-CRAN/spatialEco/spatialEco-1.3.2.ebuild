@@ -30,14 +30,14 @@ R_SUGGESTS="
 	r_suggests_spatial? ( virtual/spatial )
 	r_suggests_yaimpute? ( sci-CRAN/yaImpute )
 "
-DEPEND="sci-CRAN/raster
-	sci-CRAN/spatstat
-	virtual/MASS
-	sci-CRAN/spdep
-	sci-CRAN/sp
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/raster
 	sci-CRAN/sf
+	sci-CRAN/sp
+	sci-CRAN/spatstat
+	sci-CRAN/spdep
 	sci-CRAN/rgeos
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

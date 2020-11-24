@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_gridextra? ( sci-CRAN/gridExtra )
 	r_suggests_iterators? ( sci-CRAN/iterators )
 "
-DEPEND="sci-CRAN/circular
-	sci-CRAN/coda
+DEPEND=">=sci-CRAN/Rcpp-0.12.14
 	sci-CRAN/ggplot2
+	sci-CRAN/coda
+	sci-CRAN/circular
 	sci-CRAN/RInside
-	>=sci-CRAN/Rcpp-0.12.14
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/spTimer_3.3.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/spacetime
-	sci-CRAN/extraDistr
 	sci-CRAN/sp
 	sci-CRAN/coda
+	sci-CRAN/extraDistr
+	sci-CRAN/spacetime
 "
 RDEPEND="${DEPEND-}"

@@ -13,9 +13,9 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_roxygen2"
 R_SUGGESTS="r_suggests_roxygen2? ( sci-CRAN/roxygen2 )"
 DEPEND=">=dev-lang/R-3.4.4
-	sci-CRAN/gstat
-	sci-CRAN/raster
 	sci-CRAN/sp
+	sci-CRAN/gstat
 	sci-CRAN/rgeos
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

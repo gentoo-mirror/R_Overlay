@@ -29,16 +29,16 @@ R_SUGGESTS="
 	r_suggests_waveslim? ( sci-CRAN/waveslim )
 "
 DEPEND=">=dev-lang/R-2.15.2
-	virtual/Matrix
-	>=sci-CRAN/stringi-0.2.3
 	>=sci-CRAN/digest-0.2.3
-	>=sci-CRAN/png-0.1.2
-	>=sci-CRAN/stringr-0.4
-	sci-CRAN/signal
+	virtual/Matrix
 	virtual/lattice
 	virtual/Matrix
+	>=sci-CRAN/png-0.1.2
 	>=sci-CRAN/R_utils-1.32.1
+	>=sci-CRAN/stringi-0.2.3
+	>=sci-CRAN/stringr-0.4
 	>=sci-CRAN/XML-2.1.0
 	>=sci-CRAN/plyr-1.8
+	sci-CRAN/signal
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

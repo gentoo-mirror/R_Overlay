@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/ipeadatar_0.1.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/sjlabelled
 	sci-CRAN/curl
-	sci-CRAN/purrr
-	sci-CRAN/magrittr
-	sci-CRAN/jsonlite
 	sci-CRAN/stringr
+	sci-CRAN/jsonlite
+	sci-CRAN/magrittr
 	sci-CRAN/dplyr
 	sci-CRAN/lubridate
+	sci-CRAN/purrr
+	sci-CRAN/sjlabelled
 "
 RDEPEND="${DEPEND-}"

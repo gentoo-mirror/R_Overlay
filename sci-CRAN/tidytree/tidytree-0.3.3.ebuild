@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_treeio? ( sci-BIOC/treeio )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/lazyeval
-	sci-CRAN/ape
 	sci-CRAN/dplyr
+	sci-CRAN/ape
 	sci-CRAN/magrittr
+	sci-CRAN/lazyeval
 	sci-CRAN/rlang
 	sci-CRAN/tibble
 "

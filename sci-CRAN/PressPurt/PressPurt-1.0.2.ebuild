@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/ggplot2
 	sci-CRAN/data_table
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 	>=sci-CRAN/reticulate-1.11
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

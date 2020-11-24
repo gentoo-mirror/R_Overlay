@@ -29,11 +29,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/ecr-2.1.0
-	>=sci-CRAN/mlrCPO-0.3.4
-	sci-CRAN/BBmisc
 	sci-CRAN/ParamHelpers
+	>=sci-CRAN/mlrCPO-0.3.4
 	>=sci-CRAN/checkmate-1.9.0
 	virtual/MASS
+	sci-CRAN/BBmisc
 	sci-CRAN/smoof
 	sci-CRAN/mlr
 	sci-CRAN/parallelMap

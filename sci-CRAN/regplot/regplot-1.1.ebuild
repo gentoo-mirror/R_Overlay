@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/regplot_1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/vioplot
-	sci-CRAN/sm
 	sci-CRAN/lme4
-	virtual/survival
 	sci-CRAN/beanplot
+	sci-CRAN/sm
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HierO_0.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/rneos
-	sci-CRAN/bitops
+DEPEND="sci-CRAN/bitops
+	sci-CRAN/rneos
 	sci-CRAN/RCurl
-	dev-lang/R[tk]
 	sci-CRAN/XML
+	dev-lang/R[tk]
 	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-}"

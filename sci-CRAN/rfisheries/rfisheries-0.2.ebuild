@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/rfisheries_0.2.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-2.15
-	sci-CRAN/assertthat
-	sci-CRAN/httr
 	sci-CRAN/data_table
+	sci-CRAN/httr
+	sci-CRAN/assertthat
 	sci-CRAN/ggplot2
 	sci-CRAN/rjson
 "

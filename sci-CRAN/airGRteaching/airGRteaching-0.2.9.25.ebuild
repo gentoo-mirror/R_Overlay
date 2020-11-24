@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/airGR-1.4.3.52
-	sci-CRAN/markdown
-	>=sci-CRAN/dygraphs-1.1.1.6
-	>=sci-CRAN/shiny-1.1.0
+DEPEND="sci-CRAN/markdown
 	sci-CRAN/plotrix
+	>=sci-CRAN/shiny-1.1.0
+	>=sci-CRAN/dygraphs-1.1.1.6
+	>=sci-CRAN/airGR-1.4.3.52
 	>=sci-CRAN/shinyjs-1.0
 	sci-CRAN/xts
 "

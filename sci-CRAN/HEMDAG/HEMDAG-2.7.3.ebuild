@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-BIOC/RBGL
-	sci-CRAN/plyr
+DEPEND="sci-BIOC/preprocessCore
 	sci-CRAN/precrec
+	sci-BIOC/RBGL
 	sci-BIOC/graph
-	sci-BIOC/preprocessCore
+	sci-CRAN/plyr
 	sci-CRAN/foreach
 	sci-CRAN/doParallel
 "

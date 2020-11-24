@@ -12,12 +12,12 @@ LICENSE='LGPL-3+'
 
 IUSE="${IUSE-} r_suggests_biocstyle"
 R_SUGGESTS="r_suggests_biocstyle? ( sci-BIOC/BiocStyle )"
-DEPEND="sci-BIOC/convert
-	>=sci-BIOC/limma-1.7.0
+DEPEND="sci-BIOC/marray
 	sci-BIOC/affy
-	>=dev-lang/R-2.12.0
-	sci-BIOC/marray
 	virtual/lattice
+	>=dev-lang/R-2.12.0
+	>=sci-BIOC/limma-1.7.0
+	sci-BIOC/convert
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

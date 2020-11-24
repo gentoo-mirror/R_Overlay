@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/bit sci-BIOC/GLAD sci-CRAN/ff sci-CRAN/ffbase sci-BIOC/DNAcopy sci-BIOC/tilingArray sci-CRAN/waveslim virtual/cluster sci-BIOC/aCGH sci-BIOC/snapCGH dev-lang/R
+DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/ff sci-CRAN/ffbase sci-CRAN/bit sci-BIOC/GLAD sci-BIOC/DNAcopy sci-BIOC/tilingArray virtual/cluster sci-BIOC/snapCGH sci-CRAN/waveslim sci-BIOC/aCGH dev-lang/R
 DESCRIPTION=Analysis of big data from aCGH e... (see metadata)
 EAPI=7
 IUSE=r_suggests_cairo r_suggests_cghregions r_suggests_limma byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3+
-RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/bit sci-BIOC/GLAD sci-CRAN/ff sci-CRAN/ffbase sci-BIOC/DNAcopy sci-BIOC/tilingArray sci-CRAN/waveslim virtual/cluster sci-BIOC/aCGH sci-BIOC/snapCGH r_suggests_cairo? ( sci-CRAN/Cairo ) r_suggests_cghregions? ( sci-BIOC/CGHregions ) r_suggests_limma? ( sci-BIOC/limma ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/ff sci-CRAN/ffbase sci-CRAN/bit sci-BIOC/GLAD sci-BIOC/DNAcopy sci-BIOC/tilingArray virtual/cluster sci-BIOC/snapCGH sci-CRAN/waveslim sci-BIOC/aCGH r_suggests_cairo? ( sci-CRAN/Cairo ) r_suggests_cghregions? ( sci-BIOC/CGHregions ) r_suggests_limma? ( sci-BIOC/limma ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/ADaCGH2_2.24.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=4bff3df89baed632d621a4608596b060
+_md5_=1c52e153c50dcb5871027f279cfefdf3

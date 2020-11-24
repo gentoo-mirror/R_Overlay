@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/traj_1.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.3
-	virtual/cluster
-	sci-CRAN/pastecs
 	sci-CRAN/psych
 	sci-CRAN/NbClust
+	sci-CRAN/pastecs
+	virtual/cluster
 	sci-CRAN/GPArotation
 "
 RDEPEND="${DEPEND-}"

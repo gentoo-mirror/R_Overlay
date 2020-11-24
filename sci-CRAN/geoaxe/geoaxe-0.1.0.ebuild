@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rgeos
-	sci-CRAN/sp
+DEPEND="sci-CRAN/sp
 	sci-CRAN/jsonlite
+	sci-CRAN/rgeos
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

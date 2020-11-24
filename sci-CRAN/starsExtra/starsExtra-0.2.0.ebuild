@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND="sci-CRAN/sf
-	sci-CRAN/units
-	sci-CRAN/nngeo
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/stars
 	virtual/mgcv
+	sci-CRAN/nngeo
+	sci-CRAN/sf
+	sci-CRAN/units
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

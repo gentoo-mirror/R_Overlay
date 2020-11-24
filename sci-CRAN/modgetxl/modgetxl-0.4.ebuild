@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/modgetxl_0.4.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/shinydashboard
 	sci-CRAN/readxl
+	sci-CRAN/shinydashboard
 	sci-CRAN/DT
 "
 RDEPEND="${DEPEND-}"

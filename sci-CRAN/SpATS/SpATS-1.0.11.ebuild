@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SpATS_1.0-11.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/fields
+DEPEND="sci-CRAN/spam
 	sci-CRAN/plot3Drgl
-	sci-CRAN/spam
+	sci-CRAN/fields
 	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

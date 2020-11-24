@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/shiny
-	sci-CRAN/R6
-	sci-CRAN/jpeg
-	>=sci-CRAN/Rcpp-0.12.17
 	sci-CRAN/png
+	>=sci-CRAN/Rcpp-0.12.17
+	sci-CRAN/shiny
+	sci-CRAN/jpeg
 	sci-CRAN/tiff
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/Rcpp
 	>=sci-CRAN/RcppArmadillo-0.8.0
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_xtable? ( >=sci-CRAN/xtable-1.7.4 )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/randomForestSRC-2.9.1
-	>=sci-CRAN/foreach-1.4.3
+	>=sci-CRAN/doParallel-1.0.10
 	virtual/survival
 	>=sci-CRAN/glmnet-1.9.8
 	virtual/MASS
-	>=sci-CRAN/doParallel-1.0.10
+	>=sci-CRAN/foreach-1.4.3
+	>=sci-CRAN/randomForestSRC-2.9.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

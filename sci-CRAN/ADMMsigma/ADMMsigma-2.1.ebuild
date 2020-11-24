@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	>=sci-CRAN/RcppProgress-0.1
-	sci-CRAN/doParallel
-	>=sci-CRAN/Rcpp-0.12.10
+DEPEND=">=sci-CRAN/Rcpp-0.12.10
 	sci-CRAN/foreach
+	>=sci-CRAN/RcppProgress-0.1
+	sci-CRAN/ggplot2
+	sci-CRAN/doParallel
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

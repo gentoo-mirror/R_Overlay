@@ -11,19 +11,19 @@ SRC_URI="http://cran.r-project.org/src/contrib/Surrogate_1.7.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	virtual/survival
-	virtual/lattice
+	virtual/nlme
 	sci-CRAN/rgl
+	sci-CRAN/rms
+	sci-CRAN/msm
+	sci-CRAN/ks
+	sci-CRAN/extraDistr
+	virtual/lattice
+	virtual/survival
 	virtual/lattice
 	sci-CRAN/lme4
 	sci-CRAN/OrdinalLogisticBiplot
-	sci-CRAN/ks
-	sci-CRAN/rootSolve
-	virtual/nlme
-	sci-CRAN/msm
 	sci-CRAN/logistf
-	sci-CRAN/rms
 	sci-CRAN/mixtools
-	sci-CRAN/extraDistr
+	sci-CRAN/rootSolve
 "
 RDEPEND="${DEPEND-}"

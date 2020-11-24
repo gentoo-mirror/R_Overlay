@@ -17,16 +17,16 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/igraph
-	sci-CRAN/circlize
-	sci-CRAN/RCurl
-	sci-CRAN/doParallel
-	sci-BIOC/biomaRt
-	sci-CRAN/XML
-	sci-BIOC/RBGL
-	sci-CRAN/foreach
 	sci-CRAN/openxlsx
+	sci-CRAN/XML
+	sci-CRAN/igraph
+	sci-CRAN/foreach
 	sci-BIOC/graph
+	sci-BIOC/biomaRt
+	sci-CRAN/RCurl
+	sci-BIOC/RBGL
+	sci-CRAN/doParallel
+	sci-CRAN/circlize
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

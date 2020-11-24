@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/mdsdt_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/mnormt
-	sci-CRAN/ellipse
 	sci-CRAN/polycor
+	sci-CRAN/ellipse
 "
 RDEPEND="${DEPEND-}"

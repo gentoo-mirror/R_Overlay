@@ -18,21 +18,21 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggridges
-	sci-CRAN/ggmap
-	sci-CRAN/leaflet
-	sci-CRAN/RSQLite
-	sci-CRAN/xml2
-	sci-CRAN/gridExtra
+DEPEND="sci-CRAN/zoo
 	sci-CRAN/gtable
+	sci-CRAN/gridExtra
+	sci-CRAN/xml2
+	sci-CRAN/sp
+	sci-CRAN/ggmap
 	>=dev-lang/R-3.1.0
 	sci-CRAN/ggplot2
-	sci-CRAN/zoo
+	sci-CRAN/ggridges
+	sci-CRAN/RSQLite
 	sci-CRAN/jsonlite
 	sci-CRAN/raster
 	sci-CRAN/scam
 	sci-CRAN/foreach
 	sci-CRAN/fda
-	sci-CRAN/sp
+	sci-CRAN/leaflet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Phxnlme_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-mathematics/rstudio
-	virtual/lattice
-	sci-CRAN/gridExtra
-	sci-CRAN/ggplot2
+DEPEND="virtual/lattice
 	sci-CRAN/testthat
+	sci-mathematics/rstudio
+	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} virtual/nlme"

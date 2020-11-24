@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/rmarkdown
-	>=sci-CRAN/knitr-1.5.25
 	sci-CRAN/markdown
+	>=sci-CRAN/knitr-1.5.25
+	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

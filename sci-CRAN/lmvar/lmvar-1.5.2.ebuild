@@ -21,7 +21,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/Matrix
-	>=sci-CRAN/maxLik-1.3.4
 	virtual/Matrix
+	>=sci-CRAN/maxLik-1.3.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

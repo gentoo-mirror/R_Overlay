@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.1 )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	virtual/Matrix
 	sci-CRAN/reticulate
 	sci-CRAN/udpipe
-	virtual/Matrix
 	sci-CRAN/stringi
 "
 RDEPEND="${DEPEND-}

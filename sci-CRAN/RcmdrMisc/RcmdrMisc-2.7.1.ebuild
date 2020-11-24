@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_boot? ( virtual/boot )
 	r_suggests_cardata? ( sci-CRAN/carData )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	virtual/foreign
-	>=sci-CRAN/car-3.0.0
-	sci-CRAN/e1071
-	>=sci-CRAN/Hmisc-4.1.0
-	sci-CRAN/readstata13
+DEPEND=">=sci-CRAN/car-3.0.0
+	virtual/lattice
 	sci-CRAN/readxl
+	virtual/MASS
+	sci-CRAN/nortest
+	>=dev-lang/R-3.5.0
 	sci-CRAN/abind
 	sci-CRAN/sandwich
 	sci-CRAN/colorspace
-	virtual/MASS
+	>=sci-CRAN/Hmisc-4.1.0
+	sci-CRAN/e1071
+	virtual/foreign
 	sci-CRAN/haven
-	sci-CRAN/nortest
-	virtual/lattice
+	sci-CRAN/readstata13
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

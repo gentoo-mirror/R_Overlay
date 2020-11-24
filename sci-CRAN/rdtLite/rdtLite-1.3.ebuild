@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/curl
-	sci-CRAN/gtools
+DEPEND="sci-CRAN/digest
 	sci-CRAN/knitr
+	sci-CRAN/gtools
+	sci-CRAN/curl
+	sci-CRAN/XML
+	>=dev-lang/R-3.6.0
 	sci-CRAN/jsonlite
-	sci-CRAN/digest
 	sci-CRAN/provSummarizeR
 	>=sci-CRAN/provViz-1.0.6
+	sci-CRAN/rlang
 	sci-CRAN/rmarkdown
 	sci-CRAN/sessioninfo
 	sci-CRAN/stringi
-	>=dev-lang/R-3.6.0
-	sci-CRAN/rlang
-	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

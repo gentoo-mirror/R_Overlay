@@ -20,20 +20,20 @@ R_SUGGESTS="
 	r_suggests_sf? ( >=sci-CRAN/sf-0.5.5 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/tibble
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/rlang
+	sci-CRAN/tidyselect
+	sci-CRAN/lubridate
+	sci-CRAN/tidyr
+	sci-CRAN/glue
+	sci-CRAN/fs
+	>=dev-lang/R-3.2.0
 	>=sci-CRAN/jsonlite-1.2
 	sci-CRAN/ggplot2
 	>=sci-CRAN/dplyr-0.7
-	sci-CRAN/withr
-	>=dev-lang/R-3.2.0
+	sci-CRAN/tibble
 	sci-CRAN/stringr
 	sci-CRAN/readr
-	sci-CRAN/tidyr
-	sci-CRAN/lubridate
-	sci-CRAN/rlang
-	sci-CRAN/tidyselect
-	sci-CRAN/glue
-	sci-CRAN/fs
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

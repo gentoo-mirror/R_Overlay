@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND="sci-CRAN/plotrix
-	sci-CRAN/signal
+DEPEND="sci-CRAN/signal
+	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

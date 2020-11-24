@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/DRaWR_1.0.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/ROCR
 	virtual/Matrix
+	sci-CRAN/ROCR
 "
 RDEPEND="${DEPEND-}"

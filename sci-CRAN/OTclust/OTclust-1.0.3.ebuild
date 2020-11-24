@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_tsne? ( sci-CRAN/tsne )
 	r_suggests_umap? ( sci-CRAN/umap )
 "
-DEPEND="sci-CRAN/RColorBrewer
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/RColorBrewer
 	sci-CRAN/ggplot2
 	sci-CRAN/Rcpp
 	sci-CRAN/magrittr
-	>=dev-lang/R-3.1.0
 	virtual/class
 "
 RDEPEND="${DEPEND-}

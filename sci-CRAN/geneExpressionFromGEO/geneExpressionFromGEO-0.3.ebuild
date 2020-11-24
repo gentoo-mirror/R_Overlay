@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-BIOC/GEOquery
-	sci-BIOC/annotate
 	sci-BIOC/Biobase
+	sci-BIOC/annotate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

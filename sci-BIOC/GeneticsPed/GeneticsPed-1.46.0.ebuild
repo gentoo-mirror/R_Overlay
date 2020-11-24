@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_gtools? ( sci-CRAN/gtools )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/gdata
+	virtual/MASS
 	sci-CRAN/genetics
-	sci-CRAN/gdata
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

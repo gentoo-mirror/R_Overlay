@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ModStatR_1.3.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/BioStatR
 	sci-CRAN/gsl
 	virtual/boot
-	sci-CRAN/ellipse
-	sci-CRAN/BioStatR
+	>=dev-lang/R-3.5.0
 	sci-CRAN/ggplot2
 	sci-CRAN/jmuOutlier
+	sci-CRAN/ellipse
 	sci-CRAN/hypergeo
 "
 RDEPEND="${DEPEND-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ppsbm_0.2.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/Rfast
-	sci-CRAN/gtools
 	sci-CRAN/clue
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}"

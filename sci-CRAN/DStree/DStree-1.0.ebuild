@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DStree_1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/pec
+DEPEND="virtual/rpart
+	virtual/survival
 	sci-CRAN/Rcpp
 	sci-CRAN/Ecdat
+	sci-CRAN/pec
 	virtual/rpart
-	virtual/rpart
-	virtual/survival
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

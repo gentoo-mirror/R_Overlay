@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/INLABMA_0.1-11.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/spdep
-	sci-CRAN/sp
+DEPEND="sci-CRAN/sp
 	virtual/Matrix
+	>=dev-lang/R-2.15.0
+	sci-CRAN/spdep
 "
 RDEPEND="${DEPEND-}"
 

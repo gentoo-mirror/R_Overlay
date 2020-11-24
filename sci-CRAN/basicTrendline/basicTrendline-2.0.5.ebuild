@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/basicTrendline_2.0.5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/scales
-	sci-CRAN/investr
+DEPEND="sci-CRAN/investr
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}"

@@ -59,9 +59,9 @@ R_SUGGESTS="
 	r_suggests_tclust? ( sci-CRAN/tclust )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/DataVisualizations
 	sci-CRAN/ggplot2
 	sci-CRAN/mclust
-	sci-CRAN/DataVisualizations
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

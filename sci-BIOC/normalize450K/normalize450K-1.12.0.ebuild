@@ -12,7 +12,7 @@ LICENSE='BSD-2'
 
 DEPEND="sci-BIOC/illuminaio
 	sci-CRAN/quadprog
-	sci-BIOC/Biobase
 	>=dev-lang/R-3.3
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

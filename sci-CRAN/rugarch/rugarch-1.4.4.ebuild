@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rugarch_1.4-4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ks
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/zoo
-	sci-CRAN/xts
+	sci-CRAN/Rsolnp
 	sci-CRAN/SkewHyperbolic
 	sci-CRAN/numDeriv
-	sci-CRAN/Rcpp
-	>=dev-lang/R-3.5.0
 	sci-CRAN/nloptr
-	sci-CRAN/Rsolnp
+	sci-CRAN/ks
 	sci-CRAN/spd
+	sci-CRAN/xts
 	sci-CRAN/chron
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.10.6

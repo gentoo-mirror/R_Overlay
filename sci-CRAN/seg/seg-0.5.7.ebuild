@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_spdep? ( sci-CRAN/spdep )
 	r_suggests_spgrass6? ( sci-CRAN/spgrass6 )
 "
-DEPEND="sci-CRAN/sp
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/splancs
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

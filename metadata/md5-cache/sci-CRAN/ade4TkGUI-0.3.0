@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-CRAN/ade4-1.4.3 sci-CRAN/tkrplot dev-lang/R[tk] virtual/lattice sci-CRAN/adegraphics dev-lang/R
+DEPEND=>=sci-CRAN/ade4-1.4.3 virtual/lattice sci-CRAN/adegraphics sci-CRAN/tkrplot dev-lang/R[tk] dev-lang/R
 DESCRIPTION=ade4 Tcl/Tk Graphical User Interface
 EAPI=7
 IUSE=r_suggests_pixmap byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=>=sci-CRAN/ade4-1.4.3 sci-CRAN/tkrplot dev-lang/R[tk] virtual/lattice sci-CRAN/adegraphics r_suggests_pixmap? ( sci-CRAN/pixmap ) dev-lang/R
+RDEPEND=>=sci-CRAN/ade4-1.4.3 virtual/lattice sci-CRAN/adegraphics sci-CRAN/tkrplot dev-lang/R[tk] r_suggests_pixmap? ( sci-CRAN/pixmap ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/ade4TkGUI_0.3-0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=c2766e852c62d6797427b08f8e31e792
+_md5_=5ec07b0f83ac73cedfe6d6d3d4bf90d8

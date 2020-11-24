@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_secret? ( sci-CRAN/secret )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/checkmate-2.0.0
-	sci-CRAN/httr
-	>=sci-CRAN/RcppSimdJson-0.1.1
-	>=sci-CRAN/future_apply-1.4.0
-	>=dev-lang/R-3.2
+DEPEND=">=sci-CRAN/future_apply-1.4.0
 	>=sci-CRAN/data_table-1.12.8
+	>=dev-lang/R-3.2
+	sci-CRAN/httr
+	>=sci-CRAN/checkmate-2.0.0
 	>=sci-CRAN/memoise-1.1.0
+	>=sci-CRAN/RcppSimdJson-0.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

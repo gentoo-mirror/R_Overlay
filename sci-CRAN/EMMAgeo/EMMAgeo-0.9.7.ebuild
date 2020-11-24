@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EMMAgeo_0.9.7.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/GPArotation
+	sci-CRAN/shiny
 	sci-CRAN/caTools
 	sci-CRAN/limSolve
-	sci-CRAN/GPArotation
-	sci-CRAN/shiny
+	>=dev-lang/R-3.5.0
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

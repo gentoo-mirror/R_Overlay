@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RobustBayesianCopas_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/rjags
 	sci-CRAN/statip
+	sci-CRAN/rjags
 "
 RDEPEND="${DEPEND-}"

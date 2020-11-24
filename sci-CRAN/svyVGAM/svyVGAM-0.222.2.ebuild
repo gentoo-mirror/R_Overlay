@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/VGAM
-	sci-CRAN/survey
 	>=dev-lang/R-3.5.0
+	sci-CRAN/survey
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

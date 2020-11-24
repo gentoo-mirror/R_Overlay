@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/mbclusterwise_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ade4
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 	sci-CRAN/kknn
 "
 RDEPEND="${DEPEND-}"

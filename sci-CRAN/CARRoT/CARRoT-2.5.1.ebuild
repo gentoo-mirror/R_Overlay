@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CARRoT_2.5.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/nnet
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/foreach
+	virtual/nnet
 	sci-CRAN/doParallel
 	sci-CRAN/Rdpack
-	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-}"

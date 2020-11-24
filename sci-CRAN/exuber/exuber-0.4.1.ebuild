@@ -27,22 +27,22 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 	r_suggests_withr? ( >=sci-CRAN/withr-2.1.2 )
 "
-DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/dplyr-0.8.0.1
-	>=sci-CRAN/purrr-0.3.2
-	>=sci-CRAN/Rcpp-0.12.17
-	>=sci-CRAN/tibble-2.1.1
-	>=sci-CRAN/vctrs-0.2.4
-	>=sci-CRAN/cli-1.1.0
-	>=sci-CRAN/doSNOW-1.0.16
-	>=sci-CRAN/doRNG-1.8.2
-	>=sci-CRAN/foreach-1.4.4
+DEPEND=">=sci-CRAN/doSNOW-1.0.16
 	>=sci-CRAN/generics-0.0.2
+	>=sci-CRAN/foreach-1.4.4
+	>=sci-CRAN/doRNG-1.8.2
+	>=sci-CRAN/dplyr-0.8.0.1
 	>=sci-CRAN/ggplot2-3.1.1
 	>=sci-CRAN/glue-1.3.1
-	>=sci-CRAN/rlang-0.3.4
+	>=sci-CRAN/Rcpp-0.12.17
+	>=sci-CRAN/tibble-2.1.1
+	>=dev-lang/R-3.2
+	>=sci-CRAN/cli-1.1.0
 	>=sci-CRAN/lubridate-1.7.4
+	>=sci-CRAN/purrr-0.3.2
+	>=sci-CRAN/rlang-0.3.4
 	>=sci-CRAN/tidyr-0.8.3
+	>=sci-CRAN/vctrs-0.2.4
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-1.0.1

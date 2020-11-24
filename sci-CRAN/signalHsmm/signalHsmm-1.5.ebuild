@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_shinythemes? ( sci-CRAN/shinythemes )
 "
-DEPEND="sci-CRAN/shiny
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/shiny
 	sci-CRAN/seqinr
-	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

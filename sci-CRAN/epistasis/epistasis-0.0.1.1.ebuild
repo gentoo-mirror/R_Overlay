@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/epistasis_0.0.1-1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/igraph
-	virtual/Matrix
 	sci-CRAN/tmvtnorm
+	sci-CRAN/igraph
 	sci-CRAN/glasso
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

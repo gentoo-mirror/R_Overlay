@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/whisker
+DEPEND="sci-CRAN/whisker
 	>=sci-CRAN/params-0.3
 	sci-CRAN/diagram
+	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

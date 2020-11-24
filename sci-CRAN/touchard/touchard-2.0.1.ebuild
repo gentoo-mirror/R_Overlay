@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/touchard_2.0.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/plotrix
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/nleqslv
 	sci-CRAN/numDeriv
 	virtual/MASS
-	>=dev-lang/R-3.2.0
+	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-}"

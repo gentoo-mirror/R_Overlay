@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_openssl? ( sci-CRAN/openssl )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.7 )
 "
-DEPEND=">=dev-lang/R-3.0.1
+DEPEND=">=sci-CRAN/RCurl-0.3.4
 	>=sci-CRAN/readr-1.3.1
-	>=sci-CRAN/RCurl-0.3.4
 	>=sci-CRAN/rjson-0.2.13
+	>=dev-lang/R-3.0.1
 	>=sci-CRAN/curl-0.3.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

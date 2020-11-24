@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BayesTwin_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	>=dev-lang/R-3.4.0
-	sci-CRAN/coda
+DEPEND="virtual/foreign
 	sci-CRAN/rjags
-	virtual/foreign
+	virtual/Matrix
+	sci-CRAN/coda
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-}"

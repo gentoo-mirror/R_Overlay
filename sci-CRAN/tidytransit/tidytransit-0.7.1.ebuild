@@ -22,16 +22,16 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/tibble
 	>=sci-CRAN/zip-2.0.1
-	sci-CRAN/readr
 	sci-CRAN/dplyr
+	sci-CRAN/readr
 	>=sci-CRAN/data_table-1.12.8
+	sci-CRAN/httr
 	sci-CRAN/assertthat
 	sci-CRAN/rlang
-	sci-CRAN/lubridate
-	sci-CRAN/digest
-	sci-CRAN/httr
 	sci-CRAN/sf
-	sci-CRAN/hms
 	sci-CRAN/tidyr
+	sci-CRAN/digest
+	sci-CRAN/lubridate
+	sci-CRAN/hms
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

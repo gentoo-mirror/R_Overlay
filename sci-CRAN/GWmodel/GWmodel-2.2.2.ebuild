@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_spdata? ( sci-CRAN/spData )
 "
-DEPEND=">sci-CRAN/sp-1.4.0
+DEPEND=">=dev-lang/R-3.0.0
+	>=sci-CRAN/maptools-0.5.2
 	sci-CRAN/spdep
 	virtual/spatial
+	>sci-CRAN/sp-1.4.0
 	sci-CRAN/FNN
-	>=sci-CRAN/maptools-0.5.2
-	>=dev-lang/R-3.0.0
 	sci-CRAN/Rcpp
 	sci-CRAN/robustbase
 	sci-CRAN/spacetime

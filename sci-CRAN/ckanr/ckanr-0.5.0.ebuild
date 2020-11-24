@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=sci-CRAN/dplyr-0.7.0
-	>=sci-CRAN/DBI-0.3.1
-	sci-CRAN/crul
+DEPEND=">=sci-CRAN/DBI-0.3.1
 	>=sci-CRAN/jsonlite-0.9.17
+	sci-CRAN/crul
+	>=sci-CRAN/dplyr-0.7.0
 	sci-CRAN/dbplyr
 	sci-CRAN/magrittr
 "

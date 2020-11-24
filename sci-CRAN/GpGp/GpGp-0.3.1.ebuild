@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/FNN
-	>=sci-CRAN/Rcpp-0.12.13
+DEPEND=">=sci-CRAN/Rcpp-0.12.13
+	sci-CRAN/FNN
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/BH
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

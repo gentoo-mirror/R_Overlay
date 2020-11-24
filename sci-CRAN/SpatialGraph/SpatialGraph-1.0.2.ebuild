@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/SpatialGraph_1.0-2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/igraph
-	sci-CRAN/shape
-	sci-CRAN/sp
 	sci-CRAN/rgeos
+	sci-CRAN/sp
 	sci-CRAN/splancs
+	sci-CRAN/shape
 "
 RDEPEND="${DEPEND-}"

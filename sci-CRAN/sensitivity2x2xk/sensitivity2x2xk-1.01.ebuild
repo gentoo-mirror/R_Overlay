@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sensitivity2x2xk_1.01.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/BiasedUrn
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/BiasedUrn
 "
 RDEPEND="${DEPEND-}"

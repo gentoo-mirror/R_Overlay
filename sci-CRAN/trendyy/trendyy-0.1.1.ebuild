@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/trendyy_0.1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/stringr
-	sci-CRAN/magrittr
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/purrr
-	>=dev-lang/R-3.2.0
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 	sci-CRAN/gtrendsR
 	sci-CRAN/crayon
+	sci-CRAN/stringr
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}"

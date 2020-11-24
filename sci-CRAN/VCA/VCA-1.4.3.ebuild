@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_stb? ( sci-CRAN/STB )
 	r_suggests_vfp? ( sci-CRAN/VFP )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	virtual/Matrix
+DEPEND="sci-CRAN/numDeriv
 	sci-CRAN/lme4
-	sci-CRAN/numDeriv
+	>=dev-lang/R-3.0.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

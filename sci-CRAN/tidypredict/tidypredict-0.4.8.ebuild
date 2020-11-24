@@ -34,15 +34,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
-DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/rlang
-	sci-CRAN/purrr
-	>=sci-CRAN/dplyr-0.7
-	sci-CRAN/generics
-	sci-CRAN/tidyr
-	sci-CRAN/knitr
-	sci-CRAN/stringr
+DEPEND=">=sci-CRAN/dplyr-0.7
 	sci-CRAN/tibble
+	sci-CRAN/purrr
+	>=dev-lang/R-3.1
+	sci-CRAN/rlang
+	sci-CRAN/knitr
+	sci-CRAN/generics
+	sci-CRAN/stringr
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

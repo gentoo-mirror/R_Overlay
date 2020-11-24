@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/MBmca_0.0.3-5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/robustbase-0.9
 	>=sci-CRAN/chipPCR-0.0.7
+	>=sci-CRAN/robustbase-0.9
 "
 RDEPEND="${DEPEND-}"

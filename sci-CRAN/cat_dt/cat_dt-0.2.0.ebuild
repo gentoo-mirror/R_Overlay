@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-mathematics/glpk
-	sci-CRAN/ggplot2
 	virtual/Matrix
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

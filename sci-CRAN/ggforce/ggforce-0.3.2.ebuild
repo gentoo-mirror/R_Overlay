@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_sessioninfo? ( sci-CRAN/sessioninfo )
 	r_suggests_units? ( >=sci-CRAN/units-0.4.6 )
 "
-DEPEND="sci-CRAN/scales
-	virtual/MASS
-	sci-CRAN/gtable
+DEPEND="virtual/MASS
+	sci-CRAN/tidyselect
+	sci-CRAN/polyclip
 	>=sci-CRAN/tweenr-0.1.5
 	>=sci-CRAN/ggplot2-3.0.0
 	>=sci-CRAN/Rcpp-0.12.2
 	>=dev-lang/R-3.3.0
+	sci-CRAN/scales
+	sci-CRAN/gtable
 	sci-CRAN/rlang
-	sci-CRAN/polyclip
-	sci-CRAN/tidyselect
 	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-}

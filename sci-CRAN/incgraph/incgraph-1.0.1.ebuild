@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/incgraph_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2
+	>=sci-CRAN/Rcpp-0.11.4
+	sci-CRAN/testthat
 	sci-CRAN/orca
 	sci-CRAN/dplyr
-	>=sci-CRAN/Rcpp-0.11.4
 	sci-CRAN/purrr
 	sci-CRAN/tibble
-	sci-CRAN/testthat
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

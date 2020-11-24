@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/climextRemes_0.2.2.tar.gz"
 LICENSE='BSD'
 
-DEPEND=">=sci-CRAN/extRemes-2.0.0
-	virtual/boot
+DEPEND="virtual/boot
+	>=sci-CRAN/extRemes-2.0.0
 "
 RDEPEND="${DEPEND-}"

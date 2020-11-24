@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 "
 DEPEND="sci-BIOC/globaltest
-	sci-BIOC/quantsmooth
 	sci-CRAN/quantreg
+	sci-BIOC/quantsmooth
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

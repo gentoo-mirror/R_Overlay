@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_pamr? ( sci-CRAN/pamr )
 	r_suggests_randomforest? ( sci-CRAN/randomForest )
 "
-DEPEND="sci-CRAN/e1071
-	virtual/lattice
+DEPEND="virtual/lattice
+	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

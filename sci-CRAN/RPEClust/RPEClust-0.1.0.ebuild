@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RPEClust_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/clusteval
 	sci-CRAN/clue
 	sci-CRAN/mclust
+	sci-CRAN/clusteval
 "
 RDEPEND="${DEPEND-}"

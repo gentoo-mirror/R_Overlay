@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_proc? ( >=sci-CRAN/pROC-1.13.0 )
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.10 )
 "
-DEPEND=">=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/reshape2-1.4.3
-	>=sci-CRAN/purrr-0.2.5
-	virtual/boot
-	>=sci-CRAN/vegan-2.5.3
-	>=sci-CRAN/bipartite-2.11
-	sci-CRAN/dplyr
+DEPEND=">=sci-CRAN/reshape2-1.4.3
 	>=sci-CRAN/tidyr-0.8
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/bipartite-2.11
+	>=sci-CRAN/purrr-0.2.5
+	>=sci-CRAN/vegan-2.5.3
+	sci-CRAN/dplyr
 	>=sci-CRAN/ggplot2-3.1.0
+	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

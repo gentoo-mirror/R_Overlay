@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/tolerance_2.0.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/MASS
 	sci-CRAN/rgl
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

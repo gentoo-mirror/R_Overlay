@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_plyr? ( sci-CRAN/plyr )
 	r_suggests_vcd? ( sci-CRAN/vcd )
 "
-DEPEND=">=dev-lang/R-3.0
-	virtual/nlme
+DEPEND="sci-CRAN/mosaic
 	virtual/lattice
-	sci-CRAN/mosaic
+	virtual/nlme
+	>=dev-lang/R-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

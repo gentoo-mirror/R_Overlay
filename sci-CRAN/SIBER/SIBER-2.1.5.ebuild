@@ -21,13 +21,13 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-4.0.0
 	sci-CRAN/hdrcde
-	sci-CRAN/purrr
 	sci-CRAN/mnormt
-	sci-CRAN/rjags
 	sci-CRAN/spatstat
+	sci-CRAN/rjags
 	sci-CRAN/spatstat_utils
 	sci-CRAN/tidyr
 	sci-CRAN/dplyr
+	sci-CRAN/purrr
 	sci-CRAN/ggplot2
 	sci-CRAN/magrittr
 "

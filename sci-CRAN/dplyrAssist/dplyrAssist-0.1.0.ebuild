@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_nycflights13? ( sci-CRAN/nycflights13 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/shiny-0.13
-	sci-CRAN/shinyWidgets
-	>=sci-CRAN/rstudioapi-0.5
-	>=sci-CRAN/miniUI-0.1.1
-	sci-CRAN/shinyAce
+DEPEND="sci-CRAN/shinyAce
 	sci-CRAN/tidyverse
+	>=sci-CRAN/rstudioapi-0.5
+	sci-CRAN/shinyWidgets
+	>=sci-CRAN/miniUI-0.1.1
 	sci-CRAN/tidyr
 	sci-CRAN/stringr
+	>=sci-CRAN/shiny-0.13
 	sci-CRAN/magrittr
 	sci-CRAN/plyr
 	sci-CRAN/DT

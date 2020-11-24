@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/BatchExperiments
-	sci-CRAN/BatchJobs
-	sci-CRAN/parallelMap
-	sci-CRAN/plyr
-	sci-CRAN/llama
-	sci-CRAN/RWeka
-	sci-CRAN/yaml
-	sci-CRAN/BBmisc
 	sci-CRAN/corrplot
 	sci-CRAN/checkmate
+	sci-CRAN/BBmisc
+	sci-CRAN/BatchJobs
 	sci-CRAN/ggplot2
+	sci-CRAN/llama
 	sci-CRAN/mlr
+	sci-CRAN/parallelMap
 	sci-CRAN/ParamHelpers
-	sci-CRAN/reshape2
 	sci-CRAN/stringr
+	sci-CRAN/yaml
+	sci-CRAN/plyr
+	sci-CRAN/reshape2
+	sci-CRAN/RWeka
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

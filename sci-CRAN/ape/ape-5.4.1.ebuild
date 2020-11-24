@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_gee? ( sci-CRAN/gee )
 	r_suggests_igraph? ( sci-CRAN/igraph )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.0
+DEPEND=">=dev-lang/R-3.2.0
 	virtual/nlme
+	>=sci-CRAN/Rcpp-0.12.0
 	virtual/lattice
-	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

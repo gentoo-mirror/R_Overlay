@@ -22,8 +22,8 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/magrittr
 	sci-CRAN/stringr
 	sci-CRAN/tibble
-	sci-CRAN/dplyr
 	sci-CRAN/tidyr
+	sci-CRAN/dplyr
 	sci-CRAN/forcats
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,35 +15,35 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/markdown
+DEPEND="sci-CRAN/colourpicker
+	sci-CRAN/markdown
+	sci-CRAN/RPostgres
 	>=sci-CRAN/shiny-1.0.4
+	sci-CRAN/DT
+	sci-CRAN/GGally
+	sci-CRAN/ggpubr
 	sci-CRAN/plotly
+	sci-CRAN/shinyFiles
 	sci-CRAN/Hmisc
-	sci-CRAN/quantreg
 	sci-CRAN/rlang
+	virtual/survival
+	sci-CRAN/Formula
+	sci-CRAN/ggstance
+	sci-CRAN/survminer
+	sci-CRAN/tidyr
+	>=dev-lang/R-3.6.0
+	sci-CRAN/dplyr
+	sci-CRAN/quantreg
 	sci-CRAN/shinyjqui
 	>=sci-CRAN/table1-1.1
-	sci-CRAN/shinyFiles
-	sci-CRAN/DT
-	sci-CRAN/dplyr
-	sci-CRAN/ggpmisc
-	>=sci-CRAN/ggrepel-0.7.0
-	sci-CRAN/survminer
-	sci-CRAN/scales
-	>=dev-lang/R-3.6.0
-	sci-CRAN/colourpicker
-	sci-CRAN/GGally
-	sci-CRAN/stringr
-	sci-CRAN/Formula
-	>=sci-CRAN/ggplot2-3.3.2
-	sci-CRAN/ggstance
-	sci-CRAN/ggpubr
-	sci-CRAN/lazyeval
 	>=sci-CRAN/shinyjs-1.1
-	virtual/survival
-	sci-CRAN/tidyr
-	sci-CRAN/RPostgres
+	>=sci-CRAN/ggrepel-0.7.0
+	sci-CRAN/scales
+	>=sci-CRAN/ggplot2-3.3.2
+	sci-CRAN/ggpmisc
 	sci-CRAN/gridExtra
+	sci-CRAN/lazyeval
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

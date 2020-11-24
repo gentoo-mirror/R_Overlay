@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_kinship2? ( sci-CRAN/kinship2 )
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 "
-DEPEND="virtual/survival
+DEPEND="virtual/nlme
+	virtual/survival
 	virtual/Matrix
 	virtual/Matrix
-	virtual/nlme
 "
 RDEPEND="${DEPEND-}
 	virtual/Matrix

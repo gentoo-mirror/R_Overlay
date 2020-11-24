@@ -17,24 +17,24 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tufte? ( sci-CRAN/tufte )
 "
-DEPEND="sci-CRAN/magrittr
-	virtual/boot
-	sci-CRAN/forcats
-	>=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/cowplot
 	>=sci-CRAN/ggplot2-3.2
-	sci-CRAN/plyr
-	sci-CRAN/ggforce
-	virtual/boot
-	sci-CRAN/ellipsis
-	sci-CRAN/stringr
-	sci-CRAN/cowplot
+	sci-CRAN/RColorBrewer
 	sci-CRAN/effsize
+	sci-CRAN/ggforce
 	sci-CRAN/tibble
-	sci-CRAN/ggbeeswarm
-	sci-CRAN/rlang
 	sci-CRAN/tidyr
 	sci-CRAN/dplyr
-	sci-CRAN/RColorBrewer
+	sci-CRAN/ellipsis
+	sci-CRAN/forcats
+	sci-CRAN/plyr
+	virtual/boot
+	>=dev-lang/R-3.5.0
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
+	sci-CRAN/stringr
+	virtual/boot
+	sci-CRAN/ggbeeswarm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

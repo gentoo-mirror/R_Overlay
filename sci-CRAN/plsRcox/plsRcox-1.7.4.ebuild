@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_plsdof? ( sci-CRAN/plsdof )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND="virtual/survival
-	sci-CRAN/lars
+DEPEND="sci-CRAN/lars
+	sci-CRAN/pls
 	sci-CRAN/plsRglm
 	sci-CRAN/kernlab
-	sci-CRAN/pls
 	sci-BIOC/mixOmics
 	sci-CRAN/risksetROC
 	sci-BIOC/survcomp
 	sci-CRAN/survAUC
 	sci-CRAN/rms
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

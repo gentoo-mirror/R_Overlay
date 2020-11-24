@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_styler? ( >=sci-CRAN/styler-1.2.0 )
 "
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/shinydashboard
 	sci-CRAN/htmltools
+	sci-CRAN/shinydashboard
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/colorspace
-	sci-CRAN/Polychrome
-	sci-CRAN/qgraph
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/colorspace
 	sci-CRAN/magrittr
 	virtual/Matrix
+	sci-CRAN/igraph
+	>=dev-lang/R-3.6.0
+	sci-CRAN/Polychrome
+	sci-CRAN/qgraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

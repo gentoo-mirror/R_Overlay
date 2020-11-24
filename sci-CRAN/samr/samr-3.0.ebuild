@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/samr_3.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="sci-CRAN/openxlsx
-	sci-CRAN/GSA
-	sci-CRAN/shinyFiles
-	sci-CRAN/shiny
-	sci-BIOC/impute
+DEPEND="sci-BIOC/impute
 	virtual/Matrix
+	sci-CRAN/shinyFiles
+	sci-CRAN/openxlsx
+	sci-CRAN/shiny
+	sci-CRAN/GSA
 "
 RDEPEND="${DEPEND-}"

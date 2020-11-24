@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_wpp2015? ( sci-CRAN/wpp2015 )
 	r_suggests_wpp2017? ( sci-CRAN/wpp2017 )
 "
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/wpp2012
+DEPEND=">=sci-CRAN/bayesTFR-6.4.0
+	sci-CRAN/fields
+	sci-CRAN/abind
 	sci-CRAN/reshape2
-	>=dev-lang/R-2.14.2
+	sci-CRAN/data_table
 	sci-CRAN/plyr
-	>=sci-CRAN/bayesTFR-6.4.0
+	>=dev-lang/R-2.14.2
 	sci-CRAN/MortCast
 	>=sci-CRAN/bayesLife-4.1.0
-	sci-CRAN/abind
 	sci-CRAN/wpp2019
+	sci-CRAN/wpp2012
 	sci-CRAN/rworldmap
-	sci-CRAN/fields
 	sci-CRAN/googleVis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

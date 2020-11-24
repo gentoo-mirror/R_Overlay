@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_lhs? ( sci-CRAN/lhs )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.3.0
+DEPEND="sci-CRAN/fields
+	sci-CRAN/Rdpack
 	sci-CRAN/mclust
 	sci-CRAN/rsm
-	sci-CRAN/stringr
-	sci-CRAN/magrittr
 	sci-CRAN/DepthProc
-	virtual/boot
-	sci-CRAN/geometry
-	sci-CRAN/fields
-	sci-CRAN/nloptr
-	sci-CRAN/Rdpack
 	sci-CRAN/Rdsdp
 	sci-CRAN/spam
+	sci-CRAN/stringr
+	>=dev-lang/R-3.3.0
+	sci-CRAN/geometry
+	virtual/boot
+	sci-CRAN/magrittr
+	sci-CRAN/nloptr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

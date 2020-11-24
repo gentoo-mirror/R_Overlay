@@ -18,7 +18,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/modelObj
 	sci-CRAN/dfoptim
-	sci-CRAN/rgenoud
 	sci-CRAN/kernlab
+	sci-CRAN/rgenoud
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

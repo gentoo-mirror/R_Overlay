@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_rastervis"
 R_SUGGESTS="r_suggests_rastervis? ( sci-CRAN/rasterVis )"
 DEPEND="sci-CRAN/fasterize
-	sci-CRAN/data_table
 	sci-CRAN/sf
+	sci-CRAN/data_table
 	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

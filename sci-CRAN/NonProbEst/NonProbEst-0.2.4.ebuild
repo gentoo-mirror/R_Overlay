@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/NonProbEst_0.2.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/caret
-	virtual/Matrix
+	sci-CRAN/glmnet
 	sci-CRAN/e1071
 	sci-CRAN/sampling
-	sci-CRAN/glmnet
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

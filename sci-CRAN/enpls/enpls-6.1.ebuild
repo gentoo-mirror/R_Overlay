@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0.2
+	sci-CRAN/doParallel
+	sci-CRAN/plotly
 	sci-CRAN/spls
 	sci-CRAN/pls
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
-	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

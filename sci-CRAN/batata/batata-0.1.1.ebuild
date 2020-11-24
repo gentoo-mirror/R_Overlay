@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/fs
-	sci-CRAN/lubridate
 	sci-CRAN/glue
+	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

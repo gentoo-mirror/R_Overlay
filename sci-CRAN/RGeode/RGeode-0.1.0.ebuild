@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RGeode_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	virtual/MASS
 	>=sci-CRAN/Rcpp-0.12.11
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

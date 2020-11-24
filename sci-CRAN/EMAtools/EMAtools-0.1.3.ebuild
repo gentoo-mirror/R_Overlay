@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/EMAtools_0.1.3.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/DataCombine
-	sci-CRAN/ggplot2
 	>=sci-CRAN/sjstats-0.10.2
 	sci-CRAN/lmerTest
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

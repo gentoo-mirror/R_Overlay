@@ -22,14 +22,14 @@ R_SUGGESTS="
 	r_suggests_survey? ( sci-CRAN/survey )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/tidyselect
+DEPEND="sci-CRAN/glue
 	>=sci-CRAN/ggplot2-3.0.0
-	sci-CRAN/forcats
 	sci-CRAN/rlang
+	>=dev-lang/R-3.2.0
+	sci-CRAN/forcats
+	sci-CRAN/tidyselect
 	sci-CRAN/dplyr
 	sci-CRAN/scales
-	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND="sci-CRAN/shiny
-	sci-CRAN/DT
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/reshape2
+	sci-CRAN/shiny
+	sci-CRAN/DT
 	>=dev-lang/R-3.2
 	virtual/KernSmooth
 "

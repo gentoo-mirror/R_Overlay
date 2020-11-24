@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_rann? ( sci-CRAN/RANN )
 	r_suggests_yaimpute? ( sci-CRAN/yaImpute )
 "
-DEPEND="sci-CRAN/zoo
-	sci-CRAN/locfit
-	sci-CRAN/fields
-	sci-CRAN/FNN
-	>=dev-lang/R-2.12.1
-	sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-2.12.1
 	sci-CRAN/RColorBrewer
+	sci-CRAN/FNN
+	sci-CRAN/zoo
+	sci-CRAN/mvtnorm
+	sci-CRAN/fields
+	sci-CRAN/locfit
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,12 +12,12 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_nloptr"
 R_SUGGESTS="r_suggests_nloptr? ( sci-CRAN/nloptr )"
-DEPEND=">=dev-lang/R-3.0.0
-	virtual/MASS
-	sci-CRAN/ParamHelpers
+DEPEND="sci-CRAN/DEoptim
 	sci-CRAN/fastmatch
-	sci-CRAN/DEoptim
 	sci-CRAN/quadprog
 	virtual/Matrix
+	sci-CRAN/ParamHelpers
+	>=dev-lang/R-3.0.0
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

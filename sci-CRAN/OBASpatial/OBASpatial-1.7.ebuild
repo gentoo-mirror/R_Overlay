@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/OBASpatial_1.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/truncdist
-	sci-CRAN/cubature
-	sci-CRAN/modeest
-	sci-CRAN/invgamma
-	>=dev-lang/R-3.6.0
-	sci-CRAN/LaplacesDemon
+DEPEND="sci-CRAN/cubature
 	sci-CRAN/HDInterval
+	sci-CRAN/invgamma
 	sci-CRAN/mvtnorm
+	>=dev-lang/R-3.6.0
+	sci-CRAN/modeest
+	sci-CRAN/truncdist
+	sci-CRAN/LaplacesDemon
 "
 RDEPEND="${DEPEND-}"

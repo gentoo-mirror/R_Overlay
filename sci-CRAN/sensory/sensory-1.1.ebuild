@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/sensory_1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/Matrix
-	>=dev-lang/R-3.2.2
 	sci-CRAN/gtools
 	virtual/MASS
+	>=dev-lang/R-3.2.2
 "
 RDEPEND="${DEPEND-}"

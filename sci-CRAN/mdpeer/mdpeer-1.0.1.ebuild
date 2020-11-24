@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.3.3
-	sci-CRAN/ggplot2
-	virtual/boot
-	virtual/nlme
-	sci-CRAN/reshape2
-	sci-CRAN/nloptr
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/rootSolve
+	virtual/nlme
+	>=dev-lang/R-3.3.3
+	virtual/boot
+	sci-CRAN/ggplot2
+	sci-CRAN/nloptr
 	sci-CRAN/psych
 	sci-CRAN/magic
 	sci-CRAN/glmnet

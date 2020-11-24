@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/geiger
-	sci-CRAN/RColorBrewer
-	sci-CRAN/igraph
-	sci-CRAN/phangorn
-	sci-CRAN/phytools
-	sci-CRAN/lhs
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/nloptr
+	sci-CRAN/geiger
 	sci-CRAN/corpcor
 	sci-CRAN/ape
+	sci-CRAN/RColorBrewer
+	sci-CRAN/igraph
 	sci-CRAN/numDeriv
+	sci-CRAN/phytools
 	sci-CRAN/paleotree
+	sci-CRAN/phangorn
+	sci-CRAN/lhs
 	sci-CRAN/interp
 	sci-CRAN/phylolm
 "

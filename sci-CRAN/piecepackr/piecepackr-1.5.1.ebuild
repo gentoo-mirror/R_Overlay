@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_rgl? ( >=sci-CRAN/rgl-0.100.46 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/grImport2
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/purrr
 	sci-CRAN/R6
 	sci-CRAN/jpeg
-	sci-CRAN/gridGeometry
-	sci-CRAN/png
 	sci-CRAN/stringr
+	sci-CRAN/gridGeometry
+	sci-CRAN/grImport2
+	sci-CRAN/png
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}

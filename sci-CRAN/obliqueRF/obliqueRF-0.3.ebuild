@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/obliqueRF_0.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ROCR
-	sci-CRAN/mda
+DEPEND="sci-CRAN/mda
 	sci-CRAN/e1071
+	sci-CRAN/ROCR
 	sci-CRAN/pls
 "
 RDEPEND="${DEPEND-}"

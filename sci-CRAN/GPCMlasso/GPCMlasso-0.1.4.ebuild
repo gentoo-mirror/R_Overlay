@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/GPCMlasso_0.1-4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ltm
+	>=sci-CRAN/Rcpp-0.12.4
 	sci-CRAN/caret
 	sci-CRAN/cubature
-	>=sci-CRAN/Rcpp-0.12.4
 	sci-CRAN/TeachingDemos
 	sci-CRAN/statmod
 	sci-CRAN/mvtnorm

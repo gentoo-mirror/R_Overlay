@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/geneSignatureFinder_2014.02.17.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/cluster
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	virtual/class
 	virtual/survival
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

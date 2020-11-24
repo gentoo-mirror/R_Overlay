@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/groc_1.0.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/robustbase
-	virtual/MASS
+DEPEND="sci-CRAN/rrcov
 	sci-CRAN/pls
 	virtual/mgcv
-	sci-CRAN/rrcov
+	sci-CRAN/robustbase
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"
 

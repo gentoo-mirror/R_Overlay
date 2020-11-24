@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_rmysql? ( sci-CRAN/RMySQL )
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 "
-DEPEND=">=dev-lang/R-2.12.0
-	>=sci-CRAN/DBI-0.3.1
+DEPEND="sci-CRAN/bit64
 	>=sci-CRAN/httr-1.0.0
-	sci-CRAN/bit64
+	>=sci-CRAN/DBI-0.3.1
+	>=dev-lang/R-2.12.0
 	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

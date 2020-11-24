@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/presmTP_1.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/survPresmooth
 	virtual/mgcv
+	sci-CRAN/survPresmooth
 "
 RDEPEND="${DEPEND-}"

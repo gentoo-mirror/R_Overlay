@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CLUSTShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/rmarkdown
-	sci-CRAN/psycho
-	sci-CRAN/shiny
+DEPEND=">=dev-lang/R-3.0.3
 	virtual/MASS
-	>=dev-lang/R-3.0.3
-	sci-CRAN/klaR
+	sci-CRAN/rmarkdown
+	sci-CRAN/psycho
 	sci-CRAN/dplyr
 	virtual/cluster
+	sci-CRAN/shiny
+	sci-CRAN/klaR
 "
 RDEPEND="${DEPEND-}"

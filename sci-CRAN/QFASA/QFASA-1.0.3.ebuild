@@ -22,8 +22,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.2
 	sci-CRAN/gamlss_dist
 	virtual/boot
-	sci-CRAN/gamlss
 	sci-CRAN/futile_logger
 	sci-CRAN/Rsolnp
+	sci-CRAN/gamlss
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,22 +18,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/Linnorm
-	sci-CRAN/Rcpp
-	sci-BIOC/Rgraphviz
-	sci-BIOC/epiNEM
+DEPEND="sci-CRAN/tsne
+	sci-BIOC/Linnorm
 	>=dev-lang/R-3.6
+	sci-BIOC/nem
+	sci-BIOC/Rgraphviz
+	virtual/lattice
+	sci-CRAN/Rcpp
+	sci-CRAN/naturalsort
+	virtual/Matrix
+	sci-BIOC/epiNEM
 	sci-BIOC/graph
-	sci-CRAN/tsne
+	sci-CRAN/snowfall
 	sci-CRAN/data_table
 	sci-CRAN/RcppEigen
-	virtual/cluster
 	sci-CRAN/flexclust
-	sci-BIOC/nem
-	virtual/lattice
-	sci-CRAN/snowfall
-	virtual/Matrix
-	sci-CRAN/naturalsort
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

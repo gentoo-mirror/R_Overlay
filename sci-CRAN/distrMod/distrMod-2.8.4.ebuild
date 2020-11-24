@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_evd? ( sci-CRAN/evd )
 	r_suggests_ismev? ( sci-CRAN/ismev )
 "
-DEPEND=">=dev-lang/R-3.4
-	>=sci-CRAN/distr-2.8.0
-	sci-CRAN/sfsmisc
+DEPEND=">=sci-CRAN/distrEx-2.8.0
 	>=sci-CRAN/RandVar-1.2.0
 	sci-CRAN/startupmsg
+	>=dev-lang/R-3.4
+	>=sci-CRAN/distr-2.8.0
 	virtual/MASS
-	>=sci-CRAN/distrEx-2.8.0
+	sci-CRAN/sfsmisc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

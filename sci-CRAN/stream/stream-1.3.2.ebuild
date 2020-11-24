@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/proxy-0.4.7
+DEPEND=">=dev-lang/R-2.13.0
 	virtual/MASS
-	sci-CRAN/clue
-	sci-CRAN/fpc
-	>=dev-lang/R-2.13.0
 	virtual/cluster
+	sci-CRAN/clue
+	>=sci-CRAN/proxy-0.4.7
 	virtual/cluster
 	>=sci-CRAN/dbscan-1.0.0
+	sci-CRAN/fpc
 	sci-CRAN/mlbench
 	>=sci-CRAN/Rcpp-0.11.4
 "

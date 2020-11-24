@@ -18,11 +18,11 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/shinythemes
 	sci-CRAN/jsonlite
+	sci-CRAN/shiny
+	sci-CRAN/shinyTree
+	sci-CRAN/shinyjs
 	sci-CRAN/rlang
 	sci-CRAN/data_table
-	sci-CRAN/shiny
-	sci-CRAN/shinyjs
-	sci-CRAN/shinyTree
 	sci-CRAN/cli
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

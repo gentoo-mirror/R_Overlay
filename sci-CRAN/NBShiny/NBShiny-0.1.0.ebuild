@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/NBShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/shiny
+DEPEND="sci-CRAN/rmarkdown
+	sci-CRAN/caret
+	sci-CRAN/shiny
 	sci-CRAN/dplyr
 	>=dev-lang/R-3.0.3
-	sci-CRAN/rmarkdown
-	sci-CRAN/caret
 	sci-CRAN/e1071
 	sci-CRAN/rhandsontable
 "

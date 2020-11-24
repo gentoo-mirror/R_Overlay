@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/readr
-	sci-CRAN/magrittr
-	sci-CRAN/purrr
-	sci-CRAN/dplyr
-	sci-CRAN/tbl2xts
 	sci-CRAN/PerformanceAnalytics
+	sci-CRAN/purrr
+	sci-CRAN/tbl2xts
+	sci-CRAN/dplyr
 	sci-CRAN/xts
 	sci-CRAN/zoo
+	sci-CRAN/readr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

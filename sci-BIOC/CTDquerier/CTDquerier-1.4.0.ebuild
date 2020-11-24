@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-CRAN/stringdist
-	sci-CRAN/stringr
-	sci-CRAN/RCurl
-	>=dev-lang/R-3.4.0
-	sci-BIOC/S4Vectors
-	sci-CRAN/ggplot2
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/gridExtra
+	sci-CRAN/igraph
 	sci-BIOC/BiocFileCache
+	sci-BIOC/S4Vectors
 	sci-CRAN/rappdirs
+	>=dev-lang/R-3.4.0
+	sci-CRAN/RCurl
+	sci-CRAN/stringdist
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

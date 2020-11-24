@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_biodiversityr? ( sci-CRAN/BiodiversityR )
 	r_suggests_vegdata? ( sci-CRAN/vegdata )
 "
-DEPEND="sci-CRAN/vegan
-	virtual/mgcv
+DEPEND="sci-CRAN/fields
 	virtual/cluster
+	sci-CRAN/vegan
 	sci-CRAN/Hmisc
-	sci-CRAN/fields
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

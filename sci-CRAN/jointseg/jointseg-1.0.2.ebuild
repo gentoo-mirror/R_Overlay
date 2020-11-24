@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/acnr-0.3.1
 	virtual/Matrix
+	>=sci-CRAN/acnr-0.3.1
 	sci-BIOC/DNAcopy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

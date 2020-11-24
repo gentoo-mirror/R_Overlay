@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/coda-0.19
-	>=sci-CRAN/ggplot2-3.2
+DEPEND=">=sci-CRAN/ggplot2-3.2
 	>=sci-CRAN/rjags-4.10
+	>=sci-CRAN/coda-0.19
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

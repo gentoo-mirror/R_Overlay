@@ -15,20 +15,20 @@ R_SUGGESTS="
 	r_suggests_kegggraph? ( sci-BIOC/KEGGgraph )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-BIOC/RBGL
-	sci-CRAN/fdrtool
-	sci-CRAN/sfsmisc
-	sci-CRAN/reshape
-	sci-CRAN/Rcpp
-	sci-CRAN/igraph
-	sci-CRAN/Hmisc
-	sci-CRAN/snowfall
-	sci-BIOC/graph
-	sci-CRAN/RSpectra
-	>=dev-lang/R-2.15.1
+DEPEND="sci-CRAN/sfsmisc
 	sci-CRAN/expm
 	sci-CRAN/ggplot2
+	>=dev-lang/R-2.15.1
+	sci-CRAN/Hmisc
+	sci-CRAN/fdrtool
+	sci-BIOC/RBGL
+	sci-CRAN/igraph
+	sci-CRAN/reshape
+	sci-CRAN/Rcpp
 	sci-CRAN/gRbase
+	sci-CRAN/snowfall
+	sci-CRAN/RSpectra
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

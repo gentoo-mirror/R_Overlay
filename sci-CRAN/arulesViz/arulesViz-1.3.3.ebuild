@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_shinythemes? ( sci-CRAN/shinythemes )
 "
-DEPEND=">=sci-CRAN/arules-1.4.1
-	sci-CRAN/colorspace
-	sci-CRAN/seriation
-	sci-CRAN/scatterplot3d
-	sci-CRAN/visNetwork
-	sci-CRAN/vcd
-	>=sci-CRAN/igraph-1.0.0
+DEPEND="sci-CRAN/scatterplot3d
 	sci-CRAN/DT
+	>=sci-CRAN/igraph-1.0.0
 	sci-CRAN/plotly
+	>=sci-CRAN/arules-1.4.1
+	sci-CRAN/seriation
+	sci-CRAN/vcd
+	sci-CRAN/colorspace
+	sci-CRAN/visNetwork
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

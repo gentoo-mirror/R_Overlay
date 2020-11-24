@@ -22,18 +22,18 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/terrainmeshr
-	sci-CRAN/doParallel
-	sci-CRAN/progress
+DEPEND="sci-CRAN/rayimage
 	>=dev-lang/R-3.0.2
+	sci-CRAN/progress
 	sci-CRAN/Rcpp
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 	sci-CRAN/raster
 	sci-CRAN/scales
 	sci-CRAN/png
 	sci-CRAN/magrittr
 	sci-CRAN/rgl
-	sci-CRAN/rayimage
+	sci-CRAN/terrainmeshr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

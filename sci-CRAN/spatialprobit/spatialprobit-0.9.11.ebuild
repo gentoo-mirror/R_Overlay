@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/spdep
-	sci-CRAN/tmvtnorm
+DEPEND="sci-CRAN/spdep
 	virtual/Matrix
+	sci-CRAN/mvtnorm
+	sci-CRAN/tmvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

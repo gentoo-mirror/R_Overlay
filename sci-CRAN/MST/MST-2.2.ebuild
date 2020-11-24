@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MST_2.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/partykit
-	virtual/MASS
+DEPEND="virtual/MASS
 	>=dev-lang/R-3.5.0
 	virtual/survival
 	sci-CRAN/Formula
+	sci-CRAN/partykit
 "
 RDEPEND="${DEPEND-}"

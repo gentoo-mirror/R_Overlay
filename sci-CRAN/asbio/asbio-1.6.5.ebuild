@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_akima? ( sci-CRAN/akima )
 	r_suggests_boot? ( virtual/boot )
 "
-DEPEND="dev-lang/R[tk]
-	sci-CRAN/plotrix
-	sci-CRAN/pixmap
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/tkrplot
-	sci-CRAN/scatterplot3d
-	sci-CRAN/gWidgets2
-	>=dev-lang/R-2.15.1
-	sci-CRAN/mvtnorm
-	sci-CRAN/deSolve
-	virtual/lattice
-	sci-CRAN/combinat
-	sci-CRAN/multcompView
 	dev-lang/R[tk]
+	sci-CRAN/deSolve
+	sci-CRAN/combinat
+	>=dev-lang/R-2.15.1
+	sci-CRAN/pixmap
+	sci-CRAN/scatterplot3d
+	dev-lang/R[tk]
+	sci-CRAN/plotrix
+	virtual/lattice
+	sci-CRAN/multcompView
+	sci-CRAN/gWidgets2
 "
 RDEPEND="${DEPEND-}
 	dev-tcltk/bwidget

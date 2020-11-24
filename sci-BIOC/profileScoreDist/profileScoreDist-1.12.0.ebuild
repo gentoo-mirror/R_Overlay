@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-CRAN/Rcpp
+DEPEND="sci-BIOC/BiocGenerics
 	>=dev-lang/R-3.3
-	sci-BIOC/BiocGenerics
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

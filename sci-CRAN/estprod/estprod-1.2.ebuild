@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/estprod_1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.0
-	virtual/boot
-	sci-CRAN/minpack_lm
-	sci-CRAN/lazyeval
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/lazyeval
 	sci-CRAN/gmm
+	sci-CRAN/minpack_lm
+	>=dev-lang/R-3.0
+	virtual/boot
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-}"

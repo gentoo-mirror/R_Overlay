@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_semplot? ( sci-CRAN/semPlot )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-3.4.0
 	virtual/Matrix
-	>=dev-lang/R-3.4.0
-	sci-CRAN/ellipse
-	sci-CRAN/OpenMx
+	virtual/MASS
+	sci-CRAN/mvtnorm
 	sci-CRAN/numDeriv
+	sci-CRAN/OpenMx
+	sci-CRAN/ellipse
 	sci-CRAN/lavaan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

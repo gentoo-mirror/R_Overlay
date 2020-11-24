@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_whisker? ( sci-CRAN/whisker )
 "
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/jsonlite
-	sci-CRAN/httr
 	sci-CRAN/magrittr
 	sci-CRAN/plyr
+	sci-CRAN/jsonlite
+	sci-CRAN/httr
 	sci-CRAN/tibble
 	sci-CRAN/tidyr
 "

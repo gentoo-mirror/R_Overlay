@@ -12,11 +12,11 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_imager"
 R_SUGGESTS="r_suggests_imager? ( sci-CRAN/imager )"
-DEPEND=">=sci-CRAN/celestial-1.4.1
-	virtual/MASS
-	sci-CRAN/mapproj
-	sci-CRAN/plotrix
+DEPEND="virtual/MASS
 	sci-CRAN/sm
+	sci-CRAN/mapproj
 	sci-CRAN/RColorBrewer
+	sci-CRAN/plotrix
+	>=sci-CRAN/celestial-1.4.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

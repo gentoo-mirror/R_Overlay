@@ -15,25 +15,25 @@ R_SUGGESTS="
 	r_suggests_laeken? ( sci-CRAN/laeken )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/car
+DEPEND="sci-CRAN/carData
+	sci-CRAN/xtable
+	sci-CRAN/haven
+	sci-CRAN/prettydoc
+	sci-CRAN/DT
+	sci-CRAN/rmarkdown
 	sci-CRAN/data_table
 	sci-CRAN/robustbase
-	sci-CRAN/rmarkdown
+	sci-CRAN/car
 	virtual/MASS
+	sci-CRAN/rhandsontable
 	virtual/cluster
+	>=sci-CRAN/VIM-4.7.0
+	sci-CRAN/shinyBS
+	sci-CRAN/Rcpp
+	sci-CRAN/ggplot2
+	sci-CRAN/knitr
 	sci-CRAN/e1071
 	>=sci-CRAN/shiny-1.4.0
-	sci-CRAN/Rcpp
-	sci-CRAN/rhandsontable
-	sci-CRAN/shinyBS
-	>=sci-CRAN/VIM-4.7.0
-	sci-CRAN/knitr
-	sci-CRAN/xtable
-	sci-CRAN/carData
-	sci-CRAN/DT
-	sci-CRAN/ggplot2
-	sci-CRAN/prettydoc
-	sci-CRAN/haven
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

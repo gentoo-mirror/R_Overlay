@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/ggplot2
-	virtual/MASS
-	sci-CRAN/alabama
 	sci-CRAN/nloptr
-	sci-CRAN/numDeriv
-	>=sci-CRAN/Rcpp-0.12.1
 	sci-CRAN/Rsolnp
-	sci-CRAN/shiny
+	sci-CRAN/numDeriv
+	virtual/MASS
 	sci-CRAN/shinydashboard
+	sci-CRAN/ggplot2
+	sci-CRAN/alabama
+	>=sci-CRAN/Rcpp-0.12.1
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

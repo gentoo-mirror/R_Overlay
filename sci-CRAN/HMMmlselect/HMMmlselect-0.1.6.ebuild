@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/HMMmlselect_0.1.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/HiddenMarkov
-	sci-CRAN/mclust
-	sci-CRAN/MCMCpack
 	>=sci-CRAN/Rcpp-0.12.10
 	sci-CRAN/mvtnorm
+	sci-CRAN/mclust
+	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

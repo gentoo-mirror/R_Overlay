@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_mice? ( sci-CRAN/mice )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/cli-2.0.0
-	virtual/cluster
+DEPEND=">=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/purrr
+	sci-CRAN/permute
+	sci-CRAN/foreach
+	sci-CRAN/ggplot2
+	>=sci-CRAN/rlang-0.3.0
 	sci-CRAN/stringr
 	sci-CRAN/tidyr
 	>=sci-CRAN/tibble-3.0.0
-	>=sci-CRAN/dplyr-1.0.0
+	>=dev-lang/R-3.3.0
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
-	sci-CRAN/ggplot2
-	sci-CRAN/permute
-	sci-CRAN/purrr
-	>=sci-CRAN/rlang-0.3.0
+	>=sci-CRAN/cli-2.0.0
+	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

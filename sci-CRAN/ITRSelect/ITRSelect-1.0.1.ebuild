@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/ITRSelect_1.0-1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/Formula
-	sci-CRAN/svMisc
+	sci-mathematics/glpk
 	sci-CRAN/ncvreg
 	virtual/Matrix
-	sci-mathematics/glpk
+	sci-CRAN/svMisc
 "
 RDEPEND="${DEPEND-}"

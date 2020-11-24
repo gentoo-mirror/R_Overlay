@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/collpcm_1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/vegan
-	sci-CRAN/network
+DEPEND="sci-CRAN/network
+	sci-CRAN/vegan
 	sci-CRAN/latentnet
 "
 RDEPEND="${DEPEND-}"

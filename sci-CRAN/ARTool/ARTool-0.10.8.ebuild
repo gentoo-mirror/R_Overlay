@@ -32,11 +32,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.10.0 )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/lme4
-	sci-CRAN/plyr
+	>=dev-lang/R-3.2
 	sci-CRAN/magrittr
 	>=sci-CRAN/car-2.0.24
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

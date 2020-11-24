@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_spcov? ( sci-CRAN/spcov )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/Matrix
 	sci-CRAN/CholWishart
+	virtual/Matrix
 	virtual/nlme
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

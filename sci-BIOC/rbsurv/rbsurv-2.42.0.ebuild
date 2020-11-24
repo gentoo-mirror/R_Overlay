@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/rbsurv_2.42.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/survival
-	>=sci-BIOC/Biobase-2.5.5
+DEPEND=">=sci-BIOC/Biobase-2.5.5
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

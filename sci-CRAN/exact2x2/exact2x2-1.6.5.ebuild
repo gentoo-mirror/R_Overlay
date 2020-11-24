@@ -18,7 +18,7 @@ R_SUGGESTS="
 	r_suggests_gridextra? ( sci-CRAN/gridExtra )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/exactci
-	sci-CRAN/ssanv
+DEPEND="sci-CRAN/ssanv
+	sci-CRAN/exactci
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

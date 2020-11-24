@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/AdaptiveSparsity_1.6.tar.gz"
 
 DEPEND=">=dev-lang/R-3.0.2
 	virtual/MASS
-	sci-CRAN/Rcpp
 	virtual/Matrix
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.13

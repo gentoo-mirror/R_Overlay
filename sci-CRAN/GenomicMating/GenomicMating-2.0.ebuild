@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/Rcpp
-	sci-CRAN/emoa
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/scatterplot3d
+	sci-CRAN/emoa
 	sci-CRAN/qtl
+	sci-CRAN/plotly
 	sci-CRAN/SOMbrero
 	sci-CRAN/kohonen
-	sci-CRAN/plotly
+	sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/LowRankQP
 "

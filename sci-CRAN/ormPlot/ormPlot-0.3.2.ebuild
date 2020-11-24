@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.13 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/gtable-0.3.0
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/rms-5.1.3
+DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/gtable-0.3.0
 	>=sci-CRAN/ggplot2-3.1.0
+	>=sci-CRAN/rms-5.1.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

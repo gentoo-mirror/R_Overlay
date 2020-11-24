@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/magrittr
-	sci-CRAN/tibble
-	sci-CRAN/tidyr
 	virtual/mgcv
 	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 	sci-CRAN/rlang
+	sci-CRAN/tibble
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

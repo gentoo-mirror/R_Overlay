@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/gstat
 	sci-CRAN/mvtnorm
 	sci-CRAN/purrr
 	sci-CRAN/magrittr
+	sci-CRAN/gstat
 	sci-CRAN/raster
 	sci-CRAN/sp
 	sci-CRAN/whisker

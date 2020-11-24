@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/entrymodels_0.2.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/magrittr
-	sci-CRAN/dplyr
 	sci-CRAN/readr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

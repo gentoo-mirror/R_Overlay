@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.3.0
-	>=sci-CRAN/ggtern-3.3.0
-	sci-CRAN/assertthat
+DEPEND=">=sci-CRAN/ggtern-3.3.0
+	>=sci-CRAN/ggplot2-3.3.0
 	sci-CRAN/shiny
+	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

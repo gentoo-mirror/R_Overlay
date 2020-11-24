@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/OAIHarvester_0.3-0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/curl
-	sci-CRAN/xml2
+DEPEND="sci-CRAN/xml2
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-}"

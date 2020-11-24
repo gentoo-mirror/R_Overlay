@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_timevis? ( sci-CRAN/timevis )
 "
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/jsonlite
 	>=sci-CRAN/shiny-1.0.0
 	sci-CRAN/uuid
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

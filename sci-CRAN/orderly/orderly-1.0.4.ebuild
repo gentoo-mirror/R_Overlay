@@ -24,13 +24,13 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/DBI
 	sci-CRAN/digest
-	sci-CRAN/docopt
+	sci-CRAN/ids
+	sci-CRAN/yaml
 	sci-CRAN/RSQLite
 	sci-CRAN/R6
+	sci-CRAN/docopt
 	>=sci-CRAN/fs-1.2.7
-	sci-CRAN/ids
 	sci-CRAN/withr
-	sci-CRAN/yaml
 	>=sci-CRAN/zip-2.0.0
 "
 RDEPEND="${DEPEND-}

@@ -12,10 +12,10 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_smoothmest"
 R_SUGGESTS="r_suggests_smoothmest? ( sci-CRAN/smoothmest )"
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/MHadaptive
-	sci-CRAN/tmvtnorm
-	sci-CRAN/msm
+DEPEND="sci-CRAN/MHadaptive
 	virtual/mgcv
+	sci-CRAN/mvtnorm
+	sci-CRAN/msm
+	sci-CRAN/tmvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

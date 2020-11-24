@@ -22,8 +22,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-2.14
 	sci-CRAN/igraph
-	virtual/Matrix
 	sci-CRAN/snow
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/PKconverter_1.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/shinydashboard
 	sci-CRAN/shinythemes
+	sci-CRAN/shinydashboard
 "
 RDEPEND="${DEPEND-}"

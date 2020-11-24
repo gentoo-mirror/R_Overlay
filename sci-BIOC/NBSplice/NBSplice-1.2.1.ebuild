@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/car
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/mppa
-	sci-BIOC/BiocParallel
 	sci-BIOC/edgeR
-	>=dev-lang/R-3.5
 	virtual/MASS
+	sci-CRAN/car
+	sci-BIOC/BiocParallel
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
 "

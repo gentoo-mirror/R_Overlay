@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HIMA_1.0.7.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/doParallel
-	sci-CRAN/foreach
-	sci-CRAN/iterators
+DEPEND="sci-CRAN/iterators
+	sci-CRAN/doParallel
 	sci-CRAN/ncvreg
 	>=dev-lang/R-3.3
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

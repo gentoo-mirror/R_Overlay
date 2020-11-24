@@ -25,11 +25,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/digest
-	sci-CRAN/RItools
+DEPEND=">=dev-lang/R-2.15.1
 	sci-CRAN/Rcpp
+	sci-CRAN/RItools
 	virtual/survival
-	>=dev-lang/R-2.15.1
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

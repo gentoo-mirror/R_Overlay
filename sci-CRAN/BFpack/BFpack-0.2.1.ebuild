@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	virtual/MASS
-	sci-CRAN/pracma
-	sci-CRAN/lme4
-	sci-CRAN/bain
-	virtual/Matrix
+DEPEND="virtual/MASS
 	sci-CRAN/mvtnorm
+	virtual/Matrix
+	sci-CRAN/bain
+	sci-CRAN/pracma
+	>=dev-lang/R-3.0.0
+	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

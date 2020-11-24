@@ -11,15 +11,15 @@ SRC_URI="http://cran.r-project.org/src/contrib/sejmRP_1.3.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/factoextra
 	sci-CRAN/stringi
 	virtual/cluster
 	sci-CRAN/tidyr
-	sci-CRAN/XML
+	sci-CRAN/factoextra
+	sci-CRAN/xml2
 	sci-CRAN/dplyr
 	sci-CRAN/DBI
 	sci-CRAN/RPostgreSQL
 	sci-CRAN/rvest
-	sci-CRAN/xml2
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-}"

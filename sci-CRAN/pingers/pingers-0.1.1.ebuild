@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pingers_0.1.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/dplyr
-	sci-CRAN/data_table
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/plotly
-	sci-CRAN/lubridate
-	>=dev-lang/R-3.4.0
 	sci-CRAN/tibble
+	sci-CRAN/lubridate
 	sci-CRAN/tictoc
-	sci-CRAN/tidyselect
 	sci-CRAN/reshape2
+	sci-CRAN/stringr
+	sci-CRAN/dplyr
+	sci-CRAN/tidyselect
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

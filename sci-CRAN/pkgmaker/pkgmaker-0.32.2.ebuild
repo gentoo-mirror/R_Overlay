@@ -24,14 +24,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/registry
+	sci-CRAN/withr
+	sci-CRAN/xtable
 	sci-CRAN/digest
 	virtual/codetools
-	sci-CRAN/withr
-	sci-CRAN/assertthat
-	sci-CRAN/registry
+	>=dev-lang/R-3.0.0
 	sci-CRAN/stringr
-	sci-CRAN/xtable
+	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

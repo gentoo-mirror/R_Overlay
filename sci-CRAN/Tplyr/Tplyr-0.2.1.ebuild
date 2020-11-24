@@ -20,18 +20,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND=">=sci-CRAN/assertthat-0.2.1
-	>=sci-CRAN/purrr-0.3.3
-	>=sci-CRAN/tidyr-1.0.2
-	>=sci-CRAN/tibble-3.0.1
-	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/forcats-0.4.0
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/magrittr-1.5
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/rlang-0.4.6
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/assertthat-0.2.1
+	>=sci-CRAN/purrr-0.3.3
 	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/tidyr-1.0.2
 	>=sci-CRAN/tidyselect-1.1.0
+	>=sci-CRAN/tibble-3.0.1
 	sci-CRAN/lifecycle
+	>=sci-CRAN/forcats-0.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

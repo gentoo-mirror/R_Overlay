@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/magrittr
-	sci-CRAN/shiny
 	sci-CRAN/htmltools
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

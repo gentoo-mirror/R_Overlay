@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/rlist
-	sci-CRAN/DoE_base
-	sci-CRAN/far
 	sci-CRAN/dplyr
+	sci-CRAN/far
+	sci-CRAN/DoE_base
 	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/itemanalysis_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/polycor
 	sci-CRAN/car
+	sci-CRAN/polycor
 "
 RDEPEND="${DEPEND-}"

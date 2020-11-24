@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/R6-2.2.0
+DEPEND=">=sci-CRAN/jdx-0.1.0
 	>=sci-CRAN/curl-3.0.0
+	>=sci-CRAN/R6-2.2.0
 	>=sci-CRAN/rJava-0.9.8
-	>=sci-CRAN/jdx-0.1.0
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

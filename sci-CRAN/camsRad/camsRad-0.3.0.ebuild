@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/httr-1.2.1
 	>=sci-CRAN/xml2-1.0.0
+	>=sci-CRAN/httr-1.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/plgem_1.56.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-BIOC/Biobase-2.5.5
-	virtual/MASS
+DEPEND="virtual/MASS
+	>=sci-BIOC/Biobase-2.5.5
 "
 RDEPEND="${DEPEND-}"

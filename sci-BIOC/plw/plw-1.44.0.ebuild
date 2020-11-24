@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_limma"
 R_SUGGESTS="r_suggests_limma? ( sci-BIOC/limma )"
-DEPEND=">=sci-BIOC/affy-1.23.4
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-BIOC/affy
+	>=sci-BIOC/affy-1.23.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

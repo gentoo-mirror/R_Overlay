@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_mlbench? ( sci-CRAN/mlbench )
 	r_suggests_partykit? ( >=sci-CRAN/partykit-0.8.0 )
 "
-DEPEND=">=sci-CRAN/rJava-0.6.3
-	>=sci-CRAN/RWekajars-3.9.3.1
+DEPEND=">=sci-CRAN/RWekajars-3.9.3.1
+	>=sci-CRAN/rJava-0.6.3
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

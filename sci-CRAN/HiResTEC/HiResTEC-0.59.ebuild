@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HiResTEC_0.59.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-BIOC/Rdisop
+DEPEND="sci-CRAN/InterpretMSSpectrum
+	sci-BIOC/Rdisop
 	sci-CRAN/openxlsx
-	sci-CRAN/beeswarm
-	sci-CRAN/InterpretMSSpectrum
 	sci-CRAN/plyr
+	sci-CRAN/beeswarm
 	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

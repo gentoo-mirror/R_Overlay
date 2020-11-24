@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/rlang
-	sci-CRAN/forcats
 	sci-CRAN/cli
+	sci-CRAN/forcats
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

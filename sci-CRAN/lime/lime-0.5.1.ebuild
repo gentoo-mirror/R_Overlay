@@ -27,16 +27,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_text2vec? ( sci-CRAN/text2vec )
 "
-DEPEND="sci-CRAN/glmnet
+DEPEND="sci-CRAN/Rcpp
+	sci-CRAN/assertthat
 	sci-CRAN/htmlwidgets
+	sci-CRAN/shinythemes
+	sci-CRAN/glmnet
 	sci-CRAN/ggplot2
 	sci-CRAN/stringi
 	virtual/Matrix
-	sci-CRAN/shinythemes
-	sci-CRAN/gower
-	sci-CRAN/Rcpp
-	sci-CRAN/assertthat
 	sci-CRAN/shiny
+	sci-CRAN/gower
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

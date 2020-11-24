@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_r_devices? ( >=sci-CRAN/R_devices-2.16.0 )
 	r_suggests_r_rsp? ( >=sci-CRAN/R_rsp-0.43.1 )
 "
-DEPEND=">=sci-BIOC/aroma_light-2.4.0
-	>=sci-CRAN/future-1.12.0
-	>=sci-CRAN/listenv-0.7.0
-	>=sci-BIOC/DNAcopy-1.42.0
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/R_utils-2.8.0
-	>=sci-CRAN/R_oo-1.22.0
+DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/R_methodsS3-1.7.1
 	>=sci-CRAN/R_cache-0.13.0
+	>=sci-CRAN/R_oo-1.22.0
+	>=sci-CRAN/R_utils-2.8.0
 	virtual/Matrix
+	>=sci-BIOC/aroma_light-2.4.0
+	>=sci-BIOC/DNAcopy-1.42.0
+	>=sci-CRAN/listenv-0.7.0
+	>=sci-CRAN/future-1.12.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

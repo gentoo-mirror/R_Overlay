@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/curl
 	sci-CRAN/jsonlite
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

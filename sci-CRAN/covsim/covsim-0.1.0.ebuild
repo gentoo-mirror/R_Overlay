@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/covsim_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Rcpp
-	>=dev-lang/R-3.1.0
-	>=sci-CRAN/lavaan-0.6.5
-	>=sci-CRAN/rvinecopulib-0.5.1.1.0
-	sci-CRAN/PearsonDS
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/Rcpp
 	sci-CRAN/nleqslv
+	>=sci-CRAN/rvinecopulib-0.5.1.1.0
 	virtual/MASS
+	sci-CRAN/PearsonDS
+	>=sci-CRAN/lavaan-0.6.5
 	sci-CRAN/gsl
 "
 RDEPEND="${DEPEND-}"

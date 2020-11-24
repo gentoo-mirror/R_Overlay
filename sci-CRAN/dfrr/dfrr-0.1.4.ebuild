@@ -12,11 +12,11 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_car"
 R_SUGGESTS="r_suggests_car? ( sci-CRAN/car )"
-DEPEND="virtual/MASS
-	sci-CRAN/plotly
-	>=sci-CRAN/tmvtnorm-1.4.10
-	>=sci-CRAN/fda-5.1.4
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ggplot2
+	>=sci-CRAN/fda-5.1.4
+	>=sci-CRAN/tmvtnorm-1.4.10
+	virtual/MASS
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

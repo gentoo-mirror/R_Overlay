@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rbgl? ( sci-BIOC/RBGL )
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 "
-DEPEND="sci-CRAN/gRbase
-	virtual/MASS
+DEPEND="virtual/MASS
+	sci-CRAN/gRbase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

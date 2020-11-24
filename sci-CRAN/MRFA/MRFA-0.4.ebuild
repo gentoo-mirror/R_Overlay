@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/MRFA_0.4.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND=">=dev-lang/R-2.14.1
-	sci-CRAN/randtoolbox
-	sci-CRAN/grplasso
-	sci-CRAN/plyr
 	sci-CRAN/fields
+	sci-CRAN/plyr
+	sci-CRAN/grplasso
 	sci-CRAN/glmnet
+	sci-CRAN/randtoolbox
 	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

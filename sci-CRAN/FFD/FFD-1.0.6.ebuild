@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/FFD_1.0-6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/tkrplot
-	sci-CRAN/R2HTML
 	dev-lang/R[tk]
+	sci-CRAN/R2HTML
 "
 RDEPEND="${DEPEND-} dev-tcltk/bwidget"

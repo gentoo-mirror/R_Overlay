@@ -10,22 +10,22 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/iClick_1.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="dev-lang/R[tk]
-	sci-CRAN/lmtest
+DEPEND="sci-CRAN/sandwich
+	sci-CRAN/openair
 	sci-CRAN/zoo
 	sci-CRAN/xts
-	sci-CRAN/coefplot
-	sci-CRAN/rugarch
-	sci-CRAN/sandwich
-	sci-CRAN/openair
-	sci-CRAN/papeR
-	sci-CRAN/timeDate
-	sci-CRAN/forecast
-	virtual/lattice
-	sci-CRAN/timeSeries
 	virtual/boot
+	sci-CRAN/coefplot
 	sci-CRAN/lubridate
+	sci-CRAN/rugarch
+	sci-CRAN/lmtest
+	dev-lang/R[tk]
+	sci-CRAN/timeDate
+	virtual/lattice
 	sci-CRAN/car
+	sci-CRAN/forecast
+	sci-CRAN/timeSeries
 	sci-CRAN/fBasics
+	sci-CRAN/papeR
 "
 RDEPEND="${DEPEND-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/networkTomography_0.3.tar.gz"
 LICENSE='LGPL-2'
 
-DEPEND=">=sci-CRAN/limSolve-1.4
+DEPEND=">=sci-CRAN/KFAS-1.0
+	>=sci-CRAN/igraph-0.5
 	sci-mathematics/glpk
 	>=sci-CRAN/coda-0.11.3
-	>=sci-CRAN/igraph-0.5
-	>=sci-CRAN/KFAS-1.0
+	>=sci-CRAN/limSolve-1.4
 	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

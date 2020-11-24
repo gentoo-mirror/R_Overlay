@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mme_0.1-6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

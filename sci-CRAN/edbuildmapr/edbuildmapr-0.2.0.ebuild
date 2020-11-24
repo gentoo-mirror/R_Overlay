@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/edbuildmapr_0.2.0.tar.gz"
 LICENSE='CC0-1.0'
 
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/magrittr
 	sci-CRAN/stringr
-	sci-CRAN/spdep
 	>=sci-CRAN/sf-0.9.1
+	sci-CRAN/spdep
+	sci-CRAN/magrittr
 	>=sci-CRAN/tidyselect-1.0.0
 	>=sci-CRAN/tmap-3.0
 "

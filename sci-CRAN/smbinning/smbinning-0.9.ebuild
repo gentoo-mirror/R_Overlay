@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/sqldf
-	sci-CRAN/gsubfn
 	sci-CRAN/Formula
 	sci-CRAN/partykit
+	sci-CRAN/gsubfn
 "
 RDEPEND="${DEPEND-}"

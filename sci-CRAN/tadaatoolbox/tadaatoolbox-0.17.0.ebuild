@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2
+	sci-CRAN/broom
 	sci-CRAN/ggplot2
 	sci-CRAN/DescTools
 	sci-CRAN/car
-	sci-CRAN/broom
 	sci-CRAN/magrittr
 	sci-CRAN/pixiedust
 	sci-CRAN/viridis

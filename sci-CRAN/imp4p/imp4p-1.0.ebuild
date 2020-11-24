@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/imp4p_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/norm
 	sci-CRAN/Iso
-	sci-CRAN/truncnorm
+	sci-CRAN/norm
 	sci-CRAN/missForest
+	sci-CRAN/truncnorm
 	sci-CRAN/missMDA
 	>=sci-CRAN/Rcpp-0.12.8
 "

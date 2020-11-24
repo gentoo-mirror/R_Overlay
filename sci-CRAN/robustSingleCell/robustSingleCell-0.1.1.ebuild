@@ -18,25 +18,25 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/RANN
-	virtual/Matrix
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/ggplot2
+	sci-CRAN/scales
 	sci-CRAN/gplots
-	sci-BIOC/limma
-	sci-CRAN/dplyr
-	sci-CRAN/reshape2
-	>=dev-lang/R-3.2.0
 	sci-CRAN/Rtsne
+	sci-BIOC/biomaRt
+	sci-CRAN/RColorBrewer
+	sci-CRAN/RANN
+	sci-BIOC/limma
 	sci-CRAN/GGally
 	sci-CRAN/cccd
-	sci-CRAN/scales
-	sci-CRAN/Rcpp
-	sci-BIOC/biomaRt
-	sci-CRAN/ggplot2
-	sci-CRAN/RColorBrewer
-	sci-CRAN/ggpubr
 	sci-CRAN/ggrepel
+	sci-CRAN/dplyr
 	sci-CRAN/rslurm
+	sci-CRAN/Rcpp
+	sci-CRAN/igraph
+	virtual/Matrix
+	sci-CRAN/reshape2
+	sci-CRAN/ggpubr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

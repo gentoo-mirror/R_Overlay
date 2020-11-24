@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TVMM_3.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/tkrplot
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	dev-lang/R[tk]
+	>=dev-lang/R-3.1.0
 	dev-lang/R[tk]
 	sci-CRAN/robustbase
-	dev-lang/R[tk]
-	sci-CRAN/ggplot2
 	virtual/MASS
 	sci-CRAN/DescToolsAddIns
-	sci-CRAN/tkrplot
-	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-}"

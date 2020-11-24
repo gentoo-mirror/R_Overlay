@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/Riemann_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=sci-CRAN/Rcpp-1.0.5
-	sci-CRAN/maotai
-	sci-CRAN/Rdpack
 	sci-CRAN/RiemBase
+	sci-CRAN/Rdpack
+	sci-CRAN/maotai
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

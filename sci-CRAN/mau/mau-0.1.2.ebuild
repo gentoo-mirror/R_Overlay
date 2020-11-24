@@ -17,11 +17,11 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/Rdpack
-	sci-CRAN/ggplot2
+	sci-CRAN/igraph
 	sci-CRAN/data_table
+	sci-CRAN/RColorBrewer
 	sci-CRAN/stringr
 	sci-CRAN/gtools
-	sci-CRAN/igraph
-	sci-CRAN/RColorBrewer
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

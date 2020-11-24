@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ape
+DEPEND="sci-CRAN/phangorn
 	sci-CRAN/tidyr
-	sci-CRAN/phangorn
-	sci-CRAN/ggplot2
 	sci-BIOC/ggtree
+	sci-CRAN/ggplot2
+	sci-CRAN/ape
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

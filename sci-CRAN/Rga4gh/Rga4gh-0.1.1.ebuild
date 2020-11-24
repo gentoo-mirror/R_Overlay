@@ -13,7 +13,7 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_magrittr"
 R_SUGGESTS="r_suggests_magrittr? ( sci-CRAN/magrittr )"
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/jsonlite
 	sci-CRAN/httr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

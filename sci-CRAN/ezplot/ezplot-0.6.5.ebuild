@@ -28,12 +28,12 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_tsibbledata? ( sci-CRAN/tsibbledata )
 "
-DEPEND="sci-CRAN/lubridate
-	sci-CRAN/tsibble
-	>=dev-lang/R-3.3
+DEPEND=">=dev-lang/R-3.3
 	sci-CRAN/dplyr
-	sci-CRAN/forcats
+	sci-CRAN/lubridate
 	sci-CRAN/ggplot2
+	sci-CRAN/forcats
 	sci-CRAN/rlang
+	sci-CRAN/tsibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

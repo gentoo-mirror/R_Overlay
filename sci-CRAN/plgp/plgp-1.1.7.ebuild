@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_ellipse? ( sci-CRAN/ellipse )
 	r_suggests_splancs? ( sci-CRAN/splancs )
 "
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/tgp
+DEPEND="sci-CRAN/tgp
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/AnalyzeFMRI_1.1-21.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/R_matlab
-	sci-CRAN/tkrplot
 	dev-lang/R[tk]
+	sci-CRAN/tkrplot
+	sci-CRAN/R_matlab
 	sci-CRAN/fastICA
 "
 RDEPEND="${DEPEND-}"

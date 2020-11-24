@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/FCSlib_1.3.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/tiff
 	sci-CRAN/stringr
-	sci-CRAN/bitops
 	sci-CRAN/fields
+	sci-CRAN/tiff
+	sci-CRAN/bitops
 "
 RDEPEND="${DEPEND-}"

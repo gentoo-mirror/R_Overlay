@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-BIOC/iPAC
-	sci-CRAN/data_table
 	sci-BIOC/SpacePAC
 	sci-BIOC/GraphPAC
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

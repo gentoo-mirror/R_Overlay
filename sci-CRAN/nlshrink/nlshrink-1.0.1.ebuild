@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nlshrink_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/nloptr-1.0.4
-	virtual/MASS
+DEPEND="virtual/MASS
+	>=sci-CRAN/nloptr-1.0.4
 	>=dev-lang/R-3.2.3
 "
 RDEPEND="${DEPEND-}"

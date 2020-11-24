@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SuperRanker_1.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/prodlim-1.5.7
-	>=sci-CRAN/Rcpp-0.11.5
+DEPEND=">=sci-CRAN/Rcpp-0.11.5
+	>=sci-CRAN/prodlim-1.5.7
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

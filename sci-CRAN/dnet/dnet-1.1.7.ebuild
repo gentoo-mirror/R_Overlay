@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_limma? ( sci-BIOC/limma )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND="sci-BIOC/Rgraphviz
-	virtual/Matrix
-	sci-BIOC/graph
+DEPEND="sci-CRAN/igraph
 	sci-BIOC/supraHex
+	sci-BIOC/graph
 	>=dev-lang/R-3.1.0
-	sci-CRAN/igraph
+	sci-BIOC/Rgraphviz
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

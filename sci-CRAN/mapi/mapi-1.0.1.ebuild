@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_progress? ( sci-CRAN/progress )
 	r_suggests_sp? ( >=sci-CRAN/sp-1.3 )
 "
-DEPEND=">=sci-CRAN/sf-0.5
-	>=sci-CRAN/data_table-1.10
+DEPEND=">=dev-lang/R-3.3
 	>=sci-CRAN/pbapply-1.3
+	>=sci-CRAN/data_table-1.10
+	>=sci-CRAN/sf-0.5
 	>=sci-CRAN/Rcpp-0.10.0
-	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

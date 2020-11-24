@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/RSpectra
-	sci-CRAN/Rtsne
+DEPEND="sci-CRAN/Rtsne
+	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

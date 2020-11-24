@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
-DEPEND="sci-CRAN/crul
-	sci-CRAN/data_table
-	sci-CRAN/jsonlite
-	sci-CRAN/memoise
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/digest
+	sci-CRAN/memoise
+	sci-CRAN/crul
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

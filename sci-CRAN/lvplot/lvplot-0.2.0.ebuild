@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_depth"
 R_SUGGESTS="r_suggests_depth? ( sci-CRAN/depth )"
 DEPEND=">=dev-lang/R-2.14
-	sci-CRAN/RColorBrewer
 	>=sci-CRAN/ggplot2-2.0.0
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

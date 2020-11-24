@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6
-	virtual/Matrix
-	sci-CRAN/RcppAnnoy
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/RSpectra
 	sci-CRAN/pracma
+	virtual/Matrix
+	>=dev-lang/R-3.6
+	sci-CRAN/RcppAnnoy
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

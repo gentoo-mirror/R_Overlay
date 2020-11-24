@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/BRAIN_1.30
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/PolynomF
-	sci-BIOC/Biostrings
 	virtual/lattice
+	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-}"

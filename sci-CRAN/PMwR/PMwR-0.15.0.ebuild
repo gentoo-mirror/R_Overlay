@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rbenchmark? ( sci-CRAN/rbenchmark )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND="sci-CRAN/textutils
+DEPEND="sci-CRAN/fastmatch
 	sci-CRAN/NMOF
-	>=dev-lang/R-3.20
 	sci-CRAN/orgutils
-	sci-CRAN/fastmatch
 	sci-CRAN/datetimeutils
+	>=dev-lang/R-3.20
+	sci-CRAN/textutils
 	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

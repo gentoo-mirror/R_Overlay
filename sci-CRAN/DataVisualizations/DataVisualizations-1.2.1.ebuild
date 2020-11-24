@@ -43,8 +43,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5
 	>=sci-CRAN/Rcpp-0.12.12
-	sci-CRAN/sp
 	sci-CRAN/ggplot2
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

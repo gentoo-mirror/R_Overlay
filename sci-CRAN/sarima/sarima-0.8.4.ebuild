@@ -17,17 +17,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/FitAR
+	sci-CRAN/KFAS
+	sci-CRAN/FKF
+	sci-CRAN/dplyr
+	>=sci-CRAN/Rcpp-0.12.14
 	>=sci-CRAN/PolynomF-1.0.0
 	sci-CRAN/Formula
 	sci-CRAN/ltsa
 	sci-CRAN/FitARMA
 	>=sci-CRAN/lagged-0.2.1
-	>=sci-CRAN/Rcpp-0.12.14
-	sci-CRAN/numDeriv
 	sci-CRAN/Rdpack
-	sci-CRAN/dplyr
-	sci-CRAN/KFAS
-	sci-CRAN/FKF
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

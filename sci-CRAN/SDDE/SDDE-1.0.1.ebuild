@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/SDDE_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/iterators
 	sci-CRAN/doParallel
 	sci-CRAN/foreach
 	>=sci-CRAN/igraph-1.0.0
+	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-}"

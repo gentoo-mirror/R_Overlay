@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_igraph? ( sci-CRAN/igraph )
 	r_suggests_sp? ( >=sci-CRAN/sp-0.9.93 )
 "
-DEPEND="sci-CRAN/geosphere
-	sci-CRAN/RCurl
+DEPEND="sci-CRAN/RCurl
 	sci-CRAN/XML
+	sci-CRAN/geosphere
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

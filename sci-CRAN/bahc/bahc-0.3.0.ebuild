@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/bahc_0.3.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/cluster
 	virtual/Matrix
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

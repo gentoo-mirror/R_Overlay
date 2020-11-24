@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_class"
 R_SUGGESTS="r_suggests_class? ( virtual/class )"
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/rlang
+DEPEND="virtual/nnet
 	sci-CRAN/randomForest
-	virtual/nnet
+	sci-CRAN/rlang
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

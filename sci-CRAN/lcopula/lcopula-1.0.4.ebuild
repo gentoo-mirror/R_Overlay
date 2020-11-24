@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lcopula_1.0.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-2.12.0
-	sci-CRAN/pcaPP
+DEPEND="sci-CRAN/pcaPP
 	>=sci-CRAN/Rcpp-0.11.4
 	>=sci-CRAN/copula-0.999.12
+	>=dev-lang/R-2.12.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

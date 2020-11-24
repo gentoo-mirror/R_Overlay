@@ -22,20 +22,20 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tsibbledata? ( >=sci-CRAN/tsibbledata-0.1.0 )
 "
-DEPEND=">=sci-CRAN/tibble-2.1.1
-	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/ggplot2-3.1.1
-	>=sci-CRAN/tidyr-0.8.3
-	>=sci-CRAN/rlang-0.3.4
-	sci-CRAN/lvplot
-	sci-CRAN/ggridges
-	sci-CRAN/shiny
+DEPEND=">=sci-CRAN/dplyr-0.8.0
 	sci-CRAN/RColorBrewer
+	>=sci-CRAN/rlang-0.3.4
+	sci-CRAN/ggridges
+	>=sci-CRAN/tidyr-0.8.3
 	sci-CRAN/ineq
 	>=dev-lang/R-3.5.0
-	>=sci-CRAN/tsibble-0.8.0
+	>=sci-CRAN/tibble-2.1.1
 	>=sci-CRAN/lubridate-1.7.4
-	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/tsibble-0.8.0
+	>=sci-CRAN/ggplot2-3.1.1
+	>=sci-CRAN/stringr-1.4.0
+	sci-CRAN/lvplot
+	sci-CRAN/shiny
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

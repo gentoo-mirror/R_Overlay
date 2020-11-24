@@ -50,12 +50,12 @@ R_SUGGESTS="
 	r_suggests_urca? ( sci-CRAN/urca )
 	r_suggests_vars? ( sci-CRAN/vars )
 "
-DEPEND="virtual/survival
-	>=sci-CRAN/Formula-0.2.0
-	>=sci-CRAN/car-2.0.19
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/lmtest
-	>=dev-lang/R-3.0.0
+	>=sci-CRAN/car-2.0.19
+	virtual/survival
 	>=sci-CRAN/sandwich-2.4.0
 	sci-CRAN/zoo
+	>=sci-CRAN/Formula-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

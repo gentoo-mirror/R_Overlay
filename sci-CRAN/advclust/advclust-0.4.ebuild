@@ -13,10 +13,10 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_rmarkdown"
 R_SUGGESTS="r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )"
 DEPEND=">=dev-lang/R-3.2.5
-	sci-CRAN/ggplot2
-	sci-CRAN/knitr
 	virtual/MASS
+	sci-CRAN/knitr
 	sci-CRAN/clue
+	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

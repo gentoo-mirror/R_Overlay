@@ -12,15 +12,15 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND=">=dev-lang/R-3.5.0
-	sci-BIOC/GeneticsPed
+DEPEND="sci-CRAN/quantreg
+	sci-CRAN/MCMCglmm
+	sci-CRAN/sparsesvd
+	sci-CRAN/rsvd
+	>=dev-lang/R-3.5.0
 	sci-CRAN/SparseM
-	sci-CRAN/quantreg
+	sci-BIOC/GeneticsPed
 	virtual/Matrix
 	sci-CRAN/kinship2
-	sci-CRAN/MCMCglmm
-	sci-CRAN/rsvd
 	sci-CRAN/R_matlab
-	sci-CRAN/sparsesvd
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

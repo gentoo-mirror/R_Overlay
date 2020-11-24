@@ -17,12 +17,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/ape-3.0.0
-	>=sci-CRAN/kmer-1.1.0
-	>=sci-CRAN/aphid-1.3.1
 	sci-CRAN/openssl
-	>=sci-CRAN/phylogram-2.0.0
+	>=sci-CRAN/kmer-1.1.0
 	sci-CRAN/RANN
+	>=sci-CRAN/phylogram-2.0.0
 	sci-CRAN/seqinr
 	sci-CRAN/xml2
+	>=sci-CRAN/aphid-1.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

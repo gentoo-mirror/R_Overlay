@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.3
 	>=sci-CRAN/base64enc-0.1.3
+	>=sci-CRAN/jsonlite-0.9.19
 	>=sci-CRAN/htmlwidgets-0.5
 	>=sci-CRAN/stringr-1.0.0
-	>=sci-CRAN/jsonlite-0.9.19
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

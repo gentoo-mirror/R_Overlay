@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_rvg? ( sci-CRAN/rvg )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/htmltools
-	sci-CRAN/scales
-	>=sci-CRAN/shiny-1.1.0
-	sci-CRAN/jsonlite
-	>=sci-CRAN/shinyWidgets-0.4.5
-	sci-CRAN/stringi
-	>=sci-CRAN/rlang-0.3.1
-	sci-CRAN/miniUI
+DEPEND="sci-CRAN/miniUI
 	sci-CRAN/rstudioapi
+	sci-CRAN/stringi
+	>=sci-CRAN/shiny-1.1.0
+	sci-CRAN/scales
+	>=sci-CRAN/rlang-0.3.1
+	sci-CRAN/jsonlite
+	sci-CRAN/htmltools
+	>=sci-CRAN/shinyWidgets-0.4.5
 	>=sci-CRAN/ggplot2-3.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

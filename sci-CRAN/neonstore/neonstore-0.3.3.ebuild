@@ -22,18 +22,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND="sci-CRAN/rappdirs
-	sci-CRAN/duckdb
-	sci-CRAN/httr
-	sci-CRAN/curl
-	sci-CRAN/zip
-	sci-CRAN/tibble
-	sci-CRAN/DBI
-	sci-CRAN/vroom
+DEPEND="sci-CRAN/duckdb
 	sci-CRAN/R_utils
+	sci-CRAN/curl
+	sci-CRAN/tibble
+	sci-CRAN/zip
+	sci-CRAN/progress
+	sci-CRAN/DBI
+	sci-CRAN/httr
+	sci-CRAN/vroom
+	sci-CRAN/rappdirs
 	sci-CRAN/jsonlite
 	sci-CRAN/openssl
 	sci-CRAN/digest
-	sci-CRAN/progress
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

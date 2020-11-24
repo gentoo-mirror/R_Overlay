@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/pedigree_1.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/Matrix
-	sci-CRAN/reshape
 	>=sci-CRAN/HaploSim-1.8.4
+	sci-CRAN/reshape
 "
 RDEPEND="${DEPEND-}"

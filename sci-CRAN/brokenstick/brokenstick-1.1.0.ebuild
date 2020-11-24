@@ -30,10 +30,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/rlang
-	virtual/Matrix
 	sci-CRAN/dplyr
+	sci-CRAN/rlang
 	sci-CRAN/lme4
 	sci-CRAN/tidyr
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

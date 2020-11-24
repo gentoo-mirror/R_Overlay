@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/mar1s_2.1.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/cmrutils
-	sci-CRAN/fda
 	sci-CRAN/zoo
+	sci-CRAN/fda
 "
 RDEPEND="${DEPEND-}"

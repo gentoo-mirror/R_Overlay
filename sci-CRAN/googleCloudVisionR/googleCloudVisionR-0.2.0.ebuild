@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/googleAuthR
+	sci-CRAN/jsonlite
+	sci-CRAN/data_table
 	sci-CRAN/purrr
 	sci-CRAN/glue
-	sci-CRAN/data_table
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

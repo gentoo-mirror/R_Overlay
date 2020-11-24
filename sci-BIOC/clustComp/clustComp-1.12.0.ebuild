@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/sm
-	>=dev-lang/R-3.3
+DEPEND=">=dev-lang/R-3.3
+	sci-CRAN/sm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

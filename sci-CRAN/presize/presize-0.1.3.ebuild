@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/shinydashboard
 	sci-CRAN/shiny
 	>=sci-CRAN/kappaSize-1.2
+	sci-CRAN/shinydashboard
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

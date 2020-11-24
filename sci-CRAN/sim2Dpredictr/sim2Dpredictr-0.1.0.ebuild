@@ -20,12 +20,12 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ggplot2
 	virtual/MASS
 	sci-CRAN/car
-	virtual/Matrix
 	sci-CRAN/Rdpack
 	>=sci-CRAN/spam-2.2.0
 	sci-CRAN/tidyverse
 	sci-CRAN/tibble
 	sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

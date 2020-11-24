@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_poibin? ( sci-CRAN/poibin )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/pedprobr-0.3
-	sci-CRAN/maxLik
-	sci-CRAN/glue
+DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/pedtools-0.9.3
-	>=dev-lang/R-3.1.0
+	>=sci-CRAN/pedprobr-0.3
 	sci-CRAN/pedmut
 	sci-CRAN/ribd
+	sci-CRAN/maxLik
+	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

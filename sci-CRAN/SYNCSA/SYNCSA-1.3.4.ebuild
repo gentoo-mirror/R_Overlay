@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SYNCSA_1.3.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/permute
+DEPEND="sci-CRAN/FD
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/permute
 	sci-CRAN/vegan
-	sci-CRAN/FD
 "
 RDEPEND="${DEPEND-}"

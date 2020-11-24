@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/optimalThreshold_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.2
+	sci-CRAN/ars
 	sci-CRAN/HDInterval
 	virtual/mgcv
 	sci-CRAN/rjags
-	sci-CRAN/ars
 	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} sci-mathematics/jags"

@@ -12,10 +12,10 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/randomForest
-	sci-CRAN/permute
-	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
 	>=sci-CRAN/dplyr-0.4.1
+	sci-CRAN/ggplot2
+	sci-CRAN/permute
+	sci-CRAN/reshape2
 	>=sci-BIOC/multtest-2.25.0
 "
 RDEPEND="${DEPEND-}"

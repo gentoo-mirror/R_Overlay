@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.9.4
-	>=sci-CRAN/foreach-1.4.3
-	>=sci-CRAN/coda-0.19.1
+DEPEND=">=sci-CRAN/doParallel-1.0.10
 	sci-CRAN/gtools
+	>=sci-CRAN/coda-0.19.1
+	>=sci-CRAN/Rcpp-0.9.4
+	>=sci-CRAN/foreach-1.4.3
 	>=sci-CRAN/RcppProgress-0.1
-	>=sci-CRAN/doParallel-1.0.10
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppProgress
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppProgress
 	${R_SUGGESTS-}
 "

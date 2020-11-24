@@ -24,9 +24,9 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/png
-	virtual/lattice
 	sci-CRAN/jpeg
+	virtual/lattice
 	sci-CRAN/RColorBrewer
+	sci-CRAN/png
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

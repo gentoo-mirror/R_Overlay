@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_magrittr? ( sci-CRAN/magrittr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/stringi
-	>=sci-CRAN/stringr-1.0.0
+DEPEND=">=sci-CRAN/stringr-1.0.0
 	sci-CRAN/ggplot2
-	sci-CRAN/partitions
+	sci-CRAN/plyr
 	sci-CRAN/polynom
+	sci-CRAN/partitions
 	sci-CRAN/orthopolynom
 	sci-CRAN/tidyr
+	sci-CRAN/stringi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

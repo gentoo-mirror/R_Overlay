@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/bayescount_0.9.99-5.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/rjags
 	>=sci-CRAN/runjags-2.0.1
 	sci-CRAN/coda
+	sci-CRAN/rjags
 "
 RDEPEND="${DEPEND-} sci-mathematics/jags"

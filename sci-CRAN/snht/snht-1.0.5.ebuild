@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
+DEPEND="virtual/mgcv
+	sci-CRAN/ggplot2
 	sci-CRAN/zoo
+	sci-CRAN/gridExtra
 	sci-CRAN/plyr
-	virtual/mgcv
 	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

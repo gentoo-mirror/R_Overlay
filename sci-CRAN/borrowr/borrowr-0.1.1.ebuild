@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/mvtnorm-1.0.8
 	>=sci-CRAN/Rcpp-1.0.0
 	>=sci-CRAN/BART-2.1
+	>=sci-CRAN/mvtnorm-1.0.8
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

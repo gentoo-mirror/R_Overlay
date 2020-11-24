@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.0.1
 	sci-CRAN/foreach
-	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
+	sci-CRAN/reshape2
 	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

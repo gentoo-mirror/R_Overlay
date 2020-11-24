@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.13
+	sci-CRAN/lowmemtkmeans
 	sci-CRAN/mclust
 	sci-CRAN/MixSim
-	sci-CRAN/lowmemtkmeans
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

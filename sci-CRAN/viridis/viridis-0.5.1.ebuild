@@ -29,9 +29,9 @@ R_SUGGESTS="
 	r_suggests_svglite? ( >=sci-CRAN/svglite-1.2.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gridExtra
+DEPEND=">=sci-CRAN/viridisLite-0.3.0
 	>=sci-CRAN/ggplot2-1.0.1
-	>=sci-CRAN/viridisLite-0.3.0
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

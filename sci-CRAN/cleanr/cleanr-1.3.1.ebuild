@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/rprojroot
-	sci-CRAN/pkgload
 	sci-CRAN/checkmate
+	sci-CRAN/pkgload
+	sci-CRAN/rprojroot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

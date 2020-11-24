@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ZIPFA_0.8.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/optimx
-	sci-CRAN/trustOptim
-	sci-CRAN/foreach
+DEPEND=">=dev-lang/R-3.2.0
 	virtual/Matrix
-	>=dev-lang/R-3.2.0
+	sci-CRAN/optimx
+	sci-CRAN/trustOptim
 	sci-CRAN/doParallel
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 	r_suggests_psych? ( sci-CRAN/psych )
 "
-DEPEND="sci-CRAN/dplyr
+DEPEND="sci-CRAN/igraph
 	sci-CRAN/ggplot2
-	sci-CRAN/igraph
+	sci-CRAN/dplyr
 	sci-CRAN/qgraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

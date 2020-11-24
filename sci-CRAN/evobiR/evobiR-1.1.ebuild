@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/evobiR_1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/geiger
+DEPEND="sci-CRAN/seqinr
 	sci-CRAN/shiny
 	sci-CRAN/phytools
+	sci-CRAN/geiger
 	sci-CRAN/ape
-	sci-CRAN/seqinr
 "
 RDEPEND="${DEPEND-}"

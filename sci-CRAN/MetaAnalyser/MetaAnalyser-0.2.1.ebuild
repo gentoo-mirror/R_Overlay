@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_rmeta"
 R_SUGGESTS="r_suggests_rmeta? ( sci-CRAN/rmeta )"
-DEPEND="sci-CRAN/rstudioapi
+DEPEND=">=sci-CRAN/DT-0.1.40
+	sci-CRAN/rstudioapi
 	sci-CRAN/shiny
-	>=sci-CRAN/DT-0.1.40
 	sci-CRAN/ggvis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

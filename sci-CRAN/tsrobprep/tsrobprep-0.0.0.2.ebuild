@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/tsrobprep_0.0.0.2.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/Matrix
 	sci-CRAN/quantreg
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

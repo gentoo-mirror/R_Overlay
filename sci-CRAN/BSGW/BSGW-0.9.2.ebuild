@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BSGW_0.9.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/foreach
+DEPEND="sci-CRAN/MfUSampler
 	sci-CRAN/doParallel
-	sci-CRAN/MfUSampler
+	sci-CRAN/foreach
 	virtual/survival
 "
 RDEPEND="${DEPEND-}"

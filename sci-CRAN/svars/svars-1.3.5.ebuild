@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tsdyn? ( sci-CRAN/tsDyn )
 "
-DEPEND=">=sci-CRAN/vars-1.5.3
-	sci-CRAN/zoo
-	sci-CRAN/DEoptim
-	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
-	sci-CRAN/expm
-	sci-CRAN/copula
-	sci-CRAN/clue
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/pbapply
-	sci-CRAN/steadyICA
+	sci-CRAN/clue
+	sci-CRAN/ggplot2
+	sci-CRAN/expm
+	sci-CRAN/zoo
 	sci-CRAN/strucchange
+	>=sci-CRAN/vars-1.5.3
+	sci-CRAN/copula
+	sci-CRAN/steadyICA
+	sci-CRAN/DEoptim
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

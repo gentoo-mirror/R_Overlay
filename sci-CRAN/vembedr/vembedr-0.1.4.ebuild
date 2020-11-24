@@ -22,14 +22,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/rlang
-	sci-CRAN/htmltools
+DEPEND="sci-CRAN/htmltools
+	sci-CRAN/assertthat
+	sci-CRAN/glue
+	sci-CRAN/magrittr
+	sci-CRAN/httr
 	>=dev-lang/R-3.3.0
 	sci-CRAN/stringr
-	sci-CRAN/magrittr
-	sci-CRAN/glue
-	sci-CRAN/assertthat
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

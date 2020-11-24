@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ForestDisc_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/randomForest
-	sci-CRAN/moments
 	sci-CRAN/nloptr
+	sci-CRAN/moments
 "
 RDEPEND="${DEPEND-}"

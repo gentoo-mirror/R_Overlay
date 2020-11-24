@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_spelling? ( >=sci-CRAN/spelling-2.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
-DEPEND=">=dev-lang/R-3.2
+DEPEND=">=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/fgeo_tool-1.2.4
-	>=sci-CRAN/ggplot2-3.1.1
 	>=sci-CRAN/dplyr-0.8.0.1
+	>=dev-lang/R-3.2
 	>=sci-CRAN/ggrepel-0.8.1
+	>=sci-CRAN/ggplot2-3.1.1
 	>=sci-CRAN/glue-1.3.1
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/purrr-0.3.2
 	>=sci-CRAN/rlang-0.3.4
-	>=sci-CRAN/stringr-1.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

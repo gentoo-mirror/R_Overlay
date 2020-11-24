@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_spacetime? ( sci-CRAN/spacetime )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/xts
+DEPEND="sci-CRAN/lmom
+	sci-CRAN/foreach
+	virtual/lattice
+	sci-CRAN/data_table
 	sci-CRAN/hydroGOF
+	sci-CRAN/EmiStatR
+	sci-CRAN/ggplot2
+	sci-CRAN/mAr
+	sci-CRAN/doParallel
 	sci-CRAN/msm
 	sci-CRAN/moments
 	sci-CRAN/zoo
-	sci-CRAN/data_table
-	sci-CRAN/EmiStatR
-	sci-CRAN/mAr
-	sci-CRAN/foreach
-	virtual/lattice
-	sci-CRAN/lmom
-	sci-CRAN/doParallel
+	sci-CRAN/xts
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

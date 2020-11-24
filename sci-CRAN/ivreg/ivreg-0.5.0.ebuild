@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_sandwich? ( sci-CRAN/sandwich )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/lmtest
+DEPEND="sci-CRAN/lmtest
 	>=sci-CRAN/car-3.0.9
+	>=dev-lang/R-3.6.0
 	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

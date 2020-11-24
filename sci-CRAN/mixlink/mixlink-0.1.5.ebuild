@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/mixlink_0.1.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/numDeriv
 	sci-CRAN/Rcpp
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

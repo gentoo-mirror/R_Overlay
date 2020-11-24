@@ -27,10 +27,10 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/tibble
+	sci-CRAN/magrittr
 	sci-CRAN/mvtnorm
 	sci-CRAN/lavaan
-	sci-CRAN/magrittr
-	sci-CRAN/tibble
 	sci-CRAN/rlang
 	sci-CRAN/purrr
 "

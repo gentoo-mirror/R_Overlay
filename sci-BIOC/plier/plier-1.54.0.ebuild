@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/plier_1.54.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/affy
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
+	sci-BIOC/affy
 "
 RDEPEND="${DEPEND-}"

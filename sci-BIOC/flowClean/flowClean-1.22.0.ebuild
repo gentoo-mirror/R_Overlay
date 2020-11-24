@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_gridextra? ( sci-CRAN/gridExtra )
 "
 DEPEND=">=dev-lang/R-2.15.0
-	sci-BIOC/flowCore
 	sci-CRAN/sfsmisc
-	sci-CRAN/bit
 	sci-CRAN/changepoint
+	sci-BIOC/flowCore
+	sci-CRAN/bit
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

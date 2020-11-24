@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND="sci-CRAN/plotly
-	sci-CRAN/uniReg
 	sci-CRAN/quantreg
+	sci-CRAN/uniReg
 	>=dev-lang/R-3.5.0
 	sci-CRAN/geosphere
 	virtual/KernSmooth

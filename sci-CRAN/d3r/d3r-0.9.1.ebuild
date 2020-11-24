@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/dplyr
-	>=sci-CRAN/tidyr-0.8.3
 	sci-CRAN/htmltools
 	sci-CRAN/rlang
+	>=sci-CRAN/tidyr-0.8.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

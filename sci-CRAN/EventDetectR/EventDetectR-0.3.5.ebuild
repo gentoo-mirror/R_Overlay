@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_e1071? ( sci-CRAN/e1071 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gridExtra
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/ggplot2
 	sci-CRAN/forecast
 	sci-CRAN/imputeTS
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.1.0
+	sci-CRAN/gridExtra
 	sci-CRAN/neuralnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

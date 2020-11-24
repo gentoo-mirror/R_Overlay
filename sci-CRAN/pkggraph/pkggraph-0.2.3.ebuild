@@ -20,20 +20,20 @@ R_SUGGESTS="
 	r_suggests_sna? ( >=sci-CRAN/sna-2.4 )
 	r_suggests_statnet_common? ( >=sci-CRAN/statnet_common-3.3.0 )
 "
-DEPEND=">=sci-CRAN/ggnetwork-0.5.1
+DEPEND=">=sci-CRAN/ggplot2-2.2.1
 	>=sci-CRAN/htmltools-0.3.5
-	>=sci-CRAN/igraph-1.0.1
 	>=sci-CRAN/data_table-1.10.4
-	>=sci-CRAN/dplyr-0.5.0
-	>=sci-CRAN/network-1.13.0
-	>=dev-lang/R-3.5.0
 	>=sci-CRAN/curl-2.5
-	>=sci-CRAN/ggplot2-2.2.1
+	>=sci-CRAN/dplyr-0.5.0
+	>=sci-CRAN/igraph-1.0.1
+	>=sci-CRAN/networkD3-0.4
+	>=sci-CRAN/network-1.13.0
+	>=sci-CRAN/plyr-1.8.4
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/ggnetwork-0.5.1
 	>=sci-CRAN/intergraph-2.0.2
 	virtual/Matrix
-	>=sci-CRAN/networkD3-0.4
 	>=sci-CRAN/RColorBrewer-1.1.2
 	>=sci-CRAN/tibble-1.3.0
-	>=sci-CRAN/plyr-1.8.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

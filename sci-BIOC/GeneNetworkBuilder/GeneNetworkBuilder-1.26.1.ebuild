@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_stringdb? ( sci-BIOC/STRINGdb )
 "
 DEPEND=">=dev-lang/R-2.15.1
+	>=sci-CRAN/Rcpp-0.9.13
 	sci-CRAN/htmlwidgets
 	sci-BIOC/graph
 	sci-CRAN/plyr
-	>=sci-CRAN/Rcpp-0.9.13
 	sci-BIOC/Rgraphviz
 	sci-CRAN/rjson
 	sci-CRAN/XML

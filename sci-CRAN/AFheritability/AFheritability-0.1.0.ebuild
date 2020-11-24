@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/AFheritability_0.1.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/reshape2
-	sci-CRAN/mvtnorm
-	sci-CRAN/ggplot2
 	sci-CRAN/shiny
+	sci-CRAN/ggplot2
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

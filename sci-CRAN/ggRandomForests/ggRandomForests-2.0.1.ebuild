@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_rmdformats? ( sci-CRAN/rmdformats )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/randomForest
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/tidyr
 	>=sci-CRAN/randomForestSRC-1.5.5
 	virtual/survival
-	sci-CRAN/tidyr
+	>=dev-lang/R-3.1.0
+	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

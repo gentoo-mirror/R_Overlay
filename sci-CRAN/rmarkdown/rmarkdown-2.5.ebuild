@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_vctrs? ( sci-CRAN/vctrs )
 "
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/htmltools-0.3.5
+	>=sci-CRAN/knitr-1.22
 	>=sci-CRAN/evaluate-0.13
 	>=sci-CRAN/yaml-2.1.19
-	>=sci-CRAN/knitr-1.22
+	>=sci-CRAN/htmltools-0.3.5
 	sci-CRAN/jsonlite
 	>=sci-CRAN/tinytex-0.11
 	>=sci-CRAN/xfun-0.15

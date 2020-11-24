@@ -13,7 +13,7 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )"
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/knitr-1.6
 	>=sci-CRAN/rmarkdown-0.5.1
+	>=sci-CRAN/knitr-1.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

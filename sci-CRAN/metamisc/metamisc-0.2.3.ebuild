@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_runjags? ( sci-CRAN/runjags )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 "
-DEPEND="sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/lme4
-	sci-CRAN/ggplot2
+	sci-CRAN/mvtnorm
 	>=sci-CRAN/metafor-2.0.0
-	>=dev-lang/R-3.5.0
 	sci-CRAN/plyr
 	sci-CRAN/pROC
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/foreach
-	sci-CRAN/openxlsx
-	>=sci-CRAN/data_table-1.10.0
-	sci-CRAN/stringi
+DEPEND="sci-CRAN/stringi
 	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
+	>=sci-CRAN/data_table-1.10.0
+	>=dev-lang/R-3.5.0
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
+	sci-CRAN/openxlsx
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

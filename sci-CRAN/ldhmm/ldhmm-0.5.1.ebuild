@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_shape? ( sci-CRAN/shape )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/zoo
-	sci-CRAN/moments
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ecd
-	>=dev-lang/R-3.5.0
-	sci-CRAN/optimx
+	sci-CRAN/zoo
 	>=sci-CRAN/xts-0.10.0
-	sci-CRAN/scales
+	sci-CRAN/optimx
+	sci-CRAN/moments
 	sci-CRAN/ggplot2
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

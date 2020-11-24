@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/digest
-	>=dev-lang/R-2.14.1
-	sci-CRAN/base64enc
+DEPEND=">=dev-lang/R-2.14.1
+	sci-CRAN/digest
 	sci-CRAN/rlang
+	sci-CRAN/base64enc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

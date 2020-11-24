@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/geeM
+DEPEND="virtual/Matrix
+	sci-CRAN/kinship2
+	sci-CRAN/glmnet
 	virtual/MASS
+	>=dev-lang/R-3.5
 	sci-CRAN/Rcpp
 	sci-CRAN/geepack
+	sci-CRAN/geeM
 	sci-CRAN/ggplot2
 	sci-CRAN/ggformula
-	sci-CRAN/glmnet
-	sci-CRAN/kinship2
 	sci-CRAN/mvtnorm
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

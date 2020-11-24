@@ -15,23 +15,23 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/coda
-	sci-CRAN/knitr
-	sci-CRAN/abind
+DEPEND="virtual/Matrix
 	sci-CRAN/bayesm
-	sci-CRAN/GIGrvg
-	virtual/MASS
-	sci-CRAN/stochvol
-	sci-CRAN/xts
-	sci-CRAN/zoo
 	>=sci-CRAN/Rcpp-1.0.3
-	virtual/Matrix
+	sci-CRAN/xts
+	sci-CRAN/stochvol
+	sci-CRAN/abind
+	sci-CRAN/GIGrvg
+	sci-CRAN/coda
+	sci-CRAN/knitr
+	virtual/MASS
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}
+	sci-CRAN/GIGrvg
 	sci-CRAN/Rcpp
+	sci-CRAN/RcppProgress
 	sci-CRAN/stochvol
 	sci-CRAN/RcppArmadillo
-	sci-CRAN/GIGrvg
-	sci-CRAN/RcppProgress
 	${R_SUGGESTS-}
 "

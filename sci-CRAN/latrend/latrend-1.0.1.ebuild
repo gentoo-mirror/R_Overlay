@@ -35,23 +35,23 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.1.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/stackoverflow-0.3.0
-	>=sci-CRAN/plyr-1.8.4
-	virtual/cluster
-	>=sci-CRAN/caret-6.0
-	>=sci-CRAN/mclust-5.4.5
-	>=sci-CRAN/R_utils-2.9.0
-	>=sci-CRAN/longitudinalData-2.4.1
-	>=sci-CRAN/foreach-1.4.7
-	>=sci-CRAN/ggplot2-2.2.1
-	virtual/Matrix
+DEPEND=">=sci-CRAN/stackoverflow-0.3.0
 	>=sci-CRAN/lme4-1.1
-	>=sci-CRAN/scales-1.0.0
+	>=dev-lang/R-3.6.0
+	virtual/cluster
 	>=sci-CRAN/assertthat-0.2.1
-	>=sci-CRAN/data_table-1.12.0
+	>=sci-CRAN/R_utils-2.9.0
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/mclust-5.4.5
+	>=sci-CRAN/ggplot2-2.2.1
+	>=sci-CRAN/data_table-1.12.0
+	virtual/Matrix
+	>=sci-CRAN/scales-1.0.0
+	>=sci-CRAN/foreach-1.4.7
+	>=sci-CRAN/longitudinalData-2.4.1
+	>=sci-CRAN/plyr-1.8.4
 	>=sci-CRAN/mclustcomp-0.3.1
+	>=sci-CRAN/caret-6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

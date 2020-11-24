@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-2.15.0
-	>=sci-CRAN/rbibutils-1.3
+DEPEND=">=sci-CRAN/rbibutils-1.3
 	sci-CRAN/gbRd
+	>=dev-lang/R-2.15.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_sfsmisc? ( sci-CRAN/sfsmisc )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/stabledist
-	virtual/nlme
 	sci-CRAN/nnls
 	sci-CRAN/mvtnorm
+	sci-CRAN/stabledist
+	virtual/nlme
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

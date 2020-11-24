@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.15
-	>=sci-CRAN/ggplot2-2.2.1
-	>=sci-CRAN/glmnet-3.0.0
+DEPEND=">=sci-CRAN/glmnet-3.0.0
 	sci-mathematics/glpk
+	>=sci-CRAN/Rcpp-0.12.15
+	>=sci-CRAN/ggplot2-2.2.1
 	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-}

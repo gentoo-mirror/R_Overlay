@@ -31,16 +31,16 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_tidytree? ( sci-CRAN/tidytree )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/subplex
 	sci-CRAN/testit
 	virtual/Matrix
-	>=sci-CRAN/DDD-4.4
-	sci-CRAN/deSolve
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
-	sci-CRAN/magrittr
-	sci-CRAN/subplex
+	>=dev-lang/R-3.5.0
+	sci-CRAN/deSolve
+	>=sci-CRAN/DDD-4.4
 	sci-CRAN/tensor
 	sci-CRAN/pracma
+	sci-CRAN/foreach
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

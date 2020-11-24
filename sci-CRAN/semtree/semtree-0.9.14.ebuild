@@ -16,21 +16,21 @@ R_SUGGESTS="
 	r_suggests_lavaan? ( sci-CRAN/lavaan )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/rpart
-	sci-CRAN/stringr
+DEPEND="virtual/MASS
 	virtual/Matrix
-	virtual/Matrix
-	sci-CRAN/mvtnorm
-	sci-CRAN/plotrix
-	sci-CRAN/ggplot2
-	sci-CRAN/bitops
-	virtual/cluster
-	sci-CRAN/digest
-	sci-CRAN/tidyr
 	virtual/rpart
-	virtual/MASS
-	>=sci-CRAN/OpenMx-2.6.9
+	sci-CRAN/stringr
+	virtual/rpart
+	virtual/Matrix
 	sci-CRAN/sets
+	sci-CRAN/ggplot2
+	>=sci-CRAN/OpenMx-2.6.9
+	sci-CRAN/plotrix
+	sci-CRAN/mvtnorm
+	sci-CRAN/tidyr
+	sci-CRAN/bitops
+	sci-CRAN/digest
+	virtual/cluster
 	sci-CRAN/expm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,13 +12,13 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/shinydashboard
-	sci-CRAN/plotly
-	sci-CRAN/shiny
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/BSDA
+	sci-CRAN/plotly
+	sci-CRAN/shinydashboard
+	sci-CRAN/ggplot2
 	sci-CRAN/outliers
 	>=dev-lang/R-3.3.1
-	sci-CRAN/data_table
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/famSKATRC_1.1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.4.1
-	sci-CRAN/CompQuadForm
-	sci-CRAN/coxme
-	virtual/Matrix
+DEPEND="virtual/Matrix
 	sci-CRAN/kinship2
+	sci-CRAN/CompQuadForm
+	>=dev-lang/R-3.4.1
+	sci-CRAN/coxme
 "
 RDEPEND="${DEPEND-}"

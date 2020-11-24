@@ -13,10 +13,10 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_xlsx"
 R_SUGGESTS="r_suggests_xlsx? ( sci-CRAN/xlsx )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/readr
 	sci-CRAN/stringr
-	sci-CRAN/tibble
+	sci-CRAN/readr
 	sci-CRAN/xml2
+	sci-CRAN/tibble
 	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

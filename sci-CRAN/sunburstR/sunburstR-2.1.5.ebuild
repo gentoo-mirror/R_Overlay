@@ -24,7 +24,7 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/d3r-0.6.9
 	sci-CRAN/dplyr
-	sci-CRAN/htmlwidgets
 	sci-CRAN/htmltools
+	sci-CRAN/htmlwidgets
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

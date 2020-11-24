@@ -28,13 +28,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_truncnorm? ( sci-CRAN/truncnorm )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/Rcpp-0.12.16
-	sci-CRAN/data_table
-	virtual/MASS
-	sci-CRAN/R6
+DEPEND="sci-CRAN/data_table
 	virtual/survival
 	sci-CRAN/flexsurv
+	>=sci-CRAN/Rcpp-0.12.16
+	>=dev-lang/R-3.5.0
+	virtual/MASS
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

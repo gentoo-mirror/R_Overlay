@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/phytools
-	sci-CRAN/subplex
-	sci-CRAN/ape
-	sci-CRAN/corpcor
 	sci-CRAN/spam
 	sci-CRAN/glassoFast
 	sci-CRAN/pbmcapply
+	sci-CRAN/ape
+	sci-CRAN/subplex
+	sci-CRAN/corpcor
+	sci-CRAN/phytools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -22,20 +22,20 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.3.0
+DEPEND=">=sci-CRAN/future-1.15.1
 	sci-CRAN/rlang
-	>=sci-CRAN/furrr-0.1.0
-	>=sci-CRAN/future-1.15.1
 	>=dev-lang/R-3.6.0
-	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/magrittr
 	>=sci-CRAN/lubridate-1.7.4
+	>=sci-CRAN/ggplot2-3.3.0
+	>=sci-CRAN/furrr-0.1.0
+	>=sci-CRAN/dplyr-0.8.3
 	>=sci-CRAN/MCMCpack-1.4.5
 	>=sci-CRAN/progress-1.2.2
 	>=sci-CRAN/purrr-0.3.3
 	sci-CRAN/Rcpp
 	>=sci-CRAN/tictoc-1.0
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

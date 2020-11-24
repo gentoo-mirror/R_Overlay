@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/data360r_1.0.8.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/data_table
+DEPEND="sci-CRAN/reshape2
+	sci-CRAN/data_table
 	sci-CRAN/jsonlite
-	sci-CRAN/reshape2
 	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-}"

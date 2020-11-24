@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hzar_0.2-5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/MCMCpack
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/MCMCpack
 	sci-CRAN/coda
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

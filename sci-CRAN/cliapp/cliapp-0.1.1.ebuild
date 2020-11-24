@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/progress-1.2.0
-	sci-CRAN/withr
-	sci-CRAN/cli
-	>=sci-CRAN/glue-1.3.0
-	sci-CRAN/prettycode
-	sci-CRAN/fansi
+DEPEND="sci-CRAN/fansi
 	sci-CRAN/crayon
+	>=sci-CRAN/progress-1.2.0
+	sci-CRAN/prettycode
+	>=sci-CRAN/glue-1.3.0
 	sci-CRAN/R6
-	sci-CRAN/selectr
+	sci-CRAN/withr
 	sci-CRAN/xml2
+	sci-CRAN/cli
+	sci-CRAN/selectr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

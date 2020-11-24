@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/maxadjAUC_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/survival
-	sci-CRAN/aucm
-	sci-CRAN/Rsolnp
 	sci-CRAN/Hmisc
+	sci-CRAN/Rsolnp
+	sci-CRAN/aucm
 "
 RDEPEND="${DEPEND-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PdPDB_2.0.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/dendextend
+DEPEND="sci-CRAN/plyr
+	sci-CRAN/dendextend
 	sci-CRAN/tseries
-	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

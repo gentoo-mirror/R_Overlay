@@ -9,11 +9,11 @@ DESCRIPTION='Virtual Inference of Protein-act... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/viper_1.18.1.tar.gz"
 
-DEPEND=">=dev-lang/R-2.14.0
+DEPEND="sci-BIOC/Biobase
 	virtual/KernSmooth
-	sci-BIOC/Biobase
-	sci-CRAN/e1071
 	sci-CRAN/mixtools
+	sci-CRAN/e1071
+	>=dev-lang/R-2.14.0
 "
 RDEPEND="${DEPEND-}"
 

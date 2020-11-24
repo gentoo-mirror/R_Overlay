@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EnsCat_1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/dendextend
-	>=dev-lang/R-3.3.2
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/seqinr
+	sci-CRAN/dendextend
 	sci-CRAN/ggdendro
-	sci-CRAN/ggplot2
+	>=dev-lang/R-3.3.2
 "
 RDEPEND="${DEPEND-}"

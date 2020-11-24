@@ -21,7 +21,7 @@ DEPEND=">=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	dev-libs/quantlib
 	dev-libs/boost
+	dev-libs/quantlib
 	${R_SUGGESTS-}
 "

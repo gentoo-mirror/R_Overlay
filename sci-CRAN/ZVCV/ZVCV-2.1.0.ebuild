@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_ggthemes? ( sci-CRAN/ggthemes )
 	r_suggests_partitions? ( sci-CRAN/partitions )
 "
-DEPEND="sci-CRAN/glmnet
+DEPEND=">=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/abind
+	sci-CRAN/Rlinsolve
 	sci-CRAN/magrittr
 	sci-CRAN/mvtnorm
-	sci-CRAN/abind
-	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/Rlinsolve
+	sci-CRAN/glmnet
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}

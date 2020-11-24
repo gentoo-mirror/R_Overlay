@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rfPermute_2.1.81.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
+DEPEND="sci-CRAN/abind
 	sci-CRAN/magrittr
-	sci-CRAN/scales
-	sci-CRAN/tidyr
-	sci-CRAN/abind
-	sci-CRAN/dplyr
 	sci-CRAN/randomForest
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 	sci-CRAN/rlang
-	>=sci-CRAN/swfscMisc-1.3
+	sci-CRAN/scales
 	sci-CRAN/tibble
+	>=dev-lang/R-3.2.0
+	sci-CRAN/dplyr
+	>=sci-CRAN/swfscMisc-1.3
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

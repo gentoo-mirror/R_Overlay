@@ -31,18 +31,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/foreach
-	>=sci-CRAN/bigparallelr-0.2.3
-	>=sci-CRAN/ggplot2-3.0
 	sci-CRAN/cowplot
-	sci-CRAN/Rcpp
-	sci-CRAN/tibble
+	>=sci-CRAN/bigparallelr-0.2.3
 	>=sci-CRAN/bigassertr-0.1.1
+	sci-CRAN/foreach
+	>=sci-CRAN/ggplot2-3.0
+	sci-CRAN/Rcpp
 	sci-CRAN/RSpectra
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	>=sci-CRAN/rmio-0.1.3
 	sci-CRAN/RcppArmadillo
+	>=sci-CRAN/rmio-0.1.3
 	${R_SUGGESTS-}
 "

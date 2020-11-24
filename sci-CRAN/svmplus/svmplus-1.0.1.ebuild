@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/svmplus_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/MASS
-	virtual/Matrix
+DEPEND=">=dev-lang/R-2.15.0
+	virtual/MASS
 	sci-CRAN/quadprog
-	>=dev-lang/R-2.15.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

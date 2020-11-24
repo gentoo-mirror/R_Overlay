@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/miRecSurv_0.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/survival
-	sci-CRAN/COMPoissonReg
+DEPEND=">=dev-lang/R-3.5.0
+	virtual/survival
 	virtual/Matrix
-	>=dev-lang/R-3.5.0
+	sci-CRAN/COMPoissonReg
 	sci-CRAN/stringi
 "
 RDEPEND="${DEPEND-}"

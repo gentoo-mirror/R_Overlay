@@ -21,11 +21,11 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/isa2
 	sci-BIOC/AnnotationDbi
-	sci-CRAN/DBI
-	sci-BIOC/BiocGenerics
-	>=sci-BIOC/Biobase-2.17.8
-	sci-BIOC/Category
 	sci-BIOC/genefilter
+	sci-BIOC/Category
+	>=sci-BIOC/Biobase-2.17.8
+	sci-BIOC/BiocGenerics
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

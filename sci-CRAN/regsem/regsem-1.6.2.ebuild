@@ -38,8 +38,8 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 "
 DEPEND="sci-CRAN/lavaan
-	sci-CRAN/Rsolnp
 	sci-CRAN/Rcpp
+	sci-CRAN/Rsolnp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -13,7 +13,7 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_epade"
 R_SUGGESTS="r_suggests_epade? ( sci-CRAN/epade )"
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/Rcpp-0.12.0
 	sci-CRAN/Iso
+	>=sci-CRAN/Rcpp-0.12.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

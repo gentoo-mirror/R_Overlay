@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/lpSolve
+DEPEND=">=dev-lang/R-4.0.0
 	sci-CRAN/cowplot
 	sci-CRAN/GGally
-	>=dev-lang/R-4.0.0
-	>=sci-CRAN/ergm-3.10.1
-	>=sci-CRAN/network-1.15
-	virtual/Matrix
 	sci-CRAN/ggplot2
+	sci-CRAN/stringr
 	sci-CRAN/reshape2
 	sci-CRAN/plyr
+	sci-CRAN/lpSolve
 	>=sci-CRAN/sna-2.4
+	>=sci-CRAN/network-1.15
+	>=sci-CRAN/ergm-3.10.1
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

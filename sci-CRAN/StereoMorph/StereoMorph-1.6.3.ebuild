@@ -12,16 +12,16 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
-DEPEND=">=dev-lang/R-2.11.0
-	>=sci-CRAN/bezier-1.1
+DEPEND=">=sci-CRAN/bezier-1.1
 	>=sci-CRAN/Rcpp-0.9.9
-	sci-CRAN/tiff
 	>=sci-CRAN/shiny-0.13.0
 	sci-CRAN/rjson
 	sci-CRAN/jpeg
+	sci-CRAN/tiff
+	virtual/MASS
 	sci-CRAN/png
 	>=sci-CRAN/svgViewR-1.0.1
-	virtual/MASS
+	>=dev-lang/R-2.11.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spTDyn_2.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.4.1
-	sci-CRAN/sp
-	sci-CRAN/coda
+DEPEND="sci-CRAN/coda
 	sci-CRAN/spTimer
 	sci-CRAN/spacetime
+	sci-CRAN/sp
+	>=dev-lang/R-3.4.1
 "
 RDEPEND="${DEPEND-}"

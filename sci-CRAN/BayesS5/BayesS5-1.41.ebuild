@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BayesS5_1.41.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/snowfall
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/splines2
-	virtual/Matrix
 	sci-CRAN/abind
-	>=dev-lang/R-3.4.0
+	sci-CRAN/snowfall
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

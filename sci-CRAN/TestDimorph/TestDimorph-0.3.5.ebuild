@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_anthropmmd? ( sci-CRAN/AnthropMMD )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/corrplot
-	sci-CRAN/caret
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	sci-CRAN/cutpointr
-	sci-CRAN/multcompView
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/truncnorm
 	sci-CRAN/tibble
+	sci-CRAN/caret
+	sci-CRAN/multcompView
+	sci-CRAN/cutpointr
+	sci-CRAN/corrplot
+	sci-CRAN/ggplot2
 	sci-CRAN/Rfast
 	sci-CRAN/tidyr
 	sci-CRAN/tmvtnorm
-	sci-CRAN/truncnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

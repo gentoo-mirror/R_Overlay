@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/MNS_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/igraph
-	virtual/MASS
-	>=dev-lang/R-2.10.1
 	sci-CRAN/mvtnorm
-	sci-CRAN/glmnet
+	>=dev-lang/R-2.10.1
 	sci-CRAN/doParallel
+	sci-CRAN/glmnet
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

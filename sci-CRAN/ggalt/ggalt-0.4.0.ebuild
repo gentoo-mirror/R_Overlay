@@ -20,19 +20,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/proj4
-	sci-CRAN/extrafont
-	sci-CRAN/tibble
-	sci-CRAN/scales
-	>=sci-CRAN/plotly-3.4.1
-	sci-CRAN/maps
-	virtual/MASS
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/ggplot2-2.2.1
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/dplyr
+	sci-CRAN/proj4
+	>=sci-CRAN/ggplot2-2.2.1
+	sci-CRAN/scales
+	sci-CRAN/gtable
+	sci-CRAN/tibble
+	>=sci-CRAN/plotly-3.4.1
 	sci-CRAN/RColorBrewer
 	virtual/KernSmooth
-	sci-CRAN/gtable
 	sci-CRAN/ash
+	sci-CRAN/maps
+	virtual/MASS
+	sci-CRAN/extrafont
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

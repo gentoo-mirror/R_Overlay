@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_shinydisconnect? ( sci-CRAN/shinydisconnect )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/htmltools
 	>=sci-CRAN/htmlwidgets-0.7
+	sci-CRAN/htmltools
 	sci-CRAN/ggplot2
 	sci-CRAN/jsonlite
 	>=sci-CRAN/miniUI-0.1.1

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RLRsim_3.1-6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-2.14.0
+DEPEND="virtual/mgcv
 	>=sci-CRAN/lme4-1.1
-	virtual/nlme
 	>=sci-CRAN/Rcpp-0.11.1
-	virtual/mgcv
+	virtual/nlme
+	>=dev-lang/R-2.14.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

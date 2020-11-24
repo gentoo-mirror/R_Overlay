@@ -18,7 +18,7 @@ R_SUGGESTS="
 	r_suggests_teachingsampling? ( sci-CRAN/TeachingSampling )
 "
 DEPEND=">=dev-lang/R-3.5
-	virtual/Matrix
 	virtual/MASS
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

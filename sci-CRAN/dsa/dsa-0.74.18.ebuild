@@ -10,20 +10,20 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dsa_0.74.18.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/R2HTML
 	sci-CRAN/forecast
-	sci-CRAN/rJava
-	sci-CRAN/dygraphs
-	sci-CRAN/extrafont
-	sci-CRAN/gridExtra
-	sci-CRAN/reshape2
 	sci-CRAN/zoo
-	sci-CRAN/xts
-	sci-CRAN/R2HTML
-	sci-CRAN/xtable
-	sci-CRAN/tsoutliers
 	sci-CRAN/htmlwidgets
+	sci-CRAN/tsoutliers
+	sci-CRAN/rJava
 	sci-CRAN/timeDate
+	sci-CRAN/dygraphs
+	sci-CRAN/reshape2
+	sci-CRAN/gridExtra
+	>=dev-lang/R-3.1.0
+	sci-CRAN/ggplot2
+	sci-CRAN/xts
+	sci-CRAN/xtable
+	sci-CRAN/extrafont
 "
 RDEPEND="${DEPEND-}"

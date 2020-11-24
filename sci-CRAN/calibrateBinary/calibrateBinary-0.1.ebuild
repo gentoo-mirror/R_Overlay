@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/calibrateBinary_0.1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND=">=dev-lang/R-2.14.1
-	sci-CRAN/gelnet
+DEPEND="sci-CRAN/gelnet
+	sci-CRAN/kernlab
 	sci-CRAN/randtoolbox
 	sci-CRAN/GPfit
-	sci-CRAN/kernlab
+	>=dev-lang/R-2.14.1
 "
 RDEPEND="${DEPEND-}"

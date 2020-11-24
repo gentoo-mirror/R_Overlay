@@ -29,19 +29,19 @@ R_SUGGESTS="
 	r_suggests_rspectra? ( sci-CRAN/RSpectra )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/crayon
-	sci-CRAN/nloptr
-	sci-CRAN/pbapply
-	sci-CRAN/minqa
-	sci-CRAN/gmp
-	sci-CRAN/ROI
-	virtual/boot
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
 	virtual/Matrix
+	virtual/MASS
 	sci-CRAN/proxy
 	>=sci-CRAN/Rcpp-0.12.10
 	virtual/nlme
+	sci-CRAN/nloptr
+	sci-CRAN/minqa
+	sci-CRAN/pbapply
+	sci-CRAN/crayon
+	sci-CRAN/gmp
+	sci-CRAN/ROI
+	virtual/boot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

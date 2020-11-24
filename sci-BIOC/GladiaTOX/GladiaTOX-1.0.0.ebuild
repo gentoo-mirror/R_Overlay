@@ -19,21 +19,21 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/brew
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/XML
+	sci-CRAN/tidyr
+	>=sci-CRAN/data_table-1.9.4
+	sci-CRAN/RColorBrewer
 	sci-CRAN/ggplot2
 	sci-CRAN/RSQLite
-	sci-CRAN/tidyr
-	sci-CRAN/RColorBrewer
 	sci-CRAN/RCurl
+	sci-CRAN/xtable
 	sci-CRAN/DBI
 	sci-CRAN/RJSONIO
 	sci-CRAN/ggrepel
-	sci-CRAN/RMySQL
-	sci-CRAN/xtable
-	>=sci-CRAN/data_table-1.9.4
+	sci-CRAN/brew
+	>=dev-lang/R-3.6.0
 	sci-CRAN/numDeriv
-	sci-CRAN/stringr
-	sci-CRAN/XML
+	sci-CRAN/RMySQL
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

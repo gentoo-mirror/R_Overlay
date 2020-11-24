@@ -17,17 +17,17 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/lme4
-	sci-CRAN/knitr
 	>=sci-CRAN/ggplot2-3.3.0
 	sci-CRAN/emmeans
+	sci-CRAN/gridExtra
+	sci-CRAN/ggrepel
+	sci-CRAN/knitr
+	sci-CRAN/lme4
 	sci-CRAN/mapproj
 	sci-CRAN/maps
+	sci-CRAN/qtl
 	>=sci-CRAN/SpATS-1.0.10
 	sci-CRAN/xtable
-	sci-CRAN/ggrepel
-	sci-CRAN/gridExtra
-	sci-CRAN/qtl
 	>=sci-CRAN/scales-1.1.0
 "
 RDEPEND="${DEPEND-}

@@ -15,20 +15,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/robustbase
-	sci-CRAN/tidyr
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/magrittr
+	sci-CRAN/bayesQR
+	sci-CRAN/knitr
+	sci-CRAN/ALDqr
 	sci-CRAN/dplyr
-	sci-CRAN/gridExtra
-	>=dev-lang/R-3.3.0
 	sci-CRAN/ald
 	sci-CRAN/quantreg
-	sci-CRAN/magrittr
 	sci-CRAN/purrr
-	sci-CRAN/ALDqr
-	sci-CRAN/bayesQR
 	sci-CRAN/MCMCpack
 	sci-CRAN/ggplot2
-	sci-CRAN/knitr
+	sci-CRAN/gridExtra
 	sci-CRAN/GIGrvg
+	sci-CRAN/tidyr
+	sci-CRAN/robustbase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

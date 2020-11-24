@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/BioPET_0.2.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/VGAM
-	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	sci-CRAN/VGAM
 	sci-CRAN/pROC
 "
 RDEPEND="${DEPEND-}"

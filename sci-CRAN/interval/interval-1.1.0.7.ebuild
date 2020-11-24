@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_coin"
 R_SUGGESTS="r_suggests_coin? ( sci-CRAN/coin )"
 DEPEND="sci-BIOC/Icens
-	>=sci-CRAN/perm-1.0
 	sci-CRAN/MLEcens
+	>=sci-CRAN/perm-1.0
 	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

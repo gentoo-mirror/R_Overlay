@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/EnsembleBase_1.0.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/kknn
-	sci-CRAN/gbm
-	sci-CRAN/randomForest
-	virtual/nnet
 	sci-CRAN/e1071
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/randomForest
+	sci-CRAN/doParallel
 	sci-CRAN/glmnet
+	virtual/nnet
+	sci-CRAN/gbm
 "
 RDEPEND="${DEPEND-}"

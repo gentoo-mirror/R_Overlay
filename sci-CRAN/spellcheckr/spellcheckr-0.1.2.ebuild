@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spellcheckr_0.1.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/dplyr
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/stringr
-	sci-CRAN/data_table
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

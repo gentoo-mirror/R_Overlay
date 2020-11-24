@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/dfcrm
-	sci-CRAN/Rcpp
-	sci-CRAN/MCMCpack
+DEPEND="sci-CRAN/MCMCpack
+	sci-CRAN/dfcrm
 	virtual/Matrix
+	sci-CRAN/Rcpp
 	sci-CRAN/LaplacesDemon
 	virtual/MASS
 "

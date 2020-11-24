@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/KRMM_1.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/robustbase
-	virtual/MASS
-	sci-CRAN/cvTools
+DEPEND="virtual/MASS
+	sci-CRAN/robustbase
 	sci-CRAN/kernlab
+	sci-CRAN/cvTools
 	>=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}"

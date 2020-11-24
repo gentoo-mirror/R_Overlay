@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_taxize? ( sci-CRAN/taxize )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/maps
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/sp
+	sci-CRAN/ggplot2
 	sci-CRAN/leaflet
+	sci-CRAN/maps
+	>=sci-CRAN/spocc-0.6.0
 	sci-CRAN/RColorBrewer
-	sci-CRAN/sp
+	sci-CRAN/jsonlite
 	sci-CRAN/gistr
 	sci-CRAN/data_table
-	sci-CRAN/ggplot2
-	>=sci-CRAN/spocc-0.6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

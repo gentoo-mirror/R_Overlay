@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/tsqn_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.3
-	virtual/MASS
 	sci-CRAN/robustbase
+	virtual/MASS
 	sci-CRAN/fracdiff
 "
 RDEPEND="${DEPEND-}"

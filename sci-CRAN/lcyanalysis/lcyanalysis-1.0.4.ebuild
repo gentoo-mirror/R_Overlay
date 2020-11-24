@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lcyanalysis_1.0.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/TTR
-	sci-CRAN/quantmod
-	sci-CRAN/xts
+DEPEND="sci-CRAN/xts
 	sci-CRAN/zoo
+	sci-CRAN/quantmod
+	sci-CRAN/TTR
+	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-}"

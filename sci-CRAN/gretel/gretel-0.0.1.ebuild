@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/Rcpp-1.0.0
 	>=sci-CRAN/ResistorArray-1.0.32
+	>=sci-CRAN/Rcpp-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

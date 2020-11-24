@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/basefun_1.0-7.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-CRAN/variables-0.0.30
+DEPEND="sci-CRAN/polynom
+	virtual/Matrix
+	>=sci-CRAN/variables-0.0.30
 	>=dev-lang/R-3.2.0
 	sci-CRAN/orthopolynom
-	virtual/Matrix
-	sci-CRAN/polynom
 "
 RDEPEND="${DEPEND-}"

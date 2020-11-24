@@ -23,16 +23,16 @@ R_SUGGESTS="
 	r_suggests_spam? ( sci-CRAN/spam )
 	r_suggests_tmap? ( sci-CRAN/tmap )
 "
-DEPEND="sci-CRAN/expm
-	virtual/boot
-	sci-CRAN/gmodels
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/spdep
-	>=dev-lang/R-3.3.0
-	virtual/Matrix
-	sci-CRAN/spData
 	sci-CRAN/coda
+	virtual/Matrix
 	virtual/MASS
 	sci-CRAN/LearnBayes
 	virtual/nlme
+	sci-CRAN/spData
+	sci-CRAN/expm
+	virtual/boot
+	sci-CRAN/gmodels
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_vroom? ( sci-CRAN/vroom )
 "
 DEPEND="sci-CRAN/httr
-	sci-CRAN/fs
 	>=sci-CRAN/openssl-1.4.2
 	sci-CRAN/curl
+	sci-CRAN/fs
 	sci-CRAN/rappdirs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/LS2Wstat_2.1-2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/LS2W-1.3.1
-	virtual/Matrix
 	sci-CRAN/RandomFields
 	sci-CRAN/spdep
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

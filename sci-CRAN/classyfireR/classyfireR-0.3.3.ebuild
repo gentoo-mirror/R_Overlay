@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/clisymbols
-	sci-CRAN/cli
-	sci-CRAN/purrr
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/httr
 	sci-CRAN/crayon
 	sci-CRAN/tibble
 	sci-CRAN/jsonlite
-	sci-CRAN/httr
+	sci-CRAN/clisymbols
+	sci-CRAN/cli
+	sci-CRAN/purrr
 	sci-CRAN/dplyr
 	sci-CRAN/stringr
 "

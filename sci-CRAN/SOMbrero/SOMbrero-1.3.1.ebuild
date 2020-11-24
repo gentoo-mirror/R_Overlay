@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_shinyjs? ( sci-CRAN/shinyjs )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/igraph-1.0
-	sci-CRAN/metR
-	sci-CRAN/shiny
+DEPEND="sci-CRAN/shiny
+	>=sci-CRAN/igraph-1.0
+	sci-CRAN/ggplot2
 	sci-CRAN/markdown
+	sci-CRAN/ggwordcloud
+	sci-CRAN/metR
 	>=dev-lang/R-3.5.0
 	sci-CRAN/scatterplot3d
-	sci-CRAN/ggplot2
-	sci-CRAN/ggwordcloud
 	sci-CRAN/interp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

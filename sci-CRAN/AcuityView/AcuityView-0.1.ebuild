@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/AcuityView_0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/imager-0.40.1
 	>=sci-CRAN/plotrix-3.2.3
+	>=sci-CRAN/imager-0.40.1
 	>=sci-CRAN/fftwtools-0.9.7
 "
 RDEPEND="${DEPEND-}"

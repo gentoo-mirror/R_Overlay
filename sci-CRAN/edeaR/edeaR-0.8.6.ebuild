@@ -16,24 +16,24 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/zoo
-	sci-CRAN/miniUI
-	sci-CRAN/purrr
-	sci-CRAN/data_table
-	>=sci-CRAN/bupaR-0.4.1
-	sci-CRAN/ggthemes
-	sci-CRAN/tibble
-	sci-CRAN/stringr
-	sci-CRAN/lubridate
-	sci-CRAN/hms
-	sci-CRAN/rlang
-	>=dev-lang/R-3.0.0
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/dplyr
 	sci-CRAN/glue
 	sci-CRAN/shiny
+	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
-	sci-CRAN/shinyTime
+	sci-CRAN/lubridate
 	sci-CRAN/forcats
+	sci-CRAN/stringr
+	sci-CRAN/rlang
+	sci-CRAN/zoo
+	sci-CRAN/hms
+	sci-CRAN/data_table
+	sci-CRAN/ggthemes
+	sci-CRAN/shinyTime
+	>=sci-CRAN/bupaR-0.4.1
+	sci-CRAN/tibble
+	sci-CRAN/purrr
+	sci-CRAN/miniUI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

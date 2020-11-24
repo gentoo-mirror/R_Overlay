@@ -24,9 +24,9 @@ DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
-	dev-util/cmake
-	dev-libs/gmp
 	sci-CRAN/Rcpp
+	dev-libs/gmp
 	dev-libs/mpfr
+	dev-util/cmake
 	${R_SUGGESTS-}
 "

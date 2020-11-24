@@ -12,14 +12,14 @@ LICENSE='Apache-2.0'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/R_utils
-	sci-CRAN/pryr
-	sci-CRAN/doParallel
-	sci-CRAN/foreach
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/arules-1.5.4
-	>=dev-lang/R-3.3.0
-	sci-CRAN/XML
-	virtual/Matrix
+	sci-CRAN/R_utils
 	sci-CRAN/pmml
+	virtual/Matrix
+	sci-CRAN/XML
+	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	sci-CRAN/pryr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

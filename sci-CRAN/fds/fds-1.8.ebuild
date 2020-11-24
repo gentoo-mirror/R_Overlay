@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/fds_1.8.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/RCurl
 	sci-CRAN/rainbow
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

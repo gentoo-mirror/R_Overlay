@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_r2bayesx? ( sci-CRAN/R2BayesX )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND=">=sci-CRAN/mboost-2.8.0
-	>=sci-CRAN/stabs-0.5.0
+DEPEND=">=sci-CRAN/stabs-0.5.0
+	>=sci-CRAN/mboost-2.8.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

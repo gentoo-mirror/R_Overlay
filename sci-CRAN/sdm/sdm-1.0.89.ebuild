@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_shinybs? ( sci-CRAN/shinyBS )
 "
-DEPEND=">=sci-CRAN/sp-1.2.0
+DEPEND="sci-CRAN/raster
+	>=sci-CRAN/sp-1.2.0
 	>=dev-lang/R-3.0.0
-	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

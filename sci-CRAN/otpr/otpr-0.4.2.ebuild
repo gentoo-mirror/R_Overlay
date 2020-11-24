@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/checkmate
-	sci-CRAN/httr
+DEPEND="sci-CRAN/geojsonsf
 	sci-CRAN/jsonlite
+	sci-CRAN/httr
 	sci-CRAN/janitor
-	sci-CRAN/geojsonsf
+	sci-CRAN/checkmate
 	sci-CRAN/sf
 	sci-CRAN/urltools
 "

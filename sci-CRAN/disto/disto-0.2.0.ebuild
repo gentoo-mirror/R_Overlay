@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.4 )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	>=sci-CRAN/dplyr-0.7.4
+	>=sci-CRAN/pbapply-1.3.4
 	>=sci-CRAN/proxy-0.4.19
 	>=sci-CRAN/fastmatch-1.1.0
 	>=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/dplyr-0.7.4
 	>=sci-CRAN/tidyr-0.8.0
 	>=sci-CRAN/factoextra-1.0.5
-	>=sci-CRAN/pbapply-1.3.4
 	>=sci-CRAN/ggplot2-2.2.1
 	>=sci-CRAN/broom-0.4.4
 	virtual/cluster

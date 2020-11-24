@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/bioimagetools-1.1.4
-	sci-BIOC/EBImage
-	>=dev-lang/R-3.0.0
+DEPEND="sci-BIOC/EBImage
 	sci-CRAN/fields
+	>=dev-lang/R-3.0.0
 	sci-CRAN/stringr
+	>=sci-CRAN/bioimagetools-1.1.4
 "
 RDEPEND="${DEPEND-}
 	net-misc/curl

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vows_0.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/RLRsim
+DEPEND="sci-CRAN/fda
 	sci-CRAN/oro_nifti
-	sci-CRAN/stringr
-	sci-CRAN/shape
-	sci-CRAN/gamm4
+	sci-CRAN/RLRsim
 	virtual/mgcv
-	sci-CRAN/fda
+	sci-CRAN/gamm4
+	sci-CRAN/shape
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

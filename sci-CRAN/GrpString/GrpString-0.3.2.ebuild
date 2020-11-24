@@ -12,9 +12,9 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/Rcpp
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/plyr
 	virtual/cluster
+	>=dev-lang/R-3.0.1
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

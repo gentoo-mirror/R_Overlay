@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/GSE_4.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/rrcov
-	sci-CRAN/robustbase
-	sci-CRAN/ggplot2
-	sci-CRAN/cellWise
+	virtual/MASS
 	>=dev-lang/R-3.1.0
 	>=sci-CRAN/Rcpp-0.10.0
-	virtual/MASS
+	sci-CRAN/robustbase
+	sci-CRAN/cellWise
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

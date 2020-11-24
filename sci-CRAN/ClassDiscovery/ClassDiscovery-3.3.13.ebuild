@@ -12,11 +12,11 @@ LICENSE='Apache-2.0'
 
 IUSE="${IUSE-} r_suggests_xtable"
 R_SUGGESTS="r_suggests_xtable? ( sci-CRAN/xtable )"
-DEPEND=">=sci-CRAN/oompaBase-3.0.1
+DEPEND=">=dev-lang/R-3.0
+	virtual/cluster
+	>=sci-CRAN/oompaBase-3.0.1
+	sci-CRAN/oompaData
 	sci-CRAN/mclust
 	sci-BIOC/Biobase
-	sci-CRAN/oompaData
-	>=dev-lang/R-3.0
-	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

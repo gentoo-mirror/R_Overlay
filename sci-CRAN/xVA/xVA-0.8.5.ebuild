@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/xVA_0.8.5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/SACCR
-	sci-CRAN/Trading
+DEPEND="sci-CRAN/Trading
+	sci-CRAN/SACCR
 "
 RDEPEND="${DEPEND-}"

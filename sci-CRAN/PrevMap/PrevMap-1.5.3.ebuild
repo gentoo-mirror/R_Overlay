@@ -20,11 +20,11 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/maxLik
 	sci-CRAN/pdist
-	sci-CRAN/truncnorm
-	sci-CRAN/raster
 	virtual/Matrix
+	sci-CRAN/raster
 	sci-CRAN/splancs
 	sci-CRAN/lme4
+	sci-CRAN/truncnorm
 	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/reticulate
-	sci-CRAN/geojsonR
-	sci-CRAN/data_table
+DEPEND=">=dev-lang/R-3.2.3
 	sci-CRAN/R6
-	>=dev-lang/R-3.2.3
+	sci-CRAN/data_table
+	sci-CRAN/geojsonR
+	sci-CRAN/reticulate
 "
 RDEPEND="${DEPEND-}
 	dev-db/mongodb

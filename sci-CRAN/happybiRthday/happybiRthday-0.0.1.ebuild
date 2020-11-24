@@ -13,10 +13,10 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.3.3
-	sci-CRAN/dplyr
 	sci-CRAN/data_table
+	sci-CRAN/dplyr
 	sci-CRAN/tidyr
-	sci-CRAN/gh
 	sci-CRAN/lubridate
+	sci-CRAN/gh
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

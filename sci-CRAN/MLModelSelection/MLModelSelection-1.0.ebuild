@@ -18,7 +18,7 @@ DEPEND=">=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppDist
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppDist
 	${R_SUGGESTS-}
 "

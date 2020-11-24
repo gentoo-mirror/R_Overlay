@@ -22,19 +22,19 @@ R_SUGGESTS="
 	r_suggests_robotstxt? ( sci-CRAN/robotstxt )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/base64enc
-	sci-CRAN/rlang
-	sci-CRAN/data_tree
-	sci-CRAN/tibble
-	>=dev-lang/R-3.0
+DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/httr
-	sci-CRAN/xml2
-	sci-CRAN/RCurl
 	sci-CRAN/rvest
+	sci-CRAN/tibble
+	sci-CRAN/RCurl
+	sci-CRAN/xml2
 	sci-CRAN/jsonlite
 	sci-CRAN/stringr
 	sci-CRAN/dplyr
 	sci-CRAN/purrr
+	sci-CRAN/data_tree
+	sci-CRAN/base64enc
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/config
 	sci-CRAN/yaml
 	sci-CRAN/base64enc
 	>=sci-CRAN/jsonlite-1.2
+	sci-CRAN/config
 	sci-CRAN/magrittr
 	sci-CRAN/whisker
 	sci-CRAN/tidyselect

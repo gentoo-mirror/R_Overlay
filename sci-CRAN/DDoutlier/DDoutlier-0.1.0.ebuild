@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/DDoutlier_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/dbscan
-	sci-CRAN/pracma
 	sci-CRAN/proxy
+	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}"

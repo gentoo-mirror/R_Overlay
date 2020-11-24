@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/assertthat
 	sci-CRAN/magrittr
-	sci-CRAN/dplyr
-	sci-CRAN/Rcpp
+	sci-CRAN/mvtnorm
+	sci-CRAN/purrr
 	>=dev-lang/R-3.6.0
 	virtual/Matrix
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

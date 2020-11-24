@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LVGP_2.1.5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-CRAN/lhs-0.14
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
+	>=sci-CRAN/lhs-0.14
 	>=sci-CRAN/randtoolbox-1.17
 "
 RDEPEND="${DEPEND-}"

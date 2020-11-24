@@ -26,18 +26,18 @@ R_SUGGESTS="
 	r_suggests_tsibbledata? ( sci-CRAN/tsibbledata )
 	r_suggests_urca? ( sci-CRAN/urca )
 "
-DEPEND=">=sci-CRAN/tidyr-0.8.3
+DEPEND=">=sci-CRAN/tsibble-0.9.0
+	>=sci-CRAN/ggplot2-3.0.0
+	>=sci-CRAN/rlang-0.2.0
+	>=sci-CRAN/tibble-1.4.1
+	>=sci-CRAN/fabletools-0.2.0
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/tidyr-0.8.3
 	sci-CRAN/slider
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/scales-1.1.0
 	sci-CRAN/vctrs
-	sci-CRAN/lifecycle
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/rlang-0.2.0
-	>=sci-CRAN/fabletools-0.2.0
-	>=sci-CRAN/tsibble-0.9.0
-	>=sci-CRAN/tibble-1.4.1
-	>=sci-CRAN/ggplot2-3.0.0
-	>=sci-CRAN/dplyr-1.0.0
 	sci-CRAN/lubridate
+	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

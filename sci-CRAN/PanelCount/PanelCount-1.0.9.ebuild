@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/PanelCount_1.0.9.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/statmod
 	sci-CRAN/Rcpp
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

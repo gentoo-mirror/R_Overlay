@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hydroToolkit_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/readxl
-	sci-CRAN/reshape2
-	sci-CRAN/lubridate
-	sci-CRAN/plotly
+DEPEND="sci-CRAN/lubridate
 	sci-CRAN/ggplot2
+	sci-CRAN/readxl
+	sci-CRAN/reshape2
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-}"

@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/igraph
 	virtual/survival
-	sci-BIOC/Biobase
 	sci-CRAN/RColorBrewer
 	virtual/MASS
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

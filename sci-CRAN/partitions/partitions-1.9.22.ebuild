@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/polynom
-	sci-CRAN/sets
 	sci-CRAN/gmp
+	sci-CRAN/sets
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

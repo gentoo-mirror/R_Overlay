@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_tkrplot? ( sci-CRAN/tkrplot )
 "
-DEPEND="sci-CRAN/CircStats
+DEPEND="sci-CRAN/sp
 	sci-CRAN/ade4
-	sci-CRAN/sp
 	sci-CRAN/adehabitatMA
+	sci-CRAN/CircStats
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

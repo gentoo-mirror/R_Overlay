@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vampyr_1.0.6.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/psych
-	sci-CRAN/semPlot
-	sci-CRAN/GPArotation
-	sci-CRAN/fungible
-	sci-CRAN/moments
-	sci-CRAN/EFA_MRFA
-	sci-CRAN/optimbase
+DEPEND="sci-CRAN/GPArotation
 	sci-CRAN/PCovR
-	sci-CRAN/corpcor
+	sci-CRAN/moments
 	sci-CRAN/lavaan
+	sci-CRAN/corpcor
+	sci-CRAN/fungible
+	sci-CRAN/semPlot
+	sci-CRAN/optimbase
+	sci-CRAN/EFA_MRFA
+	sci-CRAN/psych
 "
 RDEPEND="${DEPEND-}"

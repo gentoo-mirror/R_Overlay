@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/corrplot
-	sci-CRAN/pracma
-	virtual/Matrix
 	sci-CRAN/rosqp
 	>=sci-CRAN/fdapace-0.5.3
+	sci-CRAN/pracma
+	virtual/Matrix
 	sci-CRAN/fdadensity
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

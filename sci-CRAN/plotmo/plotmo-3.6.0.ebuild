@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart virtual/rpart )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/TeachingDemos
 	>=sci-CRAN/Formula-1.2.3
+	sci-CRAN/TeachingDemos
 	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

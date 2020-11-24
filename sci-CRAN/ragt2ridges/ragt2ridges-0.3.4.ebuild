@@ -11,16 +11,16 @@ SRC_URI="http://cran.r-project.org/src/contrib/ragt2ridges_0.3.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/igraph
+	sci-CRAN/mvtnorm
 	sci-CRAN/fdrtool
+	sci-BIOC/CGHbase
+	>=dev-lang/R-2.15.1
 	sci-CRAN/abind
+	sci-CRAN/rags2ridges
+	sci-CRAN/expm
 	virtual/MASS
 	virtual/Matrix
 	sci-BIOC/Biobase
-	>=dev-lang/R-2.15.1
-	sci-CRAN/rags2ridges
-	sci-CRAN/expm
-	sci-CRAN/mvtnorm
-	sci-BIOC/CGHbase
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

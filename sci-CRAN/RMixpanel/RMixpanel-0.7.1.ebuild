@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RMixpanel_0.7-1.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/base64enc
-	sci-CRAN/RCurl
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/RCurl
 	sci-CRAN/uuid
+	sci-CRAN/base64enc
+	sci-CRAN/jsonlite
+	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-}"

@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/gplots
+DEPEND="sci-BIOC/BiocFileCache
 	sci-BIOC/genefilter
 	sci-CRAN/RColorBrewer
 	sci-CRAN/cgdsr
-	sci-BIOC/BiocFileCache
 	sci-CRAN/xlsx
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

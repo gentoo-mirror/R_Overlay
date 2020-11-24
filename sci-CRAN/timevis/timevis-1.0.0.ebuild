@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/htmlwidgets-0.6
-	>=sci-CRAN/htmltools-0.2.6
-	sci-CRAN/lubridate
 	sci-CRAN/jsonlite
+	sci-CRAN/lubridate
+	>=sci-CRAN/htmltools-0.2.6
+	>=sci-CRAN/htmlwidgets-0.6
 	sci-CRAN/magrittr
 	sci-CRAN/rmarkdown
 	sci-CRAN/shiny

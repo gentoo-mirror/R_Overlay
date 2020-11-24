@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xplorerr? ( sci-CRAN/xplorerr )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/lest
+	sci-CRAN/ggplot2
 	sci-CRAN/data_table
 	sci-CRAN/Rcpp
-	>=dev-lang/R-3.5
+	sci-CRAN/gridExtra
 	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}

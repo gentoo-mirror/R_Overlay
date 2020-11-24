@@ -20,21 +20,21 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/curl
-	sci-CRAN/lifecycle
+DEPEND="sci-CRAN/curl
+	>=sci-CRAN/glue-1.3.0
 	>=sci-CRAN/googledrive-1.0.0
+	sci-CRAN/cellranger
 	>=sci-CRAN/gargle-0.5.0
-	sci-CRAN/magrittr
 	sci-CRAN/purrr
 	sci-CRAN/rematch2
-	sci-CRAN/rlang
 	>=sci-CRAN/tibble-2.1.1
-	>=sci-CRAN/glue-1.3.0
-	sci-CRAN/cellranger
+	>=sci-CRAN/vctrs-0.2.3
+	>=dev-lang/R-3.2
 	sci-CRAN/httr
 	sci-CRAN/ids
-	>=sci-CRAN/vctrs-0.2.3
+	sci-CRAN/lifecycle
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

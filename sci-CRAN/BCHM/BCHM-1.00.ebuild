@@ -12,13 +12,13 @@ LICENSE='LGPL-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/coda
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/crayon
 	sci-CRAN/knitr
 	virtual/cluster
-	sci-CRAN/crayon
-	sci-CRAN/plyr
-	>=dev-lang/R-3.5
 	sci-CRAN/rjags
+	sci-CRAN/coda
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

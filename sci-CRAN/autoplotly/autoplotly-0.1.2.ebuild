@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggfortify
-	sci-CRAN/plotly
-	>=dev-lang/R-3.1
+DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/ggplot2
+	sci-CRAN/plotly
+	sci-CRAN/ggfortify
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

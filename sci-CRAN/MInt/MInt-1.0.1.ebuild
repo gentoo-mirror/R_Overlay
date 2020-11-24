@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.1.2
 	>=sci-CRAN/testthat-0.9.1
+	virtual/MASS
 	>=sci-CRAN/glasso-1.8
 	>=sci-CRAN/trust-0.1.6
-	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

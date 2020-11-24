@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
 DEPEND="virtual/rpart
-	sci-CRAN/gbm
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	sci-CRAN/gbm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

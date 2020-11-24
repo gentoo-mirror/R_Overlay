@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_rlang? ( sci-CRAN/rlang )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/coda
-	sci-CRAN/abind
-	sci-CRAN/chk
-	sci-CRAN/term
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/chk
 	sci-CRAN/generics
-	sci-CRAN/tibble
+	sci-CRAN/purrr
+	sci-CRAN/term
+	sci-CRAN/abind
 	sci-CRAN/universals
 	sci-CRAN/extras
+	>=dev-lang/R-3.4
+	sci-CRAN/coda
+	sci-CRAN/tibble
 	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

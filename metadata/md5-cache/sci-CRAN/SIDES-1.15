@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.1.2 >=sci-CRAN/foreach-1.4.3 >=sci-CRAN/multicool-0.1.9 >=sci-CRAN/memoise-1.0.0 virtual/nnet virtual/survival >=sci-CRAN/doParallel-1.0.10 virtual/MASS dev-lang/R
+DEPEND=virtual/nnet >=sci-CRAN/doParallel-1.0.10 >=sci-CRAN/foreach-1.4.3 virtual/MASS >=dev-lang/R-3.1.2 >=sci-CRAN/multicool-0.1.9 >=sci-CRAN/memoise-1.0.0 virtual/survival dev-lang/R
 DESCRIPTION=Subgroup Identification Based on... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=>=dev-lang/R-3.1.2 >=sci-CRAN/foreach-1.4.3 >=sci-CRAN/multicool-0.1.9 >=sci-CRAN/memoise-1.0.0 virtual/nnet virtual/survival >=sci-CRAN/doParallel-1.0.10 virtual/MASS dev-lang/R
+RDEPEND=virtual/nnet >=sci-CRAN/doParallel-1.0.10 >=sci-CRAN/foreach-1.4.3 virtual/MASS >=dev-lang/R-3.1.2 >=sci-CRAN/multicool-0.1.9 >=sci-CRAN/memoise-1.0.0 virtual/survival dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/SIDES_1.15.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=bb6a8a1de946a12689df76ad079feaab
+_md5_=0c42d7dd6e6c4234848b34b95500f85b

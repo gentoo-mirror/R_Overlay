@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/BBmisc
-	sci-CRAN/hms
+	sci-CRAN/doParallel
+	sci-CRAN/ggplot2
+	sci-CRAN/signal
+	sci-CRAN/accelerometry
 	sci-CRAN/foreach
 	sci-CRAN/DataCombine
-	sci-CRAN/doSNOW
-	sci-CRAN/doParallel
-	sci-CRAN/signal
 	sci-CRAN/anytime
 	sci-CRAN/chron
 	sci-CRAN/data_table
-	sci-CRAN/ggplot2
 	sci-CRAN/scales
-	sci-CRAN/accelerometry
+	sci-CRAN/hms
+	sci-CRAN/doSNOW
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

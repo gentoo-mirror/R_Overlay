@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spef_1.0.9.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/SQUAREM
-	sci-CRAN/BB
-	sci-CRAN/sm
-	sci-CRAN/ggplot2
-	virtual/survival
-	sci-CRAN/plyr
+DEPEND="virtual/survival
 	sci-CRAN/nleqslv
+	sci-CRAN/BB
+	>=dev-lang/R-3.4.0
+	sci-CRAN/SQUAREM
+	sci-CRAN/ggplot2
+	sci-CRAN/sm
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

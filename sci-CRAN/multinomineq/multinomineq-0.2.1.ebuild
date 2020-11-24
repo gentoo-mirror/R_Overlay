@@ -17,16 +17,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-mathematics/glpk
-	>=sci-CRAN/Rcpp-0.12.11
 	sci-CRAN/coda
+	sci-mathematics/glpk
 	sci-CRAN/quadprog
+	>=sci-CRAN/Rcpp-0.12.11
 	sci-CRAN/RcppXPtrUtils
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppProgress
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppProgress
 	${R_SUGGESTS-}
 "
 

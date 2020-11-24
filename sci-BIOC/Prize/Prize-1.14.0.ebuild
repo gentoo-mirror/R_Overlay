@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/gplots
-	sci-CRAN/diagram
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/gplots
 	sci-CRAN/stringr
 	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
+	sci-CRAN/diagram
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

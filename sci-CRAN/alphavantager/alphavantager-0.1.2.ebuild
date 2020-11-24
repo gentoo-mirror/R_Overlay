@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyquant? ( sci-CRAN/tidyquant )
 "
-DEPEND=">=sci-CRAN/dplyr-0.7.0
-	>=sci-CRAN/tibble-1.3.3
-	>=sci-CRAN/purrr-0.2.2.2
-	>=sci-CRAN/tidyr-0.6.3
-	>=sci-CRAN/glue-1.1.1
-	>=dev-lang/R-3.3.0
-	>=sci-CRAN/jsonlite-1.5
-	>=sci-CRAN/httr-1.2.1
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/readr-1.1.1
-	>=sci-CRAN/stringr-1.2.0
+	>=sci-CRAN/httr-1.2.1
+	>=sci-CRAN/jsonlite-1.5
+	>=sci-CRAN/dplyr-0.7.0
+	>=sci-CRAN/tidyr-0.6.3
 	>=sci-CRAN/timetk-0.1.1.1
+	>=sci-CRAN/glue-1.1.1
+	>=sci-CRAN/purrr-0.2.2.2
+	>=sci-CRAN/stringr-1.2.0
+	>=sci-CRAN/tibble-1.3.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

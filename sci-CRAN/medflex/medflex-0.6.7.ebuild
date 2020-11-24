@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_vgam? ( >=sci-CRAN/VGAM-1.0.0 )
 "
 DEPEND=">=sci-CRAN/car-2.0.21
-	>=sci-CRAN/sandwich-2.3.2
-	virtual/boot
-	>=dev-lang/R-3.1.2
 	virtual/Matrix
 	>=sci-CRAN/multcomp-1.3.6
+	>=dev-lang/R-3.1.2
+	virtual/boot
+	>=sci-CRAN/sandwich-2.3.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

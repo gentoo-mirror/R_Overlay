@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AF_0.1.5.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/stdReg
+DEPEND="sci-CRAN/drgee
 	sci-CRAN/ivtools
+	sci-CRAN/stdReg
 	sci-CRAN/data_table
-	virtual/survival
-	sci-CRAN/drgee
 	>=dev-lang/R-3.5.0
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

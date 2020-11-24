@@ -36,12 +36,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/ggplot2
-	sci-CRAN/plyr
-	sci-CRAN/digest
 	sci-CRAN/pbapply
+	sci-CRAN/digest
+	sci-CRAN/plyr
+	sci-CRAN/caret
 	virtual/lattice
 	sci-CRAN/gridExtra
-	sci-CRAN/caret
 	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

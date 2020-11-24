@@ -22,9 +22,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/r2d3
-	>=sci-CRAN/iBreakDown-1.3.1
 	>=sci-CRAN/ingredients-2.0
 	>=sci-CRAN/DALEX-2.0.1
+	>=sci-CRAN/iBreakDown-1.3.1
 	sci-CRAN/jsonlite
 	sci-CRAN/progress
 	sci-CRAN/digest

@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_rweka? ( sci-CRAN/RWeka )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/mlr3-0.5.0
-	sci-CRAN/paradox
-	sci-CRAN/R6
-	sci-CRAN/clue
+DEPEND="virtual/cluster
 	>=sci-CRAN/backports-1.1.10
-	virtual/cluster
+	sci-CRAN/clue
 	sci-CRAN/checkmate
 	sci-CRAN/data_table
+	>=dev-lang/R-3.1.0
+	>=sci-CRAN/mlr3-0.5.0
 	>=sci-CRAN/mlr3misc-0.4.0
+	sci-CRAN/paradox
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

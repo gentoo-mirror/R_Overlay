@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TELP_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/arules
-	sci-CRAN/arulesViz
-	sci-CRAN/tm
-	sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/RColorBrewer
+	sci-CRAN/arules
 	sci-CRAN/wordcloud
+	sci-CRAN/tm
+	dev-lang/R[tk]
+	sci-CRAN/arulesViz
 	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
-	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-}"

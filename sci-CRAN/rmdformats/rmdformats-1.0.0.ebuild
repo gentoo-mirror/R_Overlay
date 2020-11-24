@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_questionr"
 R_SUGGESTS="r_suggests_questionr? ( sci-CRAN/questionr )"
 DEPEND="sci-CRAN/knitr
-	sci-CRAN/bookdown
 	sci-CRAN/rmarkdown
+	sci-CRAN/bookdown
 	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

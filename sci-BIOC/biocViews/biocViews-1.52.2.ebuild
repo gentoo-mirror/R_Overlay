@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/RUnit
 	>=sci-BIOC/graph-1.9.26
 	sci-CRAN/XML
+	sci-CRAN/RUnit
 	sci-BIOC/Biobase
-	sci-CRAN/BiocManager
 	>=sci-BIOC/RBGL-1.13.5
 	sci-CRAN/RCurl
+	sci-CRAN/BiocManager
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

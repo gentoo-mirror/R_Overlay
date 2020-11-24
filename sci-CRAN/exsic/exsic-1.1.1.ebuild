@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/exsic_1.1.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/stringr
 	sci-CRAN/markdown
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

@@ -18,34 +18,34 @@ R_SUGGESTS="
 	r_suggests_psychtools? ( sci-CRAN/psychTools )
 	r_suggests_semplot? ( sci-CRAN/semPlot )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/glasso
-	virtual/Matrix
-	sci-CRAN/ggplot2
-	sci-CRAN/qgraph
-	sci-CRAN/mvtnorm
-	sci-CRAN/GA
-	sci-CRAN/abind
-	sci-CRAN/corpcor
-	sci-CRAN/optimx
-	sci-CRAN/VCA
+DEPEND="sci-CRAN/qgraph
 	sci-CRAN/IsingSampler
-	sci-CRAN/magrittr
+	>=dev-lang/R-3.5
+	sci-CRAN/optimx
+	virtual/Matrix
+	virtual/Matrix
+	sci-CRAN/lavaan
+	sci-CRAN/corpcor
+	sci-CRAN/glasso
+	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
 	sci-CRAN/psych
-	sci-CRAN/combinat
-	sci-CRAN/numDeriv
-	>=dev-lang/R-3.5
-	sci-CRAN/dplyr
-	sci-CRAN/lavaan
 	virtual/mgcv
+	sci-CRAN/magrittr
+	sci-CRAN/numDeriv
+	sci-CRAN/dplyr
 	sci-CRAN/ucminf
+	sci-CRAN/GA
+	sci-CRAN/abind
+	sci-CRAN/VCA
+	sci-CRAN/mvtnorm
 	sci-CRAN/pbapply
+	sci-CRAN/combinat
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.3
 	sci-CRAN/roptim
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/pbv
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

@@ -28,10 +28,10 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/assertthat
 	sci-CRAN/jsonlite
-	sci-CRAN/base64enc
 	>=sci-CRAN/googleAuthR-1.1.1
+	sci-CRAN/base64enc
+	sci-CRAN/assertthat
 	sci-CRAN/magrittr
 	>=sci-CRAN/purrr-0.2.4
 	sci-CRAN/tibble

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MixfMRI_0.1-0.tar.gz"
 LICENSE='MPL-2.0'
 
-DEPEND="sci-CRAN/RColorBrewer
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/fftw
+	virtual/MASS
+	sci-CRAN/RColorBrewer
+	virtual/Matrix
 	sci-CRAN/MixSim
 	virtual/cluster
-	virtual/Matrix
-	sci-CRAN/fftw
-	>=dev-lang/R-3.4.0
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

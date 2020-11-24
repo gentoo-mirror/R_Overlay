@@ -17,16 +17,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-4.0
-	>=sci-CRAN/quantregGrowth-0.4
-	>=sci-CRAN/assertthat-0.2.1
-	>=sci-CRAN/rlang-0.4.8
-	>=sci-CRAN/DBI-1.1.0
-	>=sci-CRAN/robustbase-0.93
-	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/tidyr-1.1.2
 	>=sci-CRAN/dbplyr-1.4.4
 	>=sci-CRAN/dplyr-1.0.2
+	>=sci-CRAN/assertthat-0.2.1
 	>=sci-CRAN/purrr-0.3.4
+	>=sci-CRAN/rlang-0.4.8
+	>=sci-CRAN/robustbase-0.93
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/DBI-1.1.0
+	>=sci-CRAN/quantregGrowth-0.4
 	>=sci-CRAN/RMySQL-0.10.20
+	>=sci-CRAN/tidyr-1.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

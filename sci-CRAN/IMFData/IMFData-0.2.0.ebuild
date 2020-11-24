@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/IMFData_0.2.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/httr
 	sci-CRAN/plyr
 	sci-CRAN/jsonlite
-	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

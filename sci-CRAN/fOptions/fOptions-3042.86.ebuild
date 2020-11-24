@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND="sci-CRAN/timeDate
-	sci-CRAN/fBasics
+DEPEND="sci-CRAN/fBasics
 	sci-CRAN/timeSeries
+	sci-CRAN/timeDate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

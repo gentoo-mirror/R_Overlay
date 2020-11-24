@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/metap
-	sci-CRAN/plyr
 	sci-CRAN/reshape2
+	sci-CRAN/plyr
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

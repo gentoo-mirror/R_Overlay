@@ -25,8 +25,8 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/curl
 	sci-CRAN/rappdirs
 	sci-CRAN/digest
-	>=sci-CRAN/sys-2.1
 	>=dev-lang/R-3.1.0
+	>=sci-CRAN/sys-2.1
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

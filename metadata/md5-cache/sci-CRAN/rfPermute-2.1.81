@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-CRAN/magrittr sci-CRAN/scales sci-CRAN/tidyr sci-CRAN/abind sci-CRAN/dplyr sci-CRAN/randomForest sci-CRAN/rlang >=sci-CRAN/swfscMisc-1.3 sci-CRAN/tibble dev-lang/R
+DEPEND=sci-CRAN/abind sci-CRAN/magrittr sci-CRAN/randomForest sci-CRAN/gridExtra sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/scales sci-CRAN/tibble >=dev-lang/R-3.2.0 sci-CRAN/dplyr >=sci-CRAN/swfscMisc-1.3 sci-CRAN/tidyr dev-lang/R
 DESCRIPTION=Estimate Permutation p-Values fo... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-CRAN/magrittr sci-CRAN/scales sci-CRAN/tidyr sci-CRAN/abind sci-CRAN/dplyr sci-CRAN/randomForest sci-CRAN/rlang >=sci-CRAN/swfscMisc-1.3 sci-CRAN/tibble dev-lang/R
+RDEPEND=sci-CRAN/abind sci-CRAN/magrittr sci-CRAN/randomForest sci-CRAN/gridExtra sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/scales sci-CRAN/tibble >=dev-lang/R-3.2.0 sci-CRAN/dplyr >=sci-CRAN/swfscMisc-1.3 sci-CRAN/tidyr dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/rfPermute_2.1.81.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=512d8be6e93e25bbf7b6d7853f237eb0
+_md5_=6017626ae32757a64e21b89fc72adc66

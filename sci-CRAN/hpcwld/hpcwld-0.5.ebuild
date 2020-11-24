@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hpcwld_0.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/partitions
-	sci-CRAN/multicool
+DEPEND="sci-CRAN/multicool
+	sci-CRAN/partitions
 "
 RDEPEND="${DEPEND-}"

@@ -13,8 +13,8 @@ LICENSE='LGPL-3+'
 IUSE="${IUSE-} r_suggests_jiebar"
 R_SUGGESTS="r_suggests_jiebar? ( sci-CRAN/jiebaR )"
 DEPEND="sci-CRAN/tmcn
-	sci-CRAN/HMM
 	>=dev-lang/R-3.0.0
+	sci-CRAN/HMM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

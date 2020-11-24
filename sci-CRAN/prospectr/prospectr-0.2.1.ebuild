@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/mathjaxr-1.0
 	>=sci-CRAN/Rcpp-1.0.1
 	sci-CRAN/iterators
-	>=sci-CRAN/mathjaxr-1.0
 	sci-CRAN/foreach
 	>=sci-CRAN/lifecycle-0.2.0
 "

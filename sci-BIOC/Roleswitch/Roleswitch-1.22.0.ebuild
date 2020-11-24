@@ -12,13 +12,13 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_ggplot2"
 R_SUGGESTS="r_suggests_ggplot2? ( sci-CRAN/ggplot2 )"
-DEPEND="sci-CRAN/pracma
-	sci-CRAN/reshape
-	sci-BIOC/biomaRt
-	sci-CRAN/plotrix
-	sci-BIOC/microRNA
+DEPEND="sci-CRAN/reshape
 	sci-BIOC/Biostrings
-	sci-BIOC/Biobase
 	sci-CRAN/DBI
+	sci-BIOC/Biobase
+	sci-BIOC/microRNA
+	sci-CRAN/pracma
+	sci-CRAN/plotrix
+	sci-BIOC/biomaRt
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

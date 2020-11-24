@@ -18,13 +18,13 @@ R_SUGGESTS="
 "
 DEPEND="virtual/Matrix
 	sci-CRAN/foreach
+	sci-CRAN/ggplot2
 	sci-CRAN/doParallel
 	>=sci-CRAN/Rcpp-0.12.8
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	virtual/Matrix
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "

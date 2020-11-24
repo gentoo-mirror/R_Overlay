@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	virtual/Matrix
 	sci-CRAN/Seurat
 	sci-CRAN/ggplot2
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

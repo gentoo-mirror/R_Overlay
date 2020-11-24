@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/iWISA_1.0-2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/waveslim
-	sci-CRAN/fda
 	sci-CRAN/ggplot2
+	sci-CRAN/fda
 "
 RDEPEND="${DEPEND-}"

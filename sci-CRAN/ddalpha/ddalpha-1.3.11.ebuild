@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ddalpha_1.3.11.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/geometry
-	virtual/class
-	sci-CRAN/robustbase
+DEPEND="virtual/class
 	sci-CRAN/sfsmisc
+	sci-CRAN/robustbase
+	virtual/MASS
+	sci-CRAN/geometry
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH

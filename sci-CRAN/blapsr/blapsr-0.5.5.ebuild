@@ -18,10 +18,10 @@ R_SUGGESTS="
 "
 DEPEND="virtual/MASS
 	>=sci-CRAN/coda-0.19.3
-	virtual/Matrix
+	>=sci-CRAN/sn-1.5.4
+	>=sci-CRAN/RSpectra-0.16.0
 	>=dev-lang/R-3.6.0
 	virtual/survival
-	>=sci-CRAN/RSpectra-0.16.0
-	>=sci-CRAN/sn-1.5.4
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

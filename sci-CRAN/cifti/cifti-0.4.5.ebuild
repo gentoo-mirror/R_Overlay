@@ -21,7 +21,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/xml2
 	sci-CRAN/gifti
-	sci-CRAN/oro_nifti
 	sci-CRAN/R_utils
+	sci-CRAN/oro_nifti
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

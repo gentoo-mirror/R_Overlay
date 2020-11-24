@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/jeek_1.1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/pcaPP
 	sci-CRAN/lpSolve
 	sci-CRAN/igraph
-	sci-CRAN/pcaPP
 "
 RDEPEND="${DEPEND-}"

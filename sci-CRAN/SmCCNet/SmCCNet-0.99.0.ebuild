@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SmCCNet_0.99.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/Matrix
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/pbapply
 	sci-CRAN/PMA
 	sci-CRAN/igraph
-	>=dev-lang/R-3.5
-	sci-CRAN/pbapply
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

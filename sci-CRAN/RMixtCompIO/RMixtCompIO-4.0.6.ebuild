@@ -25,7 +25,7 @@ DEPEND="sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/BH
 	sci-CRAN/RcppEigen
+	sci-CRAN/BH
 	${R_SUGGESTS-}
 "

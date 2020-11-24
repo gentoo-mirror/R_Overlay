@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_rweka? ( sci-CRAN/RWeka )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/curl
-	sci-CRAN/data_table
-	sci-CRAN/jsonlite
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/lgr
 	>=sci-CRAN/backports-1.1.6
 	>=sci-CRAN/mlr3misc-0.5.0
+	sci-CRAN/curl
 	sci-CRAN/R6
-	>=dev-lang/R-3.1.0
-	sci-CRAN/checkmate
-	sci-CRAN/lgr
-	sci-CRAN/mlr3
 	sci-CRAN/stringi
+	sci-CRAN/checkmate
+	sci-CRAN/data_table
+	sci-CRAN/jsonlite
+	sci-CRAN/mlr3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

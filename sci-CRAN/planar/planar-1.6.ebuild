@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/statmod
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/cubature
 	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	sci-CRAN/Rcpp
 	sci-CRAN/dielectric
+	sci-CRAN/statmod
+	sci-CRAN/plyr
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

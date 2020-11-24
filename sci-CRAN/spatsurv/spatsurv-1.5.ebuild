@@ -13,17 +13,17 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
 DEPEND="virtual/survival
-	virtual/Matrix
-	sci-CRAN/RandomFields
-	sci-CRAN/spatstat
-	sci-CRAN/sp
-	sci-CRAN/raster
-	sci-CRAN/iterators
-	sci-CRAN/fields
-	sci-CRAN/stringr
+	sci-CRAN/lubridate
 	sci-CRAN/rgeos
 	sci-CRAN/RColorBrewer
-	sci-CRAN/lubridate
+	sci-CRAN/raster
+	sci-CRAN/sp
+	sci-CRAN/spatstat
+	sci-CRAN/iterators
+	sci-CRAN/RandomFields
+	sci-CRAN/fields
+	virtual/Matrix
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

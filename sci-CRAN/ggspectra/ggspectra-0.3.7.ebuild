@@ -17,14 +17,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.3 )
 "
 DEPEND=">=sci-CRAN/scales-1.1.1
+	>=sci-CRAN/tidyr-1.0.2
 	>=sci-CRAN/ggrepel-0.8.2
 	>=sci-CRAN/photobiology-0.10.5
-	>=sci-CRAN/ggplot2-3.3.2
-	>=sci-CRAN/photobiologyWavebands-0.4.3
-	>=sci-CRAN/tidyr-1.0.2
-	>=sci-CRAN/tibble-3.0.3
-	>=dev-lang/R-3.6.0
-	>=sci-CRAN/dplyr-1.0.2
 	>=sci-CRAN/lubridate-1.7.9
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/photobiologyWavebands-0.4.3
+	>=sci-CRAN/ggplot2-3.3.2
+	>=sci-CRAN/dplyr-1.0.2
+	>=sci-CRAN/tibble-3.0.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

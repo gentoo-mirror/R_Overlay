@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/readr
+DEPEND=">=dev-lang/R-2.15.2
 	sci-CRAN/hapsim
 	virtual/MASS
-	>=dev-lang/R-2.15.2
+	sci-CRAN/readr
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

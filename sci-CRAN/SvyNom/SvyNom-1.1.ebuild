@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/SvyNom_1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/survival
+	sci-CRAN/Hmisc
 	sci-CRAN/rms
 	sci-CRAN/survey
-	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-}"

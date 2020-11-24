@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sidier_4.0.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-CRAN/gridBase
+	sci-CRAN/ggmap
 	sci-CRAN/ape
-	sci-CRAN/gridBase
-	sci-CRAN/ggplot2
 	>=dev-lang/R-3.5.0
 	sci-CRAN/network
-	sci-CRAN/ggmap
+	sci-CRAN/igraph
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

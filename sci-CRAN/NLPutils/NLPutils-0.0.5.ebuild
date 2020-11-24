@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/NLPutils_0.0-5.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/NLP-0.1.11.3
-	sci-CRAN/SnowballC
 	sci-CRAN/qdap
+	sci-CRAN/SnowballC
 "
 RDEPEND="${DEPEND-}"

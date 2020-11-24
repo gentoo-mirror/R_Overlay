@@ -22,13 +22,13 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/RSQLite
 	sci-CRAN/rlang
-	>=sci-CRAN/igraph-1.2.1
-	sci-CRAN/Rcpp
-	>=dev-lang/R-3.4
-	sci-CRAN/dplyr
-	>=sci-CRAN/dexter-1.0.8
-	sci-CRAN/tidyr
 	sci-CRAN/DBI
+	>=sci-CRAN/dexter-1.0.8
+	>=dev-lang/R-3.4
+	sci-CRAN/Rcpp
+	sci-CRAN/dplyr
+	>=sci-CRAN/igraph-1.2.1
+	sci-CRAN/tidyr
 	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-}

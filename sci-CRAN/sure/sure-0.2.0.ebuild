@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
-DEPEND="sci-CRAN/gridExtra
-	>=dev-lang/R-3.1
+DEPEND=">=dev-lang/R-3.1
 	>=sci-CRAN/ggplot2-2.2.1
 	sci-CRAN/goftest
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

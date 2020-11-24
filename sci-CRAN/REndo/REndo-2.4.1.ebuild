@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4
-	>=sci-CRAN/mvtnorm-1.0.8
-	>=sci-CRAN/AER-1.2.5
-	>=sci-CRAN/optimx-2013.8.7
-	>=sci-CRAN/Formula-1.2
-	virtual/Matrix
+DEPEND=">=sci-CRAN/Formula-1.2
 	>=sci-CRAN/lme4-1.1.18.1
+	virtual/Matrix
 	>=sci-CRAN/data_table-1.11.8
+	>=sci-CRAN/mvtnorm-1.0.8
 	>=sci-CRAN/corpcor-1.6.9
 	>=sci-CRAN/Rcpp-1.0.3
 	>=sci-CRAN/lmtest-0.9.35
+	>=dev-lang/R-3.4
+	>=sci-CRAN/optimx-2013.8.7
+	>=sci-CRAN/AER-1.2.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

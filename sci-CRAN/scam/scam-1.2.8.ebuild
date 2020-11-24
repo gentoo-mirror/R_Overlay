@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_nlme"
 R_SUGGESTS="r_suggests_nlme? ( virtual/nlme )"
 DEPEND=">=dev-lang/R-2.15.0
-	virtual/mgcv
 	virtual/Matrix
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

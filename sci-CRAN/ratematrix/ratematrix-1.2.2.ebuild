@@ -18,14 +18,14 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/ape
 	sci-CRAN/readr
-	sci-CRAN/mvMORPH
+	sci-CRAN/corpcor
 	sci-CRAN/phylolm
+	virtual/MASS
+	sci-CRAN/mvMORPH
 	sci-CRAN/Rcpp
 	sci-CRAN/ellipse
 	sci-CRAN/geiger
-	sci-CRAN/corpcor
 	sci-CRAN/coda
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

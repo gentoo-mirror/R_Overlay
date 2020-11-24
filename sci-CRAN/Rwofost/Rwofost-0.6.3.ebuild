@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/Rwofost_0.6-3.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/meteor
 	>=sci-CRAN/Rcpp-0.12.4
+	sci-CRAN/meteor
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

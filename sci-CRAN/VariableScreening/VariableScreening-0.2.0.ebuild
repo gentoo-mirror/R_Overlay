@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/VariableScreening_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/gee
 	sci-CRAN/expm
-	sci-CRAN/energy
 	virtual/MASS
+	sci-CRAN/gee
+	sci-CRAN/energy
 "
 RDEPEND="${DEPEND-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/easyNCDF_0.1.0.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/ClimProjDiags
 	sci-CRAN/ncdf4
 	sci-CRAN/abind
+	sci-CRAN/ClimProjDiags
 "
 RDEPEND="${DEPEND-} sci-libs/netcdf"

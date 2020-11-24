@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/augSIMEX_3.7.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	sci-CRAN/nleqslv
-	sci-CRAN/Formula
 	>=sci-CRAN/Rcpp-0.12.11
+	sci-CRAN/Formula
+	sci-CRAN/nleqslv
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

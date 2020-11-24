@@ -55,12 +55,12 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=sci-CRAN/lmerTest-3.0.0
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/car
-	sci-CRAN/reshape2
 	>=sci-CRAN/pbkrtest-0.4.1
-	>=dev-lang/R-3.5.0
+	>=sci-CRAN/lmerTest-3.0.0
 	>=sci-CRAN/lme4-1.1.8
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

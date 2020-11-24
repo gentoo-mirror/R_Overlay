@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/sp sci-CRAN/adehabitatMA sci-CRAN/deldir >=dev-lang/R-3.0.1 sci-CRAN/ade4 sci-CRAN/adehabitatLT dev-lang/R
+DEPEND=>=dev-lang/R-3.0.1 sci-CRAN/adehabitatLT sci-CRAN/deldir sci-CRAN/sp sci-CRAN/ade4 sci-CRAN/adehabitatMA dev-lang/R
 DESCRIPTION=Home Range Estimation
 EAPI=7
 IUSE=r_suggests_maptools r_suggests_mass r_suggests_rgeos r_suggests_tkrplot byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=sci-CRAN/sp sci-CRAN/adehabitatMA sci-CRAN/deldir >=dev-lang/R-3.0.1 sci-CRAN/ade4 sci-CRAN/adehabitatLT r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_mass? ( virtual/MASS ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.0.1 sci-CRAN/adehabitatLT sci-CRAN/deldir sci-CRAN/sp sci-CRAN/ade4 sci-CRAN/adehabitatMA r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_mass? ( virtual/MASS ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/adehabitatHR_0.4.18.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=559ae3d10105602c24510871f2288d5e
+_md5_=22c2d82f1f73a7335a4b0754b26a1b55

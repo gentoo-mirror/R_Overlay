@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND="sci-CRAN/pan
+DEPEND="sci-CRAN/jomo
 	sci-CRAN/haven
-	sci-CRAN/jomo
+	sci-CRAN/pan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

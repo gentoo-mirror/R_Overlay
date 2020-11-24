@@ -16,26 +16,26 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/tidyr
-	sci-CRAN/formattable
-	sci-CRAN/splitstackshape
-	sci-CRAN/ggrepel
-	sci-CRAN/WriteXLS
-	sci-CRAN/psych
-	sci-CRAN/Rtsne
-	>=dev-lang/R-3.4.0
-	sci-CRAN/shinyBS
-	sci-CRAN/PBSmapping
-	sci-CRAN/ggplot2
-	sci-CRAN/plot3D
-	sci-CRAN/svglite
-	sci-CRAN/Cairo
-	virtual/MASS
-	sci-CRAN/ggdendro
 	sci-CRAN/readxl
+	sci-CRAN/ggrepel
+	sci-CRAN/Cairo
+	sci-CRAN/PBSmapping
+	sci-CRAN/splitstackshape
+	>=dev-lang/R-3.4.0
 	sci-CRAN/DT
-	sci-CRAN/pracma
-	sci-CRAN/plyr
+	virtual/MASS
+	sci-CRAN/WriteXLS
+	sci-CRAN/plot3D
+	sci-CRAN/Rtsne
 	sci-CRAN/Rdpack
+	sci-CRAN/shinyBS
+	sci-CRAN/ggplot2
+	sci-CRAN/ggdendro
+	sci-CRAN/pracma
+	sci-CRAN/formattable
+	sci-CRAN/svglite
+	sci-CRAN/tidyr
+	sci-CRAN/psych
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/hexbin-1.26.3
-	sci-CRAN/e1071
-	sci-CRAN/gtable
-	virtual/lattice
-	sci-CRAN/gridExtra
-	virtual/MASS
+DEPEND="virtual/lattice
+	>=sci-CRAN/hexbin-1.26.3
 	>=dev-lang/R-3.0.2
-	virtual/cluster
 	virtual/lattice
+	virtual/cluster
+	sci-CRAN/gridExtra
+	sci-CRAN/gtable
+	sci-CRAN/e1071
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_lfe? ( sci-CRAN/lfe )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/Formula
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/data_table
+	sci-CRAN/Formula
 	>=dev-lang/R-3.1.0
 	virtual/MASS
 	sci-CRAN/Rcpp

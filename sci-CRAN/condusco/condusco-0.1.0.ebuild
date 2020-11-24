@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_whisker? ( sci-CRAN/whisker )
 "
-DEPEND=">=dev-lang/R-3.3.2
-	sci-CRAN/jsonlite
-	sci-CRAN/assertthat
+DEPEND="sci-CRAN/DBI
 	sci-CRAN/bigrquery
-	sci-CRAN/DBI
+	sci-CRAN/assertthat
+	sci-CRAN/jsonlite
+	>=dev-lang/R-3.3.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

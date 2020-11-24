@@ -51,16 +51,16 @@ R_SUGGESTS="
 	r_suggests_superpc? ( sci-CRAN/superpc )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
-DEPEND="sci-CRAN/ggplot2
-	>=sci-CRAN/ModelMetrics-1.2.2.2
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
+	virtual/lattice
+	sci-CRAN/pROC
 	sci-CRAN/plyr
+	virtual/nlme
+	>=dev-lang/R-3.2.0
+	sci-CRAN/ggplot2
+	>=sci-CRAN/ModelMetrics-1.2.2.2
 	sci-CRAN/reshape2
 	>=sci-CRAN/recipes-0.1.10
-	>=dev-lang/R-3.2.0
-	virtual/lattice
-	virtual/nlme
 	>=sci-CRAN/withr-2.0.0
-	sci-CRAN/pROC
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

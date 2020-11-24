@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
 DEPEND=">=dev-lang/R-3.1
-	>=sci-CRAN/tibble-2.1.1
-	>=sci-CRAN/Rcpp-0.12.18
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/Rcpp-0.12.18
+	>=sci-CRAN/tibble-2.1.1
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-1.0.1

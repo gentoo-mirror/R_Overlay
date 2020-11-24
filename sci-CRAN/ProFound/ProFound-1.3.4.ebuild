@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_profit? ( sci-CRAN/ProFit )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/doParallel
+DEPEND="sci-CRAN/data_table
+	sci-CRAN/doParallel
+	sci-CRAN/foreach
 	sci-CRAN/RColorBrewer
+	>=sci-CRAN/celestial-1.4.1
+	sci-CRAN/Rcpp
+	>=dev-lang/R-3.1
 	>=sci-CRAN/magicaxis-2.0.3
 	sci-CRAN/FITSio
-	>=dev-lang/R-3.1
-	sci-CRAN/data_table
-	>=sci-CRAN/celestial-1.4.1
-	sci-CRAN/foreach
-	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

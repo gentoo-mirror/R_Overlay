@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/data_tree
 	sci-CRAN/DiagrammeR
 	sci-CRAN/formattable
 	sci-CRAN/yaml
-	sci-CRAN/data_tree
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

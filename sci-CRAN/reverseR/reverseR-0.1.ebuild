@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/reverseR_0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/shiny
+DEPEND="sci-CRAN/markdown
 	sci-CRAN/knitr
 	sci-CRAN/DT
-	sci-CRAN/markdown
 	>=dev-lang/R-2.13.0
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"

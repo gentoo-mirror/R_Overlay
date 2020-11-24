@@ -12,18 +12,18 @@ LICENSE='BSD-2'
 
 IUSE="${IUSE-} r_suggests_rstudioapi"
 R_SUGGESTS="r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )"
-DEPEND="sci-CRAN/PoweR
-	sci-CRAN/ggpubr
-	sci-CRAN/ez
-	sci-CRAN/pROC
-	sci-CRAN/BayesFactor
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/PoweR
 	sci-CRAN/plyr
 	sci-CRAN/bayestestR
+	sci-CRAN/pROC
 	sci-CRAN/MBESS
 	sci-CRAN/car
+	sci-CRAN/ez
+	sci-CRAN/BayesFactor
 	sci-CRAN/Exact
 	sci-CRAN/ggplot2
+	sci-CRAN/ggpubr
 	sci-CRAN/logspline
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

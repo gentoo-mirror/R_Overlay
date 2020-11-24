@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/celestial_1.4.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.00
-	sci-CRAN/NISTunits
 	sci-CRAN/pracma
 	sci-CRAN/RANN
+	sci-CRAN/NISTunits
 "
 RDEPEND="${DEPEND-}"

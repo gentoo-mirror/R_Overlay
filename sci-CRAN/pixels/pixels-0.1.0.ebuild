@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/miniUI
-	sci-CRAN/htmlwidgets
 	sci-CRAN/shiny
+	sci-CRAN/htmlwidgets
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

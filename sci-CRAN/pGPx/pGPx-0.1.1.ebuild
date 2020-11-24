@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_dicedesign? ( sci-CRAN/DiceDesign )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.13
-	sci-CRAN/DiceKriging
-	sci-CRAN/rgenoud
 	sci-CRAN/KrigInv
+	sci-CRAN/rgenoud
+	sci-CRAN/DiceKriging
 	sci-CRAN/pbivnorm
 	sci-CRAN/randtoolbox
 	sci-CRAN/pracma

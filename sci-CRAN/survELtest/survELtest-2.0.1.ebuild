@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/survELtest_2.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/Iso
-	sci-CRAN/plyr
-	sci-CRAN/nloptr
+DEPEND="sci-CRAN/plyr
 	virtual/survival
+	sci-CRAN/Iso
+	>=dev-lang/R-3.5.0
+	sci-CRAN/nloptr
 "
 RDEPEND="${DEPEND-}"

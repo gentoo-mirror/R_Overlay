@@ -27,27 +27,27 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/future
-	sci-CRAN/progressr
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/expm-0.999.5
-	virtual/Matrix
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/alabama
-	sci-CRAN/crayon
-	sci-CRAN/purrr
-	sci-CRAN/psych
+	virtual/Matrix
+	sci-CRAN/future
 	sci-CRAN/magrittr
 	virtual/Matrix
-	sci-CRAN/cli
-	sci-CRAN/symmoments
-	sci-CRAN/abind
-	virtual/MASS
-	virtual/Matrix
 	sci-CRAN/polycor
+	sci-CRAN/psych
 	sci-CRAN/Rdpack
-	sci-CRAN/lavaan
-	sci-CRAN/rlang
+	>=sci-CRAN/expm-0.999.5
+	virtual/Matrix
+	virtual/MASS
 	sci-CRAN/future_apply
+	sci-CRAN/abind
+	sci-CRAN/crayon
+	sci-CRAN/lavaan
+	sci-CRAN/progressr
+	sci-CRAN/rlang
+	sci-CRAN/purrr
+	sci-CRAN/symmoments
 	sci-CRAN/lifecycle
+	sci-CRAN/cli
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

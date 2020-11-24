@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/segmented
-	sci-CRAN/sandwich
-	sci-CRAN/SPREDA
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/plotly
-	virtual/survival
-	>=dev-lang/R-3.3.0
+	sci-CRAN/magrittr
 	sci-CRAN/LearnBayes
 	sci-CRAN/dplyr
+	sci-CRAN/sandwich
+	sci-CRAN/segmented
+	virtual/survival
 	sci-CRAN/Rcpp
+	sci-CRAN/SPREDA
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.18

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/sutteForecastR_0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/forecastHybrid
-	sci-CRAN/fracdiff
 	sci-CRAN/robets
+	sci-CRAN/fracdiff
 	sci-CRAN/forecast
+	sci-CRAN/forecastHybrid
 "
 RDEPEND="${DEPEND-}"

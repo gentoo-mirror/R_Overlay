@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/scales
+DEPEND="sci-CRAN/parameters
 	sci-CRAN/bayestestR
-	sci-CRAN/insight
-	sci-CRAN/stringr
-	sci-CRAN/performance
 	sci-CRAN/effectsize
 	>=dev-lang/R-3.5.0
+	sci-CRAN/performance
+	sci-CRAN/scales
 	sci-CRAN/dplyr
 	sci-CRAN/tidyr
+	sci-CRAN/stringr
 	sci-CRAN/ggplot2
-	sci-CRAN/parameters
+	sci-CRAN/insight
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

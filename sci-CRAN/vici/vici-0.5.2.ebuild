@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vici_0.5.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/DT
+DEPEND="sci-CRAN/cowplot
 	sci-CRAN/shiny
-	sci-CRAN/tidyr
-	sci-CRAN/ggplot2
-	sci-CRAN/cowplot
 	sci-CRAN/ggpubr
+	sci-CRAN/DT
 	virtual/nlme
+	sci-CRAN/ggplot2
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

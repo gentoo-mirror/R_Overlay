@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/DiSSMod_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/MASS
-	sci-CRAN/psych
-	virtual/Matrix
 	sci-CRAN/sfsmisc
+	virtual/Matrix
+	sci-CRAN/psych
 "
 RDEPEND="${DEPEND-}"

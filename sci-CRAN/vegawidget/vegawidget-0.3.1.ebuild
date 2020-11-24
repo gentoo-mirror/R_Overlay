@@ -41,11 +41,11 @@ R_SUGGESTS="
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
 DEPEND="sci-CRAN/assertthat
-	sci-CRAN/glue
 	sci-CRAN/rlang
 	sci-CRAN/htmlwidgets
-	sci-CRAN/jsonlite
 	sci-CRAN/magrittr
+	sci-CRAN/jsonlite
+	sci-CRAN/glue
 	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

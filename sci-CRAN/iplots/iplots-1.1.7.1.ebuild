@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_maps? ( sci-CRAN/maps )
 	r_suggests_mass? ( virtual/MASS )
 "
-DEPEND="sci-CRAN/png
-	>=sci-CRAN/rJava-0.5.0
+DEPEND=">=sci-CRAN/rJava-0.5.0
+	sci-CRAN/png
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

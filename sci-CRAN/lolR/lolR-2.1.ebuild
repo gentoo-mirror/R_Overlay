@@ -22,11 +22,11 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/abind
 	virtual/MASS
-	sci-CRAN/ggplot2
 	sci-CRAN/pls
-	>=dev-lang/R-3.4.0
-	sci-CRAN/irlba
 	sci-CRAN/robust
+	sci-CRAN/irlba
+	>=dev-lang/R-3.4.0
+	sci-CRAN/ggplot2
 	sci-CRAN/robustbase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

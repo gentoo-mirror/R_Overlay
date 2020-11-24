@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/fdapace-0.2.0
-	>=sci-CRAN/ggplot2-3.2.1
-	>=sci-CRAN/CVXR-0.99.7
-	>=sci-CRAN/gridExtra-2.3
-	>=sci-CRAN/fdadensity-0.1.2
-	>=sci-CRAN/Rcpp-1.0.3
+DEPEND=">=sci-CRAN/CVXR-0.99.7
+	>=sci-CRAN/mvtnorm-1.1.0
+	>=sci-CRAN/expm-0.999.4
 	>=sci-CRAN/locfit-1.5.9.1
+	>=sci-CRAN/fdapace-0.2.0
 	>=sci-CRAN/locpol-0.7
-	>=sci-CRAN/modeest-2.4.0
 	sci-CRAN/rlang
 	>=dev-lang/R-3.6.0
+	>=sci-CRAN/fdadensity-0.1.2
 	>=sci-CRAN/Rfast-1.9.8
-	>=sci-CRAN/expm-0.999.4
-	>=sci-CRAN/mvtnorm-1.1.0
+	>=sci-CRAN/ggplot2-3.2.1
+	>=sci-CRAN/gridExtra-2.3
+	>=sci-CRAN/Rcpp-1.0.3
+	>=sci-CRAN/modeest-2.4.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

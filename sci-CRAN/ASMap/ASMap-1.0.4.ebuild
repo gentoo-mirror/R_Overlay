@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_formatr? ( sci-CRAN/formatR )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-CRAN/qtl
-	virtual/lattice
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/gtools
+	virtual/lattice
+	sci-CRAN/qtl
 	sci-CRAN/fields
-	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/dplyr-0.8
-	sci-CRAN/raster
-	sci-CRAN/writexl
 	sci-CRAN/readxl
+	sci-CRAN/writexl
+	sci-CRAN/raster
+	>=sci-CRAN/dplyr-0.8
 	>=sci-CRAN/tidyr-1.0
 	sci-CRAN/RCurl
 	sci-CRAN/ggplot2

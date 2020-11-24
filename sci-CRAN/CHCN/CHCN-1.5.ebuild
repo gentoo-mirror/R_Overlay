@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/CHCN_1.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.11.0
-	sci-CRAN/RCurl
 	sci-CRAN/bitops
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

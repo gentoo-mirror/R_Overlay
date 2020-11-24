@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/epiDisplay_3.5.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	virtual/survival
+DEPEND="virtual/foreign
 	virtual/nnet
-	virtual/foreign
+	virtual/MASS
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

@@ -24,22 +24,22 @@ R_SUGGESTS="
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 	r_suggests_ztable? ( sci-CRAN/ztable )
 "
-DEPEND="sci-CRAN/scales
-	>=sci-CRAN/ggiraph-0.3.2
-	>=sci-CRAN/ggplot2-2.2.0
-	sci-CRAN/plyr
-	sci-CRAN/reshape2
-	sci-CRAN/mycor
-	sci-CRAN/ppcor
-	virtual/mgcv
-	sci-CRAN/magrittr
-	sci-CRAN/purrr
-	sci-CRAN/sjlabelled
+DEPEND="sci-CRAN/sjlabelled
 	sci-CRAN/sjmisc
+	sci-CRAN/purrr
 	sci-CRAN/stringr
 	sci-CRAN/tidyr
 	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 	sci-CRAN/RColorBrewer
+	>=sci-CRAN/ggplot2-2.2.0
+	>=sci-CRAN/ggiraph-0.3.2
+	sci-CRAN/reshape2
+	sci-CRAN/scales
+	sci-CRAN/plyr
+	sci-CRAN/mycor
+	sci-CRAN/ppcor
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/frma_1.36.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/oligo
+DEPEND=">=sci-BIOC/Biobase-2.6.0
 	sci-BIOC/preprocessCore
-	sci-BIOC/BiocGenerics
-	>=sci-BIOC/Biobase-2.6.0
-	sci-BIOC/Biobase
-	virtual/MASS
-	sci-CRAN/DBI
-	sci-BIOC/affy
 	virtual/class
+	sci-BIOC/affy
+	sci-BIOC/Biobase
+	sci-CRAN/DBI
+	virtual/MASS
+	sci-BIOC/oligo
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-}"
 

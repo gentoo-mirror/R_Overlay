@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/tswge_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/signal
-	sci-CRAN/astsa
-	sci-CRAN/waveslim
-	virtual/MASS
 	sci-CRAN/PolynomF
+	virtual/MASS
+	sci-CRAN/waveslim
+	sci-CRAN/astsa
 "
 RDEPEND="${DEPEND-}"

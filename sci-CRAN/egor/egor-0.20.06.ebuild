@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/tidygraph
-	sci-CRAN/network
-	sci-CRAN/tibble
-	sci-CRAN/tidyr
-	sci-CRAN/igraph
 	sci-CRAN/purrr
+	sci-CRAN/rlang
+	sci-CRAN/network
+	sci-CRAN/igraph
 	>=dev-lang/R-3.5.0
+	sci-CRAN/tibble
 	sci-CRAN/dplyr
 	sci-CRAN/shiny
 	sci-CRAN/srvyr
-	sci-CRAN/rlang
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

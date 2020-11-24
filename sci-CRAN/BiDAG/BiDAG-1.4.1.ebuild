@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BiDAG_1.4.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/pcalg
-	>=sci-CRAN/Rcpp-0.12.7
-	sci-BIOC/Rgraphviz
-	>=dev-lang/R-3.5.0
+DEPEND=">=sci-CRAN/Rcpp-0.12.7
+	sci-CRAN/pcalg
 	sci-BIOC/graph
+	>=dev-lang/R-3.5.0
+	sci-BIOC/Rgraphviz
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

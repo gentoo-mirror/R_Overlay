@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/assertthat
-	sci-CRAN/irlba
-	sci-CRAN/cate
-	sci-CRAN/pdist
-	sci-CRAN/matchingR
-	sci-BIOC/sva
+DEPEND="sci-CRAN/irlba
 	sci-CRAN/clue
+	sci-CRAN/matchingR
+	sci-CRAN/pdist
+	sci-CRAN/assertthat
+	sci-BIOC/sva
+	sci-CRAN/cate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

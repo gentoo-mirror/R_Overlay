@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/qtl-1.39.5
+DEPEND=">=sci-CRAN/plotrix-3.6.3
 	sci-CRAN/RColorBrewer
-	>=sci-CRAN/plotrix-3.6.3
+	>=sci-CRAN/qtl-1.39.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

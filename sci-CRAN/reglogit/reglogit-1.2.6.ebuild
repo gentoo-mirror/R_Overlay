@@ -13,8 +13,8 @@ LICENSE='LGPL-3+'
 IUSE="${IUSE-} r_suggests_plgp"
 R_SUGGESTS="r_suggests_plgp? ( sci-CRAN/plgp )"
 DEPEND=">=dev-lang/R-2.14.0
+	virtual/Matrix
 	sci-CRAN/mvtnorm
 	virtual/boot
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

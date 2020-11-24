@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-BIOC/Biobase
-	virtual/Matrix
 	sci-CRAN/Rcpp
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

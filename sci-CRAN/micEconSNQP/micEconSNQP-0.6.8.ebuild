@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_micecon"
 R_SUGGESTS="r_suggests_micecon? ( >=sci-CRAN/micEcon-0.6.1 )"
 DEPEND=">=sci-CRAN/systemfit-1.0.0
-	>=sci-CRAN/miscTools-0.6.1
 	virtual/MASS
+	>=sci-CRAN/miscTools-0.6.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

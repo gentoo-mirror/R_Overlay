@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.1
-	virtual/survival
-	sci-CRAN/abind
 	sci-CRAN/foreach
 	sci-CRAN/doParallel
+	sci-CRAN/abind
+	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppProgress
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppProgress
 	${R_SUGGESTS-}
 "

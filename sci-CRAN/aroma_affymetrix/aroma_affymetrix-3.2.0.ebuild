@@ -34,19 +34,19 @@ R_SUGGESTS="
 	r_suggests_preprocesscore? ( >=sci-BIOC/preprocessCore-1.28.0 )
 	r_suggests_rcolorbrewer? ( >=sci-CRAN/RColorBrewer-1.1.2 )
 "
-DEPEND=">=sci-CRAN/aroma_core-3.2.0
-	>=sci-CRAN/R_devices-2.16.0
-	sci-CRAN/listenv
-	sci-CRAN/future
-	>=sci-CRAN/R_oo-1.21.0
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/R_utils-2.9.0
-	>=sci-CRAN/R_methodsS3-1.7.1
-	>=sci-CRAN/R_cache-0.13.0
-	>=sci-CRAN/R_filesets-2.13.0
-	>=sci-CRAN/aroma_apd-0.6.0
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.2.0
 	virtual/Matrix
+	>=sci-CRAN/R_cache-0.13.0
+	>=sci-CRAN/R_oo-1.21.0
+	>=sci-CRAN/aroma_apd-0.6.0
+	sci-CRAN/listenv
+	>=sci-CRAN/R_utils-2.9.0
+	>=sci-CRAN/aroma_core-3.2.0
+	>=sci-CRAN/R_methodsS3-1.7.1
+	>=sci-CRAN/R_devices-2.16.0
+	>=sci-CRAN/R_filesets-2.13.0
+	virtual/MASS
+	sci-CRAN/future
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AutoSEARCH_1.5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/lgarch
-	sci-CRAN/zoo
+DEPEND="sci-CRAN/zoo
+	sci-CRAN/lgarch
 "
 RDEPEND="${DEPEND-}"

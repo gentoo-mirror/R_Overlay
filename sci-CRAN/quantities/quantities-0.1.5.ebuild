@@ -24,8 +24,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/errors-0.3.4
-	>=sci-CRAN/units-0.6.7
 	sci-CRAN/Rcpp
+	>=sci-CRAN/units-0.6.7
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.10

@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_snowfall? ( >=sci-CRAN/snowfall-1.84 )
 "
-DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/Brobdingnag
+DEPEND="sci-CRAN/Rcpp
+	>=dev-lang/R-2.15.1
 	sci-CRAN/numDeriv
-	sci-CRAN/Rcpp
+	sci-CRAN/Brobdingnag
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

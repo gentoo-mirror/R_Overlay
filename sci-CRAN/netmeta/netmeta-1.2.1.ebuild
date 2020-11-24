@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
 DEPEND=">=sci-CRAN/meta-4.9.8
-	>=sci-CRAN/ggplot2-3.0.0
 	virtual/MASS
+	>=sci-CRAN/ggplot2-3.0.0
 	sci-CRAN/magic
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

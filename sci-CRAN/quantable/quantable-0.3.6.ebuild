@@ -11,21 +11,21 @@ SRC_URI="http://cran.r-project.org/src/contrib/quantable_0.3.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/ggrepel
-	sci-CRAN/ggplot2
+	sci-CRAN/gplots
+	sci-CRAN/rlang
 	sci-CRAN/e1071
-	sci-CRAN/plyr
+	sci-CRAN/ggplot2
 	sci-CRAN/stringr
-	sci-CRAN/tibble
 	sci-CRAN/tidyr
+	sci-CRAN/tibble
 	>=dev-lang/R-3.1.0
 	sci-CRAN/RColorBrewer
 	sci-CRAN/caret
 	virtual/Matrix
-	sci-CRAN/gplots
+	sci-CRAN/ggrepel
 	sci-CRAN/readr
 	sci-CRAN/reshape2
-	sci-CRAN/rlang
+	sci-CRAN/plyr
 	sci-CRAN/pROC
 	sci-CRAN/scales
 "

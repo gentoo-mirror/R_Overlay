@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_survey? ( sci-CRAN/survey )
 	r_suggests_usmap? ( sci-CRAN/usmap )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/dplyr
-	sci-CRAN/forcats
-	sci-CRAN/readr
+DEPEND="sci-CRAN/dplyr
+	>=dev-lang/R-3.6.0
 	sci-CRAN/magrittr
 	sci-CRAN/stringr
+	sci-CRAN/readr
+	sci-CRAN/forcats
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

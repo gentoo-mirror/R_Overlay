@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/FME
 	sci-CRAN/deSolve
+	sci-CRAN/FME
 	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

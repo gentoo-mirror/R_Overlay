@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_xlsx? ( sci-CRAN/xlsx )
 "
-DEPEND="sci-CRAN/extremevalues
-	>=sci-BIOC/flowCore-1.32.0
+DEPEND=">=sci-BIOC/flowCore-1.32.0
+	sci-CRAN/extremevalues
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

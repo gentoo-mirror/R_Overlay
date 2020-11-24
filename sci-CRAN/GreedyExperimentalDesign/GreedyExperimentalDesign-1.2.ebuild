@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/GreedyExperimentalDesign_1.2.tar.
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/GreedyExperimentalDesignJARs-1.0
 	>=sci-CRAN/rJava-0.9.6
+	>=sci-CRAN/GreedyExperimentalDesignJARs-1.0
 "
 RDEPEND="${DEPEND-} virtual/jdk"

@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/misc3d
-	virtual/MASS
 	sci-CRAN/GENEAread
 	sci-CRAN/rgl
+	virtual/MASS
+	sci-CRAN/misc3d
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

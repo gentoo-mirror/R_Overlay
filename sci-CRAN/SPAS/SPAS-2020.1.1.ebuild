@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/Matrix
+DEPEND="sci-CRAN/BB
 	sci-CRAN/msm
-	sci-CRAN/BB
-	virtual/MASS
-	sci-CRAN/numDeriv
 	sci-CRAN/plyr
+	virtual/MASS
 	>=sci-CRAN/TMB-1.7.15
+	virtual/Matrix
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/TMB

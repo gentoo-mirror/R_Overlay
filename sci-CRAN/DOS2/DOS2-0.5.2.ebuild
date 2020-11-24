@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_dips? ( sci-CRAN/DiPs )
 	r_suggests_optmatch? ( sci-CRAN/optmatch )
 "
-DEPEND="sci-CRAN/sensitivity2x2xk
-	sci-CRAN/senstrat
-	sci-CRAN/sensitivitymult
-	virtual/MASS
-	>=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/sensitivitymult
 	sci-CRAN/sensitivitymv
+	sci-CRAN/senstrat
+	>=dev-lang/R-3.5.0
+	sci-CRAN/sensitivity2x2xk
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

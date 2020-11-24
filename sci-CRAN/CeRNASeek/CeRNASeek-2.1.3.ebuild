@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CeRNASeek_2.1.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/igraph
+DEPEND="virtual/survival
 	sci-CRAN/gtools
-	virtual/survival
 	>=dev-lang/R-3.1.0
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND="sci-BIOC/AnnotationDbi
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
 	sci-CRAN/SparseM
+	sci-BIOC/AnnotationDbi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

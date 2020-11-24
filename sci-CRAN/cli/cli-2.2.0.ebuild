@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND="sci-CRAN/glue
+	>=sci-CRAN/crayon-1.3.4
 	sci-CRAN/fansi
 	sci-CRAN/assertthat
-	>=sci-CRAN/crayon-1.3.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

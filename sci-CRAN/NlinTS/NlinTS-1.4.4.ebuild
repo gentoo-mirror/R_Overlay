@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/NlinTS_1.4.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/timeSeries
 	sci-CRAN/Rdpack
+	sci-CRAN/timeSeries
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

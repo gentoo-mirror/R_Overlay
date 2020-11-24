@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/shinyjs
-	sci-CRAN/DT
+DEPEND="sci-CRAN/htmlwidgets
 	sci-CRAN/shiny
-	sci-CRAN/htmlwidgets
+	sci-CRAN/DT
 	sci-CRAN/data_tree
 	sci-CRAN/rlang
+	sci-CRAN/shinyjs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

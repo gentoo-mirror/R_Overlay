@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.1
-	>=sci-CRAN/ggplot2-2.2.0
-	>=sci-CRAN/purrr-0.2.5
-	>=sci-CRAN/doParallel-1.0.10
-	>=sci-CRAN/foreach-1.4.3
-	>=sci-CRAN/forecast-8.12
-	sci-CRAN/thief
 	>=sci-CRAN/zoo-1.7
+	>=sci-CRAN/forecast-8.12
+	>=sci-CRAN/purrr-0.2.5
+	>=sci-CRAN/foreach-1.4.3
+	>=sci-CRAN/doParallel-1.0.10
+	sci-CRAN/thief
+	>=sci-CRAN/ggplot2-2.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

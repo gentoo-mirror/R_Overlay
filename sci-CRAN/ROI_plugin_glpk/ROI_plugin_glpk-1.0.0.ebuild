@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.plugin.glpk_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-mathematics/glpk
-	>=sci-CRAN/ROI-0.3.0
+DEPEND=">=sci-CRAN/ROI-0.3.0
+	sci-mathematics/glpk
 "
 RDEPEND="${DEPEND-}"

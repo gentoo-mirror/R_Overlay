@@ -11,11 +11,11 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/clippda_1.
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.13.1
+	sci-BIOC/Biobase
 	sci-CRAN/statmod
 	sci-BIOC/limma
+	sci-CRAN/scatterplot3d
 	virtual/lattice
 	sci-CRAN/rgl
-	sci-CRAN/scatterplot3d
-	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_httptest? ( sci-CRAN/httptest )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/XML
-	sci-CRAN/png
+DEPEND="sci-CRAN/httr
 	sci-CRAN/jsonlite
-	sci-CRAN/httr
+	sci-CRAN/png
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

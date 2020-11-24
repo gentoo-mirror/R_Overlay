@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/ibmdbR_1.50.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-2.15.1
-	virtual/MASS
-	virtual/rpart
-	virtual/Matrix
 	sci-CRAN/arules
 	sci-CRAN/RODBC
+	virtual/Matrix
+	virtual/MASS
+	virtual/rpart
 	virtual/rpart
 	sci-CRAN/ggplot2
 "

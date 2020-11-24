@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_jsonlite? ( sci-CRAN/jsonlite )
 "
 DEPEND="sci-CRAN/CytobankAPI
-	sci-CRAN/shiny
 	sci-CRAN/xlsx
 	sci-CRAN/shinyFiles
 	sci-CRAN/pheatmap
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_markdown? ( sci-CRAN/markdown )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/varhandle
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/foreach
-	sci-CRAN/doParallel
-	sci-CRAN/pROC
+	sci-CRAN/varhandle
 	sci-CRAN/glmnet
+	sci-CRAN/pROC
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_nlme? ( virtual/nlme )
 	r_suggests_popepi? ( sci-CRAN/popEpi )
 "
-DEPEND="sci-CRAN/cmprsk
-	sci-CRAN/zoo
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/plyr
-	sci-CRAN/data_table
-	>=dev-lang/R-3.5.0
-	sci-CRAN/etm
+	sci-CRAN/cmprsk
 	virtual/MASS
-	virtual/survival
+	sci-CRAN/etm
 	sci-CRAN/dplyr
 	virtual/Matrix
 	sci-CRAN/numDeriv
+	sci-CRAN/data_table
 	virtual/mgcv
+	virtual/survival
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

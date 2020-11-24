@@ -12,14 +12,14 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/purrr
 	sci-CRAN/pdftools
-	sci-CRAN/tidyr
 	sci-CRAN/stringr
-	sci-CRAN/tabulizer
+	sci-CRAN/lubridate
 	>=dev-lang/R-3.6.0
 	sci-CRAN/dplyr
 	sci-CRAN/magrittr
-	sci-CRAN/lubridate
+	sci-CRAN/tabulizer
 	sci-CRAN/tibble
 	sci-CRAN/tm
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

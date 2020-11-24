@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/trigger_1.30.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-2.14.0
+DEPEND="sci-CRAN/corpcor
 	sci-BIOC/sva
-	sci-CRAN/qtl
-	sci-CRAN/corpcor
+	>=dev-lang/R-2.14.0
 	sci-BIOC/qvalue
+	sci-CRAN/qtl
 "
 RDEPEND="${DEPEND-}"

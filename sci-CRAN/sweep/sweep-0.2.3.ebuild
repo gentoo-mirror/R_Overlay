@@ -28,14 +28,14 @@ R_SUGGESTS="
 	r_suggests_tidyquant? ( sci-CRAN/tidyquant )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/rlang
-	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/broom-0.5.6
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/lubridate-1.6.0
 	>=sci-CRAN/forecast-8.0
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/broom-0.5.6
 	>=sci-CRAN/tibble-1.2
 	>=sci-CRAN/tidyr-1.0.0
 	>=sci-CRAN/timetk-2.1.0
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

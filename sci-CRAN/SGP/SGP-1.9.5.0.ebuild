@@ -16,28 +16,28 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_sgpdata? ( >=sci-CRAN/SGPdata-23.0.0 )
 "
-DEPEND="sci-CRAN/RSQLite
+DEPEND="sci-CRAN/crayon
 	sci-CRAN/toOrdinal
-	>=sci-CRAN/rngtools-1.5
-	sci-CRAN/iterators
-	sci-CRAN/doParallel
+	sci-CRAN/jsonlite
+	virtual/Matrix
+	sci-CRAN/gridBase
 	sci-CRAN/quantreg
-	sci-CRAN/colorspace
 	sci-CRAN/digest
-	>=sci-CRAN/data_table-1.12.4
 	>=sci-CRAN/doRNG-1.8.2
 	sci-CRAN/foreach
+	sci-CRAN/iterators
 	>=sci-CRAN/sn-1.0.0
-	>=dev-lang/R-3.6.0
-	>=sci-CRAN/equate-2.0.5
-	sci-CRAN/gridBase
-	sci-CRAN/jsonlite
-	sci-CRAN/plotly
-	sci-CRAN/Cairo
-	sci-CRAN/gtools
 	sci-CRAN/callr
-	sci-CRAN/crayon
-	virtual/Matrix
 	>=sci-CRAN/randomNames-0.0.5
+	sci-CRAN/RSQLite
+	>=dev-lang/R-3.6.0
+	sci-CRAN/colorspace
+	>=sci-CRAN/equate-2.0.5
+	sci-CRAN/plotly
+	>=sci-CRAN/rngtools-1.5
+	sci-CRAN/gtools
+	sci-CRAN/Cairo
+	>=sci-CRAN/data_table-1.12.4
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

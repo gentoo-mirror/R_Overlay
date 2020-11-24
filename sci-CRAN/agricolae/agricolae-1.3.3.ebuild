@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/klaR
 	virtual/nlme
-	virtual/MASS
 	sci-CRAN/AlgDesign
 	virtual/cluster
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

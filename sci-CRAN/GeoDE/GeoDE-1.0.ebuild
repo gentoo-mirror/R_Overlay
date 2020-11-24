@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GeoDE_1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/Matrix
-	virtual/MASS
+DEPEND="virtual/MASS
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

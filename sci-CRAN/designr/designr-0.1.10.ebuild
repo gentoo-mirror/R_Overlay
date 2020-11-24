@@ -20,7 +20,7 @@ R_SUGGESTS="
 "
 DEPEND="virtual/MASS
 	sci-CRAN/dplyr
-	sci-CRAN/tibble
 	sci-CRAN/crossdes
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

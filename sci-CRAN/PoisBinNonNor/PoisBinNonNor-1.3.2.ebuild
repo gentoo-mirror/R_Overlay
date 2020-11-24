@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/PoisBinNonNor_1.3.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/BB
-	sci-CRAN/corpcor
-	virtual/Matrix
 	sci-CRAN/mvtnorm
+	virtual/Matrix
+	sci-CRAN/corpcor
 "
 RDEPEND="${DEPEND-}"

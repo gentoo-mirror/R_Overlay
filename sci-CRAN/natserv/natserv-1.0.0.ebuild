@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/jsonlite
 	sci-CRAN/tibble
 	>=sci-CRAN/crul-0.7.0
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

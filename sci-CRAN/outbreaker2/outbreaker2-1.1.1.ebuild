@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/visNetwork
-	sci-CRAN/ape
-	sci-CRAN/Rcpp
 	sci-CRAN/ggplot2
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ape
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}

@@ -25,15 +25,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/XML
-	sci-CRAN/R_utils
-	sci-CRAN/hwriter
-	sci-CRAN/RColorBrewer
-	>=dev-lang/R-2.15
+DEPEND=">=dev-lang/R-2.15
+	sci-CRAN/png
 	>=sci-CRAN/igraph-0.6
 	sci-CRAN/plotrix
+	sci-CRAN/hwriter
+	sci-CRAN/XML
+	sci-CRAN/R_utils
 	sci-CRAN/reshape2
-	sci-CRAN/png
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

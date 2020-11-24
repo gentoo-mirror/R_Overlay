@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DPWeibull_1.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/Rcpp-0.12.4
-	sci-CRAN/prodlim
-	sci-CRAN/truncdist
-	virtual/survival
+DEPEND="sci-CRAN/truncdist
 	sci-CRAN/binaryLogic
+	sci-CRAN/prodlim
+	virtual/survival
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-0.12.4
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

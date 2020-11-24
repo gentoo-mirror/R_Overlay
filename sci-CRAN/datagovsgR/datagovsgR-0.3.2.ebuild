@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/purrr
-	sci-CRAN/curl
-	sci-CRAN/stringr
 	sci-CRAN/data_table
-	sci-CRAN/httr
 	sci-CRAN/dplyr
+	sci-CRAN/stringr
+	sci-CRAN/httr
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

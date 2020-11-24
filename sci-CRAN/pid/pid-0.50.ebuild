@@ -12,10 +12,10 @@ LICENSE='BSD-2'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/png
+DEPEND="sci-CRAN/DoE_base
 	sci-CRAN/FrF2_catlg128
 	sci-CRAN/FrF2
-	sci-CRAN/DoE_base
+	sci-CRAN/png
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

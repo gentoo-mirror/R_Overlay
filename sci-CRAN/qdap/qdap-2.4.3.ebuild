@@ -23,28 +23,28 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/RColorBrewer
-	>=sci-CRAN/ggplot2-2.1.0
-	>=sci-CRAN/dplyr-0.3
-	>=sci-CRAN/qdapRegex-0.1.2
-	sci-CRAN/NLP
-	sci-CRAN/plotrix
-	sci-CRAN/gridExtra
-	sci-CRAN/openxlsx
-	sci-CRAN/venneuler
-	sci-CRAN/XML
 	>=sci-CRAN/tm-0.7.6
-	sci-CRAN/wordcloud
-	sci-CRAN/tidyr
-	>=sci-CRAN/qdapTools-1.3.1
-	sci-CRAN/chron
-	>=sci-CRAN/gender-0.5.1
-	sci-CRAN/stringdist
-	>=sci-CRAN/qdapDictionaries-1.0.2
-	sci-CRAN/RCurl
+	sci-CRAN/venneuler
 	>=sci-CRAN/openNLP-0.2.1
-	sci-CRAN/igraph
 	sci-CRAN/reshape2
+	sci-CRAN/tidyr
+	sci-CRAN/RColorBrewer
+	>=sci-CRAN/qdapDictionaries-1.0.2
+	sci-CRAN/XML
+	sci-CRAN/NLP
+	sci-CRAN/stringdist
+	>=sci-CRAN/gender-0.5.1
+	sci-CRAN/openxlsx
+	>=sci-CRAN/qdapTools-1.3.1
+	>=sci-CRAN/ggplot2-2.1.0
+	sci-CRAN/plotrix
+	>=sci-CRAN/qdapRegex-0.1.2
+	sci-CRAN/gridExtra
 	sci-CRAN/scales
+	sci-CRAN/wordcloud
+	sci-CRAN/chron
+	>=sci-CRAN/dplyr-0.3
+	sci-CRAN/igraph
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_scales? ( >=sci-CRAN/scales-0.4.0 )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/Matrix
 	>=sci-CRAN/Rcpp-0.12.4
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

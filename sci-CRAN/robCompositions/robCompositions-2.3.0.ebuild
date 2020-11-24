@@ -15,28 +15,28 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/GGally
-	sci-CRAN/pls
-	sci-CRAN/e1071
-	>=dev-lang/R-3.5.0
-	sci-CRAN/car
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/rrcov
-	virtual/cluster
-	sci-CRAN/tidyr
-	sci-CRAN/zCompositions
-	sci-CRAN/Rcpp
-	sci-CRAN/fpc
-	sci-CRAN/kernlab
 	sci-CRAN/data_table
-	sci-CRAN/ggplot2
-	sci-CRAN/cvTools
-	sci-CRAN/fda
-	virtual/MASS
-	sci-CRAN/robustbase
-	sci-CRAN/mclust
+	sci-CRAN/e1071
+	virtual/cluster
 	sci-CRAN/sROC
+	sci-CRAN/robustbase
 	sci-CRAN/VIM
 	sci-CRAN/reshape2
+	sci-CRAN/fpc
+	sci-CRAN/kernlab
+	sci-CRAN/fda
+	virtual/MASS
+	sci-CRAN/pls
+	sci-CRAN/cvTools
+	sci-CRAN/mclust
+	sci-CRAN/zCompositions
+	sci-CRAN/tidyr
+	sci-CRAN/Rcpp
+	sci-CRAN/ggplot2
+	sci-CRAN/car
+	sci-CRAN/GGally
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

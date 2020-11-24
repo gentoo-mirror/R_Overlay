@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_shiny? ( >=sci-CRAN/shiny-1.0.0 )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/htmlwidgets
 	sci-CRAN/stringr
 	sci-CRAN/cgdsr
+	sci-CRAN/htmlwidgets
 	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

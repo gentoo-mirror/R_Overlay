@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3
+DEPEND=">=sci-CRAN/AzureGraph-1.0.4
+	sci-CRAN/jsonlite
+	sci-CRAN/uuid
+	sci-CRAN/R6
+	>=dev-lang/R-3.3
 	>=sci-CRAN/AzureAuth-1.2.1
 	>=sci-CRAN/httr-1.3
-	sci-CRAN/jsonlite
-	>=sci-CRAN/AzureGraph-1.0.4
-	sci-CRAN/R6
-	sci-CRAN/uuid
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

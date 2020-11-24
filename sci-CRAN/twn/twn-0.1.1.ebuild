@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/tibble
-	sci-CRAN/dplyr
-	sci-CRAN/rlang
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/crayon
+	sci-CRAN/tibble
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

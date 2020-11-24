@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/COUNT_1.3.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/msme
-	sci-CRAN/sandwich
+DEPEND="sci-CRAN/sandwich
+	sci-CRAN/msme
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

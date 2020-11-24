@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_snow? ( sci-CRAN/snow )
 "
-DEPEND="sci-BIOC/GSEABase
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
+	sci-BIOC/GSEABase
 	sci-BIOC/GSVA
 	>=dev-lang/R-3.3
 "

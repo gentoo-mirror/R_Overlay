@@ -28,16 +28,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 	r_suggests_vctrs? ( >=sci-CRAN/vctrs-0.2.4 )
 "
-DEPEND=">=sci-CRAN/foreach-1.4.3
-	>=sci-CRAN/tidyr-1.0.0
-	>=sci-CRAN/tibble-3.0.0
-	>=sci-CRAN/Rcpp-0.12.12
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/purrr-0.3.0
-	>=sci-CRAN/rlang-0.4.0
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/gridExtra-2.2.1
+	>=sci-CRAN/Rcpp-0.12.12
+	>=sci-CRAN/tibble-3.0.0
+	>=sci-CRAN/tidyr-1.0.0
 	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/gridExtra-2.2.1
+	>=sci-CRAN/foreach-1.4.3
 	>=sci-CRAN/ggplot2-3.0.0
+	>=sci-CRAN/rlang-0.4.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

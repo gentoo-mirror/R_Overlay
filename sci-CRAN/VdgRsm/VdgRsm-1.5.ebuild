@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_akima"
 R_SUGGESTS="r_suggests_akima? ( sci-CRAN/akima )"
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/permute
 	sci-CRAN/AlgDesign
+	sci-CRAN/permute
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

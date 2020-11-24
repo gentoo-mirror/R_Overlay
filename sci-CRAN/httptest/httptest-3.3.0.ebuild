@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND="sci-CRAN/testthat
-	sci-CRAN/httr
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/curl
+	sci-CRAN/testthat
+	sci-CRAN/httr
 	sci-CRAN/digest
 	sci-CRAN/jsonlite
 "

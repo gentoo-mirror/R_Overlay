@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_bchron? ( sci-CRAN/Bchron )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/mclust
+DEPEND="sci-CRAN/mclust
 	sci-CRAN/ggplot2
+	virtual/MASS
 	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

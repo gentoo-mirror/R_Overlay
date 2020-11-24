@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/backports
-	sci-CRAN/data_table
-	>=sci-CRAN/mlr3misc-0.5.0
-	sci-CRAN/R6
 	sci-CRAN/checkmate
+	sci-CRAN/R6
+	>=sci-CRAN/mlr3misc-0.5.0
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

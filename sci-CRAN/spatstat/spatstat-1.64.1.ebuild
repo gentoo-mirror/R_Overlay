@@ -23,17 +23,17 @@ R_SUGGESTS="
 	r_suggests_sm? ( sci-CRAN/sm )
 	r_suggests_spatial? ( virtual/spatial )
 "
-DEPEND=">=sci-CRAN/spatstat_data-1.4.2
-	sci-CRAN/tensor
-	>=sci-CRAN/deldir-0.0.21
-	>=sci-CRAN/polyclip-1.10.0
-	>=sci-CRAN/spatstat_utils-1.17.0
-	>=sci-CRAN/goftest-1.2.2
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
 	virtual/nlme
+	>=sci-CRAN/spatstat_data-1.4.2
+	sci-CRAN/abind
+	>=sci-CRAN/polyclip-1.10.0
 	virtual/rpart
+	>=sci-CRAN/spatstat_utils-1.17.0
 	virtual/mgcv
 	virtual/Matrix
-	sci-CRAN/abind
+	>=sci-CRAN/deldir-0.0.21
+	sci-CRAN/tensor
+	>=sci-CRAN/goftest-1.2.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

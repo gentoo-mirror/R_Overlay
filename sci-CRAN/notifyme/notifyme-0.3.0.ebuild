@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/notifyme_0.3.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/magrittr
-	sci-CRAN/dplyr
 	sci-CRAN/httr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

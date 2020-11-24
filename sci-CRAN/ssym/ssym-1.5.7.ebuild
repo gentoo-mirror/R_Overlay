@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_nistnls? ( sci-CRAN/NISTnls )
 	r_suggests_sn? ( sci-CRAN/sn )
 "
-DEPEND="virtual/survival
-	sci-CRAN/numDeriv
-	sci-CRAN/GIGrvg
-	sci-CRAN/normalp
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/GIGrvg
 	sci-CRAN/sandwich
+	virtual/survival
+	sci-CRAN/normalp
+	sci-CRAN/numDeriv
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

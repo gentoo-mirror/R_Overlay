@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
 DEPEND="sci-CRAN/assertthat
-	sci-CRAN/postlogic
-	sci-CRAN/testthat
+	sci-CRAN/stringi
+	sci-CRAN/parsetools
 	sci-CRAN/purrr
 	sci-CRAN/pkgcond
-	sci-CRAN/parsetools
+	sci-CRAN/postlogic
 	sci-CRAN/rlang
-	sci-CRAN/stringi
+	sci-CRAN/testthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httr
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/leaflet
-	sci-CRAN/reshape2
-	sci-CRAN/jsonlite
+	sci-CRAN/httr
 	sci-CRAN/plyr
+	sci-CRAN/reshape2
 	sci-CRAN/xml2
 	sci-CRAN/analogue
 	sci-CRAN/dplyr

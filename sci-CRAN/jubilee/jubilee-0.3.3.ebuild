@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_tinytex? ( sci-CRAN/tinytex )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/data_table
-	sci-CRAN/dplyr
-	sci-CRAN/yaml
 	sci-CRAN/zoo
+	sci-CRAN/dplyr
 	sci-CRAN/xts
+	sci-CRAN/yaml
 	>=sci-CRAN/readxl-1.3.1
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

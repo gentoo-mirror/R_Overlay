@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/psica_1.0.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Rdpack
-	sci-CRAN/partykit
+DEPEND="sci-CRAN/gridBase
 	sci-CRAN/party
-	sci-CRAN/BayesTree
-	sci-CRAN/randomForest
-	sci-CRAN/gridBase
+	sci-CRAN/partykit
 	virtual/rpart
+	sci-CRAN/Rdpack
+	sci-CRAN/randomForest
+	sci-CRAN/BayesTree
 "
 RDEPEND="${DEPEND-}"

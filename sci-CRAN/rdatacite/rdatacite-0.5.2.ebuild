@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_webmockr? ( sci-CRAN/webmockr )
 "
 DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/tibble
 	>=sci-CRAN/crul-0.7.4
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_multigroup? ( sci-CRAN/multigroup )
 "
 DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/ggplot2
 	sci-CRAN/DescTools
 	sci-CRAN/e1071
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

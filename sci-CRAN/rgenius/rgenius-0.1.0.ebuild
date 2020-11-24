@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/rgenius_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/purrr
-	sci-CRAN/foreach
-	sci-CRAN/doParallel
-	sci-CRAN/tibble
-	sci-CRAN/dplyr
-	sci-CRAN/rvest
-	sci-CRAN/httr
 	sci-CRAN/stringr
+	sci-CRAN/dplyr
+	sci-CRAN/httr
+	sci-CRAN/rvest
+	sci-CRAN/foreach
+	sci-CRAN/tibble
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

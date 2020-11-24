@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/tensorordinal_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/pracma
-	sci-CRAN/rTensor
 	virtual/MASS
+	sci-CRAN/rTensor
 "
 RDEPEND="${DEPEND-}"

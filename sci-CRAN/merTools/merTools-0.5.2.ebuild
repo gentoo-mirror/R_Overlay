@@ -24,15 +24,15 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/blme
-	sci-CRAN/mvtnorm
-	sci-CRAN/abind
 	sci-CRAN/arm
-	sci-CRAN/broom_mixed
-	sci-CRAN/dplyr
-	>=sci-CRAN/lme4-1.1.11
-	sci-CRAN/foreach
 	sci-CRAN/shiny
+	>=sci-CRAN/lme4-1.1.11
+	sci-CRAN/dplyr
+	sci-CRAN/mvtnorm
+	sci-CRAN/foreach
+	sci-CRAN/abind
 	sci-CRAN/ggplot2
+	sci-CRAN/broom_mixed
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_signal? ( sci-CRAN/signal )
 "
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/deSolve
 	sci-CRAN/float
 	sci-CRAN/rgl
+	sci-CRAN/deSolve
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

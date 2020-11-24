@@ -12,9 +12,9 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_rstudio"
 R_SUGGESTS="r_suggests_rstudio? ( sci-mathematics/rstudio )"
-DEPEND="sci-CRAN/imager
+DEPEND="sci-CRAN/jsonlite
+	sci-CRAN/imager
 	sci-CRAN/crayon
 	sci-CRAN/curl
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

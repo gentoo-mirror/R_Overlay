@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/R6
+DEPEND="sci-CRAN/crayon
 	>=sci-CRAN/cinterpolate-1.0.0
-	sci-CRAN/digest
-	sci-CRAN/crayon
 	sci-CRAN/deSolve
+	sci-CRAN/digest
+	sci-CRAN/R6
 	sci-CRAN/jsonlite
 	sci-CRAN/ring
 "

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/meetupapi_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/httr
-	sci-CRAN/magrittr
 	sci-CRAN/purrr
 	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

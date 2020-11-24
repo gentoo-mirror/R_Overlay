@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.RMTCJags_1.0-2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/coda
-	sci-CRAN/rjags
-	sci-CRAN/rmeta
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/runjags
 	>=sci-CRAN/Rcmdr-2.0.0
+	sci-CRAN/igraph
+	sci-CRAN/rmeta
+	sci-CRAN/coda
+	sci-CRAN/rjags
 "
 RDEPEND="${DEPEND-} sci-mathematics/jags"

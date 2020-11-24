@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/intergraph
+DEPEND="virtual/MASS
+	sci-CRAN/progressr
+	sci-CRAN/spatstat_utils
+	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	>=dev-lang/R-3.5.0
 	virtual/Matrix
 	sci-CRAN/igraph
 	sci-CRAN/bbmle
-	virtual/MASS
-	sci-CRAN/dplyr
-	sci-CRAN/foreach
-	>=dev-lang/R-3.5.0
+	sci-CRAN/intergraph
 	sci-CRAN/minpack_lm
 	sci-CRAN/sna
-	sci-CRAN/spatstat_utils
 	sci-CRAN/plyr
-	sci-CRAN/doParallel
-	sci-CRAN/progressr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -21,8 +21,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/e1071
 	sci-CRAN/rgl
-	sci-CRAN/ggplot2
 	sci-CRAN/matlib
+	sci-CRAN/ggplot2
 	sci-CRAN/misc3d
 	virtual/MASS
 "

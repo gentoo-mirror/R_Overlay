@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.10"
 RDEPEND="${DEPEND-}
-	sci-CRAN/RcppNumerical
 	sci-CRAN/Rcpp
+	sci-CRAN/RcppNumerical
 	sci-CRAN/RcppEigen
 	sci-CRAN/BH
 	${R_SUGGESTS-}

@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND="sci-CRAN/abind
-	sci-CRAN/tuneR
+DEPEND=">=sci-CRAN/geomorph-3.0.2
 	sci-CRAN/plot3D
-	>=dev-lang/R-3.3.1
-	>=sci-CRAN/geomorph-3.0.2
-	sci-CRAN/reshape2
 	sci-CRAN/seewave
+	sci-CRAN/tuneR
+	>=dev-lang/R-3.3.1
+	sci-CRAN/abind
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

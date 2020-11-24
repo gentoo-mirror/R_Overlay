@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/epidata_0.4.0.tar.gz"
 LICENSE='AGPL-3'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/xml2
-	sci-CRAN/rvest
-	sci-CRAN/httr
 	sci-CRAN/jsonlite
-	sci-CRAN/readr
-	sci-CRAN/dplyr
+	sci-CRAN/httr
 	sci-CRAN/purrr
+	sci-CRAN/dplyr
+	sci-CRAN/rvest
+	sci-CRAN/xml2
 	sci-CRAN/tidyr
+	sci-CRAN/readr
 	sci-CRAN/stringi
 	sci-CRAN/tinytest
 "

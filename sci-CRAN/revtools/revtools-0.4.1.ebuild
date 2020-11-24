@@ -10,18 +10,18 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/revtools_0.4.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/SnowballC
+	sci-CRAN/stringdist
+	sci-CRAN/topicmodels
+	>=dev-lang/R-3.5.0
+	sci-CRAN/viridisLite
+	sci-CRAN/plotly
 	sci-CRAN/ngram
 	sci-CRAN/modeltools
 	sci-CRAN/ade4
-	sci-CRAN/plotly
 	sci-CRAN/slam
 	sci-CRAN/shiny
 	sci-CRAN/shinydashboard
-	sci-CRAN/SnowballC
-	sci-CRAN/stringdist
-	sci-CRAN/topicmodels
-	sci-CRAN/viridisLite
 	sci-CRAN/tm
 "
 RDEPEND="${DEPEND-}"

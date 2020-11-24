@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_combinat? ( sci-CRAN/combinat )
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 "
-DEPEND="sci-CRAN/combinat
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/combinat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

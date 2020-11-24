@@ -28,12 +28,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND=">=sci-CRAN/data_table-1.11.6
+	sci-CRAN/R_utils
 	sci-CRAN/future_apply
-	>=sci-CRAN/data_table-1.11.6
 	sci-CRAN/curl
+	>=dev-lang/R-3.5.0
 	sci-CRAN/countrycode
 	sci-CRAN/httr
-	sci-CRAN/R_utils
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

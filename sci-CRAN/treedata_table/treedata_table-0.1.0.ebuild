@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/geiger
+DEPEND="sci-CRAN/ape
+	sci-CRAN/geiger
 	sci-CRAN/data_table
-	sci-CRAN/ape
 	sci-CRAN/lazyeval
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_plyr? ( sci-CRAN/plyr )
 "
-DEPEND="sci-CRAN/rjson
-	sci-CRAN/RCurl
-	sci-CRAN/rtematres
-	sci-CRAN/XML
-	sci-CRAN/wordcloud
+DEPEND="sci-CRAN/wordcloud
 	sci-CRAN/RColorBrewer
+	sci-CRAN/rjson
+	sci-CRAN/rtematres
+	sci-CRAN/RCurl
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

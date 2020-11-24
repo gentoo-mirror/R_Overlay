@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_cec2013"
 R_SUGGESTS="r_suggests_cec2013? ( sci-CRAN/cec2013 )"
-DEPEND="sci-CRAN/truncnorm
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/copula
+	sci-CRAN/truncnorm
 	sci-CRAN/vines
-	sci-CRAN/copula
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -23,21 +23,21 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	>=sci-CRAN/commonmark-1.7
+	>=sci-CRAN/getPass-0.2.2
+	>=sci-CRAN/fs-1.3.1
+	>=sci-CRAN/here-0.1
 	>=sci-CRAN/curl-4.3
+	>=sci-CRAN/htmltools-0.4.0
+	>=sci-CRAN/httr-1.4.0
+	>=sci-CRAN/jsonlite-1.6
+	>=sci-CRAN/rlang-0.4.1
+	sci-CRAN/rmarkdown
+	>=sci-CRAN/commonmark-1.7
 	sci-CRAN/digest
 	>=sci-CRAN/base64enc-0.1.3
 	>=sci-CRAN/dplyr-0.8.3
-	>=sci-CRAN/fs-1.3.1
-	>=sci-CRAN/getPass-0.2.2
-	>=sci-CRAN/here-0.1
-	>=sci-CRAN/httr-1.4.0
-	>=sci-CRAN/htmltools-0.4.0
-	>=sci-CRAN/jsonlite-1.6
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/mime-0.6
-	>=sci-CRAN/rlang-0.4.1
-	sci-CRAN/rmarkdown
 	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/uuid-0.1.2
 "

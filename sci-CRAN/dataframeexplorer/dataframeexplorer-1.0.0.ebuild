@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dataframeexplorer_1.0.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/tidyr
-	sci-CRAN/tibble
-	sci-CRAN/openxlsx
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/magrittr
 	sci-CRAN/data_table
 	sci-CRAN/dplyr
+	sci-CRAN/tidyr
+	sci-CRAN/openxlsx
+	sci-CRAN/tibble
 	sci-CRAN/plyr
 	sci-CRAN/stringr
 "

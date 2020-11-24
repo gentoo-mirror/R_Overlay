@@ -24,27 +24,27 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND="sci-CRAN/tibble
-	sci-CRAN/workflows
+DEPEND="sci-CRAN/workflows
 	sci-CRAN/magrittr
 	sci-CRAN/stringr
 	>=dev-lang/R-4.00
-	sci-CRAN/parsnip
-	sci-CRAN/reticulate
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	sci-CRAN/ggrepel
-	sci-CRAN/cowplot
-	sci-CRAN/purrr
-	sci-CRAN/rlang
-	sci-CRAN/yardstick
 	sci-CRAN/tokenizers
+	sci-CRAN/ggplot2
+	sci-CRAN/rlang
+	sci-CRAN/furrr
 	sci-CRAN/recipes
+	sci-CRAN/yardstick
+	sci-CRAN/tidyr
+	sci-CRAN/tibble
+	sci-CRAN/dplyr
+	sci-CRAN/ggrepel
+	sci-CRAN/purrr
+	sci-CRAN/parsnip
+	sci-CRAN/tune
+	sci-CRAN/cowplot
+	sci-CRAN/reticulate
 	sci-CRAN/rsample
 	sci-CRAN/future
-	sci-CRAN/furrr
-	sci-CRAN/tidyr
-	sci-CRAN/tune
 "
 RDEPEND="${DEPEND-}
 	dev-lang/python

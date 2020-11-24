@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/metafuse_2.0-1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/glmnet
-	sci-CRAN/evd
-	virtual/MASS
 	virtual/Matrix
+	virtual/MASS
+	sci-CRAN/evd
 "
 RDEPEND="${DEPEND-}"

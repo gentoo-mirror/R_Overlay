@@ -23,20 +23,20 @@ R_SUGGESTS="
 	r_suggests_tidyquant? ( sci-CRAN/tidyquant )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/sweep
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/sweep
+	sci-CRAN/timetk
+	sci-CRAN/dplyr
+	sci-CRAN/glue
 	>=sci-CRAN/tibbletime-0.1.5
 	sci-CRAN/purrr
-	sci-CRAN/timetk
-	sci-CRAN/glue
 	sci-CRAN/rlang
 	sci-CRAN/tibble
 	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/ggplot2
-	sci-CRAN/cli
 	sci-CRAN/crayon
 	sci-CRAN/rstudioapi
-	>=dev-lang/R-3.0.0
-	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
+	sci-CRAN/cli
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

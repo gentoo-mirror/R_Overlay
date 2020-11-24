@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/aoristic_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/foreign
+DEPEND="sci-CRAN/formattable
+	sci-CRAN/openxlsx
+	sci-CRAN/htmltools
 	sci-CRAN/lubridate
 	sci-CRAN/ggplot2
-	sci-CRAN/openxlsx
-	sci-CRAN/formattable
-	sci-CRAN/htmltools
+	virtual/foreign
 	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

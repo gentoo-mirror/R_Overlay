@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="virtual/MASS
 	virtual/survival
-	virtual/MASS
+	sci-CRAN/ggplot2
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

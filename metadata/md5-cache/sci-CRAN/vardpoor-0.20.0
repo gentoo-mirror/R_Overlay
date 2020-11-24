@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-CRAN/data_table-1.12.6 virtual/MASS sci-CRAN/foreach sci-CRAN/stringr >=dev-lang/R-3.2.3 sci-CRAN/surveyplanning sci-CRAN/laeken dev-lang/R
+DEPEND=>=dev-lang/R-3.2.3 >=sci-CRAN/data_table-1.12.6 sci-CRAN/foreach sci-CRAN/stringr virtual/MASS sci-CRAN/surveyplanning sci-CRAN/laeken dev-lang/R
 DESCRIPTION=Variance Estimation for Sample S... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=EUPL-1.1
-RDEPEND=>=sci-CRAN/data_table-1.12.6 virtual/MASS sci-CRAN/foreach sci-CRAN/stringr >=dev-lang/R-3.2.3 sci-CRAN/surveyplanning sci-CRAN/laeken dev-lang/R
+RDEPEND=>=dev-lang/R-3.2.3 >=sci-CRAN/data_table-1.12.6 sci-CRAN/foreach sci-CRAN/stringr virtual/MASS sci-CRAN/surveyplanning sci-CRAN/laeken dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/vardpoor_0.20.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=4019f5c69d73608bc55685d311d16868
+_md5_=562d302c629f3b5bf4b8b037a4170f43

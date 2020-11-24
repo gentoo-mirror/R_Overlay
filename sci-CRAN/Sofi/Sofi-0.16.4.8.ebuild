@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/sampling
-	virtual/foreign
 	sci-CRAN/shiny
+	virtual/foreign
+	sci-CRAN/sampling
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

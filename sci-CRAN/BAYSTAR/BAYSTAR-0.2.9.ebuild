@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/BAYSTAR_0.2-9.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/mvtnorm
 	sci-CRAN/coda
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

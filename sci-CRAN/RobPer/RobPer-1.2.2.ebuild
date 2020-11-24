@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RobPer_1.2.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/robustbase
+	sci-CRAN/BB
 	sci-CRAN/quantreg
 	sci-CRAN/rgenoud
-	sci-CRAN/BB
 "
 RDEPEND="${DEPEND-}"

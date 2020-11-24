@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_wpp2015? ( sci-CRAN/wpp2015 )
 	r_suggests_wpp2017? ( sci-CRAN/wpp2017 )
 "
-DEPEND="sci-CRAN/shinyjs
-	sci-CRAN/wpp2019
-	sci-CRAN/Hmisc
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/DT
+	sci-CRAN/ggplot2
+	sci-CRAN/shinyjs
+	>=sci-CRAN/shiny-0.13.0
+	sci-CRAN/shinythemes
 	sci-CRAN/plyr
 	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	sci-CRAN/DT
-	>=dev-lang/R-3.0.0
-	sci-CRAN/shinythemes
-	>=sci-CRAN/shiny-0.13.0
 	sci-CRAN/googleVis
+	sci-CRAN/wpp2019
+	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

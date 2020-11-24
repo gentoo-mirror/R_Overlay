@@ -12,19 +12,19 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/baseline
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/plyr
-	sci-CRAN/viridis
-	sci-CRAN/ggplot2
-	sci-CRAN/signal
-	sci-CRAN/RColorBrewer
-	sci-CRAN/jsonlite
-	sci-BIOC/BiocGenerics
-	sci-CRAN/data_table
-	sci-CRAN/magrittr
 	sci-CRAN/nnls
+	sci-CRAN/signal
+	sci-CRAN/jsonlite
+	sci-CRAN/viridis
+	sci-CRAN/hNMF
+	sci-CRAN/baseline
+	sci-CRAN/ggplot2
+	sci-BIOC/BiocGenerics
+	sci-CRAN/magrittr
 	sci-CRAN/NMF
 	sci-CRAN/plotly
-	sci-CRAN/hNMF
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

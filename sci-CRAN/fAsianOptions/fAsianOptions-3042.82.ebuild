@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
-DEPEND="sci-CRAN/timeSeries
-	sci-CRAN/fOptions
+DEPEND=">=dev-lang/R-2.15.1
 	sci-CRAN/timeDate
+	sci-CRAN/timeSeries
 	sci-CRAN/fBasics
-	>=dev-lang/R-2.15.1
+	sci-CRAN/fOptions
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/magrittr
 	>=sci-CRAN/Rcpp-0.12.0
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

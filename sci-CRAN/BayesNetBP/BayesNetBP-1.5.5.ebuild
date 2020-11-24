@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND="sci-CRAN/fields
+DEPEND="sci-CRAN/doBy
+	sci-CRAN/bnlearn
+	sci-CRAN/qtl
 	sci-BIOC/graph
-	sci-CRAN/doBy
-	sci-CRAN/RColorBrewer
 	>=dev-lang/R-3.6.0
 	sci-CRAN/igraph
-	sci-CRAN/qtl
-	sci-CRAN/bnlearn
+	sci-CRAN/RColorBrewer
+	sci-CRAN/fields
 	sci-CRAN/qtlnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

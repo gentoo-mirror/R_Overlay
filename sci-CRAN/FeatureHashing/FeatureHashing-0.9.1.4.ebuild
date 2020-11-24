@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=sci-CRAN/digest-0.6.8
+DEPEND=">=dev-lang/R-3.1
 	>=sci-CRAN/Rcpp-0.11
-	>=sci-CRAN/magrittr-1.5
 	virtual/Matrix
-	>=dev-lang/R-3.1
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/digest-0.6.8
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	>=sci-CRAN/digest-0.6.8
 	>=sci-CRAN/BH-1.54.0.1
+	>=sci-CRAN/digest-0.6.8
 	${R_SUGGESTS-}
 "
 

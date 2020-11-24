@@ -11,16 +11,16 @@ SRC_URI="http://cran.r-project.org/src/contrib/CovTools_0.5.3.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/mvtnorm
 	virtual/Matrix
-	sci-CRAN/expm
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
-	sci-CRAN/SHT
-	sci-CRAN/Rcpp
+	sci-CRAN/mvtnorm
 	sci-CRAN/shapes
-	sci-CRAN/geigen
 	sci-CRAN/pracma
+	sci-CRAN/SHT
+	sci-CRAN/geigen
+	sci-CRAN/expm
+	sci-CRAN/Rcpp
+	sci-CRAN/foreach
 	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-}

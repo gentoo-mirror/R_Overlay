@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_optimx? ( sci-CRAN/optimx )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/Rsolnp
-	sci-CRAN/zoo
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/dplyr
-	sci-CRAN/plyr
+	sci-CRAN/ggplot2
+	sci-CRAN/zoo
+	sci-CRAN/Rsolnp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

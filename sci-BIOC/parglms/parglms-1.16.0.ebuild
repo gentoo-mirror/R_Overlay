@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_sandwich? ( sci-CRAN/sandwich )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/doParallel
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/BatchJobs
+	sci-CRAN/foreach
 	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

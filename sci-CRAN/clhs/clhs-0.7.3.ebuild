@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/cluster
+DEPEND=">=dev-lang/R-2.14.0
+	sci-CRAN/reshape2
 	sci-CRAN/raster
-	>=dev-lang/R-2.14.0
 	sci-CRAN/sp
 	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
 	sci-CRAN/plyr
 	sci-CRAN/scales
+	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

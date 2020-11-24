@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/magrittr
 	sci-CRAN/igraph
 	sci-BIOC/Rgraphviz
-	>=sci-CRAN/gRbase-1.8.6.6
 	sci-BIOC/graph
-	sci-CRAN/magrittr
 	>=sci-CRAN/Rcpp-0.11.1
+	>=sci-CRAN/gRbase-1.8.6.6
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.1
-	sci-CRAN/gRbase
 	sci-CRAN/RcppEigen
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/gRbase
 	${R_SUGGESTS-}
 "
 

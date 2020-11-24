@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/RSelenium
 	virtual/foreign
-	sci-CRAN/purrr
 	sci-CRAN/rio
 	sci-CRAN/magrittr
+	sci-CRAN/purrr
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

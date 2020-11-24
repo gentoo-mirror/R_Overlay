@@ -21,11 +21,11 @@ R_SUGGESTS="
 	r_suggests_tgp? ( sci-CRAN/tgp )
 "
 DEPEND="sci-CRAN/Rdpack
-	sci-CRAN/pracma
 	virtual/Matrix
-	sci-CRAN/HDInterval
-	sci-CRAN/tmvtnorm
+	sci-CRAN/pracma
 	sci-CRAN/LaplacesDemon
+	sci-CRAN/tmvtnorm
+	sci-CRAN/HDInterval
 	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

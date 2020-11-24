@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/BMA
 	virtual/boot
-	>=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/leaps
+	>=sci-CRAN/Rcpp-0.12.12
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

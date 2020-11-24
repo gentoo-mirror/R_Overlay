@@ -26,15 +26,15 @@ R_SUGGESTS="
 	r_suggests_seriation? ( sci-CRAN/seriation )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/tidyr
-	sci-CRAN/magrittr
-	sci-CRAN/igraph
-	sci-CRAN/tibble
+DEPEND="sci-CRAN/tibble
+	sci-CRAN/tidyr
+	sci-CRAN/pillar
 	>=sci-CRAN/dplyr-0.8.5
+	sci-CRAN/igraph
+	sci-CRAN/magrittr
 	sci-CRAN/rlang
 	sci-CRAN/R6
 	sci-CRAN/Rcpp
-	sci-CRAN/pillar
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

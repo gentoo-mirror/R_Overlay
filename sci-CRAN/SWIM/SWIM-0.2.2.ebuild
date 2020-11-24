@@ -24,9 +24,9 @@ R_SUGGESTS="
 	r_suggests_weighted_desc_stat? ( sci-CRAN/Weighted_Desc_Stat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/Rdpack-0.7
 	sci-CRAN/nleqslv
 	sci-CRAN/Hmisc
+	>=sci-CRAN/Rdpack-0.7
 	sci-CRAN/reshape2
 	sci-CRAN/plyr
 	sci-CRAN/ggplot2

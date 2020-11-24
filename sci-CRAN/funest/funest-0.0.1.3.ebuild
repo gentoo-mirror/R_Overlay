@@ -12,15 +12,15 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="virtual/survival
-	sci-CRAN/prodlim
-	sci-CRAN/MFPCA
-	>=dev-lang/R-3.5.0
-	sci-CRAN/ranger
-	sci-CRAN/funData
-	sci-CRAN/pec
-	sci-CRAN/tdROC
-	sci-CRAN/Rdpack
+DEPEND="sci-CRAN/ranger
 	sci-CRAN/purrr
+	sci-CRAN/prodlim
+	sci-CRAN/tdROC
+	>=dev-lang/R-3.5.0
+	virtual/survival
+	sci-CRAN/funData
+	sci-CRAN/MFPCA
+	sci-CRAN/pec
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/GB2group_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/minpack_lm
-	sci-CRAN/numDeriv
-	sci-CRAN/GB2
 	sci-CRAN/ineq
+	sci-CRAN/minpack_lm
+	sci-CRAN/GB2
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

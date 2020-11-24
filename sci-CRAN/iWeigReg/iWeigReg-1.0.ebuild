@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/iWeigReg_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/trust
+DEPEND="sci-CRAN/trust
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

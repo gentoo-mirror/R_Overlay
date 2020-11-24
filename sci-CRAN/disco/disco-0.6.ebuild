@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/disco_0.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/tmod
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/RColorBrewer
+	sci-CRAN/tmod
 "
 RDEPEND="${DEPEND-}"

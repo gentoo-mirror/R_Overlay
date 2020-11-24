@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND=">=sci-CRAN/httr-1.4.1
+	>=dev-lang/R-3.5.0
 	sci-CRAN/readr
 	>=sci-CRAN/sf-0.9.3
-	>=sci-CRAN/httr-1.4.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

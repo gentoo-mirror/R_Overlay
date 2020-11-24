@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6
-	>=sci-CRAN/R6-2.4.0
-	>=sci-CRAN/wyz_code_offensiveProgramming-1.1.17
-	sci-CRAN/tidyr
+DEPEND=">=sci-CRAN/data_table-1.11.8
 	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/crayon-1.3.4
 	>=sci-CRAN/digest-0.6.23
-	>=sci-CRAN/data_table-1.11.8
+	>=sci-CRAN/crayon-1.3.4
+	>=dev-lang/R-3.6
+	sci-CRAN/tidyr
+	>=sci-CRAN/wyz_code_offensiveProgramming-1.1.17
+	>=sci-CRAN/R6-2.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

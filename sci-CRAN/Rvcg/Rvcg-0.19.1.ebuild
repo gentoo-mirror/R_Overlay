@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_morpho? ( sci-CRAN/Morpho )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND="sci-CRAN/Rcpp
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/RcppEigen
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

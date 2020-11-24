@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/ggplot2-2.2.0
 	sci-CRAN/scales
+	>=sci-CRAN/ggplot2-2.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

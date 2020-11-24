@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_glpk"
 R_SUGGESTS="r_suggests_glpk? ( sci-mathematics/glpk )"
 DEPEND=">=dev-lang/R-3.0.3
 	virtual/Matrix
-	virtual/MASS
 	sci-CRAN/sybil
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

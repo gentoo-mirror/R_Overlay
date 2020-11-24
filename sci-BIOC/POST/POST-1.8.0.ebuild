@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/POST_1.8.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/CompQuadForm
+DEPEND="sci-CRAN/CompQuadForm
+	sci-BIOC/GSEABase
 	virtual/survival
+	>=dev-lang/R-3.4.0
 	virtual/Matrix
 	sci-BIOC/Biobase
-	sci-BIOC/GSEABase
 "
 RDEPEND="${DEPEND-}"

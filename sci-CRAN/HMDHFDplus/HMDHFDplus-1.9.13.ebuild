@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/HMDHFDplus_1.9.13.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.2
+	sci-CRAN/XML
 	sci-CRAN/RCurl
 	sci-CRAN/httr
-	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-}"

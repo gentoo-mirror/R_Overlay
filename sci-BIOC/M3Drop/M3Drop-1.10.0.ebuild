@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_seurat? ( sci-CRAN/Seurat )
 "
 DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/gplots
-	sci-CRAN/irlba
-	sci-CRAN/RColorBrewer
+	virtual/Matrix
 	sci-CRAN/numDeriv
-	sci-CRAN/reldist
+	sci-CRAN/RColorBrewer
+	sci-CRAN/gplots
 	sci-CRAN/Hmisc
 	sci-CRAN/bbmle
 	sci-CRAN/statmod
 	virtual/Matrix
-	virtual/Matrix
+	sci-CRAN/irlba
+	sci-CRAN/reldist
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_prettydoc? ( sci-CRAN/prettydoc )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/mnormt
+DEPEND="sci-CRAN/corpcor
+	sci-CRAN/pacman
 	sci-CRAN/irlba
 	sci-CRAN/fdrtool
-	sci-CRAN/corpcor
-	sci-CRAN/pacman
+	sci-CRAN/mnormt
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/gamlss.cens_5.0-1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/gamlss_dist
-	sci-CRAN/gamlss
 	virtual/survival
+	sci-CRAN/gamlss
 "
 RDEPEND="${DEPEND-}"

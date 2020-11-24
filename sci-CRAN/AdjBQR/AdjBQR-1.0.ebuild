@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/AdjBQR_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/quantreg
-	sci-CRAN/MHadaptive
 	sci-CRAN/coda
 	virtual/survival
+	sci-CRAN/MHadaptive
 "
 RDEPEND="${DEPEND-}"

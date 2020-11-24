@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MNLR_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/rmarkdown
+DEPEND=">=dev-lang/R-3.0.3
 	sci-CRAN/e1071
 	sci-CRAN/shiny
-	virtual/nnet
 	sci-CRAN/caret
-	>=dev-lang/R-3.0.3
+	sci-CRAN/rmarkdown
+	virtual/nnet
 "
 RDEPEND="${DEPEND-}"

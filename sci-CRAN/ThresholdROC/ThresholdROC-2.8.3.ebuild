@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ThresholdROC_2.8.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
-	virtual/MASS
 	sci-CRAN/pROC
 	sci-CRAN/numDeriv
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

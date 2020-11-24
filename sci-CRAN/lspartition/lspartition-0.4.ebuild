@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lspartition_0.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/combinat
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.1
 	virtual/Matrix
-	>=dev-lang/R-3.1
-	sci-CRAN/pracma
 	virtual/mgcv
-	sci-CRAN/ggplot2
+	sci-CRAN/combinat
+	sci-CRAN/pracma
+	virtual/MASS
 	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

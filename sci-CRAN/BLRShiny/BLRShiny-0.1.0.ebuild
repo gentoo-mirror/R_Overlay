@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BLRShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/caret
-	sci-CRAN/ggplot2
-	sci-CRAN/e1071
+DEPEND=">=dev-lang/R-3.0.3
 	sci-CRAN/rmarkdown
-	>=dev-lang/R-3.0.3
-	sci-CRAN/shiny
+	sci-CRAN/caret
+	sci-CRAN/e1071
 	sci-CRAN/dplyr
 	sci-CRAN/rhandsontable
+	sci-CRAN/ggplot2
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"

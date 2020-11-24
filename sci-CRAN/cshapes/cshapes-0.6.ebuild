@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cshapes_0.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/maptools-0.8.21
-	>=sci-CRAN/sp-1.0.5
+DEPEND=">=sci-CRAN/sp-1.0.5
+	>=sci-CRAN/maptools-0.8.21
 	>=sci-CRAN/plyr-1.8
 "
 RDEPEND="${DEPEND-}"

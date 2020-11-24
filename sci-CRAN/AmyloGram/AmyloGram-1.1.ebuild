@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AmyloGram_1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ranger
-	sci-CRAN/seqinr
-	sci-CRAN/shiny
-	>=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/biogram
+	sci-CRAN/seqinr
+	>=dev-lang/R-3.0.0
+	sci-CRAN/ranger
 "
 RDEPEND="${DEPEND-}"

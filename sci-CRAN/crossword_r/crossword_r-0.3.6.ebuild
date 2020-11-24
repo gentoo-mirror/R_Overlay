@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/R6-2.2.0
+	>=sci-CRAN/stringr-1.2.0
 	>=sci-CRAN/jsonlite-1.5
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/stringr-1.2.0
 	>=sci-CRAN/dplyr-0.5.0
 	>=sci-CRAN/r6extended-0.1.1
 "

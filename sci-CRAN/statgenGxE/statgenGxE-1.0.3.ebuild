@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/gridExtra
-	sci-CRAN/emmeans
-	>=sci-CRAN/ggplot2-3.3.0
 	sci-CRAN/knitr
+	sci-CRAN/gridExtra
+	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/emmeans
 	sci-CRAN/lme4
 	>=sci-CRAN/statgenSTA-1.0.6
 	sci-CRAN/xtable

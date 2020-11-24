@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="virtual/survival
-	sci-CRAN/ggpubr
-	>sci-CRAN/ggplot2-2.1.0
 	sci-CRAN/gridExtra
+	>sci-CRAN/ggplot2-2.1.0
+	sci-CRAN/ggpubr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

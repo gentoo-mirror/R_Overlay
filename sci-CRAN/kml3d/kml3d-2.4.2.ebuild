@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/longitudinalData-2.4.1
 	>=sci-CRAN/kml-2.4.1
-	sci-CRAN/clv
-	sci-CRAN/rgl
 	sci-CRAN/misc3d
+	sci-CRAN/rgl
+	sci-CRAN/clv
 "
 RDEPEND="${DEPEND-}"

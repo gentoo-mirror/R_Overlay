@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tweedie? ( sci-CRAN/tweedie )
 "
-DEPEND=">=dev-lang/R-3.2.1
+DEPEND="sci-CRAN/assertthat
 	virtual/Matrix
-	sci-CRAN/assertthat
 	>=sci-CRAN/Rcpp-0.12.16
+	>=dev-lang/R-3.2.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

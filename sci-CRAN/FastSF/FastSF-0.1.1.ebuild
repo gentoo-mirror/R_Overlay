@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/FastSF_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/Rcpp-0.12.10
 	sci-CRAN/limSolve
+	>=sci-CRAN/Rcpp-0.12.10
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

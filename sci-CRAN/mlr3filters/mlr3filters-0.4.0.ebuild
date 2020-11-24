@@ -25,12 +25,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/checkmate
 	sci-CRAN/mlr3misc
-	sci-CRAN/backports
+	sci-CRAN/checkmate
 	>=sci-CRAN/mlr3-0.1.8
 	sci-CRAN/data_table
 	sci-CRAN/paradox
+	sci-CRAN/backports
 	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

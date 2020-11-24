@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/abind
-	sci-CRAN/future_apply
-	sci-CRAN/assertthat
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/data_table
-	>=dev-lang/R-3.0.0
 	sci-CRAN/future
+	sci-CRAN/abind
+	sci-CRAN/assertthat
+	sci-CRAN/future_apply
 	sci-CRAN/listenv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

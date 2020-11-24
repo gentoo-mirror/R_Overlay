@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/riskPredictClustData_0.2.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/Hmisc
 	virtual/MASS
 	sci-CRAN/mvtnorm
-	sci-CRAN/Hmisc
+	>=dev-lang/R-3.4.0
 	sci-CRAN/gee
 "
 RDEPEND="${DEPEND-}"

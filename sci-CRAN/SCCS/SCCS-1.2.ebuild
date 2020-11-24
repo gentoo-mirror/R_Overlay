@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/SCCS_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/corpcor
+	sci-CRAN/R_methodsS3
 	sci-CRAN/gnm
+	>=dev-lang/R-2.14.0
 	virtual/survival
 	sci-CRAN/dummies
-	>=dev-lang/R-2.14.0
 	sci-CRAN/fda
-	sci-CRAN/R_methodsS3
 "
 RDEPEND="${DEPEND-}"

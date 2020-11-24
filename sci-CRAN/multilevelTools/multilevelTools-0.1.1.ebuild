@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/lme4
-	>=sci-CRAN/extraoperators-0.1.1
-	>=sci-CRAN/JWileymisc-1.1.0
-	sci-CRAN/lmerTest
+DEPEND=">=sci-CRAN/extraoperators-0.1.1
 	sci-CRAN/lavaan
-	sci-CRAN/zoo
-	virtual/nlme
-	>=sci-CRAN/data_table-1.12.0
-	sci-CRAN/cowplot
 	sci-CRAN/ggplot2
+	sci-CRAN/cowplot
+	>=sci-CRAN/JWileymisc-1.1.0
+	sci-CRAN/zoo
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/data_table-1.12.0
+	virtual/nlme
+	sci-CRAN/lme4
+	sci-CRAN/lmerTest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

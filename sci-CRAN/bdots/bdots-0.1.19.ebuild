@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bdots_0.1.19.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/nlme
-	sci-CRAN/doParallel
-	sci-CRAN/mvtnorm
-	virtual/Matrix
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/doRNG
+	sci-CRAN/mvtnorm
 	sci-CRAN/foreach
+	virtual/nlme
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

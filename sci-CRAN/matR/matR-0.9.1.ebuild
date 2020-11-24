@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_rjsonio? ( sci-CRAN/RJSONIO )
 	r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d )
 "
-DEPEND="sci-CRAN/MGRASTer
-	sci-CRAN/BIOM_utils
+DEPEND="sci-CRAN/BIOM_utils
+	sci-CRAN/MGRASTer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

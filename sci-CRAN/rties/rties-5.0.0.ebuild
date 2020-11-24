@@ -21,17 +21,17 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/dplyr
 	sci-CRAN/deSolve
 	sci-CRAN/DescTools
+	sci-CRAN/DataCombine
 	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
 	sci-CRAN/interactions
 	virtual/lattice
 	sci-CRAN/mclust
 	virtual/nlme
-	sci-CRAN/plyr
-	sci-CRAN/zoo
-	sci-CRAN/DataCombine
 	sci-CRAN/lme4
 	virtual/MASS
+	sci-CRAN/plyr
+	sci-CRAN/zoo
 	virtual/nnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

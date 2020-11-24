@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/TreatmentSelection_2.1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/ggplot2
-	virtual/survival
 	sci-CRAN/binom
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

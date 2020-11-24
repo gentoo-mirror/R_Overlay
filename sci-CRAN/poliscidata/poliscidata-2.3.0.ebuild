@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d )
 "
-DEPEND="sci-CRAN/descr
-	sci-CRAN/xtable
-	sci-CRAN/gplots
-	sci-CRAN/survey
-	sci-CRAN/weights
-	sci-CRAN/car
-	sci-CRAN/plotrix
-	sci-CRAN/Hmisc
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/plotrix
 	sci-CRAN/abind
+	sci-CRAN/weights
+	sci-CRAN/Hmisc
+	sci-CRAN/descr
+	sci-CRAN/plyr
+	sci-CRAN/gplots
+	sci-CRAN/xtable
+	sci-CRAN/survey
+	sci-CRAN/car
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

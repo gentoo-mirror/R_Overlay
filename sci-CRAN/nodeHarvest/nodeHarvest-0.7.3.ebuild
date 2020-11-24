@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nodeHarvest_0.7-3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/randomForest
-	sci-CRAN/quadprog
+DEPEND="sci-CRAN/quadprog
+	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-}"

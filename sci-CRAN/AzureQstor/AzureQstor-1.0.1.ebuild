@@ -19,7 +19,7 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.3
 	>=sci-CRAN/AzureStor-3.0.0
 	sci-CRAN/httr
-	sci-CRAN/openssl
 	>=sci-CRAN/AzureRMR-2.0.0
+	sci-CRAN/openssl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

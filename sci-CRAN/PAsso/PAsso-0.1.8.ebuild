@@ -23,22 +23,22 @@ R_SUGGESTS="
 	r_suggests_rms? ( sci-CRAN/rms )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/goftest
-	>=sci-CRAN/progress-1.2.0
-	>=sci-CRAN/pcaPP-1.9.73
-	sci-CRAN/VGAM
-	sci-CRAN/dplyr
-	>=sci-CRAN/foreach-1.4.8
-	sci-CRAN/GGally
-	sci-CRAN/copula
-	>=sci-CRAN/ggplot2-2.2.1
-	virtual/MASS
-	>=sci-CRAN/doParallel-1.0.11
-	>=dev-lang/R-3.5.0
-	sci-CRAN/copBasic
+DEPEND=">=sci-CRAN/pcaPP-1.9.73
 	sci-CRAN/tidyverse
-	sci-CRAN/gridExtra
+	virtual/MASS
+	sci-CRAN/GGally
 	sci-CRAN/plotly
+	sci-CRAN/copBasic
+	sci-CRAN/gridExtra
+	sci-CRAN/VGAM
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/foreach-1.4.8
+	sci-CRAN/dplyr
+	>=sci-CRAN/doParallel-1.0.11
+	sci-CRAN/goftest
+	sci-CRAN/copula
+	>=sci-CRAN/progress-1.2.0
+	>=sci-CRAN/ggplot2-2.2.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

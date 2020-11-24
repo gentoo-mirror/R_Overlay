@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/rgeos sci-CRAN/sp sci-CRAN/adehabitatLT dev-lang/R
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/adehabitatLT sci-CRAN/rgeos sci-CRAN/sp dev-lang/R
 DESCRIPTION=Calculate Indices of Dynamic Int... (see metadata)
 EAPI=7
 IUSE=r_suggests_adehabitathr r_suggests_knitr byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/rgeos sci-CRAN/sp sci-CRAN/adehabitatLT r_suggests_adehabitathr? ( sci-CRAN/adehabitatHR ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/adehabitatLT sci-CRAN/rgeos sci-CRAN/sp r_suggests_adehabitathr? ( sci-CRAN/adehabitatHR ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/wildlifeDI_0.3.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=da9219511e86b11cf1bfa9fa30db7922
+_md5_=321aa0ece0389cffe8edb0dc314a9f40

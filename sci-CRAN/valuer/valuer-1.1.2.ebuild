@@ -21,12 +21,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.5
-	>=sci-CRAN/yuima-1.1.6
-	sci-CRAN/ggplot2
+	>=sci-CRAN/timeDate-3012.100
 	>=sci-CRAN/RcppEigen-0.3.2.8.1
 	>=sci-CRAN/R6-2.1.2
 	>=sci-CRAN/orthopolynom-1.0.5
-	>=sci-CRAN/timeDate-3012.100
+	>=sci-CRAN/yuima-1.1.6
+	sci-CRAN/ggplot2
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

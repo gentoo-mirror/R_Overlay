@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/affyPara_1.44.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-BIOC/affy-1.20.0
+DEPEND=">=sci-CRAN/snow-0.2.3
 	>=sci-BIOC/vsn-3.6.0
 	>=sci-CRAN/aplpack-1.1.1
-	>=sci-CRAN/snow-0.2.3
+	>=sci-BIOC/affy-1.20.0
 	sci-BIOC/affyio
 "
 RDEPEND="${DEPEND-}"

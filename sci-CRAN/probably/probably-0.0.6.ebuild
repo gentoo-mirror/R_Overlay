@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_rsample? ( sci-CRAN/rsample )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/rlang-0.4.0
-	sci-CRAN/generics
-	>=sci-CRAN/vctrs-0.3.0
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/yardstick
 	sci-CRAN/tidyselect
-	sci-CRAN/yardstick
+	sci-CRAN/dplyr
+	sci-CRAN/generics
+	>=sci-CRAN/rlang-0.4.0
+	>=sci-CRAN/vctrs-0.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,7 +12,7 @@ LICENSE='BSD-2'
 
 DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/jsonlite
-	sci-CRAN/httr
 	sci-CRAN/stringr
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

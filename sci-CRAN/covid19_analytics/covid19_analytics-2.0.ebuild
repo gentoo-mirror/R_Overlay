@@ -21,9 +21,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/readxl
 	sci-CRAN/rentrez
-	sci-CRAN/plotly
 	sci-CRAN/ape
 	sci-CRAN/htmlwidgets
+	sci-CRAN/plotly
 	sci-CRAN/deSolve
 	sci-CRAN/gplots
 	sci-CRAN/pheatmap

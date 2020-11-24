@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/GeneticsDesign_1.52.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/gmodels
-	>=sci-CRAN/gtools-2.4.0
+DEPEND=">=sci-CRAN/gtools-2.4.0
+	sci-CRAN/gmodels
 	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

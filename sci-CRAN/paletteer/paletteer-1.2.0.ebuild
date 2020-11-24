@@ -30,10 +30,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
-DEPEND="sci-CRAN/prismatic
-	sci-CRAN/rematch2
+DEPEND="sci-CRAN/rstudioapi
 	sci-CRAN/rlang
-	sci-CRAN/rstudioapi
+	sci-CRAN/rematch2
+	sci-CRAN/prismatic
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

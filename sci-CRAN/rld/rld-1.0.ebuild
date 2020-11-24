@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rld_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/emdbook
-	virtual/MASS
+DEPEND="virtual/MASS
 	virtual/survival
 	>=dev-lang/R-3.0.2
+	sci-CRAN/emdbook
 "
 RDEPEND="${DEPEND-}"

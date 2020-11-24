@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/COVID19_2.3.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
 	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"
 

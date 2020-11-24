@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/pstest_0.1.3.900.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/glmx
 	virtual/MASS
+	sci-CRAN/glmx
 "
 RDEPEND="${DEPEND-}"

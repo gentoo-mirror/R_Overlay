@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/sideChannelAttack_1.0-6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/ade4
-	sci-CRAN/mmap
-	sci-CRAN/corpcor
 	sci-CRAN/infotheo
+	sci-CRAN/corpcor
 	virtual/MASS
+	sci-CRAN/mmap
 "
 RDEPEND="${DEPEND-}"

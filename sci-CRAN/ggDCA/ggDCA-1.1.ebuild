@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ggDCA_1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/base_rms
-	sci-CRAN/do
+DEPEND=">=sci-CRAN/rms-6.0.1
 	sci-CRAN/set
-	>=sci-CRAN/rms-6.0.1
+	sci-CRAN/do
+	sci-CRAN/base_rms
+	sci-CRAN/ggplot2
 	virtual/survival
 "
 RDEPEND="${DEPEND-}"

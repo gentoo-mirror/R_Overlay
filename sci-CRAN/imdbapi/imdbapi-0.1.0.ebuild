@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/imdbapi_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/dplyr
 	sci-CRAN/stringr
 	sci-CRAN/httr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

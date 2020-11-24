@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/verification_1.42.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/fields
+DEPEND="virtual/boot
+	sci-CRAN/dtw
 	virtual/MASS
 	sci-CRAN/CircStats
-	virtual/boot
-	sci-CRAN/dtw
+	sci-CRAN/fields
 "
 RDEPEND="${DEPEND-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BAMMtools_2.1.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ape
+DEPEND=">=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/ape
 	sci-CRAN/gplots
-	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}"

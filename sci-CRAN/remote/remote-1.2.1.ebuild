@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 "
 DEPEND="sci-CRAN/raster
-	sci-CRAN/mapdata
 	sci-CRAN/gridExtra
-	>=sci-CRAN/Rcpp-0.10.3
+	sci-CRAN/mapdata
 	virtual/lattice
+	>=sci-CRAN/Rcpp-0.10.3
 	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}

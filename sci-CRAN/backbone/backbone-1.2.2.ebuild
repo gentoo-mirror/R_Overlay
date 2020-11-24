@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_speedglm? ( sci-CRAN/speedglm )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/igraph
-	virtual/Matrix
-	sci-CRAN/Rcpp
+DEPEND="virtual/Matrix
 	sci-CRAN/network
+	sci-CRAN/igraph
+	sci-CRAN/Rcpp
 	sci-CRAN/CVXR
 "
 RDEPEND="${DEPEND-}

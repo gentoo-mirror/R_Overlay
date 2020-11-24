@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/metafor
-	virtual/boot
-	>=sci-CRAN/ggplot2-2.2.1
 	sci-CRAN/MetaUtility
+	virtual/boot
 	sci-CRAN/dplyr
+	>=sci-CRAN/ggplot2-2.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

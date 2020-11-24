@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/cooccur_1.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/reshape2
-	sci-CRAN/ggplot2
 	sci-CRAN/gmp
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

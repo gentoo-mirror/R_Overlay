@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SHT_0.1.3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/fastclime
-	sci-CRAN/Rcpp
-	sci-CRAN/pracma
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/Rdpack
+	sci-CRAN/fastclime
+	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/predictionInterval_1.0.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/pbapply
 	sci-CRAN/MBESS
+	sci-CRAN/pbapply
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

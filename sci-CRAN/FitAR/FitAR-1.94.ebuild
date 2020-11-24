@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FitAR_1.94.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/leaps
-	sci-CRAN/bestglm
+DEPEND="sci-CRAN/ltsa
 	sci-CRAN/ltsa
-	virtual/lattice
 	virtual/lattice
 	sci-CRAN/leaps
-	sci-CRAN/ltsa
+	virtual/lattice
+	sci-CRAN/bestglm
+	sci-CRAN/leaps
 "
 RDEPEND="${DEPEND-}"

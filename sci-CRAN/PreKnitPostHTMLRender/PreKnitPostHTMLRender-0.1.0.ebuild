@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PreKnitPostHTMLRender_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/knitr-1.13
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/XML-3.98.1.4
-	>=dev-lang/R-3.3.0
+	>=sci-CRAN/knitr-1.13
 	>=sci-CRAN/rmarkdown-0.9.6
 "
 RDEPEND="${DEPEND-}"

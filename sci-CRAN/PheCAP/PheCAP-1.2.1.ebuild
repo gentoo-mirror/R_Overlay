@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_randomforestsrc? ( sci-CRAN/randomForestSRC )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/glmnet
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/RMySQL
-	>=dev-lang/R-3.3.0
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/asht-0.9.1
+DEPEND="sci-CRAN/exactci
+	>=sci-CRAN/asht-0.9.1
 	sci-CRAN/loglognorm
-	sci-CRAN/exactci
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -14,14 +14,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/ggplot2
-	sci-CRAN/mvtnorm
+DEPEND=">=sci-CRAN/gridExtra-2.3
 	virtual/lattice
-	>=sci-CRAN/gridExtra-2.3
-	virtual/MASS
-	virtual/lattice
-	sci-CRAN/splines2
 	sci-CRAN/reshape2
+	sci-CRAN/splines2
+	>=dev-lang/R-3.0.0
+	sci-CRAN/mvtnorm
+	sci-CRAN/ggplot2
+	virtual/lattice
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
 DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/jsonlite-1.5
-	>=sci-CRAN/dplyr-0.7.4
 	>=sci-CRAN/httr-1.3.1
+	>=sci-CRAN/jsonlite-1.5
+	>=sci-CRAN/assertthat-0.2.0
+	>=sci-CRAN/dplyr-0.7.4
 	>=sci-CRAN/purrr-0.2.4
 	>=sci-CRAN/stringr-1.2.0
 	>=sci-CRAN/tibble-1.4.2

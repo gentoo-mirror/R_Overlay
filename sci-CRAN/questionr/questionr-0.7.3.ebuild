@@ -25,8 +25,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/htmltools
 	>=sci-CRAN/labelled-2.6.0
-	sci-CRAN/miniUI
 	sci-CRAN/rstudioapi
+	sci-CRAN/miniUI
 	>=dev-lang/R-3.5.0
 	>=sci-CRAN/shiny-1.0.5
 	sci-CRAN/highr

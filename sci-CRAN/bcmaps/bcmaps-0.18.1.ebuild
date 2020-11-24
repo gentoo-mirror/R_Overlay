@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=sci-CRAN/sf-0.9
-	>=sci-CRAN/httr-1.3.1
 	>=sci-CRAN/rappdirs-0.3.1
+	>=sci-CRAN/httr-1.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

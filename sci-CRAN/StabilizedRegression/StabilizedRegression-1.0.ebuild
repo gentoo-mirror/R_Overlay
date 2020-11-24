@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/StabilizedRegression_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/MASS
-	sci-CRAN/ggrepel
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/ggplot2
 	sci-CRAN/corpcor
-	>=dev-lang/R-3.5
-	sci-CRAN/R6
 	sci-CRAN/glmnet
+	sci-CRAN/ggrepel
+	virtual/MASS
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}"

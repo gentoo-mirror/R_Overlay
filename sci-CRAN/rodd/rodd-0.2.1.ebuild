@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mvtnorm"
 R_SUGGESTS="r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )"
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/quadprog
-	virtual/Matrix
+DEPEND="sci-CRAN/quadprog
 	sci-CRAN/numDeriv
 	sci-CRAN/rootSolve
+	virtual/Matrix
+	>=dev-lang/R-3.0.0
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

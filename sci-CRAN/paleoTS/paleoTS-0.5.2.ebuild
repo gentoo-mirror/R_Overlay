@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/mnormt
 	sci-CRAN/iterators
 	sci-CRAN/doParallel
 	sci-CRAN/foreach
-	sci-CRAN/mnormt
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

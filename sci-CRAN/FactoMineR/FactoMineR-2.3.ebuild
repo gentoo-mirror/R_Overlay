@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_missmda? ( sci-CRAN/missMDA )
 "
-DEPEND="sci-CRAN/car
-	sci-CRAN/ggrepel
-	virtual/lattice
-	sci-CRAN/leaps
-	>=dev-lang/R-3.5.0
-	sci-CRAN/ellipse
+DEPEND=">=dev-lang/R-3.5.0
+	virtual/MASS
+	sci-CRAN/ggplot2
+	sci-CRAN/car
 	virtual/cluster
 	sci-CRAN/flashClust
-	virtual/MASS
+	sci-CRAN/ellipse
+	virtual/lattice
+	sci-CRAN/leaps
 	sci-CRAN/scatterplot3d
-	sci-CRAN/ggplot2
+	sci-CRAN/ggrepel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

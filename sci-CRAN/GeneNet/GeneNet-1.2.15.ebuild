@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_graph? ( sci-BIOC/graph )
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 "
-DEPEND=">=sci-CRAN/longitudinal-1.1.12
+DEPEND=">=sci-CRAN/corpcor-1.6.9
 	>=dev-lang/R-3.0.2
 	>=sci-CRAN/fdrtool-1.2.15
-	>=sci-CRAN/corpcor-1.6.9
+	>=sci-CRAN/longitudinal-1.1.12
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

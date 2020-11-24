@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GExMap_1.1.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/multtest
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
+	sci-BIOC/multtest
 "
 RDEPEND="${DEPEND-}"

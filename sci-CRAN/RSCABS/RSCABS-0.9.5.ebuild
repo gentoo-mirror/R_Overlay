@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RSCABS_0.9.5.tar.gz"
 LICENSE='CC0-1.0'
 
-DEPEND="sci-CRAN/gWidgets2RGtk2
+DEPEND="sci-CRAN/R2HTML
 	sci-CRAN/RGtk2
-	sci-CRAN/R2HTML
 	sci-CRAN/gWidgets2
+	sci-CRAN/gWidgets2RGtk2
 	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-}
 	x11-libs/cairo
-	x11-libs/gtk+
-	>=dev-libs/atk-1.10.0
-	x11-libs/pango
 	dev-libs/glib
+	>=dev-libs/atk-1.10.0
+	x11-libs/gtk+
+	x11-libs/pango
 "

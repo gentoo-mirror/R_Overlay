@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-CRAN/XML
-	virtual/codetools
 	sci-BIOC/graph
+	virtual/codetools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

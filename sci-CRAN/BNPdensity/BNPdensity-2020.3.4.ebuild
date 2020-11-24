@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_rmpfr? ( sci-CRAN/Rmpfr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/tidyr
-	sci-CRAN/gridExtra
-	virtual/survival
-	sci-CRAN/coda
-	sci-CRAN/ggplot2
+DEPEND="virtual/survival
 	sci-CRAN/dplyr
+	sci-CRAN/coda
+	sci-CRAN/tidyr
 	sci-CRAN/viridis
+	>=dev-lang/R-3.3.0
+	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

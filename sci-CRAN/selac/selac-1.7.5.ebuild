@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_phytools? ( sci-CRAN/phytools )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/deSolve
-	sci-CRAN/zoo
-	sci-CRAN/GenSA
-	sci-CRAN/RColorBrewer
-	sci-CRAN/nloptr
-	sci-CRAN/ape
-	virtual/nnet
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/data_table
+	sci-CRAN/seqinr
 	sci-CRAN/expm
 	virtual/MASS
-	virtual/Matrix
 	sci-CRAN/phangorn
-	sci-CRAN/seqinr
 	sci-CRAN/statmod
+	sci-CRAN/zoo
+	sci-CRAN/RColorBrewer
+	sci-CRAN/GenSA
+	sci-CRAN/ape
+	sci-CRAN/deSolve
+	virtual/nnet
+	sci-CRAN/nloptr
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

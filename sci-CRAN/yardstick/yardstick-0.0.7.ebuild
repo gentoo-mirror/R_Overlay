@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=sci-CRAN/dplyr-0.8.5
-	sci-CRAN/generics
+DEPEND="sci-CRAN/generics
 	>=sci-CRAN/pROC-1.15.0
+	>=sci-CRAN/dplyr-0.8.5
 	>=sci-CRAN/rlang-0.4.0
 	sci-CRAN/tidyselect
 "

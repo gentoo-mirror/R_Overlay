@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/SparseLPM_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.10
-	sci-CRAN/gtools
 	sci-CRAN/vegan
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

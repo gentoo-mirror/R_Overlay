@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_prettydoc? ( sci-CRAN/prettydoc )
 	r_suggests_vcd? ( sci-CRAN/vcd )
 "
-DEPEND="sci-CRAN/ggplot2
-	>=dev-lang/R-3.4.0
-	sci-CRAN/gridGraphics
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/rvcheck
+	sci-CRAN/ggplot2
+	sci-CRAN/gridGraphics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

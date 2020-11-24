@@ -9,10 +9,10 @@ DESCRIPTION='Internal Control Analysis of Tra... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/INCATome_1.0.tar.gz"
 
-DEPEND="sci-BIOC/limma
-	sci-BIOC/genefilter
-	sci-BIOC/RankProd
+DEPEND="sci-BIOC/siggenes
 	sci-BIOC/multtest
-	sci-BIOC/siggenes
+	sci-BIOC/RankProd
+	sci-BIOC/limma
+	sci-BIOC/genefilter
 "
 RDEPEND="${DEPEND-}"

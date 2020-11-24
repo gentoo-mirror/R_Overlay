@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_moments"
 R_SUGGESTS="r_suggests_moments? ( sci-CRAN/moments )"
 DEPEND="virtual/Matrix
 	virtual/MASS
-	sci-CRAN/BB
 	sci-CRAN/corpcor
+	sci-CRAN/BB
 	sci-CRAN/GenOrd
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

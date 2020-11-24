@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/survival_3.2-7.tar.gz"
 LICENSE='LGPL-2+'
 
 DEPEND=">=dev-lang/R-3.4.0
-	dev-lang/R[minimal]
 	virtual/Matrix
+	dev-lang/R[minimal]
 "
 RDEPEND="${DEPEND-}"

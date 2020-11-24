@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/miLineage_2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.1
+	sci-CRAN/geepack
 	virtual/MASS
 	sci-CRAN/data_table
-	sci-CRAN/geepack
 "
 RDEPEND="${DEPEND-}"

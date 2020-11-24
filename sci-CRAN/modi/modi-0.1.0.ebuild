@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="virtual/MASS
 	>=sci-CRAN/norm-1.0.9.5
-	virtual/MASS
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

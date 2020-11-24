@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-BIOC/BiocGenerics
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/psych
+	sci-BIOC/BiocGenerics
 	sci-BIOC/Biostrings
 	sci-CRAN/ape
-	sci-CRAN/psych
-	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

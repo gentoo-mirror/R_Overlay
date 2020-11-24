@@ -12,7 +12,7 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="virtual/Matrix
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

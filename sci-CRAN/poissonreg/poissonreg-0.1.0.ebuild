@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/parsnip-0.1.3.9000
+	sci-CRAN/rlang
+	sci-CRAN/dplyr
+	sci-CRAN/glue
 	sci-CRAN/tibble
 	sci-CRAN/purrr
-	sci-CRAN/dplyr
-	sci-CRAN/rlang
 	sci-CRAN/tidyr
-	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

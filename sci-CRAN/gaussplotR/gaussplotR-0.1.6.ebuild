@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/metR-0.7.0
-	>=sci-CRAN/ggplot2-3.3.0
+DEPEND=">=sci-CRAN/ggplot2-3.3.0
+	>=sci-CRAN/metR-0.7.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

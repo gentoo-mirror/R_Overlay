@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/covEB_1.10.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-3.3
+	sci-CRAN/mvtnorm
+	sci-CRAN/LaplacesDemon
+	sci-CRAN/gsl
 	sci-BIOC/Biobase
 	virtual/Matrix
 	sci-CRAN/igraph
-	>=dev-lang/R-3.3
-	sci-CRAN/gsl
-	sci-CRAN/LaplacesDemon
 "
 RDEPEND="${DEPEND-}"
 

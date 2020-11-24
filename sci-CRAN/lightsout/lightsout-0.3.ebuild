@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND=">=sci-CRAN/shinyjs-0.3.0
 	>=sci-CRAN/shiny-0.10.0
-	>=sci-CRAN/shinyjs-0.3.0
 	>=sci-CRAN/magrittr-1.5
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

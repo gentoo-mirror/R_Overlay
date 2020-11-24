@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_edger? ( sci-BIOC/edgeR )
 	r_suggests_scales? ( sci-CRAN/scales )
 "
-DEPEND="sci-CRAN/mclust
-	sci-BIOC/preprocessCore
-	sci-CRAN/quantreg
+DEPEND="sci-CRAN/quantreg
 	sci-CRAN/nor1mix
+	sci-CRAN/mclust
+	sci-BIOC/preprocessCore
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

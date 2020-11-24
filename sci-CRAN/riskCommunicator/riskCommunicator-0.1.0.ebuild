@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/magrittr
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/dplyr
-	sci-CRAN/gridExtra
-	>=dev-lang/R-3.5
-	virtual/boot
+	sci-CRAN/magrittr
 	sci-CRAN/purrr
+	sci-CRAN/ggplot2
 	sci-CRAN/rlang
+	virtual/boot
+	sci-CRAN/gridExtra
 	sci-CRAN/tidyr
 	sci-CRAN/tidyselect
 	sci-CRAN/tidyverse

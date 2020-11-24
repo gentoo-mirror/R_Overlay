@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_xyz"
 R_SUGGESTS="r_suggests_xyz? ( sci-CRAN/xyz )"
-DEPEND="sci-CRAN/glmnet
+DEPEND="sci-CRAN/randomForest
 	virtual/MASS
+	sci-CRAN/glmnet
 	sci-CRAN/RPtests
-	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

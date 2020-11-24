@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_huge? ( sci-CRAN/huge )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=dev-lang/R-3.1.2
+DEPEND="sci-CRAN/igraph
 	sci-CRAN/rjson
 	sci-CRAN/shiny
-	sci-CRAN/igraph
 	>=sci-CRAN/htmlwidgets-0.3.2
+	>=dev-lang/R-3.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

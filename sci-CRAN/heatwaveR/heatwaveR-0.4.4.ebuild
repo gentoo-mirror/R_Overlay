@@ -23,16 +23,16 @@ R_SUGGESTS="
 	r_suggests_tidync? ( sci-CRAN/tidync )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/lubridate
-	sci-CRAN/plotly
-	sci-CRAN/zoo
-	sci-CRAN/data_table
-	>=dev-lang/R-3.0.2
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/plyr
+	sci-CRAN/data_table
+	sci-CRAN/RcppRoll
+	sci-CRAN/lubridate
+	sci-CRAN/ggplot2
 	sci-CRAN/tibble
 	sci-CRAN/dplyr
-	sci-CRAN/RcppRoll
-	sci-CRAN/ggplot2
+	sci-CRAN/zoo
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.16

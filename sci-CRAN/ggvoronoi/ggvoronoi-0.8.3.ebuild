@@ -24,8 +24,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/sp
 	>=sci-CRAN/ggplot2-2.2.0
-	sci-CRAN/raster
 	sci-CRAN/deldir
+	sci-CRAN/raster
 	sci-CRAN/rgeos
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/svgViewR_1.4.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.2.4
-	>=sci-CRAN/Rcpp-0.9.9
+DEPEND=">=sci-CRAN/Rcpp-0.9.9
 	sci-CRAN/rjson
+	>=dev-lang/R-3.2.4
 	sci-CRAN/Rook
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

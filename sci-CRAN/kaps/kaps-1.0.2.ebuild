@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_locfit"
 R_SUGGESTS="r_suggests_locfit? ( sci-CRAN/locfit )"
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/Formula
+	>=dev-lang/R-3.0.0
 	virtual/survival
 	sci-CRAN/coin
 "

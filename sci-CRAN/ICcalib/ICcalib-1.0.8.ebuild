@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ICcalib_1.0.8.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/survival
-	sci-CRAN/ICsurv
+DEPEND="sci-CRAN/fitdistrplus
 	sci-CRAN/msm
+	virtual/survival
 	sci-CRAN/icenReg
 	>=sci-CRAN/Rcpp-0.12.5
-	sci-CRAN/fitdistrplus
 	sci-CRAN/numDeriv
+	sci-CRAN/ICsurv
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}

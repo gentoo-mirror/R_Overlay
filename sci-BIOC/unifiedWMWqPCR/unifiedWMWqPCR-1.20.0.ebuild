@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/unifiedWMWqPCR_1.20.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/BiocGenerics
-	sci-BIOC/HTqPCR
+DEPEND="sci-BIOC/HTqPCR
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-}"

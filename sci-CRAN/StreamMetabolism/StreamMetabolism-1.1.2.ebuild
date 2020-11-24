@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/StreamMetabolism_1.1.2.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/zoo
-	sci-CRAN/maptools
 	sci-CRAN/chron
+	sci-CRAN/maptools
 "
 RDEPEND="${DEPEND-}"

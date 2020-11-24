@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=sci-CRAN/sigr-1.1.2
+DEPEND=">=dev-lang/R-3.4.0
 	>=sci-CRAN/rqdatatable-1.2.8
 	>=sci-CRAN/rquery-1.4.5
-	virtual/mgcv
-	sci-CRAN/gridExtra
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/ggplot2-3.3.0
-	>=sci-CRAN/wrapr-2.0.2
 	>=sci-CRAN/cdata-1.1.8
+	>=sci-CRAN/ggplot2-3.3.0
+	>=sci-CRAN/sigr-1.1.2
+	>=sci-CRAN/wrapr-2.0.2
+	sci-CRAN/gridExtra
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

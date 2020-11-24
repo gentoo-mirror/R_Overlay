@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
-DEPEND=">=sci-CRAN/textshape-1.3.0
-	sci-CRAN/dtt
+DEPEND="sci-CRAN/zoo
 	sci-CRAN/tidyr
-	sci-CRAN/dplyr
-	sci-CRAN/zoo
+	sci-CRAN/dtt
+	>=sci-CRAN/textshape-1.3.0
 	sci-CRAN/NLP
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

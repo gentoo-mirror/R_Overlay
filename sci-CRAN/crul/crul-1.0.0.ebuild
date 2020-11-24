@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_webmockr? ( >=sci-CRAN/webmockr-0.1.0 )
 "
 DEPEND=">=sci-CRAN/curl-3.3
-	>=sci-CRAN/R6-2.2.0
-	>=sci-CRAN/httpcode-0.2.0
 	sci-CRAN/jsonlite
+	>=sci-CRAN/httpcode-0.2.0
 	>=sci-CRAN/urltools-1.6.0
+	>=sci-CRAN/R6-2.2.0
 	sci-CRAN/mime
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

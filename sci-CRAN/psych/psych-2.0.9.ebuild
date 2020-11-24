@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 "
 DEPEND="sci-CRAN/mnormt
-	virtual/lattice
 	virtual/nlme
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

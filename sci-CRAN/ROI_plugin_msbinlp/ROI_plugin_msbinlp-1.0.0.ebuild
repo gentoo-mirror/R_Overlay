@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_glpk"
 R_SUGGESTS="r_suggests_glpk? ( sci-mathematics/glpk )"
-DEPEND="sci-CRAN/slam
-	>=sci-CRAN/ROI-0.3.0
+DEPEND=">=sci-CRAN/ROI-0.3.0
+	sci-CRAN/slam
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

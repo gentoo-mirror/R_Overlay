@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/EMD_1.5.8.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/fields-6.9.1
 	>=sci-CRAN/locfit-1.5.8
+	>=sci-CRAN/fields-6.9.1
 "
 RDEPEND="${DEPEND-}"

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/dplyr
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/httr
 	sci-CRAN/purrr
-	>=dev-lang/R-3.5.0
+	sci-CRAN/dplyr
+	sci-CRAN/jsonlite
 	>=sci-CRAN/tidyr-1.0.0
 	sci-CRAN/stringr
 	sci-CRAN/tidyselect

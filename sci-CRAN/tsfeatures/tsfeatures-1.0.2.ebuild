@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/fracdiff
+DEPEND=">=sci-CRAN/RcppRoll-0.2.2
+	sci-CRAN/furrr
+	>=dev-lang/R-3.6.0
 	>=sci-CRAN/forecast-8.3
-	>=sci-CRAN/RcppRoll-0.2.2
 	sci-CRAN/purrr
+	sci-CRAN/fracdiff
 	sci-CRAN/tibble
 	sci-CRAN/tseries
 	sci-CRAN/urca
 	sci-CRAN/future
-	sci-CRAN/furrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

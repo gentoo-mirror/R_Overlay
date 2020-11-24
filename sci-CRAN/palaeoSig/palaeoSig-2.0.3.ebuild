@@ -20,20 +20,20 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/rioja
+	sci-CRAN/vegan
+	sci-CRAN/ggrepel
+	sci-CRAN/ggplot2
+	sci-CRAN/rlang
 	sci-CRAN/tidyr
 	sci-CRAN/purrr
-	sci-CRAN/ggrepel
-	sci-CRAN/rlang
-	sci-CRAN/rioja
-	virtual/mgcv
 	sci-CRAN/TeachingDemos
+	virtual/mgcv
+	virtual/MASS
 	sci-CRAN/tibble
 	sci-CRAN/dplyr
 	sci-CRAN/magrittr
-	sci-CRAN/ggplot2
 	sci-CRAN/forcats
 	sci-CRAN/assertr
-	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,8 +18,8 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/shiny
 	sci-CRAN/shinyjs
 	sci-CRAN/DT
-	sci-CRAN/ggplot2
 	sci-CRAN/DoseFinding
+	sci-CRAN/ggplot2
 	virtual/lattice
 	virtual/lattice
 "

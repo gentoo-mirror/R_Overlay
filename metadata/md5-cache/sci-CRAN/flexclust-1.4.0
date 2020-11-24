@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/modeltools virtual/class virtual/lattice >=dev-lang/R-2.14.0 dev-lang/R
+DEPEND=virtual/lattice sci-CRAN/modeltools >=dev-lang/R-2.14.0 virtual/class dev-lang/R
 DESCRIPTION=Flexible Cluster Algorithms
 EAPI=7
 IUSE=r_suggests_clue r_suggests_cluster r_suggests_ellipse r_suggests_seriation r_suggests_skmeans byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=sci-CRAN/modeltools virtual/class virtual/lattice >=dev-lang/R-2.14.0 r_suggests_clue? ( sci-CRAN/clue ) r_suggests_cluster? ( virtual/cluster ) r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_seriation? ( sci-CRAN/seriation ) r_suggests_skmeans? ( sci-CRAN/skmeans ) dev-lang/R
+RDEPEND=virtual/lattice sci-CRAN/modeltools >=dev-lang/R-2.14.0 virtual/class r_suggests_clue? ( sci-CRAN/clue ) r_suggests_cluster? ( virtual/cluster ) r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_seriation? ( sci-CRAN/seriation ) r_suggests_skmeans? ( sci-CRAN/skmeans ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/flexclust_1.4-0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=3bc186c256dec38110e6cdd86d733170
+_md5_=5d4a96c1e1fa0b489c4be6470f6ffd27

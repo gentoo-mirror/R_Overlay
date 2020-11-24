@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_polynom? ( sci-CRAN/polynom )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND="sci-CRAN/deSolve
-	sci-CRAN/numDeriv
-	>=sci-CRAN/HelpersMG-4.0
-	sci-CRAN/optimx
+DEPEND=">=sci-CRAN/HelpersMG-4.0
 	>=dev-lang/R-4.0
+	sci-CRAN/numDeriv
+	sci-CRAN/optimx
+	sci-CRAN/deSolve
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -26,19 +26,19 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/dplyr-0.8.5
 	>=sci-CRAN/commonmark-1.7
 	>=sci-CRAN/checkmate-2.0.0
 	>=sci-CRAN/fs-1.3.2
+	>=sci-CRAN/dplyr-0.8.5
 	>=sci-CRAN/ggplot2-3.3.0
-	>=sci-CRAN/rlang-0.4.5
-	>=sci-CRAN/stringr-1.3.1
 	>=sci-CRAN/glue-1.3.2
 	>=sci-CRAN/htmltools-0.5.0
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/rlang-0.4.5
+	>=sci-CRAN/stringr-1.3.1
+	>=sci-CRAN/tibble-3.0.0
 	>=sci-CRAN/sass-0.1.1
 	>=sci-CRAN/scales-1.1.0
-	>=sci-CRAN/tibble-3.0.0
 	>=sci-CRAN/tidyselect-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

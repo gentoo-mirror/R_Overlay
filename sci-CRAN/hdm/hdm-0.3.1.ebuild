@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/Formula
 	virtual/MASS
-	sci-CRAN/checkmate
 	sci-CRAN/glmnet
 	sci-CRAN/ggplot2
+	sci-CRAN/checkmate
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

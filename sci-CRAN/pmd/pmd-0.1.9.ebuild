@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/igraph
 	sci-CRAN/RColorBrewer
 	sci-CRAN/enviGCMS
-	sci-CRAN/igraph
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

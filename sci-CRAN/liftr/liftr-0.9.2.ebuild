@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/liftr_0.9.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/rstudioapi
-	sci-CRAN/yaml
-	sci-CRAN/stringr
 	sci-CRAN/knitr
+	sci-CRAN/rstudioapi
+	sci-CRAN/stringr
+	sci-CRAN/yaml
 	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-}"

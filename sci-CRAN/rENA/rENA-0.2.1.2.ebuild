@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/magrittr
+DEPEND="sci-CRAN/doParallel
+	sci-CRAN/magrittr
+	sci-CRAN/concatenate
+	sci-CRAN/R6
+	>=dev-lang/R-3.0.0
 	sci-CRAN/Rcpp
 	sci-CRAN/data_table
-	>=dev-lang/R-3.0.0
-	sci-CRAN/R6
 	sci-CRAN/foreach
 	sci-CRAN/plotly
-	sci-CRAN/doParallel
 	sci-CRAN/scales
-	sci-CRAN/concatenate
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

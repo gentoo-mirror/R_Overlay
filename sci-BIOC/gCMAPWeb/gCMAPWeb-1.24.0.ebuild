@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_arrayexpress? ( sci-BIOC/ArrayExpress )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/Biobase
-	>=sci-BIOC/gCMAP-1.3.0
-	sci-BIOC/annotate
-	sci-CRAN/Rook
-	sci-BIOC/BiocGenerics
-	sci-CRAN/hwriter
-	sci-CRAN/yaml
-	>=dev-lang/R-3.4
-	sci-CRAN/brew
+DEPEND=">=sci-BIOC/gCMAP-1.3.0
 	sci-BIOC/AnnotationDbi
+	sci-CRAN/brew
 	sci-BIOC/GSEABase
+	sci-CRAN/yaml
+	sci-BIOC/Biobase
+	sci-CRAN/Rook
+	>=dev-lang/R-3.4
+	sci-BIOC/BiocGenerics
+	sci-BIOC/annotate
+	sci-CRAN/hwriter
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

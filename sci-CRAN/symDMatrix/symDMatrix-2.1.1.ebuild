@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_matrix? ( virtual/Matrix )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=dev-lang/R-3.0.2
+DEPEND="sci-CRAN/bit
 	virtual/Matrix
-	sci-CRAN/bit
 	sci-CRAN/ff
+	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

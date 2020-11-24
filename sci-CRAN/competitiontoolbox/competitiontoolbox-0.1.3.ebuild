@@ -9,10 +9,10 @@ DESCRIPTION='A Graphical User Interface for A... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/competitiontoolbox_0.1.3.tar.gz"
 
-DEPEND=">=sci-CRAN/antitrust-0.99.11
+DEPEND=">=sci-CRAN/trade-0.5.4
 	sci-CRAN/shiny
 	sci-CRAN/ggplot2
-	>=sci-CRAN/trade-0.5.4
+	>=sci-CRAN/antitrust-0.99.11
 	sci-CRAN/rhandsontable
 "
 RDEPEND="${DEPEND-}"

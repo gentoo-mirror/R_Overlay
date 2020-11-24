@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 "
 DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/iterators
 	>=sci-CRAN/itertools-0.1.3
+	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

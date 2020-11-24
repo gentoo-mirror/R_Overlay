@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/boot
-	sci-CRAN/trapezoid
-	sci-CRAN/gridExtra
 	sci-CRAN/triangle
+	sci-CRAN/gridExtra
 	sci-CRAN/plyr
 	sci-CRAN/actuar
+	sci-CRAN/trapezoid
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape
+	virtual/boot
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

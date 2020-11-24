@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
 DEPEND=">=sci-CRAN/rvertnet-0.7.0
-	>=sci-CRAN/whisker-0.3.2
-	>=sci-CRAN/lubridate-1.5.0
-	>=sci-CRAN/ridigbio-0.3.5
-	>=sci-CRAN/rgbif-1.0.0
-	>=sci-CRAN/jsonlite-1.4
 	>=sci-CRAN/data_table-1.9.6
-	>=sci-CRAN/rebird-1.0.0
-	>=sci-CRAN/rbison-0.6.0
+	>=sci-CRAN/lubridate-1.5.0
 	>=sci-CRAN/crul-0.3.4
+	>=sci-CRAN/whisker-0.3.2
+	>=sci-CRAN/rebird-1.0.0
+	>=sci-CRAN/rgbif-1.0.0
+	>=sci-CRAN/rbison-0.6.0
+	>=sci-CRAN/ridigbio-0.3.5
+	>=sci-CRAN/jsonlite-1.4
 	>=sci-CRAN/tibble-1.2
 	>=sci-CRAN/wicket-0.4.0
 "

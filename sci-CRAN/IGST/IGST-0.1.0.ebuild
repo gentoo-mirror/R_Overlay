@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/IGST_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5
-	virtual/boot
 	sci-CRAN/e1071
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

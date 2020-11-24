@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ConsRank_2.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/rgl
-	>=sci-CRAN/rlist-0.4.2
 	sci-CRAN/proxy
+	>=sci-CRAN/rlist-0.4.2
 	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}"

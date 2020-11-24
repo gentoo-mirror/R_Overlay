@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_hmisc? ( sci-CRAN/Hmisc )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.4
+DEPEND="virtual/survival
+	>=dev-lang/R-3.4
 	virtual/KernSmooth
-	sci-CRAN/prodlim
 	sci-CRAN/ipred
-	virtual/survival
 	sci-CRAN/SuppDists
+	sci-CRAN/rmeta
+	sci-CRAN/prodlim
 	virtual/survival
 	virtual/boot
-	sci-CRAN/rmeta
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

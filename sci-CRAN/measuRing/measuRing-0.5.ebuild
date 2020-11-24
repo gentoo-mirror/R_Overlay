@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/measuRing_0.5.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/pastecs
-	sci-CRAN/tiff
-	sci-CRAN/dplR
 	sci-CRAN/png
+	sci-CRAN/dplR
+	sci-CRAN/tiff
 "
 RDEPEND="${DEPEND-}"

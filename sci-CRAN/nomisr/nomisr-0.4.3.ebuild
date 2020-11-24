@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/readr
-	sci-CRAN/dplyr
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/readr
+	sci-CRAN/rlang
 	sci-CRAN/jsonlite
 	sci-CRAN/tibble
-	sci-CRAN/rsdmx
-	sci-CRAN/rlang
-	>=dev-lang/R-3.4.0
+	sci-CRAN/dplyr
 	sci-CRAN/httr
+	sci-CRAN/rsdmx
 	sci-CRAN/snakecase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

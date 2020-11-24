@@ -12,10 +12,10 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_scatterplot3d"
 R_SUGGESTS="r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d )"
-DEPEND="sci-CRAN/interp
-	>=sci-CRAN/Rdpack-0.7
-	sci-CRAN/combinat
+DEPEND="sci-CRAN/combinat
 	sci-CRAN/plotrix
 	sci-CRAN/plot3D
+	sci-CRAN/interp
+	>=sci-CRAN/Rdpack-0.7
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

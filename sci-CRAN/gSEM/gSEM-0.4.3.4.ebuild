@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gSEM_0.4.3.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/htmlwidgets
+DEPEND=">=dev-lang/R-2.14.0
 	virtual/MASS
-	sci-CRAN/DiagrammeR
 	sci-CRAN/knitr
-	>=dev-lang/R-2.14.0
+	sci-CRAN/DiagrammeR
+	sci-CRAN/htmlwidgets
 "
 RDEPEND="${DEPEND-}"

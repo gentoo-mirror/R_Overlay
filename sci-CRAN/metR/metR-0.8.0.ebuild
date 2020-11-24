@@ -32,23 +32,23 @@ R_SUGGESTS="
 	r_suggests_udunits2? ( sci-CRAN/udunits2 )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/lubridate
-	sci-CRAN/isoband
-	sci-CRAN/Formula
-	sci-CRAN/scales
-	sci-CRAN/sp
-	sci-CRAN/stringr
-	sci-CRAN/purrr
-	sci-CRAN/memoise
-	sci-CRAN/RCurl
-	sci-CRAN/fields
-	sci-CRAN/data_table
-	sci-CRAN/formula_tools
-	sci-CRAN/plyr
-	sci-CRAN/digest
-	sci-CRAN/checkmate
+DEPEND="sci-CRAN/purrr
 	>=sci-CRAN/ggplot2-3.0.0
+	sci-CRAN/digest
+	sci-CRAN/formula_tools
+	sci-CRAN/data_table
+	sci-CRAN/fields
+	sci-CRAN/plyr
+	sci-CRAN/lubridate
+	sci-CRAN/isoband
+	sci-CRAN/RCurl
+	sci-CRAN/memoise
+	sci-CRAN/scales
+	sci-CRAN/checkmate
 	sci-CRAN/gtable
+	sci-CRAN/sp
+	sci-CRAN/Formula
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

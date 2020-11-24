@@ -32,18 +32,18 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_shinyace? ( sci-CRAN/shinyAce )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/colourpicker
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/tidyr
+	sci-CRAN/table1
+	>=dev-lang/R-3.1.0
 	sci-CRAN/egg
+	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
+	sci-CRAN/colourpicker
 	sci-CRAN/ggstance
 	sci-CRAN/markdown
 	sci-CRAN/shiny
 	sci-CRAN/shinyjs
-	sci-CRAN/table1
 	sci-CRAN/data_table
-	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

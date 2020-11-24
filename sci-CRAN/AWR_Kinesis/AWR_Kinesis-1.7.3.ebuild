@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/AWR.Kinesis_1.7.3.tar.gz"
 LICENSE='AGPL-3'
 
 DEPEND="sci-CRAN/AWR
-	sci-CRAN/rJava
 	sci-CRAN/jsonlite
+	sci-CRAN/rJava
 	sci-CRAN/futile_logger
 "
 RDEPEND="${DEPEND-}"

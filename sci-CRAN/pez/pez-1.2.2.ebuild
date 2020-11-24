@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_knitr? ( >=sci-CRAN/knitr-1.6 )
 	r_suggests_lme4? ( >=sci-CRAN/lme4-1.1.7 )
 "
-DEPEND=">=sci-CRAN/ape-3.1.4
-	>=sci-CRAN/picante-1.6.2
-	>=sci-CRAN/animation-2.4.0
-	>=sci-CRAN/FD-1.0.12
-	>=sci-CRAN/phytools-0.6.60
-	>=sci-CRAN/mvtnorm-1.0.0
-	>=sci-CRAN/caper-0.5.2
-	>=sci-CRAN/quantreg-5.05
+DEPEND=">=sci-CRAN/caper-0.5.2
 	>=sci-CRAN/vegan-2.0.10
-	>=sci-CRAN/ade4-1.6.2
 	virtual/Matrix
+	>=sci-CRAN/ade4-1.6.2
+	>=sci-CRAN/ape-3.1.4
+	>=sci-CRAN/quantreg-5.05
+	>=sci-CRAN/picante-1.6.2
+	>=sci-CRAN/mvtnorm-1.0.0
+	>=sci-CRAN/FD-1.0.12
+	>=sci-CRAN/animation-2.4.0
+	>=sci-CRAN/phytools-0.6.60
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

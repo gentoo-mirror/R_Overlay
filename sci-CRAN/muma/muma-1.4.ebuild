@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/muma_1.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/pdist
+DEPEND="sci-CRAN/car
 	sci-CRAN/pls
-	sci-CRAN/robustbase
-	sci-CRAN/caTools
-	sci-CRAN/car
+	sci-CRAN/pdist
 	sci-CRAN/mvtnorm
 	sci-CRAN/gplots
+	sci-CRAN/robustbase
 	sci-CRAN/gtools
 	sci-CRAN/bitops
+	sci-CRAN/caTools
 	sci-CRAN/pcaPP
 	sci-CRAN/rrcov
 "

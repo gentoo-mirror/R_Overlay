@@ -12,10 +12,10 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_nparcomp"
 R_SUGGESTS="r_suggests_nparcomp? ( >=sci-CRAN/nparcomp-2.6 )"
-DEPEND=">=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/qgraph-1.6.5
-	>=sci-CRAN/reshape2-1.4.4
-	>=dev-lang/R-4.0.0
+DEPEND=">=dev-lang/R-4.0.0
 	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/reshape2-1.4.4
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/qgraph-1.6.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

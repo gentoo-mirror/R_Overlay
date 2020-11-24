@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 "
 DEPEND="sci-CRAN/rootSolve
-	virtual/survival
-	sci-CRAN/truncSP
 	sci-CRAN/SQUAREM
+	sci-CRAN/truncSP
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

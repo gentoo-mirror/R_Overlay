@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/PSF
-	sci-CRAN/tseries
-	sci-CRAN/Rlibeemd
 	sci-CRAN/forecast
+	sci-CRAN/Rlibeemd
+	sci-CRAN/tseries
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

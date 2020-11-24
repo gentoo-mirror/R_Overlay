@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=virtual/lattice sci-CRAN/coda sci-CRAN/bbmle sci-CRAN/plyr virtual/MASS dev-lang/R
+DEPEND=sci-CRAN/bbmle sci-CRAN/coda virtual/lattice virtual/MASS sci-CRAN/plyr dev-lang/R
 DESCRIPTION=Support Functions and Data for E... (see metadata)
 EAPI=7
 IUSE=r_suggests_ellipse r_suggests_numderiv r_suggests_rgl r_suggests_suppdists r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=virtual/lattice sci-CRAN/coda sci-CRAN/bbmle sci-CRAN/plyr virtual/MASS r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_suppdists? ( sci-CRAN/SuppDists ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+RDEPEND=sci-CRAN/bbmle sci-CRAN/coda virtual/lattice virtual/MASS sci-CRAN/plyr r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_suppdists? ( sci-CRAN/SuppDists ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/emdbook_1.3.12.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=55014956566a3f2bbfa5af12a818951c
+_md5_=31f9398a6c1767c15b932c1f28b5f9ea

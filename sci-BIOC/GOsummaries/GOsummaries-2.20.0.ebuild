@@ -12,13 +12,13 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_vegan"
 R_SUGGESTS="r_suggests_vegan? ( sci-CRAN/vegan )"
-DEPEND="sci-CRAN/gProfileR
-	sci-BIOC/limma
-	sci-CRAN/reshape2
-	sci-CRAN/Rcpp
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/gtable
+	sci-BIOC/limma
+	sci-CRAN/gProfileR
 	>=dev-lang/R-2.15
+	sci-CRAN/Rcpp
+	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}

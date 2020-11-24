@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mudfold_1.1.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/mgcv
-	sci-CRAN/broom
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/glmnet
+	virtual/mgcv
 	sci-CRAN/zoo
 	>=dev-lang/R-3.3.3
-	sci-CRAN/ggplot2
 	virtual/boot
-	sci-CRAN/glmnet
 	sci-CRAN/reshape2
+	sci-CRAN/broom
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

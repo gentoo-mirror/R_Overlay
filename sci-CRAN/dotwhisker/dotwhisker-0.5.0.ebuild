@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/broom
-	sci-CRAN/ggstance
-	sci-CRAN/stringr
-	sci-CRAN/gtable
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/ggplot2-2.2.1
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/dplyr
-	sci-CRAN/rlang
 	sci-CRAN/purrr
+	sci-CRAN/gtable
+	sci-CRAN/broom
+	>=sci-CRAN/ggplot2-2.2.1
+	sci-CRAN/stringr
+	sci-CRAN/ggstance
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

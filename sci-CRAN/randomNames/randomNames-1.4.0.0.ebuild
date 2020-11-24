@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.3
+	>=sci-CRAN/toOrdinal-1.1
 	>=sci-CRAN/data_table-1.12.0
 	sci-CRAN/crayon
-	>=sci-CRAN/toOrdinal-1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

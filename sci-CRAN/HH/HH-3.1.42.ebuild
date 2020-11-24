@@ -20,19 +20,19 @@ R_SUGGESTS="
 	r_suggests_rcmdrplugin_hh? ( sci-CRAN/RcmdrPlugin_HH )
 	r_suggests_teachingdemos? ( sci-CRAN/TeachingDemos )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/multcomp
-	virtual/lattice
+DEPEND="virtual/lattice
+	sci-CRAN/colorspace
 	sci-CRAN/leaps
-	sci-CRAN/vcd
-	sci-CRAN/RColorBrewer
-	>=sci-CRAN/Rmpfr-0.6.0
 	sci-CRAN/Hmisc
 	>=sci-CRAN/gridExtra-2.0.0
+	sci-CRAN/RColorBrewer
 	sci-CRAN/reshape2
-	sci-CRAN/abind
-	sci-CRAN/colorspace
-	virtual/lattice
+	sci-CRAN/vcd
+	>=dev-lang/R-3.0.2
 	>=sci-CRAN/shiny-0.13.1
+	sci-CRAN/abind
+	virtual/lattice
+	sci-CRAN/multcomp
+	>=sci-CRAN/Rmpfr-0.6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

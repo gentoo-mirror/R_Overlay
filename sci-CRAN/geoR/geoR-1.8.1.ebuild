@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND="sci-CRAN/RandomFields
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/splancs
+	sci-CRAN/RandomFields
 	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

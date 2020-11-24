@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.models.miplib_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/R_utils
+DEPEND="sci-mathematics/glpk
+	sci-CRAN/R_utils
 	>=sci-CRAN/ROI-0.3.0
-	sci-mathematics/glpk
 "
 RDEPEND="${DEPEND-}"

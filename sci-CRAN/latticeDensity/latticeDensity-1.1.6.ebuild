@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/spdep
 	sci-CRAN/spatstat
-	sci-CRAN/spdep
-	sci-CRAN/splancs
-	sci-CRAN/spam
 	sci-CRAN/sp
 	virtual/spatial
+	>=dev-lang/R-3.5.0
+	sci-CRAN/splancs
+	sci-CRAN/spam
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

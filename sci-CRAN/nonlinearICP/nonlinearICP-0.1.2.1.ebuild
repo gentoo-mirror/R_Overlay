@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/CondIndTests
 	sci-CRAN/randomForest
-	>=dev-lang/R-3.1.0
 	sci-CRAN/data_tree
 	sci-CRAN/caTools
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

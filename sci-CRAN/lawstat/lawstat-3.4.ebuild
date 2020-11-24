@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_fbasics"
 R_SUGGESTS="r_suggests_fbasics? ( sci-CRAN/fBasics )"
-DEPEND="sci-CRAN/Kendall
+DEPEND="sci-CRAN/Rdpack
+	sci-CRAN/Kendall
 	sci-CRAN/mvtnorm
-	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

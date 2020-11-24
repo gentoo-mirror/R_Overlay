@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/ggplot2
+	sci-CRAN/reshape
 	sci-CRAN/reshape2
 	sci-CRAN/rlang
-	sci-CRAN/reshape
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

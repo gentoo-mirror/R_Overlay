@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LINselect_1.1.3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/randomForest
+	sci-CRAN/gtools
+	sci-CRAN/pls
+	>=dev-lang/R-3.5.0
 	sci-CRAN/elasticnet
 	virtual/MASS
 	sci-CRAN/mvtnorm
-	sci-CRAN/randomForest
-	sci-CRAN/pls
-	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}"

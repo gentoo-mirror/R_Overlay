@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_spatstat? ( sci-CRAN/spatstat )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/sp
+DEPEND="sci-CRAN/raster
 	sci-CRAN/rgeos
-	sci-CRAN/raster
-	>=dev-lang/R-3.0.2
+	sci-CRAN/sp
 	sci-CRAN/gdistance
+	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

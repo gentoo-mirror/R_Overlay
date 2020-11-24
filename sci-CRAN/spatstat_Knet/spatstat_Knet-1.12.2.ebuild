@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/spatstat.Knet_1.12-2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/spatstat_utils
-	virtual/Matrix
 	>=sci-CRAN/spatstat-1.62.2
+	virtual/Matrix
+	sci-CRAN/spatstat_utils
 "
 RDEPEND="${DEPEND-}"

@@ -34,18 +34,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tsibble? ( sci-CRAN/tsibble )
 "
-DEPEND=">=dev-lang/R-4.0.0
+DEPEND="sci-CRAN/gdata
+	sci-CRAN/compositions
+	sci-CRAN/zCompositions
 	sci-CRAN/gamlss
+	>=dev-lang/R-4.0.0
 	sci-CRAN/lme4
-	sci-CRAN/gdata
 	sci-CRAN/meta
 	sci-CRAN/plyr
 	sci-CRAN/dplyr
 	sci-CRAN/tidyr
 	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
-	sci-CRAN/zCompositions
-	sci-CRAN/compositions
 	sci-CRAN/lmerTest
 	virtual/Matrix
 "

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/Lavash_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/MASS
-	sci-CRAN/glmnet
 	sci-CRAN/pracma
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

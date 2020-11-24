@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/KCSNBShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/caret
 	sci-CRAN/dplyr
 	sci-CRAN/rhandsontable
 	sci-CRAN/e1071
+	sci-CRAN/caret
 "
 RDEPEND="${DEPEND-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/qualypsoss_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/doParallel
-	virtual/MASS
 	sci-CRAN/foreach
+	virtual/MASS
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

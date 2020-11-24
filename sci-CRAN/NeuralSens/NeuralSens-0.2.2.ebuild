@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_nnet? ( virtual/nnet )
 	r_suggests_rsnns? ( sci-CRAN/RSNNS )
 "
-DEPEND="sci-CRAN/Hmisc
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
 	sci-CRAN/caret
 	sci-CRAN/reshape2
-	sci-CRAN/gridExtra
-	sci-CRAN/ggplot2
 	sci-CRAN/NeuralNetTools
 	sci-CRAN/fastDummies
 	sci-CRAN/stringr
-	sci-CRAN/ggforce
 	sci-CRAN/scales
 	sci-CRAN/ggnewscale
+	sci-CRAN/Hmisc
+	sci-CRAN/ggforce
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

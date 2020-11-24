@@ -25,14 +25,14 @@ R_SUGGESTS="
 	r_suggests_utf8? ( sci-CRAN/utf8 )
 "
 DEPEND=">=dev-lang/R-3.4
-	>=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/pillar
-	sci-CRAN/magrittr
-	sci-CRAN/lubridate
-	sci-CRAN/tidyr
-	sci-CRAN/tibble
 	sci-CRAN/vctrs
+	sci-CRAN/lubridate
+	sci-CRAN/tibble
+	sci-CRAN/pillar
 	>=sci-CRAN/rlang-0.4.0
+	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/magrittr
+	sci-CRAN/tidyr
 	sci-CRAN/tidyselect
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

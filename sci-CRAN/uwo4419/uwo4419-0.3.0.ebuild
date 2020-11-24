@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/uwo4419_0.3.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/gmodels
-	sci-CRAN/RColorBrewer
-	sci-CRAN/haven
-	sci-CRAN/DescTools
+DEPEND="sci-CRAN/gmodels
 	sci-CRAN/psych
+	sci-CRAN/haven
 	sci-CRAN/ggplot2
+	sci-CRAN/RColorBrewer
 	sci-CRAN/tibble
 	sci-CRAN/tidyr
 	sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/rio
+	>=dev-lang/R-3.5.0
+	sci-CRAN/DescTools
 "
 RDEPEND="${DEPEND-}"

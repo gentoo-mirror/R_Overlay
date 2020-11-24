@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/qgraph
 	sci-CRAN/cvTools
-	sci-CRAN/glmnet
-	sci-CRAN/magrittr
 	sci-CRAN/reshape2
+	sci-CRAN/magrittr
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

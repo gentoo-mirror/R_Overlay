@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/scales
-	sci-CRAN/dplyr
-	sci-CRAN/robustbase
+DEPEND="sci-CRAN/robustbase
 	sci-CRAN/magrittr
+	sci-CRAN/scales
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

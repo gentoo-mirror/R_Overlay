@@ -22,8 +22,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/DistributionUtils
-	>=sci-CRAN/Rcpp-0.12.0
 	sci-CRAN/mixtools
+	>=sci-CRAN/Rcpp-0.12.0
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.0

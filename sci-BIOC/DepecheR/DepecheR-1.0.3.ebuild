@@ -19,21 +19,21 @@ R_SUGGESTS="
 	r_suggests_rtsne? ( sci-CRAN/Rtsne )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6
-	>=sci-CRAN/viridis-0.5.1
+DEPEND="virtual/MASS
+	>=sci-BIOC/mixOmics-6.6.1
+	>=dev-lang/R-3.6
+	>=sci-CRAN/beanplot-1.2
 	>=sci-CRAN/ggplot2-3.1.0
-	virtual/MASS
-	>=sci-CRAN/doSNOW-1.0.16
-	>=sci-CRAN/dplyr-0.7.8
-	>=sci-CRAN/Rcpp-1.0.0
-	>=sci-CRAN/moments-0.14
-	>=sci-BIOC/BiocParallel-1.16.6
 	>=sci-CRAN/reshape2-1.4.3
+	>=sci-CRAN/Rcpp-1.0.0
 	>=sci-CRAN/gplots-3.0.1
 	>=sci-CRAN/foreach-1.4.4
+	>=sci-CRAN/moments-0.14
+	>=sci-BIOC/BiocParallel-1.16.6
+	>=sci-CRAN/dplyr-0.7.8
+	>=sci-CRAN/viridis-0.5.1
+	>=sci-CRAN/doSNOW-1.0.16
 	virtual/Matrix
-	>=sci-BIOC/mixOmics-6.6.1
-	>=sci-CRAN/beanplot-1.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

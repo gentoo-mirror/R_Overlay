@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.1
 	virtual/MASS
-	sci-CRAN/batchmeans
 	sci-CRAN/plyr
+	sci-CRAN/batchmeans
 	sci-CRAN/pscl
 "
 RDEPEND="${DEPEND-}"

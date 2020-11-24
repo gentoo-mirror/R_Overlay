@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_vip? ( sci-CRAN/vip )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="virtual/lattice
-	virtual/survival
+DEPEND="virtual/survival
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

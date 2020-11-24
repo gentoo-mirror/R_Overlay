@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="virtual/survival
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/jsonlite
-	sci-CRAN/shiny
 	>=sci-CRAN/httr-1.0.0
+	>=dev-lang/R-3.1.0
+	virtual/survival
 	sci-CRAN/digest
 	sci-CRAN/stringr
 	>=sci-CRAN/R6-2.0
-	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

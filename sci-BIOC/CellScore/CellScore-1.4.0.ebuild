@@ -12,12 +12,12 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND=">=sci-CRAN/gplots-3.0.1
-	>=sci-BIOC/Biobase-2.39.1
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/lsa-0.73.1
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/RColorBrewer-1.1.2
 	>=sci-CRAN/squash-1.0.8
+	>=sci-CRAN/gplots-3.0.1
+	>=sci-BIOC/Biobase-2.39.1
+	>=sci-CRAN/lsa-0.73.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PREPShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.0.3
-	sci-CRAN/psycho
-	sci-CRAN/rmarkdown
-	sci-CRAN/shiny
+DEPEND="sci-CRAN/rmarkdown
 	sci-CRAN/dplyr
+	sci-CRAN/shiny
+	sci-CRAN/psycho
+	>=dev-lang/R-3.0.3
 "
 RDEPEND="${DEPEND-}"

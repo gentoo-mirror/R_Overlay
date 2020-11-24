@@ -24,9 +24,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.3
 	sci-CRAN/spbabel
-	sci-CRAN/dplyr
 	sci-CRAN/tibble
 	sci-CRAN/rlang
 	sci-CRAN/sp
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

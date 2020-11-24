@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xfun? ( sci-CRAN/xfun )
 "
-DEPEND="sci-CRAN/purrr
-	>=sci-CRAN/rje-1.10
-	>=sci-CRAN/visNetwork-2.0.9
-	>=sci-CRAN/Ckmeans_1d_dp-4.2.2
-	>=sci-CRAN/igraph-1.2.4
-	>=sci-CRAN/usefun-0.4.3
-	>=sci-CRAN/readr-1.3.0
-	>=sci-CRAN/stringr-1.4.0
+DEPEND=">=sci-CRAN/Ckmeans_1d_dp-4.2.2
 	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/usefun-0.4.3
 	>=sci-CRAN/tidyr-1.1.0
-	>=sci-CRAN/tidyselect-1.0.0
 	>=sci-CRAN/tibble-3.0.0
+	>=sci-CRAN/stringr-1.4.0
+	sci-CRAN/purrr
+	>=sci-CRAN/rje-1.10
+	>=sci-CRAN/igraph-1.2.4
+	>=sci-CRAN/visNetwork-2.0.9
+	>=sci-CRAN/readr-1.3.0
+	>=sci-CRAN/tidyselect-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

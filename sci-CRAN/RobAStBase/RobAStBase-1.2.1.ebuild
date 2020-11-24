@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_roptest? ( >=sci-CRAN/ROptEst-1.2.0 )
 	r_suggests_runit? ( >=sci-CRAN/RUnit-0.4.26 )
 "
-DEPEND=">=sci-CRAN/distr-2.8.0
-	sci-CRAN/rrcov
+DEPEND=">=dev-lang/R-3.4
 	>=sci-CRAN/distrMod-2.8.1
-	>=sci-CRAN/RandVar-1.2.0
 	>=sci-CRAN/distrEx-2.8.0
+	sci-CRAN/rrcov
+	>=sci-CRAN/distr-2.8.0
+	>=sci-CRAN/RandVar-1.2.0
 	sci-CRAN/startupmsg
-	>=dev-lang/R-3.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

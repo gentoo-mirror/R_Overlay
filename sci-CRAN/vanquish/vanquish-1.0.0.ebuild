@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vanquish_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/changepoint
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/changepoint
 	sci-CRAN/VGAM
+	sci-CRAN/ggplot2
 	sci-CRAN/e1071
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-}"

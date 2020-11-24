@@ -26,13 +26,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/digest
-	sci-CRAN/curl
-	>=sci-CRAN/rstudioapi-0.5
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/jsonlite
 	sci-CRAN/openssl
+	sci-CRAN/curl
 	>=sci-CRAN/packrat-0.4.8.1
+	>=sci-CRAN/rstudioapi-0.5
+	sci-CRAN/digest
 	>=sci-CRAN/yaml-2.1.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

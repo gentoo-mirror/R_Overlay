@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_slam? ( sci-CRAN/slam )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.0
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

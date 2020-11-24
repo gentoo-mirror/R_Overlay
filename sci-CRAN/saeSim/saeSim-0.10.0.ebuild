@@ -20,10 +20,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1
 	>=sci-CRAN/dplyr-0.2
-	sci-CRAN/functional
-	sci-CRAN/parallelMap
-	sci-CRAN/ggplot2
 	virtual/MASS
+	sci-CRAN/functional
+	sci-CRAN/ggplot2
 	sci-CRAN/spdep
+	sci-CRAN/parallelMap
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

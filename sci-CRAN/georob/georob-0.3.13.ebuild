@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_multcomp? ( sci-CRAN/multcomp )
 "
-DEPEND=">=dev-lang/R-2.14.0
-	>=sci-CRAN/constrainedKriging-0.2.1
-	sci-CRAN/fields
-	sci-CRAN/lmtest
-	sci-CRAN/abind
-	virtual/nlme
+DEPEND="sci-CRAN/nleqslv
 	>=sci-CRAN/robustbase-0.90.2
-	sci-CRAN/snowfall
-	>=sci-CRAN/sp-0.9.60
-	sci-CRAN/nleqslv
 	sci-CRAN/quantreg
 	>=sci-CRAN/RandomFields-3.3.6
+	sci-CRAN/lmtest
+	>=dev-lang/R-2.14.0
+	sci-CRAN/snowfall
+	>=sci-CRAN/sp-0.9.60
+	sci-CRAN/abind
+	>=sci-CRAN/constrainedKriging-0.2.1
+	sci-CRAN/fields
+	virtual/nlme
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_sybil? ( sci-CRAN/sybil )
 "
 DEPEND="sci-mathematics/glpk
-	virtual/lattice
 	sci-CRAN/corrplot
 	sci-CRAN/rgl
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

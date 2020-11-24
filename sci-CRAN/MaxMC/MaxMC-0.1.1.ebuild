@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/NMOF
+DEPEND="sci-CRAN/GenSA
+	sci-CRAN/pso
+	sci-CRAN/NMOF
 	sci-CRAN/scales
 	sci-CRAN/GA
-	sci-CRAN/GenSA
-	sci-CRAN/pso
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

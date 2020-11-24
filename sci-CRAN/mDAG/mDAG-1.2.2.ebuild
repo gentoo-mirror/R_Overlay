@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mDAG_1.2.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/mgm
-	sci-CRAN/pcalg
-	>=sci-CRAN/Rcpp-0.12.14
-	virtual/nnet
-	sci-CRAN/bnlearn
+DEPEND="sci-CRAN/pcalg
 	sci-CRAN/logistf
+	sci-CRAN/bnlearn
+	>=sci-CRAN/Rcpp-0.12.14
+	sci-CRAN/mgm
+	virtual/nnet
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

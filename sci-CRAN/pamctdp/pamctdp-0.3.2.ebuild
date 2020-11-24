@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pamctdp_0.3.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/class
+DEPEND="sci-CRAN/ade4
+	virtual/class
 	sci-CRAN/xtable
-	sci-CRAN/ade4
 "
 RDEPEND="${DEPEND-}"

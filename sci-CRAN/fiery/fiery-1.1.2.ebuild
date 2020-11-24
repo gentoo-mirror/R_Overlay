@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/R6
+	sci-CRAN/uuid
 	sci-CRAN/httpuv
 	sci-CRAN/assertthat
-	sci-CRAN/later
+	sci-CRAN/stringi
 	sci-CRAN/future
+	sci-CRAN/later
 	sci-CRAN/reqres
 	sci-CRAN/glue
-	sci-CRAN/uuid
-	sci-CRAN/stringi
 	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

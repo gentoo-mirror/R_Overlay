@@ -39,11 +39,11 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_survminer? ( sci-CRAN/survminer )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.10.0
-	sci-CRAN/stringr
-	sci-CRAN/Hmisc
-	sci-CRAN/pROC
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/miscTools
+	sci-CRAN/pROC
+	>=sci-CRAN/Rcpp-0.10.0
+	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

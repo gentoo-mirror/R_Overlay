@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/UNCLES_2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/kohonen
 	sci-CRAN/pdist
 	virtual/class
-	sci-CRAN/kohonen
 "
 RDEPEND="${DEPEND-}"

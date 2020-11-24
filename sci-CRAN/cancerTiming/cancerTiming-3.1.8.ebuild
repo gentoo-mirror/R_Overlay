@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_s4vectors? ( sci-BIOC/S4Vectors )
 "
 DEPEND=">=dev-lang/R-2.11.0
-	sci-CRAN/gplots
 	sci-CRAN/LearnBayes
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

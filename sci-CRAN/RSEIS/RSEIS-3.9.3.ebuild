@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RSEIS_3.9-3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/RPMG
 	sci-CRAN/Rwave
+	sci-CRAN/RPMG
 "
 RDEPEND="${DEPEND-}"

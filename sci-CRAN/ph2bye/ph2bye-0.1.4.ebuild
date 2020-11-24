@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 "
 DEPEND="sci-CRAN/animation
-	sci-CRAN/Rcpp
 	sci-CRAN/nleqslv
+	sci-CRAN/Rcpp
 	sci-CRAN/VGAM
 "
 RDEPEND="${DEPEND-}

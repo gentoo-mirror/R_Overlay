@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_biobase? ( sci-BIOC/Biobase )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=dev-lang/R-2.14.0
-	>=sci-CRAN/distr-2.2.0
-	>=sci-CRAN/distrTEst-2.2.0
-	>=sci-CRAN/distrSim-2.2.0
+DEPEND=">=sci-CRAN/distrTEst-2.2.0
+	sci-CRAN/startupmsg
+	virtual/MASS
 	>=sci-CRAN/distrEx-2.2.0
+	>=dev-lang/R-2.14.0
+	>=sci-CRAN/distr-2.2.0
+	>=sci-CRAN/distrSim-2.2.0
 	>=sci-CRAN/distrTeach-2.2.0
 	>=sci-CRAN/RandVar-0.7
 	>=sci-CRAN/distrMod-2.2.0
-	virtual/MASS
-	sci-CRAN/startupmsg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

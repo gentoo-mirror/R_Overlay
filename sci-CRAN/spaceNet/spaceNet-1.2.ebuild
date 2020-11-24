@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/spaceNet_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
-	virtual/MASS
 	sci-CRAN/permute
+	sci-CRAN/sna
+	virtual/MASS
 	>=sci-CRAN/mclust-5.3
 	sci-CRAN/RcppTN
 	sci-CRAN/Rfast
-	sci-CRAN/sna
 	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-}"

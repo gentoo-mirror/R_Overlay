@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/googleAuthR-1.1.1
-	>=sci-CRAN/httr-1.2.1
+	sci-CRAN/assertthat
 	>=sci-CRAN/jsonlite-1.0
 	>=sci-CRAN/googleCloudStorageR-0.2.0
-	sci-CRAN/assertthat
+	>=sci-CRAN/googleAuthR-1.1.1
+	>=sci-CRAN/httr-1.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

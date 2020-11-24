@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_covr"
 R_SUGGESTS="r_suggests_covr? ( sci-CRAN/covr )"
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/coda
+DEPEND="sci-CRAN/coda
 	sci-CRAN/rle
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

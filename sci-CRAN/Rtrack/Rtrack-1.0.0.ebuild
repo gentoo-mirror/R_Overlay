@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/readxl
-	sci-CRAN/raster
-	virtual/KernSmooth
-	sci-CRAN/sp
-	sci-CRAN/rjson
-	sci-CRAN/openxlsx
+DEPEND="sci-CRAN/openxlsx
 	sci-CRAN/pbapply
+	sci-CRAN/readxl
 	sci-CRAN/randomForest
-	sci-CRAN/crayon
+	sci-CRAN/raster
+	sci-CRAN/sp
 	sci-CRAN/Hmisc
+	virtual/KernSmooth
+	sci-CRAN/crayon
 	sci-CRAN/rgeos
+	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

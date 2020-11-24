@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/plyr
-	sci-CRAN/dplyr
 	sci-CRAN/Rcpp
 	sci-CRAN/stringr
 	sci-CRAN/functional
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

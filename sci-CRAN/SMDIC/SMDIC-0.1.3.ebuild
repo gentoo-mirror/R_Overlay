@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-BIOC/GSVA
-	sci-BIOC/preprocessCore
-	sci-CRAN/samr
-	sci-CRAN/e1071
-	sci-CRAN/pheatmap
-	sci-BIOC/maftools
-	virtual/survival
+DEPEND="sci-CRAN/pheatmap
 	sci-CRAN/backports
+	virtual/survival
 	sci-CRAN/pracma
+	sci-CRAN/RColorBrewer
+	sci-CRAN/quadprog
+	>=dev-lang/R-3.5.0
+	sci-CRAN/samr
+	sci-BIOC/GSVA
+	sci-CRAN/e1071
+	sci-BIOC/preprocessCore
+	sci-BIOC/maftools
 	sci-CRAN/survminer
 	virtual/MASS
-	sci-CRAN/quadprog
-	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

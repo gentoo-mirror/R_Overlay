@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/future_apply
-	sci-CRAN/nls2
-	sci-CRAN/polynom
-	sci-CRAN/magrittr
-	sci-CRAN/ggplot2
-	sci-CRAN/future
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/data_table
+	sci-CRAN/nls2
 	sci-CRAN/ggpubr
+	sci-CRAN/future_apply
+	sci-CRAN/future
+	sci-CRAN/magrittr
+	sci-CRAN/polynom
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

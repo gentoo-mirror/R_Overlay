@@ -12,9 +12,9 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_mitml"
 R_SUGGESTS="r_suggests_mitml? ( sci-CRAN/mitml )"
-DEPEND="sci-CRAN/ordinal
-	sci-CRAN/lme4
+DEPEND="virtual/survival
 	virtual/MASS
-	virtual/survival
+	sci-CRAN/lme4
+	sci-CRAN/ordinal
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/testforDEP_0.2.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/Hmisc
+DEPEND=">=dev-lang/R-3.2.5
 	>=sci-CRAN/Rcpp-0.12.7
 	sci-CRAN/minerva
-	>=dev-lang/R-3.2.5
+	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

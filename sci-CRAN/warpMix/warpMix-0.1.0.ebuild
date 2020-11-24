@@ -12,10 +12,10 @@ LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.3.2
 	>=sci-CRAN/reshape2-1.4.2
-	virtual/nlme
-	>=sci-CRAN/lme4-1.1.12
 	virtual/MASS
 	>=sci-CRAN/fda-2.4.4
 	>=sci-CRAN/fields-8.4.1
+	virtual/nlme
+	>=sci-CRAN/lme4-1.1.12
 "
 RDEPEND="${DEPEND-}"

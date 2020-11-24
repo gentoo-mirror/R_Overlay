@@ -24,7 +24,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/dplyr
 	sci-CRAN/ggrepel
-	sci-CRAN/ggplot2
 	sci-CRAN/scales
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

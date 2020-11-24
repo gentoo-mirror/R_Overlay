@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
 	virtual/mgcv
-	virtual/MASS
 	sci-CRAN/evgam
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

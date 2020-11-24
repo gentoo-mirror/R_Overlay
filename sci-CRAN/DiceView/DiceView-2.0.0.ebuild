@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DiceView_2.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/scatterplot3d
+DEPEND="sci-CRAN/rgl
+	sci-CRAN/DiceDesign
+	sci-CRAN/scatterplot3d
+	sci-CRAN/DiceEval
 	sci-CRAN/DiceKriging
 	sci-CRAN/R_cache
-	sci-CRAN/DiceEval
-	sci-CRAN/DiceDesign
-	sci-CRAN/rgl
 	sci-CRAN/geometry
 "
 RDEPEND="${DEPEND-}"

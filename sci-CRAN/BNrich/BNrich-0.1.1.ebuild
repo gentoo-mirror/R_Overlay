@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/glmnet
+DEPEND="sci-CRAN/glmnet
+	>=dev-lang/R-3.5.0
 	sci-CRAN/bnlearn
 	sci-CRAN/corpcor
 	sci-BIOC/graph

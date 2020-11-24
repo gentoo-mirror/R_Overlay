@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AHMbook_0.2.2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/plotrix
-	sci-CRAN/raster
-	>=sci-CRAN/unmarked-0.12.2
-	sci-CRAN/RandomFields
-	sci-CRAN/coda
+DEPEND="sci-CRAN/raster
 	sci-CRAN/spdep
+	sci-CRAN/coda
 	sci-CRAN/sp
+	sci-CRAN/plotrix
+	sci-CRAN/RandomFields
+	>=sci-CRAN/unmarked-0.12.2
 	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

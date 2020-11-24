@@ -13,11 +13,11 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 IUSE="${IUSE-} r_suggests_poisbinordnonnor"
 R_SUGGESTS="r_suggests_poisbinordnonnor? ( sci-CRAN/PoisBinOrdNonNor )"
 DEPEND="sci-CRAN/moments
-	sci-CRAN/PoisNonNor
-	sci-CRAN/norm
-	sci-CRAN/BinOrdNonNor
 	virtual/Matrix
-	sci-CRAN/corpcor
+	sci-CRAN/BinOrdNonNor
 	sci-CRAN/CorrToolBox
+	sci-CRAN/corpcor
+	sci-CRAN/norm
+	sci-CRAN/PoisNonNor
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

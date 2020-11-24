@@ -146,16 +146,16 @@ R_SUGGESTS="
 	r_suggests_wavelets? ( sci-CRAN/wavelets )
 "
 DEPEND=">=sci-CRAN/ParamHelpers-1.10
-	>=sci-CRAN/checkmate-1.8.2
 	>=sci-CRAN/BBmisc-1.11
-	>=sci-CRAN/backports-1.1.0
 	>=dev-lang/R-3.0.2
-	>=sci-CRAN/data_table-1.12.4
 	sci-CRAN/ggplot2
+	>=sci-CRAN/checkmate-1.8.2
+	>=sci-CRAN/backports-1.1.0
+	>=sci-CRAN/data_table-1.12.4
 	>=sci-CRAN/parallelMap-1.3
-	sci-CRAN/XML
 	sci-CRAN/stringi
 	virtual/survival
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

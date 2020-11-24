@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/survsim_1.1.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.13.1
-	sci-CRAN/eha
 	sci-CRAN/statmod
+	sci-CRAN/eha
 "
 RDEPEND="${DEPEND-}"

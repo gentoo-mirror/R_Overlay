@@ -13,8 +13,8 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_pdftools"
 R_SUGGESTS="r_suggests_pdftools? ( sci-CRAN/pdftools )"
 DEPEND="sci-CRAN/commonmark
-	sci-CRAN/xml2
 	>=sci-CRAN/hunspell-3.0
+	sci-CRAN/xml2
 	sci-CRAN/knitr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

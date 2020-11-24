@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/quadprog
-	sci-CRAN/dplyr
 	sci-CRAN/readr
 	sci-CRAN/magrittr
+	sci-CRAN/quadprog
+	sci-CRAN/dplyr
 	sci-CRAN/readxl
 	sci-CRAN/stringr
 	sci-CRAN/tibble
-	sci-CRAN/WriteXLS
 	sci-CRAN/pracma
+	sci-CRAN/WriteXLS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -42,12 +42,12 @@ R_SUGGESTS="
 	r_suggests_tidygraph? ( sci-CRAN/tidygraph )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/ggridges
+DEPEND=">=dev-lang/R-3.2
+	sci-CRAN/ggridges
 	sci-CRAN/dplyr
-	>=dev-lang/R-3.2
+	sci-CRAN/ggplot2
 	sci-CRAN/effectsize
 	sci-CRAN/bayestestR
-	sci-CRAN/ggplot2
 	sci-CRAN/insight
 	sci-CRAN/magrittr
 	sci-CRAN/parameters

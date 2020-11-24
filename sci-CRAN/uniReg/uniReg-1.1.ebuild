@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/uniReg_1.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/quadprog
+DEPEND="sci-CRAN/DoseFinding
+	virtual/MASS
 	sci-CRAN/SEL
-	sci-CRAN/DoseFinding
+	sci-CRAN/quadprog
 	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

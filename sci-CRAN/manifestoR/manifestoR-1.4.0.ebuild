@@ -24,20 +24,20 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/tibble-1.1
+	>=sci-CRAN/NLP-0.1.3
 	>=sci-CRAN/httr-1.0.0
 	>=sci-CRAN/tm-0.6
+	>=sci-CRAN/tibble-1.1
+	sci-CRAN/base64enc
+	>=sci-CRAN/DT-0.2
+	sci-CRAN/htmltools
+	>=sci-CRAN/dplyr-0.5
 	sci-CRAN/magrittr
+	>=sci-CRAN/jsonlite-0.9.12
 	>=sci-CRAN/functional-0.6
 	>=sci-CRAN/zoo-1.7.11
 	sci-CRAN/psych
-	sci-CRAN/base64enc
 	>=sci-CRAN/htmlwidgets-0.6
-	>=sci-CRAN/NLP-0.1.3
-	>=sci-CRAN/dplyr-0.5
-	>=sci-CRAN/jsonlite-0.9.12
-	>=sci-CRAN/DT-0.2
-	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

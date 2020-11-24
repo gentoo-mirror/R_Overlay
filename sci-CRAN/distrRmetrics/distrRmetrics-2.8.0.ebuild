@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_distrmod? ( >=sci-CRAN/distrMod-2.4 )
 "
 DEPEND=">=sci-CRAN/fBasics-270.73
-	>=sci-CRAN/distr-2.4
-	sci-CRAN/startupmsg
 	>=sci-CRAN/fGarch-270.73
+	sci-CRAN/startupmsg
+	>=sci-CRAN/distr-2.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

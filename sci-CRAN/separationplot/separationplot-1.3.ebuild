@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/separationplot_1.3.tar.gz"
 LICENSE='Artistic-2'
 
 DEPEND="sci-CRAN/RColorBrewer
-	virtual/MASS
 	sci-CRAN/Hmisc
+	virtual/MASS
 	virtual/foreign
 "
 RDEPEND="${DEPEND-}"

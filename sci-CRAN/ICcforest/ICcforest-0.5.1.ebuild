@@ -13,10 +13,10 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_inum"
 R_SUGGESTS="r_suggests_inum? ( sci-CRAN/inum )"
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/partykit
-	virtual/survival
-	sci-CRAN/ipred
 	sci-CRAN/icenReg
+	virtual/survival
+	sci-CRAN/partykit
+	sci-CRAN/ipred
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

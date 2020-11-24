@@ -13,10 +13,10 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/assertthat
-	sci-CRAN/glue
 	>=sci-CRAN/dplyr-1.0.0
 	sci-CRAN/jsonlite
 	sci-CRAN/httr
+	sci-CRAN/glue
 	sci-CRAN/lubridate
 	sci-CRAN/purrr
 	sci-CRAN/rlang

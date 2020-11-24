@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_gbm? ( sci-CRAN/gbm )
 	r_suggests_mass? ( virtual/MASS )
 "
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/ROI
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/magrittr
-	sci-CRAN/assertthat
-	>=dev-lang/R-3.3.0
 	virtual/Matrix
+	sci-CRAN/dplyr
+	sci-CRAN/assertthat
 	sci-CRAN/purrr
 	sci-CRAN/rlang
+	sci-CRAN/ROI
 	sci-CRAN/ROI_plugin_ecos
 	sci-CRAN/stringr
 	sci-CRAN/tibble

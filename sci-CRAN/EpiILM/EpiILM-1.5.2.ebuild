@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EpiILM_1.5.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/adaptMCMC
-	sci-CRAN/LaplacesDemon
-	>=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/LaplacesDemon
 	sci-CRAN/coda
+	>=dev-lang/R-3.5.0
+	sci-CRAN/adaptMCMC
 "
 RDEPEND="${DEPEND-}"

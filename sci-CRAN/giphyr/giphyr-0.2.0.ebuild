@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/giphyr_0.2.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.2.2
+DEPEND="sci-CRAN/rstudioapi
+	sci-CRAN/purrr
+	sci-CRAN/dplyr
+	sci-CRAN/miniUI
+	>=dev-lang/R-3.2.2
+	sci-CRAN/shiny
 	sci-CRAN/httr
 	sci-CRAN/tibble
-	sci-CRAN/miniUI
-	sci-CRAN/shiny
-	sci-CRAN/rstudioapi
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-}"

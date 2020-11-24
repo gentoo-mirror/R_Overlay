@@ -13,14 +13,14 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_covr"
 R_SUGGESTS="r_suggests_covr? ( sci-CRAN/covr )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/oro_dicom
-	sci-CRAN/rgl
-	sci-CRAN/gsl
-	>=sci-CRAN/aws-2.4.1
 	>=sci-CRAN/adimpro-0.9
-	>=sci-CRAN/awsMethods-1.1.1
+	>=sci-CRAN/aws-2.4.1
+	sci-CRAN/oro_dicom
 	>=sci-CRAN/oro_nifti-0.3.9
 	sci-CRAN/quadprog
+	>=sci-CRAN/awsMethods-1.1.1
+	sci-CRAN/rgl
+	sci-CRAN/gsl
 "
 RDEPEND="${DEPEND-}
 	sci-libs/gsl

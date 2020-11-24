@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/glmvsd_1.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	sci-CRAN/glmnet
-	sci-CRAN/brglm
+DEPEND="sci-CRAN/brglm
 	sci-CRAN/ncvreg
+	virtual/MASS
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

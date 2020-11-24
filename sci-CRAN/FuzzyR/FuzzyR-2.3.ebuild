@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/FuzzyR_2.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/plyr
 	sci-CRAN/shiny
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

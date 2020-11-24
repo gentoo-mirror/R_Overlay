@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/colorspace
+DEPEND="sci-CRAN/dichromat
 	sci-CRAN/maps
-	sci-CRAN/dichromat
 	sci-CRAN/mapproj
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

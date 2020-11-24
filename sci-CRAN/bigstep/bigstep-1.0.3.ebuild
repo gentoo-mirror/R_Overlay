@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/bigmemory
-	virtual/Matrix
+DEPEND="sci-CRAN/bigmemory
 	sci-CRAN/magrittr
+	virtual/Matrix
 	sci-CRAN/R_utils
+	>=dev-lang/R-3.5.0
 	sci-CRAN/RcppEigen
 	sci-CRAN/speedglm
 "

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/threg_1.0.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/survival
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/Formula
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

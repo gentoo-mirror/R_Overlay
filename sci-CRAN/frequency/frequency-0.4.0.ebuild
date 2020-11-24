@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/ggplot2
+	sci-CRAN/rmarkdown
+	sci-CRAN/knitr
 	sci-CRAN/gtools
 	sci-CRAN/DT
-	sci-CRAN/knitr
-	sci-CRAN/rmarkdown
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

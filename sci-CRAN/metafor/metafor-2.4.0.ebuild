@@ -40,8 +40,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_ucminf? ( sci-CRAN/ucminf )
 "
-DEPEND="virtual/nlme
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	virtual/nlme
 	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

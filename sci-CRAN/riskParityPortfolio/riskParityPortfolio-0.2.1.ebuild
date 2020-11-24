@@ -26,11 +26,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/quadprog
-	sci-CRAN/nloptr
+DEPEND="sci-CRAN/alabama
 	virtual/Matrix
-	sci-CRAN/alabama
+	sci-CRAN/Rcpp
+	sci-CRAN/nloptr
+	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

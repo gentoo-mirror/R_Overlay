@@ -12,14 +12,14 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/dplyr
-	sci-CRAN/rstudioapi
+DEPEND=">=dev-lang/R-4.0
 	sci-CRAN/tidyr
-	>=dev-lang/R-4.0
-	sci-CRAN/purrr
-	sci-CRAN/magrittr
+	sci-CRAN/dplyr
 	sci-CRAN/stringi
+	sci-CRAN/magrittr
+	sci-CRAN/purrr
+	sci-CRAN/rlang
+	sci-CRAN/rstudioapi
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

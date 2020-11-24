@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_imager? ( sci-CRAN/imager )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/pbapply
-	sci-CRAN/seewave
+DEPEND=">=dev-lang/R-3.2.1
 	sci-CRAN/tuneR
-	>=dev-lang/R-3.2.1
-	sci-CRAN/png
 	sci-CRAN/NatureSounds
+	sci-CRAN/seewave
+	sci-CRAN/png
 	sci-CRAN/ggplot2
+	sci-CRAN/pbapply
 "
 RDEPEND="${DEPEND-}
 	virtual/ffmpeg

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/fishmethods_1.11-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/boot
+DEPEND="sci-CRAN/data_table
 	virtual/boot
-	sci-CRAN/data_table
 	virtual/MASS
 	sci-CRAN/lme4
+	virtual/boot
 	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

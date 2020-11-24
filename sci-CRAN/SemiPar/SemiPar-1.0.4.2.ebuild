@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_lattice"
 R_SUGGESTS="r_suggests_lattice? ( virtual/lattice )"
 DEPEND="virtual/MASS
-	virtual/nlme
 	virtual/cluster
+	virtual/nlme
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

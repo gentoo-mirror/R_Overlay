@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/EBarrays_2.48.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/lattice
+DEPEND="sci-BIOC/Biobase
 	virtual/lattice
-	sci-BIOC/Biobase
-	sci-BIOC/Biobase
 	virtual/cluster
+	sci-BIOC/Biobase
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

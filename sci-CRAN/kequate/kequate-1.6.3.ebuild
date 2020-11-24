@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/kequate_1.6.3.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND=">=dev-lang/R-2.11.0
+	sci-CRAN/mirt
 	sci-CRAN/equateIRT
 	sci-CRAN/ltm
-	sci-CRAN/mirt
 "
 RDEPEND="${DEPEND-}"

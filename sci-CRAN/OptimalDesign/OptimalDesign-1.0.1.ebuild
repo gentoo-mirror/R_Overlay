@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/OptimalDesign_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/lpSolve
-	sci-CRAN/plyr
-	sci-CRAN/rgl
 	virtual/Matrix
+	sci-CRAN/plyr
 	sci-CRAN/quadprog
+	virtual/Matrix
 	>=dev-lang/R-3.1.1
 	virtual/Matrix
-	virtual/Matrix
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

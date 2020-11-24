@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vennplot_1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/rgl
+DEPEND=">=sci-CRAN/Rcpp-0.12.7
 	sci-CRAN/stringr
-	>=sci-CRAN/Rcpp-0.12.7
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

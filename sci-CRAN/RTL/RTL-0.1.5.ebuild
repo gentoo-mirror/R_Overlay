@@ -12,36 +12,36 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )"
-DEPEND="sci-CRAN/RCurl
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	sci-CRAN/ggplot2
-	sci-CRAN/stringr
-	sci-CRAN/lubridate
-	sci-CRAN/forecast
-	sci-CRAN/PerformanceAnalytics
-	sci-CRAN/quantmod
-	sci-CRAN/readr
-	sci-CRAN/fitdistrplus
-	sci-CRAN/xts
-	sci-CRAN/plotly
-	sci-CRAN/sp
-	sci-CRAN/rlang
-	sci-CRAN/rugarch
-	sci-CRAN/zoo
-	sci-CRAN/fabletools
-	sci-CRAN/feasts
-	sci-CRAN/tsibble
-	>=dev-lang/R-4.0
-	sci-CRAN/tibble
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/readr
 	sci-CRAN/httr
-	sci-CRAN/purrr
-	sci-CRAN/timetk
-	sci-CRAN/tidyquant
+	sci-CRAN/fitdistrplus
+	sci-CRAN/ggplot2
 	sci-CRAN/tibbletime
-	sci-CRAN/Quandl
 	sci-CRAN/jsonlite
+	>=dev-lang/R-4.0
+	sci-CRAN/timetk
 	sci-CRAN/lpSolve
+	sci-CRAN/sp
+	sci-CRAN/magrittr
+	sci-CRAN/tibble
+	sci-CRAN/purrr
+	sci-CRAN/lubridate
+	sci-CRAN/PerformanceAnalytics
+	sci-CRAN/tsibble
+	sci-CRAN/fabletools
+	sci-CRAN/plotly
+	sci-CRAN/tidyquant
+	sci-CRAN/rugarch
+	sci-CRAN/xts
+	sci-CRAN/dplyr
+	sci-CRAN/tidyr
+	sci-CRAN/stringr
+	sci-CRAN/quantmod
+	sci-CRAN/rlang
+	sci-CRAN/zoo
+	sci-CRAN/forecast
+	sci-CRAN/Quandl
+	sci-CRAN/feasts
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

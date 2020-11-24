@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/mlbench-2.1
-	>=sci-CRAN/mlr-2.11
-	>=sci-CRAN/tictoc-1.0
+DEPEND=">=sci-CRAN/mlr-2.11
 	>=sci-CRAN/parallelMap-1.3
 	>=sci-CRAN/ggplot2-2.2.1
 	virtual/class
+	>=sci-CRAN/tictoc-1.0
+	>=sci-CRAN/mlbench-2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

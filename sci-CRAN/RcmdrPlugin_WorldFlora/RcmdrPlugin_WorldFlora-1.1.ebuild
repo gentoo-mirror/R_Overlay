@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/WorldFlora-1.6
 	>=sci-CRAN/Rcmdr-2.4.0
+	>=sci-CRAN/WorldFlora-1.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

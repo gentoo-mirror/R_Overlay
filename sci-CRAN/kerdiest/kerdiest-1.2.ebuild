@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/kerdiest_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/date
-	sci-CRAN/chron
 	sci-CRAN/evir
+	sci-CRAN/chron
 "
 RDEPEND="${DEPEND-}"

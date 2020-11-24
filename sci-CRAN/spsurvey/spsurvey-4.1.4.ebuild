@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/deldir
-	sci-CRAN/crossdes
-	virtual/foreign
-	>=dev-lang/R-3.5.0
 	sci-CRAN/Hmisc
-	virtual/MASS
 	sci-CRAN/rgeos
+	virtual/MASS
 	sci-CRAN/sf
+	>=dev-lang/R-3.5.0
+	virtual/foreign
+	sci-CRAN/crossdes
 	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

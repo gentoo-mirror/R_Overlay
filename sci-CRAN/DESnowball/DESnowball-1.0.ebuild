@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DESnowball_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/clue
+DEPEND=">=dev-lang/R-3.0.0
+	virtual/cluster
+	sci-CRAN/clue
 	sci-CRAN/combinat
 	virtual/MASS
-	>=dev-lang/R-3.0.0
-	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

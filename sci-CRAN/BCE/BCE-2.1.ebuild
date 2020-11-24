@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BCE_2.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/limSolve
+DEPEND="sci-CRAN/FME
+	sci-CRAN/limSolve
 	virtual/Matrix
-	sci-CRAN/FME
 "
 RDEPEND="${DEPEND-}"

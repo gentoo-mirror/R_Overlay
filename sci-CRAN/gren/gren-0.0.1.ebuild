@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.14
 	sci-CRAN/Iso
-	sci-CRAN/glmnet
 	sci-CRAN/pROC
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

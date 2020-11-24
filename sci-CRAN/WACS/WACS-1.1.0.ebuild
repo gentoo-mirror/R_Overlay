@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/WACS_1.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/mnormt
 	sci-CRAN/tmvtnorm
+	sci-CRAN/mnormt
 	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}"

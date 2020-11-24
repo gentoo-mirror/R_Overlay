@@ -25,19 +25,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/progress
-	sci-CRAN/metafor
-	sci-CRAN/reshape2
-	sci-CRAN/stringi
-	sci-CRAN/rlang
-	sci-CRAN/purrr
-	sci-CRAN/dplyr
-	virtual/boot
-	sci-CRAN/tibble
-	sci-CRAN/ggplot2
-	>=sci-CRAN/tidyr-1.0.0
 	sci-CRAN/stringr
-	sci-CRAN/curl
+	virtual/boot
+	sci-CRAN/stringi
+	sci-CRAN/purrr
 	sci-CRAN/data_table
+	sci-CRAN/dplyr
+	sci-CRAN/tibble
+	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
+	sci-CRAN/metafor
+	sci-CRAN/progress
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/rlang
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

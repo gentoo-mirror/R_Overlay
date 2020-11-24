@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LPBkg_1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/orthopolynom
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/Hmisc
 	sci-CRAN/polynom
+	sci-CRAN/orthopolynom
 "
 RDEPEND="${DEPEND-}"

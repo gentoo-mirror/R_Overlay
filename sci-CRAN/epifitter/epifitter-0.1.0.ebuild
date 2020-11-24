@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_ggridges? ( sci-CRAN/ggridges )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/dplyr
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/minpack_lm
+	sci-CRAN/dplyr
 	sci-CRAN/DescTools
 	sci-CRAN/tidyr
+	sci-CRAN/magrittr
 	sci-CRAN/tibble
 	>=dev-lang/R-3.2
-	sci-CRAN/ggplot2
 	sci-CRAN/deSolve
 	sci-CRAN/knitr
-	sci-CRAN/minpack_lm
-	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

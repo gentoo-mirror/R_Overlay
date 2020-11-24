@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/truncdist
-	sci-CRAN/deSolve
-	virtual/MASS
-	sci-CRAN/RColorBrewer
-	sci-CRAN/coda
-	sci-CRAN/mvtnorm
 	sci-CRAN/plyr
+	virtual/MASS
+	sci-CRAN/mvtnorm
+	sci-CRAN/deSolve
 	sci-CRAN/PBSddesolve
+	sci-CRAN/coda
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_wesanderson? ( sci-CRAN/wesanderson )
 "
 DEPEND=">=dev-lang/R-2.15.0
+	sci-CRAN/robustbase
 	virtual/lattice
 	sci-CRAN/leaps
-	virtual/lattice
-	sci-CRAN/robustbase
 	sci-CRAN/ellipse
-	sci-CRAN/openxlsx
 	sci-CRAN/triangle
 	sci-CRAN/colorspace
 	sci-CRAN/viridisLite
 	sci-CRAN/knitr
+	sci-CRAN/openxlsx
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

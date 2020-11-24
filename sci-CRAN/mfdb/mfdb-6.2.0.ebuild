@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_unittest? ( >=sci-CRAN/unittest-1.2 )
 "
 DEPEND=">=dev-lang/R-3.1.1
-	>=sci-CRAN/logging-0.7.103
-	>=sci-CRAN/DBI-0.3.1
-	>=sci-CRAN/getPass-0.1.1
 	>=sci-CRAN/RPostgreSQL-0.4
+	>=sci-CRAN/getPass-0.1.1
+	>=sci-CRAN/DBI-0.3.1
+	>=sci-CRAN/logging-0.7.103
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

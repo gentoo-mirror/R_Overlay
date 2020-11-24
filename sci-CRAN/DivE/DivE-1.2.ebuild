@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/DivE_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/deSolve
-	sci-CRAN/sp
-	sci-CRAN/rgeos
-	sci-CRAN/FME
 	>=dev-lang/R-2.15.3
+	sci-CRAN/FME
+	sci-CRAN/rgeos
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
 DEPEND="sci-CRAN/plyr
-	>=sci-CRAN/dplyr-0.5.0
-	>=sci-CRAN/crul-0.7.4
 	sci-CRAN/ggplot2
+	sci-CRAN/mapproj
+	>=sci-CRAN/crul-0.7.4
+	sci-CRAN/sp
+	>=sci-CRAN/dplyr-0.5.0
 	>=sci-CRAN/jsonlite-1.1
 	sci-CRAN/data_table
 	sci-CRAN/tibble
-	sci-CRAN/mapproj
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

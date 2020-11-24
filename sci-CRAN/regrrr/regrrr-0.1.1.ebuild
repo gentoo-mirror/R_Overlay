@@ -14,14 +14,14 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/purrr
 	sci-CRAN/tidyr
-	sci-CRAN/robustbase
-	sci-CRAN/scales
-	sci-CRAN/dplyr
 	sci-CRAN/stringr
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
 	sci-CRAN/magrittr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/dplyr
 	sci-CRAN/usdm
+	sci-CRAN/scales
+	sci-CRAN/robustbase
 	sci-CRAN/MuMIn
 	sci-CRAN/lspline
 "

@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_numderiv? ( sci-CRAN/numDeriv )
 	r_suggests_pscl? ( sci-CRAN/pscl )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/lmtest
 	sci-CRAN/sandwich
-	sci-CRAN/lmtest
 	sci-CRAN/Formula
+	virtual/MASS
 	>=dev-lang/R-2.14.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

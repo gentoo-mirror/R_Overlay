@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mediation"
 R_SUGGESTS="r_suggests_mediation? ( sci-CRAN/mediation )"
-DEPEND="sci-CRAN/MBESS
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/MBESS
 	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

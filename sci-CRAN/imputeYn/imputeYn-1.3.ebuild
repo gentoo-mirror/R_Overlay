@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/imputeYn_1.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/quadprog
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/emplik
 	virtual/survival
-	sci-CRAN/emplik
 	virtual/boot
+	sci-CRAN/quadprog
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

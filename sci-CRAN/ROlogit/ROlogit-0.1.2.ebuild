@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ROlogit_0.1.2.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/evd-2.3.2
 	virtual/survival
+	>=sci-CRAN/evd-2.3.2
 "
 RDEPEND="${DEPEND-}"

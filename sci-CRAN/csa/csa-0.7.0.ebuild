@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/scales
 	sci-CRAN/data_table
-	sci-CRAN/moments
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
+	sci-CRAN/scales
+	sci-CRAN/moments
 	sci-CRAN/Lmoments
 	sci-CRAN/foreach
 	sci-CRAN/ggpubr

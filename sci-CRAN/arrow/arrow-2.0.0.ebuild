@@ -25,13 +25,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/assertthat
-	sci-CRAN/rlang
+DEPEND=">=dev-lang/R-3.1
+	sci-CRAN/assertthat
+	>=sci-CRAN/bit64-0.9.7
 	sci-CRAN/vctrs
 	sci-CRAN/purrr
-	>=dev-lang/R-3.1
-	>=sci-CRAN/bit64-0.9.7
 	sci-CRAN/R6
+	sci-CRAN/rlang
 	sci-CRAN/tidyselect
 "
 RDEPEND="${DEPEND-}

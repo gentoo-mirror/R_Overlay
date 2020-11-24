@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/R6
+	sci-CRAN/Rcpp
 	sci-CRAN/narray
 	sci-CRAN/purrr
 	sci-CRAN/progress
-	sci-CRAN/Rcpp
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

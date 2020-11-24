@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/mutossGUI_0.1-11.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/mutoss-0.1.6
-	sci-CRAN/JGR
-	>=sci-CRAN/JavaGD-0.5.2
-	sci-CRAN/plotrix
-	sci-CRAN/multcomp
 	>=sci-CRAN/rJava-0.8.0
+	sci-CRAN/plotrix
+	>=sci-CRAN/JavaGD-0.5.2
+	sci-CRAN/multcomp
 	>=sci-CRAN/CommonJavaJars-1.0.5
+	sci-CRAN/JGR
 "
 RDEPEND="${DEPEND-} virtual/jdk"

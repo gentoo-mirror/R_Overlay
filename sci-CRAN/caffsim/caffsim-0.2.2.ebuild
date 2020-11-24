@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/caffsim_0.2.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.3.2
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/tibble
-	virtual/mgcv
-	sci-CRAN/shiny
-	sci-CRAN/markdown
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/tidyr
+	sci-CRAN/shiny
+	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
+	sci-CRAN/markdown
+	>=dev-lang/R-3.3.2
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

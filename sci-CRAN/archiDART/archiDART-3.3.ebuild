@@ -12,9 +12,9 @@ LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/gtools
 	sci-CRAN/geometry
-	sci-CRAN/TDA
-	sci-CRAN/sp
-	sci-CRAN/XML
 	sci-CRAN/rgl
+	sci-CRAN/TDA
+	sci-CRAN/XML
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

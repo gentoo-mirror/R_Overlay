@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/htmltools
-	sci-CRAN/sf
+DEPEND="sci-CRAN/geojsonsf
+	sci-CRAN/htmltools
 	sci-CRAN/jsonify
-	sci-CRAN/geojsonsf
 	sci-CRAN/leaflet
+	sci-CRAN/sf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

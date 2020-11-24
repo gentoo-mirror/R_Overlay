@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_lintr? ( >=sci-CRAN/lintr-2.0.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.0 )
 "
-DEPEND=">=sci-CRAN/WikipediR-1.5.0
-	>=sci-CRAN/purrr-0.3.4
-	>=dev-lang/R-3.1.2
+DEPEND=">=dev-lang/R-3.1.2
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/WikipediR-1.5.0
 	>=sci-CRAN/httr-1.2.1
 	>=sci-CRAN/jsonlite-1.2
-	>=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/ratelimitr-0.4.1
-	>=sci-CRAN/readr-1.3.1
+	>=sci-CRAN/purrr-0.3.4
 	>=sci-CRAN/rex-1.2.0
+	>=sci-CRAN/readr-1.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

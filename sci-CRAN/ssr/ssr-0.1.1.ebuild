@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_tgp? ( sci-CRAN/tgp )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/caret
 	sci-CRAN/e1071
+	sci-CRAN/caret
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

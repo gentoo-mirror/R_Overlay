@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
 	sci-CRAN/flexsurv
 	sci-CRAN/fitdistrplus
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

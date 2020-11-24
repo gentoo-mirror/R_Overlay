@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cmprskQR_0.9.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/quantreg
+DEPEND=">=dev-lang/R-2.13.0
+	sci-CRAN/quantreg
 	virtual/survival
-	>=dev-lang/R-2.13.0
 "
 RDEPEND="${DEPEND-}"

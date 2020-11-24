@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_shinydashboard? ( sci-CRAN/shinydashboard )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/data_table-1.9.6
-	sci-CRAN/htmltools
-	sci-CRAN/htmlwidgets
-	sci-CRAN/pipeR
+DEPEND=">=sci-CRAN/data_table-1.9.6
 	sci-CRAN/knitr
-	sci-CRAN/zoo
+	sci-CRAN/htmlwidgets
+	sci-CRAN/htmltools
 	sci-CRAN/yaml
+	sci-CRAN/zoo
+	>=dev-lang/R-3.2.0
+	sci-CRAN/pipeR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

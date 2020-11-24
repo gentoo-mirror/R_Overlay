@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/jsonlite
-	>=dev-lang/R-3.2.0
+DEPEND="sci-CRAN/jsonlite
 	>=sci-CRAN/future-1.8.0
+	>=dev-lang/R-3.2.0
+	sci-CRAN/httr
 	sci-CRAN/memoise
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

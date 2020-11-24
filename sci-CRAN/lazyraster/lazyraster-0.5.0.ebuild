@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_palr? ( sci-CRAN/palr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/vapour-0.4.0
-	sci-CRAN/raster
+DEPEND="sci-CRAN/raster
+	>=sci-CRAN/vapour-0.4.0
 	>=sci-CRAN/quadmesh-0.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

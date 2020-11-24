@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/fbRads_0.2.tar.gz"
 LICENSE='AGPL-3'
 
-DEPEND="sci-CRAN/bit64
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
+	sci-CRAN/data_table
+	sci-CRAN/bit64
 	sci-CRAN/futile_logger
-	sci-CRAN/plyr
 	sci-CRAN/digest
 	sci-CRAN/RCurl
-	sci-CRAN/data_table
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

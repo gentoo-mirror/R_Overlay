@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_visnetwork? ( >=sci-CRAN/visNetwork-2.0.8 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/bnlearn-4.5
+DEPEND=">=sci-CRAN/bnlearn-4.5
 	>=sci-CRAN/R6-2.4.1
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/Rcpp-1.0.2
 	>=sci-CRAN/data_table-1.12.4
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-1.0.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

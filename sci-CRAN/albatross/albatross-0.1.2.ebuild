@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/albatross_0.1-2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/pracma
+DEPEND="virtual/lattice
 	>=sci-CRAN/multiway-1.0.4
-	virtual/lattice
+	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}"

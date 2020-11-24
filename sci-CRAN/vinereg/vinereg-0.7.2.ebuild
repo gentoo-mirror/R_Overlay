@@ -29,16 +29,16 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=sci-CRAN/rvinecopulib-0.5.4.1.0
-	sci-CRAN/assertthat
 	>=sci-CRAN/kde1d-1.0.2
+	sci-CRAN/assertthat
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/rvinecopulib
-	sci-CRAN/BH
-	sci-CRAN/Rcpp
 	sci-CRAN/RcppEigen
+	sci-CRAN/Rcpp
 	sci-CRAN/wdm
+	sci-CRAN/BH
 	sci-CRAN/RcppThread
 	sci-CRAN/kde1d
 	${R_SUGGESTS-}

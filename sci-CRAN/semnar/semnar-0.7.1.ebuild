@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/semnar_0.7.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/leaflet
-	sci-CRAN/lubridate
-	sci-CRAN/jsonlite
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/lubridate
 	sci-CRAN/urlshorteneR
+	sci-CRAN/leaflet
+	>=dev-lang/R-3.6.0
+	sci-CRAN/magrittr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

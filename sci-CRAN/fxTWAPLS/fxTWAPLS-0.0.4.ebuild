@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/geosphere
-	sci-CRAN/foreach
-	sci-CRAN/ggplot2
-	sci-CRAN/doParallel
-	>=dev-lang/R-3.6
-	virtual/MASS
+DEPEND="sci-CRAN/doParallel
+	sci-CRAN/geosphere
 	sci-CRAN/tictoc
+	>=dev-lang/R-3.6
+	sci-CRAN/ggplot2
+	sci-CRAN/foreach
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

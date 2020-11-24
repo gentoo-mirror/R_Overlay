@@ -13,10 +13,10 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND="sci-CRAN/ggplot2
-	>=sci-CRAN/data_table-1.8.8
 	sci-CRAN/igraph
-	sci-CRAN/colorspace
 	sci-CRAN/gridBase
+	>=sci-CRAN/data_table-1.8.8
+	sci-CRAN/colorspace
 	sci-CRAN/RColorBrewer
 	>=sci-CRAN/shiny-0.12.0
 "

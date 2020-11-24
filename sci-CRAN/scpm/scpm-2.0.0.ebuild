@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/scpm_2.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/interp
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/RandomFields
 	sci-CRAN/rgl
 	virtual/lattice
-	virtual/MASS
+	sci-CRAN/interp
 	virtual/Matrix
-	sci-CRAN/RandomFields
+	sci-CRAN/mvtnorm
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

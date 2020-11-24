@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/OrdFacReg_1.0.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/survival
-	sci-CRAN/eha
 	virtual/MASS
+	sci-CRAN/eha
 "
 RDEPEND="${DEPEND-}"

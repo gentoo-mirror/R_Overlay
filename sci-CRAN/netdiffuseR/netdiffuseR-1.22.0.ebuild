@@ -21,17 +21,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/SparseM
-	virtual/Matrix
-	virtual/MASS
-	sci-CRAN/MatchIt
-	virtual/boot
-	sci-CRAN/igraph
+	sci-CRAN/network
 	sci-CRAN/sna
 	>=sci-CRAN/Rcpp-0.12.1
-	sci-CRAN/network
 	sci-CRAN/networkDynamic
+	virtual/Matrix
+	sci-CRAN/MatchIt
+	sci-CRAN/SparseM
+	virtual/boot
 	sci-CRAN/viridisLite
+	virtual/MASS
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

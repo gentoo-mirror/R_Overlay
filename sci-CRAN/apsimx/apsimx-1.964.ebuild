@@ -30,10 +30,10 @@ R_SUGGESTS="
 	r_suggests_spdata? ( sci-CRAN/spData )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/RSQLite
-	sci-CRAN/jsonlite
-	sci-CRAN/knitr
 	sci-CRAN/DBI
+	sci-CRAN/RSQLite
+	sci-CRAN/knitr
+	sci-CRAN/jsonlite
 	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

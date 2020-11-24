@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-CRAN/xml2-1.2.0 >=sci-CRAN/worrms-0.4.0 sci-CRAN/crayon sci-CRAN/phangorn >=sci-CRAN/wikitaxa-0.3.0 sci-CRAN/ape sci-CRAN/data_table >=sci-CRAN/crul-0.7.0 >=sci-CRAN/natserv-1.0.0 >=sci-CRAN/ritis-0.7.6 sci-CRAN/R6 sci-CRAN/conditionz sci-CRAN/cli >=dev-lang/R-3.2.1 sci-CRAN/rredlist sci-CRAN/foreach >=sci-CRAN/tibble-1.2 >=sci-CRAN/bold-0.8.6 sci-CRAN/jsonlite sci-CRAN/zoo >=sci-CRAN/rotl-3.0.0 dev-lang/R
+DEPEND=>=sci-CRAN/wikitaxa-0.3.0 sci-CRAN/phangorn >=sci-CRAN/natserv-1.0.0 sci-CRAN/rredlist >=sci-CRAN/bold-0.8.6 >=sci-CRAN/crul-0.7.0 sci-CRAN/jsonlite sci-CRAN/ape sci-CRAN/data_table sci-CRAN/R6 sci-CRAN/conditionz >=sci-CRAN/rotl-3.0.0 sci-CRAN/crayon sci-CRAN/cli >=sci-CRAN/tibble-1.2 >=sci-CRAN/ritis-0.7.6 sci-CRAN/foreach >=dev-lang/R-3.2.1 >=sci-CRAN/xml2-1.2.0 sci-CRAN/zoo >=sci-CRAN/worrms-0.4.0 dev-lang/R
 DESCRIPTION=Taxonomic Information from Around the Web
 EAPI=7
 IUSE=r_suggests_testthat r_suggests_vcr r_suggests_vegan byte-compile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=sci-CRAN/xml2-1.2.0 >=sci-CRAN/worrms-0.4.0 sci-CRAN/crayon sci-CRAN/phangorn >=sci-CRAN/wikitaxa-0.3.0 sci-CRAN/ape sci-CRAN/data_table >=sci-CRAN/crul-0.7.0 >=sci-CRAN/natserv-1.0.0 >=sci-CRAN/ritis-0.7.6 sci-CRAN/R6 sci-CRAN/conditionz sci-CRAN/cli >=dev-lang/R-3.2.1 sci-CRAN/rredlist sci-CRAN/foreach >=sci-CRAN/tibble-1.2 >=sci-CRAN/bold-0.8.6 sci-CRAN/jsonlite sci-CRAN/zoo >=sci-CRAN/rotl-3.0.0 r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vcr? ( sci-CRAN/vcr ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R
+RDEPEND=>=sci-CRAN/wikitaxa-0.3.0 sci-CRAN/phangorn >=sci-CRAN/natserv-1.0.0 sci-CRAN/rredlist >=sci-CRAN/bold-0.8.6 >=sci-CRAN/crul-0.7.0 sci-CRAN/jsonlite sci-CRAN/ape sci-CRAN/data_table sci-CRAN/R6 sci-CRAN/conditionz >=sci-CRAN/rotl-3.0.0 sci-CRAN/crayon sci-CRAN/cli >=sci-CRAN/tibble-1.2 >=sci-CRAN/ritis-0.7.6 sci-CRAN/foreach >=dev-lang/R-3.2.1 >=sci-CRAN/xml2-1.2.0 sci-CRAN/zoo >=sci-CRAN/worrms-0.4.0 r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vcr? ( sci-CRAN/vcr ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/taxize_0.9.99.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=4039a66b87896f7ec0d98a5f3b652976
+_md5_=58c35b47b269142dfeca1cc84e1dc85b

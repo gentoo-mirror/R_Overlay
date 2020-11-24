@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/minpack_lm
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/Rcpp
 	sci-CRAN/Rdpack
 	sci-CRAN/dplyr
+	sci-CRAN/minpack_lm
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MetaIntegration_0.1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="virtual/MASS
 	sci-CRAN/Rsolnp
-	sci-CRAN/corpcor
-	virtual/MASS
 	sci-CRAN/knitr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/corpcor
 "
 RDEPEND="${DEPEND-}"

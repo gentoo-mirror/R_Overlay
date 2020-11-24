@@ -18,7 +18,7 @@ R_SUGGESTS="
 	r_suggests_vegan? ( sci-CRAN/vegan )
 	r_suggests_vegdata? ( sci-CRAN/vegdata )
 "
-DEPEND="virtual/lattice
-	virtual/mgcv
+DEPEND="virtual/mgcv
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

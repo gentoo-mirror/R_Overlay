@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_cairodevice? ( sci-CRAN/cairoDevice )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/memoise
+DEPEND="sci-CRAN/RGtk2
+	sci-CRAN/memoise
 	>=sci-CRAN/gWidgets2-1.0.7
-	sci-CRAN/RGtk2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

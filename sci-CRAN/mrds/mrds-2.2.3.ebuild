@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/numDeriv
-	>=sci-CRAN/optimx-2013.8.6
 	virtual/mgcv
 	sci-CRAN/Rsolnp
+	>=sci-CRAN/optimx-2013.8.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

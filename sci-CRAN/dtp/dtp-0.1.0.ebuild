@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/dtp_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/gtools
-	sci-CRAN/Formula
 	sci-CRAN/plyr
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-}"

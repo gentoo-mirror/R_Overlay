@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/abcrf_1.8.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.1
-	virtual/MASS
+DEPEND="virtual/MASS
+	sci-CRAN/ranger
+	sci-CRAN/foreach
 	virtual/Matrix
 	sci-CRAN/doParallel
-	sci-CRAN/ranger
-	>=sci-CRAN/Rcpp-0.11.2
-	sci-CRAN/readr
-	sci-CRAN/foreach
 	sci-CRAN/stringr
+	>=sci-CRAN/Rcpp-0.11.2
+	>=dev-lang/R-3.1
+	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

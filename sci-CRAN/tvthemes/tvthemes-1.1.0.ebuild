@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
-DEPEND=">=sci-CRAN/extrafont-0.17
-	>=sci-CRAN/glue-1.3.1
-	>=sci-CRAN/scales-1.0.0
-	>=sci-CRAN/ggplot2-3.1.0
+DEPEND=">=sci-CRAN/ggplot2-3.1.0
 	>=sci-CRAN/magick-2.0
+	>=sci-CRAN/scales-1.0.0
+	>=sci-CRAN/extrafont-0.17
+	>=sci-CRAN/glue-1.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

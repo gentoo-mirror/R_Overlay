@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/vwr_0.3.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0.1
+	virtual/lattice
+	virtual/lattice
 	sci-CRAN/stringdist
-	virtual/lattice
-	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

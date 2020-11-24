@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/magrittr
 	sci-CRAN/plyr
 	>=sci-CRAN/htmlwidgets-1.2
 	sci-CRAN/htmltools
-	sci-CRAN/dplyr
-	sci-CRAN/jsonlite
-	sci-CRAN/magrittr
 	sci-CRAN/r2d3
 	sci-CRAN/readxl
 	sci-CRAN/stringr
 	sci-CRAN/testthat
+	sci-CRAN/dplyr
+	sci-CRAN/jsonlite
 	sci-CRAN/tibble
 	sci-CRAN/widgetframe
 "

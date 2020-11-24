@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RHMS_1.6.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/Hmisc
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/pso
-	sci-CRAN/network
-	>=dev-lang/R-3.0.0
+	sci-CRAN/Hmisc
 	sci-CRAN/GGally
+	sci-CRAN/network
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

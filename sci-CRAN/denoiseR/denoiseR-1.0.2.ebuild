@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_missmda"
 R_SUGGESTS="r_suggests_missmda? ( sci-CRAN/missMDA )"
 DEPEND="sci-CRAN/FactoMineR
-	sci-CRAN/irlba
 	virtual/Matrix
+	sci-CRAN/irlba
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

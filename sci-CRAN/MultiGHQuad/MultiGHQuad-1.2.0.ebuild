@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/mvtnorm
-	virtual/Matrix
 	>=sci-CRAN/fastGHQuad-0.2
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BinOrdNonNor_1.5.1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/GenOrd
+	sci-CRAN/mvtnorm
 	sci-CRAN/OrdNor
-	sci-CRAN/GenOrd
+	sci-CRAN/BB
 	virtual/Matrix
 	sci-CRAN/corpcor
-	sci-CRAN/BB
 "
 RDEPEND="${DEPEND-}"

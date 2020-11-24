@@ -43,16 +43,16 @@ R_SUGGESTS="
 	r_suggests_vinecopula? ( sci-CRAN/VineCopula )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="virtual/Matrix
+DEPEND="virtual/lattice
+	virtual/Matrix
+	sci-CRAN/pspline
 	sci-CRAN/colorspace
-	virtual/lattice
+	>=dev-lang/R-3.5.0
 	sci-CRAN/gsl
 	sci-CRAN/ADGofTest
 	>=sci-CRAN/stabledist-0.6.4
 	sci-CRAN/mvtnorm
 	sci-CRAN/pcaPP
-	sci-CRAN/pspline
 	sci-CRAN/numDeriv
-	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

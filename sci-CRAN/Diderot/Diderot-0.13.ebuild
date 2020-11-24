@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Diderot_0.13.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/stringi
-	sci-CRAN/igraph
-	>=dev-lang/R-3.0.1
-	sci-CRAN/RCurl
-	sci-CRAN/foreach
+DEPEND=">=dev-lang/R-3.0.1
+	sci-CRAN/stringi
+	sci-CRAN/doParallel
 	sci-CRAN/splitstackshape
 	sci-CRAN/data_table
-	sci-CRAN/doParallel
+	sci-CRAN/igraph
+	sci-CRAN/foreach
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

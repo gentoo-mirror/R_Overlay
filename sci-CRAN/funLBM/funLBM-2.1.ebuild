@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 DEPEND="sci-CRAN/fda
 	sci-CRAN/abind
 	>=dev-lang/R-3.4.0
-	sci-CRAN/funFEM
 	sci-CRAN/ggplot2
+	sci-CRAN/funFEM
 "
 RDEPEND="${DEPEND-}"

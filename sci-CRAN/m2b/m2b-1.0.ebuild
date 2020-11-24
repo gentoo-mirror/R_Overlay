@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/geosphere
-	sci-CRAN/randomForest
-	sci-CRAN/caTools
-	>=dev-lang/R-3.3.0
-	sci-CRAN/ggplot2
-	sci-CRAN/e1071
 	sci-CRAN/caret
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.3.0
+	sci-CRAN/caTools
+	sci-CRAN/randomForest
+	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

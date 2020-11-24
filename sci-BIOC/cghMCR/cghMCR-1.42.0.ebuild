@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/cghMCR_1.42.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="sci-BIOC/CNTools
-	sci-BIOC/DNAcopy
-	sci-BIOC/limma
+DEPEND="sci-BIOC/DNAcopy
 	>=sci-BIOC/BiocGenerics-0.1.6
+	sci-BIOC/CNTools
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-}"

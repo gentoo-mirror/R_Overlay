@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/SpecHelpers_0.2.7.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/splancs
 	sci-CRAN/gsubfn
+	sci-CRAN/splancs
 "
 RDEPEND="${DEPEND-}"

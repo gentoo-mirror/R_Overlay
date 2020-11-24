@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_units? ( sci-CRAN/units )
 "
 DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/jsonlite
 	sci-CRAN/XML
 	sci-CRAN/httr
-	sci-CRAN/jsonlite
 	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/redcapAPI_2.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/checkmate
-	sci-CRAN/httr
-	sci-CRAN/chron
+DEPEND="sci-CRAN/chron
 	sci-CRAN/DBI
-	sci-CRAN/labelVector
-	sci-CRAN/lubridate
+	sci-CRAN/httr
 	sci-CRAN/readr
+	sci-CRAN/lubridate
 	sci-CRAN/stringr
+	>=dev-lang/R-3.0.0
+	sci-CRAN/checkmate
+	sci-CRAN/labelVector
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/alabama
+DEPEND="sci-CRAN/randtoolbox
 	>=sci-CRAN/Rcpp-0.12.16
+	sci-CRAN/alabama
 	sci-CRAN/nleqslv
-	sci-CRAN/randtoolbox
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

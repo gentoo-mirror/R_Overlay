@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=sci-CRAN/minpack_lm-1.2.0
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/nlstools-1.0.2
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/ggplot2-2.1.0
+	>=sci-CRAN/minpack_lm-1.2.0
 	>=sci-CRAN/poorman-0.2.1
+	>=sci-CRAN/ggplot2-2.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

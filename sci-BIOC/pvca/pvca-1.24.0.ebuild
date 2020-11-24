@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/pvca_1.24.0.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND=">=dev-lang/R-2.15.1
-	virtual/Matrix
+DEPEND="sci-BIOC/Biobase
 	sci-CRAN/lme4
 	sci-BIOC/vsn
-	sci-BIOC/Biobase
+	virtual/Matrix
+	>=dev-lang/R-2.15.1
 "
 RDEPEND="${DEPEND-}"
 

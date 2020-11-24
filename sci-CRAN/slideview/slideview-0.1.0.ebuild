@@ -13,9 +13,9 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_jpeg"
 R_SUGGESTS="r_suggests_jpeg? ( sci-CRAN/jpeg )"
 DEPEND="sci-CRAN/htmltools
-	sci-CRAN/viridisLite
-	sci-CRAN/htmlwidgets
 	virtual/lattice
+	sci-CRAN/htmlwidgets
 	sci-CRAN/raster
+	sci-CRAN/viridisLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

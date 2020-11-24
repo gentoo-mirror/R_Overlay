@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_twang? ( sci-CRAN/twang )
 "
-DEPEND="sci-CRAN/cli
+DEPEND="sci-CRAN/nnls
+	sci-CRAN/cli
 	sci-CRAN/slider
 	sci-CRAN/R6
-	>=sci-CRAN/future-1.17.0
-	sci-CRAN/nnls
 	sci-CRAN/generics
 	sci-CRAN/origami
+	>=sci-CRAN/future-1.17.0
 	sci-CRAN/progressr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

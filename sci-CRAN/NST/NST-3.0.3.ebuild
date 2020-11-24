@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/NST_3.0.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/vegan
-	sci-CRAN/permute
-	sci-CRAN/ape
+DEPEND="sci-CRAN/vegan
 	sci-CRAN/bigmemory
+	sci-CRAN/ape
+	>=dev-lang/R-3.1.0
+	sci-CRAN/permute
 	sci-CRAN/iCAMP
 "
 RDEPEND="${DEPEND-}"

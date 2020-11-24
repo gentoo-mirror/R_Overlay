@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/Rdpack
-	sci-CRAN/assertthat
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/dplyr
-	sci-CRAN/mvtnorm
+	sci-CRAN/assertthat
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

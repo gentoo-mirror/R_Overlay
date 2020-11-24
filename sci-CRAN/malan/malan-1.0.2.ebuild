@@ -21,17 +21,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.7
-	>=sci-CRAN/RcppProgress-0.2.1
-	>=sci-CRAN/tidygraph-1.0.0.9999
-	>=sci-CRAN/dplyr-0.7.3
-	>=sci-CRAN/RcppArmadillo-0.9.880.1.0
-	>=sci-CRAN/igraph-1.0.1
-	>=sci-CRAN/tibble-1.1
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/igraph-1.0.1
+	>=sci-CRAN/RcppProgress-0.2.1
+	>=sci-CRAN/dplyr-0.7.3
+	>=sci-CRAN/tidygraph-1.0.0.9999
+	>=sci-CRAN/RcppArmadillo-0.9.880.1.0
+	>=sci-CRAN/tibble-1.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppProgress
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppProgress
 	${R_SUGGESTS-}
 "

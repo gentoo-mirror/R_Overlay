@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/shinyChakraSlider_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/htmltools
+DEPEND="sci-CRAN/shiny
+	sci-CRAN/htmltools
 	sci-CRAN/reactR
-	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"

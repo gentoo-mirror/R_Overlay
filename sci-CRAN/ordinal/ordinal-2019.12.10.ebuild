@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/numDeriv
-	virtual/Matrix
 	virtual/MASS
 	sci-CRAN/ucminf
+	sci-CRAN/numDeriv
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

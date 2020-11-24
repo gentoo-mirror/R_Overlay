@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SOPIE_1.5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.2
+DEPEND="sci-CRAN/ADGofTest
 	sci-CRAN/circular
-	sci-CRAN/ADGofTest
+	>=dev-lang/R-3.2
 "
 RDEPEND="${DEPEND-}"

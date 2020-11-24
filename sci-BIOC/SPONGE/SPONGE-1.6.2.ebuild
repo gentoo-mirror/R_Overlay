@@ -27,17 +27,17 @@ R_SUGGESTS="
 	r_suggests_visnetwork? ( sci-CRAN/visNetwork )
 "
 DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/doRNG
-	sci-CRAN/data_table
-	sci-CRAN/logging
+	sci-CRAN/ppcor
 	sci-BIOC/Biobase
+	sci-CRAN/logging
+	sci-CRAN/doRNG
 	virtual/MASS
+	sci-CRAN/expm
 	sci-CRAN/gRbase
 	sci-CRAN/glmnet
-	sci-CRAN/igraph
-	sci-CRAN/ppcor
 	sci-CRAN/foreach
-	sci-CRAN/expm
+	sci-CRAN/data_table
+	sci-CRAN/igraph
 	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/xfun
-	>=sci-CRAN/httpuv-1.5.2
-	>=sci-CRAN/mime-0.2
 	sci-CRAN/jsonlite
+	>=sci-CRAN/httpuv-1.5.2
+	sci-CRAN/xfun
+	>=sci-CRAN/mime-0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

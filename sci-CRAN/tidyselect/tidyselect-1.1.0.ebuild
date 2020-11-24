@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_tibble? ( >=sci-CRAN/tibble-2.1.3 )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/rlang-0.4.6
-	>=sci-CRAN/vctrs-0.2.2
-	sci-CRAN/ellipsis
+DEPEND=">=sci-CRAN/vctrs-0.2.2
+	>=dev-lang/R-3.2
 	>=sci-CRAN/glue-1.3.0
+	>=sci-CRAN/rlang-0.4.6
 	>=sci-CRAN/purrr-0.3.2
+	sci-CRAN/ellipsis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

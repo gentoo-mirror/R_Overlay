@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/htmlwidgets
-	>=dev-lang/R-2.15
+DEPEND=">=dev-lang/R-2.15
+	sci-CRAN/htmlwidgets
 	>=sci-CRAN/qtl-1.30.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

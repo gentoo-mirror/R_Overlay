@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PhViD_1.0.8.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/MCMCpack
-	sci-BIOC/LBE
+DEPEND="sci-BIOC/LBE
+	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-} dev-lang/R[tk]"

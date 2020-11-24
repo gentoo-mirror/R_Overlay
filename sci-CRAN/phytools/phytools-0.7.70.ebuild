@@ -18,20 +18,20 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND=">=sci-CRAN/phangorn-2.3.1
+DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/phangorn-2.3.1
 	sci-CRAN/scatterplot3d
-	sci-CRAN/coda
-	sci-CRAN/expm
-	sci-CRAN/gtools
 	virtual/MASS
-	sci-CRAN/numDeriv
+	>=sci-CRAN/ape-4.0
+	sci-CRAN/gtools
 	sci-CRAN/plotrix
 	sci-CRAN/combinat
 	sci-CRAN/mnormt
-	virtual/cluster
-	>=sci-CRAN/ape-4.0
-	virtual/nlme
-	>=dev-lang/R-3.5.0
 	sci-CRAN/maps
+	sci-CRAN/expm
+	virtual/cluster
+	sci-CRAN/coda
+	virtual/nlme
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

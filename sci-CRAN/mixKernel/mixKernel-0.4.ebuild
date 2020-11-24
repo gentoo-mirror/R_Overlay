@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mixKernel_0.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-BIOC/mixOmics
-	sci-CRAN/ggplot2
+DEPEND="virtual/Matrix
 	>=sci-CRAN/reticulate-1.14
+	sci-CRAN/ggplot2
+	sci-BIOC/mixOmics
+	>=dev-lang/R-3.5.0
 	sci-CRAN/vegan
 	sci-BIOC/phyloseq
-	sci-CRAN/psych
-	sci-CRAN/LDRTools
-	virtual/Matrix
 	sci-CRAN/corrplot
+	sci-CRAN/psych
 	sci-CRAN/quadprog
+	sci-CRAN/LDRTools
 "
 RDEPEND="${DEPEND-}"

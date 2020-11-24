@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/kehra_0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/stringr
+DEPEND="sci-CRAN/raster
+	sci-CRAN/xts
 	sci-CRAN/reshape2
 	sci-CRAN/Hmisc
-	sci-CRAN/raster
-	sci-CRAN/sp
-	sci-CRAN/xts
-	sci-CRAN/zoo
 	>=dev-lang/R-2.14.0
+	sci-CRAN/stringr
+	sci-CRAN/sp
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}"

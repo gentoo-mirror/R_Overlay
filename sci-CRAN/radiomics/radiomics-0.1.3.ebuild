@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/reshape2
+DEPEND="sci-CRAN/spatstat
 	sci-CRAN/Rcpp
-	sci-CRAN/spatstat
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

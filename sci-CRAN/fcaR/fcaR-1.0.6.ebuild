@@ -17,18 +17,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/stringr
-	sci-CRAN/fractional
-	sci-CRAN/registry
-	sci-CRAN/arules
-	sci-CRAN/tictoc
-	sci-CRAN/knitr
-	sci-CRAN/hasseDiagram
 	virtual/Matrix
-	sci-CRAN/RColorBrewer
-	sci-CRAN/Rcpp
 	sci-CRAN/scales
 	sci-CRAN/tikzDevice
+	sci-CRAN/arules
+	sci-CRAN/hasseDiagram
+	sci-CRAN/fractional
+	sci-CRAN/knitr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/Rcpp
+	sci-CRAN/registry
+	sci-CRAN/stringr
+	sci-CRAN/tictoc
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

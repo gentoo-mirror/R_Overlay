@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AurieLSHGaussian_0.2.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-CRAN/stringdist
 	sci-CRAN/lsa
 	sci-CRAN/reshape2
 	sci-CRAN/flexclust
-	sci-CRAN/stringdist
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

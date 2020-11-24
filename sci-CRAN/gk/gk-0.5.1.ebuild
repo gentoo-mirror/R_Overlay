@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/progress
+DEPEND="sci-CRAN/Ecdat
 	sci-CRAN/lubridate
-	sci-CRAN/Ecdat
+	sci-CRAN/progress
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

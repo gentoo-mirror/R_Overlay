@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/ARpLMEC_1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/sandwich
-	sci-CRAN/mvtnorm
-	sci-CRAN/tmvtnorm
 	sci-CRAN/numDeriv
 	sci-CRAN/gmm
+	sci-CRAN/tmvtnorm
+	sci-CRAN/mvtnorm
 	virtual/MASS
-	sci-CRAN/lmec
 	>=dev-lang/R-2.14
 	virtual/Matrix
+	sci-CRAN/lmec
 	sci-CRAN/mnormt
 "
 RDEPEND="${DEPEND-}"

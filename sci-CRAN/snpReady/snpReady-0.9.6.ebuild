@@ -18,8 +18,8 @@ R_SUGGESTS="
 "
 DEPEND="virtual/Matrix
 	sci-CRAN/rgl
-	virtual/Matrix
-	sci-BIOC/impute
 	sci-CRAN/stringr
+	sci-BIOC/impute
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

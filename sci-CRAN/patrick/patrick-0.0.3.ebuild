@@ -12,9 +12,9 @@ LICENSE='Apache-2.0'
 
 DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/rlang
-	sci-CRAN/purrr
 	sci-CRAN/dplyr
 	sci-CRAN/testthat
+	sci-CRAN/purrr
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}"

@@ -18,20 +18,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-0.8 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 )
 "
-DEPEND=">=sci-CRAN/digest-0.6.8
-	>=sci-CRAN/stringr-1.0.0
-	>=sci-CRAN/Rcpp-0.12.0
-	>=sci-CRAN/assertthat-0.1
-	>=sci-CRAN/NLP-0.1.8
+DEPEND=">=dev-lang/R-3.1.1
 	>=sci-CRAN/tibble-3.0.1
-	>=sci-CRAN/tidyr-0.3.1
-	>=dev-lang/R-3.1.1
 	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/stringr-1.0.0
 	>=sci-CRAN/RcppProgress-0.1
+	>=sci-CRAN/tidyr-0.3.1
+	>=sci-CRAN/digest-0.6.8
+	>=sci-CRAN/NLP-0.1.8
+	>=sci-CRAN/assertthat-0.1
+	>=sci-CRAN/Rcpp-0.12.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH
-	sci-CRAN/RcppProgress
 	sci-CRAN/Rcpp
+	sci-CRAN/RcppProgress
 	${R_SUGGESTS-}
 "

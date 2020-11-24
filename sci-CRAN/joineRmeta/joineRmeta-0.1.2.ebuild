@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	virtual/survival
-	sci-CRAN/meta
-	virtual/MASS
 	sci-CRAN/lme4
+	virtual/survival
 	sci-CRAN/msm
+	sci-CRAN/meta
 	sci-CRAN/statmod
+	virtual/Matrix
 	sci-CRAN/ggplot2
 	sci-CRAN/JM
 	sci-CRAN/gridExtra
 	sci-CRAN/gtools
 	sci-CRAN/joineR
-	virtual/Matrix
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

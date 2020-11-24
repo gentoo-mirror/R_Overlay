@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/snowboot_1.0.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/Rdpack
 	sci-CRAN/igraph
+	sci-CRAN/Rdpack
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

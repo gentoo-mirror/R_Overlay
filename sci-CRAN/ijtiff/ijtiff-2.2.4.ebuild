@@ -26,19 +26,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1 )
 	r_suggests_tiff? ( sci-CRAN/tiff )
 "
-DEPEND=">=sci-CRAN/rlang-0.3.3
-	sci-CRAN/zeallot
-	>=sci-CRAN/strex-1.4
-	>=sci-CRAN/withr-2.1
-	sci-CRAN/readr
-	>=sci-CRAN/stringr-1.4
-	>=dev-lang/R-3.5
-	sci-CRAN/cli
+DEPEND=">=dev-lang/R-3.5
 	>=sci-CRAN/checkmate-1.9.3
+	sci-CRAN/cli
 	>=sci-CRAN/fs-1.3.1
 	sci-CRAN/dplyr
 	>=sci-CRAN/magrittr-1.5
 	sci-CRAN/purrr
+	>=sci-CRAN/strex-1.4
+	sci-CRAN/zeallot
+	>=sci-CRAN/stringr-1.4
+	>=sci-CRAN/withr-2.1
+	sci-CRAN/readr
+	>=sci-CRAN/rlang-0.3.3
 "
 RDEPEND="${DEPEND-}
 	media-libs/tiff

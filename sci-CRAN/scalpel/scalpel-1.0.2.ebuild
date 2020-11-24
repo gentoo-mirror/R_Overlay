@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="virtual/Matrix
-	sci-CRAN/gam
-	sci-CRAN/protoclust
-	sci-CRAN/igraph
 	sci-CRAN/R_matlab
+	sci-CRAN/igraph
+	sci-CRAN/protoclust
+	sci-CRAN/gam
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

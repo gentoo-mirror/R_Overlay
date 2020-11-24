@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DSpat_0.1.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/sp
-	virtual/mgcv
-	sci-CRAN/rgeos
+DEPEND="sci-CRAN/RandomFields
 	>=sci-CRAN/spatstat-1.22.0
-	sci-CRAN/RandomFields
+	sci-CRAN/rgeos
+	sci-CRAN/sp
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

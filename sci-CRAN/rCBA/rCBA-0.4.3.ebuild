@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/rCBA_0.4.3.tar.gz"
 LICENSE='Apache-2.0'
 
 DEPEND=">=dev-lang/R-3.1.3
+	sci-CRAN/arules
+	sci-CRAN/rJava
 	sci-CRAN/TunePareto
 	sci-CRAN/R_utils
-	sci-CRAN/rJava
-	sci-CRAN/arules
 "
 RDEPEND="${DEPEND-} virtual/jdk"

@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_ggplot2"
 R_SUGGESTS="r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-2.2.1 )"
-DEPEND=">=dev-lang/R-3.3.0
-	>=sci-BIOC/ggtree-1.8.1
+DEPEND=">=sci-BIOC/ggtree-1.8.1
 	>=sci-CRAN/dplyr-0.7.2
+	>=dev-lang/R-3.3.0
 	>=sci-CRAN/ape-4.1
 	>=sci-CRAN/lazyeval-0.2.0
 	>=sci-CRAN/magrittr-1.5

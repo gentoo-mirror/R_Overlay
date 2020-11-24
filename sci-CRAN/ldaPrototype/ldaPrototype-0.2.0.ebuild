@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( >=sci-CRAN/RColorBrewer-1.1.2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/colorspace-1.4.1
-	>=sci-CRAN/fs-1.2.0
-	>=sci-CRAN/data_table-1.11.2
-	sci-CRAN/dendextend
-	sci-CRAN/future
+DEPEND="sci-CRAN/future
 	sci-CRAN/parallelMap
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/checkmate-1.8.5
-	>=sci-CRAN/batchtools-0.9.11
-	>=sci-CRAN/lda-1.4.2
 	>=sci-CRAN/progress-1.1.1
+	>=sci-CRAN/checkmate-1.8.5
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/batchtools-0.9.11
+	>=sci-CRAN/data_table-1.11.2
+	>=sci-CRAN/colorspace-1.4.1
+	sci-CRAN/dendextend
+	>=sci-CRAN/fs-1.2.0
+	>=sci-CRAN/lda-1.4.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

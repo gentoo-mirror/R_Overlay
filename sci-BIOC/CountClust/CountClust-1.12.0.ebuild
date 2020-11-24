@@ -20,18 +20,18 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/SQUAREM
-	>=sci-CRAN/ggplot2-2.1.0
-	sci-CRAN/gtools
+DEPEND=">=sci-CRAN/ggplot2-2.1.0
+	>=sci-CRAN/plyr-1.7.1
+	sci-CRAN/cowplot
+	sci-CRAN/maptpx
+	>=dev-lang/R-3.4
 	sci-CRAN/slam
+	sci-CRAN/SQUAREM
+	sci-CRAN/gtools
 	sci-CRAN/flexmix
 	sci-CRAN/picante
 	sci-BIOC/limma
 	sci-CRAN/reshape2
-	sci-CRAN/maptpx
-	>=sci-CRAN/plyr-1.7.1
-	sci-CRAN/cowplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

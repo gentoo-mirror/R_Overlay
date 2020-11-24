@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_nnet? ( virtual/nnet )
 	r_suggests_numderiv? ( sci-CRAN/numDeriv )
 "
-DEPEND=">=sci-CRAN/psychotools-0.4.2
-	virtual/lattice
-	sci-CRAN/modeltools
-	>=sci-CRAN/flexmix-2.3.7
+DEPEND=">=sci-CRAN/flexmix-2.3.7
 	>=sci-CRAN/Formula-1.1.0
+	sci-CRAN/modeltools
+	virtual/lattice
+	>=sci-CRAN/psychotools-0.4.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

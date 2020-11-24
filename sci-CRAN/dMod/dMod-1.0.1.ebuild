@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/cOde-1.0
-	sci-CRAN/deSolve
-	sci-CRAN/rootSolve
 	sci-CRAN/stringr
+	sci-CRAN/rootSolve
 	sci-CRAN/ggplot2
+	sci-CRAN/deSolve
+	sci-CRAN/plyr
 	sci-CRAN/dplyr
 	sci-CRAN/foreach
 	sci-CRAN/doParallel
-	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

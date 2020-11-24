@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/riskRegression-1.0.8
-	>=sci-CRAN/data_table-1.10.4
+DEPEND=">=sci-CRAN/data_table-1.10.4
 	>=sci-CRAN/prodlim-1.4.9
+	>=sci-CRAN/riskRegression-1.0.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

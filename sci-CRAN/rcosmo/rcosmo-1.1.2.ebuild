@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.11
+DEPEND=">=dev-lang/R-3.4.0
 	>=sci-CRAN/cli-1.0.0
-	>=sci-CRAN/nnls-1.4
-	>=sci-CRAN/rgl-0.99.16
-	>=sci-CRAN/tibble-1.4.2
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/FITSio-2.1.0
 	>=sci-CRAN/mmap-0.6.17
-	>=sci-CRAN/entropy-1.2.1
+	>=sci-CRAN/tibble-1.4.2
+	>=sci-CRAN/FITSio-2.1.0
 	>=sci-CRAN/geoR-1.7.5.2.1
+	>=sci-CRAN/nnls-1.4
+	>=sci-CRAN/Rcpp-0.12.11
+	>=sci-CRAN/rgl-0.99.16
+	>=sci-CRAN/entropy-1.2.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

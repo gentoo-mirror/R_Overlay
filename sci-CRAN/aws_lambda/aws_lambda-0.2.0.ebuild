@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/httr
+	>=sci-CRAN/aws_signature-0.3.4
 	sci-CRAN/base64enc
 	>=dev-lang/R-3.4
-	>=sci-CRAN/aws_signature-0.3.4
 	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

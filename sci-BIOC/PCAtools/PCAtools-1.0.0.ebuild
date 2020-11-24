@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/cowplot
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
-	virtual/lattice
 	sci-CRAN/ggrepel
+	virtual/lattice
+	sci-CRAN/cowplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

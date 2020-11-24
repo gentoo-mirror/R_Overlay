@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/tidyr
+DEPEND="sci-CRAN/dplyr
 	>=dev-lang/R-3.3
-	sci-CRAN/dplyr
 	sci-CRAN/Rcpp
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

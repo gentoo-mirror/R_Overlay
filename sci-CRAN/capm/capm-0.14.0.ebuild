@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/capm_0.14.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/deSolve
-	sci-CRAN/ggplot2
 	sci-CRAN/FME
-	sci-CRAN/survey
-	sci-CRAN/dplyr
-	sci-CRAN/sf
 	sci-CRAN/tidyr
+	sci-CRAN/ggplot2
+	sci-CRAN/survey
 	sci-CRAN/magrittr
 	sci-CRAN/circlize
+	sci-CRAN/sf
+	sci-CRAN/deSolve
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

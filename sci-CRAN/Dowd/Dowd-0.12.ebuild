@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.0
+	virtual/boot
 	sci-CRAN/forecast
 	virtual/MASS
-	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

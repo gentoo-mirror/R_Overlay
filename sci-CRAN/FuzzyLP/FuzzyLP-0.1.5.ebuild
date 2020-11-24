@@ -13,7 +13,7 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
 DEPEND="sci-CRAN/ROI
-	sci-CRAN/FuzzyNumbers
 	sci-mathematics/glpk
+	sci-CRAN/FuzzyNumbers
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

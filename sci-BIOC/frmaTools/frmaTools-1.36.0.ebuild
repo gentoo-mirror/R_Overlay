@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_frma? ( sci-BIOC/frma )
 	r_suggests_oligo? ( sci-BIOC/oligo )
 "
-DEPEND="sci-BIOC/Biobase
-	sci-CRAN/DBI
-	sci-BIOC/affy
+DEPEND="sci-CRAN/DBI
 	sci-BIOC/preprocessCore
+	sci-BIOC/affy
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

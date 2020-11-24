@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SSDforR_1.5.20.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/psych
+DEPEND="sci-CRAN/TTR
 	virtual/MASS
-	sci-CRAN/TTR
+	sci-CRAN/psych
 	sci-CRAN/metafor
 	sci-CRAN/MAd
 	sci-CRAN/SingleCaseES

@@ -15,7 +15,7 @@ DEPEND=">=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppGSL
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppGSL
 	sci-libs/gsl
 "

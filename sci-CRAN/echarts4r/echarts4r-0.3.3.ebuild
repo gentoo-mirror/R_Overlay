@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/htmlwidgets
-	sci-CRAN/purrr
-	sci-CRAN/countrycode
+DEPEND="sci-CRAN/purrr
+	sci-CRAN/corrplot
 	>=sci-CRAN/dplyr-0.7.0
+	sci-CRAN/scales
 	sci-CRAN/magrittr
+	sci-CRAN/rstudioapi
+	sci-CRAN/htmlwidgets
+	sci-CRAN/countrycode
 	sci-CRAN/broom
 	sci-CRAN/shiny
-	sci-CRAN/scales
-	sci-CRAN/corrplot
-	sci-CRAN/rstudioapi
 	sci-CRAN/htmltools
 	sci-CRAN/jsonlite
 "

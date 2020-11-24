@@ -11,15 +11,15 @@ SRC_URI="http://cran.r-project.org/src/contrib/uHMM_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="dev-lang/R[tk]
-	virtual/cluster
-	sci-CRAN/tkrplot
-	sci-CRAN/clValid
+	virtual/class
 	sci-CRAN/FactoMineR
-	sci-CRAN/chron
+	sci-CRAN/clValid
+	sci-CRAN/tkrplot
+	sci-CRAN/corrplot
 	>=dev-lang/R-3.0.0
 	dev-lang/R[tk]
 	sci-CRAN/HMM
-	virtual/class
-	sci-CRAN/corrplot
+	virtual/cluster
+	sci-CRAN/chron
 "
 RDEPEND="${DEPEND-}"

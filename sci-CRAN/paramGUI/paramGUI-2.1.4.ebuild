@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/paramGUI_2.1.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/TIMP
-	sci-CRAN/fields
+DEPEND="sci-CRAN/colorspace
 	sci-CRAN/shiny
-	sci-CRAN/colorspace
+	sci-CRAN/fields
+	sci-CRAN/TIMP
 	>=dev-lang/R-3.0.0
 	sci-CRAN/shinydashboard
 "

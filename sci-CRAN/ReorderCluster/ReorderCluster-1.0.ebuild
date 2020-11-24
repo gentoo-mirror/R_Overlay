@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ReorderCluster_1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/gplots
-	>=sci-CRAN/Rcpp-0.11.0
+DEPEND=">=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

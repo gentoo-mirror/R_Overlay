@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2
+DEPEND="virtual/MASS
 	sci-CRAN/Hmisc
 	sci-CRAN/data_table
 	virtual/Matrix
+	>=dev-lang/R-3.2
 	sci-CRAN/Delaporte
-	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

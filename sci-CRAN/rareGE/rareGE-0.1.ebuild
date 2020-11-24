@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/rareGE_0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/MASS
-	sci-CRAN/survey
 	virtual/nlme
+	sci-CRAN/survey
 "
 RDEPEND="${DEPEND-}"

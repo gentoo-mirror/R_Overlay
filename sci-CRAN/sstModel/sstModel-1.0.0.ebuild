@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/data_table-1.10.4.3
-	>=sci-CRAN/shiny-1.0.5
 	>=sci-CRAN/readxl-1.0.0
 	>=sci-CRAN/openxlsx-4.0.17
+	>=sci-CRAN/data_table-1.10.4.3
 	virtual/MASS
+	>=sci-CRAN/shiny-1.0.5
 	>=sci-CRAN/shinydashboard-0.6.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

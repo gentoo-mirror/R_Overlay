@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_uuid? ( sci-CRAN/uuid )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND="virtual/foreign
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/xml2
-	sci-CRAN/plyr
+	virtual/foreign
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

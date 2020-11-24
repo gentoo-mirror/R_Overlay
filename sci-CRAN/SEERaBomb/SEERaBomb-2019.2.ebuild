@@ -12,28 +12,28 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_bbmle"
 R_SUGGESTS="r_suggests_bbmle? ( sci-CRAN/bbmle )"
-DEPEND="sci-CRAN/RSQLite
-	sci-CRAN/labelled
+DEPEND="virtual/survival
 	sci-CRAN/WriteXLS
-	sci-CRAN/ggplot2
-	sci-CRAN/stringr
-	sci-CRAN/reshape2
-	sci-CRAN/LaF
-	sci-CRAN/tibble
+	sci-CRAN/RSQLite
 	sci-CRAN/scales
+	sci-CRAN/LaF
 	sci-CRAN/purrr
-	sci-CRAN/dplyr
-	sci-CRAN/DBI
-	sci-CRAN/tidyr
-	sci-CRAN/rgl
 	sci-CRAN/readr
-	sci-CRAN/plyr
+	sci-CRAN/stringr
+	sci-CRAN/ggplot2
 	sci-CRAN/demography
-	sci-CRAN/forcats
-	>=sci-CRAN/Rcpp-0.11.3
+	sci-CRAN/reshape2
 	virtual/mgcv
+	sci-CRAN/tibble
+	sci-CRAN/DBI
 	sci-CRAN/openxlsx
-	virtual/survival
+	sci-CRAN/labelled
+	sci-CRAN/tidyr
+	sci-CRAN/plyr
+	sci-CRAN/forcats
+	sci-CRAN/dplyr
+	>=sci-CRAN/Rcpp-0.11.3
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

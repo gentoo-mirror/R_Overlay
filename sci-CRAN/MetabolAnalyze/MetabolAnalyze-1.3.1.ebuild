@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MetabolAnalyze_1.3.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/ellipse
-	sci-CRAN/gplots
-	sci-CRAN/gtools
+DEPEND="sci-CRAN/gtools
 	sci-CRAN/mvtnorm
+	sci-CRAN/ellipse
+	sci-CRAN/gplots
 	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}"

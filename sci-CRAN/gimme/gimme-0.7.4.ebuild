@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/nloptr
-	sci-CRAN/qgraph
-	sci-CRAN/data_tree
-	>=sci-CRAN/igraph-1.0.0
 	>=sci-CRAN/lavaan-0.5.19
 	>=sci-CRAN/MIIVsem-0.5.4
+	sci-CRAN/qgraph
+	>=sci-CRAN/igraph-1.0.0
 	>=sci-CRAN/imputeTS-3.0
+	sci-CRAN/nloptr
+	sci-CRAN/data_tree
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

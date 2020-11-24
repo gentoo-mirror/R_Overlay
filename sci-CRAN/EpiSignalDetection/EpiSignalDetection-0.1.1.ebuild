@@ -14,11 +14,11 @@ DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/DT
 	sci-CRAN/dplyr
 	sci-CRAN/surveillance
-	sci-CRAN/shiny
-	sci-CRAN/pander
 	sci-CRAN/ISOweek
 	sci-CRAN/ggplot2
 	>=sci-CRAN/knitr-1.20
+	sci-CRAN/shiny
+	sci-CRAN/pander
 	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-}"

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_relsurv? ( sci-CRAN/relsurv )
 "
-DEPEND="sci-CRAN/Epi
+DEPEND="virtual/survival
 	sci-CRAN/orthogonalsplinebasis
 	sci-CRAN/statmod
-	virtual/Matrix
-	virtual/survival
 	sci-CRAN/formula_tools
+	sci-CRAN/Epi
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/dlbayes_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/GIGrvg
-	sci-CRAN/glmnet
 	virtual/MASS
 	sci-CRAN/expm
 	sci-CRAN/LaplacesDemon
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

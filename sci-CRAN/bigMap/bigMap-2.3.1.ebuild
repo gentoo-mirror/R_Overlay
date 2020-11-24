@@ -17,13 +17,13 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/Rcpp-0.12.0
-	sci-CRAN/RColorBrewer
 	>=sci-CRAN/bigmemory-4.5.0
+	sci-CRAN/RColorBrewer
 	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/bigmemory
 	sci-CRAN/Rcpp
+	sci-CRAN/bigmemory
 	sci-CRAN/BH
 	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}

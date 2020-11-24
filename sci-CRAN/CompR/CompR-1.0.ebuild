@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CompR_1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	>=dev-lang/R-3.1
+DEPEND=">=dev-lang/R-3.1
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

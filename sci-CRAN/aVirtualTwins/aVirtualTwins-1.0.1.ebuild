@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_rpart? ( virtual/rpart )
 "
-DEPEND="sci-CRAN/randomForest
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
 	virtual/rpart
+	sci-CRAN/randomForest
 	sci-CRAN/party
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

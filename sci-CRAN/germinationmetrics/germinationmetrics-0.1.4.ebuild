@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_xml? ( sci-CRAN/XML )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/plyr
-	sci-CRAN/mathjaxr
-	sci-CRAN/minpack_lm
-	sci-CRAN/data_table
-	sci-CRAN/Rdpack
-	sci-CRAN/ggrepel
 	sci-CRAN/broom
 	sci-CRAN/ggplot2
+	sci-CRAN/data_table
+	sci-CRAN/ggrepel
+	sci-CRAN/mathjaxr
+	sci-CRAN/minpack_lm
+	sci-CRAN/plyr
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

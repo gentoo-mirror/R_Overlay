@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RSQLite
-	sci-CRAN/VennDiagram
-	sci-CRAN/httr
+DEPEND="sci-CRAN/DBI
 	sci-CRAN/UpSetR
-	sci-CRAN/DBI
+	sci-CRAN/RSQLite
+	sci-CRAN/httr
+	sci-CRAN/VennDiagram
 	sci-CRAN/ggplot2
 	sci-CRAN/ggridges
 	sci-CRAN/R_utils

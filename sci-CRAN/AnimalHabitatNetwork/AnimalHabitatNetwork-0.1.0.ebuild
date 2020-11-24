@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AnimalHabitatNetwork_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/ggplot2-3.2.0
-	>=sci-CRAN/igraph-1.2.4.1
+DEPEND=">=sci-CRAN/igraph-1.2.4.1
+	>=sci-CRAN/ggplot2-3.2.0
 "
 RDEPEND="${DEPEND-}"

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/ggnetwork-0.5.1
 	>=sci-CRAN/ggplot2-2.2.1
-	>=sci-BIOC/phyloseq-1.24.0
-	>=sci-CRAN/igraph-1.1.2
 	>=sci-CRAN/intergraph-2.0.2
+	>=sci-CRAN/ggnetwork-0.5.1
+	>=sci-CRAN/igraph-1.1.2
+	>=sci-BIOC/phyloseq-1.24.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

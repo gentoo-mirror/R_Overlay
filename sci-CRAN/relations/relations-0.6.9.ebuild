@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_rsymphony? ( >=sci-CRAN/Rsymphony-0.1.9 )
 "
-DEPEND="sci-CRAN/slam
-	>=dev-lang/R-3.2.0
+DEPEND=">=sci-CRAN/sets-1.0.16
+	sci-CRAN/slam
 	virtual/cluster
-	>=sci-CRAN/sets-1.0.16
+	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

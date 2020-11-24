@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ggplotgui_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/shiny
-	sci-CRAN/haven
+DEPEND="sci-CRAN/readr
+	sci-CRAN/shiny
 	sci-CRAN/plotly
 	>=dev-lang/R-3.3.2
-	sci-CRAN/stringr
 	sci-CRAN/ggplot2
-	sci-CRAN/readr
+	sci-CRAN/stringr
+	sci-CRAN/haven
 	sci-CRAN/readxl
 	sci-CRAN/RColorBrewer
 "

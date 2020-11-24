@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/readr
+	sci-CRAN/purrr
+	sci-CRAN/furrr
 	sci-CRAN/httr
+	sci-CRAN/future
+	sci-CRAN/forcats
+	>=dev-lang/R-3.5
+	sci-CRAN/jsonlite
 	sci-CRAN/tibble
 	sci-CRAN/dplyr
 	sci-CRAN/lubridate
 	sci-CRAN/tidyr
 	sci-CRAN/magrittr
-	sci-CRAN/future
-	sci-CRAN/jsonlite
-	sci-CRAN/stringr
-	sci-CRAN/readr
-	sci-CRAN/purrr
-	sci-CRAN/furrr
-	sci-CRAN/forcats
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

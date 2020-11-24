@@ -13,7 +13,7 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_bindata"
 R_SUGGESTS="r_suggests_bindata? ( sci-CRAN/bindata )"
 DEPEND="sci-CRAN/dr
-	sci-CRAN/np
 	virtual/MASS
+	sci-CRAN/np
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

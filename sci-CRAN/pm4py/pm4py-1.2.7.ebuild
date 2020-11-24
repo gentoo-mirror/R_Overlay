@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_eventdatar? ( sci-CRAN/eventdataR )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/bupaR
-	>=sci-CRAN/reticulate-1.11
+DEPEND=">=sci-CRAN/reticulate-1.11
+	sci-CRAN/stringr
 	sci-CRAN/petrinetR
 	sci-CRAN/purrr
-	sci-CRAN/stringr
+	sci-CRAN/bupaR
 "
 RDEPEND="${DEPEND-}
 	dev-lang/python

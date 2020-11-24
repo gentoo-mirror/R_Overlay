@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/reshape2
+DEPEND=">=dev-lang/R-2.11.1
+	sci-CRAN/tidyr
+	sci-CRAN/magrittr
+	sci-CRAN/dplyr
 	sci-CRAN/tibble
 	sci-CRAN/rlang
+	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
+	sci-CRAN/MPTinR
+	sci-CRAN/runjags
+	sci-CRAN/limSolve
 	sci-CRAN/coda
 	sci-CRAN/purrr
 	sci-CRAN/readr
-	>=dev-lang/R-2.11.1
-	sci-CRAN/tidyr
-	sci-CRAN/magrittr
-	sci-CRAN/MPTinR
 	>=sci-CRAN/TreeBUGS-1.4.4
-	sci-CRAN/runjags
-	sci-CRAN/limSolve
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

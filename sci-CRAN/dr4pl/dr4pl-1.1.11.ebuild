@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
+DEPEND=">=dev-lang/R-3.1.0
 	virtual/Matrix
-	sci-CRAN/Rdpack
-	sci-CRAN/tensor
-	>=dev-lang/R-3.1.0
 	sci-CRAN/ggplot2
+	virtual/Matrix
+	sci-CRAN/tensor
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

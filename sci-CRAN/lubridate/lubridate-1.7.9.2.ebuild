@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_vctrs? ( >=sci-CRAN/vctrs-0.3.0 )
 "
 DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/Rcpp-0.12.13
 	sci-CRAN/generics
+	>=sci-CRAN/Rcpp-0.12.13
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

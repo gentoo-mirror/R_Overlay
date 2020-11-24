@@ -13,9 +13,9 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_vegan"
 R_SUGGESTS="r_suggests_vegan? ( sci-CRAN/vegan )"
 DEPEND=">=sci-CRAN/bbmle-1.0.19
-	sci-CRAN/VGAM
-	virtual/MASS
-	sci-CRAN/GUILDS
 	sci-CRAN/poilog
+	virtual/MASS
+	sci-CRAN/VGAM
+	sci-CRAN/GUILDS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

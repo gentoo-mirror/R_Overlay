@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/Rcpp-0.10.4
 	sci-CRAN/magrittr
-	sci-CRAN/plyr
 	virtual/nnet
+	sci-CRAN/plyr
 	>=dev-lang/R-3.0.0
 	sci-CRAN/dplyr
 "

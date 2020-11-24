@@ -11,16 +11,16 @@ SRC_URI="http://cran.r-project.org/src/contrib/bsam_1.1.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/gridExtra-2.3
-	>=sci-CRAN/msm-1.6.8
-	>=sci-CRAN/ggplot2-3.3.2
-	>=sci-CRAN/mvtnorm-1.1.1
-	>=sci-CRAN/coda-0.19.3
 	>=sci-CRAN/rjags-4.10
-	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/coda-0.19.3
+	>=sci-CRAN/mvtnorm-1.1.1
+	>=sci-CRAN/gridExtra-2.3
 	>=sci-CRAN/rworldxtra-1.01
-	>=sci-CRAN/sp-1.2.3
 	>=sci-CRAN/tibble-3.0.1
+	>=sci-CRAN/ggplot2-3.3.2
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/msm-1.6.8
+	>=sci-CRAN/sp-1.2.3
 	>=sci-CRAN/lubridate-1.7.9
 "
 RDEPEND="${DEPEND-} sci-mathematics/jags"

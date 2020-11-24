@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IPDfromKM_0.1.10.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/gridExtra
+	sci-CRAN/readbitmap
 	virtual/survival
 	sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
-	sci-CRAN/readbitmap
+	>=dev-lang/R-3.6.0
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

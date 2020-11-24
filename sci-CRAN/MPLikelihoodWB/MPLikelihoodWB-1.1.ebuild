@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/MPLikelihoodWB_1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/survival
-	virtual/MASS
 	>=dev-lang/R-3.0.2
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

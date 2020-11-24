@@ -20,23 +20,23 @@ R_SUGGESTS="
 	r_suggests_nlme? ( virtual/nlme )
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.3 )
 "
-DEPEND=">=sci-CRAN/plyr-1.8.6
-	>=sci-CRAN/magrittr-1.5
+DEPEND=">=sci-CRAN/glue-1.4.2
 	>=sci-CRAN/ggplot2-3.3.2
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/splus2R-1.2.2
+	>=sci-CRAN/tibble-3.0.3
+	>=sci-CRAN/plyr-1.8.6
+	>=sci-CRAN/xts-0.12.0
+	virtual/MASS
+	>=sci-CRAN/dplyr-1.0.2
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/scales-1.1.1
+	>=sci-CRAN/zoo-1.8.8
+	>=sci-CRAN/lubridate-1.7.9
+	>=sci-CRAN/gridExtra-2.3
 	>=sci-CRAN/polynom-1.4.0
 	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/scales-1.1.1
-	virtual/MASS
-	>=sci-CRAN/broom-0.7.0
-	>=sci-CRAN/glue-1.4.2
-	>=dev-lang/R-3.6.0
-	>=sci-CRAN/splus2R-1.2.2
-	>=sci-CRAN/xts-0.12.0
-	>=sci-CRAN/tibble-3.0.3
-	>=sci-CRAN/lubridate-1.7.9
 	>=sci-CRAN/rlang-0.4.7
-	>=sci-CRAN/gridExtra-2.3
-	>=sci-CRAN/dplyr-1.0.2
-	>=sci-CRAN/zoo-1.8.8
+	>=sci-CRAN/broom-0.7.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

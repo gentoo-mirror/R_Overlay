@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/assertive_base
-	sci-CRAN/assertive_properties
-	>=dev-lang/R-3.3.0
-	virtual/Matrix
+DEPEND="sci-CRAN/assertive_properties
+	sci-CRAN/purrr
 	sci-CRAN/assertive_types
+	virtual/Matrix
+	>=dev-lang/R-3.3.0
+	sci-CRAN/assertive_base
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

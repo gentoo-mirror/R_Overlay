@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/kml_2.4.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/longitudinalData-2.4
-	sci-CRAN/clv
+DEPEND="sci-CRAN/clv
+	>=sci-CRAN/longitudinalData-2.4
 "
 RDEPEND="${DEPEND-}"

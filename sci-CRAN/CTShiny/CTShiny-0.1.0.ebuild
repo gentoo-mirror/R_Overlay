@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CTShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/caret
-	sci-CRAN/rhandsontable
-	virtual/rpart
-	virtual/rpart
-	>=dev-lang/R-3.0.3
-	sci-CRAN/dplyr
-	sci-CRAN/rmarkdown
-	sci-CRAN/shiny
+DEPEND=">=dev-lang/R-3.0.3
+	sci-CRAN/caret
 	sci-CRAN/e1071
+	sci-CRAN/rmarkdown
+	sci-CRAN/dplyr
+	virtual/rpart
+	virtual/rpart
+	sci-CRAN/shiny
+	sci-CRAN/rhandsontable
 	sci-CRAN/party
 "
 RDEPEND="${DEPEND-}"

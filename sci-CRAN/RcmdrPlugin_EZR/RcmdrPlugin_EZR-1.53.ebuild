@@ -40,7 +40,7 @@ R_SUGGESTS="
 	r_suggests_tableone? ( sci-CRAN/tableone )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/Rcmdr-2.7.0
 	sci-CRAN/readstata13
+	>=sci-CRAN/Rcmdr-2.7.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

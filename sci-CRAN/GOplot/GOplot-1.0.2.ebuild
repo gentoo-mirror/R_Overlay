@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/ggplot2-2.0.0
-	>=sci-CRAN/ggdendro-0.1.17
-	>=dev-lang/R-3.2.3
-	>=sci-CRAN/RColorBrewer-1.1.2
 	>=sci-CRAN/gridExtra-2.0.0
+	>=sci-CRAN/RColorBrewer-1.1.2
+	>=dev-lang/R-3.2.3
+	>=sci-CRAN/ggdendro-0.1.17
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/OptimalTiming_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/mstate
 	virtual/survival
+	sci-CRAN/mstate
 "
 RDEPEND="${DEPEND-}"

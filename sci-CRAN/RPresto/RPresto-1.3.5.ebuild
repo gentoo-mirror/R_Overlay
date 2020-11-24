@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_dplyr? ( >=sci-CRAN/dplyr-0.7.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/DBI-0.3.0
-	>=sci-CRAN/Rcpp-0.12.7
-	sci-CRAN/openssl
-	>=dev-lang/R-3.1.0
-	>=sci-CRAN/httr-0.6
-	sci-CRAN/jsonlite
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/stringi
+	sci-CRAN/jsonlite
+	>=sci-CRAN/Rcpp-0.12.7
+	>=sci-CRAN/DBI-0.3.0
+	>=sci-CRAN/httr-0.6
+	sci-CRAN/openssl
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -16,28 +16,28 @@ R_SUGGESTS="
 	r_suggests_rcompanion? ( sci-CRAN/rcompanion )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/DescTools
-	sci-CRAN/shinyalert
-	sci-BIOC/RBGL
-	>=dev-lang/R-3.5.0
-	sci-CRAN/HydeNet
-	sci-CRAN/shinydashboard
-	sci-CRAN/shinyWidgets
-	sci-CRAN/shinycssloaders
-	sci-CRAN/linkcomm
-	sci-CRAN/shinyBS
-	sci-CRAN/rintrojs
-	sci-CRAN/bnlearn
-	sci-BIOC/Rgraphviz
+DEPEND="sci-BIOC/graph
 	sci-CRAN/shiny
-	sci-CRAN/visNetwork
-	sci-CRAN/DT
+	sci-CRAN/HydeNet
+	sci-BIOC/Rgraphviz
+	sci-CRAN/dplyr
 	sci-CRAN/missRanger
 	sci-CRAN/psych
-	sci-CRAN/arules
-	sci-BIOC/graph
+	sci-CRAN/shinyalert
+	sci-CRAN/rintrojs
+	sci-CRAN/DT
 	sci-CRAN/rhandsontable
-	sci-CRAN/dplyr
+	sci-BIOC/RBGL
+	sci-CRAN/shinyWidgets
+	sci-CRAN/arules
+	sci-CRAN/shinydashboard
+	sci-CRAN/DescTools
+	sci-CRAN/bnlearn
+	sci-CRAN/shinycssloaders
+	sci-CRAN/visNetwork
+	>=dev-lang/R-3.5.0
 	sci-CRAN/igraph
+	sci-CRAN/linkcomm
+	sci-CRAN/shinyBS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

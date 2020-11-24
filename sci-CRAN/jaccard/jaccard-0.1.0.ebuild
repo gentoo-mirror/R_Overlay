@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/jaccard_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.6
-	sci-BIOC/qvalue
 	sci-CRAN/dplyr
+	sci-BIOC/qvalue
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

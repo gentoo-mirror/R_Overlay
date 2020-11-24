@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/nmixgof_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/unmarked
 	sci-CRAN/Rcpp
+	sci-CRAN/unmarked
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

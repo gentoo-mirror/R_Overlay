@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/statGraph_0.4.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/foreach
+DEPEND="virtual/MASS
 	virtual/cluster
 	sci-CRAN/igraph
-	virtual/MASS
+	sci-CRAN/rARPACK
+	>=dev-lang/R-3.6.0
+	sci-CRAN/foreach
 	sci-CRAN/snow
 	sci-CRAN/doSNOW
-	sci-CRAN/rARPACK
 "
 RDEPEND="${DEPEND-}"

@@ -34,9 +34,9 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/FNN
 	sci-CRAN/reshape
+	sci-CRAN/plyr
 	>=dev-lang/R-3.1.0
 	sci-CRAN/caret
-	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

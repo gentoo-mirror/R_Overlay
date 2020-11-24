@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/Rcpp
-	>=sci-CRAN/rlang-0.4.0
-	virtual/Matrix
 	>=sci-CRAN/lifecycle-0.2.0
+	>=sci-CRAN/rlang-0.4.0
+	sci-CRAN/Rcpp
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/R_methodsS3
-	sci-CRAN/hash
-	>=sci-CRAN/Rcpp-0.12.3
-	sci-CRAN/poLCA
+	sci-CRAN/flexmix
 	>=sci-CRAN/igraph-1.0.1
 	sci-CRAN/mclust
+	sci-CRAN/poLCA
 	>=sci-CRAN/R_oo-1.20.0
+	>=sci-CRAN/Rcpp-0.12.3
 	sci-CRAN/combinat
-	sci-CRAN/flexmix
+	sci-CRAN/hash
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

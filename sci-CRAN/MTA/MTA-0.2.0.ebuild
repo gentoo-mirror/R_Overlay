@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/igraph
 	sci-CRAN/cartography
+	sci-CRAN/sf
 	>=dev-lang/R-3.5
 	sci-CRAN/sp
-	sci-CRAN/sf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

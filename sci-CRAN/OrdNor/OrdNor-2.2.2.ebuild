@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/OrdNor_2.2.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/corpcor
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	virtual/Matrix
 	sci-CRAN/GenOrd
+	sci-CRAN/corpcor
 "
 RDEPEND="${DEPEND-}"

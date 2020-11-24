@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/OutlierDM_1.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/pcaPP
-	virtual/Matrix
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/outliers
 	sci-CRAN/quantreg
-	>=dev-lang/R-3.1.0
+	sci-CRAN/pcaPP
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

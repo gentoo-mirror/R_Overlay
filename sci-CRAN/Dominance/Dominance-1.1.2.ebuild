@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Dominance_1.1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/chron
-	sci-CRAN/igraph
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/chron
 	sci-CRAN/gdata
-	>=dev-lang/R-3.1.0
+	sci-CRAN/igraph
 	sci-CRAN/XLConnect
 "
 RDEPEND="${DEPEND-}"

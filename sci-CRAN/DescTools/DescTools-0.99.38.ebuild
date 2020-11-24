@@ -17,14 +17,14 @@ R_SUGGESTS="
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
 DEPEND="virtual/boot
-	virtual/MASS
-	sci-CRAN/Exact
 	sci-CRAN/gld
-	>=dev-lang/R-3.6.0
-	sci-CRAN/mvtnorm
+	sci-CRAN/Exact
 	sci-CRAN/expm
-	>=sci-CRAN/Rcpp-0.12.10
 	sci-CRAN/rstudioapi
+	>=dev-lang/R-3.6.0
+	virtual/MASS
+	sci-CRAN/mvtnorm
+	>=sci-CRAN/Rcpp-0.12.10
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

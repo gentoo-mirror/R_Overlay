@@ -16,28 +16,28 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/pubmedR
-	sci-CRAN/rio
-	sci-CRAN/SnowballC
-	sci-CRAN/shiny
-	sci-CRAN/shinycssloaders
-	sci-CRAN/igraph
-	>=dev-lang/R-3.3.0
-	sci-CRAN/dimensionsR
-	sci-CRAN/DT
-	sci-CRAN/FactoMineR
-	sci-CRAN/ggplot2
-	virtual/Matrix
-	sci-CRAN/stringr
-	sci-CRAN/tidyr
-	sci-CRAN/networkD3
+DEPEND="virtual/Matrix
 	sci-CRAN/RColorBrewer
+	>=dev-lang/R-3.3.0
 	sci-CRAN/rscopus
-	sci-CRAN/shinythemes
+	sci-CRAN/networkD3
+	sci-CRAN/shinycssloaders
+	sci-CRAN/SnowballC
 	sci-CRAN/stringdist
-	sci-CRAN/dplyr
+	sci-CRAN/tidyr
 	sci-CRAN/factoextra
 	sci-CRAN/ggraph
 	sci-CRAN/ggrepel
+	sci-CRAN/DT
+	sci-CRAN/dplyr
+	sci-CRAN/FactoMineR
+	sci-CRAN/rio
+	sci-CRAN/shiny
+	sci-CRAN/pubmedR
+	sci-CRAN/shinythemes
+	sci-CRAN/stringr
+	sci-CRAN/dimensionsR
+	sci-CRAN/ggplot2
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

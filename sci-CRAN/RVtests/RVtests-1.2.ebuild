@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RVtests_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.12.1
+	sci-CRAN/spls
 	sci-CRAN/glmnet
 	sci-CRAN/pls
-	sci-CRAN/spls
 "
 RDEPEND="${DEPEND-}"

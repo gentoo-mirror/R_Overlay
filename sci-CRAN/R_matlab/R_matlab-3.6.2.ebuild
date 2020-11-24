@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_sparsem? ( sci-CRAN/SparseM )
 "
 DEPEND=">=dev-lang/R-2.14.0
-	>=sci-CRAN/R_utils-2.5.0
 	>=sci-CRAN/R_oo-1.21.0
+	>=sci-CRAN/R_utils-2.5.0
 	>=sci-CRAN/R_methodsS3-1.7.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

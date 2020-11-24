@@ -12,16 +12,16 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_mclust"
 R_SUGGESTS="r_suggests_mclust? ( sci-CRAN/mclust )"
-DEPEND="sci-CRAN/e1071
+DEPEND="virtual/cluster
 	sci-CRAN/robustbase
-	virtual/MASS
+	sci-CRAN/sp
 	sci-CRAN/xtable
-	sci-CRAN/rgl
 	sci-CRAN/geoR
+	sci-CRAN/e1071
 	sci-CRAN/sgeostat
-	virtual/cluster
+	virtual/MASS
 	sci-CRAN/MBA
 	virtual/mgcv
-	sci-CRAN/sp
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

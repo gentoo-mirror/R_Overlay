@@ -13,13 +13,13 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_pcmbasecpp"
 R_SUGGESTS="r_suggests_pcmbasecpp? ( >=sci-CRAN/PCMBaseCpp-0.1.9 )"
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/ouch
-	>=sci-CRAN/ape-5.3
-	sci-CRAN/mvtnorm
-	sci-CRAN/abind
-	virtual/Matrix
-	virtual/Matrix
 	>=sci-CRAN/PCMBase-1.2.10
+	virtual/Matrix
+	>=sci-CRAN/ape-5.3
+	sci-CRAN/abind
 	sci-CRAN/TreeSim
+	sci-CRAN/mvtnorm
+	virtual/Matrix
+	sci-CRAN/ouch
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

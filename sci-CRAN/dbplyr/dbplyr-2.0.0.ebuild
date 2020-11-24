@@ -27,20 +27,20 @@ R_SUGGESTS="
 	r_suggests_rsqlite? ( >=sci-CRAN/RSQLite-2.1.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
 "
-DEPEND=">=sci-CRAN/blob-1.2.0
-	>=sci-CRAN/purrr-0.2.5
-	>=sci-CRAN/R6-2.2.2
-	>=sci-CRAN/tidyselect-0.2.4
-	>=sci-CRAN/rlang-0.2.0
-	sci-CRAN/withr
-	>=dev-lang/R-3.1
+DEPEND=">=dev-lang/R-3.1
+	>=sci-CRAN/glue-1.2.0
 	>=sci-CRAN/dplyr-0.8.0
 	>=sci-CRAN/DBI-1.0.0
 	>=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/glue-1.2.0
 	sci-CRAN/lifecycle
 	sci-CRAN/magrittr
+	>=sci-CRAN/purrr-0.2.5
+	>=sci-CRAN/R6-2.2.2
+	>=sci-CRAN/rlang-0.2.0
 	>=sci-CRAN/tibble-1.4.2
+	>=sci-CRAN/tidyselect-0.2.4
+	>=sci-CRAN/blob-1.2.0
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/data_table
-	sci-BIOC/biomaRt
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
+	sci-BIOC/biomaRt
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

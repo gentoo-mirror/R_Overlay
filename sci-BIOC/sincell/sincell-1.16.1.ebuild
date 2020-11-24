@@ -20,18 +20,18 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/igraph
-	sci-CRAN/scatterplot3d
-	virtual/MASS
-	sci-CRAN/entropy
-	virtual/cluster
-	>=sci-CRAN/Rcpp-0.11.2
-	sci-CRAN/TSP
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
+	sci-CRAN/TSP
 	sci-CRAN/fields
 	sci-CRAN/proxy
 	sci-CRAN/Rtsne
+	sci-CRAN/entropy
+	>=sci-CRAN/Rcpp-0.11.2
+	sci-CRAN/scatterplot3d
+	virtual/MASS
 	sci-CRAN/fastICA
+	virtual/cluster
 	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-}

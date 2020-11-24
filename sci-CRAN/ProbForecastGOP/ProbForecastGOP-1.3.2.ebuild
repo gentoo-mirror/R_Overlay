@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ProbForecastGOP_1.3.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/fields
-	sci-CRAN/RandomFields
+DEPEND="sci-CRAN/RandomFields
+	sci-CRAN/fields
 "
 RDEPEND="${DEPEND-}"

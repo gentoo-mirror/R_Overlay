@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/tibble
-	sci-CRAN/tidyr
-	sci-CRAN/dplyr
-	sci-CRAN/httr
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/dplyr
+	sci-CRAN/tidyr
+	sci-CRAN/tibble
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

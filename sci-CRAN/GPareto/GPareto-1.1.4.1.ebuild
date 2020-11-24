@@ -12,17 +12,17 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND="sci-CRAN/DiceKriging
-	sci-CRAN/rgenoud
-	>=sci-CRAN/Rcpp-0.12.15
-	sci-CRAN/pbivnorm
-	sci-CRAN/emoa
-	sci-CRAN/pso
-	sci-CRAN/randtoolbox
+DEPEND=">=sci-CRAN/Rcpp-0.12.15
 	sci-CRAN/KrigInv
-	virtual/MASS
+	sci-CRAN/randtoolbox
+	sci-CRAN/pso
+	sci-CRAN/emoa
 	sci-CRAN/DiceDesign
 	sci-CRAN/ks
+	sci-CRAN/DiceKriging
+	sci-CRAN/rgenoud
+	sci-CRAN/pbivnorm
+	virtual/MASS
 	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}

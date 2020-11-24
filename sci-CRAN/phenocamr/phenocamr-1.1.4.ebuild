@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_shinydashboard? ( sci-CRAN/shinydashboard )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/daymetr
-	sci-CRAN/memoise
+DEPEND="sci-CRAN/httr
 	sci-CRAN/MODISTools
+	sci-CRAN/memoise
 	sci-CRAN/jsonlite
-	sci-CRAN/httr
-	sci-CRAN/zoo
+	>=dev-lang/R-3.4.0
 	sci-CRAN/changepoint
+	sci-CRAN/zoo
+	sci-CRAN/daymetr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

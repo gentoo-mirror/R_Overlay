@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_rjags? ( sci-CRAN/rjags )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND="sci-CRAN/HDInterval
+DEPEND="sci-CRAN/mcmcOutput
+	sci-CRAN/coda
 	virtual/MASS
 	sci-CRAN/truncnorm
-	sci-CRAN/mcmcOutput
-	sci-CRAN/coda
+	sci-CRAN/HDInterval
 	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

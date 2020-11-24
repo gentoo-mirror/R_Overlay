@@ -41,9 +41,9 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND=">=dev-lang/R-3.4
+	sci-CRAN/foreach
 	>=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/iterators
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

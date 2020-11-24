@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/SpatialTools_1.0.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/spBayes-0.3.0
 	sci-CRAN/Rcpp
+	>=sci-CRAN/spBayes-0.3.0
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.9.10

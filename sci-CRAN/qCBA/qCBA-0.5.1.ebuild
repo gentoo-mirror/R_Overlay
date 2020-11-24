@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 "
 DEPEND=">=sci-CRAN/rJava-0.5.0
-	>=sci-CRAN/arc-1.2
 	>=sci-CRAN/arules-1.6.6
+	>=sci-CRAN/arc-1.2
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

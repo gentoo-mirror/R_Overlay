@@ -22,16 +22,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/labeling
-	sci-CRAN/dplyr
-	sci-CRAN/binom
-	sci-CRAN/assertthat
-	sci-CRAN/png
-	sci-CRAN/scales
+DEPEND="sci-CRAN/assertthat
 	sci-CRAN/ggplot2
 	sci-CRAN/magrittr
+	sci-CRAN/png
+	sci-CRAN/labeling
+	>=dev-lang/R-3.5.0
+	sci-CRAN/dplyr
+	sci-CRAN/binom
 	sci-CRAN/pander
+	sci-CRAN/scales
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

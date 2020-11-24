@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/Rcpp
-	>=sci-CRAN/sads-0.4.1
 	sci-CRAN/vegan
+	>=sci-CRAN/sads-0.4.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

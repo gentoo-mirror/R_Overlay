@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/RColorBrewer
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/RColorBrewer
 	sci-CRAN/gplots
-	>=dev-lang/R-3.5
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,19 +20,19 @@ R_SUGGESTS="
 	r_suggests_spelling? ( >=sci-CRAN/spelling-2.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
-DEPEND=">=sci-CRAN/fgeo_tool-1.2.4
-	>=sci-CRAN/fgeo_x-1.1.3
-	>=sci-CRAN/purrr-0.3.2
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/glue-1.3.1
-	>=sci-CRAN/rlang-0.3.4
-	>=sci-CRAN/rstudioapi-0.10
-	>=dev-lang/R-3.2
-	>=sci-CRAN/crayon-1.3.4
-	>=sci-CRAN/cli-1.1.0
+DEPEND=">=sci-CRAN/cli-1.1.0
 	>=sci-CRAN/fgeo_analyze-1.1.10
-	>=sci-CRAN/dplyr-0.8.1
 	>=sci-CRAN/fgeo_plot-1.1.6
+	>=sci-CRAN/dplyr-0.8.1
+	>=sci-CRAN/crayon-1.3.4
+	>=sci-CRAN/fgeo_x-1.1.3
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/rlang-0.3.4
+	>=dev-lang/R-3.2
+	>=sci-CRAN/fgeo_tool-1.2.4
+	>=sci-CRAN/glue-1.3.1
+	>=sci-CRAN/purrr-0.3.2
+	>=sci-CRAN/rstudioapi-0.10
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

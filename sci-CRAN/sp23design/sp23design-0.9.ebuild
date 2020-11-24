@@ -13,7 +13,7 @@ LICENSE='LGPL-3'
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
 DEPEND=">=dev-lang/R-3.0
-	virtual/survival
 	sci-CRAN/mvtnorm
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

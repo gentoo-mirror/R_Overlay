@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ZIBseq_1.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/gamlss
+DEPEND=">=dev-lang/R-3.3.1
+	sci-CRAN/gamlss
 	virtual/nlme
-	>=dev-lang/R-3.3.1
 	sci-CRAN/gamlss_dist
 "
 RDEPEND="${DEPEND-}"

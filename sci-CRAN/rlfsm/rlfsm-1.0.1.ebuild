@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_stringi? ( sci-CRAN/stringi )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/doParallel
+	sci-CRAN/Rcpp
+	sci-CRAN/reshape2
+	sci-CRAN/stabledist
+	sci-CRAN/ggplot2
 	sci-CRAN/foreach
 	sci-CRAN/plyr
-	sci-CRAN/stabledist
-	sci-CRAN/doParallel
-	sci-CRAN/reshape2
 	sci-CRAN/Rdpack
-	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

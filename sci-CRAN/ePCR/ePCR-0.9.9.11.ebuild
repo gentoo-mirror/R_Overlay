@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_rocr? ( sci-CRAN/ROCR )
 "
-DEPEND="sci-CRAN/timeROC
-	sci-CRAN/Bolstad2
-	sci-BIOC/impute
-	sci-CRAN/pracma
-	>=dev-lang/R-3.0.0
-	sci-CRAN/glmnet
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/hamlet
 	virtual/survival
+	sci-CRAN/glmnet
+	sci-CRAN/timeROC
+	sci-CRAN/pracma
+	sci-CRAN/Bolstad2
+	sci-BIOC/impute
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.18
-	>=sci-CRAN/selectiveInference-1.2.5
 	>=sci-CRAN/RcppProgress-0.4.1
+	>=sci-CRAN/selectiveInference-1.2.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

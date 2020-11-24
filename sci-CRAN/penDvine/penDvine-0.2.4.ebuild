@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/penDvine_0.2.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/TSP
+DEPEND=">=dev-lang/R-2.15.1
+	virtual/lattice
 	sci-CRAN/quadprog
-	sci-CRAN/foreach
+	virtual/Matrix
 	sci-CRAN/fda
+	sci-CRAN/TSP
 	virtual/lattice
-	>=dev-lang/R-2.15.1
-	virtual/lattice
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

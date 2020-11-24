@@ -36,8 +36,8 @@ R_SUGGESTS="
 	r_suggests_rpese? ( sci-CRAN/RPESE )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/quadprog
+DEPEND="sci-CRAN/quadprog
+	>=dev-lang/R-3.5.0
 	sci-CRAN/zoo
 	>=sci-CRAN/xts-0.10.0
 "

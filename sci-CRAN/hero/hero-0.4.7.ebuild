@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_igraph? ( sci-CRAN/igraph )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/pbapply
-	sci-CRAN/fields
+DEPEND="virtual/Matrix
 	sci-CRAN/rgeos
-	virtual/Matrix
+	sci-CRAN/fields
 	sci-CRAN/optimx
+	sci-CRAN/pbapply
 	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

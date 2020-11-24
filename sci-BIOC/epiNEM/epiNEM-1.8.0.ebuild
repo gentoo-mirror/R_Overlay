@@ -22,17 +22,17 @@ R_SUGGESTS="
 	r_suggests_stringdb? ( sci-BIOC/STRINGdb )
 "
 DEPEND="sci-CRAN/BoolNet
-	sci-BIOC/minet
-	sci-BIOC/graph
-	sci-CRAN/gtools
-	sci-CRAN/pcalg
-	>=dev-lang/R-3.4
-	sci-CRAN/e1071
-	sci-CRAN/igraph
-	sci-BIOC/nem
 	virtual/lattice
 	virtual/lattice
 	sci-CRAN/RColorBrewer
+	sci-CRAN/igraph
+	sci-BIOC/minet
+	sci-BIOC/graph
+	>=dev-lang/R-3.4
+	sci-CRAN/gtools
+	sci-CRAN/e1071
+	sci-BIOC/nem
+	sci-CRAN/pcalg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

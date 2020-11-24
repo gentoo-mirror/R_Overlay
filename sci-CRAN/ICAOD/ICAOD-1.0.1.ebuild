@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
 DEPEND=">=dev-lang/R-3.1.3
+	sci-CRAN/sn
 	sci-CRAN/cubature
 	sci-CRAN/nloptr
 	sci-CRAN/Rcpp
-	sci-CRAN/sn
 	sci-CRAN/mnormt
 	sci-CRAN/mvQuad
 "

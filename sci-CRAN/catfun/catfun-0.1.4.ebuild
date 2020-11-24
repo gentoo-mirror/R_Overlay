@@ -18,9 +18,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/epitools
 	sci-CRAN/DescTools
-	sci-CRAN/cli
-	sci-CRAN/magrittr
 	sci-CRAN/Hmisc
+	sci-CRAN/magrittr
+	sci-CRAN/cli
 	sci-CRAN/broom
 	sci-CRAN/rlang
 "

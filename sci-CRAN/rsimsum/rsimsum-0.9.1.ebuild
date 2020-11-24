@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
 DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/checkmate
 	>=sci-CRAN/rlang-0.4.0
 	sci-CRAN/ggridges
-	sci-CRAN/scales
-	sci-CRAN/checkmate
 	sci-CRAN/knitr
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

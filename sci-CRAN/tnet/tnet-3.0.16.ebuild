@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/tnet_3.0.16.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/igraph
 	virtual/survival
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

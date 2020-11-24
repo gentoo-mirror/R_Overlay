@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bmem_1.8.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/Amelia
-	sci-CRAN/sem
+DEPEND="sci-CRAN/snowfall
 	virtual/MASS
-	sci-CRAN/snowfall
+	sci-CRAN/sem
+	sci-CRAN/Amelia
 	sci-CRAN/lavaan
 "
 RDEPEND="${DEPEND-}"

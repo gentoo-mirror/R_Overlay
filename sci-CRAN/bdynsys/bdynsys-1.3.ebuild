@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/bdynsys_1.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/Formula
-	sci-CRAN/caTools
-	virtual/Matrix
 	virtual/MASS
 	sci-CRAN/Hmisc
-	sci-CRAN/plm
 	sci-CRAN/deSolve
+	sci-CRAN/plm
 	sci-CRAN/pracma
+	sci-CRAN/caTools
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

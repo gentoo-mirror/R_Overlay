@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_smncensreg"
 R_SUGGESTS="r_suggests_smncensreg? ( sci-CRAN/SMNCensReg )"
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/numDeriv
-	sci-CRAN/msm
 	sci-CRAN/tmvtnorm
+	sci-CRAN/msm
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

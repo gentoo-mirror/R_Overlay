@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/chinese.misc_0.2.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/tm-0.7
-	virtual/Matrix
-	sci-CRAN/stringi
+DEPEND=">=sci-CRAN/tm-0.7
+	sci-CRAN/purrr
+	>=dev-lang/R-3.6.0
 	sci-CRAN/jiebaR
+	sci-CRAN/stringi
 	sci-CRAN/NLP
 	>=sci-CRAN/slam-0.1.37
-	sci-CRAN/purrr
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

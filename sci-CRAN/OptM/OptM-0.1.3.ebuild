@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/OptM_0.1.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/SiZer-0.1.4
-	virtual/boot
+DEPEND="virtual/boot
+	>=sci-CRAN/SiZer-0.1.4
 	>=dev-lang/R-3.2.2
 "
 RDEPEND="${DEPEND-}"

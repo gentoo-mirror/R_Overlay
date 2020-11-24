@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_synthpop? ( sci-CRAN/synthpop )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/dplyr
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/Rdpack
-	sci-CRAN/magrittr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

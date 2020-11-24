@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_spdata? ( sci-CRAN/spData )
 "
-DEPEND=">=sci-CRAN/Rcpp-1.0.0
-	sci-CRAN/tibble
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/png
+	sci-CRAN/purrr
+	sci-CRAN/magrittr
+	sci-CRAN/assertthat
 	sci-CRAN/raster
 	sci-CRAN/decido
 	sci-CRAN/rayimage
-	sci-CRAN/assertthat
-	sci-CRAN/magrittr
+	>=sci-CRAN/Rcpp-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppThread
 	sci-CRAN/progress
+	sci-CRAN/RcppThread
 	${R_SUGGESTS-}
 "

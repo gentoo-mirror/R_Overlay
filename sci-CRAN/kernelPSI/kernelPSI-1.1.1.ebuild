@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-1.0.1
 	sci-CRAN/pracma
-	sci-CRAN/lmtest
 	sci-CRAN/kernlab
 	sci-CRAN/CompQuadForm
-	>=sci-CRAN/Rcpp-1.0.1
+	sci-CRAN/lmtest
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -12,17 +12,17 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_phylobase"
 R_SUGGESTS="r_suggests_phylobase? ( >=sci-CRAN/phylobase-0.6.8 )"
-DEPEND="sci-CRAN/plyr
+DEPEND="sci-CRAN/flexclust
+	>=sci-CRAN/moments-0.13
 	sci-CRAN/NbClust
 	>=sci-CRAN/rJava-0.5.0
-	sci-CRAN/gplots
 	sci-CRAN/RColorBrewer
 	>=sci-CRAN/flexmix-2.3
+	>=sci-CRAN/commonsMath-1.1
+	sci-CRAN/gplots
+	sci-CRAN/plyr
 	>=sci-CRAN/matlab-0.8.9
 	>=sci-CRAN/ape-3.2
-	>=sci-CRAN/commonsMath-1.1
-	sci-CRAN/flexclust
-	>=sci-CRAN/moments-0.13
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/getProxy_1.12.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/bitops
-	sci-CRAN/data_table
-	sci-CRAN/RCurl
-	sci-CRAN/httr
-	sci-CRAN/jsonlite
 	sci-CRAN/dplyr
+	sci-CRAN/httr
+	>=dev-lang/R-3.0.0
+	sci-CRAN/RCurl
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

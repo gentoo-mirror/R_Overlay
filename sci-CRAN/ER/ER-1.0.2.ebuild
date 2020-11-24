@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/scales
+	sci-CRAN/plsVarSel
+	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
 	sci-CRAN/glmnet
-	sci-CRAN/gridExtra
 	sci-CRAN/pls
-	sci-CRAN/plsVarSel
 "
 RDEPEND="${DEPEND-}"

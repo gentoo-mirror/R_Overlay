@@ -24,9 +24,9 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND="sci-CRAN/Rcpp
+	sci-CRAN/assertthat
 	sci-CRAN/vctrs
 	sci-CRAN/lifecycle
-	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

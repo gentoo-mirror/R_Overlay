@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FitUltD_3.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/assertthat
-	sci-CRAN/fitdistrplus
-	virtual/MASS
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/purrr
+	sci-CRAN/cowplot
+	sci-CRAN/ggplot2
+	sci-CRAN/assertthat
 	>=dev-lang/R-3.2.0
 	sci-CRAN/ADGofTest
+	sci-CRAN/fitdistrplus
 	sci-CRAN/mclust
-	sci-CRAN/ggplot2
-	sci-CRAN/cowplot
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

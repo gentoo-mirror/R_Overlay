@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/decoder
-	sci-CRAN/rvest
+DEPEND="sci-CRAN/sweidnumbr
 	sci-CRAN/xml2
-	sci-CRAN/sweidnumbr
+	sci-CRAN/rvest
+	sci-CRAN/decoder
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

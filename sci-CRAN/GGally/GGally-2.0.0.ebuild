@@ -39,14 +39,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1
-	>=sci-CRAN/gtable-0.2.0
-	>=sci-CRAN/plyr-1.8.3
-	>=sci-CRAN/ggplot2-3.3.0
-	sci-CRAN/progress
-	sci-CRAN/rlang
-	sci-CRAN/RColorBrewer
 	>=sci-CRAN/reshape-0.8.5
+	sci-CRAN/progress
+	>=sci-CRAN/plyr-1.8.3
+	>=sci-CRAN/gtable-0.2.0
+	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/RColorBrewer
 	>=sci-CRAN/scales-1.1.0
+	sci-CRAN/rlang
 	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-}

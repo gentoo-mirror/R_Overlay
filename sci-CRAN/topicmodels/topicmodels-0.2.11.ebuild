@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_oaiharvester? ( sci-CRAN/OAIHarvester )
 	r_suggests_snowballc? ( sci-CRAN/SnowballC )
 "
-DEPEND="sci-CRAN/modeltools
-	>=dev-lang/R-2.15.0
-	>=sci-CRAN/tm-0.6
+DEPEND=">=dev-lang/R-2.15.0
 	sci-CRAN/slam
+	sci-CRAN/modeltools
+	>=sci-CRAN/tm-0.6
 "
 RDEPEND="${DEPEND-}
 	sci-libs/gsl

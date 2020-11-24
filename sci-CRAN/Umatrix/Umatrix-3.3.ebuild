@@ -12,21 +12,21 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
-DEPEND="sci-CRAN/fields
-	sci-CRAN/pdist
-	sci-CRAN/abind
-	sci-CRAN/pracma
-	>=dev-lang/R-3.0
-	sci-CRAN/AdaptGauss
-	sci-CRAN/Rcpp
+DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/shinyjs
-	sci-CRAN/shiny
+	sci-CRAN/Rcpp
 	sci-CRAN/ggplot2
+	sci-CRAN/shiny
 	sci-CRAN/reshape2
+	sci-CRAN/fields
 	sci-CRAN/plyr
-	sci-CRAN/deldir
 	sci-CRAN/png
+	sci-CRAN/abind
+	sci-CRAN/AdaptGauss
+	sci-CRAN/deldir
 	sci-CRAN/geometry
+	sci-CRAN/pracma
+	sci-CRAN/pdist
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

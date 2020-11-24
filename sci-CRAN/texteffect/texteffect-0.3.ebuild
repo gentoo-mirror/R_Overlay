@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3
 	virtual/boot
-	virtual/MASS
 	sci-CRAN/ggplot2
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_topicmodels? ( sci-CRAN/topicmodels )
 "
 DEPEND="virtual/Matrix
-	>=sci-CRAN/Rcpp-0.11.5
 	>=sci-CRAN/data_table-1.9.6
+	>=sci-CRAN/Rcpp-0.11.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/jsonlite
+	sci-CRAN/magrittr
 	sci-CRAN/rlang
 	sci-CRAN/dplyr
-	sci-CRAN/readr
 	sci-CRAN/httr
-	sci-CRAN/magrittr
+	sci-CRAN/readr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,7 +12,7 @@ LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/lme4
-	sci-CRAN/metafor
 	virtual/nlme
+	sci-CRAN/metafor
 "
 RDEPEND="${DEPEND-}"

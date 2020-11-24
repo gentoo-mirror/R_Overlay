@@ -26,21 +26,21 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/base64enc
+DEPEND="sci-CRAN/base64enc
 	sci-CRAN/filelock
+	sci-CRAN/httr
+	sci-CRAN/jsonlite
+	sci-CRAN/magrittr
+	sci-CRAN/withr
+	>=dev-lang/R-3.2.0
+	sci-CRAN/crayon
 	sci-CRAN/digest
 	sci-CRAN/backports
 	sci-CRAN/fs
-	sci-CRAN/httr
-	sci-CRAN/jsonlite
-	sci-CRAN/zip
-	sci-CRAN/crayon
-	sci-CRAN/magrittr
 	sci-CRAN/mime
 	sci-CRAN/openssl
 	sci-CRAN/rappdirs
-	sci-CRAN/withr
 	sci-CRAN/yaml
+	sci-CRAN/zip
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

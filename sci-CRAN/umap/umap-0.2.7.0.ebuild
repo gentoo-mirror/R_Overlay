@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.2
+	sci-CRAN/RSpectra
+	sci-CRAN/reticulate
 	sci-CRAN/openssl
 	>=sci-CRAN/Rcpp-0.12.6
-	sci-CRAN/reticulate
-	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

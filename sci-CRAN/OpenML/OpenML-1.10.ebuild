@@ -29,17 +29,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/stringi
-	>=sci-CRAN/checkmate-1.8.2
-	>=sci-CRAN/memoise-1.0.0
-	sci-CRAN/data_table
-	>=sci-CRAN/backports-1.1.0
-	>=sci-CRAN/BBmisc-1.11
+DEPEND=">=sci-CRAN/backports-1.1.0
 	sci-CRAN/digest
+	sci-CRAN/data_table
+	>=sci-CRAN/checkmate-1.8.2
+	>=sci-CRAN/BBmisc-1.11
 	>=sci-CRAN/httr-1.4.1
+	sci-CRAN/stringi
 	sci-CRAN/XML
 	sci-CRAN/jsonlite
+	>=sci-CRAN/memoise-1.0.0
 	>=sci-CRAN/curl-4.1
+	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

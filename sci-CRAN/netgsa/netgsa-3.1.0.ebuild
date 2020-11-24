@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-BIOC/graph
-	sci-CRAN/corpcor
+DEPEND=">=dev-lang/R-3.2.1
 	sci-CRAN/glmnet
-	sci-BIOC/graphite
 	virtual/Matrix
-	sci-CRAN/rlang
-	>=dev-lang/R-3.2.1
-	sci-CRAN/glassoFast
-	sci-CRAN/igraph
+	sci-BIOC/graph
+	sci-CRAN/dplyr
 	sci-CRAN/msigdbr
 	sci-CRAN/quadprog
 	sci-CRAN/magrittr
+	sci-CRAN/corpcor
+	sci-BIOC/graphite
+	sci-CRAN/glassoFast
+	sci-CRAN/igraph
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,7 +12,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/adoption_0.6.2.tar.gz"
 DEPEND=">=dev-lang/R-3.0
 	>=sci-CRAN/RandomFieldsUtils-0.5.3
 	sci-CRAN/tkrplot
-	sci-CRAN/quadprog
 	dev-lang/R[tk]
+	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-} sci-CRAN/RandomFieldsUtils"

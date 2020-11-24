@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_tssqlite? ( sci-CRAN/TSSQLite )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND=">=sci-CRAN/DBI-0.3.1
-	>=sci-CRAN/TSdbi-2015.1.1
-	sci-CRAN/tfplot
+DEPEND=">=sci-CRAN/TSdbi-2015.1.1
+	>=sci-CRAN/DBI-0.3.1
 	sci-CRAN/tframe
+	sci-CRAN/tfplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

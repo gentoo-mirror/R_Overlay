@@ -13,8 +13,8 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( >=sci-CRAN/testthat-0.7.1 )"
 DEPEND="sci-mathematics/glpk
-	>=sci-CRAN/ggplot2-0.9.3.1
-	>=sci-CRAN/gridExtra-0.9.1
 	>=sci-CRAN/hitandrun-0.5.2
+	>=sci-CRAN/gridExtra-0.9.1
+	>=sci-CRAN/ggplot2-0.9.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

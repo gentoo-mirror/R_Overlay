@@ -29,8 +29,8 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/glue
-	sci-CRAN/lifecycle
 	sci-CRAN/rlang
+	sci-CRAN/lifecycle
+	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

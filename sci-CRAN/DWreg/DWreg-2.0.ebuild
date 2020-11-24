@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/DWreg_2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/Ecdat
 	sci-CRAN/DiscreteWeibull
-	virtual/survival
 	sci-CRAN/maxLik
+	virtual/survival
+	sci-CRAN/Ecdat
 "
 RDEPEND="${DEPEND-}"

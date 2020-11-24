@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/prodlim_2019.11.13.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/KernSmooth
-	virtual/survival
+DEPEND=">=sci-CRAN/Rcpp-0.11.5
 	sci-CRAN/lava
-	>=sci-CRAN/Rcpp-0.11.5
+	virtual/survival
+	virtual/KernSmooth
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

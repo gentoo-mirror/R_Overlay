@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/inaparc_1.1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/kpeaks
+DEPEND="sci-CRAN/kpeaks
+	>=dev-lang/R-3.3.0
 	sci-CRAN/lhs
 "
 RDEPEND="${DEPEND-}"

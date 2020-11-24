@@ -22,17 +22,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tidygraph? ( sci-CRAN/tidygraph )
 "
-DEPEND="sci-CRAN/tidyr
-	sci-CRAN/purrr
-	sci-CRAN/forcats
-	sci-CRAN/lubridate
-	sci-CRAN/sf
-	sci-CRAN/rlang
-	sci-CRAN/stringr
-	sci-CRAN/magrittr
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/lme4
+	sci-CRAN/forcats
+	sci-CRAN/ggplot2
+	sci-CRAN/sf
+	sci-CRAN/lubridate
+	sci-CRAN/rlang
+	sci-CRAN/tidyr
+	sci-CRAN/dplyr
+	sci-CRAN/purrr
 	virtual/Matrix
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

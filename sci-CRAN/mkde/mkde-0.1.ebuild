@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mkde_0.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/raster
+DEPEND=">=sci-CRAN/Rcpp-0.9.6
 	sci-CRAN/sp
-	>=sci-CRAN/Rcpp-0.9.6
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

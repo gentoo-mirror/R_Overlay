@@ -27,18 +27,18 @@ R_SUGGESTS="
 	r_suggests_rcurl? ( sci-CRAN/RCurl sci-CRAN/RCurl )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="virtual/class
-	>=sci-BIOC/Biostrings-2.35.12
-	>=sci-BIOC/BiocGenerics-0.13.11
-	sci-CRAN/ff
-	>=sci-BIOC/Biobase-2.27.3
-	>=sci-BIOC/preprocessCore-1.29.0
-	>=sci-CRAN/RSQLite-1.0.0
+DEPEND=">=dev-lang/R-3.2.0
 	sci-BIOC/zlibbioc
-	>=dev-lang/R-3.2.0
+	>=sci-BIOC/BiocGenerics-0.13.11
+	>=sci-BIOC/Biostrings-2.35.12
+	>=sci-BIOC/Biobase-2.27.3
+	virtual/class
 	>=sci-BIOC/affyio-1.35.0
 	>=sci-BIOC/affxparser-1.39.4
 	>=sci-CRAN/DBI-0.3.1
+	sci-CRAN/ff
+	>=sci-BIOC/preprocessCore-1.29.0
+	>=sci-CRAN/RSQLite-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-BIOC/preprocessCore

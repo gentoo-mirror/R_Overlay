@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/Rcpp
-	>=sci-CRAN/ape-3.0.7
 	sci-CRAN/mvtnorm
-	sci-CRAN/coda
+	>=sci-CRAN/ape-3.0.7
 	sci-CRAN/ks
+	sci-CRAN/coda
 	sci-CRAN/caper
 "
 RDEPEND="${DEPEND-}

@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_ztable? ( sci-CRAN/ztable )
 "
-DEPEND="sci-CRAN/sjmisc
-	virtual/survival
-	sci-CRAN/purrr
-	sci-CRAN/nortest
-	>=dev-lang/R-3.1.2
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/magrittr
+	sci-CRAN/purrr
+	>=dev-lang/R-3.1.2
+	virtual/survival
+	sci-CRAN/nortest
+	sci-CRAN/sjmisc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.1
 	virtual/survival
-	sci-BIOC/siggenes
 	>=sci-CRAN/LogicReg-1.5.3
+	sci-BIOC/siggenes
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

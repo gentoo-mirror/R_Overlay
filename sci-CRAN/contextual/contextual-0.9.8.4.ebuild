@@ -24,15 +24,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/data_table
-	sci-CRAN/doParallel
-	>=sci-CRAN/R6-2.3.0
-	sci-CRAN/foreach
-	sci-CRAN/Formula
 	sci-CRAN/R_devices
-	sci-CRAN/itertools
+	sci-CRAN/Formula
 	sci-CRAN/iterators
+	sci-CRAN/itertools
 	sci-CRAN/rjson
+	sci-CRAN/data_table
+	sci-CRAN/foreach
+	>=sci-CRAN/R6-2.3.0
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

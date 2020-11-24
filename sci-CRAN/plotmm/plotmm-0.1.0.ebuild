@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/amerika
 	sci-CRAN/patchwork
-	sci-CRAN/ggplot2
-	sci-CRAN/wesanderson
 	sci-CRAN/dplyr
+	sci-CRAN/wesanderson
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

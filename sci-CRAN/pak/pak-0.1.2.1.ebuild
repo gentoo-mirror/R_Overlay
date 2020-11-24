@@ -19,27 +19,27 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/R6
-	sci-CRAN/prettyunits
+DEPEND=">=sci-CRAN/callr-3.0.0.9002
 	>=sci-CRAN/cliapp-0.0.0.9002
-	sci-CRAN/assertthat
-	>=sci-CRAN/callr-3.0.0.9002
-	>=sci-CRAN/curl-3.2
-	>=sci-CRAN/filelock-1.0.2
-	sci-CRAN/jsonlite
-	>=sci-CRAN/pkgbuild-1.0.2
-	>=sci-CRAN/rprojroot-1.3.2
-	sci-CRAN/rematch2
-	>=sci-CRAN/pkgcache-1.0.3
-	>=dev-lang/R-3.2
-	>=sci-CRAN/processx-3.2.1
-	>=sci-CRAN/ps-1.3.0
-	>=sci-CRAN/glue-1.3.0
-	sci-CRAN/tibble
-	sci-CRAN/lpSolve
-	sci-CRAN/base64enc
-	>=sci-CRAN/cli-1.0.0
-	>=sci-CRAN/crayon-1.3.4
 	>=sci-CRAN/desc-1.2.0
+	sci-CRAN/assertthat
+	>=sci-CRAN/crayon-1.3.4
+	sci-CRAN/lpSolve
+	sci-CRAN/R6
+	>=sci-CRAN/processx-3.2.1
+	>=sci-CRAN/pkgcache-1.0.3
+	>=sci-CRAN/glue-1.3.0
+	sci-CRAN/rematch2
+	>=dev-lang/R-3.2
+	sci-CRAN/tibble
+	sci-CRAN/base64enc
+	>=sci-CRAN/curl-3.2
+	>=sci-CRAN/ps-1.3.0
+	>=sci-CRAN/pkgbuild-1.0.2
+	>=sci-CRAN/filelock-1.0.2
+	>=sci-CRAN/cli-1.0.0
+	sci-CRAN/jsonlite
+	sci-CRAN/prettyunits
+	>=sci-CRAN/rprojroot-1.3.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

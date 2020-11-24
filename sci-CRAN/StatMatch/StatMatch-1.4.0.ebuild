@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_rann? ( sci-CRAN/RANN )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/survey
-	sci-CRAN/lpSolve
+DEPEND="sci-CRAN/survey
+	sci-CRAN/ggplot2
 	sci-CRAN/proxy
+	sci-CRAN/lpSolve
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

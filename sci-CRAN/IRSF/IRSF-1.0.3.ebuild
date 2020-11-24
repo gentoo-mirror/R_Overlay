@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IRSF_1.0.3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	virtual/survival
+DEPEND="sci-CRAN/randomForestSRC
 	sci-CRAN/abind
-	sci-CRAN/randomForestSRC
+	>=dev-lang/R-3.5.0
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

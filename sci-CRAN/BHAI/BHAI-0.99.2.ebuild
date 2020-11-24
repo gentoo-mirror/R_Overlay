@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/BHAI_0.99.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/plotrix
 	sci-CRAN/MCMCpack
 	sci-CRAN/prevtoinc
+	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-}"

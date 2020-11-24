@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/lattice
+DEPEND=">=dev-lang/R-3.2
+	virtual/lattice
+	sci-CRAN/OpenImageR
 	sci-CRAN/R6
 	>=sci-CRAN/Rcpp-0.12.10
-	sci-CRAN/OpenImageR
-	>=dev-lang/R-3.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	>=sci-CRAN/RcppArmadillo-0.9.1
 	sci-CRAN/OpenImageR
 	virtual/cluster
+	>=sci-CRAN/RcppArmadillo-0.9.1
 	${R_SUGGESTS-}
 "

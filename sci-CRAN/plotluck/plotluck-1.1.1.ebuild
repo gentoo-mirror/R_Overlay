@@ -24,11 +24,11 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/scales-0.4.1
 	>=sci-CRAN/hexbin-1.27.1
-	>=sci-CRAN/ggplot2-2.2.0
-	>=sci-CRAN/RColorBrewer-1.1.2
-	>=dev-lang/R-3.1
 	>=sci-CRAN/quantreg-5.26
 	>=sci-CRAN/Hmisc-3.17.4
+	>=dev-lang/R-3.1
 	>=sci-CRAN/plyr-1.8.4
+	>=sci-CRAN/RColorBrewer-1.1.2
+	>=sci-CRAN/ggplot2-2.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/R6
-	sci-CRAN/blockmodels
 	sci-CRAN/ggplot2
-	sci-CRAN/magrittr
+	>=dev-lang/R-3.5.0
 	sci-CRAN/Rcpp
+	sci-CRAN/blockmodels
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

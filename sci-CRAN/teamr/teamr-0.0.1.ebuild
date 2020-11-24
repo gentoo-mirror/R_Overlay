@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/teamr_0.0.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/httr
-	sci-CRAN/R6
 	sci-CRAN/jsonlite
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}"

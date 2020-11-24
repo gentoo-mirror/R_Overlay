@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-BIOC/S4Vectors
-	>=dev-lang/R-3.6
-	sci-CRAN/assertive
+DEPEND=">=dev-lang/R-3.6
 	sci-BIOC/Biostrings
+	sci-CRAN/assertive
 	sci-BIOC/IRanges
+	sci-BIOC/S4Vectors
 	sci-BIOC/BiocGenerics
 	sci-BIOC/XVector
 	sci-CRAN/stringr

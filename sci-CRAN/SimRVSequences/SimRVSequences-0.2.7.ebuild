@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcfr? ( >=sci-CRAN/vcfR-1.8.0 )
 "
-DEPEND=">=sci-CRAN/kinship2-1.6.4
+DEPEND=">=sci-CRAN/intervals-0.15.1
 	virtual/Matrix
-	>=sci-CRAN/dplyr-0.7.5
-	>=sci-CRAN/reshape2-1.4.1
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/intervals-0.15.1
-	>=sci-CRAN/SimRVPedigree-0.1.0
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/reshape2-1.4.1
+	>=sci-CRAN/dplyr-0.7.5
 	>=sci-CRAN/rlang-0.2.0
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/kinship2-1.6.4
+	>=sci-CRAN/SimRVPedigree-0.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

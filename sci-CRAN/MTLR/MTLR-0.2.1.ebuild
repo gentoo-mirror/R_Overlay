@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	virtual/survival
 	>=sci-CRAN/Rcpp-0.12.18
+	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

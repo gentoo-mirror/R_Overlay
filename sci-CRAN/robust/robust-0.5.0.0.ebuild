@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/fit_models
 	virtual/MASS
-	sci-CRAN/robustbase
 	sci-CRAN/rrcov
+	sci-CRAN/robustbase
 	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

@@ -25,20 +25,20 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcr? ( >=sci-CRAN/vcr-0.5.0 )
 "
-DEPEND="sci-CRAN/geoaxe
+DEPEND="sci-CRAN/xml2
 	sci-CRAN/tibble
-	sci-CRAN/conditionz
-	sci-CRAN/ggplot2
-	sci-CRAN/xml2
-	sci-CRAN/whisker
-	>=sci-CRAN/wicket-0.4.0
 	sci-CRAN/data_table
-	>=sci-CRAN/crul-0.7.4
-	sci-CRAN/magrittr
 	>=sci-CRAN/jsonlite-1.6
-	>=sci-CRAN/oai-0.2.2
-	sci-CRAN/lazyeval
+	>=sci-CRAN/crul-0.7.4
 	sci-CRAN/R6
+	sci-CRAN/conditionz
+	sci-CRAN/whisker
+	sci-CRAN/ggplot2
+	sci-CRAN/magrittr
+	>=sci-CRAN/oai-0.2.2
+	sci-CRAN/geoaxe
+	>=sci-CRAN/wicket-0.4.0
+	sci-CRAN/lazyeval
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

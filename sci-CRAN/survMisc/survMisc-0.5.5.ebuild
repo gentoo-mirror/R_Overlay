@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/survMisc_0.5.5.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/survival
-	sci-CRAN/xtable
-	sci-CRAN/gridExtra
-	sci-CRAN/km_ci
-	sci-CRAN/knitr
-	sci-CRAN/KMsurv
 	sci-CRAN/ggplot2
+	sci-CRAN/KMsurv
+	sci-CRAN/knitr
+	sci-CRAN/xtable
 	sci-CRAN/data_table
 	sci-CRAN/zoo
+	sci-CRAN/gridExtra
+	sci-CRAN/km_ci
 "
 RDEPEND="${DEPEND-}"

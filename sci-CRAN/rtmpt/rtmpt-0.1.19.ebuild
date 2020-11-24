@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/loo
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/loo
 	virtual/Matrix
+	>=dev-lang/R-3.0.0
+	sci-CRAN/data_table
 	sci-CRAN/coda
 	sci-CRAN/stringr
 	sci-CRAN/truncnorm

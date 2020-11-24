@@ -10,18 +10,18 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GroupBN_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/arules
-	sci-CRAN/MLmetrics
-	sci-CRAN/PCAmixdata
-	sci-CRAN/zoo
-	sci-CRAN/bnlearn
-	sci-CRAN/visNetwork
-	>=dev-lang/R-3.5.0
-	sci-CRAN/ClustOfVar
-	sci-CRAN/PRROC
-	sci-CRAN/rlist
+DEPEND="sci-CRAN/ClustOfVar
 	sci-CRAN/magrittr
-	sci-CRAN/plyr
+	sci-CRAN/PCAmixdata
+	sci-CRAN/rlist
+	sci-CRAN/zoo
 	sci-CRAN/stringr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/bnlearn
+	sci-CRAN/arules
+	sci-CRAN/PRROC
+	sci-CRAN/MLmetrics
+	sci-CRAN/visNetwork
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

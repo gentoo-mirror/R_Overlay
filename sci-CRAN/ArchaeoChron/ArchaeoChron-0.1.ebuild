@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/ArchaeoPhases
-	sci-CRAN/Bchron
 	sci-CRAN/coda
+	sci-CRAN/Bchron
 	sci-CRAN/rjags
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

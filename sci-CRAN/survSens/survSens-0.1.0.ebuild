@@ -12,7 +12,7 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/directlabels
-	sci-CRAN/ggplot2
 	virtual/survival
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

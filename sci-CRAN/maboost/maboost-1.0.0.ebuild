@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/maboost_1.0-0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/rpart
-	sci-CRAN/C50
+DEPEND="sci-CRAN/C50
+	virtual/rpart
 "
 RDEPEND="${DEPEND-}"

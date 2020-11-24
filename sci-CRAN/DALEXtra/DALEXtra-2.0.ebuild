@@ -32,11 +32,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidymodels? ( sci-CRAN/tidymodels )
 "
-DEPEND=">=sci-CRAN/DALEX-1.3
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/gridExtra
-	sci-CRAN/reticulate
+	>=sci-CRAN/DALEX-1.3
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
+	sci-CRAN/reticulate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

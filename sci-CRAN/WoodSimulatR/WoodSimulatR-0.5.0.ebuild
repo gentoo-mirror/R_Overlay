@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_tidyselect? ( sci-CRAN/tidyselect )
 	r_suggests_utf8? ( sci-CRAN/utf8 )
 "
-DEPEND=">=sci-CRAN/rlang-0.4.6
+DEPEND="sci-CRAN/scales
 	sci-CRAN/tibble
+	>=sci-CRAN/rlang-0.4.6
+	sci-CRAN/dplyr
 	sci-CRAN/purrr
 	sci-CRAN/tidyr
-	sci-CRAN/dplyr
-	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

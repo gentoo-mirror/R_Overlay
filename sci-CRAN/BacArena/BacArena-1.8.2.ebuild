@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/ReacTran-1.4.2
-	>=sci-CRAN/deSolve-1.12
-	sci-mathematics/glpk
-	sci-CRAN/igraph
 	sci-CRAN/stringr
-	>=sci-CRAN/sybil-2.1.3
-	virtual/Matrix
 	sci-CRAN/ggplot2
+	sci-CRAN/R_matlab
+	>=sci-CRAN/deSolve-1.12
+	virtual/Matrix
+	>=sci-CRAN/ReacTran-1.4.2
+	>=sci-CRAN/sybil-2.1.3
 	sci-CRAN/reshape2
+	sci-mathematics/glpk
 	sci-CRAN/plyr
 	sci-CRAN/Rcpp
-	sci-CRAN/R_matlab
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

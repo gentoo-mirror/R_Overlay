@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_memisc? ( sci-CRAN/memisc )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
+DEPEND="sci-CRAN/Formula
+	sci-CRAN/truncnorm
+	>=dev-lang/R-3.6.0
 	sci-CRAN/plotrix
 	sci-CRAN/maxLik
-	sci-CRAN/Formula
 	sci-CRAN/msm
 	sci-CRAN/mlogit
-	sci-CRAN/truncnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

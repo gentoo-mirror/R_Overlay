@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/WaveletGARCH_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/FinTS
-	sci-CRAN/rugarch
-	sci-CRAN/forecast
+DEPEND="sci-CRAN/forecast
+	sci-CRAN/FinTS
 	sci-CRAN/wavelets
 	sci-CRAN/fracdiff
+	sci-CRAN/rugarch
 "
 RDEPEND="${DEPEND-}"

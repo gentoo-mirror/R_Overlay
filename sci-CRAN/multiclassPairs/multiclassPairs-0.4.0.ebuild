@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_switchbox? ( sci-BIOC/switchBox )
 "
 DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/ranger
-	sci-CRAN/Boruta
 	sci-CRAN/caret
 	sci-CRAN/dunn_test
+	sci-CRAN/Boruta
+	sci-CRAN/ranger
 	sci-CRAN/e1071
 	sci-CRAN/rdist
 "

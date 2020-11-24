@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Evomorph_0.9.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/stringr
-	sci-CRAN/geomorph
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/reshape2
-	>=dev-lang/R-3.2.0
+	sci-CRAN/ggplot2
+	sci-CRAN/geomorph
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

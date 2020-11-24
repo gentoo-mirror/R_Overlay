@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.3.1
-	sci-CRAN/httr
 	sci-CRAN/rjson
+	sci-CRAN/httr
 	sci-CRAN/base64enc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/dummies
 	sci-CRAN/ada
-	sci-CRAN/kernelFactory
 	sci-CRAN/randomForest
+	sci-CRAN/kernelFactory
 "
 RDEPEND="${DEPEND-}"

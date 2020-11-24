@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/BWGS_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/BGLR
-	sci-CRAN/brnn
-	sci-CRAN/glmnet
+	sci-CRAN/e1071
 	sci-CRAN/randomForest
 	sci-CRAN/rrBLUP
-	sci-CRAN/e1071
+	sci-CRAN/BGLR
+	sci-CRAN/glmnet
+	sci-CRAN/brnn
 "
 RDEPEND="${DEPEND-}"

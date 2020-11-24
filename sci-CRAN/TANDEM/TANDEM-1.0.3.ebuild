@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/glmnet-3.0
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	>=sci-CRAN/glmnet-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

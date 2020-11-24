@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bnpa_0.3.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/xlsx
-	sci-CRAN/semPlot
+DEPEND="sci-CRAN/bnlearn
+	sci-CRAN/xlsx
 	sci-CRAN/fastDummies
-	sci-CRAN/bnlearn
-	sci-CRAN/lavaan
 	sci-BIOC/Rgraphviz
+	sci-CRAN/semPlot
+	sci-CRAN/lavaan
 "
 RDEPEND="${DEPEND-}"

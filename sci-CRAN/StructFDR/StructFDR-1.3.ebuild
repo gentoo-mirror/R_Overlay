@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_reshape? ( sci-CRAN/reshape )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/cluster
-	sci-CRAN/ape
-	>=dev-lang/R-3.1.0
-	virtual/nlme
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/dirmult
+	virtual/nlme
+	sci-CRAN/ape
+	virtual/cluster
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

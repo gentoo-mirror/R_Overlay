@@ -24,16 +24,16 @@ R_SUGGESTS="
 	r_suggests_rweka? ( sci-CRAN/RWeka )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/mlr
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/e1071
 	sci-CRAN/gower
 	sci-CRAN/dplyr
+	>=dev-lang/R-3.0.2
+	sci-CRAN/mlr
+	sci-CRAN/data_table
 	sci-CRAN/breakDown
 	sci-CRAN/forestmodel
 	sci-CRAN/shiny
 	virtual/MASS
-	sci-CRAN/ggplot2
-	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

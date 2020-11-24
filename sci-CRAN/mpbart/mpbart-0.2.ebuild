@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/mpbart_0.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.2
-	sci-CRAN/bayesm
-	sci-CRAN/mlbench
-	sci-CRAN/mlogit
 	sci-CRAN/cvTools
+	sci-CRAN/bayesm
+	sci-CRAN/mlogit
+	sci-CRAN/mlbench
 "
 RDEPEND="${DEPEND-}"

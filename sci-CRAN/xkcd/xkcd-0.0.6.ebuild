@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/xkcd_0.0.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/ggplot2-3.0
-	sci-CRAN/extrafont
 	sci-CRAN/Hmisc
+	sci-CRAN/extrafont
 "
 RDEPEND="${DEPEND-}"

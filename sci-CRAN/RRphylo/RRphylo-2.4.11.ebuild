@@ -46,12 +46,12 @@ R_SUGGESTS="
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/phytools
-	sci-CRAN/ape
 	sci-CRAN/geiger
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
 	>=sci-CRAN/emmeans-1.4.3
+	sci-CRAN/ape
+	sci-CRAN/phytools
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

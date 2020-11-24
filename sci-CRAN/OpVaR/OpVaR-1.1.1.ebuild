@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/VineCopula
+	sci-CRAN/actuar
+	sci-CRAN/tea
 	sci-CRAN/ReIns
 	sci-CRAN/truncnorm
-	sci-CRAN/tea
-	sci-CRAN/actuar
 	virtual/MASS
 	sci-CRAN/pracma
 	sci-CRAN/evmix

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 "
 DEPEND="sci-CRAN/Rdpack
-	sci-CRAN/tidyr
-	sci-CRAN/knitr
-	sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/randomNames
+	sci-CRAN/dplyr
+	sci-CRAN/tidyr
+	sci-CRAN/knitr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

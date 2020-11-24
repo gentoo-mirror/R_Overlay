@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/RTOMO_1.1-6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.12
-	sci-CRAN/splancs
-	sci-CRAN/RPMG
-	sci-CRAN/GEOmap
 	sci-CRAN/RSEIS
+	sci-CRAN/splancs
+	sci-CRAN/GEOmap
+	sci-CRAN/RPMG
 "
 RDEPEND="${DEPEND-}"

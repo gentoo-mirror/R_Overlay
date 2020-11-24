@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/BAMMtools dev-lang/R[tk] sci-CRAN/reshape2 sci-CRAN/rlist sci-CRAN/rlang dev-lang/R
+DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/dplyr dev-lang/R[tk] sci-CRAN/BAMMtools sci-CRAN/reshape2 sci-CRAN/rlist sci-CRAN/rlang dev-lang/R
 DESCRIPTION=Optimized Elo Rating Method for ... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/BAMMtools dev-lang/R[tk] sci-CRAN/reshape2 sci-CRAN/rlist sci-CRAN/rlang dev-lang/R
+RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/dplyr dev-lang/R[tk] sci-CRAN/BAMMtools sci-CRAN/reshape2 sci-CRAN/rlist sci-CRAN/rlang dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/EloOptimized_0.3.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=6d682f37051c868a0dceb1ee837b5289
+_md5_=c05976e560a0fb6b1cc7ded82ad7248e

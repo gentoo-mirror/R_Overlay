@@ -12,11 +12,11 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_caret"
 R_SUGGESTS="r_suggests_caret? ( >=sci-CRAN/caret-6.0.22 )"
-DEPEND="sci-CRAN/reshape2
-	virtual/lattice
-	virtual/MASS
+DEPEND="virtual/MASS
+	sci-CRAN/reshape2
+	sci-CRAN/ellipse
 	sci-CRAN/CORElearn
 	sci-CRAN/plyr
-	sci-CRAN/ellipse
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

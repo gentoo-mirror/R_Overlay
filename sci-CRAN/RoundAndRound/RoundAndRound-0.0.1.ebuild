@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RoundAndRound_0.0.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/geometry
 	sci-CRAN/rgl
-	sci-CRAN/geometry
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}"

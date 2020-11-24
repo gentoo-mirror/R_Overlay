@@ -58,14 +58,14 @@ R_SUGGESTS="
 	r_suggests_variables? ( sci-CRAN/variables )
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
-DEPEND=">=sci-CRAN/mlt-1.0.5
-	sci-CRAN/numDeriv
+DEPEND="sci-CRAN/numDeriv
+	sci-CRAN/truncreg
+	virtual/survival
+	>=sci-CRAN/mlt-1.0.5
+	sci-CRAN/eha
 	>=sci-CRAN/multcomp-1.4.4
 	virtual/lattice
-	sci-CRAN/eha
-	sci-CRAN/truncreg
-	sci-CRAN/np
-	virtual/survival
 	sci-CRAN/flexsurv
+	sci-CRAN/np
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/klausuR_0.12-10.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/psychometric
-	sci-CRAN/xtable
+DEPEND="sci-CRAN/xtable
 	sci-CRAN/polycor
+	sci-CRAN/psychometric
 "
 RDEPEND="${DEPEND-}"

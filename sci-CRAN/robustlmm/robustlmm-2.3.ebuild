@@ -15,22 +15,22 @@ R_SUGGESTS="
 	r_suggests_digest? ( sci-CRAN/digest )
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 "
-DEPEND="virtual/Matrix
+DEPEND=">=sci-CRAN/lme4-1.1.9
+	virtual/nlme
+	virtual/Matrix
+	sci-CRAN/ggplot2
+	virtual/lattice
 	>=dev-lang/R-3.2.0
 	>=sci-CRAN/robustbase-0.93
-	sci-CRAN/ggplot2
-	virtual/nlme
-	>=sci-CRAN/Rcpp-0.12.2
-	>=sci-CRAN/lme4-1.1.9
-	virtual/lattice
 	sci-CRAN/xtable
+	>=sci-CRAN/Rcpp-0.12.2
 	sci-CRAN/fastGHQuad
 "
 RDEPEND="${DEPEND-}
-	>sci-CRAN/cubature-1.3.8
 	sci-CRAN/Rcpp
 	sci-CRAN/robustbase
 	sci-CRAN/RcppEigen
+	>sci-CRAN/cubature-1.3.8
 	${R_SUGGESTS-}
 "
 

@@ -23,25 +23,25 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/adegenet
-	sci-CRAN/adephylo
-	sci-CRAN/phangorn
-	>=dev-lang/R-3.4.0
-	sci-CRAN/ape
-	sci-CRAN/adegraphics
-	sci-CRAN/combinat
-	sci-CRAN/RLumShiny
-	sci-CRAN/scatterD3
-	sci-CRAN/shinyBS
-	sci-CRAN/ade4
-	sci-CRAN/htmlwidgets
-	sci-CRAN/phytools
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/rgl
-	sci-CRAN/shiny
-	sci-CRAN/fields
-	virtual/MASS
+	sci-CRAN/phytools
+	sci-CRAN/shinyBS
+	sci-CRAN/adegraphics
+	sci-CRAN/ade4
+	sci-CRAN/ape
+	sci-CRAN/combinat
 	sci-CRAN/distory
+	sci-CRAN/htmlwidgets
+	sci-CRAN/RLumShiny
+	virtual/MASS
+	sci-CRAN/phangorn
 	sci-CRAN/Rcpp
+	>=dev-lang/R-3.4.0
+	sci-CRAN/adegenet
+	sci-CRAN/fields
+	sci-CRAN/scatterD3
+	sci-CRAN/adephylo
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

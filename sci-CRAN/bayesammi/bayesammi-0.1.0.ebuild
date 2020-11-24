@@ -11,17 +11,17 @@ SRC_URI="http://cran.r-project.org/src/contrib/bayesammi_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/rlang
 	sci-CRAN/mvtnorm
 	sci-CRAN/dplyr
+	virtual/MASS
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
 	sci-CRAN/rstiefel
 	sci-CRAN/scales
 	sci-CRAN/tibble
-	sci-CRAN/tidyr
 	sci-CRAN/tmvtnorm
 	sci-CRAN/ggplot2
-	sci-CRAN/magrittr
 	sci-CRAN/lme4
-	virtual/MASS
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

@@ -21,15 +21,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/graph
-	sci-CRAN/knitr
-	sci-CRAN/stringdist
+DEPEND=">=dev-lang/R-3.5.0
+	sci-BIOC/graph
 	>=sci-BIOC/biocViews-1.33.7
-	>=dev-lang/R-3.5.0
-	sci-CRAN/BiocManager
 	sci-CRAN/httr
+	sci-CRAN/BiocManager
+	sci-CRAN/stringdist
 	sci-CRAN/optparse
 	virtual/codetools
+	sci-CRAN/knitr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

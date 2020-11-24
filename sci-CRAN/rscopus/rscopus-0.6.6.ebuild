@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/dplyr
 	sci-CRAN/tidyr
-	sci-CRAN/plyr
-	sci-CRAN/httr
-	sci-CRAN/glue
 	sci-CRAN/jsonlite
+	sci-CRAN/httr
+	sci-CRAN/plyr
+	sci-CRAN/dplyr
+	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

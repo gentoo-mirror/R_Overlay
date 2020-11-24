@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/data_table
 	sci-CRAN/stringr
-	sci-CRAN/plyr
 	>=dev-lang/R-3.5
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

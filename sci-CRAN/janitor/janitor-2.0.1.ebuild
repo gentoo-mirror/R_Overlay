@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 	r_suggests_tidygraph? ( sci-CRAN/tidygraph )
 "
-DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/lubridate
-	>=sci-CRAN/dplyr-0.7.0
-	sci-CRAN/magrittr
-	sci-CRAN/lifecycle
-	sci-CRAN/rlang
-	sci-CRAN/stringi
-	>=sci-CRAN/snakecase-0.9.2
+DEPEND="sci-CRAN/lifecycle
 	>=sci-CRAN/tidyselect-1.0.0
+	>=sci-CRAN/snakecase-0.9.2
+	sci-CRAN/stringi
+	>=sci-CRAN/dplyr-0.7.0
+	>=dev-lang/R-3.1.2
+	sci-CRAN/lubridate
+	sci-CRAN/magrittr
 	sci-CRAN/purrr
+	sci-CRAN/rlang
 	sci-CRAN/stringr
 	>=sci-CRAN/tidyr-0.7.0
 "

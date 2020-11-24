@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/numDeriv
+DEPEND="sci-CRAN/maxLik
+	>=sci-CRAN/stringr-1.3.1
+	sci-CRAN/numDeriv
+	sci-CRAN/sandwich
+	sci-CRAN/readr
 	>=sci-CRAN/Rcpp-0.12.19
 	sci-CRAN/randtoolbox
-	sci-CRAN/maxLik
-	sci-CRAN/readr
-	sci-CRAN/sandwich
-	>=sci-CRAN/stringr-1.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

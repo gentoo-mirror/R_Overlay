@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_lattice? ( virtual/lattice )
 "
-DEPEND="sci-CRAN/lme4
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/Rdta_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/MCMCpack-1.4.4
-	sci-CRAN/Rdpack
 	>=sci-CRAN/mvtnorm-1.0.11
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-}"

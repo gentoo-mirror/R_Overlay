@@ -13,9 +13,9 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND="sci-CRAN/ape
-	sci-CRAN/deSolve
 	sci-CRAN/coda
 	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/deSolve
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

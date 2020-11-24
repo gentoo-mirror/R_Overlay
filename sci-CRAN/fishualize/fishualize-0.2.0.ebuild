@@ -20,17 +20,17 @@ R_SUGGESTS="
 	r_suggests_rnaturalearth? ( sci-CRAN/rnaturalearth )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/httr
-	sci-CRAN/downloader
-	>=sci-CRAN/ggplot2-1.0.1
-	sci-CRAN/png
+DEPEND="sci-CRAN/png
 	sci-CRAN/magrittr
+	sci-CRAN/tidyr
+	>=sci-CRAN/ggplot2-1.0.1
+	sci-CRAN/gridExtra
+	sci-CRAN/rlang
+	sci-CRAN/downloader
+	sci-CRAN/httr
 	sci-CRAN/stringr
 	sci-CRAN/dplyr
-	sci-CRAN/tidyr
 	sci-CRAN/scales
-	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

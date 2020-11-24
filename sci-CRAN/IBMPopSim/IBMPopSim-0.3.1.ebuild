@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/readr
+	sci-CRAN/rlang
+	sci-CRAN/checkmate
+	>=sci-CRAN/Rcpp-0.12
 	sci-CRAN/tidyr
+	>=sci-CRAN/dplyr-0.8.0
 	sci-CRAN/reshape
 	sci-CRAN/purrr
-	sci-CRAN/rlang
-	>=dev-lang/R-3.5.0
-	sci-CRAN/checkmate
-	sci-CRAN/readr
-	>=sci-CRAN/dplyr-0.8.0
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

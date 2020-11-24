@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/IQCC_0.7.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.4.2
-	sci-CRAN/qcc
-	virtual/MASS
 	sci-CRAN/miscTools
+	virtual/MASS
+	sci-CRAN/qcc
 "
 RDEPEND="${DEPEND-}"

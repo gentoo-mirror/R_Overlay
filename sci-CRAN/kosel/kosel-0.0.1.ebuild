@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/kosel_0.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ordinalNet
-	sci-CRAN/glmnet
+DEPEND="sci-CRAN/glmnet
+	sci-CRAN/ordinalNet
 "
 RDEPEND="${DEPEND-}"

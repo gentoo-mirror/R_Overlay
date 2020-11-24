@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mets"
 R_SUGGESTS="r_suggests_mets? ( sci-CRAN/mets )"
-DEPEND="virtual/survival
+DEPEND=">=dev-lang/R-2.15
+	virtual/survival
 	sci-CRAN/numDeriv
 	sci-CRAN/lava
-	>=dev-lang/R-2.15
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rvkstat_2.6.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/httr
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/tidyr
-	>=dev-lang/R-3.5.0
 	sci-CRAN/RCurl
+	sci-CRAN/httr
 	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/plot3D
-	sci-CRAN/rdist
-	sci-CRAN/pracma
+	virtual/Matrix
 	sci-CRAN/gplots
 	sci-CRAN/tseriesChaos
-	virtual/Matrix
 	sci-CRAN/FSA
+	sci-CRAN/pracma
+	sci-CRAN/rdist
 "
 RDEPEND="${DEPEND-}"

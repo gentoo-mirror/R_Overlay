@@ -12,16 +12,16 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_ggplot2"
 R_SUGGESTS="r_suggests_ggplot2? ( sci-CRAN/ggplot2 )"
-DEPEND="sci-BIOC/Biobase
-	sci-BIOC/prada
-	sci-BIOC/Category
-	sci-CRAN/locfit
-	sci-BIOC/GSEABase
-	sci-BIOC/BiocGenerics
-	sci-CRAN/RColorBrewer
-	sci-BIOC/genefilter
+DEPEND="sci-CRAN/RColorBrewer
 	sci-BIOC/splots
+	sci-BIOC/genefilter
+	sci-CRAN/locfit
+	sci-BIOC/Biobase
+	sci-BIOC/GSEABase
+	sci-BIOC/Category
 	sci-BIOC/vsn
 	sci-CRAN/hwriter
+	sci-BIOC/prada
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

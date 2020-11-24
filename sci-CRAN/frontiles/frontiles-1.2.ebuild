@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_ggplot2"
 R_SUGGESTS="r_suggests_ggplot2? ( sci-CRAN/ggplot2 )"
-DEPEND="sci-CRAN/colorspace
-	sci-CRAN/sp
+DEPEND="sci-CRAN/rgl
 	virtual/class
-	sci-CRAN/rgl
+	sci-CRAN/sp
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

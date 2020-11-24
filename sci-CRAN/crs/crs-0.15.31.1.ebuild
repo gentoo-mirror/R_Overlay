@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_logspline? ( sci-CRAN/logspline )
 	r_suggests_quadprog? ( sci-CRAN/quadprog )
 "
-DEPEND="sci-CRAN/quantreg
-	sci-CRAN/np
-	sci-CRAN/rgl
+DEPEND="sci-CRAN/np
 	virtual/boot
+	sci-CRAN/rgl
+	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

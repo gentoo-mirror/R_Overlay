@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_mvtnorm"
 R_SUGGESTS="r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )"
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/pcaPP
 	sci-CRAN/robustbase
 	virtual/MASS
+	sci-CRAN/pcaPP
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.10.5

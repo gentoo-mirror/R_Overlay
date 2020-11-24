@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6
+	sci-CRAN/statmod
 	virtual/MASS
 	virtual/survival
-	virtual/nlme
 	virtual/lattice
-	sci-CRAN/statmod
+	virtual/nlme
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

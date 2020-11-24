@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/econetwork_0.4.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/blockmodels
-	sci-CRAN/bipartite
 	sci-CRAN/rdiversity
-	sci-CRAN/igraph
+	sci-CRAN/bipartite
 	virtual/Matrix
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

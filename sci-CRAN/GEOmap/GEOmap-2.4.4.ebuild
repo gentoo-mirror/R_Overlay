@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_maps? ( sci-CRAN/maps )
 	r_suggests_rfoc? ( sci-CRAN/RFOC )
 "
-DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/MBA
+DEPEND="sci-CRAN/MBA
+	>=dev-lang/R-3.0
 	sci-CRAN/fields
-	sci-CRAN/RPMG
 	sci-CRAN/splancs
+	sci-CRAN/RPMG
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

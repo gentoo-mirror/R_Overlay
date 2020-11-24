@@ -13,7 +13,7 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_cluster"
 R_SUGGESTS="r_suggests_cluster? ( virtual/cluster )"
 DEPEND=">=dev-lang/R-2.10.1
-	sci-CRAN/mvtnorm
 	virtual/survival
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

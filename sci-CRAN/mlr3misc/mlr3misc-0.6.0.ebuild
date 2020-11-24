@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_paradox? ( sci-CRAN/paradox )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/checkmate
-	sci-CRAN/data_table
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/R6
-	>=dev-lang/R-3.1.0
+	sci-CRAN/data_table
 	>=sci-CRAN/backports-0.1.5
+	sci-CRAN/checkmate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vardpoor_0.20.0.tar.gz"
 LICENSE='EUPL-1.1'
 
-DEPEND=">=sci-CRAN/data_table-1.12.6
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.2.3
+	>=sci-CRAN/data_table-1.12.6
 	sci-CRAN/foreach
 	sci-CRAN/stringr
-	>=dev-lang/R-3.2.3
+	virtual/MASS
 	sci-CRAN/surveyplanning
 	sci-CRAN/laeken
 "

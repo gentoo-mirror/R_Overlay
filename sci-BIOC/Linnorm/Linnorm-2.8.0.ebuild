@@ -22,25 +22,25 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	virtual/cluster
-	sci-CRAN/ellipse
-	sci-CRAN/fpc
-	>=sci-CRAN/Rcpp-0.12.2
-	sci-CRAN/mclust
-	sci-CRAN/ggdendro
+DEPEND="sci-CRAN/ellipse
 	sci-CRAN/amap
-	virtual/cluster
-	sci-CRAN/ggplot2
-	sci-BIOC/limma
-	sci-CRAN/statmod
 	sci-CRAN/igraph
-	>=dev-lang/R-3.4
-	>=sci-CRAN/RcppArmadillo-0.8.100.1.0
-	sci-CRAN/vegan
-	sci-CRAN/zoo
+	sci-BIOC/limma
 	sci-CRAN/Rtsne
+	>=sci-CRAN/Rcpp-0.12.2
+	>=sci-CRAN/RcppArmadillo-0.8.100.1.0
+	virtual/cluster
+	virtual/cluster
+	sci-CRAN/fpc
+	sci-CRAN/statmod
+	sci-CRAN/zoo
+	sci-CRAN/ggplot2
+	virtual/MASS
+	sci-CRAN/ggdendro
 	sci-CRAN/gmodels
+	sci-CRAN/vegan
+	>=dev-lang/R-3.4
+	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

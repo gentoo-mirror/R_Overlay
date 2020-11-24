@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/sp
-	virtual/MASS
-	sci-CRAN/maptools
 	sci-CRAN/rgeos
+	virtual/MASS
 	sci-CRAN/ggplot2
+	sci-CRAN/maptools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

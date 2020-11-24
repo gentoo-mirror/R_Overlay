@@ -18,22 +18,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/purrr
-	virtual/cluster
-	sci-CRAN/qgraph
-	sci-CRAN/ggplot2
-	sci-CRAN/philentropy
-	sci-CRAN/Rmisc
-	sci-CRAN/corrplot
-	sci-CRAN/rlang
-	sci-CRAN/vegan
-	sci-CRAN/withr
-	sci-CRAN/vegclust
+DEPEND="sci-CRAN/rlang
 	sci-CRAN/colorspace
 	sci-CRAN/e1071
-	sci-CRAN/igraph
-	sci-CRAN/reshape
+	virtual/cluster
+	sci-CRAN/corrplot
+	sci-CRAN/vegan
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
+	sci-CRAN/philentropy
 	sci-CRAN/plyr
+	sci-CRAN/withr
+	sci-CRAN/vegclust
+	sci-CRAN/igraph
+	sci-CRAN/Rmisc
+	sci-CRAN/purrr
+	sci-CRAN/reshape
+	sci-CRAN/qgraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2
+	sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/lazyeval
-	sci-CRAN/dplyr
 	sci-CRAN/rlang
 	sci-CRAN/rstudioapi
 "

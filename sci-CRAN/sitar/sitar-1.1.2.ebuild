@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/rlang
 	sci-CRAN/purrr
 	sci-CRAN/glue
-	sci-CRAN/rlang
 	sci-CRAN/dplyr
 	sci-CRAN/rsample
 	sci-CRAN/tibble

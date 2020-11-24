@@ -60,10 +60,10 @@ R_SUGGESTS="
 	r_suggests_varimp? ( sci-CRAN/varImp )
 "
 DEPEND=">=sci-CRAN/ggplot2-0.9.0
-	sci-CRAN/tibble
-	sci-CRAN/gridExtra
 	sci-CRAN/plyr
 	sci-CRAN/magrittr
+	sci-CRAN/gridExtra
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

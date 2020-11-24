@@ -10,18 +10,18 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RobMixReg_1.1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/flexmix
-	sci-CRAN/robust
-	sci-CRAN/robustbase
-	sci-CRAN/gplots
-	sci-CRAN/dplyr
-	sci-CRAN/RColorBrewer
-	>=dev-lang/R-3.5.0
-	sci-CRAN/gtools
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/lars
-	sci-CRAN/rlang
 	sci-CRAN/scales
+	sci-CRAN/rlang
+	sci-CRAN/dplyr
+	sci-CRAN/gplots
+	sci-CRAN/RColorBrewer
 	sci-CRAN/glmnet
+	>=dev-lang/R-3.5.0
+	sci-CRAN/robustbase
+	sci-CRAN/gtools
+	sci-CRAN/flexmix
+	sci-CRAN/robust
 "
 RDEPEND="${DEPEND-}"

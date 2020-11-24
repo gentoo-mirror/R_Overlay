@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/rust-1.2.2
 	>=sci-CRAN/bayesplot-1.1.0
+	>=sci-CRAN/rust-1.2.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

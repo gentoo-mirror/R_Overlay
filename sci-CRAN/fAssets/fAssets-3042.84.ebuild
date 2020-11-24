@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_mnormt? ( sci-CRAN/mnormt )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/fMultivar
-	sci-CRAN/sn
-	sci-CRAN/robustbase
-	sci-CRAN/timeSeries
-	>=dev-lang/R-2.15.1
-	sci-CRAN/fBasics
-	sci-CRAN/timeDate
-	virtual/MASS
+DEPEND="sci-CRAN/sn
 	sci-CRAN/ecodist
-	sci-CRAN/mvnormtest
 	sci-CRAN/energy
+	sci-CRAN/mvnormtest
+	>=dev-lang/R-2.15.1
+	sci-CRAN/timeDate
+	sci-CRAN/timeSeries
+	sci-CRAN/fBasics
+	sci-CRAN/fMultivar
+	sci-CRAN/robustbase
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

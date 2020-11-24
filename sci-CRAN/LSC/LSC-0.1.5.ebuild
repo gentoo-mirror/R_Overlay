@@ -13,8 +13,8 @@ LICENSE='GPL-2'
 DEPEND="virtual/Matrix
 	sci-CRAN/fields
 	>=dev-lang/R-2.12.1
+	sci-CRAN/LICORS
 	sci-CRAN/gam
 	sci-CRAN/RColorBrewer
-	sci-CRAN/LICORS
 "
 RDEPEND="${DEPEND-}"

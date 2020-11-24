@@ -35,8 +35,8 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND=">=dev-lang/R-3.1.1
-	>=sci-CRAN/httr-1.2.0
-	>=sci-CRAN/jsonlite-1.0
 	>=sci-CRAN/yaml-2.1.13
+	>=sci-CRAN/jsonlite-1.0
+	>=sci-CRAN/httr-1.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

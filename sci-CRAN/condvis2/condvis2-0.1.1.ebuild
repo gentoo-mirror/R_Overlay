@@ -44,13 +44,13 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/DendSer
 	sci-CRAN/colorspace
-	sci-CRAN/shiny
-	virtual/cluster
-	sci-CRAN/scales
-	sci-CRAN/ggplot2
-	sci-CRAN/RColorBrewer
 	sci-CRAN/plyr
 	sci-CRAN/gower
+	sci-CRAN/shiny
+	sci-CRAN/scales
+	virtual/cluster
+	sci-CRAN/ggplot2
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

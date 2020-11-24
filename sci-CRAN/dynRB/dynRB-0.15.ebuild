@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	virtual/foreign
-	sci-CRAN/vegan
-	sci-CRAN/dplyr
-	sci-CRAN/corrplot
+DEPEND="sci-CRAN/vegan
 	sci-CRAN/RColorBrewer
+	virtual/foreign
+	sci-CRAN/ggplot2
+	sci-CRAN/corrplot
 	sci-CRAN/reshape2
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_xaringan? ( sci-CRAN/xaringan )
 "
 DEPEND=">=sci-CRAN/rmarkdown-1.16
+	>=sci-CRAN/later-1.0.0
+	sci-CRAN/jsonlite
 	sci-CRAN/htmltools
+	>=sci-CRAN/bookdown-0.8
+	sci-CRAN/processx
+	>=sci-CRAN/servr-0.18
+	sci-CRAN/httpuv
 	sci-CRAN/xfun
 	sci-CRAN/websocket
-	>=sci-CRAN/servr-0.18
-	sci-CRAN/jsonlite
-	>=sci-CRAN/bookdown-0.8
-	>=sci-CRAN/later-1.0.0
-	sci-CRAN/processx
-	sci-CRAN/httpuv
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

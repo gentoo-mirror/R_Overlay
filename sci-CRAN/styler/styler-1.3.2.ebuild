@@ -24,16 +24,16 @@ R_SUGGESTS="
 	r_suggests_rstudioapi? ( >=sci-CRAN/rstudioapi-0.7 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/R_cache-0.14.0
-	>=sci-CRAN/tibble-1.4.2
-	>=sci-CRAN/cli-1.1.0
-	>=sci-CRAN/rprojroot-1.1
-	>=sci-CRAN/purrr-0.2.3
+DEPEND=">=sci-CRAN/rprojroot-1.1
 	>=sci-CRAN/xfun-0.1
+	>=sci-CRAN/withr-1.0.0
+	>=sci-CRAN/tibble-1.4.2
 	>=sci-CRAN/backports-1.1.0
+	>=sci-CRAN/R_cache-0.14.0
+	>=sci-CRAN/purrr-0.2.3
 	>=sci-CRAN/magrittr-1.0.1
+	>=sci-CRAN/cli-1.1.0
 	>=sci-CRAN/rematch2-2.0.1
 	>=sci-CRAN/rlang-0.1.1
-	>=sci-CRAN/withr-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND="sci-CRAN/mefa4
-	sci-CRAN/pbapply
+DEPEND="sci-CRAN/intrval
 	virtual/MASS
-	sci-CRAN/intrval
+	sci-CRAN/pbapply
 	sci-CRAN/deldir
+	sci-CRAN/mefa4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

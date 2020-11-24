@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/HCD_0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/randnet
+	sci-CRAN/data_tree
 	sci-CRAN/dendextend
-	sci-CRAN/data_table
 	sci-CRAN/irlba
 	virtual/Matrix
 	sci-CRAN/RSpectra
-	sci-CRAN/data_tree
+	sci-CRAN/data_table
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

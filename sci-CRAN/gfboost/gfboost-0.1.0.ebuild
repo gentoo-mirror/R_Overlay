@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/mboost
 	sci-CRAN/pcaPP
+	sci-CRAN/mboost
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

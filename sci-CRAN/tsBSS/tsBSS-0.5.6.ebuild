@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_stochvol? ( sci-CRAN/stochvol )
 	r_suggests_tsbox? ( sci-CRAN/tsbox )
 "
-DEPEND="sci-CRAN/xts
-	sci-CRAN/zoo
-	>=sci-CRAN/ICtest-0.3.2
+DEPEND="virtual/boot
 	>=sci-CRAN/JADE-2.0.2
 	sci-CRAN/forecast
-	virtual/boot
+	>=sci-CRAN/ICtest-0.3.2
 	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/xts
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

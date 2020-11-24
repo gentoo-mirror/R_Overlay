@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rasclass_0.2.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/nnet
-	sci-CRAN/car
-	sci-CRAN/e1071
-	sci-CRAN/RSNNS
+DEPEND="sci-CRAN/e1071
 	sci-CRAN/randomForest
+	sci-CRAN/RSNNS
+	virtual/nnet
+	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}"

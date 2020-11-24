@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/fabMix_5.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	sci-CRAN/doParallel
+DEPEND=">=sci-CRAN/Rcpp-0.12.17
+	sci-CRAN/mclust
 	sci-CRAN/label_switching
-	>=sci-CRAN/Rcpp-0.12.17
+	sci-CRAN/coda
+	virtual/MASS
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 	sci-CRAN/mvtnorm
 	sci-CRAN/RColorBrewer
 	sci-CRAN/corrplot
-	sci-CRAN/mclust
-	sci-CRAN/coda
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}

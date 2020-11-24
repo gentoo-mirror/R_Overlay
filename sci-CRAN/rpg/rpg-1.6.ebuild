@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_hflights? ( >=sci-CRAN/hflights-0.1 )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/getPass-0.1.0
 	>=sci-CRAN/uuid-0.1.1
-	>=sci-CRAN/RApiSerialize-0.1.0
 	>=sci-CRAN/Rcpp-0.11.1
+	>=sci-CRAN/getPass-0.1.0
+	>=sci-CRAN/RApiSerialize-0.1.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
 DEPEND="sci-CRAN/rlang
-	sci-CRAN/stringi
 	sci-CRAN/logger
+	sci-CRAN/stringi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

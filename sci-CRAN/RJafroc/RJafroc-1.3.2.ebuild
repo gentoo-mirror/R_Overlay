@@ -12,16 +12,16 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_rmarkdown"
 R_SUGGESTS="r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )"
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/binom
+	sci-CRAN/stringr
 	sci-CRAN/dplyr
-	sci-CRAN/binom
-	sci-CRAN/ggplot2
-	sci-CRAN/openxlsx
 	sci-CRAN/bbmle
+	sci-CRAN/openxlsx
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
+	sci-CRAN/mvtnorm
 	sci-CRAN/numDeriv
 	sci-CRAN/Rcpp
-	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

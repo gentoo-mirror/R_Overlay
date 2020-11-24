@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/Rcpp-1.0.3
-	sci-CRAN/data_table
+DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-1.0.3
 	sci-CRAN/dplyr
 	sci-CRAN/hsphase
-	>=dev-lang/R-3.5.0
 	sci-CRAN/rlist
 	sci-CRAN/quadprog
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

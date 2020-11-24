@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/e1071
-	sci-CRAN/caret
 	sci-CRAN/doParallel
 	sci-CRAN/ggplot2
+	sci-CRAN/caret
 	sci-CRAN/foreach
 	virtual/MASS
+	sci-CRAN/stringr
 	sci-CRAN/tree
 	sci-CRAN/randomForest
 	sci-CRAN/reshape2
-	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/fMultivar sci-CRAN/sn sci-CRAN/robustbase sci-CRAN/timeSeries >=dev-lang/R-2.15.1 sci-CRAN/fBasics sci-CRAN/timeDate virtual/MASS sci-CRAN/ecodist sci-CRAN/mvnormtest sci-CRAN/energy dev-lang/R
+DEPEND=sci-CRAN/sn sci-CRAN/ecodist sci-CRAN/energy sci-CRAN/mvnormtest >=dev-lang/R-2.15.1 sci-CRAN/timeDate sci-CRAN/timeSeries sci-CRAN/fBasics sci-CRAN/fMultivar sci-CRAN/robustbase virtual/MASS dev-lang/R
 DESCRIPTION=Rmetrics - Analysing and Modelli... (see metadata)
 EAPI=7
 IUSE=r_suggests_mnormt r_suggests_runit byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=sci-CRAN/fMultivar sci-CRAN/sn sci-CRAN/robustbase sci-CRAN/timeSeries >=dev-lang/R-2.15.1 sci-CRAN/fBasics sci-CRAN/timeDate virtual/MASS sci-CRAN/ecodist sci-CRAN/mvnormtest sci-CRAN/energy r_suggests_mnormt? ( sci-CRAN/mnormt ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+RDEPEND=sci-CRAN/sn sci-CRAN/ecodist sci-CRAN/energy sci-CRAN/mvnormtest >=dev-lang/R-2.15.1 sci-CRAN/timeDate sci-CRAN/timeSeries sci-CRAN/fBasics sci-CRAN/fMultivar sci-CRAN/robustbase virtual/MASS r_suggests_mnormt? ( sci-CRAN/mnormt ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/fAssets_3042.84.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=315ecff47310a4ed0dabb1b517b2cc51
+_md5_=bb1b747a5903d8d8e02302742bc04b2a

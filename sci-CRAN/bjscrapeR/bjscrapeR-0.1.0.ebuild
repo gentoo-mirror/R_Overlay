@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/bjscrapeR_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/glue
 	sci-CRAN/dplyr
 	sci-CRAN/readr
-	sci-CRAN/glue
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}"

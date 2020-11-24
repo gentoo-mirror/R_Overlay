@@ -14,10 +14,10 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/beanplot
 	sci-CRAN/stringr
+	>=dev-lang/R-3.0.0
 	sci-CRAN/pdist
 	sci-CRAN/gplots
-	sci-CRAN/beanplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

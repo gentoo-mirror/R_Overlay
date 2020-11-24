@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_printr? ( sci-CRAN/printr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/zoo
+DEPEND="sci-CRAN/TTR
 	sci-CRAN/quantmod
+	sci-CRAN/zoo
 	sci-CRAN/rbenchmark
-	sci-CRAN/Hmisc
 	sci-CRAN/dvmisc
+	sci-CRAN/Hmisc
 	sci-CRAN/lubridate
 	sci-CRAN/RColorBrewer
 	>=sci-CRAN/Rcpp-0.12.15
-	sci-CRAN/TTR
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

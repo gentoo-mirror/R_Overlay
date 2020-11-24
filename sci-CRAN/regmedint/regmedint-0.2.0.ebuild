@@ -31,10 +31,10 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
 DEPEND="virtual/Matrix
-	sci-CRAN/sandwich
-	sci-CRAN/Deriv
+	virtual/survival
 	virtual/MASS
 	sci-CRAN/assertthat
-	virtual/survival
+	sci-CRAN/Deriv
+	sci-CRAN/sandwich
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

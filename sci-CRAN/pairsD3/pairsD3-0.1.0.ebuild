@@ -13,7 +13,7 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/shiny
 	>=sci-CRAN/htmlwidgets-0.3.2
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

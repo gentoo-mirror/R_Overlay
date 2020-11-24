@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_paramhelpers? ( sci-CRAN/ParamHelpers )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rJava
-	sci-CRAN/plyr
-	>=dev-lang/R-4.0
-	>=sci-CRAN/mlr-2.5
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-4.0
 	sci-CRAN/parallelMap
+	sci-CRAN/ggplot2
+	sci-CRAN/rJava
+	>=sci-CRAN/mlr-2.5
 	sci-CRAN/checkmate
 	sci-CRAN/BBmisc
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

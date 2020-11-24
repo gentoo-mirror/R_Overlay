@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 )
 "
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/R6-2.1.1
 	>=sci-CRAN/assertthat-0.1
+	>=sci-CRAN/R6-2.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

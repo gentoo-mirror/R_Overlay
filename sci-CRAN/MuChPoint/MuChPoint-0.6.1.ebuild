@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MuChPoint_0.6.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/shiny
-	virtual/Matrix
-	sci-CRAN/Rcpp
+DEPEND="virtual/Matrix
 	sci-CRAN/capushe
+	sci-CRAN/Rcpp
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

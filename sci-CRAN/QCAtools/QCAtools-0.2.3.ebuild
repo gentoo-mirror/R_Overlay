@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/QCAtools_0.2.3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/directlabels-2013.6.15
-	>=sci-CRAN/stringr-0.6.2
-	>=sci-CRAN/QCA-2.5
+DEPEND=">=sci-CRAN/stringr-0.6.2
 	>=sci-CRAN/ggplot2-0.9.3.1
+	>=dev-lang/R-3.1.0
+	>=sci-CRAN/QCA-2.5
+	>=sci-CRAN/directlabels-2013.6.15
 "
 RDEPEND="${DEPEND-}"

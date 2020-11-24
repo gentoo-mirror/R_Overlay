@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_fields? ( sci-CRAN/fields )
 	r_suggests_maps? ( sci-CRAN/maps )
 "
-DEPEND="sci-CRAN/evd
-	sci-CRAN/chron
+DEPEND="sci-CRAN/chron
+	sci-CRAN/evd
 	sci-CRAN/ensembleBMA
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

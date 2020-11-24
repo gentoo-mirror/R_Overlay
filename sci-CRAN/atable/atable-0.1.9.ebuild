@@ -21,12 +21,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/doBy-4.6
+	>=sci-CRAN/reshape2-1.4.3
+	>=sci-CRAN/plyr-1.8.4
+	>=dev-lang/R-3.5
+	>=sci-CRAN/Hmisc-4.1
 	>=sci-CRAN/settings-0.2.4
 	>=sci-CRAN/DescTools-0.99.24
-	>=sci-CRAN/Hmisc-4.1
-	>=sci-CRAN/reshape2-1.4.3
 	>=sci-CRAN/effsize-0.7.1
-	>=dev-lang/R-3.5
-	>=sci-CRAN/plyr-1.8.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

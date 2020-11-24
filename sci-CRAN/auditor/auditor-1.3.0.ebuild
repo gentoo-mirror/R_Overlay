@@ -26,9 +26,9 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/hnp
 	sci-CRAN/DALEX
-	sci-CRAN/gridExtra
 	sci-CRAN/ggrepel
-	sci-CRAN/scales
 	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/BRISC_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.0
-	virtual/Matrix
-	sci-CRAN/RANN
 	sci-CRAN/pbapply
+	virtual/Matrix
 	sci-CRAN/rdist
+	sci-CRAN/RANN
 "
 RDEPEND="${DEPEND-}"

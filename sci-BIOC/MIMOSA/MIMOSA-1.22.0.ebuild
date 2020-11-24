@@ -12,20 +12,20 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/Formula
-	sci-CRAN/ggplot2
-	sci-BIOC/Biobase
-	sci-CRAN/reshape
-	sci-CRAN/data_table
-	sci-CRAN/pracma
-	sci-CRAN/MCMCpack
-	sci-CRAN/coda
-	sci-CRAN/modeest
-	>=dev-lang/R-3.0.2
+DEPEND=">=dev-lang/R-3.0.2
 	virtual/MASS
+	sci-CRAN/Formula
+	sci-CRAN/pracma
+	sci-CRAN/data_table
+	sci-CRAN/coda
 	sci-CRAN/testthat
 	sci-CRAN/Rcpp
+	sci-BIOC/Biobase
+	sci-CRAN/plyr
+	sci-CRAN/reshape
+	sci-CRAN/ggplot2
+	sci-CRAN/MCMCpack
+	sci-CRAN/modeest
 	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}

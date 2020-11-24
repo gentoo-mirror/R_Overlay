@@ -19,23 +19,23 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/scales
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/clue
-	sci-CRAN/plyr
-	sci-CRAN/knitr
-	sci-CRAN/dplyr
+	sci-CRAN/data_table
 	sci-BIOC/BiocStyle
-	sci-CRAN/rmarkdown
-	sci-CRAN/RColorBrewer
-	sci-CRAN/reshape2
-	>=dev-lang/R-3.0.3
+	sci-CRAN/scales
+	sci-CRAN/plyr
 	sci-CRAN/abind
-	sci-CRAN/rlang
-	sci-CRAN/pdist
 	sci-CRAN/magrittr
+	sci-CRAN/rlang
+	sci-CRAN/dplyr
+	>=dev-lang/R-3.0.3
+	sci-CRAN/knitr
+	sci-CRAN/Rcpp
+	sci-CRAN/reshape2
+	sci-CRAN/pdist
 	sci-CRAN/tidyr
+	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.0

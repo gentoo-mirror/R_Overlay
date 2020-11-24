@@ -22,14 +22,14 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/desc
-	sci-CRAN/roxygen2
-	sci-CRAN/withr
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/rcmdcheck
+	sci-CRAN/desc
 	sci-CRAN/callr
 	sci-CRAN/checkmate
+	sci-CRAN/roxygen2
 	sci-CRAN/rstudioapi
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

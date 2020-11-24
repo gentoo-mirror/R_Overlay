@@ -17,10 +17,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.3
 	sci-CRAN/lavaan
-	sci-CRAN/sandwich
+	sci-CRAN/nonnest2
 	virtual/Matrix
 	>=sci-CRAN/lme4-1.1.10
-	sci-CRAN/nonnest2
 	sci-CRAN/numDeriv
+	sci-CRAN/sandwich
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

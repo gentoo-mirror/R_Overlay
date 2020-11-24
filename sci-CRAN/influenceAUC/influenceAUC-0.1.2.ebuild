@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/influenceAUC_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/geigen
-	sci-CRAN/ggrepel
+DEPEND="sci-CRAN/ggrepel
 	sci-CRAN/ROCR
 	sci-CRAN/ggplot2
+	sci-CRAN/geigen
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

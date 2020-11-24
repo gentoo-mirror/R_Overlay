@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 )
 "
-DEPEND="virtual/lattice
-	sci-CRAN/R_matlab
+DEPEND="virtual/boot
+	sci-CRAN/R_methodsS3
 	virtual/mgcv
 	sci-CRAN/digest
+	virtual/lattice
 	>=dev-lang/R-3.1.2
-	virtual/boot
-	sci-CRAN/R_methodsS3
+	sci-CRAN/R_matlab
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

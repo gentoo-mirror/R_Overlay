@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/faraway_1.0.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/lme4
-	virtual/nlme
+DEPEND="virtual/nlme
+	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/MEDME_1.44.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/Biostrings
+DEPEND=">=dev-lang/R-2.15
 	sci-CRAN/drc
-	>=dev-lang/R-2.15
+	sci-BIOC/Biostrings
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_plyr? ( sci-CRAN/plyr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/chk
-	sci-CRAN/nlist
-	sci-CRAN/universals
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/extras
 	sci-CRAN/abind
-	sci-CRAN/term
 	>=sci-CRAN/mcmcr-0.3.0
+	sci-CRAN/chk
+	sci-CRAN/universals
+	sci-CRAN/term
+	sci-CRAN/nlist
 	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

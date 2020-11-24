@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spnet_0.9.1-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/sp
-	sci-CRAN/shape
+DEPEND="sci-CRAN/shape
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

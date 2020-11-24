@@ -24,18 +24,18 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/sf-0.9.0
 	>=sci-CRAN/wdman-0.2.4
-	>=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/progress-1.2.0
-	sci-CRAN/sp
-	>=sci-CRAN/RSelenium-1.7.4
-	>=sci-CRAN/xml2-1.2.0
-	>=sci-CRAN/cli-1.0.1
-	>=sci-CRAN/lwgeom-0.2.1
-	>=sci-CRAN/tibble-2.1.3
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/curl-3.2
-	>=sci-CRAN/rappdirs-0.3.1
 	>=sci-CRAN/httr-1.3.1
 	>=sci-CRAN/countrycode-1.1.0
+	>=sci-CRAN/assertthat-0.2.0
+	>=sci-CRAN/xml2-1.2.0
+	>=sci-CRAN/cli-1.0.1
+	>=dev-lang/R-3.5.0
+	sci-CRAN/sp
+	>=sci-CRAN/progress-1.2.0
+	>=sci-CRAN/curl-3.2
+	>=sci-CRAN/rappdirs-0.3.1
+	>=sci-CRAN/RSelenium-1.7.4
+	>=sci-CRAN/lwgeom-0.2.1
+	>=sci-CRAN/tibble-2.1.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

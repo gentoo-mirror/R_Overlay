@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/pxR_0.42.4.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/stringr
-	sci-CRAN/reshape2
-	sci-CRAN/plyr
 	sci-CRAN/RJSONIO
+	sci-CRAN/plyr
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}"

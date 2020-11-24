@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/seecolor_0.0.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/purrr
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/stringr
-	sci-CRAN/dplyr
-	sci-CRAN/rstudioapi
 	sci-CRAN/crayon
+	sci-CRAN/purrr
+	sci-CRAN/rstudioapi
 	sci-CRAN/magrittr
 	sci-CRAN/ggplot2
 "

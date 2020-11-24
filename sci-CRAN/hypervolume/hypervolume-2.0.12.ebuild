@@ -16,26 +16,26 @@ R_SUGGESTS="
 	r_suggests_magick? ( sci-CRAN/magick )
 "
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/rgl
-	virtual/cluster
-	sci-CRAN/hitandrun
-	sci-CRAN/progress
-	sci-CRAN/maps
-	sci-CRAN/data_table
-	sci-CRAN/rgeos
-	sci-CRAN/Rcpp
-	sci-CRAN/mvtnorm
-	sci-CRAN/pdist
 	virtual/MASS
+	sci-CRAN/maps
+	sci-CRAN/rgl
+	sci-CRAN/progress
+	sci-CRAN/data_table
 	sci-CRAN/sp
-	sci-CRAN/raster
+	sci-CRAN/pdist
+	sci-CRAN/Rcpp
+	sci-CRAN/hitandrun
+	sci-CRAN/rgeos
 	sci-CRAN/ks
-	sci-CRAN/e1071
 	sci-CRAN/geometry
+	sci-CRAN/raster
+	sci-CRAN/e1071
+	virtual/cluster
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/progress
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/progress
 	${R_SUGGESTS-}
 "

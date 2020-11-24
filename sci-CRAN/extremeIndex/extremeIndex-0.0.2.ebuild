@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/evd
+DEPEND="sci-CRAN/gmm
 	sci-CRAN/evir
-	sci-CRAN/gmm
+	sci-CRAN/evd
+	>=dev-lang/R-3.2.3
 	virtual/boot
 	sci-CRAN/goftest
 "

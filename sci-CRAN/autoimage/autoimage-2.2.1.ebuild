@@ -25,9 +25,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/fields
 	sci-CRAN/colorspace
-	sci-CRAN/mapproj
-	sci-CRAN/maps
-	sci-CRAN/ggplot2
 	sci-CRAN/MBA
+	sci-CRAN/mapproj
+	sci-CRAN/ggplot2
+	sci-CRAN/maps
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

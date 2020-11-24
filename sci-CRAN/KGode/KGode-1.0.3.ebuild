@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/KGode_1.0.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/pracma
 	sci-CRAN/R6
 	sci-CRAN/pspline
 	sci-CRAN/mvtnorm
-	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}"

@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/FactoMineR
-	sci-CRAN/foreach
-	sci-CRAN/doParallel
-	sci-CRAN/data_table
-	sci-CRAN/glmnet
-	sci-CRAN/softImpute
 	sci-CRAN/rARPACK
+	sci-CRAN/doParallel
+	sci-CRAN/softImpute
+	sci-CRAN/glmnet
+	sci-CRAN/foreach
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

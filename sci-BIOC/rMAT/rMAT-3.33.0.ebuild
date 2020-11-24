@@ -13,8 +13,8 @@ LICENSE='Artistic-2'
 IUSE="${IUSE-} r_suggests_genomegraphs"
 R_SUGGESTS="r_suggests_genomegraphs? ( sci-BIOC/GenomeGraphs )"
 DEPEND=">=sci-BIOC/Biobase-2.15.1
-	>=sci-BIOC/IRanges-1.13.10
 	sci-BIOC/BiocGenerics
+	>=sci-BIOC/IRanges-1.13.10
 	>=sci-BIOC/BiocGenerics-0.1.3
 	sci-BIOC/affxparser
 	sci-BIOC/IRanges

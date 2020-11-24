@@ -20,21 +20,21 @@ R_SUGGESTS="
 	r_suggests_shape? ( sci-CRAN/shape )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3.1
-	sci-CRAN/yaml
-	sci-CRAN/moments
-	sci-CRAN/gridExtra
+DEPEND="sci-CRAN/gsl
+	sci-CRAN/polynom
 	sci-CRAN/ggplot2
 	sci-CRAN/RSQLite
-	sci-CRAN/polynom
+	sci-CRAN/digest
 	sci-CRAN/RcppFaddeeva
-	sci-CRAN/xtable
 	sci-CRAN/xts
 	sci-CRAN/zoo
+	sci-CRAN/gridExtra
 	>=sci-CRAN/Rmpfr-0.6.0
-	sci-CRAN/gsl
-	sci-CRAN/stabledist
-	sci-CRAN/digest
+	sci-CRAN/yaml
 	sci-CRAN/optimx
+	sci-CRAN/moments
+	sci-CRAN/stabledist
+	>=dev-lang/R-3.3.1
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

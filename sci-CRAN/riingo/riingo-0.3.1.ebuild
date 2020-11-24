@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=sci-CRAN/glue-1.3.1
-	>=sci-CRAN/httr-1.3.1
-	>=sci-CRAN/crayon-1.3.4
-	>=sci-CRAN/jsonlite-1.5
-	>=sci-CRAN/purrr-0.2.4
-	>=sci-CRAN/rlang-0.2.0
-	>=sci-CRAN/tibble-1.4.2
+DEPEND=">=sci-CRAN/crayon-1.3.4
 	>=sci-CRAN/vctrs-0.3.0
+	>=sci-CRAN/httr-1.3.1
+	>=sci-CRAN/tibble-1.4.2
+	>=sci-CRAN/purrr-0.2.4
+	>=sci-CRAN/glue-1.3.1
+	>=sci-CRAN/jsonlite-1.5
+	>=sci-CRAN/rlang-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

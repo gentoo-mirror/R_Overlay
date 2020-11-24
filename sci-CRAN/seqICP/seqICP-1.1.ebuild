@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/seqICP_1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.3
-	virtual/mgcv
 	sci-CRAN/dHSIC
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

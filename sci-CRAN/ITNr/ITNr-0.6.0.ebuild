@@ -10,24 +10,24 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ITNr_0.6.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/network
-	>=dev-lang/R-2.15.1
-	sci-CRAN/reshape2
-	sci-CRAN/circlize
-	sci-CRAN/blockmodeling
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/fastmatch
-	sci-CRAN/sna
+	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
+	sci-CRAN/sna
+	sci-CRAN/blockmodeling
 	sci-CRAN/WDI
-	sci-CRAN/dplyr
-	sci-CRAN/intergraph
-	sci-CRAN/RColorBrewer
-	sci-CRAN/maps
-	sci-CRAN/cowplot
+	sci-CRAN/networkDynamic
 	sci-CRAN/tnet
 	sci-CRAN/igraph
+	sci-CRAN/cowplot
+	sci-CRAN/network
+	sci-CRAN/maps
 	sci-CRAN/GGally
-	sci-CRAN/networkDynamic
+	sci-CRAN/dplyr
+	sci-CRAN/intergraph
+	>=dev-lang/R-2.15.1
+	sci-CRAN/circlize
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-}"

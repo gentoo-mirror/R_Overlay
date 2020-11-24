@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_lattice"
 R_SUGGESTS="r_suggests_lattice? ( virtual/lattice )"
-DEPEND="sci-CRAN/dirmult
-	virtual/boot
-	sci-CRAN/combinat
+DEPEND="sci-CRAN/geepack
 	sci-CRAN/mvtnorm
-	sci-CRAN/geepack
+	sci-CRAN/combinat
+	sci-CRAN/dirmult
+	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -36,8 +36,8 @@ R_SUGGESTS="
 	r_suggests_vistributions? ( sci-CRAN/vistributions )
 "
 DEPEND=">=dev-lang/R-3.2.4
-	sci-CRAN/shiny
 	sci-CRAN/magrittr
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -23,17 +23,17 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/broom-0.5.6
+DEPEND=">=sci-CRAN/generics-0.0.2
 	sci-CRAN/purrr
+	>=sci-CRAN/broom-0.5.6
+	>=dev-lang/R-3.3.0
+	>=sci-CRAN/tidyr-1.0.0
 	>=sci-CRAN/rlang-0.3.1
 	>=sci-CRAN/tibble-2.1.3
-	>=sci-CRAN/tidyr-1.0.0
 	>=sci-CRAN/dplyr-0.7.1
 	sci-CRAN/magrittr
 	sci-CRAN/corrplot
 	>=sci-CRAN/tidyselect-1.0.0
 	sci-CRAN/car
-	>=sci-CRAN/generics-0.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

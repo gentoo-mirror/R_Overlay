@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/raster
-	sci-CRAN/sp
-	virtual/lattice
-	virtual/lattice
-	>=dev-lang/R-3.5.0
-	sci-CRAN/numDeriv
-	>=sci-CRAN/rasterVis-0.30
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/spaMM-2.4
+	virtual/lattice
+	sci-CRAN/raster
+	sci-CRAN/numDeriv
 	sci-CRAN/viridisLite
+	virtual/lattice
+	>=sci-CRAN/rasterVis-0.30
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

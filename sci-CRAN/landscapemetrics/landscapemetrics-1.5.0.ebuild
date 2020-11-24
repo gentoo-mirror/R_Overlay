@@ -21,11 +21,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/sp
 	sci-CRAN/cli
-	sci-CRAN/ggplot2
-	sci-CRAN/raster
 	sci-CRAN/Rcpp
+	sci-CRAN/raster
+	sci-CRAN/ggplot2
+	sci-CRAN/sp
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}

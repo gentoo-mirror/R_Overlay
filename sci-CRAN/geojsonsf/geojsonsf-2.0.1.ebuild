@@ -23,9 +23,9 @@ DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
-	>=sci-CRAN/rapidjsonr-1.2.0
+	sci-CRAN/geometries
 	>=sci-CRAN/jsonify-1.1.1
 	sci-CRAN/Rcpp
-	sci-CRAN/geometries
+	>=sci-CRAN/rapidjsonr-1.2.0
 	${R_SUGGESTS-}
 "

@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/magrittr
 	sci-CRAN/dplyr
-	sci-CRAN/data_table
 	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/data_table
+	sci-CRAN/magrittr
 	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-}

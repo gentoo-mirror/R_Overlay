@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/CancerMuta
 LICENSE='GPL-2+'
 
 DEPEND="sci-BIOC/qvalue
-	sci-BIOC/AnnotationDbi
 	sci-BIOC/limma
+	sci-BIOC/AnnotationDbi
 "
 RDEPEND="${DEPEND-}"
 

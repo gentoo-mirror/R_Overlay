@@ -21,7 +21,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/crayon
-	sci-CRAN/fortunes
 	sci-CRAN/rmsfact
+	sci-CRAN/fortunes
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

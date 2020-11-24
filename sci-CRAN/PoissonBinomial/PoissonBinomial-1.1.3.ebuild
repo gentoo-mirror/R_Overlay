@@ -18,8 +18,8 @@ R_SUGGESTS="
 DEPEND=">=sci-CRAN/Rcpp-1.0.3"
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/BH
 	>=sci-libs/fftw-3
+	sci-CRAN/BH
 	${R_SUGGESTS-}
 "
 

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RGoogleAnalyticsPremium_0.1.1.tar
 LICENSE='Apache-2.0'
 
 DEPEND=">=dev-lang/R-3.2.2
+	sci-CRAN/jsonlite
 	sci-CRAN/lubridate
 	sci-CRAN/httr
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

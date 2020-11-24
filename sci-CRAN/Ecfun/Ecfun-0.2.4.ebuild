@@ -38,17 +38,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/tis
-	sci-CRAN/TeachingDemos
-	sci-CRAN/xml2
-	sci-CRAN/BMA
-	>=dev-lang/R-3.5.0
-	sci-CRAN/fda
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/XML
+	sci-CRAN/fda
+	sci-CRAN/stringi
+	sci-CRAN/TeachingDemos
+	sci-CRAN/BMA
 	sci-CRAN/RCurl
+	sci-CRAN/tis
 	sci-CRAN/jpeg
 	virtual/MASS
-	sci-CRAN/stringi
+	sci-CRAN/xml2
 	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

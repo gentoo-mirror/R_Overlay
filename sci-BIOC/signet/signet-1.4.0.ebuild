@@ -20,7 +20,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-BIOC/RBGL
 	>=dev-lang/R-3.4.0
-	sci-BIOC/graph
 	sci-CRAN/igraph
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

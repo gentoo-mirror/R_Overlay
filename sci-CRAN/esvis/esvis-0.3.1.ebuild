@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/dplyr
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/sfsmisc
-	sci-CRAN/ggplot2
-	sci-CRAN/purrr
-	sci-CRAN/magrittr
-	sci-CRAN/rlang
 	sci-CRAN/Hmisc
+	sci-CRAN/sfsmisc
 	sci-CRAN/tibble
+	sci-CRAN/ggplot2
+	sci-CRAN/magrittr
+	sci-CRAN/dplyr
+	sci-CRAN/rlang
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

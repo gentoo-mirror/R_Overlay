@@ -27,9 +27,9 @@ R_SUGGESTS="
 	r_suggests_treesim? ( sci-CRAN/TreeSim )
 "
 DEPEND="sci-CRAN/ape
-	sci-CRAN/testit
 	sci-CRAN/deSolve
 	sci-CRAN/coda
+	sci-CRAN/testit
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

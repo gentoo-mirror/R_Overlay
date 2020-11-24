@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/MinEDfind_0.1.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/Iso
-	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_subplex? ( sci-CRAN/subplex )
 	r_suggests_trust? ( sci-CRAN/trust )
 "
-DEPEND="sci-CRAN/spam
-	sci-CRAN/deSolve
-	virtual/MASS
+DEPEND="virtual/MASS
 	virtual/Matrix
+	sci-CRAN/deSolve
+	sci-CRAN/spam
 	sci-CRAN/fda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

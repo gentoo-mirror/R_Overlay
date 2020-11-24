@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/httr-1.3
+	sci-CRAN/jose
 	sci-CRAN/openssl
 	sci-CRAN/jsonlite
-	sci-CRAN/jose
+	>=sci-CRAN/httr-1.3
 	sci-CRAN/R6
 	sci-CRAN/rappdirs
 "

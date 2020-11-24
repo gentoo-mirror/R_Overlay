@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_txtplot? ( sci-CRAN/txtplot )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/knitr-1.21.2
+DEPEND="sci-CRAN/dat
 	sci-CRAN/modules
-	sci-CRAN/dat
+	>=sci-CRAN/knitr-1.21.2
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

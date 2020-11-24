@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_limma"
 R_SUGGESTS="r_suggests_limma? ( sci-BIOC/limma )"
 DEPEND=">=dev-lang/R-2.11.0
 	sci-BIOC/limma
-	sci-BIOC/multtest
 	sci-BIOC/Biobase
+	sci-BIOC/multtest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

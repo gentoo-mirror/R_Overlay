@@ -20,13 +20,13 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/dplyr
-	sci-CRAN/gh
-	sci-CRAN/memoise
-	sci-CRAN/purrr
-	sci-CRAN/readr
 	sci-CRAN/rlang
+	sci-CRAN/purrr
+	sci-CRAN/memoise
 	sci-CRAN/magrittr
+	sci-CRAN/readr
 	sci-CRAN/stringr
+	sci-CRAN/gh
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

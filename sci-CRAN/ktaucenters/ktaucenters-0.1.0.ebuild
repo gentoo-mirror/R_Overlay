@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_tclust? ( sci-CRAN/tclust )
 "
-DEPEND="sci-CRAN/dbscan
+DEPEND="virtual/MASS
 	sci-CRAN/GSE
-	virtual/MASS
+	sci-CRAN/dbscan
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/penalizedSVM_1.1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/tgp
-	sci-CRAN/lhs
-	sci-CRAN/statmod
-	virtual/MASS
 	sci-CRAN/e1071
+	virtual/MASS
 	sci-CRAN/corpcor
+	sci-CRAN/statmod
 	sci-CRAN/mlegp
+	sci-CRAN/lhs
 "
 RDEPEND="${DEPEND-}"

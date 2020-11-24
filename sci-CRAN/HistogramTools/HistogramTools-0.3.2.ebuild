@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-CRAN/Hmisc
-	sci-CRAN/stringr
 	sci-CRAN/ash
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

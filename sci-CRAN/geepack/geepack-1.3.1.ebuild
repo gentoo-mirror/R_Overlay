@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/geepack_1.3-1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	virtual/MASS
+DEPEND="sci-CRAN/magrittr
+	>=dev-lang/R-3.5.0
 	sci-CRAN/broom
-	sci-CRAN/magrittr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

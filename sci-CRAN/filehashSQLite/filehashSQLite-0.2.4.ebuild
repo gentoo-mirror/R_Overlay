@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/filehashSQLite_0.2-4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/DBI
+DEPEND=">=dev-lang/R-2.14.0
+	sci-CRAN/filehash
+	sci-CRAN/DBI
+	>=sci-CRAN/filehash-1.0
 	sci-CRAN/DBI
 	sci-CRAN/RSQLite
-	>=sci-CRAN/filehash-1.0
-	>=dev-lang/R-2.14.0
-	sci-CRAN/filehash
 "
 RDEPEND="${DEPEND-}"

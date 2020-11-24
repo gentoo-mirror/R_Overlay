@@ -17,19 +17,19 @@ R_SUGGESTS="
 	r_suggests_markdown? ( sci-CRAN/markdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/magrittr
-	sci-CRAN/randomForest
 	virtual/nnet
 	sci-CRAN/gbm
+	sci-CRAN/magrittr
+	sci-CRAN/randomForest
 	>=sci-CRAN/FactoMineR-2.3
 	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/mltools
 	sci-CRAN/dplyr
 	sci-CRAN/data_table
 	sci-CRAN/MBA
+	sci-CRAN/pROC
+	sci-CRAN/ggrepel
 	sci-CRAN/e1071
 	virtual/MASS
-	sci-CRAN/mltools
-	sci-CRAN/ggrepel
-	sci-CRAN/pROC
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_wto? ( sci-CRAN/wTO )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/data_table
-	sci-CRAN/reshape2
 	sci-CRAN/plyr
 	sci-CRAN/magrittr
 	sci-CRAN/igraph
+	sci-CRAN/data_table
 	sci-CRAN/visNetwork
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dave_2.0.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND=">=dev-lang/R-3.1.0
-	virtual/nnet
-	sci-CRAN/labdsv
+DEPEND="sci-CRAN/vegan
 	virtual/cluster
-	sci-CRAN/vegan
+	virtual/nnet
+	>=dev-lang/R-3.1.0
+	sci-CRAN/labdsv
 	sci-CRAN/tree
 "
 RDEPEND="${DEPEND-}"

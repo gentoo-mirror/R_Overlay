@@ -12,20 +12,20 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/dplyr
+DEPEND="sci-CRAN/shiny
+	sci-CRAN/plotly
+	sci-CRAN/knitr
+	sci-CRAN/e1071
 	sci-CRAN/tm
+	>=dev-lang/R-3.1.0
 	sci-CRAN/shinydashboard
-	sci-CRAN/corrplot
+	sci-CRAN/dplyr
 	sci-CRAN/wordcloud
+	sci-CRAN/corrplot
 	sci-CRAN/randomForest
 	sci-CRAN/RColorBrewer
 	sci-CRAN/DMwR
 	sci-CRAN/caret
-	sci-CRAN/plotly
-	>=dev-lang/R-3.1.0
-	sci-CRAN/shiny
 	virtual/nnet
-	sci-CRAN/e1071
-	sci-CRAN/knitr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

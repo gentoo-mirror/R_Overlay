@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PanCanVarSel_0.0.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/Matrix
+DEPEND="sci-CRAN/msm
+	virtual/Matrix
 	sci-CRAN/smoothmest
 	sci-CRAN/mvtnorm
-	sci-CRAN/msm
 "
 RDEPEND="${DEPEND-}"

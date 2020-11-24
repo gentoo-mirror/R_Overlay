@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/fields
-	>=sci-CRAN/Rcpp-0.12.2
 	sci-CRAN/foreach
+	>=sci-CRAN/Rcpp-0.12.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

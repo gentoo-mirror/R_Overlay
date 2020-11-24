@@ -12,12 +12,12 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_limma"
 R_SUGGESTS="r_suggests_limma? ( sci-BIOC/limma )"
-DEPEND="sci-CRAN/fdrtool
+DEPEND=">=dev-lang/R-2.14.2
+	>=sci-BIOC/les-1.1.6
 	sci-BIOC/genefilter
 	sci-BIOC/Biobase
+	sci-CRAN/fdrtool
 	sci-BIOC/GSEABase
-	>=dev-lang/R-2.14.2
-	>=sci-BIOC/les-1.1.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

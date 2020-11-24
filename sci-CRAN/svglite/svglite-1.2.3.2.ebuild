@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_xml2? ( >=sci-CRAN/xml2-1.0.0 )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/Rcpp
 	>=sci-CRAN/gdtools-0.1.6
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

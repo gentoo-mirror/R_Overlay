@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spGARCH_0.2.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/nleqslv
-	>=sci-CRAN/Rcpp-0.12.4
-	>=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/truncnorm
 	sci-CRAN/Rsolnp
-	sci-CRAN/truncnorm
 	sci-CRAN/spdep
 	virtual/Matrix
+	>=dev-lang/R-3.1.0
+	>=sci-CRAN/Rcpp-0.12.4
+	sci-CRAN/nleqslv
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	virtual/Matrix
 	sci-CRAN/RcppEigen
+	virtual/Matrix
 "

@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/qrcode
-	>=sci-CRAN/shiny-0.13
+DEPEND=">=dev-lang/R-3.4.0
 	>=sci-CRAN/DT-0.3
-	>=sci-CRAN/miniUI-0.1.1
-	>=dev-lang/R-3.4.0
 	sci-CRAN/rstudioapi
+	>=sci-CRAN/miniUI-0.1.1
+	sci-CRAN/qrcode
+	>=sci-CRAN/shiny-0.13
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RcppEigenAD_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/Rcpp-0.12.12
+DEPEND="sci-CRAN/functional
 	sci-CRAN/Rdpack
-	sci-CRAN/functional
-	sci-CRAN/RcppEigen
 	sci-CRAN/memoise
+	sci-CRAN/RcppEigen
+	>=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/BH
 	sci-CRAN/RcppEigen
+	sci-CRAN/BH
 "

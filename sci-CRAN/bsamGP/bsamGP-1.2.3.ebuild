@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/bsamGP_1.2.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-}"

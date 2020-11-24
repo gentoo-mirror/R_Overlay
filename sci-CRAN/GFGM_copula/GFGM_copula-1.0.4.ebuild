@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/GFGM.copula_1.0.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/cmprsk
-	sci-CRAN/joint_Cox
 	sci-CRAN/compound_Cox
+	sci-CRAN/joint_Cox
 "
 RDEPEND="${DEPEND-}"

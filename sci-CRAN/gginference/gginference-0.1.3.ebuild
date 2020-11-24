@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/rlang
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/rlang
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

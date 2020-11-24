@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pqantimalarials_0.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/plyr
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/RColorBrewer
-	>=dev-lang/R-2.14.1
-	sci-CRAN/reshape2
 	sci-CRAN/shiny
+	>=dev-lang/R-2.14.1
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

@@ -24,15 +24,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/rlang
-	sci-CRAN/mcmcse
-	sci-CRAN/future
-	sci-CRAN/rjags
-	sci-CRAN/coda
-	sci-CRAN/mathjaxr
+DEPEND="sci-CRAN/mcmcse
 	virtual/survival
+	sci-CRAN/mathjaxr
+	sci-CRAN/foreach
 	virtual/MASS
+	sci-CRAN/rjags
+	sci-CRAN/future
+	sci-CRAN/rlang
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

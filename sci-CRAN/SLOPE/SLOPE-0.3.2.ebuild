@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="virtual/lattice
-	sci-CRAN/Rcpp
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
 	virtual/Matrix
 	>=dev-lang/R-3.3.0
+	virtual/lattice
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/activity_1.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/circular
-	sci-CRAN/insol
 	sci-CRAN/pbapply
+	sci-CRAN/insol
 "
 RDEPEND="${DEPEND-}"

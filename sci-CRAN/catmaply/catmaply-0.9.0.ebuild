@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/tidyverse
+DEPEND="sci-CRAN/plotly
+	sci-CRAN/dplyr
+	sci-CRAN/tidyverse
+	>=dev-lang/R-3.4.0
+	sci-CRAN/lubridate
 	sci-CRAN/magrittr
 	sci-CRAN/rlang
-	sci-CRAN/plotly
-	>=dev-lang/R-3.4.0
-	sci-CRAN/dplyr
-	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

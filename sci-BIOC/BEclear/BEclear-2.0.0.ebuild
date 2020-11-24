@@ -21,9 +21,9 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/data_table-1.11.8
 	sci-CRAN/Rcpp
+	>=sci-BIOC/BiocParallel-1.14.2
 	sci-CRAN/Rdpack
 	virtual/Matrix
-	>=sci-BIOC/BiocParallel-1.14.2
 	sci-CRAN/futile_logger
 "
 RDEPEND="${DEPEND-}

@@ -28,10 +28,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_texmex? ( sci-CRAN/texmex )
 "
-DEPEND="sci-CRAN/chandwich
-	sci-CRAN/revdbayes
+DEPEND="sci-CRAN/revdbayes
 	sci-CRAN/numDeriv
 	sci-CRAN/sandwich
 	>=dev-lang/R-3.3.0
+	sci-CRAN/chandwich
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

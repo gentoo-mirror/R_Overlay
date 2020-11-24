@@ -22,18 +22,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND=">=sci-CRAN/data_table-1.12.0
 	virtual/Matrix
-	virtual/MASS
-	>=sci-CRAN/optimx-2019.12.02
-	>=sci-CRAN/data_table-1.12.0
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/ggplot2-3.2.0
 	>=sci-CRAN/foreach-1.5.0
 	>=sci-CRAN/lubridate-1.7.8
+	virtual/MASS
+	>=sci-CRAN/optimx-2019.12.02
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.12
-	>=sci-CRAN/RcppGSL-0.3.7
 	>=sci-CRAN/RcppArmadillo-0.9.500.2.0
+	>=sci-CRAN/RcppGSL-0.3.7
 	${R_SUGGESTS-}
 "

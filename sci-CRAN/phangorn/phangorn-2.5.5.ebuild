@@ -24,12 +24,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/ape-5.0
-	sci-CRAN/quadprog
+	sci-CRAN/magrittr
 	>=sci-CRAN/igraph-1.0
 	virtual/Matrix
-	sci-CRAN/fastmatch
-	sci-CRAN/magrittr
 	>=sci-CRAN/Rcpp-0.12.0
+	sci-CRAN/quadprog
+	sci-CRAN/fastmatch
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

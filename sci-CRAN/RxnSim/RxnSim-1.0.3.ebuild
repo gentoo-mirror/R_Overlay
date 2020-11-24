@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RxnSim_1.0.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/rJava
-	sci-CRAN/fingerprint
+DEPEND=">=sci-CRAN/rcdk-3.4.3
 	sci-CRAN/data_table
-	>=sci-CRAN/rcdk-3.4.3
+	sci-CRAN/fingerprint
+	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-}"

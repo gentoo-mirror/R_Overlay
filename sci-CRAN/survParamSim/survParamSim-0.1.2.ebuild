@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_survminer? ( sci-CRAN/survminer )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/purrr
-	>=sci-CRAN/magrittr-1.5
-	sci-CRAN/mvtnorm
-	sci-CRAN/rlang
-	sci-CRAN/forcats
+DEPEND="sci-CRAN/rlang
 	sci-CRAN/dplyr
+	sci-CRAN/forcats
 	sci-CRAN/tidyr
+	sci-CRAN/purrr
+	>=dev-lang/R-3.4.0
+	sci-CRAN/mvtnorm
+	>=sci-CRAN/magrittr-1.5
 	sci-CRAN/tibble
 	sci-CRAN/ggplot2
 	virtual/survival

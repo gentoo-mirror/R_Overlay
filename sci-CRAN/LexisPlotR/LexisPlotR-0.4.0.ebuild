@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_hmdhfdplus? ( sci-CRAN/HMDHFDplus )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
-	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

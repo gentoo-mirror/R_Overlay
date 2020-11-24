@@ -28,10 +28,10 @@ R_SUGGESTS="
 	r_suggests_tram? ( >=sci-CRAN/tram-0.2.5 )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="virtual/survival
-	virtual/codetools
-	>=sci-CRAN/TH_data-1.0.2
-	>=sci-CRAN/mvtnorm-1.0.10
+DEPEND=">=sci-CRAN/TH_data-1.0.2
 	>=sci-CRAN/sandwich-2.3.0
+	virtual/codetools
+	>=sci-CRAN/mvtnorm-1.0.10
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

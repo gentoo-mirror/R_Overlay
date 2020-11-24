@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/stable_1.1.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/rmutil
-	sci-CRAN/stabledist
+DEPEND="sci-CRAN/stabledist
+	sci-CRAN/rmutil
 "
 RDEPEND="${DEPEND-}"

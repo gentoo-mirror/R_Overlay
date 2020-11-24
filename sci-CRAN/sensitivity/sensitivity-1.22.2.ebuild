@@ -39,11 +39,11 @@ R_SUGGESTS="
 	r_suggests_tsp? ( sci-CRAN/TSP )
 	r_suggests_whitening? ( sci-CRAN/whitening )
 "
-DEPEND="virtual/boot
-	sci-CRAN/Rcpp
-	sci-CRAN/numbers
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.0.0
+	sci-CRAN/numbers
+	sci-CRAN/Rcpp
+	virtual/boot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

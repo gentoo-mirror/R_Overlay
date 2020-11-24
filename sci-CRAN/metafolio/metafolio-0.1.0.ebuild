@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_teachingdemos? ( sci-CRAN/TeachingDemos )
 "
 DEPEND="sci-CRAN/plyr
-	virtual/MASS
 	sci-CRAN/colorspace
-	>=dev-lang/R-3.1.0
 	>=sci-CRAN/Rcpp-0.11.2
+	>=dev-lang/R-3.1.0
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

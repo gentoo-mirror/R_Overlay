@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/cn.farms_1.32.0.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND="sci-BIOC/Biobase
-	sci-BIOC/DNAcopy
+DEPEND=">=dev-lang/R-3.0
+	sci-BIOC/oligo
 	virtual/class
-	>=dev-lang/R-3.0
+	sci-BIOC/preprocessCore
+	sci-BIOC/affxparser
+	sci-BIOC/Biobase
 	sci-CRAN/ff
 	sci-CRAN/snow
 	sci-CRAN/DBI
-	sci-BIOC/affxparser
-	sci-BIOC/oligo
-	sci-BIOC/preprocessCore
+	sci-BIOC/DNAcopy
 	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

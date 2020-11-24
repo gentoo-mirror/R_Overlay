@@ -16,29 +16,29 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/shinythemes
-	sci-CRAN/formattable
-	sci-CRAN/igraph
-	sci-CRAN/shinydashboardPlus
-	sci-CRAN/tidyr
-	sci-CRAN/DT
-	sci-CRAN/shiny
-	sci-CRAN/shinyWidgets
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/shinyBS
-	sci-CRAN/shinycssloaders
+	sci-CRAN/openxlsx
+	sci-CRAN/shinyWidgets
+	sci-CRAN/shinydashboardPlus
 	sci-CRAN/shinyFeedback
 	sci-CRAN/tidyverse
 	sci-CRAN/reshape2
-	sci-CRAN/shinyjs
-	sci-CRAN/rintrojs
-	sci-CRAN/stringr
-	sci-CRAN/withr
-	sci-CRAN/RColorBrewer
-	sci-CRAN/shinydashboard
-	sci-CRAN/openxlsx
+	sci-CRAN/igraph
 	sci-CRAN/testthat
-	sci-CRAN/magrittr
+	sci-CRAN/withr
 	sci-CRAN/dplyr
+	sci-CRAN/stringr
+	sci-CRAN/shinyjs
+	sci-CRAN/shinythemes
+	sci-CRAN/shinydashboard
+	sci-CRAN/shinycssloaders
+	sci-CRAN/rintrojs
+	sci-CRAN/magrittr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/formattable
+	sci-CRAN/DT
 	sci-CRAN/scales
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

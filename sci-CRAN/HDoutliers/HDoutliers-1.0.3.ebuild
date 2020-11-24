@@ -12,7 +12,7 @@ LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/FactoMineR
-	sci-CRAN/FNN
 	sci-CRAN/mclust
+	sci-CRAN/FNN
 "
 RDEPEND="${DEPEND-}"

@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_genefilter? ( sci-BIOC/genefilter )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=sci-BIOC/Biobase-2.17.8
-	>=sci-BIOC/BiocGenerics-0.3.2
+DEPEND="sci-BIOC/limma
 	sci-BIOC/annotate
-	sci-BIOC/limma
+	>=sci-BIOC/Biobase-2.17.8
+	>=sci-BIOC/BiocGenerics-0.3.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

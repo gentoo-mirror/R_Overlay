@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_prettydoc? ( sci-CRAN/prettydoc )
 	r_suggests_shadowtext? ( sci-CRAN/shadowtext )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/sysfonts
-	>=dev-lang/R-3.4.0
-	sci-CRAN/magick
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/gridGraphics
+	sci-CRAN/ggplot2
 	sci-CRAN/showtext
+	sci-CRAN/magick
+	sci-CRAN/sysfonts
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

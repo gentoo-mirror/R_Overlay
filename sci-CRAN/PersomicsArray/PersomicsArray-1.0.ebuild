@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PersomicsArray_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/jpeg
-	sci-CRAN/tiff
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/raster
+	sci-CRAN/tiff
+	>=dev-lang/R-3.1.0
+	sci-CRAN/jpeg
 "
 RDEPEND="${DEPEND-}"

@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_mass? ( virtual/MASS )
 "
-DEPEND="virtual/cluster
+DEPEND="virtual/rpart
 	virtual/nnet
+	virtual/rpart
 	sci-CRAN/plotrix
-	virtual/rpart
-	virtual/rpart
+	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

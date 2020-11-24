@@ -12,9 +12,9 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/geiger
-	virtual/MASS
-	sci-CRAN/phytools
 	virtual/cluster
+	virtual/MASS
 	sci-CRAN/ape
+	sci-CRAN/phytools
 "
 RDEPEND="${DEPEND-}"

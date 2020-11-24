@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/nlstac_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/Deriv
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
 	sci-CRAN/stringr
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PCADSC_0.8.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/reshape2
+DEPEND=">=dev-lang/R-3.2.2
+	sci-CRAN/ggplot2
 	virtual/Matrix
 	sci-CRAN/pander
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.2.2
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}"

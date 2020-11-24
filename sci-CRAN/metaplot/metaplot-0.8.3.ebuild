@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_nlme? ( virtual/nlme )
 "
 DEPEND=">=sci-CRAN/encode-0.3.6
+	>=sci-CRAN/dplyr-0.7.1
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
+	sci-CRAN/tidyr
 	sci-CRAN/gridExtra
 	sci-CRAN/gtable
-	sci-CRAN/tidyr
-	virtual/lattice
-	sci-CRAN/magrittr
-	>=sci-CRAN/dplyr-0.7.1
-	sci-CRAN/rlang
 	sci-CRAN/ggplot2
 	sci-CRAN/scales
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.4.2
-	sci-BIOC/Biostrings
-	>=sci-CRAN/Rcpp-0.12.12
 	virtual/Matrix
+	>=sci-CRAN/Rcpp-0.12.12
+	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

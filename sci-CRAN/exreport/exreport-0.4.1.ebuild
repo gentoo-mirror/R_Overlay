@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/exreport_0.4.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

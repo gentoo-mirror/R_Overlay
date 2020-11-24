@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/reshape2
+DEPEND="sci-CRAN/PSF
 	sci-CRAN/imputeTestbench
-	sci-CRAN/PSF
-	sci-CRAN/gridExtra
-	sci-CRAN/ggplot2
 	sci-CRAN/decomposedPSF
+	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
+	sci-CRAN/reshape2
+	sci-CRAN/RColorBrewer
 	sci-CRAN/forecast
 	sci-CRAN/circlize
-	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

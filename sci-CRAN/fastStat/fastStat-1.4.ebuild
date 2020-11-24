@@ -12,18 +12,18 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_rms"
 R_SUGGESTS="r_suggests_rms? ( sci-CRAN/rms )"
-DEPEND="sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	sci-CRAN/set
-	sci-CRAN/PredictABEL
-	sci-CRAN/ggrepel
-	sci-CRAN/survIDINRI
-	sci-CRAN/survC1
-	sci-CRAN/plyr
-	sci-CRAN/do
-	sci-CRAN/car
+DEPEND="sci-CRAN/survC1
 	sci-CRAN/e1071
+	sci-CRAN/reshape2
+	sci-CRAN/car
+	sci-CRAN/plyr
+	sci-CRAN/ggrepel
+	sci-CRAN/PredictABEL
+	sci-CRAN/set
+	sci-CRAN/do
 	sci-CRAN/tseries
 	virtual/survival
+	sci-CRAN/ggplot2
+	sci-CRAN/survIDINRI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

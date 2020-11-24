@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/reshape2
 	virtual/Matrix
+	sci-CRAN/Rcpp
 	sci-CRAN/scales
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

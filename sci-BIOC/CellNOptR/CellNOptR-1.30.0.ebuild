@@ -22,17 +22,17 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-BIOC/Rgraphviz
-	sci-CRAN/stringr
-	sci-CRAN/XML
-	sci-CRAN/stringi
-	>=dev-lang/R-2.15.0
-	sci-BIOC/RBGL
+DEPEND=">=dev-lang/R-2.15.0
 	sci-BIOC/graph
 	sci-CRAN/hash
-	sci-CRAN/RCurl
-	sci-CRAN/ggplot2
 	sci-CRAN/igraph
+	sci-BIOC/RBGL
+	sci-CRAN/RCurl
+	sci-BIOC/Rgraphviz
+	sci-CRAN/XML
+	sci-CRAN/ggplot2
+	sci-CRAN/stringi
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
 	media-gfx/graphviz

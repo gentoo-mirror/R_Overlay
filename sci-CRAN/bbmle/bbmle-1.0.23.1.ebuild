@@ -26,11 +26,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/lattice
+	virtual/MASS
 	virtual/Matrix
+	>=dev-lang/R-3.0.0
 	sci-CRAN/numDeriv
 	virtual/Matrix
-	virtual/MASS
-	>=dev-lang/R-3.0.0
 	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

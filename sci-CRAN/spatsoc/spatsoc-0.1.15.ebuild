@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.4
+DEPEND="sci-CRAN/adehabitatHR
 	sci-CRAN/sp
 	>=sci-CRAN/data_table-1.10.5
 	sci-CRAN/rgeos
-	sci-CRAN/adehabitatHR
+	>=dev-lang/R-3.4
 	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}

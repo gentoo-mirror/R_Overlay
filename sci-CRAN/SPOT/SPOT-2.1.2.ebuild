@@ -19,22 +19,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/randomForest
-	virtual/rpart
+DEPEND="sci-CRAN/ranger
 	>=dev-lang/R-3.5.0
-	virtual/MASS
-	virtual/survival
-	sci-CRAN/plotly
 	virtual/rpart
-	sci-CRAN/ggplot2
+	sci-CRAN/nloptr
+	sci-CRAN/randomForest
+	sci-CRAN/plotly
 	sci-CRAN/SimInf
-	sci-CRAN/ranger
 	sci-CRAN/DEoptim
 	sci-CRAN/rgenoud
-	sci-CRAN/rsm
-	sci-CRAN/nloptr
-	sci-CRAN/smoof
+	virtual/survival
+	virtual/MASS
+	sci-CRAN/ggplot2
+	virtual/rpart
 	sci-CRAN/car
 	sci-CRAN/party
+	sci-CRAN/rsm
+	sci-CRAN/smoof
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

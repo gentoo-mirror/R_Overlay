@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.3
-	sci-CRAN/partitions
 	sci-CRAN/mathjaxr
+	sci-CRAN/partitions
 	sci-CRAN/magic
 "
 RDEPEND="${DEPEND-}

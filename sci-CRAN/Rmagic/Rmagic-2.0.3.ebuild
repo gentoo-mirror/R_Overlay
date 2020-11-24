@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
 DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/reticulate-1.4
 	virtual/Matrix
 	sci-CRAN/ggplot2
+	>=sci-CRAN/reticulate-1.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

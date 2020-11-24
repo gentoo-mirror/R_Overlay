@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/iBATCGH_1.3.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-CRAN/Rcpp-0.11.2
-	sci-CRAN/msm
+DEPEND="sci-CRAN/msm
+	>=sci-CRAN/Rcpp-0.11.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

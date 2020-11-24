@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/boot
+	sci-CRAN/numDeriv
 	sci-CRAN/GHQp
 	sci-CRAN/rmutil
-	sci-CRAN/numDeriv
+	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

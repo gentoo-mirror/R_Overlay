@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-2.15.1
 	sci-CRAN/timeSeries
-	sci-CRAN/fBasics
 	sci-CRAN/timeDate
+	sci-CRAN/fBasics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

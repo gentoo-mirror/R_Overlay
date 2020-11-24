@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/curl sci-CRAN/jsonlite sci-CRAN/httr dev-lang/R
+DEPEND=sci-CRAN/curl sci-CRAN/httr sci-CRAN/jsonlite dev-lang/R
 DESCRIPTION=Wrapper for the National Bank of Poland API
 EAPI=7
 IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_httptest r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=sci-CRAN/curl sci-CRAN/jsonlite sci-CRAN/httr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_httptest? ( sci-CRAN/httptest ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R
+RDEPEND=sci-CRAN/curl sci-CRAN/httr sci-CRAN/jsonlite r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_httptest? ( sci-CRAN/httptest ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/rnbp_0.2.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=6d48fbbb43264b67d640bec4baffd317
+_md5_=50c1f963637b74b83490eb61e4a41a15

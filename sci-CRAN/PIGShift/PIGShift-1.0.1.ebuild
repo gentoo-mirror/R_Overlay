@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PIGShift_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/ape
+DEPEND="sci-CRAN/ape
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_rjags"
 R_SUGGESTS="r_suggests_rjags? ( sci-CRAN/rjags )"
-DEPEND="sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/rlang
 	sci-CRAN/knitr
-	sci-CRAN/rlang
+	sci-CRAN/mvtnorm
 	>=sci-CRAN/ggplot2-1.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

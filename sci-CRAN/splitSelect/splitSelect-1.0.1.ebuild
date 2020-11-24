@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_mvnfast? ( sci-CRAN/mvnfast )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/caret
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/glmnet
+	sci-CRAN/caret
 	sci-CRAN/doParallel
 	sci-CRAN/multicool
-	sci-CRAN/foreach
-	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/future
-	sci-CRAN/future_apply
 	sci-CRAN/Rcpp
+	sci-CRAN/future_apply
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

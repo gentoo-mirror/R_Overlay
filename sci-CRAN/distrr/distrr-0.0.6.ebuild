@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/distrr_0.0.6.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.2
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/dplyr-0.7.4
 	>=sci-CRAN/tidyr-0.7.0
+	>=sci-CRAN/dplyr-0.7.4
+	>=sci-CRAN/magrittr-1.5
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}"

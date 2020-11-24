@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_nycflights13? ( sci-CRAN/nycflights13 )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=sci-CRAN/restfulr-0.0.2
-	sci-CRAN/RCurl
-	sci-CRAN/rjson
+DEPEND=">=dev-lang/R-3.4.0
+	>=sci-CRAN/restfulr-0.0.2
 	>=sci-BIOC/BiocGenerics-0.15.1
-	>=dev-lang/R-3.4.0
-	sci-BIOC/graph
 	>=sci-BIOC/S4Vectors-0.14.3
+	sci-BIOC/graph
+	sci-CRAN/rjson
 	sci-CRAN/XML
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

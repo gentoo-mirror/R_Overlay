@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/OutlierD_1.48.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/Biobase
-	sci-CRAN/quantreg
+DEPEND="sci-CRAN/quantreg
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

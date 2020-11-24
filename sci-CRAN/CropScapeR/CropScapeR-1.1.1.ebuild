@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/CropScapeR_1.1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/raster-3.0
-	>=sci-CRAN/httr-1.4.1
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/dplyr-0.8.3
 	>=sci-CRAN/sf-0.8
 	>=sci-CRAN/data_table-1.12.8
+	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/httr-1.4.1
+	>=sci-CRAN/raster-3.0
 	>=sci-CRAN/RJSONIO-1.3
 "
 RDEPEND="${DEPEND-}"

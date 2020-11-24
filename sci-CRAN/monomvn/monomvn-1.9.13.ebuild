@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/monomvn_1.9-13.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="sci-CRAN/pls
-	sci-CRAN/lars
-	virtual/MASS
-	sci-CRAN/quadprog
-	>=dev-lang/R-2.14.0
+DEPEND="virtual/MASS
 	sci-CRAN/mvtnorm
+	sci-CRAN/pls
+	>=dev-lang/R-2.14.0
+	sci-CRAN/quadprog
+	sci-CRAN/lars
 "
 RDEPEND="${DEPEND-}"

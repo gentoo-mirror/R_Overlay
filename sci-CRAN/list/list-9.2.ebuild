@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_knitr? ( >=sci-CRAN/knitr-1.10.5 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/magic-1.5.6
-	>=sci-CRAN/VGAM-0.9.8
-	>=sci-CRAN/gamlss_dist-4.3.4
-	>=sci-CRAN/sandwich-2.3.3
-	virtual/MASS
-	>=sci-CRAN/coda-0.17.1
-	>=sci-CRAN/quadprog-1.5.5
+DEPEND=">=sci-CRAN/magic-1.5.6
 	>=sci-CRAN/corpcor-1.6.7
+	>=sci-CRAN/VGAM-0.9.8
+	>=sci-CRAN/coda-0.17.1
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/sandwich-2.3.3
+	>=sci-CRAN/gamlss_dist-4.3.4
+	virtual/MASS
+	>=sci-CRAN/quadprog-1.5.5
 	>=sci-CRAN/mvtnorm-1.0.2
 	sci-CRAN/arm
 "

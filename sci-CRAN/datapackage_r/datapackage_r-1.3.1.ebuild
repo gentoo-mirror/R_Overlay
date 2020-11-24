@@ -26,21 +26,21 @@ R_SUGGESTS="
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/jsonvalidate
-	sci-CRAN/R6
+DEPEND="sci-CRAN/future
 	sci-CRAN/readr
-	sci-CRAN/R_utils
-	sci-CRAN/rlist
-	sci-CRAN/config
-	sci-CRAN/future
-	sci-CRAN/httr
-	sci-CRAN/iterators
 	sci-CRAN/purrr
+	sci-CRAN/rlist
+	sci-CRAN/R6
 	sci-CRAN/stringr
+	sci-CRAN/V8
+	sci-CRAN/config
+	sci-CRAN/httr
+	sci-CRAN/jsonlite
+	sci-CRAN/iterators
+	sci-CRAN/jsonvalidate
+	sci-CRAN/R_utils
 	sci-CRAN/tableschema_r
 	sci-CRAN/urltools
-	sci-CRAN/V8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

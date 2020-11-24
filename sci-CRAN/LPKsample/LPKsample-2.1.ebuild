@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LPKsample_2.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/cluster
-	sci-CRAN/LPGraph
-	sci-CRAN/mclust
+DEPEND="sci-CRAN/mclust
 	sci-CRAN/igraph
+	sci-CRAN/LPGraph
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

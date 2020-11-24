@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/MASS
-	sci-CRAN/data_tree
 	sci-CRAN/DiagrammeR
+	sci-CRAN/data_tree
 	sci-CRAN/magrittr
 	sci-CRAN/stringr
 	sci-CRAN/ggplot2

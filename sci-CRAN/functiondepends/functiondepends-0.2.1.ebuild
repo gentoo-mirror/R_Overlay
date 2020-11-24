@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/stringr-1.4.0
+DEPEND=">=sci-CRAN/tidyr-1.1.1
 	>=sci-CRAN/tidyselect-1.1.0
 	>=sci-CRAN/purrr-0.3.4
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/tidyr-1.1.1
+	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/dplyr-1.0.1
 	>=sci-CRAN/tibble-3.0.3
 "

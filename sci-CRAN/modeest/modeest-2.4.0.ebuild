@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
-DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/stable
+DEPEND="sci-CRAN/stable
 	>=sci-CRAN/statip-0.2.3
-	sci-CRAN/fBasics
 	sci-CRAN/stabledist
+	sci-CRAN/fBasics
+	>=dev-lang/R-3.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

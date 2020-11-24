@@ -17,12 +17,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/magicaxis
-	sci-BIOC/piano
-	sci-CRAN/downloader
-	sci-BIOC/Biobase
 	sci-CRAN/RColorBrewer
+	sci-CRAN/downloader
 	sci-CRAN/caTools
 	sci-CRAN/lsa
 	sci-CRAN/reshape2
+	sci-BIOC/piano
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

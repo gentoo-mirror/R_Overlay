@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/XML
-	sci-CRAN/pipeR
 	sci-CRAN/tibble
 	sci-CRAN/dplyr
+	sci-CRAN/pipeR
 	sci-CRAN/rlang
 	sci-CRAN/rlist
 	sci-CRAN/stringr

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CLONETv2_2.1.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/sets
 	sci-CRAN/arules
-	sci-CRAN/sets
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.1
 	sci-CRAN/ggrepel
 "
 RDEPEND="${DEPEND-}"

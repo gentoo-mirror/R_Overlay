@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/foreach-1.4.3
-	>=sci-CRAN/picasso-1.2.0
-	>=sci-CRAN/rlecuyer-0.3.3
-	>=sci-CRAN/expm-0.999.3
-	>=sci-CRAN/mathjaxr-1.0.1
+DEPEND=">=sci-CRAN/picasso-1.2.0
 	virtual/Matrix
 	>=sci-CRAN/HDCI-1.0.2
+	>=sci-CRAN/mathjaxr-1.0.1
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/expm-0.999.3
+	>=sci-CRAN/foreach-1.4.3
+	>=sci-CRAN/rlecuyer-0.3.3
 	>=sci-CRAN/doParallel-1.0.11
 	>=sci-CRAN/future-1.12.0
 "

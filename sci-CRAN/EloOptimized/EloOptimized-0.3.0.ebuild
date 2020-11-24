@@ -12,10 +12,10 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/lubridate
-	sci-CRAN/dplyr
 	sci-CRAN/magrittr
-	sci-CRAN/BAMMtools
+	sci-CRAN/dplyr
 	dev-lang/R[tk]
+	sci-CRAN/BAMMtools
 	sci-CRAN/reshape2
 	sci-CRAN/rlist
 	sci-CRAN/rlang

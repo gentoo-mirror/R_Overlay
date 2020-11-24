@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_corelearn"
 R_SUGGESTS="r_suggests_corelearn? ( sci-CRAN/CORElearn )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/randomForest
 	sci-CRAN/caret
+	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

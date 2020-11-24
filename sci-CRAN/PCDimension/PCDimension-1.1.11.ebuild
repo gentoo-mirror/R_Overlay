@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_nfactors? ( sci-CRAN/nFactors )
 "
 DEPEND="sci-CRAN/oompaBase
-	sci-CRAN/kernlab
 	sci-CRAN/cpm
 	sci-CRAN/changepoint
+	sci-CRAN/kernlab
 	>=dev-lang/R-3.1
 	virtual/class
 "

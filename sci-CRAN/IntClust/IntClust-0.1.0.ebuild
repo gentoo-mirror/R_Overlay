@@ -15,27 +15,27 @@ R_SUGGESTS="
 	r_suggests_biomart? ( sci-BIOC/biomaRt )
 	r_suggests_mlp? ( sci-BIOC/MLP )
 "
-DEPEND="sci-CRAN/pls
-	sci-CRAN/igraph
-	sci-CRAN/ggplot2
-	sci-CRAN/ade4
-	sci-CRAN/analogue
-	sci-CRAN/plotrix
-	sci-CRAN/gridExtra
-	sci-CRAN/Rdpack
+DEPEND="sci-CRAN/plyr
+	sci-CRAN/lsa
 	sci-CRAN/gplots
-	sci-CRAN/data_table
-	sci-CRAN/plyr
+	sci-CRAN/pls
+	sci-CRAN/igraph
+	sci-CRAN/gridExtra
 	sci-BIOC/limma
 	sci-CRAN/FactoMineR
-	virtual/cluster
-	sci-BIOC/Biobase
-	sci-CRAN/e1071
-	sci-CRAN/lsa
-	sci-CRAN/circlize
-	sci-BIOC/a4Core
+	sci-CRAN/Rdpack
+	sci-CRAN/plotrix
 	sci-CRAN/gtools
 	sci-CRAN/SNFtool
+	virtual/cluster
+	sci-BIOC/Biobase
+	sci-CRAN/ade4
+	sci-CRAN/ggplot2
+	sci-CRAN/circlize
+	sci-CRAN/e1071
+	sci-BIOC/a4Core
+	sci-CRAN/analogue
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

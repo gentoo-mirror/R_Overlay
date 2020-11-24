@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/farver
 	sci-CRAN/purrr
-	sci-CRAN/ggplot2
-	sci-CRAN/colorspace
-	sci-CRAN/rgl
-	sci-CRAN/tidyr
 	sci-CRAN/magrittr
 	sci-CRAN/scales
-	sci-CRAN/farver
+	>=dev-lang/R-3.0.2
+	sci-CRAN/ggplot2
+	sci-CRAN/tidyr
+	sci-CRAN/colorspace
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

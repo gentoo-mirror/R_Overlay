@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/TTCA_0.1.1.tar.gz"
 LICENSE='EUPL-1.1'
 
 DEPEND="dev-lang/R[tk]
-	sci-CRAN/VennDiagram
 	sci-CRAN/quantreg
 	virtual/Matrix
+	sci-CRAN/VennDiagram
 	sci-CRAN/RISmed
 	virtual/MASS
 "

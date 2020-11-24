@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/adaptsmoFMRI_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/spatstat
+DEPEND=">=dev-lang/R-2.15.2
 	sci-CRAN/mvtnorm
-	>=dev-lang/R-2.15.2
+	virtual/Matrix
 	sci-CRAN/coda
 	sci-CRAN/MCMCpack
+	sci-CRAN/spatstat
 "
 RDEPEND="${DEPEND-}"

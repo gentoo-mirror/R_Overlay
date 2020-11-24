@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/RNifti >sci-CRAN/gifti-0.7.5 sci-CRAN/oro_nifti sci-CRAN/xml2 >=dev-lang/R-3.5.0 sci-CRAN/RColorBrewer dev-lang/R
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/xml2 sci-CRAN/oro_nifti >sci-CRAN/gifti-0.7.5 sci-CRAN/RNifti sci-CRAN/RColorBrewer dev-lang/R
 DESCRIPTION=Tools for Reading and Visualizin... (see metadata)
 EAPI=7
 IUSE=r_suggests_covr r_suggests_fields r_suggests_ggplot2 r_suggests_ggpubr r_suggests_knitr r_suggests_papayar r_suggests_rgl r_suggests_rmarkdown r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=sci-CRAN/RNifti >sci-CRAN/gifti-0.7.5 sci-CRAN/oro_nifti sci-CRAN/xml2 >=dev-lang/R-3.5.0 sci-CRAN/RColorBrewer r_suggests_covr? ( sci-CRAN/covr ) r_suggests_fields? ( sci-CRAN/fields ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_papayar? ( sci-CRAN/papayar ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/xml2 sci-CRAN/oro_nifti >sci-CRAN/gifti-0.7.5 sci-CRAN/RNifti sci-CRAN/RColorBrewer r_suggests_covr? ( sci-CRAN/covr ) r_suggests_fields? ( sci-CRAN/fields ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_papayar? ( sci-CRAN/papayar ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/ciftiTools_0.1.6.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=25e4eb7547e3b20c59c9a184de59447e
+_md5_=ba0adf5a93a2158bad417fbf63c6eff8

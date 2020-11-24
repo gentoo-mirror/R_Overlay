@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/TripleR
-	>=dev-lang/R-3.1.2
+DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/plyr
+	sci-CRAN/TripleR
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

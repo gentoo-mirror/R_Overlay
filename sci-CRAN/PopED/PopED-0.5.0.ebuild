@@ -30,18 +30,18 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/mvtnorm
-	sci-CRAN/purrr
-	>=sci-CRAN/dplyr-0.7.0
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/magrittr
 	virtual/codetools
-	sci-CRAN/stringr
 	sci-CRAN/tibble
+	>=sci-CRAN/dplyr-0.7.0
 	sci-CRAN/gtools
 	>=dev-lang/R-2.14
 	sci-CRAN/ggplot2
-	sci-CRAN/magrittr
+	virtual/MASS
 	virtual/boot
+	sci-CRAN/purrr
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

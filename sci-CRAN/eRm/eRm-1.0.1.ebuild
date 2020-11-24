@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 DEPEND="virtual/MASS
 	virtual/lattice
-	>=dev-lang/R-3.5.0
-	sci-CRAN/colorspace
 	virtual/Matrix
+	sci-CRAN/colorspace
+	>=dev-lang/R-3.5.0
 	sci-CRAN/psych
 "
 RDEPEND="${DEPEND-}"

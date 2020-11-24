@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_survey? ( sci-CRAN/survey )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/reshape2
-	sci-CRAN/igraph
-	sci-CRAN/network
-	>=sci-CRAN/ggplot2-2.0.0
+DEPEND="sci-CRAN/network
 	sci-CRAN/scales
+	sci-CRAN/reshape2
 	sci-CRAN/anytime
 	sci-CRAN/Hmisc
 	sci-CRAN/statnet_common
 	sci-CRAN/isotone
+	>=sci-CRAN/ggplot2-2.0.0
+	sci-CRAN/gridExtra
+	sci-CRAN/igraph
 	sci-CRAN/ergm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

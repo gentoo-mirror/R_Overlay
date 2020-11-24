@@ -13,11 +13,11 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND="sci-CRAN/plyr
-	sci-CRAN/DBI
-	sci-CRAN/sqldf
+	sci-CRAN/RSQLite
+	sci-CRAN/dplyr
 	sci-CRAN/data_table
 	sci-CRAN/reshape2
-	sci-CRAN/dplyr
-	sci-CRAN/RSQLite
+	sci-CRAN/DBI
+	sci-CRAN/sqldf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

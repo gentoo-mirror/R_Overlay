@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/satin_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/PBSmapping
-	sci-CRAN/maptools
-	sci-CRAN/ncdf4
-	sci-CRAN/splancs
-	sci-CRAN/sp
-	sci-CRAN/geosphere
 	sci-CRAN/lubridate
+	sci-CRAN/splancs
+	sci-CRAN/geosphere
+	sci-CRAN/maptools
+	sci-CRAN/PBSmapping
 	sci-CRAN/maps
+	sci-CRAN/ncdf4
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

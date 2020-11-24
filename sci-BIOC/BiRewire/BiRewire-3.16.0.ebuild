@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/igraph
 	sci-CRAN/slam
-	virtual/Matrix
 	sci-CRAN/tsne
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

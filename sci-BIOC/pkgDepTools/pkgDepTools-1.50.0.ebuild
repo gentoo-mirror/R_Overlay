@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rcurl? ( sci-CRAN/RCurl )
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 "
-DEPEND="sci-BIOC/graph
-	sci-BIOC/RBGL
-	sci-BIOC/RBGL
+DEPEND="sci-BIOC/RBGL
 	sci-BIOC/graph
+	sci-BIOC/graph
+	sci-BIOC/RBGL
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

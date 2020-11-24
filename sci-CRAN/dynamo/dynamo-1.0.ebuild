@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/dynamo_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/glamlasso-3.0
-	>=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/abind
+	>=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/MortalitySmooth
 "
 RDEPEND="${DEPEND-}

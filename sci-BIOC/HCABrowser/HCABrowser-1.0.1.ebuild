@@ -18,19 +18,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/googleAuthR
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/readr
+	sci-CRAN/stringr
+	sci-CRAN/rlang
+	sci-CRAN/tidygraph
+	sci-CRAN/tibble
+	>=dev-lang/R-3.6.0
 	sci-BIOC/S4Vectors
 	sci-BIOC/BiocFileCache
+	sci-CRAN/dplyr
+	sci-CRAN/googleAuthR
 	sci-CRAN/httr
-	sci-CRAN/plyr
-	sci-CRAN/stringr
-	sci-CRAN/tibble
-	sci-CRAN/tidygraph
 	sci-CRAN/jsonlite
-	sci-CRAN/readr
-	sci-CRAN/rlang
+	sci-CRAN/plyr
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/MASS
-	sci-CRAN/elasticnet
-	sci-CRAN/plyr
 	sci-CRAN/ellipse
+	sci-CRAN/plyr
 	sci-CRAN/ggplot2
+	sci-CRAN/elasticnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

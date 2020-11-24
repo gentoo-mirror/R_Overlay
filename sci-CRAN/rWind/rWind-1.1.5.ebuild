@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/lubridate
+DEPEND="sci-CRAN/gdistance
 	virtual/Matrix
-	sci-CRAN/gdistance
-	>=sci-CRAN/raster-2.5.8
+	sci-CRAN/lubridate
 	>=dev-lang/R-3.4
+	>=sci-CRAN/raster-2.5.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

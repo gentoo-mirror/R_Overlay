@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/flowCHIC_1.18.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-BIOC/EBImage
-	sci-CRAN/hexbin
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.1.0
-	sci-BIOC/flowCore
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/vegan
+	sci-BIOC/EBImage
+	sci-CRAN/hexbin
+	sci-BIOC/flowCore
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/directlabels
-	sci-CRAN/cowplot
-	sci-CRAN/data_table
-	sci-CRAN/plotly
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/nloptr
-	sci-CRAN/MBA
-	virtual/Matrix
-	sci-CRAN/mAr
-	virtual/Matrix
 	sci-CRAN/mvtnorm
+	virtual/Matrix
+	virtual/Matrix
+	sci-CRAN/plotly
 	sci-CRAN/animation
 	sci-CRAN/pracma
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
+	sci-CRAN/MBA
+	sci-CRAN/mAr
+	sci-CRAN/cowplot
+	sci-CRAN/directlabels
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

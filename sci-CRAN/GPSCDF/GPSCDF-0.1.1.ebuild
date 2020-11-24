@@ -13,9 +13,9 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=sci-CRAN/dplyr-0.7.6
-	virtual/nnet
 	virtual/MASS
-	>=sci-CRAN/nbpMatching-1.5.1
 	virtual/survival
+	virtual/nnet
+	>=sci-CRAN/nbpMatching-1.5.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

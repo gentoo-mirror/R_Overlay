@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.3
+DEPEND="sci-CRAN/ggplot2
+	>=sci-CRAN/Rcpp-0.11.3
 	virtual/MASS
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH
+	sci-CRAN/RcppArmadillo
 	sci-CRAN/Rcpp
 	sci-CRAN/bigmemory
-	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

@@ -17,14 +17,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/fs
-	sci-CRAN/zip
-	sci-CRAN/writexl
-	sci-CRAN/htmltools
+	sci-CRAN/mime
 	sci-CRAN/magrittr
+	sci-CRAN/base64enc
+	sci-CRAN/writexl
+	sci-CRAN/zip
 	sci-CRAN/bsplus
 	sci-CRAN/readr
-	sci-CRAN/mime
-	sci-CRAN/base64enc
+	sci-CRAN/htmltools
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/qpcR_1.4-1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/robustbase
-	sci-CRAN/rgl
-	>=dev-lang/R-2.13.0
+	virtual/Matrix
 	sci-CRAN/minpack_lm
 	virtual/MASS
-	virtual/Matrix
+	>=dev-lang/R-2.13.0
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/dualKS_1.44.0.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND=">=sci-BIOC/Biobase-1.15.0
-	sci-BIOC/affy
+DEPEND="sci-BIOC/affy
+	>=sci-BIOC/Biobase-1.15.0
 "
 RDEPEND="${DEPEND-}"

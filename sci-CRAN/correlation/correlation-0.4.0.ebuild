@@ -38,10 +38,10 @@ R_SUGGESTS="
 	r_suggests_wdm? ( sci-CRAN/wdm )
 	r_suggests_wrs2? ( sci-CRAN/WRS2 )
 "
-DEPEND=">=sci-CRAN/bayestestR-0.5.0
+DEPEND=">=sci-CRAN/parameters-0.5.0
+	>=sci-CRAN/bayestestR-0.5.0
 	>=sci-CRAN/insight-0.8.0
 	>=sci-CRAN/effectsize-0.2.0
-	>=sci-CRAN/parameters-0.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

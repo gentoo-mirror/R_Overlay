@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_ismev? ( sci-CRAN/ismev )
 	r_suggests_lattice? ( virtual/lattice )
 "
-DEPEND="sci-CRAN/wavScalogram
-	>=dev-lang/R-3.5.0
-	sci-CRAN/goftest
+DEPEND="sci-CRAN/homtest
 	sci-CRAN/splus2R
-	sci-CRAN/homtest
+	sci-CRAN/goftest
+	sci-CRAN/wavScalogram
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

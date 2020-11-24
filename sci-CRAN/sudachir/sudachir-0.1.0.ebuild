@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/cli-2.1.0
-	>=sci-CRAN/tibble-3.0.4
-	>=sci-CRAN/purrr-0.3.4
-	>=sci-CRAN/rlang-0.4.8
+	>=sci-CRAN/tidyselect-1.1.0
 	>=sci-CRAN/reticulate-1.17
+	>=sci-CRAN/purrr-0.3.4
 	>=sci-CRAN/glue-1.4.2
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/dplyr-1.0.2
-	>=sci-CRAN/tidyselect-1.1.0
+	>=sci-CRAN/rlang-0.4.8
+	>=sci-CRAN/tibble-3.0.4
 "
 RDEPEND="${DEPEND-}
 	dev-lang/python

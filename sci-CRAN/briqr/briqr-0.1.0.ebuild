@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_httptest? ( >=sci-CRAN/httptest-3.2.2 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
-DEPEND=">=dev-lang/R-3.6.0
+DEPEND=">=sci-CRAN/dplyr-0.8.0.1
 	>=sci-CRAN/httr-1.4.0
-	>=sci-CRAN/dplyr-0.8.0.1
+	>=sci-CRAN/tibble-2.1.1
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/jsonlite-1.6
-	>=sci-CRAN/tibble-2.1.1
+	>=dev-lang/R-3.6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

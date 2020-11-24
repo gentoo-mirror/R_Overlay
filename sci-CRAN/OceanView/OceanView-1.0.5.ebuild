@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/OceanView_1.0.5.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/shape
-	sci-CRAN/plot3Drgl
-	sci-CRAN/plot3D
+DEPEND="sci-CRAN/plot3D
 	sci-CRAN/rgl
+	>=dev-lang/R-3.2
+	sci-CRAN/plot3Drgl
+	sci-CRAN/shape
 "
 RDEPEND="${DEPEND-}"

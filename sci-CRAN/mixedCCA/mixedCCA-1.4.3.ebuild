@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mixedCCA_1.4.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.0.1
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/Rcpp
-	sci-CRAN/irlba
 	sci-CRAN/fMultivar
-	sci-CRAN/chebpol
+	sci-CRAN/irlba
+	>=dev-lang/R-3.0.1
 	sci-CRAN/pcaPP
 	virtual/Matrix
 	sci-CRAN/mnormt
+	sci-CRAN/chebpol
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

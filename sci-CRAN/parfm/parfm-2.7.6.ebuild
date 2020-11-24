@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/parfm_2.7.6.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/survival
+DEPEND="sci-CRAN/optimx
+	virtual/survival
 	sci-CRAN/sn
-	sci-CRAN/optimx
 	sci-CRAN/msm
 "
 RDEPEND="${DEPEND-}"

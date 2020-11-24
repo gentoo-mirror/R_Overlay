@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/rjson
 	sci-CRAN/XML
-	>=sci-BIOC/S4Vectors-0.13.15
 	sci-CRAN/RCurl
+	sci-CRAN/rjson
+	>=sci-BIOC/S4Vectors-0.13.15
 	sci-CRAN/yaml
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

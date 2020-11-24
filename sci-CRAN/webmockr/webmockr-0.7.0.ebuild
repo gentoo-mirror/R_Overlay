@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=sci-CRAN/R6-2.1.3
+DEPEND="sci-CRAN/curl
 	sci-CRAN/base64enc
-	sci-CRAN/jsonlite
-	>=sci-CRAN/magrittr-1.5
-	sci-CRAN/curl
-	>=sci-CRAN/urltools-1.6.0
 	sci-CRAN/fauxpas
+	>=sci-CRAN/magrittr-1.5
+	sci-CRAN/jsonlite
+	>=sci-CRAN/R6-2.1.3
+	>=sci-CRAN/urltools-1.6.0
 	>=sci-CRAN/crul-0.7.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

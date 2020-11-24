@@ -20,21 +20,21 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/crayon
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/tibble
-	sci-CRAN/cli
-	sci-CRAN/purrr
-	sci-CRAN/rstudioapi
-	sci-CRAN/ggrepel
-	sci-CRAN/forcats
-	>=dev-lang/R-3.1
-	sci-CRAN/ggplot2
-	sci-CRAN/magrittr
-	sci-CRAN/recipes
-	sci-CRAN/rlang
+DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/plotly
-	sci-CRAN/stringr
+	sci-CRAN/tibble
+	sci-CRAN/ggplot2
+	sci-CRAN/recipes
+	sci-CRAN/crayon
+	sci-CRAN/rstudioapi
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
 	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/ggrepel
+	sci-CRAN/stringr
+	sci-CRAN/forcats
+	sci-CRAN/purrr
+	sci-CRAN/cli
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

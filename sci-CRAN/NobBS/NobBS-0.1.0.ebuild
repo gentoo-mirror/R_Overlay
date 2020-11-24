@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/NobBS_0.1.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/coda
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/magrittr
 	sci-CRAN/dplyr
 	sci-CRAN/rjags
-	>=dev-lang/R-3.3.0
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} sci-mathematics/jags"

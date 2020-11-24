@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sesem_1.0.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/mgcv
+DEPEND="sci-CRAN/lavaan
 	sci-CRAN/gplots
-	sci-CRAN/lavaan
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

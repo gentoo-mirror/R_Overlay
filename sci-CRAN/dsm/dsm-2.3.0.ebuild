@@ -24,7 +24,7 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/numDeriv
 	>=sci-CRAN/mrds-2.1.16
 	sci-CRAN/ggplot2
-	sci-CRAN/statmod
 	sci-CRAN/plyr
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

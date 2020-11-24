@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_plm? ( sci-CRAN/plm )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/Rcpp
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/Formula
 	virtual/nlme
-	sci-CRAN/numDeriv
 	sci-CRAN/sandwich
+	sci-CRAN/numDeriv
+	sci-CRAN/Rcpp
 	>=sci-CRAN/dreamerr-1.2.1
 "
 RDEPEND="${DEPEND-}

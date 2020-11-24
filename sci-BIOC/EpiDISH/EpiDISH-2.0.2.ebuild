@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	virtual/Matrix
+DEPEND="sci-CRAN/e1071
 	sci-CRAN/quadprog
+	virtual/MASS
+	virtual/Matrix
 	>=dev-lang/R-3.5
-	sci-CRAN/e1071
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

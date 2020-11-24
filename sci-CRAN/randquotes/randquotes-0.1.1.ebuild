@@ -12,10 +12,10 @@ LICENSE='AGPL-3'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/curl
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/curl
 	sci-CRAN/jsonlite
-	sci-CRAN/httr
 	sci-CRAN/xml2
-	>=dev-lang/R-3.2.0
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

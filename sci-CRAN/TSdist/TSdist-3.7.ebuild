@@ -12,15 +12,15 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="virtual/cluster
-	sci-CRAN/pdc
-	sci-CRAN/longitudinalData
-	sci-CRAN/TSclust
-	virtual/KernSmooth
-	>=dev-lang/R-3.0.3
-	sci-CRAN/dtw
+DEPEND=">=dev-lang/R-3.0.3
 	sci-CRAN/proxy
+	virtual/KernSmooth
 	sci-CRAN/locpol
+	sci-CRAN/dtw
+	virtual/cluster
+	sci-CRAN/longitudinalData
+	sci-CRAN/pdc
+	sci-CRAN/TSclust
 	sci-CRAN/xts
 	sci-CRAN/zoo
 "

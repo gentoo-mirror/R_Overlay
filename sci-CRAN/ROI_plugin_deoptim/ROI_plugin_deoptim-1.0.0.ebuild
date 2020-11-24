@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.plugin.deoptim_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/DEoptim
+DEPEND=">=sci-CRAN/ROI-0.3.2
 	>=sci-CRAN/DEoptimR-1.0.4
-	>=sci-CRAN/ROI-0.3.2
+	sci-CRAN/DEoptim
 "
 RDEPEND="${DEPEND-}"

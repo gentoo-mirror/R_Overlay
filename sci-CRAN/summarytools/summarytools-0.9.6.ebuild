@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )
 "
-DEPEND="sci-CRAN/checkmate
+DEPEND="sci-CRAN/base64enc
+	sci-CRAN/htmltools
+	sci-CRAN/dplyr
+	virtual/Matrix
 	sci-CRAN/magick
-	sci-CRAN/lubridate
-	sci-CRAN/rapportools
 	sci-CRAN/pryr
 	sci-CRAN/tidyr
-	sci-CRAN/base64enc
-	sci-CRAN/dplyr
-	sci-CRAN/htmltools
-	virtual/Matrix
-	sci-CRAN/pander
-	dev-lang/R[tk]
 	sci-CRAN/tibble
+	sci-CRAN/checkmate
+	sci-CRAN/lubridate
+	sci-CRAN/pander
+	sci-CRAN/rapportools
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

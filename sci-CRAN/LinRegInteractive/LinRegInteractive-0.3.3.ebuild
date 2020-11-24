@@ -18,7 +18,7 @@ R_SUGGESTS="
 	r_suggests_nlme? ( virtual/nlme )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/rpanel-1.1.4
 	sci-CRAN/xtable
+	>=sci-CRAN/rpanel-1.1.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

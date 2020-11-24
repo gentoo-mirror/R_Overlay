@@ -12,9 +12,9 @@ LICENSE='MIT'
 
 DEPEND="sci-CRAN/igraph
 	sci-CRAN/scales
+	sci-CRAN/networkD3
 	sci-CRAN/testthat
 	sci-CRAN/fields
-	sci-CRAN/networkD3
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

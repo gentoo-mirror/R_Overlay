@@ -12,10 +12,10 @@ LICENSE='MIT'
 
 DEPEND="sci-CRAN/htmlwidgets
 	sci-CRAN/ggplot2
+	sci-CRAN/dplyr
 	sci-CRAN/plyr
 	sci-CRAN/R6
 	sci-CRAN/V8
-	sci-CRAN/dplyr
 	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-}"

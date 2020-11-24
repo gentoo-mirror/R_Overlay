@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/foreach
-	>=sci-CRAN/Rcpp-0.11.0
 	sci-CRAN/doParallel
+	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/forecast
-	sci-CRAN/xtable
 	sci-CRAN/corpcor
+	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/forecast
 	sci-CRAN/plyr
 	virtual/MASS
-	>=sci-CRAN/Rcpp-0.11.0
 	sci-CRAN/separationplot
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

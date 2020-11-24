@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/tm.plugin.europresse_1.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/XML
+DEPEND="sci-CRAN/NLP
+	sci-CRAN/XML
 	>=sci-CRAN/tm-0.6
-	sci-CRAN/NLP
 "
 RDEPEND="${DEPEND-}"

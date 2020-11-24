@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_gamlss_dist? ( sci-CRAN/gamlss_dist )
 "
 DEPEND="virtual/MASS
-	sci-CRAN/Rsolnp
 	virtual/nlme
 	virtual/nnet
+	sci-CRAN/Rsolnp
 	>=dev-lang/R-3.6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

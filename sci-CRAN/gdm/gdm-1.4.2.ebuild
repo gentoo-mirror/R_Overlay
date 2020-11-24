@@ -13,10 +13,10 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
 DEPEND=">=dev-lang/R-2.15.2
-	>=sci-CRAN/Rcpp-0.10.4
 	sci-CRAN/foreach
-	sci-CRAN/raster
 	sci-CRAN/doParallel
+	>=sci-CRAN/Rcpp-0.10.4
+	sci-CRAN/raster
 	sci-CRAN/reshape2
 	sci-CRAN/vegan
 "

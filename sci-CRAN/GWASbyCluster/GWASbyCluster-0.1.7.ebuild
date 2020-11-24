@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GWASbyCluster_0.1.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/rootSolve
+DEPEND="sci-BIOC/Biobase
 	sci-BIOC/snpStats
 	sci-BIOC/limma
-	sci-BIOC/Biobase
+	sci-CRAN/rootSolve
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-}"

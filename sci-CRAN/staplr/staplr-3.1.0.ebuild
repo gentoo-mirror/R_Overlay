@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_pdftools? ( sci-CRAN/pdftools )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/glue
-	sci-CRAN/rJava
-	sci-CRAN/XML
-	sci-CRAN/assertthat
-	sci-CRAN/stringr
-	>=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/assertthat
 	dev-lang/R[tk]
+	>=dev-lang/R-3.4.0
+	sci-CRAN/stringr
+	sci-CRAN/glue
+	sci-CRAN/XML
+	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

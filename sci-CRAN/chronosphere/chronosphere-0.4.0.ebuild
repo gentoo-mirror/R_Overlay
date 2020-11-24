@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_ncdf4? ( sci-CRAN/ncdf4 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/sp
+	>=dev-lang/R-3.5.0
 	sci-CRAN/raster
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

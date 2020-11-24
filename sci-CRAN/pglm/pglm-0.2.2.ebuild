@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_car? ( sci-CRAN/car )
 	r_suggests_lmtest? ( sci-CRAN/lmtest )
 "
-DEPEND="sci-CRAN/plm
-	sci-CRAN/maxLik
-	sci-CRAN/statmod
+DEPEND="sci-CRAN/maxLik
 	sci-CRAN/Formula
+	sci-CRAN/plm
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

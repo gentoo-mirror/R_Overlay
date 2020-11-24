@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/nnet
-	sci-CRAN/rngtools
+DEPEND="sci-CRAN/randomForest
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
 	>=dev-lang/R-3.6.0
+	sci-CRAN/foreach
 	sci-CRAN/doRNG
-	sci-CRAN/randomForest
+	virtual/nnet
+	sci-CRAN/rngtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

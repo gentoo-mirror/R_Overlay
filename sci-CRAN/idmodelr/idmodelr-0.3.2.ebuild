@@ -21,16 +21,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/dplyr-0.8.3
 	>=sci-CRAN/rlang-0.4.0
-	>=sci-CRAN/ggplot2-3.2.0
-	>=sci-CRAN/viridis-0.5.1
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/purrr-0.3.2
+	>=sci-CRAN/dplyr-0.8.3
 	>=sci-CRAN/future-1.14.0
 	>=sci-CRAN/furrr-0.1.0
-	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/tibble-2.1.3
+	>=sci-CRAN/viridis-0.5.1
+	>=sci-CRAN/ggplot2-3.2.0
+	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/tidyr-0.8.3
 	>=sci-CRAN/deSolve-1.23
 "

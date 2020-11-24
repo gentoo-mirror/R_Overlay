@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_styler? ( >=sci-CRAN/styler-1.3.2 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1 )
 "
-DEPEND=">=sci-CRAN/rlang-0.3.3
+DEPEND=">=dev-lang/R-3.5
 	>=sci-CRAN/stringr-1.4
-	>=sci-CRAN/magrittr-1.5
 	sci-CRAN/purrr
-	>=dev-lang/R-3.5
-	>=sci-CRAN/ijtiff-2.2
-	>=sci-CRAN/checkmate-1.9.3
 	>=sci-CRAN/Rcpp-1.0.1
+	>=sci-CRAN/checkmate-1.9.3
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/ijtiff-2.2
+	>=sci-CRAN/rlang-0.3.3
 	>=sci-CRAN/strex-1.4
 "
 RDEPEND="${DEPEND-}

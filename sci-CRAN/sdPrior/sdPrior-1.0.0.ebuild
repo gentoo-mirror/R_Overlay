@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/sdPrior_1.0-0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/GB2
 	virtual/mgcv
-	sci-CRAN/pscl
+	sci-CRAN/GB2
 	virtual/MASS
+	sci-CRAN/pscl
 	sci-CRAN/mvtnorm
 	sci-CRAN/doParallel
 "

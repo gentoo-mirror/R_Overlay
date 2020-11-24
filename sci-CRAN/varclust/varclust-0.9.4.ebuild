@@ -21,8 +21,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.2.1
 	sci-CRAN/doRNG
 	sci-CRAN/foreach
-	sci-CRAN/RcppEigen
 	sci-CRAN/doParallel
+	sci-CRAN/RcppEigen
 	sci-CRAN/pesel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

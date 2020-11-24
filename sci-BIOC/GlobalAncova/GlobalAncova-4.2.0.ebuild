@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_vsn? ( sci-BIOC/vsn )
 "
-DEPEND="sci-BIOC/annotate
+DEPEND="sci-CRAN/corpcor
 	sci-BIOC/Biobase
-	sci-BIOC/globaltest
-	sci-CRAN/corpcor
 	sci-BIOC/AnnotationDbi
+	sci-BIOC/globaltest
+	sci-BIOC/annotate
 	sci-CRAN/dendextend
 	sci-BIOC/GSEABase
 	sci-CRAN/VGAM

@@ -18,10 +18,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-2.14.0
 	>=sci-CRAN/ape-3.1.0
-	>=sci-CRAN/mvtnorm-1.0.0
-	>=sci-CRAN/spatstat-1.36.0
 	>=sci-CRAN/polyCub-0.5.0
+	>=sci-CRAN/mvtnorm-1.0.0
 	sci-CRAN/rgl
+	>=sci-CRAN/spatstat-1.36.0
 	sci-CRAN/sm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

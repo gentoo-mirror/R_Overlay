@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/DWLasso_1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/Matrix
-	sci-CRAN/glmnet
 	sci-CRAN/hglasso
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

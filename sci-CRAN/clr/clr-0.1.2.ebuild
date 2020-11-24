@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/clr_0.1.2.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND="sci-CRAN/lubridate
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-}"

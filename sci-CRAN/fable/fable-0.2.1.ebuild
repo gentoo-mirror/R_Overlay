@@ -24,15 +24,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tsibbledata? ( >=sci-CRAN/tsibbledata-0.2.0 )
 "
-DEPEND="sci-CRAN/distributional
+DEPEND=">=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/tibble
 	>=sci-CRAN/fabletools-0.2.0
-	>=sci-CRAN/Rcpp-0.11.0
+	>=sci-CRAN/tsibble-0.9.0
 	>=dev-lang/R-3.4.0
 	>=sci-CRAN/rlang-0.4.6
 	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/tsibble-0.9.0
-	sci-CRAN/tibble
 	sci-CRAN/tidyr
+	sci-CRAN/distributional
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.0

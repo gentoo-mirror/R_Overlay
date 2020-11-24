@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/psychotools
 	sci-CRAN/Rdpack
+	sci-CRAN/psychotools
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BDWreg_1.2.0.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/coda
+DEPEND="sci-CRAN/coda
+	virtual/MASS
+	sci-CRAN/DWreg
+	sci-CRAN/doParallel
 	>=dev-lang/R-3.0
 	sci-CRAN/foreach
-	sci-CRAN/doParallel
-	sci-CRAN/DWreg
 "
 RDEPEND="${DEPEND-}"

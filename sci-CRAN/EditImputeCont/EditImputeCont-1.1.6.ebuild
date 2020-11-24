@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EditImputeCont_1.1.6.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/editrules
-	sci-CRAN/Rcpp
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

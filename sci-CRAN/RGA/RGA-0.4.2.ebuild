@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/lubridate
-	sci-CRAN/plyr
 	>=sci-CRAN/httr-1.1.0
+	sci-CRAN/plyr
 	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

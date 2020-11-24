@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 "
-DEPEND="sci-CRAN/fpc
-	sci-CRAN/moments
+DEPEND="virtual/MASS
 	sci-CRAN/rlang
-	sci-CRAN/forecast
-	sci-CRAN/tsibble
-	sci-CRAN/ggplot2
+	sci-CRAN/fpc
+	sci-CRAN/tibble
 	sci-CRAN/dplyr
+	sci-CRAN/viridis
+	sci-CRAN/tsibble
+	sci-CRAN/moments
+	sci-CRAN/forecast
+	sci-CRAN/ggplot2
 	sci-CRAN/purrr
 	sci-CRAN/tidyr
-	sci-CRAN/tibble
-	virtual/MASS
 	sci-CRAN/magrittr
-	sci-CRAN/viridis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

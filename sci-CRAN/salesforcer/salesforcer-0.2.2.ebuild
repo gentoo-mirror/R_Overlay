@@ -23,25 +23,25 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/XML-3.99.0.3
-	>=sci-CRAN/purrr-0.3.4
-	>=sci-CRAN/readr-1.3.1
-	>=sci-CRAN/zip-2.0.4
-	>=sci-CRAN/base64enc-0.1.3
-	>=sci-CRAN/httr-1.4.1
-	>=sci-CRAN/jsonlite-1.6.1
-	>=sci-CRAN/mime-0.9
-	>=sci-CRAN/rlang-0.4.7
+DEPEND=">=sci-CRAN/tibble-3.0.3
 	>=sci-CRAN/curl-4.3
+	>=sci-CRAN/base64enc-0.1.3
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/httr-1.4.1
 	>=sci-CRAN/data_table-1.13.0
 	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/xml2-1.3.2
-	>=sci-CRAN/tibble-3.0.3
-	>=sci-CRAN/lifecycle-0.2.0
-	>=sci-CRAN/rlist-0.4.6.1
 	>=sci-CRAN/vctrs-0.3.4
+	>=sci-CRAN/jsonlite-1.6.1
+	>=sci-CRAN/mime-0.9
+	>=sci-CRAN/rlist-0.4.6.1
+	>=sci-CRAN/rlang-0.4.7
+	>=sci-CRAN/xml2-1.3.2
+	>=sci-CRAN/readr-1.3.1
 	>=sci-CRAN/lubridate-1.7.8
+	>=sci-CRAN/purrr-0.3.4
+	>=sci-CRAN/XML-3.99.0.3
+	>=sci-CRAN/zip-2.0.4
+	>=sci-CRAN/lifecycle-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

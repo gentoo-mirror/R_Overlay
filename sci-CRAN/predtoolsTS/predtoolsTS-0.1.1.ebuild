@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/predtoolsTS_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/caret
-	sci-CRAN/tseries
 	sci-CRAN/TSPred
 	sci-CRAN/forecast
 	sci-CRAN/Metrics
+	sci-CRAN/tseries
 "
 RDEPEND="${DEPEND-}"

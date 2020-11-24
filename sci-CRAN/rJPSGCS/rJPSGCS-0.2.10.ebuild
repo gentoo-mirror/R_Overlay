@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rJPSGCS_0.2-10.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-2.12.0
+DEPEND=">=sci-BIOC/chopsticks-1.18.0
+	>=dev-lang/R-2.12.0
 	>=sci-CRAN/rJava-0.8.4
-	>=sci-BIOC/chopsticks-1.18.0
 "
 RDEPEND="${DEPEND-} virtual/jdk"

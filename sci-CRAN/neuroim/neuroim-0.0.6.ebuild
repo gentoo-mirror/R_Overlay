@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/yaImpute
-	sci-CRAN/iterators
-	sci-CRAN/Rcpp
-	sci-CRAN/rgl
-	sci-CRAN/abind
-	>=dev-lang/R-3.0.0
-	sci-CRAN/stringr
-	sci-CRAN/hash
+DEPEND=">=dev-lang/R-3.0.0
 	virtual/Matrix
+	sci-CRAN/hash
+	sci-CRAN/stringr
+	sci-CRAN/yaImpute
+	sci-CRAN/Rcpp
+	sci-CRAN/iterators
+	sci-CRAN/abind
 	sci-CRAN/assertthat
 	sci-CRAN/readr
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

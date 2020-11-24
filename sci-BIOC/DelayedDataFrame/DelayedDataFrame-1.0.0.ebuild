@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6
-	>=sci-BIOC/DelayedArray-0.7.5
+DEPEND=">=sci-BIOC/DelayedArray-0.7.5
 	sci-BIOC/BiocGenerics
 	>=sci-BIOC/S4Vectors-0.19.12
+	>=dev-lang/R-3.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

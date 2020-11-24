@@ -27,16 +27,16 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/reshape2
 	sci-CRAN/Rcpp
+	virtual/MASS
+	sci-CRAN/sandwich
+	sci-CRAN/ggplot2
+	>=sci-CRAN/lava-1.6.4
+	sci-CRAN/doParallel
 	virtual/Matrix
 	sci-CRAN/multcomp
-	>=sci-CRAN/lava-1.6.4
-	sci-CRAN/reshape2
-	sci-CRAN/sandwich
-	sci-CRAN/doParallel
-	sci-CRAN/ggplot2
-	sci-CRAN/mvtnorm
 	virtual/nlme
 "
 RDEPEND="${DEPEND-}

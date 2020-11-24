@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_spelling"
 R_SUGGESTS="r_suggests_spelling? ( sci-CRAN/spelling )"
-DEPEND="sci-CRAN/xts
-	sci-CRAN/zoo
+DEPEND="sci-CRAN/zoo
+	sci-CRAN/xts
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

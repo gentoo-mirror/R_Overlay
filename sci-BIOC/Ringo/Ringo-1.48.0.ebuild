@@ -12,15 +12,15 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_mclust"
 R_SUGGESTS="r_suggests_mclust? ( sci-CRAN/mclust )"
-DEPEND="virtual/Matrix
-	>=sci-BIOC/BiocGenerics-0.1.11
-	sci-BIOC/limma
-	sci-BIOC/limma
-	>=sci-BIOC/Biobase-1.14.1
-	sci-CRAN/RColorBrewer
-	virtual/lattice
+DEPEND="sci-CRAN/RColorBrewer
 	sci-BIOC/genefilter
 	sci-BIOC/vsn
+	>=sci-BIOC/BiocGenerics-0.1.11
+	>=sci-BIOC/Biobase-1.14.1
+	sci-BIOC/limma
+	virtual/Matrix
+	virtual/lattice
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

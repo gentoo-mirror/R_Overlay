@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND="sci-CRAN/rlang
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/dplyr-0.8.5
+DEPEND=">=sci-CRAN/dplyr-0.8.5
 	>=sci-CRAN/wrapr-2.0.2
+	>=dev-lang/R-3.4.0
+	sci-CRAN/rlang
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

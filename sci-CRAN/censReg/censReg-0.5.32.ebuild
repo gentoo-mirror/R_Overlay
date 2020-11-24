@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_aer? ( sci-CRAN/AER )
 	r_suggests_lmtest? ( >=sci-CRAN/lmtest-0.9.27 )
 "
-DEPEND=">=sci-CRAN/maxLik-0.7.3
-	>=sci-CRAN/glmmML-0.81.6
-	sci-CRAN/plm
+DEPEND=">=sci-CRAN/glmmML-0.81.6
 	>=sci-CRAN/sandwich-2.2.6
 	>=sci-CRAN/miscTools-0.6.11
+	sci-CRAN/plm
+	>=sci-CRAN/maxLik-0.7.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

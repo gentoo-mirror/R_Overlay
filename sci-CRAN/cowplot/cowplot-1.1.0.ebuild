@@ -32,11 +32,11 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_venndiagram? ( sci-CRAN/VennDiagram )
 "
-DEPEND=">sci-CRAN/ggplot2-2.2.1
+DEPEND=">=dev-lang/R-3.5.0
+	>sci-CRAN/ggplot2-2.2.1
 	sci-CRAN/rlang
-	sci-CRAN/gtable
-	>=dev-lang/R-3.5.0
 	sci-CRAN/scales
+	sci-CRAN/gtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/qpcrNorm_1
 LICENSE='LGPL-2+'
 
 DEPEND="sci-BIOC/limma
-	sci-BIOC/Biobase
 	sci-BIOC/affy
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_manet? ( sci-CRAN/manet )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/igraph
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/mvtnorm
 	sci-CRAN/ergm
+	sci-CRAN/igraph
 	sci-CRAN/network
+	virtual/MASS
 	sci-CRAN/ellipse
 	sci-CRAN/glmmML
-	sci-CRAN/mvtnorm
-	>=dev-lang/R-3.5
-	virtual/MASS
 	sci-CRAN/corpcor
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

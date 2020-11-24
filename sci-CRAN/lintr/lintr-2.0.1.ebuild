@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_mockery? ( sci-CRAN/mockery )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/rstudioapi-0.2
-	sci-CRAN/rex
-	>=sci-CRAN/xml2-1.0.0
-	>=sci-CRAN/xmlparsedata-1.0.3
+DEPEND="sci-CRAN/rex
 	sci-CRAN/cyclocomp
 	virtual/codetools
+	>=sci-CRAN/rstudioapi-0.2
+	sci-CRAN/digest
+	>=dev-lang/R-3.2
 	sci-CRAN/crayon
 	>=sci-CRAN/testthat-2.2.1
-	sci-CRAN/digest
 	>=sci-CRAN/httr-1.2.1
 	sci-CRAN/jsonlite
 	sci-CRAN/knitr
+	>=sci-CRAN/xml2-1.0.0
+	>=sci-CRAN/xmlparsedata-1.0.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

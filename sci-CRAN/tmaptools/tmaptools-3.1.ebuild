@@ -20,17 +20,17 @@ R_SUGGESTS="
 	r_suggests_shinyjs? ( sci-CRAN/shinyjs )
 	r_suggests_tmap? ( >=sci-CRAN/tmap-3.0 )
 "
-DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/units-0.6.1
-	>=sci-CRAN/sf-0.9.2
-	>=sci-CRAN/stars-0.4.1
-	>=sci-CRAN/lwgeom-0.1.4
-	virtual/class
-	sci-CRAN/viridisLite
-	sci-CRAN/XML
+DEPEND=">=sci-CRAN/sf-0.9.2
 	sci-CRAN/magrittr
-	sci-CRAN/RColorBrewer
+	>=sci-CRAN/units-0.6.1
+	virtual/class
+	>=sci-CRAN/lwgeom-0.1.4
+	sci-CRAN/viridisLite
 	sci-CRAN/dichromat
+	sci-CRAN/XML
+	>=dev-lang/R-3.5
+	>=sci-CRAN/stars-0.4.1
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

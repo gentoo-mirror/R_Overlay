@@ -22,16 +22,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/rmarkdown
+DEPEND=">=sci-CRAN/officer-0.3.13
+	>=sci-CRAN/gdtools-0.1.6
+	sci-CRAN/xml2
+	sci-CRAN/base64enc
+	sci-CRAN/rmarkdown
 	sci-CRAN/knitr
+	sci-CRAN/htmltools
 	sci-CRAN/data_table
 	sci-CRAN/uuid
-	>=sci-CRAN/officer-0.3.13
-	sci-CRAN/htmltools
-	sci-CRAN/xml2
-	>=sci-CRAN/gdtools-0.1.6
 	sci-CRAN/rlang
-	sci-CRAN/base64enc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

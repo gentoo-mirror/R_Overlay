@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/uplift_0.3.5.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/tables
-	sci-CRAN/coin
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/RItools
-	>=dev-lang/R-3.0.0
 	virtual/MASS
 	sci-CRAN/penalized
+	sci-CRAN/coin
+	sci-CRAN/tables
 "
 RDEPEND="${DEPEND-}"

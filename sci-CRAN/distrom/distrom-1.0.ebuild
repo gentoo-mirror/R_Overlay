@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_textir? ( sci-CRAN/textir )
 "
-DEPEND="sci-CRAN/gamlr
-	>=dev-lang/R-2.15
+DEPEND=">=dev-lang/R-2.15
 	virtual/Matrix
+	sci-CRAN/gamlr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GxM_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/minqa
-	virtual/nlme
+DEPEND="virtual/nlme
 	sci-CRAN/Rcpp
+	sci-CRAN/minqa
 "
 RDEPEND="${DEPEND-}"

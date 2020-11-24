@@ -25,20 +25,20 @@ R_SUGGESTS="
 	r_suggests_svglite? ( sci-CRAN/svglite )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/scales
+DEPEND="sci-CRAN/tidyselect
+	>=sci-CRAN/purrr-0.2.3
+	sci-CRAN/HDInterval
+	sci-CRAN/scales
 	sci-CRAN/tibble
-	sci-CRAN/forcats
 	sci-CRAN/vctrs
 	sci-CRAN/fda
 	sci-CRAN/distributional
 	>=dev-lang/R-3.5.0
-	sci-CRAN/HDInterval
-	>=sci-CRAN/ggplot2-3.3.0
-	>=sci-CRAN/tidyr-1.0.0
 	>=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/tidyselect
-	>=sci-CRAN/purrr-0.2.3
+	>=sci-CRAN/tidyr-1.0.0
+	>=sci-CRAN/ggplot2-3.3.0
 	>=sci-CRAN/rlang-0.3.0
+	sci-CRAN/forcats
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

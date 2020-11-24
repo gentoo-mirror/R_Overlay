@@ -12,11 +12,11 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND="sci-CRAN/lpSolve
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/LowRankQP
 	virtual/Matrix
+	sci-CRAN/lpSolve
 	sci-CRAN/Rcpp
-	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

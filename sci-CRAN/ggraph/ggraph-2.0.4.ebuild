@@ -24,21 +24,21 @@ R_SUGGESTS="
 	r_suggests_seriation? ( sci-CRAN/seriation )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND=">=sci-CRAN/igraph-1.0.0
+DEPEND=">=sci-CRAN/ggplot2-3.0.0
+	sci-CRAN/ggrepel
+	sci-CRAN/rlang
+	sci-CRAN/dplyr
+	>=sci-CRAN/ggforce-0.3.1
 	sci-CRAN/gtable
 	sci-CRAN/scales
-	virtual/MASS
-	sci-CRAN/viridis
-	sci-CRAN/rlang
-	>=sci-CRAN/Rcpp-0.12.2
-	sci-CRAN/withr
-	>=sci-CRAN/ggforce-0.3.1
+	>=sci-CRAN/igraph-1.0.0
 	sci-CRAN/digest
+	sci-CRAN/viridis
+	sci-CRAN/withr
+	>=sci-CRAN/Rcpp-0.12.2
+	virtual/MASS
 	sci-CRAN/tidygraph
-	>=sci-CRAN/ggplot2-3.0.0
 	>=sci-CRAN/graphlayouts-0.5.0
-	sci-CRAN/dplyr
-	sci-CRAN/ggrepel
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

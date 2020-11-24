@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pubmed.mineR_1.0.16.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/XML
-	sci-CRAN/R2HTML
-	virtual/boot
+DEPEND="virtual/boot
+	sci-CRAN/XML
 	sci-CRAN/RCurl
+	sci-CRAN/R2HTML
 "
 RDEPEND="${DEPEND-}"

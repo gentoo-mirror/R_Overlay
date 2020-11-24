@@ -13,8 +13,8 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_desolve"
 R_SUGGESTS="r_suggests_desolve? ( sci-CRAN/deSolve )"
 DEPEND=">=dev-lang/R-2.15
+	sci-CRAN/foreach
 	sci-CRAN/optimx
 	sci-CRAN/cmaes
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

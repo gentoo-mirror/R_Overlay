@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/base64enc
-	sci-CRAN/httr
-	sci-CRAN/curl
 	sci-CRAN/magrittr
-	sci-CRAN/glue
 	sci-CRAN/stringi
+	sci-CRAN/curl
+	sci-CRAN/httr
+	sci-CRAN/glue
 	sci-CRAN/mime
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

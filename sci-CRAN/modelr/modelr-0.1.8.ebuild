@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/rlang-0.2.0
-	>=sci-CRAN/tidyr-0.8.0
-	sci-CRAN/vctrs
-	sci-CRAN/magrittr
-	>=dev-lang/R-3.2
-	>=sci-CRAN/purrr-0.2.2
-	sci-CRAN/broom
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/tibble
+	>=sci-CRAN/purrr-0.2.2
+	>=sci-CRAN/tidyr-0.8.0
+	>=sci-CRAN/rlang-0.2.0
 	sci-CRAN/tidyselect
+	>=dev-lang/R-3.2
+	sci-CRAN/broom
+	sci-CRAN/vctrs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

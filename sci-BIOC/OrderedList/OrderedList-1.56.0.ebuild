@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/OrderedLis
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-BIOC/twilight-1.9.2
+	sci-BIOC/twilight
 	>=sci-BIOC/Biobase-1.5.12
 	sci-BIOC/Biobase
-	sci-BIOC/twilight
 "
 RDEPEND="${DEPEND-}"

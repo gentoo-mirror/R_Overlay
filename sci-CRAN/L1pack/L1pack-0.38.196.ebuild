@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_heavy"
 R_SUGGESTS="r_suggests_heavy? ( sci-CRAN/heavy )"
-DEPEND="virtual/Matrix
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	virtual/Matrix

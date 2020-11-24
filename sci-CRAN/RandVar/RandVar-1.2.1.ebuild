@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RandVar_1.2.1.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.4
-	>=sci-CRAN/distrEx-2.8.0
-	sci-CRAN/startupmsg
 	>=sci-CRAN/distr-2.8.0
+	sci-CRAN/startupmsg
+	>=sci-CRAN/distrEx-2.8.0
 "
 RDEPEND="${DEPEND-}"

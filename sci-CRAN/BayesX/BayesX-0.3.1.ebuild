@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_spdep? ( sci-CRAN/spdep )
 "
 DEPEND="sci-CRAN/shapefiles
-	sci-CRAN/coda
-	sci-CRAN/maptools
 	sci-CRAN/colorspace
+	sci-CRAN/maptools
 	sci-CRAN/sp
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

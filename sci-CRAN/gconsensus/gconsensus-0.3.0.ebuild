@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gconsensus_0.3.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=sci-CRAN/rjags-4.10
+DEPEND=">=dev-lang/R-3.5
 	>=sci-CRAN/coda-0.13
+	>=sci-CRAN/rjags-4.10
 	virtual/MASS
-	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-}"

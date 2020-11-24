@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/CGHcall_2.46.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-BIOC/CGHbase-1.15.1
+DEPEND="sci-BIOC/Biobase
+	>=sci-BIOC/CGHbase-1.15.1
+	>=sci-BIOC/impute-1.8.0
 	sci-CRAN/snowfall
 	>=sci-BIOC/DNAcopy-1.6.0
-	>=sci-BIOC/impute-1.8.0
-	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

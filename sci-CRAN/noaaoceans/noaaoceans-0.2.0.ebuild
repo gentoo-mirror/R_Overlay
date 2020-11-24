@@ -26,7 +26,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/httr
 	sci-CRAN/jsonlite
-	sci-CRAN/xml2
 	sci-CRAN/rvest
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

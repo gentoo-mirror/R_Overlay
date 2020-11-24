@@ -24,14 +24,14 @@ R_SUGGESTS="
 	r_suggests_lhs? ( sci-CRAN/lhs )
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.10.5
-	sci-CRAN/testthat
-	virtual/MASS
+DEPEND="virtual/MASS
+	>=sci-CRAN/Rcpp-0.10.5
 	sci-CRAN/nloptr
 	virtual/lattice
+	sci-CRAN/testthat
 	sci-CRAN/numDeriv
-	sci-CRAN/doFuture
 	sci-CRAN/doParallel
+	sci-CRAN/doFuture
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_zoo? ( >=sci-CRAN/zoo-1.6.4 )
 "
-DEPEND="sci-CRAN/Rcpp
-	>=dev-lang/R-3.3.0
-	sci-CRAN/chandwich
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/Rcpp
 	sci-CRAN/RcppRoll
+	sci-CRAN/chandwich
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/BinNor_2.3.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/corpcor
-	virtual/Matrix
 	sci-CRAN/psych
+	virtual/Matrix
+	sci-CRAN/corpcor
 "
 RDEPEND="${DEPEND-}"

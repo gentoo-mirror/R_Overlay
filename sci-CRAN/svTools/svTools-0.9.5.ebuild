@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/svTools_0.9-5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/codetools
-	sci-CRAN/svMisc
+DEPEND="sci-CRAN/svMisc
+	virtual/codetools
 "
 RDEPEND="${DEPEND-}"

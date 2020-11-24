@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/TR8_0.9.21.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/XML
-	sci-CRAN/readxl
-	sci-CRAN/RCurl
 	sci-CRAN/rappdirs
-	>=dev-lang/R-3.5.0
-	sci-CRAN/plyr
-	sci-CRAN/reshape
 	sci-CRAN/shiny
 	sci-CRAN/taxize
+	sci-CRAN/readxl
+	>=dev-lang/R-3.5.0
+	sci-CRAN/plyr
+	sci-CRAN/RCurl
+	sci-CRAN/reshape
 "
 RDEPEND="${DEPEND-}"

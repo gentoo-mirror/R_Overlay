@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_covr? ( >=sci-CRAN/covr-3.4.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/curl-4.3
-	>=sci-CRAN/dplyr-0.8.3
-	>=sci-CRAN/httr-1.4.1
-	>=sci-CRAN/lubridate-1.7.4
+DEPEND=">=sci-CRAN/httr-1.4.1
 	>=sci-CRAN/glue-1.3.1
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/lubridate-1.7.4
 	>=sci-CRAN/purrr-0.3.3
 	>=sci-CRAN/snakecase-0.11.0
 	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/tibble-2.1.3
 	>=sci-CRAN/tidyr-1.0.2
+	>=sci-CRAN/curl-4.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

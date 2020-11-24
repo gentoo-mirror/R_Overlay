@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 	r_suggests_visnetwork? ( sci-CRAN/visNetwork )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/xml2
+DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/rvest
-	sci-CRAN/igraph
+	sci-CRAN/xml2
+	sci-CRAN/dplyr
 	sci-CRAN/stringr
-	>=dev-lang/R-3.4
+	sci-CRAN/igraph
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

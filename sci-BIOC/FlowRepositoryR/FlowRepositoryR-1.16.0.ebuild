@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_flowcore? ( sci-BIOC/flowCore )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=dev-lang/R-3.2
+DEPEND="sci-CRAN/XML
 	sci-CRAN/RCurl
+	>=dev-lang/R-3.2
 	sci-CRAN/jsonlite
-	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

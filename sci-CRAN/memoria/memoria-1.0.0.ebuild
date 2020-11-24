@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart virtual/rpart )
 	r_suggests_virtualpollen? ( sci-CRAN/virtualPollen )
 "
-DEPEND="sci-CRAN/viridis
-	sci-CRAN/tidyr
-	sci-CRAN/stringr
-	sci-CRAN/HH
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/zoo
-	sci-CRAN/cowplot
-	sci-CRAN/ggplot2
+	sci-CRAN/stringr
+	sci-CRAN/viridis
 	sci-CRAN/ranger
+	sci-CRAN/cowplot
 	sci-CRAN/viridisLite
+	sci-CRAN/HH
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

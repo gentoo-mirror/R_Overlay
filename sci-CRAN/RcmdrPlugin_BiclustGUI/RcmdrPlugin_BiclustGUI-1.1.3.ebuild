@@ -17,16 +17,16 @@ R_SUGGESTS="
 	r_suggests_rqubic? ( sci-BIOC/rqubic )
 "
 DEPEND="sci-CRAN/biclust
-	>=sci-CRAN/BiBitR-0.3.1
-	sci-CRAN/gplots
-	dev-lang/R[tk]
-	sci-CRAN/s4vd
-	sci-CRAN/viridis
+	sci-BIOC/fabia
 	>=sci-CRAN/BcDiag-1.0.10
 	>=sci-CRAN/superbiclust-1.1
 	sci-BIOC/iBBiG
-	sci-BIOC/fabia
 	sci-BIOC/BicARE
+	sci-CRAN/s4vd
+	>=sci-CRAN/BiBitR-0.3.1
 	sci-CRAN/Rcmdr
+	dev-lang/R[tk]
+	sci-CRAN/gplots
+	sci-CRAN/viridis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

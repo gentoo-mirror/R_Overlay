@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROCnReg_1.0-3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/spatstat
-	sci-CRAN/moments
-	sci-CRAN/pbivnorm
-	sci-CRAN/np
+DEPEND="sci-CRAN/moments
 	sci-CRAN/nor1mix
 	virtual/lattice
+	sci-CRAN/spatstat
+	sci-CRAN/np
+	virtual/Matrix
 	virtual/MASS
+	sci-CRAN/pbivnorm
 "
 RDEPEND="${DEPEND-}"

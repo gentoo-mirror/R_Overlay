@@ -28,14 +28,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/pracma
+DEPEND="sci-CRAN/R_matlab
+	sci-CRAN/viridis
 	sci-CRAN/assertthat
-	sci-CRAN/purrr
+	sci-CRAN/dplyr
 	sci-CRAN/rlist
 	>=dev-lang/R-3.2.1
+	sci-CRAN/pracma
 	sci-CRAN/stringr
-	sci-CRAN/R_matlab
-	sci-CRAN/dplyr
-	sci-CRAN/viridis
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

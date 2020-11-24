@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/MCMC.qpcr_1.2.4.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/MCMCglmm
-	sci-CRAN/ggplot2
 	sci-CRAN/coda
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

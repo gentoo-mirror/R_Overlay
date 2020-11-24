@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/png virtual/lattice sci-CRAN/jpeg sci-CRAN/RColorBrewer dev-lang/R
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/jpeg virtual/lattice sci-CRAN/RColorBrewer sci-CRAN/png dev-lang/R
 DESCRIPTION=Extra Graphical Utilities Based on Lattice
 EAPI=7
 IUSE=r_suggests_deldir r_suggests_mapproj r_suggests_maps r_suggests_mass r_suggests_mgcv r_suggests_quantreg r_suggests_tripack r_suggests_zoo byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/png virtual/lattice sci-CRAN/jpeg sci-CRAN/RColorBrewer r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_mass? ( virtual/MASS ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_quantreg? ( sci-CRAN/quantreg ) r_suggests_tripack? ( sci-CRAN/tripack ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/jpeg virtual/lattice sci-CRAN/RColorBrewer sci-CRAN/png r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_mass? ( virtual/MASS ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_quantreg? ( sci-CRAN/quantreg ) r_suggests_tripack? ( sci-CRAN/tripack ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/latticeExtra_0.6-29.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=f48f7fc3cf79588e41cd666417377e08
+_md5_=9276783467e90114ea88e75a04beeb55

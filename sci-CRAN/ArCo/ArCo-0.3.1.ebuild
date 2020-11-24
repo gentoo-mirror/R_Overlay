@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ArCo_0.3-1.tar.gz"
 LICENSE='MIT'
 
 DEPEND="virtual/Matrix
-	virtual/boot
 	sci-CRAN/glmnet
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

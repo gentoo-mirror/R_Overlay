@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/conquer_1.0.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/Matrix
 	>=sci-CRAN/Rcpp-1.0.3
+	virtual/Matrix
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}

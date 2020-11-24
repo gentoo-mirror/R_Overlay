@@ -18,19 +18,19 @@ R_SUGGESTS="
 	r_suggests_shiny? ( >=sci-CRAN/shiny-1.4.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/tidyr-0.8.0
+DEPEND=">=sci-CRAN/lavaan-0.6.2
 	>=sci-CRAN/dplyr-0.7.4
-	>=sci-CRAN/rlang-0.1.6
-	>=sci-CRAN/semPlot-1.1
-	>=sci-CRAN/purrr-0.3.4
-	sci-CRAN/data_table
-	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/tibble-1.4.2
-	>=sci-CRAN/lavaan-0.6.2
-	>=sci-CRAN/ggplot2-2.2.1
+	>=sci-CRAN/tidyr-0.8.0
+	>=sci-CRAN/rlang-0.1.6
 	>=sci-CRAN/broom-0.5.1
+	>=sci-CRAN/semPlot-1.1
+	sci-CRAN/data_table
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/ggplot2-2.2.1
 	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/purrr-0.3.4
 	sci-CRAN/utf8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

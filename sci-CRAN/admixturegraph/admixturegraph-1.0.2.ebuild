@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.2
-	virtual/MASS
+	sci-CRAN/foreach
+	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
 	sci-CRAN/doParallel
-	sci-CRAN/ggplot2
-	sci-CRAN/foreach
+	virtual/MASS
 	sci-CRAN/neldermead
 	sci-CRAN/pracma
 "

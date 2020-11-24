@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/survival
-	sci-CRAN/sandwich
+DEPEND="sci-CRAN/sandwich
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

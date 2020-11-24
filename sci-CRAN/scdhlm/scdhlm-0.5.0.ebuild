@@ -26,9 +26,9 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/lmeInfo
-	>=dev-lang/R-3.0.1
+DEPEND="sci-CRAN/readxl
 	virtual/nlme
-	sci-CRAN/readxl
+	sci-CRAN/lmeInfo
+	>=dev-lang/R-3.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

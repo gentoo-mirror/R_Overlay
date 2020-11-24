@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/checkmate
-	sci-CRAN/rjson
-	sci-CRAN/pbapply
-	sci-CRAN/geodist
-	>=dev-lang/R-3.2
-	sci-CRAN/data_table
-	sci-CRAN/googlePolylines
-	sci-CRAN/curl
+DEPEND="sci-CRAN/googlePolylines
+	sci-CRAN/tibble
 	sci-CRAN/lubridate
 	>=sci-CRAN/sf-0.9.3
-	sci-CRAN/tibble
+	sci-CRAN/rjson
+	>=dev-lang/R-3.2
+	sci-CRAN/data_table
+	sci-CRAN/geodist
+	sci-CRAN/checkmate
+	sci-CRAN/curl
+	sci-CRAN/pbapply
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

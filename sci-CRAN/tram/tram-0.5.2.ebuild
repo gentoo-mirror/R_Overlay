@@ -44,12 +44,12 @@ R_SUGGESTS="
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 	r_suggests_trtf? ( >=sci-CRAN/trtf-0.3.3 )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/Formula
-	>=sci-CRAN/mlt-1.2.0
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/variables-1.0.2
+	virtual/Matrix
+	>=sci-CRAN/mlt-1.2.0
 	sci-CRAN/multcomp
+	sci-CRAN/Formula
 	>=sci-CRAN/basefun-1.0.5
 	sci-CRAN/sandwich
 	virtual/survival

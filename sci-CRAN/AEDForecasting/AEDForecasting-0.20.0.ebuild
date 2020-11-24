@@ -13,8 +13,8 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/forecast
 	sci-CRAN/signal
+	sci-CRAN/forecast
 	sci-CRAN/changepoint
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

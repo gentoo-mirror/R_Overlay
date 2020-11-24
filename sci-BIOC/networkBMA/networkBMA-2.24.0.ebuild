@@ -11,16 +11,16 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/networkBMA
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/BMA
-	sci-CRAN/leaps
-	>=sci-CRAN/Rcpp-0.10.3
 	>=sci-CRAN/RcppArmadillo-0.3.810.2
+	>=sci-CRAN/Rcpp-0.10.3
+	sci-CRAN/BMA
 	>=sci-CRAN/RcppEigen-0.3.1.2.1
+	sci-CRAN/leaps
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/RcppEigen
-	virtual/lapack
 	sci-CRAN/BH
-	sci-CRAN/Rcpp
+	virtual/lapack
+	sci-CRAN/RcppEigen
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/Rcpp
 "

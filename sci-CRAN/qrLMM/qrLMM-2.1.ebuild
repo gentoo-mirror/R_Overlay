@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/qrLMM_2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/mvtnorm
-	dev-lang/R[tk]
-	sci-CRAN/psych
 	sci-CRAN/quantreg
 	sci-CRAN/lqr
+	dev-lang/R[tk]
+	sci-CRAN/psych
 	sci-CRAN/ald
 "
 RDEPEND="${DEPEND-}"

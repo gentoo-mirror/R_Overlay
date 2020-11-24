@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nearfar_1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/nbpMatching
-	sci-CRAN/car
-	virtual/MASS
+DEPEND="sci-CRAN/car
 	sci-CRAN/GenSA
+	sci-CRAN/nbpMatching
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_longitudinal? ( sci-CRAN/longitudinal )
 "
-DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/amap
+DEPEND="sci-CRAN/amap
+	>=dev-lang/R-3.2.3
 	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

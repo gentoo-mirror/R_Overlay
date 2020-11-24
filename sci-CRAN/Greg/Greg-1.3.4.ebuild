@@ -23,16 +23,16 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/forestplot
-	>=sci-CRAN/htmlTable-2.0.0
+DEPEND=">=sci-CRAN/htmlTable-2.0.0
+	sci-CRAN/knitr
+	sci-CRAN/magrittr
+	sci-CRAN/Epi
+	sci-CRAN/forestplot
+	sci-CRAN/Hmisc
 	>=sci-CRAN/Gmisc-1.0.3
 	sci-CRAN/rms
-	sci-CRAN/knitr
-	sci-CRAN/Hmisc
 	sci-CRAN/stringr
 	sci-CRAN/sandwich
 	virtual/nlme
-	sci-CRAN/magrittr
-	sci-CRAN/Epi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

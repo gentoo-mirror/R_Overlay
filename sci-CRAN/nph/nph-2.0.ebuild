@@ -21,7 +21,7 @@ R_SUGGESTS="
 	r_suggests_styler? ( sci-CRAN/styler )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/mvtnorm
 	sci-CRAN/ggplot2
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

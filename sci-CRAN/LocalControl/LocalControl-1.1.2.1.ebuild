@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_teachingdemos? ( sci-CRAN/TeachingDemos )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="virtual/lattice
 	sci-CRAN/Rcpp
-	virtual/lattice
+	>=dev-lang/R-3.0.0
 	virtual/cluster
 	sci-CRAN/gss
 "

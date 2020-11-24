@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_vsn"
 R_SUGGESTS="r_suggests_vsn? ( >=sci-BIOC/vsn-1.7.2 )"
-DEPEND=">=sci-BIOC/Biobase-1.12.0
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
+	>=sci-BIOC/Biobase-1.12.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

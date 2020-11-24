@@ -12,10 +12,10 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.14.1
 	sci-CRAN/BB
+	sci-CRAN/moments
 	sci-CRAN/Bolstad2
+	sci-CRAN/optimx
 	sci-CRAN/sn
 	sci-CRAN/Rmpfr
-	sci-CRAN/moments
-	sci-CRAN/optimx
 "
 RDEPEND="${DEPEND-}"

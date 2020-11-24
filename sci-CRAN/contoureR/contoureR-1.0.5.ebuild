@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_ggplot2"
 R_SUGGESTS="r_suggests_ggplot2? ( sci-CRAN/ggplot2 )"
 DEPEND="sci-CRAN/geometry
 	sci-CRAN/reshape
-	sci-CRAN/plyr
 	>=sci-CRAN/Rcpp-0.11.5
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

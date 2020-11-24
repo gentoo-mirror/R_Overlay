@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/edgar_2.0.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/qdapRegex
 	sci-CRAN/XML
-	sci-CRAN/stringr
 	sci-CRAN/R_utils
+	sci-CRAN/stringr
+	sci-CRAN/qdapRegex
 	sci-CRAN/tm
 	sci-CRAN/stringi
 "

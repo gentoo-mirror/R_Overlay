@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
 DEPEND="sci-CRAN/spatstat
-	sci-CRAN/FD
-	sci-CRAN/ape
 	sci-CRAN/picante
+	sci-CRAN/ape
+	sci-CRAN/FD
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

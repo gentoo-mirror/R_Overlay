@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/ggplot2
-	sci-CRAN/gtable
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/nnls
+	>=dev-lang/R-3.1.0
+	sci-CRAN/gtable
 	sci-CRAN/gridExtra
 	virtual/Matrix
 "

@@ -12,17 +12,17 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/gtools
-	sci-CRAN/stringdist
-	sci-CRAN/doParallel
-	sci-CRAN/stringr
+	sci-CRAN/data_table
 	sci-CRAN/stringi
+	sci-CRAN/stringr
+	>=dev-lang/R-2.14.0
+	sci-CRAN/foreach
+	virtual/Matrix
+	sci-CRAN/stringdist
 	>=sci-CRAN/Rcpp-0.12.7
 	virtual/class
-	>=dev-lang/R-2.14.0
-	virtual/Matrix
 	sci-CRAN/adagio
 	sci-CRAN/dplyr
 	sci-CRAN/plotrix

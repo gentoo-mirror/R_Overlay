@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LncFinder_1.1.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/e1071-1.0
+DEPEND=">=sci-CRAN/seqinr-2.1.3
 	>=sci-CRAN/caret-6.0.71
-	>=sci-CRAN/seqinr-2.1.3
+	>=sci-CRAN/e1071-1.0
 "
 RDEPEND="${DEPEND-}"

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/florestal_0.1.3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/ggplot2
-	sci-CRAN/flextable
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/cowplot
-	>=dev-lang/R-3.5.0
 	sci-CRAN/BiodiversityR
+	sci-CRAN/ggplot2
+	sci-CRAN/data_table
+	sci-CRAN/flextable
 	sci-CRAN/officer
 	sci-CRAN/dplyr
 	sci-CRAN/tidyr

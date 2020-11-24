@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/msos_1.2.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/tree
 	sci-CRAN/mclust
+	sci-CRAN/tree
 "
 RDEPEND="${DEPEND-}"

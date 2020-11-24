@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_rcpproll? ( sci-CRAN/RcppRoll )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/rbenchmark
-	virtual/MASS
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/pracma
-	sci-CRAN/cubature
-	sci-CRAN/data_table
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
 	>=sci-CRAN/Rcpp-0.12.15
-	sci-CRAN/survey
 	sci-CRAN/tab
+	sci-CRAN/pracma
+	sci-CRAN/survey
+	sci-CRAN/rbenchmark
+	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
+	sci-CRAN/data_table
+	sci-CRAN/cubature
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

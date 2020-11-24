@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND="sci-CRAN/pbapply
-	sci-CRAN/dplyr
 	sci-CRAN/snow
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

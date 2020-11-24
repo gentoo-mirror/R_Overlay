@@ -13,9 +13,9 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 	sci-CRAN/scales
 	sci-CRAN/stringr
-	sci-CRAN/magrittr
-	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -24,11 +24,11 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/intergraph
-	virtual/Matrix
-	sci-CRAN/reshape2
-	sci-CRAN/network
 	>=sci-CRAN/Rcpp-0.9.4
 	sci-CRAN/ggplot2
+	sci-CRAN/reshape2
+	sci-CRAN/network
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/regtools
+DEPEND="sci-CRAN/regtools
 	sci-CRAN/pdist
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

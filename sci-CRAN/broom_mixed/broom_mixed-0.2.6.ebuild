@@ -33,18 +33,18 @@ R_SUGGESTS="
 	r_suggests_pbkrtest? ( sci-CRAN/pbkrtest )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/broom
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/TMB
+	sci-CRAN/coda
+	sci-CRAN/cubelyr
+	sci-CRAN/broom
 	sci-CRAN/tidyr
-	sci-CRAN/tibble
 	sci-CRAN/dplyr
 	sci-CRAN/purrr
 	sci-CRAN/plyr
+	sci-CRAN/tibble
 	sci-CRAN/reshape2
 	virtual/nlme
-	sci-CRAN/coda
-	sci-CRAN/TMB
-	sci-CRAN/cubelyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

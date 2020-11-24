@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/Rdpack
-	sci-CRAN/pracma
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/pracma
 	sci-CRAN/minpack_lm
+	sci-CRAN/Rdpack
+	sci-CRAN/magrittr
 	sci-CRAN/gsl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lmSupport_2.9.13.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/car
-	sci-CRAN/lme4
+DEPEND="sci-CRAN/lme4
+	sci-CRAN/pwr
+	sci-CRAN/pbkrtest
+	sci-CRAN/car
 	sci-CRAN/AICcmodavg
 	sci-CRAN/gplots
 	sci-CRAN/gvlma
-	sci-CRAN/pbkrtest
 	sci-CRAN/psych
-	sci-CRAN/pwr
 "
 RDEPEND="${DEPEND-}"

@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.1.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.3.0
-	>=sci-CRAN/htmlTable-1.13.3
-	>=sci-CRAN/Rcpp-1.0.4.6
-	>=sci-CRAN/glue-1.4.0
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/assertthat-0.2.1
-	>=sci-CRAN/dplyr-0.8.5
-	>=sci-CRAN/ggforce-0.3.0
-	virtual/boot
+DEPEND=">=dev-lang/R-3.4.0
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/purrr-0.3.4
-	>=sci-CRAN/rlang-0.4.5
+	>=sci-CRAN/glue-1.4.0
+	>=sci-CRAN/htmlTable-1.13.3
+	>=sci-CRAN/ggforce-0.3.0
 	>=sci-CRAN/tibble-3.0.0
+	>=sci-CRAN/assertthat-0.2.1
+	virtual/boot
+	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/ggplot2-3.3.0
+	>=sci-CRAN/purrr-0.3.4
+	>=sci-CRAN/Rcpp-1.0.4.6
+	>=sci-CRAN/rlang-0.4.5
 	>=sci-CRAN/tidyr-1.0.0
 "
 RDEPEND="${DEPEND-}

@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 "
 DEPEND="sci-CRAN/ICS
-	sci-CRAN/ICSNP
 	sci-CRAN/ellipse
+	sci-CRAN/ICSNP
 	virtual/spatial
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

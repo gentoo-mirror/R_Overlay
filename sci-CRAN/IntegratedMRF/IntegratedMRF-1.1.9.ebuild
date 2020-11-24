@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IntegratedMRF_1.1.9.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/boot
+DEPEND=">=sci-CRAN/Rcpp-0.12.4
+	sci-CRAN/ggplot2
 	sci-CRAN/limSolve
 	sci-CRAN/MultivariateRandomForest
-	>=sci-CRAN/Rcpp-0.12.4
-	sci-CRAN/ggplot2
+	virtual/boot
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

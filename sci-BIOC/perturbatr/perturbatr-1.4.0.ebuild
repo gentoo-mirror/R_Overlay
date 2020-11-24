@@ -19,21 +19,21 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/lme4
-	sci-CRAN/scales
-	sci-CRAN/formula_tools
-	sci-CRAN/rlang
-	sci-CRAN/lazyeval
-	sci-CRAN/ggplot2
-	sci-CRAN/foreach
-	sci-CRAN/tidyr
-	sci-CRAN/assertthat
-	sci-CRAN/doParallel
-	sci-CRAN/tibble
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/magrittr
 	>=dev-lang/R-3.5
-	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
+	sci-CRAN/tibble
+	sci-CRAN/formula_tools
 	sci-CRAN/igraph
 	sci-CRAN/diffusr
+	sci-CRAN/rlang
+	sci-CRAN/lme4
+	sci-CRAN/scales
+	sci-CRAN/doParallel
+	sci-CRAN/lazyeval
+	sci-CRAN/dplyr
+	sci-CRAN/tidyr
+	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

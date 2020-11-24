@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_magrittr? ( sci-CRAN/magrittr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/Rcpp-1.0.1
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/zoo-1.8.5
+DEPEND=">=sci-CRAN/zoo-1.8.5
 	virtual/Matrix
 	>=sci-CRAN/quantmod-0.4.14
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-1.0.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

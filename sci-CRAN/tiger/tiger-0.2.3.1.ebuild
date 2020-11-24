@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/tiger_0.2.3.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/qualV
-	virtual/lattice
-	sci-CRAN/hexbin
-	sci-CRAN/e1071
-	sci-CRAN/klaR
+DEPEND="sci-CRAN/e1071
 	sci-CRAN/som
+	sci-CRAN/hexbin
+	sci-CRAN/klaR
+	sci-CRAN/qualV
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

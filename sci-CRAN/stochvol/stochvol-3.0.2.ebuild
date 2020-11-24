@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND=">=sci-CRAN/Rcpp-1.0
+DEPEND=">=dev-lang/R-3.5
+	>=sci-CRAN/Rcpp-1.0
 	>=sci-CRAN/coda-0.19
-	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

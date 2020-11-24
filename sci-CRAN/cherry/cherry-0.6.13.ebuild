@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_multtest? ( sci-BIOC/multtest )
 "
-DEPEND="sci-CRAN/bitops
-	sci-CRAN/lpSolve
-	sci-CRAN/hommel
+DEPEND="sci-CRAN/hommel
 	virtual/Matrix
+	sci-CRAN/lpSolve
+	sci-CRAN/bitops
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

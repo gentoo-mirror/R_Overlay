@@ -20,23 +20,23 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.1.0
-	sci-CRAN/magrittr
-	sci-CRAN/lubridate
-	sci-CRAN/lazyeval
-	sci-CRAN/maps
-	sci-CRAN/raster
-	>=sci-CRAN/rerddap-0.6.0
-	sci-CRAN/rgeos
-	sci-CRAN/scales
+DEPEND="sci-CRAN/lazyeval
 	sci-CRAN/sf
+	sci-CRAN/scales
+	sci-CRAN/lubridate
+	>=sci-CRAN/rerddap-0.6.0
 	sci-CRAN/tidyr
+	sci-CRAN/viridis
 	>=dev-lang/R-4.0.0
 	>=sci-CRAN/ggnewscale-0.4.1
 	sci-CRAN/dplyr
-	sci-CRAN/cmocean
 	sci-CRAN/gganimate
-	sci-CRAN/viridis
+	sci-CRAN/cmocean
+	>=sci-CRAN/ggplot2-3.1.0
+	sci-CRAN/magrittr
+	sci-CRAN/maps
+	sci-CRAN/raster
+	sci-CRAN/rgeos
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

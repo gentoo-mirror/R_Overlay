@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/mapStats_2.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	virtual/class
-	sci-CRAN/sp
-	sci-CRAN/reshape2
-	sci-CRAN/Hmisc
-	sci-CRAN/survey
 	sci-CRAN/maptools
+	sci-CRAN/survey
+	virtual/class
 	sci-CRAN/RColorBrewer
 	virtual/lattice
+	sci-CRAN/Hmisc
+	sci-CRAN/sp
 	sci-CRAN/colorspace
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}"

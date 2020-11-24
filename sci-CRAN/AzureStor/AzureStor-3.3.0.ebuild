@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.3
 	sci-CRAN/openssl
-	sci-CRAN/mime
 	>=sci-CRAN/httr-1.4.0
+	sci-CRAN/mime
 	sci-CRAN/xml2
 	>=sci-CRAN/AzureRMR-2.3.0
 	sci-CRAN/R6

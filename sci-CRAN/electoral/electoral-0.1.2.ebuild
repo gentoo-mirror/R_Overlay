@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/electoral_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/tibble
 	sci-CRAN/ineq
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}"

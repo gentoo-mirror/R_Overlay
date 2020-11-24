@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml? ( sci-CRAN/XML )
 "
-DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/abind
-	sci-CRAN/bitops
+DEPEND="sci-CRAN/bitops
+	>=dev-lang/R-2.14.0
 	>=sci-CRAN/RNifti-0.9.0
+	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

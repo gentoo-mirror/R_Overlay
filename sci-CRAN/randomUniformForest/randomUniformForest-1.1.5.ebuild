@@ -12,16 +12,16 @@ LICENSE='BSD'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/ggplot2
-	>=sci-CRAN/Rcpp-0.11.1
-	sci-CRAN/doParallel
-	sci-CRAN/gtools
-	sci-CRAN/iterators
-	>=sci-CRAN/foreach-1.4.2
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/pROC
-	virtual/cluster
+	>=sci-CRAN/foreach-1.4.2
+	sci-CRAN/ggplot2
+	sci-CRAN/gtools
 	virtual/MASS
+	>=dev-lang/R-3.0.0
+	>=sci-CRAN/Rcpp-0.11.1
+	sci-CRAN/iterators
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

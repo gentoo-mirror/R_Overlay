@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tinytest? ( >=sci-CRAN/tinytest-0.9.6 )
 "
-DEPEND=">=dev-lang/R-3.1.3
+DEPEND="sci-CRAN/settings
 	sci-CRAN/yaml
-	sci-CRAN/settings
+	>=dev-lang/R-3.1.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

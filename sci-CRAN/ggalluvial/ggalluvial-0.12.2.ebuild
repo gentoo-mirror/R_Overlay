@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_sessioninfo? ( sci-CRAN/sessioninfo )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/tidyr-0.7
+DEPEND=">=sci-CRAN/dplyr-0.7
 	sci-CRAN/lazyeval
 	sci-CRAN/tidyselect
-	>=sci-CRAN/dplyr-0.7
+	>=dev-lang/R-3.5
+	>=sci-CRAN/tidyr-0.7
 	>=sci-CRAN/ggplot2-2.2
 	sci-CRAN/rlang
 "

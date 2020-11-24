@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_nnet? ( virtual/nnet )
 	r_suggests_rpart? ( virtual/rpart )
 "
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/partykit
 	sci-CRAN/party
-	sci-CRAN/ranger
-	virtual/MASS
-	sci-CRAN/e1071
-	sci-CRAN/partykit
 	sci-CRAN/randomForest
+	>=dev-lang/R-3.0.0
+	sci-CRAN/e1071
+	virtual/MASS
+	sci-CRAN/ranger
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

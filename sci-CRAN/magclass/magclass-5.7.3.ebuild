@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_udunits2? ( sci-CRAN/udunits2 )
 	r_suggests_units? ( sci-CRAN/units )
 "
-DEPEND="sci-CRAN/sp
-	sci-CRAN/abind
-	sci-CRAN/reshape2
+DEPEND="sci-CRAN/abind
+	sci-CRAN/sp
 	sci-CRAN/maptools
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

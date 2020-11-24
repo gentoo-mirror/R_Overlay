@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.18 )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/GA-3.0.2
 	sci-CRAN/zoo
-	sci-CRAN/doParallel
+	>=sci-CRAN/GA-3.0.2
 	>=sci-CRAN/ggplot2-3.0.0
+	sci-CRAN/doParallel
 	sci-CRAN/directlabels
 	sci-CRAN/cowplot
 	sci-CRAN/moments

@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 )
 "
 DEPEND=">=dev-lang/R-3.2.2
-	>=sci-CRAN/readBrukerFlexData-1.7
 	sci-CRAN/digest
-	sci-CRAN/base64enc
 	>=sci-CRAN/MALDIquant-1.16.4
+	sci-CRAN/base64enc
+	>=sci-CRAN/readBrukerFlexData-1.7
 	>=sci-CRAN/readMzXmlData-2.7
 	sci-CRAN/XML
 "

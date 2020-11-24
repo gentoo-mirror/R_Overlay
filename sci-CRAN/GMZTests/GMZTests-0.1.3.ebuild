@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_xts? ( sci-CRAN/xts )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="sci-CRAN/DCCA
-	sci-CRAN/fgpt
-	sci-CRAN/fitdistrplus
-	sci-CRAN/PerformanceAnalytics
-	sci-CRAN/nonlinearTseries
+DEPEND="sci-CRAN/nonlinearTseries
 	sci-CRAN/tseries
+	sci-CRAN/fgpt
+	sci-CRAN/DCCA
+	sci-CRAN/PerformanceAnalytics
+	sci-CRAN/fitdistrplus
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

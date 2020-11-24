@@ -60,8 +60,8 @@ R_SUGGESTS="
 	r_suggests_tweedie? ( sci-CRAN/tweedie )
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
-DEPEND=">=sci-CRAN/bayestestR-0.7.5
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
+	>=sci-CRAN/bayestestR-0.7.5
 	>=sci-CRAN/insight-0.10.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

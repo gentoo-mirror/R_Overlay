@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MOCCA_1.4.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND="sci-CRAN/cclust
+DEPEND="sci-CRAN/clue
 	virtual/cluster
+	sci-CRAN/cclust
 	virtual/class
-	sci-CRAN/clue
 "
 RDEPEND="${DEPEND-}"

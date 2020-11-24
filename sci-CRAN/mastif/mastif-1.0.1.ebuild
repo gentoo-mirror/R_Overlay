@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/corrplot
+DEPEND="sci-CRAN/xtable
+	sci-CRAN/corrplot
+	sci-CRAN/RANN
 	sci-CRAN/repmis
 	>=sci-CRAN/Rcpp-0.11.5
-	sci-CRAN/xtable
-	sci-CRAN/RANN
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

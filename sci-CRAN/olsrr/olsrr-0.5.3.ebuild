@@ -21,13 +21,13 @@ R_SUGGESTS="
 	r_suggests_xplorerr? ( sci-CRAN/xplorerr )
 "
 DEPEND="sci-CRAN/goftest
-	sci-CRAN/Rcpp
-	sci-CRAN/data_table
-	>=dev-lang/R-3.3
-	sci-CRAN/ggplot2
 	sci-CRAN/car
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	sci-CRAN/data_table
+	>=dev-lang/R-3.3
 	sci-CRAN/nortest
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

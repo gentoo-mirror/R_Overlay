@@ -21,12 +21,12 @@ R_SUGGESTS="
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/aplpack
-	>=sci-CRAN/lavaan-0.5.20
 	sci-CRAN/ggplot2
-	sci-CRAN/plyr
 	virtual/lattice
+	>=sci-CRAN/lavaan-0.5.20
+	sci-CRAN/plyr
 	sci-CRAN/RColorBrewer
+	sci-CRAN/aplpack
 	sci-CRAN/tkrplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

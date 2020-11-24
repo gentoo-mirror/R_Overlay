@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/magrittr
+	sci-CRAN/dplyr
+	sci-CRAN/caret
 	sci-CRAN/purrr
 	sci-CRAN/ggplot2
-	sci-CRAN/caret
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
 	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

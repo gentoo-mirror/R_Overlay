@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_tidytext? ( sci-CRAN/tidytext )
 "
-DEPEND="sci-CRAN/readr
-	sci-CRAN/dplyr
-	sci-CRAN/urltools
+DEPEND="sci-CRAN/urltools
 	sci-CRAN/purrr
+	sci-CRAN/dplyr
+	sci-CRAN/readr
 	sci-CRAN/stringr
 	sci-CRAN/lazyeval
 "

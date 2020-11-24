@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_scales? ( sci-CRAN/scales )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.1
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/shiny
 	virtual/mgcv
-	sci-CRAN/ggplot2
+	>=sci-CRAN/Rcpp-0.11.1
 	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-}

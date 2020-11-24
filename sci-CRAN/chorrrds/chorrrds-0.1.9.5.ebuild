@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_network? ( sci-CRAN/network )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/purrr
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/xml2
+	sci-CRAN/stringr
 	sci-CRAN/rvest
-	sci-CRAN/xml2
+	sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/purrr
 	sci-CRAN/forcats
 	sci-CRAN/rlang
 "

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.depthTools_1.4.tar.gz
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/Rcmdr-1.4.0
-	dev-lang/R[tk]
 	sci-CRAN/depthTools
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-}"

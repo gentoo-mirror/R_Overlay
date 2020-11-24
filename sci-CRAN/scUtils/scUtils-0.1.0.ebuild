@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/assertthat
-	sci-CRAN/scales
-	sci-CRAN/viridis
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/scales
+	sci-CRAN/viridisLite
+	sci-CRAN/assertthat
 	sci-CRAN/ggplot2
 	virtual/Matrix
-	sci-CRAN/viridisLite
+	sci-CRAN/dplyr
+	sci-CRAN/viridis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

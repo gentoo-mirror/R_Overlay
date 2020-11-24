@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_igraph? ( sci-CRAN/igraph )
 "
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/maxLik
 	sci-CRAN/kinship2
+	sci-CRAN/maxLik
 	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

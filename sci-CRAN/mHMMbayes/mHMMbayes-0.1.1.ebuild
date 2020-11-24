@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/MCMCpack
-	>=dev-lang/R-3.5.0
-	sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/Rdpack
+	sci-CRAN/mvtnorm
+	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND="sci-CRAN/Formula
-	virtual/Matrix
-	sci-CRAN/stringr
-	>=sci-CRAN/glmnet-1.9.5
-	>=sci-CRAN/miscTools-0.6.12
-	sci-CRAN/iterators
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
 	>=sci-CRAN/ncvreg-2.4.0
+	sci-CRAN/Formula
+	>=sci-CRAN/miscTools-0.6.12
+	>=sci-CRAN/glmnet-1.9.5
+	sci-CRAN/iterators
+	virtual/Matrix
 	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

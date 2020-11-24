@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.15.1
 	sci-CRAN/Hmisc
-	sci-CRAN/shapefiles
 	sci-CRAN/splancs
+	sci-CRAN/shapefiles
 "
 RDEPEND="${DEPEND-}"

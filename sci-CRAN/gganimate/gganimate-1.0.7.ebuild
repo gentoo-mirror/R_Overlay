@@ -25,13 +25,13 @@ R_SUGGESTS="
 	r_suggests_transformr? ( sci-CRAN/transformr )
 "
 DEPEND=">=sci-CRAN/ggplot2-3.0.0
-	>=sci-CRAN/tweenr-1.0.1
-	sci-CRAN/scales
 	sci-CRAN/stringi
-	sci-CRAN/rlang
+	>=sci-CRAN/tweenr-1.0.1
 	sci-CRAN/glue
+	sci-CRAN/rlang
 	sci-CRAN/progress
 	sci-CRAN/plyr
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

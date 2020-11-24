@@ -22,8 +22,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/msm
 	sci-CRAN/Formula
-	sci-CRAN/plm
 	sci-CRAN/maxLik
+	sci-CRAN/plm
 	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

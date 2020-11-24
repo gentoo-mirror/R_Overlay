@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_sm? ( sci-CRAN/sm )
 	r_suggests_wrgraph? ( sci-CRAN/wrGraph )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/wrMisc
-	sci-BIOC/limma
-	sci-CRAN/rmarkdown
+DEPEND="sci-CRAN/rmarkdown
 	sci-CRAN/knitr
+	sci-CRAN/wrMisc
+	>=dev-lang/R-3.1.0
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

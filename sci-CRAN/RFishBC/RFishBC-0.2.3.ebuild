@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_fsa? ( sci-CRAN/FSA )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/crayon
+DEPEND="sci-CRAN/tidyr
 	sci-CRAN/clisymbols
+	>=dev-lang/R-3.2.0
 	sci-CRAN/cli
+	sci-CRAN/withr
+	sci-CRAN/crayon
 	sci-CRAN/readbitmap
 	sci-CRAN/rlang
 	sci-CRAN/settings
 	sci-CRAN/stringr
-	sci-CRAN/tidyr
-	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

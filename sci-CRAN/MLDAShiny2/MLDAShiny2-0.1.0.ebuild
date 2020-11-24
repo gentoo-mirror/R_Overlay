@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MLDAShiny2_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	sci-CRAN/caret
-	sci-CRAN/rhandsontable
-	sci-CRAN/klaR
-	sci-CRAN/e1071
-	>=dev-lang/R-4.0.0
+DEPEND=">=dev-lang/R-4.0.0
 	sci-CRAN/shiny
 	sci-CRAN/rmarkdown
-	sci-CRAN/dplyr
+	sci-CRAN/klaR
+	virtual/MASS
 	sci-CRAN/DiscriMiner
+	sci-CRAN/e1071
+	sci-CRAN/dplyr
+	sci-CRAN/caret
+	sci-CRAN/rhandsontable
 "
 RDEPEND="${DEPEND-}"

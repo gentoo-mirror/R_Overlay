@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vegetarian? ( sci-CRAN/vegetarian )
 "
-DEPEND="sci-CRAN/ape
-	sci-CRAN/geiger
-	sci-CRAN/plyr
-	sci-CRAN/ade4
-	>=dev-lang/R-3.1
-	sci-CRAN/FD
+DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/tibble
+	sci-CRAN/ade4
+	sci-CRAN/FD
+	sci-CRAN/plyr
+	sci-CRAN/ape
+	sci-CRAN/geiger
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

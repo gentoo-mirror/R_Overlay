@@ -22,16 +22,16 @@ R_SUGGESTS="
 	r_suggests_ordinalcont? ( sci-CRAN/ordinalCont )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND=">=sci-CRAN/tram-0.3.2
-	>=sci-CRAN/lme4-1.1.19
-	sci-CRAN/alabama
+DEPEND=">=dev-lang/R-3.6.0
+	>=sci-CRAN/basefun-1.0.6
 	virtual/Matrix
+	>=sci-CRAN/tram-0.3.2
+	sci-CRAN/alabama
 	>=sci-CRAN/mlt-1.1.0
+	>=sci-CRAN/lme4-1.1.19
+	virtual/nlme
 	>=sci-CRAN/TMB-1.7.15
 	>=sci-CRAN/variables-1.0.2
-	>=sci-CRAN/basefun-1.0.6
-	>=dev-lang/R-3.6.0
-	virtual/nlme
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/TMB

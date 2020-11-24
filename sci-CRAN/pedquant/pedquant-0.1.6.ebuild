@@ -15,21 +15,21 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/curl
-	sci-CRAN/zoo
-	sci-CRAN/TTR
-	sci-CRAN/data_table
-	sci-CRAN/xml2
-	sci-CRAN/rvest
-	sci-CRAN/readxl
-	sci-CRAN/httr
+DEPEND="sci-CRAN/zoo
 	sci-CRAN/jsonlite
+	sci-CRAN/rvest
+	sci-CRAN/httr
+	sci-CRAN/TTR
 	sci-CRAN/stringi
+	sci-CRAN/readxl
 	sci-CRAN/readr
 	sci-CRAN/ggplot2
 	sci-CRAN/scales
-	sci-CRAN/gridExtra
 	sci-CRAN/plotly
+	>=dev-lang/R-3.1.0
+	sci-CRAN/curl
+	sci-CRAN/data_table
+	sci-CRAN/xml2
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

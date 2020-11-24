@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_nimble? ( sci-CRAN/nimble )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/tidyr-1.1.0
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/ggplot2
+	>=sci-CRAN/tidyr-1.1.0
 	>=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/GGally-1.1.0
-	>=dev-lang/R-3.5
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

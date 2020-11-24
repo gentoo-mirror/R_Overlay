@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/xmeta_1.2-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/plotrix
-	virtual/MASS
+DEPEND="sci-CRAN/plotrix
 	sci-CRAN/numDeriv
+	sci-CRAN/metafor
+	>=dev-lang/R-3.0.0
 	sci-CRAN/aod
 	sci-CRAN/glmmML
-	sci-CRAN/metafor
 	sci-CRAN/mvmeta
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rleafmap_0.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/raster
-	>=sci-CRAN/knitr-1.5
+DEPEND=">=sci-CRAN/knitr-1.5
+	sci-CRAN/raster
 	>=dev-lang/R-3.0.0
 	sci-CRAN/sp
 "

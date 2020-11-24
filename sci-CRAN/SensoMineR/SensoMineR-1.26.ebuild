@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/SensoMineR_1.26.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/AlgDesign
-	sci-CRAN/gtools
 	virtual/KernSmooth
-	virtual/cluster
+	sci-CRAN/AlgDesign
+	sci-CRAN/ggrepel
 	sci-CRAN/ggplot2
+	virtual/cluster
 	>=sci-CRAN/FactoMineR-2.3
 	sci-CRAN/reshape2
-	sci-CRAN/ggrepel
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}"

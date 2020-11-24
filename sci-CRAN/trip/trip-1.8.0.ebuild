@@ -23,18 +23,18 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/maptools
-	sci-CRAN/raster
-	sci-CRAN/spatstat
-	sci-CRAN/viridis
-	sci-CRAN/sp
-	>=sci-CRAN/traipse-0.2.0
-	sci-CRAN/crsmeta
-	>=dev-lang/R-3.3.0
-	sci-CRAN/geodist
+DEPEND=">=dev-lang/R-3.3.0
 	virtual/MASS
+	sci-CRAN/spatstat
+	sci-CRAN/crsmeta
 	sci-CRAN/reproj
+	sci-CRAN/geodist
+	sci-CRAN/maptools
+	sci-CRAN/raster
+	sci-CRAN/sp
 	sci-CRAN/glue
+	sci-CRAN/viridis
+	>=sci-CRAN/traipse-0.2.0
 	sci-CRAN/dplyr
 	sci-CRAN/rlang
 "

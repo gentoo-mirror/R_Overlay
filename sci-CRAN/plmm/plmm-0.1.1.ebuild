@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/plmm_0.1-1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/sm
-	virtual/nlme
 	sci-CRAN/Formula
+	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

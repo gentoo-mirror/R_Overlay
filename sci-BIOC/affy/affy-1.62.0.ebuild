@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_tkwidgets? ( >=sci-BIOC/tkWidgets-1.19.0 )
 	r_suggests_widgettools? ( sci-BIOC/widgetTools )
 "
-DEPEND=">=sci-BIOC/affyio-1.13.3
+DEPEND=">=sci-BIOC/BiocGenerics-0.1.12
 	sci-BIOC/zlibbioc
-	>=sci-BIOC/BiocGenerics-0.1.12
+	sci-BIOC/preprocessCore
 	>=sci-BIOC/Biobase-2.5.5
 	sci-CRAN/BiocManager
-	sci-BIOC/preprocessCore
+	>=sci-BIOC/affyio-1.13.3
 "
 RDEPEND="${DEPEND-}
 	sci-BIOC/preprocessCore

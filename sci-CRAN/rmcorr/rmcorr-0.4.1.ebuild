@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/psych
 	sci-CRAN/RColorBrewer
+	sci-CRAN/psych
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

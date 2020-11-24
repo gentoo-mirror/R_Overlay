@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
-DEPEND=">=sci-CRAN/reshape2-1.4.1
+DEPEND="sci-CRAN/vegan
 	>=sci-CRAN/ggplot2-1.0.0
-	>=sci-CRAN/ecr-2.1.0
-	>=sci-CRAN/BBmisc-1.6
-	>=sci-CRAN/parallelMap-1.3
-	>=sci-CRAN/checkmate-1.1
-	sci-CRAN/gtools
-	sci-CRAN/vegan
 	sci-CRAN/lhs
+	>=sci-CRAN/parallelMap-1.3
+	>=sci-CRAN/BBmisc-1.6
+	>=sci-CRAN/checkmate-1.1
+	>=sci-CRAN/ecr-2.1.0
+	>=sci-CRAN/reshape2-1.4.1
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

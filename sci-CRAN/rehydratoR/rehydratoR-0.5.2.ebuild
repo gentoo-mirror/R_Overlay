@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/rehydratoR_0.5.2.tar.gz"
 LICENSE='BSD'
 
 DEPEND=">=sci-CRAN/rtweet-0.6.7
-	>=sci-CRAN/dplyr-0.7.6
 	>=sci-CRAN/tibble-1.3.4
 	>=sci-CRAN/jsonlite-1.5
+	>=sci-CRAN/dplyr-0.7.6
 "
 RDEPEND="${DEPEND-}"

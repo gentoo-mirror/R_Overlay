@@ -24,12 +24,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/xtable
+DEPEND="sci-CRAN/xtable
 	>=dev-lang/R-3.1.0
-	sci-CRAN/ape
 	sci-CRAN/mvtnorm
+	sci-CRAN/data_table
 	sci-CRAN/expm
+	sci-CRAN/ape
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_rgeos? ( sci-CRAN/rgeos )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/adegraphics
-	>=sci-CRAN/ade4-1.7.13
+DEPEND="sci-CRAN/spdep
+	sci-CRAN/shiny
 	sci-CRAN/sp
-	sci-CRAN/spdep
 	sci-CRAN/adephylo
 	virtual/lattice
-	sci-CRAN/shiny
+	>=sci-CRAN/ade4-1.7.13
+	sci-CRAN/adegraphics
+	virtual/MASS
 	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

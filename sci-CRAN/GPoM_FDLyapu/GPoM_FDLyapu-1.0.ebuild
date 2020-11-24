@@ -18,7 +18,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND="sci-CRAN/GPoM
-	sci-CRAN/deSolve
+DEPEND="sci-CRAN/deSolve
+	sci-CRAN/GPoM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

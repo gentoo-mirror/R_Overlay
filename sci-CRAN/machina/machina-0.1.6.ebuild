@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/machina_0.1.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/httr
-	sci-CRAN/jsonlite
 	sci-CRAN/xts
-	sci-CRAN/lubridate
 	sci-CRAN/rhandsontable
+	sci-CRAN/jsonlite
+	sci-CRAN/lubridate
 	sci-CRAN/DT
 "
 RDEPEND="${DEPEND-}"

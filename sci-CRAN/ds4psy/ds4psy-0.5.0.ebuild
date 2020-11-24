@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/unikn
-	sci-CRAN/cowplot
 	sci-CRAN/ggplot2
+	sci-CRAN/cowplot
+	sci-CRAN/unikn
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

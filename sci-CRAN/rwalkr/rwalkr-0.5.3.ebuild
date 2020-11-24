@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_plotly? ( sci-CRAN/plotly )
 	r_suggests_shiny? ( >=sci-CRAN/shiny-1.0.4 )
 "
-DEPEND=">=dev-lang/R-3.1.3
-	sci-CRAN/tidyr
-	sci-CRAN/dplyr
-	sci-CRAN/httr
+DEPEND="sci-CRAN/tidyr
 	sci-CRAN/hms
+	>=dev-lang/R-3.1.3
+	sci-CRAN/httr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

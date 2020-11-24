@@ -35,24 +35,24 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=sci-CRAN/tidyselect-1.0.0
-	>=sci-CRAN/cli-2.0.0
-	>=sci-CRAN/dplyr-1.0.0
+DEPEND="sci-CRAN/backports
+	sci-CRAN/glue
+	sci-CRAN/lifecycle
+	sci-CRAN/DBI
+	sci-CRAN/memoise
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/pillar
+	>=sci-CRAN/vctrs-0.3.2
 	>=sci-CRAN/rlang-0.4.0
 	>=dev-lang/R-3.3
-	>=sci-CRAN/vctrs-0.3.2
 	sci-CRAN/ellipsis
-	sci-CRAN/backports
-	sci-CRAN/DBI
-	sci-CRAN/lifecycle
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/magrittr
-	sci-CRAN/purrr
-	sci-CRAN/pillar
-	sci-CRAN/tibble
-	sci-CRAN/glue
+	>=sci-CRAN/tidyselect-1.0.0
+	>=sci-CRAN/cli-2.0.0
 	sci-CRAN/igraph
-	sci-CRAN/memoise
+	sci-CRAN/purrr
+	sci-CRAN/magrittr
+	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/jsonlite
+	sci-CRAN/scales
 	sci-CRAN/htmltools
 	sci-CRAN/shiny
-	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

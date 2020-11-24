@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/asymmetry.measures_0.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/sn
 	sci-CRAN/skewt
 	sci-CRAN/gamlss_dist
-	sci-CRAN/sn
 "
 RDEPEND="${DEPEND-}"

@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_lhs? ( sci-CRAN/lhs )
 	r_suggests_monomvn? ( sci-CRAN/monomvn )
 "
-DEPEND="sci-CRAN/DiceDesign
+DEPEND=">=sci-CRAN/Rcpp-0.12.3
+	sci-CRAN/DiceDesign
 	virtual/MASS
-	>=sci-CRAN/Rcpp-0.12.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

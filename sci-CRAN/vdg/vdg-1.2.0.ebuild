@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rsm? ( sci-CRAN/rsm )
 	r_suggests_vdgraph? ( sci-CRAN/Vdgraph )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/quantreg
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 	>=dev-lang/R-3.3.1
-	sci-CRAN/quantreg
 	sci-CRAN/proxy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

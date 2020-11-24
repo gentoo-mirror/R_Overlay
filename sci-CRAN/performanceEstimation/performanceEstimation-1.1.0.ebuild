@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/ggplot2-0.9.3
 	>=sci-CRAN/tidyr-0.4.1
 	>=sci-CRAN/parallelMap-1.3
 	>=sci-CRAN/dplyr-0.4.3
+	>=sci-CRAN/ggplot2-0.9.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

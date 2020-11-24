@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.0 >=sci-CRAN/locfit-1.5 virtual/Matrix dev-lang/R
+DEPEND=>=dev-lang/R-3.0 virtual/Matrix >=sci-CRAN/locfit-1.5 dev-lang/R
 DESCRIPTION=Implementation of gene expression anti-profiles
 EAPI=7
 IUSE=r_suggests_rcolorbrewer byte-compile
 KEYWORDS=~amd64
 LICENSE=Artistic-2
-RDEPEND=>=dev-lang/R-3.0 >=sci-CRAN/locfit-1.5 virtual/Matrix r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.0 virtual/Matrix >=sci-CRAN/locfit-1.5 r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/antiProfiles_1.24.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=57ba4700d12e72aab338fbc23ab40b60
+_md5_=e11e94a84174bf102da4da04db68efef

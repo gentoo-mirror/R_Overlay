@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
 DEPEND="sci-CRAN/scales
-	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

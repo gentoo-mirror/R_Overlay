@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0.1
+	virtual/survival
 	virtual/MASS
 	>=sci-CRAN/ggplot2-0.9.3
-	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

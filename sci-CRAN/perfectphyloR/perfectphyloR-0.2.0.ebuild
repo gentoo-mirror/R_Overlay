@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_vcfr? ( sci-CRAN/vcfR )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/ape
 	>=sci-CRAN/Rcpp-0.12.16
 	sci-CRAN/phytools
+	sci-CRAN/ape
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/marelac_2.1.10.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/seacarb
 	sci-CRAN/shape
+	sci-CRAN/seacarb
 "
 RDEPEND="${DEPEND-}"

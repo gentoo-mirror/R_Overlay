@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/gMWT-1.1
-	sci-CRAN/stringr
-	>=sci-CRAN/data_table-1.9.6
-	>=dev-lang/R-3.3
-	>=sci-CRAN/Rcpp-0.9.13
+DEPEND=">=dev-lang/R-3.3
 	>=sci-CRAN/GenomicTools_fileHandler-0.1.5.8
+	>=sci-CRAN/data_table-1.9.6
+	>=sci-CRAN/Rcpp-0.9.13
+	>=sci-CRAN/gMWT-1.1
 	sci-CRAN/circlize
+	sci-CRAN/stringr
 	sci-BIOC/snpStats
 "
 RDEPEND="${DEPEND-}

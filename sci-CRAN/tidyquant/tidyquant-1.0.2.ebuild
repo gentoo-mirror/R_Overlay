@@ -26,33 +26,33 @@ R_SUGGESTS="
 	r_suggests_tibbletime? ( sci-CRAN/tibbletime )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/riingo
+DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/quantmod-0.4.13
+	sci-CRAN/curl
+	sci-CRAN/ggplot2
+	sci-CRAN/magrittr
+	sci-CRAN/readr
 	sci-CRAN/stringr
-	sci-CRAN/tibble
-	sci-CRAN/xts
-	>=dev-lang/R-3.5.0
+	sci-CRAN/Quandl
+	sci-CRAN/timeDate
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/rlang
+	sci-CRAN/tidyselect
+	sci-CRAN/rstudioapi
+	sci-CRAN/crayon
+	>=sci-CRAN/timetk-2.4.0
+	sci-CRAN/cli
 	sci-CRAN/PerformanceAnalytics
 	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/lubridate
 	sci-CRAN/httr
 	sci-CRAN/lazyeval
-	sci-CRAN/purrr
-	sci-CRAN/rstudioapi
-	sci-CRAN/timeDate
-	sci-CRAN/readr
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/TTR
-	sci-CRAN/tidyselect
-	sci-CRAN/crayon
-	sci-CRAN/cli
-	sci-CRAN/janitor
-	sci-CRAN/Quandl
 	>=sci-CRAN/alphavantager-0.1.2
-	sci-CRAN/lubridate
-	>=sci-CRAN/quantmod-0.4.13
-	sci-CRAN/ggplot2
-	sci-CRAN/curl
-	sci-CRAN/magrittr
-	>=sci-CRAN/timetk-2.4.0
-	sci-CRAN/rlang
+	sci-CRAN/purrr
+	sci-CRAN/tibble
+	sci-CRAN/riingo
+	sci-CRAN/janitor
+	sci-CRAN/TTR
+	sci-CRAN/xts
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

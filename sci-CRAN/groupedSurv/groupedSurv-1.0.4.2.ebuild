@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_snplist? ( sci-CRAN/snplist )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.4
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
 	sci-BIOC/qvalue
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	sci-CRAN/BH
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "

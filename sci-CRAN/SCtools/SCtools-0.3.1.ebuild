@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/cvTools
-	sci-CRAN/purrr
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/magrittr
+	sci-CRAN/ggplot2
+	>=sci-CRAN/future-1.6.2
 	sci-CRAN/Synth
 	sci-CRAN/stringr
-	>=sci-CRAN/future-1.6.2
+	sci-CRAN/cvTools
 	sci-CRAN/furrr
-	sci-CRAN/magrittr
+	sci-CRAN/dplyr
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

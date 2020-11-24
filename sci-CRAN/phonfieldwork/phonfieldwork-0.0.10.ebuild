@@ -22,10 +22,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/xml2
-	sci-CRAN/uchardet
-	sci-CRAN/rmarkdown
 	sci-CRAN/phonTools
 	sci-CRAN/tuneR
+	sci-CRAN/rmarkdown
+	sci-CRAN/uchardet
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

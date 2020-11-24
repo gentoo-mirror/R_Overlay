@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/raster
+DEPEND="sci-CRAN/raster
 	sci-CRAN/sp
 	sci-CRAN/Rcpp
+	>=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -9,10 +9,10 @@ DESCRIPTION='Heligman Pollard mortality model... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HPbayes_0.1.tar.gz"
 
-DEPEND="sci-CRAN/numDeriv
-	sci-CRAN/corpcor
+DEPEND="sci-CRAN/corpcor
 	virtual/boot
 	sci-CRAN/mvtnorm
+	sci-CRAN/numDeriv
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/smfishHmrf_0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/pracma-1.9.0
 	sci-CRAN/Rdpack
 	>=sci-CRAN/fs-1.2
-	>=sci-CRAN/pracma-1.9.0
 "
 RDEPEND="${DEPEND-}"

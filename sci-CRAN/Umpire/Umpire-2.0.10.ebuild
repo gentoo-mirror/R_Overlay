@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/mc2d
+DEPEND="sci-CRAN/mc2d
+	>=dev-lang/R-3.0
 	sci-CRAN/BimodalIndex
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

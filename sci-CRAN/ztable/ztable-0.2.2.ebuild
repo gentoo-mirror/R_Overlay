@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RColorBrewer
-	sci-CRAN/scales
-	sci-CRAN/officer
-	sci-CRAN/stringr
-	>=dev-lang/R-3.1.2
-	sci-CRAN/magrittr
+DEPEND=">=dev-lang/R-3.1.2
+	sci-CRAN/RColorBrewer
 	sci-CRAN/flextable
+	sci-CRAN/officer
 	sci-CRAN/rstudioapi
+	sci-CRAN/scales
+	sci-CRAN/stringr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/glue
-	sci-CRAN/data_table
-	sci-CRAN/dplyr
+	sci-CRAN/Hmisc
+	virtual/foreign
 	sci-CRAN/digest
+	sci-CRAN/openssl
+	sci-CRAN/rprojroot
+	>=dev-lang/R-3.4.0
+	sci-CRAN/data_table
+	sci-CRAN/lubridate
 	sci-CRAN/stringr
 	sci-CRAN/readxl
-	sci-CRAN/rprojroot
-	sci-CRAN/XML
-	virtual/foreign
-	sci-CRAN/Hmisc
-	sci-CRAN/lubridate
-	sci-CRAN/openssl
 	sci-CRAN/rlang
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -26,10 +26,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-BIOC/graph
-	sci-CRAN/httr
-	sci-CRAN/rappdirs
-	sci-CRAN/checkmate
 	sci-BIOC/AnnotationDbi
+	sci-CRAN/rappdirs
+	sci-CRAN/httr
+	sci-CRAN/checkmate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

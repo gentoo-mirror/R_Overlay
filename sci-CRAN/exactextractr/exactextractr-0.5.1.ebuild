@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_dplyr? ( sci-CRAN/dplyr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND=">=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/sf
+	>=dev-lang/R-3.4.0
 	sci-CRAN/raster
-	>=sci-CRAN/Rcpp-0.12.12
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

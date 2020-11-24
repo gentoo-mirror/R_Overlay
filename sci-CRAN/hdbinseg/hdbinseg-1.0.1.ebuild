@@ -12,10 +12,10 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_rcpparmadillo"
 R_SUGGESTS="r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo )"
-DEPEND="sci-CRAN/foreach
-	>=sci-CRAN/Rcpp-0.12.10
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/doParallel
-	>=dev-lang/R-3.4.0
+	sci-CRAN/foreach
+	>=sci-CRAN/Rcpp-0.12.10
 	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-}

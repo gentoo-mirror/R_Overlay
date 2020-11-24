@@ -28,9 +28,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2
 	>=sci-CRAN/insight-0.6.0
+	sci-CRAN/purrr
 	>=sci-CRAN/dplyr-0.8.0
 	sci-CRAN/magrittr
-	sci-CRAN/purrr
 	sci-CRAN/rlang
 	>=sci-CRAN/sjlabelled-1.1.1
 	>=sci-CRAN/tidyselect-0.2.5

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.plugin.nloptr_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/nloptr-1.2.1
-	>=sci-CRAN/ROI-0.3.2
+DEPEND=">=sci-CRAN/ROI-0.3.2
+	>=sci-CRAN/nloptr-1.2.1
 "
 RDEPEND="${DEPEND-}"

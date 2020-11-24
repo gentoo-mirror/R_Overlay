@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_lhs? ( sci-CRAN/lhs )
 "
 DEPEND=">=sci-CRAN/DiceKriging-1.2
-	sci-CRAN/rgenoud
-	sci-CRAN/pbivnorm
 	sci-CRAN/randtoolbox
+	sci-CRAN/pbivnorm
 	sci-CRAN/mnormt
+	sci-CRAN/rgenoud
 	sci-CRAN/DiceDesign
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

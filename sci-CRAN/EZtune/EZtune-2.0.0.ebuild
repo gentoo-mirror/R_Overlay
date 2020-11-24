@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_mlbench? ( sci-CRAN/mlbench )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/e1071
-	sci-CRAN/optimx
+DEPEND="sci-CRAN/gbm
 	sci-CRAN/GA
 	>=dev-lang/R-3.1.0
 	sci-CRAN/ada
-	sci-CRAN/gbm
+	sci-CRAN/e1071
+	sci-CRAN/optimx
 	virtual/rpart
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -14,9 +14,9 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.3
 	sci-CRAN/jsonlite
-	sci-CRAN/caTools
 	sci-CRAN/R6
 	sci-CRAN/httr
+	sci-CRAN/caTools
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/readr
-	sci-CRAN/knitr
-	sci-CRAN/openssl
 	sci-CRAN/purrr
+	sci-CRAN/readr
+	sci-CRAN/openssl
+	sci-CRAN/knitr
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/shiny
-	sci-CRAN/crayon
+DEPEND="sci-CRAN/miniUI
 	sci-CRAN/yaml
+	sci-CRAN/sos
+	sci-CRAN/crayon
 	sci-CRAN/stringi
 	sci-CRAN/rstudioapi
-	sci-CRAN/miniUI
-	sci-CRAN/sos
+	sci-CRAN/shiny
 	sci-CRAN/cli
 	sci-CRAN/rematch2
 "

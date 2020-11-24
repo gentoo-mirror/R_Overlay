@@ -23,8 +23,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.3
 	virtual/MASS
 	>=sci-CRAN/reshape2-1.4
-	>=sci-BIOC/qvalue-2.2
 	>=sci-CRAN/ggplot2-2.0
+	>=sci-BIOC/qvalue-2.2
 	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

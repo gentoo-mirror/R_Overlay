@@ -22,18 +22,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 	r_suggests_treesim? ( >=sci-CRAN/TreeSim-2.2 )
 "
-DEPEND="virtual/Matrix
-	>=sci-CRAN/robustbase-0.92.6
-	>=sci-CRAN/Rcpp-1.0.2
-	>=sci-CRAN/plyr-1.8.4
-	>=sci-CRAN/ape-5.3
+DEPEND=">=dev-lang/R-3.6.0
+	>=sci-CRAN/gglasso-1.4
+	virtual/Matrix
 	>=sci-CRAN/capushe-1.1.1
 	>=sci-CRAN/foreach-1.4.3
-	>=dev-lang/R-3.6.0
-	>=sci-CRAN/gglasso-1.4
 	>=sci-CRAN/glmnet-2.0.5
 	>=sci-CRAN/LINselect-1.1.1
 	virtual/MASS
+	>=sci-CRAN/ape-5.3
+	>=sci-CRAN/plyr-1.8.4
+	>=sci-CRAN/Rcpp-1.0.2
+	>=sci-CRAN/robustbase-0.92.6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

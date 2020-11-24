@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_shinythemes? ( sci-CRAN/shinythemes )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/magrittr
+DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/shiny
-	>=dev-lang/R-3.1
+	sci-CRAN/magrittr
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

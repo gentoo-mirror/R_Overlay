@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND="sci-CRAN/dplyr
+	sci-CRAN/glue
+	sci-CRAN/tidygraph
+	sci-CRAN/tibble
 	sci-CRAN/jsonlite
 	sci-CRAN/magrittr
 	sci-CRAN/httr
-	sci-CRAN/glue
 	sci-CRAN/progressr
-	sci-CRAN/tibble
-	sci-CRAN/tidygraph
 	>=sci-CRAN/tidyselect-1.0.0
 	sci-CRAN/urltools
 "

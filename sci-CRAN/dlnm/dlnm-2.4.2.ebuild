@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_mvmeta? ( sci-CRAN/mvmeta )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND=">=dev-lang/R-3.2
-	virtual/mgcv
+DEPEND="virtual/nlme
 	sci-CRAN/tsModel
-	virtual/nlme
+	>=dev-lang/R-3.2
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

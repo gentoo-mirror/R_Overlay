@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/WebPower_0.5.2.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.2.5
-	sci-CRAN/lme4
 	virtual/MASS
-	sci-CRAN/lavaan
 	sci-CRAN/PearsonDS
+	sci-CRAN/lme4
+	sci-CRAN/lavaan
 "
 RDEPEND="${DEPEND-}"

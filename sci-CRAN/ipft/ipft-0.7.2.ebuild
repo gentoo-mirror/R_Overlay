@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/ipft_0.7.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/ggplot2
+	virtual/cluster
 	sci-CRAN/dplyr
 	virtual/cluster
-	virtual/cluster
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

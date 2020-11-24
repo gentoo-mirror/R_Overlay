@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/telegram_0.6.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/httr
-	>=dev-lang/R-3.2.3
-	sci-CRAN/R6
-	sci-CRAN/jsonlite
+DEPEND=">=dev-lang/R-3.2.3
 	sci-CRAN/curl
+	sci-CRAN/R6
+	sci-CRAN/httr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

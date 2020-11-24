@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_randomforest? ( sci-CRAN/randomForest )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/raster
-	sci-CRAN/geosphere
-	sci-CRAN/stringdist
-	sci-CRAN/caret
-	>=dev-lang/R-3.5.0
-	sci-CRAN/sp
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/vegan
+	sci-CRAN/sp
+	sci-CRAN/raster
+	sci-CRAN/ggplot2
 	sci-CRAN/rgeos
 	sci-CRAN/concaveman
+	sci-CRAN/caret
+	sci-CRAN/geosphere
+	sci-CRAN/stringdist
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

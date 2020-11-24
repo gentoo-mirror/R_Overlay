@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/zoo
-	sci-CRAN/forecast
 	sci-CRAN/xts
+	sci-CRAN/forecast
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

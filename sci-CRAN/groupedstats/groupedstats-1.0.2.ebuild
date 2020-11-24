@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/glue
 	sci-CRAN/effectsize
+	sci-CRAN/glue
 	sci-CRAN/dplyr
 	sci-CRAN/broomExtra
 	sci-CRAN/haven
@@ -28,9 +28,9 @@ DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/lme4
 	sci-CRAN/parameters
 	sci-CRAN/purrr
-	sci-CRAN/tibble
-	sci-CRAN/tidyr
 	sci-CRAN/rlang
 	sci-CRAN/skimr
+	sci-CRAN/tibble
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

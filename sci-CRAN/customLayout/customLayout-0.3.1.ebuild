@@ -29,11 +29,11 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/gridExtra
 	>=sci-CRAN/flextable-0.5.6
-	sci-CRAN/assertthat
-	sci-CRAN/gridExtra
 	>=sci-CRAN/officer-0.3.6
+	sci-CRAN/RColorBrewer
+	sci-CRAN/assertthat
 	>=sci-CRAN/rvg-0.2.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

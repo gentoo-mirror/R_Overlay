@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_rms? ( sci-CRAN/rms )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/lubridate
-	sci-CRAN/data_table
-	virtual/survival
-	sci-CRAN/dplyr
-	sci-CRAN/lazyeval
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/data_table
+	sci-CRAN/ggplot2
+	virtual/survival
+	sci-CRAN/lazyeval
+	sci-CRAN/lubridate
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

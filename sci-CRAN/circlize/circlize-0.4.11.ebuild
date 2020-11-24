@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_png? ( sci-CRAN/png )
 "
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/shape
 	>=sci-CRAN/GlobalOptions-0.1.2
 	sci-CRAN/colorspace
-	sci-CRAN/shape
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

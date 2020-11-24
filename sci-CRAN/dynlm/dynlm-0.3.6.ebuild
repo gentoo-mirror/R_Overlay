@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_strucchange? ( sci-CRAN/strucchange )
 	r_suggests_tsa? ( sci-CRAN/TSA )
 "
-DEPEND=">=sci-CRAN/car-2.0.0
-	sci-CRAN/lmtest
+DEPEND="sci-CRAN/lmtest
 	sci-CRAN/zoo
+	>=sci-CRAN/car-2.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

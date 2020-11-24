@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mgcv"
 R_SUGGESTS="r_suggests_mgcv? ( virtual/mgcv )"
-DEPEND="sci-CRAN/GGally
-	sci-CRAN/FNN
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/mvtnorm
-	sci-CRAN/ggplot2
+	sci-CRAN/FNN
+	sci-CRAN/GGally
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

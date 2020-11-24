@@ -40,14 +40,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-0.9.5 )
 	r_suggests_sem? ( >=sci-CRAN/sem-2.1.1 )
 "
-DEPEND=">=sci-CRAN/RcmdrMisc-2.7.1
-	sci-CRAN/lme4
+DEPEND=">=sci-CRAN/effects-4.0.3
 	dev-lang/R[tk]
 	>=sci-CRAN/relimp-1.0.5
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/car-3.0.8
-	>=sci-CRAN/effects-4.0.3
 	dev-lang/R[tk]
+	sci-CRAN/lme4
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/RcmdrMisc-2.7.1
+	>=sci-CRAN/car-3.0.8
 	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

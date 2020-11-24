@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rocr? ( sci-CRAN/ROCR )
 "
 DEPEND="sci-CRAN/mlr
-	sci-CRAN/doParallel
-	sci-CRAN/FNN
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 	sci-CRAN/RANN
+	sci-CRAN/FNN
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

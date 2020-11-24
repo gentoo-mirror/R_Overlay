@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/lexicon_1.2.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.2
-	sci-CRAN/data_table
 	>=sci-CRAN/syuzhet-1.0.1
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

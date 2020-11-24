@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/CloneSeeker_1.0.10.tar.gz"
 LICENSE='Apache-2.0'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/quantmod
 	sci-CRAN/gtools
 	sci-CRAN/combinat
+	sci-CRAN/quantmod
 "
 RDEPEND="${DEPEND-}"

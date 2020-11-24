@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ddpca_1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/RSpectra
-	sci-CRAN/quantreg
 	virtual/MASS
 	virtual/Matrix
+	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-}"

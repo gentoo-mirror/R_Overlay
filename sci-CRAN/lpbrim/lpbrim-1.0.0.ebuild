@@ -13,8 +13,8 @@ LICENSE='BSD-2'
 IUSE="${IUSE-} r_suggests_domc"
 R_SUGGESTS="r_suggests_domc? ( sci-CRAN/doMC )"
 DEPEND=">=dev-lang/R-2.12.0
-	virtual/Matrix
 	sci-CRAN/plyr
+	virtual/Matrix
 	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

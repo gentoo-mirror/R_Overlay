@@ -11,17 +11,17 @@ SRC_URI="http://cran.r-project.org/src/contrib/GLMpack_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/pBrackets
-	sci-CRAN/plm
-	virtual/nnet
-	sci-CRAN/lmtest
-	sci-CRAN/lme4
-	sci-CRAN/effects
-	virtual/MASS
 	sci-CRAN/AER
-	sci-CRAN/pscl
-	virtual/foreign
+	virtual/MASS
+	virtual/nnet
 	virtual/Matrix
 	sci-CRAN/sandwich
 	sci-CRAN/censReg
+	sci-CRAN/plm
+	sci-CRAN/effects
+	sci-CRAN/pscl
+	virtual/foreign
+	sci-CRAN/lme4
+	sci-CRAN/lmtest
 "
 RDEPEND="${DEPEND-}"

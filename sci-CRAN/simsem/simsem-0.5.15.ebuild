@@ -22,7 +22,7 @@ R_SUGGESTS="
 	r_suggests_quantreg? ( sci-CRAN/quantreg )
 	r_suggests_semtools? ( >=sci-CRAN/semTools-0.4.15 )
 "
-DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/lavaan-0.6.1
+DEPEND=">=sci-CRAN/lavaan-0.6.1
+	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

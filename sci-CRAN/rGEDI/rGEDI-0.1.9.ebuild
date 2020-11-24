@@ -24,23 +24,23 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/bit64
-	sci-CRAN/hdf5r
-	sci-CRAN/jsonlite
-	sci-CRAN/data_table
-	sci-CRAN/raster
-	sci-CRAN/fs
-	sci-CRAN/curl
-	sci-CRAN/getPass
-	sci-CRAN/ggplot2
-	sci-CRAN/lazyeval
+DEPEND="sci-CRAN/lazyeval
 	sci-CRAN/RColorBrewer
 	sci-CRAN/sp
+	sci-CRAN/curl
+	sci-CRAN/data_table
+	sci-CRAN/bit64
+	sci-CRAN/fs
+	sci-CRAN/getPass
+	sci-CRAN/ggplot2
+	sci-CRAN/hdf5r
+	sci-CRAN/jsonlite
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-}
 	sci-libs/gsl
-	sci-libs/hdf5
 	media-libs/tiff
+	sci-libs/hdf5
 	sys-libs/zlib
 	${R_SUGGESTS-}
 "

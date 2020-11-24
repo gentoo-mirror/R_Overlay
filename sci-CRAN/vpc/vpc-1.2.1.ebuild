@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_testit? ( sci-CRAN/testit )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	virtual/survival
+	sci-CRAN/readr
+	sci-CRAN/dplyr
+	virtual/MASS
 	virtual/class
 	sci-CRAN/stringr
-	virtual/MASS
-	sci-CRAN/dplyr
+	virtual/survival
 	sci-CRAN/ggplot2
-	sci-CRAN/readr
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

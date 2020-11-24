@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/SIS_0.8-8.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.2.4
-	sci-CRAN/glmnet
 	sci-CRAN/ncvreg
+	sci-CRAN/glmnet
 	virtual/survival
 "
 RDEPEND="${DEPEND-}"

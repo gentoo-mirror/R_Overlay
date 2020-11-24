@@ -18,7 +18,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4.0
 	>=sci-CRAN/ISOcodes-2020.03.16
-	>=sci-CRAN/jsonlite-1.5
 	>=sci-CRAN/httr-1.4.1
+	>=sci-CRAN/jsonlite-1.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

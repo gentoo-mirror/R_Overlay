@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/bgeva_0.3-1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/magic
 	sci-CRAN/trust
+	sci-CRAN/magic
 	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

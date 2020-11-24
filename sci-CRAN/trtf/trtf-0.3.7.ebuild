@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 "
 DEPEND=">=sci-CRAN/mlt-1.0.2
-	sci-CRAN/Formula
+	sci-CRAN/variables
 	>=sci-CRAN/partykit-1.2.1
 	sci-CRAN/libcoin
 	sci-CRAN/sandwich
-	sci-CRAN/variables
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

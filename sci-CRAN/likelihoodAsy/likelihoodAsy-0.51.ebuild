@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 "
 DEPEND="sci-CRAN/cond
-	sci-CRAN/Rsolnp
-	sci-CRAN/digest
 	sci-CRAN/nleqslv
+	sci-CRAN/digest
 	sci-CRAN/alabama
+	sci-CRAN/Rsolnp
 	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

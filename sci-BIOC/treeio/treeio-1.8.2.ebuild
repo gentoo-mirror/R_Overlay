@@ -24,12 +24,12 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/tibble
 	sci-CRAN/dplyr
 	sci-CRAN/ape
-	sci-CRAN/rlang
-	sci-CRAN/jsonlite
 	sci-CRAN/magrittr
-	sci-CRAN/tibble
+	sci-CRAN/jsonlite
+	sci-CRAN/rlang
 	>=sci-CRAN/tidytree-0.2.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

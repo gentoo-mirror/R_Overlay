@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/multitaper
 	sci-CRAN/Rcpp
-	sci-CRAN/Rdpack
 	sci-CRAN/ddalpha
+	sci-CRAN/Rdpack
+	sci-CRAN/multitaper
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

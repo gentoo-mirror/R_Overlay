@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.15.1
 	sci-CRAN/gmodels
-	sci-CRAN/mirt
 	virtual/MASS
+	sci-CRAN/mirt
 "
 RDEPEND="${DEPEND-}"

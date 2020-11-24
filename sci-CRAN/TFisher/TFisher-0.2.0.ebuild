@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TFisher_0.2.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/Matrix
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/sn
-	sci-CRAN/mvtnorm
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

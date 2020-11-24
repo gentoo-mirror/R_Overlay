@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/ingredients-2.0
 	>=sci-CRAN/iBreakDown-1.3.1
 	sci-CRAN/ggplot2
+	>=sci-CRAN/ingredients-2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

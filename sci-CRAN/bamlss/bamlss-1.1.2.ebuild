@@ -45,17 +45,17 @@ R_SUGGESTS="
 	r_suggests_statmod? ( sci-CRAN/statmod )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/Formula
+	virtual/survival
+	sci-CRAN/sp
+	sci-CRAN/MBA
+	>=dev-lang/R-3.5.0
+	virtual/mgcv
+	sci-CRAN/coda
 	sci-CRAN/colorspace
 	sci-CRAN/mvtnorm
-	virtual/mgcv
-	sci-CRAN/MBA
-	sci-CRAN/sp
 	virtual/Matrix
-	virtual/survival
 	sci-CRAN/raster
-	sci-CRAN/coda
-	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

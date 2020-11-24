@@ -13,10 +13,10 @@ LICENSE='LGPL-2.1+'
 IUSE="${IUSE-} r_suggests_gtools"
 R_SUGGESTS="r_suggests_gtools? ( >=sci-CRAN/gtools-3.5.0 )"
 DEPEND=">=dev-lang/R-3.2.0
+	>=sci-CRAN/R_utils-2.8.0
+	>=sci-CRAN/digest-0.6.15
+	>=sci-CRAN/R_oo-1.22.0
 	>=sci-CRAN/R_methodsS3-1.7.1
 	>=sci-CRAN/R_cache-0.13.0
-	>=sci-CRAN/R_utils-2.8.0
-	>=sci-CRAN/R_oo-1.22.0
-	>=sci-CRAN/digest-0.6.15
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

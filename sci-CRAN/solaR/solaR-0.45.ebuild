@@ -21,7 +21,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/zoo
 	virtual/lattice
-	virtual/lattice
 	sci-CRAN/RColorBrewer
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

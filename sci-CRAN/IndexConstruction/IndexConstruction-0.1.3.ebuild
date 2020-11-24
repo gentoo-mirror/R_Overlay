@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IndexConstruction_0.1-3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/lubridate
-	virtual/KernSmooth
-	sci-CRAN/fGarch
-	sci-CRAN/xts
-	sci-CRAN/RcppBDT
+DEPEND="sci-CRAN/xts
 	sci-CRAN/zoo
+	sci-CRAN/fGarch
+	sci-CRAN/lubridate
+	virtual/KernSmooth
+	sci-CRAN/RcppBDT
 "
 RDEPEND="${DEPEND-}"

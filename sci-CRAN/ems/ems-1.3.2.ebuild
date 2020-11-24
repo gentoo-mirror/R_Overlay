@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ems_1.3.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.2
-	sci-CRAN/rms
 	virtual/survival
+	sci-CRAN/rms
 	virtual/boot
 "
 RDEPEND="${DEPEND-}"

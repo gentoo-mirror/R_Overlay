@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/its.analysis_1.4.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/car
+DEPEND="sci-CRAN/car
+	sci-CRAN/forecast
 	sci-CRAN/plyr
 	virtual/boot
-	sci-CRAN/forecast
+	>=dev-lang/R-3.6.0
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

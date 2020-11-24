@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/reshape2
-	sci-CRAN/scales
 	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
-	>=sci-CRAN/incidence-1.7.0
 	>=sci-CRAN/coarseDataTools-0.6.4
-	sci-CRAN/fitdistrplus
 	sci-CRAN/coda
+	>=sci-CRAN/incidence-1.7.0
+	sci-CRAN/fitdistrplus
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

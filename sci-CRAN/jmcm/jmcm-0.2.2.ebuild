@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.2
+	sci-CRAN/Formula
 	virtual/lattice
 	>=sci-CRAN/Rcpp-0.12.14
-	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/roptim
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/roptim
 	${R_SUGGESTS-}
 "

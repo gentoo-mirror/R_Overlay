@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/pracma
+DEPEND=">=dev-lang/R-3.2.3
+	sci-CRAN/pracma
+	sci-CRAN/OpenImageR
 	sci-CRAN/readbitmap
 	sci-CRAN/magick
 	sci-CRAN/R_utils
-	>=dev-lang/R-3.2.3
-	sci-CRAN/OpenImageR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

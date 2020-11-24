@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/solartime
-	sci-CRAN/robustbase
+DEPEND="sci-CRAN/robustbase
+	sci-CRAN/solartime
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

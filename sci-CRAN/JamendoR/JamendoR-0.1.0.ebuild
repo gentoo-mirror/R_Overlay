@@ -12,9 +12,9 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/httr
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/dplyr
+	>=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

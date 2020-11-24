@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/foreach
-	sci-CRAN/plyr
-	sci-CRAN/dplyr
 	>=sci-CRAN/pbapply-1.3.0
+	sci-CRAN/foreach
+	sci-CRAN/dplyr
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

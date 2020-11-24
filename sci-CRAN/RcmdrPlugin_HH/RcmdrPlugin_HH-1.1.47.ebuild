@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.HH_1.1-47.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/mgcv
-	>=sci-CRAN/Rcmdr-2.0.0
-	virtual/lattice
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/HH
-	>=dev-lang/R-3.0.2
+	virtual/lattice
+	>=sci-CRAN/Rcmdr-2.0.0
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

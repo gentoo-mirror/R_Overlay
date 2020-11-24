@@ -21,7 +21,7 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND=">=dev-lang/R-3.1.2
-	>=sci-CRAN/RCurl-1.95.4.5
 	>=sci-CRAN/httr-0.6.1
+	>=sci-CRAN/RCurl-1.95.4.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

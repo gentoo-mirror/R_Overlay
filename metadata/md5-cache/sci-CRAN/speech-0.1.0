@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/purrr sci-CRAN/pdftools sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/tabulizer >=dev-lang/R-3.6.0 sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/lubridate sci-CRAN/tibble sci-CRAN/tm dev-lang/R
+DEPEND=sci-CRAN/purrr sci-CRAN/pdftools sci-CRAN/stringr sci-CRAN/lubridate >=dev-lang/R-3.6.0 sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/tabulizer sci-CRAN/tibble sci-CRAN/tm sci-CRAN/tidyr dev-lang/R
 DESCRIPTION=Legislative Speeches
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=sci-CRAN/purrr sci-CRAN/pdftools sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/tabulizer >=dev-lang/R-3.6.0 sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/lubridate sci-CRAN/tibble sci-CRAN/tm dev-lang/R
+RDEPEND=sci-CRAN/purrr sci-CRAN/pdftools sci-CRAN/stringr sci-CRAN/lubridate >=dev-lang/R-3.6.0 sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/tabulizer sci-CRAN/tibble sci-CRAN/tm sci-CRAN/tidyr dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/speech_0.1.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=2bf2e157e0c928023d6e0be55d91144e
+_md5_=e5a6bc190af9c801ad5b8a639b53ec2f

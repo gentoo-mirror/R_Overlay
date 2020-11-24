@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/blockmodels_1.1.4.tar.gz"
 LICENSE='LGPL-2.1'
 
-DEPEND="sci-CRAN/digest
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/digest
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

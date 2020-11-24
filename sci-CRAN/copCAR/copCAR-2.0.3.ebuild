@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_pbapply? ( sci-CRAN/pbapply )
 "
 DEPEND="sci-CRAN/mcmcse
-	sci-CRAN/spam
-	sci-CRAN/Rcpp
 	sci-CRAN/numDeriv
+	sci-CRAN/Rcpp
+	sci-CRAN/spam
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

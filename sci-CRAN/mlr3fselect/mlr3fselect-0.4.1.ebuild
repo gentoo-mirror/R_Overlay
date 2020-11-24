@@ -17,14 +17,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/mlr3misc
-	sci-CRAN/R6
 	>=sci-CRAN/bbotk-0.2.0
 	>=sci-CRAN/checkmate-2.0.0
 	sci-CRAN/lgr
 	sci-CRAN/data_table
 	>=sci-CRAN/mlr3-0.7.0
+	sci-CRAN/mlr3misc
 	>=sci-CRAN/mlr3pipelines-0.3.0
 	>=sci-CRAN/paradox-0.3.0
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

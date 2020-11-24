@@ -12,7 +12,7 @@ LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
 	sci-CRAN/purrr
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

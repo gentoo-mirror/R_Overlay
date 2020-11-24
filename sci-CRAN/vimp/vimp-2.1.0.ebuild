@@ -29,12 +29,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/SuperLearner
-	sci-CRAN/tibble
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/SuperLearner
 	sci-CRAN/ROCR
-	>=dev-lang/R-3.1.0
 	sci-CRAN/magrittr
 	sci-CRAN/dplyr
+	sci-CRAN/tibble
 	sci-CRAN/rlang
 	virtual/MASS
 "

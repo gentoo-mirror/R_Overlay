@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_plm? ( >=sci-CRAN/plm-1.0.1 )
 	r_suggests_sem? ( >=sci-CRAN/sem-2.0.0 )
 "
-DEPEND=">=sci-CRAN/car-2.0.0
-	>=sci-CRAN/sandwich-2.2.9
+DEPEND=">=dev-lang/R-3.2.0
+	>=sci-CRAN/car-2.0.0
+	virtual/MASS
 	sci-CRAN/lmtest
 	virtual/Matrix
-	>=dev-lang/R-3.2.0
-	virtual/MASS
+	>=sci-CRAN/sandwich-2.2.9
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/scatterplot3d
+	sci-CRAN/Rcpp
 	sci-CRAN/rwavelet
 	sci-CRAN/ggplot2
-	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

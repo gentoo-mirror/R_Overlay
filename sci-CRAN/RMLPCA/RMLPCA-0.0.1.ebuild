@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RSpectra
-	virtual/Matrix
+DEPEND="virtual/Matrix
 	sci-CRAN/pracma
+	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

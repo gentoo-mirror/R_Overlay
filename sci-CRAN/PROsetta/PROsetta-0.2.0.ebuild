@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_shinywidgets? ( sci-CRAN/shinyWidgets )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/mirt
-	sci-CRAN/lavaan
-	sci-CRAN/equate
+DEPEND="sci-CRAN/mvnfast
 	sci-CRAN/plink
+	sci-CRAN/lavaan
+	sci-CRAN/mirt
+	>=dev-lang/R-3.5.0
+	sci-CRAN/equate
 	sci-CRAN/psych
-	sci-CRAN/mvnfast
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -27,16 +27,16 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( >=sci-CRAN/tidyverse-1.3.0 )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/lubridate-1.7.9
-	>=sci-CRAN/odbc-1.2.3
-	>=sci-CRAN/DBI-1.1.0
-	>=sci-CRAN/assertthat-0.2.1
-	>=sci-CRAN/dplyr-0.8.4
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/plogr-0.2.0
-	>=sci-CRAN/rstudioapi-0.10
+	>=sci-CRAN/DBI-1.1.0
+	>=sci-CRAN/dplyr-0.8.4
 	>=sci-CRAN/shiny-1.3.2
 	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/assertthat-0.2.1
+	>=sci-CRAN/lubridate-1.7.9
+	>=sci-CRAN/odbc-1.2.3
+	>=sci-CRAN/plogr-0.2.0
+	>=sci-CRAN/rstudioapi-0.10
 	>=sci-CRAN/tibble-3.0.3
 	>=sci-CRAN/RPostgres-1.2.1
 "

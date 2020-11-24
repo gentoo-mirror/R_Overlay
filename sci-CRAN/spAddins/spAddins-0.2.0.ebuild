@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rebus? ( sci-CRAN/rebus )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/rstudioapi
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
 	>=dev-lang/R-3.2
+	sci-CRAN/rstudioapi
+	sci-CRAN/stringr
 	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

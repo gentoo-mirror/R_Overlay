@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_pander? ( sci-CRAN/pander )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/doParallel
-	sci-CRAN/doRNG
-	sci-CRAN/foreach
-	virtual/MASS
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/doRNG
 	virtual/survival
+	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	sci-CRAN/mvtnorm
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

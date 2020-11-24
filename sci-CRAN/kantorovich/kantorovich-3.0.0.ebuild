@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/lpSolve
+DEPEND="sci-CRAN/gmp
+	sci-CRAN/CVXR
 	sci-mathematics/glpk
 	sci-CRAN/rcdd
+	sci-CRAN/lpSolve
 	sci-CRAN/slam
-	sci-CRAN/gmp
-	sci-CRAN/CVXR
 "
 RDEPEND="${DEPEND-}
 	dev-libs/gmp

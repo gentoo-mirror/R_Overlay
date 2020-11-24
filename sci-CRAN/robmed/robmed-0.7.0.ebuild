@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/ggplot2-0.9.3
-	>=sci-CRAN/shiny-1.1.0
-	>=sci-CRAN/robustbase-0.92.7
-	virtual/boot
-	>=sci-CRAN/quantreg-5.36
+DEPEND=">=sci-CRAN/robustbase-0.92.7
 	>=sci-CRAN/sn-1.5.4
+	virtual/boot
+	>=sci-CRAN/shiny-1.1.0
+	>=sci-CRAN/quantreg-5.36
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/ggplot2-0.9.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

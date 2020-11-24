@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/rlang
 	sci-CRAN/stringr
+	sci-CRAN/rlang
 	sci-CRAN/yaml
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

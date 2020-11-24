@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_tidytext? ( sci-CRAN/tidytext )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/data_table
 	>=sci-CRAN/reticulate-1.6
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

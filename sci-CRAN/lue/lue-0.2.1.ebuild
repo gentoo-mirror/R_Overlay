@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lue_0.2.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/raster
-	sci-CRAN/ncdf4
+DEPEND="sci-CRAN/ncdf4
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-}"

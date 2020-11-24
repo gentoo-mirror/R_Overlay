@@ -13,8 +13,8 @@ IUSE="${IUSE-} r_suggests_rgraphviz"
 R_SUGGESTS="r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )"
 DEPEND="sci-CRAN/RColorBrewer
 	sci-mathematics/glpk
-	sci-CRAN/combinat
 	sci-mathematics/glpk
+	sci-CRAN/combinat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

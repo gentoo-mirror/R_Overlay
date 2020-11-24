@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 "
 DEPEND=">=dev-lang/R-2.15
-	sci-CRAN/metafor
 	sci-CRAN/Rcmdr
 	sci-CRAN/MAd
+	sci-CRAN/metafor
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

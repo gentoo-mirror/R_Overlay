@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/DescTools
-	sci-CRAN/TeachingDemos
 	sci-CRAN/mclust
+	sci-CRAN/TeachingDemos
 "
 RDEPEND="${DEPEND-}"

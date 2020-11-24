@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/mice
+	sci-CRAN/norm
 	virtual/MASS
 	sci-CRAN/mvtnorm
-	sci-CRAN/norm
-	sci-CRAN/mice
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/openblender_0.5.81.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.3.3
-	>=sci-CRAN/jsonlite-1.5
 	>=sci-CRAN/httr-1.4.1
+	>=sci-CRAN/jsonlite-1.5
 "
 RDEPEND="${DEPEND-}"

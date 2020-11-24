@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_gridgraphics? ( sci-CRAN/gridGraphics )
 	r_suggests_httr? ( sci-CRAN/httr )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/magick
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/magick
+	>=sci-CRAN/rvcheck-0.1.0
+	sci-CRAN/tibble
 	>=dev-lang/R-3.4.0
 	sci-CRAN/ggplotify
-	>=sci-CRAN/rvcheck-0.1.0
+	sci-CRAN/ggplot2
+	sci-CRAN/jsonlite
 	sci-CRAN/scales
-	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

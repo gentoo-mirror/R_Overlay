@@ -19,37 +19,37 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/tibble-2.1.0
-	>=sci-CRAN/tidyr-1.0.0
-	virtual/MASS
-	>=sci-CRAN/lsr-0.5
-	>=sci-CRAN/Evomorph-0.9
-	>=sci-CRAN/factoextra-1.0.5
-	>=sci-CRAN/scatterplot3d-0.3.41
-	>=sci-CRAN/plotly-4.9.0
-	>=sci-CRAN/broom-0.5.0
-	>=sci-CRAN/dplyr-0.8.0
-	>=sci-CRAN/purrr-0.3.0
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/tidyverse-1.3.0
-	>=sci-CRAN/ggrepel-0.8.1
-	>=sci-CRAN/VGAM-1.1.2
-	>=sci-CRAN/car-3.0.3
-	>=sci-CRAN/vegan-2.5.5
-	>=sci-CRAN/magrittr-1.5.0
+DEPEND=">=sci-CRAN/rlang-0.3.4
 	virtual/Matrix
+	>=sci-CRAN/car-3.0.3
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/cowplot-0.9.4
 	>=sci-CRAN/shapes-1.2.4
 	>=sci-CRAN/ThreeWay-1.1.3
 	>=sci-CRAN/ade4-1.7.13
 	>=sci-CRAN/gridExtra-2.3
 	>=sci-CRAN/png-0.1.7
+	>=sci-CRAN/broom-0.5.0
+	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/ggrepel-0.8.1
+	>=sci-CRAN/magrittr-1.5.0
+	virtual/MASS
+	>=sci-CRAN/tibble-2.1.0
+	>=sci-CRAN/Evomorph-0.9
+	>=sci-CRAN/scales-1.1.0
+	>=sci-CRAN/lsr-0.5
+	>=sci-CRAN/factoextra-1.0.5
+	>=sci-CRAN/scatterplot3d-0.3.41
+	>=sci-CRAN/plotly-4.9.0
 	>=sci-CRAN/latex2exp-0.4.0
 	>=sci-CRAN/plyr-1.8.0
 	>=sci-CRAN/ggplot2-3.2.0
-	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/rlang-0.3.4
+	>=sci-CRAN/purrr-0.3.0
+	>=sci-CRAN/VGAM-1.1.2
+	>=sci-CRAN/vegan-2.5.5
+	>=sci-CRAN/tidyr-1.0.0
+	>=sci-CRAN/tidyverse-1.3.0
 	>=sci-CRAN/lme4-1.1.21
-	>=sci-CRAN/scales-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

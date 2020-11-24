@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_plotly? ( sci-CRAN/plotly )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/Rcpp-0.12.8
-	sci-CRAN/numDeriv
-	sci-CRAN/magrittr
-	virtual/survival
 	sci-CRAN/msm
+	sci-CRAN/magrittr
+	sci-CRAN/numDeriv
+	sci-CRAN/tibble
+	virtual/survival
+	>=sci-CRAN/Rcpp-0.12.8
 	sci-CRAN/ggplot2
 	sci-CRAN/expint
-	sci-CRAN/tibble
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}

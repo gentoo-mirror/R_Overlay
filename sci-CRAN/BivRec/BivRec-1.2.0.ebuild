@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/stringr
-	virtual/survival
 	sci-CRAN/dplyr
+	virtual/survival
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}

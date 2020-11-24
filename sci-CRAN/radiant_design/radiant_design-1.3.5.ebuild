@@ -13,10 +13,10 @@ LICENSE='AGPL-3'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )"
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/mvtnorm
-	>=sci-CRAN/radiant_data-1.3.0
-	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/radiant_data-1.3.0
+	sci-CRAN/mvtnorm
+	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/shiny-1.4.0
 	>=sci-CRAN/AlgDesign-1.1.7.3
 	>=sci-CRAN/import-1.1.0

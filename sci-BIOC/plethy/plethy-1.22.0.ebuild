@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-BIOC/S4Vectors
-	sci-CRAN/reshape2
-	sci-BIOC/Biobase
-	>=sci-CRAN/RSQLite-1.1
-	>=sci-CRAN/DBI-0.5.1
-	sci-BIOC/BiocGenerics
+DEPEND="sci-BIOC/BiocGenerics
 	sci-BIOC/Streamer
+	>=sci-CRAN/RSQLite-1.1
+	sci-BIOC/S4Vectors
 	sci-BIOC/IRanges
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.1.0
+	>=sci-CRAN/DBI-0.5.1
+	sci-CRAN/reshape2
 	sci-CRAN/plyr
 	sci-CRAN/RColorBrewer
-	sci-CRAN/ggplot2
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

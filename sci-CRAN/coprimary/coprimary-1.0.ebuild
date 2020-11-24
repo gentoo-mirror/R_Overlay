@@ -9,9 +9,9 @@ DESCRIPTION='Sample Size Calculation for Two ... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/coprimary_1.0.tar.gz"
 
-DEPEND="sci-CRAN/plyr
+DEPEND="sci-CRAN/proto
+	sci-CRAN/plyr
 	sci-CRAN/digest
-	sci-CRAN/proto
 	sci-CRAN/gsDesign
 "
 RDEPEND="${DEPEND-}"

@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/XML
-	sci-CRAN/chron
 	>=sci-CRAN/data_table-1.9.6
+	sci-CRAN/chron
 	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

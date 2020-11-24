@@ -17,11 +17,11 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/igraph
 	>=sci-CRAN/Rcpp-0.11.1
-	sci-CRAN/magrittr
 	>=dev-lang/R-3.6.0
-	sci-BIOC/RBGL
 	sci-BIOC/Rgraphviz
+	sci-BIOC/RBGL
 	sci-BIOC/graph
+	sci-CRAN/magrittr
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}

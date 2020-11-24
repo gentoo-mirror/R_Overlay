@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/shinydashboard_0.7.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/promises
+DEPEND=">=dev-lang/R-3.0
 	>=sci-CRAN/htmltools-0.2.6
 	>=sci-CRAN/shiny-1.0.0
-	>=dev-lang/R-3.0
+	sci-CRAN/promises
 "
 RDEPEND="${DEPEND-}"

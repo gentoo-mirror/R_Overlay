@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/dplyr-0.4.3
-	virtual/survival
+DEPEND="virtual/boot
 	>=dev-lang/R-3.1.2
-	virtual/boot
+	virtual/survival
+	>=sci-CRAN/dplyr-0.4.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

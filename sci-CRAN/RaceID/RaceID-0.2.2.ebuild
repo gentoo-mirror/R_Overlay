@@ -15,28 +15,28 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/RColorBrewer
-	sci-CRAN/vegan
+DEPEND="virtual/Matrix
+	sci-CRAN/Rtsne
+	sci-CRAN/Rcpp
+	sci-CRAN/igraph
+	sci-CRAN/ggplot2
+	sci-CRAN/locfit
+	sci-CRAN/randomForest
+	virtual/cluster
+	sci-CRAN/ica
+	sci-CRAN/propr
+	sci-CRAN/quadprog
+	sci-CRAN/FNN
+	sci-CRAN/fpc
+	sci-CRAN/irlba
+	>=dev-lang/R-3.5.0
+	sci-CRAN/coop
 	virtual/MASS
 	sci-CRAN/pheatmap
-	sci-CRAN/coop
-	virtual/cluster
-	sci-CRAN/Rtsne
-	sci-CRAN/umap
 	sci-CRAN/FateID
-	sci-CRAN/fpc
-	sci-CRAN/igraph
-	sci-CRAN/locfit
-	>=dev-lang/R-3.5.0
-	virtual/Matrix
-	sci-CRAN/propr
-	sci-CRAN/Rcpp
-	sci-CRAN/ica
-	sci-CRAN/FNN
-	sci-CRAN/ggplot2
-	sci-CRAN/irlba
-	sci-CRAN/quadprog
-	sci-CRAN/randomForest
+	sci-CRAN/umap
+	sci-CRAN/vegan
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.0

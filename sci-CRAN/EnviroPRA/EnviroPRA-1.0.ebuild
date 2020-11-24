@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
 	sci-CRAN/fitdistrplus
-	sci-CRAN/truncdist
 	sci-CRAN/kSamples
+	sci-CRAN/truncdist
 "
 RDEPEND="${DEPEND-}"

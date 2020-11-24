@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Rspotify_0.1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/jsonlite
 	sci-CRAN/httr
-	sci-CRAN/dplyr
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

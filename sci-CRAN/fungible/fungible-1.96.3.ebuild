@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/fungible_1.96.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5
-	virtual/lattice
-	sci-CRAN/clue
 	virtual/MASS
-	sci-CRAN/mvtnorm
-	sci-CRAN/nleqslv
+	virtual/lattice
+	sci-CRAN/GPArotation
+	sci-CRAN/clue
 	sci-CRAN/Rcsdp
 	sci-CRAN/RSpectra
-	sci-CRAN/GPArotation
+	sci-CRAN/mvtnorm
+	sci-CRAN/nleqslv
 "
 RDEPEND="${DEPEND-}"

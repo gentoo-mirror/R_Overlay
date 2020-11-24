@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 "
-DEPEND=">=sci-BIOC/Biobase-2.15.1
-	sci-BIOC/affy
-	sci-BIOC/makecdfenv
-	>=sci-BIOC/S4Vectors-0.9.25
-	>=sci-BIOC/BiocGenerics-0.1.0
-	sci-BIOC/Biostrings
+DEPEND=">=sci-BIOC/S4Vectors-0.9.25
 	sci-BIOC/hypergraph
+	sci-BIOC/affy
+	>=sci-BIOC/BiocGenerics-0.1.0
+	>=sci-BIOC/Biobase-2.15.1
+	sci-BIOC/makecdfenv
+	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

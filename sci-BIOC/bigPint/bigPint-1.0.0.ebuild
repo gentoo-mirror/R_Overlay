@@ -26,23 +26,23 @@ R_SUGGESTS="
 	r_suggests_runit? ( >=sci-CRAN/RUnit-0.4.32 )
 	r_suggests_tibble? ( >=sci-CRAN/tibble-1.4.2 )
 "
-DEPEND=">=sci-CRAN/Hmisc-4.0.3
-	>=sci-CRAN/plyr-1.8.4
-	>=sci-CRAN/dplyr-0.7.2
-	>=sci-CRAN/gridExtra-2.3
-	>=sci-CRAN/stringr-1.3.1
-	>=dev-lang/R-3.5.2
-	>=sci-CRAN/tidyr-0.7.0
-	>=sci-CRAN/plotly-4.7.1
-	>=sci-CRAN/shiny-1.0.5
-	>=sci-CRAN/shinycssloaders-0.2.0
+DEPEND=">=sci-CRAN/stringr-1.3.1
 	>=sci-CRAN/GGally-1.3.2
-	>=sci-CRAN/ggplot2-2.2.1
-	>=sci-CRAN/shinydashboard-0.6.1
-	>=sci-CRAN/hexbin-1.27.1
-	>=sci-CRAN/htmlwidgets-0.9
+	>=sci-CRAN/gridExtra-2.3
+	>=sci-CRAN/Hmisc-4.0.3
 	>=sci-CRAN/RColorBrewer-1.1.2
+	>=sci-CRAN/shinydashboard-0.6.1
+	>=sci-CRAN/dplyr-0.7.2
+	>=sci-CRAN/shiny-1.0.5
+	>=sci-CRAN/htmlwidgets-0.9
+	>=sci-CRAN/ggplot2-2.2.1
+	>=sci-CRAN/hexbin-1.27.1
+	>=sci-CRAN/plotly-4.7.1
 	>=sci-CRAN/reshape-0.8.7
+	>=dev-lang/R-3.5.2
+	>=sci-CRAN/shinycssloaders-0.2.0
+	>=sci-CRAN/plyr-1.8.4
+	>=sci-CRAN/tidyr-0.7.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

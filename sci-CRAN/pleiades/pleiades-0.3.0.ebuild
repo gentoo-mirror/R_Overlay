@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
 DEPEND="sci-CRAN/DBI
-	sci-CRAN/jsonlite
+	sci-CRAN/dplyr
+	sci-CRAN/crul
 	sci-CRAN/RSQLite
 	sci-CRAN/dbplyr
-	sci-CRAN/dplyr
-	sci-CRAN/gistr
-	sci-CRAN/crul
+	sci-CRAN/jsonlite
 	sci-CRAN/rappdirs
+	sci-CRAN/gistr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

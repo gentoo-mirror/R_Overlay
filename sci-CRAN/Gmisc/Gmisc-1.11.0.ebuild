@@ -12,22 +12,22 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/abind
-	sci-CRAN/Hmisc
-	sci-CRAN/XML
-	sci-CRAN/knitr
-	virtual/lattice
+DEPEND="sci-CRAN/lubridate
 	sci-CRAN/magrittr
 	sci-CRAN/stringr
 	sci-CRAN/yaml
+	sci-CRAN/XML
 	>=dev-lang/R-3.2.0
-	sci-CRAN/lubridate
-	sci-CRAN/checkmate
-	sci-CRAN/glue
-	sci-CRAN/rmarkdown
 	>=sci-CRAN/htmlTable-2.0.0
+	sci-CRAN/checkmate
+	sci-CRAN/Hmisc
+	virtual/lattice
 	>=sci-CRAN/Rcpp-0.11.4
+	sci-CRAN/abind
 	sci-CRAN/forestplot
+	sci-CRAN/glue
+	sci-CRAN/knitr
+	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

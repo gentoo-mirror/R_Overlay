@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_sfsmisc? ( sci-CRAN/sfsmisc )
 	r_suggests_sirt? ( sci-CRAN/sirt )
 "
-DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/mvtnorm
+	>=dev-lang/R-3.1
 	sci-CRAN/polycor
 "
 RDEPEND="${DEPEND-}

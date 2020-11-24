@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/dplyr-0.5.0
-	>=sci-CRAN/htmlwidgets-0.8
+DEPEND=">=sci-CRAN/R6-2.2.0
 	>=sci-CRAN/jsonlite-1.1
+	>=sci-CRAN/dplyr-0.5.0
 	>=sci-CRAN/htmltools-0.3.5
-	>=sci-CRAN/R6-2.2.0
 	>=dev-lang/R-3.3.0
+	>=sci-CRAN/htmlwidgets-0.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

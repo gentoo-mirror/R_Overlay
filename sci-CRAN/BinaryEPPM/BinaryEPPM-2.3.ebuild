@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BinaryEPPM_2.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/numDeriv
-	sci-CRAN/Formula
-	>=dev-lang/R-3.5.0
-	sci-CRAN/lmtest
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/expm
+	sci-CRAN/Formula
+	sci-CRAN/lmtest
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

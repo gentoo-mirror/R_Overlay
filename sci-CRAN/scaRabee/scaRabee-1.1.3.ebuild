@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/scaRabee_1.1-3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/neldermead-1.0.8
-	sci-CRAN/deSolve
 	virtual/lattice
+	sci-CRAN/deSolve
 "
 RDEPEND="${DEPEND-}"

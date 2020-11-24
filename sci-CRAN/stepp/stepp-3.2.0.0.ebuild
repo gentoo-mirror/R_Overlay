@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/stepp_3.2.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/survival
-	sci-CRAN/car
+DEPEND="sci-CRAN/car
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

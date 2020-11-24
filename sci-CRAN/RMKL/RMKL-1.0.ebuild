@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RMKL_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/caret
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/Rcpp-1.0.0
-	sci-CRAN/e1071
+	sci-CRAN/caret
 	sci-CRAN/kernlab
-	>=dev-lang/R-3.5.0
+	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

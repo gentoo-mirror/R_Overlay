@@ -13,8 +13,8 @@ LICENSE='GPL-2'
 DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/forcats
 	sci-CRAN/dplyr
-	sci-CRAN/suncalc
 	sci-CRAN/ggimage
+	sci-CRAN/suncalc
 	sci-CRAN/gggibbous
 "
 RDEPEND="${DEPEND-}"

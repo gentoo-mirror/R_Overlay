@@ -12,7 +12,7 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_proxy"
 R_SUGGESTS="r_suggests_proxy? ( sci-CRAN/proxy )"
-DEPEND="virtual/cluster
-	sci-CRAN/pls
+DEPEND="sci-CRAN/pls
+	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

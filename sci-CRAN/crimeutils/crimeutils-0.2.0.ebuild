@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/scales
-	sci-CRAN/gt
-	sci-CRAN/gridExtra
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/scales
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	sci-CRAN/gt
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

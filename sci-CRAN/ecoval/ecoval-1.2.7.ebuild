@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ecoval_1.2.7.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/rivernet
 	sci-CRAN/jpeg
 	sci-CRAN/utility
-	sci-CRAN/rivernet
 "
 RDEPEND="${DEPEND-}"

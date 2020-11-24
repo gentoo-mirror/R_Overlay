@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_lintr? ( sci-CRAN/lintr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/DBI
+DEPEND="sci-CRAN/RMySQL
 	sci-CRAN/memoise
-	sci-CRAN/rentrez
 	sci-CRAN/xml2
+	sci-CRAN/rentrez
 	sci-CRAN/glue
-	sci-CRAN/RMySQL
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/packMBPLSDA_0.8.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ade4
-	sci-CRAN/FactoMineR
-	sci-CRAN/pROC
-	sci-CRAN/doParallel
 	sci-CRAN/DiscriMiner
 	virtual/MASS
+	sci-CRAN/pROC
+	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/FactoMineR
 "
 RDEPEND="${DEPEND-}"

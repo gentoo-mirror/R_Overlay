@@ -24,30 +24,30 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
-DEPEND="sci-CRAN/numDeriv
-	sci-CRAN/jsonlite
-	sci-CRAN/irlba
+DEPEND="sci-CRAN/signal
+	sci-CRAN/smoother
+	sci-CRAN/oro_dicom
+	sci-CRAN/nloptr
+	sci-CRAN/tibble
+	sci-CRAN/pracma
+	sci-CRAN/plyr
+	sci-CRAN/RNiftyReg
+	sci-CRAN/magrittr
+	sci-CRAN/ptw
+	sci-CRAN/complexplus
 	sci-CRAN/readr
 	sci-CRAN/nnls
-	sci-CRAN/ptw
+	sci-CRAN/numDeriv
+	sci-CRAN/irlba
+	sci-CRAN/jsonlite
+	sci-CRAN/stringr
+	sci-CRAN/mmand
 	sci-CRAN/RNifti
 	sci-CRAN/fields
 	sci-CRAN/abind
 	sci-CRAN/foreach
-	sci-CRAN/stringr
-	sci-CRAN/signal
-	virtual/MASS
 	virtual/Matrix
-	sci-CRAN/oro_dicom
-	sci-CRAN/nloptr
-	sci-CRAN/tibble
 	sci-CRAN/minpack_lm
-	sci-CRAN/smoother
-	sci-CRAN/magrittr
-	sci-CRAN/mmand
-	sci-CRAN/RNiftyReg
-	sci-CRAN/pracma
-	sci-CRAN/plyr
-	sci-CRAN/complexplus
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

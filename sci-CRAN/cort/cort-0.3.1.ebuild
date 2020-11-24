@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/Rdpack
-	sci-CRAN/Rcpp
-	sci-CRAN/nloptr
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/nloptr
 	sci-CRAN/osqp
+	sci-CRAN/Rcpp
+	sci-CRAN/Rdpack
+	sci-CRAN/purrr
 	sci-CRAN/furrr
 "
 RDEPEND="${DEPEND-}

@@ -27,9 +27,9 @@ R_SUGGESTS="
 	r_suggests_tablerdash? ( sci-CRAN/tablerDash )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/shiny-0.14
-	sci-CRAN/htmltools
+DEPEND="sci-CRAN/htmltools
 	sci-CRAN/jsonlite
+	>=sci-CRAN/shiny-0.14
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

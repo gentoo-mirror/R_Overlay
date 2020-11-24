@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_network? ( sci-CRAN/network )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.3
+DEPEND="virtual/nnet
+	>=dev-lang/R-3.2.3
 	virtual/Matrix
-	virtual/nnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

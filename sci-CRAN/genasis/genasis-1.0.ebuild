@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/genasis_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Kendall
-	sci-CRAN/fitdistrplus
+DEPEND="sci-CRAN/fitdistrplus
+	sci-CRAN/Kendall
 "
 RDEPEND="${DEPEND-}"

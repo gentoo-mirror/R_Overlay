@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/splm_1.4-11.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/plm
+DEPEND=">=dev-lang/R-2.12.0
 	virtual/Matrix
+	sci-CRAN/plm
+	virtual/MASS
+	virtual/Matrix
+	sci-CRAN/spdep
+	sci-CRAN/maxLik
 	sci-CRAN/ibdreg
 	virtual/nlme
-	virtual/MASS
-	>=dev-lang/R-2.12.0
-	sci-CRAN/maxLik
-	sci-CRAN/spdep
-	virtual/Matrix
 	sci-CRAN/spam
 "
 RDEPEND="${DEPEND-}"

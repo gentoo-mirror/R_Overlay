@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_tm? ( sci-CRAN/tm )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/purrr
-	sci-CRAN/XML
-	sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/httr
+	sci-CRAN/XML
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -27,10 +27,10 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 	r_suggests_vroom? ( >=sci-CRAN/vroom-1.2.0 )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/data_table-1.12.4
-	>=sci-CRAN/DBI-0.7
-	>=sci-CRAN/reticulate-1.13
+DEPEND=">=sci-CRAN/reticulate-1.13
 	sci-CRAN/uuid
+	>=sci-CRAN/data_table-1.12.4
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/DBI-0.7
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

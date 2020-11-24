@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-BIOC/BiocGenerics
+DEPEND=">=dev-lang/R-3.5
+	sci-BIOC/ExperimentHub
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	sci-CRAN/randomForest
 	sci-CRAN/RColorBrewer
 	sci-CRAN/testthat
-	sci-BIOC/ExperimentHub
-	>=dev-lang/R-3.5
-	sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
-	sci-CRAN/randomForest
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

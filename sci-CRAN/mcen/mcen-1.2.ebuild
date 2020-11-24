@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mcen_1.2.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/flexclust
+	sci-CRAN/faraway
 	virtual/Matrix
 	sci-CRAN/glmnet
-	sci-CRAN/flexclust
-	sci-CRAN/faraway
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}"

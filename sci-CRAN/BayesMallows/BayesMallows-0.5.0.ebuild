@@ -24,18 +24,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0 )
 "
 DEPEND=">=sci-CRAN/Rdpack-1.0
-	>=sci-CRAN/purrr-0.3.0
 	>=sci-CRAN/sets-1.0.18
 	>=sci-CRAN/PerMallows-1.13
-	>=sci-CRAN/dplyr-1.0.1
-	>=sci-CRAN/HDInterval-0.2.0
-	>=sci-CRAN/cowplot-1.0.0
-	>=sci-CRAN/ggplot2-3.1.0
 	>=sci-CRAN/Rcpp-1.0.0
 	>=sci-CRAN/igraph-1.2.5
+	>=sci-CRAN/cowplot-1.0.0
+	>=sci-CRAN/ggplot2-3.1.0
+	>=sci-CRAN/dplyr-1.0.1
 	>=sci-CRAN/relations-0.6.8
 	>=sci-CRAN/tidyr-1.1.1
+	>=sci-CRAN/purrr-0.3.0
 	>=sci-CRAN/rlang-0.3.1
+	>=sci-CRAN/HDInterval-0.2.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

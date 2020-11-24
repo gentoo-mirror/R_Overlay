@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/foreign
-	sci-CRAN/png
-	>=sci-CRAN/geometry-0.4.3
-	sci-CRAN/ttutils
+DEPEND=">=dev-lang/R-3.5.0
+	virtual/foreign
 	sci-CRAN/RImageJROI
+	sci-CRAN/ttutils
+	sci-CRAN/sp
 	>=sci-CRAN/RTriangle-1.6.0.9
 	sci-CRAN/R_matlab
-	>=dev-lang/R-3.5.0
-	sci-CRAN/sp
-	sci-CRAN/rgl
 	sci-CRAN/R6
+	sci-CRAN/png
+	>=sci-CRAN/geometry-0.4.3
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

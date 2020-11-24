@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gimmeTools_0.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/shinyjs
-	sci-CRAN/miniUI
-	sci-CRAN/rintrojs
+DEPEND="sci-CRAN/rintrojs
+	sci-CRAN/rhandsontable
+	sci-CRAN/rstudioapi
+	sci-CRAN/shinyWidgets
 	>=dev-lang/R-3.1
 	sci-CRAN/easycsv
 	sci-CRAN/shiny
-	sci-CRAN/shinyWidgets
-	sci-CRAN/rstudioapi
-	sci-CRAN/rhandsontable
+	sci-CRAN/shinyjs
+	sci-CRAN/miniUI
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

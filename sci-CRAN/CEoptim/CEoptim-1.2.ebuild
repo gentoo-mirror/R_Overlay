@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/CEoptim_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	sci-CRAN/msm
 	sci-CRAN/sna
+	sci-CRAN/msm
 "
 RDEPEND="${DEPEND-}"

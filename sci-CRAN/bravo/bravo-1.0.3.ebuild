@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bravo_1.0.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/Rcpp-1.0.2
+DEPEND=">=sci-CRAN/Rcpp-1.0.2
 	virtual/Matrix
+	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

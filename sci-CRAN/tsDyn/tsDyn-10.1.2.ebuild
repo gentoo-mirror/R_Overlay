@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d )
 	r_suggests_sm? ( sci-CRAN/sm )
 "
-DEPEND="virtual/mgcv
+DEPEND="sci-CRAN/tseriesChaos
 	sci-CRAN/vars
-	sci-CRAN/tseriesChaos
-	virtual/nnet
-	>=dev-lang/R-3.5.0
-	sci-CRAN/mnormt
 	sci-CRAN/tseries
+	sci-CRAN/mnormt
+	virtual/mgcv
 	sci-CRAN/urca
 	sci-CRAN/forecast
+	>=dev-lang/R-3.5.0
+	virtual/nnet
 	virtual/MASS
 	virtual/Matrix
 	sci-CRAN/foreach

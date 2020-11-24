@@ -15,24 +15,24 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_palmerpenguins? ( sci-CRAN/palmerpenguins )
 "
-DEPEND="sci-CRAN/assertthat
-	sci-CRAN/dplyr
-	virtual/rpart
-	sci-CRAN/rmarkdown
-	sci-CRAN/DT
-	sci-CRAN/tibble
-	>=sci-CRAN/ggplot2-3.0.0
-	virtual/rpart
+DEPEND="sci-CRAN/odbc
 	sci-CRAN/broom
-	sci-CRAN/DBI
 	sci-CRAN/forcats
-	sci-CRAN/stringr
-	sci-CRAN/shiny
-	sci-CRAN/rlang
-	sci-CRAN/magrittr
-	virtual/MASS
-	sci-CRAN/tidyr
-	sci-CRAN/odbc
 	sci-CRAN/gridExtra
+	sci-CRAN/DBI
+	sci-CRAN/shiny
+	sci-CRAN/tibble
+	sci-CRAN/rmarkdown
+	sci-CRAN/rlang
+	sci-CRAN/DT
+	sci-CRAN/dplyr
+	>=sci-CRAN/ggplot2-3.0.0
+	sci-CRAN/magrittr
+	virtual/rpart
+	sci-CRAN/assertthat
+	virtual/rpart
+	sci-CRAN/stringr
+	sci-CRAN/tidyr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

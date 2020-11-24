@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/skewlmm_0.2.2.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/mvtnorm
-	sci-CRAN/dplyr
-	sci-CRAN/moments
-	sci-CRAN/numDeriv
-	sci-CRAN/purrr
-	sci-CRAN/ggplot2
 	virtual/nlme
+	sci-CRAN/numDeriv
+	sci-CRAN/dplyr
+	sci-CRAN/mvtnorm
+	sci-CRAN/ggplot2
+	sci-CRAN/moments
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-}"

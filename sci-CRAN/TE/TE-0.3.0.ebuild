@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TE_0.3-0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="virtual/MASS
-	sci-CRAN/rainbow
+DEPEND="sci-CRAN/rainbow
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

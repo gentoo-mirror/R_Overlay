@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/pushoverr_1.0.0.tar.gz"
 LICENSE='BSD-2'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/assertthat
 	sci-CRAN/httr
+	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-}"

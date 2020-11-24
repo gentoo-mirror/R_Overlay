@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ggforce-0.2.1
-	>=sci-CRAN/pheatmap-1.0.10
-	>=sci-CRAN/ggplot2-3.0.0
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/purrr-0.2.5
-	>=sci-CRAN/rlang-0.2.2
+DEPEND=">=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/vegan-2.5.2
+	>=sci-CRAN/pheatmap-1.0.10
+	>=sci-CRAN/purrr-0.2.5
+	>=sci-CRAN/ggforce-0.2.1
+	>=sci-CRAN/ggplot2-3.0.0
+	>=sci-CRAN/rlang-0.2.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RobustGaSP_0.6.1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/Rcpp-0.12.3
 	>=sci-CRAN/nloptr-1.0.4
+	>=sci-CRAN/Rcpp-0.12.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

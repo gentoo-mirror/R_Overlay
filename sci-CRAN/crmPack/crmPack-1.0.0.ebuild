@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/ggplot2-2.0.0
-	sci-CRAN/GenSA
-	sci-CRAN/gridExtra
 	sci-CRAN/mvtnorm
+	sci-CRAN/GenSA
+	>=sci-CRAN/ggplot2-2.0.0
+	sci-CRAN/gridExtra
 	sci-CRAN/rjags
 	virtual/MASS
 "

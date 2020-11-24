@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/raster
-	>=sci-CRAN/Rcpp-1.0.0
 	>=sci-CRAN/sp-1.3.1
+	>=sci-CRAN/Rcpp-1.0.0
+	sci-CRAN/raster
 	sci-CRAN/gstat
 	sci-CRAN/Rdpack
 "

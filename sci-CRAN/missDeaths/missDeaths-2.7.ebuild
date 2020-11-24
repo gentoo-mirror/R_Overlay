@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/missDeaths_2.7.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/survival
+	>=sci-CRAN/Rcpp-0.11.1
+	sci-CRAN/rms
+	sci-CRAN/relsurv
 	virtual/MASS
 	sci-CRAN/cmprsk
-	sci-CRAN/relsurv
-	sci-CRAN/rms
-	>=sci-CRAN/Rcpp-0.11.1
 	sci-CRAN/mitools
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

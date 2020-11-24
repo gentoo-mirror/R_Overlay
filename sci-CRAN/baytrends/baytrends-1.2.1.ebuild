@@ -24,16 +24,16 @@ R_SUGGESTS="
 	r_suggests_sessioninfo? ( sci-CRAN/sessioninfo )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/XML
-	sci-CRAN/memoise
-	sci-CRAN/gdata
-	sci-CRAN/digest
-	sci-CRAN/dataRetrieval
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/plyr
-	virtual/survival
-	>=dev-lang/R-3.5.0
 	sci-CRAN/lubridate
+	sci-CRAN/memoise
 	virtual/mgcv
+	sci-CRAN/XML
+	sci-CRAN/dataRetrieval
+	sci-CRAN/digest
+	sci-CRAN/gdata
+	virtual/survival
 	sci-CRAN/zCompositions
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

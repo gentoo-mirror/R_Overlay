@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gimms_1.1.3.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/Kendall
+DEPEND="sci-CRAN/curl
 	sci-CRAN/zyp
 	sci-CRAN/raster
 	sci-CRAN/ncdf4
-	sci-CRAN/curl
+	sci-CRAN/Kendall
 "
 RDEPEND="${DEPEND-}"

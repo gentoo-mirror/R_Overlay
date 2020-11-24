@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_fiery? ( sci-CRAN/fiery )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/uuid
+DEPEND="sci-CRAN/R6
+	sci-CRAN/uuid
+	sci-CRAN/httpuv
 	sci-CRAN/reqres
 	sci-CRAN/assertthat
-	sci-CRAN/httpuv
 	sci-CRAN/stringi
 	sci-CRAN/digest
-	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

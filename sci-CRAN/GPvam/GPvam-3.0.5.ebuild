@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GPvam_3.0-5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/Rcpp-0.11.2
+DEPEND="virtual/Matrix
 	sci-CRAN/numDeriv
-	virtual/Matrix
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/Rcpp-0.11.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

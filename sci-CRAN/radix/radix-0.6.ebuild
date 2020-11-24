@@ -20,24 +20,24 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/base64enc
-	sci-CRAN/whisker
-	sci-CRAN/htmltools
-	>=sci-CRAN/bookdown-0.8
-	sci-CRAN/downloader
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/digest
-	>=sci-CRAN/rmarkdown-1.10
+	sci-CRAN/rprojroot
+	sci-CRAN/base64enc
+	sci-CRAN/whisker
+	sci-CRAN/rstudioapi
 	sci-CRAN/xml2
-	>=sci-CRAN/knitr-1.15.6
-	>=sci-CRAN/xfun-0.2
-	sci-CRAN/lubridate
+	>=sci-CRAN/bookdown-0.8
+	>=sci-CRAN/jsonlite-1.3
 	sci-CRAN/png
+	sci-CRAN/progress
+	>=sci-CRAN/knitr-1.15.6
 	sci-CRAN/yaml
 	sci-CRAN/mime
-	sci-CRAN/progress
-	>=sci-CRAN/jsonlite-1.3
-	sci-CRAN/rstudioapi
-	sci-CRAN/rprojroot
-	sci-CRAN/stringr
+	sci-CRAN/downloader
+	sci-CRAN/lubridate
+	>=sci-CRAN/rmarkdown-1.10
+	>=sci-CRAN/xfun-0.2
+	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

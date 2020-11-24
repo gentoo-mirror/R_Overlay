@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/hwwntest_1.3.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/polynom
 	sci-CRAN/wavethresh
+	sci-CRAN/polynom
 "
 RDEPEND="${DEPEND-}"

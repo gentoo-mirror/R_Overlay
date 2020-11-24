@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1
-	virtual/mgcv
-	>=sci-CRAN/glmnet-4.0
 	virtual/MASS
-	sci-CRAN/catdata
 	virtual/Matrix
+	virtual/mgcv
+	sci-CRAN/catdata
+	>=sci-CRAN/glmnet-4.0
 	sci-CRAN/RColorBrewer
 	>=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/speedglm

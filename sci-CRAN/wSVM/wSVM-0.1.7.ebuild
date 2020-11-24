@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/wSVM_0.1-7.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.10.1
-	virtual/MASS
 	sci-CRAN/quadprog
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

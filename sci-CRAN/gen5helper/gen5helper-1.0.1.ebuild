@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gen5helper_1.0.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/minpack_lm
-	sci-CRAN/rlang
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/pracma
 	sci-CRAN/plyr
 	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/pracma
+	sci-CRAN/minpack_lm
 	sci-CRAN/tidyr
 	sci-CRAN/naturalsort
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}"

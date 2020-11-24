@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_mm2sdata? ( sci-CRAN/MM2Sdata )
 "
-DEPEND="sci-CRAN/pheatmap
+DEPEND=">=sci-CRAN/kknn-1.2.5
 	>=sci-BIOC/GSVA-1.13.1
+	sci-CRAN/pheatmap
 	virtual/lattice
-	>=sci-CRAN/kknn-1.2.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

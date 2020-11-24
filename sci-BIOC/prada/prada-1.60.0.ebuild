@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_cellhts2? ( sci-BIOC/cellHTS2 )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND="sci-CRAN/rrcov
-	sci-BIOC/BiocGenerics
+DEPEND="sci-CRAN/RColorBrewer
+	sci-CRAN/RColorBrewer
+	sci-BIOC/Biobase
 	sci-CRAN/rrcov
-	sci-CRAN/RColorBrewer
+	sci-CRAN/rrcov
 	sci-BIOC/Biobase
-	sci-CRAN/RColorBrewer
-	sci-BIOC/Biobase
+	sci-BIOC/BiocGenerics
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

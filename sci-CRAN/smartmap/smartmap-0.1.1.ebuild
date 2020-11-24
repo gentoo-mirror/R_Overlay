@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/leaflet
+DEPEND="sci-CRAN/leaflet
+	sci-CRAN/magrittr
 	>=dev-lang/R-3.6.0
 	sci-CRAN/sf
 "

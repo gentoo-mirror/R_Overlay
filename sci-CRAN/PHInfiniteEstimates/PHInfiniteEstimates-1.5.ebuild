@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PHInfiniteEstimates_1.5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/survival
-	sci-CRAN/coxphf
-	>=sci-CRAN/Rdpack-0.7
+DEPEND="sci-CRAN/lpSolve
 	sci-CRAN/mlogit
-	sci-CRAN/lpSolve
+	sci-CRAN/coxphf
+	virtual/survival
+	>=sci-CRAN/Rdpack-0.7
 "
 RDEPEND="${DEPEND-}"

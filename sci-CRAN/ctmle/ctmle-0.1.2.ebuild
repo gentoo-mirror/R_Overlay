@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/glmnet
-	sci-CRAN/SuperLearner
+DEPEND="sci-CRAN/tmle
 	>=dev-lang/R-2.14.0
-	sci-CRAN/tmle
+	sci-CRAN/SuperLearner
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

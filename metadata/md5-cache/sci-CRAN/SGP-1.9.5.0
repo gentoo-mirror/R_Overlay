@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/RSQLite sci-CRAN/toOrdinal >=sci-CRAN/rngtools-1.5 sci-CRAN/iterators sci-CRAN/doParallel sci-CRAN/quantreg sci-CRAN/colorspace sci-CRAN/digest >=sci-CRAN/data_table-1.12.4 >=sci-CRAN/doRNG-1.8.2 sci-CRAN/foreach >=sci-CRAN/sn-1.0.0 >=dev-lang/R-3.6.0 >=sci-CRAN/equate-2.0.5 sci-CRAN/gridBase sci-CRAN/jsonlite sci-CRAN/plotly sci-CRAN/Cairo sci-CRAN/gtools sci-CRAN/callr sci-CRAN/crayon virtual/Matrix >=sci-CRAN/randomNames-0.0.5 dev-lang/R
+DEPEND=sci-CRAN/crayon sci-CRAN/toOrdinal sci-CRAN/jsonlite virtual/Matrix sci-CRAN/gridBase sci-CRAN/quantreg sci-CRAN/digest >=sci-CRAN/doRNG-1.8.2 sci-CRAN/foreach sci-CRAN/iterators >=sci-CRAN/sn-1.0.0 sci-CRAN/callr >=sci-CRAN/randomNames-0.0.5 sci-CRAN/RSQLite >=dev-lang/R-3.6.0 sci-CRAN/colorspace >=sci-CRAN/equate-2.0.5 sci-CRAN/plotly >=sci-CRAN/rngtools-1.5 sci-CRAN/gtools sci-CRAN/Cairo >=sci-CRAN/data_table-1.12.4 sci-CRAN/doParallel dev-lang/R
 DESCRIPTION=Student Growth Percentiles & Per... (see metadata)
 EAPI=7
 IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_sgpdata byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=sci-CRAN/RSQLite sci-CRAN/toOrdinal >=sci-CRAN/rngtools-1.5 sci-CRAN/iterators sci-CRAN/doParallel sci-CRAN/quantreg sci-CRAN/colorspace sci-CRAN/digest >=sci-CRAN/data_table-1.12.4 >=sci-CRAN/doRNG-1.8.2 sci-CRAN/foreach >=sci-CRAN/sn-1.0.0 >=dev-lang/R-3.6.0 >=sci-CRAN/equate-2.0.5 sci-CRAN/gridBase sci-CRAN/jsonlite sci-CRAN/plotly sci-CRAN/Cairo sci-CRAN/gtools sci-CRAN/callr sci-CRAN/crayon virtual/Matrix >=sci-CRAN/randomNames-0.0.5 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sgpdata? ( >=sci-CRAN/SGPdata-23.0.0 ) dev-lang/R
+RDEPEND=sci-CRAN/crayon sci-CRAN/toOrdinal sci-CRAN/jsonlite virtual/Matrix sci-CRAN/gridBase sci-CRAN/quantreg sci-CRAN/digest >=sci-CRAN/doRNG-1.8.2 sci-CRAN/foreach sci-CRAN/iterators >=sci-CRAN/sn-1.0.0 sci-CRAN/callr >=sci-CRAN/randomNames-0.0.5 sci-CRAN/RSQLite >=dev-lang/R-3.6.0 sci-CRAN/colorspace >=sci-CRAN/equate-2.0.5 sci-CRAN/plotly >=sci-CRAN/rngtools-1.5 sci-CRAN/gtools sci-CRAN/Cairo >=sci-CRAN/data_table-1.12.4 sci-CRAN/doParallel r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sgpdata? ( >=sci-CRAN/SGPdata-23.0.0 ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/SGP_1.9-5.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=064524741994c0a440da43c28b6471a4
+_md5_=f8fafb6989d7dfbc0530bb0119f29528

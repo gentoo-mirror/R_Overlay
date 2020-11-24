@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/httr
+	sci-CRAN/magrittr
 	sci-CRAN/crayon
 	sci-CRAN/base64enc
-	sci-CRAN/gargle
-	sci-CRAN/httr
 	sci-CRAN/lifecycle
-	sci-CRAN/magrittr
-	sci-CRAN/mime
 	sci-CRAN/rematch2
+	>=dev-lang/R-3.0.0
+	sci-CRAN/gargle
+	sci-CRAN/jsonlite
+	sci-CRAN/mime
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

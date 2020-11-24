@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/lsl_0.5.6.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	sci-CRAN/lavaan
 	>=dev-lang/R-3.2.0
+	sci-CRAN/lavaan
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

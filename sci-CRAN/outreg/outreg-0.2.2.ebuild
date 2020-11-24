@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/sandwich
+DEPEND=">=dev-lang/R-3.0
+	sci-CRAN/reshape2
+	sci-CRAN/sandwich
 	sci-CRAN/stringr
 	sci-CRAN/magrittr
 	sci-CRAN/tidyr
-	>=dev-lang/R-3.0
-	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

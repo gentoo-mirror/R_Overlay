@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_cowplot? ( sci-CRAN/cowplot )
 	r_suggests_gridgraphics? ( sci-CRAN/gridGraphics )
 "
-DEPEND=">=sci-CRAN/reticulate-1.8
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.3
 	sci-CRAN/memoise
-	>=dev-lang/R-3.3
+	sci-CRAN/ggplot2
+	>=sci-CRAN/reticulate-1.8
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

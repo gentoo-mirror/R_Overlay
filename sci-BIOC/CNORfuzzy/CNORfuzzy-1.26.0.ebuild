@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-2.15.0
-	>=sci-CRAN/nloptr-0.8.5
 	>=sci-BIOC/CellNOptR-1.4.0
+	>=sci-CRAN/nloptr-0.8.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

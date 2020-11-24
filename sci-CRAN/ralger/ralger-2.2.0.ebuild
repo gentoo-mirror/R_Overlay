@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/xml2
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/rvest
-	sci-CRAN/testthat
-	sci-CRAN/magrittr
+	sci-CRAN/tidyr
 	sci-CRAN/dplyr
 	sci-CRAN/stringr
-	sci-CRAN/robotstxt
 	sci-CRAN/crayon
 	sci-CRAN/purrr
 	sci-CRAN/curl
+	sci-CRAN/xml2
+	sci-CRAN/testthat
+	sci-CRAN/robotstxt
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

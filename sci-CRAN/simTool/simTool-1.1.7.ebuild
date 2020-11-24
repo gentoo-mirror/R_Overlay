@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND=">=dev-lang/R-2.14.0
-	>=sci-CRAN/tidyr-1.0.0
-	>=sci-CRAN/purrr-0.2.3
 	>=sci-CRAN/tibble-2.0.0
+	>=sci-CRAN/tidyr-1.0.0
 	>=sci-CRAN/dplyr-0.7.2
+	>=sci-CRAN/purrr-0.2.3
 	>=sci-CRAN/vctrs-0.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

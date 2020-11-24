@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
-	sci-CRAN/xslt
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/xslt
 	sci-CRAN/xml2
+	sci-CRAN/dplyr
+	sci-CRAN/tidyr
+	>=dev-lang/R-3.5.0
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

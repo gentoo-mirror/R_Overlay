@@ -20,18 +20,18 @@ R_SUGGESTS="
 	r_suggests_tufte? ( sci-CRAN/tufte )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/stringr
-	sci-CRAN/tibble
 	sci-CRAN/readr
+	sci-CRAN/igraph
+	>=sci-CRAN/haven-2.2.0
+	sci-CRAN/readxl
 	dev-lang/R[tk]
-	sci-CRAN/magrittr
+	sci-CRAN/stringr
 	sci-CRAN/purrr
-	sci-CRAN/tidyr
 	sci-CRAN/dplyr
+	sci-CRAN/tibble
+	sci-CRAN/magrittr
+	sci-CRAN/tidyr
 	sci-CRAN/rlang
 	sci-CRAN/lubridate
-	>=sci-CRAN/haven-2.2.0
-	sci-CRAN/igraph
-	sci-CRAN/readxl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

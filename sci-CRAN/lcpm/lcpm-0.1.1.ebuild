@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/lcpm_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/plyr-1.8.4
-	>=sci-CRAN/numDeriv-2016.8.1
 	virtual/Matrix
+	>=sci-CRAN/numDeriv-2016.8.1
 "
 RDEPEND="${DEPEND-}"

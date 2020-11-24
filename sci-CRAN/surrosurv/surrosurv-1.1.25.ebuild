@@ -12,17 +12,17 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND="virtual/Matrix
-	virtual/survival
-	sci-CRAN/optextras
-	sci-CRAN/parfm
+DEPEND="virtual/MASS
+	sci-CRAN/SurvCorr
+	virtual/Matrix
 	sci-CRAN/copula
+	virtual/survival
 	sci-CRAN/optimx
 	sci-CRAN/eha
 	sci-CRAN/lme4
-	virtual/MASS
 	sci-CRAN/msm
 	sci-CRAN/mvmeta
-	sci-CRAN/SurvCorr
+	sci-CRAN/optextras
+	sci-CRAN/parfm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

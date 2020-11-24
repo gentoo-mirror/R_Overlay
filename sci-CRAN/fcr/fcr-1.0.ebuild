@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.2.4
+	virtual/mgcv
 	>=sci-CRAN/fields-9.0
 	>=sci-CRAN/face-0.1
-	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

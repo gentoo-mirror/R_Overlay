@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/fourierin
-	sci-CRAN/orthopolynom
-	sci-CRAN/tmvtnorm
-	sci-CRAN/polynom
-	sci-CRAN/rdetools
-	sci-CRAN/statmod
-	sci-CRAN/RCEIM
-	sci-CRAN/robustbase
-	sci-CRAN/snowfall
+DEPEND="sci-CRAN/polynom
 	sci-CRAN/sfsmisc
+	sci-CRAN/orthopolynom
+	sci-CRAN/snowfall
+	sci-CRAN/fourierin
+	sci-CRAN/tmvtnorm
+	sci-CRAN/rdetools
 	sci-CRAN/ks
+	sci-CRAN/statmod
+	sci-CRAN/robustbase
+	>=dev-lang/R-3.0.0
+	sci-CRAN/RCEIM
 	sci-CRAN/VGAM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

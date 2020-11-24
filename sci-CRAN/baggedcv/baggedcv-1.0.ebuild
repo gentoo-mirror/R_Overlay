@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/foreach
 	sci-CRAN/kedd
-	sci-CRAN/doParallel
 	sci-CRAN/mclust
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

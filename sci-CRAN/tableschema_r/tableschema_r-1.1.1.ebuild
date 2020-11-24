@@ -17,16 +17,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/config
-	sci-CRAN/httr
-	sci-CRAN/rlist
-	sci-CRAN/iterators
-	sci-CRAN/lubridate
 	sci-CRAN/future
+	sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/iterators
 	sci-CRAN/jsonvalidate
+	sci-CRAN/lubridate
 	sci-CRAN/purrr
 	sci-CRAN/R6
 	sci-CRAN/RCurl
+	sci-CRAN/rlist
 	sci-CRAN/stringr
 	sci-CRAN/urltools
 "

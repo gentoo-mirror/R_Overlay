@@ -12,20 +12,20 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/BH
-	>=sci-BIOC/flowCore-1.45.11
+DEPEND="sci-CRAN/RcppArmadillo
 	sci-BIOC/flowCore
-	sci-CRAN/RcppArmadillo
 	sci-BIOC/flowViz
 	sci-BIOC/Biobase
-	sci-BIOC/BiocGenerics
+	sci-CRAN/BH
 	sci-BIOC/zlibbioc
+	>=dev-lang/R-2.14.0
+	>=sci-BIOC/flowCore-1.45.11
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
 	sci-CRAN/RcppArmadillo
-	sci-BIOC/Rhdf5lib
 	sci-CRAN/BH
+	sci-BIOC/Rhdf5lib
 	${R_SUGGESTS-}
 "

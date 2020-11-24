@@ -16,21 +16,21 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/preseqR-4.0.0
-	>=sci-CRAN/bbmle-1.0.18
+DEPEND="sci-CRAN/kernlab
+	sci-CRAN/penalized
 	virtual/MASS
 	>=sci-CRAN/pscl-1.4.9
-	>=sci-BIOC/BiocParallel-1.12.0
-	sci-CRAN/doParallel
-	sci-CRAN/kernlab
-	>=sci-CRAN/Rmagic-1.3.0
-	sci-CRAN/penalized
-	sci-CRAN/foreach
+	>=sci-CRAN/bbmle-1.0.18
+	>=sci-CRAN/SAVER-1.1.1
+	>=dev-lang/R-3.4.0
 	sci-CRAN/rsvd
 	>=sci-CRAN/gamlss-4.4.0
-	>=sci-CRAN/SAVER-1.1.1
+	sci-CRAN/doParallel
+	>=sci-CRAN/preseqR-4.0.0
+	sci-CRAN/foreach
+	>=sci-CRAN/Rmagic-1.3.0
+	>=sci-BIOC/BiocParallel-1.12.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/slimrec_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.3.3
-	virtual/Matrix
-	>=sci-CRAN/assertthat-0.1
-	>=sci-CRAN/pbapply-1.3.2
-	>=sci-CRAN/glmnet-2.0.5
+DEPEND=">=sci-CRAN/glmnet-2.0.5
 	>=sci-CRAN/bigmemory-4.5.19
+	>=sci-CRAN/assertthat-0.1
+	virtual/Matrix
+	>=dev-lang/R-3.3.3
+	>=sci-CRAN/pbapply-1.3.2
 "
 RDEPEND="${DEPEND-}"

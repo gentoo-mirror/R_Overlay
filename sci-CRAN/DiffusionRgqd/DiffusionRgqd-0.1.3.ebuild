@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.1
 	sci-CRAN/Rcpp
-	sci-CRAN/colorspace
 	sci-CRAN/rgl
+	sci-CRAN/colorspace
 	sci-CRAN/RcppArmadillo
 "
 RDEPEND="${DEPEND-}

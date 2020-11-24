@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/Rcpp
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/sphereplot
+	sci-CRAN/ggplot2
 	sci-CRAN/rgl
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

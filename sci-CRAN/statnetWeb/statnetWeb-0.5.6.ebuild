@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/statnetWeb_0.5.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/RColorBrewer
 	virtual/lattice
-	virtual/lattice
+	sci-CRAN/sna
 	>=sci-CRAN/shiny-1.3
 	sci-CRAN/network
 	>=sci-CRAN/ergm-3.10.4
-	sci-CRAN/sna
-	sci-CRAN/RColorBrewer
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

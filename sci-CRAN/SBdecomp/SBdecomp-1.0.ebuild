@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SBdecomp_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/survey
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/survey
 	sci-CRAN/twang
 "
 RDEPEND="${DEPEND-}"

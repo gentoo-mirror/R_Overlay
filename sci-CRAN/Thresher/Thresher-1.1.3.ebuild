@@ -12,13 +12,13 @@ LICENSE='Apache-2.0'
 
 IUSE="${IUSE-} r_suggests_nbclust"
 R_SUGGESTS="r_suggests_nbclust? ( sci-CRAN/NbClust )"
-DEPEND="virtual/MASS
-	sci-CRAN/oompaBase
-	>=dev-lang/R-3.1
-	virtual/class
-	sci-CRAN/PCDimension
-	sci-CRAN/colorspace
+DEPEND="virtual/class
 	sci-CRAN/movMF
+	sci-CRAN/colorspace
+	sci-CRAN/oompaBase
 	sci-CRAN/ade4
+	>=dev-lang/R-3.1
+	sci-CRAN/PCDimension
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

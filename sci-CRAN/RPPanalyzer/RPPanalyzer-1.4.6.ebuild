@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RPPanalyzer_1.4.6.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND=">=dev-lang/R-2.14
-	sci-CRAN/quantreg
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/quantreg
+	sci-BIOC/limma
 	virtual/lattice
 	sci-CRAN/gam
-	sci-BIOC/Biobase
-	sci-BIOC/limma
+	>=dev-lang/R-2.14
 	sci-CRAN/gplots
 	sci-CRAN/ggplot2
+	sci-CRAN/Hmisc
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

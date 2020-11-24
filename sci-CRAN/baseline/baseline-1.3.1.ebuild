@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_pls? ( sci-CRAN/pls )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND=">=dev-lang/R-2.15
-	sci-CRAN/SparseM
+DEPEND="sci-CRAN/SparseM
 	sci-CRAN/limSolve
+	>=dev-lang/R-2.15
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

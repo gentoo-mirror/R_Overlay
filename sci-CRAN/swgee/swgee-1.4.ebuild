@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/swgee_1.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/geepack
+DEPEND="sci-CRAN/gee
+	sci-CRAN/geepack
 	sci-CRAN/mvtnorm
-	sci-CRAN/gee
 "
 RDEPEND="${DEPEND-}"

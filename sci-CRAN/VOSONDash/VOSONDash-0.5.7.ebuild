@@ -22,21 +22,21 @@ R_SUGGESTS="
 	r_suggests_shinyjs? ( sci-CRAN/shinyjs )
 	r_suggests_visnetwork? ( sci-CRAN/visNetwork )
 "
-DEPEND="sci-CRAN/httpuv
-	sci-CRAN/syuzhet
-	sci-CRAN/systemfonts
-	>=sci-CRAN/shiny-1.3.2
-	virtual/lattice
-	>=sci-CRAN/vosonSML-0.29.0
-	sci-CRAN/wordcloud
-	>=dev-lang/R-3.2.0
-	sci-CRAN/httr
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/data_table
-	>=sci-CRAN/igraph-1.2.2
-	sci-CRAN/magrittr
 	sci-CRAN/RColorBrewer
-	sci-CRAN/SnowballC
+	sci-CRAN/httr
+	>=sci-CRAN/igraph-1.2.2
 	sci-CRAN/textutils
 	sci-CRAN/tm
+	sci-CRAN/wordcloud
+	sci-CRAN/httpuv
+	virtual/lattice
+	sci-CRAN/magrittr
+	>=sci-CRAN/shiny-1.3.2
+	sci-CRAN/SnowballC
+	sci-CRAN/systemfonts
+	sci-CRAN/syuzhet
+	>=sci-CRAN/vosonSML-0.29.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

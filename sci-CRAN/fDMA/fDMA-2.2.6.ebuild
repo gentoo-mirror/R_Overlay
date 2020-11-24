@@ -12,18 +12,18 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND="sci-CRAN/tseries
-	sci-CRAN/xts
-	sci-CRAN/png
-	sci-CRAN/doParallel
-	sci-CRAN/Rcpp
-	sci-CRAN/forecast
-	sci-CRAN/gplots
-	sci-CRAN/foreach
-	sci-CRAN/iterators
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/itertools
+	sci-CRAN/forecast
 	sci-CRAN/psych
+	sci-CRAN/png
+	sci-CRAN/Rcpp
+	sci-CRAN/tseries
+	sci-CRAN/xts
 	sci-CRAN/zoo
+	sci-CRAN/foreach
+	sci-CRAN/gplots
+	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

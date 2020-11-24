@@ -12,10 +12,10 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_networktools"
 R_SUGGESTS="r_suggests_networktools? ( sci-CRAN/networktools )"
-DEPEND="sci-CRAN/reshape2
+DEPEND="sci-CRAN/qgraph
 	sci-CRAN/IsingFit
-	sci-CRAN/qgraph
-	virtual/Matrix
 	sci-CRAN/IsingSampler
+	sci-CRAN/reshape2
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

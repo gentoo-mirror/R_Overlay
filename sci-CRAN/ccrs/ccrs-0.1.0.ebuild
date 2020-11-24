@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ccrs_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/colorspace
-	sci-CRAN/limSolve
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/colorspace
+	sci-CRAN/msm
 	sci-CRAN/cds
 	sci-CRAN/dplyr
-	>=dev-lang/R-3.5.0
+	sci-CRAN/limSolve
 	sci-CRAN/lsbclust
-	sci-CRAN/msm
 "
 RDEPEND="${DEPEND-}"

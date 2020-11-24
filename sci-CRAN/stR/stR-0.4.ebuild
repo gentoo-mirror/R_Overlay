@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_seasonal? ( sci-CRAN/seasonal )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/quantreg
+DEPEND=">=dev-lang/R-3.2.2
+	sci-CRAN/quantreg
 	sci-CRAN/forecast
-	sci-CRAN/foreach
-	>=dev-lang/R-3.2.2
 	sci-CRAN/SparseM
 	virtual/Matrix
+	sci-CRAN/foreach
 	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

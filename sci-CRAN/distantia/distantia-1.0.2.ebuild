@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_magrittr? ( sci-CRAN/magrittr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/fields
-	sci-CRAN/iterators
-	sci-CRAN/viridis
+DEPEND="sci-CRAN/RColorBrewer
+	sci-CRAN/arrangements
 	sci-CRAN/plyr
 	>=dev-lang/R-3.5.0
 	sci-CRAN/foreach
 	sci-CRAN/doParallel
-	sci-CRAN/RColorBrewer
+	sci-CRAN/fields
+	sci-CRAN/viridis
 	sci-CRAN/data_table
-	sci-CRAN/arrangements
+	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/docdescriptR_2020.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/flextable
-	sci-CRAN/magrittr
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/nortest
 	sci-CRAN/tictoc
 	sci-CRAN/officer
-	sci-CRAN/DescTools
 	sci-CRAN/dplyr
 	sci-CRAN/plotrix
 	sci-CRAN/Rdpack
-	>=dev-lang/R-3.1.0
 	sci-CRAN/broom
-	sci-CRAN/nortest
+	sci-CRAN/flextable
+	sci-CRAN/DescTools
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

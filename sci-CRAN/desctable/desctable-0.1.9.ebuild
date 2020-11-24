@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/dplyr
+	sci-CRAN/DT
 	sci-CRAN/pander
 	sci-CRAN/htmltools
-	sci-CRAN/DT
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

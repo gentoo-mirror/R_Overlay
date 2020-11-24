@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_spatial? ( virtual/spatial )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/raster
-	sci-CRAN/slippymath
+DEPEND="sci-CRAN/raster
+	sci-CRAN/rgeos
 	>=sci-CRAN/sp-1.2.4
-	sci-CRAN/curl
+	>=sci-CRAN/sf-0.6.4
+	sci-CRAN/slippymath
+	>=dev-lang/R-3.5.0
 	virtual/class
+	sci-CRAN/curl
 	sci-CRAN/png
 	sci-CRAN/Rcpp
-	sci-CRAN/rgeos
-	>=sci-CRAN/sf-0.6.4
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

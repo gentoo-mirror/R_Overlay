@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_egcm? ( sci-CRAN/egcm )
 	r_suggests_ttr? ( sci-CRAN/TTR )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.2
+DEPEND="sci-CRAN/tseries
+	sci-CRAN/plot3D
+	sci-CRAN/urca
+	sci-CRAN/KFAS
+	sci-CRAN/data_table
+	>=sci-CRAN/Rcpp-0.11.2
+	sci-CRAN/ggplot2
 	virtual/MASS
 	sci-CRAN/zoo
-	sci-CRAN/ggplot2
-	sci-CRAN/urca
-	sci-CRAN/tseries
-	sci-CRAN/data_table
-	sci-CRAN/KFAS
-	sci-CRAN/plot3D
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/RNifti
-	>sci-CRAN/gifti-0.7.5
-	sci-CRAN/oro_nifti
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/xml2
-	>=dev-lang/R-3.5.0
+	sci-CRAN/oro_nifti
+	>sci-CRAN/gifti-0.7.5
+	sci-CRAN/RNifti
 	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

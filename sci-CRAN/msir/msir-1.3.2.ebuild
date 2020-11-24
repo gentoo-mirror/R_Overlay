@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rgl? ( >=sci-CRAN/rgl-0.100 )
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.10 )
 "
-DEPEND=">=sci-CRAN/mclust-5.4
-	>=dev-lang/R-3.0
+DEPEND=">=dev-lang/R-3.0
+	>=sci-CRAN/mclust-5.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -39,8 +39,8 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="dev-lang/R[tk]
+DEPEND="sci-CRAN/gridExtra
 	>=dev-lang/R-3.5.0
-	sci-CRAN/gridExtra
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

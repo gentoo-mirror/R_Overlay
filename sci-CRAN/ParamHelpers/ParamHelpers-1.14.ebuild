@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/fastmatch
-	sci-CRAN/backports
+DEPEND="sci-CRAN/backports
+	sci-CRAN/fastmatch
 	>=sci-CRAN/checkmate-1.8.2
 	>=sci-CRAN/BBmisc-1.10
 "

@@ -24,15 +24,15 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/tibble
-	sci-CRAN/Rcpp
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
 	sci-CRAN/ggplot2
 	sci-CRAN/ggpubr
-	sci-CRAN/generics
-	sci-CRAN/rlang
+	sci-CRAN/purrr
 	sci-CRAN/stringr
+	sci-CRAN/Rcpp
+	sci-CRAN/generics
+	sci-CRAN/tibble
+	sci-CRAN/dplyr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

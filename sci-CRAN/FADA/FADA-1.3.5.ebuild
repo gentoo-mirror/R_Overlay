@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/FADA_1.3.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	virtual/Matrix
-	sci-CRAN/sparseLDA
 	sci-CRAN/sda
-	sci-CRAN/elasticnet
+	sci-CRAN/sparseLDA
 	sci-CRAN/glmnet
 	sci-CRAN/mnormt
-	sci-CRAN/crossval
 	sci-CRAN/corpcor
+	virtual/Matrix
+	sci-CRAN/elasticnet
+	sci-CRAN/crossval
 "
 RDEPEND="${DEPEND-}"

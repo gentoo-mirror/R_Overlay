@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/foreach
-	>=sci-CRAN/mathjaxr-1.0
 	>=sci-CRAN/Rcpp-1.0.3
 	sci-CRAN/iterators
+	sci-CRAN/foreach
+	>=sci-CRAN/mathjaxr-1.0
 	>=sci-CRAN/magrittr-1.5.0
 	>=sci-CRAN/lifecycle-0.2.0
 	>=sci-CRAN/data_table-1.9.8

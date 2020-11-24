@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/powdist_0.1.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/normalp
+	>=dev-lang/R-3.1.0
 	sci-CRAN/rmutil
-	sci-CRAN/normalp
 	sci-CRAN/gamlss_dist
 "
 RDEPEND="${DEPEND-}"

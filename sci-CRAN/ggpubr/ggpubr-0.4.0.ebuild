@@ -16,21 +16,21 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/rlang
-	sci-CRAN/cowplot
-	sci-CRAN/gridExtra
-	sci-CRAN/ggsci
-	sci-CRAN/purrr
-	sci-CRAN/ggsignif
-	sci-CRAN/glue
-	sci-CRAN/polynom
-	sci-CRAN/ggrepel
+DEPEND="sci-CRAN/purrr
 	>=sci-CRAN/rstatix-0.6.0
+	>=dev-lang/R-3.1.0
+	sci-CRAN/ggsci
 	sci-CRAN/tidyr
 	>=sci-CRAN/dplyr-0.7.1
 	sci-CRAN/scales
-	>=dev-lang/R-3.1.0
+	sci-CRAN/rlang
+	sci-CRAN/ggsignif
+	sci-CRAN/ggplot2
+	sci-CRAN/glue
+	sci-CRAN/polynom
+	sci-CRAN/cowplot
+	sci-CRAN/ggrepel
+	sci-CRAN/gridExtra
 	sci-CRAN/tibble
 	sci-CRAN/magrittr
 "

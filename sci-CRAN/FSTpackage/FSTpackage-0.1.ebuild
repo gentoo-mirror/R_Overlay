@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FSTpackage_0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/SKAT
-	virtual/Matrix
-	sci-CRAN/CompQuadForm
+DEPEND="sci-CRAN/CompQuadForm
 	sci-CRAN/mvtnorm
 	virtual/MASS
+	virtual/Matrix
+	sci-CRAN/SKAT
 "
 RDEPEND="${DEPEND-}"

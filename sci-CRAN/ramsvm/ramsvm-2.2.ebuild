@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ramsvm_2.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/doParallel
+DEPEND="sci-CRAN/doParallel
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

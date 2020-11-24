@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_qpdf? ( sci-CRAN/qpdf )
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 "
-DEPEND="sci-CRAN/tm
-	sci-CRAN/xlsx
-	sci-CRAN/tidytext
-	sci-CRAN/stringr
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/tm
 	sci-CRAN/dplyr
-	sci-CRAN/tibble
 	sci-CRAN/topicmodels
+	sci-CRAN/tidytext
 	sci-CRAN/rmarkdown
+	sci-CRAN/xlsx
 	sci-CRAN/knitr
+	sci-CRAN/tibble
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

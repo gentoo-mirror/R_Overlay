@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND=">=sci-CRAN/Rcpp-1.0.0
-	>=sci-CRAN/stochvol-3.0.0
-	>=dev-lang/R-3.0.2
+DEPEND=">=dev-lang/R-3.0.2
 	>=sci-CRAN/GIGrvg-0.4
 	sci-CRAN/corrplot
+	>=sci-CRAN/stochvol-3.0.0
+	>=sci-CRAN/Rcpp-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	>=sci-CRAN/RcppArmadillo-0.9.900
 	sci-CRAN/stochvol
+	>=sci-CRAN/RcppArmadillo-0.9.900
 	${R_SUGGESTS-}
 "

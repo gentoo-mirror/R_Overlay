@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/BayesBinMix_1.4.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/label_switching
-	sci-CRAN/foreach
-	sci-CRAN/coda
 	sci-CRAN/doParallel
+	sci-CRAN/coda
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

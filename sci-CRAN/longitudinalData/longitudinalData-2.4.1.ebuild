@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/longitudinalData_2.4.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/class
-	sci-CRAN/rgl
-	sci-CRAN/clv
+DEPEND="sci-CRAN/rgl
+	virtual/class
 	sci-CRAN/misc3d
+	sci-CRAN/clv
 "
 RDEPEND="${DEPEND-}"

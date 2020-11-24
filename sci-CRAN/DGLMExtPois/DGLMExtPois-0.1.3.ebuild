@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/DGLMExtPois_0.1.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/nloptr-1.2.1
 	sci-CRAN/progress
 	sci-CRAN/COMPoissonReg
-	>=sci-CRAN/nloptr-1.2.1
 "
 RDEPEND="${DEPEND-}"

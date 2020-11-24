@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/spbabel
-	sci-CRAN/sp
 	sci-CRAN/raster
+	sci-CRAN/spbabel
 	sci-CRAN/nabor
 	sci-CRAN/ncdf4
 	sci-CRAN/proj4
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

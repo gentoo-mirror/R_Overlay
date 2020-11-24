@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/grangers_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/tseries
 	sci-CRAN/vars
+	sci-CRAN/tseries
 "
 RDEPEND="${DEPEND-}"

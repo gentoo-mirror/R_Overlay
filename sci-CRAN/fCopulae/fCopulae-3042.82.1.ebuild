@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_sn? ( sci-CRAN/sn )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/fBasics
-	sci-CRAN/timeSeries
+DEPEND="sci-CRAN/timeSeries
 	sci-CRAN/timeDate
 	sci-CRAN/fMultivar
+	>=dev-lang/R-2.15.1
+	sci-CRAN/fBasics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

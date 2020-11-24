@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/JointNets_2.0.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.4.4
-	sci-CRAN/misc3d
-	sci-CRAN/brainR
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/lpSolve
 	virtual/MASS
-	sci-CRAN/shiny
-	sci-CRAN/lpSolve
-	sci-CRAN/pcaPP
 	sci-CRAN/JGL
+	sci-CRAN/igraph
 	sci-CRAN/oro_nifti
+	sci-CRAN/shiny
 	sci-CRAN/rgl
+	>=dev-lang/R-3.4.4
+	sci-CRAN/pcaPP
+	sci-CRAN/brainR
+	sci-CRAN/misc3d
 "
 RDEPEND="${DEPEND-}"

@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mbess"
 R_SUGGESTS="r_suggests_mbess? ( sci-CRAN/MBESS )"
-DEPEND="sci-CRAN/plotrix
-	virtual/boot
+DEPEND="virtual/boot
 	sci-CRAN/miscTools
 	sci-CRAN/yacca
+	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/splicegear_1.56.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="sci-BIOC/annotate
-	sci-BIOC/Biobase
+DEPEND=">=sci-BIOC/Biobase-2.5.5
 	sci-CRAN/XML
-	>=sci-BIOC/Biobase-2.5.5
+	sci-BIOC/annotate
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

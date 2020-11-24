@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SemiMarkov_1.4.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/numDeriv
 	sci-CRAN/Rsolnp
-	sci-CRAN/numDeriv
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

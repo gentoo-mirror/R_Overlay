@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/curl
-	sci-CRAN/jsonlite
+	sci-CRAN/rappdirs
 	sci-CRAN/plyr
 	sci-CRAN/tibble
-	sci-CRAN/rappdirs
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}
 	dev-lang/perl

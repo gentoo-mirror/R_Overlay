@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND="sci-CRAN/quadprog
+DEPEND=">=dev-lang/R-3.4.0
 	virtual/Matrix
-	>=dev-lang/R-3.4.0
+	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

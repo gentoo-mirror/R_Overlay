@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_scales? ( sci-CRAN/scales )
 "
-DEPEND="sci-CRAN/Rmpfr
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/sp
-	sci-CRAN/dplyr
 	sci-CRAN/magrittr
-	>=dev-lang/R-3.5
+	sci-CRAN/Rmpfr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

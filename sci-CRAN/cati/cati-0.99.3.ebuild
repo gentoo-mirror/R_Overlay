@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_mice? ( sci-CRAN/mice )
 	r_suggests_picante? ( sci-CRAN/picante )
 "
-DEPEND="sci-CRAN/ade4
-	sci-CRAN/hypervolume
-	sci-CRAN/rasterVis
-	sci-CRAN/ape
-	sci-CRAN/e1071
-	sci-CRAN/FD
-	sci-CRAN/geometry
-	sci-CRAN/vegan
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/nlme
+	sci-CRAN/e1071
+	sci-CRAN/hypervolume
+	sci-CRAN/ape
+	sci-CRAN/geometry
+	sci-CRAN/ade4
+	sci-CRAN/rasterVis
+	sci-CRAN/FD
+	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

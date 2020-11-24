@@ -35,16 +35,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_triangle? ( sci-CRAN/triangle )
 "
-DEPEND=">=sci-CRAN/plyr-1.8.0
-	>=sci-CRAN/pryr-0.1.2
-	>=sci-CRAN/tibble-1.3.0
-	>=sci-CRAN/purrr-0.3
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/rlang-0.3
-	>=dev-lang/R-3.3.0
-	>=sci-CRAN/ggplot2-2.2.0
+	>=sci-CRAN/pryr-0.1.2
 	>=sci-CRAN/memoise-1.1.0
 	>=sci-CRAN/lazyeval-0.2.0
+	>=sci-CRAN/ggplot2-2.2.0
 	>=sci-CRAN/dplyr-0.7.2
 	>=sci-CRAN/mvnfast-0.2.2
+	>=sci-CRAN/plyr-1.8.0
+	>=sci-CRAN/tibble-1.3.0
+	>=sci-CRAN/purrr-0.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

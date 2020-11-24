@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_ttmoment? ( sci-CRAN/TTmoment )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/Rcpp-1.0.1
 	>=sci-CRAN/mvtnorm-1.0.11
+	>=sci-CRAN/Rcpp-1.0.1
 	sci-CRAN/hypergeo
 	>=sci-CRAN/tlrmvnmvt-1.1.0
 "

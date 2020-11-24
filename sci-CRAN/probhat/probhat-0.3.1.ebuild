@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_vectools? ( sci-CRAN/vectools )
 "
 DEPEND="sci-CRAN/intoo
-	sci-CRAN/kubik
 	sci-CRAN/barsurf
+	sci-CRAN/kubik
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

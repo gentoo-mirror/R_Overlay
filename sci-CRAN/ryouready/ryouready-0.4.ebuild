@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ryouready_0.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/stringr
 	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}"

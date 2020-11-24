@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/R6
-	sci-CRAN/abind
-	sci-CRAN/MortalityTables
+DEPEND="sci-CRAN/MortalityTables
 	sci-CRAN/lubridate
-	sci-CRAN/openxlsx
-	sci-CRAN/objectProperties
-	sci-CRAN/dplyr
 	sci-CRAN/scales
+	sci-CRAN/dplyr
+	sci-CRAN/objectProperties
 	sci-CRAN/stringr
 	sci-CRAN/rlang
+	sci-CRAN/R6
+	sci-CRAN/openxlsx
+	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

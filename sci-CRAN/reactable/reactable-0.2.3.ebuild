@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_sparkline? ( sci-CRAN/sparkline )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/digest
-	sci-CRAN/jsonlite
-	sci-CRAN/htmltools
-	sci-CRAN/reactR
-	>=dev-lang/R-3.1
+DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/htmlwidgets
+	sci-CRAN/htmltools
+	sci-CRAN/digest
+	sci-CRAN/jsonlite
+	sci-CRAN/reactR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

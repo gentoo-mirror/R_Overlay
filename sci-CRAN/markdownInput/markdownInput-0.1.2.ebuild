@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/markdownInput_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/shiny-1.0.5
-	sci-CRAN/shinyAce
 	sci-CRAN/markdown
+	sci-CRAN/shinyAce
 "
 RDEPEND="${DEPEND-}"

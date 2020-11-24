@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TAG_0.2.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/Matrix
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/DiceKriging
-	sci-CRAN/randtoolbox
-	>=dev-lang/R-3.5.0
-	virtual/mgcv
-	sci-CRAN/Rcpp
 	sci-CRAN/FastGP
-	sci-CRAN/mlegp
+	virtual/Matrix
+	virtual/mgcv
 	sci-CRAN/foreach
+	sci-CRAN/Rcpp
+	sci-CRAN/mlegp
+	sci-CRAN/randtoolbox
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

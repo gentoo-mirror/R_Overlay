@@ -27,9 +27,9 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/jsonlite-1.1
-	>=sci-CRAN/glmnet-2.0.5
+DEPEND=">=sci-CRAN/jsonlite-1.1
 	>=sci-CRAN/gbm-2.1.1
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/glmnet-2.0.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

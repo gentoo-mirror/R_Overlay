@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_digest? ( >=sci-CRAN/digest-0.6.13 )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND=">=dev-lang/R-2.14.0
-	>=sci-CRAN/R_utils-2.6.0
-	>=sci-CRAN/R_oo-1.21.0
+DEPEND=">=sci-CRAN/R_methodsS3-1.7.1
+	>=dev-lang/R-2.14.0
 	>=sci-CRAN/base64enc-0.1.2
-	>=sci-CRAN/R_methodsS3-1.7.1
+	>=sci-CRAN/R_oo-1.21.0
+	>=sci-CRAN/R_utils-2.6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

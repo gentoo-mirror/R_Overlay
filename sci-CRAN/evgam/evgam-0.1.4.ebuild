@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/evgam_0.1.4.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/Rcpp-1.0.4.6
 	virtual/mgcv
+	>=sci-CRAN/Rcpp-1.0.4.6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

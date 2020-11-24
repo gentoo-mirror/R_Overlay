@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/FMCCSD_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.18
-	sci-CRAN/numDeriv
 	sci-CRAN/orthopolynom
 	sci-CRAN/splines2
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

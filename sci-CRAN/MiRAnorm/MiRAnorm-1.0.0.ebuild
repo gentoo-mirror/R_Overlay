@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MiRAnorm_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/ArgumentCheck
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/ggplot2
+	sci-CRAN/plyr
 	virtual/MASS
-	sci-CRAN/dendextend
-	sci-CRAN/reshape2
-	>=dev-lang/R-3.1.0
+	sci-CRAN/ArgumentCheck
 	virtual/cluster
 	sci-CRAN/npmv
-	sci-CRAN/plyr
+	sci-CRAN/dendextend
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}"

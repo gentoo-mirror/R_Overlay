@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_spdep"
 R_SUGGESTS="r_suggests_spdep? ( >=sci-CRAN/spdep-0.5.43 )"
 DEPEND="virtual/spatial
-	>=sci-CRAN/rgeos-0.2.17
 	>=sci-CRAN/RandomFields-1.3.41
+	>=sci-CRAN/rgeos-0.2.17
 	>=sci-CRAN/sp-0.9.60
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/RbcBook1_1.52.0.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND="virtual/rpart
+DEPEND="sci-BIOC/graph
 	sci-BIOC/Biobase
-	sci-BIOC/graph
+	virtual/rpart
 "
 RDEPEND="${DEPEND-}"

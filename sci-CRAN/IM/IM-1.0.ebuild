@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IM_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/png-0.1.4
+DEPEND=">=sci-CRAN/jpeg-0.1.2
+	>=sci-CRAN/png-0.1.4
 	>=sci-CRAN/bmp-0.1
-	>=sci-CRAN/jpeg-0.1.2
 "
 RDEPEND="${DEPEND-}"

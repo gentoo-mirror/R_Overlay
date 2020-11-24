@@ -32,9 +32,9 @@ R_SUGGESTS="
 	r_suggests_suppdists? ( sci-CRAN/SuppDists )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND=">=sci-CRAN/modeltools-0.2.16
+DEPEND=">=dev-lang/R-2.15.0
 	virtual/nnet
-	>=dev-lang/R-2.15.0
 	virtual/lattice
+	>=sci-CRAN/modeltools-0.2.16
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

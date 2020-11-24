@@ -14,12 +14,12 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/rgl
-	virtual/Matrix
-	sci-CRAN/geometry
-	sci-CRAN/plot3D
+DEPEND="sci-CRAN/plot3D
 	sci-CRAN/plot3Drgl
+	sci-CRAN/rgl
+	sci-CRAN/geometry
+	>=dev-lang/R-3.5.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/RcppEigen

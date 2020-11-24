@@ -13,10 +13,10 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_picante"
 R_SUGGESTS="r_suggests_picante? ( sci-CRAN/picante )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ade4
-	sci-CRAN/adiv
-	sci-CRAN/geiger
 	sci-CRAN/dplyr
+	sci-CRAN/adiv
+	sci-CRAN/ade4
+	sci-CRAN/geiger
 	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

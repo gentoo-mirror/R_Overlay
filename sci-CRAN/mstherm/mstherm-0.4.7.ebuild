@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/doParallel
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/nls2
+	sci-CRAN/doParallel
 	sci-CRAN/plotrix
 	sci-CRAN/RColorBrewer
-	sci-CRAN/nls2
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

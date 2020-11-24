@@ -20,41 +20,41 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_snplist? ( sci-CRAN/snplist )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/RMySQL
-	sci-CRAN/ROCR
-	sci-CRAN/RSQLite
-	sci-BIOC/preprocessCore
-	virtual/boot
-	sci-CRAN/ggpubr
-	sci-CRAN/zoo
-	sci-CRAN/dplyr
-	sci-CRAN/BiocManager
-	sci-CRAN/gplots
-	sci-BIOC/GEOquery
-	sci-CRAN/Metrics
-	sci-CRAN/DT
-	sci-CRAN/pracma
-	sci-CRAN/manhattanly
-	sci-BIOC/GEOmetadb
-	>=dev-lang/R-3.6
+DEPEND="sci-CRAN/RSQLite
 	sci-CRAN/httpuv
+	sci-CRAN/ggpubr
+	sci-BIOC/preprocessCore
 	sci-BIOC/Biobase
-	sci-CRAN/DBI
-	sci-CRAN/COCONUT
-	sci-CRAN/rmarkdown
-	sci-BIOC/AnnotationDbi
+	sci-CRAN/pracma
 	sci-CRAN/HGNChelper
-	sci-CRAN/readr
-	sci-BIOC/multtest
-	sci-CRAN/Rmisc
-	sci-CRAN/pheatmap
-	sci-CRAN/plyr
-	sci-CRAN/plotly
-	sci-CRAN/rmeta
-	sci-CRAN/stringr
-	sci-CRAN/data_table
-	sci-CRAN/reshape2
+	sci-CRAN/gplots
+	sci-BIOC/GEOmetadb
+	sci-CRAN/ROCR
+	sci-CRAN/DT
 	sci-CRAN/magrittr
+	sci-BIOC/AnnotationDbi
+	sci-CRAN/data_table
+	>=dev-lang/R-3.6
+	sci-CRAN/COCONUT
+	sci-CRAN/plyr
+	sci-CRAN/dplyr
+	sci-CRAN/reshape2
+	sci-CRAN/readr
+	sci-CRAN/plotly
+	sci-CRAN/RMySQL
+	sci-BIOC/GEOquery
+	sci-CRAN/Rmisc
+	sci-CRAN/DBI
+	sci-CRAN/stringr
+	sci-CRAN/zoo
+	virtual/boot
+	sci-BIOC/multtest
+	sci-CRAN/Metrics
+	sci-CRAN/pheatmap
+	sci-CRAN/rmeta
+	sci-CRAN/BiocManager
+	sci-CRAN/ggplot2
+	sci-CRAN/manhattanly
+	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

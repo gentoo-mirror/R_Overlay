@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/KCsmart_2.42.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-BIOC/siggenes
-	sci-BIOC/multtest
+DEPEND="sci-BIOC/BiocGenerics
 	virtual/KernSmooth
-	sci-BIOC/BiocGenerics
+	sci-BIOC/siggenes
+	sci-BIOC/multtest
 "
 RDEPEND="${DEPEND-}"

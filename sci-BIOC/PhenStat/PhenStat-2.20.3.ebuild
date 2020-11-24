@@ -14,20 +14,20 @@ R_SUGGESTS="
 	r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/corrplot
-	sci-CRAN/nortest
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/MASS
-	sci-CRAN/lme4
-	sci-CRAN/car
-	sci-CRAN/pingr
-	virtual/nlme
 	sci-CRAN/SmoothWin
-	sci-CRAN/logistf
-	sci-CRAN/reshape
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
-	sci-CRAN/msgps
-	sci-CRAN/knitr
+	sci-CRAN/pingr
 	sci-BIOC/graph
+	sci-CRAN/car
+	sci-CRAN/nortest
+	sci-CRAN/logistf
+	sci-CRAN/lme4
+	sci-CRAN/corrplot
+	sci-CRAN/msgps
+	sci-CRAN/reshape
+	virtual/nlme
+	sci-CRAN/knitr
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

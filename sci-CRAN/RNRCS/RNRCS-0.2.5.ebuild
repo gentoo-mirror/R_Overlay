@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/RNRCS_0.2.5.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/magrittr
-	sci-CRAN/xml2
-	>=dev-lang/R-3.3
-	sci-CRAN/ggplot2
 	sci-CRAN/rvest
+	sci-CRAN/xml2
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-}"

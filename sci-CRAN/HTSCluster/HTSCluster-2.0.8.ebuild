@@ -12,9 +12,9 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_biobase"
 R_SUGGESTS="r_suggests_biobase? ( sci-BIOC/Biobase )"
-DEPEND="sci-BIOC/edgeR
-	sci-CRAN/capushe
+DEPEND="sci-CRAN/capushe
 	sci-CRAN/plotrix
+	sci-BIOC/edgeR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -18,18 +18,18 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/ggplot2
+	sci-CRAN/evtree
+	sci-CRAN/magrittr
+	>=dev-lang/R-3.3
+	sci-CRAN/DHARMa
 	sci-CRAN/ciTools
+	virtual/class
 	sci-CRAN/dplyr
 	sci-CRAN/insight
 	sci-CRAN/lubridate
-	sci-CRAN/magrittr
 	virtual/mgcv
-	sci-CRAN/data_table
-	virtual/class
-	sci-CRAN/DHARMa
-	sci-CRAN/evtree
 	sci-CRAN/patchwork
 	sci-CRAN/stringr
 	sci-CRAN/tidyr

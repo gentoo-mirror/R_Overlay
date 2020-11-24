@@ -20,7 +20,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/cornet
-	sci-CRAN/glmnet
 	sci-CRAN/palasso
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

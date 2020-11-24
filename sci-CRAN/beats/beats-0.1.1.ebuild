@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_png? ( sci-CRAN/png )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/lubridate
-	sci-CRAN/purrr
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/purrr
 	sci-CRAN/readr
+	sci-CRAN/zoo
+	sci-CRAN/lubridate
+	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
 	sci-CRAN/shiny
-	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

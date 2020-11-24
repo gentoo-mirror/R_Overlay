@@ -28,14 +28,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/gargle-0.4.0
-	>=sci-CRAN/httr-1.4.0
+	>=sci-CRAN/assertthat-0.2.0
 	>=sci-CRAN/cli-2.0.2
+	>=sci-CRAN/gargle-0.4.0
 	sci-CRAN/digest
 	>=sci-CRAN/memoise-1.1.0
-	sci-CRAN/rlang
-	>=sci-CRAN/assertthat-0.2.0
+	>=sci-CRAN/httr-1.4.0
 	>=sci-CRAN/jsonlite-1.6
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

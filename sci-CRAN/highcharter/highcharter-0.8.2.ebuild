@@ -29,25 +29,25 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
-DEPEND="sci-CRAN/yaml
-	>=sci-CRAN/rlang-0.1.1
-	sci-CRAN/magrittr
-	sci-CRAN/purrr
-	sci-CRAN/assertthat
-	>=sci-CRAN/dplyr-0.7.0
-	>=sci-CRAN/stringr-1.3.0
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/zoo
 	sci-CRAN/jsonlite
-	sci-CRAN/xts
-	sci-CRAN/igraph
-	sci-CRAN/lubridate
-	>=sci-CRAN/tibble-1.1
-	sci-CRAN/htmltools
-	sci-CRAN/rlist
-	sci-CRAN/broom
+	sci-CRAN/purrr
 	sci-CRAN/htmlwidgets
+	>=sci-CRAN/tibble-1.1
 	sci-CRAN/quantmod
-	sci-CRAN/zoo
+	sci-CRAN/tidyr
+	sci-CRAN/lubridate
+	sci-CRAN/assertthat
+	sci-CRAN/htmltools
+	sci-CRAN/igraph
+	sci-CRAN/magrittr
+	>=sci-CRAN/dplyr-0.7.0
+	>=sci-CRAN/rlang-0.1.1
+	>=sci-CRAN/stringr-1.3.0
+	sci-CRAN/broom
+	sci-CRAN/xts
+	sci-CRAN/yaml
+	sci-CRAN/rlist
 	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

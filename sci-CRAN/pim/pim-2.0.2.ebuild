@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0
+DEPEND="sci-CRAN/nleqslv
 	sci-CRAN/BB
-	sci-CRAN/nleqslv
+	>=dev-lang/R-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

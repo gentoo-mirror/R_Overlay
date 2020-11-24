@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/lubridate-1.7.8
-	>=sci-CRAN/tibble-3.0.1
 	>=sci-CRAN/polynom-1.4.0
+	>=sci-CRAN/lubridate-1.7.8
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/tibble-3.0.1
 	>=sci-CRAN/plyr-1.8.4
 	>=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/tidyr-1.1.0
 	>=sci-CRAN/splus2R-1.2.2
-	>=sci-CRAN/rlang-0.4.6
 	>=sci-CRAN/zoo-1.8.7
+	>=sci-CRAN/rlang-0.4.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

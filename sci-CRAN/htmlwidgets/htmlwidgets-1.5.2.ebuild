@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( >=sci-CRAN/knitr-1.8 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/jsonlite-0.9.16
+DEPEND="sci-CRAN/yaml
 	>=sci-CRAN/htmltools-0.3
-	sci-CRAN/yaml
+	>=sci-CRAN/jsonlite-0.9.16
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

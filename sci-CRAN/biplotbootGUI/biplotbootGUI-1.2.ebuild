@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/biplotbootGUI_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/dendroextras
-	sci-CRAN/tkrplot
+	dev-lang/R[tk]
 	sci-CRAN/matlib
+	sci-CRAN/shapes
 	virtual/MASS
+	dev-lang/R[tk]
 	>=dev-lang/R-3.1.1
 	virtual/cluster
 	sci-CRAN/rgl
-	sci-CRAN/shapes
-	dev-lang/R[tk]
-	dev-lang/R[tk]
+	sci-CRAN/tkrplot
 "
 RDEPEND="${DEPEND-} dev-lang/R[tk]"

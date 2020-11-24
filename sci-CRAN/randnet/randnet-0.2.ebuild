@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/randnet_0.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/RSpectra
-	sci-CRAN/irlba
-	sci-CRAN/AUC
+DEPEND="sci-CRAN/poweRlaw
 	sci-CRAN/entropy
-	sci-CRAN/poweRlaw
+	sci-CRAN/AUC
+	sci-CRAN/RSpectra
+	virtual/Matrix
+	sci-CRAN/irlba
 "
 RDEPEND="${DEPEND-}"

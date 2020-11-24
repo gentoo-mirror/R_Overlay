@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_prettydoc? ( sci-CRAN/prettydoc )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/igraph
-	sci-CRAN/cowplot
-	sci-CRAN/rvcheck
-	sci-BIOC/Biostrings
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
+	sci-CRAN/cowplot
+	sci-BIOC/Biostrings
+	sci-CRAN/rvcheck
+	sci-CRAN/igraph
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

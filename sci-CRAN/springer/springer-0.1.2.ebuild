@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/springer_0.1.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/Rcpp
 	virtual/MASS
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

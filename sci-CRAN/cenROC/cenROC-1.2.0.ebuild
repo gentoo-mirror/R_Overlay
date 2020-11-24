@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/cenROC_1.2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/Rcpp-1.0.0
-	sci-CRAN/condSURV
-	virtual/survival
 	sci-CRAN/icenReg
+	virtual/survival
+	sci-CRAN/condSURV
+	>=sci-CRAN/Rcpp-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

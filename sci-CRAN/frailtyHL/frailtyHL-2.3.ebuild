@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/frailtyHL_2.3.tar.gz"
 
 DEPEND=">=dev-lang/R-3.5.0
 	virtual/Matrix
-	virtual/survival
 	sci-CRAN/cmprsk
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

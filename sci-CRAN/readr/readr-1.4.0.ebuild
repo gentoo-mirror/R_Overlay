@@ -24,15 +24,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=sci-CRAN/hms-0.4.1
-	sci-CRAN/tibble
-	sci-CRAN/R6
-	sci-CRAN/lifecycle
-	sci-CRAN/rlang
-	>=dev-lang/R-3.1
+DEPEND=">=dev-lang/R-3.1
+	>=sci-CRAN/hms-0.4.1
 	sci-CRAN/crayon
-	sci-CRAN/cli
+	sci-CRAN/R6
 	sci-CRAN/clipr
+	sci-CRAN/cli
+	sci-CRAN/rlang
+	sci-CRAN/tibble
+	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH

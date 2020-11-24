@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MEclustnet_1.2.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/e1071
-	sci-CRAN/ellipse
-	virtual/nnet
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/latentnet
 	sci-CRAN/vegan
+	sci-CRAN/mvtnorm
+	virtual/nnet
+	sci-CRAN/ellipse
+	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-}"

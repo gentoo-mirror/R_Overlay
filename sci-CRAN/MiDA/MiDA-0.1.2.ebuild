@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
 	sci-BIOC/limma
+	sci-CRAN/caret
 	sci-BIOC/genefilter
 	sci-CRAN/gbm
-	sci-CRAN/caret
 	sci-BIOC/preprocessCore
 	sci-CRAN/pROC
 	sci-CRAN/SQN

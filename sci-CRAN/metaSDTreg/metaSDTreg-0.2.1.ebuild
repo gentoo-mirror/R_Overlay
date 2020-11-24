@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/metaSDTreg_0.2.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/ordinal-2019.12.10
+DEPEND=">=sci-CRAN/truncnorm-1.0.7
 	virtual/Matrix
+	>=sci-CRAN/ordinal-2019.12.10
 	>=sci-CRAN/maxLik-1.3.4
-	>=sci-CRAN/truncnorm-1.0.7
 	>=dev-lang/R-3.6
 "
 RDEPEND="${DEPEND-}"

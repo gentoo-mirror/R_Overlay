@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/partykit
-	sci-CRAN/magrittr
-	sci-CRAN/dplyr
 	sci-CRAN/caret
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

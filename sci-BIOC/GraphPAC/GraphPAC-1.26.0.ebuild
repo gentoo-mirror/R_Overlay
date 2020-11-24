@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/igraph
-	sci-BIOC/iPAC
-	>=dev-lang/R-2.15
-	sci-CRAN/TSP
+DEPEND=">=dev-lang/R-2.15
 	sci-CRAN/RMallow
+	sci-CRAN/TSP
+	sci-CRAN/igraph
+	sci-BIOC/iPAC
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

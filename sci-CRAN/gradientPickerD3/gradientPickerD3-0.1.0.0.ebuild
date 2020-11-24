@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/gradientPickerD3_0.1.0.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.3.1
-	sci-CRAN/shiny
-	sci-CRAN/htmlwidgets
 	sci-CRAN/jsonlite
+	sci-CRAN/htmlwidgets
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"

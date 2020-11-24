@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_doparallel? ( sci-CRAN/doParallel )
 	r_suggests_fda? ( sci-CRAN/fda )
 "
-DEPEND="sci-CRAN/FNN
-	sci-CRAN/univOutl
-	sci-CRAN/Anthropometry
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/foreach
-	sci-CRAN/archetypes
 	sci-CRAN/nnls
+	sci-CRAN/FNN
+	sci-CRAN/archetypes
+	sci-CRAN/Anthropometry
 	sci-CRAN/tolerance
+	sci-CRAN/univOutl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

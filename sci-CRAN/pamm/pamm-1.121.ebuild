@@ -13,9 +13,9 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
 DEPEND=">=dev-lang/R-3.0.0
-	virtual/lattice
+	sci-CRAN/mvtnorm
 	sci-CRAN/lme4
 	sci-CRAN/lmerTest
-	sci-CRAN/mvtnorm
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

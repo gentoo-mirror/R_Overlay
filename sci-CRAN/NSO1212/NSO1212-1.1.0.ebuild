@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/NSO1212_1.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

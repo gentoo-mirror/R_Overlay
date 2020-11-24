@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dfmeta_1.0.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/lme4
-	>=sci-CRAN/ggplot2-2.0.0
+DEPEND="sci-CRAN/plyr
+	sci-CRAN/lme4
 	sci-CRAN/data_table
-	sci-CRAN/plyr
+	>=sci-CRAN/ggplot2-2.0.0
 	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-}"

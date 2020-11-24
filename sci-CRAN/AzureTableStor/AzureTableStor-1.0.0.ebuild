@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/AzureRMR-2.0.0
-	sci-CRAN/jsonlite
-	sci-CRAN/openssl
-	>=sci-CRAN/AzureStor-3.0.0
-	sci-CRAN/httr
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/uuid
 	>=sci-CRAN/vctrs-0.3.0
+	sci-CRAN/openssl
+	>=sci-CRAN/AzureRMR-2.0.0
+	>=dev-lang/R-3.3
+	>=sci-CRAN/AzureStor-3.0.0
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -13,9 +13,9 @@ LICENSE='LGPL-2.1+'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="virtual/MASS
+	sci-CRAN/statmod
 	sci-CRAN/Rcpp
 	sci-CRAN/tweedie
-	sci-CRAN/statmod
 	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}

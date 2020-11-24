@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/mhazard_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/Rcpp
-	virtual/boot
-	sci-CRAN/rootSolve
-	virtual/survival
 	sci-CRAN/plot3D
+	virtual/boot
+	virtual/survival
+	sci-CRAN/rootSolve
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

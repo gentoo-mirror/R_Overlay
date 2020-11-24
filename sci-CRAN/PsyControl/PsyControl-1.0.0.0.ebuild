@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PsyControl_1.0.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/ltm
+DEPEND="sci-CRAN/irtoys
 	>=dev-lang/R-3.3.3
-	sci-CRAN/irtoys
+	sci-CRAN/ltm
 "
 RDEPEND="${DEPEND-}"

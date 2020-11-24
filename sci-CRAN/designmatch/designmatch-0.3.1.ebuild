@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/designmatch_0.3.1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="virtual/MASS
-	sci-mathematics/glpk
-	>=dev-lang/R-3.2
-	virtual/lattice
+DEPEND=">=dev-lang/R-3.2
 	sci-CRAN/slam
+	sci-mathematics/glpk
+	virtual/MASS
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} sci-mathematics/glpk"

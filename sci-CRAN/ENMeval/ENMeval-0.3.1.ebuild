@@ -21,11 +21,11 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_spocc? ( sci-CRAN/spocc )
 "
-DEPEND="sci-CRAN/doParallel
-	sci-CRAN/maxnet
-	sci-CRAN/dismo
+DEPEND="sci-CRAN/foreach
 	>=dev-lang/R-3.4
-	sci-CRAN/foreach
 	sci-CRAN/raster
+	sci-CRAN/dismo
+	sci-CRAN/doParallel
+	sci-CRAN/maxnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND="sci-CRAN/magrittr
+DEPEND="sci-CRAN/htmlwidgets
 	sci-CRAN/geojsonsf
-	sci-CRAN/purrr
-	sci-CRAN/htmlwidgets
+	sci-CRAN/magrittr
 	sci-CRAN/yaml
 	sci-CRAN/htmltools
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

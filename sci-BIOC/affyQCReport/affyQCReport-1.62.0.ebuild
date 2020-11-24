@@ -13,16 +13,16 @@ LICENSE='LGPL-2+'
 IUSE="${IUSE-} r_suggests_tkwidgets"
 R_SUGGESTS="r_suggests_tkwidgets? ( >=sci-BIOC/tkWidgets-1.5.23 )"
 DEPEND="virtual/lattice
-	virtual/lattice
-	sci-BIOC/Biobase
-	sci-BIOC/affy
 	sci-BIOC/genefilter
+	virtual/lattice
+	sci-BIOC/affy
+	sci-BIOC/simpleaffy
+	sci-CRAN/xtable
 	>=sci-BIOC/Biobase-1.13.16
 	sci-BIOC/affyPLM
 	sci-BIOC/affy
+	sci-BIOC/Biobase
 	sci-CRAN/RColorBrewer
-	sci-BIOC/simpleaffy
-	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 "
 DEPEND="sci-BIOC/Biobase
-	sci-BIOC/GEOquery
 	sci-CRAN/RMySQL
+	sci-BIOC/GEOquery
 "
 RDEPEND="${DEPEND-}
 	dev-lang/perl

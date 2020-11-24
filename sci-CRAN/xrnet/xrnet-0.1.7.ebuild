@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/bigmemory
+DEPEND="sci-CRAN/bigmemory
 	sci-CRAN/foreach
 	>=sci-CRAN/Rcpp-0.12.19
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
-	sci-CRAN/BH
 	sci-CRAN/bigmemory
+	sci-CRAN/BH
+	sci-CRAN/RcppEigen
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

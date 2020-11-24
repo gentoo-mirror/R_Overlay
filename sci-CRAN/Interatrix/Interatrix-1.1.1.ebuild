@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_foreach? ( sci-CRAN/foreach )
 "
 DEPEND=">=dev-lang/R-2.14
-	dev-lang/R[tk]
 	sci-CRAN/tkrplot
+	dev-lang/R[tk]
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

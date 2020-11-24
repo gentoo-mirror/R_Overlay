@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/shinyjs
-	sci-CRAN/shiny
-	sci-CRAN/DBI
-	sci-CRAN/shinyWidgets
+DEPEND="sci-CRAN/shiny
+	sci-CRAN/stringr
 	sci-CRAN/dplyr
+	sci-CRAN/DBI
+	sci-CRAN/magrittr
+	sci-CRAN/shinyjs
+	sci-CRAN/shinyWidgets
 	sci-CRAN/dbplyr
 	sci-CRAN/RSQLite
-	sci-CRAN/magrittr
-	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

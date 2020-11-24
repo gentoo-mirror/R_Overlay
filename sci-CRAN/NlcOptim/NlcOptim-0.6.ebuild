@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/NlcOptim_0.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/MASS
-	sci-CRAN/quadprog
 	>=dev-lang/R-3.2.2
+	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-}"

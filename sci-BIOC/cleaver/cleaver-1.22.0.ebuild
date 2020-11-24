@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 )
 	r_suggests_uniprot_ws? ( >=sci-BIOC/UniProt_ws-2.1.4 )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-BIOC/S4Vectors
-	>=sci-BIOC/Biostrings-1.29.8
+DEPEND="sci-BIOC/S4Vectors
 	sci-BIOC/IRanges
+	>=dev-lang/R-3.0.0
+	>=sci-BIOC/Biostrings-1.29.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

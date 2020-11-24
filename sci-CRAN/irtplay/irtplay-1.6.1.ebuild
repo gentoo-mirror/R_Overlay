@@ -12,14 +12,14 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mirt"
 R_SUGGESTS="r_suggests_mirt? ( sci-CRAN/mirt )"
-DEPEND="sci-CRAN/statmod
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.6
+	sci-CRAN/reshape2
 	sci-CRAN/dplyr
+	sci-CRAN/statmod
 	sci-CRAN/purrr
 	sci-CRAN/tidyr
+	sci-CRAN/ggplot2
 	sci-CRAN/rlang
-	>=dev-lang/R-3.6
-	sci-CRAN/reshape2
 	sci-CRAN/gridExtra
 	sci-CRAN/pbapply
 	virtual/Matrix

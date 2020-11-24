@@ -36,16 +36,16 @@ R_SUGGESTS="
 	r_suggests_tidymodels? ( sci-CRAN/tidymodels )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/plyr
-	>=sci-CRAN/dplyr-0.8.0.1
-	>=sci-CRAN/rlang-0.3.1
-	sci-CRAN/generics
-	sci-CRAN/magrittr
-	sci-CRAN/foreach
-	sci-CRAN/parsnip
+DEPEND=">=sci-CRAN/dplyr-0.8.0.1
 	sci-CRAN/purrr
-	sci-CRAN/proxy
+	sci-CRAN/magrittr
 	sci-CRAN/RANN
+	>=sci-CRAN/rlang-0.3.1
+	sci-CRAN/plyr
+	sci-CRAN/parsnip
+	sci-CRAN/proxy
+	sci-CRAN/generics
+	sci-CRAN/foreach
 	sci-CRAN/RSSL
 	sci-CRAN/conclust
 "

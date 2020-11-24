@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_digest? ( sci-CRAN/digest )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rmarkdown
-	sci-CRAN/yaml
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/stringr
 	>=sci-CRAN/swirl-2.4.2
+	sci-CRAN/rmarkdown
+	sci-CRAN/yaml
 	sci-CRAN/whisker
 	sci-CRAN/shiny
 	sci-CRAN/shinyAce
-	>=dev-lang/R-3.2.0
 	sci-CRAN/base64enc
 	sci-CRAN/readr
 "

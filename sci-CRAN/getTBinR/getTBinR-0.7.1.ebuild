@@ -27,17 +27,17 @@ R_SUGGESTS="
 	r_suggests_styler? ( >=sci-CRAN/styler-1.3.2 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 )
 "
-DEPEND=">=sci-CRAN/viridis-0.5.1
-	>=sci-CRAN/ggplot2-3.3.1
+DEPEND=">=dev-lang/R-3.3.0
+	>=sci-CRAN/tibble-3.0.1
+	>=sci-CRAN/viridis-0.5.1
 	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/ggplot2-3.3.1
 	>=sci-CRAN/data_table-1.12.0
-	>=dev-lang/R-3.3.0
 	>=sci-CRAN/ggthemes-4.2.0
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/plotly-4.9.2.1
 	>=sci-CRAN/purrr-0.3.4
 	>=sci-CRAN/scales-1.1.1
-	>=sci-CRAN/tibble-3.0.1
 	>=sci-CRAN/tidyr-1.1.0
 	>=sci-CRAN/rlang-0.4.6
 "

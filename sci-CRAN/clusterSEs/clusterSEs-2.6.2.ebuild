@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/clusterSEs_2.6.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/AER
 	sci-CRAN/sandwich
 	sci-CRAN/plm
+	sci-CRAN/AER
 	sci-CRAN/Formula
 	sci-CRAN/lmtest
 	sci-CRAN/mlogit

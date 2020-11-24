@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MAclinical_1.0-5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/st
-	sci-CRAN/plsgenomics
 	sci-CRAN/e1071
 	sci-CRAN/party
+	sci-CRAN/plsgenomics
 "
 RDEPEND="${DEPEND-}"

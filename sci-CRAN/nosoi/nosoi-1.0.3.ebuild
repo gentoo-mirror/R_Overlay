@@ -33,8 +33,8 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
 DEPEND=">=sci-CRAN/data_table-1.12.0
-	>=dev-lang/R-3.5.0
 	>=sci-CRAN/raster-2.8.19
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

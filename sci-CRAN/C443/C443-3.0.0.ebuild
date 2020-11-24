@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/C443_3.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
+DEPEND="virtual/rpart
+	virtual/cluster
 	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
-	sci-CRAN/igraph
-	sci-CRAN/RColorBrewer
+	sci-CRAN/partykit
 	sci-CRAN/reshape2
 	sci-CRAN/plyr
-	sci-CRAN/partykit
-	virtual/rpart
-	virtual/cluster
+	virtual/MASS
+	sci-CRAN/RColorBrewer
+	sci-CRAN/igraph
 	sci-CRAN/qgraph
 "
 RDEPEND="${DEPEND-}"

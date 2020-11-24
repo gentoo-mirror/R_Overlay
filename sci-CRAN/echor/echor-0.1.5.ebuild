@@ -27,14 +27,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_utf8? ( sci-CRAN/utf8 )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/purrr
-	sci-CRAN/plyr
-	sci-CRAN/geojsonsf
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/readr
-	sci-CRAN/rlang
+	sci-CRAN/plyr
 	sci-CRAN/tibble
+	sci-CRAN/httr
+	sci-CRAN/geojsonsf
+	sci-CRAN/purrr
+	sci-CRAN/rlang
 	>=sci-CRAN/tidyr-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dynamicGraph_0.2.2.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ggm
-	dev-lang/R[tk]
+DEPEND="dev-lang/R[tk]
+	sci-CRAN/ggm
 "
 RDEPEND="${DEPEND-}"

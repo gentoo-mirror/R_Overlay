@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/CADFtest_0.3-3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/dynlm
+	sci-CRAN/urca
 	sci-CRAN/sandwich
 	sci-CRAN/tseries
-	sci-CRAN/urca
 "
 RDEPEND="${DEPEND-}"

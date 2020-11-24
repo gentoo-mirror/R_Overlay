@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tikzdevice? ( sci-CRAN/tikzDevice )
 "
-DEPEND="sci-CRAN/geometry
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/MASS
-	virtual/Matrix
-	sci-CRAN/ggrepel
-	>=dev-lang/R-3.5.0
+	sci-CRAN/geometry
 	sci-CRAN/rgl
+	sci-CRAN/ggrepel
+	sci-CRAN/ggplot2
+	virtual/Matrix
 	sci-CRAN/Rfast
 	sci-CRAN/plyr
 	sci-CRAN/purrr

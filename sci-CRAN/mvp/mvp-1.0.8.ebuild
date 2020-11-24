@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_spray? ( sci-CRAN/spray )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/partitions
-	>=sci-CRAN/Rcpp-0.12.3
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/partitions
 	sci-CRAN/magic
 	>=sci-CRAN/mpoly-1.1.0
+	>=sci-CRAN/Rcpp-0.12.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

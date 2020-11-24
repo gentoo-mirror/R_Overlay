@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_zeitgebr? ( sci-CRAN/zeitgebr )
 "
-DEPEND=">=dev-lang/R-3.00
-	sci-CRAN/stringr
-	sci-CRAN/scales
-	sci-CRAN/data_table
-	sci-CRAN/ggplot2
-	sci-CRAN/behavr
-	sci-CRAN/labeling
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/rlang
+	sci-CRAN/labeling
+	sci-CRAN/ggplot2
+	sci-CRAN/data_table
+	>=dev-lang/R-3.00
+	sci-CRAN/behavr
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

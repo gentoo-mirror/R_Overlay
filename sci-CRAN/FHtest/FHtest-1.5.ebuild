@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FHtest_1.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/perm
-	sci-CRAN/KMsurv
+DEPEND="sci-CRAN/perm
+	virtual/MASS
 	sci-CRAN/interval
 	virtual/survival
+	sci-CRAN/KMsurv
 "
 RDEPEND="${DEPEND-}"

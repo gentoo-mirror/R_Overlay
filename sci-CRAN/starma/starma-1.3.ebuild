@@ -13,8 +13,8 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_spdep"
 R_SUGGESTS="r_suggests_spdep? ( sci-CRAN/spdep )"
 DEPEND=">=sci-CRAN/Rcpp-0.11.1
-	sci-CRAN/scales
 	sci-CRAN/ggplot2
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

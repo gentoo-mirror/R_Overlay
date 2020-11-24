@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/stringdist
-	sci-CRAN/stringr
 	sci-CRAN/dplyr
-	sci-CRAN/xesreadR
+	sci-CRAN/stringdist
 	sci-CRAN/rlang
-	sci-CRAN/readr
-	sci-CRAN/purrr
-	sci-CRAN/miniUI
-	sci-CRAN/shiny
-	sci-CRAN/lubridate
 	sci-CRAN/tidyr
 	sci-CRAN/bupaR
 	sci-CRAN/edeaR
 	sci-CRAN/magrittr
+	sci-CRAN/purrr
 	sci-CRAN/glue
+	sci-CRAN/shiny
+	sci-CRAN/stringr
+	sci-CRAN/lubridate
+	sci-CRAN/xesreadR
+	sci-CRAN/readr
+	sci-CRAN/miniUI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

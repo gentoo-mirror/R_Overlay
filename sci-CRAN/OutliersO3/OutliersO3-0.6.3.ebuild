@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/forcats
-	sci-CRAN/tidyr
-	sci-CRAN/rlist
-	sci-CRAN/ggplot2
-	sci-CRAN/robustbase
-	sci-CRAN/robustX
-	sci-CRAN/GGally
 	sci-CRAN/dplyr
 	sci-CRAN/HDoutliers
+	sci-CRAN/forcats
+	sci-CRAN/ggplot2
 	sci-CRAN/FastPCS
 	>=sci-CRAN/cellWise-2.1.0
 	sci-CRAN/memisc
+	sci-CRAN/rlist
+	sci-CRAN/tidyr
+	sci-CRAN/robustbase
+	sci-CRAN/robustX
+	sci-CRAN/GGally
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

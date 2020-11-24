@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/carcass_1.6.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/expm
-	sci-CRAN/lme4
 	sci-CRAN/arm
-	virtual/survival
 	virtual/MASS
+	sci-CRAN/expm
+	virtual/survival
+	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-}"

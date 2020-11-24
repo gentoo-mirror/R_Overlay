@@ -34,13 +34,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_weights? ( sci-CRAN/weights )
 "
-DEPEND="sci-CRAN/crayon
-	sci-CRAN/pander
+DEPEND="sci-CRAN/magrittr
 	>=sci-CRAN/rlang-0.3.0
-	>=sci-CRAN/ggplot2-3.3.0
-	sci-CRAN/magrittr
-	sci-CRAN/generics
+	sci-CRAN/crayon
 	sci-CRAN/pkgconfig
+	sci-CRAN/generics
+	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/pander
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

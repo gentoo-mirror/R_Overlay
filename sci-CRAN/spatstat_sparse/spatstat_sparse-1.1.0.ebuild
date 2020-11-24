@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/spatstat_utils-1.17.0
-	virtual/Matrix
 	sci-CRAN/abind
 	sci-CRAN/tensor
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

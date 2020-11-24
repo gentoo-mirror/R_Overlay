@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/isoband
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
 	sci-CRAN/sf
-	>=dev-lang/R-3.5.0
+	sci-CRAN/isoband
 "
 RDEPEND="${DEPEND-}
 	sci-libs/gdal
-	sci-libs/geos
 	sci-libs/proj
+	sci-libs/geos
 	${R_SUGGESTS-}
 "

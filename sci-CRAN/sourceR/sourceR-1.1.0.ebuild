@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gtools
+DEPEND="sci-CRAN/tensorA
+	virtual/cluster
+	sci-CRAN/assertthat
+	sci-CRAN/gtools
+	sci-CRAN/gplots
 	sci-CRAN/SPIn
-	sci-CRAN/R6
+	sci-CRAN/reshape2
 	>=dev-lang/R-3.4.0
 	sci-CRAN/dplyr
-	sci-CRAN/tensorA
-	sci-CRAN/assertthat
 	>=sci-CRAN/Rcpp-1.0.4
-	virtual/cluster
-	sci-CRAN/gplots
-	sci-CRAN/reshape2
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

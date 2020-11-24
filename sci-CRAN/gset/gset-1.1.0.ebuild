@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/gset_1.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/MCMCpack
-	sci-CRAN/Hmisc
 	sci-CRAN/mvtnorm
+	sci-CRAN/Hmisc
+	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-}"

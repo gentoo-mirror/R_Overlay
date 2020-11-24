@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_colorspace? ( sci-CRAN/colorspace )
 	r_suggests_strucchange? ( sci-CRAN/strucchange )
 "
-DEPEND=">=dev-lang/R-2.15.0
-	>=sci-CRAN/partykit-0.8.4
-	sci-CRAN/Formula
+DEPEND=">=sci-CRAN/partykit-0.8.4
+	>=dev-lang/R-2.15.0
 	>=sci-CRAN/psychotools-0.4.0
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

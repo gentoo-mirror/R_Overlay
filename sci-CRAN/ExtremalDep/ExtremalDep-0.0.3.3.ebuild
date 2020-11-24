@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ExtremalDep_0.0.3-3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/evd
-	sci-CRAN/numDeriv
-	sci-CRAN/CompRandFld
-	sci-CRAN/quadprog
+DEPEND="sci-CRAN/numDeriv
 	sci-CRAN/sn
+	sci-CRAN/CompRandFld
+	sci-CRAN/evd
+	sci-CRAN/quadprog
 	sci-CRAN/copula
 	sci-CRAN/nloptr
 	sci-CRAN/gtools

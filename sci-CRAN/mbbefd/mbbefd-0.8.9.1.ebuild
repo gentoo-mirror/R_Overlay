@@ -22,8 +22,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/alabama
 	>=sci-CRAN/fitdistrplus-1.0.7
-	sci-CRAN/actuar
 	>=sci-CRAN/Rcpp-0.12.18
+	sci-CRAN/actuar
 	sci-CRAN/gsl
 	virtual/MASS
 "

@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-6.1.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/Rcpp
-	virtual/MASS
-	virtual/Matrix
-	>=sci-CRAN/survey-3.35
-	>=dev-lang/R-3.5.0
+DEPEND="virtual/Matrix
 	>=sci-CRAN/Rdpack-0.11.0
+	>=sci-CRAN/survey-3.35
+	virtual/MASS
+	>=dev-lang/R-3.5.0
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

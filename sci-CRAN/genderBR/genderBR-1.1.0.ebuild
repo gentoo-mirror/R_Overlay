@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/genderBR_1.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/jsonlite
 	>=sci-CRAN/dplyr-0.5.0
 	sci-CRAN/httr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

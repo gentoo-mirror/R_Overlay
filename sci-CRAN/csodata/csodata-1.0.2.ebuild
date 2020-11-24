@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
 DEPEND="sci-CRAN/dplyr
+	sci-CRAN/reshape2
 	sci-CRAN/sf
-	sci-CRAN/R_cache
 	sci-CRAN/jsonlite
 	sci-CRAN/rjstat
 	sci-CRAN/httr
-	sci-CRAN/reshape2
+	sci-CRAN/R_cache
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

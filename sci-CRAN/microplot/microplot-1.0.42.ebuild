@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/HH
-	sci-CRAN/htmltools
-	virtual/lattice
-	>=sci-CRAN/Hmisc-4.1.1
+DEPEND=">=sci-CRAN/Hmisc-4.1.1
 	sci-CRAN/flextable
+	virtual/lattice
+	sci-CRAN/HH
 	sci-CRAN/officer
 	sci-CRAN/ggplot2
+	sci-CRAN/htmltools
 	sci-CRAN/cowplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

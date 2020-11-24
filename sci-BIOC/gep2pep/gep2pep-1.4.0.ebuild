@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_writexls? ( sci-CRAN/WriteXLS )
 "
-DEPEND=">=sci-CRAN/repo-2.1.1
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/iterators
 	sci-BIOC/Biobase
-	sci-CRAN/foreach
+	sci-CRAN/digest
+	sci-BIOC/rhdf5
+	>=sci-CRAN/repo-2.1.1
 	sci-BIOC/GSEABase
 	sci-CRAN/XML
-	sci-BIOC/rhdf5
-	sci-CRAN/digest
-	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

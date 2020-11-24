@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MetaUtility_2.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/metafor
+	sci-CRAN/purrr
 	sci-CRAN/stringr
 	sci-CRAN/dplyr
-	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-}"

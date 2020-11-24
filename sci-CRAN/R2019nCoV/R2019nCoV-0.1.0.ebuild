@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_spelling? ( sci-CRAN/spelling )
 "
-DEPEND="sci-CRAN/pinyin
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/pinyin
 	>=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
 	sci-CRAN/jsonlite
-	sci-CRAN/dplyr
 	sci-CRAN/maps
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

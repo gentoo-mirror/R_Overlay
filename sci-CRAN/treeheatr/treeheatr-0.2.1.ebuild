@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/gtable
-	virtual/cluster
-	sci-CRAN/partykit
-	sci-CRAN/ggnewscale
-	>=dev-lang/R-3.5.0
-	sci-CRAN/ggparty
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/dplyr
+	sci-CRAN/partykit
+	sci-CRAN/ggplot2
+	sci-CRAN/ggparty
+	sci-CRAN/ggnewscale
+	sci-CRAN/gtable
 	sci-CRAN/tidyr
+	virtual/cluster
 	sci-CRAN/yardstick
 	sci-CRAN/seriation
 "

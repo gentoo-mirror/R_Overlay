@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND="sci-CRAN/assertthat
-	sci-CRAN/RSQLite
-	sci-CRAN/DBI
 	sci-CRAN/rappdirs
+	sci-CRAN/DBI
+	sci-CRAN/RSQLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

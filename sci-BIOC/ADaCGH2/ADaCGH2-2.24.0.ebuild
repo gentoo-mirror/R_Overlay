@@ -17,15 +17,15 @@ R_SUGGESTS="
 	r_suggests_limma? ( sci-BIOC/limma )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/bit
-	sci-BIOC/GLAD
 	sci-CRAN/ff
 	sci-CRAN/ffbase
+	sci-CRAN/bit
+	sci-BIOC/GLAD
 	sci-BIOC/DNAcopy
 	sci-BIOC/tilingArray
-	sci-CRAN/waveslim
 	virtual/cluster
-	sci-BIOC/aCGH
 	sci-BIOC/snapCGH
+	sci-CRAN/waveslim
+	sci-BIOC/aCGH
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

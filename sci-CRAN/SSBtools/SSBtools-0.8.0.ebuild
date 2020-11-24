@@ -13,7 +13,7 @@ LICENSE='Apache-2.0'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="virtual/Matrix
-	sci-CRAN/stringr
 	virtual/MASS
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

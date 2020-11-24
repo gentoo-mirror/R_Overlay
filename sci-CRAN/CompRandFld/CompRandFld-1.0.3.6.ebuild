@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CompRandFld_1.0.3-6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/scatterplot3d
-	sci-CRAN/mapproj
-	sci-CRAN/RandomFields
-	sci-CRAN/fields
-	sci-CRAN/spam
+DEPEND="sci-CRAN/fields
 	sci-CRAN/maps
+	sci-CRAN/RandomFields
+	sci-CRAN/spam
+	sci-CRAN/scatterplot3d
+	sci-CRAN/mapproj
 "
 RDEPEND="${DEPEND-}"

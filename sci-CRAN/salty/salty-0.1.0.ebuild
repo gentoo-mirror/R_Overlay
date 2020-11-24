@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/assertthat
+DEPEND="sci-CRAN/assertthat
+	sci-CRAN/purrr
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

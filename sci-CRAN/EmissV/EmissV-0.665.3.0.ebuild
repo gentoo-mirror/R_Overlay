@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_osmar? ( sci-CRAN/osmar )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/units-0.5.1
-	sci-CRAN/raster
-	sci-CRAN/ncdf4
-	sci-CRAN/sp
-	>=dev-lang/R-3.4
+DEPEND="sci-CRAN/ncdf4
 	sci-CRAN/sf
 	sci-CRAN/data_table
+	sci-CRAN/sp
+	>=dev-lang/R-3.4
+	sci-CRAN/raster
+	>=sci-CRAN/units-0.5.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

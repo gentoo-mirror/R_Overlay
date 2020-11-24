@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/geosphere
 	virtual/lattice
+	sci-CRAN/sp
 	virtual/boot
 	>=dev-lang/R-3.1.0
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

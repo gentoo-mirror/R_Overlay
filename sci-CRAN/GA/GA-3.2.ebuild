@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_dorng? ( >=sci-CRAN/doRNG-1.6 )
 	r_suggests_knitr? ( >=sci-CRAN/knitr-1.8 )
 "
-DEPEND="sci-CRAN/iterators
+DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/Rcpp
-	sci-CRAN/cli
-	sci-CRAN/crayon
-	>=dev-lang/R-3.4
 	sci-CRAN/foreach
+	sci-CRAN/crayon
+	sci-CRAN/iterators
+	sci-CRAN/cli
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_ranger? ( sci-CRAN/ranger )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggdendro
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.6
+	sci-CRAN/ggdendro
 	>=sci-CRAN/DALEX-1.3
+	sci-CRAN/ggplot2
 	sci-CRAN/glmnet
-	>=dev-lang/R-3.6
 	sci-CRAN/patchwork
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

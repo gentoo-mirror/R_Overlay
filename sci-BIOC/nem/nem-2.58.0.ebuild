@@ -14,13 +14,13 @@ IUSE="${IUSE-} r_suggests_biobase"
 R_SUGGESTS="r_suggests_biobase? ( >=sci-BIOC/Biobase-1.10 )"
 DEPEND=">=dev-lang/R-3.0
 	virtual/boot
-	sci-CRAN/plotrix
-	sci-BIOC/graph
-	sci-CRAN/statmod
 	sci-CRAN/e1071
+	sci-BIOC/limma
+	sci-BIOC/graph
 	>=sci-BIOC/RBGL-1.8.1
 	sci-CRAN/RColorBrewer
 	sci-BIOC/Rgraphviz
-	sci-BIOC/limma
+	sci-CRAN/statmod
+	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

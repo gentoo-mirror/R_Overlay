@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SQDA_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/mvtnorm-0.9.99992
-	>=sci-CRAN/PDSCE-1.2
+DEPEND=">=sci-CRAN/PDSCE-1.2
+	>=sci-CRAN/mvtnorm-0.9.99992
 	>=sci-BIOC/limma-3.18.13
 "
 RDEPEND="${DEPEND-}"

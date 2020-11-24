@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/BEDASSLE_1.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	virtual/Matrix
 	sci-CRAN/emdbook
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/weightedScores_0.9.5.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/rootSolve
+DEPEND="sci-CRAN/rootSolve
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

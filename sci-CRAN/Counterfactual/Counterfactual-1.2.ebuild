@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Counterfactual_1.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Hmisc
-	sci-CRAN/foreach
-	sci-CRAN/doRNG
-	sci-CRAN/quantreg
-	virtual/survival
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/doParallel
+	sci-CRAN/quantreg
+	sci-CRAN/doRNG
+	sci-CRAN/Hmisc
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

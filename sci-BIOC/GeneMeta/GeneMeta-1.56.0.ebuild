@@ -13,7 +13,7 @@ LICENSE='Artistic-2'
 IUSE="${IUSE-} r_suggests_rcolorbrewer"
 R_SUGGESTS="r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )"
 DEPEND=">=sci-BIOC/Biobase-2.5.5
-	sci-BIOC/genefilter
 	>=sci-BIOC/Biobase-2.5.5
+	sci-BIOC/genefilter
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

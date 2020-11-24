@@ -25,21 +25,21 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/gert
-	>=sci-CRAN/jsonlite-1.6
-	sci-CRAN/memoise
-	sci-CRAN/crul
-	sci-CRAN/urltools
 	sci-CRAN/desc
-	sci-CRAN/commonmark
-	sci-CRAN/gh
-	sci-CRAN/magrittr
 	sci-CRAN/remotes
-	sci-CRAN/pkgbuild
 	sci-CRAN/pingr
-	sci-CRAN/purrr
-	sci-CRAN/sessioninfo
-	sci-CRAN/xml2
 	sci-CRAN/cli
+	>=sci-CRAN/jsonlite-1.6
+	sci-CRAN/purrr
+	sci-CRAN/commonmark
+	sci-CRAN/crul
+	sci-CRAN/gh
+	sci-CRAN/pkgbuild
+	sci-CRAN/urltools
+	sci-CRAN/sessioninfo
+	sci-CRAN/memoise
+	sci-CRAN/gert
+	sci-CRAN/magrittr
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

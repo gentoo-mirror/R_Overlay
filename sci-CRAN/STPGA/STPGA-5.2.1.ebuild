@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_usingr? ( sci-CRAN/UsingR )
 "
-DEPEND="sci-CRAN/emoa
-	sci-CRAN/scales
-	sci-CRAN/AlgDesign
+DEPEND="sci-CRAN/AlgDesign
+	sci-CRAN/emoa
 	sci-CRAN/scatterplot3d
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

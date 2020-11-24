@@ -22,7 +22,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/curl
-	sci-CRAN/httr
 	sci-CRAN/XML
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -27,17 +27,17 @@ R_SUGGESTS="
 	r_suggests_survey? ( sci-CRAN/survey )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
+DEPEND=">=sci-CRAN/Rcpp-0.11.0
 	>=sci-CRAN/loo-2.0.0
 	virtual/Matrix
-	>=sci-CRAN/Rcpp-0.11.0
 	sci-CRAN/GIGrvg
+	>=dev-lang/R-3.2.0
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	virtual/Matrix
 	sci-CRAN/GIGrvg
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "

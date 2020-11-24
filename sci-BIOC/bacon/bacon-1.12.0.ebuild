@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/ellipse
-	sci-BIOC/BiocParallel
+DEPEND="sci-BIOC/BiocParallel
+	>=dev-lang/R-3.3
 	sci-CRAN/ggplot2
+	sci-CRAN/ellipse
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

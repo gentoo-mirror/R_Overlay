@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_seriation? ( sci-CRAN/seriation )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11
-	virtual/cluster
-	>=sci-CRAN/disclap-1.4
+DEPEND=">=sci-CRAN/disclap-1.4
 	virtual/MASS
+	virtual/cluster
+	>=sci-CRAN/Rcpp-0.11
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

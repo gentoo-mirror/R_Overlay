@@ -13,13 +13,13 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_openair"
 R_SUGGESTS="r_suggests_openair? ( sci-CRAN/openair )"
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/curl
+	sci-CRAN/dplyr
 	sci-CRAN/lubridate
-	sci-CRAN/fs
-	sci-CRAN/tidyr
 	sci-CRAN/stringr
 	sci-CRAN/purrr
-	sci-CRAN/dplyr
+	sci-CRAN/curl
+	sci-CRAN/tidyr
+	sci-CRAN/fs
 	sci-CRAN/readr
 	sci-CRAN/magrittr
 "

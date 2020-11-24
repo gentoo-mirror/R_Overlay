@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BAT_2.3.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/nls2
-	sci-CRAN/raster
-	sci-CRAN/geometry
-	sci-CRAN/hypervolume
-	>=dev-lang/R-3.0.0
-	sci-CRAN/spatstat
+DEPEND="sci-CRAN/geometry
 	sci-CRAN/vegan
+	sci-CRAN/raster
+	>=dev-lang/R-3.0.0
+	sci-CRAN/hypervolume
+	sci-CRAN/nls2
+	sci-CRAN/spatstat
 "
 RDEPEND="${DEPEND-}"

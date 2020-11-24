@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/MASS
-	sci-CRAN/colorRamps
-	>=sci-CRAN/doParallel-1.0.6
-	virtual/Matrix
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/rgl-0.100.18
-	>=sci-CRAN/foreach-1.4.0
 	>=sci-CRAN/Rvcg-0.7
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/foreach-1.4.0
+	virtual/Matrix
+	>=sci-CRAN/rgl-0.100.18
+	>=sci-CRAN/doParallel-1.0.6
+	sci-CRAN/colorRamps
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

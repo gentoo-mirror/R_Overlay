@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/data_table
 	>=sci-CRAN/ggplot2-3.0.0
 	>=sci-CRAN/sommer-3.7.3
-	sci-CRAN/data_table
+	sci-CRAN/Rcpp
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

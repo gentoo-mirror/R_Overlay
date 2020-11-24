@@ -23,19 +23,19 @@ R_SUGGESTS="
 	r_suggests_tm_plugin_lexisnexis? ( >=sci-CRAN/tm_plugin_lexisnexis-1.1 )
 	r_suggests_twitter? ( sci-CRAN/twitteR )
 "
-DEPEND=">=sci-CRAN/tm-0.6
+DEPEND="sci-CRAN/slam
+	>=sci-CRAN/tm-0.6
 	sci-CRAN/zoo
-	virtual/lattice
-	sci-CRAN/slam
-	sci-CRAN/NLP
-	sci-CRAN/ca
-	>=sci-CRAN/R2HTML-2.3.0
-	sci-CRAN/RColorBrewer
 	virtual/lattice
 	>=sci-CRAN/Rcmdr-2.1.1
 	dev-lang/R[tk]
 	dev-lang/R[tk]
+	sci-CRAN/ca
+	>=sci-CRAN/R2HTML-2.3.0
+	sci-CRAN/RColorBrewer
+	sci-CRAN/NLP
 	sci-CRAN/stringi
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

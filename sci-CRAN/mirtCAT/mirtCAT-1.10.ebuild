@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_shinythemes? ( sci-CRAN/shinythemes )
 	r_suggests_simdesign? ( sci-CRAN/SimDesign )
 "
-DEPEND=">=sci-CRAN/shiny-1.0.1
-	sci-CRAN/lpSolve
-	sci-CRAN/markdown
-	sci-CRAN/Rcpp
-	>=sci-CRAN/mirt-1.25
+DEPEND=">=sci-CRAN/mirt-1.25
 	virtual/lattice
+	sci-CRAN/lpSolve
 	sci-CRAN/pbapply
+	>=sci-CRAN/shiny-1.0.1
+	sci-CRAN/Rcpp
+	sci-CRAN/markdown
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_shock"
 R_SUGGESTS="r_suggests_shock? ( sci-CRAN/shock )"
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/capushe
-	sci-CRAN/abind
+DEPEND="virtual/MASS
 	sci-CRAN/corpcor
-	virtual/MASS
+	sci-CRAN/abind
 	virtual/Matrix
+	sci-CRAN/igraph
+	sci-CRAN/capushe
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

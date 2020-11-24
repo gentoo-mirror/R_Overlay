@@ -22,19 +22,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_withr? ( >=sci-CRAN/withr-2.1.2 )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/callr-3.0.0
-	>=sci-CRAN/fs-1.3.1
-	>=sci-CRAN/styler-1.2.0
-	>=sci-CRAN/desc-1.2.0
-	>=sci-CRAN/xmlparsedata-1.0.3
-	>=sci-CRAN/collections-0.3.0
-	>=sci-CRAN/jsonlite-1.6
+DEPEND=">=sci-CRAN/callr-3.0.0
+	>=sci-CRAN/stringi-1.1.7
 	>=sci-CRAN/lintr-2.0.0
+	>=sci-CRAN/collections-0.3.0
+	>=dev-lang/R-3.4.0
+	>=sci-CRAN/desc-1.2.0
+	>=sci-CRAN/fs-1.3.1
+	>=sci-CRAN/jsonlite-1.6
 	>=sci-CRAN/R6-2.4.1
 	>=sci-CRAN/repr-1.1.0
 	>=sci-CRAN/roxygen2-7.0.0
-	>=sci-CRAN/stringi-1.1.7
+	>=sci-CRAN/styler-1.2.0
 	>=sci-CRAN/xml2-1.2.2
+	>=sci-CRAN/xmlparsedata-1.0.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

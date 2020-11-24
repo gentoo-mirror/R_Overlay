@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/caret
-	sci-CRAN/rJava
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/RWeka
+	sci-CRAN/randomForest
+	sci-CRAN/kknn
+	virtual/nnet
+	virtual/MASS
+	sci-CRAN/caret
 	sci-CRAN/e1071
 	virtual/rpart
-	>=dev-lang/R-3.3.0
-	virtual/nnet
-	sci-CRAN/RWeka
-	sci-CRAN/kknn
-	sci-CRAN/randomForest
-	virtual/MASS
+	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

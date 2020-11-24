@@ -36,16 +36,16 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/lifecycle-0.2.0
-	>=sci-CRAN/tidyselect-1.1.0
-	>=sci-CRAN/vctrs-0.3.2
-	>=sci-CRAN/magrittr-1.5
 	sci-CRAN/generics
 	sci-CRAN/ellipsis
+	>=sci-CRAN/lifecycle-0.2.0
 	>=sci-CRAN/glue-1.3.2
-	sci-CRAN/R6
+	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/rlang-0.4.7
 	>=sci-CRAN/tibble-2.1.3
+	>=sci-CRAN/tidyselect-1.1.0
+	>=sci-CRAN/vctrs-0.3.2
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

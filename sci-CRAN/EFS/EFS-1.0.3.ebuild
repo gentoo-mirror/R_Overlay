@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/EFS_1.0.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/party
-	sci-CRAN/ROCR
 	sci-CRAN/randomForest
 	sci-CRAN/pROC
+	sci-CRAN/ROCR
 "
 RDEPEND="${DEPEND-}"

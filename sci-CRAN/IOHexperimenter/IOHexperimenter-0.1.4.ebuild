@@ -13,8 +13,8 @@ LICENSE='BSD'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=sci-CRAN/Rcpp-1.0.1
-	sci-CRAN/assertthat
 	sci-CRAN/magrittr
+	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

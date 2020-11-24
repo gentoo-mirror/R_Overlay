@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GeNetIt_0.1-4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/nlme
-	sci-CRAN/rgeos
-	sci-CRAN/raster
-	sci-CRAN/sf
-	>=dev-lang/R-3.6.0
-	sci-CRAN/sp
-	sci-CRAN/exactextractr
+DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/spdep
+	virtual/nlme
+	sci-CRAN/exactextractr
+	sci-CRAN/sp
+	sci-CRAN/raster
+	sci-CRAN/rgeos
+	sci-CRAN/sf
 "
 RDEPEND="${DEPEND-}"

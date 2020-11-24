@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/QUALYPSO_1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/expm
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/Rfast
+	sci-CRAN/expm
 	virtual/MASS
 	sci-CRAN/doParallel
-	sci-CRAN/Rfast
 "
 RDEPEND="${DEPEND-}"

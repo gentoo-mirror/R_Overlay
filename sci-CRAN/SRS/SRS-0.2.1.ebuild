@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SRS_0.2.1.tar.gz"
 
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/vegan-2.5.6
 	>=sci-CRAN/shiny-1.5.0
 	>=sci-CRAN/shinycssloaders-1.0.0
+	>=sci-CRAN/vegan-2.5.6
 	>=sci-CRAN/DT-0.16
 	>=sci-CRAN/shinybusy-0.2.2
 "

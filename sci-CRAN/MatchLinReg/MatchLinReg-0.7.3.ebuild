@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MatchLinReg_0.7.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Hmisc
-	sci-CRAN/Matching
+DEPEND="sci-CRAN/Matching
 	>=dev-lang/R-3.1.0
+	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-}"

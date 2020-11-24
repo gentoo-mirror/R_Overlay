@@ -20,9 +20,9 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/dplyr
 	sci-BIOC/DNABarcodes
+	sci-CRAN/numbers
 	sci-CRAN/stringr
 	sci-CRAN/purrr
-	sci-CRAN/numbers
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

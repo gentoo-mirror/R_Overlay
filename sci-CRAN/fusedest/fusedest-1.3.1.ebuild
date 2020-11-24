@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/fusedest_1.3.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/Rcpp
+DEPEND="virtual/Matrix
+	sci-CRAN/Rcpp
 	sci-CRAN/igraph
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

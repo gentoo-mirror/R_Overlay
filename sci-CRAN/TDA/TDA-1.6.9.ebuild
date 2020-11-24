@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_lintr? ( sci-CRAN/lintr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/igraph
-	>=dev-lang/R-3.1.0
-	sci-CRAN/FNN
-	>=sci-CRAN/Rcpp-0.11.0
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/scales
+	sci-CRAN/FNN
+	sci-CRAN/igraph
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}
-	>=sci-CRAN/BH-1.69.0.1
-	sci-CRAN/Rcpp
 	dev-libs/gmp
+	sci-CRAN/Rcpp
 	sci-CRAN/RcppEigen
+	>=sci-CRAN/BH-1.69.0.1
 	${R_SUGGESTS-}
 "

@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_maps? ( sci-CRAN/maps )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/RColorBrewer
-	sci-CRAN/rlang
-	sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/rlang
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

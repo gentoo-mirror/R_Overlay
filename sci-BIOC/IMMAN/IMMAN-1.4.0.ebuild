@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-BIOC/STRINGdb
+	sci-CRAN/seqinr
 	sci-CRAN/igraph
 	sci-BIOC/Biostrings
-	sci-CRAN/seqinr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

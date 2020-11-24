@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.4
+DEPEND=">=dev-lang/R-3.2
 	sci-CRAN/tibble
-	>=sci-CRAN/vctrs-0.3.0
-	>=sci-CRAN/forcats-0.2.0
-	sci-CRAN/tidyselect
-	>=dev-lang/R-3.2
 	sci-CRAN/hms
+	>=sci-CRAN/forcats-0.2.0
+	>=sci-CRAN/Rcpp-0.11.4
 	>=sci-CRAN/readr-0.1.0
 	>=sci-CRAN/rlang-0.4.0
+	sci-CRAN/tidyselect
+	>=sci-CRAN/vctrs-0.3.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

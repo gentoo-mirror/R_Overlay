@@ -29,8 +29,8 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/dplyr
 	sci-CRAN/metafor
 	sci-CRAN/knitr
-	sci-CRAN/ggplot2
 	sci-CRAN/furrr
+	sci-CRAN/ggplot2
 	sci-CRAN/metap
 	sci-CRAN/purrr
 	sci-CRAN/rlang

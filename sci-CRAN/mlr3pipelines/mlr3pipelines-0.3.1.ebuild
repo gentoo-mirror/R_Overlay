@@ -45,14 +45,14 @@ R_SUGGESTS="
 	r_suggests_vtreat? ( sci-CRAN/vtreat )
 "
 DEPEND="sci-CRAN/data_table
-	sci-CRAN/lgr
 	>=sci-CRAN/mlr3-0.6.0
-	sci-CRAN/checkmate
-	sci-CRAN/digest
 	sci-CRAN/paradox
+	sci-CRAN/lgr
+	sci-CRAN/backports
 	sci-CRAN/withr
 	>=dev-lang/R-3.1.0
-	sci-CRAN/backports
+	sci-CRAN/checkmate
+	sci-CRAN/digest
 	>=sci-CRAN/mlr3misc-0.5.0
 	sci-CRAN/R6
 "

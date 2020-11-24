@@ -20,23 +20,23 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_tidytext? ( sci-CRAN/tidytext )
 "
-DEPEND="sci-CRAN/Hmisc
-	sci-CRAN/tibble
-	sci-CRAN/magrittr
-	sci-CRAN/httr
+DEPEND="sci-CRAN/httr
 	>=sci-CRAN/igraph-1.2.2
-	>=sci-CRAN/rlang-0.3.0.1
-	sci-CRAN/stringr
-	sci-CRAN/lubridate
-	>=sci-CRAN/dplyr-0.7.8
-	>=dev-lang/R-3.2.0
 	sci-CRAN/httpuv
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/dplyr-0.7.8
+	>=sci-CRAN/rlang-0.3.0.1
+	sci-CRAN/jsonlite
+	sci-CRAN/textutils
+	sci-CRAN/data_table
+	sci-CRAN/lubridate
 	sci-CRAN/RCurl
 	>=sci-CRAN/rtweet-0.6.8
-	sci-CRAN/jsonlite
-	sci-CRAN/data_table
+	sci-CRAN/tibble
+	sci-CRAN/Hmisc
+	sci-CRAN/magrittr
 	sci-CRAN/purrr
-	sci-CRAN/textutils
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

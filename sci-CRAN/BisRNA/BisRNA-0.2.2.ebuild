@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_ihw? ( sci-BIOC/IHW )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	>=dev-lang/R-3.3.2
+DEPEND=">=dev-lang/R-3.3.2
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

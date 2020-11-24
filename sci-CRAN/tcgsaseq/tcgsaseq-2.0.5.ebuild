@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_s4vectors? ( sci-BIOC/S4Vectors )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/GSA
+DEPEND="sci-CRAN/CompQuadForm
 	sci-CRAN/pbapply
-	sci-CRAN/CompQuadForm
-	sci-CRAN/ggplot2
 	virtual/KernSmooth
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.0.2
+	sci-CRAN/GSA
 	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

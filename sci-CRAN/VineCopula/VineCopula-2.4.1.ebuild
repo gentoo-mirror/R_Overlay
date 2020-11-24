@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_tsp? ( sci-CRAN/TSP )
 "
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/mvtnorm
+	virtual/lattice
 	virtual/MASS
 	sci-CRAN/ADGofTest
-	virtual/lattice
-	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

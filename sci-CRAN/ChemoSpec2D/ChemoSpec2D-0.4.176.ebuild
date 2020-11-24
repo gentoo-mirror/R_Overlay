@@ -35,9 +35,9 @@ R_SUGGESTS="
 	r_suggests_threeway? ( sci-CRAN/ThreeWay )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND="sci-CRAN/colorspace
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/readJDX
-	>=dev-lang/R-3.5
 	>=sci-CRAN/ChemoSpecUtils-0.3
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -23,16 +23,16 @@ R_SUGGESTS="
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/mixtools
-	sci-CRAN/permute
-	virtual/MASS
-	virtual/survival
-	sci-CRAN/quantreg
 	sci-CRAN/CompQuadForm
 	sci-CRAN/GUniFrac
-	sci-CRAN/PearsonDS
+	virtual/MASS
 	sci-CRAN/lme4
 	virtual/Matrix
+	sci-CRAN/mixtools
+	virtual/survival
+	sci-CRAN/quantreg
+	sci-CRAN/PearsonDS
+	sci-CRAN/permute
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

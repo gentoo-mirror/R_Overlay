@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/gvcm.cat_1.9.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	virtual/Matrix
 	virtual/mgcv
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

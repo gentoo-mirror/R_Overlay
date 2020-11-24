@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/tseriesEntropy_0.6-0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/cubature
 	sci-CRAN/ks
+	sci-CRAN/cubature
 "
 RDEPEND="${DEPEND-}"

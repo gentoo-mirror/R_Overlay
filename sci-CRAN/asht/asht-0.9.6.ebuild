@@ -12,11 +12,11 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_boot"
 R_SUGGESTS="r_suggests_boot? ( virtual/boot )"
-DEPEND="sci-CRAN/bpcp
+DEPEND="sci-CRAN/exactci
 	sci-CRAN/perm
-	sci-CRAN/coin
 	>=sci-CRAN/exact2x2-1.6.4
-	sci-CRAN/exactci
+	sci-CRAN/coin
 	sci-CRAN/ssanv
+	sci-CRAN/bpcp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

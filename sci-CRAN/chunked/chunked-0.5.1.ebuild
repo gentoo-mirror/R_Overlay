@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/LaF
-	>=sci-CRAN/dplyr-0.7
-	sci-CRAN/rlang
+DEPEND="sci-CRAN/DBI
 	sci-CRAN/progress
-	sci-CRAN/DBI
+	sci-CRAN/rlang
+	>=sci-CRAN/dplyr-0.7
+	sci-CRAN/LaF
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

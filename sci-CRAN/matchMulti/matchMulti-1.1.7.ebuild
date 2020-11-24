@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_optmatch? ( sci-CRAN/optmatch )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/coin
-	sci-CRAN/plyr
-	sci-CRAN/Hmisc
-	sci-CRAN/weights
-	>=sci-CRAN/rcbsubset-1.1.4
+DEPEND=">=sci-CRAN/rcbsubset-1.1.4
 	sci-CRAN/mvtnorm
+	sci-CRAN/Hmisc
 	virtual/MASS
+	>=dev-lang/R-3.2.3
+	sci-CRAN/plyr
+	sci-CRAN/coin
+	sci-CRAN/weights
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

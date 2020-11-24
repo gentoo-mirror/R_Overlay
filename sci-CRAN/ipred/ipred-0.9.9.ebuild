@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 "
 DEPEND="virtual/rpart
-	virtual/nnet
-	virtual/MASS
 	sci-CRAN/prodlim
+	virtual/MASS
+	virtual/nnet
 	virtual/survival
 	virtual/class
 "

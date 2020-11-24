@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/colorizer_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/stringr
+	sci-CRAN/tibble
 	sci-CRAN/magrittr
 	sci-CRAN/purrr
-	sci-CRAN/tibble
-	sci-CRAN/dplyr
 	sci-CRAN/httr
 	sci-CRAN/magick
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}
 	media-gfx/imagemagick

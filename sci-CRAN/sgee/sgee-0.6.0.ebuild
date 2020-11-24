@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sgee_0.6-0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/copula
+DEPEND="sci-CRAN/copula
 	sci-CRAN/mvtnorm
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}"

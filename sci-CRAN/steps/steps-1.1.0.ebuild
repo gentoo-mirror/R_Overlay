@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/raster
-	sci-CRAN/future_apply
+DEPEND=">=dev-lang/R-3.2.2
 	sci-CRAN/future
-	>=dev-lang/R-3.2.2
+	sci-CRAN/raster
 	sci-CRAN/Rcpp
+	sci-CRAN/future_apply
 	sci-CRAN/rasterVis
 	sci-CRAN/viridisLite
 	sci-CRAN/memuse

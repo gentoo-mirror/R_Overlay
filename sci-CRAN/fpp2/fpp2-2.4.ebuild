@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 	r_suggests_vars? ( sci-CRAN/vars )
 "
-DEPEND=">=sci-CRAN/crayon-1.3.4
-	sci-CRAN/expsmooth
+DEPEND="sci-CRAN/expsmooth
+	>=sci-CRAN/forecast-8.3
+	>=sci-CRAN/crayon-1.3.4
 	>=sci-CRAN/cli-1.0.0
 	sci-CRAN/fma
-	>=sci-CRAN/forecast-8.3
 	sci-CRAN/ggplot2
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/purrr-0.2.4

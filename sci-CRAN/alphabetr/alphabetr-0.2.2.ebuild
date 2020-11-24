@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.3
+	>=sci-CRAN/multicool-0.1.9
 	>=sci-CRAN/clue-0.3.50
 	>=sci-CRAN/dplyr-0.4.3
-	>=sci-CRAN/multicool-0.1.9
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/naivereg_1.0.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ncvreg
+DEPEND="sci-CRAN/grpreg
 	sci-CRAN/glmnet
-	sci-CRAN/grpreg
+	sci-CRAN/ncvreg
+	>=dev-lang/R-3.5.0
 	sci-CRAN/gmm
 "
 RDEPEND="${DEPEND-}"

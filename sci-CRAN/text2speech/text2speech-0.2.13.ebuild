@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_stringi? ( sci-CRAN/stringi )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/googleLanguageR
-	sci-CRAN/httr
-	>=sci-CRAN/mscstts-0.5.1
-	sci-CRAN/dplyr
-	sci-CRAN/tuneR
+DEPEND="sci-CRAN/httr
 	sci-CRAN/magrittr
+	sci-CRAN/tuneR
 	sci-CRAN/knitr
+	sci-CRAN/googleLanguageR
 	sci-CRAN/aws_signature
 	sci-CRAN/googleAuthR
+	sci-CRAN/dplyr
+	>=sci-CRAN/mscstts-0.5.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

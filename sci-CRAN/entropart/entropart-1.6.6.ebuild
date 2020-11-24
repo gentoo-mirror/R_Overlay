@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/EntropyEstimation
-	sci-CRAN/ade4
+DEPEND="sci-CRAN/ape
 	sci-CRAN/ggpubr
-	sci-CRAN/ape
-	sci-CRAN/SPECIES
-	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
 	sci-CRAN/vegan
+	sci-CRAN/ade4
+	sci-CRAN/EntropyEstimation
+	sci-CRAN/reshape2
+	sci-CRAN/SPECIES
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

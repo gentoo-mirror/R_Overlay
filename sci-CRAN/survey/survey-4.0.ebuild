@@ -24,12 +24,12 @@ R_SUGGESTS="
 	r_suggests_quantreg? ( sci-CRAN/quantreg )
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	virtual/Matrix
-	virtual/lattice
-	virtual/survival
-	sci-CRAN/minqa
+DEPEND="virtual/survival
 	sci-CRAN/numDeriv
+	sci-CRAN/minqa
+	virtual/Matrix
+	>=dev-lang/R-3.1.0
+	virtual/lattice
 	>=sci-CRAN/mitools-2.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

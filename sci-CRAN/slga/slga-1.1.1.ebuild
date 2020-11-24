@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/raster
-	>=sci-CRAN/sf-0.9.0
+DEPEND=">=sci-CRAN/sf-0.9.0
 	sci-CRAN/xml2
+	sci-CRAN/raster
 	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

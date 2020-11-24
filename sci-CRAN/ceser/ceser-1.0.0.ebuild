@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/tibble
 	sci-CRAN/lmtest
-	sci-CRAN/purrr
 	sci-CRAN/dplyr
+	sci-CRAN/purrr
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

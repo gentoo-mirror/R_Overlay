@@ -18,23 +18,23 @@ R_SUGGESTS="
 	r_suggests_plotly? ( sci-CRAN/plotly )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/htmlwidgets
-	sci-CRAN/magrittr
-	sci-CRAN/rmarkdown
+DEPEND="sci-CRAN/purrr
 	sci-CRAN/jsonlite
-	sci-CRAN/purrr
-	sci-CRAN/rlang
-	sci-CRAN/haven
-	sci-CRAN/shinyWidgets
-	>=dev-lang/R-3.5
-	sci-CRAN/stringr
 	sci-CRAN/dplyr
-	sci-CRAN/shiny
+	sci-CRAN/stringr
+	sci-CRAN/htmlwidgets
 	sci-CRAN/DT
 	sci-CRAN/shinyjs
+	sci-CRAN/rlang
 	sci-CRAN/tibble
-	sci-CRAN/tidyr
 	sci-CRAN/shinybusy
+	sci-CRAN/tidyr
+	sci-CRAN/haven
+	>=dev-lang/R-3.5
+	sci-CRAN/shiny
+	sci-CRAN/magrittr
+	sci-CRAN/rmarkdown
+	sci-CRAN/shinyWidgets
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

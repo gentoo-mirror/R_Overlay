@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/XML
-	sci-CRAN/plyr
-	>=dev-lang/R-3.3.0
-	sci-CRAN/stringr
+DEPEND=">=dev-lang/R-3.3.0
 	sci-BIOC/Biobase
+	sci-CRAN/stringr
+	sci-CRAN/XML
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

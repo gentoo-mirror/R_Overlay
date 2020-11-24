@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/sensitivityCalibration_0.0.1.tar.
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/relaimpo
+	sci-CRAN/splitstackshape
+	sci-CRAN/plotly
 	sci-CRAN/ggrepel
 	sci-CRAN/stringi
-	sci-CRAN/plotly
-	sci-CRAN/splitstackshape
+	sci-CRAN/relaimpo
 "
 RDEPEND="${DEPEND-}"

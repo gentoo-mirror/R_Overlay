@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vars_1.5-3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	>=sci-CRAN/sandwich-2.2.4
-	>=sci-CRAN/lmtest-0.9.26
-	>=sci-CRAN/urca-1.1.6
+DEPEND=">=sci-CRAN/lmtest-0.9.26
+	virtual/MASS
 	sci-CRAN/strucchange
+	>=sci-CRAN/sandwich-2.2.4
+	>=sci-CRAN/urca-1.1.6
 "
 RDEPEND="${DEPEND-}"

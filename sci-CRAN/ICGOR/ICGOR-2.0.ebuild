@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.15.0
 	virtual/survival
-	sci-CRAN/ICsurv
 	sci-CRAN/pracma
+	sci-CRAN/ICsurv
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

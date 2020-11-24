@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/synthpop-1.5.1
+DEPEND=">=sci-CRAN/bnlearn-4.4.1
 	>=sci-CRAN/visNetwork-2.0.6
-	>=sci-CRAN/arsenal-3.3.0
-	>=sci-CRAN/reshape-0.8.8
-	>=sci-CRAN/bnlearn-4.4.1
 	>=sci-CRAN/ggplot2-3.1.1
+	>=sci-CRAN/reshape-0.8.8
+	>=sci-CRAN/synthpop-1.5.1
+	>=sci-CRAN/arsenal-3.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

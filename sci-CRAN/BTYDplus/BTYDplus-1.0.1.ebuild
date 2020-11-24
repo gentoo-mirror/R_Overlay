@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/coda
 	>=sci-CRAN/BTYD-2.3
 	sci-CRAN/Rcpp
 	sci-CRAN/data_table
+	sci-CRAN/coda
 	sci-CRAN/mvtnorm
 	sci-CRAN/bayesm
 "

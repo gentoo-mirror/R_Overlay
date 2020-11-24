@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sssc_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/changepoint
 	sci-CRAN/e1071
 	sci-CRAN/VGAM
-	sci-CRAN/ggplot2
-	sci-CRAN/changepoint
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-}"

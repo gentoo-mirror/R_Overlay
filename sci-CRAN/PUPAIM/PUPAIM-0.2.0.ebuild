@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PUPAIM_0.2.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/Metrics
+DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/Metrics
 	sci-CRAN/minpack_lm
-	>=dev-lang/R-3.6.0
 	sci-CRAN/nls2
 "
 RDEPEND="${DEPEND-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/miRNAss_1.5.tar.gz"
 LICENSE='Apache-2.0'
 
 DEPEND="virtual/Matrix
+	sci-CRAN/RSpectra
 	sci-CRAN/CORElearn
 	sci-CRAN/Rcpp
-	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

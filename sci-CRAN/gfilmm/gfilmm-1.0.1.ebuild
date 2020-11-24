@@ -26,12 +26,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/lazyeval
-	sci-CRAN/rgr
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/forcats
+	sci-CRAN/lazyeval
 	>=sci-CRAN/Rcpp-1.0.0
-	>=dev-lang/R-3.1.0
 	sci-CRAN/spatstat
+	sci-CRAN/rgr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

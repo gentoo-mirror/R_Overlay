@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GeneCycle_1.1.4.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=sci-CRAN/longitudinal-1.1.3
+DEPEND="virtual/MASS
+	>=sci-CRAN/longitudinal-1.1.3
 	>=sci-CRAN/fdrtool-1.2.5
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

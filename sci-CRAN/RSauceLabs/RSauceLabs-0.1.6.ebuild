@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/whisker
-	sci-CRAN/jsonlite
 	sci-CRAN/xml2
+	sci-CRAN/jsonlite
 	>=dev-lang/R-3.0.0
 	sci-CRAN/httr
 	sci-CRAN/data_table

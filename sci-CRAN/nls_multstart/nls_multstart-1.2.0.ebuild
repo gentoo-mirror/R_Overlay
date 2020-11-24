@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/tidyr
 	sci-CRAN/dplyr
-	sci-CRAN/purrr
 	sci-CRAN/minpack_lm
+	sci-CRAN/purrr
 	>=dev-lang/R-3.2.1
 	sci-CRAN/tibble
 "

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/PASWR2_1.0.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/lattice
-	sci-CRAN/e1071
 	sci-CRAN/ggplot2
+	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-}"

@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/lme4
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/NPflow
-	virtual/Matrix
-	>=dev-lang/R-3.3.0
-	sci-CRAN/numDeriv
-	sci-CRAN/Rmpfr
-	sci-CRAN/statmod
 	sci-CRAN/minqa
+	sci-CRAN/Rmpfr
+	sci-CRAN/lme4
+	sci-CRAN/statmod
+	sci-CRAN/numDeriv
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

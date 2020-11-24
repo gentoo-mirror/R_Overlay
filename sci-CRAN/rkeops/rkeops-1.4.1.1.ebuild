@@ -18,12 +18,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/Rcpp-1.0.1
 	>=sci-CRAN/openssl-1.3
+	>=sci-CRAN/Rcpp-1.0.1
 "
 RDEPEND="${DEPEND-}
-	>=sci-CRAN/RcppEigen-0.3.3.5
 	>=sci-CRAN/Rcpp-1.0.1
 	dev-util/cmake
+	>=sci-CRAN/RcppEigen-0.3.3.5
 	${R_SUGGESTS-}
 "

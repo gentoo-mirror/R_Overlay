@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_rbokeh? ( sci-CRAN/rbokeh )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/Rtsne
-	virtual/MASS
-	sci-CRAN/hexbin
+DEPEND="sci-CRAN/mpm
 	sci-BIOC/MLP
-	sci-CRAN/mpm
+	sci-CRAN/hexbin
 	sci-BIOC/Biobase
+	sci-CRAN/Rtsne
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

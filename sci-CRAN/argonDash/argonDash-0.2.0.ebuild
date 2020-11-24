@@ -13,7 +13,7 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_magrittr"
 R_SUGGESTS="r_suggests_magrittr? ( sci-CRAN/magrittr )"
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/argonR
 	sci-CRAN/htmltools
+	sci-CRAN/argonR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

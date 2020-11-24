@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MBSP_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/GIGrvg
-	sci-CRAN/coda
+DEPEND="virtual/MASS
 	virtual/Matrix
-	virtual/MASS
+	sci-CRAN/coda
+	>=dev-lang/R-3.1.0
+	sci-CRAN/GIGrvg
 	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-}"

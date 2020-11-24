@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_magrittr? ( sci-CRAN/magrittr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
+DEPEND="sci-CRAN/lazyeval
+	virtual/Matrix
 	>=sci-CRAN/rlang-0.2.0
 	sci-CRAN/progress
+	>=dev-lang/R-3.2.0
 	sci-CRAN/data_table
-	sci-CRAN/lazyeval
 	>=sci-CRAN/Rcpp-0.12.12
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

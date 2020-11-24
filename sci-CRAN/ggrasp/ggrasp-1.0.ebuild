@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ggrasp_1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/mixtools
 	sci-CRAN/ggplot2
-	sci-CRAN/bgmm
-	sci-CRAN/mixtools
 	sci-CRAN/ape
+	>=dev-lang/R-3.1.0
+	sci-CRAN/bgmm
 	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-}"

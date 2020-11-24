@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/colorscience_1.0.8.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/pracma
+DEPEND="sci-CRAN/sp
+	sci-CRAN/pracma
 	sci-CRAN/Hmisc
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

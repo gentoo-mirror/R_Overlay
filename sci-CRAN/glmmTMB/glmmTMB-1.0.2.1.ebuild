@@ -46,11 +46,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/lme4-1.1.18.9000
+DEPEND=">=sci-CRAN/TMB-1.7.14
 	virtual/nlme
 	virtual/Matrix
-	>=sci-CRAN/TMB-1.7.14
+	>=dev-lang/R-3.2.0
+	>=sci-CRAN/lme4-1.1.18.9000
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/TMB

@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CausalKinetiX_0.2.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/fda
-	sci-CRAN/cvTools
-	sci-CRAN/quadprog
-	sci-CRAN/pspline
+DEPEND="sci-CRAN/pspline
 	sci-CRAN/glmnet
-	>=sci-CRAN/sundialr-0.1.3
-	sci-CRAN/deSolve
 	sci-CRAN/randomForest
+	sci-CRAN/cvTools
+	sci-CRAN/fda
+	sci-CRAN/quadprog
+	sci-CRAN/deSolve
+	>=sci-CRAN/sundialr-0.1.3
 "
 RDEPEND="${DEPEND-}"

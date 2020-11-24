@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/tmvtnorm-1.4.10
-	>=sci-CRAN/truncnorm-1.0.8
 	>=sci-CRAN/tmvmixnorm-1.0.2
-	virtual/Matrix
-	>=dev-lang/R-3.5.0
+	>=sci-CRAN/truncnorm-1.0.8
 	>=sci-CRAN/condMVNorm-2020.1
+	>=dev-lang/R-3.5.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

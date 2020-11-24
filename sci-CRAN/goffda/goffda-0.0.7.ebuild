@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
-DEPEND="sci-CRAN/fda_usc
+DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/fda_usc
 	sci-CRAN/ks
 	sci-CRAN/glmnet
 	sci-CRAN/Rcpp
-	>=dev-lang/R-3.6.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

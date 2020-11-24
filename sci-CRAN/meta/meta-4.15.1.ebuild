@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_biasedurn"
 R_SUGGESTS="r_suggests_biasedurn? ( sci-CRAN/BiasedUrn )"
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/metafor-2.1.0
 	sci-CRAN/xml2
+	>=sci-CRAN/metafor-2.1.0
 	sci-CRAN/CompQuadForm
 	sci-CRAN/lme4
 "

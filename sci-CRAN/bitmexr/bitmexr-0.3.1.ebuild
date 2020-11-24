@@ -22,17 +22,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyquant? ( sci-CRAN/tidyquant )
 "
-DEPEND="sci-CRAN/attempt
-	sci-CRAN/curl
+DEPEND="sci-CRAN/lubridate
+	sci-CRAN/stringr
+	sci-CRAN/attempt
 	sci-CRAN/dplyr
 	sci-CRAN/httr
 	sci-CRAN/digest
+	sci-CRAN/curl
 	sci-CRAN/jsonlite
-	sci-CRAN/rlang
-	sci-CRAN/lubridate
 	sci-CRAN/magrittr
 	sci-CRAN/progress
 	sci-CRAN/purrr
-	sci-CRAN/stringr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

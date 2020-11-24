@@ -12,12 +12,12 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_sna"
 R_SUGGESTS="r_suggests_sna? ( sci-CRAN/sna )"
-DEPEND="sci-CRAN/ggpubr
+DEPEND="sci-CRAN/igraph
 	sci-CRAN/ggplot2
-	sci-CRAN/igraph
-	sci-CRAN/GGally
-	sci-CRAN/network
 	sci-CRAN/dplyr
+	sci-CRAN/network
+	sci-CRAN/GGally
+	sci-CRAN/ggpubr
 	sci-CRAN/ggrepel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

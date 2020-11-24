@@ -13,9 +13,9 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_nlme"
 R_SUGGESTS="r_suggests_nlme? ( virtual/nlme )"
 DEPEND="sci-CRAN/gamlss_dist
+	sci-CRAN/lme4
 	virtual/Matrix
 	sci-CRAN/Rcpp
-	sci-CRAN/lme4
 	sci-CRAN/mvtnorm
 	virtual/MASS
 "

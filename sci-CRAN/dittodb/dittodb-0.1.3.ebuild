@@ -30,12 +30,12 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/glue
-	sci-CRAN/digest
+DEPEND="sci-CRAN/digest
 	sci-CRAN/testthat
-	sci-CRAN/DBI
+	sci-CRAN/glue
 	sci-CRAN/lifecycle
+	>=dev-lang/R-3.3.0
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

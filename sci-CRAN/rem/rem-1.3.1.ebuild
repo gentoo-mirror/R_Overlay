@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_statnet? ( sci-CRAN/statnet )
 "
 DEPEND=">=dev-lang/R-2.14.0
+	sci-CRAN/Rcpp
 	sci-CRAN/doParallel
 	sci-CRAN/foreach
-	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

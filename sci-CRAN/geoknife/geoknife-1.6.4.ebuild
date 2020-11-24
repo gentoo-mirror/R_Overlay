@@ -25,12 +25,12 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/progress-1.1.2
-	sci-CRAN/whisker
-	>=sci-CRAN/httr-1.0.0
-	sci-CRAN/xml2
-	sci-CRAN/curl
 	sci-CRAN/sp
+	sci-CRAN/whisker
+	sci-CRAN/xml2
+	>=sci-CRAN/httr-1.0.0
+	sci-CRAN/curl
+	>=sci-CRAN/progress-1.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

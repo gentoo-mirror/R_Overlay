@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/plyr
+	sci-CRAN/httr
 	sci-CRAN/maps
 	sci-CRAN/jsonlite
 	sci-CRAN/sp

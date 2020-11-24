@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
 DEPEND="sci-CRAN/lars
-	virtual/survival
 	>=dev-lang/R-3.6
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

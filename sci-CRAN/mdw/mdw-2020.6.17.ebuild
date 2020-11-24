@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/kyotil
 	virtual/Matrix
+	sci-CRAN/kyotil
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vegan? ( >=sci-CRAN/vegan-2.4.2 )
 "
-DEPEND=">=sci-CRAN/ggplot2-2.2.1
-	sci-CRAN/pbapply
-	sci-CRAN/readr
+DEPEND="sci-CRAN/readr
 	sci-CRAN/reshape2
-	>=dev-lang/R-3.2.5
+	sci-CRAN/pbapply
 	sci-CRAN/stringr
+	>=dev-lang/R-3.2.5
+	>=sci-CRAN/ggplot2-2.2.1
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -22,12 +22,12 @@ R_SUGGESTS="
 DEPEND=">=sci-CRAN/httr-1.4.1
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/xml2-1.2.2
-	>=sci-CRAN/rvest-0.3.4
 	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/rvest-0.3.4
+	>=sci-CRAN/zoo-1.8.6
+	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/tidyr-0.8.3
 	>=sci-CRAN/readxl-1.3.1
 	>=sci-CRAN/lubridate-1.7.4
-	>=sci-CRAN/zoo-1.8.6
-	>=sci-CRAN/stringr-1.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

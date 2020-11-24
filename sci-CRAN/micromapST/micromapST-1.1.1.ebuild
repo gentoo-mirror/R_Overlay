@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/labeling
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/RColorBrewer
-	>=dev-lang/R-3.1.0
+	sci-CRAN/labeling
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

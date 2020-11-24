@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/relaimpo_2.2-3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/survey
-	virtual/boot
-	virtual/MASS
-	sci-CRAN/corpcor
+DEPEND="virtual/boot
 	sci-CRAN/mitools
+	sci-CRAN/corpcor
+	sci-CRAN/survey
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

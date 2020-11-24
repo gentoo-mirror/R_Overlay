@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_mlbench? ( sci-CRAN/mlbench )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/mlr-2.11
-	>=sci-CRAN/checkmate-1.8.2
-	sci-CRAN/shape
-	>=sci-CRAN/BBmisc-1.11
+DEPEND=">=sci-CRAN/BBmisc-1.11
+	>=sci-CRAN/mlr-2.11
 	>=dev-lang/R-3.0.2
+	sci-CRAN/shape
+	>=sci-CRAN/checkmate-1.8.2
 	sci-CRAN/TeachingDemos
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

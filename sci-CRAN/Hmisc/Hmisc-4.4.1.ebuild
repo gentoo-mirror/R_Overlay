@@ -24,21 +24,21 @@ R_SUGGESTS="
 	r_suggests_rms? ( sci-CRAN/rms )
 	r_suggests_tables? ( sci-CRAN/tables )
 "
-DEPEND="sci-CRAN/Formula
-	sci-CRAN/data_table
-	>=sci-CRAN/ggplot2-2.2
-	sci-CRAN/htmltools
-	sci-CRAN/gridExtra
-	sci-CRAN/viridis
-	>=sci-CRAN/htmlTable-1.11.0
-	virtual/lattice
-	virtual/survival
-	virtual/lattice
+DEPEND="virtual/lattice
+	sci-CRAN/Formula
 	virtual/cluster
+	virtual/survival
+	>=sci-CRAN/ggplot2-2.2
 	virtual/rpart
 	virtual/nnet
-	virtual/foreign
 	sci-CRAN/gtable
+	sci-CRAN/viridis
 	sci-CRAN/base64enc
+	virtual/lattice
+	virtual/foreign
+	sci-CRAN/gridExtra
+	sci-CRAN/data_table
+	>=sci-CRAN/htmlTable-1.11.0
+	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,21 +17,21 @@ R_SUGGESTS="
 	r_suggests_pls? ( sci-CRAN/pls )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/rstudioapi
+	sci-CRAN/FrF2
 	sci-CRAN/jsonlite
+	sci-CRAN/reshape2
+	sci-CRAN/scales
+	sci-CRAN/sfsmisc
+	sci-CRAN/shiny
+	sci-CRAN/testthat
 	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
-	sci-CRAN/FrF2
 	sci-CRAN/magrittr
 	sci-CRAN/miniUI
 	sci-CRAN/purrr
-	sci-CRAN/reshape2
-	sci-CRAN/rstudioapi
 	sci-CRAN/tibble
-	sci-CRAN/sfsmisc
-	sci-CRAN/shiny
 	sci-CRAN/tidyr
 	sci-CRAN/rlang
-	sci-CRAN/testthat
-	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

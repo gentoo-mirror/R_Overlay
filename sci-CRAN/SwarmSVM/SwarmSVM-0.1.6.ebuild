@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/kernlab
-	sci-CRAN/BBmisc
-	virtual/Matrix
-	sci-CRAN/e1071
-	sci-CRAN/LiblineaR
-	sci-CRAN/SparseM
+DEPEND="virtual/Matrix
 	>=sci-CRAN/checkmate-1.6.0
+	sci-CRAN/BBmisc
+	sci-CRAN/kernlab
+	sci-CRAN/LiblineaR
+	>=dev-lang/R-3.2.0
+	sci-CRAN/e1071
+	sci-CRAN/SparseM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

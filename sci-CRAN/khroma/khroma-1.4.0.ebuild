@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/scales
-	>=dev-lang/R-3.3
+DEPEND=">=dev-lang/R-3.3
+	sci-CRAN/scales
 	sci-CRAN/spacesXYZ
 	sci-CRAN/ggplot2
 "

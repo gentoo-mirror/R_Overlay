@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_lmtest? ( sci-CRAN/lmtest )
 "
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/car
 	sci-CRAN/strucchange
 	sci-CRAN/zoo
-	sci-CRAN/car
 	sci-CRAN/sandwich
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

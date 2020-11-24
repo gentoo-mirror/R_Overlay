@@ -32,12 +32,12 @@ R_SUGGESTS="
 	r_suggests_unvotes? ( >=sci-CRAN/unvotes-0.2.0 )
 "
 DEPEND="sci-CRAN/rlang
-	sci-CRAN/dplyr
-	sci-CRAN/tidytext
-	virtual/Matrix
-	sci-CRAN/tidyr
 	sci-CRAN/reshape2
 	sci-CRAN/purrr
+	sci-CRAN/tidytext
+	sci-CRAN/tidyr
+	sci-CRAN/dplyr
+	virtual/Matrix
 	sci-CRAN/broom
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

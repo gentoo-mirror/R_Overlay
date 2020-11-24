@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/oro.pet_0.2.6.tar.gz"
 LICENSE='BSD'
 
-DEPEND=">=sci-CRAN/oro_nifti-0.4.0
-	sci-CRAN/minpack_lm
+DEPEND=">=dev-lang/R-2.14.0
 	sci-CRAN/msm
-	>=dev-lang/R-2.14.0
+	sci-CRAN/minpack_lm
+	>=sci-CRAN/oro_nifti-0.4.0
 	>=sci-CRAN/oro_dicom-0.4.0
 "
 RDEPEND="${DEPEND-}"

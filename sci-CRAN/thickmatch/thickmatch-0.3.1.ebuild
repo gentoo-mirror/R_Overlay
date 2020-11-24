@@ -12,9 +12,9 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_optmatch"
 R_SUGGESTS="r_suggests_optmatch? ( sci-CRAN/optmatch )"
-DEPEND="sci-CRAN/DiPs
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/plyr
+	sci-CRAN/DiPs
 	sci-CRAN/rcbalance
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

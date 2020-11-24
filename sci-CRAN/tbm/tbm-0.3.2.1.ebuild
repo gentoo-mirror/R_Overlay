@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_trtf? ( sci-CRAN/trtf )
 "
 DEPEND=">=sci-CRAN/mlt-1.0.6
-	sci-CRAN/variables
-	sci-CRAN/coneproj
 	sci-CRAN/sandwich
 	sci-CRAN/basefun
+	sci-CRAN/variables
 	>=sci-CRAN/mboost-2.8.2
+	sci-CRAN/coneproj
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

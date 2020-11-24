@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/STAT_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/psycho
-	sci-CRAN/shiny
-	sci-CRAN/dplyr
-	sci-CRAN/rmarkdown
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/psych
 	sci-CRAN/corrgram
+	sci-CRAN/rmarkdown
+	>=dev-lang/R-3.0.3
+	sci-CRAN/shiny
+	sci-CRAN/psycho
 	sci-CRAN/Hmisc
 	sci-CRAN/rpivotTable
-	sci-CRAN/psych
-	>=dev-lang/R-3.0.3
 "
 RDEPEND="${DEPEND-}"

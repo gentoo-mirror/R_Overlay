@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TSclust_1.3.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/pdc
-	virtual/cluster
-	sci-CRAN/longitudinalData
+DEPEND="virtual/KernSmooth
 	sci-CRAN/dtw
-	sci-CRAN/forecast
+	sci-CRAN/longitudinalData
+	virtual/cluster
+	>=dev-lang/R-3.0.2
 	sci-CRAN/locpol
-	virtual/KernSmooth
+	sci-CRAN/pdc
+	sci-CRAN/forecast
 "
 RDEPEND="${DEPEND-}"

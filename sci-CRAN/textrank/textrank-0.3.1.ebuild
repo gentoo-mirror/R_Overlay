@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_textreuse? ( sci-CRAN/textreuse )
 	r_suggests_udpipe? ( >=sci-CRAN/udpipe-0.2 )
 "
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/digest
+DEPEND="sci-CRAN/digest
+	sci-CRAN/igraph
 	>=sci-CRAN/data_table-1.9.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

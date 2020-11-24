@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_quandl? ( sci-CRAN/Quandl )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND="sci-CRAN/RcppArmadillo
+DEPEND=">=dev-lang/R-3.2.1
+	sci-CRAN/rgl
 	sci-CRAN/Rcpp
 	sci-CRAN/colorspace
-	sci-CRAN/rgl
-	>=dev-lang/R-3.2.1
+	sci-CRAN/RcppArmadillo
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

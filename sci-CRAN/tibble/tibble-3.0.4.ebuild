@@ -38,16 +38,16 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/cli
-	>=sci-CRAN/lifecycle-0.2.0
-	>=sci-CRAN/pillar-1.4.3
-	>=sci-CRAN/fansi-0.4.0
-	>=dev-lang/R-3.1.0
-	>=sci-CRAN/ellipsis-0.2.0
-	>=sci-CRAN/crayon-1.3.4
+DEPEND=">=sci-CRAN/ellipsis-0.2.0
 	sci-CRAN/magrittr
+	>=sci-CRAN/lifecycle-0.2.0
+	>=sci-CRAN/vctrs-0.3.2
+	sci-CRAN/cli
+	>=dev-lang/R-3.1.0
+	>=sci-CRAN/fansi-0.4.0
+	>=sci-CRAN/crayon-1.3.4
+	>=sci-CRAN/pillar-1.4.3
 	sci-CRAN/pkgconfig
 	>=sci-CRAN/rlang-0.4.3
-	>=sci-CRAN/vctrs-0.3.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

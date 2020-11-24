@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/ROCR
-	>=dev-lang/R-3.1
-	>=sci-CRAN/Rcpp-0.11.2
+DEPEND=">=dev-lang/R-3.1
+	virtual/Matrix
 	sci-CRAN/ggplot2
 	sci-CRAN/glmnet
+	sci-CRAN/ROCR
+	>=sci-CRAN/Rcpp-0.11.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

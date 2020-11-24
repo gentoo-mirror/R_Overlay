@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gsrsb_1.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/xtable
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/ldbounds
-	sci-CRAN/mvtnorm
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}"

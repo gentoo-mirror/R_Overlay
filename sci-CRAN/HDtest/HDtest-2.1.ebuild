@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HDtest_2.1.tar.gz"
 LICENSE='Apache-2.0'
 
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/foreach
+DEPEND="virtual/MASS
+	sci-CRAN/mvtnorm
+	sci-CRAN/fastclime
+	sci-CRAN/expm
 	sci-CRAN/doParallel
 	sci-CRAN/clime
-	>=sci-CRAN/checkmate-1.6.0
 	>=dev-lang/R-3.2.2
-	virtual/MASS
-	sci-CRAN/expm
-	sci-CRAN/fastclime
+	>=sci-CRAN/checkmate-1.6.0
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

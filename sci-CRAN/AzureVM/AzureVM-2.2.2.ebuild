@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/AzureRMR-2.3.0
 	>=sci-CRAN/R6-2.4.1
 	sci-CRAN/jsonlite
+	>=sci-CRAN/AzureRMR-2.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

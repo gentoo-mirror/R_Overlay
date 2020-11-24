@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_snow? ( sci-CRAN/snow )
 "
-DEPEND="sci-CRAN/mvnfast
-	sci-CRAN/vcd
-	>=sci-CRAN/mclust-5.4
+DEPEND=">=sci-CRAN/mclust-5.4
 	virtual/Matrix
 	>=dev-lang/R-4.0.0
 	virtual/lattice
+	sci-CRAN/mvnfast
 	virtual/nnet
+	sci-CRAN/vcd
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

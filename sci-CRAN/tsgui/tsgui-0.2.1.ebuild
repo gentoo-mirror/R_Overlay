@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/tsgui_0.2.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="dev-lang/R[tk]
-	sci-CRAN/RandomFieldsUtils
-	sci-CRAN/tkrplot
+DEPEND=">=dev-lang/R-3.0
 	dev-lang/R[tk]
-	>=dev-lang/R-3.0
+	sci-CRAN/tkrplot
+	sci-CRAN/RandomFieldsUtils
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-}"

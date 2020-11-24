@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/miniUI
-	sci-CRAN/htmltools
 	sci-CRAN/tibble
-	sci-CRAN/Hmisc
-	>=dev-lang/R-3.3.0
-	sci-CRAN/htmlwidgets
 	sci-CRAN/shiny
 	sci-CRAN/haven
+	>=dev-lang/R-3.3.0
+	sci-CRAN/Hmisc
+	sci-CRAN/htmlwidgets
+	sci-CRAN/htmltools
 	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

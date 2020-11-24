@@ -44,12 +44,12 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/reshape
-	sci-CRAN/stringr
-	sci-CRAN/plyr
 	virtual/lattice
+	sci-CRAN/reshape
 	virtual/cluster
 	sci-CRAN/sp
+	sci-CRAN/stringr
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

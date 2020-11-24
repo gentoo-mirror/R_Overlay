@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/siar_4.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/hdrcde
-	sci-CRAN/bayesm
+DEPEND="sci-CRAN/coda
 	sci-CRAN/spatstat
-	sci-CRAN/coda
+	sci-CRAN/bayesm
+	sci-CRAN/hdrcde
 	virtual/MASS
 	sci-CRAN/mnormt
 "

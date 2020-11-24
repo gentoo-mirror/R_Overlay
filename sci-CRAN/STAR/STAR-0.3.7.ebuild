@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rstream? ( sci-CRAN/rstream )
 	r_suggests_snow? ( sci-CRAN/snow )
 "
-DEPEND="sci-CRAN/gss
-	virtual/mgcv
+DEPEND="virtual/mgcv
 	sci-CRAN/R2HTML
+	sci-CRAN/gss
 	virtual/codetools
 	virtual/survival
 "

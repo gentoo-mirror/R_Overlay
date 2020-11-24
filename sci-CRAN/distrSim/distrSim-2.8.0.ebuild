@@ -12,9 +12,9 @@ LICENSE='LGPL-3'
 
 IUSE="${IUSE-} r_suggests_distrex"
 R_SUGGESTS="r_suggests_distrex? ( >=sci-CRAN/distrEx-2.2 )"
-DEPEND="sci-CRAN/startupmsg
-	>=sci-CRAN/setRNG-2006.2.1
+DEPEND=">=dev-lang/R-2.14.0
+	sci-CRAN/startupmsg
 	>=sci-CRAN/distr-2.5.2
-	>=dev-lang/R-2.14.0
+	>=sci-CRAN/setRNG-2006.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

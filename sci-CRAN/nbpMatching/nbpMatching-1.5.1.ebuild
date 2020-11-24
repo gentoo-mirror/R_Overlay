@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nbpMatching_1.5.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/Hmisc
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

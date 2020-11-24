@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/splmm_1.1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/miscTools
-	sci-CRAN/plot3D
-	sci-CRAN/emulator
-	>=dev-lang/R-3.5.0
-	sci-CRAN/penalized
-	>=sci-CRAN/Rcpp-1.0.1
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/penalized
 	sci-CRAN/gridExtra
+	sci-CRAN/plot3D
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-1.0.1
+	sci-CRAN/emulator
+	sci-CRAN/miscTools
+	sci-CRAN/ggplot2
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}

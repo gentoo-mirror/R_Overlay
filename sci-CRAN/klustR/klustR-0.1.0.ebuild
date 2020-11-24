@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/klustR_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/jsonlite
 	>=sci-CRAN/htmlwidgets-0.3.2
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

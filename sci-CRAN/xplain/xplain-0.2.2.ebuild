@@ -13,9 +13,9 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_car"
 R_SUGGESTS="r_suggests_car? ( sci-CRAN/car )"
 DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/httr
-	sci-CRAN/RCurl
 	sci-CRAN/XML
 	sci-CRAN/readr
+	sci-CRAN/RCurl
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

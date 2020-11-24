@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/crul-0.7.0
-	>=sci-CRAN/jsonvalidate-1.0.0
+DEPEND=">=sci-CRAN/jsonvalidate-1.0.0
+	>=sci-CRAN/crul-0.7.0
 	sci-CRAN/V8
 	>=sci-CRAN/jsonlite-0.9.19
 "

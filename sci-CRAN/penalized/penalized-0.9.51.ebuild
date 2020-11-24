@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_globaltest"
 R_SUGGESTS="r_suggests_globaltest? ( sci-BIOC/globaltest )"
-DEPEND="virtual/survival
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rcpp
+	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

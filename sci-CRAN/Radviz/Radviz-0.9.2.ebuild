@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.0
+	sci-CRAN/ggplot2
 	sci-CRAN/rlang
 	sci-CRAN/igraph
 	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
 	sci-CRAN/pracma
 	sci-CRAN/hexbin
 	sci-CRAN/Rcpp

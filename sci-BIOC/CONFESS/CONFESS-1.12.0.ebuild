@@ -17,32 +17,32 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/contrast
-	sci-CRAN/readbitmap
-	sci-CRAN/waveslim
-	sci-CRAN/outliers
-	sci-CRAN/wavethresh
-	sci-CRAN/ecp
 	sci-CRAN/flexmix
 	sci-BIOC/flowClust
 	sci-BIOC/flowMerge
+	sci-CRAN/ecp
 	sci-CRAN/foreach
-	sci-BIOC/limma
-	>=dev-lang/R-3.3
 	virtual/MASS
-	sci-CRAN/moments
-	sci-CRAN/raster
-	sci-BIOC/EBImage
-	sci-BIOC/flowCore
-	sci-BIOC/flowMeans
-	>=sci-CRAN/data_table-1.9.7
-	sci-BIOC/flowPeaks
-	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
-	sci-BIOC/SamSPECTRAL
 	sci-CRAN/zoo
+	sci-CRAN/outliers
+	sci-BIOC/SamSPECTRAL
+	sci-CRAN/wavethresh
+	sci-CRAN/waveslim
+	sci-BIOC/EBImage
+	sci-BIOC/flowMeans
+	sci-BIOC/flowPeaks
+	sci-BIOC/flowCore
+	sci-CRAN/ggplot2
+	>=sci-CRAN/data_table-1.9.7
+	sci-BIOC/limma
+	sci-CRAN/moments
+	sci-CRAN/readbitmap
+	>=dev-lang/R-3.3
 	sci-CRAN/changepoint
-	virtual/cluster
 	sci-CRAN/plotrix
+	virtual/cluster
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

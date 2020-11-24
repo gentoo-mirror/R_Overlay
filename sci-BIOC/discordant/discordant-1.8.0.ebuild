@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/biwt
-	sci-CRAN/gtools
 	virtual/MASS
 	sci-BIOC/Biobase
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/jagsUI_1.5.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/lattice
-	>=sci-CRAN/rjags-3.13
+DEPEND=">=dev-lang/R-2.14.0
+	virtual/lattice
 	>=sci-CRAN/coda-0.13
-	>=dev-lang/R-2.14.0
+	>=sci-CRAN/rjags-3.13
 "
 RDEPEND="${DEPEND-} sci-mathematics/jags"

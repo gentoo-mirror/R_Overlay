@@ -23,19 +23,19 @@ R_SUGGESTS="
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
 DEPEND=">=dev-lang/R-3.1.2
+	>=sci-CRAN/rlang-0.3.4
+	>=sci-CRAN/tibble-2.1.1
 	>=sci-CRAN/dplyr-0.8.1
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/Rcpp-0.12.12
-	>=sci-CRAN/RcppArmadillo-0.7.900.2.0
-	>=sci-CRAN/tibble-2.1.1
-	>=sci-CRAN/rlang-0.3.4
 	>=sci-CRAN/tidyselect-0.2.5
 	sci-CRAN/lifecycle
 	sci-CRAN/glue
+	>=sci-CRAN/Rcpp-0.12.12
+	>=sci-CRAN/RcppArmadillo-0.7.900.2.0
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.12
-	>=sci-CRAN/BH-1.62.0.1
 	>=sci-CRAN/RcppArmadillo-0.7.900.2.0
+	>=sci-CRAN/BH-1.62.0.1
 	${R_SUGGESTS-}
 "

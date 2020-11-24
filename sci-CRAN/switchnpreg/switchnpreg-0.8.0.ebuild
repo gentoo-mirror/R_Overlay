@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/switchnpreg_0.8-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/expm
-	sci-CRAN/HiddenMarkov
+DEPEND="sci-CRAN/HiddenMarkov
 	virtual/MASS
 	sci-CRAN/fda
+	sci-CRAN/expm
 "
 RDEPEND="${DEPEND-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/bgx_1.50.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-BIOC/Biobase
-	>=sci-CRAN/Rcpp-0.11.0
-	>=sci-BIOC/affy-1.5.0
+DEPEND=">=sci-CRAN/Rcpp-0.11.0
+	sci-BIOC/Biobase
 	>=sci-BIOC/gcrma-2.4.1
+	>=sci-BIOC/affy-1.5.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"
 

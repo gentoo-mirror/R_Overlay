@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/multibiplotGUI_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/cluster
-	sci-CRAN/tkrplot
-	>=dev-lang/R-3.1.1
+DEPEND=">=dev-lang/R-3.1.1
 	sci-CRAN/rgl
 	dev-lang/R[tk]
 	dev-lang/R[tk]
-	sci-CRAN/shapes
+	sci-CRAN/tkrplot
 	sci-CRAN/dendroextras
 	virtual/Matrix
+	sci-CRAN/shapes
+	virtual/cluster
 "
 RDEPEND="${DEPEND-} dev-lang/R[tk]"

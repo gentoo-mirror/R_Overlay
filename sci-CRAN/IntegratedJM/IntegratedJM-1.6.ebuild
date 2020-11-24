@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/IntegratedJM_1.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-BIOC/Biobase
-	virtual/nlme
 	sci-CRAN/ggplot2
+	virtual/nlme
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

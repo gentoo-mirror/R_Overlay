@@ -22,8 +22,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/adegenet
-	sci-CRAN/pegas
 	sci-CRAN/gtools
 	sci-CRAN/ade4
+	sci-CRAN/pegas
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

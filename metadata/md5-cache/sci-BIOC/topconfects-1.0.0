@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/assertthat sci-CRAN/ggplot2 >=dev-lang/R-3.6.0 dev-lang/R
+DEPEND=sci-CRAN/assertthat >=dev-lang/R-3.6.0 sci-CRAN/ggplot2 dev-lang/R
 DESCRIPTION=Top Confident Effect Sizes
 EAPI=7
 IUSE=r_suggests_annotationdbi r_suggests_dplyr r_suggests_edger r_suggests_knitr r_suggests_limma r_suggests_nbpseq r_suggests_readr r_suggests_reshape2 r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
 KEYWORDS=~amd64
 LICENSE=LGPL-2.1
-RDEPEND=sci-CRAN/assertthat sci-CRAN/ggplot2 >=dev-lang/R-3.6.0 r_suggests_annotationdbi? ( sci-BIOC/AnnotationDbi ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_nbpseq? ( sci-CRAN/NBPSeq ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R
+RDEPEND=sci-CRAN/assertthat >=dev-lang/R-3.6.0 sci-CRAN/ggplot2 r_suggests_annotationdbi? ( sci-BIOC/AnnotationDbi ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_nbpseq? ( sci-CRAN/NBPSeq ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/topconfects_1.0.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=c6d982094f00afccb96730d47978f2d1
+_md5_=25e9376df83da805d867737313c32a85

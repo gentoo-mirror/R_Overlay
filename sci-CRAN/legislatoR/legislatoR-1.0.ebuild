@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/curl-3.0
 	>=sci-CRAN/dplyr-0.7.4
+	>=sci-CRAN/curl-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

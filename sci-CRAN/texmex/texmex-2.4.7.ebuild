@@ -25,8 +25,8 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND="sci-CRAN/mvtnorm
-	>=sci-CRAN/Rcpp-0.12.18
 	sci-CRAN/ggplot2
+	>=sci-CRAN/Rcpp-0.12.18
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

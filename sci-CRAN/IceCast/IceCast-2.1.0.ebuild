@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/ncdf4
-	sci-CRAN/raster
-	sci-CRAN/rgeos
+DEPEND="sci-CRAN/raster
+	sci-CRAN/coda
+	>=sci-CRAN/Rcpp-0.12.17
 	sci-CRAN/maptools
 	sci-CRAN/sp
+	sci-CRAN/ncdf4
+	sci-CRAN/rgeos
 	virtual/MASS
-	>=sci-CRAN/Rcpp-0.12.17
-	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

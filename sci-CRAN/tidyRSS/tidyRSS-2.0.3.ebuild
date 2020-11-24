@@ -19,18 +19,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/xml2-1.3.1
-	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/purrr-0.3.3
-	>=sci-CRAN/glue-1.4.0
-	>=sci-CRAN/tidyselect-1.1.0
-	>=dev-lang/R-3.1.0
-	>=sci-CRAN/httr-1.4.1
+DEPEND=">=dev-lang/R-3.1.0
+	>=sci-CRAN/xml2-1.3.1
 	>=sci-CRAN/tibble-3.0.0
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/httr-1.4.1
+	>=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/jsonlite-1.6.1
+	>=sci-CRAN/purrr-0.3.3
 	>=sci-CRAN/anytime-0.3.7
 	>=sci-CRAN/rlang-0.4.6
+	>=sci-CRAN/glue-1.4.0
 	>=sci-CRAN/vctrs-0.3.0
+	>=sci-CRAN/tidyselect-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

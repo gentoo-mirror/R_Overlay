@@ -12,10 +12,10 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_amigaffh"
 R_SUGGESTS="r_suggests_amigaffh? ( >=sci-CRAN/AmigaFFH-0.2.0 )"
-DEPEND="virtual/lattice
-	sci-CRAN/XML
-	>=sci-CRAN/tuneR-1.0
-	sci-CRAN/audio
+DEPEND="sci-CRAN/audio
 	sci-CRAN/signal
+	>=sci-CRAN/tuneR-1.0
+	sci-CRAN/XML
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/SECFISH_0.1.7.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/ggplot2
-	sci-CRAN/optimization
 	sci-CRAN/Hmisc
+	sci-CRAN/optimization
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

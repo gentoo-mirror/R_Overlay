@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SystemicR_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/quantreg
+DEPEND="virtual/Matrix
 	sci-CRAN/xts
-	virtual/Matrix
+	sci-CRAN/quantreg
 	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

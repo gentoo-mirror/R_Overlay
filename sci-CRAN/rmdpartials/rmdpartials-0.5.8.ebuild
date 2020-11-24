@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/knitr
-	sci-CRAN/rlang
-	sci-CRAN/digest
+DEPEND="sci-CRAN/digest
 	>=dev-lang/R-3.0.1
+	sci-CRAN/rlang
+	sci-CRAN/knitr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

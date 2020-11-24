@@ -13,15 +13,15 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_gclus"
 R_SUGGESTS="r_suggests_gclus? ( sci-CRAN/gclus )"
 DEPEND="sci-CRAN/e1071
-	virtual/rpart
-	virtual/class
 	virtual/MASS
-	sci-CRAN/pcaPP
+	virtual/rpart
 	sci-CRAN/robustbase
+	sci-CRAN/pcaPP
 	sci-CRAN/som
 	sci-CRAN/lars
 	sci-CRAN/pls
-	sci-CRAN/mclust
+	virtual/class
 	virtual/nnet
+	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

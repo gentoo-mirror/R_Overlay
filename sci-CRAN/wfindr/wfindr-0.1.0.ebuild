@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/wfindr_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/magrittr
 	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

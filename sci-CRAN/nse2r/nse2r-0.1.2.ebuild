@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_shinythemes? ( sci-CRAN/shinythemes )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/magrittr
+DEPEND="sci-CRAN/rvest
+	sci-CRAN/magrittr
 	sci-CRAN/jsonlite
-	sci-CRAN/xml2
-	sci-CRAN/rvest
 	>=dev-lang/R-3.3
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

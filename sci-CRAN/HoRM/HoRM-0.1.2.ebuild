@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.0
 	virtual/MASS
-	sci-CRAN/ggplot2
-	sci-CRAN/quantmod
 	sci-CRAN/orthopolynom
+	sci-CRAN/quantmod
+	sci-CRAN/ggplot2
 	sci-CRAN/rsm
 "
 RDEPEND="${DEPEND-}"

@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_survey? ( sci-CRAN/survey )
 "
-DEPEND="sci-CRAN/rlang
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/tibble
-	sci-CRAN/glm2
-	sci-CRAN/magrittr
-	>=dev-lang/R-3.4.0
+	sci-CRAN/rlang
 	sci-CRAN/dplyr
 	sci-CRAN/cubature
-	sci-CRAN/tmvtnorm
-	sci-CRAN/ggplot2
+	sci-CRAN/glm2
 	sci-CRAN/plyr
 	sci-CRAN/pracma
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
+	>=dev-lang/R-3.4.0
+	sci-CRAN/tmvtnorm
+	sci-CRAN/ggplot2
+	sci-CRAN/foreach
 	sci-CRAN/binom
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

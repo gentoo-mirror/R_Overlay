@@ -12,9 +12,9 @@ LICENSE='CC0-1.0'
 
 IUSE="${IUSE-} r_suggests_spelling"
 R_SUGGESTS="r_suggests_spelling? ( sci-CRAN/spelling )"
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/dplyr
 	sci-CRAN/scales
-	sci-CRAN/magrittr
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

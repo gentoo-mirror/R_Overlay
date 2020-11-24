@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ReacTran_1.4.3.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/shape
+DEPEND="sci-CRAN/rootSolve
 	sci-CRAN/deSolve
-	sci-CRAN/rootSolve
+	sci-CRAN/shape
 "
 RDEPEND="${DEPEND-}"

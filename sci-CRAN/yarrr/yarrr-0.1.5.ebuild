@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/jpeg
-	sci-CRAN/circlize
 	sci-CRAN/BayesFactor
+	sci-CRAN/circlize
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

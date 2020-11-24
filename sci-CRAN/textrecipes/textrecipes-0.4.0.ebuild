@@ -28,20 +28,20 @@ R_SUGGESTS="
 	r_suggests_tokenizers_bpe? ( sci-CRAN/tokenizers_bpe )
 	r_suggests_udpipe? ( sci-CRAN/udpipe )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/tokenizers
-	sci-CRAN/stringr
-	sci-CRAN/rlang
-	sci-CRAN/purrr
-	sci-CRAN/vctrs
+DEPEND=">=sci-CRAN/recipes-0.1.15
+	sci-CRAN/magrittr
 	>=sci-CRAN/generics-0.1.0
-	>=sci-CRAN/recipes-0.1.15
-	sci-CRAN/dplyr
 	virtual/Matrix
+	sci-CRAN/dplyr
+	sci-CRAN/stringr
+	sci-CRAN/purrr
 	sci-CRAN/Rcpp
+	sci-CRAN/rlang
 	sci-CRAN/SnowballC
 	sci-CRAN/tibble
 	sci-CRAN/tidyr
+	sci-CRAN/tokenizers
+	sci-CRAN/vctrs
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

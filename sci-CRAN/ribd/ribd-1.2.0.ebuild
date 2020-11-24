@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_identity? ( sci-CRAN/identity )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/pedtools
-	sci-CRAN/glue
-	sci-CRAN/kinship2
+DEPEND="sci-CRAN/glue
 	sci-CRAN/slam
+	>=dev-lang/R-3.5.0
+	sci-CRAN/kinship2
+	sci-CRAN/pedtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,7 +18,7 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/sysfonts"
 RDEPEND="${DEPEND-}
 	sys-libs/zlib
-	media-libs/libpng
 	media-libs/freetype
+	media-libs/libpng
 	${R_SUGGESTS-}
 "

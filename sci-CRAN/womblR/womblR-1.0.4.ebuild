@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/mvtnorm-1.0.0
+DEPEND=">=dev-lang/R-3.0.2
 	>=sci-CRAN/Rcpp-0.12.9
+	>=sci-CRAN/mvtnorm-1.0.0
 	>=sci-CRAN/msm-1.0.0
-	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

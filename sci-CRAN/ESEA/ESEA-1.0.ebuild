@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_matrix? ( virtual/Matrix )
 "
 DEPEND="sci-CRAN/XML
-	sci-CRAN/igraph
 	sci-CRAN/parmigene
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

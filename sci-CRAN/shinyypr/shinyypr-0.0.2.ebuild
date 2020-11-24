@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/chk
-	sci-CRAN/shinyjs
-	sci-CRAN/lifecycle
-	sci-CRAN/ypr
-	sci-CRAN/shiny
 	sci-CRAN/dplyr
+	sci-CRAN/shiny
+	sci-CRAN/shinyjs
+	sci-CRAN/ypr
+	sci-CRAN/waiter
+	sci-CRAN/lifecycle
 	sci-CRAN/purrr
 	sci-CRAN/readr
 	sci-CRAN/ggplot2
 	sci-CRAN/magrittr
-	sci-CRAN/waiter
 	sci-CRAN/DT
 	sci-CRAN/bsplus
 "

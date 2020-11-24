@@ -25,18 +25,18 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	>=sci-CRAN/forecast-8.3
+	sci-CRAN/dplyr
 	sci-CRAN/randomForest
 	sci-CRAN/urca
-	sci-CRAN/magrittr
+	>=sci-CRAN/forecast-8.3
+	sci-CRAN/forecTheta
 	sci-CRAN/stringr
 	sci-CRAN/tibble
-	sci-CRAN/tsfeatures
-	virtual/MASS
-	sci-CRAN/dplyr
-	sci-CRAN/forecTheta
 	sci-CRAN/purrr
 	sci-CRAN/future
 	sci-CRAN/furrr
+	sci-CRAN/magrittr
+	sci-CRAN/tsfeatures
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

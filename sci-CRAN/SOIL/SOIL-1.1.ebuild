@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SOIL_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/glmnet
-	sci-CRAN/brglm2
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/ncvreg
+	sci-CRAN/glmnet
+	sci-CRAN/brglm2
 "
 RDEPEND="${DEPEND-}"

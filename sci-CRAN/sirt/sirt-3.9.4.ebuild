@@ -34,12 +34,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/TAM
-	sci-CRAN/Rcpp
 	sci-CRAN/CDM
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/pbv
-	sci-CRAN/Rcpp
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

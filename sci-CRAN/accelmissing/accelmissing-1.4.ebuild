@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/accelmissing_1.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/pscl
-	sci-CRAN/mice
+DEPEND="sci-CRAN/mice
+	sci-CRAN/pscl
 "
 RDEPEND="${DEPEND-}"

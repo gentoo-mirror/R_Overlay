@@ -20,19 +20,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/tidyr
-	sci-CRAN/tibble
-	sci-CRAN/broom
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ggplot2
+	sci-CRAN/broom
 	sci-CRAN/dplyr
-	sci-CRAN/cowplot
 	sci-CRAN/ggraph
 	sci-CRAN/glue
 	sci-CRAN/igraph
 	sci-CRAN/lme4
 	sci-CRAN/magrittr
 	sci-CRAN/purrr
+	sci-CRAN/rlang
+	sci-CRAN/tibble
+	sci-CRAN/tidyr
+	sci-CRAN/cowplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

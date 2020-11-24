@@ -28,11 +28,11 @@ R_SUGGESTS="
 	r_suggests_vctrs? ( sci-CRAN/vctrs )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=dev-lang/R-3.1
-	>=sci-CRAN/rlang-0.2.0
-	sci-CRAN/profmem
-	sci-CRAN/pillar
-	sci-CRAN/glue
+DEPEND="sci-CRAN/pillar
 	sci-CRAN/tibble
+	sci-CRAN/profmem
+	>=sci-CRAN/rlang-0.2.0
+	>=dev-lang/R-3.1
+	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

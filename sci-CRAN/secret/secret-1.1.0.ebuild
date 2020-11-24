@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/openssl
-	sci-CRAN/assertthat
-	sci-CRAN/curl
+DEPEND="sci-CRAN/assertthat
 	sci-CRAN/rprojroot
+	sci-CRAN/openssl
+	sci-CRAN/curl
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

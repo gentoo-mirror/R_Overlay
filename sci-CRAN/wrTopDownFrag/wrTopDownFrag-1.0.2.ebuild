@@ -27,7 +27,7 @@ R_SUGGESTS="
 	r_suggests_wrgraph? ( sci-CRAN/wrGraph )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/wrProteo
 	sci-CRAN/wrMisc
+	sci-CRAN/wrProteo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

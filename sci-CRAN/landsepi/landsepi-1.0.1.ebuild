@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/Rcpp-0.9.0
-	sci-CRAN/mvtnorm
 	virtual/Matrix
+	>=sci-CRAN/Rcpp-0.9.0
 	>=sci-CRAN/sp-1.0.17
+	sci-CRAN/mvtnorm
 	sci-CRAN/fields
 	sci-CRAN/splancs
 	sci-CRAN/sf
@@ -35,7 +35,7 @@ DEPEND=">=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/testthat
 	sci-libs/gsl
+	sci-CRAN/testthat
 	${R_SUGGESTS-}
 "

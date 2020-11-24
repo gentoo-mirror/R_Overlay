@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rarpack? ( sci-CRAN/rARPACK )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.2.0
+DEPEND="sci-CRAN/pracma
 	virtual/Matrix
 	sci-CRAN/foreach
+	>=dev-lang/R-3.2.0
 	sci-CRAN/doParallel
-	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

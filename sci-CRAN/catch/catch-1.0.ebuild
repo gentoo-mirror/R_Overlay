@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/catch_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/Matrix
-	>=dev-lang/R-3.1.1
 	virtual/MASS
 	sci-CRAN/tensr
+	>=dev-lang/R-3.1.1
 "
 RDEPEND="${DEPEND-}"

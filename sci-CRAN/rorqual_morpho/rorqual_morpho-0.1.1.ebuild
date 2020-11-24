@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rorqual.morpho_0.1.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

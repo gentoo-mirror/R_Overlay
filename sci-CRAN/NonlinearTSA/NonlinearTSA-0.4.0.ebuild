@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/NonlinearTSA_0.4.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/tsDyn
-	sci-CRAN/minpack_lm
 	sci-CRAN/car
+	sci-CRAN/minpack_lm
+	sci-CRAN/tsDyn
 "
 RDEPEND="${DEPEND-}"

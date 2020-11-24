@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/dplyr
+DEPEND="sci-CRAN/Lahman
 	sci-CRAN/nasaweather
-	sci-CRAN/fueleconomy
-	sci-CRAN/gapminder
-	sci-CRAN/rlang
+	sci-CRAN/nycflights13
 	sci-CRAN/tidyr
-	sci-CRAN/yaml
+	sci-CRAN/tibble
 	>=dev-lang/R-3.5.0
 	sci-CRAN/forcats
+	sci-CRAN/yaml
+	sci-CRAN/fueleconomy
+	sci-CRAN/dplyr
 	sci-CRAN/babynames
+	sci-CRAN/gapminder
 	sci-CRAN/ggplot2
-	sci-CRAN/Lahman
-	sci-CRAN/nycflights13
-	sci-CRAN/tibble
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

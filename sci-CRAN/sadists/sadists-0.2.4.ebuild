@@ -24,7 +24,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.2
 	>=sci-CRAN/PDQutils-0.1.1
-	sci-CRAN/orthopolynom
 	sci-CRAN/hypergeo
+	sci-CRAN/orthopolynom
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

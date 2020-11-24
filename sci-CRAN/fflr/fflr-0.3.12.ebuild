@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_xml2? ( >=sci-CRAN/xml2-1.3.2 )
 "
 DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/httr-1.4.2
 	>=sci-CRAN/tibble-2.1.3
 	>=sci-CRAN/jsonlite-1.7.0
+	>=sci-CRAN/httr-1.4.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

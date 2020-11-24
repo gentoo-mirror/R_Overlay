@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/rrlda_1.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/pcaPP
-	sci-CRAN/mvoutlier
 	sci-CRAN/glasso
+	sci-CRAN/mvoutlier
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

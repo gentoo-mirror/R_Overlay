@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_bb? ( sci-CRAN/BB )
 	r_suggests_nleqslv? ( sci-CRAN/nleqslv )
 "
-DEPEND="sci-CRAN/pracma
+DEPEND=">=dev-lang/R-3.5.0
 	sci-BIOC/edgeR
+	sci-CRAN/pracma
 	virtual/mgcv
-	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

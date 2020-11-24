@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/limmaGUI_1.60.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/limma
+DEPEND="sci-CRAN/R2HTML
 	dev-lang/R[tk]
-	sci-CRAN/xtable
 	sci-CRAN/tkrplot
-	sci-CRAN/R2HTML
+	sci-BIOC/limma
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}"

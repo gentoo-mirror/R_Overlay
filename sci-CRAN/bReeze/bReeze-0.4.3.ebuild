@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rgooglemaps? ( sci-CRAN/RgoogleMaps )
 	r_suggests_xml? ( sci-CRAN/XML )
 "
-DEPEND=">=dev-lang/R-2.14.2
-	sci-CRAN/lubridate
+DEPEND="sci-CRAN/lubridate
+	>=dev-lang/R-2.14.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

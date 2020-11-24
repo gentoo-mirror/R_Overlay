@@ -18,7 +18,7 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
 	sci-CRAN/reshape2
-	sci-CRAN/XML
 	sci-CRAN/scales
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

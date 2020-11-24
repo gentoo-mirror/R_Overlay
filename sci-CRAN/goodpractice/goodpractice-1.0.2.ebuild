@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/clisymbols
-	>=sci-CRAN/xmlparsedata-1.0.1
-	sci-CRAN/praise
-	sci-CRAN/rcmdcheck
-	sci-CRAN/xml2
+DEPEND=">=sci-CRAN/cyclocomp-1.1.0
+	sci-CRAN/lintr
+	sci-CRAN/jsonlite
 	sci-CRAN/covr
 	sci-CRAN/crayon
-	sci-CRAN/desc
-	>=sci-CRAN/cyclocomp-1.1.0
-	sci-CRAN/jsonlite
-	sci-CRAN/lintr
+	sci-CRAN/praise
+	sci-CRAN/rcmdcheck
 	sci-CRAN/rstudioapi
+	sci-CRAN/clisymbols
+	sci-CRAN/desc
 	sci-CRAN/whoami
 	sci-CRAN/withr
+	sci-CRAN/xml2
+	>=sci-CRAN/xmlparsedata-1.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

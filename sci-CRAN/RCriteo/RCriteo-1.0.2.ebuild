@@ -9,10 +9,10 @@ DESCRIPTION='Loading Criteo Data into R'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RCriteo_1.0.2.tar.gz"
 
-DEPEND="sci-CRAN/httr
-	>=dev-lang/R-3.1.1
+DEPEND="sci-CRAN/plyr
+	sci-CRAN/httr
 	sci-CRAN/XML
-	sci-CRAN/plyr
+	>=dev-lang/R-3.1.1
 	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

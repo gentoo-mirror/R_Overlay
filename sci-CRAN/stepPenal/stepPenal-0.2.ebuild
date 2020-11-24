@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/stepPenal_0.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/pROC
-	sci-CRAN/mvtnorm
 	sci-CRAN/glmnet
-	sci-CRAN/dfoptim
+	sci-CRAN/pROC
 	sci-CRAN/caret
+	sci-CRAN/dfoptim
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

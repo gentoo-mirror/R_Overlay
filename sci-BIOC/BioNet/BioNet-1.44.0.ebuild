@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_xml? ( sci-CRAN/XML )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-BIOC/RBGL
+DEPEND=">=sci-CRAN/igraph-1.0.1
 	sci-BIOC/Biobase
-	sci-BIOC/graph
+	sci-BIOC/RBGL
 	sci-BIOC/AnnotationDbi
-	>=sci-CRAN/igraph-1.0.1
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

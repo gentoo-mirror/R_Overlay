@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dineq_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/Hmisc-4.0.3
-	virtual/boot
+DEPEND="virtual/boot
+	>=sci-CRAN/Hmisc-4.0.3
 "
 RDEPEND="${DEPEND-}"

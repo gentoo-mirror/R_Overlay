@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.2.1
+DEPEND="sci-CRAN/sp
+	sci-CRAN/ggrepel
 	sci-CRAN/gridExtra
 	sci-CRAN/imguR
-	sci-CRAN/gtable
 	>=dev-lang/R-3.2
 	sci-CRAN/rnaturalearth
-	sci-CRAN/sp
+	sci-CRAN/gtable
+	>=sci-CRAN/ggplot2-3.2.1
 	sci-CRAN/sf
-	sci-CRAN/ggrepel
 	sci-CRAN/geogrid
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

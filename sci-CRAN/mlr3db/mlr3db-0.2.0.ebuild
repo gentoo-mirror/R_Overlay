@@ -24,14 +24,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/backports
-	sci-CRAN/data_table
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/checkmate
-	>=dev-lang/R-3.1.0
+	sci-CRAN/data_table
+	sci-CRAN/R6
 	sci-CRAN/digest
+	sci-CRAN/backports
 	sci-CRAN/dplyr
 	>=sci-CRAN/mlr3-0.3.0
 	sci-CRAN/mlr3misc
-	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

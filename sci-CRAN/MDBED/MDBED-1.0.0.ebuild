@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rdpack
-	sci-CRAN/foreach
-	virtual/lattice
-	sci-CRAN/orthopolynom
-	sci-CRAN/doParallel
+DEPEND="virtual/lattice
 	sci-CRAN/ggplot2
 	sci-CRAN/psych
+	sci-CRAN/orthopolynom
+	sci-CRAN/Rdpack
+	sci-CRAN/foreach
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

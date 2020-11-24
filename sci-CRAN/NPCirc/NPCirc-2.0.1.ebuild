@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/NPCirc_2.0.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/movMF
+DEPEND="sci-CRAN/circular
 	sci-CRAN/misc3d
-	sci-CRAN/plotrix
-	sci-CRAN/circular
-	>=dev-lang/R-2.15.0
 	sci-CRAN/rgl
+	>=dev-lang/R-2.15.0
+	sci-CRAN/movMF
+	sci-CRAN/plotrix
 	sci-CRAN/shape
 "
 RDEPEND="${DEPEND-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DistatisR_1.0.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/car
-	>=sci-CRAN/prettyGraphs-2.0.0
+DEPEND=">=sci-CRAN/prettyGraphs-2.0.0
+	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}"

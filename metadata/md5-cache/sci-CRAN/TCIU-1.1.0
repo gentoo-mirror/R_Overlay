@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/tidyr sci-CRAN/doParallel sci-CRAN/fancycut sci-CRAN/cubature sci-CRAN/ggpubr sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/plotly sci-CRAN/fmri sci-CRAN/extraDistr sci-CRAN/reshape2 sci-CRAN/MultiwayRegression sci-CRAN/RColorBrewer sci-CRAN/ICSNP sci-CRAN/rrcov sci-CRAN/zoo sci-CRAN/spatstat sci-CRAN/geometry sci-CRAN/gridExtra sci-CRAN/pracma sci-CRAN/forecast sci-CRAN/foreach >=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/AnalyzeFMRI sci-CRAN/DT dev-lang/R
+DEPEND=sci-CRAN/ggpubr sci-CRAN/reshape2 sci-CRAN/AnalyzeFMRI sci-CRAN/plotly sci-CRAN/RColorBrewer sci-CRAN/fmri sci-CRAN/cubature sci-CRAN/tidyr sci-CRAN/ICSNP sci-CRAN/pracma sci-CRAN/foreach sci-CRAN/MultiwayRegression sci-CRAN/dplyr >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/fancycut sci-CRAN/geometry sci-CRAN/forecast sci-CRAN/rrcov sci-CRAN/DT sci-CRAN/zoo sci-CRAN/spatstat sci-CRAN/doParallel sci-CRAN/scales sci-CRAN/gridExtra sci-CRAN/extraDistr dev-lang/R
 DESCRIPTION=Spacekime Analytics, Time Comple... (see metadata)
 EAPI=7
 IUSE=r_suggests_knitr r_suggests_magrittr r_suggests_oro_nifti r_suggests_rmarkdown byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=sci-CRAN/tidyr sci-CRAN/doParallel sci-CRAN/fancycut sci-CRAN/cubature sci-CRAN/ggpubr sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/plotly sci-CRAN/fmri sci-CRAN/extraDistr sci-CRAN/reshape2 sci-CRAN/MultiwayRegression sci-CRAN/RColorBrewer sci-CRAN/ICSNP sci-CRAN/rrcov sci-CRAN/zoo sci-CRAN/spatstat sci-CRAN/geometry sci-CRAN/gridExtra sci-CRAN/pracma sci-CRAN/forecast sci-CRAN/foreach >=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/AnalyzeFMRI sci-CRAN/DT r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_oro_nifti? ( sci-CRAN/oro_nifti ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R
+RDEPEND=sci-CRAN/ggpubr sci-CRAN/reshape2 sci-CRAN/AnalyzeFMRI sci-CRAN/plotly sci-CRAN/RColorBrewer sci-CRAN/fmri sci-CRAN/cubature sci-CRAN/tidyr sci-CRAN/ICSNP sci-CRAN/pracma sci-CRAN/foreach sci-CRAN/MultiwayRegression sci-CRAN/dplyr >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/fancycut sci-CRAN/geometry sci-CRAN/forecast sci-CRAN/rrcov sci-CRAN/DT sci-CRAN/zoo sci-CRAN/spatstat sci-CRAN/doParallel sci-CRAN/scales sci-CRAN/gridExtra sci-CRAN/extraDistr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_oro_nifti? ( sci-CRAN/oro_nifti ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/TCIU_1.1.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=ab53a360850963c6939bbf53ed16a74e
+_md5_=a3d6b627b00f3d257d0e20e8b1cfa569

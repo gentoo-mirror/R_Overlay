@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/forecast-8.12
-	>=sci-CRAN/zoo-1.8.8
-	>=sci-CRAN/lubridate-1.7.8
+DEPEND=">=dev-lang/R-3.6.0
 	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/lubridate-1.7.8
 	sci-CRAN/httr
-	>=dev-lang/R-3.6.0
 	>=sci-CRAN/timetk-2.0
-	>=sci-CRAN/xts-0.12.0
 	>=sci-CRAN/tibble-3.0.1
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/zoo-1.8.8
 	sci-CRAN/curl
+	>=sci-CRAN/forecast-8.12
+	>=sci-CRAN/xts-0.12.0
 	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MatrixCorrelation_0.9.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/progress
-	sci-CRAN/RSpectra
-	sci-CRAN/pracma
-	>=dev-lang/R-3.0.1
-	sci-CRAN/plotrix
+DEPEND=">=dev-lang/R-3.0.1
 	sci-CRAN/Rcpp
+	sci-CRAN/progress
+	sci-CRAN/pracma
+	sci-CRAN/plotrix
+	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/progress
-	sci-CRAN/Rcpp
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/Rcpp
 "

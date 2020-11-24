@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_tam? ( sci-CRAN/TAM )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/miceadds
 	sci-CRAN/Rcpp
+	sci-CRAN/miceadds
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

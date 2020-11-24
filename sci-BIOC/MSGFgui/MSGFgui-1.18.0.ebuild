@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-BIOC/mzID-1.2
-	>=sci-CRAN/shinyFiles-0.4.0
-	sci-BIOC/mzR
-	sci-CRAN/shiny
-	sci-CRAN/xlsx
 	sci-BIOC/MSGFplus
+	sci-CRAN/shiny
+	sci-BIOC/mzR
+	sci-CRAN/xlsx
+	>=sci-CRAN/shinyFiles-0.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

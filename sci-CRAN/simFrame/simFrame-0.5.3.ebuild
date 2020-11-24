@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_robcompositions? ( sci-CRAN/robCompositions )
 	r_suggests_sampling? ( sci-CRAN/sampling )
 "
-DEPEND="virtual/lattice
+DEPEND=">=dev-lang/R-2.14.0
 	>=sci-CRAN/Rcpp-0.8.6
-	>=dev-lang/R-2.14.0
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

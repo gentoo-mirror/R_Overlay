@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_magrittr? ( sci-CRAN/magrittr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.12
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/hypergeo
-	sci-CRAN/ggplot2
+	>=sci-CRAN/Rcpp-0.12.12
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

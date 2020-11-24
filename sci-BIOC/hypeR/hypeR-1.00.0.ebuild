@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/DT
-	sci-CRAN/magrittr
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/plotly
+	sci-CRAN/dplyr
+	sci-CRAN/DT
+	>=dev-lang/R-3.6.0
 	sci-CRAN/openxlsx
 	sci-CRAN/msigdbr
 "

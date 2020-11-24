@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/rpinterest_0.3.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/httr
-	sci-CRAN/rjson
 	sci-CRAN/magrittr
+	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-}"

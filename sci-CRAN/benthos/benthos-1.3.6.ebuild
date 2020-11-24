@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.0 )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/lazyeval
+DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/dplyr-0.7.0
-	>=dev-lang/R-3.2.0
 	sci-CRAN/readr
+	sci-CRAN/lazyeval
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

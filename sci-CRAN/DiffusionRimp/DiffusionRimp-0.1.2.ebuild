@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/rgl
 	sci-CRAN/RcppArmadillo
 	sci-CRAN/Rcpp
 	sci-CRAN/colorspace
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

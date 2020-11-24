@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/Frames2_0.2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/sampling
-	virtual/nnet
 	virtual/MASS
+	virtual/nnet
 "
 RDEPEND="${DEPEND-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ropensecretsapi_1.0.1.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.0.3
-	sci-CRAN/RCurl
 	sci-CRAN/RJSONIO
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

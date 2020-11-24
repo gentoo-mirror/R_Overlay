@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND="sci-CRAN/abind
-	virtual/lattice
-	sci-CRAN/animation
-	sci-CRAN/lars
-	sci-BIOC/limma
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/survival
+	sci-CRAN/lars
+	sci-CRAN/animation
+	virtual/cluster
 	sci-CRAN/tnet
 	sci-CRAN/VGAM
-	>=dev-lang/R-3.5.0
-	virtual/cluster
+	sci-CRAN/abind
 	sci-CRAN/igraph
+	virtual/lattice
+	sci-BIOC/limma
 	sci-CRAN/magic
 	sci-CRAN/nnls
 "

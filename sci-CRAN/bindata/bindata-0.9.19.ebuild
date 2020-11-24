@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bindata_0.9-19.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-CRAN/mvtnorm-0.7.0
-	sci-CRAN/e1071
+DEPEND="sci-CRAN/e1071
+	>=sci-CRAN/mvtnorm-0.7.0
 "
 RDEPEND="${DEPEND-}"

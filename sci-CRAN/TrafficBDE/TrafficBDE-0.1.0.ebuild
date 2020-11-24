@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/caret
-	sci-CRAN/neuralnet
-	sci-CRAN/zoo
 	sci-CRAN/dplyr
 	sci-CRAN/lubridate
 	sci-CRAN/data_table
+	sci-CRAN/neuralnet
 	sci-CRAN/RCurl
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

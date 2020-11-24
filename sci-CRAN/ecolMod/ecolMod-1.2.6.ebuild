@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d )
 	r_suggests_seacarb? ( sci-CRAN/seacarb )
 "
-DEPEND="sci-CRAN/diagram
-	sci-CRAN/shape
-	sci-CRAN/deSolve
+DEPEND="sci-CRAN/shape
+	sci-CRAN/diagram
 	sci-CRAN/rootSolve
+	sci-CRAN/deSolve
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

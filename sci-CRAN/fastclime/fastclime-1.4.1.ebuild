@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/fastclime_1.4.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.15.0
-	virtual/MASS
-	sci-CRAN/igraph
 	virtual/lattice
+	sci-CRAN/igraph
+	virtual/MASS
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

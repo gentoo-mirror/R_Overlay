@@ -12,13 +12,13 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND="sci-CRAN/lpSolve
+DEPEND="virtual/boot
 	sci-CRAN/Hmisc
 	virtual/MASS
-	sci-CRAN/spdep
 	sci-CRAN/Benchmarking
 	sci-CRAN/psych
-	virtual/boot
+	sci-CRAN/spdep
+	sci-CRAN/lpSolve
 	sci-CRAN/GPArotation
 	sci-CRAN/nonparaeff
 	sci-CRAN/smaa

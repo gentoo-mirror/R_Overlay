@@ -31,27 +31,27 @@ R_SUGGESTS="
 	r_suggests_sigclust? ( sci-CRAN/sigclust )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/magrittr
-	sci-CRAN/assertthat
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/clValid
-	sci-CRAN/abind
-	sci-CRAN/mclust
-	sci-CRAN/infotheo
-	sci-CRAN/stringr
-	sci-CRAN/NMF
-	sci-CRAN/clue
-	sci-CRAN/ggplot2
-	>=sci-CRAN/purrr-0.2.3
 	sci-CRAN/RankAggreg
-	sci-CRAN/tibble
-	sci-CRAN/tidyr
-	>=sci-CRAN/dplyr-0.7.5
-	sci-CRAN/yardstick
-	virtual/cluster
+	sci-CRAN/magrittr
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.5
 	virtual/class
-	sci-CRAN/klaR
 	sci-CRAN/Rcpp
+	sci-CRAN/yardstick
+	>=sci-CRAN/dplyr-0.7.5
+	sci-CRAN/NMF
+	sci-CRAN/stringr
+	sci-CRAN/tidyr
+	sci-CRAN/infotheo
+	sci-CRAN/klaR
+	sci-CRAN/mclust
+	sci-CRAN/assertthat
+	virtual/cluster
+	>=sci-CRAN/purrr-0.2.3
+	sci-CRAN/clue
+	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

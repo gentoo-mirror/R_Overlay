@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/tidyr
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/ggplot2
+	>=dev-lang/R-3.2
 	sci-CRAN/magrittr
+	sci-CRAN/dplyr
+	sci-CRAN/tidyr
 	sci-CRAN/gridExtra
 	>=sci-CRAN/Rcpp-0.11.5
 "

@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/fftw
-	sci-CRAN/R6
 	>=sci-CRAN/Rcpp-0.12.7
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

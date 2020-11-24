@@ -11,17 +11,17 @@ SRC_URI="http://cran.r-project.org/src/contrib/CSUV_0.1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/doParallel
-	sci-CRAN/HDCI
-	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
-	sci-CRAN/glmnet
-	sci-CRAN/futile_logger
-	sci-CRAN/relaxo
-	sci-CRAN/caret
-	sci-CRAN/ncvreg
-	sci-CRAN/shiny
 	sci-CRAN/shinyjs
-	sci-CRAN/DT
+	sci-CRAN/futile_logger
 	virtual/MASS
+	sci-CRAN/shiny
+	sci-CRAN/HDCI
+	sci-CRAN/caret
+	sci-CRAN/glmnet
+	sci-CRAN/relaxo
+	sci-CRAN/ncvreg
+	sci-CRAN/DT
+	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

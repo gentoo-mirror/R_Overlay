@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/openNLP_0.2-7.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/NLP-0.1.6.3
-	>=sci-CRAN/rJava-0.6.3
 	>=sci-CRAN/openNLPdata-1.5.3.1
+	>=sci-CRAN/rJava-0.6.3
 "
 RDEPEND="${DEPEND-} virtual/jdk"
 

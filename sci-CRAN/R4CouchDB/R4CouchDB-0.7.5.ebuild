@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-4.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 )
 "
-DEPEND="sci-CRAN/bitops
+DEPEND=">=sci-CRAN/RJSONIO-1.3
+	sci-CRAN/bitops
 	>=sci-CRAN/RCurl-1.95
-	>=sci-CRAN/RJSONIO-1.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

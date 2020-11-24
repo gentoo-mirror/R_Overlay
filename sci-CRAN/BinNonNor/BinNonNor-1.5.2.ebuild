@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/BinNonNor_1.5.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/BB
+	virtual/Matrix
 	sci-CRAN/corpcor
 	sci-CRAN/mvtnorm
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

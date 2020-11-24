@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/fclust_2.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/Rcpp-0.12.5
+DEPEND=">=dev-lang/R-3.3
+	>=sci-CRAN/Rcpp-0.12.5
 	virtual/MASS
-	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

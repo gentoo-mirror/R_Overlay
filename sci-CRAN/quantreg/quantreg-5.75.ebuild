@@ -25,9 +25,9 @@ R_SUGGESTS="
 	r_suggests_tripack? ( sci-CRAN/tripack )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="sci-CRAN/SparseM
+DEPEND="virtual/Matrix
+	virtual/Matrix
 	sci-CRAN/conquer
-	virtual/Matrix
-	virtual/Matrix
+	sci-CRAN/SparseM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/flowFit_1.22.0.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND="sci-BIOC/flowCore
-	sci-CRAN/gplots
-	sci-CRAN/minpack_lm
+DEPEND="sci-CRAN/minpack_lm
+	sci-CRAN/kza
+	sci-BIOC/flowCore
 	sci-BIOC/flowViz
 	>=dev-lang/R-2.12.2
-	sci-CRAN/kza
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-}"
 

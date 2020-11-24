@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_nlme? ( virtual/nlme )
 	r_suggests_rmeta? ( sci-CRAN/rmeta )
 "
-DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/mixmeta
+DEPEND="sci-CRAN/mixmeta
+	>=dev-lang/R-2.13.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

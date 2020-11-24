@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/FactoMineR
-	sci-CRAN/e1071
-	sci-CRAN/kernlab
 	sci-CRAN/solitude
 	sci-CRAN/caret
 	sci-CRAN/C50
+	sci-CRAN/kernlab
+	sci-CRAN/e1071
+	sci-CRAN/FactoMineR
 	sci-CRAN/dplyr
 	sci-CRAN/factoextra
 	sci-CRAN/ggplot2

@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/data_table
-	sci-CRAN/magrittr
 	sci-CRAN/glue
+	sci-CRAN/magrittr
 	sci-CRAN/hutils
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

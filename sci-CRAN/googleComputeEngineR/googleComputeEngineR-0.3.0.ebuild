@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/assertthat
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/httr-1.3.1
-	>=sci-CRAN/future-1.2.0
-	>=dev-lang/R-3.3.0
 	>=sci-CRAN/googleAuthR-0.7.0
+	sci-CRAN/assertthat
+	>=sci-CRAN/future-1.2.0
 	>=sci-CRAN/jsonlite-1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CommEcol_1.7.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/betapart
-	sci-CRAN/gmp
-	sci-CRAN/picante
+DEPEND="sci-CRAN/vegan
 	sci-CRAN/ape
+	sci-CRAN/picante
+	sci-CRAN/betapart
 	virtual/spatial
-	sci-CRAN/vegan
+	sci-CRAN/gmp
 "
 RDEPEND="${DEPEND-}"

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/wavScalogram_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/abind
-	sci-CRAN/fields
-	virtual/Matrix
 	sci-CRAN/colorRamps
 	sci-CRAN/zoo
+	sci-CRAN/fields
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

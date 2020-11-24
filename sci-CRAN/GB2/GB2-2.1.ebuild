@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_simframe"
 R_SUGGESTS="r_suggests_simframe? ( sci-CRAN/simFrame )"
-DEPEND="sci-CRAN/laeken
-	sci-CRAN/survey
-	sci-CRAN/cubature
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/hypergeo
-	>=dev-lang/R-3.1.0
 	sci-CRAN/numDeriv
+	sci-CRAN/survey
+	sci-CRAN/laeken
+	sci-CRAN/cubature
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

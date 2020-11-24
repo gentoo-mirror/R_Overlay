@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
-	virtual/Matrix
+DEPEND=">=dev-lang/R-3.5.0
 	sci-BIOC/Biobase
-	>=dev-lang/R-3.5.0
+	virtual/MASS
+	virtual/Matrix
 	sci-BIOC/graph
 	>=sci-BIOC/BiocGenerics-0.29.2
 	sci-CRAN/rrcov
 	sci-CRAN/corpcor
-	virtual/MASS
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_rivr? ( sci-CRAN/rivr )
 "
 DEPEND=">=dev-lang/R-3.1.3
-	>=sci-CRAN/foreach-1.4.2
 	>=sci-CRAN/doParallel-1.0.8
+	>=sci-CRAN/foreach-1.4.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MOTE_1.0.2.tar.gz"
 LICENSE='LGPL-3'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/reshape
-	sci-CRAN/MBESS
+DEPEND="sci-CRAN/reshape
+	>=dev-lang/R-3.1.0
 	sci-CRAN/ez
+	sci-CRAN/MBESS
 "
 RDEPEND="${DEPEND-}"

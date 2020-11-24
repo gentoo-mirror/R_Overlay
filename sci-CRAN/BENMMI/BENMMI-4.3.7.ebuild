@@ -12,14 +12,14 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_deoptim"
 R_SUGGESTS="r_suggests_deoptim? ( sci-CRAN/DEoptim )"
-DEPEND="sci-CRAN/readr
-	>=sci-CRAN/ggplot2-2.0.0
-	sci-CRAN/markdown
-	sci-CRAN/jsonlite
+DEPEND=">=sci-CRAN/ggplot2-2.0.0
+	sci-CRAN/readr
+	sci-CRAN/purrr
 	>=sci-CRAN/benthos-1.3.5
 	>=dev-lang/R-3.2.0
-	sci-CRAN/purrr
 	sci-CRAN/knitr
+	sci-CRAN/markdown
+	sci-CRAN/jsonlite
 	sci-CRAN/xtable
 	>=sci-CRAN/dplyr-0.7.0
 	sci-CRAN/tidyr

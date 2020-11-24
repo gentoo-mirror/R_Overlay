@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_rglwidget? ( sci-CRAN/rglwidget )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/rgl
-	sci-CRAN/Rvcg
+DEPEND="sci-CRAN/Rvcg
 	sci-CRAN/alphahull
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

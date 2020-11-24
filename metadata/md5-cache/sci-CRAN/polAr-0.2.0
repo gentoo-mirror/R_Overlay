@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-CRAN/curl-4.2 sci-CRAN/cowplot sci-CRAN/ggthemes sci-CRAN/scales sci-CRAN/formattable sci-CRAN/magrittr sci-CRAN/tibble sci-CRAN/DT sci-CRAN/gt >=sci-CRAN/tidyr-1.1.0 sci-CRAN/forcats sci-CRAN/ggparliament sci-CRAN/glue sci-CRAN/attempt sci-CRAN/purrr sci-CRAN/lubridate >=sci-CRAN/geofacet-0.2.0 sci-CRAN/readr sci-CRAN/rvest sci-CRAN/jsonlite sci-CRAN/assertthat sci-CRAN/ggplot2 sci-CRAN/wordcloud2 sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/xml2 >=sci-CRAN/rlang-0.4.3 sci-CRAN/RColorBrewer sci-CRAN/sf sci-CRAN/ggtext dev-lang/R
+DEPEND=sci-CRAN/cowplot sci-CRAN/wordcloud2 sci-CRAN/ggparliament sci-CRAN/ggtext sci-CRAN/gt sci-CRAN/ggthemes sci-CRAN/assertthat sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/RColorBrewer >=sci-CRAN/tidyr-1.1.0 sci-CRAN/readr sci-CRAN/xml2 sci-CRAN/DT sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/sf sci-CRAN/dplyr sci-CRAN/formattable sci-CRAN/rvest sci-CRAN/tibble sci-CRAN/forcats >=sci-CRAN/geofacet-0.2.0 sci-CRAN/magrittr sci-CRAN/stringr sci-CRAN/glue sci-CRAN/attempt >=sci-CRAN/curl-4.2 sci-CRAN/purrr >=sci-CRAN/rlang-0.4.3 dev-lang/R
 DESCRIPTION=Argentina Political Analysis
 EAPI=7
 IUSE=r_suggests_knitr r_suggests_pkgcond r_suggests_qpdf r_suggests_rmarkdown r_suggests_utf8 byte-compile
 KEYWORDS=~amd64
 LICENSE=MIT
-RDEPEND=>=sci-CRAN/curl-4.2 sci-CRAN/cowplot sci-CRAN/ggthemes sci-CRAN/scales sci-CRAN/formattable sci-CRAN/magrittr sci-CRAN/tibble sci-CRAN/DT sci-CRAN/gt >=sci-CRAN/tidyr-1.1.0 sci-CRAN/forcats sci-CRAN/ggparliament sci-CRAN/glue sci-CRAN/attempt sci-CRAN/purrr sci-CRAN/lubridate >=sci-CRAN/geofacet-0.2.0 sci-CRAN/readr sci-CRAN/rvest sci-CRAN/jsonlite sci-CRAN/assertthat sci-CRAN/ggplot2 sci-CRAN/wordcloud2 sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/xml2 >=sci-CRAN/rlang-0.4.3 sci-CRAN/RColorBrewer sci-CRAN/sf sci-CRAN/ggtext r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pkgcond? ( sci-CRAN/pkgcond ) r_suggests_qpdf? ( sci-CRAN/qpdf ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_utf8? ( sci-CRAN/utf8 ) dev-lang/R
+RDEPEND=sci-CRAN/cowplot sci-CRAN/wordcloud2 sci-CRAN/ggparliament sci-CRAN/ggtext sci-CRAN/gt sci-CRAN/ggthemes sci-CRAN/assertthat sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/RColorBrewer >=sci-CRAN/tidyr-1.1.0 sci-CRAN/readr sci-CRAN/xml2 sci-CRAN/DT sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/sf sci-CRAN/dplyr sci-CRAN/formattable sci-CRAN/rvest sci-CRAN/tibble sci-CRAN/forcats >=sci-CRAN/geofacet-0.2.0 sci-CRAN/magrittr sci-CRAN/stringr sci-CRAN/glue sci-CRAN/attempt >=sci-CRAN/curl-4.2 sci-CRAN/purrr >=sci-CRAN/rlang-0.4.3 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pkgcond? ( sci-CRAN/pkgcond ) r_suggests_qpdf? ( sci-CRAN/qpdf ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_utf8? ( sci-CRAN/utf8 ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/polAr_0.2.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=738021d8c7721e70b249c949bf1c2559
+_md5_=801f5c5e9eb25af20ac413df6c4e35c1

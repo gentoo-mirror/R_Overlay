@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/TInPosition_0.13.6.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/prettyGraphs-2.1.4
+	>=sci-CRAN/TExPosition-2.6.10
 	>=sci-CRAN/InPosition-0.12.7
 	>=sci-CRAN/ExPosition-2.8.19
-	>=sci-CRAN/TExPosition-2.6.10
 "
 RDEPEND="${DEPEND-}"

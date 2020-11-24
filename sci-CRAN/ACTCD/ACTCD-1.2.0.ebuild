@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ACTCD_1.2-0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/R_methodsS3
+DEPEND="sci-CRAN/R_methodsS3
+	>=dev-lang/R-3.1.0
 	sci-CRAN/GDINA
 "
 RDEPEND="${DEPEND-}"

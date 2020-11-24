@@ -25,12 +25,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_uuid? ( sci-CRAN/uuid )
 "
-DEPEND="sci-CRAN/DatabaseConnectorJars
-	sci-CRAN/stringr
-	>=sci-CRAN/SqlRender-1.6.3
-	>=sci-CRAN/DBI-1.0.0
-	sci-CRAN/rJava
+DEPEND=">=sci-CRAN/SqlRender-1.6.3
 	sci-CRAN/urltools
+	>=sci-CRAN/DBI-1.0.0
+	sci-CRAN/stringr
+	sci-CRAN/rJava
+	sci-CRAN/DatabaseConnectorJars
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

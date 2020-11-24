@@ -29,9 +29,9 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/data_table
+DEPEND=">=sci-CRAN/Rcpp-0.12.6
+	sci-CRAN/data_table
 	sci-CRAN/cli
-	>=sci-CRAN/Rcpp-0.12.6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_sfsmisc? ( sci-CRAN/sfsmisc )
 	r_suggests_sn? ( sci-CRAN/sn )
 "
-DEPEND="sci-CRAN/Quandl
-	virtual/lattice
-	sci-CRAN/quantmod
+DEPEND="sci-CRAN/quantmod
+	sci-CRAN/Quandl
+	sci-CRAN/zoo
 	sci-CRAN/xts
 	>=dev-lang/R-3.2.0
-	sci-CRAN/zoo
+	virtual/lattice
 	sci-CRAN/rugarch
 	sci-CRAN/ADGofTest
 "

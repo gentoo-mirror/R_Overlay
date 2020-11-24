@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/xml2-1.0.1
-	sci-CRAN/base64enc
 	sci-CRAN/aws_s3
 	sci-CRAN/httr
+	sci-CRAN/base64enc
 	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

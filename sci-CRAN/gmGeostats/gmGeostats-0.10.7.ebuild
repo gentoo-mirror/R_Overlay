@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_readxl? ( sci-CRAN/readxl )
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.3 )
 "
-DEPEND="sci-CRAN/gstat
-	>=sci-CRAN/compositions-2.0
-	sci-CRAN/sp
-	virtual/boot
-	sci-CRAN/foreach
+DEPEND=">=sci-CRAN/compositions-2.0
 	sci-CRAN/RColorBrewer
+	sci-CRAN/sp
+	sci-CRAN/foreach
+	virtual/boot
+	sci-CRAN/gstat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

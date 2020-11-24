@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_biobase? ( sci-BIOC/Biobase )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="virtual/class
-	>=dev-lang/R-3.0
-	>=sci-CRAN/oompaBase-3.0.1
+DEPEND=">=sci-CRAN/oompaBase-3.0.1
 	virtual/MASS
+	>=dev-lang/R-3.0
+	virtual/class
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

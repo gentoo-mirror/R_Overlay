@@ -124,16 +124,16 @@ R_SUGGESTS="
 	r_suggests_tseries? ( sci-CRAN/tseries )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND=">=dev-lang/R-3.1
-	>=sci-CRAN/generics-0.0.2
-	sci-CRAN/stringr
-	>=sci-CRAN/tibble-3.0.0
-	sci-CRAN/purrr
-	sci-CRAN/backports
-	>=sci-CRAN/dplyr-1.0.0
+DEPEND=">=sci-CRAN/tibble-3.0.0
+	>=dev-lang/R-3.1
 	sci-CRAN/ellipsis
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/generics-0.0.2
+	sci-CRAN/backports
 	sci-CRAN/glue
+	sci-CRAN/purrr
 	sci-CRAN/rlang
+	sci-CRAN/stringr
 	>=sci-CRAN/tidyr-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

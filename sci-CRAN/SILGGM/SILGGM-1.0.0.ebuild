@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/SILGGM_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/glasso
-	virtual/MASS
 	sci-CRAN/Rcpp
 	sci-CRAN/reshape
+	virtual/MASS
+	sci-CRAN/glasso
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

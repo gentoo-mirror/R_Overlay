@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pamr_1.56.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/survival
-	virtual/cluster
+DEPEND="virtual/cluster
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

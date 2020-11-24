@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/POINT_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/rARPACK
+DEPEND="sci-CRAN/rARPACK
 	sci-CRAN/CompQuadForm
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

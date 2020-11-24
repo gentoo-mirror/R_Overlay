@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/plink_1.5-1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.3
-	sci-CRAN/statmod
 	virtual/MASS
 	virtual/lattice
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/beyondWhittle_1.1.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/forecast
-	virtual/MASS
+DEPEND="sci-CRAN/MTS
+	sci-CRAN/forecast
 	>=sci-CRAN/Rcpp-0.12.5
-	sci-CRAN/MTS
 	>=sci-CRAN/ltsa-1.4.6
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

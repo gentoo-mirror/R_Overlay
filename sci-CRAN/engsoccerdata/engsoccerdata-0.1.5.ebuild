@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/engsoccerdata_0.1.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/tidyr
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/tidyr
 	sci-CRAN/magrittr
-	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nlnet_1.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ROCR
+DEPEND="sci-CRAN/TSP
 	sci-CRAN/randomForest
 	sci-CRAN/igraph
-	sci-CRAN/fdrtool
 	sci-CRAN/coin
-	sci-CRAN/TSP
 	sci-CRAN/earth
+	sci-CRAN/ROCR
+	sci-CRAN/fdrtool
 	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-}"

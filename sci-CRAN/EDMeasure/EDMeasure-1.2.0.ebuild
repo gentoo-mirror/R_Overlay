@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )"
 DEPEND=">=dev-lang/R-3.4.0
+	>=sci-CRAN/rBayesianOptimization-1.1.0
 	>=sci-CRAN/dHSIC-2.0
 	>=sci-CRAN/energy-1.7.0
-	>=sci-CRAN/rBayesianOptimization-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

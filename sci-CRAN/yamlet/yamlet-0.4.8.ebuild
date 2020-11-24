@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_table1? ( sci-CRAN/table1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/yaml
-	sci-CRAN/units
-	sci-CRAN/spork
-	sci-CRAN/encode
-	sci-CRAN/ggplot2
-	>=sci-CRAN/dplyr-0.8.1
-	sci-CRAN/xtable
-	>=sci-CRAN/csv-0.5.4
+DEPEND="sci-CRAN/units
 	sci-CRAN/rlang
+	>=sci-CRAN/dplyr-0.8.1
+	sci-CRAN/encode
+	sci-CRAN/yaml
+	sci-CRAN/spork
+	>=sci-CRAN/csv-0.5.4
+	sci-CRAN/ggplot2
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

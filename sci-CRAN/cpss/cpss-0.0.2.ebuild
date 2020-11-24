@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 "
 DEPEND="sci-CRAN/magrittr
-	sci-CRAN/Rfast
-	sci-CRAN/tibble
-	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
-	sci-CRAN/gridExtra
-	sci-CRAN/Rcpp
-	sci-CRAN/mvtnorm
 	sci-CRAN/dplyr
 	sci-CRAN/rlang
+	sci-CRAN/ggplot2
+	sci-CRAN/Rcpp
+	sci-CRAN/mvtnorm
+	sci-CRAN/Rfast
+	sci-CRAN/tibble
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

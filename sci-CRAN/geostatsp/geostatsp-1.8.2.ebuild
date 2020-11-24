@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_pracma? ( sci-CRAN/pracma )
 	r_suggests_randomfields? ( >=sci-CRAN/RandomFields-3.3.4 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/raster
-	sci-CRAN/sp
-	virtual/Matrix
-	sci-CRAN/abind
+DEPEND="sci-CRAN/raster
 	sci-CRAN/numDeriv
+	sci-CRAN/abind
+	virtual/Matrix
+	>=dev-lang/R-3.5.0
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}
 	virtual/Matrix

@@ -12,20 +12,20 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_rastervis"
 R_SUGGESTS="r_suggests_rastervis? ( sci-CRAN/rasterVis )"
-DEPEND="sci-CRAN/rgeos
-	sci-CRAN/spatstat
-	sci-CRAN/e1071
-	sci-CRAN/googleVis
-	dev-lang/R[tk]
-	sci-CRAN/fgui
-	sci-CRAN/zipfR
-	sci-CRAN/coda
-	sci-CRAN/sp
-	sci-CRAN/maptools
-	sci-CRAN/igraph
-	sci-CRAN/rgrass7
-	sci-CRAN/raster
+DEPEND="sci-CRAN/fgui
 	sci-CRAN/minpack_lm
+	sci-CRAN/rgrass7
+	dev-lang/R[tk]
+	sci-CRAN/igraph
+	sci-CRAN/coda
 	sci-CRAN/knitr
+	sci-CRAN/e1071
+	sci-CRAN/raster
+	sci-CRAN/sp
+	sci-CRAN/googleVis
+	sci-CRAN/spatstat
+	sci-CRAN/maptools
+	sci-CRAN/rgeos
+	sci-CRAN/zipfR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

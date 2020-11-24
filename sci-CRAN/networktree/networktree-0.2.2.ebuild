@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="sci-CRAN/qgraph
-	virtual/Matrix
-	>=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/partykit
 	sci-CRAN/mvtnorm
-	sci-CRAN/partykit
-	sci-CRAN/Formula
-	sci-CRAN/gridBase
 	sci-CRAN/reshape2
+	sci-CRAN/Formula
+	>=dev-lang/R-3.5.0
+	sci-CRAN/qgraph
+	virtual/Matrix
+	sci-CRAN/gridBase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

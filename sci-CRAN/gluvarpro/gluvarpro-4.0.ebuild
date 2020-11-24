@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/gluvarpro_4.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/tidyr
 	sci-CRAN/scales
-	sci-CRAN/pracma
+	sci-CRAN/tidyr
 	sci-CRAN/gridExtra
+	sci-CRAN/pracma
 	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}"

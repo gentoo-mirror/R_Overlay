@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_spatial? ( virtual/spatial )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/randtoolbox
+DEPEND="sci-CRAN/randtoolbox
 	sci-CRAN/pbapply
-	sci-CRAN/Rcpp
+	>=dev-lang/R-3.6
 	sci-CRAN/sp
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

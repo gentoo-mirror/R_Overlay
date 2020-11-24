@@ -18,37 +18,37 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-3.0.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/readr-1.3.1
-	>=sci-CRAN/shiny-1.4.0
-	>=sci-CRAN/Rcpp-1.0
-	sci-CRAN/airr
-	>=sci-CRAN/stringr-1.4.0
-	sci-CRAN/circlize
-	>=sci-CRAN/dtplyr-1.0.0
-	>=sci-CRAN/ggplot2-3.1.0
-	>=sci-CRAN/factoextra-1.0.4
-	>=sci-CRAN/UpSetR-1.4.0
-	>=sci-CRAN/ggrepel-0.8.0
-	>=sci-CRAN/ggpubr-0.2
+DEPEND="sci-CRAN/fpc
 	virtual/MASS
+	>=sci-CRAN/ggalluvial-0.10.0
 	>=sci-CRAN/Rtsne-0.15
 	>=sci-CRAN/readxl-1.3.1
 	sci-CRAN/shinythemes
-	sci-CRAN/ggseqlogo
-	>=sci-CRAN/ggalluvial-0.10.0
-	sci-CRAN/magrittr
-	>=sci-CRAN/tibble-2.0
-	sci-CRAN/scales
+	>=sci-CRAN/ggpubr-0.2
 	>=sci-CRAN/rlang-0.4
-	sci-CRAN/plyr
 	>=dev-lang/R-3.5.0
-	>=sci-CRAN/dplyr-0.8.0
 	>=sci-CRAN/data_table-1.12.6
-	sci-CRAN/patchwork
-	sci-CRAN/fpc
+	>=sci-CRAN/dtplyr-1.0.0
 	>=sci-CRAN/pheatmap-1.0.12
 	>=sci-CRAN/reshape2-1.4.2
+	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/UpSetR-1.4.0
+	sci-CRAN/plyr
+	>=sci-CRAN/ggplot2-3.1.0
+	sci-CRAN/patchwork
+	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/dbplyr-1.4.0
+	>=sci-CRAN/readr-1.3.1
+	>=sci-CRAN/shiny-1.4.0
+	sci-CRAN/airr
+	sci-CRAN/ggseqlogo
+	>=sci-CRAN/tibble-2.0
+	>=sci-CRAN/ggrepel-0.8.0
+	sci-CRAN/circlize
+	sci-CRAN/magrittr
+	>=sci-CRAN/factoextra-1.0.4
+	>=sci-CRAN/Rcpp-1.0
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

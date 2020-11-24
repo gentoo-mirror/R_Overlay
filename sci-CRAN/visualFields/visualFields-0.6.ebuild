@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/visualFields_0.6.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/Matrix
-	>=dev-lang/R-2.14.0
-	sci-CRAN/Hmisc
-	>=sci-CRAN/flip-2.1
+DEPEND=">=dev-lang/R-2.14.0
 	sci-CRAN/gtools
 	sci-CRAN/deldir
 	sci-CRAN/spatstat
+	sci-CRAN/Hmisc
+	>=sci-CRAN/flip-2.1
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

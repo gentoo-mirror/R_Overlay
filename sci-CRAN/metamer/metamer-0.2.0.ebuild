@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/FNN
-	>=sci-CRAN/progress-1.2.0
+DEPEND=">=sci-CRAN/progress-1.2.0
+	sci-CRAN/FNN
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

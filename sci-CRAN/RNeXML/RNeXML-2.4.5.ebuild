@@ -27,19 +27,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.10.0 )
 	r_suggests_xslt? ( sci-CRAN/xslt )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/plyr-1.8
-	>=sci-CRAN/XML-3.95
+DEPEND=">=sci-CRAN/ape-3.1
 	>=sci-CRAN/reshape2-1.2.2
-	>=sci-CRAN/ape-3.1
-	>=sci-CRAN/httr-0.3
 	>=sci-CRAN/uuid-0.1.1
+	>=sci-CRAN/plyr-1.8
 	>=sci-CRAN/dplyr-0.5.0
 	>=sci-CRAN/lazyeval-0.1.0
 	>=sci-CRAN/stringr-1.0
 	sci-CRAN/stringi
-	sci-CRAN/xml2
+	>=dev-lang/R-3.0.0
+	>=sci-CRAN/XML-3.95
+	>=sci-CRAN/httr-0.3
 	>=sci-CRAN/tidyr-0.3.1
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

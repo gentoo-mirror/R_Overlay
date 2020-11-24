@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/FCGR_1.0-0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.2
+	sci-CRAN/sfsmisc
 	virtual/KernSmooth
 	virtual/MASS
-	sci-CRAN/sfsmisc
-	sci-CRAN/kerdiest
 	virtual/nlme
+	sci-CRAN/kerdiest
 	virtual/mgcv
 	sci-CRAN/pspline
 "

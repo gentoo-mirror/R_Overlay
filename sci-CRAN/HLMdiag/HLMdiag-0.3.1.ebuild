@@ -20,12 +20,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-2.15.0
 	sci-CRAN/reshape2
-	sci-CRAN/RLRsim
-	>=sci-CRAN/ggplot2-0.9.2
-	virtual/Matrix
 	sci-CRAN/plyr
+	>=sci-CRAN/ggplot2-0.9.2
 	virtual/MASS
+	sci-CRAN/RLRsim
 	virtual/mgcv
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

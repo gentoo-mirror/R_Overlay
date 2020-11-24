@@ -29,9 +29,9 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/pscl
-	sci-CRAN/ggplot2
-	virtual/MASS
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/shiny
+	sci-CRAN/pscl
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

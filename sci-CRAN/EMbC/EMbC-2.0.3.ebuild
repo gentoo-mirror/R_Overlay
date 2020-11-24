@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND="sci-CRAN/mnormt
-	sci-CRAN/sp
-	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/maptools
+	sci-CRAN/sp
+	sci-CRAN/mnormt
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

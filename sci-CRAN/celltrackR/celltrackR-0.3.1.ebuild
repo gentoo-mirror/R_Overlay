@@ -29,7 +29,7 @@ R_SUGGESTS="
 	r_suggests_uwot? ( sci-CRAN/uwot )
 	r_suggests_wordspace? ( sci-CRAN/wordspace )
 "
-DEPEND="sci-CRAN/ellipse
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/ellipse
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

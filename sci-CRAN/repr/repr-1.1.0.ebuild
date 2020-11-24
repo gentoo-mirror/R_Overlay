@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/jsonlite
-	>=sci-CRAN/pillar-1.4.0
+DEPEND=">=sci-CRAN/pillar-1.4.0
 	sci-CRAN/base64enc
 	sci-CRAN/htmltools
+	>=dev-lang/R-3.0.1
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

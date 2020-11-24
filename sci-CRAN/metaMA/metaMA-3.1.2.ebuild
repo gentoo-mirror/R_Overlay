@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_venndiagram? ( sci-CRAN/VennDiagram )
 "
 DEPEND=">=dev-lang/R-3.1.2
-	sci-BIOC/limma
 	sci-CRAN/SMVar
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

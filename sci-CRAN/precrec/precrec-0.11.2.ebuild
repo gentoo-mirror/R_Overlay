@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	>=sci-CRAN/data_table-1.10.4
-	>=sci-CRAN/gridExtra-2.0.0
-	>=sci-CRAN/assertthat-0.1
 	>=sci-CRAN/Rcpp-0.12.2
+	>=sci-CRAN/assertthat-0.1
 	>=sci-CRAN/ggplot2-2.1.0
+	>=sci-CRAN/gridExtra-2.0.0
+	>=sci-CRAN/data_table-1.10.4
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

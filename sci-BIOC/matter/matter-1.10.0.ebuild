@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/digest
-	sci-CRAN/irlba
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/digest
 	sci-BIOC/BiocParallel
-	>=dev-lang/R-3.5
 	sci-CRAN/biglm
 	sci-BIOC/BiocGenerics
+	sci-CRAN/irlba
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

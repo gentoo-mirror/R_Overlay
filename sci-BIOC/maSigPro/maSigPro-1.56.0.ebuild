@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/maSigPro_1.56.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/venn
-	sci-CRAN/mclust
+DEPEND="sci-BIOC/Biobase
 	virtual/MASS
-	sci-BIOC/Biobase
+	sci-CRAN/venn
+	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}"

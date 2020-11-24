@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/igraph
+DEPEND="virtual/cluster
 	>=sci-CRAN/proxy-0.4.7
-	virtual/cluster
 	virtual/MASS
 	virtual/cluster
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

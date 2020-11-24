@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/scorecardModelUtils_0.0.1.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/e1071
-	sci-CRAN/partykit
-	sci-CRAN/sqldf
-	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	sci-CRAN/car
+DEPEND="sci-CRAN/car
 	sci-CRAN/gbm
+	sci-CRAN/e1071
 	sci-CRAN/randomForest
+	sci-CRAN/partykit
+	sci-CRAN/reshape2
+	sci-CRAN/sqldf
 	sci-CRAN/stringr
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

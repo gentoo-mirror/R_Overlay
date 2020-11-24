@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=sci-BIOC/Biobase-2.22.0
+DEPEND=">=dev-lang/R-3.2
 	sci-CRAN/arm
-	sci-CRAN/mvtnorm
-	>=dev-lang/R-3.2
+	>=sci-BIOC/Biobase-2.22.0
 	sci-BIOC/limma
+	sci-CRAN/mvtnorm
 	>=sci-BIOC/HTqPCR-1.16.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

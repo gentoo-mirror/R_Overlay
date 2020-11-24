@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_rsfa? ( sci-CRAN/rSFA )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/SPOT-2.0
-	sci-CRAN/adabag
 	sci-CRAN/testit
 	sci-CRAN/twiddler
+	sci-CRAN/adabag
+	>=sci-CRAN/SPOT-2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

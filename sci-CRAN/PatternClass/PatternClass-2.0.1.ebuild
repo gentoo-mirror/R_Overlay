@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/PatternClass_2.0.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/raster
 	sci-CRAN/landscapemetrics
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-}"

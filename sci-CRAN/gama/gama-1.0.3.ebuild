@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/cluster
-	sci-CRAN/GA
+DEPEND="sci-CRAN/ArgumentCheck
+	sci-CRAN/Rfast
+	virtual/cluster
 	sci-CRAN/NbClust
-	sci-CRAN/ArgumentCheck
+	sci-CRAN/GA
 	virtual/cluster
 	sci-CRAN/ggplot2
-	sci-CRAN/Rfast
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

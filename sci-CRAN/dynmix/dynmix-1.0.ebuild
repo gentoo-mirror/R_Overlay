@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/dynmix_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/Rcpp
-	virtual/MASS
 	sci-CRAN/zoo
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

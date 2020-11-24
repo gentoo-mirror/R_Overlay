@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_tkrplot"
 R_SUGGESTS="r_suggests_tkrplot? ( >=sci-CRAN/tkrplot-0.0.23 )"
-DEPEND=">=sci-CRAN/misc3d-0.8.1
-	>=dev-lang/R-2.14.0
-	>=sci-CRAN/oro_nifti-0.4.0
+DEPEND=">=dev-lang/R-2.14.0
 	virtual/lattice
+	>=sci-CRAN/oro_nifti-0.4.0
+	>=sci-CRAN/misc3d-0.8.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

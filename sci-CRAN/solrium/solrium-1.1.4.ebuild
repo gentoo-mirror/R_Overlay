@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-6.1.1 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/xml2-1.0.0
-	sci-CRAN/R6
+DEPEND=">=sci-CRAN/plyr-1.8.4
 	>=sci-CRAN/dplyr-0.5.0
-	>=sci-CRAN/plyr-1.8.4
-	>=sci-CRAN/crul-0.4.0
 	>=sci-CRAN/jsonlite-1.0
+	>=sci-CRAN/xml2-1.0.0
+	sci-CRAN/R6
+	>=sci-CRAN/crul-0.4.0
 	>=sci-CRAN/tibble-1.4.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

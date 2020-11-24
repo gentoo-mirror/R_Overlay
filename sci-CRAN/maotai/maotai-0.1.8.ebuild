@@ -13,17 +13,17 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_igraph"
 R_SUGGESTS="r_suggests_igraph? ( sci-CRAN/igraph )"
 DEPEND="virtual/Matrix
-	sci-CRAN/Rdpack
-	virtual/cluster
-	sci-CRAN/shapes
-	sci-CRAN/dbscan
-	sci-CRAN/RSpectra
 	sci-CRAN/Rtsne
-	sci-CRAN/Rcpp
 	virtual/cluster
+	sci-CRAN/RSpectra
+	sci-CRAN/Rdpack
+	sci-CRAN/dbscan
+	sci-CRAN/reticulate
+	sci-CRAN/Rcpp
 	sci-CRAN/labdsv
 	sci-CRAN/nabor
-	sci-CRAN/reticulate
+	sci-CRAN/shapes
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

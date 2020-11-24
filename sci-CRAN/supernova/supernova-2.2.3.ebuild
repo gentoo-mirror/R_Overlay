@@ -22,9 +22,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/magrittr
+	sci-CRAN/vctrs
 	sci-CRAN/purrr
 	sci-CRAN/stringr
-	sci-CRAN/vctrs
 	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

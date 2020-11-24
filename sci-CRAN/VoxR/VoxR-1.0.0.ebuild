@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/VoxR_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/Rfast
-	sci-CRAN/rgl
+DEPEND="sci-CRAN/data_table
+	virtual/cluster
 	sci-CRAN/circular
-	sci-CRAN/geometry
-	sci-CRAN/raster
-	sci-CRAN/data_table
 	sci-CRAN/dplyr
 	sci-CRAN/FNN
-	virtual/cluster
+	sci-CRAN/Rfast
+	sci-CRAN/geometry
+	sci-CRAN/raster
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

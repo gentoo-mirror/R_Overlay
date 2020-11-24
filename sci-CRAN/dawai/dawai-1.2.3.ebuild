@@ -13,7 +13,7 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 IUSE="${IUSE-} r_suggests_survival"
 R_SUGGESTS="r_suggests_survival? ( virtual/survival )"
 DEPEND="sci-CRAN/mvtnorm
-	virtual/boot
 	sci-CRAN/ibdreg
+	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

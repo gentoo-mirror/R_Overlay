@@ -28,12 +28,12 @@ R_SUGGESTS="
 	r_suggests_wesanderson? ( sci-CRAN/wesanderson )
 "
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/cowplot
 	virtual/MASS
 	sci-CRAN/ggplot2
-	sci-CRAN/cowplot
-	sci-CRAN/stringr
 	sci-CRAN/plotly
 	sci-CRAN/qqplotr
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

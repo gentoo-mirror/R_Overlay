@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/relevent_1.0-4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/trust
-	>=sci-CRAN/sna-2.0
 	sci-CRAN/coda
+	>=sci-CRAN/sna-2.0
 "
 RDEPEND="${DEPEND-}"

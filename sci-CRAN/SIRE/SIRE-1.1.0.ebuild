@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SIRE_1.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/systemfit
-	sci-CRAN/numDeriv
+DEPEND="virtual/Matrix
 	virtual/Matrix
-	sci-CRAN/psych
-	virtual/Matrix
-	sci-CRAN/Rsolnp
-	sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/systemfit
+	sci-CRAN/stringr
 	>=dev-lang/R-3.1.0
+	sci-CRAN/psych
 	sci-CRAN/igraph
 	virtual/MASS
-	sci-CRAN/stringr
+	sci-CRAN/numDeriv
+	sci-CRAN/Rsolnp
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/ks-1.10.0
-	dev-lang/R[tk]
+DEPEND="dev-lang/R[tk]
+	>=sci-CRAN/ks-1.10.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

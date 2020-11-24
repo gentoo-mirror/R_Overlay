@@ -12,12 +12,12 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_rmarkdown"
 R_SUGGESTS="r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )"
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/BayesFactor-0.9.12
-	>=sci-CRAN/xtable-1.8.2
-	>=sci-CRAN/knitr-1.28
+DEPEND=">=sci-CRAN/xtable-1.8.2
 	>=sci-CRAN/psych-1.9.12
-	>=sci-CRAN/effsize-0.7.8
 	>=sci-CRAN/shiny-1.4.0
+	>=sci-CRAN/knitr-1.28
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/BayesFactor-0.9.12
+	>=sci-CRAN/effsize-0.7.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

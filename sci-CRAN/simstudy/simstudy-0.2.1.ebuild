@@ -37,9 +37,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/mvtnorm
+	sci-CRAN/glue
 	sci-CRAN/data_table
 	sci-CRAN/mvnfast
-	sci-CRAN/glue
 	sci-CRAN/Rcpp
 	sci-CRAN/backports
 "

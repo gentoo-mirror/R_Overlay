@@ -27,10 +27,10 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/tibble
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/httr
 	sci-CRAN/snakecase
-	sci-CRAN/httr
+	sci-CRAN/tibble
+	sci-CRAN/jsonlite
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

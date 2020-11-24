@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/VIRF_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/rmgarch
-	virtual/Matrix
-	sci-CRAN/matlib
-	sci-CRAN/BigVAR
 	sci-CRAN/mgarchBEKK
 	sci-CRAN/expm
+	sci-CRAN/BigVAR
 	sci-CRAN/gnm
 	sci-CRAN/ks
+	virtual/Matrix
+	sci-CRAN/matlib
 "
 RDEPEND="${DEPEND-}"

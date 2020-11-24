@@ -24,19 +24,19 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/dplyr
 	sci-CRAN/memoise
-	sci-CRAN/readr
-	sci-CRAN/stringi
-	sci-CRAN/DBI
-	sci-CRAN/curl
-	sci-CRAN/arkdb
 	sci-CRAN/tibble
+	sci-CRAN/DBI
+	sci-CRAN/arkdb
 	sci-CRAN/rappdirs
-	sci-CRAN/rlang
 	sci-CRAN/magrittr
-	sci-CRAN/progress
-	sci-CRAN/dbplyr
 	sci-CRAN/RSQLite
 	sci-CRAN/jsonlite
+	sci-CRAN/readr
+	sci-CRAN/rlang
+	sci-CRAN/stringi
+	sci-CRAN/progress
+	sci-CRAN/dbplyr
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

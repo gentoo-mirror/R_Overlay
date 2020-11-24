@@ -12,11 +12,11 @@ LICENSE='Apache-2.0'
 
 IUSE="${IUSE-} r_suggests_biobase"
 R_SUGGESTS="r_suggests_biobase? ( sci-BIOC/Biobase )"
-DEPEND="virtual/class
+DEPEND="sci-CRAN/oompaBase
 	virtual/class
-	sci-CRAN/e1071
-	sci-CRAN/oompaBase
 	sci-CRAN/TailRank
+	sci-CRAN/e1071
+	virtual/class
 	sci-CRAN/randomForest
 	virtual/nnet
 	virtual/class

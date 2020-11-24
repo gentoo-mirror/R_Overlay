@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mada_0.5.10.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/mvmeta
-	sci-CRAN/ellipse
+DEPEND="sci-CRAN/ellipse
+	sci-CRAN/mvmeta
 	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

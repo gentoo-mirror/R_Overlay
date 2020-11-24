@@ -42,16 +42,16 @@ R_SUGGESTS="
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
 DEPEND="sci-CRAN/fastmatch
+	>=sci-CRAN/assertthat-0.1
 	>=sci-CRAN/Rcpp-0.12.3
-	>=sci-CRAN/zoo-1.5.5
-	>=sci-CRAN/ineq-0.2.10
-	>=sci-CRAN/magrittr-1.5
-	>=dev-lang/R-3.5.0
 	sci-CRAN/data_table
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/hutils-1.3.0
+	>=sci-CRAN/ineq-0.2.10
 	sci-CRAN/forecast
 	>=sci-CRAN/fy-0.2.0
-	>=sci-CRAN/assertthat-0.1
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/zoo-1.5.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -32,14 +32,14 @@ R_SUGGESTS="
 	r_suggests_statrank? ( sci-CRAN/StatRank )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/qvcalc
-	sci-CRAN/RSpectra
-	sci-CRAN/partykit
-	sci-CRAN/sandwich
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	sci-CRAN/igraph
 	sci-CRAN/psychotools
+	sci-CRAN/partykit
 	sci-CRAN/psychotree
+	sci-CRAN/RSpectra
+	sci-CRAN/qvcalc
+	sci-CRAN/sandwich
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

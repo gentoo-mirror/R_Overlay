@@ -12,12 +12,12 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_ncdf4"
 R_SUGGESTS="r_suggests_ncdf4? ( sci-CRAN/ncdf4 )"
-DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/rworldmap
+	sci-CRAN/sp
 	sci-CRAN/RColorBrewer
+	>=dev-lang/R-3.2.3
 	sci-CRAN/maps
 	sci-CRAN/ggplot2
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

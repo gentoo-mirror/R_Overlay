@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/DIFlasso_1.0-4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/grplasso
-	sci-CRAN/miscTools
 	sci-CRAN/penalized
+	sci-CRAN/miscTools
 "
 RDEPEND="${DEPEND-}"

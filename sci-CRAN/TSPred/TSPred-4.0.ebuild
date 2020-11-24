@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TSPred_4.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/MuMIn
-	sci-CRAN/EMD
-	sci-CRAN/forecast
-	sci-CRAN/wavelets
-	sci-CRAN/KFAS
+DEPEND="sci-CRAN/KFAS
 	sci-CRAN/vars
+	sci-CRAN/MuMIn
+	sci-CRAN/forecast
+	sci-CRAN/EMD
+	sci-CRAN/wavelets
 "
 RDEPEND="${DEPEND-}"

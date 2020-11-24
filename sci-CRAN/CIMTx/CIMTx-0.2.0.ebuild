@@ -10,20 +10,20 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CIMTx_0.2.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/SuperLearner
-	sci-CRAN/arm
-	sci-CRAN/Matching
+DEPEND="virtual/nnet
+	sci-CRAN/tmle
 	sci-CRAN/car
 	sci-CRAN/tidyr
-	sci-CRAN/dbarts
-	virtual/nnet
-	sci-CRAN/BART
+	virtual/class
+	sci-CRAN/arm
+	sci-CRAN/dplyr
 	sci-CRAN/twang
+	sci-CRAN/BART
+	sci-CRAN/Matching
 	sci-CRAN/magrittr
 	sci-CRAN/WeightIt
-	sci-CRAN/tmle
-	virtual/class
+	sci-CRAN/SuperLearner
 	sci-CRAN/gam
+	sci-CRAN/dbarts
 "
 RDEPEND="${DEPEND-}"

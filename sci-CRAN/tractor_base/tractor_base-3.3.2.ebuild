@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
-DEPEND="sci-CRAN/shades
-	sci-CRAN/reportr
+DEPEND="sci-CRAN/RNifti
+	sci-CRAN/shades
 	>=sci-CRAN/ore-1.3.0
-	sci-CRAN/RNifti
+	sci-CRAN/reportr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

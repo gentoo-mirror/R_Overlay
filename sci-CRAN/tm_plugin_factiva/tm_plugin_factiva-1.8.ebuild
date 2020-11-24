@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/tm.plugin.factiva_1.8.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/NLP
-	sci-CRAN/rvest
-	sci-CRAN/xml2
 	>=sci-CRAN/tm-0.7.2
+	sci-CRAN/xml2
+	sci-CRAN/rvest
 "
 RDEPEND="${DEPEND-}"

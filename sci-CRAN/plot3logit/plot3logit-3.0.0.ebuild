@@ -23,21 +23,21 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
-DEPEND="sci-CRAN/generics
-	sci-CRAN/ellipse
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/tidyr
-	sci-CRAN/tidyselect
-	>=dev-lang/R-3.5
-	sci-CRAN/forcats
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/ggtern-3.3.0
-	>=sci-CRAN/Ternary-1.0.1
-	sci-CRAN/purrr
-	sci-CRAN/dplyr
-	sci-CRAN/tibble
-	sci-CRAN/lifecycle
-	sci-CRAN/stringr
 	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/lifecycle
+	>=sci-CRAN/Ternary-1.0.1
+	>=dev-lang/R-3.5
+	sci-CRAN/ellipse
+	sci-CRAN/generics
+	sci-CRAN/tibble
 	sci-CRAN/Rdpack
+	>=sci-CRAN/ggtern-3.3.0
+	sci-CRAN/dplyr
+	sci-CRAN/forcats
+	sci-CRAN/tidyselect
+	>=sci-CRAN/magrittr-1.5
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

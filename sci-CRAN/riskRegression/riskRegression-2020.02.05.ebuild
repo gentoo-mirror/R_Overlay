@@ -38,22 +38,22 @@ R_SUGGESTS="
 	r_suggests_superlearner? ( sci-CRAN/SuperLearner )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/plotrix
-	sci-CRAN/ranger
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/ggplot2-3.1.0
+DEPEND="sci-CRAN/cmprsk
 	>=sci-CRAN/timereg-1.9.3
+	sci-CRAN/ranger
+	>=sci-CRAN/ggplot2-3.1.0
+	>=sci-CRAN/data_table-1.12.2
+	>=sci-CRAN/lava-1.6.5
+	sci-CRAN/plotrix
+	sci-CRAN/foreach
 	sci-CRAN/Rcpp
 	virtual/lattice
-	sci-CRAN/foreach
+	>=dev-lang/R-3.5.0
 	sci-CRAN/doParallel
-	sci-CRAN/Publish
-	>=sci-CRAN/prodlim-2018.4.18
-	>=sci-CRAN/data_table-1.12.2
 	virtual/survival
-	sci-CRAN/cmprsk
 	>=sci-CRAN/rms-5.1.3
-	>=sci-CRAN/lava-1.6.5
+	>=sci-CRAN/prodlim-2018.4.18
+	sci-CRAN/Publish
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

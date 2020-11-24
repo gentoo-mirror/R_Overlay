@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MIICD_2.4.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-2.13.0
-	virtual/survival
-	sci-CRAN/mstate
 	virtual/MASS
+	sci-CRAN/mstate
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

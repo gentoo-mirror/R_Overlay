@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/dplyr
-	sci-CRAN/vctrs
+DEPEND="sci-CRAN/vctrs
+	virtual/MASS
 	sci-CRAN/tibble
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

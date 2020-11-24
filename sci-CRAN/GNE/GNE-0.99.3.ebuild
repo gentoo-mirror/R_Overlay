@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_sensitivity"
 R_SUGGESTS="r_suggests_sensitivity? ( sci-CRAN/sensitivity )"
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/nleqslv
-	sci-CRAN/alabama
 	sci-CRAN/SQUAREM
+	sci-CRAN/alabama
+	sci-CRAN/nleqslv
 	sci-CRAN/BB
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -22,18 +22,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/RSQLite
-	sci-CRAN/purrr
-	sci-CRAN/R_utils
-	sci-CRAN/DBI
-	sci-CRAN/sf
+DEPEND="sci-CRAN/R_utils
 	sci-CRAN/crayon
-	>=dev-lang/R-3.5
-	sci-CRAN/rappdirs
-	sci-CRAN/tibble
-	sci-CRAN/cli
 	sci-CRAN/rstudioapi
+	sci-CRAN/cli
+	>=dev-lang/R-3.5
+	sci-CRAN/DBI
+	sci-CRAN/RSQLite
+	sci-CRAN/rappdirs
+	sci-CRAN/httr
+	sci-CRAN/tibble
+	sci-CRAN/purrr
+	sci-CRAN/sf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

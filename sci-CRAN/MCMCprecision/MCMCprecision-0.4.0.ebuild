@@ -22,8 +22,8 @@ DEPEND=">=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
+	sci-CRAN/RcppProgress
 	sci-CRAN/RcppArmadillo
 	sci-CRAN/RcppEigen
-	sci-CRAN/RcppProgress
 	${R_SUGGESTS-}
 "

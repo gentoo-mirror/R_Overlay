@@ -42,9 +42,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.2
+	>=sci-CRAN/mlr-2.12
 	>=sci-CRAN/ParamHelpers-1.10
 	sci-CRAN/stringi
-	>=sci-CRAN/mlr-2.12
 	>=sci-CRAN/BBmisc-1.11
 	>=sci-CRAN/checkmate-1.8.3
 	>=sci-CRAN/backports-1.1.0

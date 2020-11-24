@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_smitidstruct? ( sci-CRAN/SMITIDstruct )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/htmlwidgets-0.3.2
-	>=sci-CRAN/jsonlite-1.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/htmlwidgets-0.3.2
 	>=sci-CRAN/Rcpp-0.11.0
-	>=dev-lang/R-3.5.0
 	>=sci-CRAN/yaml-2.1.16
+	>=sci-CRAN/jsonlite-1.5.0
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}

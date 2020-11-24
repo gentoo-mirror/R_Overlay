@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EDFIR_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/lpSolve
-	sci-CRAN/vertexenum
+DEPEND=">=dev-lang/R-2.15.3
 	virtual/MASS
+	sci-CRAN/lpSolve
 	sci-CRAN/geometry
-	>=dev-lang/R-2.15.3
+	sci-CRAN/vertexenum
 "
 RDEPEND="${DEPEND-}"

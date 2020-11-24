@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_vcfr? ( >=sci-CRAN/vcfR-1.6.0 )
 "
 DEPEND=">=dev-lang/R-3.6.0
+	>=sci-CRAN/reshape2-1.4.1
+	>=sci-CRAN/Rcpp-0.10.5
 	>=sci-CRAN/plotly-4.7.1
 	>=sci-CRAN/ggplot2-2.2.1
-	>=sci-CRAN/Rcpp-0.10.5
-	>=sci-CRAN/reshape2-1.4.1
 	sci-CRAN/MDSMap
 "
 RDEPEND="${DEPEND-}

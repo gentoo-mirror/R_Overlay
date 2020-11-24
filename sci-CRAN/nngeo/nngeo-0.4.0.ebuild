@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_stars? ( sci-CRAN/stars )
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
-DEPEND="sci-CRAN/nabor
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/nabor
 	sci-CRAN/lwgeom
 	sci-CRAN/units
-	>=dev-lang/R-3.5.0
 	>=sci-CRAN/sf-0.6
 	sci-CRAN/s2
 "

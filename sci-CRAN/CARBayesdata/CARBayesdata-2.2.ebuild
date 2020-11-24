@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CARBayesdata_2.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/sp
-	sci-CRAN/shapefiles
+DEPEND="sci-CRAN/shapefiles
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

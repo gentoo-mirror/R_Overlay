@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/fruclimadapt_0.4.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/zoo
-	sci-CRAN/data_table
-	sci-CRAN/lubridate
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/tidyverse
+	sci-CRAN/zoo
+	sci-CRAN/lubridate
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-}"

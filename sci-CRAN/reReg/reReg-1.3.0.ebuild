@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/reReg_1.3.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/BB
-	sci-CRAN/SQUAREM
-	virtual/survival
-	sci-CRAN/nleqslv
+DEPEND="virtual/survival
+	sci-CRAN/Rcpp
 	sci-CRAN/scam
 	sci-CRAN/rootSolve
+	>=sci-CRAN/reda-0.5.0
+	>=dev-lang/R-3.5.0
+	sci-CRAN/BB
+	sci-CRAN/SQUAREM
+	sci-CRAN/nleqslv
 	sci-CRAN/ggplot2
 	virtual/MASS
-	>=sci-CRAN/reda-0.5.0
-	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IntNMF_1.2.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	virtual/cluster
-	sci-CRAN/mclust
-	>=dev-lang/R-3.5
-	sci-CRAN/NMF
+DEPEND="sci-CRAN/mclust
 	sci-CRAN/InterSIM
+	sci-CRAN/NMF
+	>=dev-lang/R-3.5
+	virtual/cluster
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

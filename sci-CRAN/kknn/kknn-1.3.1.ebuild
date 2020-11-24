@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/kknn_1.3.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	>=sci-CRAN/igraph-1.0
+DEPEND=">=sci-CRAN/igraph-1.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

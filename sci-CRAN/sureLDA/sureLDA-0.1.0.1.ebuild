@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0
-	virtual/Matrix
+	sci-CRAN/Rcpp
 	sci-CRAN/glmnet
 	sci-CRAN/pROC
+	virtual/Matrix
 	sci-CRAN/MAP
-	sci-CRAN/Rcpp
 	sci-CRAN/foreach
 	sci-CRAN/doParallel
 "

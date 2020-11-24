@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rtemps_0.8.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/rmarkdown
-	sci-CRAN/bookdown
-	sci-CRAN/knitr
+DEPEND="sci-CRAN/knitr
 	sci-CRAN/DT
+	sci-CRAN/bookdown
+	sci-CRAN/ggplot2
+	sci-CRAN/rmarkdown
 	sci-CRAN/xfun
 "
 RDEPEND="${DEPEND-}"

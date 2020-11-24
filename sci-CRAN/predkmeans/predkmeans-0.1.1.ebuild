@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/predkmeans_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/Rcpp-0.11.5
+	sci-CRAN/maxLik
 	sci-CRAN/e1071
 	virtual/mgcv
-	sci-CRAN/maxLik
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

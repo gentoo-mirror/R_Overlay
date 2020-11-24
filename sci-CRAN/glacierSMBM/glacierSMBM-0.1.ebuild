@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/glacierSMBM_0.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/udunits2
+DEPEND="sci-CRAN/sp
 	sci-CRAN/raster
-	sci-CRAN/sp
+	sci-CRAN/udunits2
 "
 RDEPEND="${DEPEND-}"

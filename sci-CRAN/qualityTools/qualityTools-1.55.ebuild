@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/qualityTools_1.55.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-2.15.0
+DEPEND="virtual/MASS
+	>=dev-lang/R-2.15.0
 	sci-CRAN/Rsolnp
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

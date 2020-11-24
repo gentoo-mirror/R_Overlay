@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/aws.polly_0.1.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/httr
-	sci-CRAN/jsonlite
 	sci-CRAN/tuneR
+	sci-CRAN/jsonlite
 	>=sci-CRAN/aws_signature-0.3.4
 "
 RDEPEND="${DEPEND-}"

@@ -13,15 +13,15 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 IUSE="${IUSE-} r_suggests_vim"
 R_SUGGESTS="r_suggests_vim? ( sci-CRAN/VIM )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/lme4
-	virtual/MASS
-	>=sci-CRAN/jomo-2.6.3
-	>=sci-CRAN/mvmeta-0.4.7
-	sci-CRAN/mvtnorm
-	sci-CRAN/digest
+	virtual/nlme
 	sci-CRAN/abind
 	virtual/Matrix
 	>=sci-CRAN/mice-2.42
-	virtual/nlme
+	virtual/MASS
+	sci-CRAN/lme4
+	>=sci-CRAN/mvmeta-0.4.7
+	>=sci-CRAN/jomo-2.6.3
+	sci-CRAN/mvtnorm
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -23,17 +23,17 @@ R_SUGGESTS="
 	r_suggests_snprelate? ( sci-BIOC/SNPRelate )
 	r_suggests_snpstats? ( sci-BIOC/snpStats )
 "
-DEPEND="sci-CRAN/RSQLite
-	sci-CRAN/sandwich
+DEPEND="sci-CRAN/DBI
 	sci-BIOC/DNAcopy
 	sci-CRAN/GWASExactHW
-	virtual/survival
 	sci-CRAN/lmtest
-	sci-BIOC/quantsmooth
+	sci-CRAN/logistf
 	sci-BIOC/Biobase
 	sci-BIOC/gdsfmt
-	sci-CRAN/DBI
-	sci-CRAN/logistf
+	sci-CRAN/RSQLite
+	virtual/survival
+	sci-CRAN/sandwich
+	sci-BIOC/quantsmooth
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

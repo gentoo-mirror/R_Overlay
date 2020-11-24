@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BALCONY_0.2.10.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/seqinr
+DEPEND="sci-CRAN/Rpdb
 	sci-CRAN/readr
-	sci-CRAN/progress
-	sci-CRAN/Rpdb
-	sci-CRAN/scales
 	sci-CRAN/dplyr
+	sci-CRAN/scales
+	sci-CRAN/seqinr
 	sci-BIOC/Biostrings
+	sci-CRAN/progress
 "
 RDEPEND="${DEPEND-}"

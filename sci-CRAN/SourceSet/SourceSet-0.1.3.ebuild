@@ -24,14 +24,14 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/reshape2
-	sci-CRAN/plyr
+DEPEND="sci-BIOC/graph
 	sci-CRAN/gtools
-	sci-CRAN/igraph
-	sci-BIOC/graph
-	sci-CRAN/gRbase
 	sci-CRAN/progress
 	sci-CRAN/scales
+	sci-CRAN/reshape2
+	sci-CRAN/gRbase
+	sci-CRAN/igraph
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

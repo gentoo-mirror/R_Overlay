@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/lindia_0.9.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.2.2
-	sci-CRAN/ggplot2
 	virtual/MASS
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

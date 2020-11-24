@@ -21,12 +21,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5
 	>=sci-CRAN/forcats-0.3
-	>=sci-CRAN/dplyr-0.8
-	>=sci-CRAN/stringr-1.3.1
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/scales-1.0
 	>=sci-CRAN/ggplot2-3.0
+	>=sci-CRAN/dplyr-0.8
 	>=sci-CRAN/tidyr-0.8
+	>=sci-CRAN/stringr-1.3.1
+	>=sci-CRAN/scales-1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

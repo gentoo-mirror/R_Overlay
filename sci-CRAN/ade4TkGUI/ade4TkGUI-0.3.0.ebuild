@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_pixmap"
 R_SUGGESTS="r_suggests_pixmap? ( sci-CRAN/pixmap )"
 DEPEND=">=sci-CRAN/ade4-1.4.3
-	sci-CRAN/tkrplot
-	dev-lang/R[tk]
 	virtual/lattice
 	sci-CRAN/adegraphics
+	sci-CRAN/tkrplot
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

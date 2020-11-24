@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/cellGrowth
 LICENSE='Artistic-2'
 
 DEPEND=">=dev-lang/R-2.12.0
-	virtual/lattice
 	>=sci-CRAN/locfit-1.5.4
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

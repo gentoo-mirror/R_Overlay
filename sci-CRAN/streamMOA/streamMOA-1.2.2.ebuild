@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/streamMOA_1.2-2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/stream-1.1.2
-	>=sci-CRAN/rJava-0.9.0
+DEPEND=">=sci-CRAN/rJava-0.9.0
+	>=sci-CRAN/stream-1.1.2
 "
 RDEPEND="${DEPEND-} virtual/jdk"

@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.3.3
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
 	sci-CRAN/xml2
 	sci-CRAN/rvest
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

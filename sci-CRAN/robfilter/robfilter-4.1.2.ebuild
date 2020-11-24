@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/robfilter_4.1.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.6.0
+DEPEND="virtual/MASS
+	>=dev-lang/R-3.6.0
 	virtual/lattice
-	virtual/MASS
 	sci-CRAN/robustbase
 "
 RDEPEND="${DEPEND-}"

@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 	r_suggests_vim? ( sci-CRAN/VIM )
 "
-DEPEND="virtual/MASS
-	virtual/rpart
+DEPEND="virtual/rpart
+	virtual/MASS
 	sci-CRAN/gower
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

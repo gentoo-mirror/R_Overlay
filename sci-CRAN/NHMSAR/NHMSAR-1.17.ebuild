@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/NHMSAR_1.17.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ucminf
-	sci-CRAN/ncvreg
-	sci-CRAN/glasso
 	sci-CRAN/lars
+	sci-CRAN/glasso
+	sci-CRAN/ncvreg
 "
 RDEPEND="${DEPEND-}"

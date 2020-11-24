@@ -13,6 +13,6 @@ LICENSE='GPL-3'
 DEPEND=">=dev-lang/R-3.2.3"
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/BH-1.55
-	>=sci-CRAN/RcppProgress-0.2.1
 	sci-CRAN/Rcpp
+	>=sci-CRAN/RcppProgress-0.2.1
 "

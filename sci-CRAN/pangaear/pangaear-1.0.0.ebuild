@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
 DEPEND=">=sci-CRAN/crul-0.4.0
+	>=sci-CRAN/jsonlite-1.5
 	>=sci-CRAN/oai-0.2.2
 	>=sci-CRAN/xml2-1.1.1
-	>=sci-CRAN/jsonlite-1.5
 	>=sci-CRAN/tibble-1.1
 	>=sci-CRAN/hoardr-0.2.0
 	sci-CRAN/png

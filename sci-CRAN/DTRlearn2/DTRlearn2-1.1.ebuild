@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/kernlab
 	sci-CRAN/glmnet
+	virtual/Matrix
 	sci-CRAN/foreach
 	virtual/MASS
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

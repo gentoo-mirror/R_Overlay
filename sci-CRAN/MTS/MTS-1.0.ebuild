@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MTS_1.0.tar.gz"
 LICENSE='Artistic-2'
 
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/mvtnorm
-	sci-CRAN/fGarch
 	sci-CRAN/fBasics
+	sci-CRAN/fGarch
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

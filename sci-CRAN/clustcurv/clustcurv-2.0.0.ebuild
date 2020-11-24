@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/wesanderson
-	sci-CRAN/npregfast
-	sci-CRAN/RColorBrewer
-	virtual/KernSmooth
-	sci-CRAN/tidyr
-	>=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/wesanderson
 	sci-CRAN/foreach
-	sci-CRAN/doParallel
-	sci-CRAN/ggfortify
 	sci-CRAN/doRNG
+	sci-CRAN/ggfortify
+	sci-CRAN/npregfast
+	sci-CRAN/tidyr
+	virtual/KernSmooth
+	sci-CRAN/data_table
+	sci-CRAN/doParallel
+	sci-CRAN/ggplot2
 	sci-CRAN/Gmedian
 	virtual/survival
-	sci-CRAN/data_table
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

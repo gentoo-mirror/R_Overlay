@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gsynth_1.0.9.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-CRAN/GGally-1.0.1
+DEPEND=">=sci-CRAN/ggplot2-2.1.0
+	>=sci-CRAN/GGally-1.0.1
 	>=sci-CRAN/foreach-1.4.3
 	>=sci-CRAN/doParallel-1.0.10
-	>=sci-CRAN/ggplot2-2.1.0
 	>=sci-CRAN/Rcpp-0.12.3
 	>=sci-CRAN/abind-1.4.0
 	>=sci-CRAN/mvtnorm-1.0.6

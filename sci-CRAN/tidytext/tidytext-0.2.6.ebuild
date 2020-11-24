@@ -36,16 +36,16 @@ R_SUGGESTS="
 	r_suggests_wordcloud? ( sci-CRAN/wordcloud )
 	r_suggests_xml? ( sci-CRAN/XML )
 "
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/janeaustenr
-	sci-CRAN/generics
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/hunspell
-	sci-CRAN/dplyr
-	>=sci-CRAN/purrr-0.1.1
 	sci-CRAN/rlang
-	sci-CRAN/tibble
+	sci-CRAN/stringr
+	sci-CRAN/dplyr
 	virtual/Matrix
 	sci-CRAN/tokenizers
+	sci-CRAN/generics
+	sci-CRAN/janeaustenr
+	>=sci-CRAN/purrr-0.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

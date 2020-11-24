@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/tibbrConnector_1.5.1.tar.gz"
 LICENSE='BSD'
 
-DEPEND="sci-CRAN/RCurl
-	sci-CRAN/rjson
+DEPEND="sci-CRAN/rjson
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

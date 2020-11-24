@@ -18,14 +18,14 @@ R_SUGGESTS="
 "
 DEPEND="sci-BIOC/seqTools
 	sci-CRAN/data_table
-	sci-CRAN/Rcpp
+	sci-CRAN/magrittr
+	sci-CRAN/ggplot2
+	sci-BIOC/zlibbioc
 	sci-CRAN/dplyr
 	sci-CRAN/reshape2
-	sci-BIOC/RSeqAn
-	sci-CRAN/magrittr
-	sci-BIOC/zlibbioc
-	sci-CRAN/ggplot2
+	sci-CRAN/Rcpp
 	sci-CRAN/rlang
+	sci-BIOC/RSeqAn
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/owdbr_1.0.1.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.4.4
-	sci-CRAN/httr
-	sci-CRAN/dplyr
-	sci-CRAN/tibble
-	sci-CRAN/jsonlite
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/data_table
+	sci-CRAN/tibble
+	>=dev-lang/R-3.4.4
+	sci-CRAN/jsonlite
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

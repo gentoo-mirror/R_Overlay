@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ordinalForest_2.4-1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/Rcpp-0.11.2
-	virtual/nnet
-	sci-CRAN/combinat
 	sci-CRAN/verification
+	sci-CRAN/combinat
+	virtual/nnet
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

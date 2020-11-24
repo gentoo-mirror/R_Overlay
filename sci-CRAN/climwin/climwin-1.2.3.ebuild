@@ -17,15 +17,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/gridExtra
-	virtual/Matrix
-	sci-CRAN/ggplot2
-	sci-CRAN/evd
 	sci-CRAN/lubridate
-	sci-CRAN/lme4
 	sci-CRAN/MuMIn
+	sci-CRAN/lme4
+	sci-CRAN/evd
 	sci-CRAN/reshape
 	sci-CRAN/numDeriv
 	sci-CRAN/RcppRoll
 	virtual/nlme
+	sci-CRAN/ggplot2
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

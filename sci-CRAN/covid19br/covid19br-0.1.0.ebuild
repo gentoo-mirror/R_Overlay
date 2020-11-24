@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/data_table
+	sci-CRAN/rlang
+	sci-CRAN/httr
 	sci-CRAN/lubridate
 	sci-CRAN/dplyr
-	sci-CRAN/rlang
-	sci-CRAN/data_table
-	sci-CRAN/httr
 	sci-CRAN/openxlsx
 	sci-CRAN/R_utils
 	sci-CRAN/tidyr

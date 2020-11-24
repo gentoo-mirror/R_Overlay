@@ -26,12 +26,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/checkmate
-	sci-CRAN/data_table
+DEPEND=">=sci-CRAN/R62S3-1.4.0
 	sci-CRAN/R6
-	>=sci-CRAN/set6-0.2.0
-	>=sci-CRAN/R62S3-1.4.0
 	sci-CRAN/Rcpp
+	>=sci-CRAN/set6-0.2.0
+	sci-CRAN/checkmate
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

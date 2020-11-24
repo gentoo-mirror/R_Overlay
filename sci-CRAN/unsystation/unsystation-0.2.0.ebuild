@@ -13,9 +13,9 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_rcpparmadillo"
 R_SUGGESTS="r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo )"
 DEPEND=">=sci-CRAN/Rcpp-0.12.10
+	sci-CRAN/iterators
 	sci-CRAN/foreach
 	sci-CRAN/doParallel
-	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

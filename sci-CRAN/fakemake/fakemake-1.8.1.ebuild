@@ -33,8 +33,8 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/igraph
 	sci-CRAN/MakefileR
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

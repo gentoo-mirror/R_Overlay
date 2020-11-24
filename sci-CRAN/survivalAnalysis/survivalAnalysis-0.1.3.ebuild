@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND=">=sci-CRAN/rlang-0.2.0
-	sci-CRAN/forcats
-	sci-CRAN/scales
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/purrr
+	>=sci-CRAN/rlang-0.2.0
 	sci-CRAN/tibble
-	sci-CRAN/cowplot
+	sci-CRAN/forcats
 	sci-CRAN/gridExtra
-	virtual/survival
+	sci-CRAN/scales
+	sci-CRAN/cowplot
 	>=sci-CRAN/dplyr-0.8.0
 	sci-CRAN/magrittr
-	>=sci-CRAN/ggplot2-2.2.1
 	sci-CRAN/stringr
 	>sci-CRAN/survminer-0.4.0
+	>=sci-CRAN/ggplot2-2.2.1
+	virtual/survival
 	>=dev-lang/R-3.3.0
 	sci-CRAN/tidyr
 	sci-CRAN/tidytidbits

@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_plyr? ( sci-CRAN/plyr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/GenSA
 	sci-CRAN/Hmisc
-	sci-CRAN/msm
-	sci-CRAN/GA
-	>=dev-lang/R-3.0.0
-	sci-CRAN/GenSA
 	sci-CRAN/reshape2
 	sci-CRAN/propagate
+	virtual/MASS
+	>=dev-lang/R-3.0.0
+	sci-CRAN/msm
+	sci-CRAN/GA
 	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

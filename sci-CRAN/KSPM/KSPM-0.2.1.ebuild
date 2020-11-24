@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/CompQuadForm
 	sci-CRAN/expm
 	sci-CRAN/DEoptim
+	sci-CRAN/CompQuadForm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

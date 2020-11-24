@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 DEPEND=">=dev-lang/R-3.4.0"
 RDEPEND="${DEPEND-}
 	x11-libs/cairo
-	dev-libs/glib
-	>=dev-libs/atk-1.10.0
 	x11-libs/gtk+
+	>=dev-libs/atk-1.10.0
 	x11-libs/pango
+	dev-libs/glib
 "

@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 	r_suggests_tinytex? ( sci-CRAN/tinytex )
 "
-DEPEND="sci-CRAN/clisymbols
-	>=sci-CRAN/hunspell-2.5
-	>=sci-CRAN/hutils-0.8.0
-	sci-CRAN/fastmatch
-	>=sci-CRAN/data_table-1.9.0
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/crayon
 	sci-CRAN/rstudioapi
-	sci-CRAN/zoo
+	>=sci-CRAN/hutils-0.8.0
 	>=dev-lang/R-3.3.0
-	sci-CRAN/crayon
+	sci-CRAN/clisymbols
+	>=sci-CRAN/data_table-1.9.0
+	sci-CRAN/fastmatch
+	>=sci-CRAN/hunspell-2.5
+	sci-CRAN/magrittr
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

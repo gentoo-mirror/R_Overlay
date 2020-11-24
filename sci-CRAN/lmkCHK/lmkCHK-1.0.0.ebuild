@@ -12,10 +12,10 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_psych"
 R_SUGGESTS="r_suggests_psych? ( sci-CRAN/psych )"
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/Morpho
+DEPEND="sci-CRAN/Morpho
 	sci-CRAN/shiny
-	sci-CRAN/rgl
 	sci-CRAN/geomorph
+	>=dev-lang/R-3.2.0
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

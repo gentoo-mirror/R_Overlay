@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_markdown? ( sci-CRAN/markdown )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND=">=sci-CRAN/globals-0.12.5
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/future-1.17.0
+	>=sci-CRAN/globals-0.12.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_puma? ( sci-BIOC/puma )
 "
 DEPEND=">=dev-lang/R-2.11.0
+	sci-CRAN/RSQLite
 	sci-BIOC/annotate
 	sci-BIOC/BiocGenerics
-	sci-CRAN/DBI
-	sci-CRAN/RSQLite
-	sci-BIOC/Biobase
 	sci-BIOC/AnnotationDbi
+	sci-BIOC/Biobase
 	sci-CRAN/gplots
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

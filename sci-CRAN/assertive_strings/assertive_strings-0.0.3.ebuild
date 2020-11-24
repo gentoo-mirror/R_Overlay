@@ -13,8 +13,8 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/assertive_types
 	>=sci-CRAN/assertive_base-0.0.2
 	sci-CRAN/stringi
+	sci-CRAN/assertive_types
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

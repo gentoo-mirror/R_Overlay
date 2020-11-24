@@ -34,9 +34,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	virtual/MASS
 	>=sci-CRAN/coda-0.19.1
 	>=sci-CRAN/runjags-2.0.4.2
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

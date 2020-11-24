@@ -27,13 +27,13 @@ R_SUGGESTS="
 	r_suggests_tidyselect? ( sci-CRAN/tidyselect )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/ellipsis
-	>=sci-CRAN/purrr-0.3.0
+DEPEND=">=sci-CRAN/future-1.19.1
 	>=dev-lang/R-3.2.0
 	>=sci-CRAN/lifecycle-0.2.0
-	>=sci-CRAN/future-1.19.1
-	>=sci-CRAN/globals-0.13.1
+	sci-CRAN/ellipsis
 	>=sci-CRAN/rlang-0.3.0
+	>=sci-CRAN/globals-0.13.1
+	>=sci-CRAN/purrr-0.3.0
 	>=sci-CRAN/vctrs-0.3.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

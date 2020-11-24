@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EFA.MRFA_1.0.9.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/optimbase
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/psych
-	sci-CRAN/PCovR
 	sci-CRAN/scales
-	sci-CRAN/reshape2
+	sci-CRAN/optimbase
+	sci-CRAN/PCovR
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

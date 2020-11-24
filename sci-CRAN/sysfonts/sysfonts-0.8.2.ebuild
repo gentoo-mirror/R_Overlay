@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 RDEPEND="${DEPEND-}
 	sys-libs/zlib
-	media-libs/libpng
 	media-libs/freetype
+	media-libs/libpng
 	${R_SUGGESTS-}
 "

@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_plotly? ( sci-CRAN/plotly )
 "
 DEPEND="sci-CRAN/uuid
-	sci-CRAN/bit64
 	sci-CRAN/rlist
 	sci-CRAN/httr
 	sci-CRAN/rjson
+	sci-CRAN/bit64
 	sci-CRAN/yaml
 	sci-CRAN/base64enc
 "

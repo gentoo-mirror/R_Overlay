@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PSW_1.1-3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/gtools
-	>=dev-lang/R-3.0
+DEPEND=">=dev-lang/R-3.0
+	sci-CRAN/gtools
 	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-}"

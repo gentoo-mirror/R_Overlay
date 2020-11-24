@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/RColorBrewer
+DEPEND=">=dev-lang/R-2.14.0
 	sci-CRAN/tigreBrowserWriter
-	>=dev-lang/R-2.14.0
+	sci-CRAN/RColorBrewer
+	virtual/Matrix
 	sci-CRAN/gptk
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

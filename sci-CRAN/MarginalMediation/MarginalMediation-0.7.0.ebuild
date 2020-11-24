@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/cli
-	sci-CRAN/stringr
-	sci-CRAN/tibble
-	sci-CRAN/crayon
-	sci-CRAN/magrittr
-	virtual/boot
+DEPEND="virtual/boot
 	sci-CRAN/rstudioapi
-	sci-CRAN/purrr
+	sci-CRAN/tibble
+	sci-CRAN/magrittr
 	sci-CRAN/furniture
 	sci-CRAN/betareg
+	sci-CRAN/stringr
+	sci-CRAN/crayon
+	sci-CRAN/cli
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

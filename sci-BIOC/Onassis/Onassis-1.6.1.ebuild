@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_htmltools? ( sci-CRAN/htmltools )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.4
-	sci-BIOC/AnnotationDbi
+DEPEND="sci-CRAN/RSQLite
 	sci-CRAN/data_table
-	sci-CRAN/rJava
-	sci-CRAN/RSQLite
-	sci-CRAN/RCurl
-	sci-CRAN/knitr
 	sci-BIOC/GEOmetadb
 	virtual/jdk
+	sci-BIOC/AnnotationDbi
+	sci-CRAN/RCurl
 	sci-CRAN/DT
 	sci-CRAN/data_table
+	sci-CRAN/knitr
+	>=dev-lang/R-3.4
+	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

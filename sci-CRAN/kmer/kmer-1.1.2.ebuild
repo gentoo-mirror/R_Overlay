@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/openssl
-	sci-CRAN/phylogram
 	>=sci-CRAN/Rcpp-0.12.13
+	sci-CRAN/phylogram
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

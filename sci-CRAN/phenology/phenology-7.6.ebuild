@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_progress? ( sci-CRAN/progress )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/numDeriv
+DEPEND="sci-CRAN/numDeriv
 	>=sci-CRAN/HelpersMG-4.1.3
+	>=dev-lang/R-3.5
 	sci-CRAN/optimx
 	sci-CRAN/lmf
 "

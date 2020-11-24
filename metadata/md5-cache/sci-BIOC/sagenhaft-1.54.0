@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-CRAN/SparseM-0.73 sci-CRAN/SparseM dev-lang/R
+DEPEND=sci-CRAN/SparseM >=sci-CRAN/SparseM-0.73 dev-lang/R
 DESCRIPTION=Collection of functions for read... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=>=sci-CRAN/SparseM-0.73 sci-CRAN/SparseM dev-lang/R
+RDEPEND=sci-CRAN/SparseM >=sci-CRAN/SparseM-0.73 dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/sagenhaft_1.54.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=eef65078355e99f1a112f5e48dfe7ab7
+_md5_=4f66256b3d4d469940fa020177f3c2e4

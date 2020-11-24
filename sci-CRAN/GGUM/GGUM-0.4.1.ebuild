@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GGUM_0.4-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/abind
+DEPEND="sci-CRAN/viridis
+	sci-CRAN/psych
 	sci-CRAN/xlsx
 	sci-CRAN/Rdpack
-	sci-CRAN/psych
-	sci-CRAN/viridis
+	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-}"

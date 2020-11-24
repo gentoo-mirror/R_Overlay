@@ -21,7 +21,7 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/Rcpp"
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/BH
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/BH
 	${R_SUGGESTS-}
 "

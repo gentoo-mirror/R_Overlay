@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="dev-lang/R[tk]
-	sci-CRAN/ncdf4
+DEPEND="sci-CRAN/ncdf4
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

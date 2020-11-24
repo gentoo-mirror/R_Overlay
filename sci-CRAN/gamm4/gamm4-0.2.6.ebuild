@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gamm4_0.2-6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/mgcv
+DEPEND=">=sci-CRAN/lme4-1.0
 	virtual/Matrix
-	>=sci-CRAN/lme4-1.0
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

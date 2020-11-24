@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/GWLelast_1.2.2.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/spgwr
-	sci-CRAN/geosphere
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
 	sci-CRAN/sp
+	sci-CRAN/geosphere
+	sci-CRAN/spgwr
 	sci-CRAN/glmnet
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

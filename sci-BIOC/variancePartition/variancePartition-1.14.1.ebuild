@@ -27,22 +27,22 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_tximport? ( sci-BIOC/tximport )
 "
-DEPEND="sci-CRAN/lmerTest
+DEPEND=">=dev-lang/R-3.5.0
+	sci-BIOC/limma
+	sci-CRAN/scales
+	virtual/MASS
 	sci-CRAN/progress
-	sci-BIOC/BiocParallel
+	sci-CRAN/foreach
+	sci-CRAN/ggplot2
+	sci-BIOC/Biobase
+	sci-CRAN/lmerTest
+	sci-CRAN/reshape2
+	sci-CRAN/gplots
+	>=sci-CRAN/lme4-1.1.10
 	>=sci-CRAN/pbkrtest-0.4.4
 	sci-CRAN/iterators
 	sci-CRAN/colorRamps
-	sci-CRAN/gplots
-	>=sci-CRAN/lme4-1.1.10
-	>=dev-lang/R-3.5.0
-	sci-BIOC/limma
-	sci-CRAN/scales
-	sci-CRAN/reshape2
-	virtual/MASS
-	sci-CRAN/ggplot2
-	sci-CRAN/foreach
-	sci-BIOC/Biobase
+	sci-BIOC/BiocParallel
 	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

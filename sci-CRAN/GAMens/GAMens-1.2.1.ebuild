@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GAMens_1.2.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/caTools
-	sci-CRAN/mlbench
+DEPEND="sci-CRAN/mlbench
+	sci-CRAN/caTools
 	sci-CRAN/gam
 "
 RDEPEND="${DEPEND-}"

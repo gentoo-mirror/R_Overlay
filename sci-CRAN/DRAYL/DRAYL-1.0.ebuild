@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DRAYL_1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/RConics
-	sci-CRAN/cubature
-	>=dev-lang/R-3.0.1
+DEPEND=">=dev-lang/R-3.0.1
+	sci-CRAN/RConics
 	sci-CRAN/rmutil
 	sci-CRAN/pracma
+	sci-CRAN/cubature
 "
 RDEPEND="${DEPEND-}"

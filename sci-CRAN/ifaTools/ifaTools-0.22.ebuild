@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/reshape2
-	>=dev-lang/R-2.14.0
+DEPEND=">=sci-CRAN/OpenMx-2.3.1
 	sci-CRAN/ggplot2
-	>=sci-CRAN/rpf-0.48
 	>=sci-CRAN/shiny-0.10
-	>=sci-CRAN/OpenMx-2.3.1
+	sci-CRAN/reshape2
+	>=sci-CRAN/rpf-0.48
+	>=dev-lang/R-2.14.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

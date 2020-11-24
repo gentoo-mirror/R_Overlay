@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.plugin.scs_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/slam
+DEPEND=">=sci-CRAN/scs-1.3.2
 	>=sci-CRAN/ROI-0.3.2
-	>=sci-CRAN/scs-1.3.2
+	sci-CRAN/slam
 "
 RDEPEND="${DEPEND-}"

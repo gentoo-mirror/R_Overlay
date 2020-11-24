@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/Rcpp-1.0
 	>=sci-CRAN/lubridate-1.7
-	>=sci-CRAN/stringr-1.4
 	>=sci-CRAN/dplyr-0.8
+	>=sci-CRAN/Rcpp-1.0
+	>=sci-CRAN/stringr-1.4
 	sci-CRAN/futile_logger
 "
 RDEPEND="${DEPEND-}

@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/shiny
 	sci-CRAN/xml2
 	sci-CRAN/wdman
+	sci-CRAN/rvest
+	sci-CRAN/shiny
+	sci-CRAN/httr
 	sci-CRAN/magrittr
 	sci-CRAN/RSelenium
 	sci-CRAN/memoise
-	sci-CRAN/httr
-	sci-CRAN/rvest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

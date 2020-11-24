@@ -12,8 +12,8 @@ LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/cvTools
 	sci-CRAN/robustbase
-	sci-CRAN/reshape2
 	sci-CRAN/pcaPP
+	sci-CRAN/reshape2
 	>=sci-CRAN/ggplot2-2.0.0
 "
 RDEPEND="${DEPEND-}"

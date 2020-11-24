@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/diffusion_0.2.7.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/dfoptim
-	sci-CRAN/nloptr
 	sci-CRAN/systemfit
+	sci-CRAN/nloptr
 "
 RDEPEND="${DEPEND-}"

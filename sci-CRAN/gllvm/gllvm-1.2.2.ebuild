@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/TMB
-	virtual/MASS
-	sci-CRAN/mvabund
+DEPEND="virtual/MASS
 	virtual/Matrix
+	sci-CRAN/mvabund
+	sci-CRAN/TMB
 	sci-CRAN/mvtnorm
 	sci-CRAN/statmod
 	sci-CRAN/fishMod

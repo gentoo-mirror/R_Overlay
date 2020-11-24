@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/later
+DEPEND="sci-CRAN/R6
 	sci-CRAN/magrittr
+	sci-CRAN/later
+	sci-CRAN/rlang
 	sci-CRAN/Rcpp
-	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/later

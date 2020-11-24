@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/STOPES_0.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/changepoint
-	sci-CRAN/glmnet
 	virtual/MASS
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

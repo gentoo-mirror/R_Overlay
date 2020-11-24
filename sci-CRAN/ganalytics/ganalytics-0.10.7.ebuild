@@ -25,22 +25,22 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/googleAnalyticsR-0.6.0
+	sci-CRAN/scales
 	sci-CRAN/httpuv
 	>=sci-CRAN/httr-1.0.0
+	>=sci-CRAN/assertthat-0.2.0
+	>=sci-CRAN/googleAnalyticsR-0.6.0
 	sci-CRAN/jsonlite
 	sci-CRAN/lazyeval
 	sci-CRAN/lubridate
 	sci-CRAN/plyr
 	sci-CRAN/R6
-	sci-CRAN/scales
 	sci-CRAN/rvest
-	sci-CRAN/xml2
 	>=sci-CRAN/stringr-1.0
-	sci-CRAN/selectr
 	sci-CRAN/XML
+	sci-CRAN/xml2
 	sci-CRAN/tibble
+	sci-CRAN/selectr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

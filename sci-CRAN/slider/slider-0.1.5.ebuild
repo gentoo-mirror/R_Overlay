@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/vctrs-0.3.0
-	sci-CRAN/warp
 	sci-CRAN/glue
+	sci-CRAN/warp
+	>=sci-CRAN/vctrs-0.3.0
 	>=sci-CRAN/rlang-0.4.5
 "
 RDEPEND="${DEPEND-}

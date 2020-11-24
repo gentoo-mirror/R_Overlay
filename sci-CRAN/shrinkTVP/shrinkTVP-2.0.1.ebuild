@@ -18,18 +18,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/GIGrvg
-	sci-CRAN/coda
+DEPEND="sci-CRAN/coda
 	sci-CRAN/Rcpp
-	sci-CRAN/stochvol
+	sci-CRAN/GIGrvg
 	>=dev-lang/R-3.3.0
+	sci-CRAN/stochvol
 	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/Rcpp
-	sci-CRAN/RcppProgress
-	sci-CRAN/GIGrvg
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/stochvol
+	sci-CRAN/RcppProgress
+	sci-CRAN/RcppArmadillo
+	sci-CRAN/GIGrvg
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

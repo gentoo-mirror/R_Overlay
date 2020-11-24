@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/flars_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/fda
-	virtual/MASS
-	virtual/Matrix
+DEPEND="virtual/MASS
 	sci-CRAN/Rcpp
+	virtual/Matrix
+	>=dev-lang/R-3.2.0
+	sci-CRAN/fda
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.0

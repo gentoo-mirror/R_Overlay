@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_robustbase? ( sci-CRAN/robustbase )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/gridBase-0.4.6
 	sci-CRAN/sfsmisc
 	sci-CRAN/colorspace
+	>=sci-CRAN/gridBase-0.4.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

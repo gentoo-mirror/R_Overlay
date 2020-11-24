@@ -18,11 +18,11 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/fitdistrplus
 	sci-CRAN/e1071
-	sci-CRAN/actuar
 	sci-CRAN/ggplot2
+	sci-CRAN/actuar
 	sci-CRAN/goftest
-	>=sci-CRAN/miniUI-0.1.1
 	>=sci-CRAN/shiny-0.13
+	>=sci-CRAN/miniUI-0.1.1
 	>=sci-CRAN/rstudioapi-0.5
 	sci-CRAN/DT
 "

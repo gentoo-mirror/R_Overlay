@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/CTTShiny_0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.3
-	sci-CRAN/shiny
-	sci-CRAN/CTT
-	sci-CRAN/shinyAce
-	sci-CRAN/psych
 	sci-CRAN/ltm
+	sci-CRAN/shiny
+	sci-CRAN/shinyAce
+	sci-CRAN/CTT
+	sci-CRAN/psych
 "
 RDEPEND="${DEPEND-}"

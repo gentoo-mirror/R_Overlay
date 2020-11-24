@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1
-	>=sci-CRAN/pkgbuild-1.1
 	>=sci-CRAN/rstudioapi-0.11
+	>=sci-CRAN/pkgbuild-1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

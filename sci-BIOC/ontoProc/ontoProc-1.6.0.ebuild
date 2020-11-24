@@ -17,14 +17,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/ontologyIndex
 	sci-BIOC/S4Vectors
+	sci-BIOC/AnnotationDbi
+	sci-BIOC/Biobase
+	sci-CRAN/shiny
 	sci-BIOC/graph
 	sci-CRAN/ontologyPlot
 	sci-CRAN/dplyr
-	sci-BIOC/Biobase
-	sci-CRAN/ontologyIndex
-	sci-BIOC/AnnotationDbi
-	sci-CRAN/shiny
 	sci-BIOC/Rgraphviz
 	sci-CRAN/magrittr
 "

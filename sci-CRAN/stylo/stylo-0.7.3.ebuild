@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_readr? ( sci-CRAN/readr )
 	r_suggests_stringi? ( sci-CRAN/stringi )
 "
-DEPEND="dev-lang/R[tk]
+DEPEND=">=dev-lang/R-2.14
 	sci-CRAN/e1071
-	dev-lang/R[tk]
-	>=dev-lang/R-2.14
-	sci-CRAN/ape
-	sci-CRAN/pamr
 	virtual/class
-	virtual/lattice
+	sci-CRAN/pamr
+	sci-CRAN/ape
 	sci-CRAN/tsne
+	dev-lang/R[tk]
+	dev-lang/R[tk]
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

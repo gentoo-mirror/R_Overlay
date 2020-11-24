@@ -23,19 +23,19 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.0.0 )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/glue-1.1.1
-	>=sci-CRAN/lubridate-1.6.0
 	>=sci-CRAN/dplyr-0.7.4
+	>=sci-CRAN/glue-1.1.1
 	>=sci-CRAN/purrr-0.2.3
+	>=sci-CRAN/hms-0.4
+	>=sci-CRAN/vctrs-0.2.0
+	sci-CRAN/lifecycle
+	>=sci-CRAN/assertthat-0.2.0
+	>=sci-CRAN/lubridate-1.6.0
+	>=sci-CRAN/Rcpp-0.12.7
 	>=sci-CRAN/rlang-0.1.6
 	>=sci-CRAN/tibble-3.0.0
 	>=sci-CRAN/tidyselect-0.2.5
 	>=sci-CRAN/zoo-1.8.0
-	>=sci-CRAN/hms-0.4
-	>=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/Rcpp-0.12.7
-	>=sci-CRAN/vctrs-0.2.0
-	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.3
 	sci-CRAN/corrgram
-	sci-CRAN/rpivotTable
-	sci-CRAN/shiny
 	sci-CRAN/shinyAce
+	sci-CRAN/shiny
+	sci-CRAN/rpivotTable
 "
 RDEPEND="${DEPEND-}"

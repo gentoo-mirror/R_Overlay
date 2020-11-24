@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/magrittr
-	sci-CRAN/Hmisc
-	sci-CRAN/assertthat
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/Hmisc
 	sci-CRAN/rlang
 	sci-CRAN/stringi
+	sci-CRAN/dplyr
+	sci-CRAN/purrr
+	sci-CRAN/assertthat
+	sci-CRAN/magrittr
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

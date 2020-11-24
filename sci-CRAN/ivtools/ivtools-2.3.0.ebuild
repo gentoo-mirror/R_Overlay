@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ivtools_2.3.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="sci-CRAN/nleqslv
+DEPEND="sci-CRAN/numDeriv
 	virtual/survival
-	sci-CRAN/numDeriv
-	sci-CRAN/data_table
+	sci-CRAN/nleqslv
 	sci-CRAN/ahaz
+	sci-CRAN/data_table
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

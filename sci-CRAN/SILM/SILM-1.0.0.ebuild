@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/SILM_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/scalreg
+	sci-CRAN/SIS
 	sci-CRAN/hdi
 	sci-CRAN/glmnet
-	sci-CRAN/SIS
 "
 RDEPEND="${DEPEND-}"

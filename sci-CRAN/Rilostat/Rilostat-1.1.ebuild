@@ -22,17 +22,17 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/DT
-	>=dev-lang/R-3.5.0
-	sci-CRAN/stringr
-	>=sci-CRAN/readr-1.3.1
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/plyr
+	>=sci-CRAN/readr-1.3.1
+	sci-CRAN/stringr
 	>=sci-CRAN/dplyr-0.8
 	sci-CRAN/tibble
 	sci-CRAN/haven
 	sci-CRAN/xml2
 	sci-CRAN/data_table
 	sci-CRAN/RCurl
+	sci-CRAN/DT
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

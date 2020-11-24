@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/SASxport_1.7.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/Hmisc
 	sci-CRAN/stringi
+	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-}"

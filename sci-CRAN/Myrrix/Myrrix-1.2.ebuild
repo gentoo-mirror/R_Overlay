@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Myrrix_1.2.tar.gz"
 LICENSE='Apache-2.0'
 
-DEPEND="sci-CRAN/Myrrixjars
-	>=sci-CRAN/rJava-0.6.3
+DEPEND=">=sci-CRAN/rJava-0.6.3
+	sci-CRAN/Myrrixjars
 "
 RDEPEND="${DEPEND-} virtual/jdk"

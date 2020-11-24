@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/tibble
-	sci-CRAN/RTriangle
+DEPEND="sci-CRAN/RTriangle
 	sci-CRAN/dplyr
 	sci-CRAN/sf
 	sci-CRAN/sp
+	>=dev-lang/R-3.3.0
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

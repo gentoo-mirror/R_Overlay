@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_lintr? ( sci-CRAN/lintr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/sf
+DEPEND="sci-CRAN/Rcpp
+	sci-CRAN/sf
 	sci-CRAN/sp
-	sci-CRAN/Rcpp
 	sci-CRAN/rgeos
 "
 RDEPEND="${DEPEND-}

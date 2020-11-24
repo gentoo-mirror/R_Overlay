@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_mixtools? ( sci-CRAN/mixtools )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/amerika
 	sci-CRAN/wesanderson
-	sci-CRAN/amerika
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

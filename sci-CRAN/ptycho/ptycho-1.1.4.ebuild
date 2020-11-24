@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_foreach? ( sci-CRAN/foreach )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/reshape2
-	sci-CRAN/plyr
 	sci-CRAN/coda
+	sci-CRAN/plyr
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

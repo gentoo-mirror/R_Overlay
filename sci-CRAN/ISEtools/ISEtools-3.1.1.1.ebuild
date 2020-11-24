@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_rjags? ( sci-CRAN/rjags )
 "
-DEPEND="sci-CRAN/coda
-	sci-CRAN/Xmisc
+DEPEND="sci-CRAN/Xmisc
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

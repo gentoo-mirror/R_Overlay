@@ -12,10 +12,10 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/rTensor
-	sci-CRAN/PTAk
+DEPEND="sci-CRAN/PTAk
 	virtual/Matrix
+	sci-CRAN/rTensor
+	>=dev-lang/R-3.5.0
 	sci-CRAN/tensorr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,8 +18,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.1
 	sci-CRAN/logistf
-	sci-CRAN/rms
 	sci-CRAN/shrink
+	sci-CRAN/rms
 	sci-CRAN/penalized
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

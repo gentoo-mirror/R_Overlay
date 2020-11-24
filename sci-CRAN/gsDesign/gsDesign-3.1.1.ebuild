@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/tibble
-	sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/plyr
-	>=dev-lang/R-3.5.0
+	sci-CRAN/rlang
 	>=sci-CRAN/ggplot2-0.9.2
 	sci-CRAN/xtable
+	sci-CRAN/mvtnorm
+	sci-CRAN/tibble
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

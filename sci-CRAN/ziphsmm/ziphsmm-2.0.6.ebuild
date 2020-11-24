@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ziphsmm_2.0.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/pracma
 	sci-CRAN/Rcpp
+	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

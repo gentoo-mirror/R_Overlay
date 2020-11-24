@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IsoplotRgui_3.5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/IsoplotR-3.4
-	>=sci-CRAN/jsonlite-1.6.1
+DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/later-1.0
+	>=sci-CRAN/jsonlite-1.6.1
+	>=sci-CRAN/IsoplotR-3.4
 	>=sci-CRAN/httpuv-1.5.4
-	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}"

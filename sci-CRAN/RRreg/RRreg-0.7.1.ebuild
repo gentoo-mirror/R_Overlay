@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/lme4
-	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

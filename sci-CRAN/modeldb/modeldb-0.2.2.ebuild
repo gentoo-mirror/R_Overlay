@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/ggplot2
-	>=sci-CRAN/dplyr-0.7
-	>=dev-lang/R-3.1
-	sci-CRAN/tibble
+DEPEND=">=dev-lang/R-3.1
+	sci-CRAN/purrr
 	sci-CRAN/rlang
+	sci-CRAN/tibble
+	>=sci-CRAN/dplyr-0.7
 	sci-CRAN/progress
+	sci-CRAN/ggplot2
 	sci-CRAN/tidypredict
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

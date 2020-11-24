@@ -18,8 +18,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/doParallel
 	sci-CRAN/Rcpp
-	virtual/rpart
 	sci-CRAN/foreach
+	virtual/rpart
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

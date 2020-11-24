@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_mass? ( virtual/MASS )
 "
-DEPEND="sci-CRAN/e1071
+DEPEND=">=sci-BIOC/cellHTS2-2.10.0
+	sci-BIOC/vsn
+	>=sci-BIOC/EBImage-4.3.12
 	sci-BIOC/Biobase
 	sci-CRAN/hwriter
-	>=sci-BIOC/cellHTS2-2.10.0
-	>=sci-BIOC/EBImage-4.3.12
-	sci-BIOC/vsn
+	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

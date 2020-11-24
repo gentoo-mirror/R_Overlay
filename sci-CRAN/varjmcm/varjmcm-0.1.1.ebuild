@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/varjmcm_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/jmcm
-	virtual/MASS
+DEPEND="sci-CRAN/jmcm
+	virtual/Matrix
 	sci-CRAN/expm
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

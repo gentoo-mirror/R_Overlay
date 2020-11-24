@@ -12,11 +12,11 @@ LICENSE='Apache-2.0'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/abind
-	sci-CRAN/bigmemory
+DEPEND="virtual/nlme
 	sci-CRAN/lme4
+	sci-CRAN/bigmemory
 	sci-CRAN/foreach
-	virtual/nlme
+	sci-CRAN/abind
 	sci-CRAN/logging
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

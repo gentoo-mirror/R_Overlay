@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_plm? ( sci-CRAN/plm )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-2.15.2
-	virtual/Matrix
-	sci-CRAN/xtable
+DEPEND="sci-CRAN/xtable
 	sci-CRAN/sandwich
 	sci-CRAN/Formula
+	>=dev-lang/R-2.15.2
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

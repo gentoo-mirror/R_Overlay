@@ -24,17 +24,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_verification? ( sci-CRAN/verification )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/spacetime
-	sci-CRAN/sp
-	sci-CRAN/sparseinv
-	sci-CRAN/dplyr
-	sci-CRAN/digest
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/digest
 	>=sci-CRAN/Hmisc-4.1
-	virtual/Matrix
+	sci-CRAN/ggplot2
 	sci-CRAN/plyr
+	virtual/Matrix
 	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/sparseinv
+	>=dev-lang/R-3.2.0
+	sci-CRAN/dplyr
+	sci-CRAN/sp
+	sci-CRAN/spacetime
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

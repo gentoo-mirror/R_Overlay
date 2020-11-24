@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/supraHex_1.22.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/hexbin
+DEPEND=">=dev-lang/R-3.3
+	sci-CRAN/hexbin
 	sci-CRAN/ape
-	>=dev-lang/R-3.3
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

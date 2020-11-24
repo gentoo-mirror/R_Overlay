@@ -19,7 +19,7 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.3.0
 	virtual/lattice
 	sci-CRAN/repr
-	sci-CRAN/data_table
 	virtual/MASS
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

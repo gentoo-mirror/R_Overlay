@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/data_table
-	sci-CRAN/iterators
-	sci-CRAN/plyr
 	sci-CRAN/ggplot2
+	sci-CRAN/data_table
+	sci-CRAN/plyr
+	sci-CRAN/iterators
 	sci-CRAN/doParallel
 	sci-CRAN/foreach
 "

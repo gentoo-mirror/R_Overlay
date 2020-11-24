@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GeDS_0.1.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/Rcpp-0.12.1
+DEPEND="sci-CRAN/Rmpfr
 	>=dev-lang/R-3.0.1
 	virtual/Matrix
-	sci-CRAN/Rmpfr
+	>=sci-CRAN/Rcpp-0.12.1
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

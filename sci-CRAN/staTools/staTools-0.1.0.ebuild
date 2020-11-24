@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/staTools_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.1
+	sci-CRAN/magicaxis
 	sci-CRAN/VGAM
 	sci-CRAN/Rcpp
-	sci-CRAN/magicaxis
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

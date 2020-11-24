@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/sfsmisc
-	sci-CRAN/scales
+DEPEND="sci-CRAN/scales
+	sci-CRAN/sfsmisc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/curl
-	>=sci-CRAN/assertthat-0.2.0
+DEPEND="sci-CRAN/curl
+	sci-CRAN/openssl
 	>=sci-CRAN/httr-1.2.1
+	>=sci-CRAN/assertthat-0.2.0
+	>=dev-lang/R-3.2.0
 	>=sci-CRAN/googleAuthR-1.0.0
 	>=sci-CRAN/jsonlite-1.0
-	sci-CRAN/openssl
 	sci-CRAN/yaml
 	>=sci-CRAN/zip-2.0.3
 "

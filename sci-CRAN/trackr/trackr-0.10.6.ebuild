@@ -25,20 +25,20 @@ R_SUGGESTS="
 	r_suggests_proto? ( sci-CRAN/proto )
 	r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )
 "
-DEPEND=">=sci-CRAN/histry-0.2.1
+DEPEND="sci-CRAN/fastdigest
+	>=sci-CRAN/roprov-0.1.1
+	sci-CRAN/miniUI
+	sci-CRAN/htmltools
 	sci-CRAN/gridGraphics
+	>=sci-CRAN/histry-0.2.1
 	sci-CRAN/ggplot2
 	virtual/lattice
-	sci-CRAN/fastdigest
-	sci-CRAN/rsolr
-	>=sci-CRAN/roprov-0.1.1
-	sci-CRAN/rlang
 	>=sci-CRAN/CodeDepends-0.6.2
 	sci-CRAN/RJSONIO
-	sci-CRAN/htmltools
-	sci-CRAN/miniUI
+	sci-CRAN/rsolr
 	sci-CRAN/shiny
 	sci-CRAN/rmarkdown
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

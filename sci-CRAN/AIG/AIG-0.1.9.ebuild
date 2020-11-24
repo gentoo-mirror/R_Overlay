@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/AIG_0.1.9.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/mgcv
+	sci-CRAN/rgl
 	sci-CRAN/dplyr
 	sci-CRAN/magrittr
-	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

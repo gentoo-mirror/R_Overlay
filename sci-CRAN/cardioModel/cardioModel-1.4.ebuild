@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cardioModel_1.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/nlme
-	sci-CRAN/lubridate
+DEPEND="sci-CRAN/lubridate
+	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

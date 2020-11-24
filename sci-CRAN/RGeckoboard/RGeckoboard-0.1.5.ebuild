@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RGeckoboard_0.1-5.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/jsonlite
 	sci-CRAN/httr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/SwathXtend
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/e1071
-	sci-CRAN/VennDiagram
-	sci-CRAN/openxlsx
 	virtual/lattice
+	sci-CRAN/openxlsx
+	sci-CRAN/VennDiagram
 "
 RDEPEND="${DEPEND-}"

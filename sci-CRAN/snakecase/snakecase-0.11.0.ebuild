@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/stringr
 	sci-CRAN/stringi
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

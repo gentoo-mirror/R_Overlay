@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/rtrends_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/dplyr
 	sci-CRAN/lubridate
+	sci-CRAN/dplyr
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

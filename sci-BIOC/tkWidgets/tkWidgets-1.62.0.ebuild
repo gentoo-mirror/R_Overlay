@@ -12,8 +12,8 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_biobase"
 R_SUGGESTS="r_suggests_biobase? ( sci-BIOC/Biobase )"
-DEPEND=">=sci-BIOC/widgetTools-1.1.7
-	>=sci-BIOC/DynDoc-1.3.0
+DEPEND=">=sci-BIOC/DynDoc-1.3.0
+	>=sci-BIOC/widgetTools-1.1.7
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

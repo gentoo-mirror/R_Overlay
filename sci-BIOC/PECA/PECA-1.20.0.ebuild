@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/PECA_1.20.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.3
-	sci-BIOC/ROTS
-	sci-BIOC/genefilter
-	sci-BIOC/limma
-	sci-BIOC/affy
+DEPEND="sci-BIOC/ROTS
 	sci-BIOC/preprocessCore
+	sci-BIOC/limma
+	sci-BIOC/genefilter
+	sci-BIOC/affy
 	sci-CRAN/aroma_affymetrix
 	sci-CRAN/aroma_core
+	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-}"
 

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/NatureSounds_1.0.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/knitr
 	sci-CRAN/tuneR
+	sci-CRAN/knitr
 "
 RDEPEND="${DEPEND-}"

@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/permute
+DEPEND="sci-CRAN/vegan
 	>=dev-lang/R-3.2.0
+	sci-CRAN/permute
 	sci-CRAN/assertthat
-	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

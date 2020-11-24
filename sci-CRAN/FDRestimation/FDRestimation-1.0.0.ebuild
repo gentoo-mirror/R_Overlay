@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FDRestimation_1.0.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/Rdpack
+DEPEND="sci-CRAN/Rdpack
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-}"

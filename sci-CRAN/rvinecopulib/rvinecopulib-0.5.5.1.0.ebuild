@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_igraph? ( sci-CRAN/igraph )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/assertthat
-	>=sci-CRAN/kde1d-1.0.2
-	virtual/lattice
+DEPEND="virtual/lattice
 	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/assertthat
+	>=sci-CRAN/kde1d-1.0.2
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/BH
-	sci-CRAN/Rcpp
 	sci-CRAN/RcppThread
-	sci-CRAN/kde1d
-	sci-CRAN/wdm
 	sci-CRAN/RcppEigen
+	sci-CRAN/kde1d
+	sci-CRAN/Rcpp
+	sci-CRAN/BH
+	sci-CRAN/wdm
 	${R_SUGGESTS-}
 "

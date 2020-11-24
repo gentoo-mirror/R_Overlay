@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	virtual/MASS
 	virtual/survival
+	virtual/MASS
 	sci-CRAN/quantreg
 	sci-CRAN/coxrobust
 	sci-CRAN/Rcpp

@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/doParallel
-	sci-CRAN/prodlim
-	sci-CRAN/data_table
 	sci-CRAN/foreach
-	sci-CRAN/Rcpp
+	sci-CRAN/data_table
 	sci-CRAN/lava
+	sci-CRAN/Rcpp
+	sci-CRAN/prodlim
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

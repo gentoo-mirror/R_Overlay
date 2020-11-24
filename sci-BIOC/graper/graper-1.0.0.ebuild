@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/ggplot2
-	virtual/Matrix
-	virtual/Matrix
 	sci-CRAN/Rcpp
+	virtual/Matrix
+	sci-CRAN/ggplot2
 	sci-CRAN/cowplot
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

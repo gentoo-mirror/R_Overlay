@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/qad_0.2.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/doParallel
-	sci-CRAN/ggExtra
-	sci-CRAN/viridis
 	sci-CRAN/foreach
-	sci-CRAN/dplyr
-	sci-CRAN/data_table
+	sci-CRAN/doParallel
+	sci-CRAN/viridis
 	sci-CRAN/copula
+	sci-CRAN/ggExtra
+	sci-CRAN/data_table
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

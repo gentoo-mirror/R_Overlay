@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
 DEPEND="sci-CRAN/crul
+	sci-CRAN/jsonlite
 	sci-CRAN/hoardr
 	sci-CRAN/pdftools
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

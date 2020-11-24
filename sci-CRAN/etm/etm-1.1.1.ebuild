@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_kmi? ( sci-CRAN/kmi )
 "
-DEPEND="sci-CRAN/data_table
+DEPEND="virtual/survival
 	virtual/lattice
-	>=sci-CRAN/Rcpp-0.11.4
-	virtual/survival
 	>=dev-lang/R-3.0.0
+	>=sci-CRAN/Rcpp-0.11.4
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

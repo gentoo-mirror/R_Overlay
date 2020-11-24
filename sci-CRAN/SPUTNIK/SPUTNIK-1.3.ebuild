@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SPUTNIK_1.3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/e1071
-	sci-CRAN/spatstat
-	sci-CRAN/reshape
+DEPEND=">=dev-lang/R-3.4.0
 	sci-BIOC/edgeR
-	>=dev-lang/R-3.4.0
-	sci-CRAN/viridis
+	sci-CRAN/reshape
 	sci-CRAN/ggplot2
-	sci-CRAN/imager
+	sci-CRAN/viridis
 	sci-CRAN/infotheo
 	sci-CRAN/irlba
+	sci-CRAN/spatstat
+	sci-CRAN/e1071
+	sci-CRAN/imager
 "
 RDEPEND="${DEPEND-}"

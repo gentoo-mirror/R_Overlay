@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/MAVTgsa_1.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.13.2
+	sci-CRAN/foreach
+	sci-CRAN/multcomp
 	sci-CRAN/corpcor
 	sci-CRAN/randomForest
-	sci-CRAN/multcomp
-	sci-CRAN/foreach
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

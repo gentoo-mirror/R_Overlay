@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/truncSP_1.2.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/boot
-	sci-CRAN/truncreg
+DEPEND="sci-CRAN/truncreg
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

@@ -20,17 +20,17 @@ R_SUGGESTS="
 	r_suggests_maptools? ( sci-CRAN/maptools )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/maps
-	sci-CRAN/parsedate
-	sci-CRAN/sp
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/httr
-	sci-CRAN/abind
-	sci-CRAN/ncdf4
+DEPEND="sci-CRAN/httr
 	>=sci-CRAN/plotdap-0.0.5
 	sci-CRAN/readr
+	>=dev-lang/R-4.0.0
+	sci-CRAN/sp
+	sci-CRAN/ggplot2
+	sci-CRAN/abind
+	sci-CRAN/dplyr
+	sci-CRAN/maps
+	sci-CRAN/ncdf4
+	sci-CRAN/parsedate
 	>=sci-CRAN/rerddap-0.6.0
 	sci-CRAN/sf
 "

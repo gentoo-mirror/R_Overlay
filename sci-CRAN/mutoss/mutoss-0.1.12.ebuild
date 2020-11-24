@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_qvalue? ( sci-BIOC/qvalue )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-BIOC/multtest-2.2.0
+DEPEND="sci-CRAN/mvtnorm
+	>=sci-BIOC/multtest-2.2.0
 	sci-CRAN/plotrix
-	sci-CRAN/mvtnorm
 	>=sci-CRAN/multcomp-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

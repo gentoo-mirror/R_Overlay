@@ -42,9 +42,9 @@ R_SUGGESTS="
 	r_suggests_tam? ( sci-CRAN/TAM )
 "
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/Rcpp
-	>=sci-CRAN/mice-3.0.0
 	sci-CRAN/mitools
+	>=sci-CRAN/mice-3.0.0
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

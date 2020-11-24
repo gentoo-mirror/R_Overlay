@@ -20,18 +20,18 @@ R_SUGGESTS="
 	r_suggests_shinydashboard? ( sci-CRAN/shinydashboard )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/tsfeatures
-	sci-CRAN/doRNG
-	sci-CRAN/mvtnorm
-	sci-CRAN/polynom
-	sci-CRAN/forecast
-	sci-CRAN/dplyr
-	sci-CRAN/tibble
 	sci-CRAN/foreach
 	sci-CRAN/purrr
+	sci-CRAN/forecast
+	sci-CRAN/tibble
 	sci-CRAN/shiny
-	sci-CRAN/tsibble
+	sci-CRAN/tsfeatures
+	sci-CRAN/mvtnorm
+	sci-CRAN/doRNG
+	sci-CRAN/polynom
+	sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/GA
+	sci-CRAN/tsibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_snpstats? ( sci-BIOC/snpStats )
 "
-DEPEND=">=dev-lang/R-3.2.0
+DEPEND=">=sci-CRAN/ape-5.3.11
+	>=dev-lang/R-3.2.0
 	sci-CRAN/adegenet
-	>=sci-CRAN/ape-5.3.11
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

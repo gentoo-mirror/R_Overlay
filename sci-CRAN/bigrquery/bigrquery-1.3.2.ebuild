@@ -25,20 +25,20 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 	r_suggests_wk? ( >=sci-CRAN/wk-0.3.2 )
 "
-DEPEND=">=dev-lang/R-3.2
+DEPEND="sci-CRAN/DBI
+	>=sci-CRAN/glue-1.3.0
 	sci-CRAN/assertthat
-	sci-CRAN/DBI
+	sci-CRAN/prettyunits
 	sci-CRAN/bit64
-	sci-CRAN/tibble
+	sci-CRAN/rlang
+	>=dev-lang/R-3.2
 	sci-CRAN/curl
 	>=sci-CRAN/gargle-0.5.0
-	>=sci-CRAN/glue-1.3.0
 	sci-CRAN/httr
 	sci-CRAN/jsonlite
-	sci-CRAN/prettyunits
 	sci-CRAN/progress
 	sci-CRAN/Rcpp
-	sci-CRAN/rlang
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/progress

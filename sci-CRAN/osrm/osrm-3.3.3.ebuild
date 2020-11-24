@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_lwgeom? ( sci-CRAN/lwgeom )
 "
 DEPEND="sci-CRAN/RCurl
-	sci-CRAN/gepaf
 	sci-CRAN/jsonlite
 	sci-CRAN/isoband
-	>=dev-lang/R-3.3.0
-	sci-CRAN/sp
 	sci-CRAN/sf
+	>=dev-lang/R-3.3.0
+	sci-CRAN/gepaf
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

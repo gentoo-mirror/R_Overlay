@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/raster
+	sci-CRAN/doParallel
 	sci-CRAN/foreach
-	sci-CRAN/rasterVis
+	sci-CRAN/Rcpp
 	sci-CRAN/abind
 	sci-CRAN/RColorBrewer
 	virtual/Matrix
-	sci-CRAN/Rcpp
-	sci-CRAN/doParallel
 	sci-CRAN/fda
+	sci-CRAN/raster
+	sci-CRAN/rasterVis
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

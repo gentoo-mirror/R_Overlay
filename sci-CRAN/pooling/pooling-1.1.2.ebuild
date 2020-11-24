@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/cubature
 	sci-CRAN/data_table
-	sci-CRAN/dplyr
-	sci-CRAN/numDeriv
 	sci-CRAN/ggplot2
+	sci-CRAN/numDeriv
+	sci-CRAN/dplyr
 	sci-CRAN/dvmisc
 	sci-CRAN/ggrepel
 	sci-CRAN/mvtnorm

@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_convey? ( sci-CRAN/convey )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/timeDate
-	sci-CRAN/readr
-	sci-CRAN/dplyr
-	sci-CRAN/RCurl
-	sci-CRAN/tibble
+DEPEND="sci-CRAN/survey
 	sci-CRAN/magrittr
-	sci-CRAN/survey
+	sci-CRAN/dplyr
+	sci-CRAN/readr
+	>=dev-lang/R-3.2.0
+	sci-CRAN/RCurl
+	sci-CRAN/timeDate
 	sci-CRAN/readxl
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

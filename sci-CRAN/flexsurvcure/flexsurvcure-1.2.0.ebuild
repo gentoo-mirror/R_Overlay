@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/survival
-	sci-CRAN/flexsurv
 	sci-CRAN/gtools
+	sci-CRAN/flexsurv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

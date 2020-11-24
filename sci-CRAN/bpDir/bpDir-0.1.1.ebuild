@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bpDir_0.1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/plotrix
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
 	virtual/MASS
 	sci-CRAN/circular
+	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-}"

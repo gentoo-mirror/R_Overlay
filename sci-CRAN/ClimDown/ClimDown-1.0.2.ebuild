@@ -13,10 +13,10 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
 DEPEND="sci-CRAN/PCICt
-	sci-CRAN/ncdf4
 	sci-CRAN/udunits2
 	sci-CRAN/foreach
 	sci-CRAN/fields
+	sci-CRAN/ncdf4
 	sci-CRAN/seas
 	sci-CRAN/abind
 "

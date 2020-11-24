@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/R6
-	sci-CRAN/crayon
+DEPEND="sci-CRAN/cli
+	sci-CRAN/R6
 	sci-CRAN/prettycode
-	sci-CRAN/cli
+	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

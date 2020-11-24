@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_car? ( sci-CRAN/car )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/bfast-1.5.7
-	sci-CRAN/strucchange
+DEPEND="sci-CRAN/RcppRoll
 	sci-CRAN/broom
+	>=sci-CRAN/bfast-1.5.7
+	>=dev-lang/R-3.6.0
+	sci-CRAN/strucchange
 	sci-CRAN/ggplot2
 	sci-CRAN/mblm
-	sci-CRAN/RcppRoll
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PortRisk_1.1.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/zoo
-	sci-CRAN/tseries
-	>=dev-lang/R-3.0.0
-	sci-CRAN/MCMCpack
+DEPEND="sci-CRAN/MCMCpack
 	sci-CRAN/copula
+	sci-CRAN/zoo
+	>=dev-lang/R-3.0.0
+	sci-CRAN/tseries
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

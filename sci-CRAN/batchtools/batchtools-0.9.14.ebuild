@@ -34,18 +34,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND=">=sci-CRAN/withr-2.0.0
-	>=sci-CRAN/progress-1.1.1
-	sci-CRAN/stringi
-	>=dev-lang/R-3.0.0
-	>=sci-CRAN/checkmate-1.8.5
-	sci-CRAN/R6
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/brew
-	>=sci-CRAN/base64url-1.1
 	>=sci-CRAN/backports-1.1.2
+	>=sci-CRAN/checkmate-1.8.5
+	>=sci-CRAN/withr-2.0.0
+	>=sci-CRAN/base64url-1.1
 	>=sci-CRAN/data_table-1.11.2
 	>=sci-CRAN/digest-0.6.9
 	>=sci-CRAN/fs-1.2.0
+	>=sci-CRAN/progress-1.1.1
+	sci-CRAN/R6
 	sci-CRAN/rappdirs
+	sci-CRAN/stringi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_memoise? ( sci-CRAN/memoise )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/combinat
+DEPEND="sci-CRAN/pspearman
 	sci-CRAN/stringi
-	sci-CRAN/pspearman
 	sci-CRAN/Hmisc
+	sci-CRAN/combinat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

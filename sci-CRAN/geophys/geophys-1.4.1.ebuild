@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/geophys_1.4-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/RFOC
-	virtual/cluster
+DEPEND=">=dev-lang/R-2.15
 	sci-CRAN/GEOmap
+	sci-CRAN/RFOC
 	sci-CRAN/RSEIS
-	>=dev-lang/R-2.15
 	sci-CRAN/RPMG
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

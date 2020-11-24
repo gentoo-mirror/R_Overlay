@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bayesmix_0.7-4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/rjags-2.1.0
-	>=sci-CRAN/coda-0.13
+DEPEND=">=sci-CRAN/coda-0.13
+	>=sci-CRAN/rjags-2.1.0
 "
 RDEPEND="${DEPEND-}"

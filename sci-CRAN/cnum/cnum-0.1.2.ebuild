@@ -12,8 +12,8 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_magrittr"
 R_SUGGESTS="r_suggests_magrittr? ( sci-CRAN/magrittr )"
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

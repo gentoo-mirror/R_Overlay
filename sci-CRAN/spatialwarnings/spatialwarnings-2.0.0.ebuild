@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_powerlaw? ( sci-CRAN/poweRlaw )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/future
-	sci-CRAN/plyr
-	sci-CRAN/ggplot2
-	sci-CRAN/Rcpp
-	sci-CRAN/gsl
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/tidyr
 	sci-CRAN/future_apply
+	sci-CRAN/Rcpp
+	sci-CRAN/plyr
+	>=dev-lang/R-3.3.0
+	sci-CRAN/future
+	sci-CRAN/gsl
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

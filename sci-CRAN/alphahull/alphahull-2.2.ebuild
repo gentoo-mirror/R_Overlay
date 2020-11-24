@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/alphahull_2.2.tar.gz"
 
 DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/R_utils
-	sci-CRAN/splancs
 	sci-CRAN/spatstat
-	sci-CRAN/tripack
 	sci-CRAN/sgeostat
+	sci-CRAN/tripack
+	sci-CRAN/splancs
 "
 RDEPEND="${DEPEND-}"

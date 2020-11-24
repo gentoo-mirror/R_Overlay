@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/MCMCglmm sci-CRAN/coda sci-CRAN/ggplot2 dev-lang/R
+DEPEND=sci-CRAN/MCMCglmm sci-CRAN/ggplot2 sci-CRAN/coda dev-lang/R
 DESCRIPTION=Bayesian Analysis of Multivariat... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=sci-CRAN/MCMCglmm sci-CRAN/coda sci-CRAN/ggplot2 dev-lang/R
+RDEPEND=sci-CRAN/MCMCglmm sci-CRAN/ggplot2 sci-CRAN/coda dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/MCMC.OTU_1.0.10.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=d6a92fc254b13c23c8008e22d522f778
+_md5_=2a3cd107fcfca94588a05d41c4b1db06

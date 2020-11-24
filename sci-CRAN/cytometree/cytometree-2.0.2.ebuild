@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/cowplot
-	sci-CRAN/ggplot2
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/cowplot
 	>=sci-CRAN/Rcpp-0.12.11
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.1.0
+	sci-CRAN/igraph
 	sci-CRAN/mclust
 	sci-CRAN/GoFKernel
 "

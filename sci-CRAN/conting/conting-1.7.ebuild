@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/conting_1.7.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/BMS
-	sci-CRAN/gtools
-	sci-CRAN/coda
-	>=dev-lang/R-2.15.0
 	sci-CRAN/tseries
 	sci-CRAN/mvtnorm
+	sci-CRAN/gtools
+	>=dev-lang/R-2.15.0
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/coalescentMCMC_0.4-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ape
+DEPEND="virtual/Matrix
 	sci-CRAN/phangorn
-	virtual/lattice
-	virtual/Matrix
+	sci-CRAN/ape
 	sci-CRAN/coda
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

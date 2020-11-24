@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/curl
-	>=sci-CRAN/crul-0.4.0
-	sci-CRAN/ape
-	>=sci-CRAN/taxize-0.9.97
 	sci-CRAN/phytools
+	sci-CRAN/curl
+	sci-CRAN/ape
+	>=sci-CRAN/crul-0.4.0
+	>=sci-CRAN/taxize-0.9.97
 	>=sci-CRAN/phylocomr-0.1.4
 	sci-CRAN/conditionz
 "

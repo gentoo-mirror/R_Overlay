@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SCVA_1.3.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/scales
-	sci-CRAN/ggExtra
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggExtra
+	sci-CRAN/scales
 	sci-CRAN/plotly
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

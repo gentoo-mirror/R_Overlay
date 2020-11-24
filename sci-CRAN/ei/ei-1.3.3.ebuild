@@ -12,17 +12,17 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
-DEPEND="sci-CRAN/msm
-	sci-CRAN/ellipse
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/mnormt
 	sci-CRAN/eiPack
+	sci-CRAN/foreach
+	sci-CRAN/plotrix
+	sci-CRAN/sp
+	sci-CRAN/tmvtnorm
+	sci-CRAN/msm
+	sci-CRAN/ellipse
 	virtual/MASS
 	sci-CRAN/ucminf
 	sci-CRAN/cubature
-	sci-CRAN/sp
-	sci-CRAN/tmvtnorm
-	sci-CRAN/plotrix
-	sci-CRAN/mnormt
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

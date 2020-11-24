@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/restriktor_0.2-800.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="virtual/MASS
 	sci-CRAN/ic_infer
-	virtual/MASS
+	>=dev-lang/R-3.0.0
 	virtual/boot
 	sci-CRAN/lavaan
 	sci-CRAN/mvtnorm

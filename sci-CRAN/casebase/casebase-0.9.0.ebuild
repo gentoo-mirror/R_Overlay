@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_visreg? ( sci-CRAN/visreg )
 "
-DEPEND="virtual/mgcv
+DEPEND=">=dev-lang/R-3.5.0
+	virtual/mgcv
 	sci-CRAN/ggplot2
-	sci-CRAN/data_table
-	>=dev-lang/R-3.5.0
-	virtual/survival
 	sci-CRAN/VGAM
+	sci-CRAN/data_table
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

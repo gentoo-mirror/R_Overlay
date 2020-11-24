@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/Dpit_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/moments
+	sci-CRAN/gsl
 	sci-CRAN/VGAM
 	sci-CRAN/fitdistrplus
-	sci-CRAN/gsl
+	sci-CRAN/moments
 "
 RDEPEND="${DEPEND-}"

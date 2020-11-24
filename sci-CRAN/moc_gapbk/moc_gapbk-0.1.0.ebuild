@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/amap
-	sci-CRAN/Rmisc
-	virtual/Matrix
+	sci-CRAN/doParallel
 	sci-CRAN/nsga2R
 	sci-CRAN/miscTools
-	sci-CRAN/plyr
-	sci-CRAN/doParallel
-	>=dev-lang/R-3.2.5
 	sci-CRAN/mco
-	sci-CRAN/reshape2
-	sci-CRAN/fields
-	sci-CRAN/foreach
 	sci-CRAN/doSNOW
+	>=dev-lang/R-3.2.5
+	sci-CRAN/reshape2
+	virtual/Matrix
+	sci-CRAN/fields
+	sci-CRAN/Rmisc
+	sci-CRAN/plyr
+	sci-CRAN/foreach
 	sci-CRAN/doMPI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

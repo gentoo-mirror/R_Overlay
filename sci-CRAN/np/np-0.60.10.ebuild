@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
 DEPEND="virtual/boot
-	sci-CRAN/quadprog
 	sci-CRAN/cubature
 	sci-CRAN/quantreg
+	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

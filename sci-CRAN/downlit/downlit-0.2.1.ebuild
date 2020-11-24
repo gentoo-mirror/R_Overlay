@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND="sci-CRAN/evaluate
-	sci-CRAN/rlang
-	sci-CRAN/vctrs
-	sci-CRAN/digest
-	sci-CRAN/fansi
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/brio
+	sci-CRAN/digest
+	sci-CRAN/rlang
+	sci-CRAN/fansi
 	sci-CRAN/yaml
+	sci-CRAN/evaluate
+	sci-CRAN/vctrs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AROC_1.0-2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Hmisc
+DEPEND="sci-CRAN/np
 	virtual/MASS
-	sci-CRAN/moments
-	sci-CRAN/np
+	sci-CRAN/Hmisc
 	virtual/Matrix
+	sci-CRAN/moments
 	sci-CRAN/nor1mix
 	sci-CRAN/spatstat
 "

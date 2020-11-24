@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/pracma
-	sci-CRAN/doParallel
-	sci-CRAN/igraph
-	sci-CRAN/network
-	>=dev-lang/R-3.0.0
-	sci-CRAN/Rdpack
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rdpack
 	sci-CRAN/RSpectra
 	sci-CRAN/foreach
+	sci-CRAN/Rcpp
+	sci-CRAN/doParallel
 	sci-CRAN/graphon
+	sci-CRAN/igraph
+	sci-CRAN/network
+	sci-CRAN/pracma
+	>=dev-lang/R-3.0.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-3.0.0 )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/dplyr-0.7.5
 	sci-CRAN/plyr
 	sci-CRAN/magrittr
 	>=sci-CRAN/Rcpp-0.12.7
+	>=sci-CRAN/dplyr-0.7.5
 	sci-CRAN/tidyr
 	sci-CRAN/doParallel
 "

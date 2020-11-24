@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/spray-1.0.8
-	>=sci-CRAN/permutations-1.0.4
 	sci-CRAN/partitions
+	>=sci-CRAN/permutations-1.0.4
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

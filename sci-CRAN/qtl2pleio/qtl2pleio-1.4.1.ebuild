@@ -26,16 +26,16 @@ DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/Rcpp
 	virtual/MASS
 	sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	sci-CRAN/tibble
 	>=dev-lang/R-3.2
 	sci-CRAN/gemma2
+	sci-CRAN/magrittr
 	sci-CRAN/rlang
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	sci-CRAN/testthat
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "
 

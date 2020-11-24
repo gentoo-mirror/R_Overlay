@@ -33,8 +33,8 @@ R_SUGGESTS="
 	r_suggests_statnet? ( sci-CRAN/statnet )
 "
 DEPEND=">=dev-lang/R-3.3.2
-	sci-CRAN/deSolve
-	sci-CRAN/shiny
 	sci-CRAN/polspline
+	sci-CRAN/shiny
+	sci-CRAN/deSolve
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

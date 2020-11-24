@@ -30,23 +30,23 @@ R_SUGGESTS="
 	r_suggests_vcr? ( >=sci-CRAN/vcr-0.5.4 )
 	r_suggests_webmockr? ( sci-CRAN/webmockr )
 "
-DEPEND="sci-CRAN/lubridate
+DEPEND="sci-CRAN/tidyr
 	sci-CRAN/tidyselect
-	>=sci-CRAN/crul-0.7.0
 	sci-CRAN/dplyr
-	sci-CRAN/tidyr
+	>=sci-CRAN/crul-0.7.0
+	sci-CRAN/lubridate
 	sci-CRAN/ggplot2
 	sci-CRAN/scales
 	sci-CRAN/XML
 	sci-CRAN/xml2
 	sci-CRAN/jsonlite
 	sci-CRAN/rappdirs
-	sci-CRAN/geonames
-	sci-CRAN/gridExtra
-	>=sci-CRAN/hoardr-0.5.2
 	sci-CRAN/tibble
 	>=sci-CRAN/isdparser-0.2.0
+	>=sci-CRAN/hoardr-0.5.2
 	sci-CRAN/data_table
+	sci-CRAN/gridExtra
+	sci-CRAN/geonames
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

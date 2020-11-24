@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/poolVIM_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-BIOC/EmpiricalBrownsMethod-1.6.0
-	>=dev-lang/R-3.3.1
-	>=sci-CRAN/Hmisc-4.1
 	sci-CRAN/ranger
+	>=sci-CRAN/Hmisc-4.1
+	>=dev-lang/R-3.3.1
 "
 RDEPEND="${DEPEND-}"

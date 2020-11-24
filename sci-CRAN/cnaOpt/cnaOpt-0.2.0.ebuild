@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cnaOpt_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/Rcpp
+	sci-CRAN/dplyr
+	virtual/Matrix
 	>=sci-CRAN/cna-3.0.0
 	>=dev-lang/R-3.4.0
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

@@ -12,7 +12,7 @@ LICENSE='EUPL-1.1'
 
 DEPEND="sci-CRAN/truncnorm
 	sci-CRAN/data_table
-	sci-CRAN/reshape2
 	sci-CRAN/triangle
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}"

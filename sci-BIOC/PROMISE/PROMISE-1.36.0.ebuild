@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/PROMISE_1.36.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/GSEABase
+DEPEND=">=dev-lang/R-3.1.0
 	sci-BIOC/GSEABase
-	>=dev-lang/R-3.1.0
+	sci-BIOC/GSEABase
 	sci-BIOC/Biobase
 	sci-BIOC/Biobase
 "

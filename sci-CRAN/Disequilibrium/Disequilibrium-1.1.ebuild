@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_sandwich? ( sci-CRAN/sandwich )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/optimr
 	sci-CRAN/Formula
+	sci-CRAN/optimr
 	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

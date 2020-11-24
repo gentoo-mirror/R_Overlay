@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_scales? ( sci-CRAN/scales )
 "
-DEPEND="sci-CRAN/survey
-	sci-CRAN/optimx
+DEPEND="sci-CRAN/optimx
+	sci-CRAN/survey
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

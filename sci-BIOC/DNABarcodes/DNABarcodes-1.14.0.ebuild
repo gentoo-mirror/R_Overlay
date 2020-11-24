@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="virtual/Matrix
-	>=sci-CRAN/Rcpp-0.11.2
 	sci-CRAN/BH
+	>=sci-CRAN/Rcpp-0.11.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

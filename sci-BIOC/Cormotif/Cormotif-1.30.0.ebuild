@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/Cormotif_1
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.12.0
-	sci-BIOC/affy
 	sci-BIOC/limma
+	sci-BIOC/affy
 	sci-BIOC/affy
 "
 RDEPEND="${DEPEND-}"

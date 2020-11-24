@@ -45,13 +45,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vip? ( sci-CRAN/vip )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/magrittr
+	virtual/mgcv
 	virtual/lattice
 	>=sci-CRAN/ggplot2-0.9.0
 	>=dev-lang/R-3.2.5
-	sci-CRAN/magrittr
-	virtual/mgcv
+	sci-CRAN/gridExtra
+	sci-CRAN/plyr
 	sci-CRAN/viridis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

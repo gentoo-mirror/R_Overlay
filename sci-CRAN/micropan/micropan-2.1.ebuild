@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/micropan_2.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/rlang
-	sci-CRAN/tibble
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/igraph
-	>=dev-lang/R-3.5.0
-	sci-CRAN/stringr
+	sci-CRAN/tibble
 	sci-CRAN/microseq
+	sci-CRAN/dplyr
+	sci-CRAN/rlang
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

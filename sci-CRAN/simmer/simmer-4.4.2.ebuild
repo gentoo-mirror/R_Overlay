@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_simmer_plot? ( sci-CRAN/simmer_plot )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/magrittr
-	>=dev-lang/R-3.1.2
-	sci-CRAN/Rcpp
+DEPEND=">=dev-lang/R-3.1.2
 	virtual/codetools
+	sci-CRAN/Rcpp
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.9

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DTWUMI_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/e1071
+DEPEND="sci-CRAN/rlist
 	sci-CRAN/lsa
-	sci-CRAN/DTWBI
 	>=dev-lang/R-3.0.0
 	sci-CRAN/dtw
-	sci-CRAN/rlist
+	sci-CRAN/e1071
 	sci-CRAN/entropy
+	sci-CRAN/DTWBI
 "
 RDEPEND="${DEPEND-}"

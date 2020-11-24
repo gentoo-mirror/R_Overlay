@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/hglasso_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/glasso
-	sci-CRAN/fields
 	sci-CRAN/mvtnorm
 	sci-CRAN/igraph
+	sci-CRAN/fields
 "
 RDEPEND="${DEPEND-}"

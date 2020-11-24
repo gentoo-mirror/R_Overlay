@@ -21,7 +21,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/assertthat
-	sci-CRAN/EQL
 	sci-CRAN/univariateML
+	sci-CRAN/EQL
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

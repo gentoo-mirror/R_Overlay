@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.BWS1_0.1-3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/Rcmdr
-	sci-CRAN/crossdes
-	sci-CRAN/support_CEs
-	virtual/survival
 	>=sci-CRAN/support_BWS-0.4.1
+	sci-CRAN/support_CEs
+	sci-CRAN/crossdes
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

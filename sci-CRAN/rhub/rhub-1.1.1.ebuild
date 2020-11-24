@@ -18,25 +18,25 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rappdirs
-	sci-CRAN/digest
-	sci-CRAN/crayon
-	sci-CRAN/callr
-	sci-CRAN/jsonlite
-	sci-CRAN/pillar
-	sci-CRAN/tibble
+DEPEND="sci-CRAN/pillar
+	sci-CRAN/rappdirs
 	sci-CRAN/processx
-	sci-CRAN/withr
-	sci-CRAN/R6
-	>=sci-CRAN/rcmdcheck-1.2.1
-	>=sci-CRAN/cli-1.1.0
-	sci-CRAN/prettyunits
-	sci-CRAN/uuid
-	sci-CRAN/whoami
 	sci-CRAN/rematch
 	sci-CRAN/desc
 	sci-CRAN/assertthat
+	sci-CRAN/crayon
+	>=sci-CRAN/rcmdcheck-1.2.1
+	sci-CRAN/uuid
+	sci-CRAN/tibble
+	sci-CRAN/prettyunits
+	sci-CRAN/R6
 	sci-CRAN/httr
+	sci-CRAN/jsonlite
+	sci-CRAN/whoami
+	sci-CRAN/digest
 	sci-CRAN/parsedate
+	sci-CRAN/callr
+	>=sci-CRAN/cli-1.1.0
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

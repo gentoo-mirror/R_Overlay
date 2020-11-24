@@ -22,8 +22,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rcpp
+	>=dev-lang/R-3.4
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

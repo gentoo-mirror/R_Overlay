@@ -18,7 +18,7 @@ R_SUGGESTS="
 	r_suggests_ranger? ( sci-CRAN/ranger )
 "
 DEPEND="sci-CRAN/party
-	sci-CRAN/gbm
 	sci-CRAN/randomForest
+	sci-CRAN/gbm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

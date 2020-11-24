@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GPFDA_2.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/spam
+DEPEND="virtual/MASS
 	sci-CRAN/fda_usc
-	sci-CRAN/fda
-	virtual/MASS
 	>=dev-lang/R-3.1
+	sci-CRAN/spam
+	sci-CRAN/fda
 "
 RDEPEND="${DEPEND-}"

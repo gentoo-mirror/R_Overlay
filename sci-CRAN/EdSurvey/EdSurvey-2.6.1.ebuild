@@ -20,23 +20,23 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=sci-CRAN/data_table-1.11.4
-	>=sci-CRAN/LaF-0.7
+DEPEND="virtual/Matrix
+	>=sci-CRAN/data_table-1.11.4
 	sci-CRAN/glm2
 	sci-CRAN/car
 	sci-CRAN/tibble
+	>=dev-lang/R-3.5.0
+	sci-CRAN/Formula
+	sci-CRAN/quantreg
+	>=sci-CRAN/lfactors-1.0.3
+	>=sci-CRAN/haven-2.2.0
+	sci-CRAN/lme4
+	sci-CRAN/readxl
+	virtual/MASS
+	sci-CRAN/wCorr
+	sci-CRAN/xtable
+	>=sci-CRAN/LaF-0.7
 	sci-CRAN/NAEPprimer
 	>=sci-CRAN/WeMix-3.1.3
-	sci-CRAN/readxl
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/lfactors-1.0.3
-	virtual/MASS
-	>=sci-CRAN/haven-2.2.0
-	sci-CRAN/wCorr
-	virtual/Matrix
-	sci-CRAN/lme4
-	sci-CRAN/quantreg
-	sci-CRAN/xtable
-	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

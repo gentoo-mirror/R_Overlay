@@ -12,8 +12,8 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_biocstyle"
 R_SUGGESTS="r_suggests_biocstyle? ( sci-BIOC/BiocStyle )"
-DEPEND=">=dev-lang/R-3.3
-	sci-BIOC/flowCore
+DEPEND="sci-BIOC/flowCore
+	>=dev-lang/R-3.3
 	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/scales
-	sci-CRAN/RColorBrewer
-	sci-CRAN/ggdendro
-	virtual/cluster
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/htmlwidgets
+	sci-CRAN/ggdendro
+	sci-CRAN/scales
+	>=dev-lang/R-3.5.0
+	virtual/cluster
+	sci-CRAN/RColorBrewer
 	sci-CRAN/jsonlite
 	sci-CRAN/knitr
 "

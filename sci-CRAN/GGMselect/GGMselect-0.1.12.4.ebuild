@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/mvtnorm
-	sci-CRAN/lars
 	sci-CRAN/gtools
+	sci-CRAN/lars
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

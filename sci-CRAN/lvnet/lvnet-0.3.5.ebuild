@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lvnet_0.3.5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/OpenMx
+DEPEND="sci-CRAN/psych
+	sci-CRAN/corpcor
+	sci-CRAN/lavaan
+	sci-CRAN/mvtnorm
+	sci-CRAN/dplyr
+	sci-CRAN/semPlot
+	>=dev-lang/R-3.2.0
 	sci-CRAN/qgraph
 	virtual/Matrix
 	sci-CRAN/glasso
-	sci-CRAN/psych
-	sci-CRAN/mvtnorm
-	sci-CRAN/corpcor
-	sci-CRAN/dplyr
-	sci-CRAN/lavaan
-	sci-CRAN/semPlot
+	sci-CRAN/OpenMx
 "
 RDEPEND="${DEPEND-}"

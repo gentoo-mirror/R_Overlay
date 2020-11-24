@@ -43,10 +43,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=sci-CRAN/parameters-0.8.6
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
 	>=sci-CRAN/insight-0.10.0
 	>=sci-CRAN/bayestestR-0.7.5
+	>=sci-CRAN/parameters-0.8.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

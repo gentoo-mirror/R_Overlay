@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_ineq"
 R_SUGGESTS="r_suggests_ineq? ( sci-CRAN/ineq )"
-DEPEND="sci-CRAN/gamlss
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/Hmisc
 	sci-CRAN/gamlss_dist
+	sci-CRAN/gamlss
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

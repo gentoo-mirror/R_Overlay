@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ClinicalUtilityRecal_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/lattice
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/caret
-	sci-CRAN/nloptr
 	sci-CRAN/cowplot
+	sci-CRAN/nloptr
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

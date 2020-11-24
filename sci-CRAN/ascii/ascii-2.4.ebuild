@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_r2html? ( sci-CRAN/R2HTML )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="virtual/survival
+DEPEND=">=dev-lang/R-2.13
 	sci-CRAN/digest
-	>=dev-lang/R-2.13
+	virtual/survival
 	virtual/codetools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

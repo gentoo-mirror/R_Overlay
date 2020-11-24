@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/Rcpp
 	sci-CRAN/htmlwidgets
 	sci-CRAN/XML
 	sci-CRAN/xml2
+	sci-CRAN/Rcpp
 	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-}

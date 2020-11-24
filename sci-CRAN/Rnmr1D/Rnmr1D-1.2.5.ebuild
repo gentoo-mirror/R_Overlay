@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-BIOC/impute-1.54.0
-	>=sci-CRAN/foreach-1.4.4
-	>=sci-CRAN/igraph-1.2.1
-	>=sci-CRAN/Rcpp-0.12.7
-	virtual/MASS
-	>=sci-CRAN/plotly-4.8.0
-	virtual/MASS
-	virtual/Matrix
-	>=sci-CRAN/base64enc-0.1
 	>=sci-CRAN/doParallel-1.0.11
+	>=sci-BIOC/impute-1.54.0
+	>=sci-CRAN/igraph-1.2.1
+	>=sci-CRAN/foreach-1.4.4
 	>=sci-CRAN/ptw-1.9
-	>=sci-CRAN/signal-0.7
 	>=sci-CRAN/speaq-2.3.3
 	>=sci-CRAN/XML-3.98
+	>=sci-CRAN/plotly-4.8.0
+	virtual/MASS
+	>=sci-CRAN/Rcpp-0.12.7
+	>=sci-CRAN/base64enc-0.1
+	virtual/Matrix
+	virtual/MASS
+	>=sci-CRAN/signal-0.7
 	>=sci-CRAN/ggplot2-3.0.0
 	>=sci-CRAN/plyr-1.8.4
 "

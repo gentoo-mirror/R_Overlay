@@ -12,11 +12,11 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_rmpfr"
 R_SUGGESTS="r_suggests_rmpfr? ( sci-CRAN/Rmpfr )"
-DEPEND="sci-CRAN/adaptMCMC
-	virtual/MASS
+DEPEND="sci-CRAN/intervals
 	sci-CRAN/glmnet
 	virtual/survival
-	sci-CRAN/intervals
+	virtual/MASS
+	sci-CRAN/adaptMCMC
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

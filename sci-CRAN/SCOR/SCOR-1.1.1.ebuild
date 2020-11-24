@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SCOR_1.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/iterators
+DEPEND="sci-CRAN/foreach
 	>=dev-lang/R-3.5.0
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
+	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-}"

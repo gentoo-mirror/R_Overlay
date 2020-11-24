@@ -12,7 +12,7 @@ LICENSE='CC0-1.0'
 
 DEPEND="sci-CRAN/plyr
 	sci-CRAN/png
-	sci-CRAN/jsonlite
 	sci-CRAN/dplyr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

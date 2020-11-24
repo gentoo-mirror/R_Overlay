@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/lubridate
-	>=sci-CRAN/sp-0.9.72
-	sci-CRAN/gstat
 	sci-CRAN/zoo
 	>=sci-CRAN/spacetime-1.0.0
 	virtual/Matrix
+	sci-CRAN/gstat
+	>=sci-CRAN/sp-0.9.72
 "
 RDEPEND="${DEPEND-}"

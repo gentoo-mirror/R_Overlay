@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/sampler_0.2.4.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/purrr
 	sci-CRAN/reshape
+	sci-CRAN/purrr
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gridExtra
+DEPEND=">=sci-CRAN/Rcpp-0.11.4
 	>=sci-CRAN/VineCopula-2.0.5
 	sci-CRAN/numDeriv
+	sci-CRAN/gridExtra
 	>=sci-CRAN/ggplot2-2.0.0
-	>=sci-CRAN/Rcpp-0.11.4
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

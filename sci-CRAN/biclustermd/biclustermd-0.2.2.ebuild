@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.0.0
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/clusteval-0.1
-	>=sci-CRAN/biclust-2.0.1
+DEPEND=">=sci-CRAN/clusteval-0.1
+	>=sci-CRAN/dplyr-0.7.6
 	>=sci-CRAN/tidyr-0.8.1
 	>=sci-CRAN/doParallel-1.0.14
-	>=sci-CRAN/dplyr-0.7.6
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/foreach-1.4.4
-	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/nycflights13-1.0.0
 	>=sci-CRAN/phyclust-0.1.24
+	>=sci-CRAN/ggplot2-3.0.0
+	>=sci-CRAN/biclust-2.0.1
+	>=sci-CRAN/magrittr-1.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

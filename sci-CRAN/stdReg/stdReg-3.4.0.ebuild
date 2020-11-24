@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/stdReg_3.4.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="virtual/survival
-	sci-CRAN/drgee
+DEPEND="sci-CRAN/numDeriv
 	sci-CRAN/data_table
-	sci-CRAN/numDeriv
+	virtual/survival
+	sci-CRAN/drgee
 "
 RDEPEND="${DEPEND-}"

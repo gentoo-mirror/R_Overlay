@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LMERConvenienceFunctions_3.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/lme4
-	virtual/Matrix
+DEPEND="virtual/mgcv
 	sci-CRAN/fields
-	virtual/mgcv
+	sci-CRAN/lme4
+	virtual/Matrix
 	sci-CRAN/LCFdata
 "
 RDEPEND="${DEPEND-}"

@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_sparsem? ( sci-CRAN/SparseM )
 "
-DEPEND="sci-CRAN/statnet_common
-	sci-CRAN/network
+DEPEND="sci-CRAN/network
+	sci-CRAN/statnet_common
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

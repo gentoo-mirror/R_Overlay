@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/fastnet_0.1.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/igraph-1.2.0
 	>=sci-CRAN/doParallel-1.0.0
-	>=sci-CRAN/tidygraph-1.1.0
 	>=sci-CRAN/foreach-1.4.0
+	>=sci-CRAN/igraph-1.2.0
+	>=sci-CRAN/tidygraph-1.1.0
 "
 RDEPEND="${DEPEND-}"

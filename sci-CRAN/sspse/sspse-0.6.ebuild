@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_network? ( sci-CRAN/network )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RDS
-	sci-CRAN/scam
+DEPEND="sci-CRAN/scam
 	sci-CRAN/coda
+	sci-CRAN/RDS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

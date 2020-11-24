@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/DBI
-	sci-CRAN/RMySQL
-	sci-CRAN/numDeriv
+DEPEND="sci-CRAN/sqldf
+	>=dev-lang/R-3.2.0
 	>=sci-CRAN/data_table-1.9.4
+	sci-CRAN/numDeriv
+	sci-CRAN/RMySQL
+	sci-CRAN/DBI
 	sci-CRAN/RColorBrewer
-	sci-CRAN/sqldf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pedgene_3.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/CompQuadForm
-	sci-CRAN/survey
-	sci-CRAN/kinship2
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/Matrix
-	>=dev-lang/R-3.5.0
+	sci-CRAN/survey
+	sci-CRAN/CompQuadForm
+	sci-CRAN/kinship2
 "
 RDEPEND="${DEPEND-}"

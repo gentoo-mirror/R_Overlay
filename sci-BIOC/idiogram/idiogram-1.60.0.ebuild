@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/idiogram_1
 LICENSE='GPL-2'
 
 DEPEND="sci-BIOC/Biobase
-	sci-BIOC/annotate
 	sci-CRAN/plotrix
+	sci-BIOC/annotate
 "
 RDEPEND="${DEPEND-}"
 

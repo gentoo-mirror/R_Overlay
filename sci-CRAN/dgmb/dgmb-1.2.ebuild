@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
 	dev-lang/R[tk]
-	virtual/MASS
 	sci-CRAN/abind
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	dev-tcltk/tktable

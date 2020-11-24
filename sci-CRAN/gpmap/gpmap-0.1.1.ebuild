@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/gpmap_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/isotone
+	sci-CRAN/plyr
 	sci-CRAN/foreach
 	sci-CRAN/ggplot2
-	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

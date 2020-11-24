@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-CRAN/Rcpp-0.11.6 >=sci-CRAN/reshape2-1.2.2 >=dev-lang/R-3.2.2 >=sci-CRAN/spam-0.41.0 >=sci-CRAN/ggplot2-1.0.1 >=sci-CRAN/mvtnorm-1.0.0 dev-lang/R
+DEPEND=>=dev-lang/R-3.2.2 >=sci-CRAN/ggplot2-1.0.1 >=sci-CRAN/spam-0.41.0 >=sci-CRAN/Rcpp-0.11.6 >=sci-CRAN/mvtnorm-1.0.0 >=sci-CRAN/reshape2-1.2.2 dev-lang/R
 DESCRIPTION=Bayesian Non-Parametric Dependen... (see metadata)
 EAPI=7
 IUSE=r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3+
-RDEPEND=>=sci-CRAN/Rcpp-0.11.6 >=sci-CRAN/reshape2-1.2.2 >=dev-lang/R-3.2.2 >=sci-CRAN/spam-0.41.0 >=sci-CRAN/ggplot2-1.0.1 >=sci-CRAN/mvtnorm-1.0.0 >=sci-CRAN/Rcpp-0.12.16 >=sci-CRAN/RcppArmadillo-0.8.400.0.0 r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.1 ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.2.2 >=sci-CRAN/ggplot2-1.0.1 >=sci-CRAN/spam-0.41.0 >=sci-CRAN/Rcpp-0.11.6 >=sci-CRAN/mvtnorm-1.0.0 >=sci-CRAN/reshape2-1.2.2 >=sci-CRAN/Rcpp-0.12.16 >=sci-CRAN/RcppArmadillo-0.8.400.0.0 r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.1 ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/growfunctions_0.14.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=55d82115a6df57f93f6f426003add4a2
+_md5_=0d9c64bfe94dad91c35855ad4e44ed95

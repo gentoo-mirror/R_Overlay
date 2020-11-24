@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/BiocGenerics
-	sci-BIOC/graph
+DEPEND="sci-BIOC/graph
+	sci-BIOC/BiocGenerics
 	sci-BIOC/RBGL
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/matie_1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/dfoptim
+DEPEND="sci-CRAN/seriation
+	sci-CRAN/cba
+	sci-CRAN/dfoptim
+	sci-CRAN/mvtnorm
 	sci-CRAN/gplots
 	sci-CRAN/igraph
-	sci-CRAN/mvtnorm
-	sci-CRAN/seriation
-	sci-CRAN/cba
 "
 RDEPEND="${DEPEND-}"

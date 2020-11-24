@@ -35,17 +35,17 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/rlang-0.3.1
-	sci-CRAN/purrr
-	>=sci-CRAN/tibble-2.1.1
+DEPEND="sci-CRAN/globals
 	sci-CRAN/prettyunits
+	>=sci-CRAN/tidyr-1.0.0
+	>=sci-CRAN/vctrs-0.2.0
+	>=sci-CRAN/rlang-0.3.1
+	sci-CRAN/purrr
 	>=sci-CRAN/dplyr-0.8.0.1
+	>=sci-CRAN/tibble-2.1.1
 	sci-CRAN/generics
 	sci-CRAN/glue
 	sci-CRAN/magrittr
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/globals
-	>=sci-CRAN/vctrs-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

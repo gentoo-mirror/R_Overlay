@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/LCox_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/fdapace-0.3.0
 	virtual/survival
+	>=sci-CRAN/fdapace-0.3.0
 "
 RDEPEND="${DEPEND-}"

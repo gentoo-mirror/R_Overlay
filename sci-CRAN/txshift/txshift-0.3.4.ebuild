@@ -27,17 +27,17 @@ R_SUGGESTS="
 	r_suggests_rsolnp? ( sci-CRAN/Rsolnp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/tibble
-	sci-CRAN/ggplot2
-	>=sci-CRAN/haldensify-0.0.6
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/assertthat
+	sci-CRAN/data_table
+	sci-CRAN/stringr
+	sci-CRAN/mvtnorm
 	>=sci-CRAN/hal9001-0.2.6
+	>=sci-CRAN/haldensify-0.0.6
+	sci-CRAN/lspline
+	sci-CRAN/ggplot2
+	sci-CRAN/tibble
 	sci-CRAN/latex2exp
 	sci-CRAN/Rdpack
-	>=dev-lang/R-3.2.0
-	sci-CRAN/data_table
-	sci-CRAN/assertthat
-	sci-CRAN/mvtnorm
-	sci-CRAN/lspline
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -30,20 +30,20 @@ R_SUGGESTS="
 	r_suggests_randomforest? ( sci-CRAN/randomForest )
 	r_suggests_tidytree? ( sci-CRAN/tidytree )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/tibble
-	sci-CRAN/data_table
-	sci-CRAN/VGAM
-	sci-CRAN/RColorBrewer
-	sci-CRAN/scales
-	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
-	sci-CRAN/R6
-	sci-CRAN/vegan
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ape
+	sci-CRAN/R6
+	sci-CRAN/RColorBrewer
+	sci-CRAN/VGAM
+	virtual/MASS
+	sci-CRAN/vegan
 	sci-CRAN/rlang
+	sci-CRAN/data_table
 	sci-CRAN/magrittr
 	sci-CRAN/dplyr
+	sci-CRAN/tibble
+	sci-CRAN/reshape2
+	sci-CRAN/scales
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

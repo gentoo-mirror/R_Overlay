@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_boot? ( virtual/boot )
 	r_suggests_csampling? ( sci-CRAN/csampling )
 "
-DEPEND="sci-CRAN/statmod
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	virtual/survival
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

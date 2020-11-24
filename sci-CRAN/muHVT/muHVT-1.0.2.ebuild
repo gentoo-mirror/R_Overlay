@@ -19,21 +19,21 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/deldir
-	sci-CRAN/gtools
-	sci-CRAN/Hmisc
-	sci-CRAN/conf_design
-	sci-CRAN/purrr
-	sci-CRAN/plyr
-	sci-CRAN/rgeos
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/sp
+	sci-CRAN/deldir
 	sci-CRAN/splancs
 	virtual/MASS
-	sci-CRAN/sp
+	sci-CRAN/Hmisc
 	sci-CRAN/dplyr
+	sci-CRAN/gtools
+	sci-CRAN/ggplot2
+	sci-CRAN/conf_design
+	sci-CRAN/purrr
 	sci-CRAN/magrittr
+	sci-CRAN/plyr
 	sci-CRAN/polyclip
+	sci-CRAN/rgeos
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

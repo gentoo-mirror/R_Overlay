@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-1.0.2
+DEPEND="sci-CRAN/ape
+	>=sci-CRAN/Rcpp-1.0.2
 	sci-CRAN/apTreeshape
-	sci-CRAN/ape
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

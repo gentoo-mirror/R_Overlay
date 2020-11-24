@@ -28,16 +28,16 @@ R_SUGGESTS="
 	r_suggests_soundgen? ( sci-CRAN/soundgen )
 	r_suggests_wavethresh? ( sci-CRAN/wavethresh )
 "
-DEPEND="sci-CRAN/tuneR
-	sci-CRAN/fftw
+DEPEND=">=dev-lang/R-3.2.1
 	>=sci-CRAN/seewave-2.0.1
-	sci-CRAN/dtw
-	>=dev-lang/R-3.2.1
-	sci-CRAN/NatureSounds
-	sci-CRAN/monitoR
-	sci-CRAN/pbapply
 	sci-CRAN/RCurl
+	sci-CRAN/pbapply
+	sci-CRAN/NatureSounds
 	sci-CRAN/rjson
+	sci-CRAN/dtw
+	sci-CRAN/tuneR
+	sci-CRAN/fftw
+	sci-CRAN/monitoR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

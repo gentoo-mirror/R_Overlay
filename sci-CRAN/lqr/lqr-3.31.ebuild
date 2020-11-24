@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_qrnlmm? ( sci-CRAN/qrNLMM )
 "
 DEPEND="sci-CRAN/MomTrunc
-	sci-CRAN/spatstat
 	sci-CRAN/quantreg
+	sci-CRAN/spatstat
 	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

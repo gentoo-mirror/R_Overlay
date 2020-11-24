@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/SBmedian_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/Rdpack
 	sci-CRAN/expm
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

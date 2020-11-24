@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
 DEPEND=">=dev-lang/R-3.0
 	virtual/MASS
-	sci-CRAN/mvtnorm
 	sci-CRAN/tkrplot
+	sci-CRAN/mvtnorm
 	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

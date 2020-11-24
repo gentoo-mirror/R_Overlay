@@ -12,12 +12,12 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_shiny"
 R_SUGGESTS="r_suggests_shiny? ( sci-CRAN/shiny )"
-DEPEND="sci-CRAN/htmltools
-	sci-CRAN/stars
+DEPEND="sci-CRAN/htmlwidgets
 	sci-CRAN/raster
-	virtual/lattice
-	sci-CRAN/viridisLite
-	sci-CRAN/htmlwidgets
+	sci-CRAN/htmltools
 	sci-CRAN/base64enc
+	virtual/lattice
+	sci-CRAN/stars
+	sci-CRAN/viridisLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

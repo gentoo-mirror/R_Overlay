@@ -26,9 +26,9 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/stringi
-	sci-CRAN/crayon
 	sci-CRAN/fmtr
+	sci-CRAN/crayon
+	sci-CRAN/stringi
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

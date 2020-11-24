@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/complmrob_0.7.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/robustbase
-	virtual/boot
-	sci-CRAN/scales
+DEPEND="sci-CRAN/scales
 	sci-CRAN/ggplot2
+	virtual/boot
+	sci-CRAN/robustbase
 "
 RDEPEND="${DEPEND-}"

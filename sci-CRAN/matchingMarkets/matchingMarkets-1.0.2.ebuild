@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/Rcpp-0.12.12
+DEPEND="sci-CRAN/partitions
 	sci-CRAN/lpSolve
 	sci-CRAN/rJava
 	>=sci-CRAN/RcppProgress-0.2
+	>=dev-lang/R-3.0.2
+	>=sci-CRAN/Rcpp-0.12.12
 	virtual/lattice
-	sci-CRAN/partitions
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

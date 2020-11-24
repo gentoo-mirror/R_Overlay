@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/ggplot2-2.0.0
-	sci-CRAN/gtable
-	sci-CRAN/gridExtra
-	sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/extrafont
+	>=sci-CRAN/ggplot2-2.0.0
+	sci-CRAN/gridExtra
+	>=dev-lang/R-3.2.0
+	sci-CRAN/gtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

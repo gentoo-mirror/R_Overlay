@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_prettydoc? ( sci-CRAN/prettydoc )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/scales
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/magrittr
 	sci-CRAN/jsonlite
-	>=dev-lang/R-3.3.0
 	sci-CRAN/RColorBrewer
+	sci-CRAN/ggplot2
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

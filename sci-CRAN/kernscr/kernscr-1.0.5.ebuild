@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_gdata"
 R_SUGGESTS="r_suggests_gdata? ( sci-CRAN/gdata )"
-DEPEND="virtual/MASS
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	virtual/MASS
 	>=dev-lang/R-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

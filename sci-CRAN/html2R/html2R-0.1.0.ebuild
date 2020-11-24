@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/html2R_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/glue
+DEPEND="sci-CRAN/shinyAce
 	sci-CRAN/shinythemes
-	sci-CRAN/shinyjqui
-	sci-CRAN/shinyAce
+	sci-CRAN/glue
 	sci-CRAN/shiny
+	sci-CRAN/shinyjqui
 "
 RDEPEND="${DEPEND-}"

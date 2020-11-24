@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/BUS_1.40.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/infotheo
-	sci-BIOC/minet
+DEPEND="sci-BIOC/minet
+	sci-CRAN/infotheo
 "
 RDEPEND="${DEPEND-}"

@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.6 sci-CRAN/DT sci-CRAN/data_table sci-CRAN/shiny sci-CRAN/jsonlite sci-CRAN/shinythemes sci-CRAN/RCurl sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/stringi sci-BIOC/AnnotationHub dev-lang/R
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/DT sci-CRAN/shinythemes sci-CRAN/jsonlite sci-CRAN/shiny sci-CRAN/RCurl sci-CRAN/tidyr sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/stringi sci-BIOC/AnnotationHub dev-lang/R
 DESCRIPTION=A compilation of ENCODE metadata
 EAPI=7
 IUSE=r_suggests_biocgenerics r_suggests_curl r_suggests_httr r_suggests_knitr r_suggests_runit byte-compile
 KEYWORDS=~amd64
 LICENSE=Artistic-2
-RDEPEND=>=dev-lang/R-3.6 sci-CRAN/DT sci-CRAN/data_table sci-CRAN/shiny sci-CRAN/jsonlite sci-CRAN/shinythemes sci-CRAN/RCurl sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/stringi sci-BIOC/AnnotationHub r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_httr? ( sci-CRAN/httr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/DT sci-CRAN/shinythemes sci-CRAN/jsonlite sci-CRAN/shiny sci-CRAN/RCurl sci-CRAN/tidyr sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/stringi sci-BIOC/AnnotationHub r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_httr? ( sci-CRAN/httr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/ENCODExplorer_2.10.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=8b2d3bf2623e4402123a973dc2adb003
+_md5_=95276dc9174b3a5719fd44085e425f55

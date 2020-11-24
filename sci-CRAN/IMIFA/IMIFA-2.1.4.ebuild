@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_rmpfr? ( sci-CRAN/Rmpfr )
 "
 DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/viridisLite
-	>=sci-CRAN/Rfast-1.9.8
 	>=sci-CRAN/mclust-5.4
+	>=sci-CRAN/Rfast-1.9.8
 	sci-CRAN/mvnfast
 	virtual/Matrix
 	sci-CRAN/slam
+	sci-CRAN/viridisLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/colorspace
-	sci-CRAN/egg
-	sci-CRAN/ggplot2
-	sci-CRAN/rlang
-	sci-CRAN/tidyr
-	sci-CRAN/forcats
-	>=dev-lang/R-3.2
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/egg
 	sci-CRAN/ggtext
-	sci-CRAN/glue
 	sci-CRAN/gridExtra
 	sci-CRAN/patchwork
+	sci-CRAN/ggplot2
+	sci-CRAN/glue
+	sci-CRAN/tidyr
+	sci-CRAN/colorspace
+	sci-CRAN/dplyr
+	sci-CRAN/rlang
+	>=dev-lang/R-3.2
+	sci-CRAN/forcats
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

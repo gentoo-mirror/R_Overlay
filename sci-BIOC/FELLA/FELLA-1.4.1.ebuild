@@ -26,11 +26,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_visnetwork? ( sci-CRAN/visNetwork )
 "
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-BIOC/KEGGREST
 	sci-CRAN/plyr
-	>=dev-lang/R-3.5.0
-	sci-BIOC/KEGGREST
+	sci-CRAN/igraph
 	virtual/Matrix
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

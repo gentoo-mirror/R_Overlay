@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SDCNway_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-CRAN/plyr-1.8.5
-	sci-CRAN/Rdpack
-	>=sci-CRAN/ggplot2-3.2.1
+DEPEND="sci-CRAN/Rdpack
 	>=sci-CRAN/dplyr-0.8.4
 	>=dev-lang/R-3.6.0
+	>=sci-CRAN/ggplot2-3.2.1
+	>=sci-CRAN/plyr-1.8.5
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

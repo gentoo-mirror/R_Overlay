@@ -12,10 +12,10 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_nlme"
 R_SUGGESTS="r_suggests_nlme? ( virtual/nlme )"
-DEPEND=">=dev-lang/R-2.12.0
+DEPEND="virtual/survival
 	sci-CRAN/mvtnorm
 	sci-CRAN/multcomp
-	virtual/survival
+	>=dev-lang/R-2.12.0
 	sci-CRAN/survPresmooth
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

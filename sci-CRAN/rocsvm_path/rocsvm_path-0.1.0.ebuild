@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/rocsvm.path_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/svmpath
 	sci-CRAN/quadprog
+	sci-CRAN/svmpath
 "
 RDEPEND="${DEPEND-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/addhaz_0.5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/boot
+DEPEND="virtual/Matrix
 	virtual/MASS
-	virtual/Matrix
 	>=dev-lang/R-3.1.0
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

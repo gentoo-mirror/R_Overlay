@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ztype_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/assertthat
+DEPEND="sci-CRAN/rvest
 	sci-CRAN/ggplot2
-	sci-CRAN/stringr
 	sci-CRAN/magrittr
-	sci-CRAN/rvest
+	sci-CRAN/dplyr
+	sci-CRAN/stringr
 	sci-CRAN/lubridate
+	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-}"

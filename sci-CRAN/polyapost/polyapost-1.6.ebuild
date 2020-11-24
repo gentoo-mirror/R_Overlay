@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/polyapost_1.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/boot
 	>=sci-CRAN/rcdd-1.2
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

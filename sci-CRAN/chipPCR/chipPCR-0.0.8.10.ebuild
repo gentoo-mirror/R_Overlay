@@ -21,15 +21,15 @@ R_SUGGESTS="
 	r_suggests_rdml? ( sci-CRAN/RDML )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/outliers
-	virtual/MASS
+DEPEND="sci-CRAN/outliers
+	sci-CRAN/signal
+	sci-CRAN/robustbase
 	sci-CRAN/ptw
+	>=dev-lang/R-3.0.0
 	sci-CRAN/lmtest
-	sci-CRAN/shiny
+	virtual/MASS
 	sci-CRAN/quantreg
 	sci-CRAN/Rfit
-	sci-CRAN/robustbase
-	sci-CRAN/signal
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

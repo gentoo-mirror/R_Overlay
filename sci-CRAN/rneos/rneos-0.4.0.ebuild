@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rneos_0.4-0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/XML
-	sci-CRAN/RCurl
+DEPEND="sci-CRAN/RCurl
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-}"

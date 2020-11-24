@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.0.2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httr
+DEPEND=">=sci-CRAN/crul-0.8.4
 	>=sci-CRAN/webmockr-0.6.2
-	sci-CRAN/urltools
-	sci-CRAN/R6
-	sci-CRAN/yaml
-	>=sci-CRAN/crul-0.8.4
 	sci-CRAN/lazyeval
+	sci-CRAN/R6
+	sci-CRAN/urltools
+	sci-CRAN/httr
+	sci-CRAN/yaml
 	sci-CRAN/base64enc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,18 +19,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND=">=sci-CRAN/rlang-0.1.2
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/tidyselect
-	>=dev-lang/R-3.5
-	sci-CRAN/lubridate
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/lubridate
+	sci-CRAN/progress
 	>=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/data_table-1.12.9
-	sci-CRAN/progress
+	>=dev-lang/R-3.5
+	sci-CRAN/magrittr
 	sci-CRAN/purrr
+	>=sci-CRAN/rlang-0.1.2
 	sci-CRAN/sjlabelled
 	sci-CRAN/stringr
+	sci-CRAN/tidyselect
 	>=sci-CRAN/tidytable-0.5.5
+	>=sci-CRAN/tidyr-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

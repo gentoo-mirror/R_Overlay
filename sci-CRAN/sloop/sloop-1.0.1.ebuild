@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/codetools
-	sci-CRAN/crayon
-	sci-CRAN/rlang
-	sci-CRAN/purrr
-	>=dev-lang/R-3.3
+DEPEND="sci-CRAN/purrr
 	>=sci-CRAN/tibble-2.0.1
+	sci-CRAN/crayon
+	>=dev-lang/R-3.3
+	virtual/codetools
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PoA_1.2.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/nloptr
-	sci-CRAN/dplyr
-	sci-CRAN/pracma
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/tibble
+	sci-CRAN/pracma
+	sci-CRAN/nloptr
 "
 RDEPEND="${DEPEND-}"

@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/stringi
-	sci-CRAN/Rcpp
 	sci-CRAN/tidyr
 	sci-CRAN/magrittr
+	sci-CRAN/Rcpp
+	sci-CRAN/stringi
 	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-}

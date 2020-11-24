@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_maps? ( sci-CRAN/maps )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="virtual/lattice
-	>=dev-lang/R-3.2.6
-	virtual/lattice
-	sci-CRAN/lubridate
-	sci-CRAN/xml2
+DEPEND=">=dev-lang/R-3.2.6
 	sci-CRAN/dataRetrieval
+	virtual/lattice
+	sci-CRAN/xml2
+	sci-CRAN/lubridate
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

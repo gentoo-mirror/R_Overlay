@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_lpsolve? ( sci-CRAN/lpSolve )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	>=sci-CRAN/BBmisc-1.6
-	>=sci-CRAN/mvtnorm-1.0.2
-	>=sci-CRAN/checkmate-1.8.0
+DEPEND=">=sci-CRAN/BBmisc-1.6
 	>=sci-CRAN/lhs-0.10
-	>=sci-CRAN/igraph-0.7.1
 	>=sci-CRAN/stringr-0.6.2
+	>=sci-CRAN/checkmate-1.8.0
+	sci-CRAN/ggplot2
+	>=sci-CRAN/mvtnorm-1.0.2
+	>=sci-CRAN/igraph-0.7.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/multcomp-1.4.8
-	>=sci-CRAN/multcompView-0.1.7
-	>=sci-CRAN/sommer-3.2
 	>=sci-CRAN/coxme-2.2.5
+	>=sci-CRAN/multcomp-1.4.8
+	>=sci-CRAN/sommer-3.2
+	>=sci-CRAN/multcompView-0.1.7
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

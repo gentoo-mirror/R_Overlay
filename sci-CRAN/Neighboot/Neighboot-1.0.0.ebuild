@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Neighboot_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/RDS
-	sci-CRAN/igraph
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
 	virtual/boot
+	sci-CRAN/dplyr
+	sci-CRAN/igraph
+	sci-CRAN/RDS
 "
 RDEPEND="${DEPEND-}"

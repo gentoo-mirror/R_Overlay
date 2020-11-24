@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/collidr_0.1.3.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/dplyr
 	sci-CRAN/stringr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

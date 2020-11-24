@@ -12,8 +12,8 @@ LICENSE='LGPL-3+'
 
 IUSE="${IUSE-} r_suggests_rgraphviz"
 R_SUGGESTS="r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )"
-DEPEND="sci-BIOC/graph
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/Hmisc
 	sci-BIOC/Biobase
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

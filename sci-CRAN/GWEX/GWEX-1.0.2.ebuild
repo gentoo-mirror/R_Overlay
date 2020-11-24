@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GWEX_1.0.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/EnvStats
-	sci-CRAN/Renext
-	sci-CRAN/doParallel
-	sci-CRAN/nleqslv
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/nleqslv
+	sci-CRAN/foreach
 	virtual/MASS
+	sci-CRAN/mvtnorm
+	sci-CRAN/EnvStats
 	sci-CRAN/fGarch
 	sci-CRAN/abind
-	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	sci-CRAN/Renext
 	sci-CRAN/lmomco
 "
 RDEPEND="${DEPEND-}"

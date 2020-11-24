@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/scales
 	sci-CRAN/ggplot2
 	sci-CRAN/robustbase
 	sci-CRAN/RColorBrewer
+	sci-CRAN/scales
 	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

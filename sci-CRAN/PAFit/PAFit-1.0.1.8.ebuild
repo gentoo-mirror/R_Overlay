@@ -13,12 +13,12 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
 DEPEND="sci-CRAN/RColorBrewer
+	sci-CRAN/VGAM
+	virtual/MASS
+	sci-CRAN/magicaxis
+	>=sci-CRAN/Rcpp-0.11.3
 	sci-CRAN/networkDynamic
 	sci-CRAN/network
-	sci-CRAN/magicaxis
-	virtual/MASS
-	>=sci-CRAN/Rcpp-0.11.3
-	sci-CRAN/VGAM
 	sci-CRAN/plyr
 	sci-CRAN/igraph
 	sci-CRAN/mapproj

@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.0.0 )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/utf8
 	>=sci-CRAN/rlang-0.1.2
+	sci-CRAN/utf8
 	sci-CRAN/yaml
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

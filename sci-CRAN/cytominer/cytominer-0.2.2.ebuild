@@ -24,17 +24,17 @@ R_SUGGESTS="
 	r_suggests_stringr? ( >=sci-CRAN/stringr-1.2.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 "
-DEPEND=">=sci-CRAN/caret-6.0.76
-	>=sci-CRAN/purrr-0.3.3
-	>=sci-CRAN/tibble-2.1.3
-	>=sci-CRAN/dplyr-0.8.5
-	>=dev-lang/R-3.3.0
-	>=sci-CRAN/doParallel-1.0.10
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/foreach-1.4.3
+	>=sci-CRAN/caret-6.0.76
+	virtual/Matrix
+	>=sci-CRAN/doParallel-1.0.10
+	>=sci-CRAN/dplyr-0.8.5
 	>=sci-CRAN/futile_logger-1.4.3
 	>=sci-CRAN/magrittr-1.5
-	virtual/Matrix
+	>=sci-CRAN/purrr-0.3.3
 	>=sci-CRAN/rlang-0.4.5
+	>=sci-CRAN/tibble-2.1.3
 	>=sci-CRAN/tidyr-1.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

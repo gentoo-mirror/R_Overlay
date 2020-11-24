@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/Rfacebook_0.6.15.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.12.0
-	sci-CRAN/httpuv
-	sci-CRAN/rjson
 	sci-CRAN/httr
+	sci-CRAN/rjson
+	sci-CRAN/httpuv
 "
 RDEPEND="${DEPEND-}"

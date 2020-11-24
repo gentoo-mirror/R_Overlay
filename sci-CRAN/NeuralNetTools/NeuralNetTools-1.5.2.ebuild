@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_neuralnet? ( sci-CRAN/neuralnet )
 	r_suggests_rsnns? ( sci-CRAN/RSNNS )
 "
-DEPEND="sci-CRAN/tidyr
+DEPEND="virtual/nnet
+	sci-CRAN/reshape2
+	sci-CRAN/tidyr
+	>=dev-lang/R-3.1.1
 	sci-CRAN/scales
 	>=sci-CRAN/ggplot2-2.0.0
-	virtual/nnet
-	>=dev-lang/R-3.1.1
-	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

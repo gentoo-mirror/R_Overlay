@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/MOLHD_0.2.tar.gz"
 LICENSE='LGPL-3+'
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/fields
 	sci-CRAN/arrangements
+	sci-CRAN/fields
 "
 RDEPEND="${DEPEND-}"

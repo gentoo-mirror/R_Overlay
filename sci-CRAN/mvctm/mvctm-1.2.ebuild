@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mvctm_1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/Rfit
+DEPEND="sci-CRAN/MNM
 	sci-CRAN/Formula
-	virtual/nlme
-	sci-CRAN/quantreg
+	sci-CRAN/Rfit
 	virtual/spatial
-	sci-CRAN/MNM
+	sci-CRAN/quantreg
+	>=dev-lang/R-3.5.0
+	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

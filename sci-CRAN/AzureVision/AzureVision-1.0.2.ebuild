@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/AzureCognitive
-	>=dev-lang/R-3.3
+DEPEND=">=dev-lang/R-3.3
+	sci-CRAN/AzureCognitive
 	sci-CRAN/httr
 	sci-CRAN/AzureRMR
 "

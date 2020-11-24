@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rgeos? ( sci-CRAN/rgeos )
 	r_suggests_tkrplot? ( sci-CRAN/tkrplot )
 "
-DEPEND="sci-CRAN/sp
-	sci-CRAN/adehabitatMA
-	sci-CRAN/deldir
-	>=dev-lang/R-3.0.1
-	sci-CRAN/ade4
+DEPEND=">=dev-lang/R-3.0.1
 	sci-CRAN/adehabitatLT
+	sci-CRAN/deldir
+	sci-CRAN/sp
+	sci-CRAN/ade4
+	sci-CRAN/adehabitatMA
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,22 +19,22 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/RColorBrewer
-	sci-CRAN/geometry
-	sci-CRAN/vegan
-	sci-CRAN/dplyr
-	sci-CRAN/geomorph
-	sci-CRAN/jpeg
-	sci-CRAN/rgeos
-	sci-CRAN/tibble
-	sci-CRAN/dendextend
+DEPEND="virtual/cluster
 	virtual/MASS
-	>=dev-lang/R-3.2
-	virtual/cluster
+	sci-CRAN/jpeg
+	sci-CRAN/magrittr
+	sci-CRAN/geometry
 	sci-CRAN/progress
 	sci-CRAN/sp
-	sci-CRAN/magrittr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/ggplot2
+	sci-CRAN/vegan
+	sci-CRAN/dplyr
+	sci-CRAN/tibble
+	>=dev-lang/R-3.2
+	sci-CRAN/dendextend
+	sci-CRAN/geomorph
+	sci-CRAN/rgeos
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

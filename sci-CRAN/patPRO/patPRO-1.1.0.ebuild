@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/patPRO_1.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/reshape2
-	sci-CRAN/plyr
-	sci-CRAN/gridExtra
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/RColorBrewer
+	sci-CRAN/reshape2
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

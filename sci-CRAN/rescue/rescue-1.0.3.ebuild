@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/dbscan-1.1.3
-	>=sci-CRAN/reticulate-1.14
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/data_table
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/igraph-1.2.4.1
 	sci-CRAN/irlba
+	>=sci-CRAN/igraph-1.2.4.1
+	>=sci-CRAN/dbscan-1.1.3
 	virtual/Matrix
+	>=sci-CRAN/reticulate-1.14
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

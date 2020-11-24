@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_snowballc? ( sci-CRAN/SnowballC )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/NLP-0.2.0
-	>=sci-CRAN/slam-0.1.37
+DEPEND=">=sci-CRAN/slam-0.1.37
 	sci-CRAN/xml2
+	>=sci-CRAN/NLP-0.2.0
 	sci-CRAN/Rcpp
+	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH

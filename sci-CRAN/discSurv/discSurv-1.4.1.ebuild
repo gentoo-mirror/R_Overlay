@@ -25,8 +25,8 @@ R_SUGGESTS="
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
 DEPEND="sci-CRAN/functional
+	sci-CRAN/data_table
 	sci-CRAN/mvtnorm
 	virtual/mgcv
-	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

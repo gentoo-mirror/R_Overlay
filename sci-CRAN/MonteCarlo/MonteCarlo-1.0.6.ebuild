@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/abind-1.4.0
+DEPEND="virtual/codetools
 	>=sci-CRAN/snow-0.4.1
-	virtual/codetools
 	>=sci-CRAN/snowfall-1.84.4
 	>=sci-CRAN/rlecuyer-0.3.4
+	>=sci-CRAN/abind-1.4.0
 	>=sci-CRAN/reshape-0.8.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

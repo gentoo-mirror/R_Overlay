@@ -26,12 +26,12 @@ R_SUGGESTS="
 	r_suggests_rvest? ( sci-CRAN/rvest )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/tidyr-0.4.0
+DEPEND=">=sci-CRAN/dplyr-0.8.1
+	sci-CRAN/tibble
 	sci-CRAN/purrr
-	sci-CRAN/geosphere
 	sci-CRAN/stringr
 	sci-CRAN/stringdist
-	>=sci-CRAN/dplyr-0.8.1
-	sci-CRAN/tibble
+	>=sci-CRAN/tidyr-0.4.0
+	sci-CRAN/geosphere
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

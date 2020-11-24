@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/geomedb_2.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/httr
+DEPEND="sci-CRAN/ape
+	sci-CRAN/httr
 	sci-CRAN/jsonlite
-	sci-CRAN/ape
 "
 RDEPEND="${DEPEND-}"

@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_smbinning? ( sci-CRAN/smbinning )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/sampling
-	>=sci-CRAN/ISLR-1.0
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/ggplot2
-	sci-CRAN/data_table
-	sci-CRAN/GGally
-	>=dev-lang/R-3.3.0
-	sci-CRAN/rmarkdown
 	sci-CRAN/scales
+	sci-CRAN/rmarkdown
+	sci-CRAN/sampling
+	>=sci-CRAN/ISLR-1.0
+	sci-CRAN/data_table
 	sci-CRAN/gridExtra
+	sci-CRAN/GGally
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

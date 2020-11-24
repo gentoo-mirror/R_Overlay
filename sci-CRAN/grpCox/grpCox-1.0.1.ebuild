@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/grpCox_1.0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/Matrix
-	sci-CRAN/colorspace
 	virtual/MASS
 	>=sci-CRAN/Rcpp-1.0.3
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

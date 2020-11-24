@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BigQuic_1.1-9.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/scalreg
-	virtual/Matrix
+DEPEND="virtual/Matrix
 	>=dev-lang/R-3.2.2
+	sci-CRAN/scalreg
 	>=sci-CRAN/Rcpp-0.12.1
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

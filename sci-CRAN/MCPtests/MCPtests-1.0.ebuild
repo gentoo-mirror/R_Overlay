@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MCPtests_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/SMR
-	sci-CRAN/xtable
-	sci-CRAN/foreach
-	sci-CRAN/doParallel
-	sci-CRAN/writexl
+DEPEND="sci-CRAN/doParallel
 	dev-lang/R[tk]
+	sci-CRAN/writexl
+	sci-CRAN/xtable
+	sci-CRAN/SMR
 	sci-CRAN/tkrplot
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

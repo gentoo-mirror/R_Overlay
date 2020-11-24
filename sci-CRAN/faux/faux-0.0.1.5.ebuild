@@ -30,8 +30,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.4
 	sci-CRAN/dplyr
-	>=sci-CRAN/ggplot2-3.3.0
 	sci-CRAN/lme4
+	>=sci-CRAN/ggplot2-3.3.0
 	sci-CRAN/jsonlite
 	sci-CRAN/truncnorm
 "

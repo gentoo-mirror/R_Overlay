@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/HybridMTest_1.28.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/survival
-	sci-BIOC/Biobase
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/fdrtool
+	virtual/survival
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

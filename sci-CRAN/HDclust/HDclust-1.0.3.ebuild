@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/Rtsne-0.11.0
+DEPEND=">=sci-CRAN/Rcpp-0.12.16
+	>=sci-CRAN/Rtsne-0.11.0
 	>=sci-CRAN/RcppProgress-0.1
-	>=sci-CRAN/Rcpp-0.12.16
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

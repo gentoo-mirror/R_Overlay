@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=sci-CRAN/packrat-0.4.9
-	>=sci-CRAN/docopt-0.4
-	>=sci-CRAN/remotes-2.0.3
+DEPEND=">=sci-CRAN/desc-1.2.0
 	>=sci-CRAN/crayon-1.0.0
-	>=sci-CRAN/desc-1.2.0
+	>=sci-CRAN/remotes-2.0.3
+	>=sci-CRAN/docopt-0.4
+	>=sci-CRAN/packrat-0.4.9
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

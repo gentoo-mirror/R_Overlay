@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HDCI_1.0-2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/glmnet
-	sci-CRAN/doParallel
-	sci-CRAN/mvtnorm
-	sci-CRAN/iterators
-	sci-CRAN/slam
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/iterators
 	virtual/lattice
+	sci-CRAN/doParallel
+	sci-CRAN/foreach
 	virtual/Matrix
+	sci-CRAN/mvtnorm
+	sci-CRAN/glmnet
+	sci-CRAN/slam
 "
 RDEPEND="${DEPEND-}"

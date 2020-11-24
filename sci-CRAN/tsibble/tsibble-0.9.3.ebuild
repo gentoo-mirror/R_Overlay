@@ -28,16 +28,16 @@ R_SUGGESTS="
 	r_suggests_timedate? ( sci-CRAN/timeDate )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/tibble-3.0.0
-	>=sci-CRAN/rlang-0.4.6
-	>=sci-CRAN/tidyselect-1.0.0
-	>=sci-CRAN/purrr-0.2.3
-	>=sci-CRAN/vctrs-0.3.1
 	>=sci-CRAN/anytime-0.3.1
 	>=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/ellipsis-0.3.0
 	sci-CRAN/lifecycle
 	>=sci-CRAN/lubridate-1.7.0
+	>=sci-CRAN/purrr-0.2.3
+	>=sci-CRAN/tidyselect-1.0.0
+	>=sci-CRAN/vctrs-0.3.1
+	>=sci-CRAN/rlang-0.4.6
+	>=sci-CRAN/tibble-3.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

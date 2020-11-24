@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Rook_1.1-1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/brew
+DEPEND="sci-CRAN/brew
+	>=dev-lang/R-2.13.0
 "
 RDEPEND="${DEPEND-}"

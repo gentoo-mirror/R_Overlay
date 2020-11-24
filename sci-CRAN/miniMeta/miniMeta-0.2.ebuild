@@ -17,14 +17,14 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/meta
 	sci-CRAN/colourpicker
-	sci-CRAN/shiny
 	sci-CRAN/shinyjs
+	sci-CRAN/shinyWidgets
+	sci-CRAN/shiny
+	sci-CRAN/rhandsontable
 	sci-CRAN/metafor
 	sci-CRAN/WriteXLS
-	sci-CRAN/shinyWidgets
-	sci-CRAN/rhandsontable
+	sci-CRAN/jsonlite
 	sci-CRAN/markdown
 	sci-CRAN/readxl
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

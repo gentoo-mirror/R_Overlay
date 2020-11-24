@@ -34,8 +34,8 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/Rcpp-0.12.0
 	virtual/lattice
+	>=sci-CRAN/Rcpp-0.12.0
 	virtual/lattice
 "
 RDEPEND="${DEPEND-}

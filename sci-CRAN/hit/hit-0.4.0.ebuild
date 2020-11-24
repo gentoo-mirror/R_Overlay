@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/glmnet
-	sci-CRAN/speedglm
 	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/speedglm
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

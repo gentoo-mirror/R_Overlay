@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/sos-1.2.3
 	dev-lang/R[tk]
-	>=sci-CRAN/Rcmdr-2.0.1
 	dev-lang/R[tk]
+	>=sci-CRAN/Rcmdr-2.0.1
 "
 RDEPEND="${DEPEND-}"

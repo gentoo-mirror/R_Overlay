@@ -18,23 +18,23 @@ R_SUGGESTS="
 	r_suggests_simframe? ( sci-CRAN/simFrame )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	sci-CRAN/HLMdiag
-	sci-CRAN/readODS
-	sci-CRAN/saeRobust
+DEPEND="sci-CRAN/parallelMap
 	virtual/boot
-	sci-CRAN/maptools
-	sci-CRAN/MuMIn
-	sci-CRAN/moments
-	virtual/MASS
-	>=dev-lang/R-3.5.0
-	sci-CRAN/spdep
+	sci-CRAN/saeRobust
+	sci-CRAN/readODS
+	sci-CRAN/ggplot2
 	virtual/nlme
-	sci-CRAN/rgeos
+	sci-CRAN/MuMIn
+	sci-CRAN/reshape2
+	sci-CRAN/HLMdiag
+	sci-CRAN/moments
+	sci-CRAN/spdep
 	sci-CRAN/openxlsx
-	sci-CRAN/parallelMap
+	sci-CRAN/rgeos
+	sci-CRAN/gridExtra
+	>=dev-lang/R-3.5.0
+	sci-CRAN/maptools
+	virtual/MASS
 	sci-CRAN/formula_tools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

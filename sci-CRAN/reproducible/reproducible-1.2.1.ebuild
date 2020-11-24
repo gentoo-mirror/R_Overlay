@@ -31,18 +31,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_timewarp? ( sci-CRAN/TimeWarp )
 "
-DEPEND="sci-CRAN/DBI
-	sci-CRAN/magrittr
+DEPEND=">=dev-lang/R-3.5
+	>=sci-CRAN/sp-1.4.2
 	sci-CRAN/glue
-	sci-CRAN/rlang
-	sci-CRAN/digest
-	>=dev-lang/R-3.5
+	sci-CRAN/magrittr
 	>=sci-CRAN/data_table-1.10.4
+	sci-CRAN/digest
 	sci-CRAN/fpCompare
+	sci-CRAN/DBI
 	sci-CRAN/Require
 	sci-CRAN/raster
 	sci-CRAN/RSQLite
-	>=sci-CRAN/sp-1.4.2
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

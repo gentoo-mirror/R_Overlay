@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_sessioninfo? ( sci-CRAN/sessioninfo )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-BIOC/S4Vectors-0.2.2
-	virtual/Matrix
-	>=dev-lang/R-3.2.2
+DEPEND=">=dev-lang/R-3.2.2
 	>=sci-BIOC/IRanges-1.99.27
+	virtual/Matrix
+	>=sci-BIOC/S4Vectors-0.2.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

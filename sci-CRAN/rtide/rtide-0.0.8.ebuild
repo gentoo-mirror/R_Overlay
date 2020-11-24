@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/abind
-	sci-CRAN/tibble
 	sci-CRAN/dttr2
 	sci-CRAN/chk
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

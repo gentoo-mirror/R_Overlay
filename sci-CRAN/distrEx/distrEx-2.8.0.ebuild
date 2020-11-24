@@ -13,7 +13,7 @@ LICENSE='LGPL-3'
 IUSE="${IUSE-} r_suggests_tk"
 R_SUGGESTS="r_suggests_tk? ( dev-lang/R[tk] )"
 DEPEND=">=dev-lang/R-3.4
-	>=sci-CRAN/distr-2.8.0
 	sci-CRAN/startupmsg
+	>=sci-CRAN/distr-2.8.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

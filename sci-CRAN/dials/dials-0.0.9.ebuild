@@ -22,14 +22,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND="sci-CRAN/glue
-	sci-CRAN/DiceDesign
+DEPEND="sci-CRAN/purrr
 	>=sci-CRAN/dplyr-0.8.5
 	sci-CRAN/rlang
-	sci-CRAN/withr
-	sci-CRAN/scales
 	sci-CRAN/tibble
-	sci-CRAN/purrr
+	sci-CRAN/scales
+	sci-CRAN/glue
+	sci-CRAN/withr
+	sci-CRAN/DiceDesign
 	>=sci-CRAN/vctrs-0.3.0.9000
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

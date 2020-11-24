@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rvest
-	sci-CRAN/xml2
-	sci-CRAN/maps
-	sci-CRAN/selectr
-	>=dev-lang/R-3.3.0
-	sci-CRAN/WikipediR
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/stringi
+	sci-CRAN/selectr
+	sci-CRAN/maps
+	sci-CRAN/xml2
+	sci-CRAN/rvest
+	sci-CRAN/WikipediR
 	sci-CRAN/sp
 	sci-CRAN/stringr
 	sci-CRAN/units

@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 )
 	r_suggests_xml? ( >=sci-CRAN/XML-3.6 )
 "
-DEPEND=">=sci-CRAN/igraph-1.0
+DEPEND=">=sci-CRAN/coda-0.13
 	>=sci-CRAN/rjags-4.0
+	sci-CRAN/truncnorm
 	>=sci-CRAN/meta-2.1
 	>=sci-CRAN/plyr-1.8
-	>=sci-CRAN/coda-0.13
-	sci-CRAN/truncnorm
 	sci-mathematics/glpk
+	>=sci-CRAN/igraph-1.0
 	>=sci-CRAN/forcats-0.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

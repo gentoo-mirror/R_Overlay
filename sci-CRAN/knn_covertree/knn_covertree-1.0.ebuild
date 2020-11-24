@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/Rcpp-1.0.2
-	>=sci-CRAN/RcppEigen-0.3.3.5.0
 	virtual/Matrix
+	>=sci-CRAN/RcppEigen-0.3.3.5.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

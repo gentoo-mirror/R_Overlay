@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FastGP_1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/rbenchmark
+DEPEND="sci-CRAN/Rcpp
 	virtual/MASS
+	sci-CRAN/rbenchmark
 	sci-CRAN/mvtnorm
-	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

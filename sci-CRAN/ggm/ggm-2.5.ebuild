@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ggm_2.5.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/igraph
 	sci-BIOC/graph
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

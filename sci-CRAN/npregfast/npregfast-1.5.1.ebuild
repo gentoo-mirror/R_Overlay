@@ -12,12 +12,12 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_gridextra"
 R_SUGGESTS="r_suggests_gridextra? ( sci-CRAN/gridExtra )"
-DEPEND="sci-CRAN/shiny
-	sci-CRAN/doParallel
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/shiny
 	sci-CRAN/foreach
-	virtual/mgcv
-	>=dev-lang/R-3.2.0
 	sci-CRAN/sfsmisc
+	sci-CRAN/doParallel
+	virtual/mgcv
 	sci-CRAN/shinyjs
 	sci-CRAN/wesanderson
 	sci-CRAN/ggplot2

@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_proto? ( sci-CRAN/proto )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/data_table-1.9.6
-	>=sci-CRAN/gridExtra-2.2.1
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/ggplot2-2.1.0
+	>=sci-CRAN/data_table-1.9.6
+	>=sci-CRAN/gridExtra-2.2.1
 	>=sci-CRAN/Hmisc-3.17.4
 	sci-CRAN/moments
 	>=sci-CRAN/quantreg-5.33

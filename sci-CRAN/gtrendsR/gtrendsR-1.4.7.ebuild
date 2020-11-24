@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/curl
 	sci-CRAN/anytime
-	sci-CRAN/ggplot2
 	sci-CRAN/jsonlite
+	sci-CRAN/ggplot2
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -33,14 +33,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.1 )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/nloptr-1.0.4
-	virtual/boot
-	virtual/Matrix
-	sci-CRAN/statmod
-	>=sci-CRAN/minqa-1.1.15
-	virtual/MASS
 	virtual/lattice
+	virtual/Matrix
 	virtual/nlme
+	>=sci-CRAN/nloptr-1.0.4
+	sci-CRAN/statmod
+	virtual/MASS
+	virtual/boot
+	>=sci-CRAN/minqa-1.1.15
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.10.5

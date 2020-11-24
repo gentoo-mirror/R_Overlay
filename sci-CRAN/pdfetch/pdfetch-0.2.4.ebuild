@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pdfetch_0.2.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/httr
-	sci-CRAN/xml2
-	sci-CRAN/readr
-	sci-CRAN/reshape2
-	sci-CRAN/xts
-	sci-CRAN/zoo
-	sci-CRAN/lubridate
-	sci-CRAN/XML
+DEPEND="sci-CRAN/XML
 	sci-CRAN/jsonlite
+	sci-CRAN/xml2
+	sci-CRAN/xts
+	sci-CRAN/httr
+	sci-CRAN/lubridate
+	sci-CRAN/zoo
+	sci-CRAN/reshape2
+	sci-CRAN/readr
 	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-}"

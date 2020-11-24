@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BayesNSGP_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/Matrix
+DEPEND="sci-CRAN/FNN
+	virtual/Matrix
 	sci-CRAN/nimble
 	sci-CRAN/StatMatch
 	>=dev-lang/R-3.4.0
-	sci-CRAN/FNN
 "
 RDEPEND="${DEPEND-}"

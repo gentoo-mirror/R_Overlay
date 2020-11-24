@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/mvtnorm
-	sci-CRAN/pls
 	sci-CRAN/glmnet
+	sci-CRAN/pls
 "
 RDEPEND="${DEPEND-}"

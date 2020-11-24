@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/shinymaterial_1.2.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/shiny-0.7.0
-	sci-CRAN/sass
 	sci-CRAN/jsonlite
+	sci-CRAN/sass
 "
 RDEPEND="${DEPEND-}"

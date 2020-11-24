@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/dygraphs
-	sci-CRAN/jsonlite
-	sci-CRAN/quantmod
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/httr
+	sci-CRAN/dygraphs
 	sci-CRAN/magrittr
-	sci-CRAN/httr
-	sci-CRAN/DT
+	sci-CRAN/quantmod
 	sci-CRAN/stringr
+	sci-CRAN/jsonlite
+	sci-CRAN/dplyr
+	sci-CRAN/DT
 	sci-CRAN/xts
 	sci-CRAN/shiny
 "

@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_geor"
 R_SUGGESTS="r_suggests_geor? ( sci-CRAN/geoR )"
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/sp
-	sci-CRAN/optimr
 	sci-CRAN/coda
+	sci-CRAN/optimr
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tinytex? ( sci-CRAN/tinytex )
 "
-DEPEND="sci-CRAN/prereg
-	sci-CRAN/rmarkdown
-	sci-CRAN/ranger
+DEPEND="sci-CRAN/rmarkdown
 	sci-CRAN/yaml
 	sci-CRAN/gert
+	sci-CRAN/prereg
 	sci-CRAN/digest
+	sci-CRAN/ranger
 	sci-CRAN/rticles
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

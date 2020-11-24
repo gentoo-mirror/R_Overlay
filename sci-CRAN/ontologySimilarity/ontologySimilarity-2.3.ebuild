@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_paintmap? ( sci-CRAN/paintmap )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/Rcpp-1.0.0
 	>=sci-CRAN/ontologyIndex-2.0
+	>=sci-CRAN/Rcpp-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

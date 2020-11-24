@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-0.9 )
 "
 DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/mclust-5.3
-	virtual/Matrix
 	>=sci-CRAN/BMA-3.18
-	sci-CRAN/foreach
+	>=sci-CRAN/mclust-5.3
 	sci-CRAN/iterators
+	virtual/Matrix
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

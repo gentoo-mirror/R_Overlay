@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GLIDE_1.0.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/foreach
+	virtual/MASS
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

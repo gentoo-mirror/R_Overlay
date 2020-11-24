@@ -13,7 +13,7 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_rcolorbrewer"
 R_SUGGESTS="r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )"
 DEPEND=">=sci-CRAN/ggplot2-2.2.0
-	>=sci-CRAN/reshape2-1.4.2
 	>=sci-CRAN/plyr-1.8.4
+	>=sci-CRAN/reshape2-1.4.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

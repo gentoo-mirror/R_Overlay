@@ -23,7 +23,7 @@ DEPEND=">=sci-CRAN/sysfonts-0.7.1
 "
 RDEPEND="${DEPEND-}
 	sys-libs/zlib
-	media-libs/libpng
 	media-libs/freetype
+	media-libs/libpng
 	${R_SUGGESTS-}
 "

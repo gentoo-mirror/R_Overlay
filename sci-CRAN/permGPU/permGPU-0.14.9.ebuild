@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/permGPU_0.14.9.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/survival
-	>=sci-CRAN/RUnit-0.4.26
-	>=dev-lang/R-2.15.3
+DEPEND=">=sci-CRAN/RUnit-0.4.26
 	>=sci-CRAN/foreach-1.4.2
 	>=sci-BIOC/Biobase-2.18.0
+	virtual/survival
+	>=dev-lang/R-2.15.3
 "
 RDEPEND="${DEPEND-} dev-util/nvidia-cuda-toolkit"

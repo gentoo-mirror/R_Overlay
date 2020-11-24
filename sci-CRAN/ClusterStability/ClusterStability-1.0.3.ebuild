@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ClusterStability_1.0.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/Rcpp
-	>=sci-CRAN/copula-0.999
+DEPEND=">=sci-CRAN/copula-0.999
 	virtual/cluster
+	sci-CRAN/Rcpp
 	virtual/cluster
 	virtual/cluster
 "

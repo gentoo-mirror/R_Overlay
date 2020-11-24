@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hypercube_0.2.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/plotly
-	>=dev-lang/R-3.3.0
-	sci-CRAN/stringr
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/dplyr
+	sci-CRAN/stringr
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/saeME_1.2.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/dplyr
 	virtual/cluster
-	virtual/MASS
+	>=dev-lang/R-3.1.0
 	sci-CRAN/expm
-	sci-CRAN/dplyr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -20,25 +20,25 @@ R_SUGGESTS="
 	r_suggests_nbpseq? ( >=sci-CRAN/NBPSeq-0.3.0 )
 	r_suggests_noiseq? ( sci-BIOC/NOISeq )
 "
-DEPEND="virtual/lattice
-	sci-CRAN/stringr
-	sci-CRAN/vioplot
-	sci-BIOC/edgeR
-	sci-CRAN/ROCR
+DEPEND="sci-CRAN/gtools
+	sci-CRAN/caTools
+	>=sci-CRAN/knitr-1.2
 	>=dev-lang/R-3.0.2
+	sci-CRAN/stringr
+	sci-BIOC/edgeR
+	sci-CRAN/vioplot
+	sci-CRAN/ROCR
 	dev-lang/R[tk]
-	sci-CRAN/gplots
-	virtual/MASS
-	sci-BIOC/limma
 	sci-CRAN/gdata
+	virtual/MASS
+	sci-CRAN/gplots
 	virtual/KernSmooth
 	sci-CRAN/ggplot2
 	sci-CRAN/modeest
-	sci-CRAN/markdown
-	sci-CRAN/gtools
-	sci-CRAN/caTools
-	>=sci-CRAN/knitr-1.2
+	sci-BIOC/limma
 	sci-CRAN/sm
+	sci-CRAN/markdown
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

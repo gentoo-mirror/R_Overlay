@@ -33,13 +33,13 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/ggplot2
+	sci-CRAN/gridBase
+	sci-CRAN/grImport
+	sci-CRAN/grImport2
+	sci-CRAN/gridGraphics
 	sci-CRAN/gridSVG
 	virtual/lattice
-	sci-CRAN/grImport
-	sci-CRAN/ggplot2
-	sci-CRAN/grImport2
-	sci-CRAN/gridBase
-	sci-CRAN/gridGraphics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_rtweet? ( sci-CRAN/rtweet )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/zeallot
-	sci-CRAN/tidyr
-	sci-CRAN/igraph
-	sci-CRAN/combinat
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/rlang
 	sci-CRAN/purrr
 	sci-CRAN/dplyr
+	sci-CRAN/igraph
 	sci-CRAN/magrittr
+	sci-CRAN/tidyr
+	sci-CRAN/zeallot
+	sci-CRAN/combinat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

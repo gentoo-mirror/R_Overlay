@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.4.0 virtual/MASS sci-CRAN/dplyr dev-lang/R
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/dplyr virtual/MASS dev-lang/R
 DESCRIPTION=Multi-Modal Similarity Matrix Fa... (see metadata)
 EAPI=7
 IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=>=dev-lang/R-3.4.0 virtual/MASS sci-CRAN/dplyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/dplyr virtual/MASS r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/M2SMF_2.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=bdcea22613f74965f78050da3abf4a65
+_md5_=91fc2b0f8bc8e3adba398eec92716a66

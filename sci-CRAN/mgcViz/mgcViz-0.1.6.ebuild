@@ -18,19 +18,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/qgam-1.2.3
+DEPEND=">=dev-lang/R-3.4
+	sci-CRAN/shiny
+	sci-CRAN/GGally
+	virtual/mgcv
+	sci-CRAN/plyr
+	sci-CRAN/miniUI
+	>=sci-CRAN/qgam-1.2.3
+	sci-CRAN/rgl
 	sci-CRAN/ggplot2
 	sci-CRAN/gamm4
 	virtual/Matrix
-	sci-CRAN/rgl
-	sci-CRAN/gridExtra
-	sci-CRAN/plyr
-	sci-CRAN/shiny
-	sci-CRAN/miniUI
-	>=dev-lang/R-3.4
-	virtual/mgcv
 	sci-CRAN/viridis
-	sci-CRAN/GGally
 	virtual/KernSmooth
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

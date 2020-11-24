@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_waveslim? ( sci-CRAN/waveslim )
 "
 DEPEND="sci-CRAN/ade4
-	sci-CRAN/wordcloud
-	sci-CRAN/siar
 	sci-CRAN/polyclip
+	sci-CRAN/siar
+	sci-CRAN/wordcloud
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

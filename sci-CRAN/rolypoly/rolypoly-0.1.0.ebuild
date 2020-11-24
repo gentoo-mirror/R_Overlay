@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/data_table-1.9.6
-	>=sci-CRAN/dplyr-0.4.3
-	>=sci-CRAN/ggplot2-1.0.1
+DEPEND=">=sci-CRAN/foreach-1.4.3
 	virtual/Matrix
-	>=dev-lang/R-3.1.3
-	>=sci-CRAN/foreach-1.4.3
+	>=sci-CRAN/data_table-1.9.6
 	>=sci-CRAN/glmnet-2.0.5
 	virtual/MASS
+	>=dev-lang/R-3.1.3
+	>=sci-CRAN/ggplot2-1.0.1
+	>=sci-CRAN/dplyr-0.4.3
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

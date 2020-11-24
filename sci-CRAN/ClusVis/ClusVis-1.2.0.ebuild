@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ClusVis_1.2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.4
+DEPEND="sci-CRAN/Rcpp
+	sci-CRAN/Rmixmod
 	sci-CRAN/mvtnorm
+	>=sci-CRAN/VarSelLCM-2.1
+	>=dev-lang/R-3.4
 	virtual/MASS
 	virtual/mgcv
-	>=sci-CRAN/VarSelLCM-2.1
-	sci-CRAN/Rcpp
-	sci-CRAN/Rmixmod
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/mvtnorm
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/mvtnorm
 "

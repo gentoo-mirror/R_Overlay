@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 	r_suggests_yaml? ( >=sci-CRAN/yaml-2.1.15 )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/magrittr
+	sci-CRAN/openssl
 	sci-CRAN/uuid
 	>=sci-CRAN/data_table-1.10.0
-	sci-CRAN/openssl
+	sci-CRAN/purrr
 	sci-CRAN/httr
 	sci-CRAN/rjson
 "

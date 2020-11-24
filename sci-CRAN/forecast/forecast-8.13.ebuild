@@ -22,16 +22,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_uroot? ( sci-CRAN/uroot )
 "
-DEPEND="sci-CRAN/colorspace
-	>=sci-CRAN/Rcpp-0.11.0
-	virtual/nnet
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/fracdiff
+	sci-CRAN/timeDate
 	sci-CRAN/lmtest
 	sci-CRAN/urca
 	>=dev-lang/R-3.0.2
-	sci-CRAN/fracdiff
 	>=sci-CRAN/ggplot2-2.2.1
-	sci-CRAN/timeDate
+	sci-CRAN/colorspace
+	sci-CRAN/magrittr
+	virtual/nnet
+	>=sci-CRAN/Rcpp-0.11.0
 	sci-CRAN/tseries
 	sci-CRAN/zoo
 "

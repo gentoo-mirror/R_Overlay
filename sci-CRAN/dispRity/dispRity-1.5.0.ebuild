@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/castor
-	sci-CRAN/phyclust
-	sci-CRAN/ape
-	>=dev-lang/R-4.0.0
+DEPEND=">=dev-lang/R-4.0.0
 	sci-CRAN/Claddis
-	sci-CRAN/geiger
-	sci-CRAN/scales
-	sci-CRAN/ade4
 	sci-CRAN/vegan
-	sci-CRAN/geometry
-	sci-CRAN/geoscale
+	sci-CRAN/phyclust
+	sci-CRAN/geiger
+	sci-CRAN/ade4
+	sci-CRAN/ape
 	sci-CRAN/mnormt
+	sci-CRAN/scales
 	sci-CRAN/phangorn
+	sci-CRAN/geometry
+	sci-CRAN/castor
+	sci-CRAN/geoscale
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

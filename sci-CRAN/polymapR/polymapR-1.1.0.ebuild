@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/knitr
-	sci-CRAN/MDSMap
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/foreach
-	sci-CRAN/igraph
-	>=dev-lang/R-3.5.0
 	sci-CRAN/doParallel
+	sci-CRAN/igraph
+	sci-CRAN/knitr
+	sci-CRAN/MDSMap
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

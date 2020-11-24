@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.10 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND=">=sci-CRAN/pbapply-1.3
-	>=sci-CRAN/Rcpp-0.12.0
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	>=sci-CRAN/MortalitySmooth-2.3.4
+	>=sci-CRAN/pbapply-1.3
+	>=sci-CRAN/Rcpp-0.12.0
 	>=sci-CRAN/rgl-0.99.0
 	>=sci-CRAN/Rdpack-0.8
 "

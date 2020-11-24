@@ -29,9 +29,9 @@ R_SUGGESTS="
 	r_suggests_speedglm? ( sci-CRAN/speedglm )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	sci-CRAN/sqldf
+DEPEND="sci-CRAN/sqldf
 	sci-CRAN/discretization
+	sci-CRAN/magrittr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

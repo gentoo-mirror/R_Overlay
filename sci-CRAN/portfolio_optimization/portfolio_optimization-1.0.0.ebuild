@@ -12,8 +12,8 @@ LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/xts
-	sci-CRAN/magrittr
-	sci-CRAN/modopt_matlab
 	virtual/MASS
+	sci-CRAN/modopt_matlab
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

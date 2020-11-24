@@ -25,13 +25,13 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/processmapR-0.3.1
 	sci-CRAN/dplyr
-	sci-CRAN/bupaR
-	sci-CRAN/magrittr
-	sci-CRAN/rlang
 	sci-CRAN/tidyr
-	sci-CRAN/htmlwidgets
 	>=sci-CRAN/DiagrammeR-1.0.0
 	sci-CRAN/stringr
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
+	sci-CRAN/bupaR
+	sci-CRAN/htmlwidgets
 	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
 DEPEND=">=sci-CRAN/BBmisc-1.6
-	sci-CRAN/deldir
 	sci-CRAN/lhs
-	>=sci-CRAN/reshape2-1.4.1
-	sci-CRAN/vegan
 	>=sci-CRAN/ggplot2-1.0.0
+	sci-CRAN/vegan
 	>=sci-CRAN/checkmate-1.1
+	>=sci-CRAN/reshape2-1.4.1
+	sci-CRAN/deldir
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

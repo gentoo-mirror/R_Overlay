@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hbsae_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/arm
+DEPEND="sci-CRAN/arm
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

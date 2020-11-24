@@ -20,25 +20,25 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=sci-CRAN/broom-0.7.2
+DEPEND=">=sci-CRAN/modeldata-0.1.0
 	>=sci-CRAN/rstudioapi-0.13
-	>=sci-CRAN/parsnip-0.1.4
-	>=sci-CRAN/infer-0.5.3
-	>=sci-CRAN/ggplot2-3.3.2
-	>=sci-CRAN/tibble-3.0.4
-	>=sci-CRAN/magrittr-2.0.0
-	>=sci-CRAN/modeldata-0.1.0
-	>=sci-CRAN/yardstick-0.0.7
-	>=sci-CRAN/cli-2.2.0
-	>=sci-CRAN/rlang-0.4.8
-	>=sci-CRAN/tune-0.1.2
-	>=sci-CRAN/dplyr-1.0.2
-	>=sci-CRAN/recipes-0.1.15
-	>=sci-CRAN/tidyr-1.1.2
-	>=sci-CRAN/dials-0.0.9
 	>=sci-CRAN/purrr-0.3.4
+	>=sci-CRAN/rlang-0.4.8
+	>=sci-CRAN/cli-2.2.0
 	>=dev-lang/R-3.1
+	>=sci-CRAN/magrittr-2.0.0
+	>=sci-CRAN/parsnip-0.1.4
+	>=sci-CRAN/tidyr-1.1.2
+	>=sci-CRAN/tune-0.1.2
+	>=sci-CRAN/yardstick-0.0.7
+	>=sci-CRAN/dplyr-1.0.2
+	>=sci-CRAN/broom-0.7.2
+	>=sci-CRAN/dials-0.0.9
+	>=sci-CRAN/infer-0.5.3
 	>=sci-CRAN/rsample-0.0.8
+	>=sci-CRAN/recipes-0.1.15
+	>=sci-CRAN/tibble-3.0.4
+	>=sci-CRAN/ggplot2-3.3.2
 	>=sci-CRAN/workflows-0.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

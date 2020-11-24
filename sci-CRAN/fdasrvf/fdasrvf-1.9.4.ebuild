@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_plot3drgl? ( sci-CRAN/plot3Drgl )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND="sci-CRAN/coda
-	sci-CRAN/doParallel
-	sci-CRAN/fields
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/coda
 	>=sci-CRAN/Rcpp-0.12.1
 	sci-CRAN/mvtnorm
+	sci-CRAN/foreach
+	virtual/Matrix
+	sci-CRAN/fields
+	sci-CRAN/doParallel
 	sci-CRAN/viridisLite
 	sci-CRAN/tolerance
 	sci-CRAN/testthat
-	>=dev-lang/R-3.5.0
-	sci-CRAN/foreach
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

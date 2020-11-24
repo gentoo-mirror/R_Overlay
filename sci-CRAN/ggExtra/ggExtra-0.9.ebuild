@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/colourpicker-1.0
+DEPEND="sci-CRAN/R6
+	>=dev-lang/R-3.1.0
 	>=sci-CRAN/ggplot2-2.2.0
-	>=sci-CRAN/miniUI-0.1.1
 	>=sci-CRAN/gtable-0.2.0
+	>=sci-CRAN/colourpicker-1.0
+	>=sci-CRAN/miniUI-0.1.1
 	>=sci-CRAN/scales-0.2.0
 	>=sci-CRAN/shiny-0.13.0
 	>=sci-CRAN/shinyjs-0.5.2
-	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

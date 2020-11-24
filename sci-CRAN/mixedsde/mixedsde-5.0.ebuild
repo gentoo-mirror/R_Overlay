@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/mixedsde_5.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/plot3D
-	virtual/MASS
 	sci-CRAN/sde
+	virtual/MASS
+	sci-CRAN/plot3D
 	sci-CRAN/moments
 "
 RDEPEND="${DEPEND-}"

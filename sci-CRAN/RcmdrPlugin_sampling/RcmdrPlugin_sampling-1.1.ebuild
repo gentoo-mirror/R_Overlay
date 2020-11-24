@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.sampling_1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/lpSolve
+	virtual/MASS
 	sci-CRAN/sampling
 	sci-CRAN/Rcmdr
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

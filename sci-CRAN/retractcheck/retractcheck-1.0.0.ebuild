@@ -13,7 +13,7 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_covr"
 R_SUGGESTS="r_suggests_covr? ( sci-CRAN/covr )"
 DEPEND="sci-CRAN/plyr
-	sci-CRAN/httr
 	sci-CRAN/textreadr
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

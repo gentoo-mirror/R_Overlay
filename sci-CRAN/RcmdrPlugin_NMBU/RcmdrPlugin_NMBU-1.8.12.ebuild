@@ -27,14 +27,14 @@ R_SUGGESTS="
 	r_suggests_pbkrtest? ( sci-CRAN/pbkrtest )
 	r_suggests_vcd? ( sci-CRAN/vcd )
 "
-DEPEND="sci-CRAN/phia
+DEPEND="sci-CRAN/xtable
+	sci-CRAN/phia
+	sci-CRAN/pls
 	dev-lang/R[tk]
 	>=sci-CRAN/Rcmdr-2.1.7
-	sci-CRAN/pls
+	sci-CRAN/car
 	>=dev-lang/R-3.0.0
 	>=sci-CRAN/mixlm-1.2.3
-	sci-CRAN/xtable
 	virtual/MASS
-	sci-CRAN/car
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ordinalCont_2.0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/Deriv
 	virtual/boot
+	sci-CRAN/Deriv
 "
 RDEPEND="${DEPEND-}"

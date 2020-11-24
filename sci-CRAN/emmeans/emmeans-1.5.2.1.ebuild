@@ -42,12 +42,12 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/estimability-1.3
-	>=sci-CRAN/xtable-1.8.2
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/mvtnorm
-	sci-CRAN/numDeriv
+	>=sci-CRAN/xtable-1.8.2
 	>=dev-lang/R-3.5.0
-	sci-CRAN/plyr
+	sci-CRAN/numDeriv
+	>=sci-CRAN/estimability-1.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

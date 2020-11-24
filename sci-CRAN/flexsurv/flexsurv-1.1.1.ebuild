@@ -22,16 +22,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 "
-DEPEND="sci-CRAN/muhaz
-	>=sci-CRAN/mstate-0.2.10
-	sci-CRAN/tidyr
-	>=dev-lang/R-2.15.0
-	sci-CRAN/mvtnorm
-	virtual/survival
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/muhaz
 	sci-CRAN/deSolve
+	>=sci-CRAN/mstate-0.2.10
+	>=dev-lang/R-2.15.0
 	sci-CRAN/quadprog
 	>=sci-CRAN/Rcpp-0.11.5
+	sci-CRAN/tidyr
 	sci-CRAN/tibble
+	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

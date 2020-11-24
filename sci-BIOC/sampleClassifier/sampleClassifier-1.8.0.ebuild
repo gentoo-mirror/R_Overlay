@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_class? ( virtual/class )
 "
-DEPEND="sci-BIOC/MGFR
+DEPEND="sci-BIOC/annotate
 	sci-CRAN/e1071
-	sci-BIOC/annotate
 	sci-CRAN/ggplot2
+	sci-BIOC/MGFR
 	>=dev-lang/R-3.4
 	sci-BIOC/MGFM
 "

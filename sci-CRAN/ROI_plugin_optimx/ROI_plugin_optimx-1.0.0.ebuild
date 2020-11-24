@@ -22,7 +22,7 @@ R_SUGGESTS="
 	r_suggests_subplex? ( sci-CRAN/subplex )
 	r_suggests_ucminf? ( sci-CRAN/ucminf )
 "
-DEPEND="sci-CRAN/optimx
-	>=sci-CRAN/ROI-0.3.2
+DEPEND=">=sci-CRAN/ROI-0.3.2
+	sci-CRAN/optimx
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

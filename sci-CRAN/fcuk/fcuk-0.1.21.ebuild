@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/stringdist
-	sci-CRAN/magrittr
-	sci-CRAN/purrr
 	sci-CRAN/tibble
+	sci-CRAN/purrr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

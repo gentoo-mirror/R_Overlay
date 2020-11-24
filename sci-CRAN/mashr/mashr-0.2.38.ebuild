@@ -20,19 +20,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ashr-2.2.22
-	sci-CRAN/mvtnorm
-	sci-CRAN/rmeta
-	sci-CRAN/assertthat
-	>=sci-CRAN/Rcpp-0.12.11
-	>=dev-lang/R-3.3.0
-	sci-CRAN/plyr
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/abind
+	sci-CRAN/plyr
+	>=sci-CRAN/ashr-2.2.22
+	sci-CRAN/assertthat
+	sci-CRAN/rmeta
+	>=sci-CRAN/Rcpp-0.12.11
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/RcppGSL
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "
 

@@ -9,9 +9,9 @@ DESCRIPTION='Adaptive Association Tests for M... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/POMaSPU_1.0.0.tar.gz"
 
-DEPEND=">=sci-CRAN/Rcpp-0.12.6
+DEPEND="virtual/MASS
 	virtual/Matrix
-	virtual/MASS
+	>=sci-CRAN/Rcpp-0.12.6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

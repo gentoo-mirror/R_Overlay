@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_repplab"
 R_SUGGESTS="r_suggests_repplab? ( sci-CRAN/REPPlab )"
-DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/ICS-1.3.0
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	>=dev-lang/R-3.0.0
 	sci-CRAN/moments
+	>=sci-CRAN/ICS-1.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

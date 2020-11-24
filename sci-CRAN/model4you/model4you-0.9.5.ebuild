@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_strucchange? ( sci-CRAN/strucchange )
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 "
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/Formula
 	sci-CRAN/ggplot2
 	sci-CRAN/sandwich
 	>=sci-CRAN/partykit-1.2.6
-	sci-CRAN/Formula
+	>=dev-lang/R-3.1.0
 	sci-CRAN/gridExtra
 	virtual/survival
 "

@@ -10,21 +10,21 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/packagefinder_0.3.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/httr
-	sci-CRAN/jsonlite
-	sci-CRAN/formattable
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/crayon
+	sci-CRAN/lubridate
 	sci-CRAN/tidyr
-	sci-CRAN/textutils
+	sci-CRAN/formattable
 	sci-CRAN/htmlTable
 	sci-CRAN/clipr
-	sci-CRAN/shiny
-	sci-CRAN/pander
-	sci-CRAN/lubridate
-	sci-CRAN/shinyjs
-	sci-CRAN/shinybusy
-	sci-CRAN/rstudioapi
 	sci-CRAN/reactable
+	sci-CRAN/shinyjs
+	sci-CRAN/rstudioapi
+	sci-CRAN/httr
+	sci-CRAN/pander
+	sci-CRAN/stringr
+	sci-CRAN/textutils
+	sci-CRAN/shiny
+	sci-CRAN/shinybusy
 "
 RDEPEND="${DEPEND-}"

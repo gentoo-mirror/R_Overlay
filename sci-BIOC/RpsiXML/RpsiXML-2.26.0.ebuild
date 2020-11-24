@@ -12,11 +12,11 @@ LICENSE='LGPL-3'
 
 IUSE="${IUSE-} r_suggests_rgraphviz"
 R_SUGGESTS="r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )"
-DEPEND=">=sci-BIOC/RBGL-1.17.0
+DEPEND=">=sci-BIOC/annotate-1.21.0
+	>=sci-CRAN/XML-2.4.0
+	>=sci-BIOC/RBGL-1.17.0
 	sci-BIOC/Biobase
 	>=sci-BIOC/graph-1.21.0
-	>=sci-CRAN/XML-2.4.0
-	>=sci-BIOC/annotate-1.21.0
 	>=sci-BIOC/hypergraph-1.15.2
 	sci-BIOC/AnnotationDbi
 "

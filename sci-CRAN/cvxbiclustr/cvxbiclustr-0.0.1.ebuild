@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/cvxbiclustr_0.0.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.3
-	virtual/Matrix
 	sci-CRAN/igraph
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

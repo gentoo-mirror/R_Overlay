@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_slam? ( sci-CRAN/slam )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/R6
+DEPEND="sci-CRAN/R6
+	>=sci-CRAN/scs-1.3
+	sci-CRAN/Rmpfr
+	>=sci-CRAN/ECOSolveR-0.5.3
 	virtual/Matrix
+	>=dev-lang/R-3.4.0
 	>=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/bit64
 	sci-CRAN/gmp
-	sci-CRAN/Rmpfr
-	>=sci-CRAN/ECOSolveR-0.5.3
-	>=sci-CRAN/scs-1.3
 	sci-CRAN/osqp
 "
 RDEPEND="${DEPEND-}

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/BOG_2.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/DIME
 	sci-CRAN/hash
+	sci-CRAN/DIME
 "
 RDEPEND="${DEPEND-}"

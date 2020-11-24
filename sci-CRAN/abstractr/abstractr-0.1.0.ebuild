@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/shiny-1.2.0
-	sci-CRAN/colourpicker
-	>=sci-CRAN/gridExtra-2.3.0
-	>=sci-CRAN/ggplot2-3.0.0
-	sci-CRAN/shinythemes
-	sci-CRAN/emojifont
+DEPEND=">=sci-CRAN/gridExtra-2.3.0
 	sci-CRAN/rintrojs
+	sci-CRAN/emojifont
+	>=sci-CRAN/ggplot2-3.0.0
+	>=sci-CRAN/shiny-1.2.0
+	sci-CRAN/colourpicker
+	sci-CRAN/shinythemes
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

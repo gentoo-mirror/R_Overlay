@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/memoise
+DEPEND="sci-CRAN/jsonlite
+	sci-CRAN/memoise
 	sci-CRAN/readr
-	sci-CRAN/stringr
-	sci-CRAN/scales
-	sci-CRAN/jsonlite
-	sci-CRAN/dplyr
 	sci-CRAN/purrr
+	sci-CRAN/dplyr
+	sci-CRAN/scales
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

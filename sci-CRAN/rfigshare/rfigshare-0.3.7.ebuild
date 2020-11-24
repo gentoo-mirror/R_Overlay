@@ -17,12 +17,12 @@ R_SUGGESTS="
 	r_suggests_uuid? ( sci-CRAN/uuid )
 "
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/yaml
-	sci-CRAN/RJSONIO
-	sci-CRAN/httpuv
 	sci-CRAN/plyr
+	sci-CRAN/RJSONIO
 	sci-CRAN/XML
 	>=sci-CRAN/httr-0.3
+	sci-CRAN/httpuv
+	sci-CRAN/yaml
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

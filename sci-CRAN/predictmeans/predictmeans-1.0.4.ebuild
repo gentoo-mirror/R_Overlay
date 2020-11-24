@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/predictmeans_1.0.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/nlme
 	virtual/Matrix
-	sci-CRAN/numDeriv
+	virtual/nlme
 	sci-CRAN/ggplot2
 	sci-CRAN/lme4
-	sci-CRAN/pbkrtest
 	sci-CRAN/plyr
+	sci-CRAN/numDeriv
+	sci-CRAN/pbkrtest
 "
 RDEPEND="${DEPEND-}"

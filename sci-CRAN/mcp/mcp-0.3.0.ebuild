@@ -20,22 +20,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/dplyr-1.0.0
+DEPEND=">=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/patchwork-1.0.0
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/tidyr-1.0.0
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/ggplot2-3.2.1
+	>=sci-CRAN/tibble-2.1.3
+	>=sci-CRAN/rlang-0.4.1
 	>=dev-lang/R-3.5.0
 	sci-CRAN/future
 	>=sci-CRAN/rjags-4.9
-	sci-CRAN/future_apply
-	>=sci-CRAN/tidyr-1.0.0
-	>=sci-CRAN/patchwork-1.0.0
-	>=sci-CRAN/tidybayes-2.0.3
-	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/loo-2.1.0
-	>=sci-CRAN/ggplot2-3.2.1
+	>=sci-CRAN/tidybayes-2.0.3
 	>=sci-CRAN/tidyselect-0.2.5
-	>=sci-CRAN/tibble-2.1.3
-	>=sci-CRAN/rlang-0.4.1
+	sci-CRAN/future_apply
 	>=sci-CRAN/coda-0.19.3
 	>=sci-CRAN/bayesplot-1.7.0
-	>=sci-CRAN/stringr-1.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

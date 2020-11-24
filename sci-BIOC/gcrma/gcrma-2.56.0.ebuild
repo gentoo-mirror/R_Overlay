@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/gcrma_2.56.0.tar.gz"
 LICENSE='LGPL-3+'
 
-DEPEND="sci-CRAN/BiocManager
+DEPEND=">=sci-BIOC/affy-1.23.2
+	sci-CRAN/BiocManager
+	sci-BIOC/XVector
 	>=sci-BIOC/affy-1.23.2
 	sci-BIOC/Biobase
-	>=sci-BIOC/Biostrings-2.11.32
-	>=sci-BIOC/affy-1.23.2
 	>=sci-BIOC/affyio-1.13.3
-	sci-BIOC/XVector
+	>=sci-BIOC/Biostrings-2.11.32
 "
 RDEPEND="${DEPEND-}"
 

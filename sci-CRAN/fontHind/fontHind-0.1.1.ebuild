@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/extrafont
-	sci-CRAN/hrbrthemes
 	sci-CRAN/ggplot2
+	sci-CRAN/hrbrthemes
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

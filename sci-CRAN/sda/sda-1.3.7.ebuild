@@ -13,8 +13,8 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_crossval"
 R_SUGGESTS="r_suggests_crossval? ( >=sci-CRAN/crossval-1.0.3 )"
 DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/fdrtool-1.2.15
-	>=sci-CRAN/corpcor-1.6.8
 	>=sci-CRAN/entropy-1.2.1
+	>=sci-CRAN/corpcor-1.6.8
+	>=sci-CRAN/fdrtool-1.2.15
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

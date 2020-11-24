@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_siggenes? ( sci-BIOC/siggenes )
 "
 DEPEND="sci-CRAN/LogicReg
-	sci-CRAN/mcbiopi
 	virtual/survival
+	sci-CRAN/mcbiopi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

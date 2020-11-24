@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GAabbreviate_1.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.0
+DEPEND=">=sci-CRAN/GA-3.0
+	>=dev-lang/R-3.0
 	>=sci-CRAN/psych-1.4.3
-	>=sci-CRAN/GA-3.0
 "
 RDEPEND="${DEPEND-}"

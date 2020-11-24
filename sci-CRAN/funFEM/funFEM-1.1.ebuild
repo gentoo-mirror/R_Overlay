@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/funFEM_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	sci-CRAN/elasticnet
+DEPEND="sci-CRAN/elasticnet
+	virtual/MASS
 	sci-CRAN/fda
 "
 RDEPEND="${DEPEND-}"

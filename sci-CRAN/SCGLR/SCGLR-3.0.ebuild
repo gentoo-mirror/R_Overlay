@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/SCGLR_3.0.tar.gz"
 
 IUSE="${IUSE-} r_suggests_gridextra"
 R_SUGGESTS="r_suggests_gridextra? ( sci-CRAN/gridExtra )"
-DEPEND="sci-CRAN/expm
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/ggplot2
 	sci-CRAN/pROC
 	sci-CRAN/Formula
-	sci-CRAN/ggplot2
+	sci-CRAN/expm
 	sci-CRAN/ade4
-	>=dev-lang/R-3.0.0
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

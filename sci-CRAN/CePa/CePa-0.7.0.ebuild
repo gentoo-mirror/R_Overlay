@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/CePa_0.7.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-BIOC/graph
-	sci-BIOC/Rgraphviz
 	>=sci-CRAN/igraph-0.6
+	sci-BIOC/Rgraphviz
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-}"

@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-BIOC/Biobase >=sci-BIOC/Biobase-2.5.5 >=sci-BIOC/affy-1.23.4 dev-lang/R
+DEPEND=>=sci-BIOC/affy-1.23.4 >=sci-BIOC/Biobase-2.5.5 sci-BIOC/Biobase dev-lang/R
 DESCRIPTION=Presence-Absence Calls from Nega... (see metadata)
 EAPI=7
 IUSE=r_suggests_gcrma byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=sci-BIOC/Biobase >=sci-BIOC/Biobase-2.5.5 >=sci-BIOC/affy-1.23.4 r_suggests_gcrma? ( sci-BIOC/gcrma ) dev-lang/R
+RDEPEND=>=sci-BIOC/affy-1.23.4 >=sci-BIOC/Biobase-2.5.5 sci-BIOC/Biobase r_suggests_gcrma? ( sci-BIOC/gcrma ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/panp_1.54.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=a3426eb0386565ca76046063acb91fc5
+_md5_=cb53f0dc6c9fac487825cba1f6f30ebc

@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/gglasso-1.4
-	>=sci-CRAN/Rcpp-0.11.2
 	sci-CRAN/XML
-	>=dev-lang/R-3.2.2
+	>=sci-CRAN/Rcpp-0.11.2
 	virtual/MASS
+	>=dev-lang/R-3.2.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

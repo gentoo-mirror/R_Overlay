@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/selfea_1.0.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/plyr
 	sci-CRAN/pwr
 	virtual/MASS
 	sci-CRAN/ggplot2
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

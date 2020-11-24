@@ -21,8 +21,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/entropy
 	sci-CRAN/dplyr
-	sci-CRAN/rlang
 	sci-CRAN/raster
+	sci-CRAN/rlang
 	sci-CRAN/sf
 	sci-CRAN/tibble
 	sci-CRAN/tidyr

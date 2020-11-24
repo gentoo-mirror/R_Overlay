@@ -16,27 +16,27 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/ggplot2-2.0
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/ggthemes
 	sci-CRAN/purrr
-	sci-CRAN/systemfit
-	sci-CRAN/broom
-	>=dev-lang/R-3.3
-	sci-CRAN/tidyr
-	>=sci-CRAN/tibble-3.0.0
-	sci-CRAN/rlang
-	sci-CRAN/FinCal
-	sci-CRAN/scales
-	sci-CRAN/gridExtra
-	sci-CRAN/ggpmisc
-	>=sci-CRAN/dplyr-0.7.0
-	sci-CRAN/forcats
-	sci-CRAN/car
-	sci-CRAN/ggthemes
-	sci-CRAN/magrittr
-	sci-CRAN/minpack_lm
-	sci-CRAN/formattable
 	sci-CRAN/ggdendro
+	sci-CRAN/magrittr
+	sci-CRAN/gridExtra
+	>=sci-CRAN/tibble-3.0.0
+	sci-CRAN/car
+	sci-CRAN/minpack_lm
 	sci-CRAN/tidyselect
+	sci-CRAN/broom
+	sci-CRAN/forcats
+	sci-CRAN/plyr
+	sci-CRAN/systemfit
+	>=dev-lang/R-3.3
+	>=sci-CRAN/ggplot2-2.0
+	sci-CRAN/ggpmisc
+	sci-CRAN/FinCal
+	sci-CRAN/formattable
+	sci-CRAN/scales
+	>=sci-CRAN/dplyr-0.7.0
+	sci-CRAN/tidyr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

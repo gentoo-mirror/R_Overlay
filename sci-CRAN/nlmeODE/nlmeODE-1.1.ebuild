@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/nlmeODE_1.1.tar.gz"
 LICENSE='LGPL-2.1+'
 
 DEPEND="virtual/nlme
-	sci-CRAN/deSolve
 	virtual/lattice
+	sci-CRAN/deSolve
 "
 RDEPEND="${DEPEND-}"

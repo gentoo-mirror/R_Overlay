@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/esreg_0.5.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/quantreg
-	sci-CRAN/Rcpp
 	sci-CRAN/Formula
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

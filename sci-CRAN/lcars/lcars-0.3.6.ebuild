@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_showtext? ( sci-CRAN/showtext )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/trekcolors
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/trekcolors
 	sci-CRAN/ggplot2
 	sci-CRAN/shiny
 "

@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/GSCA_2.14.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/gplots
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/sp
-	sci-CRAN/RColorBrewer
 	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
+	sci-CRAN/gplots
+	sci-CRAN/RColorBrewer
 	sci-BIOC/rhdf5
-	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"
 

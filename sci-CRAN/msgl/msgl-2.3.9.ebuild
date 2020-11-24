@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.2.4
-	>=sci-CRAN/sglOptim-1.3.7
 	virtual/Matrix
+	>=sci-CRAN/sglOptim-1.3.7
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/sglOptim
-	sci-CRAN/BH
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/RcppProgress
+	sci-CRAN/BH
+	sci-CRAN/sglOptim
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

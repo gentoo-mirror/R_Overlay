@@ -21,9 +21,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/tidyr
-	>=sci-CRAN/dplyr-0.8.1
-	>=sci-CRAN/Rcpp-1.0.1
 	sci-CRAN/ggplot2
+	>=sci-CRAN/Rcpp-1.0.1
+	>=sci-CRAN/dplyr-0.8.1
 	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-}

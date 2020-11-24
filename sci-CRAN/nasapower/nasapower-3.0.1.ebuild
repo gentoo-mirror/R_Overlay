@@ -24,12 +24,12 @@ R_SUGGESTS="
 	r_suggests_terra? ( sci-CRAN/terra )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/curl
-	sci-CRAN/tibble
-	>=dev-lang/R-3.5.0
-	sci-CRAN/lubridate
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/jsonlite
+	sci-CRAN/curl
+	sci-CRAN/lubridate
 	sci-CRAN/crul
 	sci-CRAN/readr
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

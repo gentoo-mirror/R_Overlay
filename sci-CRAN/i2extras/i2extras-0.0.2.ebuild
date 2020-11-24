@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/trending
-	sci-CRAN/incidence2
-	sci-CRAN/rlang
-	sci-CRAN/tibble
+DEPEND="virtual/MASS
 	sci-CRAN/dplyr
+	sci-CRAN/trending
+	sci-CRAN/incidence2
+	sci-CRAN/tibble
+	sci-CRAN/rlang
 	sci-CRAN/tidyr
 	sci-CRAN/vctrs
 	sci-CRAN/ellipsis
 	sci-CRAN/ggplot2
-	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

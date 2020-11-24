@@ -24,21 +24,21 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/lubridate
-	sci-CRAN/dplyr
-	sci-CRAN/rvest
+DEPEND="sci-CRAN/lubridate
 	sci-CRAN/readr
+	sci-CRAN/jsonlite
+	sci-CRAN/rvest
+	>=sci-CRAN/rlang-0.1.2
 	>=sci-CRAN/stringr-1.3.0
-	>=sci-CRAN/tidyr-1.0.0
 	sci-CRAN/tidyselect
 	sci-CRAN/xml2
-	sci-CRAN/tibble
 	sci-CRAN/glue
+	>=dev-lang/R-3.3
 	sci-CRAN/httr
-	sci-CRAN/jsonlite
+	sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/purrr
-	>=sci-CRAN/rlang-0.1.2
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/dc3net_1.2.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.3.3
-	sci-CRAN/c3net
 	sci-BIOC/RedeR
+	sci-CRAN/c3net
 	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

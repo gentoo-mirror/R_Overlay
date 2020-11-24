@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/corTest_1.0.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
+DEPEND="virtual/MASS
 	sci-CRAN/ggplot2
-	virtual/MASS
+	virtual/Matrix
+	virtual/cluster
 	>=dev-lang/R-3.5.0
 	sci-CRAN/igraph
-	virtual/cluster
 	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

@@ -12,14 +12,14 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( >=sci-CRAN/knitr-1.8 )"
-DEPEND=">=dev-lang/R-3.4
+DEPEND="sci-CRAN/cli
+	sci-CRAN/crayon
+	>=dev-lang/R-3.4
+	>=sci-CRAN/ggplot2-2.2.1
 	>=sci-CRAN/GA-3.1
 	>=sci-CRAN/mclust-5.4
 	>=sci-CRAN/Rcpp-1.0.0
-	>=sci-CRAN/ggplot2-2.2.1
 	>=sci-CRAN/ggthemes-3.4.0
-	sci-CRAN/cli
-	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

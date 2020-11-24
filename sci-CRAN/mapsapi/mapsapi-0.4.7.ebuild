@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_leaflet? ( sci-CRAN/leaflet )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/sf
-	sci-CRAN/xml2
-	sci-CRAN/stars
+DEPEND="sci-CRAN/bitops
 	sci-CRAN/magrittr
-	sci-CRAN/bitops
+	sci-CRAN/sf
+	sci-CRAN/stars
+	sci-CRAN/xml2
 	sci-CRAN/RgoogleMaps
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

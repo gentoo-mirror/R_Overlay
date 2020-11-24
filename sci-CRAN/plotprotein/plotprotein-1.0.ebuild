@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/plotprotein_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ade4
+DEPEND="sci-CRAN/XML
 	sci-CRAN/plyr
-	sci-CRAN/seqinr
-	sci-CRAN/XML
+	sci-CRAN/ade4
 	sci-CRAN/plotrix
+	sci-CRAN/seqinr
 "
 RDEPEND="${DEPEND-}"

@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
 DEPEND=">=sci-CRAN/e1071-1.7.0.1
+	virtual/class
 	>=sci-CRAN/data_table-1.12.6
 	>=sci-CRAN/lme4-1.1.21
-	virtual/class
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

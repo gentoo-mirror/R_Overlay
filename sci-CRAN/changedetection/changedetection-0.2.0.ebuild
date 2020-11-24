@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/changedetection_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/L1pack
-	sci-CRAN/glmnet
 	sci-CRAN/Rdpack
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

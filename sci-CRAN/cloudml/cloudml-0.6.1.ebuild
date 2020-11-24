@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/withr
-	sci-CRAN/rprojroot
-	>=sci-CRAN/tfruns-1.3
-	sci-CRAN/packrat
-	sci-CRAN/config
+DEPEND="sci-CRAN/yaml
 	sci-CRAN/jsonlite
+	sci-CRAN/config
+	>=sci-CRAN/tfruns-1.3
+	>=dev-lang/R-3.3.0
+	sci-CRAN/packrat
 	sci-CRAN/processx
+	sci-CRAN/rprojroot
 	sci-CRAN/rstudioapi
-	sci-CRAN/yaml
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-}
 	dev-lang/python

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/VUROCS_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

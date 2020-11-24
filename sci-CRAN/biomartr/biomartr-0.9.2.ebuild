@@ -19,24 +19,24 @@ R_SUGGESTS="
 	r_suggests_seqinr? ( sci-CRAN/seqinr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.1
-	sci-BIOC/Biostrings
-	sci-BIOC/biomaRt
-	sci-CRAN/tibble
-	sci-CRAN/curl
+DEPEND="sci-BIOC/Biostrings
 	sci-CRAN/jsonlite
-	>=sci-CRAN/data_table-1.9.4
-	>=sci-CRAN/dplyr-0.3.0
-	>=sci-CRAN/readr-0.2.2
 	>=sci-CRAN/downloader-0.3
-	sci-CRAN/philentropy
 	>=sci-CRAN/fs-1.3.1
 	>=sci-CRAN/RCurl-1.95.4.5
-	>=sci-CRAN/httr-0.6.1
 	sci-CRAN/purrr
 	>=sci-CRAN/stringr-0.6.2
 	sci-CRAN/R_utils
+	>=dev-lang/R-3.1.1
+	sci-CRAN/curl
+	sci-CRAN/tibble
+	sci-BIOC/biomaRt
+	>=sci-CRAN/data_table-1.9.4
+	>=sci-CRAN/dplyr-0.3.0
+	>=sci-CRAN/readr-0.2.2
 	>=sci-CRAN/XML-3.98.1.1
+	sci-CRAN/philentropy
+	>=sci-CRAN/httr-0.6.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

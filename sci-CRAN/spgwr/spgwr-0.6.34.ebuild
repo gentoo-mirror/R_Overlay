@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_maptools? ( >=sci-CRAN/maptools-0.7.32 )
 	r_suggests_spdep? ( sci-CRAN/spdep )
 "
-DEPEND=">=dev-lang/R-2.14
-	>=sci-CRAN/spData-0.2.6.2
+DEPEND=">=sci-CRAN/spData-0.2.6.2
+	>=dev-lang/R-2.14
 	>=sci-CRAN/sp-0.8.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

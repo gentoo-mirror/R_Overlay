@@ -30,18 +30,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tsibbledata? ( >=sci-CRAN/tsibbledata-0.2.0 )
 "
-DEPEND=">=sci-CRAN/tsibble-0.9.0
+DEPEND=">=sci-CRAN/rlang-0.4.5
+	sci-CRAN/progressr
 	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/R6
+	>=dev-lang/R-3.1.3
 	>=sci-CRAN/ggplot2-3.0.0
-	>=sci-CRAN/rlang-0.4.5
+	sci-CRAN/tidyselect
 	>=sci-CRAN/tibble-1.4.1
+	>=sci-CRAN/tsibble-0.9.0
+	>=sci-CRAN/tidyr-1.1.0
 	sci-CRAN/generics
 	>=sci-CRAN/vctrs-0.2.2
-	sci-CRAN/progressr
-	>=dev-lang/R-3.1.3
-	sci-CRAN/tidyselect
-	>=sci-CRAN/tidyr-1.1.0
-	sci-CRAN/R6
 	sci-CRAN/distributional
 	sci-CRAN/lifecycle
 "

@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcr? ( >=sci-CRAN/vcr-0.2.0 )
 "
-DEPEND="sci-CRAN/gridBase
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
+	sci-CRAN/gridBase
 	>=sci-CRAN/crul-0.5.2
 	sci-CRAN/png
 	sci-CRAN/ggplot2

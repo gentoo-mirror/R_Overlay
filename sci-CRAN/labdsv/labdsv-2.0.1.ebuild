@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_optpart"
 R_SUGGESTS="r_suggests_optpart? ( sci-CRAN/optpart )"
 DEPEND="virtual/MASS
+	virtual/mgcv
 	sci-CRAN/Rtsne
 	virtual/cluster
-	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

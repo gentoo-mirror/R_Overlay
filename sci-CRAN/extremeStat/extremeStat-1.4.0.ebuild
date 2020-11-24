@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/pbapply
-	sci-CRAN/extRemes
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/fExtremes
-	sci-CRAN/evd
-	>=sci-CRAN/lmomco-2.2.5
-	>=sci-CRAN/berryFunctions-1.15.6
-	sci-CRAN/RColorBrewer
 	sci-CRAN/evir
+	sci-CRAN/evd
+	>=sci-CRAN/berryFunctions-1.15.6
+	sci-CRAN/pbapply
+	>=sci-CRAN/lmomco-2.2.5
 	sci-CRAN/ismev
+	sci-CRAN/extRemes
 	sci-CRAN/Renext
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

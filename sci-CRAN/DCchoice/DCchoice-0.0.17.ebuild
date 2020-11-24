@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_ecdat"
 R_SUGGESTS="r_suggests_ecdat? ( sci-CRAN/Ecdat )"
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/interval
 	virtual/MASS
+	>=dev-lang/R-3.5.0
 	sci-CRAN/Formula
-	sci-CRAN/interval
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

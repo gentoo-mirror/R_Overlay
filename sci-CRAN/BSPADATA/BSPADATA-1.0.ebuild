@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/BSPADATA_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/mvtnorm
 	sci-CRAN/pscl
+	sci-CRAN/mvtnorm
 	sci-CRAN/spdep
 "
 RDEPEND="${DEPEND-}"

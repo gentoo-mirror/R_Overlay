@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_zic? ( sci-CRAN/zic )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/pamr
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/glmnet
-	sci-CRAN/WeightSVM
 	sci-CRAN/pscl
+	sci-CRAN/pamr
+	>=dev-lang/R-3.5.0
 	sci-CRAN/numDeriv
 	sci-CRAN/foreach
 	sci-CRAN/doParallel
 	sci-CRAN/bst
+	sci-CRAN/WeightSVM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

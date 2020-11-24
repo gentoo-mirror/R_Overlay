@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 "
-DEPEND=">=dev-lang/R-3.0.2
+DEPEND="sci-CRAN/energy
+	virtual/mgcv
 	sci-CRAN/pcalg
 	sci-CRAN/kernlab
-	virtual/mgcv
-	sci-CRAN/energy
+	>=dev-lang/R-3.0.2
 	sci-CRAN/RSpectra
 	sci-BIOC/graph
 "

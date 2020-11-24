@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/glue
-	sci-CRAN/sandwich
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/Formula
-	>=dev-lang/R-3.0.0
+	sci-CRAN/sandwich
+	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

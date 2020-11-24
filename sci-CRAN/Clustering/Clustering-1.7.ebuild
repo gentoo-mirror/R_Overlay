@@ -27,24 +27,24 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
 DEPEND="virtual/cluster
-	sci-CRAN/gama
-	sci-CRAN/sqldf
-	sci-CRAN/pracma
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
-	sci-CRAN/data_table
-	sci-CRAN/doParallel
-	virtual/cluster
 	sci-CRAN/dplyr
+	sci-CRAN/data_table
+	>=dev-lang/R-3.5.0
+	sci-CRAN/foreach
+	sci-CRAN/gama
+	sci-CRAN/gmp
+	sci-CRAN/advclust
+	virtual/cluster
 	sci-CRAN/future
 	sci-CRAN/shiny
-	sci-CRAN/advclust
-	sci-CRAN/amap
+	sci-CRAN/sqldf
 	virtual/cluster
-	sci-CRAN/gmp
-	sci-CRAN/xtable
-	sci-CRAN/foreach
+	sci-CRAN/amap
+	sci-CRAN/doParallel
 	sci-CRAN/pvclust
+	sci-CRAN/xtable
+	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

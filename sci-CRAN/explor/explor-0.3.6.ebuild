@@ -21,13 +21,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/shiny-1.0
-	sci-CRAN/formatR
-	sci-CRAN/DT
-	sci-CRAN/highr
-	sci-CRAN/tidyr
-	sci-CRAN/ggplot2
 	>=sci-CRAN/dplyr-0.7
+	sci-CRAN/ggplot2
+	sci-CRAN/highr
 	>=sci-CRAN/scatterD3-0.9.1
+	sci-CRAN/tidyr
+	sci-CRAN/DT
+	sci-CRAN/formatR
 	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

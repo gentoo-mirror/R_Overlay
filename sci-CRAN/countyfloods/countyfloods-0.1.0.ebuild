@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/dplyr-0.5.0
-	>=sci-CRAN/maps-3.1.1
+DEPEND=">=sci-CRAN/ggplot2-2.1.0
 	>=sci-CRAN/dataRetrieval-2.5.10
+	>=sci-CRAN/maps-3.1.1
+	>=sci-CRAN/dplyr-0.5.0
 	>=sci-CRAN/lubridate-1.6.0
-	>=sci-CRAN/ggplot2-2.1.0
 	>=sci-CRAN/plyr-1.8.4
 	>=sci-CRAN/R_utils-2.5.0
 	>=sci-CRAN/tidyr-0.6.0

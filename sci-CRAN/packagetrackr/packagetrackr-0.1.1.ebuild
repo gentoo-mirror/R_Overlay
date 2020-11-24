@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/packagetrackr_0.1.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=sci-CRAN/httr-1.0.0
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/rappdirs
 	>=sci-CRAN/dplyr-0.4.3
-	sci-CRAN/magrittr
+	>=sci-CRAN/httr-1.0.0
 "
 RDEPEND="${DEPEND-}"

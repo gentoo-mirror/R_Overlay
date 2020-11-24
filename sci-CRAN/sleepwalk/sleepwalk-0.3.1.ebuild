@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/sleepwalk_0.3.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/jrc-0.4.0
-	sci-CRAN/ggplot2
 	sci-CRAN/jsonlite
-	sci-CRAN/cowplot
 	sci-CRAN/httpuv
 	sci-CRAN/scales
+	sci-CRAN/cowplot
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

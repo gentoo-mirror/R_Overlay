@@ -18,8 +18,9 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/measuRing
-	sci-CRAN/shiny
+DEPEND="sci-CRAN/spatstat
+	sci-CRAN/measuRing
+	sci-CRAN/dplyr
 	sci-CRAN/tiff
 	sci-CRAN/jpeg
 	sci-CRAN/shinyWidgets
@@ -29,9 +30,8 @@ DEPEND="sci-CRAN/measuRing
 	sci-CRAN/magick
 	sci-CRAN/imager
 	sci-CRAN/dplR
-	sci-CRAN/dplyr
+	sci-CRAN/shiny
 	sci-CRAN/shinydashboard
-	sci-CRAN/spatstat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

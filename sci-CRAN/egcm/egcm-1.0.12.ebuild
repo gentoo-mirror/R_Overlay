@@ -14,9 +14,9 @@ DEPEND="sci-CRAN/zoo
 	sci-CRAN/ggplot2
 	sci-CRAN/pracma
 	sci-CRAN/urca
-	sci-CRAN/quantmod
-	sci-CRAN/xts
 	sci-CRAN/tseries
+	sci-CRAN/xts
 	virtual/MASS
+	sci-CRAN/quantmod
 "
 RDEPEND="${DEPEND-}"

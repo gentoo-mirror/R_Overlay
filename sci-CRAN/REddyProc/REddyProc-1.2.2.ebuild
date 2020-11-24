@@ -25,10 +25,10 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/purrr
-	sci-CRAN/dplyr
-	sci-CRAN/mlegp
 	sci-CRAN/rlang
+	sci-CRAN/purrr
+	sci-CRAN/mlegp
+	sci-CRAN/dplyr
 	sci-CRAN/tibble
 	sci-CRAN/magrittr
 	sci-CRAN/solartime

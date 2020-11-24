@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_geoquery? ( sci-BIOC/GEOquery )
 	r_suggests_limma? ( sci-BIOC/limma )
 "
-DEPEND="sci-BIOC/marray
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
+	sci-BIOC/marray
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

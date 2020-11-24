@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_suppdists? ( sci-CRAN/SuppDists )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RcppArmadillo
-	sci-CRAN/reshape2
-	sci-CRAN/ggthemes
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/doParallel
+	sci-CRAN/ggthemes
+	sci-CRAN/reshape2
 	>=dev-lang/R-3.4.0
-	sci-CRAN/assertthat
 	>=sci-CRAN/Rcpp-0.12.16
-	sci-CRAN/foreach
+	sci-CRAN/assertthat
+	sci-CRAN/RcppArmadillo
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MixRF_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/doParallel
+	sci-CRAN/randomForest
 	sci-CRAN/foreach
 	sci-CRAN/lme4
-	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-}"

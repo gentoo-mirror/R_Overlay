@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/revgeo
+DEPEND="sci-CRAN/geodist
+	virtual/spatial
 	sci-CRAN/dplyr
-	sci-CRAN/digest
-	sci-CRAN/httr
+	sci-CRAN/stringr
 	>=dev-lang/R-3.1.0
-	sci-CRAN/geodist
+	sci-CRAN/httr
+	sci-CRAN/digest
 	sci-CRAN/lubridate
 	sci-CRAN/magrittr
-	virtual/spatial
 	sci-CRAN/readr
+	sci-CRAN/revgeo
 	sci-CRAN/rlang
-	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

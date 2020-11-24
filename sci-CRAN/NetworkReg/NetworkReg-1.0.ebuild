@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/NetworkReg_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/randnet
-	sci-CRAN/RSpectra
 	virtual/Matrix
+	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-}"

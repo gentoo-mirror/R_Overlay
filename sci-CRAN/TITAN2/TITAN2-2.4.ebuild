@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/glue
-	sci-CRAN/ggridges
-	sci-CRAN/ggplot2
-	sci-CRAN/cowplot
-	sci-CRAN/tibble
-	sci-CRAN/snow
-	>=dev-lang/R-2.15.0
+DEPEND=">=dev-lang/R-2.15.0
 	sci-CRAN/dplyr
+	sci-CRAN/ggridges
+	sci-CRAN/cowplot
+	sci-CRAN/glue
+	sci-CRAN/tibble
+	sci-CRAN/ggplot2
 	sci-CRAN/purrr
+	sci-CRAN/snow
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

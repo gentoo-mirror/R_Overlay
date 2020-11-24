@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_nlme? ( virtual/nlme )
 	r_suggests_survey? ( sci-CRAN/survey )
 "
-DEPEND="virtual/survival
-	sci-CRAN/geepack
-	virtual/nnet
+DEPEND="sci-CRAN/geepack
 	>=dev-lang/R-3.0.0
+	virtual/survival
+	virtual/nnet
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

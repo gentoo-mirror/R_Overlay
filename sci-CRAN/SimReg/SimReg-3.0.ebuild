@@ -15,8 +15,8 @@ R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/Rcpp-0.11.1
 	>=sci-CRAN/ontologyIndex-2.0
-	sci-CRAN/ontologyPlot
 	>=sci-CRAN/ontologySimilarity-2.0
+	sci-CRAN/ontologyPlot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_nhanes? ( sci-CRAN/NHANES )
 	r_suggests_sampling? ( sci-CRAN/sampling )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/survey
+	virtual/MASS
 	virtual/Matrix
-	sci-CRAN/survey
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

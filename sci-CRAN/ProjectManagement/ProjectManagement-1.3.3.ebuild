@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ProjectManagement_1.3.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/triangle
-	sci-CRAN/plotly
-	>=dev-lang/R-3.5.0
-	sci-CRAN/GameTheory
-	sci-CRAN/lpSolveAPI
+DEPEND="sci-CRAN/lpSolveAPI
 	sci-CRAN/kappalab
 	sci-CRAN/igraph
+	sci-CRAN/plotly
+	>=dev-lang/R-3.5.0
+	sci-CRAN/triangle
+	sci-CRAN/GameTheory
 "
 RDEPEND="${DEPEND-}"

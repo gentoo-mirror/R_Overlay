@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cricketr_0.0.23.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/plotrix
+DEPEND=">=dev-lang/R-3.1.2
+	sci-CRAN/XML
 	sci-CRAN/forecast
-	>=dev-lang/R-3.1.2
-	sci-CRAN/dplyr
-	sci-CRAN/scatterplot3d
 	sci-CRAN/ggplot2
 	sci-CRAN/lubridate
-	sci-CRAN/XML
 	sci-CRAN/httr
+	sci-CRAN/plotrix
+	sci-CRAN/scatterplot3d
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

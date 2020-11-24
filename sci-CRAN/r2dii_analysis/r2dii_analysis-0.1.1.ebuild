@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.4
+DEPEND="sci-CRAN/glue
+	>=sci-CRAN/rlang-0.1.2
+	sci-CRAN/dplyr
 	sci-CRAN/r2dii_data
 	sci-CRAN/magrittr
-	sci-CRAN/dplyr
-	sci-CRAN/glue
-	>=sci-CRAN/rlang-0.1.2
 	sci-CRAN/tidyr
 	sci-CRAN/tidyselect
+	>=dev-lang/R-3.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

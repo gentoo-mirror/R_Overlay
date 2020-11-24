@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/igraph-1.0.0
 	>=sci-CRAN/rARPACK-0.11.0
+	>=sci-CRAN/igraph-1.0.0
 	>=sci-CRAN/animation-2.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

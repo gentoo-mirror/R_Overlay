@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_xtable"
 R_SUGGESTS="r_suggests_xtable? ( sci-CRAN/xtable )"
-DEPEND="sci-CRAN/mvtnorm
-	virtual/MASS
+DEPEND="virtual/MASS
+	sci-CRAN/mvtnorm
 	>=sci-CRAN/ape-3.0.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

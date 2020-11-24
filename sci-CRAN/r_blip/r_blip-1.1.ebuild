@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/r.blip_1.1.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/bnlearn-4.0
 	virtual/foreign
+	>=sci-CRAN/bnlearn-4.0
 "
 RDEPEND="${DEPEND-} virtual/jdk"

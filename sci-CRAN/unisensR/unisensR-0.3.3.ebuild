@@ -13,8 +13,8 @@ LICENSE='LGPL-3+'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/vroom
 	sci-CRAN/hexView
 	>=sci-CRAN/XML-1.0.0
-	sci-CRAN/vroom
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

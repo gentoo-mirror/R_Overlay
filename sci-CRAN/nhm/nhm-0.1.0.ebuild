@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_msm"
 R_SUGGESTS="r_suggests_msm? ( sci-CRAN/msm )"
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/maxLik
 	sci-CRAN/deSolve
+	sci-CRAN/maxLik
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

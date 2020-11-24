@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/IRTShiny_1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.3
-	sci-CRAN/ltm
-	sci-CRAN/psych
-	sci-CRAN/shinyAce
-	sci-CRAN/beeswarm
 	sci-CRAN/shiny
 	sci-CRAN/CTT
+	sci-CRAN/ltm
+	sci-CRAN/shinyAce
+	sci-CRAN/beeswarm
+	sci-CRAN/psych
 "
 RDEPEND="${DEPEND-}"

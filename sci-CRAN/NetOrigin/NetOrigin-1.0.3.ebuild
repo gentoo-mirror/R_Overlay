@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.2
 	sci-CRAN/igraph
-	sci-CRAN/colorspace
 	sci-CRAN/Hmisc
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-}"

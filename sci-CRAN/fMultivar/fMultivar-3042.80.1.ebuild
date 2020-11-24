@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_spatial? ( virtual/spatial )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/cubature
-	sci-CRAN/timeSeries
-	sci-CRAN/fBasics
-	sci-CRAN/timeDate
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/timeDate
 	sci-CRAN/sn
+	sci-CRAN/mvtnorm
+	>=dev-lang/R-2.15.1
+	sci-CRAN/fBasics
+	sci-CRAN/timeSeries
+	sci-CRAN/cubature
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

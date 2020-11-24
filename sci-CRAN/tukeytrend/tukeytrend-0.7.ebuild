@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND="sci-CRAN/multcomp
-	virtual/mgcv
 	sci-CRAN/lme4
+	virtual/mgcv
 	virtual/nlme
 	sci-CRAN/pbkrtest
 	virtual/Matrix

@@ -28,14 +28,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/Rcpp-0.12.3
 	sci-CRAN/diagis
 	>=sci-CRAN/coda-0.18.1
+	>=sci-CRAN/Rcpp-0.12.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/sitmo
 	sci-CRAN/ramcmc
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/sitmo
 	${R_SUGGESTS-}
 "

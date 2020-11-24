@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_gdata"
 R_SUGGESTS="r_suggests_gdata? ( sci-CRAN/gdata )"
-DEPEND="virtual/lattice
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/Hmisc
+	virtual/lattice
 	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

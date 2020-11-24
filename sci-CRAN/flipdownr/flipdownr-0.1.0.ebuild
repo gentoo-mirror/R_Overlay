@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/flipdownr_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/htmltools
-	sci-CRAN/jsonlite
 	sci-CRAN/glue
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

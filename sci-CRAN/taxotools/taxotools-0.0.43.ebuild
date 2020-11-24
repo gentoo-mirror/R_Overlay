@@ -12,7 +12,7 @@ LICENSE='CC0-1.0'
 
 DEPEND="sci-CRAN/taxize
 	sci-CRAN/wikitaxa
-	sci-CRAN/sqldf
 	sci-CRAN/plyr
+	sci-CRAN/sqldf
 "
 RDEPEND="${DEPEND-}"

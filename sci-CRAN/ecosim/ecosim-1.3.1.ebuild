@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ecosim_1.3-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/stoichcalc
-	sci-CRAN/deSolve
+DEPEND="sci-CRAN/deSolve
+	sci-CRAN/stoichcalc
 "
 RDEPEND="${DEPEND-}"

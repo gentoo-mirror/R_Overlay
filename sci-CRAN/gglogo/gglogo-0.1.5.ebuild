@@ -12,16 +12,16 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_rcolorbrewer"
 R_SUGGESTS="r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )"
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/jpeg
+DEPEND="sci-CRAN/knitr
 	>=sci-CRAN/ggplot2-2.0.0
 	sci-CRAN/plyr
 	>=dev-lang/R-3.6
+	sci-CRAN/jpeg
 	sci-CRAN/dplyr
 	sci-CRAN/tidyr
 	sci-CRAN/magrittr
 	sci-CRAN/purrr
 	sci-CRAN/reshape2
-	sci-CRAN/knitr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

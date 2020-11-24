@@ -25,9 +25,9 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.2
+	>=sci-CRAN/curl-3.0.0
 	>=sci-CRAN/openssl-0.8
 	sci-CRAN/mime
-	>=sci-CRAN/curl-3.0.0
 	sci-CRAN/jsonlite
 	sci-CRAN/R6
 "

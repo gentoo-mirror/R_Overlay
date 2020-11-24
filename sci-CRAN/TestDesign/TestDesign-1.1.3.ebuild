@@ -33,8 +33,8 @@ R_SUGGESTS="
 DEPEND=">=sci-CRAN/Rcpp-1.0.0
 	sci-CRAN/foreach
 	sci-CRAN/crayon
-	sci-CRAN/lpSolve
 	sci-CRAN/logitnorm
+	sci-CRAN/lpSolve
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

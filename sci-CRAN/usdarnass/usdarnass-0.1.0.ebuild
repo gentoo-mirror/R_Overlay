@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/httr
+DEPEND="sci-CRAN/httr
+	sci-CRAN/jsonlite
 	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

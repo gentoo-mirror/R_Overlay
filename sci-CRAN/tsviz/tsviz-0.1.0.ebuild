@@ -17,13 +17,13 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5
 	>=sci-CRAN/lubridate-1.7
-	>=sci-CRAN/plotly-4.9
 	>=sci-CRAN/dplyr-0.8
 	>=sci-CRAN/shiny-1.2
+	>=sci-CRAN/plotly-4.9
 	>=sci-CRAN/miniUI-0.1.1
-	>=sci-CRAN/forecast-8.7
 	>=sci-CRAN/ggplot2-3.0
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/forecast-8.7
 	>=sci-CRAN/shinyhelper-0.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

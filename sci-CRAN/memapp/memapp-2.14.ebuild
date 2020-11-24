@@ -15,27 +15,27 @@ R_SUGGESTS="
 	r_suggests_animation? ( sci-CRAN/animation )
 	r_suggests_magick? ( sci-CRAN/magick )
 "
-DEPEND="sci-CRAN/RColorBrewer
-	sci-CRAN/ggplot2
-	sci-CRAN/DT
+DEPEND="sci-CRAN/shiny
+	sci-CRAN/shinythemes
 	virtual/foreign
-	sci-CRAN/shinydashboard
-	sci-CRAN/plotly
+	sci-CRAN/stringi
 	>=dev-lang/R-3.4.0
+	sci-CRAN/dplyr
+	sci-CRAN/DT
 	sci-CRAN/shinyWidgets
 	sci-CRAN/openxlsx
-	sci-CRAN/haven
-	sci-CRAN/shinythemes
-	sci-CRAN/stringr
-	sci-CRAN/stringi
-	sci-CRAN/formattable
-	sci-CRAN/shinyjs
-	sci-CRAN/dplyr
 	sci-CRAN/readxl
-	>=sci-CRAN/mem-2.15
 	sci-CRAN/shinyBS
+	sci-CRAN/haven
+	sci-CRAN/ggplot2
+	sci-CRAN/formattable
+	>=sci-CRAN/mem-2.15
+	sci-CRAN/shinyjs
 	sci-CRAN/tidyr
-	sci-CRAN/shiny
+	sci-CRAN/shinydashboard
+	sci-CRAN/RColorBrewer
+	sci-CRAN/stringr
 	sci-CRAN/RODBC
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/vesselr_0.2.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/oro_nifti
-	sci-CRAN/pbapply
 	sci-CRAN/pbmcapply
+	sci-CRAN/pbapply
 "
 RDEPEND="${DEPEND-}"

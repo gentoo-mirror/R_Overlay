@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/StratSel_1.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/mnormt
-	sci-CRAN/Formula
-	sci-CRAN/memisc
+DEPEND="virtual/MASS
 	sci-CRAN/pbivnorm
+	sci-CRAN/memisc
 	>=dev-lang/R-3.5.0
-	virtual/MASS
+	sci-CRAN/Formula
+	sci-CRAN/mnormt
 "
 RDEPEND="${DEPEND-}"

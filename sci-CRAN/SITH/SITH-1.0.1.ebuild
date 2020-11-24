@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-1.0.4
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/scatterplot3d
+	>=sci-CRAN/Rcpp-1.0.4
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

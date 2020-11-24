@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IGG_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/glmnet
+DEPEND="sci-CRAN/pscl
 	sci-CRAN/GIGrvg
 	virtual/MASS
-	sci-CRAN/pscl
+	sci-CRAN/glmnet
 	>=dev-lang/R-3.1.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

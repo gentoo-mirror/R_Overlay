@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_raster? ( sci-CRAN/raster )
 	r_suggests_rgbif? ( sci-CRAN/rgbif )
 "
-DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/sp
-	virtual/mgcv
-	sci-CRAN/plotrix
-	sci-CRAN/fossil
+DEPEND="sci-CRAN/sp
 	sci-CRAN/vegan
+	sci-CRAN/plotrix
+	>=dev-lang/R-3.0
+	sci-CRAN/fossil
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

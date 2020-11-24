@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.18 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.1 )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.1.1
-	>=sci-CRAN/fpc-2.1.11.1
+DEPEND="virtual/MASS
 	>=sci-CRAN/tibble-2.1.1
-	>=sci-CRAN/stringr-1.4.0
-	virtual/MASS
-	>=sci-CRAN/purrr-0.3.2
 	>=sci-CRAN/rlang-0.3.4
+	>=sci-CRAN/ggplot2-3.1.1
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/purrr-0.3.2
+	>=sci-CRAN/fpc-2.1.11.1
 	>=sci-CRAN/Rcpp-1.0.1
 "
 RDEPEND="${DEPEND-}

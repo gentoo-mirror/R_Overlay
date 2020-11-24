@@ -17,12 +17,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	sci-CRAN/jsonlite
-	sci-CRAN/httr
-	sci-CRAN/tidyselect
 	sci-CRAN/lazyeval
+	sci-CRAN/httr
+	sci-CRAN/dplyr
+	sci-CRAN/jsonlite
+	sci-CRAN/magrittr
+	sci-CRAN/tidyselect
 	sci-CRAN/tidyr
 	sci-CRAN/purrr
 "

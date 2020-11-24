@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_som? ( sci-CRAN/som )
 "
 DEPEND="sci-CRAN/combinat
-	virtual/MASS
 	sci-CRAN/questionr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-libs/libsvm

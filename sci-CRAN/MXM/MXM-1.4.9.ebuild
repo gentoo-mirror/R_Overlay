@@ -15,25 +15,25 @@ R_SUGGESTS="
 	r_suggests_markdown? ( sci-CRAN/markdown )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND="virtual/nnet
-	sci-CRAN/foreach
-	sci-CRAN/energy
-	sci-CRAN/quantreg
-	>=dev-lang/R-3.6
-	sci-CRAN/geepack
+DEPEND="virtual/survival
+	sci-CRAN/Hmisc
 	sci-CRAN/coxme
-	sci-CRAN/visNetwork
+	sci-CRAN/lme4
+	virtual/nnet
 	sci-CRAN/knitr
 	sci-CRAN/ordinal
-	sci-CRAN/dplyr
-	sci-CRAN/Rfast2
-	virtual/survival
-	sci-CRAN/bigmemory
-	sci-CRAN/Hmisc
-	sci-CRAN/lme4
-	sci-CRAN/Rfast
-	virtual/MASS
 	sci-CRAN/doParallel
+	sci-CRAN/geepack
+	sci-CRAN/Rfast2
+	sci-CRAN/foreach
+	sci-CRAN/Rfast
+	sci-CRAN/bigmemory
+	sci-CRAN/dplyr
+	>=dev-lang/R-3.6
+	sci-CRAN/quantreg
+	sci-CRAN/visNetwork
 	sci-CRAN/relations
+	virtual/MASS
+	sci-CRAN/energy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

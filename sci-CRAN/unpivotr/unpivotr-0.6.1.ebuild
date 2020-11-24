@@ -30,17 +30,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyxl? ( sci-CRAN/tidyxl )
 "
-DEPEND="sci-CRAN/pillar
-	sci-CRAN/cellranger
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/tidyselect
+	sci-CRAN/xml2
+	sci-CRAN/rlang
+	sci-CRAN/tidyr
 	>=dev-lang/R-3.2.0
 	sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	sci-CRAN/rlang
 	sci-CRAN/forcats
 	sci-CRAN/purrr
-	sci-CRAN/tidyr
+	sci-CRAN/pillar
 	>=sci-CRAN/tibble-2.1.1
-	sci-CRAN/xml2
+	sci-CRAN/cellranger
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

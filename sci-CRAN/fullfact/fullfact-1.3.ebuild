@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/fullfact_1.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/lme4
 	sci-CRAN/afex
+	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-}"

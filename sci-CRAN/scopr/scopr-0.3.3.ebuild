@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_zeitgebr? ( sci-CRAN/zeitgebr )
 "
-DEPEND=">=dev-lang/R-3.00
-	sci-CRAN/data_table
-	sci-CRAN/behavr
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/readr
+	>=dev-lang/R-3.00
+	sci-CRAN/behavr
+	sci-CRAN/data_table
 	sci-CRAN/RSQLite
 	sci-CRAN/memoise
 "

@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/stringr
-	sci-CRAN/bupaR
-	sci-CRAN/edeaR
-	sci-CRAN/rlang
 	sci-CRAN/glue
+	sci-CRAN/bupaR
+	sci-CRAN/rlang
 	sci-CRAN/dplyr
+	sci-CRAN/edeaR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

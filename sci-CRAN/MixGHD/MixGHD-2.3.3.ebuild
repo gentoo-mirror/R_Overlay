@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MixGHD_2.3.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Bessel
-	sci-CRAN/ghyp
+DEPEND="virtual/MASS
+	virtual/cluster
 	sci-CRAN/mixture
+	sci-CRAN/e1071
+	sci-CRAN/Bessel
 	>=dev-lang/R-3.1.3
 	sci-CRAN/mvtnorm
-	sci-CRAN/e1071
-	virtual/cluster
-	virtual/MASS
+	sci-CRAN/ghyp
 	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_pls? ( sci-CRAN/pls )
 	r_suggests_plsdof? ( sci-CRAN/plsdof )
 "
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/betareg
-	sci-CRAN/plsRglm
-	virtual/boot
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/betareg
 	virtual/MASS
+	sci-CRAN/mvtnorm
+	sci-CRAN/Formula
+	virtual/boot
+	sci-CRAN/plsRglm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

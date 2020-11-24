@@ -13,8 +13,8 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_mvtnorm"
 R_SUGGESTS="r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )"
 DEPEND="virtual/boot
+	sci-CRAN/TSP
 	sci-CRAN/plyr
 	virtual/KernSmooth
-	sci-CRAN/TSP
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

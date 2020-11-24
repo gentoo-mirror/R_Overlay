@@ -20,20 +20,20 @@ R_SUGGESTS="
 	r_suggests_spelling? ( >=sci-CRAN/spelling-2.1 )
 	r_suggests_writexl? ( >=sci-CRAN/writexl-1.1.0 )
 "
-DEPEND=">=sci-CRAN/dplyr-0.8.0
-	>=sci-CRAN/ggplot2-3.1.1
-	>=sci-CRAN/stringr-1.4.0
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/rlang-0.3.4
-	>=sci-CRAN/tibble-2.1.1
+	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/ggplot2-3.1.1
+	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/psych-1.8.12
 	>=sci-CRAN/readr-1.3.1
 	>=sci-CRAN/tidyr-0.8.2
 	>=sci-CRAN/ggrepel-0.8.0
-	>=sci-CRAN/patchwork-1.0.0
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/magrittr-1.5
-	sci-CRAN/scales
-	sci-CRAN/forcats
 	sci-CRAN/naniar
+	sci-CRAN/scales
+	>=sci-CRAN/tibble-2.1.1
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/patchwork-1.0.0
+	sci-CRAN/forcats
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

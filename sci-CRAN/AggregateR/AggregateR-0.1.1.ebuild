@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AggregateR_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/data_table
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/NCmisc
-	sci-CRAN/tibble
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

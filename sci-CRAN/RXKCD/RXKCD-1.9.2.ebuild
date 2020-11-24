@@ -12,9 +12,9 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_rcurl"
 R_SUGGESTS="r_suggests_rcurl? ( sci-CRAN/RCurl )"
-DEPEND="sci-CRAN/RJSONIO
+DEPEND="sci-CRAN/plyr
+	sci-CRAN/RJSONIO
 	sci-CRAN/jpeg
 	sci-CRAN/png
-	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

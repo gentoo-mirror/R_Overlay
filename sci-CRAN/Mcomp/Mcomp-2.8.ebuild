@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Mcomp_2.8.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/forecast-8.0
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
+	>=sci-CRAN/forecast-8.0
 "
 RDEPEND="${DEPEND-}"

@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/spacesXYZ
 	sci-CRAN/rootSolve
+	sci-CRAN/spacesXYZ
 	sci-CRAN/spacesRGB
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

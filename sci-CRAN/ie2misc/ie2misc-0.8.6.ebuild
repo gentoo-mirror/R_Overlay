@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_pracma? ( sci-CRAN/pracma )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/stringi
-	dev-lang/R[tk]
 	>=sci-CRAN/openxlsx-4.1.4
 	>=sci-CRAN/readxl-1.3.1
+	sci-CRAN/gWidgets2
+	sci-CRAN/stringi
+	sci-CRAN/mgsub
 	sci-CRAN/reader
 	sci-CRAN/lubridate
-	sci-CRAN/gWidgets2
-	sci-CRAN/mgsub
+	dev-lang/R[tk]
 	dev-lang/R[tk]
 	>=sci-CRAN/data_table-1.10.2
 "

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pkr_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/foreign
-	sci-CRAN/binr
+DEPEND="sci-CRAN/binr
 	sci-CRAN/forestplot
 	sci-CRAN/rtf
+	virtual/foreign
 "
 RDEPEND="${DEPEND-}"

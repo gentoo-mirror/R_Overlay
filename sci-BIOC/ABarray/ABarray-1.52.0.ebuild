@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_limma? ( sci-BIOC/limma )
 	r_suggests_lpe? ( sci-BIOC/LPE )
 "
-DEPEND="sci-BIOC/Biobase
-	sci-BIOC/multtest
+DEPEND="sci-BIOC/multtest
 	dev-lang/R[tk]
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

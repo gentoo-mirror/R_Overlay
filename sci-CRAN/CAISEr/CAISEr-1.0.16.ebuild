@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_smoof? ( sci-CRAN/smoof )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/assertthat-0.2.1
+DEPEND=">=sci-CRAN/ggplot2-3.1.1
 	>=sci-CRAN/pbmcapply-1.4.1
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/assertthat-0.2.1
 	>=sci-CRAN/gridExtra-2.3
-	>=sci-CRAN/ggplot2-3.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

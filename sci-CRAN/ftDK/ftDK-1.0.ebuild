@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ftDK_1.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/pbapply
+DEPEND="sci-CRAN/httr
 	sci-CRAN/dplyr
 	sci-CRAN/tibble
+	sci-CRAN/pbapply
 	sci-CRAN/purrr
-	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

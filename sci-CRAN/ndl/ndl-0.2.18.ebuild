@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ndl_0.2.18.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/Hmisc
 	virtual/MASS
+	sci-CRAN/Hmisc
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

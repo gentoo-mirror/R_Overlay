@@ -33,24 +33,24 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 	r_suggests_tmap? ( sci-CRAN/tmap )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/httr-1.3.1
-	>=sci-CRAN/stringr-1.3.1
-	>=sci-CRAN/curl-3.2
-	>=sci-CRAN/raster-2.6.7
-	>=sci-CRAN/igraph-1.2.2
-	>=sci-CRAN/rlang-0.2.2
-	>=sci-CRAN/sf-0.6.3
-	>=sci-CRAN/dplyr-0.7.6
-	>=sci-CRAN/sp-1.3.1
+DEPEND=">=sci-CRAN/sp-1.3.1
 	>=sci-CRAN/maptools-0.9.3
-	>=sci-CRAN/Rcpp-0.12.1
+	>=sci-CRAN/igraph-1.2.2
 	sci-CRAN/magrittr
+	>=sci-CRAN/Rcpp-0.12.1
+	>=sci-CRAN/curl-3.2
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/httr-1.3.1
+	>=sci-CRAN/sf-0.6.3
+	>=sci-CRAN/stringr-1.3.1
+	>=sci-CRAN/raster-2.6.7
+	>=sci-CRAN/rlang-0.2.2
+	>=sci-CRAN/geosphere-1.5.7
+	>=sci-CRAN/lwgeom-0.1.4
 	>=sci-CRAN/rgeos-0.3.28
 	>=sci-CRAN/nabor-0.5.0
 	>=sci-CRAN/jsonlite-1.5
-	>=sci-CRAN/geosphere-1.5.7
-	>=sci-CRAN/lwgeom-0.1.4
+	>=sci-CRAN/dplyr-0.7.6
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/RcppArmadillo-0.9.100.5.0

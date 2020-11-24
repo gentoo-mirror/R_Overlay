@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/dplyr
 	sci-CRAN/readr
-	sci-CRAN/purrr
 	sci-CRAN/tidyr
+	sci-CRAN/purrr
 	sci-CRAN/stringr
 	sci-CRAN/visNetwork
 "

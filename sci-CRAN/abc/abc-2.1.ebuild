@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/abc_2.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/quantreg
-	virtual/MASS
-	virtual/nnet
-	sci-CRAN/abc_data
+DEPEND="sci-CRAN/abc_data
 	sci-CRAN/locfit
+	virtual/nnet
+	virtual/MASS
+	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-}"

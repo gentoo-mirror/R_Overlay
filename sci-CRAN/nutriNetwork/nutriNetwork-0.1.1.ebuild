@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nutriNetwork_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/huge
-	sci-CRAN/glasso
-	virtual/Matrix
-	>=dev-lang/R-3.1.0
+DEPEND="virtual/Matrix
 	sci-CRAN/tmvtnorm
+	sci-CRAN/huge
+	sci-CRAN/igraph
+	>=dev-lang/R-3.1.0
+	sci-CRAN/glasso
 "
 RDEPEND="${DEPEND-}"

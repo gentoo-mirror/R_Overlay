@@ -12,22 +12,22 @@ LICENSE='CC0-1.0'
 
 IUSE="${IUSE-} r_suggests_colorspace"
 R_SUGGESTS="r_suggests_colorspace? ( sci-CRAN/colorspace )"
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/zoo
-	sci-CRAN/ggplot2
-	sci-CRAN/ggmap
-	sci-CRAN/httr
-	sci-CRAN/maptools
-	sci-CRAN/oce
-	virtual/lattice
-	sci-CRAN/reshape2
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/httr
 	sci-CRAN/gridExtra
-	sci-CRAN/dplyr
 	sci-CRAN/openair
+	sci-CRAN/zoo
+	sci-CRAN/ggmap
 	sci-CRAN/RColorBrewer
+	sci-CRAN/reshape2
 	sci-CRAN/tictoc
 	sci-CRAN/tidyr
 	sci-CRAN/XML
+	>=dev-lang/R-3.2.0
+	sci-CRAN/data_table
+	sci-CRAN/ggplot2
+	sci-CRAN/maptools
+	sci-CRAN/oce
+	sci-CRAN/dplyr
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

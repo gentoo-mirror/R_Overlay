@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_rlang? ( sci-CRAN/rlang )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/htmltools
-	sci-CRAN/shinyjs
+DEPEND="sci-CRAN/htmltools
 	sci-CRAN/shiny
+	>=dev-lang/R-3.1.2
+	sci-CRAN/shinyjs
 	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/checkmate-2.0.0
-	>=sci-CRAN/fansi-0.4.1
-	>=sci-CRAN/clipr-0.7.0
+DEPEND=">=sci-CRAN/clipr-0.7.0
+	>=sci-CRAN/testthat-2.3.1
 	sci-CRAN/lifecycle
+	>=sci-CRAN/withr-2.0.0
+	>=sci-CRAN/checkmate-2.0.0
+	>=dev-lang/R-3.5.0
+	sci-CRAN/dplyr
+	>=sci-CRAN/fansi-0.4.1
 	sci-CRAN/plyr
 	sci-CRAN/rlang
-	>=sci-CRAN/testthat-2.3.1
-	sci-CRAN/dplyr
 	>=sci-CRAN/rstudioapi-0.10
 	sci-CRAN/tibble
-	>=sci-CRAN/withr-2.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

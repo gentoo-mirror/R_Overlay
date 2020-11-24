@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SMUT_1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/SKAT
-	>=sci-CRAN/Rcpp-0.12.14
+DEPEND=">=sci-CRAN/Rcpp-0.12.14
+	sci-CRAN/SKAT
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}

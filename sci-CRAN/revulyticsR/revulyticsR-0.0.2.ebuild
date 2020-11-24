@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/tidyselect-1.0.0
+DEPEND=">=sci-CRAN/jsonlite-1.6.1
+	>=sci-CRAN/httr-1.4.1
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/dplyr-0.8.4
-	>=sci-CRAN/purrr-0.3.3
 	>=sci-CRAN/tidyr-1.0.0
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/purrr-0.3.3
+	>=sci-CRAN/tidyselect-1.0.0
 	>=sci-CRAN/tibble-1.0.3
-	>=sci-CRAN/jsonlite-1.6.1
-	>=sci-CRAN/httr-1.4.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

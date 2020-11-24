@@ -26,9 +26,9 @@ R_SUGGESTS="
 	r_suggests_spdep? ( sci-CRAN/spdep )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/maptools
+	sci-CRAN/RColorBrewer
 	virtual/class
-	sci-CRAN/maptools
 	sci-CRAN/sp
 	>=dev-lang/R-3.5.0
 	sci-CRAN/Formula

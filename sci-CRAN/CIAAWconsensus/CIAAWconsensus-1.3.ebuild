@@ -9,9 +9,9 @@ DESCRIPTION='Isotope Ratio Meta-Analysis'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CIAAWconsensus_1.3.tar.gz"
 
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/numDeriv
-	virtual/Matrix
+DEPEND="sci-CRAN/numDeriv
 	sci-CRAN/stringr
+	sci-CRAN/mvtnorm
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

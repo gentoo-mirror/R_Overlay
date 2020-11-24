@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ROAuth_0.9.6.tar.gz"
 LICENSE='Artistic-2'
 
 DEPEND=">=dev-lang/R-2.12.0
-	sci-CRAN/digest
 	sci-CRAN/RCurl
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-}"

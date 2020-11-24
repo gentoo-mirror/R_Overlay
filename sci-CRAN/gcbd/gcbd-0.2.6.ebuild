@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gcbd_0.2.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-2.11.1
+DEPEND="sci-CRAN/RSQLite
+	virtual/lattice
+	sci-CRAN/reshape
+	sci-CRAN/DBI
+	>=dev-lang/R-2.11.1
 	virtual/Matrix
 	sci-CRAN/plyr
-	sci-CRAN/RSQLite
-	sci-CRAN/DBI
-	sci-CRAN/reshape
-	virtual/lattice
 "
 RDEPEND="${DEPEND-}
 	( sci-libs/blas-atlas dev-util/nvidia-cuda-toolkit )

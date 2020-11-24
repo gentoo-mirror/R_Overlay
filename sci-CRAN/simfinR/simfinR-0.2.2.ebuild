@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/simfinR_0.2.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/memoise
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/memoise
 	sci-CRAN/lubridate
 	sci-CRAN/jsonlite
-	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 	sci-CRAN/purrr
 	sci-CRAN/crayon
 "

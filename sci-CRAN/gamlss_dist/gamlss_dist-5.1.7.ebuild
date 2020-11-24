@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gamlss.dist_5.1-7.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="virtual/MASS
-	>=dev-lang/R-2.15.0
+DEPEND=">=dev-lang/R-2.15.0
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

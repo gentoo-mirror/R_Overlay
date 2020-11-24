@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml? ( sci-CRAN/XML )
 "
-DEPEND=">=sci-CRAN/spikeslab-1.1
-	sci-CRAN/ggplot2
-	>=sci-CRAN/tm-0.6
+DEPEND="sci-CRAN/moments
+	>=sci-CRAN/spikeslab-1.1
 	>=sci-CRAN/ngramrr-0.1
-	sci-CRAN/moments
 	sci-CRAN/qdapDictionaries
+	>=sci-CRAN/tm-0.6
 	sci-CRAN/stringdist
 	sci-CRAN/glmnet
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

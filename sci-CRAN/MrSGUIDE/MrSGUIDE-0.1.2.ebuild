@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_visnetwork? ( sci-CRAN/visNetwork )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/Rcpp
 	sci-CRAN/yaml
+	sci-CRAN/Rcpp
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/BH
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/BH
 	${R_SUGGESTS-}
 "

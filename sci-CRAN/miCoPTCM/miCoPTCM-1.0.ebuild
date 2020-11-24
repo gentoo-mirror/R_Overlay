@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/miCoPTCM_1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/survival
-	virtual/MASS
+DEPEND="sci-CRAN/nleqslv
 	sci-CRAN/distr
-	sci-CRAN/nleqslv
+	virtual/survival
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

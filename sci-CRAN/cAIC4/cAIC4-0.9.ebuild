@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_gamm4"
 R_SUGGESTS="r_suggests_gamm4? ( sci-CRAN/gamm4 )"
-DEPEND="virtual/Matrix
-	sci-CRAN/RLRsim
+DEPEND=">=sci-CRAN/lme4-1.1.6
 	virtual/mgcv
-	>=sci-CRAN/lme4-1.1.6
+	virtual/Matrix
+	sci-CRAN/RLRsim
 	virtual/nlme
 	sci-CRAN/mvtnorm
 "

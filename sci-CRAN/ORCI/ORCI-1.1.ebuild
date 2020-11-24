@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ORCI_1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/BiasedUrn
-	sci-CRAN/BlakerCI
 	sci-CRAN/PropCIs
+	sci-CRAN/BlakerCI
 "
 RDEPEND="${DEPEND-}"

@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/rappdirs
-	sci-CRAN/crul
-	sci-CRAN/tibble
-	sci-CRAN/raster
 	sci-CRAN/xml2
+	sci-CRAN/tibble
 	sci-CRAN/jsonlite
 	sci-CRAN/data_table
+	sci-CRAN/raster
+	sci-CRAN/crul
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

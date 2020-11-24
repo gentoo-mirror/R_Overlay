@@ -62,8 +62,8 @@ R_SUGGESTS="
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
 DEPEND=">=dev-lang/R-3.2
-	>=sci-CRAN/insight-0.8.1
 	>=sci-CRAN/sjlabelled-1.1.2
+	>=sci-CRAN/insight-0.8.1
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_gplots? ( sci-CRAN/gplots )
 	r_suggests_vsn? ( sci-BIOC/vsn )
 "
-DEPEND="virtual/lattice
-	>=sci-BIOC/Biobase-2.21.7
-	sci-BIOC/geneplotter
-	sci-BIOC/genefilter
-	>=sci-BIOC/BiocGenerics-0.7.5
+DEPEND=">=sci-BIOC/BiocGenerics-0.7.5
 	sci-CRAN/locfit
-	virtual/MASS
 	sci-CRAN/RColorBrewer
+	>=sci-BIOC/Biobase-2.21.7
+	virtual/lattice
+	sci-BIOC/genefilter
+	sci-BIOC/geneplotter
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

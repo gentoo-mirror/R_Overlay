@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/FNN
 	sci-CRAN/mclust
 	virtual/MASS
-	sci-CRAN/FNN
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

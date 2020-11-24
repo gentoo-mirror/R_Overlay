@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_tmle? ( sci-CRAN/tmle )
 "
 DEPEND=">=dev-lang/R-3.1.0
+	virtual/Matrix
+	virtual/Matrix
 	sci-CRAN/speedglm
-	virtual/Matrix
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

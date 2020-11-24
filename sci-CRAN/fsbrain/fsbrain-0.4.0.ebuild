@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/squash
-	sci-CRAN/fields
-	>=sci-CRAN/freesurferformats-0.1.12
-	sci-CRAN/rgl
-	sci-CRAN/reshape
+DEPEND="sci-CRAN/reshape
 	>=sci-CRAN/pkgfilecache-0.1.1
+	>=sci-CRAN/freesurferformats-0.1.12
+	sci-CRAN/squash
+	sci-CRAN/rgl
+	sci-CRAN/fields
 	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

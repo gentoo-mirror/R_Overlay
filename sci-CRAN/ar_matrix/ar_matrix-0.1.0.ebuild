@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_leaflet? ( sci-CRAN/leaflet )
 "
-DEPEND="virtual/Matrix
+DEPEND=">=dev-lang/R-3.3.0
 	virtual/MASS
-	sci-CRAN/sp
-	>=dev-lang/R-3.3.0
+	virtual/Matrix
 	sci-CRAN/sparseMVN
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

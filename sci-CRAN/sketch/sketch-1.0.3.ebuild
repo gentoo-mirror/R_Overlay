@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/magrittr
+	sci-CRAN/rlang
 	sci-CRAN/glue
 	sci-CRAN/rstudioapi
 	sci-CRAN/purrr
-	sci-CRAN/rlang
 	sci-CRAN/htmltools
 	sci-CRAN/base64enc
 	sci-CRAN/jsonlite

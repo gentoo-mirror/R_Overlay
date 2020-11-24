@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_prefmod? ( sci-CRAN/prefmod )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/lme4-1.0
-	sci-CRAN/brglm
-	sci-CRAN/qvcalc
+DEPEND="sci-CRAN/qvcalc
 	sci-CRAN/gtools
+	sci-CRAN/brglm
+	>=sci-CRAN/lme4-1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

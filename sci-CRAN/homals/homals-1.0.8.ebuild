@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/homals_1.0-8.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/rgl
 	sci-CRAN/scatterplot3d
 	sci-CRAN/ape
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

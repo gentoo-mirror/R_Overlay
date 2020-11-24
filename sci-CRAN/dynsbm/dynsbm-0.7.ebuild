@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/dynsbm_0.7.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/riverplot
 	sci-CRAN/RColorBrewer
+	sci-CRAN/riverplot
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_rnexml? ( sci-CRAN/RNeXML )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/jsonlite
-	sci-CRAN/ape
-	sci-CRAN/httr
-	>=sci-CRAN/assertthat-0.1
-	sci-CRAN/rentrez
+DEPEND="sci-CRAN/httr
 	>=sci-CRAN/rncl-0.6.0
+	sci-CRAN/rentrez
+	sci-CRAN/ape
+	>=sci-CRAN/assertthat-0.1
+	>=dev-lang/R-3.1.1
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

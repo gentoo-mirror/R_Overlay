@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/superbiclust_1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/biclust
-	sci-BIOC/fabia
 	virtual/Matrix
+	sci-BIOC/fabia
 "
 RDEPEND="${DEPEND-}"

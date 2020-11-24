@@ -38,17 +38,17 @@ R_SUGGESTS="
 	r_suggests_svglite? ( sci-CRAN/svglite )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RJSONIO
-	>=sci-CRAN/scales-0.4.1
-	sci-CRAN/digest
+DEPEND=">=dev-lang/R-3.4.0
 	virtual/MASS
+	sci-CRAN/RJSONIO
+	sci-CRAN/digest
 	>=sci-CRAN/gtable-0.1.1
-	sci-CRAN/tibble
 	sci-CRAN/lazyeval
-	>=sci-CRAN/knitr-1.5.33
-	>=dev-lang/R-3.4.0
 	>=sci-CRAN/plyr-1.7.1
 	sci-CRAN/reshape2
+	>=sci-CRAN/scales-0.4.1
+	sci-CRAN/tibble
+	>=sci-CRAN/knitr-1.5.33
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

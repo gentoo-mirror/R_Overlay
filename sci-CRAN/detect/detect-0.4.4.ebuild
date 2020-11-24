@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.13.0
 	virtual/Matrix
-	sci-CRAN/Formula
 	sci-CRAN/pbapply
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

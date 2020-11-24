@@ -46,14 +46,14 @@ R_SUGGESTS="
 	r_suggests_visnetwork? ( >=sci-CRAN/visNetwork-2.0.9 )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/digest-0.6.21
-	sci-CRAN/base64url
+	>=sci-CRAN/vctrs-0.2.0
 	sci-CRAN/igraph
+	sci-CRAN/base64url
 	>=sci-CRAN/rlang-0.2.0
+	>=sci-CRAN/digest-0.6.21
 	>=sci-CRAN/storr-1.1.0
 	>=sci-CRAN/tidyselect-1.0.0
 	>=sci-CRAN/txtq-0.2.3
-	>=sci-CRAN/vctrs-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_seqmagick? ( sci-CRAN/seqmagick )
 "
 DEPEND="sci-CRAN/ggplot2
-	sci-BIOC/Biostrings
-	sci-CRAN/tidyr
+	sci-CRAN/stringr
 	sci-CRAN/magrittr
 	>=dev-lang/R-3.5.0
-	sci-CRAN/stringr
+	sci-CRAN/tidyr
+	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

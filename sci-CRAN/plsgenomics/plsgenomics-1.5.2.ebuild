@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/plsgenomics_1.5-2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
+	sci-CRAN/plyr
 	sci-CRAN/fields
 	sci-CRAN/reshape2
-	virtual/MASS
 	virtual/boot
 	sci-CRAN/RhpcBLASctl
-	sci-CRAN/plyr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -36,8 +36,8 @@ R_SUGGESTS="
 	r_suggests_tmap? ( sci-CRAN/tmap )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/readr
 	sci-CRAN/sf
+	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

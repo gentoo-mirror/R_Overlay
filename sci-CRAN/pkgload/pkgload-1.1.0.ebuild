@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_rcpp? ( sci-CRAN/Rcpp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/crayon
+DEPEND="sci-CRAN/pkgbuild
 	sci-CRAN/rstudioapi
-	sci-CRAN/withr
 	sci-CRAN/desc
-	sci-CRAN/cli
-	sci-CRAN/pkgbuild
-	sci-CRAN/rlang
+	sci-CRAN/crayon
 	sci-CRAN/rprojroot
+	sci-CRAN/cli
+	sci-CRAN/rlang
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

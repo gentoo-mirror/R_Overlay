@@ -10,19 +10,19 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RALSA_0.90.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/stringi
+DEPEND="sci-CRAN/data_table
+	sci-CRAN/readr
+	sci-CRAN/Hmisc
+	sci-CRAN/gdata
+	sci-CRAN/shiny
 	sci-CRAN/shinydashboard
-	sci-CRAN/openxlsx
-	sci-CRAN/data_table
 	sci-CRAN/DT
+	>=dev-lang/R-4.0.0
+	sci-CRAN/stringr
+	sci-CRAN/openxlsx
+	virtual/foreign
+	sci-CRAN/stringi
 	sci-CRAN/shinyjs
 	sci-CRAN/shinyFiles
-	sci-CRAN/Hmisc
-	sci-CRAN/stringr
-	virtual/foreign
-	sci-CRAN/gdata
-	sci-CRAN/readr
-	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"

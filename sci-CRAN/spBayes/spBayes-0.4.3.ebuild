@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_mba? ( sci-CRAN/MBA )
 "
 DEPEND="sci-CRAN/Formula
+	sci-CRAN/magic
 	virtual/Matrix
 	sci-CRAN/coda
-	sci-CRAN/magic
 	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

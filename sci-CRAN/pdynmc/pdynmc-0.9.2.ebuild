@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	virtual/MASS
 	virtual/Matrix
 	>=sci-CRAN/optimx-2018.07.10
+	virtual/MASS
 	>=sci-CRAN/data_table-1.12.2
 	virtual/Matrix
 	>=sci-CRAN/Rdpack-0.11.0

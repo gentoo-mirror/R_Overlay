@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RKEEL_1.3.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/foreach
+DEPEND="sci-CRAN/R6
+	sci-CRAN/rJava
+	sci-CRAN/foreach
 	sci-CRAN/XML
-	sci-CRAN/gdata
-	sci-CRAN/R6
+	>=dev-lang/R-3.4.0
 	sci-CRAN/doParallel
+	sci-CRAN/gdata
 	>=sci-CRAN/RKEELjars-1.0.19
+	>=sci-CRAN/RKEELdata-1.0.5
 	sci-CRAN/pmml
 	sci-CRAN/arules
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/RKEELdata-1.0.5
 	virtual/Matrix
-	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-} virtual/jdk"

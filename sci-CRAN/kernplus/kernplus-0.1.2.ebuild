@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/kernplus_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/circular-0.4.7
-	>=sci-CRAN/mixtools-1.1.0
-	virtual/KernSmooth
+DEPEND=">=sci-CRAN/mixtools-1.1.0
+	>=sci-CRAN/circular-0.4.7
 	>=dev-lang/R-3.3.0
+	virtual/KernSmooth
 "
 RDEPEND="${DEPEND-}"

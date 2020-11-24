@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_spdep? ( sci-CRAN/spdep )
 	r_suggests_splancs? ( sci-CRAN/splancs )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	virtual/lattice
-	>=sci-CRAN/sp-1.1.1
-	>=sci-CRAN/ade4-1.7.13
+DEPEND=">=sci-CRAN/ade4-1.7.13
 	virtual/KernSmooth
 	virtual/lattice
+	virtual/lattice
+	>=dev-lang/R-3.0.2
 	sci-CRAN/RColorBrewer
+	>=sci-CRAN/sp-1.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

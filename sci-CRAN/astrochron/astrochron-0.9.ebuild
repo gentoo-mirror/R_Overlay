@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/astrochron_0.9.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/multitaper
-	sci-CRAN/foreach
-	sci-CRAN/IDPmisc
-	sci-CRAN/doParallel
 	sci-CRAN/fields
 	sci-CRAN/iterators
+	sci-CRAN/doParallel
+	sci-CRAN/IDPmisc
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

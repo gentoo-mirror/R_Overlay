@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/data_table
 	sci-CRAN/rgl
-	sci-CRAN/magrittr
 	>=sci-CRAN/Rcpp-0.12.7
+	sci-CRAN/data_table
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

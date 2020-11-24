@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_pillar? ( >=sci-CRAN/pillar-1.1.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/pkgconfig
-	>=sci-CRAN/vctrs-0.2.1
+DEPEND=">=sci-CRAN/vctrs-0.2.1
+	sci-CRAN/pkgconfig
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

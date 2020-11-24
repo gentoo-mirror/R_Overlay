@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_xml? ( sci-CRAN/XML )
 "
-DEPEND="sci-CRAN/numDeriv
-	sci-CRAN/evd
+DEPEND="sci-CRAN/evd
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

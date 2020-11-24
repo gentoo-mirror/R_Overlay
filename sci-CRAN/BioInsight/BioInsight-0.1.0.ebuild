@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_biomart? ( sci-BIOC/biomaRt )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/knitr
-	sci-CRAN/RColorBrewer
-	sci-CRAN/wordcloud
-	sci-BIOC/edgeR
+DEPEND="sci-CRAN/RColorBrewer
 	sci-BIOC/limma
+	sci-CRAN/knitr
+	sci-BIOC/edgeR
+	sci-CRAN/wordcloud
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

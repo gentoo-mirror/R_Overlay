@@ -13,9 +13,9 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/tidyverse
 	sci-CRAN/magrittr
 	sci-CRAN/dr4pl
 	sci-CRAN/ggplot2
+	sci-CRAN/tidyverse
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/cosinor-1.1
-	>=sci-CRAN/stringr-1.3.1
-	>=sci-CRAN/Hmisc-4.0.3
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/cowplot-0.9.3
-	>=sci-CRAN/scales-1.0.0
-	>=sci-CRAN/purrr-0.2.5
+DEPEND=">=sci-CRAN/scales-1.0.0
 	>=sci-CRAN/ggplot2-3.0.0
+	>=sci-CRAN/purrr-0.2.5
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/cosinor-1.1
+	>=sci-CRAN/cowplot-0.9.3
+	>=sci-CRAN/stringr-1.3.1
 	virtual/Matrix
+	>=sci-CRAN/Hmisc-4.0.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

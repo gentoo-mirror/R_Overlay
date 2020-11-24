@@ -25,15 +25,15 @@ R_SUGGESTS="
 	r_suggests_sp? ( >=sci-CRAN/sp-1.4.2 )
 	r_suggests_viridis? ( >=sci-CRAN/viridis-0.5.1 )
 "
-DEPEND=">=dev-lang/R-4.0
+DEPEND=">=sci-CRAN/lubridate-1.7.9
+	>=sci-CRAN/ggplot2-3.3.2
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/maps-3.3.0
+	>=sci-CRAN/plyr-1.8.6
+	>=dev-lang/R-4.0
+	>=sci-CRAN/rlang-0.4.7
 	>=sci-CRAN/stringr-1.4.0
 	>=sci-CRAN/tidyr-1.1.0
-	>=sci-CRAN/ggplot2-3.3.2
-	>=sci-CRAN/maps-3.3.0
-	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/lubridate-1.7.9
-	>=sci-CRAN/plyr-1.8.6
-	>=sci-CRAN/rlang-0.4.7
 	>=sci-CRAN/weathermetrics-1.2.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

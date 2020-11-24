@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PCGSE_0.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-2.15.0
+DEPEND="sci-CRAN/RMTstat
 	virtual/MASS
+	>=dev-lang/R-2.15.0
 	>=sci-BIOC/safe-3.0.0
-	sci-CRAN/RMTstat
 "
 RDEPEND="${DEPEND-}"

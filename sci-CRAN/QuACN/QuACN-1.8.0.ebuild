@@ -13,8 +13,8 @@ LICENSE='LGPL-3+'
 IUSE="${IUSE-} r_suggests_rmpfr"
 R_SUGGESTS="r_suggests_rmpfr? ( sci-CRAN/Rmpfr )"
 DEPEND="sci-BIOC/graph
+	sci-CRAN/igraph
 	sci-CRAN/combinat
 	sci-BIOC/RBGL
-	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/aCGH_1.62.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-BIOC/Biobase
-	sci-BIOC/multtest
+DEPEND="sci-BIOC/multtest
 	virtual/cluster
 	virtual/survival
+	sci-BIOC/Biobase
 	virtual/cluster
 	sci-BIOC/multtest
 	virtual/survival

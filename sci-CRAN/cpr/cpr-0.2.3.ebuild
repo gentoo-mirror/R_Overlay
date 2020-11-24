@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/dplyr
-	sci-CRAN/lme4
-	sci-CRAN/lazyeval
-	>=sci-CRAN/ggplot2-2.2.0
-	sci-CRAN/magrittr
-	sci-CRAN/plot3D
+DEPEND="sci-CRAN/lazyeval
 	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/lme4
+	sci-CRAN/plot3D
+	>=sci-CRAN/ggplot2-2.2.0
+	>=dev-lang/R-3.0.2
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 	sci-CRAN/rgl
 	sci-CRAN/tibble
 	sci-CRAN/tidyr

@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_genefilter? ( sci-BIOC/genefilter )
 	r_suggests_pbapply? ( sci-CRAN/pbapply )
 "
-DEPEND=">=sci-BIOC/affy-1.20.0
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
+	>=sci-BIOC/affy-1.20.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

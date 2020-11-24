@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/optiSolve_0.1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/Matrix
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/stringr
-	sci-CRAN/alabama
-	>=dev-lang/R-3.4
-	sci-CRAN/cccp
-	sci-CRAN/shapes
-	sci-CRAN/nloptr
+	virtual/Matrix
 	sci-CRAN/plyr
 	>=sci-CRAN/Rcpp-0.12.4
+	sci-CRAN/cccp
+	sci-CRAN/alabama
+	sci-CRAN/shapes
+	sci-CRAN/nloptr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

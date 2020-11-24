@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_seqinr? ( >=sci-CRAN/seqinr-3.0.7 )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/BiocManager
-	sci-BIOC/S4Vectors
 	sci-BIOC/BiocGenerics
 	>=sci-BIOC/Biobase-2.23.3
+	sci-CRAN/BiocManager
+	sci-BIOC/S4Vectors
 	sci-BIOC/AnnotationDbi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

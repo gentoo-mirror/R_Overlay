@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HLSM_0.8.2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/coda
+DEPEND="sci-CRAN/igraph
 	virtual/MASS
-	sci-CRAN/igraph
+	>=dev-lang/R-3.0.0
 	sci-CRAN/abind
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}"

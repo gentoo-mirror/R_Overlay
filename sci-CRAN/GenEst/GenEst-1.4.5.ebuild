@@ -16,22 +16,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/DT
-	sci-CRAN/htmltools
-	sci-CRAN/gsl
-	>=sci-CRAN/htmlwidgets-1.5
-	sci-CRAN/hellno
-	sci-CRAN/lubridate
-	virtual/Matrix
-	sci-CRAN/shinyjs
-	virtual/survival
-	>=dev-lang/R-3.5.0
-	sci-CRAN/gtools
-	sci-CRAN/corpus
+DEPEND="sci-CRAN/corpus
 	virtual/MASS
 	sci-CRAN/mvtnorm
+	virtual/Matrix
+	sci-CRAN/hellno
+	virtual/survival
+	>=dev-lang/R-3.5.0
+	sci-CRAN/DT
+	sci-CRAN/gtools
+	sci-CRAN/gsl
+	sci-CRAN/htmltools
+	>=sci-CRAN/htmlwidgets-1.5
+	sci-CRAN/lubridate
 	sci-CRAN/Rcpp
 	>=sci-CRAN/shiny-1.4.0
+	sci-CRAN/shinyjs
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

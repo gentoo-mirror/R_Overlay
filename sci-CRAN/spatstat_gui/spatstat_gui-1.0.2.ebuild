@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spatstat.gui_1.0-2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="dev-lang/R[tk]
+DEPEND="sci-CRAN/rpanel
 	>=sci-CRAN/spatstat_utils-1.17.0
-	sci-CRAN/rpanel
-	>=dev-lang/R-3.3.0
 	>=sci-CRAN/spatstat-1.63.0
+	>=dev-lang/R-3.3.0
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-}"

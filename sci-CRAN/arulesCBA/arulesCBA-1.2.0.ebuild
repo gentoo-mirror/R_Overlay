@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/glmnet-2.0.16
 	>=sci-CRAN/discretization-1.0.1
+	>=sci-CRAN/glmnet-2.0.16
 	>=sci-CRAN/arules-1.6.5
 	virtual/Matrix
 "

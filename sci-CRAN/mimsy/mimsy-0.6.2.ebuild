@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_xfun? ( sci-CRAN/xfun )
 "
-DEPEND="sci-CRAN/openxlsx
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/lubridate
-	sci-CRAN/dplyr
+	sci-CRAN/openxlsx
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

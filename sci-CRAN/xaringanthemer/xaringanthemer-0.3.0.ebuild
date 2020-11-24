@@ -24,9 +24,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_xaringan? ( sci-CRAN/xaringan )
 "
-DEPEND="sci-CRAN/colorspace
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/purrr
 	sci-CRAN/glue
 	sci-CRAN/whisker
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

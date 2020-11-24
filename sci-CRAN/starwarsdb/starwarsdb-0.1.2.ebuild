@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_dplyr? ( sci-CRAN/dplyr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/duckdb
-	sci-CRAN/DBI
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/magrittr
-	sci-CRAN/tibble
+	sci-CRAN/duckdb
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

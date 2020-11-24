@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_lubridate? ( sci-CRAN/lubridate )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/cherryblossom
+DEPEND="sci-CRAN/usdata
 	sci-CRAN/tibble
-	sci-CRAN/rmarkdown
+	sci-CRAN/cherryblossom
 	>=sci-CRAN/ggplot2-2.2.1
-	sci-CRAN/usdata
 	sci-CRAN/airports
+	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

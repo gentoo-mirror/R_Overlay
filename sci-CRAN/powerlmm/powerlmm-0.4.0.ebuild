@@ -31,9 +31,9 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
 DEPEND=">=dev-lang/R-3.2.0
+	virtual/Matrix
 	>=sci-CRAN/lme4-1.1
 	sci-CRAN/scales
-	virtual/Matrix
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -26,19 +26,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 	r_suggests_tidyr? ( >=sci-CRAN/tidyr-0.8.2 )
 "
-DEPEND=">=sci-CRAN/magrittr-1.5
+DEPEND="virtual/Matrix
+	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/uuid-0.1.2
 	>=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/cli-1.0.1
-	>=sci-CRAN/proto-1.0.0
 	>=sci-CRAN/tibble-2.0.0
 	>=sci-CRAN/ape-5.2
 	>=sci-CRAN/tidytree-0.1.9
+	>=sci-CRAN/lpSolveAPI-5.5.2.0.17
+	>=dev-lang/R-3.4.0
+	>=sci-CRAN/proto-1.0.0
+	>=sci-CRAN/cli-1.0.1
 	>=sci-CRAN/ggplot2-3.0.0
 	>=sci-CRAN/viridisLite-0.3.0
-	>=dev-lang/R-3.4.0
-	virtual/Matrix
-	>=sci-CRAN/lpSolveAPI-5.5.2.0.17
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.19

@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_tikzdevice? ( sci-CRAN/tikzDevice )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/purrr
-	sci-CRAN/nloptr
-	sci-CRAN/quadprog
+DEPEND="sci-CRAN/nloptr
 	virtual/Matrix
-	sci-CRAN/ggplot2
+	sci-CRAN/quadprog
+	sci-CRAN/mvtnorm
 	sci-CRAN/tmg
 	sci-CRAN/broom
+	sci-CRAN/purrr
 	virtual/MASS
 	sci-CRAN/TruncatedNormal
+	sci-CRAN/ggplot2
 	sci-CRAN/plot3D
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

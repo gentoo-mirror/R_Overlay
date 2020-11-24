@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-BIOC/DelayedArray
-	sci-CRAN/rsvd
-	sci-BIOC/BiocGenerics
-	sci-BIOC/S4Vectors
+DEPEND="sci-BIOC/BiocGenerics
 	virtual/Matrix
-	sci-BIOC/BiocParallel
 	sci-CRAN/irlba
+	sci-BIOC/S4Vectors
+	sci-BIOC/BiocParallel
 	sci-CRAN/Rcpp
+	sci-BIOC/DelayedArray
+	sci-CRAN/rsvd
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

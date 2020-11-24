@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/DSpoty_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/httr
 	sci-CRAN/purrr
+	sci-CRAN/httr
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

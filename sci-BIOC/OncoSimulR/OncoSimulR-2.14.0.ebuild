@@ -22,20 +22,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.0 )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/smatr
-	sci-BIOC/graph
-	>=dev-lang/R-3.3.0
-	sci-CRAN/ggplot2
-	>=sci-CRAN/Rcpp-0.12.4
-	sci-CRAN/data_table
+DEPEND=">=dev-lang/R-3.3.0
 	sci-BIOC/Rgraphviz
+	>=sci-CRAN/Rcpp-0.12.4
+	sci-BIOC/graph
+	sci-CRAN/data_table
 	sci-CRAN/gtools
 	sci-CRAN/igraph
 	sci-CRAN/RColorBrewer
+	sci-CRAN/car
+	sci-CRAN/dplyr
+	sci-CRAN/smatr
+	sci-CRAN/ggplot2
 	sci-CRAN/ggrepel
 	sci-BIOC/nem
-	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

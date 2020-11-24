@@ -11,15 +11,15 @@ SRC_URI="http://cran.r-project.org/src/contrib/LPRelevance_3.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/Bolstad2
-	sci-CRAN/polynom
-	sci-CRAN/ggplot2
-	sci-CRAN/caret
 	sci-CRAN/BayesGOF
 	virtual/MASS
 	sci-CRAN/leaps
 	sci-CRAN/locfdr
+	sci-CRAN/Bolstad2
 	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
+	sci-CRAN/polynom
 	sci-CRAN/glmnet
+	sci-CRAN/caret
 "
 RDEPEND="${DEPEND-}"

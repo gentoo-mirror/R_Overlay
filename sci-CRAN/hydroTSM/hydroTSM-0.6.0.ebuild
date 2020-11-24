@@ -14,11 +14,11 @@ IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND="sci-CRAN/e1071
 	virtual/lattice
-	>=sci-CRAN/xts-0.9.7
 	sci-CRAN/gstat
-	>=sci-CRAN/zoo-1.7.2
-	sci-CRAN/automap
 	>=sci-CRAN/sp-1.1.0
+	>=sci-CRAN/zoo-1.7.2
 	sci-CRAN/maptools
+	>=sci-CRAN/xts-0.9.7
+	sci-CRAN/automap
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

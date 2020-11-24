@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/class
-	virtual/nnet
+DEPEND="sci-CRAN/caret
+	sci-CRAN/gridExtra
 	sci-CRAN/randomForest
-	sci-CRAN/foreach
-	sci-CRAN/caret
 	virtual/rpart
-	sci-CRAN/ggplot2
-	sci-CRAN/formatR
+	virtual/class
 	virtual/MASS
 	sci-CRAN/e1071
 	sci-CRAN/doParallel
-	sci-CRAN/gridExtra
+	sci-CRAN/foreach
+	virtual/nnet
+	sci-CRAN/ggplot2
+	sci-CRAN/formatR
 	sci-CRAN/FNN
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

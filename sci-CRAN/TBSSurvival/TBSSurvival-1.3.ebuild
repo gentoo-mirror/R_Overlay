@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TBSSurvival_1.3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.3.0
+DEPEND="sci-CRAN/R_utils
 	virtual/survival
-	sci-CRAN/normalp
 	sci-CRAN/mcmc
-	sci-CRAN/R_utils
+	>=dev-lang/R-3.3.0
+	sci-CRAN/normalp
 	sci-CRAN/coda
 	sci-CRAN/Rsolnp
 	sci-CRAN/BMS

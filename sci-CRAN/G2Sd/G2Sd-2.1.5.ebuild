@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/G2Sd_2.1.5.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/shiny
 	sci-CRAN/xlsxjars
 	sci-CRAN/rJava
+	sci-CRAN/shiny
 	sci-CRAN/xlsx
 	sci-CRAN/reshape2
 	sci-CRAN/ggplot2

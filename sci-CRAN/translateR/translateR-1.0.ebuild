@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/translateR_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/RJSONIO
-	sci-CRAN/httr
 	sci-CRAN/textcat
 	sci-CRAN/RCurl
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

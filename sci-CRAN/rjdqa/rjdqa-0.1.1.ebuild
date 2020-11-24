@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rjdqa_0.1.1.tar.gz"
 LICENSE='EUPL-1.1'
 
-DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/XLConnect
+DEPEND="sci-CRAN/RJDemetra
 	sci-CRAN/plotrix
-	sci-CRAN/RJDemetra
+	>=dev-lang/R-3.1.1
+	sci-CRAN/XLConnect
 "
 RDEPEND="${DEPEND-}"

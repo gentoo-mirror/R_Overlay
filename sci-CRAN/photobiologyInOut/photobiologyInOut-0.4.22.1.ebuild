@@ -24,15 +24,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/tibble-2.1.3
+	>=sci-CRAN/lubridate-1.7.4
 	>=sci-CRAN/photobiology-0.9.30
 	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/lubridate-1.7.4
-	>=sci-CRAN/tibble-2.1.3
+	>=sci-CRAN/dplyr-0.8.1
 	>=sci-CRAN/tidyr-0.8.3
 	>=sci-CRAN/readr-1.3.1
 	>=sci-CRAN/readxl-1.3.1
-	>=sci-CRAN/colorSpec-0.9.1
-	>=sci-CRAN/dplyr-0.8.1
 	>=sci-CRAN/lazyeval-0.2.2
+	>=sci-CRAN/colorSpec-0.9.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

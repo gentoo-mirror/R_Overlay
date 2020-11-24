@@ -12,9 +12,9 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND="sci-CRAN/numDeriv
-	>=sci-CRAN/mnormt-1.5.4
-	sci-CRAN/quantreg
+DEPEND=">=sci-CRAN/mnormt-1.5.4
 	>=dev-lang/R-2.15.3
+	sci-CRAN/quantreg
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

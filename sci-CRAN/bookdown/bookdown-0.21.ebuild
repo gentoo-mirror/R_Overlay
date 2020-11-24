@@ -25,8 +25,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/tinytex-0.12
 	>=sci-CRAN/rmarkdown-2.4
-	>=sci-CRAN/xfun-0.13
 	>=sci-CRAN/knitr-1.22
+	>=sci-CRAN/xfun-0.13
 	>=sci-CRAN/htmltools-0.3.6
 	>=sci-CRAN/yaml-2.1.19
 "

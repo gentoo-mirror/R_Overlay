@@ -12,8 +12,8 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND="sci-CRAN/gamlss
-	virtual/nnet
+DEPEND="virtual/nnet
+	sci-CRAN/gamlss
 	sci-CRAN/gamlss_dist
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

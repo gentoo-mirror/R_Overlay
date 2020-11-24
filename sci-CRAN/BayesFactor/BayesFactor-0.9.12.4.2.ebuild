@@ -25,15 +25,15 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/Matrix
-	virtual/Matrix
 	sci-CRAN/coda
-	sci-CRAN/gtools
-	>=sci-CRAN/Rcpp-0.11.2
-	sci-CRAN/pbapply
-	sci-CRAN/mvtnorm
 	sci-CRAN/stringr
+	sci-CRAN/mvtnorm
 	sci-CRAN/hypergeo
+	virtual/Matrix
+	sci-CRAN/pbapply
+	sci-CRAN/gtools
+	virtual/Matrix
+	>=sci-CRAN/Rcpp-0.11.2
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.2

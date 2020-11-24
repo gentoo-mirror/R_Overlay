@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/orloca_4.10.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/ucminf
-	sci-CRAN/knitr
-	sci-CRAN/png
+DEPEND="sci-CRAN/png
 	sci-CRAN/rmarkdown
+	sci-CRAN/knitr
+	sci-CRAN/ucminf
 "
 RDEPEND="${DEPEND-}"

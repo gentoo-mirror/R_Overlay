@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/proxy
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/raster
+	>=dev-lang/R-3.6.0
 	sci-CRAN/progress
-	sci-CRAN/foreach
+	sci-CRAN/proxy
 	sci-CRAN/svMisc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

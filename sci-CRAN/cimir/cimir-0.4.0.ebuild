@@ -17,10 +17,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4
 	>=sci-CRAN/tidyr-1.0
-	>=sci-CRAN/jsonlite-1.6
-	>=sci-CRAN/stringr-1.4
 	>=sci-CRAN/dplyr-0.8
 	>=sci-CRAN/glue-1.3
+	>=sci-CRAN/stringr-1.4
+	>=sci-CRAN/jsonlite-1.6
 	>=sci-CRAN/curl-4.3
 	>=sci-CRAN/purrr-0.3
 	>=sci-CRAN/rlang-0.4

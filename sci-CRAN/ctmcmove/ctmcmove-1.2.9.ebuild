@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_dismo? ( sci-CRAN/dismo )
 	r_suggests_mgcv? ( virtual/mgcv )
 "
-DEPEND="virtual/Matrix
+DEPEND="sci-CRAN/raster
+	virtual/Matrix
 	sci-CRAN/gdistance
 	sci-CRAN/fda
 	sci-CRAN/sp
-	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/RPMG
-	sci-CRAN/RSEIS
 	virtual/MASS
 	sci-CRAN/GEOmap
+	sci-CRAN/RSEIS
 	sci-CRAN/splancs
 "
 RDEPEND="${DEPEND-}"

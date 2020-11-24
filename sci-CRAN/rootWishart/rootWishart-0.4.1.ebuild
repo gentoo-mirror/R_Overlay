@@ -17,7 +17,7 @@ DEPEND=">=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	sci-CRAN/BH
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "

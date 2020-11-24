@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/forecast-6.1
-	>=sci-CRAN/fanplot-3.4
-	>=sci-CRAN/rootSolve-1.6.5.1
 	>=sci-CRAN/gnm-1.0
+	>=sci-CRAN/fanplot-3.4
+	>=sci-CRAN/forecast-6.1
+	>=sci-CRAN/rootSolve-1.6.5.1
 	>=sci-CRAN/fields-8.2
+	sci-CRAN/RColorBrewer
 	virtual/MASS
 	>=sci-CRAN/reshape2-1.4.1
-	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

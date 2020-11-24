@@ -23,12 +23,12 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/deSolve
 	>=sci-CRAN/ggplot2-2.1.0
 	sci-CRAN/gridExtra
-	sci-CRAN/magrittr
-	sci-CRAN/tibble
-	sci-CRAN/tidyr
-	sci-CRAN/zoo
 	sci-CRAN/reshape2
 	>=sci-CRAN/rjags-4.0
+	sci-CRAN/zoo
+	sci-CRAN/tibble
+	sci-CRAN/magrittr
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

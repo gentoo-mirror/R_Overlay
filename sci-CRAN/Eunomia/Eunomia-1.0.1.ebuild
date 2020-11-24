@@ -13,7 +13,7 @@ LICENSE='Apache-2.0'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=sci-CRAN/DatabaseConnector-2.2.0
-	>sci-CRAN/RSQLite-2.1.1
 	sci-CRAN/SqlRender
+	>sci-CRAN/RSQLite-2.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -39,13 +39,13 @@ R_SUGGESTS="
 	r_suggests_tinytex? ( sci-CRAN/tinytex )
 	r_suggests_xml2? ( >=sci-CRAN/xml2-1.2.0 )
 "
-DEPEND=">=sci-CRAN/stringr-0.6
-	>=sci-CRAN/xfun-0.15
-	>=sci-CRAN/evaluate-0.10
+DEPEND="sci-CRAN/highr
 	>=sci-CRAN/yaml-2.1.19
+	>=sci-CRAN/evaluate-0.10
+	>=sci-CRAN/stringr-0.6
 	>=dev-lang/R-3.2.3
-	sci-CRAN/highr
 	sci-CRAN/markdown
+	>=sci-CRAN/xfun-0.15
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

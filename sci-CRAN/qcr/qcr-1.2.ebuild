@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/qcr_1.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/qualityTools
-	sci-CRAN/qcc
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
 	virtual/MASS
+	sci-CRAN/qualityTools
+	sci-CRAN/qcc
 	sci-CRAN/fda_usc
 "
 RDEPEND="${DEPEND-}"

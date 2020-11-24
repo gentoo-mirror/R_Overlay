@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/pcnetmeta_2.7.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.14.0
-	>=sci-CRAN/rjags-4.6
 	sci-CRAN/coda
+	>=sci-CRAN/rjags-4.6
 "
 RDEPEND="${DEPEND-} sci-mathematics/jags"

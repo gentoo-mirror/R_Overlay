@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LIM_1.4.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/diagram
-	sci-CRAN/limSolve
+DEPEND="sci-CRAN/limSolve
+	sci-CRAN/diagram
 "
 RDEPEND="${DEPEND-}"

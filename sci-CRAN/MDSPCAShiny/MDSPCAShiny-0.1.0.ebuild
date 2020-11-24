@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MDSPCAShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/shiny
-	virtual/MASS
-	sci-CRAN/psych
+DEPEND=">=dev-lang/R-3.0.3
 	sci-CRAN/dplyr
-	>=dev-lang/R-3.0.3
+	sci-CRAN/psych
 	sci-CRAN/rmarkdown
+	sci-CRAN/shiny
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

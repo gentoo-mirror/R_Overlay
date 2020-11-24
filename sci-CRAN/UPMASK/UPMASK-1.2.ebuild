@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/UPMASK_1.2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/RSQLite
-	virtual/MASS
+DEPEND="sci-CRAN/DBI
+	sci-CRAN/RSQLite
 	sci-CRAN/dimRed
-	sci-CRAN/DBI
+	virtual/MASS
 	>=dev-lang/R-3.0
 	sci-CRAN/loe
 "

@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_rstudioapi? ( sci-CRAN/rstudioapi )
 	r_suggests_testit? ( sci-CRAN/testit )
 "
-DEPEND="sci-CRAN/rmarkdown
-	>=sci-CRAN/xfun-0.18
-	>=sci-CRAN/servr-0.13
+DEPEND="sci-CRAN/htmltools
+	sci-CRAN/rmarkdown
 	>=sci-CRAN/knitr-1.30
-	sci-CRAN/htmltools
+	>=sci-CRAN/servr-0.13
+	>=sci-CRAN/xfun-0.18
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

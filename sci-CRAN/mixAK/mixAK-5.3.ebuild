@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mixAK_5.3.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=sci-CRAN/lme4-1.0
-	sci-CRAN/mnormt
-	sci-CRAN/fastGHQuad
+DEPEND="sci-CRAN/coda
 	sci-CRAN/colorspace
+	sci-CRAN/fastGHQuad
+	>=sci-CRAN/lme4-1.0
 	>=dev-lang/R-3.0.0
-	sci-CRAN/coda
+	sci-CRAN/mnormt
 "
 RDEPEND="${DEPEND-}"

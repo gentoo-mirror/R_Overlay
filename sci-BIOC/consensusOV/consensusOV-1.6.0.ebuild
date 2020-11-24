@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=dev-lang/R-3.4
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
 	sci-BIOC/genefu
-	sci-BIOC/GSVA
+	sci-CRAN/gdata
 	sci-BIOC/limma
 	virtual/Matrix
-	sci-CRAN/gdata
 	sci-CRAN/randomForest
+	>=dev-lang/R-3.4
+	sci-BIOC/GSVA
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

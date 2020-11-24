@@ -13,8 +13,8 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND="sci-CRAN/rgl
-	sci-CRAN/bio3d
 	>=dev-lang/R-2.14.0
 	sci-CRAN/rSymPy
+	sci-CRAN/bio3d
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

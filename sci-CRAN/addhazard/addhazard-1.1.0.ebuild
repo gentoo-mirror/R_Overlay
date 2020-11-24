@@ -12,7 +12,7 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.3.1
 	virtual/survival
-	sci-CRAN/ahaz
 	sci-CRAN/rootSolve
+	sci-CRAN/ahaz
 "
 RDEPEND="${DEPEND-}"

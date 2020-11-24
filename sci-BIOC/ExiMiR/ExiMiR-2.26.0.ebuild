@@ -11,11 +11,11 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/ExiMiR_2.2
 LICENSE='GPL-2'
 
 DEPEND="sci-BIOC/limma
+	>=sci-BIOC/Biobase-2.5.5
 	>=sci-BIOC/affyio-1.13.3
-	>=sci-BIOC/preprocessCore-1.10.0
-	>=sci-BIOC/Biobase-2.5.5
-	>=sci-BIOC/Biobase-2.5.5
 	>=sci-BIOC/affy-1.26.1
+	>=sci-BIOC/Biobase-2.5.5
+	>=sci-BIOC/preprocessCore-1.10.0
 "
 RDEPEND="${DEPEND-}"
 

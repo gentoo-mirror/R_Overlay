@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/Clomial_1.20.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/permute
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	sci-CRAN/permute
 "
 RDEPEND="${DEPEND-}"

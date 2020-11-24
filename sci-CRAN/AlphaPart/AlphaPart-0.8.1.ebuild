@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_truncnorm? ( >=sci-CRAN/truncnorm-1.0.5 )
 "
-DEPEND=">=sci-CRAN/directlabels-1.1
+DEPEND=">=sci-CRAN/pedigree-1.3.1
+	sci-CRAN/reshape
 	>=sci-CRAN/ggplot2-0.8.9
+	>=sci-CRAN/directlabels-1.1
 	>=sci-CRAN/Rcpp-0.9.4
 	>=sci-CRAN/gdata-2.6.0
-	>=sci-CRAN/pedigree-1.3.1
-	sci-CRAN/reshape
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

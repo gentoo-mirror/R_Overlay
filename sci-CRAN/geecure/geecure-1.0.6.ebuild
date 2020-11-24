@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/geecure_1.0-6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	virtual/survival
+DEPEND="virtual/survival
+	virtual/Matrix
 	virtual/MASS
 	sci-CRAN/geepack
 "

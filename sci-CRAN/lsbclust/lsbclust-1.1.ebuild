@@ -10,15 +10,15 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lsbclust_1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/doParallel
 	sci-CRAN/ggplot2
 	sci-CRAN/plyr
 	sci-CRAN/clue
-	>=dev-lang/R-3.5
 	sci-CRAN/gridExtra
 	sci-CRAN/reshape2
 	sci-CRAN/Rcpp
-	sci-CRAN/doParallel
+	sci-CRAN/mvtnorm
 	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

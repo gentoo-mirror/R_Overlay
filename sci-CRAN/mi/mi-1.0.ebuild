@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_truncnorm? ( sci-CRAN/truncnorm )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/arm-1.4.11
+DEPEND=">=sci-CRAN/arm-1.4.11
+	>=dev-lang/R-3.0.0
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

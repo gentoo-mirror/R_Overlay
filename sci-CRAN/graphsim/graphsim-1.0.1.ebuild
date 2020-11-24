@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/igraph
 	virtual/Matrix
 	virtual/Matrix
 	sci-CRAN/gplots
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

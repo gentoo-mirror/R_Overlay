@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/boot
-	sci-CRAN/doBy
-	sci-CRAN/shiny
-	sci-CRAN/survC1
-	virtual/survival
-	virtual/MASS
+	sci-CRAN/rootSolve
 	sci-CRAN/statmod
 	virtual/nlme
-	sci-CRAN/rootSolve
+	sci-CRAN/doBy
+	virtual/survival
+	virtual/MASS
+	sci-CRAN/survC1
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

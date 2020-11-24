@@ -38,17 +38,17 @@ R_SUGGESTS="
 	r_suggests_waldo? ( sci-CRAN/waldo )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=sci-CRAN/tibble-2.0.0
-	sci-CRAN/vctrs
-	>=dev-lang/R-3.1
+DEPEND="sci-CRAN/bit64
 	sci-CRAN/hms
-	sci-CRAN/glue
 	sci-CRAN/crayon
-	sci-CRAN/bit64
+	>=dev-lang/R-3.1
+	sci-CRAN/withr
+	sci-CRAN/glue
 	sci-CRAN/lifecycle
 	>=sci-CRAN/rlang-0.4.2
+	>=sci-CRAN/tibble-2.0.0
+	sci-CRAN/vctrs
 	sci-CRAN/tidyselect
-	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/progress-1.2.1

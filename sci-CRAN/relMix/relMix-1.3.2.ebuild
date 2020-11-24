@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_pander? ( sci-CRAN/pander )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/Familias
-	sci-CRAN/tkrplot
+DEPEND="sci-CRAN/tkrplot
 	sci-CRAN/gWidgets2
+	sci-CRAN/Familias
 	dev-lang/R[tk]
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

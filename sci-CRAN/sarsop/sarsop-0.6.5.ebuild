@@ -22,8 +22,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/xml2
 	virtual/Matrix
-	sci-CRAN/processx
 	sci-CRAN/digest
+	sci-CRAN/processx
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH

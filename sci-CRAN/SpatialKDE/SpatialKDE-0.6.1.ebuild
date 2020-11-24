@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_tmap? ( sci-CRAN/tmap )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/dplyr
 	sci-CRAN/glue
-	sci-CRAN/raster
+	sci-CRAN/dplyr
 	sci-CRAN/sf
 	sci-CRAN/magrittr
 	sci-CRAN/rlang
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

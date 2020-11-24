@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/Iso
 	sci-BIOC/affy
-	>=sci-CRAN/ff-2.0.0
+	dev-lang/R[tk]
 	sci-BIOC/Biobase
 	sci-CRAN/xtable
-	dev-lang/R[tk]
+	>=sci-CRAN/ff-2.0.0
 "
 RDEPEND="${DEPEND-}"

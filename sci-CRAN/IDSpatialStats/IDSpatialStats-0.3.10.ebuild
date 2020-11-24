@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/igraph
+	sci-CRAN/foreach
 	sci-CRAN/spatstat
 	sci-CRAN/doParallel
 "

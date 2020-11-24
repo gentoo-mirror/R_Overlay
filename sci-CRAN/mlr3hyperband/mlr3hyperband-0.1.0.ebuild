@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/mlr3misc
-	>=sci-CRAN/mlr3-0.7.0
-	>=sci-CRAN/bbotk-0.2.0
-	>=sci-CRAN/checkmate-1.9.4
-	sci-CRAN/R6
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/lgr
+	sci-CRAN/data_table
+	>=sci-CRAN/checkmate-1.9.4
+	>=sci-CRAN/bbotk-0.2.0
+	>=sci-CRAN/mlr3-0.7.0
+	sci-CRAN/mlr3misc
 	>=sci-CRAN/mlr3tuning-0.2.0
 	sci-CRAN/paradox
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

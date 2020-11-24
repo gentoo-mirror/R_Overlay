@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
-DEPEND="sci-CRAN/tibble
-	sci-CRAN/fauxpas
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/fauxpas
+	sci-CRAN/tibble
 	sci-CRAN/crul
+	sci-CRAN/data_table
 	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

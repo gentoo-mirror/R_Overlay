@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/progress
-	sci-BIOC/Biobase
-	sci-CRAN/httr
 	>=sci-BIOC/BiocGenerics-0.23.1
+	sci-CRAN/httr
+	sci-BIOC/Biobase
 	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

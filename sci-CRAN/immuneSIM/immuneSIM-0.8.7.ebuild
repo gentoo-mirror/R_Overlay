@@ -10,19 +10,19 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/immuneSIM_0.8.7.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/plyr
-	sci-CRAN/poweRlaw
+DEPEND="sci-CRAN/poweRlaw
 	sci-CRAN/stringdist
-	sci-CRAN/data_table
-	sci-CRAN/reshape2
-	sci-CRAN/RColorBrewer
-	sci-CRAN/igraph
-	sci-BIOC/Biostrings
 	sci-CRAN/stringr
+	sci-CRAN/data_table
+	sci-CRAN/igraph
+	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
-	sci-CRAN/ggthemes
 	sci-CRAN/Metrics
+	>=dev-lang/R-3.4.0
+	sci-BIOC/Biostrings
+	sci-CRAN/plyr
+	sci-CRAN/ggthemes
+	sci-CRAN/RColorBrewer
 	sci-CRAN/repmis
 "
 RDEPEND="${DEPEND-}"

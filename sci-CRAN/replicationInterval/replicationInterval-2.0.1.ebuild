@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/replicationInterval_2.0.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/MBESS
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/MBESS
 	sci-CRAN/pbapply
 	virtual/MASS
 "

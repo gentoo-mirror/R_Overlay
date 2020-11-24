@@ -20,11 +20,11 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-4.0.0
 	virtual/cluster
-	virtual/nnet
 	sci-CRAN/stringdist
-	virtual/cluster
 	sci-CRAN/seriation
 	virtual/Matrix
+	virtual/cluster
+	virtual/nnet
 	>=sci-CRAN/TraMineR-1.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

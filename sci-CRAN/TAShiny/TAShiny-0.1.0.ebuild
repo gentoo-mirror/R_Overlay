@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TAShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.0.3
-	sci-CRAN/igraph
-	sci-CRAN/tm
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/SnowballC
-	sci-CRAN/shiny
-	sci-CRAN/dplyr
 	sci-CRAN/wordcloud2
+	sci-CRAN/dplyr
+	>=dev-lang/R-3.0.3
+	sci-CRAN/tm
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

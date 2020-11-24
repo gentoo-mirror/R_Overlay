@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_sandwich? ( sci-CRAN/sandwich )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/multcomp
-	sci-CRAN/nparcomp
 	sci-CRAN/MCPAN
 	sci-CRAN/ggplot2
+	sci-CRAN/multcomp
+	sci-CRAN/nparcomp
 	sci-CRAN/SimComp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_sf? ( sci-CRAN/sf )
 "
-DEPEND="sci-CRAN/hexbin
+DEPEND=">=sci-CRAN/sp-1.0.6
 	sci-CRAN/zoo
-	sci-CRAN/viridisLite
+	virtual/lattice
 	>=dev-lang/R-2.14.0
-	virtual/lattice
-	virtual/lattice
 	>=sci-CRAN/raster-2.0.12
+	virtual/lattice
 	sci-CRAN/RColorBrewer
-	>=sci-CRAN/sp-1.0.6
+	sci-CRAN/hexbin
+	sci-CRAN/viridisLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

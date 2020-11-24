@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-CRAN/alphahull
-	sci-CRAN/mvoutlier
-	sci-CRAN/splancs
 	sci-CRAN/diptest
 	sci-CRAN/maptools
+	sci-CRAN/splancs
+	sci-CRAN/mvoutlier
 	sci-BIOC/flowCore
 	sci-BIOC/flowFP
 "

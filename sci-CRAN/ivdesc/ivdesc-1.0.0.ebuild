@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_icsw? ( sci-CRAN/icsw )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	>=sci-CRAN/rsample-0.0.3
 	>=sci-CRAN/purrr-0.2.5
 	>=sci-CRAN/knitr-1.20.8
-	>=sci-CRAN/rsample-0.0.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

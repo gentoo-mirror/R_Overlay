@@ -13,8 +13,8 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_sass"
 R_SUGGESTS="r_suggests_sass? ( sci-CRAN/sass )"
 DEPEND="sci-CRAN/htmlwidgets
+	sci-CRAN/shiny
 	sci-CRAN/rstudioapi
 	sci-CRAN/htmltools
-	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/IAcsSPCR_1.2.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/lattice
-	sci-CRAN/FrF2
-	sci-CRAN/abind
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/stringi
+	sci-CRAN/FrF2
+	virtual/lattice
+	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-}"

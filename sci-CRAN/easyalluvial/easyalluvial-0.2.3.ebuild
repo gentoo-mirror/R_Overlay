@@ -20,23 +20,23 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/ggalluvial-0.9.1
+	sci-CRAN/forcats
 	sci-CRAN/ggridges
-	sci-CRAN/purrr
-	>=sci-CRAN/ggplot2-3.2.0
 	sci-CRAN/stringr
-	sci-CRAN/caret
-	sci-CRAN/RColorBrewer
-	sci-CRAN/rlang
+	sci-CRAN/tibble
 	sci-CRAN/progress
 	sci-CRAN/randomForest
-	sci-CRAN/forcats
-	>=sci-CRAN/tidyr-1.0.0
-	>=sci-CRAN/recipes-0.1.5
-	sci-CRAN/magrittr
-	sci-CRAN/tibble
 	sci-CRAN/dplyr
-	sci-CRAN/e1071
+	sci-CRAN/magrittr
+	sci-CRAN/caret
 	sci-CRAN/gridExtra
+	sci-CRAN/purrr
+	>=sci-CRAN/ggplot2-3.2.0
+	>=sci-CRAN/recipes-0.1.5
+	sci-CRAN/RColorBrewer
+	sci-CRAN/e1071
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

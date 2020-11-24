@@ -31,11 +31,11 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 	r_suggests_zeallot? ( sci-CRAN/zeallot )
 "
-DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/rlang-0.4.7
-	sci-CRAN/digest
-	>=sci-CRAN/ellipsis-0.2.0
+DEPEND=">=sci-CRAN/ellipsis-0.2.0
 	sci-CRAN/glue
+	sci-CRAN/digest
+	>=sci-CRAN/rlang-0.4.7
+	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

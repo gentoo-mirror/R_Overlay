@@ -19,21 +19,21 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/rvest
-	sci-CRAN/wordcloud
-	sci-CRAN/dplyr
-	sci-CRAN/xml2
-	sci-CRAN/tibble
-	sci-BIOC/graph
-	sci-BIOC/Rgraphviz
+DEPEND="sci-CRAN/tm
 	sci-CRAN/RWeka
-	virtual/cluster
-	sci-CRAN/RColorBrewer
-	sci-CRAN/magrittr
-	sci-CRAN/tm
-	sci-CRAN/urltools
 	sci-CRAN/ggplot2
+	sci-BIOC/Rgraphviz
+	sci-CRAN/dplyr
+	virtual/cluster
 	sci-CRAN/data_table
 	sci-CRAN/SnowballC
+	sci-CRAN/rvest
+	sci-CRAN/xml2
+	sci-CRAN/tibble
+	sci-CRAN/magrittr
+	sci-CRAN/wordcloud
+	sci-CRAN/urltools
+	sci-BIOC/graph
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

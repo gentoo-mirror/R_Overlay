@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/MoTBFs_1.4.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND="sci-CRAN/bnlearn
-	sci-CRAN/lpSolve
+	sci-CRAN/quadprog
 	sci-CRAN/ggm
 	>=dev-lang/R-3.2.0
-	sci-CRAN/quadprog
+	sci-CRAN/lpSolve
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_fds? ( sci-CRAN/fds )
 	r_suggests_vars? ( sci-CRAN/vars )
 "
-DEPEND="sci-CRAN/fda
-	sci-CRAN/sde
-	sci-CRAN/forecast
-	sci-CRAN/colorspace
-	>=dev-lang/R-3.5.0
-	sci-CRAN/rainbow
+DEPEND="sci-CRAN/colorspace
 	virtual/MASS
-	sci-CRAN/pcaPP
-	virtual/cluster
+	sci-CRAN/sde
 	sci-CRAN/ecp
+	sci-CRAN/rainbow
 	sci-CRAN/strucchange
 	sci-CRAN/e1071
+	>=dev-lang/R-3.5.0
+	sci-CRAN/forecast
+	sci-CRAN/pcaPP
+	sci-CRAN/fda
+	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

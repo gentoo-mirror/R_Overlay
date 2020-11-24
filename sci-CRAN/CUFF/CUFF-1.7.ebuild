@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CUFF_1.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/DT
-	virtual/nlme
+DEPEND="sci-CRAN/xlsx
 	sci-CRAN/lmerTest
-	>=dev-lang/R-3.2.2
 	sci-CRAN/xtable
-	sci-CRAN/xlsx
+	>=dev-lang/R-3.2.2
+	sci-CRAN/DT
+	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

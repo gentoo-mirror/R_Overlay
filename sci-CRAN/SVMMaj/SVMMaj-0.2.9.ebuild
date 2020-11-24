@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-2.13.0
+DEPEND="sci-CRAN/scales
+	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
 	sci-CRAN/gridExtra
-	sci-CRAN/reshape2
-	sci-CRAN/scales
-	sci-CRAN/ggplot2
 	sci-CRAN/kernlab
+	>=dev-lang/R-2.13.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

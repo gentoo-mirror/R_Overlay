@@ -18,17 +18,17 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/DLMtool-5.3.1
-	virtual/MASS
-	sci-CRAN/rmarkdown
-	sci-CRAN/snowfall
-	sci-CRAN/abind
+	sci-CRAN/corpcor
 	sci-CRAN/TMB
 	sci-CRAN/coda
-	sci-CRAN/corpcor
+	sci-CRAN/abind
+	virtual/MASS
 	sci-CRAN/dplyr
 	sci-CRAN/gplots
 	sci-CRAN/mvtnorm
 	sci-CRAN/reshape2
+	sci-CRAN/snowfall
+	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/TMB

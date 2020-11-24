@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/yorkr_0.0.9.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.2.4
-	sci-CRAN/ggplot2
-	virtual/rpart
-	sci-CRAN/reshape2
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/dplyr
+	>=dev-lang/R-3.2.4
 	sci-CRAN/yaml
+	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra
+	virtual/rpart
 "
 RDEPEND="${DEPEND-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/dyads_1.1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	virtual/MASS
 	sci-CRAN/mvtnorm
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

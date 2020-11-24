@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/binsmooth_0.2.2.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/triangle
+DEPEND="sci-CRAN/pracma
 	sci-CRAN/ineq
-	sci-CRAN/pracma
+	sci-CRAN/triangle
 "
 RDEPEND="${DEPEND-}"

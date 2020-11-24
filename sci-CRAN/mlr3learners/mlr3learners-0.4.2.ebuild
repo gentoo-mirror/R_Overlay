@@ -33,12 +33,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/mlr3misc-0.5.0
-	>=dev-lang/R-3.1.0
-	sci-CRAN/data_table
-	sci-CRAN/paradox
-	>=sci-CRAN/mlr3-0.6.0
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/R6
+	>=sci-CRAN/mlr3misc-0.5.0
+	>=sci-CRAN/mlr3-0.6.0
+	>=dev-lang/R-3.1.0
+	sci-CRAN/paradox
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

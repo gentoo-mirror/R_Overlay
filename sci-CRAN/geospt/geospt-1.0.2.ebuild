@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/geospt_1.0-2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/genalg
-	virtual/MASS
-	sci-CRAN/gstat
-	sci-CRAN/limSolve
+DEPEND="sci-CRAN/sp
 	sci-CRAN/fields
-	sci-CRAN/gsl
-	sci-CRAN/sgeostat
-	sci-CRAN/sp
+	sci-CRAN/limSolve
+	sci-CRAN/gstat
 	sci-CRAN/minqa
+	sci-CRAN/gsl
 	sci-CRAN/plyr
 	sci-CRAN/TeachingDemos
+	sci-CRAN/sgeostat
+	>=dev-lang/R-2.15.0
+	sci-CRAN/genalg
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

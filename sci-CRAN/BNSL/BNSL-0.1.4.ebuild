@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/BNSL_0.1.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/bnlearn
-	sci-CRAN/igraph
 	>=sci-CRAN/Rcpp-0.12.0
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

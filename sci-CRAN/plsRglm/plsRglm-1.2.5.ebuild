@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
 DEPEND="sci-CRAN/mvtnorm
-	virtual/MASS
-	virtual/boot
 	sci-CRAN/bipartite
 	sci-CRAN/car
+	virtual/boot
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

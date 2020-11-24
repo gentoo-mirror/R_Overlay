@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PredCRG_1.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.3.0
-	sci-BIOC/Biostrings
+DEPEND="sci-BIOC/Biostrings
 	sci-CRAN/kernlab
 	sci-CRAN/Peptides
 	sci-CRAN/protr
+	>=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}"

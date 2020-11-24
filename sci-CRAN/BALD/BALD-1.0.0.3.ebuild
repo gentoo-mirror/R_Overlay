@@ -12,10 +12,10 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND="sci-CRAN/logspline
-	virtual/lattice
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/logspline
 	>=sci-CRAN/rjags-3.3
-	>=dev-lang/R-3.3.0
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/jags

@@ -12,7 +12,7 @@ LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/pscl
 	sci-CRAN/MCMCpack
-	sci-CRAN/wnominate
 	sci-CRAN/coda
+	sci-CRAN/wnominate
 "
 RDEPEND="${DEPEND-}"

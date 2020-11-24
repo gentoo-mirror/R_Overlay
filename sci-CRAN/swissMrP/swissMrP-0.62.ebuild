@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/lme4
-	sci-CRAN/blme
 	sci-CRAN/maptools
+	sci-CRAN/blme
 	sci-CRAN/arm
 	sci-CRAN/sp
 "

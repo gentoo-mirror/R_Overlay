@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/haplo_stats
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/gap
-	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
+	sci-CRAN/haplo_stats
+	sci-CRAN/reshape2
 	sci-CRAN/BIGDAWG
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

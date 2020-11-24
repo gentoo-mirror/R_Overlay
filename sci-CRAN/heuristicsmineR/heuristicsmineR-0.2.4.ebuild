@@ -17,21 +17,21 @@ R_SUGGESTS="
 	r_suggests_eventdatar? ( sci-CRAN/eventdataR )
 	r_suggests_svgpanzoom? ( sci-CRAN/svgPanZoom )
 "
-DEPEND=">=sci-CRAN/DiagrammeR-1.0.0
-	sci-CRAN/ggplot2
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/petrinetR
 	sci-CRAN/purrr
-	sci-CRAN/scales
 	sci-CRAN/ggthemes
-	sci-CRAN/data_table
+	sci-CRAN/ggplot2
 	sci-CRAN/stringr
-	sci-CRAN/bupaR
-	>=sci-CRAN/processmapR-0.3.1
+	sci-CRAN/scales
+	sci-CRAN/data_table
 	sci-CRAN/rlang
 	sci-CRAN/magrittr
+	>=sci-CRAN/processmapR-0.3.1
+	sci-CRAN/bupaR
 	sci-CRAN/dplyr
 	sci-CRAN/tidyr
-	sci-CRAN/petrinetR
+	sci-CRAN/Rcpp
+	>=sci-CRAN/DiagrammeR-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

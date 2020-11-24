@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CPE_1.5.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/survival
-	sci-CRAN/rms
+DEPEND="sci-CRAN/rms
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

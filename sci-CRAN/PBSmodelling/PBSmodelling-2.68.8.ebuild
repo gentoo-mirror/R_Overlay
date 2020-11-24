@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_pbsmapping? ( sci-CRAN/PBSmapping )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	dev-lang/R[tk]
 	sci-CRAN/XML
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-}
 	dev-tcltk/bwidget

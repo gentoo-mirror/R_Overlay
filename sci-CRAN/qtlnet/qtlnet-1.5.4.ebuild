@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/qtlnet_1.5.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/pcalg
-	sci-CRAN/sem
+DEPEND="sci-CRAN/qtl
 	sci-BIOC/graph
+	sci-CRAN/sem
 	sci-CRAN/igraph
-	sci-CRAN/qtl
+	sci-CRAN/pcalg
 "
 RDEPEND="${DEPEND-}"

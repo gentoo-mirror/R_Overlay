@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_markdown? ( sci-CRAN/markdown )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND=">=sci-CRAN/iterators-1.0.12
-	>=sci-CRAN/foreach-1.5.0
+DEPEND=">=sci-CRAN/foreach-1.5.0
+	>=sci-CRAN/iterators-1.0.12
 	>=sci-CRAN/globals-0.12.5
 	>=sci-CRAN/future-1.18.0
 "

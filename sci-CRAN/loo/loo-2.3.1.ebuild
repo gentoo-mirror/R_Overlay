@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_spdep? ( sci-CRAN/spdep )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.1.2
-	virtual/Matrix
+DEPEND="virtual/Matrix
 	sci-CRAN/checkmate
+	>=dev-lang/R-3.1.2
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

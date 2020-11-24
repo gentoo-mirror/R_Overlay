@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/random.polychor.pa_1.1.4-4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/sfsmisc
-	sci-CRAN/nFactors
+DEPEND="sci-CRAN/psych
 	virtual/boot
-	sci-CRAN/psych
+	virtual/MASS
+	sci-CRAN/nFactors
 	sci-CRAN/mvtnorm
+	sci-CRAN/sfsmisc
 "
 RDEPEND="${DEPEND-}"

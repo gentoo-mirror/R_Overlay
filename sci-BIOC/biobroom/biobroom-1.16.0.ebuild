@@ -26,8 +26,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/tidyr
 	sci-CRAN/broom
-	sci-CRAN/dplyr
 	sci-BIOC/Biobase
+	sci-CRAN/dplyr
 	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

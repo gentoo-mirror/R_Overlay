@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_lmtest? ( sci-CRAN/lmtest )
 "
-DEPEND="sci-CRAN/sandwich
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/sandwich
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

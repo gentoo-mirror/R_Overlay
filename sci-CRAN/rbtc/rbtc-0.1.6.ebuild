@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rbtc_0.1-6.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/httr
-	sci-CRAN/openssl
+DEPEND="sci-CRAN/openssl
 	sci-CRAN/gmp
 	>=dev-lang/R-3.4.0
+	sci-CRAN/httr
 	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-}"

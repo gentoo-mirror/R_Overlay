@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/agsemisc_1.3-1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.12.0
-	virtual/lattice
 	virtual/MASS
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

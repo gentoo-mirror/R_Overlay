@@ -26,29 +26,29 @@ R_SUGGESTS="
 	r_suggests_rpostgres? ( sci-CRAN/RPostgres )
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/blastula-0.3.1
-	>=sci-CRAN/gt-0.2.1
+DEPEND=">=sci-CRAN/tibble-3.0.0
+	>=sci-CRAN/tidyselect-1.1.0
+	>=sci-CRAN/yaml-2.2.1
+	>=sci-CRAN/htmltools-0.4.0
+	>=sci-CRAN/glue-1.3.2
+	sci-CRAN/magrittr
+	>=sci-CRAN/cli-2.0.2
+	>=sci-CRAN/base64enc-0.1.3
 	>=sci-CRAN/digest-0.6.25
 	>=sci-CRAN/dbplyr-1.4.4
 	>=sci-CRAN/ggforce-0.3.1
-	>=sci-CRAN/glue-1.3.2
-	>=sci-CRAN/rlang-0.4.6
-	>=sci-CRAN/base64enc-0.1.3
-	>=sci-CRAN/DBI-1.1.0
-	>=sci-CRAN/cli-2.0.2
-	>=sci-CRAN/htmltools-0.4.0
-	>=sci-CRAN/log4r-0.3.2
-	>=sci-CRAN/tibble-3.0.0
-	>=sci-CRAN/dplyr-1.0.0
-	>=sci-CRAN/testthat-2.3.2
-	>=sci-CRAN/yaml-2.2.1
-	>=sci-CRAN/fs-1.4.1
-	>=sci-CRAN/ggplot2-3.3.0
 	>=sci-CRAN/knitr-1.28
-	sci-CRAN/magrittr
 	>=sci-CRAN/scales-1.1.1
-	>=sci-CRAN/tidyselect-1.1.0
+	>=sci-CRAN/testthat-2.3.2
+	>=sci-CRAN/rlang-0.4.6
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/gt-0.2.1
+	>=sci-CRAN/DBI-1.1.0
+	>=sci-CRAN/blastula-0.3.1
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/fs-1.4.1
+	>=sci-CRAN/log4r-0.3.2
+	>=sci-CRAN/ggplot2-3.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

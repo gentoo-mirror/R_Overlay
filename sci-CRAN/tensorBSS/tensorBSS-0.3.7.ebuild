@@ -12,12 +12,12 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_stochvol"
 R_SUGGESTS="r_suggests_stochvol? ( sci-CRAN/stochvol )"
-DEPEND="sci-CRAN/tensor
+DEPEND="sci-CRAN/fICA
+	sci-CRAN/tsBSS
+	sci-CRAN/JADE
+	sci-CRAN/tensor
 	>=sci-CRAN/Rcpp-0.12.3
 	sci-CRAN/ICtest
-	sci-CRAN/JADE
-	sci-CRAN/fICA
-	sci-CRAN/tsBSS
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}

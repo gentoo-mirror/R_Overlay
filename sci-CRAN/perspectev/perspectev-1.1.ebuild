@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/perspectev_1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/boot
-	sci-CRAN/sp
-	sci-CRAN/ape
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
+	virtual/boot
 	sci-CRAN/ggplot2
-	sci-CRAN/doParallel
 	sci-CRAN/mapproj
+	sci-CRAN/ape
+	sci-CRAN/doParallel
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

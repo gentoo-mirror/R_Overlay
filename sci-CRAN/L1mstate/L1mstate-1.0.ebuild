@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/L1mstate_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/colorspace
+DEPEND="sci-CRAN/colorspace
+	virtual/MASS
 	sci-CRAN/mstate
 	>=sci-CRAN/Rcpp-1.0.1
 	virtual/Matrix

@@ -28,23 +28,23 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/mime-0.3
-	>=sci-CRAN/glue-1.3.2
-	>=sci-CRAN/R6-2.0
-	>=sci-CRAN/httpuv-1.5.2
-	sci-CRAN/xtable
-	sci-CRAN/crayon
-	>=sci-CRAN/htmltools-0.4.0.9003
-	sci-CRAN/sourcetools
-	>=sci-CRAN/promises-1.1.0
-	>=sci-CRAN/fastmap-1.0.0
-	>=sci-CRAN/commonmark-1.7
-	>=sci-CRAN/jsonlite-0.9.16
+DEPEND=">=sci-CRAN/httpuv-1.5.2
 	sci-CRAN/digest
 	>=sci-CRAN/later-1.0.0
+	>=sci-CRAN/jsonlite-0.9.16
+	>=sci-CRAN/R6-2.0
+	>=sci-CRAN/fastmap-1.0.0
+	>=sci-CRAN/commonmark-1.7
+	sci-CRAN/xtable
+	>=sci-CRAN/htmltools-0.4.0.9003
+	sci-CRAN/sourcetools
 	>=sci-CRAN/rlang-0.4.0
+	>=sci-CRAN/promises-1.1.0
+	>=sci-CRAN/mime-0.3
 	sci-CRAN/withr
+	>=dev-lang/R-3.0.2
+	sci-CRAN/crayon
+	>=sci-CRAN/glue-1.3.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

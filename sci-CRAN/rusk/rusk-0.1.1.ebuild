@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rusk_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/dplyr
-	sci-CRAN/reshape2
 	sci-CRAN/ggforce
-	sci-CRAN/shiny
+	sci-CRAN/reshape2
+	>=dev-lang/R-3.4.0
+	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}"

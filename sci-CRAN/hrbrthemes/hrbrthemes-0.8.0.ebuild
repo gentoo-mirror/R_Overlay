@@ -24,9 +24,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/knitr
-	sci-CRAN/extrafont
 	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/extrafont
+	sci-CRAN/knitr
 	sci-CRAN/scales
 	sci-CRAN/rmarkdown
 	sci-CRAN/htmltools

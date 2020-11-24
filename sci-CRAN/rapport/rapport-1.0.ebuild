@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/rapport_1.0.tar.gz"
 LICENSE='AGPL-3'
 
 DEPEND="sci-CRAN/rapportools
+	sci-CRAN/yaml
 	sci-CRAN/pander
 	>=dev-lang/R-2.15.0
-	sci-CRAN/yaml
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

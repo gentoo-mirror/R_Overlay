@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_metafor? ( sci-CRAN/metafor )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND=">=sci-CRAN/rlang-0.3.0
-	>=sci-CRAN/ggplot2-3.1.0
+DEPEND=">=sci-CRAN/ggplot2-3.1.0
 	>=sci-CRAN/tibble-1.4.2
-	>=sci-CRAN/broom-0.5.0
 	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/broom-0.5.0
 	>=dev-lang/R-3.3.0
+	>=sci-CRAN/rlang-0.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

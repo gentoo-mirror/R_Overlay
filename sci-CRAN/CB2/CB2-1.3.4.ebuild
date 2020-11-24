@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/glue
-	sci-CRAN/readr
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/metap
 	>=sci-CRAN/Rcpp-0.12.16
-	>=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
 	sci-CRAN/tibble
 	sci-CRAN/stringr
 	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
+	sci-CRAN/glue
+	sci-CRAN/readr
 	sci-CRAN/R_utils
 	sci-CRAN/pheatmap
 "

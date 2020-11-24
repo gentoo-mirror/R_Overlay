@@ -18,20 +18,20 @@ R_SUGGESTS="
 	r_suggests_gseabase? ( sci-BIOC/GSEABase )
 	r_suggests_vsn? ( sci-BIOC/vsn )
 "
-DEPEND="sci-CRAN/xtable
-	sci-BIOC/AnnotationDbi
-	sci-BIOC/gcrma
-	sci-BIOC/Biobase
-	virtual/cluster
-	sci-BIOC/affy
-	sci-BIOC/multtest
+DEPEND="virtual/survival
 	sci-BIOC/siggenes
-	virtual/survival
+	sci-CRAN/xtable
+	virtual/cluster
+	sci-BIOC/multtest
+	sci-BIOC/affy
+	sci-BIOC/gcrma
 	sci-CRAN/heatmap_plus
 	sci-BIOC/biomaRt
 	sci-CRAN/GSA
 	virtual/MASS
 	sci-CRAN/FactoMineR
+	sci-BIOC/AnnotationDbi
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TrendSLR_1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.2.2
-	>=sci-CRAN/imputeTS-1.8
-	>=sci-CRAN/tseries-0.10.34
+DEPEND=">=sci-CRAN/imputeTS-1.8
 	>=sci-CRAN/changepoint-2.1.1
 	>=sci-CRAN/forecast-6.2
+	>=dev-lang/R-3.2.2
 	>=sci-CRAN/plyr-1.8.3
 	>=sci-CRAN/Rssa-0.13.1
+	>=sci-CRAN/tseries-0.10.34
 	>=sci-CRAN/zoo-1.7.12
 "
 RDEPEND="${DEPEND-}"

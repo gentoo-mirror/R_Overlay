@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/tibble
-	sci-BIOC/qvalue
+DEPEND="sci-BIOC/qvalue
 	virtual/MASS
+	sci-CRAN/tibble
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

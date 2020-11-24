@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/qrjoint_2.0-3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/quantreg
+	virtual/Matrix
 	sci-CRAN/kernlab
 	sci-CRAN/coda
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

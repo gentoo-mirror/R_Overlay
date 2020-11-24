@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/regexSelect_1.0.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/shiny
-	sci-CRAN/shinyjs
+DEPEND="sci-CRAN/shinyjs
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"

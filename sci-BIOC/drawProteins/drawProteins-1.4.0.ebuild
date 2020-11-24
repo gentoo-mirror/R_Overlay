@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/dplyr
-	sci-CRAN/readr
-	sci-CRAN/tidyr
-	sci-CRAN/stringr
-	>=dev-lang/R-3.4
+DEPEND=">=dev-lang/R-3.4
 	sci-CRAN/ggplot2
+	sci-CRAN/readr
+	sci-CRAN/stringr
+	sci-CRAN/httr
+	sci-CRAN/dplyr
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

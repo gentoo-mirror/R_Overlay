@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nparMD_0.1.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="virtual/MASS
+DEPEND=">=dev-lang/R-3.1.0
 	virtual/Matrix
-	sci-CRAN/Formula
+	virtual/Matrix
+	virtual/MASS
 	sci-CRAN/gtools
-	>=dev-lang/R-3.1.0
-	virtual/Matrix
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-}"

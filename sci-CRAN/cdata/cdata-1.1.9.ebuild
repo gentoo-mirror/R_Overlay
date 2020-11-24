@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_yaml? ( sci-CRAN/yaml )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	>=sci-CRAN/rqdatatable-1.2.8
 	>=sci-CRAN/rquery-1.4.5
 	>=sci-CRAN/wrapr-2.0.2
-	>=sci-CRAN/rqdatatable-1.2.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

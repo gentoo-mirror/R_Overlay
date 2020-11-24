@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MatrixLDA_0.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.1
-	sci-CRAN/glasso
 	sci-CRAN/plyr
+	sci-CRAN/glasso
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

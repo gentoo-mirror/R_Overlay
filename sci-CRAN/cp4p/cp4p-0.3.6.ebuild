@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/cp4p_0.3.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-BIOC/limma
-	>=dev-lang/R-3.2.0
 	sci-CRAN/MESS
 	sci-BIOC/multtest
 	sci-BIOC/qvalue
+	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-}"

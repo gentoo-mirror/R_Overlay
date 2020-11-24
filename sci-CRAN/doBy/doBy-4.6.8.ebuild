@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 "
 DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/tibble
 	sci-CRAN/magrittr
-	>=sci-CRAN/pbkrtest-0.4.8.1
-	virtual/Matrix
 	virtual/MASS
+	virtual/Matrix
+	sci-CRAN/dplyr
+	>=sci-CRAN/pbkrtest-0.4.8.1
+	sci-CRAN/Deriv
 	sci-CRAN/broom
 	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/Deriv
-	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -9,9 +9,9 @@ DESCRIPTION='Dyadic Mixed Model for Pedigree Data'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dmm_2.1-6.tar.gz"
 
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/nadiv
 	sci-CRAN/pls
-	sci-CRAN/nadiv
+	virtual/MASS
 	sci-CRAN/robustbase
 	virtual/Matrix
 "

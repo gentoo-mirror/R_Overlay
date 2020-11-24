@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/Data2LD_3.2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/fda
 	sci-CRAN/knitr
-	sci-CRAN/deSolve
 	sci-CRAN/rmarkdown
+	sci-CRAN/fda
+	sci-CRAN/deSolve
 "
 RDEPEND="${DEPEND-}"

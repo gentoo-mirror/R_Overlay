@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND="virtual/MASS
+DEPEND=">=dev-lang/R-2.15.1
 	virtual/spatial
-	sci-CRAN/stabledist
 	sci-CRAN/timeDate
-	>=dev-lang/R-2.15.1
+	virtual/MASS
 	sci-CRAN/timeSeries
 	sci-CRAN/gss
+	sci-CRAN/stabledist
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_webmockr? ( sci-CRAN/webmockr )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/whisker
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/lubridate
 	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	>=sci-CRAN/crul-0.7.4
-	sci-CRAN/plyr
 	sci-CRAN/reshape2
+	>=sci-CRAN/crul-0.7.4
 	>=sci-CRAN/solrium-1.0.2
+	sci-CRAN/plyr
+	sci-CRAN/jsonlite
+	sci-CRAN/whisker
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

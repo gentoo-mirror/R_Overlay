@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/KScorrect_1.4.0.tar.gz"
 LICENSE='CC0-1.0'
 
 DEPEND=">=sci-CRAN/foreach-1.4.4
-	>=sci-CRAN/mclust-5.4
-	virtual/MASS
 	>=sci-CRAN/iterators-1.0.10
-	>=dev-lang/R-3.6.0
+	virtual/MASS
 	>=sci-CRAN/doParallel-1.0.14
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/mclust-5.4
 "
 RDEPEND="${DEPEND-}"

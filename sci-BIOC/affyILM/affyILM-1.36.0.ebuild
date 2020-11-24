@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/affyILM_1.36.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-BIOC/affxparser-1.16.0
-	sci-BIOC/affy
-	sci-BIOC/gcrma
+DEPEND="sci-BIOC/affy
 	sci-BIOC/Biobase
+	>=sci-BIOC/affxparser-1.16.0
+	sci-BIOC/gcrma
 "
 RDEPEND="${DEPEND-}"
 

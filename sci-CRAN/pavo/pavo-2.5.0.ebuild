@@ -24,15 +24,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.99.0 )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/future_apply
-	sci-CRAN/sp
-	sci-CRAN/magick
 	virtual/cluster
-	>=sci-CRAN/geometry-0.4.0
 	sci-CRAN/alphashape3d
 	>=sci-CRAN/lightr-1.0
+	sci-CRAN/magick
 	sci-CRAN/plot3D
+	>=sci-CRAN/geometry-0.4.0
+	sci-CRAN/future_apply
 	sci-CRAN/progressr
+	sci-CRAN/sp
 	sci-CRAN/viridisLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

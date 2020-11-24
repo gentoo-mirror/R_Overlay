@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_plyr? ( sci-CRAN/plyr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/Matrix
-	virtual/lattice
-	sci-CRAN/crayon
+DEPEND="virtual/MASS
 	>=sci-CRAN/Rcpp-0.12.19
-	virtual/MASS
+	virtual/lattice
+	virtual/Matrix
+	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/plyr-1.8
-	>=sci-CRAN/caret-6.0.37
-	>=sci-CRAN/DiscriMiner-0.1.29
-	>=sci-CRAN/e1071-1.6.1
+DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/data_table-1.9.4
+	>=sci-CRAN/plyr-1.8
+	>=sci-CRAN/DiscriMiner-0.1.29
+	>=sci-CRAN/caret-6.0.37
 	>=sci-CRAN/gbm-2.1
 	>=sci-CRAN/pamr-1.54.1
 	>=sci-CRAN/caTools-1.14
-	>=dev-lang/R-3.2.0
+	>=sci-CRAN/foreach-1.4.1
+	>=sci-CRAN/assertive_base-0.0.1
+	>=sci-CRAN/e1071-1.6.1
 	>=sci-CRAN/randomForest-4.6.10
 	>=sci-CRAN/glmnet-1.9.5
-	>=sci-CRAN/foreach-1.4.1
 	>=sci-CRAN/permute-0.7.0
 	>=sci-CRAN/assertive-0.3.0
-	>=sci-CRAN/assertive_base-0.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.1 )
 "
 DEPEND="sci-CRAN/ade4
-	sci-CRAN/RNeXML
 	>=sci-CRAN/Rcpp-0.11.0
 	>=sci-CRAN/ape-3.0
 	>=sci-CRAN/rncl-0.6.0
+	sci-CRAN/RNeXML
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

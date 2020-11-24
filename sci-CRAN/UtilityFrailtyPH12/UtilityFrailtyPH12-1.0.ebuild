@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/UtilityFrailtyPH12_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.18
-	sci-CRAN/mvtnorm
 	sci-CRAN/bindata
+	sci-CRAN/mvtnorm
 	sci-CRAN/Phase123
 "
 RDEPEND="${DEPEND-}

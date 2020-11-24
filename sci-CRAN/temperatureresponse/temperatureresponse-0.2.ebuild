@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/temperatureresponse_0.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/numDeriv
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/rootSolve
-	sci-CRAN/broom
-	>=dev-lang/R-3.1.0
+	sci-CRAN/numDeriv
 	sci-CRAN/minpack_lm
+	sci-CRAN/broom
+	sci-CRAN/dplyr
 	sci-CRAN/AICcmodavg
 "
 RDEPEND="${DEPEND-}"

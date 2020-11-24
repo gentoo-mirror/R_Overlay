@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/mcmcplots_0.4.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/coda-0.17.1
-	sci-CRAN/sfsmisc
 	sci-CRAN/denstrip
+	sci-CRAN/sfsmisc
 	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-}"

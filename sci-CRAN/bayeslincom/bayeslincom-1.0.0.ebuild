@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_bggm? ( >=sci-CRAN/BGGM-2.0.2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/lifecycle
+DEPEND=">=dev-lang/R-4.0.0
 	>=sci-CRAN/ggplot2-3.3.2
-	>=dev-lang/R-4.0.0
+	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

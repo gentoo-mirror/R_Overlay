@@ -27,17 +27,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xts? ( sci-CRAN/xts )
 "
-DEPEND="sci-CRAN/np
-	virtual/lattice
-	sci-CRAN/colorspace
-	>=dev-lang/R-3.0.0
-	>=sci-CRAN/Rcpp-0.11.2
+DEPEND=">=dev-lang/R-3.0.0
+	virtual/MASS
 	sci-CRAN/rrcov
 	sci-CRAN/ggplot2
-	virtual/MASS
+	>=sci-CRAN/Rcpp-0.11.2
 	sci-CRAN/sm
 	sci-CRAN/geometry
+	sci-CRAN/colorspace
 	sci-CRAN/zoo
+	sci-CRAN/np
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

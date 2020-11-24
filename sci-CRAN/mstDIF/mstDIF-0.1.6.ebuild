@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_strucchange? ( sci-CRAN/strucchange )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/expm
+DEPEND=">=sci-CRAN/mirt-1.31
 	virtual/Matrix
-	sci-CRAN/scDIFtest
-	>=dev-lang/R-4.0.0
-	>=sci-CRAN/mirt-1.31
 	sci-CRAN/PP
+	>=dev-lang/R-4.0.0
+	sci-CRAN/expm
+	sci-CRAN/scDIFtest
 	sci-CRAN/eRm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

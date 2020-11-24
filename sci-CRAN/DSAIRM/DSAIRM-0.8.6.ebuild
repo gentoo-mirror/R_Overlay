@@ -19,20 +19,20 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/shiny-1.0
-	>=sci-CRAN/dplyr-0.7.4
-	virtual/boot
-	sci-CRAN/rlang
+DEPEND="virtual/boot
 	>=sci-CRAN/lhs-0.15
-	sci-CRAN/tidyr
+	>=sci-CRAN/deSolve-1.20
+	>=sci-CRAN/dplyr-0.7.4
+	sci-CRAN/plotly
 	>=sci-CRAN/XML-3.98
 	>=dev-lang/R-3.5
-	>=sci-CRAN/deSolve-1.20
 	>=sci-CRAN/adaptivetau-2.2
+	>=sci-CRAN/shiny-1.0
 	>=sci-CRAN/ggplot2-2.2.1
 	>=sci-CRAN/gridExtra-2.3
 	>=sci-CRAN/nloptr-1.0.4
-	sci-CRAN/plotly
+	sci-CRAN/rlang
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

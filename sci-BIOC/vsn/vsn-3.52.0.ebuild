@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-BIOC/affy
-	virtual/lattice
-	sci-BIOC/limma
+DEPEND="sci-CRAN/ggplot2
 	sci-BIOC/Biobase
-	sci-CRAN/ggplot2
+	sci-BIOC/affy
+	sci-BIOC/limma
+	>=dev-lang/R-3.4.0
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

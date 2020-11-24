@@ -28,7 +28,7 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.0.0 )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/multcomp
 	sci-CRAN/tibble
+	sci-CRAN/multcomp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

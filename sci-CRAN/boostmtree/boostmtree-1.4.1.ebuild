@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/boostmtree_1.4.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/nlme
 	>=sci-CRAN/randomForestSRC-2.9.0
+	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

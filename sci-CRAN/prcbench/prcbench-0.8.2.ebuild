@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-0.8.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 )
 "
-DEPEND=">=dev-lang/R-3.2.3
-	>=sci-CRAN/precrec-0.1
+DEPEND=">=sci-CRAN/PRROC-1.1
 	>=sci-CRAN/assertthat-0.1
 	>=sci-CRAN/rJava-0.9.7
+	>=dev-lang/R-3.2.3
 	>=sci-CRAN/ROCR-1.0.7
-	>=sci-CRAN/PRROC-1.1
+	>=sci-CRAN/precrec-0.1
 	>=sci-CRAN/R6-2.1.1
 	>=sci-CRAN/gridExtra-2.0.0
 	>=sci-CRAN/ggplot2-2.1.0

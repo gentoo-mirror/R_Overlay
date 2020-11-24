@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d )
 "
-DEPEND="sci-CRAN/fields
-	sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/RColorBrewer
+	sci-CRAN/fields
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/assertthat
-	sci-CRAN/magrittr
-	sci-CRAN/stringr
 	sci-CRAN/statmod
+	sci-CRAN/stringr
 	sci-CRAN/dplyr
 	sci-CRAN/purrr
-	virtual/MASS
+	sci-CRAN/magrittr
 	sci-CRAN/tweedie
+	virtual/MASS
 	sci-CRAN/ggplot2
 	sci-CRAN/cplm
 "

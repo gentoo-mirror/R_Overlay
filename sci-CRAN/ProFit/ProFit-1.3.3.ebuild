@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_sn? ( sci-CRAN/sn )
 "
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/celestial-1.4.1
 	sci-CRAN/checkmate
-	sci-CRAN/LaplacesDemon
-	sci-CRAN/FITSio
-	>=sci-CRAN/magicaxis-2.0.3
-	sci-CRAN/cubature
+	>=sci-CRAN/celestial-1.4.1
 	sci-CRAN/RColorBrewer
+	sci-CRAN/LaplacesDemon
+	sci-CRAN/cubature
+	>=sci-CRAN/magicaxis-2.0.3
+	sci-CRAN/FITSio
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

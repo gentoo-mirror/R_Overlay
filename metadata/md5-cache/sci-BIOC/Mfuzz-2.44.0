@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-BIOC/Biobase-2.5.5 dev-lang/R[tk] sci-CRAN/e1071 sci-BIOC/tkWidgets dev-lang/R
+DEPEND=sci-BIOC/tkWidgets sci-CRAN/e1071 >=sci-BIOC/Biobase-2.5.5 dev-lang/R[tk] dev-lang/R
 DESCRIPTION=Soft clustering of time series g... (see metadata)
 EAPI=7
 IUSE=r_suggests_marray byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=>=sci-BIOC/Biobase-2.5.5 dev-lang/R[tk] sci-CRAN/e1071 sci-BIOC/tkWidgets r_suggests_marray? ( sci-BIOC/marray ) dev-lang/R
+RDEPEND=sci-BIOC/tkWidgets sci-CRAN/e1071 >=sci-BIOC/Biobase-2.5.5 dev-lang/R[tk] r_suggests_marray? ( sci-BIOC/marray ) dev-lang/R
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/Mfuzz_2.44.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=8f0ebb87ad93ecb1ab4d2e1fc2482910
+_md5_=ff622154728ae8bafed02279406315f0

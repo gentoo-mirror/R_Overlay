@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/dplyr
+	sci-CRAN/geiger
+	sci-CRAN/tidyr
 	sci-CRAN/ouch
 	sci-CRAN/ggplot2
-	sci-CRAN/tidyr
-	sci-CRAN/geiger
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

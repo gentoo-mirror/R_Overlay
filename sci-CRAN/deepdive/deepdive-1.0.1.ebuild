@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/deepdive_1.0.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/fastDummies
-	virtual/rpart
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/stringr
-	sci-CRAN/data_table
+	virtual/rpart
+	sci-CRAN/fastDummies
 	sci-CRAN/treeClust
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

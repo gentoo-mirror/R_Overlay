@@ -13,9 +13,9 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=sci-CRAN/slam-0.1.9
-	>=sci-CRAN/truncreg-0.2.1
-	>=sci-CRAN/truncnorm-1.0.7
 	sci-CRAN/maxLik
+	>=sci-CRAN/truncnorm-1.0.7
+	>=sci-CRAN/truncreg-0.2.1
 "
 RDEPEND="${DEPEND-}
 	sci-mathematics/glpk

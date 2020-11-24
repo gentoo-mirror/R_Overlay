@@ -17,13 +17,13 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/openxlsx-3.0.0
 	>=sci-CRAN/readxl-0.1.1
-	>=sci-CRAN/Rcpp-0.11.1
-	>=sci-CRAN/timeSeries-3022.101.2
-	>=sci-CRAN/data_table-1.9.6
 	>=dev-lang/R-3.3.1
+	>=sci-CRAN/data_table-1.9.6
+	>=sci-CRAN/timeDate-2150.95
+	>=sci-CRAN/timeSeries-3022.101.2
 	>=sci-CRAN/rChoiceDialogs-1.0.6
 	>=sci-CRAN/R_utils-2.3.0
 	>=sci-CRAN/rJava-0.9.8
-	>=sci-CRAN/timeDate-2150.95
+	>=sci-CRAN/Rcpp-0.11.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

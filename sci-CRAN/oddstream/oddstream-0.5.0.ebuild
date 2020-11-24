@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/pcaPP
+	sci-CRAN/magrittr
 	sci-CRAN/ks
-	virtual/MASS
+	sci-CRAN/pcaPP
+	sci-CRAN/reshape
+	sci-CRAN/tidyr
 	sci-CRAN/ggplot2
+	virtual/MASS
+	sci-CRAN/RcppRoll
+	virtual/mgcv
 	sci-CRAN/moments
 	sci-CRAN/RColorBrewer
 	sci-CRAN/mvtsplot
 	sci-CRAN/tibble
-	sci-CRAN/kernlab
-	sci-CRAN/tidyr
-	sci-CRAN/RcppRoll
-	virtual/mgcv
-	sci-CRAN/magrittr
 	sci-CRAN/dplyr
-	sci-CRAN/reshape
+	sci-CRAN/kernlab
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

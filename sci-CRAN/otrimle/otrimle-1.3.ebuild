@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/otrimle_1.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/foreach
+DEPEND="sci-CRAN/mclust
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
-	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}"

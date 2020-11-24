@@ -27,11 +27,11 @@ DEPEND=">=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH
-	sci-CRAN/Rcpp
-	>=sci-CRAN/jsonify-1.1.1
-	sci-CRAN/geometries
-	>=sci-CRAN/geojsonsf-1.3.3
 	>=sci-CRAN/colourvalues-0.3.4
+	>=sci-CRAN/jsonify-1.1.1
+	>=sci-CRAN/geojsonsf-1.3.3
+	sci-CRAN/geometries
 	sci-CRAN/rapidjsonr
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

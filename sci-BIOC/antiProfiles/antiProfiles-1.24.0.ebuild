@@ -13,8 +13,8 @@ LICENSE='Artistic-2'
 IUSE="${IUSE-} r_suggests_rcolorbrewer"
 R_SUGGESTS="r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )"
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/locfit-1.5
 	virtual/Matrix
+	>=sci-CRAN/locfit-1.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

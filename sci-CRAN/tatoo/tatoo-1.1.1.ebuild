@@ -20,11 +20,11 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/assertthat
 	sci-CRAN/stringi
-	sci-CRAN/crayon
-	sci-CRAN/magrittr
 	>=sci-CRAN/openxlsx-4.0.0
 	sci-CRAN/data_table
+	sci-CRAN/magrittr
 	sci-CRAN/colt
+	sci-CRAN/crayon
 	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MCMCpack_1.4-9.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/lattice
-	sci-CRAN/mcmc
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.6
 	>=sci-CRAN/coda-0.11.3
-	>=dev-lang/R-3.6
+	sci-CRAN/mcmc
+	virtual/lattice
+	virtual/MASS
 	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-}"

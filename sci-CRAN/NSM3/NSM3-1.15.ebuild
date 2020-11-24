@@ -10,26 +10,26 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/NSM3_1.15.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/binom
-	sci-CRAN/gtools
-	sci-CRAN/BSDA
-	sci-CRAN/nortest
-	sci-CRAN/Hmisc
-	sci-CRAN/combinat
+DEPEND="virtual/survival
+	virtual/MASS
 	sci-CRAN/agricolae
 	sci-CRAN/km_ci
-	sci-CRAN/Rfit
-	sci-CRAN/np
-	sci-CRAN/SemiPar
-	sci-CRAN/SuppDists
-	sci-CRAN/metafor
-	virtual/survival
-	sci-CRAN/fANCOVA
+	sci-CRAN/combinat
+	sci-CRAN/binom
 	sci-CRAN/coin
-	sci-CRAN/partitions
-	virtual/MASS
+	sci-CRAN/gtools
+	sci-CRAN/nortest
 	sci-CRAN/quantreg
-	sci-CRAN/ash
+	sci-CRAN/SemiPar
+	sci-CRAN/partitions
 	sci-CRAN/waveslim
+	sci-CRAN/Hmisc
+	sci-CRAN/BSDA
+	sci-CRAN/metafor
+	sci-CRAN/fANCOVA
+	sci-CRAN/ash
+	sci-CRAN/np
+	sci-CRAN/Rfit
+	sci-CRAN/SuppDists
 "
 RDEPEND="${DEPEND-}"

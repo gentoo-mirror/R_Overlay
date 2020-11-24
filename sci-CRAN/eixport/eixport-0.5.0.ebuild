@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_units? ( sci-CRAN/units )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ncdf4
-	sci-CRAN/sf
-	sci-CRAN/raster
-	sci-CRAN/sp
-	sci-CRAN/cptcity
+DEPEND="sci-CRAN/ncdf4
 	sci-CRAN/data_table
+	sci-CRAN/cptcity
+	sci-CRAN/raster
+	>=dev-lang/R-3.5.0
+	sci-CRAN/sp
+	sci-CRAN/sf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND="virtual/Matrix
-	sci-CRAN/distrom
+DEPEND=">=dev-lang/R-2.15
 	sci-CRAN/gamlr
-	>=dev-lang/R-2.15
+	sci-CRAN/distrom
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

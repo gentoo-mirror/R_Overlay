@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/XML-3.98
-	>=sci-CRAN/dplyr-0.5.0
+DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/plyr-1.8.3
-	>=sci-CRAN/data_table-1.9.6
 	>=sci-CRAN/stringr-1.0
+	>=sci-CRAN/XML-3.98
+	>=sci-CRAN/data_table-1.9.6
+	>=sci-CRAN/dplyr-0.5.0
 	sci-CRAN/ggplot2
+	sci-CRAN/tidyr
+	sci-CRAN/proxy
 	sci-CRAN/magrittr
 	sci-CRAN/lubridate
-	sci-CRAN/tidyr
 	sci-CRAN/dtw
-	>=dev-lang/R-3.0.0
-	sci-CRAN/proxy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

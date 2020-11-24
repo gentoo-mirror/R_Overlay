@@ -19,23 +19,23 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gtable
-	sci-CRAN/digest
-	sci-CRAN/Rcpp
-	sci-CRAN/reshape2
+DEPEND="sci-CRAN/filehash
 	sci-BIOC/BiocParallel
-	sci-CRAN/dplyr
-	sci-CRAN/filehash
+	sci-CRAN/gtable
+	sci-CRAN/reshape2
+	sci-CRAN/Rcpp
+	sci-CRAN/digest
 	sci-CRAN/ggplot2
 	sci-CRAN/ggdendro
-	sci-BIOC/Biobase
-	virtual/Matrix
 	sci-BIOC/BiocGenerics
-	sci-BIOC/Biostrings
-	sci-BIOC/kebabs
 	sci-BIOC/IRanges
 	sci-BIOC/S4Vectors
 	sci-CRAN/igraph
+	virtual/Matrix
+	sci-CRAN/dplyr
+	sci-BIOC/Biobase
+	sci-BIOC/Biostrings
+	sci-BIOC/kebabs
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

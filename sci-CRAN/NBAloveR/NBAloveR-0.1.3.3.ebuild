@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/magrittr
-	sci-CRAN/dplyr
 	sci-CRAN/tidyr
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

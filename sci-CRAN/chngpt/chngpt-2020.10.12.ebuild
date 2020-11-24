@@ -18,9 +18,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/kyotil
-	virtual/MASS
 	virtual/boot
 	virtual/survival
+	virtual/MASS
 	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

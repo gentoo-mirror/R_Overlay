@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics )
 	r_suggests_knitr? ( >=sci-CRAN/knitr-1.11 )
 "
-DEPEND=">=sci-CRAN/scales-0.3.0
+DEPEND=">=sci-CRAN/amap-0.8
 	>=sci-CRAN/shiny-1.0.0
-	>=dev-lang/R-3.5
-	>=sci-CRAN/amap-0.8
+	>=sci-CRAN/scales-0.3.0
 	>=sci-CRAN/circlize-0.3.9
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -26,17 +26,17 @@ R_SUGGESTS="
 	r_suggests_rbiopaxparser? ( sci-BIOC/rBiopaxParser )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/RSQLite
-	sci-CRAN/curl
-	sci-CRAN/yaml
-	sci-CRAN/rappdirs
-	>=sci-BIOC/BiocGenerics-0.15.10
-	>=sci-BIOC/BiocFileCache-1.5.1
+DEPEND=">=sci-BIOC/BiocGenerics-0.15.10
+	sci-BIOC/interactiveDisplayBase
 	sci-CRAN/BiocManager
+	sci-CRAN/rappdirs
+	sci-CRAN/RSQLite
+	>=sci-BIOC/BiocFileCache-1.5.1
+	sci-CRAN/curl
 	>=sci-BIOC/AnnotationDbi-1.31.19
 	sci-BIOC/S4Vectors
-	sci-BIOC/interactiveDisplayBase
 	sci-CRAN/httr
+	sci-CRAN/yaml
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

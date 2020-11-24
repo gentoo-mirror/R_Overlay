@@ -17,16 +17,16 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.3
 	sci-CRAN/Rcpp
-	sci-CRAN/ggm
-	sci-CRAN/igraph
 	sci-BIOC/graph
+	sci-CRAN/ggm
 	sci-CRAN/sfsmisc
 	sci-CRAN/lavaan
 	sci-BIOC/Rgraphviz
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/BH
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

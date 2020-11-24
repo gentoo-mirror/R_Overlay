@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ParamHelpers-1.10
+DEPEND="sci-CRAN/fs
 	>=sci-CRAN/parallelMap-1.3
-	>=sci-CRAN/checkmate-1.8.2
-	sci-CRAN/fs
+	>=sci-CRAN/ParamHelpers-1.10
 	>=sci-CRAN/smoof-1.5.1
+	>=sci-CRAN/checkmate-1.8.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

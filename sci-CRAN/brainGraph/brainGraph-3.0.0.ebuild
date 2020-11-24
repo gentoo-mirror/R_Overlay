@@ -29,15 +29,15 @@ R_SUGGESTS="
 	r_suggests_rgtk2? ( sci-CRAN/RGtk2 )
 	r_suggests_scales? ( sci-CRAN/scales )
 "
-DEPEND="sci-CRAN/abind
-	>=sci-CRAN/igraph-1.2.4
+DEPEND="virtual/lattice
 	virtual/MASS
-	sci-CRAN/doParallel
-	>=sci-CRAN/data_table-1.12.4
-	>=dev-lang/R-3.5.0
-	sci-CRAN/foreach
-	virtual/lattice
-	virtual/Matrix
 	sci-CRAN/permute
+	virtual/Matrix
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/data_table-1.12.4
+	sci-CRAN/abind
+	>=sci-CRAN/igraph-1.2.4
+	sci-CRAN/doParallel
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

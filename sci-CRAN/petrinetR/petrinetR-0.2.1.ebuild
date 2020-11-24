@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/visNetwork
 	sci-CRAN/dplyr
-	sci-CRAN/purrr
+	>=dev-lang/R-3.0.0
 	sci-CRAN/xml2
 	sci-CRAN/DiagrammeR
-	>=dev-lang/R-3.0.0
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-}"

@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/rlang
-	sci-CRAN/dplyr
-	sci-CRAN/tibble
 	sci-CRAN/jsonlite
 	sci-CRAN/httr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

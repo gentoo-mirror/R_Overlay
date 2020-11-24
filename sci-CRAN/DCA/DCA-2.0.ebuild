@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DCA_2.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/elasticnet
+DEPEND="sci-CRAN/PMA
 	sci-CRAN/locfdr
-	sci-CRAN/coin
-	sci-CRAN/PMA
 	sci-CRAN/GPArotation
+	sci-CRAN/coin
+	sci-CRAN/elasticnet
 	sci-CRAN/modeest
 	sci-CRAN/mvtnorm
 "

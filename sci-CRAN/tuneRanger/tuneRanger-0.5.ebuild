@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.2
+	>=sci-CRAN/BBmisc-1.11
 	>=sci-CRAN/ranger-0.8.0
+	>=sci-CRAN/smoof-1.5.1
+	>=sci-CRAN/ParamHelpers-1.10
 	>=sci-CRAN/lubridate-1.6.0
 	>=sci-CRAN/mlrMBO-1.1.1
 	>=sci-CRAN/lhs-0.14
 	>=sci-CRAN/mlr-2.11
-	>=sci-CRAN/smoof-1.5.1
-	>=sci-CRAN/ParamHelpers-1.10
-	>=sci-CRAN/BBmisc-1.11
 	>=sci-CRAN/DiceKriging-1.5.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

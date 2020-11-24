@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RcppXts_0.0.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/Rcpp-0.10.2
-	>=sci-CRAN/xts-0.9.2
+DEPEND=">=sci-CRAN/xts-0.9.2
+	>=sci-CRAN/Rcpp-0.10.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

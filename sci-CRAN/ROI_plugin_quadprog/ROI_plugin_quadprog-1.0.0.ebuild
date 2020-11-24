@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.plugin.quadprog_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/quadprog
-	>=sci-CRAN/ROI-0.3.0
+DEPEND=">=sci-CRAN/ROI-0.3.0
+	sci-CRAN/quadprog
 	sci-CRAN/slam
 "
 RDEPEND="${DEPEND-}"

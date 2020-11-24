@@ -13,16 +13,16 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
 DEPEND=">=dev-lang/R-3.2.0
+	>=sci-CRAN/LSDinterface-0.4.0
+	sci-CRAN/diptest
 	sci-CRAN/abind
 	sci-CRAN/tseries
-	sci-CRAN/lawstat
-	>=sci-CRAN/LSDinterface-0.4.0
-	sci-CRAN/car
-	sci-CRAN/randtoolbox
-	sci-CRAN/rgenoud
-	sci-CRAN/DiceKriging
-	sci-CRAN/kSamples
-	sci-CRAN/diptest
 	sci-CRAN/sensitivity
+	sci-CRAN/car
+	sci-CRAN/DiceKriging
+	sci-CRAN/randtoolbox
+	sci-CRAN/kSamples
+	sci-CRAN/lawstat
+	sci-CRAN/rgenoud
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

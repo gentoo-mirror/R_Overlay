@@ -33,17 +33,17 @@ R_SUGGESTS="
 	r_suggests_statmod? ( sci-CRAN/statmod )
 	r_suggests_urca? ( sci-CRAN/urca )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	virtual/nlme
-	virtual/MASS
-	sci-CRAN/sandwich
+DEPEND="virtual/nlme
 	sci-CRAN/zoo
+	sci-CRAN/Rdpack
+	sci-CRAN/maxLik
+	virtual/lattice
+	>=dev-lang/R-3.1.0
+	virtual/MASS
+	virtual/Matrix
+	sci-CRAN/sandwich
 	sci-CRAN/lmtest
 	sci-CRAN/Formula
-	virtual/Matrix
-	virtual/lattice
-	sci-CRAN/maxLik
-	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

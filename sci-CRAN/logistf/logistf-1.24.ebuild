@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/logistf_1.24.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	virtual/mgcv
 	sci-CRAN/mice
 	sci-CRAN/formula_tools
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

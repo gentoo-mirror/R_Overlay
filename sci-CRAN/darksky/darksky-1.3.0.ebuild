@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/gridExtra
-	>=dev-lang/R-3.2.0
+DEPEND="sci-CRAN/httr
 	sci-CRAN/gtable
 	sci-CRAN/ggplot2
-	sci-CRAN/httr
+	sci-CRAN/gridExtra
+	>=dev-lang/R-3.2.0
 	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

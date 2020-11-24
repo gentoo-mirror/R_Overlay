@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/magrittr
-	>=dev-lang/R-3.1.0
+DEPEND=">=sci-CRAN/leaflet-2.0.0
 	sci-CRAN/htmltools
-	>=sci-CRAN/leaflet-2.0.0
+	sci-CRAN/magrittr
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

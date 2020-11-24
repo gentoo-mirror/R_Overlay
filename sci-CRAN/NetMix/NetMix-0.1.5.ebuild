@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_network? ( >=sci-CRAN/network-1.13 )
 	r_suggests_scales? ( >=sci-CRAN/scales-1.0.0 )
 "
-DEPEND="virtual/MASS
-	>=sci-CRAN/Rcpp-1.0.2
-	>=sci-CRAN/clue-0.3.54
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/RSpectra-0.14.0
-	>=sci-CRAN/gtools-3.8.1
+DEPEND=">=sci-CRAN/gtools-3.8.1
+	>=sci-CRAN/poisbinom-1.0.1
 	>=sci-CRAN/igraph-1.2.4.1
 	>=sci-CRAN/lda-1.4.2
+	>=sci-CRAN/clue-0.3.54
+	>=dev-lang/R-3.5.0
 	virtual/Matrix
-	>=sci-CRAN/poisbinom-1.0.1
+	virtual/MASS
+	>=sci-CRAN/Rcpp-1.0.2
+	>=sci-CRAN/RSpectra-0.14.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

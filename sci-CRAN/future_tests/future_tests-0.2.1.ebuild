@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/future.tests_0.2.1.tar.gz"
 LICENSE='LGPL-2.1+'
 
-DEPEND="sci-CRAN/cli
-	sci-CRAN/prettyunits
-	sci-CRAN/sessioninfo
+DEPEND=">=sci-CRAN/future-1.11.0
+	sci-CRAN/cli
 	sci-CRAN/crayon
-	>=sci-CRAN/future-1.11.0
+	sci-CRAN/sessioninfo
+	sci-CRAN/prettyunits
 "
 RDEPEND="${DEPEND-}"

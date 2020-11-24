@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/W2CWM2C_2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.14.1
-	sci-CRAN/waveslim
-	sci-CRAN/wavemulcor
 	sci-CRAN/colorspace
+	sci-CRAN/wavemulcor
+	sci-CRAN/waveslim
 "
 RDEPEND="${DEPEND-}"

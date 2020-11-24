@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/reshape
-	>=sci-CRAN/princurve-2.1.2
 	sci-CRAN/rgl
+	>=sci-CRAN/princurve-2.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

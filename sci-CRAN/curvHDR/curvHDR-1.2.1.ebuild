@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/curvHDR_1.2-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/misc3d
-	sci-CRAN/ptinpoly
+DEPEND="sci-CRAN/feature
 	sci-CRAN/hdrcde
-	sci-CRAN/feature
 	sci-CRAN/ks
 	sci-CRAN/geometry
+	sci-CRAN/misc3d
+	sci-CRAN/ptinpoly
 	sci-CRAN/rgl
 	virtual/KernSmooth
 "

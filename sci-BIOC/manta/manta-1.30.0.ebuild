@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_plotrix? ( sci-CRAN/plotrix )
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 "
-DEPEND=">=sci-BIOC/edgeR-2.5.13
-	>=sci-CRAN/caroline-0.6.6
+DEPEND=">=sci-CRAN/caroline-0.6.6
 	sci-CRAN/Hmisc
+	>=sci-BIOC/edgeR-2.5.13
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/survivalMPL_0.2.tar.gz"
 LICENSE='LGPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.3
-	virtual/MASS
 	virtual/survival
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/openxlsx
-	sci-CRAN/GGally
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/forcats
-	sci-CRAN/purrr
-	>=dev-lang/R-3.5
+	sci-CRAN/GGally
 	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
+	sci-CRAN/openxlsx
+	sci-CRAN/purrr
 	sci-CRAN/tibble
 	sci-CRAN/tidyr
 	sci-CRAN/gridExtra

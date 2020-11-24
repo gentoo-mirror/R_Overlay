@@ -13,8 +13,8 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_mlbench"
 R_SUGGESTS="r_suggests_mlbench? ( sci-CRAN/mlbench )"
 DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/RWeka
 	sci-CRAN/partykit
+	sci-CRAN/RWeka
 	sci-CRAN/stringr
 	sci-CRAN/survey
 	sci-CRAN/reghelper

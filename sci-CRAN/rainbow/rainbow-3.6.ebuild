@@ -14,10 +14,10 @@ IUSE="${IUSE-} r_suggests_forecast"
 R_SUGGESTS="r_suggests_forecast? ( sci-CRAN/forecast )"
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/ks
-	virtual/cluster
-	sci-CRAN/pcaPP
 	virtual/MASS
+	sci-CRAN/pcaPP
 	sci-CRAN/hdrcde
+	virtual/cluster
 	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_gridsvg"
 R_SUGGESTS="r_suggests_gridsvg? ( sci-CRAN/gridSVG )"
-DEPEND=">=dev-lang/R-2.12.0
-	sci-CRAN/jpeg
-	sci-CRAN/png
+DEPEND="sci-CRAN/jpeg
 	sci-CRAN/base64enc
 	sci-CRAN/XML
+	>=dev-lang/R-2.12.0
+	sci-CRAN/png
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

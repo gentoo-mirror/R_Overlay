@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcr? ( >=sci-CRAN/vcr-0.2.6 )
 "
-DEPEND="sci-CRAN/tibble
-	sci-CRAN/shiny
-	sci-CRAN/stringr
-	sci-CRAN/miniUI
-	>=sci-CRAN/xml2-1.1.1
+DEPEND=">=sci-CRAN/xml2-1.1.1
 	>=sci-CRAN/crul-0.7.4
 	>=sci-CRAN/jsonlite-1.5
-	sci-CRAN/plyr
 	>=sci-CRAN/dplyr-0.7.4
+	sci-CRAN/plyr
 	sci-CRAN/R6
+	sci-CRAN/shiny
+	sci-CRAN/stringr
 	sci-CRAN/DT
+	sci-CRAN/tibble
+	sci-CRAN/miniUI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

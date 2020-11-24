@@ -10,21 +10,21 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Biocomb_0.4.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/rgl
+DEPEND="virtual/class
 	sci-CRAN/RWeka
+	virtual/nnet
+	sci-CRAN/rgl
+	>=dev-lang/R-2.13.0
 	virtual/MASS
 	sci-CRAN/FSelector
-	virtual/nnet
-	sci-CRAN/pROC
-	virtual/class
-	sci-CRAN/arules
-	>=dev-lang/R-2.13.0
-	>=sci-CRAN/Rcpp-0.12.1
-	sci-CRAN/e1071
-	sci-CRAN/gtools
-	sci-CRAN/randomForest
 	sci-CRAN/pamr
-	virtual/rpart
 	sci-CRAN/ROCR
+	sci-CRAN/randomForest
+	virtual/rpart
+	sci-CRAN/gtools
+	sci-CRAN/e1071
+	sci-CRAN/pROC
+	sci-CRAN/arules
+	>=sci-CRAN/Rcpp-0.12.1
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

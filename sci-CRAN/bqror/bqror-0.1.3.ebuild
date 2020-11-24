@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bqror_0.1.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/GIGrvg
-	sci-CRAN/invgamma
-	dev-lang/R[tk]
-	virtual/MASS
-	sci-CRAN/truncnorm
-	sci-CRAN/pracma
+DEPEND="virtual/MASS
 	sci-CRAN/NPflow
+	sci-CRAN/GIGrvg
+	dev-lang/R[tk]
+	sci-CRAN/pracma
+	sci-CRAN/truncnorm
+	sci-CRAN/invgamma
 "
 RDEPEND="${DEPEND-}"

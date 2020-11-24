@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/intervals
 	virtual/MASS
-	sci-CRAN/glmnet
 	>=sci-CRAN/Rcpp-0.12.1
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

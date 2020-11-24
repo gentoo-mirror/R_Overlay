@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/geesmv_1.3.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	virtual/Matrix
 	virtual/nlme
 	virtual/MASS
+	virtual/Matrix
 	sci-CRAN/gee
 "
 RDEPEND="${DEPEND-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BNPmix_0.2.6.tar.gz"
 LICENSE='LGPL-3'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/coda
-	sci-CRAN/Rcpp
-	>=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/coda
 	sci-CRAN/ggpubr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/RcppArmadillo

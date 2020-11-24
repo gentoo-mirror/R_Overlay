@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/rjags-4.6
-	>=sci-CRAN/coda-0.13
-	sci-CRAN/ggplot2
 	sci-CRAN/igraph
+	sci-CRAN/ggplot2
+	>=sci-CRAN/coda-0.13
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

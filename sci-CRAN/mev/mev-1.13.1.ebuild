@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 	r_suggests_revdbayes? ( sci-CRAN/revdbayes )
 "
-DEPEND="sci-CRAN/nleqslv
+DEPEND="sci-CRAN/evd
 	>=sci-CRAN/nloptr-1.2.0
-	>=sci-CRAN/Rcpp-0.12.16
-	virtual/boot
-	sci-CRAN/evd
-	sci-CRAN/alabama
 	>=sci-CRAN/TruncatedNormal-1.1
+	sci-CRAN/nleqslv
+	>=sci-CRAN/Rcpp-0.12.16
+	sci-CRAN/alabama
+	virtual/boot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

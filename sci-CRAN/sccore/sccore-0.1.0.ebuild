@@ -16,26 +16,26 @@ R_SUGGESTS="
 	r_suggests_rmumps? ( sci-CRAN/rmumps )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/dplyr
-	virtual/Matrix
-	sci-CRAN/ggrepel
-	sci-CRAN/pROC
-	sci-CRAN/scales
-	sci-CRAN/withr
-	sci-CRAN/igraph
-	sci-CRAN/magrittr
-	sci-CRAN/uwot
+DEPEND="virtual/Matrix
 	>=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
+	sci-CRAN/igraph
+	sci-CRAN/ggrepel
+	sci-CRAN/magrittr
+	sci-CRAN/withr
+	sci-CRAN/dplyr
 	sci-CRAN/rlang
+	sci-CRAN/ggplot2
+	sci-CRAN/uwot
+	sci-CRAN/pROC
+	sci-CRAN/Rcpp
+	sci-CRAN/scales
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	sci-CRAN/RcppProgress
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "
 

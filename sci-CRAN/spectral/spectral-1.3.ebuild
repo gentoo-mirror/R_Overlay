@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/spectral_1.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/rasterImage
-	>=dev-lang/R-2.15.0
 	virtual/lattice
+	>=dev-lang/R-2.15.0
 "
 RDEPEND="${DEPEND-}"

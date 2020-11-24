@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_usaboundaries? ( sci-CRAN/USAboundaries )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/RSQLite
-	sci-CRAN/rappdirs
-	sci-CRAN/dbplyr
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/dplyr
 	>=sci-CRAN/sf-0.6
+	sci-CRAN/dbplyr
+	sci-CRAN/rappdirs
+	sci-CRAN/httr
+	sci-CRAN/RSQLite
 	sci-CRAN/units
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

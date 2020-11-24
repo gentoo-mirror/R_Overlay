@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6
+	sci-CRAN/tidyr
 	>=sci-CRAN/data_table-1.11.8
 	>=sci-CRAN/wyz_code_offensiveProgramming-1.1.17
-	sci-CRAN/tidyr
 	>=sci-CRAN/lubridate-1.7.4
 	sci-CRAN/crayon
 "

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Rquake_2.4-0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/RSEIS
-	sci-CRAN/RPMG
-	sci-CRAN/MBA
-	>=dev-lang/R-2.12
-	sci-CRAN/GEOmap
-	sci-CRAN/minpack_lm
+DEPEND="sci-CRAN/GEOmap
 	sci-CRAN/rgl
+	sci-CRAN/minpack_lm
+	sci-CRAN/RSEIS
+	>=dev-lang/R-2.12
+	sci-CRAN/MBA
+	sci-CRAN/RPMG
 "
 RDEPEND="${DEPEND-}"

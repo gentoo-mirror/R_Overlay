@@ -20,26 +20,26 @@ R_SUGGESTS="
 	r_suggests_semplot? ( sci-CRAN/semPlot )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/psych-1.7.5
-	virtual/nnet
-	sci-CRAN/lavaan
-	>=dev-lang/R-3.2
-	sci-CRAN/BayesFactor
-	>=sci-CRAN/car-3.0.0
-	>=sci-CRAN/ggplot2-2.2.1
+DEPEND="sci-CRAN/GGally
+	sci-CRAN/mvnormtest
+	sci-CRAN/ggridges
 	>=sci-CRAN/emmeans-1.1.3
-	sci-CRAN/vcdExtra
 	sci-CRAN/GPArotation
 	virtual/MASS
-	sci-CRAN/mvnormtest
-	>=sci-CRAN/afex-0.20.2
-	sci-CRAN/ROCR
-	sci-CRAN/ggridges
-	sci-CRAN/GGally
-	sci-CRAN/multcomp
-	>=sci-CRAN/jmvcore-1.2.19
+	sci-CRAN/lavaan
 	sci-CRAN/R6
-	sci-CRAN/PMCMR
+	>=sci-CRAN/psych-1.7.5
+	>=sci-CRAN/afex-0.20.2
+	virtual/nnet
+	>=sci-CRAN/car-3.0.0
 	sci-CRAN/vcd
+	>=sci-CRAN/jmvcore-1.2.19
+	sci-CRAN/ROCR
+	sci-CRAN/vcdExtra
+	sci-CRAN/BayesFactor
+	>=dev-lang/R-3.2
+	>=sci-CRAN/ggplot2-2.2.1
+	sci-CRAN/PMCMR
+	sci-CRAN/multcomp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

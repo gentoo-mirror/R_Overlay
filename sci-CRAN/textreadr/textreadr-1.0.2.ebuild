@@ -12,16 +12,16 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/xml2
-	sci-CRAN/antiword
-	>=dev-lang/R-3.2.2
-	sci-CRAN/data_table
-	sci-CRAN/pdftools
-	sci-CRAN/curl
-	sci-CRAN/readxl
-	sci-CRAN/rvest
+DEPEND=">=dev-lang/R-3.2.2
 	sci-CRAN/striprtf
+	sci-CRAN/data_table
+	sci-CRAN/rvest
+	sci-CRAN/antiword
+	sci-CRAN/curl
+	sci-CRAN/pdftools
+	sci-CRAN/readxl
 	sci-CRAN/textshape
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

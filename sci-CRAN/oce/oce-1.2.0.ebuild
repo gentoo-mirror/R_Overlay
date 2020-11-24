@@ -36,9 +36,9 @@ R_SUGGESTS="
 	r_suggests_xml? ( sci-CRAN/XML )
 "
 DEPEND=">=dev-lang/R-2.15
-	sci-CRAN/testthat
 	sci-CRAN/gsw
 	sci-CRAN/Rcpp
+	sci-CRAN/testthat
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

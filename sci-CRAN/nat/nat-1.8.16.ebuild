@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml? ( sci-CRAN/XML )
 "
-DEPEND=">=sci-CRAN/igraph-0.7.1
-	>=sci-CRAN/rgl-0.98.1
-	>=sci-CRAN/nat_utils-0.4.2
-	sci-CRAN/nabor
-	>=dev-lang/R-2.15.1
-	>=sci-CRAN/filehash-2.3
-	sci-CRAN/digest
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/digest
 	sci-CRAN/yaml
+	>=sci-CRAN/nat_utils-0.4.2
+	sci-CRAN/plyr
+	>=dev-lang/R-2.15.1
+	sci-CRAN/nabor
+	>=sci-CRAN/igraph-0.7.1
+	>=sci-CRAN/rgl-0.98.1
+	>=sci-CRAN/filehash-2.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

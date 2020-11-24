@@ -28,10 +28,10 @@ R_SUGGESTS="
 	r_suggests_xts? ( sci-CRAN/xts )
 "
 DEPEND="virtual/lattice
-	sci-CRAN/zoo
-	>=sci-CRAN/sp-0.9.72
 	sci-CRAN/FNN
+	sci-CRAN/zoo
 	>=sci-CRAN/spacetime-1.0.0
+	>=sci-CRAN/sp-0.9.72
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

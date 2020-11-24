@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/glmnet
-	sci-CRAN/grf
 	sci-CRAN/ggplot2
-	sci-CRAN/neuralnet
 	sci-CRAN/progress
+	sci-CRAN/neuralnet
+	sci-CRAN/grf
 	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

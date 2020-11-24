@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/Rcpp-1.0.0
 	>=sci-CRAN/wrapr-2.0.4
+	>=sci-CRAN/Rcpp-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

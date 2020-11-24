@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/aceEditor_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/htmltools
-	sci-CRAN/reactR
 	sci-CRAN/rstudioapi
+	sci-CRAN/reactR
 	sci-CRAN/htmlwidgets
 "
 RDEPEND="${DEPEND-}"

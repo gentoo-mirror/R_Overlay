@@ -21,9 +21,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/sn
-	sci-CRAN/ggplot2
-	sci-CRAN/TMB
 	sci-CRAN/data_table
+	sci-CRAN/TMB
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/RcppEigen

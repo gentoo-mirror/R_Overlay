@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_randomforestsrc"
 R_SUGGESTS="r_suggests_randomforestsrc? ( sci-CRAN/randomForestSRC )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ipred
 	virtual/survival
-	sci-CRAN/prodlim
+	sci-CRAN/ipred
 	sci-CRAN/partykit
+	sci-CRAN/prodlim
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

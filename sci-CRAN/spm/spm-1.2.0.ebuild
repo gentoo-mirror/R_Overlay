@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/randomForest
-	sci-CRAN/gbm
-	sci-CRAN/psy
 	sci-CRAN/sp
+	sci-CRAN/gbm
 	sci-CRAN/gstat
+	sci-CRAN/psy
 	sci-CRAN/biomod2
 	sci-CRAN/ranger
 "

@@ -47,12 +47,12 @@ R_SUGGESTS="
 	r_suggests_xts? ( sci-CRAN/xts )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="sci-CRAN/tidyr
-	>=sci-CRAN/dplyr-0.3
-	sci-CRAN/gridExtra
-	sci-CRAN/scales
-	>=sci-CRAN/ggplot2-2.0.0
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/gridExtra
 	sci-CRAN/tibble
+	>=sci-CRAN/ggplot2-2.0.0
+	>=sci-CRAN/dplyr-0.3
+	sci-CRAN/tidyr
+	sci-CRAN/scales
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

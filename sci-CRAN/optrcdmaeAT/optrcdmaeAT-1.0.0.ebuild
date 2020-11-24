@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/optrcdmaeAT_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	virtual/Matrix
+DEPEND=">=dev-lang/R-3.3.2
+	virtual/MASS
 	sci-CRAN/igraph
 	dev-lang/R[tk]
-	>=dev-lang/R-3.3.2
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

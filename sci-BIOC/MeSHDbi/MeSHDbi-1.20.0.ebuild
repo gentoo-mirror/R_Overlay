@@ -12,10 +12,10 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
-DEPEND=">=sci-BIOC/AnnotationDbi-1.31.19
-	sci-BIOC/Biobase
+DEPEND=">=dev-lang/R-3.0.1
 	>=sci-BIOC/BiocGenerics-0.15.10
+	sci-BIOC/Biobase
 	sci-CRAN/RSQLite
-	>=dev-lang/R-3.0.1
+	>=sci-BIOC/AnnotationDbi-1.31.19
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,11 +12,11 @@ LICENSE='Apache-2.0'
 
 IUSE="${IUSE-} r_suggests_kernsmooth"
 R_SUGGESTS="r_suggests_kernsmooth? ( virtual/KernSmooth )"
-DEPEND="sci-CRAN/ltm
-	virtual/MASS
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
+	sci-CRAN/ltm
 	sci-CRAN/mclust
+	virtual/MASS
 	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="virtual/cluster
 	sci-CRAN/rvest
-	sci-CRAN/reshape2
-	virtual/cluster
-	sci-CRAN/doSNOW
-	>=dev-lang/R-3.1.0
-	sci-CRAN/foreach
-	sci-BIOC/impute
-	sci-CRAN/mQTL
 	sci-CRAN/xml2
+	sci-CRAN/mQTL
+	sci-CRAN/doSNOW
+	sci-CRAN/reshape2
 	sci-CRAN/data_table
+	sci-CRAN/foreach
 	sci-CRAN/gridExtra
-	virtual/MASS
-	sci-CRAN/Rfast
 	sci-CRAN/missForest
+	virtual/MASS
+	sci-CRAN/ggplot2
+	sci-CRAN/Rfast
+	>=dev-lang/R-3.1.0
+	sci-BIOC/impute
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

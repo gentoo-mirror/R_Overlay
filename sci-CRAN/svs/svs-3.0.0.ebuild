@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_pvclust? ( sci-CRAN/pvclust )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/gtools
 	virtual/Matrix
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

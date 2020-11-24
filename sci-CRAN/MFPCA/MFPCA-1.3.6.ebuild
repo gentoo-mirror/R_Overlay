@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_fda? ( sci-CRAN/fda )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/foreach
-	sci-CRAN/irlba
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/abind
+	sci-CRAN/foreach
 	>=sci-CRAN/funData-1.3.4
+	>=dev-lang/R-3.2.0
+	sci-CRAN/irlba
 	virtual/Matrix
-	sci-CRAN/plyr
 	virtual/mgcv
 "
 RDEPEND="${DEPEND-}

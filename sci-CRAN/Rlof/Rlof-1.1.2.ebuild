@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/Rlof_1.1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

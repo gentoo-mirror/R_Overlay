@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
 DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/curl
-	sci-CRAN/data_table
 	sci-CRAN/WikidataR
+	sci-CRAN/data_table
 	>=sci-CRAN/crul-0.3.4
+	sci-CRAN/curl
 	sci-CRAN/tibble
 	sci-CRAN/jsonlite
 	sci-CRAN/xml2

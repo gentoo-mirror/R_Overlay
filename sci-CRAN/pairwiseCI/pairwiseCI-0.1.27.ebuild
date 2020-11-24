@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pairwiseCI_0.1-27.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/MCPAN
+DEPEND="virtual/boot
 	>=sci-CRAN/coin-1.3.0
 	sci-CRAN/mcprofile
-	virtual/boot
+	sci-CRAN/MCPAN
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

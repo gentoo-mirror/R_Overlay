@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="virtual/lattice
+	sci-CRAN/systemfit
+	sci-CRAN/statmod
 	sci-CRAN/actuar
 	virtual/Matrix
-	sci-CRAN/systemfit
 	sci-CRAN/tweedie
-	sci-CRAN/statmod
 	>=sci-CRAN/cplm-0.7.3
 	sci-CRAN/ggplot2
 	virtual/MASS

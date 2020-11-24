@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/mvtnorm >=dev-lang/R-3.0.0 virtual/Matrix dev-lang/R
+DEPEND=virtual/Matrix >=dev-lang/R-3.0.0 sci-CRAN/mvtnorm dev-lang/R
 DESCRIPTION=Simultaneous Inference for Multi... (see metadata)
 EAPI=7
 IUSE=r_suggests_geepack r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=sci-CRAN/mvtnorm >=dev-lang/R-3.0.0 virtual/Matrix r_suggests_geepack? ( sci-CRAN/geepack ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+RDEPEND=virtual/Matrix >=dev-lang/R-3.0.0 sci-CRAN/mvtnorm r_suggests_geepack? ( sci-CRAN/geepack ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/mmmgee_1.20.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=7a816f28d059af4b5bea6d2a9667f3d9
+_md5_=e037fc4d72cd218437057ab261fd312a

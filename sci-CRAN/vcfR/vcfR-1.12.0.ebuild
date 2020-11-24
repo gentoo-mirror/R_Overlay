@@ -24,17 +24,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/memuse
 	sci-CRAN/pinfsc50
-	sci-CRAN/magrittr
+	sci-CRAN/tibble
 	sci-CRAN/stringr
 	sci-CRAN/vegan
 	sci-CRAN/viridisLite
+	>=dev-lang/R-3.0.1
 	sci-CRAN/ape
-	sci-CRAN/dplyr
-	sci-CRAN/tibble
+	sci-CRAN/magrittr
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

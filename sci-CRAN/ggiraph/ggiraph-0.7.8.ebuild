@@ -24,14 +24,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( >=sci-CRAN/xml2-1.0.0 )
 "
-DEPEND="sci-CRAN/htmltools
+DEPEND=">=sci-CRAN/ggplot2-3.3.0
 	>=sci-CRAN/Rcpp-0.12.12
-	sci-CRAN/uuid
-	sci-CRAN/rlang
-	>=sci-CRAN/gdtools-0.2.1
 	>=sci-CRAN/htmlwidgets-0.6
-	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/htmltools
+	>=sci-CRAN/gdtools-0.2.1
 	sci-CRAN/purrr
+	sci-CRAN/rlang
+	sci-CRAN/uuid
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

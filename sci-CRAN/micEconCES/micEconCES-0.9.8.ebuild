@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_maxlik? ( >=sci-CRAN/maxLik-0.8.0 )
 	r_suggests_xtable? ( >=sci-CRAN/xtable-1.5.6 )
 "
-DEPEND=">=sci-CRAN/systemfit-1.0.0
-	>=sci-CRAN/DEoptim-2.0.4
+DEPEND=">=sci-CRAN/DEoptim-2.0.4
 	>=sci-CRAN/micEcon-0.6.1
 	>=sci-CRAN/miscTools-0.6.1
-	>=sci-CRAN/car-2.0.0
 	>=sci-CRAN/minpack_lm-1.1.4
+	>=sci-CRAN/car-2.0.0
+	>=sci-CRAN/systemfit-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

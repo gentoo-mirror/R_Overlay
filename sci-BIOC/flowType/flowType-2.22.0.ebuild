@@ -12,11 +12,11 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_xtable"
 R_SUGGESTS="r_suggests_xtable? ( sci-CRAN/xtable )"
-DEPEND=">=sci-CRAN/Rcpp-0.10.4
+DEPEND=">=sci-CRAN/BH-1.51.0.3
 	sci-BIOC/flowMeans
-	sci-BIOC/flowCore
 	sci-BIOC/Biobase
-	>=sci-CRAN/BH-1.51.0.3
+	>=sci-CRAN/Rcpp-0.10.4
+	sci-BIOC/flowCore
 	sci-CRAN/sfsmisc
 	sci-CRAN/rrcov
 	sci-BIOC/flowClust

@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/PublicationBias_2.2.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/metafor
-	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
-	sci-CRAN/MetaUtility
-	sci-CRAN/robumeta
 	sci-CRAN/Rdpack
+	sci-CRAN/ggplot2
+	sci-CRAN/robumeta
+	sci-CRAN/MetaUtility
 "
 RDEPEND="${DEPEND-}"

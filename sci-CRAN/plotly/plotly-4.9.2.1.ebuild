@@ -40,27 +40,27 @@ R_SUGGESTS="
 	r_suggests_shiny? ( >=sci-CRAN/shiny-1.1.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.0.0
-	sci-CRAN/tibble
-	sci-CRAN/viridisLite
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/httr
-	>=sci-CRAN/htmlwidgets-1.3
+	sci-CRAN/base64enc
+	>=sci-CRAN/lazyeval-0.2.0
+	>=sci-CRAN/ggplot2-3.0.0
 	sci-CRAN/RColorBrewer
-	sci-CRAN/rlang
+	sci-CRAN/digest
+	>=sci-CRAN/htmltools-0.3.6
+	sci-CRAN/scales
+	sci-CRAN/tidyr
+	sci-CRAN/hexbin
 	sci-CRAN/purrr
 	sci-CRAN/promises
-	sci-CRAN/scales
-	sci-CRAN/digest
-	sci-CRAN/base64enc
 	sci-CRAN/magrittr
-	>=sci-CRAN/htmltools-0.3.6
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/lazyeval-0.2.0
-	sci-CRAN/dplyr
-	sci-CRAN/tidyr
-	>=sci-CRAN/jsonlite-1.6
-	sci-CRAN/hexbin
+	sci-CRAN/rlang
 	sci-CRAN/crosstalk
+	>=sci-CRAN/jsonlite-1.6
+	sci-CRAN/tibble
+	sci-CRAN/viridisLite
+	>=sci-CRAN/htmlwidgets-1.3
+	sci-CRAN/dplyr
 	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

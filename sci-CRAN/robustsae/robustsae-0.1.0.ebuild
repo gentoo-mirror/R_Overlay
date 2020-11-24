@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/robustsae_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/mvtnorm
-	sci-CRAN/MCMCpack
 	sci-CRAN/coda
-	virtual/lattice
+	sci-CRAN/mvtnorm
 	sci-CRAN/pscl
+	virtual/lattice
+	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-}"

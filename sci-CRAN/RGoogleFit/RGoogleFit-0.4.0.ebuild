@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RGoogleFit_0.4.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/bit64
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/RCurl
-	sci-CRAN/jsonlite
+	sci-CRAN/bit64
 	sci-CRAN/httr
+	>=dev-lang/R-3.0
 "
 RDEPEND="${DEPEND-}"

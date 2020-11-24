@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/survey
+DEPEND="sci-CRAN/survey
 	virtual/mgcv
+	>=dev-lang/R-3.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

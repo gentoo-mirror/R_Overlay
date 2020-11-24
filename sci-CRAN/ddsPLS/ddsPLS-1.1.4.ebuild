@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/RColorBrewer
-	sci-CRAN/Rdpack
-	sci-CRAN/foreach
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/doParallel
-	sci-CRAN/corrplot
+	sci-CRAN/Rdpack
 	>=sci-CRAN/Rcpp-0.12.18
+	sci-CRAN/foreach
+	sci-CRAN/RColorBrewer
+	sci-CRAN/corrplot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

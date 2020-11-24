@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/reshape2-1.4.3
 	>=sci-CRAN/eha-2.5.1
-	>=dev-lang/R-3.5.0
 	virtual/survival
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/ggplot2-2.2.1
 "
 RDEPEND="${DEPEND-}"

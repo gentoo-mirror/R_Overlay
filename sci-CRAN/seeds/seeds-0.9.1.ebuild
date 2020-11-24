@@ -15,22 +15,22 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/callr
-	>=sci-CRAN/deSolve-1.20
-	sci-CRAN/R_utils
-	>=sci-CRAN/Deriv-3.8.4
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/Ryacas
+	>=sci-CRAN/pracma-2.1.4
 	sci-CRAN/mvtnorm
-	sci-CRAN/tidyr
+	sci-CRAN/callr
 	virtual/Matrix
 	sci-CRAN/ggplot2
+	sci-CRAN/tidyr
+	>=sci-CRAN/Deriv-3.8.4
+	>=sci-CRAN/deSolve-1.20
 	sci-CRAN/Hmisc
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/pracma-2.1.4
-	sci-CRAN/Ryacas
 	sci-CRAN/coda
+	sci-CRAN/R_utils
+	sci-CRAN/dplyr
 	virtual/MASS
 	sci-CRAN/statmod
-	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/hybridModels_0.3.7.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.1
-	sci-CRAN/foreach
-	sci-CRAN/doRNG
 	sci-CRAN/doParallel
 	sci-CRAN/ggplot2
+	sci-CRAN/foreach
+	sci-CRAN/doRNG
 	sci-CRAN/GillespieSSA
 	sci-CRAN/reshape2
 	sci-CRAN/stringr

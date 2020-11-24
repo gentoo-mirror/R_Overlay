@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_lazybar? ( sci-CRAN/lazybar )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/magrittr
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/ggplot2
 	sci-CRAN/expm
-	sci-CRAN/mvtnorm
 	virtual/Matrix
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

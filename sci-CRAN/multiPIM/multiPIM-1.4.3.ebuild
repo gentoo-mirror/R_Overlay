@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/multiPIM_1.4-3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/lars-0.9.8
-	sci-CRAN/polspline
 	sci-CRAN/penalized
 	virtual/rpart
+	sci-CRAN/polspline
 "
 RDEPEND="${DEPEND-}"

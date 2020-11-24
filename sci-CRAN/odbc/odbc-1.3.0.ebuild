@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/bit64
-	>=sci-CRAN/Rcpp-0.12.11
+DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/blob-1.2.0
-	>=sci-CRAN/DBI-1.0.0
-	>=dev-lang/R-3.2.0
+	sci-CRAN/bit64
 	sci-CRAN/hms
+	>=sci-CRAN/DBI-1.0.0
+	>=sci-CRAN/Rcpp-0.12.11
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}

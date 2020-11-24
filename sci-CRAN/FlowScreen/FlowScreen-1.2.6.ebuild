@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/changepoint
-	sci-CRAN/evir
 	sci-CRAN/zyp
+	sci-CRAN/evir
 "
 RDEPEND="${DEPEND-}"

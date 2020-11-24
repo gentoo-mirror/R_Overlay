@@ -21,12 +21,12 @@ R_SUGGESTS="
 	r_suggests_randomforest? ( sci-CRAN/randomForest )
 "
 DEPEND=">=dev-lang/R-3.2.4
-	sci-BIOC/Biobase
-	virtual/boot
-	sci-CRAN/lme4
 	sci-BIOC/CMA
 	virtual/lattice
-	sci-BIOC/limma
+	sci-BIOC/Biobase
+	sci-CRAN/lme4
 	sci-CRAN/mvtnorm
+	sci-BIOC/limma
+	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

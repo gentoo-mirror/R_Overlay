@@ -24,14 +24,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 )
 "
 DEPEND=">=sci-CRAN/lubridate-1.7.9
-	>=sci-CRAN/miniUI-0.1.1.1
-	>=sci-CRAN/clipr-0.7.0
-	>=sci-CRAN/shiny-1.5.0
-	>=sci-CRAN/cli-2.0.2
-	>=dev-lang/R-3.6
-	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/httr-1.4.2
 	>=sci-CRAN/jsonlite-1.7.0
+	>=sci-CRAN/httr-1.4.2
+	>=sci-CRAN/stringr-1.4.0
+	>=dev-lang/R-3.6
 	>=sci-CRAN/assertthat-0.2.1
+	>=sci-CRAN/shiny-1.5.0
+	>=sci-CRAN/clipr-0.7.0
+	>=sci-CRAN/miniUI-0.1.1.1
+	>=sci-CRAN/cli-2.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

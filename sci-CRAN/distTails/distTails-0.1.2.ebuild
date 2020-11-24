@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/distTails_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.6.0
+	virtual/MASS
 	sci-CRAN/gsl
 	sci-CRAN/ercv
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

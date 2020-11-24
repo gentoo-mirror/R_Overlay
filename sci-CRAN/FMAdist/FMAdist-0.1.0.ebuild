@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FMAdist_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/EnvStats
-	virtual/MASS
-	sci-CRAN/STAR
-	sci-CRAN/fitdistrplus
-	>=dev-lang/R-3.1.0
-	sci-CRAN/extraDistr
+DEPEND="sci-CRAN/extraDistr
 	sci-CRAN/quadprog
+	sci-CRAN/fitdistrplus
+	sci-CRAN/STAR
+	>=dev-lang/R-3.1.0
+	sci-CRAN/EnvStats
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

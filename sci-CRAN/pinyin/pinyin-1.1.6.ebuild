@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/pinyin_1.1.6.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/data_table
 	sci-CRAN/splitstackshape
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

@@ -27,15 +27,15 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_visnetwork? ( sci-CRAN/visNetwork )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/magrittr
-	sci-CRAN/pipeR
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	sci-CRAN/futile_logger
+DEPEND="sci-CRAN/pipeR
 	sci-CRAN/RCurl
+	sci-CRAN/ggplot2
 	>=sci-CRAN/rlang-0.3.0
+	sci-CRAN/dplyr
 	sci-CRAN/proto
 	sci-CRAN/purrr
+	>=dev-lang/R-3.4.0
+	sci-CRAN/magrittr
+	sci-CRAN/futile_logger
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

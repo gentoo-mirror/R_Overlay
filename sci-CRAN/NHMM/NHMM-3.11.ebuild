@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/NHMM_3.11.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/msm
-	>=sci-CRAN/Rcpp-0.11.0
+DEPEND="sci-CRAN/BayesLogit
 	sci-CRAN/MCMCpack
-	sci-CRAN/BayesLogit
+	sci-CRAN/msm
+	virtual/MASS
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

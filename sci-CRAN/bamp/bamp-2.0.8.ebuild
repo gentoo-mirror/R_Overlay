@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/abind
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/abind
 	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

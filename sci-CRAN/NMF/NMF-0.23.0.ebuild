@@ -25,22 +25,22 @@ R_SUGGESTS="
 	r_suggests_synchronicity? ( >=sci-CRAN/synchronicity-1.3.2 )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/reshape2
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/registry
+	>=sci-CRAN/rngtools-1.2.3
+	>=sci-CRAN/stringr-1.0.0
+	sci-CRAN/BiocManager
+	virtual/cluster
+	sci-CRAN/digest
+	sci-CRAN/gridBase
 	sci-CRAN/RColorBrewer
 	sci-CRAN/doParallel
-	>=sci-CRAN/rngtools-1.2.3
-	sci-CRAN/gridBase
-	sci-CRAN/foreach
-	sci-CRAN/registry
+	sci-CRAN/reshape2
 	sci-BIOC/Biobase
-	sci-CRAN/ggplot2
-	sci-CRAN/digest
-	sci-CRAN/BiocManager
-	>=dev-lang/R-3.0.0
 	>=sci-CRAN/pkgmaker-0.20
-	virtual/cluster
-	>=sci-CRAN/stringr-1.0.0
 	sci-CRAN/colorspace
+	sci-CRAN/ggplot2
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

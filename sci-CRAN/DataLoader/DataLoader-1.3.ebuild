@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/rChoiceDialogs
+	sci-CRAN/readxl
 	sci-CRAN/plyr
 	sci-CRAN/xlsx
-	sci-CRAN/readxl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

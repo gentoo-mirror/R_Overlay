@@ -17,11 +17,11 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/purrr
 	sci-CRAN/tidytext
-	sci-CRAN/rcorpora
 	sci-CRAN/digest
-	sci-CRAN/dplyr
-	sci-CRAN/readr
-	sci-CRAN/tibble
 	sci-CRAN/knitr
+	sci-CRAN/readr
+	sci-CRAN/dplyr
+	sci-CRAN/tibble
+	sci-CRAN/rcorpora
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

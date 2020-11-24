@@ -20,9 +20,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-4.0
 	sci-CRAN/foreach
-	sci-CRAN/scales
-	>=sci-CRAN/doParallel-1.0.15
 	sci-CRAN/plotrix
+	>=sci-CRAN/doParallel-1.0.15
+	sci-CRAN/scales
 	sci-CRAN/Rdpack
 	sci-CRAN/Rcpp
 "

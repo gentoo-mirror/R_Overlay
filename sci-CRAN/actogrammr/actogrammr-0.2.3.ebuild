@@ -18,7 +18,7 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/readr
 	sci-CRAN/tidyr
 	sci-CRAN/ggplot2
-	sci-CRAN/lubridate
 	sci-CRAN/dplyr
+	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

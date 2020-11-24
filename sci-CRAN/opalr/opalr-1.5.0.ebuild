@@ -23,7 +23,7 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.1
 	sci-CRAN/progress
 	sci-CRAN/mime
-	sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

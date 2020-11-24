@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/papayar_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/neurobase
-	sci-CRAN/oro_nifti
 	sci-CRAN/htmltools
 	sci-CRAN/servr
+	sci-CRAN/oro_nifti
 "
 RDEPEND="${DEPEND-}"

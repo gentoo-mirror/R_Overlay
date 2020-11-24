@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_mclust? ( sci-CRAN/mclust )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/pheatmap
+DEPEND="sci-CRAN/glmnet
 	sci-CRAN/sparcl
-	sci-CRAN/glmnet
-	virtual/cluster
-	sci-CRAN/fpc
-	sci-CRAN/caret
-	virtual/Matrix
 	virtual/nnet
+	virtual/cluster
+	>=dev-lang/R-3.5.0
+	sci-CRAN/caret
+	sci-CRAN/fpc
+	virtual/Matrix
+	sci-CRAN/pheatmap
 	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

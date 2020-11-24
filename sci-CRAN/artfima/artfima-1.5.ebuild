@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/artfima_1.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/gsl
-	sci-CRAN/ltsa
+DEPEND="sci-CRAN/ltsa
+	sci-CRAN/gsl
 "
 RDEPEND="${DEPEND-}"

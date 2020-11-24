@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RmixmodCombi_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/Rcpp-0.8.0
 	>=sci-CRAN/Rmixmod-2.0.1
+	>=sci-CRAN/Rcpp-0.8.0
 "
 RDEPEND="${DEPEND-}"

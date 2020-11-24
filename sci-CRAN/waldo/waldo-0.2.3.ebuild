@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_r6? ( sci-CRAN/R6 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/glue
-	sci-CRAN/diffobj
+DEPEND="sci-CRAN/rlang
 	sci-CRAN/fansi
 	sci-CRAN/cli
+	sci-CRAN/glue
+	sci-CRAN/diffobj
 	sci-CRAN/rematch2
-	sci-CRAN/rlang
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

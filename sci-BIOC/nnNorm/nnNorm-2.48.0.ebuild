@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/nnNorm_2.4
 LICENSE='LGPL-3+'
 
 DEPEND="sci-BIOC/marray
-	virtual/nnet
 	sci-BIOC/marray
+	virtual/nnet
 "
 RDEPEND="${DEPEND-}"

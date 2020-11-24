@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/tetraclasse_0.1.21.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/FactoMineR
+	sci-CRAN/ggrepel
+	sci-CRAN/ggplot2
 	sci-CRAN/magrittr
+	sci-CRAN/tidyr
 	sci-CRAN/reshape2
 	sci-CRAN/tibble
-	sci-CRAN/ggplot2
-	sci-CRAN/tidyr
-	sci-CRAN/ggrepel
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

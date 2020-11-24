@@ -24,17 +24,17 @@ R_SUGGESTS="
 	r_suggests_snowfall? ( sci-CRAN/snowfall )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
+DEPEND="sci-CRAN/digest
 	sci-CRAN/Rcpp
-	sci-CRAN/digest
 	virtual/MASS
+	virtual/Matrix
 	>=dev-lang/R-3.5.0
 	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	>=sci-CRAN/BH-1.69.0.1
 	>=sci-CRAN/rpf-0.45
+	sci-CRAN/RcppEigen
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

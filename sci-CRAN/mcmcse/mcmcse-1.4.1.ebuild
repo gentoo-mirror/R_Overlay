@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_mar? ( sci-CRAN/mAr )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.10
-	sci-CRAN/ellipse
+DEPEND="sci-CRAN/ellipse
+	>=sci-CRAN/Rcpp-0.12.10
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

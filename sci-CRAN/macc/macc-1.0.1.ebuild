@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/macc_1.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/optimx
-	virtual/MASS
+DEPEND="virtual/MASS
 	virtual/nlme
 	sci-CRAN/car
 	sci-CRAN/lme4
+	sci-CRAN/optimx
 "
 RDEPEND="${DEPEND-}"

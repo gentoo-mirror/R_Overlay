@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/jmdl_0.3.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/minqa
-	virtual/boot
-	sci-CRAN/Formula
-	sci-CRAN/mnormt
-	virtual/MASS
+DEPEND="virtual/boot
 	sci-CRAN/mvtnorm
+	virtual/MASS
+	sci-CRAN/minqa
+	sci-CRAN/mnormt
+	>=dev-lang/R-3.4.0
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-}"

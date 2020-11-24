@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/pscore_0.1-2.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/ggplot2
-	sci-CRAN/lavaan
 	sci-CRAN/reshape2
+	sci-CRAN/lavaan
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

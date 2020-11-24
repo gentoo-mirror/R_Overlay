@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/datanugget_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/doSNOW-1.0.16
 	>=sci-CRAN/foreach-1.4.4
+	>=sci-CRAN/doSNOW-1.0.16
 "
 RDEPEND="${DEPEND-}"

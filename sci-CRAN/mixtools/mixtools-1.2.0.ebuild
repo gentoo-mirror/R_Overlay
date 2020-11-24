@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mixtools_1.2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/segmented
+DEPEND="virtual/MASS
 	virtual/survival
-	sci-CRAN/kernlab
-	virtual/MASS
+	sci-CRAN/segmented
 	>=dev-lang/R-3.5.0
+	sci-CRAN/kernlab
 "
 RDEPEND="${DEPEND-}"

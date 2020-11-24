@@ -21,12 +21,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
 	sci-CRAN/data_table
 	sci-CRAN/coda
-	sci-CRAN/gridExtra
+	sci-CRAN/plyr
 	sci-CRAN/hdrcde
 	sci-CRAN/MCMCglmm
-	sci-CRAN/plyr
 	sci-CRAN/rjags
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

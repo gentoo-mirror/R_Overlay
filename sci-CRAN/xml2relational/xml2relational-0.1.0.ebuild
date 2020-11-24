@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/fs
-	sci-CRAN/tidyr
 	sci-CRAN/stringr
+	sci-CRAN/tidyr
 	sci-CRAN/xml2
 	sci-CRAN/lubridate
 	sci-CRAN/rlang

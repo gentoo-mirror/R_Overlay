@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_topicmodels? ( sci-CRAN/topicmodels )
 "
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/semver
 	virtual/Matrix
+	sci-CRAN/semver
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

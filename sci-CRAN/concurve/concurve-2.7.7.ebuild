@@ -40,23 +40,23 @@ R_SUGGESTS="
 	r_suggests_svglite? ( sci-CRAN/svglite )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/survival
-	sci-CRAN/tidyr
-	>=dev-lang/R-4.0.0
-	sci-CRAN/metafor
-	virtual/boot
-	sci-CRAN/officer
-	sci-CRAN/colorspace
-	sci-CRAN/survminer
-	sci-CRAN/scales
-	sci-CRAN/tibble
-	sci-CRAN/flextable
-	sci-CRAN/ggplot2
-	sci-CRAN/knitr
-	sci-CRAN/ProfileLikelihood
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/pbmcapply
-	sci-CRAN/dplyr
+	sci-CRAN/scales
+	sci-CRAN/officer
+	>=dev-lang/R-4.0.0
 	virtual/boot
+	virtual/survival
+	sci-CRAN/ProfileLikelihood
+	sci-CRAN/colorspace
+	sci-CRAN/dplyr
+	sci-CRAN/knitr
+	sci-CRAN/survminer
+	sci-CRAN/tidyr
+	virtual/boot
+	sci-CRAN/flextable
+	sci-CRAN/metafor
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/AdapEnetClass_1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/imputeYn
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/glmnet
-	sci-CRAN/lars
-	>=dev-lang/R-3.0.2
 	sci-CRAN/quadprog
+	sci-CRAN/lars
+	sci-CRAN/imputeYn
 "
 RDEPEND="${DEPEND-}"

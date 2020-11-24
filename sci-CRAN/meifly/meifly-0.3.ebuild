@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/meifly_0.3.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/plyr
-	sci-CRAN/leaps
 	virtual/MASS
+	sci-CRAN/leaps
 "
 RDEPEND="${DEPEND-}"

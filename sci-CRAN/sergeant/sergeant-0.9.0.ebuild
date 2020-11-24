@@ -19,18 +19,18 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND=">=dev-lang/R-3.6.0
+	>=sci-CRAN/bit64-0.9.7
 	>=sci-CRAN/dplyr-0.8.0
 	>=sci-CRAN/DBI-0.7
-	>=sci-CRAN/jsonlite-1.5.0
-	>=sci-CRAN/bit64-0.9.7
-	>=sci-CRAN/htmltools-0.3.6
-	>=sci-CRAN/scales-0.4.1
 	>=sci-CRAN/dbplyr-1.3.0
-	>=sci-CRAN/httr-1.2.1
+	>=sci-CRAN/htmltools-0.3.6
 	>=sci-CRAN/readr-1.1.1
-	>=sci-CRAN/purrr-0.2.2
+	>=sci-CRAN/scales-0.4.1
 	sci-CRAN/tibble
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/httr-1.2.1
+	>=sci-CRAN/jsonlite-1.5.0
+	>=sci-CRAN/purrr-0.2.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

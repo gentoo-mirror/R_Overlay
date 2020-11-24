@@ -31,16 +31,16 @@ R_SUGGESTS="
 	r_suggests_shinythemes? ( sci-CRAN/shinythemes )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/pipeR
-	>=sci-CRAN/xml2-1.0
-	>=sci-CRAN/lubridate-1.6.0
-	sci-CRAN/readxl
-	sci-CRAN/stringr
-	>=dev-lang/R-3.2.0
-	sci-CRAN/data_table
-	>=sci-CRAN/checkmate-1.6.2
+DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/rlist-0.4
+	sci-CRAN/stringr
+	>=sci-CRAN/checkmate-1.6.2
+	sci-CRAN/readxl
+	>=sci-CRAN/xml2-1.0
+	sci-CRAN/pipeR
+	sci-CRAN/data_table
 	>=sci-CRAN/R6-2.0.1
+	>=sci-CRAN/lubridate-1.6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

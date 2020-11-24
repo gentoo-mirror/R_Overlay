@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/NLPclient_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/curl
-	sci-CRAN/xml2
 	>=sci-CRAN/NLP-0.1.10
 	>=dev-lang/R-3.2.0
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-}"

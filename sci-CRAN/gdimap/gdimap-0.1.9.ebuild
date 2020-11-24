@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gdimap_0.1-9.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/movMF
-	sci-CRAN/rgl
+DEPEND="sci-CRAN/oro_nifti
 	sci-CRAN/geometry
-	sci-CRAN/oro_nifti
-	>=dev-lang/R-3.0.0
 	sci-CRAN/gridExtra
-	sci-CRAN/colorspace
+	sci-CRAN/rgl
 	sci-CRAN/gsl
+	>=dev-lang/R-3.0.0
+	sci-CRAN/movMF
+	sci-CRAN/colorspace
 	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-}"

@@ -15,30 +15,30 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/Hmisc
-	sci-CRAN/mvtnorm
-	sci-CRAN/magrittr
-	sci-CRAN/tibble
-	sci-CRAN/purrr
-	sci-CRAN/ggjoy
-	sci-CRAN/stringr
-	sci-CRAN/ggridges
-	sci-CRAN/questionr
-	sci-CRAN/LaplacesDemon
-	>=dev-lang/R-3.3.3
-	sci-CRAN/isotone
-	sci-CRAN/dplyr
-	sci-CRAN/formula_tools
-	sci-CRAN/MCMCpack
+DEPEND="sci-CRAN/questionr
 	sci-CRAN/tidyverse
-	sci-CRAN/Rcpp
-	sci-CRAN/data_table
-	sci-CRAN/rprojroot
-	sci-CRAN/ggplot2
-	sci-CRAN/tidyr
-	sci-CRAN/ggpubr
-	virtual/MASS
 	sci-CRAN/coda
+	sci-CRAN/LaplacesDemon
+	sci-CRAN/ggjoy
+	sci-CRAN/ggridges
+	sci-CRAN/isotone
+	sci-CRAN/Hmisc
+	sci-CRAN/MCMCpack
+	sci-CRAN/mvtnorm
+	sci-CRAN/data_table
+	sci-CRAN/tidyr
+	sci-CRAN/dplyr
+	sci-CRAN/Rcpp
+	sci-CRAN/formula_tools
+	sci-CRAN/rprojroot
+	sci-CRAN/tibble
+	sci-CRAN/stringr
+	sci-CRAN/ggpubr
+	>=dev-lang/R-3.3.3
+	sci-CRAN/magrittr
+	virtual/MASS
+	sci-CRAN/purrr
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

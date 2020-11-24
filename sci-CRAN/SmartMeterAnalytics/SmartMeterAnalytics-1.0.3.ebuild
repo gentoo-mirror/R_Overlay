@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_rocr? ( sci-CRAN/ROCR )
 	r_suggests_stringr? ( sci-CRAN/stringr )
 "
-DEPEND="sci-CRAN/zoo
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/futile_logger
+	sci-CRAN/zoo
 	sci-CRAN/stinepack
 	sci-CRAN/FNN
-	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

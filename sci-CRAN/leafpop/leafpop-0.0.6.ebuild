@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_leaflet? ( >=sci-CRAN/leaflet-2.0.0 )
 	r_suggests_sp? ( sci-CRAN/sp )
 "
-DEPEND="sci-CRAN/sf
-	sci-CRAN/svglite
+DEPEND="sci-CRAN/base64enc
 	sci-CRAN/uuid
 	sci-CRAN/brew
-	sci-CRAN/base64enc
+	sci-CRAN/svglite
 	sci-CRAN/htmltools
 	sci-CRAN/htmlwidgets
+	sci-CRAN/sf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/hdrcde_3.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-2.15
+	sci-CRAN/RColorBrewer
+	sci-CRAN/ggplot2
 	sci-CRAN/ks
 	sci-CRAN/ash
 	virtual/KernSmooth
 	sci-CRAN/locfit
-	sci-CRAN/ggplot2
-	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-}"

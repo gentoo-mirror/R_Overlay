@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/IPPD_1.32.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/XML
+DEPEND="virtual/Matrix
 	virtual/MASS
-	sci-CRAN/digest
-	virtual/Matrix
 	>=dev-lang/R-2.12.0
+	sci-CRAN/digest
+	sci-CRAN/XML
 	sci-CRAN/bitops
 "
 RDEPEND="${DEPEND-}"

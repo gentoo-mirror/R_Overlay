@@ -13,8 +13,8 @@ LICENSE='Artistic-2'
 IUSE="${IUSE-} r_suggests_rgraphviz"
 R_SUGGESTS="r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )"
 DEPEND="sci-CRAN/RSQLite
-	sci-BIOC/graph
 	sci-CRAN/RCurl
 	sci-BIOC/GEOquery
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

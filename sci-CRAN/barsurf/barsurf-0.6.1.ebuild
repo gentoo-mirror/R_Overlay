@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_misc3d"
 R_SUGGESTS="r_suggests_misc3d? ( sci-CRAN/misc3d )"
-DEPEND="sci-CRAN/colorspace
-	sci-CRAN/kubik
+DEPEND="sci-CRAN/kubik
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

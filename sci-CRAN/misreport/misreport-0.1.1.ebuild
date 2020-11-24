@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/mvtnorm-1.0.5
-	>=sci-CRAN/numDeriv-2014.2.1
 	>=sci-CRAN/VGAM-1.0.2
+	>=sci-CRAN/numDeriv-2014.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

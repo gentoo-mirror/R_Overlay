@@ -11,17 +11,17 @@ SRC_URI="http://cran.r-project.org/src/contrib/clustringr_1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/stringi
-	sci-CRAN/stringr
-	sci-CRAN/igraph
-	sci-CRAN/stringdist
-	sci-CRAN/tidygraph
-	sci-CRAN/ggraph
 	sci-CRAN/dplyr
-	sci-CRAN/magrittr
 	sci-CRAN/assertthat
+	sci-CRAN/stringdist
+	sci-CRAN/igraph
 	sci-CRAN/forcats
 	sci-CRAN/rlang
+	sci-CRAN/tidygraph
 	sci-CRAN/ggplot2
+	sci-CRAN/stringr
+	sci-CRAN/magrittr
+	sci-CRAN/stringi
+	sci-CRAN/ggraph
 "
 RDEPEND="${DEPEND-}"

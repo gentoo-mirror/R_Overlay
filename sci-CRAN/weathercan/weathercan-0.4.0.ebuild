@@ -27,20 +27,20 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
-DEPEND=">=sci-CRAN/lubridate-1.7.1
-	>=sci-CRAN/purrr-0.2.4
+DEPEND=">=dev-lang/R-3.1.2
 	>=sci-CRAN/readr-1.3.1
+	>=sci-CRAN/tidyr-0.4.1
 	>=sci-CRAN/rvest-0.3.4
-	>=sci-CRAN/memoise-1.1.0
-	>=sci-CRAN/tidyselect-1.0.0
-	>=dev-lang/R-3.1.2
-	>=sci-CRAN/httr-1.1.0
 	>=sci-CRAN/dplyr-0.7.0
+	>=sci-CRAN/tidyselect-1.0.0
+	>=sci-CRAN/xml2-0.1.2
+	>=sci-CRAN/lubridate-1.7.1
+	>=sci-CRAN/memoise-1.1.0
+	>=sci-CRAN/httr-1.1.0
+	>=sci-CRAN/purrr-0.2.4
 	>=sci-CRAN/rlang-0.1.4
 	>=sci-CRAN/stringi-1.1.2
 	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/tidyr-0.4.1
-	>=sci-CRAN/xml2-0.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

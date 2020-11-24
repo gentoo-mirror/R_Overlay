@@ -20,22 +20,22 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/assertthat
-	sci-CRAN/readxl
-	sci-CRAN/tidyr
-	sci-CRAN/readr
-	sci-CRAN/signal
 	virtual/nlme
 	>=sci-CRAN/tibble-2.0.0
-	sci-CRAN/purrr
-	sci-CRAN/stringr
-	sci-CRAN/ggplot2
-	>=dev-lang/R-4.0.0
-	sci-CRAN/dplyr
-	sci-CRAN/ggfittext
-	>=sci-CRAN/broom-0.7.0
 	virtual/MASS
-	sci-CRAN/xml2
+	sci-CRAN/stringr
+	>=dev-lang/R-4.0.0
+	sci-CRAN/ggfittext
+	sci-CRAN/dplyr
 	sci-CRAN/multcomp
+	sci-CRAN/readr
+	sci-CRAN/tidyr
+	sci-CRAN/ggplot2
+	sci-CRAN/readxl
+	sci-CRAN/signal
+	>=sci-CRAN/broom-0.7.0
+	sci-CRAN/purrr
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

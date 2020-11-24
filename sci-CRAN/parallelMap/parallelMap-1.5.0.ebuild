@@ -22,8 +22,8 @@ R_SUGGESTS="
 	r_suggests_snow? ( sci-CRAN/snow )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/checkmate-1.8.0
-	>=sci-CRAN/BBmisc-1.8
+DEPEND=">=sci-CRAN/BBmisc-1.8
 	>=dev-lang/R-3.0.0
+	>=sci-CRAN/checkmate-1.8.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

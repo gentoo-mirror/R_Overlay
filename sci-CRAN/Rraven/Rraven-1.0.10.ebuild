@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND="sci-CRAN/seewave
-	sci-CRAN/NatureSounds
-	>=dev-lang/R-3.2.1
+DEPEND=">=dev-lang/R-3.2.1
 	sci-CRAN/pbapply
+	sci-CRAN/seewave
 	sci-CRAN/warbleR
 	sci-CRAN/tuneR
+	sci-CRAN/NatureSounds
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

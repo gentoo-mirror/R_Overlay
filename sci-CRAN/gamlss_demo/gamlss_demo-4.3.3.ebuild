@@ -13,8 +13,8 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
 DEPEND="dev-lang/R[tk]
-	sci-CRAN/gamlss_tr
 	sci-CRAN/gamlss_dist
 	>=sci-CRAN/rpanel-1.1.1
+	sci-CRAN/gamlss_tr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

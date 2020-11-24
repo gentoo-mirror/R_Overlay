@@ -18,19 +18,19 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/wordcloud
-	sci-CRAN/tidytext
 	sci-CRAN/tidyr
+	sci-CRAN/tidytext
 	sci-CRAN/tm
 	sci-CRAN/dplyr
 	sci-CRAN/udpipe
-	sci-CRAN/glmnet
-	sci-CRAN/doParallel
-	sci-CRAN/forcats
-	sci-CRAN/plyr
 	sci-CRAN/RColorBrewer
-	sci-CRAN/ggplot2
-	sci-CRAN/pdftools
+	sci-CRAN/doParallel
 	sci-CRAN/pracma
+	sci-CRAN/plyr
+	sci-CRAN/ggplot2
+	sci-CRAN/glmnet
+	sci-CRAN/pdftools
+	sci-CRAN/forcats
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

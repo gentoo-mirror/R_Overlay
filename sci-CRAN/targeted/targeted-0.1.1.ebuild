@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11 )
 "
-DEPEND=">=sci-CRAN/lava-1.6.6
-	>=sci-CRAN/Rcpp-1.0.0
+DEPEND=">=dev-lang/R-3.3
+	>=sci-CRAN/lava-1.6.6
 	sci-CRAN/optimx
 	sci-CRAN/futile_logger
-	>=dev-lang/R-3.3
+	>=sci-CRAN/Rcpp-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

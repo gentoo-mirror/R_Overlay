@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/outliers
 	sci-CRAN/ggplot2
+	sci-CRAN/outliers
 	virtual/cluster
 	sci-CRAN/ggrepel
 "

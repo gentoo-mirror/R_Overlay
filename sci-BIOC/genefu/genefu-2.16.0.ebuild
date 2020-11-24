@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND="sci-CRAN/mclust
-	sci-BIOC/biomaRt
-	sci-BIOC/impute
+DEPEND="sci-BIOC/biomaRt
 	sci-BIOC/AIMS
+	sci-BIOC/impute
+	sci-CRAN/mclust
 	sci-BIOC/survcomp
 	sci-CRAN/iC10
 	sci-BIOC/limma

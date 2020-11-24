@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/wrangle_0.5.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/dplyr
+	sci-CRAN/magrittr
 	sci-CRAN/rlang
 	sci-CRAN/lazyeval
 	sci-CRAN/tidyr
-	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

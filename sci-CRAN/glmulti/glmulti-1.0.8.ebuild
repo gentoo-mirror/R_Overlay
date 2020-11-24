@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_survival? ( virtual/survival )
 "
 DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/leaps
 	>=sci-CRAN/rJava-0.5.0
+	sci-CRAN/leaps
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

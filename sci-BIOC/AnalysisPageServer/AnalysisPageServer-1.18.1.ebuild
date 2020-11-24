@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_xml? ( sci-CRAN/XML )
 "
 DEPEND="sci-CRAN/log4r
-	sci-BIOC/graph
 	sci-BIOC/Biobase
 	sci-CRAN/rjson
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

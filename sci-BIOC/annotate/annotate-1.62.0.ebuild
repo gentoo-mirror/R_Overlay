@@ -21,12 +21,12 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_tkwidgets? ( sci-BIOC/tkWidgets )
 "
-DEPEND="sci-CRAN/DBI
-	>=sci-BIOC/AnnotationDbi-1.27.5
-	sci-CRAN/XML
-	sci-BIOC/Biobase
-	sci-CRAN/xtable
+DEPEND="sci-CRAN/XML
 	>=sci-BIOC/BiocGenerics-0.13.8
+	sci-CRAN/xtable
+	sci-CRAN/DBI
+	>=sci-BIOC/AnnotationDbi-1.27.5
+	sci-BIOC/Biobase
 	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

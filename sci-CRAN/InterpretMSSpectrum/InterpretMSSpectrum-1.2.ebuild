@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/InterpretMSSpectrum_1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/enviPat
-	sci-CRAN/DBI
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/RSQLite
 	sci-CRAN/foreach
-	sci-CRAN/plyr
-	sci-BIOC/Rdisop
 	sci-CRAN/doParallel
+	sci-CRAN/enviPat
+	sci-BIOC/Rdisop
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-}"

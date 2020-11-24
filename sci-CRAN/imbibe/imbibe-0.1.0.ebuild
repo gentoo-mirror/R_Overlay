@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/RNifti
 	sci-CRAN/magrittr
+	sci-CRAN/RNifti
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

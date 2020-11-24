@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/NGSSEML_2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/car
-	sci-CRAN/mvtnorm
 	sci-CRAN/fields
 	>=dev-lang/R-3.5.0
 	>=dev-lang/R-3.5.0
+	sci-CRAN/car
 	>=dev-lang/R-3.5.0
 	>=dev-lang/R-3.5.0
 	>=dev-lang/R-3.5.0
+	sci-CRAN/mvtnorm
 	sci-CRAN/dlm
 	sci-CRAN/interp
 "

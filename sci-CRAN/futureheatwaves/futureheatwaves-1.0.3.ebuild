@@ -22,14 +22,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 )
 	r_suggests_weathermetrics? ( >=sci-CRAN/weathermetrics-1.2.2 )
 "
-DEPEND=">=sci-CRAN/stringr-1.1.0
-	>=sci-CRAN/tidyr-0.6.0
-	>=sci-CRAN/ggplot2-2.0.0
-	>=sci-CRAN/dplyr-0.4.3
+DEPEND=">=sci-CRAN/dplyr-0.4.3
+	>=sci-CRAN/leaflet-1.0.1
 	>=sci-CRAN/data_table-1.10.0
 	>=sci-CRAN/ggthemes-3.0.0
-	>=sci-CRAN/leaflet-1.0.1
+	>=sci-CRAN/ggplot2-2.0.0
 	>=sci-CRAN/Rcpp-0.12.5
+	>=sci-CRAN/stringr-1.1.0
+	>=sci-CRAN/tidyr-0.6.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/iteRates_3.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/partitions
-	sci-CRAN/gtools
 	sci-CRAN/VGAM
-	virtual/MASS
-	sci-CRAN/ape
+	sci-CRAN/gtools
 	sci-CRAN/apTreeshape
+	sci-CRAN/ape
+	virtual/MASS
 	sci-CRAN/geiger
 "
 RDEPEND="${DEPEND-}"

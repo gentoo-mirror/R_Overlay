@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_shinyjs? ( sci-CRAN/shinyjs )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/nnet
-	sci-CRAN/stringr
-	sci-CRAN/ggplot2
-	sci-CRAN/abind
-	sci-CRAN/deepnet
-	sci-CRAN/gridExtra
-	sci-CRAN/magrittr
-	virtual/Matrix
+DEPEND="sci-CRAN/gridExtra
 	sci-CRAN/png
+	virtual/Matrix
+	sci-CRAN/magrittr
+	virtual/nnet
 	sci-CRAN/shiny
+	sci-CRAN/ggplot2
+	sci-CRAN/deepnet
+	sci-CRAN/abind
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

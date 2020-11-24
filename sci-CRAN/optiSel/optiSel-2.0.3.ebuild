@@ -16,25 +16,25 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/Matrix
+DEPEND="sci-CRAN/plyr
+	virtual/Matrix
+	virtual/MASS
 	sci-CRAN/quadprog
-	sci-CRAN/doParallel
-	sci-CRAN/magic
 	sci-CRAN/purrr
+	sci-CRAN/magic
+	sci-CRAN/doParallel
 	sci-CRAN/ECOSolveR
-	sci-CRAN/reshape2
 	sci-CRAN/optiSolve
-	sci-CRAN/plyr
-	sci-CRAN/nadiv
-	sci-CRAN/pspline
+	sci-CRAN/kinship2
+	sci-CRAN/pedigree
 	>=dev-lang/R-3.5.0
 	sci-CRAN/data_table
 	sci-CRAN/foreach
-	sci-CRAN/kinship2
-	sci-CRAN/pedigree
-	sci-CRAN/stringr
-	virtual/MASS
+	sci-CRAN/reshape2
 	>=sci-CRAN/Rcpp-0.12.4
+	sci-CRAN/nadiv
+	sci-CRAN/pspline
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

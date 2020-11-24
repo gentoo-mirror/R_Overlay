@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_minqa? ( sci-CRAN/minqa )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.10
-	virtual/MASS
-	sci-CRAN/nloptr
-	sci-CRAN/numDeriv
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/proxy
+	sci-CRAN/numDeriv
 	>=sci-CRAN/geometry-0.3.6
-	sci-CRAN/rcdd
 	>=sci-CRAN/spaMM-3.1.0
 	virtual/lattice
+	>=sci-CRAN/Rcpp-0.12.10
+	sci-CRAN/rcdd
+	sci-CRAN/nloptr
+	virtual/MASS
 	sci-CRAN/pbapply
 	sci-CRAN/foreach
 "

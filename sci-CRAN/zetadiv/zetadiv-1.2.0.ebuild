@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/zetadiv_1.2.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/nnls
 	sci-CRAN/car
-	virtual/mgcv
 	sci-CRAN/scam
+	virtual/mgcv
 	sci-CRAN/vegan
 	sci-CRAN/Imap
+	sci-CRAN/nnls
 	sci-CRAN/glm2
 "
 RDEPEND="${DEPEND-}"

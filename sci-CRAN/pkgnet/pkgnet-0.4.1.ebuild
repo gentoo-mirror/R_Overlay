@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/glue
-	sci-CRAN/magrittr
-	sci-CRAN/covr
-	sci-CRAN/assertthat
-	sci-CRAN/futile_logger
-	sci-CRAN/DT
-	sci-CRAN/igraph
-	sci-CRAN/knitr
-	sci-CRAN/R6
-	sci-CRAN/rlang
+DEPEND="sci-CRAN/assertthat
 	>=sci-CRAN/rmarkdown-1.9
+	sci-CRAN/igraph
+	sci-CRAN/DT
+	sci-CRAN/rlang
+	sci-CRAN/covr
+	sci-CRAN/data_table
+	sci-CRAN/futile_logger
+	sci-CRAN/glue
+	sci-CRAN/knitr
+	sci-CRAN/magrittr
+	sci-CRAN/R6
 	sci-CRAN/visNetwork
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

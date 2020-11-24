@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/dse_2020.2-1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/tframe-2007.5.3
-	sci-CRAN/tfplot
 	>=sci-CRAN/setRNG-2004.4.1
+	sci-CRAN/tfplot
 "
 RDEPEND="${DEPEND-}"

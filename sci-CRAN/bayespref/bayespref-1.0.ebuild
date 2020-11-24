@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/coda
 	sci-CRAN/MCMCpack
+	virtual/MASS
 	virtual/lattice
 	sci-CRAN/RColorBrewer
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

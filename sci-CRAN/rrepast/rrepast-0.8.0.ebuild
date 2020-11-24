@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rrepast_0.8.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/sensitivity
-	sci-CRAN/digest
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/lhs
+	sci-CRAN/sensitivity
 	sci-CRAN/xlsx
-	sci-CRAN/lhs
 	sci-CRAN/ggplot2
+	sci-CRAN/digest
 	sci-CRAN/doSNOW
 	sci-CRAN/rJava
 	sci-CRAN/gridExtra
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

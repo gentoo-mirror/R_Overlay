@@ -27,21 +27,21 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/rlang
+DEPEND=">=sci-CRAN/sf-0.9.3
+	sci-CRAN/rlang
+	sci-CRAN/htmltools
+	virtual/class
+	sci-CRAN/RColorBrewer
+	sci-CRAN/htmlwidgets
+	sci-CRAN/leafsync
+	sci-CRAN/viridisLite
+	>=sci-CRAN/tmaptools-3.1
+	>=sci-CRAN/units-0.6.1
+	>=sci-CRAN/leafem-0.1
 	>=dev-lang/R-3.5.0
 	>=sci-CRAN/stars-0.4.2
-	>=sci-CRAN/tmaptools-3.1
-	sci-CRAN/viridisLite
-	>=sci-CRAN/leafem-0.1
-	virtual/class
-	>=sci-CRAN/sf-0.9.3
-	>=sci-CRAN/units-0.6.1
-	sci-CRAN/RColorBrewer
-	>=sci-CRAN/leaflet-2.0.2
-	sci-CRAN/htmlwidgets
-	sci-CRAN/htmltools
 	sci-CRAN/widgetframe
-	sci-CRAN/leafsync
+	>=sci-CRAN/leaflet-2.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

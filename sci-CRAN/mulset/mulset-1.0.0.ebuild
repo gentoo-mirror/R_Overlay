@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mulset_1.0.0.tar.gz"
 
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/gtools
 	sci-CRAN/digest
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}"

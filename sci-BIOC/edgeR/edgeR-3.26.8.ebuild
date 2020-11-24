@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_readr? ( sci-CRAN/readr )
 	r_suggests_rhdf5? ( sci-BIOC/rhdf5 )
 "
-DEPEND="sci-CRAN/locfit
+DEPEND="sci-CRAN/Rcpp
 	>=sci-BIOC/limma-3.34.5
-	sci-CRAN/Rcpp
+	sci-CRAN/locfit
 	>=dev-lang/R-3.6.0
 "
 RDEPEND="${DEPEND-}

@@ -23,20 +23,20 @@ R_SUGGESTS="
 	r_suggests_png? ( >=sci-CRAN/png-0.1.7 )
 	r_suggests_preprocesscore? ( >=sci-BIOC/preprocessCore-1.28.0 )
 "
-DEPEND=">=sci-CRAN/R_filesets-2.13.0
-	>=sci-CRAN/R_devices-2.16.0
-	sci-CRAN/BiocManager
-	sci-CRAN/future
-	virtual/Matrix
+DEPEND=">=sci-CRAN/R_devices-2.16.0
+	sci-CRAN/listenv
+	>=sci-CRAN/R_oo-1.23.0
+	>=sci-CRAN/R_filesets-2.13.0
 	>=dev-lang/R-3.2.1
 	>=sci-CRAN/R_utils-2.9.0
 	>=sci-CRAN/R_methodsS3-1.7.1
-	>=sci-CRAN/R_oo-1.23.0
 	>=sci-CRAN/R_cache-0.14.0
 	>=sci-CRAN/R_rsp-0.43.2
+	virtual/Matrix
 	>=sci-CRAN/RColorBrewer-1.1.2
 	>=sci-CRAN/PSCBS-0.65.0
-	sci-CRAN/listenv
+	sci-CRAN/future
+	sci-CRAN/BiocManager
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

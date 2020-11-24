@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/binGroup_2.2-1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/partitions
-	sci-CRAN/Rdpack
+DEPEND="sci-CRAN/Rdpack
+	sci-CRAN/partitions
 "
 RDEPEND="${DEPEND-}"

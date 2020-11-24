@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 "
-DEPEND="sci-CRAN/checkmate
-	>=dev-lang/R-3.4.0
-	sci-CRAN/gtable
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/partykit
 	sci-CRAN/ggplot2
-	virtual/survival
 	sci-CRAN/rlang
+	sci-CRAN/gtable
+	sci-CRAN/checkmate
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

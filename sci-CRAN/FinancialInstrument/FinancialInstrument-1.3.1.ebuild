@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_timeseries? ( sci-CRAN/timeSeries )
 	r_suggests_xml? ( >=sci-CRAN/XML-3.96.1.1 )
 "
-DEPEND=">=sci-CRAN/quantmod-0.4.3
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/TTR
-	>=sci-CRAN/zoo-1.7.5
 	>=sci-CRAN/xts-0.10.0
-	>=dev-lang/R-3.0.0
+	>=sci-CRAN/zoo-1.7.5
+	>=sci-CRAN/quantmod-0.4.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

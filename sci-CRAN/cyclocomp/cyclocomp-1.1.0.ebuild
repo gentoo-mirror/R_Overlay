@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/callr
 	sci-CRAN/crayon
-	sci-CRAN/desc
 	sci-CRAN/remotes
 	sci-CRAN/withr
+	sci-CRAN/desc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

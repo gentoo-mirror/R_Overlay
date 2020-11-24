@@ -13,8 +13,8 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_xlconnect"
 R_SUGGESTS="r_suggests_xlconnect? ( sci-CRAN/XLConnect )"
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/JavaGD-0.6
 	>=sci-CRAN/rJava-0.9.12
+	>=sci-CRAN/JavaGD-0.6
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

@@ -34,10 +34,10 @@ R_SUGGESTS="
 	r_suggests_see? ( sci-CRAN/see )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/emmeans-1.4.4
-	>=sci-CRAN/insight-0.7.1
-	>=sci-CRAN/bayestestR-0.4.0
+DEPEND=">=sci-CRAN/insight-0.7.1
 	>=sci-CRAN/parameters-0.3.0
+	>=sci-CRAN/bayestestR-0.4.0
+	>=sci-CRAN/emmeans-1.4.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

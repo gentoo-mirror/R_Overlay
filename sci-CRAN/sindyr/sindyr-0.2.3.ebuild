@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/sindyr_0.2.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/igraph
-	sci-CRAN/pracma
 	sci-CRAN/plot3D
+	sci-CRAN/arrangements
 	sci-CRAN/crqa
+	sci-CRAN/pracma
 	>=dev-lang/R-3.4
 	virtual/Matrix
-	sci-CRAN/arrangements
 "
 RDEPEND="${DEPEND-}"

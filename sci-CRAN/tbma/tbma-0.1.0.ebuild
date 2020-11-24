@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/data_table
 	sci-CRAN/ranger
-	sci-CRAN/RcppRoll
 	sci-CRAN/zoo
+	sci-CRAN/RcppRoll
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

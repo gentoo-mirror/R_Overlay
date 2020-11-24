@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rsolnp
-	sci-CRAN/FD
-	virtual/lattice
+DEPEND="virtual/lattice
 	virtual/lattice
 	>=dev-lang/R-3.3.0
+	sci-CRAN/Rsolnp
 	sci-CRAN/ade4
+	sci-CRAN/FD
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

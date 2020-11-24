@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/echogram_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/readHAC
 	sci-CRAN/geosphere
+	sci-CRAN/readHAC
 "
 RDEPEND="${DEPEND-}"

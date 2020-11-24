@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/shinybootstrap2_0.2.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/jsonlite-0.9.12
-	sci-CRAN/shiny
 	>=sci-CRAN/htmltools-0.2.6
+	sci-CRAN/shiny
+	>=sci-CRAN/jsonlite-0.9.12
 "
 RDEPEND="${DEPEND-}"

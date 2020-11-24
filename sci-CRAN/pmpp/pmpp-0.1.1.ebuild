@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_lintr? ( sci-CRAN/lintr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/minqa
-	sci-CRAN/pracma
-	virtual/MASS
-	sci-CRAN/plm
-	sci-CRAN/data_table
-	virtual/Matrix
-	sci-CRAN/dplyr
-	sci-CRAN/moments
+DEPEND="virtual/Matrix
 	sci-CRAN/magrittr
+	>=dev-lang/R-3.4.0
+	sci-CRAN/pracma
+	sci-CRAN/plm
+	virtual/MASS
+	sci-CRAN/minqa
+	sci-CRAN/dplyr
+	sci-CRAN/data_table
+	sci-CRAN/moments
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

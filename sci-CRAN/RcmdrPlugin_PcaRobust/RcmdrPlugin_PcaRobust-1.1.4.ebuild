@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.PcaRobust_1.1.4.tar.g
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.3
+	sci-CRAN/tkrplot
 	sci-CRAN/rrcov
 	sci-CRAN/robustbase
 	sci-CRAN/Rcmdr
-	sci-CRAN/tkrplot
 "
 RDEPEND="${DEPEND-}"

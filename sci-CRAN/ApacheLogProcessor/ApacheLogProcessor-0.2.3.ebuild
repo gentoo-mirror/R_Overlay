@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ApacheLogProcessor_0.2.3.tar.gz"
 LICENSE='LGPL-3'
 
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

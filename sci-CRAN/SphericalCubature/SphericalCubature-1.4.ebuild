@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/abind
+	sci-CRAN/mvmesh
 	sci-CRAN/cubature
 	sci-CRAN/SimplicialCubature
-	sci-CRAN/mvmesh
 "
 RDEPEND="${DEPEND-}"

@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/longitudinalcascade_0.3.2.1.tar.g
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/lubridate
+	sci-CRAN/rlang
 	virtual/survival
 	sci-CRAN/zoo
 	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
 	sci-CRAN/scales
-	sci-CRAN/rlang
+	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-}"

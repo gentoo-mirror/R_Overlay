@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-4.0.0
 	virtual/MASS
-	sci-CRAN/shiny
 	sci-CRAN/DT
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

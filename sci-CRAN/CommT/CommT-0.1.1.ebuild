@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CommT_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/ggplot2-1.0.0
+DEPEND="sci-CRAN/gridExtra
+	>=sci-CRAN/ggplot2-1.0.0
 	>=sci-CRAN/ape-3.1.4
-	sci-CRAN/gridExtra
 	sci-CRAN/phangorn
 	>=dev-lang/R-3.0.0
 	sci-CRAN/reshape

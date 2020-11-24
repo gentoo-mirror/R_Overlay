@@ -22,23 +22,23 @@ R_SUGGESTS="
 	r_suggests_psych? ( sci-CRAN/psych )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/GGally-1.4.0
-	>=sci-CRAN/reshape-0.8.8
-	>=sci-CRAN/ggridges-0.5.1
+DEPEND=">=sci-CRAN/BFpack-0.2.1
 	>=sci-CRAN/mvnfast-0.2.5
+	>=sci-CRAN/ggplot2-3.2.1
+	virtual/MASS
+	>=sci-CRAN/ggridges-0.5.1
 	>=sci-CRAN/network-1.15
-	>=sci-CRAN/Rcpp-1.0.4.6
+	>=sci-CRAN/reshape-0.8.8
 	>=sci-CRAN/Rdpack-0.11.1
 	>=sci-CRAN/sna-2.5
 	>=dev-lang/R-3.5.0
-	>=sci-CRAN/BFpack-0.2.1
-	>=sci-CRAN/ggplot2-3.2.1
-	virtual/MASS
+	>=sci-CRAN/GGally-1.4.0
+	>=sci-CRAN/Rcpp-1.0.4.6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppProgress
 	sci-CRAN/RcppDist
+	sci-CRAN/RcppProgress
 	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

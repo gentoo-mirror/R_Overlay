@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RcextTools_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/sqldf
-	sci-CRAN/visNetwork
+DEPEND="sci-CRAN/sqldf
 	sci-CRAN/data_table
+	sci-CRAN/visNetwork
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

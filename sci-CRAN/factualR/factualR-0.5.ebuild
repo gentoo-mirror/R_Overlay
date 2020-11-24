@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/factualR_0.5.tar.gz"
 LICENSE='Apache-2.0'
 
-DEPEND="sci-CRAN/RCurl
-	sci-CRAN/RJSONIO
+DEPEND="sci-CRAN/RJSONIO
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

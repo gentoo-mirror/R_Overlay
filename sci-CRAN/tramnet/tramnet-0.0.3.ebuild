@@ -31,17 +31,17 @@ R_SUGGESTS="
 	r_suggests_th_data? ( sci-CRAN/TH_data )
 	r_suggests_trtf? ( sci-CRAN/trtf )
 "
-DEPEND=">=sci-CRAN/CVXR-0.99.4
-	>=sci-CRAN/mlrMBO-1.1.2
-	sci-CRAN/basefun
-	>=dev-lang/R-3.5.0
-	sci-CRAN/mlt
-	>=sci-CRAN/tram-0.3.2
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/sandwich
 	sci-CRAN/ParamHelpers
-	sci-CRAN/lhs
+	>=sci-CRAN/tram-0.3.2
 	sci-CRAN/mlr
 	sci-CRAN/smoof
+	>=sci-CRAN/CVXR-0.99.4
+	>=sci-CRAN/mlrMBO-1.1.2
+	sci-CRAN/mlt
+	sci-CRAN/basefun
+	sci-CRAN/lhs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CenBAR_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/glmnet
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/glmnet
 	virtual/survival
-	sci-CRAN/mvtnorm
 	virtual/MASS
-	sci-CRAN/foreach
+	sci-CRAN/mvtnorm
 	sci-CRAN/cvTools
 "
 RDEPEND="${DEPEND-}"

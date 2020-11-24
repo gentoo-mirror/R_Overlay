@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RVideoPoker_0.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/pixmap
-	sci-CRAN/tkrplot
 	sci-CRAN/rpanel
+	sci-CRAN/tkrplot
 "
 RDEPEND="${DEPEND-}"

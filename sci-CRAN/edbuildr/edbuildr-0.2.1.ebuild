@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/scales
 	sci-CRAN/magrittr
 	sci-CRAN/openxlsx
 	sci-CRAN/stringr
+	sci-CRAN/scales
 	>=sci-CRAN/tidyselect-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

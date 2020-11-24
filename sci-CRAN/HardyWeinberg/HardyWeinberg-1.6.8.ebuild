@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HardyWeinberg_1.6.8.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/Rsolnp
-	sci-CRAN/mice
+DEPEND="sci-CRAN/mice
+	sci-CRAN/Rsolnp
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

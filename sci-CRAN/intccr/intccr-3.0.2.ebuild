@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/doParallel
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/alabama-2015.3.1
 	virtual/MASS
 "

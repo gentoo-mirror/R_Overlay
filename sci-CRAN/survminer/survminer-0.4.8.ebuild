@@ -18,19 +18,19 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_markdown? ( sci-CRAN/markdown )
 "
-DEPEND=">=sci-CRAN/ggpubr-0.1.6
-	sci-CRAN/maxstat
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/scales
-	sci-CRAN/magrittr
 	>=sci-CRAN/gridExtra-2.0
 	virtual/survival
-	sci-CRAN/ggplot2
-	sci-CRAN/broom
+	>=sci-CRAN/ggpubr-0.1.6
 	sci-CRAN/dplyr
 	sci-CRAN/tidyr
 	sci-CRAN/survMisc
 	sci-CRAN/purrr
 	sci-CRAN/tibble
+	sci-CRAN/magrittr
+	sci-CRAN/maxstat
+	sci-CRAN/broom
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

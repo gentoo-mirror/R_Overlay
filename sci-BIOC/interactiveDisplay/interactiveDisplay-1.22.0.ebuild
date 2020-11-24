@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND=">=sci-BIOC/interactiveDisplayBase-1.7.3
+DEPEND="sci-BIOC/BiocGenerics
+	>=sci-BIOC/interactiveDisplayBase-1.7.3
 	sci-BIOC/AnnotationDbi
-	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	sci-BIOC/BiocGenerics
-	sci-CRAN/shiny
+	sci-CRAN/XML
 	sci-CRAN/RColorBrewer
+	sci-CRAN/shiny
+	sci-CRAN/ggplot2
+	sci-CRAN/reshape2
 	sci-CRAN/plyr
 	sci-CRAN/gridSVG
-	sci-CRAN/XML
 	sci-BIOC/Category
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

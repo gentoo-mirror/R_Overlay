@@ -22,21 +22,21 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/lme4-1.1.8
-	virtual/nlme
-	virtual/MASS
-	sci-CRAN/generics
-	virtual/Matrix
-	sci-CRAN/ggplot2
-	sci-CRAN/randtoolbox
-	sci-CRAN/tibble
-	sci-CRAN/cobs
-	sci-CRAN/mvtnorm
+DEPEND="virtual/survival
 	>=dev-lang/R-3.6.0
+	sci-CRAN/randtoolbox
+	sci-CRAN/ggplot2
+	sci-CRAN/tibble
+	sci-CRAN/mvtnorm
 	sci-CRAN/doParallel
-	virtual/survival
 	sci-CRAN/foreach
+	virtual/Matrix
 	>=sci-CRAN/Rcpp-0.12.7
+	virtual/nlme
+	sci-CRAN/cobs
+	sci-CRAN/generics
+	>=sci-CRAN/lme4-1.1.8
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -22,11 +22,11 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/ellipsis
 	sci-CRAN/vctrs
 	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/tibble
 	>=sci-CRAN/aweek-0.2.0
+	sci-CRAN/ggplot2
 	sci-CRAN/magrittr
 	sci-CRAN/pillar
 	sci-CRAN/data_table
-	sci-CRAN/ggplot2
-	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

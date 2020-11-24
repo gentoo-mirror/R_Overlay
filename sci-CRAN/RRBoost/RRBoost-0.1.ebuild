@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RRBoost_0.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/rpart
 	sci-CRAN/RobStatTM
+	virtual/rpart
 "
 RDEPEND="${DEPEND-}"

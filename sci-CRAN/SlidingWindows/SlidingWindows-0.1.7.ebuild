@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_xts? ( sci-CRAN/xts )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="sci-CRAN/nonlinearTseries
+DEPEND="sci-CRAN/PerformanceAnalytics
+	sci-CRAN/nonlinearTseries
 	sci-CRAN/DCCA
-	sci-CRAN/PerformanceAnalytics
 	sci-CRAN/TSEntropies
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

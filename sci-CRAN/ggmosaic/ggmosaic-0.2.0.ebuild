@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_nhanes? ( sci-CRAN/NHANES )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.0.0
-	>=dev-lang/R-3.2.0
-	>=sci-CRAN/plotly-4.5.5
-	>=sci-CRAN/productplots-0.1.1
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
+DEPEND=">=sci-CRAN/productplots-0.1.1
 	sci-CRAN/rlang
+	>=dev-lang/R-3.2.0
 	sci-CRAN/tidyr
+	>=sci-CRAN/ggplot2-3.0.0
+	sci-CRAN/dplyr
+	>=sci-CRAN/plotly-4.5.5
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

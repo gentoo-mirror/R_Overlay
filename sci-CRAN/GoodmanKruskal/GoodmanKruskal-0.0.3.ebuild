@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.4
-	virtual/class
 	sci-CRAN/corrplot
+	virtual/class
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

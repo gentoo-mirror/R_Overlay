@@ -26,9 +26,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/pryr
-	sci-CRAN/digest
-	sci-CRAN/glue
 	sci-CRAN/igraph
+	sci-CRAN/glue
 	sci-CRAN/magrittr
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

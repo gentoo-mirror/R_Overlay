@@ -13,7 +13,7 @@ LICENSE='GPL-3+'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=sci-CRAN/orloca-4.6
-	>=sci-CRAN/orloca_es-4.6
 	sci-CRAN/Rcmdr
+	>=sci-CRAN/orloca_es-4.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

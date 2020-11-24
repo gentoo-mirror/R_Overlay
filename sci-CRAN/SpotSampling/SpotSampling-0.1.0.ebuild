@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/BalancedSampling
 	sci-CRAN/pracma
-	sci-CRAN/WaveSampling
 	virtual/MASS
+	sci-CRAN/WaveSampling
 	sci-CRAN/sampling
 "
 RDEPEND="${DEPEND-}"

@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ape
-	virtual/MASS
-	sci-CRAN/corpcor
-	sci-CRAN/expm
-	virtual/nnet
-	sci-CRAN/phangorn
-	sci-CRAN/Rmpfr
-	sci-CRAN/igraph
-	sci-CRAN/numDeriv
+DEPEND="sci-CRAN/numDeriv
 	sci-CRAN/GenSA
 	sci-CRAN/nloptr
+	sci-CRAN/expm
+	sci-CRAN/ape
+	sci-CRAN/corpcor
+	virtual/MASS
+	virtual/nnet
+	sci-CRAN/phangorn
 	sci-CRAN/viridis
+	sci-CRAN/Rmpfr
+	sci-CRAN/igraph
 	sci-CRAN/phytools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

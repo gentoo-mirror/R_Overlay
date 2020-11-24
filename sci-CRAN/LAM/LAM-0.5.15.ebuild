@@ -20,9 +20,9 @@ R_SUGGESTS="
 	r_suggests_starts? ( sci-CRAN/STARTS )
 	r_suggests_tam? ( sci-CRAN/TAM )
 "
-DEPEND=">=dev-lang/R-3.1
+DEPEND="sci-CRAN/sirt
 	sci-CRAN/Rcpp
-	sci-CRAN/sirt
+	>=dev-lang/R-3.1
 	sci-CRAN/CDM
 "
 RDEPEND="${DEPEND-}

@@ -27,18 +27,18 @@ R_SUGGESTS="
 	r_suggests_shiny? ( >=sci-CRAN/shiny-0.13.2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/httr-1.3.1
-	>=sci-CRAN/rlang-0.1.0
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/googleAuthR-1.3.0
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/tidyr-1.0.0
-	>=dev-lang/R-3.3.0
-	>=sci-CRAN/dplyr-0.8.0
+	>=sci-CRAN/httr-1.3.1
 	>=sci-CRAN/cli-2.0.2
+	>=sci-CRAN/dplyr-0.8.0
 	>=sci-CRAN/jsonlite-1.5
+	>=sci-CRAN/magrittr-1.5
 	sci-CRAN/memoise
+	>=sci-CRAN/rlang-0.1.0
+	>=sci-CRAN/assertthat-0.2.0
 	>=sci-CRAN/purrr-0.2.2
 	>=sci-CRAN/tibble-2.0.1
+	>=sci-CRAN/tidyr-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

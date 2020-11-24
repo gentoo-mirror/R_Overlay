@@ -28,11 +28,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/Rcpp-0.11.5
-	sci-CRAN/Hmisc
-	virtual/MASS
-	sci-CRAN/numDeriv
-	sci-CRAN/pracma
 	virtual/Matrix
+	sci-CRAN/pracma
+	virtual/MASS
+	sci-CRAN/Hmisc
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spDates_1.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/gdistance
-	sci-CRAN/gstat
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/rcarbon
+	sci-CRAN/gstat
+	>=dev-lang/R-3.5.0
+	sci-CRAN/gdistance
 	sci-CRAN/data_table
+	sci-CRAN/ggplot2
 	sci-CRAN/raster
 	sci-CRAN/smatr
 	sci-CRAN/viridisLite

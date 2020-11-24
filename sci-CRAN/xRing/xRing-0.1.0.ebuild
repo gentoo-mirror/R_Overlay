@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_detrender"
 R_SUGGESTS="r_suggests_detrender? ( sci-CRAN/detrendeR )"
 DEPEND="sci-CRAN/tkRplotR
-	sci-CRAN/imager
-	dev-lang/R[tk]
 	sci-CRAN/dplR
 	>=dev-lang/R-3.3
+	dev-lang/R[tk]
+	sci-CRAN/imager
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_waveslim? ( sci-CRAN/waveslim )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/gtools
-	sci-CRAN/dtt
+DEPEND="sci-CRAN/gtools
 	sci-CRAN/phonTools
 	sci-CRAN/infotheo
+	>=dev-lang/R-3.1.0
+	sci-CRAN/dtt
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

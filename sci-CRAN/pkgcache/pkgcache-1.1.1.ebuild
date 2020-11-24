@@ -28,20 +28,20 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND=">=sci-CRAN/cli-2.0.0
-	sci-CRAN/filelock
+DEPEND=">=sci-CRAN/callr-2.0.4.9000
 	sci-CRAN/digest
+	sci-CRAN/filelock
+	>=sci-CRAN/cli-2.0.0
 	>=sci-CRAN/curl-3.2
-	sci-CRAN/glue
 	sci-CRAN/prettyunits
+	>=dev-lang/R-3.1
+	sci-CRAN/assertthat
+	sci-CRAN/glue
 	sci-CRAN/R6
 	>=sci-CRAN/processx-3.3.0.9001
 	sci-CRAN/rappdirs
 	sci-CRAN/rlang
 	sci-CRAN/tibble
-	>=dev-lang/R-3.1
-	sci-CRAN/assertthat
-	>=sci-CRAN/callr-2.0.4.9000
 	sci-CRAN/uuid
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

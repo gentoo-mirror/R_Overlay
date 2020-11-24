@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_readxl? ( >=sci-CRAN/readxl-0.1.1 )
 "
 DEPEND=">=dev-lang/R-2.15.0
-	>=sci-CRAN/tkrplot-0.0.23
 	dev-lang/R[tk]
+	>=sci-CRAN/tkrplot-0.0.23
 	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

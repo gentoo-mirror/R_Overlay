@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/MolgenisAuth
-	sci-CRAN/urltools
-	sci-CRAN/stringr
-	sci-CRAN/base64enc
-	>=dev-lang/R-3.6
-	sci-CRAN/httr
+DEPEND=">=dev-lang/R-3.6
 	>=sci-CRAN/DSI-1.1.0
+	sci-CRAN/stringr
+	sci-CRAN/httr
+	sci-CRAN/MolgenisAuth
+	sci-CRAN/base64enc
+	sci-CRAN/urltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

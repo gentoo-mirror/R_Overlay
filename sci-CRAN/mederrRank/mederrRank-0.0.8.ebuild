@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mederrRank_0.0.8.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/BB
-	sci-CRAN/numDeriv
+DEPEND="sci-CRAN/numDeriv
+	sci-CRAN/BB
 "
 RDEPEND="${DEPEND-}"

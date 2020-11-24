@@ -27,13 +27,13 @@ R_SUGGESTS="
 	r_suggests_survey? ( sci-CRAN/survey )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/cli
-	>=sci-CRAN/rlang-0.3.0
-	>=sci-CRAN/jtools-2.0.3
-	sci-CRAN/crayon
-	sci-CRAN/generics
+DEPEND=">=sci-CRAN/jtools-2.0.3
 	sci-CRAN/tibble
+	sci-CRAN/generics
+	sci-CRAN/cli
+	sci-CRAN/ggplot2
+	sci-CRAN/crayon
+	>=sci-CRAN/rlang-0.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

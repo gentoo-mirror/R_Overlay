@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ComparisonCR_1.0.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-4.0.0
-	virtual/boot
 	sci-CRAN/cmprsk
+	virtual/boot
 	sci-CRAN/CIFsmry
 "
 RDEPEND="${DEPEND-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/SeqGSEA_1.24.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-BIOC/biomaRt
-	sci-BIOC/Biobase
-	sci-CRAN/doParallel
+DEPEND="sci-BIOC/Biobase
+	sci-BIOC/biomaRt
 	sci-BIOC/DESeq
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,16 +11,16 @@ SRC_URI="http://cran.r-project.org/src/contrib/CovSelHigh_1.1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/MASS
-	sci-CRAN/randomForest
-	sci-CRAN/doRNG
-	sci-CRAN/doParallel
-	sci-CRAN/glmnet
-	sci-CRAN/tmle
-	>=dev-lang/R-2.14.0
 	sci-CRAN/Matching
-	sci-CRAN/bindata
 	sci-CRAN/bnlearn
+	sci-CRAN/bindata
+	sci-CRAN/doRNG
 	sci-CRAN/foreach
 	sci-CRAN/xtable
+	sci-CRAN/doParallel
+	>=dev-lang/R-2.14.0
+	sci-CRAN/glmnet
+	sci-CRAN/randomForest
+	sci-CRAN/tmle
 "
 RDEPEND="${DEPEND-}"

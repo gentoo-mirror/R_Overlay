@@ -19,25 +19,25 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_ukgrid? ( sci-CRAN/UKgrid )
 "
-DEPEND=">=sci-CRAN/scales-1.0.0
-	>=sci-CRAN/future_apply-1.0.1
-	>=sci-CRAN/dplyr-0.7.5
+DEPEND=">=dev-lang/R-3.0.2
 	>=sci-CRAN/forecastHybrid-2.0.10
-	>=dev-lang/R-3.0.2
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/zoo-1.8.0
 	>=sci-CRAN/purrr-0.2.5
-	>=sci-CRAN/xts-0.12.0
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/future_apply-1.0.1
 	>=sci-CRAN/reshape2-1.4.2
-	>=sci-CRAN/data_table-1.11.2
-	>=sci-CRAN/forecast-8.2
-	>=sci-CRAN/lubridate-1.6.0
-	>=sci-CRAN/plotly-4.7.1
-	>=sci-CRAN/RColorBrewer-1.1.2
-	>=sci-CRAN/tsibble-0.8.2
-	>=sci-CRAN/future-1.10.0
+	>=sci-CRAN/zoo-1.8.0
 	>=sci-CRAN/tidyr-0.8.1
 	>=sci-CRAN/viridis-0.5.1
+	>=sci-CRAN/data_table-1.11.2
+	>=sci-CRAN/forecast-8.2
+	>=sci-CRAN/dplyr-0.7.5
+	>=sci-CRAN/lubridate-1.6.0
+	>=sci-CRAN/scales-1.0.0
+	>=sci-CRAN/plotly-4.7.1
+	>=sci-CRAN/tsibble-0.8.2
+	>=sci-CRAN/future-1.10.0
+	>=sci-CRAN/xts-0.12.0
+	>=sci-CRAN/RColorBrewer-1.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

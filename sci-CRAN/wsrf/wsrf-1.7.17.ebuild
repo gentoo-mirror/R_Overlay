@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_rattle_data? ( >=sci-CRAN/rattle_data-1.0.2 )
 	r_suggests_stringr? ( >=sci-CRAN/stringr-0.6.2 )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.10.2
-	>=dev-lang/R-3.3.0
+DEPEND=">=dev-lang/R-3.3.0
+	>=sci-CRAN/Rcpp-0.10.2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

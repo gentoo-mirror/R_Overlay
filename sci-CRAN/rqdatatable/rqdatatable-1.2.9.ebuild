@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/data_table-1.12.2
-	>=sci-CRAN/wrapr-2.0.2
 	>=sci-CRAN/rquery-1.4.5
+	>=sci-CRAN/wrapr-2.0.2
+	>=sci-CRAN/data_table-1.12.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

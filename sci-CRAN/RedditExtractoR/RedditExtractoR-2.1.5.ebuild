@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/RedditExtractoR_2.1.5.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/RJSONIO
-	sci-CRAN/magrittr
-	sci-CRAN/igraph
 	sci-CRAN/visNetwork
 	sci-CRAN/dplyr
-	sci-CRAN/rlang
+	sci-CRAN/igraph
 	>=dev-lang/R-3.2.0
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}"

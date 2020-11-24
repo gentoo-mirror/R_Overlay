@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HAC_1.0-8.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/copula
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/copula
 	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

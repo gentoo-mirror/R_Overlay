@@ -20,22 +20,22 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/pROC
-	sci-CRAN/scales
-	sci-CRAN/corrplot
-	sci-CRAN/stringr
-	sci-CRAN/infotheo
-	sci-CRAN/beanplot
-	>=dev-lang/R-3.5.0
-	sci-CRAN/glmnet
-	sci-CRAN/gridExtra
-	sci-CRAN/ParamHelpers
 	sci-CRAN/RColorBrewer
 	sci-CRAN/progress
+	sci-CRAN/ParamHelpers
+	sci-CRAN/PRROC
+	sci-CRAN/scales
+	sci-CRAN/stringr
+	virtual/Matrix
+	sci-CRAN/gridExtra
 	sci-BIOC/phyloseq
+	>=dev-lang/R-3.5.0
+	sci-CRAN/infotheo
+	sci-CRAN/mlr
+	sci-CRAN/glmnet
+	sci-CRAN/beanplot
 	sci-CRAN/gridBase
 	sci-CRAN/LiblineaR
-	sci-CRAN/mlr
-	virtual/Matrix
-	sci-CRAN/PRROC
+	sci-CRAN/corrplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

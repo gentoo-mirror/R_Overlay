@@ -11,15 +11,15 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/affylmGUI_
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/tkrplot
-	sci-BIOC/limma
+	sci-BIOC/gcrma
+	sci-BIOC/affyPLM
 	sci-BIOC/affy
-	sci-CRAN/R2HTML
 	sci-BIOC/affyio
 	dev-lang/R[tk]
-	sci-BIOC/affyPLM
-	sci-BIOC/gcrma
+	sci-BIOC/limma
 	sci-BIOC/BiocGenerics
 	sci-CRAN/BiocManager
+	sci-CRAN/R2HTML
 	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}"

@@ -13,12 +13,12 @@ LICENSE='Artistic-2'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-BIOC/Biostrings-2.32.0
-	sci-BIOC/limma
-	sci-BIOC/S4Vectors
 	sci-BIOC/zlibbioc
-	sci-CRAN/logspline
+	>=sci-BIOC/Biostrings-2.32.0
 	sci-BIOC/IRanges
+	sci-CRAN/logspline
+	sci-BIOC/S4Vectors
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

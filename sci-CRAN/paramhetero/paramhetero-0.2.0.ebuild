@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/paramhetero_0.2.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
-	sci-CRAN/lme4
+DEPEND="sci-CRAN/lme4
 	sci-CRAN/survey
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.5.0
 	sci-CRAN/ggpubr
 "
 RDEPEND="${DEPEND-}"

@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_tk? ( dev-lang/R[tk] )
 	r_suggests_tkrplot? ( sci-CRAN/tkrplot )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/metafor
-	>=sci-CRAN/aws-2.4
+DEPEND="sci-CRAN/metafor
 	virtual/nlme
+	>=dev-lang/R-3.3.0
+	>=sci-CRAN/aws-2.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/COSINE_2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/genalg
 	virtual/MASS
+	sci-CRAN/genalg
 "
 RDEPEND="${DEPEND-}"

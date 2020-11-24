@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MedSurvey_1.1.1.3.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-2.50
-	sci-CRAN/survey
 	virtual/Matrix
+	sci-CRAN/survey
 	sci-CRAN/lavaan
 "
 RDEPEND="${DEPEND-}"

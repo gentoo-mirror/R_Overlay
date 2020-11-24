@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/quantilogram_2.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/np
+DEPEND="sci-CRAN/quantreg
+	sci-CRAN/np
 	sci-CRAN/SparseM
-	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-}"

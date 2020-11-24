@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/greyzoneSurv_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/survAUC
+DEPEND="virtual/survival
 	sci-CRAN/Hmisc
-	virtual/survival
+	sci-CRAN/survAUC
 "
 RDEPEND="${DEPEND-}"

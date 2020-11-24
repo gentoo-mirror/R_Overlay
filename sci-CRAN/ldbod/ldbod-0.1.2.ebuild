@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ldbod_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/mnormt
 	sci-CRAN/RANN
+	sci-CRAN/mnormt
 "
 RDEPEND="${DEPEND-}"

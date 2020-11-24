@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-2.15.1
-	>=sci-CRAN/ggplot2-0.9.3
-	>=sci-CRAN/XML2R-0.0.6
-	virtual/MASS
-	sci-CRAN/plyr
+DEPEND="virtual/MASS
 	sci-CRAN/hexbin
+	sci-CRAN/plyr
+	>=sci-CRAN/XML2R-0.0.6
+	>=dev-lang/R-2.15.1
+	>=sci-CRAN/ggplot2-0.9.3
 	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

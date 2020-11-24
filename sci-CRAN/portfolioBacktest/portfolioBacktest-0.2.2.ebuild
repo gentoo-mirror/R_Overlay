@@ -28,17 +28,17 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/digest
 	sci-CRAN/rlang
-	sci-CRAN/PerformanceAnalytics
-	sci-CRAN/ggplot2
 	sci-CRAN/R_utils
-	sci-CRAN/zoo
+	sci-CRAN/xts
 	sci-CRAN/quadprog
-	sci-CRAN/foreach
 	sci-CRAN/doSNOW
+	sci-CRAN/foreach
 	sci-CRAN/evaluate
+	sci-CRAN/ggplot2
+	sci-CRAN/PerformanceAnalytics
 	sci-CRAN/quantmod
 	sci-CRAN/snow
-	sci-CRAN/xts
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

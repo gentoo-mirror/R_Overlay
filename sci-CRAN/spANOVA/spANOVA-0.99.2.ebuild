@@ -11,24 +11,24 @@ SRC_URI="http://cran.r-project.org/src/contrib/spANOVA_0.99.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/spdep
-	sci-CRAN/xtable
-	sci-CRAN/mvtnorm
-	sci-CRAN/multcompView
-	virtual/MASS
-	virtual/Matrix
-	sci-CRAN/shinycssloaders
-	sci-CRAN/car
-	sci-CRAN/knitr
-	sci-CRAN/shinythemes
-	sci-CRAN/geoR
-	sci-CRAN/gtools
-	sci-CRAN/multcomp
-	sci-CRAN/ape
-	sci-CRAN/ScottKnott
 	sci-CRAN/shinyBS
-	sci-CRAN/DT
+	sci-CRAN/ape
+	sci-CRAN/multcompView
+	sci-CRAN/geoR
+	sci-CRAN/xtable
+	sci-CRAN/spdep
+	sci-CRAN/shinycssloaders
+	sci-CRAN/ScottKnott
+	sci-CRAN/car
 	sci-CRAN/rmarkdown
+	sci-CRAN/shinythemes
+	virtual/Matrix
+	sci-CRAN/multcomp
+	sci-CRAN/mvtnorm
+	sci-CRAN/DT
+	sci-CRAN/knitr
+	virtual/MASS
 	virtual/spatial
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}"

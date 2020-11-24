@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/BioMark_0.4.5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/pls
-	>=sci-CRAN/st-1.1.6
 	virtual/MASS
+	>=sci-CRAN/st-1.1.6
 	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

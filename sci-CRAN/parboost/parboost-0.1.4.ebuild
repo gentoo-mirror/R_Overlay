@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/parboost_0.1.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/iterators
-	sci-CRAN/doParallel
-	sci-CRAN/caret
-	sci-CRAN/mboost
-	>=dev-lang/R-3.0.1
-	sci-CRAN/party
+DEPEND=">=dev-lang/R-3.0.1
 	sci-CRAN/plyr
+	sci-CRAN/mboost
+	sci-CRAN/party
+	sci-CRAN/iterators
+	sci-CRAN/caret
 	sci-CRAN/glmnet
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-BIOC/fabia
-	sci-CRAN/pls
+DEPEND="sci-CRAN/pls
+	sci-CRAN/elasticnet
 	sci-CRAN/FactoMineR
 	sci-CRAN/randomcoloR
-	sci-CRAN/elasticnet
+	sci-BIOC/fabia
 	sci-CRAN/snowFT
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

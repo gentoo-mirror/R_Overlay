@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_mclust? ( sci-CRAN/mclust )
 "
-DEPEND="sci-CRAN/abind
+DEPEND=">=dev-lang/R-3.1.2
+	sci-CRAN/reshape2
+	sci-CRAN/ggrepel
+	>=sci-CRAN/ggpubr-0.1.5
 	sci-CRAN/dendextend
+	>=sci-CRAN/ggplot2-2.2.0
+	sci-CRAN/abind
 	virtual/cluster
 	sci-CRAN/FactoMineR
-	sci-CRAN/ggrepel
-	>=dev-lang/R-3.1.2
-	>=sci-CRAN/ggplot2-2.2.0
-	>=sci-CRAN/ggpubr-0.1.5
-	sci-CRAN/reshape2
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

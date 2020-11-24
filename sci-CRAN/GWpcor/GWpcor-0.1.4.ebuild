@@ -10,18 +10,18 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GWpcor_0.1.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/sf
-	sci-CRAN/dplyr
-	sci-CRAN/sp
-	sci-CRAN/corpcor
-	>=dev-lang/R-3.5.0
-	sci-CRAN/geodist
-	sci-CRAN/pracma
-	sci-CRAN/foreach
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/doParallel
+	sci-CRAN/pracma
+	sci-CRAN/sf
+	sci-CRAN/sp
+	sci-CRAN/dplyr
+	sci-CRAN/geodist
+	sci-CRAN/corpcor
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}
 	sci-libs/geos
-	sci-libs/gdal
 	sci-libs/proj
+	sci-libs/gdal
 "

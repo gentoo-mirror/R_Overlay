@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_reticulate? ( sci-CRAN/reticulate )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/RcppProgress
+DEPEND="virtual/lattice
+	sci-CRAN/visNetwork
+	sci-CRAN/DT
+	>=dev-lang/R-3.4.0
+	virtual/KernSmooth
+	sci-CRAN/png
 	sci-CRAN/xml2
 	>=sci-CRAN/Rcpp-0.10.0
-	sci-CRAN/png
+	sci-CRAN/RcppProgress
 	sci-CRAN/tiff
 	sci-CRAN/jpeg
 	sci-CRAN/gridExtra
-	virtual/KernSmooth
 	virtual/lattice
-	virtual/lattice
-	sci-CRAN/DT
-	sci-CRAN/visNetwork
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

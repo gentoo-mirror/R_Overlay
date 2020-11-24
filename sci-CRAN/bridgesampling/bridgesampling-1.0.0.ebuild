@@ -27,13 +27,13 @@ R_SUGGESTS="
 	r_suggests_runjags? ( sci-CRAN/runjags )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Brobdingnag
-	sci-CRAN/scales
-	sci-CRAN/stringr
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/coda
-	>=dev-lang/R-3.0.0
 	sci-CRAN/mvtnorm
+	sci-CRAN/Brobdingnag
 	virtual/Matrix
+	sci-CRAN/stringr
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

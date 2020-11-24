@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/haploReconstruct_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.2
-	sci-CRAN/gplots
-	sci-CRAN/dbscan
-	sci-CRAN/igraph
-	sci-CRAN/data_table
 	sci-CRAN/zoo
+	sci-CRAN/gplots
+	sci-CRAN/igraph
 	sci-CRAN/foreach
+	sci-CRAN/dbscan
+	sci-CRAN/data_table
 	sci-CRAN/stringi
 	virtual/Matrix
 "

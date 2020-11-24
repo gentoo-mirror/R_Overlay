@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-1.0.5
 	sci-CRAN/sccore
 	virtual/Matrix
 	sci-CRAN/igraph
 	virtual/Matrix
-	>=sci-CRAN/Rcpp-1.0.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "

@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_smncensreg? ( sci-CRAN/SMNCensReg )
 "
 DEPEND="sci-CRAN/ssym
-	sci-CRAN/optimx
 	virtual/Matrix
+	sci-CRAN/optimx
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

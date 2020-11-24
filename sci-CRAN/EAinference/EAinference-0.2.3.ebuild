@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/msm
+DEPEND=">=dev-lang/R-3.2.3
+	sci-CRAN/Rcpp
+	sci-CRAN/msm
 	sci-CRAN/mvtnorm
-	sci-CRAN/hdi
-	>=dev-lang/R-3.2.3
 	sci-CRAN/limSolve
 	virtual/MASS
-	sci-CRAN/Rcpp
+	sci-CRAN/hdi
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

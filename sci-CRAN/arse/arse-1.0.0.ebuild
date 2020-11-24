@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/arse_1.0.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
 	sci-CRAN/pracma
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

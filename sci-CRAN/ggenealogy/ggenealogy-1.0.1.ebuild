@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-3.0.0 )
 	r_suggests_stringr? ( >=sci-CRAN/stringr-0.6.2 )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/ggplot2-2.2.0
-	>=sci-CRAN/reshape2-1.4
-	>=sci-CRAN/igraph-0.7.1
-	>=sci-CRAN/plyr-1.8.1
-	>=sci-CRAN/plotly-4.5.6
+DEPEND=">=sci-CRAN/reshape2-1.4
 	>=sci-CRAN/tibble-1.2
+	>=sci-CRAN/plyr-1.8.1
+	>=sci-CRAN/ggplot2-2.2.0
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/igraph-0.7.1
+	>=sci-CRAN/plotly-4.5.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_vcr? ( sci-CRAN/vcr )
 "
-DEPEND="sci-CRAN/digest
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/lutz
+	sci-CRAN/digest
 	sci-CRAN/httr
-	sci-CRAN/jsonlite
 	>=dev-lang/R-3.5.0
 	sci-CRAN/lubridate
 "

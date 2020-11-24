@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_prettydoc? ( sci-CRAN/prettydoc )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-BIOC/Biostrings
 	sci-CRAN/magrittr
+	sci-BIOC/Biostrings
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -12,16 +12,16 @@ LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/stringr-1.0.0
 	sci-CRAN/strucchange
-	sci-CRAN/bcp
-	sci-CRAN/foreach
 	sci-CRAN/plyr
-	sci-CRAN/doParallel
-	sci-CRAN/gtools
+	sci-CRAN/iterators
 	sci-CRAN/raster
 	sci-CRAN/sp
 	>=dev-lang/R-2.15.3
 	sci-CRAN/zoo
 	sci-CRAN/jpeg
-	sci-CRAN/iterators
+	sci-CRAN/bcp
+	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}"

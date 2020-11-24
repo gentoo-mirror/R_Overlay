@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/tibble
-	sci-CRAN/rlang
-	sci-CRAN/forcats
-	sci-CRAN/knitr
 	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
+	sci-CRAN/forcats
 	sci-CRAN/msm
+	sci-CRAN/dplyr
+	sci-CRAN/tibble
+	sci-CRAN/knitr
+	sci-CRAN/rlang
 	sci-CRAN/data_table
 	virtual/survival
 	sci-CRAN/Rdpack

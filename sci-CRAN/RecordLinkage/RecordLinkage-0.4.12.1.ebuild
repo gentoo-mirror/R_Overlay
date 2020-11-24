@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/ada
-	sci-CRAN/ipred
-	>=sci-CRAN/data_table-1.7.8
-	sci-CRAN/evd
-	>=dev-lang/R-3.5.0
-	sci-CRAN/ff
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/e1071
 	>=sci-CRAN/RSQLite-1.0.0
 	sci-CRAN/DBI
-	virtual/rpart
 	virtual/nnet
+	sci-CRAN/ff
+	virtual/rpart
+	sci-CRAN/ada
+	sci-CRAN/ipred
+	sci-CRAN/evd
+	>=sci-CRAN/data_table-1.7.8
 	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/castor_1.6.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/naturalsort
-	>=sci-CRAN/Rcpp-0.12.10
+DEPEND=">=sci-CRAN/Rcpp-0.12.10
 	sci-CRAN/nloptr
+	sci-CRAN/naturalsort
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

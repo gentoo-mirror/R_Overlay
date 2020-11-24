@@ -42,8 +42,8 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/digest
 	sci-CRAN/Rcpp
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

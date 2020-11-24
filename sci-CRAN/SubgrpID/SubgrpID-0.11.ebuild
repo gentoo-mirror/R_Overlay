@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SubgrpID_0.11.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/survival
+DEPEND="sci-CRAN/AIM
 	sci-CRAN/glmnet
-	virtual/rpart
-	sci-CRAN/AIM
-	sci-CRAN/ggplot2
 	virtual/Matrix
+	sci-CRAN/ggplot2
+	virtual/survival
+	virtual/rpart
 "
 RDEPEND="${DEPEND-}"

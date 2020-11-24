@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ebmc_1.0.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/e1071
-	sci-CRAN/C50
 	virtual/rpart
+	sci-CRAN/C50
 	sci-CRAN/DMwR
 	sci-CRAN/randomForest
 	sci-CRAN/pROC

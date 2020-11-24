@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/BDEsize_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/fpow
+	sci-CRAN/shiny
 	sci-CRAN/shinyalert
 	sci-CRAN/ggplot2
-	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"

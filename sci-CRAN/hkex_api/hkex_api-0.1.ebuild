@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/hkex.api_0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/httr
 	sci-CRAN/RCurl
 	sci-CRAN/XML
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

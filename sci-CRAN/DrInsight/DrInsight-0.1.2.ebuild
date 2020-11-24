@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/DrInsight_0.1.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-BIOC/qusage-2.12.0
 	>=sci-CRAN/igraph-1.1.2
+	>=sci-BIOC/qusage-2.12.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

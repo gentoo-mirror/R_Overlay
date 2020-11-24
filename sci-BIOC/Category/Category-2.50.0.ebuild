@@ -23,16 +23,16 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_xtable? ( >=sci-CRAN/xtable-1.4.6 )
 "
-DEPEND="sci-BIOC/Biobase
-	sci-BIOC/genefilter
-	virtual/Matrix
-	sci-BIOC/AnnotationDbi
+DEPEND="sci-CRAN/DBI
 	sci-BIOC/BiocGenerics
 	sci-BIOC/annotate
-	sci-CRAN/DBI
+	sci-BIOC/AnnotationDbi
+	sci-BIOC/Biobase
+	virtual/Matrix
 	sci-BIOC/graph
 	sci-BIOC/RBGL
 	sci-BIOC/GSEABase
+	sci-BIOC/genefilter
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -18,8 +18,8 @@ R_SUGGESTS="
 DEPEND="sci-CRAN/foreach
 	sci-CRAN/seqinr
 	sci-CRAN/plyr
-	sci-CRAN/readr
 	sci-CRAN/doParallel
+	sci-CRAN/readr
 	sci-CRAN/stringr
 	sci-CRAN/dplyr
 	sci-CRAN/AhoCorasickTrie

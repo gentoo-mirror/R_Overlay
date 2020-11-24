@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/magrittr
-	>=sci-CRAN/lubridate-1.7
-	>=sci-CRAN/stringr-1.2
-	>=sci-CRAN/xts-0.10
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/plyr
 	>=sci-CRAN/ncdf4-1.16
+	>=dev-lang/R-3.1
+	>=sci-CRAN/stringr-1.2
+	>=sci-CRAN/lubridate-1.7
+	sci-CRAN/magrittr
+	>=sci-CRAN/xts-0.10
 	sci-CRAN/udunits2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

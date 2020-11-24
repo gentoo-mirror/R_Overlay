@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/jsTree_1.0.1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/htmlwidgets
 	sci-CRAN/data_table
+	sci-CRAN/htmlwidgets
 "
 RDEPEND="${DEPEND-}"

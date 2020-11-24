@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/IndepTest_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/FNN
-	sci-CRAN/Rdpack
 	sci-CRAN/mvtnorm
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-}"

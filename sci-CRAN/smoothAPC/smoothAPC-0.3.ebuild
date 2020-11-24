@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_demography? ( sci-CRAN/demography )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/lmtest
-	sci-CRAN/colorspace
-	sci-CRAN/rgl
-	sci-CRAN/quantreg
-	>=dev-lang/R-3.2.2
+DEPEND=">=dev-lang/R-3.2.2
 	sci-CRAN/SparseM
+	sci-CRAN/quantreg
+	sci-CRAN/rgl
+	sci-CRAN/lmtest
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

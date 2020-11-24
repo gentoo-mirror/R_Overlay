@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 	r_suggests_tikzdevice? ( sci-CRAN/tikzDevice )
 "
-DEPEND="sci-CRAN/inline
+DEPEND="sci-CRAN/R6
+	sci-CRAN/inline
 	sci-CRAN/lmtest
-	virtual/nlme
-	sci-CRAN/deSolve
-	sci-CRAN/R6
 	sci-CRAN/numDeriv
+	sci-CRAN/deSolve
 	sci-CRAN/pkgbuild
+	virtual/nlme
 	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

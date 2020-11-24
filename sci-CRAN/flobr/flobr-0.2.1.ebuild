@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/chk
-	sci-CRAN/blob
+DEPEND="sci-CRAN/blob
 	sci-CRAN/lifecycle
+	>=dev-lang/R-3.5
+	sci-CRAN/chk
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

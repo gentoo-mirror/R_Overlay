@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	sci-CRAN/invgamma
+	sci-CRAN/etrunct
+	>=sci-CRAN/Rcpp-0.10.5
+	>=dev-lang/R-3.1.0
 	sci-CRAN/truncnorm
 	sci-CRAN/mixsqp
-	>=sci-CRAN/Rcpp-0.10.5
 	sci-CRAN/SQUAREM
-	sci-CRAN/etrunct
-	sci-CRAN/invgamma
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

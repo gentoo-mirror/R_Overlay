@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 "
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-CRAN/shiny
 	>=dev-lang/R-2.14
+	sci-CRAN/igraph
 	sci-CRAN/arules
-	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

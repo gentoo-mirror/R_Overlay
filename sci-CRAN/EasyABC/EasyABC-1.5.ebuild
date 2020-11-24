@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/EasyABC_1.5.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/abc
+	sci-CRAN/pls
 	sci-CRAN/mnormt
 	virtual/MASS
-	sci-CRAN/pls
 	sci-CRAN/lhs
+	sci-CRAN/abc
 	sci-CRAN/tensorA
 "
 RDEPEND="${DEPEND-}"

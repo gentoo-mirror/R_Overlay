@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_sn? ( sci-CRAN/sn )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/numDeriv
-	sci-CRAN/scales
-	sci-CRAN/ggplot2
-	sci-CRAN/mvtnorm
-	virtual/survival
-	sci-CRAN/tensor
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/abind
+	sci-CRAN/tensor
+	sci-CRAN/numDeriv
+	sci-CRAN/mvtnorm
+	sci-CRAN/scales
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_pls? ( sci-CRAN/pls )
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 "
-DEPEND=">=dev-lang/R-2.14
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/signal
 	sci-CRAN/plyr
-	sci-CRAN/stringr
+	>=dev-lang/R-2.14
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
 	sci-CRAN/baseline
-	sci-CRAN/signal
 	sci-CRAN/epiR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

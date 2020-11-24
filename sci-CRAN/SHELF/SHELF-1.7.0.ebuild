@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/Hmisc
-	virtual/MASS
-	sci-CRAN/ggplot2
-	sci-CRAN/ggridges
-	sci-CRAN/shiny
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/tidyr
-	sci-CRAN/ggExtra
-	sci-CRAN/gridExtra
-	sci-CRAN/scales
 	sci-CRAN/rmarkdown
+	sci-CRAN/scales
+	sci-CRAN/gridExtra
 	virtual/Matrix
+	>=dev-lang/R-3.5.0
+	sci-CRAN/shiny
+	virtual/MASS
+	sci-CRAN/ggExtra
+	sci-CRAN/ggridges
+	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

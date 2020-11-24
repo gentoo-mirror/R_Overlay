@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/coda
 	sci-CRAN/expm
-	sci-CRAN/zoo
-	sci-CRAN/fanplot
-	virtual/MASS
 	sci-CRAN/numDeriv
+	sci-CRAN/zoo
+	virtual/MASS
+	sci-CRAN/coda
+	sci-CRAN/fanplot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

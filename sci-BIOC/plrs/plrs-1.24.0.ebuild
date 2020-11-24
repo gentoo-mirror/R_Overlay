@@ -12,12 +12,12 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mvtnorm"
 R_SUGGESTS="r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )"
-DEPEND="sci-BIOC/marray
-	sci-CRAN/Rcsdp
+DEPEND="sci-BIOC/Biobase
 	sci-BIOC/BiocGenerics
+	sci-BIOC/marray
 	sci-BIOC/CGHbase
-	sci-BIOC/Biobase
 	sci-CRAN/ic_infer
 	sci-CRAN/quadprog
+	sci-CRAN/Rcsdp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

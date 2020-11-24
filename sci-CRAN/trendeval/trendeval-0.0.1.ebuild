@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_outbreaks? ( sci-CRAN/outbreaks )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/yardstick
-	sci-CRAN/rsample
+DEPEND="sci-CRAN/ellipsis
 	sci-CRAN/tidyr
 	sci-CRAN/trending
-	sci-CRAN/ellipsis
+	sci-CRAN/rsample
+	sci-CRAN/yardstick
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

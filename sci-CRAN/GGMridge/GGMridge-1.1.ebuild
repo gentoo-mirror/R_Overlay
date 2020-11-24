@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GGMridge_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

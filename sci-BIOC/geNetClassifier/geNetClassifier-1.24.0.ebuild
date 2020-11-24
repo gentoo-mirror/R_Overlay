@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-2.10.1
-	sci-BIOC/minet
 	sci-CRAN/e1071
-	>=sci-BIOC/Biobase-2.5.5
 	sci-BIOC/EBarrays
+	sci-BIOC/minet
+	>=sci-BIOC/Biobase-2.5.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

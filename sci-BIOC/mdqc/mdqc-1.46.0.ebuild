@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/mdqc_1.46.0.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND="virtual/cluster
-	virtual/MASS
+DEPEND="virtual/MASS
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

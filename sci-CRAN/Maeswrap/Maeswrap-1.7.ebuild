@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Maeswrap_1.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/rgl
-	sci-CRAN/stringr
-	sci-CRAN/geometry
+DEPEND="sci-CRAN/stringr
+	sci-CRAN/rgl
 	virtual/lattice
+	sci-CRAN/geometry
 "
 RDEPEND="${DEPEND-}"

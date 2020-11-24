@@ -13,9 +13,9 @@ LICENSE='LGPL-2.1+'
 IUSE="${IUSE-} r_suggests_biobase"
 R_SUGGESTS="r_suggests_biobase? ( sci-BIOC/Biobase )"
 DEPEND="virtual/MASS
-	>=sci-BIOC/Biobase-1.13.41
-	>=sci-BIOC/affy-1.20.0
 	virtual/MASS
+	>=sci-BIOC/affy-1.20.0
+	>=sci-BIOC/Biobase-1.13.41
 	sci-BIOC/affy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

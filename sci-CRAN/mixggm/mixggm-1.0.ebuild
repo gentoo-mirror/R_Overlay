@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mixggm_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/GA-3.1
-	sci-CRAN/network
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/memoise
+	>=sci-CRAN/GA-3.1
 	>=sci-CRAN/mclust-5.4
-	sci-CRAN/memoise
 	>=dev-lang/R-3.3
 	sci-CRAN/foreach
+	sci-CRAN/network
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

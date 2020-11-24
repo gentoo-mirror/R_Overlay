@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-CRAN/RColorBrewer
-	sci-CRAN/scales
 	sci-CRAN/reshape
+	sci-CRAN/scales
 	>=dev-lang/R-3.0.2
-	sci-CRAN/igraph
 	sci-CRAN/ggplot2
+	sci-CRAN/igraph
 	sci-CRAN/gridExtra
 	virtual/Matrix
 "

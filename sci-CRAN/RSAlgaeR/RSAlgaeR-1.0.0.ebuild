@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RSAlgaeR_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/hydroGOF
-	sci-CRAN/lubridate
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/hydroGOF
 	sci-CRAN/cvTools
+	sci-CRAN/ggplot2
+	sci-CRAN/lubridate
+	sci-CRAN/plyr
 	sci-CRAN/mblm
 "
 RDEPEND="${DEPEND-}"

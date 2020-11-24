@@ -18,21 +18,21 @@ R_SUGGESTS="
 	r_suggests_maps? ( sci-CRAN/maps )
 	r_suggests_quantreg? ( sci-CRAN/quantreg )
 "
-DEPEND="sci-CRAN/purrr
-	virtual/lattice
-	sci-CRAN/lubridate
-	virtual/cluster
-	sci-CRAN/rlang
+DEPEND=">=dev-lang/R-3.2.0
+	>=sci-CRAN/dplyr-1.0
 	sci-CRAN/hexbin
-	>=dev-lang/R-3.2.0
-	sci-CRAN/tidyr
-	sci-CRAN/readr
-	virtual/MASS
 	virtual/mgcv
-	sci-CRAN/Rcpp
 	virtual/lattice
 	sci-CRAN/mapproj
-	>=sci-CRAN/dplyr-1.0
+	sci-CRAN/Rcpp
+	sci-CRAN/purrr
+	virtual/MASS
+	virtual/cluster
+	virtual/lattice
+	sci-CRAN/rlang
+	sci-CRAN/tidyr
+	sci-CRAN/lubridate
+	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

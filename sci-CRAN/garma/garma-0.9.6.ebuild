@@ -27,14 +27,14 @@ R_SUGGESTS="
 	r_suggests_yardstick? ( sci-CRAN/yardstick )
 "
 DEPEND="sci-CRAN/forecast
-	sci-CRAN/Rsolnp
-	sci-CRAN/signal
 	sci-CRAN/pracma
+	sci-CRAN/signal
+	sci-CRAN/FKF
 	sci-CRAN/ggplot2
+	sci-CRAN/crayon
+	sci-CRAN/Rsolnp
 	sci-CRAN/zoo
 	sci-CRAN/lubridate
-	sci-CRAN/FKF
 	sci-CRAN/nloptr
-	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/ivsacim_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/lava
 	>=sci-CRAN/Rcpp-1.0.5
 	virtual/survival
 	sci-CRAN/timereg
+	sci-CRAN/lava
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

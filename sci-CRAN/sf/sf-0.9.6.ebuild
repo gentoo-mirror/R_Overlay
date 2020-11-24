@@ -50,16 +50,16 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/DBI-0.8
 	sci-CRAN/magrittr
-	>=sci-CRAN/Rcpp-0.12.18
-	>=sci-CRAN/units-0.6.0
-	>=dev-lang/R-3.3.0
 	virtual/class
+	>=sci-CRAN/Rcpp-0.12.18
+	>=dev-lang/R-3.3.0
+	>=sci-CRAN/units-0.6.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
 	sci-libs/proj
-	sci-libs/gdal
 	sci-libs/geos
+	sci-libs/gdal
 	${R_SUGGESTS-}
 "
 

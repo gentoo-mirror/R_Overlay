@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MixedPsy_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/mnormt
-	virtual/boot
-	sci-CRAN/brglm
+DEPEND="sci-CRAN/brglm
 	sci-CRAN/lme4
 	sci-CRAN/beepr
+	>=dev-lang/R-3.1.0
+	virtual/boot
 	virtual/Matrix
+	sci-CRAN/mnormt
 "
 RDEPEND="${DEPEND-}"

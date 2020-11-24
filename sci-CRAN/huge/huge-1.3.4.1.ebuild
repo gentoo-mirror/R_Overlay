@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/huge_1.3.4.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/MASS
-	sci-CRAN/igraph
-	sci-CRAN/Rcpp
 	virtual/Matrix
+	sci-CRAN/Rcpp
+	sci-CRAN/igraph
 	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}

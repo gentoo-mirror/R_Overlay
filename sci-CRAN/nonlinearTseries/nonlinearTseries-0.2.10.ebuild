@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_plot3d? ( sci-CRAN/plot3D )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	virtual/Matrix
-	sci-CRAN/tseries
-	sci-CRAN/zoo
-	sci-CRAN/rgl
+DEPEND="virtual/Matrix
 	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/tseries
+	sci-CRAN/rgl
+	sci-CRAN/zoo
+	>=dev-lang/R-3.3.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

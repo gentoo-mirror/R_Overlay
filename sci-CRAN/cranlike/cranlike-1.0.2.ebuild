@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_zip? ( sci-CRAN/zip )
 "
 DEPEND=">=sci-CRAN/desc-1.1.0
-	sci-CRAN/DBI
-	sci-CRAN/RSQLite
 	sci-CRAN/debugme
+	sci-CRAN/RSQLite
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

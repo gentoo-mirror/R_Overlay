@@ -27,8 +27,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11 )
 "
 DEPEND=">=dev-lang/R-3.2
+	sci-CRAN/jsonlite
 	sci-CRAN/checkmate
 	>=sci-CRAN/httr-1.1
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

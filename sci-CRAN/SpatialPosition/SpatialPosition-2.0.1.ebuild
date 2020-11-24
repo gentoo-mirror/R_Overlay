@@ -21,16 +21,16 @@ R_SUGGESTS="
 	r_suggests_lwgeom? ( sci-CRAN/lwgeom )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/isoband
 	sci-CRAN/sf
-	sci-CRAN/isoband
+	sci-CRAN/rgeos
+	>=dev-lang/R-3.5.0
 	sci-CRAN/sp
 	sci-CRAN/raster
-	sci-CRAN/rgeos
 "
 RDEPEND="${DEPEND-}
 	sci-libs/gdal
-	sci-libs/proj
 	sci-libs/geos
+	sci-libs/proj
 	${R_SUGGESTS-}
 "

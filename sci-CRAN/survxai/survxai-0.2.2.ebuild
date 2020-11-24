@@ -27,11 +27,11 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND="sci-CRAN/survminer
-	sci-CRAN/scales
-	sci-CRAN/pec
-	sci-CRAN/ggplot2
 	sci-CRAN/prodlim
+	sci-CRAN/pec
+	sci-CRAN/scales
 	sci-CRAN/breakDown
+	sci-CRAN/ggplot2
 	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

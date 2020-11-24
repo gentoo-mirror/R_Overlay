@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/ggplot2
-	>=sci-CRAN/deldir-0.0.18
-	sci-CRAN/igraph
-	>=sci-CRAN/HistData-0.7.8
-	>=dev-lang/R-3.4
-	virtual/KernSmooth
-	sci-CRAN/pracma
+DEPEND=">=sci-CRAN/deldir-0.0.18
 	sci-CRAN/RColorBrewer
+	virtual/KernSmooth
+	sci-CRAN/igraph
+	sci-CRAN/ggplot2
 	sci-CRAN/sp
+	>=dev-lang/R-3.4
+	>=sci-CRAN/HistData-0.7.8
+	sci-CRAN/pracma
 	sci-CRAN/threejs
 	sci-CRAN/TSP
 "

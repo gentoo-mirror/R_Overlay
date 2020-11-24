@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 "
 DEPEND="sci-CRAN/zoo
-	sci-CRAN/magrittr
 	virtual/boot
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

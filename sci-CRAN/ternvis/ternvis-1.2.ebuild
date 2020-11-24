@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ternvis_1.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/quadprog
-	sci-CRAN/maps
 	sci-CRAN/dichromat
+	sci-CRAN/maps
 "
 RDEPEND="${DEPEND-}"

@@ -28,19 +28,19 @@ R_SUGGESTS="
 	r_suggests_spreadr? ( sci-CRAN/spreadr )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/RColorBrewer
-	sci-CRAN/qgraph
-	sci-CRAN/plyr
-	sci-CRAN/igraph
-	sci-CRAN/car
-	sci-CRAN/effects
-	sci-CRAN/philentropy
-	sci-CRAN/dplyr
 	sci-CRAN/pbapply
+	sci-CRAN/dplyr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/philentropy
+	sci-CRAN/effects
+	sci-CRAN/plyr
 	sci-CRAN/purrr
 	sci-CRAN/magrittr
 	sci-CRAN/ggplot2
+	sci-CRAN/igraph
+	sci-CRAN/qgraph
 	sci-CRAN/scales
+	sci-CRAN/car
 	sci-CRAN/broom
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

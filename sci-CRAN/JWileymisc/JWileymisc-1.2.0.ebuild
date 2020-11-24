@@ -23,23 +23,23 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/multcompView
+	sci-CRAN/ggpubr
+	sci-CRAN/lme4
+	sci-CRAN/quantreg
 	virtual/mgcv
 	sci-CRAN/robustbase
-	>=sci-CRAN/extraoperators-0.1.1
-	sci-CRAN/ggthemes
-	sci-CRAN/quantreg
-	sci-CRAN/rms
-	sci-CRAN/lme4
-	sci-CRAN/multcompView
-	>=sci-CRAN/data_table-1.12.4
-	sci-CRAN/mice
-	sci-CRAN/ggpubr
-	>=sci-CRAN/ggplot2-2.2.0
-	sci-CRAN/emmeans
 	>=sci-CRAN/VGAM-1.1.2
-	>=sci-CRAN/lavaan-0.6.5
 	>=dev-lang/R-3.6.0
+	sci-CRAN/emmeans
+	virtual/MASS
+	>=sci-CRAN/data_table-1.12.4
+	sci-CRAN/rms
+	sci-CRAN/ggthemes
+	>=sci-CRAN/ggplot2-2.2.0
 	sci-CRAN/psych
+	>=sci-CRAN/lavaan-0.6.5
+	>=sci-CRAN/extraoperators-0.1.1
+	sci-CRAN/mice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

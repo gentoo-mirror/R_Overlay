@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_surveillance? ( sci-CRAN/surveillance )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/igraph
+	virtual/MASS
 	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

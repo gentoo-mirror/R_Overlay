@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/icesTAF_3.6.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/lattice
-	sci-CRAN/purrr
-	sci-CRAN/roxygen2
-	sci-CRAN/jsonlite
 	sci-CRAN/glue
+	sci-CRAN/jsonlite
+	sci-CRAN/roxygen2
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-}"

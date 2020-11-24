@@ -16,22 +16,22 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ape
-	sci-CRAN/coda
-	>=dev-lang/R-3.0.2
-	sci-CRAN/fields
+DEPEND="sci-CRAN/MCMCpack
+	sci-CRAN/ape
 	sci-CRAN/ggplot2
-	virtual/nnet
+	sci-CRAN/coda
+	sci-CRAN/fields
 	virtual/MASS
-	sci-CRAN/MCMCpack
-	sci-CRAN/pROC
+	>=dev-lang/R-3.0.2
 	sci-CRAN/abind
+	sci-CRAN/BayesLogit
 	sci-CRAN/FNN
 	sci-CRAN/sp
-	sci-CRAN/statmod
 	sci-CRAN/truncnorm
 	virtual/Matrix
 	sci-CRAN/rlang
-	sci-CRAN/BayesLogit
+	sci-CRAN/pROC
+	sci-CRAN/statmod
+	virtual/nnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

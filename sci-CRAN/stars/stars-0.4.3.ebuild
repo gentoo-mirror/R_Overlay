@@ -51,12 +51,12 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/sf-0.9.0
-	sci-CRAN/rlang
 	sci-CRAN/abind
 	virtual/class
-	sci-CRAN/units
+	>=sci-CRAN/sf-0.9.0
 	sci-CRAN/lwgeom
+	sci-CRAN/rlang
+	sci-CRAN/units
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

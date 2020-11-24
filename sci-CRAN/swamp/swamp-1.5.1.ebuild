@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/swamp_1.5.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/gplots
-	sci-BIOC/impute
-	virtual/MASS
+DEPEND="sci-BIOC/impute
 	sci-CRAN/amap
+	virtual/MASS
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-}"

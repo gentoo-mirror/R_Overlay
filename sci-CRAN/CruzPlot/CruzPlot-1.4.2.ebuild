@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_httr? ( sci-CRAN/httr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/marmap
-	sci-CRAN/shinydashboard
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/marmap
 	sci-CRAN/geosphere
-	sci-CRAN/shiny
-	sci-CRAN/mapdata
-	>=sci-CRAN/swfscDAS-0.3.0
-	sci-CRAN/dplyr
 	sci-CRAN/DT
+	sci-CRAN/mapdata
 	sci-CRAN/maps
+	sci-CRAN/shinydashboard
 	sci-CRAN/shinyjs
+	>=sci-CRAN/swfscDAS-0.3.0
+	sci-CRAN/shiny
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/foreach
 	virtual/Matrix
 	virtual/MASS
 	sci-CRAN/permute
-	sci-CRAN/foreach
 	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

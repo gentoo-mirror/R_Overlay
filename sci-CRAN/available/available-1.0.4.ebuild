@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/tidytext
-	sci-CRAN/glue
-	sci-CRAN/desc
+	sci-CRAN/yesno
+	sci-CRAN/jsonlite
+	sci-CRAN/memoise
+	sci-CRAN/udapi
+	>=dev-lang/R-3.3.0
 	sci-CRAN/cli
+	sci-CRAN/crayon
 	sci-CRAN/clisymbols
+	sci-CRAN/desc
+	sci-CRAN/glue
 	sci-CRAN/SnowballC
 	sci-CRAN/stringdist
 	sci-CRAN/tibble
-	sci-CRAN/udapi
-	sci-CRAN/yesno
-	>=dev-lang/R-3.3.0
-	sci-CRAN/crayon
-	sci-CRAN/jsonlite
-	sci-CRAN/memoise
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

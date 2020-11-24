@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_mutoss? ( sci-CRAN/mutoss )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	virtual/MASS
-	>=sci-CRAN/multcomp-1.1
-	sci-CRAN/PolynomF
-	sci-CRAN/mvtnorm
+DEPEND=">=sci-CRAN/multcomp-1.1
 	>=sci-CRAN/CommonJavaJars-1.0.5
-	virtual/Matrix
-	>=sci-CRAN/rJava-0.6.3
 	sci-CRAN/JavaGD
 	>=sci-CRAN/xlsxjars-0.6.1
+	>=dev-lang/R-3.0.0
+	sci-CRAN/PolynomF
+	virtual/MASS
+	sci-CRAN/mvtnorm
+	virtual/Matrix
+	>=sci-CRAN/rJava-0.6.3
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

@@ -20,7 +20,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/partykit
-	sci-CRAN/colorspace
 	virtual/rpart
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

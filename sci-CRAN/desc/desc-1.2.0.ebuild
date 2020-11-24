@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/crayon
 	sci-CRAN/rprojroot
-	sci-CRAN/R6
 	sci-CRAN/assertthat
+	sci-CRAN/crayon
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

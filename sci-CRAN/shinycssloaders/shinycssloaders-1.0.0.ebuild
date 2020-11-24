@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_shinydisconnect? ( sci-CRAN/shinydisconnect )
 	r_suggests_shinyjs? ( sci-CRAN/shinyjs )
 "
-DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/shiny
-	sci-CRAN/glue
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/digest
+	>=dev-lang/R-3.1
+	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

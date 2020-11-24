@@ -12,8 +12,8 @@ LICENSE='MIT'
 
 DEPEND="sci-CRAN/lubridate
 	sci-CRAN/rvest
-	sci-CRAN/dplyr
-	sci-CRAN/xml2
 	sci-CRAN/cranlogs
+	sci-CRAN/xml2
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

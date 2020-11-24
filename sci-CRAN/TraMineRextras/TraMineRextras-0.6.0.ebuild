@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TraMineRextras_0.6.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/RColorBrewer
-	virtual/survival
-	>=sci-CRAN/TraMineR-2.2.0
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/gtools
+	>=sci-CRAN/TraMineR-2.2.0
 	virtual/cluster
+	sci-CRAN/RColorBrewer
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

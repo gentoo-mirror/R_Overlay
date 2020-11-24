@@ -12,13 +12,13 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_gridextra"
 R_SUGGESTS="r_suggests_gridextra? ( sci-CRAN/gridExtra )"
-DEPEND=">=sci-CRAN/Rcpp-0.12.12
-	sci-CRAN/reshape2
-	sci-CRAN/tbart
-	sci-CRAN/Rdpack
-	sci-CRAN/zoo
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/Rdpack
 	sci-CRAN/assertive
+	sci-CRAN/ggplot2
+	sci-CRAN/zoo
+	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/tbart
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

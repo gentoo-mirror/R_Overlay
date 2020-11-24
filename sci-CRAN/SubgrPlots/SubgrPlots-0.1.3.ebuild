@@ -16,23 +16,23 @@ R_SUGGESTS="
 	r_suggests_rgeos? ( sci-CRAN/rgeos )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/survival
-	sci-CRAN/alluvial
-	sci-CRAN/diagram
+DEPEND="sci-CRAN/shape
+	virtual/survival
 	sci-CRAN/circlize
-	>=sci-CRAN/ggplot2-2.1.1
-	sci-CRAN/plyr
-	sci-CRAN/scales
-	sci-CRAN/gridExtra
-	sci-CRAN/sp
-	sci-CRAN/colorspace
-	sci-CRAN/ggrepel
 	sci-CRAN/polyclip
+	sci-CRAN/sp
+	sci-CRAN/alluvial
+	sci-CRAN/colorspace
+	sci-CRAN/diagram
 	sci-CRAN/survRM2
-	sci-CRAN/UpSetR
-	sci-CRAN/VennDiagram
-	sci-CRAN/gridBase
-	sci-CRAN/shape
 	sci-CRAN/dplyr
+	sci-CRAN/UpSetR
+	sci-CRAN/plyr
+	sci-CRAN/ggrepel
+	sci-CRAN/gridBase
+	>=sci-CRAN/ggplot2-2.1.1
+	sci-CRAN/gridExtra
+	sci-CRAN/VennDiagram
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

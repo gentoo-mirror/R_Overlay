@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/EMCluster_0.2-12.tar.gz"
 LICENSE='MPL-2.0'
 
 DEPEND=">=dev-lang/R-3.0.1
-	virtual/MASS
 	virtual/Matrix
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

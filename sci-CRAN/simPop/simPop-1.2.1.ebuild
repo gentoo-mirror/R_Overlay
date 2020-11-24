@@ -19,26 +19,26 @@ R_SUGGESTS="
 	r_suggests_surveysd? ( sci-CRAN/surveysd )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/party
-	sci-CRAN/data_table
-	sci-CRAN/RcppArmadillo
-	virtual/lattice
-	sci-CRAN/colorspace
-	sci-CRAN/plyr
-	sci-CRAN/vcd
-	sci-CRAN/laeken
-	virtual/nnet
-	sci-CRAN/doParallel
-	sci-CRAN/fitdistrplus
-	virtual/MASS
-	>=sci-CRAN/Rcpp-0.11.0
+DEPEND="sci-CRAN/laeken
 	sci-CRAN/VIM
-	>=dev-lang/R-3.0.0
-	sci-CRAN/wrswoR
-	sci-CRAN/e1071
+	sci-CRAN/RcppArmadillo
 	sci-CRAN/EnvStats
+	sci-CRAN/fitdistrplus
+	>=dev-lang/R-3.0.0
+	sci-CRAN/vcd
+	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	sci-CRAN/plyr
+	>=sci-CRAN/Rcpp-0.11.0
+	virtual/MASS
+	sci-CRAN/wrswoR
+	virtual/lattice
 	sci-CRAN/ranger
+	sci-CRAN/colorspace
+	sci-CRAN/party
+	sci-CRAN/e1071
+	virtual/nnet
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

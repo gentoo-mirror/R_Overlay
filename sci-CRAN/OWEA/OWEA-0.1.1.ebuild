@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=sci-CRAN/gtools-3.8.1
-	>=sci-CRAN/shiny-1.1.0
 	virtual/MASS
+	>=sci-CRAN/shiny-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

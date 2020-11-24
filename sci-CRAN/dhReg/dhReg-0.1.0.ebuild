@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/dhReg_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/forecast
-	sci-CRAN/future
 	sci-CRAN/future_apply
 	sci-CRAN/testthat
+	sci-CRAN/future
 "
 RDEPEND="${DEPEND-}"

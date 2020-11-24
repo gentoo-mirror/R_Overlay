@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/clespr_1.1.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/MASS
-	>=sci-CRAN/foreach-1.2.0
-	>=sci-CRAN/AER-1.2.5
 	>=sci-CRAN/pbivnorm-0.6.0
-	>=sci-CRAN/magic-1.5.6
-	virtual/survival
+	virtual/MASS
+	>=sci-CRAN/AER-1.2.5
 	>=sci-CRAN/clordr-1.0.2
 	>=sci-CRAN/doParallel-1.0.11
+	>=sci-CRAN/foreach-1.2.0
+	>=sci-CRAN/magic-1.5.6
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

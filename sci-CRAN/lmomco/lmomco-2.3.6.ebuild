@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_copbasic"
 R_SUGGESTS="r_suggests_copbasic? ( sci-CRAN/copBasic )"
 DEPEND="virtual/MASS
-	sci-CRAN/Lmoments
 	sci-CRAN/goftest
+	sci-CRAN/Lmoments
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

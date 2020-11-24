@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
 DEPEND="virtual/Matrix
+	sci-CRAN/coda
 	sci-CRAN/tensorA
 	sci-CRAN/corpcor
-	sci-CRAN/coda
 	sci-CRAN/ape
 	sci-CRAN/cubature
 "

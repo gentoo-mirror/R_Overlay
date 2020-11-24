@@ -17,16 +17,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/CBPS
+	sci-CRAN/data_table
 	>=sci-CRAN/Rcpp-0.12.5
 	virtual/Matrix
 	sci-CRAN/ggplot2
-	sci-CRAN/data_table
+	sci-CRAN/CBPS
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/RcppArmadillo
-	sci-CRAN/Rcpp
 	sci-CRAN/RcppEigen
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

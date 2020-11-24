@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/plotly
-	sci-CRAN/scales
+DEPEND="sci-CRAN/plotly
 	sci-CRAN/shiny
+	sci-CRAN/scales
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

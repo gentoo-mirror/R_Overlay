@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/nFactors_2.4.1.tar.gz"
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=dev-lang/R-3.5.0
-	virtual/MASS
+DEPEND="sci-CRAN/psych
 	virtual/lattice
-	sci-CRAN/psych
+	>=dev-lang/R-3.5.0
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

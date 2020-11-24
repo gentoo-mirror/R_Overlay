@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spuRs_2.0.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/MASS
-	virtual/lattice
+DEPEND="virtual/lattice
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

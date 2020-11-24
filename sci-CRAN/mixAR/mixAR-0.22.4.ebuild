@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/timeDate
-	sci-CRAN/MCMCpack
+	sci-CRAN/combinat
 	sci-CRAN/BB
 	sci-CRAN/fGarch
-	sci-CRAN/mvtnorm
-	sci-CRAN/combinat
-	>=sci-CRAN/Rdpack-0.7
+	sci-CRAN/timeDate
 	>=sci-CRAN/gbutils-0.3.1
+	sci-CRAN/MCMCpack
+	sci-CRAN/mvtnorm
 	sci-CRAN/e1071
 	sci-CRAN/permute
+	>=sci-CRAN/Rdpack-0.7
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/tensorA
-	sci-CRAN/bayesm
+DEPEND="sci-CRAN/robustbase
 	virtual/MASS
-	sci-CRAN/robustbase
+	sci-CRAN/tensorA
+	sci-CRAN/bayesm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

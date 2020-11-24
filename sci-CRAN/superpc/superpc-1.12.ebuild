@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/superpc_1.12.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/survival
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

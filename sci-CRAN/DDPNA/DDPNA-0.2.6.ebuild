@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_ggfortify? ( sci-CRAN/ggfortify )
 	r_suggests_impute? ( sci-BIOC/impute )
 "
-DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/MEGENA
-	sci-CRAN/plyr
-	sci-CRAN/ggalt
-	sci-CRAN/ggplot2
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/ggalt
 	sci-CRAN/Hmisc
 	sci-CRAN/scales
+	sci-CRAN/igraph
+	>=dev-lang/R-3.5
+	sci-CRAN/MEGENA
+	sci-CRAN/ggplot2
+	sci-CRAN/plyr
 	sci-CRAN/VennDiagram
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

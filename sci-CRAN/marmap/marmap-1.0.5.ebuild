@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
 DEPEND="sci-CRAN/DBI
-	sci-CRAN/sp
 	sci-CRAN/geosphere
 	sci-CRAN/gdistance
+	sci-CRAN/sp
 	sci-CRAN/RSQLite
 	sci-CRAN/raster
-	sci-CRAN/adehabitatMA
-	sci-CRAN/ggplot2
 	sci-CRAN/ncdf4
 	sci-CRAN/plotrix
 	sci-CRAN/shape
 	sci-CRAN/reshape2
+	sci-CRAN/adehabitatMA
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

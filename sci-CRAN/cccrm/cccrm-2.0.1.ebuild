@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/cccrm_2.0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-4.0.0
-	sci-CRAN/Deriv
 	sci-CRAN/dplyr
 	sci-CRAN/tidyselect
+	sci-CRAN/Deriv
 	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

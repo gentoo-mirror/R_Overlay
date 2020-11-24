@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.1
 	virtual/Matrix
-	virtual/boot
 	sci-CRAN/mvtnorm
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

@@ -27,7 +27,7 @@ DEPEND="sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH
-	sci-CRAN/Rcpp
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/Rcpp
-	>=sci-CRAN/stringdist-0.9.5.1
 	sci-CRAN/stringi
+	>=sci-CRAN/stringdist-0.9.5.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

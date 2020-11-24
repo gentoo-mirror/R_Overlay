@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BiBitR_0.3.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/foreign
+DEPEND="virtual/cluster
+	virtual/lattice
+	sci-CRAN/dendextend
 	sci-CRAN/biclust
 	sci-CRAN/viridis
-	virtual/cluster
-	sci-CRAN/dendextend
-	virtual/lattice
+	virtual/foreign
 	sci-CRAN/randomcoloR
 "
 RDEPEND="${DEPEND-} virtual/jdk"

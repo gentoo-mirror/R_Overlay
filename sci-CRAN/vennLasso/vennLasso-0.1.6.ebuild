@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	virtual/survival
-	sci-CRAN/foreach
-	virtual/MASS
+DEPEND="virtual/MASS
 	>=sci-CRAN/Rcpp-0.11.0
+	>=dev-lang/R-3.2.0
+	sci-CRAN/foreach
+	virtual/survival
 	virtual/Matrix
 	sci-CRAN/VennDiagram
 	sci-CRAN/visNetwork

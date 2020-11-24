@@ -12,9 +12,9 @@ LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/stringi
+	sci-CRAN/httr
 	sci-CRAN/jsonlite
 	sci-CRAN/magrittr
-	sci-CRAN/httr
 	sci-CRAN/tinytest
 "
 RDEPEND="${DEPEND-}"

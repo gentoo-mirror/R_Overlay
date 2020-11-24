@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MHMM_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/Rcpp-0.11.1
+DEPEND=">=dev-lang/R-3.4.4
 	sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
+	>=sci-CRAN/Rcpp-0.11.1
 	sci-CRAN/reshape2
-	>=dev-lang/R-3.4.4
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

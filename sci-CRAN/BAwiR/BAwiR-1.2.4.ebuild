@@ -12,25 +12,25 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND="sci-CRAN/reshape2
-	sci-CRAN/xml2
-	sci-CRAN/plyr
-	sci-CRAN/hrbrthemes
-	sci-CRAN/dplyr
-	sci-CRAN/scales
-	sci-CRAN/lubridate
-	sci-CRAN/stringi
-	sci-CRAN/rvest
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/tibble
-	sci-CRAN/purrr
-	sci-CRAN/ggplot2
-	sci-CRAN/httr
-	sci-CRAN/rworldmap
 	>=dev-lang/R-3.4.0
-	sci-CRAN/Anthropometry
-	sci-CRAN/ggthemes
+	sci-CRAN/reshape2
+	sci-CRAN/plyr
+	sci-CRAN/httr
+	sci-CRAN/rvest
+	sci-CRAN/rworldmap
+	sci-CRAN/stringi
+	sci-CRAN/lubridate
+	sci-CRAN/xml2
 	sci-CRAN/magrittr
 	sci-CRAN/stringr
+	sci-CRAN/Anthropometry
+	sci-CRAN/ggplot2
+	sci-CRAN/scales
 	sci-CRAN/tidyr
+	sci-CRAN/hrbrthemes
+	sci-CRAN/ggthemes
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

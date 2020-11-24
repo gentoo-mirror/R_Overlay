@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/igraph-1.0.1
+DEPEND=">=sci-CRAN/igraph-1.0.1
+	>=sci-BIOC/S4Vectors-0.12.2
+	>=sci-CRAN/Rcpp-0.12.8
+	>=dev-lang/R-3.5
 	virtual/Matrix
 	>=sci-BIOC/snpStats-1.20.0
-	>=sci-CRAN/Rcpp-0.12.8
-	>=sci-BIOC/S4Vectors-0.12.2
 "
 RDEPEND="${DEPEND-}
 	sci-BIOC/Rgin

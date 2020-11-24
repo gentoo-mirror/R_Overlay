@@ -20,17 +20,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/aoos
-	sci-CRAN/ggplot2
-	virtual/Matrix
-	sci-CRAN/assertthat
-	sci-CRAN/magrittr
 	sci-CRAN/modules
 	sci-CRAN/memoise
+	virtual/Matrix
+	sci-CRAN/assertthat
 	sci-CRAN/pbapply
-	virtual/MASS
 	sci-CRAN/Rcpp
 	sci-CRAN/spdep
+	sci-CRAN/aoos
+	sci-CRAN/ggplot2
+	sci-CRAN/magrittr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

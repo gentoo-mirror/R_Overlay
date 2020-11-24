@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/isotonic.pen_1.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="sci-CRAN/coneproj
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	sci-CRAN/coneproj
 "
 RDEPEND="${DEPEND-}"

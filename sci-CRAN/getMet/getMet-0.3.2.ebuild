@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/getMet_0.3.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/EcoHydRology
 	sci-CRAN/jsonlite
+	sci-CRAN/EcoHydRology
 "
 RDEPEND="${DEPEND-}"

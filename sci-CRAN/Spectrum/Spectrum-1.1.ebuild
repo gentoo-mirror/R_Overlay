@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND="sci-CRAN/Rfast
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
 	virtual/cluster
 	sci-CRAN/diptest
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

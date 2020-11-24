@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/odbc
-	sci-CRAN/DBI
-	sci-CRAN/processx
-	sci-CRAN/rappdirs
-	sci-CRAN/ini
 	sci-CRAN/curl
 	sci-CRAN/fs
 	sci-CRAN/digest
+	sci-CRAN/DBI
 	sci-CRAN/ps
+	sci-CRAN/ini
+	sci-CRAN/processx
+	sci-CRAN/rappdirs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

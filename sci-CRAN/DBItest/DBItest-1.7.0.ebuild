@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 "
-DEPEND=">=sci-CRAN/blob-1.2.0
-	>=sci-CRAN/hms-0.5.0
-	sci-CRAN/desc
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/callr
 	>=sci-CRAN/DBI-1.1.0
+	>=sci-CRAN/blob-1.2.0
+	sci-CRAN/desc
+	>=sci-CRAN/hms-0.5.0
 	sci-CRAN/lubridate
 	sci-CRAN/R6
 	>=sci-CRAN/rlang-0.2.0
 	>=sci-CRAN/testthat-2.0.0
 	sci-CRAN/withr
-	>=dev-lang/R-3.2.0
-	sci-CRAN/callr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

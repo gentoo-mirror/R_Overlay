@@ -13,9 +13,9 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-BIOC/Biostrings
-	sci-BIOC/coRdon
-	sci-CRAN/stringr
 	sci-CRAN/seqinr
+	sci-CRAN/stringr
 	sci-CRAN/ggplot2
+	sci-BIOC/coRdon
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/reticulate
-	sci-CRAN/DALEX
 	sci-CRAN/ggplot2
+	sci-CRAN/DALEX
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

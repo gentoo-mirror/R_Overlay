@@ -12,8 +12,8 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_stringr"
 R_SUGGESTS="r_suggests_stringr? ( sci-CRAN/stringr )"
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/reshape2
+	sci-CRAN/ggplot2
 	sci-CRAN/geosphere
-	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

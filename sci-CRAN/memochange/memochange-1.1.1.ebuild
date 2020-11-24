@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/fracdiff-1.4.2
 	>=sci-CRAN/forecast-8.6
 	>=sci-CRAN/urca-1.3.0
+	>=sci-CRAN/fracdiff-1.4.2
 	>=sci-CRAN/LongMemoryTS-0.1.0
 	>=sci-CRAN/sandwich-2.5.1
 	>=sci-CRAN/strucchange-1.5.1

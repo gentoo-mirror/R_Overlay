@@ -24,12 +24,12 @@ R_SUGGESTS="
 	r_suggests_uuid? ( sci-CRAN/uuid )
 "
 DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/AzureGraph-1.1.0
-	>=sci-CRAN/AzureRMR-2.0.0
-	sci-CRAN/processx
 	sci-CRAN/openssl
+	>=sci-CRAN/AzureRMR-2.0.0
 	sci-CRAN/httr
+	>=sci-CRAN/AzureGraph-1.1.0
 	sci-CRAN/R6
+	sci-CRAN/processx
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

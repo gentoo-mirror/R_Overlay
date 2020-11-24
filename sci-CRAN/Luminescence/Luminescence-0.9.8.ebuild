@@ -26,19 +26,19 @@ R_SUGGESTS="
 	r_suggests_spelling? ( >=sci-CRAN/spelling-2.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/data_table-1.12.0
-	>=sci-CRAN/bbmle-1.0.20
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/DEoptim-2.2.4
+DEPEND=">=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/httr-1.4.0
+	>=sci-CRAN/data_table-1.12.0
 	virtual/Matrix
 	>=sci-CRAN/minpack_lm-1.2
 	>=sci-CRAN/plotrix-3.7
-	>=sci-CRAN/raster-2.8.0
 	>=sci-CRAN/readxl-1.3.0
-	>=sci-CRAN/shape-1.4.3
 	>=sci-CRAN/XML-3.98.1.9
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/bbmle-1.0.20
+	>=sci-CRAN/DEoptim-2.2.4
+	>=sci-CRAN/raster-2.8.0
+	>=sci-CRAN/shape-1.4.3
 	>=sci-CRAN/zoo-1.8
 "
 RDEPEND="${DEPEND-}

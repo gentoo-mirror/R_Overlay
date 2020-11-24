@@ -31,15 +31,15 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/tidyr
-	sci-CRAN/magrittr
-	sci-CRAN/dplyr
-	sci-CRAN/rlang
-	>=dev-lang/R-3.2.4
+DEPEND=">=dev-lang/R-3.2.4
 	sci-CRAN/purrr
+	sci-CRAN/Rcpp
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
 	sci-CRAN/shiny
 	sci-CRAN/tibble
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

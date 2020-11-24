@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/gh-1.1.0
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/base64enc
+	>=sci-CRAN/gh-1.1.0
 	sci-CRAN/fs
-	sci-CRAN/base64enc
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

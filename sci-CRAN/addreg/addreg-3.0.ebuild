@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/addreg_3.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.1
+	sci-CRAN/turboEM
 	sci-CRAN/glm2
 	sci-CRAN/combinat
-	sci-CRAN/turboEM
 "
 RDEPEND="${DEPEND-}"

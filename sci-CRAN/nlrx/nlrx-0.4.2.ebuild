@@ -18,36 +18,36 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/raster
-	sci-CRAN/sensitivity
-	sci-CRAN/readr
-	sci-CRAN/magrittr
-	sci-CRAN/XML
-	sci-CRAN/rstudioapi
-	sci-CRAN/stringr
-	sci-CRAN/purrr
-	sci-CRAN/EasyABC
+DEPEND="sci-CRAN/purrr
 	sci-CRAN/tibble
-	sci-CRAN/genalg
-	sci-CRAN/igraph
-	sci-CRAN/sf
 	sci-CRAN/tidyr
-	sci-CRAN/GenSA
+	sci-CRAN/EasyABC
+	sci-CRAN/progressr
+	>=dev-lang/R-3.3
 	sci-CRAN/dplyr
 	sci-CRAN/lhs
-	>=dev-lang/R-3.3
+	sci-CRAN/raster
 	sci-CRAN/crayon
-	sci-CRAN/progressr
 	sci-CRAN/furrr
+	sci-CRAN/igraph
+	sci-CRAN/readr
+	sci-CRAN/GenSA
+	sci-CRAN/genalg
+	sci-CRAN/sensitivity
+	sci-CRAN/XML
+	sci-CRAN/rstudioapi
+	sci-CRAN/sf
+	sci-CRAN/magrittr
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
-	app-text/pandoc
-	sci-libs/gdal
-	dev-libs/libxml2
-	dev-libs/openssl
-	sci-misc/netlogo-bin
-	virtual/jdk
 	sci-libs/udunits
+	dev-libs/libxml2
+	virtual/jdk
+	dev-libs/openssl
+	sci-libs/gdal
+	sci-misc/netlogo-bin
+	app-text/pandoc
 	sci-libs/proj
 	sci-libs/geos
 	${R_SUGGESTS-}

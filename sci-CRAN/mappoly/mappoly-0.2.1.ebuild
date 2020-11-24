@@ -20,25 +20,25 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_updog? ( sci-CRAN/updog )
 "
-DEPEND="sci-CRAN/princurve
+DEPEND="sci-CRAN/dendextend
 	sci-CRAN/vcfR
-	sci-CRAN/cli
-	sci-CRAN/RCurl
-	>=dev-lang/R-3.5.0
-	sci-CRAN/fields
-	sci-CRAN/ggsci
-	sci-CRAN/dplyr
-	sci-CRAN/reshape2
-	sci-CRAN/dendextend
-	sci-CRAN/zoo
-	sci-CRAN/ggpubr
-	sci-CRAN/scatterplot3d
-	sci-CRAN/rstudioapi
 	sci-CRAN/plotly
-	sci-CRAN/crayon
-	sci-CRAN/magrittr
 	>=sci-CRAN/Rcpp-0.12.6
+	sci-CRAN/ggpubr
+	sci-CRAN/rstudioapi
+	sci-CRAN/dplyr
+	sci-CRAN/cli
+	sci-CRAN/reshape2
+	sci-CRAN/zoo
+	sci-CRAN/princurve
+	sci-CRAN/fields
+	sci-CRAN/magrittr
 	sci-CRAN/ggplot2
+	sci-CRAN/crayon
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ggsci
+	sci-CRAN/RCurl
+	sci-CRAN/scatterplot3d
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

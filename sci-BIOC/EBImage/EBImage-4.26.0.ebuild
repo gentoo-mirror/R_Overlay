@@ -21,13 +21,13 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-BIOC/BiocGenerics-0.7.1
 	sci-CRAN/locfit
-	sci-CRAN/abind
 	sci-CRAN/png
-	sci-CRAN/jpeg
-	sci-CRAN/htmltools
 	sci-CRAN/htmlwidgets
-	sci-CRAN/tiff
-	>=sci-CRAN/fftwtools-0.9.7
+	sci-CRAN/abind
 	sci-CRAN/RCurl
+	sci-CRAN/tiff
+	sci-CRAN/jpeg
+	>=sci-CRAN/fftwtools-0.9.7
+	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

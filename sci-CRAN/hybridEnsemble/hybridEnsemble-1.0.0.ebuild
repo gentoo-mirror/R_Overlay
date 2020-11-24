@@ -12,26 +12,26 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/ada
-	sci-CRAN/quadprog
-	sci-CRAN/reportr
-	sci-CRAN/pso
-	sci-CRAN/randomForest
-	virtual/rpart
-	sci-CRAN/e1071
-	sci-CRAN/rotationForest
-	sci-CRAN/ROCR
-	virtual/nnet
-	sci-CRAN/GenSA
-	sci-CRAN/FNN
-	sci-CRAN/NMOF
-	sci-CRAN/Rmalschains
-	sci-CRAN/kernelFactory
-	sci-CRAN/AUC
+DEPEND="sci-CRAN/e1071
 	sci-CRAN/soma
-	sci-CRAN/genalg
-	sci-CRAN/nnls
-	sci-CRAN/tabuSearch
+	sci-CRAN/FNN
 	sci-CRAN/glmnet
+	sci-CRAN/GenSA
+	sci-CRAN/ada
+	sci-CRAN/kernelFactory
+	sci-CRAN/pso
+	sci-CRAN/quadprog
+	virtual/rpart
+	sci-CRAN/NMOF
+	sci-CRAN/AUC
+	sci-CRAN/nnls
+	sci-CRAN/reportr
+	sci-CRAN/ROCR
+	sci-CRAN/genalg
+	sci-CRAN/tabuSearch
+	sci-CRAN/Rmalschains
+	sci-CRAN/randomForest
+	virtual/nnet
+	sci-CRAN/rotationForest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

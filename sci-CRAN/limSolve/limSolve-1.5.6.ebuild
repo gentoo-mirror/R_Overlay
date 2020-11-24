@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/limSolve_1.5.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/lpSolve
+DEPEND="virtual/MASS
+	sci-CRAN/lpSolve
 	sci-CRAN/quadprog
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

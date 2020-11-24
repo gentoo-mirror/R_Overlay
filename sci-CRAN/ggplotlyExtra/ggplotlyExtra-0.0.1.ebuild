@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/plotly
-	sci-CRAN/rlang
 	sci-CRAN/ggplot2
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}"

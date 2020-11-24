@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
 DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/ggplot2
-	sci-BIOC/FlowSOM
 	>=sci-BIOC/flowCore-1.4
-	>=sci-CRAN/tidyr-0.7
 	virtual/cluster
+	sci-BIOC/FlowSOM
+	>=sci-CRAN/tidyr-0.7
+	sci-CRAN/ggplot2
 	sci-CRAN/metafor
 	virtual/cluster
 "

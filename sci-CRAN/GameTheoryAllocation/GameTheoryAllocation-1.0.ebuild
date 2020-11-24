@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/GameTheoryAllocation_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/lpSolveAPI
 	sci-CRAN/e1071
+	sci-CRAN/lpSolveAPI
 "
 RDEPEND="${DEPEND-}"

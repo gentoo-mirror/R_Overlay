@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/FNN
+	sci-CRAN/ggplot2
 	sci-CRAN/rrcov
 	sci-CRAN/gplots
 	sci-CRAN/pcaPP
-	sci-CRAN/ggplot2
 	sci-CRAN/plyr
 	sci-CRAN/robustbase
 "

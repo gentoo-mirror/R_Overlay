@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_updog? ( >=sci-CRAN/updog-2.0.2 )
 "
-DEPEND="sci-CRAN/ashr
-	sci-CRAN/doParallel
-	sci-CRAN/foreach
-	sci-CRAN/corrplot
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/Rcpp
+	sci-CRAN/ashr
+	sci-CRAN/corrplot
+	sci-CRAN/doParallel
 	sci-CRAN/lpSolve
 "
 RDEPEND="${DEPEND-}

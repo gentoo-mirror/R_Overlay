@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_lattice? ( virtual/lattice )
 "
-DEPEND=">=sci-CRAN/lme4-1.1.13
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	virtual/MASS
-	>=sci-CRAN/mcclust-1.0
+	>=sci-CRAN/lme4-1.1.13
 	>=sci-CRAN/Rcpp-0.12.7
+	>=sci-CRAN/mcclust-1.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

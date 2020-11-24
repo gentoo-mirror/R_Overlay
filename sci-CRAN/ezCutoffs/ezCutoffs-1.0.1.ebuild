@@ -15,8 +15,8 @@ R_SUGGESTS="r_suggests_boot? ( virtual/boot )"
 DEPEND=">=dev-lang/R-2.15.1
 	sci-CRAN/doSNOW
 	sci-CRAN/progress
-	sci-CRAN/ggplot2
 	sci-CRAN/foreach
+	sci-CRAN/ggplot2
 	sci-CRAN/lavaan
 	sci-CRAN/moments
 "

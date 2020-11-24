@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_rlang? ( sci-CRAN/rlang )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/chk
+DEPEND=">=dev-lang/R-3.4
+	sci-CRAN/chk
 	sci-CRAN/lifecycle
-	>=dev-lang/R-3.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/expSBM_1.3.5.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.10
-	sci-CRAN/mclust
 	sci-CRAN/gtools
+	sci-CRAN/mclust
 	sci-CRAN/blockmodels
 "
 RDEPEND="${DEPEND-}

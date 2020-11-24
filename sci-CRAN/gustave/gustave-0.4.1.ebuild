@@ -22,7 +22,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="virtual/Matrix
-	>=dev-lang/R-3.2.5
+DEPEND=">=dev-lang/R-3.2.5
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-CRAN/RCurl
-	sci-CRAN/RSQLite
 	sci-BIOC/BiocFileCache
-	>=sci-BIOC/BiocGenerics-0.13.8
-	sci-BIOC/AnnotationDbi
 	sci-CRAN/rappdirs
+	>=sci-BIOC/BiocGenerics-0.13.8
+	sci-CRAN/RSQLite
+	sci-BIOC/AnnotationDbi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

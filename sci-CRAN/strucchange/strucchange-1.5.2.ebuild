@@ -22,7 +22,7 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 	r_suggests_tseries? ( sci-CRAN/tseries )
 "
-DEPEND="sci-CRAN/sandwich
-	sci-CRAN/zoo
+DEPEND="sci-CRAN/zoo
+	sci-CRAN/sandwich
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

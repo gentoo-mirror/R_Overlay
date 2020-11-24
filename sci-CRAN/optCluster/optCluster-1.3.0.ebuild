@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_biobase? ( sci-BIOC/Biobase )
 "
 DEPEND="sci-CRAN/RankAggreg
+	sci-CRAN/kohonen
 	sci-CRAN/gplots
 	virtual/cluster
-	sci-CRAN/mclust
 	>=dev-lang/R-3.0
-	sci-CRAN/kohonen
+	sci-CRAN/mclust
 	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

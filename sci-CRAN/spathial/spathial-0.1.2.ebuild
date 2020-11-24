@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/spathial_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/igraph
+	sci-CRAN/Rtsne
+	sci-CRAN/pracma
 	virtual/MASS
 	sci-CRAN/knitr
-	sci-CRAN/pracma
-	sci-CRAN/igraph
+	sci-CRAN/irlba
 	virtual/Matrix
-	sci-CRAN/Rtsne
 	virtual/class
 	sci-CRAN/rmarkdown
-	sci-CRAN/irlba
 "
 RDEPEND="${DEPEND-}"

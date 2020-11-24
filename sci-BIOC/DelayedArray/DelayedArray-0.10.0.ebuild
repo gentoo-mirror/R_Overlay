@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_pryr? ( sci-CRAN/pryr )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=dev-lang/R-3.4
-	>=sci-BIOC/BiocGenerics-0.27.1
+DEPEND=">=sci-BIOC/BiocGenerics-0.27.1
 	virtual/Matrix
+	virtual/Matrix
+	>=sci-BIOC/S4Vectors-0.21.7
+	>=dev-lang/R-3.4
 	>=sci-BIOC/IRanges-2.17.3
 	sci-BIOC/BiocParallel
-	>=sci-BIOC/S4Vectors-0.21.7
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-BIOC/S4Vectors

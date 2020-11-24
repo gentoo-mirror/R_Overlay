@@ -17,9 +17,9 @@ DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/raster-3.3.7
 "
 RDEPEND="${DEPEND-}
+	sci-libs/gdal
 	sci-CRAN/Rcpp
 	sci-libs/geos
 	sci-libs/proj
-	sci-libs/gdal
 	${R_SUGGESTS-}
 "

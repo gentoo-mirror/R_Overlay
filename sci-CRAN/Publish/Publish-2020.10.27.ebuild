@@ -26,8 +26,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/prodlim-1.5.4
 	virtual/survival
+	>=sci-CRAN/multcomp-1.4
 	>=sci-CRAN/lava-1.5.1
 	>=sci-CRAN/data_table-1.10.4
-	>=sci-CRAN/multcomp-1.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

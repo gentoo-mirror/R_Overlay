@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_mcmc? ( sci-CRAN/mcmc )
 	r_suggests_sensitivity? ( sci-CRAN/sensitivity )
 "
-DEPEND=">=dev-lang/R-3.0.1
-	virtual/boot
+DEPEND="virtual/boot
 	sci-CRAN/Hmisc
+	>=dev-lang/R-3.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

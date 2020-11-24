@@ -22,10 +22,10 @@ R_SUGGESTS="
 "
 DEPEND="sci-BIOC/Biobase
 	sci-CRAN/xtable
-	sci-BIOC/limma
+	sci-BIOC/affy
 	>=sci-BIOC/affy-1.23.4
 	>=sci-BIOC/Biobase-2.5.5
-	sci-BIOC/affy
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

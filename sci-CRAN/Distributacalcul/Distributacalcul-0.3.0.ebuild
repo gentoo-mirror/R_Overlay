@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/statmod
-	sci-CRAN/shiny
-	sci-CRAN/plotly
 	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
+	sci-CRAN/shiny
+	sci-CRAN/plotly
 	sci-CRAN/tippy
-	sci-CRAN/shinydashboardPlus
-	sci-CRAN/rlang
-	sci-CRAN/shiny_i18n
 	sci-CRAN/shinyWidgets
+	sci-CRAN/shinydashboardPlus
 	sci-CRAN/shinydashboard
+	sci-CRAN/shiny_i18n
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

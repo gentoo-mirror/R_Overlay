@@ -47,24 +47,24 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tree? ( sci-CRAN/tree )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	virtual/Matrix
-	virtual/survival
-	>=sci-CRAN/recipes-0.1.4
-	sci-CRAN/kernlab
-	>=sci-CRAN/dials-0.0.4
+DEPEND="sci-CRAN/tibble
 	virtual/nnet
-	sci-CRAN/progress
-	sci-CRAN/Rsolnp
-	>=sci-CRAN/ggplot2-3.3.0
-	sci-CRAN/magrittr
-	sci-CRAN/rlang
-	sci-CRAN/polspline
-	sci-CRAN/foreach
-	sci-CRAN/party
-	sci-CRAN/rsample
 	sci-CRAN/abind
-	sci-CRAN/tibble
+	sci-CRAN/magrittr
+	virtual/survival
+	sci-CRAN/foreach
+	sci-CRAN/rsample
+	>=sci-CRAN/recipes-0.1.4
+	virtual/Matrix
+	sci-CRAN/polspline
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/dials-0.0.4
+	sci-CRAN/kernlab
+	sci-CRAN/progress
+	sci-CRAN/party
+	sci-CRAN/rlang
+	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/Rsolnp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

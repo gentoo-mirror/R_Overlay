@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/oceanmap_0.1.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/extrafont
-	sci-CRAN/maps
-	sci-CRAN/raster
-	sci-CRAN/mapdata
-	sci-CRAN/sp
-	sci-CRAN/ncdf4
-	sci-CRAN/lubridate
-	sci-CRAN/abind
+DEPEND="sci-CRAN/raster
 	sci-CRAN/fields
-	sci-CRAN/plotrix
+	sci-CRAN/maps
 	sci-CRAN/maptools
+	sci-CRAN/plotrix
+	sci-CRAN/ncdf4
+	>=dev-lang/R-3.5.0
+	sci-CRAN/mapdata
+	sci-CRAN/extrafont
+	sci-CRAN/abind
+	sci-CRAN/sp
+	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-} media-gfx/imagemagick"

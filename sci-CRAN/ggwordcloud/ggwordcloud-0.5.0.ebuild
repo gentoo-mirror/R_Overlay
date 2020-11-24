@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_wordcloud? ( sci-CRAN/wordcloud )
 	r_suggests_wordcloud2? ( sci-CRAN/wordcloud2 )
 "
-DEPEND=">=sci-CRAN/ggplot2-3.0.0
+DEPEND="sci-CRAN/Rcpp
+	sci-CRAN/png
+	>=sci-CRAN/ggplot2-3.0.0
 	sci-CRAN/colorspace
 	>=sci-CRAN/scales-1.0.0
-	sci-CRAN/Rcpp
-	sci-CRAN/png
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

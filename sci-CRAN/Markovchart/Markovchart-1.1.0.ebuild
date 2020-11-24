@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Markovchart_1.1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/optimParallel
-	sci-CRAN/foreach
-	sci-CRAN/ggplot2
-	sci-CRAN/doParallel
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/metR
+	sci-CRAN/ggplot2
+	sci-CRAN/foreach
+	sci-CRAN/optimParallel
 "
 RDEPEND="${DEPEND-}"

@@ -12,11 +12,11 @@ LICENSE='LGPL-3+'
 
 IUSE="${IUSE-} r_suggests_mclust"
 R_SUGGESTS="r_suggests_mclust? ( sci-CRAN/mclust )"
-DEPEND="sci-CRAN/gridBase
-	sci-CRAN/RColorBrewer
-	sci-CRAN/hexbin
-	sci-BIOC/marray
+DEPEND="sci-CRAN/hexbin
 	sci-BIOC/limma
+	sci-BIOC/marray
+	sci-CRAN/RColorBrewer
+	sci-CRAN/gridBase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,18 +11,18 @@ SRC_URI="http://cran.r-project.org/src/contrib/WebGestaltR_0.4.4.tar.gz"
 LICENSE='LGPL-3+'
 
 DEPEND=">=dev-lang/R-3.3
-	>=sci-CRAN/foreach-1.4.0
 	sci-CRAN/dplyr
+	sci-CRAN/igraph
 	sci-CRAN/rlang
-	sci-CRAN/svglite
-	virtual/cluster
-	sci-CRAN/Rcpp
+	sci-CRAN/whisker
 	sci-CRAN/readr
 	sci-CRAN/doRNG
 	>=sci-CRAN/doParallel-1.0.10
+	>=sci-CRAN/foreach-1.4.0
 	sci-CRAN/jsonlite
 	sci-CRAN/httr
-	sci-CRAN/igraph
-	sci-CRAN/whisker
+	sci-CRAN/svglite
+	virtual/cluster
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_wrangle? ( sci-CRAN/wrangle )
 "
-DEPEND="sci-CRAN/tidyr
-	sci-CRAN/csv
-	sci-CRAN/rlang
-	sci-CRAN/magrittr
+DEPEND=">=sci-CRAN/dplyr-0.7.1
 	sci-CRAN/xml2
-	>=sci-CRAN/dplyr-0.7.1
+	sci-CRAN/tidyr
+	sci-CRAN/csv
 	sci-CRAN/encode
 	sci-CRAN/spec
 	sci-CRAN/lazyeval
 	>=sci-CRAN/metaplot-0.1.4
+	sci-CRAN/magrittr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

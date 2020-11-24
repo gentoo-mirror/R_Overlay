@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/VTShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/EnvStats
-	sci-CRAN/shiny
+DEPEND="sci-CRAN/shiny
 	>=dev-lang/R-3.0.3
+	sci-CRAN/EnvStats
 	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-}"

@@ -33,12 +33,12 @@ R_SUGGESTS="
 	r_suggests_runjags? ( sci-CRAN/runjags )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/smoothSurv
-	sci-CRAN/TeachingDemos
-	virtual/survival
 	sci-BIOC/Icens
-	virtual/MASS
 	sci-CRAN/mvtnorm
+	virtual/survival
+	sci-CRAN/TeachingDemos
+	virtual/MASS
+	sci-CRAN/smoothSurv
 	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

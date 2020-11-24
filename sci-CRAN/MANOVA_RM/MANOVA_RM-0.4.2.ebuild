@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.0.0 )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	virtual/MASS
-	>=sci-CRAN/plotrix-3.5.12
+DEPEND="sci-CRAN/ellipse
+	virtual/Matrix
 	>=sci-CRAN/plyr-1.8.4
+	virtual/MASS
+	>=dev-lang/R-3.4.0
 	>=sci-CRAN/magic-1.5.9
-	sci-CRAN/ellipse
+	>=sci-CRAN/plotrix-3.5.12
 	sci-CRAN/multcomp
 	>=sci-CRAN/data_table-1.12.6
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -13,11 +13,11 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_stringi"
 R_SUGGESTS="r_suggests_stringi? ( sci-CRAN/stringi )"
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/digest
-	>=sci-CRAN/testthat-1.0.2
 	>=sci-CRAN/httr-1.1.0
-	sci-CRAN/yaml
+	>=sci-CRAN/testthat-1.0.2
 	sci-CRAN/stringr
+	sci-CRAN/yaml
 	sci-CRAN/RCurl
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

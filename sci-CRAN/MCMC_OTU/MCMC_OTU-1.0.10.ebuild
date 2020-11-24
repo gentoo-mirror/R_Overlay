@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/MCMC.OTU_1.0.10.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/MCMCglmm
-	sci-CRAN/coda
 	sci-CRAN/ggplot2
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}"

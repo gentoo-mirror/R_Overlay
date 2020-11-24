@@ -39,8 +39,8 @@ R_SUGGESTS="
 	r_suggests_twang? ( >=sci-CRAN/twang-1.5 )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/crayon
 	>=sci-CRAN/ggplot2-3.0.0
+	sci-CRAN/crayon
 	>=sci-CRAN/cobalt-4.2.2
 	>=sci-CRAN/backports-1.1.8
 "

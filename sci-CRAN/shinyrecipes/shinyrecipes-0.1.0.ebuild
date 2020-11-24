@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/recipes
-	sci-CRAN/shinyWidgets
-	sci-CRAN/purrr
+	sci-CRAN/miniUI
+	sci-CRAN/sortable
 	sci-CRAN/shinyglide
-	sci-CRAN/stringr
+	sci-CRAN/purrr
 	sci-CRAN/DT
 	sci-CRAN/tidyr
 	sci-CRAN/shiny
 	sci-CRAN/dplyr
-	sci-CRAN/miniUI
-	sci-CRAN/sortable
+	sci-CRAN/stringr
+	sci-CRAN/shinyWidgets
 	sci-CRAN/rstudioapi
 	sci-CRAN/esquisse
 "

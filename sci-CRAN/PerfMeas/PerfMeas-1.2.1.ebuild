@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/PerfMeas_1.2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-BIOC/limma
-	sci-BIOC/RBGL
 	sci-BIOC/graph
+	sci-BIOC/RBGL
 "
 RDEPEND="${DEPEND-}"

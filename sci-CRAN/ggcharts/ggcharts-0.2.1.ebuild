@@ -26,12 +26,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/rlang
-	sci-CRAN/colorspace
+	sci-CRAN/dplyr
+	sci-CRAN/patchwork
+	sci-CRAN/magrittr
 	>=sci-CRAN/ggplot2-3.0.0
 	sci-CRAN/lifecycle
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	sci-CRAN/patchwork
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

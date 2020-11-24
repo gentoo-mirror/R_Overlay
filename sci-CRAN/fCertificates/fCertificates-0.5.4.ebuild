@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/fCertificates_0.5-4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/fBasics
-	sci-CRAN/fExoticOptions
+DEPEND="sci-CRAN/fExoticOptions
 	sci-CRAN/fOptions
+	sci-CRAN/fBasics
 "
 RDEPEND="${DEPEND-}"

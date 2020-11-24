@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND="sci-CRAN/pedometrics
-	sci-CRAN/sp
+DEPEND="sci-CRAN/sp
 	virtual/spatial
+	sci-CRAN/pedometrics
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

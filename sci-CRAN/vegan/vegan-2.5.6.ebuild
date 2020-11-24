@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND=">=sci-CRAN/permute-0.9.0
-	virtual/cluster
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.4.0
 	virtual/lattice
-	>=dev-lang/R-3.4.0
+	virtual/MASS
+	>=sci-CRAN/permute-0.9.0
+	virtual/cluster
 	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

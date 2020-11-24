@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 	r_suggests_wesanderson? ( sci-CRAN/wesanderson )
 "
-DEPEND="sci-CRAN/stringr
-	>=sci-CRAN/tibble-1.2
+DEPEND="sci-CRAN/tidyr
+	sci-CRAN/glue
 	sci-CRAN/dplyr
 	sci-CRAN/crayon
-	sci-CRAN/glue
 	sci-CRAN/cowsay
 	sci-CRAN/magrittr
 	sci-CRAN/purrr
 	sci-CRAN/stringi
-	sci-CRAN/tidyr
+	sci-CRAN/stringr
+	>=sci-CRAN/tibble-1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

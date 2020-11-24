@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_mlbench"
 R_SUGGESTS="r_suggests_mlbench? ( sci-CRAN/mlbench )"
 DEPEND="virtual/rpart
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 	sci-CRAN/caret
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

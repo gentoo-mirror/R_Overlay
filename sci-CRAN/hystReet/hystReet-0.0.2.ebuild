@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/lubridate
-	sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/httr
+	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

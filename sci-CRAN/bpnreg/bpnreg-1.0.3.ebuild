@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bpnreg_1.0.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.6.0
-	virtual/MASS
-	>=sci-CRAN/haven-2.1.1
+DEPEND=">=sci-CRAN/haven-2.1.1
 	>=sci-CRAN/Rcpp-1.0.2
+	virtual/MASS
+	>=dev-lang/R-3.6.0
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-1.0.2

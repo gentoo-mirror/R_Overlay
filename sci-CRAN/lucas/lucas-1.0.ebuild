@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lucas_1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/rpostgis
+DEPEND="sci-CRAN/RPostgreSQL
 	sci-CRAN/plyr
-	sci-CRAN/RPostgreSQL
+	sci-CRAN/rpostgis
+	>=dev-lang/R-3.4
 	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-}"

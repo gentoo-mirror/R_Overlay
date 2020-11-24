@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/rfUtilities_2.1-5.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5
-	virtual/cluster
 	>=sci-CRAN/randomForest-4.6.12
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

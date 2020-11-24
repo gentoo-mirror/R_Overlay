@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TLBC_1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/signal
-	sci-CRAN/stringr
-	sci-CRAN/randomForest
-	sci-CRAN/caret
+DEPEND="sci-CRAN/randomForest
+	sci-CRAN/signal
 	sci-CRAN/HMM
+	sci-CRAN/caret
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

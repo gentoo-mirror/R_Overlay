@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/stringr
-	sci-CRAN/tibble
 	sci-CRAN/stringi
 	sci-CRAN/readr
+	sci-CRAN/stringr
+	sci-CRAN/tibble
 	sci-CRAN/intervals
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

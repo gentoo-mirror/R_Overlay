@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/ggplot2-3.2.0
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/data_table
+DEPEND=">=sci-CRAN/ggplot2-3.2.0
 	>=sci-CRAN/shazam-1.0.1
+	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/data_table
+	>=sci-CRAN/dplyr-0.8.1
+	sci-CRAN/stringi
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/alakazam-1.0.2
 	sci-CRAN/doParallel
-	>=sci-CRAN/dplyr-0.8.1
 	sci-CRAN/foreach
-	>=sci-CRAN/Rcpp-0.12.12
 	sci-CRAN/rlang
 	sci-CRAN/scales
-	sci-CRAN/stringi
+	>=sci-CRAN/tidyr-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

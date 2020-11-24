@@ -22,19 +22,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tripack? ( sci-CRAN/tripack )
 "
-DEPEND="sci-CRAN/ade4
-	sci-CRAN/shiny
+DEPEND=">=dev-lang/R-2.14
 	sci-CRAN/ggplot2
-	sci-CRAN/igraph
-	sci-CRAN/ape
-	>=dev-lang/R-2.14
 	virtual/MASS
-	sci-CRAN/seqinr
 	sci-CRAN/spdep
+	sci-CRAN/ape
+	sci-CRAN/vegan
+	sci-CRAN/ade4
+	sci-CRAN/igraph
+	sci-CRAN/shiny
+	sci-CRAN/seqinr
 	virtual/boot
 	sci-CRAN/reshape2
 	>=sci-CRAN/dplyr-0.4.1
-	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

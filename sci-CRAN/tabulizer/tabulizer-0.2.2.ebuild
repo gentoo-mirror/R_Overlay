@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/tabulizerjars
-	sci-CRAN/png
+DEPEND="sci-CRAN/png
+	sci-CRAN/tabulizerjars
 	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-}

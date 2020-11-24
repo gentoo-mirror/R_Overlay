@@ -24,9 +24,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/cowplot
 	sci-CRAN/tidyr
+	virtual/survival
 	sci-CRAN/pammtools
 	sci-CRAN/ggplot2
-	virtual/survival
 	sci-CRAN/checkmate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

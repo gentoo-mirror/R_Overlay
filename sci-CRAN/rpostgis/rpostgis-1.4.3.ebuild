@@ -18,8 +18,8 @@ R_SUGGESTS="
 DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/sp
 	sci-CRAN/rgeos
-	>=sci-CRAN/DBI-0.5
 	sci-CRAN/raster
+	>=sci-CRAN/DBI-0.5
 	sci-CRAN/RPostgreSQL
 "
 RDEPEND="${DEPEND-}

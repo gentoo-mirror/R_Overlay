@@ -13,7 +13,7 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_count"
 R_SUGGESTS="r_suggests_count? ( sci-CRAN/COUNT )"
 DEPEND="sci-CRAN/logistf
-	sci-CRAN/plyr
 	sci-CRAN/ggplot2
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

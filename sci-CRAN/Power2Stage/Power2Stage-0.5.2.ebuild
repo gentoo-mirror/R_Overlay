@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/Power2Stage_0.5.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/PowerTOST
-	sci-CRAN/mvtnorm
 	sci-CRAN/cubature
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

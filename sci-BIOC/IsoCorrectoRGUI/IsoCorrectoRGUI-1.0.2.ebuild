@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6
-	sci-BIOC/IsoCorrectoR
+	dev-lang/R[tk]
 	dev-lang/R[tk]
 	sci-CRAN/readxl
-	dev-lang/R[tk]
+	sci-BIOC/IsoCorrectoR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

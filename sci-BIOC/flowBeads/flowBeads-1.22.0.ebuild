@@ -12,13 +12,13 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_flowviz"
 R_SUGGESTS="r_suggests_flowviz? ( sci-BIOC/flowViz )"
-DEPEND="sci-CRAN/rrcov
+DEPEND=">=dev-lang/R-2.15.0
+	sci-CRAN/knitr
+	sci-CRAN/rrcov
+	sci-BIOC/flowCore
+	sci-BIOC/Biobase
+	sci-CRAN/xtable
 	sci-BIOC/flowCore
 	sci-CRAN/rrcov
-	sci-BIOC/Biobase
-	sci-BIOC/flowCore
-	sci-CRAN/knitr
-	sci-CRAN/xtable
-	>=dev-lang/R-2.15.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

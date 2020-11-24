@@ -20,10 +20,10 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/dplyr
 	sci-CRAN/tidyr
-	virtual/Matrix
-	>=dev-lang/R-3.6.0
-	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/Rcpp-1.0.0
+	>=sci-CRAN/magrittr-1.5
+	>=dev-lang/R-3.6.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

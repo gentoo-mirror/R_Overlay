@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND=">=sci-CRAN/RColorBrewer-1.1
-	>=sci-CRAN/r2d3-0.2.2
-	>=sci-CRAN/purrr-0.2.5
-	>=sci-CRAN/tidyr-0.8
-	>=sci-CRAN/dplyr-0.7.5
-	>=sci-CRAN/stringr-1.3
-	>=sci-CRAN/tibble-1.4
+DEPEND=">=sci-CRAN/stringr-1.3
 	>=sci-CRAN/downloader-0.4
+	>=sci-CRAN/r2d3-0.2.2
+	>=sci-CRAN/RColorBrewer-1.1
+	>=sci-CRAN/purrr-0.2.5
+	>=sci-CRAN/dplyr-0.7.5
+	>=sci-CRAN/tidyr-0.8
+	>=sci-CRAN/tibble-1.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

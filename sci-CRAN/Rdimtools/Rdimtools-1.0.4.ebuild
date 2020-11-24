@@ -15,20 +15,20 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/Rcsdp
-	sci-CRAN/RcppDE
-	>=sci-CRAN/Rcpp-0.12.15
-	>=sci-CRAN/CVXR-1.0
-	sci-CRAN/Rdpack
-	sci-CRAN/RSpectra
-	>=sci-CRAN/maotai-0.1.6
+DEPEND=">=sci-CRAN/CVXR-1.0
 	sci-CRAN/mclustcomp
+	sci-CRAN/RSpectra
+	>=dev-lang/R-3.0.0
+	sci-CRAN/RcppDE
+	sci-CRAN/Rcsdp
+	>=sci-CRAN/Rcpp-0.12.15
+	sci-CRAN/Rdpack
+	>=sci-CRAN/maotai-0.1.6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
 	sci-CRAN/RcppArmadillo
-	sci-CRAN/maotai
 	sci-CRAN/RcppDist
+	sci-CRAN/maotai
 	${R_SUGGESTS-}
 "

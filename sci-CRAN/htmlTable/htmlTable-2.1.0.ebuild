@@ -33,11 +33,11 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND="sci-CRAN/stringr
-	sci-CRAN/checkmate
-	sci-CRAN/htmltools
-	sci-CRAN/htmlwidgets
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/rstudioapi-0.6
+	sci-CRAN/checkmate
 	>=sci-CRAN/knitr-1.6
+	sci-CRAN/htmlwidgets
+	sci-CRAN/htmltools
+	>=sci-CRAN/rstudioapi-0.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

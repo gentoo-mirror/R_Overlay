@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/shinyjs
 	sci-CRAN/shinydashboard
-	sci-CRAN/shiny
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

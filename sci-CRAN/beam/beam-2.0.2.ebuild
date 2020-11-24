@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/Matrix
-	sci-CRAN/Rcpp
 	sci-CRAN/assertthat
-	sci-CRAN/knitr
-	>=dev-lang/R-3.1.0
 	sci-CRAN/fdrtool
 	sci-CRAN/igraph
+	>=dev-lang/R-3.1.0
+	sci-CRAN/knitr
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

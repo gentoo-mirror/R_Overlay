@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_ecdat? ( sci-CRAN/Ecdat )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/Rcpp
 	>=sci-CRAN/nloptr-1.2.0
 "
 RDEPEND="${DEPEND-}

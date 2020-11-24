@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/cuRe_1.0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/statmod
-	sci-CRAN/rstpm2
 	virtual/survival
-	sci-CRAN/date
+	sci-CRAN/statmod
 	sci-CRAN/numDeriv
+	sci-CRAN/rstpm2
 	sci-CRAN/relsurv
+	sci-CRAN/date
 "
 RDEPEND="${DEPEND-}"

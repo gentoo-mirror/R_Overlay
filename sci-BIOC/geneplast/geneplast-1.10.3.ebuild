@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/snow
-	sci-CRAN/ape
 	sci-CRAN/igraph
+	sci-CRAN/ape
+	sci-CRAN/snow
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

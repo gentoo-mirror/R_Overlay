@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ALDqr_1.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/sn
 	sci-CRAN/HyperbolicDist
+	sci-CRAN/sn
 "
 RDEPEND="${DEPEND-}"

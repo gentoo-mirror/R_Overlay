@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/msm
-	sci-CRAN/plyr
 	sci-CRAN/survey
-	virtual/Matrix
 	sci-CRAN/formula_tools
+	virtual/Matrix
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

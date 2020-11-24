@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.15.0
 	sci-CRAN/qtl
-	virtual/MASS
 	sci-CRAN/outliers
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

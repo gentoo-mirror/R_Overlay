@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/ExtremeRisks_0.0.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/plot3D
-	sci-CRAN/copula
 	sci-CRAN/mvtnorm
-	sci-CRAN/tmvtnorm
+	sci-CRAN/plot3D
 	sci-CRAN/evd
+	sci-CRAN/copula
+	sci-CRAN/tmvtnorm
 	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}"

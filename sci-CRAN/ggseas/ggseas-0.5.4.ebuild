@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/zoo
+DEPEND="sci-CRAN/rlang
 	>=sci-CRAN/ggplot2-2.0.0
-	sci-CRAN/rlang
+	>=dev-lang/R-3.1.2
+	sci-CRAN/zoo
 	sci-CRAN/seasonal
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

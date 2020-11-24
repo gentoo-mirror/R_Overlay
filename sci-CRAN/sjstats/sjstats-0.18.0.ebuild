@@ -24,24 +24,24 @@ R_SUGGESTS="
 	r_suggests_survey? ( sci-CRAN/survey )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2
+DEPEND=">=sci-CRAN/bayestestR-0.4.0
+	>=sci-CRAN/dplyr-0.8.1
+	>=sci-CRAN/parameters-0.4.0
+	>=sci-CRAN/performance-0.4.0
+	sci-CRAN/broom
+	sci-CRAN/effectsize
+	sci-CRAN/magrittr
+	>=dev-lang/R-3.2
 	sci-CRAN/emmeans
-	sci-CRAN/tidyr
+	sci-CRAN/purrr
+	sci-CRAN/modelr
+	>=sci-CRAN/sjmisc-2.8.2
 	>=sci-CRAN/insight-0.8.0
 	sci-CRAN/lme4
-	sci-CRAN/broom
-	sci-CRAN/rlang
-	sci-CRAN/modelr
-	sci-CRAN/effectsize
-	>=sci-CRAN/performance-0.4.0
-	>=sci-CRAN/sjmisc-2.8.2
-	sci-CRAN/magrittr
-	>=sci-CRAN/parameters-0.4.0
-	>=sci-CRAN/dplyr-0.8.1
-	>=sci-CRAN/bayestestR-0.4.0
 	virtual/MASS
-	sci-CRAN/purrr
 	>=sci-CRAN/sjlabelled-1.1.1
+	sci-CRAN/tidyr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

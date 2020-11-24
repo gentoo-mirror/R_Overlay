@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/Boptbd_1.0.5.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.4.0
-	virtual/MASS
 	sci-CRAN/igraph
-	dev-lang/R[tk]
 	virtual/Matrix
+	dev-lang/R[tk]
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

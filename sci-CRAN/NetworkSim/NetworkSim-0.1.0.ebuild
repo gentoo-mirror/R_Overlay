@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_limma? ( sci-BIOC/limma )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/incgraph
 	sci-CRAN/igraph
+	sci-CRAN/incgraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

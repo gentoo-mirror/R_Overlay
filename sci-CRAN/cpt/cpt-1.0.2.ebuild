@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/cpt_1.0.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
+	virtual/nnet
 	sci-CRAN/glmnet
 	sci-CRAN/randomForest
-	virtual/nnet
 "
 RDEPEND="${DEPEND-}"

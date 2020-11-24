@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MonoInc_1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/compare
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/compare
 	sci-CRAN/sitar
 	sci-CRAN/doParallel
 	sci-CRAN/iterators
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_rastervis? ( sci-CRAN/rasterVis )
 "
-DEPEND="sci-CRAN/sp
+DEPEND="sci-CRAN/ncdf4
 	sci-CRAN/zoo
-	sci-CRAN/ncdf4
+	sci-CRAN/sp
 	sci-CRAN/XML
 	sci-CRAN/raster
 "

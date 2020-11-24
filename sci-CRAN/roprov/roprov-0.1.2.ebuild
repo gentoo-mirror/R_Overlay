@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/roprov_0.1.2.tar.gz"
 LICENSE='Artistic-2'
 
 DEPEND="sci-CRAN/fastdigest
-	>=sci-CRAN/CodeDepends-0.3.5
 	sci-CRAN/igraph
+	>=sci-CRAN/CodeDepends-0.3.5
 "
 RDEPEND="${DEPEND-}"

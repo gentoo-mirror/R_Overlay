@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/momr_1.1.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND="sci-CRAN/Hmisc
+DEPEND="sci-CRAN/nortest
+	sci-CRAN/Hmisc
 	sci-CRAN/gplots
-	sci-CRAN/nortest
 "
 RDEPEND="${DEPEND-}"

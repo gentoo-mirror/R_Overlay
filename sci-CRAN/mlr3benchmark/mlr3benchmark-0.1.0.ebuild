@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/mlr3misc
+DEPEND="sci-CRAN/mlr3misc
 	sci-CRAN/R6
 	>=dev-lang/R-3.1.0
 	sci-CRAN/data_table
 	sci-CRAN/checkmate
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

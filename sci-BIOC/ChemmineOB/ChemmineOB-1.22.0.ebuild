@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_boot? ( virtual/boot )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-BIOC/BiocGenerics
-	>=sci-CRAN/Rcpp-0.11.0
-	>=dev-lang/R-2.15.1
+DEPEND=">=dev-lang/R-2.15.1
 	sci-BIOC/zlibbioc
+	>=sci-CRAN/Rcpp-0.11.0
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH

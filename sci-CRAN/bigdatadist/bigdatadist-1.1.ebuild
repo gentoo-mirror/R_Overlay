@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/bigdatadist_1.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/FNN
 	sci-CRAN/rrcov
 	virtual/MASS
-	sci-CRAN/FNN
 	sci-CRAN/pdist
 "
 RDEPEND="${DEPEND-}"

@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="virtual/boot
-	sci-CRAN/pspline
 	sci-CRAN/zoo
+	sci-CRAN/pspline
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

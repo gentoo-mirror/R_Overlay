@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/geiger-2.0
 	sci-CRAN/scatterplot3d
-	sci-CRAN/ape
-	sci-CRAN/phangorn
 	>=dev-lang/R-3.0.0
+	sci-CRAN/phangorn
+	sci-CRAN/ape
 "
 RDEPEND="${DEPEND-}"

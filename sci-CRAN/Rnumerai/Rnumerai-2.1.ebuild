@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Rnumerai_2.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/purrr
 	sci-CRAN/httr
+	>=dev-lang/R-3.1
+	sci-CRAN/lubridate
 	sci-CRAN/tidyr
 	sci-CRAN/ggplot2
-	sci-CRAN/lubridate
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-}"

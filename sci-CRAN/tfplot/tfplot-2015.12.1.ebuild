@@ -12,7 +12,7 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_googlevis"
 R_SUGGESTS="r_suggests_googlevis? ( sci-CRAN/googleVis )"
-DEPEND="sci-CRAN/tframe
-	>=dev-lang/R-2.12.0
+DEPEND=">=dev-lang/R-2.12.0
+	sci-CRAN/tframe
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

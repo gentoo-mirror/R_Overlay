@@ -17,18 +17,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/dplyr-0.8.1
 	>=sci-CRAN/alakazam-1.0.0
-	>=sci-CRAN/shazam-1.0.0
-	>=sci-CRAN/ggplot2-3.2.0
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	>=sci-CRAN/ggplot2-3.2.0
 	sci-CRAN/gridExtra
 	sci-CRAN/gtools
 	sci-CRAN/iterators
-	sci-CRAN/rlang
-	sci-CRAN/doParallel
-	sci-CRAN/stringi
 	>=sci-CRAN/tidyr-0.1.0
+	>=sci-CRAN/dplyr-0.8.1
+	>=sci-CRAN/shazam-1.0.0
 	sci-CRAN/lazyeval
+	sci-CRAN/rlang
+	sci-CRAN/stringi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

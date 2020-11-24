@@ -15,7 +15,7 @@ R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=sci-CRAN/Rcpp-0.12.3"
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/BH
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "

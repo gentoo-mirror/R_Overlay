@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/diagram
-	sci-CRAN/data_table
 	sci-CRAN/ellipse
+	sci-CRAN/data_table
 	sci-CRAN/rgl
+	sci-CRAN/diagram
 	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

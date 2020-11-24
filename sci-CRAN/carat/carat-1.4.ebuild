@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_dplyr"
 R_SUGGESTS="r_suggests_dplyr? ( >=sci-CRAN/dplyr-0.8.5 )"
-DEPEND=">=dev-lang/R-3.6.0
+DEPEND=">=sci-CRAN/gridExtra-2.3
 	>=sci-CRAN/Rcpp-1.0.4.6
+	>=dev-lang/R-3.6.0
 	>=sci-CRAN/ggplot2-3.3.0
 	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/gridExtra-2.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

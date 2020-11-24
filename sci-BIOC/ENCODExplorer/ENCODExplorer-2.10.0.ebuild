@@ -21,12 +21,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/DT
-	sci-CRAN/data_table
-	sci-CRAN/shiny
-	sci-CRAN/jsonlite
 	sci-CRAN/shinythemes
+	sci-CRAN/jsonlite
+	sci-CRAN/shiny
 	sci-CRAN/RCurl
 	sci-CRAN/tidyr
+	sci-CRAN/data_table
 	sci-CRAN/dplyr
 	sci-CRAN/stringr
 	sci-CRAN/stringi

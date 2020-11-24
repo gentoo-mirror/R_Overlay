@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/XLConnect-0.2.15
 	>=sci-CRAN/Rmpfr-0.7.1
 	>=sci-CRAN/Rdpack-0.10.1
 	>=sci-CRAN/rJava-0.9.10
+	>=sci-CRAN/XLConnect-0.2.15
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

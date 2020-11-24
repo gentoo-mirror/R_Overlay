@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/lagsarlmtree_1.0-1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND=">=dev-lang/R-3.3.0
+	virtual/spatial
 	>=sci-CRAN/Formula-1.2.1
 	sci-CRAN/partykit
-	virtual/spatial
 "
 RDEPEND="${DEPEND-}"

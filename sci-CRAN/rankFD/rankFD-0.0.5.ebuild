@@ -12,10 +12,10 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 
 IUSE="${IUSE-} r_suggests_rgtk2"
 R_SUGGESTS="r_suggests_rgtk2? ( >=sci-CRAN/RGtk2-2.20.31 )"
-DEPEND=">=dev-lang/R-3.2.2
-	virtual/lattice
-	virtual/Matrix
+DEPEND="virtual/MASS
+	>=dev-lang/R-3.2.2
 	>=sci-CRAN/coin-1.1.2
-	virtual/MASS
+	virtual/Matrix
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

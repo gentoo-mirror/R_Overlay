@@ -27,13 +27,13 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 	r_suggests_titanic? ( sci-CRAN/titanic )
 "
-DEPEND="sci-CRAN/abind
-	sci-CRAN/gridExtra
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/tibble
 	virtual/Matrix
-	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
+	sci-CRAN/abind
 	sci-CRAN/plyr
 	>=sci-CRAN/Rcpp-1.0.1
-	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ActCR_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/cosinor
-	sci-CRAN/zoo
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/cosinor2
-	>=dev-lang/R-3.5.0
 	sci-CRAN/dplyr
+	sci-CRAN/cosinor
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}"

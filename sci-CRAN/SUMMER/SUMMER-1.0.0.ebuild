@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_readstata13? ( sci-CRAN/readstata13 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/survey
+DEPEND="sci-CRAN/ggplot2
 	virtual/Matrix
-	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	virtual/survival
-	sci-CRAN/viridis
-	sci-CRAN/shadowtext
-	sci-CRAN/ggridges
 	sci-CRAN/RColorBrewer
 	>=dev-lang/R-3.5
-	sci-CRAN/spdep
+	sci-CRAN/ggridges
+	sci-CRAN/survey
 	sci-CRAN/maptools
+	sci-CRAN/spdep
+	virtual/survival
+	sci-CRAN/reshape2
+	sci-CRAN/viridis
 	sci-CRAN/sp
+	sci-CRAN/shadowtext
 	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

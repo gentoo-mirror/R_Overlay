@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/optDesignSlopeInt_1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/neldermead
 	sci-CRAN/MCMCpack
+	sci-CRAN/neldermead
 "
 RDEPEND="${DEPEND-}"

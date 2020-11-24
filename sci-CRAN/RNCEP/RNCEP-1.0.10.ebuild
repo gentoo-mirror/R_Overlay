@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/RNCEP_1.0.10.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/fields
-	sci-CRAN/tgp
-	sci-CRAN/abind
 	dev-lang/R[tk]
-	sci-CRAN/RColorBrewer
-	sci-CRAN/maps
 	sci-CRAN/sp
+	sci-CRAN/RColorBrewer
+	sci-CRAN/abind
+	sci-CRAN/maps
+	sci-CRAN/tgp
 "
 RDEPEND="${DEPEND-}"

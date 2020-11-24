@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/sp-1.1.0
 	>=sci-CRAN/rJava-0.9.3
 	>=sci-CRAN/ggplot2-1.0.0
+	>=sci-CRAN/sp-1.1.0
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

@@ -26,9 +26,9 @@ R_SUGGESTS="
 	r_suggests_pcalg? ( sci-CRAN/pcalg )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/expm
+DEPEND=">=dev-lang/R-3.1.0
 	virtual/Matrix
-	>=dev-lang/R-3.1.0
+	sci-CRAN/expm
 	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_mlbench? ( sci-CRAN/mlbench )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/glmnet
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/partykit-1.2.0
-	sci-CRAN/earth
+	sci-CRAN/glmnet
 	sci-CRAN/Formula
+	sci-CRAN/earth
 	virtual/rpart
-	virtual/Matrix
-	>=dev-lang/R-3.5.0
 	sci-CRAN/stringr
 	virtual/survival
+	virtual/Matrix
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

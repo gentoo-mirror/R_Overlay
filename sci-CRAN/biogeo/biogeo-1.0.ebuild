@@ -12,11 +12,11 @@ LICENSE='GPL-3+'
 
 IUSE="${IUSE-} r_suggests_dismo"
 R_SUGGESTS="r_suggests_dismo? ( >=sci-CRAN/dismo-0.9.3 )"
-DEPEND="sci-CRAN/vegan
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/sp
 	sci-CRAN/maptools
-	sci-CRAN/stringr
-	>=dev-lang/R-3.1.0
 	sci-CRAN/raster
+	sci-CRAN/stringr
+	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/qbld_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/Rcpp
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/knitr
-	sci-CRAN/rmarkdown
+	sci-CRAN/Rcpp
+	sci-CRAN/stableGR
 	sci-CRAN/mcmcse
 	sci-CRAN/RcppDist
-	>=dev-lang/R-3.5
-	sci-CRAN/stableGR
+	sci-CRAN/rmarkdown
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppDist
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppDist
 "

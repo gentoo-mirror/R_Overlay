@@ -20,22 +20,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/lubridate
-	>=sci-CRAN/processx-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/checkmate
+	sci-CRAN/hms
+	>=sci-CRAN/data_table-1.12.4
 	>=sci-CRAN/rgl-0.100.26
 	sci-CRAN/RSQLite
-	>=sci-CRAN/progress-1.2.0
 	sci-CRAN/stringi
-	sci-CRAN/units
-	>=dev-lang/R-3.2.0
-	sci-CRAN/checkmate
 	>=sci-CRAN/callr-2.0.4
 	sci-CRAN/crayon
 	>=sci-CRAN/cli-1.1.0
-	>=sci-CRAN/data_table-1.12.4
 	sci-CRAN/decido
+	sci-CRAN/lubridate
+	>=sci-CRAN/processx-3.2.0
+	>=sci-CRAN/progress-1.2.0
 	sci-CRAN/R6
-	sci-CRAN/hms
+	sci-CRAN/units
 "
 RDEPEND="${DEPEND-}
 	sci-libs/udunits

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RVFam_1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/kinship2
-	virtual/MASS
-	sci-CRAN/lme4
-	>=dev-lang/R-3.0.0
-	sci-CRAN/coxme
-	virtual/survival
+DEPEND=">=dev-lang/R-3.0.0
 	virtual/Matrix
+	virtual/survival
+	sci-CRAN/coxme
+	sci-CRAN/kinship2
+	sci-CRAN/lme4
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spate_1.7.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/truncnorm
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/truncnorm
 "
 RDEPEND="${DEPEND-} >=sci-libs/fftw-3"

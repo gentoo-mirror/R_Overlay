@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
 DEPEND="sci-CRAN/ade4
-	sci-CRAN/raster
 	sci-CRAN/gdistance
 	sci-CRAN/vegan
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

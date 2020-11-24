@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_waveletcomp? ( sci-CRAN/WaveletComp )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/tuneR
-	sci-CRAN/seewave
 	sci-CRAN/jsonlite
 	sci-CRAN/ggplot2
+	sci-CRAN/tuneR
+	sci-CRAN/seewave
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

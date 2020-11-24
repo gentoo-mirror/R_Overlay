@@ -12,11 +12,11 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/numDeriv
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/Rcpp-1.0.1
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/nloptr
+	sci-CRAN/data_table
+	sci-CRAN/numDeriv
+	>=sci-CRAN/Rcpp-1.0.1
 	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}

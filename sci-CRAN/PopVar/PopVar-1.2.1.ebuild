@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/PopVar_1.2.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.1
+	sci-CRAN/BGLR
 	sci-CRAN/rrBLUP
 	sci-CRAN/qtl
-	sci-CRAN/BGLR
 "
 RDEPEND="${DEPEND-}"

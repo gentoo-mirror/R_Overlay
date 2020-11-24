@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_cdnmoney? ( sci-CRAN/CDNmoney )
 	r_suggests_mass? ( virtual/MASS )
 "
-DEPEND=">=sci-CRAN/GPArotation-2006.9.1
-	>=sci-CRAN/tframe-2011.3.1
-	>=sci-CRAN/EvalEst-2006.1.1
-	>=sci-CRAN/setRNG-2004.4.1
+DEPEND=">=sci-CRAN/EvalEst-2006.1.1
 	>=sci-CRAN/dse-2006.1.1
+	>=sci-CRAN/tframe-2011.3.1
+	>=sci-CRAN/GPArotation-2006.9.1
+	>=sci-CRAN/setRNG-2004.4.1
 	>=sci-CRAN/tfplot-2014.2.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

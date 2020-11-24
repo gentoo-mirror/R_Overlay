@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_randomforest? ( sci-CRAN/randomForest )
 "
 DEPEND=">=dev-lang/R-2.14.0
+	>=sci-CRAN/foreach-1.3.0
 	>=sci-CRAN/iterators-1.0.0
 	>=sci-CRAN/Rmpi-0.5.7
-	>=sci-CRAN/foreach-1.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

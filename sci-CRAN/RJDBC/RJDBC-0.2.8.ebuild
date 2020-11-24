@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RJDBC_0.2-8.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/DBI
-	>=sci-CRAN/rJava-0.4.15
+DEPEND=">=sci-CRAN/rJava-0.4.15
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-}"

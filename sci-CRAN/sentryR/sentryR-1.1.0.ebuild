@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/httr
 	sci-CRAN/uuid
-	sci-CRAN/stringr
-	sci-CRAN/tibble
 	sci-CRAN/jsonlite
+	sci-CRAN/tibble
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

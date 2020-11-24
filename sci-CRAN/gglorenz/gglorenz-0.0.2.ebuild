@@ -13,7 +13,7 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_spelling"
 R_SUGGESTS="r_suggests_spelling? ( sci-CRAN/spelling )"
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/ineq
 	>=sci-CRAN/ggplot2-2.2.1
+	sci-CRAN/ineq
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

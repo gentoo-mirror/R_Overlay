@@ -30,14 +30,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/gridExtra-2.3.0
-	>=sci-CRAN/RColorBrewer-1.1.2
-	>=sci-CRAN/rlang-0.3.1
-	>=sci-CRAN/dplyr-0.7.7
-	>=dev-lang/R-3.1.0
 	>=sci-CRAN/magrittr-1.5.0
+	>=sci-CRAN/RColorBrewer-1.1.2
 	>=sci-CRAN/ggplot2-2.2.1
+	>=dev-lang/R-3.1.0
+	>=sci-CRAN/dplyr-0.7.7
 	>=sci-CRAN/ggfittext-0.6.0
 	>=sci-CRAN/scales-1.0.0
+	>=sci-CRAN/rlang-0.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

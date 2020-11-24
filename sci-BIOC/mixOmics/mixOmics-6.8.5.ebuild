@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
-	sci-CRAN/rARPACK
-	sci-CRAN/gridExtra
+DEPEND="virtual/lattice
+	>=dev-lang/R-3.5.0
 	sci-CRAN/corpcor
-	sci-CRAN/RColorBrewer
-	virtual/MASS
-	sci-CRAN/reshape2
-	virtual/lattice
-	sci-CRAN/dplyr
+	sci-CRAN/gridExtra
 	sci-CRAN/igraph
-	sci-CRAN/ellipse
+	sci-CRAN/rARPACK
 	sci-CRAN/tidyr
+	sci-CRAN/ggplot2
+	virtual/MASS
+	sci-CRAN/RColorBrewer
+	sci-CRAN/reshape2
+	sci-CRAN/ellipse
+	sci-CRAN/dplyr
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

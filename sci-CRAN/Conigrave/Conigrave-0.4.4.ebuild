@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Conigrave_0.4.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/ggplot2-3.1.1
+DEPEND=">=sci-CRAN/dplyr-0.8.0.1
 	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/ggplot2-3.1.1
 	>=sci-CRAN/stringdist-0.9.5.1
-	>=sci-CRAN/dplyr-0.8.0.1
+	>=sci-CRAN/ppcor-1.1
 	>=sci-CRAN/mitools-2.4
 	>=sci-CRAN/miceadds-3.2.48
-	>=sci-CRAN/ppcor-1.1
 "
 RDEPEND="${DEPEND-}"

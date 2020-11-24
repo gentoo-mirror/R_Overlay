@@ -27,16 +27,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xts? ( >=sci-CRAN/xts-0.9.7 )
 "
-DEPEND=">=sci-CRAN/RColorBrewer-1.1.2
-	>=sci-CRAN/plyr-1.8.4
-	sci-CRAN/magrittr
-	>=sci-CRAN/ggplot2-2.1.0
+DEPEND=">=dev-lang/R-3.3.0
+	>=sci-CRAN/dplyr-0.5.0
+	>=sci-CRAN/RColorBrewer-1.1.2
 	>=sci-CRAN/reshape2-1.4.1
+	>=sci-CRAN/plyr-1.8.4
+	>=sci-CRAN/ggplot2-2.1.0
+	sci-CRAN/magrittr
 	sci-CRAN/Rcpp
 	sci-CRAN/zoo
 	sci-CRAN/scales
-	>=dev-lang/R-3.3.0
-	>=sci-CRAN/dplyr-0.5.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

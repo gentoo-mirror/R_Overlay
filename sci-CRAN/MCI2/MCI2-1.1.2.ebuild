@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MCI2_1.1.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/MCI
-	sci-CRAN/osrm
+DEPEND="sci-CRAN/osrm
+	sci-CRAN/reshape
 	sci-CRAN/tmaptools
 	sci-CRAN/REAT
-	sci-CRAN/reshape
+	>=dev-lang/R-3.5.0
+	sci-CRAN/MCI
 "
 RDEPEND="${DEPEND-}"

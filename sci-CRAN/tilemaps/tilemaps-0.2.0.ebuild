@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_spdata? ( sci-CRAN/spData )
 "
-DEPEND="sci-CRAN/lwgeom
+DEPEND="sci-CRAN/clue
 	sci-CRAN/smoothr
 	sci-CRAN/ggplot2
+	sci-CRAN/lwgeom
 	sci-CRAN/igraph
-	sci-CRAN/clue
 	sci-CRAN/sf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

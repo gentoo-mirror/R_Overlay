@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_plm? ( sci-CRAN/plm )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/reshape2
+DEPEND=">=sci-CRAN/Rcpp-0.12.18
 	sci-CRAN/nloptr
-	>=sci-CRAN/Rcpp-0.12.18
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

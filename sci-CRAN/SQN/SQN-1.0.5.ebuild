@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SQN_1.0.5.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND=">=sci-CRAN/nor1mix-1.0.7
-	>=sci-CRAN/mclust-3.2
+DEPEND=">=sci-CRAN/mclust-3.2
+	>=sci-CRAN/nor1mix-1.0.7
 "
 RDEPEND="${DEPEND-}"

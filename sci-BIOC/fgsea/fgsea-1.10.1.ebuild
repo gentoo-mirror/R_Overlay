@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.3
+DEPEND="sci-CRAN/Rcpp
+	>=sci-CRAN/ggplot2-2.2.0
 	sci-CRAN/data_table
 	sci-CRAN/gridExtra
-	sci-CRAN/Rcpp
-	>=sci-CRAN/ggplot2-2.2.0
 	sci-BIOC/BiocParallel
-	sci-CRAN/fastmatch
 	virtual/Matrix
+	>=dev-lang/R-3.3
+	sci-CRAN/fastmatch
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

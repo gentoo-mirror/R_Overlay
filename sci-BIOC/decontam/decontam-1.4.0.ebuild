@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_phyloseq? ( sci-BIOC/phyloseq )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/reshape2-1.4.1
-	>=dev-lang/R-3.4.1
+DEPEND=">=dev-lang/R-3.4.1
 	>=sci-CRAN/ggplot2-2.1.0
+	>=sci-CRAN/reshape2-1.4.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

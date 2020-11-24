@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.5
 	sci-CRAN/doParallel
+	sci-CRAN/ProfileLikelihood
 	sci-CRAN/foreach
 	sci-CRAN/sandwich
-	sci-CRAN/ProfileLikelihood
 "
 RDEPEND="${DEPEND-}"

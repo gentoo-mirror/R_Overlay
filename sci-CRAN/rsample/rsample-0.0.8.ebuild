@@ -25,17 +25,17 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/purrr
 	sci-CRAN/tibble
+	sci-CRAN/purrr
 	>=sci-CRAN/dplyr-0.8.5
 	>=sci-CRAN/rlang-0.4.0
 	sci-CRAN/generics
 	sci-CRAN/tidyselect
 	sci-CRAN/furrr
-	>=sci-CRAN/slider-0.1.5
 	sci-CRAN/ellipsis
 	sci-CRAN/tidyr
 	>=sci-CRAN/vctrs-0.3.0
 	sci-CRAN/modeldata
+	>=sci-CRAN/slider-0.1.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

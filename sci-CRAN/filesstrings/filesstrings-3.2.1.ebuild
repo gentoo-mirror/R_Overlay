@@ -21,13 +21,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1 )
 "
 DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/strex-1.4
-	>=sci-CRAN/checkmate-1.9.3
-	>=sci-CRAN/stringi-1.4.6
-	>=sci-CRAN/stringr-1.4
-	>=sci-CRAN/purrr-0.3.0
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/stringr-1.4
+	>=sci-CRAN/checkmate-1.9.3
+	>=sci-CRAN/purrr-0.3.0
 	>=sci-CRAN/rlang-0.3.3
+	>=sci-CRAN/strex-1.4
+	>=sci-CRAN/stringi-1.4.6
 	>=sci-CRAN/withr-2.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

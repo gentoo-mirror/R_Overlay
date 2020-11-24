@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_rsaucelabs? ( sci-CRAN/RSauceLabs )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/jsonlite
-	sci-CRAN/httr
-	sci-CRAN/magrittr
-	sci-CRAN/xml2
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/whisker
+	sci-CRAN/magrittr
+	>=dev-lang/R-3.0.0
+	sci-CRAN/httr
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

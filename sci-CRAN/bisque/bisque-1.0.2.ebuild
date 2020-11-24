@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_fields? ( sci-CRAN/fields )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/itertools
 	sci-CRAN/foreach
 	sci-CRAN/mvQuad
+	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.4
-	>=sci-CRAN/RcppEigen-0.3.3.3.1
 	sci-CRAN/RcppArmadillo
+	>=sci-CRAN/RcppEigen-0.3.3.3.1
 	${R_SUGGESTS-}
 "

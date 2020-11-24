@@ -18,32 +18,32 @@ R_SUGGESTS="
 	r_suggests_oro_nifti? ( sci-CRAN/oro_nifti )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/tidyr
-	sci-CRAN/doParallel
-	sci-CRAN/fancycut
-	sci-CRAN/cubature
-	sci-CRAN/ggpubr
-	sci-CRAN/ggplot2
-	sci-CRAN/scales
-	sci-CRAN/plotly
-	sci-CRAN/fmri
-	sci-CRAN/extraDistr
+DEPEND="sci-CRAN/ggpubr
 	sci-CRAN/reshape2
-	sci-CRAN/MultiwayRegression
+	sci-CRAN/AnalyzeFMRI
+	sci-CRAN/plotly
 	sci-CRAN/RColorBrewer
+	sci-CRAN/fmri
+	sci-CRAN/cubature
+	sci-CRAN/tidyr
 	sci-CRAN/ICSNP
+	sci-CRAN/pracma
+	sci-CRAN/foreach
+	sci-CRAN/MultiwayRegression
+	sci-CRAN/dplyr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
+	sci-CRAN/fancycut
+	sci-CRAN/geometry
+	sci-CRAN/forecast
 	sci-CRAN/rrcov
+	sci-CRAN/DT
 	sci-CRAN/zoo
 	sci-CRAN/spatstat
-	sci-CRAN/geometry
+	sci-CRAN/doParallel
+	sci-CRAN/scales
 	sci-CRAN/gridExtra
-	sci-CRAN/pracma
-	sci-CRAN/forecast
-	sci-CRAN/foreach
-	>=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
-	sci-CRAN/AnalyzeFMRI
-	sci-CRAN/DT
+	sci-CRAN/extraDistr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

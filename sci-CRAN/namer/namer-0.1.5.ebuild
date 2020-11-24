@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_unf? ( sci-CRAN/UNF )
 "
-DEPEND="sci-CRAN/tibble
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/fs
 	sci-CRAN/glue
-	sci-CRAN/dplyr
-	sci-CRAN/fs
 	sci-CRAN/magrittr
+	sci-CRAN/tibble
+	sci-CRAN/purrr
+	sci-CRAN/dplyr
 	sci-CRAN/rstudioapi
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

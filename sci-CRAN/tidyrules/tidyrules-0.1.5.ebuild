@@ -28,12 +28,12 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart virtual/rpart )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.1 )
 "
-DEPEND=">=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/assertthat-0.2.0
-	>=sci-CRAN/purrr-0.3.2
+DEPEND=">=dev-lang/R-3.6.0
 	>=sci-CRAN/tibble-2.0.1
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/purrr-0.3.2
 	>=sci-CRAN/stringr-1.3.1
 	>=sci-CRAN/partykit-1.2.2
-	>=dev-lang/R-3.6.0
+	>=sci-CRAN/assertthat-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,11 +19,11 @@ R_SUGGESTS="
 	r_suggests_suppdists? ( sci-CRAN/SuppDists )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/lattice
+DEPEND="sci-CRAN/bbmle
 	sci-CRAN/coda
-	sci-CRAN/bbmle
-	sci-CRAN/plyr
+	virtual/lattice
 	virtual/MASS
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

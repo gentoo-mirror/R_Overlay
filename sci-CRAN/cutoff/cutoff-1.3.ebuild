@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/cutoff_1.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/survival
-	sci-CRAN/ROCit
-	sci-CRAN/set
 	sci-CRAN/do
+	sci-CRAN/set
+	sci-CRAN/ROCit
 "
 RDEPEND="${DEPEND-}"

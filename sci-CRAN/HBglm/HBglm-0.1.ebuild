@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HBglm_0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/sns
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/Formula
+	sci-CRAN/sns
 	sci-CRAN/bayesm
 	sci-CRAN/MfUSampler
 "

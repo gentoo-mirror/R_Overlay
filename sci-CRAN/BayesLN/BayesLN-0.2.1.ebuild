@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/coda
+	sci-CRAN/lme4
 	sci-CRAN/fAsianOptions
-	sci-CRAN/ghyp
+	>=sci-CRAN/Rcpp-0.12.17
+	virtual/Matrix
 	sci-CRAN/optimx
+	sci-CRAN/ghyp
+	sci-CRAN/coda
 	virtual/MASS
 	sci-CRAN/data_table
-	virtual/Matrix
-	>=sci-CRAN/Rcpp-0.12.17
-	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

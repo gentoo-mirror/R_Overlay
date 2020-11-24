@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/spBayesSurv_1.1.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	virtual/survival
-	sci-CRAN/fields
 	>=sci-CRAN/Rcpp-0.11.1
-	sci-CRAN/coda
 	virtual/MASS
+	virtual/survival
+	sci-CRAN/coda
+	sci-CRAN/fields
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

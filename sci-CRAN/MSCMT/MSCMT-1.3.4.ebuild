@@ -37,10 +37,10 @@ R_SUGGESTS="
 	r_suggests_synth? ( sci-CRAN/Synth )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/ggplot2
-	sci-mathematics/glpk
 	sci-CRAN/lpSolve
 	sci-CRAN/lpSolveAPI
+	sci-mathematics/glpk
+	sci-CRAN/ggplot2
 	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

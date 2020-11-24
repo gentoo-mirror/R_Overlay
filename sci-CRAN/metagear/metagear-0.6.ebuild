@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
-	>=sci-CRAN/metafor-1.9.9
+DEPEND=">=sci-CRAN/metafor-1.9.9
+	virtual/Matrix
+	>=sci-CRAN/hexView-0.3.3
 	virtual/MASS
 	>=dev-lang/R-3.3.2
-	>=sci-CRAN/hexView-0.3.3
 	>=sci-CRAN/RCurl-1.95.4.8
 	sci-BIOC/EBImage
 	sci-CRAN/stringr

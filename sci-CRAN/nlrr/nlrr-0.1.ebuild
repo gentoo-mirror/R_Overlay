@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/nlrr_0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.2
-	sci-CRAN/Hmisc
 	sci-CRAN/rms
+	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-}"

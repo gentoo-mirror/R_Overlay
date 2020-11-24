@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/dplyr
-	>=sci-CRAN/data_table-1.9.8
-	sci-CRAN/magrittr
 	sci-CRAN/R6
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
+	>=sci-CRAN/data_table-1.9.8
 	>=sci-CRAN/rlang-0.3.1
 	sci-CRAN/tidyselect
 "

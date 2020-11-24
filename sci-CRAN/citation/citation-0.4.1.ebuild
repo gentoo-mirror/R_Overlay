@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/citation_0.4.1.tar.gz"
 LICENSE='BSD-2'
 
 DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/yaml
 	sci-CRAN/desc
+	sci-CRAN/yaml
 "
 RDEPEND="${DEPEND-}"

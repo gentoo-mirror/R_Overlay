@@ -41,9 +41,9 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/estimatr-0.20.0
 	sci-CRAN/rlang
 	>=sci-CRAN/randomizr-0.20.0
+	>=sci-CRAN/estimatr-0.20.0
 	>=sci-CRAN/fabricatr-0.10.0
 	sci-CRAN/generics
 "

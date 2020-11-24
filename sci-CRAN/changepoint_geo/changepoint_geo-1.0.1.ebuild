@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6
+	sci-CRAN/changepoint
+	sci-CRAN/changepoint_np
 	sci-CRAN/ggplot2
 	sci-CRAN/Rdpack
-	sci-CRAN/changepoint_np
-	sci-CRAN/changepoint
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

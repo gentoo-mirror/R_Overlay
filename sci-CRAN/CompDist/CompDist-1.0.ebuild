@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/numDeriv
-	sci-CRAN/VGAM
 	sci-CRAN/actuar
+	sci-CRAN/VGAM
 	sci-CRAN/fExtremes
 	sci-CRAN/rmutil
 	sci-CRAN/PearsonDS

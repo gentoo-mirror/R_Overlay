@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SACCR_3.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/data_tree
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
+	sci-CRAN/data_tree
 	sci-CRAN/Trading
 "
 RDEPEND="${DEPEND-}"

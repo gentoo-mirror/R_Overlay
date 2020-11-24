@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_epi? ( sci-CRAN/Epi )
 	r_suggests_rstpm2? ( sci-CRAN/rstpm2 )
 "
-DEPEND="sci-CRAN/car
+DEPEND="virtual/survival
+	virtual/MASS
+	sci-CRAN/car
 	>=dev-lang/R-3.5
 	sci-CRAN/muhaz
-	virtual/MASS
-	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

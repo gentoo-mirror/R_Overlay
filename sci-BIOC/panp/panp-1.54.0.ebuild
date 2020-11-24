@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_gcrma"
 R_SUGGESTS="r_suggests_gcrma? ( sci-BIOC/gcrma )"
-DEPEND="sci-BIOC/Biobase
+DEPEND=">=sci-BIOC/affy-1.23.4
 	>=sci-BIOC/Biobase-2.5.5
-	>=sci-BIOC/affy-1.23.4
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

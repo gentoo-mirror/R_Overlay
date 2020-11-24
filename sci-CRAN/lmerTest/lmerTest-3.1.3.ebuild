@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_pbkrtest"
 R_SUGGESTS="r_suggests_pbkrtest? ( >=sci-CRAN/pbkrtest-0.4.3 )"
-DEPEND=">=dev-lang/R-3.2.5
-	sci-CRAN/numDeriv
+DEPEND="sci-CRAN/numDeriv
+	sci-CRAN/ggplot2
 	virtual/MASS
 	>=sci-CRAN/lme4-1.1.10
-	sci-CRAN/ggplot2
+	>=dev-lang/R-3.2.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

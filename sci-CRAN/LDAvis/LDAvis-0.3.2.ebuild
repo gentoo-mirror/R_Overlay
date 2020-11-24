@@ -26,7 +26,7 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_topicmodels? ( sci-CRAN/topicmodels )
 "
-DEPEND="sci-CRAN/proxy
-	sci-CRAN/RJSONIO
+DEPEND="sci-CRAN/RJSONIO
+	sci-CRAN/proxy
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

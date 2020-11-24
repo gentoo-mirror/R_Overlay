@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gazepath_1.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/sp
-	sci-CRAN/scales
+DEPEND="sci-CRAN/jpeg
+	sci-CRAN/sp
 	sci-CRAN/zoo
 	sci-CRAN/shiny
-	sci-CRAN/jpeg
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}"

@@ -28,19 +28,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.1 )
 	r_suggests_wqs? ( >=sci-CRAN/wqs-0.0.1 )
 "
-DEPEND="virtual/MASS
-	>=sci-CRAN/rlist-0.4.6.1
+DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/coda-0.19.2
+	>=sci-CRAN/glm2-1.2.1
+	>=sci-CRAN/invgamma-1.1
+	>=sci-CRAN/truncnorm-1.0.8
+	>=sci-CRAN/ggplot2-3.1.0
+	>=sci-CRAN/Hmisc-4.1.1
+	virtual/MASS
 	virtual/Matrix
-	>=sci-CRAN/Rsolnp-1.16
 	>=sci-CRAN/purrr-0.3.2
+	>=sci-CRAN/rlist-0.4.6.1
+	>=sci-CRAN/Rsolnp-1.16
 	virtual/survival
 	>=sci-CRAN/tidyr-0.8.2
-	>=sci-CRAN/truncnorm-1.0.8
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/coda-0.19.2
-	>=sci-CRAN/ggplot2-3.1.0
-	>=sci-CRAN/glm2-1.2.1
-	>=sci-CRAN/Hmisc-4.1.1
-	>=sci-CRAN/invgamma-1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

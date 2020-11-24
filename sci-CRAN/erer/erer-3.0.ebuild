@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/systemfit
 	sci-CRAN/lmtest
 	sci-CRAN/tseries
-	sci-CRAN/systemfit
 	sci-CRAN/urca
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/sparr
-	sci-CRAN/fields
-	sci-CRAN/foreach
-	sci-CRAN/doParallel
-	>=dev-lang/R-3.5.0
-	sci-CRAN/spatstat
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/raster
+	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	sci-CRAN/spatstat
+	sci-CRAN/fields
 	sci-CRAN/sp
+	sci-CRAN/sparr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

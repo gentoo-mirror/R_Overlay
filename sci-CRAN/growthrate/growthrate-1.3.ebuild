@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/growthrate_1.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/Matrix
-	sci-CRAN/mvtnorm
 	sci-CRAN/clime
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

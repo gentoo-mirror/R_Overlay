@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=sci-CRAN/dplyr-0.4.3
-	>=sci-CRAN/httr-1.0.0
 	sci-CRAN/stringr
+	>=sci-CRAN/httr-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

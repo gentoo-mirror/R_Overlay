@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LaplaceDeconv_1.0.4.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/orthopolynom
-	sci-CRAN/polynom
+DEPEND="sci-CRAN/polynom
+	sci-CRAN/orthopolynom
 "
 RDEPEND="${DEPEND-}"

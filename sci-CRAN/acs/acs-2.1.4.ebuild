@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/acs_2.1.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/XML
-	sci-CRAN/httr
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/stringr
-	sci-CRAN/plyr
+	sci-CRAN/XML
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/sRAP_1.24.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/pls
-	sci-BIOC/qvalue
+DEPEND="sci-CRAN/WriteXLS
+	sci-CRAN/pls
 	sci-CRAN/ROCR
 	sci-CRAN/gplots
-	sci-CRAN/WriteXLS
+	sci-BIOC/qvalue
 "
 RDEPEND="${DEPEND-}"

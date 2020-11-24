@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/stringi
+DEPEND=">=dev-lang/R-3.2.3
+	sci-CRAN/stringi
 	sci-CRAN/tidyr
-	sci-CRAN/RCurl
-	sci-CRAN/bizdays
-	sci-CRAN/curl
 	sci-CRAN/xml2
-	>=dev-lang/R-3.2.3
+	sci-CRAN/bizdays
 	sci-CRAN/readxl
 	sci-CRAN/stringr
+	sci-CRAN/curl
+	sci-CRAN/RCurl
 	sci-CRAN/XML
 	sci-CRAN/rvest
 "

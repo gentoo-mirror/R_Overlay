@@ -20,39 +20,39 @@ R_SUGGESTS="
 	r_suggests_svglite? ( >=sci-CRAN/svglite-1.2.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND=">=sci-CRAN/jsonlite-1.0
-	virtual/MASS
-	>=sci-CRAN/DT-0.9
-	>=sci-CRAN/psych-1.8.4
-	>=sci-CRAN/readr-1.1.1
-	sci-CRAN/base64enc
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/lubridate-1.7.4
-	>=sci-CRAN/tibble-1.4.2
-	>=sci-CRAN/dplyr-1.0.1
-	>=sci-CRAN/broom-0.5.2
-	>=sci-CRAN/car-3.0.0
-	>=sci-CRAN/rmarkdown-1.14
-	>=sci-CRAN/readxl-1.0.0
-	>=sci-CRAN/scales-0.4.0
-	>=sci-CRAN/stringi-1.2.4
-	>=sci-CRAN/plotly-4.7.1
-	>=sci-CRAN/import-1.1.0
-	>=sci-CRAN/tidyr-0.8.2
-	>=sci-CRAN/rlang-0.4.0
-	>=sci-CRAN/shinyAce-0.4.1
-	>=sci-CRAN/rstudioapi-0.7
-	>=sci-CRAN/shinyFiles-0.7.3
+DEPEND=">=sci-CRAN/broom-0.5.2
 	>=sci-CRAN/writexl-0.2
-	>=sci-CRAN/curl-2.5
-	>=sci-CRAN/patchwork-1.0.0
-	>=sci-CRAN/ggplot2-2.2.1
-	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/rstudioapi-0.7
 	>=sci-CRAN/knitr-1.20
+	>=sci-CRAN/psych-1.8.4
+	>=sci-CRAN/scales-0.4.0
+	>=sci-CRAN/import-1.1.0
+	>=sci-CRAN/glue-1.3.0
+	>=sci-CRAN/stringi-1.2.4
+	>=sci-CRAN/patchwork-1.0.0
+	>=sci-CRAN/tibble-1.4.2
+	>=sci-CRAN/rlang-0.4.0
+	>=sci-CRAN/jsonlite-1.0
+	>=sci-CRAN/readr-1.1.1
+	>=sci-CRAN/curl-2.5
+	>=sci-CRAN/lubridate-1.7.4
+	>=sci-CRAN/shinyAce-0.4.1
+	>=sci-CRAN/DT-0.9
+	>=sci-CRAN/readxl-1.0.0
+	virtual/MASS
+	sci-CRAN/base64enc
 	>=sci-CRAN/markdown-1.0
 	>=sci-CRAN/shiny-1.4.0
-	>=sci-CRAN/glue-1.3.0
+	>=sci-CRAN/plotly-4.7.1
+	>=sci-CRAN/shinyFiles-0.7.3
 	>=sci-CRAN/randomizr-0.20.0
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/dplyr-1.0.1
+	>=dev-lang/R-3.4.0
+	>=sci-CRAN/tidyr-0.8.2
+	>=sci-CRAN/ggplot2-2.2.1
+	>=sci-CRAN/car-3.0.0
+	>=sci-CRAN/rmarkdown-1.14
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

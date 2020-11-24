@@ -18,8 +18,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/DBI
 	sci-CRAN/uuid
-	sci-CRAN/dbplyr
 	sci-CRAN/dplyr
+	sci-CRAN/dbplyr
 	sci-CRAN/pins
 	sci-CRAN/rscontract
 "

@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_randomforest? ( sci-CRAN/randomForest )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/caret
-	sci-CRAN/magrittr
-	sci-CRAN/raster
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/foreach
 	virtual/boot
+	sci-CRAN/magrittr
+	sci-CRAN/caret
 	sci-CRAN/plyr
 	sci-CRAN/sp
-	sci-CRAN/dplyr
-	sci-CRAN/foreach
+	sci-CRAN/raster
 	sci-CRAN/viridis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

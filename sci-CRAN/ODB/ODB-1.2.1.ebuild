@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ODB_1.2.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/DBI
-	sci-CRAN/RJDBC
+DEPEND="sci-CRAN/RJDBC
+	sci-CRAN/DBI
 "
 RDEPEND="${DEPEND-} app-arch/zip"

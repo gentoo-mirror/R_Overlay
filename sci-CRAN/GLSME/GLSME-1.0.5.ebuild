@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_ape? ( sci-CRAN/ape )
 	r_suggests_mvslouch? ( sci-CRAN/mvSLOUCH )
 "
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/corpcor
+DEPEND="sci-CRAN/corpcor
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

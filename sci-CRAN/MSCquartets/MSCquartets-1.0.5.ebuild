@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MSCquartets_1.0.5.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.2.0
-	>=sci-CRAN/ape-5.0
-	sci-CRAN/zipfR
+DEPEND=">=sci-CRAN/ape-5.0
+	sci-CRAN/Rdpack
 	sci-CRAN/phangorn
 	sci-CRAN/RandomFieldsUtils
-	sci-CRAN/Rdpack
+	>=dev-lang/R-3.2.0
+	sci-CRAN/zipfR
 "
 RDEPEND="${DEPEND-}"

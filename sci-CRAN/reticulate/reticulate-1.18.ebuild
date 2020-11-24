@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/jsonlite
+DEPEND=">=dev-lang/R-3.0
 	>=sci-CRAN/Rcpp-0.12.7
-	virtual/Matrix
 	sci-CRAN/rappdirs
-	>=dev-lang/R-3.0
+	virtual/Matrix
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

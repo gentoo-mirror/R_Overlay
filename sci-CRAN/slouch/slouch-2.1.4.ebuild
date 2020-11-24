@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/ape
 	sci-CRAN/crayon
 	sci-CRAN/memoise
+	sci-CRAN/ape
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

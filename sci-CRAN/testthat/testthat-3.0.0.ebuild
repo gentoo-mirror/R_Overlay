@@ -26,24 +26,24 @@ R_SUGGESTS="
 	r_suggests_vctrs? ( >=sci-CRAN/vctrs-0.1.0 )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=dev-lang/R-3.1
+DEPEND=">=sci-CRAN/withr-2.0.0
 	sci-CRAN/desc
-	sci-CRAN/magrittr
 	sci-CRAN/cli
+	sci-CRAN/brio
 	sci-CRAN/evaluate
-	sci-CRAN/pkgload
+	sci-CRAN/magrittr
 	sci-CRAN/praise
 	>=sci-CRAN/R6-2.2.0
-	>=sci-CRAN/withr-2.0.0
 	>=sci-CRAN/ps-1.3.4
-	sci-CRAN/brio
-	>=sci-CRAN/callr-3.5.1
-	sci-CRAN/processx
 	>=sci-CRAN/rlang-0.4.1
-	>=sci-CRAN/crayon-1.3.4
 	>=sci-CRAN/ellipsis-0.2.0
 	sci-CRAN/lifecycle
+	sci-CRAN/pkgload
 	>=sci-CRAN/waldo-0.2.1
+	>=dev-lang/R-3.1
+	>=sci-CRAN/callr-3.5.1
+	sci-CRAN/processx
+	>=sci-CRAN/crayon-1.3.4
 	sci-CRAN/digest
 	sci-CRAN/jsonlite
 "

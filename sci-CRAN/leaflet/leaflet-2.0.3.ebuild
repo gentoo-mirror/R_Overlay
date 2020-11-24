@@ -24,16 +24,16 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/crosstalk
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/htmltools
 	sci-CRAN/png
-	sci-CRAN/base64enc
+	sci-CRAN/markdown
 	sci-CRAN/htmlwidgets
 	sci-CRAN/RColorBrewer
 	>=sci-CRAN/scales-1.0.0
-	>=dev-lang/R-3.1.0
-	sci-CRAN/htmltools
+	sci-CRAN/base64enc
+	sci-CRAN/crosstalk
 	sci-CRAN/magrittr
-	sci-CRAN/markdown
 	sci-CRAN/raster
 	sci-CRAN/sp
 	>=sci-CRAN/viridis-0.5.1

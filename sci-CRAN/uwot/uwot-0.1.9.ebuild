@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/FNN
-	sci-CRAN/Rcpp
-	>=sci-CRAN/RcppAnnoy-0.0.11
+DEPEND="virtual/Matrix
 	sci-CRAN/irlba
+	>=sci-CRAN/RcppAnnoy-0.0.11
 	sci-CRAN/RSpectra
-	virtual/Matrix
+	sci-CRAN/Rcpp
+	sci-CRAN/FNN
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/dqrng
-	sci-CRAN/RcppAnnoy
 	sci-CRAN/RcppProgress
+	sci-CRAN/RcppAnnoy
+	sci-CRAN/dqrng
 	${R_SUGGESTS-}
 "

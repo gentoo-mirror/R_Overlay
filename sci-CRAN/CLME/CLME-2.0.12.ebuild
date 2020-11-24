@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_nnet? ( virtual/nnet )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/nlme
-	sci-CRAN/openxlsx
+DEPEND=">=dev-lang/R-4.0.0
+	virtual/nlme
 	sci-CRAN/isotone
-	sci-CRAN/lme4
-	>=dev-lang/R-4.0.0
-	virtual/MASS
-	sci-CRAN/shiny
 	sci-CRAN/stringr
+	virtual/MASS
 	sci-CRAN/prettyR
+	sci-CRAN/openxlsx
+	sci-CRAN/lme4
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

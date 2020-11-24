@@ -12,11 +12,11 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/edfReader
-	sci-CRAN/signal
 	sci-CRAN/jsonlite
-	>=dev-lang/R-3.5.0
+	sci-CRAN/signal
+	sci-CRAN/ggplot2
 	sci-CRAN/phonTools
 	sci-CRAN/psd
 "

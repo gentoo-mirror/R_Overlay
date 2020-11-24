@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rprojroot? ( sci-CRAN/rprojroot )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/rlang
-	sci-CRAN/lubridate
-	>=dev-lang/R-3.1.2
+DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/ggplot2
+	sci-CRAN/lubridate
 	sci-CRAN/dplyr
+	sci-CRAN/purrr
+	sci-CRAN/rlang
 	sci-CRAN/stringr
 	sci-CRAN/tidyr
 "

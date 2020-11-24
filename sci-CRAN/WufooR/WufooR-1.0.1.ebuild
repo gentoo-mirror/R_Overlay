@@ -21,7 +21,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.6.0
 	>=sci-CRAN/httr-1.4.1
-	>=sci-CRAN/dplyr-0.8.5
 	>=sci-CRAN/jsonlite-1.6.1
+	>=sci-CRAN/dplyr-0.8.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

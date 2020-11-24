@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/tcR
 	sci-BIOC/Biostrings
-	sci-CRAN/tcR
 	sci-CRAN/rDNAse
+	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

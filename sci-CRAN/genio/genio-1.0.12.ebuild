@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/readr
-	sci-CRAN/tibble
 	sci-CRAN/Rcpp
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

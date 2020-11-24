@@ -27,8 +27,8 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND=">=sci-CRAN/car-3.0
+	>=dev-lang/R-3.5.0
 	virtual/MASS
-	>=sci-CRAN/car-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

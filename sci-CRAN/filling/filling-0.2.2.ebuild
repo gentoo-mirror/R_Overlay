@@ -12,10 +12,10 @@ LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-2.14.0
 	>=sci-CRAN/CVXR-1.0
-	sci-CRAN/RSpectra
 	sci-CRAN/Rdpack
 	sci-CRAN/Rcpp
 	sci-CRAN/ROptSpace
+	sci-CRAN/RSpectra
 	sci-CRAN/nabor
 "
 RDEPEND="${DEPEND-}

@@ -37,14 +37,14 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 	r_suggests_zip? ( sci-CRAN/zip )
 "
-DEPEND=">=sci-CRAN/dplyr-0.7.0
-	sci-CRAN/shiny
-	sci-CRAN/magrittr
-	>=dev-lang/R-3.5.0
-	sci-CRAN/purrr
-	sci-CRAN/rlang
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/ROCR
+	sci-CRAN/rlang
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/dplyr-0.7.0
+	sci-CRAN/purrr
 	>=sci-CRAN/sf-0.9.0
+	sci-CRAN/shiny
 	sci-CRAN/units
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

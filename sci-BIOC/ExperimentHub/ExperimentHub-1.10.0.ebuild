@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=sci-BIOC/AnnotationHub-2.15.9
-	sci-CRAN/curl
+DEPEND=">=sci-BIOC/BiocGenerics-0.15.10
 	sci-CRAN/BiocManager
-	>=sci-BIOC/BiocGenerics-0.15.10
-	>=sci-BIOC/BiocFileCache-1.5.1
 	sci-BIOC/S4Vectors
 	sci-CRAN/rappdirs
+	>=sci-BIOC/AnnotationHub-2.15.9
+	>=sci-BIOC/BiocFileCache-1.5.1
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

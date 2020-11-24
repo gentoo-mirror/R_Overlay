@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RobinHood_1.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/profvis
-	sci-CRAN/lubridate
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/magrittr
+	sci-CRAN/lubridate
 	sci-CRAN/dplyr
+	sci-CRAN/profvis
 	sci-CRAN/httr
 	sci-CRAN/uuid
 "

@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/rust-1.2.2
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/bayesplot-1.1.0
-	>=dev-lang/R-3.3.0
+	>=sci-CRAN/rust-1.2.2
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

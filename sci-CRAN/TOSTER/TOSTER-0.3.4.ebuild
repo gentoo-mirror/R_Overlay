@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/R6
+DEPEND=">=sci-CRAN/jmvcore-0.8
 	sci-CRAN/ggplot2
-	>=sci-CRAN/jmvcore-0.8
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

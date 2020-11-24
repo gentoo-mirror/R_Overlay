@@ -17,14 +17,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/ggplot2-3.3.0
-	>=sci-CRAN/ipaddress-0.5.1
-	>=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/glue
 	>=dev-lang/R-3.3.0
+	>=sci-CRAN/ipaddress-0.5.1
+	sci-CRAN/glue
+	>=sci-CRAN/dplyr-1.0.0
 	sci-CRAN/Rcpp
-	sci-CRAN/tidyr
-	>=sci-CRAN/vctrs-0.3.0
 	>=sci-CRAN/rlang-0.4.2
+	>=sci-CRAN/vctrs-0.3.0
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/ipaddress

@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_lattice"
 R_SUGGESTS="r_suggests_lattice? ( virtual/lattice )"
-DEPEND="virtual/lattice
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/RColorBrewer
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

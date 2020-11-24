@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_refund? ( sci-CRAN/refund )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/gamboostLSS-2.0.0
-	virtual/mgcv
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/mboost-2.9.0
-	virtual/Matrix
-	sci-CRAN/stabs
-	virtual/MASS
+DEPEND=">=sci-CRAN/mboost-2.9.0
 	sci-CRAN/zoo
+	sci-CRAN/stabs
+	virtual/mgcv
+	virtual/Matrix
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/gamboostLSS-2.0.0
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

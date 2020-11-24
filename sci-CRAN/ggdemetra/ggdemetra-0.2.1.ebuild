@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.1.2
-	>=sci-CRAN/ggplot2-2.0.0
-	sci-CRAN/ggrepel
-	>=sci-CRAN/RJDemetra-0.1.2
 	sci-CRAN/gridExtra
+	sci-CRAN/ggrepel
+	>=sci-CRAN/ggplot2-2.0.0
+	>=sci-CRAN/RJDemetra-0.1.2
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

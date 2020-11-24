@@ -28,8 +28,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/caret
-	sci-CRAN/magrittr
 	sci-CRAN/zoo
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

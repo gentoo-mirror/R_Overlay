@@ -14,12 +14,12 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/base64enc
-	sci-CRAN/digest
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/ini
-	sci-CRAN/jsonlite
 	sci-CRAN/httr
 	sci-CRAN/xml2
+	sci-CRAN/base64enc
+	sci-CRAN/digest
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

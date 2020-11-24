@@ -17,20 +17,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/plyr
+	sci-CRAN/curl
 	sci-CRAN/mapdata
+	sci-CRAN/gtools
+	sci-CRAN/ggplot2
+	sci-CRAN/jose
+	sci-CRAN/plyr
 	sci-CRAN/maps
 	sci-CRAN/vegan
 	sci-CRAN/R_utils
 	sci-CRAN/simba
 	sci-CRAN/httr
-	sci-CRAN/sp
-	sci-CRAN/maptools
 	sci-CRAN/jsonlite
-	sci-CRAN/ggplot2
-	sci-CRAN/jose
+	sci-CRAN/sp
 	sci-CRAN/betapart
-	sci-CRAN/curl
-	sci-CRAN/gtools
+	sci-CRAN/maptools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

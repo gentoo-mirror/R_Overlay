@@ -16,26 +16,26 @@ R_SUGGESTS="
 	r_suggests_sotu? ( sci-CRAN/sotu )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/RColorBrewer
-	sci-CRAN/tibble
-	sci-CRAN/shiny
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/rmarkdown
 	sci-CRAN/shinyjs
-	sci-CRAN/stringi
-	sci-CRAN/dplyr
-	sci-CRAN/padr
-	sci-CRAN/data_table
-	>=dev-lang/R-3.0.0
-	sci-CRAN/magrittr
 	sci-CRAN/ggplot2
-	sci-CRAN/lubridate
-	sci-CRAN/shinydashboard
-	sci-CRAN/stringr
+	sci-CRAN/tibble
+	sci-CRAN/dplyr
+	sci-CRAN/data_table
+	sci-CRAN/RColorBrewer
 	sci-CRAN/rlang
-	sci-CRAN/shinyWidgets
 	sci-CRAN/scales
+	sci-CRAN/stringr
+	sci-CRAN/padr
+	sci-CRAN/shinydashboard
+	sci-CRAN/shinyWidgets
+	sci-CRAN/lubridate
+	sci-CRAN/shiny
+	sci-CRAN/stringi
 	sci-CRAN/tidyr
+	>=dev-lang/R-3.0.0
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

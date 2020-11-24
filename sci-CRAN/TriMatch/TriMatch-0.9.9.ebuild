@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/scales
-	sci-CRAN/reshape2
-	sci-CRAN/randomForest
-	sci-CRAN/gridExtra
-	>=dev-lang/R-3.0
-	sci-CRAN/ez
 	sci-CRAN/psych
+	>=dev-lang/R-3.0
+	sci-CRAN/reshape2
 	sci-CRAN/PSAgraphics
+	sci-CRAN/gridExtra
+	sci-CRAN/ez
+	sci-CRAN/scales
+	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

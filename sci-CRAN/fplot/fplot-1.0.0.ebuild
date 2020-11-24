@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/data_table
+	sci-CRAN/Rcpp
 	>=sci-CRAN/dreamerr-1.1.0
 	sci-CRAN/Formula
-	sci-CRAN/Rcpp
-	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

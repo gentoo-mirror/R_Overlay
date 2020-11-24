@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/patchwork
-	sci-CRAN/desirability
 	sci-CRAN/rlang
+	sci-CRAN/desirability
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

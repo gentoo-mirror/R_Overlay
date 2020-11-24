@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	>=sci-BIOC/qvalue-1.99.0
-	sci-BIOC/snm
-	sci-BIOC/sva
-	sci-BIOC/Biobase
-	sci-CRAN/jackstraw
+DEPEND="sci-BIOC/snm
 	virtual/MASS
+	sci-CRAN/jackstraw
+	sci-BIOC/Biobase
+	>=dev-lang/R-3.1.0
+	sci-BIOC/sva
+	>=sci-BIOC/qvalue-1.99.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

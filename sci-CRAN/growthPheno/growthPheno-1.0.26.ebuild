@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/readxl
-	sci-CRAN/dae
-	sci-CRAN/RColorBrewer
-	sci-CRAN/ggplot2
-	sci-CRAN/stringi
-	sci-CRAN/Hmisc
 	sci-CRAN/GGally
+	sci-CRAN/Hmisc
+	sci-CRAN/stringi
+	sci-CRAN/RColorBrewer
+	>=dev-lang/R-3.5.0
+	sci-CRAN/dae
 	sci-CRAN/reshape
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

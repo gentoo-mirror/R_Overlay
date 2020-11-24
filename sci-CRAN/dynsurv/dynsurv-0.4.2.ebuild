@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/dynsurv_0.4-2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/splines2
 	sci-CRAN/nleqslv
+	sci-CRAN/ggplot2
 	>=sci-CRAN/data_table-1.9.8
-	>=dev-lang/R-3.0.2
 	virtual/survival
 "
 RDEPEND="${DEPEND-} >=sci-CRAN/BH-1.54.0.2"

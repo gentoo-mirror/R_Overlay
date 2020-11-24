@@ -21,14 +21,14 @@ R_SUGGESTS="
 	r_suggests_rcurl? ( sci-CRAN/RCurl )
 "
 DEPEND=">=dev-lang/R-3.3
+	>=sci-CRAN/doParallel-1.0.8
+	>=sci-CRAN/dplyr-0.3.0.2
+	>=sci-CRAN/sp-1.0.15
 	>=sci-CRAN/gstat-1.0.19
+	virtual/Matrix
 	>=sci-CRAN/foreach-1.4.2
 	sci-CRAN/copula
 	>=sci-CRAN/waveslim-1.7.5
-	>=sci-CRAN/dplyr-0.3.0.2
-	virtual/Matrix
-	>=sci-CRAN/doParallel-1.0.8
 	>=sci-CRAN/tidyr-0.1.0.9000
-	>=sci-CRAN/sp-1.0.15
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,12 +12,12 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_frf2_catlg128"
 R_SUGGESTS="r_suggests_frf2_catlg128? ( sci-CRAN/FrF2_catlg128 )"
-DEPEND=">=sci-CRAN/FrF2-1.2.10
-	sci-CRAN/Rcmdr
-	>=sci-CRAN/DoE_base-0.22.8
+DEPEND=">=sci-CRAN/DoE_base-0.22.8
+	sci-CRAN/RcmdrMisc
+	>=sci-CRAN/FrF2-1.2.10
 	>=sci-CRAN/DoE_wrapper-0.8.6
 	dev-lang/R[tk]
 	sci-CRAN/relimp
-	sci-CRAN/RcmdrMisc
+	sci-CRAN/Rcmdr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

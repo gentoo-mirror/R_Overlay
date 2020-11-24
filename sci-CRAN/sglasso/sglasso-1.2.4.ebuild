@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/sglasso_1.2.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/Matrix
-	>=dev-lang/R-3.6
 	sci-CRAN/igraph
+	>=dev-lang/R-3.6
 "
 RDEPEND="${DEPEND-}"

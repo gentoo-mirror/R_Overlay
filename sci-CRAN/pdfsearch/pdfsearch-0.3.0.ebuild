@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/pdftools
 	sci-CRAN/stringi
+	sci-CRAN/pdftools
 	sci-CRAN/tokenizers
 	sci-CRAN/tibble
 "

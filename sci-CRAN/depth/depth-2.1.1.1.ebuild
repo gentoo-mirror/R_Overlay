@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_robustbase? ( sci-CRAN/robustbase )
 "
-DEPEND="sci-CRAN/circular
-	sci-CRAN/rgl
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/abind
-	>=dev-lang/R-3.2.0
+	sci-CRAN/rgl
+	sci-CRAN/circular
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

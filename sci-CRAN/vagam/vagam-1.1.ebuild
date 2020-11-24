@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vagam_1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/gamm4
-	virtual/mgcv
+DEPEND="virtual/mgcv
+	sci-CRAN/truncnorm
+	sci-CRAN/mvtnorm
 	virtual/Matrix
 	>=dev-lang/R-3.4.0
-	sci-CRAN/truncnorm
+	sci-CRAN/gamm4
 "
 RDEPEND="${DEPEND-}"

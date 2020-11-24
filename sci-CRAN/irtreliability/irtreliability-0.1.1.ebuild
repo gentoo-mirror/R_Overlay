@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/irtreliability_0.1-1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/ltm
-	sci-CRAN/mirt
-	>=dev-lang/R-2.11.0
 	sci-CRAN/fastGHQuad
+	>=dev-lang/R-2.11.0
+	sci-CRAN/mirt
 "
 RDEPEND="${DEPEND-}"

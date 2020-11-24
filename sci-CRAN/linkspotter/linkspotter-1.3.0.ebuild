@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/minerva
+	sci-CRAN/energy
+	sci-CRAN/rAmCharts
+	sci-CRAN/visNetwork
+	sci-CRAN/shiny
+	sci-CRAN/pbapply
+	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
 	sci-CRAN/shinybusy
 	>=dev-lang/R-3.2.0
-	sci-CRAN/minerva
 	sci-CRAN/infotheo
-	sci-CRAN/visNetwork
-	sci-CRAN/shiny
-	sci-CRAN/energy
 	sci-CRAN/mclust
-	sci-CRAN/rAmCharts
-	sci-CRAN/pbapply
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -30,9 +30,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/magrittr
-	sci-CRAN/pipeR
 	sci-CRAN/R6
 	sci-CRAN/purrr
+	sci-CRAN/pipeR
 	sci-CRAN/rlist
 "
 RDEPEND="${DEPEND-}

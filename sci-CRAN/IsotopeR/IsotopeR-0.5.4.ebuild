@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
 DEPEND="sci-CRAN/fgui
+	sci-CRAN/colorspace
+	sci-CRAN/runjags
 	sci-CRAN/plotrix
 	sci-CRAN/ellipse
-	sci-CRAN/runjags
-	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -13,10 +13,10 @@ LICENSE='Artistic-2'
 IUSE="${IUSE-} r_suggests_mvtnorm"
 R_SUGGESTS="r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )"
 DEPEND="virtual/Matrix
-	sci-BIOC/sva
-	sci-CRAN/simsalapar
-	sci-CRAN/corpcor
-	sci-BIOC/limma
 	virtual/MASS
+	sci-CRAN/corpcor
+	sci-BIOC/sva
+	sci-BIOC/limma
+	sci-CRAN/simsalapar
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

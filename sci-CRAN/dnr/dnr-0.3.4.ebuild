@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
+DEPEND="sci-CRAN/glmnet
 	sci-CRAN/ergm
-	sci-CRAN/sna
-	sci-CRAN/arm
-	sci-CRAN/network
+	>=dev-lang/R-3.2.0
 	sci-CRAN/igraph
-	sci-CRAN/glmnet
+	sci-CRAN/sna
+	sci-CRAN/network
+	sci-CRAN/arm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,29 +16,29 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-BIOC/limma
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	sci-BIOC/preprocessCore
-	sci-CRAN/lme4
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/broom
-	sci-CRAN/stringr
-	sci-CRAN/foreach
-	virtual/MASS
+	sci-CRAN/tidyr
+	sci-CRAN/doSNOW
 	sci-CRAN/minpack_lm
-	sci-CRAN/snow
+	sci-CRAN/data_table
+	virtual/MASS
+	sci-CRAN/dplyr
 	>=dev-lang/R-3.6
 	sci-BIOC/marray
 	sci-CRAN/gplots
-	sci-CRAN/reshape2
-	sci-CRAN/purrr
-	sci-CRAN/randomForest
 	sci-CRAN/ggrepel
-	sci-CRAN/doSNOW
+	sci-CRAN/reshape2
 	virtual/survival
-	sci-CRAN/data_table
+	sci-CRAN/purrr
+	sci-CRAN/stringr
 	sci-CRAN/statmod
-	sci-CRAN/tidyr
+	sci-BIOC/limma
+	sci-CRAN/lme4
+	sci-CRAN/ggplot2
+	sci-BIOC/preprocessCore
+	sci-CRAN/snow
+	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

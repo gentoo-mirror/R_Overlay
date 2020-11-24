@@ -14,9 +14,9 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/base64enc
+	sci-CRAN/png
 	sci-CRAN/Rcpp
 	sci-CRAN/raster
-	sci-CRAN/png
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

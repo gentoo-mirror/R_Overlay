@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_seriation? ( sci-CRAN/seriation )
 	r_suggests_skmeans? ( sci-CRAN/skmeans )
 "
-DEPEND="sci-CRAN/modeltools
-	virtual/class
-	virtual/lattice
+DEPEND="virtual/lattice
+	sci-CRAN/modeltools
 	>=dev-lang/R-2.14.0
+	virtual/class
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

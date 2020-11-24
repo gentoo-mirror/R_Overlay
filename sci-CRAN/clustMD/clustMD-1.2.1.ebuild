@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/clustMD_1.2.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/reshape2
-	sci-CRAN/truncnorm
-	sci-CRAN/msm
+DEPEND=">=dev-lang/R-3.3.2
+	sci-CRAN/reshape2
+	sci-CRAN/viridis
+	sci-CRAN/mclust
 	sci-CRAN/ggplot2
 	virtual/MASS
-	>=dev-lang/R-3.3.2
-	sci-CRAN/mclust
+	sci-CRAN/msm
 	sci-CRAN/mvtnorm
-	sci-CRAN/viridis
+	sci-CRAN/truncnorm
 "
 RDEPEND="${DEPEND-}"

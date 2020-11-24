@@ -30,10 +30,10 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND=">=dev-lang/R-3.2
-	sci-CRAN/lubridate
-	sci-CRAN/stringr
-	sci-CRAN/httr
 	sci-CRAN/dplyr
 	sci-CRAN/jsonlite
+	sci-CRAN/stringr
+	sci-CRAN/httr
+	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

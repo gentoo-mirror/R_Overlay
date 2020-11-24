@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/tsiR_0.4.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
 	sci-CRAN/kernlab
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

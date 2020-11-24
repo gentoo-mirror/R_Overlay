@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/NormalBetaPrime_2.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/glmnet
+DEPEND="virtual/MASS
 	sci-CRAN/GIGrvg
-	virtual/Matrix
-	sci-CRAN/pscl
 	sci-CRAN/truncnorm
 	sci-CRAN/pracma
+	sci-CRAN/glmnet
 	sci-CRAN/HyperbolicDist
-	virtual/MASS
+	>=dev-lang/R-3.1.0
+	virtual/Matrix
+	sci-CRAN/pscl
 "
 RDEPEND="${DEPEND-}"

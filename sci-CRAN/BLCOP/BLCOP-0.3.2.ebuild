@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_sn? ( sci-CRAN/sn )
 "
 DEPEND="sci-CRAN/timeSeries
-	>=sci-CRAN/fPortfolio-3011.81
+	sci-CRAN/fBasics
 	sci-CRAN/fMultivar
 	>=sci-CRAN/RUnit-0.4.22
 	sci-CRAN/quadprog
+	>=sci-CRAN/fPortfolio-3011.81
 	virtual/MASS
-	sci-CRAN/fBasics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

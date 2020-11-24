@@ -13,9 +13,9 @@ LICENSE='GPL-2'
 DEPEND="sci-CRAN/rgl
 	sci-CRAN/plot3D
 	sci-CRAN/sphereplot
-	sci-CRAN/gridExtra
-	sci-CRAN/RColorBrewer
-	sci-CRAN/ggplot2
 	sci-CRAN/colorRamps
+	sci-CRAN/RColorBrewer
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_covr? ( >=sci-CRAN/covr-3.5.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.3.0
+DEPEND=">=sci-CRAN/ggplot2-3.3.0
 	>=sci-CRAN/sf-0.9.1
-	>=sci-CRAN/purrr-0.3.3
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/dplyr-0.8.5
-	>=sci-CRAN/stringr-1.4.0
-	>=sci-CRAN/ggplot2-3.3.0
-	>=sci-CRAN/leaflet-2.0.3
 	>=sci-CRAN/parzer-0.1.4
+	>=sci-CRAN/leaflet-2.0.3
+	>=sci-CRAN/stringr-1.4.0
+	>=dev-lang/R-3.3.0
+	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/purrr-0.3.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

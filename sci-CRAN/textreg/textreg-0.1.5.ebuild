@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=sci-CRAN/NLP-0.1.10
-	>=sci-CRAN/Rcpp-0.12.9
 	>=sci-CRAN/tm-0.7
+	>=sci-CRAN/Rcpp-0.12.9
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

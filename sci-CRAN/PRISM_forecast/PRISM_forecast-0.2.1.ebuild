@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/PRISM.forecast_0.2.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/xts
-	sci-CRAN/glmnet
 	sci-CRAN/zoo
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

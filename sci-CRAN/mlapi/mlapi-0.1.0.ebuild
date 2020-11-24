@@ -12,7 +12,7 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
-DEPEND="virtual/Matrix
-	>=sci-CRAN/R6-2.2.1
+DEPEND=">=sci-CRAN/R6-2.2.1
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

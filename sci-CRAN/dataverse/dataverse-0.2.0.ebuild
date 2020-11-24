@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_unf? ( sci-CRAN/UNF )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/xml2
+DEPEND="sci-CRAN/xml2
+	sci-CRAN/httr
 	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

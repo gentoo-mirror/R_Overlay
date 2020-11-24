@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/fishmove_0.3-3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/ggplot2
-	virtual/MASS
 	sci-CRAN/plyr
 	virtual/boot
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

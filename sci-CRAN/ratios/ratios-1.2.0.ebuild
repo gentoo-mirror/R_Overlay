@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ratios_1.2.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/data_table
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

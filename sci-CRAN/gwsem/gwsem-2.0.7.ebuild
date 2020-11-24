@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/data_table
 	sci-CRAN/Rcpp
-	>=sci-CRAN/OpenMx-2.15.5
+	sci-CRAN/data_table
 	sci-CRAN/qqman
+	>=sci-CRAN/OpenMx-2.15.5
 	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-}

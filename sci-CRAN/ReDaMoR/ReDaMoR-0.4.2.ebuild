@@ -15,20 +15,20 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/colourpicker
-	sci-CRAN/igraph
-	sci-CRAN/visNetwork
-	sci-CRAN/rintrojs
-	sci-CRAN/magrittr
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/dplyr
-	sci-CRAN/readr
 	sci-CRAN/shiny
-	sci-CRAN/shinyjs
+	sci-CRAN/readr
 	sci-CRAN/jsonlite
+	sci-CRAN/DT
+	sci-CRAN/colourpicker
+	sci-CRAN/rintrojs
+	sci-CRAN/crayon
+	sci-CRAN/visNetwork
+	sci-CRAN/magrittr
+	sci-CRAN/shinyjs
 	sci-CRAN/markdown
 	sci-CRAN/rstudioapi
-	sci-CRAN/crayon
-	sci-CRAN/DT
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

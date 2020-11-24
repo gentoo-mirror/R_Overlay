@@ -12,8 +12,8 @@ LICENSE='LGPL-2.1+'
 
 IUSE="${IUSE-} r_suggests_digest"
 R_SUGGESTS="r_suggests_digest? ( >=sci-CRAN/digest-0.6.10 )"
-DEPEND=">=sci-CRAN/R_methodsS3-1.8.0
-	>=dev-lang/R-2.14.0
+DEPEND=">=dev-lang/R-2.14.0
+	>=sci-CRAN/R_methodsS3-1.8.0
 	>=sci-CRAN/R_oo-1.23.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/vlda_1.1.5.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/ggiraph
 	sci-CRAN/ggsci
-	sci-CRAN/ggrepel
-	sci-CRAN/dplyr
 	sci-CRAN/ggplot2
+	sci-CRAN/dplyr
+	sci-CRAN/ggiraph
+	sci-CRAN/ggrepel
 "
 RDEPEND="${DEPEND-}"

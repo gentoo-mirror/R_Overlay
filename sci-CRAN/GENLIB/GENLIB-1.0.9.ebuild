@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/GENLIB_1.0.9.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/foreach
-	>=sci-CRAN/Rcpp-0.9.10
-	sci-CRAN/quadprog
-	virtual/Matrix
 	sci-CRAN/doParallel
-	sci-CRAN/kinship2
+	sci-CRAN/foreach
 	virtual/boot
+	sci-CRAN/kinship2
+	>=sci-CRAN/Rcpp-0.9.10
+	virtual/Matrix
 	virtual/lattice
+	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 	r_suggests_tclust? ( sci-CRAN/tclust )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/flexmix
+DEPEND="sci-CRAN/flexmix
+	virtual/class
+	virtual/cluster
+	virtual/MASS
+	sci-CRAN/mclust
 	sci-CRAN/prabclus
 	sci-CRAN/diptest
-	virtual/class
-	sci-CRAN/kernlab
-	virtual/cluster
-	sci-CRAN/mclust
 	sci-CRAN/robustbase
+	sci-CRAN/kernlab
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -13,10 +13,10 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.2.3
-	sci-BIOC/Biobase
-	virtual/MASS
-	sci-BIOC/edgeR
 	sci-BIOC/limma
+	virtual/MASS
+	sci-BIOC/Biobase
+	sci-BIOC/edgeR
 	sci-BIOC/qvalue
 	sci-CRAN/ssize_fdr
 "

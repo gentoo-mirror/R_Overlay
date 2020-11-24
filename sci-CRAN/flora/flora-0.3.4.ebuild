@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/jsonlite
+	>=dev-lang/R-3.0.0
+	sci-CRAN/stringdist
 	sci-CRAN/httr
 	sci-CRAN/dplyr
-	sci-CRAN/jsonlite
-	sci-CRAN/stringdist
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

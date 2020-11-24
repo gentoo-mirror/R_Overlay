@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_markdown? ( sci-CRAN/markdown )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/reshape2
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/gridExtra
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5
-	sci-CRAN/ptw
 	virtual/Matrix
+	virtual/Matrix
+	sci-CRAN/ggplot2
+	sci-CRAN/ptw
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

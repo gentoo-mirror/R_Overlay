@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/badger_0.0.8.tar.gz"
 LICENSE='Artistic-2'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/desc
 	sci-CRAN/dlstats
+	sci-CRAN/desc
 	sci-CRAN/rvcheck
 "
 RDEPEND="${DEPEND-}"

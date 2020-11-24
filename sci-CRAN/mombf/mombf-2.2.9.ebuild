@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_patrick? ( sci-CRAN/patrick )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ncvreg
-	virtual/survival
-	sci-CRAN/mclust
-	virtual/mgcv
-	>=dev-lang/R-2.14.0
-	sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-2.14.0
 	>=sci-CRAN/Rcpp-0.12.16
+	sci-CRAN/ncvreg
+	virtual/mgcv
+	sci-CRAN/mvtnorm
+	sci-CRAN/mclust
+	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

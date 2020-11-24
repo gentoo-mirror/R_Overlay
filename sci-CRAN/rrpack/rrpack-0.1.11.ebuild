@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rrpack_0.1-11.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/glmnet
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/glmnet
 	sci-CRAN/lassoshooting
-	sci-CRAN/ggplot2
+	>=sci-CRAN/Rcpp-0.12.0
 	>=dev-lang/R-3.4.0
 	virtual/MASS
-	>=sci-CRAN/Rcpp-0.12.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

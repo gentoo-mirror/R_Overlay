@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_mixtools? ( sci-CRAN/mixtools )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/icenReg
 	sci-CRAN/aftgee
-	sci-CRAN/icenReg
+	>=dev-lang/R-3.5.0
 	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

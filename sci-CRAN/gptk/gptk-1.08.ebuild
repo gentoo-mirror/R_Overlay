@@ -12,7 +12,7 @@ LICENSE='BSD-2'
 
 IUSE="${IUSE-} r_suggests_spam"
 R_SUGGESTS="r_suggests_spam? ( sci-CRAN/spam )"
-DEPEND="virtual/Matrix
-	sci-CRAN/fields
+DEPEND="sci-CRAN/fields
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

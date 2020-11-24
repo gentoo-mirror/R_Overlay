@@ -12,10 +12,10 @@ LICENSE='BSD-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=sci-CRAN/smoof-1.4
-	>=sci-CRAN/ParamHelpers-1.8
-	>=sci-CRAN/checkmate-1.1
-	sci-CRAN/ggplot2
+DEPEND=">=sci-CRAN/ParamHelpers-1.8
+	>=sci-CRAN/smoof-1.4
 	>=sci-CRAN/BBmisc-1.6
+	sci-CRAN/ggplot2
+	>=sci-CRAN/checkmate-1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

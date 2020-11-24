@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_lubridate? ( sci-CRAN/lubridate )
 	r_suggests_rgooglemaps? ( sci-CRAN/RgoogleMaps )
 "
-DEPEND="sci-CRAN/vars
-	sci-CRAN/chron
+DEPEND="sci-CRAN/chron
+	sci-CRAN/vars
 	sci-CRAN/date
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

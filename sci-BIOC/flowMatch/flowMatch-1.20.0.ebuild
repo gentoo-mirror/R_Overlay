@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/flowMatch_1.20.0.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/Rcpp-0.11.0
-	sci-BIOC/Biobase
+DEPEND="sci-BIOC/Biobase
 	sci-BIOC/flowCore
+	>=dev-lang/R-3.0.0
+	>=sci-CRAN/Rcpp-0.11.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"
 

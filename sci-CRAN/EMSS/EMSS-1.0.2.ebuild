@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EMSS_1.0.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/sampleSelection
+DEPEND="sci-CRAN/sampleSelection
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

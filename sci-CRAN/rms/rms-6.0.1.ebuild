@@ -19,22 +19,22 @@ R_SUGGESTS="
 	r_suggests_plotly? ( >=sci-CRAN/plotly-4.5.6 )
 	r_suggests_tk? ( dev-lang/R[tk] )
 "
-DEPEND="virtual/lattice
-	>=sci-CRAN/htmlTable-1.11.0
-	sci-CRAN/multcomp
-	sci-CRAN/SparseM
-	virtual/cluster
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/ggplot2-2.2
-	>=sci-CRAN/Hmisc-4.3.0
-	virtual/survival
-	sci-CRAN/quantreg
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/rpart
-	virtual/nlme
 	sci-CRAN/polspline
 	sci-CRAN/htmltools
-	virtual/MASS
+	sci-CRAN/quantreg
 	sci-CRAN/digest
+	virtual/cluster
+	>=sci-CRAN/ggplot2-2.2
+	virtual/survival
+	>=sci-CRAN/Hmisc-4.3.0
+	virtual/lattice
+	sci-CRAN/SparseM
+	virtual/nlme
+	sci-CRAN/multcomp
+	>=sci-CRAN/htmlTable-1.11.0
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

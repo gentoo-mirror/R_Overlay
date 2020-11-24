@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_vcd? ( sci-CRAN/vcd )
 "
 DEPEND=">=dev-lang/R-3.0.0
+	>=sci-CRAN/skmeans-0.2.10
 	>=sci-CRAN/slam-0.1.43
 	sci-CRAN/clue
-	>=sci-CRAN/skmeans-0.2.10
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.4.2
-	>=sci-CRAN/nloptr-1.0.4
 	>=sci-CRAN/gtools-3.5.0
+	>=sci-CRAN/nloptr-1.0.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

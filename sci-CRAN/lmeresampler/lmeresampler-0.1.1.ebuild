@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_nlme? ( virtual/nlme )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/plyr
+	virtual/Matrix
 	sci-CRAN/RLRsim
 	>=sci-CRAN/dplyr-0.8.0
 	>=dev-lang/R-3.1.2

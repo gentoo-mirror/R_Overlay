@@ -20,20 +20,20 @@ R_SUGGESTS="
 	r_suggests_mvoutlier? ( sci-CRAN/mvoutlier )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/leaps
-	sci-CRAN/shiny
-	sci-CRAN/doRNG
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/glmnet
 	sci-CRAN/plyr
+	sci-CRAN/bestglm
+	sci-CRAN/shiny
 	sci-CRAN/googleVis
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
-	sci-CRAN/dplyr
 	sci-CRAN/tidyr
+	sci-CRAN/leaps
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
-	sci-CRAN/bestglm
+	sci-CRAN/doRNG
 	sci-CRAN/shinydashboard
-	sci-CRAN/glmnet
 	sci-CRAN/scales
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

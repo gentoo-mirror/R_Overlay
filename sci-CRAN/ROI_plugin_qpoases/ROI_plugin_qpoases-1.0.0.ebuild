@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.plugin.qpoases_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/checkmate
+DEPEND=">=sci-CRAN/Rcpp-0.12.11
 	>=sci-CRAN/ROI-0.2.5
 	sci-CRAN/slam
-	>=sci-CRAN/Rcpp-0.12.11
+	sci-CRAN/checkmate
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

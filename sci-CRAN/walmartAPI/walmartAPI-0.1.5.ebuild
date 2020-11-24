@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/walmartAPI_0.1.5.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/glue
-	sci-CRAN/magrittr
-	sci-CRAN/tibble
-	sci-CRAN/stringr
-	sci-CRAN/httr
+DEPEND="sci-CRAN/httr
 	sci-CRAN/purrr
+	sci-CRAN/tibble
+	sci-CRAN/glue
+	sci-CRAN/magrittr
+	sci-CRAN/stringr
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

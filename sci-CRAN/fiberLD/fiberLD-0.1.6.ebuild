@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND="sci-CRAN/VGAM
+DEPEND="sci-CRAN/doParallel
 	virtual/Matrix
-	>=dev-lang/R-2.15.0
 	sci-CRAN/foreach
-	sci-CRAN/doParallel
+	>=dev-lang/R-2.15.0
+	sci-CRAN/VGAM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

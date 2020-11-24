@@ -13,13 +13,13 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_ggplot2"
 R_SUGGESTS="r_suggests_ggplot2? ( sci-CRAN/ggplot2 )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/knitr
-	sci-CRAN/rlang
 	sci-CRAN/ddpcr
+	sci-CRAN/rlang
 	sci-CRAN/pracma
-	sci-CRAN/dplyr
 	sci-CRAN/progress
 	virtual/survival
+	sci-CRAN/knitr
+	sci-CRAN/dplyr
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

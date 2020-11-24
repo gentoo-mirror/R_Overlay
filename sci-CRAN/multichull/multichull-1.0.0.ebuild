@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/multichull_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/plotly
+DEPEND="sci-CRAN/shiny
+	sci-CRAN/igraph
 	sci-CRAN/shinythemes
-	sci-CRAN/shiny
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-}"

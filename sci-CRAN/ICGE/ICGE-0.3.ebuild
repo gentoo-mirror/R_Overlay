@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ICGE_0.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/cluster
-	virtual/MASS
+DEPEND="virtual/MASS
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

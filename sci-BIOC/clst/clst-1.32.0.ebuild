@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
-DEPEND="sci-BIOC/ROC
-	virtual/lattice
+DEPEND="virtual/lattice
+	sci-BIOC/ROC
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

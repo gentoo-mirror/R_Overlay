@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/TideCurves_0.0.4.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/data_table-1.12.2
-	>=sci-CRAN/chron-2.3.54
 	>=sci-CRAN/fields-9.9
+	>=sci-CRAN/chron-2.3.54
+	>=sci-CRAN/data_table-1.12.2
 "
 RDEPEND="${DEPEND-}"

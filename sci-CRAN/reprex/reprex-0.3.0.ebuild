@@ -24,14 +24,14 @@ R_SUGGESTS="
 	r_suggests_styler? ( >=sci-CRAN/styler-1.0.2 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/rlang
-	sci-CRAN/fs
-	>=sci-CRAN/clipr-0.4.0
-	sci-CRAN/rmarkdown
+DEPEND="sci-CRAN/fs
 	sci-CRAN/whisker
-	sci-CRAN/withr
+	sci-CRAN/rmarkdown
 	>=sci-CRAN/callr-2.0.0
+	>=dev-lang/R-3.1
+	>=sci-CRAN/clipr-0.4.0
+	sci-CRAN/rlang
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

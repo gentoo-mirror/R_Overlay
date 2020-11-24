@@ -24,14 +24,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/jsonlite-0.9.22
+DEPEND=">=sci-CRAN/magrittr-1.5
 	sci-CRAN/Rcpp
-	sci-CRAN/progress
-	>=sci-CRAN/httr-1.3.0
-	>=sci-CRAN/tibble-1.3.4
 	sci-CRAN/httpuv
+	sci-CRAN/progress
 	>=dev-lang/R-3.1.0
-	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/httr-1.3.0
+	>=sci-CRAN/jsonlite-0.9.22
+	>=sci-CRAN/tibble-1.3.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

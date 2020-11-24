@@ -23,16 +23,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_udpipe? ( >=sci-CRAN/udpipe-0.6 )
 "
-DEPEND=">=sci-CRAN/R6-2.3.0
+DEPEND=">=dev-lang/R-3.6.0
+	virtual/Matrix
+	>=sci-CRAN/mlapi-0.1.0
 	>=sci-CRAN/data_table-1.9.6
 	>=sci-CRAN/Rcpp-1.0.3
+	>=sci-CRAN/R6-2.3.0
 	>=sci-CRAN/rsparse-0.3.3.4
 	>=sci-CRAN/stringi-1.1.5
-	>=sci-CRAN/mlapi-0.1.0
 	>=sci-CRAN/lgr-0.2
 	>=sci-CRAN/digest-0.6.8
-	>=dev-lang/R-3.6.0
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

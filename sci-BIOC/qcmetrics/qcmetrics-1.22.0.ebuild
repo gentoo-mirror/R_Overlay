@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_mzr? ( sci-BIOC/mzR )
 	r_suggests_yaqcaffy? ( sci-BIOC/yaqcaffy )
 "
-DEPEND="sci-BIOC/Biobase
-	sci-CRAN/xtable
-	>=dev-lang/R-3.3
+DEPEND=">=dev-lang/R-3.3
+	sci-CRAN/pander
 	sci-CRAN/knitr
 	sci-CRAN/Nozzle_R1
-	sci-CRAN/pander
+	sci-BIOC/Biobase
+	sci-CRAN/xtable
 	sci-BIOC/S4Vectors
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

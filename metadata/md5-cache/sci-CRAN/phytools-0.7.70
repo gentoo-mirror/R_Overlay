@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-CRAN/phangorn-2.3.1 sci-CRAN/scatterplot3d sci-CRAN/coda sci-CRAN/expm sci-CRAN/gtools virtual/MASS sci-CRAN/numDeriv sci-CRAN/plotrix sci-CRAN/combinat sci-CRAN/mnormt virtual/cluster >=sci-CRAN/ape-4.0 virtual/nlme >=dev-lang/R-3.5.0 sci-CRAN/maps dev-lang/R
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/phangorn-2.3.1 sci-CRAN/scatterplot3d virtual/MASS >=sci-CRAN/ape-4.0 sci-CRAN/gtools sci-CRAN/plotrix sci-CRAN/combinat sci-CRAN/mnormt sci-CRAN/maps sci-CRAN/expm virtual/cluster sci-CRAN/coda virtual/nlme sci-CRAN/numDeriv dev-lang/R
 DESCRIPTION=Phylogenetic Tools for Comparati... (see metadata)
 EAPI=7
 IUSE=r_suggests_animation r_suggests_geiger r_suggests_rcolorbrewer r_suggests_rgl byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=>=sci-CRAN/phangorn-2.3.1 sci-CRAN/scatterplot3d sci-CRAN/coda sci-CRAN/expm sci-CRAN/gtools virtual/MASS sci-CRAN/numDeriv sci-CRAN/plotrix sci-CRAN/combinat sci-CRAN/mnormt virtual/cluster >=sci-CRAN/ape-4.0 virtual/nlme >=dev-lang/R-3.5.0 sci-CRAN/maps r_suggests_animation? ( sci-CRAN/animation ) r_suggests_geiger? ( sci-CRAN/geiger ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rgl? ( sci-CRAN/rgl ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/phangorn-2.3.1 sci-CRAN/scatterplot3d virtual/MASS >=sci-CRAN/ape-4.0 sci-CRAN/gtools sci-CRAN/plotrix sci-CRAN/combinat sci-CRAN/mnormt sci-CRAN/maps sci-CRAN/expm virtual/cluster sci-CRAN/coda virtual/nlme sci-CRAN/numDeriv r_suggests_animation? ( sci-CRAN/animation ) r_suggests_geiger? ( sci-CRAN/geiger ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rgl? ( sci-CRAN/rgl ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/phytools_0.7-70.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=76b9c0f9bb3db8de7692cd58bd084b4f
+_md5_=43b73c66a0fa26fd0a97fd0ea1d6363a

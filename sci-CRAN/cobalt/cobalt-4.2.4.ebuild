@@ -32,12 +32,12 @@ R_SUGGESTS="
 	r_suggests_twang? ( >=sci-CRAN/twang-1.6 )
 	r_suggests_weightit? ( >=sci-CRAN/WeightIt-0.5.0 )
 "
-DEPEND=">=sci-CRAN/gtable-0.3.0
-	>=sci-CRAN/rlang-0.4.0
-	>=sci-CRAN/backports-1.1.8
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/ggplot2-3.3.0
-	>=dev-lang/R-3.3.0
+	>=sci-CRAN/backports-1.1.8
+	>=sci-CRAN/gtable-0.3.0
 	>=sci-CRAN/gridExtra-2.3
+	>=sci-CRAN/rlang-0.4.0
 	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

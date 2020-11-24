@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EcoHydRology_0.4.12.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/DEoptim
+DEPEND="sci-CRAN/topmodel
 	sci-CRAN/XML
-	sci-CRAN/topmodel
 	sci-CRAN/operators
+	sci-CRAN/DEoptim
 "
 RDEPEND="${DEPEND-}"

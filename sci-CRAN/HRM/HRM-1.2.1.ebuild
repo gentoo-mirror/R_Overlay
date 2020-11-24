@@ -16,19 +16,19 @@ R_SUGGESTS="
 	r_suggests_rgtk2? ( >=sci-CRAN/RGtk2-2.8.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/doBy
-	dev-lang/R[tk]
-	sci-CRAN/mvtnorm
-	sci-CRAN/ggplot2
-	>=sci-CRAN/Rcpp-0.12.16
-	>=sci-CRAN/pseudorank-0.3.8
-	>=dev-lang/R-3.4.0
-	virtual/MASS
-	sci-CRAN/plyr
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/xtable
+	sci-CRAN/plyr
 	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
+	dev-lang/R[tk]
 	sci-CRAN/data_table
+	sci-CRAN/mvtnorm
+	>=sci-CRAN/Rcpp-0.12.16
+	virtual/MASS
+	virtual/Matrix
+	sci-CRAN/doBy
+	>=sci-CRAN/pseudorank-0.3.8
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

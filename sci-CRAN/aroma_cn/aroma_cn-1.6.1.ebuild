@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_glad? ( >=sci-BIOC/GLAD-1.12.0 )
 "
 DEPEND=">=dev-lang/R-3.1.1
-	>=sci-CRAN/aroma_core-2.14.0
 	>=sci-CRAN/R_cache-0.10.0
-	>=sci-CRAN/R_methodsS3-1.7.0
-	>=sci-CRAN/R_filesets-2.9.0
 	>=sci-CRAN/PSCBS-0.50.0
+	>=sci-CRAN/R_methodsS3-1.7.0
 	>=sci-CRAN/R_oo-1.19.0
 	>=sci-CRAN/R_utils-2.1.0
+	>=sci-CRAN/aroma_core-2.14.0
+	>=sci-CRAN/R_filesets-2.9.0
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

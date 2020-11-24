@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hdlm_1.3.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/foreach
+DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/glmnet
-	sci-CRAN/iterators
+	sci-CRAN/foreach
 	virtual/MASS
-	>=dev-lang/R-3.0
+	sci-CRAN/iterators
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

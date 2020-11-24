@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/poolfstat_1.2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.0
+DEPEND="sci-CRAN/foreach
+	>=dev-lang/R-3.0
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
 	>=sci-CRAN/Rcpp-1.0.5
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

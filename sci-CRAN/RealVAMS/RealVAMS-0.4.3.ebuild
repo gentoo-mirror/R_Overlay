@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RealVAMS_0.4-3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/Matrix
-	>=dev-lang/R-3.0.0
+DEPEND=">=sci-CRAN/Rcpp-0.11.2
 	sci-CRAN/numDeriv
-	>=sci-CRAN/Rcpp-0.11.2
+	virtual/Matrix
+	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

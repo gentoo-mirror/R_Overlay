@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.0
-	virtual/cluster
-	sci-CRAN/fossil
-	sci-CRAN/Rcpp
-	sci-CRAN/dqrng
+DEPEND="sci-CRAN/dqrng
 	sci-CRAN/Rdpack
 	sci-CRAN/plotrix
+	sci-CRAN/fossil
+	>=dev-lang/R-3.0
+	virtual/cluster
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

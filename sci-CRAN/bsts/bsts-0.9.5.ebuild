@@ -12,10 +12,10 @@ LICENSE='LGPL-2.1'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=sci-CRAN/zoo-1.8
-	>=sci-CRAN/Boom-0.9.6
+DEPEND=">=sci-CRAN/BoomSpikeSlab-1.2.3
 	>=dev-lang/R-3.4.0
-	>=sci-CRAN/BoomSpikeSlab-1.2.3
+	>=sci-CRAN/Boom-0.9.6
+	>=sci-CRAN/zoo-1.8
 	sci-CRAN/xts
 "
 RDEPEND="${DEPEND-}

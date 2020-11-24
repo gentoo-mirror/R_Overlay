@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.steepness_0.3-2.tar.g
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/Rcmdr-2.1.2
-	dev-lang/R[tk]
 	sci-CRAN/steepness
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-}"

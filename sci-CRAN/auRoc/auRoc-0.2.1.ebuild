@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/coda-0.16.1
 	>=sci-CRAN/ProbYX-1.1
+	>=dev-lang/R-3.0.2
 	>=sci-CRAN/rjags-3.11
 	>=sci-CRAN/MBESS-3.3.3
-	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-}"

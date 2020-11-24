@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/htmlwidgets
-	sci-CRAN/RColorBrewer
-	sci-CRAN/plyr
 	sci-CRAN/jsonlite
+	sci-CRAN/plyr
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

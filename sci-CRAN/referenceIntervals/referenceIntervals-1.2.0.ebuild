@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 DEPEND="virtual/boot
 	sci-CRAN/extremevalues
-	sci-CRAN/car
 	sci-CRAN/outliers
+	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}"

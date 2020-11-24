@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/phenModel_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/reshape
-	sci-CRAN/ggplot2
+	>=dev-lang/R-3.0.0
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

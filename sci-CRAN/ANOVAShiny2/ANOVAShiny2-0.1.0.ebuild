@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ANOVAShiny2_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-4.0.0
+DEPEND="sci-CRAN/rmarkdown
 	sci-CRAN/dplyr
-	sci-CRAN/rmarkdown
-	sci-CRAN/rhandsontable
 	sci-CRAN/shiny
+	sci-CRAN/rhandsontable
+	>=dev-lang/R-4.0.0
 	sci-CRAN/DescTools
 	sci-CRAN/HH
 "

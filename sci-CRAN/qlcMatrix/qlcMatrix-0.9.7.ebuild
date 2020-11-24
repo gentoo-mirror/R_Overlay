@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_mass? ( virtual/MASS )
 "
-DEPEND=">=sci-CRAN/slam-0.1.32
+DEPEND="sci-CRAN/sparsesvd
 	sci-CRAN/docopt
+	>=sci-CRAN/slam-0.1.32
 	>=dev-lang/R-3.2
-	sci-CRAN/sparsesvd
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_tkrplot? ( sci-CRAN/tkrplot )
 "
 DEPEND="sci-CRAN/sp
-	sci-CRAN/ade4
-	sci-CRAN/adehabitatHR
-	>=dev-lang/R-3.0.1
 	sci-CRAN/adehabitatMA
+	sci-CRAN/adehabitatHR
+	sci-CRAN/ade4
+	>=dev-lang/R-3.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

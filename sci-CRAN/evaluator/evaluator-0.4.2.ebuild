@@ -34,25 +34,25 @@ R_SUGGESTS="
 	r_suggests_statip? ( sci-CRAN/statip )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/cli
-	sci-CRAN/mc2d
-	sci-CRAN/readxl
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/extrafont
 	sci-CRAN/rstudioapi
-	sci-CRAN/viridis
+	sci-CRAN/scales
+	sci-CRAN/vctrs
+	sci-CRAN/mc2d
+	sci-CRAN/rlang
 	sci-CRAN/stringi
 	>=dev-lang/R-3.3.0
-	sci-CRAN/ggplot2
-	sci-CRAN/readr
-	sci-CRAN/rlang
-	sci-CRAN/vctrs
 	sci-CRAN/crayon
+	sci-CRAN/cli
 	sci-CRAN/magrittr
-	sci-CRAN/scales
-	sci-CRAN/extrafont
+	sci-CRAN/ggplot2
+	sci-CRAN/dplyr
+	sci-CRAN/purrr
+	sci-CRAN/readr
+	sci-CRAN/tidyr
+	sci-CRAN/readxl
 	sci-CRAN/tibble
+	sci-CRAN/viridis
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

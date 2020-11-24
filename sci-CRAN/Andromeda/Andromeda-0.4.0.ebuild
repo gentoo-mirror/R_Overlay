@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/dbplyr
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/tidyselect
-	sci-CRAN/rlang
-	sci-CRAN/cli
-	sci-CRAN/dplyr
 	sci-CRAN/zip
+	sci-CRAN/dbplyr
+	sci-CRAN/cli
+	sci-CRAN/rlang
+	sci-CRAN/pillar
 	sci-CRAN/DBI
 	sci-CRAN/RSQLite
-	sci-CRAN/pillar
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

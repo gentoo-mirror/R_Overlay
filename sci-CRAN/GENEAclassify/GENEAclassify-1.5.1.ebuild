@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_waveslim? ( sci-CRAN/waveslim )
 "
-DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/changepoint
+DEPEND="sci-CRAN/GENEAread
 	sci-CRAN/signal
-	virtual/MASS
-	sci-CRAN/GENEAread
 	virtual/rpart
+	sci-CRAN/changepoint
+	>=dev-lang/R-2.14.0
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_uuid? ( sci-CRAN/uuid )
 "
-DEPEND="sci-CRAN/magrittr
-	>=dev-lang/R-3.1.1
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/httr
-	sci-CRAN/dplyr
-	sci-CRAN/digest
-	sci-CRAN/assertive
 	sci-CRAN/jsonlite
+	sci-CRAN/assertive
+	sci-CRAN/digest
+	sci-CRAN/magrittr
 	sci-CRAN/purrr
+	>=dev-lang/R-3.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

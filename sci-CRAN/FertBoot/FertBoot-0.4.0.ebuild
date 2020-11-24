@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FertBoot_0.4.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/boot
-	sci-CRAN/nls_multstart
+DEPEND="sci-CRAN/nls_multstart
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

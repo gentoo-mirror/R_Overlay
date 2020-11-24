@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_survey? ( sci-CRAN/survey )
 "
-DEPEND="sci-CRAN/Gmisc
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/mice
+	sci-CRAN/Gmisc
 	virtual/boot
+	>=sci-CRAN/numDeriv-2016.8.1
 	>=sci-CRAN/Rcpp-0.12.13
-	virtual/MASS
-	sci-CRAN/quantreg
-	>=dev-lang/R-3.0.0
 	sci-CRAN/glmx
+	virtual/MASS
 	virtual/Matrix
 	sci-CRAN/np
-	sci-CRAN/mice
-	>=sci-CRAN/numDeriv-2016.8.1
+	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

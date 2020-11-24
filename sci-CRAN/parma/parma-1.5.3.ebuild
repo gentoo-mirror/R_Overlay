@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_rsymphony? ( sci-CRAN/Rsymphony )
 	r_suggests_xts? ( sci-CRAN/xts )
 "
-DEPEND="sci-CRAN/slam
+DEPEND="sci-CRAN/nloptr
+	sci-CRAN/slam
+	sci-CRAN/truncnorm
 	sci-CRAN/quadprog
 	sci-mathematics/glpk
-	sci-CRAN/nloptr
 	sci-CRAN/corpcor
-	sci-CRAN/truncnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

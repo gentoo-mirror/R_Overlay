@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/quickpsy_0.1.5.1.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/DEoptim
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/dplyr
+	sci-CRAN/DEoptim
 	sci-CRAN/MPDiR
-	>=dev-lang/R-3.1.2
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

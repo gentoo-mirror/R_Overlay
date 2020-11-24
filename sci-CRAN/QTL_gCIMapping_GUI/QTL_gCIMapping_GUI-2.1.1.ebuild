@@ -11,16 +11,16 @@ SRC_URI="http://cran.r-project.org/src/contrib/QTL.gCIMapping.GUI_2.1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/foreach
-	sci-CRAN/data_table
-	sci-CRAN/openxlsx
-	>=sci-CRAN/Rcpp-0.12.17
-	sci-CRAN/qtl
-	sci-CRAN/shiny
-	virtual/MASS
-	sci-CRAN/stringr
-	sci-CRAN/glmnet
 	sci-CRAN/doParallel
+	sci-CRAN/stringr
+	>=sci-CRAN/Rcpp-0.12.17
+	sci-CRAN/shiny
 	sci-CRAN/QTL_gCIMapping
+	virtual/MASS
+	sci-CRAN/qtl
+	sci-CRAN/openxlsx
+	sci-CRAN/data_table
+	sci-CRAN/glmnet
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

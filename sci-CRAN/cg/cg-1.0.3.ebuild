@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cg_1.0-3.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="virtual/lattice
-	virtual/nlme
-	sci-CRAN/rms
-	sci-CRAN/multcomp
-	virtual/survival
-	>=dev-lang/R-3.2.3
+DEPEND=">=dev-lang/R-3.2.3
 	>=sci-CRAN/Hmisc-3.17.1
-	>=sci-CRAN/VGAM-1.0.0
 	virtual/MASS
+	virtual/survival
+	>=sci-CRAN/VGAM-1.0.0
+	sci-CRAN/rms
+	virtual/lattice
+	sci-CRAN/multcomp
+	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

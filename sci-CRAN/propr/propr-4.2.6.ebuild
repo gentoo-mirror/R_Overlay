@@ -29,11 +29,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND=">=dev-lang/R-3.2.2
-	virtual/cluster
-	sci-CRAN/Rcpp
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/igraph
+	>=dev-lang/R-3.2.2
 	sci-CRAN/ggplot2
+	sci-CRAN/Rcpp
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

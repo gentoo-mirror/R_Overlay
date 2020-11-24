@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/survidm_1.2.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/np
 	sci-CRAN/TPmsm
-	sci-CRAN/doParallel
 	virtual/survival
-	sci-CRAN/doRNG
+	sci-CRAN/doParallel
+	>=dev-lang/R-3.0.0
 	virtual/KernSmooth
-	sci-CRAN/np
+	sci-CRAN/doRNG
 	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

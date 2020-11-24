@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/htmltools
-	sci-CRAN/bookdown
 	sci-CRAN/jsonlite
+	sci-CRAN/bookdown
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/datoramar_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/httr
-	sci-CRAN/tibble
 	sci-CRAN/jsonlite
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}"

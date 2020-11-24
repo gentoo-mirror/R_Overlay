@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/corpcor
-	sci-CRAN/Rdsdp
-	sci-CRAN/RSpectra
-	virtual/Matrix
-	sci-CRAN/glmnet
 	sci-CRAN/gtools
+	sci-CRAN/RSpectra
+	sci-CRAN/glmnet
+	sci-CRAN/Rdsdp
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

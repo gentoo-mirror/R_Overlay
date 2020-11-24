@@ -13,9 +13,9 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
 DEPEND=">=dev-lang/R-3.2.5
-	sci-CRAN/caret
-	virtual/nnet
 	sci-CRAN/pls
+	sci-CRAN/caret
 	virtual/rpart
+	virtual/nnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

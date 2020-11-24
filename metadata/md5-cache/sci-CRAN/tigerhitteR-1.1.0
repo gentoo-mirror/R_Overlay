@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=sci-CRAN/Hmisc-3.17.4 >=sci-CRAN/openxlsx-3.0.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/zoo-1.7.13 >=dev-lang/R-3.3.1 dev-lang/R
+DEPEND=>=dev-lang/R-3.3.1 >=sci-CRAN/openxlsx-3.0.0 >=sci-CRAN/Hmisc-3.17.4 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/zoo-1.7.13 dev-lang/R
 DESCRIPTION=Pre-Process of Time Series Data Set in R
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3+
-RDEPEND=>=sci-CRAN/Hmisc-3.17.4 >=sci-CRAN/openxlsx-3.0.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/zoo-1.7.13 >=dev-lang/R-3.3.1 dev-lang/R
+RDEPEND=>=dev-lang/R-3.3.1 >=sci-CRAN/openxlsx-3.0.0 >=sci-CRAN/Hmisc-3.17.4 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/zoo-1.7.13 dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/tigerhitteR_1.1.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=c69b56491ae404e64fa3f131cb644fa9
+_md5_=b3812f6b2b535cc6365327e3ab771565

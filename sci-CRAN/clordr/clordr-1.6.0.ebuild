@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/clordr_1.6.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/pbivnorm-0.6.0
-	>=sci-CRAN/tmvmixnorm-1.0.2
-	sci-CRAN/ttutils
-	virtual/MASS
 	>=sci-CRAN/doParallel-1.0.11
+	>=sci-CRAN/tmvmixnorm-1.0.2
+	virtual/MASS
 	>=sci-CRAN/rootSolve-1.7
 	>=sci-CRAN/foreach-1.2.0
+	sci-CRAN/ttutils
 "
 RDEPEND="${DEPEND-}"

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_hmisc? ( sci-CRAN/Hmisc )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND=">=sci-CRAN/ggplot2-3.2.0
 	sci-CRAN/rlang
-	sci-CRAN/plyr
-	>=sci-CRAN/ggplot2-3.2.0
+	>=dev-lang/R-3.1.0
 	>=sci-CRAN/withr-2.0.0
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

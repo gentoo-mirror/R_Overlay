@@ -13,9 +13,9 @@ LICENSE='BSD-2'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/sp
+	sci-CRAN/maptools
 	sci-CRAN/rjson
 	sci-CRAN/RCurl
-	sci-CRAN/maptools
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

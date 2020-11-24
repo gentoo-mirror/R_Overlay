@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/swissdd_1.0.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/tibble
+DEPEND="sci-CRAN/dplyr
+	>=sci-CRAN/tidyr-1.0.0
 	sci-CRAN/jsonlite
-	sci-CRAN/curl
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
 	sci-CRAN/magrittr
+	sci-CRAN/purrr
+	sci-CRAN/tibble
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-}"

@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cncaGUI_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/plotrix
+DEPEND="dev-lang/R[tk]
 	>=dev-lang/R-3.1.1
-	dev-lang/R[tk]
-	dev-lang/R[tk]
-	sci-CRAN/tkrplot
 	sci-CRAN/rgl
+	sci-CRAN/tkrplot
+	dev-lang/R[tk]
 	sci-CRAN/shapes
+	sci-CRAN/plotrix
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} dev-lang/R[tk]"

@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	sci-CRAN/farver
-	sci-CRAN/downloader
 	sci-CRAN/tibble
 	sci-CRAN/jpeg
+	sci-CRAN/magrittr
+	sci-CRAN/downloader
+	sci-CRAN/farver
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

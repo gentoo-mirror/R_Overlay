@@ -34,17 +34,17 @@ R_SUGGESTS="
 	r_suggests_umap? ( sci-CRAN/umap )
 	r_suggests_uwot? ( sci-CRAN/uwot )
 "
-DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/ggplot2
-	sci-CRAN/shinyjs
-	sci-CRAN/shiny
-	sci-CRAN/Rcpp
-	sci-CRAN/vegan
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/deldir
-	sci-CRAN/geometry
+	sci-CRAN/shinyjs
 	virtual/Matrix
-	sci-CRAN/shinythemes
+	sci-CRAN/shiny
 	sci-CRAN/plotly
+	>=dev-lang/R-3.0
+	sci-CRAN/ggplot2
+	sci-CRAN/vegan
+	sci-CRAN/geometry
+	sci-CRAN/shinythemes
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

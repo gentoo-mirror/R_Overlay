@@ -22,9 +22,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/dplyr
 	sci-CRAN/tibble
-	sci-CRAN/purrr
 	virtual/MASS
 	sci-CRAN/rlang
+	sci-CRAN/purrr
 	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

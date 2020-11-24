@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/plyr
-	sci-BIOC/ProtGenerics
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/foreach
 	sci-CRAN/iterators
-	sci-CRAN/doParallel
+	sci-CRAN/plyr
 	sci-CRAN/XML
+	sci-BIOC/ProtGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

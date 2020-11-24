@@ -26,11 +26,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_smotefamily? ( sci-CRAN/smotefamily )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/prettydoc
+DEPEND="sci-CRAN/SuperLearner
 	sci-CRAN/doParallel
+	sci-CRAN/prettydoc
+	>=dev-lang/R-3.3.0
 	sci-CRAN/foreach
-	sci-CRAN/SuperLearner
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

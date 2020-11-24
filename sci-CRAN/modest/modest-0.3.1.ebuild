@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/modest_0.3-1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/knitr
-	sci-CRAN/rhandsontable
 	sci-CRAN/shinyBS
 	sci-CRAN/shiny
+	sci-CRAN/rhandsontable
 "
 RDEPEND="${DEPEND-}"

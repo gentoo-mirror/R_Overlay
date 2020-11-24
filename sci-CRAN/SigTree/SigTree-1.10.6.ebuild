@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SigTree_1.10.6.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/vegan
-	sci-CRAN/phylobase
-	sci-BIOC/phyloseq
+DEPEND="sci-CRAN/phyext2
+	sci-CRAN/vegan
 	sci-CRAN/ape
 	sci-CRAN/RColorBrewer
-	sci-CRAN/phyext2
+	sci-BIOC/phyloseq
+	sci-CRAN/phylobase
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

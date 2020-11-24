@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/igraph
-	>=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/dnet
 	virtual/Matrix
-	sci-CRAN/dnet
+	sci-CRAN/igraph
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

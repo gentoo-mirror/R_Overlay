@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/rBMF_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/Matrix
 	sci-CRAN/Rcpp
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mGSZ_1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/limma
+DEPEND="sci-CRAN/GSA
 	virtual/MASS
-	sci-CRAN/GSA
-	>=dev-lang/R-3.0.0
 	sci-BIOC/Biobase
+	>=dev-lang/R-3.0.0
+	sci-BIOC/limma
 	sci-CRAN/ismev
 "
 RDEPEND="${DEPEND-}"

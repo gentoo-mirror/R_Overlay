@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gcmr_1.0.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/lmtest
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/lmtest
 	sci-CRAN/car
-	sci-CRAN/betareg
-	sci-CRAN/Formula
 	virtual/nlme
 	sci-CRAN/sandwich
+	sci-CRAN/betareg
+	sci-CRAN/Formula
 	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

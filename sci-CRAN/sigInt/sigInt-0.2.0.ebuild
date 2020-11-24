@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sigInt_0.2.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/randomForest
-	sci-CRAN/stringr
-	sci-CRAN/maxLik
+DEPEND="virtual/MASS
 	sci-CRAN/pbivnorm
-	sci-CRAN/Formula
-	sci-CRAN/xtable
-	virtual/MASS
+	sci-CRAN/stringr
+	sci-CRAN/randomForest
 	>=dev-lang/R-3.4.0
+	sci-CRAN/Formula
+	sci-CRAN/maxLik
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-}"

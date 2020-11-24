@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_maps? ( sci-CRAN/maps )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/doSNOW-1.0.16
-	sci-CRAN/magrittr
-	>=sci-CRAN/foreach-1.4.4
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/raster-2.6.7
+DEPEND=">=sci-CRAN/foreach-1.4.4
 	>=sci-CRAN/pbapply-1.3.3
-	>=sci-CRAN/Rcpp-0.12.14
 	>=sci-CRAN/snow-0.4.2
+	>=sci-CRAN/raster-2.6.7
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/doSNOW-1.0.16
+	sci-CRAN/magrittr
+	>=sci-CRAN/Rcpp-0.12.14
 	>=sci-CRAN/sp-1.2.7
 "
 RDEPEND="${DEPEND-}

@@ -18,23 +18,23 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/doSNOW
-	sci-CRAN/magrittr
-	sci-CRAN/stringr
-	sci-CRAN/dbplyr
-	sci-BIOC/mzR
+DEPEND="sci-CRAN/foreach
 	sci-CRAN/reshape2
 	virtual/cluster
-	sci-CRAN/RSQLite
+	sci-CRAN/stringr
+	sci-CRAN/doSNOW
+	sci-CRAN/uuid
 	sci-CRAN/jsonlite
+	sci-BIOC/KEGGREST
+	sci-CRAN/Rcpp
 	sci-CRAN/plyr
+	sci-CRAN/magrittr
+	sci-CRAN/dbplyr
 	sci-CRAN/dplyr
-	sci-CRAN/foreach
+	sci-BIOC/mzR
 	sci-CRAN/ggplot2
 	sci-CRAN/DBI
-	sci-CRAN/uuid
-	sci-BIOC/KEGGREST
+	sci-CRAN/RSQLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

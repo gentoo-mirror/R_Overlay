@@ -18,9 +18,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/dplyr
 	>=sci-CRAN/stringdist-0.9.5.5
+	sci-CRAN/purrr
 	sci-CRAN/magrittr
 	sci-CRAN/tibble
-	sci-CRAN/purrr
 	>=sci-CRAN/lintr-2.0.0
 	sci-CRAN/rlang
 "

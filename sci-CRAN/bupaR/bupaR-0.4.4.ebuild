@@ -12,18 +12,18 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/data_table
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/purrr
-	sci-CRAN/dplyr
-	sci-CRAN/tidyr
-	sci-CRAN/miniUI
+	sci-CRAN/shiny
 	sci-CRAN/glue
+	sci-CRAN/tidyr
 	sci-CRAN/forcats
 	sci-CRAN/rlang
 	>=sci-CRAN/eventdataR-0.2.0
+	sci-CRAN/stringr
 	sci-CRAN/lubridate
 	sci-CRAN/magrittr
-	sci-CRAN/shiny
-	sci-CRAN/stringr
+	sci-CRAN/miniUI
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

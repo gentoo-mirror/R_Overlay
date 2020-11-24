@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/httr
-	sci-CRAN/jsonlite
 	sci-CRAN/plyr
 	sci-CRAN/readr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/tmvtnorm
 	virtual/nlme
-	sci-CRAN/xts
-	sci-CRAN/mvtnorm
-	virtual/Matrix
 	sci-CRAN/zoo
+	sci-CRAN/xts
+	virtual/Matrix
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

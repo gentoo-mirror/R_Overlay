@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND="sci-CRAN/tuneR
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/httr
+	sci-CRAN/tuneR
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

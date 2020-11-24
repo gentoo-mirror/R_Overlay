@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rwunderground_0.1.8.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/dplyr
+DEPEND="sci-CRAN/httr
+	sci-CRAN/dplyr
 	sci-CRAN/countrycode
-	sci-CRAN/tibble
 	sci-CRAN/lubridate
-	sci-CRAN/httr
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}"

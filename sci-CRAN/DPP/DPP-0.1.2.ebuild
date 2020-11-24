@@ -12,8 +12,8 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND="sci-CRAN/coda
-	>=sci-CRAN/Rcpp-0.12.4
+DEPEND=">=sci-CRAN/Rcpp-0.12.4
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

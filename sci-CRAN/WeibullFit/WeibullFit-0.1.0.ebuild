@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/WeibullFit_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/optimx
+DEPEND="sci-CRAN/glue
 	sci-CRAN/R_methodsS3
-	sci-CRAN/e1071
+	>=dev-lang/R-3.6.0
 	sci-CRAN/sqldf
-	sci-CRAN/R_oo
-	sci-CRAN/glue
 	sci-CRAN/xtable
+	sci-CRAN/R_oo
 	sci-CRAN/FAdist
 	sci-CRAN/mixdist
+	sci-CRAN/optimx
 	sci-CRAN/kSamples
+	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-}"

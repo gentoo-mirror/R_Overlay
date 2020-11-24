@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.1 )"
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/lme4
-	virtual/nlme
 	>=sci-CRAN/ggplot2-1.0.0
+	virtual/nlme
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

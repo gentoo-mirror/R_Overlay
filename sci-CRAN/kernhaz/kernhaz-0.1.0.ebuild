@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_survival"
 R_SUGGESTS="r_suggests_survival? ( virtual/survival )"
-DEPEND="sci-CRAN/GA
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/rgl
+	sci-CRAN/GA
 	sci-CRAN/doParallel
 	sci-CRAN/foreach
-	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

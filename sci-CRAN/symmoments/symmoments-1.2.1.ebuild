@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_mpoly? ( sci-CRAN/mpoly )
 "
 DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/cubature
 	sci-CRAN/multipol
 	sci-CRAN/combinat
-	sci-CRAN/cubature
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

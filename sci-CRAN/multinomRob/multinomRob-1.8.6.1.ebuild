@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/multinomRob_1.8-6.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/mvtnorm-0.6.3
-	>=sci-CRAN/rgenoud-2.9
+DEPEND=">=sci-CRAN/rgenoud-2.9
+	>=sci-CRAN/mvtnorm-0.6.3
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

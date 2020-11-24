@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_pbapply? ( sci-CRAN/pbapply )
 "
-DEPEND="sci-CRAN/hash
-	virtual/Matrix
-	sci-CRAN/extraDistr
-	sci-CRAN/LaplacesDemon
+DEPEND="sci-CRAN/extraDistr
 	sci-CRAN/mcmcse
+	virtual/Matrix
+	sci-CRAN/LaplacesDemon
+	sci-CRAN/hash
 	sci-CRAN/numDeriv
 	sci-CRAN/spam
 "

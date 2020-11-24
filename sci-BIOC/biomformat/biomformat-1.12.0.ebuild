@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.10 )
 "
 DEPEND=">=dev-lang/R-3.2
-	sci-BIOC/rhdf5
-	>=sci-CRAN/jsonlite-0.9.16
 	>=sci-CRAN/plyr-1.8
 	virtual/Matrix
+	sci-BIOC/rhdf5
+	>=sci-CRAN/jsonlite-0.9.16
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cruts_1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/raster
-	sci-CRAN/ncdf4
-	sci-CRAN/sp
-	sci-CRAN/lubridate
+DEPEND="sci-CRAN/sp
+	sci-CRAN/raster
 	>=dev-lang/R-3.2.1
 	sci-CRAN/stringr
+	sci-CRAN/lubridate
+	sci-CRAN/ncdf4
 "
 RDEPEND="${DEPEND-}"

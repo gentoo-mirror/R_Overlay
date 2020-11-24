@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_validann? ( sci-CRAN/validann )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/pkgload
 	sci-CRAN/R6
+	sci-CRAN/pkgload
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

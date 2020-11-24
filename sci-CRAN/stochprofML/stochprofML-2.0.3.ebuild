@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/stochprofML_2.0.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/numDeriv
+DEPEND="sci-CRAN/numDeriv
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

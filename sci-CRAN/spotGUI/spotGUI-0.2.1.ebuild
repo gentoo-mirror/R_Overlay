@@ -13,15 +13,15 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/shinyjs
+	sci-CRAN/shinyBS
+	sci-CRAN/shinydashboard
 	sci-CRAN/smoof
 	sci-CRAN/shiny
-	sci-CRAN/shinyjs
-	sci-CRAN/gridExtra
-	sci-CRAN/XML
-	sci-CRAN/shinydashboard
-	sci-CRAN/shinyBS
 	>=sci-CRAN/SPOT-2.0.3
+	sci-CRAN/gridExtra
 	sci-CRAN/rhandsontable
+	sci-CRAN/XML
 	sci-CRAN/rclipboard
 	sci-CRAN/plotly
 	sci-CRAN/httpuv

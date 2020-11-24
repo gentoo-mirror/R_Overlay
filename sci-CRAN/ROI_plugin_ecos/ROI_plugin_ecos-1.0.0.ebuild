@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ROI.plugin.ecos_1.0-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/ROI-0.3.0
-	virtual/Matrix
+DEPEND="sci-CRAN/slam
 	>=sci-CRAN/ECOSolveR-0.5.0
-	sci-CRAN/slam
+	virtual/Matrix
+	>=sci-CRAN/ROI-0.3.0
 "
 RDEPEND="${DEPEND-}"

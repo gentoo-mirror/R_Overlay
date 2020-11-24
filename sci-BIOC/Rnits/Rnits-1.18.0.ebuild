@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/ggplot2
-	virtual/boot
-	sci-BIOC/Biobase
-	sci-BIOC/limma
-	sci-BIOC/impute
-	sci-BIOC/affy
 	sci-BIOC/qvalue
+	virtual/boot
+	sci-BIOC/limma
+	sci-BIOC/affy
+	sci-BIOC/Biobase
+	sci-CRAN/ggplot2
+	sci-BIOC/impute
 	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

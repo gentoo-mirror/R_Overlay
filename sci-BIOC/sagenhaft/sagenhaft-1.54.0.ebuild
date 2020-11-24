@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/sagenhaft_1.54.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/SparseM-0.73
-	sci-CRAN/SparseM
+DEPEND="sci-CRAN/SparseM
+	>=sci-CRAN/SparseM-0.73
 "
 RDEPEND="${DEPEND-}"

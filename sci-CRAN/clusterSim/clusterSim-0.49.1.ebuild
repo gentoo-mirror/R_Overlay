@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_mlbench? ( sci-CRAN/mlbench )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	virtual/cluster
-	sci-CRAN/e1071
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ade4
-	>=dev-lang/R-3.5.0
-	sci-CRAN/rgl
+	virtual/MASS
+	sci-CRAN/e1071
 	sci-CRAN/R2HTML
+	virtual/cluster
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

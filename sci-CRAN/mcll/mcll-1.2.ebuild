@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/mcll_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/statmod
 	sci-CRAN/locfit
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-}"

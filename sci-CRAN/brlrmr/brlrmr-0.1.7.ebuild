@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/brlrmr_0.1.7.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/profileModel
+DEPEND="virtual/boot
 	sci-CRAN/Rcpp
-	virtual/boot
-	sci-CRAN/brglm
+	sci-CRAN/profileModel
 	virtual/MASS
+	sci-CRAN/brglm
 "
 RDEPEND="${DEPEND-}"

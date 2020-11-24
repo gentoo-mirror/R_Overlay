@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_strucchange? ( sci-CRAN/strucchange )
 "
-DEPEND="sci-CRAN/zoo
-	sci-CRAN/sandwich
+DEPEND="sci-CRAN/sandwich
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

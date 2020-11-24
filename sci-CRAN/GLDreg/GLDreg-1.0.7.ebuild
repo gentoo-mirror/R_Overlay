@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_quantreg? ( sci-CRAN/quantreg )
 "
-DEPEND=">=sci-CRAN/GLDEX-2.0.0.5
-	sci-CRAN/ddst
+DEPEND="sci-CRAN/ddst
+	>=sci-CRAN/GLDEX-2.0.0.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

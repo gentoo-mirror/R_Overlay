@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/face_0.1-5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.2.0
+DEPEND="virtual/Matrix
 	virtual/mgcv
 	virtual/Matrix
-	virtual/Matrix
+	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-}"

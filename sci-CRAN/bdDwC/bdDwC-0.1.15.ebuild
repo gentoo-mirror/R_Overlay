@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/shinydashboard
-	sci-CRAN/shinyjs
+DEPEND="sci-CRAN/shinyBS
 	sci-CRAN/shinyFiles
-	sci-CRAN/shinyBS
 	sci-CRAN/shiny
+	sci-CRAN/shinyjs
+	sci-CRAN/shinydashboard
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

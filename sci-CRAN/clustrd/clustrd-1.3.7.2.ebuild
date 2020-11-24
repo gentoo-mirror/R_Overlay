@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/clustrd_1.3.7-2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/rARPACK
-	sci-CRAN/corpcor
-	sci-CRAN/plyr
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/tibble
-	sci-CRAN/ggrepel
-	sci-CRAN/ca
-	sci-CRAN/ggplot2
 	sci-CRAN/GGally
+	sci-CRAN/rARPACK
+	sci-CRAN/corpcor
 	sci-CRAN/fpc
 	virtual/cluster
+	sci-CRAN/dplyr
+	sci-CRAN/plyr
+	sci-CRAN/ggrepel
+	sci-CRAN/ca
 "
 RDEPEND="${DEPEND-}"

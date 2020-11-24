@@ -27,11 +27,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-0.7 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.1 )
 "
-DEPEND=">=sci-CRAN/entropy-1.2.0
+DEPEND="virtual/rpart
+	>=sci-CRAN/entropy-1.2.0
 	>=sci-CRAN/assertthat-0.1
-	virtual/rpart
-	>=dev-lang/R-3.2.0
 	virtual/Matrix
+	>=dev-lang/R-3.2.0
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_broom? ( sci-CRAN/broom )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/dplyr
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	sci-CRAN/dplyr
 	sci-CRAN/purrr
-	>=dev-lang/R-3.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

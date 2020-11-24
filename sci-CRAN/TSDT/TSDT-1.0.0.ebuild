@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/TSDT_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/survRM2
-	sci-CRAN/party
-	virtual/rpart
-	sci-CRAN/hash
-	sci-CRAN/mlbench
+DEPEND="sci-CRAN/mlbench
+	sci-CRAN/survRM2
 	virtual/survival
+	sci-CRAN/party
+	sci-CRAN/hash
+	virtual/rpart
 	sci-CRAN/modeltools
 "
 RDEPEND="${DEPEND-}"

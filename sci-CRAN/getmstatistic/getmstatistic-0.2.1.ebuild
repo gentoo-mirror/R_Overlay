@@ -20,10 +20,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/gtable-0.1.2
-	>=sci-CRAN/ggplot2-1.0.1
-	>=sci-CRAN/psych-1.5.1
 	>=sci-CRAN/metafor-1.9.6
+	>=sci-CRAN/ggplot2-1.0.1
 	>=sci-CRAN/gridExtra-0.9.1
+	>=sci-CRAN/psych-1.5.1
 	>=sci-CRAN/stargazer-5.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

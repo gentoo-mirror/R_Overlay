@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_geiger? ( sci-CRAN/geiger )
 "
 DEPEND="sci-CRAN/mvSLOUCH
-	sci-CRAN/phangorn
 	sci-CRAN/yuima
 	>=sci-CRAN/ape-3.0.6
+	sci-CRAN/phangorn
 	sci-CRAN/TreeSim
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

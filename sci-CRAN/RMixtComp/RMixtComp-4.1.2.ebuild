@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
 DEPEND=">=sci-CRAN/RMixtCompIO-4.0.4
-	sci-CRAN/scales
-	sci-CRAN/ggplot2
-	>=sci-CRAN/RMixtCompUtilities-4.1.2
 	sci-CRAN/plotly
+	sci-CRAN/ggplot2
+	sci-CRAN/scales
+	>=sci-CRAN/RMixtCompUtilities-4.1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

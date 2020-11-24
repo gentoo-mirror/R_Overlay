@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/IdMappingRetrieval_1.32.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-BIOC/biomaRt
+DEPEND="sci-CRAN/R_oo
 	sci-CRAN/R_methodsS3
-	sci-BIOC/AffyCompatible
-	sci-CRAN/R_oo
-	sci-CRAN/rChoiceDialogs
-	sci-CRAN/RCurl
 	sci-CRAN/XML
+	sci-CRAN/rChoiceDialogs
 	sci-BIOC/ENVISIONQuery
+	sci-CRAN/RCurl
+	sci-BIOC/biomaRt
+	sci-BIOC/AffyCompatible
 "
 RDEPEND="${DEPEND-}"

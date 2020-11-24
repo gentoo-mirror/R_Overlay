@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/orthoDr_0.6.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.12
-	virtual/survival
 	sci-CRAN/dr
+	virtual/survival
 	sci-CRAN/pracma
+	sci-CRAN/plot3D
 	sci-CRAN/rgl
 	virtual/MASS
-	sci-CRAN/plot3D
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

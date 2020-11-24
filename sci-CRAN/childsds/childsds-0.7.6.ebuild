@@ -13,17 +13,17 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_ggplot2"
 R_SUGGESTS="r_suggests_ggplot2? ( sci-CRAN/ggplot2 )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
-	virtual/boot
-	sci-CRAN/tidyr
-	sci-CRAN/magrittr
-	sci-CRAN/reshape2
-	sci-CRAN/purrr
 	sci-CRAN/gamlss_dist
-	sci-CRAN/gamlss
-	virtual/class
+	sci-CRAN/purrr
 	sci-CRAN/tibble
+	virtual/boot
 	sci-CRAN/purrrlyr
 	sci-CRAN/VGAM
+	sci-CRAN/magrittr
+	sci-CRAN/dplyr
+	sci-CRAN/gamlss
+	sci-CRAN/tidyr
+	virtual/class
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

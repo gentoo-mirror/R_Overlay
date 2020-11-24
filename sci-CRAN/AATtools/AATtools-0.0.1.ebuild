@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/AATtools_0.0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/foreach
 	sci-CRAN/doParallel
 	sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

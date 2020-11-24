@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/rlang
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/magrittr
-	sci-CRAN/purrr
-	sci-CRAN/ggplot2
-	sci-CRAN/scales
-	sci-CRAN/tidyr
-	>=dev-lang/R-3.0.0
+	sci-CRAN/rlang
 	sci-CRAN/dplyr
-	sci-CRAN/DT
+	sci-CRAN/purrr
+	sci-CRAN/scales
 	sci-CRAN/assertthat
+	sci-CRAN/ggplot2
+	sci-CRAN/tidyr
+	sci-CRAN/DT
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

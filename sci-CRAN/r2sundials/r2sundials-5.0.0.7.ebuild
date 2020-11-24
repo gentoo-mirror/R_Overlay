@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_slam? ( sci-CRAN/slam )
 "
 DEPEND=">=dev-lang/R-3.0.2
-	>=sci-CRAN/rmumps-5.2.1.6
 	>=sci-CRAN/Rcpp-1.0.0
+	>=sci-CRAN/rmumps-5.2.1.6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	>=sci-CRAN/rmumps-5.2.1.6
 	sci-CRAN/RcppArmadillo
+	>=sci-CRAN/rmumps-5.2.1.6
 	${R_SUGGESTS-}
 "

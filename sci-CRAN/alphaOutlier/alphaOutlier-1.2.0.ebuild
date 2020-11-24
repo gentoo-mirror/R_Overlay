@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/alphaOutlier_1.2.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/Rsolnp
-	sci-CRAN/nleqslv
 	sci-CRAN/quantreg
+	sci-CRAN/nleqslv
 "
 RDEPEND="${DEPEND-}"

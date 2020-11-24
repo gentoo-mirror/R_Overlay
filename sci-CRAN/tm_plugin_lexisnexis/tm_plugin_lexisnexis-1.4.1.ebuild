@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/tm.plugin.lexisnexis_1.4.1.tar.gz
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/xml2
-	sci-CRAN/ISOcodes
-	sci-CRAN/NLP
 	>=sci-CRAN/tm-0.6
+	sci-CRAN/NLP
+	sci-CRAN/ISOcodes
 "
 RDEPEND="${DEPEND-}"

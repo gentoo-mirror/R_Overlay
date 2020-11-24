@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_trackr? ( sci-CRAN/trackr )
 "
-DEPEND="sci-CRAN/evaluate
-	sci-CRAN/CodeDepends
-	sci-CRAN/roprov
+DEPEND="sci-CRAN/roprov
 	sci-CRAN/fastdigest
+	sci-CRAN/CodeDepends
+	sci-CRAN/evaluate
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

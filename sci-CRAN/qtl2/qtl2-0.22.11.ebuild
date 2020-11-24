@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/yaml-2.1.13
 	>=sci-CRAN/Rcpp-0.12.12
-	sci-CRAN/RSQLite
+	>=sci-CRAN/yaml-2.1.13
 	>=sci-CRAN/data_table-1.10.4.3
 	>=sci-CRAN/jsonlite-0.9.17
+	sci-CRAN/RSQLite
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -30,7 +30,7 @@ R_SUGGESTS="
 	r_suggests_tseries? ( sci-CRAN/tseries )
 	r_suggests_xts? ( sci-CRAN/xts )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	virtual/lattice
+DEPEND="virtual/lattice
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

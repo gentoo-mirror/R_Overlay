@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/readr
-	sci-CRAN/rlang
-	sci-CRAN/stringr
+	sci-CRAN/magrittr
 	sci-CRAN/lubridate
+	sci-CRAN/dplyr
+	sci-CRAN/readr
+	sci-CRAN/stringr
 	>=sci-CRAN/swfscDAS-0.3.0
 	sci-CRAN/swfscMisc
 	sci-CRAN/tidyr
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

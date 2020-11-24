@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
-	sci-CRAN/lpSolveAPI
-	sci-CRAN/enrichwith
-	sci-CRAN/numDeriv
-	>=dev-lang/R-3.3.0
-	virtual/MASS
+DEPEND="virtual/MASS
 	virtual/nnet
+	sci-CRAN/enrichwith
+	>=dev-lang/R-3.3.0
+	virtual/Matrix
+	sci-CRAN/lpSolveAPI
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

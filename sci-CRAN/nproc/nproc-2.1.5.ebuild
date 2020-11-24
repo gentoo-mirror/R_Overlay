@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/glmnet
-	sci-CRAN/randomForest
-	sci-CRAN/e1071
-	sci-CRAN/ada
 	sci-CRAN/naivebayes
 	virtual/MASS
+	sci-CRAN/e1071
+	sci-CRAN/randomForest
 	sci-CRAN/ROCR
+	sci-CRAN/ada
 	sci-CRAN/tree
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

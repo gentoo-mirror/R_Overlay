@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( >=sci-CRAN/knitr-1.16 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/sparseLDA-0.1.9
-	virtual/Matrix
+DEPEND=">=sci-CRAN/sparseLDA-0.1.9
+	>=dev-lang/R-3.4.0
 	>=sci-CRAN/reshape2-1.4.2
 	>=sci-CRAN/mvtnorm-1.0.6
+	virtual/Matrix
 	>=sci-CRAN/gtable-0.2.0
 	>=sci-BIOC/phyloseq-1.22.3
 	>=sci-CRAN/ggplot2-2.2.1

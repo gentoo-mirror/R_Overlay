@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_reshape2? ( sci-CRAN/reshape2 )
 "
 DEPEND=">=dev-lang/R-3.3.1
-	>=sci-CRAN/numDeriv-2016.8.1
 	>=sci-CRAN/mcmc-0.9.4
+	>=sci-CRAN/numDeriv-2016.8.1
 	>=sci-CRAN/MHadaptive-1.1.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

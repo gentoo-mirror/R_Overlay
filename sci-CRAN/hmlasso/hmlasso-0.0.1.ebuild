@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/RSpectra
 	virtual/MASS
 	virtual/Matrix
+	sci-CRAN/RSpectra
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

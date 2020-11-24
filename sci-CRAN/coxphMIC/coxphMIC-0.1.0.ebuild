@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/coxphMIC_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/survival
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/numDeriv-2014.2.1
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

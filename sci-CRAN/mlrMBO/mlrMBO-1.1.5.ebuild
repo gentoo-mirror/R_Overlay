@@ -40,14 +40,14 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/mlr-2.10
+DEPEND=">=sci-CRAN/BBmisc-1.11
+	sci-CRAN/lhs
+	>=sci-CRAN/ParamHelpers-1.10
+	>=sci-CRAN/checkmate-1.8.2
+	>=sci-CRAN/mlr-2.10
 	>=sci-CRAN/backports-1.1.0
 	>=sci-CRAN/smoof-1.5.1
-	>=sci-CRAN/ParamHelpers-1.10
-	>=sci-CRAN/BBmisc-1.11
-	>=sci-CRAN/checkmate-1.8.2
 	sci-CRAN/data_table
-	sci-CRAN/lhs
 	>=sci-CRAN/parallelMap-1.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

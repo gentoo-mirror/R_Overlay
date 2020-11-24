@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/lavaan_0.6-7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/mnormt
+DEPEND="virtual/MASS
 	>=dev-lang/R-3.4
 	sci-CRAN/pbivnorm
+	sci-CRAN/mnormt
 	sci-CRAN/numDeriv
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

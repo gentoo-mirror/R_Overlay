@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/RJSONIO
+	sci-CRAN/RCurl
 	sci-CRAN/plyr
 	sci-CRAN/reshape2
-	sci-CRAN/RCurl
 	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

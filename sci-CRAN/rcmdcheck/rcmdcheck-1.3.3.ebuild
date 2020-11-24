@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/callr-3.1.1.9000
-	>=sci-CRAN/cli-1.1.0
-	sci-CRAN/digest
-	>=sci-CRAN/desc-1.2.0
-	sci-CRAN/crayon
-	sci-CRAN/pkgbuild
-	sci-CRAN/rprojroot
-	>=sci-CRAN/sessioninfo-1.1.1
-	sci-CRAN/xopen
-	sci-CRAN/prettyunits
+DEPEND="sci-CRAN/digest
 	sci-CRAN/R6
+	sci-CRAN/rprojroot
+	sci-CRAN/crayon
+	>=sci-CRAN/desc-1.2.0
 	sci-CRAN/withr
+	sci-CRAN/xopen
+	>=sci-CRAN/callr-3.1.1.9000
+	>=sci-CRAN/cli-1.1.0
+	sci-CRAN/pkgbuild
+	sci-CRAN/prettyunits
+	>=sci-CRAN/sessioninfo-1.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

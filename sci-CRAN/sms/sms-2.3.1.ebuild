@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sms_2.3.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/iterators
+DEPEND="sci-CRAN/doParallel
 	sci-CRAN/foreach
-	sci-CRAN/doParallel
+	sci-CRAN/iterators
 "
 RDEPEND="${DEPEND-}"

@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_shinycssloaders? ( sci-CRAN/shinycssloaders )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/leaps-3.0
 	virtual/lattice
+	>=sci-CRAN/leaps-3.0
 	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

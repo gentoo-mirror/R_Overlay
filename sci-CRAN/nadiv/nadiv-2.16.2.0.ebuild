@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nadiv_2.16.2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

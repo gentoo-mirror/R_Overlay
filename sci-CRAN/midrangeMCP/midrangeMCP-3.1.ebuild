@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/midrangeMCP_3.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/SMR
-	sci-CRAN/xtable
-	sci-CRAN/writexl
-	sci-CRAN/tkrplot
 	dev-lang/R[tk]
+	sci-CRAN/writexl
+	sci-CRAN/xtable
+	sci-CRAN/tkrplot
 "
 RDEPEND="${DEPEND-}"

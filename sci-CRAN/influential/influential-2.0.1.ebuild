@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_nortest? ( >=sci-CRAN/nortest-1.0.4 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/coop
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/ggplot2
-	sci-CRAN/ranger
-	sci-CRAN/reshape2
 	sci-CRAN/igraph
+	sci-CRAN/ranger
+	sci-CRAN/coop
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/cplm_0.7-9.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/minqa
-	sci-CRAN/statmod
-	sci-CRAN/reshape2
 	sci-CRAN/coda
 	sci-CRAN/tweedie
+	virtual/nlme
 	virtual/Matrix
 	sci-CRAN/biglm
 	sci-CRAN/ggplot2
-	virtual/nlme
+	sci-CRAN/minqa
+	sci-CRAN/reshape2
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-} virtual/Matrix"

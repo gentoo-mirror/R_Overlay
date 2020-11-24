@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/forensim_4.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="dev-lang/R[tk]
-	sci-CRAN/tkrplot
+DEPEND="sci-CRAN/tkrplot
+	dev-lang/R[tk]
 	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-} dev-lang/R[tk]"

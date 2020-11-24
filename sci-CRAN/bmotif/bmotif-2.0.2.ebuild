@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/reshape2-1.4.3
-	>=sci-CRAN/gtools-3.8.1
-	>=sci-CRAN/tensor-1.5
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/Rcpp-0.12.18
+	>=sci-CRAN/reshape2-1.4.3
+	>=sci-CRAN/tensor-1.5
+	>=sci-CRAN/gtools-3.8.1
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

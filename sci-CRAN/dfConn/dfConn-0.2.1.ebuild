@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/doParallel
-	sci-CRAN/data_table
-	sci-CRAN/gtools
 	virtual/nlme
+	sci-CRAN/stringr
 	sci-CRAN/foreach
+	sci-CRAN/data_table
 	sci-CRAN/ggplot2
 	sci-CRAN/fields
 	sci-CRAN/gplots
-	sci-CRAN/stringr
+	sci-CRAN/gtools
 	>=sci-CRAN/Rcpp-0.12.18
 "
 RDEPEND="${DEPEND-}

@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/adehabitatLT
 	sci-CRAN/rgeos
 	sci-CRAN/sp
-	sci-CRAN/adehabitatLT
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

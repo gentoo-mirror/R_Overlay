@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_igraph? ( sci-CRAN/igraph )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-CRAN/scales
-	sci-CRAN/ggmap
+DEPEND="sci-CRAN/animation
 	sci-CRAN/sp
+	sci-CRAN/scales
 	sci-CRAN/raster
-	sci-CRAN/animation
 	sci-CRAN/RColorBrewer
 	virtual/mgcv
+	sci-CRAN/ggmap
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

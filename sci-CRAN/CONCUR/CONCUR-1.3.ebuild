@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/CONCUR_1.3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/CompQuadForm
-	sci-CRAN/dplyr
 	virtual/mgcv
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-}"

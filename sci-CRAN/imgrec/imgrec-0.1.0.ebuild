@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_pillar? ( >=sci-CRAN/pillar-1.4.0 )
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.1.0 )
 "
-DEPEND=">=sci-CRAN/httr-1.4.0
+DEPEND=">=sci-CRAN/knitr-1.2.0
 	>=sci-CRAN/base64enc-0.1.0
-	>=sci-CRAN/knitr-1.2.0
-	>=sci-CRAN/dplyr-0.7.0
 	>=sci-CRAN/jsonlite-1.6.0
+	>=sci-CRAN/httr-1.4.0
+	>=sci-CRAN/dplyr-0.7.0
 	>=sci-CRAN/rlang-0.4.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_lhs? ( sci-CRAN/lhs )
 "
-DEPEND=">=sci-CRAN/emoa-0.5.0
+DEPEND=">=dev-lang/R-3.3.0
+	>=sci-CRAN/emoa-0.5.0
 	>=sci-CRAN/GenSA-1.1.6
-	>=sci-CRAN/mco-1.0.15.1
 	>=sci-CRAN/DiceKriging-1.5.5
-	>=dev-lang/R-3.3.0
+	>=sci-CRAN/mco-1.0.15.1
 	>=sci-CRAN/GPareto-1.0.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/magrittr
-	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
 	sci-CRAN/tibble
+	sci-CRAN/ggplot2
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GUIProfiler_2.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/Rgraphviz
-	sci-BIOC/graph
-	sci-CRAN/rstudioapi
+DEPEND="sci-CRAN/Nozzle_R1
 	virtual/MASS
-	sci-CRAN/Nozzle_R1
+	sci-BIOC/graph
+	sci-BIOC/Rgraphviz
 	sci-CRAN/proftools
+	sci-CRAN/rstudioapi
 "
 RDEPEND="${DEPEND-}"

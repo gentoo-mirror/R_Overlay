@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_mvoutlier? ( sci-CRAN/mvoutlier )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND="sci-CRAN/coin
-	virtual/boot
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	virtual/KernSmooth
+	sci-CRAN/coin
+	virtual/boot
 	>=sci-CRAN/CompQuadForm-1.4.2
 	sci-CRAN/robustbase
 "

@@ -11,19 +11,19 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/RNAinterac
 LICENSE='Artistic-2'
 
 DEPEND="sci-CRAN/locfit
-	sci-CRAN/ICSNP
-	sci-BIOC/cellHTS2
-	sci-BIOC/Biobase
-	sci-CRAN/RColorBrewer
+	sci-BIOC/limma
 	sci-BIOC/geneplotter
-	sci-CRAN/gplots
 	virtual/lattice
+	virtual/lattice
+	>=sci-BIOC/splots-1.13.12
 	>=dev-lang/R-2.12.0
+	sci-CRAN/RColorBrewer
+	sci-BIOC/Biobase
 	sci-CRAN/abind
 	sci-CRAN/ICS
+	sci-CRAN/ICSNP
+	sci-BIOC/cellHTS2
+	sci-CRAN/gplots
 	sci-CRAN/hwriter
-	virtual/lattice
-	sci-BIOC/limma
-	>=sci-BIOC/splots-1.13.12
 "
 RDEPEND="${DEPEND-}"

@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CensSpatial_2.58.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/geoR
-	sci-CRAN/msm
-	sci-CRAN/optimx
-	>=sci-CRAN/numDeriv-2.11.1
+DEPEND="sci-CRAN/optimx
+	sci-CRAN/moments
+	sci-CRAN/raster
+	>=sci-CRAN/tlrmvnmvt-1.1.0
 	sci-CRAN/tmvtnorm
 	>=dev-lang/R-3.6.0
+	sci-CRAN/geoR
 	sci-CRAN/mvtnorm
+	sci-CRAN/msm
 	sci-CRAN/psych
-	sci-CRAN/raster
-	sci-CRAN/moments
+	>=sci-CRAN/numDeriv-2.11.1
 	virtual/lattice
-	>=sci-CRAN/tlrmvnmvt-1.1.0
 "
 RDEPEND="${DEPEND-}"

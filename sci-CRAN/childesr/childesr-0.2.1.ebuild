@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/DBI-1.1.0
+DEPEND=">=sci-CRAN/dbplyr-1.4
+	>=sci-CRAN/purrr-0.3
+	>=sci-CRAN/dplyr-1.0
 	>=sci-CRAN/jsonlite-1.5
+	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/RMySQL-0.10.20
 	>=dev-lang/R-3.6
-	>=sci-CRAN/dbplyr-1.4
-	>=sci-CRAN/dplyr-1.0
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/purrr-0.3
+	>=sci-CRAN/DBI-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

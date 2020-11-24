@@ -96,9 +96,9 @@ R_SUGGESTS="
 	r_suggests_stepplr? ( sci-CRAN/stepPlr )
 	r_suggests_superpc? ( sci-CRAN/superpc )
 "
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/gsubfn
+	>=dev-lang/R-3.1.0
 	sci-CRAN/hmeasure
-	sci-CRAN/gsubfn
 	sci-CRAN/caret
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

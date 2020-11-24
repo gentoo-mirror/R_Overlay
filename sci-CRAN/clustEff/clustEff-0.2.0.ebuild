@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/clustEff_0.2.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/ggpubr
+DEPEND="sci-CRAN/qrcm
+	sci-CRAN/ggplot2
 	sci-CRAN/fda
+	sci-CRAN/ggpubr
 	virtual/cluster
-	sci-CRAN/qrcm
 "
 RDEPEND="${DEPEND-}"

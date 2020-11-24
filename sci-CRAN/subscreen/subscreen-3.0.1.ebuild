@@ -16,18 +16,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND="sci-CRAN/data_table
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/shinyjs
-	sci-CRAN/plyr
-	sci-CRAN/DT
-	sci-CRAN/shiny
-	sci-CRAN/bsplus
-	sci-CRAN/jsonlite
 	sci-CRAN/colourpicker
+	sci-CRAN/data_table
+	sci-CRAN/bsplus
 	sci-CRAN/dplyr
-	sci-CRAN/randomForestSRC
 	sci-CRAN/V8
-	sci-CRAN/purrr
 	sci-CRAN/shinyWidgets
+	sci-CRAN/shiny
+	sci-CRAN/DT
+	sci-CRAN/jsonlite
+	sci-CRAN/randomForestSRC
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

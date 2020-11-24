@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_tuner? ( sci-CRAN/tuneR )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/moments
 	sci-CRAN/data_table
+	sci-CRAN/moments
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

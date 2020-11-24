@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/ape-4.1
-	>=sci-CRAN/igraph-1.0.1
-	>=sci-CRAN/ggraph-1.0.0
-	>=sci-CRAN/ggplot2-3.0.0
+DEPEND="sci-CRAN/tibble
 	>=sci-CRAN/ggm-2.3
+	>=sci-CRAN/ape-4.1
+	>=sci-CRAN/ggplot2-3.0.0
+	>=sci-CRAN/ggraph-1.0.0
+	>=sci-CRAN/igraph-1.0.1
 	>=sci-CRAN/MuMIn-1.15.6
-	sci-CRAN/tibble
 	>=sci-CRAN/pbapply-1.3.2
 	>=sci-CRAN/phylolm-2.5
 	>=sci-CRAN/purrr-0.2.3

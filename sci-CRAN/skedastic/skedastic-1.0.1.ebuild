@@ -24,25 +24,25 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 	r_suggests_tseries? ( sci-CRAN/tseries )
 "
-DEPEND=">=sci-CRAN/pracma-2.2.9
-	>=sci-CRAN/cubature-2.0.4
-	>=sci-CRAN/CompQuadForm-1.4.3
-	>=sci-CRAN/Rdpack-0.11.1
-	>=sci-CRAN/Rmpfr-0.8.0
-	virtual/boot
-	virtual/MASS
+DEPEND=">=sci-CRAN/arrangements-1.1.8
 	>=sci-CRAN/expm-0.999.4
-	>=sci-CRAN/berryFunctions-1.17
-	>=sci-CRAN/data_table-1.12.8
-	>=sci-CRAN/qpdf-1.1
-	>=sci-CRAN/arrangements-1.1.8
-	>=sci-CRAN/quantreg-5.55
-	>=dev-lang/R-4.0.0
+	>=sci-CRAN/Rmpfr-0.8.0
 	>=sci-CRAN/broom-0.5.6
-	>=sci-CRAN/gmp-0.5.13
+	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/CompQuadForm-1.4.3
+	virtual/MASS
+	>=sci-CRAN/qpdf-1.1
+	virtual/boot
+	>=sci-CRAN/pracma-2.2.9
 	>=sci-CRAN/bazar-1.0.11
 	>=sci-CRAN/mvtnorm-1.1.0
-	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/Rdpack-0.11.1
+	>=sci-CRAN/data_table-1.12.8
+	>=dev-lang/R-4.0.0
+	>=sci-CRAN/cubature-2.0.4
+	>=sci-CRAN/quantreg-5.55
+	>=sci-CRAN/gmp-0.5.13
+	>=sci-CRAN/berryFunctions-1.17
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

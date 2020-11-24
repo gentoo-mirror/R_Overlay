@@ -15,8 +15,8 @@ R_SUGGESTS="r_suggests_biocparallel? ( sci-BIOC/BiocParallel )"
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/coda
 	virtual/boot
-	sci-CRAN/rjags
 	sci-CRAN/mvtnorm
+	sci-CRAN/rjags
 	sci-CRAN/ggplot2
 	sci-CRAN/arrayhelpers
 "

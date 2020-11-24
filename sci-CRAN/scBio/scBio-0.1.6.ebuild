@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/scBio_0.1.6.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/doSNOW
-	sci-BIOC/limma
+	sci-CRAN/fields
+	sci-CRAN/sp
 	sci-CRAN/raster
 	sci-CRAN/foreach
 	sci-CRAN/LiblineaR
-	sci-CRAN/sp
-	sci-CRAN/fields
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-}"

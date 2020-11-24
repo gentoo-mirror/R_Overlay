@@ -12,10 +12,10 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_colourpicker"
 R_SUGGESTS="r_suggests_colourpicker? ( sci-CRAN/colourpicker )"
-DEPEND="sci-CRAN/htmltools
-	sci-CRAN/checkmate
-	sci-CRAN/glue
+DEPEND=">=sci-CRAN/shiny-1.0
 	>=dev-lang/R-3.0.0
-	>=sci-CRAN/shiny-1.0
+	sci-CRAN/checkmate
+	sci-CRAN/htmltools
+	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

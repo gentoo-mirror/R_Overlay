@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/shapes_1.2.5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/rgl
-	virtual/MASS
+DEPEND="sci-CRAN/minpack_lm
 	sci-CRAN/scatterplot3d
-	sci-CRAN/minpack_lm
+	virtual/MASS
+	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

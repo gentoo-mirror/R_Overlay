@@ -13,10 +13,10 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_extrafont"
 R_SUGGESTS="r_suggests_extrafont? ( sci-CRAN/extrafont )"
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/ggplot2
 	>=sci-CRAN/rstudioapi-0.5
 	sci-CRAN/formatR
-	>=sci-CRAN/miniUI-0.1.1
 	>=sci-CRAN/shiny-0.13
-	sci-CRAN/ggplot2
+	>=sci-CRAN/miniUI-0.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

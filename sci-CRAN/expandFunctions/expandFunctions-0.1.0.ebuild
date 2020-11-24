@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/expandFunctions_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/plyr
-	sci-CRAN/orthopolynom
-	sci-CRAN/glmnet
 	sci-CRAN/polynom
+	sci-CRAN/glmnet
+	sci-CRAN/orthopolynom
 "
 RDEPEND="${DEPEND-}"

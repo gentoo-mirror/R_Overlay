@@ -12,7 +12,7 @@ LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/data_table
 	sci-CRAN/VGAM
-	sci-CRAN/combinat
 	sci-CRAN/plyr
+	sci-CRAN/combinat
 "
 RDEPEND="${DEPEND-}"

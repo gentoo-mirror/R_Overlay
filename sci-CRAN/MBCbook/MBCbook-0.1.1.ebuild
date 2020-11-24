@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_jpeg? ( sci-CRAN/jpeg )
 	r_suggests_network? ( sci-CRAN/network )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
 	>=dev-lang/R-3.1.0
-	sci-CRAN/mclust
 	sci-CRAN/Rmixmod
+	virtual/MASS
+	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

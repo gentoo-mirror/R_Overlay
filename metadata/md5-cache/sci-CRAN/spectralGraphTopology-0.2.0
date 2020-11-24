@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/Rcpp sci-CRAN/progress virtual/MASS sci-CRAN/rlist virtual/Matrix dev-lang/R
+DEPEND=virtual/Matrix sci-CRAN/progress sci-CRAN/Rcpp virtual/MASS sci-CRAN/rlist dev-lang/R
 DESCRIPTION=Learning Graphs from Data via Spectral Constraints
 EAPI=7
 IUSE=r_suggests_bookdown r_suggests_cluster r_suggests_corrplot r_suggests_igraph r_suggests_kernlab r_suggests_knitr r_suggests_matrix r_suggests_pals r_suggests_patrick r_suggests_prettydoc r_suggests_quadprog r_suggests_r_rsp r_suggests_rmarkdown r_suggests_testthat r_suggests_viridis byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=sci-CRAN/Rcpp sci-CRAN/progress virtual/MASS sci-CRAN/rlist virtual/Matrix sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppEigen r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_cluster? ( virtual/cluster ) r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_pals? ( sci-CRAN/pals ) r_suggests_patrick? ( sci-CRAN/patrick ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_quadprog? ( sci-CRAN/quadprog ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R
+RDEPEND=virtual/Matrix sci-CRAN/progress sci-CRAN/Rcpp virtual/MASS sci-CRAN/rlist sci-CRAN/Rcpp sci-CRAN/RcppEigen sci-CRAN/RcppArmadillo r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_cluster? ( virtual/cluster ) r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_pals? ( sci-CRAN/pals ) r_suggests_patrick? ( sci-CRAN/patrick ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_quadprog? ( sci-CRAN/quadprog ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/spectralGraphTopology_0.2.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=de3fc5ef514448006edb4f7ae42f6fdf
+_md5_=3d681c76979a402eadfacbf1587e5ad4

@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CAvariants_5.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ggrepel
-	sci-CRAN/gridExtra
+DEPEND="sci-CRAN/ggforce
 	sci-CRAN/ggplot2
-	sci-CRAN/ggforce
 	>dev-lang/R-3.0.1
+	sci-CRAN/gridExtra
+	sci-CRAN/ggrepel
 	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-}"

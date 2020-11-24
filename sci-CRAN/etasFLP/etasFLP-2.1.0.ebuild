@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/etasFLP_2.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/mapdata
 	sci-CRAN/fields
+	sci-CRAN/mapdata
 	sci-CRAN/maps
 "
 RDEPEND="${DEPEND-}"

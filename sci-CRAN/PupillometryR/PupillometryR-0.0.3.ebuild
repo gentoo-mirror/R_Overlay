@@ -17,15 +17,15 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/rlang
+	sci-CRAN/data_table
+	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
 	sci-CRAN/fda
-	sci-CRAN/ggplot2
+	sci-CRAN/signal
+	sci-CRAN/zoo
 	sci-CRAN/itsadug
 	sci-CRAN/lazyeval
-	sci-CRAN/zoo
-	sci-CRAN/data_table
 	virtual/mgcv
-	sci-CRAN/signal
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

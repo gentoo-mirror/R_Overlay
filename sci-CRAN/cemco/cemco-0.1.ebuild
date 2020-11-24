@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cemco_0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
+	sci-CRAN/mvtnorm
+	sci-CRAN/clusteval
+	>=dev-lang/R-3.1.0
+	sci-CRAN/rootSolve
+	virtual/nnet
 	sci-CRAN/doParallel
 	virtual/MASS
-	sci-CRAN/mvtnorm
-	virtual/nnet
-	sci-CRAN/rootSolve
-	sci-CRAN/clusteval
 	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}"

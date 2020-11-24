@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/shock_1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/GGMselect
-	sci-CRAN/capushe
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/capushe
+	sci-CRAN/GGMselect
 	sci-CRAN/glasso
 	sci-CRAN/mvtnorm
+	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/irt_0.1.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/ggplot2
-	>=sci-CRAN/Rcpp-1.0.4
+DEPEND=">=sci-CRAN/Rcpp-1.0.4
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

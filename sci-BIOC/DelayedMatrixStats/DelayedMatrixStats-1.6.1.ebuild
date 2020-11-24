@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
+DEPEND=">=sci-BIOC/DelayedArray-0.9.8
 	sci-BIOC/IRanges
-	>=sci-BIOC/S4Vectors-0.17.5
-	>=sci-BIOC/DelayedArray-0.9.8
-	virtual/Matrix
 	>=sci-BIOC/HDF5Array-1.7.10
+	virtual/Matrix
+	>=sci-BIOC/S4Vectors-0.17.5
 	sci-BIOC/BiocParallel
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

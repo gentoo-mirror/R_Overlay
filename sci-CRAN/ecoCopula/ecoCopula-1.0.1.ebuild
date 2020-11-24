@@ -24,18 +24,18 @@ R_SUGGESTS="
 	r_suggests_tidygraph? ( sci-CRAN/tidygraph )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/plyr
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/plyr
 	sci-CRAN/sna
-	sci-CRAN/glasso
-	sci-CRAN/betareg
-	>=dev-lang/R-3.5.0
 	sci-CRAN/mvabund
+	virtual/MASS
 	sci-CRAN/tweedie
 	sci-CRAN/igraph
-	sci-CRAN/doParallel
+	sci-CRAN/betareg
 	virtual/mgcv
 	sci-CRAN/glm2
+	sci-CRAN/glasso
+	sci-CRAN/doParallel
 	sci-CRAN/ordinal
 	sci-CRAN/foreach
 "

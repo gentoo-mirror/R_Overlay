@@ -20,27 +20,27 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/readr
+DEPEND="sci-CRAN/expss
+	sci-CRAN/rvest
 	sci-CRAN/zoo
-	sci-CRAN/leaflet
-	sci-CRAN/xml2
-	sci-CRAN/rlang
-	sci-CRAN/curl
-	sci-CRAN/purrr
-	sci-CRAN/expss
+	sci-CRAN/htmltools
+	sci-CRAN/readr
 	sci-CRAN/stringr
 	sci-CRAN/readxl
-	sci-CRAN/questionr
-	sci-CRAN/tidyr
 	sci-CRAN/attempt
 	sci-CRAN/janitor
+	sci-CRAN/rlang
+	sci-CRAN/xml2
 	sci-CRAN/tidyverse
-	sci-CRAN/htmltools
-	sci-CRAN/rvest
+	sci-CRAN/magrittr
+	sci-CRAN/glue
+	sci-CRAN/tidyr
+	sci-CRAN/curl
 	sci-CRAN/dplyr
 	sci-CRAN/assertthat
 	sci-CRAN/tibble
-	sci-CRAN/magrittr
-	sci-CRAN/glue
+	sci-CRAN/purrr
+	sci-CRAN/questionr
+	sci-CRAN/leaflet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

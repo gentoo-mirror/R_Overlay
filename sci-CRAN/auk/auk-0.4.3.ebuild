@@ -23,15 +23,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_unmarked? ( sci-CRAN/unmarked )
 "
-DEPEND=">=sci-CRAN/dplyr-0.7.8
-	sci-CRAN/assertthat
+DEPEND="sci-CRAN/assertthat
 	sci-CRAN/stringr
-	>=dev-lang/R-3.1.2
 	sci-CRAN/httr
+	>=sci-CRAN/tidyr-0.8.0
+	>=dev-lang/R-3.1.2
 	>=sci-CRAN/countrycode-1.0.0
+	>=sci-CRAN/dplyr-0.7.8
 	sci-CRAN/magrittr
 	>=sci-CRAN/rlang-0.3.0
 	sci-CRAN/stringi
-	>=sci-CRAN/tidyr-0.8.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

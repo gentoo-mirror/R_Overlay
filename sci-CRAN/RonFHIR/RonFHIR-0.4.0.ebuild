@@ -13,9 +13,9 @@ LICENSE='BSD'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/R6
-	sci-CRAN/httr
-	sci-CRAN/jsonlite
 	sci-CRAN/stringr
+	sci-CRAN/jsonlite
+	sci-CRAN/httr
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

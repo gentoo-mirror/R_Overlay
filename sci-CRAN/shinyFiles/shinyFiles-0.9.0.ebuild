@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/htmltools
 	>=sci-CRAN/fs-1.2.6
-	>=sci-CRAN/tibble-1.4.2
-	sci-CRAN/jsonlite
 	>=sci-CRAN/shiny-1.1.0
+	sci-CRAN/jsonlite
+	>=sci-CRAN/tibble-1.4.2
 "
 RDEPEND="${DEPEND-}"

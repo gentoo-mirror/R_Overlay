@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/crunch
+DEPEND=">=dev-lang/R-3.0.0
+	>=sci-CRAN/rstudioapi-0.4
+	sci-CRAN/crunch
+	sci-CRAN/httpcache
 	sci-CRAN/shiny
 	sci-CRAN/miniUI
-	sci-CRAN/httpcache
-	>=dev-lang/R-3.0.0
-	>=sci-CRAN/rstudioapi-0.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

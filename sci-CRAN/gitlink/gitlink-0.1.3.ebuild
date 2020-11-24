@@ -23,7 +23,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0.9000 )
 "
 DEPEND=">=dev-lang/R-3.1
-	>=sci-CRAN/htmltools-0.3.6
 	>=sci-CRAN/rlang-0.3.1
+	>=sci-CRAN/htmltools-0.3.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

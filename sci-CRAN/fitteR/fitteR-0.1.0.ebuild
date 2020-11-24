@@ -97,10 +97,10 @@ R_SUGGESTS="
 	r_suggests_truncnorm? ( sci-CRAN/truncnorm )
 	r_suggests_variancegamma? ( sci-CRAN/VarianceGamma )
 "
-DEPEND="sci-CRAN/DT
-	>=dev-lang/R-3.3.0
-	sci-CRAN/shiny
+DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/dplyr
+	sci-CRAN/shiny
+	sci-CRAN/DT
 	sci-CRAN/maxLik
 	sci-CRAN/R_utils
 "

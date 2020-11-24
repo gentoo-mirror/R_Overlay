@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 "
 DEPEND="sci-CRAN/zoo
-	sci-CRAN/ggplot2
 	sci-CRAN/lmerTest
 	sci-CRAN/data_table
 	sci-CRAN/lme4
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gpairs_1.3.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/barcode
-	virtual/lattice
+DEPEND="virtual/MASS
 	sci-CRAN/vcd
+	sci-CRAN/barcode
+	virtual/lattice
 	sci-CRAN/colorspace
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

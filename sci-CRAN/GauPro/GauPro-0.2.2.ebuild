@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/R6
 	sci-CRAN/lbfgs
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

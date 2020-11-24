@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-2.2.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND=">=sci-CRAN/purrr-0.2.5
-	>=sci-CRAN/tidyr-1.0.0
-	>=sci-CRAN/httr-1.3.1
+DEPEND=">=sci-CRAN/xml2-1.2.0
 	>=sci-CRAN/rvest-0.3.2
-	>=dev-lang/R-3.1.0
-	>=sci-CRAN/xml2-1.2.0
+	>=sci-CRAN/httr-1.3.1
 	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/purrr-0.2.5
+	>=sci-CRAN/tidyr-1.0.0
+	>=dev-lang/R-3.1.0
 	>=sci-CRAN/dplyr-0.7.4
 	>=sci-CRAN/stringi-1.1.7
 	>=sci-CRAN/tidytext-0.1.9

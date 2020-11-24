@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_prettydoc? ( sci-CRAN/prettydoc )
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 "
-DEPEND="sci-CRAN/R_cache
-	sci-CRAN/xml2
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/R_cache
+	sci-CRAN/rvest
 	sci-CRAN/httr
 	sci-CRAN/dplyr
-	sci-CRAN/rvest
-	sci-CRAN/ggraph
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.4.0
+	sci-CRAN/xml2
 	sci-CRAN/stringr
 	sci-CRAN/tidygraph
+	sci-CRAN/ggraph
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

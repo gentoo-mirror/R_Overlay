@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/kernelFactory_0.3.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/randomForest
-	sci-CRAN/genalg
-	sci-CRAN/AUC
 	sci-CRAN/kernlab
+	sci-CRAN/AUC
+	sci-CRAN/genalg
 "
 RDEPEND="${DEPEND-}"

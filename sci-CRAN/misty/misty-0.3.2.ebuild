@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_plyr? ( sci-CRAN/plyr )
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
-DEPEND=">=dev-lang/R-3.3.3
-	sci-CRAN/lavaan
-	sci-CRAN/readxl
-	sci-CRAN/haven
+DEPEND="sci-CRAN/readxl
 	sci-CRAN/lme4
+	sci-CRAN/haven
+	sci-CRAN/lavaan
+	>=dev-lang/R-3.3.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

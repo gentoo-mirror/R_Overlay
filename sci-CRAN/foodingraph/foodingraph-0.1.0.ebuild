@@ -17,17 +17,17 @@ R_SUGGESTS="
 	r_suggests_minet? ( sci-BIOC/minet )
 "
 DEPEND="sci-CRAN/stringr
-	sci-CRAN/ggplot2
-	sci-CRAN/labeling
-	sci-CRAN/cowplot
-	sci-CRAN/rlang
-	sci-CRAN/dplyr
-	sci-CRAN/magrittr
 	sci-CRAN/tibble
-	sci-CRAN/tidyr
-	sci-CRAN/viridis
+	sci-CRAN/ggplot2
 	sci-CRAN/igraph
+	sci-CRAN/viridis
+	sci-CRAN/labeling
+	sci-CRAN/dplyr
+	sci-CRAN/cowplot
+	sci-CRAN/magrittr
+	sci-CRAN/tidyr
 	sci-CRAN/ggraph
 	sci-CRAN/minerva
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

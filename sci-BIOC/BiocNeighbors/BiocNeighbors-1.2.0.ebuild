@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
+DEPEND="sci-BIOC/BiocParallel
 	sci-BIOC/S4Vectors
 	sci-BIOC/BiocGenerics
-	sci-BIOC/BiocParallel
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

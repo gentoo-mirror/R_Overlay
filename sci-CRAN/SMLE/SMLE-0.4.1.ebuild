@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SMLE_0.4.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-4.0.0
-	>=sci-CRAN/glmnet-4.0
+DEPEND=">=sci-CRAN/glmnet-4.0
 	sci-CRAN/doParallel
-	sci-CRAN/mvnfast
 	sci-CRAN/foreach
+	sci-CRAN/mvnfast
+	>=dev-lang/R-4.0.0
 "
 RDEPEND="${DEPEND-}"

@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND="sci-CRAN/RColorBrewer
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/RColorBrewer
 	>=sci-CRAN/TraMineR-2.0.6
 	virtual/cluster
-	>=dev-lang/R-3.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

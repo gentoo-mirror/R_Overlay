@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_rcolorbrewer"
 R_SUGGESTS="r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )"
-DEPEND="sci-BIOC/BiocGenerics
+DEPEND="sci-BIOC/Biobase
+	sci-BIOC/BiocGenerics
 	sci-CRAN/biclust
-	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

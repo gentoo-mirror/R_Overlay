@@ -26,7 +26,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/shiny
 	sci-CRAN/htmltools
-	sci-CRAN/jsonlite
 	sci-CRAN/magrittr
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

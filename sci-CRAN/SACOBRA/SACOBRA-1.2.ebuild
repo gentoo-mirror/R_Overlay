@@ -28,9 +28,9 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_scales? ( sci-CRAN/scales )
 "
-DEPEND="sci-CRAN/R6
-	>=dev-lang/R-2.14.0
-	sci-CRAN/testit
+DEPEND=">=dev-lang/R-2.14.0
+	sci-CRAN/R6
 	virtual/mgcv
+	sci-CRAN/testit
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

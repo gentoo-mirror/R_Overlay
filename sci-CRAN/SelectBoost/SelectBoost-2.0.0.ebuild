@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_mixomics? ( sci-BIOC/mixOmics )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/glmnet
+DEPEND="sci-CRAN/igraph
+	sci-CRAN/Rfast
+	sci-CRAN/glmnet
 	sci-CRAN/lars
 	sci-CRAN/msgps
-	sci-CRAN/igraph
-	sci-CRAN/Rfast
 	sci-CRAN/Cascade
 	sci-CRAN/varbvs
-	sci-CRAN/spls
 	sci-CRAN/abind
+	sci-CRAN/spls
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

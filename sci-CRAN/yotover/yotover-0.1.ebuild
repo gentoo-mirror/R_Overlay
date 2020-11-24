@@ -14,31 +14,31 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/multiwayvcov
-	sci-CRAN/lmtest
+DEPEND="sci-CRAN/purrr
+	>=dev-lang/R-3.5
 	sci-CRAN/msm
-	sci-CRAN/broom
-	sci-CRAN/duckdb
-	sci-CRAN/pander
-	sci-CRAN/tibble
-	sci-CRAN/cli
-	sci-CRAN/httr
-	sci-CRAN/rappdirs
-	virtual/Matrix
+	sci-CRAN/multiwayvcov
 	sci-CRAN/tidyr
-	sci-CRAN/DBI
 	sci-CRAN/scales
 	sci-CRAN/rstudioapi
-	>=dev-lang/R-3.5
-	sci-CRAN/purrr
-	sci-CRAN/munsell
-	sci-CRAN/gtable
-	sci-CRAN/colorspace
 	sci-CRAN/magrittr
+	sci-CRAN/lmtest
 	sci-CRAN/dplyr
+	sci-CRAN/cli
+	sci-CRAN/duckdb
+	sci-CRAN/colorspace
+	sci-CRAN/tibble
 	sci-CRAN/dbplyr
+	sci-CRAN/munsell
+	sci-CRAN/broom
+	sci-CRAN/httr
+	sci-CRAN/ggplot2
+	sci-CRAN/pander
+	sci-CRAN/rappdirs
 	sci-CRAN/crayon
+	virtual/Matrix
+	sci-CRAN/DBI
+	sci-CRAN/gtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

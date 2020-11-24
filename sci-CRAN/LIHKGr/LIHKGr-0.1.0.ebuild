@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/LIHKGr_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/R6
-	>=sci-CRAN/tibble-3.0.3
 	sci-CRAN/raster
-	sci-CRAN/rvest
 	sci-CRAN/RSelenium
+	>=sci-CRAN/tibble-3.0.3
+	sci-CRAN/magrittr
 	sci-CRAN/dplyr
 	sci-CRAN/purrr
-	sci-CRAN/magrittr
+	sci-CRAN/rvest
 	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-}"

@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_mice? ( sci-CRAN/mice )
 "
-DEPEND="sci-CRAN/tibble
-	sci-CRAN/future_apply
-	sci-CRAN/future
-	virtual/survival
-	>=dev-lang/R-3.5.0
-	sci-CRAN/arm
-	sci-CRAN/generics
-	>=sci-CRAN/ggplot2-3.3.0
-	sci-CRAN/gridExtra
+DEPEND="sci-CRAN/generics
 	sci-CRAN/pscl
+	sci-CRAN/arm
+	sci-CRAN/gridExtra
+	>=dev-lang/R-3.5.0
+	sci-CRAN/future
+	sci-CRAN/future_apply
+	>=sci-CRAN/ggplot2-3.3.0
+	virtual/survival
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/Formula
 	virtual/MASS
-	sci-CRAN/numDeriv
 	sci-CRAN/alabama
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

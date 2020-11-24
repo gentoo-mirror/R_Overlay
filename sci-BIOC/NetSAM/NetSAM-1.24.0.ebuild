@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-2.15.1
-	>=sci-CRAN/seriation-1.0.6
-	>=sci-BIOC/graph-1.34.0
 	>=sci-CRAN/igraph-0.6.1
+	>=sci-BIOC/graph-1.34.0
+	>=sci-CRAN/seriation-1.0.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

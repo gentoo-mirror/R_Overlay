@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/metap_1.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/lattice
-	sci-CRAN/TFisher
 	sci-CRAN/mutoss
-	>=sci-CRAN/Rdpack-0.7
+	sci-CRAN/TFisher
 	>=sci-CRAN/mathjaxr-0.8.3
+	>=sci-CRAN/Rdpack-0.7
 "
 RDEPEND="${DEPEND-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rsubgroup_1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=sci-CRAN/rJava-0.6.3
-	virtual/foreign
+DEPEND="virtual/foreign
+	>=sci-CRAN/rJava-0.6.3
 "
 RDEPEND="${DEPEND-} virtual/jdk"

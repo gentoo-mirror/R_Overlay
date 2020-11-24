@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_knitr? ( >=sci-CRAN/knitr-1.10.5 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/colorRamps-2.3
-	>=sci-CRAN/metafor-1.9.6
+DEPEND=">=sci-CRAN/metafor-1.9.6
 	>=sci-CRAN/dplyr-0.4.1
+	>=dev-lang/R-3.1.0
 	>=sci-CRAN/plotrix-3.5.12
 	>=sci-CRAN/colorspace-1.2.6
 	>=sci-CRAN/RColorBrewer-1.1.2
+	>=sci-CRAN/colorRamps-2.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,20 +10,20 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/baystability_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/rlang
-	sci-CRAN/rstiefel
-	sci-CRAN/lme4
+DEPEND="sci-CRAN/lme4
 	sci-CRAN/magrittr
-	sci-CRAN/scales
-	sci-CRAN/tibble
-	sci-CRAN/tidyr
 	sci-CRAN/tidyverse
+	sci-CRAN/rstiefel
+	sci-CRAN/tidyr
 	>=dev-lang/R-3.1
 	sci-CRAN/ggfortify
 	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
 	virtual/MASS
 	virtual/Matrix
 	sci-CRAN/reshape2
+	sci-CRAN/rlang
+	sci-CRAN/scales
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}"

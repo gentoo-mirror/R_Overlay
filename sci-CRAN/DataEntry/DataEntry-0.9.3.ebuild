@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/DataEntry_0.9-3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/gWidgets2
-	sci-CRAN/RGtk2
 	sci-CRAN/digest
 	sci-CRAN/gWidgets2RGtk2
+	sci-CRAN/RGtk2
 "
 RDEPEND="${DEPEND-}"

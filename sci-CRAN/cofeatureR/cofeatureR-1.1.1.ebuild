@@ -13,9 +13,9 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=sci-CRAN/lazyeval-0.1.10
+	>=sci-CRAN/ggplot2-1.0.0
 	sci-CRAN/tibble
 	>=sci-CRAN/dplyr-0.4.3
 	>=dev-lang/R-3.1.0
-	>=sci-CRAN/ggplot2-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

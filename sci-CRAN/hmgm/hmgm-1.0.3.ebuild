@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/hmgm_1.0.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/binaryLogic
-	sci-CRAN/rgl
 	sci-CRAN/nat
-	virtual/Matrix
 	sci-CRAN/glmnet
+	virtual/Matrix
 	virtual/MASS
+	sci-CRAN/rgl
+	sci-CRAN/binaryLogic
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}"

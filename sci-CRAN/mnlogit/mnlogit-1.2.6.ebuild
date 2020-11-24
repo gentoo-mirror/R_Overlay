@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
 DEPEND="sci-CRAN/mlogit
-	sci-CRAN/Formula
 	sci-CRAN/lmtest
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

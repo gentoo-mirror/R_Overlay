@@ -12,13 +12,13 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mass"
 R_SUGGESTS="r_suggests_mass? ( virtual/MASS )"
-DEPEND="virtual/survival
-	>=sci-CRAN/Runuran-0.12
-	sci-CRAN/rms
+DEPEND="sci-CRAN/rms
+	>=sci-CRAN/Rcpp-0.11.6
 	sci-CRAN/statmod
 	>=dev-lang/R-2.12.0
+	virtual/survival
 	sci-CRAN/coda
-	>=sci-CRAN/Rcpp-0.11.6
+	>=sci-CRAN/Runuran-0.12
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

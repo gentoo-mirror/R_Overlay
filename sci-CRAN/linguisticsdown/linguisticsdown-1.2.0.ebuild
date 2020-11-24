@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/miniUI
-	sci-CRAN/DT
-	sci-CRAN/shiny
-	>=dev-lang/R-3.4.0
-	sci-CRAN/stringr
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/miniUI
 	sci-CRAN/magrittr
+	sci-CRAN/stringr
+	sci-CRAN/shiny
 	sci-CRAN/knitr
 	sci-CRAN/rstudioapi
+	sci-CRAN/DT
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

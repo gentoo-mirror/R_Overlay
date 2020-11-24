@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_purrr? ( sci-CRAN/purrr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	virtual/survival
+DEPEND="virtual/mgcv
 	>=sci-CRAN/dplyr-0.7.8
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/glmnet-2.0.16
-	virtual/mgcv
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

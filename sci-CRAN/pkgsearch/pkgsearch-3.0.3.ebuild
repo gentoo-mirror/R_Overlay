@@ -28,8 +28,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/assertthat
 	sci-CRAN/parsedate
-	sci-CRAN/curl
 	sci-CRAN/jsonlite
+	sci-CRAN/curl
 	sci-CRAN/prettyunits
 	sci-CRAN/tibble
 "

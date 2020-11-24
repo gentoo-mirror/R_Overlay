@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_bionetdata"
 R_SUGGESTS="r_suggests_bionetdata? ( sci-CRAN/bionetdata )"
-DEPEND="sci-BIOC/limma
+DEPEND="sci-CRAN/PerfMeas
 	sci-CRAN/NetPreProc
-	sci-BIOC/graph
 	sci-BIOC/RBGL
-	sci-CRAN/PerfMeas
+	sci-BIOC/graph
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

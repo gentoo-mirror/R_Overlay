@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/digest
-	sci-CRAN/memoise
+DEPEND=">=sci-CRAN/nat-1.8.6
+	sci-CRAN/digest
 	sci-CRAN/igraph
-	>=sci-CRAN/nat-1.8.6
+	sci-CRAN/memoise
 	sci-CRAN/rgl
 	sci-CRAN/rappdirs
 "

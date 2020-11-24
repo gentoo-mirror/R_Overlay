@@ -25,15 +25,15 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/ggplot2-3.0.0
-	sci-CRAN/ape
 	sci-CRAN/magrittr
-	sci-CRAN/dplyr
+	sci-CRAN/ape
 	sci-CRAN/purrr
 	sci-CRAN/rlang
 	>=sci-CRAN/rvcheck-0.1.0
 	sci-CRAN/tidyr
 	>=sci-CRAN/tidytree-0.2.4
 	>=sci-BIOC/treeio-1.7.3
+	sci-CRAN/dplyr
+	>=sci-CRAN/ggplot2-3.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

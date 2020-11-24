@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/learnstats_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/ggplot2
 	sci-CRAN/Rcmdr
 	sci-CRAN/shiny
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

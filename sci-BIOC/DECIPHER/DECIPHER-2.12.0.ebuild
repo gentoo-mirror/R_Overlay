@@ -11,16 +11,16 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/DECIPHER_2
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/DBI
-	sci-BIOC/S4Vectors
-	>=sci-BIOC/Biostrings-2.35.12
-	sci-BIOC/IRanges
 	sci-BIOC/XVector
 	>=sci-CRAN/RSQLite-1.1
+	sci-CRAN/DBI
+	>=sci-BIOC/Biostrings-2.35.12
+	sci-BIOC/S4Vectors
+	sci-BIOC/IRanges
 "
 RDEPEND="${DEPEND-}
 	sci-BIOC/Biostrings
+	sci-BIOC/XVector
 	sci-BIOC/S4Vectors
 	sci-BIOC/IRanges
-	sci-BIOC/XVector
 "

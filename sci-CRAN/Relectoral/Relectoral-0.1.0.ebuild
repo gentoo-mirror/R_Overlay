@@ -14,8 +14,8 @@ IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND="sci-CRAN/readxl
 	sci-CRAN/xlsx
-	sci-CRAN/ggforce
 	sci-CRAN/ggplot2
+	sci-CRAN/ggforce
 	sci-CRAN/dplyr
 	sci-CRAN/sf
 	sci-CRAN/rmarkdown

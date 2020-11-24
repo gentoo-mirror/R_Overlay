@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/igraph
-	sci-CRAN/scales
-	sci-CRAN/ggplot2
 	sci-CRAN/network
-	sci-CRAN/sna
+	sci-CRAN/ggplot2
 	sci-CRAN/GGally
+	sci-CRAN/sna
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

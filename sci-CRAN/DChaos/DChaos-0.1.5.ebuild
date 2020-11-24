@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DChaos_0.1-5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/xts
-	sci-CRAN/outliers
-	sci-CRAN/pracma
-	sci-CRAN/zoo
-	virtual/nnet
+DEPEND="sci-CRAN/pracma
 	sci-CRAN/sandwich
+	sci-CRAN/outliers
+	sci-CRAN/xts
+	virtual/nnet
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}"

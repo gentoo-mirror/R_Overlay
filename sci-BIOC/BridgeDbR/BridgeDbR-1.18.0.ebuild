@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/rJava
 	sci-CRAN/RCurl
+	sci-CRAN/rJava
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

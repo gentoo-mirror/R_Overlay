@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/DynComm_2020.1.6.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/igraph
-	>=sci-CRAN/Rcpp-0.12.15
 	sci-CRAN/Rdpack
+	>=sci-CRAN/Rcpp-0.12.15
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

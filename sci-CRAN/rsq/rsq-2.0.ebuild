@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/rsq_2.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/nlme
-	sci-CRAN/numDeriv
 	virtual/Matrix
-	virtual/MASS
 	sci-CRAN/lme4
+	virtual/MASS
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

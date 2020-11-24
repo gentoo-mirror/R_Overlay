@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Rlinkedin_0.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/httpuv
-	sci-CRAN/httr
-	sci-CRAN/XML
+DEPEND="sci-CRAN/httr
 	>=dev-lang/R-2.12.0
+	sci-CRAN/XML
+	sci-CRAN/httpuv
 "
 RDEPEND="${DEPEND-}"

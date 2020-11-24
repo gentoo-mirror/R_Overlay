@@ -22,8 +22,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/raster
-	sci-CRAN/dismo
 	sci-CRAN/gbm
+	sci-CRAN/dismo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

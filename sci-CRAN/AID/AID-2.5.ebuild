@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_onewaytests"
 R_SUGGESTS="r_suggests_onewaytests? ( sci-CRAN/onewaytests )"
-DEPEND="sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/tseries
+	sci-CRAN/ggplot2
+	virtual/MASS
 	sci-CRAN/nortest
 	sci-CRAN/psych
-	sci-CRAN/tseries
-	>=dev-lang/R-3.2.0
-	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

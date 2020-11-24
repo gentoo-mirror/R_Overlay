@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rhpcblasctl? ( sci-CRAN/RhpcBLASctl )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/shiny
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/plyr
-	>=dev-lang/R-3.5.0
-	sci-CRAN/doParallel
 	virtual/mgcv
+	sci-CRAN/doParallel
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

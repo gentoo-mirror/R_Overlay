@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/WEGE_0.1.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/sf
-	sci-CRAN/raster
+DEPEND="sci-CRAN/raster
+	sci-CRAN/sf
 	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/data_table-1.12
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
+DEPEND=">=sci-CRAN/data_table-1.12
 	sci-CRAN/readr
 	sci-CRAN/ggplot2
+	sci-CRAN/XML
 	sci-CRAN/magrittr
 	sci-CRAN/tidyr
+	sci-CRAN/foreach
+	sci-CRAN/doParallel
+	>=dev-lang/R-3.5
+	sci-CRAN/purrr
+	sci-CRAN/dplyr
+	sci-CRAN/tibble
 	sci-CRAN/scales
 	sci-CRAN/stringr
-	sci-CRAN/foreach
-	sci-CRAN/XML
-	sci-CRAN/tibble
-	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

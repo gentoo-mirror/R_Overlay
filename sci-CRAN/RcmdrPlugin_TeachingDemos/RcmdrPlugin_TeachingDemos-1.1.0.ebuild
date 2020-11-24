@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.TeachingDemos_1.1-0.t
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/rgl
+	sci-CRAN/tkrplot
 	>=sci-CRAN/TeachingDemos-2.9
 	sci-CRAN/Rcmdr
-	sci-CRAN/tkrplot
 "
 RDEPEND="${DEPEND-}"

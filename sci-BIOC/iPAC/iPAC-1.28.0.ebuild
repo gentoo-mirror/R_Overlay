@@ -11,9 +11,9 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/iPAC_1.28.
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.15
-	sci-CRAN/scatterplot3d
-	sci-BIOC/multtest
 	sci-CRAN/gdata
 	sci-BIOC/Biostrings
+	sci-CRAN/scatterplot3d
+	sci-BIOC/multtest
 "
 RDEPEND="${DEPEND-}"

@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=sci-CRAN/dplyr-0.4.3
-	sci-CRAN/lubridate
-	sci-CRAN/knitr
-	sci-CRAN/lazyeval
-	sci-CRAN/R6
-	sci-CRAN/tidyr
-	>=dev-lang/R-3.3.0
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/fs
 	sci-CRAN/changepoint
-	sci-CRAN/fs
+	sci-CRAN/knitr
+	>=sci-CRAN/dplyr-0.4.3
+	sci-CRAN/ggplot2
+	sci-CRAN/R6
+	sci-CRAN/stringr
+	>=dev-lang/R-3.3.0
+	sci-CRAN/lazyeval
+	sci-CRAN/lubridate
 	sci-CRAN/rbokeh
 	sci-CRAN/readr
-	sci-CRAN/stringr
 	sci-CRAN/tibble
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/discharge_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.2
-	virtual/boot
-	sci-CRAN/CircStats
 	sci-CRAN/ggplot2
-	sci-CRAN/checkmate
 	sci-CRAN/lmom
+	sci-CRAN/CircStats
+	sci-CRAN/checkmate
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

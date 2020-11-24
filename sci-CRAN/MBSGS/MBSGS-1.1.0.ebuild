@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MBSGS_1.1.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/mgcv
-	sci-CRAN/mnormt
-	sci-CRAN/MCMCpack
+DEPEND="sci-CRAN/mnormt
 	sci-CRAN/truncnorm
+	sci-CRAN/MCMCpack
 	virtual/MASS
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

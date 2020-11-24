@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/polyreg_0.6.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/nnet
-	sci-CRAN/dummies
-	sci-CRAN/regtools
+DEPEND="sci-CRAN/partools
 	sci-CRAN/RSpectra
-	sci-CRAN/partools
+	sci-CRAN/regtools
+	virtual/nnet
+	sci-CRAN/dummies
 "
 RDEPEND="${DEPEND-}"

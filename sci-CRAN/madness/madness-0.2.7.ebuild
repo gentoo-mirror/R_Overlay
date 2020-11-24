@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="virtual/Matrix
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/expm
-	>=dev-lang/R-3.2.0
+	virtual/Matrix
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

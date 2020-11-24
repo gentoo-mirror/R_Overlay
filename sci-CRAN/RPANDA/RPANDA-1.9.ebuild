@@ -12,28 +12,28 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/ape
+DEPEND=">=dev-lang/R-2.14.2
 	virtual/Matrix
-	sci-CRAN/bipartite
-	sci-CRAN/fields
-	sci-CRAN/glassoFast
-	>=sci-CRAN/mvMORPH-1.1.0
-	sci-CRAN/pracma
 	sci-CRAN/pvclust
+	sci-CRAN/pracma
+	>=sci-CRAN/mvMORPH-1.1.0
 	sci-CRAN/Rmpfr
 	sci-CRAN/TESS
-	sci-CRAN/picante
-	sci-CRAN/deSolve
-	sci-CRAN/geiger
-	virtual/cluster
-	sci-CRAN/coda
 	sci-CRAN/corpcor
 	sci-CRAN/fpc
-	>=dev-lang/R-2.14.2
+	sci-CRAN/glassoFast
+	sci-CRAN/bipartite
+	virtual/cluster
 	sci-CRAN/mvtnorm
 	sci-CRAN/phytools
-	sci-CRAN/pspline
 	sci-CRAN/raster
+	sci-CRAN/pspline
+	sci-CRAN/igraph
+	sci-CRAN/ape
+	sci-CRAN/picante
+	sci-CRAN/coda
+	sci-CRAN/deSolve
+	sci-CRAN/fields
+	sci-CRAN/geiger
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

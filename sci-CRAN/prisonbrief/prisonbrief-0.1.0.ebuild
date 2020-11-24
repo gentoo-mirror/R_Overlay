@@ -13,18 +13,18 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/data_table-1.10.4
-	>=sci-CRAN/xml2-1.1.1
-	>=sci-CRAN/httr-1.2.1
-	>=sci-CRAN/rlang-0.1.1
-	>=sci-CRAN/rnaturalearth-0.1.0
-	>=sci-CRAN/rnaturalearthdata-0.1.0
 	>=sci-CRAN/tibble-1.3.3
+	>=sci-CRAN/httr-1.2.1
+	>=sci-CRAN/data_table-1.10.4
 	>=sci-CRAN/dplyr-0.5.0
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/rvest-0.3.2
+	>=sci-CRAN/xml2-1.1.1
 	>=sci-CRAN/tidyr-0.6.3
-	>=sci-CRAN/passport-0.1.1
+	>=sci-CRAN/rlang-0.1.1
+	>=sci-CRAN/rnaturalearthdata-0.1.0
 	>=sci-CRAN/stringr-1.2.0
+	>=sci-CRAN/rnaturalearth-0.1.0
+	>=sci-CRAN/passport-0.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

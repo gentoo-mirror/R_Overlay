@@ -12,31 +12,31 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_sendplot"
 R_SUGGESTS="r_suggests_sendplot? ( sci-CRAN/sendplot )"
-DEPEND="sci-CRAN/huge
-	sci-CRAN/psych
-	sci-CRAN/d3Network
-	sci-CRAN/ggplot2
-	sci-CRAN/corpcor
-	sci-CRAN/BDgraph
-	sci-CRAN/pbapply
-	sci-CRAN/dplyr
-	sci-CRAN/lavaan
-	sci-CRAN/jpeg
-	sci-CRAN/png
-	sci-CRAN/reshape2
-	sci-CRAN/colorspace
+DEPEND="sci-CRAN/lavaan
+	sci-CRAN/plyr
 	virtual/Matrix
 	sci-CRAN/igraph
 	>=sci-CRAN/Rcpp-1.0.0
+	sci-CRAN/corpcor
+	sci-CRAN/ggplot2
+	sci-CRAN/huge
+	sci-CRAN/d3Network
+	sci-CRAN/BDgraph
+	sci-CRAN/pbapply
+	sci-CRAN/dplyr
+	sci-CRAN/tidygraph
+	sci-CRAN/png
 	sci-CRAN/ggraph
+	sci-CRAN/psych
+	sci-CRAN/jpeg
 	sci-CRAN/glasso
+	sci-CRAN/reshape2
 	sci-CRAN/fdrtool
 	sci-CRAN/gtools
 	sci-CRAN/abind
-	sci-CRAN/tidygraph
 	>=dev-lang/R-3.0.0
-	sci-CRAN/plyr
 	sci-CRAN/Hmisc
+	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/som.nn_1.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/hexbin
-	virtual/class
-	sci-CRAN/kohonen
+DEPEND="virtual/class
+	sci-CRAN/hexbin
 	sci-CRAN/som
+	sci-CRAN/kohonen
 "
 RDEPEND="${DEPEND-}"

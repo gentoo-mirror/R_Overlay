@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/sscor_0.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="sci-CRAN/pcaPP
-	sci-CRAN/mvtnorm
 	sci-CRAN/robustbase
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

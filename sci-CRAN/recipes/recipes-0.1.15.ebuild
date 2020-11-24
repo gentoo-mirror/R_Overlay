@@ -35,22 +35,22 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/withr
-	>=sci-CRAN/purrr-0.2.3
-	>=sci-CRAN/rlang-0.4.0
+DEPEND="sci-CRAN/gower
+	sci-CRAN/ipred
 	sci-CRAN/tibble
 	sci-CRAN/lubridate
-	>=dev-lang/R-3.1
-	>=sci-CRAN/generics-0.1.0
-	sci-CRAN/gower
+	>=sci-CRAN/purrr-0.2.3
 	sci-CRAN/lifecycle
 	sci-CRAN/magrittr
-	sci-CRAN/timeDate
-	virtual/Matrix
+	>=sci-CRAN/tidyselect-1.1.0
 	sci-CRAN/glue
 	sci-CRAN/dplyr
-	sci-CRAN/ipred
-	>=sci-CRAN/tidyselect-1.1.0
+	>=sci-CRAN/rlang-0.4.0
+	sci-CRAN/timeDate
+	>=dev-lang/R-3.1
+	>=sci-CRAN/generics-0.1.0
+	virtual/Matrix
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

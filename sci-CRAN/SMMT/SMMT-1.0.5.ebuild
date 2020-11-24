@@ -20,7 +20,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/dplyr
 	sci-CRAN/tibble
-	sci-CRAN/curl
 	sci-CRAN/XML
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

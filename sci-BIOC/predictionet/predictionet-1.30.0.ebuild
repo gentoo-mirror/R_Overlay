@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_minet? ( sci-BIOC/minet )
 	r_suggests_network? ( sci-CRAN/network )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-BIOC/RBGL
+	virtual/MASS
 	sci-CRAN/penalized
-	sci-BIOC/RBGL
 	sci-CRAN/igraph
 	sci-CRAN/catnet
 "

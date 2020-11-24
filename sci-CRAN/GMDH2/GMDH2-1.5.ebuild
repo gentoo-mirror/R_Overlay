@@ -12,10 +12,10 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mlbench"
 R_SUGGESTS="r_suggests_mlbench? ( sci-CRAN/mlbench )"
-DEPEND=">=dev-lang/R-3.2.2
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/glmnet
 	sci-CRAN/e1071
+	>=dev-lang/R-3.2.2
 	sci-CRAN/randomForest
 	virtual/nnet
 	sci-CRAN/plotly

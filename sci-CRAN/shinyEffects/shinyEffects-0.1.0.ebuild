@@ -18,7 +18,7 @@ R_SUGGESTS="
 	r_suggests_shinydashboardplus? ( sci-CRAN/shinydashboardPlus )
 "
 DEPEND="sci-CRAN/htmltools
-	sci-CRAN/shinydashboard
 	sci-CRAN/shiny
+	sci-CRAN/shinydashboard
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

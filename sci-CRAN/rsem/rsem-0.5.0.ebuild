@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/rsem_0.5.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	sci-CRAN/lavaan
+DEPEND="sci-CRAN/lavaan
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

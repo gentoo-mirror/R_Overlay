@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_pamr? ( sci-CRAN/pamr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2
-	virtual/mgcv
-	sci-BIOC/BiocParallel
-	virtual/Matrix
+DEPEND="virtual/Matrix
 	sci-BIOC/genefilter
+	virtual/mgcv
+	>=dev-lang/R-3.2
+	sci-BIOC/BiocParallel
 	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

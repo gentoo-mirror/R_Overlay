@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_nlreg? ( sci-CRAN/nlreg )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/statmod
 	virtual/survival
+	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

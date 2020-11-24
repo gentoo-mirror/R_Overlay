@@ -23,19 +23,19 @@ R_SUGGESTS="
 	r_suggests_phenix? ( sci-CRAN/PHENIX )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/plyr-1.7.1
-	virtual/Matrix
-	sci-CRAN/igraph
-	sci-CRAN/mvtnorm
-	sci-CRAN/MCMCpack
-	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
-	sci-CRAN/vegan
-	sci-CRAN/ape
+DEPEND="sci-CRAN/reshape2
 	sci-CRAN/expm
-	virtual/Matrix
+	sci-CRAN/ape
+	sci-CRAN/vegan
 	sci-CRAN/coda
+	>=dev-lang/R-3.6.0
+	virtual/Matrix
+	>=sci-CRAN/plyr-1.7.1
+	sci-CRAN/ggplot2
+	virtual/Matrix
+	sci-CRAN/mvtnorm
+	sci-CRAN/igraph
+	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/cooptrees_1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/gtools
+DEPEND=">=sci-CRAN/igraph-0.7.1
+	sci-CRAN/gtools
 	>=sci-CRAN/optrees-1.0
-	>=sci-CRAN/igraph-0.7.1
 "
 RDEPEND="${DEPEND-}"

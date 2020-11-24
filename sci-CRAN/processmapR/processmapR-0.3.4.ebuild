@@ -16,27 +16,27 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/tidyr
-	sci-CRAN/data_table
-	sci-CRAN/ggplot2
-	sci-CRAN/RColorBrewer
-	sci-CRAN/scales
-	>=sci-CRAN/DiagrammeR-1.0.0
-	sci-CRAN/forcats
-	>=sci-CRAN/edeaR-0.8.0
-	sci-CRAN/Rcpp
-	sci-CRAN/htmltools
-	sci-CRAN/dplyr
-	sci-CRAN/stringr
+DEPEND=">=sci-CRAN/bupaR-0.4.0
+	sci-CRAN/shiny
 	sci-CRAN/miniUI
+	>=sci-CRAN/edeaR-0.8.0
+	>=sci-CRAN/DiagrammeR-1.0.0
+	sci-CRAN/purrr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/rlang
+	sci-CRAN/tidyr
+	sci-CRAN/htmltools
+	sci-CRAN/ggplot2
+	sci-CRAN/ggthemes
+	sci-CRAN/stringr
+	sci-CRAN/forcats
+	sci-CRAN/dplyr
 	sci-CRAN/glue
 	sci-CRAN/plotly
-	sci-CRAN/ggthemes
-	>=sci-CRAN/bupaR-0.4.0
-	sci-CRAN/shiny
+	sci-CRAN/scales
 	sci-CRAN/hms
-	sci-CRAN/rlang
+	sci-CRAN/Rcpp
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/numDeriv
-	sci-CRAN/mclust
 	sci-CRAN/ContaminatedMixt
+	sci-CRAN/mclust
 	sci-CRAN/statmod
 "
 RDEPEND="${DEPEND-}"

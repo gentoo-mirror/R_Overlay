@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_gpclib"
 R_SUGGESTS="r_suggests_gpclib? ( sci-CRAN/gpclib )"
-DEPEND="sci-CRAN/maptools
-	virtual/foreign
+DEPEND="virtual/foreign
+	sci-CRAN/maptools
 	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

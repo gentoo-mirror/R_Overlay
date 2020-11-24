@@ -12,13 +12,13 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_mvmorph"
 R_SUGGESTS="r_suggests_mvmorph? ( sci-CRAN/mvMORPH )"
-DEPEND="sci-CRAN/phytools
+DEPEND="sci-CRAN/ape
 	sci-CRAN/xml2
+	sci-CRAN/vioplot
+	sci-CRAN/phytools
+	>=dev-lang/R-3.0.3
 	sci-CRAN/coda
 	virtual/MASS
-	>=dev-lang/R-3.0.3
-	sci-CRAN/ape
 	sci-CRAN/sm
-	sci-CRAN/vioplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

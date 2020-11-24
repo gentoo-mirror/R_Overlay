@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/CatPredi_1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/survival
-	sci-CRAN/rgenoud
 	sci-CRAN/CPE
+	sci-CRAN/rgenoud
 	sci-CRAN/rms
 	virtual/mgcv
 "

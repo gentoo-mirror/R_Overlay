@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND="sci-CRAN/datetimeutils
-	sci-CRAN/zoo
 	sci-CRAN/fastmatch
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

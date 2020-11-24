@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DistributionOptimization_1.2.6.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/GA
+DEPEND="sci-CRAN/pracma
 	sci-CRAN/ggplot2
 	sci-CRAN/AdaptGauss
-	sci-CRAN/pracma
+	sci-CRAN/GA
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

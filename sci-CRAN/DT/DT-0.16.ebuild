@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/htmltools-0.3.6
 	>=sci-CRAN/htmlwidgets-1.3
-	sci-CRAN/crosstalk
 	>=sci-CRAN/jsonlite-0.9.16
+	sci-CRAN/crosstalk
 	sci-CRAN/magrittr
 	sci-CRAN/promises
 "

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BayesMFSurv_0.1.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/FastGP
+DEPEND="sci-CRAN/MCMCpack
 	sci-CRAN/coda
-	sci-CRAN/MCMCpack
-	>=sci-CRAN/Rcpp-1.0.3
-	>=dev-lang/R-3.5.0
 	sci-CRAN/mvtnorm
+	sci-CRAN/FastGP
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-1.0.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

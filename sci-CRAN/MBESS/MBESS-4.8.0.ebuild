@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/MBESS_4.8.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/gsl
-	sci-CRAN/lavaan
 	virtual/MASS
+	sci-CRAN/lavaan
 	virtual/boot
+	sci-CRAN/gsl
 	sci-CRAN/OpenMx
 	sci-CRAN/sem
 	sci-CRAN/semTools

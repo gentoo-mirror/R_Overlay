@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SpatialExtremes_2.0-9.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/maps
-	sci-CRAN/fields
+DEPEND="sci-CRAN/fields
+	sci-CRAN/maps
 "
 RDEPEND="${DEPEND-}"

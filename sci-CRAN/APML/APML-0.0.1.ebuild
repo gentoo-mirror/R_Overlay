@@ -12,11 +12,11 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/tidyverse
 	sci-CRAN/dplyr
-	sci-CRAN/ggplot2
-	sci-CRAN/DMwR
-	sci-CRAN/dummies
-	sci-CRAN/h2o
-	sci-CRAN/pROC
 	virtual/survival
+	sci-CRAN/dummies
+	sci-CRAN/DMwR
+	sci-CRAN/h2o
+	sci-CRAN/ggplot2
+	sci-CRAN/pROC
 "
 RDEPEND="${DEPEND-}"

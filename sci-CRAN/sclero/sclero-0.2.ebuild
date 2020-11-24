@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/sclero_0.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/RImageJROI
-	sci-CRAN/plyr
 	sci-CRAN/spatstat
+	sci-CRAN/plyr
+	sci-CRAN/RImageJROI
 "
 RDEPEND="${DEPEND-}"

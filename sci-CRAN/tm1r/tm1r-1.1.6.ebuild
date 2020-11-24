@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/tm1r_1.1.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

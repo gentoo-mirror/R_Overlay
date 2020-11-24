@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/rxSeq_0.99.3.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	sci-CRAN/numDeriv
 	sci-CRAN/VGAM
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

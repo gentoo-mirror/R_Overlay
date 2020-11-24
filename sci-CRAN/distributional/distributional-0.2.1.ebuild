@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/rlang-0.4.5
-	sci-CRAN/scales
-	sci-CRAN/numDeriv
-	>=sci-CRAN/vctrs-0.3.0
-	sci-CRAN/ellipsis
-	sci-CRAN/generics
-	sci-CRAN/ggplot2
-	sci-CRAN/farver
+DEPEND="sci-CRAN/ellipsis
 	sci-CRAN/digest
+	sci-CRAN/ggplot2
+	sci-CRAN/generics
+	sci-CRAN/scales
 	sci-CRAN/lifecycle
+	>=sci-CRAN/vctrs-0.3.0
+	>=sci-CRAN/rlang-0.4.5
+	sci-CRAN/numDeriv
+	sci-CRAN/farver
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

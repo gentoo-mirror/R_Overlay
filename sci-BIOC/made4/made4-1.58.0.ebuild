@@ -13,8 +13,8 @@ LICENSE='Artistic-2'
 IUSE="${IUSE-} r_suggests_affy"
 R_SUGGESTS="r_suggests_affy? ( sci-BIOC/affy )"
 DEPEND="sci-CRAN/ade4
-	sci-CRAN/RColorBrewer
-	sci-CRAN/gplots
 	sci-CRAN/scatterplot3d
+	sci-CRAN/gplots
+	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

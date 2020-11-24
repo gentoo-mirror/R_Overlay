@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/foreach-1.4.4
 	>=sci-CRAN/doParallel-1.0.11
-	>=sci-CRAN/igraph-1.2.1
 	>=sci-CRAN/Rcpp-0.11.3
+	>=sci-CRAN/igraph-1.2.1
+	>=sci-CRAN/foreach-1.4.4
 	virtual/Matrix
-	>=sci-CRAN/ggplot2-1.0.0
-	virtual/cluster
 	>=sci-CRAN/ggrepel-0.5
 	>=sci-CRAN/ggraph-1.0.1
+	>=sci-CRAN/ggplot2-1.0.0
 	>=sci-CRAN/reshape-0.8.5
 	>=sci-CRAN/fpc-2.1.11
+	virtual/cluster
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

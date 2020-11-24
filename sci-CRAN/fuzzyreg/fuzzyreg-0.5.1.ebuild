@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_fuzzynumbers? ( sci-CRAN/FuzzyNumbers )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/quadprog
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/quadprog
 	sci-CRAN/limSolve
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

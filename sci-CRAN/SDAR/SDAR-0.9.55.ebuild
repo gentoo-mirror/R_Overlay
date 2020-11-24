@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/grImport2
-	sci-CRAN/linbin
-	>=dev-lang/R-3.5
+DEPEND="sci-CRAN/linbin
+	sci-CRAN/grImport2
 	sci-CRAN/readxl
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

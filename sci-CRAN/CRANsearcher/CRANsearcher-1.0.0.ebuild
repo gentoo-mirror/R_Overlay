@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CRANsearcher_1.0.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/shiny
-	sci-CRAN/lubridate
-	sci-CRAN/stringr
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/miniUI
 	sci-CRAN/DT
-	>=dev-lang/R-3.3.0
+	sci-CRAN/lubridate
+	sci-CRAN/curl
 	sci-CRAN/shinyjs
 	sci-CRAN/dplyr
-	sci-CRAN/curl
-	sci-CRAN/miniUI
+	sci-CRAN/shiny
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

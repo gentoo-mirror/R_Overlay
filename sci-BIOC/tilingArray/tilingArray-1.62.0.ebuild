@@ -11,12 +11,12 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/tilingArra
 LICENSE='Artistic-2'
 
 DEPEND="sci-CRAN/strucchange
+	sci-BIOC/affy
+	sci-CRAN/RColorBrewer
+	sci-BIOC/genefilter
+	>=dev-lang/R-2.11.0
 	sci-CRAN/pixmap
 	sci-BIOC/Biobase
-	sci-BIOC/affy
-	>=dev-lang/R-2.11.0
 	sci-BIOC/vsn
-	sci-BIOC/genefilter
-	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-}"

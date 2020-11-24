@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/CKLRT_0.2.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	virtual/MASS
 	>=sci-CRAN/Rcpp-0.12.17
-	virtual/nlme
 	virtual/mgcv
+	virtual/nlme
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/RcppEigen

@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/snipEM_1.0.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/Rcpp-0.10.0
 	sci-CRAN/mvtnorm
 	virtual/MASS
+	>=sci-CRAN/Rcpp-0.10.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

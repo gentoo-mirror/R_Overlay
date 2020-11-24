@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/indirect_0.2.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/gplots
 	virtual/MASS
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-}"

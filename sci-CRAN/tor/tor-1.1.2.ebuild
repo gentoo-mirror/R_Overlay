@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/tibble
+DEPEND="sci-CRAN/readr
+	sci-CRAN/tibble
 	sci-CRAN/rlang
-	sci-CRAN/readr
 	sci-CRAN/fs
 	>=dev-lang/R-3.2
 "

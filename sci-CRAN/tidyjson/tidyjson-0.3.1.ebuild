@@ -31,14 +31,14 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 	r_suggests_wordcloud? ( sci-CRAN/wordcloud )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/assertthat
-	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/assertthat
 	sci-CRAN/purrr
 	>=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/magrittr
+	sci-CRAN/jsonlite
 	sci-CRAN/tibble
 	sci-CRAN/rlang
+	>=dev-lang/R-3.1.0
+	sci-CRAN/magrittr
+	>=sci-CRAN/tidyr-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

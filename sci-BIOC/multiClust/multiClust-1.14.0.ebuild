@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_preprocesscore? ( sci-BIOC/preprocessCore )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/dendextend
-	sci-BIOC/ctc
+DEPEND="sci-BIOC/ctc
 	sci-CRAN/amap
-	sci-CRAN/mclust
 	virtual/cluster
+	sci-CRAN/dendextend
+	sci-CRAN/mclust
 	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

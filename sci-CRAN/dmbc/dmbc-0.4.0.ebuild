@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_rlecuyer? ( sci-CRAN/rlecuyer )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/ggplot2-3.2.1
-	>=sci-CRAN/bayesplot-1.7.0
+DEPEND=">=sci-CRAN/bayesplot-1.7.0
 	sci-CRAN/abind
+	>=sci-CRAN/robustbase-0.93.5
+	>=sci-CRAN/pcaPP-1.9.73
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/coda-0.19.3
+	>=sci-CRAN/ggplot2-3.2.1
+	>=sci-CRAN/ggrepel-0.8.1
 	>=sci-CRAN/MCMCpack-1.4.4
 	>=sci-CRAN/modeltools-0.2.22
-	>=sci-CRAN/pcaPP-1.9.73
-	>=sci-CRAN/coda-0.19.3
-	>=sci-CRAN/ggrepel-0.8.1
-	>=sci-CRAN/robustbase-0.93.5
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

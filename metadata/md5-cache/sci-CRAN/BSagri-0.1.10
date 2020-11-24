@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/gamlss sci-CRAN/MCPAN sci-CRAN/multcomp sci-CRAN/mratios virtual/boot sci-CRAN/mvtnorm dev-lang/R
+DEPEND=virtual/boot sci-CRAN/mratios sci-CRAN/gamlss sci-CRAN/mvtnorm sci-CRAN/multcomp sci-CRAN/MCPAN dev-lang/R
 DESCRIPTION=Safety Assessment in Agricultural Field Trials
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=sci-CRAN/gamlss sci-CRAN/MCPAN sci-CRAN/multcomp sci-CRAN/mratios virtual/boot sci-CRAN/mvtnorm dev-lang/R
+RDEPEND=virtual/boot sci-CRAN/mratios sci-CRAN/gamlss sci-CRAN/mvtnorm sci-CRAN/multcomp sci-CRAN/MCPAN dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/BSagri_0.1-10.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=da3108a3841346c7d5dc2f7521b7f7a6
+_md5_=46633832aa072cb5b2158ede04d46c43

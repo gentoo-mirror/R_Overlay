@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MMeM_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/jointDiag
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	sci-CRAN/psych
+	>=dev-lang/R-3.3.0
+	sci-CRAN/jointDiag
 	virtual/MASS
 	sci-CRAN/lme4
-	>=dev-lang/R-3.3.0
 	virtual/Matrix
-	sci-CRAN/psych
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

@@ -20,38 +20,38 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_zlibbioc? ( sci-BIOC/zlibbioc )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggrepel
+	sci-CRAN/lazyeval
+	sci-BIOC/biomformat
+	sci-CRAN/tibble
+	sci-CRAN/ggplot2
 	sci-CRAN/taxa
-	sci-CRAN/ggrepel
-	sci-CRAN/ggfittext
-	sci-CRAN/GA
 	sci-CRAN/scales
 	sci-CRAN/taxize
 	sci-CRAN/reshape2
-	sci-CRAN/zoo
-	sci-CRAN/RColorBrewer
-	sci-CRAN/dplyr
-	sci-CRAN/Rcpp
-	>=dev-lang/R-3.0.2
-	sci-CRAN/svglite
-	sci-CRAN/rlang
-	sci-CRAN/tibble
 	sci-CRAN/ape
-	sci-CRAN/vegan
 	sci-CRAN/cowplot
-	sci-CRAN/phylotate
-	sci-CRAN/igraph
-	sci-CRAN/seqinr
+	sci-CRAN/dplyr
 	sci-CRAN/traits
-	sci-CRAN/reshape
 	sci-CRAN/RCurl
-	sci-CRAN/lazyeval
-	sci-CRAN/magrittr
+	sci-CRAN/viridisLite
+	sci-CRAN/Rcpp
 	sci-CRAN/crayon
 	sci-CRAN/readr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/rlang
+	sci-CRAN/magrittr
+	sci-CRAN/ggfittext
+	sci-CRAN/vegan
+	>=dev-lang/R-3.0.2
 	sci-CRAN/stringr
-	sci-CRAN/viridisLite
-	sci-BIOC/biomformat
+	sci-CRAN/igraph
+	sci-CRAN/seqinr
+	sci-CRAN/zoo
+	sci-CRAN/reshape
+	sci-CRAN/phylotate
+	sci-CRAN/GA
+	sci-CRAN/svglite
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

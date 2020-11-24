@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_png? ( sci-CRAN/png )
 "
-DEPEND="sci-CRAN/gtable
+DEPEND="sci-CRAN/ggplot2
 	>=sci-CRAN/gridExtra-2.3
-	sci-CRAN/ggplot2
+	sci-CRAN/gtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

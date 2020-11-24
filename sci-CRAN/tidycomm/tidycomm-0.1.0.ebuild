@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_tidyselect? ( sci-CRAN/tidyselect )
 "
-DEPEND="sci-CRAN/forcats
-	sci-CRAN/MBESS
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/forcats
 	sci-CRAN/broom
-	sci-CRAN/glue
+	sci-CRAN/MBESS
+	sci-CRAN/magrittr
 	sci-CRAN/purrr
 	sci-CRAN/rlang
-	sci-CRAN/tibble
-	sci-CRAN/magrittr
 	sci-CRAN/stringr
+	sci-CRAN/tibble
+	sci-CRAN/glue
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

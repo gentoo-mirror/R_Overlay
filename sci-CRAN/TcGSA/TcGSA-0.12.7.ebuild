@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_tcgsaseq? ( sci-CRAN/tcgsaseq )
 "
-DEPEND=">=sci-CRAN/lme4-1.0.4
+DEPEND=">=dev-lang/R-3.0.2
+	>=sci-CRAN/lme4-1.0.4
 	sci-BIOC/multtest
-	sci-CRAN/reshape2
-	>=sci-CRAN/ggplot2-2.0.0
-	sci-CRAN/GSA
 	virtual/cluster
-	sci-CRAN/gtools
-	>=dev-lang/R-3.0.2
+	sci-CRAN/reshape2
 	sci-CRAN/cowplot
 	sci-CRAN/stringr
+	sci-CRAN/GSA
+	>=sci-CRAN/ggplot2-2.0.0
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

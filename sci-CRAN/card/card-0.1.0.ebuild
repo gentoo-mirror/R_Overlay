@@ -20,27 +20,27 @@ R_SUGGESTS="
 	r_suggests_stargazer? ( sci-CRAN/stargazer )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/readr
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/lutz
 	sci-CRAN/tibble
-	sci-CRAN/recipes
-	sci-CRAN/ggplot2
-	sci-CRAN/generics
-	sci-CRAN/sf
-	sci-CRAN/lutz
-	sci-CRAN/purrr
-	sci-CRAN/ggrepel
-	sci-CRAN/lubridate
 	sci-CRAN/hardhat
-	sci-CRAN/Hmisc
-	sci-CRAN/broom
-	sci-CRAN/rlang
-	sci-CRAN/data_table
-	>=dev-lang/R-3.5.0
-	sci-CRAN/dplyr
-	virtual/survival
-	sci-CRAN/tidyr
+	sci-CRAN/generics
 	sci-CRAN/stringr
+	sci-CRAN/ggplot2
+	sci-CRAN/rlang
+	sci-CRAN/recipes
+	>=dev-lang/R-3.5.0
+	sci-CRAN/magrittr
+	sci-CRAN/lubridate
+	virtual/survival
+	sci-CRAN/purrr
+	sci-CRAN/broom
+	sci-CRAN/data_table
+	sci-CRAN/tidyr
+	sci-CRAN/sf
+	sci-CRAN/dplyr
+	sci-CRAN/readr
+	sci-CRAN/Hmisc
+	sci-CRAN/ggrepel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

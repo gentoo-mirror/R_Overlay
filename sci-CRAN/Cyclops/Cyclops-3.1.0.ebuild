@@ -21,17 +21,17 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/bit64
-	>=sci-CRAN/Andromeda-0.3.1
 	sci-CRAN/rlang
 	virtual/Matrix
 	>=sci-CRAN/Rcpp-0.12.12
+	>=sci-CRAN/Andromeda-0.3.1
 	sci-CRAN/dplyr
 	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	>=sci-CRAN/BH-1.51.0
 	>=sci-CRAN/RcppEigen-0.3.2
+	>=sci-CRAN/BH-1.51.0
 	${R_SUGGESTS-}
 "
 

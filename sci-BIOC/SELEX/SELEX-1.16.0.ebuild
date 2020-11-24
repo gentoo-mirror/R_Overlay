@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/SELEX_1.16.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/rJava-0.5.0
-	>=sci-BIOC/Biostrings-2.26.0
+DEPEND=">=sci-BIOC/Biostrings-2.26.0
+	>=sci-CRAN/rJava-0.5.0
 "
 RDEPEND="${DEPEND-} virtual/jdk"

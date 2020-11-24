@@ -26,10 +26,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_utf8? ( >=sci-CRAN/utf8-1.1.4 )
 "
-DEPEND=">=dev-lang/R-3.6.0
+DEPEND="sci-CRAN/rlang
 	sci-CRAN/magrittr
 	>=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/rlang
+	>=dev-lang/R-3.6.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

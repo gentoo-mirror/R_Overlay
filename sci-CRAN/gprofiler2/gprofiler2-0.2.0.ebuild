@@ -17,14 +17,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/jsonlite
-	sci-CRAN/gridExtra
-	sci-CRAN/RCurl
-	sci-CRAN/plotly
-	sci-CRAN/ggplot2
 	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
 	sci-CRAN/crosstalk
 	sci-CRAN/viridisLite
+	sci-CRAN/plotly
+	sci-CRAN/jsonlite
+	sci-CRAN/RCurl
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

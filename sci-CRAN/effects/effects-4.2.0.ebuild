@@ -27,14 +27,14 @@ R_SUGGESTS="
 	r_suggests_polca? ( sci-CRAN/poLCA )
 	r_suggests_robustlmm? ( sci-CRAN/robustlmm )
 "
-DEPEND="virtual/lattice
-	sci-CRAN/estimability
-	virtual/nnet
+DEPEND="sci-CRAN/carData
+	sci-CRAN/insight
 	sci-CRAN/lme4
 	>=dev-lang/R-3.5.0
-	sci-CRAN/carData
+	virtual/lattice
+	virtual/nnet
 	sci-CRAN/colorspace
 	sci-CRAN/survey
-	sci-CRAN/insight
+	sci-CRAN/estimability
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

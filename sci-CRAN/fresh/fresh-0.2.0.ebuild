@@ -24,7 +24,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/sass
 	sci-CRAN/rstudioapi
-	sci-CRAN/htmltools
 	sci-CRAN/shiny
+	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

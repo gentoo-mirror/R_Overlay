@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_survival? ( virtual/survival virtual/survival )
 "
-DEPEND="sci-CRAN/penalized
-	virtual/MASS
+DEPEND="virtual/MASS
+	sci-CRAN/penalized
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

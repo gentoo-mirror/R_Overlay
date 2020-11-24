@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/VecStatGraphs3D_1.6.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/MASS
+DEPEND=">=dev-lang/R-2.10.1
 	sci-CRAN/rgl
+	virtual/MASS
 	dev-lang/R[tk]
-	>=dev-lang/R-2.10.1
 	sci-CRAN/misc3d
 "
 RDEPEND="${DEPEND-}"

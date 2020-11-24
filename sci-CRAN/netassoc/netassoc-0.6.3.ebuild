@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/netassoc_0.6.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/infotheo
-	sci-CRAN/vegan
-	sci-CRAN/corpcor
+DEPEND="sci-CRAN/igraph
+	sci-CRAN/infotheo
 	sci-CRAN/huge
-	sci-CRAN/igraph
+	sci-CRAN/corpcor
+	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-}"

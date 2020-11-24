@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_shinyjs? ( sci-CRAN/shinyjs )
 "
-DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/ggplot2
-	sci-CRAN/mosaicData
-	sci-CRAN/abd
-	sci-CRAN/mosaic
-	virtual/lattice
+DEPEND="sci-CRAN/mosaic
 	virtual/MASS
+	sci-CRAN/abd
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.0
+	sci-CRAN/mosaicData
+	virtual/lattice
 	sci-mathematics/rstudio
 	sci-CRAN/rlang
 "

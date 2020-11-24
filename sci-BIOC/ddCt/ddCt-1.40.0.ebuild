@@ -12,10 +12,10 @@ LICENSE='LGPL-3'
 
 IUSE="${IUSE-} r_suggests_runit"
 R_SUGGESTS="r_suggests_runit? ( sci-CRAN/RUnit )"
-DEPEND="sci-BIOC/BiocGenerics
-	virtual/lattice
-	sci-CRAN/xtable
-	>=sci-CRAN/RColorBrewer-0.1.3
+DEPEND="sci-CRAN/xtable
 	>=sci-BIOC/Biobase-1.10.0
+	>=sci-CRAN/RColorBrewer-0.1.3
+	virtual/lattice
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

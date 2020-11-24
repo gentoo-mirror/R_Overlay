@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/lme4
-	sci-CRAN/laeken
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/ineq
+	sci-CRAN/lme4
 	sci-CRAN/formula_tools
-	sci-CRAN/ineq
-	sci-CRAN/MuMIn
-	sci-CRAN/truncnorm
 	sci-CRAN/mvtnorm
+	sci-CRAN/Hmisc
+	sci-CRAN/truncnorm
+	sci-CRAN/MuMIn
+	sci-CRAN/laeken
 	sci-CRAN/weights
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/shp2graph_0-5.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/maptools
+	sci-CRAN/sp
 	>=dev-lang/R-3.0.0
 	sci-CRAN/igraph
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

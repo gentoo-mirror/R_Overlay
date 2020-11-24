@@ -22,18 +22,18 @@ R_SUGGESTS="
 	r_suggests_tcpl? ( sci-CRAN/tcpl )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RColorBrewer
-	sci-CRAN/readxl
-	sci-CRAN/dplyr
-	>=sci-CRAN/leaflet-1.0.0
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/DT-0.1.24
-	sci-CRAN/tidyr
-	>=sci-CRAN/ggplot2-3.0.0
-	sci-CRAN/magrittr
-	sci-CRAN/shiny
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/shinydashboard
-	sci-CRAN/shinyAce
+	sci-CRAN/shiny
+	sci-CRAN/readxl
+	>=sci-CRAN/ggplot2-3.0.0
 	sci-CRAN/shinycssloaders
+	>=dev-lang/R-3.5.0
+	sci-CRAN/tidyr
+	>=sci-CRAN/DT-0.1.24
+	>=sci-CRAN/leaflet-1.0.0
+	sci-CRAN/magrittr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/shinyAce
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

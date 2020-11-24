@@ -14,9 +14,9 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/xlsx
-	sci-CRAN/tkrplot
 	dev-lang/R[tk]
-	sci-CRAN/reshape2
 	sci-CRAN/plyr
+	sci-CRAN/tkrplot
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

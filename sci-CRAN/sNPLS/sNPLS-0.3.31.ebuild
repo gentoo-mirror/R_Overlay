@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/sNPLS_0.3.31.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/car
-	virtual/Matrix
-	sci-CRAN/ggplot2
-	virtual/MASS
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/ks
+	sci-CRAN/rgl
+	virtual/Matrix
+	sci-CRAN/car
+	virtual/MASS
 	sci-CRAN/pbapply
 	sci-CRAN/plotrix
-	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

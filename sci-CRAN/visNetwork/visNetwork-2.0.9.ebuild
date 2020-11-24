@@ -28,9 +28,9 @@ R_SUGGESTS="
 	r_suggests_tidygraph? ( sci-CRAN/tidygraph )
 "
 DEPEND="sci-CRAN/magrittr
+	sci-CRAN/htmlwidgets
 	sci-CRAN/jsonlite
 	sci-CRAN/htmltools
-	sci-CRAN/htmlwidgets
 	>=dev-lang/R-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,16 +20,16 @@ R_SUGGESTS="
 	r_suggests_robusthd? ( sci-CRAN/robustHD )
 	r_suggests_rospca? ( sci-CRAN/rospca )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/robustbase
-	sci-CRAN/scales
+DEPEND="virtual/Matrix
 	sci-CRAN/reshape2
-	>=dev-lang/R-3.2.0
-	virtual/Matrix
-	sci-CRAN/gridExtra
 	sci-CRAN/rrcov
-	sci-CRAN/svd
+	sci-CRAN/scales
+	sci-CRAN/gridExtra
 	>=sci-CRAN/Rcpp-0.12.10.14
+	>=dev-lang/R-3.2.0
+	sci-CRAN/ggplot2
+	sci-CRAN/robustbase
+	sci-CRAN/svd
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

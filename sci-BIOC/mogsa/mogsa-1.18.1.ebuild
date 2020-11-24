@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-BIOC/genefilter
+DEPEND="sci-CRAN/svd
+	>=dev-lang/R-3.4.0
 	sci-BIOC/BiocGenerics
+	sci-BIOC/genefilter
+	virtual/cluster
 	sci-BIOC/graphite
 	sci-CRAN/gplots
 	sci-BIOC/GSEABase
 	sci-BIOC/Biobase
 	sci-CRAN/corpcor
-	sci-CRAN/svd
-	virtual/cluster
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

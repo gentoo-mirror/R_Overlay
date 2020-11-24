@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_kernsmooth? ( virtual/KernSmooth )
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/lmtest
+DEPEND="sci-CRAN/lmtest
+	virtual/MASS
 	sci-CRAN/colorspace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

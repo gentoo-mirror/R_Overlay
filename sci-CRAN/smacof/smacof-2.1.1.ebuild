@@ -21,18 +21,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/plotrix
-	sci-CRAN/Hmisc
-	sci-CRAN/colorspace
-	sci-CRAN/nnls
-	sci-CRAN/ellipse
-	sci-CRAN/doParallel
 	sci-CRAN/e1071
 	sci-CRAN/polynom
+	sci-CRAN/colorspace
+	sci-CRAN/plotrix
+	sci-CRAN/Hmisc
+	sci-CRAN/nnls
 	virtual/MASS
-	sci-CRAN/weights
-	sci-CRAN/wordcloud
-	sci-CRAN/candisc
 	sci-CRAN/foreach
+	sci-CRAN/candisc
+	sci-CRAN/weights
+	sci-CRAN/ellipse
+	sci-CRAN/wordcloud
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

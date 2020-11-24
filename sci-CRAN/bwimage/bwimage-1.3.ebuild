@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bwimage_1.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/png
-	sci-CRAN/jpeg
+DEPEND="sci-CRAN/jpeg
+	sci-CRAN/png
 "
 RDEPEND="${DEPEND-}"

@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-CRAN/numDeriv
-	sci-CRAN/evd
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/BB
+	sci-CRAN/numDeriv
+	sci-CRAN/evd
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

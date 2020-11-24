@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_spatstat? ( sci-CRAN/spatstat )
 	r_suggests_spdep? ( sci-CRAN/spdep )
 "
-DEPEND="sci-CRAN/quantreg
-	sci-CRAN/SparseM
-	sci-CRAN/RANN
+DEPEND="virtual/lattice
+	sci-CRAN/quantreg
 	sci-CRAN/locfit
 	sci-CRAN/maptools
-	virtual/lattice
+	sci-CRAN/RANN
+	sci-CRAN/SparseM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

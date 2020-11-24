@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcfr? ( sci-CRAN/vcfR )
 "
-DEPEND="sci-CRAN/reshape2
-	sci-CRAN/binaryLogic
+DEPEND="sci-CRAN/binaryLogic
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

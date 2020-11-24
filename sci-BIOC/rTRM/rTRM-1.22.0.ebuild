@@ -24,9 +24,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND="sci-BIOC/AnnotationDbi
-	>=sci-CRAN/igraph-1.0
 	sci-CRAN/DBI
 	sci-CRAN/RSQLite
+	>=sci-CRAN/igraph-1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/SIfEK_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/MASS
-	sci-CRAN/smfsb
-	sci-CRAN/ramcmc
 	sci-CRAN/numDeriv
+	sci-CRAN/ramcmc
+	sci-CRAN/smfsb
 "
 RDEPEND="${DEPEND-}"

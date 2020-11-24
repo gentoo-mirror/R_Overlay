@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_lubridate? ( sci-CRAN/lubridate )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="virtual/Matrix
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/RColorBrewer
 	sci-CRAN/minpack_lm
+	sci-CRAN/magrittr
 	sci-CRAN/numDeriv
 	sci-CRAN/scales
-	sci-CRAN/mvtnorm
-	>=dev-lang/R-3.3.0
+	virtual/Matrix
 	sci-CRAN/plyr
-	sci-CRAN/RColorBrewer
+	sci-CRAN/mvtnorm
 	sci-CRAN/zoo
-	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

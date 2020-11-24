@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/jabr_0.1.2.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/glue
-	sci-CRAN/tidyr
-	sci-CRAN/pillar
-	sci-CRAN/purrr
+DEPEND="sci-CRAN/magrittr
+	sci-CRAN/rlang
 	sci-CRAN/tibble
+	sci-CRAN/pillar
+	sci-CRAN/tidyr
+	sci-CRAN/httr
 	sci-CRAN/dplyr
 	sci-CRAN/ckanr
-	sci-CRAN/httr
-	sci-CRAN/magrittr
+	sci-CRAN/glue
+	sci-CRAN/purrr
 	sci-CRAN/rappdirs
-	sci-CRAN/rlang
 	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

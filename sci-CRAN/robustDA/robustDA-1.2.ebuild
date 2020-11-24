@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/robustDA_1.2.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/MASS
-	sci-CRAN/mclust
 	sci-CRAN/Rsolnp
+	sci-CRAN/mclust
 "
 RDEPEND="${DEPEND-}"

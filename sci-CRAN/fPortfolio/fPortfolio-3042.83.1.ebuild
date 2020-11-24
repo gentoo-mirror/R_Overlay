@@ -19,20 +19,20 @@ R_SUGGESTS="
 	r_suggests_mvoutlier? ( sci-CRAN/mvoutlier )
 	r_suggests_rsymphony? ( sci-CRAN/Rsymphony )
 "
-DEPEND="sci-CRAN/fBasics
-	sci-CRAN/fCopulae
-	sci-CRAN/fAssets
-	sci-CRAN/quadprog
-	sci-CRAN/timeSeries
+DEPEND="sci-CRAN/timeDate
+	sci-CRAN/slam
 	sci-CRAN/rneos
+	sci-CRAN/quadprog
+	>=dev-lang/R-2.15.1
+	sci-CRAN/fAssets
+	sci-CRAN/robustbase
 	virtual/MASS
 	sci-CRAN/Rsolnp
-	sci-CRAN/slam
-	sci-CRAN/timeDate
-	>=dev-lang/R-2.15.1
-	sci-CRAN/robustbase
-	sci-mathematics/glpk
 	sci-CRAN/kernlab
+	sci-CRAN/timeSeries
+	sci-CRAN/fCopulae
+	sci-mathematics/glpk
+	sci-CRAN/fBasics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/doParallel
-	virtual/survival
 	sci-CRAN/foreach
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

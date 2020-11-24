@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND="sci-CRAN/minqa
-	>=dev-lang/R-3.5.0
-	sci-CRAN/dfoptim
-	sci-CRAN/ucminf
-	sci-CRAN/BB
-	virtual/Matrix
-	virtual/MASS
-	sci-CRAN/pbivnorm
 	sci-CRAN/optimx
+	sci-CRAN/pbivnorm
+	sci-CRAN/ucminf
+	sci-CRAN/dfoptim
+	sci-CRAN/BB
+	>=dev-lang/R-3.5.0
+	virtual/MASS
 	sci-CRAN/mnormt
 	sci-CRAN/numDeriv
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

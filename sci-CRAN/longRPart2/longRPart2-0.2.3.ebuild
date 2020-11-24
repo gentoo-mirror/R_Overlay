@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_mgcv? ( virtual/mgcv )
 	r_suggests_rpart? ( virtual/rpart )
 "
-DEPEND="sci-CRAN/formula_tools
-	virtual/MASS
+DEPEND="virtual/rpart
 	sci-CRAN/ggplot2
 	virtual/nlme
-	virtual/rpart
+	sci-CRAN/formula_tools
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

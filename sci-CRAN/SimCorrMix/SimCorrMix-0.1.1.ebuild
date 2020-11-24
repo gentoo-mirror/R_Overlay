@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/nleqslv
-	sci-CRAN/VGAM
-	>=sci-CRAN/SimMultiCorrData-0.2.1
-	sci-CRAN/BB
-	sci-CRAN/triangle
-	virtual/MASS
-	sci-CRAN/mvtnorm
-	virtual/Matrix
+DEPEND="sci-CRAN/BB
 	sci-CRAN/ggplot2
+	sci-CRAN/VGAM
+	virtual/Matrix
+	>=dev-lang/R-3.4.0
+	virtual/MASS
+	sci-CRAN/nleqslv
+	>=sci-CRAN/SimMultiCorrData-0.2.1
+	sci-CRAN/mvtnorm
+	sci-CRAN/triangle
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

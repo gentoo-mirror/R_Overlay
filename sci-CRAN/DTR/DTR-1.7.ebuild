@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/DTR_1.7.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.3
-	virtual/survival
-	sci-CRAN/aod
 	sci-CRAN/ggplot2
+	sci-CRAN/aod
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

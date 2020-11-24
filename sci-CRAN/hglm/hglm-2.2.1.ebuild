@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/hglm_2.2-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	>=dev-lang/R-3.0
-	virtual/Matrix
+DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/hglm_data
+	virtual/MASS
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

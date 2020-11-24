@@ -16,23 +16,23 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/dplyr
-	>=sci-CRAN/fs-1.3.0
-	sci-CRAN/rappdirs
-	sci-CRAN/spex
-	sci-CRAN/tibble
-	sci-CRAN/rlang
-	>=dev-lang/R-3.5.0
-	sci-CRAN/glue
+DEPEND=">=sci-CRAN/fs-1.3.0
+	sci-CRAN/magrittr
 	sci-CRAN/jpeg
+	sci-CRAN/dplyr
+	sci-CRAN/glue
+	sci-CRAN/rlang
+	sci-CRAN/sp
+	sci-CRAN/spex
 	sci-CRAN/png
 	sci-CRAN/reproj
-	sci-CRAN/curl
+	sci-CRAN/rappdirs
+	>=dev-lang/R-3.5.0
 	sci-CRAN/purrr
+	sci-CRAN/tibble
 	>=sci-CRAN/slippymath-0.3.0
-	sci-CRAN/sp
+	sci-CRAN/curl
 	sci-CRAN/raster
-	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

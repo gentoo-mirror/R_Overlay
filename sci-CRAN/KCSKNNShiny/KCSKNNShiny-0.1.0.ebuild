@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/KCSKNNShiny_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/caret
+DEPEND="sci-CRAN/shiny
 	sci-CRAN/FNN
-	sci-CRAN/shiny
+	sci-CRAN/dplyr
+	sci-CRAN/caret
 	sci-CRAN/rhandsontable
 "
 RDEPEND="${DEPEND-}"

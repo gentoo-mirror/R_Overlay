@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/BACprior_2.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/leaps
 	virtual/boot
+	sci-CRAN/leaps
 "
 RDEPEND="${DEPEND-}"

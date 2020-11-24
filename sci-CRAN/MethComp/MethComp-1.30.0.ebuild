@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_lme4? ( sci-CRAN/lme4 )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/rjags
 	virtual/nlme
+	sci-CRAN/rjags
 	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}

@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/antaresRead
+	sci-CRAN/whisker
 	sci-CRAN/data_table
 	sci-CRAN/assertthat
-	sci-CRAN/whisker
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

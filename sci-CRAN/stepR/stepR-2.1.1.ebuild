@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/digest-0.6.10
-	>=sci-CRAN/Rcpp-0.12.3
 	>=sci-CRAN/R_cache-0.10.0
 	>=sci-CRAN/lowpassFilter-1.0.0
+	>=sci-CRAN/Rcpp-0.12.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -36,13 +36,13 @@ R_SUGGESTS="
 	r_suggests_vcd? ( sci-CRAN/vcd )
 "
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/miscTools
 	sci-CRAN/maxLik
-	sci-CRAN/numDeriv
-	sci-CRAN/dplyr
 	>=sci-CRAN/mosaic-1.3.0
+	sci-CRAN/dplyr
+	sci-CRAN/numDeriv
 	>=sci-CRAN/ggplot2-3.0.0
 	virtual/lattice
-	sci-CRAN/miscTools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

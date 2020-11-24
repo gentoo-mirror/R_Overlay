@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/gtools
-	sci-CRAN/caTools
 	virtual/KernSmooth
+	sci-CRAN/caTools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

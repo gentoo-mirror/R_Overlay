@@ -19,24 +19,24 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5
-	>=sci-CRAN/dplyr-0.7.6
+DEPEND=">=sci-CRAN/tidyr-0.2.0
 	>=sci-CRAN/readxl-1.1.0
-	>=sci-CRAN/gridExtra-2.3
-	>=sci-CRAN/tibble-1.4.2
-	>=sci-CRAN/colourpicker-1.0
-	>=sci-CRAN/gtable-0.2.0
-	>=sci-CRAN/shiny-1.1.0
-	>=sci-CRAN/Hmisc-4.1.1
-	>=sci-CRAN/rlang-0.2.2
 	>=sci-CRAN/ggplot2-3.0.0
-	>=sci-CRAN/readr-1.1.1
 	>=sci-CRAN/egg-0.4.0
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/tidyr-0.2.0
-	>=sci-CRAN/scales-1.0.0
-	>=sci-CRAN/ggpubr-0.1.8
 	>=sci-CRAN/stringr-1.3.1
+	>=sci-CRAN/ggpubr-0.1.8
 	>=sci-CRAN/shinythemes-1.1.1
+	>=sci-CRAN/Hmisc-4.1.1
+	>=dev-lang/R-3.5
+	>=sci-CRAN/dplyr-0.7.6
+	>=sci-CRAN/readr-1.1.1
+	>=sci-CRAN/gridExtra-2.3
+	>=sci-CRAN/colourpicker-1.0
+	>=sci-CRAN/scales-1.0.0
+	>=sci-CRAN/gtable-0.2.0
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/rlang-0.2.2
+	>=sci-CRAN/tibble-1.4.2
+	>=sci-CRAN/shiny-1.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

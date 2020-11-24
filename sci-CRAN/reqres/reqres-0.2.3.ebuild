@@ -17,12 +17,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/urltools
-	sci-CRAN/stringi
 	sci-CRAN/brotli
-	sci-CRAN/assertthat
-	sci-CRAN/R6
-	sci-CRAN/jsonlite
 	sci-CRAN/xml2
+	sci-CRAN/jsonlite
+	sci-CRAN/assertthat
+	sci-CRAN/stringi
+	sci-CRAN/R6
 	sci-CRAN/webutils
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

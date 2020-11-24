@@ -12,7 +12,7 @@ LICENSE='LGPL-2'
 
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
-DEPEND=">=sci-CRAN/geometry-0.3.1
-	>=sci-CRAN/lpSolve-5.6.1
+DEPEND=">=sci-CRAN/lpSolve-5.6.1
+	>=sci-CRAN/geometry-0.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

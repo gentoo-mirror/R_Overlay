@@ -12,7 +12,7 @@ LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/shiny
-	sci-CRAN/miniUI
 	sci-CRAN/DT
+	sci-CRAN/miniUI
 "
 RDEPEND="${DEPEND-}"

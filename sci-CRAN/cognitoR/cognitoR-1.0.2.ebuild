@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/shiny
-	sci-CRAN/yaml
 	sci-CRAN/httr
 	sci-CRAN/shinyjs
 	sci-CRAN/config
+	sci-CRAN/yaml
 	sci-CRAN/dplyr
 	sci-CRAN/base64enc
 	sci-CRAN/jsonlite

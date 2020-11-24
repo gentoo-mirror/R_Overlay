@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/insideRODE_2.0.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/deSolve
-	virtual/lattice
+DEPEND="sci-CRAN/deSolve
 	virtual/nlme
+	>=dev-lang/R-2.13.0
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

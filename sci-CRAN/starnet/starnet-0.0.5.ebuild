@@ -18,8 +18,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/glmnet
-	virtual/survival
 	sci-CRAN/cornet
 	virtual/Matrix
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

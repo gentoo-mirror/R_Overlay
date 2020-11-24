@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 "
-DEPEND=">=sci-CRAN/rjags-4.6
-	sci-CRAN/ArchaeoPhases
-	>=sci-CRAN/Luminescence-0.8.2
-	sci-CRAN/coda
+DEPEND="sci-CRAN/coda
 	>=dev-lang/R-3.3.0
-	sci-CRAN/hexbin
 	virtual/KernSmooth
+	>=sci-CRAN/rjags-4.6
+	sci-CRAN/hexbin
+	>=sci-CRAN/Luminescence-0.8.2
+	sci-CRAN/ArchaeoPhases
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

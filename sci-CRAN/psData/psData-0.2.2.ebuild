@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/psData_0.2.2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/countrycode
-	sci-CRAN/DataCombine
-	sci-CRAN/reshape2
-	sci-CRAN/rio
+DEPEND="sci-CRAN/rio
 	sci-CRAN/xlsx
+	sci-CRAN/countrycode
+	sci-CRAN/reshape2
+	>=dev-lang/R-3.0.2
+	sci-CRAN/DataCombine
 "
 RDEPEND="${DEPEND-}"

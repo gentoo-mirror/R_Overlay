@@ -13,9 +13,9 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_ape"
 R_SUGGESTS="r_suggests_ape? ( sci-CRAN/ape )"
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/MASS
-	virtual/Matrix
 	>=sci-CRAN/nbpMatching-1.5.1
+	virtual/Matrix
 	>=sci-CRAN/crossmatch-1.3.1
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

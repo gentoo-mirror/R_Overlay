@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/MiPP_1.56.
 LICENSE='GPL-2+'
 
 DEPEND="virtual/MASS
-	sci-BIOC/Biobase
 	sci-CRAN/e1071
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

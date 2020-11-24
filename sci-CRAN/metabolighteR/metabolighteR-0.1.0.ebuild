@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND="sci-CRAN/magrittr
-	sci-CRAN/httr
 	sci-CRAN/purrr
+	sci-CRAN/httr
 	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

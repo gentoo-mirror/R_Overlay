@@ -14,9 +14,9 @@ IUSE="${IUSE-} r_suggests_rockchalk"
 R_SUGGESTS="r_suggests_rockchalk? ( sci-CRAN/rockchalk )"
 DEPEND=">=dev-lang/R-3.0
 	sci-CRAN/lavaan
+	sci-CRAN/plyr
 	sci-CRAN/xtable
 	sci-CRAN/kutils
-	sci-CRAN/plyr
 	sci-CRAN/stationery
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

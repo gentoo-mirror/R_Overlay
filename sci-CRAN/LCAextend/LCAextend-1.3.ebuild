@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/LCAextend_1.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/boot
+DEPEND="sci-CRAN/rms
+	virtual/boot
 	sci-CRAN/kinship2
-	sci-CRAN/rms
 	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

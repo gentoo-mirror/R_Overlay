@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_magrittr? ( sci-CRAN/magrittr )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/lubridate
+DEPEND="sci-CRAN/readr
 	sci-CRAN/openssl
-	sci-CRAN/readr
+	sci-CRAN/h2o
+	sci-CRAN/lubridate
 	sci-CRAN/ReinforcementLearning
 	>=dev-lang/R-3.4.0
+	sci-CRAN/dplyr
 	sci-CRAN/stringr
 	sci-CRAN/ggplot2
-	sci-CRAN/h2o
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

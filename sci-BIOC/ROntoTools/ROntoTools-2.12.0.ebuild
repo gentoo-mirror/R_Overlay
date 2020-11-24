@@ -14,10 +14,10 @@ R_SUGGESTS="
 	r_suggests_biocgenerics? ( sci-BIOC/BiocGenerics )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/KEGGgraph
-	sci-BIOC/Rgraphviz
-	sci-BIOC/KEGGREST
-	sci-BIOC/graph
+DEPEND="sci-BIOC/graph
 	virtual/boot
+	sci-BIOC/KEGGREST
+	sci-BIOC/Rgraphviz
+	sci-BIOC/KEGGgraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mwa_0.4.3.tar.gz"
 LICENSE='LGPL-3'
 
-DEPEND=">=sci-CRAN/rJava-0.9
+DEPEND=">=sci-CRAN/cem-1.1
+	>=sci-CRAN/rJava-0.9
 	virtual/MASS
-	>=sci-CRAN/cem-1.1
 "
 RDEPEND="${DEPEND-} virtual/jdk"

@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rgtk2? ( >=sci-CRAN/RGtk2-2.20.31 )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	virtual/MASS
-	virtual/Matrix
-	>=sci-CRAN/plyr-1.8.3
-	>=sci-CRAN/magic-1.5.6
+DEPEND="virtual/Matrix
 	>=sci-CRAN/plotrix-3.5.12
+	virtual/MASS
+	>=sci-CRAN/magic-1.5.6
+	>=dev-lang/R-3.3.0
+	>=sci-CRAN/plyr-1.8.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

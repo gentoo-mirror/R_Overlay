@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_regressionfactory? ( sci-CRAN/RegressionFactory )
 "
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/numDeriv
 	sci-CRAN/coda
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

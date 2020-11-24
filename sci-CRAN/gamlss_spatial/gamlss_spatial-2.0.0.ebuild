@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_maptools? ( sci-CRAN/maptools )
 	r_suggests_spdep? ( sci-CRAN/spdep )
 "
-DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/spam
-	>=sci-CRAN/gamlss-4.2.7
+DEPEND="sci-CRAN/spam
 	virtual/mgcv
 	sci-CRAN/gamlss_add
+	>=sci-CRAN/gamlss-4.2.7
+	>=dev-lang/R-2.15.0
 	sci-CRAN/gamlss_dist
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/doParallel
 	virtual/Matrix
-	sci-CRAN/foreach
 	>=sci-CRAN/Rcpp-0.12.14
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

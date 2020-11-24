@@ -16,22 +16,22 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/Matrix
+DEPEND=">=sci-CRAN/ggplot2-3.2.0
+	sci-CRAN/lazyeval
+	>=sci-CRAN/dplyr-0.8.3
+	virtual/Matrix
 	sci-CRAN/progress
 	sci-CRAN/readr
-	sci-CRAN/scales
-	sci-CRAN/stringi
-	>=sci-CRAN/igraph-1.0.0
-	sci-CRAN/lazyeval
-	sci-CRAN/rlang
 	>=sci-CRAN/tidyr-1.0.0
-	sci-CRAN/seqinr
-	>=sci-CRAN/ggplot2-3.2.0
-	sci-CRAN/tibble
 	>=dev-lang/R-3.5.0
 	sci-CRAN/ape
+	>=sci-CRAN/igraph-1.0.0
 	>=sci-CRAN/Rcpp-0.12.12
-	>=sci-CRAN/dplyr-0.8.3
+	sci-CRAN/seqinr
+	sci-CRAN/scales
+	sci-CRAN/stringi
+	sci-CRAN/tibble
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

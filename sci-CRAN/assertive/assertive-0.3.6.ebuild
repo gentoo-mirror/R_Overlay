@@ -15,22 +15,22 @@ R_SUGGESTS="
 	r_suggests_markdown? ( sci-CRAN/markdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/assertive_numbers
+DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/assertive_properties-0.0.2
+	>=sci-CRAN/assertive_base-0.0.4
+	sci-CRAN/assertive_numbers
+	>=sci-CRAN/assertive_types-0.0.2
 	sci-CRAN/assertive_strings
 	sci-CRAN/assertive_datetimes
-	>=sci-CRAN/assertive_types-0.0.2
 	sci-CRAN/assertive_files
 	>=sci-CRAN/assertive_sets-0.0.2
-	sci-CRAN/assertive_matrices
 	sci-CRAN/assertive_models
+	sci-CRAN/assertive_matrices
 	sci-CRAN/assertive_data
-	sci-CRAN/assertive_data_us
+	sci-CRAN/assertive_data_uk
 	>=sci-CRAN/assertive_reflection-0.0.2
 	sci-CRAN/assertive_code
-	>=dev-lang/R-3.0.0
-	>=sci-CRAN/assertive_base-0.0.4
 	sci-CRAN/knitr
-	sci-CRAN/assertive_data_uk
+	sci-CRAN/assertive_data_us
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

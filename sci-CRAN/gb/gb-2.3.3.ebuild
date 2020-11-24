@@ -9,7 +9,7 @@ DESCRIPTION='Generalize Lambda Distribution a... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/gb_2.3.3.tar.gz"
 
-DEPEND="virtual/boot
-	virtual/KernSmooth
+DEPEND="virtual/KernSmooth
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

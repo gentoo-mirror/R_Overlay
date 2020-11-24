@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/reams_0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/mgcv
-	sci-CRAN/leaps
+DEPEND="sci-CRAN/leaps
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-}"

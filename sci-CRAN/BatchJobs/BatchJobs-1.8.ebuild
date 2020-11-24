@@ -16,15 +16,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/checkmate-1.8.0
-	>=sci-CRAN/BBmisc-1.9
-	sci-CRAN/brew
-	>=sci-CRAN/backports-1.1.1
-	>=sci-CRAN/data_table-1.9.6
 	sci-CRAN/DBI
-	sci-CRAN/digest
-	>=sci-CRAN/stringi-0.4.1
+	sci-CRAN/brew
+	>=sci-CRAN/data_table-1.9.6
+	>=sci-CRAN/BBmisc-1.9
 	>=sci-CRAN/RSQLite-1.0.9011
+	>=sci-CRAN/backports-1.1.1
+	>=sci-CRAN/checkmate-1.8.0
+	sci-CRAN/digest
 	sci-CRAN/sendmailR
+	>=sci-CRAN/stringi-0.4.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

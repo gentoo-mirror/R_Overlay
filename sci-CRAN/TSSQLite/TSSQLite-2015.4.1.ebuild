@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND="sci-CRAN/tframe
-	>=sci-CRAN/TSdbi-2015.1.1
 	>=sci-CRAN/TSsql-2015.1.1
-	>=sci-CRAN/DBI-0.3.1
+	>=sci-CRAN/TSdbi-2015.1.1
 	sci-CRAN/tframePlus
+	>=sci-CRAN/DBI-0.3.1
 	sci-CRAN/RSQLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

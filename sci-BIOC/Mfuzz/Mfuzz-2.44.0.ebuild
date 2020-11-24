@@ -12,9 +12,9 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_marray"
 R_SUGGESTS="r_suggests_marray? ( sci-BIOC/marray )"
-DEPEND=">=sci-BIOC/Biobase-2.5.5
-	dev-lang/R[tk]
+DEPEND="sci-BIOC/tkWidgets
 	sci-CRAN/e1071
-	sci-BIOC/tkWidgets
+	>=sci-BIOC/Biobase-2.5.5
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

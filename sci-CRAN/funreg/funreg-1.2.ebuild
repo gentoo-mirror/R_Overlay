@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/funreg_1.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/mvtnorm
-	>=dev-lang/R-2.15.0
+DEPEND=">=dev-lang/R-2.15.0
 	virtual/mgcv
+	sci-CRAN/mvtnorm
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

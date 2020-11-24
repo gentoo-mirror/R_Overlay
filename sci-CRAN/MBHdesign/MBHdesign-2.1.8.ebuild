@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_spsurvey? ( sci-CRAN/spsurvey )
 "
 DEPEND="virtual/mgcv
+	sci-CRAN/mvtnorm
 	sci-CRAN/randtoolbox
 	sci-CRAN/geometry
 	virtual/class
-	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

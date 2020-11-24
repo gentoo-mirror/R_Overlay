@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/optbdmaeAT_1.0.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.3.1
-	virtual/MASS
 	dev-lang/R[tk]
-	virtual/Matrix
 	sci-CRAN/igraph
+	virtual/MASS
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

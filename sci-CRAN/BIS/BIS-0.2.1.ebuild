@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND="sci-CRAN/dplyr
-	sci-CRAN/rvest
 	sci-CRAN/xml2
+	sci-CRAN/rvest
 	sci-CRAN/tidyr
 	sci-CRAN/readr
 "

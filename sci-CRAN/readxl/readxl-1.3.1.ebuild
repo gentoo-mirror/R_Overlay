@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/cellranger
-	>=sci-CRAN/Rcpp-0.12.18
 	>=sci-CRAN/tibble-1.3.1
+	>=sci-CRAN/Rcpp-0.12.18
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/progress

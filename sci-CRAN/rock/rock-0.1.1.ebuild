@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/yum-0.0.1
-	>=sci-CRAN/data_tree-0.7.8
-	>=dev-lang/R-3.0.0
-	>=sci-CRAN/glue-1.3.0
-	>=sci-CRAN/DiagrammeR-1.0.0
-	>=sci-CRAN/dplyr-0.7.8
+DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/purrr-0.2.5
+	>=sci-CRAN/DiagrammeR-1.0.0
+	>=sci-CRAN/data_tree-0.7.8
+	>=sci-CRAN/dplyr-0.7.8
+	>=sci-CRAN/yum-0.0.1
+	>=sci-CRAN/glue-1.3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.3
-	>=sci-CRAN/rJava-0.9.8
 	>=sci-CRAN/naturalsort-0.1.2
+	>=sci-CRAN/rJava-0.9.8
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

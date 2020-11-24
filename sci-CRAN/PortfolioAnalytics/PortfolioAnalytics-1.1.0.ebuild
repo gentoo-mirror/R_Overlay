@@ -35,9 +35,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/PerformanceAnalytics-1.5.1
 	sci-CRAN/zoo
 	>=sci-CRAN/xts-0.10.1
+	>=sci-CRAN/PerformanceAnalytics-1.5.1
 	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

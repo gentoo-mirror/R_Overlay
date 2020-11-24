@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/NFLSimulatoR_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/progress
 	sci-CRAN/data_table
+	sci-CRAN/progress
 "
 RDEPEND="${DEPEND-}"

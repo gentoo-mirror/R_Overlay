@@ -25,11 +25,11 @@ R_SUGGESTS="
 	r_suggests_xfun? ( sci-CRAN/xfun )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/sig
 	sci-CRAN/networkD3
-	sci-CRAN/brew
 	sci-CRAN/latexpdf
 	sci-CRAN/sos
+	sci-CRAN/sig
 	sci-CRAN/XML
+	sci-CRAN/brew
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

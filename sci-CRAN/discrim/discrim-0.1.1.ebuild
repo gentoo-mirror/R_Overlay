@@ -27,11 +27,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/dials
+DEPEND=">=sci-CRAN/parsnip-0.1.3.9000
+	sci-CRAN/rlang
 	sci-CRAN/tibble
 	sci-CRAN/purrr
-	>=sci-CRAN/parsnip-0.1.3.9000
 	sci-CRAN/withr
+	sci-CRAN/dials
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -21,14 +21,14 @@ R_SUGGESTS="
 	r_suggests_widgetframe? ( sci-CRAN/widgetframe )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/data_table
-	virtual/survival
-	sci-CRAN/jsonlite
-	sci-CRAN/Hmisc
 	sci-CRAN/pomp
+	sci-CRAN/Hmisc
+	sci-CRAN/data_table
 	sci-CRAN/km_ci
 	sci-CRAN/dplyr
 	sci-CRAN/r2d3
 	sci-CRAN/shiny
+	sci-CRAN/jsonlite
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

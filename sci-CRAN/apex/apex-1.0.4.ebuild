@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.1.3
+DEPEND="sci-CRAN/ape
 	sci-CRAN/phangorn
-	sci-CRAN/ape
 	sci-CRAN/adegenet
+	>=dev-lang/R-3.1.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

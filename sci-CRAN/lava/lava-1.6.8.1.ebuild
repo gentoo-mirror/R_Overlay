@@ -47,10 +47,10 @@ R_SUGGESTS="
 	r_suggests_visnetwork? ( sci-CRAN/visNetwork )
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
-DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/SQUAREM
-	virtual/survival
+DEPEND="virtual/survival
 	sci-CRAN/numDeriv
+	sci-CRAN/SQUAREM
+	>=dev-lang/R-3.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

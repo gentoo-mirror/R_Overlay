@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_tinytest? ( sci-CRAN/tinytest )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/sf-0.9
 	>=sci-CRAN/countrycode-1.2.0
+	>=sci-CRAN/sf-0.9
 	>=sci-CRAN/geojsonsf-2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

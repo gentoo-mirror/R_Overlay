@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PenIC_1.0.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
+DEPEND=">=dev-lang/R-3.3.0
 	virtual/MASS
-	>=dev-lang/R-3.3.0
+	virtual/Matrix
 	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

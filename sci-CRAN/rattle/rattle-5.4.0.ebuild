@@ -75,17 +75,17 @@ R_SUGGESTS="
 	r_suggests_verification? ( sci-CRAN/verification )
 	r_suggests_wskm? ( sci-CRAN/wskm )
 "
-DEPEND="sci-CRAN/magrittr
+DEPEND="sci-CRAN/tibble
+	sci-CRAN/magrittr
+	sci-CRAN/stringi
+	sci-CRAN/ggplot2
+	sci-CRAN/stringr
+	sci-CRAN/tidyr
 	sci-CRAN/dplyr
-	sci-CRAN/XML
 	virtual/rpart
 	>=dev-lang/R-3.5.0
 	sci-CRAN/bitops
-	sci-CRAN/tibble
-	sci-CRAN/ggplot2
-	sci-CRAN/stringi
-	sci-CRAN/stringr
-	sci-CRAN/tidyr
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_rhpcblasctl? ( sci-CRAN/RhpcBLASctl )
 "
-DEPEND="sci-CRAN/digest
+DEPEND=">=sci-CRAN/globals-0.13.1
+	sci-CRAN/digest
 	>=sci-CRAN/parallelly-1.21.0
-	>=sci-CRAN/globals-0.13.1
 	>=sci-CRAN/listenv-0.8.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

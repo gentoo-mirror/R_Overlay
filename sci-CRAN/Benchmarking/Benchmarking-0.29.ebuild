@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/Benchmarking_0.29.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/lpSolveAPI
+	sci-CRAN/Rcpp
 	sci-CRAN/quadprog
 	sci-CRAN/ucminf
-	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

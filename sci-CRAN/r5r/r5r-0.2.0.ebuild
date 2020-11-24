@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/sf-0.9.3
+DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/checkmate
-	>=dev-lang/R-3.6
-	sci-CRAN/data_table
 	>=sci-CRAN/jdx-0.1.4
 	>=sci-CRAN/rJava-0.9.10
+	sci-CRAN/data_table
+	>=sci-CRAN/sf-0.9.3
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

@@ -31,12 +31,12 @@ R_SUGGESTS="
 	r_suggests_vcd? ( sci-CRAN/vcd )
 	r_suggests_xml? ( sci-CRAN/XML )
 "
-DEPEND=">=sci-CRAN/libcoin-1.0.0
-	virtual/rpart
-	virtual/survival
-	sci-CRAN/mvtnorm
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/Formula-1.2.1
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/inum-1.0.0
+	virtual/rpart
+	>=sci-CRAN/Formula-1.2.1
+	>=sci-CRAN/libcoin-1.0.0
+	sci-CRAN/mvtnorm
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

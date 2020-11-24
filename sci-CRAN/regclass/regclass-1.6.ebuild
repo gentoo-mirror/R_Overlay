@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/regclass_1.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/rpart
+DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/leaps
 	sci-CRAN/bestglm
-	sci-CRAN/randomForest
+	virtual/rpart
 	sci-CRAN/VGAM
 	virtual/rpart
-	>=dev-lang/R-3.6
+	sci-CRAN/randomForest
 "
 RDEPEND="${DEPEND-}"

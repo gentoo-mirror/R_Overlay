@@ -31,8 +31,8 @@ R_SUGGESTS="
 	r_suggests_spdata? ( sci-CRAN/spData )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	virtual/survival
 	sci-CRAN/BiasedUrn
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

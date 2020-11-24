@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.12
-	virtual/MASS
-	sci-CRAN/quantreg
-	virtual/mgcv
-	sci-CRAN/wavelets
+DEPEND="virtual/MASS
 	sci-CRAN/dtt
+	virtual/mgcv
+	>=sci-CRAN/Rcpp-0.12.12
+	sci-CRAN/wavelets
+	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

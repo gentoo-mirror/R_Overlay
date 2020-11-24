@@ -17,18 +17,18 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/quadprog
+	sci-CRAN/anocva
+	virtual/Matrix
 	sci-CRAN/corpcor
+	sci-CRAN/quadprog
+	sci-CRAN/saemix
+	sci-CRAN/foreach
+	sci-CRAN/lmeresampler
+	sci-CRAN/alabama
 	sci-CRAN/merDeriv
 	virtual/Matrix
 	sci-CRAN/lme4
 	virtual/nlme
-	sci-CRAN/foreach
-	sci-CRAN/lmeresampler
-	virtual/Matrix
-	sci-CRAN/alabama
-	sci-CRAN/anocva
-	sci-CRAN/saemix
 	sci-CRAN/msm
 	sci-CRAN/doParallel
 "

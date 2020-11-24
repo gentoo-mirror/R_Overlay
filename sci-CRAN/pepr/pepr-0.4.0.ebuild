@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/pryr
-	sci-CRAN/yaml
+DEPEND="sci-CRAN/yaml
+	sci-CRAN/pryr
 	sci-CRAN/data_table
 	sci-CRAN/stringr
 "

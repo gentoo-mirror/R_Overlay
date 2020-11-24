@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ips_0.0.11.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/XML
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/seqinr
 	sci-CRAN/ape
 	sci-CRAN/plyr
 	sci-CRAN/phangorn
-	>=dev-lang/R-3.2.0
-	sci-CRAN/seqinr
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-}"

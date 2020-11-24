@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-BIOC/Biostrings
-	sci-BIOC/BiocGenerics
-	sci-BIOC/seqLogo
 	sci-CRAN/evd
 	sci-CRAN/gdata
+	sci-BIOC/BiocGenerics
+	sci-BIOC/seqLogo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

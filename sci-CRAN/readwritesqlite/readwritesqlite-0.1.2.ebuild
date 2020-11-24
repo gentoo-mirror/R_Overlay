@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_units? ( sci-CRAN/units )
 "
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/lifecycle
-	sci-CRAN/chk
-	sci-CRAN/DBI
-	sci-CRAN/RSQLite
-	sci-CRAN/hms
 	sci-CRAN/tibble
+	sci-CRAN/DBI
+	sci-CRAN/hms
+	sci-CRAN/chk
+	sci-CRAN/RSQLite
+	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,7 +15,7 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_lattice? ( virtual/lattice )
 "
-DEPEND="sci-CRAN/gmp
-	sci-BIOC/multtest
+DEPEND="sci-BIOC/multtest
+	sci-CRAN/gmp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

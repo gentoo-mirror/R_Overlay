@@ -36,20 +36,20 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 	r_suggests_waffle? ( sci-CRAN/waffle )
 "
-DEPEND="sci-CRAN/dichromat
-	sci-CRAN/quantreg
-	sci-CRAN/chron
-	sci-CRAN/survey
+DEPEND="sci-CRAN/hexbin
 	sci-CRAN/rlang
-	>=dev-lang/R-3.2
-	sci-CRAN/s20x
 	sci-CRAN/magrittr
-	sci-CRAN/scales
-	virtual/boot
-	>=sci-CRAN/iNZightMR-2.2.5
-	sci-CRAN/hexbin
+	sci-CRAN/dichromat
 	sci-CRAN/colorspace
 	sci-CRAN/lubridate
+	sci-CRAN/chron
+	sci-CRAN/scales
+	sci-CRAN/s20x
+	>=sci-CRAN/iNZightMR-2.2.5
+	>=dev-lang/R-3.2
+	sci-CRAN/survey
 	>=sci-CRAN/iNZightTools-1.9
+	virtual/boot
+	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

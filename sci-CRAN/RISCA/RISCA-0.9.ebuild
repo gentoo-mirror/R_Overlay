@@ -10,18 +10,18 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RISCA_0.9.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/date
-	sci-CRAN/statmod
-	sci-CRAN/mvtnorm
-	virtual/MASS
-	virtual/nlme
-	sci-CRAN/doParallel
+DEPEND="virtual/survival
 	sci-CRAN/foreach
+	sci-CRAN/statmod
+	virtual/MASS
 	virtual/nnet
-	virtual/survival
-	sci-CRAN/relsurv
-	sci-CRAN/kernlab
 	sci-CRAN/glmnet
+	sci-CRAN/date
+	sci-CRAN/relsurv
+	virtual/nlme
+	sci-CRAN/mvtnorm
+	sci-CRAN/doParallel
+	sci-CRAN/kernlab
 	sci-CRAN/caret
 	sci-CRAN/SuperLearner
 "

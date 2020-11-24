@@ -9,9 +9,9 @@ DESCRIPTION='Multivariate Double Hierarchical... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mdhglm_1.8.tar.gz"
 
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="sci-CRAN/mvtnorm
 	virtual/Matrix
-	sci-CRAN/mvtnorm
+	>=dev-lang/R-3.4.0
 	virtual/boot
 "
 RDEPEND="${DEPEND-}"

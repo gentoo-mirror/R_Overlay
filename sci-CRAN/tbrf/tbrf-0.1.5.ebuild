@@ -23,8 +23,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/boot
-	sci-CRAN/lubridate
 	sci-CRAN/purrr
+	sci-CRAN/lubridate
 	sci-CRAN/dplyr
 	sci-CRAN/rlang
 	sci-CRAN/tibble

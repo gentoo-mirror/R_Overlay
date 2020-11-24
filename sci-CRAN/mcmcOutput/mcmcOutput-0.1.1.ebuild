@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mcmcOutput_0.1.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/HDInterval
+DEPEND="virtual/MASS
+	sci-CRAN/HDInterval
 	sci-CRAN/coda
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -23,17 +23,17 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_spelling? ( sci-CRAN/spelling )
 "
-DEPEND=">=sci-CRAN/dplyr-1.0
-	sci-CRAN/purrr
-	sci-CRAN/rlang
-	sci-CRAN/lwgeom
+DEPEND="sci-CRAN/geojsonsf
 	sci-CRAN/tibble
+	sci-CRAN/purrr
+	>=sci-CRAN/tidyr-1.0
+	>=sci-CRAN/dplyr-1.0
+	sci-CRAN/readr
+	sci-CRAN/sf
+	sci-CRAN/lwgeom
+	sci-CRAN/rlang
 	sci-CRAN/stringr
 	sci-CRAN/lifecycle
-	sci-CRAN/sf
-	>=sci-CRAN/tidyr-1.0
-	sci-CRAN/geojsonsf
-	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

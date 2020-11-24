@@ -35,16 +35,16 @@ R_SUGGESTS="
 	r_suggests_tidyselect? ( sci-CRAN/tidyselect )
 	r_suggests_wto? ( sci-CRAN/wTO )
 "
-DEPEND=">=sci-CRAN/NetworkToolbox-1.1.2
+DEPEND=">=sci-CRAN/dplyr-0.7.8
 	sci-CRAN/plotly
+	>=sci-CRAN/semPlot-1.0.1
 	>=sci-CRAN/qgraph-1.4.1
 	>=dev-lang/R-3.5.0
-	>=sci-CRAN/semPlot-1.0.1
 	>=sci-CRAN/lavaan-0.5.22
 	>=sci-CRAN/igraph-1.0.1
+	>=sci-CRAN/NetworkToolbox-1.1.2
 	>=sci-CRAN/glasso-1.10
 	virtual/Matrix
-	>=sci-CRAN/dplyr-0.7.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

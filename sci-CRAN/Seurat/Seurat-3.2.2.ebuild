@@ -27,46 +27,46 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/httr
+DEPEND="sci-CRAN/cowplot
+	sci-CRAN/ggrepel
+	sci-CRAN/reticulate
+	sci-CRAN/future
+	sci-CRAN/RANN
+	sci-CRAN/Rtsne
+	sci-CRAN/scales
+	>=dev-lang/R-3.6.0
 	sci-CRAN/lmtest
-	sci-CRAN/miniUI
-	sci-CRAN/RcppAnnoy
-	sci-CRAN/ROCR
-	sci-CRAN/shiny
 	sci-CRAN/tibble
-	>=sci-CRAN/uwot-0.1.5
-	virtual/KernSmooth
+	sci-CRAN/httr
+	sci-CRAN/jsonlite
+	sci-CRAN/shiny
+	sci-CRAN/pbapply
+	sci-CRAN/igraph
+	virtual/MASS
+	sci-CRAN/miniUI
+	sci-CRAN/png
+	sci-CRAN/Rcpp
 	sci-CRAN/rsvd
-	>=sci-CRAN/sctransform-0.3.0
+	sci-CRAN/ROCR
 	sci-CRAN/fitdistrplus
 	sci-CRAN/future_apply
-	sci-CRAN/ggrepel
-	>=sci-CRAN/leiden-0.3.1
-	virtual/Matrix
-	sci-CRAN/rlang
-	sci-CRAN/spatstat
-	virtual/MASS
-	virtual/Matrix
-	sci-CRAN/reticulate
-	sci-CRAN/scales
-	sci-CRAN/RColorBrewer
-	sci-CRAN/irlba
-	sci-CRAN/patchwork
-	sci-CRAN/png
-	virtual/cluster
-	sci-CRAN/igraph
-	sci-CRAN/jsonlite
-	sci-CRAN/Rtsne
-	sci-CRAN/Rcpp
-	sci-CRAN/cowplot
-	sci-CRAN/future
 	>=sci-CRAN/ggplot2-3.3.0
 	sci-CRAN/ggridges
+	virtual/KernSmooth
+	virtual/Matrix
+	sci-CRAN/RColorBrewer
+	sci-CRAN/RcppAnnoy
+	>=sci-CRAN/leiden-0.3.1
+	sci-CRAN/rlang
+	sci-CRAN/irlba
 	sci-CRAN/ica
-	sci-CRAN/pbapply
+	virtual/Matrix
 	>=sci-CRAN/plotly-4.9.0
-	sci-CRAN/RANN
+	>=sci-CRAN/sctransform-0.3.0
+	sci-CRAN/spatstat
+	virtual/cluster
+	sci-CRAN/patchwork
+	>=sci-CRAN/uwot-0.1.5
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.0

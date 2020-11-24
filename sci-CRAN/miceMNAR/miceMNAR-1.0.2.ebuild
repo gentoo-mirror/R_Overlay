@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/miceMNAR_1.0.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND=">=sci-CRAN/mice-3.0.0
-	sci-CRAN/sampleSelection
-	sci-CRAN/pbivnorm
-	>=dev-lang/R-3.2.1
-	sci-CRAN/mvtnorm
 	sci-CRAN/GJRM
+	sci-CRAN/mvtnorm
+	>=dev-lang/R-3.2.1
+	sci-CRAN/pbivnorm
+	sci-CRAN/sampleSelection
 "
 RDEPEND="${DEPEND-}"

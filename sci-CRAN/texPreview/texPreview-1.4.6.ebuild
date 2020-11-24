@@ -23,18 +23,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/details
+DEPEND="sci-CRAN/details
+	sci-CRAN/magrittr
+	sci-CRAN/rematch2
+	sci-CRAN/svgPanZoom
+	sci-CRAN/lifecycle
+	>=dev-lang/R-3.3.0
+	sci-CRAN/base64enc
 	sci-CRAN/htmltools
 	sci-CRAN/fs
 	sci-CRAN/knitr
 	sci-CRAN/magick
-	sci-CRAN/magrittr
 	sci-CRAN/rstudioapi
-	sci-CRAN/base64enc
-	sci-CRAN/lifecycle
-	sci-CRAN/rematch2
-	sci-CRAN/svgPanZoom
 	sci-CRAN/whisker
 	sci-CRAN/xml2
 "

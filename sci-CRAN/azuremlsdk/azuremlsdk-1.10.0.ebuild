@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/rstudioapi-0.7
-	sci-CRAN/DT
-	sci-CRAN/servr
+DEPEND="sci-CRAN/DT
+	>=sci-CRAN/plyr-1.8
 	sci-CRAN/htmltools
+	sci-CRAN/servr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
+	>=sci-CRAN/reticulate-1.12
+	>=sci-CRAN/rstudioapi-0.7
 	sci-CRAN/shiny
 	sci-CRAN/shinycssloaders
-	sci-CRAN/ggplot2
-	>=sci-CRAN/plyr-1.8
-	>=sci-CRAN/reticulate-1.12
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/signal
-	sci-CRAN/Rcpp
 	sci-CRAN/igraph
-	sci-CRAN/nnls
-	sci-CRAN/quantreg
+	sci-CRAN/Rcpp
+	sci-CRAN/signal
 	sci-CRAN/XML
+	sci-CRAN/nnls
 	sci-CRAN/ncdf4
+	sci-CRAN/quantreg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

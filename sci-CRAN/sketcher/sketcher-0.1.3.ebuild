@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/png
-	sci-CRAN/imager
+DEPEND="sci-CRAN/readbitmap
 	sci-CRAN/jpeg
+	sci-CRAN/png
+	sci-CRAN/imager
 	sci-CRAN/downloader
-	sci-CRAN/readbitmap
 	sci-CRAN/magrittr
 	sci-CRAN/stringr
 	sci-CRAN/dplyr

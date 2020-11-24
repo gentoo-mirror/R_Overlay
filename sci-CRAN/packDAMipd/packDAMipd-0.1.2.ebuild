@@ -23,27 +23,27 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/rlang
-	sci-CRAN/survminer
-	sci-CRAN/data_table
-	sci-CRAN/reshape2
-	sci-CRAN/lme4
-	virtual/MASS
-	sci-CRAN/ggplot2
+	sci-CRAN/valueEQ5D
 	sci-CRAN/broom
+	sci-CRAN/ggplot2
 	sci-CRAN/gvlma
 	sci-CRAN/relaimpo
-	sci-CRAN/valueEQ5D
-	sci-CRAN/IPDFileCheck
+	sci-CRAN/survminer
+	>=dev-lang/R-3.6.0
 	sci-CRAN/stringr
+	sci-CRAN/flexsurv
+	sci-CRAN/reshape2
 	sci-CRAN/car
 	sci-CRAN/lmtest
-	sci-CRAN/effects
-	sci-CRAN/systemfit
-	virtual/nlme
-	sci-CRAN/flexsurv
 	sci-CRAN/tm
+	sci-CRAN/effects
 	sci-CRAN/SurvRegCensCov
 	virtual/survival
-	>=dev-lang/R-3.6.0
+	sci-CRAN/data_table
+	virtual/MASS
+	sci-CRAN/IPDFileCheck
+	sci-CRAN/lme4
+	virtual/nlme
+	sci-CRAN/systemfit
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

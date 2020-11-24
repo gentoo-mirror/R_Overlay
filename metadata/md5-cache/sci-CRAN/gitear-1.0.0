@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/Rcpp sci-CRAN/httr sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/mockery dev-lang/R
+DEPEND=sci-CRAN/dplyr sci-CRAN/mockery sci-CRAN/httr sci-CRAN/tibble sci-CRAN/magrittr >=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/Rcpp dev-lang/R
 DESCRIPTION=Client to the gitea API
 EAPI=7
 IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/Rcpp sci-CRAN/httr sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/mockery r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+RDEPEND=sci-CRAN/dplyr sci-CRAN/mockery sci-CRAN/httr sci-CRAN/tibble sci-CRAN/magrittr >=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/Rcpp r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/gitear_1.0.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=509af1186b6fadd80e3734ec76049ff8
+_md5_=ed326e3d37b2eda342debe4973e025f4

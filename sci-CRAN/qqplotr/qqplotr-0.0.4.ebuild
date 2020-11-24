@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_shinybs? ( sci-CRAN/shinyBS )
 "
-DEPEND=">=dev-lang/R-3.1
+DEPEND="sci-CRAN/knitr
 	>=sci-CRAN/ggplot2-2.2
-	sci-CRAN/knitr
 	sci-CRAN/dplyr
+	>=dev-lang/R-3.1
 	sci-CRAN/robustbase
 	virtual/MASS
 "

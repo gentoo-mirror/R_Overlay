@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_vcr? ( sci-CRAN/vcr )
 	r_suggests_webmockr? ( sci-CRAN/webmockr )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/jsonlite
-	sci-CRAN/readr
+DEPEND="sci-CRAN/lifecycle
+	sci-CRAN/httr
 	sci-CRAN/stringr
 	sci-CRAN/assertthat
+	sci-CRAN/readr
+	sci-CRAN/jsonlite
 	sci-CRAN/sjlabelled
 	sci-CRAN/dplyr
 	sci-CRAN/rlang
 	sci-CRAN/purrr
 	sci-CRAN/tibble
-	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

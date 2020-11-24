@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/plusser_0.4-0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/lubridate
 	sci-CRAN/RCurl
-	sci-CRAN/lubridate
 	sci-CRAN/RJSONIO
+	sci-CRAN/plyr
+	>=dev-lang/R-3.0.2
 "
 RDEPEND="${DEPEND-}"

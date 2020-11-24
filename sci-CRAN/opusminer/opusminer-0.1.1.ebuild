@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/opusminer_0.1-1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=sci-CRAN/Rcpp-0.12.9
-	>=sci-CRAN/arules-1.5.0
 	virtual/Matrix
+	>=sci-CRAN/arules-1.5.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

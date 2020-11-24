@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_spelling? ( sci-CRAN/spelling )
 "
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/dplyr
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/stringr
 	sci-BIOC/affy
 	sci-BIOC/GEOquery
-	>=dev-lang/R-3.5.0
+	sci-CRAN/dplyr
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

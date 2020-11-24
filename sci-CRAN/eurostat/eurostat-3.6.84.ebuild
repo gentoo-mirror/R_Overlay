@@ -28,25 +28,25 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tmap? ( sci-CRAN/tmap )
 "
-DEPEND="sci-CRAN/countrycode
-	sci-CRAN/tibble
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/tidyselect
-	sci-CRAN/httr
-	>=dev-lang/R-3.1.0
-	sci-CRAN/tidyr
-	sci-CRAN/readr
-	sci-CRAN/sp
-	sci-CRAN/lubridate
-	sci-CRAN/curl
-	sci-CRAN/RefManageR
-	sci-CRAN/sf
-	sci-CRAN/broom
-	sci-CRAN/jsonlite
 	sci-CRAN/stringi
 	sci-CRAN/dplyr
-	virtual/class
+	sci-CRAN/curl
+	sci-CRAN/jsonlite
 	sci-CRAN/RColorBrewer
-	sci-CRAN/stringr
+	sci-CRAN/RefManageR
+	sci-CRAN/sp
+	sci-CRAN/broom
+	sci-CRAN/tidyr
+	virtual/class
+	sci-CRAN/tibble
+	sci-CRAN/readr
+	sci-CRAN/httr
+	sci-CRAN/sf
+	sci-CRAN/countrycode
+	sci-CRAN/lubridate
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

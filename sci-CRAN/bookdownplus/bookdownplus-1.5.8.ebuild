@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/bookdownplus_1.5.8.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/bookdown-0.3.17
+	sci-CRAN/magick
 	sci-CRAN/knitr
 	sci-CRAN/xaringan
-	sci-CRAN/magick
+	>=sci-CRAN/bookdown-0.3.17
 "
 RDEPEND="${DEPEND-}"

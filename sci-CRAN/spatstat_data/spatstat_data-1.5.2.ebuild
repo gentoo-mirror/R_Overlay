@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_spatstat"
 R_SUGGESTS="r_suggests_spatstat? ( >=sci-CRAN/spatstat-1.55.0 )"
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/spatstat_utils
 	virtual/Matrix
+	sci-CRAN/spatstat_utils
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

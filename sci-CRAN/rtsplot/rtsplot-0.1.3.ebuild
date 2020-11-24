@@ -13,8 +13,8 @@ LICENSE='MIT'
 IUSE="${IUSE-} r_suggests_ttr"
 R_SUGGESTS="r_suggests_ttr? ( sci-CRAN/TTR )"
 DEPEND="sci-CRAN/xts
-	sci-CRAN/zoo
 	sci-CRAN/quantmod
+	sci-CRAN/zoo
 	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

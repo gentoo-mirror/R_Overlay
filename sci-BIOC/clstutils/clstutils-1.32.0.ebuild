@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_rsvgtipsdevice? ( sci-CRAN/RSVGTipsDevice )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-BIOC/clst
+DEPEND="sci-CRAN/rjson
+	sci-BIOC/clst
+	sci-CRAN/ape
 	virtual/lattice
 	sci-CRAN/RSQLite
-	sci-CRAN/ape
-	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

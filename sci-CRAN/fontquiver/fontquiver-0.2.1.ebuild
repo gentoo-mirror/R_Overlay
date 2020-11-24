@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/fontLiberation-0.1.0
 	>=sci-CRAN/fontBitstreamVera-0.1.0
+	>=sci-CRAN/fontLiberation-0.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

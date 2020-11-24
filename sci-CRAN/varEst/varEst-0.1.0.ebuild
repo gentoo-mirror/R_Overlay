@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/varEst_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/SAM
+	sci-CRAN/caret
 	sci-CRAN/glmnet
 	sci-CRAN/lm_beta
-	sci-CRAN/caret
 "
 RDEPEND="${DEPEND-}"

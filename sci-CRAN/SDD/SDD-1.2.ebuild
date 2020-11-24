@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SDD_1.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/sm
+DEPEND=">=dev-lang/R-2.15.0
 	sci-CRAN/Hmisc
-	sci-CRAN/tseries
-	>=dev-lang/R-2.15.0
+	sci-CRAN/sm
 	sci-CRAN/rpanel
+	sci-CRAN/tseries
 	sci-CRAN/rgl
 "
 RDEPEND="${DEPEND-}"

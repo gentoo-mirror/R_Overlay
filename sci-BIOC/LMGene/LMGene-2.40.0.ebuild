@@ -11,9 +11,9 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/LMGene_2.4
 LICENSE='LGPL-3+'
 
 DEPEND="virtual/survival
+	sci-BIOC/affy
 	sci-BIOC/multtest
 	>=sci-BIOC/Biobase-2.5.5
-	sci-BIOC/affy
 "
 RDEPEND="${DEPEND-}"
 

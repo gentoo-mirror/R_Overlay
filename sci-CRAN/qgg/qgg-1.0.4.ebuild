@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/qgg_1.0.4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/data_table
+DEPEND="sci-CRAN/statmod
 	virtual/MASS
-	sci-CRAN/statmod
 	sci-CRAN/MCMCpack
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

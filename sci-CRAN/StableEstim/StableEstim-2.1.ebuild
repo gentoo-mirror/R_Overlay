@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/StableEstim_2.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/stabledist
+DEPEND="virtual/Matrix
 	sci-CRAN/testthat
+	sci-CRAN/stabledist
 	sci-CRAN/numDeriv
 	sci-CRAN/xtable
-	virtual/Matrix
 	sci-CRAN/fBasics
 	virtual/MASS
 "

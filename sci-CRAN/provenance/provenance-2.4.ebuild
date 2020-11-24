@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/provenance_2.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/IsoplotR
 	virtual/MASS
+	sci-CRAN/IsoplotR
 "
 RDEPEND="${DEPEND-}"

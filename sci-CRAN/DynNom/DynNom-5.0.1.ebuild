@@ -15,16 +15,16 @@ R_SUGGESTS="
 	r_suggests_gam? ( sci-CRAN/gam )
 	r_suggests_mgcv? ( virtual/mgcv )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/stargazer
-	sci-CRAN/rms
-	virtual/survival
-	sci-CRAN/plotly
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/plotly
+	sci-CRAN/prediction
 	>sci-CRAN/ggplot2-2.1.0
 	sci-CRAN/shiny
-	sci-CRAN/prediction
+	sci-CRAN/stargazer
+	sci-CRAN/rms
+	sci-CRAN/dplyr
 	sci-CRAN/compare
 	sci-CRAN/BBmisc
+	sci-CRAN/magrittr
+	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

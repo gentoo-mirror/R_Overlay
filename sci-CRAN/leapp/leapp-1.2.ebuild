@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/leapp_1.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.1.1
-	virtual/MASS
-	sci-CRAN/corpcor
 	sci-BIOC/sva
+	sci-CRAN/corpcor
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

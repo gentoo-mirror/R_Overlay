@@ -22,17 +22,17 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/magrittr
-	>=sci-CRAN/purrr-0.2.3
-	>=sci-CRAN/glue-1.2.0
-	>=sci-CRAN/rlang-0.3.1
-	>=dev-lang/R-3.2
-	>=sci-CRAN/curl-2.8.1
-	>=sci-CRAN/gargle-0.3.1
+DEPEND=">=dev-lang/R-3.2
 	sci-CRAN/jsonlite
+	sci-CRAN/magrittr
+	sci-CRAN/httr
+	>=sci-CRAN/curl-2.8.1
+	>=sci-CRAN/purrr-0.2.3
+	>=sci-CRAN/rlang-0.3.1
 	>=sci-CRAN/tibble-2.0.0
 	sci-CRAN/uuid
+	>=sci-CRAN/glue-1.2.0
+	>=sci-CRAN/gargle-0.3.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ramps_0.6.16.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/maps
+DEPEND="sci-CRAN/coda
+	virtual/nlme
+	sci-CRAN/maps
 	virtual/Matrix
 	sci-CRAN/fields
-	virtual/nlme
-	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}"

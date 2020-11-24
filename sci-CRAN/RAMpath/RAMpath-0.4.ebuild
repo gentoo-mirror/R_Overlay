@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RAMpath_0.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/lavaan
+DEPEND="virtual/MASS
+	sci-CRAN/lavaan
 	sci-CRAN/ellipse
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

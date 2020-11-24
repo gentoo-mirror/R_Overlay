@@ -17,15 +17,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/ggplot2-2.2
-	sci-CRAN/Rcpp
-	>=sci-CRAN/lazyeval-0.2
-	>=sci-CRAN/rlang-0.3.1
-	>=sci-CRAN/magrittr-1.5
-	sci-CRAN/equivalence
-	>=sci-CRAN/dplyr-0.7
 	>=sci-CRAN/lubridate-1.7.4
 	>=sci-CRAN/matchingMarkets-1.0.1
+	>=sci-CRAN/lazyeval-0.2
+	>=sci-CRAN/dplyr-0.7
+	sci-CRAN/equivalence
+	>=sci-CRAN/magrittr-1.5
 	sci-CRAN/reshape2
+	>=sci-CRAN/rlang-0.3.1
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

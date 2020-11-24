@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/raster
+	sci-CRAN/animation
 	sci-CRAN/sp
 	sci-CRAN/deSolve
-	sci-CRAN/animation
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

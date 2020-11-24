@@ -12,11 +12,11 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_biomart"
 R_SUGGESTS="r_suggests_biomart? ( sci-BIOC/biomaRt )"
-DEPEND=">=sci-BIOC/BiocGenerics-0.1.0
-	sci-BIOC/GenomeGraphs
+DEPEND=">=sci-CRAN/DBI-0.2.5
 	>=sci-BIOC/IRanges-2.5.27
-	>=sci-CRAN/DBI-0.2.5
+	>=sci-BIOC/BiocGenerics-0.1.0
 	sci-CRAN/RSQLite
+	sci-BIOC/GenomeGraphs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

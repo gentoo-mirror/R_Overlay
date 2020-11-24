@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/Rdpack
-	sci-CRAN/RNetCDF
+DEPEND="sci-CRAN/RNetCDF
+	>=dev-lang/R-3.6.0
 	sci-CRAN/colorRamps
 	sci-BIOC/mixOmics
 	sci-CRAN/ptw
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

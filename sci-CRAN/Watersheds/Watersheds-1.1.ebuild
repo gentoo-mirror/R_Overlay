@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/Watersheds_1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/maptools
-	virtual/lattice
-	sci-CRAN/sp
 	sci-CRAN/splancs
 	sci-CRAN/rgeos
+	virtual/lattice
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

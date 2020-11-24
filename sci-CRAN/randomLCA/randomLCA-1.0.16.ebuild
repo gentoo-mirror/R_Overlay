@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_r_rsp"
 R_SUGGESTS="r_suggests_r_rsp? ( sci-CRAN/R_rsp )"
-DEPEND="sci-CRAN/fastGHQuad
-	virtual/Matrix
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/fastGHQuad
 	virtual/boot
 	virtual/lattice
-	>=dev-lang/R-3.2.0
+	virtual/Matrix
 	sci-CRAN/Rfast
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

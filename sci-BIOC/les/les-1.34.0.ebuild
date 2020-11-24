@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_biobase? ( sci-BIOC/Biobase )
 	r_suggests_limma? ( sci-BIOC/limma )
 "
-DEPEND="sci-CRAN/fdrtool
-	virtual/boot
+DEPEND=">=dev-lang/R-2.13.2
 	sci-CRAN/gplots
+	virtual/boot
+	sci-CRAN/fdrtool
 	sci-CRAN/RColorBrewer
-	>=dev-lang/R-2.13.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

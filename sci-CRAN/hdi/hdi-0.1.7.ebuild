@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_matrix"
 R_SUGGESTS="r_suggests_matrix? ( virtual/Matrix )"
 DEPEND="virtual/MASS
+	sci-CRAN/scalreg
 	sci-CRAN/glmnet
 	sci-CRAN/linprog
-	sci-CRAN/scalreg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

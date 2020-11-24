@@ -21,10 +21,10 @@ R_SUGGESTS="
 	r_suggests_tidytext? ( sci-CRAN/tidytext )
 "
 DEPEND="sci-CRAN/xml2
-	sci-CRAN/tokenizers
-	sci-CRAN/readr
 	sci-CRAN/tibble
-	sci-CRAN/dplyr
 	sci-CRAN/stringr
+	sci-CRAN/tokenizers
+	sci-CRAN/dplyr
+	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

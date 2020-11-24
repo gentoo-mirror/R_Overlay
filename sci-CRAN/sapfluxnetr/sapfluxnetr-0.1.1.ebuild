@@ -21,14 +21,14 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/furrr
 	sci-CRAN/assertthat
 	sci-CRAN/glue
+	sci-CRAN/dplyr
 	sci-CRAN/lubridate
 	sci-CRAN/magrittr
 	sci-CRAN/purrr
+	sci-CRAN/furrr
+	sci-CRAN/ggplot2
 	sci-CRAN/rlang
 	sci-CRAN/stringr
 	sci-CRAN/tibble

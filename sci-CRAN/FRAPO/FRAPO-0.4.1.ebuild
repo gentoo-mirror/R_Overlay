@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/FRAPO_0.4-1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.1.3
-	sci-mathematics/glpk
 	sci-CRAN/timeSeries
 	sci-CRAN/cccp
+	sci-mathematics/glpk
 "
 RDEPEND="${DEPEND-}"

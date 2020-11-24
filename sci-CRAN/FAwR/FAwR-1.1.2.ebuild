@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/FAwR_1.1.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/lattice
-	virtual/MASS
 	sci-mathematics/glpk
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

@@ -25,8 +25,8 @@ R_SUGGESTS="
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/Rdpack
 	sci-CRAN/maxLik
+	sci-CRAN/Rdpack
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_rworldxtra? ( sci-CRAN/rworldxtra )
 "
-DEPEND="sci-CRAN/maptools
+DEPEND="sci-CRAN/sp
+	sci-CRAN/maptools
 	sci-CRAN/fields
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

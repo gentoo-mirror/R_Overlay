@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/plyr
 	sci-CRAN/BMS
-	sci-CRAN/dplyr
 	sci-CRAN/lazyeval
+	sci-CRAN/dplyr
 	sci-CRAN/rlang
 	sci-CRAN/xts
 	sci-CRAN/zoo

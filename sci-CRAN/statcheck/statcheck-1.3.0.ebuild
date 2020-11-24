@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/statcheck_1.3.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.14.2
-	sci-CRAN/ggplot2
 	sci-CRAN/plyr
 	sci-CRAN/rmarkdown
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

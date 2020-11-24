@@ -12,8 +12,8 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 
 IUSE="${IUSE-} r_suggests_ssym"
 R_SUGGESTS="r_suggests_ssym? ( sci-CRAN/ssym )"
-DEPEND="sci-CRAN/normalp
-	sci-CRAN/Formula
+DEPEND="sci-CRAN/Formula
+	sci-CRAN/normalp
 	sci-CRAN/GIGrvg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

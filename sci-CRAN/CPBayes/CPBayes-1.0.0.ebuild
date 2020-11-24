@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/forestplot
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/mvtnorm
-	>=dev-lang/R-3.2.0
+	sci-CRAN/forestplot
 	sci-CRAN/purrr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

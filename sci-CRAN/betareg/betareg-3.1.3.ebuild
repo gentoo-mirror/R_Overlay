@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_partykit? ( sci-CRAN/partykit )
 	r_suggests_strucchange? ( sci-CRAN/strucchange )
 "
-DEPEND="sci-CRAN/lmtest
-	sci-CRAN/sandwich
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/Formula
-	>=dev-lang/R-3.0.0
 	sci-CRAN/flexmix
 	sci-CRAN/modeltools
+	sci-CRAN/lmtest
+	sci-CRAN/sandwich
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
+DEPEND="virtual/MASS
+	sci-CRAN/Rcpp
 	sci-CRAN/bigmemory
-	virtual/MASS
 	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/Rcpp
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/RcppProgress
-	sci-CRAN/BH
 	sci-CRAN/RcppEigen
 	sci-CRAN/bigmemory
+	sci-CRAN/RcppArmadillo
+	sci-CRAN/BH
+	sci-CRAN/Rcpp
 	${R_SUGGESTS-}
 "

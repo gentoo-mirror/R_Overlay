@@ -12,18 +12,18 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/coda
-	sci-CRAN/ape
-	sci-CRAN/phytools
+DEPEND="sci-CRAN/Sim_DiffProc
 	sci-CRAN/MCMCpack
-	virtual/nlme
-	sci-CRAN/maps
+	sci-CRAN/ape
+	sci-CRAN/coda
+	sci-CRAN/adephylo
 	sci-CRAN/geiger
 	sci-CRAN/EasyABC
-	sci-CRAN/Sim_DiffProc
+	>=dev-lang/R-3.6
 	sci-CRAN/abc
+	sci-CRAN/phytools
+	virtual/nlme
 	sci-CRAN/TreeSim
-	sci-CRAN/adephylo
+	sci-CRAN/maps
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

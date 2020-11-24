@@ -22,9 +22,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4.0
 	virtual/lattice
-	virtual/lattice
-	sci-CRAN/gridExtra
 	virtual/MASS
+	sci-CRAN/gridExtra
+	virtual/lattice
 	sci-CRAN/RColorBrewer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

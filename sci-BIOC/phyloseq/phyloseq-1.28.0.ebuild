@@ -22,23 +22,23 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.6 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 "
-DEPEND=">=dev-lang/R-3.3.0
+DEPEND="virtual/cluster
+	>=sci-CRAN/foreach-1.4.3
+	>=sci-BIOC/multtest-2.28.0
+	>=sci-CRAN/ggplot2-2.1.0
+	>=sci-CRAN/plyr-1.8.3
+	>=sci-CRAN/reshape2-1.4.1
+	>=sci-CRAN/vegan-2.5
+	>=dev-lang/R-3.3.0
+	>=sci-CRAN/ade4-1.7.4
 	>=sci-BIOC/BiocGenerics-0.22.0
 	>=sci-BIOC/Biobase-2.36.2
 	>=sci-CRAN/ape-5.0
-	>=sci-CRAN/ade4-1.7.4
 	>=sci-BIOC/biomformat-1.0.0
 	>=sci-BIOC/Biostrings-2.40.0
 	>=sci-CRAN/data_table-1.10.4
-	>=sci-CRAN/foreach-1.4.3
-	>=sci-CRAN/igraph-1.0.1
-	>=sci-CRAN/vegan-2.5
-	>=sci-CRAN/reshape2-1.4.1
-	virtual/cluster
-	>=sci-CRAN/ggplot2-2.1.0
-	>=sci-CRAN/plyr-1.8.3
 	>=sci-CRAN/scales-0.4.0
-	>=sci-BIOC/multtest-2.28.0
+	>=sci-CRAN/igraph-1.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

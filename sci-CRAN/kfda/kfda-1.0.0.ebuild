@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/kfda_1.0.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.0.0
-	virtual/MASS
 	sci-CRAN/kernlab
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

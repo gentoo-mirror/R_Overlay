@@ -26,16 +26,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/readr
-	sci-CRAN/httr
-	sci-CRAN/XML
-	>=sci-CRAN/rJava-0.9.8
-	>=dev-lang/R-3.2
+DEPEND=">=dev-lang/R-3.2
 	sci-CRAN/igraph
-	sci-CRAN/plyr
 	sci-CRAN/rjson
+	sci-CRAN/XML
+	sci-CRAN/httr
 	sci-CRAN/R_utils
 	sci-CRAN/jsonlite
+	>=sci-CRAN/rJava-0.9.8
+	sci-CRAN/plyr
+	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=sci-CRAN/gap-1.1.17
-	sci-CRAN/kinship2
-	sci-CRAN/igraph
-	sci-BIOC/BiocGenerics
-	virtual/Matrix
+DEPEND="virtual/Matrix
 	sci-CRAN/survey
+	sci-CRAN/igraph
+	>=sci-CRAN/gap-1.1.17
+	sci-CRAN/kinship2
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

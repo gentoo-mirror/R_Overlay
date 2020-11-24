@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DrugClust_0.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/e1071
+DEPEND="virtual/cluster
 	sci-CRAN/MESS
-	virtual/cluster
 	sci-CRAN/cclust
+	sci-CRAN/e1071
 	sci-CRAN/ROCR
 "
 RDEPEND="${DEPEND-}"

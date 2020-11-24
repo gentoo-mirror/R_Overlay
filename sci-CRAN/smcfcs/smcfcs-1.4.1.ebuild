@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_mitools? ( sci-CRAN/mitools )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/VGAM
-	virtual/MASS
-	virtual/survival
+DEPEND="virtual/survival
 	>=dev-lang/R-3.1.2
+	virtual/MASS
+	sci-CRAN/VGAM
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

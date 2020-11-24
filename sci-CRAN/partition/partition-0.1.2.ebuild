@@ -22,17 +22,17 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/dplyr-0.8.0
+	sci-CRAN/forcats
 	sci-CRAN/crayon
 	>=sci-CRAN/ggplot2-3.3.0
-	sci-CRAN/forcats
 	sci-CRAN/infotheo
 	sci-CRAN/magrittr
 	virtual/MASS
-	sci-CRAN/stringr
 	sci-CRAN/pillar
 	sci-CRAN/purrr
 	sci-CRAN/Rcpp
 	sci-CRAN/rlang
+	sci-CRAN/stringr
 	sci-CRAN/tibble
 	>=sci-CRAN/tidyr-1.0.0
 "

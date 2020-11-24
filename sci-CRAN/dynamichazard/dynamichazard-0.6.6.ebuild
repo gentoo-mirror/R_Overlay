@@ -36,9 +36,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_timereg? ( sci-CRAN/timereg )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.12.6
+DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/Rcpp-0.12.6
 	virtual/boot
-	>=dev-lang/R-3.5.0
 	virtual/survival
 "
 RDEPEND="${DEPEND-}

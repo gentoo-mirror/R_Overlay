@@ -26,17 +26,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_utf8? ( sci-CRAN/utf8 )
 "
-DEPEND="sci-CRAN/naniar
-	sci-CRAN/tidyr
-	sci-CRAN/httr
-	sci-CRAN/stringr
-	sci-CRAN/memoise
-	>=dev-lang/R-3.2.0
+DEPEND="sci-CRAN/httr
+	sci-CRAN/dplyr
 	sci-CRAN/purrr
+	sci-CRAN/tibble
+	sci-CRAN/js
+	sci-CRAN/tidyr
+	sci-CRAN/naniar
+	>=dev-lang/R-3.2.0
+	sci-CRAN/stringr
 	sci-CRAN/jsonlite
 	sci-CRAN/readr
-	sci-CRAN/tibble
-	sci-CRAN/dplyr
-	sci-CRAN/js
+	sci-CRAN/memoise
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

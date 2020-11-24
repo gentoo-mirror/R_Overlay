@@ -22,17 +22,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/R6
+DEPEND="sci-CRAN/dplyr
+	>=sci-CRAN/DBI-1.0.0
+	sci-CRAN/tibble
 	sci-CRAN/rlang
+	>=dev-lang/R-3.3
 	>=sci-CRAN/httr-1.3
 	sci-CRAN/jsonlite
+	sci-CRAN/R6
 	sci-CRAN/openssl
 	sci-CRAN/AzureAuth
 	>=sci-CRAN/AzureRMR-2.0.0
 	>=sci-CRAN/tidyselect-0.2.4
-	>=sci-CRAN/DBI-1.0.0
-	sci-CRAN/tibble
-	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

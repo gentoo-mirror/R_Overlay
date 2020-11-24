@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="virtual/Matrix
+	sci-CRAN/expm
 	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
-	sci-CRAN/expm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

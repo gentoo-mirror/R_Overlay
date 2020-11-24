@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/zoo
-	sci-CRAN/plotly
-	sci-CRAN/dplyr
-	sci-CRAN/xts
-	sci-CRAN/lubridate
-	sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/plotly
 	sci-CRAN/viridis
+	sci-CRAN/zoo
+	sci-CRAN/xts
+	sci-CRAN/RColorBrewer
+	>=dev-lang/R-3.3.0
+	sci-CRAN/dplyr
+	sci-CRAN/lubridate
 	sci-CRAN/scales
 	virtual/MASS
 "

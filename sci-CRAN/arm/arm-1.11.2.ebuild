@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/arm_1.11-2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/Hmisc
-	>=dev-lang/R-3.1.0
-	virtual/MASS
+DEPEND=">=dev-lang/R-3.1.0
 	>=sci-CRAN/lme4-1.0
-	sci-CRAN/abind
+	sci-CRAN/Hmisc
 	sci-CRAN/coda
+	virtual/MASS
+	virtual/Matrix
+	sci-CRAN/abind
 	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

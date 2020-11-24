@@ -12,12 +12,12 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_soilphysics"
 R_SUGGESTS="r_suggests_soilphysics? ( sci-CRAN/soilphysics )"
-DEPEND="virtual/lattice
-	sci-CRAN/tkrplot
-	virtual/MASS
-	sci-CRAN/rpanel
-	>=dev-lang/R-2.15
-	virtual/spatial
+DEPEND=">=dev-lang/R-2.15
+	virtual/lattice
 	virtual/boot
+	sci-CRAN/rpanel
+	virtual/MASS
+	sci-CRAN/tkrplot
+	virtual/spatial
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_mgcv? ( virtual/mgcv )
 "
 DEPEND=">=dev-lang/R-3.4.0
+	>=sci-CRAN/TeachingDemos-2.10
 	>=sci-CRAN/Formula-1.2.3
 	>=sci-CRAN/plotmo-3.6.0
-	>=sci-CRAN/TeachingDemos-2.10
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

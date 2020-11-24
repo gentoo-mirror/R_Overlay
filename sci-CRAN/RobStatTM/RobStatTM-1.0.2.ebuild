@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/pyinit
+	sci-CRAN/shinyjs
+	sci-CRAN/DT
+	sci-CRAN/xts
+	sci-CRAN/gridExtra
+	sci-CRAN/ggplot2
+	sci-CRAN/fit_models
+	sci-CRAN/DEoptimR
+	sci-CRAN/rrcov
 	sci-CRAN/robustbase
 	sci-CRAN/shiny
-	sci-CRAN/shinyjs
-	sci-CRAN/DEoptimR
 	sci-CRAN/PerformanceAnalytics
-	sci-CRAN/DT
-	sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
-	sci-CRAN/xts
-	sci-CRAN/fit_models
-	sci-CRAN/pyinit
-	sci-CRAN/rrcov
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

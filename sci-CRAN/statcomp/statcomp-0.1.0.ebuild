@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/statcomp_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/zoo
-	virtual/Matrix
+DEPEND="virtual/Matrix
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-}"

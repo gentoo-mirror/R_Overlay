@@ -26,9 +26,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/bayesplot
-	virtual/MASS
+DEPEND="sci-CRAN/mvtnorm
 	>=dev-lang/R-3.6
-	sci-CRAN/mvtnorm
+	virtual/MASS
+	sci-CRAN/bayesplot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

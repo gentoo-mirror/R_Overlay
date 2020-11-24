@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/xts
+	sci-CRAN/data_table
 	>=sci-CRAN/zoo-1.7.12
 	sci-CRAN/jsonlite
-	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

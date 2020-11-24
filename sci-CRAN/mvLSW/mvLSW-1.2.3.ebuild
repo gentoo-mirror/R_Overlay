@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/mvLSW_1.2.3.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.2
+	sci-CRAN/fields
 	sci-CRAN/zoo
 	sci-CRAN/wavethresh
-	sci-CRAN/fields
 	sci-CRAN/xts
 "
 RDEPEND="${DEPEND-}"

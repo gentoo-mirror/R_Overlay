@@ -14,9 +14,9 @@ IUSE="${IUSE-} r_suggests_gvcm_cat"
 R_SUGGESTS="r_suggests_gvcm_cat? ( sci-CRAN/gvcm_cat )"
 DEPEND="virtual/Matrix
 	sci-CRAN/psychotools
+	sci-CRAN/TeachingDemos
 	sci-CRAN/stringr
 	>=sci-CRAN/Rcpp-0.11.3
-	sci-CRAN/TeachingDemos
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

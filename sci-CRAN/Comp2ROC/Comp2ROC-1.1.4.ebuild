@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/Comp2ROC_1.1.4.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.15.1
-	virtual/boot
 	sci-CRAN/ROCR
+	virtual/boot
 "
 RDEPEND="${DEPEND-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DTRreg_1.7.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/dplyr
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

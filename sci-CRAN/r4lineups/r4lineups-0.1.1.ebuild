@@ -16,16 +16,16 @@ R_SUGGESTS="
 	r_suggests_pander? ( sci-CRAN/pander )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/magrittr
-	sci-CRAN/pROC
-	sci-CRAN/magick
-	sci-CRAN/here
-	sci-CRAN/psych
-	sci-CRAN/purrr
-	>=dev-lang/R-3.4.0
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/dplyr
 	virtual/boot
 	sci-CRAN/ggrepel
+	sci-CRAN/magick
+	sci-CRAN/purrr
+	sci-CRAN/ggplot2
+	sci-CRAN/here
+	sci-CRAN/magrittr
+	sci-CRAN/pROC
+	sci-CRAN/psych
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

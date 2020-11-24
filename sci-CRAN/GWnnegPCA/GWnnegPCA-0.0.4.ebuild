@@ -11,15 +11,15 @@ SRC_URI="http://cran.r-project.org/src/contrib/GWnnegPCA_0.0.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/pracma
+	sci-CRAN/spData
+	sci-CRAN/nsprcomp
+	sci-CRAN/geodist
 	sci-CRAN/sf
 	sci-CRAN/sp
-	sci-CRAN/geodist
-	sci-CRAN/nsprcomp
-	sci-CRAN/spData
+	sci-CRAN/pracma
 "
 RDEPEND="${DEPEND-}
-	sci-libs/proj
-	sci-libs/gdal
 	sci-libs/geos
+	sci-libs/gdal
+	sci-libs/proj
 "

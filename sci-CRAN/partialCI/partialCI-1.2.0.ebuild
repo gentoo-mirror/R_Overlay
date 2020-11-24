@@ -18,13 +18,13 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/TTR
 	sci-CRAN/glmnet
+	sci-CRAN/KFAS
 	sci-CRAN/data_table
-	sci-CRAN/zoo
+	sci-CRAN/Rcpp
 	sci-CRAN/partialAR
 	sci-CRAN/ggplot2
+	sci-CRAN/zoo
 	virtual/MASS
-	sci-CRAN/Rcpp
-	sci-CRAN/KFAS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

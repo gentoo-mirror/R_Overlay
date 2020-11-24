@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_flextable? ( sci-CRAN/flextable )
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 "
-DEPEND="sci-CRAN/rlang
-	sci-CRAN/uuid
-	sci-CRAN/memoise
+DEPEND="sci-CRAN/knitr
 	>=sci-CRAN/officer-0.3.12
-	sci-CRAN/xml2
-	sci-CRAN/knitr
 	sci-CRAN/rmarkdown
+	sci-CRAN/rlang
+	sci-CRAN/xml2
+	sci-CRAN/uuid
 	sci-CRAN/yaml
+	sci-CRAN/memoise
 	>=sci-CRAN/rvg-0.2.2
 "
 RDEPEND="${DEPEND-}

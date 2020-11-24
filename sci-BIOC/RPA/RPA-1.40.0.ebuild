@@ -13,8 +13,8 @@ LICENSE='BSD-2'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.1.1
-	sci-BIOC/affy
 	sci-BIOC/phyloseq
+	sci-BIOC/affy
 	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

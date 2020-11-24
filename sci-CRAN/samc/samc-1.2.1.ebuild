@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="virtual/Matrix
-	>=dev-lang/R-3.3.0
-	sci-CRAN/raster
+DEPEND=">=dev-lang/R-3.3.0
+	virtual/Matrix
 	sci-CRAN/gdistance
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-1.0.1

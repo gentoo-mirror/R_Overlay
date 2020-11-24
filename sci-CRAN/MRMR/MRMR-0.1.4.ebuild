@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/lubridate
-	sci-CRAN/plyr
+	sci-CRAN/lmtest
 	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
-	sci-CRAN/lmtest
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

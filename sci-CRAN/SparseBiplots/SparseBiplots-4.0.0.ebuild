@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SparseBiplots_4.0.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/ggrepel
-	sci-CRAN/sparsepca
-	sci-CRAN/rlang
+DEPEND="sci-CRAN/rlang
+	sci-CRAN/testthat
 	sci-CRAN/gtable
+	sci-CRAN/ggrepel
 	>=dev-lang/R-3.2
 	sci-CRAN/ggplot2
-	sci-CRAN/testthat
+	sci-CRAN/sparsepca
 "
 RDEPEND="${DEPEND-}"

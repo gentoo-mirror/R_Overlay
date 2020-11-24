@@ -15,27 +15,27 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="dev-lang/R[tk]
-	virtual/MASS
-	sci-CRAN/ape
-	sci-CRAN/phylobase
-	sci-CRAN/expm
-	sci-CRAN/pbapply
-	sci-CRAN/Rcpp
-	sci-CRAN/stringr
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/rrBLUP
-	virtual/Matrix
 	sci-CRAN/rgl
-	virtual/cluster
-	sci-CRAN/pegas
-	sci-BIOC/ggtree
-	sci-CRAN/ggimage
-	sci-CRAN/pbmcapply
-	sci-CRAN/haplotypes
+	sci-CRAN/stringr
 	sci-CRAN/ggplot2
 	sci-CRAN/scatterpie
-	>=dev-lang/R-3.5.0
+	dev-lang/R[tk]
+	sci-CRAN/Rcpp
+	virtual/MASS
+	sci-CRAN/phylobase
+	virtual/cluster
+	sci-CRAN/pbmcapply
 	sci-CRAN/optimx
+	sci-CRAN/ape
+	sci-CRAN/pegas
+	sci-BIOC/ggtree
+	virtual/Matrix
+	sci-CRAN/haplotypes
+	sci-CRAN/ggimage
+	sci-CRAN/expm
+	sci-CRAN/pbapply
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_rticles? ( sci-CRAN/rticles )
 "
 DEPEND="sci-CRAN/mvtnorm
-	>=dev-lang/R-3.5.0
+	>=sci-CRAN/vars-1.5.3
 	sci-CRAN/strucchange
+	>=dev-lang/R-3.5.0
 	>=sci-CRAN/corpcor-1.6.9
 	>=sci-CRAN/ars-0.6
-	>=sci-CRAN/vars-1.5.3
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

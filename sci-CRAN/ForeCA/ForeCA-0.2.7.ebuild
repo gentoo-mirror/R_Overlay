@@ -23,9 +23,9 @@ R_SUGGESTS="
 	r_suggests_rsfa? ( sci-CRAN/rSFA )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND=">=sci-CRAN/reshape2-1.4.4
-	>=sci-CRAN/astsa-1.10
+DEPEND=">=dev-lang/R-3.5.0
 	virtual/MASS
-	>=dev-lang/R-3.5.0
+	>=sci-CRAN/reshape2-1.4.4
+	>=sci-CRAN/astsa-1.10
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

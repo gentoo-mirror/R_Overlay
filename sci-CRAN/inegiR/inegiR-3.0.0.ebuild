@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/inegiR_3.0.0.tar.gz"
 LICENSE='CC0-1.0'
 
-DEPEND="sci-CRAN/zoo
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/tibbletime
 	sci-CRAN/plyr
-	sci-CRAN/jsonlite
-	sci-CRAN/XML
+	sci-CRAN/zoo
 	sci-CRAN/lubridate
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-}"

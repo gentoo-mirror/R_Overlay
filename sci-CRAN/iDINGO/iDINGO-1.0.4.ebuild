@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/iDINGO_1.0.4.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/GGMridge
-	sci-CRAN/visNetwork
+DEPEND="sci-CRAN/igraph
 	sci-CRAN/mvtnorm
+	sci-CRAN/GGMridge
 	sci-CRAN/glasso
-	sci-CRAN/igraph
+	sci-CRAN/visNetwork
 	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}"

@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/OneArmPhaseTwoStudy_1.0.3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/Rcpp-0.9.11
+DEPEND=">=sci-CRAN/Rcpp-0.9.11
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

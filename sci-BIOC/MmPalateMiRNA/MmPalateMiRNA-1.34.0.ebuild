@@ -28,14 +28,14 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
 "
-DEPEND=">=dev-lang/R-2.13.0
-	sci-BIOC/Biobase
-	sci-CRAN/statmod
+DEPEND="virtual/lattice
+	sci-BIOC/limma
+	sci-BIOC/vsn
+	>=dev-lang/R-2.13.0
 	sci-BIOC/limma
 	sci-CRAN/xtable
-	sci-BIOC/vsn
-	virtual/lattice
-	sci-BIOC/limma
+	sci-BIOC/Biobase
+	sci-CRAN/statmod
 	virtual/lattice
 	sci-BIOC/Biobase
 "

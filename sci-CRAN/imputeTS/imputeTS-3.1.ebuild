@@ -26,12 +26,12 @@ R_SUGGESTS="
 	r_suggests_zoo? ( sci-CRAN/zoo )
 "
 DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/Rcpp
-	sci-CRAN/forecast
-	sci-CRAN/magrittr
-	>=dev-lang/R-3.0.1
 	sci-CRAN/ggtext
+	sci-CRAN/magrittr
 	sci-CRAN/stinepack
+	>=dev-lang/R-3.0.1
+	sci-CRAN/forecast
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

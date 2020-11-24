@@ -21,9 +21,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2
 	>=sci-CRAN/numDeriv-2014.2.1
+	>=sci-CRAN/lme4-1.1.10
 	>=sci-CRAN/cubature-1.1.2
 	>=sci-CRAN/Formula-1.1.2
-	>=sci-CRAN/lme4-1.1.10
 	>=sci-CRAN/rootSolve-1.6.6
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

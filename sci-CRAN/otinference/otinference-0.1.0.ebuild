@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/otinference_0.1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="virtual/MASS
-	sci-mathematics/glpk
-	>=sci-CRAN/transport-0.8.1
 	>=sci-CRAN/sm-2.2.5.4
+	>=sci-CRAN/transport-0.8.1
+	sci-mathematics/glpk
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

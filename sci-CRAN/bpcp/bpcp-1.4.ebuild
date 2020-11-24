@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bpcp_1.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/ggplot2
-	virtual/survival
+DEPEND="virtual/survival
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

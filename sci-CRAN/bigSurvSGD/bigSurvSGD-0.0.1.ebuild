@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bigSurvSGD_0.0.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/foreach
 	>=sci-CRAN/Rcpp-1.0.4
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
 	sci-CRAN/bigmemory
 	virtual/survival
+	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

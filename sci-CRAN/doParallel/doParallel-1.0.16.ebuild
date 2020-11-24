@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=dev-lang/R-2.14.0
+DEPEND=">=sci-CRAN/iterators-1.0.0
+	>=dev-lang/R-2.14.0
 	>=sci-CRAN/foreach-1.2.0
-	>=sci-CRAN/iterators-1.0.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

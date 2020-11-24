@@ -11,15 +11,15 @@ SRC_URI="http://cran.r-project.org/src/contrib/swissparl_0.2.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/dplyr
+	sci-CRAN/crayon
+	sci-CRAN/lubridate
+	sci-CRAN/httr
 	sci-CRAN/jsonlite
-	sci-CRAN/stringr
 	sci-CRAN/purrr
+	sci-CRAN/stringr
 	sci-CRAN/magrittr
 	sci-CRAN/tibble
 	sci-CRAN/tidyr
-	sci-CRAN/lubridate
-	sci-CRAN/crayon
-	sci-CRAN/httr
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

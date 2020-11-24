@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RapidPolygonLookup_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/RANN
-	sci-CRAN/RgoogleMaps
-	sci-CRAN/sp
+DEPEND="sci-CRAN/sp
 	sci-CRAN/PBSmapping
+	sci-CRAN/RgoogleMaps
+	sci-CRAN/RANN
 "
 RDEPEND="${DEPEND-}"

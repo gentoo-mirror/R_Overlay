@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=sci-CRAN/ROI-0.2.5
 	virtual/Matrix
-	>=sci-CRAN/clpAPI-1.2.7
 	sci-CRAN/slam
+	>=sci-CRAN/clpAPI-1.2.7
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

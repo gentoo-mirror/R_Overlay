@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mgpd_1.99.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-2.10.1
-	sci-CRAN/corpcor
-	sci-CRAN/numDeriv
-	sci-CRAN/evd
+DEPEND="sci-CRAN/numDeriv
 	sci-CRAN/fields
+	sci-CRAN/evd
+	>=dev-lang/R-2.10.1
+	sci-CRAN/corpcor
 "
 RDEPEND="${DEPEND-}"

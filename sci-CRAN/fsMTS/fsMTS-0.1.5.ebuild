@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_sparsevar? ( sci-CRAN/sparsevar )
 	r_suggests_svmisc? ( sci-CRAN/svMisc )
 "
-DEPEND="sci-CRAN/glasso
-	sci-CRAN/mpmi
-	>=dev-lang/R-3.6
-	sci-CRAN/lars
+DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/freqdom
+	sci-CRAN/mpmi
+	sci-CRAN/lars
+	sci-CRAN/glasso
 	sci-CRAN/randomForestSRC
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

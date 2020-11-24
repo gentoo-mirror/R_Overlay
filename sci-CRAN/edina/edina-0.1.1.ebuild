@@ -12,15 +12,15 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_simcdm"
 R_SUGGESTS="r_suggests_simcdm? ( sci-CRAN/simcdm )"
-DEPEND="sci-CRAN/reshape2
-	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/reshape2
 	sci-CRAN/jjb
+	sci-CRAN/ggplot2
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/rgen
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/rgen
 	${R_SUGGESTS-}
 "

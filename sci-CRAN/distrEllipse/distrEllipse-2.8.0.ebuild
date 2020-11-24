@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_distrmod? ( >=sci-CRAN/distrMod-2.8.0 )
 	r_suggests_distrtest? ( >=sci-CRAN/distrTEst-2.2 )
 "
-DEPEND=">=sci-CRAN/setRNG-2006.2.1
-	sci-CRAN/startupmsg
+DEPEND=">=dev-lang/R-3.4
 	>=sci-CRAN/distr-2.8.0
-	>=sci-CRAN/distrEx-2.8.0
-	>=dev-lang/R-3.4
 	sci-CRAN/mvtnorm
+	>=sci-CRAN/distrEx-2.8.0
+	>=sci-CRAN/setRNG-2006.2.1
 	>=sci-CRAN/distrSim-2.2
+	sci-CRAN/startupmsg
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

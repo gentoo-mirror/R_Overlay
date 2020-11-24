@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_fftwtools"
 R_SUGGESTS="r_suggests_fftwtools? ( >=sci-CRAN/fftwtools-0.9.8 )"
-DEPEND="sci-CRAN/spatstat_utils
+DEPEND="sci-CRAN/spatstat
 	sci-CRAN/misc3d
-	sci-CRAN/foreach
-	sci-CRAN/spatstat
-	>=dev-lang/R-2.10.1
 	sci-CRAN/doParallel
+	>=dev-lang/R-2.10.1
+	sci-CRAN/spatstat_utils
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

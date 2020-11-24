@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.EBM_1.0-10.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/epiR
-	>=sci-CRAN/Rcmdr-1.7.0
+DEPEND=">=sci-CRAN/Rcmdr-1.7.0
+	sci-CRAN/epiR
 	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-}"

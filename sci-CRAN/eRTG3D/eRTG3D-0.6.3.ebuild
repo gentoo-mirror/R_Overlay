@@ -24,13 +24,13 @@ R_SUGGESTS="
 	r_suggests_sp? ( >=sci-CRAN/sp-1.3.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/CircStats-0.2.6
+DEPEND=">=sci-CRAN/plotly-4.9.0
 	>=sci-CRAN/pbapply-1.4.1
-	>=sci-CRAN/plotly-4.9.0
-	>=dev-lang/R-3.5.0
+	>=sci-CRAN/tiff-0.1.5
 	>=sci-CRAN/ggplot2-3.1.1
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/CircStats-0.2.6
 	>=sci-CRAN/raster-2.9.5
 	>=sci-CRAN/rasterVis-0.45
-	>=sci-CRAN/tiff-0.1.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

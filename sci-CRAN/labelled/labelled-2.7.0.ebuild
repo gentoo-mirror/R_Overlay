@@ -22,11 +22,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_utf8? ( sci-CRAN/utf8 )
 "
-DEPEND=">=sci-CRAN/haven-2.3.1
-	sci-CRAN/dplyr
-	sci-CRAN/lifecycle
+DEPEND="sci-CRAN/lifecycle
 	sci-CRAN/rlang
 	sci-CRAN/vctrs
+	sci-CRAN/dplyr
+	>=sci-CRAN/haven-2.3.1
 	sci-CRAN/pillar
 	sci-CRAN/tidyr
 "

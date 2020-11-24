@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/xxIRT_2.1.2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/lpSolveAPI
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
 	sci-mathematics/glpk
 	sci-CRAN/reshape2
-	>=dev-lang/R-3.5.0
+	sci-CRAN/lpSolveAPI
 "
 RDEPEND="${DEPEND-}"

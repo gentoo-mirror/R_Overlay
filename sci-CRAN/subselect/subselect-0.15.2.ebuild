@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/subselect_0.15.2.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/ISwR
 	virtual/MASS
 	sci-CRAN/corpcor
-	sci-CRAN/ISwR
 "
 RDEPEND="${DEPEND-}"

@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/multiviewtest_2.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.4
+	sci-CRAN/randnet
 	sci-CRAN/mclust
+	virtual/Matrix
+	virtual/Matrix
+	sci-CRAN/irlba
 	sci-CRAN/doParallel
 	sci-CRAN/foreach
-	virtual/Matrix
-	virtual/Matrix
-	sci-CRAN/randnet
-	sci-CRAN/irlba
 "
 RDEPEND="${DEPEND-}"

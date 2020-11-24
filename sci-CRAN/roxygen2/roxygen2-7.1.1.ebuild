@@ -19,20 +19,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.2
+DEPEND="sci-CRAN/brew
+	sci-CRAN/rlang
+	sci-CRAN/digest
 	>=sci-CRAN/desc-1.2.0
 	sci-CRAN/knitr
-	sci-CRAN/brew
+	sci-CRAN/xml2
+	>=dev-lang/R-3.2
+	sci-CRAN/commonmark
+	>=sci-CRAN/pkgload-1.0.2
 	>=sci-CRAN/purrr-0.3.3
 	>=sci-CRAN/R6-2.1.2
-	>=sci-CRAN/stringr-1.0.0
-	sci-CRAN/commonmark
-	sci-CRAN/digest
-	>=sci-CRAN/pkgload-1.0.2
 	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/rlang
 	sci-CRAN/stringi
-	sci-CRAN/xml2
+	>=sci-CRAN/stringr-1.0.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

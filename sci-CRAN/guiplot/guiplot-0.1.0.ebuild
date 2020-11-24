@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/guiplot_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.6.0
-	>=sci-CRAN/shiny-1.0.0
-	>=sci-CRAN/rlang-0.3.1
+	sci-CRAN/R6
 	>=sci-CRAN/ggplot2-3.0.0
+	sci-CRAN/magrittr
+	>=sci-CRAN/shiny-1.0.0
 	sci-CRAN/DT
 	sci-CRAN/svglite
-	sci-CRAN/magrittr
-	sci-CRAN/R6
+	>=sci-CRAN/rlang-0.3.1
 "
 RDEPEND="${DEPEND-}"

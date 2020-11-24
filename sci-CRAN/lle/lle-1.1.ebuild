@@ -13,7 +13,7 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_rgl"
 R_SUGGESTS="r_suggests_rgl? ( sci-CRAN/rgl )"
 DEPEND="sci-CRAN/scatterplot3d
-	sci-CRAN/snowfall
 	virtual/MASS
+	sci-CRAN/snowfall
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

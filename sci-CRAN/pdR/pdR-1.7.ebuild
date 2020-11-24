@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pdR_1.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/car
-	sci-CRAN/sandwich
-	virtual/boot
-	sci-CRAN/lmtest
+DEPEND="sci-CRAN/lmtest
 	sci-CRAN/plm
-	dev-lang/R[tk]
 	sci-CRAN/coefplot
+	dev-lang/R[tk]
+	sci-CRAN/car
+	virtual/boot
+	sci-CRAN/sandwich
 	sci-CRAN/papeR
 "
 RDEPEND="${DEPEND-}"

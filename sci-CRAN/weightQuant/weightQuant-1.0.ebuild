@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/weightQuant_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/quantreg
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/doSNOW
 	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
 	sci-CRAN/mvtnorm
-	sci-CRAN/doSNOW
 	>=dev-lang/R-3.2.5
 	sci-CRAN/foreach
 	>=sci-CRAN/Rcpp-0.12.5

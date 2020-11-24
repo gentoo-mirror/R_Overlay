@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/cowplot
+DEPEND="sci-CRAN/cowplot
 	sci-CRAN/circlize
-	sci-CRAN/reshape
+	sci-CRAN/ggplot2
 	sci-CRAN/dplyr
 	>=dev-lang/R-3.2.0
 	sci-CRAN/ggridges
+	sci-CRAN/reshape
 	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_fabletools? ( >=sci-CRAN/fabletools-0.2.0 )
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 "
-DEPEND=">=sci-CRAN/dendextend-1.13.4
+DEPEND=">=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/dendextend-1.13.4
 	>=sci-CRAN/lubridate-1.7.9
 	>=sci-CRAN/crosstalk-1.1.0.1
-	>=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/glue-1.4.1
 	>=sci-CRAN/plotly-4.9.2.1
-	>=sci-CRAN/R6-2.4.1
 	>=sci-CRAN/rlang-0.4.6
+	>=sci-CRAN/R6-2.4.1
 	>=sci-CRAN/shiny-1.5.0
 	>=sci-CRAN/tsibble-0.9.1
 	>=sci-CRAN/vctrs-0.3.1

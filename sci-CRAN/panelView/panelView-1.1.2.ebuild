@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/panelView_1.1.2.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/gridExtra
-	>=sci-CRAN/ggplot2-2.1.0
+DEPEND=">=sci-CRAN/ggplot2-2.1.0
+	sci-CRAN/gridExtra
 "
 RDEPEND="${DEPEND-}"

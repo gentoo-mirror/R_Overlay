@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_xts? ( sci-CRAN/xts )
 "
 DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/dplyr
+	sci-CRAN/dynlm
 	sci-CRAN/aod
 	sci-CRAN/lmtest
-	sci-CRAN/dynlm
-	sci-CRAN/dplyr
 	sci-CRAN/msm
 	sci-CRAN/stringr
 	sci-CRAN/zoo

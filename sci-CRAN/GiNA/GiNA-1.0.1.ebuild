@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GiNA_1.0.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.2.1
-	sci-CRAN/png
-	sci-BIOC/EBImage
+DEPEND="sci-BIOC/EBImage
+	>=dev-lang/R-3.2.1
 	sci-CRAN/doParallel
+	sci-CRAN/png
 	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

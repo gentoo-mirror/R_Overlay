@@ -22,8 +22,8 @@ R_SUGGESTS="
 	r_suggests_wordcloud2? ( sci-CRAN/wordcloud2 )
 "
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/Rcpp
 	sci-CRAN/digest
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.12

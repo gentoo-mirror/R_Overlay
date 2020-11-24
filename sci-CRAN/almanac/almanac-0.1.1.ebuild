@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/glue
-	sci-CRAN/magrittr
-	sci-CRAN/lubridate
+DEPEND=">=dev-lang/R-3.2
 	sci-CRAN/R6
-	>=dev-lang/R-3.2
+	sci-CRAN/lubridate
+	sci-CRAN/magrittr
+	sci-CRAN/glue
 	sci-CRAN/rlang
 	>=sci-CRAN/V8-3.0.1
 	>=sci-CRAN/vctrs-0.3.0

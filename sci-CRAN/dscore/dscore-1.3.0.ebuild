@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_sirt? ( sci-CRAN/sirt )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/Rcpp
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/Rcpp
 	>=sci-CRAN/tidyr-1.0.0
-	>=dev-lang/R-3.5
-	sci-CRAN/stringr
 	>=sci-CRAN/dplyr-0.8.2
+	sci-CRAN/stringr
 	sci-CRAN/tidyselect
 "
 RDEPEND="${DEPEND-}

@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SIDES_1.15.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.1.2
+DEPEND="virtual/nnet
+	>=sci-CRAN/doParallel-1.0.10
 	>=sci-CRAN/foreach-1.4.3
+	virtual/MASS
+	>=dev-lang/R-3.1.2
 	>=sci-CRAN/multicool-0.1.9
 	>=sci-CRAN/memoise-1.0.0
-	virtual/nnet
 	virtual/survival
-	>=sci-CRAN/doParallel-1.0.10
-	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

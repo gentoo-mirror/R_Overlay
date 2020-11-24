@@ -20,9 +20,9 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/Rcpp-0.12.17
 	virtual/Matrix
+	sci-CRAN/igraph
 	sci-CRAN/stringr
 	sci-CRAN/gtools
-	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

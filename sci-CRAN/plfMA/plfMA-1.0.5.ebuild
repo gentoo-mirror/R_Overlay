@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/plfMA_1.0.5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/gWidgets2RGtk2
+DEPEND=">=dev-lang/R-3.1.1
+	sci-CRAN/gWidgets2RGtk2
+	sci-BIOC/limma
 	sci-CRAN/cairoDevice
 	dev-lang/R[tk]
-	sci-CRAN/gWidgets2
-	>=dev-lang/R-3.1.1
-	sci-BIOC/limma
 	sci-CRAN/RGtk2
+	sci-CRAN/gWidgets2
 "
 RDEPEND="${DEPEND-}"

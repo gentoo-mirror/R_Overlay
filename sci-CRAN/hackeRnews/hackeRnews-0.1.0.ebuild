@@ -21,8 +21,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/future_apply
-	sci-CRAN/jsonlite
-	sci-CRAN/tibble
 	sci-CRAN/httr
+	sci-CRAN/tibble
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/JM_1.4-8.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/survival
-	>=dev-lang/R-3.0.0
 	virtual/nlme
+	>=dev-lang/R-3.0.0
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

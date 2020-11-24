@@ -22,16 +22,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/magrittr
-	>=sci-CRAN/tibble-2.1.1
+DEPEND="sci-CRAN/glue
+	>=sci-CRAN/vctrs-0.3.0
 	sci-CRAN/rlang
-	sci-CRAN/glue
-	>=sci-CRAN/tidyselect-1.1.0
-	>=dev-lang/R-3.1
 	>=sci-CRAN/ellipsis-0.1.0
+	>=dev-lang/R-3.1
+	sci-CRAN/magrittr
 	>=sci-CRAN/dplyr-0.8.2
 	sci-CRAN/purrr
-	>=sci-CRAN/vctrs-0.3.0
+	>=sci-CRAN/tibble-2.1.1
+	>=sci-CRAN/tidyselect-1.1.0
 	sci-CRAN/lifecycle
 "
 RDEPEND="${DEPEND-}

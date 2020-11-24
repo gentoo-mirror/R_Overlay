@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/Metatron_0.1-1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-2.15.0
-	virtual/Matrix
-	sci-CRAN/lme4
 	sci-CRAN/mpt
+	sci-CRAN/lme4
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/PedCNV_0.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=sci-CRAN/Rcpp-0.10.4
-	sci-CRAN/ggplot2
 	>=sci-CRAN/RcppArmadillo-0.3.900.0
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

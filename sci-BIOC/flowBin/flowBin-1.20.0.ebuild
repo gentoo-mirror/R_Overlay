@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/flowBin_1.20.0.tar.gz"
 LICENSE='Artistic-2'
 
-DEPEND="sci-BIOC/flowFP
-	virtual/class
-	sci-BIOC/flowCore
+DEPEND="virtual/class
 	sci-CRAN/snow
-	sci-BIOC/limma
 	sci-BIOC/BiocGenerics
+	sci-BIOC/flowFP
+	sci-BIOC/flowCore
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-}"

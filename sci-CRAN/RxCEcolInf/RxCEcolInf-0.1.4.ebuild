@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RxCEcolInf_0.1-4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/coda
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
 	virtual/lattice
 	sci-CRAN/MCMCpack
+	sci-CRAN/coda
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

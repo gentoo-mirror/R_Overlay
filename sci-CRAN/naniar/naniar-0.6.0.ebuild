@@ -29,15 +29,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 	r_suggests_wakefield? ( sci-CRAN/wakefield )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/magrittr
-	sci-CRAN/tidyr
-	sci-CRAN/rlang
-	>=dev-lang/R-3.1.2
-	sci-CRAN/dplyr
+DEPEND=">=dev-lang/R-3.1.2
+	sci-CRAN/purrr
 	sci-CRAN/ggplot2
+	sci-CRAN/dplyr
+	sci-CRAN/tidyr
+	sci-CRAN/magrittr
 	>=sci-CRAN/tibble-2.0.0
 	sci-CRAN/visdat
+	sci-CRAN/rlang
 	sci-CRAN/forcats
 	sci-CRAN/viridis
 	sci-CRAN/glue

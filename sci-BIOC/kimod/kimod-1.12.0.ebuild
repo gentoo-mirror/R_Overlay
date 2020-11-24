@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/kimod_1.12.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-BIOC/Biobase
-	>=dev-lang/R-3.3
+DEPEND=">=dev-lang/R-3.3
+	sci-BIOC/Biobase
 	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

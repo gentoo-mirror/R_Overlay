@@ -19,16 +19,16 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RPMM
-	sci-CRAN/RCurl
-	sci-CRAN/data_table
+DEPEND=">=dev-lang/R-3.2.0
+	sci-BIOC/impute
+	sci-CRAN/RColorBrewer
+	sci-CRAN/RPMM
 	sci-CRAN/foreach
 	sci-CRAN/ggplot2
+	sci-CRAN/RCurl
+	sci-CRAN/data_table
 	sci-BIOC/limma
 	sci-CRAN/R_matlab
 	sci-CRAN/digest
-	>=dev-lang/R-3.2.0
-	sci-CRAN/RColorBrewer
-	sci-BIOC/impute
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

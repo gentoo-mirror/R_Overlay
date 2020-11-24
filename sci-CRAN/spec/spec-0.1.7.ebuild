@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/spec_0.1.7.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/csv
-	sci-CRAN/magrittr
 	sci-CRAN/encode
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}"

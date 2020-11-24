@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_lintr? ( sci-CRAN/lintr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/shinyjs
-	sci-CRAN/rBiasCorrection
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/rBiasCorrection
+	sci-CRAN/shiny
 	sci-CRAN/magrittr
 	sci-CRAN/DT
-	sci-CRAN/shiny
+	sci-CRAN/data_table
 	sci-CRAN/shinydashboard
+	sci-CRAN/shinyjs
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.4.0
 	sci-BIOC/Biobase
-	sci-BIOC/limma
 	virtual/MASS
+	sci-BIOC/limma
 "
 RDEPEND="${DEPEND-}"

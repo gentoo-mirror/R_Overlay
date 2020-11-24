@@ -16,25 +16,25 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.2
+DEPEND=">=sci-CRAN/earth-4.4.3
+	>=dev-lang/R-3.2.2
 	>=sci-CRAN/raster-2.9.5
-	>=sci-CRAN/gbm-2.1.1
 	virtual/rpart
-	>=sci-CRAN/shiny-0.12.2
+	>=sci-CRAN/ggplot2-3.1.1
+	>=sci-CRAN/scales-1.0.0
 	>=sci-CRAN/shinydashboard-0.5.1
 	>=sci-CRAN/shinyFiles-0.7.0
 	>=sci-CRAN/poibin-1.3.0
-	virtual/nnet
-	>=sci-CRAN/reshape2-1.4.3
-	>=sci-CRAN/scales-1.0.0
+	>=sci-CRAN/gbm-2.1.1
 	>=sci-CRAN/dismo-1.0.12
 	>=sci-CRAN/sp-1.2.0
-	>=sci-CRAN/randomForest-4.6.10
-	>=sci-CRAN/ggplot2-3.1.1
+	virtual/nnet
 	>=sci-CRAN/e1071-1.6.7
+	>=sci-CRAN/reshape2-1.4.3
+	>=sci-CRAN/shiny-0.12.2
 	>=sci-CRAN/spThin-0.1.0
 	virtual/mgcv
-	>=sci-CRAN/earth-4.4.3
+	>=sci-CRAN/randomForest-4.6.10
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

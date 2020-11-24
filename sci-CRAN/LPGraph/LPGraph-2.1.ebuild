@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/LPGraph_2.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/PMA
 	sci-CRAN/car
+	sci-CRAN/PMA
 "
 RDEPEND="${DEPEND-}"

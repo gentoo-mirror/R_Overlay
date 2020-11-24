@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=sci-CRAN/httpuv-1.5.0
-	sci-BIOC/BiocGenerics
+DEPEND="sci-BIOC/BiocGenerics
 	>=sci-CRAN/jsonlite-1.5
 	>=dev-lang/R-3.5.0
+	>=sci-CRAN/httpuv-1.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

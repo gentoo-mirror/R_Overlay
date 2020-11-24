@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RH2_0.2.4.tar.gz"
 LICENSE='MPL-1.1'
 
 DEPEND="sci-CRAN/chron
-	sci-CRAN/RJDBC
 	sci-CRAN/rJava
+	sci-CRAN/RJDBC
 "
 RDEPEND="${DEPEND-} virtual/jdk"

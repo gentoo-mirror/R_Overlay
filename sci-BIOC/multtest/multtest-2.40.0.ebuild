@@ -12,9 +12,9 @@ LICENSE='LGPL-3+'
 
 IUSE="${IUSE-} r_suggests_snow"
 R_SUGGESTS="r_suggests_snow? ( sci-CRAN/snow )"
-DEPEND="sci-BIOC/BiocGenerics
-	sci-BIOC/Biobase
-	virtual/MASS
+DEPEND="sci-BIOC/Biobase
 	virtual/survival
+	virtual/MASS
+	sci-BIOC/BiocGenerics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -25,9 +25,9 @@ R_SUGGESTS="
 	r_suggests_vsn? ( sci-BIOC/vsn )
 "
 DEPEND="virtual/survival
+	sci-BIOC/Biobase
 	sci-BIOC/annotate
 	sci-BIOC/AnnotationDbi
-	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

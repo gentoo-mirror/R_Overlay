@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/StratifiedBalancing_0.3.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/bnlearn
 	sci-CRAN/plyr
+	sci-CRAN/bnlearn
 "
 RDEPEND="${DEPEND-}"

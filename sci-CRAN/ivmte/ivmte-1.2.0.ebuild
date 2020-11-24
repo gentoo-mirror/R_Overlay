@@ -28,8 +28,8 @@ R_SUGGESTS="
 	r_suggests_splines2? ( >=sci-CRAN/splines2-0.2.8 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 )
 "
-DEPEND="sci-CRAN/Formula
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/Formula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

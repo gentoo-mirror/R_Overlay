@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_mlbench? ( sci-CRAN/mlbench )
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 "
-DEPEND="virtual/nnet
-	sci-CRAN/randomForest
+DEPEND=">=dev-lang/R-2.14.0
+	virtual/nnet
 	sci-CRAN/e1071
-	sci-CRAN/ipred
-	>=dev-lang/R-2.14.0
-	virtual/class
 	virtual/MASS
+	virtual/class
+	sci-CRAN/randomForest
+	sci-CRAN/ipred
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

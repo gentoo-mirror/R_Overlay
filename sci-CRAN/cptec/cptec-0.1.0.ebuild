@@ -13,8 +13,8 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_knitr"
 R_SUGGESTS="r_suggests_knitr? ( sci-CRAN/knitr )"
 DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/rvest
 	sci-CRAN/magrittr
 	sci-CRAN/xml2
-	sci-CRAN/rvest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-2.14.0
 	dev-lang/R[minimal]
-	virtual/Matrix
 	virtual/nlme
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

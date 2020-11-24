@@ -22,10 +22,10 @@ R_SUGGESTS="
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 	r_suggests_rpart? ( virtual/rpart )
 "
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/rasterVis
 	sci-CRAN/ROCR
-	sci-CRAN/rasterVis
-	virtual/lattice
 	sci-CRAN/raster
+	virtual/lattice
+	>=dev-lang/R-3.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

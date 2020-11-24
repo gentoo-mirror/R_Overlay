@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/fields_11.6.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/spam
 	sci-CRAN/maps
+	sci-CRAN/spam
 "
 RDEPEND="${DEPEND-}"

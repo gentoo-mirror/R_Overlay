@@ -20,17 +20,17 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.4
-	sci-CRAN/lubridate
-	sci-CRAN/httr
-	>=sci-CRAN/Rcpp-0.12.4
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/curl
-	sci-CRAN/rvest
-	sci-CRAN/jsonlite
-	sci-CRAN/magrittr
-	sci-CRAN/sp
-	sci-CRAN/tibble
+	>=dev-lang/R-3.2.4
+	sci-CRAN/lubridate
 	sci-CRAN/xml2
+	sci-CRAN/jsonlite
+	sci-CRAN/httr
+	sci-CRAN/magrittr
+	>=sci-CRAN/Rcpp-0.12.4
+	sci-CRAN/rvest
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

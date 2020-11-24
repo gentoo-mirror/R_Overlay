@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/DisHet_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.15.0
-	sci-CRAN/gtools
 	virtual/Matrix
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-}"

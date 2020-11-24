@@ -16,7 +16,7 @@ R_SUGGESTS="
 	r_suggests_plotrix? ( sci-CRAN/plotrix )
 "
 DEPEND="sci-CRAN/snowfall
-	sci-CRAN/rlecuyer
 	sci-CRAN/spdep
+	sci-CRAN/rlecuyer
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

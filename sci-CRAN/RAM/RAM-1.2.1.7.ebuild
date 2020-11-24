@@ -19,27 +19,27 @@ R_SUGGESTS="
 	r_suggests_mapproj? ( sci-CRAN/mapproj )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/gridExtra
-	sci-CRAN/data_table
-	sci-CRAN/ape
-	sci-CRAN/gplots
-	sci-CRAN/VennDiagram
-	sci-CRAN/phangorn
-	sci-CRAN/ggplot2
-	sci-CRAN/labdsv
-	sci-CRAN/permute
+DEPEND="sci-CRAN/scales
+	virtual/MASS
 	sci-CRAN/FD
 	sci-CRAN/reshape
-	sci-CRAN/RColorBrewer
-	sci-CRAN/reshape2
-	sci-CRAN/scales
-	sci-CRAN/ggmap
-	virtual/MASS
-	sci-CRAN/RgoogleMaps
 	sci-CRAN/vegan
-	virtual/lattice
-	sci-CRAN/ade4
+	sci-CRAN/gplots
+	sci-CRAN/ape
+	sci-CRAN/RColorBrewer
+	sci-CRAN/ggmap
 	sci-CRAN/phytools
+	sci-CRAN/plyr
+	sci-CRAN/reshape2
+	sci-CRAN/labdsv
+	virtual/lattice
+	sci-CRAN/RgoogleMaps
+	sci-CRAN/gridExtra
+	sci-CRAN/permute
+	sci-CRAN/data_table
+	sci-CRAN/phangorn
+	sci-CRAN/VennDiagram
+	sci-CRAN/ade4
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

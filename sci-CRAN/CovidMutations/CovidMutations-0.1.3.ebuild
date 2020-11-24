@@ -14,11 +14,11 @@ IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.6
 	sci-CRAN/dplyr
-	sci-CRAN/VennDiagram
+	sci-CRAN/ggplot2
+	sci-CRAN/stringr
+	sci-CRAN/seqinr
 	sci-CRAN/cowplot
 	sci-CRAN/ggpubr
-	sci-CRAN/seqinr
-	sci-CRAN/stringr
-	sci-CRAN/ggplot2
+	sci-CRAN/VennDiagram
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

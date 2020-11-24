@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/dplyr
-	sci-CRAN/httr
-	sci-CRAN/jsonlite
-	sci-CRAN/stringr
-	sci-CRAN/readr
 	sci-CRAN/getPass
+	sci-CRAN/dplyr
+	sci-CRAN/jsonlite
+	sci-CRAN/readr
+	sci-CRAN/httr
+	sci-CRAN/stringr
 	sci-CRAN/htmltools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

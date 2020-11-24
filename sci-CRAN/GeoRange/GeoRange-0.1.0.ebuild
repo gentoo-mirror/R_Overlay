@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GeoRange_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/raster
+DEPEND="sci-CRAN/sp
 	sci-CRAN/velociraptr
 	sci-CRAN/moments
+	sci-CRAN/raster
 	sci-CRAN/proj4
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

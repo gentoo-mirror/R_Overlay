@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/soptdmaeA_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.3.2
+	virtual/Matrix
 	virtual/MASS
 	sci-CRAN/igraph
 	dev-lang/R[tk]
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

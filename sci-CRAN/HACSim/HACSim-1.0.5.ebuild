@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HACSim_1.0.5.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=sci-CRAN/Rcpp-1.0.0
-	>=sci-CRAN/ape-5.2
+DEPEND=">=sci-CRAN/ape-5.2
+	>=sci-CRAN/Rcpp-1.0.0
 	>=sci-CRAN/pegas-0.11
 "
 RDEPEND="${DEPEND-}

@@ -12,16 +12,16 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_cghcall"
 R_SUGGESTS="r_suggests_cghcall? ( sci-BIOC/CGHcall )"
-DEPEND="sci-BIOC/CGHbase
-	sci-CRAN/penalized
-	sci-CRAN/igraph
-	sci-CRAN/quadprog
-	sci-CRAN/mvtnorm
-	sci-CRAN/snowfall
-	sci-BIOC/Biobase
-	>=sci-CRAN/corpcor-1.6.2
-	sci-BIOC/limma
-	sci-BIOC/marray
+DEPEND=">=sci-CRAN/corpcor-1.6.2
 	virtual/MASS
+	sci-CRAN/quadprog
+	sci-BIOC/limma
+	sci-CRAN/igraph
+	sci-BIOC/Biobase
+	sci-CRAN/mvtnorm
+	sci-BIOC/CGHbase
+	sci-BIOC/marray
+	sci-CRAN/penalized
+	sci-CRAN/snowfall
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

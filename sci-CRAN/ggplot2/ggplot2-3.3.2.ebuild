@@ -41,17 +41,17 @@ R_SUGGESTS="
 	r_suggests_svglite? ( >=sci-CRAN/svglite-1.2.0.9001 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.2
+DEPEND="sci-CRAN/digest
+	virtual/mgcv
+	>=sci-CRAN/gtable-0.1.1
+	>=sci-CRAN/scales-0.5.0
+	>=dev-lang/R-3.2
 	sci-CRAN/glue
 	sci-CRAN/isoband
-	sci-CRAN/digest
-	>=sci-CRAN/gtable-0.1.1
 	virtual/MASS
 	>=sci-CRAN/rlang-0.3.0
-	>=sci-CRAN/scales-0.5.0
 	sci-CRAN/tibble
 	>=sci-CRAN/withr-2.0.0
-	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

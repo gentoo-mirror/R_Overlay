@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/stratvns_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/MultAlloc
-	sci-CRAN/partitions
+DEPEND="sci-CRAN/partitions
+	>=dev-lang/R-3.5.0
 	sci-CRAN/purrr
+	sci-CRAN/MultAlloc
 "
 RDEPEND="${DEPEND-}"

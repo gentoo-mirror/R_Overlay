@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/InDisc_1.0.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/Matrix
-	sci-CRAN/optimbase
 	sci-CRAN/psych
+	sci-CRAN/optimbase
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

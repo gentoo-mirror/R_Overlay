@@ -27,11 +27,11 @@ R_SUGGESTS="
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
 DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/Rcpp
 	sci-CRAN/transport
+	sci-CRAN/pbapply
 	sci-CRAN/msm
 	sci-CRAN/ggplot2
-	sci-CRAN/pbapply
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

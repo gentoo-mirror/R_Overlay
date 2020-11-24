@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND=">=sci-CRAN/bbmle-1.0.18
-	>=sci-BIOC/BiocParallel-1.12.0
-	>=sci-CRAN/maxLik-1.3.4
-	>=dev-lang/R-3.4.0
-	>=sci-CRAN/VGAM-1.0.2
+DEPEND=">=dev-lang/R-3.4.0
 	virtual/Matrix
-	virtual/MASS
-	>=sci-CRAN/gamlss-4.4.0
 	>=sci-CRAN/pscl-1.4.9
+	>=sci-CRAN/gamlss-4.4.0
+	>=sci-CRAN/VGAM-1.0.2
+	virtual/MASS
+	>=sci-CRAN/bbmle-1.0.18
+	>=sci-CRAN/maxLik-1.3.4
+	>=sci-BIOC/BiocParallel-1.12.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

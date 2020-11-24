@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/FRCC_1.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/CCP
+	sci-CRAN/corpcor
 	sci-CRAN/calibrate
 	virtual/MASS
-	sci-CRAN/corpcor
 "
 RDEPEND="${DEPEND-}"

@@ -49,13 +49,13 @@ R_SUGGESTS="
 	r_suggests_teachingdemos? ( sci-CRAN/TeachingDemos )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/deSolve
-	sci-CRAN/survey
-	sci-CRAN/data_table
-	sci-CRAN/mvtnorm
-	sci-CRAN/msm
-	sci-CRAN/truncnorm
+DEPEND="sci-CRAN/survey
 	sci-CRAN/magrittr
+	sci-CRAN/data_table
+	sci-CRAN/msm
+	sci-CRAN/deSolve
+	sci-CRAN/mvtnorm
+	sci-CRAN/truncnorm
 	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

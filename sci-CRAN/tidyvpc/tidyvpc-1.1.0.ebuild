@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_vpc? ( sci-CRAN/vpc )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
+	virtual/class
 	>=sci-CRAN/quantreg-5.51
-	>=sci-CRAN/data_table-1.9.8
 	sci-CRAN/magrittr
 	>=sci-CRAN/rlang-0.3.0
-	virtual/class
+	>=sci-CRAN/data_table-1.9.8
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,10 +18,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/compare
-	sci-mathematics/glpk
+DEPEND="sci-mathematics/glpk
+	sci-CRAN/compare
+	sci-CRAN/purrr
 	sci-CRAN/grImport2
 	sci-CRAN/orthopolynom
-	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

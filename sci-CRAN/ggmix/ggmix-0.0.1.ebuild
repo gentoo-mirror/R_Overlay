@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_rspectra? ( sci-CRAN/RSpectra )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	virtual/MASS
-	sci-CRAN/glmnet
+DEPEND="virtual/MASS
+	>=dev-lang/R-3.4.0
 	virtual/Matrix
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

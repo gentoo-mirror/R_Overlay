@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/MCMCpack
 	sci-CRAN/ggplot2
 	virtual/survival
+	sci-CRAN/MCMCpack
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

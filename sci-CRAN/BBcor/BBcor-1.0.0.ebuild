@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BBcor_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-4.0.0
-	>=sci-CRAN/psych-1.9.12.31
+DEPEND=">=sci-CRAN/wdm-0.2.1
+	>=dev-lang/R-4.0.0
 	>=sci-CRAN/pbapply-1.4.2
-	>=sci-CRAN/wdm-0.2.1
+	>=sci-CRAN/psych-1.9.12.31
 "
 RDEPEND="${DEPEND-}"

@@ -32,27 +32,27 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_vcd? ( sci-CRAN/vcd )
 "
-DEPEND="sci-CRAN/mosaicData
+DEPEND=">=sci-CRAN/mosaicCore-0.7.0
 	sci-CRAN/broom
-	>=sci-CRAN/rlang-0.4.7
-	virtual/lattice
-	sci-CRAN/ggrepel
-	sci-CRAN/glue
-	sci-CRAN/ggformula
-	sci-CRAN/ggstance
-	sci-CRAN/ggdendro
-	>=dev-lang/R-3.0.0
-	virtual/MASS
-	sci-CRAN/ggridges
-	virtual/lattice
-	sci-CRAN/ggplot2
-	virtual/Matrix
-	>=sci-CRAN/mosaicCore-0.7.0
+	sci-CRAN/mosaicData
 	sci-CRAN/gridExtra
+	virtual/lattice
 	sci-CRAN/dplyr
 	sci-CRAN/tidyr
-	sci-CRAN/readr
+	>=dev-lang/R-3.0.0
+	sci-CRAN/ggridges
+	>=sci-CRAN/rlang-0.4.7
+	virtual/Matrix
+	virtual/lattice
+	virtual/MASS
+	sci-CRAN/ggdendro
+	sci-CRAN/glue
 	sci-CRAN/leaflet
+	sci-CRAN/ggformula
+	sci-CRAN/readr
+	sci-CRAN/ggplot2
+	sci-CRAN/ggstance
+	sci-CRAN/ggrepel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

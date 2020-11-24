@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/chron
-	sci-CRAN/weathermetrics
 	sci-CRAN/SPEI
+	sci-CRAN/weathermetrics
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

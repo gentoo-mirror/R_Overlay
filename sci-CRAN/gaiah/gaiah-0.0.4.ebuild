@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/geosphere
-	sci-CRAN/dplyr
 	sci-CRAN/magrittr
+	sci-CRAN/geosphere
 	sci-CRAN/maptools
+	sci-CRAN/dplyr
 	sci-CRAN/raster
 	sci-CRAN/rlang
 	sci-CRAN/sp

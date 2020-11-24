@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/data_tree
 	sci-CRAN/htmlwidgets
+	sci-CRAN/data_tree
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

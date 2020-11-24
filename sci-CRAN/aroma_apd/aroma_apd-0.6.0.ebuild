@@ -12,10 +12,10 @@ LICENSE='LGPL-2.1+'
 
 IUSE="${IUSE-} r_suggests_affxparser"
 R_SUGGESTS="r_suggests_affxparser? ( sci-BIOC/affxparser )"
-DEPEND=">=dev-lang/R-3.0.0
-	>=sci-CRAN/R_utils-1.34.0
-	>=sci-CRAN/R_oo-1.18.0
+DEPEND=">=sci-CRAN/R_utils-1.34.0
 	>=sci-CRAN/R_huge-0.9.0
+	>=dev-lang/R-3.0.0
+	>=sci-CRAN/R_oo-1.18.0
 	>=sci-CRAN/R_methodsS3-1.7.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

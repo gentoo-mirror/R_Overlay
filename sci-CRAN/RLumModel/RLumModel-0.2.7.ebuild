@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( >=sci-CRAN/R_rsp-0.44.0 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.1 )
 "
-DEPEND=">=sci-CRAN/Luminescence-0.9.0
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/Rcpp-1.0.1
 	>=sci-CRAN/deSolve-1.21
+	>=sci-CRAN/Luminescence-0.9.0
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-1.0.1

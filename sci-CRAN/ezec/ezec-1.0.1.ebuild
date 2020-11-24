@@ -19,7 +19,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/drc
 	sci-CRAN/dplyr
+	sci-CRAN/drc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

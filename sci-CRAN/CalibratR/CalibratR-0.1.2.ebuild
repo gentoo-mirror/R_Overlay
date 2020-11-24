@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CalibratR_0.1.2.tar.gz"
 LICENSE='LGPL-3'
 
-DEPEND="sci-CRAN/reshape2
-	sci-CRAN/doParallel
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/pROC
 	sci-CRAN/foreach
-	sci-CRAN/pROC
 	sci-CRAN/fitdistrplus
+	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}"

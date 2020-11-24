@@ -11,11 +11,11 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/CRImage_1.
 LICENSE='Artistic-2'
 
 DEPEND="sci-BIOC/EBImage
-	sci-CRAN/sgeostat
-	sci-CRAN/e1071
-	virtual/MASS
-	sci-BIOC/DNAcopy
 	sci-BIOC/aCGH
+	virtual/MASS
+	sci-CRAN/e1071
+	sci-BIOC/DNAcopy
 	sci-CRAN/foreach
+	sci-CRAN/sgeostat
 "
 RDEPEND="${DEPEND-}"

@@ -27,9 +27,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/pkgload
+	sci-CRAN/ROI
 	sci-CRAN/lpSolveAPI
 	sci-CRAN/ROI_plugin_lpsolve
-	sci-CRAN/ROI
+	sci-CRAN/pkgload
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

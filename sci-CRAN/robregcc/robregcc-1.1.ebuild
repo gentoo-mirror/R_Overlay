@@ -12,8 +12,8 @@ LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/Rcpp-0.12.0
-	sci-CRAN/magrittr
 	virtual/MASS
+	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

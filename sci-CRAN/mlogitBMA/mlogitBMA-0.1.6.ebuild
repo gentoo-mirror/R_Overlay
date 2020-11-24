@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_mlogit"
 R_SUGGESTS="r_suggests_mlogit? ( sci-CRAN/mlogit )"
-DEPEND="sci-CRAN/BMA
-	sci-CRAN/abind
+DEPEND="sci-CRAN/abind
+	sci-CRAN/BMA
 	sci-CRAN/maxLik
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

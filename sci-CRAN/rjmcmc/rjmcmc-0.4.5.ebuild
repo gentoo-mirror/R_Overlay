@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_fsadata"
 R_SUGGESTS="r_suggests_fsadata? ( sci-CRAN/FSAdata )"
-DEPEND="sci-CRAN/madness
-	sci-CRAN/coda
-	>=dev-lang/R-3.2.0
+DEPEND=">=dev-lang/R-3.2.0
 	sci-CRAN/mvtnorm
+	sci-CRAN/madness
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

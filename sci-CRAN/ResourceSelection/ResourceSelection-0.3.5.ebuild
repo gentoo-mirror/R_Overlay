@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ResourceSelection_0.3-5.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-2.13.0
-	sci-CRAN/pbapply
 	virtual/MASS
 	virtual/Matrix
+	sci-CRAN/pbapply
 "
 RDEPEND="${DEPEND-}"

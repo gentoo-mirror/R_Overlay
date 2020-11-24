@@ -28,21 +28,21 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_snowfall? ( sci-CRAN/snowfall )
 "
-DEPEND="sci-CRAN/igraph
-	sci-BIOC/fgsea
-	sci-BIOC/Biobase
-	sci-CRAN/shinyjs
-	sci-CRAN/visNetwork
-	sci-BIOC/BiocGenerics
-	sci-CRAN/htmlwidgets
-	sci-BIOC/marray
-	sci-CRAN/relations
-	>=dev-lang/R-3.5
-	sci-CRAN/gplots
-	sci-CRAN/shiny
-	sci-CRAN/shinydashboard
-	sci-CRAN/DT
+DEPEND="sci-BIOC/BiocGenerics
+	sci-CRAN/igraph
 	sci-CRAN/scales
+	>=dev-lang/R-3.5
+	sci-CRAN/htmlwidgets
+	sci-BIOC/Biobase
+	sci-BIOC/marray
+	sci-CRAN/shinydashboard
+	sci-CRAN/shiny
+	sci-CRAN/visNetwork
+	sci-CRAN/shinyjs
+	sci-CRAN/gplots
+	sci-BIOC/fgsea
+	sci-CRAN/relations
+	sci-CRAN/DT
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -12,11 +12,11 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_rockchalk"
 R_SUGGESTS="r_suggests_rockchalk? ( sci-CRAN/rockchalk )"
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/xtable
-	virtual/foreign
+DEPEND="sci-CRAN/xtable
 	sci-CRAN/plyr
+	virtual/foreign
 	sci-CRAN/openxlsx
+	>=dev-lang/R-3.3.0
 	sci-CRAN/RUnit
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

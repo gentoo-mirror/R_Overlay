@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_probhat? ( sci-CRAN/probhat )
 "
 DEPEND="sci-CRAN/intoo
-	sci-CRAN/barsurf
-	sci-CRAN/mvtnorm
 	virtual/KernSmooth
+	sci-CRAN/mvtnorm
+	sci-CRAN/barsurf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

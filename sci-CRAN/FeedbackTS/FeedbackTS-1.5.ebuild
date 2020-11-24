@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FeedbackTS_1.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/sp
+DEPEND="sci-CRAN/gstat
+	sci-CRAN/maps
 	sci-CRAN/proj4
 	sci-CRAN/mapdata
-	sci-CRAN/maps
-	sci-CRAN/gstat
+	>=dev-lang/R-3.0.0
+	sci-CRAN/sp
 	sci-CRAN/automap
 "
 RDEPEND="${DEPEND-}"

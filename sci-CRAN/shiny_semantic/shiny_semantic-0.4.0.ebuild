@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND=">=sci-CRAN/htmlwidgets-0.8
-	sci-CRAN/magrittr
+DEPEND=">=sci-CRAN/shiny-0.12.1
 	sci-CRAN/R6
-	sci-CRAN/glue
 	>=sci-CRAN/purrr-0.2.2
-	>=sci-CRAN/shiny-0.12.1
 	>=sci-CRAN/htmltools-0.2.6
+	>=sci-CRAN/htmlwidgets-0.8
+	sci-CRAN/magrittr
 	sci-CRAN/jsonlite
+	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -21,7 +21,7 @@ R_SUGGESTS="
 	r_suggests_neuroblastoma? ( sci-CRAN/neuroblastoma )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/data_table-1.9.8
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
+	>=sci-CRAN/data_table-1.9.8
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

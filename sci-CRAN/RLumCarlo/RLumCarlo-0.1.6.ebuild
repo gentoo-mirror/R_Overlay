@@ -16,14 +16,14 @@ R_SUGGESTS="
 	r_suggests_spelling? ( >=sci-CRAN/spelling-2.1 )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 )
 "
-DEPEND=">=sci-CRAN/khroma-1.3.0
-	>=sci-CRAN/scatterplot3d-0.3
-	>=sci-CRAN/doParallel-1.0.15
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	>=sci-CRAN/abind-1.4.5
 	sci-CRAN/magrittr
 	>=sci-CRAN/foreach-1.5.0
+	>=sci-CRAN/doParallel-1.0.15
+	>=sci-CRAN/khroma-1.3.0
 	>=sci-CRAN/Rcpp-1.0.4
+	>=sci-CRAN/scatterplot3d-0.3
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-1.0.4

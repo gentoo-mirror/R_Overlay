@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_tree"
 R_SUGGESTS="r_suggests_tree? ( sci-CRAN/tree )"
 DEPEND="virtual/cluster
-	sci-CRAN/plotrix
 	sci-CRAN/labdsv
 	virtual/MASS
+	sci-CRAN/plotrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/DataClean_1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/XML
 	sci-CRAN/xlsx
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-}"

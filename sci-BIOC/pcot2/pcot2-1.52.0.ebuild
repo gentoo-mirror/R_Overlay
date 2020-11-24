@@ -15,8 +15,8 @@ R_SUGGESTS="
 	r_suggests_multtest? ( sci-BIOC/multtest )
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 "
-DEPEND="sci-BIOC/Biobase
-	sci-CRAN/amap
+DEPEND="sci-CRAN/amap
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

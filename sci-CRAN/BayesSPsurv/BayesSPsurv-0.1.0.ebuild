@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_countrycode? ( sci-CRAN/countrycode )
 	r_suggests_spduration? ( sci-CRAN/spduration )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/FastGP
-	sci-CRAN/coda
-	sci-CRAN/MCMCpack
-	>=sci-CRAN/Rcpp-1.0.3
+DEPEND="sci-CRAN/MCMCpack
 	sci-CRAN/dplyr
+	sci-CRAN/FastGP
+	>=dev-lang/R-3.6.0
+	>=sci-CRAN/Rcpp-1.0.3
+	sci-CRAN/coda
 	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}

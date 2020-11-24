@@ -17,17 +17,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/R_utils
-	sci-CRAN/ggplot2
-	>=sci-CRAN/data_table-1.11.0
-	>=dev-lang/R-3.5.0
-	sci-CRAN/optparse
 	sci-CRAN/mvtnorm
+	>=sci-CRAN/data_table-1.11.0
 	sci-BIOC/snpStats
 	sci-CRAN/zoo
 	>=sci-CRAN/Rcpp-0.12.11
 	sci-CRAN/cowplot
+	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
 	sci-CRAN/dplyr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/optparse
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

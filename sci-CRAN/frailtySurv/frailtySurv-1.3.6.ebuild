@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_gridextra? ( sci-CRAN/gridExtra )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-CRAN/nleqslv
+DEPEND=">=dev-lang/R-3.0.0
 	sci-CRAN/numDeriv
 	sci-CRAN/ggplot2
+	sci-CRAN/nleqslv
 	sci-CRAN/reshape2
-	>=dev-lang/R-3.0.0
 	virtual/survival
 "
 RDEPEND="${DEPEND-}

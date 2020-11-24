@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/lowpassFilter
+DEPEND=">=dev-lang/R-3.3.0
 	>=sci-CRAN/stepR-2.1.0
-	>=dev-lang/R-3.3.0
+	sci-CRAN/lowpassFilter
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

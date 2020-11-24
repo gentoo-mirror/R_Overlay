@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RPtests_0.1.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/glmnet
-	sci-CRAN/Rcpp
 	sci-CRAN/randomForest
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

@@ -10,27 +10,27 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/GJRM_0.2-3.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/mgcv
-	sci-CRAN/ggplot2
-	sci-CRAN/VineCopula
+DEPEND="virtual/survival
+	sci-CRAN/scam
 	sci-CRAN/psych
-	virtual/survival
-	sci-CRAN/trust
-	sci-CRAN/Rmpfr
+	sci-CRAN/trustOptim
+	virtual/mgcv
+	sci-CRAN/copula
+	virtual/Matrix
 	sci-CRAN/survey
 	sci-CRAN/gamlss_dist
-	sci-CRAN/distrEx
+	sci-CRAN/VGAM
+	sci-CRAN/trust
 	sci-CRAN/evd
+	sci-CRAN/VineCopula
+	sci-CRAN/ggplot2
+	sci-CRAN/numDeriv
+	sci-CRAN/ismev
 	>=dev-lang/R-3.2.1
-	virtual/Matrix
-	sci-CRAN/scam
+	sci-CRAN/magic
 	sci-CRAN/mnormt
 	virtual/Matrix
-	sci-CRAN/copula
-	sci-CRAN/VGAM
-	sci-CRAN/magic
-	sci-CRAN/numDeriv
-	sci-CRAN/trustOptim
-	sci-CRAN/ismev
+	sci-CRAN/Rmpfr
+	sci-CRAN/distrEx
 "
 RDEPEND="${DEPEND-}"

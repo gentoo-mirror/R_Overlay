@@ -12,12 +12,12 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_gtools"
 R_SUGGESTS="r_suggests_gtools? ( sci-CRAN/gtools )"
-DEPEND="sci-CRAN/Hmisc
-	sci-CRAN/pwt
-	sci-CRAN/lpSolve
-	sci-CRAN/rms
-	sci-CRAN/gdata
+DEPEND="sci-CRAN/lpSolve
 	sci-CRAN/geometry
+	sci-CRAN/rms
+	sci-CRAN/Hmisc
+	sci-CRAN/gdata
 	sci-CRAN/psych
+	sci-CRAN/pwt
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

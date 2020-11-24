@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/Rcpp-1.0.5
 	sci-CRAN/igraph
-	sci-CRAN/stringr
 	sci-CRAN/readr
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} sci-CRAN/Rcpp"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MsdeParEst_1.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/sde
-	sci-CRAN/mvtnorm
+	virtual/MASS
 	>=dev-lang/R-3.0.2
 	sci-CRAN/moments
 "

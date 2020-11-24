@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/FPDclustering_1.4.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.5
+DEPEND="sci-CRAN/rootSolve
 	sci-CRAN/mvtnorm
-	virtual/cluster
-	sci-CRAN/ExPosition
 	sci-CRAN/ThreeWay
-	sci-CRAN/rootSolve
+	sci-CRAN/ExPosition
+	virtual/cluster
+	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-}"

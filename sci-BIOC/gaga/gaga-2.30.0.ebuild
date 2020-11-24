@@ -11,8 +11,8 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/gaga_2.30.
 LICENSE='GPL-2+'
 
 DEPEND="virtual/mgcv
-	sci-BIOC/Biobase
 	sci-BIOC/EBarrays
 	sci-CRAN/coda
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-}"

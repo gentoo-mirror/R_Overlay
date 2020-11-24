@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_qpdf? ( sci-CRAN/qpdf )
 "
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/XML
 	sci-CRAN/httr
+	sci-CRAN/XML
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

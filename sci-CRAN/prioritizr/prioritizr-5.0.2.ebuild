@@ -31,24 +31,24 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=sci-CRAN/sf-0.8.0
-	>=sci-CRAN/exactextractr-0.2.0
+DEPEND="sci-CRAN/igraph
+	>=sci-CRAN/tibble-2.0.0
+	>=dev-lang/R-3.5.0
+	sci-CRAN/rgeos
+	sci-CRAN/magrittr
+	sci-CRAN/data_table
 	virtual/Matrix
+	sci-CRAN/raster
+	>=sci-CRAN/sf-0.8.0
 	sci-CRAN/proto
 	sci-CRAN/ape
-	sci-CRAN/magrittr
-	>=sci-CRAN/tibble-2.0.0
-	sci-CRAN/raster
-	sci-CRAN/sp
-	>=sci-CRAN/assertthat-0.2.0
-	sci-CRAN/uuid
-	sci-CRAN/rgeos
 	sci-CRAN/doParallel
-	>=dev-lang/R-3.5.0
-	sci-CRAN/data_table
-	sci-CRAN/igraph
 	sci-CRAN/plyr
+	sci-CRAN/sp
+	sci-CRAN/uuid
+	>=sci-CRAN/exactextractr-0.2.0
 	>=sci-CRAN/fasterize-1.0.2
+	>=sci-CRAN/assertthat-0.2.0
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

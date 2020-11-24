@@ -11,12 +11,12 @@ SRC_URI="http://cran.r-project.org/src/contrib/highriskzone_1.4.5.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=sci-CRAN/spatstat-1.54.0
-	sci-CRAN/ks
 	sci-CRAN/mvtnorm
-	sci-CRAN/rgeos
-	sci-CRAN/fields
 	sci-CRAN/deldir
+	sci-CRAN/ks
+	sci-CRAN/rgeos
 	virtual/Matrix
+	sci-CRAN/fields
 	sci-CRAN/maps
 "
 RDEPEND="${DEPEND-}"

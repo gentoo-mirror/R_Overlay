@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/needmining_0.1.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/randomForest
-	sci-CRAN/SparseM
-	sci-CRAN/tau
-	sci-CRAN/rtweet
+DEPEND="sci-CRAN/rtweet
 	sci-CRAN/stringr
 	sci-CRAN/SnowballC
+	sci-CRAN/randomForest
+	sci-CRAN/SparseM
+	sci-CRAN/tau
 	sci-CRAN/tm
 "
 RDEPEND="${DEPEND-}"

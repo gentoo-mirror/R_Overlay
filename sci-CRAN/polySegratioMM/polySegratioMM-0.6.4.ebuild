@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/polySegratioMM_0.6-4.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-2.12.0
-	sci-CRAN/coda
-	sci-CRAN/polySegratio
+DEPEND="sci-CRAN/polySegratio
 	virtual/lattice
 	sci-CRAN/gtools
+	sci-CRAN/coda
+	>=dev-lang/R-2.12.0
 "
 RDEPEND="${DEPEND-}"

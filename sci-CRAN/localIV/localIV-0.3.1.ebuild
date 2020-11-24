@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/rlang-0.4.4
-	virtual/mgcv
+DEPEND="virtual/mgcv
+	>=dev-lang/R-3.3.0
 	virtual/KernSmooth
 	>=sci-CRAN/sampleSelection-1.2.0
+	>=sci-CRAN/rlang-0.4.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

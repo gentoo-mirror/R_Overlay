@@ -30,13 +30,13 @@ R_SUGGESTS="
 	r_suggests_summarytools? ( sci-CRAN/summarytools )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/doParallel
+DEPEND="sci-CRAN/inline
 	sci-CRAN/foreach
-	sci-CRAN/inline
-	virtual/survival
-	>=dev-lang/R-3.6
 	sci-CRAN/data_table
 	sci-CRAN/purrr
+	>=dev-lang/R-3.6
+	virtual/survival
+	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

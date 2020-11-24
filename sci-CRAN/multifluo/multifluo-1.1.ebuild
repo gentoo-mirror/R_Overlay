@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/multifluo_1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/ellipse
-	sci-CRAN/imager
 	sci-CRAN/agricolae
+	sci-CRAN/imager
 "
 RDEPEND="${DEPEND-}"

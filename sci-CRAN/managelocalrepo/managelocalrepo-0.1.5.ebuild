@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/managelocalrepo_0.1.5.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0
-	>=sci-CRAN/stringr-0.6.2
 	>=sci-CRAN/assertthat-0.1
+	>=sci-CRAN/stringr-0.6.2
 "
 RDEPEND="${DEPEND-}"

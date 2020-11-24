@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/oaxaca_0.1.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/Formula
-	sci-CRAN/reshape2
 	sci-CRAN/ggplot2
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}"

@@ -24,10 +24,10 @@ DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/ape
 	>=sci-CRAN/DDD-4.0
 	sci-CRAN/doParallel
-	sci-CRAN/foreach
 	sci-CRAN/apTreeshape
 	sci-CRAN/phylobase
 	sci-CRAN/geiger
 	sci-CRAN/deSolve
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

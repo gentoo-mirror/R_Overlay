@@ -10,20 +10,20 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RchivalTag_0.1.2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/pracma
-	sci-CRAN/raster
-	sci-CRAN/rgeos
-	sci-CRAN/dygraphs
-	sci-CRAN/oceanmap
-	sci-CRAN/maptools
-	sci-CRAN/ncdf4
-	sci-CRAN/readr
-	sci-CRAN/mapdata
-	>=dev-lang/R-3.5.0
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/maps
+	sci-CRAN/maptools
+	sci-CRAN/raster
+	sci-CRAN/dygraphs
+	sci-CRAN/rgeos
+	sci-CRAN/ncdf4
+	sci-CRAN/pracma
 	sci-CRAN/sp
-	sci-CRAN/xts
-	sci-CRAN/plyr
 	sci-CRAN/PBSmapping
+	sci-CRAN/mapdata
+	sci-CRAN/plyr
+	sci-CRAN/readr
+	sci-CRAN/xts
+	sci-CRAN/oceanmap
 "
 RDEPEND="${DEPEND-}"

@@ -30,24 +30,24 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 )
 	r_suggests_xpectr? ( >=sci-CRAN/xpectr-0.4.0 )
 "
-DEPEND=">=sci-CRAN/data_table-1.12
-	>=sci-CRAN/rlang-0.4.7
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/lifecycle
-	>=sci-CRAN/dplyr-0.8.5
-	sci-CRAN/plyr
-	>=sci-CRAN/tidyr-1.1.2
-	>=dev-lang/R-3.5
-	>=sci-CRAN/tibble-3.0.3
-	>=sci-CRAN/MuMIn-1.43.17
-	>=sci-CRAN/pROC-1.16.0
-	>=sci-CRAN/broom-0.7.1
-	>=sci-CRAN/broom_mixed-0.2.6
-	>=sci-CRAN/lme4-1.1.23
-	>=sci-CRAN/recipes-0.1.13
 	sci-CRAN/stringr
-	>=sci-CRAN/checkmate-2.0.0
-	sci-CRAN/ggplot2
+	>=sci-CRAN/broom-0.7.1
+	sci-CRAN/plyr
 	sci-CRAN/purrr
+	>=dev-lang/R-3.5
+	>=sci-CRAN/checkmate-2.0.0
+	>=sci-CRAN/dplyr-0.8.5
+	>=sci-CRAN/tibble-3.0.3
+	>=sci-CRAN/recipes-0.1.13
+	>=sci-CRAN/lme4-1.1.23
+	>=sci-CRAN/tidyr-1.1.2
+	>=sci-CRAN/broom_mixed-0.2.6
+	>=sci-CRAN/data_table-1.12
+	>=sci-CRAN/MuMIn-1.43.17
+	>=sci-CRAN/rlang-0.4.7
+	>=sci-CRAN/pROC-1.16.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

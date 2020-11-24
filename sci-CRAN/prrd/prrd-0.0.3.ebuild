@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_docopt? ( sci-CRAN/docopt )
 	r_suggests_foghorn? ( sci-CRAN/foghorn )
 "
-DEPEND="sci-CRAN/liteq
-	sci-CRAN/DBI
-	sci-CRAN/config
-	sci-CRAN/crayon
+DEPEND="sci-CRAN/config
 	sci-CRAN/data_table
+	sci-CRAN/DBI
+	sci-CRAN/crayon
+	sci-CRAN/liteq
 	sci-CRAN/RSQLite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

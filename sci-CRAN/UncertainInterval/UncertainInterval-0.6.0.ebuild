@@ -20,13 +20,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_rticles? ( sci-CRAN/rticles )
 "
-DEPEND="virtual/MASS
-	sci-CRAN/psych
-	sci-CRAN/rootSolve
+DEPEND=">=dev-lang/R-3.5.0
 	sci-CRAN/nloptr
-	sci-CRAN/reshape2
-	>=dev-lang/R-3.5.0
+	virtual/MASS
+	sci-CRAN/psych
 	sci-CRAN/car
+	sci-CRAN/reshape2
+	sci-CRAN/rootSolve
 	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

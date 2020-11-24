@@ -31,13 +31,13 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND=">=sci-CRAN/jsonlite-0.9.8
-	sci-CRAN/sp
-	sci-CRAN/httr
+DEPEND="sci-CRAN/data_table
+	>=sci-CRAN/jsonlite-0.9.8
 	sci-CRAN/digest
-	sci-CRAN/data_table
-	sci-CRAN/wellknown
+	sci-CRAN/httr
 	sci-CRAN/assertthat
+	sci-CRAN/sp
 	>=sci-CRAN/stringr-1.0.0
+	sci-CRAN/wellknown
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

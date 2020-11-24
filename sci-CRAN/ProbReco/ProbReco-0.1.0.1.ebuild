@@ -23,14 +23,14 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/Rcpp-1.0.2
-	sci-CRAN/mvtnorm
 	>=sci-CRAN/purrr-0.3.2
+	>=sci-CRAN/Rcpp-1.0.2
 	sci-CRAN/Rdpack
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppEigen
 	sci-CRAN/BH
+	sci-CRAN/RcppEigen
 	${R_SUGGESTS-}
 "

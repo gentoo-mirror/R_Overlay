@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 	r_suggests_xpectr? ( >=sci-CRAN/xpectr-0.4.0 )
 "
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/tibble
-	>=sci-CRAN/dplyr-0.8.5
-	>=dev-lang/R-3.5
-	sci-CRAN/lifecycle
+DEPEND="sci-CRAN/lifecycle
 	>=sci-CRAN/checkmate-2.0.0
+	sci-CRAN/plyr
+	>=dev-lang/R-3.5
+	>=sci-CRAN/dplyr-0.8.5
 	>=sci-CRAN/purrr-0.3.4
 	>=sci-CRAN/rlang-0.4.7
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

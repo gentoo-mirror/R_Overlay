@@ -16,12 +16,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/dplyr
+	sci-CRAN/prediction
 	>=sci-CRAN/ggplot2-3.1.0
-	>=sci-CRAN/rgl-0.99.16
 	sci-CRAN/tidyr
 	sci-CRAN/ggiraphExtra
+	>=sci-CRAN/rgl-0.99.16
 	sci-CRAN/modelr
-	sci-CRAN/prediction
 	sci-CRAN/purrr
 	sci-CRAN/rlang
 	sci-CRAN/stringr

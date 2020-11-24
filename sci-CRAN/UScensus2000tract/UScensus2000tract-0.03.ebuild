@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/UScensus2000tract_0.03.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/maptools
+DEPEND="sci-CRAN/sp
+	sci-CRAN/maptools
 	virtual/foreign
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-}"

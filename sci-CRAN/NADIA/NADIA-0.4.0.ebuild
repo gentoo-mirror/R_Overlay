@@ -16,20 +16,20 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="sci-CRAN/mlr3
-	sci-CRAN/mlr3learners
-	sci-CRAN/doParallel
 	sci-CRAN/mlr3pipelines
-	sci-CRAN/missMDA
-	sci-CRAN/testthat
-	sci-CRAN/VIM
-	sci-CRAN/missRanger
-	sci-CRAN/mice
-	sci-CRAN/data_table
 	sci-CRAN/missForest
 	sci-CRAN/paradox
+	sci-CRAN/mlr3learners
+	sci-CRAN/missMDA
+	sci-CRAN/doParallel
+	sci-CRAN/testthat
 	sci-CRAN/Amelia
-	sci-CRAN/softImpute
+	sci-CRAN/VIM
+	sci-CRAN/mice
+	sci-CRAN/data_table
 	sci-CRAN/foreach
+	sci-CRAN/softImpute
 	sci-CRAN/glmnet
+	sci-CRAN/missRanger
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

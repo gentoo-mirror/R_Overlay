@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/altfuelr_0.1.0.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/magrittr
-	sci-CRAN/purrr
-	sci-CRAN/stringr
-	sci-CRAN/dplyr
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/httr
+	sci-CRAN/purrr
 	sci-CRAN/lubridate
+	sci-CRAN/jsonlite
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

@@ -18,16 +18,16 @@ R_SUGGESTS="
 	r_suggests_ordinal? ( sci-CRAN/ordinal )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND=">=sci-CRAN/ade4-1.7.8
-	virtual/nnet
-	sci-BIOC/mixOmics
-	sci-CRAN/pspearman
-	virtual/boot
-	>=sci-CRAN/vegan-2.4.3
-	sci-CRAN/FactoMineR
-	sci-CRAN/car
-	>=sci-CRAN/lme4-1.0.4
+DEPEND="sci-CRAN/car
 	virtual/MASS
 	sci-CRAN/pls
+	>=sci-CRAN/lme4-1.0.4
+	sci-BIOC/mixOmics
+	sci-CRAN/pspearman
+	>=sci-CRAN/vegan-2.4.3
+	>=sci-CRAN/ade4-1.7.8
+	virtual/boot
+	sci-CRAN/FactoMineR
+	virtual/nnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

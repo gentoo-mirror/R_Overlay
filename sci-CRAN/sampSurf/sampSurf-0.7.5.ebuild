@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_rgeos? ( >=sci-CRAN/rgeos-0.4.3 )
 	r_suggests_rgl? ( >=sci-CRAN/rgl-0.10.19 )
 "
-DEPEND=">=sci-CRAN/sp-1.3.0
-	virtual/lattice
-	>=dev-lang/R-3.0.0
-	virtual/boot
+DEPEND="virtual/boot
 	>=sci-CRAN/raster-2.9.5
+	>=sci-CRAN/sp-1.3.0
+	>=dev-lang/R-3.0.0
+	virtual/lattice
 	virtual/lattice
 	>=sci-CRAN/rasterVis-0.45
 "

@@ -22,13 +22,13 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/fastmatch
-	sci-CRAN/hoardr
-	sci-CRAN/curl
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/magrittr
 	virtual/Matrix
+	sci-CRAN/curl
+	sci-CRAN/hoardr
 	virtual/Matrix
 	sci-CRAN/data_table
+	sci-CRAN/fastmatch
 	sci-CRAN/lazyeval
 	sci-CRAN/crul
 	sci-CRAN/jsonlite

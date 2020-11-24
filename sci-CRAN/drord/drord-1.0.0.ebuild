@@ -20,8 +20,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5.0
 	virtual/MASS
+	sci-CRAN/ggplot2
 	sci-CRAN/ordinal
 	sci-CRAN/VGAM
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

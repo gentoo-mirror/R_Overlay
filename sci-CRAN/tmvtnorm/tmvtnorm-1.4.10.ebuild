@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_lattice"
 R_SUGGESTS="r_suggests_lattice? ( virtual/lattice )"
 DEPEND="virtual/Matrix
-	sci-CRAN/mvtnorm
 	sci-CRAN/gmm
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

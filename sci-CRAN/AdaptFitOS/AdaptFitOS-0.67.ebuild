@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/AdaptFitOS_0.67.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="virtual/nlme
-	virtual/MASS
 	virtual/mgcv
+	virtual/MASS
 	sci-CRAN/SemiPar
 "
 RDEPEND="${DEPEND-}"

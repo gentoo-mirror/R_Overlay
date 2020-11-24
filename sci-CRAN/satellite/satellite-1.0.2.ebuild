@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/raster
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/plyr
 	>=sci-CRAN/Rcpp-0.10.3
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

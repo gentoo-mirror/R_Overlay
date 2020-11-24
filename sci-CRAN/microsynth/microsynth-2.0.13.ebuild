@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_xlsx? ( sci-CRAN/xlsx )
 "
-DEPEND="sci-CRAN/survey
-	sci-CRAN/pracma
+DEPEND="virtual/boot
 	sci-CRAN/nleqslv
-	virtual/MASS
-	>=dev-lang/R-3.3.0
-	virtual/boot
+	sci-CRAN/pracma
 	sci-CRAN/kernlab
+	>=dev-lang/R-3.3.0
+	sci-CRAN/survey
+	virtual/MASS
 	sci-CRAN/LowRankQP
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

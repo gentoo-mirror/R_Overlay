@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BayesCR_2.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/rootSolve
-	sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-3.4.1
+	sci-CRAN/rootSolve
 	sci-CRAN/truncdist
-	>=dev-lang/R-3.4.1
 	sci-CRAN/mnormt
+	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-}"

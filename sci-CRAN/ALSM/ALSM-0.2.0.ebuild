@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ALSM_0.2.0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND=">=dev-lang/R-3.0.0
+DEPEND="sci-CRAN/SuppDists
+	>=dev-lang/R-3.0.0
 	sci-CRAN/leaps
 	sci-CRAN/car
-	sci-CRAN/SuppDists
 "
 RDEPEND="${DEPEND-}"

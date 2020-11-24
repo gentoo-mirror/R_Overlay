@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/IDPSurvival_1.2.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/gtools
 	virtual/survival
+	sci-CRAN/gtools
 	sci-CRAN/Rsolnp
 "
 RDEPEND="${DEPEND-}"

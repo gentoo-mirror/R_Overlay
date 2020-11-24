@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_ga? ( sci-CRAN/GA )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/TSP
+DEPEND="virtual/cluster
+	sci-CRAN/gclus
 	sci-CRAN/colorspace
-	virtual/cluster
+	sci-CRAN/registry
+	>=dev-lang/R-2.14.0
+	sci-CRAN/TSP
 	sci-CRAN/qap
+	sci-CRAN/dendextend
 	virtual/MASS
 	sci-CRAN/gplots
-	sci-CRAN/registry
-	sci-CRAN/gclus
-	sci-CRAN/dendextend
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

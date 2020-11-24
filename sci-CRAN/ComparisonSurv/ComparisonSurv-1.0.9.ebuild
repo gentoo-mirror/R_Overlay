@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ComparisonSurv_1.0.9.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/TSHRC
-	sci-CRAN/survRM2
+DEPEND="virtual/survival
 	sci-CRAN/muhaz
-	virtual/survival
+	sci-CRAN/TSHRC
+	sci-CRAN/survRM2
 	>=dev-lang/R-4.0.0
 "
 RDEPEND="${DEPEND-}"

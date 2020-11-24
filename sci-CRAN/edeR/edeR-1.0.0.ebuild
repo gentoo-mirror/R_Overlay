@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/edeR_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/rJava
-	sci-CRAN/rjson
 	sci-CRAN/rJython
+	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-} virtual/jdk"

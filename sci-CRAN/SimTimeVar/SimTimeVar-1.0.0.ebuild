@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/SimTimeVar_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/metafor
-	sci-CRAN/miscTools
+DEPEND="sci-CRAN/miscTools
+	sci-CRAN/car
+	sci-CRAN/metafor
 	sci-CRAN/ICC
 	sci-CRAN/mvtnorm
-	sci-CRAN/car
 	sci-CRAN/plyr
-	sci-CRAN/psych
 	sci-CRAN/corpcor
+	sci-CRAN/psych
 "
 RDEPEND="${DEPEND-}"

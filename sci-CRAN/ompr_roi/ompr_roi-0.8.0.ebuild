@@ -17,8 +17,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.4.0
-	virtual/Matrix
 	>=sci-CRAN/ROI-0.3.0
+	virtual/Matrix
 	sci-CRAN/slam
 	>=sci-CRAN/ompr-0.8.0
 "

@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Xplortext_1.3.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/stringi
-	sci-CRAN/ggplot2
-	virtual/MASS
-	sci-CRAN/flashClust
-	>=sci-CRAN/tm-0.7.3
-	sci-CRAN/FactoMineR
-	sci-CRAN/ggdendro
-	sci-CRAN/gridExtra
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/stringi
 	sci-CRAN/slam
 	sci-CRAN/flexclust
+	sci-CRAN/stringr
+	sci-CRAN/flashClust
+	>=dev-lang/R-3.6.0
+	sci-CRAN/FactoMineR
+	>=sci-CRAN/tm-0.7.3
+	sci-CRAN/ggdendro
+	sci-CRAN/ggplot2
+	sci-CRAN/gridExtra
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

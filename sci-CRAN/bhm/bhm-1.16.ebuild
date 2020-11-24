@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/bhm_1.16.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/survival
-	sci-CRAN/ggplot2
-	virtual/MASS
+DEPEND="virtual/MASS
 	sci-CRAN/coda
+	virtual/survival
+	sci-CRAN/ggplot2
 	>=dev-lang/R-3.5.0
 "
 RDEPEND="${DEPEND-}"

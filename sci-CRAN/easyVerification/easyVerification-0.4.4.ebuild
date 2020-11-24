@@ -21,8 +21,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0
 	>=sci-CRAN/SpecsVerification-0.5
-	sci-CRAN/pbapply
 	>=sci-CRAN/Rcpp-0.12.9
+	sci-CRAN/pbapply
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

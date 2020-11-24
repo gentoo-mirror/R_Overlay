@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_roxygen2"
 R_SUGGESTS="r_suggests_roxygen2? ( sci-CRAN/roxygen2 )"
-DEPEND="sci-CRAN/Rcpp
-	>=dev-lang/R-2.15
+DEPEND=">=dev-lang/R-2.15
 	sci-CRAN/combinat
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

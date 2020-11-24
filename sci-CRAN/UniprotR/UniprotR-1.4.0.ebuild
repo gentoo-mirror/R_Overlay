@@ -11,17 +11,17 @@ SRC_URI="http://cran.r-project.org/src/contrib/UniprotR_1.4.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/plyr
-	sci-CRAN/ggpubr
 	sci-CRAN/data_tree
-	sci-CRAN/alakazam
 	sci-CRAN/magick
-	sci-CRAN/curl
-	sci-CRAN/httr
-	sci-CRAN/dplyr
-	sci-CRAN/scales
 	sci-CRAN/magrittr
 	sci-CRAN/ggplot2
 	sci-CRAN/tidyverse
 	sci-CRAN/gridExtra
+	sci-CRAN/alakazam
+	sci-CRAN/curl
+	sci-CRAN/ggpubr
+	sci-CRAN/httr
+	sci-CRAN/dplyr
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}"

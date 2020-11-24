@@ -27,7 +27,7 @@ R_SUGGESTS="
 	r_suggests_sleuth3? ( sci-CRAN/Sleuth3 )
 "
 DEPEND="sci-CRAN/TSP
-	sci-BIOC/graph
 	sci-CRAN/gtools
+	sci-BIOC/graph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

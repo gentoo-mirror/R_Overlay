@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/rlang
+DEPEND=">=sci-CRAN/ggplot2-3.0.0
 	>sci-CRAN/dplyr-0.7.0
-	>=sci-CRAN/ggplot2-3.0.0
+	>=dev-lang/R-3.2.0
 	sci-CRAN/ggrepel
 	sci-CRAN/lifecycle
 	sci-CRAN/purrr
 	sci-CRAN/tibble
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

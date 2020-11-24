@@ -31,9 +31,9 @@ R_SUGGESTS="
 	r_suggests_treeio? ( sci-BIOC/treeio )
 "
 DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/tidyr
 	sci-CRAN/dplyr
 	sci-CRAN/crayon
+	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}
 	app-text/pandoc

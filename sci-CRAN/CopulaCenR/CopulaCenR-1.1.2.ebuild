@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/CopulaCenR_1.1.2.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/plotly
-	sci-CRAN/pracma
-	sci-CRAN/icenReg
-	sci-CRAN/caret
-	sci-CRAN/flexsurv
+DEPEND="sci-CRAN/caret
 	sci-CRAN/corpcor
 	sci-CRAN/copula
+	sci-CRAN/icenReg
 	sci-CRAN/magrittr
+	sci-CRAN/pracma
 	virtual/survival
+	sci-CRAN/flexsurv
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-}"

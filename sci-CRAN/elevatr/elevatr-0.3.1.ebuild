@@ -10,21 +10,22 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/elevatr_0.3.1.tar.gz"
 LICENSE='CC0-1.0'
 
-IUSE="${IUSE-} r_suggests_formatr r_suggests_knitr r_suggests_rgdal
-	r_suggests_rmarkdown r_suggests_testthat"
+IUSE="${IUSE-} r_suggests_formatr r_suggests_knitr r_suggests_rmarkdown
+	r_suggests_testthat"
 R_SUGGESTS="
 	r_suggests_formatr? ( sci-CRAN/formatR )
 	r_suggests_knitr? ( sci-CRAN/knitr )
-	r_suggests_rgdal? ( sci-CRAN/rgdal )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httr
-	>=dev-lang/R-3.0.0
-	sci-CRAN/sp
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/httr
 	sci-CRAN/raster
+	sci-CRAN/sp
 	sci-CRAN/jsonlite
 	sci-CRAN/progress
 	sci-CRAN/sf
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+
+_UNRESOLVED_PACKAGES=( 'sci-CRAN/rgdal' )

@@ -17,9 +17,9 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-CRAN/xml2-1.2.0
 	sci-CRAN/digest
-	>=sci-CRAN/crul-0.7.4
-	>=sci-CRAN/data_table-1.12.0
 	>=sci-CRAN/dplyr-0.5.0
+	>=sci-CRAN/data_table-1.12.0
+	>=sci-CRAN/crul-0.7.4
 	>=sci-CRAN/jsonlite-1.6
 	>=sci-CRAN/ncdf4-1.16
 	sci-CRAN/tibble

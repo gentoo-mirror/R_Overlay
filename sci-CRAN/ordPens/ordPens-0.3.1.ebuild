@@ -17,7 +17,7 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/grplasso
 	dev-lang/R[tk]
-	virtual/mgcv
 	sci-CRAN/RLRsim
+	virtual/mgcv
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

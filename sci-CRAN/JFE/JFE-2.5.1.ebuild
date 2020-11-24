@@ -35,14 +35,14 @@ R_SUGGESTS="
 	r_suggests_timeseries? ( sci-CRAN/timeSeries )
 	r_suggests_timetk? ( sci-CRAN/timetk )
 "
-DEPEND="sci-CRAN/zoo
-	sci-CRAN/fPortfolio
-	sci-CRAN/caret
-	sci-CRAN/xts
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
+	dev-lang/R[tk]
 	sci-CRAN/magrittr
+	sci-CRAN/xts
+	sci-CRAN/fPortfolio
 	dev-lang/R[tk]
-	dev-lang/R[tk]
+	sci-CRAN/caret
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

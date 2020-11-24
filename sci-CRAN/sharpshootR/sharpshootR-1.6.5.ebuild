@@ -28,25 +28,25 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-CRAN/ape
+	>=dev-lang/R-3.5.0
+	virtual/lattice
+	sci-CRAN/aqp
+	sci-CRAN/vegan
+	sci-CRAN/reshape2
+	sci-CRAN/Hmisc
+	sci-CRAN/circular
 	sci-CRAN/plyr
 	sci-CRAN/e1071
-	sci-CRAN/digest
-	sci-CRAN/sp
-	sci-CRAN/ape
-	sci-CRAN/circular
-	sci-CRAN/curl
-	sci-CRAN/RColorBrewer
-	sci-CRAN/aqp
-	virtual/lattice
-	sci-CRAN/vegan
-	sci-CRAN/Hmisc
-	virtual/cluster
-	sci-CRAN/reshape2
-	sci-CRAN/scales
-	>=dev-lang/R-3.5.0
 	sci-CRAN/soilDB
+	sci-CRAN/igraph
+	sci-CRAN/sp
+	sci-CRAN/scales
+	sci-CRAN/digest
 	sci-CRAN/stringi
+	sci-CRAN/RColorBrewer
+	virtual/cluster
+	sci-CRAN/curl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/hglm.data_1.0-1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.0
-	virtual/Matrix
-	virtual/MASS
 	sci-CRAN/sp
+	virtual/MASS
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

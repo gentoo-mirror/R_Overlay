@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/bimets_1.5.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.3
-	sci-CRAN/xts
 	sci-CRAN/zoo
+	sci-CRAN/xts
 "
 RDEPEND="${DEPEND-}"

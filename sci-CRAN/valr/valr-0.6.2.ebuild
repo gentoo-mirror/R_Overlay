@@ -31,13 +31,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
-DEPEND="sci-CRAN/rlang
+DEPEND=">=sci-CRAN/dplyr-0.8.0
 	sci-CRAN/stringr
-	>=sci-CRAN/tibble-1.4.2
-	>=sci-CRAN/dplyr-0.8.0
+	sci-CRAN/rlang
 	>=dev-lang/R-3.1.2
 	sci-CRAN/readr
 	>=sci-CRAN/Rcpp-1.0.0
+	>=sci-CRAN/tibble-1.4.2
 	sci-CRAN/broom
 	sci-CRAN/ggplot2
 "

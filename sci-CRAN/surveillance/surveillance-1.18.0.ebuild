@@ -52,13 +52,13 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.2.0
 	>=sci-CRAN/xtable-1.7.0
-	>=sci-CRAN/sp-1.0.15
-	virtual/MASS
-	>=sci-CRAN/polyCub-0.6.0
-	virtual/nlme
 	>=sci-CRAN/Rcpp-0.11.1
-	virtual/Matrix
+	>=sci-CRAN/sp-1.0.15
+	>=sci-CRAN/polyCub-0.6.0
 	>=sci-CRAN/spatstat-1.36.0
+	virtual/nlme
+	virtual/MASS
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

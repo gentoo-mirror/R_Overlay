@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RSGHB
-	sci-CRAN/coda
-	virtual/Matrix
-	>=dev-lang/R-4.0.0
-	sci-CRAN/Deriv
-	sci-CRAN/maxLik
-	>=sci-CRAN/Rcpp-1.0.0
-	sci-CRAN/mnormt
+DEPEND=">=dev-lang/R-4.0.0
 	sci-CRAN/mvtnorm
 	sci-CRAN/randtoolbox
+	sci-CRAN/maxLik
+	>=sci-CRAN/Rcpp-1.0.0
 	sci-CRAN/numDeriv
+	virtual/Matrix
+	sci-CRAN/Deriv
+	sci-CRAN/mnormt
+	sci-CRAN/RSGHB
+	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

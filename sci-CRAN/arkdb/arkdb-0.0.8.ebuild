@@ -33,7 +33,7 @@ R_SUGGESTS="
 	r_suggests_vroom? ( sci-CRAN/vroom )
 "
 DEPEND="sci-CRAN/DBI
-	sci-CRAN/R_utils
 	sci-CRAN/rappdirs
+	sci-CRAN/R_utils
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

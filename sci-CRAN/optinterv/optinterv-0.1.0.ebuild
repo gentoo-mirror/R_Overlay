@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/rootSolve
-	sci-CRAN/distances
 	sci-CRAN/weights
-	virtual/boot
+	sci-CRAN/distances
 	sci-CRAN/Hmisc
+	virtual/boot
 	virtual/lattice
 	sci-CRAN/pbapply
 "

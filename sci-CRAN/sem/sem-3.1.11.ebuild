@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_diagrammer? ( sci-CRAN/DiagrammeR )
 	r_suggests_polycor? ( sci-CRAN/polycor )
 "
-DEPEND="virtual/Matrix
-	virtual/boot
-	>=sci-CRAN/mi-0.9.99
+DEPEND="virtual/MASS
+	virtual/Matrix
 	>=dev-lang/R-3.5.0
-	virtual/MASS
+	>=sci-CRAN/mi-0.9.99
+	virtual/boot
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

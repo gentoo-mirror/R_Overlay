@@ -34,9 +34,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/viridis
 	sci-CRAN/ggplot2
 	>=sci-CRAN/magrittr-1.0.1
-	sci-CRAN/viridis
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

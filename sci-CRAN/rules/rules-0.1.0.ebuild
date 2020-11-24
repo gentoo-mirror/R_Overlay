@@ -21,12 +21,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/parsnip-0.1.3.9000
-	sci-CRAN/tibble
-	sci-CRAN/dplyr
-	sci-CRAN/dials
 	sci-CRAN/rlang
+	sci-CRAN/tibble
 	sci-CRAN/purrr
+	sci-CRAN/dials
 	sci-CRAN/tidyr
+	sci-CRAN/dplyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_genefilter? ( sci-BIOC/genefilter )
 	r_suggests_limma? ( sci-BIOC/limma )
 "
-DEPEND="sci-BIOC/Biobase
-	sci-BIOC/BiocGenerics
+DEPEND="sci-BIOC/BiocGenerics
 	>=sci-BIOC/GSEABase-1.24.0
+	sci-BIOC/Biobase
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

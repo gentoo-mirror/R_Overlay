@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/sirad_2.3-3.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/raster
 	sci-CRAN/zoo
+	sci-CRAN/raster
 "
 RDEPEND="${DEPEND-}"

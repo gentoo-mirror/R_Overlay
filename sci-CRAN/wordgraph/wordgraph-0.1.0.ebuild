@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/wordgraph_0.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/tidygraph
+	sci-CRAN/plyr
 	sci-CRAN/dplyr
 	sci-CRAN/ggraph
-	sci-CRAN/tibble
 	sci-CRAN/purrr
-	sci-CRAN/plyr
+	sci-CRAN/tibble
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

@@ -13,7 +13,7 @@ LICENSE='LGPL-3'
 DEPEND=">=dev-lang/R-3.4
 	>=sci-CRAN/ROptEstOld-1.2.0
 	>=sci-CRAN/distr-2.8.0
-	>=sci-CRAN/RandVar-1.2.0
 	>=sci-CRAN/distrEx-2.8.0
+	>=sci-CRAN/RandVar-1.2.0
 "
 RDEPEND="${DEPEND-}"

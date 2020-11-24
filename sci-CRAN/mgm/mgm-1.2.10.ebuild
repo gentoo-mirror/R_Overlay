@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/mgm_1.2-10.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/stringr
-	sci-CRAN/qgraph
-	sci-CRAN/Hmisc
-	sci-CRAN/glmnet
 	virtual/Matrix
 	sci-CRAN/gtools
+	sci-CRAN/Hmisc
+	sci-CRAN/qgraph
+	sci-CRAN/stringr
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

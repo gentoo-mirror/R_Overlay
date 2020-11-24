@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/EasyMARK_1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
-	sci-CRAN/foreach
-	sci-CRAN/stringr
-	>=dev-lang/R-3.0.2
-	sci-CRAN/coda
-	sci-CRAN/rjags
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	sci-CRAN/coda
 	sci-CRAN/random
+	virtual/MASS
+	sci-CRAN/rjags
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}"

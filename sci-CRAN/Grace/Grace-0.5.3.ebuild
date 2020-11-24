@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/Grace_0.5.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/MASS
-	sci-CRAN/glmnet
 	sci-CRAN/scalreg
+	sci-CRAN/glmnet
 "
 RDEPEND="${DEPEND-}"

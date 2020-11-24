@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
 DEPEND=">=dev-lang/R-3.1.2
-	sci-CRAN/Mcomp
 	sci-CRAN/forecast
+	sci-CRAN/Mcomp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

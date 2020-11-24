@@ -19,26 +19,26 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xml2? ( sci-CRAN/xml2 )
 "
-DEPEND=">=sci-CRAN/dials-0.0.8
-	>=sci-CRAN/modeldata-0.0.2
-	>=sci-CRAN/tidyr-1.1.0
-	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/broom-0.7.0
-	>=sci-CRAN/purrr-0.3.4
-	>=sci-CRAN/yardstick-0.0.7
-	>=sci-CRAN/infer-0.5.2
-	>=sci-CRAN/tibble-3.0.3
-	>=sci-CRAN/rlang-0.4.7
-	>=dev-lang/R-3.1
-	>=sci-CRAN/dplyr-1.0.0
+DEPEND=">=sci-CRAN/crayon-1.3.4
 	>=sci-CRAN/ggplot2-3.3.2
 	>=sci-CRAN/rsample-0.0.7
-	>=sci-CRAN/workflows-0.1.2
-	>=sci-CRAN/crayon-1.3.4
+	>=sci-CRAN/purrr-0.3.4
 	>=sci-CRAN/recipes-0.1.13
-	>=sci-CRAN/tune-0.1.1
-	>=sci-CRAN/parsnip-0.1.2
+	>=sci-CRAN/workflows-0.1.2
 	>=sci-CRAN/cli-2.0.2
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/parsnip-0.1.2
+	>=dev-lang/R-3.1
+	>=sci-CRAN/broom-0.7.0
 	>=sci-CRAN/rstudioapi-0.11
+	>=sci-CRAN/dials-0.0.8
+	>=sci-CRAN/yardstick-0.0.7
+	>=sci-CRAN/modeldata-0.0.2
+	>=sci-CRAN/dplyr-1.0.0
+	>=sci-CRAN/tibble-3.0.3
+	>=sci-CRAN/rlang-0.4.7
+	>=sci-CRAN/tidyr-1.1.0
+	>=sci-CRAN/infer-0.5.2
+	>=sci-CRAN/tune-0.1.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

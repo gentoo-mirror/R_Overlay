@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.12 )
 "
-DEPEND=">=sci-CRAN/networkDynamic-0.10.0
+DEPEND=">=sci-CRAN/ergm-3.11.0
 	>=sci-CRAN/coda-0.19.2
-	virtual/nlme
-	>=sci-CRAN/network-1.15
 	>=sci-CRAN/robustbase-0.93.5
+	>=sci-CRAN/networkDynamic-0.10.0
+	>=sci-CRAN/network-1.15
+	virtual/nlme
 	>=sci-CRAN/statnet_common-4.4.0
-	>=sci-CRAN/ergm-3.11.0
 	virtual/MASS
 "
 RDEPEND="${DEPEND-}

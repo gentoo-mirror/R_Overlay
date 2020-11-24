@@ -18,7 +18,7 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.3.0
 	sci-CRAN/gtools
-	sci-CRAN/reshape2
 	sci-CRAN/dplyr
+	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

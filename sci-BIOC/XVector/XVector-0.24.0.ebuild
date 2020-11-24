@@ -17,8 +17,8 @@ R_SUGGESTS="
 "
 DEPEND=">=sci-BIOC/BiocGenerics-0.19.2
 	sci-BIOC/S4Vectors
-	>=sci-BIOC/IRanges-2.15.12
 	sci-BIOC/zlibbioc
+	>=sci-BIOC/IRanges-2.15.12
 	>=sci-BIOC/S4Vectors-0.21.13
 	sci-BIOC/BiocGenerics
 	sci-BIOC/IRanges

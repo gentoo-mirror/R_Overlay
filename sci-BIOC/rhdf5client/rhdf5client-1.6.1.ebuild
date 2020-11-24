@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/httr
+	sci-CRAN/rjson
+	>=dev-lang/R-3.5
+	sci-BIOC/S4Vectors
 	sci-BIOC/DelayedArray
 	sci-CRAN/R6
-	sci-BIOC/S4Vectors
-	>=dev-lang/R-3.5
-	sci-CRAN/rjson
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

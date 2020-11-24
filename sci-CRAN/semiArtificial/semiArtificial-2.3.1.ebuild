@@ -10,18 +10,18 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/semiArtificial_2.3.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="virtual/nnet
-	sci-CRAN/timeDate
-	sci-CRAN/logspline
+DEPEND="sci-CRAN/RSNNS
+	sci-CRAN/StatMatch
+	sci-CRAN/mcclust
 	sci-CRAN/flexclust
-	>=sci-CRAN/CORElearn-1.50.3
-	sci-CRAN/RSNNS
-	virtual/cluster
-	virtual/MASS
 	sci-CRAN/fpc
+	>=sci-CRAN/CORElearn-1.50.3
+	virtual/cluster
+	virtual/nnet
+	virtual/MASS
+	sci-CRAN/timeDate
 	sci-CRAN/robustbase
 	sci-CRAN/ks
-	sci-CRAN/mcclust
-	sci-CRAN/StatMatch
+	sci-CRAN/logspline
 "
 RDEPEND="${DEPEND-}"

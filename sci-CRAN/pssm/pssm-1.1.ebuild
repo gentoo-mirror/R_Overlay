@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/pssm_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/numDeriv
-	sci-CRAN/MHadaptive
-	sci-CRAN/abind
+DEPEND="sci-CRAN/MHadaptive
+	sci-CRAN/numDeriv
 	virtual/MASS
+	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-}"

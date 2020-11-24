@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/SNFtool_2.3.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/heatmap_plus
-	sci-CRAN/ExPosition
 	sci-CRAN/alluvial
+	sci-CRAN/ExPosition
 "
 RDEPEND="${DEPEND-}"

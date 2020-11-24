@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/mispr_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/e1071
 	sci-CRAN/penalized
 	virtual/MASS
+	sci-CRAN/e1071
 "
 RDEPEND="${DEPEND-}"

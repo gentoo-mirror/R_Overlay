@@ -18,29 +18,29 @@ R_SUGGESTS="
 	r_suggests_psych? ( sci-CRAN/psych )
 	r_suggests_sirt? ( sci-CRAN/sirt )
 "
-DEPEND=">=sci-CRAN/readxl-1.1
+DEPEND=">=sci-CRAN/writexl-1.0
 	>=sci-CRAN/ggplot2-3.2
-	>=sci-CRAN/shinyFiles-0.7.3
-	>=sci-CRAN/readODS-1.6
-	>=sci-CRAN/ggridges-0.5.1
-	>=dev-lang/R-3.4
-	>=sci-CRAN/shiny-1.3.0
-	>=sci-CRAN/dexter-1.0.2
-	>=sci-CRAN/htmlwidgets-1.3
-	>=sci-CRAN/shinyjs-1.0
 	>=sci-CRAN/tidyr-0.8.3
-	sci-CRAN/Cairo
-	>=sci-CRAN/DT-0.9
-	>=sci-CRAN/htmltools-0.4.0
-	>=sci-CRAN/jsonlite-1.5
-	>=sci-CRAN/writexl-1.0
 	>=sci-CRAN/ggExtra-0.8
+	>=sci-CRAN/RCurl-1.95
+	sci-CRAN/Cairo
+	>=sci-CRAN/dplyr-0.8.3
+	>=sci-CRAN/shinyBS-0.6
+	>=sci-CRAN/dexter-1.0.2
+	>=sci-CRAN/htmltools-0.4.0
+	>=sci-CRAN/shinyFiles-0.7.3
 	>=sci-CRAN/rlang-0.4.0
+	>=sci-CRAN/ggridges-0.5.1
+	>=sci-CRAN/readxl-1.1
+	>=sci-CRAN/networkD3-0.4
 	>=sci-CRAN/tibble-2.1
 	>=sci-CRAN/DBI-1.0.0
-	>=sci-CRAN/networkD3-0.4
-	>=sci-CRAN/RCurl-1.95
-	>=sci-CRAN/shinyBS-0.6
-	>=sci-CRAN/dplyr-0.8.3
+	>=dev-lang/R-3.4
+	>=sci-CRAN/readODS-1.6
+	>=sci-CRAN/shiny-1.3.0
+	>=sci-CRAN/DT-0.9
+	>=sci-CRAN/htmlwidgets-1.3
+	>=sci-CRAN/shinyjs-1.0
+	>=sci-CRAN/jsonlite-1.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

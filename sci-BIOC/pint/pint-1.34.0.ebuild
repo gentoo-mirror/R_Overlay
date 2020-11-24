@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/pint_1.34.0.tar.gz"
 LICENSE='BSD-2'
 
-DEPEND="sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/dmt
+	sci-CRAN/mvtnorm
 	virtual/Matrix
-	sci-CRAN/dmt
 "
 RDEPEND="${DEPEND-}"

@@ -17,12 +17,12 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-2.14.0
 	sci-CRAN/png
+	sci-CRAN/sqldf
+	sci-CRAN/igraph
+	sci-CRAN/plyr
 	sci-CRAN/RCurl
 	sci-CRAN/RColorBrewer
-	sci-CRAN/igraph
 	sci-CRAN/gplots
-	sci-CRAN/plyr
-	sci-CRAN/sqldf
 	sci-CRAN/hash
 	sci-CRAN/plotrix
 "

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ATmet_1.2.1.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/DiceDesign
-	sci-CRAN/metRology
-	sci-CRAN/lhs
-	sci-CRAN/msm
+DEPEND="sci-CRAN/msm
 	sci-CRAN/sensitivity
+	sci-CRAN/lhs
+	sci-CRAN/DiceDesign
+	sci-CRAN/metRology
 "
 RDEPEND="${DEPEND-}"

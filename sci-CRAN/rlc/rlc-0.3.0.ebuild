@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/hwriter
-	sci-CRAN/stringr
 	sci-CRAN/plyr
 	>=sci-CRAN/jrc-0.4.0
 	sci-CRAN/R6
+	sci-CRAN/hwriter
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

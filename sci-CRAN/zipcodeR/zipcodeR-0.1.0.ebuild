@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/zipcodeR_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/stringr
-	sci-CRAN/rlang
 	sci-CRAN/dplyr
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}"

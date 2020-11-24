@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/penPHcure_1.0.2.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="virtual/survival
-	virtual/MASS
 	sci-CRAN/Rcpp
 	sci-CRAN/Rdpack
+	virtual/MASS
 	>=dev-lang/R-3.5
 "
 RDEPEND="${DEPEND-}

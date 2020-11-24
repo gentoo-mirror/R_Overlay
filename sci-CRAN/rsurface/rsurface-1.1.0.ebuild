@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/rsurface_1.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/rsm
-	sci-CRAN/plotly
 	>=dev-lang/R-3.5
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-}"

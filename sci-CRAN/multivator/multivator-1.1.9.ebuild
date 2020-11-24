@@ -12,8 +12,8 @@ LICENSE='GPL-2'
 
 IUSE="${IUSE-} r_suggests_abind"
 R_SUGGESTS="r_suggests_abind? ( sci-CRAN/abind )"
-DEPEND=">=dev-lang/R-3.0.1
-	sci-CRAN/mvtnorm
+DEPEND="sci-CRAN/mvtnorm
 	>=sci-CRAN/emulator-1.2.15
+	>=dev-lang/R-3.0.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

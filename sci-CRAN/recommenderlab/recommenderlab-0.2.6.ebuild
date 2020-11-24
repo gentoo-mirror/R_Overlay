@@ -15,11 +15,11 @@ R_SUGGESTS="
 	r_suggests_rocr? ( sci-CRAN/ROCR )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/registry
-	sci-CRAN/recosystem
-	virtual/Matrix
-	sci-CRAN/arules
+DEPEND="virtual/Matrix
+	sci-CRAN/registry
 	sci-CRAN/proxy
 	sci-CRAN/irlba
+	sci-CRAN/arules
+	sci-CRAN/recosystem
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

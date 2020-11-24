@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_qrlmm"
 R_SUGGESTS="r_suggests_qrlmm? ( sci-CRAN/qrLMM )"
-DEPEND="sci-CRAN/quantreg
-	dev-lang/R[tk]
-	sci-CRAN/lqr
+DEPEND="sci-CRAN/mvtnorm
+	sci-CRAN/quantreg
 	sci-CRAN/psych
+	sci-CRAN/lqr
+	dev-lang/R[tk]
 	sci-CRAN/ald
-	sci-CRAN/mvtnorm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

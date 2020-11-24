@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_spreda? ( sci-CRAN/SPREDA )
 "
-DEPEND=">=dev-lang/R-3.4.0
+DEPEND="virtual/boot
+	virtual/survival
 	sci-CRAN/dplyr
 	sci-CRAN/arm
-	virtual/survival
-	virtual/MASS
+	>=dev-lang/R-3.4.0
 	sci-CRAN/lme4
-	virtual/boot
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

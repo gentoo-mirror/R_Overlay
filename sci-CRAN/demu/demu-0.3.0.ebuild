@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/demu_0.3.0.tar.gz"
 LICENSE='AGPL-3'
 
-DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/spam
-	virtual/cluster
-	virtual/Matrix
-	>=sci-CRAN/Rcpp-0.12.12
+DEPEND="virtual/cluster
 	sci-CRAN/fields
+	>=sci-CRAN/Rcpp-0.12.12
+	>=dev-lang/R-3.2.3
+	sci-CRAN/spam
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -24,17 +24,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11 )
 	r_suggests_ucminf? ( sci-CRAN/ucminf )
 "
-DEPEND=">=sci-CRAN/lava-1.6.6
-	sci-CRAN/Rcpp
-	>=sci-CRAN/timereg-1.9.4
+DEPEND=">=dev-lang/R-3.5
+	>=sci-CRAN/lava-1.6.6
 	sci-CRAN/mvtnorm
-	>=dev-lang/R-3.5
+	>=sci-CRAN/timereg-1.9.4
 	sci-CRAN/numDeriv
+	sci-CRAN/Rcpp
 	virtual/survival
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/mvtnorm
 	sci-CRAN/RcppArmadillo
+	sci-CRAN/mvtnorm
 	${R_SUGGESTS-}
 "

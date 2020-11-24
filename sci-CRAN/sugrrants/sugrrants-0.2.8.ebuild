@@ -24,11 +24,11 @@ R_SUGGESTS="
 	r_suggests_tsibble? ( >=sci-CRAN/tsibble-0.8.0 )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND=">=sci-CRAN/dplyr-0.8.0
-	sci-CRAN/gtable
+DEPEND=">=dev-lang/R-3.1.3
 	>=sci-CRAN/lubridate-1.7.1
+	>=sci-CRAN/dplyr-0.8.0
+	sci-CRAN/gtable
 	>=sci-CRAN/ggplot2-2.2.0
-	>=dev-lang/R-3.1.3
 	>=sci-CRAN/rlang-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

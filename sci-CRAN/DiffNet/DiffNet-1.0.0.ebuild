@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DiffNet_1.0-0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/Matrix
-	sci-CRAN/foreach
-	sci-CRAN/lsa
-	sci-CRAN/gplots
-	>=dev-lang/R-3.3.2
-	virtual/Matrix
+DEPEND=">=dev-lang/R-3.3.2
+	sci-CRAN/igraph
 	sci-CRAN/data_table
+	virtual/Matrix
+	virtual/Matrix
 	>=sci-CRAN/Rcpp-0.12.7
 	sci-CRAN/Hmisc
-	sci-CRAN/igraph
+	sci-CRAN/gplots
+	sci-CRAN/lsa
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
 "
 RDEPEND="${DEPEND-}

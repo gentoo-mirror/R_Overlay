@@ -20,11 +20,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 )
 "
-DEPEND=">=dev-lang/R-3.1.3
-	>=sci-CRAN/rriskDistributions-2.0
+DEPEND=">=sci-CRAN/msm-1.5
 	>=sci-CRAN/mvtnorm-1.0.2
-	>=sci-CRAN/msm-1.5
 	>=sci-CRAN/chillR-0.62
+	>=sci-CRAN/rriskDistributions-2.0
+	>=dev-lang/R-3.1.3
 	>=sci-CRAN/nleqslv-2.6
 	>=sci-CRAN/fANCOVA-0.5
 	>=sci-CRAN/ggplot2-3.2.0

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/extremis_1.0.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="virtual/MASS
-	sci-CRAN/evd
-	>=dev-lang/R-3.0.1
+DEPEND="sci-CRAN/evd
 	sci-CRAN/emplik
+	virtual/MASS
+	>=dev-lang/R-3.0.1
 "
 RDEPEND="${DEPEND-}"

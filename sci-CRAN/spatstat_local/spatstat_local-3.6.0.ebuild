@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/spatstat.local_3.6-0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/spatstat_utils
-	sci-CRAN/tensor
 	>=sci-CRAN/spatstat-1.57.0
+	sci-CRAN/tensor
+	sci-CRAN/spatstat_utils
 "
 RDEPEND="${DEPEND-}"

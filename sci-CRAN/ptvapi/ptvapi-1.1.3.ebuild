@@ -18,9 +18,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/httr
 	sci-CRAN/glue
+	sci-CRAN/digest
 	sci-CRAN/purrr
 	sci-CRAN/jsonlite
-	sci-CRAN/digest
 	sci-CRAN/tibble
 	sci-CRAN/assertthat
 "

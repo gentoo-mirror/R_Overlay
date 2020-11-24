@@ -24,17 +24,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_trekfont? ( sci-CRAN/trekfont )
 "
-DEPEND="sci-CRAN/xml2
-	sci-CRAN/rvest
+DEPEND="sci-CRAN/tidyr
+	sci-CRAN/downloader
+	sci-CRAN/dplyr
 	sci-CRAN/magrittr
 	sci-CRAN/jsonlite
+	sci-CRAN/xml2
+	sci-CRAN/rvest
 	sci-CRAN/jpeg
-	sci-CRAN/dplyr
 	sci-CRAN/purrr
 	sci-CRAN/ggplot2
 	sci-CRAN/memoise
 	sci-CRAN/tibble
-	sci-CRAN/tidyr
-	sci-CRAN/downloader
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,8 +18,8 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_vcfr? ( sci-CRAN/vcfR )
 "
-DEPEND="sci-CRAN/genetics
-	sci-BIOC/snpStats
+DEPEND="sci-BIOC/snpStats
+	sci-CRAN/genetics
 	sci-CRAN/Rcpp
 	>=dev-lang/R-4.0
 "

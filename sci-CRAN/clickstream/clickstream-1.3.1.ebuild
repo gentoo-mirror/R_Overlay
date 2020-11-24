@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/clickstream_1.3.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/Rsolnp
-	sci-CRAN/ggplot2
-	sci-CRAN/arules
-	sci-CRAN/linprog
-	sci-CRAN/ClickClust
-	sci-CRAN/data_table
-	>=dev-lang/R-3.0.1
-	sci-CRAN/igraph
+DEPEND=">=dev-lang/R-3.0.1
 	sci-CRAN/reshape2
 	virtual/MASS
+	sci-CRAN/plyr
+	sci-CRAN/igraph
+	sci-CRAN/arules
+	sci-CRAN/linprog
+	sci-CRAN/ggplot2
+	sci-CRAN/ClickClust
+	sci-CRAN/data_table
+	sci-CRAN/Rsolnp
 "
 RDEPEND="${DEPEND-}"

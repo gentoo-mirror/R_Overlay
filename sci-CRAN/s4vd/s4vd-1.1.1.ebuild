@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/s4vd_1.1-1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/biclust
-	sci-CRAN/irlba
 	sci-CRAN/foreach
+	sci-CRAN/irlba
 "
 RDEPEND="${DEPEND-}"

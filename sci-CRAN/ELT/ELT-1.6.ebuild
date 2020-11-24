@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/ELT_1.6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/locfit
+DEPEND="sci-CRAN/xlsx
 	virtual/lattice
+	sci-CRAN/locfit
 	virtual/lattice
-	sci-CRAN/xlsx
 "
 RDEPEND="${DEPEND-}"

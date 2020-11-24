@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/osmose_3.3.4.tar.gz"
 LICENSE='CeCILL-C'
 
-DEPEND="sci-CRAN/knitr
-	sci-CRAN/rmarkdown
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/knitr
 	sci-CRAN/stringr
+	sci-CRAN/rlist
+	sci-CRAN/rmarkdown
 	sci-CRAN/ncdf4
 	virtual/mgcv
-	>=dev-lang/R-3.5.0
-	sci-CRAN/rlist
 	sci-CRAN/fields
 "
 RDEPEND="${DEPEND-} virtual/jdk"

@@ -12,11 +12,11 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_diagram"
 R_SUGGESTS="r_suggests_diagram? ( sci-CRAN/diagram )"
-DEPEND="sci-CRAN/rootSolve
+DEPEND="sci-CRAN/coda
+	sci-CRAN/rootSolve
+	sci-CRAN/deSolve
 	sci-CRAN/minpack_lm
 	virtual/MASS
-	sci-CRAN/coda
-	sci-CRAN/deSolve
 	sci-CRAN/minqa
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

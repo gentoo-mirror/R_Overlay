@@ -19,30 +19,30 @@ R_SUGGESTS="
 	r_suggests_rmpi? ( sci-CRAN/Rmpi )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/sp
-	sci-CRAN/ggplot2
-	sci-CRAN/doParallel
-	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/servr
-	sci-CRAN/tibble
-	>=dev-lang/R-3.5.0
-	sci-CRAN/sf
-	sci-CRAN/spdep
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/lwgeom
 	sci-CRAN/coda
 	sci-CRAN/foreach
-	sci-CRAN/lwgeom
 	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
 	sci-CRAN/magrittr
-	sci-CRAN/readr
 	sci-CRAN/sys
 	sci-CRAN/stringr
+	sci-CRAN/spdep
+	>=sci-CRAN/Rcpp-0.11.0
+	sci-CRAN/sp
+	sci-CRAN/sf
+	sci-CRAN/doParallel
+	sci-CRAN/readr
+	sci-CRAN/servr
+	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/BH
-	sci-CRAN/Rcpp
 	sci-CRAN/RcppArmadillo
-	sci-CRAN/RcppEigen
 	dev-libs/gmp
+	sci-CRAN/Rcpp
+	sci-CRAN/BH
+	sci-CRAN/RcppEigen
 	dev-libs/libxml2
 	dev-lang/python
 	${R_SUGGESTS-}

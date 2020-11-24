@@ -20,7 +20,7 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/magrittr
-	sci-CRAN/roxygen2
 	>=dev-lang/R-3.2.0
+	sci-CRAN/roxygen2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

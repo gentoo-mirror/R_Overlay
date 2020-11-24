@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/PSF_0.4.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/data_table
+	virtual/cluster
 	sci-CRAN/forecast
 	sci-CRAN/knitr
-	virtual/cluster
 "
 RDEPEND="${DEPEND-}"

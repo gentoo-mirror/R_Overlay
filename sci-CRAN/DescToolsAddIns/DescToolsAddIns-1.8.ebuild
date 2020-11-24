@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DescToolsAddIns_1.8.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND=">=sci-CRAN/DescTools-0.99.30
-	sci-mathematics/rstudio
+DEPEND=">=sci-CRAN/rstudioapi-0.1
+	>=sci-CRAN/DescTools-0.99.30
 	>=dev-lang/R-3.5.0
-	>=sci-CRAN/rstudioapi-0.1
 	sci-CRAN/writexl
+	sci-mathematics/rstudio
 	virtual/foreign
 "
 RDEPEND="${DEPEND-}"

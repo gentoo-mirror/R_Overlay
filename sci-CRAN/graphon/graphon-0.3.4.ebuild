@@ -12,7 +12,7 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_igraph"
 R_SUGGESTS="r_suggests_igraph? ( sci-CRAN/igraph )"
-DEPEND="sci-CRAN/ROptSpace
-	sci-CRAN/Rdpack
+DEPEND="sci-CRAN/Rdpack
+	sci-CRAN/ROptSpace
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_biocstyle? ( sci-BIOC/BiocStyle )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=sci-CRAN/abind-1.4.0
-	virtual/Matrix
-	>=dev-lang/R-3.0.1
-	>=sci-CRAN/reshape2-1.2.2
-	>=sci-CRAN/ade4-1.5.2
+DEPEND=">=dev-lang/R-3.0.1
 	>=sci-CRAN/doParallel-1.0.3
+	>=sci-CRAN/ade4-1.5.2
+	>=sci-CRAN/abind-1.4.0
+	>=sci-CRAN/reshape2-1.2.2
 	>=sci-CRAN/scales-0.2.3
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

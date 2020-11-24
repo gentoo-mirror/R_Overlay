@@ -23,13 +23,13 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/viridis
-	sci-CRAN/sp
-	sci-CRAN/png
-	sci-CRAN/raster
+DEPEND="sci-CRAN/png
 	sci-CRAN/geometry
-	sci-CRAN/scales
-	sci-CRAN/gridBase
+	sci-CRAN/viridis
+	sci-CRAN/sp
 	>=sci-CRAN/reproj-0.4.0
+	sci-CRAN/gridBase
+	sci-CRAN/raster
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

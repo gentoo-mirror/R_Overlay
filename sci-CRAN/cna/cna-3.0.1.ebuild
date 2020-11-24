@@ -13,10 +13,10 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_dplyr"
 R_SUGGESTS="r_suggests_dplyr? ( sci-CRAN/dplyr )"
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/car
 	virtual/Matrix
 	sci-CRAN/Rcpp
 	virtual/Matrix
+	sci-CRAN/car
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

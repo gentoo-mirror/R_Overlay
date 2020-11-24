@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/pathVar_1.14.0.tar.gz"
 LICENSE='LGPL-2+'
 
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/gridExtra
 	sci-CRAN/Matching
-	sci-CRAN/gridExtra
-	>=dev-lang/R-3.3.0
 	sci-CRAN/EMT
+	>=dev-lang/R-3.3.0
+	sci-CRAN/ggplot2
 	sci-CRAN/mclust
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-}"

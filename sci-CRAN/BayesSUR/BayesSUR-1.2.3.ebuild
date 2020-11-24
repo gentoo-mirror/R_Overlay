@@ -19,12 +19,12 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_scrime? ( sci-CRAN/scrime )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/xml2
 	sci-CRAN/igraph
-	sci-CRAN/xml2
-	sci-CRAN/Rcpp
-	virtual/Matrix
 	sci-CRAN/tikzDevice
+	virtual/Matrix
+	>=dev-lang/R-3.5.0
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/interep_0.3.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.5.0
-	virtual/MASS
 	sci-CRAN/Rcpp
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

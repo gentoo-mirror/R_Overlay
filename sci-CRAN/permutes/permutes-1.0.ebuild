@@ -20,8 +20,8 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND="sci-CRAN/viridis
+	sci-CRAN/lmPerm
 	sci-CRAN/ggplot2
 	sci-CRAN/plyr
-	sci-CRAN/lmPerm
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/R6-2.4.0
-	sci-CRAN/callr
-	sci-CRAN/yaml
 	sci-CRAN/R_utils
+	>=sci-CRAN/R6-2.4.0
 	sci-CRAN/httr
 	sci-CRAN/jsonlite
+	sci-CRAN/callr
+	sci-CRAN/yaml
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -18,13 +18,13 @@ R_SUGGESTS="
 	r_suggests_shinybs? ( sci-CRAN/shinyBS )
 	r_suggests_shinythemes? ( sci-CRAN/shinythemes )
 "
-DEPEND="sci-CRAN/readxl
+DEPEND="sci-CRAN/gdata
+	sci-CRAN/RODBC
 	sci-CRAN/Hmisc
-	sci-CRAN/writexl
+	sci-CRAN/readxl
 	sci-CRAN/haven
 	sci-CRAN/chron
-	sci-CRAN/gdata
-	sci-CRAN/RODBC
+	sci-CRAN/writexl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -29,7 +29,7 @@ R_SUGGESTS="
 	r_suggests_udpipe? ( sci-CRAN/udpipe )
 "
 DEPEND="virtual/lattice
-	virtual/Matrix
 	>=sci-CRAN/data_table-1.9.6
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

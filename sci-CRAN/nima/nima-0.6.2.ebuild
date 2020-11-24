@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tibble? ( sci-CRAN/tibble )
 "
-DEPEND="sci-CRAN/gridExtra
-	sci-CRAN/ggthemes
-	>=dev-lang/R-3.2.3
-	sci-CRAN/ggplot2
-	sci-CRAN/assertthat
-	sci-CRAN/scales
-	sci-CRAN/gtools
+DEPEND="sci-CRAN/scales
+	sci-CRAN/gridExtra
 	sci-CRAN/dplyr
+	>=dev-lang/R-3.2.3
+	sci-CRAN/assertthat
+	sci-CRAN/ggplot2
+	sci-CRAN/ggthemes
+	sci-CRAN/gtools
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

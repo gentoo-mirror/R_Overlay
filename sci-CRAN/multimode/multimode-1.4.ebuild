@@ -12,8 +12,8 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_nor1mix"
 R_SUGGESTS="r_suggests_nor1mix? ( sci-CRAN/nor1mix )"
-DEPEND="sci-CRAN/ks
-	sci-CRAN/rootSolve
+DEPEND="sci-CRAN/rootSolve
 	sci-CRAN/diptest
+	sci-CRAN/ks
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

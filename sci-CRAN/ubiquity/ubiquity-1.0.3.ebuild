@@ -19,27 +19,27 @@ R_SUGGESTS="
 	r_suggests_gridgraphics? ( sci-CRAN/gridGraphics )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/PKNCA
-	sci-CRAN/shiny
-	sci-CRAN/rstudioapi
-	sci-CRAN/knitr
-	>=dev-lang/R-3.5.0
-	>=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/pso
-	sci-CRAN/doParallel
-	sci-CRAN/ggplot2
-	virtual/MASS
-	sci-CRAN/stringr
-	sci-CRAN/flextable
-	sci-CRAN/gridExtra
+DEPEND=">=dev-lang/R-3.5.0
 	>=sci-CRAN/officer-0.3.7
-	sci-CRAN/optimx
-	sci-CRAN/rmarkdown
-	sci-CRAN/deSolve
-	sci-CRAN/digest
-	sci-CRAN/readxl
+	sci-CRAN/ggplot2
 	sci-CRAN/rhandsontable
+	sci-CRAN/deSolve
+	sci-CRAN/foreach
+	sci-CRAN/pso
+	sci-CRAN/shiny
+	sci-CRAN/doParallel
+	sci-CRAN/flextable
+	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/knitr
+	virtual/MASS
+	sci-CRAN/PKNCA
+	sci-CRAN/optimx
+	sci-CRAN/readxl
+	sci-CRAN/gridExtra
+	sci-CRAN/rmarkdown
+	sci-CRAN/digest
+	sci-CRAN/rstudioapi
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-}
 	dev-lang/perl

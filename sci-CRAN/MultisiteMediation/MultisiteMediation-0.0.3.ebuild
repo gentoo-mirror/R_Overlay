@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MultisiteMediation_0.0.3.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/lme4
-	sci-CRAN/psych
+DEPEND="sci-CRAN/psych
 	sci-CRAN/statmod
-	virtual/MASS
 	sci-CRAN/ggplot2
+	virtual/MASS
+	sci-CRAN/lme4
 "
 RDEPEND="${DEPEND-}"

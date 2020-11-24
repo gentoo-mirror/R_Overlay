@@ -31,18 +31,18 @@ R_SUGGESTS="
 	r_suggests_snowballc? ( sci-CRAN/SnowballC )
 	r_suggests_topicmodels? ( sci-CRAN/topicmodels )
 "
-DEPEND=">=dev-lang/R-3.6
+DEPEND="dev-lang/R[tk]
 	sci-CRAN/tkrplot
-	sci-CRAN/tidyr
-	sci-CRAN/syuzhet
-	sci-CRAN/dplyr
 	sci-CRAN/tibble
-	sci-CRAN/ggwordcloud
-	sci-CRAN/RColorBrewer
-	dev-lang/R[tk]
 	sci-CRAN/tidytext
+	sci-CRAN/dplyr
+	sci-CRAN/RColorBrewer
+	>=dev-lang/R-3.6
+	sci-CRAN/syuzhet
+	sci-CRAN/tidyr
 	sci-CRAN/tm
 	sci-CRAN/slam
 	sci-CRAN/ggplot2
+	sci-CRAN/ggwordcloud
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/RBtest_1.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="virtual/nnet
-	sci-CRAN/mice
 	sci-CRAN/psych
+	sci-CRAN/mice
 "
 RDEPEND="${DEPEND-}"

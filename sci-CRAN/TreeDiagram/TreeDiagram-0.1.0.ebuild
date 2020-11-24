@@ -12,11 +12,11 @@ LICENSE='BSD-2'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/ggplot2
+DEPEND="sci-CRAN/stringr
 	sci-CRAN/tree
-	sci-CRAN/cowplot
-	sci-CRAN/stringr
 	sci-CRAN/ape
+	sci-CRAN/ggplot2
+	sci-CRAN/cowplot
 	sci-CRAN/spatstat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_rgeos? ( sci-CRAN/rgeos )
 	r_suggests_udunits2? ( sci-CRAN/udunits2 )
 "
-DEPEND="sci-CRAN/lubridate
+DEPEND="sci-CRAN/ggplot2
+	sci-CRAN/raster
+	sci-CRAN/rnaturalearth
+	sci-CRAN/tidyr
+	>=dev-lang/R-3.5
+	sci-CRAN/tibble
+	sci-CRAN/lubridate
+	sci-CRAN/magrittr
+	sci-CRAN/dplyr
+	sci-CRAN/sf
 	sci-CRAN/rnaturalearthdata
 	sci-CRAN/metR
-	sci-CRAN/sf
 	sci-CRAN/RNCEP
 	sci-CRAN/stringr
-	>=dev-lang/R-3.5
-	sci-CRAN/magrittr
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/rnaturalearth
-	sci-CRAN/raster
-	sci-CRAN/tidyr
-	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

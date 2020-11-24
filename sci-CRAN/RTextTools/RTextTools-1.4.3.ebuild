@@ -10,16 +10,16 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RTextTools_1.4.3.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/randomForest
+DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/randomForest
 	sci-CRAN/tm
-	sci-CRAN/e1071
 	sci-CRAN/SparseM
 	sci-CRAN/tree
+	sci-CRAN/e1071
 	sci-CRAN/ipred
 	sci-CRAN/caTools
 	sci-CRAN/glmnet
 	sci-CRAN/tau
-	>=dev-lang/R-3.6.0
 	virtual/nnet
 "
 RDEPEND="${DEPEND-}"

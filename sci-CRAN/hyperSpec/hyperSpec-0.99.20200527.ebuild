@@ -35,14 +35,14 @@ R_SUGGESTS="
 	r_suggests_tibble? ( sci-CRAN/tibble )
 	r_suggests_tripack? ( sci-CRAN/tripack )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/lazyeval
-	virtual/lattice
-	sci-CRAN/xml2
-	virtual/lattice
-	>=sci-CRAN/ggplot2-2.2.0
+DEPEND="virtual/lattice
 	sci-CRAN/testthat
 	sci-CRAN/dplyr
+	sci-CRAN/xml2
+	>=sci-CRAN/ggplot2-2.2.0
+	>=dev-lang/R-3.6.0
+	virtual/lattice
+	sci-CRAN/lazyeval
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

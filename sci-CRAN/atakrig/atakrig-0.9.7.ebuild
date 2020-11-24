@@ -16,13 +16,13 @@ R_SUGGESTS="
 	r_suggests_rtop? ( sci-CRAN/rtop )
 "
 DEPEND="sci-CRAN/gstat
-	sci-CRAN/snow
-	sci-CRAN/foreach
-	virtual/MASS
-	sci-CRAN/sp
-	sci-CRAN/doSNOW
-	sci-CRAN/rgeos
 	sci-CRAN/FNN
+	sci-CRAN/doSNOW
+	virtual/MASS
+	sci-CRAN/rgeos
+	sci-CRAN/foreach
+	sci-CRAN/sp
+	sci-CRAN/snow
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

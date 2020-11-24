@@ -12,11 +12,11 @@ LICENSE='Artistic-2'
 
 IUSE="${IUSE-} r_suggests_magick"
 R_SUGGESTS="r_suggests_magick? ( sci-CRAN/magick )"
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/sysfonts
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/ggplot2
 	sci-CRAN/ggimage
 	sci-CRAN/hexbin
 	sci-CRAN/showtext
+	sci-CRAN/sysfonts
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

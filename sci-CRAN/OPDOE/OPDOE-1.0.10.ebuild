@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/gmp
 	sci-CRAN/orthopolynom
-	virtual/nlme
 	sci-CRAN/mvtnorm
 	sci-CRAN/crossdes
+	virtual/nlme
 	sci-CRAN/polynom
 "
 RDEPEND="${DEPEND-}"

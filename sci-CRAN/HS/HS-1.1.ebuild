@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/HS_1.1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/tidyr
+DEPEND="sci-CRAN/zoo
+	sci-CRAN/ggplot2
 	sci-CRAN/partitions
-	sci-CRAN/zoo
 	sci-CRAN/data_table
 	>=dev-lang/R-3.4.0
 	sci-CRAN/ggpubr
+	sci-CRAN/tidyr
 	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND=">=dev-lang/R-3.1.3
+DEPEND="sci-CRAN/kyotil
+	>=dev-lang/R-3.1.3
 	sci-CRAN/survey
 	virtual/survival
-	sci-CRAN/kyotil
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

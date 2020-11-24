@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/pcaPP
-	sci-CRAN/VineCopula
 	sci-CRAN/randtoolbox
+	sci-CRAN/VineCopula
+	sci-CRAN/pcaPP
 	sci-CRAN/cubature
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

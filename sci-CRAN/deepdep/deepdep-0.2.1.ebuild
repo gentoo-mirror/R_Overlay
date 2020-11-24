@@ -27,15 +27,15 @@ R_SUGGESTS="
 	r_suggests_stringi? ( sci-CRAN/stringi )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/cranlogs
-	sci-CRAN/ggforce
-	sci-CRAN/ggplot2
-	sci-CRAN/ggraph
-	sci-CRAN/graphlayouts
+DEPEND="sci-CRAN/graphlayouts
 	sci-CRAN/jsonlite
-	sci-CRAN/scales
 	sci-CRAN/httr
+	sci-CRAN/scales
+	>=dev-lang/R-3.2.0
+	sci-CRAN/ggplot2
+	sci-CRAN/cranlogs
+	sci-CRAN/ggraph
+	sci-CRAN/ggforce
 	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

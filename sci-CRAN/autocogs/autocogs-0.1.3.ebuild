@@ -15,17 +15,17 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/diptest
-	sci-CRAN/hexbin
+DEPEND="sci-CRAN/dplyr
+	sci-CRAN/moments
+	sci-CRAN/broom
+	sci-CRAN/diptest
 	sci-CRAN/mclust
-	sci-CRAN/ggplot2
-	sci-CRAN/tibble
 	sci-CRAN/progress
 	>=dev-lang/R-3.4.0
-	virtual/MASS
-	sci-CRAN/dplyr
 	sci-CRAN/checkmate
-	sci-CRAN/broom
-	sci-CRAN/moments
+	virtual/MASS
+	sci-CRAN/ggplot2
+	sci-CRAN/tibble
+	sci-CRAN/hexbin
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

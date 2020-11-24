@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/My.stepwise_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.3.3
-	sci-CRAN/lmtest
 	virtual/survival
 	sci-CRAN/car
+	sci-CRAN/lmtest
 "
 RDEPEND="${DEPEND-}"

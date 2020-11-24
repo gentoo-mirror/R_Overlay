@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/splitstackshape
-	sci-CRAN/plyr
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/jsonlite
 	sci-CRAN/stringr
+	sci-CRAN/splitstackshape
 	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

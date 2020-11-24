@@ -20,12 +20,12 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( sci-CRAN/roxygen2 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/ranger
-	virtual/spatial
-	sci-CRAN/vcd
-	>=dev-lang/R-3.2.1
+DEPEND=">=dev-lang/R-3.2.1
+	sci-CRAN/minpack_lm
+	sci-CRAN/ranger
 	>=sci-CRAN/data_table-1.10
 	>=sci-CRAN/checkmate-1.9.1
-	sci-CRAN/minpack_lm
+	virtual/spatial
+	sci-CRAN/vcd
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

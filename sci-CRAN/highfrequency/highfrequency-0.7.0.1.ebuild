@@ -22,17 +22,17 @@ R_SUGGESTS="
 	r_suggests_rugarch? ( sci-CRAN/rugarch )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/RcppArmadillo
-	sci-CRAN/zoo
-	sci-CRAN/sandwich
-	sci-CRAN/cubature
+DEPEND="sci-CRAN/zoo
 	sci-CRAN/robustbase
-	>=dev-lang/R-3.5.0
-	sci-CRAN/xts
 	sci-CRAN/Rcpp
-	sci-CRAN/mvtnorm
+	sci-CRAN/cubature
+	sci-CRAN/xts
 	>=sci-CRAN/data_table-1.12.0
 	sci-CRAN/RcppRoll
+	sci-CRAN/sandwich
+	>=dev-lang/R-3.5.0
+	sci-CRAN/RcppArmadillo
+	sci-CRAN/mvtnorm
 	sci-CRAN/quantmod
 "
 RDEPEND="${DEPEND-}

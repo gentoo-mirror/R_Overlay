@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/dplyr-0.7.1
-	sci-CRAN/downloader
-	sci-CRAN/jsonlite
-	sci-CRAN/httr
-	sci-CRAN/data_table
+DEPEND="sci-CRAN/httr
 	sci-CRAN/R_utils
+	sci-CRAN/data_table
+	sci-CRAN/jsonlite
 	sci-CRAN/lubridate
-	sci-CRAN/pbapply
 	sci-CRAN/readr
+	sci-CRAN/stringr
+	sci-CRAN/pbapply
 	sci-CRAN/plyr
+	>=dev-lang/R-3.4.0
+	sci-CRAN/downloader
+	>=sci-CRAN/dplyr-0.7.1
 	sci-CRAN/tidyr
 	sci-CRAN/curl
-	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

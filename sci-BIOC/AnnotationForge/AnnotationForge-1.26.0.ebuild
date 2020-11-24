@@ -22,15 +22,15 @@ R_SUGGESTS="
 	r_suggests_httr? ( sci-CRAN/httr )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND=">=dev-lang/R-3.5.0
+DEPEND="sci-CRAN/RCurl
+	>=dev-lang/R-3.5.0
+	>=sci-BIOC/BiocGenerics-0.15.10
 	>=sci-BIOC/Biobase-1.17.0
 	>=sci-BIOC/AnnotationDbi-1.33.14
 	sci-CRAN/DBI
-	>=sci-BIOC/BiocGenerics-0.15.10
 	sci-CRAN/RSQLite
 	sci-CRAN/XML
 	sci-BIOC/S4Vectors
-	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

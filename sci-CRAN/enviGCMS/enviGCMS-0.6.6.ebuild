@@ -22,12 +22,12 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-BIOC/BiocParallel
+DEPEND="sci-CRAN/data_table
+	sci-BIOC/BiocParallel
 	sci-CRAN/RColorBrewer
+	sci-BIOC/Rdisop
 	>=sci-CRAN/animation-2.2.3
 	sci-CRAN/mixtools
-	sci-BIOC/Rdisop
-	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

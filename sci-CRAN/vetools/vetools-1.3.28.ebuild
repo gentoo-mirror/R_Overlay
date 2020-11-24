@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/vetools_1.3-28.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/sp
-	sci-CRAN/stringr
+DEPEND="sci-CRAN/tis
 	sci-CRAN/maptools
-	sci-CRAN/tis
+	sci-CRAN/stringr
 	sci-CRAN/lubridate
+	sci-CRAN/sp
 	sci-CRAN/plyr
 	sci-CRAN/xts
 	sci-CRAN/scales

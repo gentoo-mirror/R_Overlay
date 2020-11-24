@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="virtual/boot
-	sci-CRAN/RPEIF
+DEPEND="sci-CRAN/sandwich
 	sci-CRAN/zoo
 	>=dev-lang/R-3.5.0
-	sci-CRAN/sandwich
+	virtual/boot
 	sci-CRAN/xts
+	sci-CRAN/RPEIF
 	sci-CRAN/RPEGLMEN
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

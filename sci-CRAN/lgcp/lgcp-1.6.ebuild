@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_gpclib? ( sci-CRAN/gpclib )
 	r_suggests_sparr? ( sci-CRAN/sparr )
 "
-DEPEND="sci-CRAN/spatstat_utils
-	sci-CRAN/RandomFields
-	>=sci-CRAN/rpanel-1.1.3
-	sci-CRAN/sp
-	sci-CRAN/iterators
-	sci-CRAN/raster
-	>=sci-CRAN/spatstat-1.50.0
-	dev-lang/R[tk]
-	sci-CRAN/ncdf4
-	sci-CRAN/fields
-	sci-CRAN/maptools
+DEPEND="sci-CRAN/rgeos
 	virtual/Matrix
-	sci-CRAN/rgeos
+	>=sci-CRAN/rpanel-1.1.3
+	sci-CRAN/spatstat_utils
+	sci-CRAN/fields
+	>=sci-CRAN/spatstat-1.50.0
+	sci-CRAN/raster
+	sci-CRAN/sp
+	dev-lang/R[tk]
+	sci-CRAN/RandomFields
+	sci-CRAN/iterators
+	sci-CRAN/maptools
+	sci-CRAN/ncdf4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

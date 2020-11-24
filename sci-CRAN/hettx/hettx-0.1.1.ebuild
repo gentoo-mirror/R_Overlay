@@ -17,16 +17,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-2.14.0
-	sci-CRAN/mvtnorm
 	virtual/MASS
-	sci-CRAN/plyr
-	sci-CRAN/quantreg
 	sci-CRAN/foreach
 	sci-CRAN/doParallel
+	sci-CRAN/tidyverse
+	sci-CRAN/plyr
+	sci-CRAN/mvtnorm
+	sci-CRAN/quantreg
 	sci-CRAN/moments
 	sci-CRAN/formula_tools
 	sci-CRAN/purrr
 	sci-CRAN/dplyr
-	sci-CRAN/tidyverse
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

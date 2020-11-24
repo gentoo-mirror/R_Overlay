@@ -13,8 +13,8 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_gstat"
 R_SUGGESTS="r_suggests_gstat? ( sci-CRAN/gstat )"
 DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/sp
-	sci-CRAN/spdep
 	sci-CRAN/MBA
+	sci-CRAN/spdep
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

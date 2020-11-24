@@ -10,17 +10,17 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MAINT.Data_2.5.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
-	sci-CRAN/pcaPP
-	sci-CRAN/rrcov
-	>=sci-CRAN/Rcpp-1.0.3
-	virtual/MASS
-	sci-CRAN/miscTools
+DEPEND="sci-CRAN/miscTools
 	sci-CRAN/robustbase
+	sci-CRAN/pcaPP
+	>=sci-CRAN/Rcpp-1.0.3
+	sci-CRAN/rrcov
 	sci-CRAN/mclust
+	sci-CRAN/ggplot2
 	sci-CRAN/GGally
 	>=sci-CRAN/sn-1.3.0
+	>=dev-lang/R-3.5.0
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

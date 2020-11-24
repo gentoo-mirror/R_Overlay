@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_socialmixr? ( sci-CRAN/socialmixr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/ggplot2
-	sci-CRAN/Rcpp
+DEPEND="sci-CRAN/Rcpp
 	sci-CRAN/data_table
+	sci-CRAN/ggplot2
 	sci-CRAN/visNetwork
-	sci-CRAN/outbreaker2
+	>=dev-lang/R-3.5.0
 	sci-CRAN/geosphere
+	sci-CRAN/outbreaker2
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

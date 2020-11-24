@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_emd? ( sci-CRAN/EMD )
 	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
 "
-DEPEND="sci-CRAN/hht
-	sci-CRAN/hexbin
-	sci-CRAN/colorRamps
-	>=dev-lang/R-4.0.0
+DEPEND=">=sci-CRAN/dplyr-1.0.0
 	>=sci-CRAN/StratigrapheR-1.1.1
-	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/hexbin
+	sci-CRAN/hht
+	>=dev-lang/R-4.0.0
+	sci-CRAN/colorRamps
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

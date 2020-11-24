@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.survival_1.2-1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/survival
-	>=sci-CRAN/Rcmdr-2.4.0
+DEPEND=">=sci-CRAN/Rcmdr-2.4.0
+	virtual/survival
 	sci-CRAN/date
 "
 RDEPEND="${DEPEND-}"

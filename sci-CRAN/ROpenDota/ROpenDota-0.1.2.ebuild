@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/ROpenDota_0.1.2.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/jsonlite
 	sci-CRAN/RCurl
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}"

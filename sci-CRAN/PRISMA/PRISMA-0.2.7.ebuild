@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_tm"
 R_SUGGESTS="r_suggests_tm? ( >=sci-CRAN/tm-0.6 )"
-DEPEND="sci-CRAN/gplots
+DEPEND="virtual/Matrix
 	sci-CRAN/ggplot2
-	virtual/Matrix
+	sci-CRAN/gplots
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

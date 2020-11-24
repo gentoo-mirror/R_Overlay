@@ -17,21 +17,21 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/purrr
-	sci-CRAN/memoise
-	sci-CRAN/countrycode
-	sci-CRAN/readxl
+	>=sci-CRAN/tidyr-1.0.0
+	sci-CRAN/dplyr
 	sci-CRAN/tibble
 	sci-CRAN/readr
-	sci-CRAN/dplyr
+	sci-CRAN/jsonlite
+	sci-CRAN/countrycode
 	sci-CRAN/stringr
 	sci-CRAN/magrittr
+	sci-CRAN/memoise
 	sci-CRAN/lubridate
-	>=sci-CRAN/tidyr-1.0.0
 	sci-CRAN/httr
 	sci-CRAN/yaml
+	sci-CRAN/readxl
 	sci-CRAN/xml2
 	sci-CRAN/rvest
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

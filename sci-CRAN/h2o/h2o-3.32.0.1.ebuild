@@ -31,9 +31,9 @@ R_SUGGESTS="
 	r_suggests_slam? ( sci-CRAN/slam )
 	r_suggests_survival? ( virtual/survival )
 "
-DEPEND="sci-CRAN/RCurl
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
 	>=dev-lang/R-2.13.0
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}
 	virtual/jdk

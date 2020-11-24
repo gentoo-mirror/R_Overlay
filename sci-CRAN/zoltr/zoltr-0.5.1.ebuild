@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/httr
-	sci-CRAN/readr
-	sci-CRAN/jsonlite
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/webmockr
 	sci-CRAN/mockery
+	sci-CRAN/readr
+	sci-CRAN/httr
 	sci-CRAN/base64url
 	sci-CRAN/dplyr
 	sci-CRAN/MMWRweek

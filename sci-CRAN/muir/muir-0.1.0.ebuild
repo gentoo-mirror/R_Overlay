@@ -13,8 +13,8 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_htmlwidgets"
 R_SUGGESTS="r_suggests_htmlwidgets? ( >=sci-CRAN/htmlwidgets-0.3.2 )"
 DEPEND=">=dev-lang/R-3.1.2
-	>=sci-CRAN/dplyr-0.4.1
 	>=sci-CRAN/DiagrammeR-0.6
 	>=sci-CRAN/stringr-0.6.2
+	>=sci-CRAN/dplyr-0.4.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

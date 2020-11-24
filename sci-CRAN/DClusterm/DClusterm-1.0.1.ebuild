@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_pscl? ( sci-CRAN/pscl )
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 "
-DEPEND="sci-CRAN/xts
+DEPEND="sci-CRAN/spacetime
 	sci-CRAN/lme4
-	sci-CRAN/sp
-	sci-CRAN/spacetime
 	virtual/cluster
+	sci-CRAN/xts
+	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

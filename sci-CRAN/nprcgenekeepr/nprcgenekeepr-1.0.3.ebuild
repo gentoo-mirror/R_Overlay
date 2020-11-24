@@ -23,19 +23,19 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.0.0 )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/anytime
-	virtual/Matrix
+DEPEND="sci-CRAN/plotrix
+	sci-CRAN/shiny
 	sci-CRAN/Rlabkey
-	sci-CRAN/futile_logger
-	sci-CRAN/lubridate
+	sci-CRAN/readxl
 	sci-CRAN/shinyBS
 	sci-CRAN/stringi
 	sci-CRAN/WriteXLS
 	>=dev-lang/R-3.6.0
 	sci-CRAN/htmlTable
-	sci-CRAN/plotrix
-	sci-CRAN/readxl
-	sci-CRAN/shiny
+	sci-CRAN/futile_logger
+	sci-CRAN/anytime
+	sci-CRAN/lubridate
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

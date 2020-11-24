@@ -26,8 +26,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 )
 	r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.0 )
 "
-DEPEND="sci-CRAN/GA
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
+	sci-CRAN/GA
 	sci-CRAN/Rcpp
 	sci-CRAN/caret
 "

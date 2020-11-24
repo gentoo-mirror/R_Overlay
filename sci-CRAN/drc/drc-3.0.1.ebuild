@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/drc_3.0-1.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/gtools
-	sci-CRAN/multcomp
-	sci-CRAN/plotrix
-	sci-CRAN/car
-	virtual/MASS
+DEPEND="sci-CRAN/car
+	sci-CRAN/gtools
 	sci-CRAN/scales
+	sci-CRAN/plotrix
+	sci-CRAN/multcomp
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

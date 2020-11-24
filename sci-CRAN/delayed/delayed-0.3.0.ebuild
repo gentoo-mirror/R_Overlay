@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/igraph
-	sci-CRAN/future
+DEPEND="sci-CRAN/assertthat
+	sci-CRAN/BBmisc
+	sci-CRAN/progress
 	sci-CRAN/rstackdeque
+	>=dev-lang/R-3.2.0
+	sci-CRAN/future
+	sci-CRAN/igraph
 	sci-CRAN/R6
 	sci-CRAN/rlang
 	sci-CRAN/data_table
 	sci-CRAN/visNetwork
-	sci-CRAN/progress
-	sci-CRAN/assertthat
 	sci-CRAN/uuid
-	sci-CRAN/BBmisc
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

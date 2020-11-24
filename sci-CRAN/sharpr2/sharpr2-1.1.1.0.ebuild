@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/sharpr2_1.1.1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.3.0
-	virtual/Matrix
 	>=sci-CRAN/mvtnorm-1.0
+	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

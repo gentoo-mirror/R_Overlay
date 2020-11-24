@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_spelling? ( sci-CRAN/spelling )
 "
-DEPEND="sci-CRAN/ggplot2
-	sci-CRAN/broom
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/broom
+	sci-CRAN/ggplot2
 	sci-CRAN/speedglm
 	virtual/survival
+	sci-CRAN/tidyr
 	sci-CRAN/stringr
 	sci-CRAN/dplyr
 "

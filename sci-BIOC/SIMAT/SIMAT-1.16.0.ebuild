@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/ggplot2
 	>=sci-CRAN/Rcpp-0.11.3
 	sci-BIOC/mzR
 	sci-CRAN/reshape2
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

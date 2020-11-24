@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/lubridate-1.7.4
-	>=sci-CRAN/wyz_code_offensiveProgramming-1.1.17
-	>=dev-lang/R-3.6
+DEPEND=">=dev-lang/R-3.6
+	>=sci-CRAN/R6-2.4.0
+	>=sci-CRAN/lubridate-1.7.4
 	sci-CRAN/tidyr
 	>=sci-CRAN/data_table-1.11.8
-	>=sci-CRAN/R6-2.4.0
+	>=sci-CRAN/wyz_code_offensiveProgramming-1.1.17
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/SEA_1.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/shiny
+	sci-CRAN/data_table
 	sci-CRAN/doParallel
 	virtual/MASS
 	sci-CRAN/foreach
-	sci-CRAN/kolmim
-	sci-CRAN/data_table
 	sci-CRAN/KScorrect
+	sci-CRAN/kolmim
 "
 RDEPEND="${DEPEND-}"

@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_jsonld? ( sci-CRAN/jsonld )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/urltools
-	sci-CRAN/xml2
-	sci-CRAN/mime
-	sci-CRAN/crul
+DEPEND="sci-CRAN/crul
 	sci-CRAN/yaml
+	sci-CRAN/xml2
+	sci-CRAN/urltools
+	sci-CRAN/jsonlite
+	sci-CRAN/mime
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

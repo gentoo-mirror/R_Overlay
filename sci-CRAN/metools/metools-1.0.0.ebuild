@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/lubridate
-	sci-CRAN/scales
-	sci-CRAN/tibble
 	sci-CRAN/stringr
+	sci-CRAN/tibble
 	sci-CRAN/tidyr
+	sci-CRAN/scales
 "
 RDEPEND="${DEPEND-}"

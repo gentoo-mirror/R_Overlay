@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_picante? ( sci-CRAN/picante )
 	r_suggests_vegan? ( sci-CRAN/vegan )
 "
-DEPEND="sci-CRAN/sn
-	sci-CRAN/fitdistrplus
+DEPEND="sci-CRAN/fitdistrplus
+	sci-CRAN/sn
 	sci-CRAN/investr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

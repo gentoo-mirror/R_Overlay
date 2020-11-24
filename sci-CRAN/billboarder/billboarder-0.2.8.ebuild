@@ -21,9 +21,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/htmltools
+	sci-CRAN/magrittr
 	sci-CRAN/htmlwidgets
 	sci-CRAN/jsonlite
-	sci-CRAN/magrittr
 	sci-CRAN/ggplot2
 	sci-CRAN/scales
 	sci-CRAN/shiny

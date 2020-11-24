@@ -20,14 +20,14 @@ R_SUGGESTS="
 	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-6.0.1 )
 	r_suggests_venndiagram? ( >=sci-CRAN/VennDiagram-1.6.20 )
 "
-DEPEND=">=sci-CRAN/assertive_types-0.0.3
-	>=sci-CRAN/gtable-0.2.0
+DEPEND=">=sci-CRAN/assertive_base-0.0.7
+	>=sci-CRAN/assertive_types-0.0.3
 	>=sci-CRAN/assertive_files-0.0.2
 	>=sci-CRAN/assertive_properties-0.0.4
-	>=sci-CRAN/assertive_base-0.0.7
 	>=sci-CRAN/assertive_numbers-0.0.2
 	>=sci-CRAN/ggplot2-2.2.1
 	>=sci-CRAN/gridGraphics-0.3.0
+	>=sci-CRAN/gtable-0.2.0
 	>=sci-CRAN/magick-1.9
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/stringi-1.2.3

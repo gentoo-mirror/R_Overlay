@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.1
-	sci-CRAN/checkmate
-	>=sci-CRAN/sensitivity-1.12.1
 	>=sci-CRAN/ODEnetwork-1.3.0
 	sci-CRAN/deSolve
+	sci-CRAN/checkmate
+	>=sci-CRAN/sensitivity-1.12.1
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

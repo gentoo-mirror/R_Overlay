@@ -21,11 +21,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=sci-CRAN/bigassertr-0.1.1
-	>=sci-CRAN/bigparallelr-0.2.3
-	sci-CRAN/robustbase
-	sci-CRAN/Rcpp
-	sci-CRAN/nabor
 	sci-CRAN/RSpectra
+	sci-CRAN/robustbase
+	sci-CRAN/nabor
+	>=sci-CRAN/bigparallelr-0.2.3
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/gtools
-	sci-CRAN/mvtnorm
-	sci-BIOC/MergeMaid
-	sci-CRAN/RColorBrewer
-	>=sci-BIOC/Biobase-2.5.5
-	sci-BIOC/BiocGenerics
-	sci-BIOC/genefilter
-	sci-BIOC/GeneMeta
+DEPEND="sci-BIOC/BiocGenerics
 	sci-BIOC/siggenes
+	>=sci-BIOC/Biobase-2.5.5
+	sci-CRAN/gtools
+	sci-BIOC/genefilter
+	sci-BIOC/MergeMaid
+	sci-CRAN/mvtnorm
+	sci-CRAN/RColorBrewer
+	sci-BIOC/GeneMeta
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

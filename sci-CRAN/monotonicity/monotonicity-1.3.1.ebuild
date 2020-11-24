@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_xts? ( sci-CRAN/xts )
 "
-DEPEND=">=dev-lang/R-3.3
+DEPEND="sci-CRAN/sandwich
 	sci-CRAN/lmtest
-	sci-CRAN/sandwich
 	virtual/MASS
+	>=dev-lang/R-3.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

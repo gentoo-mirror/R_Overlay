@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/zoo
-	>=dev-lang/R-3.0.0
+DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/ggplot2-1.0
+	sci-CRAN/zoo
 	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

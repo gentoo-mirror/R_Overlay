@@ -12,8 +12,8 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/prodlim
 	virtual/lattice
+	sci-CRAN/tpr
 	sci-CRAN/geepack
 	sci-CRAN/lgtdl
-	sci-CRAN/tpr
 "
 RDEPEND="${DEPEND-}"

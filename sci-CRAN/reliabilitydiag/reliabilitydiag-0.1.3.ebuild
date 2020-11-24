@@ -11,14 +11,14 @@ SRC_URI="http://cran.r-project.org/src/contrib/reliabilitydiag_0.1.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/tibble
+	sci-CRAN/ggExtra
 	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
 	sci-CRAN/magrittr
-	sci-CRAN/ggExtra
 	sci-CRAN/dplyr
 	sci-CRAN/purrr
 	sci-CRAN/rlang
+	sci-CRAN/tibble
 	sci-CRAN/vctrs
 	sci-CRAN/bde
 "

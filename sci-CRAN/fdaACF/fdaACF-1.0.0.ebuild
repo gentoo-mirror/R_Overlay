@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/vars
-	sci-CRAN/fda
+	sci-CRAN/pracma
 	>=dev-lang/R-3.5.0
 	sci-CRAN/CompQuadForm
-	sci-CRAN/pracma
+	sci-CRAN/fda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/MEPDF_3.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/mvtnorm
-	sci-CRAN/plyr
+DEPEND=">=dev-lang/R-3.0.1
+	sci-CRAN/mvtnorm
 	sci-CRAN/pracma
+	sci-CRAN/plyr
 	sci-CRAN/gtools
-	>=dev-lang/R-3.0.1
 "
 RDEPEND="${DEPEND-}"

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PCovR_2.7.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/GPArotation
+DEPEND="virtual/Matrix
 	sci-CRAN/ThreeWay
 	virtual/MASS
-	virtual/Matrix
+	sci-CRAN/GPArotation
 "
 RDEPEND="${DEPEND-}"

@@ -11,7 +11,7 @@ SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/MBCB_1.38.
 LICENSE='GPL-2+'
 
 DEPEND="dev-lang/R[tk]
-	dev-lang/R[tk]
 	sci-BIOC/preprocessCore
+	dev-lang/R[tk]
 "
 RDEPEND="${DEPEND-}"

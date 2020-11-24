@@ -12,11 +12,11 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 
 IUSE="${IUSE-} r_suggests_lattice"
 R_SUGGESTS="r_suggests_lattice? ( virtual/lattice )"
-DEPEND="virtual/nnet
-	sci-CRAN/gamlss_dist
-	>=dev-lang/R-2.15.0
+DEPEND="sci-CRAN/gamlss_dist
+	virtual/rpart
 	virtual/mgcv
 	>=sci-CRAN/gamlss-2.4.0
-	virtual/rpart
+	>=dev-lang/R-2.15.0
+	virtual/nnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

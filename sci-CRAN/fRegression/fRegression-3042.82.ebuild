@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/lmtest
-	virtual/mgcv
+DEPEND=">=dev-lang/R-2.15.1
 	sci-CRAN/timeSeries
-	>=dev-lang/R-2.15.1
-	sci-CRAN/timeDate
-	sci-CRAN/fBasics
-	virtual/nnet
+	virtual/mgcv
 	sci-CRAN/polspline
+	sci-CRAN/fBasics
+	sci-CRAN/lmtest
+	sci-CRAN/timeDate
+	virtual/nnet
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

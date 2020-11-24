@@ -23,10 +23,10 @@ R_SUGGESTS="
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
 DEPEND=">=dev-lang/R-2.15.1
-	sci-CRAN/sandwich
-	sci-CRAN/mvtnorm
-	sci-CRAN/lpSolve
 	virtual/MASS
+	sci-CRAN/lpSolve
+	sci-CRAN/mvtnorm
+	sci-CRAN/sandwich
 	sci-CRAN/Hmisc
 	>=sci-CRAN/lme4-1.0
 	virtual/boot

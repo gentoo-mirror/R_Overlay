@@ -22,9 +22,9 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/future_apply
+DEPEND="sci-CRAN/ROCR
 	sci-CRAN/stringr
-	sci-CRAN/ROCR
 	sci-CRAN/future
+	sci-CRAN/future_apply
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

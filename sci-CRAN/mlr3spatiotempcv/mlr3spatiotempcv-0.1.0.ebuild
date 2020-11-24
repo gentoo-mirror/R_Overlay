@@ -34,13 +34,13 @@ R_SUGGESTS="
 	r_suggests_skmeans? ( sci-CRAN/skmeans )
 	r_suggests_withr? ( sci-CRAN/withr )
 "
-DEPEND="sci-CRAN/data_table
+DEPEND=">=sci-CRAN/mlr3-0.7.0
 	sci-CRAN/R6
+	sci-CRAN/data_table
 	sci-CRAN/paradox
 	sci-CRAN/checkmate
 	>=dev-lang/R-3.5.0
 	sci-CRAN/ggplot2
-	>=sci-CRAN/mlr3-0.7.0
 	>=sci-CRAN/mlr3misc-0.1.7
 	>=sci-CRAN/testthat-3.0.0
 "

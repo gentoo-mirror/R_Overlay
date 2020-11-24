@@ -21,7 +21,7 @@ R_SUGGESTS="
 	r_suggests_rpart? ( virtual/rpart virtual/rpart )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/car
 	>=sci-CRAN/heplots-0.8.6
+	sci-CRAN/car
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

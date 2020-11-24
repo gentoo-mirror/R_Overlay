@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/MargCond_1.0.0.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/gee
+	virtual/Matrix
 	sci-CRAN/lme4
 	virtual/MASS
-	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

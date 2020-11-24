@@ -24,18 +24,18 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/dplyr
-	sci-CRAN/drc
-	virtual/cluster
 	sci-CRAN/fpc
-	sci-CRAN/magrittr
-	sci-CRAN/mclust
-	sci-CRAN/raster
-	sci-CRAN/ggplot2
+	sci-CRAN/dplyr
 	sci-CRAN/purrr
+	sci-CRAN/raster
 	sci-CRAN/tibble
 	sci-CRAN/tidyr
 	sci-CRAN/yaml
+	virtual/cluster
+	sci-CRAN/drc
+	sci-CRAN/ggplot2
+	sci-CRAN/magrittr
+	sci-CRAN/mclust
 	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

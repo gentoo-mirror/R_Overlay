@@ -22,9 +22,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/tibble
 	sci-CRAN/httr
-	sci-CRAN/dplyr
-	sci-CRAN/jsonlite
 	sci-CRAN/magrittr
+	sci-CRAN/jsonlite
+	sci-CRAN/dplyr
 	sci-CRAN/purrr
 	sci-CRAN/memoise
 	sci-CRAN/lubridate

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/spongecake_0.1.2.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.0
-	sci-CRAN/jpeg
+DEPEND="sci-CRAN/magrittr
 	sci-CRAN/ggplot2
-	sci-CRAN/magrittr
+	sci-CRAN/jpeg
 	sci-CRAN/plyr
+	>=dev-lang/R-3.0
 "
 RDEPEND="${DEPEND-} virtual/ffmpeg"

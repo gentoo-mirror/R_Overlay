@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/shiny
-	>=sci-CRAN/data_table-1.9.4
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/shiny
 	sci-CRAN/openxlsx
-	>=dev-lang/R-3.0.0
 	sci-CRAN/RPostgreSQL
 	>=sci-CRAN/jsonlite-1.1
 	sci-CRAN/xts
 	sci-CRAN/zoo
 	sci-CRAN/xtable
 	sci-CRAN/DBI
+	>=sci-CRAN/data_table-1.9.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/doParallel-1.0.8
-	>=sci-CRAN/fields-8.2.1
-	>=sci-CRAN/foreach-1.4.3
 	>=sci-CRAN/mmand-1.3.0
+	>=sci-CRAN/foreach-1.4.3
 	>=sci-CRAN/rgl-0.93.996.1
+	>=sci-CRAN/fields-8.2.1
 	>=sci-CRAN/colorspace-1.3.0
 	sci-CRAN/profr
 	sci-CRAN/xtable

@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/define_0.2.9.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND="sci-CRAN/encode
-	sci-CRAN/SASxport
-	sci-CRAN/Hmisc
+DEPEND="sci-CRAN/Hmisc
 	sci-CRAN/spec
 	sci-CRAN/latexpdf
+	sci-CRAN/encode
+	sci-CRAN/SASxport
 "
 RDEPEND="${DEPEND-}"

@@ -20,15 +20,15 @@ R_SUGGESTS="
 	r_suggests_sp? ( sci-CRAN/sp )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/corrplot
+DEPEND=">=sci-CRAN/Rcpp-1.0.0
 	sci-CRAN/coda
-	>=sci-CRAN/Rcpp-1.0.0
+	sci-CRAN/corrplot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppGSL
 	sci-CRAN/RcppArmadillo
 	sci-libs/gsl
+	sci-CRAN/RcppGSL
 	${R_SUGGESTS-}
 "
 

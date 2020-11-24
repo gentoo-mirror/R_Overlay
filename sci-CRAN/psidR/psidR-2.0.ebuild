@@ -12,12 +12,12 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/openxlsx
+DEPEND="sci-CRAN/data_table
 	sci-CRAN/futile_logger
+	sci-CRAN/openxlsx
 	sci-CRAN/SAScii
-	sci-CRAN/data_table
-	sci-CRAN/RCurl
+	>=dev-lang/R-3.5.0
 	virtual/foreign
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

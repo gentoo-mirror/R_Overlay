@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_abc_data? ( sci-CRAN/abc_data )
 	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
 "
-DEPEND="sci-CRAN/plyr
-	sci-CRAN/abind
+DEPEND="sci-CRAN/abc
+	sci-CRAN/plyr
 	sci-CRAN/Hmisc
-	sci-CRAN/abc
+	sci-CRAN/abind
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

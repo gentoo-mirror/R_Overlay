@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/leafsync_0.1.0.tar.gz"
 LICENSE='MIT'
 
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/htmlwidgets
 	>=sci-CRAN/leaflet-2.0.1
 	>=sci-CRAN/htmltools-0.3
+	sci-CRAN/htmlwidgets
 "
 RDEPEND="${DEPEND-}"

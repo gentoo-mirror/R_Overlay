@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/PhySortR_1.0.8.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/ape
 	sci-CRAN/phytools
+	sci-CRAN/ape
 "
 RDEPEND="${DEPEND-}"

@@ -28,14 +28,14 @@ R_SUGGESTS="
 	r_suggests_ordinal? ( sci-CRAN/ordinal )
 	r_suggests_pscl? ( sci-CRAN/pscl )
 "
-DEPEND="virtual/MASS
+DEPEND=">=dev-lang/R-3.2.0
+	virtual/MASS
 	sci-CRAN/VGAM
-	virtual/nlme
-	sci-CRAN/xtable
-	sci-CRAN/unmarked
-	>=dev-lang/R-3.2.0
 	virtual/lattice
+	sci-CRAN/unmarked
+	sci-CRAN/xtable
 	virtual/Matrix
+	virtual/nlme
 	virtual/survival
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

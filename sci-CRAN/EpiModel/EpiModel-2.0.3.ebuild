@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/deSolve-1.21
+DEPEND=">=sci-CRAN/tergm-3.5
+	sci-CRAN/lazyeval
 	>=sci-CRAN/network-1.13
+	>=sci-CRAN/networkDynamic-0.9
+	>=dev-lang/R-3.5
+	>=sci-CRAN/deSolve-1.21
+	>=sci-CRAN/tergmLite-2.2.0
+	sci-CRAN/doParallel
 	>=sci-CRAN/ergm-3.10
 	sci-CRAN/foreach
-	>=sci-CRAN/tergm-3.5
+	sci-CRAN/RColorBrewer
 	sci-CRAN/ape
 	sci-CRAN/ggplot2
-	>=dev-lang/R-3.5
-	>=sci-CRAN/tergmLite-2.2.0
-	>=sci-CRAN/networkDynamic-0.9
-	sci-CRAN/doParallel
-	sci-CRAN/RColorBrewer
-	sci-CRAN/lazyeval
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/ergm

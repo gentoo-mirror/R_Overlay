@@ -24,10 +24,10 @@ R_SUGGESTS="
 	r_suggests_stringr? ( sci-CRAN/stringr )
 	r_suggests_tree? ( sci-CRAN/tree )
 "
-DEPEND="sci-CRAN/partykit
-	sci-CRAN/party
+DEPEND="virtual/rpart
 	sci-CRAN/caret
+	sci-CRAN/party
 	sci-CRAN/evtree
-	virtual/rpart
+	sci-CRAN/partykit
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

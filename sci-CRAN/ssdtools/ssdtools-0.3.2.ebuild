@@ -29,15 +29,15 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND="sci-CRAN/actuar
-	sci-CRAN/lifecycle
+	sci-CRAN/ggplot2
 	sci-CRAN/chk
-	sci-CRAN/VGAM
-	sci-CRAN/tibble
+	sci-CRAN/fitdistrplus
 	>=dev-lang/R-3.4
 	sci-CRAN/abind
-	sci-CRAN/fitdistrplus
-	sci-CRAN/ggplot2
+	sci-CRAN/lifecycle
+	sci-CRAN/tibble
 	sci-CRAN/scales
+	sci-CRAN/VGAM
 	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}

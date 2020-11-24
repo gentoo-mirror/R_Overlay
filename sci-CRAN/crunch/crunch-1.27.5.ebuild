@@ -31,11 +31,11 @@ R_SUGGESTS="
 	r_suggests_withr? ( sci-CRAN/withr )
 "
 DEPEND="sci-CRAN/crayon
-	>=sci-CRAN/httpcache-0.1.4
-	sci-CRAN/curl
+	>=sci-CRAN/jsonlite-0.9.15
 	>=dev-lang/R-3.0.0
 	>=sci-CRAN/httr-1.0.0
-	>=sci-CRAN/jsonlite-0.9.15
+	sci-CRAN/curl
+	>=sci-CRAN/httpcache-0.1.4
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -11,18 +11,18 @@ SRC_URI="http://cran.r-project.org/src/contrib/synthpop_1.6-0.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
 DEPEND="virtual/lattice
-	sci-CRAN/plyr
-	sci-CRAN/proto
-	virtual/nnet
+	sci-CRAN/party
 	virtual/foreign
-	sci-CRAN/polspline
 	sci-CRAN/mipfp
 	sci-CRAN/ggplot2
-	virtual/MASS
-	virtual/rpart
-	sci-CRAN/party
-	sci-CRAN/randomForest
-	sci-CRAN/ranger
 	virtual/class
+	sci-CRAN/randomForest
+	virtual/MASS
+	virtual/nnet
+	virtual/rpart
+	sci-CRAN/plyr
+	sci-CRAN/proto
+	sci-CRAN/polspline
+	sci-CRAN/ranger
 "
 RDEPEND="${DEPEND-}"

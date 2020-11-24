@@ -12,9 +12,9 @@ LICENSE='GPL-3'
 
 IUSE="${IUSE-} r_suggests_ade4"
 R_SUGGESTS="r_suggests_ade4? ( sci-CRAN/ade4 )"
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND="sci-CRAN/vegan
 	sci-CRAN/ape
+	>=dev-lang/R-3.1.0
 	virtual/Matrix
-	sci-CRAN/vegan
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

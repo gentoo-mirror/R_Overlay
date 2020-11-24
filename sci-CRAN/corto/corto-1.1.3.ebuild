@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/corto_1.1.3.tar.gz"
 LICENSE='LGPL-3'
 
 DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/knitr
-	sci-CRAN/gplots
 	sci-CRAN/pbapply
 	sci-CRAN/dplyr
+	sci-CRAN/knitr
+	sci-CRAN/gplots
 	sci-CRAN/plotrix
 	sci-CRAN/rmarkdown
 "

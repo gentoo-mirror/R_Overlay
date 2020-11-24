@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/RANN
 	sci-CRAN/igraph
-	sci-CRAN/lsa
 	sci-CRAN/SnowballC
+	sci-CRAN/lsa
 "
 RDEPEND="${DEPEND-}"

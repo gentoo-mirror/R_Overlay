@@ -11,9 +11,9 @@ SRC_URI="http://cran.r-project.org/src/contrib/rBayesianOptimization_1.1.0.tar.g
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/magrittr
+	sci-CRAN/foreach
 	>=sci-CRAN/data_table-1.9.6
 	sci-CRAN/GPfit
-	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

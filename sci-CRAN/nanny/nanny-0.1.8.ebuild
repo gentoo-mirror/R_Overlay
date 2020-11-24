@@ -19,19 +19,19 @@ R_SUGGESTS="
 	r_suggests_seurat? ( sci-CRAN/Seurat )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.6.0
-	sci-CRAN/dplyr
-	sci-CRAN/lifecycle
-	sci-CRAN/tibble
-	sci-CRAN/magrittr
-	sci-CRAN/tidyselect
-	sci-CRAN/purrr
-	sci-CRAN/rlang
+DEPEND="sci-CRAN/tidyselect
+	sci-CRAN/lme4
 	sci-CRAN/tidyr
+	sci-CRAN/knitr
+	sci-CRAN/rlang
+	sci-CRAN/widyr
 	sci-CRAN/Rtsne
 	sci-CRAN/gtools
-	sci-CRAN/knitr
-	sci-CRAN/widyr
-	sci-CRAN/lme4
+	>=dev-lang/R-3.6.0
+	sci-CRAN/magrittr
+	sci-CRAN/dplyr
+	sci-CRAN/tibble
+	sci-CRAN/lifecycle
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

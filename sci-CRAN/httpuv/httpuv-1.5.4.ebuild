@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_websocket? ( sci-CRAN/websocket )
 "
-DEPEND=">=sci-CRAN/Rcpp-0.11.0
+DEPEND=">=dev-lang/R-2.15.1
 	sci-CRAN/R6
-	sci-CRAN/promises
+	>=sci-CRAN/Rcpp-0.11.0
 	>=sci-CRAN/later-0.8.0
-	>=dev-lang/R-2.15.1
+	sci-CRAN/promises
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/later
 	sci-CRAN/BH
+	sci-CRAN/later
 	${R_SUGGESTS-}
 "

@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/mleur_1.0-6.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/urca
+DEPEND="virtual/lattice
 	sci-CRAN/stabledist
+	sci-CRAN/urca
 	sci-CRAN/fGarch
-	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

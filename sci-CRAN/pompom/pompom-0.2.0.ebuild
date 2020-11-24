@@ -18,8 +18,8 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/ggplot2-2.2.1
+	>=sci-CRAN/reshape2-1.4.2
 	sci-CRAN/qgraph
 	>=sci-CRAN/lavaan-0.5.23.1097
-	>=sci-CRAN/reshape2-1.4.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

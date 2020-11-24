@@ -15,13 +15,13 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_rgl? ( sci-CRAN/rgl )
 "
-DEPEND="sci-CRAN/data_table
-	sci-CRAN/foreach
-	sci-CRAN/Rcpp
+DEPEND=">=dev-lang/R-3.1.2
 	sci-CRAN/AUC
-	>=dev-lang/R-3.1.2
+	sci-CRAN/data_table
 	virtual/Matrix
 	sci-CRAN/dplyr
+	sci-CRAN/Rcpp
+	sci-CRAN/foreach
 	sci-CRAN/doParallel
 	sci-CRAN/RColorBrewer
 "

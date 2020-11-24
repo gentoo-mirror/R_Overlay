@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/CsChange_0.1.6.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/rms
+	sci-CRAN/Hmisc
 	virtual/boot
 	virtual/survival
-	sci-CRAN/Hmisc
 "
 RDEPEND="${DEPEND-}"

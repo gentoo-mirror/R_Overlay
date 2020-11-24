@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/BSW_0.1.0.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="virtual/Matrix
-	sci-CRAN/quadprog
 	virtual/Matrix
+	sci-CRAN/quadprog
 "
 RDEPEND="${DEPEND-}"

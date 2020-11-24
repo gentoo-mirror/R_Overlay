@@ -25,9 +25,9 @@ R_SUGGESTS="
 "
 DEPEND="sci-CRAN/reticulate
 	sci-CRAN/generics
+	sci-CRAN/ggpubr
 	sci-CRAN/ggplot2
 	sci-CRAN/png
-	sci-CRAN/ggpubr
 	sci-CRAN/glue
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

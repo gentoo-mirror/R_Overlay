@@ -17,7 +17,7 @@ DEPEND="virtual/Matrix
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppSpdlog
 	sci-CRAN/RcppEigen
+	sci-CRAN/RcppSpdlog
 	${R_SUGGESTS-}
 "

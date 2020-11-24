@@ -18,14 +18,14 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_sp? ( sci-CRAN/sp )
 "
-DEPEND="sci-CRAN/purrr
-	sci-CRAN/future
-	sci-CRAN/dplyr
-	sci-CRAN/rlang
-	sci-CRAN/httr
-	sci-CRAN/stringr
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/rlang
 	sci-CRAN/furrr
+	sci-CRAN/tidyr
+	sci-CRAN/future
+	sci-CRAN/stringr
+	sci-CRAN/httr
+	sci-CRAN/dplyr
+	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

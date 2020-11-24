@@ -18,17 +18,17 @@ R_SUGGESTS="
 	r_suggests_sn? ( sci-CRAN/sn )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/meta
-	sci-CRAN/EmpiricalCalibration
-	sci-CRAN/rJava
-	sci-CRAN/rlang
-	virtual/survival
+DEPEND="virtual/survival
 	sci-CRAN/ggplot2
-	sci-CRAN/gridExtra
+	sci-CRAN/rJava
+	sci-CRAN/meta
 	>=dev-lang/R-3.5.0
 	sci-CRAN/BeastJar
+	sci-CRAN/coda
+	sci-CRAN/rlang
+	sci-CRAN/gridExtra
+	sci-CRAN/EmpiricalCalibration
 	>=sci-CRAN/Cyclops-3.1.0
 	sci-CRAN/HDInterval
-	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

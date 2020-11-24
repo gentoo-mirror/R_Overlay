@@ -13,9 +13,9 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/zoo
-	sci-CRAN/xts
-	sci-CRAN/httr
 	>=sci-CRAN/jsonlite-1.1
+	sci-CRAN/httr
+	sci-CRAN/xts
+	sci-CRAN/zoo
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/shiny
-	sci-CRAN/igraph
+DEPEND="sci-CRAN/assertthat
 	sci-CRAN/purrr
-	sci-CRAN/ggplot2
 	sci-CRAN/psych
-	sci-CRAN/assertthat
+	sci-CRAN/magrittr
+	sci-CRAN/igraph
+	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
+	sci-CRAN/shiny
 	sci-CRAN/dplyr
 	sci-CRAN/rlang
 "

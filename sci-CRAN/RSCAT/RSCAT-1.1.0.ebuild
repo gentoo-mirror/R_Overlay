@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/RSCAT_1.1.0.tar.gz"
 
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
-DEPEND="sci-CRAN/shinycssloaders
-	sci-CRAN/shiny
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/shinyjs
-	>=dev-lang/R-3.4.0
 	sci-CRAN/rJava
+	sci-CRAN/shiny
+	sci-CRAN/shinycssloaders
 	sci-CRAN/Metrics
 	sci-CRAN/ggplot2
 	sci-CRAN/gridExtra

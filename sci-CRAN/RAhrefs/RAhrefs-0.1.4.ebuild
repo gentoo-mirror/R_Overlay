@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/RAhrefs_0.1.4.tar.gz"
 LICENSE='MIT'
 
-DEPEND="sci-CRAN/testthat
-	sci-CRAN/httr
-	sci-CRAN/jsonlite
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/assertthat
-	>=dev-lang/R-3.4.0
+	sci-CRAN/jsonlite
+	sci-CRAN/testthat
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-}"

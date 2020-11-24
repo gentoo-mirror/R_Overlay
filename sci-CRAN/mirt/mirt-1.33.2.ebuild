@@ -28,10 +28,10 @@ R_SUGGESTS="
 	r_suggests_sirt? ( sci-CRAN/sirt )
 "
 DEPEND="sci-CRAN/GPArotation
-	sci-CRAN/Rcpp
 	virtual/mgcv
-	>=dev-lang/R-3.6.0
+	sci-CRAN/Rcpp
 	virtual/lattice
+	>=dev-lang/R-3.6.0
 	sci-CRAN/vegan
 	sci-CRAN/Deriv
 	sci-CRAN/dcurver

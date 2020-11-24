@@ -13,8 +13,8 @@ LICENSE='GPL-3'
 IUSE="${IUSE-} r_suggests_testthat"
 R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/qrng
 	virtual/KernSmooth
+	sci-CRAN/qrng
 	sci-CRAN/cctools
 	virtual/MASS
 	>=sci-CRAN/kdecopula-0.8.1

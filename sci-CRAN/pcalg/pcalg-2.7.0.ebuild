@@ -20,25 +20,25 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
 "
-DEPEND=">=dev-lang/R-3.0.2
-	sci-CRAN/igraph
-	sci-BIOC/RBGL
-	sci-BIOC/graph
-	sci-CRAN/abind
-	sci-CRAN/ggm
-	virtual/Matrix
-	sci-CRAN/corpcor
-	sci-CRAN/vcd
-	>=sci-CRAN/sfsmisc-1.0.26
-	sci-CRAN/Rcpp
-	sci-CRAN/fastICA
-	sci-CRAN/robustbase
+DEPEND=">=sci-CRAN/sfsmisc-1.0.26
 	sci-CRAN/clue
+	sci-CRAN/fastICA
+	sci-CRAN/vcd
+	sci-CRAN/Rcpp
+	>=dev-lang/R-3.0.2
+	sci-CRAN/abind
+	sci-BIOC/graph
+	sci-BIOC/RBGL
+	sci-CRAN/igraph
+	sci-CRAN/ggm
+	sci-CRAN/corpcor
+	virtual/Matrix
+	sci-CRAN/robustbase
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.11.0
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/BH
+	sci-CRAN/RcppArmadillo
 	${R_SUGGESTS-}
 "
 

@@ -15,6 +15,6 @@ DEPEND=">=sci-CRAN/Rcpp-1.0.3
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp
-	sci-CRAN/RcppArmadillo
 	sci-CRAN/BH
+	sci-CRAN/RcppArmadillo
 "

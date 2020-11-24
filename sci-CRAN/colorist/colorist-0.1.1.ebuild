@@ -18,11 +18,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_sf? ( sci-CRAN/sf )
 "
-DEPEND=">=dev-lang/R-3.2.0
-	sci-CRAN/raster
-	sci-CRAN/tidyr
+DEPEND="sci-CRAN/tidyr
 	sci-CRAN/ggplot2
 	sci-CRAN/colorspace
+	sci-CRAN/raster
+	>=dev-lang/R-3.2.0
 	sci-CRAN/magrittr
 	sci-CRAN/scales
 "

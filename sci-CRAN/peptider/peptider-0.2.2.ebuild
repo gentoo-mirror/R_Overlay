@@ -14,7 +14,7 @@ IUSE="${IUSE-} r_suggests_ggplot2"
 R_SUGGESTS="r_suggests_ggplot2? ( sci-CRAN/ggplot2 )"
 DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/dplyr
-	>=sci-CRAN/discreteRV-1.2
 	sci-CRAN/plyr
+	>=sci-CRAN/discreteRV-1.2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

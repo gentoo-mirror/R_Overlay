@@ -12,12 +12,12 @@ LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_wooldridge"
 R_SUGGESTS="r_suggests_wooldridge? ( sci-CRAN/wooldridge )"
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/stringr
-	sci-CRAN/sampling
-	sci-CRAN/assertthat
+DEPEND="sci-CRAN/sampling
+	sci-CRAN/plotrix
 	>=sci-CRAN/fixest-0.6.0
 	>=sci-CRAN/dplyr-1.0.0
-	sci-CRAN/plotrix
+	>=dev-lang/R-3.4.0
+	sci-CRAN/stringr
+	sci-CRAN/assertthat
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

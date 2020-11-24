@@ -19,15 +19,15 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/stringr
-	sci-CRAN/xml2
+DEPEND="sci-CRAN/pdftools
 	sci-CRAN/readr
-	sci-CRAN/rvest
 	>=dev-lang/R-3.5.0
-	sci-CRAN/purrr
+	sci-CRAN/stringr
 	sci-CRAN/dplyr
+	sci-CRAN/purrr
 	sci-CRAN/tibble
-	sci-CRAN/pdftools
+	sci-CRAN/rvest
 	sci-CRAN/magrittr
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

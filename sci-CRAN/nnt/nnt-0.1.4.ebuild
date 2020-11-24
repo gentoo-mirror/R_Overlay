@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/nnt_0.1.4.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/survival
 	sci-CRAN/survRM2
+	virtual/survival
 "
 RDEPEND="${DEPEND-}"

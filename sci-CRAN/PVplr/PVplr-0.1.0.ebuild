@@ -17,15 +17,15 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/purrr-0.3.3
-	>=sci-CRAN/rlang-0.3.1
 	>=sci-CRAN/minpack_lm-1.2.1
-	sci-CRAN/segmented
+	>=sci-CRAN/rlang-0.3.1
 	>=sci-CRAN/tidyr-1.1.1
-	>=sci-CRAN/broom-0.5.1
 	>=sci-CRAN/dplyr-0.7.8
 	>=sci-CRAN/ggplot2-3.1.0
+	>=sci-CRAN/broom-0.5.1
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/stlplus-0.5.1
 	virtual/cluster
+	sci-CRAN/segmented
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

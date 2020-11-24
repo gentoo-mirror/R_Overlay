@@ -19,9 +19,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/glmnet
-	sci-CRAN/RSpectra
 	sci-CRAN/Rcpp
 	sci-CRAN/irlba
+	sci-CRAN/RSpectra
 	>=dev-lang/R-3.2.0
 	virtual/Matrix
 "

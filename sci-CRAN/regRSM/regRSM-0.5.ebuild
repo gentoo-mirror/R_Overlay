@@ -9,9 +9,9 @@ DESCRIPTION='Random Subspace Method (RSM) for Linear Regression'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/regRSM_0.5.tar.gz"
 
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/Rmpi
+DEPEND="sci-CRAN/doParallel
 	>=dev-lang/R-3.0.0
-	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	sci-CRAN/Rmpi
 "
 RDEPEND="${DEPEND-}"

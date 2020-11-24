@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_pbapply? ( sci-CRAN/pbapply )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/copula
+DEPEND="sci-CRAN/mvtnorm
 	sci-CRAN/stabledist
-	sci-CRAN/MCMCpack
-	sci-CRAN/mvtnorm
 	virtual/Matrix
+	sci-CRAN/MCMCpack
+	sci-CRAN/copula
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
-DEPEND="sci-CRAN/gnm
+DEPEND="sci-CRAN/VCA
+	sci-CRAN/gnm
 	>=dev-lang/R-3.1.0
-	sci-CRAN/VCA
 	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

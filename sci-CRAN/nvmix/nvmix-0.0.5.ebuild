@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_xts? ( sci-CRAN/xts )
 "
-DEPEND="sci-CRAN/pcaPP
-	>=dev-lang/R-3.2.0
-	sci-CRAN/copula
+DEPEND="virtual/Matrix
 	sci-CRAN/qrng
-	virtual/Matrix
+	sci-CRAN/copula
+	sci-CRAN/pcaPP
+	>=dev-lang/R-3.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

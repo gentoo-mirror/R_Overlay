@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/npsr_0.1.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/infotheo
-	sci-CRAN/gmp
 	virtual/MASS
+	sci-CRAN/gmp
 "
 RDEPEND="${DEPEND-}"

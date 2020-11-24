@@ -15,9 +15,9 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/igraphdata
+DEPEND="virtual/MASS
+	sci-CRAN/igraphdata
 	sci-CRAN/igraph
 	sci-CRAN/mvrtn
-	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

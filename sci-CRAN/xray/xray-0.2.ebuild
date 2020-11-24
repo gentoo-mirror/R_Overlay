@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/xray_0.2.tar.gz"
 LICENSE='MIT'
 
-DEPEND=">=dev-lang/R-3.4.0
-	sci-CRAN/scales
-	sci-CRAN/foreach
-	>=sci-CRAN/dplyr-0.7.0
+DEPEND=">=sci-CRAN/dplyr-0.7.0
+	>=dev-lang/R-3.4.0
 	sci-CRAN/ggplot2
+	sci-CRAN/foreach
+	sci-CRAN/scales
 	sci-CRAN/lubridate
 "
 RDEPEND="${DEPEND-}"

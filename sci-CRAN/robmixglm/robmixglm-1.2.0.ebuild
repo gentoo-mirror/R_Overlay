@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_robustbase? ( sci-CRAN/robustbase )
 "
 DEPEND=">=dev-lang/R-3.2.0
-	virtual/MASS
 	sci-CRAN/fastGHQuad
-	sci-CRAN/VGAM
+	sci-CRAN/numDeriv
 	sci-CRAN/bbmle
+	virtual/MASS
+	sci-CRAN/doParallel
+	sci-CRAN/VGAM
 	sci-CRAN/actuar
 	>=sci-CRAN/Rcpp-0.12.15
 	virtual/boot
-	sci-CRAN/numDeriv
-	sci-CRAN/doRNG
-	sci-CRAN/doParallel
 	sci-CRAN/foreach
+	sci-CRAN/doRNG
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

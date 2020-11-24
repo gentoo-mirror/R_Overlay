@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/curl sci-CRAN/progress sci-CRAN/zeallot dev-lang/R
+DEPEND=sci-CRAN/progress sci-CRAN/zeallot sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/curl sci-CRAN/dplyr dev-lang/R
 DESCRIPTION=Retail Shopping Data
 EAPI=7
 IUSE=r_suggests_knitr r_suggests_lubridate r_suggests_rmarkdown r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=CC0-1.0
-RDEPEND=sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/curl sci-CRAN/progress sci-CRAN/zeallot r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+RDEPEND=sci-CRAN/progress sci-CRAN/zeallot sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/curl sci-CRAN/dplyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/completejourney_1.1.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=23da44067b3a0316fdfc6abf3f7a2120
+_md5_=0ba8b996bc51c5f9e1c0520e45c989bf

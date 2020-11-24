@@ -25,9 +25,9 @@ R_SUGGESTS="
 	r_suggests_trip? ( sci-CRAN/trip )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/tibble
+DEPEND="sci-CRAN/sp
 	sci-CRAN/dplyr
-	sci-CRAN/sp
+	sci-CRAN/tibble
 	>=dev-lang/R-3.2.3
 	sci-CRAN/rlang
 "

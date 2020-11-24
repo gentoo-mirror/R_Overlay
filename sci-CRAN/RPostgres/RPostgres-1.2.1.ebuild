@@ -16,17 +16,17 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/hms-0.5.0
-	sci-CRAN/bit64
-	>=sci-CRAN/DBI-1.1.0
 	>=sci-CRAN/blob-1.2.0
+	>=sci-CRAN/hms-0.5.0
+	>=sci-CRAN/DBI-1.1.0
+	sci-CRAN/bit64
 	>=sci-CRAN/Rcpp-0.11.4.2
 	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/BH
-	dev-db/postgresql-base
-	sci-CRAN/Rcpp
 	>=sci-CRAN/plogr-0.2.0
+	sci-CRAN/Rcpp
+	dev-db/postgresql-base
 	${R_SUGGESTS-}
 "

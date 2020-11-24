@@ -10,7 +10,7 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PKreport_1.5.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="virtual/lattice
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/ggplot2
+	virtual/lattice
 "
 RDEPEND="${DEPEND-}"

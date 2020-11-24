@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/faoutlier_0.7.4.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/lavaan
-	>=sci-CRAN/pbapply-1.3.0
-	>=dev-lang/R-3.0.2
-	sci-CRAN/mvtnorm
+DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/sem
-	virtual/lattice
 	>=sci-CRAN/mirt-1.32.1
+	sci-CRAN/lavaan
+	virtual/lattice
+	sci-CRAN/mvtnorm
 	virtual/MASS
+	>=sci-CRAN/pbapply-1.3.0
 "
 RDEPEND="${DEPEND-}"

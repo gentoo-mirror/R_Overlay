@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_spelling? ( sci-CRAN/spelling )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/magrittr
+DEPEND="sci-CRAN/jsonlite
+	sci-CRAN/stringr
 	sci-CRAN/lifecycle
-	sci-CRAN/jsonlite
+	sci-CRAN/magrittr
 	sci-CRAN/sjmisc
 	sci-CRAN/httr
-	sci-CRAN/stringr
 	sci-CRAN/xml2
 	sci-CRAN/data_table
 "

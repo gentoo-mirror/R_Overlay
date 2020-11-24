@@ -15,10 +15,10 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_svunit? ( sci-CRAN/svUnit )
 "
-DEPEND="sci-CRAN/gtools
-	sci-CRAN/rtf
-	sci-CRAN/DEoptim
+DEPEND="sci-CRAN/DEoptim
 	sci-CRAN/gdata
+	sci-CRAN/rtf
+	sci-CRAN/gtools
 	sci-CRAN/ggplot2
 	dev-lang/R[tk]
 "

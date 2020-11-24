@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_modeldata? ( sci-CRAN/modeldata )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND=">=sci-CRAN/recipes-0.1.15
-	sci-CRAN/withr
-	sci-CRAN/unbalanced
-	sci-CRAN/ROSE
-	sci-CRAN/dplyr
-	sci-CRAN/purrr
-	>=sci-CRAN/generics-0.1.0
+DEPEND="sci-CRAN/dplyr
 	sci-CRAN/RANN
+	>=sci-CRAN/recipes-0.1.15
+	>=sci-CRAN/generics-0.1.0
+	sci-CRAN/purrr
 	sci-CRAN/rlang
+	sci-CRAN/ROSE
 	sci-CRAN/tibble
+	sci-CRAN/unbalanced
+	sci-CRAN/withr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,14 +10,14 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/flightplot_0.1.0.tar.gz"
 LICENSE='GPL-3'
 
-DEPEND=">=dev-lang/R-3.6
-	sci-CRAN/dplyr
-	sci-CRAN/rlang
-	sci-CRAN/geosphere
-	sci-CRAN/ggrepel
-	sci-CRAN/ggplot2
-	sci-CRAN/magrittr
+DEPEND="sci-CRAN/ggplot2
 	sci-CRAN/sf
 	sci-CRAN/tibble
+	sci-CRAN/magrittr
+	>=dev-lang/R-3.6
+	sci-CRAN/ggrepel
+	sci-CRAN/dplyr
+	sci-CRAN/geosphere
+	sci-CRAN/rlang
 "
 RDEPEND="${DEPEND-}"

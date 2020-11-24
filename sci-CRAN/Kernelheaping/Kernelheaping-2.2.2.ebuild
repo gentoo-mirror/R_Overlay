@@ -13,11 +13,11 @@ LICENSE='|| ( GPL-2 GPL-3 )'
 DEPEND=">=dev-lang/R-2.15.0
 	sci-CRAN/sp
 	sci-CRAN/ks
+	sci-CRAN/magrittr
+	sci-CRAN/sparr
 	virtual/MASS
 	sci-CRAN/plyr
 	sci-CRAN/fastmatch
-	sci-CRAN/magrittr
 	sci-CRAN/mvtnorm
-	sci-CRAN/sparr
 "
 RDEPEND="${DEPEND-}"

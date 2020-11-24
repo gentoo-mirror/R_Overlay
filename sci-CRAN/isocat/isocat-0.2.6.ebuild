@@ -27,10 +27,10 @@ R_SUGGESTS="
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
 DEPEND="sci-CRAN/raster
+	sci-CRAN/plyr
+	sci-CRAN/sp
 	sci-CRAN/foreach
 	sci-CRAN/magrittr
-	sci-CRAN/sp
-	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

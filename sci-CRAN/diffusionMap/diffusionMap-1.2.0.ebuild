@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/diffusionMap_1.2.0.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/igraph
-	sci-CRAN/scatterplot3d
 	virtual/Matrix
+	sci-CRAN/scatterplot3d
 "
 RDEPEND="${DEPEND-}"

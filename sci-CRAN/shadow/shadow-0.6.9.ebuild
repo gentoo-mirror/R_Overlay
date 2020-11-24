@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_threejs? ( sci-CRAN/threejs )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/rgeos-0.3
 	>=sci-CRAN/raster-2.4.15
 	>=sci-CRAN/sp-1.1.1
+	>=sci-CRAN/rgeos-0.3
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

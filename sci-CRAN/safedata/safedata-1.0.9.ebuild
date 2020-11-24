@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/chron
+DEPEND="sci-CRAN/readxl
+	sci-CRAN/chron
+	sci-CRAN/sf
 	sci-CRAN/curl
 	sci-CRAN/jsonlite
-	sci-CRAN/sf
-	sci-CRAN/readxl
 	sci-CRAN/igraph
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

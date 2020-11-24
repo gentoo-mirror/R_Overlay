@@ -29,11 +29,11 @@ R_SUGGESTS="
 	r_suggests_tikzdevice? ( sci-CRAN/tikzDevice )
 "
 DEPEND="sci-CRAN/abind
-	sci-CRAN/R6
-	sci-CRAN/dplyr
-	sci-CRAN/Rcpp
-	virtual/boot
 	sci-CRAN/stringr
+	sci-CRAN/dplyr
+	virtual/boot
+	sci-CRAN/R6
+	sci-CRAN/Rcpp
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -23,19 +23,19 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/formula_tools
-	sci-CRAN/infer
-	sci-CRAN/magrittr
-	>=dev-lang/R-3.4.0
-	sci-CRAN/glue
-	>=sci-CRAN/rlang-0.2.0
-	sci-CRAN/ggplot2
+DEPEND=">=dev-lang/R-3.4.0
+	sci-CRAN/formula_tools
 	sci-CRAN/tibble
-	sci-CRAN/dplyr
 	sci-CRAN/janitor
-	>=sci-CRAN/broom-0.4.3
+	sci-CRAN/ggplot2
 	sci-CRAN/stringr
+	sci-CRAN/glue
+	sci-CRAN/dplyr
+	sci-CRAN/magrittr
+	>=sci-CRAN/broom-0.4.3
 	sci-CRAN/knitr
+	sci-CRAN/infer
+	>=sci-CRAN/rlang-0.2.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

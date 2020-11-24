@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DistributionFitR_0.1.tar.gz"
 LICENSE='GPL-3+'
 
-DEPEND="sci-CRAN/stringr
-	>=dev-lang/R-3.5
+DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/doParallel
+	sci-CRAN/stringr
 	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-}"

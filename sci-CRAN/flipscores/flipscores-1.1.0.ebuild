@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/flipscores_1.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/flip
+DEPEND="sci-CRAN/plyr
 	sci-CRAN/car
+	sci-CRAN/flip
 	virtual/MASS
-	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

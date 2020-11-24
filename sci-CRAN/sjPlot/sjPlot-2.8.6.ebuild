@@ -36,24 +36,24 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tmb? ( sci-CRAN/TMB )
 "
-DEPEND=">=sci-CRAN/dplyr-0.8.1
-	sci-CRAN/knitr
-	sci-CRAN/rlang
-	>=sci-CRAN/ggplot2-3.2.0
-	virtual/MASS
+DEPEND="sci-CRAN/knitr
 	sci-CRAN/purrr
+	virtual/MASS
 	>=sci-CRAN/sjlabelled-1.1.2
-	>=sci-CRAN/sjstats-0.17.8
-	>=sci-CRAN/tidyr-1.0.0
-	>=sci-CRAN/parameters-0.7.0
-	>=sci-CRAN/insight-0.8.0
-	>=dev-lang/R-3.2
-	>=sci-CRAN/sjmisc-2.8.2
-	>=sci-CRAN/ggeffects-0.14.3
 	>=sci-CRAN/performance-0.4.3
+	sci-CRAN/rlang
+	>=sci-CRAN/tidyr-1.0.0
+	>=sci-CRAN/ggeffects-0.14.3
+	>=dev-lang/R-3.2
+	>=sci-CRAN/dplyr-0.8.1
+	>=sci-CRAN/sjmisc-2.8.2
+	>=sci-CRAN/sjstats-0.17.8
+	sci-CRAN/scales
+	>=sci-CRAN/insight-0.8.0
 	>=sci-CRAN/bayestestR-0.6.0
 	sci-CRAN/effectsize
-	sci-CRAN/scales
+	>=sci-CRAN/ggplot2-3.2.0
+	>=sci-CRAN/parameters-0.7.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

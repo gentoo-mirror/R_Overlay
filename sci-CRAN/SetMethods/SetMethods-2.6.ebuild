@@ -11,13 +11,13 @@ SRC_URI="http://cran.r-project.org/src/contrib/SetMethods_2.6.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND="sci-CRAN/QCA
-	sci-CRAN/scatterplot3d
-	sci-CRAN/ggrepel
-	sci-CRAN/admisc
-	>=dev-lang/R-3.5.0
-	sci-CRAN/fmsb
-	sci-CRAN/ggplot2
-	sci-CRAN/stargazer
 	sci-CRAN/betareg
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.5.0
+	sci-CRAN/admisc
+	sci-CRAN/ggrepel
+	sci-CRAN/stargazer
+	sci-CRAN/scatterplot3d
+	sci-CRAN/fmsb
 "
 RDEPEND="${DEPEND-}"

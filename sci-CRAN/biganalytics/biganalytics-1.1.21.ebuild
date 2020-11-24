@@ -9,9 +9,9 @@ DESCRIPTION='Utilities for big.matrix Objects... (see metadata)'
 KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/biganalytics_1.1.21.tar.gz"
 
-DEPEND="sci-CRAN/biglm
+DEPEND="sci-CRAN/foreach
 	>=sci-CRAN/bigmemory-4.0.0
-	sci-CRAN/foreach
+	sci-CRAN/biglm
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

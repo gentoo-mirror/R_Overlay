@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=sci-CRAN/tuneR sci-CRAN/fftw >=sci-CRAN/seewave-2.0.1 sci-CRAN/dtw >=dev-lang/R-3.2.1 sci-CRAN/NatureSounds sci-CRAN/monitoR sci-CRAN/pbapply sci-CRAN/RCurl sci-CRAN/rjson dev-lang/R
+DEPEND=>=dev-lang/R-3.2.1 >=sci-CRAN/seewave-2.0.1 sci-CRAN/RCurl sci-CRAN/pbapply sci-CRAN/NatureSounds sci-CRAN/rjson sci-CRAN/dtw sci-CRAN/tuneR sci-CRAN/fftw sci-CRAN/monitoR dev-lang/R
 DESCRIPTION=Streamline Bioacoustic Analysis
 EAPI=7
 IUSE=r_suggests_ape r_suggests_ggplot2 r_suggests_jpeg r_suggests_knitr r_suggests_leaflet r_suggests_maps r_suggests_png r_suggests_pracma r_suggests_rmarkdown r_suggests_sim_diffproc r_suggests_soundgen r_suggests_wavethresh byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=sci-CRAN/tuneR sci-CRAN/fftw >=sci-CRAN/seewave-2.0.1 sci-CRAN/dtw >=dev-lang/R-3.2.1 sci-CRAN/NatureSounds sci-CRAN/monitoR sci-CRAN/pbapply sci-CRAN/RCurl sci-CRAN/rjson r_suggests_ape? ( sci-CRAN/ape ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_png? ( sci-CRAN/png ) r_suggests_pracma? ( sci-CRAN/pracma ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sim_diffproc? ( sci-CRAN/Sim_DiffProc ) r_suggests_soundgen? ( sci-CRAN/soundgen ) r_suggests_wavethresh? ( sci-CRAN/wavethresh ) dev-lang/R
+RDEPEND=>=dev-lang/R-3.2.1 >=sci-CRAN/seewave-2.0.1 sci-CRAN/RCurl sci-CRAN/pbapply sci-CRAN/NatureSounds sci-CRAN/rjson sci-CRAN/dtw sci-CRAN/tuneR sci-CRAN/fftw sci-CRAN/monitoR r_suggests_ape? ( sci-CRAN/ape ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_png? ( sci-CRAN/png ) r_suggests_pracma? ( sci-CRAN/pracma ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sim_diffproc? ( sci-CRAN/Sim_DiffProc ) r_suggests_soundgen? ( sci-CRAN/soundgen ) r_suggests_wavethresh? ( sci-CRAN/wavethresh ) dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/warbleR_1.1.24.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=df07b593a70ef3e03d70b2c32aba0878
+_md5_=68649c59ed4b2e21eaaf0010521aec0d

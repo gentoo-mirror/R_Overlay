@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_mcmcpack? ( sci-CRAN/MCMCpack )
 "
 DEPEND="sci-CRAN/numDeriv
-	virtual/lattice
 	virtual/Matrix
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

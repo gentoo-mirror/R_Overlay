@@ -29,16 +29,16 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=sci-CRAN/tune-0.1.2
+	sci-CRAN/rlang
 	sci-CRAN/tibble
 	sci-CRAN/workflows
 	sci-CRAN/yardstick
-	sci-CRAN/rlang
 	sci-CRAN/purrr
 	sci-CRAN/cli
 	sci-CRAN/dials
 	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
 	sci-CRAN/tidyr
 	sci-CRAN/tidyselect
-	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

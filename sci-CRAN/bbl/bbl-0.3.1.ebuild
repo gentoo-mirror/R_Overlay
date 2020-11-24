@@ -17,10 +17,10 @@ R_SUGGESTS="
 	r_suggests_biostrings? ( sci-BIOC/Biostrings )
 	r_suggests_glmnet? ( sci-CRAN/glmnet )
 "
-DEPEND="sci-CRAN/pROC
-	sci-CRAN/RColorBrewer
-	>=dev-lang/R-3.6.0
+DEPEND=">=dev-lang/R-3.6.0
 	>=sci-CRAN/Rcpp-0.12.16
+	sci-CRAN/RColorBrewer
+	sci-CRAN/pROC
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

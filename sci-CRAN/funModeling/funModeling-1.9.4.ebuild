@@ -15,20 +15,20 @@ R_SUGGESTS="
 	r_suggests_knitr? ( sci-CRAN/knitr )
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
-DEPEND="sci-CRAN/RColorBrewer
-	sci-CRAN/moments
-	sci-CRAN/scales
-	sci-CRAN/dplyr
-	sci-CRAN/cli
-	sci-CRAN/entropy
-	sci-CRAN/stringr
-	>=dev-lang/R-3.4.0
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/ROCR
 	>=sci-CRAN/Hmisc-3.17.1
 	sci-CRAN/gridExtra
 	sci-CRAN/ggplot2
 	sci-CRAN/pander
 	sci-CRAN/reshape2
+	sci-CRAN/scales
+	sci-CRAN/dplyr
 	sci-CRAN/lazyeval
+	sci-CRAN/entropy
+	sci-CRAN/cli
+	sci-CRAN/stringr
+	sci-CRAN/RColorBrewer
+	sci-CRAN/moments
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

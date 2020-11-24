@@ -12,9 +12,9 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_xtable"
 R_SUGGESTS="r_suggests_xtable? ( sci-CRAN/xtable )"
-DEPEND=">=sci-BIOC/Biobase-2.5.5
-	sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/gtools
+	>=sci-BIOC/Biobase-2.5.5
 	>=sci-BIOC/Biobase-2.5.5
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

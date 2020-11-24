@@ -17,13 +17,13 @@ R_SUGGESTS="
 	r_suggests_itertools? ( sci-CRAN/itertools )
 "
 DEPEND=">=dev-lang/R-3.1
-	sci-CRAN/ggplot2
-	sci-CRAN/reshape2
-	sci-CRAN/pheatmap
-	>=sci-CRAN/Rcpp-0.12.11
-	sci-CRAN/truncnorm
-	sci-CRAN/ellipse
 	virtual/cluster
+	sci-CRAN/ggplot2
+	sci-CRAN/ellipse
+	>=sci-CRAN/Rcpp-0.12.11
+	sci-CRAN/pheatmap
+	sci-CRAN/reshape2
+	sci-CRAN/truncnorm
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

@@ -19,13 +19,13 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/Rcpp
-	sci-CRAN/R6
 	>=sci-CRAN/later-1.1.0
+	sci-CRAN/R6
 "
 RDEPEND="${DEPEND-}
-	sci-CRAN/BH
-	sci-CRAN/later
 	sci-CRAN/Rcpp
+	sci-CRAN/BH
 	dev-libs/openssl
+	sci-CRAN/later
 	${R_SUGGESTS-}
 "

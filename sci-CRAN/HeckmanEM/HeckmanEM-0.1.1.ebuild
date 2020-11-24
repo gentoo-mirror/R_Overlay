@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND=">=sci-CRAN/mvtnorm-1.1.0
 	>=sci-CRAN/MomTrunc-5.79
-	>=sci-CRAN/sampleSelection-1.2.6
 	>=sci-CRAN/PerformanceAnalytics-2.0.4
+	>=sci-CRAN/sampleSelection-1.2.6
 "
 RDEPEND="${DEPEND-}"

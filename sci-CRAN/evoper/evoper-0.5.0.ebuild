@@ -15,12 +15,12 @@ R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND="sci-CRAN/rrepast
 	sci-CRAN/futile_logger
 	virtual/boot
-	sci-CRAN/plyr
+	sci-CRAN/data_table
+	sci-CRAN/RNetLogo
 	sci-CRAN/reshape
 	sci-CRAN/ggplot2
 	sci-CRAN/deSolve
 	sci-CRAN/plot3D
-	sci-CRAN/data_table
-	sci-CRAN/RNetLogo
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -26,9 +26,9 @@ R_SUGGESTS="
 	r_suggests_splancs? ( sci-CRAN/splancs )
 	r_suggests_waveslim? ( sci-CRAN/waveslim )
 "
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/pixmap
 	sci-CRAN/sp
-	sci-CRAN/pixmap
 	sci-CRAN/progress
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

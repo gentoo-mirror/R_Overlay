@@ -18,9 +18,9 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_shiny? ( sci-CRAN/shiny )
 "
-DEPEND="sci-CRAN/igraph
+DEPEND="sci-CRAN/jsonlite
 	sci-CRAN/RColorBrewer
+	sci-CRAN/igraph
 	sci-CRAN/htmlwidgets
-	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/voxel_1.3.5.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND=">=dev-lang/R-3.2.3
-	sci-CRAN/gamm4
-	sci-CRAN/ggplot2
+DEPEND="sci-CRAN/gamm4
 	sci-CRAN/oro_nifti
-	virtual/mgcv
+	sci-CRAN/ggplot2
 	>=sci-CRAN/lmerTest-3.0.1
+	>=dev-lang/R-3.2.3
+	virtual/mgcv
 	sci-CRAN/purrr
 "
 RDEPEND="${DEPEND-}"

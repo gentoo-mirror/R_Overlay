@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/mosaic
+DEPEND=">=dev-lang/R-3.0.0
+	sci-CRAN/mosaic
 	sci-CRAN/rlang
+	sci-CRAN/magrittr
 	sci-CRAN/ggformula
-	>=dev-lang/R-3.0.0
 	virtual/MASS
 	sci-CRAN/mosaicCore
-	sci-CRAN/magrittr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

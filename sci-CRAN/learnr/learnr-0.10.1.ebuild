@@ -15,19 +15,19 @@ R_SUGGESTS="
 	r_suggests_rlang? ( sci-CRAN/rlang )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
-DEPEND="sci-CRAN/rprojroot
-	sci-CRAN/htmlwidgets
-	sci-CRAN/jsonlite
-	>=sci-CRAN/shiny-1.0
-	sci-CRAN/evaluate
-	>=sci-CRAN/rmarkdown-1.12.0
-	>=sci-CRAN/ellipsis-0.2.0.1
-	sci-CRAN/checkmate
-	>=sci-CRAN/renv-0.8.0
+DEPEND="sci-CRAN/withr
 	sci-CRAN/rappdirs
-	sci-CRAN/withr
-	>=sci-CRAN/htmltools-0.3.5
+	sci-CRAN/jsonlite
+	sci-CRAN/htmlwidgets
+	sci-CRAN/evaluate
 	>=sci-CRAN/knitr-1.14
 	sci-CRAN/markdown
+	>=sci-CRAN/shiny-1.0
+	>=sci-CRAN/rmarkdown-1.12.0
+	>=sci-CRAN/ellipsis-0.2.0.1
+	sci-CRAN/rprojroot
+	>=sci-CRAN/htmltools-0.3.5
+	sci-CRAN/checkmate
+	>=sci-CRAN/renv-0.8.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

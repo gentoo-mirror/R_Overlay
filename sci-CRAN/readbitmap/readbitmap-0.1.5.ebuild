@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/bmp
-	sci-CRAN/jpeg
 	sci-CRAN/png
+	sci-CRAN/jpeg
 	sci-CRAN/tiff
 "
 RDEPEND="${DEPEND-}

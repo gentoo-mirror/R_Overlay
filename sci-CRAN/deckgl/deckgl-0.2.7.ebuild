@@ -22,14 +22,14 @@ R_SUGGESTS="
 	r_suggests_sf? ( sci-CRAN/sf )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/htmlwidgets
-	sci-CRAN/base64enc
-	sci-CRAN/readr
-	sci-CRAN/htmltools
-	sci-CRAN/jsonlite
-	>=dev-lang/R-3.3
-	sci-CRAN/magrittr
-	sci-CRAN/yaml
+DEPEND="sci-CRAN/htmltools
 	sci-CRAN/tibble
+	sci-CRAN/jsonlite
+	sci-CRAN/magrittr
+	>=dev-lang/R-3.3
+	sci-CRAN/htmlwidgets
+	sci-CRAN/base64enc
+	sci-CRAN/yaml
+	sci-CRAN/readr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

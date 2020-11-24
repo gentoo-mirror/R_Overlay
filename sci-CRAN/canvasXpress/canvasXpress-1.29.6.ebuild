@@ -29,8 +29,8 @@ R_SUGGESTS="
 	r_suggests_tidyr? ( sci-CRAN/tidyr )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/httr
 	>=sci-CRAN/htmlwidgets-1.0
+	sci-CRAN/httr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

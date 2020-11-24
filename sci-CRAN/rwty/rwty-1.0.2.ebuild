@@ -17,9 +17,9 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/ape
-	sci-CRAN/ggplot2
 	sci-CRAN/reshape2
+	sci-CRAN/ggplot2
+	sci-CRAN/ape
 	sci-CRAN/phangorn
 	sci-CRAN/coda
 	sci-CRAN/viridis

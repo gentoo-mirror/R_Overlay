@@ -16,9 +16,9 @@ R_SUGGESTS="
 	r_suggests_mass? ( virtual/MASS )
 	r_suggests_multcomp? ( sci-CRAN/multcomp )
 "
-DEPEND="sci-CRAN/ggplot2
-	>=dev-lang/R-3.1.0
+DEPEND=">=dev-lang/R-3.1.0
 	sci-CRAN/quadprog
 	sci-CRAN/mvtnorm
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

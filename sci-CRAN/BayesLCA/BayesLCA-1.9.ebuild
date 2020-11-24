@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BayesLCA_1.9.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/coda
-	sci-CRAN/MCMCpack
+DEPEND="sci-CRAN/e1071
 	virtual/nlme
+	sci-CRAN/coda
 	sci-CRAN/fields
-	sci-CRAN/e1071
+	sci-CRAN/MCMCpack
 "
 RDEPEND="${DEPEND-}"

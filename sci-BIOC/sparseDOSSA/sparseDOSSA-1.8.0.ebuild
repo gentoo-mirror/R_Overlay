@@ -19,8 +19,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND="virtual/MASS
-	sci-CRAN/optparse
 	sci-CRAN/MCMCpack
+	sci-CRAN/optparse
 	>=sci-CRAN/tmvtnorm-1.4.10
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

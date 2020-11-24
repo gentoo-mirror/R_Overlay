@@ -11,11 +11,11 @@ SRC_URI="http://cran.r-project.org/src/contrib/snfa_0.0.1.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-CRAN/ggplot2-3.1.0
-	>=sci-CRAN/rootSolve-1.7
-	>=sci-CRAN/Rdpack-0.10.1
-	>=sci-CRAN/abind-1.4.5
-	>=sci-CRAN/quadprog-1.5.5
 	>=sci-CRAN/prodlim-2018.4.18
+	>=sci-CRAN/quadprog-1.5.5
+	>=sci-CRAN/abind-1.4.5
+	>=sci-CRAN/ggplot2-3.1.0
+	>=sci-CRAN/Rdpack-0.10.1
+	>=sci-CRAN/rootSolve-1.7
 "
 RDEPEND="${DEPEND-}"

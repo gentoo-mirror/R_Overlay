@@ -18,15 +18,15 @@ R_SUGGESTS="
 	r_suggests_taxize? ( sci-CRAN/taxize )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=sci-CRAN/curl-2.4
-	>=sci-CRAN/DBI-0.6.1
-	sci-CRAN/tibble
-	>=sci-CRAN/dplyr-0.7.0
-	>=sci-CRAN/RSQLite-1.1.2
+DEPEND="sci-CRAN/tibble
 	sci-CRAN/rlang
+	>=sci-CRAN/hoardr-0.1.0
 	>=sci-CRAN/readr-1.1.1
+	>=sci-CRAN/DBI-0.6.1
+	>=sci-CRAN/curl-2.4
+	>=sci-CRAN/RSQLite-1.1.2
+	>=sci-CRAN/dplyr-0.7.0
 	>=sci-CRAN/dbplyr-1.0.0
 	>=sci-CRAN/magrittr-1.5
-	>=sci-CRAN/hoardr-0.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,13 +12,13 @@ LICENSE='GPL-2'
 
 DEPEND=">=sci-CRAN/pracma-2.0.7
 	>=sci-CRAN/ggplot2-2.2.1
-	>=sci-CRAN/pspline-1.0.18
-	>=sci-CRAN/shiny-1.0.5
-	>=sci-CRAN/shinyjs-0.9.1
-	>=sci-CRAN/gridExtra-2.3
 	>=sci-CRAN/mvtnorm-1.0.6
-	>=sci-CRAN/XML-3.98.1.9
+	>=sci-CRAN/pspline-1.0.18
+	>=sci-CRAN/shinyjs-0.9.1
+	>=sci-CRAN/shiny-1.0.5
 	>=sci-CRAN/reshape2-1.4.2
+	>=sci-CRAN/gridExtra-2.3
 	>=sci-CRAN/KGode-1.0.0
+	>=sci-CRAN/XML-3.98.1.9
 "
 RDEPEND="${DEPEND-}"

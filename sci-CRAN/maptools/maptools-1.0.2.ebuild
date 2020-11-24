@@ -24,8 +24,8 @@ R_SUGGESTS="
 	r_suggests_spatstat? ( >=sci-CRAN/spatstat-1.60 )
 	r_suggests_spatstat_utils? ( sci-CRAN/spatstat_utils )
 "
-DEPEND="virtual/lattice
-	>=sci-CRAN/sp-1.0.11
+DEPEND=">=sci-CRAN/sp-1.0.11
 	virtual/foreign
+	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

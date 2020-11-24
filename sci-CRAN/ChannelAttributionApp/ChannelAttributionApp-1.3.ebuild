@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/ChannelAttributionApp_1.3.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND="sci-CRAN/ChannelAttribution
-	sci-CRAN/shiny
 	sci-CRAN/data_table
+	sci-CRAN/shiny
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-}"

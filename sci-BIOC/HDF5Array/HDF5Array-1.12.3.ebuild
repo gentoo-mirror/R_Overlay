@@ -19,9 +19,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.4
 	>=sci-BIOC/rhdf5-2.25.6
-	>=sci-BIOC/BiocGenerics-0.25.1
-	sci-BIOC/IRanges
 	>=sci-BIOC/DelayedArray-0.9.3
+	sci-BIOC/IRanges
+	>=sci-BIOC/BiocGenerics-0.25.1
 	sci-BIOC/S4Vectors
 "
 RDEPEND="${DEPEND-}

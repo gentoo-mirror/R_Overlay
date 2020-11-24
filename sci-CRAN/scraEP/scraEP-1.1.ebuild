@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/scraEP_1.1.tar.gz"
 LICENSE='GPL-3+'
 
 DEPEND="sci-CRAN/XML
-	sci-CRAN/RCurl
 	sci-CRAN/data_table
+	sci-CRAN/RCurl
 "
 RDEPEND="${DEPEND-}"

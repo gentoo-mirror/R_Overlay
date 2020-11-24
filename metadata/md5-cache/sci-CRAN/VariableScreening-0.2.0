@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=>=dev-lang/R-3.2.1 sci-CRAN/gee sci-CRAN/expm sci-CRAN/energy virtual/MASS dev-lang/R
+DEPEND=>=dev-lang/R-3.2.1 sci-CRAN/expm virtual/MASS sci-CRAN/gee sci-CRAN/energy dev-lang/R
 DESCRIPTION=High-Dimensional Screening for S... (see metadata)
 EAPI=7
 IUSE=byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
-RDEPEND=>=dev-lang/R-3.2.1 sci-CRAN/gee sci-CRAN/expm sci-CRAN/energy virtual/MASS dev-lang/R
+RDEPEND=>=dev-lang/R-3.2.1 sci-CRAN/expm virtual/MASS sci-CRAN/gee sci-CRAN/energy dev-lang/R
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/VariableScreening_0.2.0.tar.gz
 _eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
-_md5_=8b627db6466eb20557c8e132a2eae44e
+_md5_=e8345a5b13e0eacb54e1372cf7d75d4b

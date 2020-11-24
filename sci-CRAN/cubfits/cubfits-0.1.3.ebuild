@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_seqinr? ( sci-CRAN/seqinr )
 	r_suggests_vgam? ( sci-CRAN/VGAM )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/foreach
+DEPEND="sci-CRAN/foreach
+	>=dev-lang/R-3.0.0
 	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

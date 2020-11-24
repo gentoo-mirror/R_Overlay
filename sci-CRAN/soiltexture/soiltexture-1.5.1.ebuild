@@ -13,8 +13,8 @@ LICENSE='AGPL-3'
 IUSE="${IUSE-} r_suggests_xtable"
 R_SUGGESTS="r_suggests_xtable? ( sci-CRAN/xtable )"
 DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/sp
 	virtual/MASS
 	dev-lang/R[tk]
-	sci-CRAN/sp
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -12,12 +12,12 @@ LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_rcolorbrewer"
 R_SUGGESTS="r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )"
-DEPEND="sci-CRAN/conf_design
+DEPEND="virtual/lattice
+	sci-CRAN/numbers
 	sci-CRAN/vcd
+	sci-CRAN/partitions
+	sci-CRAN/conf_design
 	sci-CRAN/combinat
 	virtual/MASS
-	sci-CRAN/numbers
-	sci-CRAN/partitions
-	virtual/lattice
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

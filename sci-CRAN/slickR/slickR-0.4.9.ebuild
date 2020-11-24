@@ -23,11 +23,11 @@ R_SUGGESTS="
 	r_suggests_svglite? ( sci-CRAN/svglite )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/xml2
+DEPEND="sci-CRAN/lifecycle
+	sci-CRAN/htmlwidgets
+	sci-CRAN/base64enc
 	>=dev-lang/R-3.5.0
 	sci-CRAN/htmltools
-	sci-CRAN/lifecycle
-	sci-CRAN/base64enc
-	sci-CRAN/htmlwidgets
+	sci-CRAN/xml2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

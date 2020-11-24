@@ -12,7 +12,7 @@ LICENSE='GPL-2+'
 
 DEPEND="sci-CRAN/rockchalk
 	sci-CRAN/lme4
-	sci-CRAN/plm
 	virtual/MASS
+	sci-CRAN/plm
 "
 RDEPEND="${DEPEND-}"

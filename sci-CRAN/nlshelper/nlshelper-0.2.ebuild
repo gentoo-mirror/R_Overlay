@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/nlshelper_0.2.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/mgcv
-	sci-CRAN/dplyr
+DEPEND="sci-CRAN/broom
+	virtual/mgcv
 	sci-CRAN/magicaxis
+	sci-CRAN/dplyr
 	virtual/nlme
-	sci-CRAN/broom
 "
 RDEPEND="${DEPEND-}"

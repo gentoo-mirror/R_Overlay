@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/nJira_0.1.1.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/httr
-	sci-CRAN/plyr
 	sci-CRAN/rjson
+	sci-CRAN/plyr
 "
 RDEPEND="${DEPEND-}"

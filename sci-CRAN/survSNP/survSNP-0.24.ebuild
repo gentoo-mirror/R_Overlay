@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_lattice? ( virtual/lattice )
 	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
 "
-DEPEND="virtual/lattice
+DEPEND=">=dev-lang/R-3.0.0
 	>=sci-CRAN/foreach-1.3.2
-	>=dev-lang/R-3.0.0
-	>=sci-CRAN/Rcpp-0.9.10
 	virtual/survival
+	>=sci-CRAN/Rcpp-0.9.10
+	virtual/lattice
 	>=sci-CRAN/xtable-1.7.0
 "
 RDEPEND="${DEPEND-}

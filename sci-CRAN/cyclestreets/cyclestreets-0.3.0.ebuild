@@ -15,12 +15,12 @@ R_SUGGESTS="
 	r_suggests_covr? ( sci-CRAN/covr )
 	r_suggests_stplanr? ( sci-CRAN/stplanr )
 "
-DEPEND="sci-CRAN/magrittr
-	sci-CRAN/geodist
-	sci-CRAN/stringr
-	>=dev-lang/R-3.6.0
-	sci-CRAN/sf
-	sci-CRAN/httr
+DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/jsonlite
+	sci-CRAN/geodist
+	sci-CRAN/sf
+	sci-CRAN/magrittr
+	sci-CRAN/httr
+	sci-CRAN/stringr
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

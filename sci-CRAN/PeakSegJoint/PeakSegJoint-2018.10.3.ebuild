@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND=">=dev-lang/R-2.14
-	sci-CRAN/penaltyLearning
 	sci-CRAN/PeakError
+	sci-CRAN/penaltyLearning
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.0 )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	>=sci-CRAN/Rcpp-0.11.2
 	>=sci-CRAN/scales-0.4.0
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/plotly-4.7.1
+	>=sci-CRAN/Rcpp-0.11.2
 	>=sci-CRAN/rmarkdown-1.6
 	>=sci-CRAN/htmlwidgets-1.0
 "

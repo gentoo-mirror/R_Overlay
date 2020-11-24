@@ -13,9 +13,9 @@ LICENSE='GPL-2'
 IUSE="${IUSE-} r_suggests_tinytest"
 R_SUGGESTS="r_suggests_tinytest? ( sci-CRAN/tinytest )"
 DEPEND="sci-CRAN/curl
-	sci-CRAN/jsonlite
 	sci-CRAN/zip
 	sci-CRAN/data_table
+	sci-CRAN/jsonlite
 "
 RDEPEND="${DEPEND-}
 	dev-lang/perl

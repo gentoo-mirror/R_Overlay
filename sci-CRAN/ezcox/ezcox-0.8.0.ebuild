@@ -23,12 +23,12 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND=">=sci-CRAN/dplyr-0.8.3
+	sci-CRAN/forestmodel
+	>=sci-CRAN/rlang-0.1.2
 	>=sci-CRAN/purrr-0.3.2
 	>=dev-lang/R-3.5
 	>=sci-CRAN/magrittr-1.5
 	virtual/survival
-	>=sci-CRAN/rlang-0.1.2
-	sci-CRAN/forestmodel
 	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

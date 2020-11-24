@@ -10,12 +10,12 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/PROreg_1.1.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/car
-	sci-CRAN/numDeriv
+DEPEND="sci-CRAN/fmsb
 	virtual/Matrix
-	sci-CRAN/rootSolve
-	sci-CRAN/fmsb
+	virtual/Matrix
+	sci-CRAN/car
 	sci-CRAN/RColorBrewer
-	virtual/Matrix
+	sci-CRAN/rootSolve
+	sci-CRAN/numDeriv
 "
 RDEPEND="${DEPEND-}"

@@ -15,20 +15,20 @@ R_SUGGESTS="r_suggests_testthat? ( sci-CRAN/testthat )"
 DEPEND=">=dev-lang/R-3.0.2
 	sci-CRAN/cowplot
 	sci-CRAN/coda
-	sci-CRAN/abind
 	sci-CRAN/dplyr
+	sci-CRAN/abind
 	sci-CRAN/fields
 	sci-CRAN/itertools
 	sci-CRAN/mvtnorm
 	sci-CRAN/raster
 	sci-CRAN/scoringRules
+	sci-CRAN/gtable
+	sci-CRAN/scales
+	sci-CRAN/sp
+	sci-CRAN/reshape2
 	sci-CRAN/stringr
 	sci-CRAN/foreach
-	sci-CRAN/sp
 	sci-CRAN/ggplot2
-	sci-CRAN/scales
-	sci-CRAN/gtable
-	sci-CRAN/reshape2
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/Rcpp-0.12.4

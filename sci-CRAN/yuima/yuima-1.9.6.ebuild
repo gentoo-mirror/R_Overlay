@@ -10,13 +10,13 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/yuima_1.9.6.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="sci-CRAN/expm
+DEPEND="sci-CRAN/mvtnorm
 	virtual/boot
-	sci-CRAN/glassoFast
-	>=sci-CRAN/Rcpp-0.12.1
-	sci-CRAN/zoo
 	sci-CRAN/cubature
-	sci-CRAN/mvtnorm
+	sci-CRAN/expm
+	sci-CRAN/zoo
+	>=sci-CRAN/Rcpp-0.12.1
+	sci-CRAN/glassoFast
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/Rcpp

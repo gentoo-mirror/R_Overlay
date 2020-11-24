@@ -18,12 +18,12 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND=">=dev-lang/R-3.4.0
-	>=sci-CRAN/jsonlite-1.6
-	>=sci-CRAN/openssl-1.4.1
+DEPEND=">=sci-CRAN/jsonlite-1.6
+	sci-CRAN/data_table
 	>=sci-CRAN/httr-1.4.1
 	sci-CRAN/crul
-	sci-CRAN/data_table
+	>=dev-lang/R-3.4.0
+	>=sci-CRAN/openssl-1.4.1
 	sci-CRAN/R6
 	sci-CRAN/rstudioapi
 	sci-CRAN/shinyjs

@@ -16,10 +16,10 @@ R_SUGGESTS="
 	r_suggests_runit? ( sci-CRAN/RUnit )
 "
 DEPEND=">=dev-lang/R-3.5.0
-	>=sci-BIOC/XVector-0.23.2
+	sci-BIOC/BiocGenerics
 	sci-BIOC/IRanges
 	>=sci-BIOC/S4Vectors-0.21.13
-	sci-BIOC/BiocGenerics
+	>=sci-BIOC/XVector-0.23.2
 "
 RDEPEND="${DEPEND-}
 	sci-BIOC/S4Vectors

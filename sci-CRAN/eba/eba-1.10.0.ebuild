@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/eba_1.10-0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/psychotools
-	>=dev-lang/R-4.0.0
+DEPEND=">=dev-lang/R-4.0.0
+	sci-CRAN/psychotools
 	virtual/nlme
 "
 RDEPEND="${DEPEND-}"

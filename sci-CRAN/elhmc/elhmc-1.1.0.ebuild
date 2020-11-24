@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/elhmc_1.1.0.tar.gz"
 LICENSE='GPL-2'
 
-DEPEND="virtual/MASS
+DEPEND="sci-CRAN/emplik
+	virtual/MASS
 	sci-CRAN/plyr
-	sci-CRAN/emplik
 "
 RDEPEND="${DEPEND-}"

@@ -19,14 +19,14 @@ R_SUGGESTS="
 	r_suggests_scales? ( sci-CRAN/scales )
 	r_suggests_shinybs? ( sci-CRAN/shinyBS )
 "
-DEPEND=">=dev-lang/R-3.2.4
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/gridExtra
-	sci-CRAN/RColorBrewer
+DEPEND="sci-CRAN/gridExtra
 	sci-CRAN/plotrix
-	sci-CRAN/Rcpp
 	sci-CRAN/shiny
+	sci-CRAN/ggplot2
+	>=dev-lang/R-3.2.4
+	sci-CRAN/dplyr
+	sci-CRAN/Rcpp
+	sci-CRAN/RColorBrewer
 	sci-CRAN/tidyr
 "
 RDEPEND="${DEPEND-}

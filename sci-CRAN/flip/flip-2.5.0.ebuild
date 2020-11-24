@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/flip_2.5.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/someMTP
-	sci-CRAN/cherry
+DEPEND="sci-CRAN/plyr
+	sci-CRAN/someMTP
 	sci-CRAN/e1071
-	sci-CRAN/plyr
+	sci-CRAN/cherry
 "
 RDEPEND="${DEPEND-}"

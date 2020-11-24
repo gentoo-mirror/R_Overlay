@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/extremogram_1.0.2.tar.gz"
 LICENSE='GPL-3'
 
 DEPEND=">=dev-lang/R-3.1.0
-	virtual/MASS
 	virtual/boot
+	virtual/MASS
 "
 RDEPEND="${DEPEND-}"

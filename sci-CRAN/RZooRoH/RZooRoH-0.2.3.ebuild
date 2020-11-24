@@ -16,11 +16,11 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/foreach
-	sci-CRAN/RColorBrewer
-	sci-CRAN/data_table
-	sci-CRAN/doParallel
-	>=dev-lang/R-3.2.0
+DEPEND="sci-CRAN/RColorBrewer
 	sci-CRAN/iterators
+	sci-CRAN/doParallel
+	sci-CRAN/foreach
+	>=dev-lang/R-3.2.0
+	sci-CRAN/data_table
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

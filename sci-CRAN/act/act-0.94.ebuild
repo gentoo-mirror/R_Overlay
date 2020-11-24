@@ -10,9 +10,9 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/act_0.94.tar.gz"
 LICENSE='BSD-2'
 
-DEPEND="sci-CRAN/stringi
+DEPEND="sci-CRAN/XML
 	sci-CRAN/openxlsx
-	sci-CRAN/XML
+	sci-CRAN/stringi
 	sci-CRAN/progress
 	sci-CRAN/stringr
 "

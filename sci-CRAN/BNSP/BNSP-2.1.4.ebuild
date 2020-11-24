@@ -15,18 +15,18 @@ R_SUGGESTS="
 	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
 	r_suggests_np? ( sci-CRAN/np )
 "
-DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/plot3D
-	sci-CRAN/coda
-	sci-CRAN/gridExtra
-	sci-CRAN/ggplot2
-	sci-CRAN/plyr
-	virtual/mgcv
-	sci-CRAN/corrplot
+DEPEND="sci-CRAN/plyr
+	sci-CRAN/label_switching
 	sci-CRAN/threejs
+	sci-CRAN/coda
+	>=dev-lang/R-3.1.0
+	sci-CRAN/ggplot2
+	sci-CRAN/plot3D
+	sci-CRAN/gridExtra
 	sci-CRAN/cubature
 	sci-CRAN/Formula
-	sci-CRAN/label_switching
+	virtual/mgcv
+	sci-CRAN/corrplot
 "
 RDEPEND="${DEPEND-}
 	sci-CRAN/cubature

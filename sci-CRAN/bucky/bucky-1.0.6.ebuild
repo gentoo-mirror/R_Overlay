@@ -17,7 +17,7 @@ R_SUGGESTS="
 	r_suggests_mice? ( sci-CRAN/mice )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/lmtest
 	sci-CRAN/sandwich
+	sci-CRAN/lmtest
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

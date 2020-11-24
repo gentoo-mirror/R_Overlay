@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/slfm_1.0.1.tar.gz"
 LICENSE='GPL-2'
 
 DEPEND=">=dev-lang/R-3.1.0
-	virtual/lattice
 	>=sci-CRAN/Rcpp-0.11.0
+	virtual/lattice
 	sci-CRAN/coda
 "
 RDEPEND="${DEPEND-}

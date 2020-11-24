@@ -19,17 +19,17 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 	r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 )
 "
-DEPEND=">=dev-lang/R-3.1.0
+DEPEND=">=sci-CRAN/lazyeval-0.1.10
 	>=sci-CRAN/dplyr-0.5.0
-	>=sci-CRAN/lazyeval-0.1.10
+	>=sci-CRAN/shiny-0.11.0
+	sci-CRAN/tibble
+	>=dev-lang/R-3.1.0
 	>=sci-CRAN/DT-0.2
 	>=sci-CRAN/ggplot2-2.2.0
 	>=sci-CRAN/magrittr-1.5
 	>=sci-CRAN/mixtools-1.0.2
 	>=sci-CRAN/plyr-1.8.1
 	>=sci-CRAN/readr-0.1.0
-	>=sci-CRAN/shiny-0.11.0
 	>=sci-CRAN/shinyjs-0.4.0
-	sci-CRAN/tibble
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

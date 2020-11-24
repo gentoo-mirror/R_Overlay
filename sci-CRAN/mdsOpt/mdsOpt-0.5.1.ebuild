@@ -17,10 +17,10 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.6.0
 	sci-CRAN/plotrix
-	sci-CRAN/symbolicDA
-	sci-CRAN/animation
-	sci-CRAN/smds
-	sci-CRAN/spdep
 	virtual/cluster
+	sci-CRAN/symbolicDA
+	sci-CRAN/smds
+	sci-CRAN/animation
+	sci-CRAN/spdep
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

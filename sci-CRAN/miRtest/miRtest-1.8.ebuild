@@ -10,11 +10,11 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/miRtest_1.8.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/corpcor
+DEPEND="sci-BIOC/limma
+	sci-BIOC/globaltest
 	virtual/MASS
 	sci-BIOC/GlobalAncova
-	sci-BIOC/globaltest
-	sci-BIOC/limma
+	sci-CRAN/corpcor
 	sci-CRAN/RepeatedHighDim
 "
 RDEPEND="${DEPEND-}"

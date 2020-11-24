@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/jaggR_0.1.1.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.5.0
-	sci-CRAN/formatR
 	sci-CRAN/glue
+	sci-CRAN/formatR
 "
 RDEPEND="${DEPEND-}"

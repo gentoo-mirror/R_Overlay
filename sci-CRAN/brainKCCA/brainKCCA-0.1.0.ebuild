@@ -12,13 +12,13 @@ LICENSE='LGPL-3+'
 
 IUSE="${IUSE-} r_suggests_rmarkdown"
 R_SUGGESTS="r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )"
-DEPEND="sci-CRAN/elasticnet
-	sci-CRAN/kernlab
+DEPEND="sci-CRAN/kernlab
 	sci-CRAN/brainR
+	sci-CRAN/elasticnet
 	sci-CRAN/oro_nifti
-	sci-CRAN/rgl
-	sci-CRAN/knitr
 	sci-CRAN/CCA
+	sci-CRAN/knitr
+	sci-CRAN/rgl
 	sci-CRAN/misc3d
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

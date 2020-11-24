@@ -25,9 +25,9 @@ R_SUGGESTS="
 	r_suggests_rgl? ( sci-CRAN/rgl )
 	r_suggests_som? ( sci-CRAN/som )
 "
-DEPEND="sci-BIOC/limma
+DEPEND="sci-BIOC/marray
+	sci-BIOC/limma
 	sci-BIOC/graph
 	sci-BIOC/convert
-	sci-BIOC/marray
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

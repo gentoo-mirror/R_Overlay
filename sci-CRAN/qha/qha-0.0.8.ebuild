@@ -11,8 +11,8 @@ SRC_URI="http://cran.r-project.org/src/contrib/qha_0.0.8.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.2.1
-	virtual/class
-	sci-CRAN/FactoMineR
 	sci-CRAN/ade4
+	sci-CRAN/FactoMineR
+	virtual/class
 "
 RDEPEND="${DEPEND-}"

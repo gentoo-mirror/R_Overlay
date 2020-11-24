@@ -15,14 +15,14 @@ R_SUGGESTS="
 	r_suggests_lintr? ( sci-CRAN/lintr )
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
-DEPEND="sci-CRAN/shiny
-	sci-CRAN/config
+DEPEND=">=dev-lang/R-3.1.0
+	sci-CRAN/shiny
 	sci-CRAN/data_table
-	>=dev-lang/R-3.1.0
-	sci-CRAN/RJDBC
-	>=sci-CRAN/DBI-1.1.0
 	sci-CRAN/RPostgres
+	sci-CRAN/RJDBC
 	sci-CRAN/shinyjs
+	sci-CRAN/config
+	>=sci-CRAN/DBI-1.1.0
 "
 RDEPEND="${DEPEND-}
 	dev-db/postgresql-base

@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 	r_suggests_tweedie? ( sci-CRAN/tweedie )
 "
-DEPEND=">=dev-lang/R-3.0.0
-	sci-CRAN/ggplot2
-	sci-CRAN/dplyr
-	sci-CRAN/gridExtra
+DEPEND="sci-CRAN/gridExtra
 	sci-CRAN/whisker
+	sci-CRAN/dplyr
+	>=dev-lang/R-3.0.0
+	sci-CRAN/ggplot2
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

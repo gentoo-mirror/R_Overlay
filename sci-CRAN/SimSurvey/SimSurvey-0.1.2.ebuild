@@ -26,18 +26,18 @@ R_SUGGESTS="
 	r_suggests_shiny? ( sci-CRAN/shiny )
 	r_suggests_viridis? ( sci-CRAN/viridis )
 "
-DEPEND="sci-CRAN/igraph
-	sci-CRAN/magrittr
-	sci-CRAN/sp
+DEPEND=">=dev-lang/R-3.3.0
+	sci-CRAN/rgeos
 	sci-CRAN/data_table
+	sci-CRAN/sp
+	sci-CRAN/igraph
+	sci-CRAN/magrittr
+	sci-CRAN/plotly
+	sci-CRAN/rlang
 	sci-CRAN/raster
 	sci-CRAN/progress
-	sci-CRAN/foreach
-	sci-CRAN/plotly
-	>=dev-lang/R-3.3.0
-	sci-CRAN/rgeos
 	sci-CRAN/doParallel
-	sci-CRAN/rlang
+	sci-CRAN/foreach
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

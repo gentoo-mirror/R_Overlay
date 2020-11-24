@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/Bios2cor_2.2.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/bigmemory
+DEPEND="sci-CRAN/circular
+	sci-CRAN/bigmemory
+	sci-CRAN/bio3d
 	sci-CRAN/igraph
 	>=dev-lang/R-3.5
-	sci-CRAN/circular
-	sci-CRAN/bio3d
 "
 RDEPEND="${DEPEND-}"

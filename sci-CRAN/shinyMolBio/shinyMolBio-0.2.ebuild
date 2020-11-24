@@ -15,15 +15,15 @@ R_SUGGESTS="
 	r_suggests_chippcr? ( sci-CRAN/chipPCR )
 	r_suggests_knitr? ( sci-CRAN/knitr )
 "
-DEPEND="sci-CRAN/dplyr
-	sci-CRAN/shiny
-	sci-CRAN/plotly
-	sci-CRAN/RDML
-	>=dev-lang/R-3.4.0
-	sci-CRAN/purrr
-	sci-CRAN/checkmate
+DEPEND=">=dev-lang/R-3.4.0
 	sci-CRAN/stringr
 	sci-CRAN/whisker
 	sci-CRAN/RColorBrewer
+	sci-CRAN/dplyr
+	sci-CRAN/RDML
+	sci-CRAN/purrr
+	sci-CRAN/checkmate
+	sci-CRAN/shiny
+	sci-CRAN/plotly
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

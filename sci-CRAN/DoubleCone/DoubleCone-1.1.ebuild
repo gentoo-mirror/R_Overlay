@@ -10,8 +10,8 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/DoubleCone_1.1.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
-DEPEND="virtual/MASS
-	>=sci-CRAN/coneproj-1.12
+DEPEND=">=sci-CRAN/coneproj-1.12
+	virtual/MASS
 	virtual/Matrix
 "
 RDEPEND="${DEPEND-}"

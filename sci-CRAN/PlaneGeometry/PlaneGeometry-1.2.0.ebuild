@@ -21,9 +21,9 @@ R_SUGGESTS="
 	r_suggests_viridislite? ( sci-CRAN/viridisLite )
 "
 DEPEND="sci-CRAN/R6
+	sci-CRAN/stringr
 	sci-CRAN/uniformly
 	sci-CRAN/gsl
-	sci-CRAN/stringr
 	sci-CRAN/sdpt3r
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -33,19 +33,19 @@ R_SUGGESTS="
 	r_suggests_tmap? ( sci-CRAN/tmap )
 	r_suggests_xtable? ( sci-CRAN/xtable )
 "
-DEPEND=">=dev-lang/R-3.3.0
-	sci-CRAN/sf
-	>=sci-CRAN/sp-1.0
-	virtual/boot
-	sci-CRAN/deldir
-	virtual/Matrix
-	sci-CRAN/LearnBayes
+DEPEND=">=sci-CRAN/sp-1.0
 	sci-CRAN/coda
-	virtual/nlme
-	>=sci-CRAN/spData-0.2.6.0
-	virtual/MASS
-	sci-CRAN/expm
 	sci-CRAN/gmodels
+	sci-CRAN/expm
+	virtual/Matrix
+	virtual/nlme
+	>=dev-lang/R-3.3.0
+	sci-CRAN/sf
+	>=sci-CRAN/spData-0.2.6.0
+	sci-CRAN/deldir
+	virtual/boot
+	sci-CRAN/LearnBayes
+	virtual/MASS
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
 

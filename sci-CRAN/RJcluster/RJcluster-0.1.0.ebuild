@@ -17,11 +17,11 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
 "
 DEPEND="sci-CRAN/rlang
-	sci-CRAN/foreach
+	sci-CRAN/infotheo
 	sci-CRAN/doParallel
 	virtual/Matrix
 	sci-CRAN/profvis
-	sci-CRAN/infotheo
+	sci-CRAN/foreach
 	>=sci-CRAN/Rcpp-1.0.2
 	sci-CRAN/mclust
 "

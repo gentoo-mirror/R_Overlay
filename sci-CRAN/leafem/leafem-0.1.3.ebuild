@@ -19,10 +19,10 @@ R_SUGGESTS="
 	r_suggests_stars? ( sci-CRAN/stars )
 "
 DEPEND=">=dev-lang/R-3.1.0
-	sci-CRAN/htmlwidgets
 	>=sci-CRAN/htmltools-0.3
 	sci-CRAN/base64enc
 	>=sci-CRAN/leaflet-2.0.1
+	sci-CRAN/htmlwidgets
 	sci-CRAN/raster
 	sci-CRAN/sf
 	sci-CRAN/png

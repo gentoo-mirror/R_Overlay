@@ -11,10 +11,10 @@ SRC_URI="http://cran.r-project.org/src/contrib/ggsn_0.5.0.tar.gz"
 LICENSE='GPL-2+'
 
 DEPEND=">=dev-lang/R-3.4
-	sci-CRAN/ggplot2
-	sci-CRAN/maptools
 	sci-CRAN/png
 	sci-CRAN/sf
+	sci-CRAN/maptools
+	sci-CRAN/ggplot2
 	sci-CRAN/ggmap
 "
 RDEPEND="${DEPEND-}"

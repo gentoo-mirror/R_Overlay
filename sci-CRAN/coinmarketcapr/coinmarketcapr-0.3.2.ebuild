@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( sci-CRAN/testthat )
 "
 DEPEND="sci-CRAN/jsonlite
-	sci-CRAN/cli
-	sci-CRAN/ggplot2
 	sci-CRAN/curl
 	sci-CRAN/data_table
+	sci-CRAN/ggplot2
+	sci-CRAN/cli
 	sci-CRAN/crayon
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

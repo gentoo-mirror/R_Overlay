@@ -21,13 +21,13 @@ R_SUGGESTS="
 	r_suggests_rlecuyer? ( sci-CRAN/rlecuyer )
 	r_suggests_snowft? ( sci-CRAN/snowFT )
 "
-DEPEND="sci-CRAN/mvtnorm
+DEPEND=">=sci-CRAN/ergm-3.9.0
 	sci-CRAN/abind
-	>=sci-CRAN/statnet_common-4.1.0
-	>=sci-CRAN/coda-0.17.1
-	sci-CRAN/network
-	sci-CRAN/sna
-	>=sci-CRAN/ergm-3.9.0
 	virtual/MASS
+	sci-CRAN/sna
+	sci-CRAN/network
+	sci-CRAN/mvtnorm
+	>=sci-CRAN/coda-0.17.1
+	>=sci-CRAN/statnet_common-4.1.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

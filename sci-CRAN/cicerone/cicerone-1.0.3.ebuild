@@ -11,7 +11,7 @@ SRC_URI="http://cran.r-project.org/src/contrib/cicerone_1.0.3.tar.gz"
 LICENSE='MIT'
 
 DEPEND="sci-CRAN/R6
-	sci-CRAN/shiny
 	sci-CRAN/assertthat
+	sci-CRAN/shiny
 "
 RDEPEND="${DEPEND-}"

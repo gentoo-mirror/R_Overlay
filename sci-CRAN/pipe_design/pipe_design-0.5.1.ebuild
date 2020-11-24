@@ -13,7 +13,7 @@ LICENSE='GPL-2+'
 IUSE="${IUSE-} r_suggests_shiny"
 R_SUGGESTS="r_suggests_shiny? ( sci-CRAN/shiny )"
 DEPEND=">=sci-CRAN/ggplot2-1.0.1
-	sci-CRAN/xtable
 	sci-CRAN/gtools
+	sci-CRAN/xtable
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

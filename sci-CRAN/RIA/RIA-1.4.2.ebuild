@@ -16,8 +16,8 @@ R_SUGGESTS="
 	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
 "
 DEPEND=">=dev-lang/R-3.3.0
-	>=sci-CRAN/oro_dicom-0.5.0
 	>=sci-CRAN/nat-1.8.11
 	>=sci-CRAN/oro_nifti-0.9.1
+	>=sci-CRAN/oro_dicom-0.5.0
 "
 RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

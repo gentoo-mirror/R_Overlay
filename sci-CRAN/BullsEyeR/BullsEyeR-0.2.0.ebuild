@@ -10,10 +10,10 @@ KEYWORDS="~amd64"
 SRC_URI="http://cran.r-project.org/src/contrib/BullsEyeR_0.2.0.tar.gz"
 LICENSE='GPL-2+'
 
-DEPEND="sci-CRAN/tm
-	sci-CRAN/NLP
-	virtual/Matrix
+DEPEND="sci-CRAN/slam
 	sci-CRAN/topicmodels
-	sci-CRAN/slam
+	virtual/Matrix
+	sci-CRAN/NLP
+	sci-CRAN/tm
 "
 RDEPEND="${DEPEND-}"
