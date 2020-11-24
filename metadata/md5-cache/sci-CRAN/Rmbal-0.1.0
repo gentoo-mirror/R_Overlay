@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=sci-CRAN/Rdpack sci-CRAN/pracma sci-CRAN/magrittr sci-CRAN/minpack_lm sci-CRAN/gsl dev-lang/R
+DESCRIPTION=Estimate Original Hydrocarbon in... (see metadata)
+EAPI=7
+IUSE=r_suggests_dplyr r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_rpvt r_suggests_rrelperm r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/Rdpack sci-CRAN/pracma sci-CRAN/magrittr sci-CRAN/minpack_lm sci-CRAN/gsl r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpvt? ( sci-CRAN/Rpvt ) r_suggests_rrelperm? ( sci-CRAN/Rrelperm ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Rmbal_0.1.0.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=e6ab4e05f4a91b14a6922c09b2249658

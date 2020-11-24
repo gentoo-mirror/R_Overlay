@@ -1,0 +1,17 @@
+# Copyright 1999-2020 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='tigreBrowser Database Writer'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/tigreBrowserWriter_0.1.5.tar.gz"
+LICENSE='AGPL-3'
+
+DEPEND=">=dev-lang/R-2.14.0
+	sci-CRAN/RSQLite
+	sci-CRAN/DBI
+"
+RDEPEND="${DEPEND-}"

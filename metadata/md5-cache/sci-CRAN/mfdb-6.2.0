@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=dev-lang/R-3.1.1 >=sci-CRAN/logging-0.7.103 >=sci-CRAN/DBI-0.3.1 >=sci-CRAN/getPass-0.1.1 >=sci-CRAN/RPostgreSQL-0.4 dev-lang/R
+DESCRIPTION=MareFrame DB Querying Library
+EAPI=7
+IUSE=r_suggests_dbplyr r_suggests_dplyr r_suggests_unittest byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1.1 >=sci-CRAN/logging-0.7.103 >=sci-CRAN/DBI-0.3.1 >=sci-CRAN/getPass-0.1.1 >=sci-CRAN/RPostgreSQL-0.4 r_suggests_dbplyr? ( >=sci-CRAN/dbplyr-1.0.0 ) r_suggests_dplyr? ( >=sci-CRAN/dplyr-0.7.1 ) r_suggests_unittest? ( >=sci-CRAN/unittest-1.2 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mfdb_6.2-0.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=c2d7d67597b8ab15df79b1fa9cbe23af

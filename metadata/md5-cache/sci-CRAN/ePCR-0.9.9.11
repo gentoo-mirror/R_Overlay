@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=sci-CRAN/timeROC sci-CRAN/Bolstad2 sci-BIOC/impute sci-CRAN/pracma >=dev-lang/R-3.0.0 sci-CRAN/glmnet sci-CRAN/hamlet virtual/survival dev-lang/R
+DESCRIPTION=Ensemble Penalized Cox Regressio... (see metadata)
+EAPI=7
+IUSE=r_suggests_c060 r_suggests_mass r_suggests_matrix r_suggests_r_rsp r_suggests_rocr byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/timeROC sci-CRAN/Bolstad2 sci-BIOC/impute sci-CRAN/pracma >=dev-lang/R-3.0.0 sci-CRAN/glmnet sci-CRAN/hamlet virtual/survival r_suggests_c060? ( sci-CRAN/c060 ) r_suggests_mass? ( virtual/MASS ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rocr? ( sci-CRAN/ROCR ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ePCR_0.9.9-11.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=63a9c7a51b4175af3d54f4087c2102d5

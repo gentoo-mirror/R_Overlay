@@ -1,0 +1,16 @@
+# Copyright 1999-2020 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Advanced Methods for Stochastic Frontier Analysis'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/sfadv_1.0.1.tar.gz"
+LICENSE='GPL-3'
+
+DEPEND="sci-CRAN/gmm
+	sci-CRAN/minpack_lm
+"
+RDEPEND="${DEPEND-}"

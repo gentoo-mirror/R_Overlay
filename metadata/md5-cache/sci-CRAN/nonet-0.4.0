@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/glmnet >=sci-CRAN/caret-6.0.78 sci-CRAN/ggplot2 >=sci-CRAN/pROC-1.13.0 >=sci-CRAN/rlang-0.2.1 sci-CRAN/dplyr sci-CRAN/randomForest >=sci-CRAN/rlist-0.4.6.1 sci-CRAN/tidyverse sci-CRAN/e1071 sci-CRAN/purrr dev-lang/R
+DESCRIPTION=Weighted Average Ensemble without Training Labels
+EAPI=7
+IUSE=r_suggests_cluster r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/glmnet >=sci-CRAN/caret-6.0.78 sci-CRAN/ggplot2 >=sci-CRAN/pROC-1.13.0 >=sci-CRAN/rlang-0.2.1 sci-CRAN/dplyr sci-CRAN/randomForest >=sci-CRAN/rlist-0.4.6.1 sci-CRAN/tidyverse sci-CRAN/e1071 sci-CRAN/purrr r_suggests_cluster? ( virtual/cluster ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nonet_0.4.0.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=f940f082f768192ff1e6a096847a7800

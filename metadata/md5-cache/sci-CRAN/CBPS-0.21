@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=sci-CRAN/numDeriv sci-CRAN/glmnet virtual/MASS >=dev-lang/R-3.4 sci-CRAN/MatchIt virtual/nnet dev-lang/R
+DESCRIPTION=Covariate Balancing Propensity Score
+EAPI=7
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/numDeriv sci-CRAN/glmnet virtual/MASS >=dev-lang/R-3.4 sci-CRAN/MatchIt virtual/nnet r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CBPS_0.21.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=794aca6dded12819aebbafec55bbfe1f

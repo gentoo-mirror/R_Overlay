@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=virtual/lattice >=sci-BIOC/Biobase-2.21.7 sci-BIOC/geneplotter sci-BIOC/genefilter >=sci-BIOC/BiocGenerics-0.7.5 sci-CRAN/locfit virtual/MASS sci-CRAN/RColorBrewer dev-lang/R
+DESCRIPTION=Differential gene expression ana... (see metadata)
+EAPI=7
+IUSE=r_suggests_gplots r_suggests_vsn byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=virtual/lattice >=sci-BIOC/Biobase-2.21.7 sci-BIOC/geneplotter sci-BIOC/genefilter >=sci-BIOC/BiocGenerics-0.7.5 sci-CRAN/locfit virtual/MASS sci-CRAN/RColorBrewer r_suggests_gplots? ( sci-CRAN/gplots ) r_suggests_vsn? ( sci-BIOC/vsn ) dev-lang/R
+SLOT=0
+SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/DESeq_1.36.0.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=685c7a356ccbc4b153935d5ebbe78208

@@ -1,0 +1,21 @@
+# Copyright 1999-2020 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='R MTC Jags Rcmdr Plugin'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/RcmdrPlugin.RMTCJags_1.0-2.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="sci-CRAN/igraph
+	sci-CRAN/coda
+	sci-CRAN/rjags
+	sci-CRAN/rmeta
+	>=dev-lang/R-3.0.0
+	sci-CRAN/runjags
+	>=sci-CRAN/Rcmdr-2.0.0
+"
+RDEPEND="${DEPEND-} sci-mathematics/jags"

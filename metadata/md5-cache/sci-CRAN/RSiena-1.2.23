@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-lang/R[tk] virtual/MASS virtual/Matrix virtual/lattice >=dev-lang/R-2.15.0 dev-lang/R
+DESCRIPTION=Siena - Simulation Investigation... (see metadata)
+EAPI=7
+IUSE=r_suggests_codetools r_suggests_network r_suggests_xtable byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=dev-lang/R[tk] virtual/MASS virtual/Matrix virtual/lattice >=dev-lang/R-2.15.0 dev-lang/R[tk] dev-tcltk/tktable r_suggests_codetools? ( virtual/codetools ) r_suggests_network? ( sci-CRAN/network ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RSiena_1.2-23.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=2cdafd77cadbe33c8c246a854feecdcd

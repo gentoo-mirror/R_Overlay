@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=>=sci-BIOC/aroma_light-2.4.0 >=sci-CRAN/future-1.12.0 >=sci-CRAN/listenv-0.7.0 >=sci-BIOC/DNAcopy-1.42.0 >=dev-lang/R-3.2.0 >=sci-CRAN/R_utils-2.8.0 >=sci-CRAN/R_oo-1.22.0 >=sci-CRAN/R_methodsS3-1.7.1 >=sci-CRAN/R_cache-0.13.0 virtual/Matrix dev-lang/R
+DESCRIPTION=Analysis of Parent-Specific DNA Copy Numbers
+EAPI=7
+IUSE=r_suggests_ggplot2 r_suggests_hmisc r_suggests_r_devices r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=sci-BIOC/aroma_light-2.4.0 >=sci-CRAN/future-1.12.0 >=sci-CRAN/listenv-0.7.0 >=sci-BIOC/DNAcopy-1.42.0 >=dev-lang/R-3.2.0 >=sci-CRAN/R_utils-2.8.0 >=sci-CRAN/R_oo-1.22.0 >=sci-CRAN/R_methodsS3-1.7.1 >=sci-CRAN/R_cache-0.13.0 virtual/Matrix r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.1.1 ) r_suggests_hmisc? ( >=sci-CRAN/Hmisc-4.2.0 ) r_suggests_r_devices? ( >=sci-CRAN/R_devices-2.16.0 ) r_suggests_r_rsp? ( >=sci-CRAN/R_rsp-0.43.1 ) dev-lang/R
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PSCBS_0.65.0.tar.gz
+_eclasses_=R-packages	21444afe35c59e5a410a9b01d55117ef	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=2d3cf2e363169e071f604934760206ef
