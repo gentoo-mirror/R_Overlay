@@ -1,5 +1,5 @@
 BDEPEND=dev-lang/R:=
-DEFINED_PHASES=compile install postinst unpack
+DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/plyr sci-BIOC/Biobase sci-CRAN/igraph >=dev-lang/R-3.5 sci-CRAN/alluvial sci-CRAN/mclust sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-BIOC/STRINGdb dev-lang/R:=
 DESCRIPTION=Multiplexes isobaric mass tagged... (see metadata)
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=sci-CRAN/plyr sci-BIOC/Biobase sci-CRAN/igraph >=dev-lang/R-3.5 sci-CRAN/alluvial sci-CRAN/mclust sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-BIOC/STRINGdb r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/XINA_1.2.0.tar.gz
-_eclasses_=R-packages	6ea48239846a554f867b0cf3a063a240	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=9a84ba63e70f7183f1e078fab4afbaf7

@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Track User-Defined Environment Names // Set of functions to keep
-		track of user-defined environment names (which cannot be
-		retrieved with the built-in function environmentName()). The
-		package also provides functionality to search for objects in
-		environments, deal with function calling chains, and retrieve
-		an object's memory address.
+		Keep Track of User-Defined Environment Names // Set of functions
+		to keep track and find objects in user-defined environments by
+		identifying environments by name --which cannot be retrieved
+		with the built-in function environmentName(). The package also
+		provides functionality to obtain simplified information about
+		function calling chains and to get an object's memory address.
 	</longdescription>
 </pkgmetadata>

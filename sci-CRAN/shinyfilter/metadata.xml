@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Use Interdependent Filters on Table Columns in Shiny Apps //
+		Allows to connect 'selectizeInputs' widgets as filters to a
+		'reactable' table. As known from spreadsheet applications,
+		column filters are interdependent, so each filter only shows
+		the values that are really available at the moment based on the
+		current selection in other filters. Filter values currently not
+		available (and also those being available) can be shown via
+		popovers or tooltips.
+	</longdescription>
+</pkgmetadata>

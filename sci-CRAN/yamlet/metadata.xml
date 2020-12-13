@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Versatile Curation of Table Metadata // The 'yamlet' package
-		implements a file-based mechanism for documenting datasets. It
-		reads and writes YAML-formatted metadata and applies it as data
-		item attributes. Data and metadata are stored independently but
-		can be coordinated by using similar file paths with different
-		extensions.  The 'yamlet' dialect is valid 'YAML', but some
-		conventions are chosen to improve readability. Defaults and
-		conventions can be over-ridden by the user. See ?yamlet and
-		?decorate.data.frame. See ?read_yamlet ?write_yamlet, and
-		?io_csv.
+		Versatile Curation of Table Metadata // A file-based mechanism
+		for documenting datasets. It reads and writes YAML-formatted
+		metadata and applies it as data item attributes. Data and
+		metadata are stored independently but can be coordinated by
+		using similar file paths with different extensions.  The
+		'yamlet' dialect is valid 'YAML', but some conventions are
+		chosen to improve readability. Defaults and conventions can be
+		over-ridden by the user. See ?yamlet and ?decorate.data.frame.
+		See ?read_yamlet ?write_yamlet, and ?io_csv.
 	</longdescription>
 </pkgmetadata>

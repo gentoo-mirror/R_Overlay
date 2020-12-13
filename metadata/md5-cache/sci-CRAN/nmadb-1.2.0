@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/jsonlite >=dev-lang/R-3.3.1 sci-CRAN/readxl sci-CRAN/RCurl sci-CRAN/devtools dev-lang/R:=
+DESCRIPTION=Network Meta-Analysis Database API
+EAPI=7
+IUSE=r_suggests_netmeta byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/jsonlite >=dev-lang/R-3.3.1 sci-CRAN/readxl sci-CRAN/RCurl sci-CRAN/devtools r_suggests_netmeta? ( >=sci-CRAN/netmeta-1.0.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nmadb_1.2.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=1486e22aba6d8178b21fc268100c0f93

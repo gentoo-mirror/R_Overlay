@@ -1,5 +1,5 @@
 BDEPEND=dev-lang/R:=
-DEFINED_PHASES=compile install postinst unpack
+DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/directlabels >=sci-CRAN/Rcpp-0.11.4 sci-CRAN/ggplot2 virtual/MASS sci-CRAN/proto sci-CRAN/VGAM sci-CRAN/truncnorm dev-lang/R:=
 DESCRIPTION=Scaling Count and Binary Data wi... (see metadata)
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 RDEPEND=sci-CRAN/directlabels >=sci-CRAN/Rcpp-0.11.4 sci-CRAN/ggplot2 virtual/MASS sci-CRAN/proto sci-CRAN/VGAM sci-CRAN/truncnorm sci-CRAN/Rcpp sci-CRAN/RcppArmadillo dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/SparseFactorAnalysis_1.0.tar.gz
-_eclasses_=R-packages	6ea48239846a554f867b0cf3a063a240	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=5db713b92cf7aea08460a3b1249184e9

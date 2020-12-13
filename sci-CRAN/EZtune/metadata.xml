@@ -2,17 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tunes AdaBoost, Support Vector Machines, and Gradient Boosting
-		Machines // Contains two functions that are intended to make
-		tuning supervised learning methods easy. The eztune function
-		uses a genetic algorithm or Hooke-Jeeves optimizer to find the
-		best set of tuning parameters. The user can choose the
-		optimizer, the learning method, and if optimization will be
-		based on accuracy obtained through validation error, cross
-		validation, or resubstitution. The function eztune.cv will
-		compute a cross validated error rate. The purpose of eztune_cv
-		is to provide a cross validated accuracy or MSE when
-		resubstitution or validation data are used for optimization
-		because error measures from both approaches can be misleading.
+		Tunes AdaBoost, Elastic Net, Support Vector Machines, and
+		Gradient Boosting Machines // Contains two functions that are
+		intended to make tuning supervised learning methods easy. The
+		eztune function uses a genetic algorithm or Hooke-Jeeves
+		optimizer to find the best set of tuning parameters. The user
+		can choose the optimizer, the learning method, and if
+		optimization will be based on accuracy obtained through
+		validation error, cross validation, or resubstitution. The
+		function eztune.cv will compute a cross validated error rate.
+		The purpose of eztune_cv is to provide a cross validated
+		accuracy or MSE when resubstitution or validation data are used
+		for optimization because error measures from both approaches
+		can be misleading.
 	</longdescription>
 </pkgmetadata>

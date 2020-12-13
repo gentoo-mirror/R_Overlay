@@ -3,11 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Spatial Forecast Verification // Spatial forecast verification
-		arose from verifying high-resolution forecasts, where coarser-
-		resolution models generally are favored even when a human
-		forecaster finds the higher-resolution model to be considerably
-		better.  Most newly proposed methods, which largely come from
-		image analysis, computer vision, and similar, are available,
-		with more on the way.
+		refers to verifying weather forecasts when the verification set
+		(forecast and observations) is on a spatial field, usually a
+		high-resolution gridded spatial field.  Most of the functions
+		here require the forecast and observed fields to be gridded and
+		on the same grid.  For a thorough review of most of the methods
+		in this package, please see Gilleland et al. (2009) doi:
+		10.1175/2009WAF2222269.1.
 	</longdescription>
 </pkgmetadata>

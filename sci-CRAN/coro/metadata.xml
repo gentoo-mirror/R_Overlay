@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'Coroutines' for R // Provides 'coroutines' for R, a family of
+		functions that can be suspended and resumed later on. This
+		includes 'async' functions (which await) and generators (which
+		yield). 'Async' functions are based on the concurrency
+		framework of the 'promises' package. Generators are based on a
+		dependency free iteration protocol defined in 'coro' and are
+		compatible with iterators from the 'reticulate' package.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Function Mocking for Unit Testing in R // With the deprecation of
+		mocking capabilities shipped with 'testthat' as of 'edition 3'
+		it is left to third-party packages to replace this
+		functionality, which in some test-scenarios is essential in
+		order to run unit tests in limited environments (such as no
+		Internet connection). Mocking in this setting means temporarily
+		substituting a function with a stub that acts in some sense
+		like the original function (for example by serving a HTTP
+		response that has been cached as a file). The only exported
+		function 'with_mock()' is modeled after the eponymous
+		'testthat' function with the intention of providing a drop-in
+		replacement.
+	</longdescription>
+</pkgmetadata>

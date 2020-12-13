@@ -1,5 +1,5 @@
 BDEPEND=dev-lang/R:=
-DEFINED_PHASES=compile install postinst unpack
+DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/fastGHQuad sci-CRAN/numDeriv sci-CRAN/bbmle virtual/MASS sci-CRAN/doParallel sci-CRAN/VGAM sci-CRAN/actuar >=sci-CRAN/Rcpp-0.12.15 virtual/boot sci-CRAN/foreach sci-CRAN/doRNG dev-lang/R:=
 DESCRIPTION=Robust Generalized Linear Models... (see metadata)
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/fastGHQuad sci-CRAN/numDeriv sci-CRAN/bbmle virtual/MASS sci-CRAN/doParallel sci-CRAN/VGAM sci-CRAN/actuar >=sci-CRAN/Rcpp-0.12.15 virtual/boot sci-CRAN/foreach sci-CRAN/doRNG sci-CRAN/Rcpp r_suggests_forward? ( sci-CRAN/forward ) r_suggests_lattice? ( virtual/lattice ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_robustbase? ( sci-CRAN/robustbase ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/robmixglm_1.2-0.tar.gz
-_eclasses_=R-packages	6ea48239846a554f867b0cf3a063a240	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=357b1c60a1b02132aeeab1eb80ff5bcf

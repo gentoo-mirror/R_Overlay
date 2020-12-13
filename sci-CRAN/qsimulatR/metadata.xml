@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Quantum Computer Simulator // A quantum computer simulator
+		framework with up to 24 qubits. It allows to define general
+		single qubit gates and general controlled single qubit gates.
+		For convenience, it currently provides the most common gates
+		(X, Y, Z, H, Z, S, T, Rx, Ry, Rz, CNOT, SWAP, Toffoli or CCNOT,
+		Fredkin or CSWAP). 'qsimulatR' supports plotting of circuits
+		and is able to export circuits to 'Qiskit' https://qiskit.org/,
+		a python package which can be used to run on IBM's hardware
+		https://quantum-computing.ibm.com/.
+	</longdescription>
+</pkgmetadata>

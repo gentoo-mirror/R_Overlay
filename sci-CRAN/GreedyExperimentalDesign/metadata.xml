@@ -3,13 +3,24 @@
 <pkgmetadata>
 	<longdescription>
 		Greedy Experimental Design Construction // Computes experimental
-		designs for a two-arm experiment with covariates by greedily
-		optimizing a balance objective function. This optimization
-		provides lower variance for the treatment effect estimator (and
-		higher power) while preserving a design that is close to
-		complete randomization. We return all iterations of the designs
-		for use in a permutation test. Additional functionality
-		includes using branch and bound optimization (via Gurobi) and
-		exhaustive enumeration.
+		designs for a two-arm experiment with covariates via a number
+		of methods. (0) complete randomization and randomization with
+		forced-balance. (1) Greedily optimizing a balance objective
+		function via pairwise switching. This optimization provides
+		lower variance for the treatment effect estimator (and higher
+		power) while preserving a design that is close to complete
+		randomization. We return all iterations of the designs for use
+		in a permutation test. (2) The second is via numerical
+		optimization (via 'gurobi' which must be installed, see https:/
+		/www.gurobi.com/documentation/9.1/quickstart_windows/r_ins_the_
+		r_package.html) a la Bertsimas and Kallus. (3) rerandomization,
+		(4) Karp's method for one covariate, (5) exhaustive enumeration
+		to find the optimal solution (only for small sample sizes) (6)
+		Binary pair matching using the 'nbpMatching' library (7) Binary
+		pair matching plus (1) to further optimize balance (8) Binary
+		pair matching plus (3) to further optimize balance (9) Hadamard
+		designs We also allow for three objective functions:
+		Mahalanobis distance, Sum of absolute differences standardized
+		and Kernel distances via the 'kernlab' library.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Snow Profile Alignment, Aggregation, and Clustering // Snow
+		profiles describe the vertical (1D) stratigraphy of layered
+		snow with different layer characteristics, such as grain type,
+		hardness, deposition date, and many more. Hence, they represent
+		a data format similar to multivariate time series containing
+		categorical, ordinal, and numerical data types. Use this
+		package to align snow profiles by matching their individual
+		layers based on Dynamic Time Warping (DTW). The aligned
+		profiles can then be assessed with an independent, global
+		similarity measure that is geared towards avalanche hazard
+		assessment. Finally, through exploiting data aggregation and
+		clustering methods, the similarity measure provides the
+		foundation for grouping and summarizing snow profiles according
+		to similar hazard conditions. For more background information
+		refer to Herla, Horton, and Haegeli (accepted)
+		doi:10.5194/gmd-2020-171.
+	</longdescription>
+</pkgmetadata>

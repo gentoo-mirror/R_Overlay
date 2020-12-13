@@ -1,5 +1,5 @@
 BDEPEND=dev-lang/R:=
-DEFINED_PHASES=compile install postinst unpack
+DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/igraphdata sci-CRAN/igraph dev-lang/R:=
 DESCRIPTION=Statistical Analysis of Network ... (see metadata)
 EAPI=7
@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/igraphdata sci-CRAN/igraph r_suggests_ape? ( sci-CRAN/ape ) r_suggests_blockmodels? ( sci-CRAN/blockmodels ) r_suggests_car? ( sci-CRAN/car ) r_suggests_eigenmodel? ( sci-CRAN/eigenmodel ) r_suggests_ergm? ( sci-CRAN/ergm ) r_suggests_fdrtool? ( sci-CRAN/fdrtool ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_huge? ( sci-CRAN/huge ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_lattice? ( virtual/lattice ) r_suggests_network? ( sci-CRAN/network ) r_suggests_networkdynamic? ( sci-CRAN/networkDynamic ) r_suggests_networktomography? ( sci-CRAN/networkTomography ) r_suggests_rocr? ( sci-CRAN/ROCR ) r_suggests_sna? ( sci-CRAN/sna ) r_suggests_spatial? ( virtual/spatial ) r_suggests_vioplot? ( sci-CRAN/vioplot ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/sand_2.0.0.tar.gz
-_eclasses_=R-packages	6ea48239846a554f867b0cf3a063a240	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=5b0941cbde2efd808a411b15f9551ec2

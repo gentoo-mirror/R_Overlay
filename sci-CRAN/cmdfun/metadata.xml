@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Framework for Building Interfaces to Shell Commands // Writing
+		interfaces to command line software is cumbersome. 'cmdfun'
+		provides a framework for building function calls to seamlessly
+		interface with shell commands by allowing lazy evaluation of
+		command line arguments. 'cmdfun' also provides methods for
+		handling user-specific paths to tool installs or secrets like
+		API keys. Its focus is to equally serve package builders who
+		wish to wrap command line software, and to help analysts stay
+		inside R when they might usually leave to execute non-R
+		software.
+	</longdescription>
+</pkgmetadata>

@@ -2,10 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Get Executing Script's Filename, Anywhere // Determine the full
-		path of the executing script. Works when running a line or
-		selection from an open R script using the Run button in
-		'RStudio', when using 'source' and 'sys.source', and when
-		running 'Rscript' from the command-line.
+		Get Executing Script's Path, from 'RStudio', 'RGui', 'Rscript'
+		(Command-Line / / Terminal), and when using 'source' //
+		Determine the full path of the executing script. Works when
+		running a line or selection from an open R script in 'RStudio'
+		and 'RGui', when using 'source' and 'sys.source' and
+		'debugSource' ('RStudio' exclusive), and when running 'Rscript'
+		from the command-line / / terminal.
 	</longdescription>
 </pkgmetadata>

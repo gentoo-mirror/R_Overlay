@@ -3,7 +3,7 @@
 
 inherit eutils
 
-EXPORT_FUNCTIONS src_unpack src_compile src_install pkg_postinst
+EXPORT_FUNCTIONS src_unpack src_configure src_compile src_install pkg_postinst
 
 SLOT="0"
 IUSE="byte-compile"
@@ -18,6 +18,8 @@ R-packages_src_unpack() {
 		mv ${PN//_/.} ${P}
 	fi
 }
+
+R-packages_src_configure() { :; }
 
 R-packages_src_compile() {
 	MAKEFLAGS="CFLAGS=${CFLAGS// /\\ } CXXFLAGS=${CXXFLAGS// /\\ } FFLAGS=${FFLAGS// /\\ } FCFLAGS=${FCFLAGS// /\\ } LDFLAGS=${LDFLAGS// /\\ }" \

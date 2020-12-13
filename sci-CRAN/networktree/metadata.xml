@@ -2,8 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Recursive Partitioning of Network Models // Methods to create
-		tree models with correlation-based network models (multivariate
-		normal distributions).
+		Recursive Partitioning of Network Models // Network trees
+		recursively partition the data with respect to covariates. Two
+		network tree algorithms are available: model-based trees based
+		on a multivariate normal model and nonparametric trees based on
+		covariance structures. After partitioning, correlation-based
+		networks (psychometric networks) can be fit on the partitioned
+		data.
 	</longdescription>
 </pkgmetadata>

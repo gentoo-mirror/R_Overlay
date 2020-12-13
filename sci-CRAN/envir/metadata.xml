@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Manage R Environments Better // Provides a small set of functions
+		for managing R environments, with defaults designed to
+		encourage usage patterns that scale well to larger code bases.
+		It provides: import_from(), a flexible way to assign bindings
+		that defaults to the current environment; include(), a
+		vectorized alternative to base::source() that also default to
+		the current environment; and attach_eval() and attach_source(),
+		a way to evaluate expressions in attached environments.
+		Together, these (and other) functions pair to provide a robust
+		alternative to base::library() and base::source().
+	</longdescription>
+</pkgmetadata>
