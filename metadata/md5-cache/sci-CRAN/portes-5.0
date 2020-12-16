@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/forecast dev-lang/R:=
+DESCRIPTION=Portmanteau Tests for Univariate... (see metadata)
+EAPI=7
+IUSE=r_suggests_akima r_suggests_car r_suggests_fgarch r_suggests_fitar r_suggests_fracdiff r_suggests_gstat r_suggests_tseries r_suggests_vars byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/forecast r_suggests_akima? ( sci-CRAN/akima ) r_suggests_car? ( sci-CRAN/car ) r_suggests_fgarch? ( sci-CRAN/fGarch ) r_suggests_fitar? ( sci-CRAN/FitAR ) r_suggests_fracdiff? ( sci-CRAN/fracdiff ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_tseries? ( sci-CRAN/tseries ) r_suggests_vars? ( sci-CRAN/vars ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/portes_5.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=a8705a74915405c610fd3cd486518cf0
