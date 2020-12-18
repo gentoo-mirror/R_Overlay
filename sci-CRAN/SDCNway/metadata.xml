@@ -3,10 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Tools to Evaluate Disclosure Risk // Tools for calculating
-		disclosure risk measures, including record-level measures
-		primarily using exhaustive tabulation, as well as file-level
-		measures using a loglinear model. Funded by the National Center
-		for Education Statistics. See El Emam (2011) doi:10.1186/gm239
-		for a description of risk measures.
+		disclosure risk measures for microdata, including record-level
+		and file-level measures. The record-level disclosure risk is
+		estimated primarily using exhaustive tabulation. The file-level
+		disclosure risk is estimated by fitting loglinear models on the
+		observed sample counts in cells formed by key variables and
+		their interactions. Funded by the National Center for Education
+		Statistics. See Skinner and Shlomo (2008)
+		doi:10.1198/016214507000001328 for a description of the file-
+		level risk measures and the loglinear model approach.
 	</longdescription>
 </pkgmetadata>

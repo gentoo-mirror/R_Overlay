@@ -17,10 +17,16 @@
 		series (e.g. Culley et al. (2016) doi:10.1002/2015WR018253) and
 		stochastic simulation of perturbed time series via an inverse
 		approach (see Guo et al. (2018)
-		doi:10.1016/j.jhydrol.2016.03.025). It incorporates a number of
-		stochastic weather models to generate hydroclimate variables on
-		a daily basis (e.g. precipitation, temperature, potential
-		evapotranspiration) and allows a variety of different
+		doi:10.1016/j.jhydrol.2016.03.025). It incorporates
+		'Richardson-type' weather generator model configurations
+		documented in Richardson (1981) doi:10.1029/WR017i001p00182,
+		Richardson and Wright (1984), as well as latent variable type
+		model configurations documented in Bennett et al. (2018)
+		doi:10.1016/j.jhydrol.2016.12.043, Rasmussen (2013)
+		doi:10.1002/wrcr.20164, Bennett et al. (2019)
+		doi:10.5194/hess-23-4783-2019 to generate hydroclimate
+		variables on a daily basis (e.g. precipitation, temperature,
+		potential evapotranspiration) and allows a variety of different
 		hydroclimate variable properties, herein called attributes, to
 		be perturbed. Options are included for the easy integration of
 		existing system models both internally in R and externally for

@@ -2,24 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Download Data from the CSO 'StatBank' API // Imports 'StatBank'
-		data in JSON-stat format and (optionally) reshapes it into wide
+		Download Data from the CSO 'PxStat' API // Imports 'PxStat' data
+		in JSON-stat format and (optionally) reshapes it into wide
 		format. The Central Statistics Office (CSO) is the national
-		statistical institute of Ireland and 'StatBank' is the CSOs
+		statistical institute of Ireland and 'PxStat' is the CSOs
 		online database of Official Statistics. This database contains
 		current and historical data series compiled from CSO
-		statistical releases and is accessed at http://www.cso.ie/px/px
-		eirestat/statire/SelectTable/Omrade0.asp?Planguage=0. A
-		tutorial explaining and illustrating how to navigate to the
-		'StatBank' and how to search the 'StatBank' by keyword or theme
-		can be found here: https://www.cso.ie/en/interactivezone/youtub
-		evideos/statbanktutorial/. This tutorial also demonstrates how
-		a user can create, edit and download a table from the
-		'StatBank'. The CSO 'StatBank' Application Programming
-		Interface (API), which is accessed in this package, provides
-		access to 'StatBank' data in JSON-stat format at
-		https://statbank.cso.ie/webserviceclient/. This dissemination
-		tool allows developers machine to machine access to CSO
-		'StatBank' data.
+		statistical releases and is accessed at http://data.cso.ie. The
+		CSO 'PxStat' Application Programming Interface (API), which is
+		accessed in this package, provides access to 'PxStat' data in
+		JSON-stat format at http://data.cso.ie. This dissemination tool
+		allows developers machine to machine access to CSO 'PxStat'
+		data.
 	</longdescription>
 </pkgmetadata>
