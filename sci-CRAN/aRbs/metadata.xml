@@ -7,16 +7,16 @@
 		arbitrage opportunities (arbs) in sports matches through
 		https://www.oddschecker.com/. This package allows the user to
 		input the URLs of https://www.oddschecker.com/ subdomains in
-		order to find any opportunities for arbitrage. The majority of
-		the functionality is implemented using the function
-		\code{get_arbs()}. This function first finds all subdomains of
-		the URL entered, then filters to only include those that look
-		like event betting pages. Next, odds are scraped from the
-		various bookmakers listed for that event, before returning
-		combinations of bookmakers, odds or outcomes that could be used
-		for arbitrage. Bets placed subsequently are done so at bettor's
-		risk and we take no responsibility for losses that may occur
-		from use of this package. Odds subject to instantaneous
-		changes.
+		order to extract any opportunities for arbitrage. The majority
+		of the functionality is implemented using the function
+		`get_arbs_shiny()`, which simply provides an easy-to-use
+		interface wrapping the functionality of the `get_arbs()`
+		function. This function first finds all subdomains of the URL
+		entered, then filters to only include those that look like
+		event betting pages. Next, odds are scraped from the various
+		bookmakers listed for that event, before returning combinations
+		of bookmakers, odds or outcomes that could be used for
+		arbitrage. Bets placed subsequently are done so at bettor's
+		risk. Please see package README for full details.
 	</longdescription>
 </pkgmetadata>
