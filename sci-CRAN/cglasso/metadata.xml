@@ -2,11 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		L1-Penalized Censored Gaussian Graphical Models // The
-		l1-penalized censored Gaussian graphical model is an extension
-		of the graphical lasso estimator developed to handle datasets
-		with censored observations. An EM-like algorithm is implemented
-		to estimate the parameters of the censored Gaussian graphical
-		models.
+		Conditional Graphical LASSO for Gaussian Graphical Models with
+		Censored and Missing Values // Conditional graphical lasso
+		(cglasso) estimator is an extension of the graphical lasso
+		proposed to estimate the conditional dependence structure of a
+		set of p response variables given q predictors. This package
+		provides suitable extensions developed to study datasets with
+		censored and/or missing values. Standard conditional graphical
+		lasso is available as a special case. Furthermore, cglasso
+		package provides an integrated set of core routines for
+		visualization, analysis, and simulation of datasets with
+		censored and/or missing values drawn from a Gaussian graphical
+		model.
 	</longdescription>
 </pkgmetadata>
