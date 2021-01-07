@@ -2,13 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		NA Data Imputation Algorithms // Package crate uniform interface
-		for several advanced imputations missing data methods. Every
+		NA Data Imputation Algorithms // Creates a uniform interface for
+		several advanced imputations missing data methods. Every
 		available method can be used as a part of 'mlr3' pipelines
-		whats allow easy tuning and performance evaluation. Most of the
-		used function work separately on train and test sets (
-		imputation is trained on the training set and impute train
-		data, after that imputation is again trained on test set and
-		impute test data).
+		which allows easy tuning and performance evaluation. Most of
+		the used functions work separately on the training and test
+		sets (imputation is trained on the training set and impute
+		training data. After that imputation is again trained on the
+		test set and impute test data).
 	</longdescription>
 </pkgmetadata>

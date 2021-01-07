@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Penalized Regression with Second-Generation P-Values //
+		Implementation of penalized regression with second-generation
+		p-values for variable selection. The one-stage algorithm is
+		extremely fast and the two-stage algorithm has lower parameter
+		estimation bias when data are highly correlated. S3 methods
+		print(), summary(), coef(), and predict() are available for
+		both algorithms, and S3 method plot() is available for the two-
+		stage algorithm. Technical details of the algorithms can be
+		found at arXiv:2012.07941.
+	</longdescription>
+</pkgmetadata>

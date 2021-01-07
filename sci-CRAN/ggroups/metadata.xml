@@ -5,9 +5,11 @@
 		Pedigree and Genetic Groups // Calculates additive and dominance
 		genetic relationship matrices and their inverses, in matrix and
 		tabular-sparse formats. It includes functions for checking and
-		processing pedigree, as well as functions to calculate the
-		matrix of genetic group contributions (Q), and adding those
-		contributions to the genetic merit of animals (Quaas (1988)
+		processing pedigree, calculating inbreeding coefficients
+		(Meuwissen  Luo, 1992 doi:10.1186/1297-9686-24-4-305), as well
+		as functions to calculate the matrix of genetic group
+		contributions (Q), and adding those contributions to the
+		genetic merit of animals (Quaas (1988)
 		doi:10.3168/jds.S0022-0302(88)79691-5). Calculation of Q is
 		computationally extensive. There are computationally optimized
 		functions to calculate Q.
