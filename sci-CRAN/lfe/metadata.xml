@@ -6,9 +6,14 @@
 		levels prior to doing an OLS. Useful for estimating linear
 		models with multiple group fixed effects, and for estimating
 		linear models which uses factors with many levels as pure
-		control variables. Includes support for instrumental variables,
-		conditional F statistics for weak instruments, robust and
-		multi-way clustered standard errors, as well as limited
-		mobility bias correction.
+		control variables. See Gaure (2013)
+		doi:10.1016/j.csda.2013.03.024 Includes support for
+		instrumental variables, conditional F statistics for weak
+		instruments, robust and multi-way clustered standard errors, as
+		well as limited mobility bias correction (Gaure 2014
+		doi:10.1002/sta4.68). WARNING: This package is NOT under active
+		development anymore, no further improvements are to be
+		expected, and the package is at risk of being removed from
+		CRAN.
 	</longdescription>
 </pkgmetadata>

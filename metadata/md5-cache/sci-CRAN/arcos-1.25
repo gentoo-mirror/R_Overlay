@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/urltools sci-CRAN/tidyr sci-CRAN/httr sci-CRAN/curl sci-CRAN/vroom sci-CRAN/magrittr sci-CRAN/jsonlite sci-CRAN/dplyr sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Load ARCOS Prescription Data Pre... (see metadata)
+EAPI=7
+IUSE=r_suggests_data_table r_suggests_forcats r_suggests_formattable r_suggests_geofacet r_suggests_ggplot2 r_suggests_knitr r_suggests_leaflet r_suggests_lubridate r_suggests_rmarkdown r_suggests_scales r_suggests_sf r_suggests_testthat r_suggests_viridis r_suggests_zoo byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/urltools sci-CRAN/tidyr sci-CRAN/httr sci-CRAN/curl sci-CRAN/vroom sci-CRAN/magrittr sci-CRAN/jsonlite sci-CRAN/dplyr sci-CRAN/stringr r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_formattable? ( sci-CRAN/formattable ) r_suggests_geofacet? ( sci-CRAN/geofacet ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_viridis? ( sci-CRAN/viridis ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/arcos_1.25.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=0cc3629496b8281d14aaeb3b57aae376
