@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generates HTML Tag Strings for HTML5 Elements Included in
+		Mozilla's Documentation of HTML5 // Generates HTML tag strings
+		for HTML5 elements included in Mozilla's documentation of
+		HTML5. Attributes are passed as parameters. If the attribute
+		name is a reserved R word, the attribute is suffixed with _attr
+		(ex: for_attr). To declare a DOCTYPE, wrap html with function
+		html_doc(). Mozilla's documentation for HTML5 is available
+		here: https://developer.mozilla.org/en-
+		US/docs/Web/HTML/Element. Elements marked as obsolete are not
+		included.
+	</longdescription>
+</pkgmetadata>
