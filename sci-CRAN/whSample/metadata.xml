@@ -3,12 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Utilities for Sampling // Interactive tools for generating random
-		samples. Users select an .xlsx or .csv file with population
-		data and are walked through selecting the sample type (Simple
-		Random Sample or Stratified), the number of backups desired,
-		and a "stratify_on" value (if desired). The sample size is
-		determined using a normal approximation to the hypergeometric
-		distribution based on Nicholson (1956)
+		samples. Users select an .xlsx, .csv, or delimited .txt file
+		with population data and are walked through selecting the
+		sample type (Simple Random Sample or Stratified), the number of
+		backups desired, and a "stratify_on" value (if desired). The
+		sample size is determined using a normal approximation to the
+		hypergeometric distribution based on Nicholson (1956)
 		doi:10.1214/aoms/1177728270. An .xlsx file is created with the
 		sample and key metadata for reference. It is menu-driven and
 		lets users pick an output directory. See vignettes for a
