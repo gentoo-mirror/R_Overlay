@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Fast and Scalable Exhaustive Feature Selection Framework // The
+		goal of this package is to provide an easy to use, fast and
+		scalable exhaustive search framework. Exhaustive feature
+		selections typically require a very large number of models to
+		be fitted and evaluated. Execution speed and memory management
+		are crucial factors here. This package provides solutions for
+		both. Execution speed is optimized by using a multi-threaded
+		C++ backend, and memory issues are solved by by only storing
+		the best results during execution and thus keeping memory usage
+		constant.
+	</longdescription>
+</pkgmetadata>

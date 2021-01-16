@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spike-and-Slab Variational Bayes for Linear and Logistic
+		Regression // Implements variational Bayesian algorithms to
+		perform scalable variable selection for sparse, high-
+		dimensional linear and logistic regression models. Features
+		include a novel prioritized updating scheme, which uses a
+		preliminary estimator of the variational means during
+		initialization to generate an updating order prioritizing
+		large, more relevant, coefficients. Sparsity is induced via
+		spike-and-slab priors with either Laplace or Gaussian slabs. By
+		default, the heavier-tailed Laplace density is used. Formal
+		derivations of the algorithms and asymptotic consistency
+		results may be found in Kolyan Ray and Botond Szabo (2020)
+		doi:10.1080/01621459.2020.1847121 and Kolyan Ray, Botond Szabo,
+		and Gabriel Clara (2020) arXiv:2010.11665.
+	</longdescription>
+</pkgmetadata>
