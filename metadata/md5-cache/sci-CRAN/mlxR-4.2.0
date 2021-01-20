@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 >=dev-lang/R-3.0.1 dev-lang/R:=
+DESCRIPTION=Simulation of Longitudinal Data
+EAPI=7
+IUSE=r_suggests_gridextra r_suggests_rcpp r_suggests_reshape2 r_suggests_shiny r_suggests_xml byte-compile
+KEYWORDS=~amd64
+LICENSE=BSD-2
+RDEPEND=sci-CRAN/ggplot2 >=dev-lang/R-3.0.1 r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_rcpp? ( >=sci-CRAN/Rcpp-0.11.3 ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlxR_4.2.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=00dce61395e606adffbec5a1a43fdd38

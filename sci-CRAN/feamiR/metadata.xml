@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Classification and Feature Selection for microRNA/mRNA
+		Interactions // Comprises a pipeline for predicting
+		microRNA/mRNA interactions, as detailed in Williams, Calinescu,
+		Mohorianu (2020) doi:10.1101/2020.12.23.424130. Its input
+		consists of [a] a messenger RNA (mRNA) dataset (either in fasta
+		format, focused on 3' UTRs or in gtf format; for the latter,
+		the sequences of the 3 UTRs are generated using the genomic
+		coordinates), [b] a microRNA dataset (in fasta format,
+		retrieved from miRBase,  http://www.mirbase.org/) and [c] an
+		interaction dataset (in csv format, from miRTarBase
+		http://mirtarbase.cuhk.edu.cn/php/index.php). To characterise
+		and predict microRNA/mRNA interactions, we use [a] statistical
+		analyses based on Chi-squared and Fisher exact tests and [b]
+		Machine Learning classifiers (decision trees, random forests
+		and support vector machines). To enhance the accuracy of the
+		classifiers we also employ feature selection approaches used in
+		on conjunction with the classifiers. The feature selection
+		approaches include a voting scheme for decision trees, a
+		measure based on Gini index for random forests, forward feature
+		selection and Genetic Algorithms on SVMs. The pipeline also
+		includes a novel approach based on embryonic Genetic Algorithms
+		which combines and optimises the forward feature selection and
+		Genetic Algorithms. All analyses, including the classification
+		and feature selection, are applicable on the microRNA seed
+		features (default), on the full microRNA features and/or
+		flanking features on the mRNA. The sets of features can be
+		combined.
+	</longdescription>
+</pkgmetadata>
