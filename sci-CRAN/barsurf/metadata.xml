@@ -2,14 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multivariate Function Visualization and Smooth Multiband Color
-		Interpolation // Combined contour/heatmap plots, 3d bar/surface
-		plots, isosurface plots, triangular plots and 2d/3d vector
-		fields. Builds on the colorspace package (Zeileis, A., et al.
-		(2019) arxiv.org/abs/1903.06490), by supporting smooth
-		multiband color interpolation, in sRGB, HSV and HCL color
-		spaces. The default color functions for heatmaps, use HCL
-		(Zeileis, A., et al. (2009) doi:10.1016/j.csda.2008.11.033) and
-		support near-uniform perception.
+		Contour Plots, 3D Plots, Vector Fields and Heatmaps // Combined
+		contour/heatmap plots, 3d bar/surface plots, 2d/3d triangular
+		plots, isosurface plots and 2d/3d vector fields. By default,
+		uses vector graphics, but it's possible to use raster graphics
+		for regular heatmaps. Builds on the colorspace package
+		(Zeileis, et al., 2020 doi:10.18637/jss.v096.i01), by
+		supporting smooth multiband color interpolation, in sRGB, HSV
+		and HCL color spaces.
 	</longdescription>
 </pkgmetadata>
