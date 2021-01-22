@@ -13,8 +13,11 @@
 		limits, that may be different across the components. The
 		`miWQS` package applies the multiple imputation (MI) procedure
 		to the weighted quantile sum regression (WQS) methodology for
-		continuous, binary, or count outcomes.  The imputation models
-		are: bootstrapping imputation (Lubin et.al (2004)
-		doi:10.1289/ehp.7199) and Bayesian imputation.
+		continuous, binary, or count outcomes (Hargarten  Wheeler
+		(2020) doi:10.1016/j.envres.2020.109466).  The imputation
+		models are: bootstrapping imputation (Lubin et.al (2004)
+		doi:10.1289/ehp.7199), univariate Bayesian imputation
+		(Hargarten  Wheeler (2020) doi:10.1016/j.envres.2020.109466),
+		and multivariate Bayesian regression imputation.
 	</longdescription>
 </pkgmetadata>

@@ -3,18 +3,20 @@
 <pkgmetadata>
 	<longdescription>
 		Paired Mass Distance Analysis for GC/LC-MS Based Non-Targeted
-		Analysis // Paired mass distance (PMD) analysis proposed in Yu,
-		Olkowicz and Pawliszyn (2018) doi:10.1016/j.aca.2018.10.062 for
-		gas/liquid chromatographymass spectrometry (GC/LC-MS) based
-		non-targeted analysis. PMD analysis including GlobalStd
-		algorithm and structure/reaction directed analysis. GlobalStd
-		algorithm could found independent peaks in m/z-retention time
-		profiles based on retention time hierarchical cluster analysis
-		and frequency analysis of paired mass distances within
-		retention time groups. Structure directed analysis could be
-		used to find potential relationship among those independent
-		peaks in different retention time groups based on frequency of
-		paired mass distances. A GUI for PMD analysis is also included
-		as a 'shiny' application.
+		Analysis and Reactomics Analysis // Paired mass distance (PMD)
+		analysis proposed in Yu, Olkowicz and Pawliszyn (2018)
+		doi:10.1016/j.aca.2018.10.062 for gas/liquid chromatographymass
+		spectrometry (GC/LC-MS) based non-targeted analysis. PMD
+		analysis including GlobalStd algorithm and structure/reaction
+		directed analysis. GlobalStd algorithm could found independent
+		peaks in m/z-retention time profiles based on retention time
+		hierarchical cluster analysis and frequency analysis of paired
+		mass distances within retention time groups. Structure directed
+		analysis could be used to find potential relationship among
+		those independent peaks in different retention time groups
+		based on frequency of paired mass distances. Reactomics
+		analysis could also be performed to build PMD network, assign
+		sources and make biomarker reaction discovery. GUIs for PMD
+		analysis is also included as 'shiny' applications.
 	</longdescription>
 </pkgmetadata>

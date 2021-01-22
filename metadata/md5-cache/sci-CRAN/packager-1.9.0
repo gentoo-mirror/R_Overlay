@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/checkmate sci-CRAN/pkgbuild virtual/codetools sci-CRAN/gert sci-CRAN/rprojroot sci-CRAN/cyclocomp sci-CRAN/desc sci-CRAN/usethis sci-CRAN/whisker sci-CRAN/pkgload sci-CRAN/rcmdcheck sci-CRAN/callr sci-CRAN/withr sci-CRAN/crayon >=sci-CRAN/fakemake-1.10.1 sci-CRAN/remotes sci-CRAN/httr >=sci-CRAN/fritools-1.1.0 sci-CRAN/rhub sci-CRAN/whoami dev-lang/R:=
+DESCRIPTION=Create, Build and Maintain Packages
+EAPI=7
+IUSE=r_suggests_cleanr r_suggests_covr r_suggests_devtools r_suggests_digest r_suggests_document r_suggests_knitr r_suggests_lintr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_runit r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=BSD-2
+RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/checkmate sci-CRAN/pkgbuild virtual/codetools sci-CRAN/gert sci-CRAN/rprojroot sci-CRAN/cyclocomp sci-CRAN/desc sci-CRAN/usethis sci-CRAN/whisker sci-CRAN/pkgload sci-CRAN/rcmdcheck sci-CRAN/callr sci-CRAN/withr sci-CRAN/crayon >=sci-CRAN/fakemake-1.10.1 sci-CRAN/remotes sci-CRAN/httr >=sci-CRAN/fritools-1.1.0 sci-CRAN/rhub sci-CRAN/whoami r_suggests_cleanr? ( sci-CRAN/cleanr ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_digest? ( sci-CRAN/digest ) r_suggests_document? ( sci-CRAN/document ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/packager_1.9.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=39ff97226e8103931225f112e5bb6ce7
