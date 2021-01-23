@@ -9,14 +9,13 @@
 		contains functions for making plot for accelerometer data and
 		obtaining the summary of various information including daily
 		monitor wear time and the mean monitor wear time during valid
-		days. The revised package version 0.2-1 improved the functions
-		in the previous version regarding speed and robustness. In
-		addition, several functions were added: "markDelivery" can
-		classify days for ActiGraph delivery by mail; "markPAI" can
-		categorize physical activity intensity level based on user-
-		defined cut-points of accelerometer counts. It also supports
-		importing ActiGraph AGD files with "readActigraph" and
-		"queryActigraph" functions. The package also better supports
-		time zones and daylight saving.
+		days. "deliveryPred" and "markDelivery" can classify days for
+		ActiGraph delivery by mail; "deliveryPreprocess" can process
+		accelerometry data for analysis by zeropadding incomplete days
+		and removing low activity days; "markPAI" can categorize
+		physical activity intensity level based on user-defined cut-
+		points of accelerometer counts. It also supports importing
+		ActiGraph AGD files with "readActigraph" and "queryActigraph"
+		functions.
 	</longdescription>
 </pkgmetadata>

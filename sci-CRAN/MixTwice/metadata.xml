@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		MixTwice--a Package for Large-Scale Hypothesis Testing //
+		Implements large-scale hypothesis testing by variance mixing.
+		It takes two statistics per testing unit -- an estimated effect
+		and its associated squared standard error -- and fits a
+		nonparametric, shape-constrained mixture separately on two
+		latent parameters. It reports local false discovery rates
+		(lfdr) and local false sign rates (lfsr). Manuscript describing
+		algorithm of MixTwice: Zheng et al(2020) arXiv:2011.07420.
+	</longdescription>
+</pkgmetadata>
