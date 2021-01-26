@@ -4,9 +4,13 @@
 	<longdescription>
 		Robustness Checks for Omitted Variable Bias // Robustness checks
 		for omitted variable bias. The package includes robustness
-		checks proposed by Oster (2019). 'robomit' replicates (and
-		extends) function available in Stata (closed source) for use in
-		R (open source). See: Oster, E. 2019.
+		checks proposed by Oster (2019). robomit the estimate i) the
+		bias-adjusted treatment correlation or effect and ii) the
+		degree of selection on unobservables relative to observables
+		(with respect to the treatment variable) that would be
+		necessary to eliminate the result based on the framework by
+		Oster (2019). Additionally, robomit offers a set of sensitivity
+		analysis and visualization functions. See: Oster, E. 2019.
 		doi:10.1080/07350015.2016.1227711.
 	</longdescription>
 </pkgmetadata>

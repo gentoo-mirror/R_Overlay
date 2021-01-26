@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Iterative Pruning to Capture Population Structure // An
+		unsupervised clustering algorithm based on iterative pruning is
+		for capturing population structure. This version supports
+		ordinal data which can be applied directly to SNP data to
+		identify fine-level population structure and it is built on the
+		iterative pruning Principal Component Analysis ('ipPCA')
+		algorithm as explained in Intarapanich et al. (2009)
+		doi:10.1186/1471-2105-10-382. The 'IPCAPS' involves an
+		iterative process using multiple splits based on multivariate
+		Gaussian mixture modeling of principal components and
+		'Expectation-Maximization' clustering as explained in Lebret et
+		al. (2015) doi:10.18637/jss.v067.i06. In each iteration, rough
+		clusters and outliers are also identified using the function
+		rubikclust() from the R package 'KRIS'.
+	</longdescription>
+</pkgmetadata>
