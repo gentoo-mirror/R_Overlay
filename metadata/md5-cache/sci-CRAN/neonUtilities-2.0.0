@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/downloader sci-CRAN/data_table sci-CRAN/httr sci-CRAN/readr >=dev-lang/R-3.4.0 >=sci-CRAN/dplyr-0.7.1 sci-CRAN/jsonlite sci-CRAN/R_utils sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/pbapply sci-CRAN/curl dev-lang/R:=
+DESCRIPTION=Utilities for Working with NEON Data
+EAPI=7
+IUSE=r_suggests_magrittr r_suggests_raster r_suggests_rhdf5 r_suggests_sp r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/downloader sci-CRAN/data_table sci-CRAN/httr sci-CRAN/readr >=dev-lang/R-3.4.0 >=sci-CRAN/dplyr-0.7.1 sci-CRAN/jsonlite sci-CRAN/R_utils sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/pbapply sci-CRAN/curl r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rhdf5? ( sci-BIOC/rhdf5 ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/neonUtilities_2.0.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=7668fc089e4a5d415e6ef4ddb31a8bad

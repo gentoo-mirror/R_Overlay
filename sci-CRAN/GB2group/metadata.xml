@@ -11,11 +11,12 @@
 		the Singh-Maddala, the Dagum, the Beta 2, the Lognormal and the
 		Fisk distributions. 'GB2group' deploys two different
 		econometric strategies to estimate these parametric
-		distributions, non-linear least squares (NLS) and the
-		generalised method of moments (GMM). Asymptotic standard errors
-		are reported for the GMM estimates. Standard errors of the NLS
-		estimates are obtained by Monte Carlo simulation. See Jorda et
-		al. (2018) arXiv:1808.09831 for a detailed description of the
-		estimation procedure.
+		distributions, the equally weighted minimum distance (EWMD)
+		estimator and the optimally weighted minimum distance (OMD)
+		estimator. Asymptotic standard errors are reported for the OMD
+		estimates. Standard errors of the EWMD estimates are obtained
+		by Monte Carlo simulation. See Jorda et al. (2018)
+		arXiv:1808.09831 for a detailed description of the estimation
+		procedure.
 	</longdescription>
 </pkgmetadata>

@@ -2,17 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Computation of High-Order Sobol' Sensitivity Indices // It allows
-		to rapidly compute, bootstrap and plot up to third-order Sobol'
-		indices using the estimators by Saltelli et al. 2010
-		doi:10.1016/j.cpc.2009.09.018 and Jansen 1999
-		doi:10.1016/S0010-4655(98)00154-4. The 'sensobol' package also
-		implements the algorithm by Khorashadi Zadeh et al. 2017
-		doi:10.1016/j.envsoft.2017.02.001 to calculate the
-		approximation error in the computation of Sobol' first and
-		total indices, an approach that allows to robustly screen
-		influential from non-influential model inputs. Finally, it also
-		provides functions to obtain publication-ready figures of the
-		model output uncertainty and sensitivity-related analysis.
+		Computation of Variance-Based Sensitivity Indices // It allows to
+		rapidly compute, bootstrap and plot up to third-order
+		Sobol'-based sensitivity indices using several state-of-the-art
+		first and total-order estimators. Sobol' indices can be
+		computed either for models that yield a scalar as a model
+		output or for systems of differential equations. The package
+		also provides a suit of benchmark tests functions and several
+		options to obtain publication-ready figures of the model output
+		uncertainty and sensitivity-related analysis.
 	</longdescription>
 </pkgmetadata>
