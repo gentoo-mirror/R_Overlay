@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Smooth Effects on Response Penalty for 'CLM' // A regularization
+		method for the cumulative link models.  The 'smooth-effect-on-
+		response penalty' ('SERP') provides flexible modelling of the
+		ordinal model by enabling the smooth transition from the
+		general cumulative link model to a coarser form of the same
+		model. In other words, as the tuning parameter goes from zero
+		to infinity, the subject-specific effects associated with each
+		variable in the model tend to a unique global effect. The
+		parameter estimates of the general cumulative model are mostly
+		unidentifiable or at least only identifiable within a range of
+		the entire parameter space. Thus, by maximizing a penalized
+		rather than the usual non-penalized log-likelihood, this and
+		other numerical problems common with the general model are to a
+		large extent eliminated. Fitting is via a modified Newton's
+		method. Several standard model performance and descriptive
+		methods are also available. An outline of the penalty
+		implemented here is found in Tutz, G and Gertheiss, J (2016)
+		doi:10.1177/1471082X16642560.
+	</longdescription>
+</pkgmetadata>

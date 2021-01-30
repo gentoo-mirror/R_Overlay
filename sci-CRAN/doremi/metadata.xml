@@ -6,9 +6,10 @@
 		Provides models to fit the dynamics of a regulated system
 		experiencing exogenous inputs. The underlying models use
 		differential equations and linear mixed-effects regressions to
-		estimate the characteristic parameters of the equation (the
-		coefficients) and an estimated signal. The package also
-		provides print, summary, plot and predict functions, specific
-		for the models outputs.
+		estimate the coefficients of the equation. With them, the
+		functions can provide an estimated signal. The package provides
+		simulation and analysis functions and also print, summary, plot
+		and predict methods, adapted to the function outputs, for easy
+		implementation and presentation of results.
 	</longdescription>
 </pkgmetadata>
