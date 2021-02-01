@@ -14,13 +14,17 @@
 		either a latitude/longitude, or X,Y coordinate pair, and a
 		start and end date/time, this package generates an aoristic
 		data frame with aoristic weighted probability values for each
-		hour of the week, for each observation. Outputs include an
-		aoristic data frame, as well as summary graphs and displays.
-		For more information see: Ratcliffe, JH (2002) Aoristic
-		signatures and the temporal analysis of high volume crime
-		patterns, Journal of Quantitative Criminology. 18 (1): 23-43.
-		Note: This package replaces an original 'aoristic' package
-		(version 0.6) by George Kikuchi that has been discontinued with
-		his permission.
+		hour of the week, for each observation. The coordinates are not
+		necessary for the program to calculate aoristic weights;
+		however, they are part of this package because a spatial
+		component has been integral to aoristic analysis from the
+		start. Dummy coordinates can be introduced if the user only has
+		temporal data. Outputs include an aoristic data frame, as well
+		as summary graphs and displays. For more information see:
+		Ratcliffe, JH (2002) Aoristic signatures and the temporal
+		analysis of high volume crime patterns, Journal of Quantitative
+		Criminology. 18 (1): 23-43. Note: This package replaces an
+		original 'aoristic' package (version 0.6) by George Kikuchi
+		that has been discontinued with his permission.
 	</longdescription>
 </pkgmetadata>
