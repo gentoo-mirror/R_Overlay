@@ -3,17 +3,29 @@
 <pkgmetadata>
 	<longdescription>
 		Detecting Outliers in Network Meta-Analysis // A set of functions
-		providing the forward search algorithm for detecting outlying
-		studies (i.e., studies with extreme findings) in network meta-
-		analysis: - provides the length of the initial subset for
-		forward search algorithm; - iterations of forward search
-		algorithm; - basic set of studies in each step of forward
-		search algorithm; - summary estimates and their confidence
-		intervals in each step of forward search algorithm; - outlying
-		case diagnostics measures; - ranking measures; - heterogeneity
-		and inconsistency measures; - forward plot for summary
-		estimates and their confidence intervals; - forward plots for
-		monitored measures: outlying case diagnostics measures, ranking
-		measures, heterogeneity, and inconsistency measures.
+		providing several outlier (i.e., studies with extreme findings)
+		and influential detection measures and methodologies in network
+		meta-analysis: - Simple outlier and influential deletion
+		measures provided: (a) Raw, (b) Standardized, (c) Studentized
+		residuals; (d) Mahalanobis distance and (c) leverage. - Outlier
+		and influential detection measures by considering study
+		deletion (Shift the mean): (a) Raw (b) Standardized, (c)
+		Studentized deleted residuals; (d) Cook distance; (e) Ratio of
+		variance-covariance matrix; (f) weight leave one out; (g)
+		leverage leave one out; (h) heterogeneity leave one out; (i) R
+		heterogeneity; (k) R Q total; (l) R Q heterogeneity (m);  R Q
+		inconsistency and (n) statistic that indicate the effect that
+		deleting each study has on the treatment estimates. - Plots for
+		outlier and influential detection simply and deletion measures
+		(all the above measures) and Q-Q plot for network meta-
+		analysis. - Forward Search algorithm in network meta-analysis.
+		- Forward plots for the monitoring statistics in each step of
+		Forward search algorithm: (a) P-scores; (b) z-values for
+		difference of direct and indirect evidence with back-
+		calculation method; (c) Standardized residuals; (d)
+		heterogeneity variance estimator; (e) cook distance; (f) ratio
+		of variances; (g) Q statistics. - Forward plots for summary
+		estimates and their confidence intervals in each step of
+		forward search algorithm.
 	</longdescription>
 </pkgmetadata>
