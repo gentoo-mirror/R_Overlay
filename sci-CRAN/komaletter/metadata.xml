@@ -3,11 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Simply Beautiful PDF Letters from Markdown // Write beautiful yet
-		versatile letters in R Markdown. PDFs are generated using the
-		'KOMA-Script' letter class and the 'pandoc-letter' template.
-		'KOMA-Script' caters to the international writer. It provides
-		layouts for many common window envelope types (e.g. German, US,
-		French, Japanese) and allows you to define your own. The
-		package comes with a default layout based on 'DIN 5008B'.
+		customizable letters in R Markdown and directly obtain the
+		finished PDF. Smooth generation of PDFs is realized by
+		'rmarkdown', the 'pandoc-letter' template and the 'KOMA-Script'
+		letter class. 'KOMA-Script' provides enhanced replacements for
+		the standard 'LaTeX' classes with emphasis on typography and
+		versatility. 'KOMA-Script' is particularly useful for
+		international writers as it handles various paper formats well,
+		provides layouts for many common window envelope types (e.g.
+		German, US, French, Japanese) and lets you define your own
+		layouts. The package comes with a default letter layout based
+		on 'DIN 5008B'.
 	</longdescription>
 </pkgmetadata>

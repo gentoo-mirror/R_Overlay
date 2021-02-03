@@ -6,13 +6,14 @@
 		Dimensional Data // Implements fast, exact bootstrap Principal
 		Component Analysis and Singular Value Decompositions for high
 		dimensional data, as described in
-		http://arxiv.org/abs/1405.0922. For data matrices that are too
-		large to operate on in memory, users can input objects with
-		class 'ff' (see the 'ff' package), where the actual data is
-		stored on disk. In response, this package will implement a
-		block matrix algebra procedure for calculating the principal
-		components (PCs) and bootstrap PCs. Depending on options set by
-		the user, the 'parallel' package can be used to parallelize the
-		calculation of the bootstrap PCs.
+		doi:10.1080/01621459.2015.1062383 (see also arXiv:1405.0922 ).
+		For data matrices that are too large to operate on in memory,
+		users can input objects with class 'ff' (see the 'ff' package),
+		where the actual data is stored on disk. In response, this
+		package will implement a block matrix algebra procedure for
+		calculating the principal components (PCs) and bootstrap PCs.
+		Depending on options set by the user, the 'parallel' package
+		can be used to parallelize the calculation of the bootstrap
+		PCs.
 	</longdescription>
 </pkgmetadata>
