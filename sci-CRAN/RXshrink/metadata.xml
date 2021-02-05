@@ -14,11 +14,12 @@
 		divided by true sigma-square, where the "relative" variance of
 		OLS is known.) The unr.ridge() function implements the
 		"Unrestricted Path" introduced in Obenchain (2020)
-		arXiv:2005.14291. This "new" p-parameter Shrinkage-Path is more
-		efficient than the Paths used by qm.ridge(), aug.lars() and
-		uc.lars(). Functions unr.aug() and unr.biv() augment the
-		calculations made by unr.ridge() to provide plots of the
-		bivariate confidence ellipses corresponding to any of the
-		p*(p-1) possible pairs of shrunken regression coefficients.
+		arXiv:2005.14291. This "new" p-parameter Shrinkage-Path and
+		that of eff.ridge() are both more efficient than the Paths used
+		by qm.ridge(), aug.lars() and uc.lars(). Functions eff.aug()
+		and eff.biv() augment the calculations made by eff.ridge() to
+		provide plots of the bivariate confidence ellipses
+		corresponding to any of the p*(p-1) possible pairs of shrunken
+		regression coefficients.
 	</longdescription>
 </pkgmetadata>
