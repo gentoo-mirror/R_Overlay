@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'Rcpp' Bindings for the 'fast_float' Header-Only Library for
+		Number Parsing // Converting ascii text into (floating-point)
+		numeric values is a very common problem. The 'fast_float'
+		header-only C++ library by Daniel Lemire does it very well and
+		very fast at up to or over to 1 gigabyte per second as
+		described in more detail in arXiv:2101.11408. 'fast_float' is
+		licensed under the Apache 2.0 license and provided here for use
+		by other R packages via a simple 'LinkingTo:' statement.
+	</longdescription>
+</pkgmetadata>

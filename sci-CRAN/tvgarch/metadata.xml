@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Time Varying GARCH Modelling // Simulation, estimation and
+		inference for TV(s)-GARCH(p,q,r)-X models, where s indicates
+		the number and shape of the transition functions, p is the ARCH
+		order, q is the GARCH order, r is the asymmetry order, and 'X'
+		indicates that covariates can be included. The TV long-term
+		component, as in the multiplicative TV-GARCH model of Amado and
+		Ter\"asvirta (2013) doi:10.1016/j.jeconom.2013.03.006,
+		introduces non-stationarity in the variance process, where the
+		GARCH-X short-term component describes conditional
+		heteroscedasticity. Maximisation by parts leads to consistent
+		and asymptotically normal estimates.
+	</longdescription>
+</pkgmetadata>
