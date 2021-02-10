@@ -13,10 +13,12 @@
 		data with replicated observations by penalized loglikelihood
 		maximization using the regular ridge penalty on the parameters
 		(van Wieringen, Chen, 2019) or ii) from non-replicated data by
-		means of the generalized ridge estimator that allows for both
-		the inclusion of quantitative and qualitative prior information
-		on the precision matrix via element-wise penalization and
-		shrinkage (van Wieringen, 2019,
+		means of either a ridge estimator with multiple shrinkage
+		targets (as presented in van Wieringen et al. 2020,
+		doi:10.1016/j.jmva.2020.104621) or the generalized ridge
+		estimator that allows for both the inclusion of quantitative
+		and qualitative prior information on the precision matrix via
+		element-wise penalization and shrinkage (van Wieringen, 2019,
 		doi:10.1080/10618600.2019.1604374). Additionally, the porridge-
 		package facilitates the ridge penalized estimation of a mixture
 		of Gaussian graphical models (Aflakparast et al., 2018,
