@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Combined Analysis of Pleiotropy and Epistasis for Diversity
+		Outbred Mice // Combined Analysis of Pleiotropy and Epistasis
+		infers predictive networks between genetic variants and
+		phenotypes. It can be used with standard two-parent populations
+		as well as multi-parent populations, such as the Diversity
+		Outbred (DO) mice, Collaborative Cross (CC) mice, or the multi-
+		parent advanced generation intercross (MAGIC) population of
+		Arabidopsis thaliana. It uses complementary information of
+		pleiotropic gene variants across different phenotypes to
+		resolve models of epistatic interactions between alleles. To do
+		this, cape reparametrizes main effect and interaction
+		coefficients from pairwise variant regressions into directed
+		influence parameters. These parameters describe how alleles
+		influence each other, in terms of suppression and enhancement,
+		as well as how gene variants influence phenotypes. All of the
+		final interactions are reported as directed interactions
+		between pairs of parental alleles. For detailed descriptions of
+		the methods used in this package please see the following
+		references. Carter, G. W., Hays, M., Sherman, A.  Galitski, T.
+		(2012) doi:10.1371/journal.pgen.1003010. Tyler, A. L., Lu, W.,
+		Hendrick, J. J., Philip, V. M.  Carter, G. W. (2013)
+		doi:10.1371/journal.pcbi.1003270.
+	</longdescription>
+</pkgmetadata>
