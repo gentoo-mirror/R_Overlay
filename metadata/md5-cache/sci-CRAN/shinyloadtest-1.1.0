@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/dplyr-1.0.0 sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/jsonlite >=sci-CRAN/httpuv-1.5.2 >=sci-CRAN/rlang-0.1.2 sci-CRAN/scales sci-CRAN/R6 sci-CRAN/curl sci-CRAN/stringr sci-CRAN/svglite sci-CRAN/vroom >=sci-CRAN/websocket-1.0.0 sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Load Test Shiny Applications
+EAPI=7
+IUSE=r_suggests_getpass r_suggests_glue r_suggests_gtable r_suggests_htmltools r_suggests_lubridate r_suggests_progress r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/dplyr-1.0.0 sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/jsonlite >=sci-CRAN/httpuv-1.5.2 >=sci-CRAN/rlang-0.1.2 sci-CRAN/scales sci-CRAN/R6 sci-CRAN/curl sci-CRAN/stringr sci-CRAN/svglite sci-CRAN/vroom >=sci-CRAN/websocket-1.0.0 sci-CRAN/xml2 app-text/pandoc r_suggests_getpass? ( sci-CRAN/getPass ) r_suggests_glue? ( sci-CRAN/glue ) r_suggests_gtable? ( sci-CRAN/gtable ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_progress? ( sci-CRAN/progress ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/shinyloadtest_1.1.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=ef9aa37573a441396cf198c0947afe65
