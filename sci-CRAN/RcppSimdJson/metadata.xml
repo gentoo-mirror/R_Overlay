@@ -9,8 +9,7 @@
 		parser for these files which by relying on parallel 'SIMD'
 		instruction manages to parse these files as faster than disk
 		speed. See the arXiv:1902.08318 paper for more details about
-		'simdjson'.  This package is at present still a fairly thin and
-		not fully complete wrapper that does not aim to replace the
-		existing and excellent 'JSON' packages for R.
+		'simdjson'.  This package parses 'JSON' from string, file, or
+		remote URLs under a variety of settings.
 	</longdescription>
 </pkgmetadata>
