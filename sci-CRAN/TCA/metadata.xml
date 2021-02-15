@@ -4,19 +4,20 @@
 	<longdescription>
 		Tensor Composition Analysis // Tensor Composition Analysis (TCA)
 		allows the deconvolution of two-dimensional data (features by
-		observations) coming from a mixture of sources into a three-
-		dimensional matrix of signals (features by observations by
-		sources). TCA further allows to test the features in the data
-		for different statistical relations with an outcome of interest
-		while modeling source-specific effects (TCA regression);
-		particularly, it allows to look for statistical relations
-		between source-specific signals and an outcome. For example,
-		TCA can deconvolve bulk tissue-level DNA methylation data
-		(methylation sites by individuals) into a tensor of cell-type-
-		specific methylation levels for each individual (methylation
-		sites by individuals by cell types) and it allows to detect
-		cell-type-specific relations (associations) with an outcome of
-		interest. For more details see Rahmani et al. (2018)
-		DOI:10.1101/437368.
+		observations) coming from a mixture of heterogeneous sources
+		into a three-dimensional matrix of signals (features by
+		observations by sources). The TCA framework further allows to
+		test the features in the data for different statistical
+		relations with an outcome of interest while modeling source-
+		specific effects; particularly, it allows to look for
+		statistical relations between source-specific signals and an
+		outcome. For example, TCA can deconvolve bulk tissue-level DNA
+		methylation data (methylation sites by individuals) into a
+		three-dimensional tensor of cell-type-specific methylation
+		levels for each individual (i.e. methylation sites by
+		individuals by cell types) and it allows to detect cell-type-
+		specific statistical relations (associations) with phenotypes.
+		For more details see Rahmani et al. (2019)
+		DOI:10.1038/s41467-019-11052-9.
 	</longdescription>
 </pkgmetadata>
