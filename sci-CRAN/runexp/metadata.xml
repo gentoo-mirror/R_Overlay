@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Softball Run Expectancy using Markov Chains and Simulation //
+		Implements two methods of estimating runs scored in a softball
+		scenario: (1) theoretical expectation using discrete Markov
+		chains and (2) empirical distribution using multinomial random
+		simulation.  Scores are based on player-specific input
+		probabilities (out, single, double, triple, walk, and homerun).
+		Optional inputs include probability of attempting a steal,
+		probability of succeeding in an attempted steal, and an
+		indicator of whether a player is "fast" (e.g. the player could
+		stretch home).  These probabilities may be calculated from
+		common player statistics that are publicly available on team's
+		webpages. Scores are evaluated based on a nine-player lineup
+		and may be used to compare lineups, evaluate base scenarios,
+		and compare the offensive potential of individual players.
+		Manuscript forthcoming.  See Bukiet  Harold (1997)
+		doi:10.1287/opre.45.1.14 for implementation of discrete Markov
+		chains.
+	</longdescription>
+</pkgmetadata>
