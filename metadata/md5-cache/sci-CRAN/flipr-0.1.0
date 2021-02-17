@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Flexible Inference via Permutations in R
+EAPI=7
+IUSE=r_suggests_covr r_suggests_htmltools r_suggests_htmlwidgets r_suggests_knitr r_suggests_plotly r_suggests_rmarkdown r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/magrittr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/flipr_0.1.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=9824438f0b70ee29041fdc60298752d6
