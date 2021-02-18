@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Survival Tree Based on Stabilized Score Tests // A
+		classification (decision) tree is constructed from survival
+		data. The method is a robust version of the logrank tree, where
+		the variance is stabilized. This function returns a
+		classification tree for a given survival dataset. The decision
+		of making inner nodes (splitting criterion) is based on the
+		univariate score tests. The decision of declaring terminal
+		nodes (stopping criterion) is the P-value threshold given by an
+		argument. This tree construction algorithm is proposed by Emura
+		et al. (2021, in review).
+	</longdescription>
+</pkgmetadata>

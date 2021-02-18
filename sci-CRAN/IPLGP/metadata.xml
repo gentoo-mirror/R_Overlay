@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Identification of Parental Lines via Genomic Prediction //
+		Combining genomic prediction with Monte Carlo simulation, three
+		different strategies are implemented to select parental lines
+		for multiple traits in plant breeding. The selection strategies
+		include (i) GEBV-O considers only genomic estimated breeding
+		values (GEBVs) of the candidate individuals; (ii) GD-O
+		considers only genomic diversity (GD) of the candidate
+		individuals; and (iii) GEBV-GD considers both GEBV and GD. The
+		above method can be seen in Chung PY, Liao CT (2020)
+		doi:10.1371/journal.pone.0243159. Multi-trait genomic best
+		linear unbiased prediction (MT-GBLUP) model is used to
+		simultaneously estimate GEBVs of the target traits, and then a
+		selection index is adopted to evaluate the composite
+		performance of an individual.
+	</longdescription>
+</pkgmetadata>
