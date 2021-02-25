@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Change Point Detection in High-Dimensional Time Series Networks
+		// Implementation of the Factorized Binary Search (FaBiSearch)
+		methodology for the estimation of the number and location of
+		multiple change points in the network (or clustering) structure
+		of multivariate high-dimensional time series. The method is
+		motivated by the detection of change points in functional
+		connectivity networks for functional magnetic resonance imaging
+		(fMRI) data. FaBiSearch uses non-negative matrix factorization
+		(NMF), an unsupervised dimension reduction technique, and a new
+		binary search algorithm to identify multiple change points.  It
+		also requires minimal assumptions. The  main routines of the
+		package are detect.cps(), for multiple change point detection,
+		est.net(), for estimating a network between stationary
+		multivariate time series, net.3dplot(), for plotting the
+		estimated functional connectivity networks, and opt.rank(), for
+		finding the optimal rank in NMF for a given data set. The
+		functions have been extensively tested on simulated
+		multivariate high-dimensional time series data and fMRI data.
+		For details on the FaBiSearch methodology, please see Ondrus et
+		al. (2021).
+	</longdescription>
+</pkgmetadata>
