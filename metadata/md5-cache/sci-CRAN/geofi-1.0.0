@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/httr sci-CRAN/purrr sci-CRAN/curl sci-CRAN/sf sci-CRAN/rlang sci-CRAN/yaml >=dev-lang/R-3.5.0 sci-CRAN/httpcache sci-CRAN/dplyr >=sci-CRAN/xml2-1.2.0 dev-lang/R:=
+DESCRIPTION=Access Finnish Geospatial Data
+EAPI=7
+IUSE=r_suggests_covr r_suggests_geofacet r_suggests_ggplot2 r_suggests_ggrepel r_suggests_ggtern r_suggests_htmltools r_suggests_httptest r_suggests_janitor r_suggests_knitr r_suggests_leaflet r_suggests_patchwork r_suggests_pxweb r_suggests_readr r_suggests_rmarkdown r_suggests_sotkanet r_suggests_testthat r_suggests_tidyr r_suggests_tmap r_suggests_tricolore byte-compile
+KEYWORDS=~amd64
+LICENSE=BSD-2
+RDEPEND=sci-CRAN/httr sci-CRAN/purrr sci-CRAN/curl sci-CRAN/sf sci-CRAN/rlang sci-CRAN/yaml >=dev-lang/R-3.5.0 sci-CRAN/httpcache sci-CRAN/dplyr >=sci-CRAN/xml2-1.2.0 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_geofacet? ( sci-CRAN/geofacet ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_ggtern? ( sci-CRAN/ggtern ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_httptest? ( >=sci-CRAN/httptest-4.0.0 ) r_suggests_janitor? ( sci-CRAN/janitor ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_pxweb? ( sci-CRAN/pxweb ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sotkanet? ( sci-CRAN/sotkanet ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_tmap? ( sci-CRAN/tmap ) r_suggests_tricolore? ( sci-CRAN/tricolore ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/geofi_1.0.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=eb356a15fe0cf238ae7d498d4164b670
