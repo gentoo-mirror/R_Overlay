@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Molecular Detection Mapping and Analysis Platform // Runs a Shiny
+		web application that merges raw 'qPCR' fluorescence data with
+		related metadata to visualize species presence/absence
+		detection patterns and assess data quality. The application
+		calculates threshold values from raw fluorescence data using a
+		method based on the second derivative method, Luu-The et al
+		(2005) doi:10.2144/05382RR05,  and utilizes the chipPCR package
+		by Rdiger, Burdukiewicz,  Schierack (2015)
+		doi:10.1093/bioinformatics/btv205 to calculate Cq values. The
+		application has the ability to connect to a custom developed
+		MySQL database to populate the applications interface. The
+		application allows users to interact with visualizations such
+		as a dynamic map, amplification curves and standard curves,
+		that allow for zooming and/or filtering. It also enables the
+		generation of customized exportable reports based on filtered
+		mapping data.
+	</longdescription>
+</pkgmetadata>
