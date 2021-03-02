@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model-Based Optimization for 'mlr3' Through 'mlrMBO' // The
+		'mlrMBO' package can ordinarily not be used for optimization
+		within 'mlr3', because of incompatibilities of their respective
+		class systems. 'mlrintermbo' offers a compatibility interface
+		that provides 'mlrMBO' as an 'mlr3tuning' 'Tuner' object, for
+		tuning of machine learning algorithms within 'mlr3', as well as
+		a 'bbotk' 'Optimizer' object for optimization of general
+		objective functions using the 'bbotk' black box optimization
+		framework. The control parameters of 'mlrMBO' are faithfully
+		reproduced as a 'paradox' 'ParamSet'.
+	</longdescription>
+</pkgmetadata>

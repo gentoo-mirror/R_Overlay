@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/survAUC sci-CRAN/Hmisc virtual/survival sci-CRAN/reshape2 sci-CRAN/ggplot2 virtual/MASS sci-CRAN/pcaPP sci-CRAN/quantreg dev-lang/R:=
+DESCRIPTION=Robust Gene-Environment Interaction Analysis
+EAPI=7
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/survAUC sci-CRAN/Hmisc virtual/survival sci-CRAN/reshape2 sci-CRAN/ggplot2 virtual/MASS sci-CRAN/pcaPP sci-CRAN/quantreg dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GEInter_0.2.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=fb6a35f6e85831bb67a11167ad8ecfab
