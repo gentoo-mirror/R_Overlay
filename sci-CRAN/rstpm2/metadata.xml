@@ -17,14 +17,14 @@
 		penalized smoothers from the 'mgcv' package, using penalized
 		likelihood. These models include left truncation, right
 		censoring, interval censoring, gamma frailties and normal
-		random effects doi:10.1002/sim.7451. For the smooth AFTs,
-		S(t|x) = S_0(t*eta(t,x)), where the baseline survival function
-		S_0(t)=exp(-exp(eta_0(t))) is modelled for natural splines for
-		eta_0, and the time-dependent cumulative acceleration factor
-		eta(t,x)=\int_0^t exp(eta_1(u,x)) du for log acceleration
-		factor eta_1(u,x). The Markov multi-state models allow for a
-		range of models with smooth transitions to predict transition
-		probabilities, length of stay, utilities and costs, with
-		differences, ratios and standardisation.
+		random effects doi:10.1002/sim.7451, and copulas. For the
+		smooth AFTs, S(t|x) = S_0(t*eta(t,x)), where the baseline
+		survival function S_0(t)=exp(-exp(eta_0(t))) is modelled for
+		natural splines for eta_0, and the time-dependent cumulative
+		acceleration factor eta(t,x)=\int_0^t exp(eta_1(u,x)) du for
+		log acceleration factor eta_1(u,x). The Markov multi-state
+		models allow for a range of models with smooth transitions to
+		predict transition probabilities, length of stay, utilities and
+		costs, with differences, ratios and standardisation.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Classify Digital PCR Droplets by Fitting Fluorescence Populations
+		// Estimates DNA target concentration by classifying digital
+		PCR (polymerase chain reaction) droplets as positive, negative,
+		or rain, using Expectation-Maximization Clustering. The fitting
+		is accomplished using the 'EMMIXskew' R package (v. 1.0.3) by
+		Kui Wang, Angus Ng, and Geoff McLachlan (2018) as based on
+		their paper "Multivariate Skew t Mixture Models: Applications
+		to Fluorescence-Activated Cell Sorting Data"
+		doi:10.1109/DICTA.2009.88.
+	</longdescription>
+</pkgmetadata>
