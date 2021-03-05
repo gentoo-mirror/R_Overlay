@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interval-Censored Sequence Kernel Association Test // Implements
+		the Interval-Censored Sequence Kernel Association (ICSKAT) test
+		for testing the association between interval-censored time-to-
+		event outcomes and groups of single nucleotide polymorphisms
+		(SNPs). Interval-censored time-to-event data occur when the
+		event time is not known exactly but can be deduced to fall
+		within a given interval. For example, some medical conditions
+		like bone mineral density deficiency are generally only
+		diagnosed at clinical visits. If a patient goes for clinical
+		checkups yearly and is diagnosed at, say, age 30, then the
+		onset of the deficiency is only known to fall between the date
+		of their age 29 checkup and the date of the age 30 checkup.
+		Interval-censored data include right- and left-censored data as
+		special cases. This package also implements the interval-
+		censored Burden test and the ICSKATO test, which is the optimal
+		combination of the ICSKAT and Burden tests. Please see the
+		vignette for a quickstart guide.
+	</longdescription>
+</pkgmetadata>

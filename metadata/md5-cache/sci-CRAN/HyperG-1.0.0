@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/igraph sci-CRAN/proxy virtual/Matrix sci-CRAN/RSpectra sci-CRAN/mclust >=dev-lang/R-3.1.0 sci-CRAN/gtools dev-lang/R:=
+DESCRIPTION=Hypergraphs in R
+EAPI=7
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/igraph sci-CRAN/proxy virtual/Matrix sci-CRAN/RSpectra sci-CRAN/mclust >=dev-lang/R-3.1.0 sci-CRAN/gtools r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/HyperG_1.0.0.tar.gz
+_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=46209d99709429a754289577b55e7580
