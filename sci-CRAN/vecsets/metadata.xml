@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Like base::sets Tools But Keeps Duplicate Elements // The base
-		'sets' tools follow the algebraic definition that each element
-		of a set must be unique. Since it's often helpful to compare
-		all elements of two vectors, this toolset treats every element
-		as unique for counting purposes. For ease of use, all functions
-		in vecsets have an argument 'multiple' which, when set to
-		FALSE, reverts them to the base::set tools functionality.
+		Like Set Tools in 'Base' Package but Keeps Duplicate Elements //
+		The 'base'  tools  union() intersect(), etc.,  follow the
+		algebraic definition that each element of a set must be unique.
+		Since it's often helpful to compare all elements of two
+		vectors, this toolset treats every element as unique for
+		counting purposes. For ease of use, all functions in vecsets
+		have an argument 'multiple' which, when set to FALSE, reverts
+		them to the base::sets (alias for all the items) tools
+		functionality.
 	</longdescription>
 </pkgmetadata>
