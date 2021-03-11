@@ -9,8 +9,7 @@
 		(eg from UniProt Consortium doi:10.1093/nar/gky1049) can be
 		read with automatic parsing and multiple annotation types (like
 		species origin, abbreviated gene names, etc) extracted.
-		Quantitative proteomics (Schubert et al 2017
-		doi:10.1038/nprot.2017.040) measurements frequently contain
+		Quantitative proteomics measurements frequently contain
 		multiple NA values, due to physical absence of given peptides
 		in some samples, limitations in sensitivity or other reasons.
 		The functions provided here help to inspect graphically the
@@ -25,8 +24,13 @@
 		doi:10.1038/nbt.3685, Ramus et al 2016
 		doi:10.1016/j.jprot.2015.11.011), can be run with special
 		options separating the data into sub-groups during
-		normalization and testing. Subsequently, ROC curves (Hand and
-		Till 2001 doi:10.1023/A:1010920819831) can be constructed to
-		compare multiple analysis approaches.
+		normalization and testing. As example the data-set from Ramus
+		et al 2016 doi:10.1016/j.jprot.2015.11.011) is provided
+		quantified by MaxQuant (Tyanova et al 2016
+		doi:10.1038/nprot.2016.136), ProteomeDiscoverer, OpenMS
+		(doi:10.1038/nmeth.3959) and Proline (Bouyssie et al 2020
+		doi:10.1093/bioinformatics/btaa118). Subsequently, ROC curves
+		(Hand and Till 2001 doi:10.1023/A:1010920819831) can be
+		constructed to compare multiple analysis approaches.
 	</longdescription>
 </pkgmetadata>
