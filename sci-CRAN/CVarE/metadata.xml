@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Conditional Variance Estimator for Sufficient Dimension Reduction
+		// Implementation of the CVE (Conditional Variance Estimation)
+		method proposed by Fertl, L. and Bura, E. (2021)
+		arXiv:2102.08782 and the ECVE (Ensemble Conditional Variance
+		Estimation) method introduced in Fertl, L. and Bura, E. (2021)
+		arXiv:2102.13435. CVE and ECVE are sufficient dimension
+		reduction methods in regressions with continuous response and
+		predictors. CVE applies to general additive error regression
+		models while ECVE generalizes to non-additive error regression
+		models. They operate under the assumption that the predictors
+		can be replaced by a lower dimensional projection without loss
+		of information. It is a semiparametric forward regression model
+		based exhaustive sufficient dimension reduction estimation
+		method that is shown to be consistent under mild assumptions.
+	</longdescription>
+</pkgmetadata>
