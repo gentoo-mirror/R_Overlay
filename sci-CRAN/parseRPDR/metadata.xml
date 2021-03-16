@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parse and Manipulate Research Patient Data Registry ('RPDR') Text
+		Queries // Functions to load Research Patient Data Registry
+		('RPDR') text queries from Partners Healthcare institutions
+		into R. The package also provides helper functions to
+		manipulate data and execute common procedures such as finding
+		the closest radiological exams considering a given timepoint.
+		'parseRPDR' currently supports txt sources: mrn, con, dem, enc,
+		rdt, lab,  med, dia and rad. All functionalities are
+		parallelized for fast and efficient analyses.
+	</longdescription>
+</pkgmetadata>
