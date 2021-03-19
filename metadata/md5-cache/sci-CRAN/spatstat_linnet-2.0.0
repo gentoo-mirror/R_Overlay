@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/spatstat_data-2.0 >=sci-CRAN/spatstat_core-1.65.0 >=sci-CRAN/spatstat_geom-1.65.0 >=sci-CRAN/spatstat_utils-2.1.0 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Linear Networks Functionality of... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_goftest r_suggests_locfit r_suggests_spatstat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/spatstat_data-2.0 >=sci-CRAN/spatstat_core-1.65.0 >=sci-CRAN/spatstat_geom-1.65.0 >=sci-CRAN/spatstat_utils-2.1.0 virtual/Matrix r_suggests_goftest? ( sci-CRAN/goftest ) r_suggests_locfit? ( sci-CRAN/locfit ) r_suggests_spatstat? ( >=sci-CRAN/spatstat-2.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatstat.linnet_2.0-0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=6c5673ab871b9881d17edd4dde95d310

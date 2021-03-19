@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.10.5 sci-CRAN/doFuture sci-CRAN/nloptr sci-CRAN/testthat virtual/lattice virtual/MASS sci-CRAN/numDeriv sci-CRAN/doParallel dev-lang/R:=
+DESCRIPTION=Gaussian Process Laboratory
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_corrplot r_suggests_dicedesign r_suggests_dicekriging r_suggests_foreach r_suggests_ggplot2 r_suggests_inline r_suggests_knitr r_suggests_reshape2 byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/Rcpp-0.10.5 sci-CRAN/doFuture sci-CRAN/nloptr sci-CRAN/testthat virtual/lattice virtual/MASS sci-CRAN/numDeriv sci-CRAN/doParallel sci-CRAN/Rcpp r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_dicedesign? ( sci-CRAN/DiceDesign ) r_suggests_dicekriging? ( sci-CRAN/DiceKriging ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_inline? ( sci-CRAN/inline ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/kergp_0.5.5.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=b102ff43e901bb7d818dceca82d91554

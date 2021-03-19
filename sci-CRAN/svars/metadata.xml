@@ -4,9 +4,10 @@
 	<longdescription>
 		Data-Driven Identification of SVAR Models // Implements data-
 		driven identification methods for structural vector
-		autoregressive (SVAR) models. Based on an existing VAR model
-		object (provided by e.g. VAR() from the 'vars' package), the
-		structural impact matrix is obtained via data-driven
+		autoregressive (SVAR) models as described in Lange et al.
+		(2021) doi:10.18637/jss.v097.i05. Based on an existing VAR
+		model object (provided by e.g. VAR() from the 'vars' package),
+		the structural impact matrix is obtained via data-driven
 		identification techniques (i.e. changes in volatility (Rigobon,
 		R. (2003) doi:10.1162/003465303772815727),  patterns of GARCH
 		(Normadin, M., Phaneuf, L. (2004)
