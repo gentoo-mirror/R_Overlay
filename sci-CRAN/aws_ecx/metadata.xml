@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Communicating with AWS EC2 and ECS using AWS REST APIs //
+		Providing the functions for communicating with Amazon Web
+		Services(AWS) Elastic Compute Cloud(EC2) and Elastic Container
+		Service(ECS). The functions will have the prefix 'ecs_' or
+		'ec2_' depending on the class of the API. The request will be
+		sent via the REST API and the parameters are given by the
+		function argument. The credentials can be set via
+		'aws_set_credentials'. The EC2 documentation can be found at ht
+		tps://docs.aws.amazon.com/AWSEC2/latest/APIReference/Welcome.ht
+		ml and ECS can be found at https://docs.aws.amazon.com/AmazonEC
+		S/latest/APIReference/Welcome.html.
+	</longdescription>
+</pkgmetadata>
