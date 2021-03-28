@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.11.5 dev-lang/R:=
+DESCRIPTION=Distributed Representations of S... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dbscan r_suggests_tokenizers_bpe r_suggests_udpipe r_suggests_uwot r_suggests_word2vec byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/Rcpp-0.11.5 sci-CRAN/Rcpp r_suggests_dbscan? ( sci-CRAN/dbscan ) r_suggests_tokenizers_bpe? ( sci-CRAN/tokenizers_bpe ) r_suggests_udpipe? ( >=sci-CRAN/udpipe-0.8 ) r_suggests_uwot? ( sci-CRAN/uwot ) r_suggests_word2vec? ( >=sci-CRAN/word2vec-0.3.3 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/doc2vec_0.2.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=aa08ee9e51f1ba95bf7354df152b9d98
