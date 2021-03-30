@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Common Methods of Spectral Data Analysis // Fourier and Hilbert
-		transforms are utilized to perform several types of spectral
-		analysis on the supplied data. Fragmented and irregularly
-		spaced data can be processed in terms of Lomb-Scargle method.
-		Both, FFT as well as LOMB methods take multivariate data. A
-		user friendly interface helps to interpret the results.
+		Common Methods of Spectral Data Analysis // On discrete data
+		spectral analysis is performed by Fourier and Hilbert
+		transforms as well as with model based analysis called Lomb-
+		Scargle method. Fragmented and irregularly spaced data can be
+		processed in almost all methods. Both, FFT as well as LOMB
+		methods take multivariate data and return standardized PSD. For
+		didactic reasons an analytical approach for deconvolution of
+		noise spectra and sampling function is provided. A user
+		friendly interface helps to interpret the results.
 	</longdescription>
 </pkgmetadata>

@@ -7,7 +7,7 @@
 		make fast comparisons of code, and will calculate statistics
 		comparing the resulting outputs. It can be used to compare
 		model fits to the same data or see which function runs faster.
-		The function ffexp() runs a function using all possible
+		The R6 class ffexp$new() runs a function using all possible
 		combinations of selected inputs. This is useful for comparing
 		the effect of different parameter values. It can also run in
 		parallel and automatically save intermediate results, which is

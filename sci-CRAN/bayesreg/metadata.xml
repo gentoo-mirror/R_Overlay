@@ -3,12 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Bayesian Regression Models with Global-Local Shrinkage Priors //
-		Fits linear or logistic regression model using Bayesian global-
-		local shrinkage prior hierarchies as described in Polson and
-		Scott (2010) doi:10.1093/acprof:oso/9780199694587.003.0017.
-		Handles ridge, lasso, horseshoe and horseshoe+ regression with
-		logistic, Gaussian, Laplace or Student-t distributed targets
-		using the algorithms summarized in Makalic and Schmidt (2016)
+		Fits linear or generalized linear regression models using
+		Bayesian global-local shrinkage prior hierarchies as described
+		in Polson and Scott (2010)
+		doi:10.1093/acprof:oso/9780199694587.003.0017. Provides an
+		efficient implementation of ridge, lasso, horseshoe and
+		horseshoe+ regression with logistic, Gaussian, Laplace,
+		Student-t, Poisson or geometric distributed targets using the
+		algorithms summarized in Makalic and Schmidt (2016)
 		arXiv:1611.06649.
 	</longdescription>
 </pkgmetadata>
