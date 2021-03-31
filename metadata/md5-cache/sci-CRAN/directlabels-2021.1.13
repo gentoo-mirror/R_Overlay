@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/quadprog dev-lang/R:=
 DESCRIPTION=Direct Labels for Multicolor Plots
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_alphahull r_suggests_dplyr r_suggests_ggplot2 r_suggests_ggthemes r_suggests_inlinedocs r_suggests_knitr r_suggests_lars r_suggests_lattice r_suggests_markdown r_suggests_mass r_suggests_nlme r_suggests_rcolorbrewer r_suggests_rlang r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=sci-CRAN/quadprog r_suggests_alphahull? ( sci-CRAN/alphahull ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-2.0 ) r_suggests_ggthemes? ( sci-CRAN/ggthemes ) r_suggests_inlinedocs? ( sci-CRAN/inlinedocs ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lars? ( sci-CRAN/lars ) r_suggests_lattice? ( virtual/lattice virtual/lattice ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mass? ( virtual/MASS ) r_suggests_nlme? ( virtual/nlme ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/directlabels_2021.1.13.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=a515f8ca2c58cd95bb52f220570888df

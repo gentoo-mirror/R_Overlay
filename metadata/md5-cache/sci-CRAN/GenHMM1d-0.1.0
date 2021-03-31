@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/doParallel sci-CRAN/EnvStats sci-CRAN/actuar sci-CRAN/extraDistr sci-CRAN/foreach sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/reshape2 sci-CRAN/rmutil sci-CRAN/ssdtools sci-CRAN/VaRES sci-CRAN/VGAM dev-lang/R:=
 DESCRIPTION=Goodness-of-Fit for Univariate H... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_gamlss_dist r_suggests_generalizedhyperbolic r_suggests_gld r_suggests_gldex r_suggests_sgt r_suggests_skewt r_suggests_sn r_suggests_stabledist byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=sci-CRAN/doParallel sci-CRAN/EnvStats sci-CRAN/actuar sci-CRAN/extraDistr sci-CRAN/foreach sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/reshape2 sci-CRAN/rmutil sci-CRAN/ssdtools sci-CRAN/VaRES sci-CRAN/VGAM r_suggests_gamlss_dist? ( sci-CRAN/gamlss_dist ) r_suggests_generalizedhyperbolic? ( sci-CRAN/GeneralizedHyperbolic ) r_suggests_gld? ( sci-CRAN/gld ) r_suggests_gldex? ( sci-CRAN/GLDEX ) r_suggests_sgt? ( sci-CRAN/sgt ) r_suggests_skewt? ( sci-CRAN/skewt ) r_suggests_sn? ( sci-CRAN/sn ) r_suggests_stabledist? ( sci-CRAN/stabledist ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/GenHMM1d_0.1.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=ec9f0780bb71e119cbb46fd662beea07

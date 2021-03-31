@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=virtual/MASS sci-CRAN/rlang sci-CRAN/fpc sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/viridis sci-CRAN/tsibble sci-CRAN/moments sci-CRAN/forecast sci-CRAN/ggplot2 sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/magrittr dev-lang/R:=
 DESCRIPTION=Tools for Graphical Inference
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_knitr r_suggests_reshape2 byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=virtual/MASS sci-CRAN/rlang sci-CRAN/fpc sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/viridis sci-CRAN/tsibble sci-CRAN/moments sci-CRAN/forecast sci-CRAN/ggplot2 sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/magrittr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/nullabor_0.3.9.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=40131f3e94348e74ccf8fb060a769fac

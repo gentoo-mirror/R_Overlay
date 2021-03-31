@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/jsonlite sci-CRAN/openssl sci-CRAN/curl >=sci-CRAN/packrat-0.4.8.1 >=sci-CRAN/rstudioapi-0.5 sci-CRAN/digest >=sci-CRAN/yaml-2.1.5 dev-lang/R:=
 DESCRIPTION=Deployment Interface for R Markd... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_callr r_suggests_httpuv r_suggests_knitr r_suggests_rcurl r_suggests_reticulate r_suggests_rmarkdown r_suggests_shiny r_suggests_sourcetools r_suggests_testthat r_suggests_xtable byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/jsonlite sci-CRAN/openssl sci-CRAN/curl >=sci-CRAN/packrat-0.4.8.1 >=sci-CRAN/rstudioapi-0.5 sci-CRAN/digest >=sci-CRAN/yaml-2.1.5 r_suggests_callr? ( sci-CRAN/callr ) r_suggests_httpuv? ( sci-CRAN/httpuv ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_reticulate? ( sci-CRAN/reticulate ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.1 ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_sourcetools? ( sci-CRAN/sourcetools ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/rsconnect_0.8.16.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=e513c9c7c0781d8f92b6b5c450711e71

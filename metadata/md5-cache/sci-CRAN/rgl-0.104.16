@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.2.0 >=sci-CRAN/jsonlite-0.9.20 sci-CRAN/knitr sci-CRAN/htmltools sci-CRAN/htmlwidgets sci-CRAN/shiny sci-CRAN/crosstalk sci-mathematics/rstudio sci-CRAN/magrittr dev-lang/R:=
 DESCRIPTION=3D Visualization Using OpenGL
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_akima r_suggests_alphashape3d r_suggests_deldir r_suggests_interp r_suggests_js r_suggests_lattice r_suggests_magick r_suggests_mass r_suggests_misc3d r_suggests_orientlib r_suggests_plotrix r_suggests_rmarkdown r_suggests_rstudioapi r_suggests_tk r_suggests_tripack byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-3.2.0 >=sci-CRAN/jsonlite-0.9.20 sci-CRAN/knitr sci-CRAN/htmltools sci-CRAN/htmlwidgets sci-CRAN/shiny sci-CRAN/crosstalk sci-mathematics/rstudio sci-CRAN/magrittr virtual/glu app-text/pandoc virtual/opengl r_suggests_akima? ( sci-CRAN/akima ) r_suggests_alphashape3d? ( sci-CRAN/alphashape3d ) r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_interp? ( sci-CRAN/interp ) r_suggests_js? ( >=sci-CRAN/js-1.2 ) r_suggests_lattice? ( virtual/lattice ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_mass? ( virtual/MASS ) r_suggests_misc3d? ( sci-CRAN/misc3d ) r_suggests_orientlib? ( sci-CRAN/orientlib ) r_suggests_plotrix? ( >=sci-CRAN/plotrix-3.7.3 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_tk? ( dev-lang/R[tk] ) r_suggests_tripack? ( sci-CRAN/tripack ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/rgl_0.104.16.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=0b24f1b30e5baf50469e9b62bcaad76a

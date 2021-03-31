@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=dev-lang/R:=
 DESCRIPTION=Nonlinear Aggregation of Predictors
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_lars r_suggests_randomforest r_suggests_ridge r_suggests_snowfall r_suggests_tree byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=r_suggests_lars? ( sci-CRAN/lars ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_ridge? ( sci-CRAN/ridge ) r_suggests_snowfall? ( sci-CRAN/snowfall ) r_suggests_tree? ( sci-CRAN/tree ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/COBRA_0.99.4.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=acd0339fae72284f183b7605583b6b0d

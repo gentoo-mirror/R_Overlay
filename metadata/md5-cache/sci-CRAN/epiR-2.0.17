@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/pander sci-CRAN/lubridate sci-CRAN/BiasedUrn >=dev-lang/R-3.0.0 virtual/survival dev-lang/R:=
 DESCRIPTION=Tools for the Analysis of Epidemiological Data
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_foreign r_suggests_ggplot2 r_suggests_knitr r_suggests_mapproj r_suggests_maptools r_suggests_mass r_suggests_plyr r_suggests_rcolorbrewer r_suggests_rgeos r_suggests_rmarkdown r_suggests_scales r_suggests_spatstat r_suggests_spdata byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=sci-CRAN/pander sci-CRAN/lubridate sci-CRAN/BiasedUrn >=dev-lang/R-3.0.0 virtual/survival r_suggests_foreign? ( virtual/foreign ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_mass? ( virtual/MASS ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_spatstat? ( sci-CRAN/spatstat ) r_suggests_spdata? ( sci-CRAN/spData ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/epiR_2.0.17.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=54ca45e747adf3592467cfc4685fa6c7

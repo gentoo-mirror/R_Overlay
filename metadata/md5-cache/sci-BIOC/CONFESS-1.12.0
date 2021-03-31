@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/contrast sci-CRAN/flexmix sci-BIOC/flowClust sci-BIOC/flowMerge sci-CRAN/ecp sci-CRAN/foreach virtual/MASS sci-CRAN/reshape2 sci-CRAN/zoo sci-CRAN/outliers sci-BIOC/SamSPECTRAL sci-CRAN/wavethresh sci-CRAN/waveslim sci-BIOC/EBImage sci-BIOC/flowMeans sci-BIOC/flowPeaks sci-BIOC/flowCore sci-CRAN/ggplot2 >=sci-CRAN/data_table-1.9.7 sci-BIOC/limma sci-CRAN/moments sci-CRAN/readbitmap >=dev-lang/R-3.3 sci-CRAN/changepoint sci-CRAN/plotrix virtual/cluster sci-CRAN/raster dev-lang/R:=
 DESCRIPTION=Cell OrderiNg by FluorEScence Signal
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_biocstyle r_suggests_knitr r_suggests_rmarkdown byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=sci-CRAN/contrast sci-CRAN/flexmix sci-BIOC/flowClust sci-BIOC/flowMerge sci-CRAN/ecp sci-CRAN/foreach virtual/MASS sci-CRAN/reshape2 sci-CRAN/zoo sci-CRAN/outliers sci-BIOC/SamSPECTRAL sci-CRAN/wavethresh sci-CRAN/waveslim sci-BIOC/EBImage sci-BIOC/flowMeans sci-BIOC/flowPeaks sci-BIOC/flowCore sci-CRAN/ggplot2 >=sci-CRAN/data_table-1.9.7 sci-BIOC/limma sci-CRAN/moments sci-CRAN/readbitmap >=dev-lang/R-3.3 sci-CRAN/changepoint sci-CRAN/plotrix virtual/cluster sci-CRAN/raster r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/CONFESS_1.12.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=844253d6bc4b1e0368ea3545677d4632

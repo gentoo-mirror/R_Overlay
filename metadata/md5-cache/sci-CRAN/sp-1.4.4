@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.0.0 virtual/lattice dev-lang/R:=
 DESCRIPTION=Classes and Methods for Spatial Data
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_deldir r_suggests_gstat r_suggests_maptools r_suggests_rcolorbrewer r_suggests_rgeos byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-3.0.0 virtual/lattice r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rgeos? ( >=sci-CRAN/rgeos-0.3.13 ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/sp_1.4-4.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=17d90a5d3a0a390d426a4db4ac852b16

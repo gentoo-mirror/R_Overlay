@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=virtual/MASS >=dev-lang/R-3.6 sci-CRAN/tibble sci-CRAN/dplyr dev-lang/R:=
 DESCRIPTION=Tour Methods for Multivariate Data Visualisation
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_ash r_suggests_colorspace r_suggests_covr r_suggests_energy r_suggests_geozoo r_suggests_ggplot2 r_suggests_knitr r_suggests_mgcv r_suggests_rmarkdown r_suggests_teachingdemos r_suggests_testthat r_suggests_tidyr byte-compile
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=virtual/MASS >=dev-lang/R-3.6 sci-CRAN/tibble sci-CRAN/dplyr r_suggests_ash? ( sci-CRAN/ash ) r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_energy? ( sci-CRAN/energy ) r_suggests_geozoo? ( sci-CRAN/geozoo ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_teachingdemos? ( sci-CRAN/TeachingDemos ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/tourr_0.6.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=f96f91a7529f6436a53e35302697f11f

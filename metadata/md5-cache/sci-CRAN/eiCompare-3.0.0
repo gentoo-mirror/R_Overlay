@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/tidyselect sci-CRAN/overlapping sci-CRAN/stringr sci-CRAN/eiPack sci-CRAN/wru sci-CRAN/bayestestR sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/mcmcse sci-CRAN/leaflet sci-CRAN/rlang sci-CRAN/ei sci-CRAN/doParallel sci-CRAN/magrittr sci-CRAN/censusxy >=dev-lang/R-3.5.0 sci-CRAN/coda sci-CRAN/foreach sci-CRAN/sf sci-CRAN/purrr dev-lang/R:=
 DESCRIPTION=Compares Ecological Inference, G... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_knitr r_suggests_opencage r_suggests_plyr r_suggests_rcolorbrewer r_suggests_reshape2 r_suggests_rjsonio r_suggests_rmarkdown r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=sci-CRAN/tidyselect sci-CRAN/overlapping sci-CRAN/stringr sci-CRAN/eiPack sci-CRAN/wru sci-CRAN/bayestestR sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/mcmcse sci-CRAN/leaflet sci-CRAN/rlang sci-CRAN/ei sci-CRAN/doParallel sci-CRAN/magrittr sci-CRAN/censusxy >=dev-lang/R-3.5.0 sci-CRAN/coda sci-CRAN/foreach sci-CRAN/sf sci-CRAN/purrr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_opencage? ( sci-CRAN/opencage ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rjsonio? ( sci-CRAN/RJSONIO ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/eiCompare_3.0.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=bd99481ef25bd7f4fd7e4e93d6c6972f

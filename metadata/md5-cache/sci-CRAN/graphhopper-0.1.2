@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/magrittr sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/googlePolylines sci-CRAN/tibble sci-CRAN/dplyr dev-lang/R:=
 DESCRIPTION=An R Interface to the GraphHopper Directions API
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_geojsonsf r_suggests_ggplot2 r_suggests_sf r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=sci-CRAN/magrittr sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/googlePolylines sci-CRAN/tibble sci-CRAN/dplyr r_suggests_geojsonsf? ( sci-CRAN/geojsonsf ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/graphhopper_0.1.2.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=3e31d6af576aefd1a2e78a56c9174868

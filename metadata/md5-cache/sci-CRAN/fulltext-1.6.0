@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=sci-CRAN/xml2-1.1.1 >=sci-CRAN/rcrossref-0.8.0 sci-CRAN/aRxiv >=sci-CRAN/rplos-0.8.0 >=sci-CRAN/crminer-0.2.0 >=sci-CRAN/hoardr-0.5.0 sci-CRAN/pdftools sci-CRAN/storr sci-CRAN/tibble sci-CRAN/digest >=sci-CRAN/crul-0.7.0 sci-CRAN/magrittr sci-CRAN/jsonlite >=sci-CRAN/microdemic-0.2.0 >=sci-CRAN/rentrez-1.1.0 sci-CRAN/data_table sci-CRAN/fauxpas dev-lang/R:=
 DESCRIPTION=Full Text of Scholarly Articles ... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_pubchunks r_suggests_roxygen2 r_suggests_testthat r_suggests_vcr byte-compile
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=>=sci-CRAN/xml2-1.1.1 >=sci-CRAN/rcrossref-0.8.0 sci-CRAN/aRxiv >=sci-CRAN/rplos-0.8.0 >=sci-CRAN/crminer-0.2.0 >=sci-CRAN/hoardr-0.5.0 sci-CRAN/pdftools sci-CRAN/storr sci-CRAN/tibble sci-CRAN/digest >=sci-CRAN/crul-0.7.0 sci-CRAN/magrittr sci-CRAN/jsonlite >=sci-CRAN/microdemic-0.2.0 >=sci-CRAN/rentrez-1.1.0 sci-CRAN/data_table sci-CRAN/fauxpas r_suggests_pubchunks? ( sci-CRAN/pubchunks ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.1.0 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vcr? ( sci-CRAN/vcr ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/fulltext_1.6.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=1dd527bc4826f6743e71e68dad684676

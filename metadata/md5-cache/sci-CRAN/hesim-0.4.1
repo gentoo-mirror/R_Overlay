@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/data_table virtual/survival sci-CRAN/flexsurv >=sci-CRAN/Rcpp-0.12.16 >=dev-lang/R-3.5.0 virtual/MASS sci-CRAN/R6 dev-lang/R:=
 DESCRIPTION=Health-Economic Simulation Model... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_knitr r_suggests_msm r_suggests_mstate r_suggests_nnet r_suggests_numderiv r_suggests_pracma r_suggests_rmarkdown r_suggests_scales r_suggests_testthat r_suggests_truncnorm byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=sci-CRAN/data_table virtual/survival sci-CRAN/flexsurv >=sci-CRAN/Rcpp-0.12.16 >=dev-lang/R-3.5.0 virtual/MASS sci-CRAN/R6 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_msm? ( sci-CRAN/msm ) r_suggests_mstate? ( sci-CRAN/mstate ) r_suggests_nnet? ( virtual/nnet ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_pracma? ( sci-CRAN/pracma ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_truncnorm? ( sci-CRAN/truncnorm ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/hesim_0.4.1.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=fd2bdbf922c6a88e06f8ad085a0d1eaf

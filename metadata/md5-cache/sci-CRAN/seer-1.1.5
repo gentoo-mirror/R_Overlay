@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.2.3 sci-CRAN/dplyr sci-CRAN/randomForest sci-CRAN/urca >=sci-CRAN/forecast-8.3 sci-CRAN/forecTheta sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/purrr sci-CRAN/future sci-CRAN/furrr sci-CRAN/magrittr sci-CRAN/tsfeatures virtual/MASS dev-lang/R:=
 DESCRIPTION=Feature-Based Forecast Model Selection
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_covr r_suggests_ggally r_suggests_ggplot2 r_suggests_knitr r_suggests_mcomp r_suggests_repmis r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=>=dev-lang/R-3.2.3 sci-CRAN/dplyr sci-CRAN/randomForest sci-CRAN/urca >=sci-CRAN/forecast-8.3 sci-CRAN/forecTheta sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/purrr sci-CRAN/future sci-CRAN/furrr sci-CRAN/magrittr sci-CRAN/tsfeatures virtual/MASS r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mcomp? ( sci-CRAN/Mcomp ) r_suggests_repmis? ( sci-CRAN/repmis ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/seer_1.1.5.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=c6369021b2a1403e9db1d67f85518b12

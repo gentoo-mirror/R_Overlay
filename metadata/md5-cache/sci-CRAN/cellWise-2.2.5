@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/robustbase sci-CRAN/ggplot2 sci-CRAN/reshape2 virtual/Matrix sci-CRAN/rrcov sci-CRAN/scales sci-CRAN/gridExtra sci-CRAN/svd >=sci-CRAN/Rcpp-0.12.10.14 dev-lang/R:=
 DESCRIPTION=Analyzing Data with Cellwise Outliers
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_ellipse r_suggests_gse r_suggests_knitr r_suggests_markdown r_suggests_mass r_suggests_robusthd r_suggests_rospca byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/robustbase sci-CRAN/ggplot2 sci-CRAN/reshape2 virtual/Matrix sci-CRAN/rrcov sci-CRAN/scales sci-CRAN/gridExtra sci-CRAN/svd >=sci-CRAN/Rcpp-0.12.10.14 sci-CRAN/Rcpp >=sci-CRAN/RcppArmadillo-0.7.600.1.0 r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_gse? ( sci-CRAN/GSE ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mass? ( virtual/MASS ) r_suggests_robusthd? ( sci-CRAN/robustHD ) r_suggests_rospca? ( sci-CRAN/rospca ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/cellWise_2.2.5.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=7bf61baebec1e223d8f9cc6d055fc10f

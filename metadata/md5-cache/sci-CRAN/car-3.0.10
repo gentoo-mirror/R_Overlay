@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.5.0 virtual/nnet >=sci-CRAN/carData-3.0.0 sci-CRAN/abind virtual/MASS >=sci-CRAN/pbkrtest-0.4.4 sci-CRAN/quantreg sci-CRAN/maptools virtual/nlme virtual/mgcv sci-CRAN/rio sci-CRAN/lme4 dev-lang/R:=
 DESCRIPTION=Companion to Applied Regression
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_alr4 r_suggests_boot r_suggests_coxme r_suggests_knitr r_suggests_leaps r_suggests_lmtest r_suggests_matrix r_suggests_rgl r_suggests_sandwich r_suggests_sparsem r_suggests_survey r_suggests_survival byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-3.5.0 virtual/nnet >=sci-CRAN/carData-3.0.0 sci-CRAN/abind virtual/MASS >=sci-CRAN/pbkrtest-0.4.4 sci-CRAN/quantreg sci-CRAN/maptools virtual/nlme virtual/mgcv sci-CRAN/rio sci-CRAN/lme4 r_suggests_alr4? ( sci-CRAN/alr4 ) r_suggests_boot? ( virtual/boot ) r_suggests_coxme? ( sci-CRAN/coxme ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaps? ( sci-CRAN/leaps ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_matrix? ( virtual/Matrix virtual/Matrix ) r_suggests_rgl? ( >=sci-CRAN/rgl-0.93.960 ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_sparsem? ( sci-CRAN/SparseM ) r_suggests_survey? ( sci-CRAN/survey ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/car_3.0-10.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=3b9668b7f7deffd2f50f8802db51a8f5

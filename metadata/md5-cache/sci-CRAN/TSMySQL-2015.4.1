@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=sci-CRAN/TSdbi-2015.1.1 >=sci-CRAN/TSsql-2015.1.1 >=sci-CRAN/RMySQL-0.10.3 >=sci-CRAN/DBI-0.3.1 sci-CRAN/tframe dev-lang/R:=
 DESCRIPTION=TSdbi Extensions for MySQL
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_tfplot r_suggests_tframeplus r_suggests_timeseries r_suggests_tseries r_suggests_zoo byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=>=sci-CRAN/TSdbi-2015.1.1 >=sci-CRAN/TSsql-2015.1.1 >=sci-CRAN/RMySQL-0.10.3 >=sci-CRAN/DBI-0.3.1 sci-CRAN/tframe r_suggests_tfplot? ( sci-CRAN/tfplot ) r_suggests_tframeplus? ( sci-CRAN/tframePlus ) r_suggests_timeseries? ( sci-CRAN/timeSeries ) r_suggests_tseries? ( sci-CRAN/tseries ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/TSMySQL_2015.4-1.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=1730b952f75d85b2c21030271c6f2570

@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.5 sci-CRAN/combinat sci-CRAN/fGarch sci-CRAN/BB sci-CRAN/timeDate >=sci-CRAN/Rdpack-0.7 >=sci-CRAN/gbutils-0.3.1 sci-CRAN/mvtnorm sci-CRAN/e1071 sci-CRAN/MCMCpack sci-CRAN/permute dev-lang/R:=
 DESCRIPTION=Mixture Autoregressive Models
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_fma r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-3.5 sci-CRAN/combinat sci-CRAN/fGarch sci-CRAN/BB sci-CRAN/timeDate >=sci-CRAN/Rdpack-0.7 >=sci-CRAN/gbutils-0.3.1 sci-CRAN/mvtnorm sci-CRAN/e1071 sci-CRAN/MCMCpack sci-CRAN/permute r_suggests_fma? ( sci-CRAN/fma ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/mixAR_0.22.5.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=60d3e56303889140218a69820b882502

@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/registry >=sci-CRAN/rngtools-1.2.3 >=sci-CRAN/stringr-1.0.0 sci-CRAN/BiocManager virtual/cluster sci-CRAN/digest sci-CRAN/gridBase sci-CRAN/RColorBrewer sci-CRAN/doParallel sci-CRAN/reshape2 sci-BIOC/Biobase >=sci-CRAN/pkgmaker-0.20 sci-CRAN/colorspace sci-CRAN/ggplot2 sci-CRAN/foreach dev-lang/R:=
 DESCRIPTION=Algorithms and Framework for Non... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_bibtex r_suggests_bigmemory r_suggests_corpcor r_suggests_dompi r_suggests_fastica r_suggests_knitr r_suggests_mail r_suggests_runit r_suggests_synchronicity r_suggests_xtable byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/registry >=sci-CRAN/rngtools-1.2.3 >=sci-CRAN/stringr-1.0.0 sci-CRAN/BiocManager virtual/cluster sci-CRAN/digest sci-CRAN/gridBase sci-CRAN/RColorBrewer sci-CRAN/doParallel sci-CRAN/reshape2 sci-BIOC/Biobase >=sci-CRAN/pkgmaker-0.20 sci-CRAN/colorspace sci-CRAN/ggplot2 sci-CRAN/foreach r_suggests_bibtex? ( sci-CRAN/bibtex ) r_suggests_bigmemory? ( >=sci-CRAN/bigmemory-4.2 ) r_suggests_corpcor? ( sci-CRAN/corpcor ) r_suggests_dompi? ( sci-CRAN/doMPI ) r_suggests_fastica? ( sci-CRAN/fastICA ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mail? ( sci-CRAN/mail ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_synchronicity? ( >=sci-CRAN/synchronicity-1.3.2 ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/NMF_0.23.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=c4065c43f2b09e94f001343a0dd7a896

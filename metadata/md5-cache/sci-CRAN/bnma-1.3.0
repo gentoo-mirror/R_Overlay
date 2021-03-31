@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=sci-CRAN/rjags-4.6 sci-CRAN/igraph sci-CRAN/ggplot2 >=sci-CRAN/coda-0.13 dev-lang/R:=
 DESCRIPTION=Bayesian Network Meta-Analysis using JAGS
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=>=sci-CRAN/rjags-4.6 sci-CRAN/igraph sci-CRAN/ggplot2 >=sci-CRAN/coda-0.13 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/bnma_1.3.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=58ed88a2a5dc164796ff7e9b99f90eab

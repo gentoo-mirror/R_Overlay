@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/nloptr sci-CRAN/Rsolnp sci-CRAN/numDeriv virtual/MASS sci-CRAN/shinydashboard sci-CRAN/ggplot2 sci-CRAN/alabama >=sci-CRAN/Rcpp-0.12.1 sci-CRAN/shiny dev-lang/R:=
 DESCRIPTION=The Generalized DINA Model Framework
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_cdm r_suggests_knitr r_suggests_matrix r_suggests_polca r_suggests_rmarkdown r_suggests_stringr r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/nloptr sci-CRAN/Rsolnp sci-CRAN/numDeriv virtual/MASS sci-CRAN/shinydashboard sci-CRAN/ggplot2 sci-CRAN/alabama >=sci-CRAN/Rcpp-0.12.1 sci-CRAN/shiny sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_cdm? ( sci-CRAN/CDM ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_polca? ( sci-CRAN/poLCA ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/GDINA_2.8.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=15663f18d2f009da009692504786396d

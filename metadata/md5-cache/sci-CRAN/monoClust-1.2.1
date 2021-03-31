@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/foreach >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/tidyr-1.0.0 >=sci-CRAN/tibble-3.0.0 >=dev-lang/R-3.3.0 virtual/cluster sci-CRAN/doParallel sci-CRAN/ggplot2 sci-CRAN/permute >=sci-CRAN/purrr-0.3.0 >=sci-CRAN/rlang-0.3.0 >=sci-CRAN/stringr-0.5 dev-lang/R:=
 DESCRIPTION=Perform Monothetic Clustering wi... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_covr r_suggests_knitr r_suggests_mice r_suggests_rmarkdown r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=sci-CRAN/foreach >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/tidyr-1.0.0 >=sci-CRAN/tibble-3.0.0 >=dev-lang/R-3.3.0 virtual/cluster sci-CRAN/doParallel sci-CRAN/ggplot2 sci-CRAN/permute >=sci-CRAN/purrr-0.3.0 >=sci-CRAN/rlang-0.3.0 >=sci-CRAN/stringr-0.5 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/monoClust_1.2.1.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=36ce898e0d4806c37d2493a1358e566e

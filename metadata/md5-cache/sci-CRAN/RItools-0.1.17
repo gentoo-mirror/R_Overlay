@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/SparseM sci-CRAN/xtable sci-CRAN/svd sci-CRAN/abind virtual/survival dev-lang/R:=
 DESCRIPTION=Randomization Inference Tools
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_mass r_suggests_roxygen2 r_suggests_rsvgtipsdevice r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2+
 RDEPEND=sci-CRAN/SparseM sci-CRAN/xtable sci-CRAN/svd sci-CRAN/abind virtual/survival r_suggests_mass? ( virtual/MASS ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_rsvgtipsdevice? ( sci-CRAN/RSVGTipsDevice ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/RItools_0.1-17.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=ef2018e597a83d34f34865656f4f7c98

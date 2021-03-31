@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/NMF virtual/Matrix sci-CRAN/sigclust sci-CRAN/Rtsne sci-CRAN/umap sci-CRAN/doSNOW sci-CRAN/RColorBrewer virtual/cluster sci-CRAN/doParallel virtual/Matrix sci-CRAN/dendextend virtual/survival sci-CRAN/corpcor dev-lang/R:=
 DESCRIPTION=Monte Carlo Reference-based Consensus Clustering
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
 KEYWORDS=~amd64
 LICENSE=AGPL-3
 RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/NMF virtual/Matrix sci-CRAN/sigclust sci-CRAN/Rtsne sci-CRAN/umap sci-CRAN/doSNOW sci-CRAN/RColorBrewer virtual/cluster sci-CRAN/doParallel virtual/Matrix sci-CRAN/dendextend virtual/survival sci-CRAN/corpcor r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/M3C_1.6.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=137b1e8369ff6968274414769082f8f8

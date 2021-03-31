@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/openxlsx sci-CRAN/reshape2 sci-CRAN/gridExtra virtual/boot sci-CRAN/readODS sci-CRAN/formula_tools sci-CRAN/spdep sci-CRAN/ggplot2 sci-CRAN/MuMIn sci-CRAN/moments virtual/nlme sci-CRAN/parallelMap sci-CRAN/HLMdiag virtual/MASS sci-CRAN/saeRobust dev-lang/R:=
 DESCRIPTION=Estimating and Mapping Disaggregated Indicators
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_laeken r_suggests_maptools r_suggests_r_rsp r_suggests_rgeos r_suggests_simframe r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/openxlsx sci-CRAN/reshape2 sci-CRAN/gridExtra virtual/boot sci-CRAN/readODS sci-CRAN/formula_tools sci-CRAN/spdep sci-CRAN/ggplot2 sci-CRAN/MuMIn sci-CRAN/moments virtual/nlme sci-CRAN/parallelMap sci-CRAN/HLMdiag virtual/MASS sci-CRAN/saeRobust r_suggests_laeken? ( sci-CRAN/laeken ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_simframe? ( sci-CRAN/simFrame ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/emdi_2.0.2.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=6037e73bbab1d4ce789ba7711e224cd0

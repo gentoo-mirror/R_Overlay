@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=virtual/survival >=dev-lang/R-3.4 virtual/KernSmooth sci-CRAN/ipred sci-CRAN/SuppDists sci-CRAN/rmeta sci-CRAN/prodlim virtual/survival virtual/boot dev-lang/R:=
 DESCRIPTION=Performance Assessment and Compa... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_biobase r_suggests_biocmanager r_suggests_clinfun r_suggests_cpe r_suggests_hmisc r_suggests_xtable byte-compile
 KEYWORDS=~amd64
 LICENSE=Artistic-2
 RDEPEND=virtual/survival >=dev-lang/R-3.4 virtual/KernSmooth sci-CRAN/ipred sci-CRAN/SuppDists sci-CRAN/rmeta sci-CRAN/prodlim virtual/survival virtual/boot r_suggests_biobase? ( sci-BIOC/Biobase ) r_suggests_biocmanager? ( sci-CRAN/BiocManager ) r_suggests_clinfun? ( sci-CRAN/clinfun ) r_suggests_cpe? ( sci-CRAN/CPE ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/survcomp_1.34.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=b250647623f80374b05b5a5d06da6df0

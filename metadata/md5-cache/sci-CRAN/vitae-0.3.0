@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/xfun sci-CRAN/rlang sci-CRAN/knitr sci-CRAN/glue sci-CRAN/tibble sci-CRAN/vctrs >=sci-CRAN/rmarkdown-1.18 sci-CRAN/dplyr sci-CRAN/yaml sci-CRAN/pillar dev-lang/R:=
 DESCRIPTION=Curriculum Vitae for R Markdown
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_covr r_suggests_htmltools r_suggests_rorcid r_suggests_stringr r_suggests_testthat byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/xfun sci-CRAN/rlang sci-CRAN/knitr sci-CRAN/glue sci-CRAN/tibble sci-CRAN/vctrs >=sci-CRAN/rmarkdown-1.18 sci-CRAN/dplyr sci-CRAN/yaml sci-CRAN/pillar r_suggests_covr? ( sci-CRAN/covr ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_rorcid? ( sci-CRAN/rorcid ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/vitae_0.3.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=e22eada80c064fe8a378d2d815bd1f59

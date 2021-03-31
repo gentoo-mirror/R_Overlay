@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=dev-lang/R:=
 DESCRIPTION=Miscellaneous Functions by Yihui Xie
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_codetools r_suggests_htmltools r_suggests_knitr r_suggests_markdown r_suggests_mime r_suggests_pak r_suggests_remotes r_suggests_rmarkdown r_suggests_rstudioapi r_suggests_testit r_suggests_tinytex byte-compile
 KEYWORDS=~amd64
 LICENSE=MIT
 RDEPEND=r_suggests_codetools? ( virtual/codetools ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mime? ( sci-CRAN/mime ) r_suggests_pak? ( sci-CRAN/pak ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_testit? ( sci-CRAN/testit ) r_suggests_tinytex? ( sci-CRAN/tinytex ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/xfun_0.20.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=319acc29fa867138096855f298486622

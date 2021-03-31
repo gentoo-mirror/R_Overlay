@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=sci-CRAN/DiceKriging-1.2 sci-CRAN/randtoolbox sci-CRAN/pbivnorm sci-CRAN/mnormt sci-CRAN/rgenoud sci-CRAN/DiceDesign dev-lang/R:=
 DESCRIPTION=Kriging-Based Optimization for C... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_gpareto r_suggests_kriginv r_suggests_lhs byte-compile
 KEYWORDS=~amd64
 LICENSE=|| ( GPL-2 GPL-3 )
 RDEPEND=>=sci-CRAN/DiceKriging-1.2 sci-CRAN/randtoolbox sci-CRAN/pbivnorm sci-CRAN/mnormt sci-CRAN/rgenoud sci-CRAN/DiceDesign r_suggests_gpareto? ( sci-CRAN/GPareto ) r_suggests_kriginv? ( sci-CRAN/KrigInv ) r_suggests_lhs? ( sci-CRAN/lhs ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/DiceOptim_2.0.1.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=2508e593a3d70ae0efb2f094c166c92c

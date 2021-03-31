@@ -3,10 +3,11 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=>=sci-CRAN/SqlRender-1.6.3 sci-CRAN/urltools >=sci-CRAN/DBI-1.0.0 sci-CRAN/stringr sci-CRAN/rJava sci-CRAN/DatabaseConnectorJars dev-lang/R:=
 DESCRIPTION=Connecting to Various Database Platforms
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_andromeda r_suggests_aws_s3 r_suggests_dbitest r_suggests_dplyr r_suggests_knitr r_suggests_r_utils r_suggests_rmarkdown r_suggests_rsqlite r_suggests_testthat r_suggests_uuid byte-compile
 KEYWORDS=~amd64
 RDEPEND=>=sci-CRAN/SqlRender-1.6.3 sci-CRAN/urltools >=sci-CRAN/DBI-1.0.0 sci-CRAN/stringr sci-CRAN/rJava sci-CRAN/DatabaseConnectorJars r_suggests_andromeda? ( sci-CRAN/Andromeda ) r_suggests_aws_s3? ( sci-CRAN/aws_s3 ) r_suggests_dbitest? ( sci-CRAN/DBItest ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_uuid? ( sci-CRAN/uuid ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/DatabaseConnector_3.0.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=6cb17c8792e512a15017e0cbec2710ea

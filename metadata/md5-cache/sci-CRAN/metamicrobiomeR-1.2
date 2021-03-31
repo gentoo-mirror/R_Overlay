@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/gdata sci-CRAN/compositions sci-CRAN/zCompositions sci-CRAN/gamlss >=dev-lang/R-4.0.0 sci-CRAN/lme4 sci-CRAN/meta sci-CRAN/plyr sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-CRAN/lmerTest virtual/Matrix dev-lang/R:=
 DESCRIPTION=Microbiome Data Analysis & Meta-... (see metadata)
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_caret r_suggests_foreign r_suggests_gplots r_suggests_httr r_suggests_jsonlite r_suggests_knitr r_suggests_magrittr r_suggests_mgcv r_suggests_randomforest r_suggests_rcolorbrewer r_suggests_rcurl r_suggests_repmis r_suggests_reshape2 r_suggests_rmarkdown r_suggests_testthat r_suggests_tsibble byte-compile
 KEYWORDS=~amd64
 LICENSE=GPL-2
 RDEPEND=sci-CRAN/gdata sci-CRAN/compositions sci-CRAN/zCompositions sci-CRAN/gamlss >=dev-lang/R-4.0.0 sci-CRAN/lme4 sci-CRAN/meta sci-CRAN/plyr sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-CRAN/lmerTest virtual/Matrix r_suggests_caret? ( sci-CRAN/caret ) r_suggests_foreign? ( virtual/foreign ) r_suggests_gplots? ( sci-CRAN/gplots ) r_suggests_httr? ( sci-CRAN/httr ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_repmis? ( sci-CRAN/repmis ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tsibble? ( sci-CRAN/tsibble ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/metamicrobiomeR_1.2.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=2b861bc8aa067fd849d8b7a4ac2f4ad4

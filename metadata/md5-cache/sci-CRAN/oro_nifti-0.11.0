@@ -3,11 +3,12 @@ DEFINED_PHASES=compile configure install postinst unpack
 DEPEND=sci-CRAN/bitops >=dev-lang/R-2.14.0 >=sci-CRAN/RNifti-0.9.0 sci-CRAN/abind dev-lang/R:=
 DESCRIPTION=Rigorous - NIfTI + ANALYZE + AFNI : Input / Output
 EAPI=7
+INHERIT=R-packages
 IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_rticles r_suggests_testthat r_suggests_xml byte-compile
 KEYWORDS=~amd64
 LICENSE=BSD
 RDEPEND=sci-CRAN/bitops >=dev-lang/R-2.14.0 >=sci-CRAN/RNifti-0.9.0 sci-CRAN/abind r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rticles? ( sci-CRAN/rticles ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/oro.nifti_0.11.0.tar.gz
-_eclasses_=R-packages	293008251793e17907015f0c6b58ecbf	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=f42c072480155843dbfe14e217434b56
