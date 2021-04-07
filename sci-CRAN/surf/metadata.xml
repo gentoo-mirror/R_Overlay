@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Survey-Based Gross Flows Estimation // Estimation of gross flows
+		under non-response and complex sampling designs, using
+		Gutirrez, Nascimento Silva and Trujillo (2014) https://www150.s
+		tatcan.gc.ca/n1/pub/12-001-x/2014002/article/14113-eng.pdf
+		complex sampling extension of the non-response model developed
+		by Stasny (1987) https://www.scb.se/contentassets/ca21efb41fee4
+		7d293bbee5bf7be7fb3/some-markov-chain-models-for-nonresponse-
+		in-estimating-gross-labor-force-flows.pdf. It estimates the
+		gross flows process under non-response by modelling the
+		observable cross-tabulation counts as a two-stage Markov Chain
+		process, combining (1) the unobservable Markov Chain describing
+		the transition of states; and (2) the non-response process,
+		given by the initial response probabilities and the
+		response/non-response transition probabilities.
+	</longdescription>
+</pkgmetadata>
