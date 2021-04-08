@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Identify Mutually Exclusive Mutations // An optimized method for
+		identifying mutually exclusive genomic events.  Its main
+		contribution is a statistical analysis based on the Poisson-
+		Binomial distribution that takes into account that some samples
+		are more mutated than others. See [Canisius, Sander, John WM
+		Martens, and  Lodewyk FA Wessels. (2016)  "A novel independence
+		test for somatic alterations in cancer shows that biology
+		drives mutual exclusivity but chance explains most co-
+		occurrence." Genome biology 17.1 : 1-17.
+		doi:10.1186/s13059-016-1114-x]. The mutations matrices are
+		sparce matrices. The method developed takes advantage of the
+		advantages of this type of matrix to save time and computing
+		resources.
+	</longdescription>
+</pkgmetadata>
