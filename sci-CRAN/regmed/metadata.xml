@@ -3,9 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Regularized Mediation Analysis // Mediation analysis for multiple
-		mediators by penalized structural equation models using sparse
-		group lasso. The penalty considers the natural groupings of
-		parameters that determine mediation, as well as encourages
-		sparseness of the model parameters.
+		mediators by penalized structural equation models with
+		different types of penalties depending on whether there are
+		multiple mediators and only one exposure and one outcome
+		variable (using sparse group lasso) or multiple exposures,
+		multiple mediators, and multiple outcome variables (using
+		lasso, L1, penalties).
 	</longdescription>
 </pkgmetadata>
