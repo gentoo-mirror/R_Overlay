@@ -2,12 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Cubic Hermite Splines and Related Optimization Methods //
-		Constructs, plots and evaluates constrained cubic Hermite
-		splines, which can be used to construct monotonic and bounded
-		splines. Computes their first derivatives, indefinite integrals
-		and smooth approximations of their first, second and higher
-		derivatives. Also, computes their roots/solutions, along with
-		their minima/maxima and inflection points.
+		Cubic Hermite Splines and Related Root Finding Methods //
+		Supports cubic Hermite splines (Fritsch  Carlson, 1980
+		doi:10.1137/0717021), along with their derivatives/integrals.
+		Also, supports monotonically increasing/decreasing splines, and
+		computes their roots and minimum/maximum points.
 	</longdescription>
 </pkgmetadata>

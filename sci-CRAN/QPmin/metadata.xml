@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Linearly Constrained Indefinite Quadratic Program Solver //
+		Active set method solver for the solution of indefinite
+		quadratic programs, subject to lower bounds on linear functions
+		of the variables and simple bounds on the variables themselves.
+		The function QPmin() implements an algorithm similar to the one
+		described in Gould (1991) doi:10.1093/imanum/11.3.299  with the
+		exception that an efficient sparse internal representation of
+		the basis matrix is maintained thus allowing the solution of
+		somewhat large problems.
+	</longdescription>
+</pkgmetadata>
