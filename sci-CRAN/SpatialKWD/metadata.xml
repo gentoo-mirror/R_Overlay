@@ -8,9 +8,9 @@
 		pairs of large spatial maps (Bassetti, Gualandi, Veneroni
 		(2020), doi:10.1137/19M1261195). All the algorithms are based
 		on an ad-hoc implementation of the Network Simplex algorithm.
-		The package has three main helper functions: compareOneToOne()
-		(to compare two spatial maps), compareOneToMany() (to compare a
-		reference maps with a list of other maps), and compareAll() (to
+		The package has three main helper functions: "compareOneToOne"
+		(to compare two spatial maps), "compareOneToMany" (to compare a
+		reference maps with a list of other maps), and "compareAll" (to
 		compute a matrix of distances between a list of maps). In case
 		of non-convex maps, the helper functions first build the
 		convex-hull of the input bins and pads the weights with zeros.
