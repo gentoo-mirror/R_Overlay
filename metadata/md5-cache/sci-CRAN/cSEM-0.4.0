@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/cli sci-CRAN/future sci-CRAN/progressr sci-CRAN/rlang sci-CRAN/abind sci-CRAN/magrittr virtual/Matrix sci-CRAN/symmoments sci-CRAN/crayon >=sci-CRAN/expm-0.999.5 virtual/Matrix sci-CRAN/psych sci-CRAN/lifecycle sci-CRAN/polycor sci-CRAN/lavaan sci-CRAN/Rdpack >=dev-lang/R-3.5.0 sci-CRAN/alabama sci-CRAN/future_apply virtual/MASS sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Composite-Based Structural Equation Modeling
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggplot2 r_suggests_knitr r_suggests_listviewer r_suggests_nnls r_suggests_openxlsx r_suggests_plotly r_suggests_prettydoc r_suggests_rmarkdown r_suggests_rootsolve r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix sci-CRAN/cli sci-CRAN/future sci-CRAN/progressr sci-CRAN/rlang sci-CRAN/abind sci-CRAN/magrittr virtual/Matrix sci-CRAN/symmoments sci-CRAN/crayon >=sci-CRAN/expm-0.999.5 virtual/Matrix sci-CRAN/psych sci-CRAN/lifecycle sci-CRAN/polycor sci-CRAN/lavaan sci-CRAN/Rdpack >=dev-lang/R-3.5.0 sci-CRAN/alabama sci-CRAN/future_apply virtual/MASS sci-CRAN/purrr r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_listviewer? ( sci-CRAN/listviewer ) r_suggests_nnls? ( sci-CRAN/nnls ) r_suggests_openxlsx? ( sci-CRAN/openxlsx ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rootsolve? ( sci-CRAN/rootSolve ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cSEM_0.4.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=5351275be13a395095eb5dd072416981

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Finite Mixture Model Fitting of Lifespan Datasets // Fits the
+		lifespan datasets of biological systems such as yeast, fruit
+		flies, and other similar biological units with well-known
+		finite mixture models introduced by Farewell V. (1982)
+		doi:10.2307/2529885 and Al-Hussaini et al. (2000)
+		doi:10.1080/00949650008812033. Estimates parameter space
+		fitting of a lifespan dataset with finite mixtures of
+		parametric distributions. Computes the following tasks; 1)
+		Estimates parameter space of the finite mixture model by
+		implementing the expectation maximization (EM) algorithm. 2)
+		Finds a sequence of four goodness-of-fit measures consist of
+		Akaike Information Criterion (AIC), Bayesian Information
+		Criterion (BIC), Kolmogorov-Smirnov (KS), and log-likelihood
+		(log-likelihood) statistics. 3)The initial values is determined
+		by k-means clustering.
+	</longdescription>
+</pkgmetadata>
