@@ -2,14 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Quality Improvement Charts // Functions for making run charts and
-		basic Shewhart control charts for measure and count data. The
-		main function, qic(), creates run and control charts and has a
-		simple interface with a rich set of options to control data
-		analysis and plotting, including options for automatic data
-		aggregation by subgroups, easy analysis of before-and-after
-		data, exclusion of one or more data points from analysis, and
-		splitting charts into sequential time periods. Missing values
-		and empty subgroups are handled gracefully.
+		Quality Improvement Charts // Functions for making run charts
+		[Anhoej, Olesen (2014) doi:10.1371/journal.pone.0113825] and
+		basic Shewhart control charts [Mohammed, Worthington, Woodall
+		(2008) doi:10.1136/qshc.2004.012047] for measure and count
+		data. The main function, qic(), creates run and control charts
+		and has a simple interface with a rich set of options to
+		control data analysis and plotting, including options for
+		automatic data aggregation by subgroups, easy analysis of
+		before-and-after data, exclusion of one or more data points
+		from analysis, and splitting charts into sequential time
+		periods. Missing values and empty subgroups are handled
+		gracefully.
 	</longdescription>
 </pkgmetadata>

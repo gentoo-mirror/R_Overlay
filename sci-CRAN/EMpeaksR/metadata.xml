@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Conducting the Peak Fitting Based on the EM Algorithm // The peak
+		fitting of spectral data is performed by using the frame work
+		of EM algorithm.     We adapted the EM algorithm for the peak
+		fitting of spectral data set by considering     the weight of
+		the intensity corresponding to the measurement energy steps
+		(Matsumura, T., Nagamura, N., Akaho, S., Nagata, K.,  Ando, Y.
+		(2019) doi:10.1080/14686996.2019.1620123).    The package
+		efficiently estimates the parameters of Gaussian mixture model
+		during    iterative calculation between E-step and M-step, and
+		the parameters are converged to a local optimal solution.
+		This package can support the investigation of peak shift with
+		two advantages:    (1) a large amount of data can be processed
+		at high speed; and   (2) stable and automatic calculation can
+		be easily performed.
+	</longdescription>
+</pkgmetadata>
