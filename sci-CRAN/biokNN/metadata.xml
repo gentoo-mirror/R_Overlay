@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bi-Objective k-Nearest Neighbors Imputation for Multilevel Data
+		// The bi-objective k-nearest neighbors method (biokNN) is an
+		imputation method designed to estimate missing values on data
+		with a multilevel structure. The original algorithm is an
+		extension of the k-nearest neighbors method proposed by
+		Bertsimas et al. (2017)
+		(https://jmlr.org/papers/v18/17-073.html) using a bi-objective
+		approach.  A brief description of the method can be found in
+		Cubillos (2021)
+		(https://pure.au.dk/portal/files/214627979/biokNN.pdf). The
+		'biokNN' package provides an R implementation of the method for
+		datasets with continuous variables (e.g. employee productivity,
+		student grades) and a categorical class variable (e.g.
+		department, school). Given an incomplete dataset with such
+		structure, this package produces complete datasets using both
+		single and multiple imputation, including visualization tools
+		to better understand the pattern of the missing values.
+	</longdescription>
+</pkgmetadata>

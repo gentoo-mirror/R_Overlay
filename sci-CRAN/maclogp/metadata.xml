@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Measures of Uncertainty for Model Selection // Following the
+		common types of measures of uncertainty for parameter
+		estimation, two measures of uncertainty were proposed for model
+		selection, see Liu, Li and Jiang (2020)
+		doi:10.1007/s11749-020-00737-9. The first measure is a kind of
+		model confidence set that relates to the variation of model
+		selection, called Mac. The second measure focuses on error of
+		model selection, called LogP. They are all computed via
+		bootstrapping. This package provides functions to compute these
+		two measures. Furthermore, a similar model confidence set
+		adapted from Bayesian Model Averaging can also be computed
+		using this package.
+	</longdescription>
+</pkgmetadata>

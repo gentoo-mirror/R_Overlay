@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp >=sci-CRAN/CDM-6.4.19 >=dev-lang/R-2.15.1 dev-lang/R:=
+DESCRIPTION=Test Analysis Modules
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_coda r_suggests_gparotation r_suggests_lattice r_suggests_lavaan r_suggests_mass r_suggests_miceadds r_suggests_mvtnorm r_suggests_plyr r_suggests_psych r_suggests_sfsmisc r_suggests_sirt r_suggests_wrightmap byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/Rcpp >=sci-CRAN/CDM-6.4.19 >=dev-lang/R-2.15.1 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_coda? ( sci-CRAN/coda ) r_suggests_gparotation? ( sci-CRAN/GPArotation ) r_suggests_lattice? ( virtual/lattice ) r_suggests_lavaan? ( sci-CRAN/lavaan ) r_suggests_mass? ( virtual/MASS ) r_suggests_miceadds? ( sci-CRAN/miceadds ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_psych? ( sci-CRAN/psych ) r_suggests_sfsmisc? ( sci-CRAN/sfsmisc ) r_suggests_sirt? ( sci-CRAN/sirt ) r_suggests_wrightmap? ( sci-CRAN/WrightMap ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TAM_3.6-45.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=befee216c44d38ed8c9abeb33394fae1
