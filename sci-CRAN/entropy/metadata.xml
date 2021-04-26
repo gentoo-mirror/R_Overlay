@@ -3,14 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Estimation of Entropy, Mutual Information and Related Quantities
-		// This package implements various estimators of entropy, such
-		as the shrinkage estimator by Hausser and Strimmer, the maximum
-		likelihood and the Millow-Madow estimator, various Bayesian
-		estimators, and the Chao-Shen estimator.  It also offers an R
-		interface to the NSB estimator. Furthermore, it provides
-		functions for estimating Kullback-Leibler divergence, chi-
-		squared, mutual information, and chi-squared statistic of
-		independence. In addition there are functions for discretizing
-		continuous random variables.
+		// Implements various estimators of entropy for discrete random
+		variables, including the shrinkage estimator by Hausser and
+		Strimmer (2009), the maximum likelihood and the Millow-Madow
+		estimator, various Bayesian estimators, and the Chao-Shen
+		estimator.  It also offers an R interface to the NSB estimator.
+		Furthermore, the package provides functions for estimating the
+		Kullback-Leibler divergence, the chi-squared divergence, mutual
+		information, and the chi-squared divergence of independence.
+		It also computes the G statistic and the chi-squared statistic
+		and corresponding p-values. Furthermore, there are functions
+		for discretizing continuous random variables.
 	</longdescription>
 </pkgmetadata>
