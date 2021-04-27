@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Perform "Safe" Table Joins // The goal of 'safejoin' is to
+		guarantee that when performing joins extra rows are not added
+		to your data. 'safejoin' provides a wrapper around
+		'dplyr::left_join' that will raise an error when extra rows are
+		unexpectedly added to your data. This can be useful when
+		working with data where you expect there to be a many to one
+		relationship but you are not certain the relationship holds.
+	</longdescription>
+</pkgmetadata>

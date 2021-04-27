@@ -3,11 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Interactive Q-Q and Manhattan Plots Using 'plotly.js' // Create
-		interactive Q-Q, manhattan and volcano plots that are usable
-		from the R console, in the 'RStudio' viewer pane, in 'R
-		Markdown' documents, and in 'Shiny' apps. Hover the mouse
-		pointer over a point to show details or drag a rectangle to
-		zoom. A manhattan plot is a popular graphical method for
+		interactive manhattan, Q-Q and volcano plots that are usable
+		from the R console, in 'Dash' apps, in the 'RStudio' viewer
+		pane, in 'R Markdown' documents, and in 'Shiny' apps. Hover the
+		mouse pointer over a point to show details or drag a rectangle
+		to zoom. A manhattan plot is a popular graphical method for
 		visualizing results from high-dimensional data analysis such as
 		a (epi)genome wide association study (GWAS or EWAS), in which
 		p-values, Z-scores, test statistics are plotted on a scatter
@@ -18,12 +18,12 @@
 		gene name) by hovering the mouse over a cell, as well as
 		zooming into a region of the genome (e.g. a chromosome) by
 		dragging a rectangle around the relevant area. This work is
-		based on the 'qqman' package by Stephen Turner and the
-		'plotly.js' engine. It produces similar manhattan and Q-Q plots
-		as the 'manhattan' and 'qq' functions in the 'qqman' package,
-		with the advantage of including extra annotation information
-		and interactive web-based visualizations directly from R. Once
-		uploaded to a 'plotly' account, 'plotly' graphs (and the data
-		behind them) can be viewed and modified in a web browser.
+		based on the 'qqman' package and the 'plotly.js' engine. It
+		produces similar manhattan and Q-Q plots as the 'manhattan' and
+		'qq' functions in the 'qqman' package, with the advantage of
+		including extra annotation information and interactive web-
+		based visualizations directly from R. Once uploaded to a
+		'plotly' account, 'plotly' graphs (and the data behind them)
+		can be viewed and modified in a web browser.
 	</longdescription>
 </pkgmetadata>
