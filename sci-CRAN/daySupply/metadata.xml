@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculating Days' Supply and Daily Dose of Prescriptions //
+		Allows clinicians and researchers to compute daily dose (and
+		subsequently days' supply) for prescription refills using the
+		following methods: Fixed window, fixed tablet, defined daily
+		dose (DDD), and Random Effects Warfarin Days' Supply (REWarDS).
+		Daily dose is the computed dose that the patient takes every
+		day. For medications with fixed dosing (e.g. direct oral
+		anticoagulants) this is known and does not need to be
+		estimated. For medications with varying dose such as warfarin,
+		however, the daily dose should be assumed or estimated to allow
+		measurement of drug exposure. Days supply is the number of days
+		that patients supply of medication will last after each
+		prescription fill. Estimating days supply is necessary to
+		calculate drug exposure. The package computes days supply and
+		daily dose at both the prescription and patient levels. Results
+		at the prescription level are denoted with -Rx- and those at
+		patient level are denoted with -Pt-.
+	</longdescription>
+</pkgmetadata>
