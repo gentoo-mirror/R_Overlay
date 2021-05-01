@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gstat sci-CRAN/sp sci-CRAN/foreach sci-CRAN/rgeos sci-CRAN/FNN sci-CRAN/doSNOW sci-CRAN/snow virtual/MASS sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Area-to-Area Kriging
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_raster r_suggests_rtop byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/gstat sci-CRAN/sp sci-CRAN/foreach sci-CRAN/rgeos sci-CRAN/FNN sci-CRAN/doSNOW sci-CRAN/snow virtual/MASS sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rtop? ( sci-CRAN/rtop ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/atakrig_0.9.8.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=67f5c9df900d30e0a3716365da51bd43

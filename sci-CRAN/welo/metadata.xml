@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Weighted and Standard Elo Rates // Estimates the standard and
+		weighted Elo (WElo, Angelini et al., 2021
+		doi:10.1016/j.ejor.2021.04.011) rates. The current version
+		provides these rates for tennis. In the future, new sports will
+		be added. The 'welo' package offers a flexible tool to estimate
+		the WElo and Elo rates, according to different systems of
+		weights (games or sets) and scale factors (constant,
+		proportional to the number of matches, with more weight on
+		Grand Slam matches or on matches played on a specific surface).
+		Moreover, the package gives the possibility of estimating the
+		(bootstrap) standard errors for the rates. Finally, the package
+		includes a betting function which automatically selects the
+		matches on which place a bet.
+	</longdescription>
+</pkgmetadata>
