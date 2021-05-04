@@ -2,10 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Reproducible Scripts via Version-Specific Package Loading // Make
-		R scripts that rely on packages reproducible, by ensuring that
-		every time a given script is run, the same version of the used
-		packages are loaded (instead of whichever version the user
+		The Simplest Solution to Version-Control for CRAN Packages //
+		Make R scripts that rely on packages reproducible, by ensuring
+		that every time a given script is run, the same version of the
+		used packages are loaded (instead of whichever version the user
 		running the script happens to have installed). This is achieved
 		by using the new command groundhog.library() instead of the
 		base command library(), and including a date in the call. The
