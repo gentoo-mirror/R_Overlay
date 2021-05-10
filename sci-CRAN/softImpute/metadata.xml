@@ -7,12 +7,12 @@
 		regularization. There are two main approaches.The one approach
 		uses iterative soft-thresholded svds to impute the missing
 		values. The second approach uses alternating least squares.
-		Both have an "EM" flavor, in that at each iteration the matrix
+		Both have an 'EM' flavor, in that at each iteration the matrix
 		is completed with the current estimate. For large matrices
 		there is a special sparse-matrix class named "Incomplete" that
 		efficiently handles all computations. The package includes
 		procedures for centering and scaling rows, columns or both, and
 		for computing low-rank SVDs on large sparse centered matrices
-		(i.e. principal components)
+		(i.e. principal components).
 	</longdescription>
 </pkgmetadata>
