@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Nonlinear Sufficient Dimension Reduction // Provides tools to
+		implement both unsupervised and supervised nonlinear dimension
+		reduction methods. Principal Component Analysis (PCA), Sliced
+		Inverse Regression (SIR), and Sliced Average Variance
+		Estimation (SAVE) are useful methods to reduce the
+		dimensionality of covariates. However, they produce linear
+		combinations of covariates. Kernel PCA, generalized SIR, and
+		generalized SAVE address this problem by extending the
+		applicability of the dimension reduction problem to nonlinear
+		settings. This package includes a comprehensive algorithm for
+		kernel PCA, generalized SIR, and generalized SAVE, including
+		methods for choosing tuning parameters and some essential
+		functions. The algorithms for this package is from Li (2018,
+		ISBN:9780367734725).
+	</longdescription>
+</pkgmetadata>
