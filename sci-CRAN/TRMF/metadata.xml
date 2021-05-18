@@ -2,10 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Temporally Regularized Matrix Factorization // Use alternating
-		least squares to estimate a Temporally Regularized Matrix
-		Factorization (Yu, Hsiang-Fu, Nikhil Rao, and Inderjit S.
-		Dhillon, 2015) arXiv:1509.08333v3 (possibly) in the presence of
-		missing values.
+		Temporally Regularized Matrix Factorization // Functions to
+		estimate temporally regularized matrix factorization (TRMF) for
+		forecasting and imputing values in short but high-dimensional
+		time series. Uses regularized alternating least squares to
+		compute the factorization, allows for several types of
+		constraints on matrix factors and can handle weighted data.
 	</longdescription>
 </pkgmetadata>

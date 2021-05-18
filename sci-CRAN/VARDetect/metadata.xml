@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiple Change Point Detection in Structural VAR Models //
+		Implementations of Thresholded Block Segmentation Scheme (TBSS)
+		and Low-rank plus Sparse Two Step Procedure (LSTSP) algorithms
+		for detecting multiple changes in structural VAR models. The
+		package aims to address the problem of change point detection
+		in piece-wise stationary VAR models, under different settings
+		regarding the structure of their transition matrices
+		(autoregressive dynamics); specifically, the following cases
+		are included: (i) (weakly) sparse, (ii) structured sparse, and
+		(iii) low rank plus sparse. It includes multiple algorithms and
+		related extensions from Safikhani and Shojaie (2020)
+		doi:10.1080/01621459.2020.1770097 and Bai, Safikhani and
+		Michailidis (2020) doi:10.1109/TSP.2020.2993145.
+	</longdescription>
+</pkgmetadata>
