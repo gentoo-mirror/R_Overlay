@@ -10,9 +10,8 @@
 		For example, you can write 'take(mtcars, mean(mpg), by = am)'
 		for aggregation or 'let(mtcars, hp_wt = hp/wt, hp_wt_mpg =
 		hp_wt/mpg)' for modification. Use 'take_if/let_if' for
-		conditional aggregation/modification. 'query_if' function
-		translates its arguments one-to-one to '[.data.table' method.
-		Additionally there are some conveniences such as automatic
-		'data.frame' conversion to 'data.table'.
+		conditional aggregation/modification. Additionally there are
+		some conveniences such as automatic 'data.frame' conversion to
+		'data.table'.
 	</longdescription>
 </pkgmetadata>

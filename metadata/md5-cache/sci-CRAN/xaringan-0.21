@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools >=sci-CRAN/knitr-1.30 >=sci-CRAN/rmarkdown-2.8 >=sci-CRAN/xfun-0.18 >=sci-CRAN/servr-0.13 dev-lang/R:=
+DESCRIPTION=Presentation Ninja
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_rstudioapi r_suggests_testit byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-CRAN/htmltools >=sci-CRAN/knitr-1.30 >=sci-CRAN/rmarkdown-2.8 >=sci-CRAN/xfun-0.18 >=sci-CRAN/servr-0.13 r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_testit? ( sci-CRAN/testit ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/xaringan_0.21.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=8b805fb12edc0904e5ebfc547959effd
