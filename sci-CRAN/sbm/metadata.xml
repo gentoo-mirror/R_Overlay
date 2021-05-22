@@ -2,10 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Stochastic Blockmodels // A collection of tools and function to
-		adjust a variety of stochastic blockmodels (SBM). Support at
-		the moment Simple and Bipartite SBM (undirected and directed)
-		for Bernoulli, Poisson and Gaussian emission laws of the edges
-		as described in Lger, 2016 arxiv:1602.07587.
+		Stochastic Blockmodels // A collection of tools and functions to
+		adjust a variety of stochastic blockmodels (SBM). Supports at
+		the moment Simple, Bipartite, 'Multipartite' and Multiplex SBM
+		(undirected or directed with Bernoulli, Poisson or Gaussian
+		emission laws on the edges, and possibly covariate for Simple
+		and Bipartite SBM). See Lger (2016) arxiv:1602.07587,
+		'Barbillon et al.' (2020) doi:10.1111/rssa.12193 and 'Bar-Hen
+		et al.' (2020) arxiv:1807.10138.
 	</longdescription>
 </pkgmetadata>
