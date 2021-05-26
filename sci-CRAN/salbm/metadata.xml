@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sensitivity Analysis for Binary Missing Data // In a clinical
+		trial with repeated measures designs, outcomes are often taken
+		from subjects at fixed time-points.  The focus of the trial may
+		be to compare the mean outcome in two or more groups at some
+		pre-specified time after enrollment. In the presence of missing
+		data auxiliary assumptions are necessary to perform such
+		comparisons.  One commonly employed assumption is the missing
+		at random assumption (MAR). The 'salbm' package allows the user
+		to perform a (parameterized) sensitivity analysis of this
+		assumption where the outcome of interest is binary (coded as 0,
+		1, or NA).  In particular it can be used to examine the
+		sensitivity of tests in the difference in outcomes to
+		violations of the MAR assumption. See the paper Daniel O.
+		Scharfstein, Jaron J. R. Lee, Aidan McDermott, Aimee Campbell,
+		Edward Nunes, Abigail G. Matthews, Ilya Shpitser "Markov-
+		Restricted Analysis of Randomized Trials with Non-Monotone
+		Missing Binary Outcomes: Sensitivity Analysis and
+		Identification Results" (2021) arXiv:2105.08868.
+	</longdescription>
+</pkgmetadata>
