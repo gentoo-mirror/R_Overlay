@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation of Accuracy in Multisite Machine-Learning Models //
+		The effects of the site may severely bias the accuracy of a
+		multisite machine-learning model, even if the analysts removed
+		them when fitting the model in the 'training set' and when
+		applying the model in the 'test set'. This simple R package
+		estimates the accuracy of a multisite machine-learning model
+		unbiasedly as described in (Solanes et al, Psychiatry Research:
+		Neuroimaging 2021, in Press). It currently supports the
+		estimation of sensitivity, specificity, balanced accuracy, the
+		area under the curve, correlation, mean squarer error, and
+		hazard ratio for binomial, gaussian, and survival (time-to-
+		event) outcomes.
+	</longdescription>
+</pkgmetadata>

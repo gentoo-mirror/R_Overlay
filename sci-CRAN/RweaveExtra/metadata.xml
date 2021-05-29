@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sweave Drivers with Extra Tricks Up their Sleeve // Weave and
+		tangle drivers for Sweave extending the standard drivers with
+		additional code chunk options. Currently, these are only
+		options to completely ignore, or skip, code chunks on weaving,
+		tangling, or both. Chunks ignored on weaving are not parsed and
+		are written out verbatim on tangling. Chunks ignored on
+		tangling are processed as usual on weaving, but completely left
+		out of the tangled scripts.
+	</longdescription>
+</pkgmetadata>

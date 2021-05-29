@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 virtual/Matrix sci-CRAN/limSolve sci-CRAN/R_utils sci-CRAN/FNN sci-CRAN/plyr sci-CRAN/mclust sci-CRAN/quadprog dev-lang/R:=
+DESCRIPTION=Evidential Clustering
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_kernlab r_suggests_mass byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6.0 virtual/Matrix sci-CRAN/limSolve sci-CRAN/R_utils sci-CRAN/FNN sci-CRAN/plyr sci-CRAN/mclust sci-CRAN/quadprog r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/evclust_2.0.2.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=3dce32c1705485ae299f049c9589aeb0
