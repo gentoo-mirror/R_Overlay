@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Selection with Mixture of Models // Two methods are
+		implemented to cluster data with finite mixture regression
+		models. Those procedures deal with high-dimensional covariates
+		and responses through a variable selection procedure based on
+		the Lasso estimator. A low-rank constraint could be added,
+		computed for the Lasso-Rank procedure. A collection of models
+		is constructed, varying the level of sparsity and the number of
+		clusters, and a model is selected using a model selection
+		criterion (slope heuristic, BIC or AIC). Details of the
+		procedure are provided in "Model-based clustering for high-
+		dimensional data. Application to functional data" by Emilie
+		Devijver (2016) arXiv:1409.1333v2, published in Advances in
+		Data Analysis and Clustering.
+	</longdescription>
+</pkgmetadata>

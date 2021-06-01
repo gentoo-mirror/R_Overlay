@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Monotonic Binning for Credit Rating Models // Performs monotonic
+		binning of numeric risk factor in credit rating models (PD,
+		LGD, EAD) development. All functions handle both binary and
+		continuous target variable. Functions that use isotonic
+		regression in the first stage of binning process have an
+		additional feature for correction of minimum percentage of
+		observations and minimum target rate per bin. Additionally,
+		monotonic trend can be identified based on raw data or, if
+		known in advance, forced by functions' argument. Missing values
+		and other possible special values are treated separately from
+		so-called complete cases.
+	</longdescription>
+</pkgmetadata>
