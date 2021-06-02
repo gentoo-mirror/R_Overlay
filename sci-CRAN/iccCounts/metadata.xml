@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Intraclass Correlation Coefficient for Count Data // Estimates
+		the intraclass correlation coefficient (ICC) for count data to
+		assess repeatability (intra-methods concordance) and
+		concordance (between-method concordance). In the concordance
+		setting, the ICC is equivalent to the concordance correlation
+		coefficient estimated by variance components. The ICC is
+		estimated using the estimates from generalized linear mixed
+		models. The within-subjects distributions considered are:
+		Poisson; Negative Binomial with additive and proportional
+		extradispersion; Zero-Inflated Poisson; and Zero-Inflated
+		Negative Binomial with additive and proportional
+		extradispersion. The statistical methodology used to estimate
+		the ICC with count data can be found in Carrasco (2010)
+		doi:10.1111/j.1541-0420.2009.01335.x.
+	</longdescription>
+</pkgmetadata>
