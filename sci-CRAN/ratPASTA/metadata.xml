@@ -4,15 +4,13 @@
 	<longdescription>
 		Processing Acoustic Startle Experimental Data // Used for
 		processing data obtained from behaviour experiments studying
-		acoustic startle response, a reflex to a loud sound, modulated
-		by several brain regions. The input data is generated with
-		PASTA (Platform for Acoustic STArtle), a DIY device made from a
-		kitchen scale that measures the twitch of an animal standing on
-		the device and records it as time-series data. The function of
-		this package is to import all data, process it in accordance
+		acoustic startle response and grip strength in rodents. The
+		input data is generated with PASTA (Platform for Acoustic
+		STArtle), a DIY device made from a kitchen scale. The function
+		of this package is to import all data, process it in accordance
 		with default or custom metadata describing the experiment
 		protocol, calculate measurements and visualize the results. The
-		PASTA solution and this package are described in Virag et al.
-		(2020) doi:10.1101/2020.04.10.035766.
+		PASTA platform is described in Virag et al. (2020)
+		doi:10.1101/2020.04.10.035766.
 	</longdescription>
 </pkgmetadata>
