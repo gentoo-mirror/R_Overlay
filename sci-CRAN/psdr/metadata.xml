@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Use Time Series to Generate and Compare Power Spectral Density //
+		Functions that allow you to generate and compare power spectral
+		density (PSD) plots given time series data. Fast Fourier
+		Transform (FFT) is used to take a time series data, analyze the
+		oscillations, and then output the frequencies of these
+		oscillations in the time series in the form of a PSD plot.Thus
+		given a time series, the dominant frequencies in the time
+		series can be identified. Additional functions in this package
+		allow the dominant frequencies of multiple groups of time
+		series to be compared with each other. To see example usage
+		with the main functions of this package, please visit this
+		site: https://yhhc2.github.io/psdr/articles/Introduction.html.
+		The mathematical operations used to generate the PSDs are
+		described in these sites:
+		https://www.mathworks.com/help/matlab/ref/fft.html.
+		https://www.mathworks.com/help/signal/ug/power-spectral-
+		density-estimates-using-fft.html.
+	</longdescription>
+</pkgmetadata>
