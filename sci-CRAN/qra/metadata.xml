@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Quantal Response Analysis for Dose-Mortality Data // Functions
+		are provided that implement the use of the Fieller's formula
+		methodology, for calculating a confidence interval for a ratio
+		of (possibly, correlated) means.  See Fieller (1954)
+		doi:10.1111/j.2517-6161.1954.tb00159.x.  Here, the application
+		of primary interest is to studies ofinsect mortality response
+		toincreasing doses of a fumigant, or, e.g., to time in
+		coolstorage. The formula is used to calculate a confidence
+		interval for the dose or time required to achieve a specified
+		mortality proportion, commonly 0.5 or 0.99.  A vignette
+		demonstrates link functions that may be considered, and
+		alternative choices of error family.  Note in particular the
+		beta-binomial error family.  See also Maindonald, Waddell, and
+		Petry (2001) doi:10.1016/S0925-5214(01)00082-5.
+	</longdescription>
+</pkgmetadata>
