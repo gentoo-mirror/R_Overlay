@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Beta Regression // Provides a class of Bayesian beta
+		regression models for the analysis of continuous data with
+		support restricted to an unknown finite support. The response
+		variable is modeled using a four-parameter beta distribution
+		with the mean or mode parameter depending linearly on
+		covariates through a link function. When the response support
+		is known to be (0,1), the above class of models reduce to
+		traditional (0,1) supported beta regression models. Model
+		choice is carried out via the logarithm of the pseudo marginal
+		likelihood (LPML), the deviance information criterion (DIC),
+		and the Watanabe-Akaike information criterion (WAIC). See Zhou
+		and Huang (2021, "Bayesian beta regression for bounded
+		responses with unknown supports")
+		https://sites.google.com/view/haimingzhou/research.
+	</longdescription>
+</pkgmetadata>
