@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model-Based Clustering via Matrix-Variate Mixture Models //
+		Implements finite mixtures of matrix-variate contaminated
+		normal distributions via expectation conditional-maximization
+		algorithm for model-based clustering, as described in Tomarchio
+		et al.(2020) arXiv:2005.03861. One key advantage of this model
+		is the ability to automatically detect potential outlying
+		matrices by computing their a posteriori probability of being
+		typical or atypical points. Finite mixtures of matrix-variate t
+		and matrix-variate normal distributions are also implemented by
+		using expectation-maximization algorithms.
+	</longdescription>
+</pkgmetadata>

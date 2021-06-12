@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Double Machine Learning Algorithms // Implementation of double
+		machine learning (DML) algorithms in R, based on Emmenegger and
+		Buehlmann (2021) "Regularizing Double Machine Learning in
+		Partially Linear Endogenous Models" arXiv:2101.12525. Our goal
+		is to perform inference for the linear parameter in partially
+		linear models with confounding variables. The standard DML
+		estimator of the linear parameter has a two-stage least squares
+		interpretation, which can lead to a large variance and overwide
+		confidence intervals. We apply regularization to reduce the
+		variance of the estimator, which produces narrower confidence
+		intervals that are approximately valid. Nuisance terms can be
+		flexibly estimated with machine learning algorithms.
+	</longdescription>
+</pkgmetadata>
