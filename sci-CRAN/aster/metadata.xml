@@ -2,13 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Aster Models // Aster models are exponential family regression
-		models for life history analysis.  They are like generalized
-		linear models except that elements of the response vector can
-		have different families (e. g., some Bernoulli, some Poisson,
-		some zero-truncated Poisson, some normal) and can be dependent,
-		the dependence indicated by a graphical structure. Discrete
-		time survival analysis, zero-inflated Poisson regression, and
+		Aster Models // Aster models (Geyer, Wagenius, and Shaw, 2007,
+		doi:10.1093/biomet/asm030; Shaw, Geyer, Wagenius, Hangelbroek,
+		and Etterson, 2008, doi:10.1086/588063; Geyer, Ridley, Latta,
+		Etterson, and Shaw, 2013, doi:10.1214/13-AOAS653) are
+		exponential family regression models for life history analysis.
+		They are like generalized linear models except that elements of
+		the response vector can have different families (e. g., some
+		Bernoulli, some Poisson, some zero-truncated Poisson, some
+		normal) and can be dependent, the dependence indicated by a
+		graphical structure. Discrete time survival analysis, life
+		table analysis, zero-inflated Poisson regression, and
 		generalized linear models that are exponential family (e. g.,
 		logistic regression and Poisson regression with log link) are
 		special cases. Main use is for data in which there is survival
