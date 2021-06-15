@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Providing the Kubernetes-Like Functions for the Non-Kubernetes
+		Cloud Service // Providing the kubernetes-like class
+		'ManagedCloudProvider' as a child class of the 'CloudProvider'
+		class in the 'DockerParallel' package. The class is able to
+		manage the cloud instance made by the non-kubernetes cloud
+		service. For creating a provider for the non-kubernetes cloud
+		service, the developer needs to define a reference class
+		inherited from 'ManagedCloudProvider' and define the method for
+		the generics runDockerWorkerContainers(),
+		getDockerWorkerStatus() and killDockerWorkerContainers(). For
+		more information, please see the vignette in this package and
+		https://CRAN.R-project.org/package=DockerParallel.
+	</longdescription>
+</pkgmetadata>

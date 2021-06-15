@@ -6,7 +6,7 @@
 		Implements numerous methods for detecting heteroskedasticity
 		(sometimes called heteroscedasticity) in the classical linear
 		regression model. These include a test based on Anscombe (1961)
-		https://projecteuclid.org/ euclid.bsmsp/1200512155, Ramsey's
+		https://projecteuclid.org/euclid.bsmsp/1200512155, Ramsey's
 		(1969) BAMSET Test doi:10.1111/j.2517-6161.1969.tb00796.x, the
 		tests of Bickel (1978) doi:10.1214/aos/1176344124, Breusch and
 		Pagan (1979) doi:10.2307/1911963 with and without the
@@ -22,7 +22,8 @@
 		doi:10.1080/01621459.1969.10500976 as formulated by
 		Mittelhammer, Judge and Miller (2000, ISBN: 0-521-62394-4),
 		Godfrey and Orme (1999) doi:10.1080/07474939908800438, Goldfeld
-		and Quandt (1965) doi:10.1080/01621459.1965.10480811, Harvey
+		and Quandt (1965) doi:10.1080/01621459.1965.10480811, Harrison
+		and McCabe (1979) doi:10.1080/01621459.1979.10482544, Harvey
 		(1976) doi:10.2307/1913974, Honda (1989)
 		doi:10.1111/j.2517-6161.1989.tb01749.x, Horn (1981)
 		doi:10.1080/03610928108828074, Li and Yao (2019)
@@ -36,15 +37,17 @@
 		doi:10.2307/1913831, Verbyla (1993)
 		doi:10.1111/j.2517-6161.1993.tb01918.x, White (1980)
 		doi:10.2307/1912934, Wilcox and Keselman (2006)
-		doi:10.1080/10629360500107923, and Zhou, Song, and Thompson
-		(2015) doi:10.1002/cjs.11252. Besides these heteroskedasticity
-		tests, there are supporting functions that compute the BLUS
-		residuals of Theil (1965) doi:10.1080/01621459.1965.10480851,
-		the conditional two-sided p-values of Kulinskaya (2008)
-		arXiv:0810.2124v1, and probabilities for the nonparametric
-		trend statistic of Lehmann (1975, ISBN: 0-816-24996-1).
-		Homoskedasticity refers to the assumption of constant variance
-		that is imposed on the model errors (disturbances);
-		heteroskedasticity is the violation of this assumption.
+		doi:10.1080/10629360500107923, Yuce (2008)
+		https://dergipark.org.tr/en/pub/iuekois/issue/8989/112070, and
+		Zhou, Song, and Thompson (2015) doi:10.1002/cjs.11252. Besides
+		these heteroskedasticity tests, there are supporting functions
+		that compute the BLUS residuals of Theil (1965)
+		doi:10.1080/01621459.1965.10480851, the conditional two-sided
+		p-values of Kulinskaya (2008) arXiv:0810.2124v1, and
+		probabilities for the nonparametric trend statistic of Lehmann
+		(1975, ISBN: 0-816-24996-1). Homoskedasticity refers to the
+		assumption of constant variance that is imposed on the model
+		errors (disturbances); heteroskedasticity is the violation of
+		this assumption.
 	</longdescription>
 </pkgmetadata>
