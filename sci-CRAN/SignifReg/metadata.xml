@@ -2,13 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Consistent Significance Controlled Variable Selection in Linear
-		Regression // Provides significance controlled variable
-		selection algorithms with different directions (forward,
-		backward, stepwise) based on diverse criteria (AIC, BIC,
-		adjusted r-square, PRESS, or p-value). The algorithm selects a
-		final model with only significant variables based on a
-		correction choice of False Discovery Rate, Bonferroni, or no
-		correction.
+		Consistent Significance Controlled Variable Selection in
+		Generalized Linear Regression // Provides significance
+		controlled variable selection algorithms with different
+		directions (forward, backward, stepwise) based on diverse
+		criteria (AIC, BIC, adjusted r-square, PRESS, or p-value). The
+		algorithm selects a final model with only significant variables
+		defined as those with significant p-values after multiple
+		testing correction such as Bonferroni, False Discovery Rate,
+		etc.
 	</longdescription>
 </pkgmetadata>

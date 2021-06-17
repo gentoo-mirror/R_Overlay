@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculate 3D Contour Meshes Using the Marching Cubes Algorithm //
+		A port of the C++ routine for applying the marching cubes
+		algorithm written by Thomas Lewiner et al. (2012)
+		doi:10.1080/10867651.2003.10487582 into an R package. The
+		package supplies the contour3d() function, which takes a
+		3-dimensional array of voxel data and calculates the vertices,
+		vertex normals, and faces for a 3d mesh representing the
+		contour(s) at a given level.
+	</longdescription>
+</pkgmetadata>
