@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'MassSpectrometry' Interaction Prediction // The 'MSiP' is a
+		computational approach to predict protein-protein interactions
+		from large-scale affinity purification mass 'spectrometry' (AP-
+		MS) data. This approach includes both spoke and matrix models
+		for interpreting AP-MS data in a network context. The "spoke"
+		model considers only bait-prey interactions, whereas the
+		"matrix" model assumes that each of the identified proteins
+		(baits and prey) in a given AP-MS experiment interacts with
+		each of the others. The spoke model has a high false-negative
+		rate, whereas the matrix model has a high false-positive rate.
+		Although, both statistical models have merits, a combination of
+		both models has shown to increase the performance of machine
+		learning classifiers in terms of their capabilities in
+		discrimination between true and false positive interactions.
+	</longdescription>
+</pkgmetadata>
