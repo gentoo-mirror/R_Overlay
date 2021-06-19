@@ -2,9 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Stable Balancing Weights for Causal Inference and Estimation with
-		Incomplete Outcome Data // Implements the Stable Balancing
-		Weights by Zubizarreta (2015)
+		Stable Balancing Weights for Causal Inference and Missing Data //
+		Implements the Stable Balancing Weights by Zubizarreta (2015)
 		DOI:10.1080/01621459.2015.1023805. These are the weights of
 		minimum variance that approximately balance the empirical
 		distribution of the observed covariates. For an overview, see
@@ -13,6 +12,9 @@
 		in 'sbw', the default solver is 'quadprog', which is readily
 		available through CRAN. To enhance the performance of 'sbw',
 		users are encouraged to install other solvers such as 'gurobi'
-		and 'Rmosek', which require special installation.
+		and 'Rmosek', which require special installation. For the
+		installation of gurobi and pogs, please follow the instructions
+		at https://www.gurobi.com/documentation/9.1/quickstart_mac/r_in
+		s_the_r_package.html and http://foges.github.io/pogs/stp/r.
 	</longdescription>
 </pkgmetadata>
