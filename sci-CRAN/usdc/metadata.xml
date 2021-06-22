@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		USDC and Centre Stablecoin Blockchain Data // Client for data
+		sources to track current and historical 'usdc' circulation on
+		blockchains officially supported by the Centre Consortium
+		(Algorand, Ethereum, Solana, Stellar).  USDC is a dollar-backed
+		stablecoin issued by the Centre Consortium. This package
+		utilizes block explorer APIs to retrieve current circulation
+		data and the Coin Metrics API to retrieve historical metrics.
+		Additional utility functions are provided for charting and
+		looking up the metrics definitions for Coin Metrics V4 API,
+		which is documented at https://docs.coinmetrics.io/api/v4.
+	</longdescription>
+</pkgmetadata>

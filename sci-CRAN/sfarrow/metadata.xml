@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Read/Write Simple Feature Objects ('sf') with 'Apache' 'Arrow' //
+		Support for reading/writing simple feature ('sf') spatial
+		objects from/to 'Parquet' files. 'Parquet' files are an open-
+		source, column-oriented data storage format from Apache
+		(https://parquet.apache.org/), now popular across programming
+		languages. This implementation converts simple feature list
+		geometries into well-known binary format for use by 'arrow',
+		and coordinate reference system information is maintained in a
+		standard metadata format.
+	</longdescription>
+</pkgmetadata>
