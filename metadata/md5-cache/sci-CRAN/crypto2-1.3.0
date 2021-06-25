@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/progress sci-CRAN/tidyr sci-CRAN/cli sci-CRAN/purrr sci-CRAN/lubridate sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Download Crypto Currency Data fr... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_spelling byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/progress sci-CRAN/tidyr sci-CRAN/cli sci-CRAN/purrr sci-CRAN/lubridate sci-CRAN/jsonlite r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/crypto2_1.3.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	3c7381c56a184f0dd5ba3fb824808f30	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	9a53f21c753d823ba20a22f857c25cb4	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=8315c68d3b7e20fa748aed67f7c986a6

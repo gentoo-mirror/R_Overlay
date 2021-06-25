@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bootstrap Based Goodness-of-Fit Tests // Bootstrap based
+		goodness-of-fit tests. It allows to perform rigorous
+		statistical tests to check if a chosen model family is correct
+		based on the marked empirical process. The implemented
+		algorithms are described in (Dikta and Scheer (2021)
+		doi:10.1007/978-3-030-73480-0) and can be applied to
+		generalized linear models without any further implementation
+		effort. As far as certain linearity conditions are fulfilled
+		the resampling scheme are also applicable beyond generalized
+		linear models. This is reflected in the software architecture
+		which allows to reuse the resampling scheme by implementing
+		only certain interfaces for models that are not supported
+		natively by the package.
+	</longdescription>
+</pkgmetadata>
