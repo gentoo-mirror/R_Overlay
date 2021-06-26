@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=r_suggests_codetools? ( virtual/codetools ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mime? ( sci-CRAN/mime ) r_suggests_pak? ( sci-CRAN/pak ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_renv? ( sci-CRAN/renv ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_testit? ( sci-CRAN/testit ) r_suggests_tinytex? ( >=sci-CRAN/tinytex-0.30 ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/xfun_0.23.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	3c7381c56a184f0dd5ba3fb824808f30	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	9a53f21c753d823ba20a22f857c25cb4	R-packages	293008251793e17907015f0c6b58ecbf
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=c94a205283fd5801ba5d4f755242dce3

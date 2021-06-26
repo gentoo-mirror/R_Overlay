@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=sci-CRAN/knitr virtual/Matrix >=dev-lang/R-3.5.0 virtual/boot virtual/MASS virtual/mgcv virtual/nlme r_suggests_bbmle? ( sci-CRAN/bbmle ) r_suggests_car? ( sci-CRAN/car ) r_suggests_emmeans? ( sci-CRAN/emmeans ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_lattice? ( virtual/lattice ) r_suggests_minpack_lm? ( sci-CRAN/minpack_lm ) r_suggests_nistnls? ( sci-CRAN/NISTnls ) r_suggests_nls2? ( sci-CRAN/nls2 ) r_suggests_nlstools? ( sci-CRAN/nlstools ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_segmented? ( sci-CRAN/segmented ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/nlraa_0.83.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	3c7381c56a184f0dd5ba3fb824808f30	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	9a53f21c753d823ba20a22f857c25cb4	R-packages	293008251793e17907015f0c6b58ecbf
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
 _md5_=985bc5a4b3fdf22e64e035e7e88aaf80
