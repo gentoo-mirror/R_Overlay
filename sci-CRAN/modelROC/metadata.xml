@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model Based ROC Analysis // The ROC curve method is one of the
+		most important and commonly used methods for model accuracy
+		assessment, which is one of the most important elements of
+		model evaluation. The 'modelROC' package is a model-based ROC
+		assessment tool, which directly works for ROC analysis of
+		regression results for logistic regression of binary variables,
+		including the glm() and lrm() commands, and COX regression for
+		survival analysis, including the cph() and coxph() commands.
+		The most important feature of 'modelROC' is that both the model
+		and the independent variables can be analysed simultaneously,
+		and for survival analysis multiple time points and area under
+		the curve analysis are supported. Still, flexible visualisation
+		is possible with the 'ggplot2' package. Reference are Kelly H.
+		Zou (1998)
+		doi:10.1002/(sici)1097-0258(19971015)16:19%3C2143::aid-
+		sim655%3E3.0.co;2-3 and P J Heagerty (2000)
+		doi:10.1111/j.0006-341x.2000.00337.x.
+	</longdescription>
+</pkgmetadata>

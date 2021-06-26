@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/ROCit virtual/survival sci-CRAN/tmcn sci-CRAN/do dev-lang/R:=
+DESCRIPTION=Model Based ROC Analysis
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_ggdca r_suggests_rms byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/ROCit virtual/survival sci-CRAN/tmcn sci-CRAN/do r_suggests_ggdca? ( sci-CRAN/ggDCA ) r_suggests_rms? ( sci-CRAN/rms ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/modelROC_1.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	3c7381c56a184f0dd5ba3fb824808f30	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	9a53f21c753d823ba20a22f857c25cb4	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=6e3ff9579082b25ca608d215fc1111a8

@@ -2,9 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multivariate Bayesian Structural Time Series // Multivariate time
-		series regression using dynamic linear models fit by MCMC. See
-		Qiu, Jammalamadaka and Ning (2018)
-		http://www.jmlr.org/papers/volume19/18-009/18-009.pdf.
+		Multivariate Bayesian Structural Time Series // Tools for data
+		analysis with multivariate Bayesian structural time series
+		(MBSTS) models.  Specifically, the package provides facilities
+		for implementing general structural time series models,
+		flexibly adding on different time series components (trend,
+		season, cycle, and regression), simulating them, fitting them
+		to multivariate correlated time series data, conducting feature
+		selection on the regression component.
 	</longdescription>
 </pkgmetadata>
