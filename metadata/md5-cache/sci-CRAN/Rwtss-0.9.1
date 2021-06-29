@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/stringr sci-CRAN/httr sci-CRAN/reshape2 sci-CRAN/magrittr sci-CRAN/ggplot2 sci-CRAN/geosphere sci-CRAN/assertthat sci-CRAN/dplyr sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=Client for Web Time-Series Service
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_bfast r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_spelling r_suggests_testthat r_suggests_vcr byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/stringr sci-CRAN/httr sci-CRAN/reshape2 sci-CRAN/magrittr sci-CRAN/ggplot2 sci-CRAN/geosphere sci-CRAN/assertthat sci-CRAN/dplyr sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/zoo r_suggests_bfast? ( sci-CRAN/bfast ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vcr? ( sci-CRAN/vcr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Rwtss_0.9.1.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=7800c690bef667004b3bd2c3c35e2109
