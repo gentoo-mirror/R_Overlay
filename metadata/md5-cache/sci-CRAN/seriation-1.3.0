@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.14.0 virtual/MASS sci-CRAN/colorspace sci-CRAN/qap virtual/cluster sci-CRAN/registry sci-CRAN/TSP sci-CRAN/gclus dev-lang/R:=
+DESCRIPTION=Infrastructure for Ordering Obje... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dendextend r_suggests_dendser r_suggests_ga r_suggests_ggplot2 r_suggests_scales r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-2.14.0 virtual/MASS sci-CRAN/colorspace sci-CRAN/qap virtual/cluster sci-CRAN/registry sci-CRAN/TSP sci-CRAN/gclus r_suggests_dendextend? ( sci-CRAN/dendextend ) r_suggests_dendser? ( sci-CRAN/DendSer ) r_suggests_ga? ( sci-CRAN/GA ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/seriation_1.3.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=21b32c806dd3618210bdcb8508dd726f
