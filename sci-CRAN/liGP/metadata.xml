@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Locally Induced Gaussian Process Regression // Performs locally
+		induced approximate GP regression for large computer
+		experiments and spatial datasets following Cole D.A.,
+		Christianson, R., Gramacy, R.B. (2021) Statistics and
+		Computing, 31(3), 1-21, arXiv:2008.12857. The approximation is
+		based on small local designs combined with a set of inducing
+		points (latent design points) for predictions at particular
+		inputs. Parallelization is supported for generating predictions
+		over an immense out-of-sample testing set. Local optimization
+		of the inducing points design is provided based on variance-
+		based criteria. Inducing point template schemes, including
+		scaling of space-filling designs, are also provided.
+	</longdescription>
+</pkgmetadata>
