@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Conditional Multivariate Reference Regions // An R package for
+		estimating conditional multivariate reference regions. The
+		reference region is non parametrically estimated using a kernel
+		density estimator. Covariates effects on the multivariate
+		response means vector and variance-covariance matrix, thus on
+		the region shape, are estimated by flexible additive
+		predictors. Continuous covariates non linear effects might be
+		estimated using penalized splines smoothers. Confidence
+		intervals for the covariates estimated effects might be derived
+		from bootstrap resampling. Kernel density bandwidth can be
+		estimated with different methods, including a method that
+		optimize the region coverage. Numerical, and graphical,
+		summaries can be obtained by the user in order to evaluate
+		reference region performance with real data. Full mathematical
+		details can be found in doi:10.1007/s00477-020-01901-1.
+	</longdescription>
+</pkgmetadata>
