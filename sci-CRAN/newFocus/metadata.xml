@@ -2,15 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		True Discovery Guarantee by the New Focus Level Procedure // A
-		new focus level procedure is developed based on the old focus
-		level procedure of Goeman and Mansmann (2008)
-		doi:10.1093/bioinformatics/btm628 and the closed testing
-		procedure with globaltest of Xu and Goeman (2020)
-		arXiv:2001.01541. It produces the lower bound for the number of
-		true discoveries in any gene set or GO (Gene Ontology) term. It
-		is more powerful for the focus level GO terms chosen by user
-		before seeing the data than the non-focus level GO terms or
-		gene sets chosen after seeing the data.
+		True Discovery Guarantee by Combining Partial Closed Testings //
+		Closed testing has been proved powerful for true discovery
+		guarantee. The computation of closed testing is, however, quite
+		burdensome. A general way to reduce computational complexity is
+		to combine partial closed testings for some prespecified
+		feature sets of interest. Partial closed testings are performed
+		at Bonferroni-corrected alpha level to guarantee the lower
+		bounds for the number of true discoveries in prespecified sets
+		are simultaneously valid. For any post hoc chosen sets of
+		interest, coherence property is used to get the lower bound. In
+		this package, we implement closed testing with globaltest to
+		calculate the lower bound for number of true discoveries, see
+		Ningning Xu et.al (2021) arXiv:2001.01541 for detailed
+		description.
 	</longdescription>
 </pkgmetadata>
