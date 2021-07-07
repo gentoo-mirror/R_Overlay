@@ -5,9 +5,11 @@
 		Nonparametric Multiple Change Point Detection Using WBS //
 		Implements the procedure from G. J. Ross (2021) -
 		"Nonparametric Detection of Multiple Location-Scale Change
-		Points via Wild Binary Segmentation". This uses a version of
-		Wild Binary Segmentation to detect location-scale (i.e. mean
-		and/or variance) changes in a sequence of univariate
-		observations.
+		Points via Wild Binary Segmentation" arxiv:2107.01742. This
+		uses a version of Wild Binary Segmentation to detect multiple
+		location-scale (i.e. mean and/or variance) change points in a
+		sequence of univariate observations, with a strict control on
+		the probability of incorrectly detecting a change point in a
+		sequence which does not contain any.
 	</longdescription>
 </pkgmetadata>
