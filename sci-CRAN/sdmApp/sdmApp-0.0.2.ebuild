@@ -1,0 +1,60 @@
+# Copyright 1999-2021 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='A User-Friendly Application for ... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/sdmApp_0.0.2.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_automap r_suggests_blockcv r_suggests_covr
+	r_suggests_cowplot r_suggests_data_table r_suggests_dismo
+	r_suggests_dplyr r_suggests_dt r_suggests_future_apply
+	r_suggests_ggcorrplot r_suggests_ggplot2 r_suggests_haven
+	r_suggests_kernlab r_suggests_knitr r_suggests_randomforest
+	r_suggests_readxl r_suggests_rgeos r_suggests_rhandsontable
+	r_suggests_rjava r_suggests_rmarkdown r_suggests_sf
+	r_suggests_shinybs r_suggests_shinyfiles r_suggests_ssdm
+	r_suggests_testthat r_suggests_tidyr"
+R_SUGGESTS="
+	r_suggests_automap? ( >=sci-CRAN/automap-1.0.14 )
+	r_suggests_blockcv? ( >=sci-CRAN/blockCV-2.1.1 )
+	r_suggests_covr? ( sci-CRAN/covr )
+	r_suggests_cowplot? ( >=sci-CRAN/cowplot-1.1.1 )
+	r_suggests_data_table? ( sci-CRAN/data_table )
+	r_suggests_dismo? ( >=sci-CRAN/dismo-1.0.12 )
+	r_suggests_dplyr? ( >=sci-CRAN/dplyr-1.0.3 )
+	r_suggests_dt? ( sci-CRAN/DT )
+	r_suggests_future_apply? ( sci-CRAN/future_apply )
+	r_suggests_ggcorrplot? ( >=sci-CRAN/ggcorrplot-0.1.3 )
+	r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.1.1 )
+	r_suggests_haven? ( >=sci-CRAN/haven-2.3.1 )
+	r_suggests_kernlab? ( >=sci-CRAN/kernlab-0.9.29 )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_randomforest? ( >=sci-CRAN/randomForest-4.6.10 )
+	r_suggests_readxl? ( >=sci-CRAN/readxl-1.3.1 )
+	r_suggests_rgeos? ( >=sci-CRAN/rgeos-0.3.8 )
+	r_suggests_rhandsontable? ( >=sci-CRAN/rhandsontable-0.3.7 )
+	r_suggests_rjava? ( >=sci-CRAN/rJava-0.9.13 )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_sf? ( sci-CRAN/sf )
+	r_suggests_shinybs? ( >=sci-CRAN/shinyBS-0.61 )
+	r_suggests_shinyfiles? ( >=sci-CRAN/shinyFiles-0.7.0 )
+	r_suggests_ssdm? ( >=sci-CRAN/SSDM-0.2.8 )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+	r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.1.2 )
+"
+DEPEND=">=dev-lang/R-3.5.0
+	>=sci-CRAN/sp-1.2.0
+	>=sci-CRAN/raster-2.6.7
+	>=sci-CRAN/shiny-0.12.2
+"
+RDEPEND="${DEPEND-}
+	virtual/jdk
+	${R_SUGGESTS-}
+"
+
+_UNRESOLVED_PACKAGES=( '>=sci-CRAN/rgdal-1.5.8' )

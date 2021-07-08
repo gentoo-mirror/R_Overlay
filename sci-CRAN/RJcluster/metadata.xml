@@ -2,17 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		RJ Clustering Algorithm // Clustering algorithm for high
-		dimensional data. This algorithm is ideal for data where N  P.
-		Assuming that P feature measurements on N objects are arranged
-		in an NP matrix X, this package provides clustering based on
-		the left Gram matrix XX^T. When the P-dimensional feature
-		vectors of objects are drawn independently from a K distinct
-		mixture distribution,  the N-dimensional  rows of the modified
-		Gram matrix XX^T/P converges almost surely to K distinct
-		cluster means. This transformation/projection thus allows  the
-		clusters  to  be  tighter  with  order of P.  To simulate data,
-		type "help('simulate_HD_data')" and to learn how to use the
-		clustering algorithm, type "help('RJclust')".
+		A Fast Clustering Algorithm for High Dimensional Data Based on
+		the Gram Matrix Decomposition // Clustering algorithm for high
+		dimensional data. Assuming that P feature measurements on N
+		objects are arranged in an NP matrix X, this package provides
+		clustering based on the left Gram matrix XX^T. To simulate test
+		data, type "help('simulate_HD_data')" and to learn how to use
+		the clustering algorithm, type "help('RJclust')". To cite this
+		package, type 'citation("RJcluster")'.
 	</longdescription>
 </pkgmetadata>

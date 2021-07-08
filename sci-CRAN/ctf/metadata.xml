@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Read and Write Column Text Format (CTF) // Column Text Format
+		(CTF) is a new tabular data format designed for simplicity and
+		performance. CTF is the simplest column store you can imagine:
+		plain text files for each column in a table, and a metadata
+		file. The underlying plain text means the data is human
+		readable and familiar to programmers, unlike specialized binary
+		formats. CTF is faster than row oriented formats like CSV when
+		loading a subset of the columns in a table. This package
+		provides functions to read and write CTF data from R.
+	</longdescription>
+</pkgmetadata>
