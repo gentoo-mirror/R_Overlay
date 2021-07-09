@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Constructs a Correlated Pseudo-Marginal Sampler // The primary
+		function makeCPMSampler() generates a sampler function which
+		performs the correlated pseudo-marginal method of
+		Deligiannidis, Doucet and Pitt (2017) arXiv:1511.04992. If the
+		'rho=' argument of makeCPMSampler() is set to 0, then the
+		generated sampler function performs the original pseudo-
+		marginal method of Andrieu and Roberts (2009)
+		DOI:10.1214/07-AOS574. The sampler function is constructed with
+		the user's choice of prior, parameter proposal distribution,
+		and the likelihood approximation scheme. Note that this
+		algorithm is not automatically tuned--each one of these
+		arguments must be carefully chosen.
+	</longdescription>
+</pkgmetadata>
