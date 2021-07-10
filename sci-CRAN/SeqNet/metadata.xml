@@ -4,8 +4,9 @@
 	<longdescription>
 		Generate RNA-Seq Data from Gene-Gene Association Networks //
 		Methods to generate random gene-gene association networks and
-		simulate RNA-seq data from them. Includes functions to generate
-		random networks of any size and perturb them to obtain
+		simulate RNA-seq data from them, as described in Grimes and
+		Datta (2021) doi:10.18637/jss.v098.i12. Includes functions to
+		generate random networks of any size and perturb them to obtain
 		differential networks. Network objects are built from
 		individual, overlapping modules that represent pathways. The
 		resulting network has various topological properties that are
