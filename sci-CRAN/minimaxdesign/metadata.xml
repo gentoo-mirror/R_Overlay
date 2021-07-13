@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Minimax and Minimax Projection Designs // Provides two main
+		functions, minimax() and miniMaxPro(), for computing minimax
+		and minimax projection designs using the minimax clustering
+		algorithm in Mak and Joseph (2018)
+		DOI:10.1080/10618600.2017.1302881. Current design region
+		options include the unit hypercube ("hypercube"), the unit
+		simplex ("simplex"), the unit ball ("ball"), as well as user-
+		defined constraints on the unit hypercube ("custom"). Minimax
+		designs can also be computed on user-provided images using the
+		function minimax.map(). Design quality can be assessed using
+		the function mMdist(), which computes the minimax (fill)
+		distance of a design.
+	</longdescription>
+</pkgmetadata>
