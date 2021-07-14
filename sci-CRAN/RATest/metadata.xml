@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<longdescription>
 		Randomization Tests // A collection of randomization tests, data
-		sets and examples. The current version focuses on four testing
+		sets and examples. The current version focuses on five testing
 		problems and their implementation in empirical work. First, it
 		facilitates the empirical researcher to test for particular
 		hypotheses, such as comparisons of means, medians, and
@@ -17,17 +17,20 @@
 		as in Canay and Kamat (2018) https://goo.gl/UZFqt7. More
 		specifically, it allows the user to select a set of covariates
 		and test the aforementioned hypothesis using a permutation test
-		based on the Cramer-von Miss test statistic. Graphical
+		based on the Cramer-von Misses test statistic. Graphical
 		inspection of the empirical CDF and histograms for the
 		variables of interest is also supported in the package. Third,
 		it provides the practitioner with an effortless implementation
 		of a permutation test based on the martingale decomposition of
 		the empirical process for testing for heterogeneous treatment
 		effects in the presence of an estimated nuisance parameter as
-		in Chung and Olivares (2020) https://rb.gy/dwbbyx. Lastly, this
-		version considers the two-sample goodness-of-fit testing
-		problem under covariate adaptive randomization and implements a
-		permutation test based on a prepivoted Kolmogorov-Smirnov test
-		statistic.
+		in Chung and Olivares (2021) doi:10.1016/j.jeconom.2020.09.015.
+		Fourth, this version considers the two-sample goodness-of-fit
+		testing problem under covariate adaptive randomization and
+		implements a permutation test based on a prepivoted Kolmogorov-
+		Smirnov test statistic. Lastly, it implements an asymptotically
+		valid permutation test based on the quantile process for the
+		hypothesis of constant quantile treatment effects in the
+		presence of an estimated nuisance parameter.
 	</longdescription>
 </pkgmetadata>

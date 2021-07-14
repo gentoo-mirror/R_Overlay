@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast C++ Primitives for the 'NeuroAnatomy Toolbox' // Fast
+		functions implemented in C++ via 'Rcpp' to support the
+		'NeuroAnatomy Toolbox' ('nat') ecosystem. These functions
+		provide large speed-ups for basic manipulation of neuronal
+		skeletons over pure R functions found in the 'nat' package. The
+		expectation is that end users will not use this package
+		directly, but instead the 'nat' package will automatically use
+		routines from this package when it is available to enable large
+		performance gains.
+	</longdescription>
+</pkgmetadata>
