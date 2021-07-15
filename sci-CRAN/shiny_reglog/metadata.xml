@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optional Login and Registration Module System for ShinyApps //
+		Package creates UI modules for Login, Register and Password
+		Reset boxes and server module for reading and writing user
+		database contained within googlesheet or sqlite file. Creates
+		automatic e-mail messages after registration and for resetting
+		password procedure. Currently supports English language
+		(default) and Polish. The authentication system created with
+		shiny.reglog is designed to be optional: user don't need to be
+		logged-in to access your application, but when logged-in the
+		user data can be used to read from and write to relational
+		databases.
+	</longdescription>
+</pkgmetadata>

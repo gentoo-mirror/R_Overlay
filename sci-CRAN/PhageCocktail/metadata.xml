@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Design of the Best Phage Cocktail // There are 4 possible
+		methods: "ExhaustiveSearch"; "ExhaustivePhi";
+		"ClusteringSearch"; and "ClusteringPhi". "ExhaustiveSearch"--
+		gives you the best phage cocktail from a phage-bacteria
+		infection network. It checks different phage cocktail sizes
+		from 1 to 7 and only stops before if it lyses all bacteria.
+		Other option is when users have decided not to obtain a phage
+		cocktail size higher than a limit value. "ExhaustivePhi"--
+		firstly, it finds Phi out. Phi is a formula indicating the
+		necessary phage cocktail size. Phi needs nestedness temperature
+		and fill, which are internally calculated. This function will
+		only look for the best combination (phage cocktail) with a Phi
+		size. "ClusteringSearch"-- firstly, an agglomerative
+		hierarchical clustering using Ward's algorithm is calculated
+		for phages. They will be clustered according to bacteria lysed
+		by them. PhageCocktail() chooses how many clusters are needed
+		in order to select 1 phage per cluster. Using the phages
+		selected during the clustering, it checks different phage
+		cocktail sizes from 1 to 7 and only stops before if it lyses
+		all bacteria. Other option is when users have decided not to
+		obtain a phage cocktail size higher than a limit value.
+		"ClusteringPhi"-- firstly, an agglomerative hierarchical
+		clustering using Ward's algorithm is calculated for phages.
+		They will be clustered according to bacteria lysed by them.
+		PhageCocktail() chooses how many clusters are needed in order
+		to select 1 phage per cluster. Once the function has one phage
+		per cluster, it calculates Phi. If the number of clusters is
+		less than Phi number, it will be changed to obtain, as minimum,
+		this quantity of candidates (phages). Then, it calculates the
+		best combination of Phi phages using those selected during the
+		clustering with Ward algorithm.
+	</longdescription>
+</pkgmetadata>
