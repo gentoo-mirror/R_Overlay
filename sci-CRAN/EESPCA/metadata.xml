@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Eigenvectors from Eigenvalues Sparse Principal Component Analysis
+		(EESPCA) // Contains logic for computing sparse principal
+		components via the EESPCA method, which is based on an
+		approximation of the eigenvector/eigenvalue identity. Includes
+		logic to support execution of the TPower and rifle sparse PCA
+		methods, as well as logic to estimate the sparsity parameters
+		used by EESPCA, TPower and rifle via cross-validation to
+		minimize the out-of-sample reconstruction error. H. Robert
+		Frost (2021) arXiv:2006.01924.
+	</longdescription>
+</pkgmetadata>
