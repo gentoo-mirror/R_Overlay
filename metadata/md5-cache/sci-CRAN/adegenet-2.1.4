@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/seqinr sci-CRAN/ape sci-CRAN/ggplot2 sci-CRAN/shiny virtual/boot sci-CRAN/vegan >=dev-lang/R-2.14 sci-CRAN/ade4 sci-CRAN/igraph sci-CRAN/spdep sci-CRAN/reshape2 >=sci-CRAN/dplyr-0.4.1 dev-lang/R:=
+DESCRIPTION=Exploratory Analysis of Genetic and Genomic Data
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_akima r_suggests_maps r_suggests_pegas r_suggests_poppr r_suggests_splancs r_suggests_testthat r_suggests_tripack byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=virtual/MASS sci-CRAN/seqinr sci-CRAN/ape sci-CRAN/ggplot2 sci-CRAN/shiny virtual/boot sci-CRAN/vegan >=dev-lang/R-2.14 sci-CRAN/ade4 sci-CRAN/igraph sci-CRAN/spdep sci-CRAN/reshape2 >=sci-CRAN/dplyr-0.4.1 r_suggests_akima? ( sci-CRAN/akima ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_pegas? ( sci-CRAN/pegas ) r_suggests_poppr? ( sci-CRAN/poppr ) r_suggests_splancs? ( sci-CRAN/splancs ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tripack? ( sci-CRAN/tripack ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/adegenet_2.1.4.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=611ac95477704c0793f55ed4789a0d0a
