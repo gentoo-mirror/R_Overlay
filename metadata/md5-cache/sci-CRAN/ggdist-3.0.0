@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/ggplot2-3.3.5 >=sci-CRAN/rlang-0.3.0 >=sci-CRAN/dplyr-1.0.0 sci-CRAN/tidyselect sci-CRAN/scales sci-CRAN/HDInterval sci-CRAN/tibble sci-CRAN/vctrs sci-CRAN/withr >=sci-CRAN/distributional-0.2.0 dev-lang/R:=
+DESCRIPTION=Visualizations of Distributions and Uncertainty
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_beeswarm r_suggests_broom r_suggests_covr r_suggests_cowplot r_suggests_fda r_suggests_forcats r_suggests_gdtools r_suggests_knitr r_suggests_modelr r_suggests_png r_suggests_posterior r_suggests_purrr r_suggests_rmarkdown r_suggests_svglite r_suggests_testthat r_suggests_tidyr r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/ggplot2-3.3.5 >=sci-CRAN/rlang-0.3.0 >=sci-CRAN/dplyr-1.0.0 sci-CRAN/tidyselect sci-CRAN/scales sci-CRAN/HDInterval sci-CRAN/tibble sci-CRAN/vctrs sci-CRAN/withr >=sci-CRAN/distributional-0.2.0 r_suggests_beeswarm? ( >=sci-CRAN/beeswarm-0.4.0 ) r_suggests_broom? ( >=sci-CRAN/broom-0.5.6 ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_fda? ( sci-CRAN/fda ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_gdtools? ( sci-CRAN/gdtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_modelr? ( sci-CRAN/modelr ) r_suggests_png? ( sci-CRAN/png ) r_suggests_posterior? ( sci-CRAN/posterior ) r_suggests_purrr? ( >=sci-CRAN/purrr-0.2.3 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_svglite? ( sci-CRAN/svglite ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.0.0 ) r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-1.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggdist_3.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=7ad83cc5c39d3c8f54cc46d91957413a
