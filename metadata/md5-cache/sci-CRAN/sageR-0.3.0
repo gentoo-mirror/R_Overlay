@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Applied Statistics for Economics... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_car r_suggests_covr r_suggests_desctools r_suggests_devtools r_suggests_dplyr r_suggests_extrafont r_suggests_ggally r_suggests_ggiraphextra r_suggests_knitr r_suggests_lattice r_suggests_learnr r_suggests_markdown r_suggests_matrix r_suggests_mgcv r_suggests_pmcmr r_suggests_pmcmrplus r_suggests_prettydoc r_suggests_rmarkdown r_suggests_scales r_suggests_spatstat r_suggests_spatstat_data r_suggests_spelling r_suggests_testthat r_suggests_tibble r_suggests_vcd r_suggests_vgam byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 r_suggests_car? ( sci-CRAN/car ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_desctools? ( sci-CRAN/DescTools ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_extrafont? ( sci-CRAN/extrafont ) r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_ggiraphextra? ( sci-CRAN/ggiraphExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_learnr? ( sci-CRAN/learnr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_pmcmr? ( sci-CRAN/PMCMR ) r_suggests_pmcmrplus? ( sci-CRAN/PMCMRplus ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_spatstat? ( sci-CRAN/spatstat ) r_suggests_spatstat_data? ( sci-CRAN/spatstat_data ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_vcd? ( sci-CRAN/vcd ) r_suggests_vgam? ( sci-CRAN/VGAM ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sageR_0.3.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=b6eec362f47e838c57d5eb00673be1d1
