@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Anthology of Mixture Analysis Tools // Fits finite Bayesian
+		mixture models with a random number of components. The MCMC
+		algorithm implemented is based on point processes as proposed
+		by Argiento and De Iorio (2019) arXiv:1904.09733 and offers a
+		more computationally efficient alternative to reversible jump.
+		Different mixture kernels can be specified: univariate
+		Gaussian, multivariate Gaussian, univariate Poisson, and
+		multivariate Bernoulli (latent class analysis). For the
+		parameters characterising the mixture kernel, we specify
+		conjugate priors, with possibly user specified hyper-
+		parameters. We allow for different choices for the prior on the
+		number of components: shifted Poisson, negative binomial, and
+		point masses (i.e. mixtures with fixed number of components).
+	</longdescription>
+</pkgmetadata>
