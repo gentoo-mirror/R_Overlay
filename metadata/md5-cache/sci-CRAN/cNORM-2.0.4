@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/leaps-3.0 virtual/lattice virtual/lattice dev-lang/R:=
+DESCRIPTION=Continuous Norming
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_foreign r_suggests_knitr r_suggests_readxl r_suggests_rmarkdown r_suggests_shiny r_suggests_shinycssloaders r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/leaps-3.0 virtual/lattice virtual/lattice r_suggests_foreign? ( virtual/foreign ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_shinycssloaders? ( sci-CRAN/shinycssloaders ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cNORM_2.0.4.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=9cbc2f66dc11c30a7ba8d6f9e78d7f6e

@@ -7,7 +7,8 @@
 		('RPDR') text queries from Partners Healthcare institutions
 		into R. The package also provides helper functions to
 		manipulate data and execute common procedures such as finding
-		the closest radiological exams considering a given timepoint.
+		the closest radiological exams considering a given timepoint,
+		or creating a DICOM header database from the downloaded images.
 		'parseRPDR' currently supports txt sources: "mrn", "con",
 		"dem", "enc", "rdt", "lab", "med", "dia", "rfv", "prc", "phy",
 		"lno", "car", "dis", "end", "hnp", "opn", "pat", "prg", "pul",
