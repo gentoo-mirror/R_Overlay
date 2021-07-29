@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS >=sci-CRAN/robustbase-0.93.5 >=sci-CRAN/ergm-4.1.0 >=sci-CRAN/networkDynamic-0.10.0 >=sci-CRAN/network-1.15 >=sci-CRAN/coda-0.19.2 virtual/nlme >=sci-CRAN/statnet_common-4.4.0 sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Fit, Simulate and Diagnose Model... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_lattice r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=virtual/MASS >=sci-CRAN/robustbase-0.93.5 >=sci-CRAN/ergm-4.1.0 >=sci-CRAN/networkDynamic-0.10.0 >=sci-CRAN/network-1.15 >=sci-CRAN/coda-0.19.2 virtual/nlme >=sci-CRAN/statnet_common-4.4.0 sci-CRAN/purrr sci-CRAN/ergm r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.22 ) r_suggests_lattice? ( virtual/lattice ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.12 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tergm_4.0.2.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=26846e34fa15ffc6cb4b78f7be679f57
