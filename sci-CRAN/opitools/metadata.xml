@@ -2,15 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Tool for Analyzing Opinions in a Text Document // This tool
-		analyzes the opinions inherent in a text document relating to a
-		specific subject (A), and assesses the impacts that opinion
-		expressed with respect to another subject (B) have on subject
-		A. This package is specifically designed for application to
-		social media datasets, such as Twitter and Facebook. The
-		utility of the package has been demonstrated in Adepeju and
-		Jimoh (2021) doi:10.31235/osf.io/c32qh in the assessment of
-		impacts of COVID-19 pandemic on public opinions concerning
-		neighborhood policing across England and Wales.
+		Analyzing the Opinions in a Big Text Document // Designed for
+		performing impact analysis of opinions in a digital text
+		document (DTD). The package allows a user to assess the extent
+		to which a theme or subject within a document impacts the
+		overall opinion expressed in the document. The package can be
+		applied to a wide range of opinion-based DTD, including
+		commentaries on social media platforms (such as 'Facebook',
+		'Twitter' and 'Youtube'), online products reviews, and so on.
+		The utility of 'opitools' was originally demonstrated in
+		Adepeju and Jimoh (2021) doi:10.31235/osf.io/c32qh in the
+		assessment of COVID-19 impacts on neighbourhood policing using
+		Twitter data. Further examples can be found in the vignette of
+		the package.
 	</longdescription>
 </pkgmetadata>
