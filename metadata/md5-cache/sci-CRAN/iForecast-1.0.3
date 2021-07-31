@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/magrittr sci-CRAN/zoo sci-CRAN/caret dev-lang/R:=
+DESCRIPTION=Machine Learning Time Series Forecasting
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_desctools r_suggests_forecast r_suggests_h2o r_suggests_kernlab r_suggests_lubridate r_suggests_tibble r_suggests_timedate r_suggests_timeseries r_suggests_timetk byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/magrittr sci-CRAN/zoo sci-CRAN/caret r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_desctools? ( sci-CRAN/DescTools ) r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_h2o? ( sci-CRAN/h2o ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_timedate? ( sci-CRAN/timeDate ) r_suggests_timeseries? ( sci-CRAN/timeSeries ) r_suggests_timetk? ( sci-CRAN/timetk ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/iForecast_1.0.3.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=5775e9517450d3f9eb137a7b055dc017
