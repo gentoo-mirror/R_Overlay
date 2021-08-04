@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/backports >=sci-CRAN/mlr3-0.10 >=sci-CRAN/data_table-1.13.6 >=sci-CRAN/checkmate-2.0.0 >=sci-CRAN/mlr3misc-0.8.0 >=sci-CRAN/mlr3pipelines-0.3.0 >=sci-CRAN/R6-2.4.1 virtual/rpart >=dev-lang/R-3.1.0 sci-CRAN/glmnet dev-lang/R:=
+DESCRIPTION=Multi-Calibration Boosting
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_curl r_suggests_formattable r_suggests_knitr r_suggests_mlr3learners r_suggests_mlr3oml r_suggests_neuralnet r_suggests_paradox r_suggests_practools r_suggests_ranger r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64
+LICENSE=LGPL-3+
+RDEPEND=sci-CRAN/backports >=sci-CRAN/mlr3-0.10 >=sci-CRAN/data_table-1.13.6 >=sci-CRAN/checkmate-2.0.0 >=sci-CRAN/mlr3misc-0.8.0 >=sci-CRAN/mlr3pipelines-0.3.0 >=sci-CRAN/R6-2.4.1 virtual/rpart >=dev-lang/R-3.1.0 sci-CRAN/glmnet r_suggests_covr? ( sci-CRAN/covr ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_formattable? ( sci-CRAN/formattable ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mlr3learners? ( sci-CRAN/mlr3learners ) r_suggests_mlr3oml? ( sci-CRAN/mlr3oml ) r_suggests_neuralnet? ( sci-CRAN/neuralnet ) r_suggests_paradox? ( sci-CRAN/paradox ) r_suggests_practools? ( sci-CRAN/PracTools ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mcboost_0.3.3.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=d2494a65b859a58717246c662c0e5d2b
