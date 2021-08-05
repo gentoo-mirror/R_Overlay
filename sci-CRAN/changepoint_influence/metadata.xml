@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Package to Calculate the Influence of the Data on a Changepoint
+		Segmentation // Allows users to input their data, segmentation
+		and function used for the segmentation (and additional
+		arguments) and the package calculates the influence of the data
+		on the changepoint locations, see Wilms et al. (2021)
+		arXiv:2107.10572.  Currently this can only be used with the
+		changepoint package functions to identify changes, but we plan
+		to extend this.  There are options for different types of
+		graphics to assess the influence.
+	</longdescription>
+</pkgmetadata>

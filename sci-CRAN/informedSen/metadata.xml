@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sensitivity Analysis Informed by a Test for Bias // After testing
+		for biased treatment assignment in an observational study using
+		an unaffected outcome, the sensitivity analysis is constrained
+		to be compatible with that test.  The package uses the
+		optimization software gurobi obtainable from
+		https://www.gurobi.com/, together with its associated R
+		package, also called gurobi; see: https://www.gurobi.com/docume
+		ntation/7.0/refman/installing_the_r_package.html.  The method
+		is a substantial computational and practical enhancement of a
+		concept introduced in Rosenbaum (1992) Detecting bias with
+		confidence in observational studies Biometrika, 79(2), 367-374
+		doi:10.1093/biomet/79.2.367.
+	</longdescription>
+</pkgmetadata>
