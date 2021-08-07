@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		R6 Class for Structural Causal Models // The implemented R6 class
+		'SCM' aims to simplify working with structural causal models.
+		The missing data mechanism can be defined as a part of the
+		structural model. The class contains methods for 1) defining a
+		structural causal model via functions, text or conditional
+		probability tables, 2) printing basic information on the model,
+		3) plotting the graph for the model using packages 'igraph' or
+		'qgraph', 4) simulating data from the model, 5) applying an
+		intervention, 6) checking the identifiability of a query using
+		the R packages 'causaleffect' and 'dosearch', 7) defining the
+		missing data mechanism, 8) simulating incomplete data from the
+		model according to the specified missing data mechanism and 9)
+		checking the identifiability in a missing data problem using
+		the R package 'dosearch'. In addition, there are functions for
+		running experiments and doing counterfactual inference using
+		simulation.
+	</longdescription>
+</pkgmetadata>

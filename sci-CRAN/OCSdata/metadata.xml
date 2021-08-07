@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Download Data from the 'Open Case Studies' Repository // Provides
+		functions to access and download data from the 'Open Case
+		Studies' https://www.opencasestudies.org/ repositories on
+		'GitHub' https://github.com/opencasestudies. Different
+		functions enable users to grab the data they need at different
+		sections in the case study, as well as download the whole case
+		study repository. All the user needs to do is input the name of
+		the case study being worked on. The package relies on the
+		httr::GET() function to access files through the 'GitHub' API.
+		The functions usethis::use_zip() and
+		usethis::create_from_github() are used to clone and/or download
+		the case study repositories.
+		https://github.com/opencasestudies/ocs-bp-rural-and-urban-
+		obesity https://github.com/opencasestudies/ocs-bp-air-pollution
+		https://github.com/opencasestudies/ocs-bp-vaping-case-study
+		https://github.com/opencasestudies/ocs-bp-opioid-rural-urban
+		https://github.com/opencasestudies/ocs-bp-RTC-wrangling
+		https://github.com/opencasestudies/ocs-bp-RTC-analysis
+		https://github.com/opencasestudies/ocs-bp-youth-disconnection
+		https://github.com/opencasestudies/ocs-bp-youth-mental-health
+		https://github.com/opencasestudies/ocs-bp-school-shootings-
+		dashboard https://github.com/opencasestudies/ocs-bp-
+		co2-emissions https://github.com/opencasestudies/ocs-bp-diet.
+	</longdescription>
+</pkgmetadata>

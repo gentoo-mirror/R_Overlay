@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Splitting-Coalescence-Estimation Method // We introduce improved
+		methods for statistically assessing birth seasonality and
+		intra-annual variation. The first method we propose is a new
+		idea that uses a nonparametric clustering procedure to group
+		individuals with similar time series data and estimate birth
+		seasonality based on the clusters. One can use the function
+		SCEM() to implement this method. The second method estimates
+		input parameters for use with a previously-developed parametric
+		approach (Tornero et al., 2013). The relevant code for this
+		approach is makeFits_OLS(), while makeFits_initial() is the
+		code to implement the same method but with given initial
+		conditions for two parameters. The latter can be used to show
+		the disadvantage of the existing approach. One can use the
+		function makeFits() to generate parametric birth seasonality
+		estimates using either initialization. Detailed description can
+		be found here: Chazin Hannah, Soudeep Deb, Joshua Falk, and
+		Arun Srinivasan. (2019) "New Statistical Approaches to Intra-
+		Individual Isotopic Analysis and Modeling Birth Seasonality in
+		Studies of Herd Animals." doi:10.1111/arcm.12432.
+	</longdescription>
+</pkgmetadata>
