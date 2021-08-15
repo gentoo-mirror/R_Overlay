@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Download and Run Cargo, the Rust Package Manager // Help is
-		provided to run 'Cargo' https://doc.rust-lang.org/cargo/ (the
-		'Rust' https://www.rust-lang.org/ package manager). Other
-		packages based on Rust can declare 'LinkingTo: cargo' in their
-		DESCRIPTION file and then use Cargo during the installation of
-		their source package.
+		Develop R Packages using Rust // A framework is provided to
+		transparently develop R packages using 'Rust' https://www.rust-
+		lang.org/ with minimal overhead, and more wrappers are easily
+		added. Help is provided to run 'Cargo' https://doc.rust-
+		lang.org/cargo/ in a manner consistent with CRAN policies. Rust
+		code can also be embedded directly in an R script.
 	</longdescription>
 </pkgmetadata>

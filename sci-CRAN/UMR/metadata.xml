@@ -6,10 +6,11 @@
 		the regression setting where covariates and predictors are
 		collected separately/independently and so are not paired
 		together, as in the usual regression setting.   Balabdaoui,
-		Doss, and Durot (2020) arXiv:2007.00830 study the unmatched
+		Doss, and Durot (2021) arXiv:2007.00830    study the unmatched
 		regression setting where the univariate regression function is
-		known to be monotone.     This package implements (two)
-		gradient    descent method(s) to compute the estimator
-		developed in  Balabdaoui, Doss, and Durot (2020).
+		known to    be monotone.     This package implements methods
+		for computing  the estimator developed in  Balabdaoui, Doss,
+		and Durot (2021).  The main method is an active-set-trust-
+		region-based method.
 	</longdescription>
 </pkgmetadata>
