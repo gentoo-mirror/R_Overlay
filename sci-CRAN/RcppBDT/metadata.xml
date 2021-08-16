@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Rcpp bindings for the Boost Date_Time library // This package
-		provides R with access to Boost Date_Time functionality by
-		using Rcpp modules. . Functionality from Boost Date_Time for
-		dates, durations (both for days and datetimes), timezones, and
-		posix time ("ptime") is provided. The posix time implementation
-		can support high-resolution of up to nano-second precision by
-		using 96 bits (instead of R's 64) to present a ptime object.
+		'Rcpp' Bindings for the Boost Date_Time Library // Access to
+		Boost Date_Time functionality for dates, durations (both for
+		days and date time objects), time zones, and posix time
+		('ptime') is provided by using 'Rcpp modules'. The posix time
+		implementation can support high-resolution of up to nano-second
+		precision by using 96 bits (instead of R's 64) to present a
+		'ptime' object (but this needs recompilation with a #define
+		set).
 	</longdescription>
 </pkgmetadata>
