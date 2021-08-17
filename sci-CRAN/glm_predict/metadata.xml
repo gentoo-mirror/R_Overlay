@@ -5,9 +5,10 @@
 		Predicted Values and Discrete Changes for GLM // Functions to
 		calculate predicted values and the difference between the two
 		cases with confidence interval for lm() [linear model], glm()
-		[general linear model], glm.nb() [negative binomial model],
+		[generalised linear model], glm.nb() [negative binomial model],
 		polr() [ordinal logistic model], multinom() [multinomial model]
-		and tobit() [tobit model] using Monte Carlo simulations or
+		and tobit() [tobit model], svyglm() [survey-weighted
+		generalised linear models] using Monte Carlo simulations or
 		bootstrap. Reference: Bennet A. Zelner (2009)
 		doi:10.1002/smj.783.
 	</longdescription>

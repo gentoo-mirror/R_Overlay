@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulate Complex Traits from Genotypes // Simulate complex traits
+		given a SNP genotype matrix and model parameters (the desired
+		heritability, number of causal loci, and either the true
+		ancestral allele frequencies used to generate the genotypes or
+		the mean kinship for a real dataset).  Emphasis on avoiding
+		common biases due to the use of estimated allele frequencies.
+		The code selects random loci to be causal, constructs
+		coefficients for these loci and random independent non-genetic
+		effects.  Traits can follow three models: random coefficients,
+		fixed effect sizes, and infinitesimal (multivariate normal).
+		GWAS method benchmarking functions are also provided.
+		Partially described in Yao and Ochoa (2019) doi:10.1101/858399.
+	</longdescription>
+</pkgmetadata>
