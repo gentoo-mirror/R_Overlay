@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model-Based Response Dimension Reduction // Functions for model-
+		based response dimension reduction. Usual dimension reduction
+		methods in multivariate regression focus on the reduction of
+		predictors, not responses.  The response dimension reduction is
+		theoretically founded in Yoo and Cook (2008)
+		doi:10.1016/j.csda.2008.07.029. Later, three model-based
+		response dimension reduction approaches are proposed in Yoo
+		(2016) doi:10.1080/02331888.2017.1410152 and Yoo (2019)
+		doi:10.1016/j.jkss.2019.02.001. The method by Yoo and Cook
+		(2008) is based on non-parametric ordinary least squares, but
+		the model-based approaches are done through maximum likelihood
+		estimation. For two model-based response dimension reduction
+		methods called principal fitted response reduction and
+		unstructured principal fitted response reduction, chi-squared
+		tests are provided for determining the dimension of the
+		response subspace.
+	</longdescription>
+</pkgmetadata>

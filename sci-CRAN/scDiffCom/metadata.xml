@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Differential Analysis of Intercellular Communication from scRNA-
+		Seq Data // Analysis tools to investigate changes in
+		intercellular communication from scRNA-seq data. Using a Seurat
+		object as input, the package infers which cell-cell
+		interactions are present in the dataset and how these
+		interactions change between two conditions of interest (e.g.
+		young vs old). It relies on an internal database of ligand-
+		receptor interactions (available for both human and mouse) that
+		have been gathered from several published studies. Detection
+		and differential analyses rely on permutation tests. The
+		package also contains several tools to perform over-
+		representation analysis and visualize the results. See Lagger,
+		C. et al. (2021) doi:10.1101/2021.08.13.456238 for a full
+		description of the methodology.
+	</longdescription>
+</pkgmetadata>
