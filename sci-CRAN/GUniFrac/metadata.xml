@@ -2,12 +2,21 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Generalized UniFrac Distances and Distance-Based Multivariate
-		Analysis of Variance // Implementation of generalized UniFrac
-		distances for comparing microbial communities and three
-		extensions to the PERMANOVA procedure.  The three extensions
-		are: (1) PERMANOVA using the Freedman-Lane permutation scheme;
-		(2) PERMANOVA omnibus test using multiple matrices; and (3)
-		Analytical approach to approximating PERMANOVA p-value.
+		Generalized UniFrac Distances, Distance-Based Multivariate
+		Methods and Feature-Based Univariate Methods for Microbiome
+		Data Analysis // A suite of methods for powerful and robust
+		microbiome data analysis including data normalization, data
+		simulation, community-level association testing and
+		differential abundance analysis. It implements generalized
+		UniFrac distances,  Geometric Mean of Pairwise Ratios (GMPR)
+		normalization, semiparametric data simulator, distance-based
+		statistical methods, and feature-based statistical methods. The
+		distance-based statistical methods include three extensions of
+		PERMANOVA: (1) PERMANOVA using the Freedman-Lane permutation
+		scheme, (2) PERMANOVA omnibus test using multiple matrices, and
+		(3) analytical approach to approximating PERMANOVA p-value.
+		Feature-based statistical methods include linear model-based
+		permutation tests for differential abundance analysis of zero-
+		inflated compositional data.
 	</longdescription>
 </pkgmetadata>

@@ -4,7 +4,10 @@
 	<longdescription>
 		Utility Functions for Production R Code // A suite of utility
 		functions providing functionality commonly needed for
-		production level projects such as logging, error handling, and
-		cache management.
+		production level projects such as logging, error handling,
+		cache management and date-time parsing. Functions for date-time
+		parsing and formatting require that time zones be specified
+		explicitly, avoiding a common source of error when working with
+		environmental time series.
 	</longdescription>
 </pkgmetadata>
