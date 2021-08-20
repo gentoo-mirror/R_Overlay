@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Faster Generation of Quantile Quantile Plots with Large Samples
+		// New and faster implementations for quantile quantile plots.
+		The package also includes a function to prune data for quantile
+		quantile plots. This can drastically reduce the running time
+		for large samples, for 100 million samples, you can expect a
+		factor 80X speedup.
+	</longdescription>
+</pkgmetadata>
