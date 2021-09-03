@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Normalize  Denoise Droplet Single Cell Protein Data (CITE-seq) //
+		Normalize  Denoise Droplet Single Cell Protein Data (CITE-Seq) //
 		This lightweight R package provides a method for normalizing
 		and denoising protein expression data from droplet based single
 		cell experiments. Raw protein Unique Molecular Index (UMI)
@@ -17,12 +17,12 @@
 		isotype antibody controls and background protein counts in each
 		cell. This package normalizes and removes both of these sources
 		of noise from raw protein data derived from methods such as
-		'CITE-seq', 'REAP-seq', and data from the Mission Bio
-		'Tapestri' platform. See the vignette for tutorials on how to
-		integrate dsb with 'Seurat', 'Bioconductor' and the AnnData
-		class in 'Python'. Please also see our preprint Mul M.P.,
-		Martins A.J., and Tsang J.S. (2020)
-		https://www.biorxiv.org/content/10.1101/2020.02.24.963603v1 for
+		'CITE-seq', 'REAP-seq', 'ASAP-seq', 'TEA-seq', 'proteogenomic'
+		data from the Mission Bio platform, etc. See the vignette for
+		tutorials on how to integrate dsb with 'Seurat', 'Bioconductor'
+		and the AnnData class in 'Python'. Please also see our preprint
+		Mul M.P., Martins A.J., and Tsang J.S. (2020)
+		https://www.biorxiv.org/content/10.1101/2020.02.24.963603v3 for
 		more details on the dsb method.
 	</longdescription>
 </pkgmetadata>
