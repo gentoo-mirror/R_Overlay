@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggraph-2.0.0 sci-CRAN/ggplot2 >=sci-CRAN/graphlayouts-0.5.0 sci-CRAN/formatR sci-CRAN/miniUI sci-CRAN/shiny sci-CRAN/colourpicker >=dev-lang/R-3.0.0 sci-CRAN/igraph sci-CRAN/rstudioapi sci-CRAN/DT dev-lang/R:=
+DESCRIPTION=RStudio Addin for Network Analys... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_ggforce byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/ggraph-2.0.0 sci-CRAN/ggplot2 >=sci-CRAN/graphlayouts-0.5.0 sci-CRAN/formatR sci-CRAN/miniUI sci-CRAN/shiny sci-CRAN/colourpicker >=dev-lang/R-3.0.0 sci-CRAN/igraph sci-CRAN/rstudioapi sci-CRAN/DT r_suggests_ggforce? ( sci-CRAN/ggforce ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/snahelper_1.3.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=3fe5c5a961fae9d301de21eb856d7ffb
