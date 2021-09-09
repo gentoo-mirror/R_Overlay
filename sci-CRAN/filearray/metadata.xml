@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		File-Backed Array for Out-of-Memory Computation // Stores large
+		arrays in files to avoid occupying large memories. Implemented
+		with super fast gigabyte-level multi-threaded reading/writing
+		via 'OpenMP'. Supports multiple non-character data types
+		(double, integer, logical and raw).
+	</longdescription>
+</pkgmetadata>
