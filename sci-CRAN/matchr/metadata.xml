@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Pattern Matching and Enumerated Types in R // Inspired by pattern
+		matching and enum types in Rust and many functional programming
+		languages, this package offers an updated version of the
+		'switch' function called 'Match' that accepts atomic values,
+		functions, expressions, and enum variants. Conditions and
+		return expressions are separated by '-' and multiple conditions
+		can be associated with the same return expression using '|'.
+		'Match' also includes support for 'fallthrough'. The package
+		also replicates the Result and Option enums from Rust.
+	</longdescription>
+</pkgmetadata>
