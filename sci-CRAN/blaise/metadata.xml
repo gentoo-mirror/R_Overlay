@@ -2,10 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Read and Write FWF Files in the Blaise Format // Can be used to
-		read and write a fwf with an accompanying blaise datamodel.
-		When supplying a datamodel for writing, the dataframe will be
-		automatically converted to that format and checked for
-		compatibility. Supports dataframes, tibbles and LaF objects.
+		Read and Write FWF Files in the 'Blaise' Format // Can be used to
+		read and write a fwf with an accompanying 'Blaise' datamodel.
+		Blaise is the software suite built by Statistics Netherlands
+		(CBS). It is essentially a way to write and collect surveys and
+		perform statistical analysis on the data. It stores its data in
+		fixed width format with an accompanying metadata file, this is
+		the Blaise format. The package automatically interprets this
+		metadata and reads the file into an R dataframe. When supplying
+		a datamodel for writing, the dataframe will be automatically
+		converted to that format and checked for compatibility.
+		Supports dataframes, tibbles and LaF objects. For more
+		information about 'Blaise', see
+		https://blaise.com/products/general-information.
 	</longdescription>
 </pkgmetadata>

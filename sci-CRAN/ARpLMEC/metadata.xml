@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fitting Autoregressive Censored Mixed-Effects Models // It fits
-		left, right or intervalar censored mixed-effects linear model
-		with autoregressive errors of order p using the EM algorithm.
-		It provides estimates, standard errors of the parameters and
-		prediction of future observations. Florin Vaida and Lin Liu
-		(2009) doi:10.1198/jcgs.2009.07130.
+		Censored Mixed-Effects Models with Different Correlation
+		Structures // Left, right or interval censored mixed-effects
+		linear model with autoregressive errors of order p or DEC
+		correlation structure using the type-EM algorithm. The error
+		distribution  can be Normal or t-Student. It provides the
+		parameter estimates, the standard errors  and prediction of
+		future observations (available only for the normal case).
+		Olivari et all (2021) doi:10.1080/10543406.2020.1852246.
 	</longdescription>
 </pkgmetadata>

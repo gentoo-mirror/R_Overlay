@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Run an R Daemon Process in the Background // Run an independent R
+		daemon process in the background. The process will keep running
+		even after its terminal quits. The other R sessions can connect
+		with the existing daemon using the same daemon name and send
+		the task via daemonSetTask().
+	</longdescription>
+</pkgmetadata>
