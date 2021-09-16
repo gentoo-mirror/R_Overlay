@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sparse Method to Identify Joint Effects of Functional Predictors
+		// A set of functions allowing to implement the 'SpiceFP'
+		approach which is iterative. It involves transformation of
+		functional predictors into several candidate explanatory
+		matrices (based on contingency tables), to which relative edge
+		matrices with contiguity constraints are associated.
+		Generalized Fused Lasso regression are performed in order to
+		identify the best candidate matrix, the best class intervals
+		and related coefficients at each iteration. The approach is
+		stopped when the maximal number of iterations is reached or
+		when retained coefficients are zeros. Supplementary functions
+		allow to get coefficients of any candidate matrix or mean of
+		coefficients of many candidates. https://hal.archives-
+		ouvertes.fr/hal-03298977.
+	</longdescription>
+</pkgmetadata>
