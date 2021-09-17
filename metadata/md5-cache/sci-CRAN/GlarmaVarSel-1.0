@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/glmnet >=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=Variable Selection in Sparse GLARMA Models
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_domc r_suggests_formatr r_suggests_knitr r_suggests_markdown byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/glmnet >=dev-lang/R-3.5.0 r_suggests_domc? ( sci-CRAN/doMC ) r_suggests_formatr? ( sci-CRAN/formatR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GlarmaVarSel_1.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=3b133a550b22748e2ebf64f4a43e9e3e
