@@ -18,13 +18,16 @@
 		Santos and Torgovitsky (2018) doi:10.3982/ECTA15463, and
 		accommodates either point identification or partial
 		identification (bounds). In the partially identified case,
-		bounds are computed using linear programming. Support for three
-		linear programming solvers is provided. Gurobi and the Gurobi R
-		API can be obtained from http://www.gurobi.com/index. CPLEX can
-		be obtained from https://www.ibm.com/analytics/cplex-optimizer.
+		bounds are computed using either linear programming or
+		quadratically constrained quadratic programming. Support for
+		four solvers is provided. Gurobi and the Gurobi R API can be
+		obtained from http://www.gurobi.com/index. CPLEX can be
+		obtained from https://www.ibm.com/analytics/cplex-optimizer.
 		CPLEX R APIs 'Rcplex' and 'cplexAPI' are available from CRAN.
-		The lp_solve library is freely available from
-		http://lpsolve.sourceforge.net/5.5/, and is included when
-		installing its API 'lpSolveAPI', which is available from CRAN.
+		MOSEK and the MOSEK R API can be obtained from
+		https://www.mosek.com/. The lp_solve library is freely
+		available from http://lpsolve.sourceforge.net/5.5/, and is
+		included when installing its API 'lpSolveAPI', which is
+		available from CRAN.
 	</longdescription>
 </pkgmetadata>

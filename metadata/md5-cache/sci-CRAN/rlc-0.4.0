@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/plyr sci-CRAN/R6 sci-CRAN/stringr sci-CRAN/jsonlite >=sci-CRAN/jrc-0.4.0 sci-CRAN/hwriter dev-lang/R:=
+DESCRIPTION=Create Interactive Linked Charts with Minimal Code
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggplot2 r_suggests_httpuv r_suggests_magrittr r_suggests_rcolorbrewer r_suggests_spelling r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/plyr sci-CRAN/R6 sci-CRAN/stringr sci-CRAN/jsonlite >=sci-CRAN/jrc-0.4.0 sci-CRAN/hwriter r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_httpuv? ( sci-CRAN/httpuv ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rlc_0.4.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=7ebebebd16f5ae65b0d1be88bfc88591
