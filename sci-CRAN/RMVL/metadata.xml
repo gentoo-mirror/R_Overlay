@@ -11,11 +11,13 @@
 		state drive is recommended, preferably with PCI Express (or M.2
 		nvme) interface. The data is memory mapped into R and then
 		accessed using usual R list and array subscription operators.
-		The layout of underlying MVL files is optimized for large
-		datasets. The vectors are stored to guarantee alignment for
-		vector intrinsics after memory map. The package is built on top
-		of libMVL, which can be used as standalone C library. libMVL
-		has simple C API making it easy to interchange of datasets with
-		outside programs.
+		Convenience functions are provided for merging, grouping and
+		indexing large vectors and data.frames. The layout of
+		underlying MVL files is optimized for large datasets. The
+		vectors are stored to guarantee alignment for vector intrinsics
+		after memory map. The package is built on top of libMVL, which
+		can be used as standalone C library. libMVL has simple C API
+		making it easy to interchange of datasets with outside
+		programs.
 	</longdescription>
 </pkgmetadata>

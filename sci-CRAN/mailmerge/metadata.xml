@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Mail Merge Using R Markdown Documents and 'gmailr' // Mail merge
-		using markdown documents and gmail. With this package you can
-		parse markdown documents as the body of email, and the 'yaml'
-		header to specify the subject line of the email.  Any '{}'
-		braces in the email will be encoded with 'glue::glue()'. You
-		can preview the email in the RStudio viewer pane, and send
-		(draft) email using 'gmailr'.
+		Mail Merge Using R Markdown Documents and 'gmailr' // Perform a
+		mail merge (mass email) using the message defined in markdown,
+		the recipients in a csv, and gmail as the mailing engine. With
+		this package you can parse markdown documents as the body of
+		email, and the 'yaml' header to specify the subject line of the
+		email.  Any '{}' braces in the email will be encoded with
+		'glue::glue()'. You can preview the email in the RStudio viewer
+		pane, and send (draft) email using 'gmailr'.
 	</longdescription>
 </pkgmetadata>
