@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Explicitly Qualifying Namespaces by Automatically Adding 'pkg::'
+		to Functions // Automatically adding 'pkg::' to a function,
+		i.e. mutate() becomes dplyr::mutate(). It is up to the user to
+		determine which packages should be used explicitly, whether to
+		include base R packages or use the functionality on selected
+		text, a file, or a complete directory. User friendly logging is
+		provided in the 'RStudio' Markers pane. Lives in the spirit of
+		'lintr' and 'styler'.
+	</longdescription>
+</pkgmetadata>
