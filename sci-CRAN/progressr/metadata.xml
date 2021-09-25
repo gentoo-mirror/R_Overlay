@@ -18,8 +18,8 @@
 		package uses R's condition framework for signaling progress
 		updated. Because of this, progress can be reported from almost
 		anywhere in R, e.g. from classical for and while loops, from
-		map-reduce APIs like the lapply() family of functions, 'purrr',
-		'plyr', and 'foreach'. It will also work with parallel
+		map-reduce API:s like the lapply() family of functions,
+		'purrr', 'plyr', and 'foreach'. It will also work with parallel
 		processing via the 'future' framework, e.g.
 		future.apply::future_lapply(), furrr::future_map(), and
 		'foreach' with 'doFuture'. The package is compatible with Shiny
