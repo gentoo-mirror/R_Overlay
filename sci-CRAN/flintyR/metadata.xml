@@ -7,10 +7,14 @@
 		knowledge about the dependencies between its features, it is
 		important to ensure the observations or individuals are
 		exchangeable before fitting a model to the data in order to
-		make inference from it, or assigning randomized treatments in
+		make inferences from it, or assigning randomized treatments in
 		order to estimate treatment effects. This package provides a
 		flexible non-parametric test of exchangeability, allowing the
-		user to specify the feature dependencies by hand. See Aw,
-		Spence and Song (2021) for the accompanying paper.
+		user to specify the feature dependencies by hand. It can be
+		used directly to evaluate whether a sample is exchangeable, and
+		can also be piped into larger procedures that require
+		exchangeable samples as outputs (e.g., clustering or community
+		detection). See Aw, Spence and Song (2021+) for the
+		accompanying paper.
 	</longdescription>
 </pkgmetadata>

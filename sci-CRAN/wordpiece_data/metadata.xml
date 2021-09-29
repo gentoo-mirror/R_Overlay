@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Data for Wordpiece-Style Tokenization // Provides data to be used
+		by the wordpiece algorithm in order to tokenize text into
+		somewhat meaningful chunks. Included vocabularies were
+		retrieved from https://huggingface.co/bert-base-
+		cased/resolve/main/vocab.txt and https://huggingface.co/bert-
+		base-uncased/resolve/main/vocab.txt and parsed into an
+		R-friendly format.
+	</longdescription>
+</pkgmetadata>
