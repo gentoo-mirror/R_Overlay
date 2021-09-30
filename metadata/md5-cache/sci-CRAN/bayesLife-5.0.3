@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/hett sci-CRAN/data_table sci-CRAN/coda >=sci-CRAN/bayesTFR-7.0.5 sci-CRAN/car sci-CRAN/wpp2019 dev-lang/R:=
+DESCRIPTION=Bayesian Projection of Life Expectancy
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_wpp2010 r_suggests_wpp2012 r_suggests_wpp2015 r_suggests_wpp2017 byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/hett sci-CRAN/data_table sci-CRAN/coda >=sci-CRAN/bayesTFR-7.0.5 sci-CRAN/car sci-CRAN/wpp2019 r_suggests_wpp2010? ( sci-CRAN/wpp2010 ) r_suggests_wpp2012? ( sci-CRAN/wpp2012 ) r_suggests_wpp2015? ( sci-CRAN/wpp2015 ) r_suggests_wpp2017? ( sci-CRAN/wpp2017 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bayesLife_5.0-3.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=dbc1cd9793b028f2c8f6d7c16e7507fa
