@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sample Size Analysis for Psychological Networks and More // An
+		implementation of the sample size computation method for
+		network models proposed by Constantin et al. (2021)
+		doi:10.31234/osf.io/j5v7u The implementation takes the form of
+		a three-step recursive algorithm designed to find an optimal
+		sample size given a model specification and a performance
+		measure of interest. It starts with a Monte Carlo simulation
+		step for computing the performance measure and a statistic at
+		various sample sizes selected from an initial sample size
+		range. It continues with a monotone curve-fitting step for
+		interpolating the statistic across the entire sample size
+		range. The final step employs stratified bootstrapping to
+		quantify the uncertainty around the fitted curve.
+	</longdescription>
+</pkgmetadata>
