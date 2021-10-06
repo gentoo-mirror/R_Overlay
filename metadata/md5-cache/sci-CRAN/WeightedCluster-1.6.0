@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/RColorBrewer virtual/cluster >=sci-CRAN/TraMineR-2.0.6 dev-lang/R:=
+DESCRIPTION=Clustering of Weighted Data
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_isotone r_suggests_knitr r_suggests_lattice r_suggests_runit r_suggests_vegan byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/RColorBrewer virtual/cluster >=sci-CRAN/TraMineR-2.0.6 r_suggests_isotone? ( sci-CRAN/isotone ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/WeightedCluster_1.6-0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=5d59f7281a2391c6ec0465e850e9da23

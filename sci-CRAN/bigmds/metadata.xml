@@ -8,15 +8,16 @@
 		algorithms suffer from computational problems and MDS
 		configuration can not be obtained. With this package, we
 		address these problems by means of three algorithms: - Divide-
-		and-conquer MDS developed by Delicado P. and C. Pachon-Garcia
-		(2021) arXiv:2007.11919. - Fast MDS, which is an implementation
-		of Yang, T., J. Liu, L. McMillan, and W. Wang (2006). -
-		Interpolation MDS, which uses Gower's interpolation formula as
-		described in Gower, J. C. and D. J. Hand (1995, ISBN:
-		978-0-412-71630-0). The main idea of these algorithms is based
-		on partitioning the data set into small pieces, where classical
-		methods can work. In order to align all the solutions, it is
-		used Procrustes formula as described in Borg, I. and P. Groenen
-		(2005, ISBN : 978-0-387-25150-9).
+		and-conquer MDS proposed by Delicado P. and C. Pachn-Garca
+		(2021) arXiv:2007.11919. - Interpolation MDS, also proposed by
+		Delicado P. and C. Pachn-Garca (2021) arXiv:2007.11919, which
+		uses Gower's interpolation formula as described in Gower, J. C.
+		and D. J. Hand (1995). - Fast MDS, which is an implementation
+		of the algorithm proposed by Yang, T., J. Liu, L. McMillan, and
+		W. Wang (2006). The main idea of these algorithms is based on
+		partitioning the data set into small pieces, where classical
+		methods can work. In order to align all the solutions,
+		Procrustes formula is used as described in Borg, I. and P.
+		Groenen (2005).
 	</longdescription>
 </pkgmetadata>
