@@ -1,0 +1,34 @@
+# Copyright 1999-2021 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Power and Sample Size for Health... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/PSS.Health_0.3.1.tar.gz"
+LICENSE='GPL-2+'
+
+DEPEND="sci-CRAN/kappaSize
+	sci-CRAN/pROC
+	sci-CRAN/writexl
+	sci-CRAN/pwr2
+	sci-CRAN/tidyverse
+	sci-CRAN/easypower
+	sci-CRAN/longpower
+	sci-CRAN/shinycssloaders
+	sci-CRAN/shinyhelper
+	sci-CRAN/ICC_Sample_Size
+	sci-CRAN/shiny
+	sci-CRAN/DT
+	sci-CRAN/pwr
+	sci-CRAN/EnvStats
+	sci-CRAN/epiR
+	sci-CRAN/plotly
+	sci-CRAN/powerSurvEpi
+	sci-CRAN/powerMediation
+	sci-CRAN/presize
+	sci-CRAN/shinyFeedback
+"
+RDEPEND="${DEPEND-}"
