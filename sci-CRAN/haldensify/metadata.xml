@@ -2,17 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Highly Adaptive Lasso Conditional Density Estimation //
-		Conditional density estimation is a longstanding and
-		challenging problem in statistical theory, and numerous
-		proposals exist for optimally estimating such complex
-		functions. Algorithms for nonparametric estimation of
-		conditional densities based on a pooled hazard regression
-		formulation and semiparametric estimation via conditional
-		hazards modeling are implemented based on the highly adaptive
-		lasso, a nonparametric regression function for efficient
-		estimation with fast convergence under mild assumptions. The
-		pooled hazards formulation implemented was first described by
-		Daz and van der Laan (2011) doi:10.2202/1557-4679.1356.
+		Highly Adaptive Lasso Conditional Density Estimation // An
+		algorithm for flexible conditional density estimation based on
+		application of pooled hazard regression to an artificial
+		repeated measures dataset constructed by discretizing the
+		support of the outcome variable. To facilitate non/semi-
+		parametric estimation of the conditional density, the highly
+		adaptive lasso, a nonparametric regression function shown to
+		reliably estimate a large class of functions at a fast
+		convergence rate, is utilized. The pooled hazards data
+		augmentation formulation implemented was first described by Daz
+		and van der Laan (2011) doi:10.2202/1557-4679.1356. To
+		complement the conditional density estimation utilities, tools
+		for efficient nonparametric inverse probability weighted (IPW)
+		estimation of the causal effects of stochastic shift
+		interventions (modified treatment policies), directly utilizing
+		the density estimation technique for construction of the
+		generalized propensity score, are provided. These IPW
+		estimators utilize undersmoothing (sieve estimation) of the
+		conditional density estimators in order to achieve the
+		non/semi-parametric efficiency bound.
 	</longdescription>
 </pkgmetadata>
