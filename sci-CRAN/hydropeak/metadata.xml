@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detect and Characterize Sub-Daily Flow Fluctuations // An
+		important environmental impact on running water ecosystems is
+		caused by hydropeaking - the discontinuous release of turbine
+		water because of peaks of energy demand. An event-based
+		algorithm is implemented to detect flow fluctuations referring
+		to increase events (IC) and decrease events (DC). For each
+		event, a set of parameters related to the fluctuation intensity
+		is calculated: maximum flow fluctuation rate mafr(), mean flow
+		fluctuation rate mefr(), amplitude amp(), flow ratio fr(), and
+		duration dur(). The framework is introduced in Greimel et al.
+		(2016) "A method to detect and characterize sub-daily flow
+		fluctuations" doi:10.1002/hyp.10773 and can be used to identify
+		different fluctuation types according to the potential source:
+		e.g., sub-daily flow fluctuations caused by hydropeaking,
+		rainfall, or snow and glacier melt.
+	</longdescription>
+</pkgmetadata>
