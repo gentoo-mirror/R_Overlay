@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=An Extended Mixed-Effects Framew... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dlnm r_suggests_dosresmeta r_suggests_mass r_suggests_meta r_suggests_metafor r_suggests_nlme r_suggests_rmeta byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 r_suggests_dlnm? ( sci-CRAN/dlnm ) r_suggests_dosresmeta? ( sci-CRAN/dosresmeta ) r_suggests_mass? ( virtual/MASS ) r_suggests_meta? ( sci-CRAN/meta ) r_suggests_metafor? ( sci-CRAN/metafor ) r_suggests_nlme? ( virtual/nlme ) r_suggests_rmeta? ( sci-CRAN/rmeta ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mixmeta_1.2.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=9ce86c5f1ab0de979b17dc7c841423c2
