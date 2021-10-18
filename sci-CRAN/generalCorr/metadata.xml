@@ -14,7 +14,7 @@
 		four orders of stochastic dominance. Our third criterion Cr3
 		for the causal path X to Y requires new generalized partial
 		correlations to satisfy |r*(x|y,z)| |r*(y|x,z)|. The function
-		parcorBMany() reports generalized partials between the first
+		parcorVec() reports generalized partials between the first
 		variable and all others.  The package provides several R
 		functions including get0outliers() for outlier detection,
 		bigfp() for numerical integration by the trapezoidal rule,
@@ -25,6 +25,7 @@
 		Several functions whose names begin with 'boot' provide
 		bootstrap statistical inference including a new bootGcRsq()
 		test for "Granger-causality" allowing nonlinear relations. See
-		Vinod (2019) doi:10.1080/03610918.2015.1122048.
+		five vignettes of the package for theory and usage tips. See
+		Vinod (2019) \doi{10.1080/03610918.2015.1122048}.
 	</longdescription>
 </pkgmetadata>
