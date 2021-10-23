@@ -5,13 +5,13 @@
 		Growth Charts via Smooth Regression Quantiles with Automatic
 		Smoothness Estimation and Additive Terms // Fits non-crossing
 		regression quantiles as a function of linear covariates and
-		multiple smooth terms via B-splines with L1-norm difference
-		penalties. The smoothing parameters are estimated as part of
-		the model fitting. Monotonicity and concavity constraints on
-		the fitted curves are allowed. See Muggeo, Sciandra, Tomasello
-		and Calvo (2013) doi:10.1007/s10651-012-0232-1 and
+		multiple smooth terms, including varying coefficients, via
+		B-splines with L1-norm difference penalties. The smoothing
+		parameters are estimated as part of the model fitting, see
+		Muggeo and others (2021) doi:10.1177/1471082X20929802.
+		Monotonicity and concavity constraints on the fitted curves are
+		allowed, see Muggeo and others (2013)
+		doi:10.1007/s10651-012-0232-1 and also
 		doi:10.13140/RG.2.2.12924.85122 for some code examples.
-		Smoothing parameter selection with additive terms is discussed
-		in Muggeo and others (2020) doi:10.1177/1471082X20929802.
 	</longdescription>
 </pkgmetadata>
