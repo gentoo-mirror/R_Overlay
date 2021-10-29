@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Modelling of Soil Water Retention and Hydraulic Conductivity Data
+		// Provides functions for efficiently estimating properties of
+		the Van Genuchten-Mualem model for soil hydraulic parameters
+		from possibly sparse soil water retention and hydraulic
+		conductivity data by multi-response parameter estimation
+		methods (Stewart, W.E., Caracotsios, M. Soerensen, J.P. (1992)
+		"Parameter estimation from multi-response data"
+		doi:10.1002/aic.690380502). Parameter estimation is simplified
+		by exploiting the fact that residual and saturated water
+		contents and saturated conductivity are conditionally linear
+		parameters (Bates, D. M.  and Watts, D. G. (1988) "Nonlinear
+		Regression Analysis and Its Applications"
+		doi:10.1002/9780470316757). Estimated parameters are optionally
+		constrained by the evaporation characteristic length (Lehmann,
+		P., Bickel, S., Wei, Z. and Or, D. (2020) "Physical Constraints
+		for Improved Soil Hydraulic Parameter Estimation by
+		Pedotransfer Functions" doi:10.1029/2019WR025963) to ensure
+		that the estimated parameters are physically valid.
+	</longdescription>
+</pkgmetadata>
