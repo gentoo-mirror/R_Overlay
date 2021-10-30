@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 sci-CRAN/numDeriv sci-CRAN/MESS sci-CRAN/foreach sci-CRAN/swephR sci-CRAN/plotrix sci-CRAN/zoo sci-CRAN/png sci-CRAN/oce sci-CRAN/RColorBrewer sci-CRAN/doParallel sci-CRAN/rootSolve sci-CRAN/httr dev-lang/R:=
+DESCRIPTION=Data Analysis and Visualization ... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1 sci-CRAN/numDeriv sci-CRAN/MESS sci-CRAN/foreach sci-CRAN/swephR sci-CRAN/plotrix sci-CRAN/zoo sci-CRAN/png sci-CRAN/oce sci-CRAN/RColorBrewer sci-CRAN/doParallel sci-CRAN/rootSolve sci-CRAN/httr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/skyscapeR_1.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=99bd211f1b9344cde7e2c596d98c4411

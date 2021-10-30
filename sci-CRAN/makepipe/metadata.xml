@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Pipeline Tools Inspired by 'GNU Make' // A suite of tools for
+		transforming an existing workflow into a self-documenting
+		pipeline with very minimal upfront costs. Segments of the
+		pipeline are specified in much the same way a 'Make' rule is,
+		by declaring an executable recipe (which might be an R script),
+		along with the corresponding targets and dependencies. When the
+		entire pipeline is run through, only those recipes that need to
+		be executed will be. Meanwhile, execution metadata is captured
+		behind the scenes for later inspection.
+	</longdescription>
+</pkgmetadata>
