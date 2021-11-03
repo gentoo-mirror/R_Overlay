@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/e1071 sci-CRAN/sde sci-CRAN/LaplacesDemon sci-CRAN/ROOPSD sci-CRAN/glue sci-CRAN/rainbow sci-CRAN/fda sci-CRAN/strucchange sci-CRAN/vars sci-CRAN/fdapace virtual/cluster sci-CRAN/ecp virtual/MASS sci-CRAN/fGarch virtual/KernSmooth virtual/boot sci-CRAN/colorspace sci-CRAN/forecast sci-CRAN/pcaPP sci-CRAN/psych sci-CRAN/evgam dev-lang/R:=
+DESCRIPTION=Functional Time Series Analysis
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_fds byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/e1071 sci-CRAN/sde sci-CRAN/LaplacesDemon sci-CRAN/ROOPSD sci-CRAN/glue sci-CRAN/rainbow sci-CRAN/fda sci-CRAN/strucchange sci-CRAN/vars sci-CRAN/fdapace virtual/cluster sci-CRAN/ecp virtual/MASS sci-CRAN/fGarch virtual/KernSmooth virtual/boot sci-CRAN/colorspace sci-CRAN/forecast sci-CRAN/pcaPP sci-CRAN/psych sci-CRAN/evgam r_suggests_boot? ( virtual/boot ) r_suggests_fds? ( sci-CRAN/fds ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ftsa_6.1.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=dfef3dc5dc01738700f759f18a83d1da
