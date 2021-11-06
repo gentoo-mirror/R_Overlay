@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Add Nonparametric Bootstrap SE to 'glmnet' for Selected
+		Coefficients (No Shrinkage) // Builds a LASSO, Ridge, or
+		Elastic Net model with 'glmnet' or 'cv.glmnet' with bootstrap
+		inference statistics (SE, CI, and p-value) for selected
+		coefficients with no shrinkage applied for them. Model
+		performance can be evaluated on test data and an automated
+		alpha selection is implemented for Elastic Net. Parallelized
+		computation is used to speed up the process. The methods are
+		described in Friedman et al. (2010) doi:10.18637/jss.v033.i01
+		and Simon et al. (2011) doi:10.18637/jss.v039.i05.
+	</longdescription>
+</pkgmetadata>

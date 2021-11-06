@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fix Really Messy Dates // Fixes messy dates in data frames such
+		as those entered via text boxes. Standardizes / - and
+		whitespace separation, month abbreviations, and year first or
+		day first by converting to R's built-in Date class. Imputes
+		missing date or month using user-provided values.
+	</longdescription>
+</pkgmetadata>
