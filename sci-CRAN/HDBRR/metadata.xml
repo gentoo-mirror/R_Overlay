@@ -2,9 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		High Dimensional Bayesian Ridge Regression without MCMC // The
-		svd(singular value decomposition) or qr decomposition was using
-		for the implementation, this avoid the recursion optimizing the
-		time in the compute.
+		High Dimensional Bayesian Ridge Regression without MCMC // Ridge
+		regression provide biased estimators of the regression
+		parameters with lower variance. The HDBRR ("High Dimensional
+		Bayesian Ridge Regression") function fits Bayesian Ridge
+		regression without MCMC, this one uses the SVD or QR
+		decomposition for the posterior computation.
 	</longdescription>
 </pkgmetadata>
