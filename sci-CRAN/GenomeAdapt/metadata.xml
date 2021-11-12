@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detecting Signatures of Local Adaptation Based on Ancestry
+		Trajectories // Portable, scalable and highly computationally
+		efficient tool for detecting signatures of local adaptation
+		based on multidimensional ancestry map ( _n_ X _n_ ancestry
+		genetic trajectories, _n_ is the number of individuals). If n
+		samples are included in the analysis, there will be n
+		dimensional spaces that represent the common ancestry maps
+		based on the identity-by-descent (IBD). The package calculates
+		the correlations of loci with the common ancestry genetic maps
+		adopting the Genomic Data Structure (GDS, Zheng et al., 2012)
+		doi:10.1093/bioinformatics/bts606 and suitable for millions of
+		SNP data. Loci sharing a greater level of most recent common
+		ancestor (MRCA) (large Z-scores) indicates a large number of
+		individuals descend from recent common ancestors, which signals
+		the rapid increase in frequency of a beneficial allele due to
+		recent positive selection. The rationale underlying this
+		package is somewhat analogous to KLFDAPT (Qin, 2021)
+		doi:10.1101/2021.05.15.444294 (https://xinghuq.github.io/KLFDAP
+		C/articles/Genome_scan_KLFDAPC.html). It combines the concept
+		of IBD-based genome scan (Albrechtsen et al., 2010)
+		doi:10.1534/genetics.110.113977, iHS (Voight, 2006)
+		doi:10.1371/journal.pbio.0040072, and eigenanalysis of SNP data
+		with an identity by descent interpretation (Zheng  Weir, 2016)
+		doi: 10.1016/j.tpb.2015.09.004. It can also be interpreted as
+		spatial varying selection as ancestry genetic maps reflect
+		geographic origins. Besides the detection of local adaptation,
+		this package also estimates the population admixtures and plots
+		its geographic genetic structure.
+	</longdescription>
+</pkgmetadata>
