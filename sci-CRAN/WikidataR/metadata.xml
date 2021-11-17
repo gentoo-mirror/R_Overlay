@@ -2,8 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Read-Write API Client Library for 'Wikidata' // An API client for
-		the Wikidata https://www.wikidata.org/wiki/Wikidata:Main_Page
-		store of semantic data.
+		Read-Write API Client Library for Wikidata // Read from,
+		interogate, and write to Wikidata https://www.wikidata.org -
+		the multilingual, interdisciplinary, semantic knowledgebase.
+		Includes functions to: read from wikidata (single items,
+		properties, or properties); query wikidata (retrieving all
+		items that match a set of criterial via Wikidata SPARQL query
+		service); write to Wikidata (adding new items or statements via
+		QuickStatements); and handle and manipulate Wikidata objects
+		(as lists and tibbles). Uses the Wikidata and Quickstatements
+		APIs.
 	</longdescription>
 </pkgmetadata>
