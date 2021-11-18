@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table dev-lang/R:=
+DESCRIPTION=Permutations of Treatment Labels... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_diagrammer r_suggests_dplyr r_suggests_knitr r_suggests_magrittr r_suggests_readr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr r_suggests_titan2 byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_diagrammer? ( sci-CRAN/DiagrammeR ) r_suggests_dplyr? ( >=sci-CRAN/dplyr-1.0.0 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_titan2? ( sci-CRAN/TITAN2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pTITAN2_1.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=cd433c54936ef201fcdbd29f29c87c0f
