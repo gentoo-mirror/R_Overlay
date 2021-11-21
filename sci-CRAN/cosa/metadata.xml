@@ -2,13 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Bound Constrained Optimal Sample Allocation // Implements bound
-		constrained optimal sample allocation (BCOSA) framework
-		described in Bulus  Dong (2019)
+		Bound Constrained Optimal Sample Size Allocation // Implements
+		bound constrained optimal sample size allocation (BCOSSA)
+		framework described in Bulus  Dong (2021)
 		doi:10.1080/00220973.2019.1636197 for power analysis of
 		multilevel regression discontinuity designs (MRDDs) and
 		multilevel randomized trials (MRTs) with continuous outcomes.
-		Separate tools for statistical power and minimum detectable
-		effect size computations are provided.
+		Minimum detectable effect size (MDES) and power computations
+		for MRDDs allow polynomial functional form specification for
+		the score variable (with or without interaction with the
+		treatment indicator). See Bulus (2021)
+		doi:10.1080/19345747.2021.1947425.
 	</longdescription>
 </pkgmetadata>
