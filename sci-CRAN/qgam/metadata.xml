@@ -4,14 +4,15 @@
 	<longdescription>
 		Smooth Additive Quantile Regression Models // Smooth additive
 		quantile regression models, fitted using the methods of Fasiolo
-		et al. (2017) arXiv:1707.03307. Differently from 'quantreg',
-		the smoothing parameters are estimated automatically by
-		marginal loss minimization, while the regression coefficients
-		are estimated using either PIRLS or Newton algorithm. The
-		learning rate is determined so that the Bayesian credible
-		intervals of the estimated effects have approximately the
-		correct coverage. The main function is qgam() which is similar
-		to gam() in 'mgcv', but fits non-parametric quantile regression
-		models.
+		et al. (2020) doi:10.1080/01621459.2020.1725521. See Fasiolo at
+		al. (2021) doi:10.18637/jss.v100.i09 for an introduction to the
+		package. Differently from 'quantreg', the smoothing parameters
+		are estimated automatically by marginal loss minimization,
+		while the regression coefficients are estimated using either
+		PIRLS or Newton algorithm. The learning rate is determined so
+		that the Bayesian credible intervals of the estimated effects
+		have approximately the correct coverage. The main function is
+		qgam() which is similar to gam() in 'mgcv', but fits non-
+		parametric quantile regression models.
 	</longdescription>
 </pkgmetadata>
