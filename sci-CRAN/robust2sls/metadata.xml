@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Outlier Robust Two-Stage Least Squares Inference and Testing //
+		An implementation of easy tools for outlier robust inference in
+		two-stage least squares (2SLS) models. The user specifies a
+		reference distribution against which observations are
+		classified as outliers or not. After removing the outliers,
+		adjusted standard errors are automatically provided.
+		Furthermore, several statistical tests for the false outlier
+		detection rate can be calculated. The outlier removing
+		algorithm can be iterated a fixed number of times or until the
+		procedure converges. The algorithms and robust inference are
+		described in more detail in Jiao (2019) https://drive.google.co
+		m/file/d/1qPxDJnLlzLqdk94X9wwVASptf1MPpI2w/view.
+	</longdescription>
+</pkgmetadata>

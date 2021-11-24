@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/colorspace sci-CRAN/ggplot2 sci-CRAN/lordif sci-CRAN/igraph sci-CRAN/GPArotation sci-CRAN/readr sci-CRAN/scales sci-CRAN/srvyr >=dev-lang/R-3.2.5 sci-CRAN/eRm sci-CRAN/RColorBrewer sci-CRAN/rlang sci-CRAN/tidygraph sci-CRAN/WrightMap sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/survey sci-CRAN/intergraph sci-CRAN/lubridate sci-CRAN/TAM sci-CRAN/ggraph sci-CRAN/nFactors sci-CRAN/purrr sci-CRAN/psych virtual/foreign sci-CRAN/httr sci-CRAN/openxlsx sci-CRAN/plyr sci-CRAN/polycor sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Calculate Results from WHO Model... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+RDEPEND=sci-CRAN/colorspace sci-CRAN/ggplot2 sci-CRAN/lordif sci-CRAN/igraph sci-CRAN/GPArotation sci-CRAN/readr sci-CRAN/scales sci-CRAN/srvyr >=dev-lang/R-3.2.5 sci-CRAN/eRm sci-CRAN/RColorBrewer sci-CRAN/rlang sci-CRAN/tidygraph sci-CRAN/WrightMap sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/survey sci-CRAN/intergraph sci-CRAN/lubridate sci-CRAN/TAM sci-CRAN/ggraph sci-CRAN/nFactors sci-CRAN/purrr sci-CRAN/psych virtual/foreign sci-CRAN/httr sci-CRAN/openxlsx sci-CRAN/plyr sci-CRAN/polycor sci-CRAN/tibble r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/whomds_1.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=d23a823e4282ce17d608500822f073d6

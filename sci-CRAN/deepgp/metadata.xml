@@ -7,11 +7,11 @@
 		processes following Sauer, Gramacy, and Higdon (2020)
 		arXiv:2012.08015. Models extend up to three layers deep; a one
 		layer model is equivalent to typical Gaussian process
-		regression.  Sequential design criteria include integrated
-		mean-squared error (IMSE), active learning Cohn (ALC), and
-		expected improvement (EI).  Covariance structure is based on
-		inverse exponentiated squared euclidean distance.  Applicable
-		to noisy and deterministic functions.  Incorporates SNOW
-		parallelization and utilizes C under the hood.
+		regression.  Covariance kernel options are Matern (default) and
+		squared exponential.  Sequential design criteria include
+		integrated mean-squared error (IMSE), active learning Cohn
+		(ALC), and expected improvement (EI).  Applicable to both noisy
+		and deterministic functions.  Incorporates SNOW parallelization
+		and utilizes C and C++ under the hood.
 	</longdescription>
 </pkgmetadata>

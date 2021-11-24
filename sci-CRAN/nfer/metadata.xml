@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Event Stream Abstraction using Interval Logic // This is the R
+		API for the 'nfer' formalism (http://nfer.io/). 'nfer' was
+		developed to specify event stream abstractions for spacecraft
+		telemetry such as the Mars Science Laboratory.  Users write
+		rules using a syntax that borrows heavily from Allen's Temporal
+		Logic that, when applied to an event stream, construct a
+		hierarchy of temporal intervals with data.  The R API supports
+		loading rules from a file or mining them from historical data.
+		Traces of events or pools of intervals are provided as data
+		frames.
+	</longdescription>
+</pkgmetadata>
