@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generic Machine Learning Inference // Generic Machine Learning
+		Inference on heterogeneous treatment effects in randomized
+		experiments as proposed in Chernozhukov, Demirer, Duflo and
+		Fernndez-Val (2020) arXiv:1712.04802. This package's workhorse
+		is the 'mlr3' framework of Lang et al. (2019)
+		doi:10.21105/joss.01903, which enables the specification of a
+		wide variety of machine learners. The main functionality,
+		GenericML(), runs Algorithm 1 in Chernozhukov, Demirer, Duflo
+		and Fernndez-Val (2020) arXiv:1712.04802 for a suite of user-
+		specified machine learners. All steps in the algorithm are
+		customizable via setup functions. Methods for printing and
+		plotting are available for objects returned by GenericML().
+		Parallel computing is supported.
+	</longdescription>
+</pkgmetadata>
