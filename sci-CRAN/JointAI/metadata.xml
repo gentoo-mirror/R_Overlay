@@ -6,10 +6,12 @@
 		analysis and imputation of incomplete data in the Bayesian
 		framework, using (generalized) linear (mixed) models and
 		extensions there of, survival models, or joint models for
-		longitudinal and survival data. Incomplete covariates, if
-		present, are automatically imputed. The package performs some
-		preprocessing of the data and creates a 'JAGS' model, which
-		will then automatically be passed to 'JAGS' http://mcmc-
-		jags.sourceforge.net/ with the help of the package 'rjags'.
+		longitudinal and survival data, as described in Erler,
+		Rizopoulos and Lesaffre (2021) doi:10.18637/jss.v100.i20.
+		Incomplete covariates, if present, are automatically imputed.
+		The package performs some preprocessing of the data and creates
+		a 'JAGS' model, which will then automatically be passed to
+		'JAGS' https://mcmc-jags.sourceforge.io/ with the help of the
+		package 'rjags'.
 	</longdescription>
 </pkgmetadata>
