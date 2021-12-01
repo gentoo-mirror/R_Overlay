@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parsimonious Hidden Markov Models for Four-Way Data // Implements
+		parsimonious hidden Markov models for four-way data via
+		expectation- conditional maximization algorithm, as described
+		in Tomarchio et al. (2020) arXiv:2107.04330. The matrix-variate
+		normal distribution is used as emission distribution. For each
+		hidden state, parsimony is reached via the eigen-decomposition
+		of the covariance matrices of the emission distribution. This
+		produces a family of 98 parsimonious hidden Markov models.
+	</longdescription>
+</pkgmetadata>
