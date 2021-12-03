@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		R-Enzymology // Contains utilities for the analysis of Michaelian
+		kinetic data. Beside the classical linearization methods
+		(Lineweaver-Burk, Eadie-Hofstee, Hanes-Woolf and Eisenthal-
+		Cornish-Bowden), features include the ability to carry out
+		weighted regression analysis that, in most cases, substantially
+		improves the estimation of kinetic parameters (Aledo (2021)
+		doi:10.1002/bmb.21522). To avoid data transformation and the
+		potential biases introduced by them, the package also offers
+		functions to directly fitting data to the Michaelis-Menten
+		equation, either using ([S], v) or (time, [S]) data. Utilities
+		to simulate substrate progress-curves (making use of the
+		Lambert W function) are also provided. The package is
+		accompanied of vignettes that aim to orientate the user in the
+		choice of the most suitable method to estimate the kinetic
+		parameter of an Michaelian enzyme.
+	</longdescription>
+</pkgmetadata>
