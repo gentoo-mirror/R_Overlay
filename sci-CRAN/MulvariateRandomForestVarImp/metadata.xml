@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Importance Measures for Multivariate Random Forests //
+		Calculates post-hoc variable importance measures for
+		multivariate random forests. These are given by split
+		improvement for splits defined by feature j as measured using
+		user-defined (i.e. training or test) examples. Importance
+		measures can also be calculated on a per-outcome variable basis
+		using the change in predictions for each split. Both measures
+		can be optionally thresholded to include only splits that
+		produce statistically significant changes as measured by an
+		F-test.
+	</longdescription>
+</pkgmetadata>
