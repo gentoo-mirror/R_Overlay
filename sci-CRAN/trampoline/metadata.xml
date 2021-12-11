@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Make Functions that Can Recurse Infinitely // Implements a
+		trampoline algorithm for R that let's users write recursive
+		functions that get around R's stack call limitations, enabling
+		theoretically infinite recursion. The algorithm is based around
+		generator function as implemented in the 'coro' package, and is
+		based almost completely on the 'trampoline' module from Python
+		https://gitlab.com/ferreum/trampoline.
+	</longdescription>
+</pkgmetadata>
