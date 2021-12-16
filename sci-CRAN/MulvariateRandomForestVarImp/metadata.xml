@@ -3,14 +3,17 @@
 <pkgmetadata>
 	<longdescription>
 		Variable Importance Measures for Multivariate Random Forests //
-		Calculates post-hoc variable importance measures for
-		multivariate random forests. These are given by split
-		improvement for splits defined by feature j as measured using
-		user-defined (i.e. training or test) examples. Importance
-		measures can also be calculated on a per-outcome variable basis
-		using the change in predictions for each split. Both measures
-		can be optionally thresholded to include only splits that
-		produce statistically significant changes as measured by an
-		F-test.
+		Calculates two sets of post-hoc variable importance measures
+		for multivariate random forests. The first set of variable
+		importance measures are given by the sum of mean split
+		improvements for splits defined by feature j measured on user-
+		defined examples (i.e., training or testing samples). The
+		second set of importance measures are calculated on a per-
+		outcome variable basis as the sum of mean absolute difference
+		of node values for each split defined by feature j measured on
+		user-defined examples (i.e., training or testing samples). The
+		user can optionally threshold both sets of importance measures
+		to include only splits that are statistically significant as
+		measured using an F-test.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-Action Conservation Planning // This uses a mixed integer
+		mathematical programming (MIP) approach for building and
+		solving multi-action planning problems, where the goal is to
+		find an optimal combination of management actions that abate
+		threats, in an efficient way while accounting for spatial
+		aspects. Thus, optimizing the connectivity and conservation
+		effectiveness of the prioritized units and of the deployed
+		actions. The package is capable of handling different
+		commercial (gurobi) and non-commercial (symphony) MIP solvers.
+		Gurobi optimization solver can be installed using comprehensive
+		instructions in the gurobi installation vignette of the
+		prioritizr package (available in https://prioritizr.net/article
+		s/gurobi_installation_guide.html). Methods used in the package
+		refers to Salgado-Rojas et al. (2020)
+		doi:10.1016/j.ecolmodel.2019.108901, Beyer et al. (2016)
+		doi:10.1016/j.ecolmodel.2016.02.005, Cattarino et al. (2015)
+		doi:10.1371/journal.pone.0128027 and Watts et al. (2009)
+		doi:10.1016/j.envsoft.2009.06.005. See the prioriactions
+		website for more information, documentations and examples.
+	</longdescription>
+</pkgmetadata>

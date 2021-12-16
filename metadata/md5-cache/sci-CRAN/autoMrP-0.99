@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/rlang-0.4.5 >=sci-CRAN/glmmLasso-1.5.1 >=sci-CRAN/dplyr-1.0.2 >=sci-CRAN/gbm-2.1.5 >=sci-CRAN/lme4-1.1 >=sci-CRAN/doRNG-1.8.2 >=sci-CRAN/knitr-1.29 >=dev-lang/R-3.6 >=sci-CRAN/e1071-1.7.3 >=sci-CRAN/tibble-3.0.1 >=sci-CRAN/EBMAforecast-1.0.0 >=sci-CRAN/foreach-1.5.0 >=sci-CRAN/doParallel-1.0.15 >=sci-CRAN/ggplot2-3.3.2 >=sci-CRAN/tidyr-1.1.2 >=sci-CRAN/purrr-0.3.4 dev-lang/R:=
+DESCRIPTION=Improving MrP with Ensemble Learning
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_r_rsp r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/rlang-0.4.5 >=sci-CRAN/glmmLasso-1.5.1 >=sci-CRAN/dplyr-1.0.2 >=sci-CRAN/gbm-2.1.5 >=sci-CRAN/lme4-1.1 >=sci-CRAN/doRNG-1.8.2 >=sci-CRAN/knitr-1.29 >=dev-lang/R-3.6 >=sci-CRAN/e1071-1.7.3 >=sci-CRAN/tibble-3.0.1 >=sci-CRAN/EBMAforecast-1.0.0 >=sci-CRAN/foreach-1.5.0 >=sci-CRAN/doParallel-1.0.15 >=sci-CRAN/ggplot2-3.3.2 >=sci-CRAN/tidyr-1.1.2 >=sci-CRAN/purrr-0.3.4 r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/autoMrP_0.99.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=e2c8be1bda07725abfed64329051482d
