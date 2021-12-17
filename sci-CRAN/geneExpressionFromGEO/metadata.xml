@@ -2,20 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Retrieves Gene Expression Dataset and Gene Symbols from GEO Code
-		// A function that reads in the GEO code of a gene expression
-		dataset, retrieves its data from GEO, (optionally) retrieves
-		the gene symbols of the dataset, and returns a simple dataframe
-		table containing all the data. Platforms available: GPL11532,
-		GPL23126, GPL6244, GPL80, GPL8300, GPL80, GPL96, GPL570,
-		GPL571, GPL20115, GPL1293,  GPL6102, GPL6104, GPL6883, GPL6884,
-		GPL13497, GPL14550, GPL17077, GPL6480. GEO: Gene Expression
-		Omnibus. ID: identifier code. The GEO datasets are downloaded
-		from the URL https://ftp.ncbi.nlm.nih.gov/geo/series/. More
-		information can be found in the following manuscript: Davide
-		Chicco, "geneExpressionFromGEO: an R package to facilitate data
-		reading from Gene Expression Omnibus (GEO)". Microarray Data
-		Analysis, Methods in Molecular Biology, volume 2401, Springer
-		Protocols, New York City, New York, USA, 2021. In press.
+		Easily Downloads a Gene Expression Dataset from a GEO Code and
+		Retrieves the Gene Symbols of Its Probesets // A function that
+		reads in the GEO code of a gene expression dataset, retrieves
+		its data from GEO, (optionally) retrieves the gene symbols of
+		the dataset, and returns a simple dataframe table containing
+		all the data. Platforms available: GPL11532, GPL23126, GPL6244,
+		GPL8300, GPL80, GPL96, GPL570, GPL571, GPL20115, GPL1293,
+		GPL6102, GPL6104, GPL6883, GPL6884, GPL13497, GPL14550,
+		GPL17077, GPL6480. GEO: Gene Expression Omnibus. ID: identifier
+		code. The GEO datasets are downloaded from the URL
+		https://ftp.ncbi.nlm.nih.gov/geo/series/. More information can
+		be found in the following manuscript: Davide Chicco,
+		"geneExpressionFromGEO: an R package to facilitate data reading
+		from Gene Expression Omnibus (GEO)". Microarray Data Analysis,
+		Methods in Molecular Biology, volume 2401, chapter 12, pages
+		187-194, Springer Protocols, 2021,
+		doi:10.1007/978-1-0716-1839-4_12.
 	</longdescription>
 </pkgmetadata>
