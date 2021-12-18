@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Cross-Validation for Change-Point Regression // Can be customised
-		by providing different cross-validation criteria, estimators
-		for the change-point locations and local parameters, and freely
-		chosen folds. Pre-implemented estimators and criteria are
-		available. It also includes our own implementation of the COPPS
-		procedure doi:10.1214/19-AOS1814.
+		Cross-Validation for Change-Point Regression // Implements the
+		cross-validation methodology from Pein and Shah (2021)
+		arXiv:2112.03220. Can be customised by providing different
+		cross-validation criteria, estimators for the change-point
+		locations and local parameters, and freely chosen folds. Pre-
+		implemented estimators and criteria are available. It also
+		includes our own implementation of the COPPS procedure
+		doi:10.1214/19-AOS1814.
 	</longdescription>
 </pkgmetadata>

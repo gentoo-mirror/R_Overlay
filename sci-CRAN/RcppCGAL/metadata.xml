@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Rcpp Integration for CGAL // Creates a header only package to
+		link to the CGAL (Computational Geometry Algorithms Library)
+		header files in Rcpp. There are a variety of potential uses for
+		the software such as Hilbert sorting, KDtree nearest neighbors,
+		and convex hull algorithms. There is only one R function in
+		this package, which returns the current version of the CGAL
+		library included. For more information about how to use the
+		header files, see the CGAL documentation at
+		https://www.cgal.org. Currently includes the CGAL 5.3.1 stable
+		release.
+	</longdescription>
+</pkgmetadata>

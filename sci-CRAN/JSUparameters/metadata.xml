@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimate Parameters of the Best-Fitting JohnsonSU Distribution //
+		Uses least squares optimisation to estimate the parameters of
+		the best-fitting JohnsonSU distribution for a given dataset,
+		with the possibility of the distributions corresponding to the
+		limiting cases of the JohnsonSU distribution. The code for the
+		Golden Section Search used in the optimisation has been adapted
+		from E. Cai. This package has been created as an extension of
+		my Master's thesis. E. Cai (2013, "Scripts and Functions: Using
+		R to Implement the Golden Section Search Method for Numerical
+		Optimization",
+		https://chemicalstatistician.wordpress.com/2013/04/22/using-r-
+		to-implement-the-golden-bisection-method/).
+	</longdescription>
+</pkgmetadata>
