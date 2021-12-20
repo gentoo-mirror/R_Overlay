@@ -4,18 +4,15 @@
 	<longdescription>
 		Evaluation of Inequality Constrained Hypotheses Using GORICA //
 		Implements the generalized order-restricted information
-		criterion approximation (GORICA) by Kuiper, Hoijtink,
-		Silvapulle (2012) doi:10.1016/j.jspi.2012.03.007. The GORICA is
-		an AIC-like information criterion that can be utilized to
-		evaluate informative hypotheses specifying directional
-		relationships between model parameters in terms of (in)equality
-		constraints. The GORICA is applicable not only to normal
-		linear models, but also to generalized linear models (GLMs),
-		generalized linear mixed models (GLMMs), and structural
-		equation models (SEMs). In addition, the GORICA can be utilized
-		in the context of contingency tables for which (in)equality
-		constrained hypotheses do not necessarily contain linear
-		restrictions on cell probabilities, but instead often contain
-		non-linear restrictions on cell probabilities.
+		criterion approximation (GORICA), an AIC-like information
+		criterion that can be utilized to evaluate informative
+		hypotheses specifying directional relationships between model
+		parameters in terms of (in)equality constraints (see Altinisik,
+		Van Lissa, Hoijtink, Oldehinkel,  Kuiper, 2021),
+		doi:10.31234/osf.io/t3c8g. The GORICA is applicable not only to
+		normal linear models, but also to generalized linear models
+		(GLMs), generalized linear mixed models (GLMMs), structural
+		equation models (SEMs), and contingency tables. For contingency
+		tables, restrictions on cell probabilities can be non-linear.
 	</longdescription>
 </pkgmetadata>

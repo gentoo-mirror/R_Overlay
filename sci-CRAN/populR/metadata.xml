@@ -2,10 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Population Down-Scaling // Population down-scaling from a set of
-		source zone geometrical features to another set of target zone
-		geometries gem units using Areametric and Volumetric
-		approaches. The aforementioned methods were adopted by Lwin K.
-		K. and Murayama Y. work doi:10.1111/j.1467-9671.2009.01171.x.
+		Population Down-Scaling // Areal interpolation of population data
+		obtained by census surveys. Given a set of source zone polygons
+		such as census tracts or city blocks alongside with population
+		counts and a target zone of incogruent yet superimposed polygon
+		features (such as individual buildings) populR transforms
+		population counts from the former to the latter using Areal
+		Weighted and Volume Weighted Interpolation methods.
 	</longdescription>
 </pkgmetadata>
