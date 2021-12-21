@@ -29,22 +29,23 @@
 		models for longitudinal data, recurrent events and a terminal
 		event. 10) Joint frailty models for the validation of surrogate
 		endpoints in multiple randomized clinical trials with failure-
-		time endpoints 11) Conditional and Marginal two-part joint
-		models for longitudinal semicontinuous data and a terminal
-		event. 12) Joint frailty-copula models for the validation of
-		surrogate endpoints in multiple randomized clinical trials with
-		failure-time endpoints. 13) Generalized shared and joint
-		frailty models for recurrent and terminal events. Proportional
-		hazards (PH), additive hazard (AH), proportional odds (PO) and
-		probit models are available in a fully parametric framework.
-		For PH and AH models, it is possible to consider type-varying
-		coefficients and flexible semiparametric hazard function.
-		Prediction values are available (for a terminal event or for a
-		new recurrent event). Left-truncated (not for Joint model),
-		right-censored data, interval-censored data (only for Cox
-		proportional hazard and shared frailty model) and strata are
-		allowed. In each model, the random effects have the gamma or
-		normal distribution. Now, you can also consider time-varying
+		time endpoints with the possibility to use a mediation analysis
+		model. 11) Conditional and Marginal two-part joint models for
+		longitudinal semicontinuous data and a terminal event. 12)
+		Joint frailty-copula models for the validation of surrogate
+		endpoints in multiple randomized clinical trials with failure-
+		time endpoints. 13) Generalized shared and joint frailty models
+		for recurrent and terminal events. Proportional hazards (PH),
+		additive hazard (AH), proportional odds (PO) and probit models
+		are available in a fully parametric framework. For PH and AH
+		models, it is possible to consider type-varying coefficients
+		and flexible semiparametric hazard function. Prediction values
+		are available (for a terminal event or for a new recurrent
+		event). Left-truncated (not for Joint model), right-censored
+		data, interval-censored data (only for Cox proportional hazard
+		and shared frailty model) and strata are allowed. In each
+		model, the random effects have the gamma or normal
+		distribution. Now, you can also consider time-varying
 		covariates effects in Cox, shared and joint frailty models
 		(1-5). The package includes concordance measures for Cox
 		proportional hazards models and for shared frailty models.

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Mutational Signatures from COSMIC (Catalogue of Somatic Mutations
+		in Cancer) // A data package with 2 main package variables:
+		'signature' and 'etiology'. The 'signature' variable contains
+		the latest mutational signature profiles released on COSMIC
+		https://cancer.sanger.ac.uk/signatures/ for 4 mutation types: *
+		single base substitutions in the context of preceding and
+		following bases, * Strand bias single base substitutions:
+		single base substitutions from transcribed regions, that take
+		into consideration the the transcribed versus non-transcribed
+		strand, * Doublet base substitutions, and * Small insertions
+		and deletions. The 'etiology' variable provides the known or
+		hypothesized causes of signatures. 'cosmicsig' stands for
+		COSMIC signatures. Please run ?'cosmicsig' for more
+		information.
+	</longdescription>
+</pkgmetadata>
