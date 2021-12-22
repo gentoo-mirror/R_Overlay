@@ -1,0 +1,18 @@
+# Copyright 1999-2021 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Conditional Treatment Effect for Competing Risks'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/HazardDiff_0.1.0.tar.gz"
+LICENSE='GPL-2'
+
+DEPEND="sci-CRAN/ahaz
+	>=sci-CRAN/Rdpack-0.7
+	virtual/survival
+	sci-CRAN/rootSolve
+"
+RDEPEND="${DEPEND-}"
