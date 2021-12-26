@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Missing Data Imputation Using Gaussian Copulas // Provides
+		functions to impute missing values using Gaussian copulas for
+		mixed data types as described by Christoffersen et al. (2021)
+		arXiv:2102.02642. The method is related to Hoff (2007)
+		doi:10.1214/07-AOAS107 and Zhao and Udell (2019)
+		arXiv:1910.12845 but differs by making a direct approximation
+		of the log marginal likelihood using an extended version of the
+		Fortran code created by Genz and Bretz (2002)
+		doi:10.1198/106186002394 in addition to also support
+		multinomial variables.
+	</longdescription>
+</pkgmetadata>

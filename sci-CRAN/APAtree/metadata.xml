@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Computation of the 'Area Potentially Available' (APA) to Trees //
+		Maps of the 'area potentially available' (APA) of trees is
+		calculated from mapped forest stands using the approach from
+		Gspaltl et al. (2012) doi:10.1093/forestry/cps052. This is done
+		by computing a rasterized version of 'weighted voronoi
+		diagrams' using a an approximation of the trees competitive
+		ability (e.g., crown radius, leaf area) as weight. The main
+		output are 'Raster*'- objects from the 'raster' package that
+		are stored together with the raw data in apa_list's, the main
+		class of the 'APAtree' package. Aggregation functions are
+		provided to calculate stand characteristics based on APA-maps
+		such as relative proportions according to APA-size and the
+		neighborhood diversity index NDiv (Glatthorn (2021)
+		doi:10.1016/j.ecolind.2021.108073).
+	</longdescription>
+</pkgmetadata>

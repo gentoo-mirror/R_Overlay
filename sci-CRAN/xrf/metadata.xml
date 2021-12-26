@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		eXtreme RuleFit // An implementation of the RuleFit algorithm as
+		described in Friedman  Popescu (2008) doi:10.1214/07-AOAS148.
+		eXtreme Gradient Boosting ('XGBoost') is used to build rules,
+		and 'glmnet' is used to fit a sparse linear model on the raw
+		and rule features. The result is a model that learns similarly
+		to a tree ensemble, while often offering improved
+		interpretability and achieving improved scoring runtime in live
+		applications. Several algorithms for reducing rule complexity
+		are provided, most notably hyperrectangle de-overlapping. All
+		algorithms scale to several million rows and support sparse
+		representations to handle tens of thousands of dimensions.
+	</longdescription>
+</pkgmetadata>
