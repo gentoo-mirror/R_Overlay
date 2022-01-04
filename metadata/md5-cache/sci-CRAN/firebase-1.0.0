@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/jose sci-CRAN/jsonlite sci-CRAN/htmltools sci-CRAN/shiny sci-CRAN/cli >=sci-CRAN/R6-2.5.0 sci-CRAN/openssl sci-CRAN/base64enc dev-lang/R:=
+DESCRIPTION=Integrates Google Firebase Authe... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/jose sci-CRAN/jsonlite sci-CRAN/htmltools sci-CRAN/shiny sci-CRAN/cli >=sci-CRAN/R6-2.5.0 sci-CRAN/openssl sci-CRAN/base64enc dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/firebase_1.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=4d5f97029372b82032a6db42d9767d2b
