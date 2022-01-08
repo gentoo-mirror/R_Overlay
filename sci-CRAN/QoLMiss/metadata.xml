@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Scales Score Calculation from Quality of Life Data // There are
+		three functions: qol, miss_qol and miss_patient takes input of
+		the data set containing the answers of QOL questionnaire. It
+		will compute the three types of domain based scale scores:
+		Global, Functional, and Symptoms. In case of missing data, the
+		miss_qol and miss_patient functions will make the required
+		changes and then calculate the domain-wise scale scores.
+		Finally, provide an output replacing the question columns with
+		the domain-based scale scores in the original data set.
+	</longdescription>
+</pkgmetadata>

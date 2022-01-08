@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rdpack sci-CRAN/Rcpp sci-CRAN/FuzzyNumbers_Ext_2 virtual/Matrix sci-CRAN/Ryacas0 dev-lang/R:=
+DESCRIPTION=The Truncated Elliptical Family of Distributions
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_ggextra r_suggests_ggplot2 r_suggests_gridextra r_suggests_momtrunc r_suggests_tmvtnorm r_suggests_ttmoment byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/Rdpack sci-CRAN/Rcpp sci-CRAN/FuzzyNumbers_Ext_2 virtual/Matrix sci-CRAN/Ryacas0 sci-CRAN/RcppArmadillo sci-CRAN/Rcpp r_suggests_ggextra? ( sci-CRAN/ggExtra ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_momtrunc? ( sci-CRAN/MomTrunc ) r_suggests_tmvtnorm? ( sci-CRAN/tmvtnorm ) r_suggests_ttmoment? ( sci-CRAN/TTmoment ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/relliptical_1.1.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=fa4d8d3da511f83fd298efada6c02c0c
