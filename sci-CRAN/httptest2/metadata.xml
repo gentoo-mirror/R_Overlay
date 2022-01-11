@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Test Helpers for 'httr2' // Testing and documenting code that
+		communicates with remote servers can be painful. This package
+		helps with writing tests for packages that use 'httr2'. It
+		enables testing all of the logic on the R sides of the API
+		without requiring access to the remote service, and it also
+		allows recording real API responses to use as test fixtures.
+		The ability to save responses and load them offline also
+		enables writing vignettes and other dynamic documents that can
+		be distributed without access to a live server.
+	</longdescription>
+</pkgmetadata>
