@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		R Integration for Edlib, the C/C++ Library for Exact Pairwise
+		Sequence Alignment using Edit (Levenshtein) Distance //
+		Bindings to edlib, a lightweight performant C/C++ library for
+		exact pairwise sequence alignment using edit distance
+		(Levenshtein distance). The algorithm computes the optimal
+		alignment path, but also can be used to find only the start
+		and/or end of the alignment path for convenience. Edlib was
+		designed to be ultrafast and require little memory, with the
+		capability to handle very large sequences. Three alignment
+		methods are supported: global (Needleman-Wunsch), infix (Hybrid
+		Wunsch), and prefix (Semi-Hybrid Wunsch). The original C/C++
+		library is described in "Edlib: a C/C++ library for fast, exact
+		sequence alignment using edit distance", M. oi, M. iki,
+		doi:10.1093/bioinformatics/btw753.
+	</longdescription>
+</pkgmetadata>
