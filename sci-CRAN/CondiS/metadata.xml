@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Censored Data Imputation for Direct Modeling // Impute the
+		survival times for censored observations based on their
+		conditional survival distributions derived from the Kaplan-
+		Meier estimator. 'CondiS' can replace the censored observations
+		with the best approximations from the statistical model,
+		allowing for direct application of machine learning-based
+		methods. When covariates are available, 'CondiS' is extended by
+		incorporating the covariate information through machine
+		learning-based regression modeling ('CondiS_X'), which can
+		further improve the imputed survival time.
+	</longdescription>
+</pkgmetadata>
