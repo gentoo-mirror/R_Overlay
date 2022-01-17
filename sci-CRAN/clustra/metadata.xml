@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Clustering Trajectories Anchored at Intervention Time // Clusters
-		medical trajectories (unequally spaced and unequal length time
-		series) aligned by an intervention time. Performs k-means
-		clustering, where each mean is a thin plate spline fit to all
-		points in a cluster. Distance is MSE across trajectory points
-		to cluster spline. Provides silhouette plots and Adjusted Rand
+		Clustering Longitudinal Trajectories // Clusters longitudinal
+		trajectories over time (can be unequally spaced, unequal length
+		time series and/or partially overlapping series) on a common
+		time axis. Performs k-means clustering on a single continuous
+		variable measured over time, where each mean is defined by a
+		thin plate spline fit to all points in a cluster. Distance is
+		MSE across trajectory points to cluster spline. Provides graphs
+		of derived cluster splines, silhouette plots, and Adjusted Rand
 		Index evaluations of the number of clusters. Scales well to
 		large data with multicore parallelism available to speed
 		computation.
