@@ -2,22 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Compositional Analysis of Differentially Expressed Proteins in
-		Cancer // Compositional analysis of differentially expressed
-		proteins in cancer and cell culture proteomics experiments. The
-		data include lists of up- and down-regulated proteins in
-		different cancer types (breast, colorectal, liver, lung,
-		pancreatic, prostate) and laboratory conditions (hypoxia,
-		hyperosmotic stress, high glucose, 3D cell culture, and
-		proteins secreted in hypoxia), together with amino acid
-		compositions computed for protein sequences obtained from
-		UniProt. Functions are provided to calculate compositional
-		metrics including protein length, carbon oxidation state, and
-		stoichiometric hydration state. In addition, phylostrata
-		(evolutionary ages) of protein-coding genes are compiled using
-		data from Liebeskind et al. (2016) doi:10.1093/gbe/evw113 or
-		Trigos et al. (2017) doi:10.1073/pnas.1617743114. The vignettes
-		contain plots of compositional differences, phylostrata for
-		human proteins, and references for all datasets.
+		Chemical Metrics of Differentially Expressed Proteins // Chemical
+		metrics of differentially expressed proteins in cancer and cell
+		culture proteomics experiments. Data files in the package have
+		amino acid compositions of proteins obtained from UniProt and
+		250 published lists of up- and down-regulated proteins in
+		different cancer types and laboratory experiments. Functions
+		are provided to calculate chemical metrics including protein
+		length, grand average of hydropathicity (GRAVY), isoelectric
+		point (pI), carbon oxidation state, and stoichiometric
+		hydration state; the latter two are described in Dick et al.
+		(2020) doi:10.5194/bg-17-6145-2020. The vignettes visualize
+		differences of chemical metrics between up- and down-regulated
+		proteins and list literature references for all datasets.
 	</longdescription>
 </pkgmetadata>

@@ -2,15 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Robust Survey Statistics Estimation // Multiple functions to
-		compute robust survey statistics. The package supports the
-		computations of robust means, totals, and ratios. Available
-		methods are Huber M-estimators, trimming, and winsorization.
-		The package 'robsurvey' complements the 'survey' package. The
-		package additionally includes a weighted version of the
-		resistant line function of base R (line()), as well as two
-		median based simple regression estimators. The methods are
-		described in Hulliger (1995) https://www150.statcan.gc.ca/n1/en
-		/catalogue/12-001-X199500114407/.
+		Robust Survey Statistics Estimation // Functions to compute
+		robust (outlier-resistant) estimates of finite population
+		characteristics. The package supports the computations of
+		robust means, totals, ratios, etc. Available methods are
+		regression M- and GM-estimators, trimming, and winsorization.
+		The package robsurvey complements the survey.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analyze Big Files Without Loading Them in Memory // A simple set
+		of wrapper functions for data.table::fread() that allows
+		subsetting or filtering rows and selecting columns of table-
+		formatted files too large for the available RAM. 'b stands for
+		'big files'. The package is using Unix commands like grep, cut
+		and sed through (hopefully) intuitive parameters. IMPORTANT: On
+		Windows environments, you need to have those Unix commands
+		available in your "PATH". The easiest way is to install
+		"RTools". Alternatively, Git or Cygwin should also work if
+		their /bin/ folders are in your Path.
+	</longdescription>
+</pkgmetadata>
