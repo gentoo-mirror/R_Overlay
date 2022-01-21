@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Generalized Additive Model Selection // Generalized
+		additive model selection via approximate Bayesian inference is
+		provided. Bayesian mixed model-based penalized splines with
+		spike-and-slab-type coefficient prior distributions are used to
+		facilitate fitting and selection. The approximate Bayesian
+		inference engine options are: (1) Markov chain Monte Carlo and
+		(2) mean field variational Bayes. Markov chain Monte Carlo has
+		better Bayesian inferential accuracy, but requires a longer
+		run-time. Mean field variational Bayes is faster, but less
+		accurate. The methodology is described in He and Wand (2021)
+		arXiv:2201.00412.
+	</longdescription>
+</pkgmetadata>
