@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice virtual/mgcv dev-lang/R:=
+DESCRIPTION=Extended HOF (Huisman-Olff-Fresco) Models
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_testthat r_suggests_vegan r_suggests_vegdata byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=virtual/lattice virtual/mgcv r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vegan? ( sci-CRAN/vegan ) r_suggests_vegdata? ( sci-CRAN/vegdata ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/eHOF_1.11.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=8755ae43402718f773e7edcef9a0df96
