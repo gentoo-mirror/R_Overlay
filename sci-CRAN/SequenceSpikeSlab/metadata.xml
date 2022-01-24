@@ -5,8 +5,8 @@
 		Exact Bayesian Model Selection Methods for the Sparse Normal
 		Sequence Model // Contains fast functions to calculate the
 		exact Bayes posterior for the Sparse Normal Sequence Model,
-		which implement the algorithms described in Van Erven and Szabo
-		(2018) arXiv:1810.10883. For general hierarchical priors,
+		implementing the algorithms described in Van Erven and Szabo
+		(2021, doi:10.1214/20-BA1227). For general hierarchical priors,
 		sample sizes up to 10,000 are feasible within half an hour on a
 		standard laptop. For beta-binomial spike-and-slab priors, a
 		faster algorithm is provided, which can handle sample sizes of
