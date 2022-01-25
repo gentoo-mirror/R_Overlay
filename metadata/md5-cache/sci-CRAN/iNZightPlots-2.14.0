@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/hexbin sci-CRAN/hms sci-CRAN/quantreg sci-CRAN/magrittr virtual/boot sci-CRAN/rlang sci-CRAN/scales sci-CRAN/dichromat sci-CRAN/chron sci-CRAN/colorspace >=dev-lang/R-4.0 sci-CRAN/emmeans >=sci-CRAN/iNZightMR-2.2.5 >=sci-CRAN/iNZightTools-1.9 sci-CRAN/s20x sci-CRAN/lubridate sci-CRAN/survey dev-lang/R:=
+DESCRIPTION=Graphical Tools for Exploring Data with iNZight
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_forcats r_suggests_ggbeeswarm r_suggests_ggmosaic r_suggests_ggplot2 r_suggests_ggridges r_suggests_ggthemes r_suggests_gridsvg r_suggests_hextri r_suggests_jsonlite r_suggests_knitr r_suggests_plotly r_suggests_rcolorbrewer r_suggests_testthat r_suggests_tidyr r_suggests_viridis r_suggests_waffle byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/hexbin sci-CRAN/hms sci-CRAN/quantreg sci-CRAN/magrittr virtual/boot sci-CRAN/rlang sci-CRAN/scales sci-CRAN/dichromat sci-CRAN/chron sci-CRAN/colorspace >=dev-lang/R-4.0 sci-CRAN/emmeans >=sci-CRAN/iNZightMR-2.2.5 >=sci-CRAN/iNZightTools-1.9 sci-CRAN/s20x sci-CRAN/lubridate sci-CRAN/survey r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_ggbeeswarm? ( sci-CRAN/ggbeeswarm ) r_suggests_ggmosaic? ( sci-CRAN/ggmosaic ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggridges? ( sci-CRAN/ggridges ) r_suggests_ggthemes? ( sci-CRAN/ggthemes ) r_suggests_gridsvg? ( >=sci-CRAN/gridSVG-1.7.2 ) r_suggests_hextri? ( sci-CRAN/hextri ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_viridis? ( sci-CRAN/viridis ) r_suggests_waffle? ( sci-CRAN/waffle ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/iNZightPlots_2.14.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=ffcd5f95b39f1d81ac5046e9004c5c1a
