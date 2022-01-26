@@ -2,16 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Robust Quality Control Chart // Constructs robust quality control
-		chart based on the median or Hodges-Lehmann estimator
+		Robust Quality Control Chart // Constructs various robust quality
+		control charts based on the median or Hodges-Lehmann estimator
 		(location) and the median absolute deviation (MAD) or Shamos
-		estimator (scale). These estimators are all unbiased with a
-		sample of finite size. For more details, see Park, Kim and Wang
-		(2020) doi:10.1080/03610918.2019.1699114. In addition, using
-		this package, the conventional quality control charts such as
-		X-bar, S and R charts are also easily constructed. This work
-		was partially supported by the National Research Foundation of
-		Korea (NRF) grant funded by the Korea government
+		estimator (scale). The estimators used for the robust control
+		charts are all unbiased with a sample of finite size. For more
+		details, see Park, Kim and Wang (2022)
+		doi:10.1080/03610918.2019.1699114. In addition, using this R
+		package, the conventional quality control charts such as X-bar,
+		S, R, p, np, u, c, g and h charts are also easily constructed.
+		This work was partially supported by the National Research
+		Foundation of Korea (NRF) grant funded by the Korea government
 		(NRF-2017R1A2B4004169).
 	</longdescription>
 </pkgmetadata>
