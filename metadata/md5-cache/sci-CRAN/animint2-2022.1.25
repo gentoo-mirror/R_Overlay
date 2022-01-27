@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/tibble sci-CRAN/reshape2 >=sci-CRAN/scales-0.4.1 sci-CRAN/lazyeval >=sci-CRAN/knitr-1.5.33 sci-CRAN/digest sci-CRAN/RJSONIO >=sci-CRAN/gtable-0.1.1 virtual/MASS >=sci-CRAN/plyr-1.7.1 dev-lang/R:=
+DESCRIPTION=Animated Interactive Grammar of Graphics
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_ggplot2movies r_suggests_gistr r_suggests_hexbin r_suggests_hmisc r_suggests_htmltools r_suggests_httr r_suggests_lattice r_suggests_mapproj r_suggests_maps r_suggests_maptools r_suggests_mgcv r_suggests_nlme r_suggests_rmarkdown r_suggests_rpart r_suggests_servr r_suggests_shiny r_suggests_svglite r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/tibble sci-CRAN/reshape2 >=sci-CRAN/scales-0.4.1 sci-CRAN/lazyeval >=sci-CRAN/knitr-1.5.33 sci-CRAN/digest sci-CRAN/RJSONIO >=sci-CRAN/gtable-0.1.1 virtual/MASS >=sci-CRAN/plyr-1.7.1 r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_ggplot2movies? ( sci-CRAN/ggplot2movies ) r_suggests_gistr? ( >=sci-CRAN/gistr-0.2 ) r_suggests_hexbin? ( sci-CRAN/hexbin ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_httr? ( sci-CRAN/httr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_nlme? ( virtual/nlme ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpart? ( virtual/rpart ) r_suggests_servr? ( sci-CRAN/servr ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_svglite? ( sci-CRAN/svglite ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/animint2_2022.1.25.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=030e5d8c7007c88569a672011efbae10
