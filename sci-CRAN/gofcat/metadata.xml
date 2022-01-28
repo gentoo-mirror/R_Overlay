@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Goodness-of-Fit Measures for Categorical Response Models // A
+		post-estimation method for categorical response models (CRM).
+		Inputs from objects of class serp(), clm(), polr(), multinom(),
+		mlogit(), vglm() and glm() are currently supported. Available
+		tests include the Hosmer-Lemeshow tests for the binary,
+		multinomial and ordinal logistic regression; the Lipsitz and
+		the Pulkstenis-Robinson tests for the ordinal models. The
+		proportional odds, adjacent-category, and constrained
+		continuation-ratio models are particularly supported at ordinal
+		level. Tests for the proportional odds assumptions in ordinal
+		models are also possible with the Brant and the Likelihood-
+		Ratio tests. Moreover, several summary measures of predictive
+		strength (Pseudo R-squared), and some useful error metrics,
+		including, the brier score, misclassification rate and logloss
+		are also available for the binary, multinomial and ordinal
+		models. Ugba, E. R. and Gertheiss, J. (2018)
+		http://www.statmod.org/workshops_archive_proceedings_2018.html.
+	</longdescription>
+</pkgmetadata>
