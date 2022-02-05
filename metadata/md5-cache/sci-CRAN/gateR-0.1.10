@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/lifecycle virtual/spatial sci-CRAN/spatstat_geom sci-CRAN/tibble sci-CRAN/fields sci-CRAN/raster sci-CRAN/sparr dev-lang/R:=
+DESCRIPTION=Flow/Mass Cytometry Gating via S... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ncdfflow r_suggests_r_rsp r_suggests_spelling r_suggests_testthat r_suggests_usethis byte-compile
+KEYWORDS=~amd64
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/lifecycle virtual/spatial sci-CRAN/spatstat_geom sci-CRAN/tibble sci-CRAN/fields sci-CRAN/raster sci-CRAN/sparr r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ncdfflow? ( sci-BIOC/ncdfFlow ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gateR_0.1.10.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=d4e53e39f4946f36c35af926e7c7acf8
