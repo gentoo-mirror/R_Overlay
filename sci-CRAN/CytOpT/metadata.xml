@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimal Transport for Gating Transfer in Cytometry Data with
+		Domain Adaptation // Supervised learning from a source
+		distribution (with known segmentation into cell sub-
+		populations) to fit a target distribution with unknown
+		segmentation. It relies regularized optimal transport to
+		directly estimate the different cell population proportions
+		from a biological sample characterized with flow cytometry
+		measurements. It is based on the regularized Wasserstein metric
+		to compare cytometry measurements from different samples, thus
+		accounting for possible mis-alignment of a given cell
+		population across sample (due to technical variability from the
+		technology of measurements). Supervised learning technique
+		based on the Wasserstein metric that is used to estimate an
+		optimal re-weighting of class proportions in a mixture model
+		Details are presented in Freulon P, Bigot J and Hejblum BP
+		(2021) arXiv:2006.09003.
+	</longdescription>
+</pkgmetadata>

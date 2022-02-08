@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tools for the Analysis of Weak ARMA Models // Numerous time
+		series admit autoregressive moving average (ARMA)
+		representations, in which the errors are uncorrelated but not
+		necessarily independent. These models are called weak ARMA by
+		opposition to the standard ARMA models, also called strong ARMA
+		models, in which the error terms are supposed to be independent
+		and identically distributed (iid). This package allows the
+		study of nonlinear time series models through weak ARMA
+		representations. It determines identification, estimation and
+		validation for ARMA models and for AR and MA models in
+		particular. Functions can also be used in the strong case. This
+		package also works on white noises by omitting arguments 'p',
+		'q', 'ar' and 'ma'. See Francq, C. and Zakoan, J. (1998)
+		doi:10.1016/S0378-3758(97)00139-0 and Boubacar Manassara, Y.
+		and Saussereau, B. (2018) doi:10.1080/01621459.2017.1380030 for
+		more details.
+	</longdescription>
+</pkgmetadata>
