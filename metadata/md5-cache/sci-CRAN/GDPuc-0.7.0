@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/crayon sci-CRAN/magrittr >=sci-CRAN/cli-2.4.0 sci-CRAN/glue sci-CRAN/lifecycle >=sci-CRAN/rlang-1.0.0 sci-CRAN/tibble sci-CRAN/tidyselect sci-CRAN/withr dev-lang/R:=
+DESCRIPTION=Easily Convert GDP Data
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_class r_suggests_covr r_suggests_knitr r_suggests_purrr r_suggests_readxl r_suggests_rmarkdown r_suggests_stringr r_suggests_testthat r_suggests_tidyr r_suggests_wdi r_suggests_zoo byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/crayon sci-CRAN/magrittr >=sci-CRAN/cli-2.4.0 sci-CRAN/glue sci-CRAN/lifecycle >=sci-CRAN/rlang-1.0.0 sci-CRAN/tibble sci-CRAN/tidyselect sci-CRAN/withr r_suggests_class? ( virtual/class ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_wdi? ( sci-CRAN/WDI ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GDPuc_0.7.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=98f3db6b710ffd27064878f806de9e6c

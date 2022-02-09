@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Tool Used to Conduct Hypsometric Analysis of a Watershed //
+		Functions for generating tables required for drawing and
+		calculating hypsometric curves and hypsometric integrals. These
+		functions accept as input the DEM of the region of interest
+		(your watershed) and a spatial data frame file specifying
+		delineation of sub-catchments within the watershed. They then
+		generate output in the form of PNG images and HTML files
+		contained in a folder named "HYPSO_OUTPUT" created in the
+		current directory. S. K. Sharma, S. Gajbhiye, et al. (2018)
+		doi:10.1007/978-981-10-5801-1_19. Omvir Singh, A. Sarangi, and
+		Milap C. Sharma (2006) doi:10.1007/s11269-008-9242-z. James A.
+		Vanderwaal and Herbert Ssegane (2013) doi:10.1111/jawr.12089.
+	</longdescription>
+</pkgmetadata>
