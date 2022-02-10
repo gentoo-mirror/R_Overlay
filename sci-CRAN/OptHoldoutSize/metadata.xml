@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation of Optimal Size for a Holdout Set for Updating a
+		Predictive Score // Predictive scores must be updated with
+		care, because actions taken on the basis of existing risk
+		scores causes bias in risk estimates from the updated score. A
+		holdout set is a straightforward way to manage this problem: a
+		proportion of the population is 'held-out' from computation of
+		the previous risk score. This package provides tools to
+		estimate a size for this holdout set and associated errors.
+		Comprehensive vignettes are included.
+	</longdescription>
+</pkgmetadata>

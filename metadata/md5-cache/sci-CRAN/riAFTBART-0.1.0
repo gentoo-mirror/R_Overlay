@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/msm sci-CRAN/doParallel virtual/survival sci-CRAN/tidyr sci-CRAN/BART sci-CRAN/ggplot2 sci-CRAN/twang virtual/MASS sci-CRAN/MCMCpack sci-CRAN/magrittr sci-CRAN/dbarts sci-CRAN/foreach sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/cowplot virtual/nnet dev-lang/R:=
+DESCRIPTION=A Flexible Approach for Causal I... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-CRAN/msm sci-CRAN/doParallel virtual/survival sci-CRAN/tidyr sci-CRAN/BART sci-CRAN/ggplot2 sci-CRAN/twang virtual/MASS sci-CRAN/MCMCpack sci-CRAN/magrittr sci-CRAN/dbarts sci-CRAN/foreach sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/cowplot virtual/nnet dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/riAFTBART_0.1.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=c6b1128b4395f52ad8599e425bb1d757

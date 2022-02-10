@@ -9,6 +9,11 @@
 		allow R users to write code that is easier to read, write, and
 		maintain while providing a friendlier experience to new R users
 		from other language backgrounds (such as 'Python') who are used
-		to concepts such as x += 1 and 'foo' + 'bar'.
+		to concepts such as x += 1 and 'foo' + 'bar'. Includes
+		operators for not in, easy floating point comparisons, ===
+		equivalent, and SQL-like like operations (), etc. We also added
+		in some extra helper functions, such as OS checks, pasting in
+		Oxford comma format, and functions to get the first, last, nth,
+		or most common element of a vector or word in a string.
 	</longdescription>
 </pkgmetadata>
