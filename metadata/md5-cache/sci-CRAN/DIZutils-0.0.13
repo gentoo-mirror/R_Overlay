@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DIZtools sci-CRAN/RJDBC >=sci-CRAN/DBI-1.1.0 sci-CRAN/Hmisc sci-CRAN/data_table sci-CRAN/RPostgres >=dev-lang/R-3.1.0 sci-CRAN/magrittr sci-CRAN/psych sci-CRAN/RJSONIO sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Utilities for DIZ R Package Development
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_lintr r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/DIZtools sci-CRAN/RJDBC >=sci-CRAN/DBI-1.1.0 sci-CRAN/Hmisc sci-CRAN/data_table sci-CRAN/RPostgres >=dev-lang/R-3.1.0 sci-CRAN/magrittr sci-CRAN/psych sci-CRAN/RJSONIO sci-CRAN/xml2 dev-db/postgresql-base r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DIZutils_0.0.13.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=25576a71c8bc8bae6a9ab4279e80e04d
