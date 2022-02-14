@@ -2,13 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Vehicular Emissions by Top-Down Methods // Creates emissions for
-		use in air quality models. Vehicular emissions are estimated by
-		a top-down approach, total emissions are calculated using the
-		statistical description of the fleet of vehicles, the emission
-		is spatially distributed according to satellite images or
-		openstreetmap data https://www.openstreetmap.org and then
-		distributed temporarily (Vara-Vela et al., 2016,
-		doi:10.5194/acp-16-777-2016).
+		Tools for Create Emissions for Air Quality Models // Processing
+		tools to create emissions for use in numerical air quality
+		models. Emissions can be calculated both using emission factors
+		and activity data (Schuch et al 2018) doi:10.21105/joss.00662
+		or using pollutant inventories (Schuch et al., 2018)
+		doi:10.30564/jasr.v1i1.347. Functions to process individual
+		point emissions, line emissions and area emissions of
+		pollutants are available as well as methods to incorporate
+		alternative data for Spatial distribution of emissions such as
+		satellite images (Martins et al, 2012)
+		doi:10.3389/fenvs.2015.00009 or openstreetmap data (Andrade et
+		al, 2015) doi:10.3389/fenvs.2015.00009.
 	</longdescription>
 </pkgmetadata>
