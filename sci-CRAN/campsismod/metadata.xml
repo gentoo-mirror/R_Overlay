@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generic Implementation of a PK/PD Model // A generic, easy-to-use
+		and expandable implementation of a pharmacokinetic (PK) /
+		pharmacodynamic (PD) model based on the S4 class system. This
+		package allows the user to read/write a pharmacometric model
+		from/to files and adapt it further on the fly in the R
+		environment. For this purpose, this package provides an
+		intuitive API to add, modify or delete equations, ordinary
+		differential equations (ODE's), model parameters or compartment
+		properties (like infusion duration or rate, bioavailability and
+		initial values). Finally, this package also provides a useful
+		export of the model for use with simulation packages 'RxODE'
+		and 'mrgsolve'. This package is designed and intended to be
+		used with package 'campsis', a PK/PD simulation platform built
+		on top of 'RxODE' and 'mrgsolve'.
+	</longdescription>
+</pkgmetadata>

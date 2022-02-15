@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/functional virtual/mgcv sci-CRAN/data_table sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Discrete Time Survival Analysis
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_ecdat r_suggests_matrix r_suggests_nnet r_suggests_numderiv r_suggests_pec r_suggests_randomforest r_suggests_survival r_suggests_vgam byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/functional virtual/mgcv sci-CRAN/data_table sci-CRAN/mvtnorm r_suggests_caret? ( sci-CRAN/caret ) r_suggests_ecdat? ( sci-CRAN/Ecdat ) r_suggests_matrix? ( virtual/Matrix virtual/Matrix ) r_suggests_nnet? ( virtual/nnet ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_pec? ( sci-CRAN/pec ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_survival? ( virtual/survival ) r_suggests_vgam? ( sci-CRAN/VGAM ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/discSurv_1.4.2.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=b5bc8f856dada60c83451b0f4f6582d6
