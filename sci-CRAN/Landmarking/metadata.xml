@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis using Landmark Models // The landmark approach allows
+		survival predictions to be updated dynamically as new
+		measurements from an individual are recorded. The idea is to
+		set predefined time points, known as "landmark times", and form
+		a model at each landmark time using only the individuals in the
+		risk set. This package allows the longitudinal data to be
+		modelled either using the last observation carried forward or
+		linear mixed effects modelling. There is also the option to
+		model competing risks, either through cause-specific Cox
+		regression or Fine-Gray regression. To find out more about the
+		methods in this package, please see https://isobelbarrott.githu
+		b.io/Landmarking/articles/Landmarking.
+	</longdescription>
+</pkgmetadata>

@@ -2,8 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Implement the Group Walk Algorithm // A procedure that allows the
-		user to reject multiple hypotheses in the presence of group
-		structure, while controlling the false discovery rate (FDR).
+		Implement the Group Walk Algorithm // A procedure that uses
+		target-decoy competition (or knockoffs) to reject multiple
+		hypotheses in the presence of group structure. The procedure
+		controls the false discovery rate (FDR) at a user-specified
+		threshold.
 	</longdescription>
 </pkgmetadata>
