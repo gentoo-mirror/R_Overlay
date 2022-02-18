@@ -1,0 +1,33 @@
+# Copyright 1999-2022 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Signal Processing Toolbox for An... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/ravetools_0.0.3.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_fftwtools r_suggests_pracma r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_fftwtools? ( sci-CRAN/fftwtools )
+	r_suggests_pracma? ( sci-CRAN/pracma )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+"
+DEPEND=">=dev-lang/R-4.0.0
+	>=sci-CRAN/waveslim-1.8.2
+	>=sci-CRAN/signal-0.7.7
+	>=sci-CRAN/Rcpp-1.0.8
+	>=sci-CRAN/filearray-0.1.3
+	>=sci-CRAN/digest-0.6.29
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	sci-libs/fftw
+	>=sci-libs/fftw-3
+	${R_SUGGESTS-}
+"
+
+_UNRESOLVED_PACKAGES=( 'sci-CRAN/microbenchmark' )
