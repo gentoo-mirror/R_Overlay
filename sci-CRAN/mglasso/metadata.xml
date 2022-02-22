@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiscale Graphical Lasso // Inference of Multiscale graphical
+		models with neighborhood selection approach.  The method is
+		based on solving a convex optimization problem combining a
+		Lasso and fused-group Lasso penalties.  This allows to infer
+		simultaneously a conditional independence graph and a
+		clustering partition. The optimization is based on the
+		Continuation with Nesterov smoothing in a Shrinkage-
+		Thresholding Algorithm solver (Hadj-Selem et al. 2018)
+		doi:10.1109/TMI.2018.2829802 implemented in python.
+	</longdescription>
+</pkgmetadata>
