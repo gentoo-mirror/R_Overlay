@@ -3,16 +3,19 @@
 <pkgmetadata>
 	<longdescription>
 		QTL Genome-Wide Composite Interval Mapping // Conduct multiple
-		quantitative trait loci (QTL) mapping under the framework of
-		random-QTL-effect linear mixed model. First, each position on
-		the genome is detected in order to obtain a negative logarithm
-		P-value curve against genome position. Then, all the peaks on
-		each effect (additive or dominant) curve are viewed as
-		potential QTL, all the effects of the potential QTL are
-		included in a multi-QTL model, their effects are estimated by
-		empirical Bayes in doubled haploid population or by adaptive
-		lasso in F2 population, and true QTL are identified by
-		likelihood radio test. See Wen et al. (2018)
+		quantitative trait loci (QTL) and QTL-by-environment
+		interaction (QEI) mapping via ordinary or compressed variance
+		component mixed models with random- or fixed QTL/QEI effects.
+		First, each position on the genome is detected in order to
+		obtain a negative logarithm P-value curve against genome
+		position. Then, all the peaks on each effect (additive or
+		dominant) curve or on each locus curve are viewed as potential
+		main-effect QTLs and QEIs, all their effects are included in a
+		multi-locus model, their effects are estimated by both least
+		angle regression and empirical Bayes (or adaptive lasso) in
+		backcross and F2 populations, and true QTLs and QEIs are
+		identified by likelihood radio test. See Zhou et al. (2022)
+		doi:10.1093/bib/bbab596 and Wen et al. (2018)
 		doi:10.1093/bib/bby058.
 	</longdescription>
 </pkgmetadata>

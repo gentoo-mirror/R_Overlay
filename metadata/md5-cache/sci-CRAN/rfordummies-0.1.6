@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Code Examples to Accompany the Book R for Dummies
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_foreign r_suggests_fortunes r_suggests_ggplot2 r_suggests_lattice r_suggests_reshape2 r_suggests_sos r_suggests_spelling r_suggests_stringr r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=r_suggests_covr? ( sci-CRAN/covr ) r_suggests_foreign? ( virtual/foreign ) r_suggests_fortunes? ( sci-CRAN/fortunes ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_lattice? ( virtual/lattice ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_sos? ( sci-CRAN/sos ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rfordummies_0.1.6.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=f0809ac3cd1117ee61bb04bc250d98cc
