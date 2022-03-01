@@ -3,7 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Computation and Visualisation of Atmospheric Convective
-		Parameters // R tool for calculating over 100 atmospheric
-		convection indices from rawinsonde profiles.
+		Parameters // Collection of functions for rapid computation and
+		visualisation of convective parameters commonly used in the
+		operational prediction of severe convective storms. Core
+		algorithm is based on a highly optimized 'C++' code linked into
+		'R' via 'Rcpp'. Highly efficient engine allows to derive
+		thermodynamic and kinematic parameters from large numerical
+		datasets such as reanalyses or operational Numerical Weather
+		Prediction models in a reasonable amount of time. Package has
+		been developed since 2017 by research meteorologists
+		specializing in severe thunderstorms.
 	</longdescription>
 </pkgmetadata>
