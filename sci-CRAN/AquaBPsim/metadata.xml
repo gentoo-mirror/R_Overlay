@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Aquaculture Breeding Program Simulation // Breeding programs can
+		be simulated with this package. The functions are written to
+		simulate production and reproduction systems encountered in
+		aquaculture and are easy to combine with custom functions.
+		Simulating breeding programs is useful to predict the expected
+		genetic gain, rate of inbreeding and the effect of changes in
+		the breeding program. AquaBPsim does not simulate genome wide-
+		markers and QTLs, but it simulates estimated breeding values as
+		values correlated to the true breeding values. The correlation
+		equals the accuracy, which can be provided or calculated using
+		deterministic formulas. For genomic selection, the accuracy can
+		be calculate using the formula of Deatwyler et al. (2010)
+		doi:10.1534/genetics.110.116855. Without genomic selection,
+		accuracy can be calculated with the selection index method
+		(Mrode, 2014. ISBN:978-1-84593-981-6).
+	</longdescription>
+</pkgmetadata>
