@@ -3,11 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Latent Unknown Clustering with Integrated Data // An
-		implementation for the 'LUCID' model (Peng (2019)
-		doi:10.1093/bioinformatics/btz667) to jointly estimate latent
-		unknown clusters/subgroups with integrated data. An EM
-		algorithm is used to obtain the latent cluster assignment and
-		model parameter estimates. Feature selection is achieved by
-		applying the L1 regularization method.
+		implementation of LUCID model (Peng (2019)
+		doi:10.1093/bioinformatics/btz667). LUCID conducts integrated
+		clustering using exposures, omics data (and outcome of
+		interest). An EM algorithm is implemented to estimate MLE of
+		LUCID model. LUCID features integrated variable selection,
+		incorporation of missing omics data, bootstrap inference and
+		visualization via Sankey diagram.
 	</longdescription>
 </pkgmetadata>

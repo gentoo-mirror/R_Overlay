@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Computation of Distance Correlations // Fast computation of
+		the distance covariance 'dcov' and distance correlation 'dcor'.
+		The computation cost is only O(n log(n)) for the distance
+		correlation (see Chaudhuri, Hu (2019) arXiv:1810.11332
+		doi:10.1016/j.csda.2019.01.016). The functions are written
+		entirely in C++ to speed up the computation.
+	</longdescription>
+</pkgmetadata>
