@@ -7,12 +7,13 @@
 		level model. The model is fit using restricted maximum
 		likelihood, or in a hierarchical Bayesian way. In the latter
 		case numerical integration is used to average over the
-		posterior density for the between-area variance.  The output
+		posterior density for the between-area variance. The output
 		includes the model fit, small area estimates and corresponding
-		MSEs, as well as some model selection measures. Additional
-		functions provide means to compute aggregate estimates and
-		MSEs, to minimally adjust the small area estimates to
-		benchmarks at a higher aggregation level, and to graphically
-		compare different sets of small area estimates.
+		mean squared errors, as well as some model selection measures.
+		Additional functions provide means to compute aggregate
+		estimates and mean squared errors, to minimally adjust the
+		small area estimates to benchmarks at a higher aggregation
+		level, and to graphically compare different sets of small area
+		estimates.
 	</longdescription>
 </pkgmetadata>
