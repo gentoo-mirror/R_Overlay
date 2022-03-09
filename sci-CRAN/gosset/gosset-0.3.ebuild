@@ -1,0 +1,33 @@
+# Copyright 1999-2022 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Tools for Data Analysis in Exper... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/gosset_0.3.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_gnm r_suggests_knitr r_suggests_psychotree
+	r_suggests_rmarkdown r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_gnm? ( sci-CRAN/gnm )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_psychotree? ( sci-CRAN/psychotree )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+"
+DEPEND=">=dev-lang/R-3.5.0
+	sci-CRAN/ggparty
+	sci-CRAN/PlackettLuce
+	sci-CRAN/psychotools
+	sci-CRAN/ggplot2
+	sci-CRAN/qvcalc
+	sci-CRAN/BradleyTerry2
+	sci-CRAN/partykit
+	sci-CRAN/tidyr
+	sci-CRAN/patchwork
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
