@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Download Data from the Bank for International Settlements (BIS)
+		// Functions for downloading data from the Bank for
+		International Settlements (BIS; https://www.bis.org/) in Basel.
+		Supported are only full datasets in (typically) CSV format.
+		The package is lightweight and without dependencies; suggested
+		packages are used only if data is to be transformed into
+		particular data structures, for instance into 'zoo' objects.
+		Downloaded data can optionally be cached, to avoid repeated
+		downloads of the same files.
+	</longdescription>
+</pkgmetadata>
