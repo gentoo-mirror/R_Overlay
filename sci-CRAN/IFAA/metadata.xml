@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<longdescription>
 		Robust Inference for Absolute Abundance in Microbiome Analysis //
-		A novel approach to make inference on the association of
+		A robust approach to make inference on the association of
 		covariates with the absolute abundance (AA) of 'microbiome' in
 		an ecosystem. It can be also directly applied to relative
 		abundance (RA) data to make inference on AA (even if AA data is
@@ -13,8 +13,7 @@
 		estimates of this method have easy interpretation like a
 		typical regression analysis. High-dimensional covariates are
 		handled with regularization and it is implemented by parallel
-		computing. This algorithm finds optimal reference 'taxa/OTU
-		(Operational Taxonomic Unit)/ASV (Amplicon Sequence Bariant)'
-		and uses permutation to control FDR (False Discovery Rate).
+		computing. False discovery rate is automatically controlled by
+		this approach.
 	</longdescription>
 </pkgmetadata>
