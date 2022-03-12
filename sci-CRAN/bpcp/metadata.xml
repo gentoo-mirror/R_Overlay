@@ -5,11 +5,15 @@
 		Beta Product Confidence Procedure for Right Censored Data //
 		Calculates nonparametric pointwise confidence intervals for the
 		survival distribution for right censored data, and for medians
-		[Fay and Brittain doi:10.1002/sim.6905]. Has two-sample tests
+		[Fay and Brittain DOI:10.1002/sim.6905]. Has two-sample tests
 		for dissimilarity (e.g., difference, ratio or odds ratio) in
 		survival at a fixed time, and differences in medians [Fay,
-		Proschan, and Brittain doi:10.1111/biom.12231]. Especially
-		important for latter parts of the survival curve, small sample
-		sizes or heavily censored data. Includes mid-p options.
+		Proschan, and Brittain DOI:10.1111/biom.12231]. Basically, the
+		package gives exact inference methods for one- and two-sample
+		exact inferences for Kaplan-Meier curves (e.g., generalizing
+		Fisher's exact test to allow for right censoring), which are
+		especially important for latter parts of the survival curve,
+		small sample sizes or heavily censored data. Includes mid-p
+		options.
 	</longdescription>
 </pkgmetadata>
