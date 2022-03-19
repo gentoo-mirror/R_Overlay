@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/scales sci-CRAN/ggimage sci-CRAN/officer sci-CRAN/rlang sci-CRAN/tidyselect sci-CRAN/broom sci-CRAN/RColorBrewer sci-CRAN/dplyr sci-CRAN/ggthemes sci-CRAN/tidyr sci-CRAN/flextable sci-CRAN/magrittr sci-CRAN/SWMPr sci-CRAN/EnvStats sci-CRAN/lubridate sci-CRAN/sf sci-CRAN/ggplot2 sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Functions for Analyzing and Plot... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_ggmap byte-compile
+KEYWORDS=~amd64
+LICENSE=CC0-1.0
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/scales sci-CRAN/ggimage sci-CRAN/officer sci-CRAN/rlang sci-CRAN/tidyselect sci-CRAN/broom sci-CRAN/RColorBrewer sci-CRAN/dplyr sci-CRAN/ggthemes sci-CRAN/tidyr sci-CRAN/flextable sci-CRAN/magrittr sci-CRAN/SWMPr sci-CRAN/EnvStats sci-CRAN/lubridate sci-CRAN/sf sci-CRAN/ggplot2 sci-CRAN/purrr r_suggests_ggmap? ( sci-CRAN/ggmap ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SWMPrExtension_2.2.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=d0793048dca14bfce4ea628da5c1bf96

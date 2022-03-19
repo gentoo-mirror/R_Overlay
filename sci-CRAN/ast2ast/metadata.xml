@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Translates a R Function into an External Pointer to a C++
+		Function // Enable translation of a tiny subset of R to C++.
+		The user has to define a R function which gets translated. For
+		a full list of possible functions check the documentation.
+		After translation an external pointer to the C++ function is
+		returned to the user. The intention of the package is to
+		generate fast functions which can be used as ode-system or
+		during optimization.
+	</longdescription>
+</pkgmetadata>

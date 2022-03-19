@@ -8,8 +8,14 @@
 		equation models, model solution based on eigenvalues if
 		possible or using numerical solvers.  If a C compiler (on
 		windows: 'Rtools') is installed, differential equation models
-		are solved using automatically generated C functions.  Please
-		note that no warranty is implied for correctness of results or
-		fitness for a particular purpose.
+		are solved using automatically generated C functions.
+		Heteroscedasticity can be taken into account using variance by
+		variable or two-component error models as described by Ranke
+		and Meinecke (2018) doi:10.3390/environments6120124.
+		Interfaces to several nonlinear mixed-effects model packages
+		are available, some of which are described by Ranke et al.
+		(2021) doi:10.3390/environments8080071.  Please note that no
+		warranty is implied for correctness of results or fitness for a
+		particular purpose.
 	</longdescription>
 </pkgmetadata>

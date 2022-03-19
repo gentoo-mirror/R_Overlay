@@ -4,14 +4,15 @@
 	<longdescription>
 		Probabilistic Forecast Combination Using CRPS Learning // Combine
 		probabilistic forecasts using CRPS learning algorithms proposed
-		in Berrisch, Ziel (2021) arXiv:2102.00968. The package
-		implements multiple online learning algorithms like Bernstein
-		online aggregation; see Wintenberger (2014) arXiv:1404.1356.
-		Quantile regression is also implemented for comparison
-		purposes. Model parameters can be tuned automatically with
-		respect to the loss of the forecast combination. Methods like
-		predict(), update(), plot() and print() are available for
-		convenience. This package utilizes the optim C++ library for
-		numeric optimization https://github.com/kthohr/optim.
+		in Berrisch, Ziel (2021) arXiv:2102.00968
+		doi:10.1016/j.jeconom.2021.11.008. The package implements
+		multiple online learning algorithms like Bernstein online
+		aggregation; see Wintenberger (2014) arXiv:1404.1356. Quantile
+		regression is also implemented for comparison purposes. Model
+		parameters can be tuned automatically with respect to the loss
+		of the forecast combination. Methods like predict(), update(),
+		plot() and print() are available for convenience. This package
+		utilizes the optim C++ library for numeric optimization
+		https://github.com/kthohr/optim.
 	</longdescription>
 </pkgmetadata>

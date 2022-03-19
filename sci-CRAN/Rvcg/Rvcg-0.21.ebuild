@@ -1,0 +1,26 @@
+# Copyright 1999-2022 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Manipulations of Triangular Mesh... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/Rvcg_0.21.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_morpho r_suggests_rgl"
+R_SUGGESTS="
+	r_suggests_morpho? ( sci-CRAN/Morpho )
+	r_suggests_rgl? ( sci-CRAN/rgl )
+"
+DEPEND="sci-CRAN/Rcpp
+	>=dev-lang/R-3.1.0
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppEigen
+	${R_SUGGESTS-}
+"

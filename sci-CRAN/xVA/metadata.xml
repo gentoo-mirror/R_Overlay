@@ -8,8 +8,8 @@
 		For the KVA calculation three regulatory frameworks are
 		supported: CEM, (simplified) SA-CCR, OEM and IMM. The
 		probability of default is implied through the credit spreads
-		curve. Currently, only IRSwaps are supported. For more
-		information, you can check one of the books regarding xVA:
-		http://www.cvacentral.com/books/credit-value-adjustment.
+		curve. The package supports an exposure calculation based on
+		SA-CCR which includes several trade types and a simulated path
+		which is currently available only for IRSwaps.
 	</longdescription>
 </pkgmetadata>
