@@ -9,11 +9,12 @@
 		(multiple) co-data sources. Group hyperparameters are estimated
 		with an empirical Bayes method of moments, penalised with an
 		extra level of hyper shrinkage. Various types of hyper
-		shrinkage may be used for various co-data. The method
-		accommodates inclusion of unpenalised covariates, posterior
-		selection of covariates and multiple data types. The model fit
-		is used to predict for new samples. The name 'ecpc' stands for
-		Empirical Bayes, Co-data learnt, Prediction and Covariate
-		selection. See Van Nee et al. (2020) arXiv:2005.04010.
+		shrinkage may be used for various co-data. Co-data may be
+		continuous or categorical. The method accommodates inclusion of
+		unpenalised covariates, posterior selection of covariates and
+		multiple data types. The model fit is used to predict for new
+		samples. The name 'ecpc' stands for Empirical Bayes, Co-data
+		learnt, Prediction and Covariate selection. See Van Nee et al.
+		(2020) arXiv:2005.04010.
 	</longdescription>
 </pkgmetadata>
