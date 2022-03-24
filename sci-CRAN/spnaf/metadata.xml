@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spatial Network Autocorrelation for Flow Data // Identify
+		statistically significant flow clusters using the local spatial
+		network autocorrelation statistic G_ij* proposed by 'Berglund'
+		and 'Karlstrm' (1999) doi:10.1007/s101090050013. The metric, an
+		extended statistic of 'Getis/Ord' G ('Getis' and 'Ord' 1992)
+		doi:10.1111/j.1538-4632.1992.tb00261.x, detects a group of
+		flows having similar traits in terms of directionality. You
+		provide OD data and the associated polygon to get results with
+		several parameters, some of which are defined by spdep package.
+	</longdescription>
+</pkgmetadata>
