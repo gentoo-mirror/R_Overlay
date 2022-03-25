@@ -13,13 +13,14 @@
 		be double heterozygous at the investigated pairs of SNPs. Based
 		on recombination rates, genetic distances between markers can
 		be estimated. Markers with unusually large recombination rate
-		to markers in close proximity can be discarded in this
-		derivation. *A pipeline is available at github*
-		https://github.com/wittenburg/hsrecombi Hampel, Teuscher,
-		Gomez-Raya, Doschoris, Wittenburg (2018) "Estimation of
-		recombination rate and maternal linkage disequilibrium in half-
-		sibs" doi:10.3389/fgene.2018.00186. Gomez-Raya (2012) "Maximum
-		likelihood estimation of linkage disequilibrium in half-sib
-		families" doi:10.1534/genetics.111.137521.
+		to markers in close proximity (i.e. putatively misplaced
+		markers) shall be discarded in this derivation. A workflow
+		description is attached as vignette. *A pipeline is available
+		at GitHub* https://github.com/wittenburg/hsrecombi Hampel,
+		Teuscher, Gomez-Raya, Doschoris, Wittenburg (2018) "Estimation
+		of recombination rate and maternal linkage disequilibrium in
+		half-sibs" doi:10.3389/fgene.2018.00186. Gomez-Raya (2012)
+		"Maximum likelihood estimation of linkage disequilibrium in
+		half-sib families" doi:10.1534/genetics.111.137521.
 	</longdescription>
 </pkgmetadata>
