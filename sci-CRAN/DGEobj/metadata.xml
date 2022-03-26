@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Differential Gene Expression (DGE) Analysis Results Data Object
+		// Provides a flexible container to manage and annotate
+		Differential Gene Expression (DGE) analysis results (Smythe et.
+		al (2015) doi:10.1093/nar/gkv007). The DGEobj has data slots
+		for row (gene), col (samples), assays (matrix n-rows by
+		m-samples dimensions) and metadata (not keyed to row, col, or
+		assays). A set of accessory functions to deposit, query and
+		retrieve subsets of a data workflow has been provided.
+		Attributes are used to capture metadata such as species and
+		gene model, including reproducibility information such that a
+		3rd party can access a DGEobj history to see how each data
+		object was created or modified.  Since the DGEobj is
+		customizable and extensible it is not limited to RNA-seq
+		analysis types of workflows -- it can accommodate nearly any
+		data analysis workflow that starts from a matrix of assays
+		(rows) by samples (columns).
+	</longdescription>
+</pkgmetadata>
