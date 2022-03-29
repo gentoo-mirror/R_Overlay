@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parse xlsx Files // Uses C++ via the 'Rcpp' package to parse
+		modern Excel files ('.xlsx'). Memory usage is kept minimal by
+		decompressing only parts of the file at a time, while employing
+		multiple threads to achieve significant runtime reduction. Uses
+		https://github.com/richgel999/miniz,
+		https://github.com/ebiggers/libdeflate, and
+		https://github.com/lemire/fast_double_parser.
+	</longdescription>
+</pkgmetadata>
