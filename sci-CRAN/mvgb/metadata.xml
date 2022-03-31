@@ -2,10 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multivariate Probabilities via the Genz and Bretz (2002)
-		Formulation // Generates multivariate student-t distributions
-		using the formulation in Genz and Bretz (2002)
-		DOI:10.1198/106186002394 by sampling gamma variates not
-		chi/sqrt(nu).
+		Multivariate Probabilities of Scale Mixtures of Multivariate
+		Normal Distributions via the Genz and Bretz (2002) QRSVN Method
+		// Generates multivariate subgaussian stable probabilities
+		using the QRSVN algorithm as detailed in Genz and Bretz (2002)
+		DOI:10.1198/106186002394 but by sampling positive stable
+		variates not chi/sqrt(nu).
 	</longdescription>
 </pkgmetadata>

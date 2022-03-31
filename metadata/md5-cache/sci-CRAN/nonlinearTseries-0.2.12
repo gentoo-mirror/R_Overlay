@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tseries >=sci-CRAN/Rcpp-0.12.12 sci-CRAN/lifecycle >=dev-lang/R-3.3.0 sci-CRAN/zoo virtual/Matrix dev-lang/R:=
+DESCRIPTION=Nonlinear Time Series Analysis
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_plot3d r_suggests_rgl r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tseries >=sci-CRAN/Rcpp-0.12.12 sci-CRAN/lifecycle >=dev-lang/R-3.3.0 sci-CRAN/zoo virtual/Matrix sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plot3d? ( sci-CRAN/plot3D ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nonlinearTseries_0.2.12.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=1e2a7ee75be0eea6f3dd1d898085ccb7

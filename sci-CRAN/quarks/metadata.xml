@@ -2,15 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Simple Methods for Calculating Value at Risk and Expected
-		Shortfall // Enables the user to calculate Value at Risk (VaR)
-		and Expected Shortfall (ES) by means of various types of
-		historical simulation. Currently plain-, age-, volatility-
-		weighted- and filtered historical simulation are implemented in
-		this package. Volatility weighting can be carried out via an
-		exponentially weighted moving average model (EWMA) or other
-		GARCH-type models. The methods of the package are described in
-		Gurrola-Perez, P. and Murphy, D. (2015)
-		https://EconPapers.repec.org/RePEc:boe:boeewp:0525.
+		Simple Methods for Calculating and Backtesting Value at Risk and
+		Expected Shortfall // Enables the user to calculate Value at
+		Risk (VaR) and Expected Shortfall (ES) by means of various
+		types of historical simulation. Currently plain-, age-,
+		volatility-weighted- and filtered historical simulation are
+		implemented in this package. Volatility weighting can be
+		carried out via an exponentially weighted moving average model
+		(EWMA) or other GARCH-type models. The performance can be
+		assessed via Traffic Light Test, Coverage Tests and Loss
+		Functions. The methods of the package are described in Gurrola-
+		Perez, P. and Murphy, D. (2015)
+		https://EconPapers.repec.org/RePEc:boe:boeewp:0525 as well as
+		McNeil, J., Frey, R., and Embrechts, P. (2015)
+		https://ideas.repec.org/b/pup/pbooks/10496.html.
 	</longdescription>
 </pkgmetadata>
