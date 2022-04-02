@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Miscellaneous Functions for ggplot2
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_ggplotify r_suggests_knitr r_suggests_prettydoc r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/rlang r_suggests_ggplotify? ( sci-CRAN/ggplotify ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggfun_0.0.6.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=f0da53fcd47a86813384d6eb4c215f79

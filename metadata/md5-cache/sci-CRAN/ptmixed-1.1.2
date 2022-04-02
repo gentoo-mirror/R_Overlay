@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/moments sci-CRAN/lme4 virtual/Matrix sci-BIOC/tweeDEseq sci-CRAN/GLMMadaptive sci-CRAN/mvtnorm sci-CRAN/numDeriv dev-lang/R:=
+DESCRIPTION=Poisson-Tweedie Generalized Linear Mixed Model
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/moments sci-CRAN/lme4 virtual/Matrix sci-BIOC/tweeDEseq sci-CRAN/GLMMadaptive sci-CRAN/mvtnorm sci-CRAN/numDeriv r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ptmixed_1.1.2.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=772c02b9d086ebfd12e42870c7da14c5
