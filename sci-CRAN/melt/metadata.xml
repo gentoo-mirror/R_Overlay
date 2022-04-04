@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multiple Empirical Likelihood Tests // Empirical likelihood-based
-		multiple testing for the analysis of experimental designs.
-		Details of the testing procedures are given in Kim et al.
-		(2021) arxiv:2112.09206. Additional functions for regression
-		analysis are included.
+		Multiple Empirical Likelihood Tests // Performs multiple
+		empirical likelihood tests for regression analysis. Much of its
+		functionality and syntax mimics the corresponding base R
+		functions. The core computational routines are implemented
+		using the 'Eigen' C++ library and 'RcppEigen' interface, with
+		OpenMP for parallel computation. Additional functions are
+		available for multiple testing for the analysis of experimental
+		designs. Details of the testing procedures are given in Kim et
+		al. (2021) arxiv:2112.09206.
 	</longdescription>
 </pkgmetadata>
