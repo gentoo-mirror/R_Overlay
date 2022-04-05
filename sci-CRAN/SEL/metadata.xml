@@ -2,16 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Semiparametric elicitation // This package implements a novel
-		method for fitting a bounded probability distribution to
-		quantiles (for example stated by an expert), see Bornkamp and
-		Ickstadt (2009) for details.  For this purpose B-splines are
-		used, and the density is obtained by penalized least squares
-		based on a Brier entropy penalty.  The package provides methods
-		for fitting the distribution as well as methods for evaluating
-		the underlying density and cdf. In addition methods for
-		plotting the distribution, drawing random numbers and
-		calculating quantiles of the obtained distribution are
-		provided.
+		Semiparametric Elicitation // Implements a method for fitting a
+		bounded probability distribution to quantiles (for example
+		stated by an expert), see Bornkamp and Ickstadt (2009) for
+		details.  For this purpose B-splines are used, and the density
+		is obtained by penalized least squares based on a Brier entropy
+		penalty.  The package provides methods for fitting the
+		distribution as well as methods for evaluating the underlying
+		density and cdf. In addition methods for plotting the
+		distribution, drawing random numbers and calculating quantiles
+		of the obtained distribution are provided.
 	</longdescription>
 </pkgmetadata>
