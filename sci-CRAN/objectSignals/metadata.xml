@@ -2,9 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		objectSignals // A mutable Signal object can report changes to
-		its state, clients could register functions so that they are
-		called whenever the signal is emited. The signal could be
-		emited, disconnected, blocked, unblocked, and buffered.
+		Observer Pattern for S4 // A mutable Signal object can report
+		changes to its state, clients could register functions so that
+		they are called whenever the signal is emitted. The signal
+		could be emitted, disconnected, blocked, unblocked, and
+		buffered.
 	</longdescription>
 </pkgmetadata>

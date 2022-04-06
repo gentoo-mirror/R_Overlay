@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Exact Confidence Limits after a Sequential Trial // The user
+		first provides design vectors n, a and b as well as null (p0)
+		and alternative (p1) benchmark values for the probability of
+		success. The key function "mv.plots.SM()" calculates mean
+		values of exact upper and lower limits based on four different
+		rank ordering methods. These plots form the basis of selecting
+		a rank ordering. The function "inference()" calculates exact
+		limits from a provided realisation and ordering choice. For
+		more information, see "Exact confidence limits after a group
+		sequential single arm binary trial" by Lloyd, C.J. (2020),
+		Statistics in Medicine, Volume 38, 2389-2399,
+		doi:10.1002/sim.8909.
+	</longdescription>
+</pkgmetadata>
