@@ -2,7 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Robust Estimation in Cox Model // Fit robustly proportional
-		hazards regression model
+		Fit Robustly Proportional Hazards Regression Model // An
+		implementation of robust estimation in Cox model. Functionality
+		includes fitting efficiently and robustly Cox proportional
+		hazards regression model in its basic form, where explanatory
+		variables are time independent with one event per subject.
+		Method is based on a smooth modification of the partial
+		likelihood.
 	</longdescription>
 </pkgmetadata>

@@ -4,23 +4,23 @@
 	<longdescription>
 		Maximum Likelihood Shrinkage using Generalized Ridge or Least
 		Angle Regression // Functions are provided to calculate and
-		display ridge TRACE diagnostics for a wide variety of
-		alternative shrinkage Paths. While all methods focus on Maximum
-		Likelihood estimation of unknown true effects under Normal-
-		distribution theory, some estimates are modified to be Unbiased
-		or to have "Correct Range" when estimating either [1] the
-		noncentrality of the F-ratio for testing that true Beta
-		coefficients are Zeros or [2] the "relative" MSE Risk (i.e. MSE
-		divided by true sigma-square, where the "relative" variance of
-		OLS is known.) The eff.ridge() function implements the
-		"Efficient Shrinkage Path" introduced in Obenchain (2021)
-		arXiv:2103.05161. This new "p-Parameter" Shrinkage-Path always
-		passes through the vector of regression coefficient estimates
-		Most-Likely to achieve the overall Optimal Variance-Bias Trade-
-		Off and is the shortest Path with this property. Functions
-		eff.aug() and eff.biv() augment the calculations made by
-		eff.ridge() to provide plots of the bivariate confidence
-		ellipses corresponding to any of the p*(p-1) possible ordered
-		pairs of shrunken regression coefficients.
+		display ridge TRACE Diagnostics for a variety of alternative
+		Shrinkage Paths. While all methods focus on Maximum Likelihood
+		estimation of unknown true effects under Normal-distribution
+		theory, some estimates are modified to be Unbiased or to have
+		"Correct Range" when estimating either [1] the noncentrality of
+		the F-ratio for testing that true Beta coefficients are Zeros
+		or [2] the "relative" MSE Risk (i.e. MSE divided by true sigma-
+		square, where the "relative" variance of OLS is known.) The
+		eff.ridge() function implements the "Efficient Shrinkage Path"
+		introduced in Obenchain (2022) Open Statistics. This new
+		"p-Parameter" Shrinkage-Path always passes through the vector
+		of regression coefficient estimates Most-Likely to achieve the
+		overall Optimal Variance-Bias Trade-Off and is the shortest
+		Path with this property. Functions eff.aug() and eff.biv()
+		augment the calculations made by eff.ridge() to provide plots
+		of the bivariate confidence ellipses corresponding to any of
+		the p*(p-1) possible ordered pairs of shrunken regression
+		coefficients.
 	</longdescription>
 </pkgmetadata>
