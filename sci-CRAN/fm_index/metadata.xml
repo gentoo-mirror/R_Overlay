@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast String Searching // Wrapper for the Succinct Data Structure
+		C++ library (SDSL v3) https://github.com/xxsds/sdsl-lite
+		enabling fast string searching using FM indices. Partial string
+		matching can be ~50-fold faster than simple string scans for
+		many real-world string collections (corpora). A given corpus is
+		converted into a compact in-memory FM index representation that
+		can be efficiently queried for partial string matches.
+	</longdescription>
+</pkgmetadata>
