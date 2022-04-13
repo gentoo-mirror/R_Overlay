@@ -2,19 +2,24 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Optimum Sample Allocation in Stratified Random Sampling Scheme //
+		Optimum Sample Allocation in Stratified Sampling Schemes //
 		Functions in this package provide solution to classical problem
 		in survey methodology - an optimum sample allocation in
-		stratified sampling scheme with simple random sampling without
-		replacement design in each stratum. In this context, the
-		optimal allocation is in the classical Tschuprow-Neyman's
-		sense, and it satisfies additional upper bounds restrictions
-		imposed on sample sizes in strata. There are four different
-		algorithms available to use, and one of them is Neyman optimal
-		allocation applied in a recursive way. All the algorithms are
-		described in detail in "Wojciak W. Optimal allocation in
-		stratified sampling schemes. Master's diploma thesis, Warsaw
-		University of Technology. 2019", available on-line at http://ho
-		me.elka.pw.edu.pl/~wwojciak/msc_optimal_allocation.pdf.
+		stratified sampling schemes. In this context, the optimal
+		allocation is in the classical Tschuprov-Neyman's sense and it
+		satisfies additional either lower or upper bounds restrictions
+		imposed on sample sizes in strata. There are few different
+		algorithms available to use, and one them is based on popular
+		sample allocation method that applies Neyman allocation to
+		recursively reduced set of strata. A minor modification of the
+		classical optimium sample allocation problem leads to the
+		minimum sample size allocation. This problems lies in the
+		determination of a vector of strata sample sizes that minimizes
+		total sample size, under assumed fixed level of the pi-
+		estimator's variance. As in the case of the classical optimal
+		allocation, the problem of minimum sample size allocation can
+		be complemented by imposing upper bounds constraints on sample
+		sizes in strata. A function that solves the minimum sample size
+		allocation problem is included in stratallo package.
 	</longdescription>
 </pkgmetadata>
