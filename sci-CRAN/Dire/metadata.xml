@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Linear Regressions with a Latent Outcome Variable // Fit linear
-		models, estimating score distributions for groups of people,
-		following Cohen and Jiang (1999) doi:10.2307/2669917. In this
-		model, the response is a latent trait (such as student ability)
-		and raw item responses are combined with item difficulties in
-		an item response theory (IRT) framework to form a density for
-		each unit (student). This latent trait is then integrated out.
-		This software is intended to fit the same models as the
-		existing software 'AM' http://am.air.org/.
+		Linear Regressions with a Latent Outcome Variable // Fit latent
+		variable linear models, estimating score distributions for
+		groups of people, following Cohen and Jiang (1999)
+		doi:10.2307/2669917. In this model, a latent distribution is
+		conditional on students item response, item characteristics,
+		and conditioning variables the user includes. This latent trait
+		is then integrated out. This software is intended to fit the
+		same models as the existing software 'AM' https://am.air.org/.
+		As of version 2, also allows the user to draw plausible values.
 	</longdescription>
 </pkgmetadata>
