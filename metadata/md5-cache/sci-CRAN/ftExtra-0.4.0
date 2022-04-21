@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/magrittr >=sci-CRAN/flextable-0.6.4 sci-CRAN/rlang >=sci-CRAN/tidyselect-1.1.0 sci-CRAN/xfun sci-CRAN/yaml sci-CRAN/jsonlite sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/rmarkdown sci-CRAN/stringr sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=Extensions for Flextable
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_qpdf r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/magrittr >=sci-CRAN/flextable-0.6.4 sci-CRAN/rlang >=sci-CRAN/tidyselect-1.1.0 sci-CRAN/xfun sci-CRAN/yaml sci-CRAN/jsonlite sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/rmarkdown sci-CRAN/stringr sci-CRAN/vctrs app-text/pandoc r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_qpdf? ( sci-CRAN/qpdf ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ftExtra_0.4.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=b60b48a02c92e808ebe918c6ef67dc5d
