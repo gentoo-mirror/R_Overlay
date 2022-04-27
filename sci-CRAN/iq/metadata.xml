@@ -3,14 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Protein Quantification in Mass Spectrometry-Based Proteomics //
-		An implementation of the maximal peptide ratio extraction
-		module of the MaxLFQ algorithm by Cox et al. (2014)
-		doi:10.1074/mcp.M113.031591 in a complete pipeline for
+		An implementation of the MaxLFQ algorithm by Cox et al. (2014)
+		doi:10.1074/mcp.M113.031591 in a comprehensive pipeline for
 		processing proteomics data in data-independent acquisition mode
 		(Pham et al. 2020 doi:10.1093/bioinformatics/btz961). It offers
 		additional options for protein quantification using the N most
 		intense fragment ions, using all fragment ions, and a wrapper
 		for the median polish algorithm by Tukey (1977,
-		ISBN:0201076160).
+		ISBN:0201076160). In general, the tool can be used to integrate
+		multiple proportional observations into a single quantitative
+		value.
 	</longdescription>
 </pkgmetadata>
