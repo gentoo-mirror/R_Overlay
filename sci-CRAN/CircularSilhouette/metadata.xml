@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Silhouette on Circular or Linear Data Clusters //
+		Calculating silhouette information for clusters on circular or
+		linear data using fast algorithms. These algorithms run in
+		linear time on sorted data, in contrast to quadratic time by
+		the definition of silhouette. When used together with the fast
+		and optimal circular clustering method FOCC (Debnath  Song
+		2021) doi:10.1109/TCBB.2021.3077573 implemented in R package
+		'OptCirClust', circular silhouette can be maximized to find the
+		optimal number of circular clusters; it can also be used to
+		estimate the period of noisy periodical data.
+	</longdescription>
+</pkgmetadata>
