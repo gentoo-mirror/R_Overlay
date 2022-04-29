@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Differentially Private Statistical Analysis and Machine Learning
+		// An implementation of common statistical analysis and models
+		with differential privacy (Dwork et al., 2006a)
+		doi:10.1007/11681878_14 guarantees. The package contains, for
+		example, functions providing differentially private
+		computations of mean, variance, median, histograms, and
+		contingency tables. It also implements some statistical models
+		and machine learning algorithms such as linear regression
+		(Kifer et al., 2012)
+		https://proceedings.mlr.press/v23/kifer12.html and SVM
+		(Chaudhuri et al., 2011)
+		https://jmlr.org/papers/v12/chaudhuri11a.html. In addition, it
+		implements some popular randomization mechanisms such as the
+		Laplace mechanism (Dwork et al., 2006a)
+		doi:10.1007/11681878_14, Gaussian mechanism (Dwork et al.,
+		2006b) doi:10.1007/11761679_29, and exponential mechanism
+		(McSherry  Talwar, 2007) doi:10.1109/FOCS.2007.66.
+	</longdescription>
+</pkgmetadata>
