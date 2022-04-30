@@ -2,7 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Software to perform Haar Fisz transforms // A Haar-Fisz algorithm
-		for Poisson intensity estimation
+		Software to Perform Haar Fisz Transforms // A Haar-Fisz algorithm
+		for Poisson intensity estimation. Will denoise Poisson
+		distributed sequences where underlying intensity is not
+		constant. Uses the multiscale variance-stabilization method
+		called the Haar-Fisz transform. Contains functions to carry out
+		the forward and inverse Haar-Fisz transform and denoising on
+		near-Gaussian sequences. Can also carry out cycle-spinning.
+		Main reference: Fryzlewicz, P. and Nason, G.P. (2004) "A Haar-
+		Fisz algorithm for Poisson intensity estimation." Journal of
+		Computational and Graphical Statistics, 13, 621-638.
+		doi:10.1198/106186004X2697.
 	</longdescription>
 </pkgmetadata>
