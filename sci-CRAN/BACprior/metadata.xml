@@ -2,13 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Choice of the Hyperparameter Omega in the Bayesian Adjustment for
-		Confounding (BAC) Algorithm // The BACprior package provides an
-		approximate sensitivity analysis of the Bayesian Adjustment for
-		Confounding (BAC) algorithm (Wang et al., 2012) with regards to
-		the hyperparameter omega. The package also provides functions
-		to guide the user in their choice of an appropriate omega
-		value. The method is based on Lefebvre, Atherton and Talbot
-		(2014).
+		Choice of Omega in the BAC Algorithm // The Bayesian Adjustment
+		for Confounding (BAC) algorithm (Wang et al., 2012) can be used
+		to estimate the causal effect of a continuous exposure on a
+		continuous outcome. This package provides an approximate
+		sensitivity analysis of BAC with regards to the hyperparameter
+		omega. BACprior also provides functions to guide the user in
+		their choice of an appropriate omega value. The method is based
+		on Lefebvre, Atherton and Talbot (2014).
 	</longdescription>
 </pkgmetadata>

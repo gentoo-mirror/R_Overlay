@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/plot3Drgl sci-CRAN/geometry virtual/Matrix sci-CRAN/rgl sci-CRAN/plot3D dev-lang/R:=
+DESCRIPTION=Functional Data Analysis and Par... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/plot3Drgl sci-CRAN/geometry virtual/Matrix sci-CRAN/rgl sci-CRAN/plot3D sci-CRAN/RcppEigen r_suggests_mass? ( virtual/MASS ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fdaPDE_1.1-4.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=2edfb06441cc2ac508137ca930ac913f
