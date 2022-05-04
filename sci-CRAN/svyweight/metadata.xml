@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Quick and Flexible Survey Weighting // Quickly and flexibly
+		calculates weights for survey data, in order to correct for
+		survey non-response or other sampling issues. Uses rake
+		weighting, a common technique also know as rim weighting or
+		iterative proportional fitting.  This technique allows for
+		weighting on multiple variables, even when the interlocked
+		distribution of the two variables is not known. Interacts with
+		Thomas Lumley's 'survey' package, as described in Lumley,
+		Thomas (2011, ISBN:978-1-118-21093-2). Adds additional
+		functionality, more adaptable syntax, and error-checking to the
+		base weighting functionality in 'survey.'
+	</longdescription>
+</pkgmetadata>
