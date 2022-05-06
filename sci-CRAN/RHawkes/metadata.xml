@@ -2,14 +2,21 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Renewal Hawkes Process // Simulate a renewal Hawkes (RHawkes)
-		self-exciting process, with a given immigrant hazard rate
-		function and offspring density function. Calculate the
-		likelihood of a RHawkes process with given hazard rate function
-		and offspring density function for an (increasing) sequence of
-		event times. Calculate the Rosenblatt residuals of the event
-		times. Predict future event times based on observed event times
-		up to a given time. For details see Chen and Stindl (2017)
-		doi:10.1080/10618600.2017.1341324.
+		Renewal Hawkes Process // The renewal Hawkes (RHawkes) process
+		(Wheatley, Filimonov, and Sornette, 2016
+		doi:10.1016/j.csda.2015.08.007) is an extension to the
+		classical Hawkes self-exciting point process widely used in the
+		modelling of clustered event sequence data. This package
+		provides functions to simulate the RHawkes process with a given
+		immigrant hazard rate function and offspring birth time density
+		function, to compute the exact likelihood of a RHawkes process
+		using the recursive algorithm proposed by Chen and Stindl
+		(2018) doi:10.1080/10618600.2017.1341324, to compute the
+		Rosenblatt residuals for goodness-of-fit assessment, and to
+		predict future event times based on observed event times up to
+		a given time. A function implementing the linear time RHawkes
+		process likelihood approximation algorithm proposed in Stindl
+		and Chen (2021) doi:10.1007/s11222-021-10002-0 is also
+		included.
 	</longdescription>
 </pkgmetadata>

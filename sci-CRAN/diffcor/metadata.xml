@@ -4,21 +4,20 @@
 	<longdescription>
 		Fisher's z-Tests Concerning Difference of Correlations //
 		Computations of Fisher's z-tests concerning differences between
-		correlations. diffcor.one() could be used to test for
-		differences regarding an expected value, e.g., in construct
-		validation. diffcor.two() may be useful in replication studies,
-		to test if the original study and the replication study
-		differed in terms of effects. diffcor.dep() can be applied to
-		check if the correlation between one construct with another one
-		(r12) is significantly different/higher/smaller than the
-		correlation of one of the constructs with a third construct
-		(r13), given the correlation of the constructs that are
-		compared (r23). The outputs for all the three functions provide
-		the compared correlations, test statistic in z-units, and
-		p-values. For diffcor.one() and diffcor.two(), the output
-		further provides confidence intervals of the empirical
-		correlations and the effect size Cohens q. According to Cohen
-		(1988), q = |.10|, |.30| and |.50| are considered small,
-		moderate, and large differences, respectively.
+		correlations. diffcor.one() can be used to test whether an
+		expected value differs from an observed value, for example, in
+		construct validation. diffcor.two() can be used to test if the
+		correlation between two constructs differed between two
+		studies. diffcor.dep() can be applied to check if the
+		correlation between two constructs (r12) is significantly
+		different from the correlation of the first construct with a
+		third one (r13), given the intercorrelation of the compared
+		constructs (r23). All outputs provide the compared
+		correlations, test statistic in z-units, and p-values. For
+		diffcor.one() and diffcor.two(), the output further provides
+		confidence intervals of the empirical correlations and the
+		effect size Cohens q. According to Cohen (1988), q = |.10|,
+		|.30| and |.50| are considered small, moderate, and large
+		differences, respectively.
 	</longdescription>
 </pkgmetadata>
