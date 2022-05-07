@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Bayesian Tool for Near Real-Time Estimation of the Reproduction
-		Number // Estimation of the instantaneous reproduction number
-		with Laplacian-P-splines following the methodology of Gressani
-		et al.(2021) doi:10.1101/2021.12.02.21267189. The negative
-		Binomial distribution is used to model the time series of case
-		counts. Two methods are available for inference : (1) a
-		sampling-free approach based on a maximum a posteriori
-		calibration of the hyperparameter vector and (2) a fully
-		stochastic approach with a Metropolis-within-Gibbs algorithm
-		and Langevin diffusions for efficient sampling of the posterior
-		distribution.
+		A Bayesian Tool for Approximate Real-Time Estimation of the
+		Reproduction Number // Estimation of the instantaneous
+		reproduction number with Laplacian-P-splines following the
+		methodology of Gressani et al.(2021)
+		doi:10.1101/2021.12.02.21267189. The negative Binomial
+		distribution is used to model the time series of case counts.
+		Two methods are available for inference : (1) a sampling-free
+		approach based on a maximum a posteriori calibration of the
+		hyperparameter vector and (2) a fully stochastic approach with
+		a Metropolis-within-Gibbs algorithm and Langevin diffusions for
+		efficient sampling of the posterior distribution.
 	</longdescription>
 </pkgmetadata>
