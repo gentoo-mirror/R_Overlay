@@ -2,12 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fit high dimensional mixtures of Poisson GLMs // High dimensional
-		mixtures of Poisson Generalized Linear models with three
-		different parameterizations of Poisson means are considered.
-		Moreover, partitioning the response variables into a set of
-		blocks is possible. The package estimates parameters via EM
-		algorithm. For an efficient initialization, a random splitting
-		small-EM is introduced.
+		Fit High Dimensional Mixtures of Poisson GLMs // Mixtures of
+		Poisson Generalized Linear Models for high dimensional count
+		data clustering. The (multivariate) responses can be
+		partitioned into set of blocks. Three different
+		parameterizations of the linear predictor are considered. The
+		models are estimated according to the EM algorithm with an
+		efficient initialization scheme doi:10.1016/j.csda.2014.07.005.
 	</longdescription>
 </pkgmetadata>
