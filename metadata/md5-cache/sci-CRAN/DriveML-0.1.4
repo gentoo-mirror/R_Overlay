@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/rmarkdown sci-CRAN/SmartEDA >=sci-CRAN/ggplot2-2.2.1 >=sci-CRAN/data_table-1.10.4.3 >=sci-CRAN/sampling-2.8 sci-CRAN/caTools >=sci-CRAN/ParamHelpers-1.12 >=sci-CRAN/mlr-2.15.0 sci-CRAN/iml dev-lang/R:=
+DESCRIPTION=Self-Drive Machine Learning Projects
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_glmnet r_suggests_knitr r_suggests_mass r_suggests_randomforest r_suggests_ranger r_suggests_rpart r_suggests_testthat r_suggests_tidyr r_suggests_xgboost byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/rmarkdown sci-CRAN/SmartEDA >=sci-CRAN/ggplot2-2.2.1 >=sci-CRAN/data_table-1.10.4.3 >=sci-CRAN/sampling-2.8 sci-CRAN/caTools >=sci-CRAN/ParamHelpers-1.12 >=sci-CRAN/mlr-2.15.0 sci-CRAN/iml r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rpart? ( virtual/rpart ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DriveML_0.1.4.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=c5368dc059dc074d2439cb7579bb29a0

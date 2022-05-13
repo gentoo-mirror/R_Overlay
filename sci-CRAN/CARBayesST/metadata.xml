@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spatio-Temporal Generalised Linear Mixed Models for Areal Unit
+		Data // Implements a class of univariate and multivariate
+		spatio-temporal generalised linear mixed models for areal unit
+		data, with inference in a Bayesian setting using Markov chain
+		Monte Carlo (MCMC) simulation. The response variable can be
+		binomial, Gaussian, or Poisson, but for some models only the
+		binomial and Poisson data likelihoods are available. The
+		spatio-temporal autocorrelation is modelled by  random effects,
+		which are assigned conditional autoregressive (CAR) style prior
+		distributions. A number of different random effects structures
+		are available, including models similar to Rushworth et al.
+		(2014) doi:10.1016/j.sste.2014.05.001. Full details are given
+		in the vignette accompanying this package. The creation and
+		development of this package was supported by the Engineering
+		and Physical Sciences Research Council  (EPSRC) grants
+		EP/J017442/1 and EP/T004878/1 and the Medical Research Council
+		(MRC) grant MR/L022184/1.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/plyr sci-CRAN/iml sci-CRAN/partykit sci-CRAN/varImp sci-CRAN/party sci-CRAN/pdp sci-CRAN/ggplot2 sci-CRAN/rlang >=dev-lang/R-3.5.0 sci-CRAN/foreach sci-CRAN/measures virtual/MASS sci-CRAN/vip dev-lang/R:=
+DESCRIPTION=A Toolbox for Conditional Inference Random Forests
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_doparallel r_suggests_e1071 r_suggests_gdatools r_suggests_knitr r_suggests_proc r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_rmdformats r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/plyr sci-CRAN/iml sci-CRAN/partykit sci-CRAN/varImp sci-CRAN/party sci-CRAN/pdp sci-CRAN/ggplot2 sci-CRAN/rlang >=dev-lang/R-3.5.0 sci-CRAN/foreach sci-CRAN/measures virtual/MASS sci-CRAN/vip r_suggests_caret? ( sci-CRAN/caret ) r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_gdatools? ( sci-CRAN/GDAtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rmdformats? ( sci-CRAN/rmdformats ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/moreparty_0.2.1.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=b680ff6369ea32728462f8aba5aa1a61

@@ -3,17 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		A Collection of Physical and Chemical Adsorption Isotherm Models
-		// Adsorption isotherm equations are linearized plots of
-		different solid-liquid phase equilibria used in calculating
-		different parameters related to the adsorption process.
-		Isotherm equations deals with physical adsorption of gases and
-		vapor and gives the most important characteristics  of
-		industrial adsorbents that include pore volume, pore size or
-		energy distribution. PUPAIM has 28 documented adsorption
-		isotherm models listed by Dabrowski (2001)
-		doi:10.1016/S0001-8686(00)00082-8 and Ayawei et al.(2017)
-		doi:10.1155/2017/3039817. These models could be easily  fitted
-		in R using adsorption data (Ce and Qe) obtained from
-		experiments.
+		// The PUPAIM R package can generally fit any adsorption
+		experimental data to any of the 51 available adsorption
+		isotherm models - 28 nonlinear models and 23 linear models.
+		This package provides parameter estimation, model accuracy
+		analysis, model error analysis, and adsorption plot created
+		using the package 'ggplot2'. This package will help the users
+		for a much easier way of adsorption model data fitting.
 	</longdescription>
 </pkgmetadata>
