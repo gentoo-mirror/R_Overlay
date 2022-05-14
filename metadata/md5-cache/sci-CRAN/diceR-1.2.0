@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/class sci-CRAN/clue virtual/cluster >=sci-CRAN/purrr-0.2.3 sci-CRAN/Rcpp sci-CRAN/tidyr sci-CRAN/abind >=dev-lang/R-3.5 >=sci-CRAN/dplyr-0.7.5 sci-CRAN/klaR sci-CRAN/clValid sci-CRAN/infotheo sci-CRAN/mclust sci-CRAN/NMF sci-CRAN/yardstick sci-CRAN/RankAggreg sci-CRAN/stringr sci-CRAN/assertthat sci-CRAN/ggplot2 sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Diverse Cluster Ensemble in R
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_cluster r_suggests_covr r_suggests_dbscan r_suggests_e1071 r_suggests_kernlab r_suggests_knitr r_suggests_kohonen r_suggests_pander r_suggests_polca r_suggests_progress r_suggests_rcolorbrewer r_suggests_rlang r_suggests_rmarkdown r_suggests_rtsne r_suggests_sigclust r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=virtual/class sci-CRAN/clue virtual/cluster >=sci-CRAN/purrr-0.2.3 sci-CRAN/Rcpp sci-CRAN/tidyr sci-CRAN/abind >=dev-lang/R-3.5 >=sci-CRAN/dplyr-0.7.5 sci-CRAN/klaR sci-CRAN/clValid sci-CRAN/infotheo sci-CRAN/mclust sci-CRAN/NMF sci-CRAN/yardstick sci-CRAN/RankAggreg sci-CRAN/stringr sci-CRAN/assertthat sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/Rcpp r_suggests_cluster? ( virtual/cluster virtual/cluster virtual/cluster ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dbscan? ( sci-CRAN/dbscan ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_kohonen? ( sci-CRAN/kohonen ) r_suggests_pander? ( sci-CRAN/pander ) r_suggests_polca? ( sci-CRAN/poLCA ) r_suggests_progress? ( sci-CRAN/progress ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rtsne? ( sci-CRAN/Rtsne ) r_suggests_sigclust? ( sci-CRAN/sigclust ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/diceR_1.2.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=988a675176646eb958930bc3046a8565
