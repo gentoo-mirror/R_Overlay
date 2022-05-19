@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/glmnet sci-CRAN/survminer sci-CRAN/caret sci-BIOC/BiocGenerics sci-CRAN/data_table sci-CRAN/RColorBrewer sci-BIOC/maftools virtual/cluster sci-CRAN/pROC sci-CRAN/purrr sci-CRAN/randomForest virtual/survival dev-lang/R:=
+DESCRIPTION=Pathway Based Tumor Mutational Burden
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_biocmanager r_suggests_e1071 r_suggests_knitr r_suggests_qpdf r_suggests_rmarkdown r_suggests_spelling r_suggests_stringi r_suggests_testthat r_suggests_tinytex r_suggests_xfun byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/glmnet sci-CRAN/survminer sci-CRAN/caret sci-BIOC/BiocGenerics sci-CRAN/data_table sci-CRAN/RColorBrewer sci-BIOC/maftools virtual/cluster sci-CRAN/pROC sci-CRAN/purrr sci-CRAN/randomForest virtual/survival r_suggests_biocmanager? ( sci-CRAN/BiocManager ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_qpdf? ( sci-CRAN/qpdf ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_stringi? ( sci-CRAN/stringi ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tinytex? ( sci-CRAN/tinytex ) r_suggests_xfun? ( sci-CRAN/xfun ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pathwayTMB_0.1.2.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=5685d945696e3919ad591eba692c9c7e

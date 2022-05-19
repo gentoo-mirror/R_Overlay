@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyselect sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/purrr >=dev-lang/R-3.4.0 >=sci-CRAN/dplyr-0.8.5 dev-lang/R:=
+DESCRIPTION=Calculates Disproportionate Impa... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_forcats r_suggests_ggplot2 r_suggests_knitr r_suggests_markdown r_suggests_prettydoc r_suggests_rmarkdown r_suggests_scales r_suggests_stringr byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tidyselect sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/purrr >=dev-lang/R-3.4.0 >=sci-CRAN/dplyr-0.8.5 r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_stringr? ( sci-CRAN/stringr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DisImpact_0.0.17.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=c84574914241add98e78d8a5527bce39
