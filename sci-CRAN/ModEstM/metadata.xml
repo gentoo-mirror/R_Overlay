@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Mode Estimation, Even in the Multimodal Case // Function
+		ModEstM() is the only one of this package, it estimates the
+		modes of an empirical univariate distribution. It relies on the
+		stats::density() function, even for input control. Due to very
+		good performance of the density estimation, computation time is
+		not an issue. The multiple modes are handled using
+		dplyr::group_by(). For conditions and rates of convergences,
+		see Eddy (1980) doi:10.1214/aos/1176345080.
+	</longdescription>
+</pkgmetadata>
