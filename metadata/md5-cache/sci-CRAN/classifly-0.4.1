@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/class sci-CRAN/plyr dev-lang/R:=
+DESCRIPTION=Explore Classification Models in High Dimensions
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_e1071 r_suggests_mass r_suggests_rpart byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=virtual/class sci-CRAN/plyr r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_mass? ( virtual/MASS ) r_suggests_rpart? ( virtual/rpart ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/classifly_0.4.1.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=16150061c04a5f3856b89521b58343b7
