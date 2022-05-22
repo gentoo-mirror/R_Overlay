@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Robust and Sparse Methods for High Dimensional Linear and
-		Logistic Regression // Fully robust versions of the elastic net
-		estimator are introduced for linear and logistic regression, in
-		particular high dimensional data by Kurnaz, Hoffmann and
-		Filzmoser (2017) DOI:10.1016/j.chemolab.2017.11.017. The
-		algorithm searches for outlier free subsets on which the
-		classical elastic net estimators can be applied.
+		Robust and Sparse Methods for High Dimensional Linear and Binary
+		and Multinomial Regression // Fully robust versions of the
+		elastic net estimator are introduced for linear and binary and
+		multinomial regression, in particular high dimensional data.
+		The algorithm searches for outlier free subsets on which the
+		classical elastic net estimators can be applied. A reweighting
+		step is added to improve the statistical efficiency of the
+		proposed estimators. Selecting appropriate tuning parameters
+		for elastic net penalties are done via cross-validation.
 	</longdescription>
 </pkgmetadata>
