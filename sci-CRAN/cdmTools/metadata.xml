@@ -3,18 +3,22 @@
 <pkgmetadata>
 	<longdescription>
 		Useful Tools for Cognitive Diagnosis Modeling // Provides useful
-		tools for cognitive diagnosis modeling (CDM). The packages
-		includes the discrete factor loading method for Q-matrix
-		estimation (Wang, Song,  Ding, 2018,
-		doi:10.1007/978-3-319-77249-3_29) and the Hull method for
-		Q-matrix validation (Njera, Sorrel, de la Torre,  Abad, 2021,
-		doi:10.1111/bmsp.12228). It also provides dimensionality
-		assessment procedures for determining the number of attributes
-		underlying CDM data, including parallel analysis and automated
-		CDM fit comparison as explored in Njera, Abad, and Sorrel
-		(2021, doi:10.3389/fpsyg.2021.614470). Lastly, the package
-		provides some useful functions for CDM simulation studies, such
-		as random Q-matrix generation and detection of
-		complete/identified Q-matrices.
+		tools for cognitive diagnosis modeling (CDM). The package
+		includes functions for empirical Q-matrix estimation and
+		validation, such as the Hull method (Njera, Sorrel, de la
+		Torre,  Abad, 2021, doi:10.1111/bmsp.12228) and the discrete
+		factor loading method (Wang, Song,  Ding, 2018,
+		doi:10.1007/978-3-319-77249-3_29). It also contains
+		dimensionality assessment procedures for CDM, including
+		parallel analysis and automated fit comparison as explored in
+		Njera, Abad, and Sorrel (2021, doi:10.3389/fpsyg.2021.614470).
+		Other relevant methods and features for CDM applications, such
+		as the general nonparametric classification method (Chiu et
+		al., 2018; doi:10.1007/s11336-017-9595-4) and corrected
+		estimation of the classification accuracy via multiple
+		imputation (Kreitchmann et al., 2022) are also available.
+		Lastly, the package provides some useful functions for CDM
+		simulation studies, such as random Q-matrix generation and
+		detection of complete/identified Q-matrices.
 	</longdescription>
 </pkgmetadata>
