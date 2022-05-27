@@ -9,9 +9,17 @@
 		assessment of specimen sampling completeness based on the
 		approach of Phillips et al. (2015) doi:10.1515/dna-2015-0008,
 		Phillips et al. (2019) doi:10.1002/ece3.4757 and Phillips et
-		al. (2020) doi: 10.7717/peerj-cs.243. Any genomic marker can be
-		targeted to assess likely required specimen sample sizes. The
-		method is well-suited to assess sampling sufficiency for DNA
-		barcoding initiatives.
+		al. (2020) doi: 10.7717/peerj-cs.243. 'HACSim' outputs a number
+		of useful summary statistics of sampling coverage ("Measures of
+		Sampling Closeness"), including an estimate of the likely
+		required sample size (along with desired level confidence
+		intervals) necessary to recover a given number/proportion of
+		observed unique species' haplotypes. Any genomic marker can be
+		targeted to assess likely required specimen sample sizes for
+		genetic diversity assessment. The method is particularly well-
+		suited to assess sampling sufficiency for DNA barcoding
+		initiatives. Users can also simulate their own DNA sequences
+		according to various models of nucleotide substitution. A Shiny
+		app is also available.
 	</longdescription>
 </pkgmetadata>

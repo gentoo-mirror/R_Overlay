@@ -4,9 +4,11 @@
 	<longdescription>
 		MAP-Bayesian Estimation of PK Parameters // Performs maximum a
 		posteriori Bayesian estimation of individual pharmacokinetic
-		parameters from a model defined in `mrgsolve`, typically for
+		parameters from a model defined in 'mrgsolve', typically for
 		model-based therapeutic drug monitoring. Internally computes an
 		objective function value from model and data, performs
 		optimization and returns predictions in a convenient format.
+		The performance of the package was described by Le Louedec et
+		al (2021) doi:10.1002/psp4.12689.
 	</longdescription>
 </pkgmetadata>

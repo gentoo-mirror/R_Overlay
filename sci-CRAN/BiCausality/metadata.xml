@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Binary Causality Inference Framework // A framework to infer
+		causality on binary data using techniques in frequent pattern
+		mining and estimation statistics. Given a set of individual
+		vectors S={x} where x(i) is a realization value of binary
+		variable i, the framework infers empirical causal relations of
+		binary variables i,j from S in a form of causal graph G=(V,E)
+		where V is a set of nodes representing binary variables and
+		there is an edge from i to j in E if the variable i causes j.
+		The framework determines dependency among variables as well as
+		analyzing confounding factors before deciding whether i causes
+		j.  The publication of this package is at arXiv:2205.06131.
+	</longdescription>
+</pkgmetadata>
