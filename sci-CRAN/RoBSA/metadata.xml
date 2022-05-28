@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Robust Bayesian Survival Analysis // A framework for estimating
+		ensembles of parametric survival models with different
+		parametric families. The RoBSA framework uses Bayesian model-
+		averaging to combine the competing parametric survival models
+		into a model ensemble, weights the posterior parameter
+		distributions based on posterior model probabilities and uses
+		Bayes factors to test for the presence or absence of the
+		individual predictors or preference for a parametric family
+		(Barto, Aust  Haaf, 2021, doi:10.48550/arXiv.2112.08311). The
+		user can define a wide range of informative priors for all
+		parameters of interest. The package provides convenient
+		functions for summary, visualizations, fit diagnostics, and
+		prior distribution calibration.
+	</longdescription>
+</pkgmetadata>

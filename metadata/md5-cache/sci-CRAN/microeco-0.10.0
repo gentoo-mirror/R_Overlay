@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/vegan sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/data_table sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/ape sci-CRAN/R6 sci-CRAN/dplyr sci-CRAN/scales sci-CRAN/RColorBrewer sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Microbial Community Ecology Data Analysis
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_agricolae r_suggests_ggdendro r_suggests_ggpubr r_suggests_ggrepel r_suggests_gridextra r_suggests_gunifrac r_suggests_igraph r_suggests_mass r_suggests_mice r_suggests_pheatmap r_suggests_picante r_suggests_randomforest r_suggests_rgexf byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/vegan sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/data_table sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/ape sci-CRAN/R6 sci-CRAN/dplyr sci-CRAN/scales sci-CRAN/RColorBrewer sci-CRAN/reshape2 r_suggests_agricolae? ( sci-CRAN/agricolae ) r_suggests_ggdendro? ( sci-CRAN/ggdendro ) r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_gunifrac? ( sci-CRAN/GUniFrac ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_mass? ( virtual/MASS ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_pheatmap? ( sci-CRAN/pheatmap ) r_suggests_picante? ( sci-CRAN/picante ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rgexf? ( sci-CRAN/rgexf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/microeco_0.10.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=c2669705f81d09916a1804ce8daf08c9

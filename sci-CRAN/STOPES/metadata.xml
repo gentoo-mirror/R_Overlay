@@ -2,11 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Selection Threshold Optimized Empirically via Splitting // A
-		variable selection procedure for low to moderate size linear
-		regressions models. This method repeatedly splits the data into
-		two sets, one for estimation and one for validation, to obtain
-		an empirically optimized threshold which is then used to screen
-		for variables to include in the final model.
+		Selection Threshold Optimized Empirically via Splitting //
+		Implements variable selection procedures for low to moderate
+		size generalized linear regressions models. It includes the
+		STOPES functions for linear regression (Capanu M, Giurcanu M,
+		Begg C, Gonen M, Optimized variable selection via repeated data
+		splitting, Statistics in Medicine, 2020, 19(6):2167-2184) as
+		well as subsampling based optimization methods for generalized
+		linear regression models (Marinela Capanu, Mihai Giurcanu,
+		Colin B Begg, Mithat Gonen, Subsampling based variable
+		selection for generalized linear models).
 	</longdescription>
 </pkgmetadata>
