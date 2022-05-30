@@ -2,19 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		The Corset Plot // Corset plots are a new visualization
-		technique, which are used strictly to visualize repeat measures
-		at 2 time points (such as pre- and post- data). The
-		distribution of measurements at each time point are visualized
-		using half violins, whilst the trajectories of individual
-		change are visualized via spaghetti plots by connecting these
-		two points linearly. These lines can be coloured to represent
-		percent change or other user-defined value. This method of
-		visualization is ideal for showing the heterogeneity of data,
-		including differences by sub-groups. The package relies on
-		'ggplot2' allowing for easy integration so that users can
-		customize their visualizations as required. Users can create
-		corset plots using data in either wide or long format using the
-		functions gg_corset() or gg_corset_elongated(), respectively.
+		The Corset Plot // Corset plots are a visualization technique
+		used strictly to visualize repeat measures at 2 time points
+		(such as pre- and post- data). The distribution of measurements
+		are visualized at each time point, whilst the trajectories of
+		individual change are visualized by connecting the pre- and
+		post- values linearly. These lines can be coloured to represent
+		the magnitude of change, or other user-defined value. This
+		method of visualization is ideal for showing the heterogeneity
+		of data, including differences by sub-groups. The package
+		relies on 'ggplot2' allowing for easy integration so that users
+		can customize their visualizations as required. Users can
+		create corset plots using data in either wide or long format
+		using the functions gg_corset() or gg_corset_elongated(),
+		respectively.
 	</longdescription>
 </pkgmetadata>
