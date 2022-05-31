@@ -6,7 +6,7 @@
 		Calculates federal and state income taxes in the United States.
 		It acts as a wrapper to the NBER's TAXSIM 35
 		(http://taxsim.nber.org/taxsim35/) tax simulator. TAXSIM 35
-		conducts the calculations, while `usincometaxes` prepares the
+		conducts the calculations, while 'usincometaxes' prepares the
 		data for TAXSIM 35, sends the data to TAXSIM 35's server,
 		retrieves the data, and places it into a data frame. All
 		without the user worrying about this process.
