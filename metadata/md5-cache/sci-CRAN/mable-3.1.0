@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/icenReg sci-CRAN/iterators dev-lang/R[tk] virtual/survival sci-CRAN/doParallel sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Maximum Approximate Bernstein/Be... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_coxinterval r_suggests_icsurv r_suggests_knitr r_suggests_ks r_suggests_markdown r_suggests_mixtools r_suggests_multimode r_suggests_pbapply r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64
+LICENSE=|| ( LGPL-2 LGPL-2.1 )
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/icenReg sci-CRAN/iterators dev-lang/R[tk] virtual/survival sci-CRAN/doParallel sci-CRAN/foreach r_suggests_coxinterval? ( sci-CRAN/coxinterval ) r_suggests_icsurv? ( sci-CRAN/ICsurv ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_ks? ( sci-CRAN/ks ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mixtools? ( sci-CRAN/mixtools ) r_suggests_multimode? ( sci-CRAN/multimode ) r_suggests_pbapply? ( sci-CRAN/pbapply ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mable_3.1.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=b0ad309c99cdebfc3c2fc96bb331b0f8
