@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Glm Fitting and Variable Selection using 'RcppArmadillo' // Fits
-		glms using 'RcppArmadillo', can use Fisher's scoring, BFGS, or
-		L-BFGS. Can also make use of parallel computation to speed up
-		fitting process via 'OpenMP'. Also can perform best subset
-		selection with an efficient branch and bound algorithm that
-		allows best subset selection for more variables.
+		Efficient Branch and Bound Variable Selection for GLMs using
+		'RcppArmadillo' // Performs efficient and scalable glm best
+		subset selection using a novel implementation of a branch and
+		bound algorithm. To speed up the model fitting process, a range
+		of optimization methods are implemented in 'RcppArmadillo'.
+		Parallel computation is available using 'OpenMP'.
 	</longdescription>
 </pkgmetadata>
