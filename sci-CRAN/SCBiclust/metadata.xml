@@ -8,16 +8,9 @@
 		differ from those not contained in submatrix, using a two-step
 		method. In the first step, observations in the bicluster are
 		identified to maximize the sum of weighted between cluster
-		feature differences. The observations are identified in a
-		similar fashion as in Witten and Tibshirani (2010)
-		doi:10.1198/jasa.2010.tm09415 except with a modified objective
-		function and no feature sparsity constraint. In the second
-		step, features in the bicluster are identified based on their
-		contribution to the clustering of the observations. The cluster
-		significance test of Liu, Hayes, Nobel, and Marron (2008):
-		doi:10.1198/016214508000000454 can then be used to test the
-		strength of the identified bicluster. 'SCBiclust' can be used
-		to identify biclusters which differ based on feature means,
+		feature differences. The method is described in Helgeson et al.
+		(2020) doi:10.1111/biom.13136. 'SCBiclust' can be used to
+		identify biclusters which differ based on feature means,
 		feature variances, or more general differences.
 	</longdescription>
 </pkgmetadata>

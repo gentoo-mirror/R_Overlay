@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Statistical Tools for Preference Learning with Rankings and
+		Ratings // An implementation of the statistical methodology
+		proposed by Pearce and Erosheva, "A Unified Statistical
+		Learning Model for Rankings and Scores with Application to
+		Grant Panel Review" (2022), which at time of release has been
+		accepted in the Journal of Machine Learning Research. The
+		package provides tools for estimating parameters of a Mallows-
+		Binomial model, the first joint statistical preference learning
+		model for rankings and ratings. The package includes functions
+		for simulating rankings and ratings from the model, calculating
+		the density of Mallows-Binomial data, estimating parameters
+		using various exact and approximate algorithms, and for
+		obtaining approximate confidence intervals based on the
+		nonparametric bootstrap.
+	</longdescription>
+</pkgmetadata>

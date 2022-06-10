@@ -2,9 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Entropy reweighting to create balanced samples // Package
+		Entropy Reweighting to Create Balanced Samples // Package
 		implements entropy balancing, a data preprocessing procedure
-		that allows users to reweight a dataset such that the covariate
+		described in Hainmueller (2008, doi:10.1093/pan/mpr025) that
+		allows users to reweight a dataset such that the covariate
 		distributions in the reweighted data satisfy a set of user
 		specified moment conditions. This can be useful to create
 		balanced samples in observational studies with a binary
