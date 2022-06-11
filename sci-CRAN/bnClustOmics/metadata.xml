@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Network-Based Clustering of Multi-Omics Data //
+		Unsupervised Bayesian network-based clustering of multi-omics
+		data. Both binary and continuous data types are allowed as
+		inputs. The package serves a dual purpose: it clusters
+		(patient) samples and learns the multi-omics networks that
+		characterize discovered clusters. Prior network knowledge
+		(e.g., public interaction databases) can be included via
+		blacklisting and penalization matrices. For clustering, the EM
+		algorithm is employed. For structure search at the M-step, the
+		Bayesian approach is used. The output includes membership
+		assignments of samples, cluster-specific MAP networks, and
+		posterior probabilities of all edges in the discovered
+		networks. In addition to likelihood, AIC and BIC scores are
+		returned. They can be used for choosing the number of clusters.
+		References: P. Suter et al. (2021)
+		doi:10.1101/2021.12.16.473083, J. Kuipers and P. Suter and G.
+		Moffa (2022) doi:10.1080/10618600.2021.2020127, J. Kuipers et
+		al. (2018) doi:10.1038/s41467-018-06867-x.
+	</longdescription>
+</pkgmetadata>

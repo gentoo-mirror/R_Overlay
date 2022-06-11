@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Causal Discovery under a Confounder Blanket // Methods for
+		learning causal relationships among a set of foreground
+		variables X based on signals from a (potentially much larger)
+		set of background variables Z, which are known non-descendants
+		of X. The confounder blanket learner (CBL) uses sparse
+		regression techniques to simultaneously perform many
+		conditional independence tests, with complementary pairs
+		stability selection to guarantee finite sample error control.
+		CBL is sound and complete with respect to a so-called "lazy
+		oracle", and works with both linear and nonlinear systems. For
+		details, see Watson  Silva (2022) arXiv:2205.05715.
+	</longdescription>
+</pkgmetadata>
