@@ -2,7 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Centrality-Based Pathway Enrichment // Use pathway topology
-		information to assign weight to pathway nodes.
+		Centrality-Based Pathway Enrichment // It aims to find
+		significant pathways through network topology information. It
+		has several advantages compared with current pathway enrichment
+		tools. First, pathway node instead of single gene is taken as
+		the basic unit when analysing networks to meet the fact that
+		genes must be constructed into complexes to hold normal
+		functions. Second, multiple network centrality measures are
+		applied simultaneously to measure importance of nodes from
+		different aspects to make a full view on the biological system.
+		CePa extends standard pathway enrichment methods, which include
+		both over-representation analysis procedure and gene-set
+		analysis procedure. doi:10.1093/bioinformatics/btt008.
 	</longdescription>
 </pkgmetadata>

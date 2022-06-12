@@ -2,8 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Functions from the 2nd Italian Forest Inventory (INFC) // This
-		package provides estimates of tree volume and biomass from
-		Italian NFI models
+		Functions to Estimate Tree Volume and Phytomass in the Italian
+		Forest Inventory 2005 // Tabacchi et al. (2011) published a
+		very detailed study producing a uniform system of functions to
+		estimate tree volume and phytomass components (stem, branches,
+		stool). The estimates of the 2005 Italian forest inventory
+		(https://www.inventarioforestale.org/) are based on these
+		functions. The study documents the domain of applicability of
+		each function and the equations to quantify estimates
+		accuracies for individual estimates as well as for aggregated
+		estimates. This package makes the functions available in the R
+		environment. Version 2 exposes two distinct functions for
+		individual and summary estimates. To facilitate access to the
+		functions, tree species identification is now based on EPPO
+		species codes (https://data.eppo.int/).
 	</longdescription>
 </pkgmetadata>
