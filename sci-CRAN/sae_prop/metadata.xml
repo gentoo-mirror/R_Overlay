@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Small Area Estimation using Fay-Herriot Models with Additive
+		Logistic Transformation // Implements Additive Logistic
+		Transformation (alr) for Small Area Estimation under Fay
+		Herriot Model. Small Area Estimation is used to borrow strength
+		from auxiliary variables to improve the effectiveness of a
+		domain sample size. This package uses Empirical Best Linear
+		Unbiased Prediction (EBLUP) estimator. The Additive Logistic
+		Transformation (alr) are based on transformation by Aitchison J
+		(1986). The covariance matrix for multivariate application is
+		base on covariance matrix used by Esteban M, Lombarda M, Lpez-
+		Vizcano E, Morales D, and Prez A
+		doi:10.1007/s11749-019-00688-w. The non-sampled models are
+		modified area-level models based on models proposed by Anisa R,
+		Kurnia A, and Indahwati I doi:10.9790/5728-10121519, with
+		univariate model using model-3, and multivariate model using
+		model-1. The MSE are estimated using Parametric Bootstrap
+		approach. For non-sampled cases, MSE are estimated using
+		modified approach proposed by Haris F and Ubaidillah A
+		doi:10.4108/eai.2-8-2019.2290339.
+	</longdescription>
+</pkgmetadata>
