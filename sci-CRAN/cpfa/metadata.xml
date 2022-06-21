@@ -5,15 +5,15 @@
 		Classification with Parallel Factor Analysis // Classification
 		using Richard A. Harshman's Parallel Factor Analysis (Parafac)
 		model-1 fit to a three-way or four-way data tensor/array. See
-		Harshman (1994) doi:10.1016/0167-9473(94)90132-5. Uses Parafac
-		factor weights from one mode of this model as predictors to
-		tune parameters for one or more classification methods via a
-		k-fold cross-validation procedure. Supports penalized logistic
-		regression, support vector machine, random forest, and feed-
-		forward neural network. Supports binary and multiclass
-		classification. Predicts class labels or class probabilities
-		and calculates multiple classification performance measures.
-		Parallel computing is implemented via the 'parallel' and
-		'doParallel' packages.
+		Harshman and Lundy (1994): doi:10.1016/0167-9473(94)90132-5.
+		Uses Parafac factor weights from one mode of this model as
+		predictors to tune parameters for one or more classification
+		methods via a k-fold cross-validation procedure. Supports
+		penalized logistic regression, support vector machine, random
+		forest, and feed-forward neural network. Supports binary and
+		multiclass classification. Predicts class labels or class
+		probabilities and calculates multiple classification
+		performance measures. Parallel computing is implemented via the
+		'parallel' and 'doParallel' packages.
 	</longdescription>
 </pkgmetadata>

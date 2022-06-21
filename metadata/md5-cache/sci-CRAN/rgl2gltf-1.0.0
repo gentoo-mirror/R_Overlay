@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/rgl-0.108.43 sci-CRAN/jsonlite sci-CRAN/base64enc >=dev-lang/R-3.5.0 sci-CRAN/R6 dev-lang/R:=
+DESCRIPTION=Read and Write .gltf and .glb Files
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_jpeg r_suggests_knitr r_suggests_misc3d r_suggests_png r_suggests_rmarkdown r_suggests_rstudio r_suggests_v8 byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/rgl-0.108.43 sci-CRAN/jsonlite sci-CRAN/base64enc >=dev-lang/R-3.5.0 sci-CRAN/R6 r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_misc3d? ( sci-CRAN/misc3d ) r_suggests_png? ( sci-CRAN/png ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudio? ( sci-mathematics/rstudio ) r_suggests_v8? ( sci-CRAN/V8 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rgl2gltf_1.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=16a973e7a7b5aed87fc0d3ef84c755cd
