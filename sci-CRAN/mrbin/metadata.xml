@@ -2,16 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Magnetic Resonance Binning, Integration and Normalization //
-		Nuclear Magnetic Resonance is widely used for metabolite
-		analysis. This package is a collection of functions for
-		processing and analyzing metabolite data.
-		(doi:10.1021/acs.jproteome.0c00684). The namesake function
-		converts 1D or 2D data into a matrix of values suitable for
-		further data analysis and performs basic processing steps in a
-		reproducible way. Negative values, a common issue in such data,
-		are replaced by positive values. All used parameters are stored
-		in a readable text file and can be restored from that file to
-		enable exact reproduction of the data at a later time.
+		Metabolomics Data Analysis Functions // A collection of functions
+		for processing and analyzing metabolite data. The namesake
+		function "mrbin" converts 1D or 2D Nuclear Magnetic Resonance
+		data into a matrix of values suitable for further data analysis
+		and performs basic processing steps in a reproducible way.
+		Negative values, a common issue in such data, are replaced by
+		positive values (doi:10.1021/acs.jproteome.0c00684). All used
+		parameters are stored in a readable text file and can be
+		restored from that file to enable exact reproduction of the
+		data at a later time. The function "fia" ranks features
+		according to their impact on classifier models, especially
+		artificial neural network models.
 	</longdescription>
 </pkgmetadata>
