@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Aligning Ontology Annotation Across Single Cell Datasets with
+		'scOntoMatch' // Unequal granularity of cell type annotation
+		makes it difficult to compare scRNA-seq datasets at scale.
+		Leveraging the ontology system for defining cell type
+		hierarchy, 'scOntoMatch' aims to align cell type annotations to
+		make them comparable across studies. The alignment involves two
+		core steps: first is to trim the cell type tree within each
+		dataset so each cell type does not have descendants, and then
+		map cell type labels cross-studies by direct matching and
+		mapping descendants to ancestors. Various functions for
+		plotting cell type trees and manipulating ontology terms are
+		also provided. In the Single Cell Expression Atlas hosted at
+		EBI, a compendium of datasets with curated ontology labels are
+		great inputs to this package.
+	</longdescription>
+</pkgmetadata>

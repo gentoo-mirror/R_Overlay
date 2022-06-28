@@ -3,30 +3,21 @@
 <pkgmetadata>
 	<longdescription>
 		Spatial Estimation and Prediction for Censored/Missing Responses
-		// It provides functions to estimate the parameters in spatial
-		models with censored/missing responses via the Expectation-
-		Maximization (EM) algorithm (see Dempster, Laird, and Rubin
-		(1977)https://www.jstor.org/stable/2984875), the Stochastic
-		Approximation EM (SAEM) algorithm (see Delyon, Lavielle, and
-		Moulines (1999)https://www.jstor.org/stable/120120), and the
-		Monte Carlo EM (MCEM) algorithm (see Wei and Tanner
-		(1990)doi:10.1080/01621459.1990.10474930). These algorithms are
-		widely used to compute the maximum likelihood (ML) estimates in
-		incomplete data problems. The EM algorithm computes the ML
-		estimates when a closed expression for the conditional
-		expectation of the complete-data log-likelihood function is
-		available. In the MCEM algorithm, the conditional expectation
-		is substituted by a Monte Carlo approximation based on many
-		independent simulations of the missing data, while the SAEM
-		algorithm splits the E-step into a simulation step and an
-		integration step. The SAEM algorithm was developed as an
-		alternative to the computationally intensive MCEM algorithm.
-		This package also approximates the standard error of the
-		estimates using the method developed by Louis
-		(1982)https://www.jstor.org/stable/2345828. It also has a
-		function that performs spatial prediction in a set of new
-		locations. Besides the functions to estimate parameters, this
-		package allows computing the covariance matrix and the distance
-		matrix.
+		// It provides functions to estimate parameters in linear
+		spatial models with censored/missing responses via the
+		Expectation-Maximization (EM), the Stochastic Approximation EM
+		(SAEM), or the Monte Carlo EM (MCEM) algorithm. These
+		algorithms are widely used to compute the maximum likelihood
+		(ML) estimates in problems with incomplete data. The EM
+		algorithm computes the ML estimates when a closed expression
+		for the conditional expectation of the complete-data log-
+		likelihood function is available. In the MCEM algorithm, the
+		conditional expectation is substituted by a Monte Carlo
+		approximation based on many independent simulations of the
+		missing data. In contrast, the SAEM algorithm splits the E-step
+		into simulation and integration steps. This package also
+		approximates the standard error of the estimates using the
+		Louis method. Moreover, it has a function that performs spatial
+		prediction in new locations.
 	</longdescription>
 </pkgmetadata>

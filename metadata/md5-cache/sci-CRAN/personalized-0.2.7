@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/glmnet-2.0.13 virtual/mgcv sci-CRAN/kernlab sci-CRAN/plotly virtual/survival sci-CRAN/ggplot2 sci-CRAN/foreach sci-CRAN/xgboost dev-lang/R:=
+DESCRIPTION=Estimation and Validation Method... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_nnet r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/glmnet-2.0.13 virtual/mgcv sci-CRAN/kernlab sci-CRAN/plotly virtual/survival sci-CRAN/ggplot2 sci-CRAN/foreach sci-CRAN/xgboost r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nnet? ( virtual/nnet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/personalized_0.2.7.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=acbe0518b88d1de6b546d88b231613c6
