@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/FNN-1.1 >=sci-CRAN/sp-1.4 >=sci-CRAN/ncdf4-1.17 >=sci-CRAN/fields-10.3 >=sci-CRAN/assertthat-0.2.1 sci-CRAN/progress sci-CRAN/trend sci-CRAN/SearchTrees >=dev-lang/R-3.6 >=sci-CRAN/rainfarmr-0.1 >=sci-CRAN/raster-3.0 dev-lang/R:=
+DESCRIPTION=Tools for CM SAF NetCDF Data
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_cmsaf r_suggests_cmsafvis r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/FNN-1.1 >=sci-CRAN/sp-1.4 >=sci-CRAN/ncdf4-1.17 >=sci-CRAN/fields-10.3 >=sci-CRAN/assertthat-0.2.1 sci-CRAN/progress sci-CRAN/trend sci-CRAN/SearchTrees >=dev-lang/R-3.6 >=sci-CRAN/rainfarmr-0.1 >=sci-CRAN/raster-3.0 r_suggests_cmsaf? ( sci-CRAN/cmsaf ) r_suggests_cmsafvis? ( sci-CRAN/cmsafvis ) r_suggests_spelling? ( >=sci-CRAN/spelling-2.1 ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.3 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cmsafops_1.2.5.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=5178ce77f3720b6800077b6caf76092e
