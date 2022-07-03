@@ -2,8 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Wavelet ARIMA Model // Fits hybrid Wavelet ARIMA model for time
-		series forecasting using algorithm by Aminghafari and Poggi
-		(2012) doi:10.1142/S0219691307002002.
+		Wavelet-ARIMA Model for Time Series Forecasting // Noise in the
+		time-series data significantly affects the accuracy of the
+		ARIMA model. Wavelet transformation decomposes the time series
+		data into subcomponents to reduce the noise and help to improve
+		the model performance. The wavelet-ARIMA model can achieve
+		higher prediction accuracy than the traditional ARIMA model.
+		This package provides Wavelet-ARIMA model for time series
+		forecasting based on the algorithm by Aminghafari and Poggi
+		(2012) and Paul and Anjoy (2018) doi:10.1142/S0219691307002002
+		doi:10.1007/s00704-017-2271-x.
 	</longdescription>
 </pkgmetadata>

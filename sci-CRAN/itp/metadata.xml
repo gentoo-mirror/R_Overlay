@@ -12,8 +12,10 @@
 		interval then the ITP method estimates the value at which the
 		function is equal to zero. If the function is discontinuous
 		then a point of discontinuity at which the function changes
-		sign may be found. Tuning parameters of the ITP algorithm can
-		be set by the user. Default values are set based on arguments
-		in Oliveira and Takahashi (2021).
+		sign may be found. The function can be supplied using either an
+		R function or an external pointer to a C++ function. Tuning
+		parameters of the ITP algorithm can be set by the user. Default
+		values are set based on arguments in Oliveira and Takahashi
+		(2021).
 	</longdescription>
 </pkgmetadata>
