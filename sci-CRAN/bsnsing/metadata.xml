@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Build Decision Trees with Optimal Multivariate Splits //
+		Functions for training an optimal decision tree classifier,
+		making predictions and generating latex code for plotting.
+		Works for two-class and multi-class classification problems.
+		The algorithm seeks the optimal Boolean rule consisting of
+		multiple variables to split a node, resulting in shorter trees.
+		Use bsnsing() to build a tree, predict() to make predictions
+		and plot() to plot the tree into latex and PDF. See Yanchao Liu
+		(2022) arXiv:2205.15263 for technical details. Source code and
+		more data sets are at https://github.com/profyliu/bsnsing/.
+	</longdescription>
+</pkgmetadata>
