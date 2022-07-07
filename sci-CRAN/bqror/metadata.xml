@@ -2,23 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Bayesian Quantile Regression for Ordinal Models // Provides
-		functions for estimating Bayesian quantile regression for
-		ordinal models, calculating covariate effects, and computing
-		measures for model comparision. Specifically, the package
-		offers two estimation functions - one for an ordinal model with
-		more than three outcomes. For each ordinal model, the package
-		provides functions to calculate the covariate effect using the
-		MCMC outputs. The package also computes marginal likelihood
-		(recommended) and the Deviance Information Criterion (DIC) for
-		comparing alternative quantile regression models. Besides, the
-		package also contains functions for making trace plots of MCMC
-		draws and other functions that aids the estimation or inference
-		of quantile ordinal models. Rahman, M. A. (2016).Bayesian
-		Quantile Regression for Ordinal Models. Bayesian Analysis,
-		II(I): 1-24 doi: 10.1214/15-BA939. Yu, K., and Moyeed, R. A.
-		(2001). Bayesian Quantile Regression. Statistics and
-		Probability Letters, 54(4): 437447 doi:
+		Bayesian Quantile Regression for Ordinal Models // Package
+		provides functions for estimating Bayesian quantile regression
+		with ordinal outcomes, computing the covariate effects, model
+		comparison measures, and inefficiency factor. The generic
+		ordinal model with 3 or more outcomes (labeled OR1 model) is
+		estimated by a combination of Gibbs sampling and Metropolis-
+		Hastings algorithm. Whereas an ordinal model with exactly 3
+		outcomes (labeled OR2 model) is estimated using Gibbs sampling
+		only. For each model framework, there is a specific function
+		for estimation. The summary output produces estimates for
+		regression quantiles and two measures of model comparison  log
+		of marginal likelihood and Deviance Information Criterion
+		(DIC). The package also has specific functions for computing
+		the covariate effects and other functions that aids either the
+		estimation or inference in quantile ordinal models. Rahman, M.
+		A. (2016).Bayesian Quantile Regression for Ordinal Models.
+		Bayesian Analysis, II(I): 1-24 doi: 10.1214/15-BA939. Yu, K.,
+		and Moyeed, R. A. (2001). Bayesian Quantile Regression.
+		Statistics and Probability Letters, 54(4): 437447 doi:
 		10.1016/S0167-7152(01)00124-9. Koenker, R., and Bassett, G.
 		(1978).Regression Quantiles. Econometrica, 46(1): 33-50 doi:
 		10.2307/1913643. Chib, S. (1995). Marginal likelihood from the
