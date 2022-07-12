@@ -4,8 +4,11 @@
 	<longdescription>
 		Chromatographic File Converter // Reads chromatograms from binary
 		formats into R objects. Currently supports conversion of
-		Agilent ChemStation '.uv' and MassHunter '.sp', files using
-		file parsers from the 'Aston' package
-		https://github.com/bovee/aston.
+		'Agilent ChemStation', 'Agilent MassHunter', and 'ThermoRaw'
+		files as well as various text-based formats. Utilizes file
+		parsers from external libraries, such as 'Aston'
+		https://github.com/bovee/aston, 'Entab'
+		https://github.com/bovee/entab, and 'ThermoRawFileParser'
+		https://github.com/compomics/ThermoRawFileParser.
 	</longdescription>
 </pkgmetadata>
