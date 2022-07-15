@@ -4,7 +4,7 @@
 	<longdescription>
 		Handling HL7 FHIR Resources in R // Useful tools for conveniently
 		downloading FHIR resources in xml format and converting them to
-		R data frames. The package uses FHIR-search to download bundles
+		R data.frames. The package uses FHIR-search to download bundles
 		from a FHIR server, provides functions to save and read xml-
 		files containing such bundles and allows flattening the bundles
 		to data.frames using XPath expressions.
