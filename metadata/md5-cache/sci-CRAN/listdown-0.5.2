@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/rmarkdown sci-CRAN/checkmate sci-CRAN/yaml sci-CRAN/tibble sci-CRAN/fs dev-lang/R:=
+DESCRIPTION=Create R Markdown from Lists
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dt r_suggests_ggplot2 r_suggests_knitr r_suggests_purrr r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/rmarkdown sci-CRAN/checkmate sci-CRAN/yaml sci-CRAN/tibble sci-CRAN/fs r_suggests_dt? ( sci-CRAN/DT ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/listdown_0.5.2.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=7c3b0c3ea6fc5f955d5704002d2e7a66
