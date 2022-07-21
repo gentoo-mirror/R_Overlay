@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/glmnet-3.0.0 sci-CRAN/Rdpack >=sci-CRAN/Rcpp-0.12.15 sci-mathematics/glpk >=sci-CRAN/ggplot2-2.2.1 dev-lang/R:=
+DESCRIPTION=High-Dimensional Regression with Measurement Error
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/glmnet-3.0.0 sci-CRAN/Rdpack >=sci-CRAN/Rcpp-0.12.15 sci-mathematics/glpk >=sci-CRAN/ggplot2-2.2.1 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hdme_0.5.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	23cb2d46c80c12aa8b25973b4cdcb257	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=28ae950084744af0254a479655de3bdc
