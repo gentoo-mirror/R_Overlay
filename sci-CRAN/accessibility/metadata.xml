@@ -2,15 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Transport Accessibility Metrics // A set of fast and convenient
+		Transport Accessibility Measures // A set of fast and convenient
 		functions to calculate multiple transport accessibility
-		measures. Given a pre-computed travel cost matrix in long
-		format combined with land-use  data (e.g. location of  jobs,
-		healthcare, population), the package  allows one to calculate
+		measures. Given a pre-computed travel cost matrix and a land
+		use dataset (containing the location of jobs, healthcare and
+		population, for example), the package allows one to calculate
 		active and passive accessibility levels using multiple
-		accessibility metrics such as: cumulative opportunity measure
-		(using either travel time cutoff or interval), minimum travel
-		cost to closest N number of activities, gravitational measures
-		and different floating catchment area methods.
+		accessibility measures, such as: cumulative opportunities
+		(using either travel cost cutoffs or intervals), minimum travel
+		cost to closest N number of activities, gravity-based (with
+		different decay functions) and different floating catchment
+		area methods.
 	</longdescription>
 </pkgmetadata>
