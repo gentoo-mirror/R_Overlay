@@ -3,6 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Classes and Methods for Lagged Objects // Provides classes and
-		methods for lagged objects.
+		methods for objects, whose indexing naturally starts from zero.
+		Subsetting, indexing and mathematical operations are defined
+		naturally between lagged objects and lagged and base R objects.
+		Recycling is not used, except for singletons. The single
+		bracket operator doesn't drop dimensions by default.
 	</longdescription>
 </pkgmetadata>

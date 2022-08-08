@@ -2,9 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Robust Linear Mixed Effects Models // A method to fit linear
-		mixed effects models robustly. Robustness is achieved by
-		modification of the scoring equations combined with the Design
-		Adaptive Scale approach.
+		Robust Linear Mixed Effects Models // Implements the Robust
+		Scoring Equations estimator to fit linear mixed effects models
+		robustly. Robustness is achieved by modification of the scoring
+		equations combined with the Design Adaptive Scale approach.
+		Includes some references to the archived packages
+		'robustvarComp' and 'heavy'. Both packages are only needed to
+		reproduce a simulation study and are not required for the
+		running of the regular package functions. You can install both
+		packages by downloading the latest version from the CRAN
+		archive.
 	</longdescription>
 </pkgmetadata>

@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R API Serialization // This package provides other packages with
-		access to the internal R serialization code. Access to this
-		code is provided at the C function level by using the
-		registration of native function mechanism. Client packages
-		simply include a single header file RApiSerializeAPI.h provided
-		by this package. . This packages builds on the Rhpc package by
-		Junji Nakano and Ei-ji Nakama which also includes a (partial)
-		copy of the file src/main/serialize.c from R itself. . The R
-		Core group is the original author of the serialization code
-		made available by this package.
+		R API Serialization // Access to the internal R serialization
+		code is provided for use by other packages at the C function
+		level by using the registration of native function mechanism.
+		Client packages simply include a single header file
+		RApiSerializeAPI.h provided by this package. This packages
+		builds on the Rhpc package by Ei-ji Nakama and Junji Nakano
+		which also includes a (partial) copy of the file
+		src/main/serialize.c from R itself. The R Core group is the
+		original author of the serialization code made available by
+		this package.
 	</longdescription>
 </pkgmetadata>
