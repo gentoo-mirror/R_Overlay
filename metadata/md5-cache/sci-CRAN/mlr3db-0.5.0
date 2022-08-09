@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/mlr3-0.13.0 sci-CRAN/checkmate sci-CRAN/R6 >=dev-lang/R-3.1.0 sci-CRAN/data_table >=sci-CRAN/mlr3misc-0.10.0 sci-CRAN/backports dev-lang/R:=
+DESCRIPTION=Data Base Backend for mlr3
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dbi r_suggests_dbplyr r_suggests_dplyr r_suggests_duckdb r_suggests_future r_suggests_future_apply r_suggests_future_callr r_suggests_lgr r_suggests_rsqlite r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64
+LICENSE=LGPL-3
+RDEPEND=>=sci-CRAN/mlr3-0.13.0 sci-CRAN/checkmate sci-CRAN/R6 >=dev-lang/R-3.1.0 sci-CRAN/data_table >=sci-CRAN/mlr3misc-0.10.0 sci-CRAN/backports r_suggests_dbi? ( sci-CRAN/DBI ) r_suggests_dbplyr? ( sci-CRAN/dbplyr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_duckdb? ( >=sci-CRAN/duckdb-0.4.0 ) r_suggests_future? ( sci-CRAN/future ) r_suggests_future_apply? ( sci-CRAN/future_apply ) r_suggests_future_callr? ( sci-CRAN/future_callr ) r_suggests_lgr? ( sci-CRAN/lgr ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlr3db_0.5.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=0e5eaa05e0d07e40f9a2f709059d9e69

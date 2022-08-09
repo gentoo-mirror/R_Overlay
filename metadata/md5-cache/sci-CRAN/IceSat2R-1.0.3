@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/glue sci-CRAN/units sci-CRAN/miniUI sci-CRAN/magrittr sci-CRAN/leaflet sci-CRAN/shiny sci-CRAN/sf sci-CRAN/lwgeom >=dev-lang/R-3.5 sci-CRAN/doParallel sci-CRAN/leafgl sci-CRAN/rnaturalearth sci-CRAN/data_table sci-CRAN/foreach sci-CRAN/lubridate sci-CRAN/rvest sci-CRAN/leafsync sci-CRAN/leaflet_extras sci-CRAN/httr dev-lang/R:=
+DESCRIPTION=ICESat-2 Altimeter Data using R
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_dt r_suggests_geodist r_suggests_knitr r_suggests_plotly r_suggests_reshape2 r_suggests_rmarkdown r_suggests_stargazer r_suggests_terra r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/glue sci-CRAN/units sci-CRAN/miniUI sci-CRAN/magrittr sci-CRAN/leaflet sci-CRAN/shiny sci-CRAN/sf sci-CRAN/lwgeom >=dev-lang/R-3.5 sci-CRAN/doParallel sci-CRAN/leafgl sci-CRAN/rnaturalearth sci-CRAN/data_table sci-CRAN/foreach sci-CRAN/lubridate sci-CRAN/rvest sci-CRAN/leafsync sci-CRAN/leaflet_extras sci-CRAN/httr r_suggests_dt? ( sci-CRAN/DT ) r_suggests_geodist? ( sci-CRAN/geodist ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stargazer? ( sci-CRAN/stargazer ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/IceSat2R_1.0.3.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=02bef3c826cfe54e91430d398a67798c
