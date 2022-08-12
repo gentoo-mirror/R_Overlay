@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model-Averaged Renewal Process // To implement a model-averaging
+		approach with different renewal models, with a primary focus on
+		forecasting large earthquakes. Based on six renewal models
+		(i.e., Poisson, Gamma, Log-Logistics, Weibull, Log-Normal and
+		BPT), model-averaged point estimates are calculated using AIC
+		(or BIC) weights. Additionally, both percentile and studentized
+		bootstrapped model-averaged confidence intervals are
+		constructed. In comparison, point and interval estimation from
+		the individual or "best" model (determined via model selection)
+		can be retrieved.
+	</longdescription>
+</pkgmetadata>

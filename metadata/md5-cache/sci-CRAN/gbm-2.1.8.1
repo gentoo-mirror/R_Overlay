@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice virtual/survival dev-lang/R:=
+DESCRIPTION=Generalized Boosted Regression Models
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_gridextra r_suggests_knitr r_suggests_pdp r_suggests_runit r_suggests_tinytest r_suggests_vip r_suggests_viridis byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=virtual/lattice virtual/survival r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pdp? ( sci-CRAN/pdp ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_tinytest? ( sci-CRAN/tinytest ) r_suggests_vip? ( sci-CRAN/vip ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gbm_2.1.8.1.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=1e157659bb74c48de69c8233dc55e4a0
