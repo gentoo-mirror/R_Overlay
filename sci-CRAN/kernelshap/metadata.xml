@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Kernel SHAP // Implementation of the model-agnostic Kernel SHAP
+		algorithm by Ian Covert and Su-In Lee (2021)
+		http://proceedings.mlr.press/v130/covert21a.  Due to its
+		iterative nature, standard errors of the SHAP values are
+		provided and convergence is monitored.  The package allows to
+		work with any model that provides numeric predictions.
+		Examples include linear regression, logistic regression (logit
+		or probability scale), other generalized linear models,
+		generalized additive models, and neural networks. The package
+		plays well together with meta-learning packages like 'caret' or
+		'mlr3'. Visualizations can be done using the R package
+		'shapviz'.
+	</longdescription>
+</pkgmetadata>
