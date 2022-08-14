@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		SEM Model Comparison with K-Fold Cross-Validation // The goal of
+		'cvsem' is to provide functions that allow for comparing
+		Structural Equation Models (SEM) using cross-validation. Users
+		can specify multiple SEMs using 'lavaan' syntax. 'cvsem'
+		computes the Kullback Leibler (KL) Divergence between 1) the
+		model implied covariance matrix estimated from the training
+		data and 2) the sample covariance matrix estimated from the
+		test data described in Cudeck, Robert  Browne (1983)
+		doi:10.18637/jss.v048.i02. The KL Divergence is computed for
+		each of the specified SEMs allowing for the models to be
+		compared based on their prediction errors.
+	</longdescription>
+</pkgmetadata>
