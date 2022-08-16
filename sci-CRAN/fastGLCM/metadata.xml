@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'GLCM' Texture Features // Two 'Gray Level Co-occurrence Matrix'
+		('GLCM') implementations are included: The first is a fast
+		'GLCM' feature texture computation based on 'Python' 'Numpy'
+		arrays ('Github' Repository,
+		https://github.com/tzm030329/GLCM). The second is a fast 'GLCM'
+		'RcppArmadillo' implementation which is parallelized (using
+		'OpenMP') with the option to return all 'GLCM' features at
+		once. For more information, see "Artifact-Free Thin Cloud
+		Removal Using Gans" by Toizumi Takahiro, Zini Simone, Sagi
+		Kazutoshi, Kaneko Eiji, Tsukada Masato, Schettini Raimondo
+		(2019), IEEE International Conference on Image Processing
+		(ICIP), pp. 3596-3600, doi:10.1109/ICIP.2019.8803652.
+	</longdescription>
+</pkgmetadata>

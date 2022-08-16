@@ -9,9 +9,9 @@
 		RMatrix class from 'RcppParallel' for thread safety. There are
 		combination/permutation functions with constraint parameters
 		that allow for generation of all results of a vector meeting
-		specific criteria (e.g. generating integer partitions or
-		finding all combinations such that the sum is between two
-		bounds). Capable of generating specific
+		specific criteria (e.g. generating integer
+		partitions/compositions or finding all combinations such that
+		the sum is between two bounds). Capable of generating specific
 		combinations/permutations (e.g. retrieve only the nth
 		lexicographical result) which sets up nicely for
 		parallelization as well as random sampling. Gmp support permits

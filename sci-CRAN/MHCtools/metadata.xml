@@ -20,7 +20,7 @@
 		wrapper for the kmeans() function of the 'stats' package, which
 		allows for bootstrapping. Bootstrapping k-estimates may be
 		desirable in data sets, where e.g. BIC- vs. k-values do not
-		produce clear inflection points ("elbows"). BootKmeans()
+		produce clear inflection points ("elbows""). BootKmeans()
 		performs multiple runs of kmeans() and estimates optimal
 		k-values based on a user-defined threshold of BIC reduction.
 		The method is an automated and bootstrapped version of visually

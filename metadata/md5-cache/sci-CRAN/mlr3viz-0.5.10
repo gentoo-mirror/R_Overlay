@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-3.3.0 sci-CRAN/checkmate >=sci-CRAN/mlr3misc-0.7.0 sci-CRAN/data_table >=dev-lang/R-3.1.0 sci-CRAN/scales sci-CRAN/viridis dev-lang/R:=
+DESCRIPTION=Visualizations for mlr3
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_bbotk r_suggests_cluster r_suggests_factoextra r_suggests_ggally r_suggests_ggfortify r_suggests_ggparty r_suggests_glmnet r_suggests_knitr r_suggests_lgr r_suggests_mlr3 r_suggests_mlr3filters r_suggests_mlr3learners r_suggests_mlr3tuning r_suggests_paradox r_suggests_partykit r_suggests_patchwork r_suggests_precrec r_suggests_ranger r_suggests_rpart r_suggests_testthat r_suggests_vdiffr r_suggests_xgboost byte-compile
+KEYWORDS=~amd64
+LICENSE=LGPL-3
+RDEPEND=>=sci-CRAN/ggplot2-3.3.0 sci-CRAN/checkmate >=sci-CRAN/mlr3misc-0.7.0 sci-CRAN/data_table >=dev-lang/R-3.1.0 sci-CRAN/scales sci-CRAN/viridis r_suggests_bbotk? ( sci-CRAN/bbotk ) r_suggests_cluster? ( virtual/cluster virtual/cluster ) r_suggests_factoextra? ( sci-CRAN/factoextra ) r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_ggfortify? ( >=sci-CRAN/ggfortify-0.4.11 ) r_suggests_ggparty? ( sci-CRAN/ggparty ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lgr? ( sci-CRAN/lgr ) r_suggests_mlr3? ( >=sci-CRAN/mlr3-0.6.0 ) r_suggests_mlr3filters? ( sci-CRAN/mlr3filters ) r_suggests_mlr3learners? ( sci-CRAN/mlr3learners ) r_suggests_mlr3tuning? ( >=sci-CRAN/mlr3tuning-0.9.0 ) r_suggests_paradox? ( sci-CRAN/paradox ) r_suggests_partykit? ( sci-CRAN/partykit ) r_suggests_patchwork? ( >=sci-CRAN/patchwork-1.1.1 ) r_suggests_precrec? ( sci-CRAN/precrec ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rpart? ( virtual/rpart ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-1.0.2 ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlr3viz_0.5.10.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=02858fe170029139129fc47d10b6f6c4
