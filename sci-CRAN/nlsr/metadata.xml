@@ -2,13 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Functions for Nonlinear Least Squares Solutions // Provides tools
-		for working with nonlinear least squares problems. It is
-		intended to eventually supersede the 'nls()' function in the R
-		distribution. For example, 'nls()' specifically does NOT deal
-		with small or zero residual problems as its Gauss-Newton method
-		frequently stops with 'singular gradient' messages. 'nlsr' is
-		based on the now-deprecated package 'nlmrt', and has refactored
-		functions and R-language symbolic derivative features.
+		Functions for Nonlinear Least Squares Solutions - Updated 2022 //
+		Provides tools for working with nonlinear least squares
+		problems. For the estimation of models reliable and robust
+		tools than nls(), where the the Gauss-Newton method frequently
+		stops with 'singular gradient' messages. This is accomplished
+		by using, where possible, analytic derivatives to compute the
+		matrix of derivatives and a stabilization of the solution of
+		the estimation equations. Tools for approximate or externally
+		supplied derivative matrices are included. Bounds and masks on
+		parameters are handled properly.
 	</longdescription>
 </pkgmetadata>
