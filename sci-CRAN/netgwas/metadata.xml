@@ -9,19 +9,15 @@
 		construction, (2) constructing linkage disequilibrium networks,
 		and (3) exploring high-dimensional genotype-phenotype network
 		and genotype- phenotype-environment interactions networks. The
-		netgwas package can deal with biparental inbreeding and
+		'netgwas' package can deal with biparental inbreeding and
 		outbreeding species with any ploidy level, namely diploid (2
 		sets of chromosomes), triploid (3 sets of chromosomes),
 		tetraploid (4 sets of chromosomes) and so on. We target on
 		high-dimensional data where number of variables p is
 		considerably larger than number of sample sizes (p  n). The
 		computations is memory-optimized using the sparse matrix
-		output. The package is implemented the recent methodological
+		output. The 'netgwas' implements the methodological
 		developments in Behrouzi and Wit (2017) doi:10.1111/rssc.12287
 		and Behrouzi and Wit (2017) doi:10.1093/bioinformatics/bty777.
-		NOTICE proper functionality of 'netgwas' requires that the
-		'RBGL' package is installed from 'bioconductor'; for
-		installation instruction please refer to the 'RBGL' web page
-		given below.
 	</longdescription>
 </pkgmetadata>
