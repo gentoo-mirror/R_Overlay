@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A 'tidyverse' Extension for Ordinations and Biplots // Ordination
+		comprises several multivariate exploratory and explanatory
+		techniques with theoretical foundations in geometric data
+		analysis; see Podani (2000, ISBN:90-5782-067-6) for techniques
+		and applications and Le Roux  Rouanet (2005)
+		doi:10.1007/1-4020-2236-0 for foundations. Greenacre (2010,
+		ISBN:978-84-923846) shows how the most established of these,
+		including principal components analysis, correspondence
+		analysis, multidimensional scaling, factor analysis, and
+		discriminant analysis, rely on eigen-decompositions or singular
+		value decompositions of pre-processed numeric matrix data.
+		These decompositions give rise to a set of shared coordinates
+		along which the row and column elements can be measured. The
+		overlay of their scatterplots on these axes, introduced by
+		Gabriel (1971) doi:10.1093/biomet/58.3.453, is called a biplot.
+		'ordr' provides inspection, extraction, manipulation, and
+		visualization tools for several popular ordination classes
+		supported by a set of recovery methods. It is inspired by and
+		designed to integrate into 'tidyverse' workflows provided by
+		Wickham et al (2019) doi:10.21105/joss.01686.
+	</longdescription>
+</pkgmetadata>
