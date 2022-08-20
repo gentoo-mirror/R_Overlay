@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Virtual Patient Simulation by Copula Invariance Property // To
+		optimize clinical trial designs and data analysis methods
+		consistently through trial simulation, we need to simulate
+		multivariate mixed-type virtual patient data independent of
+		designs and analysis methods under evaluation. To make the
+		outcome of optimization more realistic, relevant empirical
+		patient level data should be utilized when its available.
+		However, a few problems arise in simulating trials based on
+		small empirical data, where the underlying marginal
+		distributions and their dependence structure cannot be
+		understood or verified thoroughly due to the limited sample
+		size. To resolve this issue, we use the copula invariance
+		property, which can generate the joint distribution without
+		making a strong parametric assumption. The function copula.sim
+		can generate virtual patient data with optional data validation
+		methods that are based on energy distance and ball divergence
+		measurement. The function compare.copula.sim can conduct
+		comparison of marginal mean and covariance of simulated data.
+		To simulate patient-level data from a hypothetical treatment
+		arm that would perform differently from the observed data, the
+		function new.arm.copula.sim can be used to generate new
+		multivariate data with the same dependence structure of the
+		original data but with a shifted mean vector.
+	</longdescription>
+</pkgmetadata>
