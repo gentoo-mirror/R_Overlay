@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simultaneous Non-Gaussian Component Analysis // Implementation of
+		SING algorithm to extract joint and individual non-Gaussian
+		components from two datasets. SING uses an objective function
+		that maximizes the skewness and kurtosis of latent components
+		with a penalty to enhance the similarity between subject
+		scores. Unlike other existing methods, SING does not use PCA
+		for dimension reduction, but rather uses non-Gaussianity, which
+		can improve feature extraction. Benjamin B.Risk, Irina
+		Gaynanova (2021) doi:10.1214/21-AOAS1466.
+	</longdescription>
+</pkgmetadata>
