@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fitting Additive Copula Regression Models for Binary Outcome
+		Regression // Additive copula regression for regression
+		problems with binary outcome via gradient boosting [Brant, Hobk
+		Haff (2022); arXiv:2208.04669]. The fitting process includes a
+		specialised model selection algorithm for each component, where
+		each component is found (by greedy optimisation) among all the
+		D-vines with only Gaussian pair-copulas of a fixed dimension,
+		as specified by the user. When the variables and structure have
+		been selected, the algorithm then re-fits the component where
+		the pair-copula distributions can be different from Gaussian,
+		if specified.
+	</longdescription>
+</pkgmetadata>
