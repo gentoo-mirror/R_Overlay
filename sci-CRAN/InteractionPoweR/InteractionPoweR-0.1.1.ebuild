@@ -1,0 +1,25 @@
+# Copyright 1999-2022 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Power Analyses for Interaction E... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/InteractionPoweR_0.1.1.tar.gz"
+LICENSE='GPL-3+'
+
+DEPEND="sci-CRAN/doParallel
+	sci-CRAN/chngpt
+	sci-CRAN/foreach
+	sci-CRAN/ggplot2
+	sci-CRAN/polynom
+	sci-CRAN/tidyr
+	sci-CRAN/ggbeeswarm
+	>=dev-lang/R-3.5.0
+	sci-CRAN/dplyr
+	virtual/MASS
+	sci-CRAN/rlang
+"
+RDEPEND="${DEPEND-}"
