@@ -4,6 +4,11 @@
 	<longdescription>
 		Voronoi Diagrams and Heatmaps with 'ggplot2' // Easy creation and
 		manipulation of Voronoi diagrams using 'deldir' with
-		visualization in 'ggplot2'.
+		visualization in 'ggplot2'. Convenient functions are provided
+		to create nearest neighbor diagrams and heatmaps. Diagrams are
+		computed with 'deldir' and processed to work with the 'sp'
+		framework. Results are provided in a convenient spatial data
+		structure and displayed with 'ggplot2'. An outline can be
+		provided by the user to specify the spatial domain of interest.
 	</longdescription>
 </pkgmetadata>

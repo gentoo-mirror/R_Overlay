@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		CCR, Entropy-Based Correlation Estimates  Dynamic Beta //
+		CCR, Advanced Correlation  Beta Estimates, Betting Strategies //
 		Contains performance analysis metrics of track records
 		including entropy-based correlation and dynamic beta based on
 		the Kalman filter. The normalized sample entropy method has
@@ -13,9 +13,11 @@
 		functionality to use pricing curves, rating tables, CSAs and
 		add-on tables. The implementation follows an object oriented
 		logic whereby each trade inherits from more abstract classes
-		while also the curves/tables are objects. There is a lot of
-		functionality focusing on the counterparty credit risk
-		calculations however the package can be used for trading
-		applications in general.
+		while also the curves/tables are objects. Furthermore, odds
+		calculators and PL back-testing functionality has been
+		implemented for the most widely used betting/trading strategies
+		including martingale, DAlembert, Labouchere and Fibonacci. Some
+		basic functionality about climate risk was also added in the
+		latest version.
 	</longdescription>
 </pkgmetadata>
