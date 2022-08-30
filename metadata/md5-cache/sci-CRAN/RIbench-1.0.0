@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/optparse sci-CRAN/RColorBrewer sci-CRAN/msm sci-CRAN/data_table sci-CRAN/digest sci-CRAN/sfsmisc dev-lang/R:=
+DESCRIPTION=Benchmark Suite for Indirect Met... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/optparse sci-CRAN/RColorBrewer sci-CRAN/msm sci-CRAN/data_table sci-CRAN/digest sci-CRAN/sfsmisc r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RIbench_1.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=759d0e54f77156e7662fe9e9cb441e45
