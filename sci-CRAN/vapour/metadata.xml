@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Lightweight Access to the 'Geospatial Data Abstraction Library'
-		('GDAL') // Provides low-level access to 'GDAL' functionality
-		for R packages. 'GDAL' is the 'Geospatial Data Abstraction
-		Library' a translator for raster and vector geospatial data
-		formats that presents a single raster abstract data model and
-		single vector abstract data model to the calling application
-		for all supported formats https://gdal.org/.
+		Access to the 'Geospatial Data Abstraction Library' ('GDAL') //
+		Provides low-level access to 'GDAL' functionality. 'GDAL' is
+		the 'Geospatial Data Abstraction Library' a translator for
+		raster and vector geospatial data formats that presents a
+		single raster abstract data model and single vector abstract
+		data model to the calling application for all supported formats
+		https://gdal.org/. This package is focussed on providing
+		exactly and only what GDAL does, to enable developing further
+		tools.
 	</longdescription>
 </pkgmetadata>
