@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Cooperative Learning for Multi-View Analysis // Cooperative
+		learning combines the usual squared error loss of predictions
+		with an agreement penalty to encourage the predictions from
+		different data views to agree. By varying the weight of the
+		agreement penalty, we get a continuum of solutions that include
+		the well-known early and late fusion approaches. Cooperative
+		learning chooses the degree of agreement (or fusion) in an
+		adaptive manner, using a validation set or cross-validation to
+		estimate test set prediction error. In the setting of
+		cooperative regularized linear regression, the method combines
+		the lasso penalty with the agreement penalty (Ding, D., Li, S.,
+		Narasimhan, B., Tibshirani, R. (2021) arXiv:2112.12337).
+	</longdescription>
+</pkgmetadata>
