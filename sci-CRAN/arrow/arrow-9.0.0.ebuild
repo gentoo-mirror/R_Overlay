@@ -51,3 +51,9 @@ RDEPEND="${DEPEND-}
 	>=sci-CRAN/cpp11-0.4.2
 	${R_SUGGESTS-}
 "
+
+src_prepare() {
+	sed -e '/ArrowOptions/s,$LIB_DIR,/usr/'"$(get_libdir)," \
+		-i configure || die
+	default
+}
