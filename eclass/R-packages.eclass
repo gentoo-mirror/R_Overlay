@@ -15,7 +15,7 @@ BDEPEND="${DEPEND}"
 R-packages_src_unpack() {
 	unpack ${A}
 	if [[ -d "${PN//_/.}" ]] && [[ ! -d "${P}" ]]; then
-		mv ${PN//_/.} ${P} || die
+		mv ${PN//_/.} ${P}
 	fi
 }
 
@@ -23,7 +23,7 @@ R-packages_src_configure() { :; }
 
 R-packages_src_compile() {
 	MAKEFLAGS="CFLAGS=${CFLAGS// /\\ } CXXFLAGS=${CXXFLAGS// /\\ } FFLAGS=${FFLAGS// /\\ } FCFLAGS=${FCFLAGS// /\\ } LDFLAGS=${LDFLAGS// /\\ }" \
-		R CMD INSTALL . -l "${WORKDIR}" $(use byte-compile && echo "--byte-compile") || die
+		R CMD INSTALL . -l "${WORKDIR}" $(use byte-compile && echo "--byte-compile")
 }
 
 R-packages_src_install() {
