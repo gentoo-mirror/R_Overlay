@@ -53,7 +53,7 @@ RDEPEND="${DEPEND-}
 "
 
 src_prepare() {
-	sed -e '/ArrowOptions/s,$LIB_DIR,/usr/'"$(get_libdir)," \
+	sed -e '/ArrowOptions/s,$LIB_DIR,'"${EPREFIX}/usr/$(get_libdir)," \
 		-i configure || die
 	default
 }
