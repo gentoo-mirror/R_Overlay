@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variance Estimation of FMT Method (Fully Moderated T-Statistic)
+		// The FMT method computes posterior residual variances to be
+		used in the denominator of a moderated t-statistic from a
+		linear model analysis of gene expression data. It is an
+		extension of the moderated t-statistic originally proposed by
+		Smyth (2004) doi:10.2202/1544-6115.1027. LOESS local regression
+		and empirical Bayesian method are used to estimate gene
+		specific prior degrees of freedom and prior variance based on
+		average gene intensity levels. The posterior residual variance
+		in the denominator is a weighted average of prior and residual
+		variance and the weights are prior degrees of freedom and
+		residual variance degrees of freedom. The degrees of freedom of
+		the moderated t-statistic is simply the sum of prior and
+		residual variance degrees of freedom.
+	</longdescription>
+</pkgmetadata>

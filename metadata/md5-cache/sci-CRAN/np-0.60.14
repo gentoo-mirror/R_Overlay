@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/boot sci-CRAN/quadprog sci-CRAN/cubature sci-CRAN/quantreg dev-lang/R:=
+DESCRIPTION=Nonparametric Kernel Smoothing M... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_ks r_suggests_logspline r_suggests_mass byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=virtual/boot sci-CRAN/quadprog sci-CRAN/cubature sci-CRAN/quantreg r_suggests_ks? ( sci-CRAN/ks ) r_suggests_logspline? ( sci-CRAN/logspline ) r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/np_0.60-14.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=3770c2ffc3dd06edd81147b188ffa983
