@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Map 'SQL' Code to R Lists // Provides a helper function, to bulk
+		read 'SQL' code from separate files and load it into an 'R'
+		list, where the list elements contain the individual statements
+		and queries as strings. This works by annotating the 'SQL' code
+		with a name comment, which also will be the name of the list
+		element.
+	</longdescription>
+</pkgmetadata>
