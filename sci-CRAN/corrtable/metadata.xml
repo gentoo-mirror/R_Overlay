@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Creates and Saves Out a Correlation Table with Significance
+		Levels Indicated // After using this, a publication-ready
+		correlation table with p-values indicated will be created.  The
+		input can be a full data frame; any string and Boolean terms
+		will be dropped as part of functionality.  Correlations and
+		p-values are calculated using the 'Hmisc' framework.  Output of
+		the correlation_matrix() function is a table of strings; this
+		gets saved out to a '.csv2' with the save_correlation_matrix()
+		function for easy insertion into a paper. For more details
+		about the process, consult
+		https://paulvanderlaken.com/2020/07/28/publication-ready-
+		correlation-matrix-significance-r/.
+	</longdescription>
+</pkgmetadata>
