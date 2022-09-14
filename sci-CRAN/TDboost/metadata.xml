@@ -2,10 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Boosted Tweedie Compound Poisson Model // A boosted Tweedie
-		compound Poisson model using the gradient boosting. It is
-		capable of fitting a flexible nonlinear Tweedie compound
-		Poisson model (or a gamma model) and capturing interactions
-		among predictors.
+		A Boosted Tweedie Compound Poisson Model // An implementation of
+		a boosted Tweedie compound Poisson model proposed by Yang, Y.,
+		Qian, W. and Zou, H. (2018) doi:10.1080/07350015.2016.1200981.
+		It is capable of fitting a flexible nonlinear Tweedie compound
+		Poisson model (or a gamma model) and capturing high-order
+		interactions among predictors. This package is based on the
+		'gbm' package originally developed by Greg Ridgeway.
 	</longdescription>
 </pkgmetadata>
