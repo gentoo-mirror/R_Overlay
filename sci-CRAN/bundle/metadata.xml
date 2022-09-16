@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Serialize Model Objects with a Consistent Interface // Typically,
+		models in 'R' exist in memory and can be saved via regular 'R'
+		serialization. However, some models store information in
+		locations that cannot be saved using 'R' serialization alone.
+		The goal of 'bundle' is to provide a common interface to
+		capture this information, situate it within a portable object,
+		and restore it for use in new settings.
+	</longdescription>
+</pkgmetadata>
