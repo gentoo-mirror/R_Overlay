@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parametric Quantile Regression Models for Bounded Data // A
+		collection of parametric quantile regression models for bounded
+		data. At present, the package provides 13 parametric quantile
+		regression models. It can specify regression structure for any
+		quantile and shape parameters. It also provides several S3
+		methods to extract information from fitted model, such as
+		residual analysis, prediction, plotting, and model comparison.
+		For more computation efficient the [dpqr]'s, likelihood, score
+		and hessian functions are written in C++. For further details
+		see Mazucheli et. al (2022) doi:10.1016/j.cmpb.2022.106816.
+	</longdescription>
+</pkgmetadata>
