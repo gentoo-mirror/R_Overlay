@@ -2,9 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Facilitates ODBC Database Interaction // Facilitates interaction
-		with ODBC data sources, by remembering communication settings
-		and supporting parameterised multi-statement SQL with embedded
-		R.
+		Enhances Interaction with 'ODBC' Databases // Provides simple and
+		powerful interfaces that facilitate interaction with 'ODBC'
+		data sources. Each data source gets its own unique and
+		dedicated interface, wrapped around 'RODBC'. Communication
+		settings are remembered between queries, and are managed
+		silently in the background. The interfaces support multi-
+		statement 'SQL' scripts, which can be parameterised via
+		metaprogramming structures and embedded 'R' expressions.
 	</longdescription>
 </pkgmetadata>

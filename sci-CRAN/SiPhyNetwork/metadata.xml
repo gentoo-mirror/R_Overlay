@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Phylogenetic Simulator for Reticulate Evolution // A simulator
+		for reticulate evolution under a birth-death-hybridization
+		process. Here the birth-death process is extended to consider
+		reticulate Evolution by allowing hybridization events to occur.
+		The general purpose simulator allows the modeling of three
+		different reticulate patterns: lineage generative
+		hybridization, lineage neutral hybridization, and lineage
+		degenerative hybridization. Users can also specify
+		hybridization events to be dependent on a trait value or
+		genetic distance. We also extend some phylogenetic tree utility
+		and plotting functions for networks. We allow two different
+		stopping conditions: simulated to a fixed time or number of
+		taxa. When simulating to a fixed number of taxa, the user can
+		simulate under the Generalized Sampling Approach that properly
+		simulates phylogenies when assuming a uniform prior on the root
+		age.
+	</longdescription>
+</pkgmetadata>

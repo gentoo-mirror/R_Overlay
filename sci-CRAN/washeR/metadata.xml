@@ -2,11 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Time Series Outlier Detection // Time series outlier detection by
-		mean of non parametric test. Outlier detection regarding two
-		methodologies: single time series variability (a vector) and
-		grouped similar time series (a data frame). Andrea
-		Venturini(2011) Statistica-Universita' Bologna, Vol.71,
-		pp.329-344.
+		Time Series Outlier Detection // Time series outlier detection
+		with non parametric test. This is a new outlier detection
+		methodology (washer): efficient for time saving elaboration and
+		implementation procedures, adaptable for general assumptions
+		and for needing very short time series, reliable and effective
+		as involving robust non parametric test. You can find two
+		approaches: single time series (a vector) and grouped time
+		series (a data frame). For other informations: Andrea Venturini
+		(2011) Statistica - Universita di Bologna, Vol.71, pp.329-344.
+		For an informal explanation look at R-bloggers on web.
 	</longdescription>
 </pkgmetadata>
