@@ -2,10 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Desparsified Lasso // Calculates the desparsified lasso as
-		originally introduced in van de Geer et al. (2014)
-		doi:10.1214/14-AOS1221, and provides inference suitable for
-		high-dimensional time series, based on the long run covariance
-		estimator in Adamek et al. (2020) arXiv:2007.10952.
+		Desparsified Lasso Inference for Time Series // Calculates the
+		desparsified lasso as originally introduced in van de Geer et
+		al. (2014) doi:10.1214/14-AOS1221, and provides inference
+		suitable for high-dimensional time series, based on the long
+		run covariance estimator in Adamek et al. (2020)
+		arXiv:2007.10952. Also estimates high-dimensional local
+		projections by the desparsified lasso, as described in Adamek
+		et al. (2022) arXiv:2209.03218.
 	</longdescription>
 </pkgmetadata>
