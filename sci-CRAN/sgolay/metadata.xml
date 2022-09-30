@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Efficient Savitzky-Golay Filtering // Smoothing signals and
+		computing their derivatives is a common requirement in signal
+		processing workflows. Savitzky-Golay filters are a established
+		method able to do both (Savitzky and Golay, 1964
+		doi:10.1021/ac60214a047). This package implements one
+		dimensional Savitzky-Golay filters that can be applied to
+		vectors and matrices (either row-wise or column-wise).
+		Vectorization and memory allocations have been profiled to
+		reduce computational fingerprint. Short filter lengths are
+		implemented in the direct space, while longer filters are
+		implemented in frequency space, using a Fast Fourier Transform
+		(FFT).
+	</longdescription>
+</pkgmetadata>
