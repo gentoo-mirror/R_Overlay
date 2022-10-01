@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/igraph sci-CRAN/sccore >=sci-CRAN/Rcpp-1.0.5 >=dev-lang/R-3.5.0 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Implements the Leiden Algorithm via an R Interface
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_pbapply r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/igraph sci-CRAN/sccore >=sci-CRAN/Rcpp-1.0.5 >=dev-lang/R-3.5.0 virtual/Matrix sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppEigen sci-mathematics/glpk r_suggests_pbapply? ( sci-CRAN/pbapply ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/leidenAlg_1.0.5.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=0de7c688872a82314ab9f4ad7eb4ac6a

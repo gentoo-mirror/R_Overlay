@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-Level Model Assessment Kit // Multilevel models (mixed
+		effects models) are the statistical tool of choice for
+		analyzing multilevel data (Searle et al, 2009). These models
+		account for the correlated nature of observations within higher
+		level units by adding group-level error terms that augment the
+		singular residual error of a standard OLS regression.
+		Multilevel and mixed effects models often require specialized
+		data pre-processing and further post-estimation derivations and
+		graphics to gain insight into model results. The package
+		presented here, 'mlmtools', is a suite of pre- and post-
+		estimation tools for multilevel models in 'R'. Package
+		implements post-estimation tools designed to work with models
+		estimated using 'lme4''s (Bates et al., 2014) lmer() function,
+		which fits linear mixed effects regression models. Searle, S.
+		R., Casella, G.,  McCulloch, C. E. (2009, ISBN:978-0470009598).
+		Bates, D., Mchler, M., Bolker, B.,  Walker, S. (2014)
+		doi:10.18637/jss.v067.i01.
+	</longdescription>
+</pkgmetadata>
