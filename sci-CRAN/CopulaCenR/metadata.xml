@@ -2,16 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Copula-Based Regression Models for Bivariate Censored Data //
-		Copula-based regression models for bivariate censored data,
-		including bivariate right-censored data and bivariate interval-
-		censored data. Currently supports Clayton, Gumbel, Frank, Joe,
-		AMH and Copula2 copula models. For marginal models, it supports
-		parametric (Weibull, Loglogistic, Gompertz) and semiparametric
-		(Cox and transformation) models. Includes methods for
-		convenient prediction and plotting. Also provides a bivariate
-		time-to-event simulation function. Method details can be found
-		in Sun et.al (2019) Lifetime Data Analysis and Sun et.al (In
-		Press) Biostatistics.
+		Copula-Based Regression Models for Multivariate Censored Data //
+		Copula-based regression models for multivariate censored data,
+		including bivariate right-censored data, bivariate interval-
+		censored data, and interval-censored semi-competing risks data.
+		Currently supports Clayton, Gumbel, Frank, Joe, AMH and Copula2
+		copula models. For marginal models, it supports parametric
+		(Weibull, Loglogistic, Gompertz) and semiparametric (Cox and
+		transformation) models. Includes methods for convenient
+		prediction and plotting. Also provides a bivariate time-to-
+		event simulation function. Method details can be found in Sun
+		et.al (2019) Lifetime Data Analysis, Sun et.al (2021)
+		Biostatistics, and Sun et.al (2022) Statistical Methods in
+		Medical Research.
 	</longdescription>
 </pkgmetadata>
