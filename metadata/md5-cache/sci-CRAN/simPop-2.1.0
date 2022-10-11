@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RcppArmadillo sci-CRAN/doParallel sci-CRAN/data_table sci-CRAN/EnvStats >=dev-lang/R-3.0.0 sci-CRAN/VIM sci-CRAN/fitdistrplus virtual/Matrix virtual/MASS sci-CRAN/ranger sci-CRAN/xgboost virtual/lattice >=sci-CRAN/Rcpp-0.11.0 sci-CRAN/e1071 sci-CRAN/vcd sci-CRAN/foreach sci-CRAN/party sci-CRAN/wrswoR virtual/nnet sci-CRAN/colorspace dev-lang/R:=
+DESCRIPTION=Simulation of Complex Synthetic Data Information
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_haven r_suggests_sampling r_suggests_stringr r_suggests_tinytest byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/RcppArmadillo sci-CRAN/doParallel sci-CRAN/data_table sci-CRAN/EnvStats >=dev-lang/R-3.0.0 sci-CRAN/VIM sci-CRAN/fitdistrplus virtual/Matrix virtual/MASS sci-CRAN/ranger sci-CRAN/xgboost virtual/lattice >=sci-CRAN/Rcpp-0.11.0 sci-CRAN/e1071 sci-CRAN/vcd sci-CRAN/foreach sci-CRAN/party sci-CRAN/wrswoR virtual/nnet sci-CRAN/colorspace sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_haven? ( sci-CRAN/haven ) r_suggests_sampling? ( sci-CRAN/sampling ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/simPop_2.1.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=e1ccc6c154b2be9c9ac9ff3f4d42ae18
