@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stop Detection in Timestamped Trajectory Data using
+		Spatiotemporal Clustering // Trajectory data formed by human or
+		animal movement is often marked by periods of movement
+		interspersed with periods of standing still. It is often of
+		interest to researchers to separate geolocation trajectories of
+		latitude/longitude points by clustering consecutive locations
+		to produce a model of this behavior. This package implements
+		the Stay Point detection algorithm originally described in Ye
+		(2009) doi:10.1109/MDM.2009.11 that uses time and distance
+		thresholds to characterize spatial regions as 'stops'. This
+		package also implements the concept of merging described in
+		Montoliu (2013) doi:10.1007/s11042-011-0982-z as stay point
+		region estimation, which allows for clustering of temporally
+		adjacent stops for which distance between the midpoints is less
+		than the provided threshold. GPS-like data from various sources
+		can be used, but the temporal thresholds must be considered
+		with respect to the sampling interval, and the spatial
+		thresholds must be considered with respect to the measurement
+		error.
+	</longdescription>
+</pkgmetadata>
