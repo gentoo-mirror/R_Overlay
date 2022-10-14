@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gaussian Model Invariant by Permutation Symmetry // Find the
+		permutation symmetry group such that the covariance matrix of
+		the given data is invariant under it. Discovering such a
+		permutation decreases the number of observations needed to fit
+		a Gaussian model, which is of great use when it is smaller than
+		the number of variables. Even if that is not the case, the
+		covariance matrix found with 'gips' approximates the actual
+		covariance with less statistical error. The methods implemented
+		in this package are described in Graczyk et al. (2022)
+		doi:10.1214/22-AOS2174.
+	</longdescription>
+</pkgmetadata>
