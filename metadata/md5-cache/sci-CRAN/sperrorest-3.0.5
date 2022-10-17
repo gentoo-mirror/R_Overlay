@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/ROCR sci-CRAN/future sci-CRAN/stringr sci-CRAN/future_apply dev-lang/R:=
+DESCRIPTION=Perform Spatial Error Estimation... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mass r_suggests_nnet r_suggests_ranger r_suggests_rmarkdown r_suggests_rpart r_suggests_sp r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/ROCR sci-CRAN/future sci-CRAN/stringr sci-CRAN/future_apply r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_nnet? ( virtual/nnet ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpart? ( virtual/rpart ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sperrorest_3.0.5.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=e88a627f818190ad9b424d258f7ae33d
