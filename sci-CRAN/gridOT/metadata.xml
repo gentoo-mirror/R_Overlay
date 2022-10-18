@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Approximate Optimal Transport Between Two-Dimensional Grids //
+		Can be used for optimal transport between two-dimensional grids
+		with respect to separable cost functions of l^p form. It
+		utilizes the Frank-Wolfe algorithm to approximate so-called
+		pivot measures: one-dimensional transport plans that fully
+		describe the full transport, see G. Auricchio (2021)
+		arXiv:2105.07278. For these, it offers methods for
+		visualization and to extract the corresponding transport plans
+		and costs. Additionally, related functions for one-dimensional
+		optimal transport are available.
+	</longdescription>
+</pkgmetadata>
