@@ -2,18 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Semi-Supervised Learning via Gaussian Mixture Model // The
-		algorithm of semi-supervised learning for a partially
-		classified sample via Gaussian mixture model with the missing-
-		label mechanism is designed for a fitting g-component Gaussian
-		mixture model via maximum likelihood (ML). The classifier is
-		proposed to treat the labels of the unclassified features as
-		missing-data and to introduce a framework for their missing as
-		in the pioneering work of Rubin (1976) for missing in
-		incomplete data analysis. It suggests that the missingness of
-		the labels of the features can be modelled by representing the
-		probability of a missing-label for a feature via the logistic
-		model depending on the entropy of the feature or an appropriate
-		proxy for it.
+		Semi-Supervised Gaussian Mixture Model with a Missing-Data
+		Mechanism // The algorithm of semi-supervised learning based on
+		finite Gaussian mixture models with a missing-data mechanism is
+		designed for a fitting g-class Gaussian mixture model via
+		maximum likelihood (ML). It is proposed to treat the labels of
+		the unclassified features as missing-data and to introduce a
+		framework for their missing as in the pioneering work of Rubin
+		(1976) for missing in incomplete data analysis. This dependency
+		in the missingness pattern can be leveraged to provide
+		additional information about the optimal classifier as
+		specified by Bayes rule.
 	</longdescription>
 </pkgmetadata>
