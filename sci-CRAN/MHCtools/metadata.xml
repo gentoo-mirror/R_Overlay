@@ -2,13 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Analysis of MHC Data in Non-Model Species // Twelve tools for
-		bioinformatical processing and analysis of major
+		Analysis of MHC Data in Non-Model Species // Fifteen tools for
+		bioinformatics processing and analysis of major
 		histocompatibility complex (MHC) data. The functions are
 		tailored for amplicon data sets that have been filtered using
-		the 'dada2' method (for more information on 'dada2', visit
+		the dada2 method (for more information on dada2, visit
 		https://benjjneb.github.io/dada2/ ), but even other types of
-		data sets can be analyzed. The DistCalc() function calculates
+		data sets can be analyzed. The ReplMatch() function matches
+		replicates in data sets in order to evaluate genotyping
+		success. The GetReplTable() and GetReplStats() functions
+		perform such an evaluation. The CreateFas() function creates a
+		fasta file with all the sequences in the data set. The
+		CreateSamplesFas() function creates individual fasta files for
+		each sample in the data set. The DistCalc() function calculates
 		Grantham, Sandberg, or p-distances from pairwise comparisons of
 		all sequences in a data set, and mean distances of all pairwise
 		comparisons within each sample in a data set. The function
@@ -20,7 +26,7 @@
 		wrapper for the kmeans() function of the 'stats' package, which
 		allows for bootstrapping. Bootstrapping k-estimates may be
 		desirable in data sets, where e.g. BIC- vs. k-values do not
-		produce clear inflection points ("elbows""). BootKmeans()
+		produce clear inflection points ("elbows"). BootKmeans()
 		performs multiple runs of kmeans() and estimates optimal
 		k-values based on a user-defined threshold of BIC reduction.
 		The method is an automated and bootstrapped version of visually
@@ -31,17 +37,20 @@
 		of k. It is designed to take files produced by the BootKmeans()
 		function as input, but other data can be analysed if the
 		descriptions of the required data formats are observed
-		carefully. The HpltFind() function infers putative haplotypes
-		from families in the data set. The GetHpltTable() and
-		GetHpltStats() functions evaluate the accuracy of the haplotype
-		inference. The PapaDiv() function compares parent pairs in the
+		carefully. The PapaDiv() function compares parent pairs in the
 		data set and calculate their joint MHC diversity, taking into
 		account sequence variants that occur in both parents. The
-		ReplMatch() function matches replicates in data sets in order
-		to evaluate genotyping success. The GetReplTable() and
-		GetReplStats() functions perform such an evaluation. The
-		CreateFas() function creates a fasta file with all the
-		sequences in the data set. The CreateSamplesFas() function
-		creates individual fasta files for each sample in the data set.
+		HpltFind() function infers putative haplotypes from families in
+		the data set. The GetHpltTable() and GetHpltStats() functions
+		evaluate the accuracy of the haplotype inference. The
+		CreateHpltOccTable() function creates a binary (logical)
+		haplotype-sequence occurrence matrix from the output of
+		HpltFind(), for easy overview of which sequences are present in
+		which haplotypes. The HpltMatch() function compares haplotypes
+		to help identify overlapping and potentially identical types.
+		The NestTablesXL() function translates the output from
+		HpltFind() to an Excel workbook, that provides a convenient
+		overview for evaluation and curating of the inferred putative
+		haplotypes.
 	</longdescription>
 </pkgmetadata>
