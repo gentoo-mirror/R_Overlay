@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/rsample sci-CRAN/fields sci-CRAN/rlang sci-CRAN/sf sci-CRAN/spdep sci-CRAN/yardstick sci-CRAN/hardhat virtual/Matrix sci-CRAN/glue sci-CRAN/purrr sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Methods for Assessing Spatial Models
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_ggplot2 r_suggests_recipes r_suggests_sfdep r_suggests_spatial r_suggests_spelling r_suggests_testthat r_suggests_tidymodels r_suggests_tidyr r_suggests_vip byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/rsample sci-CRAN/fields sci-CRAN/rlang sci-CRAN/sf sci-CRAN/spdep sci-CRAN/yardstick sci-CRAN/hardhat virtual/Matrix sci-CRAN/glue sci-CRAN/purrr sci-CRAN/tibble r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_recipes? ( sci-CRAN/recipes ) r_suggests_sfdep? ( sci-CRAN/sfdep ) r_suggests_spatial? ( virtual/spatial ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidymodels? ( sci-CRAN/tidymodels ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_vip? ( sci-CRAN/vip ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/waywiser_0.2.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=61c7fad8ed2aa491fb9161597709f6ab
