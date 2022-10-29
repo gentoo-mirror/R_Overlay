@@ -2,9 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Markov Random Field Structure Estimator // A Markov random field
-		structure estimator that uses a penalized maximum conditional
-		likelihood method similar to the Bayesian Information Criterion
-		(Frondana, 2016) doi:10.11606/T.45.2018.tde-02022018-151123.
+		Markov Random Field Structure Estimator // Three algorithms for
+		estimating a Markov random field structure.Two of them are an
+		exact version and a simulated annealing version of a penalized
+		maximum conditional likelihood method similar to the Bayesian
+		Information Criterion (Frondana, 2016)
+		doi:10.11606/T.45.2018.tde-02022018-151123.The third one is a
+		greedy algorithm based on information theory (Bresler, 2015).
 	</longdescription>
 </pkgmetadata>
