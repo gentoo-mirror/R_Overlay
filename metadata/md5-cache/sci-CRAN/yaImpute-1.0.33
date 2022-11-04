@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 dev-lang/R:=
+DESCRIPTION=Nearest Neighbor Observation Imp... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_ccapp r_suggests_fastica r_suggests_gam r_suggests_gower r_suggests_randomforest r_suggests_vegan byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 r_suggests_ccapp? ( sci-CRAN/ccaPP ) r_suggests_fastica? ( sci-CRAN/fastICA ) r_suggests_gam? ( sci-CRAN/gam ) r_suggests_gower? ( sci-CRAN/gower ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/yaImpute_1.0-33.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=3932a5456c60f716babdb90514fa98df
