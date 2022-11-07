@@ -3,15 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Fast Best Subset Selection // Extremely efficient toolkit for
-		solving the best subset selection problem arXiv:2110.09697.
-		This package is its R interface. The package implements and
-		generalizes algorithms designed in doi:10.1073/pnas.2014241117
-		that exploits a novel sequencing-and-splicing technique to
-		guarantee exact support recovery and globally optimal solution
-		in polynomial times for linear model. It also supports best
-		subset selection for logistic regression, Poisson regression,
-		Cox proportional hazard model, Gamma regression, multiple-
-		response regression, multinomial logistic regression, ordinal
+		solving the best subset selection problem
+		https://www.jmlr.org/papers/v23/21-1060.html. This package is
+		its R interface. The package implements and generalizes
+		algorithms designed in doi:10.1073/pnas.2014241117 that
+		exploits a novel sequencing-and-splicing technique to guarantee
+		exact support recovery and globally optimal solution in
+		polynomial times for linear model. It also supports best subset
+		selection for logistic regression, Poisson regression, Cox
+		proportional hazard model, Gamma regression, multiple-response
+		regression, multinomial logistic regression, ordinal
 		regression, (sequential) principal component analysis, and
 		robust principal component analysis. The other valuable
 		features such as the best subset of group selection
