@@ -3,8 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Discrete Nonlinear Filtering for Stochastic Volatility Models //
-		Generates simulated paths from various financial models and
-		applies the discrete nonlinear filter (DNF) of Kitagawa (1987)
-		doi:10.1080/01621459.1987.10478534.
+		Generates simulated paths from various financial stochastic
+		volatility models with jumps and applies the discrete nonlinear
+		filter (DNF) of Kitagawa (1987)
+		doi:10.1080/01621459.1987.10478534 to compute likelihood
+		evaluations, filtering distribution estimates, and maximum
+		likelihood parameter estimates. The algorithm is implemented
+		following the work of Bgin and Boudreault (2021)
+		doi:10.1080/10618600.2020.1840995.
 	</longdescription>
 </pkgmetadata>
