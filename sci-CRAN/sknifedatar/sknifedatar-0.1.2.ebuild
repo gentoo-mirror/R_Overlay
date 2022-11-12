@@ -1,0 +1,41 @@
+# Copyright 1999-2022 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Swiss Knife of Data'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/sknifedatar_0.1.2.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_earth r_suggests_ggplot2 r_suggests_recipes
+	r_suggests_rmarkdown r_suggests_spelling r_suggests_timetk
+	r_suggests_workflows r_suggests_workflowsets r_suggests_yardstick"
+R_SUGGESTS="
+	r_suggests_earth? ( sci-CRAN/earth )
+	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
+	r_suggests_recipes? ( >=sci-CRAN/recipes-0.1.15 )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_spelling? ( sci-CRAN/spelling )
+	r_suggests_timetk? ( >=sci-CRAN/timetk-2.6.0 )
+	r_suggests_workflows? ( >=sci-CRAN/workflows-0.2.2 )
+	r_suggests_workflowsets? ( sci-CRAN/workflowsets )
+	r_suggests_yardstick? ( >=sci-CRAN/yardstick-0.0.8 )
+"
+DEPEND=">=dev-lang/R-3.6.0
+	sci-CRAN/magrittr
+	sci-CRAN/cli
+	sci-CRAN/modeltime
+	>=sci-CRAN/dplyr-1.0.0
+	sci-CRAN/purrr
+	>=sci-CRAN/rlang-0.1.2
+	>=sci-CRAN/tibble-3.1.0
+	sci-CRAN/tidyr
+	>=sci-CRAN/tune-0.1.3
+	sci-CRAN/knitr
+	>=sci-CRAN/parsnip-0.1.4
+	>=sci-CRAN/rsample-0.0.9
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

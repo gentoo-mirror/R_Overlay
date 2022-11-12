@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Continuous Time SEM - 'OpenMx' Based Functions // Original
+		'ctsem' (continuous time structural equation modelling)
+		functionality, based on the 'OpenMx' software, as described in
+		Driver, Oud, Voelkle (2017) doi:10.18637/jss.v077.i05, with
+		updated details in vignette. Combines stochastic differential
+		equations representing latent processes with structural
+		equation measurement models. These functions were split off
+		from the main package of 'ctsem', as the main package uses the
+		'rstan' package as a backend now -- offering estimation options
+		from max likelihood to Bayesian. There are nevertheless use
+		cases for the wide format SEM style approach as offered here,
+		particularly when there are no individual differences in
+		observation timing and the number of individuals is large. For
+		the main 'ctsem' package, see
+		https://cran.r-project.org/package=ctsem.
+	</longdescription>
+</pkgmetadata>

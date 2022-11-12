@@ -2,19 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fasano-Franceschini Test: A 2-D Kolmogorov-Smirnov Two-Sample
-		Test // An implementation of the 2-D Kolmogorov-Smirnov (KS)
-		two-sample test as defined by Fasano and Franceschini (Fasano
-		and Franceschini 1987). The 'fasano.franceschini.test' package
-		provides three improvements over the current 2-D KS test on the
-		Comprehensive R Archive Network (CRAN): (i) the Fasano and
-		Franceschini test has been shown to run in O(n^2) versus the
-		Peacock implementation which runs in O(n^3); (ii) the package
-		implements a procedure for handling ties in the data; and (iii)
-		the package implements a parallelized permutation procedure for
-		improved significance testing. Ultimately, the
-		'fasano.franceschini.test' package presents a robust
-		statistical test for analyzing random samples defined in
-		2-dimensions.
+		Fasano-Franceschini Test: A Multidimensional Kolmogorov-Smirnov
+		Two-Sample Test // An implementation of the two-sample
+		multidimensional Kolmogorov-Smirnov test described by Fasano
+		and Franceschini (1987) doi:10.1093/mnras/225.1.155. This test
+		evaluates the null hypothesis that two i.i.d. random samples
+		were drawn from the same underlying probability distribution.
+		The data can be of any dimension, and can be of any type
+		(continuous, discrete, or mixed).
 	</longdescription>
 </pkgmetadata>

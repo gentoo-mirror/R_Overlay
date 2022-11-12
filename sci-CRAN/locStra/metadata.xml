@@ -19,7 +19,9 @@
 		minimal cutoff value. New functionality in locStra allows one
 		to extract the k leading eigenvectors of the genetic covariance
 		matrix, Jaccard similarity matrix, s-matrix, and genomic
-		relationship matrix without actually computing the similarity
-		matrices.
+		relationship matrix via fast PCA without actually computing the
+		similarity matrices. The fast PCA to compute the k leading
+		eigenvectors can now also be run directly from
+		'bed'+'bim'+'fam' files.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Beta Regression on a Bayesian Model // Applies the Beta
+		regression model in the Bayesian statistical view with the
+		possibility of adding a spatial effect in the parameters, the
+		Beta regression is used when the response variable is a
+		proportion variable, that is, it only accepts values between 0
+		and 1. The package 'bayesbr' uses 'rstan' package to build the
+		Bayesian statistical models. The main function of the package
+		receives as a parameter a form informing the independent
+		variable and the co-variables of the model to be made, as
+		output it returns a list with the results of the model. For
+		more details see Ferrari and Cribari-Neto (2004)
+		doi:10.1080/0266476042000214501 and Hoffman and Gelman (2014)
+		arXiv:1111.4246.
+	</longdescription>
+</pkgmetadata>

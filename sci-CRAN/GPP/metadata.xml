@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gaussian Process Projection // Estimates a counterfactual using
+		Gaussian process projection. It takes a dataframe, creates
+		missingness in the desired outcome variable and estimates
+		counterfactual values based on all information in the
+		dataframe. The package writes Stan code, checks it for
+		convergence and adds artificial noise to prevent overfitting
+		and returns a plot of actual values and estimated
+		counterfactual values using r-base plot.
+	</longdescription>
+</pkgmetadata>

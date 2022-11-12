@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Set-Based Association Test using GWAS Summary Statistics // The
+		goal of 'snpsettest' is to provide simple tools that perform
+		set-based association tests (e.g., gene-based association
+		tests) using GWAS (genome-wide association study) summary
+		statistics. A set-based association test in this package is
+		based on the statistical model described in VEGAS (versatile
+		gene-based association study), which combines the effects of a
+		set of SNPs accounting for linkage disequilibrium between
+		markers. This package uses a different approach from the
+		original VEGAS implementation to compute set-level p values
+		more efficiently, as described in
+		https://github.com/HimesGroup/snpsettest/wiki/Statistical-test-
+		in-snpsettest.
+	</longdescription>
+</pkgmetadata>

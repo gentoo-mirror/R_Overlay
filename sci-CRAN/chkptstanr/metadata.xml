@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Checkpoint MCMC Sampling with 'Stan' // Fit Bayesian models in
+		Stan doi: 10.18637/jss.v076.i01 with checkpointing, that is,
+		the ability to stop the MCMC sampler at will, and then pick
+		right back up where the MCMC sampler left off. Custom 'Stan'
+		models can be fitted, or the popular package 'brms' doi:
+		10.18637/jss.v080.i01 can be used to generate the 'Stan' code.
+		This package is fully compatible with the R packages 'brms',
+		'posterior', 'cmdstanr', and 'bayesplot'.
+	</longdescription>
+</pkgmetadata>

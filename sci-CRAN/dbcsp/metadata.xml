@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Distance-Based Common Spatial Patterns // A way to apply
+		Distance-Based Common Spatial Patterns (DB-CSP) techniques in
+		different fields, both classical Common Spatial Patterns (CSP)
+		as well as DB-CSP. The method is composed of two phases:
+		applying the DB-CSP algorithm and performing a classification.
+		The main idea behind the CSP is to use a linear transform to
+		project data into low-dimensional subspace with a projection
+		matrix, in such a way that each row consists of weights for
+		signals. This transformation maximizes the variance of two-
+		class signal matrices.The dbcsp object is created to compute
+		the projection vectors. For exploratory and descriptive
+		purpose, plot and boxplot functions can be used. Functions
+		train, predict and selectQ are implemented for the
+		classification step.
+	</longdescription>
+</pkgmetadata>

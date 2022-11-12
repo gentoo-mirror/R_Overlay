@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Random Number Generation Functions for 'rxode2' // Provides the
+		random number generation (in parallel) needed for 'rxode2'
+		(Wang, Hallow and  James (2016) doi:10.1002/psp4.12052) and
+		'nlmixr2' (Fidler et al (2019) doi:10.1002/psp4.12445). This
+		split will reduce computational burden of recompiling 'rxode2'.
+	</longdescription>
+</pkgmetadata>

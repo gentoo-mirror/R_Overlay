@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Cumulative History Analysis for Bistable Perception Time Series
+		// Estimates cumulative history for time-series for
+		continuously viewed bistable perceptual rivalry displays.
+		Computes cumulative history via a homogeneous first order
+		differential process. I.e., it assumes exponential growth/decay
+		of the history as a function time and perceptually dominant
+		state, Pastukhov  Braun (2011) doi:10.1167/11.10.12. Supports
+		Gamma, log normal, and normal distribution families. Provides a
+		method to compute history directly and example of using the
+		computation on a custom Stan code.
+	</longdescription>
+</pkgmetadata>

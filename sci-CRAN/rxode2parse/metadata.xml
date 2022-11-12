@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parsing and Code Generation Functions for 'rxode2' // Provides
+		the parsing needed for 'rxode2' (Wang, Hallow and James (2016)
+		doi:10.1002/psp4.12052). It also provides the 'stan' based
+		advan linear compartment model solutions with gradients
+		(Carpenter et al (2015), arXiv:1509.07164) needed in 'nlmixr2'
+		(Fidler et al (2019) doi:10.1002/psp4.12445). This split will
+		reduce computational burden of recompiling 'rxode2'.
+	</longdescription>
+</pkgmetadata>
