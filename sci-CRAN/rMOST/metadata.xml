@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimates Pareto-Optimal Solution for Hiring with 3 Objectives //
+		Estimates Pareto-optimal solution for personnel selection with
+		3 objectives using Normal Boundary Intersection (NBI) algorithm
+		introduced by Das and Dennis (1998)
+		doi:10.1137/S1052623496307510. Takes predictor
+		intercorrelations and predictor-objective relations as input
+		and generates a series of solutions containing predictor
+		weights as output. Accepts between 3 and 10 selection
+		predictors. Maximum 2 objectives could be adverse impact
+		objectives. Partially modeled after De Corte (2006) TROFSS
+		Fortran program https://users.ugent.be/~wdecorte/trofss.pdf and
+		updated from 'ParetoR' package described in Song et al. (2017)
+		doi:10.1037/apl0000240. For details, see Song et al. (in
+		press).
+	</longdescription>
+</pkgmetadata>
