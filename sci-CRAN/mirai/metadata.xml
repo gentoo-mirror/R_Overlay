@@ -2,9 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Minimalist Async Evaluation Framework for R // Simple and
-		lightweight parallelism and concurrent code execution, local or
-		distributed across the network, built on 'nanonext' and 'NNG'
-		(Nanomsg Next Gen) technology.
+		Minimalist Async Evaluation Framework for R // Lightweight
+		parallel code execution, local or distributed across the
+		network. Designed for simplicity, a 'mirai' evaluates an
+		arbitrary expression asynchronously, resolving automatically
+		upon completion. Built on 'nanonext' and 'NNG' (Nanomsg Next
+		Gen) scalability protocols, defaults to the optimal choice of
+		abstract sockets, Unix domain sockets or named pipes in
+		addition to TCP/IP.
 	</longdescription>
 </pkgmetadata>
