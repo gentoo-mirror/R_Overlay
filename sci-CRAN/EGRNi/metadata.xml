@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Ensemble Gene Regulatory Network Inference // Gene regulatory
+		network constructed using combined score obtained from
+		individual network inference method. The combined score
+		measures the significance of edges in the ensemble network.
+		Fisher's weighted method has been implemented to combine the
+		outcomes of different methods based on the probability values.
+		The combined score follows chi-square distribution with 2n
+		degrees of freedom. doi:10.22271/09746315.2020.v16.i3.1358.
+	</longdescription>
+</pkgmetadata>
