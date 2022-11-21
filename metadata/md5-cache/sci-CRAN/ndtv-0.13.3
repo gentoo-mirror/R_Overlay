@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0 >=sci-CRAN/networkDynamic-0.9 >=sci-CRAN/network-1.13 sci-CRAN/sna >=sci-CRAN/animation-2.4 virtual/MASS sci-CRAN/base64 sci-CRAN/statnet_common sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Network Dynamic Temporal Visualizations
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_ergm r_suggests_htmlwidgets r_suggests_knitr r_suggests_scatterplot3d r_suggests_tergm r_suggests_testthat r_suggests_tsna byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.0 >=sci-CRAN/networkDynamic-0.9 >=sci-CRAN/network-1.13 sci-CRAN/sna >=sci-CRAN/animation-2.4 virtual/MASS sci-CRAN/base64 sci-CRAN/statnet_common sci-CRAN/jsonlite r_suggests_ergm? ( sci-CRAN/ergm ) r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d ) r_suggests_tergm? ( >=sci-CRAN/tergm-3.6 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tsna? ( sci-CRAN/tsna ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ndtv_0.13.3.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=fea1d1e153641be25ab73bfa665842a6
