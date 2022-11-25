@@ -6,9 +6,9 @@
 		data. Gaussian processes are commonly used in computer
 		experiments to fit an interpolating model. The model is stored
 		as an 'R6' object and can be easily updated with new data.
-		There are options to run in parallel (not for Windows), and
-		'Rcpp' has been used to speed up calculations. Other R packages
-		that perform similar calculations include 'laGP',
-		'DiceKriging', 'GPfit', and 'mlegp'.
+		There are options to run in parallel, and 'Rcpp' has been used
+		to speed up calculations. For more info about Gaussian process
+		software, see Erickson et al. (2018)
+		doi:10.1016/j.ejor.2017.10.002.
 	</longdescription>
 </pkgmetadata>
