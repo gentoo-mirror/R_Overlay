@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parse Parameters Inside a Docker Container // The function
+		get_parameters() is intended to be used within a docker
+		container to read keyword arguments from a .json file
+		automagically. A tool.yaml file contains specifications on
+		these keyword arguments, which are then passed as input to
+		containerized R tools in the [tool-runner
+		framework](https://github.com/hydrocode-de/tool-runner). A
+		template for a containerized R tool, which can be used as a
+		basis for developing new tools, is available at the following
+		URL: https://github.com/VForWaTer/tool_template_r.
+	</longdescription>
+</pkgmetadata>
