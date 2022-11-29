@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Filter Noisy Data // Noise filter based on determining the
+		proportion of neighboring points. A false point will be
+		rejected if it has only few neighbors, but accepted if the
+		proportion of neighbors in a rectangular frame is high. The
+		size of the rectangular frame as well as the cut-off value,
+		i.e. of a minimum proportion of neighbor-points, may be
+		supplied or can be calculated automatically. Originally
+		designed for the cleaning of heart rates, but suitable for
+		filtering any slowly-changing physiological variable.For more
+		information see Signer (2010)doi:
+		10.1111/j.2041-210X.2009.00010.x.
+	</longdescription>
+</pkgmetadata>

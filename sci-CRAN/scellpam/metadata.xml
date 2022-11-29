@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Applying Partitioning Around Medoids to Single Cell Data with
+		High Number of Cells // PAM (Partitioning Around Medoids)
+		algorithm application to samples of single cell sequencing
+		techniques with a high number of cells (as many as the computer
+		memory allows). The package uses a binary format to store
+		matrices (either full, sparse or symmetric) in files written in
+		the disk that can contain any data type (not just double) which
+		allows its manipulation when memory is sufficient to load them
+		as int or float, but not as double. The PAM implementation is
+		done in parallel, using several/all the cores of the machine,
+		if it has them. This package shares a great part of its code
+		with packages 'jmatrix' and 'parallelpam' but their
+		functionality is included here so there is no need to install
+		them.
+	</longdescription>
+</pkgmetadata>
