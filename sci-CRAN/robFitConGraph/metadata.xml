@@ -3,10 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Graph-Constrained Robust Covariance Estimation // Contains a
-		single function named robFitConGraph() which includes two
-		algorithms for robust estimation of scatter matrices subject to
-		zero-constraints in its inverse. The methodology is described
-		in Vogel  Tyler (2014) doi:10.1093/biomet/asu041. See
-		robFitConGraph() function documentation for further details.
+		function by the same name, which provides two types of robust
+		t-M-estimators of scatter subject to zero-constraints in the
+		inverse. The methodology is described in Vogel  Tyler (2014)
+		doi:10.1093/biomet/asu041. See the robFitConGraph function
+		documentation for further details. A tutorial including
+		background information is given by Vogel, Watt  Wiedemann
+		(2022) arXiv:2204.04291.
 	</longdescription>
 </pkgmetadata>

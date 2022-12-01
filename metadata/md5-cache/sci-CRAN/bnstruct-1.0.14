@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/bitops sci-CRAN/igraph dev-lang/R:=
+DESCRIPTION=Bayesian Network Structure Learn... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_graph r_suggests_knitr r_suggests_qgraph r_suggests_rgraphviz r_suggests_testthat byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/bitops sci-CRAN/igraph r_suggests_graph? ( sci-BIOC/graph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_qgraph? ( sci-CRAN/qgraph ) r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bnstruct_1.0.14.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=81cd34e5ad1afb3ad01d272d22039132
