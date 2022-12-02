@@ -7,7 +7,8 @@
 		Terminal), and 'source' // Determine the full path of the
 		executing script. Works when running a line or selection from a
 		script in 'RStudio', 'Rgui', and 'VSCode', when using 'source',
-		'sys.source', 'debugSource' in 'RStudio', and
-		'testthat::source_file', and when running from a shell.
+		'sys.source', 'debugSource' in 'RStudio',
+		'testthat::source_file', and 'knitr::knit', and when running
+		from a shell.
 	</longdescription>
 </pkgmetadata>
