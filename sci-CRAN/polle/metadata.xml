@@ -2,12 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Policy Learning // Framework for evaluating and learning
-		realistic policies based on doubly robust loss functions.
-		Policy learning methods include Q-learning, see Tsiatis et al.
-		(2019) doi:10.1201/9780429192692, (doubly robust) V-restricted
-		Q-learning, see Luedtke  van der Laan (2016)
-		doi:10.1515/ijb-2015-0052, and (doubly robust) sequential
-		policy tree learning, see Zhou et al. arXiv:1810.04778.
+		Policy Learning // Framework for evaluating user-specified finite
+		stage policies and learning realistic policies via doubly
+		robust loss functions. Policy learning methods include doubly
+		robust restricted Q-learning, sequential policy tree learning
+		and outcome weighted learning. See Nordland and Holst (2022)
+		for documentation and references.
 	</longdescription>
 </pkgmetadata>
