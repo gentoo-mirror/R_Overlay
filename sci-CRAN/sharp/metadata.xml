@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Stability-enHanced Approaches using Resampling Procedures //
-		Implementation of stability selection for graphical modelling
-		and variable selection in regression and dimensionality
-		reduction. These models use on resampling approaches to
-		estimate selection probabilities (N Meinshausen, P Bhlmann
-		(2010) doi:10.1111/j.1467-9868.2010.00740.x). Calibration of
-		the hyper-parameters is done via maximisation of a stability
-		score measuring the likelihood of informative (non-uniform)
-		selection (B Bodinier, S Filippi, TH Nost, J Chiquet, M
-		Chadeau-Hyam (2021) arXiv:2106.02521).
+		Stability-enHanced Approaches using Resampling Procedures // In
+		stability selection (N Meinshausen, P Bhlmann (2010)
+		doi:10.1111/j.1467-9868.2010.00740.x), resampling techniques
+		are used to enhance the reliability of the results. In this
+		package, hyper-parameters are calibrated by maximising model
+		stability, which is measured by the negative log-likelihood
+		under the null hypothesis that all selection probabilities are
+		identical (B Bodinier et al (2021) arXiv:2106.02521). Functions
+		are readily implemented for the use of LASSO regression, sparse
+		PCA, sparse (group) PLS or graphical LASSO.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Hmisc sci-CRAN/reshape2 virtual/lattice sci-CRAN/circular virtual/cluster sci-CRAN/scales sci-CRAN/e1071 sci-CRAN/stringi sci-CRAN/curl sci-CRAN/vegan sci-CRAN/sp >=dev-lang/R-3.5.0 sci-CRAN/ape sci-CRAN/plyr sci-CRAN/aqp sci-CRAN/soilDB sci-CRAN/RColorBrewer sci-CRAN/digest dev-lang/R:=
+DESCRIPTION=A Soil Survey Toolkit
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_circlize r_suggests_daymetr r_suggests_dendextend r_suggests_elevatr r_suggests_evapotranspiration r_suggests_exactextractr r_suggests_farver r_suggests_gower r_suggests_httr r_suggests_igraph r_suggests_jsonlite r_suggests_lattice r_suggests_mass r_suggests_raster r_suggests_rgeos r_suggests_rvest r_suggests_soiltaxonomy r_suggests_spdep r_suggests_terra r_suggests_testthat r_suggests_venn r_suggests_xml2 r_suggests_zoo byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/Hmisc sci-CRAN/reshape2 virtual/lattice sci-CRAN/circular virtual/cluster sci-CRAN/scales sci-CRAN/e1071 sci-CRAN/stringi sci-CRAN/curl sci-CRAN/vegan sci-CRAN/sp >=dev-lang/R-3.5.0 sci-CRAN/ape sci-CRAN/plyr sci-CRAN/aqp sci-CRAN/soilDB sci-CRAN/RColorBrewer sci-CRAN/digest r_suggests_circlize? ( sci-CRAN/circlize ) r_suggests_daymetr? ( sci-CRAN/daymetr ) r_suggests_dendextend? ( sci-CRAN/dendextend ) r_suggests_elevatr? ( sci-CRAN/elevatr ) r_suggests_evapotranspiration? ( sci-CRAN/Evapotranspiration ) r_suggests_exactextractr? ( sci-CRAN/exactextractr ) r_suggests_farver? ( sci-CRAN/farver ) r_suggests_gower? ( sci-CRAN/gower ) r_suggests_httr? ( sci-CRAN/httr ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_lattice? ( virtual/lattice ) r_suggests_mass? ( virtual/MASS ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_rvest? ( sci-CRAN/rvest ) r_suggests_soiltaxonomy? ( sci-CRAN/SoilTaxonomy ) r_suggests_spdep? ( sci-CRAN/spdep ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_venn? ( sci-CRAN/venn ) r_suggests_xml2? ( sci-CRAN/xml2 ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sharpshootR_1.12.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=907c342a2b3f1856e139d24d9bcef258
