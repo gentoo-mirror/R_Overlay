@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Dynamic Logistic State Space Prediction Model // Implements the
+		dynamic logistic state space model for binary outcome data
+		proposed by Jiang et al. (2021) doi:10.1111/biom.13593. It
+		provides a computationally efficient way to update the
+		prediction whenever new data becomes available. It allows for
+		both time-varying and time-invariant coefficients, and use
+		cubic smoothing splines to model varying coefficients. The
+		smoothing parameters are objectively chosen by maximum
+		likelihood. The model is updated using batch data accumulated
+		at pre-specified time intervals.
+	</longdescription>
+</pkgmetadata>
