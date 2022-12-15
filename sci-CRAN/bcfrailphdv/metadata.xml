@@ -5,16 +5,14 @@
 		Bivariate Correlated Frailty Models with Varied Variances // Fit
 		and simulate bivariate correlated frailty models with
 		proportional hazard structure. Frailty distributions, such as
-		gamma and lognormal models are supported. Frailty variances of
-		the two subjects can be varied or equal. Details on the models
-		are available in book of Wienke (2011,ISBN:978-1-4200-7388-1).
-		Bivariate gamma fit is obtained using the approach given in
-		Iachine (1995) with modifications. Lognormal fit is based on
-		the approach by Ripatti and Palmgren (2000)
-		doi:10.1111/j.0006-341X.2000.01016.x. Univariate and bivariate
-		shared gamma frailty model fits are possible. Standard errors
-		of the estimated covariate coefficients and frailty variance
-		parameter are obtained using the approach given in Klein and
-		Moeschberger (2003,ISBN:0-387-95399-X).
+		gamma and lognormal models are supported for semiparametric
+		procedures. Frailty variances of the two subjects can be varied
+		or equal. Details on the models are available in book of Wienke
+		(2011,ISBN:978-1-4200-7388-1). Bivariate gamma fit is obtained
+		using the approach given in Iachine (1995) with modifications.
+		Lognormal fit is based on the approach by Ripatti and Palmgren
+		(2000) doi:10.1111/j.0006-341X.2000.01016.x. Frailty
+		distributions, such as gamma, inverse gaussian and power
+		variance frailty models are supported for parametric approach.
 	</longdescription>
 </pkgmetadata>

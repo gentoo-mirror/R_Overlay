@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A k Nearest Neibour Ensemble Based on Extended Neighbourhood Rule
+		// The extended neighbourhood rule for the k nearest neighbour
+		ensemble where the neighbours are determined in k steps.
+		Starting from the first nearest observation of the test point,
+		the algorithm identifies a single observation that is closest
+		to the observation at the previous step. At each base learner
+		in the ensemble, this search is extended to k steps on a random
+		bootstrap sample with a random subset of features selected from
+		the feature space. The final predicted class of the test point
+		is determined by using a majority vote in the predicted classes
+		given by all base models. Amjad Ali, Muhammad Hamraz, Naz Gul,
+		Dost Muhammad Khan, Saeed Aldahmani, Zardad Khan (2022)
+		doi:10.48550/arXiv.2205.15111.
+	</longdescription>
+</pkgmetadata>

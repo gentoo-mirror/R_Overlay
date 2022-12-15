@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Distance Density Clustering Algorithm // A distance density
+		clustering (DDC) algorithm in R. DDC uses dynamic time warping
+		(DTW) to compute a similarity matrix, based on which cluster
+		centers and cluster assignments are found. DDC inherits dynamic
+		time warping (DTW) arguments and constraints. The cluster
+		centers are centroid points that are calculated using the DTW
+		Barycenter Averaging (DBA) algorithm. The clustering process is
+		divisive. At each iteration, cluster centers are updated and
+		data is reassigned to cluster centers. Early stopping is
+		possible. The output includes cluster centers and clustering
+		assignment, as described in the paper (Ma et al (2017)
+		doi:10.1109/ICDMW.2017.11).
+	</longdescription>
+</pkgmetadata>
