@@ -16,8 +16,7 @@
 		2021 arXiv:2112.07457).  Models extend up to three layers deep;
 		a one layer model is equivalent to typical Gaussian process
 		regression.  Covariance kernel options are matern (default) and
-		squared exponential.  Applicable to both noisy and
-		deterministic functions. Incorporates SNOW parallelization and
-		utilizes C and C++ under the hood.
+		squared exponential.  Incorporates OpenMP and SNOW
+		parallelization and utilizes C/C++ under the hood.
 	</longdescription>
 </pkgmetadata>
