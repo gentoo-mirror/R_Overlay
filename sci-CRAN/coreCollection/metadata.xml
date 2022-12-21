@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Core Collection // Create a custom sized Core Collection based on
+		a distance matrix and applying the A-NE (accession nearest
+		entry), E-NE (entry nearest entry) or E-E (entry entry) method
+		as introduced in Jansen and van Hintum (2007)
+		doi:10.1007/s00122-006-0433-9 and further elaborated on in
+		Odong, T.L. (2012) https://edepot.wur.nl/212422. Optionally a
+		list of preselected accessions to be included into the core can
+		be set. For each accession in the computed core, if available
+		nearby accessions are retrievable that can be used as an
+		alternative.
+	</longdescription>
+</pkgmetadata>
