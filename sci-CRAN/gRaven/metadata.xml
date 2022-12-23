@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayes Nets: 'RHugin' Emulation with 'gRain' // Wrappers for
+		functions in the 'gRain' package to emulate some 'RHugin'
+		functionality, allowing the building of Bayesian networks
+		incrementally, through adding nodes, edges and conditional
+		probability tables, the setting of evidence, both 'hard'
+		(boolean) or 'soft' (likelihoods), and querying marginal
+		probabilities and normalizing constants. Computations will
+		typically not be so fast as they are with 'RHugin', but this
+		package should assist users without access to 'Hugin' to use
+		code written to use 'RHugin'.
+	</longdescription>
+</pkgmetadata>
