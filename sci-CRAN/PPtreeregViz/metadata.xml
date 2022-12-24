@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Projection Pursuit Regression Tree Visualization // It was
+		developed as a tool for exploring 'PPTreereg' (Projection
+		Pursuit TREE of REGression). It uses various projection pursuit
+		indexes and 'XAI' (eXplainable Artificial Intelligence) methods
+		to help understand the model by finding connections between the
+		input variables and prediction values of the model. The
+		'KernelSHAP' (Aas, Jullum and Lland (2019) arXiv:1903.10464)
+		algorithm was modified to fit PPTreereg, and some codes were
+		modified from the 'shapr' package (Sellereite, Nikolai, and
+		Martin Jullum (2020) doi:10.21105/joss.02027). The implemented
+		methods help to explore the model at the single instance level
+		as well as at the whole dataset level. Users can compare with
+		other machine learning models by applying it to the 'DALEX'
+		package of 'R'.
+	</longdescription>
+</pkgmetadata>
