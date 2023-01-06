@@ -11,6 +11,9 @@
 		simulators for doing the simulation, and currently supports the
 		programs 'ms', 'msms' and 'scrm'. It also supports finite-sites
 		mutation models by combining the simulators with the program
-		'seq-gen'.
+		'seq-gen'. Coala provides functions for calculating certain
+		summary statistics, which can also be applied to actual
+		biological data. One possibility to import data is through the
+		'PopGenome' package (https://github.com/pievos101/PopGenome).
 	</longdescription>
 </pkgmetadata>
