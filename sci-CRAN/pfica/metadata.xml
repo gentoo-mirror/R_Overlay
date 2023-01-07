@@ -2,8 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Independent Component Analysis for Univariate Functional Data //
-		Performs penalized independent component analysis for
-		univariate functional data [doi:10.3390/math9111243].
+		Independent Components Analysis Techniques for Functional Data //
+		Performs smoothed (and non-smoothed) principal/independent
+		components analysis of functional data. Various functional pre-
+		whitening approaches are implemented as discussed in Vidal and
+		Aguilera (2022) Novel whitening approaches in functional
+		settings", doi:10.1002/sta4.516. Further whitening
+		representations of functional data can be derived in terms of a
+		few principal components, providing an avenue to explore hidden
+		structures in low dimensional settings: see Vidal, Rosso and
+		Aguilera (2021) Bi-smoothed functional independent component
+		analysis for EEG artifact removal, doi:10.3390/math9111243.
 	</longdescription>
 </pkgmetadata>
