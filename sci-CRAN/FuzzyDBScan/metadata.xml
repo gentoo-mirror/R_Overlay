@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Run and Predict a Fuzzy DBScan // An interface for training Fuzzy
+		DBScan with both Fuzzy Core and Fuzzy Border. Therefore, the
+		package provides a method to initialize and run the algorithm
+		and a function to predict new data w.t.h. of 'R6'. The package
+		is build upon the paper "Fuzzy Extensions of the DBScan
+		algorithm" from Ienco and Bordogna (2018)
+		doi:10.1007/s00500-016-2435-0. A predict function assigns new
+		data according to the same criteria as the algorithm itself.
+		However, the prediction function freezes the algorithm to
+		preserve the trained cluster structure and treats each new
+		prediction object individually.
+	</longdescription>
+</pkgmetadata>

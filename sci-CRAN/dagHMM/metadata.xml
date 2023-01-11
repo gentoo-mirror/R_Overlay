@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Directed Acyclic Graph HMM with TAN Structured Emissions //
+		Hidden Markov models (HMMs) are a formal foundation for making
+		probabilistic models of linear sequence. They provide a
+		conceptual toolkit for building complex models just by drawing
+		an intuitive picture. They are at the heart of a diverse range
+		of programs, including genefinding, profile searches, multiple
+		sequence alignment and regulatory site identification. HMMs are
+		the Legos of computational sequence analysis. In graph theory,
+		a tree is an undirected graph in which any two vertices are
+		connected by exactly one path, or equivalently a connected
+		acyclic undirected graph. Tree represents the nodes connected
+		by edges. It is a non-linear data structure. A poly-tree is
+		simply a directed acyclic graph whose underlying undirected
+		graph is a tree. The model proposed in this package is the same
+		as an HMM but where the states are linked via a polytree
+		structure rather than a simple path.
+	</longdescription>
+</pkgmetadata>
