@@ -2,15 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Improper Bagging Survival Tree // Fit a bagging survival tree on
-		a mixture of population (susceptible and nonsusceptible) using
-		either a pseudo R2 criterion or an adjusted Logrank criterion.
-		The predictor is evaluated using the Out Of Bag Integrated
-		Brier Score (IBS) and several scores of importance are computed
-		for variable selection. The thresholds values for variable
-		selection are computed using a nonparametric permutation test.
-		See 'Cyprien Mbogning' and 'Philippe Broet'
-		(2016)doi:10.1186/s12859-016-1090-x for an overview about the
-		methods implemented in this package.
+		Improper Bagging Survival Tree // Fit a full or subsampling
+		bagging survival tree on a mixture of population (susceptible
+		and nonsusceptible) using either a pseudo R2 criterion or an
+		adjusted Logrank criterion. The predictor is evaluated using
+		the Out Of Bag Integrated Brier Score (IBS) and several scores
+		of importance are computed for variable selection. The
+		thresholds values for variable selection are computed using a
+		nonparametric permutation test. See 'Cyprien Mbogning' and
+		'Philippe Broet' (2016)doi:10.1186/s12859-016-1090-x for an
+		overview about the methods implemented in this package.
 	</longdescription>
 </pkgmetadata>

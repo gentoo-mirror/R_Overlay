@@ -2,8 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Send Email Using R // Package contains a simple SMTP client which
-		provides a portable solution for sending email, including
-		attachment, from within R.
+		Send Email Using R // Package contains a simple SMTP client with
+		minimal dependencies which provides a portable solution for
+		sending email, including file attachments and inline html
+		reports, from within R. SMTP Authentication and SSL/STARTTLS is
+		implemented using curl.
 	</longdescription>
 </pkgmetadata>
