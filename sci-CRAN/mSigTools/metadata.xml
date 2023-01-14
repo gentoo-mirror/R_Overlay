@@ -3,14 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Mutational Signature Analysis Tools // Utility functions for
-		mutational signature analysis. This package provides two groups
-		of functions. One is for dealing with mutational signature
-		"exposures" (i.e. the counts of mutations in a sample that are
-		due to each mutational signature). The other group of functions
-		is for matching two sets of mutational signatures. The match
-		minimizes the total distance between paired signatures by using
-		the "Hungarian algorithm" described in : Kuhn, H. W. (1955)
-		doi:10.1002/nav.3800020109. 'mSigTools' stands for mutational
-		Signature analysis Tools.
+		mutational signature analysis as described in Alexandrov, L. B.
+		(2020) doi:10.1038/s41586-020-1943-3. This package provides two
+		groups of functions. One is for dealing with mutational
+		signature "exposures" (i.e. the counts of mutations in a sample
+		that are due to each mutational signature). The other group of
+		functions is for matching or comparing sets of mutational
+		signatures. 'mSigTools' stands for mutational Signature
+		analysis Tools.
 	</longdescription>
 </pkgmetadata>
