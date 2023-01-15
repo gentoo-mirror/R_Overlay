@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R API Datetime // Access to the C-level R date and datetime code
-		is provided for C-level API use by other packages via
-		registration of native functions. Client packages simply
-		include a single header 'RApiDatetime.h' provided by this
-		package, and also 'import' it.  The R Core group is the
+		R API for 'Date' and 'Datetime' // Access to the C-level R date
+		and 'datetime' code is provided for C-level API use by other
+		packages via registration of native functions. Client packages
+		simply include a single header 'RApiDatetime.h' provided by
+		this package, and also 'import' it.  The R Core group is the
 		original author of the code made available with slight
 		modifications by this package.
 	</longdescription>
