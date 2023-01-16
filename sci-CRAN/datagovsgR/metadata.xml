@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Calls Real Time APIs from Data Gov Singapore // A wrapper for the
-		Data Gov Singapore developer resources endpoints developer
-		tools, which provide real time and historical information,
-		ranging from carpark availability to weather forecasts. This
-		tools makes the API calls for a given date and time, before
-		returning the relevant information in a data frame. Relevant
-		information can be found here https://data.gov.sg/developer.
+		Call Real Time APIs from Data Gov Singapore // A wrapper for the
+		Data.gov.sg developer resources, which provide real time and
+		historical information, ranging from carpark availability to
+		weather forecasts. The functions makes the API calls for a
+		given date and time, before returning the relevant information
+		in a data frame. All APIs are supported, less the IPOS one
+		which is not returning any data. Relevant information can be
+		found here https://data.gov.sg/developer.
 	</longdescription>
 </pkgmetadata>
