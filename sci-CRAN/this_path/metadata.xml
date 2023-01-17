@@ -2,13 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Get Executing Script's Path, from 'RStudio', 'Rgui', 'VSCode',
-		'Rscript' (Shells Including Windows Command-Line / / Unix
-		Terminal), and 'source' // Determine the full path of the
-		executing script. Works when running a line or selection from a
-		script in 'RStudio', 'Rgui', and 'VSCode', when using 'source',
-		'sys.source', 'debugSource' in 'RStudio',
-		'testthat::source_file', and 'knitr::knit', and when running
-		from a shell.
+		Get Executing Script's Path, from 'Rgui', 'RStudio', 'VSCode',
+		'source()', and 'Rscript' (Shells Including Windows Command
+		Line / / Unix Terminal) // Determine the path of the executing
+		script. Works when running a line or selection in 'Rgui',
+		'RStudio', and 'VSCode', when using 'source()', 'sys.source()',
+		'debugSource()' in 'RStudio', 'testthat::source_file()', and
+		'knitr::knit()', and when running from a shell.
 	</longdescription>
 </pkgmetadata>
