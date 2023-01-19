@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringi sci-CRAN/waiter sci-CRAN/rstudioapi sci-CRAN/digest sci-CRAN/shiny sci-CRAN/tibble >=sci-CRAN/sessioninfo-1.2 >=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/miniUI sci-CRAN/stringr sci-CRAN/lintr dev-lang/R:=
+DESCRIPTION=A Logging Utility Focus on Clini... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_haven r_suggests_here r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tplyr r_suggests_withr byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-CRAN/stringi sci-CRAN/waiter sci-CRAN/rstudioapi sci-CRAN/digest sci-CRAN/shiny sci-CRAN/tibble >=sci-CRAN/sessioninfo-1.2 >=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/miniUI sci-CRAN/stringr sci-CRAN/lintr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_haven? ( sci-CRAN/haven ) r_suggests_here? ( sci-CRAN/here ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tplyr? ( sci-CRAN/Tplyr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/logrx_0.2.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=b36933729dccccbe1d7794ac95edf91d
