@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parameterized Simulation // This function obtains a Random Number
+		Generator (RNG) or collection of RNGs that replicate the
+		required parameter(s) of a distribution for a time series of
+		data. Consider the case of reproducing a time series data set
+		of size 20 that uses an autoregressive (AR) model with phi =
+		0.8 and standard deviation equal to 1. When one checks the
+		arima.sin() function's estimated parameters, it's possible that
+		after a single trial or a few more, one won't find the precise
+		parameters. This enables one to look for the ideal RNG setting
+		for a simulation that will accurately duplicate the desired
+		parameters.
+	</longdescription>
+</pkgmetadata>
