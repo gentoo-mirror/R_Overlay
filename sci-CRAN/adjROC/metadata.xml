@@ -3,10 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Computing Sensitivity at a Fix Value of Specificity and Vice
-		Versa // For a binary classification the adjusted sensitivity
-		and specificity are measured for a given fixed threshold. If
-		the threshold for either sensitivity or specificity is not
-		given, the crossing point between the sensitivity and
-		specificity curves are returned.
+		Versa as Well as Bootstrap Metrics for ROC Curves // For a
+		binary classification the adjusted sensitivity and specificity
+		are measured for a given fixed threshold. If the threshold for
+		either sensitivity or specificity is not given, the crossing
+		point between the sensitivity and specificity curves are
+		returned. For bootstrap procedures, mean and CI bootstrap
+		values of sensitivity, specificity, crossing point between
+		specificity and specificity as well as AUC and AUCPR can be
+		evaluated.
 	</longdescription>
 </pkgmetadata>

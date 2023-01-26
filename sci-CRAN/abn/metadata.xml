@@ -9,25 +9,26 @@
 		variables. An additive Bayesian network model consists of a
 		form of a DAG where each node comprises a generalized linear
 		model, GLM. Additive Bayesian network models are equivalent to
-		Bayesian multivariate regression using graphical modelling,
-		they generalises the usual multivariable regression, GLM, to
+		Bayesian multivariate regression using graphical modeling; they
+		generalises the usual multivariable regression, GLM, to
 		multiple dependent variables. 'abn' provides routines to help
 		determine optimal Bayesian network models for a given data set,
 		where these models are used to identify statistical
 		dependencies in messy, complex data. The additive formulation
-		of these models is equivalent to multivariate generalised
-		linear modelling (including mixed models with iid random
+		of these models is equivalent to multivariate generalized
+		linear modeling (including mixed models with iid random
 		effects). The usual term to describe this model selection
 		process is structure discovery. The core functionality is
 		concerned with model selection - determining the most robust
-		empirical model of data from interdependent variables. Laplace
-		approximations are used to estimate goodness of fit metrics and
-		model parameters, and wrappers are also included to the INLA
-		package which can be obtained from https://www.r-inla.org. The
+		empirical data model from interdependent variables. Laplace
+		approximations are used to estimate the goodness of fit metrics
+		and model parameters, and wrappers are included for the INLA
+		package, which can be obtained from https://www.r-inla.org. The
 		computing library JAGS https://mcmc-jags.sourceforge.io is used
-		to simulate 'abn'-like data. A comprehensive set of documented
-		case studies, numerical accuracy/quality assurance exercises,
-		and additional documentation are available from the 'abn'
-		website http://r-bayesian-networks.org.
+		to simulate 'abn'-like data. Detailed documentation, including
+		documented case studies, numerical accuracy/quality assurance
+		exercises, etc., is given in Kratzer et al. (2023)
+		doi:10.18637/jss.v105.i08 and on the website http://r-bayesian-
+		networks.org.
 	</longdescription>
 </pkgmetadata>
