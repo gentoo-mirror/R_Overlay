@@ -2,15 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Estimate Brain Networks Using Empirical Population Priors //
-		Functions implementing the template ICA model proposed in Mejia
-		et al. (2019) doi:10.1080/01621459.2019.1679638 and the spatial
-		template ICA model proposed in proposed in Mejia et al.
-		(2020+). For both models, subject-level brain networks are
-		estimated as deviations from known population-level networks,
-		which can be estimated using standard ICA algorithms. Both
-		models employ an expectation-maximization algorithm for
+		Estimate Brain Networks and Connectivity with ICA and Empirical
+		Priors // Implements the template ICA (independent components
+		analysis) model proposed in Mejia et al. (2020)
+		doi:10.1080/01621459.2019.1679638 and the spatial template ICA
+		model proposed in proposed in Mejia et al. (2022)
+		doi:10.1080/10618600.2022.2104289. Both models estimate
+		subject-level brain as deviations from known population-level
+		networks, which are estimated using standard ICA algorithms.
+		Both models employ an expectation-maximization algorithm for
 		estimation of the latent brain networks and unknown model
-		parameters.
+		parameters. Includes direct support for 'CIFTI', 'GIFTI', and
+		'NIFTI' neuroimaging file formats.
 	</longdescription>
 </pkgmetadata>
