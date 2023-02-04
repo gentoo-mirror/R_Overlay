@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Extended Changes-in-Changes // Extends the Changes-in-Changes
+		model a la Athey and Imbens (2006)
+		doi:10.1111/j.1468-0262.2006.00668.x to multiple cohorts and
+		time periods, which generalizes difference-in-differences
+		estimation techniques to the entire distribution. Computes
+		quantile treatment effects for every possible two-by-two
+		combination in ecic(). Then, aggregating all bootstrap runs
+		adds the standard errors in summary_ecic(). Results can be
+		plotted with plot_ecic() aggregated over all cohort-group
+		combinations or in an event-study style for either individual
+		periods or individual quantiles.
+	</longdescription>
+</pkgmetadata>
