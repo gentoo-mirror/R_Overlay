@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Doubly Robust Inference for Cox Marginal Structural Model with
+		Informative Censoring // Doubly robust estimation and inference
+		of log hazard ratio under the Cox marginal structural model
+		with informative censoring. An augmented inverse probability
+		weighted estimator that involves 3 working models, one for
+		conditional failure time T, one for conditional censoring time
+		C and one for propensity score. Both models for T and C can
+		depend on both a binary treatment A and additional baseline
+		covariates Z, while the propensity score model only depends on
+		Z. With the help of cross-fitting techniques, achieves the
+		rate-doubly robust property that allows the use of most machine
+		learning or non-parametric methods for all 3 working models,
+		which are not permitted in classic inverse probability
+		weighting or doubly robust estimators. Reference: Robins
+		Finkelstein (2000)doi:10.1111/j.0006-341x.2000.00779.x; Hernan
+		et al (2001)doi:10.1198/016214501753168154.
+	</longdescription>
+</pkgmetadata>
