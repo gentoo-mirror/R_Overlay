@@ -11,11 +11,15 @@
 		sequential constraint is typically required in clustering data
 		streams or items with time stamps such as video frames, GPS
 		signals of a vehicle, movement data of a person, e-pen data,
-		etc. The algorithm represents an extension of Ckmeans.1d.dp to
-		multiple dimensional spaces. Similarly to the one-dimensional
-		case, the algorithm guarantees optimality and repeatability of
-		clustering. Method clustering.sc.dp can find the optimal
-		clustering if the number of clusters is known. Otherwise,
-		methods findwithinss.sc.dp and backtracking.sc.dp can be used.
+		etc. The algorithm represents an extension of 'Ckmeans.1d.dp'
+		to multiple dimensional spaces. Similarly to the one-
+		dimensional case, the algorithm guarantees optimality and
+		repeatability of clustering. Method clustering.sc.dp() can find
+		the optimal clustering if the number of clusters is known.
+		Otherwise, methods findwithinss.sc.dp() and
+		backtracking.sc.dp() can be used. See Szkaliczki, T. (2016)
+		"clustering.sc.dp: Optimal Clustering with Sequential
+		Constraint by Using Dynamic Programming" doi:
+		10.32614/RJ-2016-022 for more information.
 	</longdescription>
 </pkgmetadata>
