@@ -3,14 +3,18 @@
 <pkgmetadata>
 	<longdescription>
 		Projection Predictive Feature Selection // Performs projection
-		predictive feature selection for generalized linear and
-		additive models as well as for generalized linear and additive
-		multilevel models (see Piironen, Paasiniemi and Vehtari, 2020,
-		doi:10.1214/20-EJS1711; Catalina, Brkner and Vehtari, 2022,
-		https://proceedings.mlr.press/v151/catalina22a.html). The
-		package is compatible with the 'rstanarm' and 'brms' packages,
-		but other reference models can also be used. See the
-		documentation as well as the package vignette for more
+		predictive feature selection for generalized linear models
+		(Piironen, Paasiniemi, and Vehtari, 2020,
+		doi:10.1214/20-EJS1711) with or without multilevel or additive
+		terms (Catalina, Brkner, and Vehtari, 2022,
+		https://proceedings.mlr.press/v151/catalina22a.html), for some
+		ordinal and nominal regression models (Weber and Vehtari, 2023,
+		arXiv:2301.01660), and for many other regression models (using
+		the latent projection by Catalina, Brkner, and Vehtari, 2021,
+		arXiv:2109.04702, which can also be applied to most of the
+		former models). The package is compatible with the 'rstanarm'
+		and 'brms' packages, but other reference models can also be
+		used. See the vignettes and the documentation for more
 		information and examples.
 	</longdescription>
 </pkgmetadata>
