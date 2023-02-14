@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Decomposes a Level Shifted Time Series // Explains the behavior
+		of a time series by decomposing it into its trend, seasonality
+		and residuals. It is built to perform very well in the presence
+		of significant level shifts. It is designed to play well with
+		any breakpoint algorithm and any smoothing algorithm. Currently
+		defaults to 'lowess' for smoothing and 'strucchange' for
+		breakpoint identification. The package is useful in areas such
+		as trend analysis, time series decomposition, breakpoint
+		identification and anomaly detection.
+	</longdescription>
+</pkgmetadata>
