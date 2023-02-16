@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/pacman sci-CRAN/segmented virtual/survival sci-CRAN/rms >=dev-lang/R-4.2.0 sci-CRAN/ggplot2 sci-CRAN/survminer sci-CRAN/dplyr sci-CRAN/patchwork sci-CRAN/Cairo dev-lang/R:=
+DESCRIPTION=Visualization of Restricted Cubic Splines
+EAPI=7
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/pacman sci-CRAN/segmented virtual/survival sci-CRAN/rms >=dev-lang/R-4.2.0 sci-CRAN/ggplot2 sci-CRAN/survminer sci-CRAN/dplyr sci-CRAN/patchwork sci-CRAN/Cairo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rcssci_0.4.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=73fa369ebcea21ac86f6a91e3ac39ac1

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculate Gross Biogeochemical Flux Rates from Isotope Pool
+		Dilution Data // Pool dilution is a isotope tracer technique
+		wherein a biogeochemical pool is artifically enriched with its
+		heavy isotopologue and the gross productive and consumptive
+		fluxes of that pool are quantified by the change in pool size
+		and isotopic composition over time. This package calculates
+		gross production and consumption rates from closed-system
+		isotopic pool dilution time series data. Pool size
+		concentrations and heavy isotope (e.g., 15N) content are
+		measured over time and the model optimizes production rate (P)
+		and the first order rate constant (k) by minimizing error in
+		the model-predicted total pool size, as well as the isotopic
+		signature. The model optimizes rates by weighting information
+		against the signal:noise ratio of concentration and heavy-
+		isotope signatures using measurement precision as well as the
+		magnitude of change over time. The calculations used here are
+		based on von Fischer and Hedin (2002) doi:10.1029/2001GB001448
+		with some modifications.
+	</longdescription>
+</pkgmetadata>
