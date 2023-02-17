@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculates Bounds for the Selection Bias for Binary Treatment and
+		Outcome Variables // Computes bounds and sensitivity parameters
+		as part of sensitivity analysis for selection bias. Two bounds
+		are provided: the SV (Smith and VanderWeele) bound and the AF
+		(assumption-free) bound. The SV bound assumes an additional
+		dependence structure in form of a generalized M-structure
+		whereas the AF bound holds for general assumptions in the
+		potential outcomes framework. See Smith and VanderWeele (2019)
+		doi:10.1097/EDE.0000000000001032 and Zetterstrom and Waernbaum
+		(2022) doi:10.1515/em-2022-0108.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		L1-Penalized Multinomial Regression with Statistical Inference //
+		We aim for fitting a multinomial regression model with Lasso
+		penalty and doing statistical inference (calculating confidence
+		intervals of coefficients and p-values for individual
+		variables). It implements 1) the coordinate descent algorithm
+		to fit an l1-penalized multinomial regression model
+		(parameterized with a reference level); 2) the debiasing
+		approach to obtain the inference results, which is described in
+		Tian et al. (2023) arXiv:2302.02310.
+	</longdescription>
+</pkgmetadata>
