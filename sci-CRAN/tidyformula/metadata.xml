@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Build Formulas Using Tidy Selection Helpers // Provides the
+		function 'tidyformula()', which translates formulas containing
+		'tidyselect'-style selection helpers. It expands these helpers
+		by evaluating 'dplyr::select()' with the relevant selection
+		helper and a supplied data frame. The package contains methods
+		for traversing abstract syntax trees from Wickham, Hadley
+		(2019) doi:10.1201/9781351201315.
+	</longdescription>
+</pkgmetadata>

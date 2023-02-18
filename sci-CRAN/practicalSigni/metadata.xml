@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Practical Significance Ranking of Regressors // Consider a
+		possibly nonlinear nonparametric regression with p regressors.
+		We provide evaluations by 13 methods to rank regressors by
+		their practical significance or importance using various
+		methods, including machine learning tools. Comprehensive
+		methods are as follows. m6=Generalized partial correlation
+		coefficient or GPCC by Vinod
+		(2021)doi:10.1007/s10614-021-10190-x and Vinod
+		(2022)https://www.mdpi.com/1911-8074/15/1/32. m7= a
+		generalization of psychologists' effect size incorporating
+		nonlinearity and many variables. m8= local linear partial
+		(dy/dxi) using the 'np' package for kernel regressions. m9=
+		partial (dy/dxi) using the 'NNS' package. m10= importance
+		measure using the 'NNS' boost function. m11= Shapley Value
+		measure of importance (cooperative game theory). m12 and m13=
+		two versions of the random forest algorithm.
+	</longdescription>
+</pkgmetadata>
