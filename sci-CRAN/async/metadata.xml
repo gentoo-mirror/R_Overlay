@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Asynchronous Code Constructs: Generators, Yield, Async, Await //
+		Coroutines: Generators / Yield, Async / Await, and Streams //
 		Write sequential-looking code that pauses and resumes. gen()
 		creates a generator, an iterator that returns a value and
 		pauses each time it reaches a yield() call. async() creates a
@@ -10,6 +10,8 @@
 		resumes when information is available. These work similarly to
 		generator and async constructs from 'Python' or 'JavaScript'.
 		Objects produced are compatible with the 'iterators' and
-		'promises' packages.
+		'promises' packages. Version 0.3 supports on.exit, single-step
+		debugging, stream() for making asynchronous iterators, and
+		delimited goto() in switch() calls.
 	</longdescription>
 </pkgmetadata>
