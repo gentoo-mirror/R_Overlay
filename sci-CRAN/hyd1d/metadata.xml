@@ -2,17 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Algorithms to Compute 1d Water Levels along the German Federal
-		Waterways Elbe and Rhine // An S4 class and several functions
-		which utilize internally stored datasets and gauging data
-		enable 1d water level interpolation. The S4 class
-		(WaterLevelDataFrame) structures the computation and
-		visualisation of 1d water level information along the German
-		federal waterways Elbe and Rhine. 'hyd1d' delivers 1d water
-		level data - extracted from the 'FLYS' database - and validated
-		gauging data - extracted from the hydrological database
-		'HyDaBa' - package-internally. For computations near real time
-		gauging data are queried externally from the 'PEGELONLINE REST
-		API' https://pegelonline.wsv.de/webservice/dokuRestapi.
+		1d Water Level Interpolation along the Rivers Elbe and Rhine //
+		An S4 class and several functions which utilize internally
+		stored datasets and gauging data enable 1d water level
+		interpolation. The S4 class (WaterLevelDataFrame) structures
+		the computation and visualisation of 1d water level information
+		along the German federal waterways Elbe and Rhine. 'hyd1d'
+		delivers 1d water level data - extracted from the 'FLYS'
+		database - and validated gauging data - extracted from the
+		hydrological database 'HyDaBa' - package-internally. For
+		computations near real time gauging data are queried externally
+		from the 'PEGELONLINE REST API'
+		https://pegelonline.wsv.de/webservice/dokuRestapi.
 	</longdescription>
 </pkgmetadata>
