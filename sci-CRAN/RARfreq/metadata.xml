@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Response Adaptive Randomization with 'Frequentist' Approach //
+		Provides functions and command-line user interface to generate
+		allocation sequence by response-adaptive randomization for
+		clinical trials. The package currently supports two response-
+		adaptive randomization procedures, Doubly Adaptive Biased Coin
+		Design ('DBCD') and Sequential Estimation-adjusted Urn Model
+		('SEU'), for two endpoints, binary and normal. One-sided
+		proportion (or mean) difference and Chi-square (or 'ANOVA')
+		hypothesis testing methods are also available in the package to
+		facilitate the inference for treatment effect under different
+		sample sizes and the inference for sample size under different
+		treatment effects. Additionally, the package provides
+		comprehensive and efficient tools to allow one to evaluate and
+		compare the performance of randomization procedures and tests
+		based on various criteria. Five allocation functions for 'DBCD'
+		and six addition rule functions for 'SEU' are implemented to
+		target allocations such as 'Neyman', 'Rosenberger' and 'Urn'
+		allocations.
+	</longdescription>
+</pkgmetadata>

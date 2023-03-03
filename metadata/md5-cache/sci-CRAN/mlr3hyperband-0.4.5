@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/mlr3tuning-0.13.0 sci-CRAN/data_table >=sci-CRAN/mlr3-0.13.1 sci-CRAN/R6 >=sci-CRAN/bbotk-0.7.0 >=sci-CRAN/checkmate-1.9.4 >=dev-lang/R-3.1.0 sci-CRAN/lgr >=sci-CRAN/mlr3misc-0.10.0 >=sci-CRAN/paradox-0.9.0 dev-lang/R:=
+DESCRIPTION=Hyperband for mlr3
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_emoa r_suggests_mlr3learners r_suggests_mlr3pipelines r_suggests_rpart r_suggests_testthat r_suggests_xgboost byte-compile
+KEYWORDS=~amd64
+LICENSE=LGPL-3
+RDEPEND=>=sci-CRAN/mlr3tuning-0.13.0 sci-CRAN/data_table >=sci-CRAN/mlr3-0.13.1 sci-CRAN/R6 >=sci-CRAN/bbotk-0.7.0 >=sci-CRAN/checkmate-1.9.4 >=dev-lang/R-3.1.0 sci-CRAN/lgr >=sci-CRAN/mlr3misc-0.10.0 >=sci-CRAN/paradox-0.9.0 r_suggests_emoa? ( sci-CRAN/emoa ) r_suggests_mlr3learners? ( >=sci-CRAN/mlr3learners-0.5.2 ) r_suggests_mlr3pipelines? ( sci-CRAN/mlr3pipelines ) r_suggests_rpart? ( virtual/rpart ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlr3hyperband_0.4.5.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=75586e99bdba3d5adc65dc7f28365330
