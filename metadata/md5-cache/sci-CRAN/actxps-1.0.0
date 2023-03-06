@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 sci-CRAN/lubridate >=sci-CRAN/dplyr-1.1.0 sci-CRAN/ggplot2 sci-CRAN/tibble sci-CRAN/recipes sci-CRAN/vctrs sci-CRAN/rlang sci-CRAN/glue sci-CRAN/purrr sci-CRAN/scales sci-CRAN/gt sci-CRAN/paletteer sci-CRAN/generics sci-CRAN/readr sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Create Actuarial Experience Stud... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_bslib r_suggests_knitr r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat r_suggests_thematic byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1 sci-CRAN/lubridate >=sci-CRAN/dplyr-1.1.0 sci-CRAN/ggplot2 sci-CRAN/tibble sci-CRAN/recipes sci-CRAN/vctrs sci-CRAN/rlang sci-CRAN/glue sci-CRAN/purrr sci-CRAN/scales sci-CRAN/gt sci-CRAN/paletteer sci-CRAN/generics sci-CRAN/readr sci-CRAN/tidyr r_suggests_bslib? ( sci-CRAN/bslib ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( >=sci-CRAN/shiny-1.6 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_thematic? ( sci-CRAN/thematic ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/actxps_1.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=eed181df13a39f612729691d25fd0a27
