@@ -6,13 +6,19 @@
 		Bases // Splines are efficiently represented through their
 		Taylor expansion at the knots. The representation accounts for
 		the support sets and is thus suitable for sparse functional
-		data. The B-splines and orthogonal bases of splines that reside
-		on small total support are implemented. The orthogonal bases
-		and are utilized for functional data analysis. Random spline
-		generator is implemented as well as all fundamental algebraic
-		and calculus operations on splines. The optimal, in the least
-		square sense, functional fit to data consisting of sampled
+		data. Two cases of boundary conditions are considered: zero-
+		boundary or periodic-boundary for all derivatives except the
+		last. The periodical splines are represented graphically using
+		polar coordinates. The B-splines and orthogonal bases of
+		splines that reside on small total support are implemented. The
+		orthogonal bases are referred to as 'splinets' and are utilized
+		for functional data analysis. Random spline generator is
+		implemented as well as  all fundamental algebraic and calculus
+		operations on splines.  The optimal, in the least square sense,
+		functional fit by 'splinets' to data consisting of sampled
 		values of functions as well as splines build over another set
-		of knots is obtained. Podgrski, K. (2021)  arXiv:2102.00733.
+		of knots is obtained and used for functional data analysis.
+		arXiv:2102.00733, doi:10.1016/j.cam.2022.114444,
+		arXiv:2302.07552.
 	</longdescription>
 </pkgmetadata>
