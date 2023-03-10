@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Additive Regression Kernels // Bayesian Additive
+		Regression Kernels (BARK) provides an implementation for non-
+		parametric function estimation using Levy Random Field priors
+		for functions that may be represented as a sum of additive
+		multivariate kernels.  Kernels are located at every data point
+		as in Support Vector Machines, however, coefficients may be
+		heavily shrunk to zero under the Cauchy process prior, or even,
+		set to zero.  The number of active features is controlled by
+		priors on precision parameters within the kernels, permitting
+		feature selection. For more details see Ouyang, Z (2008)
+		"Bayesian Additive Regression Kernels", Duke University. PhD
+		dissertation, Chapter 3.
+	</longdescription>
+</pkgmetadata>

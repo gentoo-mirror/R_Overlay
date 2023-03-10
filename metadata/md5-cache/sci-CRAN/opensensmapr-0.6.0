@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/lazyeval sci-CRAN/httr sci-CRAN/dplyr sci-CRAN/readr sci-CRAN/digest sci-CRAN/purrr sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Client for the Data API of openSenseMap.org
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_jsonlite r_suggests_knitr r_suggests_lintr r_suggests_lubridate r_suggests_maps r_suggests_maptools r_suggests_rgeos r_suggests_rmarkdown r_suggests_sf r_suggests_testthat r_suggests_tibble r_suggests_units r_suggests_zoo byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/lazyeval sci-CRAN/httr sci-CRAN/dplyr sci-CRAN/readr sci-CRAN/digest sci-CRAN/purrr sci-CRAN/magrittr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_maptools? ( sci-CRAN/maptools ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_units? ( sci-CRAN/units ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/opensensmapr_0.6.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=e997ac80c66d71e0ace6c7431fdb5f85
