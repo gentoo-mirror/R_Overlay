@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Hmisc sci-CRAN/shiny sci-CRAN/data_table virtual/survival sci-CRAN/km_ci >=dev-lang/R-3.4.0 sci-CRAN/pomp sci-CRAN/dplyr sci-CRAN/r2d3 sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Dose Titration Algorithm Tuning
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_lattice r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_tidyr r_suggests_widgetframe byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-CRAN/Hmisc sci-CRAN/shiny sci-CRAN/data_table virtual/survival sci-CRAN/km_ci >=dev-lang/R-3.4.0 sci-CRAN/pomp sci-CRAN/dplyr sci-CRAN/r2d3 sci-CRAN/jsonlite r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice virtual/lattice ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_widgetframe? ( sci-CRAN/widgetframe ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DTAT_0.3-5.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=0607e18d4122e1d957c32b3a763b22b8
