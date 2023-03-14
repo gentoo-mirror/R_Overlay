@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variance Identification in Sparse Factor Analysis // This is an
+		implementation of the algorithm described in Section 3 of
+		Hosszejni and Frhwirth-Schnatter (2022)
+		doi:10.48550/arXiv.2211.00671. The algorithm is used to verify
+		that the counting rule CR(r,1) holds for the sparsity pattern
+		of the transpose of a factor loading matrix. As detailed in
+		Section 2 of the same paper, if CR(r,1) holds, then the
+		idiosyncratic variances are generically identified. If CR(r,1)
+		does not hold, then we do not know whether the idiosyncratic
+		variances are identified or not.
+	</longdescription>
+</pkgmetadata>
