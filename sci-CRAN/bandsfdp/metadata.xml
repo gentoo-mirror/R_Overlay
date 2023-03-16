@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Compute Upper Prediction Bounds on the FDP in Competition-Based
+		Setups // Implements functions that calculate upper prediction
+		bounds on the false discovery proportion (FDP) in the list of
+		discoveries returned by competition-based setups, implementing
+		Ebadi et al. (2022) arXiv:2302.11837. Such setups include
+		target-decoy competition (TDC) in computational mass
+		spectrometry and the knockoff construction in linear regression
+		(note this package typically uses the terminology of TDC).
+		Included is the standardized (TDC-SB) and uniform (TDC-UB)
+		bound on TDC's FDP, and the simultaneous standardized and
+		uniform bands. Requires pre-computed Monte Carlo statistics
+		available at https://github.com/uni-Arya/fdpbandsdata. This
+		data can be downloaded by running the command
+		'devtools::install_github("uni-Arya/fdpbandsdata")' in R and
+		restarting R after installation. The size of this data is
+		roughly 81Mb.
+	</longdescription>
+</pkgmetadata>
