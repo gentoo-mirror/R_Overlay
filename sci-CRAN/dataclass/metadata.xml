@@ -3,10 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Easily Create Structured Lists or Data Frames with Input
-		Validation // Easily define templated lists and data frames
-		with an associated validator function for each element. This
-		could be considered a very-minimal S7-like standard aimed at
-		validating data frames and lists; two data structures the
-		majority of R programmers know well.
+		Validation // Easily define templates for lists and data frames
+		that validate each element. Specify the expected type (i.e.,
+		character, numeric, etc), expected length, minimum and maximum
+		values, allowable values, and more for each element in your
+		data. Decide whether violations of these expectations should
+		throw an error or a warning. This package is useful for
+		validating data within R processes which pull from dynamic data
+		sources such as databases and web APIs to provide an extra
+		layer of validation around input and output data.
 	</longdescription>
 </pkgmetadata>

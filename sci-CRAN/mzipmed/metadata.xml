@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Mediation using MZIP Model // We implement functions allowing for
+		mediation analysis to be performed in cases where the mediator
+		is a count variable with excess zeroes. First a function is
+		provided allowing users to perform analysis for zero-inflated
+		count variables using the marginalized zero-inflated Poisson
+		(MZIP) model (Long et al. 2014 DOI:10.1002/sim.6293). Using the
+		counterfactual approach to mediation and MZIP we can obtain
+		natural direct and indirect effects for the overall population.
+		Using delta method processes variance estimation can be
+		performed instantaneously. Alternatively, bootstrap standard
+		errors can be used. We also provide functions for cases with
+		exposure-mediator interactions with four-way decomposition of
+		total effect.
+	</longdescription>
+</pkgmetadata>

@@ -13,6 +13,8 @@
 		mixed-effects models are already available in R, WeMix is
 		unique in implementing methods for mixed models using weights
 		at multiple levels. Both linear and logit models are supported.
-		Models may have up to three levels.
+		Models may have up to three levels. Random effects are
+		estimated using the PIRLS algorithm from 'lme4pureR' (Walker
+		and Bates (2013) https://github.com/lme4/lme4pureR).
 	</longdescription>
 </pkgmetadata>
