@@ -2,11 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Interface to 'Python' Package 'stepmix' // This is an interface
-		for the 'python' package 'stepmix'. This is a package multi-
-		step estimation of latent class models with measurement and
-		structural components. The package can also be used to fit
-		mixture models with various observed random variables. Largely
-		based on Bakk  Kuha (2018) doi:10.1007/s11336-017-9592-7.
+		Interface to 'Python' Package 'StepMix' // This is an interface
+		for the 'Python' package 'StepMix'. It is a 'Python' package
+		following the scikit-learn API for model-based clustering and
+		generalized mixture modeling (latent class/profile analysis) of
+		continuous and categorical data. 'StepMix' handles missing
+		values through Full Information Maximum Likelihood (FIML) and
+		provides multiple stepwise Expectation-Maximization (EM)
+		estimation methods based on pseudolikelihood theory. Additional
+		features include support for covariates and distal outcomes,
+		various simulation utilities, and non-parametric bootstrapping,
+		which allows inference in semi-supervised and unsupervised
+		settings.
 	</longdescription>
 </pkgmetadata>

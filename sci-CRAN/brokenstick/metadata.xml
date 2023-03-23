@@ -12,8 +12,8 @@
 		control of the user. A well-fitting broken stick model
 		effectively transforms individual measurements made at
 		irregular times into regular trajectories with common
-		observation times. Specification of the model requires just
-		three variables: time, measurement and subject. The model is a
+		observation times. Specification of the model requires three
+		variables: time, measurement and subject. The model is a
 		special case of the linear mixed model, with time as a linear
 		B-spline and subject as the grouping factor. The main
 		assumptions are: subjects are exchangeable, trajectories
@@ -29,8 +29,8 @@
 		irregularly observed curves to a common time grid, to create
 		synthetic curves at a user-specified set of breakpoints, to
 		estimate the time-to-time correlation matrix and to predict
-		future observations. For additional documentation on
-		background, methodology and applications see https://growthchar
-		ts.org/brokenstick/articles/manual/manual.html.
+		future observations. See doi:10.18637/jss.v106.i07 for
+		additional documentation on background, methodology and
+		applications.
 	</longdescription>
 </pkgmetadata>

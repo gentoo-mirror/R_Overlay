@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/dcov sci-CRAN/bnlearn sci-CRAN/bigstatsr sci-CRAN/Rfast sci-CRAN/Rfast2 sci-CRAN/robustbase dev-lang/R:=
+DESCRIPTION=Bayesian Network Learning with t... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_bigreadr r_suggests_rgraphviz byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/dcov sci-CRAN/bnlearn sci-CRAN/bigstatsr sci-CRAN/Rfast sci-CRAN/Rfast2 sci-CRAN/robustbase r_suggests_bigreadr? ( sci-CRAN/bigreadr ) r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pchc_0.9.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=35c888510b77f8ea8ae163a1cd9030f7
