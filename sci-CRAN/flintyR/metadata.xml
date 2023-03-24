@@ -2,19 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Flexible and Interpretable Non-Parametric Tests of
-		Exchangeability // Given a multivariate dataset and some
-		knowledge about the dependencies between its features, it is
-		important to ensure the observations or individuals are
-		exchangeable before fitting a model to the data in order to
-		make inferences from it, or assigning randomized treatments in
-		order to estimate treatment effects. This package provides a
-		flexible non-parametric test of exchangeability, allowing the
-		user to specify the feature dependencies by hand. It can be
-		used directly to evaluate whether a sample is exchangeable, and
-		can also be piped into larger procedures that require
-		exchangeable samples as outputs (e.g., clustering or community
-		detection). See Aw, Spence and Song (2021+) for the
-		accompanying paper.
+		Simple and Flexible Tests of Sample Exchangeability // Given a
+		multivariate dataset and some knowledge about the dependencies
+		between its features, it is customary to fit a statistical
+		model to the features to infer parameters of interest. Such a
+		procedure implicitly assumes that the sample is exchangeable.
+		This package provides a flexible non-parametric test of this
+		exchangeability assumption, allowing the user to specify the
+		feature dependencies by hand as long as features can be grouped
+		into disjoint independent sets. This package also allows users
+		to test a dual hypothesis, which is, given that the sample is
+		exchangeable, does a proposed grouping of the features into
+		disjoint sets also produce statistically independent sets of
+		features? See Aw, Spence and Song (2023) for the accompanying
+		paper.
 	</longdescription>
 </pkgmetadata>
