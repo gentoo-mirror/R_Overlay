@@ -2,9 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Universal Foreach Parallel Adapter using the Future API of the
-		'future' Package // Provides a '%dopar%' adapter such that any
-		type of futures can be used as backends for the 'foreach'
-		framework.
+		Use Foreach to Parallelize via the Future Framework // The
+		'future' package provides a unifying parallelization framework
+		for R that supports many parallel and distributed backends. The
+		'foreach' package provides a powerful API for iterating over an
+		R expression in parallel. The 'doFuture' package brings the
+		best of the two together. There are two alternative ways to use
+		this package. The first is the traditional 'foreach' approach
+		by registering the 'foreach' adapter 'registerDoFuture()' and
+		so that 'y - foreach(...) %dopar% { ... }' runs in parallelizes
+		with the 'future' framework. The other alternative is to use 'y
+		- foreach(...) %dofuture% { ... }', which does not require
+		using 'registerDoFuture()' and has many advantages over
+		'%dopar%'.
 	</longdescription>
 </pkgmetadata>
