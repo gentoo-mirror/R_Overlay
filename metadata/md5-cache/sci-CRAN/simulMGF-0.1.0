@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Simulate SNP Matrix, Phenotype a... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_spelling byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/simulMGF_0.1.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=a003e06a7c38bc45ed5cdf934722c8e3
