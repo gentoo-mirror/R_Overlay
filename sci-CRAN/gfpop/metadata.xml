@@ -17,6 +17,10 @@
 		Data is modeled by a cost with possible use of a robust loss,
 		biweight and Huber (see edge parameters K and a). These costs
 		should have a quadratic, log-linear or a log-log
-		representation.
+		representation. This includes quadratic Gaussian cost (type =
+		'mean'), log-linear cost (type = 'variance', 'poisson' or
+		'exp') and log-log cost (type = 'negbin'). More details in the
+		paper published in the Journal of Statistical Software:
+		doi:10.18637/jss.v106.i06.
 	</longdescription>
 </pkgmetadata>
