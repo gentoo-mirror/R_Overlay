@@ -3,13 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Flexible and Coherent Test/Estimation Procedure Based on
-		Restricted Mean Survival Times // Performs the procedure
-		proposed by Horiguchi et al. (2018) doi:10.1002/sim.7661. The
-		method specifies a set of truncation time points tau's for
-		calculating restricted mean survival times (RMST), performs
-		testing for equality, and estimates the difference in RMST
-		between two groups at the specified tau's. Multiplicity by
-		specifying several tau's is taken into account in this
-		procedure.
+		Restricted Mean Survival Times // Estimates the restricted mean
+		survival time (RMST) with the time window [0, tau], where tau
+		is adaptively selected from the procedure, proposed by
+		Horiguchi et al. (2018) doi:10.1002/sim.7661. It also estimates
+		the RMST with the time window [tau1, tau2], where tau1 is
+		adaptively selected from the procedure, proposed by Horiguchi
+		et al. (2023) doi:10.1002/sim.9662.
 	</longdescription>
 </pkgmetadata>
