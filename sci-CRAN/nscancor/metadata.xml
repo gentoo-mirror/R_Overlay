@@ -10,12 +10,12 @@
 		vectors. Multiple canonical variables are computed sequentially
 		using a generalized deflation scheme, where the additional
 		correlation not explained by previous variables is maximized.
-		'nscancor' is used to analyze paired data from two domains, and
-		has the same interface as the 'cancor' function from the
-		'stats' package (plus some extra parameters). 'mcancor' is
-		appropriate for analyzing data from three or more domains. See
-		http://sigg-iten.ch/learningbits/2014/01/20/canonical-
-		correlation-analysis-under-constraints/ and Sigg et al. (2007)
+		nscancor() is used to analyze paired data from two domains, and
+		has the same interface as cancor() from the 'stats' package
+		(plus some extra parameters). mcancor() is appropriate for
+		analyzing data from three or more domains. See https://sigg-
+		iten.ch/learningbits/2014/01/20/canonical-correlation-analysis-
+		under-constraints/ and Sigg et al. (2007)
 		doi:10.1109/MLSP.2007.4414315 for more details.
 	</longdescription>
 </pkgmetadata>
