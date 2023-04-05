@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Predictive Haplotyping Package // Used for predicting a
+		genotypes allelic state at a specific locus/QTL/gene. This is
+		accomplished by using both a genotype matrix and a separate
+		file which has categorizations about loci/QTL/genes of interest
+		for the individuals in the genotypic matrix. A training
+		population can be created from a panel of individuals who have
+		been previously screened for specific loci/QTL/genes, and this
+		previous screening could be summarized into a category. Using
+		the categorization of individuals which have been genotyped
+		using a genome wide marker platform, a model can be trained to
+		predict what category (haplotype) an individual belongs in
+		based on their genetic sequence in the region associated with
+		the locus/QTL/gene. These trained models can then be used to
+		predict the haplotype of a locus/QTL/gene for individuals which
+		have been genotyped with a genome wide platform yet not
+		genotyped for the specific locus/QTL/gene. This package is
+		based off work done by Winn et al 2021. For more specific
+		information on this method, refer to
+		doi:10.1007/s00122-022-04178-w.
+	</longdescription>
+</pkgmetadata>
