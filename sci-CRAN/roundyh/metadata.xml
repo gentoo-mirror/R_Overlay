@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Round Dataframe // A simple rounding function. The default
+		round() function in R uses the IEC 60559 standard and therefore
+		it rounds 0.5 to 0 and rounds -1.5 to -2.  The roundx()
+		function accounts for this and helps to round 0.5 up to 1.
+	</longdescription>
+</pkgmetadata>
