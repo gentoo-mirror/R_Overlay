@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/Rdpack sci-CRAN/sandwich sci-CRAN/maxLik sci-CRAN/Formula >=dev-lang/R-3.2.0 virtual/Matrix sci-CRAN/zoo >=sci-CRAN/collapse-1.8.9 virtual/nlme virtual/lattice sci-CRAN/lmtest dev-lang/R:=
+DESCRIPTION=Linear Models for Panel Data
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_aer r_suggests_car r_suggests_fixest r_suggests_knitr r_suggests_lfe r_suggests_pder r_suggests_rmarkdown r_suggests_statmod r_suggests_urca byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-2+
+RDEPEND=virtual/MASS sci-CRAN/Rdpack sci-CRAN/sandwich sci-CRAN/maxLik sci-CRAN/Formula >=dev-lang/R-3.2.0 virtual/Matrix sci-CRAN/zoo >=sci-CRAN/collapse-1.8.9 virtual/nlme virtual/lattice sci-CRAN/lmtest r_suggests_aer? ( sci-CRAN/AER ) r_suggests_car? ( sci-CRAN/car ) r_suggests_fixest? ( sci-CRAN/fixest ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lfe? ( sci-CRAN/lfe ) r_suggests_pder? ( sci-CRAN/pder ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_statmod? ( sci-CRAN/statmod ) r_suggests_urca? ( sci-CRAN/urca ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/plm_2.6-3.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=6d6dac207d6d8cccc2b1a1970b24dd08
