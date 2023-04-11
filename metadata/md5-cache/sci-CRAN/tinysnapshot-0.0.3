@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/diffobj >=sci-CRAN/tinytest-1.4.1 >=sci-CRAN/magick-2.7.4 dev-lang/R:=
+DESCRIPTION=Snapshots for Unit Tests using t... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_fontquiver r_suggests_ggplot2 r_suggests_svglite byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/diffobj >=sci-CRAN/tinytest-1.4.1 >=sci-CRAN/magick-2.7.4 r_suggests_fontquiver? ( sci-CRAN/fontquiver ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_svglite? ( sci-CRAN/svglite ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tinysnapshot_0.0.3.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=a72d35592cf3f0ff7e79a0ea0d9a2a6d
