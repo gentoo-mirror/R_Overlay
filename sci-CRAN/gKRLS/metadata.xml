@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generalized Kernel Regularized Least Squares // Kernel
+		regularized least squares, also known as kernel ridge
+		regression, is a flexible machine learning method. This package
+		implements this method by providing a smooth term for use with
+		'mgcv' and uses random sketching to facilitate scalable
+		estimation on large datasets. It provides additional functions
+		for calculating marginal effects after estimation and for use
+		with ensembles ('SuperLearning'), double/debiased machine
+		learning ('DoubleML'), and robust/clustered standard errors
+		('sandwich'). Chang and Goplerud (2023) arXiv:2209.14355
+		provide further details.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,42 @@
+# Copyright 1999-2023 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Multivariate Synthetic Control M... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/MSCMT_1.3.7.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_cmaes r_suggests_deoptim r_suggests_deoptimr
+	r_suggests_ga r_suggests_gensa r_suggests_hydropso r_suggests_kernlab
+	r_suggests_knitr r_suggests_nloptr r_suggests_nmof r_suggests_pso
+	r_suggests_reshape r_suggests_rgenoud r_suggests_rmarkdown
+	r_suggests_soma"
+R_SUGGESTS="
+	r_suggests_cmaes? ( sci-CRAN/cmaes )
+	r_suggests_deoptim? ( sci-CRAN/DEoptim )
+	r_suggests_deoptimr? ( sci-CRAN/DEoptimR )
+	r_suggests_ga? ( sci-CRAN/GA )
+	r_suggests_gensa? ( sci-CRAN/GenSA )
+	r_suggests_hydropso? ( sci-CRAN/hydroPSO )
+	r_suggests_kernlab? ( sci-CRAN/kernlab )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_nloptr? ( sci-CRAN/nloptr )
+	r_suggests_nmof? ( sci-CRAN/NMOF )
+	r_suggests_pso? ( sci-CRAN/pso )
+	r_suggests_reshape? ( sci-CRAN/reshape )
+	r_suggests_rgenoud? ( sci-CRAN/rgenoud )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_soma? ( sci-CRAN/soma )
+"
+DEPEND=">=dev-lang/R-3.2.0
+	sci-CRAN/lpSolve
+	sci-CRAN/lpSolveAPI
+	sci-CRAN/ggplot2
+	sci-mathematics/glpk
+	sci-CRAN/Rdpack
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
