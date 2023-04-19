@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Construct Nomogram for Competing Risk Models // Nomogram is
-		constructed to predict cumulative incidence rate, which is
-		calculated by adjusting for competing causes other than that of
-		interest. K-fold cross-validation function is implemented to
-		validate the performance. Competing risk version of concordance
-		index is calculated. Methods are as described in: Kattan MW,
-		Heller G, Brennan MF (2003) doi:10.1002/sim.1574.
+		Construct Nomograms for Competing Risks Regression Models //
+		Nomograms are constructed to predict the cumulative incidence
+		rate which is calculated after adjusting for competing causes
+		to the event of interest. K-fold cross-validation is
+		implemented to validate predictive accuracy using a competing-
+		risk version of the concordance index. Methods are as described
+		in: Kattan MW, Heller G, Brennan MF (2003)
+		doi:10.1002/sim.1574.
 	</longdescription>
 </pkgmetadata>

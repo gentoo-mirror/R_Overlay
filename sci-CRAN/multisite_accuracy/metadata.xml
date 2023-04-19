@@ -6,13 +6,14 @@
 		The effects of the site may severely bias the accuracy of a
 		multisite machine-learning model, even if the analysts removed
 		them when fitting the model in the 'training set' and applying
-		the model in the 'test set'. This simple R package estimates
-		the accuracy of a multisite machine-learning model unbiasedly,
-		as described in (Solanes et al., Psychiatry Research:
-		Neuroimaging 2021, 314:111313). It currently supports the
-		estimation of sensitivity, specificity, balanced accuracy (for
-		binary or multinomial variables), the area under the curve,
-		correlation, mean squarer error, and hazard ratio for binomial,
-		multinomial, gaussian, and survival (time-to-event) outcomes.
+		the model in the 'test set' (Solanes et al., Neuroimage 2023,
+		265:119800). This simple R package estimates the accuracy of a
+		multisite machine-learning model unbiasedly, as described in
+		(Solanes et al., Psychiatry Research: Neuroimaging 2021,
+		314:111313). It currently supports the estimation of
+		sensitivity, specificity, balanced accuracy (for binary or
+		multinomial variables), the area under the curve, correlation,
+		mean squarer error, and hazard ratio for binomial, multinomial,
+		gaussian, and survival (time-to-event) outcomes.
 	</longdescription>
 </pkgmetadata>

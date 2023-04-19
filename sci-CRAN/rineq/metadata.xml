@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Concentration Index and Decomposition for Health Inequalities //
+		Relative, generalized, and Erreygers corrected concentration
+		index; plot Lorenz curves; and decompose health inequalities
+		into contributing factors. The package currently works with
+		(generalized) linear models, survival models, complex survey
+		models, and marginal effects probit models. originally forked
+		by Brecht Devleesschauwer from the 'decomp' package  (no longer
+		on CRAN), rineq is now maintained by Kaspar Walter Meili.
+		Compared to the earlier 'rineq' version on 'github' by Brecht
+		Devleesschauwer (https://github.com/brechtdv/rineq), the
+		regression tree functionality has been removed. Improvements
+		compared to earlier versions include improved plotting of
+		decomposition and concentration, added functionality to
+		calculate the concentration index with different methods,
+		calculation of robust standard errors, and support for the
+		decomposition analysis using marginal effects probit regression
+		models. The development version is available at
+		https://github.com/kdevkdev/rineq.
+	</longdescription>
+</pkgmetadata>
