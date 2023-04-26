@@ -6,9 +6,10 @@
 		Multiple Sequences // Fit mixture of Markov chains of higher
 		orders from multiple sequences. It is also compatible with
 		ordinary 1-component, 1-order or single-sequence Markov chains.
-		In addition to the fit function, custom print() and predict()
-		functions are also provided
-		https://github.com/zhuxr11/markovmix#examples-of-fitting-
-		mixture-of-markov-chains.
+		Various utility functions are provided to derive transition
+		patterns, transition probabilities per component and component
+		priors. In addition, print(), predict() and component
+		extracting/replacing methods are also defined as a convention
+		of mixture models.
 	</longdescription>
 </pkgmetadata>

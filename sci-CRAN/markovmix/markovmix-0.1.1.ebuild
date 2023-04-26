@@ -1,0 +1,34 @@
+# Copyright 1999-2023 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Mixture of Markov Chains with Su... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/markovmix_0.1.1.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_bench r_suggests_covr r_suggests_ggplot2
+	r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_bench? ( >=sci-CRAN/bench-1.1.2 )
+	r_suggests_covr? ( sci-CRAN/covr )
+	r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.4.2 )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.7 )
+"
+DEPEND=">=sci-CRAN/dplyr-1.0.8
+	>=sci-CRAN/purrr-0.3.4
+	>=sci-CRAN/tidyr-1.2.0
+	>=sci-CRAN/forcats-1.0.0
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/pillar-1.9.0
+	sci-CRAN/Rcpp
+	>=sci-CRAN/rlang-1.1.0
+	>=sci-CRAN/tibble-3.1.6
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	${R_SUGGESTS-}
+"
