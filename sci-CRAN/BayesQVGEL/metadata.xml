@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Bayesian Quantile Variable Selection for G - E in Longitudinal
-		Studies // In longitudinal studies, the same subjects are
+		Bayesian Variable Selection for G - E in Longitudinal Quantile
+		Regression // In longitudinal studies, the same subjects are
 		measured repeatedly over time, leading to correlations among
 		the repeated measurements. Properly accounting for the intra-
 		cluster correlations in the presence of data heterogeneity and
@@ -23,6 +23,9 @@
 		Gibbs sampler has been developed to facilitate fast
 		computation. The Markov chain Monte Carlo algorithms of the
 		proposed and alternative methods are efficiently implemented in
-		'C++'.
+		'C++'. The development of this software package and the
+		associated statistical methods have been partially supported by
+		an Innovative Research Award from Johnson Cancer Research
+		Center, Kansas State University.
 	</longdescription>
 </pkgmetadata>
