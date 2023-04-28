@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Deferred List - A Read-Only List-Like Object with Deferred Access
+		// Implements the 'deflist' class, a read-only list-like object
+		that accesses its elements via a function. The 'deflist' class
+		can be used to model deferred access to data or computations by
+		routing indexed list access to a function. This approach is
+		particularly useful when sequential list-like access to data is
+		required but holding all the data in memory at once is not
+		feasible. The package also provides utilities for memoisation
+		and caching to optimize access to frequently requested
+		elements.
+	</longdescription>
+</pkgmetadata>
