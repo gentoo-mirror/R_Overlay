@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Segmentation of Graph-Based Signals // Perform segmentation of
+		graph-based signals. Assume a noisy observation of a signal two
+		values correspond to vertices on a graph. Assume the true value
+		of the signal is piece-wise constant (where each \italic{piece}
+		is a connected subgraph). The main function, agraph(), computes
+		the segmentation of the signal. The package also includes a
+		wrapper around the competing method flsa() (from package
+		'flsa'). More information about this method in Goepp and van de
+		Kassteele (2022) "Graph-Based Spatial Segmentation of Health-
+		Related Areal Data" doi:10.48550/arXiv.2206.06752.
+	</longdescription>
+</pkgmetadata>
