@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Joint and Individual Regression // Implements the JICO algorithm
+		[Wang, P., Wang, H., Li, Q., Shen, D.,  Liu, Y. (2022).
+		arXiv:2209.12388], which solves the multi-group regression
+		problem. The algorithm decomposes the responses from multiple
+		groups into shared and group-specific components, which are
+		driven by low-rank approximations of joint and individual
+		structures from the covariates respectively. It provides the
+		implementation of the algorithm so solve the iterative
+		continuum regression problem with fixed rank selection, as well
+		as the cross-validation function to perform hyperparameter
+		tuning.
+	</longdescription>
+</pkgmetadata>

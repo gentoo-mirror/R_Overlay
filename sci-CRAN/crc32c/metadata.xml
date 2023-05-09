@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Cyclic Redundancy Check with CPU-Specific Acceleration //
+		Hardware-based support for 'CRC32C' cyclic redundancy checksum
+		function is made available for 'x86_64' systems with 'SSE2'
+		support as well as for 'arm64', and detected at build-time via
+		'cmake' with a software-based fallback.  This functionality is
+		exported at the 'C'-language level for use by other packages.
+		'CRC32C' is described in 'RFC 3270' at
+		https://datatracker.ietf.org/doc/html/rfc3720 and is based on
+		'Castagnoli et al' doi:10.1109/26.231911.
+	</longdescription>
+</pkgmetadata>

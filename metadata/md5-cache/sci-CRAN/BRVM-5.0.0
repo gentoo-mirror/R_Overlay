@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/highcharter sci-CRAN/lubridate sci-CRAN/gsheet sci-CRAN/tseries sci-CRAN/formattable sci-CRAN/httr2 sci-CRAN/nortest sci-CRAN/tibble >=sci-CRAN/rlang-0.4.11 sci-CRAN/rvest sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/xml2 sci-CRAN/timeDate sci-CRAN/xts sci-CRAN/goftest sci-CRAN/fBasics sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Retrieve Historical Data of Comp... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-CRAN/magrittr sci-CRAN/highcharter sci-CRAN/lubridate sci-CRAN/gsheet sci-CRAN/tseries sci-CRAN/formattable sci-CRAN/httr2 sci-CRAN/nortest sci-CRAN/tibble >=sci-CRAN/rlang-0.4.11 sci-CRAN/rvest sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/xml2 sci-CRAN/timeDate sci-CRAN/xts sci-CRAN/goftest sci-CRAN/fBasics sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BRVM_5.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=53c4b0b2332b2f5d015ace2c90f5df28
