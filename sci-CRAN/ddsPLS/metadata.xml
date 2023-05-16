@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Data-Driven Sparse Partial Least Squares Robust to Missing
-		Samples for Mono and Multi-Block Data Sets // Allows to build
-		Multi-Data-Driven Sparse Partial Least Squares models. Multi-
-		blocks with high-dimensional settings are particularly sensible
-		to this. It comes with visualization functions and uses 'Rcpp'
-		functions for fast computations and 'doParallel' to parallelize
-		cross-validation. This is based on H Lorenzo, J Saracco, R
-		Thiebaut (2019) arXiv:1901.04380. Many applications have been
-		successfully realized. See https://hadrienlorenzo.netlify.com/
-		for more information, documentation and examples.
+		Data-Driven Sparse Partial Least Squares // Allows to build Data-
+		Driven Sparse Partial Least Squares models with high-
+		dimensional settings. Number of components and regularization
+		coefficients are automatically set. It comes with visualization
+		functions and uses 'Rcpp' functions for fast computations and
+		'doParallel' to parallelize bootstrap operations. An applet has
+		been developed to apply this procedure. This is based on H
+		Lorenzo, O Cloarec, R Thiebaut, J Saracco (2021)
+		doi:10.1002/sam.11558.
 	</longdescription>
 </pkgmetadata>
