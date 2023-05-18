@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Model-Based Clustering of Multi-Modal Data //
+		Integrative clustering and semi-supervised prediction. This
+		package includes a 'C++' implementation of both semi-supervised
+		and unsupervised Multiple Dataset Integration (MDI; Kirk et
+		al., 2012 https://doi-
+		org.ezp.lib.cam.ac.uk/10.1093/bioinformatics/bts595), an
+		extension of Bayesian mixture models to the integrative
+		(multiple dataset or multi-modal) setting such as multi-omics
+		analysis. The package also includes Bayesian mixture models.
+		Densities allowed within MDI and the mixture model are Gaussian
+		with full and diagonal covariance matrices, categorical,
+		Gaussian with a Gaussian process (GP) prior on the mean
+		parameter. The GP model implemented canonly handle data with
+		common time points of equal separation. The Gaussian and GP
+		models can be augmented with a global multivariate t
+		distribution to handle outliers.
+	</longdescription>
+</pkgmetadata>

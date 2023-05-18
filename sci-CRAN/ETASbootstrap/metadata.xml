@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bootstrap Confidence Interval Estimation for 'ETAS' Model
+		Parameters // The 2-D spatial and temporal Epidemic Type
+		Aftershock Sequence ('ETAS') Model is widely used to
+		'decluster' earthquake data catalogs. Usually, the calculation
+		of standard errors of the 'ETAS' model parameter estimates is
+		based on the Hessian matrix derived from the log-likelihood
+		function of the fitted model. However, when an 'ETAS' model is
+		fitted to a local data set over a time period that is limited
+		or short, the standard errors based on the Hessian matrix may
+		be inaccurate. It follows that the asymptotic confidence
+		intervals for parameters may not always be reliable. As an
+		alternative, this package allows the building of bootstrap
+		confidence intervals based on empirical quantiles for the
+		parameters of the 2-D spatial and temporal 'ETAS' model.
+	</longdescription>
+</pkgmetadata>

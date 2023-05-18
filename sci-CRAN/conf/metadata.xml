@@ -4,11 +4,13 @@
 	<longdescription>
 		Visualization and Analysis of Statistical Measures of Confidence
 		// Enables: (1) plotting two-dimensional confidence regions,
-		(2) coverage analysis of confidence region simulations and (3)
+		(2) coverage analysis of confidence region simulations, (3)
 		calculating confidence intervals and the associated actual
-		coverage for binomial proportions. Each is given in greater
-		detail next. (1) Plots the two-dimensional confidence region
-		for probability distribution parameters (supported distribution
+		coverage for binomial proportions, and 4) calculating the
+		support values and the probability mass function of the Kaplan-
+		Meier product-limit estimator. Each is given in greater detail
+		next. (1) Plots the two-dimensional confidence region for
+		probability distribution parameters (supported distribution
 		suffixes: cauchy, gamma, invgauss, logis, llogis, lnorm, norm,
 		unif, weibull) corresponding to a user-given complete or right-
 		censored dataset and level of significance.  The crplot()
@@ -35,5 +37,23 @@
 		coverage acceptance curve to another which minimizes the root
 		mean square error for n = 15 and follows the transitions for
 		well-known confidence intervals for n  15 using binomTestMSE().
+		(4) The km.support() function calculates the support values of
+		the Kaplan-Meier product-limit estimator for a given sample
+		size \code{n} using an induction algorithm described in Qin et
+		al. (2023) doi:10.1080/00031305.2022.2070279. The km.outcomes()
+		function generates a matrix containing all possible outcomes
+		(all possible sequences of failure times and right-censoring
+		times) of the value of the Kaplan-Meier product-limit estimator
+		for a particular sample size \code{n}. The km.pmf() function
+		generates the probability mass function for the support values
+		of the Kaplan-Meier product-limit estimator for a particular
+		sample size \code{n}, probability of observing a failure
+		\code{h} at the time of interest expressed as the cumulative
+		probability \code{perc} associated with \code{X = min(T, C)},
+		where \code{T} is the failure time and \code{C} is the
+		censoring time under a random-censoring scheme. The km.surv()
+		function generates multiple probability mass functions of the
+		Kaplan-Meier product-limit estimator for the same arguments as
+		those given for km.pmf().
 	</longdescription>
 </pkgmetadata>
