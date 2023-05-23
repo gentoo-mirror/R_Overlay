@@ -1,0 +1,34 @@
+# Copyright 1999-2023 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+inherit R-packages
+
+DESCRIPTION='Species Distribution Modeling an... (see metadata)'
+KEYWORDS="~amd64"
+SRC_URI="http://cran.r-project.org/src/contrib/enmSdmX_1.0.6.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_geodata"
+R_SUGGESTS="r_suggests_geodata? ( sci-CRAN/geodata )"
+DEPEND="sci-CRAN/gbm
+	sci-CRAN/ks
+	sci-CRAN/MuMIn
+	sci-CRAN/doParallel
+	virtual/boot
+	sci-CRAN/foreach
+	sci-CRAN/maxnet
+	sci-CRAN/randomForest
+	virtual/mgcv
+	sci-CRAN/scales
+	sci-CRAN/dismo
+	sci-CRAN/omnibus
+	sci-CRAN/rJava
+	>=dev-lang/R-4.0.0
+	sci-CRAN/DT
+	sci-CRAN/shiny
+	sci-CRAN/sf
+	sci-CRAN/terra
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
