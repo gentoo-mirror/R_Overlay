@@ -3,11 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Estimating the Parameters of a Continuous-Time Markov Chain from
-		Discrete-Time Data // Functions for estimating Markov generator
-		matrices from discrete-time observations. The implemented
-		approaches comprise diagonal adjustment, weighted adjustment
-		and quasi-optimization of matrix logarithm based candidate
-		solutions, an expectation-maximization algorithm as well as a
-		Gibbs sampler.
+		Discrete-Time Data // Estimation of Markov generator matrices
+		from discrete-time observations. The implemented approaches
+		comprise diagonal and weighted adjustment of matrix logarithm
+		based candidate solutions as in Israel (2001)
+		doi:10.1111/1467-9965.00114 as well as a quasi-optimization
+		approach. Moreover, the expectation-maximization algorithm and
+		the Gibbs sampling approach of Bladt and Sorensen (2005)
+		doi:10.1111/j.1467-9868.2005.00508.x are included.
 	</longdescription>
 </pkgmetadata>
