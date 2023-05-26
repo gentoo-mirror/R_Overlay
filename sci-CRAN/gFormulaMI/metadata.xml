@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		G-Formula for Causal Inference via Multiple Imputation //
+		Implements the G-Formula method for causal inference with time-
+		varying treatments and confounders using Bayesian multiple
+		imputation methods, as described by Bartlett, Olarte Parra and
+		Daniel (2023) arXiv:2301.12026. It creates multiple synthetic
+		imputed datasets under treatment regimes of interest using the
+		'mice' package. These can then be analysed using rules
+		developed for analysing multiple synthetic datasets.
+	</longdescription>
+</pkgmetadata>
