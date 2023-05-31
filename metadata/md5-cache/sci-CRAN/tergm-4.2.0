@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ergm-4.5.0 >=sci-CRAN/ergm_multi-0.2.0 >=sci-CRAN/robustbase-0.93.5 >=sci-CRAN/coda-0.19.2 >=sci-CRAN/statnet_common-4.9.0 >=sci-CRAN/network-1.18.0 >=sci-CRAN/networkDynamic-0.11.3 virtual/nlme virtual/MASS sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Fit, Simulate and Diagnose Model... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_lattice r_suggests_networklite r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/ergm-4.5.0 >=sci-CRAN/ergm_multi-0.2.0 >=sci-CRAN/robustbase-0.93.5 >=sci-CRAN/coda-0.19.2 >=sci-CRAN/statnet_common-4.9.0 >=sci-CRAN/network-1.18.0 >=sci-CRAN/networkDynamic-0.11.3 virtual/nlme virtual/MASS sci-CRAN/purrr sci-CRAN/ergm r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.22 ) r_suggests_lattice? ( virtual/lattice ) r_suggests_networklite? ( sci-CRAN/networkLite ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.12 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tergm_4.2.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=deaaf6185ca56fc366ac20ae1c3b458f
