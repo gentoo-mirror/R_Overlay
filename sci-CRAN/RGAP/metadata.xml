@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Production Function Output Gap Estimation // The output gap
+		indicates the percentage difference between the actual output
+		of an economy and its potential. Since potential output is a
+		latent process, the estimation of the output gap poses a
+		challenge and numerous filtering techniques have been proposed.
+		'RGAP' facilitates the estimation of a Cobb-Douglas production
+		function type output gap, as suggested by the European
+		Commission (Havik et al. 2014)
+		https://ideas.repec.org/p/euf/ecopap/0535.html. To that end,
+		the non-accelerating wage rate of unemployment (NAWRU) and the
+		trend of total factor productivity (TFP) can be estimated in
+		two bivariate unobserved component models by means of Kalman
+		filtering and smoothing. 'RGAP' features a flexible modeling
+		framework for the appropriate state-space models and offers
+		frequentist as well as Bayesian estimation techniques.
+		Additional functionalities include direct access to the 'AMECO'
+		https://economy-finance.ec.europa.eu/economic-research-and-
+		databases/economic-databases/ameco-database_en database and
+		automated model selection procedures. See the paper by
+		Streicher (2022) http://hdl.handle.net/20.500.11850/552089 for
+		details.
+	</longdescription>
+</pkgmetadata>
