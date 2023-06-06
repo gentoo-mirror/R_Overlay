@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggforce sci-CRAN/patchwork sci-CRAN/lhs sci-CRAN/reshape2 >=dev-lang/R-4.0 >=sci-CRAN/reticulate-1.26 >=sci-CRAN/benchmarkme-1.0.8 sci-CRAN/ggplot2 sci-CRAN/bitops dev-lang/R:=
+DESCRIPTION=Interface to dgpsi for Deep and ... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mass r_suggests_r_utils r_suggests_rmarkdown r_suggests_spelling byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggforce sci-CRAN/patchwork sci-CRAN/lhs sci-CRAN/reshape2 >=dev-lang/R-4.0 >=sci-CRAN/reticulate-1.26 >=sci-CRAN/benchmarkme-1.0.8 sci-CRAN/ggplot2 sci-CRAN/bitops r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dgpsi_2.2.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=6c1c0408c4ff0136d0cf5b1defc9c780
