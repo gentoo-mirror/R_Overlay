@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Common Change Points Detection for Multiple Signals //
+		Traditional change points detection methods do not have
+		ability in detecting optimal common change points for multi-
+		signal. This package implements common change points detection
+		for multiple signals, can be used in bioinformatics, economics
+		and many other fields. Unlike detecting single signals
+		independently, this package can detect optimal common change
+		points with more sensitivity and specificity. After receiving
+		the collected signal, this method selects the number of change
+		points and the original matrix according to the actual
+		situation, solves the minimization optimization problem based
+		on different input parameters, obtains the position of change
+		points and processed signal. The fun_segmentation_PELT(),
+		fun_lambda_estimator() functions are the main functions of this
+		package.
+	</longdescription>
+</pkgmetadata>
