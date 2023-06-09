@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generate Walk Bouts from GPS and Accelerometry Data // Process
+		GPS and accelerometry data to generate walk bouts. A walk bout
+		is a period of activity with accelerometer movement matching
+		the patterns of walking with corresponding GPS measurements
+		that confirm travel. The inputs of the 'walkboutr' package are
+		individual-level accelerometry and GPS data. The outputs of the
+		model are walk bouts with corresponding times, duration, and
+		summary statistics on the sample population, which collapse all
+		personally identifying information. These bouts can be used to
+		measure walking both as an outcome of a change to the built
+		environment or as a predictor of health outcomes such as a
+		cardioprotective behavior. Kang B, Moudon AV, Hurvitz PM,
+		Saelens BE (2017) doi:10.1016/j.trd.2017.09.026.
+	</longdescription>
+</pkgmetadata>
