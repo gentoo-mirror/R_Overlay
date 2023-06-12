@@ -2,26 +2,24 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		C/C++ source code to trigger Address and Undefined Behaviour
+		C/C++ Source Code to Trigger Address and Undefined Behaviour
 		Sanitizers // Recent gcc and clang compiler versions provide
-		functionality to memory violations and other undefined
+		functionality to test for memory violations and other undefined
 		behaviour; this is often referred to as "Address Sanitizer" (or
-		SAN) and "Undefined Behaviour Sanitizer" (UBSAN). The Writing R
-		Extension manual describes this in some detail in Section 4.9.
-		. This feature has to be enabled in the corresponding binary,
-		eg in R, which is somewhat involved as it also required a
-		current compiler toolchain which is not yet widely available,
-		or in the case of Windows, not available at all (via the common
-		Rtools mechanism). . As an alternative, the pre-built Docker
-		containers available via the Docker Hub at
-		https://registry.hub.docker.com/u/eddelbuettel/docker-debian-r/
-		can be used on Linux, and via boot2docker on Windows and OS X.
-		. This package then provides a means of testing the compiler
-		setup as the known code failures provides in the sample code
-		here should be detected correctly, whereas a default build of R
-		will let the package pass. . The code samples are based on the
-		examples from the Address Sanitizer Wiki at
-		https://code.google.com/p/address-
-		sanitizer/wiki/AddressSanitizer.
+		'ASAN') and "Undefined Behaviour Sanitizer" ('UBSAN'). The
+		Writing R Extension manual describes this in some detail in
+		Section 4.3 title "Checking Memory Access". . This feature has
+		to be enabled in the corresponding binary, eg in R, which is
+		somewhat involved as it also required a current compiler
+		toolchain which is not yet widely available, or in the case of
+		Windows, not available at all (via the common Rtools
+		mechanism). . As an alternative, pre-built Docker containers
+		such as the Rocker container 'r-devel-san' or the multi-purpose
+		container 'r-debug' can be used. . This package then provides a
+		means of testing the compiler setup as the known code failures
+		provides in the sample code here should be detected correctly,
+		whereas a default build of R will let the package pass. . The
+		code samples are based on the examples from the Address
+		Sanitizer Wiki at https://github.com/google/sanitizers/wiki.
 	</longdescription>
 </pkgmetadata>

@@ -2,8 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Sparse-Aware Maximum Likelihood for Structural Equation Models //
-		Provides Sparse-aware maximum likelihood for structural
-		equation models in inferring network structure (topology).
+		Elastic Net Penalized Maximum Likelihood for Structural Equation
+		Models // Provides elastic net regularized maximum likelihood
+		for structural equation models (SEM) in inferring network
+		structure (topology) and estimating causal effects. The package
+		implements `lasso` and `elastic net` (l1/l2) penalized SEM and
+		estimates the model parameters with an efficient block
+		coordinate ascent algorithm that maximizes the penalized
+		likelihood of the SEM.  Hyperparameters are inferred from
+		cross-validation (CV).  A Stability Selection (STS) function is
+		also available to provide accurate causal effect selection.
 	</longdescription>
 </pkgmetadata>
