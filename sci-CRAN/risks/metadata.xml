@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimate Risk Ratios and Risk Differences using Regression //
+		Risk ratios and risk differences are estimated using regression
+		models that allow for binary, categorical, and continuous
+		exposures and confounders. Implemented are marginal
+		standardization after fitting logistic models (g-computation)
+		with delta-method and bootstrap standard errors, Miettinen's
+		case-duplication approach (Schouten et al. 1993,
+		doi:10.1002/sim.4780121808), log-binomial (Poisson) models with
+		empirical variance (Zou 2004, doi:10.1093/aje/kwh090), binomial
+		models with starting values from Poisson models (Spiegelman and
+		Hertzmark 2005, doi:10.1093/aje/kwi188), and others.
+	</longdescription>
+</pkgmetadata>

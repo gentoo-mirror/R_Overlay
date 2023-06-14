@@ -3,19 +3,22 @@
 <pkgmetadata>
 	<longdescription>
 		Distance-Sampling Analyses for Density and Abundance Estimation
-		// Distance-sampling is a popular method for estimating density
-		and abundance of organisms in ecology. Rdistance contains
-		routines that assist with analysis of distance-sampling data
-		collected on point or line transects. Distance models are
-		specified using regression-like formula (similar to lm, glm,
-		etc.). Abundance routines perform automated bootstrapping and
-		automated detection-function selection. Overall (study area)
-		and site-level (transect or point) abundance estimates are
-		available. A large suite of classical, parametric detection
-		functions are included along with some uncommon parametric
-		functions (e.g., Gamma, negative exponential) and non-
-		parametric smoothed distance functions. Custom (user-defined)
-		detection functions are easily implemented (see vignette). The
+		// Distance-sampling analyses estimate density and abundance of
+		organisms in ecology when detection probability declines with
+		increasing distance from the observers. Distance-sampling is
+		popular in most branches of ecology and especially when
+		organisms are observed from aerial platforms (e.g., airplane or
+		drone), surface vessels (e.g., boat or truck), or along walking
+		transects. Rdistance analyzes data collected on both point and
+		line transects, estimates overall (study area) and site-level
+		(transect or point) density, and allows users to specify
+		regression-like formula (similar to lm or glm) for covariates.
+		A large suite of classical, parametric detection functions are
+		included along with some uncommon parametric functions (e.g.,
+		Gamma, negative exponential) and non-parametric smoothed
+		distance functions. Custom (user-defined) detection functions
+		can be implemented (see vignette).  Measurement unit integrity
+		is enforced with internal unit conversion when necessary. The
 		help files and vignettes have been vetted by multiple authors
 		and tested in workshop settings.
 	</longdescription>
