@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Joint Model of Heterogeneous Repeated Measures and Survival Data
+		// Maximum likelihood estimation for the semi-parametric joint
+		modeling of competing risks and longitudinal data in the
+		presence of heterogeneous within-subject variability, proposed
+		by Li and colleagues (2023) arXiv:2301.06584. The proposed
+		method models the within-subject variability of the biomarker
+		and associates it with the risk of the competing risks event.
+		The time-to-event data is modeled using a (cause-specific) Cox
+		proportional hazards regression model with time-fixed
+		covariates. The longitudinal outcome is modeled using a mixed-
+		effects location and scale model. The association is captured
+		by shared random effects. The model is estimated using an
+		Expectation Maximization algorithm.
+	</longdescription>
+</pkgmetadata>
