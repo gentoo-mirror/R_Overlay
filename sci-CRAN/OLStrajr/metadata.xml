@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Ordinary Least Squares Trajectory Analysis // The 'OLStrajr'
+		package provides comprehensive functions for ordinary least
+		squares (OLS) trajectory analysis and case-by-case OLS
+		regression as outlined in Carrig, Wirth, and Curran (2004)
+		doi:10.1207/S15328007SEM1101_9 and Rogosa and Saner (1995)
+		doi:10.3102/10769986020002149. It encompasses two primary
+		functions, OLStraj() and cbc_lm(). The OLStraj() function
+		simplifies the estimation of individual growth curves over time
+		via OLS regression, with options for visualizing both group-
+		level and individual-level growth trajectories and support for
+		linear and quadratic models. The cbc_lm() function facilitates
+		case-by-case OLS estimates and provides unbiased mean
+		population intercept and slope estimators by averaging OLS
+		intercepts and slopes across cases. It further offers standard
+		error calculations across bootstrap replicates and computation
+		of 95% confidence intervals based on empirical distributions
+		from the resampling processes.
+	</longdescription>
+</pkgmetadata>

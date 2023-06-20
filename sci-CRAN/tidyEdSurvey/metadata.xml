@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Integration of 'dplyr' and 'ggplot2' with 'EdSurvey' // Takes
+		objects of class edsurvey.data.frame and converts them to a
+		data.frame within the calling environment of 'dplyr' and
+		'ggplot2' functions. Additionally, for plotting with 'ggplot2',
+		users can map aesthetics to subject scales and all plausible
+		values will be used. This package supports student level data;
+		to work with school or teacher level data, see
+		'?EdSurvey::getData'.
+	</longdescription>
+</pkgmetadata>
