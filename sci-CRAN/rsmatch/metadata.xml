@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Matching Methods for Time-Varying Observational Studies //
+		Implements popular methods for matching in time-varying
+		observational studies. Matching is difficult in this scenario
+		because participants can be treated at different times which
+		may have an influence on the outcomes. The core methods
+		include: "Balanced Risk Set Matching" from Li, Propert, and
+		Rosenbaum (2011) doi:10.1198/016214501753208573 and "Propensity
+		Score Matching with Time-Dependent Covariates" from Lu (2005)
+		doi:10.1111/j.1541-0420.2005.00356.x. Some functions use the
+		'Gurobi' optimization back-end to improve the optimization
+		problem speed; the 'gurobi' R package and associated software
+		can be downloaded from https://www.gurobi.com after obtaining a
+		license.
+	</longdescription>
+</pkgmetadata>
