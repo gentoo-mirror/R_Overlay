@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		HMMs with Ordered Hidden States and Emission Densities //
+		Inference using a class of Hidden Markov models (HMMs) called
+		'oHMMed'(ordered HMM with emission densities
+		doi:10.1101/2023.06.26.546495): The 'oHMMed' algorithms
+		identify the number of comparably homogeneous regions within
+		observed sequences with autocorrelation patterns. These are
+		modelled as discrete hidden states; the observed data points
+		are then realisations of continuous probability distributions
+		with state-specific means that enable ordering of these
+		distributions. The observed sequence is labelled according to
+		the hidden states, permitting only neighbouring states that are
+		also neighbours within the ordering of their associated
+		distributions. The parameters that characterise these state-
+		specific distributions are then inferred. Relevant for
+		application to genomic sequences, time series, or any other
+		sequence data with serial autocorrelation.
+	</longdescription>
+</pkgmetadata>
