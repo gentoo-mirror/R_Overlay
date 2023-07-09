@@ -2,11 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Bayesian Estimators for Gaussian Graphical Models // Implements a
-		Bayesian graphical ridge data-augmented block Gibbs sampler.
-		The sampler simulates the posterior distribution of precision
-		matrices of a Gaussian Graphical Model. This sampler is
-		proposed in Smith, Arashi, and Bekker (2022)
-		doi:10.48550/arXiv.2210.16290.
+		Bayesian Estimators for Gaussian Graphical Models // This R
+		package offers a Bayesian graphical ridge and a nave Bayesian
+		adaptive graphical elastic net data-augmented block Gibbs
+		sampler. These samplers facilitate the simulation of the
+		posterior distribution of precision matrices for Gaussian
+		distributed data. These samplers were originally proposed in
+		two separate studies, both detailing their methodologies and
+		applications: Smith, Arashi, and Bekker (2022)
+		doi:10.48550/arXiv.2210.16290 and Smith, Bekker, and Arashi
+		(2023) doi:10.48550/arXiv.2306.14199.
 	</longdescription>
 </pkgmetadata>
