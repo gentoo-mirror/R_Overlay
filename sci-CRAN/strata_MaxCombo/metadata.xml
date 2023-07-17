@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stratified Max-Combo Test // Non-proportional hazard (NPH) is
+		commonly observed in immuno-oncology studies, where the
+		survival curves of the treatment and control groups show
+		delayed separation. To properly account for NPH, several
+		statistical methods have been developed. One such method is
+		Max-Combo test, which is a straightforward and flexible
+		hypothesis testing method that can simultaneously test for
+		constant, early, middle, and late treatment effects. However,
+		the majority of the Max-Combo test performed in clinical
+		studies are unstratified, ignoring the important prognostic
+		stratification factors. To fill this gap, we have developed an
+		R package for stratified Max-Combo testing that accounts for
+		stratified baseline factors. Our package explores various
+		methods for calculating combined test statistics, estimating
+		joint distributions, and determining the p-values.
+	</longdescription>
+</pkgmetadata>

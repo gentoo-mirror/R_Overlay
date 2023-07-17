@@ -49,8 +49,8 @@
 		the support values of the Kaplan-Meier product-limit estimator
 		for a particular sample size n, probability of observing a
 		failure h at the time of interest expressed as the cumulative
-		probability perc associated with X = min(T, C), where T is the
-		failure time and C is the censoring time under a random-
+		probability percentile associated with X = min(T, C), where T
+		is the failure time and C is the censoring time under a random-
 		censoring scheme. The km.surv() function generates multiple
 		probability mass functions of the Kaplan-Meier product-limit
 		estimator for the same arguments as those given for km.pmf().
