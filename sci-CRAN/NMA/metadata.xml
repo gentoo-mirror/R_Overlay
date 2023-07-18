@@ -2,17 +2,21 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Network Meta-Analysis Package for R // Network meta-analysis
-		tools based on the contrast-based approach using the
-		multivariate meta-analysis and meta-regression models (Noma et
-		al. (2023) Forthcoming). The standard REML (restricted maximum
-		likelihood) estimation and the Noma-Hamura's improved REML-
-		based analysis methods (Noma et al. (2023)
-		doi:10.1002/jrsm.1652 doi:10.1002/jrsm.1651) are available. The
+		Network Meta-Analysis Based on Multivariate Meta-Analysis Models
+		// Network meta-analysis tools based on contrast-based approach
+		using the multivariate meta-analysis and meta-regression models
+		(Noma et al. (2023) Forthcoming). Standard analysis tools for
+		network meta-analysis and meta-regression (e.g., synthesis
+		analysis, ranking analysis, and creating league table) are
+		available by simple commands. For inconsistency analyses, the
 		local and global inconsistency tests based on the Higgins'
 		design-by-treatment interaction model and the side-splitting
-		can be used. Also, standard graphical tools for network meta-
-		analysis (e.g., network plot, ranked forest plot) are
-		available.
+		can be applied. Also, standard graphical tools for network
+		meta-analysis (e.g., network plot, ranked forest plot, and
+		transitivity analysis) are available. For the synthesis
+		analyses, the Noma-Hamura's improved REML (restricted maximum
+		likelihood)-based methods (Noma et al. (2023)
+		doi:10.1002/jrsm.1652 doi:10.1002/jrsm.1651) are adopted as the
+		default methods.
 	</longdescription>
 </pkgmetadata>
