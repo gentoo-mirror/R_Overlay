@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Interaction Statistics // Fast, model-agnostic implementation of
+		different H-statistics introduced by Jerome H. Friedman and
+		Bogdan E. Popescu (2008) doi:10.1214/07-AOAS148.  These
+		statistics quantify interaction strength per feature, feature
+		pair, and feature triple.  The package supports multi-output
+		predictions and can account for case weights. In addition,
+		several variants of the original statistics are provided. The
+		shape of the interactions can be explored through partial
+		dependence plots or individual conditional expectation plots.
+		'DALEX' explainers, meta learners ('mlr3', 'tidymodels',
+		'caret') and most other models work out-of-the-box.
+	</longdescription>
+</pkgmetadata>
