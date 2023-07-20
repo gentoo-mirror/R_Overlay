@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme sci-CRAN/testthat sci-CRAN/gss sci-CRAN/expm sci-CRAN/gamm4 sci-CRAN/rlang sci-CRAN/dplyr virtual/MASS sci-CRAN/purrr sci-CRAN/magrittr sci-CRAN/face virtual/Matrix virtual/mgcv sci-CRAN/lifecycle sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Power and Sample Size for Projec... (see metadata)
+EAPI=7
+INHERIT=R-packages
+IUSE=r_suggests_foreach r_suggests_hotelling r_suggests_knitr r_suggests_refund r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=virtual/nlme sci-CRAN/testthat sci-CRAN/gss sci-CRAN/expm sci-CRAN/gamm4 sci-CRAN/rlang sci-CRAN/dplyr virtual/MASS sci-CRAN/purrr sci-CRAN/magrittr sci-CRAN/face virtual/Matrix virtual/mgcv sci-CRAN/lifecycle sci-CRAN/stringr r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_hotelling? ( sci-CRAN/Hotelling ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_refund? ( sci-CRAN/refund ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fPASS_1.0.0.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_md5_=bd0b27b6c39bde39a0bece723ff63332

@@ -2,10 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Text to Speech // Unifies different text to speech engines, such
-		as Google, Microsoft, and Amazon.  Text synthesis can be done
-		in any engine with a simple switch of an argument denoting the
-		service requested.  The 'aws.polly' package has been orphaned
-		and can be found from the CRAN archives.
+		Text to Speech Conversion // Converts text into speech using
+		various text-to-speech (TTS) engines and provides an unified
+		interface for accessing their functionality. With this package,
+		users can easily generate audio files of spoken words, phrases,
+		or sentences from plain text data. The package supports
+		multiple TTS engines, including Google's 'Cloud Text-to-Speech
+		API', 'Amazon Polly', Microsoft's 'Cognitive Services Text to
+		Speech REST API',  and a free TTS engine called 'Coqui TTS'.
 	</longdescription>
 </pkgmetadata>
