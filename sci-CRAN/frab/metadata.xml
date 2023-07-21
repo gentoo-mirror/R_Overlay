@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Alternative Interpretation of Named Vectors // An alternative
+		interpretation of named vectors as generalized tables, so that
+		c(a=1,b=2,c=3) + c(b=3,a=-1) will return c(b=5,c=3).  Uses
+		'disordR' discipline (Hankin, 2022,
+		doi:10.48550/ARXIV.2210.03856).  Extraction and replacement
+		methods are provided.  The underlying mathematical structure is
+		the Free Abelian group, hence the name.
+	</longdescription>
+</pkgmetadata>

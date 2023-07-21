@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detecting Group Disturbances from Longitudinal Observations //
+		Provides an algorithm to detect and characterize disturbances
+		(start, end dates, intensity) that can occur at different
+		hierarchical levels by studying the dynamics of longitudinal
+		observations at the unit level and group level based on
+		Nadaraya-Watson's smoothing curves, but also a shiny app which
+		allows to visualize the observations and the detected
+		disturbances. Finally the package provides a dataframe
+		mimicking a pig farming system subsected to disturbances
+		simulated according to Le et al.(2022)
+		doi:10.1016/j.animal.2022.100496.
+	</longdescription>
+</pkgmetadata>
