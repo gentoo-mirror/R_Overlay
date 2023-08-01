@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Simple Data Frames'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/tibble_3.1.8.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/tibble_3.2.1.tar.gz"
 LICENSE='MIT'
 
 IUSE="${IUSE-} r_suggests_bench r_suggests_bit64 r_suggests_blob
