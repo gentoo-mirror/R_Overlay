@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='Scale Functions for Visualization'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://cran.r-project.org/src/contrib/scales_1.2.1.tar.gz"
 LICENSE='MIT'
 

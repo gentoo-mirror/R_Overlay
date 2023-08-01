@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='A dplyr Back End for Databases'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://cran.r-project.org/src/contrib/dbplyr_2.3.3.tar.gz"
 LICENSE='MIT'
 

@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='A Simple S3 Class for Representi... (see metadata)'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://cran.r-project.org/src/contrib/blob_1.2.4.tar.gz"
 LICENSE='MIT'
 

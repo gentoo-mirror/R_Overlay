@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='Fast and Portable Character Stri... (see metadata)'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://cran.r-project.org/src/contrib/stringi_1.7.12.tar.gz"
 
 DEPEND=">=dev-lang/R-3.1"

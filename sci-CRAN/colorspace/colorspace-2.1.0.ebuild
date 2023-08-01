@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='A Toolbox for Manipulating and A... (see metadata)'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://cran.r-project.org/src/contrib/colorspace_2.1-0.tar.gz"
 LICENSE='BSD'
 

@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='ANSI Control Sequence Aware String Functions'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://cran.r-project.org/src/contrib/fansi_1.0.4.tar.gz"
 LICENSE='|| ( GPL-2 GPL-3 )'
 
