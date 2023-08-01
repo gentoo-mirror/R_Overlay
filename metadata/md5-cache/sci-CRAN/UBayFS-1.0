@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=sci-CRAN/DirichletReg sci-CRAN/gridExtra sci-CRAN/Rdimtools sci-CRAN/shiny sci-CRAN/hyper2 >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/GA virtual/Matrix sci-CRAN/mRMRe r_suggests_caret? ( sci-CRAN/caret ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_gselection? ( sci-CRAN/GSelection ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpart? ( virtual/rpart ) r_suggests_shinyalert? ( sci-CRAN/shinyalert ) r_suggests_shinybs? ( sci-CRAN/shinyBS ) r_suggests_shinyjs? ( sci-CRAN/shinyjs ) r_suggests_shinywidgets? ( sci-CRAN/shinyWidgets ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/UBayFS_1.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_eclasses_=R-packages	a0771771b6247bbdb7be4ed64e774f82
 _md5_=6f536c70bba25845fb03a61cdc86acc2

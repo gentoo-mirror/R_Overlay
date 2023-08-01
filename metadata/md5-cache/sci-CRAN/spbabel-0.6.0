@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.3 sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/sp sci-CRAN/rlang virtual/pkgconfig dev-lang/R:=
+DESCRIPTION=Convert Spatial Data Using Tidy Tables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_raster r_suggests_rmarkdown r_suggests_sf r_suggests_testthat r_suggests_trip r_suggests_viridis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.2.3 sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/sp sci-CRAN/rlang virtual/pkgconfig r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_trip? ( sci-CRAN/trip ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spbabel_0.6.0.tar.gz
+_eclasses_=R-packages	a0771771b6247bbdb7be4ed64e774f82
+_md5_=9aeea69d13b3bef6107a5fd0c5482ab7

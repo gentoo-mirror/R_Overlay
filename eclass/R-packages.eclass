@@ -1,7 +1,5 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2023 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-
-inherit eutils
 
 EXPORT_FUNCTIONS src_unpack src_configure src_compile src_install pkg_postinst
 

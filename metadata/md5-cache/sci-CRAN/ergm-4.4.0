@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=>=dev-lang/R-4.1 >=sci-CRAN/robustbase-0.93.7 virtual/MASS >=sci-CRAN/purrr-0.3.4 >=sci-CRAN/magrittr-2.0.1 >=sci-CRAN/statnet_common-4.8.0 >=sci-CRAN/Rdpack-2.4 sci-CRAN/stringr >=sci-CRAN/network-1.18.0 >=sci-CRAN/lpSolveAPI-5.5.2.0.17.7 sci-CRAN/knitr >=sci-CRAN/trust-0.1.8 >=sci-CRAN/coda-0.19.4 >=sci-CRAN/rle-0.9.2 >=sci-CRAN/rlang-0.4.10 >=sci-CRAN/memoise-2.0.0 virtual/Matrix >=sci-CRAN/tibble-3.1.0 virtual/mpi r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ergm_count? ( >=sci-CRAN/ergm_count-4.0 ) r_suggests_glpk? ( sci-mathematics/glpk ) r_suggests_lattice? ( virtual/lattice virtual/lattice ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_slam? ( sci-CRAN/slam ) r_suggests_sna? ( >=sci-CRAN/sna-2.6 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.2 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/ergm_4.4.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_eclasses_=R-packages	a0771771b6247bbdb7be4ed64e774f82
 _md5_=14036b02ed5541e7133c82cff6b861ed
