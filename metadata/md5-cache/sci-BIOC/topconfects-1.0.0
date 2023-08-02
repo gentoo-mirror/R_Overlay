@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1
 RDEPEND=sci-CRAN/assertthat >=dev-lang/R-3.6.0 sci-CRAN/ggplot2 r_suggests_annotationdbi? ( sci-BIOC/AnnotationDbi ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_nbpseq? ( sci-CRAN/NBPSeq ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://master.bioconductor.org/packages/3.9/bioc/src/contrib/topconfects_1.0.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_eclasses_=R-packages	5cea1e638f8b35d92ee0562c33ac8c8b
 _md5_=25e9376df83da805d867737313c32a85

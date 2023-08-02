@@ -10,5 +10,5 @@ LICENSE=GPL-3+
 RDEPEND=sci-CRAN/patchwork sci-CRAN/ggplot2 >=sci-CRAN/DALEX-2.2.1 sci-CRAN/pec >=dev-lang/R-3.5.0 sci-CRAN/kernelshap virtual/survival r_suggests_censored? ( sci-CRAN/censored ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_generics? ( sci-CRAN/generics ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_ingredients? ( sci-CRAN/ingredients ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mboost? ( sci-CRAN/mboost ) r_suggests_parsnip? ( sci-CRAN/parsnip ) r_suggests_progressr? ( sci-CRAN/progressr ) r_suggests_randomforestsrc? ( sci-CRAN/randomForestSRC ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
 SLOT=0
 SRC_URI=http://cran.r-project.org/src/contrib/survex_1.0.0.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	R-packages	293008251793e17907015f0c6b58ecbf
+_eclasses_=R-packages	5cea1e638f8b35d92ee0562c33ac8c8b
 _md5_=e0951557b2a11588d32946abb41d7bde
