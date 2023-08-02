@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='R Interface to HDF5'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://master.bioconductor.org/packages/3.9/bioc/src/contrib/rhdf5_2.28.1.tar.gz"
 LICENSE='Artistic-2'
 
