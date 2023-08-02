@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='Memoisation of Functions'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://cran.r-project.org/src/contrib/memoise_2.0.1.tar.gz"
 LICENSE='MIT'
 

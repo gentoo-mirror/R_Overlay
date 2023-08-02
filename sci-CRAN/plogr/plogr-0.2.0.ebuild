@@ -6,7 +6,7 @@ EAPI=7
 inherit R-packages
 
 DESCRIPTION='The plog C++ Logging Library'
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm64-macos ~x64-macos"
 SRC_URI="http://cran.r-project.org/src/contrib/plogr_0.2.0.tar.gz"
 LICENSE='MIT'
 
