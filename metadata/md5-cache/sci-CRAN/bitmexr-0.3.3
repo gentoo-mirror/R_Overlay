@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/curl sci-CRAN/httr sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/attempt sci-CRAN/digest sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/progress sci-CRAN/purrr sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=R Client for BitMEX
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_httptest r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyquant byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/curl sci-CRAN/httr sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/attempt sci-CRAN/digest sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/progress sci-CRAN/purrr sci-CRAN/rlang r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_httptest? ( sci-CRAN/httptest ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyquant? ( sci-CRAN/tidyquant ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bitmexr_0.3.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=767bd67c8dc9a0d82f7efb7cb966757e

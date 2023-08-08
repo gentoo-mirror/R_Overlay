@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/DEoptim-2.2.8 >=sci-CRAN/readxl-1.4.3 >=sci-CRAN/bbmle-1.0.25 >=sci-CRAN/httr-1.4.6 >=sci-CRAN/XML-3.99.0.14 >=dev-lang/R-4.1 >=sci-CRAN/data_table-1.14.6.8 >=sci-CRAN/lamW-2.1.2 virtual/Matrix >=sci-CRAN/minpack_lm-1.2.3 >=sci-CRAN/mclust-6.0.0 >=sci-CRAN/plotrix-3.8.2 >=sci-CRAN/Rcpp-1.0.11 >=sci-CRAN/shape-1.4.6 >=sci-CRAN/zoo-1.8.12 dev-lang/R:=
+DESCRIPTION=Comprehensive Luminescence Dating Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_coda r_suggests_pander r_suggests_plotly r_suggests_r_rsp r_suggests_rjags r_suggests_rmarkdown r_suggests_rstudioapi r_suggests_spelling r_suggests_testthat r_suggests_tiff byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/DEoptim-2.2.8 >=sci-CRAN/readxl-1.4.3 >=sci-CRAN/bbmle-1.0.25 >=sci-CRAN/httr-1.4.6 >=sci-CRAN/XML-3.99.0.14 >=dev-lang/R-4.1 >=sci-CRAN/data_table-1.14.6.8 >=sci-CRAN/lamW-2.1.2 virtual/Matrix >=sci-CRAN/minpack_lm-1.2.3 >=sci-CRAN/mclust-6.0.0 >=sci-CRAN/plotrix-3.8.2 >=sci-CRAN/Rcpp-1.0.11 >=sci-CRAN/shape-1.4.6 >=sci-CRAN/zoo-1.8.12 >=sci-CRAN/Rcpp-1.0.11 >=sci-CRAN/RcppArmadillo-0.12.4.1.0 r_suggests_coda? ( >=sci-CRAN/coda-0.19.4 ) r_suggests_pander? ( >=sci-CRAN/pander-0.6.5 ) r_suggests_plotly? ( >=sci-CRAN/plotly-4.10.2 ) r_suggests_r_rsp? ( >=sci-CRAN/R_rsp-0.45.0 ) r_suggests_rjags? ( >=sci-CRAN/rjags-4.14 ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.23 ) r_suggests_rstudioapi? ( >=sci-CRAN/rstudioapi-0.15.0 ) r_suggests_spelling? ( >=sci-CRAN/spelling-2.2.1 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.10 ) r_suggests_tiff? ( >=sci-CRAN/tiff-0.1.11 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Luminescence_0.9.22.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=161d36d1a90954ab896fdd3a45ae5281

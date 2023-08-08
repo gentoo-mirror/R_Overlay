@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/missRanger sci-CRAN/purrr sci-CRAN/plyr sci-CRAN/dplyr sci-CRAN/tidyselect sci-CRAN/tidyr sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=A Batch Process for High Dimensional Imputation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_missforest r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyverse r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/missRanger sci-CRAN/purrr sci-CRAN/plyr sci-CRAN/dplyr sci-CRAN/tidyselect sci-CRAN/tidyr sci-CRAN/cli r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_missforest? ( sci-CRAN/missForest ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hdImpute_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7f680b56116ff1768d404f108c0d0f4b
