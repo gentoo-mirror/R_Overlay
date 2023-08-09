@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nnet >=sci-CRAN/poolHelper-1.1.0 sci-CRAN/RColorBrewer sci-CRAN/doParallel sci-CRAN/ggplot2 sci-CRAN/foreach sci-CRAN/locfit sci-CRAN/MetricsWeighted sci-CRAN/rlang sci-CRAN/scrm dev-lang/R:=
+DESCRIPTION=Approximate Bayesian Computation... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/nnet >=sci-CRAN/poolHelper-1.1.0 sci-CRAN/RColorBrewer sci-CRAN/doParallel sci-CRAN/ggplot2 sci-CRAN/foreach sci-CRAN/locfit sci-CRAN/MetricsWeighted sci-CRAN/rlang sci-CRAN/scrm r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/poolABC_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=911a4623e88cdfbbcc4c757e0cbf13f3

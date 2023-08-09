@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation and Simulation of Multi-Binary Response Models //
+		Multi-binary response models are a class of models that allow
+		for the estimation of multiple binary outcomes simultaneously.
+		This package provides functions to estimate and simulate these
+		models using the Discrete Exponential-Family Models [DEFM]
+		framework. In it, we implement the models described in Vega
+		Yon, Valente, and Pugh (2023) doi:10.48550/arXiv.2211.00627.
+		DEFMs include Exponential-Family Random Graph Models [ERGMs],
+		which characterize graphs using sufficient statistics, which is
+		also the core of DEFMs. Using sufficient statistics, we can
+		describe the data through meaningful motifs, for example,
+		transitions between different states, joint distribution of the
+		outcomes, etc.
+	</longdescription>
+</pkgmetadata>

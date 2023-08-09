@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/magrittr sci-CRAN/R6 sci-CRAN/dplyr >=sci-CRAN/microeco-0.20.0 sci-CRAN/igraph sci-CRAN/reshape2 sci-CRAN/ggpubr dev-lang/R:=
+DESCRIPTION=Compare Microbial Networks of tr... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_agricolae r_suggests_ape r_suggests_file2meco r_suggests_rgexf byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/magrittr sci-CRAN/R6 sci-CRAN/dplyr >=sci-CRAN/microeco-0.20.0 sci-CRAN/igraph sci-CRAN/reshape2 sci-CRAN/ggpubr r_suggests_agricolae? ( sci-CRAN/agricolae ) r_suggests_ape? ( sci-CRAN/ape ) r_suggests_file2meco? ( sci-CRAN/file2meco ) r_suggests_rgexf? ( sci-CRAN/rgexf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/meconetcomp_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=db7cb88b1c4e00ea96f2dc7cc5b1c078

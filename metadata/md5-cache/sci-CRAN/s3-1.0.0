@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/aws_signature sci-CRAN/digest sci-CRAN/cli sci-CRAN/glue sci-CRAN/httr sci-CRAN/fs sci-CRAN/prettyunits >=sci-CRAN/purrr-0.3.4 dev-lang/R:=
+DESCRIPTION=Download Files from AWS S3
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/aws_signature sci-CRAN/digest sci-CRAN/cli sci-CRAN/glue sci-CRAN/httr sci-CRAN/fs sci-CRAN/prettyunits >=sci-CRAN/purrr-0.3.4 r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/s3_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=983cc77b40e0e4aba18e0a8ad8f152a6

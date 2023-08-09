@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Nonparametric Bootstrap Test with Pooled Resampling // Addressing
+		crucial research questions often necessitates a small sample
+		size due to factors such as distinctive target populations,
+		rarity of the event under study, time and cost constraints,
+		ethical concerns, or group-level unit of analysis. Many readily
+		available analytic methods, however, do not accommodate small
+		sample sizes, and the choice of the best method can be unclear.
+		The 'npboottprm' package enables the execution of nonparametric
+		bootstrap tests with pooled resampling to help fill this gap.
+		Grounded in the statistical methods for small sample size
+		studies detailed in Dwivedi, Mallawaarachchi, and Alvarado
+		(2017) doi:10.1002/sim.7263, the package facilitates a range of
+		statistical tests, encompassing independent t-tests, paired
+		t-tests, and one-way Analysis of Variance (ANOVA) F-tests. The
+		nonparboot() function undertakes essential computations,
+		yielding detailed outputs which include test statistics, effect
+		sizes, confidence intervals, and bootstrap distributions.
+		Further, 'npboottprm' incorporates an interactive 'shiny' web
+		application, nonparboot_app(), offering intuitive, user-
+		friendly data exploration.
+	</longdescription>
+</pkgmetadata>

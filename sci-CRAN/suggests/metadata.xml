@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Declare when Suggested Packages are Needed // By adding
+		dependencies to the "Suggests" field of a package's DESCRIPTION
+		file, and then declaring that they are needed within any
+		dependent functionality, it is often possible to significantly
+		reduce the number of "hard" dependencies required by a package.
+		This package provides a minimal way to declare when a suggested
+		package is needed.
+	</longdescription>
+</pkgmetadata>
