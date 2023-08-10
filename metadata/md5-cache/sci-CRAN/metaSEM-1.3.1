@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/OpenMx virtual/MASS sci-CRAN/ellipse virtual/Matrix sci-CRAN/mvtnorm sci-CRAN/numDeriv sci-CRAN/lavaan dev-lang/R:=
+DESCRIPTION=Meta-Analysis using Structural Equation Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_matrix r_suggests_metafor r_suggests_r_rsp r_suggests_semplot r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/OpenMx virtual/MASS sci-CRAN/ellipse virtual/Matrix sci-CRAN/mvtnorm sci-CRAN/numDeriv sci-CRAN/lavaan r_suggests_matrix? ( virtual/Matrix ) r_suggests_metafor? ( sci-CRAN/metafor ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_semplot? ( sci-CRAN/semPlot ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/metaSEM_1.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=89df72615196fb113c139e3e9fe0e1ad

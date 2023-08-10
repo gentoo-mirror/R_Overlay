@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Load Both User-Global and Project-Specific R Profile
+		Configurations // Use rprofile::init() inside a project
+		'.Rprofile' file to ensure that the user-global '.Rprofile' is
+		loaded correctly regardless of its location, and other common
+		resources (in particular 'renv') are also set up correctly.
+	</longdescription>
+</pkgmetadata>

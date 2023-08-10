@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/curl sci-CRAN/Kendall sci-CRAN/zyp sci-CRAN/raster sci-CRAN/ncdf4 dev-lang/R:=
+DESCRIPTION=Download and Process GIMMS NDVI3g Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/curl sci-CRAN/Kendall sci-CRAN/zyp sci-CRAN/raster sci-CRAN/ncdf4 r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gimms_1.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d9cb2fdc412536463e3c6e9357a23c0b

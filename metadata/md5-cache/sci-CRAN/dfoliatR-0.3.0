@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/ggpubr sci-CRAN/purrr sci-CRAN/ggplot2 sci-CRAN/dplR sci-CRAN/rlang sci-CRAN/glue >=dev-lang/R-3.2 sci-CRAN/forcats sci-CRAN/magrittr sci-CRAN/tidyr sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Detection and Analysis of Insect... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/ggpubr sci-CRAN/purrr sci-CRAN/ggplot2 sci-CRAN/dplR sci-CRAN/rlang sci-CRAN/glue >=dev-lang/R-3.2 sci-CRAN/forcats sci-CRAN/magrittr sci-CRAN/tidyr sci-CRAN/tibble r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dfoliatR_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=53832237319e0f415301c32370ff0203
