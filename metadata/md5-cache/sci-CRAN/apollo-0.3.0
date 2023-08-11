@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/randtoolbox virtual/Matrix sci-CRAN/mvtnorm >=sci-CRAN/Rcpp-1.0.0 sci-CRAN/Deriv sci-CRAN/cli sci-CRAN/stringr sci-CRAN/maxLik sci-CRAN/tibble sci-CRAN/coda sci-CRAN/RSGHB sci-CRAN/bgw sci-CRAN/Rsolnp sci-CRAN/mnormt sci-CRAN/numDeriv dev-lang/R:=
+DESCRIPTION=Tools for Choice Model Estimation and Application
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/randtoolbox virtual/Matrix sci-CRAN/mvtnorm >=sci-CRAN/Rcpp-1.0.0 sci-CRAN/Deriv sci-CRAN/cli sci-CRAN/stringr sci-CRAN/maxLik sci-CRAN/tibble sci-CRAN/coda sci-CRAN/RSGHB sci-CRAN/bgw sci-CRAN/Rsolnp sci-CRAN/mnormt sci-CRAN/numDeriv sci-CRAN/Rcpp sci-CRAN/RcppEigen sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/apollo_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=031ea0837967ed295fe592210d7b9f1c

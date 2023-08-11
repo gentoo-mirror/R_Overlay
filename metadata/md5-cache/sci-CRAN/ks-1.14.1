@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/KernSmooth sci-CRAN/mclust >=sci-CRAN/mvtnorm-1.0.0 sci-CRAN/plot3D >=sci-CRAN/FNN-1.1 sci-CRAN/pracma sci-CRAN/kernlab virtual/Matrix virtual/mgcv sci-CRAN/multicool dev-lang/R:=
+DESCRIPTION=Kernel Smoothing
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geometry r_suggests_mass r_suggests_misc3d r_suggests_oz r_suggests_rgl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=virtual/KernSmooth sci-CRAN/mclust >=sci-CRAN/mvtnorm-1.0.0 sci-CRAN/plot3D >=sci-CRAN/FNN-1.1 sci-CRAN/pracma sci-CRAN/kernlab virtual/Matrix virtual/mgcv sci-CRAN/multicool r_suggests_geometry? ( sci-CRAN/geometry ) r_suggests_mass? ( virtual/MASS ) r_suggests_misc3d? ( >=sci-CRAN/misc3d-0.4.0 ) r_suggests_oz? ( sci-CRAN/oz ) r_suggests_rgl? ( >=sci-CRAN/rgl-0.66 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ks_1.14.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7426efa2e503b4685a74361c7ff3600a
