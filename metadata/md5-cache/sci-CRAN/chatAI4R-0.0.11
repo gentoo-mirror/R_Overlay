@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-BIOC/EBImage sci-CRAN/magrittr sci-CRAN/jsonlite sci-CRAN/httr sci-CRAN/purrr sci-CRAN/hexSticker sci-CRAN/abind sci-CRAN/base64enc sci-CRAN/animation sci-CRAN/png sci-CRAN/assertthat sci-CRAN/clipr sci-CRAN/crayon dev-lang/R:=
+DESCRIPTION=Chat-Based Interactive Artificia... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=>=dev-lang/R-4.2.0 sci-BIOC/EBImage sci-CRAN/magrittr sci-CRAN/jsonlite sci-CRAN/httr sci-CRAN/purrr sci-CRAN/hexSticker sci-CRAN/abind sci-CRAN/base64enc sci-CRAN/animation sci-CRAN/png sci-CRAN/assertthat sci-CRAN/clipr sci-CRAN/crayon r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/chatAI4R_0.0.11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3fac010f88845f90acd00b48bb486d0e

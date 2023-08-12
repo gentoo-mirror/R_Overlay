@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/igraph sci-CRAN/reshape2 sci-CRAN/qgraph sci-CRAN/networktools sci-CRAN/gdata dev-lang/R:=
+DESCRIPTION=Statistical Comparison of Networks
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/dplyr sci-CRAN/igraph sci-CRAN/reshape2 sci-CRAN/qgraph sci-CRAN/networktools sci-CRAN/gdata r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/NetworkComparr_0.0.0.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=31935ab302cca061c11272a48ca6b76e
