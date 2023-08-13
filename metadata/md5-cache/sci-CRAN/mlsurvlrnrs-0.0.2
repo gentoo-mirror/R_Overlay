@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/R6 sci-CRAN/data_table sci-CRAN/kdry sci-CRAN/mllrnrs sci-CRAN/mlexperiments dev-lang/R:=
+DESCRIPTION=R6-Based ML Survival Learners for mlexperiments
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glmnet r_suggests_knitr r_suggests_lintr r_suggests_mlr3measures r_suggests_parbayesianoptimization r_suggests_ranger r_suggests_rpart r_suggests_splittools r_suggests_survival r_suggests_testthat r_suggests_xgboost byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/R6 sci-CRAN/data_table sci-CRAN/kdry sci-CRAN/mllrnrs sci-CRAN/mlexperiments r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_mlr3measures? ( sci-CRAN/mlr3measures ) r_suggests_parbayesianoptimization? ( sci-CRAN/ParBayesianOptimization ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rpart? ( virtual/rpart ) r_suggests_splittools? ( sci-CRAN/splitTools ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.1 ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlsurvlrnrs_0.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c4fdee4378490f4a7e2542e266f9ffe3
