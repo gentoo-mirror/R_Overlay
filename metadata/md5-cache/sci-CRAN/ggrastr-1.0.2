@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.2 sci-CRAN/ragg >=sci-CRAN/Cairo-1.5.9 >=sci-CRAN/ggplot2-2.1.0 sci-CRAN/ggbeeswarm sci-CRAN/png dev-lang/R:=
+DESCRIPTION=Rasterize Layers for ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_maps r_suggests_rmarkdown r_suggests_sf byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.2.2 sci-CRAN/ragg >=sci-CRAN/Cairo-1.5.9 >=sci-CRAN/ggplot2-2.1.0 sci-CRAN/ggbeeswarm sci-CRAN/png r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggrastr_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cbb5c1663ec3c1a4bc4ccd47fbef134a

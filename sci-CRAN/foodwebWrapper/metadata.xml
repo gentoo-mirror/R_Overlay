@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Enhanced Wrapper to Show Which Functions Call What // Enhances
+		the functionality of the mvbutils::foodweb() program. The
+		matrix-format output of the original program contains identical
+		row names and column names, each name representing a retrieved
+		function. This format is enhanced by using the find_funs()
+		program [see Sebastian (2017)
+		https://sebastiansauer.github.io/finds_funs/] to concatenate
+		the package name to the function name. Each package is assigned
+		a unique color, that is used to color code the text naming the
+		packages and the functions. This color coding is extended to
+		the entries of value "1" within the matrix, indicating the
+		pattern of ancestor and descendent functions.
+	</longdescription>
+</pkgmetadata>
