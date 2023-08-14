@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Kernel Measure of Multi-Sample Dissimilarity // Implementations
+		of the kernel measure of multi-sample dissimilarity (KMD)
+		between several samples using K-nearest neighbor graphs and
+		minimum spanning trees. The KMD measures the dissimilarity
+		between multiple samples, based on the observations from them.
+		It converges to the population quantity (depending on the
+		kernel) which is between 0 and 1. A small value indicates the
+		multiple samples are from the same distribution, and a large
+		value indicates the corresponding distributions are different.
+		The population quantity is 0 if and only if all distributions
+		are the same, and 1 if and only if all distributions are
+		mutually singular. The package also implements the tests based
+		on KMD for H0: the M distributions are equal against H1: not
+		all the distributions are equal. Both permutation test and
+		asymptotic test are available. These tests are consistent
+		against all alternatives where at least two samples have
+		different distributions. For more details on KMD and the
+		associated tests, see Huang, Z. and B. Sen (2022)
+		arXiv:2210.00634.
+	</longdescription>
+</pkgmetadata>

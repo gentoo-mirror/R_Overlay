@@ -1,0 +1,49 @@
+# Copyright 1999-2023 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Client for the KoboToolbox API'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/robotoolbox_1.3.2.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_covr r_suggests_devtools r_suggests_diagrammer
+	r_suggests_diagrammersvg r_suggests_knitr r_suggests_rmarkdown
+	r_suggests_roxygen2 r_suggests_testthat r_suggests_vcr"
+R_SUGGESTS="
+	r_suggests_covr? ( >=sci-CRAN/covr-3.6.2 )
+	r_suggests_devtools? ( >=sci-CRAN/devtools-2.4.3 )
+	r_suggests_diagrammer? ( >=sci-CRAN/DiagrammeR-1.0.9 )
+	r_suggests_diagrammersvg? ( >=sci-CRAN/DiagrammeRsvg-0.1 )
+	r_suggests_knitr? ( >=sci-CRAN/knitr-1.37 )
+	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.21 )
+	r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.2.3 )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.1 )
+	r_suggests_vcr? ( >=sci-CRAN/vcr-1.2.0 )
+"
+DEPEND=">=dev-lang/R-4.1
+	>=sci-CRAN/tidyr-1.3.0
+	>=sci-CRAN/RcppSimdJson-0.1.6
+	>=sci-CRAN/dplyr-1.1.2
+	>=sci-CRAN/data_table-1.14.2
+	>=sci-CRAN/rlang-1.0.0
+	>=sci-CRAN/tidyselect-1.2.0
+	>=sci-CRAN/tibble-3.2.1
+	>=sci-CRAN/dm-1.0.5
+	>=sci-CRAN/labelled-2.11.0
+	>=sci-CRAN/crul-1.4.0
+	>=sci-CRAN/purrr-1.0.1
+	>=sci-CRAN/stringi-1.7.6
+	>=sci-CRAN/glue-1.6.0
+	>=sci-CRAN/cli-3.6.1
+	>=sci-CRAN/readr-2.1.0
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+
+_UNRESOLVED_PACKAGES=(
+	'>=sci-CRAN/mapview-2.11.0'
+	'>=sci-CRAN/sf-1.0.9'
+)

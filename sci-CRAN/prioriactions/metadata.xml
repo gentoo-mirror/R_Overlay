@@ -10,15 +10,18 @@
 		aspects. Thus, optimizing the connectivity and conservation
 		effectiveness of the prioritized units and of the deployed
 		actions. The package is capable of handling different
-		commercial (gurobi, CPLEX) and non-commercial (symphony) MIP
-		solvers. Gurobi optimization solver can be installed using
-		comprehensive instructions in the gurobi installation vignette
-		of the prioritizr package (available in https://prioritizr.net/
-		articles/gurobi_installation_guide.html). Instead, CPLEX
-		optimization solver can be obtain from IBM CPLEX web page
-		(available here https://www.ibm.com/es-es/products/ilog-cplex-
-		optimization-studio). Methods used in the package refers to
-		Salgado-Rojas et al. (2020)
+		commercial (gurobi, CPLEX) and non-commercial (symphony, CBC)
+		MIP solvers. Gurobi optimization solver can be installed using
+		comprehensive instructions in the 'gurobi' installation
+		vignette of the prioritizr package (available in https://priori
+		tizr.net/articles/gurobi_installation_guide.html). Instead,
+		'CPLEX' optimization solver can be obtain from IBM CPLEX web
+		page (available here https://www.ibm.com/es-es/products/ilog-
+		cplex-optimization-studio). Additionally, the 'rcbc' R package
+		(available at https://github.com/dirkschumacher/rcbc) can be
+		used to obtain solutions using the CBC optimization software
+		(https://github.com/coin-or/Cbc). Methods used in the package
+		refers to Salgado-Rojas et al. (2020)
 		doi:10.1016/j.ecolmodel.2019.108901, Beyer et al. (2016)
 		doi:10.1016/j.ecolmodel.2016.02.005, Cattarino et al. (2015)
 		doi:10.1371/journal.pone.0128027 and Watts et al. (2009)

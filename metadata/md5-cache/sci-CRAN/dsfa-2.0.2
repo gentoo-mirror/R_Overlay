@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/mgcv sci-CRAN/Rdpack sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/copula sci-CRAN/gratia dev-lang/R:=
+DESCRIPTION=Distributional Stochastic Frontier Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_plm r_suggests_sfar byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 virtual/mgcv sci-CRAN/Rdpack sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/copula sci-CRAN/gratia sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_plm? ( sci-CRAN/plm ) r_suggests_sfar? ( sci-CRAN/sfaR ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dsfa_2.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=10a5907d19e79229642863a62dcf7780

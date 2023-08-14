@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1 sci-CRAN/POSetR sci-CRAN/Rcpp sci-CRAN/fractional virtual/Matrix sci-CRAN/registry sci-CRAN/settings sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/glue sci-CRAN/forcats sci-CRAN/R6 sci-CRAN/tikzDevice sci-CRAN/magrittr sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Formal Concept Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arules r_suggests_covr r_suggests_hassediagram r_suggests_knitr r_suggests_markdown r_suggests_rmarkdown r_suggests_testthat r_suggests_tictoc byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1 sci-CRAN/POSetR sci-CRAN/Rcpp sci-CRAN/fractional virtual/Matrix sci-CRAN/registry sci-CRAN/settings sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/glue sci-CRAN/forcats sci-CRAN/R6 sci-CRAN/tikzDevice sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/Rcpp r_suggests_arules? ( sci-CRAN/arules ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_hassediagram? ( sci-CRAN/hasseDiagram ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_tictoc? ( sci-CRAN/tictoc ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fcaR_1.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=84b749abdb4184d2d32612dda4f02710
