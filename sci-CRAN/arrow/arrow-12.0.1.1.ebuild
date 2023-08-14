@@ -54,3 +54,9 @@ RDEPEND="${DEPEND-}
 	>=sci-CRAN/cpp11-0.4.2
 	${R_SUGGESTS-}
 "
+
+src_prepare() {
+        sed -e '/ARROW_OPTS_CMAKE/{s,$LIB_DIR,'"${EPREFIX}/usr/$(get_libdir),;"'s/ON/\\(ON\\|yes\\)/}' \
+                -i configure || die
+        default
+}
