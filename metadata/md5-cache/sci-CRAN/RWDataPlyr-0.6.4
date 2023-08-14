@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/dplyr-0.7.0 >=sci-CRAN/data_table-1.10.0 sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/feather sci-CRAN/xts sci-CRAN/zoo sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Read and Manipulate Data from RiverWare
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/dplyr-0.7.0 >=sci-CRAN/data_table-1.10.0 sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/feather sci-CRAN/xts sci-CRAN/zoo sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RWDataPlyr_0.6.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f99f8b516e030774b6c819ce35e386fa

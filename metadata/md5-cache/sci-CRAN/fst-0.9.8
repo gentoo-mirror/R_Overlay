@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/Rcpp sci-CRAN/fstcore dev-lang/R:=
+DESCRIPTION=Lightning Fast Serialization of Data Frames
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bit64 r_suggests_crayon r_suggests_data_table r_suggests_lintr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/Rcpp sci-CRAN/fstcore sci-CRAN/Rcpp sci-CRAN/fstcore r_suggests_bit64? ( sci-CRAN/bit64 ) r_suggests_crayon? ( sci-CRAN/crayon ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fst_0.9.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c05ef97de1caac91043a81736a8cdb66

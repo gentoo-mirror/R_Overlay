@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Database Storage of Genotype Probabilities for QTL Mapping //
+		Uses the 'fst' package to store genotype probabilities on disk
+		for the 'qtl2' package. These genotype probabilities are a
+		central data object for mapping quantitative trait loci (QTL),
+		but they can be quite large. The facilities in this package
+		enable the genotype probabilities to be stored on disk, leading
+		to reduced memory usage with only a modest increase in
+		computation time.
+	</longdescription>
+</pkgmetadata>

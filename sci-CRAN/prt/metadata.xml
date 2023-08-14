@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tabular Data Backed by Partitioned 'fst' Files // Intended for
+		larger-than-memory tabular data, 'prt' objects provide an
+		interface to read row and/or column subsets into memory as
+		data.table objects. Data queries, constructed as 'R'
+		expressions, are evaluated using the non-standard evaluation
+		framework provided by 'rlang' and file-backing is powered by
+		the fast and efficient 'fst' package.
+	</longdescription>
+</pkgmetadata>

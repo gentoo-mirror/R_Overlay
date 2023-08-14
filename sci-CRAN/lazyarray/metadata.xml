@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Persistent Large Data Array with Lazy-Loading on Demand // Multi-
+		threaded serialization of compressed array that fully utilizes
+		modern solid state drives. It allows to store and load
+		extremely large data on demand within seconds without occupying
+		too much memories. With data stored on hard drive, a lazy-array
+		data can be loaded, shared across multiple R sessions. For
+		arrays with partition mode on, multiple R sessions can write to
+		a same array simultaneously along the last dimension
+		(partition). The internal storage format is provided by
+		'fstcore' package geared by 'LZ4' and 'ZSTD' compressors.
+	</longdescription>
+</pkgmetadata>

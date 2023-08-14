@@ -2,13 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Gene Analysis Toolkit in R // An analysis toolkit based on the
-		gene. It mainly includes five features (search, transform,
-		analysis, visualization, and export). The user just needs to
-		provide gene id ('entrez', 'symbol' or 'ensembl') then can
-		search gene-related information, transform id type, do
-		enrichment analysis, visualize enrichment result, visualize
-		multi-group overlap, and export result as excel sheets to
+		Gene Analysis Toolkit // An analysis toolkit focused on genes. It
+		mainly includes five features (search, convert, analysis, plot,
+		and export). The user just needs to input feature id ('entrez',
+		'symbol', 'ensembl' or 'uniprot') to retrieve feature
+		information and 'PubMed'https://pubmed.ncbi.nlm.nih.gov/
+		records, to convert id types, to easily handle gene enrichment
+		analysis and publication-level figures, to plot group
+		interaction and export results as sheets in one 'excel' file to
 		easily share and communicate with others.
 	</longdescription>
 </pkgmetadata>
