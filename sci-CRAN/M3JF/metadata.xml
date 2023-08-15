@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-Modal Matrix Joint Factorization for Integrative Multi-
+		Omics Data Analysis // Multi modality data matrices are
+		factorized conjointly into the multiplication of a shared sub-
+		matrix and multiple modality specific sub-matrices, group
+		sparse constraint is applied to the shared sub-matrix to
+		capture the homogeneous and heterogeneous information,
+		respectively. Then the samples are classified by clustering the
+		shared sub-matrix with kmeanspp(), a new version of kmeans()
+		developed here to obtain concordant results. The package also
+		provides the cluster number estimation by rotation cost.
+		Moreover, cluster specific features could be retrieved using
+		hypergeometric tests.
+	</longdescription>
+</pkgmetadata>

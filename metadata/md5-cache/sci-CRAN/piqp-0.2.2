@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/R6 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=R Interface to Proximal Interior... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_slam r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD-2
+RDEPEND=virtual/Matrix sci-CRAN/R6 sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppEigen r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_slam? ( sci-CRAN/slam ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/piqp_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7f20bd0d2b737de79e8b42bf123f0a53
