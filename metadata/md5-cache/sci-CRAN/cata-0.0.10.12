@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 dev-lang/R:=
+DESCRIPTION=Analysis of Check-All-that-Apply (CATA) Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1.0 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cata_0.0.10.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3ca736ebaf90447498bc0ef6a15c404c

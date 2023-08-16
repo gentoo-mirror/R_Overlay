@@ -2,15 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Vectors in Partitioning // Non-parametric clustering of joint
-		pattern multi-genetic/epigenetic factors. The goal of this
-		package is to cluster subjects based on gene features including
-		single nucleotide polymorphisms (SNPs), DNA methylation (CPG),
-		and gene expression (GE). The novel concept follows the general
-		K-means (Hartigan and Wong (1979) doi:10.2307/2346830 framework
-		but uses weighted Euclidean distances across the gene features
-		to cluster subjects. This approach is unique in that it
-		attempts to capture all pairwise interactions in an effort to
-		cluster based on their complex biological interactions.
+		Vector in Partition // Non-parametric clustering of joint pattern
+		multi-genetic/epigenetic factors. This package contains
+		functions designed to cluster subjects based on gene features
+		including single nucleotide polymorphisms (SNPs), DNA
+		methylation (CPG), gene expression (GE), and covariate data.
+		The novel concept follows the general K-means (Hartigan and
+		Wong (1979) doi:10.2307/2346830 framework but uses weighted
+		Euclidean distances across the gene features to cluster
+		subjects. This approach is unique in that it attempts to
+		capture all pairwise interactions in an effort to cluster based
+		on their complex biological interactions.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rfast sci-CRAN/statmod virtual/MASS sci-CRAN/Formula sci-CRAN/numDeriv dev-lang/R:=
+DESCRIPTION=Set of Tools to Data Analysis us... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aplore3 r_suggests_islr r_suggests_pscl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/Rfast sci-CRAN/statmod virtual/MASS sci-CRAN/Formula sci-CRAN/numDeriv r_suggests_aplore3? ( sci-CRAN/aplore3 ) r_suggests_islr? ( sci-CRAN/ISLR ) r_suggests_pscl? ( sci-CRAN/pscl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/glmtoolbox_0.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0c5303bc29d46f8c501678644456ecfc
