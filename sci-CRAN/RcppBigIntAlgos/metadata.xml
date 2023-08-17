@@ -11,11 +11,10 @@
 		multiple polynomials introduced by Peter Montgomery and J.
 		Davis as outlined by Robert D. Silverman (1987)
 		doi:10.1090/S0025-5718-1987-0866119-8. Utilizes the C library
-		GMP (GNU Multiple Precision Arithmetic) and 'RcppThread' for
-		factoring integers in parallel. For smaller integers, a simple
-		Elliptic Curve algorithm is attempted followed by a constrained
-		version of Pollard's rho algorithm. The Pollard's rho algorithm
-		is the same algorithm used by the factorize function in the
-		'gmp' package.
+		GMP (GNU Multiple Precision Arithmetic). For smaller integers,
+		a simple Elliptic Curve algorithm is attempted followed by a
+		constrained version of Pollard's rho algorithm. The Pollard's
+		rho algorithm is the same algorithm used by the factorize
+		function in the 'gmp' package.
 	</longdescription>
 </pkgmetadata>

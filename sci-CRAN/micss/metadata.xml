@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Modified Iterative Cumulative Sum of Squares Algorithm //
+		Companion package of Carrion-i-Silvestre  Sans (2023):
+		"Generalized Extreme Value Approximation to the CUMSUMQ Test
+		for Constant Unconditional Variance in Heavy-Tailed Time
+		Series". It implements the Modified Iterative Cumulative Sum of
+		Squares Algorithm, which is an extension of the Iterative
+		Cumulative Sum of Squares (ICSS) Algorithm of Inclan and Tiao
+		(1994), and it checks for changes in the unconditional variance
+		of a time series controlling for the tail index of the
+		underlying distribution. The fourth order moment is estimated
+		non-parametrically to avoid the size problems when the
+		innovations are non-Gaussian (see, Sans et al., 2004). Critical
+		values and p-values are generated using a Generalized Extreme
+		Value distribution approach. References Carrion-i-Silvestre J.J
+		Sans A (2023)
+		https://www.ub.edu/irea/working_papers/2023/202309.pdf. Inclan
+		C  Tiao G.C (1994) doi:10.1080/01621459.1994.10476824, Sans A
+		Arag V  Carrion-i-Silvestre J.L (2004) https://dspace.uib.es/xm
+		lui/bitstream/handle/11201/152078/524035.pdf.
+	</longdescription>
+</pkgmetadata>
