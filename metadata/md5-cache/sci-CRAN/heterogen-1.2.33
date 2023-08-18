@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/future sci-CRAN/rio sci-CRAN/terra sci-CRAN/scales dev-lang/R:=
+DESCRIPTION=Spatial Functions for Heterogene... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/future sci-CRAN/rio sci-CRAN/terra sci-CRAN/scales sci-CRAN/Rcpp sci-CRAN/RcppEigen sci-CRAN/RcppArmadillo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/heterogen_1.2.33.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f58910f62a5b5c67e7b7c02a4b2b7624

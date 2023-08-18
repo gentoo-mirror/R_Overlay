@@ -3,17 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Association Rule Classification // Implements the Classification-
-		based on Association Rules (CBA) (Bing Liu, Wynne Hsu, Yiming
-		Ma (1999) https://dl.acm.org/doi/10.5555/3000292.3000305)
-		algorithm for association rule classification (ARC). The
-		package also contains several convenience methods that allow to
-		automatically set CBA parameters (minimum confidence, minimum
-		support) and it also natively handles numeric attributes by
-		integrating a pre-discretization step. The rule generation
-		phase is handled by the 'arules' package. To further decrease
-		the size of the CBA models produced by the 'arc' package,
-		postprocessing by the 'qCBA' package is suggested. QCBA package
-		can be obtained from CRAN archive or from
-		https://github.com/kliegr/QCBA.
+		based on Association Rules (CBA) algorithm for association rule
+		classification. The package, also described in Hahsler et al.
+		(2019) doi:10.32614/RJ-2019-048, contains several convenience
+		methods that allow to automatically set CBA parameters (minimum
+		confidence, minimum support) and it also natively handles
+		numeric attributes by integrating a pre-discretization step.
+		The rule generation phase is handled by the 'arules' package.
+		To further decrease the size of the CBA models produced by the
+		'arc' package, postprocessing by the 'qCBA' package is
+		suggested.
 	</longdescription>
 </pkgmetadata>

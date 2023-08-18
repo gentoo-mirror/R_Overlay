@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/htmltools-0.5.5 dev-lang/R:=
+DESCRIPTION=Create Simple and Elegant Modal Dialogs in shiny
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bslib r_suggests_knitr r_suggests_rmarkdown r_suggests_shiny byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/htmltools-0.5.5 r_suggests_bslib? ( >=sci-CRAN/bslib-0.5.0 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.43 ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.23 ) r_suggests_shiny? ( >=sci-CRAN/shiny-1.7.4.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/micromodal_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=17f49a3e16932a6014d584cdadb80810

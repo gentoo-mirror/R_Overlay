@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=Evolving Earth System Variables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.5.0 r_suggests_curl? ( sci-CRAN/curl ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/chronosphere_0.6.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6595a3f3a2b3fbd9b20c466dc03b56b5

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.14.0 >=sci-CRAN/filehash-2.3 sci-CRAN/png dev-lang/R:=
+DESCRIPTION=R Graphics Output in LaTeX Format
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_evaluate r_suggests_formatr r_suggests_ggplot2 r_suggests_knitr r_suggests_lattice r_suggests_maps r_suggests_scales r_suggests_stringr r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.14.0 >=sci-CRAN/filehash-2.3 sci-CRAN/png >=dev-tex/pgf-2.00 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_evaluate? ( sci-CRAN/evaluate ) r_suggests_formatr? ( sci-CRAN/formatR ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.1 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tikzDevice_0.12.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2f8768d4e3e7073a000558b06ff1af4a
