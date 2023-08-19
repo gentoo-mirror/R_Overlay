@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sp sci-CRAN/sf sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Turn Geospatial Polygons into Re... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_lintr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/sp sci-CRAN/sf sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/geogrid_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9b43e7d239b5b8a9eb4d102b4ea41657

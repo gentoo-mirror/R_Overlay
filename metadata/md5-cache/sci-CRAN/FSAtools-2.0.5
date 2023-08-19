@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Fragment Analysis and Capillary ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biostrings r_suggests_tk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=r_suggests_biostrings? ( sci-BIOC/Biostrings ) r_suggests_tk? ( dev-lang/R[tk] ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FSAtools_2.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bcb0c62f9dee049fa84bb4deeec1dad6

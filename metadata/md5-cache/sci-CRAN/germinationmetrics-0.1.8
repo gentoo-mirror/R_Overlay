@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mathjaxr sci-CRAN/gslnls sci-CRAN/plyr >=dev-lang/R-3.5.0 sci-CRAN/broom sci-CRAN/ggrepel sci-CRAN/data_table sci-CRAN/ggplot2 sci-CRAN/Rdpack dev-lang/R:=
+DESCRIPTION=Seed Germination Indices and Curve Fitting
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_httr r_suggests_knitr r_suggests_pander r_suggests_rcurl r_suggests_reshape2 r_suggests_rmarkdown r_suggests_testthat r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/mathjaxr sci-CRAN/gslnls sci-CRAN/plyr >=dev-lang/R-3.5.0 sci-CRAN/broom sci-CRAN/ggrepel sci-CRAN/data_table sci-CRAN/ggplot2 sci-CRAN/Rdpack r_suggests_httr? ( sci-CRAN/httr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pander? ( sci-CRAN/pander ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/germinationmetrics_0.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3d480763522ff3b21fae23200215ca78

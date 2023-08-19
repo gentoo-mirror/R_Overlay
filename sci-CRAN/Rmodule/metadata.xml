@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automated Markov Chain Monte Carlo for Arbitrarily Structured
+		Correlation Matrices // Supports automated Markov chain Monte
+		Carlo for arbitrarily structured correlation matrices. The user
+		supplies data, a correlation matrix in symbolic form, the
+		current state of the chain, a function that computes the log
+		likelihood, and a list of prior distributions. The package's
+		flagship function then carries out a parameter-at-a-time update
+		of all correlation parameters, and returns the new state. The
+		method is presented in Hughes (2023), in preparation.
+	</longdescription>
+</pkgmetadata>

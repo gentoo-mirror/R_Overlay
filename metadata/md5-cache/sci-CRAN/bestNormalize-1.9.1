@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/butcher sci-CRAN/nortest sci-CRAN/doRNG sci-CRAN/purrr sci-CRAN/generics >=dev-lang/R-3.1.0 >=sci-CRAN/LambertW-0.6.5 sci-CRAN/doParallel sci-CRAN/recipes sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Normalizing Transformation Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_knitr r_suggests_mass r_suggests_mgcv r_suggests_rlang r_suggests_rmarkdown r_suggests_scales r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/butcher sci-CRAN/nortest sci-CRAN/doRNG sci-CRAN/purrr sci-CRAN/generics >=dev-lang/R-3.1.0 >=sci-CRAN/LambertW-0.6.5 sci-CRAN/doParallel sci-CRAN/recipes sci-CRAN/tibble r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bestNormalize_1.9.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f08b11974f9ce334321c7c297777fb21

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculating Optimum Sampling Effort in Community Ecology // A
+		system for calculating the optimal sampling effort, based on
+		the ideas of "Ecological cost-benefit optimization" as
+		developed by A. Underwood (1997, ISBN 0 521 55696 1). Data is
+		obtained from simulated ecological communities, and the
+		optimization follows the following procedure of four functions
+		(1) sim_beta() estimates statistical power and type 2 error by
+		using Permutational Multivariate Analysis of Variance, (2)
+		plot_power() represents the results of the previous function,
+		(3) scompvar() calculates the variation components necessary
+		for (4) sim_cbo() to calculate the optimal combination of
+		number of sites and samples depending on either an economical
+		budget or on a desired statistical accuracy.
+	</longdescription>
+</pkgmetadata>
