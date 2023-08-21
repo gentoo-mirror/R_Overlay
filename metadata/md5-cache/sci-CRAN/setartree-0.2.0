@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/generics-0.1.2 dev-lang/R:=
+DESCRIPTION=SETAR-Tree - A Novel and Accurat... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_forecast byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/generics-0.1.2 r_suggests_forecast? ( sci-CRAN/forecast ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/setartree_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ff3ee95e118594521f647d245a19622b
