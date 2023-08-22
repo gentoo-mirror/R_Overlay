@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/dynlm sci-CRAN/gridExtra sci-CRAN/lmtest sci-CRAN/stringr sci-CRAN/zoo sci-CRAN/aod sci-CRAN/msm dev-lang/R:=
+DESCRIPTION=ARDL, ECM and Bounds-Test for Cointegration
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_qpcr r_suggests_sandwich r_suggests_strucchange r_suggests_testthat r_suggests_tseries byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/dynlm sci-CRAN/gridExtra sci-CRAN/lmtest sci-CRAN/stringr sci-CRAN/zoo sci-CRAN/aod sci-CRAN/msm r_suggests_qpcr? ( sci-CRAN/qpcR ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_strucchange? ( sci-CRAN/strucchange ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tseries? ( sci-CRAN/tseries ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ARDL_0.2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7f1efa34d55acd048e3f1825eeb312dd

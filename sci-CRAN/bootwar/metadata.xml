@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Nonparametric Bootstrap Test with Pooled Resampling Card Game //
+		The card game War is simple in its rules but can be lengthy. In
+		another domain, the nonparametric bootstrap test with pooled
+		resampling (nbpr) methods, as outlined in Dwivedi,
+		Mallawaarachchi, and Alvarado (2017) doi:10.1002/sim.7263, is
+		optimal for comparing paired or unpaired means in non-normal
+		data, especially for small sample size studies. However, many
+		researchers are unfamiliar with these methods. The 'bootwar'
+		package bridges this gap by enabling users to grasp the
+		concepts of nbpr via Boot War, a variation of the card game War
+		designed for small samples. With the shuffle_cards() function,
+		players can engage in Boot War using a standard 52-card deck, a
+		custom deck created via an anonymous function, or interleaved
+		custom decks where each player has their distinct deck. The
+		package further provides functions like deal_card(),
+		score_keeper(), and play_round() to streamline gameplay and
+		scoring. Once a predetermined number of rounds concludes, users
+		can employ the analyze_game() function to derive game results.
+		This function leverages the 'npboottprm' package's nonparboot()
+		to report nbpr results and, for comparative analysis, also
+		reports results from the 'stats' package's t.test() function.
+		Additionally, 'bootwar' features an interactive 'shiny' web
+		application, bootwar(). This offers a user-centric interface to
+		experience Boot War, enhancing understanding of nbpr methods
+		across various distributions, sample sizes, number of bootstrap
+		resamples, and confidence intervals.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/rvest sci-CRAN/stringr sci-CRAN/antiword >=dev-lang/R-3.4.0 sci-CRAN/tidyr sci-CRAN/xml2 sci-CRAN/curl sci-CRAN/readr sci-CRAN/pdftools dev-lang/R:=
+DESCRIPTION=Retrieve Data on European Union Law
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggiraph r_suggests_ggplot2 r_suggests_knitr r_suggests_purrr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidytext r_suggests_wordcloud byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/rvest sci-CRAN/stringr sci-CRAN/antiword >=dev-lang/R-3.4.0 sci-CRAN/tidyr sci-CRAN/xml2 sci-CRAN/curl sci-CRAN/readr sci-CRAN/pdftools r_suggests_ggiraph? ( sci-CRAN/ggiraph ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidytext? ( sci-CRAN/tidytext ) r_suggests_wordcloud? ( sci-CRAN/wordcloud ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/eurlex_0.4.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5c762d3058d609de87dc3e91f63acff0

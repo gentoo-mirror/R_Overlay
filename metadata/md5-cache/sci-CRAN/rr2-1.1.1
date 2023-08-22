@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ape virtual/nlme virtual/Matrix sci-CRAN/lme4 >=dev-lang/R-3.0 >=sci-CRAN/phylolm-2.6.2 >=sci-CRAN/phyr-1.0.3 dev-lang/R:=
+DESCRIPTION=R2s for Regression Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mvtnorm r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ape virtual/nlme virtual/Matrix sci-CRAN/lme4 >=dev-lang/R-3.0 >=sci-CRAN/phylolm-2.6.2 >=sci-CRAN/phyr-1.0.3 r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rr2_1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=019dd1be026d121dbb1e2a04d14f33c2
