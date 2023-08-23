@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/maps dev-lang/R:=
+DESCRIPTION=Mailmerge using R, LaTeX, and the Web
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/stringr sci-CRAN/maps dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/muRL_0.1-13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ba2a345e4e3ac7856c004fd0539ff34a

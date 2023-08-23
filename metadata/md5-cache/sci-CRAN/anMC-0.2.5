@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvtnorm >=sci-CRAN/Rcpp-0.11.1 dev-lang/R:=
+DESCRIPTION=Compute High Dimensional Orthant Probabilities
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dicekriging r_suggests_truncatednormal byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/mvtnorm >=sci-CRAN/Rcpp-0.11.1 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_dicekriging? ( sci-CRAN/DiceKriging ) r_suggests_truncatednormal? ( sci-CRAN/TruncatedNormal ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/anMC_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f1c7e54fed6f4e5a49bb2b3a5e97c47c

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix virtual/MASS dev-lang/R:=
+DESCRIPTION=New Graph-Based Multi-Sample Tests
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ade4 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/Matrix virtual/MASS r_suggests_ade4? ( sci-CRAN/ade4 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gTestsMulti_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=374c631b6027fe2f32b02a29b4890c72

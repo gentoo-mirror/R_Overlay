@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/patchwork sci-CRAN/scales dev-lang/R:=
+DESCRIPTION=Functions for Statistics Classes... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/patchwork sci-CRAN/scales r_suggests_mass? ( virtual/MASS ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CarletonStats_2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=20b6b0cb10986ed76d3e867ef1a45ea0
