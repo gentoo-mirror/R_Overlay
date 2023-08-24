@@ -1,0 +1,48 @@
+# Copyright 1999-2023 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Flexible Inference via Permutations in R'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/flipr_0.3.3.tar.gz"
+LICENSE='GPL-3+'
+
+IUSE="${IUSE-} r_suggests_covr r_suggests_dplyr r_suggests_htmltools
+	r_suggests_htmlwidgets r_suggests_interp r_suggests_knitr
+	r_suggests_plotly r_suggests_rmarkdown r_suggests_testthat
+	r_suggests_tidyr"
+R_SUGGESTS="
+	r_suggests_covr? ( sci-CRAN/covr )
+	r_suggests_dplyr? ( sci-CRAN/dplyr )
+	r_suggests_htmltools? ( sci-CRAN/htmltools )
+	r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets )
+	r_suggests_interp? ( sci-CRAN/interp )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_plotly? ( sci-CRAN/plotly )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+	r_suggests_tidyr? ( sci-CRAN/tidyr )
+"
+DEPEND="sci-CRAN/cli
+	sci-CRAN/magrittr
+	sci-CRAN/Rcpp
+	sci-CRAN/rgenoud
+	sci-CRAN/purrr
+	sci-CRAN/rlang
+	sci-CRAN/dials
+	sci-CRAN/ggplot2
+	sci-CRAN/optimParallel
+	sci-CRAN/pbapply
+	sci-CRAN/R6
+	sci-CRAN/tibble
+	sci-CRAN/usethis
+	sci-CRAN/viridisLite
+	sci-CRAN/withr
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	${R_SUGGESTS-}
+"
