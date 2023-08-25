@@ -7,10 +7,10 @@
 		doi:10.18637/jss.v033.i01, the 'plasso' package follows Knaus
 		(2022) doi:10.1093/ectj/utac015 and comes up with two functions
 		that estimate least squares Lasso and Post-Lasso models. The
-		'plasso()' function adds coefficient paths for a Post-Lasso
-		model to the standard 'glmnet' output. On top of that
-		'cv.plasso()' cross-validates the coefficient paths for both
-		the Lasso and Post-Lasso model and provides optimal
-		hyperparameter values for the penalty term lambda.
+		plasso() function adds coefficient paths for a Post-Lasso model
+		to the standard 'glmnet' output. On top of that cv.plasso()
+		cross-validates the coefficient paths for both the Lasso and
+		Post-Lasso model and provides optimal hyperparameter values for
+		the penalty term lambda.
 	</longdescription>
 </pkgmetadata>

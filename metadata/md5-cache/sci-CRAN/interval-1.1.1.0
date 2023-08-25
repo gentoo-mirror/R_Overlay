@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/perm-1.0 sci-CRAN/MLEcens virtual/survival sci-BIOC/Icens dev-lang/R:=
+DESCRIPTION=Weighted Logrank Tests and NPMLE... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_coin byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/perm-1.0 sci-CRAN/MLEcens virtual/survival sci-BIOC/Icens r_suggests_coin? ( sci-CRAN/coin ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/interval_1.1-1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=459cbea54a58474288ab805e02ee8a7e

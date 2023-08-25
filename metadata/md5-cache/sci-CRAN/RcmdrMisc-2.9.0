@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sandwich sci-CRAN/abind virtual/foreign sci-CRAN/readxl sci-CRAN/haven sci-CRAN/nortest virtual/lattice >=dev-lang/R-3.5.0 >=sci-CRAN/car-3.0.0 sci-CRAN/colorspace >=sci-CRAN/Hmisc-4.1.0 virtual/MASS sci-CRAN/e1071 sci-CRAN/readstata13 dev-lang/R:=
+DESCRIPTION=R Commander Miscellaneous Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_cardata byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/sandwich sci-CRAN/abind virtual/foreign sci-CRAN/readxl sci-CRAN/haven sci-CRAN/nortest virtual/lattice >=dev-lang/R-3.5.0 >=sci-CRAN/car-3.0.0 sci-CRAN/colorspace >=sci-CRAN/Hmisc-4.1.0 virtual/MASS sci-CRAN/e1071 sci-CRAN/readstata13 r_suggests_boot? ( virtual/boot ) r_suggests_cardata? ( sci-CRAN/carData ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcmdrMisc_2.9-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=08747c839f7c34036510b284723a11af
