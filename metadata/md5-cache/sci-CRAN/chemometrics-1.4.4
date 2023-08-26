@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/e1071 sci-CRAN/robustbase virtual/MASS sci-CRAN/som sci-CRAN/lars virtual/class virtual/rpart virtual/nnet sci-CRAN/pcaPP sci-CRAN/pls sci-CRAN/mclust dev-lang/R:=
+DESCRIPTION=Multivariate Statistical Analysis in Chemometrics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gclus byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/e1071 sci-CRAN/robustbase virtual/MASS sci-CRAN/som sci-CRAN/lars virtual/class virtual/rpart virtual/nnet sci-CRAN/pcaPP sci-CRAN/pls sci-CRAN/mclust r_suggests_gclus? ( sci-CRAN/gclus ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/chemometrics_1.4.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2ee5329840be8feb760724770ed9a733
