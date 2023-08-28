@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.12.10 sci-CRAN/shinydashboard sci-CRAN/pbkrtest virtual/MASS sci-CRAN/officer sci-CRAN/mvtnorm sci-CRAN/lme4 sci-CRAN/doParallel sci-CRAN/rootSolve sci-CRAN/lmerTest >=dev-lang/R-3.1.2 sci-CRAN/flextable sci-CRAN/devEMF sci-CRAN/shiny virtual/Matrix sci-CRAN/RcppNumerical sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Power and Sample Size Calculatio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dorng r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/Rcpp-0.12.10 sci-CRAN/shinydashboard sci-CRAN/pbkrtest virtual/MASS sci-CRAN/officer sci-CRAN/mvtnorm sci-CRAN/lme4 sci-CRAN/doParallel sci-CRAN/rootSolve sci-CRAN/lmerTest >=dev-lang/R-3.1.2 sci-CRAN/flextable sci-CRAN/devEMF sci-CRAN/shiny virtual/Matrix sci-CRAN/RcppNumerical sci-CRAN/foreach sci-CRAN/Rcpp sci-CRAN/RcppNumerical sci-CRAN/RcppEigen r_suggests_dorng? ( sci-CRAN/doRNG ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MedianaDesigner_0.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=03025c04f44f0618b76f7334be13e540

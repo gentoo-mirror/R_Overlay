@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/sf sci-CRAN/sp sci-CRAN/fmesher virtual/Matrix dev-lang/R:=
+DESCRIPTION=Spatial and Spatio-Temporal Models using INLA
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_ggplot2 r_suggests_inlabru r_suggests_knitr r_suggests_rmarkdown r_suggests_rnaturalearth r_suggests_splancs byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/sf sci-CRAN/sp sci-CRAN/fmesher virtual/Matrix r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_inlabru? ( >=sci-CRAN/inlabru-2.8.0 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rnaturalearth? ( sci-CRAN/rnaturalearth ) r_suggests_splancs? ( sci-CRAN/splancs ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/INLAspacetime_0.1.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2ec94afb2732cff379c6c979c5d2710a

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix >=sci-CRAN/qvcalc-0.8.3 virtual/MASS >=dev-lang/R-3.0.0 virtual/nnet sci-CRAN/relimp dev-lang/R:=
+DESCRIPTION=Generalized Nonlinear Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_logmult r_suggests_testthat r_suggests_vcdextra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=virtual/Matrix >=sci-CRAN/qvcalc-0.8.3 virtual/MASS >=dev-lang/R-3.0.0 virtual/nnet sci-CRAN/relimp r_suggests_logmult? ( sci-CRAN/logmult ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vcdextra? ( sci-CRAN/vcdExtra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gnm_1.1-4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1a6c5d7be926300176ed2e73937a56f2
