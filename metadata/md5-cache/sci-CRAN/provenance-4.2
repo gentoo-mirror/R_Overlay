@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/IsoplotR-5.2 virtual/MASS dev-lang/R:=
+DESCRIPTION=Statistical Toolbox for Sediment... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_t4transport r_suggests_transport byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/IsoplotR-5.2 virtual/MASS r_suggests_t4transport? ( sci-CRAN/T4transport ) r_suggests_transport? ( sci-CRAN/transport ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/provenance_4.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f77e788dd41b9c7af506eed9957c6ef2

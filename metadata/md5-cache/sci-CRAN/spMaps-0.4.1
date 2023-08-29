@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/raster sci-CRAN/sp sci-CRAN/rgeos dev-lang/R:=
+DESCRIPTION=Europe SpatialPolygonsDataFrame Builder
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/raster sci-CRAN/sp sci-CRAN/rgeos r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spMaps_0.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f8e2e9736483f6fba4f10e428d32e3c3

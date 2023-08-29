@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/lmerTest virtual/lattice sci-CRAN/mvtnorm sci-CRAN/lme4 dev-lang/R:=
+DESCRIPTION=Power Analysis for Random Effects in Mixed Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rgl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/lmerTest virtual/lattice sci-CRAN/mvtnorm sci-CRAN/lme4 r_suggests_rgl? ( sci-CRAN/rgl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pamm_1.122.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0203614b88b1d9d0a82062c86c2c3ab7
