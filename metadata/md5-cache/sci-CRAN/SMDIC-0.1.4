@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/e1071 virtual/MASS sci-CRAN/backports >=dev-lang/R-3.5.0 sci-CRAN/RColorBrewer sci-CRAN/samr sci-BIOC/GSVA sci-BIOC/preprocessCore sci-CRAN/pheatmap sci-BIOC/maftools virtual/survival sci-CRAN/survminer sci-CRAN/pracma dev-lang/R:=
+DESCRIPTION=Identification of Somatic Mutati... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_r_utils r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/e1071 virtual/MASS sci-CRAN/backports >=dev-lang/R-3.5.0 sci-CRAN/RColorBrewer sci-CRAN/samr sci-BIOC/GSVA sci-BIOC/preprocessCore sci-CRAN/pheatmap sci-BIOC/maftools virtual/survival sci-CRAN/survminer sci-CRAN/pracma r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SMDIC_0.1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e30e21dc6386e92e37ec399e974ba9b3

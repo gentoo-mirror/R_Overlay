@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/spatstat_explore sci-CRAN/spatstat_random virtual/class sci-CRAN/spatstat_model sci-CRAN/spatstat_geom sci-CRAN/terra dev-lang/R:=
+DESCRIPTION=Species-Habitat Associations
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_knitr r_suggests_rmarkdown r_suggests_spatstat r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/spatstat_explore sci-CRAN/spatstat_random virtual/class sci-CRAN/spatstat_model sci-CRAN/spatstat_geom sci-CRAN/terra r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spatstat? ( >=sci-CRAN/spatstat-2.0.0 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/shar_2.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=415abd4064491933ed0ad1d2dc597a23

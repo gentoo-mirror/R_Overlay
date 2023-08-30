@@ -2,24 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A collection of functions for estimating centrographic statistics
-		and computational geometries for spatial point patterns // A
-		collection of functions for computing centrographic statistics
-		(e.g., standard distance, standard deviation ellipse, standard
+		Functions for Estimating Centrographic Statistics // A collection
+		of functions for computing centrographic statistics (e.g.,
+		standard distance, standard deviation ellipse, standard
 		deviation box) for observations taken at point locations.
 		Separate plotting functions have been developed for each
 		measure. Users interested in writing results to ESRI shapefiles
-		can do so by using results from aspace functions as inputs to
-		the convert.to.shapefile and write.shapefile functions in the
-		shapefiles library. The aspace library was originally conceived
-		to aid in the analysis of spatial patterns of travel behaviour
-		(see Buliung and Remmel, 2008). Major changes in the current
-		version include (1) removal of dependencies on several external
-		libraries (e.g., gpclib, maptools, sp), (2) the separation of
-		plotting and estimation capabilities, (3) reduction in the
-		number of functions, and (4) expansion of analytical
-		capabilities with additional functions for descriptive analysis
-		and visualization (e.g., standard deviation box, centre of
-		minimum distance, central feature).
+		can do so by using results from 'aspace' functions as inputs to
+		the convert.to.shapefile() and write.shapefile() functions in
+		the 'shapefiles' library. We intend to provide 'terra'
+		integration for geographic data in a future release. The
+		'aspace' package was originally conceived to aid in the
+		analysis of spatial patterns of travel behaviour (see Buliung
+		and Remmel 2008 doi:10.1007/s10109-008-0063-7).
 	</longdescription>
 </pkgmetadata>

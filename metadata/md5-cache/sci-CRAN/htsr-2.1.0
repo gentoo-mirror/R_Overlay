@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/readr sci-CRAN/directlabels sci-CRAN/RSQLite sci-CRAN/DBI >=dev-lang/R-3.5.0 sci-CRAN/fs sci-CRAN/lubridate sci-CRAN/editData sci-CRAN/shinyFiles sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/openair sci-CRAN/Rcpp sci-CRAN/waiter sci-CRAN/WriteXLS sci-CRAN/terra sci-CRAN/purrr sci-CRAN/readxl sci-CRAN/RODBC sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Hydro-Meteorology Time-Series
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/readr sci-CRAN/directlabels sci-CRAN/RSQLite sci-CRAN/DBI >=dev-lang/R-3.5.0 sci-CRAN/fs sci-CRAN/lubridate sci-CRAN/editData sci-CRAN/shinyFiles sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/openair sci-CRAN/Rcpp sci-CRAN/waiter sci-CRAN/WriteXLS sci-CRAN/terra sci-CRAN/purrr sci-CRAN/readxl sci-CRAN/RODBC sci-CRAN/shiny sci-CRAN/Rcpp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/htsr_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cf3a3b6077b91c382724db926ab5bbbe

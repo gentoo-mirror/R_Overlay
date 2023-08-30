@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/httr sci-CRAN/dplyr sci-CRAN/jsonlite >=dev-lang/R-3.3.0 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Get Financial Data in Korea
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/magrittr sci-CRAN/httr sci-CRAN/dplyr sci-CRAN/jsonlite >=dev-lang/R-3.3.0 sci-CRAN/tibble r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tqk_0.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=594d18b90db5c30ee2f93d36b0938ce7

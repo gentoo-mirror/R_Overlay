@@ -3,12 +3,22 @@
 <pkgmetadata>
 	<longdescription>
 		Fitting Univariate Censored Linear Regression Model with
-		Autoregressive Errors // It fits an univariate left or right
-		censored linear regression model with autoregressive errors
-		under the normal distribution. It provides estimates and
-		standard errors of the parameters, prediction of future
-		observations and it supports missing values on the dependent
-		variable. It also performs influence diagnostic through local
-		influence for three possible perturbation schemes.
+		Autoregressive Errors // It fits a univariate left, right, or
+		interval censored linear regression model with autoregressive
+		errors, considering the normal or the Student-t distribution
+		for the innovations. It provides estimates and standard errors
+		of the parameters, predicts future observations, and supports
+		missing values on the dependent variable. References used for
+		this package: Schumacher, F. L., Lachos, V. H.,  Dey, D. K.
+		(2017). Censored regression models with autoregressive errors:
+		A likelihood-based perspective. Canadian Journal of Statistics,
+		45(4), 375-392 doi:10.1002/cjs.11338. Schumacher, F. L.,
+		Lachos, V. H., Vilca-Labra, F. E.,  Castro, L. M. (2018).
+		Influence diagnostics for censored regression models with
+		autoregressive errors. Australian  New Zealand Journal of
+		Statistics, 60(2), 209-229 doi:10.1111/anzs.12229. Valeriano,
+		K. A., Schumacher, F. L., Galarza, C. E.,  Matos, L. A. (2021).
+		Censored autoregressive regression models with Student-t
+		innovations. arXiv preprint arXiv:2110.00224.
 	</longdescription>
 </pkgmetadata>

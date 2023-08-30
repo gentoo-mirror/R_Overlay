@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 virtual/Matrix virtual/MASS sci-CRAN/coda dev-lang/R:=
+DESCRIPTION=A friendly MCMC framework
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_mcmc r_suggests_mvtnorm r_suggests_rmarkdown r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.3.0 virtual/Matrix virtual/MASS sci-CRAN/coda r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mcmc? ( sci-CRAN/mcmc ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fmcmc_0.5-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=22649ad4198b837223d75c39afee5a60

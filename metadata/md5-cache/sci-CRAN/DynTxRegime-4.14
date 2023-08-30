@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rgenoud sci-CRAN/kernlab sci-CRAN/dfoptim sci-CRAN/modelObj dev-lang/R:=
+DESCRIPTION=Methods for Estimating Optimal D... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_nnet r_suggests_rpart byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/rgenoud sci-CRAN/kernlab sci-CRAN/dfoptim sci-CRAN/modelObj r_suggests_mass? ( virtual/MASS ) r_suggests_nnet? ( virtual/nnet ) r_suggests_rpart? ( virtual/rpart ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DynTxRegime_4.14.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=688e21bdbca20239c81223af8f20354b
