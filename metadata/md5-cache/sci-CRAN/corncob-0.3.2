@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2 sci-CRAN/VGAM sci-CRAN/optimr sci-CRAN/numDeriv sci-CRAN/ggplot2 sci-CRAN/trust sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/detectseparation sci-CRAN/scales sci-BIOC/phyloseq dev-lang/R:=
+DESCRIPTION=Count Regression for Correlated ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_limma r_suggests_r_rsp r_suggests_rmarkdown r_suggests_slam r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2 sci-CRAN/VGAM sci-CRAN/optimr sci-CRAN/numDeriv sci-CRAN/ggplot2 sci-CRAN/trust sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/detectseparation sci-CRAN/scales sci-BIOC/phyloseq r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_slam? ( sci-CRAN/slam ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/corncob_0.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fca25628c63079a1086cded98c3e778a

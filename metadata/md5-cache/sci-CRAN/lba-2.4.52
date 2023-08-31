@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/plotrix sci-CRAN/scatterplot3d sci-CRAN/alabama >=dev-lang/R-3.1.0 sci-CRAN/rgl dev-lang/R:=
+DESCRIPTION=Latent Budget Analysis for Compositional Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/MASS sci-CRAN/plotrix sci-CRAN/scatterplot3d sci-CRAN/alabama >=dev-lang/R-3.1.0 sci-CRAN/rgl dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lba_2.4.52.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=65511cfaacc813dde68eff24280ee06c

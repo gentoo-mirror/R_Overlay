@@ -2,16 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Bayesian Tool for Fast and Flexible Estimation of the
-		Reproduction Number // Estimation of the instantaneous
-		reproduction number with Laplacian-P-splines following the
-		methodology of Gressani et al. (2022)
-		doi:10.1371/journal.pcbi.1010618. The negative binomial
-		distribution is used to model the time series of incidence
-		data. Two methods are available for inference : (1) a sampling-
-		free approach based on a maximum a posteriori calibration of
-		the hyperparameter vector and (2) a fully stochastic approach
-		with a Metropolis-adjusted Langevin algorithm for efficient
-		sampling of the posterior distribution.
+		A Fast and Flexible Bayesian Tool for Estimating Epidemiological
+		Parameters // Estimation of epidemiological parameters with
+		Laplacian-P-splines following the methodology of Gressani et
+		al. (2022) doi:10.1371/journal.pcbi.1010618.
 	</longdescription>
 </pkgmetadata>

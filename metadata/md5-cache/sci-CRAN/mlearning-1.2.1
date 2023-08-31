@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nnet virtual/MASS virtual/rpart virtual/class >=dev-lang/R-3.0.4 sci-CRAN/e1071 sci-CRAN/randomForest sci-CRAN/ipred dev-lang/R:=
+DESCRIPTION=Machine Learning Algorithms with... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_mlbench r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_spelling byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/nnet virtual/MASS virtual/rpart virtual/class >=dev-lang/R-3.0.4 sci-CRAN/e1071 sci-CRAN/randomForest sci-CRAN/ipred r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlearning_1.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=489b21736f47ceef5b59ac1579269b48
