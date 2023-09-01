@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.2 sci-CRAN/stringi >=sci-CRAN/stringdist-0.9.4 sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/gridExtra >=sci-CRAN/data_table-1.9.3 dev-lang/R:=
+DESCRIPTION=Discover Probable Duplicates in ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_diagram r_suggests_httr r_suggests_knitr r_suggests_pander r_suggests_rcurl r_suggests_rmarkdown r_suggests_wordcloud r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.0.2 sci-CRAN/stringi >=sci-CRAN/stringdist-0.9.4 sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/gridExtra >=sci-CRAN/data_table-1.9.3 r_suggests_diagram? ( sci-CRAN/diagram ) r_suggests_httr? ( sci-CRAN/httr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pander? ( sci-CRAN/pander ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_wordcloud? ( sci-CRAN/wordcloud ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PGRdup_0.2.3.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ce77a807d719ddc1a4d6174b936933c1

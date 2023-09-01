@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/broom sci-CRAN/dplyr sci-CRAN/Rcpp sci-CRAN/scales sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/robcor dev-lang/R:=
+DESCRIPTION=Time Series Analysis Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/broom sci-CRAN/dplyr sci-CRAN/Rcpp sci-CRAN/scales sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/robcor sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/simts_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bf2e1b39f1bfd974df376885adf1dcd4
