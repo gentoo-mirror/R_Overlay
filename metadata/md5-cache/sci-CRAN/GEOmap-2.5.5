@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0 sci-CRAN/MBA sci-CRAN/fields sci-CRAN/RPMG sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Topographic and Geologic Mapping
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geomapdata r_suggests_maps byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0 sci-CRAN/MBA sci-CRAN/fields sci-CRAN/RPMG sci-CRAN/sf r_suggests_geomapdata? ( sci-CRAN/geomapdata ) r_suggests_maps? ( sci-CRAN/maps ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GEOmap_2.5-5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=593873aa844f6dd369bddede5f211d15

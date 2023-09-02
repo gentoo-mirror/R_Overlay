@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/janitor sci-CRAN/tidyr sci-CRAN/logger sci-CRAN/httr sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/stringi sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Wrapper for the Filebin File Sharing API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_reticulate r_suggests_spelling r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/janitor sci-CRAN/tidyr sci-CRAN/logger sci-CRAN/httr sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/stringi sci-CRAN/tibble r_suggests_reticulate? ( sci-CRAN/reticulate ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/filebin_0.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=71b0271eb8fe1488ee80ba6b6158fe29
