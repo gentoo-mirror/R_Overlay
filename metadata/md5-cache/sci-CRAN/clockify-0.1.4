@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringi sci-CRAN/tibble sci-CRAN/anytime sci-CRAN/logger sci-CRAN/tidyr sci-CRAN/httr sci-CRAN/janitor sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/purrr sci-CRAN/rlist dev-lang/R:=
+DESCRIPTION=A Wrapper for the Clockify API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_here r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/stringi sci-CRAN/tibble sci-CRAN/anytime sci-CRAN/logger sci-CRAN/tidyr sci-CRAN/httr sci-CRAN/janitor sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/purrr sci-CRAN/rlist r_suggests_here? ( sci-CRAN/here ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clockify_0.1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=93f4a11fc77e4fcb3bacd8e8a7d190a8

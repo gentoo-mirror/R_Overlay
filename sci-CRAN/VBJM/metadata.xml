@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variational Inference for Joint Model // The shared random
+		effects joint model is one of the most widely used approaches
+		to study the associations between longitudinal biomarkers and a
+		survival outcome and make dynamic risk predictions using the
+		longitudinally measured biomarkers. One major limitation of
+		joint models is that they could be computationally expensive
+		for complex models where the number of the shared random
+		effects is large. This package can be used to fit complex
+		multivariate joint models using our newly developed algorithm
+		Jieqi Tu and Jiehuan Sun (2023) doi:10.1002/sim.9619, which is
+		based on Gaussian variational approximate inference and is
+		computationally efficient.
+	</longdescription>
+</pkgmetadata>

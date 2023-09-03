@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/pracma-2.2 >=sci-CRAN/statmod-1.4 virtual/survival >=sci-CRAN/Rcpp-1.0.0 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Variational Inference for Joint Model
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/pracma-2.2 >=sci-CRAN/statmod-1.4 virtual/survival >=sci-CRAN/Rcpp-1.0.0 virtual/Matrix sci-CRAN/Rcpp sci-CRAN/RcppEnsmallen sci-CRAN/RcppArmadillo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/VBJM_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=206fafdef9ab21b42c238282c52c364c

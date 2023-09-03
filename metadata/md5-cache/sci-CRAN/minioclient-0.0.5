@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fs sci-CRAN/jsonlite sci-CRAN/glue sci-CRAN/processx dev-lang/R:=
+DESCRIPTION=Interface to the MinIO Client
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/fs sci-CRAN/jsonlite sci-CRAN/glue sci-CRAN/processx r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/minioclient_0.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=84686bcc5d333abd1acf2232b3c479e6
