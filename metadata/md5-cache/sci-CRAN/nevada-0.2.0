@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/magrittr sci-CRAN/ggplot2 sci-CRAN/furrr sci-CRAN/rgeomstats sci-CRAN/igraph sci-CRAN/Rcpp sci-CRAN/tibble sci-CRAN/forcats sci-CRAN/rlang sci-CRAN/flipr sci-CRAN/cli sci-CRAN/withr sci-CRAN/tsne sci-CRAN/umap dev-lang/R:=
+DESCRIPTION=Network-Valued Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/magrittr sci-CRAN/ggplot2 sci-CRAN/furrr sci-CRAN/rgeomstats sci-CRAN/igraph sci-CRAN/Rcpp sci-CRAN/tibble sci-CRAN/forcats sci-CRAN/rlang sci-CRAN/flipr sci-CRAN/cli sci-CRAN/withr sci-CRAN/tsne sci-CRAN/umap sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nevada_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ebf4ba91243300a4a7f95dab5b6d3024
