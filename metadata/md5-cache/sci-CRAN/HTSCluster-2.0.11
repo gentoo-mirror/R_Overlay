@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/plotrix sci-CRAN/capushe sci-BIOC/edgeR dev-lang/R:=
+DESCRIPTION=Clustering High-Throughput Trans... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biobase byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/plotrix sci-CRAN/capushe sci-BIOC/edgeR r_suggests_biobase? ( sci-BIOC/Biobase ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/HTSCluster_2.0.11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e09b541a3cc8b22488911527866db31a

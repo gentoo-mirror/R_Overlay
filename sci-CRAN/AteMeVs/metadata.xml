@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Average Treatment Effects with Measurement Error and Variable
+		Selection for Confounders // A recent method proposed by Yi and
+		Chen (2023) doi:10.1177/09622802221146308 is used to estimate
+		the average treatment effects using noisy data containing both
+		measurement error and spurious variables. The package 'AteMeVs'
+		contains a set of functions that provide a step-by-step
+		estimation procedure, including the correction of the
+		measurement error effects, variable selection for building the
+		model used to estimate the propensity scores, and estimation of
+		the average treatment effects. The functions contain multiple
+		options for users to implement, including different ways to
+		correct for the measurement error effects, distinct choices of
+		penalty functions to do variable selection, and various
+		regression models to characterize propensity scores.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/poibin dev-lang/R:=
+DESCRIPTION=Multiple Hypothesis Testing
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_discretefdr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/poibin r_suggests_discretefdr? ( sci-CRAN/DiscreteFDR ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sgof_2.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c1f519ebac6d85f21f8c5d9a3f47cf23

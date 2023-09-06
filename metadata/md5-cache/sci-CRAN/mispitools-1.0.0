@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/patchwork sci-CRAN/reshape2 sci-CRAN/pedtools sci-CRAN/plotly sci-CRAN/shiny sci-CRAN/forrel sci-CRAN/dplyr sci-CRAN/highcharter sci-CRAN/tidyr sci-CRAN/tidyverse sci-CRAN/DirichletReg sci-CRAN/purrr sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Missing Person Identification Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/patchwork sci-CRAN/reshape2 sci-CRAN/pedtools sci-CRAN/plotly sci-CRAN/shiny sci-CRAN/forrel sci-CRAN/dplyr sci-CRAN/highcharter sci-CRAN/tidyr sci-CRAN/tidyverse sci-CRAN/DirichletReg sci-CRAN/purrr sci-CRAN/ggplot2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mispitools_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=17a886160272c1f8b342fad1eff1c2d0
