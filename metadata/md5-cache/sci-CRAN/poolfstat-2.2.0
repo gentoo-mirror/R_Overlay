@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0 sci-CRAN/doParallel sci-CRAN/DiagrammeR sci-CRAN/Ryacas >=sci-CRAN/Rcpp-1.0.5 virtual/Matrix sci-CRAN/progress sci-CRAN/nnls sci-CRAN/data_table sci-CRAN/foreach sci-CRAN/ape sci-CRAN/zoo sci-CRAN/RcppProgress dev-lang/R:=
+DESCRIPTION=Computing f-Statistics and Build... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0 sci-CRAN/doParallel sci-CRAN/DiagrammeR sci-CRAN/Ryacas >=sci-CRAN/Rcpp-1.0.5 virtual/Matrix sci-CRAN/progress sci-CRAN/nnls sci-CRAN/data_table sci-CRAN/foreach sci-CRAN/ape sci-CRAN/zoo sci-CRAN/RcppProgress sci-CRAN/Rcpp sci-CRAN/RcppProgress dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/poolfstat_2.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d1f944036b90f5e4547fc9e06ea29413

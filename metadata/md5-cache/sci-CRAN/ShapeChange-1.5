@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/coneproj-1.11 >=dev-lang/R-3.2.0 >=sci-CRAN/quadprog-1.5.5 dev-lang/R:=
+DESCRIPTION=Change-Point Estimation using Sh... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/coneproj-1.11 >=dev-lang/R-3.2.0 >=sci-CRAN/quadprog-1.5.5 r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ShapeChange_1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b9ceab1d88d648cef7bfd8874227302d
