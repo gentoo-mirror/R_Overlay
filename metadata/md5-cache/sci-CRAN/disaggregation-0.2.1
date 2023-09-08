@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sp sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/TMB sci-CRAN/doParallel sci-CRAN/raster sci-CRAN/sf sci-CRAN/foreach sci-CRAN/splancs virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/sparseMVN dev-lang/R:=
+DESCRIPTION=Disaggregation Modelling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_spatial r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/sp sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/TMB sci-CRAN/doParallel sci-CRAN/raster sci-CRAN/sf sci-CRAN/foreach sci-CRAN/splancs virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/sparseMVN sci-CRAN/TMB sci-CRAN/RcppEigen r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spatial? ( virtual/spatial ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/disaggregation_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b7217d4512947310c07dc95d1faa430e
