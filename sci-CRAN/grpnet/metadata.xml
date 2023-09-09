@@ -9,9 +9,11 @@
 		regularization path for linear regression (gaussian), logistic
 		regression (binomial), multinomial logistic regression
 		(multinomial), log-linear count regression (poisson and
-		negative binomial), and log-linear continuous regression (gamma
-		and inverse gaussian). Regularization paths are computed using
-		groupwise majorization descent. Cross-validation routines are
-		available for tuning the regularization parameters.
+		negative.binomial), and log-linear continuous regression (gamma
+		and inverse gaussian). Supports default and formula methods for
+		model specification, k-fold cross-validation for tuning the
+		regularization parameters, and nonparametric regression via
+		tensor product reproducing kernel (smoothing spline) basis
+		function expansion.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/viridis sci-CRAN/xlsx sci-CRAN/abind sci-CRAN/psych sci-CRAN/Rdpack dev-lang/R:=
+DESCRIPTION=Generalized Graded Unfolding Model
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/viridis sci-CRAN/xlsx sci-CRAN/abind sci-CRAN/psych sci-CRAN/Rdpack r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GGUM_0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8d1b48d471c12c0c5d231ce470f2f280
