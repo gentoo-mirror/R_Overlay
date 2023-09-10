@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/ggplot2 >=sci-CRAN/rstan-2.26.0 sci-CRAN/loo sci-CRAN/tidyr >=dev-lang/R-3.5.0 sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/generics >=sci-CRAN/Rcpp-0.12.0 virtual/mgcv sci-CRAN/SHELF virtual/Matrix dev-lang/R:=
+DESCRIPTION=Bayesian Multi-State Modelling o... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_rstantools r_suggests_tempdisagg r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/magrittr sci-CRAN/ggplot2 >=sci-CRAN/rstan-2.26.0 sci-CRAN/loo sci-CRAN/tidyr >=dev-lang/R-3.5.0 sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/generics >=sci-CRAN/Rcpp-0.12.0 virtual/mgcv sci-CRAN/SHELF virtual/Matrix >=sci-CRAN/BH-1.66.0 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/RcppEigen-0.3.3.3.0 sci-CRAN/RcppParallel >=sci-CRAN/rstan-2.26.0 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstantools? ( >=sci-CRAN/rstantools-2.0.0.9000 ) r_suggests_tempdisagg? ( sci-CRAN/tempdisagg ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/disbayes_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9de60d9e3ed51ff609f5987d90e59e55

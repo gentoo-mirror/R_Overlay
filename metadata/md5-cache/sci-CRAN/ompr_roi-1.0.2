@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/ompr-1.0.1 virtual/Matrix >=sci-CRAN/ROI-0.3.0 sci-CRAN/slam dev-lang/R:=
+DESCRIPTION=A Solver for ompr that Uses the ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glpk r_suggests_magrittr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/ompr-1.0.1 virtual/Matrix >=sci-CRAN/ROI-0.3.0 sci-CRAN/slam r_suggests_glpk? ( sci-mathematics/glpk ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ompr.roi_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b028fcfcfdb8a601c11c0c6f21f3430a
