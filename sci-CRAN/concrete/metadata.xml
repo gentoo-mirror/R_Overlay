@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Continuous-Time Competing Risks Estimation using Targeted Minimum
+		Loss-Based Estimation (TMLE) // One-step continuous-time
+		Targeted Minimum Loss-Based Estimation (TMLE) for outcome-
+		specific absolute risk estimands in right-censored survival
+		settings with or without competing risks, implementing the
+		methodology described in Rytgaard et al. (2023)
+		doi:10.1111/biom.13856 and Rytgaard and van der Laan (2023)
+		doi:10.1007/s10985-022-09576-2. Currently 'concrete' can be
+		used to estimate the effects of static or dynamic interventions
+		on binary treatments given at baseline, cross-validated initial
+		estimation of treatment propensity is done using the
+		'SuperLearner' package, and initial estimation of conditional
+		hazards is done using ensembles of Cox regressions from the
+		'survival' package or Coxnet from the 'glmnet' package.
+	</longdescription>
+</pkgmetadata>
