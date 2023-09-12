@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/dplyr-1.1.0 >=sci-CRAN/slider-0.2.2 >=sci-CRAN/furrr-0.3.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/checkmate-2.1.0 >=sci-CRAN/rlang-1.0.6 >=sci-CRAN/tidyr-1.3.0 >=sci-CRAN/dbplyr-2.3.1 dev-lang/R:=
+DESCRIPTION=Enhanced mutate
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lubridate r_suggests_rsqlite r_suggests_stringr r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/dplyr-1.1.0 >=sci-CRAN/slider-0.2.2 >=sci-CRAN/furrr-0.3.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/checkmate-2.1.0 >=sci-CRAN/rlang-1.0.6 >=sci-CRAN/tidyr-1.3.0 >=sci-CRAN/dbplyr-2.3.1 r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tidier_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d4ee191fee411393d830b668f500f8a9

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/dbscan >=sci-CRAN/Rcpp-1.0.10 sci-CRAN/RCSF sci-CRAN/plotly sci-CRAN/scales sci-CRAN/sf sci-CRAN/VoxR sci-CRAN/Distance sci-CRAN/progress sci-CRAN/vroom sci-CRAN/raster sci-CRAN/htmlwidgets sci-CRAN/lidR sci-CRAN/tidyr sci-CRAN/moments >=dev-lang/R-3.5.0 sci-CRAN/circular dev-lang/R:=
+DESCRIPTION=Automatic Processing of Terrestr... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr r_suggests_rmarkdown r_suggests_systemfonts r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/data_table sci-CRAN/dbscan >=sci-CRAN/Rcpp-1.0.10 sci-CRAN/RCSF sci-CRAN/plotly sci-CRAN/scales sci-CRAN/sf sci-CRAN/VoxR sci-CRAN/Distance sci-CRAN/progress sci-CRAN/vroom sci-CRAN/raster sci-CRAN/htmlwidgets sci-CRAN/lidR sci-CRAN/tidyr sci-CRAN/moments >=dev-lang/R-3.5.0 sci-CRAN/circular sci-CRAN/Rcpp sci-CRAN/RcppEigen r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_systemfonts? ( sci-CRAN/systemfonts ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FORTLS_1.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8b95f5c8ae63f9f31d49db62542c6f53
