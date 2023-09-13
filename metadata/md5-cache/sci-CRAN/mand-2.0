@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/imager sci-CRAN/caret sci-CRAN/msma >=dev-lang/R-3.5 sci-CRAN/oro_dicom sci-CRAN/oro_nifti dev-lang/R:=
+DESCRIPTION=Multivariate Analysis for Neuroimaging Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/imager sci-CRAN/caret sci-CRAN/msma >=dev-lang/R-3.5 sci-CRAN/oro_dicom sci-CRAN/oro_nifti r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mand_2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8e78134613811bb76c111f2e9ea1216a

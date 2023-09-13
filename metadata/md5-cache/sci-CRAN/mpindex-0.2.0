@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Multidimensional Poverty Index (MPI)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_gt r_suggests_jsonlite r_suggests_knitr r_suggests_openxlsx r_suggests_purrr r_suggests_rlang r_suggests_rmarkdown r_suggests_stringr r_suggests_testthat r_suggests_tibble r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_gt? ( sci-CRAN/gt ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_openxlsx? ( sci-CRAN/openxlsx ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mpindex_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=16356656c2e3abe9050336cb10acc9ba

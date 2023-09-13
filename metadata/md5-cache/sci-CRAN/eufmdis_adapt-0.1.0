@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/shiny sci-CRAN/tidyselect sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/DT sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/shinydashboard sci-CRAN/shinyWidgets sci-CRAN/htmltools dev-lang/R:=
+DESCRIPTION=Analyse EuFMDiS Output Files via a Shiny App
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/magrittr sci-CRAN/shiny sci-CRAN/tidyselect sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/DT sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/shinydashboard sci-CRAN/shinyWidgets sci-CRAN/htmltools dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/eufmdis.adapt_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c5ba21b72458c425672e008e018a5d22

@@ -3,6 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Likelihood Ratio Statistics for One or Two Sample T-Tests //
-		Several forms of likelihood ratio calculations are available.
+		Likelihood ratio and maximum likelihood statistics are provided
+		that can be used as alternatives to p-values Colquhoun (2017)
+		doi:10.1098/rsos.171085. Arguments can be either p-values or
+		t-statistics. together with degrees of freedom. For the
+		function 'tTOlr', the argument 'twoSided' has the default
+		'twoSided = TRUE'.
 	</longdescription>
 </pkgmetadata>
