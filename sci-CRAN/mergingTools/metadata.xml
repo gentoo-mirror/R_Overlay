@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tools to Merge Hardware Event Monitors (HEMs) Coming from
+		Separate Subexperiments into One Single Dataframe //
+		Implementation of two tools to merge Hardware Event Monitors
+		(HEMs) from different subexperiments. Hardware Reading and
+		Merging (HRM), which uses order statistics to merge; and MUlti-
+		Correlation HEM (MUCH) which merges using a multivariate normal
+		distribution. The reference paper for HRM is: S. Vilardell, I.
+		Serra, R. Santalla, E. Mezzetti, J. Abella and F. J. Cazorla,
+		"HRM: Merging Hardware Event Monitors for Improved Timing
+		Analysis of Complex MPSoCs," in IEEE Transactions on Computer-
+		Aided Design of Integrated Circuits and Systems, vol. 39, no.
+		11, pp. 3662-3673, Nov. 2020, doi:10.1109/TCAD.2020.3013051.
+		For MUCH: S. Vilardell, I. Serra, E. Mezzetti, J. Abella, and
+		F. J. Cazorla. 2021. "MUCH: exploiting pairwise hardware event
+		monitor correlations for improved timing analysis of complex
+		MPSoCs". In Proceedings of the 36th Annual ACM Symposium on
+		Applied Computing (SAC '21). Association for Computing
+		Machinery. doi:10.1145/3412841.3441931. This work has been
+		supported by the European Research Council (ERC) under the
+		European Union's Horizon 2020 research and innovation programme
+		(grant agreement No. 772773).
+	</longdescription>
+</pkgmetadata>

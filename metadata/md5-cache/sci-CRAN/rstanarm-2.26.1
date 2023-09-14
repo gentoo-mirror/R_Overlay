@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/rstan-2.26.1 >=dev-lang/R-3.4.0 >=sci-CRAN/shinystan-2.3.0 >=sci-CRAN/rstantools-2.1.0 >=sci-CRAN/ggplot2-2.2.1 >=sci-CRAN/bayesplot-1.7.0 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/lme4-1.1.8 >=sci-CRAN/loo-2.1.0 virtual/Matrix sci-CRAN/posterior virtual/survival dev-lang/R:=
+DESCRIPTION=Bayesian Applied Regression Modeling via Stan
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_betareg r_suggests_biglm r_suggests_data_table r_suggests_digest r_suggests_gamm4 r_suggests_gridextra r_suggests_hsaur3 r_suggests_knitr r_suggests_mass r_suggests_mgcv r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_shiny r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/nlme >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/rstan-2.26.1 >=dev-lang/R-3.4.0 >=sci-CRAN/shinystan-2.3.0 >=sci-CRAN/rstantools-2.1.0 >=sci-CRAN/ggplot2-2.2.1 >=sci-CRAN/bayesplot-1.7.0 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/lme4-1.1.8 >=sci-CRAN/loo-2.1.0 virtual/Matrix sci-CRAN/posterior virtual/survival >=sci-CRAN/Rcpp-0.12.0 app-text/pandoc >=sci-CRAN/RcppEigen-0.3.3.3.0 >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/BH-1.72.0.2 >=sci-CRAN/rstan-2.21.1 app-text/pandoc r_suggests_betareg? ( sci-CRAN/betareg ) r_suggests_biglm? ( sci-CRAN/biglm ) r_suggests_data_table? ( >=sci-CRAN/data_table-1.10.0 ) r_suggests_digest? ( sci-CRAN/digest ) r_suggests_gamm4? ( sci-CRAN/gamm4 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_hsaur3? ( sci-CRAN/HSAUR3 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.15.1 ) r_suggests_mass? ( virtual/MASS ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( >=sci-CRAN/testthat-1.0.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rstanarm_2.26.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=35df857160c15b72302407d54fd45fb5
