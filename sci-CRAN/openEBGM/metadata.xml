@@ -6,19 +6,18 @@
 		An implementation of DuMouchel's (1999)
 		doi:10.1080/00031305.1999.10474456 Bayesian data mining method
 		for the market basket problem. Calculates Empirical Bayes
-		Geometric Mean (EBGM) and quantile scores from the posterior
-		distribution using the Gamma-Poisson Shrinker (GPS) model to
-		find unusually large cell counts in large, sparse contingency
-		tables. Can be used to find unusually high reporting rates of
-		adverse events associated with products. In general, can be
-		used to mine any database where the co-occurrence of two
-		variables or items is of interest. Also calculates relative and
-		proportional reporting ratios. Builds on the work of the
-		'PhViD' package, from which much of the code is derived. Some
-		of the added features include stratification to adjust for
-		confounding variables and data squashing to improve
-		computational efficiency. Now includes an implementation of the
-		EM algorithm for hyperparameter estimation loosely derived from
-		the 'mederrRank' package.
+		Geometric Mean (EBGM) and posterior quantile scores using the
+		Gamma-Poisson Shrinker (GPS) model to find unusually large cell
+		counts in large, sparse contingency tables. Can be used to find
+		unusually high reporting rates of adverse events associated
+		with products. In general, can be used to mine any database
+		where the co-occurrence of two variables or items is of
+		interest. Also calculates relative and proportional reporting
+		ratios. Builds on the work of the 'PhViD' package, from which
+		much of the code is derived. Some of the added features include
+		stratification to adjust for confounding variables and data
+		squashing to improve computational efficiency. Includes an
+		implementation of the EM algorithm for hyperparameter
+		estimation loosely derived from the 'mederrRank' package.
 	</longdescription>
 </pkgmetadata>

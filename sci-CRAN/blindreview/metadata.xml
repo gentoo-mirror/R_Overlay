@@ -5,14 +5,15 @@
 		Blind Review Using Forward Search Procedures // Randomly assigns
 		identification to one of the variables of the dataset, say
 		Treatment, and assigns random numbers to all the observations
-		of the dataset. Reorders the database according to the random
-		numbers, and then runs the appropriate forward search function
-		on the blinded dataset. A file is created from which the user
-		can identify any outliers using the graphics function in this
-		package. An unmasking function is provided so that the user can
-		identify the potential outliers in terms of their original
-		values when blinding is no longer needed. Details of the
-		forward search functions may be found in
+		of the dataset. Centers each treatment at the grand mean to
+		further mask the treatment. Reorders the database according to
+		the random numbers, and then runs the appropriate forward
+		search function on the blinded dataset. A file is created from
+		which the user can identify any outliers using the graphics
+		function in this package. An unmasking function is provided so
+		that the user can identify the potential outliers in terms of
+		their original values when blinding is no longer needed.
+		Details of the forward search functions may be found in
 		https://CRAN.R-project.org/package=forsearch.
 	</longdescription>
 </pkgmetadata>
