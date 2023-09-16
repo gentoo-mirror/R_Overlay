@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix virtual/MASS dev-lang/R:=
+DESCRIPTION=Animal Social Network Inference ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ape r_suggests_raster r_suggests_sna byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/Matrix virtual/MASS r_suggests_ape? ( sci-CRAN/ape ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_sna? ( sci-CRAN/sna ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/asnipe_1.1.17.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bcd738179634f21594ed514c15d25d51
