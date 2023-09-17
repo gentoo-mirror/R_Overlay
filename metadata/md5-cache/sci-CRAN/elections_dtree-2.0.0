@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp >=sci-CRAN/prefio-0.1.1 sci-CRAN/Rdpack >=dev-lang/R-4.0.0 sci-CRAN/R6 dev-lang/R:=
+DESCRIPTION=Ranked Voting Election Audits with Dirichlet-Trees
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/Rcpp >=sci-CRAN/prefio-0.1.1 sci-CRAN/Rdpack >=dev-lang/R-4.0.0 sci-CRAN/R6 sci-CRAN/Rcpp sci-CRAN/testthat sci-CRAN/RcppThread r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/elections.dtree_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ae03bbc91a1f0463bc11a0ee45e236da
