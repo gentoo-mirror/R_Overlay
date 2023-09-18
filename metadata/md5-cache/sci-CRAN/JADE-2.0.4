@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/clue dev-lang/R:=
+DESCRIPTION=Blind Source Separation Methods ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ics r_suggests_icsnp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/clue r_suggests_ics? ( sci-CRAN/ICS ) r_suggests_icsnp? ( sci-CRAN/ICSNP ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/JADE_2.0-4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e3f8d003f1bcea8d74ea53d912519b35

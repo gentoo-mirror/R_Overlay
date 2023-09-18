@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/collections sci-CRAN/tibble >=sci-CRAN/rlang-1.0.6 sci-CRAN/glue sci-CRAN/tidyselect >=sci-CRAN/vctrs-0.6.3 >=sci-CRAN/dplyr-1.1.3 sci-CRAN/cli sci-CRAN/DBI >=sci-CRAN/duckdb-0.8.1.3 sci-CRAN/lifecycle sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=A DuckDB-Backed Version of dplyr
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arrow r_suggests_brio r_suggests_constructive r_suggests_dbplyr r_suggests_hms r_suggests_lobstr r_suggests_lubridate r_suggests_palmerpenguins r_suggests_pillar r_suggests_prettycode r_suggests_qs r_suggests_reprex r_suggests_rstudioapi r_suggests_styler r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/collections sci-CRAN/tibble >=sci-CRAN/rlang-1.0.6 sci-CRAN/glue sci-CRAN/tidyselect >=sci-CRAN/vctrs-0.6.3 >=sci-CRAN/dplyr-1.1.3 sci-CRAN/cli sci-CRAN/DBI >=sci-CRAN/duckdb-0.8.1.3 sci-CRAN/lifecycle sci-CRAN/purrr r_suggests_arrow? ( sci-CRAN/arrow ) r_suggests_brio? ( sci-CRAN/brio ) r_suggests_constructive? ( sci-CRAN/constructive ) r_suggests_dbplyr? ( sci-CRAN/dbplyr ) r_suggests_hms? ( sci-CRAN/hms ) r_suggests_lobstr? ( sci-CRAN/lobstr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_palmerpenguins? ( sci-CRAN/palmerpenguins ) r_suggests_pillar? ( sci-CRAN/pillar ) r_suggests_prettycode? ( sci-CRAN/prettycode ) r_suggests_qs? ( sci-CRAN/qs ) r_suggests_reprex? ( sci-CRAN/reprex ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_styler? ( sci-CRAN/styler ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.5 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/duckplyr_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b42ec45fb5a7c3c587233ea3558cd2f4

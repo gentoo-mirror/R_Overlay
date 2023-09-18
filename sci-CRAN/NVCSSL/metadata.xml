@@ -2,12 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Nonparametric Varying Coefficient Spike-and-Slab Lasso // EM
-		algorithm for fitting Bayesian varying coefficient models with
-		the nonparametric varying coefficient spike-and-slab lasso of
-		Bai et al. (2020) arXiv:1907.06477. Also fits penalized
-		frequentist varying coefficient models with the group lasso,
-		group smoothly clipped absolute deviation, and group minimax
-		concave penalty.
+		Nonparametric Varying Coefficient Spike-and-Slab Lasso // Fits
+		Bayesian regularized varying coefficient models with the
+		Nonparametric Varying Coefficient Spike-and-Slab Lasso (NVC-
+		SSL) introduced by Bai et al. (2023) arXiv:1907.06477.
+		Functions to fit frequentist penalized varying coefficients are
+		also provided, with the option of employing the group lasso
+		penalty of Yuan and Lin (2006)
+		doi:10.1111/j.1467-9868.2005.00532.x, the group minimax concave
+		penalty (MCP) of Breheny and Huang
+		doi:10.1007/s11222-013-9424-2, or the group smoothly clipped
+		absolute deviation (SCAD) penalty of Breheny and Huang (2015)
+		doi:10.1007/s11222-013-9424-2.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,19 @@
+# Copyright 1999-2023 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Blind Source Separation Methods ... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/JADE_2.0-4.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_ics r_suggests_icsnp"
+R_SUGGESTS="
+	r_suggests_ics? ( sci-CRAN/ICS )
+	r_suggests_icsnp? ( sci-CRAN/ICSNP )
+"
+DEPEND="sci-CRAN/clue"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

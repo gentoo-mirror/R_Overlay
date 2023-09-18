@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/plyr sci-CRAN/RUnit sci-CRAN/openxlsx virtual/foreign >=dev-lang/R-3.3.0 sci-CRAN/xtable dev-lang/R:=
+DESCRIPTION=Project Management Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rockchalk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/plyr sci-CRAN/RUnit sci-CRAN/openxlsx virtual/foreign >=dev-lang/R-3.3.0 sci-CRAN/xtable r_suggests_rockchalk? ( sci-CRAN/rockchalk ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/kutils_1.73.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6adcaa26d6ced1f099d97398f676cfd7
