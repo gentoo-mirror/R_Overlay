@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/htmlwidgets sci-CRAN/geosphere sci-CRAN/leaflet_extras sci-CRAN/purrr sci-CRAN/suncalc sci-CRAN/leaflet sci-CRAN/plyr sci-CRAN/sp sci-CRAN/sf dev-lang/R[tk] dev-lang/R:=
+DESCRIPTION=Sequential Clustering Algorithm for Location Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/htmlwidgets sci-CRAN/geosphere sci-CRAN/leaflet_extras sci-CRAN/purrr sci-CRAN/suncalc sci-CRAN/leaflet sci-CRAN/plyr sci-CRAN/sp sci-CRAN/sf dev-lang/R[tk] dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GPSeqClus_1.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=22f9228712a11fc7eee71b78371a5b7d

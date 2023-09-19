@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/plyr sci-CRAN/msm sci-CRAN/sm sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=A Stochastic Weather Generator with Seasonality
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_ggpubr r_suggests_knitr r_suggests_moments r_suggests_reshape2 r_suggests_rmarkdown r_suggests_seas r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/plyr sci-CRAN/msm sci-CRAN/sm sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/magrittr r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_moments? ( sci-CRAN/moments ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_seas? ( sci-CRAN/seas ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/wxgenR_1.3.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=15448f5a298d318fe38a68f3fc3b1250

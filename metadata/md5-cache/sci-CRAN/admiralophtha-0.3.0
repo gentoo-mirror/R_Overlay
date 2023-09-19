@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/admiraldev >=dev-lang/R-3.5 sci-CRAN/admiral sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/hms sci-CRAN/tidyselect sci-CRAN/lifecycle dev-lang/R:=
+DESCRIPTION=ADaM in R Asset Library - Ophthalmology
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_devtools r_suggests_diffdf r_suggests_dt r_suggests_knitr r_suggests_lintr r_suggests_miniui r_suggests_pharmaversesdtm r_suggests_pkgdown r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_spelling r_suggests_testthat r_suggests_tibble r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/admiraldev >=dev-lang/R-3.5 sci-CRAN/admiral sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/hms sci-CRAN/tidyselect sci-CRAN/lifecycle r_suggests_covr? ( sci-CRAN/covr ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_diffdf? ( sci-CRAN/diffdf ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_miniui? ( sci-CRAN/miniUI ) r_suggests_pharmaversesdtm? ( sci-CRAN/pharmaversesdtm ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/admiralophtha_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c73b76fdf5a4fb7f5b79d7c327038c5e

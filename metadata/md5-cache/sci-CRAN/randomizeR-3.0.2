@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/plotrix sci-CRAN/dplyr sci-CRAN/gsDesign sci-CRAN/insight >=dev-lang/R-3.6.0 virtual/survival sci-CRAN/mvtnorm sci-CRAN/mstate sci-CRAN/purrr sci-CRAN/coin sci-CRAN/PwrGSD sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Randomization for Clinical Trials
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/plotrix sci-CRAN/dplyr sci-CRAN/gsDesign sci-CRAN/insight >=dev-lang/R-3.6.0 virtual/survival sci-CRAN/mvtnorm sci-CRAN/mstate sci-CRAN/purrr sci-CRAN/coin sci-CRAN/PwrGSD sci-CRAN/reshape2 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/randomizeR_3.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=21ae3a507b01237d27bebbcaa7b3dd31

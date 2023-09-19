@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/quadprog virtual/Matrix >=sci-CRAN/reticulate-1.14 sci-CRAN/LDRTools >=dev-lang/R-3.5.0 sci-BIOC/mixOmics sci-CRAN/vegan sci-BIOC/phyloseq sci-CRAN/corrplot sci-CRAN/psych sci-CRAN/markdown dev-lang/R:=
+DESCRIPTION=Omics Data Integration Using Kernel Methods
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/quadprog virtual/Matrix >=sci-CRAN/reticulate-1.14 sci-CRAN/LDRTools >=dev-lang/R-3.5.0 sci-BIOC/mixOmics sci-CRAN/vegan sci-BIOC/phyloseq sci-CRAN/corrplot sci-CRAN/psych sci-CRAN/markdown r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mixKernel_0.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2fa78c5156eb1203142f5c9220dd4fc1
