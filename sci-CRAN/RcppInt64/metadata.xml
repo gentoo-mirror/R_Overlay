@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		'Rcpp'-Based Helper Functions to Pass 'Int64' Values Between 'R'
-		and 'C++' // 'Int64' values can be created and accessed via the
-		'bit64' package and its 'integer64' class which package the
-		'int64' representation cleverly into a 'double'. This packages
-		helps conversions between 'R' and 'C++' via several helper
-		functions provided via a single header file. A complete example
-		client package is included as an illustration.
+		'Rcpp'-Based Helper Functions to Pass 'Int64' and 'nanotime'
+		Values Between 'R' and 'C++' // 'Int64' values can be created
+		and accessed via the 'bit64' package and its 'integer64' class
+		which package the 'int64' representation cleverly into a
+		'double'. The 'nanotime' packages builds on this to support
+		nanosecond-resolution timestamps. This packages helps
+		conversions between 'R' and 'C++' via several helper functions
+		provided via a single header file.  A complete example client
+		package is included as an illustration.
 	</longdescription>
 </pkgmetadata>

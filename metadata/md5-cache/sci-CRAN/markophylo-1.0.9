@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.11.4 >=sci-CRAN/phangorn-1.99.13 >=sci-CRAN/numDeriv-2012.9.1 sci-CRAN/geiger >=sci-CRAN/ape-3.2 dev-lang/R:=
+DESCRIPTION=Markov Chain Models for Phylogenetic Trees
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_markdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-0.11.4 >=sci-CRAN/phangorn-1.99.13 >=sci-CRAN/numDeriv-2012.9.1 sci-CRAN/geiger >=sci-CRAN/ape-3.2 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( >=sci-CRAN/knitr-1.10 ) r_suggests_markdown? ( >sci-CRAN/markdown-1.0 ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.9.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/markophylo_1.0.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=34f1addbc81bfbb675e7570a1a07f5f8

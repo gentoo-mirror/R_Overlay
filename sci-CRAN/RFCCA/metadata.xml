@@ -14,5 +14,9 @@
 		'randomForestSRC' package (Ishwaran and Kogalur, 2020) by
 		freezing at the version 2.9.3. The custom splitting rule
 		feature is utilised to apply the proposed splitting rule.
+		LAPACK and BLAS libraries are used for matrix decompositions.
+		The RFCCA package includes the header files lapacke.h and
+		cblas.h from the LAPACK and BLAS libraries. The LAPACK library
+		is licensed under modified BSD license.
 	</longdescription>
 </pkgmetadata>

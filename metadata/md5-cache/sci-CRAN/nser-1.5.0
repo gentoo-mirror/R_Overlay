@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/readr sci-CRAN/lubridate sci-CRAN/stringr sci-CRAN/purrr sci-CRAN/curl >=dev-lang/R-3.0 sci-CRAN/magrittr sci-CRAN/rvest sci-CRAN/googleVis sci-CRAN/dplyr sci-CRAN/reticulate sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Bhavcopy and Live Market Data fr... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_reshape2 r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/readr sci-CRAN/lubridate sci-CRAN/stringr sci-CRAN/purrr sci-CRAN/curl >=dev-lang/R-3.0 sci-CRAN/magrittr sci-CRAN/rvest sci-CRAN/googleVis sci-CRAN/dplyr sci-CRAN/reticulate sci-CRAN/xml2 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nser_1.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=435fa288a5b95cb3f348e7af7d6201a7
