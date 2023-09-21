@@ -15,7 +15,13 @@
 		rate-doubly robust property that allows the use of most machine
 		learning or non-parametric methods for all 3 working models,
 		which are not permitted in classic inverse probability
-		weighting or doubly robust estimators. Reference: Luo  Xu
+		weighting or doubly robust estimators. When the proportional
+		hazard assumption is violated, CoxAIPW estimates a causal
+		estimated that is a weighted average of the time-varying log
+		hazard ratio. Reference: Luo, J. (2023). Statistical Robustness
+		- Distributed Linear Regression, Informative Censoring, Causal
+		Inference, and Non-Proportional Hazards [Unpublished doctoral
+		dissertation]. University of California San Diego.; Luo  Xu
 		(2022) doi:10.48550/arXiv.2206.02296; Rava (2021)
 		https://escholarship.org/uc/item/8h1846gs.
 	</longdescription>

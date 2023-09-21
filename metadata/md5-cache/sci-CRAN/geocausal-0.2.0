@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/furrr sci-CRAN/sf sci-CRAN/spatstat_geom sci-CRAN/ggpubr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/spatstat_model sci-CRAN/terra sci-CRAN/ggplot2 sci-CRAN/latex2exp sci-CRAN/raster sci-CRAN/dplyr sci-CRAN/mclust >=dev-lang/R-3.5.0 sci-CRAN/sp sci-CRAN/tidyselect sci-CRAN/data_table sci-CRAN/progressr sci-CRAN/spatstat_explore dev-lang/R:=
+DESCRIPTION=Causal Inference with Spatio-Temporal Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_elevatr r_suggests_geosphere r_suggests_ggthemes r_suggests_gridextra r_suggests_knitr r_suggests_readr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/furrr sci-CRAN/sf sci-CRAN/spatstat_geom sci-CRAN/ggpubr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/spatstat_model sci-CRAN/terra sci-CRAN/ggplot2 sci-CRAN/latex2exp sci-CRAN/raster sci-CRAN/dplyr sci-CRAN/mclust >=dev-lang/R-3.5.0 sci-CRAN/sp sci-CRAN/tidyselect sci-CRAN/data_table sci-CRAN/progressr sci-CRAN/spatstat_explore r_suggests_elevatr? ( sci-CRAN/elevatr ) r_suggests_geosphere? ( sci-CRAN/geosphere ) r_suggests_ggthemes? ( sci-CRAN/ggthemes ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/geocausal_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c7b9a30ff87a98419ed10247ec3e3180
