@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gbutils sci-CRAN/Rdpack virtual/MASS virtual/Matrix dev-lang/R:=
+DESCRIPTION=Objects and Methods for Multi-Companion Matrices
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lagged r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/gbutils sci-CRAN/Rdpack virtual/MASS virtual/Matrix r_suggests_lagged? ( sci-CRAN/lagged ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mcompanion_0.5.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2928686e53bc4d744962ae4b75a24375
