@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/loo sci-CRAN/tidyverse sci-CRAN/dplyr >=sci-CRAN/rstantools-2.0.0 >=sci-CRAN/Rcpp-0.12.0 sci-CRAN/tibble sci-CRAN/bridgesampling sci-CRAN/tidyselect sci-CRAN/latex2exp sci-CRAN/tidyr >=dev-lang/R-3.5.0 sci-CRAN/RcppParallel >=sci-CRAN/rstan-2.26.0 sci-CRAN/httr sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Bayesian Mortality Modelling with Stan
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cairo r_suggests_knitr r_suggests_rmarkdown r_suggests_shinystan byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/loo sci-CRAN/tidyverse sci-CRAN/dplyr >=sci-CRAN/rstantools-2.0.0 >=sci-CRAN/Rcpp-0.12.0 sci-CRAN/tibble sci-CRAN/bridgesampling sci-CRAN/tidyselect sci-CRAN/latex2exp sci-CRAN/tidyr >=dev-lang/R-3.5.0 sci-CRAN/RcppParallel >=sci-CRAN/rstan-2.26.0 sci-CRAN/httr sci-CRAN/ggplot2 >=sci-CRAN/rstan-2.26.0 sci-CRAN/RcppParallel >=sci-CRAN/RcppEigen-0.3.3.3.0 >=sci-CRAN/BH-1.66.0 >=sci-CRAN/Rcpp-0.12.0 r_suggests_cairo? ( sci-CRAN/Cairo ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shinystan? ( sci-CRAN/shinystan ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/StanMoMo_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=091f7c29ee8bb8fe010040011e31d7e1

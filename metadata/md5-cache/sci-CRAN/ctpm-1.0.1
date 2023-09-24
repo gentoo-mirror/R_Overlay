@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/slouch sci-CRAN/ctmm sci-CRAN/ape virtual/cluster dev-lang/R:=
+DESCRIPTION=Continuous-Time Phylogenetic Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_nlme r_suggests_phytools r_suggests_progress r_suggests_rmarkdown r_suggests_viridis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/slouch sci-CRAN/ctmm sci-CRAN/ape virtual/cluster r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nlme? ( virtual/nlme ) r_suggests_phytools? ( sci-CRAN/phytools ) r_suggests_progress? ( sci-CRAN/progress ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ctpm_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2497935102e60a003fddb3c2244cb3f7
