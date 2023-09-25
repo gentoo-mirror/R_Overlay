@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Parallel Utilities for Lambda Se... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_batchtools r_suggests_checkmate r_suggests_clime r_suggests_cluster r_suggests_fs r_suggests_glmnet r_suggests_huge r_suggests_knitr r_suggests_mass r_suggests_network r_suggests_orca r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.2.0 virtual/Matrix r_suggests_batchtools? ( >=sci-CRAN/batchtools-0.9.10 ) r_suggests_checkmate? ( >=sci-CRAN/checkmate-1.8.5 ) r_suggests_clime? ( sci-CRAN/clime ) r_suggests_cluster? ( virtual/cluster ) r_suggests_fs? ( >=sci-CRAN/fs-1.2.2 ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_huge? ( sci-CRAN/huge ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_network? ( sci-CRAN/network ) r_suggests_orca? ( sci-CRAN/orca ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pulsar_0.3.11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f4130463fbe5193d72483c8f130853f8
