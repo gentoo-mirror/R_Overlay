@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools sci-CRAN/cli sci-CRAN/rlang sci-CRAN/htmlwidgets sci-CRAN/glue dev-lang/R:=
+DESCRIPTION=Code Syntax Highlighting using t... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_lintr r_suggests_rmarkdown r_suggests_spelling byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/htmltools sci-CRAN/cli sci-CRAN/rlang sci-CRAN/htmlwidgets sci-CRAN/glue r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/highlighter_0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d04b200e145bd8172fd2dbbc6e7035e6
