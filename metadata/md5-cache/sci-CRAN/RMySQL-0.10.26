@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/DBI-0.4 dev-lang/R:=
+DESCRIPTION=Database Interface and MySQL Driver for R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/DBI-0.4 dev-db/mariadb-connector-c dev-db/mariadb-connector-c dev-db/mariadb-connector-c dev-db/mariadb-connector-c r_suggests_curl? ( sci-CRAN/curl ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RMySQL_0.10.26.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4272eecbb0c001fd220ef163f6cee814
