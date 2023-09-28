@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Append 'WITH (NOLOCK)' to 'SQL' Queries // Automatically appends
+		'WITH (nolock)' to all tables in 'SQL' queries using a utility
+		function. This facilitates reading from databases in scenarios
+		where non-blocking reads are preferable, such as in high-
+		transaction environments.
+	</longdescription>
+</pkgmetadata>

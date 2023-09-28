@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/multcomp virtual/Matrix >=sci-CRAN/mvtnorm-1.0.5 virtual/survival >=sci-CRAN/libcoin-1.0.9 >=sci-CRAN/modeltools-0.2.9 dev-lang/R:=
+DESCRIPTION=Conditional Inference Procedures... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_e1071 r_suggests_th_data r_suggests_vcd r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/multcomp virtual/Matrix >=sci-CRAN/mvtnorm-1.0.5 virtual/survival >=sci-CRAN/libcoin-1.0.9 >=sci-CRAN/modeltools-0.2.9 >=sci-CRAN/libcoin-1.0.9 r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_th_data? ( >=sci-CRAN/TH_data-1.0.7 ) r_suggests_vcd? ( sci-CRAN/vcd ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/coin_1.4-3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=99479141c4a259fb12d6323e7c395ff0
