@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/foreach sci-BIOC/qvalue >=sci-CRAN/Rcpp-0.12.4 sci-CRAN/doParallel dev-lang/R:=
+DESCRIPTION=Efficient Estimation of Grouped ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_matrix r_suggests_snplist byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/foreach sci-BIOC/qvalue >=sci-CRAN/Rcpp-0.12.4 sci-CRAN/doParallel sci-CRAN/Rcpp sci-CRAN/BH sci-CRAN/RcppEigen r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_snplist? ( sci-CRAN/snplist ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/groupedSurv_1.0.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1a527eb69c81d1f3bdea1c6d3f476b69
