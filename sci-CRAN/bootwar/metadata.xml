@@ -12,12 +12,8 @@
 		researchers are unfamiliar with these methods. The 'bootwar'
 		package bridges this gap by enabling users to grasp the
 		concepts of nbpr via Boot War, a variation of the card game War
-		designed for small samples. With the shuffle_cards() function,
-		players can engage in Boot War using a standard 52-card deck, a
-		custom deck created via an anonymous function, or interleaved
-		custom decks where each player has their distinct deck. The
-		package further provides functions like deal_card(),
-		score_keeper(), and play_round() to streamline gameplay and
+		designed for small samples. The package provides functions like
+		score_keeper() and play_round() to streamline gameplay and
 		scoring. Once a predetermined number of rounds concludes, users
 		can employ the analyze_game() function to derive game results.
 		This function leverages the 'npboottprm' package's nonparboot()
