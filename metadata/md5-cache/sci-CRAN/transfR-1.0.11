@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/units sci-CRAN/doParallel sci-CRAN/Rdpack >=sci-CRAN/stars-0.4.0 >=sci-CRAN/sf-0.8.0 sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Transfer of Hydrograph from Gaug... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_elevatr r_suggests_knitr r_suggests_progress r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/units sci-CRAN/doParallel sci-CRAN/Rdpack >=sci-CRAN/stars-0.4.0 >=sci-CRAN/sf-0.8.0 sci-CRAN/foreach r_suggests_elevatr? ( sci-CRAN/elevatr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_progress? ( sci-CRAN/progress ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/transfR_1.0.11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1468bcf01df875b449f221b2fc2add7b
