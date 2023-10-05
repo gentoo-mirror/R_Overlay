@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/boot virtual/MASS sci-CRAN/mitools sci-CRAN/survey sci-CRAN/corpcor dev-lang/R:=
+DESCRIPTION=Relative Importance of Regressors in Linear Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_care byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/boot virtual/MASS sci-CRAN/mitools sci-CRAN/survey sci-CRAN/corpcor r_suggests_care? ( sci-CRAN/care ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/relaimpo_2.2-7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a691fdefe25c00257e32571a7fe4d521

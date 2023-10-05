@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/boot sci-CRAN/kappalab sci-CRAN/quadprog sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Inequality Constrained Inference... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_relaimpo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/boot sci-CRAN/kappalab sci-CRAN/quadprog sci-CRAN/mvtnorm r_suggests_relaimpo? ( sci-CRAN/relaimpo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ic.infer_1.1-7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3ebe7f878025f27e0d5e728fee8360ef
