@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/boot sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/flextable sci-CRAN/data_table sci-CRAN/vcd sci-CRAN/broom sci-CRAN/officer sci-CRAN/epitools sci-CRAN/vcdExtra sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/ggpubr sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/readxl dev-lang/R:=
+DESCRIPTION=Statistical Tools for Assessing ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/boot sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/flextable sci-CRAN/data_table sci-CRAN/vcd sci-CRAN/broom sci-CRAN/officer sci-CRAN/epitools sci-CRAN/vcdExtra sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/ggpubr sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/readxl r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/reappraised_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=08032d309c8832954b0234c6d1f92e79
