@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/rmarkdown sci-CRAN/MBESS sci-CRAN/purrr >=sci-CRAN/dplyr-0.4 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Format Outputs of Statistical Te... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_afex r_suggests_ez r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/rmarkdown sci-CRAN/MBESS sci-CRAN/purrr >=sci-CRAN/dplyr-0.4 sci-CRAN/tibble r_suggests_afex? ( >=sci-CRAN/afex-0.14 ) r_suggests_ez? ( sci-CRAN/ez ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/apa_0.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7c02eb221a563dcb6ba7b6cc91a9f1b7

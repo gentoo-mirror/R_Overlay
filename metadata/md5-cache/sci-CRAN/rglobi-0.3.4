@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.1 >=sci-CRAN/curl-0.3.3 >=sci-CRAN/RCurl-0.3.4 >=sci-CRAN/readr-1.3.1 dev-lang/R:=
+DESCRIPTION=Interface to Global Biotic Interactions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_httr r_suggests_knitr r_suggests_markdown r_suggests_openssl r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0.1 >=sci-CRAN/curl-0.3.3 >=sci-CRAN/RCurl-0.3.4 >=sci-CRAN/readr-1.3.1 r_suggests_httr? ( sci-CRAN/httr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_openssl? ( sci-CRAN/openssl ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.7 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rglobi_0.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=08092439e81b5bcba6c0852fb76b5581

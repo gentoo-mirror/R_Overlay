@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/dplyr sci-CRAN/glue sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Lightweight Data Structure for R... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_magrittr r_suggests_testthat r_suggests_tidyfast byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/dplyr sci-CRAN/glue sci-CRAN/rlang r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_tidyfast? ( sci-CRAN/tidyfast ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rcoder_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e8b4d60295e064c690208ba8c09a842d
