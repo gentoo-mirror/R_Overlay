@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.15.1 sci-CRAN/timeDate virtual/MASS sci-CRAN/gss >=sci-CRAN/timeSeries-4021.105 sci-CRAN/stabledist virtual/spatial dev-lang/R:=
+DESCRIPTION=Rmetrics - Markets and Basic Statistics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_interp r_suggests_runit r_suggests_tk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.15.1 sci-CRAN/timeDate virtual/MASS sci-CRAN/gss >=sci-CRAN/timeSeries-4021.105 sci-CRAN/stabledist virtual/spatial r_suggests_interp? ( sci-CRAN/interp ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_tk? ( dev-lang/R[tk] ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fBasics_4031.95.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e9016ef8d2df719da49739fcd2b995c9
