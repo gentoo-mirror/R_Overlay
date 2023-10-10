@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/magrittr >=sci-CRAN/tidyr-1.0.0 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Bayesian Inference for A|B and B... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/magrittr >=sci-CRAN/tidyr-1.0.0 sci-CRAN/tibble r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/grizbayr_1.3.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f707b25bd58c2200da0ca93edd7d87ea
