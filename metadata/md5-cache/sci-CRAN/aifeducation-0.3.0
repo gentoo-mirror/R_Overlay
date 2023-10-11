@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/abind sci-CRAN/reshape2 sci-CRAN/irrCAC sci-CRAN/reticulate sci-CRAN/foreach sci-CRAN/stringr >=dev-lang/R-3.5.0 >=sci-CRAN/iotarelr-0.1.4 sci-CRAN/doParallel sci-CRAN/irr >=sci-CRAN/Rcpp-1.0.10 sci-CRAN/smotefamily dev-lang/R:=
+DESCRIPTION=Artificial Intelligence for Education
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_quanteda r_suggests_quanteda_textmodels r_suggests_rmarkdown r_suggests_testthat r_suggests_text2vec r_suggests_tidytext r_suggests_topicmodels r_suggests_udpipe byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/abind sci-CRAN/reshape2 sci-CRAN/irrCAC sci-CRAN/reticulate sci-CRAN/foreach sci-CRAN/stringr >=dev-lang/R-3.5.0 >=sci-CRAN/iotarelr-0.1.4 sci-CRAN/doParallel sci-CRAN/irr >=sci-CRAN/Rcpp-1.0.10 sci-CRAN/smotefamily sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_quanteda? ( sci-CRAN/quanteda ) r_suggests_quanteda_textmodels? ( sci-CRAN/quanteda_textmodels ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_text2vec? ( sci-CRAN/text2vec ) r_suggests_tidytext? ( sci-CRAN/tidytext ) r_suggests_topicmodels? ( sci-CRAN/topicmodels ) r_suggests_udpipe? ( sci-CRAN/udpipe ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/aifeducation_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2db9907966b7de076058bb98a1bb11f6

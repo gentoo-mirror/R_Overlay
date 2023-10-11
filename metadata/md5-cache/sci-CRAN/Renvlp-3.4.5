@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/orthogonalsplinebasis virtual/Matrix sci-CRAN/Rsolnp >=dev-lang/R-3.5.0 sci-CRAN/pls virtual/Matrix dev-lang/R:=
+DESCRIPTION=Computing Envelope Estimators
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/orthogonalsplinebasis virtual/Matrix sci-CRAN/Rsolnp >=dev-lang/R-3.5.0 sci-CRAN/pls virtual/Matrix r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Renvlp_3.4.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=64c311f54af9921d3d10d9ae044ed5c7

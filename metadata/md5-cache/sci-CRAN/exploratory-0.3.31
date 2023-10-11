@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/DT sci-CRAN/remotes sci-CRAN/ggridges sci-CRAN/lm_beta sci-CRAN/shiny sci-CRAN/shinydashboard sci-CRAN/ggplot2 sci-CRAN/lemon sci-CRAN/mediation sci-CRAN/weights dev-lang/R:=
+DESCRIPTION=A Tool for Large-Scale Exploratory Analyses
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_moments byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/data_table sci-CRAN/DT sci-CRAN/remotes sci-CRAN/ggridges sci-CRAN/lm_beta sci-CRAN/shiny sci-CRAN/shinydashboard sci-CRAN/ggplot2 sci-CRAN/lemon sci-CRAN/mediation sci-CRAN/weights r_suggests_moments? ( sci-CRAN/moments ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/exploratory_0.3.31.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b32cdee3e71718aaa9dde93d21e4695e

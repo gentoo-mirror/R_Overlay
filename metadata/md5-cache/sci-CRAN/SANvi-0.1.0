@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/scales sci-CRAN/Rcpp sci-CRAN/RColorBrewer virtual/Matrix dev-lang/R:=
+DESCRIPTION=Fitting Shared Atoms Nested Mode... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/scales sci-CRAN/Rcpp sci-CRAN/RColorBrewer virtual/Matrix sci-CRAN/Rcpp sci-CRAN/RcppArmadillo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SANvi_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f54630d903c10199c61bd5844ad4207a

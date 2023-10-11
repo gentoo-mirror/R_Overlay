@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fitting Shared Atoms Nested Models via Variational Bayes // An
+		efficient tool for fitting the nested common and shared atoms
+		models using variational Bayes approximate inference for fast
+		computation. Specifically, the package implements the common
+		atoms model (Denti et al., 2023), its finite version (D'Angelo
+		et al., 2023), and a hybrid finite-infinite model. All models
+		use Gaussian mixtures with a normal-inverse-gamma prior
+		distribution on the parameters. Additional functions are
+		provided to help analyze the results of the fitting procedure.
+		References: Denti, Camerlenghi, Guindani, Mira (2023)
+		doi:10.1080/01621459.2021.1933499, DAngelo, Canale, Yu,
+		Guindani (2023) doi:10.1111/biom.13626.
+	</longdescription>
+</pkgmetadata>

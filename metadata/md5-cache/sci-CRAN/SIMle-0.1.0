@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/Sie2nts sci-CRAN/plotly sci-CRAN/RCurl sci-CRAN/stringr virtual/Matrix dev-lang/R:=
+DESCRIPTION=Estimation and Inference for Gen... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/Sie2nts sci-CRAN/plotly sci-CRAN/RCurl sci-CRAN/stringr virtual/Matrix r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SIMle_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=88f61ea0ca93281203e331b054fd0f97
