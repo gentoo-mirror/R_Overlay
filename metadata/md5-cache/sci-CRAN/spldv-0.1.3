@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/car sci-CRAN/maxLik sci-CRAN/sphet >=dev-lang/R-4.0 sci-CRAN/Formula sci-CRAN/memisc sci-CRAN/numDeriv virtual/MASS virtual/spatial dev-lang/R:=
+DESCRIPTION=Spatial Models for Limited Dependent Variables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spdep byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/Matrix sci-CRAN/car sci-CRAN/maxLik sci-CRAN/sphet >=dev-lang/R-4.0 sci-CRAN/Formula sci-CRAN/memisc sci-CRAN/numDeriv virtual/MASS virtual/spatial r_suggests_spdep? ( sci-CRAN/spdep ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spldv_0.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bac888cb30f19f9cbf997b70ae0ad3a3

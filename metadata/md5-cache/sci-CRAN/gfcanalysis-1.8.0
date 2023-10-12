@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/terra sci-CRAN/rasterVis sci-CRAN/animation sci-CRAN/sf sci-CRAN/geosphere >=dev-lang/R-3.5.0 sci-CRAN/raster sci-CRAN/RCurl sci-CRAN/plyr sci-CRAN/ggplot2 sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Tools for Working with Hansen et... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/terra sci-CRAN/rasterVis sci-CRAN/animation sci-CRAN/sf sci-CRAN/geosphere >=dev-lang/R-3.5.0 sci-CRAN/raster sci-CRAN/RCurl sci-CRAN/plyr sci-CRAN/ggplot2 sci-CRAN/stringr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gfcanalysis_1.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bbfa6e9f8111df3aaa84a447d665d3d8

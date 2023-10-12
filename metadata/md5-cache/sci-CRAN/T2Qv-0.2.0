@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shinydashboardPlus sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/shinycssloaders sci-CRAN/dplyr >=sci-CRAN/htmltools-0.5.1.1 >=dev-lang/R-3.5 sci-CRAN/shiny sci-CRAN/shinydashboard sci-CRAN/ca sci-CRAN/highcharter sci-CRAN/stringr sci-CRAN/tables dev-lang/R:=
+DESCRIPTION=Control Qualitative Variables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/shinydashboardPlus sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/shinycssloaders sci-CRAN/dplyr >=sci-CRAN/htmltools-0.5.1.1 >=dev-lang/R-3.5 sci-CRAN/shiny sci-CRAN/shinydashboard sci-CRAN/ca sci-CRAN/highcharter sci-CRAN/stringr sci-CRAN/tables r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/T2Qv_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e048142bba2ffe341aeee1d3163ee41f

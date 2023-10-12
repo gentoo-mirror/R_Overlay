@@ -4,14 +4,16 @@
 	<longdescription>
 		Multiple Imputation with Denoising Autoencoders // A tool for
 		multiply imputing missing data using 'MIDAS', a deep learning
-		method based on denoising autoencoder neural networks. This
-		algorithm offers significant accuracy and efficiency advantages
-		over other multiple imputation strategies, particularly when
-		applied to large datasets with complex features. Alongside
-		interfacing with 'Python' to run the core algorithm, this
-		package contains functions for processing data before and after
-		model training, running imputation model diagnostics,
-		generating multiple completed datasets, and estimating
-		regression models on these datasets.
+		method based on denoising autoencoder neural networks (see Lall
+		and Robinson, 2022; doi:10.1017/pan.2020.49). This algorithm
+		offers significant accuracy and efficiency advantages over
+		other multiple imputation strategies, particularly when applied
+		to large datasets with complex features. Alongside interfacing
+		with 'Python' to run the core algorithm, this package contains
+		functions for processing data before and after model training,
+		running imputation model diagnostics, generating multiple
+		completed datasets, and estimating regression models on these
+		datasets. For more information see Lall and Robinson (2023)
+		doi:10.18637/jss.v107.i09.
 	</longdescription>
 </pkgmetadata>
