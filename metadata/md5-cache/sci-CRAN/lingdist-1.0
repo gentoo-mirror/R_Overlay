@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-1.0.10 dev-lang/R:=
+DESCRIPTION=Fast Linguistic Distance and Alignment Computation
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-1.0.10 sci-CRAN/Rcpp sci-CRAN/RcppThread dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lingdist_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=998f75527f464c007d80041b848f12ab

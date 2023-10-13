@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/getip sci-CRAN/data_table >=sci-CRAN/mirai-0.11.0 sci-CRAN/processx >=dev-lang/R-4.0.0 sci-CRAN/ps sci-CRAN/R6 sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/tidyselect dev-lang/R:=
+DESCRIPTION=A Distributed Worker Launcher Framework
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_markdown r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/getip sci-CRAN/data_table >=sci-CRAN/mirai-0.11.0 sci-CRAN/processx >=dev-lang/R-4.0.0 sci-CRAN/ps sci-CRAN/R6 sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/tidyselect r_suggests_knitr? ( >=sci-CRAN/knitr-1.30 ) r_suggests_markdown? ( >=sci-CRAN/markdown-1.1 ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.4 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/crew_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e1ac93da1ff53ca151652a7f67ccf3d1

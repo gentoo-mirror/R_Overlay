@@ -16,11 +16,12 @@
 		covariance matrix using an online algorithm, linear regression
 		(using Cholesky, QR, SVD, sweep operator and conjugate
 		gradients methods), ridge regression (with optimal selection of
-		the ridge parameter considering several procedures), functions
-		to compute the multivariate skewness, kurtosis, Mahalanobis
-		distance (checking the positive defineteness) and the Wilson-
-		Hilferty transformation of chi squared variables. Furthermore,
-		the package provides interfaces to C code callable by another C
+		the ridge parameter considering several procedures), omnibus
+		tests for univariate normality, functions to compute the
+		multivariate skewness, kurtosis, the Mahalanobis distance
+		(checking the positive defineteness), and the Wilson-Hilferty
+		transformation of chi squared variables. Furthermore, the
+		package provides interfaces to C code callable by another C
 		code from other R packages.
 	</longdescription>
 </pkgmetadata>

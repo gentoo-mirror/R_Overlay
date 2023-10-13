@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Point Pattern Simulator for Spatial Cellular Data // Single
+		cell resolution data has been valuable in learning about tissue
+		microenvironments and interactions between cells or spots. This
+		package allows for the simulation of this level of data, be it
+		single cell or spots, in both a univariate (single metric or
+		cell type) and bivariate (2 or more metrics or cell types)
+		ways. As more technologies come to marker, more methods will be
+		developed to derive spatial metrics from the data which will
+		require a way to benchmark methods against each other.
+		Additionally, as the field currently stands, there is not a
+		gold standard method to be compared against. We set out to
+		develop an R package that will allow users to simulate point
+		patterns that can be biologically informed from different
+		tissue domains, holes, and varying degrees of
+		clustering/colocalization. The data can be exported as spatial
+		files and a summary file (like 'HALO').
+		https://github.com/FridleyLab/scSpatialSIM/.
+	</longdescription>
+</pkgmetadata>

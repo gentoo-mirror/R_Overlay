@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/superpc sci-CRAN/glmnet sci-CRAN/tidyr sci-BIOC/microbiome sci-CRAN/pls virtual/survival sci-CRAN/survminer sci-CRAN/lmtest sci-CRAN/gplots dev-lang/R:=
+DESCRIPTION=Biomarker Validation for Microbi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/superpc sci-CRAN/glmnet sci-CRAN/tidyr sci-BIOC/microbiome sci-CRAN/pls virtual/survival sci-CRAN/survminer sci-CRAN/lmtest sci-CRAN/gplots r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MicrobiomeSurv_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d2343ccb0e4450cd77627ff719877a3c

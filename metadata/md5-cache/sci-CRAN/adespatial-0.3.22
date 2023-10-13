@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/adephylo sci-CRAN/shiny sci-CRAN/spdep sci-CRAN/adegraphics sci-CRAN/sp sci-CRAN/vegan >=sci-CRAN/ade4-1.7.13 virtual/lattice virtual/MASS dev-lang/R:=
+DESCRIPTION=Multivariate Multiscale Spatial Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ape r_suggests_betapart r_suggests_knitr r_suggests_rgeos r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/adephylo sci-CRAN/shiny sci-CRAN/spdep sci-CRAN/adegraphics sci-CRAN/sp sci-CRAN/vegan >=sci-CRAN/ade4-1.7.13 virtual/lattice virtual/MASS r_suggests_ape? ( sci-CRAN/ape ) r_suggests_betapart? ( sci-CRAN/betapart ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rgeos? ( sci-CRAN/rgeos ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/adespatial_0.3-22.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e1c69fafc7f22dbbfed51430980b09a8

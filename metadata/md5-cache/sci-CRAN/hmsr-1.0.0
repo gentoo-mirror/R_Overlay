@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/GA sci-CRAN/msm sci-CRAN/uuid dev-lang/R:=
+DESCRIPTION=Multipopulation Evolutionary Strategy HMS
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_ecr r_suggests_filelock r_suggests_smoof r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/GA sci-CRAN/msm sci-CRAN/uuid r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_ecr? ( sci-CRAN/ecr ) r_suggests_filelock? ( sci-CRAN/filelock ) r_suggests_smoof? ( sci-CRAN/smoof ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hmsr_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=653fe2300f725a0abc371cc0c3098551
