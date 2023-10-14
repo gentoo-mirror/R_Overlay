@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/xfun-0.29 dev-lang/R:=
+DESCRIPTION=Helper Functions to Install and ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rstudioapi r_suggests_testit byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/xfun-0.29 r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_testit? ( sci-CRAN/testit ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tinytex_0.48.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3cc177531448b9a2daf210d0ee2fa65f

@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 >=sci-CRAN/jsonlite-1.8.0 >=sci-CRAN/jsonvalidate-1.3.1 dev-lang/R:=
+DESCRIPTION=Read and Write CDISC Dataset JSON Files
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_haven r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.5 >=sci-CRAN/jsonlite-1.8.0 >=sci-CRAN/jsonvalidate-1.3.1 r_suggests_haven? ( sci-CRAN/haven ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/datasetjson_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0a3807b133cd5c833a5ce099b9b10dd0
