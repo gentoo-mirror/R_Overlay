@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fields sci-CRAN/raster sci-CRAN/spam sci-CRAN/sf sci-CRAN/traudem sci-CRAN/terra sci-CRAN/elevatr >=sci-CRAN/OCNet-1.1.0 >=sci-CRAN/Rcpp-1.0.9 sci-CRAN/curl dev-lang/R:=
+DESCRIPTION=Extract and Analyze Rivers from Elevation Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/fields sci-CRAN/raster sci-CRAN/spam sci-CRAN/sf sci-CRAN/traudem sci-CRAN/terra sci-CRAN/elevatr >=sci-CRAN/OCNet-1.1.0 >=sci-CRAN/Rcpp-1.0.9 sci-CRAN/curl sci-CRAN/Rcpp r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rivnet_0.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f4a9fef3649320579e3a63910914dcc7
