@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/BIEN sci-CRAN/spocc sci-CRAN/shiny sci-CRAN/terra >=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=Provides Templates for Metadata ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dismo r_suggests_dplyr r_suggests_googlesheets4 r_suggests_knitr r_suggests_rgbif r_suggests_rmarkdown r_suggests_sf byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/BIEN sci-CRAN/spocc sci-CRAN/shiny sci-CRAN/terra >=dev-lang/R-3.5.0 r_suggests_dismo? ( sci-CRAN/dismo ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_googlesheets4? ( sci-CRAN/googlesheets4 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rgbif? ( sci-CRAN/rgbif ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rangeModelMetadata_0.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=07dea4e6151b51e106a1a6c7aab0d96a

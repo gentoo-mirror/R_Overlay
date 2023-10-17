@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/usethis sci-CRAN/ggplot2 sci-CRAN/betafunctions sci-CRAN/dcurver dev-lang/R:=
+DESCRIPTION=Parameter Estimation of Item Res... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gridextra r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/usethis sci-CRAN/ggplot2 sci-CRAN/betafunctions sci-CRAN/dcurver r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/IRTest_1.12.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ced3e91e9c989d389adb10660216dd88
