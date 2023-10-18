@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/overlapping sci-CRAN/rstan sci-CRAN/colorspace sci-CRAN/coda dev-lang/R:=
+DESCRIPTION=Tools to Visualize, Manipulate, ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_posterior r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/overlapping sci-CRAN/rstan sci-CRAN/colorspace sci-CRAN/coda r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_posterior? ( sci-CRAN/posterior ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MCMCvis_0.16.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0ce11d4aa75ada5e450424f81a22bcd8

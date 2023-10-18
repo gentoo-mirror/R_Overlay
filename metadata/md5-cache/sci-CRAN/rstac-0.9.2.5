@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/magrittr sci-CRAN/jsonlite sci-CRAN/crayon sci-CRAN/lifecycle sci-CRAN/httr dev-lang/R:=
+DESCRIPTION=Client Library for SpatioTemporal Asset Catalog
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_geojsonsf r_suggests_ggplot2 r_suggests_jpeg r_suggests_knitr r_suggests_leaflet r_suggests_png r_suggests_purrr r_suggests_rmarkdown r_suggests_sf r_suggests_slider r_suggests_stars r_suggests_testthat r_suggests_tibble r_suggests_tmap byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/magrittr sci-CRAN/jsonlite sci-CRAN/crayon sci-CRAN/lifecycle sci-CRAN/httr r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_geojsonsf? ( sci-CRAN/geojsonsf ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_png? ( sci-CRAN/png ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_slider? ( sci-CRAN/slider ) r_suggests_stars? ( sci-CRAN/stars ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_tmap? ( sci-CRAN/tmap ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rstac_0.9.2-5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5a7348d0161183c5df06e12ae7ea9cc6

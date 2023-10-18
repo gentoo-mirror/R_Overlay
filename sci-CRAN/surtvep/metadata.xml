@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Cox Non-Proportional Hazards Model with Time-Varying Coefficients
+		// Fit Cox non-proportional hazards models with time-varying
+		coefficients. Both unpenalized procedures (Newton and proximal
+		Newton) and penalized procedures (P-splines and smoothing
+		splines) are included using B-spline basis functions for
+		estimating time-varying coefficients. For penalized procedures,
+		cross validations, mAIC, TIC or GIC are implemented to select
+		tuning parameters. Utilities for carrying out post-estimation
+		visualization, summarization, point-wise confidence interval
+		and hypothesis testing are also provided. For more information,
+		see Wu et al. (2022) doi: 10.1007/s10985-021-09544-2 and Luo et
+		al. (2023) doi:10.1177/09622802231181471.
+	</longdescription>
+</pkgmetadata>

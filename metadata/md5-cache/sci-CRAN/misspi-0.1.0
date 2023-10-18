@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/glmnet sci-CRAN/ggplot2 sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/lightgbm sci-CRAN/doSNOW sci-CRAN/SIS sci-CRAN/plotly dev-lang/R:=
+DESCRIPTION=Missing Value Imputation in Parallel
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_e1071 r_suggests_neuralnet byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/glmnet sci-CRAN/ggplot2 sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/lightgbm sci-CRAN/doSNOW sci-CRAN/SIS sci-CRAN/plotly r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_neuralnet? ( sci-CRAN/neuralnet ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/misspi_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b6396adb49e89435c565ac34b90a1ca4

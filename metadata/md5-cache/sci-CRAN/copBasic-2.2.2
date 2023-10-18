@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/randtoolbox sci-CRAN/lmomco dev-lang/R:=
+DESCRIPTION=General Bivariate Copula Theory ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_copula byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/randtoolbox sci-CRAN/lmomco r_suggests_copula? ( sci-CRAN/copula ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/copBasic_2.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=02ebb851e5f8d31b3a22c24b2f2714b8

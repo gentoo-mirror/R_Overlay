@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/stringr >=sci-CRAN/ebnm-0.1.21 sci-CRAN/softImpute sci-CRAN/tibble sci-CRAN/ggplot2 >=dev-lang/R-3.4 sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/irlba dev-lang/R:=
+DESCRIPTION=Empirical Bayes Matrix Factorization
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ashr r_suggests_cowplot r_suggests_knitr r_suggests_rcppml r_suggests_rmarkdown r_suggests_rsvd r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=virtual/Matrix sci-CRAN/stringr >=sci-CRAN/ebnm-0.1.21 sci-CRAN/softImpute sci-CRAN/tibble sci-CRAN/ggplot2 >=dev-lang/R-3.4 sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/irlba r_suggests_ashr? ( sci-CRAN/ashr ) r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcppml? ( sci-CRAN/RcppML ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsvd? ( sci-CRAN/rsvd ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/flashier_1.0.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=19c8a93f57cf2a817e86b30af2beffed

@@ -6,9 +6,9 @@
 		longitude values or an 'sf/sfc' POINT object and get back the
 		time zone in which they exist. Two methods are implemented. One
 		is very fast and uses 'Rcpp' in conjunction with data from the
-		'Javascript' library (https://github.com/darkskyapp/tz-
-		lookup/). This method also works outside of countries' borders
-		and in international waters, however speed comes at the cost of
+		'Javascript' library (https://github.com/darkskyapp/tz-lookup-
+		oss/). This method also works outside of countries' borders and
+		in international waters, however speed comes at the cost of
 		accuracy - near time zone borders away from populated centres
 		there is a chance that it will return the incorrect time zone.
 		The other method is slower but more accurate - it uses the 'sf'
