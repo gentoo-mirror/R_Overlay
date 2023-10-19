@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analyte Flux and Load from Estimates of Concentration and
+		Discharge // Flux (mass per unit time) and Load (mass) are
+		computed from timeseries estimates of analyte concentration and
+		discharge. Concentration timeseries are computed from
+		regression between surrogate and user-provided analyte.
+		Uncertainty in calculations is estimated using bootstrap
+		resampling. Code for the processing of acoustic backscatter
+		from horizontally profiling acoustic Doppler current profilers
+		is provided. All methods detailed in Livsey et al (2020)
+		doi:10.1007/s12237-020-00734-z, Livsey et al (2023)
+		doi:10.1029/2022WR033982, and references therein.
+	</longdescription>
+</pkgmetadata>

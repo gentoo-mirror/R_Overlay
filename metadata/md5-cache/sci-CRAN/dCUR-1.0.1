@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/mclust virtual/MASS sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/Rdpack sci-CRAN/ppcor dev-lang/R:=
+DESCRIPTION=Dimension Reduction with Dynamic CUR
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_snow r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/mclust virtual/MASS sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/Rdpack sci-CRAN/ppcor r_suggests_snow? ( sci-CRAN/snow ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dCUR_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dfb2d6d524fe0b0e9fe1948c006c943c
