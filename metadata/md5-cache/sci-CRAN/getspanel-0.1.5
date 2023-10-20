@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/mvtnorm >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/fastDummies sci-CRAN/gets dev-lang/R:=
+DESCRIPTION=General-to-Specific Modelling of Panel Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cowplot r_suggests_fixest r_suggests_knitr r_suggests_lfe r_suggests_lmtest r_suggests_plm r_suggests_prettydoc r_suggests_rmarkdown r_suggests_sandwich r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/Matrix sci-CRAN/mvtnorm >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/fastDummies sci-CRAN/gets r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_fixest? ( sci-CRAN/fixest ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lfe? ( sci-CRAN/lfe ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_plm? ( sci-CRAN/plm ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/getspanel_0.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7d6e54f2ff4c71fe849cc2080b7de542

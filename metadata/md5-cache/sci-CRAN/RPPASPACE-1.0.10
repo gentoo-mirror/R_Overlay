@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/bmp sci-CRAN/imager sci-CRAN/timeDate sci-CRAN/tiff sci-CRAN/jpeg sci-CRAN/SparseM sci-CRAN/doParallel virtual/nlme sci-CRAN/foreach virtual/mgcv >=dev-lang/R-3.5.0 sci-CRAN/robustbase sci-CRAN/png sci-CRAN/cobs sci-CRAN/quantreg sci-CRAN/iterators dev-lang/R:=
+DESCRIPTION=Reverse-Phase Protein Array Supe... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/bmp sci-CRAN/imager sci-CRAN/timeDate sci-CRAN/tiff sci-CRAN/jpeg sci-CRAN/SparseM sci-CRAN/doParallel virtual/nlme sci-CRAN/foreach virtual/mgcv >=dev-lang/R-3.5.0 sci-CRAN/robustbase sci-CRAN/png sci-CRAN/cobs sci-CRAN/quantreg sci-CRAN/iterators r_suggests_boot? ( virtual/boot ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RPPASPACE_1.0.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=312e20e28640a7ba7301c57c04a40181

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/curl sci-CRAN/seriation >=sci-CRAN/tibble-3.1 sci-CRAN/purrr >=sci-CRAN/rlang-0.4.11 sci-CRAN/rematch2 sci-CRAN/openxlsx sci-CRAN/readr sci-CRAN/tidyr >=dev-lang/R-3.5.0 sci-CRAN/vctrs >=sci-CRAN/dplyr-1.1.0 sci-CRAN/diffobj sci-CRAN/readxl sci-CRAN/rmarkdown sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Useful Functions for Data Processing
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_roxygen2 r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/magrittr sci-CRAN/curl sci-CRAN/seriation >=sci-CRAN/tibble-3.1 sci-CRAN/purrr >=sci-CRAN/rlang-0.4.11 sci-CRAN/rematch2 sci-CRAN/openxlsx sci-CRAN/readr sci-CRAN/tidyr >=dev-lang/R-3.5.0 sci-CRAN/vctrs >=sci-CRAN/dplyr-1.1.0 sci-CRAN/diffobj sci-CRAN/readxl sci-CRAN/rmarkdown sci-CRAN/stringr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/baizer_0.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b8e7f6ab55ffd114dc020a1f7747ed71
