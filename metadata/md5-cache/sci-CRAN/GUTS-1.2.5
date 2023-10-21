@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Rcpp-0.12.16 dev-lang/R:=
+DESCRIPTION=Fast Calculation of the Likeliho... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_adaptmcmc r_suggests_drc r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr r_suggests_xlsx byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Rcpp-0.12.16 sci-CRAN/Rcpp r_suggests_adaptmcmc? ( sci-CRAN/adaptMCMC ) r_suggests_drc? ( sci-CRAN/drc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) r_suggests_xlsx? ( sci-CRAN/xlsx ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GUTS_1.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=14fea6a5850297251579129206563a16

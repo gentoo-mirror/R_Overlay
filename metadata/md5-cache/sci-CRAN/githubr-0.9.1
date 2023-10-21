@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gitcreds sci-CRAN/httr sci-CRAN/magrittr sci-CRAN/gh sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Easier to Use API Wrapper for GitHub
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/gitcreds sci-CRAN/httr sci-CRAN/magrittr sci-CRAN/gh sci-CRAN/dplyr r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/githubr_0.9.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2e9aeab6d5693e00d4202729edc9c387

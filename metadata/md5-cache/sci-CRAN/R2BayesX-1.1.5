@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/mgcv sci-CRAN/colorspace >=dev-lang/R-2.13.0 sci-CRAN/BayesXsrc dev-lang/R:=
+DESCRIPTION=Estimate Structured Additive Reg... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_coda r_suggests_fields r_suggests_interp r_suggests_maps r_suggests_mba r_suggests_sf r_suggests_shapefiles r_suggests_sp r_suggests_spdata r_suggests_spdep byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=virtual/mgcv sci-CRAN/colorspace >=dev-lang/R-2.13.0 sci-CRAN/BayesXsrc r_suggests_coda? ( sci-CRAN/coda ) r_suggests_fields? ( sci-CRAN/fields ) r_suggests_interp? ( sci-CRAN/interp ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_mba? ( sci-CRAN/MBA ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_shapefiles? ( sci-CRAN/shapefiles ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_spdata? ( sci-CRAN/spData ) r_suggests_spdep? ( sci-CRAN/spdep ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/R2BayesX_1.1-5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fcb8b701decfa05b72ed8688ab8ee871
