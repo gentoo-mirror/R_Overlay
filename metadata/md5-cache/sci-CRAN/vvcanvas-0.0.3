@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/htm2txt sci-CRAN/purrr sci-CRAN/jsonlite sci-CRAN/httr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Canvas LMS API Integration
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/htm2txt sci-CRAN/purrr sci-CRAN/jsonlite sci-CRAN/httr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/magrittr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vvcanvas_0.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fedb94db43963d3b10eb889e510f0328

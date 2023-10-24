@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 dev-lang/R:=
+DESCRIPTION=Interface to NetCDF Datasets
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bit64 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-libs/netcdf sci-libs/udunits r_suggests_bit64? ( sci-CRAN/bit64 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RNetCDF_2.8-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=374374f2d207b1bbba0251c688794241

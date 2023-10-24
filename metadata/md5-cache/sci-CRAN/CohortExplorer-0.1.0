@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/DatabaseConnector-5.0.0 sci-CRAN/lifecycle sci-CRAN/checkmate sci-CRAN/dplyr >=dev-lang/R-4.0.0 sci-CRAN/ParallelLogger sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Explorer of Profiles of Patients in a Cohort
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=sci-CRAN/DatabaseConnector-5.0.0 sci-CRAN/lifecycle sci-CRAN/checkmate sci-CRAN/dplyr >=dev-lang/R-4.0.0 sci-CRAN/ParallelLogger sci-CRAN/rlang r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CohortExplorer_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d88f88d1feda711b483d631f7dbd38ca
