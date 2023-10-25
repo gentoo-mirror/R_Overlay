@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/meteor >=sci-CRAN/Rcpp-0.12.4 dev-lang/R:=
+DESCRIPTION=Quantitative Evaluation of the N... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_limsolve r_suggests_terra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/meteor >=sci-CRAN/Rcpp-0.12.4 sci-CRAN/Rcpp r_suggests_limsolve? ( sci-CRAN/limSolve ) r_suggests_terra? ( sci-CRAN/terra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Rquefts_1.2-3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5326b10b18be0c460e6846526c5130dc

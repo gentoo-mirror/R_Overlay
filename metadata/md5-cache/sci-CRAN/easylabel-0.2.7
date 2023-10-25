@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/plotly-4.10.0 sci-CRAN/shiny sci-CRAN/rlang sci-CRAN/shinycssloaders sci-CRAN/DT sci-CRAN/splus2R sci-CRAN/gtools sci-CRAN/ggplot2 sci-CRAN/RColorBrewer sci-CRAN/shinybusy dev-lang/R:=
+DESCRIPTION=Interactive Scatter Plot and Volcano Plot Labels
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_annotationdbi r_suggests_knitr r_suggests_qvalue r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/plotly-4.10.0 sci-CRAN/shiny sci-CRAN/rlang sci-CRAN/shinycssloaders sci-CRAN/DT sci-CRAN/splus2R sci-CRAN/gtools sci-CRAN/ggplot2 sci-CRAN/RColorBrewer sci-CRAN/shinybusy r_suggests_annotationdbi? ( sci-BIOC/AnnotationDbi ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_qvalue? ( sci-BIOC/qvalue ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/easylabel_0.2.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6a6e74680e055d2247fc338d6b894231

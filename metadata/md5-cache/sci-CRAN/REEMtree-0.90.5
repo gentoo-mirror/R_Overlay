@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme virtual/rpart dev-lang/R:=
+DESCRIPTION=Regression Trees with Random Eff... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/nlme virtual/rpart r_suggests_aer? ( sci-CRAN/AER ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/REEMtree_0.90.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=97e26abed51e4e6cf118cdab17dea224
