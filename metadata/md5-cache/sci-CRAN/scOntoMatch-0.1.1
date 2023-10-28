@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/purrr sci-CRAN/ontologyIndex sci-CRAN/ontologyPlot dev-lang/R:=
+DESCRIPTION=Aligning Ontology Annotation Acr... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr r_suggests_seuratobject byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/purrr sci-CRAN/ontologyIndex sci-CRAN/ontologyPlot r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_seuratobject? ( sci-CRAN/SeuratObject ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/scOntoMatch_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e0c430b4568c427f646b8beb784b4ed3
