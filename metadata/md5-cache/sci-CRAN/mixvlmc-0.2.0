@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/butcher sci-CRAN/VGAM sci-CRAN/assertthat virtual/nnet sci-CRAN/pROC >=sci-CRAN/Rcpp-1.0.8.3 sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/withr dev-lang/R:=
+DESCRIPTION=Variable Length Markov Chains with Covariates
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_geodist r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble r_suggests_vdiffr r_suggests_waldo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/butcher sci-CRAN/VGAM sci-CRAN/assertthat virtual/nnet sci-CRAN/pROC >=sci-CRAN/Rcpp-1.0.8.3 sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/withr sci-CRAN/Rcpp r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_geodist? ( sci-CRAN/geodist ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_waldo? ( sci-CRAN/waldo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mixvlmc_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=03a79bc44eb7161e9dae070a33683c19
