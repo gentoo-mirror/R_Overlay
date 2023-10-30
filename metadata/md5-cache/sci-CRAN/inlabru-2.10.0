@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/fmesher-0.1.2 sci-CRAN/tibble >=dev-lang/R-3.6 virtual/Matrix virtual/Matrix sci-CRAN/withr sci-CRAN/dplyr sci-CRAN/lifecycle sci-CRAN/magrittr sci-CRAN/plyr sci-CRAN/rlang sci-CRAN/sf >=sci-CRAN/sp-1.4.5 sci-CRAN/terra dev-lang/R:=
+DESCRIPTION=Bayesian Latent Gaussian Modelli... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_diagrammer r_suggests_ggmap r_suggests_ggplot2 r_suggests_ggpolypath r_suggests_knitr r_suggests_maps r_suggests_mgcv r_suggests_patchwork r_suggests_raster r_suggests_rcolorbrewer r_suggests_rgl r_suggests_rmarkdown r_suggests_scales r_suggests_shiny r_suggests_sn r_suggests_spatstat_data r_suggests_spatstat_geom r_suggests_sphereplot r_suggests_splancs r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/fmesher-0.1.2 sci-CRAN/tibble >=dev-lang/R-3.6 virtual/Matrix virtual/Matrix sci-CRAN/withr sci-CRAN/dplyr sci-CRAN/lifecycle sci-CRAN/magrittr sci-CRAN/plyr sci-CRAN/rlang sci-CRAN/sf >=sci-CRAN/sp-1.4.5 sci-CRAN/terra r_suggests_covr? ( sci-CRAN/covr ) r_suggests_diagrammer? ( sci-CRAN/DiagrammeR ) r_suggests_ggmap? ( sci-CRAN/ggmap ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggpolypath? ( sci-CRAN/ggpolypath ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_sn? ( sci-CRAN/sn ) r_suggests_spatstat_data? ( sci-CRAN/spatstat_data ) r_suggests_spatstat_geom? ( sci-CRAN/spatstat_geom ) r_suggests_sphereplot? ( sci-CRAN/sphereplot ) r_suggests_splancs? ( sci-CRAN/splancs ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/inlabru_2.10.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2d0c390139807e84a734521f300f6f17
