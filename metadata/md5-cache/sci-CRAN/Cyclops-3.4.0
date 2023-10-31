@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Andromeda-0.3.1 >=sci-CRAN/Rcpp-0.12.12 virtual/survival sci-CRAN/dplyr sci-CRAN/rlang virtual/Matrix sci-CRAN/bit64 dev-lang/R:=
+DESCRIPTION=Cyclic Coordinate Descent for Lo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cmprsk r_suggests_ggplot2 r_suggests_gnm r_suggests_mass r_suggests_readr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Andromeda-0.3.1 >=sci-CRAN/Rcpp-0.12.12 virtual/survival sci-CRAN/dplyr sci-CRAN/rlang virtual/Matrix sci-CRAN/bit64 sci-CRAN/Rcpp >=sci-CRAN/RcppEigen-0.3.2 r_suggests_cmprsk? ( sci-CRAN/cmprsk ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gnm? ( sci-CRAN/gnm ) r_suggests_mass? ( virtual/MASS ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Cyclops_3.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7778d0164cd817040628b6a7d7ac0ba4
