@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/XML sci-CRAN/purrr sci-CRAN/xml2 sci-CRAN/data_table sci-CRAN/magrittr sci-CRAN/httr sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=R Interface for Tableau Services
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/XML sci-CRAN/purrr sci-CRAN/xml2 sci-CRAN/data_table sci-CRAN/magrittr sci-CRAN/httr sci-CRAN/tidyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vvtableau_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=674f8d2c36adc1d3751940089372345d

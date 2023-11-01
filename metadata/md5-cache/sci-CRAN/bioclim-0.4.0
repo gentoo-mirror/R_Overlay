@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/berryFunctions sci-CRAN/terra >=dev-lang/R-3.5.0 sci-CRAN/reshape2 sci-CRAN/rmarkdown dev-lang/R:=
+DESCRIPTION=Bioclimatic Analysis and Classification
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/berryFunctions sci-CRAN/terra >=dev-lang/R-3.5.0 sci-CRAN/reshape2 sci-CRAN/rmarkdown dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bioclim_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec18b0762ce86df3e49d7c55a4187ea2
