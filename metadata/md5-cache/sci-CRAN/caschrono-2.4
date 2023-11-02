@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/zoo sci-CRAN/Hmisc dev-lang/R:=
+DESCRIPTION=Series Temporelles Avec R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dse r_suggests_expsmooth r_suggests_fbasics r_suggests_fgarch r_suggests_forecast r_suggests_polynom r_suggests_timeseries r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/zoo sci-CRAN/Hmisc r_suggests_dse? ( sci-CRAN/dse ) r_suggests_expsmooth? ( sci-CRAN/expsmooth ) r_suggests_fbasics? ( sci-CRAN/fBasics ) r_suggests_fgarch? ( sci-CRAN/fGarch ) r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_polynom? ( sci-CRAN/polynom ) r_suggests_timeseries? ( sci-CRAN/timeSeries ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/caschrono_2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=df0d074d792006d73aee0121407b036f
