@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/bitops dev-lang/R:=
+DESCRIPTION=General Network (HTTP/FTP/...) C... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/bitops net-misc/curl r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RCurl_1.98-1.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1be103387c0424477a80859abfcc9555
