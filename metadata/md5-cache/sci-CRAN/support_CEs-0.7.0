@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DoE_base virtual/MASS sci-CRAN/simex dev-lang/R:=
+DESCRIPTION=Basic Functions for Supporting a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mded r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/DoE_base virtual/MASS sci-CRAN/simex r_suggests_mded? ( sci-CRAN/mded ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/support.CEs_0.7-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=101e656326cf7c0962ed5f67f02c21ef

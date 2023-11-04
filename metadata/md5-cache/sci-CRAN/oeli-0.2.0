@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/checkmate sci-CRAN/usethis sci-CRAN/cli sci-CRAN/showtext sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/hexSticker sci-CRAN/sysfonts dev-lang/R:=
+DESCRIPTION=Utilities for Developing Data Science Software
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/checkmate sci-CRAN/usethis sci-CRAN/cli sci-CRAN/showtext sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/hexSticker sci-CRAN/sysfonts sci-CRAN/Rcpp sci-CRAN/testthat sci-CRAN/RcppArmadillo r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/oeli_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ef559b509756515a09ca6b01b20d8763

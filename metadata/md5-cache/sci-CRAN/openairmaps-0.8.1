@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggtext sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/forcats virtual/mgcv sci-CRAN/stringr >=dev-lang/R-3.2.0 sci-CRAN/cli sci-CRAN/ggmap sci-CRAN/leaflet sci-CRAN/ggplot2 sci-CRAN/tidyr >=sci-CRAN/openair-2.13 >=sci-CRAN/purrr-1.0.0 sci-CRAN/lifecycle sci-CRAN/rlang sci-CRAN/sf sci-CRAN/dplyr sci-CRAN/lubridate dev-lang/R:=
+DESCRIPTION=Create Maps of Air Pollution Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_httr r_suggests_jsonlite r_suggests_worldmet byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ggtext sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/forcats virtual/mgcv sci-CRAN/stringr >=dev-lang/R-3.2.0 sci-CRAN/cli sci-CRAN/ggmap sci-CRAN/leaflet sci-CRAN/ggplot2 sci-CRAN/tidyr >=sci-CRAN/openair-2.13 >=sci-CRAN/purrr-1.0.0 sci-CRAN/lifecycle sci-CRAN/rlang sci-CRAN/sf sci-CRAN/dplyr sci-CRAN/lubridate r_suggests_httr? ( sci-CRAN/httr ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_worldmet? ( sci-CRAN/worldmet ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/openairmaps_0.8.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f3f19817f6fbc8c4841c854aea8f55c2
