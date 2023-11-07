@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/png dev-lang/R:=
+DESCRIPTION=Overlays on Static Maps
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_jpeg r_suggests_leaflet r_suggests_pbsmapping r_suggests_rcolorbrewer r_suggests_rcurl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/png r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_pbsmapping? ( sci-CRAN/PBSmapping ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rcurl? ( sci-CRAN/RCurl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RgoogleMaps_1.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=45b7ca2c62d61a652b49cff68732528f

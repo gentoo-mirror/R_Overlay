@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/glue sci-CRAN/lifecycle sci-CRAN/rlang sci-CRAN/scales sci-CRAN/tibble sci-CRAN/vctrs sci-CRAN/crayon sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Lyrics and Song Data for Taylor Swifts Discography
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_palmerpenguins r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/glue sci-CRAN/lifecycle sci-CRAN/rlang sci-CRAN/scales sci-CRAN/tibble sci-CRAN/vctrs sci-CRAN/crayon sci-CRAN/ggplot2 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_palmerpenguins? ( sci-CRAN/palmerpenguins ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-1.0.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/taylor_3.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8dd3bcd7f948854e57e55980c4006afb
