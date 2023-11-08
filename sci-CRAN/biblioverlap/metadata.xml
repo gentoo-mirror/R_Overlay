@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Document-Level Matching Between Bibliographic Datasets //
+		Identifies and visualizes document overlap in any number of
+		bibliographic datasets. This package implements the
+		identification of overlapping documents through the exact match
+		of a unique identifier (e.g. Digital Object Identifier - DOI)
+		and, for records where the identifier is absent, through a
+		score calculated from a set of fields commonly found in
+		bibliographic datasets (Title, Source, Authors and Publication
+		Year). Additionally, it provides functions to visualize the
+		results of the document matching through a Venn diagram and/or
+		UpSet plot, as well as a summary of the matching procedure.
+	</longdescription>
+</pkgmetadata>

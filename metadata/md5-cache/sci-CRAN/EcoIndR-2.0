@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/picante sci-CRAN/splancs sci-CRAN/vegan sci-CRAN/Rarity >=dev-lang/R-3.1.1 sci-CRAN/FD dev-lang/R:=
+DESCRIPTION=Ecological Indicators
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_alphahull r_suggests_geor r_suggests_mgcv r_suggests_plotrix r_suggests_raster r_suggests_sf r_suggests_shape r_suggests_sp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/picante sci-CRAN/splancs sci-CRAN/vegan sci-CRAN/Rarity >=dev-lang/R-3.1.1 sci-CRAN/FD r_suggests_alphahull? ( sci-CRAN/alphahull ) r_suggests_geor? ( sci-CRAN/geoR ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_plotrix? ( sci-CRAN/plotrix ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_shape? ( sci-CRAN/shape ) r_suggests_sp? ( sci-CRAN/sp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EcoIndR_2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=51e1e2e29d757f27402e26dc0c7ef3e6

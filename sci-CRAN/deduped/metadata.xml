@@ -3,8 +3,8 @@
 <pkgmetadata>
 	<longdescription>
 		Making "Deduplicated" Functions // Contains one main function
-		deduped() that returns a function that acts on the unique
-		values of the first input and expands the results back. This
-		can significantly speed up certain slow iterative functions.
+		deduped() which speeds up slow, vectorized functions by only
+		performing computations on the unique values of the input and
+		expanding the results at the end.
 	</longdescription>
 </pkgmetadata>
