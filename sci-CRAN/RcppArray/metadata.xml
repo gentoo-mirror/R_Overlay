@@ -3,8 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		'Rcpp' Meets 'C++' Arrays // Interoperability between 'Rcpp' and
-		the 'C++11' array type. Linking to this package allows fixed-
-		length 'std::array' objects to be converted to and from
-		equivalent R vectors via the as() and wrap() functions.
+		the 'C++11' array and tuple types. Linking to this package
+		allows fixed-length 'std::array' objects to be converted to and
+		from equivalent R vectors, and 'std::tuple' objects converted
+		to lists, via the as() and wrap() functions. There is also
+		experimental support for 'std::span' from 'C++20'.
 	</longdescription>
 </pkgmetadata>
