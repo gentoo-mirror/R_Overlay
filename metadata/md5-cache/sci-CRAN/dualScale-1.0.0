@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ff virtual/Matrix sci-CRAN/eba sci-CRAN/ggplot2 >=dev-lang/R-3.5.0 sci-CRAN/ggrepel virtual/Matrix sci-CRAN/RColorBrewer sci-CRAN/glue dev-lang/R:=
+DESCRIPTION=Dual Scaling Analysis of Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/ff virtual/Matrix sci-CRAN/eba sci-CRAN/ggplot2 >=dev-lang/R-3.5.0 sci-CRAN/ggrepel virtual/Matrix sci-CRAN/RColorBrewer sci-CRAN/glue r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dualScale_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=212e6aae1a125ae9e6b4e63aa4b7e782

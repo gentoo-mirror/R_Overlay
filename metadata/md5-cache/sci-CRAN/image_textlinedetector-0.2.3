@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.12.9 sci-CRAN/magick dev-lang/R:=
+DESCRIPTION=Segment Images in Text Lines and Words
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_opencv byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/Rcpp-0.12.9 sci-CRAN/magick sci-CRAN/Rcpp r_suggests_opencv? ( sci-CRAN/opencv ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/image.textlinedetector_0.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2460fc3de579f029964d37f44b734449

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Settings and File I/O using a Configuration YAML File // R data
+		pipelines commonly require reading and writing data to
+		versioned directories. Each directory might correspond to one
+		step of a multi-step process, where that version corresponds to
+		particular settings for that step and a chain of previous steps
+		that each have their own versions. This package creates a
+		configuration object that makes it easy to read and write
+		versioned data, based on YAML configuration files loaded and
+		saved to each versioned folder.
+	</longdescription>
+</pkgmetadata>

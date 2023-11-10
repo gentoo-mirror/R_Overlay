@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/FNN sci-CRAN/R_utils sci-CRAN/ibelief dev-lang/R:=
+DESCRIPTION=Evidential Distance-Based Classification
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_nnet r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/FNN sci-CRAN/R_utils sci-CRAN/ibelief r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nnet? ( virtual/nnet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/evclass_2.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cdb7541191ed08f22592ed35d4501c8e

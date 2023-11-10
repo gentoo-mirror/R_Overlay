@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ISOcodes sci-CRAN/R_utils sci-CRAN/RCurl sci-CRAN/sugrrants >=dev-lang/R-3.5 >=sci-CRAN/data_table-1.12.2 sci-CRAN/curl sci-CRAN/cranlogs sci-CRAN/ggplot2 sci-CRAN/memoise sci-CRAN/pkgsearch sci-CRAN/rversions dev-lang/R:=
+DESCRIPTION=Computation and Visualization of... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ISOcodes sci-CRAN/R_utils sci-CRAN/RCurl sci-CRAN/sugrrants >=dev-lang/R-3.5 >=sci-CRAN/data_table-1.12.2 sci-CRAN/curl sci-CRAN/cranlogs sci-CRAN/ggplot2 sci-CRAN/memoise sci-CRAN/pkgsearch sci-CRAN/rversions r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/packageRank_0.8.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5cc82e361b1b0f338a0d7652bc3a27e5

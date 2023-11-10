@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 virtual/boot virtual/lattice sci-CRAN/lars sci-CRAN/R_cache sci-CRAN/quadprog sci-CRAN/RobStatTM sci-CRAN/sandwich sci-CRAN/sn sci-CRAN/xts sci-CRAN/data_table sci-CRAN/leaps sci-CRAN/PerformanceAnalytics sci-CRAN/PortfolioAnalytics sci-CRAN/corpcor sci-CRAN/robustbase sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=Time Series Factor Models for Asset Returns
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_corrplot r_suggests_hh r_suggests_lmtest r_suggests_r_rsp r_suggests_rugarch r_suggests_strucchange r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5 virtual/boot virtual/lattice sci-CRAN/lars sci-CRAN/R_cache sci-CRAN/quadprog sci-CRAN/RobStatTM sci-CRAN/sandwich sci-CRAN/sn sci-CRAN/xts sci-CRAN/data_table sci-CRAN/leaps sci-CRAN/PerformanceAnalytics sci-CRAN/PortfolioAnalytics sci-CRAN/corpcor sci-CRAN/robustbase sci-CRAN/zoo r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_hh? ( sci-CRAN/HH ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rugarch? ( sci-CRAN/rugarch ) r_suggests_strucchange? ( sci-CRAN/strucchange ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/facmodTS_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=871417e6fb16a9e3cfc476243ccd483e
