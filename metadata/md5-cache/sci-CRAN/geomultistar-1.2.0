@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/generics sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/RSQLite sci-CRAN/sf sci-CRAN/tibble sci-CRAN/tidyselect dev-lang/R:=
+DESCRIPTION=Multidimensional Queries Enriche... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_pander r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/generics sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/RSQLite sci-CRAN/sf sci-CRAN/tibble sci-CRAN/tidyselect r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pander? ( sci-CRAN/pander ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/geomultistar_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e481a40f50ba62c1b3b355f23dc2ed9e

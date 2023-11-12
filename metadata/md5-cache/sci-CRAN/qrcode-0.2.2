@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/assertthat dev-lang/R:=
+DESCRIPTION=Generate QRcodes with R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_httr r_suggests_jpeg r_suggests_knitr r_suggests_opencv r_suggests_png r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/assertthat r_suggests_httr? ( sci-CRAN/httr ) r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_opencv? ( sci-CRAN/opencv ) r_suggests_png? ( sci-CRAN/png ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/qrcode_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a7d2479d62441c673ddc7b748295f9df
