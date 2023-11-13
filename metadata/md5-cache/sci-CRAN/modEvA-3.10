@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/terra dev-lang/R:=
+DESCRIPTION=Model Evaluation and Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/terra dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/modEvA_3.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=90b49ce05b87c9cc3a56c8abadeffc14
