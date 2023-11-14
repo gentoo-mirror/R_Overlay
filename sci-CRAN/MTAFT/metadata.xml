@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Data-Driven Estimation for Multi-Threshold Accelerate Failure
+		Time Model // Developed a data-driven estimation framework for
+		the multi-threshold accelerate failure time (MTAFT) model. The
+		MTAFT model features different linear forms in different
+		subdomains, and one of the major challenges is determining the
+		number of threshold effects. The package introduces a data-
+		driven approach that utilizes a Schwarz' information criterion,
+		which demonstrates consistency under mild conditions.
+		Additionally, a cross-validation (CV) criterion with an order-
+		preserved sample-splitting scheme is proposed to achieve
+		consistent estimation, without the need for additional
+		parameters. The package establishes the asymptotic properties
+		of the parameter estimates and includes an efficient score-type
+		test to examine the existence of threshold effects. The
+		methodologies are supported by numerical experiments and
+		theoretical results, showcasing their reliable performance in
+		finite-sample cases.
+	</longdescription>
+</pkgmetadata>

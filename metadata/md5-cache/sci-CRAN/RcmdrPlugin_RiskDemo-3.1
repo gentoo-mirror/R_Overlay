@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/forecast sci-CRAN/demography sci-CRAN/Rcmdr sci-CRAN/data_table >=dev-lang/R-3.5.0 sci-CRAN/ftsa sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/scales sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=R Commander Plug-in for Risk Demonstration
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rgl r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/forecast sci-CRAN/demography sci-CRAN/Rcmdr sci-CRAN/data_table >=dev-lang/R-3.5.0 sci-CRAN/ftsa sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/scales sci-CRAN/zoo r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcmdrPlugin.RiskDemo_3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ab778a5fe3df6a61ac5aaad3931c9ba2

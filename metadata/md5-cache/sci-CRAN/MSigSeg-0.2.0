@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggpubr virtual/MASS >=dev-lang/R-4.0.0 sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Multiple SIGnal SEGmentation
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggpubr virtual/MASS >=dev-lang/R-4.0.0 sci-CRAN/ggplot2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MSigSeg_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b1853ee697e3122202ce0546bd4ef5f2
