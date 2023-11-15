@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Total Mediation Effect Size Measure for High-Dimensional
+		Mediators // An implementation of calculating the R-squared
+		measure as a total mediation effect size measure and its
+		confidence interval for moderate- or high-dimensional mediator
+		models. It gives an option to filter out non-mediators using
+		variable selection methods. The original R package is directly
+		related to the paper Yang et al (2021) "Estimation of mediation
+		effect for high-dimensional omics mediators with application to
+		the Framingham Heart Study" doi:10.1101/774877. The new version
+		contains a choice of using cross-fitting, which is
+		computationally faster. The details of the cross-fitting method
+		are available in the paper Xu et al (2023) "Speeding up
+		interval estimation for R2-based mediation effect of high-
+		dimensional mediators via cross-fitting"
+		doi:10.1101/2023.02.06.527391.
+	</longdescription>
+</pkgmetadata>

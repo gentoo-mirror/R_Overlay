@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/boot virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/lme4 sci-CRAN/gamm4 >=dev-lang/R-3.5.0 sci-CRAN/fda virtual/lattice virtual/mgcv virtual/MASS sci-CRAN/magic virtual/nlme sci-CRAN/RLRsim sci-CRAN/grpreg sci-CRAN/pbs dev-lang/R:=
+DESCRIPTION=Regression with Functional Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rcolorbrewer r_suggests_reshape2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/boot virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/lme4 sci-CRAN/gamm4 >=dev-lang/R-3.5.0 sci-CRAN/fda virtual/lattice virtual/mgcv virtual/MASS sci-CRAN/magic virtual/nlme sci-CRAN/RLRsim sci-CRAN/grpreg sci-CRAN/pbs r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/refund_0.1-33.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=108db35ecf7915c9e7067a3c6443724d

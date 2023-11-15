@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/raster sci-CRAN/data_table >=dev-lang/R-3.5 sci-CRAN/ggplot2 sci-CRAN/vegan >=sci-CRAN/adegenet-2.0.0 sci-CRAN/dartR_base sci-CRAN/dartR_data sci-CRAN/crayon sci-CRAN/StAMPP sci-CRAN/sp sci-CRAN/tidyr virtual/MASS dev-lang/R:=
+DESCRIPTION=Applying Landscape Genomic Metho... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dismo r_suggests_gdistance r_suggests_gplots r_suggests_mmod r_suggests_popgenreport r_suggests_rrblup r_suggests_sf byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/raster sci-CRAN/data_table >=dev-lang/R-3.5 sci-CRAN/ggplot2 sci-CRAN/vegan >=sci-CRAN/adegenet-2.0.0 sci-CRAN/dartR_base sci-CRAN/dartR_data sci-CRAN/crayon sci-CRAN/StAMPP sci-CRAN/sp sci-CRAN/tidyr virtual/MASS r_suggests_dismo? ( sci-CRAN/dismo ) r_suggests_gdistance? ( sci-CRAN/gdistance ) r_suggests_gplots? ( sci-CRAN/gplots ) r_suggests_mmod? ( sci-CRAN/mmod ) r_suggests_popgenreport? ( sci-CRAN/PopGenReport ) r_suggests_rrblup? ( sci-CRAN/rrBLUP ) r_suggests_sf? ( sci-CRAN/sf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dartR.spatial_0.78.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1a7de5132fc2dbf60141fd40ca156502
