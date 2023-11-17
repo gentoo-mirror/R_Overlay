@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/plyr sci-CRAN/stringr sci-CRAN/betapart sci-CRAN/jsonlite sci-CRAN/httr >=dev-lang/R-3.1.0 sci-CRAN/mapdata sci-CRAN/ggplot2 sci-CRAN/vegan sci-CRAN/R_utils sci-CRAN/gtools sci-CRAN/jose sci-CRAN/curl sci-CRAN/r2r sci-CRAN/progress dev-lang/R:=
+DESCRIPTION=TERN AusPlots Australian Ecosystem Monitoring Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_formatr r_suggests_knitr r_suggests_markdown r_suggests_rmarkdown r_suggests_sf byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/plyr sci-CRAN/stringr sci-CRAN/betapart sci-CRAN/jsonlite sci-CRAN/httr >=dev-lang/R-3.1.0 sci-CRAN/mapdata sci-CRAN/ggplot2 sci-CRAN/vegan sci-CRAN/R_utils sci-CRAN/gtools sci-CRAN/jose sci-CRAN/curl sci-CRAN/r2r sci-CRAN/progress r_suggests_formatr? ( sci-CRAN/formatR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ausplotsR_2.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=facb07f2764d8a2102b37f71fd900387

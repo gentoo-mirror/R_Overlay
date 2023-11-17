@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/httr sci-CRAN/purrr sci-CRAN/openssl dev-lang/R:=
+DESCRIPTION=NASA EarthData Login Utilities
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_fs r_suggests_knitr r_suggests_readr r_suggests_rmarkdown r_suggests_rsconnect r_suggests_sf r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/httr sci-CRAN/purrr sci-CRAN/openssl r_suggests_curl? ( sci-CRAN/curl ) r_suggests_fs? ( sci-CRAN/fs ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsconnect? ( sci-CRAN/rsconnect ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/earthdatalogin_0.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=682048b415ea4910b8a25de00dd30cc1

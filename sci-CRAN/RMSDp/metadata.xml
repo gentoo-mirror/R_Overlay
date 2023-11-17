@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Refined Modified Stahel-Donoho (MSD) Estimators for Outlier
+		Detection (Parallel Version) // A parallel function for
+		multivariate outlier detection named modified Stahel-Donoho
+		estimators is contained in this package.  The function RMSDp()
+		is for elliptically distributed datasets and recognizes
+		outliers based on Mahalanobis distance. This function is for
+		higher dimensional datasets that cannot be handled by a single
+		core function RMSD() included in 'RMSD' package.  See Wada and
+		Tsubaki (2013) doi:10.1109/CLOUDCOM-ASIA.2013.86 for the detail
+		of the algorithm.
+	</longdescription>
+</pkgmetadata>

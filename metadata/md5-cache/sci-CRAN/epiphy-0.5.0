@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/pbapply sci-CRAN/transport sci-CRAN/ggplot2 sci-CRAN/msm >=dev-lang/R-4.0 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Analysis of Plant Disease Epidemics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_emdbook r_suggests_emdist r_suggests_knitr r_suggests_magrittr r_suggests_mass r_suggests_rmarkdown r_suggests_spdep r_suggests_tidyr r_suggests_vegan byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/pbapply sci-CRAN/transport sci-CRAN/ggplot2 sci-CRAN/msm >=dev-lang/R-4.0 sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_emdbook? ( sci-CRAN/emdbook ) r_suggests_emdist? ( sci-CRAN/emdist ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_mass? ( virtual/MASS ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spdep? ( sci-CRAN/spdep ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/epiphy_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6892820a40482cfb789337ed88fa9854

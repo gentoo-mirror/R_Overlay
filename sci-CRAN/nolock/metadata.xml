@@ -2,9 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Append 'WITH (NOLOCK)' to 'SQL' Queries // Automatically appends
-		'WITH (nolock)' to all tables in 'SQL' queries using a utility
-		function. This facilitates reading from databases in scenarios
+		Append 'WITH (NOLOCK)' to 'SQL' Queries, Get Packages in Active
+		Script // Provides a suite of tools that can assist in
+		enhancing the processing efficiency of 'SQL' and 'R' scripts. -
+		The 'libr_unused()' retrieves a vector of package names that
+		are called within an 'R' script but are never actually used in
+		the script. - The 'libr_used()' retrieves a vector of package
+		names actively utilized within an 'R' script; packages loaded
+		using 'library()' but not actually used in the script will not
+		be included. - The 'libr_called()' retrieves a vector of all
+		package names which are called within an 'R' script. -
+		'nolock()' appends 'WITH (nolock)' to all tables in 'SQL'
+		queries. This facilitates reading from databases in scenarios
 		where non-blocking reads are preferable, such as in high-
 		transaction environments.
 	</longdescription>
