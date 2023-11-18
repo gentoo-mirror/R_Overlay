@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/httr dev-lang/R:=
+DESCRIPTION=Access and Analyze Data from DeFiLlama
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/data_table sci-CRAN/httr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rllama_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=128e7dccbd78bc98e8f1749a81f5c8ae
