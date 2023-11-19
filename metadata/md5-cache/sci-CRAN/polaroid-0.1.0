@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Create Hex Stickers with shiny
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/shiny dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/polaroid_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=074d94c6ac96b1d18a6dc6771e63c009
