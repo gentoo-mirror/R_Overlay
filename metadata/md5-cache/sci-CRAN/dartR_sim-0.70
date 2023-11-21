@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/hierfstat sci-CRAN/shiny sci-CRAN/stringi sci-CRAN/shinyWidgets sci-CRAN/data_table sci-CRAN/shinythemes >=dev-lang/R-3.5 sci-CRAN/shinyBS sci-CRAN/ggplot2 sci-CRAN/dartR_base sci-CRAN/fields sci-CRAN/Rcpp sci-CRAN/shinyjs sci-CRAN/dartR_data >=sci-CRAN/adegenet-2.0.0 sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Computer Simulations of SNP Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/stringr sci-CRAN/hierfstat sci-CRAN/shiny sci-CRAN/stringi sci-CRAN/shinyWidgets sci-CRAN/data_table sci-CRAN/shinythemes >=dev-lang/R-3.5 sci-CRAN/shinyBS sci-CRAN/ggplot2 sci-CRAN/dartR_base sci-CRAN/fields sci-CRAN/Rcpp sci-CRAN/shinyjs sci-CRAN/dartR_data >=sci-CRAN/adegenet-2.0.0 sci-CRAN/reshape2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dartR.sim_0.70.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=33b2032adc7a8b7ae89db4d53fc6659f
