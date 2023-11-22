@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lifecycle sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/scales >=dev-lang/R-3.3.0 >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Extra Themes, Scales and Geoms for ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_extrafont r_suggests_glue r_suggests_knitr r_suggests_lattice r_suggests_lintr r_suggests_mapproj r_suggests_maps r_suggests_pander r_suggests_quantreg r_suggests_rlang r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_tidyr r_suggests_v8 r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/lifecycle sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/scales >=dev-lang/R-3.3.0 >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/purrr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_extrafont? ( sci-CRAN/extrafont ) r_suggests_glue? ( sci-CRAN/glue ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_pander? ( sci-CRAN/pander ) r_suggests_quantreg? ( sci-CRAN/quantreg ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.2.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_v8? ( sci-CRAN/V8 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggthemes_5.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c9e3f14070353e5d9d06e4e8fa85f350

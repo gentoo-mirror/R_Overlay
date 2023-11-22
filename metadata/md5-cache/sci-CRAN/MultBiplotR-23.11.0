@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/GPArotation sci-CRAN/dae sci-CRAN/xtable >=dev-lang/R-4.0.0 sci-CRAN/geometry sci-CRAN/mvtnorm sci-CRAN/psych sci-CRAN/scales sci-CRAN/car sci-CRAN/Hmisc virtual/lattice sci-CRAN/deldir virtual/MASS sci-CRAN/dunn_test sci-CRAN/ThreeWay sci-CRAN/mirt sci-CRAN/gplots sci-CRAN/polycor sci-CRAN/knitr dev-lang/R:=
+DESCRIPTION=Multivariate Analysis Using Biplots in R
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/GPArotation sci-CRAN/dae sci-CRAN/xtable >=dev-lang/R-4.0.0 sci-CRAN/geometry sci-CRAN/mvtnorm sci-CRAN/psych sci-CRAN/scales sci-CRAN/car sci-CRAN/Hmisc virtual/lattice sci-CRAN/deldir virtual/MASS sci-CRAN/dunn_test sci-CRAN/ThreeWay sci-CRAN/mirt sci-CRAN/gplots sci-CRAN/polycor sci-CRAN/knitr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MultBiplotR_23.11.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c294046a774182e771be53da8f77666f

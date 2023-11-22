@@ -2,14 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tools to Conduct Meteorological Normalisation on Air Quality Data
-		// An integrated set of tools to allow data users to conduct
-		meteorological normalisation on air quality data. This
+		Tools to Conduct Meteorological Normalisation and Counterfactual
+		Modelling for Air Quality Data // An integrated set of tools to
+		allow data users to conduct meteorological normalisation and
+		counterfactual modelling for air quality data. The
 		meteorological normalisation technique uses predictive random
 		forest models to remove variation of pollutant concentrations
 		so trends and interventions can be explored in a robust way.
 		For examples, see Grange et al. (2018)
 		doi:10.5194/acp-18-6223-2018 and Grange and Carslaw (2019)
-		doi:10.1016/j.scitotenv.2018.10.344.
+		doi:10.1016/j.scitotenv.2018.10.344. The random forest models
+		can also be used for counterfactual or business as usual (BAU)
+		modelling by using the models to predict, from the model's
+		perspective, the future. For an example, see Grange et al.
+		(2021) doi:10.5194/acp-2020-1171.
 	</longdescription>
 </pkgmetadata>

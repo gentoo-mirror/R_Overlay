@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/loo >=sci-CRAN/rstantools-2.3.1.1 >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/rstan-2.18.1 sci-CRAN/tibble >=dev-lang/R-3.4.0 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/bayesplot sci-CRAN/AquaticLifeHistory sci-CRAN/tidybayes dev-lang/R:=
+DESCRIPTION=Estimate Fish Growth Using MCMC Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/loo >=sci-CRAN/rstantools-2.3.1.1 >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/rstan-2.18.1 sci-CRAN/tibble >=dev-lang/R-3.4.0 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/bayesplot sci-CRAN/AquaticLifeHistory sci-CRAN/tidybayes >=sci-CRAN/RcppEigen-0.3.3.3.0 >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/BH-1.66.0 >=sci-CRAN/rstan-2.18.1 >=sci-CRAN/Rcpp-0.12.0 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BayesGrowth_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=95a3e613757b400da99f297e941c19cc

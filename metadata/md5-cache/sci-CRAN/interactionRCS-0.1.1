@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/pspline sci-CRAN/pryr sci-CRAN/msm virtual/survival sci-CRAN/rms virtual/boot sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Calculate Estimates in Models with Interaction
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_knitr r_suggests_mlbench r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/pspline sci-CRAN/pryr sci-CRAN/msm virtual/survival sci-CRAN/rms virtual/boot sci-CRAN/stringr r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/interactionRCS_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d16200de6a9e9b51381caab75cfd925f

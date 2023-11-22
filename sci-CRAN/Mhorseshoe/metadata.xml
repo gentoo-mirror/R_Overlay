@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Approximate Algorithm for Horseshoe Prior // Provides an
+		approximate algorithm for the horseshoe estimator used in
+		Bayesian linear models. By implementing a sampler with high
+		computational cost in the 'Rcpp' package and using an
+		approximate algorithm that reduces matrix calculation
+		complexity, parameter estimation speed for high-dimensional
+		sparse data is faster. The approximate algorithm is described
+		in Johndrow et al. (2020)
+		https://www.jmlr.org/papers/v21/19-536.html.
+	</longdescription>
+</pkgmetadata>

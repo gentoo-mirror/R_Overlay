@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3 virtual/MASS sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/interp sci-CRAN/tidyr sci-CRAN/readr sci-CRAN/popbio sci-CRAN/iterators sci-CRAN/doFuture sci-CRAN/doParallel sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Shark Demographic Analyses Using... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.3 virtual/MASS sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/interp sci-CRAN/tidyr sci-CRAN/readr sci-CRAN/popbio sci-CRAN/iterators sci-CRAN/doFuture sci-CRAN/doParallel sci-CRAN/foreach r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SharkDemography_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=90231b1db2ba245ec09df05d9588c569
