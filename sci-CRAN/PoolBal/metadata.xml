@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Balancing Central and Marginal Rejection of Pooled p-Values //
+		When using pooled p-values to adjust for multiple testing,
+		there is an inherent balance that must be struck between
+		rejection based on weak evidence spread among many tests and
+		strong evidence in a few, explored in Salahub and Olford (2023)
+		arXiv:2310.16600. This package provides functionality to
+		compute marginal and central rejection levels and the
+		centrality quotient for p-value pooling functions and provides
+		implementations of the chi-squared quantile pooled p-value
+		(described in Salahub and Oldford (2023)) and a proposal from
+		Heard and Rubin-Delanchy (2018) doi:10.1093/biomet/asx076 to
+		control the quotient's value.
+	</longdescription>
+</pkgmetadata>
