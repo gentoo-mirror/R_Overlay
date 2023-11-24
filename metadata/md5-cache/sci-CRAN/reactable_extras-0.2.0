@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rjson >=sci-CRAN/purrr-1.0.0 >=dev-lang/R-4.1.0 sci-CRAN/htmltools sci-CRAN/dplyr sci-CRAN/checkmate >=sci-CRAN/reactable-0.4.0 sci-CRAN/rlang sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Extra Features for reactable Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_lintr r_suggests_mockery r_suggests_rcmdcheck r_suggests_shinytest2 r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=sci-CRAN/rjson >=sci-CRAN/purrr-1.0.0 >=dev-lang/R-4.1.0 sci-CRAN/htmltools sci-CRAN/dplyr sci-CRAN/checkmate >=sci-CRAN/reactable-0.4.0 sci-CRAN/rlang sci-CRAN/shiny r_suggests_covr? ( sci-CRAN/covr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_rcmdcheck? ( sci-CRAN/rcmdcheck ) r_suggests_shinytest2? ( sci-CRAN/shinytest2 ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/reactable.extras_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=37d7cc8f5b86c46da3911d6d99823241

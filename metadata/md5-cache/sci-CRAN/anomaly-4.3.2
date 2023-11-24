@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/tidyr >=sci-CRAN/Rcpp-0.12.18 sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/xts sci-CRAN/zoo sci-CRAN/Rdpack sci-CRAN/cowplot dev-lang/R:=
+DESCRIPTION=Detecting Anomalies in Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_robustbase byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/tidyr >=sci-CRAN/Rcpp-0.12.18 sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/xts sci-CRAN/zoo sci-CRAN/Rdpack sci-CRAN/cowplot sci-CRAN/Rcpp sci-CRAN/BH r_suggests_robustbase? ( sci-CRAN/robustbase ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/anomaly_4.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=44fe14cd790c2e1b62b76a24e7472398

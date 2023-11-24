@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/coxphf sci-CRAN/lpSolve >=sci-CRAN/Rdpack-0.7 sci-CRAN/nph dev-lang/R:=
+DESCRIPTION=Tools for Inference in the Prese... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kmsurv byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/survival sci-CRAN/coxphf sci-CRAN/lpSolve >=sci-CRAN/Rdpack-0.7 sci-CRAN/nph r_suggests_kmsurv? ( sci-CRAN/KMsurv ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PHInfiniteEstimates_2.9.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7f3fbd595aa0dab41a2b7b1c4233b244
