@@ -8,6 +8,11 @@
 		with IBM Db2 Analytics Accelerator for z/OS. Many basic and
 		complex R operations are pushed down into the database, which
 		removes the main memory boundary of R and allows to make full
-		use of parallel processing in the underlying database.
+		use of parallel processing in the underlying database. For
+		executing R-functions in a multi-node environment in parallel
+		the idaTApply() function requires the 'SparkR' package
+		(https://spark.apache.org/docs/latest/sparkr.html). The
+		optional 'ggplot2' package is needed for the plot.idaLm()
+		function only.
 	</longdescription>
 </pkgmetadata>
