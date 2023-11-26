@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/xml2 >=sci-CRAN/ROI-1.0.0 sci-CRAN/xmlrpc2 dev-lang/R:=
+DESCRIPTION=NEOS Plug-in for the R Optimization Interface
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_slam byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/xml2 >=sci-CRAN/ROI-1.0.0 sci-CRAN/xmlrpc2 r_suggests_slam? ( sci-CRAN/slam ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ROI.plugin.neos_1.0-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8befc6beaa4d63b39ba12b1736ff6aea
