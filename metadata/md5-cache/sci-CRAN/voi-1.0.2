@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/progress sci-CRAN/ggplot2 virtual/mgcv sci-CRAN/mvtnorm >=dev-lang/R-3.5.0 sci-CRAN/earth sci-CRAN/dbarts sci-CRAN/posterior sci-CRAN/gridExtra virtual/Matrix dev-lang/R:=
+DESCRIPTION=Expected Value of Information
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bcea r_suggests_dplyr r_suggests_heemod r_suggests_knitr r_suggests_rjags r_suggests_rmarkdown r_suggests_scales r_suggests_sf r_suggests_splancs r_suggests_testthat r_suggests_truncnorm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/progress sci-CRAN/ggplot2 virtual/mgcv sci-CRAN/mvtnorm >=dev-lang/R-3.5.0 sci-CRAN/earth sci-CRAN/dbarts sci-CRAN/posterior sci-CRAN/gridExtra virtual/Matrix r_suggests_bcea? ( sci-CRAN/BCEA ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_heemod? ( sci-CRAN/heemod ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rjags? ( sci-CRAN/rjags ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_splancs? ( sci-CRAN/splancs ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_truncnorm? ( sci-CRAN/truncnorm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/voi_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3dfc5dc06f60266da780fc3da9187ab2
