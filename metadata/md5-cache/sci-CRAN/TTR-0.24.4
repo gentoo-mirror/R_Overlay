@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/xts-0.10.0 sci-CRAN/curl sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=Technical Trading Rules
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/xts-0.10.0 sci-CRAN/curl sci-CRAN/zoo sci-CRAN/xts r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TTR_0.24.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=75fd5f37187c1908dcadbbdc5710fd99

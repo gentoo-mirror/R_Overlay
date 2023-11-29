@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.12.0 dev-lang/R:=
+DESCRIPTION=Wrapper for MUMPS Library
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_matrix r_suggests_slam r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-0.12.0 sci-CRAN/Rcpp r_suggests_matrix? ( virtual/Matrix ) r_suggests_slam? ( sci-CRAN/slam ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rmumps_5.2.1-26.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5f48a539581310236f518c96b61563fd

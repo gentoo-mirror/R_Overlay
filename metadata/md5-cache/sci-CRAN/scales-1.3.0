@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/cli >=sci-CRAN/rlang-1.0.0 sci-CRAN/RColorBrewer sci-CRAN/labeling >=sci-CRAN/farver-2.0.3 sci-CRAN/glue sci-CRAN/lifecycle >=sci-CRAN/munsell-0.5 sci-CRAN/R6 sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Scale Functions for Visualization
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bit64 r_suggests_covr r_suggests_dichromat r_suggests_ggplot2 r_suggests_hms r_suggests_stringi r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/cli >=sci-CRAN/rlang-1.0.0 sci-CRAN/RColorBrewer sci-CRAN/labeling >=sci-CRAN/farver-2.0.3 sci-CRAN/glue sci-CRAN/lifecycle >=sci-CRAN/munsell-0.5 sci-CRAN/R6 sci-CRAN/viridisLite r_suggests_bit64? ( sci-CRAN/bit64 ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dichromat? ( sci-CRAN/dichromat ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_hms? ( >=sci-CRAN/hms-0.5.0 ) r_suggests_stringi? ( sci-CRAN/stringi ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/scales_1.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a7d73dd38d6aeaa5e5731c7bf3b885c9

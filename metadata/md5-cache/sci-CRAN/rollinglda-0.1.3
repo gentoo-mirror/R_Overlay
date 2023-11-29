@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ldaPrototype-0.3.0 >=sci-CRAN/tosca-0.2.0 >=sci-CRAN/data_table-1.11.2 >=sci-CRAN/checkmate-1.8.5 >=dev-lang/R-4.0.0 sci-CRAN/lubridate dev-lang/R:=
+DESCRIPTION=Construct Consistent Time Series from Textual Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/ldaPrototype-0.3.0 >=sci-CRAN/tosca-0.2.0 >=sci-CRAN/data_table-1.11.2 >=sci-CRAN/checkmate-1.8.5 >=dev-lang/R-4.0.0 sci-CRAN/lubridate r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rollinglda_0.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6f586497183d41a6ed4946cdcba9b051

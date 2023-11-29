@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 >=sci-CRAN/FactoMineR-2.7 sci-CRAN/ggplot2 virtual/KernSmooth sci-CRAN/ggrepel virtual/cluster sci-CRAN/reshape2 sci-CRAN/AlgDesign sci-CRAN/gtools dev-lang/R:=
+DESCRIPTION=Sensory Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0 >=sci-CRAN/FactoMineR-2.7 sci-CRAN/ggplot2 virtual/KernSmooth sci-CRAN/ggrepel virtual/cluster sci-CRAN/reshape2 sci-CRAN/AlgDesign sci-CRAN/gtools dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SensoMineR_1.27.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=24c1fafa580f1ec3e57fabd4a8351d27
