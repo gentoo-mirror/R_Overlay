@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/reshape2 sci-CRAN/future sci-CRAN/doFuture sci-CRAN/foreach sci-CRAN/doRNG >=dev-lang/R-3.4.0 sci-CRAN/RcppArmadillo >=sci-CRAN/Rcpp-0.12.16 sci-CRAN/ggplot2 sci-CRAN/assertthat sci-CRAN/iterators dev-lang/R:=
+DESCRIPTION=Flexible Genotyping for Polyploids
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_iranges r_suggests_knitr r_suggests_rmarkdown r_suggests_s4vectors r_suggests_suppdists r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/reshape2 sci-CRAN/future sci-CRAN/doFuture sci-CRAN/foreach sci-CRAN/doRNG >=dev-lang/R-3.4.0 sci-CRAN/RcppArmadillo >=sci-CRAN/Rcpp-0.12.16 sci-CRAN/ggplot2 sci-CRAN/assertthat sci-CRAN/iterators sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_iranges? ( sci-BIOC/IRanges ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_s4vectors? ( sci-BIOC/S4Vectors ) r_suggests_suppdists? ( sci-CRAN/SuppDists ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/updog_2.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=de9b0ddd60d41823ed743d78aae88b29

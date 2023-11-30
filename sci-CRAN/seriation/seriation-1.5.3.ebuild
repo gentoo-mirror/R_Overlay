@@ -1,0 +1,46 @@
+# Copyright 1999-2023 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Infrastructure for Ordering Obje... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/seriation_1.5.3.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_dbscan r_suggests_dendextend r_suggests_dendser
+	r_suggests_doparallel r_suggests_ga r_suggests_ggplot2
+	r_suggests_rtsne r_suggests_scales r_suggests_testthat
+	r_suggests_umap"
+R_SUGGESTS="
+	r_suggests_dbscan? ( sci-CRAN/dbscan )
+	r_suggests_dendextend? ( sci-CRAN/dendextend )
+	r_suggests_dendser? ( sci-CRAN/DendSer )
+	r_suggests_doparallel? ( sci-CRAN/doParallel )
+	r_suggests_ga? ( sci-CRAN/GA )
+	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
+	r_suggests_rtsne? ( sci-CRAN/Rtsne )
+	r_suggests_scales? ( sci-CRAN/scales )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+	r_suggests_umap? ( sci-CRAN/umap )
+"
+DEPEND=">=dev-lang/R-2.14.0
+	virtual/cluster
+	virtual/MASS
+	sci-CRAN/qap
+	sci-CRAN/registry
+	sci-CRAN/TSP
+	sci-CRAN/vegan
+	sci-CRAN/ca
+	sci-CRAN/foreach
+	sci-CRAN/colorspace
+	sci-CRAN/gclus
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+
+_UNRESOLVED_PACKAGES=(
+	'keras'
+	'tensorflow'
+)

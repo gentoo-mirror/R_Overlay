@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/survival sci-CRAN/ipred sci-CRAN/partykit sci-CRAN/prodlim dev-lang/R:=
+DESCRIPTION=Ensemble Methods for Survival Da... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ltrctrees r_suggests_randomforestsrc byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 virtual/survival sci-CRAN/ipred sci-CRAN/partykit sci-CRAN/prodlim r_suggests_ltrctrees? ( sci-CRAN/LTRCtrees ) r_suggests_randomforestsrc? ( sci-CRAN/randomForestSRC ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LTRCforests_0.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cf09fc63b3e48aa1ab4d440588fb508f
