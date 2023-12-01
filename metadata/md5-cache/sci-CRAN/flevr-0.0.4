@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/kernlab sci-CRAN/ranger sci-CRAN/rlang >=dev-lang/R-3.1.0 sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/SuperLearner sci-CRAN/caret sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Flexible, Ensemble-Based Variabl... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glmnet r_suggests_knitr r_suggests_mice r_suggests_polspline r_suggests_rmarkdown r_suggests_stabs r_suggests_testthat r_suggests_vimp r_suggests_xgboost byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tibble sci-CRAN/kernlab sci-CRAN/ranger sci-CRAN/rlang >=dev-lang/R-3.1.0 sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/SuperLearner sci-CRAN/caret sci-CRAN/mvtnorm r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_polspline? ( sci-CRAN/polspline ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stabs? ( sci-CRAN/stabs ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vimp? ( sci-CRAN/vimp ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/flevr_0.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1f57f97869d7aea1fda6b4201b717c71

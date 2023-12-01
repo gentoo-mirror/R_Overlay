@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Conditional Expectation Function Estimation with K-Conditional-
+		Means // Implementation of the KCMeans regression estimator
+		studied by Wiemann (2023) arXiv:2311.17021 for expectation
+		function estimation conditional on categorical variables.
+		Computation leverages the unconditional KMeans implementation
+		in one dimension using dynamic programming algorithm of Wang
+		and Song (2011) doi:10.32614/RJ-2011-015, allowing for global
+		solutions in time polynomial in the number of observed
+		categories.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Probabilities for Bivariate Normal Distribution
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.1 sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pbv_0.5-47.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1c65e4946bf9f96f694b9087424bd3e4

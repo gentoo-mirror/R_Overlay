@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 >=sci-CRAN/fmesher-0.1.2 sci-CRAN/sp sci-CRAN/withr virtual/Matrix dev-lang/R:=
+DESCRIPTION=Excursion Sets and Contour Credi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_sf r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5 >=sci-CRAN/fmesher-0.1.2 sci-CRAN/sp sci-CRAN/withr virtual/Matrix sci-libs/gsl r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/excursions_2.5.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d30f9e910fb50f0503543653255cbda3
