@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/data_table sci-CRAN/deSolve sci-CRAN/digest sci-CRAN/mvtnorm sci-CRAN/coda dev-lang/R:=
+DESCRIPTION=Statistical Inference for Partia... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggplot2 r_suggests_knitr r_suggests_nloptr r_suggests_subplex r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/data_table sci-CRAN/deSolve sci-CRAN/digest sci-CRAN/mvtnorm sci-CRAN/coda r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nloptr? ( sci-CRAN/nloptr ) r_suggests_subplex? ( sci-CRAN/subplex ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pomp_5.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a48cd1f3b1b0d3a4d263840f5ad260ee

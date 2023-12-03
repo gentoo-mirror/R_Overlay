@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Dang Associated New Goodies
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_anytime r_suggests_data_table r_suggests_quantmod r_suggests_rtweet r_suggests_ttr r_suggests_xts r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/tidyCpp r_suggests_anytime? ( sci-CRAN/anytime ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_quantmod? ( sci-CRAN/quantmod ) r_suggests_rtweet? ( sci-CRAN/rtweet ) r_suggests_ttr? ( sci-CRAN/TTR ) r_suggests_xts? ( sci-CRAN/xts ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dang_0.0.16.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2306eb79fe99d8dda2635389534923c0
