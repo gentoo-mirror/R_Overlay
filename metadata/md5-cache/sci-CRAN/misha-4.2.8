@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/magrittr sci-CRAN/curl dev-lang/R:=
+DESCRIPTION=Toolkit for Analysis of Genomic Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_glue r_suggests_knitr r_suggests_readr r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_tibble r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/magrittr sci-CRAN/curl r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_glue? ( sci-CRAN/glue ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/misha_4.2.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=550a50db01f78ac2e49873998c07df7c

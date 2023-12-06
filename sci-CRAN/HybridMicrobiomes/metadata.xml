@@ -3,8 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Analysis of Host-Associated Microbiomes from Hybrid Organisms //
-		Provides tools to analyze and visualize the relationships
+		A set of tools to analyze and visualize the relationships
 		between host-associated microbiomes of hybrid organisms and
-		those of their progenitor species.
+		those of their progenitor species. Though not necessary,
+		installing the microViz package is recommended as a check for
+		phyloseq objects. To install microViz from R Universe use the
+		following command: install.packages("microViz", repos =
+		c(davidbarnett = "https://david-barnett.r-universe.dev",
+		getOption("repos"))). To install microViz from GitHub use the
+		following commands: install.packages("devtools") followed by
+		devtools::install_github("david-barnett/microViz").
 	</longdescription>
 </pkgmetadata>

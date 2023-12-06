@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/rJava dev-lang/R:=
+DESCRIPTION=Robust Data Analysis Through Mon... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_robustbase r_suggests_rrcov byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/rJava virtual/jdk r_suggests_mass? ( virtual/MASS ) r_suggests_robustbase? ( sci-CRAN/robustbase ) r_suggests_rrcov? ( sci-CRAN/rrcov ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fsdaR_0.9-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1f2e969453875028957d725b6fc2196e

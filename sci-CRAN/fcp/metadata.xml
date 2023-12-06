@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Function Composition // A function composition operator to chain
+		a series of calls into a single function, mimicking the math
+		notion of (f o g o h)(x) = h(g(f(x))). Inspired by 'pipeOp'
+		('|') since R4.1 and 'magrittr pipe' ('%%'), the operator build
+		a pipe without putting data through, which is best for
+		anonymous function accepted by utilities such as apply() and
+		lapply().
+	</longdescription>
+</pkgmetadata>

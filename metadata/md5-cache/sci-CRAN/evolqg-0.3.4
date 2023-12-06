@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/plyr-1.7.1 virtual/Matrix >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/ape sci-CRAN/mvtnorm sci-CRAN/numDeriv sci-CRAN/igraph sci-CRAN/MCMCpack sci-CRAN/reshape2 sci-CRAN/vegan sci-CRAN/expm sci-CRAN/Morpho sci-CRAN/coda dev-lang/R:=
+DESCRIPTION=Evolutionary Quantitative Genetics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cowplot r_suggests_doparallel r_suggests_dplyr r_suggests_foreach r_suggests_gridextra r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/plyr-1.7.1 virtual/Matrix >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/ape sci-CRAN/mvtnorm sci-CRAN/numDeriv sci-CRAN/igraph sci-CRAN/MCMCpack sci-CRAN/reshape2 sci-CRAN/vegan sci-CRAN/expm sci-CRAN/Morpho sci-CRAN/coda sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/evolqg_0.3-4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5eccf029699a02ae2505fa3e56016d83

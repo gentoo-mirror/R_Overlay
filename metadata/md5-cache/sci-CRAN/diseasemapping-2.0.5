@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/terra dev-lang/R:=
+DESCRIPTION=Modelling Spatial Variation in D... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mapmisc r_suggests_mgcv byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/terra r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mapmisc? ( >=sci-CRAN/mapmisc-1.9.0 ) r_suggests_mgcv? ( virtual/mgcv ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/diseasemapping_2.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=45b51c5fdc6568091caf46cd151198a6
