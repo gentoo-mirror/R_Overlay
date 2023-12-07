@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Creation and Evaluation of Accep... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AcceptanceSampling_1.0-10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2fc2b14b68e18110bc4685ed22bd5ee6

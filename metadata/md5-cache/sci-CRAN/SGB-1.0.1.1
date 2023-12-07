@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/numDeriv sci-CRAN/Formula sci-CRAN/alabama dev-lang/R:=
+DESCRIPTION=Simplicial Generalized Beta Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_goftest r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/MASS sci-CRAN/numDeriv sci-CRAN/Formula sci-CRAN/alabama r_suggests_goftest? ( sci-CRAN/goftest ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SGB_1.0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4b44d4245b5fdd1b76f684c9e9046443

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/dplyr sci-CRAN/udpipe >=sci-CRAN/shiny-1.8.0 sci-CRAN/PersianStemmer sci-CRAN/hwordcloud sci-CRAN/topicmodels virtual/lattice sci-CRAN/textmineR sci-CRAN/xlsx sci-CRAN/stopwords sci-CRAN/tidytext sci-CRAN/stringi sci-CRAN/tidyr sci-CRAN/shinythemes sci-CRAN/tm sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Persian Text Mining Tool for Fre... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/dplyr sci-CRAN/udpipe >=sci-CRAN/shiny-1.8.0 sci-CRAN/PersianStemmer sci-CRAN/hwordcloud sci-CRAN/topicmodels virtual/lattice sci-CRAN/textmineR sci-CRAN/xlsx sci-CRAN/stopwords sci-CRAN/tidytext sci-CRAN/stringi sci-CRAN/tidyr sci-CRAN/shinythemes sci-CRAN/tm sci-CRAN/stringr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MadanText_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b5da0b7d72abe24cc188b0432f95348a
