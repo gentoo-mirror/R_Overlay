@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/taxize sci-CRAN/treemap virtual/lattice sci-CRAN/sqldf sci-CRAN/ggplot2 sci-CRAN/chron sci-CRAN/maps sci-CRAN/plyr sci-CRAN/plotrix sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Biodiversity Data Visualizations
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rinat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/taxize sci-CRAN/treemap virtual/lattice sci-CRAN/sqldf sci-CRAN/ggplot2 sci-CRAN/chron sci-CRAN/maps sci-CRAN/plyr sci-CRAN/plotrix sci-CRAN/sf r_suggests_rinat? ( sci-CRAN/rinat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bdvis_0.2.37.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=431b8e202ca4bbda876df5a0e8007877
