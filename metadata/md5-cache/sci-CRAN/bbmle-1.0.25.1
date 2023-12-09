@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 virtual/Matrix virtual/MASS virtual/lattice sci-CRAN/numDeriv virtual/Matrix sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Tools for General Maximum Likelihood Estimation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aiccmodavg r_suggests_emdbook r_suggests_ggplot2 r_suggests_hmisc r_suggests_knitr r_suggests_mumin r_suggests_optimx r_suggests_rms r_suggests_runit r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 virtual/Matrix virtual/MASS virtual/lattice sci-CRAN/numDeriv virtual/Matrix sci-CRAN/mvtnorm r_suggests_aiccmodavg? ( sci-CRAN/AICcmodavg ) r_suggests_emdbook? ( sci-CRAN/emdbook ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mumin? ( sci-CRAN/MuMIn ) r_suggests_optimx? ( >=sci-CRAN/optimx-2013.8.6 ) r_suggests_rms? ( sci-CRAN/rms ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bbmle_1.0.25.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bc699f1b4088c931c87f4531a90801df

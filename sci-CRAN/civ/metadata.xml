@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Categorical Instrumental Variables // Implementation of the
+		categorical instrumental variable (CIV) estimator proposed by
+		Wiemann (2023) arXiv:2311.17021. CIV allows for optimal
+		instrumental variable estimation in settings with relatively
+		few observations per category. To obtain valid inference in
+		these challenging settings, CIV leverages a regularization
+		assumption that implies existence of a latent categorical
+		variable with fixed finite support achieving the same first
+		stage fit as the observed instrument.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ngram sci-CRAN/PersianStemmer sci-CRAN/igraph virtual/lattice sci-CRAN/tidytext >=sci-CRAN/shiny-1.8.0 sci-CRAN/shinythemes sci-CRAN/dplyr sci-CRAN/stringi sci-CRAN/xlsx sci-CRAN/tidyr sci-CRAN/visNetwork >=dev-lang/R-4.0.0 sci-CRAN/glue sci-CRAN/stopwords sci-CRAN/hwordcloud sci-CRAN/topicmodels sci-CRAN/textmineR sci-CRAN/udpipe sci-CRAN/tm sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Persian Text Mining Tool for Co-Occurrence Network
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ngram sci-CRAN/PersianStemmer sci-CRAN/igraph virtual/lattice sci-CRAN/tidytext >=sci-CRAN/shiny-1.8.0 sci-CRAN/shinythemes sci-CRAN/dplyr sci-CRAN/stringi sci-CRAN/xlsx sci-CRAN/tidyr sci-CRAN/visNetwork >=dev-lang/R-4.0.0 sci-CRAN/glue sci-CRAN/stopwords sci-CRAN/hwordcloud sci-CRAN/topicmodels sci-CRAN/textmineR sci-CRAN/udpipe sci-CRAN/tm sci-CRAN/stringr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MadanTextNetwork_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d551cc48e905059182f537fcca8e9375
