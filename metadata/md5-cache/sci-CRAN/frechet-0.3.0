@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fdadensity virtual/Matrix sci-CRAN/e1071 sci-CRAN/corrplot >=sci-CRAN/fdapace-0.5.5 virtual/boot sci-CRAN/pracma sci-CRAN/quadprog sci-CRAN/osqp sci-CRAN/trust dev-lang/R:=
+DESCRIPTION=Statistical Analysis for Random ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_igraph r_suggests_mpoly r_suggests_rcpp r_suggests_testthat r_suggests_truncnorm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=sci-CRAN/fdadensity virtual/Matrix sci-CRAN/e1071 sci-CRAN/corrplot >=sci-CRAN/fdapace-0.5.5 virtual/boot sci-CRAN/pracma sci-CRAN/quadprog sci-CRAN/osqp sci-CRAN/trust r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_mpoly? ( sci-CRAN/mpoly ) r_suggests_rcpp? ( >=sci-CRAN/Rcpp-0.11.5 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_truncnorm? ( sci-CRAN/truncnorm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/frechet_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=66bd5c57c0c9ce5dfc4320cb7412bc1c
