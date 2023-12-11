@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 sci-CRAN/cli sci-CRAN/R6 dev-lang/R:=
+DESCRIPTION=Manipulate DESCRIPTION Files
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_callr r_suggests_covr r_suggests_gh r_suggests_spelling r_suggests_testthat r_suggests_whoami r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.4 sci-CRAN/cli sci-CRAN/R6 r_suggests_callr? ( sci-CRAN/callr ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gh? ( sci-CRAN/gh ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_whoami? ( sci-CRAN/whoami ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/desc_1.4.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b97e6e331910f4571fcbe28c7bf9f6f2

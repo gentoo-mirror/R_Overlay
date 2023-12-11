@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Hmisc sci-CRAN/assertthat sci-CRAN/purrr sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Manipulate Matrix Row and Column Labels with Ease
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_knitr r_suggests_rmarkdown r_suggests_spelling r_suggests_stringr r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/Hmisc sci-CRAN/assertthat sci-CRAN/purrr sci-CRAN/magrittr r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RCLabels_0.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=34aea955e63bcfdf3d3bd1b75b79c562

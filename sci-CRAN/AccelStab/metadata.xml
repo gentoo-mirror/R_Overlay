@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Accelerated Stability Kinetic Modelling // Estimate the
+		estkBerggren kinetic model (degradation model) from
+		experimental data. A closed-form (analytic) solution to the
+		degradation model is implemented as a non-linear fit, allowing
+		for the extrapolation of the degradation of a drug product -
+		both in time and temperature (Campa C. et al, 2021
+		doi:10.3390/vaccines9101114). Parametric bootstrap, with
+		kinetic parameters drawn from the multivariate t-distribution,
+		and analytical formulae (the delta method) are available
+		options to calculate the confidence and prediction intervals.
+		The results (modelling, extrapolations and statistical
+		intervals) can be visualised with multiple plots. The examples
+		illustrate the accelerated stability modelling in drugs and
+		vaccines development.
+	</longdescription>
+</pkgmetadata>

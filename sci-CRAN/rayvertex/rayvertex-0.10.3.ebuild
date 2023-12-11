@@ -1,0 +1,31 @@
+# Copyright 1999-2023 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='3D Software Rasterizer'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/rayvertex_0.10.3.tar.gz"
+LICENSE='GPL-3+'
+
+IUSE="${IUSE-} r_suggests_magick r_suggests_raster r_suggests_rvcg"
+R_SUGGESTS="
+	r_suggests_magick? ( sci-CRAN/magick )
+	r_suggests_raster? ( sci-CRAN/raster )
+	r_suggests_rvcg? ( sci-CRAN/Rvcg )
+"
+DEPEND=">=sci-CRAN/rayimage-0.10.0
+	sci-CRAN/digest
+	>=sci-CRAN/Rcpp-1.0.6
+	sci-CRAN/png
+	>=dev-lang/R-4.1
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	sci-CRAN/spacefillr
+	sci-CRAN/rayimage
+	sci-CRAN/RcppThread
+	${R_SUGGESTS-}
+"

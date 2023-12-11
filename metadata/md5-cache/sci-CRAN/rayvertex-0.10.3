@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/rayimage-0.10.0 sci-CRAN/digest >=sci-CRAN/Rcpp-1.0.6 sci-CRAN/png >=dev-lang/R-4.1 dev-lang/R:=
+DESCRIPTION=3D Software Rasterizer
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_magick r_suggests_raster r_suggests_rvcg byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/rayimage-0.10.0 sci-CRAN/digest >=sci-CRAN/Rcpp-1.0.6 sci-CRAN/png >=dev-lang/R-4.1 sci-CRAN/Rcpp sci-CRAN/spacefillr sci-CRAN/rayimage sci-CRAN/RcppThread r_suggests_magick? ( sci-CRAN/magick ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rvcg? ( sci-CRAN/Rvcg ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rayvertex_0.10.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c7947de7eafc4afd88fa51a7be416ecc
