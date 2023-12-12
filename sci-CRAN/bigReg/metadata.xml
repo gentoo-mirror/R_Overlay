@@ -15,8 +15,8 @@
 		out a MapReduce- like algorithm to fit the model. The functions
 		bglm(), and summary() and bglm_predict() are available for
 		creating and post-processing of models. The library requires
-		Armadillo installed on your system. It probably won't function
-		on windows since multi-core processing is done using mclapply()
+		Armadillo installed on your system. It may not function on
+		windows since multi-core processing is done using mclapply()
 		which forks R on Unix/Linux type operating systems.
 	</longdescription>
 </pkgmetadata>

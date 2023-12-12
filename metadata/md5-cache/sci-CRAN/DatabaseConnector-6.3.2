@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/SqlRender-1.16.0 sci-CRAN/rlang sci-CRAN/bit64 sci-CRAN/digest sci-CRAN/stringr sci-CRAN/rJava sci-CRAN/readr >=sci-CRAN/DBI-1.0.0 sci-CRAN/urltools sci-CRAN/checkmate >=sci-CRAN/dbplyr-2.2.0 dev-lang/R:=
+DESCRIPTION=Connecting to Various Database Platforms
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_andromeda r_suggests_aws_s3 r_suggests_dbitest r_suggests_dplyr r_suggests_duckdb r_suggests_knitr r_suggests_odbc r_suggests_parallellogger r_suggests_pool r_suggests_r_utils r_suggests_rmarkdown r_suggests_rpostgres r_suggests_rsqlite r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/SqlRender-1.16.0 sci-CRAN/rlang sci-CRAN/bit64 sci-CRAN/digest sci-CRAN/stringr sci-CRAN/rJava sci-CRAN/readr >=sci-CRAN/DBI-1.0.0 sci-CRAN/urltools sci-CRAN/checkmate >=sci-CRAN/dbplyr-2.2.0 virtual/jdk r_suggests_andromeda? ( sci-CRAN/Andromeda ) r_suggests_aws_s3? ( sci-CRAN/aws_s3 ) r_suggests_dbitest? ( sci-CRAN/DBItest ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_duckdb? ( sci-CRAN/duckdb ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_odbc? ( sci-CRAN/odbc ) r_suggests_parallellogger? ( sci-CRAN/ParallelLogger ) r_suggests_pool? ( sci-CRAN/pool ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpostgres? ( sci-CRAN/RPostgres ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DatabaseConnector_6.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ee5955a2d0ebe7cdb9c65307ee151ea0

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/checkmate sci-CRAN/Rcpp >=sci-CRAN/rxode2parse-2.0.17 sci-CRAN/lotri dev-lang/R:=
+DESCRIPTION=Random Number Generation Functions for rxode2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/checkmate sci-CRAN/Rcpp >=sci-CRAN/rxode2parse-2.0.17 sci-CRAN/lotri sci-CRAN/sitmo >=sci-CRAN/rxode2parse-2.0.17 sci-CRAN/Rcpp sci-CRAN/BH sci-CRAN/RcppArmadillo r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rxode2random_2.0.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=08e2aa6b3a8ac253f452e0fbcf76c494
