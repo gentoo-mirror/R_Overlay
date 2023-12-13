@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/mvnfast virtual/Matrix >=sci-CRAN/Rfast-1.9.8 sci-CRAN/slam >=sci-CRAN/mclust-5.4 sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Infinite Mixtures of Infinite Fa... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gmp r_suggests_knitr r_suggests_mcclust r_suggests_rmarkdown r_suggests_rmpfr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/mvnfast virtual/Matrix >=sci-CRAN/Rfast-1.9.8 sci-CRAN/slam >=sci-CRAN/mclust-5.4 sci-CRAN/viridisLite r_suggests_gmp? ( >=sci-CRAN/gmp-0.5.4 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mcclust? ( sci-CRAN/mcclust ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rmpfr? ( sci-CRAN/Rmpfr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/IMIFA_2.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=abb335eaf3d99025b800b34e4c018959

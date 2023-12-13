@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Download Data from the Swiss National Bank (SNB) // Download data
+		(tables and datasets) from the Swiss National Bank (SNB;
+		https://www.snb.ch/en), the Swiss central bank.  The package is
+		lightweight and comes with few dependencies; suggested packages
+		are used only if data is to be transformed into particular data
+		structures, for instance into 'zoo' objects.  Downloaded data
+		can optionally be cached, to avoid repeated downloads of the
+		same files.
+	</longdescription>
+</pkgmetadata>

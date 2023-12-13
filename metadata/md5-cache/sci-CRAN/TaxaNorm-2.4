@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/parallelly sci-CRAN/vegan sci-CRAN/pscl virtual/Matrix sci-CRAN/ggplot2 sci-BIOC/phyloseq sci-BIOC/microbiome sci-BIOC/S4Vectors sci-BIOC/BiocGenerics virtual/MASS sci-CRAN/future sci-CRAN/future_apply dev-lang/R:=
+DESCRIPTION=Feature-Wise Normalization for M... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/parallelly sci-CRAN/vegan sci-CRAN/pscl virtual/Matrix sci-CRAN/ggplot2 sci-BIOC/phyloseq sci-BIOC/microbiome sci-BIOC/S4Vectors sci-BIOC/BiocGenerics virtual/MASS sci-CRAN/future sci-CRAN/future_apply r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TaxaNorm_2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=846f695d2dad147b5fc5cc6471dded0a
