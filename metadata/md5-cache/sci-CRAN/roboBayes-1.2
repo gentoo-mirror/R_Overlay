@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Rcpp-1.0.7 sci-CRAN/RcppArmadillo dev-lang/R:=
+DESCRIPTION=Robust Online Bayesian Monitoring
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mvtnorm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Rcpp-1.0.7 sci-CRAN/RcppArmadillo sci-CRAN/Rcpp sci-CRAN/RcppDist sci-CRAN/RcppArmadillo r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/roboBayes_1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=95a49467e58ee284d4acb627be293a4a
