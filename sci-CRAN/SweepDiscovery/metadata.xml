@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Selective Sweep Discovery Tool // Selective sweep is a biological
+		phenomenon in which genetic variation between neighboring
+		beneficial mutant alleles is swept away due to the effect of
+		genetic hitchhiking. Detection of selective sweep is not well
+		acquainted as well as it is a laborious job. This package is a
+		user friendly approach for detecting selective sweep in genomic
+		regions. It uses a Random Forest based machine learning
+		approach to predict selective sweep from VCF files as an input.
+		Input of this function, train data and new data, can be
+		computed using the project
+		https://github.com/AbhikSarkar1999/SweepDiscovery in 'GitHub'.
+		This package has been developed by using the concept of
+		Pavlidis and Alachiotis (2017) doi:10.1186/s40709-017-0064-0.
+	</longdescription>
+</pkgmetadata>

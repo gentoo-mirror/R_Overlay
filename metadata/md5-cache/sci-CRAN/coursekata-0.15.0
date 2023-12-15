@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 >=sci-CRAN/ggformula-0.10.1 >=sci-CRAN/Lock5withR-1.2.2 >=sci-CRAN/lsr-0.5.2 sci-CRAN/pak sci-CRAN/palmerpenguins >=sci-CRAN/supernova-2.5.1 >=sci-CRAN/dslabs-0.7.4 >=sci-CRAN/cli-3.2.0 >=sci-CRAN/ggplot2-3.3.5 >=sci-CRAN/glue-1.6.2 sci-CRAN/Metrics >=sci-CRAN/mosaic-1.8.3 >=sci-CRAN/purrr-0.3.4 >=sci-CRAN/rlang-1.0.2 >=sci-CRAN/vctrs-0.4.1 sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Packages and Functions for CourseKata Courses
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fivethirtyeight r_suggests_lubridate r_suggests_mockery r_suggests_mockr r_suggests_readr r_suggests_readxl r_suggests_simstudy r_suggests_testthat r_suggests_tibble r_suggests_tidyr r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-3.6 >=sci-CRAN/ggformula-0.10.1 >=sci-CRAN/Lock5withR-1.2.2 >=sci-CRAN/lsr-0.5.2 sci-CRAN/pak sci-CRAN/palmerpenguins >=sci-CRAN/supernova-2.5.1 >=sci-CRAN/dslabs-0.7.4 >=sci-CRAN/cli-3.2.0 >=sci-CRAN/ggplot2-3.3.5 >=sci-CRAN/glue-1.6.2 sci-CRAN/Metrics >=sci-CRAN/mosaic-1.8.3 >=sci-CRAN/purrr-0.3.4 >=sci-CRAN/rlang-1.0.2 >=sci-CRAN/vctrs-0.4.1 sci-CRAN/viridisLite r_suggests_fivethirtyeight? ( >=sci-CRAN/fivethirtyeight-0.6.2 ) r_suggests_lubridate? ( >=sci-CRAN/lubridate-1.8.0 ) r_suggests_mockery? ( >=sci-CRAN/mockery-0.4.3 ) r_suggests_mockr? ( >=sci-CRAN/mockr-0.1 ) r_suggests_readr? ( >=sci-CRAN/readr-2.1.2 ) r_suggests_readxl? ( >=sci-CRAN/readxl-1.4.0 ) r_suggests_simstudy? ( >=sci-CRAN/simstudy-0.5.0 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.2 ) r_suggests_tibble? ( >=sci-CRAN/tibble-3.1.7 ) r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.2.0 ) r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-1.0.2 ) r_suggests_withr? ( >=sci-CRAN/withr-2.5.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/coursekata_0.15.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c1e843078f3f508fc6f1e5c7afbd7d92

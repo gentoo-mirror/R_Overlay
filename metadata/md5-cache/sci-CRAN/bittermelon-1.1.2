@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/findpython sci-CRAN/Unicode sci-CRAN/png sci-CRAN/rappdirs dev-lang/R:=
+DESCRIPTION=Monochrome Bitmap Font Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_crayon r_suggests_ragg r_suggests_testthat r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/findpython sci-CRAN/Unicode sci-CRAN/png sci-CRAN/rappdirs r_suggests_crayon? ( sci-CRAN/crayon ) r_suggests_ragg? ( sci-CRAN/ragg ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bittermelon_1.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=eb3468a8aac6f31eadae0beec2866bf8
