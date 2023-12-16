@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Super Imposition by Translation and Rotation Growth
+		Curve Analysis // The Super Imposition by Translation and
+		Rotation (SITAR) model is a shape-invariant nonlinear mixed
+		effect model that fits a natural cubic spline mean curve and
+		and then aligns individual-specific growth curves to the mean
+		curve via a set of random effects on both effects. For more
+		details,  please see Cole (2010)  doi:10.1093/ije/dyq115. The
+		non Bayesian version of the SITAR model can be fit by using an
+		already available R package 'sitar'. However, the 'sitar'
+		package allows modelling of a single outcome only. The 'bsitar'
+		package, in addition to fitting SITAR to a single outcome,
+		offers a great flexibility in fitting models of varying
+		complexities that include joint modelling of multiple outcomes
+		(multivariate model) such as height and weight, and to fit
+		separate models defined by sub group such as gender when
+		analyzing a single outcome. Furthermore, since the 'bsitar'
+		package is a front-end to  the R package 'brms', it offers an
+		excellent support for  post-processing of posterior draws which
+		is available from the 'brms' package.
+	</longdescription>
+</pkgmetadata>

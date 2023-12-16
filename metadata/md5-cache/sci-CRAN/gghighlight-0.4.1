@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-3.3.6 sci-CRAN/lifecycle sci-CRAN/ggrepel >=sci-CRAN/dplyr-1.0.4 >=dev-lang/R-3.4.0 sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Highlight Lines and Points in ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geomtextpath r_suggests_knitr r_suggests_rmarkdown r_suggests_sf r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/ggplot2-3.3.6 sci-CRAN/lifecycle sci-CRAN/ggrepel >=sci-CRAN/dplyr-1.0.4 >=dev-lang/R-3.4.0 sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/purrr r_suggests_geomtextpath? ( sci-CRAN/geomtextpath ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-0.3.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gghighlight_0.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=68879d5d3334312cc5e873abc56ebc5d

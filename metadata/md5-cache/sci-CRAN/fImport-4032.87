@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/timeSeries >=dev-lang/R-2.15.1 sci-CRAN/timeDate dev-lang/R:=
+DESCRIPTION=Rmetrics - Importing Economic and Financial Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/timeSeries >=dev-lang/R-2.15.1 sci-CRAN/timeDate r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fImport_4032.87.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5b2469db9ad443a8d42c6bce5e8602f2

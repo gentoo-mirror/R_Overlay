@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/plot3D sci-CRAN/Rcpp virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Simplex Visualization of Cell Fa... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_magick r_suggests_patchwork r_suggests_rgl r_suggests_rmarkdown r_suggests_seurat r_suggests_seuratobject r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/plot3D sci-CRAN/Rcpp virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_seurat? ( sci-CRAN/Seurat ) r_suggests_seuratobject? ( sci-CRAN/SeuratObject ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CytoSimplex_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=806bfe946be89e2827a8a61313df6a67
