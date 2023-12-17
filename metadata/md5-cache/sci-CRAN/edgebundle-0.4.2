@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/reticulate sci-CRAN/Rcpp sci-CRAN/igraph sci-CRAN/interp dev-lang/R:=
+DESCRIPTION=Algorithms for Bundling Edges in... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_network r_suggests_testthat r_suggests_tidygraph byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/reticulate sci-CRAN/Rcpp sci-CRAN/igraph sci-CRAN/interp sci-CRAN/Rcpp r_suggests_network? ( sci-CRAN/network ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 ) r_suggests_tidygraph? ( sci-CRAN/tidygraph ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/edgebundle_0.4.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8c908346a35e7d783803c28a71e72348
