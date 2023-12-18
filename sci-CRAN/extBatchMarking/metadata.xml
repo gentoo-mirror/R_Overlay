@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Extended Batch Marking Models // A system for batch-marking data
+		analysis to estimate survival probabilities, capture
+		probabilities, and enumerate the population abundance for both
+		marked and unmarked individuals. The estimation of only marked
+		individuals can be achieved through the batchMarkOptim()
+		function. Similarly, the combined marked and unmarked can be
+		achieved through the batchMarkUnmarkOptim() function. The
+		algorithm was also implemented for the hidden Markov model
+		encapsulated in batchMarkUnmarkOptim() to estimate the
+		abundance of both marked and unmarked individuals in the
+		population. The package is based on the paper: "Hidden Markov
+		Models for Extended Batch Data" of Cowen et al. (2017)
+		doi:10.1111/biom.12701.
+	</longdescription>
+</pkgmetadata>

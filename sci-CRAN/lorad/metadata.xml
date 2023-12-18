@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Lowest Radial Distance Method of Marginal Likelihood Estimation
+		// Estimates marginal likelihood from a posterior sample using
+		the method described in Wang et al. (2023)
+		doi:10.1093/sysbio/syad007, which does not require evaluation
+		of any additional points and requires only the log of the
+		unnormalized posterior density for each sampled parameter
+		vector.
+	</longdescription>
+</pkgmetadata>
