@@ -4,9 +4,17 @@
 	<longdescription>
 		Bayesian Survival Regression with Flexible Error and Random
 		Effects Distributions // Contains Bayesian implementations of
-		Mixed-Effects Accelerated Failure Time (MEAFT) models for
+		the Mixed-Effects Accelerated Failure Time (MEAFT) models for
 		censored data. Those can be not only right-censored but also
 		interval-censored, doubly-interval-censored or misclassified
-		interval-censored.
+		interval-censored. The methods implemented in the package have
+		been published in Komrek and Lesaffre (2006, Stat. Modelling)
+		doi:10.1191/1471082X06st107oa, Komrek, Lesaffre and Legrand
+		(2007, Stat. in Medicine) doi:10.1002/sim.3083, Komrek and
+		Lesaffre (2007, Stat. Sinica)
+		https://www3.stat.sinica.edu.tw/statistica/oldpdf/A17n27.pdf,
+		Komrek and Lesaffre (2008, JASA)
+		doi:10.1198/016214507000000563, Garca-Zattera, Jara and Komrek
+		(2016, Biometrics) doi:10.1111/biom.12424.
 	</longdescription>
 </pkgmetadata>
