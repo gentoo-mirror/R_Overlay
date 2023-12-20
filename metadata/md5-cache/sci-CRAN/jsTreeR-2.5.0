@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools sci-CRAN/jquerylib sci-CRAN/base64enc sci-CRAN/rstudioapi sci-CRAN/fontawesome sci-CRAN/htmlwidgets sci-CRAN/miniUI sci-CRAN/R_utils sci-CRAN/shiny sci-CRAN/shinyAce dev-lang/R:=
+DESCRIPTION=A Wrapper of the JavaScript Library jsTree
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_jsonlite r_suggests_magrittr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/htmltools sci-CRAN/jquerylib sci-CRAN/base64enc sci-CRAN/rstudioapi sci-CRAN/fontawesome sci-CRAN/htmlwidgets sci-CRAN/miniUI sci-CRAN/R_utils sci-CRAN/shiny sci-CRAN/shinyAce r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_magrittr? ( sci-CRAN/magrittr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/jsTreeR_2.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=83a90a3e8ce392778c37480311fc95dd

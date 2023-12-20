@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/Matrix virtual/MASS sci-CRAN/knitr virtual/nlme virtual/boot virtual/mgcv dev-lang/R:=
+DESCRIPTION=Nonlinear Regression for Agricultural Applications
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bbmle r_suggests_car r_suggests_emmeans r_suggests_ggplot2 r_suggests_lattice r_suggests_minpack_lm r_suggests_nistnls r_suggests_nls2 r_suggests_nlstools r_suggests_rmarkdown r_suggests_segmented byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 virtual/Matrix virtual/MASS sci-CRAN/knitr virtual/nlme virtual/boot virtual/mgcv r_suggests_bbmle? ( sci-CRAN/bbmle ) r_suggests_car? ( sci-CRAN/car ) r_suggests_emmeans? ( sci-CRAN/emmeans ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_lattice? ( virtual/lattice ) r_suggests_minpack_lm? ( sci-CRAN/minpack_lm ) r_suggests_nistnls? ( sci-CRAN/NISTnls ) r_suggests_nls2? ( sci-CRAN/nls2 ) r_suggests_nlstools? ( sci-CRAN/nlstools ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_segmented? ( sci-CRAN/segmented ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nlraa_1.9.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7c9583550f8410dd2750e0ce356a40fa
