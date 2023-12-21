@@ -8,12 +8,12 @@
 		'foreach' package provides a powerful API for iterating over an
 		R expression in parallel. The 'doFuture' package brings the
 		best of the two together. There are two alternative ways to use
-		this package. The first is the traditional 'foreach' approach
-		by registering the 'foreach' adapter 'registerDoFuture()' and
-		so that 'y - foreach(...) %dopar% { ... }' runs in parallelizes
-		with the 'future' framework. The other alternative is to use 'y
-		- foreach(...) %dofuture% { ... }', which does not require
-		using 'registerDoFuture()' and has many advantages over
-		'%dopar%'.
+		this package. The recommended approach is to use 'y -
+		foreach(...) %dofuture% { ... }', which does not require using
+		'registerDoFuture()' and has many advantages over '%dopar%'.
+		The alternative is the traditional 'foreach' approach by
+		registering the 'foreach' adapter 'registerDoFuture()' and so
+		that 'y - foreach(...) %dopar% { ... }' runs in parallelizes
+		with the 'future' framework.
 	</longdescription>
 </pkgmetadata>

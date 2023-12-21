@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools sci-CRAN/mime sci-CRAN/reactR sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/cli sci-CRAN/htmlwidgets sci-CRAN/readr sci-CRAN/jsonlite sci-CRAN/httpuv sci-CRAN/ids sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=An R Interface to the JBrowse 2 Genome Browser
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/htmltools sci-CRAN/mime sci-CRAN/reactR sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/cli sci-CRAN/htmlwidgets sci-CRAN/readr sci-CRAN/jsonlite sci-CRAN/httpuv sci-CRAN/ids sci-CRAN/dplyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/JBrowseR_0.10.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c7286fe63910f5b326e0f503f465a898

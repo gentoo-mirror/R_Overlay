@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/diagram sci-CRAN/kantorovich sci-CRAN/gmp dev-lang/R:=
+DESCRIPTION=Deal with Bratteli Graphs
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/data_table sci-CRAN/diagram sci-CRAN/kantorovich sci-CRAN/gmp dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bratteli_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1f5def9227c7e27ba731ba9205de13ec

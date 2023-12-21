@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Ontology-Informed Phylogenetic Comparative Analyses // Provides
+		new tools for analyzing discrete trait data integrating bio-
+		ontologies and phylogenetics. It expands on the previous work
+		of Tarasov et al. (2019) doi:10.1093/isd/ixz009. The PARAMO
+		pipeline allows to reconstruct ancestral phenomes treating
+		groups of morphological traits as a single complex character.
+		The pipeline incorporates knowledge from ontologies during the
+		amalgamation of individual character stochastic maps. Here we
+		expand the current PARAMO functionality by adding new
+		statistical methods for inferring evolutionary phenome dynamics
+		using non-homogeneous Poisson process (NHPP). The new
+		functionalities include: (1) reconstruction of evolutionary
+		rate shifts of phenomes across lineages and time; (2)
+		reconstruction of morphospace dynamics through time; and (3)
+		estimation of rates of phenome evolution at different levels of
+		anatomical hierarchy (e.g., entire body or specific regions
+		only). The package also includes user-friendly tools for
+		visualizing evolutionary rates of different anatomical regions
+		using vector images of the organisms of interest.
+	</longdescription>
+</pkgmetadata>

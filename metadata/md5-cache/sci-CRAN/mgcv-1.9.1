@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme dev-lang/R[minimal] >=dev-lang/R-3.6.0 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Mixed GAM Computation Vehicle wi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/nlme dev-lang/R[minimal] >=dev-lang/R-3.6.0 virtual/Matrix r_suggests_mass? ( virtual/MASS ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mgcv_1.9-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5bc2eae1fef30946376d3ed3da5d1095
