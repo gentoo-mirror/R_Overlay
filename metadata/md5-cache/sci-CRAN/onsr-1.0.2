@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/httr sci-CRAN/readr sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Client for the ONS API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_data_table r_suggests_testthat r_suggests_vroom byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/tibble sci-CRAN/httr sci-CRAN/readr sci-CRAN/jsonlite r_suggests_curl? ( sci-CRAN/curl ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vroom? ( sci-CRAN/vroom ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/onsr_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e4c926632074bdc5b437096421bf183b

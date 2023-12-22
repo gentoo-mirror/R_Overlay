@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.15.1 sci-CRAN/timeDate sci-CRAN/timeSeries sci-CRAN/fGarch sci-CRAN/fBasics dev-lang/R:=
+DESCRIPTION=Rmetrics - Modelling Extreme Events in Finance
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_runit r_suggests_tk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.15.1 sci-CRAN/timeDate sci-CRAN/timeSeries sci-CRAN/fGarch sci-CRAN/fBasics r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_tk? ( dev-lang/R[tk] ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fExtremes_4032.84.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=04649fbc66d8bf1b9ce6a7df501588c6

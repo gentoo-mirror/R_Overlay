@@ -5,8 +5,11 @@
 		Box-Cox-Type Transformations for Linear and Logistic Models with
 		Random Effects // Box-Cox-type transformations for linear and
 		logistic models with random effects using non-parametric
-		profile maximum likelihood estimation. The main functions are
-		optim.boxcox() for linear models with random effects and
-		boxcoxtype() for logistic models with random effects.
+		profile maximum likelihood estimation, as introduced in
+		Almohaimeed (2018) http://etheses.dur.ac.uk/12831/ and
+		Almohaimeed and Einbeck (2022) doi:10.1177/1471082X20966919.
+		The main functions are 'optim.boxcox()' for linear models with
+		random effects and 'boxcoxtype()' for logistic models with
+		random effects.
 	</longdescription>
 </pkgmetadata>
