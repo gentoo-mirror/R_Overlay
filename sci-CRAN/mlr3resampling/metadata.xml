@@ -20,6 +20,9 @@
 		accurate than same; other can be just as bad as featureless
 		baseline when the groups have different patterns). For more
 		information, https://tdhock.github.io/blog/2023/R-gen-new-
-		subsets/ describes the method in depth.
+		subsets/ describes the method in depth. How many train samples
+		are required to get accurate predictions on a test set? Cross-
+		validation can be used to answer this question, with variable
+		size train sets.
 	</longdescription>
 </pkgmetadata>

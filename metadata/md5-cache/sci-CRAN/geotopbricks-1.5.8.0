@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/terra sci-CRAN/raster sci-CRAN/sf sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=An R Plug-in for the Distributed... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_soilwater byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/stringr sci-CRAN/terra sci-CRAN/raster sci-CRAN/sf sci-CRAN/zoo r_suggests_soilwater? ( sci-CRAN/soilwater ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/geotopbricks_1.5.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e74abf21750c7fb4bd30cab41df2bd5a

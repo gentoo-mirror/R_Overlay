@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/survey-4.2.1 dev-lang/R:=
+DESCRIPTION=Income Concentration Analysis wi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dbi r_suggests_knitr r_suggests_laeken r_suggests_rmarkdown r_suggests_rsqlite r_suggests_testthat r_suggests_vardpoor byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/survey-4.2.1 r_suggests_dbi? ( sci-CRAN/DBI ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_laeken? ( sci-CRAN/laeken ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vardpoor? ( sci-CRAN/vardpoor ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/convey_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f8101556d749abdcf9982ad09be87463

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/admisc-0.33 dev-lang/R:=
+DESCRIPTION=Draw Venn Diagrams
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_ggpolypath r_suggests_qca byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/admisc-0.33 r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggpolypath? ( sci-CRAN/ggpolypath ) r_suggests_qca? ( >=sci-CRAN/QCA-3.9 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/venn_1.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c3e0f2b36587a2ccbec243830ac8df02
