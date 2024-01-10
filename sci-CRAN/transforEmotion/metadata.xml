@@ -2,20 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Sentiment Analysis for Text and Qualitative Data // Implements
-		sentiment analysis using huggingface https://huggingface.co
-		transformer zero-shot classification model pipelines. The
-		default pipeline is Cross-Encoder's DistilRoBERTa
-		https://huggingface.co/cross-encoder/nli-distilroberta-base
-		trained on the Stanford Natural Language Inference
-		https://nlp.stanford.edu/projects/snli/ and Multi-Genre Natural
-		Language Inference https://huggingface.co/datasets/multi_nli
-		datasets. Using similar models, zero-shot classification
-		transformers have demonstrated superior performance relative to
-		other natural language processing models arXiv:1909.00161. All
-		other zero-shot classification model pipelines can be
-		implemented using their model name from
+		Sentiment Analysis for Text, Image and Video using Transformer
+		Models // Implements sentiment analysis using huggingface
+		https://huggingface.co transformer zero-shot classification
+		model pipelines for text and image data. The default text
+		pipeline is Cross-Encoder's DistilRoBERTa
+		https://huggingface.co/cross-encoder/nli-distilroberta-base and
+		default image/video pipeline is Open AI's CLIP
+		https://huggingface.co/openai/clip-vit-base-patch32. All other
+		zero-shot classification model pipelines can be implemented
+		using their model name from
 		https://huggingface.co/models?pipeline_tag=zero-shot-
-		classification}.
+		classification.
 	</longdescription>
 </pkgmetadata>

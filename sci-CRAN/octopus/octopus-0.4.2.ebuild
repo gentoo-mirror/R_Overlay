@@ -1,0 +1,41 @@
+# Copyright 1999-2024 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='A Database Management Tool'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/octopus_0.4.2.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_knitr r_suggests_odbc r_suggests_readr
+	r_suggests_rmarkdown r_suggests_rmysql r_suggests_rpostgres
+	r_suggests_rsqlite r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_odbc? ( sci-CRAN/odbc )
+	r_suggests_readr? ( sci-CRAN/readr )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_rmysql? ( sci-CRAN/RMySQL )
+	r_suggests_rpostgres? ( sci-CRAN/RPostgres )
+	r_suggests_rsqlite? ( sci-CRAN/RSQLite )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+"
+DEPEND="sci-CRAN/DT
+	sci-CRAN/DBI
+	sci-CRAN/dplyr
+	sci-CRAN/data_table
+	sci-CRAN/bslib
+	sci-CRAN/glue
+	sci-CRAN/httr
+	sci-CRAN/janitor
+	sci-CRAN/rio
+	sci-CRAN/shiny
+	sci-CRAN/shinyAce
+	sci-CRAN/shinyjs
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+
+_UNRESOLVED_PACKAGES=( 'sci-CRAN/keyring' )

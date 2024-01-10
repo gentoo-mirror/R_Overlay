@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 dev-lang/R:=
+DESCRIPTION=Particle-Takens Stability
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bayesiantools byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.4 r_suggests_bayesiantools? ( sci-CRAN/BayesianTools ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pttstability_1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d045a285c41828bd964b4e60bb464934

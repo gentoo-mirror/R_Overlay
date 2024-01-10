@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Seamless R and C++ Integration
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_inline r_suggests_pkgkitten r_suggests_rbenchmark r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=r_suggests_inline? ( sci-CRAN/inline ) r_suggests_pkgkitten? ( >=sci-CRAN/pkgKitten-0.1.2 ) r_suggests_rbenchmark? ( sci-CRAN/rbenchmark ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Rcpp_1.0.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=15084610dac369fabef42ee3a9b17ade

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.11.0 dev-lang/R:=
+DESCRIPTION=Subset and Flag Data Frames with... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/Rcpp-0.11.0 sci-CRAN/Rcpp r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/timeDF_0.9.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c160d30f9aac701b142444070a8cc5b0

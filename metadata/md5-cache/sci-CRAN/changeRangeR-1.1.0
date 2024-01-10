@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/sp sci-CRAN/raster sci-CRAN/dplyr sci-CRAN/rangeModelMetadata sci-CRAN/phylobase sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Change Metrics for Species Geographic Ranges
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ape r_suggests_dismo r_suggests_knitr r_suggests_picante r_suggests_r_utils r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyverse r_suggests_tinytex byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/sp sci-CRAN/raster sci-CRAN/dplyr sci-CRAN/rangeModelMetadata sci-CRAN/phylobase sci-CRAN/sf r_suggests_ape? ( sci-CRAN/ape ) r_suggests_dismo? ( sci-CRAN/dismo ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_picante? ( sci-CRAN/picante ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) r_suggests_tinytex? ( sci-CRAN/tinytex ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/changeRangeR_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=495371b5b192beb671a189329d5a0a86

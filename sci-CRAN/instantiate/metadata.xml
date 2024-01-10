@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Pre-Compiled 'CmdStan' Models in R Packages // Similar to
+		'rstantools' for 'rstan', the 'instantiate' package builds pre-
+		compiled 'CmdStan' models into CRAN-ready statistical modeling
+		R packages. The models compile once during installation, the
+		executables live inside the file systems of their respective
+		packages, and users have the full power and convenience of
+		'cmdstanr' without any additional compilation after package
+		installation. This approach saves time and helps R package
+		developers migrate from 'rstan' to the more modern 'cmdstanr'.
+		Packages 'rstantools', 'cmdstanr', 'stannis', and 'stanapi' are
+		similar Stan clients with different objectives.
+	</longdescription>
+</pkgmetadata>
