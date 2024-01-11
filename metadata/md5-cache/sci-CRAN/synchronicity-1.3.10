@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/bigmemory_sri sci-CRAN/Rcpp sci-CRAN/uuid dev-lang/R:=
+DESCRIPTION=Boost Mutex Functionality in R
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/bigmemory_sri sci-CRAN/Rcpp sci-CRAN/uuid sci-CRAN/BH sci-CRAN/Rcpp dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/synchronicity_1.3.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dc7beaf017378182c9c6c8d9755798c2

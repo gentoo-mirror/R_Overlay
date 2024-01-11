@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/forestmodel sci-CRAN/Hmisc sci-CRAN/glmnet >=dev-lang/R-4.2.0 sci-CRAN/rms sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/survminer sci-CRAN/xgboost sci-CRAN/scales virtual/Matrix dev-lang/R:=
+DESCRIPTION=Biomarker Confirmation, Selectio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/survival sci-CRAN/forestmodel sci-CRAN/Hmisc sci-CRAN/glmnet >=dev-lang/R-4.2.0 sci-CRAN/rms sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/survminer sci-CRAN/xgboost sci-CRAN/scales virtual/Matrix r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/csmpv_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=19bb62965e495d1bafdf69547e04042f

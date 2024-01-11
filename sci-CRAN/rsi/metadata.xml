@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Efficiently Retrieve and Process Satellite Imagery // Downloads
+		spatial data from spatiotemporal asset catalogs ('STAC'),
+		computes standard spectral indices from the Awesome Spectral
+		Indices project (Montero et al. (2023)
+		doi:10.1038/s41597-023-02096-0) against raster data, and glues
+		the outputs together into predictor bricks. Methods focus on
+		interoperability with the broader spatial ecosystem; function
+		arguments and outputs use classes from 'sf' and 'terra', and
+		data downloading functions support complex 'CQL2' queries using
+		'rstac'.
+	</longdescription>
+</pkgmetadata>

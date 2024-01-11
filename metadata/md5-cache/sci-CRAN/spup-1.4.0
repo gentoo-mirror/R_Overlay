@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/mvtnorm sci-CRAN/purrr sci-CRAN/whisker >=dev-lang/R-4.3.0 sci-CRAN/gstat sci-CRAN/raster dev-lang/R:=
+DESCRIPTION=Spatial Uncertainty Propagation Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggally r_suggests_gridextra r_suggests_knitr r_suggests_png r_suggests_readr r_suggests_sf r_suggests_sp r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/magrittr sci-CRAN/mvtnorm sci-CRAN/purrr sci-CRAN/whisker >=dev-lang/R-4.3.0 sci-CRAN/gstat sci-CRAN/raster r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_png? ( sci-CRAN/png ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spup_1.4-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=27c23d2d3562d2af9b9c19bc5e5c18a1

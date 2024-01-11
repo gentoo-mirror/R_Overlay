@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-3.3.5 >=sci-CRAN/inline-0.3.19 >=dev-lang/R-3.4.0 >=sci-CRAN/Rcpp-1.0.7 >=sci-CRAN/gridExtra-2.3 >=sci-CRAN/RcppParallel-5.1.4 >=sci-CRAN/loo-2.4.1 >=sci-CRAN/pkgbuild-1.2.0 sci-CRAN/QuickJSR dev-lang/R:=
+DESCRIPTION=R Interface to Stan
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bayesplot r_suggests_coda r_suggests_kernsmooth r_suggests_knitr r_suggests_matrix r_suggests_rmarkdown r_suggests_rstantools r_suggests_rstudioapi r_suggests_shinystan r_suggests_testthat r_suggests_v8 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/ggplot2-3.3.5 >=sci-CRAN/inline-0.3.19 >=dev-lang/R-3.4.0 >=sci-CRAN/Rcpp-1.0.7 >=sci-CRAN/gridExtra-2.3 >=sci-CRAN/RcppParallel-5.1.4 >=sci-CRAN/loo-2.4.1 >=sci-CRAN/pkgbuild-1.2.0 sci-CRAN/QuickJSR >=sci-CRAN/RcppParallel-5.1.4 app-text/pandoc >=sci-CRAN/Rcpp-1.0.7 >=sci-CRAN/RcppEigen-0.3.3.9.3 >=sci-CRAN/BH-1.75.0.0 r_suggests_bayesplot? ( sci-CRAN/bayesplot ) r_suggests_coda? ( sci-CRAN/coda ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstantools? ( sci-CRAN/rstantools ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_shinystan? ( sci-CRAN/shinystan ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.4 ) r_suggests_v8? ( sci-CRAN/V8 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rstan_2.32.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=efa5d8e0726a514a3cc2b7d4e4b80334
