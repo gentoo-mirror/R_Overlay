@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/igraph sci-CRAN/furrr sci-CRAN/tidyr >=dev-lang/R-3.3.2 sci-CRAN/dplyr sci-CRAN/ggplot2 virtual/cluster dev-lang/R:=
+DESCRIPTION=Nearest Neighbors Matching of Case-Control Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_future r_suggests_future_batchtools r_suggests_knitr r_suggests_logistf r_suggests_mice r_suggests_rmarkdown r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/rlang sci-CRAN/igraph sci-CRAN/furrr sci-CRAN/tidyr >=dev-lang/R-3.3.2 sci-CRAN/dplyr sci-CRAN/ggplot2 virtual/cluster r_suggests_future? ( sci-CRAN/future ) r_suggests_future_batchtools? ( sci-CRAN/future_batchtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_logistf? ( sci-CRAN/logistf ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nncc_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5cafdd98ce5fdf1880902015ef28ebf1

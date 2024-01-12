@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Prioritize and Delete Erroneous Taxa in a Large Phylogenetic Tree
+		// Finds, prioritizes and deletes erroneous taxa in a
+		phylogenetic tree. This package calculates scores for taxa in a
+		tree. Higher score means the taxon is more erroneous. If the
+		score is zero for a taxon, the taxon is not erroneous. This
+		package also can remove all erroneous taxa automatically by
+		iterating score calculation and pruning taxa with the highest
+		score.
+	</longdescription>
+</pkgmetadata>
