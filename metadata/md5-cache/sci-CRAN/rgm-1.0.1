@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/pROC sci-CRAN/huge virtual/MASS sci-CRAN/truncnorm sci-CRAN/mvtnorm sci-CRAN/BDgraph sci-CRAN/ggplot2 sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Advanced Inference with Random Graphical Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/pROC sci-CRAN/huge virtual/MASS sci-CRAN/truncnorm sci-CRAN/mvtnorm sci-CRAN/BDgraph sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/Rcpp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rgm_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b7c73cccc917b4ba80f3f511493bc91b

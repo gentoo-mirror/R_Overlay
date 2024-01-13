@@ -1,0 +1,37 @@
+# Copyright 1999-2024 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='General Package for Meta-Analysis'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/meta_7.0-0.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_biasedurn r_suggests_estmeansd r_suggests_knitr
+	r_suggests_pimeta r_suggests_rmarkdown r_suggests_robvis
+	r_suggests_writexl"
+R_SUGGESTS="
+	r_suggests_biasedurn? ( sci-CRAN/BiasedUrn )
+	r_suggests_estmeansd? ( sci-CRAN/estmeansd )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_pimeta? ( sci-CRAN/pimeta )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_robvis? ( sci-CRAN/robvis )
+	r_suggests_writexl? ( sci-CRAN/writexl )
+"
+DEPEND=">=dev-lang/R-4.0.0
+	>=sci-CRAN/metafor-3.0.0
+	sci-CRAN/CompQuadForm
+	sci-CRAN/xml2
+	sci-CRAN/dplyr
+	sci-CRAN/readr
+	sci-CRAN/magrittr
+	sci-CRAN/stringr
+	sci-CRAN/lme4
+	sci-CRAN/metadat
+	sci-CRAN/purrr
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

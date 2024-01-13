@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr >=sci-CRAN/Rcpp-0.12.0 virtual/mgcv >=sci-CRAN/rstantools-2.1.1 sci-CRAN/ggplot2 >=dev-lang/R-3.5.0 >=sci-CRAN/loo-2.0.0 sci-CRAN/reshape2 sci-CRAN/rlang >=sci-CRAN/rstan-2.26.0 sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Bayesian Dynamic Factor Analysis (DFA) with Stan
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/dplyr >=sci-CRAN/Rcpp-0.12.0 virtual/mgcv >=sci-CRAN/rstantools-2.1.1 sci-CRAN/ggplot2 >=dev-lang/R-3.5.0 >=sci-CRAN/loo-2.0.0 sci-CRAN/reshape2 sci-CRAN/rlang >=sci-CRAN/rstan-2.26.0 sci-CRAN/viridisLite >=sci-CRAN/BH-1.66.0 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/rstan-2.26.0 >=sci-CRAN/RcppEigen-0.3.3.3.0 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bayesdfa_1.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0f34745a28cdd6f8aa98b202b9e70450
