@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 virtual/nlme sci-CRAN/biglm sci-CRAN/minqa sci-CRAN/statmod sci-CRAN/tweedie sci-CRAN/coda virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Compound Poisson Linear Models
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2.0 virtual/nlme sci-CRAN/biglm sci-CRAN/minqa sci-CRAN/statmod sci-CRAN/tweedie sci-CRAN/coda virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/reshape2 virtual/Matrix dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cplm_0.7-12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d2c1c944e5c1f529a69817e3d3f4943f

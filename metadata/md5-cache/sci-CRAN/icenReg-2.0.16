@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/coda virtual/survival sci-CRAN/Rcpp sci-CRAN/MLEcens sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Regression Models for Interval Censored Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( LGPL-2 LGPL-2.1 )
+RDEPEND=sci-CRAN/coda virtual/survival sci-CRAN/Rcpp sci-CRAN/MLEcens sci-CRAN/foreach sci-CRAN/Rcpp sci-CRAN/RcppEigen dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/icenReg_2.0.16.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7cad2927a62cf524483c136d0e5bc7b5
