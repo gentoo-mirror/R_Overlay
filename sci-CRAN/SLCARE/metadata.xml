@@ -2,18 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Semiparametric Latent Class Analysis for Recurrent Event // An
-		easy-to-use tool for latent class analysis for recurrent
-		events. The modeling framework is based on the semiparametric
-		multiplicative modeling in Zhao et al. (2022)
-		doi:10.1111/rssb.12499. Our package provides an alternative
-		method to define initial values in the estimation algorithm
-		based on a joint frailty scale-change model described in Wang
-		et al. (2001) doi:10.1198/016214501753209031 and K-means. Users
-		are also allowed to specify different initial values by
-		themselves. Our package also provides an alternative algorithm
-		to solving the estimating equation for unobservable latent
-		class membership by fitting a "pseudo" weighted multinomial
-		regression which speeds up the rate of convergence.
+		Semiparametric Latent Class Analysis of Recurrent Events //
+		Efficient R package for latent class analysis of recurrent
+		events, based on the semiparametric multiplicative intensity
+		model by Zhao et al. (2022) doi:10.1111/rssb.12499. SLCARE
+		returns estimates for non-functional model parameters along
+		with the associated variance estimates and p-values.
+		Visualization tools are provided to depict the estimated
+		functional model parameters and related functional quantities
+		of interest. SLCARE also delivers a model checking plot to help
+		assess the adequacy of the fitted model.
 	</longdescription>
 </pkgmetadata>

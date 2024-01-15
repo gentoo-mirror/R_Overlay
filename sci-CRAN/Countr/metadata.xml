@@ -8,6 +8,10 @@
 		familiar formula syntax as in glm() and package 'flexsurv'.
 		The methodology is described by Kharrat et all (2019)
 		doi:10.18637/jss.v090.i13 (included as vignette 'Countr_guide'
-		in the package).
+		in the package). If the suggested package 'pscl' is not
+		available from CRAN, it can be installed with
+		'remotes::install_github("cran/pscl")'. It is no longer used by
+		the functions in this package but is needed for some of the
+		extended examples.
 	</longdescription>
 </pkgmetadata>

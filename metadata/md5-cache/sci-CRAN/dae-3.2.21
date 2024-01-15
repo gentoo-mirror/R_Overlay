@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/plyr >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/ggpubr dev-lang/R:=
+DESCRIPTION=Functions Useful in the Design a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_r_rsp r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/plyr >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/ggpubr r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dae_3.2.21.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ed1dcfb968299b10772f822589437134
