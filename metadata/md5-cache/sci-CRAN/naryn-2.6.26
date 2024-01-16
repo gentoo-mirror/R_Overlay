@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/glue sci-CRAN/magrittr >=dev-lang/R-3.0.0 sci-CRAN/dplyr sci-CRAN/lifecycle sci-CRAN/purrr sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/yaml dev-lang/R:=
+DESCRIPTION=Native Access Medical Record Ret... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_brio r_suggests_callr r_suggests_devtools r_suggests_forcats r_suggests_knitr r_suggests_readr r_suggests_rlang r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_tibble r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/glue sci-CRAN/magrittr >=dev-lang/R-3.0.0 sci-CRAN/dplyr sci-CRAN/lifecycle sci-CRAN/purrr sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/yaml r_suggests_brio? ( sci-CRAN/brio ) r_suggests_callr? ( sci-CRAN/callr ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.4 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/naryn_2.6.26.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=82ef99bdba521209dfc817316452f001

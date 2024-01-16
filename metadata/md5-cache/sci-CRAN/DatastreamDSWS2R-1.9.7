@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringi sci-CRAN/dplyr sci-CRAN/xts sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/zoo sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Provides a Link Between the Refi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rjson r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/stringi sci-CRAN/dplyr sci-CRAN/xts sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/zoo sci-CRAN/foreach r_suggests_rjson? ( sci-CRAN/rjson ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DatastreamDSWS2R_1.9.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=22b0dcdda7c61bf3eb10a8f8e586d32f

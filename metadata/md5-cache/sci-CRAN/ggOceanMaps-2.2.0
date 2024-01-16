@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/stars sci-CRAN/sf sci-CRAN/ggplot2 sci-CRAN/smoothr sci-CRAN/units dev-lang/R:=
+DESCRIPTION=Plot Data on Oceanographic Maps using ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cowplot r_suggests_ggnewscale r_suggests_knitr r_suggests_rmarkdown r_suggests_scales r_suggests_spatial byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/stars sci-CRAN/sf sci-CRAN/ggplot2 sci-CRAN/smoothr sci-CRAN/units r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_ggnewscale? ( sci-CRAN/ggnewscale ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_spatial? ( virtual/spatial ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggOceanMaps_2.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ecdbe82f2a8de826495ed7092ec06880
