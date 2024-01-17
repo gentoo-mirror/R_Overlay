@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/crayon sci-CRAN/stringr sci-CRAN/lavaan sci-CRAN/panelr sci-CRAN/dplyr sci-CRAN/Formula >=sci-CRAN/jtools-2.0.1 dev-lang/R:=
+DESCRIPTION=Dynamic Panel Models Fit with Maximum Likelihood
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_broom r_suggests_covr r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rlang sci-CRAN/crayon sci-CRAN/stringr sci-CRAN/lavaan sci-CRAN/panelr sci-CRAN/dplyr sci-CRAN/Formula >=sci-CRAN/jtools-2.0.1 r_suggests_broom? ( sci-CRAN/broom ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dpm_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b54f9dfba5779bb86c1ec8a2726e5564

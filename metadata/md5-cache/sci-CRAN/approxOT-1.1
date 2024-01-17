@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-1.0.3 dev-lang/R:=
+DESCRIPTION=Approximate and Exact Optimal Transport Methods
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_transport byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/Rcpp-1.0.3 sci-CRAN/Rcpp sci-CRAN/RcppEigen sci-CRAN/RcppCGAL sci-CRAN/BH r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_transport? ( sci-CRAN/transport ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/approxOT_1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=53bad18e29d037e20673f66d8fa76653
