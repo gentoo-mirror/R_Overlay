@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/FMStable dev-lang/R:=
+DESCRIPTION=Harmonic Mean p-Values and Model... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ape r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/FMStable r_suggests_ape? ( sci-CRAN/ape ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/harmonicmeanp_3.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5d66c51ba9f1fae431e25a1c9fffb3a3

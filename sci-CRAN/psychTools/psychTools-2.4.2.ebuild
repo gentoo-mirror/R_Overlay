@@ -1,0 +1,22 @@
+# Copyright 1999-2024 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Tools to Accompany the psych Pac... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/psychTools_2.4.2.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_gparotation r_suggests_knitr r_suggests_lavaan"
+R_SUGGESTS="
+	r_suggests_gparotation? ( sci-CRAN/GPArotation )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_lavaan? ( sci-CRAN/lavaan )
+"
+DEPEND="virtual/foreign
+	sci-CRAN/psych
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/R6 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=GDAL Classes Wrapper for Reading... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/data_table sci-CRAN/R6 sci-CRAN/Rcpp sci-CRAN/Rcpp sci-libs/gdal dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gdalBindings_0.1.17.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6acd60b00bf3fc093bee27c504827bb3

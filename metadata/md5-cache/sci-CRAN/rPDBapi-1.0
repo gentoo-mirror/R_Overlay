@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/purrr sci-CRAN/jsonlite sci-CRAN/xml2 sci-CRAN/stringr sci-CRAN/bio3d sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=A Comprehensive Interface for Ac... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/purrr sci-CRAN/jsonlite sci-CRAN/xml2 sci-CRAN/stringr sci-CRAN/bio3d sci-CRAN/magrittr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rPDBapi_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ab6ebafc19348ef14d5144c640b21722

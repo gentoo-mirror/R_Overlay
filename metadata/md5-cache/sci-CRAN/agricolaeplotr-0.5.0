@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/ggplot2 sci-CRAN/sf sci-CRAN/stplanr >=sci-CRAN/sp-2.0.0 sci-CRAN/agricolae sci-CRAN/raster sci-CRAN/FielDHub sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/tidyr virtual/spatial dev-lang/R:=
+DESCRIPTION=Visualization of Design of Exper... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_leaflet r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/ggplot2 sci-CRAN/sf sci-CRAN/stplanr >=sci-CRAN/sp-2.0.0 sci-CRAN/agricolae sci-CRAN/raster sci-CRAN/FielDHub sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/tidyr virtual/spatial r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/agricolaeplotr_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1359b6b4a747ff012efab94794530574
