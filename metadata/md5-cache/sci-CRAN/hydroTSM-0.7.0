@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/zoo-1.7.2 >=sci-CRAN/xts-0.9.7 sci-CRAN/e1071 virtual/lattice >=dev-lang/R-3.5.0 virtual/class dev-lang/R:=
+DESCRIPTION=Time Series Management and Analy... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gridextra r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/zoo-1.7.2 >=sci-CRAN/xts-0.9.7 sci-CRAN/e1071 virtual/lattice >=dev-lang/R-3.5.0 virtual/class r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hydroTSM_0.7-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b3a5011d6a9e4dabcb144ac108f2ec02
