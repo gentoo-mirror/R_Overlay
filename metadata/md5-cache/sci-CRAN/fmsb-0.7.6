@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Functions for Medical Statistics... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_epi r_suggests_vcd byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=r_suggests_epi? ( sci-CRAN/Epi ) r_suggests_vcd? ( sci-CRAN/vcd ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fmsb_0.7.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=46ee49e49194c20d8026e7e7ddc2d1dc

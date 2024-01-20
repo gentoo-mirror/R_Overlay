@@ -2,14 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Identifying Interactions Between Binary Predictors // A global
-		statistical learning method which tries to find the best set of
+		Identifying Interactions Between Binary Predictors // A
+		statistical learning method that tries to find the best set of
 		predictors and interactions between predictors for modeling
-		binary or quantitative response data. Several search algorithms
-		and ensembling techniques are implemented allowing for
-		finetuning the method to the specific problem. Interactions
-		with single quantitative covariables can be properly taken into
-		account by also splitting after those or by fitting local four
-		parameter logistic models.
+		binary or quantitative response data in a decision tree.
+		Several search algorithms and ensembling techniques are
+		implemented allowing for finetuning the method to the specific
+		problem. Interactions with quantitative covariables can be
+		properly taken into account by fitting local regression models.
+		Moreover, a variable importance measure for assessing marginal
+		and interaction effects is provided. Implements the procedures
+		proposed by Lau et al. (2024, doi:10.1007/s10994-023-06488-6).
 	</longdescription>
 </pkgmetadata>
