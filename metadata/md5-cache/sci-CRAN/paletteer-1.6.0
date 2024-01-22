@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rematch2 sci-CRAN/rlang sci-CRAN/rstudioapi sci-CRAN/prismatic dev-lang/R:=
+DESCRIPTION=Comprehensive Collection of Color Palettes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_ggthemes r_suggests_harrypotter r_suggests_knitr r_suggests_oompabase r_suggests_palr r_suggests_pals r_suggests_rmarkdown r_suggests_scico r_suggests_testthat r_suggests_vdiffr r_suggests_viridislite byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/rematch2 sci-CRAN/rlang sci-CRAN/rstudioapi sci-CRAN/prismatic r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.3.0 ) r_suggests_ggthemes? ( >=sci-CRAN/ggthemes-4.0.0 ) r_suggests_harrypotter? ( >=sci-CRAN/harrypotter-2.1.0 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_oompabase? ( sci-CRAN/oompaBase ) r_suggests_palr? ( sci-CRAN/palr ) r_suggests_pals? ( sci-CRAN/pals ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scico? ( sci-CRAN/scico ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_viridislite? ( sci-CRAN/viridisLite ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/paletteer_1.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2150d8c074173f6951e9693d5d2d223e
