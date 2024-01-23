@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/magrittr sci-CRAN/scales sci-CRAN/lifecycle sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/RColorBrewer sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/viridis dev-lang/R:=
+DESCRIPTION=Add Gate Information to Your Tibble
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_markdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/magrittr sci-CRAN/scales sci-CRAN/lifecycle sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/RColorBrewer sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/viridis r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tidygate_0.4.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d42e8706cf9738b152bd2d9a16eac2a1

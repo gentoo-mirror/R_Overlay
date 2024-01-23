@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.2 >=sci-CRAN/MALDIquant-1.16.4 sci-CRAN/base64enc sci-CRAN/digest >=sci-CRAN/readBrukerFlexData-1.7 >=sci-CRAN/readMzXmlData-2.7 sci-CRAN/XML dev-lang/R:=
+DESCRIPTION=Import/Export Routines for MALDIquant
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rnetcdf r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.2.2 >=sci-CRAN/MALDIquant-1.16.4 sci-CRAN/base64enc sci-CRAN/digest >=sci-CRAN/readBrukerFlexData-1.7 >=sci-CRAN/readMzXmlData-2.7 sci-CRAN/XML r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rnetcdf? ( >=sci-CRAN/RNetCDF-1.6.1 ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.8 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MALDIquantForeign_0.14.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=42a2484ea62da878de0f8e1205ea8ef2

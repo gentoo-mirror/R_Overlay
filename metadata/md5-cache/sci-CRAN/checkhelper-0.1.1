@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/devtools sci-CRAN/pkgbuild sci-CRAN/roxygen2 sci-CRAN/rcmdcheck sci-CRAN/purrr sci-CRAN/stringr >=sci-CRAN/whisker-0.4 sci-CRAN/withr sci-CRAN/desc sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/glue sci-CRAN/lifecycle sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Deal with Check Outputs
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_attachment r_suggests_callr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/devtools sci-CRAN/pkgbuild sci-CRAN/roxygen2 sci-CRAN/rcmdcheck sci-CRAN/purrr sci-CRAN/stringr >=sci-CRAN/whisker-0.4 sci-CRAN/withr sci-CRAN/desc sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/glue sci-CRAN/lifecycle sci-CRAN/magrittr r_suggests_attachment? ( sci-CRAN/attachment ) r_suggests_callr? ( sci-CRAN/callr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/checkhelper_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7b65d15cfae44fdf49758e3c8380b2b2

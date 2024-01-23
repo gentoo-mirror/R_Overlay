@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/sqldf sci-CRAN/gdalraster >=sci-CRAN/FIESTAutils-1.2.1 sci-CRAN/DBI sci-CRAN/data_table sci-CRAN/RSQLite sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Forest Inventory Estimation and Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geodata r_suggests_knitr r_suggests_rmarkdown r_suggests_sp r_suggests_terra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/sqldf sci-CRAN/gdalraster >=sci-CRAN/FIESTAutils-1.2.1 sci-CRAN/DBI sci-CRAN/data_table sci-CRAN/RSQLite sci-CRAN/sf r_suggests_geodata? ( sci-CRAN/geodata ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_terra? ( sci-CRAN/terra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FIESTA_3.6.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f6ee3cd9e299e5bc4066532c9d33b206
