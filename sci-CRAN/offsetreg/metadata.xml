@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An Extension of 'Tidymodels' Supporting Offset Terms // Extend
+		the 'tidymodels' ecosystem https://www.tidymodels.org/ to
+		enable the creation of predictive models with offset terms.
+		Models with offsets are most useful when working with count
+		data or when fitting an adjustment model on top of an existing
+		model with a prior expectation. The former situation is common
+		in insurance where data is often weighted by exposures. The
+		latter is common in life insurance where industry mortality
+		tables are often used as a starting point for setting
+		assumptions.
+	</longdescription>
+</pkgmetadata>

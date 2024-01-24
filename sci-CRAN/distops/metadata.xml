@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Usual Operations for Distance Matrices in R // It provides the
+		subset operator for dist objects and a function to compute
+		medoid(s) that are fully parallelized leveraging the
+		'RcppParallel' package. It also provides functions for package
+		developers to easily implement their own parallelized dist()
+		function using a custom 'C++'-based distance function.
+	</longdescription>
+</pkgmetadata>

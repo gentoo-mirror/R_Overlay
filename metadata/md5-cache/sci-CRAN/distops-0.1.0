@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cli sci-CRAN/glue sci-CRAN/fs sci-CRAN/Rcpp sci-CRAN/desc sci-CRAN/RcppParallel sci-CRAN/usethis dev-lang/R:=
+DESCRIPTION=Usual Operations for Distance Matrices in R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/cli sci-CRAN/glue sci-CRAN/fs sci-CRAN/Rcpp sci-CRAN/desc sci-CRAN/RcppParallel sci-CRAN/usethis sci-CRAN/Rcpp sci-CRAN/RcppParallel r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/distops_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=af37e4e9fd2f46ab264376b50f03e657
