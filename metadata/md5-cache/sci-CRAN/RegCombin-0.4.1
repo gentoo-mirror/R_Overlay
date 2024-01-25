@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/Hmisc sci-CRAN/RationalExp sci-CRAN/snowfall sci-CRAN/kableExtra sci-CRAN/geometry sci-CRAN/pracma dev-lang/R:=
+DESCRIPTION=Partially Linear Regression under Data Combination
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/Hmisc sci-CRAN/RationalExp sci-CRAN/snowfall sci-CRAN/kableExtra sci-CRAN/geometry sci-CRAN/pracma r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RegCombin_0.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c16c5d8ce0852fbac8e623900b19201a

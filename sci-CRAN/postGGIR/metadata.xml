@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Data Processing after Running 'GGIR' for Accelerometer Data //
+		Generate all necessary R/Rmd/shell files for data processing
+		after running 'GGIR' (v2.4.0) for accelerometer data. In part
+		1, all csv files in the GGIR output directory were read,
+		transformed and then merged. In part 2, the GGIR output files
+		were checked and summarized in one excel sheet. In part 3, the
+		merged data was cleaned according to the number of valid hours
+		on each night and the number of valid days for each subject. In
+		part 4, the cleaned activity data was imputed by the average
+		Euclidean norm minus one (ENMO) over all the valid days for
+		each subject. Finally, a comprehensive report of data
+		processing was created using Rmarkdown, and the report includes
+		few exploratory plots and multiple commonly used features
+		extracted from minute level actigraphy data.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/glue sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/tidyselect sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=Risk-Adjusted Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_broom r_suggests_forcats r_suggests_stringr r_suggests_testthat r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/glue sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/tidyselect sci-CRAN/vctrs sci-CRAN/cpp11 sci-CRAN/testthat r_suggests_broom? ( sci-CRAN/broom ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rar_0.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8d9e9e57c2241b9bd5a051e25abfabcc

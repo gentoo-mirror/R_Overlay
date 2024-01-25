@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme >=dev-lang/R-4.0.0 sci-CRAN/knitr sci-CRAN/rmarkdown sci-CRAN/DescTools sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/kableExtra sci-CRAN/Hmisc sci-CRAN/exact2x2 sci-CRAN/officer >=sci-CRAN/flextable-0.6.6 sci-CRAN/dplyr sci-CRAN/scales sci-CRAN/haven sci-CRAN/tibble sci-CRAN/forcats sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Publication Quality Descriptive Statistics Tables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_exact r_suggests_here r_suggests_shiny r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/nlme >=dev-lang/R-4.0.0 sci-CRAN/knitr sci-CRAN/rmarkdown sci-CRAN/DescTools sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/kableExtra sci-CRAN/Hmisc sci-CRAN/exact2x2 sci-CRAN/officer >=sci-CRAN/flextable-0.6.6 sci-CRAN/dplyr sci-CRAN/scales sci-CRAN/haven sci-CRAN/tibble sci-CRAN/forcats sci-CRAN/cli r_suggests_covr? ( sci-CRAN/covr ) r_suggests_exact? ( sci-CRAN/Exact ) r_suggests_here? ( sci-CRAN/here ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DescrTab2_2.1.16.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cde6bcbb577cf50d058ce3589ec0e3a7

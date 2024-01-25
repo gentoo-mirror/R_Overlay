@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fs sci-CRAN/svgPanZoom sci-CRAN/xml2 sci-CRAN/rstudioapi sci-CRAN/rematch2 >=dev-lang/R-4.0.0 sci-CRAN/htmltools sci-CRAN/details sci-CRAN/base64enc sci-CRAN/knitr sci-CRAN/magick sci-CRAN/whisker sci-CRAN/tinytex dev-lang/R:=
+DESCRIPTION=Compile and Preview Snippets of LaTeX
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_kableextra r_suggests_nlme r_suggests_pdftools r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/fs sci-CRAN/svgPanZoom sci-CRAN/xml2 sci-CRAN/rstudioapi sci-CRAN/rematch2 >=dev-lang/R-4.0.0 sci-CRAN/htmltools sci-CRAN/details sci-CRAN/base64enc sci-CRAN/knitr sci-CRAN/magick sci-CRAN/whisker sci-CRAN/tinytex r_suggests_covr? ( sci-CRAN/covr ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_nlme? ( virtual/nlme ) r_suggests_pdftools? ( sci-CRAN/pdftools ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/texPreview_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=37e0c3354e1b95f2d07c310d22c04077

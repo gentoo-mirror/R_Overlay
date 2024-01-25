@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sf sci-CRAN/googledrive sci-CRAN/gstat sci-CRAN/rnaturalearth sci-CRAN/table1 sci-CRAN/swfscMisc sci-CRAN/kableExtra >=dev-lang/R-3.5 sci-CRAN/ggplot2 sci-CRAN/purrr sci-CRAN/tmap sci-CRAN/raster sci-CRAN/maps sci-CRAN/geosphere sci-CRAN/sp sci-CRAN/gtsummary dev-lang/R:=
+DESCRIPTION=Agent-Based Models in R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_jpeg r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/sf sci-CRAN/googledrive sci-CRAN/gstat sci-CRAN/rnaturalearth sci-CRAN/table1 sci-CRAN/swfscMisc sci-CRAN/kableExtra >=dev-lang/R-3.5 sci-CRAN/ggplot2 sci-CRAN/purrr sci-CRAN/tmap sci-CRAN/raster sci-CRAN/maps sci-CRAN/geosphere sci-CRAN/sp sci-CRAN/gtsummary r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/abmR_1.0.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=86eb7a21c8f6fa14ab953b704f1b4946

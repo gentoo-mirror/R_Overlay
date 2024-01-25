@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DDoutlier sci-CRAN/energy sci-CRAN/gridExtra sci-CRAN/data_table sci-CRAN/readr sci-CRAN/corrplot sci-CRAN/shiny sci-CRAN/rmarkdown sci-CRAN/shinydisconnect sci-CRAN/knitr sci-CRAN/kableExtra sci-CRAN/car sci-CRAN/ggplot2 sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Shiny Apps for Automated Data An... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_desctools r_suggests_factoextra r_suggests_factoinvestigate r_suggests_factominer r_suggests_fastdummies r_suggests_hmisc r_suggests_imputemissings r_suggests_lmtest r_suggests_mass r_suggests_nortest r_suggests_onewaytests r_suggests_performanceanalytics r_suggests_psych r_suggests_reticulate r_suggests_rrcov r_suggests_semplot r_suggests_semtools byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/DDoutlier sci-CRAN/energy sci-CRAN/gridExtra sci-CRAN/data_table sci-CRAN/readr sci-CRAN/corrplot sci-CRAN/shiny sci-CRAN/rmarkdown sci-CRAN/shinydisconnect sci-CRAN/knitr sci-CRAN/kableExtra sci-CRAN/car sci-CRAN/ggplot2 sci-CRAN/reshape2 app-text/pandoc app-text/texlive r_suggests_boot? ( virtual/boot ) r_suggests_desctools? ( sci-CRAN/DescTools ) r_suggests_factoextra? ( sci-CRAN/factoextra ) r_suggests_factoinvestigate? ( sci-CRAN/FactoInvestigate ) r_suggests_factominer? ( sci-CRAN/FactoMineR ) r_suggests_fastdummies? ( sci-CRAN/fastDummies ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_imputemissings? ( sci-CRAN/imputeMissings ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_mass? ( virtual/MASS ) r_suggests_nortest? ( sci-CRAN/nortest ) r_suggests_onewaytests? ( sci-CRAN/onewaytests ) r_suggests_performanceanalytics? ( sci-CRAN/PerformanceAnalytics ) r_suggests_psych? ( sci-CRAN/psych ) r_suggests_reticulate? ( sci-CRAN/reticulate ) r_suggests_rrcov? ( sci-CRAN/rrcov ) r_suggests_semplot? ( sci-CRAN/semPlot ) r_suggests_semtools? ( sci-CRAN/semTools ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Statsomat_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0fbfd63cad7e36a2fefaed7e28a76641

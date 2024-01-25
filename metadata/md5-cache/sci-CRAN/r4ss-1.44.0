@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/coda sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/corpcor sci-CRAN/kableExtra sci-CRAN/forcats sci-CRAN/ggplot2 sci-CRAN/lifecycle dev-lang/R:=
+DESCRIPTION=R Code for Stock Synthesis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_flextable r_suggests_ggpubr r_suggests_gplots r_suggests_gtools r_suggests_knitr r_suggests_maps r_suggests_pso r_suggests_reshape2 r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat r_suggests_truncnorm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/coda sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/corpcor sci-CRAN/kableExtra sci-CRAN/forcats sci-CRAN/ggplot2 sci-CRAN/lifecycle r_suggests_flextable? ( sci-CRAN/flextable ) r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_gplots? ( sci-CRAN/gplots ) r_suggests_gtools? ( sci-CRAN/gtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_pso? ( sci-CRAN/pso ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_truncnorm? ( sci-CRAN/truncnorm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/r4ss_1.44.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=176431c7545644893f5aa07433aa0ba7
