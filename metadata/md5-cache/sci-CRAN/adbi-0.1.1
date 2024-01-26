@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/nanoarrow-0.3.0 >=sci-CRAN/adbcdrivermanager-0.8.0 >=sci-CRAN/DBI-1.2.0 dev-lang/R:=
+DESCRIPTION=DBI Compliant Database Access Using ADBC
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arrow r_suggests_bit64 r_suggests_covr r_suggests_dbitest r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1+
+RDEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/nanoarrow-0.3.0 >=sci-CRAN/adbcdrivermanager-0.8.0 >=sci-CRAN/DBI-1.2.0 r_suggests_arrow? ( sci-CRAN/arrow ) r_suggests_bit64? ( sci-CRAN/bit64 ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dbitest? ( >=sci-CRAN/DBItest-1.8.0 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/adbi_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=32bcbaa0dc2f72a66de5b27d26a14cf0

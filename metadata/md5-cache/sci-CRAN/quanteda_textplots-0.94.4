@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/network sci-CRAN/RColorBrewer sci-CRAN/stringi >=sci-CRAN/Rcpp-0.12.12 sci-CRAN/quanteda sci-CRAN/extrafont sci-CRAN/ggrepel sci-CRAN/ggplot2 sci-CRAN/sna sci-CRAN/igraph virtual/Matrix dev-lang/R:=
+DESCRIPTION=Plots for the Quantitative Analy... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_quanteda_textmodels r_suggests_quanteda_textstats r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_wordcloud byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/network sci-CRAN/RColorBrewer sci-CRAN/stringi >=sci-CRAN/Rcpp-0.12.12 sci-CRAN/quanteda sci-CRAN/extrafont sci-CRAN/ggrepel sci-CRAN/ggplot2 sci-CRAN/sna sci-CRAN/igraph virtual/Matrix sci-CRAN/Rcpp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_quanteda_textmodels? ( sci-CRAN/quanteda_textmodels ) r_suggests_quanteda_textstats? ( sci-CRAN/quanteda_textstats ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_wordcloud? ( sci-CRAN/wordcloud ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/quanteda.textplots_0.94.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5634202c99215019739a042553c7accf
