@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3 virtual/cluster sci-CRAN/pls dev-lang/R:=
+DESCRIPTION=Distance-Based Statistics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_proxy byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.3 virtual/cluster sci-CRAN/pls r_suggests_proxy? ( sci-CRAN/proxy ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dbstats_2.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec8ec42c3248daed6a0efb9bba6ed3db

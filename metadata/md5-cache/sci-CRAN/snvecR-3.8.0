@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/withr sci-CRAN/lubridate sci-CRAN/deSolve >=sci-CRAN/rlang-0.4.11 sci-CRAN/tidyr sci-CRAN/glue >=sci-CRAN/cli-3.4.0 sci-CRAN/dplyr sci-CRAN/pracma sci-CRAN/tibble sci-CRAN/purrr sci-CRAN/readr sci-CRAN/tidyselect sci-CRAN/curl sci-CRAN/astrochron dev-lang/R:=
+DESCRIPTION=Calculate Earths Obliquity and P... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/withr sci-CRAN/lubridate sci-CRAN/deSolve >=sci-CRAN/rlang-0.4.11 sci-CRAN/tidyr sci-CRAN/glue >=sci-CRAN/cli-3.4.0 sci-CRAN/dplyr sci-CRAN/pracma sci-CRAN/tibble sci-CRAN/purrr sci-CRAN/readr sci-CRAN/tidyselect sci-CRAN/curl sci-CRAN/astrochron r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/snvecR_3.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9ac26d733ede31ac9084b9c7381f8b0e

@@ -6,10 +6,12 @@
 		'jsoncons' https://danielaparker.github.io/jsoncons/ 'C++'
 		header-only library constructs representations from a 'JSON'
 		character vector, and provides extensions for flexible queries
-		and other operations on 'JSON' objects. This package has simple
-		'R' wrappers to support 'JSONpath' and 'JMESpath' queries into
-		'JSON' strings or 'R' objects. The 'jsoncons' library is also
-		be easily linked to other packages for direct access to 'C++'
-		functionality.
+		and other operations on 'JSON' objects. This package provides
+		'R' functions to query (filter or transform) and pivot (convert
+		from array-of-objects to object-of-arrays, for easy import into
+		'R') 'JSON' or 'NDJSON' strings or files using 'JSONpointer',
+		'JSONpath' or 'JMESpath' expression. The 'jsoncons' library is
+		also be easily linked to other packages for direct access to
+		'C++' functionality.
 	</longdescription>
 </pkgmetadata>
