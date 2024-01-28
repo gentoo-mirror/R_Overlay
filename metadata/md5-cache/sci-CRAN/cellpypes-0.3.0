@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/scUtils sci-CRAN/scales sci-CRAN/viridis sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/scattermore dev-lang/R:=
+DESCRIPTION=Cell Type Pipes for Single-Cell ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rcppannoy r_suggests_rmarkdown r_suggests_seurat r_suggests_seuratobject r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/Matrix sci-CRAN/scUtils sci-CRAN/scales sci-CRAN/viridis sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/scattermore r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcppannoy? ( sci-CRAN/RcppAnnoy ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_seurat? ( sci-CRAN/Seurat ) r_suggests_seuratobject? ( sci-CRAN/SeuratObject ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cellpypes_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=329aeac2f25c5cffcfaeea9b112da6cb

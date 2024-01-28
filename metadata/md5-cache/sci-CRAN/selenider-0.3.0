@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cli sci-CRAN/lifecycle sci-CRAN/vctrs >=sci-CRAN/rlang-1.1.0 sci-CRAN/curl sci-CRAN/coro sci-CRAN/prettyunits sci-CRAN/processx sci-CRAN/withr dev-lang/R:=
+DESCRIPTION=Concise, Lazy and Reliable Wrapp... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_chromote r_suggests_jsonlite r_suggests_knitr r_suggests_purrr r_suggests_rmarkdown r_suggests_rselenium r_suggests_rvest r_suggests_selenium r_suggests_shiny r_suggests_shinytest2 r_suggests_showimage r_suggests_testthat r_suggests_wdman r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/cli sci-CRAN/lifecycle sci-CRAN/vctrs >=sci-CRAN/rlang-1.1.0 sci-CRAN/curl sci-CRAN/coro sci-CRAN/prettyunits sci-CRAN/processx sci-CRAN/withr r_suggests_chromote? ( sci-CRAN/chromote ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rselenium? ( sci-CRAN/RSelenium ) r_suggests_rvest? ( sci-CRAN/rvest ) r_suggests_selenium? ( >=sci-CRAN/selenium-0.1.3 ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_shinytest2? ( sci-CRAN/shinytest2 ) r_suggests_showimage? ( sci-CRAN/showimage ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_wdman? ( sci-CRAN/wdman ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/selenider_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0e152a9f1d0f83037354baf6478f23cd
