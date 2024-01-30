@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cli sci-CRAN/rappdirs sci-CRAN/pbapply sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/urltools >=sci-CRAN/httr2-1.0.0 sci-CRAN/rlang sci-CRAN/snakecase sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Load Data from Linkedin Advertising API
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/cli sci-CRAN/rappdirs sci-CRAN/pbapply sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/urltools >=sci-CRAN/httr2-1.0.0 sci-CRAN/rlang sci-CRAN/snakecase sci-CRAN/stringr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rlinkedinads_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=16a85fc89b8c41663094b6ae0a4466e7

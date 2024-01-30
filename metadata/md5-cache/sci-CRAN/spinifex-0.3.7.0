@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/plotly sci-CRAN/tourr sci-CRAN/gganimate sci-CRAN/shiny sci-CRAN/Rdimtools sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Manual Tours, Manual Control of ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_ggally r_suggests_hexbin r_suggests_htmlwidgets r_suggests_knitr r_suggests_lifecycle r_suggests_mass r_suggests_png r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/plotly sci-CRAN/tourr sci-CRAN/gganimate sci-CRAN/shiny sci-CRAN/Rdimtools sci-CRAN/magrittr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_hexbin? ( sci-CRAN/hexbin ) r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lifecycle? ( sci-CRAN/lifecycle ) r_suggests_mass? ( virtual/MASS ) r_suggests_png? ( sci-CRAN/png ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spinifex_0.3.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7fb8d3d4ae8ec51b3a91c74b5eeb0b61
