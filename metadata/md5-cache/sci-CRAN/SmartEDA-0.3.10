@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sampling sci-CRAN/qpdf sci-CRAN/GGally sci-CRAN/ggplot2 sci-CRAN/gridExtra >=dev-lang/R-3.3.0 sci-CRAN/rmarkdown sci-CRAN/scales >=sci-CRAN/ISLR-1.0 sci-CRAN/data_table dev-lang/R:=
+DESCRIPTION=Summarize and Explore the Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_psych r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/sampling sci-CRAN/qpdf sci-CRAN/GGally sci-CRAN/ggplot2 sci-CRAN/gridExtra >=dev-lang/R-3.3.0 sci-CRAN/rmarkdown sci-CRAN/scales >=sci-CRAN/ISLR-1.0 sci-CRAN/data_table r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_psych? ( sci-CRAN/psych ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SmartEDA_0.3.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3aec7f3034885953b66b0ff0bee8d4a2

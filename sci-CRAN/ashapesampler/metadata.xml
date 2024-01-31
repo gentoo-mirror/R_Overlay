@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generating Alpha Shapes // Understanding morphological variation
+		is an important task in many applications. Recent studies in
+		computational biology have focused on developing computational
+		tools for the task of sub-image selection which aims at
+		identifying structural features that best describe the
+		variation between classes of shapes. A major part in assessing
+		the utility of these approaches is to demonstrate their
+		performance on both simulated and real datasets. However, when
+		creating a model for shape statistics, real data can be
+		difficult to access and the sample sizes for these data are
+		often small due to them being expensive to collect. Meanwhile,
+		the landscape of current shape simulation methods has been
+		mostly limited to approaches that use black-box inference---
+		making it difficult to systematically assess the power and
+		calibration of sub-image models. In this R package, we
+		introduce the alpha-shape sampler: a probabilistic framework
+		for simulating realistic 2D and 3D shapes based on probability
+		distributions which can be learned from real data or explicitly
+		stated by the user. The 'ashapesampler' package supports two
+		mechanisms for sampling shapes in two and three dimensions. The
+		first, empirically sampling based on an existing data set, was
+		highlighted in the original main text of the paper. The second,
+		probabilistic sampling from a known distribution, is the
+		computational implementation of the theory derived in that
+		paper. Work based on Winn-Nunez et al. (2024)
+		doi:10.1101/2024.01.09.574919.
+	</longdescription>
+</pkgmetadata>

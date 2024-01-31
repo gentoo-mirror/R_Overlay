@@ -2,14 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Data-Driven Sparse Partial Least Squares // Allows to build Data-
-		Driven Sparse Partial Least Squares models with high-
-		dimensional settings. Number of components and regularization
-		coefficients are automatically set. It comes with visualization
-		functions and uses 'Rcpp' functions for fast computations and
-		'doParallel' to parallelize bootstrap operations. An applet has
-		been developed to apply this procedure. This is based on H
-		Lorenzo, O Cloarec, R Thiebaut, J Saracco (2021)
-		doi:10.1002/sam.11558.
+		Data-Driven Sparse Partial Least Squares // A sparse Partial
+		Least Squares implementation which uses soft-threshold
+		estimation of the covariance matrices and therein introduces
+		sparsity. Number of components and regularization coefficients
+		are automatically set.
 	</longdescription>
 </pkgmetadata>
