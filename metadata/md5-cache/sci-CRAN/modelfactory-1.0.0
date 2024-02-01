@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr virtual/MASS sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Combine Statistical Models into ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lme4 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr virtual/MASS sci-CRAN/tibble r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/modelfactory_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=77459a5e3833188bc1c1dc31fa73fe4d

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/robustbase sci-CRAN/bayesm virtual/MASS sci-CRAN/tensorA dev-lang/R:=
+DESCRIPTION=Compositional Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_combinat r_suggests_energy r_suggests_knitr r_suggests_rgl r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/robustbase sci-CRAN/bayesm virtual/MASS sci-CRAN/tensorA r_suggests_combinat? ( sci-CRAN/combinat ) r_suggests_energy? ( sci-CRAN/energy ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rgl? ( >=sci-CRAN/rgl-1.0.1 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/compositions_2.0-8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6945a50df16b3cfe9ff0349f527ec1e9

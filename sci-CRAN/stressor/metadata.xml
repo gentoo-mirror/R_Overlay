@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Algorithms for Testing Models under Stress // Traditional model
+		evaluation metrics fail to capture model performance under less
+		than ideal conditions. This package employs techniques to
+		evaluate models "under-stress". This includes testing models'
+		extrapolation ability, or testing accuracy on specific sub-
+		samples of the overall model space. Details describing stress-
+		testing methods in this package are provided in Haycock (2023)
+		doi:10.26076/2am5-9f67. The other primary contribution of this
+		package is provided to R users access to the 'Python' library
+		'PyCaret' https://pycaret.org/ for quick and easy access to
+		auto-tuned machine learning models.
+	</longdescription>
+</pkgmetadata>

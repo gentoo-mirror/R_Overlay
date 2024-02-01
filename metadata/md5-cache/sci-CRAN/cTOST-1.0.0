@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/PowerTOST sci-CRAN/knitr sci-CRAN/rmarkdown sci-CRAN/cli >=dev-lang/R-4.0 sci-CRAN/OwenQ dev-lang/R:=
+DESCRIPTION=Finite Sample Correction of the ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_asciicast byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/PowerTOST sci-CRAN/knitr sci-CRAN/rmarkdown sci-CRAN/cli >=dev-lang/R-4.0 sci-CRAN/OwenQ r_suggests_asciicast? ( sci-CRAN/asciicast ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cTOST_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=02cf8dbba9ac45946fe97a056808b348

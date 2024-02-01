@@ -10,13 +10,11 @@
 		then, a combination of Ward agglomerative hierarchical
 		classification and K-means is performed, using some of the
 		first coordinates obtained from the previous principal axes
-		method. See, for example: Lebart, L. and Piron, M. and
-		Morineau, A.  (2006). Statistique Exploratoire
-		Multidimensionnelle, Dunod, Paris. In order to permit to have
-		different weights of the elements to be clustered, the function
-		'kmeansW', programmed in C++, is included. It is a modification
-		of 'kmeans'. Some graphical functions include the option:
-		'gg=FALSE'.  When 'gg=TRUE', they  use the 'ggplot2' and
-		'ggrepel' packages to avoid  the super-position of the labels.
+		method. In order to permit different weights of the elements to
+		be clustered, the function 'kmeansW', programmed in C++, is
+		included. It is a modification of 'kmeans'. Some graphical
+		functions include the option: 'gg=FALSE'.  When 'gg=TRUE', they
+		use the 'ggplot2' and 'ggrepel' packages to avoid  the super-
+		position of the labels.
 	</longdescription>
 </pkgmetadata>

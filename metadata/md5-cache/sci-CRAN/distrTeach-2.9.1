@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/distr-2.2 >=sci-CRAN/distrEx-2.2 >=dev-lang/R-3.4 sci-CRAN/startupmsg dev-lang/R:=
+DESCRIPTION=Extensions of Package distr for ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_tk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=sci-CRAN/distr-2.2 >=sci-CRAN/distrEx-2.2 >=dev-lang/R-3.4 sci-CRAN/startupmsg r_suggests_tk? ( dev-lang/R[tk] ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/distrTeach_2.9.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f828919302fc37eaceecd8705ee59731

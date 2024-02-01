@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 sci-CRAN/mvtnorm >=sci-CRAN/distrSim-2.2 >=sci-CRAN/distrEx-2.8.0 >=sci-CRAN/setRNG-2006.2.1 >=sci-CRAN/distr-2.8.0 sci-CRAN/startupmsg dev-lang/R:=
+DESCRIPTION=S4 Classes for Elliptically Cont... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_distrmod r_suggests_distrtest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-3.4 sci-CRAN/mvtnorm >=sci-CRAN/distrSim-2.2 >=sci-CRAN/distrEx-2.8.0 >=sci-CRAN/setRNG-2006.2.1 >=sci-CRAN/distr-2.8.0 sci-CRAN/startupmsg r_suggests_distrmod? ( >=sci-CRAN/distrMod-2.8.0 ) r_suggests_distrtest? ( >=sci-CRAN/distrTEst-2.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/distrEllipse_2.8.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4fcfac00aa028a51b97c08e25b44a8b0
