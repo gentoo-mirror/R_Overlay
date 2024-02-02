@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/httr sci-CRAN/projmgr sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/readxl sci-CRAN/timeDate sci-CRAN/RCurl sci-CRAN/readr sci-CRAN/survey sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Downloading, Reading and Analyzing PNADC Microdata
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_convey r_suggests_sipdibge r_suggests_srvyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/httr sci-CRAN/projmgr sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/readxl sci-CRAN/timeDate sci-CRAN/RCurl sci-CRAN/readr sci-CRAN/survey sci-CRAN/tibble r_suggests_convey? ( sci-CRAN/convey ) r_suggests_sipdibge? ( sci-CRAN/SIPDIBGE ) r_suggests_srvyr? ( sci-CRAN/srvyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PNADcIBGE_0.7.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=eef8434f895520729e5dffcf91100816

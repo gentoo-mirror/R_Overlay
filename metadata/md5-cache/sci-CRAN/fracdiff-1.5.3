@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Fractionally Differenced ARIMA a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_forecast r_suggests_longmemo r_suggests_urca byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_longmemo? ( sci-CRAN/longmemo ) r_suggests_urca? ( sci-CRAN/urca ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fracdiff_1.5-3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=956c514cdddea3c1e2aa8b543560f4db

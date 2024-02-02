@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 >=sci-CRAN/distrTEst-2.2.0 >=sci-CRAN/distrSim-2.2.0 >=sci-CRAN/distrEx-2.2.0 >=sci-CRAN/distr-2.2.0 >=sci-CRAN/distrTeach-2.2.0 >=sci-CRAN/RandVar-0.7 >=sci-CRAN/distrMod-2.2.0 virtual/MASS sci-CRAN/startupmsg dev-lang/R:=
+DESCRIPTION=Documentation for distr Family of R Packages
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biobase r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-3.4 >=sci-CRAN/distrTEst-2.2.0 >=sci-CRAN/distrSim-2.2.0 >=sci-CRAN/distrEx-2.2.0 >=sci-CRAN/distr-2.2.0 >=sci-CRAN/distrTeach-2.2.0 >=sci-CRAN/RandVar-0.7 >=sci-CRAN/distrMod-2.2.0 virtual/MASS sci-CRAN/startupmsg r_suggests_biobase? ( sci-BIOC/Biobase ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/distrDoc_2.8.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c3694177097a78f833a8df6ea3ed46c8
