@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Identify External Packages Used in a Project // Screens all '.R',
+		'.Rmd', and '.qmd' files to extract the name of packages used
+		in a project. This package detects packages called with
+		'library(foo)', 'require(foo)', and 'foo::bar()' and adds these
+		dependencies in the DESCRIPTION file in the sections Depends,
+		Imports, and Suggests.
+	</longdescription>
+</pkgmetadata>

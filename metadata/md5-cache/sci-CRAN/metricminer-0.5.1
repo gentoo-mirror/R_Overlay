@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/httr sci-CRAN/tidyr >=dev-lang/R-3.5.0 sci-CRAN/openssl sci-CRAN/googlesheets4 sci-CRAN/googledrive sci-CRAN/assertthat sci-CRAN/jsonlite sci-CRAN/gh sci-CRAN/getPass sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/purrr sci-CRAN/janitor sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Mine Metrics from Common Places on the Web
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/httr sci-CRAN/tidyr >=dev-lang/R-3.5.0 sci-CRAN/openssl sci-CRAN/googlesheets4 sci-CRAN/googledrive sci-CRAN/assertthat sci-CRAN/jsonlite sci-CRAN/gh sci-CRAN/getPass sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/purrr sci-CRAN/janitor sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/metricminer_0.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=446b666eb29fc6bfec76f714ce89d9d2

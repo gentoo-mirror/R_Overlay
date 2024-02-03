@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/Matrix >=sci-CRAN/BayesX-0.2.4 >=sci-CRAN/mboost-2.1.0 >=sci-CRAN/Rcpp-0.11.2 sci-CRAN/quadprog >=sci-CRAN/colorspace-0.97 sci-CRAN/fields dev-lang/R:=
+DESCRIPTION=Expectile and Quantile Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_semipar byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 virtual/Matrix >=sci-CRAN/BayesX-0.2.4 >=sci-CRAN/mboost-2.1.0 >=sci-CRAN/Rcpp-0.11.2 sci-CRAN/quadprog >=sci-CRAN/colorspace-0.97 sci-CRAN/fields sci-CRAN/Rcpp sci-CRAN/RcppEigen r_suggests_semipar? ( sci-CRAN/SemiPar ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/expectreg_0.53.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=01cc116b5603c4cdb3e4ae05771b10b1

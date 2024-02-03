@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/pcutils >=dev-lang/R-4.1.0 sci-CRAN/reshape2 sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Just Plot for Fun
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggforce r_suggests_magick r_suggests_plot3d r_suggests_showtext r_suggests_sysfonts r_suggests_wordcloud2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/magrittr sci-CRAN/pcutils >=dev-lang/R-4.1.0 sci-CRAN/reshape2 sci-CRAN/ggplot2 r_suggests_ggforce? ( sci-CRAN/ggforce ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_plot3d? ( sci-CRAN/plot3D ) r_suggests_showtext? ( sci-CRAN/showtext ) r_suggests_sysfonts? ( sci-CRAN/sysfonts ) r_suggests_wordcloud2? ( sci-CRAN/wordcloud2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/plot4fun_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b3681c50d081743aa5e118990cff55c2

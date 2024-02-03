@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice sci-CRAN/msm sci-CRAN/coda sci-CRAN/movMF >=dev-lang/R-4.0.0 virtual/lattice sci-CRAN/distfree_cr sci-CRAN/spam sci-CRAN/bayesplot sci-CRAN/Hmisc dev-lang/R:=
+DESCRIPTION=Bayesian Ammi Model for Continuous Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggpubr r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/lattice sci-CRAN/msm sci-CRAN/coda sci-CRAN/movMF >=dev-lang/R-4.0.0 virtual/lattice sci-CRAN/distfree_cr sci-CRAN/spam sci-CRAN/bayesplot sci-CRAN/Hmisc r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ammiBayes_1.0-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bff8aecfad19146a26b9b8624b570560
