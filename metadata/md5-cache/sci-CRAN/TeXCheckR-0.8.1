@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/clisymbols sci-CRAN/zoo >=sci-CRAN/hunspell-2.5 sci-CRAN/fastmatch >=dev-lang/R-3.3.0 >=sci-CRAN/data_table-1.9.0 sci-CRAN/crayon >=sci-CRAN/hutils-0.8.0 sci-CRAN/magrittr sci-CRAN/rstudioapi dev-lang/R:=
+DESCRIPTION=Parses LaTeX Documents for Errors
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_readr r_suggests_rlang r_suggests_stringi r_suggests_testthat r_suggests_tinytex byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/clisymbols sci-CRAN/zoo >=sci-CRAN/hunspell-2.5 sci-CRAN/fastmatch >=dev-lang/R-3.3.0 >=sci-CRAN/data_table-1.9.0 sci-CRAN/crayon >=sci-CRAN/hutils-0.8.0 sci-CRAN/magrittr sci-CRAN/rstudioapi r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_stringi? ( sci-CRAN/stringi ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 ) r_suggests_tinytex? ( sci-CRAN/tinytex ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TeXCheckR_0.8.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=84a277415cbc5a2c282596614dcad26c

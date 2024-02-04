@@ -3,14 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Patient Subgroup Identification for Clinical Drug Development //
-		Function Wrapper contains four algorithms for developing
-		threshold-based multivariate (prognostic/predictive) biomarker
-		signatures via bootstrapping and aggregating of thresholds from
-		trees, Monte-Carlo variations of the Adaptive Indexing method
-		and Patient Rule Induction Method. Variable selection is
-		automatically built-in to these algorithms. Final signatures
-		are returned with interaction plots for predictive signatures.
-		Cross-validation performance evaluation and testing dataset
-		results are also output.
+		Implementation of Sequential BATTing (bootstrapping and
+		aggregating of thresholds from trees) for developing threshold-
+		based multivariate (prognostic/predictive) biomarker
+		signatures. Variable selection is automatically built-in. Final
+		signatures are returned with interaction plots for predictive
+		signatures. Cross-validation performance evaluation and testing
+		dataset results are also output. Detail algorithms are
+		described in Huang et al (2017) doi:10.1002/sim.7236.
 	</longdescription>
 </pkgmetadata>

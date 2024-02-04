@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/curl sci-CRAN/calendR sci-CRAN/httr sci-CRAN/rvest sci-CRAN/leaflet sci-CRAN/Rdpack sci-CRAN/terra sci-CRAN/stars sci-CRAN/leafem sci-CRAN/rjson sci-CRAN/fields sci-CRAN/raster sci-CRAN/XML sci-CRAN/tmap sci-CRAN/xml2 >=dev-lang/R-4.3.0 sci-CRAN/zip sci-CRAN/sf sci-CRAN/sp dev-lang/R:=
+DESCRIPTION=Dealing with Multiplatform Satellite Images
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/curl sci-CRAN/calendR sci-CRAN/httr sci-CRAN/rvest sci-CRAN/leaflet sci-CRAN/Rdpack sci-CRAN/terra sci-CRAN/stars sci-CRAN/leafem sci-CRAN/rjson sci-CRAN/fields sci-CRAN/raster sci-CRAN/XML sci-CRAN/tmap sci-CRAN/xml2 >=dev-lang/R-4.3.0 sci-CRAN/zip sci-CRAN/sf sci-CRAN/sp r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rsat_0.1.21.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f17aec2052645dccebc8e07653d946a3
