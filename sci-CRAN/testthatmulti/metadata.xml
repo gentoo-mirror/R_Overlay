@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Testing for R Packages with Multiple Attempts for Noisy Tests //
+		Runs tests using the 'testthat' package but allows for multiple
+		attempts for a single test. This is useful for noisy or flaky
+		tests that generally pass but can fail due to occasional random
+		errors, such as numeric instability or using random data.
+	</longdescription>
+</pkgmetadata>

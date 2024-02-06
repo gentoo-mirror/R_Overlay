@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Empirical Likelihood for General Block Designs
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_melt r_suggests_spelling byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppEigen sci-CRAN/RcppProgress r_suggests_melt? ( sci-CRAN/melt ) r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/elgbd_0.9.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b378b97e3824471319171db1f211f72f

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Creates an 'igraph' Object that Duplicates Nodes with Self-Loops
+		// Creates a new graph from an existing one, duplicating nodes
+		with self-loops. This can be used for a computation of
+		betweenness centrality that does not drop this essential
+		information. Implements Merelo  Molinari (2021)
+		doi:10.1007/s42001-023-00245-4.
+	</longdescription>
+</pkgmetadata>

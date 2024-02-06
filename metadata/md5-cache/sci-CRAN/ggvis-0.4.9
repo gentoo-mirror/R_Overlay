@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/htmltools-0.2.4 >=sci-CRAN/jsonlite-0.9.11 >=sci-CRAN/dplyr-0.5.0 sci-CRAN/magrittr >=dev-lang/R-3.0 sci-CRAN/assertthat sci-CRAN/rlang >=sci-CRAN/shiny-0.11.1 dev-lang/R:=
+DESCRIPTION=Interactive Grammar of Graphics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_lubridate r_suggests_mass r_suggests_mgcv r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/htmltools-0.2.4 >=sci-CRAN/jsonlite-0.9.11 >=sci-CRAN/dplyr-0.5.0 sci-CRAN/magrittr >=dev-lang/R-3.0 sci-CRAN/assertthat sci-CRAN/rlang >=sci-CRAN/shiny-0.11.1 r_suggests_knitr? ( >=sci-CRAN/knitr-1.6 ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_mass? ( virtual/MASS ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.8.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggvis_0.4.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c269adb405e7892f82453ee2c16d2890
