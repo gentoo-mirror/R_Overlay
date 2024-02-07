@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/rvest sci-CRAN/magrittr sci-CRAN/rlang sci-CRAN/scales sci-CRAN/sf sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/httr sci-CRAN/leaflet dev-lang/R:=
+DESCRIPTION=Soil Defense Investments in Ital... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/rvest sci-CRAN/magrittr sci-CRAN/rlang sci-CRAN/scales sci-CRAN/sf sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/httr sci-CRAN/leaflet dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PublicWorksFinanceIT_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0223ac8124f4caba7b3fbbc3509213d7

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Exploit Data Leakages in Time Series Forecasting Competitions //
+		Forecasting competitions are of increasing importance as a mean
+		to learn best practices and gain knowledge. Data leakage is one
+		of the most common issues that can often be found in
+		competitions. Data leaks can happen when the training data
+		contains information about the test data. For example: randomly
+		chosen blocks of time series are concatenated to form a new
+		time series, scale-shifts, repeating patterns in time series,
+		white noise is added in the original time series to form a new
+		time series, etc.  'tsdataleaks' package can be used to detect
+		data leakages in a collection of  time series.
+	</longdescription>
+</pkgmetadata>
