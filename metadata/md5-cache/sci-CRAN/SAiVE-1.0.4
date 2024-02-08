@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/caret sci-CRAN/doParallel >=dev-lang/R-4.2 sci-CRAN/proxy sci-CRAN/crayon sci-CRAN/rlang sci-CRAN/terra sci-CRAN/VSURF dev-lang/R:=
+DESCRIPTION=Functions Used for SAiVE Group R... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ranger r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/caret sci-CRAN/doParallel >=dev-lang/R-4.2 sci-CRAN/proxy sci-CRAN/crayon sci-CRAN/rlang sci-CRAN/terra sci-CRAN/VSURF r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SAiVE_1.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=08d08d61392d181cc2b58111b8531191
