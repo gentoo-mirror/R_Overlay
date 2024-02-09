@@ -10,13 +10,13 @@
 		specifically designed to partition the data to maximize the
 		canonical correlation heterogeneity between child nodes. The
 		method is described in Alakus et al. (2021)
-		doi:10.1093/bioinformatics/btab158. RFCCA uses
+		doi:10.1093/bioinformatics/btab158. 'RFCCA' uses
 		'randomForestSRC' package (Ishwaran and Kogalur, 2020) by
 		freezing at the version 2.9.3. The custom splitting rule
-		feature is utilised to apply the proposed splitting rule.
-		LAPACK and BLAS libraries are used for matrix decompositions.
-		The RFCCA package includes the header files lapacke.h and
-		cblas.h from the LAPACK and BLAS libraries. The LAPACK library
-		is licensed under modified BSD license.
+		feature is utilised to apply the proposed splitting rule. The
+		'randomForestSRC' package implements 'OpenMP' by default,
+		contingent upon the support provided by the target architecture
+		and operating system. In this package, 'LAPACK' and 'BLAS'
+		libraries are used for matrix decompositions.
 	</longdescription>
 </pkgmetadata>
