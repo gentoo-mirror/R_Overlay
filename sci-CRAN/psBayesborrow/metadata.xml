@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Information Borrowing with Propensity Score Matching //
+		Hybrid control design is a way to borrow information from
+		external controls to augment concurrent controls in a
+		randomized controlled trial and is expected to overcome the
+		feasibility issue when adequate randomized controlled trials
+		cannot be conducted. A major challenge in the hybrid control
+		design is its inability to eliminate a prior-data conflict
+		caused by systematic imbalances in measured or unmeasured
+		confounding factors between patients in the concurrent
+		treatment/control group and external controls. To prevent the
+		prior-data conflict, a combined use of propensity score
+		matching and Bayesian commensurate prior has been proposed in
+		the context of hybrid control design. The propensity score
+		matching is first performed to guarantee the balance in
+		baseline characteristics, and then the Bayesian commensurate
+		prior is constructed while discounting the information based on
+		the similarity in outcomes between the concurrent and external
+		controls. 'psBayesborrow' is a package to implement the
+		propensity score matching and the Bayesian analysis with
+		commensurate prior, as well as to conduct a simulation study to
+		assess operating characteristics of the hybrid control design,
+		where users can choose design parameters in flexible and
+		straightforward ways depending on their own application.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/httpuv-1.5.2 >=sci-CRAN/mime-0.2 sci-CRAN/jsonlite >=sci-CRAN/xfun-0.42 dev-lang/R:=
+DESCRIPTION=A Simple HTTP Server to Serve St... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_later r_suggests_rmarkdown r_suggests_rstudioapi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/httpuv-1.5.2 >=sci-CRAN/mime-0.2 sci-CRAN/jsonlite >=sci-CRAN/xfun-0.42 r_suggests_knitr? ( >=sci-CRAN/knitr-1.9 ) r_suggests_later? ( sci-CRAN/later ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/servr_0.29.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f5af25ad7d4d5abe33b474545e9dffab
