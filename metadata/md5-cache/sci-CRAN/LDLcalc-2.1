@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table sci-CRAN/corrplot sci-CRAN/caretEnsemble sci-CRAN/moments sci-CRAN/ggplot2 sci-CRAN/philentropy sci-CRAN/lares sci-CRAN/caret sci-CRAN/RColorBrewer virtual/lattice sci-CRAN/resample sci-CRAN/janitor dev-lang/R:=
+DESCRIPTION=Calculate and Predict the Low De... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cubist r_suggests_earth r_suggests_gbm r_suggests_glmnet r_suggests_gridextra r_suggests_kernlab r_suggests_knitr r_suggests_randomforest r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table sci-CRAN/corrplot sci-CRAN/caretEnsemble sci-CRAN/moments sci-CRAN/ggplot2 sci-CRAN/philentropy sci-CRAN/lares sci-CRAN/caret sci-CRAN/RColorBrewer virtual/lattice sci-CRAN/resample sci-CRAN/janitor r_suggests_cubist? ( sci-CRAN/Cubist ) r_suggests_earth? ( sci-CRAN/earth ) r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LDLcalc_2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=70329795ec4ecb357c825964a3cb470a
