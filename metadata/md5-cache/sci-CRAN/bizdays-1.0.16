@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Business Days Calculations and Utilities
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_rquantlib r_suggests_testthat r_suggests_timedate byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/jsonlite r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rquantlib? ( sci-CRAN/RQuantLib ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_timedate? ( sci-CRAN/timeDate ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bizdays_1.0.16.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2151c1d746d811c4fae5c75a9e946dc3
