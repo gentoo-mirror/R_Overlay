@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/doParallel sci-CRAN/copula sci-CRAN/ggplot2 sci-CRAN/foreach >=dev-lang/R-3.5.0 sci-CRAN/survey dev-lang/R:=
+DESCRIPTION=Tests of Randomness and Tests of Independence
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/doParallel sci-CRAN/copula sci-CRAN/ggplot2 sci-CRAN/foreach >=dev-lang/R-3.5.0 sci-CRAN/survey dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MixedIndTests_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=714e05b913540a3e7c37e5a9bccc7b1c
