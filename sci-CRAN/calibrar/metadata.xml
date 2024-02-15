@@ -2,16 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Automated Parameter Estimation for Complex (Ecological) Models //
-		Automated parameter estimation for complex (ecological) models
-		in R. This package allows the parameter estimation or
-		calibration of complex models, including stochastic ones. It is
-		a generic tool that can be used for fitting any type of models,
-		especially those with non-differentiable objective functions.
-		It supports multiple phases and constrained optimization. It
-		implements maximum likelihood estimation methods and automated
-		construction of the objective function from simulated model
-		outputs. See http://roliveros-ramos.github.io/calibrar for more
-		details.
+		Automated Parameter Estimation for Complex Models // General
+		optimisation and specific tools for the parameter estimation
+		(i.e. calibration) of complex models, including stochastic
+		ones. It implements generic functions that can be used for
+		fitting any type of models, especially those with non-
+		differentiable objective functions, with the same syntax as
+		base::optim. It supports multiple phases estimation (sequential
+		parameter masking), constrained optimization (bounding box
+		restrictions) and automatic parallel computation of numerical
+		gradients. Some common maximum likelihood estimation methods
+		and automated construction of the objective function from
+		simulated model outputs is provided. See https://roliveros-
+		ramos.github.io/calibrar/ for more details.
 	</longdescription>
 </pkgmetadata>

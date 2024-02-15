@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gene Set Networking Analysis Package // Create networks of gene
+		sets, infer clusters of functionally-related gene sets based on
+		similarity statistics, and visualize the results. This package
+		simplifies and accelerates interpretation of pathways analysis
+		data sets. It is designed to work in tandem with standard
+		pathways analysis methods, such as the 'GSEA' program (Gene Set
+		Enrichment Analysis), CERNO (Coincident Extreme Ranks in
+		Numerical Observations, implemented in the 'tmod' package) and
+		others. Inputs to 'GSNA' are the outputs of pathways analysis
+		methods: a list of gene sets (or "modules"), pathways or GO-
+		terms with associated p-values. Since pathways analysis methods
+		may be used to analyze many different types of data including
+		transcriptomic, epigenetic, and high-throughput screen data
+		sets, the 'GSNA' pipeline is applicable to these data as well.
+		The use of 'GSNA' has been described in the following papers:
+		Collins DR, Urbach JM, Racenet ZJ, Arshad U, Power KA, Newman
+		RM, et al. (2021) doi:10.1016/j.immuni.2021.08.007, Collins DR,
+		Hitschfel J, Urbach JM, Mylvaganam GH, Ly NL, Arshad U, et al.
+		(2023) doi:10.1126/sciimmunol.ade5872.
+	</longdescription>
+</pkgmetadata>

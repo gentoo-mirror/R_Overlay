@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fields sci-CRAN/foreach sci-CRAN/abind dev-lang/R:=
+DESCRIPTION=An S4 Class for Functional Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_fda r_suggests_ggplot2 r_suggests_gridextra r_suggests_reshape2 r_suggests_testthat r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/fields sci-CRAN/foreach sci-CRAN/abind r_suggests_covr? ( sci-CRAN/covr ) r_suggests_fda? ( sci-CRAN/fda ) r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.0.0 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/funData_1.3-9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=17c95737a89cf221c59408bfe50135e6
