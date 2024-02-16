@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cubature sci-CRAN/ks sci-CRAN/rstanarm sci-CRAN/viridis sci-CRAN/bayestestR dev-lang/R:=
+DESCRIPTION=The Full Bayesian Evidence Test,... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bayesfactor r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/cubature sci-CRAN/ks sci-CRAN/rstanarm sci-CRAN/viridis sci-CRAN/bayestestR r_suggests_bayesfactor? ( sci-CRAN/BayesFactor ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fbst_2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ede4b2542378c7968af575e9f7d828a1
