@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/httr2-0.2.2 sci-CRAN/sf sci-CRAN/R6 sci-CRAN/lubridate >=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/base64enc sci-CRAN/IRdisplay sci-CRAN/htmltools sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Client Interface for openEO Servers
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dt r_suggests_kableextra r_suggests_knitr r_suggests_magrittr r_suggests_pkgdown r_suggests_rmarkdown r_suggests_stars r_suggests_terra r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=sci-CRAN/httr2-0.2.2 sci-CRAN/sf sci-CRAN/R6 sci-CRAN/lubridate >=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/base64enc sci-CRAN/IRdisplay sci-CRAN/htmltools sci-CRAN/rlang r_suggests_dt? ( sci-CRAN/DT ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stars? ( sci-CRAN/stars ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/openeo_1.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2a6e6d6ae80bea13c13addaf5d85468e

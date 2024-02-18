@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cli sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/lifecycle sci-CRAN/vctrs >=dev-lang/R-3.5.0 virtual/Matrix virtual/pkgconfig dev-lang/R:=
+DESCRIPTION=Network Analysis and Visualization
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ape r_suggests_callr r_suggests_decor r_suggests_digest r_suggests_graph r_suggests_igraphdata r_suggests_knitr r_suggests_rgl r_suggests_rmarkdown r_suggests_scales r_suggests_testthat r_suggests_tk r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/cli sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/lifecycle sci-CRAN/vctrs >=dev-lang/R-3.5.0 virtual/Matrix virtual/pkgconfig >=sci-CRAN/cpp11-0.4.7 dev-libs/libxml2 sci-mathematics/glpk r_suggests_ape? ( >=sci-CRAN/ape-5.7.0.1 ) r_suggests_callr? ( sci-CRAN/callr ) r_suggests_decor? ( sci-CRAN/decor ) r_suggests_digest? ( sci-CRAN/digest ) r_suggests_graph? ( sci-BIOC/graph ) r_suggests_igraphdata? ( sci-CRAN/igraphdata ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tk? ( dev-lang/R[tk] ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/igraph_2.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b84808e0e26f2cf7c9ae0e77c4f297a3
