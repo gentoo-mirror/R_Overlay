@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/ggplot2 sci-CRAN/data_table sci-CRAN/changepoint sci-CRAN/gridExtra sci-CRAN/reshape dev-lang/R:=
+DESCRIPTION=Package to Calculate the Influen... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/ggplot2 sci-CRAN/data_table sci-CRAN/changepoint sci-CRAN/gridExtra sci-CRAN/reshape r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/changepoint.influence_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=876b1d86162c207563efb534378d792e

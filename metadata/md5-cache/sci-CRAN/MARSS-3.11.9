@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/nlme >=sci-CRAN/generics-0.1.2 >=sci-CRAN/KFAS-1.0.1 sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Multivariate Autoregressive State-Space Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_forecast r_suggests_ggplot2 r_suggests_hmisc r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 virtual/nlme >=sci-CRAN/generics-0.1.2 >=sci-CRAN/KFAS-1.0.1 sci-CRAN/mvtnorm r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MARSS_3.11.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ebf0bfa953246dea30d07729b01a01cd
