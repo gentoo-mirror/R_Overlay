@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ontologySimilarity-2.0 >=sci-CRAN/ontologyIndex-2.0 sci-CRAN/ontologyPlot >=sci-CRAN/Rcpp-0.11.1 >=dev-lang/R-3.0.0 dev-lang/R:=
+DESCRIPTION=Similarity Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/ontologySimilarity-2.0 >=sci-CRAN/ontologyIndex-2.0 sci-CRAN/ontologyPlot >=sci-CRAN/Rcpp-0.11.1 >=dev-lang/R-3.0.0 sci-CRAN/Rcpp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SimReg_3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=733e571763621b6a0eaf22d019826cfb

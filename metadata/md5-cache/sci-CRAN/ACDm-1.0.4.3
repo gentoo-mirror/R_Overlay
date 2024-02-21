@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/Rsolnp sci-CRAN/plyr sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=Tools for Autoregressive Conditi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_optimx r_suggests_rgl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/Rsolnp sci-CRAN/plyr sci-CRAN/zoo r_suggests_optimx? ( sci-CRAN/optimx ) r_suggests_rgl? ( sci-CRAN/rgl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ACDm_1.0.4.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7528b6dd0efd55a90dc72efa6c471849

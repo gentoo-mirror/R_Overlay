@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/ontologyIndex-2.0 >=sci-CRAN/Rcpp-0.11.2 dev-lang/R:=
+DESCRIPTION=Gene Set Enrichment Analysis in R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_markdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/ontologyIndex-2.0 >=sci-CRAN/Rcpp-0.11.2 sci-CRAN/Rcpp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gsEasy_1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=043bc729f2ef8be1a5fc1aa5ed01ebd0

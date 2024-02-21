@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/statmod virtual/MASS virtual/survival sci-CRAN/caret sci-CRAN/timeROC virtual/nlme >=sci-CRAN/Rcpp-1.0.7 sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Joint Model of Heterogeneous Rep... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/statmod virtual/MASS virtual/survival sci-CRAN/caret sci-CRAN/timeROC virtual/nlme >=sci-CRAN/Rcpp-1.0.7 sci-CRAN/dplyr sci-CRAN/Rcpp sci-CRAN/RcppEigen r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/JMH_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=67a0e1a3b3279dfab9c66f7173c6cc16
