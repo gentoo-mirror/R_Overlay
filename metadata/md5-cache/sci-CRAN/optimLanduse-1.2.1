@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/lpSolveAPI-5.5.2.0.17.7 >=sci-CRAN/tidyr-1.1.2 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/future-1.28.0 >=sci-CRAN/future_apply-1.9.0 dev-lang/R:=
+DESCRIPTION=Robust Land-Use Optimization
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_readxl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/lpSolveAPI-5.5.2.0.17.7 >=sci-CRAN/tidyr-1.1.2 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/future-1.28.0 >=sci-CRAN/future_apply-1.9.0 r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_readxl? ( sci-CRAN/readxl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/optimLanduse_1.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a0ca564ae524f46d73e4773adafcb24e
