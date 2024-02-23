@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/digest sci-CRAN/mets sci-CRAN/optimx sci-CRAN/progressr >=sci-CRAN/lava-1.7.0 >=sci-CRAN/Rcpp-1.0.0 virtual/survival >=dev-lang/R-4.0 sci-CRAN/data_table sci-CRAN/futile_logger sci-CRAN/future_apply sci-CRAN/R6 dev-lang/R:=
+DESCRIPTION=Targeted Inference
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_grf r_suggests_knitr r_suggests_mgcv r_suggests_rmarkdown r_suggests_scatterplot3d r_suggests_superlearner r_suggests_testthat r_suggests_viridislite r_suggests_xgboost byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=sci-CRAN/digest sci-CRAN/mets sci-CRAN/optimx sci-CRAN/progressr >=sci-CRAN/lava-1.7.0 >=sci-CRAN/Rcpp-1.0.0 virtual/survival >=dev-lang/R-4.0 sci-CRAN/data_table sci-CRAN/futile_logger sci-CRAN/future_apply sci-CRAN/R6 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_grf? ( sci-CRAN/grf ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d ) r_suggests_superlearner? ( >=sci-CRAN/SuperLearner-2.0.28 ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.11 ) r_suggests_viridislite? ( sci-CRAN/viridisLite ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/targeted_0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0906dfe2996dcfc95f5ed78a96a92759

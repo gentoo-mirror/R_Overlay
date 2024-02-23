@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/openxlsx dev-lang/R:=
+DESCRIPTION=Calculate MIMS Dissolved Gas Con... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kableextra r_suggests_knitr r_suggests_rmarkdown r_suggests_xfun byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/openxlsx r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_xfun? ( sci-CRAN/xfun ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mimsy_0.6.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8cc99237e83bb234987fc61f922b2e91

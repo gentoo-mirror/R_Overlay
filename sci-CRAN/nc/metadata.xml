@@ -11,8 +11,8 @@
 		patterns. Named R arguments are translated to column names in
 		the output; capture groups without names are used internally in
 		order to provide a standard interface to three regular
-		expression C libraries (PCRE, RE2, ICU). Output can also
-		include numeric columns via user-specified type conversion
+		expression 'C' libraries ('PCRE', 'RE2', 'ICU'). Output can
+		also include numeric columns via user-specified type conversion
 		functions.
 	</longdescription>
 </pkgmetadata>
