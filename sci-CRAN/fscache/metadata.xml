@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		File System Cache // Manages a file system cache. Regular files
+		can be moved or copied to the cache folder. Sub-folders can be
+		created in order to organize the files. Files can be located
+		inside the cache using a glob function. Text contents can be
+		easily stored in and retrieved from the cache using dedicated
+		functions. It can be used for an application or a package, as a
+		global cache, or as a per-user cache, in which case the
+		standard OS user cache folder will be used (e.g.: on Linux
+		$HOME/.cache/R/my_app_or_pkg_cache_folder).
+	</longdescription>
+</pkgmetadata>

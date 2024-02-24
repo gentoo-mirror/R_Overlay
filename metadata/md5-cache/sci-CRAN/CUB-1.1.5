@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.15.2 sci-CRAN/Formula dev-lang/R:=
+DESCRIPTION=A Class of Mixture Models for Ordinal Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_digest r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-2.15.2 sci-CRAN/Formula r_suggests_digest? ( sci-CRAN/digest ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CUB_1.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=98b7e69b0f5608c47cd247cc40e0e825

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RCurl sci-CRAN/gridExtra >=sci-CRAN/tidyr-1.0.0 sci-CRAN/crosstalk >=dev-lang/R-3.5 sci-CRAN/jsonlite sci-CRAN/plotly sci-CRAN/ggplot2 sci-CRAN/viridisLite sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Interface to the g:Profiler Toolset
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_prettydoc r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/RCurl sci-CRAN/gridExtra >=sci-CRAN/tidyr-1.0.0 sci-CRAN/crosstalk >=dev-lang/R-3.5 sci-CRAN/jsonlite sci-CRAN/plotly sci-CRAN/ggplot2 sci-CRAN/viridisLite sci-CRAN/dplyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gprofiler2_0.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e5d2a6945ff8bc8c5b02e2f55bddcf80

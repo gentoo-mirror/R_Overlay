@@ -3,10 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		One-Step Estimation // Provide principally an eponymic function
-		that numerically computes the Le Cam one-step estimator which
-		is asymptotically efficient (see e.g. L. Le Cam (1956)
+		that numerically computes the Le Cam's one-step estimator for
+		an independent and identically distributed sample. One-step
+		estimation is asymptotically efficient (see L. Le Cam (1956)
 		https://projecteuclid.org/euclid.bsmsp/1200501652) and can be
 		computed faster than the maximum likelihood estimator for large
-		observation samples.
+		observation samples, see e.g. Brouste et al. (2021)
+		doi:10.32614/RJ-2021-044.
 	</longdescription>
 </pkgmetadata>

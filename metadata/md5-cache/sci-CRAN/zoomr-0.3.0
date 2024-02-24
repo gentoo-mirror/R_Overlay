@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/glue-1.4.2 >=sci-CRAN/purrr-0.3.4 >=sci-CRAN/rlang-1.0.4 >=sci-CRAN/tidyr-1.1.4 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/httr-1.4.1 >=sci-CRAN/jsonlite-1.6.1 >=sci-CRAN/janitor-2.1.0 >=sci-CRAN/tidyselect-1.1.1 dev-lang/R:=
+DESCRIPTION=Connect to Your Zoom Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=>=sci-CRAN/glue-1.4.2 >=sci-CRAN/purrr-0.3.4 >=sci-CRAN/rlang-1.0.4 >=sci-CRAN/tidyr-1.1.4 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/httr-1.4.1 >=sci-CRAN/jsonlite-1.6.1 >=sci-CRAN/janitor-2.1.0 >=sci-CRAN/tidyselect-1.1.1 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/zoomr_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a3e23106da5559fc96238f3f9b6166b9

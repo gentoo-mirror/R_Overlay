@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fitdistrplus sci-CRAN/numDeriv sci-CRAN/extraDistr dev-lang/R:=
+DESCRIPTION=One-Step Estimation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_actuar byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/fitdistrplus sci-CRAN/numDeriv sci-CRAN/extraDistr r_suggests_actuar? ( sci-CRAN/actuar ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/OneStep_0.9.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=57d1301adfaf3e840d31dbfa44b0075f

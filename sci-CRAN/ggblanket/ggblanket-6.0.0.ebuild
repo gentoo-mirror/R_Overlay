@@ -1,0 +1,46 @@
+# Copyright 1999-2024 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Simplify ggplot2 Visualisation'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/ggblanket_6.0.0.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_hexbin r_suggests_isoband r_suggests_knitr
+	r_suggests_palmerpenguins r_suggests_patchwork r_suggests_quantreg
+	r_suggests_rmarkdown r_suggests_sf r_suggests_testthat
+	r_suggests_tibble r_suggests_vdiffr"
+R_SUGGESTS="
+	r_suggests_hexbin? ( sci-CRAN/hexbin )
+	r_suggests_isoband? ( sci-CRAN/isoband )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_palmerpenguins? ( sci-CRAN/palmerpenguins )
+	r_suggests_patchwork? ( sci-CRAN/patchwork )
+	r_suggests_quantreg? ( sci-CRAN/quantreg )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_sf? ( sci-CRAN/sf )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+	r_suggests_tibble? ( sci-CRAN/tibble )
+	r_suggests_vdiffr? ( sci-CRAN/vdiffr )
+"
+DEPEND=">=sci-CRAN/hms-0.5.0
+	>=sci-CRAN/stringr-1.3.0
+	>=sci-CRAN/dplyr-1.0.4
+	>=sci-CRAN/ggplot2-3.5.0
+	>=sci-CRAN/viridisLite-0.4.0
+	sci-CRAN/forcats
+	sci-CRAN/farver
+	>=sci-CRAN/lubridate-1.7.8
+	sci-CRAN/magrittr
+	sci-CRAN/purrr
+	>=sci-CRAN/rlang-1.1.0
+	>=sci-CRAN/scales-1.3.0
+	sci-CRAN/snakecase
+	>=sci-CRAN/tidyselect-1.2.0
+	>=sci-CRAN/tidyr-1.0.0
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

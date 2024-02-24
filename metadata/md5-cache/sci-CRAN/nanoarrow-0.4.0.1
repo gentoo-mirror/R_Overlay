@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Interface to the nanoarrow C Library
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arrow r_suggests_bit64 r_suggests_blob r_suggests_hms r_suggests_rlang r_suggests_testthat r_suggests_tibble r_suggests_vctrs r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=r_suggests_arrow? ( >=sci-CRAN/arrow-9.0.0 ) r_suggests_bit64? ( sci-CRAN/bit64 ) r_suggests_blob? ( sci-CRAN/blob ) r_suggests_hms? ( sci-CRAN/hms ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_vctrs? ( sci-CRAN/vctrs ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nanoarrow_0.4.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=83d1c697a226d89499cb88948af35c3b

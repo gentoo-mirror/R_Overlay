@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/digest sci-CRAN/plyr sci-CRAN/rjson sci-CRAN/httr dev-lang/R:=
+DESCRIPTION=Scale Bar, North Arrow, and Pretty Margins in R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_raster r_suggests_rosm r_suggests_sp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/digest sci-CRAN/plyr sci-CRAN/rjson sci-CRAN/httr r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rosm? ( sci-CRAN/rosm ) r_suggests_sp? ( sci-CRAN/sp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/prettymapr_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ef21a43b35a6796d5f506e62a9d8c169

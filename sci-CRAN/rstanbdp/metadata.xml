@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Deming Regression for Method Comparison // Regression
+		methods to quantify the relation between two measurement
+		methods are provided by this package. The focus is on a
+		Bayesian Deming regressions family. With a Bayesian method the
+		Deming regression can be run in a traditional fashion or can be
+		run in a robust way just decreasing the degree of freedom d.f.
+		of the sampling distribution. With d.f. = 1 an extremely robust
+		Cauchy distribution can be sampled. Moreover, models for
+		dealing with heteroscedastic data are also provided. For
+		reference see G. Pioda (2024) https://piodag.github.io/bd1/.
+	</longdescription>
+</pkgmetadata>

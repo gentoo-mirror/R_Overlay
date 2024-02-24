@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/doParallel sci-CRAN/plotly sci-CRAN/gplots >=dev-lang/R-3.5.0 sci-CRAN/lpSolve virtual/KernSmooth sci-CRAN/quantreg sci-CRAN/ggplot2 sci-CRAN/foreach sci-CRAN/iterators sci-CRAN/truncnorm dev-lang/R:=
+DESCRIPTION=Necessary Condition Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/doParallel sci-CRAN/plotly sci-CRAN/gplots >=dev-lang/R-3.5.0 sci-CRAN/lpSolve virtual/KernSmooth sci-CRAN/quantreg sci-CRAN/ggplot2 sci-CRAN/foreach sci-CRAN/iterators sci-CRAN/truncnorm r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/NCA_4.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=abf2e525d6ff9fe027a4bc107486a95a
