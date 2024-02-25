@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/dplyr-1.0.0 sci-CRAN/pbapply >=sci-CRAN/Rcpp-0.12.16 sci-CRAN/tidyr >=dev-lang/R-4.0.0 sci-CRAN/DEoptim dev-lang/R:=
+DESCRIPTION=Diffusion Model of Conflict (DMC... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_scales r_suggests_shiny r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/dplyr-1.0.0 sci-CRAN/pbapply >=sci-CRAN/Rcpp-0.12.16 sci-CRAN/tidyr >=dev-lang/R-4.0.0 sci-CRAN/DEoptim sci-CRAN/Rcpp sci-CRAN/BH r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DMCfun_3.5.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e1b9b462eea200f70445cc8b84ec0988
