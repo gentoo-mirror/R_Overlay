@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-3.5.0 sci-CRAN/rlang sci-CRAN/cli sci-CRAN/gtable >=sci-CRAN/scales-1.3.0 sci-CRAN/glue sci-CRAN/tibble sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=Side Grammar Graphics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggdendro r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr r_suggests_vdiffr r_suggests_viridis r_suggests_waldo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/ggplot2-3.5.0 sci-CRAN/rlang sci-CRAN/cli sci-CRAN/gtable >=sci-CRAN/scales-1.3.0 sci-CRAN/glue sci-CRAN/tibble sci-CRAN/vctrs r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggdendro? ( sci-CRAN/ggdendro ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.3 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-1.0.0 ) r_suggests_viridis? ( sci-CRAN/viridis ) r_suggests_waldo? ( sci-CRAN/waldo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggside_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=db87d435b20a17dafcb52a01b1f2c4ac
