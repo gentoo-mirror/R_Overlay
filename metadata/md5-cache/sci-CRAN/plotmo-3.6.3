@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 >=sci-CRAN/Formula-1.2.3 sci-CRAN/plotrix dev-lang/R:=
+DESCRIPTION=Plot a Models Residuals, Respons... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_c50 r_suggests_earth r_suggests_gbm r_suggests_glmnet r_suggests_glmnetutils r_suggests_mass r_suggests_mlr r_suggests_neuralnet r_suggests_partykit r_suggests_pre r_suggests_rpart byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.4.0 >=sci-CRAN/Formula-1.2.3 sci-CRAN/plotrix r_suggests_c50? ( >=sci-CRAN/C50-0.1.0.24 ) r_suggests_earth? ( >=sci-CRAN/earth-5.1.2 ) r_suggests_gbm? ( >=sci-CRAN/gbm-2.1.1 ) r_suggests_glmnet? ( >=sci-CRAN/glmnet-2.0.5 ) r_suggests_glmnetutils? ( >=sci-CRAN/glmnetUtils-1.0.3 ) r_suggests_mass? ( virtual/MASS ) r_suggests_mlr? ( >=sci-CRAN/mlr-2.12.1 ) r_suggests_neuralnet? ( >=sci-CRAN/neuralnet-1.33 ) r_suggests_partykit? ( >=sci-CRAN/partykit-1.2.2 ) r_suggests_pre? ( >=sci-CRAN/pre-0.5.0 ) r_suggests_rpart? ( virtual/rpart virtual/rpart ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/plotmo_3.6.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=332fde52438da1126d1708b7c7cde497

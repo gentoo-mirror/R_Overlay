@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/tidyr-1.1.0 >=sci-CRAN/foreach-1.5.0 >=sci-CRAN/data_table-1.13.0 >=sci-CRAN/dplyr-1.0.1 >=sci-CRAN/plyr-1.8.6 >=sci-CRAN/doParallel-1.0.15 >=sci-CRAN/labelled-2.5.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/R_utils-2.11.0 dev-lang/R:=
+DESCRIPTION=Data Cleaner for Anthropometric Measurements
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_argparser r_suggests_bit64 r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/tidyr-1.1.0 >=sci-CRAN/foreach-1.5.0 >=sci-CRAN/data_table-1.13.0 >=sci-CRAN/dplyr-1.0.1 >=sci-CRAN/plyr-1.8.6 >=sci-CRAN/doParallel-1.0.15 >=sci-CRAN/labelled-2.5.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/R_utils-2.11.0 r_suggests_argparser? ( >=sci-CRAN/argparser-0.6 ) r_suggests_bit64? ( >=sci-CRAN/bit64-4.0.2 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.29 ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.3 ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.3.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/growthcleanr_2.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8dfcaa6eba0aca2e21fe2f61ce73c271

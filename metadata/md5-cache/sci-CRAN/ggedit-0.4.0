@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shinyAce sci-CRAN/scales sci-CRAN/colourpicker sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/shiny >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/tibble sci-CRAN/rstudioapi sci-CRAN/miniUI sci-CRAN/shinyBS >=dev-lang/R-4.0.0 sci-CRAN/tidyr sci-CRAN/rlang sci-CRAN/plyr dev-lang/R:=
+DESCRIPTION=Interactive ggplot2 Layer and Th... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/shinyAce sci-CRAN/scales sci-CRAN/colourpicker sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/shiny >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/tibble sci-CRAN/rstudioapi sci-CRAN/miniUI sci-CRAN/shinyBS >=dev-lang/R-4.0.0 sci-CRAN/tidyr sci-CRAN/rlang sci-CRAN/plyr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggedit_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=69c64ebd0ee60c730f66bc6f37918613
