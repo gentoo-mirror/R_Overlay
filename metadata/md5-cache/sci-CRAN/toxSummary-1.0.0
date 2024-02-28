@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RSQLite sci-CRAN/shiny sci-CRAN/scales sci-CRAN/DBI sci-CRAN/rlang sci-CRAN/cicerone sci-CRAN/DT sci-CRAN/fs sci-CRAN/dplyr sci-CRAN/htmltools sci-CRAN/shinycssloaders sci-CRAN/shinydisconnect sci-CRAN/data_table sci-CRAN/ggiraph sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/patchwork sci-CRAN/flextable sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Visualize and Summarize Repeat-D... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_officer r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/RSQLite sci-CRAN/shiny sci-CRAN/scales sci-CRAN/DBI sci-CRAN/rlang sci-CRAN/cicerone sci-CRAN/DT sci-CRAN/fs sci-CRAN/dplyr sci-CRAN/htmltools sci-CRAN/shinycssloaders sci-CRAN/shinydisconnect sci-CRAN/data_table sci-CRAN/ggiraph sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/patchwork sci-CRAN/flextable sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_officer? ( sci-CRAN/officer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/toxSummary_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1b1322c2892e21f503eb2ed253ea8eb4
