@@ -2,11 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		High Performance Remote File System Access Using 'duckdb' //
-		Provides friendly wrappers for creating 'duckdb'-backed
-		connections to tabular datasets ('csv', parquet, etc) on local
-		or remote file systems. This mimics the behaviour of
-		"open_dataset" in the 'arrow' package, but in addition to 'S3'
-		file system also generalizes to any list of 'http' URLs.
+		High Performance Remote File System, Database and 'Geospatial'
+		Access Using 'duckdb' // Provides friendly wrappers for
+		creating 'duckdb'-backed connections to tabular datasets
+		('csv', parquet, etc) on local or remote file systems. This
+		mimics the behaviour of "open_dataset" in the 'arrow' package,
+		but in addition to 'S3' file system also generalizes to any
+		list of 'http' URLs.
 	</longdescription>
 </pkgmetadata>
