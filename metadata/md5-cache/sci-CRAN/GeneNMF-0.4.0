@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Seurat-4.3.0 virtual/cluster sci-CRAN/NMF sci-CRAN/RcppML >=dev-lang/R-4.3.0 sci-CRAN/pheatmap sci-CRAN/viridis dev-lang/R:=
+DESCRIPTION=Non-Negative Matrix Factorizatio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_fgsea r_suggests_knitr r_suggests_msigdbr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/Seurat-4.3.0 virtual/cluster sci-CRAN/NMF sci-CRAN/RcppML >=dev-lang/R-4.3.0 sci-CRAN/pheatmap sci-CRAN/viridis r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_fgsea? ( sci-BIOC/fgsea ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_msigdbr? ( sci-CRAN/msigdbr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GeneNMF_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2ab9273de1cddb898ba661e7f8cd5e92

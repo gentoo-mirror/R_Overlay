@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Copula Based Cox Proportional Hazards Models for Dependent
+		Censoring // Copula based Cox proportional hazards models for
+		survival data subject to dependent censoring. This approach
+		does not assume that the parameter defining the copula is
+		known. The dependency parameter is estimated with other finite
+		model parameters by maximizing a Pseudo likelihood function.
+		The cumulative hazard function is estimated via estimating
+		equations derived based on martingale ideas. Available copula
+		functions include Frank, Gumbel and Normal copulas. Only
+		Weibull and lognormal models are allowed for the censoring
+		model, even though any parametric model that satisfies certain
+		identifiability conditions could be used. Implemented methods
+		are described in the article "Copula based Cox proportional
+		hazards models for dependent censoring" by Deresa and Van
+		Keilegom (2023) doi:10.1080/01621459.2022.2161387.
+	</longdescription>
+</pkgmetadata>
