@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/anytime >=sci-CRAN/shiny-1.6.0 sci-CRAN/jsonlite sci-CRAN/bslib sci-CRAN/sass >=sci-CRAN/htmltools-0.5.1 sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Custom Inputs Widgets for Shiny
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dt r_suggests_ggplot2 r_suggests_scales r_suggests_shinydashboard r_suggests_shinydashboardplus r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/anytime >=sci-CRAN/shiny-1.6.0 sci-CRAN/jsonlite sci-CRAN/bslib sci-CRAN/sass >=sci-CRAN/htmltools-0.5.1 sci-CRAN/rlang r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_shinydashboard? ( sci-CRAN/shinydashboard ) r_suggests_shinydashboardplus? ( sci-CRAN/shinydashboardPlus ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/shinyWidgets_0.8.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e3550f462e2b163d8a1ab38041e6062a

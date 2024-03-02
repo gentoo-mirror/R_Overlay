@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Nominating Quality Control Outliers in Genomic Profiling Studies
+		// A method that analyzes quality control metrics from multi-
+		sample genomic sequencing studies and nominates poor quality
+		samples for exclusion. Per sample quality control data are
+		transformed into z-scores and aggregated. The distribution of
+		aggregated z-scores are modelled using parametric
+		distributions. The parameters of the optimal model, selected
+		either by goodness-of-fit statistics or user-designation, are
+		used for outlier nomination. Two implementations of the Cosine
+		Similarity Outlier Detection algorithm are provided with
+		flexible parameters for dataset customization.
+	</longdescription>
+</pkgmetadata>
