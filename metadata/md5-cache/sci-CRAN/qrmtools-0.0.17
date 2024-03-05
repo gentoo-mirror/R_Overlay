@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice sci-CRAN/Quandl sci-CRAN/quantmod sci-CRAN/zoo >=dev-lang/R-3.2.0 sci-CRAN/xts sci-CRAN/rugarch sci-CRAN/ADGofTest dev-lang/R:=
+DESCRIPTION=Tools for Quantitative Risk Management
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_combinat r_suggests_copula r_suggests_knitr r_suggests_qrng r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_sfsmisc r_suggests_sn byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/lattice sci-CRAN/Quandl sci-CRAN/quantmod sci-CRAN/zoo >=dev-lang/R-3.2.0 sci-CRAN/xts sci-CRAN/rugarch sci-CRAN/ADGofTest r_suggests_combinat? ( sci-CRAN/combinat ) r_suggests_copula? ( sci-CRAN/copula ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_qrng? ( sci-CRAN/qrng ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sfsmisc? ( sci-CRAN/sfsmisc ) r_suggests_sn? ( sci-CRAN/sn ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/qrmtools_0.0-17.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4b1e6a9a59497d62426fbfee9a4adf97

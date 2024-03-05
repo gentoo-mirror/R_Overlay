@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/proxy sci-CRAN/ggforce sci-CRAN/terra sci-CRAN/doParallel sci-CRAN/progress sci-CRAN/viridis dev-lang/R:=
+DESCRIPTION=Diversity Indices for Numerical Matrices
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covid19 r_suggests_gridextra r_suggests_gstat r_suggests_knitr r_suggests_lattice r_suggests_rastervis r_suggests_rcolorbrewer r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/proxy sci-CRAN/ggforce sci-CRAN/terra sci-CRAN/doParallel sci-CRAN/progress sci-CRAN/viridis r_suggests_covid19? ( sci-CRAN/COVID19 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_rastervis? ( sci-CRAN/rasterVis ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rasterdiv_0.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=68fea94bf4b181a990704435d5ec8111
