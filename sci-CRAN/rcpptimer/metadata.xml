@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'Rcpp' Tic-Toc Timer with 'OpenMP' Support // Provides 'Rcpp'
+		bindings for 'cpptimer', a simple tic-toc timer class for
+		benchmarking 'C++' code https://github.com/BerriJ/cpptimer.
+		It's not just simple, it's blazing fast! This sleek tic-toc
+		timer class supports overlapping timers as well as 'OpenMP'
+		parallelism https://www.openmp.org/. It boasts a microsecond-
+		level time resolution. We did not find any overhead of the
+		timer itself at this resolution. Results (with summary
+		statistics) are automatically passed back to 'R' as a data
+		frame.
+	</longdescription>
+</pkgmetadata>

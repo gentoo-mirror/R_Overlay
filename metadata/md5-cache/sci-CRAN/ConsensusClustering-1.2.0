@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/mvtnorm virtual/cluster sci-CRAN/igraph sci-CRAN/assertthat dev-lang/R:=
+DESCRIPTION=Consensus Clustering
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/mvtnorm virtual/cluster sci-CRAN/igraph sci-CRAN/assertthat dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ConsensusClustering_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=31ce9a0acc88a88e6ea74126566f4283

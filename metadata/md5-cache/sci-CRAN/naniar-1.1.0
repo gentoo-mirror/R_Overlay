@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/UpSetR sci-CRAN/forcats sci-CRAN/visdat sci-CRAN/lifecycle sci-CRAN/viridis sci-CRAN/vctrs sci-CRAN/glue >=dev-lang/R-3.1.2 sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/ggplot2 >=sci-CRAN/tibble-2.0.0 sci-CRAN/norm sci-CRAN/magrittr >=sci-CRAN/rlang-1.1.0 sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Data Structures, Summaries, and ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_gridextra r_suggests_here r_suggests_hmisc r_suggests_imputets r_suggests_knitr r_suggests_rmarkdown r_suggests_rpart r_suggests_simputation r_suggests_spelling r_suggests_testthat r_suggests_vdiffr r_suggests_wakefield byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/UpSetR sci-CRAN/forcats sci-CRAN/visdat sci-CRAN/lifecycle sci-CRAN/viridis sci-CRAN/vctrs sci-CRAN/glue >=dev-lang/R-3.1.2 sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/ggplot2 >=sci-CRAN/tibble-2.0.0 sci-CRAN/norm sci-CRAN/magrittr >=sci-CRAN/rlang-1.1.0 sci-CRAN/cli r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_here? ( sci-CRAN/here ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_imputets? ( sci-CRAN/imputeTS ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpart? ( virtual/rpart virtual/rpart ) r_suggests_simputation? ( sci-CRAN/simputation ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_wakefield? ( sci-CRAN/wakefield ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/naniar_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=66cd22cf6e366d4450cee7131d3c4039

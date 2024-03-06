@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/scales sci-CRAN/ggpubr sci-CRAN/htmlwidgets sci-CRAN/gridExtra sci-CRAN/plyr sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/curl sci-CRAN/httr sci-CRAN/magrittr sci-CRAN/magick sci-CRAN/ggsci sci-CRAN/tidyverse sci-CRAN/stringr sci-CRAN/qdapRegex sci-CRAN/alakazam sci-CRAN/data_tree sci-CRAN/gprofiler2 sci-CRAN/progress sci-CRAN/networkD3 dev-lang/R:=
+DESCRIPTION=Retrieving Information of Proteins from Uniprot
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/scales sci-CRAN/ggpubr sci-CRAN/htmlwidgets sci-CRAN/gridExtra sci-CRAN/plyr sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/curl sci-CRAN/httr sci-CRAN/magrittr sci-CRAN/magick sci-CRAN/ggsci sci-CRAN/tidyverse sci-CRAN/stringr sci-CRAN/qdapRegex sci-CRAN/alakazam sci-CRAN/data_tree sci-CRAN/gprofiler2 sci-CRAN/progress sci-CRAN/networkD3 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/UniprotR_2.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=13a17f7f659a5943fafa5c4bc2ca319e
