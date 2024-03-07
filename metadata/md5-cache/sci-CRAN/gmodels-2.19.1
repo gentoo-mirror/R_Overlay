@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/gdata dev-lang/R:=
+DESCRIPTION=Various R Programming Tools for Model Fitting
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gplots r_suggests_gtools r_suggests_lme4 r_suggests_matrix r_suggests_nlme byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/MASS sci-CRAN/gdata r_suggests_gplots? ( sci-CRAN/gplots ) r_suggests_gtools? ( sci-CRAN/gtools ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_nlme? ( virtual/nlme ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gmodels_2.19.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1aab093ee8ff2656ea7b3270f9c0c7d5

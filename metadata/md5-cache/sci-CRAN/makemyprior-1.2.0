@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny sci-CRAN/shinyjs sci-CRAN/shinyBS sci-CRAN/visNetwork sci-CRAN/rlang >=dev-lang/R-3.6.0 virtual/Matrix sci-CRAN/ggplot2 virtual/MASS dev-lang/R:=
+DESCRIPTION=Intuitive Construction of Joint ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_rstan byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/shiny sci-CRAN/shinyjs sci-CRAN/shinyBS sci-CRAN/visNetwork sci-CRAN/rlang >=dev-lang/R-3.6.0 virtual/Matrix sci-CRAN/ggplot2 virtual/MASS r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstan? ( >=sci-CRAN/rstan-2.21.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/makemyprior_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=51b4e3f9d924e70b73aa56d4afa08606

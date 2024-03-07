@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/partykit sci-CRAN/magrittr sci-CRAN/caret sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Logistic Regression Trees
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_factominer r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/partykit sci-CRAN/magrittr sci-CRAN/caret sci-CRAN/dplyr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_factominer? ( sci-CRAN/FactoMineR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/glmtree_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=48e7a0eb9575c74645c5c9e2d5b206a6

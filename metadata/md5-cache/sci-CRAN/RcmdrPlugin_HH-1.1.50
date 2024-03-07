@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.2 virtual/lattice >=sci-CRAN/Rcmdr-2.0.0 sci-CRAN/HH virtual/mgcv dev-lang/R:=
+DESCRIPTION=Rcmdr Support for the HH Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_car r_suggests_lattice r_suggests_leaps r_suggests_rgl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.2 virtual/lattice >=sci-CRAN/Rcmdr-2.0.0 sci-CRAN/HH virtual/mgcv r_suggests_car? ( sci-CRAN/car ) r_suggests_lattice? ( virtual/lattice ) r_suggests_leaps? ( sci-CRAN/leaps ) r_suggests_rgl? ( sci-CRAN/rgl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcmdrPlugin.HH_1.1-50.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=37d471510a9b9d876c07292437b77c81

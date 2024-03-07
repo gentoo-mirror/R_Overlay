@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/bitops sci-CRAN/mmap dev-lang/R:=
+DESCRIPTION=Package for Reading Binary Files
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/bitops sci-CRAN/mmap r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GENEAread_2.0.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=48058badb9e57f195f3ecdcd1d44d4a9

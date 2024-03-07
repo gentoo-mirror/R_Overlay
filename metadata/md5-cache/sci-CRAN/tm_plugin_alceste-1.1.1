@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/NLP >=sci-CRAN/tm-0.6 dev-lang/R:=
+DESCRIPTION=Import Texts from Files in the A... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_stringi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/NLP >=sci-CRAN/tm-0.6 r_suggests_stringi? ( sci-CRAN/stringi ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tm.plugin.alceste_1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=aff5be060021271f467e3953a15f592e
