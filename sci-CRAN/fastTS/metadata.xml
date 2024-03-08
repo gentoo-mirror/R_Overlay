@@ -2,25 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fast Time Series Modeling with the Sparsity Ranked Lasso // An
-		implementation of sparsity-ranked lasso and related methods for
-		time series data. This methodology is especially useful for
-		large time series with exogenous features and/or complex
-		seasonality. Originally described in Peterson and Cavanaugh
-		(2022) doi:10.1007/s10182-021-00431-7 in the context of
-		variable selection with interactions and/or polynomials, ranked
-		sparsity is a philosophy with methods useful for variable
-		selection in the presence of prior informational asymmetry.
-		This situation exists for time series data with complex
-		seasonality, as shown in Peterson and Cavanaugh (2023+)
-		doi:10.48550/arXiv.2211.01492, which also describes this
-		package in greater detail. The sparsity-ranked methods for Time
-		Series implemented in 'fastTS' can fit large/complex/high-
-		frequency time series quickly, even with a high-dimensional
-		exogenous feature set. The method is considerably faster than
-		its competitors, while often producing more accurate
-		predictions. Also included is a long hourly series of arrivals
-		into the University of Iowa Emergency Department with
-		concurrent local temperature.
+		Fast Time Series Modeling for Seasonal Series with Exogenous
+		Variables // An implementation of sparsity-ranked lasso and
+		related methods for time series data. This methodology is
+		especially useful for large time series with exogenous features
+		and/or complex seasonality. Originally described in Peterson
+		and Cavanaugh (2022) doi:10.1007/s10182-021-00431-7 in the
+		context of variable selection with interactions and/or
+		polynomials, ranked sparsity is a philosophy with methods
+		useful for variable selection in the presence of prior
+		informational asymmetry. This situation exists for time series
+		data with complex seasonality, as shown in Peterson and
+		Cavanaugh (2023+) doi:10.48550/arXiv.2211.01492, which also
+		describes this package in greater detail. The sparsity-ranked
+		penalization methods for Time Series implemented in 'fastTS'
+		can fit large/complex/high-frequency time series quickly, even
+		with a high-dimensional exogenous feature set. The method is
+		considerably faster than its competitors, while often producing
+		more accurate predictions. Also included is a long hourly
+		series of arrivals into the University of Iowa Emergency
+		Department with concurrent local temperature.
 	</longdescription>
 </pkgmetadata>

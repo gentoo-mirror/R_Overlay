@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/lme4 sci-CRAN/numDeriv >=dev-lang/R-3.0.0 dev-lang/R:=
+DESCRIPTION=Variance Component Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_prettydoc r_suggests_rmarkdown r_suggests_runit r_suggests_stb r_suggests_vfp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/Matrix sci-CRAN/lme4 sci-CRAN/numDeriv >=dev-lang/R-3.0.0 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_stb? ( sci-CRAN/STB ) r_suggests_vfp? ( sci-CRAN/VFP ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/VCA_1.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=70527aa61eb9a689118347ce69c9c081

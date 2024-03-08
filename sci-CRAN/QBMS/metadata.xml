@@ -2,13 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Query the Breeding Management System(s) // Linking data
-		management systems to analytics is an important step in
-		breeding digitization. Breeders can use this R package to Query
-		the Breeding Management System(s) like 'BMS' https://bmspro.io,
-		'BreedBase' https://breedbase.org, and 'GIGWA'
-		https://southgreen.fr/content/gigwa (using 'BrAPI'
-		https://brapi.org calls) and help them to retrieve phenotypic
-		and genotypic data directly into their analyzing pipelines.
+		Query the Breeding Management System(s) // This R package assists
+		breeders in linking data systems with their analytic pipelines,
+		a crucial step in digitizing breeding processes. It supports
+		querying and retrieving phenotypic and genotypic data from
+		systems like 'EBS' https://ebs.excellenceinbreeding.org/, 'BMS'
+		https://bmspro.io, 'BreedBase' https://breedbase.org, and
+		'GIGWA' https://github.com/SouthGreenPlatform/Gigwa2 (using
+		'BrAPI' https://brapi.org calls). Extra helper functions
+		support environmental data sources, including 'TerraClimate'
+		https://www.climatologylab.org/terraclimate.html and 'FAO'
+		'HWSDv2' https://gaez.fao.org/pages/hwsd soil database.
 	</longdescription>
 </pkgmetadata>

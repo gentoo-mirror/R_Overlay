@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/splitTools sci-CRAN/R6 sci-CRAN/kdry sci-CRAN/progress dev-lang/R:=
+DESCRIPTION=Machine Learning Experiments
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_class r_suggests_ggpubr r_suggests_knitr r_suggests_lintr r_suggests_mlbench r_suggests_mlr3measures r_suggests_parbayesianoptimization r_suggests_rpart r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/data_table sci-CRAN/splitTools sci-CRAN/R6 sci-CRAN/kdry sci-CRAN/progress r_suggests_class? ( virtual/class ) r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_mlr3measures? ( sci-CRAN/mlr3measures ) r_suggests_parbayesianoptimization? ( sci-CRAN/ParBayesianOptimization ) r_suggests_rpart? ( virtual/rpart ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlexperiments_0.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=87f29e9ac05d4092d2adfa76c7e60497
