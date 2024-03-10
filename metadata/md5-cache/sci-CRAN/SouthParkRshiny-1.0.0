@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/box sci-CRAN/bslib >=sci-CRAN/golem-0.4.1 sci-CRAN/knitr >=sci-CRAN/shiny-1.8.0 sci-CRAN/shinydashboard >=sci-CRAN/config-0.3.2 sci-CRAN/kableExtra dev-lang/R:=
+DESCRIPTION=Data and Shiny Application for the Show SouthPark
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/box sci-CRAN/bslib >=sci-CRAN/golem-0.4.1 sci-CRAN/knitr >=sci-CRAN/shiny-1.8.0 sci-CRAN/shinydashboard >=sci-CRAN/config-0.3.2 sci-CRAN/kableExtra dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SouthParkRshiny_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=50c54b0185c25f9c159ce49235287da0
