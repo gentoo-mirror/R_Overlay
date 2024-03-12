@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/gridExtra-2.3 sci-CRAN/splines2 sci-CRAN/reshape2 virtual/MASS sci-CRAN/ggplot2 >=dev-lang/R-3.0.0 virtual/lattice sci-CRAN/mvtnorm virtual/lattice dev-lang/R:=
+DESCRIPTION=Loading NONMEM Output Files with... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=sci-CRAN/gridExtra-2.3 sci-CRAN/splines2 sci-CRAN/reshape2 virtual/MASS sci-CRAN/ggplot2 >=dev-lang/R-3.0.0 virtual/lattice sci-CRAN/mvtnorm virtual/lattice r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nonmem2R_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=85444f509eb0269147f32fdbd72ea44a

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/httr2 sci-CRAN/stringr sci-CRAN/htmltools sci-CRAN/xml2 sci-CRAN/bslib sci-CRAN/glue sci-CRAN/downlit sci-CRAN/knitr sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Hyperlink Automatic Detection
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/httr2 sci-CRAN/stringr sci-CRAN/htmltools sci-CRAN/xml2 sci-CRAN/bslib sci-CRAN/glue sci-CRAN/downlit sci-CRAN/knitr sci-CRAN/rlang dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/link_2024.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=270da207dfda435f29f7b167bc26d47c
