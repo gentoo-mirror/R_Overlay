@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/foreach sci-CRAN/text2vec virtual/Matrix sci-CRAN/stringi sci-CRAN/dplyr sci-CRAN/fastmatch sci-CRAN/tibble sci-CRAN/rsvd sci-CRAN/doParallel sci-CRAN/kit >=sci-CRAN/qgraph-1.6.9 >=sci-CRAN/igraph-1.2.6 sci-CRAN/rlang virtual/cluster sci-CRAN/permute dev-lang/R:=
+DESCRIPTION=R Tools for Text Matrices, Embed... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_quanteda r_suggests_testthat r_suggests_tm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/foreach sci-CRAN/text2vec virtual/Matrix sci-CRAN/stringi sci-CRAN/dplyr sci-CRAN/fastmatch sci-CRAN/tibble sci-CRAN/rsvd sci-CRAN/doParallel sci-CRAN/kit >=sci-CRAN/qgraph-1.6.9 >=sci-CRAN/igraph-1.2.6 sci-CRAN/rlang virtual/cluster sci-CRAN/permute r_suggests_quanteda? ( sci-CRAN/quanteda ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tm? ( sci-CRAN/tm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/text2map_0.1.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7cc07d6181ca97ad46d4cd9b11dc252a
