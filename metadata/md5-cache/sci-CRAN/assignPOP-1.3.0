@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/e1071 sci-CRAN/ggplot2 sci-CRAN/doParallel sci-CRAN/caret sci-CRAN/foreach virtual/MASS sci-CRAN/randomForest sci-CRAN/reshape2 sci-CRAN/stringr sci-CRAN/tree sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Population Assignment using Gene... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gtable r_suggests_iterators r_suggests_klar r_suggests_knitr r_suggests_rmarkdown r_suggests_stringi r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/e1071 sci-CRAN/ggplot2 sci-CRAN/doParallel sci-CRAN/caret sci-CRAN/foreach virtual/MASS sci-CRAN/randomForest sci-CRAN/reshape2 sci-CRAN/stringr sci-CRAN/tree sci-CRAN/rlang r_suggests_gtable? ( sci-CRAN/gtable ) r_suggests_iterators? ( sci-CRAN/iterators ) r_suggests_klar? ( sci-CRAN/klaR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringi? ( sci-CRAN/stringi ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/assignPOP_1.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a9731d9599eddfdbbbc87f721e8698ee

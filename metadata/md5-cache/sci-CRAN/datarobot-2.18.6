@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/jsonlite-1.0 >=sci-CRAN/httr-1.2.0 >=sci-CRAN/yaml-2.1.19 >=dev-lang/R-3.5 dev-lang/R:=
+DESCRIPTION=DataRobot Predictive Modeling API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ameshousing r_suggests_beanplot r_suggests_data_table r_suggests_doby r_suggests_ggplot2 r_suggests_insurancedata r_suggests_knitr r_suggests_lintr r_suggests_lubridate r_suggests_memoise r_suggests_mlbench r_suggests_modelwordcloud r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/jsonlite-1.0 >=sci-CRAN/httr-1.2.0 >=sci-CRAN/yaml-2.1.19 >=dev-lang/R-3.5 r_suggests_ameshousing? ( sci-CRAN/AmesHousing ) r_suggests_beanplot? ( sci-CRAN/beanplot ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_doby? ( sci-CRAN/doBy ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_insurancedata? ( sci-CRAN/insuranceData ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_memoise? ( sci-CRAN/memoise ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_modelwordcloud? ( sci-CRAN/modelwordcloud ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/datarobot_2.18.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=410e2d01952f18c7d40e9042b0941a08
