@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mice dev-lang/R:=
+DESCRIPTION=Calculate How many Imputations a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_amelia r_suggests_jomo r_suggests_mitools r_suggests_roxygen2 r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/mice r_suggests_amelia? ( sci-CRAN/Amelia ) r_suggests_jomo? ( sci-CRAN/jomo ) r_suggests_mitools? ( sci-CRAN/mitools ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/howManyImputations_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5ddce3b7f27f7c610675f02b7ca76a52

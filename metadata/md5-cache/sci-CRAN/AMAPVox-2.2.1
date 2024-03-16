@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/stringr sci-CRAN/rappdirs sci-CRAN/dplyr >=dev-lang/R-4.0.0 sci-CRAN/curl sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=LiDAR Data Voxelisation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fields r_suggests_ggplot2 r_suggests_knitr r_suggests_rann r_suggests_refmanager r_suggests_rgl r_suggests_rmarkdown r_suggests_sf r_suggests_terra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/data_table sci-CRAN/stringr sci-CRAN/rappdirs sci-CRAN/dplyr >=dev-lang/R-4.0.0 sci-CRAN/curl sci-CRAN/jsonlite r_suggests_fields? ( sci-CRAN/fields ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rann? ( sci-CRAN/RANN ) r_suggests_refmanager? ( sci-CRAN/RefManageR ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_terra? ( sci-CRAN/terra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AMAPVox_2.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=666a38cd2ba95cbb0e889a952a45dbc0
