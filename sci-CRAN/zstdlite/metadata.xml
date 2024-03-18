@@ -11,7 +11,8 @@
 		and programs supporting 'Zstandard' compression. Dictionaries
 		are supported for more effective compression of small data, and
 		functions are provided for training these dictionaries. This
-		implementation is a wrapper around the 'Zstandard' 'C' library
-		which is available from https://github.com/facebook/zstd.
+		implementation provides an R interface to advanced features of
+		the 'Zstandard' 'C' library (available from
+		https://github.com/facebook/zstd).
 	</longdescription>
 </pkgmetadata>
