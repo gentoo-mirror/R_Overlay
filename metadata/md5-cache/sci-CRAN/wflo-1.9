@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/terra sci-CRAN/emstreeR sci-CRAN/plotrix >=dev-lang/R-3.5.0 sci-CRAN/progress sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Data Set and Helper Functions fo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dosnow r_suggests_foreach r_suggests_mass r_suggests_nloptr r_suggests_pso r_suggests_rgenoud r_suggests_snow byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/terra sci-CRAN/emstreeR sci-CRAN/plotrix >=dev-lang/R-3.5.0 sci-CRAN/progress sci-CRAN/sf r_suggests_dosnow? ( sci-CRAN/doSNOW ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_mass? ( virtual/MASS ) r_suggests_nloptr? ( sci-CRAN/nloptr ) r_suggests_pso? ( sci-CRAN/pso ) r_suggests_rgenoud? ( sci-CRAN/rgenoud ) r_suggests_snow? ( sci-CRAN/snow ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/wflo_1.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fcad44ad00d9ebea23700764b9524ada
