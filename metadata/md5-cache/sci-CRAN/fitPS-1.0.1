@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/pbapply sci-CRAN/Rdpack sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/Hmisc sci-CRAN/iterators sci-CRAN/knitr sci-CRAN/ks sci-CRAN/readxl sci-CRAN/VGAM dev-lang/R:=
+DESCRIPTION=Fit Zeta Distributions to Forensic Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_sp r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/pbapply sci-CRAN/Rdpack sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/Hmisc sci-CRAN/iterators sci-CRAN/knitr sci-CRAN/ks sci-CRAN/readxl sci-CRAN/VGAM r_suggests_sp? ( sci-CRAN/sp ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fitPS_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f785e638a48e502f49aa55d68a710a21

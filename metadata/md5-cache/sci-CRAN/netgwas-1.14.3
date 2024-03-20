@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/igraph >=dev-lang/R-3.1.0 sci-CRAN/glasso sci-CRAN/qtl virtual/MASS sci-CRAN/huge sci-CRAN/tmvtnorm dev-lang/R:=
+DESCRIPTION=Network-Based Genome Wide Association Studies
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix sci-CRAN/igraph >=dev-lang/R-3.1.0 sci-CRAN/glasso sci-CRAN/qtl virtual/MASS sci-CRAN/huge sci-CRAN/tmvtnorm r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/netgwas_1.14.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=266e9ceeefbcaced223327df3ed05ec3

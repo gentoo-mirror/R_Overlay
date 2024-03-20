@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/glue sci-CRAN/stringi >=dev-lang/R-3.6 >=sci-CRAN/fmtr-1.5.8 >=sci-CRAN/common-1.1.0 sci-CRAN/crayon sci-CRAN/jpeg sci-CRAN/zip sci-CRAN/withr dev-lang/R:=
+DESCRIPTION=Creates Statistical Reports
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_devemf r_suggests_dplyr r_suggests_ggplot2 r_suggests_gridextra r_suggests_knitr r_suggests_logr r_suggests_magrittr r_suggests_patchwork r_suggests_readr r_suggests_rmarkdown r_suggests_survminer r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/glue sci-CRAN/stringi >=dev-lang/R-3.6 >=sci-CRAN/fmtr-1.5.8 >=sci-CRAN/common-1.1.0 sci-CRAN/crayon sci-CRAN/jpeg sci-CRAN/zip sci-CRAN/withr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_devemf? ( sci-CRAN/devEMF ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_logr? ( sci-CRAN/logr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survminer? ( sci-CRAN/survminer ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/reporter_1.4.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e6ea2531d5c38207a3120f688f8be66f

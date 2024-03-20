@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/rnaturalearthdata sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/dplyr sci-CRAN/countrycode sci-CRAN/purrr sci-CRAN/sf sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=R Interface to the US Census Bur... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_plotly r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/rnaturalearthdata sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/dplyr sci-CRAN/countrycode sci-CRAN/purrr sci-CRAN/sf sci-CRAN/stringr r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/idbr_1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9274f0247e3e552f3bbbe3d9349b36c4
