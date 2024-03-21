@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/diffobj sci-CRAN/maybe sci-CRAN/stringr sci-CRAN/tibble >=dev-lang/R-4.0 sci-CRAN/clipr sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Add Logging to Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_lubridate r_suggests_purrr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/diffobj sci-CRAN/maybe sci-CRAN/stringr sci-CRAN/tibble >=dev-lang/R-4.0 sci-CRAN/clipr sci-CRAN/rlang r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.4 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/chronicler_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f90e8b8d94926046ecaba149f01dd387

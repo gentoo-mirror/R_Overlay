@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/reshape2 virtual/survival sci-CRAN/ggplot2 sci-CRAN/cmprsk sci-CRAN/randomForest dev-lang/R:=
+DESCRIPTION=Plotting Decision Curve Analysis... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/reshape2 virtual/survival sci-CRAN/ggplot2 sci-CRAN/cmprsk sci-CRAN/randomForest dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggscidca_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7d9670f0fe340e71edf9990e7f17fd8f

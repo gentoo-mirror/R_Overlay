@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/separationplot sci-CRAN/Hmisc sci-CRAN/abind sci-CRAN/plyr >=sci-CRAN/Rcpp-1.0.2 sci-CRAN/gtools sci-CRAN/glue dev-lang/R:=
+DESCRIPTION=Estimate Ensemble Bayesian Model... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/separationplot sci-CRAN/Hmisc sci-CRAN/abind sci-CRAN/plyr >=sci-CRAN/Rcpp-1.0.2 sci-CRAN/gtools sci-CRAN/glue sci-CRAN/Rcpp dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EBMAforecast_1.0.32.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4cc43a2a34603a30def3628f6c66cfa2

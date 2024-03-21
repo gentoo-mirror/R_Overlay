@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/callr sci-CRAN/rlang sci-CRAN/fs dev-lang/R:=
+DESCRIPTION=Pre-Compiled CmdStan Models in R Packages
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_markdown r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/callr sci-CRAN/rlang sci-CRAN/fs r_suggests_knitr? ( >=sci-CRAN/knitr-1.30 ) r_suggests_markdown? ( >=sci-CRAN/markdown-1.1 ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.4 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/instantiate_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bea644f05593dc0080de3504c4a5d817
