@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/CDM sci-CRAN/Rcpp sci-CRAN/coda sci-CRAN/psychotools sci-CRAN/sirt sci-CRAN/TAM dev-lang/R:=
+DESCRIPTION=Item Response Models for Multiple Ratings
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/CDM sci-CRAN/Rcpp sci-CRAN/coda sci-CRAN/psychotools sci-CRAN/sirt sci-CRAN/TAM sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/immer_1.5-13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ecb7ba6f9349afca3c77715c644ff13d

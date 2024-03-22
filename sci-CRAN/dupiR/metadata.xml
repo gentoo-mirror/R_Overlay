@@ -2,8 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Bayesian inference from count data using discrete uniform priors
-		// Inference of population sizes using a binomial likelihood
-		and least informative discrete uniform priors.
+		Bayesian Inference from Count Data using Discrete Uniform Priors
+		// We consider a set of sample counts obtained by sampling
+		arbitrary fractions of a finite volume containing an
+		homogeneously dispersed population of identical objects. This
+		package implements a Bayesian derivation of the posterior
+		probability distribution of the population size using a
+		binomial likelihood and non-conjugate, discrete uniform priors
+		under sampling with or without replacement. This can be used
+		for a variety of statistical problems involving absolute
+		quantification under uncertainty. See Comoglio et al. (2013)
+		doi:10.1371/journal.pone.0074388.
 	</longdescription>
 </pkgmetadata>

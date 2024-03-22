@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/RcmdrMisc sci-CRAN/caret dev-lang/R:=
+DESCRIPTION=Metodos Predictivos de Aprendiza... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_appliedpredictivemodeling r_suggests_car r_suggests_gbm r_suggests_glmnet r_suggests_islr r_suggests_leaps r_suggests_lmtest r_suggests_mgcv r_suggests_neuralnettools r_suggests_np r_suggests_pdp r_suggests_plot3d r_suggests_vivid byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/RcmdrMisc sci-CRAN/caret r_suggests_appliedpredictivemodeling? ( sci-CRAN/AppliedPredictiveModeling ) r_suggests_car? ( sci-CRAN/car ) r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_islr? ( sci-CRAN/ISLR ) r_suggests_leaps? ( sci-CRAN/leaps ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_neuralnettools? ( sci-CRAN/NeuralNetTools ) r_suggests_np? ( sci-CRAN/np ) r_suggests_pdp? ( sci-CRAN/pdp ) r_suggests_plot3d? ( sci-CRAN/plot3D ) r_suggests_vivid? ( sci-CRAN/vivid ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mpae_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=625dfd73a9626e757c225b857ab94fb2

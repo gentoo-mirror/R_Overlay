@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/rlang-0.4.0 sci-CRAN/tibble sci-CRAN/tidyr >=sci-CRAN/dplyr-1.0.0 sci-CRAN/purrr sci-CRAN/assertthat sci-CRAN/stringr sci-CRAN/R6 >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/data_table dev-lang/R:=
+DESCRIPTION=Blocking and Randomization for Experimental Design
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bench r_suggests_bestnormalize r_suggests_cowplot r_suggests_devtools r_suggests_ggpattern r_suggests_gt r_suggests_here r_suggests_knitr r_suggests_markdown r_suggests_osat r_suggests_pkgdown r_suggests_printr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/rlang-0.4.0 sci-CRAN/tibble sci-CRAN/tidyr >=sci-CRAN/dplyr-1.0.0 sci-CRAN/purrr sci-CRAN/assertthat sci-CRAN/stringr sci-CRAN/R6 >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/data_table r_suggests_bench? ( sci-CRAN/bench ) r_suggests_bestnormalize? ( sci-CRAN/bestNormalize ) r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_devtools? ( >=sci-CRAN/devtools-2.0.0 ) r_suggests_ggpattern? ( sci-CRAN/ggpattern ) r_suggests_gt? ( sci-CRAN/gt ) r_suggests_here? ( sci-CRAN/here ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_osat? ( sci-BIOC/OSAT ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) r_suggests_printr? ( sci-CRAN/printr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/designit_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ff9af4779c7038ae5639fcf429f8abd9
