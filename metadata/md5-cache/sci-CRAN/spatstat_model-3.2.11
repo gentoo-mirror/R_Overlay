@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix virtual/nlme virtual/mgcv virtual/rpart sci-CRAN/tensor >=sci-CRAN/spatstat_explore-3.2.7 >=sci-CRAN/spatstat_data-3.0.4 >=sci-CRAN/spatstat_geom-3.2.9 >=sci-CRAN/goftest-1.2.2 >=dev-lang/R-3.5.0 >=sci-CRAN/spatstat_random-3.2.3 >=sci-CRAN/spatstat_sparse-3.0.3 sci-CRAN/abind >=sci-CRAN/spatstat_utils-3.0.4 dev-lang/R:=
+DESCRIPTION=Parametric Statistical Modelling... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fftwtools r_suggests_glmnet r_suggests_gsl r_suggests_locfit r_suggests_nleqslv r_suggests_nnet r_suggests_sm r_suggests_spatial r_suggests_spatstat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/Matrix virtual/nlme virtual/mgcv virtual/rpart sci-CRAN/tensor >=sci-CRAN/spatstat_explore-3.2.7 >=sci-CRAN/spatstat_data-3.0.4 >=sci-CRAN/spatstat_geom-3.2.9 >=sci-CRAN/goftest-1.2.2 >=dev-lang/R-3.5.0 >=sci-CRAN/spatstat_random-3.2.3 >=sci-CRAN/spatstat_sparse-3.0.3 sci-CRAN/abind >=sci-CRAN/spatstat_utils-3.0.4 r_suggests_fftwtools? ( >=sci-CRAN/fftwtools-0.9.8 ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_gsl? ( sci-CRAN/gsl ) r_suggests_locfit? ( sci-CRAN/locfit ) r_suggests_nleqslv? ( sci-CRAN/nleqslv ) r_suggests_nnet? ( virtual/nnet ) r_suggests_sm? ( sci-CRAN/sm ) r_suggests_spatial? ( virtual/spatial ) r_suggests_spatstat? ( >=sci-CRAN/spatstat-3.0.7 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatstat.model_3.2-11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1a97f9548b2ea98a370b12ae9114f880

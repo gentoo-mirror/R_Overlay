@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fitdistrplus sci-CRAN/ggplot2 sci-CRAN/survminer sci-CRAN/survsim sci-CRAN/gridExtra virtual/boot >=dev-lang/R-3.5.0 virtual/survival sci-CRAN/actuar dev-lang/R:=
+DESCRIPTION=Goodness-of-Fit Methods for Comp... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/fitdistrplus sci-CRAN/ggplot2 sci-CRAN/survminer sci-CRAN/survsim sci-CRAN/gridExtra virtual/boot >=dev-lang/R-3.5.0 virtual/survival sci-CRAN/actuar dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GofCens_0.98.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9af2adfc4ebcbb9367b0209465cb86e6
