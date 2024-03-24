@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/msm sci-CRAN/knitr sci-CRAN/magrittr >=dev-lang/R-4.0 sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/purrr >=sci-CRAN/fixest-0.10.4 sci-CRAN/sandwich sci-CRAN/broom sci-CRAN/Formula dev-lang/R:=
+DESCRIPTION=Replication of An Advanced Guide... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/msm sci-CRAN/knitr sci-CRAN/magrittr >=dev-lang/R-4.0 sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/purrr >=sci-CRAN/fixest-0.10.4 sci-CRAN/sandwich sci-CRAN/broom sci-CRAN/Formula r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tradepolicy_0.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=00668a0d82e1c8e3e74c98a617a2edb6
