@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sandwich sci-CRAN/generics >=sci-CRAN/miscTools-0.6.8 dev-lang/R:=
+DESCRIPTION=Maximum Likelihood Estimation and Related Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_clue r_suggests_dlm r_suggests_mass r_suggests_plot3d r_suggests_tibble r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/sandwich sci-CRAN/generics >=sci-CRAN/miscTools-0.6.8 r_suggests_clue? ( sci-CRAN/clue ) r_suggests_dlm? ( sci-CRAN/dlm ) r_suggests_mass? ( virtual/MASS ) r_suggests_plot3d? ( sci-CRAN/plot3D ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/maxLik_1.5-2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f137511f029f4bdfb44403591c4a09da

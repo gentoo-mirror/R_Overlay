@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/mutoss-0.1.6 sci-CRAN/JGR >=sci-CRAN/JavaGD-0.5.2 sci-CRAN/plotrix >=sci-CRAN/CommonJavaJars-1.1.0 sci-CRAN/multcomp >=sci-CRAN/rJava-0.8.0 dev-lang/R:=
+DESCRIPTION=A Graphical User Interface for the MuToss Project
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/mutoss-0.1.6 sci-CRAN/JGR >=sci-CRAN/JavaGD-0.5.2 sci-CRAN/plotrix >=sci-CRAN/CommonJavaJars-1.1.0 sci-CRAN/multcomp >=sci-CRAN/rJava-0.8.0 virtual/jdk dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mutossGUI_0.1-12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=14de53ba79f15ea7e833c291f139c06b
