@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.2 virtual/Matrix >=sci-CRAN/crossdes-1.1.1 >=sci-CRAN/rJava-0.8.3 virtual/MASS >=sci-CRAN/RcppArmadillo-0.2.0 sci-CRAN/digest sci-CRAN/xtable sci-CRAN/ggplot2 >=sci-CRAN/CommonJavaJars-1.1.0 >=sci-CRAN/Rcpp-0.10.3 sci-CRAN/JavaGD sci-CRAN/multcomp dev-lang/R:=
+DESCRIPTION=Analysis and Search of Crossover Designs
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_nlme r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.0.2 virtual/Matrix >=sci-CRAN/crossdes-1.1.1 >=sci-CRAN/rJava-0.8.3 virtual/MASS >=sci-CRAN/RcppArmadillo-0.2.0 sci-CRAN/digest sci-CRAN/xtable sci-CRAN/ggplot2 >=sci-CRAN/CommonJavaJars-1.1.0 >=sci-CRAN/Rcpp-0.10.3 sci-CRAN/JavaGD sci-CRAN/multcomp >=sci-CRAN/Rcpp-0.10.3 >=sci-CRAN/RcppArmadillo-0.2.0 virtual/jdk r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nlme? ( virtual/nlme ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Crossover_0.1-22.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=08c8df643a59aa754383d7e6b5dc8b37

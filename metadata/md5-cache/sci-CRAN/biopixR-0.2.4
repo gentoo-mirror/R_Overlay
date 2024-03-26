@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/magick sci-CRAN/imager sci-CRAN/data_table dev-lang/R[tk] sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Extracting Insights from Biological Images
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_knitr r_suggests_kohonen r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3+
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/magick sci-CRAN/imager sci-CRAN/data_table dev-lang/R[tk] sci-CRAN/foreach r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_kohonen? ( sci-CRAN/kohonen ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/biopixR_0.2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3f5b5389355105a275c1fc722495c46f

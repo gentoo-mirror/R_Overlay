@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 sci-CRAN/goftest sci-CRAN/TukeyGH77 sci-CRAN/sn sci-CRAN/VGAM dev-lang/R:=
+DESCRIPTION=Finite Mixture Parametrization
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fitdistrplus r_suggests_ggplot2 r_suggests_mixsmsn r_suggests_mixtools r_suggests_scales byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.3.0 sci-CRAN/goftest sci-CRAN/TukeyGH77 sci-CRAN/sn sci-CRAN/VGAM r_suggests_fitdistrplus? ( sci-CRAN/fitdistrplus ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_mixsmsn? ( sci-CRAN/mixsmsn ) r_suggests_mixtools? ( sci-CRAN/mixtools ) r_suggests_scales? ( sci-CRAN/scales ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fmx_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1e4feff3fff04c151347264a69d40ae7

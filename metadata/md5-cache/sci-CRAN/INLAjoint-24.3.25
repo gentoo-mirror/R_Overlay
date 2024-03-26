@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/numDeriv sci-CRAN/ggplot2 virtual/Matrix >=dev-lang/R-3.6 sci-CRAN/lme4 virtual/nlme sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Multivariate Joint Modeling for ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_frailtypack r_suggests_jmbayes2 r_suggests_knitr r_suggests_r_rsp r_suggests_rmarkdown r_suggests_rstanarm r_suggests_smcure r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/numDeriv sci-CRAN/ggplot2 virtual/Matrix >=dev-lang/R-3.6 sci-CRAN/lme4 virtual/nlme sci-CRAN/mvtnorm r_suggests_frailtypack? ( sci-CRAN/frailtypack ) r_suggests_jmbayes2? ( sci-CRAN/JMbayes2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstanarm? ( sci-CRAN/rstanarm ) r_suggests_smcure? ( sci-CRAN/smcure ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/INLAjoint_24.3.25.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=10e1ad3cca9322b61a4dd4eab6ad69ba

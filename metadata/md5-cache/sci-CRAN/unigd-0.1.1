@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 >=sci-CRAN/systemfonts-1.0.0 dev-lang/R:=
+DESCRIPTION=Universal Graphics Device
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_fontquiver r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2.0 >=sci-CRAN/systemfonts-1.0.0 >=sci-CRAN/cpp11-0.2.4 media-libs/freetype x11-libs/cairo media-libs/libpng sci-CRAN/systemfonts media-libs/fontconfig r_suggests_covr? ( sci-CRAN/covr ) r_suggests_fontquiver? ( >=sci-CRAN/fontquiver-0.2.0 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xml2? ( >=sci-CRAN/xml2-1.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/unigd_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5c76847ee8cc4e51ac18ce65660ee137

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/gamlss-4.3.3 sci-CRAN/ellipse sci-CRAN/gamlss_dist sci-CRAN/gamlss_foreach >=dev-lang/R-3.5.0 sci-CRAN/ggridges sci-CRAN/gamlss_inf sci-CRAN/foreach virtual/mgcv sci-CRAN/ggplot2 sci-CRAN/yaImpute dev-lang/R:=
+DESCRIPTION=Plotting Functions for Generaliz... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glmnet r_suggests_gridextra r_suggests_igraph r_suggests_networkd3 r_suggests_reshape2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=sci-CRAN/gamlss-4.3.3 sci-CRAN/ellipse sci-CRAN/gamlss_dist sci-CRAN/gamlss_foreach >=dev-lang/R-3.5.0 sci-CRAN/ggridges sci-CRAN/gamlss_inf sci-CRAN/foreach virtual/mgcv sci-CRAN/ggplot2 sci-CRAN/yaImpute r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_networkd3? ( sci-CRAN/networkD3 ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gamlss.ggplots_2.1-12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=39fc424e6730ffc4c5dad8b0288c3f82
