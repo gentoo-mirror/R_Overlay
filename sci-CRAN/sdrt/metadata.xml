@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimating the Sufficient Dimension Reduction Subspaces in Time
+		Series // The sdrt() function is designed for estimating
+		subspaces for Sufficient Dimension Reduction (SDR) in time
+		series, with a specific focus on the Time Series Central Mean
+		subspace (TS-CMS). The package employs the Fourier
+		transformation method proposed by Samadi and De Alwis (2023)
+		doi:10.48550/arXiv.2312.02110 and the Nadaraya-Watson kernel
+		smoother method proposed by Park et al. (2009)
+		doi:10.1198/jcgs.2009.08076 for estimating the TS-CMS. The
+		package provides tools for estimating distances between
+		subspaces and includes functions for selecting model parameters
+		using the Fourier transformation method.
+	</longdescription>
+</pkgmetadata>

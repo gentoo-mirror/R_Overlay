@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/networkDynamic sci-CRAN/igraph sci-CRAN/knitr sci-CRAN/plyr sci-CRAN/mapproj sci-CRAN/ggplot2 >=sci-CRAN/Rcpp-0.11.3 sci-CRAN/RColorBrewer sci-CRAN/VGAM virtual/MASS sci-CRAN/magicaxis sci-CRAN/network dev-lang/R:=
+DESCRIPTION=Generative Mechanism Estimation ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/networkDynamic sci-CRAN/igraph sci-CRAN/knitr sci-CRAN/plyr sci-CRAN/mapproj sci-CRAN/ggplot2 >=sci-CRAN/Rcpp-0.11.3 sci-CRAN/RColorBrewer sci-CRAN/VGAM virtual/MASS sci-CRAN/magicaxis sci-CRAN/network sci-CRAN/Rcpp r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PAFit_1.2.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9dfae20cc43258f0c37dacdf4a81002f
