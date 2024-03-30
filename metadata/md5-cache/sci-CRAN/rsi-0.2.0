@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/httr sci-CRAN/rlang sci-CRAN/proceduralnames sci-CRAN/lifecycle sci-CRAN/rstac sci-CRAN/terra sci-CRAN/tibble sci-CRAN/glue sci-CRAN/future_apply sci-CRAN/jsonlite sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Efficiently Retrieve and Process Satellite Imagery
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_knitr r_suggests_progressr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/httr sci-CRAN/rlang sci-CRAN/proceduralnames sci-CRAN/lifecycle sci-CRAN/rstac sci-CRAN/terra sci-CRAN/tibble sci-CRAN/glue sci-CRAN/future_apply sci-CRAN/jsonlite sci-CRAN/sf r_suggests_curl? ( sci-CRAN/curl ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_progressr? ( sci-CRAN/progressr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rsi_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c0d2cc0f8662a7d01e5461f9a83e79ea
