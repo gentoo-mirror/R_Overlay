@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 dev-lang/R:=
+DESCRIPTION=Extension of data.frame
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bit r_suggests_bit64 r_suggests_knitr r_suggests_markdown r_suggests_r_utils r_suggests_xts r_suggests_yaml r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MPL-2.0
+RDEPEND=>=dev-lang/R-3.1.0 r_suggests_bit? ( >=sci-CRAN/bit-4.0.4 ) r_suggests_bit64? ( >=sci-CRAN/bit64-4.0.0 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_xts? ( sci-CRAN/xts ) r_suggests_yaml? ( sci-CRAN/yaml ) r_suggests_zoo? ( >=sci-CRAN/zoo-1.8.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/data.table_1.15.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=683e51660e885d96851c4643248b9876
