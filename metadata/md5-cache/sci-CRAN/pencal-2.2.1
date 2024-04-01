@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme virtual/survival sci-BIOC/survcomp sci-CRAN/purrr >=dev-lang/R-4.1.0 sci-CRAN/glmnet sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/dplyr sci-CRAN/lcmm sci-CRAN/magic virtual/MASS virtual/Matrix virtual/survival sci-CRAN/riskRegression dev-lang/R:=
+DESCRIPTION=Penalized Regression Calibration... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_ptmixed r_suggests_rmarkdown r_suggests_survminer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/nlme virtual/survival sci-BIOC/survcomp sci-CRAN/purrr >=dev-lang/R-4.1.0 sci-CRAN/glmnet sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/dplyr sci-CRAN/lcmm sci-CRAN/magic virtual/MASS virtual/Matrix virtual/survival sci-CRAN/riskRegression r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_ptmixed? ( sci-CRAN/ptmixed ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survminer? ( sci-CRAN/survminer ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pencal_2.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=83981e84ab7c5b94bc019d76a5281009
