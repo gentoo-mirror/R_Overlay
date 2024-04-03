@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bootstrap Confidence Intervals for Robust and Classical Linear
+		Mixed Model Estimators // The main function calculates
+		confidence intervals (CI) for Mixed Models, utilizing both
+		classical estimators from the lmer() function in the 'lme4'
+		package and robust estimators from the rlmer() function in the
+		'robustlmm' package, as well as the varComprob() function in
+		the 'robustvarComp' package. Three methods are available: the
+		classical Wald method, the wild bootstrap, and the parametric
+		bootstrap. Bootstrap methods offer flexibility in obtaining
+		lower and upper bounds through percentile or BCa methods. More
+		details are given in \n Mason, F., Cantoni, E.,  Ghisletta, P.
+		(2021) doi:10.5964/meth.6607 and \n Mason, F., Cantoni, E.,
+		Ghisletta, P. (2024) doi:10.1037/met0000643.
+	</longdescription>
+</pkgmetadata>

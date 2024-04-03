@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/tidyverse >=dev-lang/R-3.5.0 sci-CRAN/forcats sci-CRAN/gridExtra sci-CRAN/ggthemes dev-lang/R:=
+DESCRIPTION=Displays Percentage and Absolute Changes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_colorspace r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/tidyverse >=dev-lang/R-3.5.0 sci-CRAN/forcats sci-CRAN/gridExtra sci-CRAN/ggthemes r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/UpAndDownPlots_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=56c2bd3a3c87448c0e0962760fb26fa7
