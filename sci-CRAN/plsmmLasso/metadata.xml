@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variable Selection and Inference for Partial Semiparametric
+		Linear Mixed-Effects Model // Implements a partial linear
+		semiparametric mixed-effects model (PLSMM) featuring a random
+		intercept and applies a lasso penalty to both the fixed effects
+		and the coefficients associated with the nonlinear function.
+		The model also accommodates interactions between the nonlinear
+		function and a grouping variable, allowing for the capture of
+		group-specific nonlinearities. Nonlinear functions are modeled
+		using a set of bases functions. Estimation is conducted using a
+		penalized Expectation-Maximization algorithm, and the package
+		offers flexibility in choosing between various information
+		criteria for model selection. Post-selection inference is
+		carried out using a debiasing method, while inference on the
+		nonlinear functions employs a bootstrap approach.
+	</longdescription>
+</pkgmetadata>

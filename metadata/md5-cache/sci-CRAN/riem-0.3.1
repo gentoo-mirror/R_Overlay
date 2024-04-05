@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cli >=sci-CRAN/jsonlite-0.9.19 sci-CRAN/httr2 sci-CRAN/magrittr >=sci-CRAN/lubridate-1.9.0.9000 sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Accesses Weather Data from the I... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_forecast r_suggests_ggplot2 r_suggests_httptest2 r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_vcr r_suggests_weathermetrics r_suggests_xts byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/cli >=sci-CRAN/jsonlite-0.9.19 sci-CRAN/httr2 sci-CRAN/magrittr >=sci-CRAN/lubridate-1.9.0.9000 sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tibble r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_httptest2? ( sci-CRAN/httptest2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vcr? ( sci-CRAN/vcr ) r_suggests_weathermetrics? ( sci-CRAN/weathermetrics ) r_suggests_xts? ( sci-CRAN/xts ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/riem_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=11760e58bca7fdb2438dba128a04e956

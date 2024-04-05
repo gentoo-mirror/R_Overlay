@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table dev-lang/R:=
+DESCRIPTION=Split a Dataframe, Tibble, or Da... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/data_table r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/trainsplit_1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=40a29aa446f4c4aeab7b9614374c441e

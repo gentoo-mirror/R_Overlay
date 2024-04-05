@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rmarkdown >=sci-CRAN/DIZutils-0.1.2 >=sci-CRAN/DIZtools-0.0.8 sci-CRAN/future_apply sci-CRAN/data_table sci-CRAN/future sci-CRAN/jsonlite sci-CRAN/kableExtra sci-CRAN/knitr sci-CRAN/magrittr sci-CRAN/tinytex sci-CRAN/parsedate dev-lang/R:=
+DESCRIPTION=Core Functions for Data Quality Assessment
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dt r_suggests_lintr r_suggests_remotes r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/rmarkdown >=sci-CRAN/DIZutils-0.1.2 >=sci-CRAN/DIZtools-0.0.8 sci-CRAN/future_apply sci-CRAN/data_table sci-CRAN/future sci-CRAN/jsonlite sci-CRAN/kableExtra sci-CRAN/knitr sci-CRAN/magrittr sci-CRAN/tinytex sci-CRAN/parsedate r_suggests_dt? ( sci-CRAN/DT ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DQAstats_0.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=84797629fa2bfce30c4b4dcb694f7260
