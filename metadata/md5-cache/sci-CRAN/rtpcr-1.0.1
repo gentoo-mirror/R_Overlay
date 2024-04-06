@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/reshape2 sci-CRAN/lme4 sci-CRAN/ggplot2 >=dev-lang/R-3.5.0 sci-CRAN/agricolae sci-CRAN/tidyr sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=qPCR Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/reshape2 sci-CRAN/lme4 sci-CRAN/ggplot2 >=dev-lang/R-3.5.0 sci-CRAN/agricolae sci-CRAN/tidyr sci-CRAN/dplyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rtpcr_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=180b4e8250cf7abdc0b9a788737f977f
