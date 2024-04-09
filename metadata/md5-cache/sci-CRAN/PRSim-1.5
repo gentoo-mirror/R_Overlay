@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lmomco sci-CRAN/splus2R sci-CRAN/mev sci-CRAN/goftest >=dev-lang/R-3.5.0 sci-CRAN/wavScalogram dev-lang/R:=
+DESCRIPTION=Stochastic Simulation of Streamf... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_evd r_suggests_gb2 r_suggests_ismev r_suggests_lattice r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/lmomco sci-CRAN/splus2R sci-CRAN/mev sci-CRAN/goftest >=dev-lang/R-3.5.0 sci-CRAN/wavScalogram r_suggests_boot? ( virtual/boot ) r_suggests_evd? ( sci-CRAN/evd ) r_suggests_gb2? ( sci-CRAN/GB2 ) r_suggests_ismev? ( sci-CRAN/ismev ) r_suggests_lattice? ( virtual/lattice ) r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PRSim_1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ac35a194046dbb338616587c5c4c3370

@@ -4,13 +4,14 @@
 	<longdescription>
 		Imbalanced Resampling using SMOTE with Boosting (SMOTEWB) //
 		Provides the SMOTE with Boosting (SMOTEWB) algorithm. See F.
-		Salam, M. A. Cengiz (2022) doi:10.1016/j.eswa.2022.117023. Also
-		SMOTEWB provides faster versions of several resampling methods
-		for imbalanced datasets, including SMOTE with Boosting
-		(SMOTEWB), Random Walk Oversampling (RWO), ADASYN, Borderline
-		SMOTE (BLSMOTE), Random Over-Sampling (ROS), Random Under-
-		Sampling (RUS), Safe-Level SMOTE (SLSMOTE), Relocating Safe-
-		Level SMOTE (RSLSMOTE), and Random Over-Sampling Examples
-		(ROSE).
+		Salam, M. A. Cengiz (2022) doi:10.1016/j.eswa.2022.117023. It
+		is a SMOTE-based resampling technique which creates synthetic
+		data on the links between nearest neighbors. SMOTEWB uses
+		boosting weights to determine where to generate new samples and
+		automatically decides the number of neighbors for eacg sample.
+		It is robust to noise and outperforms most of the alternatives
+		according to Matthew Correlation Coefficient metric.
+		Alternative resampling methods are also available in the
+		package.
 	</longdescription>
 </pkgmetadata>
