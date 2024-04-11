@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/backports sci-CRAN/mlr3misc sci-CRAN/paradox sci-CRAN/checkmate >=sci-CRAN/mlr3-0.12.0 sci-CRAN/R6 >=dev-lang/R-3.1.0 sci-CRAN/data_table dev-lang/R:=
+DESCRIPTION=Filter Based Feature Selection for mlr3
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boruta r_suggests_care r_suggests_caret r_suggests_carsurv r_suggests_fselectorrcpp r_suggests_knitr r_suggests_lgr r_suggests_mlr3learners r_suggests_mlr3measures r_suggests_mlr3pipelines r_suggests_praznik r_suggests_rpart r_suggests_survival r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=sci-CRAN/backports sci-CRAN/mlr3misc sci-CRAN/paradox sci-CRAN/checkmate >=sci-CRAN/mlr3-0.12.0 sci-CRAN/R6 >=dev-lang/R-3.1.0 sci-CRAN/data_table r_suggests_boruta? ( sci-CRAN/Boruta ) r_suggests_care? ( sci-CRAN/care ) r_suggests_caret? ( sci-CRAN/caret ) r_suggests_carsurv? ( sci-CRAN/carSurv ) r_suggests_fselectorrcpp? ( sci-CRAN/FSelectorRcpp ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lgr? ( sci-CRAN/lgr ) r_suggests_mlr3learners? ( sci-CRAN/mlr3learners ) r_suggests_mlr3measures? ( sci-CRAN/mlr3measures ) r_suggests_mlr3pipelines? ( sci-CRAN/mlr3pipelines ) r_suggests_praznik? ( sci-CRAN/praznik ) r_suggests_rpart? ( virtual/rpart ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlr3filters_0.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fbff11ea99cb177721e8dc57d90ec11c

@@ -2,11 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Creates an 'igraph' Object that Duplicates Nodes with Self-Loops
-		// Creates a new graph from an existing one, duplicating nodes
-		with self-loops. This can be used for a computation of
-		betweenness centrality that does not drop this essential
-		information. Implements Merelo  Molinari (2024)
+		Computes DNSLbetweenness, a Betweenness Measure that Includes
+		Self-Loops // Computes a new measure, DNSL betweenness, via the
+		creation of a new graph from an existing one, duplicating nodes
+		with self-loops. This betweenness centrality does not drop this
+		essential information. Implements Merelo  Molinari (2024)
 		doi:10.1007/s42001-023-00245-4.
 	</longdescription>
 </pkgmetadata>

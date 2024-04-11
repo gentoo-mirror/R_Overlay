@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/hrbrthemes sci-CRAN/psych sci-CRAN/R2HTML sci-CRAN/cowplot sci-CRAN/rmarkdown sci-CRAN/scales sci-CRAN/paran sci-CRAN/ggplot2 sci-CRAN/knitr virtual/MASS sci-CRAN/polycor sci-CRAN/gert sci-CRAN/pwr sci-CRAN/psychTools sci-CRAN/kableExtra sci-CRAN/MuMIn sci-CRAN/mvtnorm virtual/nlme >=sci-CRAN/OpenMx-2.19.0 virtual/Matrix sci-CRAN/xtable sci-CRAN/openxlsx sci-CRAN/RCurl >=dev-lang/R-4.1.0 sci-CRAN/DiagrammeR sci-CRAN/lavaan virtual/foreign dev-lang/R:=
+DESCRIPTION=Structural Equation Modeling and... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cocor r_suggests_devtools r_suggests_gparotation r_suggests_rhub r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/hrbrthemes sci-CRAN/psych sci-CRAN/R2HTML sci-CRAN/cowplot sci-CRAN/rmarkdown sci-CRAN/scales sci-CRAN/paran sci-CRAN/ggplot2 sci-CRAN/knitr virtual/MASS sci-CRAN/polycor sci-CRAN/gert sci-CRAN/pwr sci-CRAN/psychTools sci-CRAN/kableExtra sci-CRAN/MuMIn sci-CRAN/mvtnorm virtual/nlme >=sci-CRAN/OpenMx-2.19.0 virtual/Matrix sci-CRAN/xtable sci-CRAN/openxlsx sci-CRAN/RCurl >=dev-lang/R-4.1.0 sci-CRAN/DiagrammeR sci-CRAN/lavaan virtual/foreign r_suggests_cocor? ( sci-CRAN/cocor ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_gparotation? ( sci-CRAN/GPArotation ) r_suggests_rhub? ( sci-CRAN/rhub ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/umx_4.20.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c7bf613eb54578357c761e382b4e7af2

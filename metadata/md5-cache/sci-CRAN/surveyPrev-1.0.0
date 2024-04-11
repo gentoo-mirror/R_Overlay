@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/SUMMER sci-CRAN/survey sci-CRAN/ggplot2 sci-CRAN/rdhs sci-CRAN/dplyr sci-CRAN/labelled sci-CRAN/sjlabelled sci-CRAN/naniar sci-CRAN/sp sci-CRAN/spdep sci-CRAN/data_table virtual/Matrix sci-CRAN/raster sci-CRAN/sf sci-CRAN/stringr sci-CRAN/tidyverse dev-lang/R:=
+DESCRIPTION=Mapping the Prevalence of Binary... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geodata r_suggests_kableextra r_suggests_knitr r_suggests_patchwork r_suggests_r_rsp r_suggests_rmarkdown r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/SUMMER sci-CRAN/survey sci-CRAN/ggplot2 sci-CRAN/rdhs sci-CRAN/dplyr sci-CRAN/labelled sci-CRAN/sjlabelled sci-CRAN/naniar sci-CRAN/sp sci-CRAN/spdep sci-CRAN/data_table virtual/Matrix sci-CRAN/raster sci-CRAN/sf sci-CRAN/stringr sci-CRAN/tidyverse r_suggests_geodata? ( sci-CRAN/geodata ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/surveyPrev_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8921b4c0845bb7a35be43f8f7c926170

@@ -2,13 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fast JSON Parser and Generator // A fast JSON parser, generator
-		and validator which converts JSON data to/from R objects.  The
-		standard R data types are supported (e.g. logical, numeric,
-		integer) with configurable handling of NULL and NA values. Data
-		frames, atomic vectors and lists are all supported as data
-		containers translated to/from JSON. This implementation is a
-		wrapper around the 'yyjson' 'C' library which is available from
+		Fast 'JSON', 'NDJSON' and 'GeoJSON' Parser and Generator // A
+		fast 'JSON' parser, generator and validator which converts
+		'JSON', 'NDJSON' (Newline Delimited 'JSON') and 'GeoJSON'
+		(Geographic 'JSON') data to/from R objects.  The standard R
+		data types are supported (e.g. logical, numeric, integer) with
+		configurable handling of NULL and NA values. Data frames,
+		atomic vectors and lists are all supported as data containers
+		translated to/from 'JSON'.  'GeoJSON' data is read in as
+		'simple features' objects. This implementation wraps the
+		'yyjson' 'C' library which is available from
 		https://github.com/ibireme/yyjson.
 	</longdescription>
 </pkgmetadata>
