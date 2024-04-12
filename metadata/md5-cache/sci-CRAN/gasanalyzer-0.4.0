@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 sci-CRAN/tibble sci-CRAN/jsonify sci-CRAN/xml2 sci-CRAN/stringi >=sci-CRAN/tidyxl-1.0.8 sci-CRAN/units sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=Import, Recompute and Analyze Da... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_gridextra r_suggests_knitr r_suggests_photosynthesis r_suggests_rmarkdown r_suggests_spelling byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.3.0 sci-CRAN/tibble sci-CRAN/jsonify sci-CRAN/xml2 sci-CRAN/stringi >=sci-CRAN/tidyxl-1.0.8 sci-CRAN/units sci-CRAN/vctrs r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_photosynthesis? ( sci-CRAN/photosynthesis ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gasanalyzer_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=efa7d5d19b24a1e9fee3170158743e55
