@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-1.0.10 sci-CRAN/gridExtra sci-CRAN/LaplacesDemon virtual/Matrix sci-CRAN/spdep sci-CRAN/sp dev-lang/R:=
+DESCRIPTION=Dynamic ICAR Spatiotemporal Factor Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-1.0.10 sci-CRAN/gridExtra sci-CRAN/LaplacesDemon virtual/Matrix sci-CRAN/spdep sci-CRAN/sp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DIFM_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c1c2a4ed14e4e41eaa657b1a4634c5a7
