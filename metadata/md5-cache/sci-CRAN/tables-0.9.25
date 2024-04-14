@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools >=dev-lang/R-2.12.0 sci-CRAN/knitr dev-lang/R:=
+DESCRIPTION=Formula-Driven Table Generation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_formatters r_suggests_hmisc r_suggests_kableextra r_suggests_magrittr r_suggests_pkgdown r_suggests_rmarkdown r_suggests_tinytable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/htmltools >=dev-lang/R-2.12.0 sci-CRAN/knitr app-text/pandoc r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_formatters? ( sci-CRAN/formatters ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_kableextra? ( >=sci-CRAN/kableExtra-0.9.0 ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tinytable? ( >=sci-CRAN/tinytable-0.0.5 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tables_0.9.25.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d7b9436aa4228aa7a92a95db347aa1c1
