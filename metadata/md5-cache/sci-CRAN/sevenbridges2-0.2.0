@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/data_table sci-CRAN/yaml >=dev-lang/R-4.2.0 sci-CRAN/checkmate sci-CRAN/readr sci-CRAN/purrr sci-CRAN/R6 sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/cli sci-CRAN/curl sci-CRAN/glue sci-CRAN/DescTools dev-lang/R:=
+DESCRIPTION=The Seven Bridges Platform API Client
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_pkgdown r_suggests_remotes r_suggests_rmarkdown r_suggests_stringi r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/data_table sci-CRAN/yaml >=dev-lang/R-4.2.0 sci-CRAN/checkmate sci-CRAN/readr sci-CRAN/purrr sci-CRAN/R6 sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/cli sci-CRAN/curl sci-CRAN/glue sci-CRAN/DescTools r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringi? ( sci-CRAN/stringi ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sevenbridges2_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=31b60e332a92d5c455d9bed224deafb3

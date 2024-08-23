@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Manipulating and Analysing EQ-5d Data // The EQ-5D is a widely-
+		used standarized instrument for measuring Health Related
+		Quality Of Life (HRQOL), developed by the EuroQol group
+		https://euroqol.org/. It assesses five dimensions; mobility,
+		self-care, usual activities, pain/discomfort, and
+		anxiety/depression, using either a three-level (EQ-5D-3L) or
+		five-level (EQ-5D-5L) scale. Scores from these dimensions are
+		commonly converted into a single utility index using country-
+		specific value sets, which are critical in clinical and
+		economic evaluations of healthcare and in population health
+		surveys. The eq5dsuite package enables users to calculate
+		utility index values for the EQ-5D instruments, including
+		crosswalk utilities using the original crosswalk developed by
+		van Hout et al. (2012) doi:10.1016/j.jval.2012.02.008 (mapping
+		EQ-5D-5L responses to EQ-5D-3L index values), or the recently
+		developed reverse crosswalk by van Hout et al. (2021)
+		doi:10.1016/j.jval.2021.03.009 (mapping EQ-5D-3L responses to
+		EQ-5D-5L index values). Users are allowed to add and/or remove
+		user-defined value sets. Additionally, the package provides
+		tools to analyze EQ-5D data according to the recommended
+		guidelines outlined in "Methods for Analyzing and Reporting
+		EQ-5D data" by Devlin et al. (2020)
+		doi:10.1007/978-3-030-47622-9.
+	</longdescription>
+</pkgmetadata>

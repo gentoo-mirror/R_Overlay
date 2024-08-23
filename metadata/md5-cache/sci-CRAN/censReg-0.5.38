@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/glmmML-0.81.6 sci-CRAN/plm >=sci-CRAN/maxLik-0.7.3 >=sci-CRAN/miscTools-0.6.11 >=sci-CRAN/sandwich-2.2.6 dev-lang/R:=
+DESCRIPTION=Censored Regression (Tobit) Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aer r_suggests_lmtest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/glmmML-0.81.6 sci-CRAN/plm >=sci-CRAN/maxLik-0.7.3 >=sci-CRAN/miscTools-0.6.11 >=sci-CRAN/sandwich-2.2.6 r_suggests_aer? ( sci-CRAN/AER ) r_suggests_lmtest? ( >=sci-CRAN/lmtest-0.9.27 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/censReg_0.5-38.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9cd1960e2a632cc8c03c8e7a2e8d2d8d

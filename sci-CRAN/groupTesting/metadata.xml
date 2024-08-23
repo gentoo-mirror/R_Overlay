@@ -4,7 +4,7 @@
 	<longdescription>
 		Simulating and Modeling Group (Pooled) Testing Data // Provides
 		an expectation-maximization (EM) algorithm using the approach
-		introduced in Warasi (2021) doi:10.1080/03610918.2021.2009867.
+		introduced in Warasi (2023) doi:10.1080/03610918.2021.2009867.
 		The EM algorithm can be used to estimate the prevalence
 		(overall proportion) of a disease and to estimate a binary
 		regression model from among the class of generalized linear
@@ -18,6 +18,9 @@
 		conduct the Wald tests described in Buse (1982)
 		doi:10.1080/00031305.1982.10482817 and to simulate the group
 		testing data described in Kim et al. (2007)
-		doi:10.1111/j.1541-0420.2007.00817.x.
+		doi:10.1111/j.1541-0420.2007.00817.x. We offer a function to
+		compute relative efficiency measures, which can be used to
+		optimize the maximum likelihood estimator of disease
+		prevalence.
 	</longdescription>
 </pkgmetadata>

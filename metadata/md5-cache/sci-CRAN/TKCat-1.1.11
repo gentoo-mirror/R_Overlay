@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/shinydashboard sci-CRAN/readr sci-CRAN/magrittr >=dev-lang/R-3.6 sci-CRAN/DT >=sci-CRAN/ReDaMoR-0.7.0 sci-CRAN/visNetwork sci-CRAN/dplyr sci-CRAN/ClickHouseHTTP sci-CRAN/roxygen2 sci-CRAN/markdown sci-CRAN/DBI sci-CRAN/htmltools sci-CRAN/base64enc >=sci-CRAN/jsonvalidate-1.3.2 sci-CRAN/tidyselect sci-CRAN/rlang sci-CRAN/shiny sci-CRAN/jsonlite sci-CRAN/xml2 sci-CRAN/promises sci-CRAN/crayon sci-CRAN/getPass sci-CRAN/future sci-CRAN/uuid dev-lang/R:=
+DESCRIPTION=Tailored Knowledge Catalog
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_tree r_suggests_knitr r_suggests_rclickhouse r_suggests_rmarkdown r_suggests_stringr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix sci-CRAN/shinydashboard sci-CRAN/readr sci-CRAN/magrittr >=dev-lang/R-3.6 sci-CRAN/DT >=sci-CRAN/ReDaMoR-0.7.0 sci-CRAN/visNetwork sci-CRAN/dplyr sci-CRAN/ClickHouseHTTP sci-CRAN/roxygen2 sci-CRAN/markdown sci-CRAN/DBI sci-CRAN/htmltools sci-CRAN/base64enc >=sci-CRAN/jsonvalidate-1.3.2 sci-CRAN/tidyselect sci-CRAN/rlang sci-CRAN/shiny sci-CRAN/jsonlite sci-CRAN/xml2 sci-CRAN/promises sci-CRAN/crayon sci-CRAN/getPass sci-CRAN/future sci-CRAN/uuid r_suggests_data_tree? ( sci-CRAN/data_tree ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rclickhouse? ( sci-CRAN/RClickhouse ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TKCat_1.1.11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=db4928fbb6ea261693f06b07e9b87995

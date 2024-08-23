@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 virtual/MASS virtual/Matrix sci-CRAN/bamlss virtual/mgcv dev-lang/R:=
+DESCRIPTION=Generalized Multivariate Functio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fundata r_suggests_jmbayes2 r_suggests_mfpca r_suggests_mjmbamlss r_suggests_refund r_suggests_registr r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5 virtual/MASS virtual/Matrix sci-CRAN/bamlss virtual/mgcv r_suggests_fundata? ( sci-CRAN/funData ) r_suggests_jmbayes2? ( sci-CRAN/JMbayes2 ) r_suggests_mfpca? ( sci-CRAN/MFPCA ) r_suggests_mjmbamlss? ( sci-CRAN/MJMbamlss ) r_suggests_refund? ( sci-CRAN/refund ) r_suggests_registr? ( sci-CRAN/registr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gmfamm_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f808d6662c3d6e414bc46da0e6a59c5a

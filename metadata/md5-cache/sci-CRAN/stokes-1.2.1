@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/permutations-1.1.2 >=sci-CRAN/disordR-0.9.7 >=sci-CRAN/spray-1.0.25 sci-CRAN/partitions dev-lang/R:=
+DESCRIPTION=The Exterior Calculus
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_deriv r_suggests_knitr r_suggests_magrittr r_suggests_markdown r_suggests_quadform r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/permutations-1.1.2 >=sci-CRAN/disordR-0.9.7 >=sci-CRAN/spray-1.0.25 sci-CRAN/partitions r_suggests_covr? ( sci-CRAN/covr ) r_suggests_deriv? ( sci-CRAN/Deriv ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_quadform? ( sci-CRAN/quadform ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stokes_1.2-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9db79d7f9f98605d98d2e23218223507

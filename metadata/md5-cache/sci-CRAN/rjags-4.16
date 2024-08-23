@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.14.0 >=sci-CRAN/coda-0.13 dev-lang/R:=
+DESCRIPTION=Bayesian Graphical Models using MCMC
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_tk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-2.14.0 >=sci-CRAN/coda-0.13 sci-mathematics/jags r_suggests_tk? ( dev-lang/R[tk] ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rjags_4-16.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d9d35a9c2c054987ff03a98d0fd61b70

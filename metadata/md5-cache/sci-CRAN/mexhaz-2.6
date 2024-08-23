@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/statmod sci-CRAN/numDeriv sci-CRAN/lamW virtual/MASS dev-lang/R:=
+DESCRIPTION=Mixed Effect Excess Hazard Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rstpm2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/survival sci-CRAN/statmod sci-CRAN/numDeriv sci-CRAN/lamW virtual/MASS r_suggests_rstpm2? ( sci-CRAN/rstpm2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mexhaz_2.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9695f32128be108b7752d8bf978f1884

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=HTML Exportation for R Objects
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_cluster r_suggests_nlme r_suggests_nnet r_suggests_rpart r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=r_suggests_boot? ( virtual/boot ) r_suggests_cluster? ( virtual/cluster ) r_suggests_nlme? ( virtual/nlme ) r_suggests_nnet? ( virtual/nnet ) r_suggests_rpart? ( virtual/rpart ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/R2HTML_2.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e5f1e9668b80863e58f7facb4cd9cdcf

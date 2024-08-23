@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Implement 'tableGrob' Object as a Clickable Image Map //
+		Implement 'tableGrob' object as a clickable image map. The
+		'clickableImageMap' package is designed to be more convenient
+		and more configurable than the edit() function. Limitations
+		that I have encountered with edit() are cannot control (1)
+		positioning (2) size (3) appearance and formatting of fonts In
+		contrast, when the table is implemented as a 'tableGrob', all
+		of these features are controllable. In particular, the
+		'ggplot2' grid system allows exact positioning of the table
+		relative to other graphics etc.
+	</longdescription>
+</pkgmetadata>

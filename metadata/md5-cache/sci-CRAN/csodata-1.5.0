@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/rjstat sci-CRAN/reshape2 sci-CRAN/jsonlite sci-CRAN/R_cache sci-CRAN/sf sci-CRAN/lubridate sci-CRAN/tidyr sci-CRAN/lifecycle dev-lang/R:=
+DESCRIPTION=Download Data from the CSO PxStat API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_leaflet r_suggests_rmarkdown r_suggests_viridislite byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/rjstat sci-CRAN/reshape2 sci-CRAN/jsonlite sci-CRAN/R_cache sci-CRAN/sf sci-CRAN/lubridate sci-CRAN/tidyr sci-CRAN/lifecycle r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_viridislite? ( sci-CRAN/viridisLite ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/csodata_1.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=37c2170a5c2c61abc0c1e587068c17d5

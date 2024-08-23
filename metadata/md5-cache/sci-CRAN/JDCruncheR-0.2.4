@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/XLConnect-1.0.0 dev-lang/R:=
+DESCRIPTION=Interface Between the JDemetra+ ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kableextra r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=EUPL-1.1
+RDEPEND=>=sci-CRAN/XLConnect-1.0.0 r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/JDCruncheR_0.2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b62346e93b4fffbba01a40853b4621ac

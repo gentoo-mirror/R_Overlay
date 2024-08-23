@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Framework for Creating, Managing and Training Multiple Caret
+		A Framework for Creating, Managing and Training Multiple 'caret'
 		Models // A minimalistic but flexible framework that
 		facilitates the creation, management and training of multiple
-		'caret' models. A model grid consists of two components: (1) a
+		'caret' models. A model grid consists of two components, (1) a
 		set of settings that is shared by all models by default, and
 		(2) specifications that apply only to the individual models.
 		When the model grid is trained, model and training
 		specifications are first consolidated from the shared and the
 		model specific settings into complete 'caret' model
-		configurations. These models are then trained with the 'train'
-		function from the 'caret' package.
+		configurations. These models are then trained with the
+		'train()' function from the 'caret' package.
 	</longdescription>
 </pkgmetadata>

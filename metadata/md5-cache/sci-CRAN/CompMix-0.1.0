@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/qgcomp sci-CRAN/randomForest sci-CRAN/devtools sci-CRAN/hierNet sci-CRAN/pROC virtual/Matrix sci-CRAN/gglasso sci-CRAN/higlasso sci-CRAN/mvtnorm sci-CRAN/glmnet sci-CRAN/SuperLearner sci-CRAN/bkmr sci-CRAN/gWQS dev-lang/R:=
+DESCRIPTION=A Comprehensive Toolkit for Envi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/qgcomp sci-CRAN/randomForest sci-CRAN/devtools sci-CRAN/hierNet sci-CRAN/pROC virtual/Matrix sci-CRAN/gglasso sci-CRAN/higlasso sci-CRAN/mvtnorm sci-CRAN/glmnet sci-CRAN/SuperLearner sci-CRAN/bkmr sci-CRAN/gWQS dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CompMix_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=749b82563c7efebcba3e7abafb4c0136

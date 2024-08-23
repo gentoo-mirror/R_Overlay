@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 dev-lang/R:=
+DESCRIPTION=Lightweight Extension of the Bas... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_basetheme r_suggests_fontquiver r_suggests_knitr r_suggests_png r_suggests_svglite r_suggests_tinysnapshot r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-4.0 r_suggests_basetheme? ( sci-CRAN/basetheme ) r_suggests_fontquiver? ( sci-CRAN/fontquiver ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_png? ( sci-CRAN/png ) r_suggests_svglite? ( sci-CRAN/svglite ) r_suggests_tinysnapshot? ( >=sci-CRAN/tinysnapshot-0.0.3 ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tinyplot_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c9911a3a6297321d5fef162e33e21d3a

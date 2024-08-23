@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Translate R Regression Model Formulae to 'Julia' Syntax //
+		Metaprogramming utilities for converting R regression model
+		formulae to equivalents in 'Julia' doi:10.1137/141000671, via
+		modifications to the abstract syntax tree. Supports
+		translations in zero correlation random effects syntax,
+		protection of expressions to be evaluated as-is, interaction
+		terms, and more. Accepts strings or R formula objects and
+		returns modified R formula objects where possible (or a
+		modified string, if not a valid formula in R).
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 sci-CRAN/magrittr sci-CRAN/insight sci-CRAN/datawizard sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/rlang >=sci-CRAN/sjlabelled-1.1.1 sci-CRAN/tidyselect dev-lang/R:=
+DESCRIPTION=Data and Variable Transformation Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_haven r_suggests_knitr r_suggests_mice r_suggests_nnet r_suggests_rmarkdown r_suggests_sjplot r_suggests_sjstats r_suggests_stringdist r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.4 sci-CRAN/magrittr sci-CRAN/insight sci-CRAN/datawizard sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/rlang >=sci-CRAN/sjlabelled-1.1.1 sci-CRAN/tidyselect r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_haven? ( >=sci-CRAN/haven-2.0.0 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_nnet? ( virtual/nnet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sjplot? ( sci-CRAN/sjPlot ) r_suggests_sjstats? ( sci-CRAN/sjstats ) r_suggests_stringdist? ( sci-CRAN/stringdist ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sjmisc_2.8.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=751367f8b24e071cae5d9e9254397139

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Interface Between GRASS Geograph... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_codetools r_suggests_knitr r_suggests_rmarkdown r_suggests_sf r_suggests_sp r_suggests_stars byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/xml2 sci-geosciences/grass r_suggests_codetools? ( virtual/codetools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_sp? ( >=sci-CRAN/sp-0.9 ) r_suggests_stars? ( sci-CRAN/stars ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rgrass_0.4-3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c39c91871e426fc455ccede95c8782b5

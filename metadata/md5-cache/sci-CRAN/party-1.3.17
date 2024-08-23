@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/sandwich-1.1.1 >=sci-CRAN/modeltools-0.2.21 sci-CRAN/strucchange >=dev-lang/R-3.0.0 >=sci-CRAN/mvtnorm-1.0.2 virtual/survival >=sci-CRAN/coin-1.1.0 sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=A Laboratory for Recursive Partytioning
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_colorspace r_suggests_ipred r_suggests_mass r_suggests_mlbench r_suggests_randomforest r_suggests_th_data r_suggests_varimp r_suggests_vcd byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/sandwich-1.1.1 >=sci-CRAN/modeltools-0.2.21 sci-CRAN/strucchange >=dev-lang/R-3.0.0 >=sci-CRAN/mvtnorm-1.0.2 virtual/survival >=sci-CRAN/coin-1.1.0 sci-CRAN/zoo sci-CRAN/mvtnorm r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_ipred? ( sci-CRAN/ipred ) r_suggests_mass? ( virtual/MASS ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_th_data? ( >=sci-CRAN/TH_data-1.0.3 ) r_suggests_varimp? ( sci-CRAN/varImp ) r_suggests_vcd? ( sci-CRAN/vcd ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/party_1.3-17.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b4aa0d720629f4f33d733c13abe354ea

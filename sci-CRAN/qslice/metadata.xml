@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Implementations of Various Slice Samplers // Implementations of
+		the quantile slice sampler of Heiner et al. (2024+, in
+		preparation) as well as other popular slice samplers are
+		provided. Helper functions for specifying pseudo-target
+		distributions are included, both for diagnostics and for tuning
+		the quantile slice sampler. Other implemented methods include
+		the generalized elliptical slice sampler of Nishihara et al.
+		(2014)https://jmlr.org/papers/v15/nishihara14a.html}, latent
+		slice sampler of Li and Walker
+		(2023)doi:10.1016/j.csda.2022.107652, and stepping-out slice
+		sampler of Neal (2003)doi:10.1214/aos/1056562461, and
+		independence Metropolis-Hastings sampler.
+	</longdescription>
+</pkgmetadata>

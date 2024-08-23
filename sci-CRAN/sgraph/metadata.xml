@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Network Visualization Using 'sigma.js' // Interactive
+		visualizations of graphs created with the 'igraph' package
+		using a 'htmlwidgets' wrapper for the 'sigma.js' network
+		visualization v2.4.0 https://www.sigmajs.org/, enabling to
+		display several thousands of nodes. While several 'R' packages
+		have been developed to interface 'sigma.js', all were developed
+		for v1.x.x and none have migrated to v2.4.0 nor are they
+		planning to. This package builds upon the 'sigmaNet' package,
+		and users familiar with it will recognize the similar design
+		approach. Two extensions have been added to the classic
+		'sigma.js' visualizations by overriding the underlying
+		'JavaScript' code, enabling to draw a frame around node labels,
+		and to display labels on multiple lines by parsing line breaks.
+		Other additional functionalities that did not require
+		overriding 'sigma.js' code include toggling node visibility
+		when clicked using a node attribute and highlighting specific
+		edges. 'sigma.js' is currently preparing a stable release
+		v3.0.0, and this package plans to update to it when it is
+		available.
+	</longdescription>
+</pkgmetadata>

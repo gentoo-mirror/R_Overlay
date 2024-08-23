@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/CORElearn sci-CRAN/Rcpp sci-CRAN/pls dev-lang/R:=
+DESCRIPTION=Quantum Walk-Based Data Analysis and Prediction
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/CORElearn sci-CRAN/Rcpp sci-CRAN/pls sci-CRAN/Rcpp sci-CRAN/RcppEigen dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/QWDAP_1.1.18.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7d320d64d80072801fa68a3768c73ded

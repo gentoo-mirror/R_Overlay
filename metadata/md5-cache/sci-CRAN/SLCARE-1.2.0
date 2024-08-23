@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr virtual/nnet sci-CRAN/reda sci-CRAN/magrittr sci-CRAN/reReg sci-CRAN/rlang sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Semiparametric Latent Class Anal... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr virtual/nnet sci-CRAN/reda sci-CRAN/magrittr sci-CRAN/reReg sci-CRAN/rlang sci-CRAN/tidyr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SLCARE_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=86114136e6ab9a25b63f7eae712e2536

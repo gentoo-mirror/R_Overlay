@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/anytime sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/rvest sci-CRAN/stringr sci-CRAN/xml2 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Retrieve Archived Web Pages from... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_vcr r_suggests_webmockr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/tidyr sci-CRAN/anytime sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/rvest sci-CRAN/stringr sci-CRAN/xml2 sci-CRAN/tibble r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vcr? ( >=sci-CRAN/vcr-1.0.0 ) r_suggests_webmockr? ( sci-CRAN/webmockr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/archiveRetriever_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=12c08904f71c970189f97be288e72940

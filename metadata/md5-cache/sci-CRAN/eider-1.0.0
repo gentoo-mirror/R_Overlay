@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/stringr sci-CRAN/logger sci-CRAN/purrr sci-CRAN/fs sci-CRAN/tibble sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Declarative Feature Extraction f... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/stringr sci-CRAN/logger sci-CRAN/purrr sci-CRAN/fs sci-CRAN/tibble sci-CRAN/rlang r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/eider_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5bdbc5d9a67868e32e79e245a101f1d6

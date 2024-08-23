@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/dplyr >=dev-lang/R-3.5.0 sci-CRAN/dataRetrieval sci-CRAN/pander sci-CRAN/digest sci-CRAN/fitdistrplus sci-CRAN/lubridate sci-CRAN/knitr sci-CRAN/memoise sci-CRAN/readxl sci-CRAN/sessioninfo sci-CRAN/plyr virtual/mgcv dev-lang/R:=
+DESCRIPTION=Long Term Water Quality Trend Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_imputets r_suggests_markdown r_suggests_nlme r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/survival sci-CRAN/dplyr >=dev-lang/R-3.5.0 sci-CRAN/dataRetrieval sci-CRAN/pander sci-CRAN/digest sci-CRAN/fitdistrplus sci-CRAN/lubridate sci-CRAN/knitr sci-CRAN/memoise sci-CRAN/readxl sci-CRAN/sessioninfo sci-CRAN/plyr virtual/mgcv r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_imputets? ( sci-CRAN/imputeTS ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_nlme? ( virtual/nlme ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/baytrends_2.0.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7387504ab171e1a90db7c61143e1484e

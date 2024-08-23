@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Time Series Intervention Model Using Non-Linear Function //
+		Intervention analysis is used to investigate structural changes
+		in data resulting from external events. Traditional time series
+		intervention models, viz. Autoregressive Integrated Moving
+		Average model with exogeneous variables (ARIMA-X) and
+		Artificial Neural Networks with exogeneous variables (ANN-X),
+		rely on linear intervention functions such as step or ramp
+		functions, or their combinations. In this package, the
+		Gompertz, Logistic, Monomolecular, Richard and Hoerl function
+		have been used as non-linear intervention function. The
+		equation of the above models are represented as: Gompertz: A *
+		exp(-B * exp(-k * t)); Logistic: K / (1 + ((K - N0) / N0) *
+		exp(-r * t)); Monomolecular: A * exp(-k * t); Richard: A + (K -
+		A) / (1 + exp(-B * (C - t)))^(1/beta) and Hoerl:
+		a*(b^t)*(t^c).This package introduced algorithm for time series
+		intervention analysis employing ARIMA and ANN models with a
+		non-linear intervention function. This package has been
+		developed using algorithm of Yeasin et al.
+		doi:10.1016/j.hazadv.2023.100325 and Paul and Yeasin
+		doi:10.1371/journal.pone.0272999.
+	</longdescription>
+</pkgmetadata>

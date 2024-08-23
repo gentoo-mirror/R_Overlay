@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/oro_nifti virtual/nlme >=sci-CRAN/aws-2.5.1 sci-CRAN/metafor >=dev-lang/R-3.3.0 dev-lang/R:=
+DESCRIPTION=Analysis of fMRI Experiments
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_adimpro r_suggests_fastica r_suggests_tk r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/oro_nifti virtual/nlme >=sci-CRAN/aws-2.5.1 sci-CRAN/metafor >=dev-lang/R-3.3.0 r_suggests_adimpro? ( >=sci-CRAN/adimpro-0.9 ) r_suggests_fastica? ( sci-CRAN/fastICA ) r_suggests_tk? ( dev-lang/R[tk] ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fmri_1.9.12.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=90ad393ff64bd54283b155d240d0b32d

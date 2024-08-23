@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Implement Fleming-Viot-Dependent Dirichlet Processes // A
+		Bayesian Nonparametric model for the study of time-evolving
+		frequencies, which has become renowned in the study of
+		population genetics. The model consists of a Hidden Markov
+		Model (HMM) in which the latent signal is a distribution-valued
+		stochastic process that takes the form of a finite mixture of
+		Dirichlet Processes, indexed by vectors that count how many
+		times each value is observed in the population. The package
+		implements methodologies presented in Ascolani, Lijoi and
+		Ruggiero (2021) doi:10.1214/20-BA1206 and Ascolani, Lijoi and
+		Ruggiero (2023) doi:10.3150/22-BEJ1504 that make it possible to
+		study the process at the time of data collection or to predict
+		its evolution in future or in the past.
+	</longdescription>
+</pkgmetadata>

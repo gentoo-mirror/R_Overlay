@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/ggpubr sci-CRAN/data_table >=dev-lang/R-3.5.0 sci-CRAN/tidyr sci-CRAN/vegan sci-CRAN/ggplot2 sci-CRAN/neonUtilities sci-CRAN/dtplyr sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/tibble sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Process NEON Plant Data for Ecological Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/stringr sci-CRAN/ggpubr sci-CRAN/data_table >=dev-lang/R-3.5.0 sci-CRAN/tidyr sci-CRAN/vegan sci-CRAN/ggplot2 sci-CRAN/neonUtilities sci-CRAN/dtplyr sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/tibble sci-CRAN/sf r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/neonPlantEcology_1.6.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f1ae9fe0d60d1fcf28e4792739e1e879

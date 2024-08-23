@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/checkmate-2.0.0 sci-CRAN/backports >=sci-CRAN/mlr3-0.12.0 sci-CRAN/data_table sci-CRAN/mlr3misc sci-CRAN/cli >=sci-CRAN/future_apply-1.5.0 dev-lang/R:=
+DESCRIPTION=Model and Learner Summaries for mlr3
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fastshap r_suggests_iml r_suggests_mlr3fairness r_suggests_mlr3learners r_suggests_mlr3pipelines r_suggests_ranger r_suggests_rpart r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/checkmate-2.0.0 sci-CRAN/backports >=sci-CRAN/mlr3-0.12.0 sci-CRAN/data_table sci-CRAN/mlr3misc sci-CRAN/cli >=sci-CRAN/future_apply-1.5.0 r_suggests_fastshap? ( sci-CRAN/fastshap ) r_suggests_iml? ( sci-CRAN/iml ) r_suggests_mlr3fairness? ( sci-CRAN/mlr3fairness ) r_suggests_mlr3learners? ( sci-CRAN/mlr3learners ) r_suggests_mlr3pipelines? ( sci-CRAN/mlr3pipelines ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rpart? ( virtual/rpart ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlr3summary_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=06faa4bee0d88d4cac694ea86d287d21

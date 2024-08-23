@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/digest sci-CRAN/htmltools sci-CRAN/httr sci-CRAN/jsonlite >=sci-CRAN/logger-0.2.0 sci-CRAN/tsvio dev-lang/R:=
+DESCRIPTION=Next Generation Clustered Heat Maps
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_rtsne r_suggests_testthat r_suggests_umap r_suggests_uwot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/digest sci-CRAN/htmltools sci-CRAN/httr sci-CRAN/jsonlite >=sci-CRAN/logger-0.2.0 sci-CRAN/tsvio virtual/jdk r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rtsne? ( sci-CRAN/Rtsne ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_umap? ( sci-CRAN/umap ) r_suggests_uwot? ( sci-CRAN/uwot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/NGCHM_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=82837eaded6e1a80bc1dbf149151d787

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimal Convex M-Estimation for Linear Regression via Antitonic
+		Score Matching // Performs linear regression with respect to a
+		data-driven convex loss function that is chosen to minimize the
+		asymptotic covariance of the resulting M-estimator. The convex
+		loss function is estimated in 5 steps: (1) form an initial OLS
+		(ordinary least squares) or LAD (least absolute deviation)
+		estimate of the regression coefficients; (2) use the resulting
+		residuals to obtain a kernel estimator of the error density;
+		(3) estimate the score function of the errors by
+		differentiating the logarithm of the kernel density estimate;
+		(4) compute the L2 projection of the estimated score function
+		onto the set of decreasing functions; (5) take a negative
+		antiderivative of the projected score function estimate.
+		Newton's method (with Hessian modification) is then used to
+		minimize the convex empirical risk function. Further details of
+		the method are given in Feng et al. (2024)
+		doi:10.48550/arXiv.2403.16688.
+	</longdescription>
+</pkgmetadata>

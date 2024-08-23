@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/data_table sci-CRAN/magrittr sci-CRAN/ggplot2 sci-CRAN/glm2 sci-CRAN/cstidy sci-CRAN/cstime sci-CRAN/lubridate sci-CRAN/stringr sci-CRAN/surveillance dev-lang/R:=
+DESCRIPTION=Alerts from Public Health Surveillance Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covidnor r_suggests_csdata r_suggests_csmaps r_suggests_ggrepel r_suggests_glue r_suggests_knitr r_suggests_plnr r_suggests_rmarkdown r_suggests_rstudioapi r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/data_table sci-CRAN/magrittr sci-CRAN/ggplot2 sci-CRAN/glm2 sci-CRAN/cstidy sci-CRAN/cstime sci-CRAN/lubridate sci-CRAN/stringr sci-CRAN/surveillance r_suggests_covidnor? ( sci-CRAN/covidnor ) r_suggests_csdata? ( sci-CRAN/csdata ) r_suggests_csmaps? ( sci-CRAN/csmaps ) r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_glue? ( sci-CRAN/glue ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plnr? ( sci-CRAN/plnr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/csalert_2024.6.24.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=417bc561c6c46dbf200d8f432438a5a4

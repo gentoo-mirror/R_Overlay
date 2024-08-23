@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/doParallel sci-CRAN/Rfast sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=High-Dimensional Tests for Two P... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_highdmean r_suggests_highmean r_suggests_petests byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/doParallel sci-CRAN/Rfast sci-CRAN/foreach r_suggests_highdmean? ( sci-CRAN/highDmean ) r_suggests_highmean? ( sci-CRAN/highmean ) r_suggests_petests? ( sci-CRAN/PEtests ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/highd2means_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=99939f39f6dde3eb378edfacba1d917e

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/pracma sci-CRAN/fitdistrplus sci-CRAN/statmod sci-CRAN/rootSolve dev-lang/R:=
+DESCRIPTION=Visualization and Analysis of St... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_spelling byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-1
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/pracma sci-CRAN/fitdistrplus sci-CRAN/statmod sci-CRAN/rootSolve r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/conf_1.9.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9999c4658501a350899f910a6fa6b672

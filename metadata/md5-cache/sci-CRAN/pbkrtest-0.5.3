@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/dplyr virtual/MASS >=sci-CRAN/lme4-1.1.31 sci-CRAN/broom sci-CRAN/numDeriv virtual/Matrix sci-CRAN/doBy dev-lang/R:=
+DESCRIPTION=Parametric Bootstrap, Kenward-Ro... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_markdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/dplyr virtual/MASS >=sci-CRAN/lme4-1.1.31 sci-CRAN/broom sci-CRAN/numDeriv virtual/Matrix sci-CRAN/doBy r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pbkrtest_0.5.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=15fe41a852edcbcec0297ecbf3e7cc0d

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/reshape2 sci-CRAN/shiny sci-CRAN/RSpectra virtual/cluster sci-CRAN/flexclust virtual/Matrix sci-CRAN/rlang sci-CRAN/Rcpp >=dev-lang/R-3.3.0 >=sci-CRAN/proxy-0.4.16 sci-CRAN/dtw sci-CRAN/ggrepel sci-CRAN/dplyr sci-CRAN/clue >=sci-CRAN/RcppParallel-4.4.0 sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/shinyjs dev-lang/R:=
+DESCRIPTION=Time Series Clustering Along wit... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_iterators r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/reshape2 sci-CRAN/shiny sci-CRAN/RSpectra virtual/cluster sci-CRAN/flexclust virtual/Matrix sci-CRAN/rlang sci-CRAN/Rcpp >=dev-lang/R-3.3.0 >=sci-CRAN/proxy-0.4.16 sci-CRAN/dtw sci-CRAN/ggrepel sci-CRAN/dplyr sci-CRAN/clue >=sci-CRAN/RcppParallel-4.4.0 sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/shinyjs sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppThread sci-CRAN/RcppParallel r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_iterators? ( sci-CRAN/iterators ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dtwclust_6.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0906b53862162b1ee35626151800a2dd

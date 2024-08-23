@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/tidytree-0.4.6 sci-CRAN/ape sci-CRAN/doParallel sci-CRAN/doSNOW >=dev-lang/R-4.0.0 sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/phytools sci-CRAN/snow sci-CRAN/stringr sci-CRAN/TreeTools dev-lang/R:=
+DESCRIPTION=A Global Dataset of Anthropogeni... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_markdown r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/tidytree-0.4.6 sci-CRAN/ape sci-CRAN/doParallel sci-CRAN/doSNOW >=dev-lang/R-4.0.0 sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/phytools sci-CRAN/snow sci-CRAN/stringr sci-CRAN/TreeTools r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/avotrex_1.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=06d6c8c26d9e3b1aa6e21eb5043028d6

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvtnorm sci-CRAN/ggpubr sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Tools for Two-Dimensional Monte-Carlo Simulations
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fitdistrplus r_suggests_survival r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mvtnorm sci-CRAN/ggpubr sci-CRAN/ggplot2 r_suggests_fitdistrplus? ( sci-CRAN/fitdistrplus ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mc2d_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=efc9d81ad02a74290a36603532c781e4

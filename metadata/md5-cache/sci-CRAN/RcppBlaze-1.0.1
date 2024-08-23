@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 >=sci-CRAN/Rcpp-1.0.0 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Rcpp Integration for the Blaze H... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_matrix r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=>=dev-lang/R-4.2.0 >=sci-CRAN/Rcpp-1.0.0 virtual/Matrix sci-CRAN/Rcpp r_suggests_matrix? ( virtual/Matrix ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcppBlaze_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5a4d5ab9c0ab96118787e2c9b4ed5b89

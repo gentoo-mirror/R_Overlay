@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detailed Distributional Decomposition // Implements the Oaxaca-
+		Blinder decomposition method and generalizations of it that
+		decompose differences in distributional statistics beyond the
+		mean. The function ob_decompose() decomposes differences in the
+		mean outcome between two groups into one part explained by
+		different covariates (composition effect) and into another part
+		due to differences in the way covariates are linked to the
+		outcome variable (structure effect). The function further
+		divides the two effects into the contribution of each covariate
+		and allows for weighted doubly robust decompositions. For
+		distributional statistics beyond the mean, the function
+		performs the recentered influence function (RIF) decomposition
+		proposed by Firpo, Fortin, and Lemieux (2018). The function
+		dfl_decompose() divides differences in distributional
+		statistics into an composition effect and a structure effect
+		using inverse probability weighting as introduced by DiNardo,
+		Fortin, and Lemieux (1996). The function also allows to
+		sequentially decompose the composition effect into the
+		contribution of single covariates. References: Firpo, Sergio,
+		Nicole M. Fortin, and Thomas Lemieux. (2018)
+		doi:10.3390/econometrics6020028. "Decomposing Wage
+		Distributions Using Recentered Influence Function Regressions."
+		Fortin, Nicole M., Thomas Lemieux, and Sergio Firpo. (2011)
+		doi:10.3386/w16045. "Decomposition Methods in Economics."
+		DiNardo, John, Nicole M. Fortin, and Thomas Lemieux. (1996)
+		doi:10.2307/2171954. "Labor Market Institutions and the
+		Distribution of Wages, 1973-1992: A Semiparametric Approach."
+		Oaxaca, Ronald. (1973) doi:10.2307/2525981. "Male-Female Wage
+		Differentials in Urban Labor Markets." Blinder, Alan S. (1973)
+		doi:10.2307/144855. "Wage Discrimination: Reduced Form and
+		Structural Estimates."
+	</longdescription>
+</pkgmetadata>

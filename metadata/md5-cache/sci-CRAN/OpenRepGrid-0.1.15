@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/psych sci-CRAN/pvclust sci-CRAN/colorspace sci-CRAN/igraph sci-CRAN/openxlsx sci-CRAN/scales sci-CRAN/crayon sci-CRAN/plyr sci-CRAN/abind sci-CRAN/stringr sci-CRAN/XML dev-lang/R:=
+DESCRIPTION=Tools to Analyze Repertory Grid Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rgl r_suggests_rmarkdown r_suggests_styler r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/psych sci-CRAN/pvclust sci-CRAN/colorspace sci-CRAN/igraph sci-CRAN/openxlsx sci-CRAN/scales sci-CRAN/crayon sci-CRAN/plyr sci-CRAN/abind sci-CRAN/stringr sci-CRAN/XML r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_styler? ( sci-CRAN/styler ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/OpenRepGrid_0.1.15.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=de5ba9a44cd31b3a790834f8b5591260

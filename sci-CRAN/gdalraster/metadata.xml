@@ -22,12 +22,13 @@
 		pixel combinations across multiple input layers, with optional
 		output of the pixel-level combination IDs. Provides raster
 		display using base 'graphics'. Bindings to a subset of the
-		Virtual Systems Interface ('VSI') are also included to support
-		operations on 'GDAL' virtual file systems. These are general
-		utility functions that abstract file system operations on URLs,
-		cloud storage services, 'Zip'/'GZip'/'7z'/'RAR' archives, and
-		in-memory files. 'gdalraster' may be useful in applications
-		that need scalable, low-level I/O, or prefer a direct 'GDAL'
-		API.
+		'OGR' API are also included for managing vector data sources.
+		Bindings to a subset of the Virtual Systems Interface ('VSI')
+		are also included to support operations on 'GDAL' virtual file
+		systems. These are general utility functions that abstract file
+		system operations on URLs, cloud storage services,
+		'Zip'/'GZip'/'7z'/'RAR' archives, and in-memory files.
+		'gdalraster' may be useful in applications that need scalable,
+		low-level I/O, or prefer a direct 'GDAL' API.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0 >=sci-CRAN/RcppParallel-5.1.4 >=sci-CRAN/Rcpp-1.0.8 virtual/Matrix sci-CRAN/deldir sci-CRAN/ABCanalysis sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Swarm Intelligence for Self-Organized Clustering
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cluster r_suggests_datavisualizations r_suggests_dendextend r_suggests_geometry r_suggests_knitr r_suggests_paralleldist r_suggests_plotrix r_suggests_png r_suggests_pracma r_suggests_rgl r_suggests_rmarkdown r_suggests_sp r_suggests_spdep byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.0 >=sci-CRAN/RcppParallel-5.1.4 >=sci-CRAN/Rcpp-1.0.8 virtual/Matrix sci-CRAN/deldir sci-CRAN/ABCanalysis sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo app-text/pandoc sci-CRAN/RcppParallel r_suggests_cluster? ( virtual/cluster ) r_suggests_datavisualizations? ( sci-CRAN/DataVisualizations ) r_suggests_dendextend? ( sci-CRAN/dendextend ) r_suggests_geometry? ( sci-CRAN/geometry ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.12 ) r_suggests_paralleldist? ( sci-CRAN/parallelDist ) r_suggests_plotrix? ( sci-CRAN/plotrix ) r_suggests_png? ( sci-CRAN/png ) r_suggests_pracma? ( sci-CRAN/pracma ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-0.9 ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_spdep? ( sci-CRAN/spdep ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DatabionicSwarm_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5804571b2c8f205aa029327abc81fd4d

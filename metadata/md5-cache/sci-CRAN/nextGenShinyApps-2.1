@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 sci-CRAN/shiny sci-CRAN/quickcode sci-CRAN/htmltools dev-lang/R:=
+DESCRIPTION=Craft Exceptional R Shiny Applic... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_r2dictionary r_suggests_r2resize r_suggests_r2social r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.4 sci-CRAN/shiny sci-CRAN/quickcode sci-CRAN/htmltools r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_r2dictionary? ( sci-CRAN/r2dictionary ) r_suggests_r2resize? ( sci-CRAN/r2resize ) r_suggests_r2social? ( sci-CRAN/r2social ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nextGenShinyApps_2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=29001af6061b992f3f2e7efa8fc7cb6a

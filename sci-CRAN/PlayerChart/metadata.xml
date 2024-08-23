@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generate Pizza Chart: Player Stats 0-100 // Create an interactive
+		pizza chart visualizing a specific player's statistics across
+		various attributes in a sports dataset. The chart is
+		constructed based on input parameters: 'data', a dataframe
+		containing player data for any sports; 'player_stats_col', a
+		vector specifying the names of the columns from the dataframe
+		that will be used to create slices in the pizza chart, with
+		statistics ranging between 0 and 100; 'name_col', specifying
+		the name of the column in the dataframe that contains the
+		player names; and 'player_name', representing the specific
+		player whose statistics will be visualized in the chart,
+		serving as the chart title.
+	</longdescription>
+</pkgmetadata>

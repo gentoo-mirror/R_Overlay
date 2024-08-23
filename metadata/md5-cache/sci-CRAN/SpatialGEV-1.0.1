@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/mvtnorm >=sci-CRAN/TMB-1.7.16 sci-CRAN/evd virtual/Matrix dev-lang/R:=
+DESCRIPTION=Fit Spatial Generalized Extreme Value Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/mvtnorm >=sci-CRAN/TMB-1.7.16 sci-CRAN/evd virtual/Matrix sci-CRAN/TMB sci-CRAN/RcppEigen r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SpatialGEV_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7b5d3a51c8e2cc1ba2dc22652678113a

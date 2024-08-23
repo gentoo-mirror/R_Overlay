@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 sci-CRAN/datawizard sci-CRAN/insight >=sci-CRAN/effectsize-0.8.8 sci-CRAN/parameters sci-CRAN/performance dev-lang/R:=
+DESCRIPTION=Collection of Convenient Functio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_brms r_suggests_car r_suggests_coin r_suggests_ggplot2 r_suggests_lme4 r_suggests_mass r_suggests_pscl r_suggests_pwr r_suggests_survey r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.4 sci-CRAN/datawizard sci-CRAN/insight >=sci-CRAN/effectsize-0.8.8 sci-CRAN/parameters sci-CRAN/performance r_suggests_brms? ( sci-CRAN/brms ) r_suggests_car? ( sci-CRAN/car ) r_suggests_coin? ( sci-CRAN/coin ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_mass? ( virtual/MASS ) r_suggests_pscl? ( sci-CRAN/pscl ) r_suggests_pwr? ( sci-CRAN/pwr ) r_suggests_survey? ( sci-CRAN/survey ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sjstats_0.19.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1ae25acde5f090b181cd56e074e1a633

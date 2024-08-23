@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mclust sci-CRAN/foreach sci-CRAN/doParallel >=sci-CRAN/Rcpp-1.0.3 sci-CRAN/kedd sci-CRAN/sm sci-CRAN/nor1mix sci-CRAN/misc3d dev-lang/R:=
+DESCRIPTION=Bagging Bandwidth Selection in K... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rgl r_suggests_rpanel r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/mclust sci-CRAN/foreach sci-CRAN/doParallel >=sci-CRAN/Rcpp-1.0.3 sci-CRAN/kedd sci-CRAN/sm sci-CRAN/nor1mix sci-CRAN/misc3d sci-CRAN/Rcpp r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rpanel? ( sci-CRAN/rpanel ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/baggingbwsel_1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fbf4efce64ca97eb67b4688d8f1d4669

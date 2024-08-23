@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/nabor >=sci-CRAN/sf-0.6 sci-CRAN/data_table sci-CRAN/units dev-lang/R:=
+DESCRIPTION=k-Nearest Neighbor Join for Spatial Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dbi r_suggests_knitr r_suggests_rmarkdown r_suggests_rpostgresql r_suggests_stars r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/nabor >=sci-CRAN/sf-0.6 sci-CRAN/data_table sci-CRAN/units r_suggests_dbi? ( sci-CRAN/DBI ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpostgresql? ( sci-CRAN/RPostgreSQL ) r_suggests_stars? ( sci-CRAN/stars ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nngeo_0.4.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=234beaf4f895476f6c36eb7c7eeaff0a

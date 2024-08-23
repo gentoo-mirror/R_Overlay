@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		PSO Based Weighted Ensemble Algorithm for Volatility Modelling //
+		Price volatility refers to the degree of variation in series
+		over a certain period of time. This volatility is especially
+		noticeable in agricultural commodities, adding uncertainty for
+		farmers, traders, and others in the agricultural supply chain.
+		Commonly and popularly used four volatility models viz, GARCH,
+		Glosten Jagannatan Runkle-GARCH (GJR-GARCH) model,
+		exponentially weighted moving average (EWMA) model and
+		Multiplicative Error Model (MEM) are selected and implemented.
+		PWAVE, weighted ensemble model based on particle swarm
+		optimization (PSO) is proposed to combine the forecast obtained
+		from all the candidate models. This package has been developed
+		using algorithm of Paul et al. doi:10.1007/s40009-023-01218-x
+		and Yeasin and Paul (2024) doi:10.1007/s11227-023-05542-3.
+	</longdescription>
+</pkgmetadata>

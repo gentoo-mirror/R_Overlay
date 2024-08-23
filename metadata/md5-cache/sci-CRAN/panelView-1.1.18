@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/ggplot2-2.1.0 sci-CRAN/gridExtra dev-lang/R:=
+DESCRIPTION=Visualizing Panel Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/ggplot2-2.1.0 sci-CRAN/gridExtra dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/panelView_1.1.18.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d306a55d1fc38b6e2000b4bb23ed56c2

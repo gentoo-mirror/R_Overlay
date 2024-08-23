@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/cellranger sci-CRAN/tibble sci-CRAN/stringi sci-CRAN/minty >=sci-CRAN/vctrs-0.4.2 sci-CRAN/zip dev-lang/R:=
+DESCRIPTION=Read and Write ODS Files
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_readr r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/cellranger sci-CRAN/tibble sci-CRAN/stringi sci-CRAN/minty >=sci-CRAN/vctrs-0.4.2 sci-CRAN/zip r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readr? ( >=sci-CRAN/readr-1.2.1 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/readODS_2.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e8cf09d8f1325e8a9dd3c108754a4465

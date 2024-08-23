@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Cure Rate Modeling for Time-to-Event Data // A fully
+		Bayesian approach in order to estimate a general family of cure
+		rate models under the presence of covariates, see Papastamoulis
+		and Milienos (2023) doi:10.48550/arXiv.2310.06926. The
+		promotion time can be modelled (a) parametrically using typical
+		distributional assumptions for time to event data (including
+		the Weibull, Exponential, Gompertz, log-Logistic
+		distributions), or (b) semiparametrically using finite mixtures
+		of Gamma distributions. Posterior inference is carried out by
+		constructing a Metropolis-coupled Markov chain Monte Carlo
+		(MCMC) sampler, which combines Gibbs sampling for the latent
+		cure indicators and Metropolis-Hastings steps with Langevin
+		diffusion dynamics for parameter updates. The main MCMC
+		algorithm is embedded within a parallel tempering scheme by
+		considering heated versions of the target posterior
+		distribution.
+	</longdescription>
+</pkgmetadata>

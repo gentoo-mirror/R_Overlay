@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/foreach sci-CRAN/htmltools sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/shinythemes sci-CRAN/shiny sci-CRAN/Rmixmod sci-CRAN/processx >=dev-lang/R-3.5.0 sci-CRAN/shinyBS sci-CRAN/dplyr sci-CRAN/doParallel sci-CRAN/DT sci-CRAN/cowplot sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Genotyping Triploids (or Diploid... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/foreach sci-CRAN/htmltools sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/shinythemes sci-CRAN/shiny sci-CRAN/Rmixmod sci-CRAN/processx >=dev-lang/R-3.5.0 sci-CRAN/shinyBS sci-CRAN/dplyr sci-CRAN/doParallel sci-CRAN/DT sci-CRAN/cowplot sci-CRAN/ggplot2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GenoTriplo_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5c1e2f25ecc86afd4e651f533f90f5c6

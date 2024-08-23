@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DIDHAD sci-CRAN/sampling >=dev-lang/R-3.4.0 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/fixest-0.6.0 sci-CRAN/plotrix sci-CRAN/magrittr sci-CRAN/stringr sci-CRAN/DIDmultiplegtDYN dev-lang/R:=
+DESCRIPTION=Estimators DID with Multiple Groups and Periods
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/DIDHAD sci-CRAN/sampling >=dev-lang/R-3.4.0 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/fixest-0.6.0 sci-CRAN/plotrix sci-CRAN/magrittr sci-CRAN/stringr sci-CRAN/DIDmultiplegtDYN dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DIDmultiplegt_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4e9fd15fa2de8ca1ebbfb80d7ceaf76a

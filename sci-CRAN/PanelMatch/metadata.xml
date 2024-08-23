@@ -5,7 +5,7 @@
 		Matching Methods for Causal Inference with Time-Series Cross-
 		Sectional Data // Implements a set of methodological tools that
 		enable researchers to apply matching methods to time-series
-		cross-sectional data. Imai, Kim, and Wang (2021)
+		cross-sectional data. Imai, Kim, and Wang (2023)
 		http://web.mit.edu/insong/www/pdf/tscs.pdf proposes a
 		nonparametric generalization of the difference-in-differences
 		estimator, which does not rely on the linearity assumption as
@@ -15,11 +15,9 @@
 		units in the same time period that have a similar treatment and
 		covariate history. These methods include standard matching
 		methods based on propensity score and Mahalanobis distance, as
-		well as weighting methods. Once matching is done, both short-
-		term and long-term average treatment effects for the treated
-		can be estimated with standard errors. The package also offers
-		a visualization technique that allows researchers to assess the
-		quality of matches by examining the resulting covariate
-		balance.
+		well as weighting methods. Once matching and refinement is
+		done, treatment effects can be estimated with standard errors.
+		The package also offers diagnostics for researchers to assess
+		the quality of their results.
 	</longdescription>
 </pkgmetadata>

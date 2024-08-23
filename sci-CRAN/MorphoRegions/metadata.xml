@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis of Regionalization Patterns in Serially Homologous
+		Structures // Computes the optimal number of regions (or
+		subdivisions) and their position in serial structures without a
+		priori assumptions and to visualize the results. After reducing
+		data dimensionality with the built-in function for data
+		ordination, regions are fitted as segmented linear regressions
+		along the serial structure. Every region boundary position and
+		increasing number of regions are iteratively fitted and the
+		best model (number of regions and boundary positions) is
+		selected with an information criterion. This package expands on
+		the previous 'regions' package (Jones et al., Science 2018)
+		with improved computation and more fitting and plotting
+		options.
+	</longdescription>
+</pkgmetadata>

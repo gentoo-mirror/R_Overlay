@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Unique Location Extractor // Extracts coordinates of an event
+		location from text based on dictionaries of landmarks, roads,
+		and areas. Only returns the location of an event of interest
+		and ignores other location references; for example, if
+		determining the location of a road traffic crash from the text
+		"crash near [location 1] heading towards [location 2]", only
+		the coordinates of "location 1" would be returned. Moreover,
+		accounts for differences in spelling between how a user
+		references a location and how a location is captured in
+		location dictionaries.
+	</longdescription>
+</pkgmetadata>

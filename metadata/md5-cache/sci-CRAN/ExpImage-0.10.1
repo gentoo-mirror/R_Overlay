@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/raster sci-CRAN/ggplot2 sci-CRAN/progress sci-CRAN/randomForest sci-CRAN/rstudioapi sci-CRAN/crayon sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/schemr dev-lang/R:=
+DESCRIPTION=Analysis of Images in Experiments
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biocmanager r_suggests_ebimage r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/raster sci-CRAN/ggplot2 sci-CRAN/progress sci-CRAN/randomForest sci-CRAN/rstudioapi sci-CRAN/crayon sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/schemr r_suggests_biocmanager? ( sci-CRAN/BiocManager ) r_suggests_ebimage? ( sci-BIOC/EBImage ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ExpImage_0.10.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=84b9570ad247d63453b5f9238e97d64e

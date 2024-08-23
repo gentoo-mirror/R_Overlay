@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 sci-CRAN/dplyr sci-CRAN/mvtnorm virtual/survival sci-CRAN/invgamma sci-CRAN/checkmate sci-CRAN/magrittr sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Bayesian Dynamic Borrowing with ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_condsurv r_suggests_ggfortify r_suggests_readxl r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-4.1 sci-CRAN/dplyr sci-CRAN/mvtnorm virtual/survival sci-CRAN/invgamma sci-CRAN/checkmate sci-CRAN/magrittr sci-CRAN/ggplot2 r_suggests_condsurv? ( sci-CRAN/condSURV ) r_suggests_ggfortify? ( sci-CRAN/ggfortify ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BayesFBHborrow_2.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e629c489b69748ffb9f45daac3a14ac2

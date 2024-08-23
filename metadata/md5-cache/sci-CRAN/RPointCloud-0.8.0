@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 virtual/class sci-CRAN/Mercator virtual/class sci-CRAN/TDA sci-CRAN/rgl sci-CRAN/circlize dev-lang/R:=
+DESCRIPTION=Visualizing Topological Loops and Voids
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ape r_suggests_igraph r_suggests_knitr r_suggests_pcdimension r_suggests_polychrome r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=>=dev-lang/R-3.5 virtual/class sci-CRAN/Mercator virtual/class sci-CRAN/TDA sci-CRAN/rgl sci-CRAN/circlize r_suggests_ape? ( sci-CRAN/ape ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pcdimension? ( sci-CRAN/PCDimension ) r_suggests_polychrome? ( sci-CRAN/Polychrome ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RPointCloud_0.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5a96b1058e0ac6ce48b93e5ebdbcecd6

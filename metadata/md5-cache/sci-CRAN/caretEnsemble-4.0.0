@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/data_table sci-CRAN/caret virtual/lattice sci-CRAN/patchwork sci-CRAN/pbapply sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Ensembles of Caret Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_catools r_suggests_covr r_suggests_devtools r_suggests_earth r_suggests_gbm r_suggests_glmnet r_suggests_klar r_suggests_knitr r_suggests_lintr r_suggests_mass r_suggests_mgcv r_suggests_mlbench r_suggests_nnet r_suggests_pkgdown r_suggests_randomforest r_suggests_rhub r_suggests_rmarkdown r_suggests_rpart r_suggests_spelling r_suggests_testthat r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/data_table sci-CRAN/caret virtual/lattice sci-CRAN/patchwork sci-CRAN/pbapply sci-CRAN/rlang r_suggests_catools? ( sci-CRAN/caTools ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_earth? ( sci-CRAN/earth ) r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_klar? ( sci-CRAN/klaR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_mass? ( virtual/MASS ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_nnet? ( virtual/nnet ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rhub? ( sci-CRAN/rhub ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpart? ( virtual/rpart ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/caretEnsemble_4.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=803ae485545f4dd16e46715cd4e6af6c

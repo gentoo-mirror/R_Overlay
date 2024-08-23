@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/janitor sci-CRAN/readr sci-CRAN/lubridate sci-CRAN/readxl sci-CRAN/xfun sci-CRAN/haven >=dev-lang/R-3.4 sci-CRAN/rlang >=sci-CRAN/dplyr-1.1.0 sci-CRAN/usethis sci-CRAN/stringr sci-CRAN/fs sci-CRAN/writexl sci-CRAN/bookdown sci-CRAN/lifecycle sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Wrapper Functions Collection Use... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_matrix byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tidyr sci-CRAN/janitor sci-CRAN/readr sci-CRAN/lubridate sci-CRAN/readxl sci-CRAN/xfun sci-CRAN/haven >=dev-lang/R-3.4 sci-CRAN/rlang >=sci-CRAN/dplyr-1.1.0 sci-CRAN/usethis sci-CRAN/stringr sci-CRAN/fs sci-CRAN/writexl sci-CRAN/bookdown sci-CRAN/lifecycle sci-CRAN/purrr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fabR_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d185f098c7ab9f70a923b42d16e7610d

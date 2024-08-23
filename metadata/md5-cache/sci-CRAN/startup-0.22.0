@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.14.0 dev-lang/R:=
+DESCRIPTION=Friendly R Startup Configuration
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_commonmark r_suggests_tk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1+
+RDEPEND=>=dev-lang/R-2.14.0 r_suggests_commonmark? ( sci-CRAN/commonmark ) r_suggests_tk? ( dev-lang/R[tk] ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/startup_0.22.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=286dcb7067d574f0be3ed99aa1cf673e

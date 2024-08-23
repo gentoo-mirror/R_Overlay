@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Causal Inference with Super Learner and Deep Neural Networks //
+		Functions to estimate Conditional Average Treatment Effects
+		(CATE) and Population Average Treatment Effects on the Treated
+		(PATT) from experimental or observational data using the Super
+		Learner (SL) ensemble method and Deep neural networks. The
+		package first provides functions to implement meta-learners
+		such as the Single-learner (S-learner) and Two-learner
+		(T-learner) described in Knzel et al. (2019)
+		doi:10.1073/pnas.1804597116 for estimating the CATE. The S- and
+		T-learner are each estimated using the SL ensemble method and
+		deep neural networks. It then provides functions to implement
+		the Ottoboni and Poulos (2020) doi:10.1515/jci-2018-0035
+		PATT-C estimator to obtain the PATT from experimental data with
+		noncompliance by using the SL ensemble method and deep neural
+		networks.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/dplyr sci-CRAN/fixest sci-CRAN/cli sci-CRAN/magrittr sci-CRAN/rlang sci-CRAN/haven dev-lang/R:=
+DESCRIPTION=Estimation of the Weights Attach... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/dplyr sci-CRAN/fixest sci-CRAN/cli sci-CRAN/magrittr sci-CRAN/rlang sci-CRAN/haven r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TwoWayFEWeights_2.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d8f99df13bc26492fdcb0bcec55806b3

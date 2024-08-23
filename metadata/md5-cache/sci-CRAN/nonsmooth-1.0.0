@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/reshape2 sci-CRAN/np dev-lang/R:=
+DESCRIPTION=Nonparametric Methods for Smoothing Nonsmooth Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/reshape2 sci-CRAN/np dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nonsmooth_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c1eb891c88c0ab25d45bdaf7c2f5935c

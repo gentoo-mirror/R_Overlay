@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Identifying Similar T Cell Receptor Hyper-Variable Sequences with
+		'ClusTCR2' // Enhancing T cell receptor (TCR) sequence
+		analysis, 'ClusTCR2', based on 'ClusTCR' python program,
+		leverages Hamming distance to compare the complement-
+		determining region three (CDR3) sequences for sequence
+		similarity, variable gene (V gene) and length. The second step
+		employs the Markov Cluster Algorithm to identify clusters
+		within an undirected graph, providing a summary of amino acid
+		motifs and matrix for generating network plots. Tailored for
+		single-cell RNA-seq data with integrated TCR-seq information,
+		'ClusTCR2' is integrated into the Single Cell TCR and
+		Expression Grouped Ontologies (STEGO) R application or
+		'STEGO.R'. See the two publications for more details.
+		Sebastiaan Valkiers, Max Van Houcke, Kris Laukens, Pieter
+		Meysman (2021) doi:10.1093/bioinformatics/btab446, Kerry A.
+		Mullan, My Ha, Sebastiaan Valkiers, Nicky de Vrij, Benson
+		Ogunjimi, Kris Laukens, Pieter Meysman (2023)
+		doi:10.1101/2023.09.27.559702.
+	</longdescription>
+</pkgmetadata>

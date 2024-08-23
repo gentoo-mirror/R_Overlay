@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/numDeriv sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Estimation of Standard Errors using Delta Method
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/numDeriv sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/cli r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tidydelta_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6829b459b8b85f670f2132bf2927aa9f

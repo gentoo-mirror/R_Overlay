@@ -6,14 +6,15 @@
 		system for calculating the optimal sampling effort, based on
 		the ideas of "Ecological cost-benefit optimization" as
 		developed by A. Underwood (1997, ISBN 0 521 55696 1). Data is
-		obtained from simulated ecological communities, and the
-		optimization follows the following procedure of four functions
-		(1) sim_beta() estimates statistical power and type 2 error by
-		using Permutational Multivariate Analysis of Variance, (2)
-		plot_power() represents the results of the previous function,
-		(3) scompvar() calculates the variation components necessary
-		for (4) sim_cbo() to calculate the optimal combination of
-		number of sites and samples depending on either an economical
-		budget or on a desired statistical accuracy.
+		obtained from simulated ecological communities with prep_data()
+		which formats and arranges the initial data, and then the
+		optimization follows the following procedure of four functions:
+		(1) scompvar() calculates the variation components necessary
+		for (2) sim_cbo() to calculate the optimal combination of
+		number of sites and samples depending on either an economic
+		budget or on a desired statistical accuracy. Additionally, (3)
+		sim_beta() estimates statistical power and type 2 error by
+		using Permutational Multivariate Analysis of Variance, and (6)
+		plot_power() represents the results of the previous function.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Model Averaging for Univariate Link Latent Gaussian
+		Models // Bayesian model averaging (BMA) algorithms for
+		univariate link latent Gaussian models (ULLGMs). For detailed
+		information, refer to Steel M.F.J.  Zens G. (2024) "Model
+		Uncertainty in Latent Gaussian Models with Univariate Link
+		Function" doi:10.48550/arXiv.2406.17318. The package supports
+		various g-priors and a beta-binomial prior on the model space.
+		It also includes auxiliary functions for visualizing and
+		tabulating BMA results. Currently, it offers an out-of-the-box
+		solution for model averaging of Poisson log-normal (PLN) and
+		binomial logistic-normal (BiL) models. The codebase is designed
+		to be easily extendable to other likelihoods, priors, and link
+		functions.
+	</longdescription>
+</pkgmetadata>

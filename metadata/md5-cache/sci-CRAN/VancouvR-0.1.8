@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/rlang sci-CRAN/readr sci-CRAN/urltools sci-CRAN/digest sci-CRAN/sf sci-CRAN/geojsonsf sci-CRAN/tibble sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Access the City of Vancouver Open Data API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_lwgeom r_suggests_rmarkdown r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/rlang sci-CRAN/readr sci-CRAN/urltools sci-CRAN/digest sci-CRAN/sf sci-CRAN/geojsonsf sci-CRAN/tibble sci-CRAN/purrr r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lwgeom? ( sci-CRAN/lwgeom ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/VancouvR_0.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=11f937ab9126d4f4c4ba1588dc12e34d

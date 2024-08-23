@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>dev-lang/R-3.6 sci-CRAN/htmltools sci-CRAN/r2symbols sci-CRAN/shiny sci-CRAN/nextGenShinyApps sci-CRAN/shinyStorePlus sci-CRAN/rstudioapi sci-CRAN/markdown dev-lang/R:=
+DESCRIPTION=Simple User Interface to Build E... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>dev-lang/R-3.6 sci-CRAN/htmltools sci-CRAN/r2symbols sci-CRAN/shiny sci-CRAN/nextGenShinyApps sci-CRAN/shinyStorePlus sci-CRAN/rstudioapi sci-CRAN/markdown r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/symbol.equation.gpt_1.1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=086de5d39ab40a03a4f03fd45b536cc5

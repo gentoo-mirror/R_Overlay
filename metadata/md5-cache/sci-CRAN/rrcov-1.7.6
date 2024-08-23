@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/robustbase-0.92.1 virtual/lattice sci-CRAN/pcaPP sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Scalable Robust Estimators with ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/robustbase-0.92.1 virtual/lattice sci-CRAN/pcaPP sci-CRAN/mvtnorm r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rrcov_1.7-6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c28347d5ba4065af63ef79dd09c1df2c

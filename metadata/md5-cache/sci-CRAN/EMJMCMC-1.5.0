@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.1 sci-CRAN/glmnet sci-CRAN/biglm sci-CRAN/hash sci-CRAN/bigmemory sci-CRAN/BAS sci-CRAN/stringi sci-CRAN/speedglm sci-CRAN/withr dev-lang/R:=
+DESCRIPTION=Evolutionary Mode Jumping Markov... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bindata r_suggests_cluster r_suggests_reshape2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.4.1 sci-CRAN/glmnet sci-CRAN/biglm sci-CRAN/hash sci-CRAN/bigmemory sci-CRAN/BAS sci-CRAN/stringi sci-CRAN/speedglm sci-CRAN/withr r_suggests_bindata? ( sci-CRAN/bindata ) r_suggests_cluster? ( virtual/cluster ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EMJMCMC_1.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3e7f9b6e4738e9dedef2a9868977f87f

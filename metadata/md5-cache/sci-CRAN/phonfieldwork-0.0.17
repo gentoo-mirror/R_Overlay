@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mime sci-CRAN/phonTools sci-CRAN/rmarkdown sci-CRAN/tuneR >=dev-lang/R-3.5.0 sci-CRAN/xml2 sci-CRAN/readr dev-lang/R:=
+DESCRIPTION=Linguistic Phonetic Fieldwork Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_dt r_suggests_knitr r_suggests_lingtypology r_suggests_readxl r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mime sci-CRAN/phonTools sci-CRAN/rmarkdown sci-CRAN/tuneR >=dev-lang/R-3.5.0 sci-CRAN/xml2 sci-CRAN/readr app-text/pandoc r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lingtypology? ( sci-CRAN/lingtypology ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/phonfieldwork_0.0.17.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=969a52dd0e3804317981f199a3a53479

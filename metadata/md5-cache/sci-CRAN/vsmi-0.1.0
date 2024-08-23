@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS virtual/Matrix >=sci-CRAN/mice-3.16.0 >=sci-CRAN/qif-1.5 dev-lang/R:=
+DESCRIPTION=Variable Selection for Multiple Imputed Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/MASS virtual/Matrix >=sci-CRAN/mice-3.16.0 >=sci-CRAN/qif-1.5 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vsmi_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=545040be63349e8ebd8b1987fbb26a41

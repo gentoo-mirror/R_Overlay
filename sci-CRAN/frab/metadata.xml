@@ -2,13 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		How to Add Two Tables // Methods to "add" two tables; also an
-		alternative interpretation of named vectors as generalized
+		How to Add Two R Tables // Methods to "add" two R tables; also an
+		alternative interpretation of named vectors as generalized R
 		tables, so that c(a=1,b=2,c=3) + c(b=3,a=-1) will return
 		c(b=5,c=3).  Uses 'disordR' discipline (Hankin, 2022,
-		arxiv:2210.03856). Extraction and replacement methods are
-		provided.  The underlying mathematical structure is the Free
-		Abelian group, hence the name. To cite in publications please
-		use Hankin (2023) arxiv:2307:13184.
+		doi:10.48550/arXiv.2210.03856).  Extraction and replacement
+		methods are provided.  The underlying mathematical structure is
+		the Free Abelian group, hence the name.  To cite in
+		publications please use Hankin (2023)
+		doi:10.48550/arXiv.2307.13184.
 	</longdescription>
 </pkgmetadata>

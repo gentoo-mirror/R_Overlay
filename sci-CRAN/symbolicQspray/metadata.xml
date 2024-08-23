@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multivariate Polynomials with Symbolic Parameters in their
+		Coefficients // Introduces the 'symbolicQspray' objects. Such
+		an object represents a multivariate polynomial whose
+		coefficients are fractions of multivariate polynomials with
+		rational coefficients. The package allows arithmetic on such
+		polynomials. It is based on the 'qspray' and 'ratioOfQsprays'
+		packages. Some functions for 'qspray' polynomials have their
+		counterpart for 'symbolicQspray' polynomials. A
+		'symbolicQspray' polynomial should not be seen as a polynomial
+		on the field of fractions of rational polynomials, but should
+		rather be seen as a polynomial with rational coefficients
+		depending on some parameters, symbolically represented, with a
+		dependence given by fractions of rational polynomials.
+	</longdescription>
+</pkgmetadata>

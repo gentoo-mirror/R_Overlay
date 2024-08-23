@@ -2,26 +2,37 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Structure Optimized Proximity Scaling // A collection of methods
-		that fit nonlinear distance transformations in multidimensional
-		scaling (MDS) and trade-off the fit with structure
-		considerations to find optimal parameters also known as
-		structure optimized proximity scaling (STOPS) (Rusch, Mair
-		Hornik, 2023,doi:10.1007/s11222-022-10197-w). The package
-		contains various functions, wrappers, methods and classes for
-		fitting, plotting and displaying different MDS models in a
-		STOPS framework like Torgerson (classical) scaling, scaling by
-		majorizing a complex function (SMACOF), Sammon mapping, elastic
-		scaling, symmetric SMACOF, spherical SMACOF, s-stress,
-		r-stress, power MDS, power elastic scaling, power Sammon
-		mapping, power stress MDS (POST-MDS), approximate power stress,
-		Box-Cox MDS, local MDS and Isomap. All of these models can also
-		be fit individually with given hyperparameters or by optimizing
-		over hyperparameters based on fit only (i.e., no structure
-		considerations). The package further contains functions for
-		optimization, specifically the adaptive Luus-Jaakola algorithm
-		and a wrapper for Bayesian optimization with treed Gaussian
-		process with jumps to linear models, and functions for various
-		c-structuredness indices.
+		Structure Optimized Proximity Scaling // Methods that use
+		flexible variants of multidimensional scaling (MDS) which
+		incorporate parametric nonlinear distance transformations and
+		trade-off the goodness-of-fit fit with structure considerations
+		to find optimal hyperparameters, also known as structure
+		optimized proximity scaling (STOPS) (Rusch, Mair  Hornik,
+		2023,doi:10.1007/s11222-022-10197-w). The package contains
+		various functions, wrappers, methods and classes for fitting,
+		plotting and displaying different 1-way MDS models with ratio,
+		interval, ordinal optimal scaling in a STOPS framework. These
+		cover essentially the functionality of the package smacofx,
+		including Torgerson (classical) scaling with power
+		transformations of dissimilarities, SMACOF MDS with powers of
+		dissimilarities, Sammon mapping with powers of dissimilarities,
+		elastic scaling with powers of dissimilarities, spherical
+		SMACOF with powers of dissimilarities, (ALSCAL) s-stress MDS
+		with powers of dissimilarities, r-stress MDS, MDS with powers
+		of dissimilarities and configuration distances, elastic scaling
+		powers of dissimilarities and configuration distances, Sammon
+		mapping powers of dissimilarities and configuration distances,
+		power stress MDS (POST-MDS), approximate power stress, Box-Cox
+		MDS, local MDS, Isomap, curvilinear component analysis (CLCA),
+		curvilinear distance analysis (CLDA) and sparsified (power)
+		multidimensional scaling and (power) multidimensional distance
+		analysis (experimental models from smacofx influenced by CLCA).
+		All of these models can also be fit by optimizing over
+		hyperparameters based on goodness-of-fit fit only (i.e., no
+		structure considerations). The package further contains
+		functions for optimization, specifically the adaptive Luus-
+		Jaakola algorithm and a wrapper for Bayesian optimization with
+		treed Gaussian process with jumps to linear models, and
+		functions for various c-structuredness indices.
 	</longdescription>
 </pkgmetadata>

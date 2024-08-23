@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Accident and Development Period Adjusted Linear Pools for
+		Actuarial Stochastic Reserving // Loss reserving generally
+		focuses on identifying a single model that can generate
+		superior predictive performance. However, different loss
+		reserving models specialise in capturing different aspects of
+		loss data. This is recognised in practice in the sense that
+		results from different models are often considered, and
+		sometimes combined. For instance, actuaries may take a weighted
+		average of the prediction outcomes from various loss reserving
+		models, often based on subjective assessments. This package
+		allows for the use of a systematic framework to objectively
+		combine (i.e. ensemble) multiple stochastic loss reserving
+		models such that the strengths offered by different models can
+		be utilised effectively. Our framework is developed in Avanzi
+		et al. (2023). Firstly, our criteria model combination
+		considers the full distributional properties of the ensemble
+		and not just the central estimate - which is of particular
+		importance in the reserving context. Secondly, our framework is
+		that it is tailored for the features inherent to reserving
+		data. These include, for instance, accident, development,
+		calendar, and claim maturity effects. Crucially, the relative
+		importance and scarcity of data across accident periods renders
+		the problem distinct from the traditional ensemble techniques
+		in statistical learning. Our framework is illustrated with a
+		complex synthetic dataset. In the results, the optimised
+		ensemble outperforms both (i) traditional model selection
+		strategies, and (ii) an equally weighted ensemble. In
+		particular, the improvement occurs not only with central
+		estimates but also relevant quantiles, such as the 75th
+		percentile of reserves (typically of interest to both insurers
+		and regulators). Reference: Avanzi B, Li Y, Wong B, Xian A
+		(2023) "Ensemble distributional forecasting for insurance loss
+		reserving" doi:10.48550/arXiv.2206.08541.
+	</longdescription>
+</pkgmetadata>

@@ -2,12 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Jack, Zonal, and Schur Polynomials // Symbolic calculation and
-		evaluation of the Jack polynomials, zonal polynomials, and
-		Schur polynomials. Mainly based on Demmel  Koev's paper (2006)
-		doi:10.1090/S0025-5718-05-01780-1. Zonal polynomials and Schur
-		polynomials are particular cases of Jack polynomials. Zonal
-		polynomials appear in random matrix theory. Schur polynomials
-		appear in the field of combinatorics.
+		Jack, Zonal, Schur, and Other Symmetric Polynomials // Schur
+		polynomials appear in combinatorics and zonal polynomials
+		appear in random matrix theory. They are particular cases of
+		Jack polynomials. This package allows to compute these
+		polynomials and other symmetric multivariate polynomials:
+		flagged Schur polynomials, factorial Schur polynomials, t-Schur
+		polynomials, Hall-Littlewood polynomials, Macdonald
+		polynomials, and modified Macdonald polynomials. In addition,
+		it can compute the Kostka-Jack numbers, the Kostka-Foulkes
+		polynomials, the Kostka-Macdonald polynomials, and the Hall
+		polynomials.  Mainly based on Demmel  Koev's paper (2006)
+		doi:10.1090/S0025-5718-05-01780-1 and Macdonald's book (1995)
+		doi:10.1093/oso/9780198534891.003.0001.
 	</longdescription>
 </pkgmetadata>

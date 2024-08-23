@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Comparative Analyses of Lineage-Pair Traits // Facilitates the
+		testing of causal relationships among lineage-pair traits in a
+		phylogenetically informed context. Lineage-pair traits are
+		characters that are defined for pairs of lineages instead of
+		individual taxa. Examples include the strength of reproductive
+		isolation, range overlap, competition coefficient, diet niche
+		similarity, and relative hybrid fitness. Users supply a
+		lineage-pair dataset and a phylogeny. 'phylopairs' calculates a
+		covariance matrix for the pairwise-defined data and provides
+		built-in models to test for relationships among variables while
+		taking this covariance into account. Bayesian sampling is run
+		through built-in 'Stan' programs via the 'rstan' package. The
+		various models and methods that this package makes available
+		are described in Anderson et al. (In Review), Coyne and Orr
+		(1989) doi:10.1111/j.1558-5646.1989.tb04233.x, Fitzpatrick
+		(2002) doi:10.1111/j.0014-3820.2002.tb00860.x, and Castillo
+		(2007) doi:10.1002/ece3.3093.
+	</longdescription>
+</pkgmetadata>

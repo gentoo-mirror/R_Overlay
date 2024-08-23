@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Predicate Helper Functions for Testing Simple Atomic Vectors //
+		Predicate helper functions for testing atomic vectors in R. All
+		functions take a single argument 'x' and check whether it's of
+		the target type of base-R atomic vector (i.e. no class
+		extensions nor attributes other than 'names'), returning TRUE
+		or FALSE. Some additionally check for value (e.g. absence of
+		missing values, infinities, blank characters, or 'names'
+		attribute; or having length 1).
+	</longdescription>
+</pkgmetadata>

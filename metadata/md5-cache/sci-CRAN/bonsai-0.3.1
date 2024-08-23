@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/dials sci-CRAN/cli >=sci-CRAN/parsnip-1.0.1 sci-CRAN/dplyr sci-CRAN/glue sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Model Wrappers for Tree-Based Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aorsf r_suggests_covr r_suggests_knitr r_suggests_lightgbm r_suggests_modeldata r_suggests_partykit r_suggests_rmarkdown r_suggests_rsample r_suggests_testthat r_suggests_tune byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/dials sci-CRAN/cli >=sci-CRAN/parsnip-1.0.1 sci-CRAN/dplyr sci-CRAN/glue sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tibble r_suggests_aorsf? ( >=sci-CRAN/aorsf-0.1.5 ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lightgbm? ( sci-CRAN/lightgbm ) r_suggests_modeldata? ( sci-CRAN/modeldata ) r_suggests_partykit? ( sci-CRAN/partykit ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsample? ( sci-CRAN/rsample ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tune? ( sci-CRAN/tune ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bonsai_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4e7881bcd80a15e3f2c1058cb813aff6

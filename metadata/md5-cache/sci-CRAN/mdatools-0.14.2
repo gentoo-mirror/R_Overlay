@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Multivariate Data Analysis for Chemometrics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_pcv r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 virtual/Matrix r_suggests_pcv? ( sci-CRAN/pcv ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mdatools_0.14.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=71a4ece6c783b8e721f1e72ef3ee2b48

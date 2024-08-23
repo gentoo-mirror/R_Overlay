@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stacked Gradient Boosting Machines // A minimalist implementation
+		of model stacking by Wolpert (1992)
+		doi:10.1016/S0893-6080(05)80023-1 for boosted tree models. A
+		classic, two-layer stacking model is implemented, where the
+		first layer generates features using gradient boosting trees,
+		and the second layer employs a logistic regression model that
+		uses these features as inputs. Utilities for training the base
+		models and parameters tuning are provided, allowing users to
+		experiment with different ensemble configurations easily. It
+		aims to provide a simple and efficient way to combine multiple
+		gradient boosting models to improve predictive model
+		performance and robustness.
+	</longdescription>
+</pkgmetadata>

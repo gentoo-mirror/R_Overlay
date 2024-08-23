@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fractions of Multivariate Polynomials with Rational Coefficients
+		// Based on the 'qspray' package, this package introduces the
+		new type 'ratioOfQsprays'. An object of type 'qspray'
+		represents a multivariate polynomial with rational coefficients
+		while an object of type 'ratioOfQsprays', defined by two
+		'qspray' objects, represents a fraction of two multivariate
+		polynomials with rational coefficients. Arithmetic operations
+		for these objects are available, and they always return
+		irreducible fractions. Other features include: differentiation,
+		evaluation, conversion to a function, and fine control of the
+		way to print a 'ratioOfQsprays' object. The 'C++' library
+		'CGAL' is used to make the fractions irreducible.
+	</longdescription>
+</pkgmetadata>

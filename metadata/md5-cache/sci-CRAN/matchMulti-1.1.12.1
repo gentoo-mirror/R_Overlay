@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sandwich sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/plyr >=dev-lang/R-3.2.3 >=sci-CRAN/rcbsubset-1.1.4 sci-CRAN/coin sci-CRAN/weights sci-CRAN/mvtnorm virtual/MASS dev-lang/R:=
+DESCRIPTION=Optimal Multilevel Matching usin... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_optmatch r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/sandwich sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/plyr >=dev-lang/R-3.2.3 >=sci-CRAN/rcbsubset-1.1.4 sci-CRAN/coin sci-CRAN/weights sci-CRAN/mvtnorm virtual/MASS r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_optmatch? ( sci-CRAN/optmatch ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/matchMulti_1.1.12.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f0e8985a8faa76c9ce3f1c334df654a3

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Speed Limiter to Control Rate of Execution of Loops // Speed
+		limiter for controlling rate of execution of loops. It can be
+		necessary to limit the rate of execution of a loop or repeated
+		function call e.g. to show or gather data only at particular
+		intervals. This package includes two methods for limiting this
+		execution rate; speed governors and timers.  A speed governor
+		will insert pauses during execution to meet a user-specified
+		loop time.  Timers are alarm clocks which will indicate whether
+		a certain time has passed.  These mechanisms are implemented in
+		'C' to minimize processing overhead.
+	</longdescription>
+</pkgmetadata>

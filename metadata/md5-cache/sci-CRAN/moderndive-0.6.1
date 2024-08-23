@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/knitr sci-CRAN/stringr >=sci-CRAN/rlang-0.2.0 sci-CRAN/dplyr sci-CRAN/ggplot2 >=dev-lang/R-3.4.0 sci-CRAN/infer sci-CRAN/magrittr sci-CRAN/tibble sci-CRAN/janitor >=sci-CRAN/broom-0.4.3 sci-CRAN/formula_tools sci-CRAN/glue dev-lang/R:=
+DESCRIPTION=Tidyverse-Friendly Introductory Linear Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_nycflights13 r_suggests_nycflights23 r_suggests_openintro r_suggests_patchwork r_suggests_readr r_suggests_rmarkdown r_suggests_testthat r_suggests_vdiffr r_suggests_viridis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/knitr sci-CRAN/stringr >=sci-CRAN/rlang-0.2.0 sci-CRAN/dplyr sci-CRAN/ggplot2 >=dev-lang/R-3.4.0 sci-CRAN/infer sci-CRAN/magrittr sci-CRAN/tibble sci-CRAN/janitor >=sci-CRAN/broom-0.4.3 sci-CRAN/formula_tools sci-CRAN/glue r_suggests_covr? ( sci-CRAN/covr ) r_suggests_nycflights13? ( sci-CRAN/nycflights13 ) r_suggests_nycflights23? ( sci-CRAN/nycflights23 ) r_suggests_openintro? ( sci-CRAN/openintro ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/moderndive_0.6.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=996166b51793e0da84881fcb644218c9

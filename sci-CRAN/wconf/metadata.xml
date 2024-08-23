@@ -10,14 +10,21 @@
 		as well as custom configuration options. Furthermore, users can
 		decide whether they wish to positively or negatively affect the
 		accuracy score as a result of applying weights to the confusion
-		matrix. 'wconf' integrates well with the 'caret' package, but
-		it can also work standalone when provided data in matrix form.
-		References: Kuhn, M. (2008) "Building Perspective Models in R
-		Using the caret Package" doi:10.18637/jss.v028.i05 Monahov, A.
-		(2021) "Model Evaluation with Weighted Threshold Optimization
-		(and the mewto R package)" doi:10.2139/ssrn.3805911 Van de
-		Velden, M., Iodice D'Enza, A., Markos, A., Cavicchia, C. (2023)
-		"A general framework for implementing distances for categorical
-		variables" arXiv:2301.02190v1.
+		matrix. Functions are included to calculate accuracy metrics
+		for imbalanced data. Finally, 'wconf' integrates well with the
+		'caret' package, but it can also work standalone when provided
+		data in matrix form. References: Kuhn, M. (2008) "Building
+		Perspective Models in R Using the caret Package"
+		doi:10.18637/jss.v028.i05 Monahov, A. (2021) "Model Evaluation
+		with Weighted Threshold Optimization (and the mewto R package)"
+		doi:10.2139/ssrn.3805911 Monahov, A. (2024) "Improved Accuracy
+		Metrics for Classification with Imbalanced Data and Where
+		Distance from the Truth Matters, with the wconf R Package"
+		doi:10.2139/ssrn.4802336 Starovoitov, V., Golub, Y. (2020). New
+		Function for Estimating Imbalanced Data Classification Results.
+		Pattern Recognition and Image Analysis, 295302 Van de Velden,
+		M., Iodice D'Enza, A., Markos, A., Cavicchia, C. (2023) "A
+		general framework for implementing distances for categorical
+		variables" doi:10.48550/arXiv.2301.02190.
 	</longdescription>
 </pkgmetadata>

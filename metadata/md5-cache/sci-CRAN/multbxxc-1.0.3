@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 >=sci-CRAN/Rcpp-1.0.0 >=sci-CRAN/rmumps-5.2.1.6 dev-lang/R:=
+DESCRIPTION=Auxiliary Routines for Influx Software
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_slam r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.4 >=sci-CRAN/Rcpp-1.0.0 >=sci-CRAN/rmumps-5.2.1.6 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/rmumps r_suggests_slam? ( sci-CRAN/slam ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/multbxxc_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2705a4c7053839f096722107f98ba8d8

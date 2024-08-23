@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.2 sci-CRAN/RViennaCL sci-CRAN/BH sci-CRAN/RcppEigen >=sci-CRAN/Rcpp-0.12.15 dev-lang/R:=
+DESCRIPTION=GPU Functions for R Objects
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.2 sci-CRAN/RViennaCL sci-CRAN/BH sci-CRAN/RcppEigen >=sci-CRAN/Rcpp-0.12.15 >=sci-CRAN/Rcpp-0.12.15 >=sci-CRAN/RcppEigen-0.3.3.4.0 >=sci-CRAN/RViennaCL-1.7.1.7 sci-CRAN/BH r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gpuR_2.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6a1d9aae71d025b0419358c522b47e49

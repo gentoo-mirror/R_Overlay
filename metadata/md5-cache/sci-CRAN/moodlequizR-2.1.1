@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvtnorm sci-CRAN/base64 sci-CRAN/NMcalc sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Easily Create Fully Randomized M... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_markdown r_suggests_matrix r_suggests_rmarkdown r_suggests_shinywidgets byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mvtnorm sci-CRAN/base64 sci-CRAN/NMcalc sci-CRAN/shiny r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shinywidgets? ( sci-CRAN/shinyWidgets ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/moodlequizR_2.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=18e31ace614151f22379af390bc4baa7

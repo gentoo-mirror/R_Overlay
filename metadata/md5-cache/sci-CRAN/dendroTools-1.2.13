@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/scales-0.4.1 >=sci-CRAN/knitr-1.19 >=sci-CRAN/dplyr-0.7.0 >=sci-CRAN/Cubist-0.2.2 >=sci-CRAN/reshape2-1.4.2 >=sci-CRAN/randomForest-4.6.14 virtual/boot >=sci-CRAN/brnn-0.6 >=sci-CRAN/dplR-1.7.2 >=sci-CRAN/ggplot2-2.2.0 >=sci-CRAN/oce-1.2.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/psych-1.8.3.3 >=sci-CRAN/lubridate-1.7.4 >=sci-CRAN/plotly-4.7.1 >=dev-lang/R-3.4 >=sci-CRAN/viridis-0.5.1 >=sci-CRAN/MLmetrics-1.1.1 dev-lang/R:=
+DESCRIPTION=Linear and Nonlinear Methods for... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/scales-0.4.1 >=sci-CRAN/knitr-1.19 >=sci-CRAN/dplyr-0.7.0 >=sci-CRAN/Cubist-0.2.2 >=sci-CRAN/reshape2-1.4.2 >=sci-CRAN/randomForest-4.6.14 virtual/boot >=sci-CRAN/brnn-0.6 >=sci-CRAN/dplR-1.7.2 >=sci-CRAN/ggplot2-2.2.0 >=sci-CRAN/oce-1.2.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/psych-1.8.3.3 >=sci-CRAN/lubridate-1.7.4 >=sci-CRAN/plotly-4.7.1 >=dev-lang/R-3.4 >=sci-CRAN/viridis-0.5.1 >=sci-CRAN/MLmetrics-1.1.1 r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dendroTools_1.2.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fd123dde365074322452d2c6291375fa

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/doFuture sci-CRAN/foreach sci-CRAN/future sci-CRAN/geosphere sci-CRAN/ggplot2 sci-CRAN/JOPS virtual/MASS sci-CRAN/progressr dev-lang/R:=
+DESCRIPTION=An Improved Version of WA-PLS
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_magrittr r_suggests_progress r_suggests_scales r_suggests_tictoc byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/doFuture sci-CRAN/foreach sci-CRAN/future sci-CRAN/geosphere sci-CRAN/ggplot2 sci-CRAN/JOPS virtual/MASS sci-CRAN/progressr r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_progress? ( sci-CRAN/progress ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_tictoc? ( sci-CRAN/tictoc ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fxTWAPLS_0.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1b3a4999fd18bb40783da02fee3d42cd

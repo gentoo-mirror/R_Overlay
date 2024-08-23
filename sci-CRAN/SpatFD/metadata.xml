@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Functional Geostatistics: Univariate and Multivariate Functional
+		Spatial Prediction // Performance of functional kriging,
+		cokriging, optimal sampling and simulation for spatial
+		prediction of functional data. The framework of spatial
+		prediction, optimal sampling and simulation are extended from
+		scalar to functional data. 'SpatFD' is based on the Karhunen-
+		Love expansion that allows to represent the observed functions
+		in terms of its empirical functional principal components.
+		Based on this approach, the functional auto-covariances and
+		cross-covariances required for  spatial functional predictions
+		and optimal sampling, are completely determined by the sum of
+		the spatial auto-covariances and cross-covariances of the
+		respective score components. The package provides new classes
+		of data and functions for modeling spatial dependence structure
+		among curves. The spatial prediction of curves at unsampled
+		locations can be carried out using two types of predictors, and
+		both of them report, the respective variances of the prediction
+		error. In addition, there is a function for the determination
+		of spatial locations sampling configuration that ensures
+		minimum variance of spatial functional prediction. There are
+		also two functions for plotting predicted curves at each
+		location and mapping the surface at each time point,
+		respectively. References Bohorquez, M., Giraldo, R., and Mateu,
+		J. (2016) doi:10.1007/s10260-015-0340-9, Bohorquez, M.,
+		Giraldo, R., and Mateu, J. (2016)
+		doi:10.1007/s00477-016-1266-y, Bohorquez M., Giraldo R. and
+		Mateu J. (2021) doi:10.1002/9781119387916.
+	</longdescription>
+</pkgmetadata>

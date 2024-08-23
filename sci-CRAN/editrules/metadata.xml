@@ -2,15 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Parsing, Applying, and Manipulating Data Cleaning Rules //
-		Facilitates reading and manipulating (multivariate) data
-		restrictions (edit rules) on numerical and categorical data.
-		Rules can be defined with common R syntax and parsed to an
-		internal (matrix-like format). Rules can be manipulated with
-		variable elimination and value substitution methods, allowing
-		for feasibility checks and more. Data can be tested against the
-		rules and erroneous fields can be found based on Fellegi and
-		Holt's generalized principle. Rules dependencies can be
-		visualized with using the 'igraph' package.
+		Parsing, Applying, and Manipulating Data Cleaning Rules // Please
+		note: active development has moved to packages 'validate' and
+		'errorlocate'. Facilitates reading and manipulating
+		(multivariate) data restrictions (edit rules) on numerical and
+		categorical data. Rules can be defined with common R syntax and
+		parsed to an internal (matrix-like format). Rules can be
+		manipulated with variable elimination and value substitution
+		methods, allowing for feasibility checks and more. Data can be
+		tested against the rules and erroneous fields can be found
+		based on Fellegi and Holt's generalized principle. Rules
+		dependencies can be visualized with using the 'igraph' package.
 	</longdescription>
 </pkgmetadata>

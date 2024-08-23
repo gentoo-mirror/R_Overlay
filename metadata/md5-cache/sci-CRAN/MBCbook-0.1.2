@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/mclust sci-CRAN/Rmixmod sci-CRAN/mvtnorm virtual/MASS dev-lang/R:=
+DESCRIPTION=Companion Package for the Book M... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_jpeg r_suggests_network byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/mclust sci-CRAN/Rmixmod sci-CRAN/mvtnorm virtual/MASS r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_network? ( sci-CRAN/network ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MBCbook_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fae9c26d1a5e86a568a8cad68262ef43

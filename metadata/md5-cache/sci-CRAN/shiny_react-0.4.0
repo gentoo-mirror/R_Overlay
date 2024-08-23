@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/glue sci-CRAN/htmltools sci-CRAN/jsonlite sci-CRAN/logger sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/shiny sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Tools for Using React in Shiny
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_chromote r_suggests_covr r_suggests_knitr r_suggests_leaflet r_suggests_lintr r_suggests_rcmdcheck r_suggests_rmarkdown r_suggests_shinytest2 r_suggests_styler r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3+
+RDEPEND=sci-CRAN/glue sci-CRAN/htmltools sci-CRAN/jsonlite sci-CRAN/logger sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/shiny sci-CRAN/stringi r_suggests_chromote? ( sci-CRAN/chromote ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_lintr? ( >=sci-CRAN/lintr-3.0.0 ) r_suggests_rcmdcheck? ( sci-CRAN/rcmdcheck ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shinytest2? ( sci-CRAN/shinytest2 ) r_suggests_styler? ( sci-CRAN/styler ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/shiny.react_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f5786a0c8fb7e47c2423b2690b8a3fa0

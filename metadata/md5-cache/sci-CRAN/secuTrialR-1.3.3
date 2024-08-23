@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/rlang >=dev-lang/R-3.5 sci-CRAN/readr sci-CRAN/stringr sci-CRAN/lubridate sci-CRAN/readxl >=sci-CRAN/haven-2.2.0 sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Handling of Data from the Clinic... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_igraph r_suggests_knitr r_suggests_lintr r_suggests_rmarkdown r_suggests_testthat r_suggests_tk r_suggests_tufte byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/rlang >=dev-lang/R-3.5 sci-CRAN/readr sci-CRAN/stringr sci-CRAN/lubridate sci-CRAN/readxl >=sci-CRAN/haven-2.2.0 sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/purrr r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tk? ( dev-lang/R[tk] ) r_suggests_tufte? ( sci-CRAN/tufte ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/secuTrialR_1.3.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3943663ee2a3149347a151e752649ca2

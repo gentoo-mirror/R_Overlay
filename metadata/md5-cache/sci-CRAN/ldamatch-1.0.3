@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gmp sci-CRAN/RUnit sci-CRAN/data_table sci-CRAN/entropy >=dev-lang/R-3.0.0 sci-CRAN/foreach sci-CRAN/iterators sci-CRAN/iterpc sci-CRAN/kSamples sci-CRAN/car dev-lang/R:=
+DESCRIPTION=Selection of Statistically Similar Research Groups
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_knitr r_suggests_markdown r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/gmp sci-CRAN/RUnit sci-CRAN/data_table sci-CRAN/entropy >=dev-lang/R-3.0.0 sci-CRAN/foreach sci-CRAN/iterators sci-CRAN/iterpc sci-CRAN/kSamples sci-CRAN/car r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ldamatch_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d59f2bd31b7ea53fc78ccbfe37177bd6

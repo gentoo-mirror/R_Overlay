@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/rlang sci-CRAN/withr sci-CRAN/yaml sci-CRAN/filelock dev-lang/R:=
+DESCRIPTION=GAMS Modularization Support Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_callr r_suggests_class r_suggests_covr r_suggests_curl r_suggests_qgraph r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD-2
+RDEPEND=sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/rlang sci-CRAN/withr sci-CRAN/yaml sci-CRAN/filelock r_suggests_callr? ( sci-CRAN/callr ) r_suggests_class? ( virtual/class ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_qgraph? ( sci-CRAN/qgraph ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gms_0.31.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=215c72ffa3bf2375a5c6b4149b88c8d2

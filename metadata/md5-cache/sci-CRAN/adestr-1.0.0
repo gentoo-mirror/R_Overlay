@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/future_apply >=dev-lang/R-4.0.0 sci-CRAN/adoptr sci-CRAN/forcats sci-CRAN/Rdpack sci-CRAN/cubature sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/scales sci-CRAN/latex2exp sci-CRAN/progressr dev-lang/R:=
+DESCRIPTION=Estimation in Optimal Adaptive Two-Stage Designs
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/future_apply >=dev-lang/R-4.0.0 sci-CRAN/adoptr sci-CRAN/forcats sci-CRAN/Rdpack sci-CRAN/cubature sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/scales sci-CRAN/latex2exp sci-CRAN/progressr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/adestr_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0210d0cfa664215d7dcfdd171fa17570

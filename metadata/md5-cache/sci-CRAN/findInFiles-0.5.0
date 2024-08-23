@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/crayon sci-CRAN/htmlwidgets sci-CRAN/stringi sci-CRAN/shiny sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=Find Pattern in Files
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fs r_suggests_shinyace r_suggests_shinyfiles r_suggests_shinyjqui r_suggests_shinyvalidate r_suggests_shinywidgets byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/crayon sci-CRAN/htmlwidgets sci-CRAN/stringi sci-CRAN/shiny sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/vctrs sys-apps/findutils r_suggests_fs? ( sci-CRAN/fs ) r_suggests_shinyace? ( sci-CRAN/shinyAce ) r_suggests_shinyfiles? ( sci-CRAN/shinyFiles ) r_suggests_shinyjqui? ( sci-CRAN/shinyjqui ) r_suggests_shinyvalidate? ( sci-CRAN/shinyvalidate ) r_suggests_shinywidgets? ( sci-CRAN/shinyWidgets ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/findInFiles_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=19df5727a97d215b973a36bab0003869

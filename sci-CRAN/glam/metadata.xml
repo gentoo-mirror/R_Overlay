@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generalized Additive and Linear Models (GLAM) // Contains methods
+		for fitting Generalized Linear Models (GLMs) and Generalized
+		Additive Models (GAMs). Generalized regression models are
+		common methods for handling data for which assuming Gaussian-
+		distributed errors is not appropriate. For instance, if the
+		response of interest is binary, count, or proportion data, one
+		can instead model the expectation of the response based on an
+		appropriate data-generating distribution. This package provides
+		methods for fitting GLMs and GAMs under Beta regression,
+		Poisson regression, Gamma regression, and Binomial regression
+		(currently GLM only) settings. Models are fit using local
+		scoring algorithms described in Hastie and Tibshirani (1990)
+		doi:10.1214/ss/1177013604.
+	</longdescription>
+</pkgmetadata>

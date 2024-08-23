@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/pomp-5.4 sci-CRAN/dplyr sci-CRAN/foreach >=dev-lang/R-4.1 sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/abind sci-CRAN/rlang sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Inference for Spatiotemporal Par... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_dorng byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/pomp-5.4 sci-CRAN/dplyr sci-CRAN/foreach >=dev-lang/R-4.1 sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/abind sci-CRAN/rlang sci-CRAN/ggplot2 sci-CRAN/pomp r_suggests_doparallel? ( >=sci-CRAN/doParallel-1.0.11 ) r_suggests_dorng? ( sci-CRAN/doRNG ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatPomp_0.36.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e5964fcdf1c51534600999afb3658ae8

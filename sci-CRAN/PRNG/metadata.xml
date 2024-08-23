@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Pseudo-Random Number Generator // Provides functions for
+		generating pseudo-random numbers that follow a uniform
+		distribution [0,1]. Randomness tests were conducted using the
+		National Institute of Standards and Technology test
+		suitehttps://csrc.nist.gov/pubs/sp/800/22/r1/upd1/final, along
+		with additional tests. The sequence generated depends on the
+		initial values and parameters. The package includes a linear
+		congruence map as the decision map and three chaotic maps to
+		generate the pseudo-random sequence, which follow a uniform
+		distribution. Other distributions can be generated from the
+		uniform distribution using the Inversion Principle Method and
+		BOX-Muller transformation. Small perturbations in seed values
+		result in entirely different sequences of numbers due to the
+		sensitive nature of the maps being used. The chaotic nature of
+		the maps helps achieve randomness in the generator.
+		Additionally, the generator is capable of producing random
+		bits.
+	</longdescription>
+</pkgmetadata>

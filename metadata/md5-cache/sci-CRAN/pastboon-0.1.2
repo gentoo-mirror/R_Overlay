@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=Simulation of Parameterized Stoc... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boolnet byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=>=dev-lang/R-3.5.0 r_suggests_boolnet? ( sci-CRAN/BoolNet ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pastboon_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=15cd7b9d540fdd4622c9e78f079749d3

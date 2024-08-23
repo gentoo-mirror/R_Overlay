@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/foreach sci-CRAN/pscl sci-CRAN/MLmetrics sci-CRAN/stringr sci-CRAN/doParallel sci-CRAN/magrittr sci-CRAN/doRNG sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/stringi sci-CRAN/generics sci-CRAN/dplyr sci-CRAN/RcppArmadillo sci-CRAN/Rdpack sci-CRAN/Rcpp virtual/MASS sci-CRAN/mistr dev-lang/R:=
+DESCRIPTION=Inference with Extreme Value Inflated Count Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/foreach sci-CRAN/pscl sci-CRAN/MLmetrics sci-CRAN/stringr sci-CRAN/doParallel sci-CRAN/magrittr sci-CRAN/doRNG sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/stringi sci-CRAN/generics sci-CRAN/dplyr sci-CRAN/RcppArmadillo sci-CRAN/Rdpack sci-CRAN/Rcpp virtual/MASS sci-CRAN/mistr sci-CRAN/Rcpp sci-CRAN/RcppArmadillo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/evinf_0.8.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=436da110106a40bda5f97b061ac6224a

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/sf sci-CRAN/maxLik virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/terra sci-CRAN/xtable dev-lang/R:=
+DESCRIPTION=Geo-Statistical Modeling of Spat... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/sf sci-CRAN/maxLik virtual/Matrix sci-CRAN/ggplot2 sci-CRAN/terra sci-CRAN/xtable dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RiskMap_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b15c362948180c8043edbc3341ea8b10

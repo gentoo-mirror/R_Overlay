@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rumidas sci-CRAN/WeightedEnsemble sci-CRAN/rugarch sci-CRAN/xts sci-CRAN/Metrics sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=PSO Based Weighted Ensemble Algo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/rumidas sci-CRAN/WeightedEnsemble sci-CRAN/rugarch sci-CRAN/xts sci-CRAN/Metrics sci-CRAN/zoo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PWEV_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d104a0c8a1c0ab021dd16185b70b847d

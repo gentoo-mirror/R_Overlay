@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/MASS virtual/Matrix sci-CRAN/kyotil dev-lang/R:=
+DESCRIPTION=Maximum Diversity Weighting
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gtools r_suggests_mvtnorm r_suggests_r_rsp r_suggests_runit byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 virtual/MASS virtual/Matrix sci-CRAN/kyotil r_suggests_gtools? ( sci-CRAN/gtools ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_runit? ( sci-CRAN/RUnit ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mdw_2024.8-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=efc7f7daa78cd46c99d9c01361547c1a

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/cachem-1.0.0 >=sci-CRAN/backports-1.1.6 >=sci-CRAN/ggplot2-3.3.0 >=sci-CRAN/cli-3.0.0 >=sci-CRAN/magick-2.7.3 >=sci-CRAN/memoise-2.0.0 >=sci-CRAN/rlang-0.4.11 dev-lang/R:=
+DESCRIPTION=Robust Image Rendering Support for ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/cachem-1.0.0 >=sci-CRAN/backports-1.1.6 >=sci-CRAN/ggplot2-3.3.0 >=sci-CRAN/cli-3.0.0 >=sci-CRAN/magick-2.7.3 >=sci-CRAN/memoise-2.0.0 >=sci-CRAN/rlang-0.4.11 r_suggests_covr? ( >=sci-CRAN/covr-3.5.1 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-1.0.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggpath_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e72a12795e9f8ee30184769ce65e020b

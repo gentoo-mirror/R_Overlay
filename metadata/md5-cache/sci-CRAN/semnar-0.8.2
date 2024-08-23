@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/parsedate sci-CRAN/leaflet sci-CRAN/urlshorteneR dev-lang/R:=
+DESCRIPTION=Constructing and Interacting wit... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_curl r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/parsedate sci-CRAN/leaflet sci-CRAN/urlshorteneR r_suggests_covr? ( sci-CRAN/covr ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/semnar_0.8.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6cb676783e8e2ec317c768f64f275bec

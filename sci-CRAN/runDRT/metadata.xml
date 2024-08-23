@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Run Doubly Ranked Tests // Doubly ranked tests are nonparametric
+		tests for grouped functional and multivariate data. The testing
+		procedure first ranks a matrix (or three dimensional array) of
+		data by column (if a matrix) or by cell (across the third
+		dimension if an array). By default, it calculates a sufficient
+		statistic for the subject's order within the sample using the
+		observed ranks, taken over the columns or cells. Depending on
+		the number of groups, G, the summarized ranks are then analyzed
+		using either a Wilcoxon Rank Sum test (G = 2) or a Kruskal-
+		Wallis (G greater than 2).
+	</longdescription>
+</pkgmetadata>

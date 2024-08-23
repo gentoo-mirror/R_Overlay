@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/R6 sci-CRAN/rlang >=sci-CRAN/RcppParallel-5.1.3 >=sci-CRAN/Rcpp-0.12.18.3 sci-CRAN/dplyr sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Radix Tree and Trie-Based String Distances
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biostrings r_suggests_ggplot2 r_suggests_igraph r_suggests_knitr r_suggests_qs r_suggests_rmarkdown r_suggests_stringdist byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/R6 sci-CRAN/rlang >=sci-CRAN/RcppParallel-5.1.3 >=sci-CRAN/Rcpp-0.12.18.3 sci-CRAN/dplyr sci-CRAN/stringi sci-CRAN/Rcpp sci-CRAN/RcppParallel sci-CRAN/BH r_suggests_biostrings? ( sci-BIOC/Biostrings ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_qs? ( sci-CRAN/qs ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringdist? ( sci-CRAN/stringdist ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/seqtrie_0.2.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=866a7529c632a02d2c8268b12fd1d2ba

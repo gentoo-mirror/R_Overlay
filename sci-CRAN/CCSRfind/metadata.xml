@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Convert ICD-10 Codes to CCSR Codes // Provides a tool for
+		matching ICD-10 codes to corresponding Clinical Classification
+		Software Refined (CCSR) codes. The main function, CCSRfind(),
+		identifies each CCSR code that applies to an individual given
+		their diagnosis codes. It also provides a summary of CCSR codes
+		that are matched to a dataset. The package contains 3 datasets:
+		'DXCCSR' (mapping of ICD-10 codes to CCSR codes), 'Legend'
+		(conversion of DXCCSR to CCSRfind-usable format for CCSR codes
+		with less than or equal to 1000 ICD-10 diagnosis codes), and
+		'LegendExtend' (conversion of DXCCSR to CCSRfind-usable format
+		for CCSR codes with more than 1000 ICD-10 dx codes). The disc()
+		function applies grepl() ('base') to multiple columns and is
+		used in CCSRfind().
+	</longdescription>
+</pkgmetadata>

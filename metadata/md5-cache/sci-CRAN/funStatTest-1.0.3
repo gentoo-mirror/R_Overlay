@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/tidyselect sci-CRAN/checkmate sci-CRAN/ggplot2 sci-CRAN/distr sci-CRAN/tidyr sci-CRAN/magrittr sci-CRAN/dplyr virtual/Matrix sci-CRAN/pbapply sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Statistical Testing for Functional Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/tibble sci-CRAN/tidyselect sci-CRAN/checkmate sci-CRAN/ggplot2 sci-CRAN/distr sci-CRAN/tidyr sci-CRAN/magrittr sci-CRAN/dplyr virtual/Matrix sci-CRAN/pbapply sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/funStatTest_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=955177f7c5f64d7440eed35f97746b39

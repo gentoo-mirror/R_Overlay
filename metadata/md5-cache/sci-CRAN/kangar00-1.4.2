@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/bigmemory sci-CRAN/CompQuadForm sci-CRAN/data_table sci-CRAN/sqldf virtual/lattice sci-CRAN/igraph dev-lang/R:=
+DESCRIPTION=Kernel Approaches for Nonlinear ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biomart r_suggests_kegggraph r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/bigmemory sci-CRAN/CompQuadForm sci-CRAN/data_table sci-CRAN/sqldf virtual/lattice sci-CRAN/igraph r_suggests_biomart? ( sci-BIOC/biomaRt ) r_suggests_kegggraph? ( sci-BIOC/KEGGgraph ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/kangar00_1.4.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0615e7348cdb0508866bd75b97229c8d

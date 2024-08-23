@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		CONCOR for Structural- And Regular-Equivalence Blockmodeling //
+		The four functions svdcp() ('cp' for column partitioned),
+		svdbip() or svdbip2() ('bip' for bipartitioned), and svdbips()
+		('s' for a simultaneous optimization of a set of 'r'
+		solutions), correspond to a singular value decomposition (SVD)
+		by blocks notion, by supposing each block depending on relative
+		subspaces, rather than on two whole spaces as usual SVD does.
+		The other functions, based on this notion, are relative to two
+		column partitioned data matrices x and y defining two sets of
+		subsets x_i and y_j of variables and amount to estimate a link
+		between x_i and y_j for the pair (x_i, y_j) relatively to the
+		links associated to all the other pairs. These methods were
+		first presented in: Lafosse R.  Hanafi M.,(1997)
+		https://eudml.org/doc/106424 and Hanafi M.  Lafosse, R. (2001)
+		https://eudml.org/doc/106494.
+	</longdescription>
+</pkgmetadata>

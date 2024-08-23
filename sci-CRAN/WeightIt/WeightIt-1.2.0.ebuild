@@ -1,0 +1,55 @@
+# Copyright 1999-2024 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Weighting for Covariate Balance ... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/WeightIt_1.2.0.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_brglm2 r_suggests_broom r_suggests_cbps
+	r_suggests_dbarts r_suggests_dfidx r_suggests_enrichwith
+	r_suggests_fwb r_suggests_gbm r_suggests_knitr r_suggests_logistf
+	r_suggests_marginaleffects r_suggests_mass r_suggests_mclogit
+	r_suggests_misaem r_suggests_mlogit r_suggests_mnp
+	r_suggests_optweight r_suggests_osqp r_suggests_rmarkdown
+	r_suggests_rootsolve r_suggests_sandwich r_suggests_superlearner
+	r_suggests_survival r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_brglm2? ( >=sci-CRAN/brglm2-0.5.2 )
+	r_suggests_broom? ( sci-CRAN/broom )
+	r_suggests_cbps? ( >=sci-CRAN/CBPS-0.18 )
+	r_suggests_dbarts? ( >=sci-CRAN/dbarts-0.9.20 )
+	r_suggests_dfidx? ( sci-CRAN/dfidx )
+	r_suggests_enrichwith? ( >=sci-CRAN/enrichwith-0.3.1 )
+	r_suggests_fwb? ( >=sci-CRAN/fwb-0.2.0 )
+	r_suggests_gbm? ( >=sci-CRAN/gbm-2.1.3 )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_logistf? ( >=sci-CRAN/logistf-1.26.0 )
+	r_suggests_marginaleffects? ( >=sci-CRAN/marginaleffects-0.19.0 )
+	r_suggests_mass? ( virtual/MASS )
+	r_suggests_mclogit? ( sci-CRAN/mclogit )
+	r_suggests_misaem? ( >=sci-CRAN/misaem-1.0.1 )
+	r_suggests_mlogit? ( sci-CRAN/mlogit )
+	r_suggests_mnp? ( >=sci-CRAN/MNP-3.1.4 )
+	r_suggests_optweight? ( >=sci-CRAN/optweight-0.2.4 )
+	r_suggests_osqp? ( >=sci-CRAN/osqp-0.6.0.5 )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_rootsolve? ( >=sci-CRAN/rootSolve-1.8.2.4 )
+	r_suggests_sandwich? ( sci-CRAN/sandwich )
+	r_suggests_superlearner? ( >=sci-CRAN/SuperLearner-2.0.25 )
+	r_suggests_survival? ( virtual/survival )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+"
+DEPEND=">=dev-lang/R-4.0.0
+	>=sci-CRAN/rlang-1.1.0
+	>=sci-CRAN/chk-0.8.1
+	>=sci-CRAN/cobalt-4.5.1
+	>=sci-CRAN/ggplot2-3.3.0
+	sci-CRAN/crayon
+	sci-CRAN/generics
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

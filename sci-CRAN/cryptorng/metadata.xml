@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Access System Cryptographic Pseudorandom Number Generators //
+		Generate random numbers from the Cryptographically Secure
+		Pseudorandom Number Generator (CSPRNG) provided by the
+		underlying operating system. System CSPRNGs are seeded
+		internally by the OS with entropy it gathers from the system
+		hardware. The following system functions are used:
+		arc4random_buf() on macOS and BSD; BCryptgenRandom() on
+		Windows; Sys_getrandom() on Linux.
+	</longdescription>
+</pkgmetadata>

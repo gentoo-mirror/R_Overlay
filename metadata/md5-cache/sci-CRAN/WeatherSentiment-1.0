@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/sentimentr sci-CRAN/tidyverse sci-CRAN/wordcloud sci-CRAN/tidytext sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/data_table sci-CRAN/RColorBrewer sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Comprehensive Analysis of Tweet ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_syuzhet byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/sentimentr sci-CRAN/tidyverse sci-CRAN/wordcloud sci-CRAN/tidytext sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/data_table sci-CRAN/RColorBrewer sci-CRAN/tidyr r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_syuzhet? ( sci-CRAN/syuzhet ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/WeatherSentiment_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=eb43e833ee4f55d928775e43705d8c4e

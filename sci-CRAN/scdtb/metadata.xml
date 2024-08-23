@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Single Case Design Tools // In some situations where researchers
+		would like to demonstrate causal effects, it is hard to obtain
+		a sample size that would allow for a well-powered randomized
+		controlled trial. Single case designs are experimental designs
+		that can be used to demonstrate causal effects with only one
+		participant or with only a few participants. The 'scdtb'
+		package provides a suite of tools for analyzing data from
+		studies that use single case designs. The nap() function can be
+		used to compute the nonoverlap of all pairs as outlined by the
+		What Works Clearinghouse (2022)
+		https://ies.ed.gov/ncee/wwc/Handbooks. The package also offers
+		the mixed_model_analysis() and cross_lagged() functions which
+		implement mixed effects models and cross lagged analyses as
+		described in Maric  van der Werff (2020)
+		doi:10.4324/9780429273872-9. The randomization_test() function
+		implements randomization tests based on methods presented in
+		Onghena (2020) doi:10.4324/9780429273872-8. The scdtb() 'shiny'
+		application can be used to upload single case design data and
+		access various 'scdtb' tools for plotting and analysis.
+	</longdescription>
+</pkgmetadata>

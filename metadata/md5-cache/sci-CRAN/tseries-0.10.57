@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/zoo sci-CRAN/jsonlite >=sci-CRAN/quantmod-0.4.9 sci-CRAN/quadprog dev-lang/R:=
+DESCRIPTION=Time Series Analysis and Computational Finance
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/zoo sci-CRAN/jsonlite >=sci-CRAN/quantmod-0.4.9 sci-CRAN/quadprog dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tseries_0.10-57.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=44f75c2ed085c0d98d519d00712ccca1

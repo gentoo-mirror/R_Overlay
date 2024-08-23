@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=NASCAR Race Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_conflicted r_suggests_ggtext r_suggests_glue r_suggests_gtsummary r_suggests_here r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_rum r_suggests_scales r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.5.0 r_suggests_conflicted? ( sci-CRAN/conflicted ) r_suggests_ggtext? ( sci-CRAN/ggtext ) r_suggests_glue? ( sci-CRAN/glue ) r_suggests_gtsummary? ( sci-CRAN/gtsummary ) r_suggests_here? ( sci-CRAN/here ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_rum? ( sci-CRAN/rUM ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nascaR.data_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c44f29f176290236186d1f18ca22fa30

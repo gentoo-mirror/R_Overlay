@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/desc sci-CRAN/digest sci-CRAN/evaluate sci-CRAN/brio sci-CRAN/fansi sci-CRAN/memoise sci-CRAN/rlang sci-CRAN/vctrs sci-CRAN/withr sci-CRAN/yaml dev-lang/R:=
+DESCRIPTION=Syntax Highlighting and Automatic Linking
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_htmltools r_suggests_jsonlite r_suggests_mass r_suggests_pkgload r_suggests_rmarkdown r_suggests_testthat r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/desc sci-CRAN/digest sci-CRAN/evaluate sci-CRAN/brio sci-CRAN/fansi sci-CRAN/memoise sci-CRAN/rlang sci-CRAN/vctrs sci-CRAN/withr sci-CRAN/yaml r_suggests_covr? ( sci-CRAN/covr ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_mass? ( virtual/MASS virtual/MASS ) r_suggests_pkgload? ( sci-CRAN/pkgload ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/downlit_0.4.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=db5866dd26bce2fdfd0ecbccaf76f990

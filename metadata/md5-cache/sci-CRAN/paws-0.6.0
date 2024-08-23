@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/paws_end_user_computing-0.6.0 >=sci-CRAN/paws_networking-0.6.0 >=sci-CRAN/paws_analytics-0.6.0 >=sci-CRAN/paws_cost_management-0.6.0 >=sci-CRAN/paws_compute-0.6.0 >=sci-CRAN/paws_storage-0.6.0 >=sci-CRAN/paws_application_integration-0.6.0 >=sci-CRAN/paws_common-0.6.0 >=sci-CRAN/paws_customer_engagement-0.6.0 >=sci-CRAN/paws_database-0.6.0 >=sci-CRAN/paws_developer_tools-0.6.0 >=sci-CRAN/paws_management-0.6.0 >=sci-CRAN/paws_security_identity-0.6.0 dev-lang/R:=
+DESCRIPTION=Amazon Web Services Software Development Kit
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=sci-CRAN/paws_end_user_computing-0.6.0 >=sci-CRAN/paws_networking-0.6.0 >=sci-CRAN/paws_analytics-0.6.0 >=sci-CRAN/paws_cost_management-0.6.0 >=sci-CRAN/paws_compute-0.6.0 >=sci-CRAN/paws_storage-0.6.0 >=sci-CRAN/paws_application_integration-0.6.0 >=sci-CRAN/paws_common-0.6.0 >=sci-CRAN/paws_customer_engagement-0.6.0 >=sci-CRAN/paws_database-0.6.0 >=sci-CRAN/paws_developer_tools-0.6.0 >=sci-CRAN/paws_management-0.6.0 >=sci-CRAN/paws_security_identity-0.6.0 r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/paws_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fd32f9a03e621e41b6ac17be95f4ec32

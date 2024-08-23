@@ -5,6 +5,9 @@
 		Angular Distance Weighting Interpolation // The irregularly-
 		spaced data are interpolated onto regular latitude-longitude
 		grids by weighting each station according to its distance and
-		angle from the center of a search radius.
+		angle from the center of a search radius. In addition to this,
+		we also provide a simple way (Jones and Hulme, 1996) to grid
+		the irregularly-spaced data points onto regular latitude-
+		longitude grids by averaging all stations in grid-boxes.
 	</longdescription>
 </pkgmetadata>

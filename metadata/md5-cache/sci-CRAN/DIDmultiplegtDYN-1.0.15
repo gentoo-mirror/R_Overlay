@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rnames sci-CRAN/lmtest sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/data_table sci-CRAN/haven sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/matlib sci-CRAN/plm sci-CRAN/rlang sci-CRAN/xlsx sci-CRAN/car sci-CRAN/sandwich dev-lang/R:=
+DESCRIPTION=Estimation in Difference-in-Diff... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rnames sci-CRAN/lmtest sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/data_table sci-CRAN/haven sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/matlib sci-CRAN/plm sci-CRAN/rlang sci-CRAN/xlsx sci-CRAN/car sci-CRAN/sandwich dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DIDmultiplegtDYN_1.0.15.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a80cb538456b881514aab14b32ed0c19

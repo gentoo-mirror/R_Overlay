@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-1.0.10 virtual/MASS virtual/Matrix sci-CRAN/caret sci-CRAN/faux sci-CRAN/SLOPE sci-CRAN/Rlab dev-lang/R:=
+DESCRIPTION=Sparse-Group SLOPE: Adaptive Bi-... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gglasso r_suggests_glmnet r_suggests_grpslope r_suggests_knitr r_suggests_rmarkdown r_suggests_sgl r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/Rcpp-1.0.10 virtual/MASS virtual/Matrix sci-CRAN/caret sci-CRAN/faux sci-CRAN/SLOPE sci-CRAN/Rlab sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_gglasso? ( sci-CRAN/gglasso ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_grpslope? ( sci-CRAN/grpSLOPE ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sgl? ( sci-CRAN/SGL ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sgs_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bc40cc496ded845a28f949fd9e92703e

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/Rfast sci-CRAN/plotly sci-CRAN/pbapply >=dev-lang/R-3.5.0 virtual/survival sci-CRAN/ggrepel virtual/Matrix virtual/Matrix dev-lang/R:=
+DESCRIPTION=Survival Control Charts Estimation Software
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_gridextra r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/Rfast sci-CRAN/plotly sci-CRAN/pbapply >=dev-lang/R-3.5.0 virtual/survival sci-CRAN/ggrepel virtual/Matrix virtual/Matrix r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.10 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/success_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=29809f69e55275f3ce8c7bbdcf695dd9

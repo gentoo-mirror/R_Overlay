@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/spatstat_geom sci-CRAN/sf >=dev-lang/R-3.5.0 sci-CRAN/automap sci-CRAN/spatstat_random sci-CRAN/alphahull sci-CRAN/sp sci-CRAN/cartogramR sci-CRAN/mapplots virtual/MASS sci-CRAN/fields sci-CRAN/gstat sci-CRAN/stars sci-CRAN/geodata sci-CRAN/RSpectra sci-CRAN/seriation virtual/Matrix sci-CRAN/concaveman sci-CRAN/maps dev-lang/R:=
+DESCRIPTION=Visualization for Quantitative Language Comparison
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lingtypology r_suggests_mapdata r_suggests_rnaturalearth byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/spatstat_geom sci-CRAN/sf >=dev-lang/R-3.5.0 sci-CRAN/automap sci-CRAN/spatstat_random sci-CRAN/alphahull sci-CRAN/sp sci-CRAN/cartogramR sci-CRAN/mapplots virtual/MASS sci-CRAN/fields sci-CRAN/gstat sci-CRAN/stars sci-CRAN/geodata sci-CRAN/RSpectra sci-CRAN/seriation virtual/Matrix sci-CRAN/concaveman sci-CRAN/maps r_suggests_lingtypology? ( sci-CRAN/lingtypology ) r_suggests_mapdata? ( sci-CRAN/mapdata ) r_suggests_rnaturalearth? ( sci-CRAN/rnaturalearth ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/qlcVisualize_0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a1c4386d2fe7a10e4949c76ddeb5b628

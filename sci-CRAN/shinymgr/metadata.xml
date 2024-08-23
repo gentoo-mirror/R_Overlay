@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Framework for Building, Managing, and Stitching 'shiny' Modules
+		into Reproducible Workflows // A unifying framework for
+		managing and deploying 'shiny' applications that consist of
+		modules, where an "app" is a tab-based workflow that guides a
+		user step-by-step through an analysis. The 'shinymgr' app
+		builder "stitches" 'shiny' modules together so that outputs
+		from one module serve as inputs to the next, creating an
+		analysis pipeline that is easy to implement and maintain. Users
+		of 'shinymgr' apps can save analyses as an RDS file that fully
+		reproduces the analytic steps and can be ingested into an R
+		Markdown report for rapid reporting. In short, developers use
+		the 'shinymgr' framework to write modules and seamlessly
+		combine them into 'shiny' apps, and users of these apps can
+		execute reproducible analyses that can be incorporated into
+		reports for rapid dissemination.
+	</longdescription>
+</pkgmetadata>

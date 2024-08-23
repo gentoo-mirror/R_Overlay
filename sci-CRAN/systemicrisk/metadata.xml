@@ -2,11 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		A Toolbox for Systemic Risk // A toolbox for systemic risk based
-		on liabilities matrices. Contains a Gibbs sampler for
-		liabilities matrices where only row and column sums of the
+		Systemic Risk and Network Reconstruction // Analysis of risk
+		through liability matrices. Contains a Gibbs sampler for
+		network reconstruction,  where only row and column sums of the
 		liabilities matrix as well as some other fixed entries are
-		observed. Includes models for power law distribution on the
-		degree distribution.
+		observed, following the methodology of GandyVeraart (2016)
+		doi:10.1287/mnsc.2016.2546. It also incorporates models that
+		use a power law distribution on the degree distribution.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/leaps sci-CRAN/colorspace virtual/lattice sci-CRAN/openxlsx >=dev-lang/R-3.6.0 virtual/lattice sci-CRAN/robustbase sci-CRAN/ellipse sci-CRAN/shiny sci-CRAN/knitr dev-lang/R:=
+DESCRIPTION=Less Code, More Results
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arrow r_suggests_haven r_suggests_kernsmooth r_suggests_readods r_suggests_rmarkdown r_suggests_triangle r_suggests_wesanderson r_suggests_xts r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/leaps sci-CRAN/colorspace virtual/lattice sci-CRAN/openxlsx >=dev-lang/R-3.6.0 virtual/lattice sci-CRAN/robustbase sci-CRAN/ellipse sci-CRAN/shiny sci-CRAN/knitr r_suggests_arrow? ( sci-CRAN/arrow ) r_suggests_haven? ( sci-CRAN/haven ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_readods? ( sci-CRAN/readODS ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_triangle? ( sci-CRAN/triangle ) r_suggests_wesanderson? ( sci-CRAN/wesanderson ) r_suggests_xts? ( sci-CRAN/xts ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lessR_4.3.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d5194ed144b26faf4dbeaba2b5d02d78

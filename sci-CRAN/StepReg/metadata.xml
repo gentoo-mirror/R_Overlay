@@ -7,17 +7,19 @@
 		predictor variables essential for constructing predictive
 		models. This package performs stepwise regression analysis
 		across various regression models such as linear, logistic, Cox
-		proportional hazards, Poisson, and gamma regression. It
-		incorporates diverse stepwise regression algorithms like
-		forward selection, backward elimination, and bidirectional
-		elimination alongside the best subset method. Additionally, it
-		offers a wide range of selection criteria, including Akaike
-		Information Criterion (AIC), corrected AIC (AICc), Sawa
-		Bayesian Information Criterion (BIC), Schwarz Bayesian
-		Information Criterion (SBC), Significant Levels (SL), among
-		others. Moreover, it facilitates the concurrent selection of
-		multiple methods and criteria for variable selection. For user-
-		friendly exploration and analysis, StepReg provides an
-		intuitive R Shiny app.
+		proportional hazards, Poisson, Gamma, and negative binomial
+		regression. It incorporates diverse stepwise regression
+		algorithms like forward selection, backward elimination, and
+		bidirectional elimination alongside the best subset method.
+		Additionally, it offers a wide range of selection criteria,
+		including Akaike Information Criterion (AIC), Sawa Bayesian
+		Information Criterion (BIC), and Significance Levels (SL). We
+		validated the output accuracy of StepReg using public datasets
+		within the SAS software environment. To facilitate efficient
+		model comparison and selection, StepReg allows for multiple
+		strategies and selection metrics to be executed in a single
+		function call. Moreover, StepReg integrates a Shiny application
+		for interactive regression analysis, broadening its
+		accessibility.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvnfast sci-CRAN/bayesplot sci-CRAN/ggplot2 sci-CRAN/purrr sci-CRAN/progress sci-CRAN/cowplot dev-lang/R:=
+DESCRIPTION=Bayesian Multivariate Conway-Max... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/mvnfast sci-CRAN/bayesplot sci-CRAN/ggplot2 sci-CRAN/purrr sci-CRAN/progress sci-CRAN/cowplot dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MultRegCMP_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3f94f69e64f6c98f02fc13496dd105e8

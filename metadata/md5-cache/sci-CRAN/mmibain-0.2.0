@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/bain sci-CRAN/e1071 sci-CRAN/car sci-CRAN/broom sci-CRAN/DT sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/lavaan sci-CRAN/mmcards sci-CRAN/psych sci-CRAN/shinythemes sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Bayesian Informative Hypotheses ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/bain sci-CRAN/e1071 sci-CRAN/car sci-CRAN/broom sci-CRAN/DT sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/lavaan sci-CRAN/mmcards sci-CRAN/psych sci-CRAN/shinythemes sci-CRAN/shiny r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mmibain_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1ecf9cc6c776d22dd7e2289f330f03be

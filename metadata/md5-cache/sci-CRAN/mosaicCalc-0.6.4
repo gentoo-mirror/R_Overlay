@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/Ryacas sci-CRAN/mosaic sci-CRAN/Deriv virtual/MASS sci-CRAN/ggformula virtual/Matrix >=sci-CRAN/mosaicCore-0.9.2 sci-CRAN/orthopolynom sci-CRAN/rlang sci-CRAN/sp >=dev-lang/R-3.5.0 sci-CRAN/calculus >=sci-CRAN/metR-0.11.0 sci-CRAN/glue dev-lang/R:=
+DESCRIPTION=R-Language Based Calculus Operations for Teaching
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cubature r_suggests_knitr r_suggests_mosaicdata r_suggests_palmerpenguins r_suggests_plotly r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/Ryacas sci-CRAN/mosaic sci-CRAN/Deriv virtual/MASS sci-CRAN/ggformula virtual/Matrix >=sci-CRAN/mosaicCore-0.9.2 sci-CRAN/orthopolynom sci-CRAN/rlang sci-CRAN/sp >=dev-lang/R-3.5.0 sci-CRAN/calculus >=sci-CRAN/metR-0.11.0 sci-CRAN/glue r_suggests_cubature? ( sci-CRAN/cubature ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mosaicdata? ( sci-CRAN/mosaicData ) r_suggests_palmerpenguins? ( sci-CRAN/palmerpenguins ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mosaicCalc_0.6.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c745546cb1094f8aa00a7dc9550c9535

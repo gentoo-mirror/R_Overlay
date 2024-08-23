@@ -3,12 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Flexible Multidimensional Scaling and 'smacof' Extensions //
-		Flexible multidimensional scaling (MDS) methods centered around
-		scaling with majorization and extensions to the package
-		'smacof'. This package enhances 'smacof' and contains various
+		Flexible multidimensional scaling (MDS) methods and extensions
+		to the package 'smacof'. This package contains various
 		functions, wrappers, methods and classes for fitting, plotting
 		and displaying a large number of different flexible MDS models
-		(some as of yet unpublished) such as Torgerson scaling
+		(some as of yet unpublished). These are: Torgerson scaling
 		(Torgerson, 1958, ISBN:978-0471879459) with powers, Sammon
 		mapping (Sammon, 1969, doi:10.1109/T-C.1969.222678) with ratio
 		and interval optimal scaling, Multiscale MDS (Ramsay, 1977,
@@ -37,6 +36,7 @@
 		transformations for weights, distances and input proximities
 		with implicit ratio, interval or non-metric optimal scaling of
 		the input proximities. Most functions use a Majorization-
-		Minimization algorithm.
+		Minimization algorithm. Currently the methods are only
+		available for one-mode data (symmetric dissimilarity matrices).
 	</longdescription>
 </pkgmetadata>

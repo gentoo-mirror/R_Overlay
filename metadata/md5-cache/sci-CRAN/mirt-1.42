@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Deriv virtual/lattice >=sci-CRAN/pbapply-1.3.0 sci-CRAN/SimDesign >=dev-lang/R-3.6.0 sci-CRAN/GPArotation sci-CRAN/gridExtra virtual/Matrix sci-CRAN/Rcpp virtual/mgcv sci-CRAN/dcurver sci-CRAN/vegan dev-lang/R:=
+DESCRIPTION=Multidimensional Item Response Theory
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_directlabels r_suggests_knitr r_suggests_lattice r_suggests_markdown r_suggests_mirtcat r_suggests_nloptr r_suggests_plink r_suggests_rsolnp r_suggests_shiny r_suggests_sirt byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/Deriv virtual/lattice >=sci-CRAN/pbapply-1.3.0 sci-CRAN/SimDesign >=dev-lang/R-3.6.0 sci-CRAN/GPArotation sci-CRAN/gridExtra virtual/Matrix sci-CRAN/Rcpp virtual/mgcv sci-CRAN/dcurver sci-CRAN/vegan sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_boot? ( virtual/boot ) r_suggests_directlabels? ( sci-CRAN/directlabels ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mirtcat? ( sci-CRAN/mirtCAT ) r_suggests_nloptr? ( sci-CRAN/nloptr ) r_suggests_plink? ( sci-CRAN/plink ) r_suggests_rsolnp? ( sci-CRAN/Rsolnp ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_sirt? ( sci-CRAN/sirt ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mirt_1.42.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f530fa49290dcb86d2dad119f2f909d3

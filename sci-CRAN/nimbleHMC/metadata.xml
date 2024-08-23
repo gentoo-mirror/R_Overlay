@@ -9,11 +9,11 @@
 		Hamiltonian Monte Carlo (HMC) No-U-Turn (NUTS) sampling, and
 		(under development) Langevin samplers.  The `NUTS_classic`
 		sampler implements the original HMC-NUTS algorithm as described
-		in Hoffman and Gelman (2014) arXiv:1111.4246.  The `NUTS`
-		sampler is a modern version of HMC-NUTS sampling matching the
-		HMC sampler available in version 2.32.2 of Stan (Stan
-		Development Team, 2023). In addition, convenience functions are
-		provided for generating and modifying MCMC configuration
-		objects which employ HMC sampling.
+		in Hoffman and Gelman (2014) doi:10.48550/arXiv.1111.4246.  The
+		`NUTS` sampler is a modern version of HMC-NUTS sampling
+		matching the HMC sampler available in version 2.32.2 of Stan
+		(Stan Development Team, 2023). In addition, convenience
+		functions are provided for generating and modifying MCMC
+		configuration objects which employ HMC sampling.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/crosstalk sci-CRAN/data_table sci-CRAN/DT sci-CRAN/haven sci-CRAN/htmlwidgets sci-CRAN/knitr sci-CRAN/plyr sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=General Utility Functions for An... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_flextable r_suggests_ggplot2 r_suggests_htmltools r_suggests_pander r_suggests_plotly r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/crosstalk sci-CRAN/data_table sci-CRAN/DT sci-CRAN/haven sci-CRAN/htmlwidgets sci-CRAN/knitr sci-CRAN/plyr sci-CRAN/viridisLite app-text/pandoc r_suggests_flextable? ( sci-CRAN/flextable ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_pander? ( sci-CRAN/pander ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clinUtils_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec5ec4863d82366610aae044a29f083e

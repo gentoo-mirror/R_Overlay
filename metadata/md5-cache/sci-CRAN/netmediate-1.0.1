@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/VGAM sci-CRAN/intergraph sci-CRAN/lme4 virtual/MASS sci-CRAN/RSiena sci-CRAN/gam sci-CRAN/btergm sci-CRAN/ergm sci-CRAN/sna sci-CRAN/network sci-CRAN/ergMargins sci-CRAN/plm sci-CRAN/plyr dev-lang/R:=
+DESCRIPTION=Micro-Macro Analysis for Social Networks
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_igraph r_suggests_matrix r_suggests_relevent r_suggests_statnet r_suggests_statnet_common byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/VGAM sci-CRAN/intergraph sci-CRAN/lme4 virtual/MASS sci-CRAN/RSiena sci-CRAN/gam sci-CRAN/btergm sci-CRAN/ergm sci-CRAN/sna sci-CRAN/network sci-CRAN/ergMargins sci-CRAN/plm sci-CRAN/plyr r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_relevent? ( sci-CRAN/relevent ) r_suggests_statnet? ( sci-CRAN/statnet ) r_suggests_statnet_common? ( sci-CRAN/statnet_common ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/netmediate_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=108357ad3ef72bbf4bece6fd8a2d25a7

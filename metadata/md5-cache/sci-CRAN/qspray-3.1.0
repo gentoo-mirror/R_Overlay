@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DescTools virtual/Matrix sci-CRAN/partitions sci-CRAN/purrr sci-CRAN/gmp >=sci-CRAN/Rcpp-1.0.9 sci-CRAN/Ryacas dev-lang/R:=
+DESCRIPTION=Multivariate Polynomials with Ra... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/DescTools virtual/Matrix sci-CRAN/partitions sci-CRAN/purrr sci-CRAN/gmp >=sci-CRAN/Rcpp-1.0.9 sci-CRAN/Ryacas sci-CRAN/BH sci-CRAN/Rcpp dev-libs/gmp r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/qspray_3.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d6c90ddd238676566923634f97305d73

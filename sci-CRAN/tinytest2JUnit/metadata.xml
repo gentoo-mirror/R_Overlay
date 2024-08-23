@@ -3,11 +3,12 @@
 <pkgmetadata>
 	<longdescription>
 		Convert 'tinytest' Output to JUnit XML // Unit testing is a solid
-		component of automated CI/CD pipelines. 'tinytest' - a light-
-		weight, zero-dependency  alternative to 'testthat' was
+		component of automated CI/CD pipelines. 'tinytest' - a
+		lightweight, zero-dependency  alternative to 'testthat' was
 		developed. To be able to integrate 'tinytests' results into
-		common CI/CD systems the 'tinytests'-object needs to be
-		converted to JUnit XML format. 'tinytest2JUnit' enables this
-		conversion while keeping the zero-dependency nature.
+		common CI/CD systems the test results from tinytest need to be
+		caputred and converted to JUnit XML format. 'tinytest2JUnit'
+		enables this conversion while staying also lightweight and only
+		have 'tinytest' as its dependency.
 	</longdescription>
 </pkgmetadata>

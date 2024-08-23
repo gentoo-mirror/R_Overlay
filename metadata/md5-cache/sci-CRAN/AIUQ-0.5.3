@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/fftwtools-0.9.11 >=sci-CRAN/plot3D-1.4 >=sci-CRAN/SuperGauss-2.0.3 dev-lang/R:=
+DESCRIPTION=Ab Initio Uncertainty Quantification
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/fftwtools-0.9.11 >=sci-CRAN/plot3D-1.4 >=sci-CRAN/SuperGauss-2.0.3 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AIUQ_0.5.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=69864fe1deec1c414cc8bbd675e4a003

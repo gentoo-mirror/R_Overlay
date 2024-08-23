@@ -2,9 +2,23 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Mean and Variance Modeling of Binary Data // Modeling under- and
-		over-dispersed binary data using extended Poisson process
-		models (EPPM) as in the article Faddy and Smith (2012)
-		doi:10.1002/bimj.201100214 .
+		Mean and Scale-Factor Modeling of Under- And Over-Dispersed
+		Binary Data // Under- and over-dispersed binary data are
+		modeled using an extended Poisson process model (EPPM)
+		appropriate for binary data. A feature of the model is that the
+		under-dispersion relative to the binomial distribution only
+		needs to be greater than zero, but the over-dispersion is
+		restricted compared to other distributional models such as the
+		beta and correlated binomials. Because of this, the examples
+		focus on under-dispersed data and how, in combination with the
+		beta or correlated distributions, flexible models can be fitted
+		to data displaying both under- and over-dispersion. Using
+		Generalized Linear Model (GLM)  terminology, the functions
+		utilize linear predictors for the probability of success and
+		scale-factor with various link functions for p, and log link
+		for scale-factor, to fit a variety of models relevant to areas
+		such as bioassay. Details of the EPPM are in Faddy and Smith
+		(2012) doi:10.1002/bimj.201100214 and Smith and Faddy (2019)
+		doi:10.18637/jss.v090.i08.
 	</longdescription>
 </pkgmetadata>

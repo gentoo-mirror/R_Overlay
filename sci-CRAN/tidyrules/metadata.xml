@@ -2,11 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Obtain Rules from Rule Based Models as Tidy Dataframe // Utility
-		to convert text based summary of rule based models to a tidy
-		dataframe (where each row represents a rule) with related
-		metrics such as support, confidence and lift. Rule based models
-		from these packages are supported: 'C5.0', 'rpart' and
-		'Cubist'.
+		Utilities to Retrieve Rulelists from Model Fits, Filter, Prune,
+		Reorder and Predict on Unseen Data // Provides a framework to
+		work with decision rules. Rules can be extracted from supported
+		models, augmented with (custom) metrics using validation data,
+		manipulated using standard dataframe operations, reordered and
+		pruned based on a metric, predict on unseen (test) data.
+		Utilities include; Creating a rulelist manually, Exporting a
+		rulelist as a SQL case statement and so on. The package offers
+		two classes; rulelist and ruleset based on dataframe.
 	</longdescription>
 </pkgmetadata>

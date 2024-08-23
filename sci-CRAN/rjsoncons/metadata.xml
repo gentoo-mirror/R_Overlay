@@ -2,16 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		'C++' Header-Only 'jsoncons' Library for 'JSON' Queries // The
-		'jsoncons' https://danielaparker.github.io/jsoncons/ 'C++'
-		header-only library constructs representations from a 'JSON'
-		character vector, and provides extensions for flexible queries
-		and other operations on 'JSON' objects. This package provides
-		'R' functions to query (filter or transform) and pivot (convert
-		from array-of-objects to object-of-arrays, for easy import into
-		'R') 'JSON' or 'NDJSON' strings or files using 'JSONpointer',
-		'JSONpath' or 'JMESpath' expression. The 'jsoncons' library is
-		also be easily linked to other packages for direct access to
-		'C++' functionality.
+		Query, Pivot, Patch, and Validate 'JSON' and 'NDJSON' //
+		Functions to query (filter or transform), pivot (convert from
+		array-of-objects to object-of-arrays, for easy import as 'R'
+		data frame), search, patch (edit), and validate (against 'JSON
+		Schema') 'JSON' and 'NDJSON' strings, files, or URLs. Query and
+		pivot support 'JSONpointer', 'JSONpath' or 'JMESpath'
+		expressions. The implementation uses the 'jsoncons'
+		https://danielaparker.github.io/jsoncons/ header-only library;
+		the library is easily linked to other packages for direct
+		access to 'C++' functionality not implemented here.
 	</longdescription>
 </pkgmetadata>

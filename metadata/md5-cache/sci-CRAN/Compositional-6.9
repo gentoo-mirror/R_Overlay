@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rnanoflann sci-CRAN/mixture sci-CRAN/quadprog sci-CRAN/foreach virtual/nnet sci-CRAN/emplik sci-CRAN/glmnet sci-CRAN/quantreg virtual/Matrix sci-CRAN/mda sci-CRAN/Rfast virtual/cluster sci-CRAN/mvhtests sci-CRAN/regda sci-CRAN/minpack_lm >=dev-lang/R-4.0 sci-CRAN/doParallel sci-CRAN/energy virtual/MASS sci-CRAN/Rfast2 sci-CRAN/sn dev-lang/R:=
+DESCRIPTION=Compositional Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_codalm r_suggests_flexdir byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/Rnanoflann sci-CRAN/mixture sci-CRAN/quadprog sci-CRAN/foreach virtual/nnet sci-CRAN/emplik sci-CRAN/glmnet sci-CRAN/quantreg virtual/Matrix sci-CRAN/mda sci-CRAN/Rfast virtual/cluster sci-CRAN/mvhtests sci-CRAN/regda sci-CRAN/minpack_lm >=dev-lang/R-4.0 sci-CRAN/doParallel sci-CRAN/energy virtual/MASS sci-CRAN/Rfast2 sci-CRAN/sn r_suggests_codalm? ( sci-CRAN/codalm ) r_suggests_flexdir? ( sci-CRAN/FlexDir ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Compositional_6.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3f4f2e78f38a8941d85f1653b5b19b2e

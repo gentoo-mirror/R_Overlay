@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Score Matching Estimation by Automatic Differentiation //
+		Hyvrinen's score matching (Hyvrinen, 2005)
+		https://jmlr.org/papers/v6/hyvarinen05a.html is a useful
+		estimation technique when the normalising constant for a
+		probability distribution is difficult to compute. This package
+		implements score matching estimators using automatic
+		differentiation in the 'CppAD' library https://github.com/coin-
+		or/CppAD and is designed for quickly implementing score
+		matching estimators for new models. Also available is general
+		robustification (Windham, 1995)
+		https://www.jstor.org/stable/2346159. Already in the package
+		are estimators for directional distributions (Mardia, Kent and
+		Laha, 2016) doi:10.48550/arXiv.1604.08470 and the flexible
+		Polynomially-Tilted Pairwise Interaction model for
+		compositional data. The latter estimators perform well when
+		there are zeros in the compositions (Scealy and Wood, 2023)
+		doi:10.1080/01621459.2021.2016422, even many zeros (Scealy,
+		Hingee, Kent, and Wood, 2024) doi:10.1007/s11222-024-10412-w.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/qspray-3.1.0 >=sci-CRAN/ratioOfQsprays-1.1.0 sci-CRAN/Rcpp sci-CRAN/gmp dev-lang/R:=
+DESCRIPTION=Multivariate Polynomials with Sy... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/qspray-3.1.0 >=sci-CRAN/ratioOfQsprays-1.1.0 sci-CRAN/Rcpp sci-CRAN/gmp sci-CRAN/BH sci-CRAN/RcppCGAL sci-CRAN/ratioOfQsprays sci-CRAN/qspray sci-CRAN/Rcpp dev-libs/gmp dev-libs/mpfr r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/symbolicQspray_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1d7e27bb9f3351613f5ade2d912bd0c4

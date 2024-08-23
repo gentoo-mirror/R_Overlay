@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fitting of Exponential Autoregressive (EXPAR) Model // The
+		amplitude-dependent exponential autoregressive (EXPAR) time
+		series model, initially proposed by Haggan and Ozaki (1981)
+		doi:10.2307/2335819 has been implemented in this package.
+		Throughout various studies, the model has been found to
+		adequately capture the cyclical nature of datasets. Parameter
+		estimation of such family of models has been tackled by the
+		approach of minimizing the residual sum of squares (RSS). Model
+		selection among various candidate orders has been implemented
+		using various information criteria, viz., Akaike information
+		criteria (AIC), corrected Akaike information criteria (AICc)
+		and Bayesian information criteria (BIC). An illustration
+		utilizing data of egg price indices has also been provided.
+	</longdescription>
+</pkgmetadata>

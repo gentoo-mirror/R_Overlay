@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simplified Error Handling // Alternative to using
+		withCallingHandlers() in the simple case of catch and rethrow.
+		The `%!%` operator evaluates the expression on its left hand
+		side, and if an error occurs, the right hand side is used to
+		construct a new error that embeds the original error.
+	</longdescription>
+</pkgmetadata>

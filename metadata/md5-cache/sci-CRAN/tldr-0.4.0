@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/tableone dev-lang/R:=
+DESCRIPTION=T Loux Doing R: Functions to Sim... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/tableone r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tldr_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e1b159721884d1d0e4b152732ce62524

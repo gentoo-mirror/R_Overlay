@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/posterior >=sci-CRAN/data_table-1.15.0 >=dev-lang/R-3.6.0 sci-CRAN/ggforce sci-CRAN/checkmate sci-CRAN/cli sci-CRAN/glue sci-CRAN/ggplot2 sci-CRAN/loo sci-CRAN/patchwork >=sci-CRAN/tibble-2.0.0 sci-CRAN/rstan dev-lang/R:=
+DESCRIPTION=Bayesian Modeling and Causal Inf... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_covr r_suggests_dplyr r_suggests_knitr r_suggests_mice r_suggests_mockthat r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/rlang sci-CRAN/posterior >=sci-CRAN/data_table-1.15.0 >=dev-lang/R-3.6.0 sci-CRAN/ggforce sci-CRAN/checkmate sci-CRAN/cli sci-CRAN/glue sci-CRAN/ggplot2 sci-CRAN/loo sci-CRAN/patchwork >=sci-CRAN/tibble-2.0.0 sci-CRAN/rstan r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_mockthat? ( sci-CRAN/mockthat ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dynamite_1.5.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0eb00fa98e24407e4d19d3b95b3abae6

@@ -2,10 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		The Cross-match Test // This package performs a test for
-		comparing two multivariate distributions by using the distance
-		between observations.  The input is a distance matrix and the
-		labels of the two groups to be compared, the output is the
-		number of cross-matches and a p-value.
+		The Cross-Match Test // Performs the cross-match test that is an
+		exact, distribution free test of equality of 2 high dimensional
+		multivariate distributions. The input is a distance matrix and
+		the labels of the two groups to be compared, the output is the
+		number of cross-matches and a p-value. See Rosenbaum (2005)
+		doi:10.1111/j.1467-9868.2005.00513.x.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Data Published by the United Sta... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rgooglemaps byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=r_suggests_rgooglemaps? ( sci-CRAN/RgoogleMaps ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/energyr_0.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9509f827f41c61407da30e9a4207bb1f

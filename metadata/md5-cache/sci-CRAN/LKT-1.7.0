@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/crayon >=sci-CRAN/SparseM-1.83 virtual/Matrix >=dev-lang/R-3.5.0 >=sci-CRAN/data_table-1.13.2 >=sci-CRAN/LiblineaR-2.10.8 >=sci-CRAN/glmnet-4.0.2 >=sci-CRAN/glmnetUtils-1.1.8 >=sci-CRAN/lme4-1.1.23 virtual/cluster >=sci-CRAN/pROC-1.16.2 >=sci-CRAN/HDInterval-0.2.2 dev-lang/R:=
+DESCRIPTION=Logistic Knowledge Tracing
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/crayon >=sci-CRAN/SparseM-1.83 virtual/Matrix >=dev-lang/R-3.5.0 >=sci-CRAN/data_table-1.13.2 >=sci-CRAN/LiblineaR-2.10.8 >=sci-CRAN/glmnet-4.0.2 >=sci-CRAN/glmnetUtils-1.1.8 >=sci-CRAN/lme4-1.1.23 virtual/cluster >=sci-CRAN/pROC-1.16.2 >=sci-CRAN/HDInterval-0.2.2 r_suggests_caret? ( sci-CRAN/caret ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LKT_1.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b4cecfbc6c82d178026d5f9320b54c93

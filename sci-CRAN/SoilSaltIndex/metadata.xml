@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Soil Salinity Indices Generation using Satellite Data // The
+		developed function generates soil salinity indices using
+		satellite data, utilizing multiple spectral bands such as Blue,
+		Green, Red, Near-Infrared (NIR), and Shortwave Infrared (SWIR1,
+		SWIR2). It computes 24 different salinity indices crucial for
+		monitoring and analyzing salt-affected soils efficiently. For
+		more details see, Rani, et al. (2022). DOI:
+		10.1007/s12517-022-09682-3. One of the key features of the
+		developed function is its flexibility. Users can provide any
+		combination of the required spectral bands, and the function
+		will automatically calculate only the relevant indices based on
+		the available data. This dynamic capability ensures that users
+		can maximize the utility of their data without the need for all
+		spectral bands, making the package versatile and user-friendly.
+		Outputs are provided as GeoTIFF file format, facilitating easy
+		integration with GIS workflows.
+	</longdescription>
+</pkgmetadata>
