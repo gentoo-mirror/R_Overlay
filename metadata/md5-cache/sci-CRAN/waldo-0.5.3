@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/rematch2 sci-CRAN/glue sci-CRAN/cli >=sci-CRAN/diffobj-0.3.4 >=sci-CRAN/rlang-1.0.0 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Find Differences Between R Objects
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_r6 r_suggests_testthat r_suggests_withr r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/rematch2 sci-CRAN/glue sci-CRAN/cli >=sci-CRAN/diffobj-0.3.4 >=sci-CRAN/rlang-1.0.0 sci-CRAN/tibble r_suggests_covr? ( sci-CRAN/covr ) r_suggests_r6? ( sci-CRAN/R6 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/waldo_0.5.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b81d664d2459a47f3a4034e143bc5e7e
