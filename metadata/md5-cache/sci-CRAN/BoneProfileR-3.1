@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/imager sci-CRAN/knitr sci-CRAN/rmarkdown >=dev-lang/R-4.1 >=sci-CRAN/HelpersMG-6.1 sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Tools to Study Bone Compactness
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ijtiff r_suggests_openxlsx r_suggests_scatterplot3d r_suggests_sp r_suggests_spatstat_geom r_suggests_tiff byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/imager sci-CRAN/knitr sci-CRAN/rmarkdown >=dev-lang/R-4.1 >=sci-CRAN/HelpersMG-6.1 sci-CRAN/shiny r_suggests_ijtiff? ( sci-CRAN/ijtiff ) r_suggests_openxlsx? ( sci-CRAN/openxlsx ) r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_spatstat_geom? ( sci-CRAN/spatstat_geom ) r_suggests_tiff? ( sci-CRAN/tiff ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BoneProfileR_3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=01cedc682ba38806f5fd99b71d8e9e82
