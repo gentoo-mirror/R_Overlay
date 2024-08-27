@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		An R6 Class to Perform Analysis on Long Tidy Data // Transforms
+		long data into a matrix form to allow for ease of input into
+		modelling packages for regression, principal components,
+		imputation or machine learning. It does this by pivoting on
+		user defined columns, generating a key-value table for variable
+		names to ensure one-to-one mappings are preserved. It is
+		particularly useful when the indicator names in the columns are
+		long descriptive strings, for example "Energy imports, net (%
+		of energy use)". High level analysis wrapper functions for
+		correlation and principal components analysis are provided.
+	</longdescription>
+</pkgmetadata>

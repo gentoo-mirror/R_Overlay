@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/zoo sci-CRAN/ggthemes sci-CRAN/xts sci-CRAN/KFAS sci-CRAN/magrittr sci-CRAN/scales sci-CRAN/dplyr sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Time Series Methods Based on Growth Curves
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggforce r_suggests_ggfortify r_suggests_gridextra r_suggests_here r_suggests_kableextra r_suggests_knitr r_suggests_latex2exp r_suggests_purrr r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_testthat r_suggests_timetk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/zoo sci-CRAN/ggthemes sci-CRAN/xts sci-CRAN/KFAS sci-CRAN/magrittr sci-CRAN/scales sci-CRAN/dplyr sci-CRAN/tidyr r_suggests_ggforce? ( sci-CRAN/ggforce ) r_suggests_ggfortify? ( sci-CRAN/ggfortify ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_here? ( sci-CRAN/here ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_latex2exp? ( sci-CRAN/latex2exp ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_timetk? ( sci-CRAN/timetk ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tsgc_0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=97b12a9dc532a90e2f2ce8e64fe3f22e

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/airportr sci-CRAN/dplyr sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Calculate Air Travel Emissions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/airportr sci-CRAN/dplyr sci-CRAN/rlang r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/footprint_0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3a6394c1db675a6afe2b414e0cdba7f3

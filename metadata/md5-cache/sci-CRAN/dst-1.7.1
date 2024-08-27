@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/Matrix sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Using the Theory of Belief Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_igraph r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 virtual/Matrix sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/rlang r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dst_1.7.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8ebc947aaaa3108a603b2e32028cd96e
