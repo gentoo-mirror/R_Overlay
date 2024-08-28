@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/procs sci-CRAN/cli sci-CRAN/lifecycle sci-CRAN/psych sci-CRAN/usedist dev-lang/R:=
+DESCRIPTION=Cluster-Based Multiple Comparisons
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggdendro r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/procs sci-CRAN/cli sci-CRAN/lifecycle sci-CRAN/psych sci-CRAN/usedist r_suggests_ggdendro? ( sci-CRAN/ggdendro ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ClustMC_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=eaf3e66ca0beffdb8332d6774306e5cb

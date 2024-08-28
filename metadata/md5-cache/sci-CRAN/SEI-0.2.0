@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/xts sci-CRAN/zoo sci-CRAN/fitdistrplus sci-CRAN/flexsurv sci-CRAN/gamlss sci-CRAN/gamlss_dist sci-CRAN/lmom dev-lang/R:=
+DESCRIPTION=Calculating Standardised Indices
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_gridextra r_suggests_knitr r_suggests_lubridate r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/xts sci-CRAN/zoo sci-CRAN/fitdistrplus sci-CRAN/flexsurv sci-CRAN/gamlss sci-CRAN/gamlss_dist sci-CRAN/lmom r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SEI_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9adb88d8f28ddf5a6874e1075bf69edf
