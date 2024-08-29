@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Parsimonious Families of Hidden Markov Models for Matrix-Variate
+		Longitudinal Data // Implements three families of parsimonious
+		hidden Markov models (HMMs) for matrix-variate longitudinal
+		data using the Expectation-Conditional Maximization (ECM)
+		algorithm. The package supports matrix-variate normal, t, and
+		contaminated normal distributions as emission distributions.
+		For each hidden state, parsimony is achieved through the eigen-
+		decomposition of the covariance matrices associated with the
+		emission distribution. This approach results in a comprehensive
+		set of 98 parsimonious HMMs for each type of emission
+		distribution. Atypical matrix detection is also supported,
+		utilizing the fitted (heavy-tailed) models.
+	</longdescription>
+</pkgmetadata>

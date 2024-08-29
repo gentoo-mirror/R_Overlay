@@ -1,0 +1,24 @@
+# Copyright 1999-2024 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Parsimonious Families of Hidden ... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/MatrixHMM_1.0.0.tar.gz"
+LICENSE='GPL-3+'
+
+DEPEND="sci-CRAN/withr
+	sci-CRAN/data_table
+	sci-CRAN/LaplacesDemon
+	sci-CRAN/doSNOW
+	sci-CRAN/foreach
+	sci-CRAN/mclust
+	sci-CRAN/progress
+	sci-CRAN/snow
+	sci-CRAN/tensor
+	sci-CRAN/tidyr
+"
+RDEPEND="${DEPEND-}"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simultaneous Selection of Trait and WAASB Index // Proposes a new
+		ranking algorithm that utilizes a "Y*WAASB" biplot generated
+		from the 'metan' package. The aim of the package is to
+		effectively distinguish the top-ranked genotypes. For a
+		detailed explanation of the process of obtaining a "Y*WAASB"
+		biplot and the related data, please refer to the manual
+		included in this package as well as the study by Olivoto  Lcio
+		(2020) doi:10.1111/2041-210X.13384. In this context, "WAASB"
+		refers to the "Weighted Average of Absolute Scores" provided by
+		Olivoto et al. (2019) doi:10.2134/agronj2019.03.0220, which
+		quantifies the stability of genotypes across different
+		environments using linear mixed-effect models. In order to run
+		the package, it is necessary to extract the "WAASB"
+		coefficients using the 'metan' package.
+	</longdescription>
+</pkgmetadata>

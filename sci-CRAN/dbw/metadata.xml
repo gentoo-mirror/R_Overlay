@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Doubly Robust Distribution Balancing Weighting Estimation //
+		Implements the doubly robust distribution balancing weighting
+		proposed by Katsumata (2024) doi:10.1017/psrm.2024.23, which
+		improves the augmented inverse probability weighting (AIPW) by
+		estimating propensity scores with estimating equations suitable
+		for the pre-specified parameter of interest (e.g., the average
+		treatment effects or the average treatment effects on the
+		treated) and estimating outcome models with the estimated
+		inverse probability weights. It also implements the covariate
+		balancing propensity score proposed by Imai and Ratkovic (2014)
+		doi:10.1111/rssb.12027 and the entropy balancing weighting
+		proposed by Hainmueller (2012) doi:10.1093/pan/mpr025, both of
+		which use covariate balancing conditions in propensity score
+		estimation. The point estimate of the parameter of interest and
+		its uncertainty as well as coefficients for propensity score
+		estimation and outcome regression are produced using the
+		M-estimation. The same functions can be used to estimate
+		average outcomes in missing outcome cases.
+	</longdescription>
+</pkgmetadata>
