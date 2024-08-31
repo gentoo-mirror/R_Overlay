@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Unpacking Dot Operator // Provides a `.` object which can be
+		used for unpacking assignments. For example, `.[rows, columns]
+		- dim(cars)` could be used to pull the number of rows and
+		number of columns from `dim(cars)` into individual variables
+		`rows` and `columns` in a single step.
+	</longdescription>
+</pkgmetadata>

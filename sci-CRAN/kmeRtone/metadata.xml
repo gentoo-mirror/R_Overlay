@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-Purpose and Flexible k-Meric Enrichment Analysis Software
+		// A multi-purpose and flexible k-meric enrichment analysis
+		software. 'kmeRtone' measures the enrichment of k-mers by
+		comparing the population of k-mers in the case loci with a
+		carefully devised internal negative control group, consisting
+		of k-mers from regions close to, yet sufficiently distant from,
+		the case loci to mitigate any potential sequencing bias. This
+		method effectively captures both the local sequencing
+		variations and broader sequence influences, while also
+		correcting for potential biases, thereby ensuring more accurate
+		analysis. The core functionality of 'kmeRtone' is the SCORE()
+		function, which calculates the susceptibility scores for k-mers
+		in case and control regions. Case regions are defined by the
+		genomic coordinates provided in a file by the user and the
+		control regions can be constructed relative to the case regions
+		or provided directly. The k-meric susceptibility scores are
+		calculated by using a one-proportion z-statistic. 'kmeRtone' is
+		highly flexible by allowing users to also specify their target
+		k-mer patterns and quantify the corresponding k-mer enrichment
+		scores in the context of these patterns, allowing for a more
+		comprehensive approach to understanding the functional
+		implications of specific DNA sequences on a genomic scale
+		(e.g., CT motifs upon UV radiation damage). Adib A. Abdullah,
+		Patrick Pflughaupt, Claudia Feng, Aleksandr B. Sahakyan (2024)
+		Bioinformatics (submitted).
+	</longdescription>
+</pkgmetadata>

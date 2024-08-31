@@ -4,7 +4,7 @@
 	<longdescription>
 		Generic PK/PD Simulation Platform CAMPSIS // A generic, easy-to-
 		use and intuitive pharmacokinetic/pharmacodynamic (PK/PD)
-		simulation platform based on R packages 'rxode2', 'RxODE' and
+		simulation platform based on R packages 'rxode2' and
 		'mrgsolve'. CAMPSIS provides an abstraction layer over the
 		underlying processes of writing a PK/PD model, assembling a
 		custom dataset and running a simulation. CAMPSIS has a strong
@@ -13,8 +13,8 @@
 		fly in the R environment. Package 'campsis' allows the user to
 		assemble a dataset in an intuitive manner. Once the users
 		dataset is ready, the package is in charge of preparing the
-		simulation, calling 'rxode2', 'RxODE' or 'mrgsolve' (at the
-		user's choice) and returning the results, for the given model,
-		dataset and desired simulation settings.
+		simulation, calling 'rxode2' or 'mrgsolve' (at the user's
+		choice) and returning the results, for the given model, dataset
+		and desired simulation settings.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculate Surface/Image Texture Indexes // Methods for the
+		computation of surface/image texture indices using a
+		geostatistical based approach (Trevisani et al. (2023)
+		doi:10.1016/j.geomorph.2023.108838). It provides various
+		functions for the computation of surface texture indices (e.g.,
+		omnidirectional roughness and roughness anisotropy), including
+		the ones based on the robust MAD estimator. The kernels
+		included in the software permit also to calculate the
+		surface/image texture indices directly from the input surface
+		(i.e., without de-trending) using increments of order 2. It
+		also provides the new radial roughness index (RRI),
+		representing the improvement of the popular topographic
+		roughness index (TRI). The framework can be easily extended
+		with ad-hoc surface/image texture indices.
+	</longdescription>
+</pkgmetadata>
