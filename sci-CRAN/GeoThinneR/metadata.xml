@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simple Spatial Thinning for Ecological and Spatial Analysis //
+		Provides efficient geospatial thinning algorithms to reduce the
+		density of coordinate data while maintaining spatial
+		relationships. Implements K-D Tree Approximate Nearest
+		Neighbors (ANN), R-Tree, and brute force thinning methods. It
+		uses a modified version of the R-tree structure from the
+		'rtree' package https://github.com/akoyabio/rtree. The modified
+		version can be downloaded from
+		https://github.com/jmestret/rtree. For more information on the
+		methods, see Elseberg et al. (2012)
+		https://hdl.handle.net/10446/86202.
+	</longdescription>
+</pkgmetadata>

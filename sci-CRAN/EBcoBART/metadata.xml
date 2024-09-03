@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Co-Data Learning for Bayesian Additive Regression Trees //
+		Estimate prior variable weights for Bayesian Additive
+		Regression Trees (BART). These weights correspond to the
+		probabilities of the variables being selected in the splitting
+		rules of the sum-of-trees. Weights are estimated using
+		empirical Bayes and external information on the explanatory
+		variables (co-data). BART models are fitted using the 'dbarts'
+		'R' package. See Goedhart and others (2023)
+		doi:10.48550/arXiv.2311.09997 for details.
+	</longdescription>
+</pkgmetadata>

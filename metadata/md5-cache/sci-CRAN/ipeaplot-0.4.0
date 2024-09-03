@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.2 sci-CRAN/ggplot2 sci-CRAN/checkmate sci-CRAN/scales sci-CRAN/paletteer sci-CRAN/rlang sci-CRAN/ggthemes dev-lang/R:=
+DESCRIPTION=Add Ipea Editorial Standards to ggplot2 Graphics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_abjdata r_suggests_data_table r_suggests_dplyr r_suggests_forcats r_suggests_geobr r_suggests_knitr r_suggests_patchwork r_suggests_purrr r_suggests_reshape r_suggests_rmarkdown r_suggests_sf r_suggests_sysfonts r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.3.2 sci-CRAN/ggplot2 sci-CRAN/checkmate sci-CRAN/scales sci-CRAN/paletteer sci-CRAN/rlang sci-CRAN/ggthemes r_suggests_abjdata? ( sci-CRAN/abjData ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_geobr? ( sci-CRAN/geobr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_reshape? ( sci-CRAN/reshape ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_sysfonts? ( sci-CRAN/sysfonts ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ipeaplot_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=be1510cc0ac644e65d3f6fe2bb7256fc

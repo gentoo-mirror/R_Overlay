@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ympes-1.3.0 sci-CRAN/tidyselect sci-CRAN/rlang >=sci-CRAN/grates-1.0.0 >=dev-lang/R-4.1.0 sci-CRAN/pillar sci-CRAN/data_table sci-CRAN/tibble sci-CRAN/tidyr >=sci-CRAN/dplyr-1.1.0 sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=Compute, Handle and Plot Incidence of Dated Events
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_citools r_suggests_ggplot2 r_suggests_knitr r_suggests_markdown r_suggests_outbreaks r_suggests_scales r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/ympes-1.3.0 sci-CRAN/tidyselect sci-CRAN/rlang >=sci-CRAN/grates-1.0.0 >=dev-lang/R-4.1.0 sci-CRAN/pillar sci-CRAN/data_table sci-CRAN/tibble sci-CRAN/tidyr >=sci-CRAN/dplyr-1.1.0 sci-CRAN/vctrs r_suggests_citools? ( sci-CRAN/ciTools ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_outbreaks? ( sci-CRAN/outbreaks ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/incidence2_2.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4cee055f8661187a62da00437f300868

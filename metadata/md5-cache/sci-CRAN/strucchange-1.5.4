@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/zoo sci-CRAN/sandwich dev-lang/R:=
+DESCRIPTION=Testing, Monitoring, and Dating Structural Changes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_car r_suggests_dynlm r_suggests_e1071 r_suggests_foreach r_suggests_lmtest r_suggests_mvtnorm r_suggests_tseries byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/zoo sci-CRAN/sandwich r_suggests_car? ( sci-CRAN/car ) r_suggests_dynlm? ( sci-CRAN/dynlm ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_tseries? ( sci-CRAN/tseries ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/strucchange_1.5-4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=42271f3ebb8a771c8fd8a71eaa005984

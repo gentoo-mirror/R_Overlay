@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Win Time Methods for Time-to-Event Data in Clinical Trials //
+		Performs an analysis of time-to-event clinical trial data using
+		various "win time" methods, including 'ewt', 'ewtr', 'rmt',
+		'max', 'wtr', 'rwtr', and 'pwt'. These methods are used to
+		calculate and compare treatment effects on ordered composite
+		endpoints. The package handles event times, event indicators,
+		and treatment arm indicators and supports calculations on
+		observed and resampled data. Detailed explanations of each
+		method and usage examples are provided in "Use of win time for
+		ordered composite endpoints in clinical trials," by Troendle et
+		al. (2024)https://pubmed.ncbi.nlm.nih.gov/38417455/. For more
+		information, see the package documentation or the vignette
+		titled "Introduction to wintime."
+	</longdescription>
+</pkgmetadata>

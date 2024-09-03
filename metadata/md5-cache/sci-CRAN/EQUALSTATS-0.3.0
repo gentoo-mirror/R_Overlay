@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lmtest sci-CRAN/mclogit sci-CRAN/zip sci-CRAN/DescTools sci-CRAN/stringr sci-CRAN/cowplot virtual/boot sci-CRAN/pwr sci-CRAN/lme4 sci-CRAN/ggsurvfit sci-CRAN/ordinal virtual/nnet sci-CRAN/pROC sci-CRAN/shiny sci-CRAN/ThresholdROC sci-CRAN/lmerTest sci-CRAN/MuMIn virtual/MASS sci-CRAN/ggplot2 sci-CRAN/ggcorrplot virtual/survival sci-CRAN/coxme dev-lang/R:=
+DESCRIPTION=Algorithm Driven Statistical Ana... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/lmtest sci-CRAN/mclogit sci-CRAN/zip sci-CRAN/DescTools sci-CRAN/stringr sci-CRAN/cowplot virtual/boot sci-CRAN/pwr sci-CRAN/lme4 sci-CRAN/ggsurvfit sci-CRAN/ordinal virtual/nnet sci-CRAN/pROC sci-CRAN/shiny sci-CRAN/ThresholdROC sci-CRAN/lmerTest sci-CRAN/MuMIn virtual/MASS sci-CRAN/ggplot2 sci-CRAN/ggcorrplot virtual/survival sci-CRAN/coxme dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EQUALSTATS_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1890457355a05e5fbb34d816547f1531
