@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Equivalence Testing for Pre-Trends in Difference-in-Differences
+		Designs // Testing for parallel trends is crucial in the
+		Difference-in-Differences framework. To this end, this package
+		performs equivalence testing in the context of Difference-in-
+		Differences estimation. It allows users to test if pre-
+		treatment trends in the treated group are equivalent to those
+		in the control group. Here, equivalence means that rejection of
+		the null hypothesis implies that a function of the pre-
+		treatment placebo effects (maximum absolute, average or root
+		mean squared value) does not exceed a pre-specified threshold
+		below which trend differences are considered negligible. The
+		package is based on the theory developed in Dette  Schumann
+		(2024) doi:10.1080/07350015.2024.2308121.
+	</longdescription>
+</pkgmetadata>

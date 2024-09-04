@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/VineCopula sci-CRAN/glmnet sci-CRAN/tree sci-CRAN/pbapply sci-CRAN/ordinalNet virtual/nnet sci-CRAN/data_tree sci-CRAN/statmod sci-CRAN/wdm dev-lang/R:=
+DESCRIPTION=Estimation and Inference for Con... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_diagrammer r_suggests_ggplot2 r_suggests_knitr r_suggests_mass r_suggests_mvtnorm r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/VineCopula sci-CRAN/glmnet sci-CRAN/tree sci-CRAN/pbapply sci-CRAN/ordinalNet virtual/nnet sci-CRAN/data_tree sci-CRAN/statmod sci-CRAN/wdm r_suggests_diagrammer? ( sci-CRAN/DiagrammeR ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CondCopulas_0.1.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=963a6968e3c47f7cc3dead8401f1e745

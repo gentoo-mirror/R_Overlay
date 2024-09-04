@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/clime sci-CRAN/sandwich virtual/MASS sci-CRAN/Rcpp sci-CRAN/geigen sci-CRAN/jointDiag dev-lang/R:=
+DESCRIPTION=High Dimensional Time Series Analysis Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/clime sci-CRAN/sandwich virtual/MASS sci-CRAN/Rcpp sci-CRAN/geigen sci-CRAN/jointDiag sci-CRAN/Rcpp sci-CRAN/RcppEigen r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/HDTSA_1.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7e69a7e63217510eabb284f0b088c650

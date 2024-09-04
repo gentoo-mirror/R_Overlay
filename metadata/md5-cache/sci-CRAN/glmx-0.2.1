@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 virtual/MASS sci-CRAN/sandwich sci-CRAN/lmtest sci-CRAN/Formula dev-lang/R:=
+DESCRIPTION=Generalized Linear Models Extended
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aer r_suggests_gld r_suggests_numderiv r_suggests_pscl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.0.0 virtual/MASS sci-CRAN/sandwich sci-CRAN/lmtest sci-CRAN/Formula r_suggests_aer? ( sci-CRAN/AER ) r_suggests_gld? ( sci-CRAN/gld ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_pscl? ( sci-CRAN/pscl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/glmx_0.2-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bb7fc3c9f10c250cff4655f765a7ad04
