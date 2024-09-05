@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Read and Write PNG Files with Configurable Decoder/Encoder
+		Options // Read and write PNG images with arrays, rasters,
+		native rasters, numeric arrays, integer arrays, raw vectors and
+		indexed values.  This PNG encoder exposes configurable internal
+		options enabling the user to select a speed-size tradeoff.  For
+		example, disabling compression can speed up writing PNG by a
+		factor of 50. Multiple image formats are supported including
+		raster, native rasters, and integer and numeric arrays at color
+		depths of 1, 2, 3 or 4. 16-bit images are also supported. This
+		implementation uses the 'libspng' 'C' library which is
+		available from https://github.com/randy408/libspng/.
+	</longdescription>
+</pkgmetadata>

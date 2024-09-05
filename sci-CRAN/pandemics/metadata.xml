@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Monitoring a Developing Pandemic with Available Data // Full
+		dynamic system to describe and forecast the spread and the
+		severity of a developing pandemic, based on available data.
+		These data are number of infections, hospitalizations, deaths
+		and recoveries notified each day. The system consists of three
+		transitions, infection-infection, infection-hospital and
+		hospital-death/recovery. The intensities of these transitions
+		are dynamic and estimated using non-parametric local linear
+		estimators. The package can be used to provide forecasts and
+		survival indicators such as the median time spent in hospital
+		and the probability that a patient who has been in hospital for
+		a number of days can leave it alive. Methods are described in
+		Gmiz, Mammen, Martnez-Miranda, and Nielsen (2024)
+		doi:10.48550/arXiv.2308.09918 and
+		doi:10.48550/arXiv.2308.09919.
+	</longdescription>
+</pkgmetadata>

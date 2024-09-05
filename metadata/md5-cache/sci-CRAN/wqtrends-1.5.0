@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/viridisLite sci-CRAN/ggplot2 sci-CRAN/dplyr >=dev-lang/R-3.5 sci-CRAN/lubridate virtual/mgcv sci-CRAN/mixmeta sci-CRAN/plotly sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Assess Water Quality Trends with... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_english r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/viridisLite sci-CRAN/ggplot2 sci-CRAN/dplyr >=dev-lang/R-3.5 sci-CRAN/lubridate virtual/mgcv sci-CRAN/mixmeta sci-CRAN/plotly sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/tidyr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_english? ( sci-CRAN/english ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/wqtrends_1.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=94cac53a63f06a99a6230adb2bb3b326
