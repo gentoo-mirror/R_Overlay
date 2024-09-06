@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=Gene Set Uncertainty in Enrichment Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fdrtool r_suggests_globalancova r_suggests_globaltest r_suggests_limma r_suggests_st byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=>=dev-lang/R-3.5.0 r_suggests_fdrtool? ( sci-CRAN/fdrtool ) r_suggests_globalancova? ( sci-BIOC/GlobalAncova ) r_suggests_globaltest? ( sci-BIOC/globaltest ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_st? ( sci-CRAN/st ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GiANT_1.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e00271906f446ea88b6e748c4328cff3

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Computing a New Informative Distribution Set of Asset Returns //
+		Estimation of the most-left informative set of gross returns
+		(i.e., the informative set). The procedure to compute the
+		informative set adjusts the method proposed by Mariani et al.
+		(2022a) doi:10.1007/s11205-020-02440-6 and Mariani et al.
+		(2022b) doi:10.1007/s10287-022-00422-2 to gross returns of
+		financial assets. This is accomplished through an adaptive
+		algorithm that identifies sub-groups of gross returns in each
+		iteration by approximating their distribution with a sequence
+		of two-component log-normal mixtures. These sub-groups emerge
+		when a significant change in the distribution occurs below the
+		median of the financial returns, with their boundary termed as
+		the change point" of the mixture. The process concludes when no
+		further change points are detected. The outcome encompasses
+		parameters of the leftmost mixture distributions and change
+		points of the analyzed financial time series.
+	</longdescription>
+</pkgmetadata>
