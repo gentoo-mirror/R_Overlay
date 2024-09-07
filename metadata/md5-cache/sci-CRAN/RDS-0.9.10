@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/isotone sci-CRAN/ergm sci-CRAN/network >=sci-CRAN/ggplot2-2.0.0 sci-CRAN/gridExtra sci-CRAN/igraph sci-CRAN/reshape2 sci-CRAN/scales sci-CRAN/anytime sci-CRAN/Hmisc sci-CRAN/statnet_common dev-lang/R:=
+DESCRIPTION=Respondent-Driven Sampling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_sspse r_suggests_survey r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1
+RDEPEND=sci-CRAN/isotone sci-CRAN/ergm sci-CRAN/network >=sci-CRAN/ggplot2-2.0.0 sci-CRAN/gridExtra sci-CRAN/igraph sci-CRAN/reshape2 sci-CRAN/scales sci-CRAN/anytime sci-CRAN/Hmisc sci-CRAN/statnet_common r_suggests_sspse? ( sci-CRAN/sspse ) r_suggests_survey? ( sci-CRAN/survey ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RDS_0.9-10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=aedb48300f0e03513c23defc648d2358

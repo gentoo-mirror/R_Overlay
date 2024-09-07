@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/scam sci-CRAN/coda sci-CRAN/RDS virtual/KernSmooth dev-lang/R:=
+DESCRIPTION=Estimating Hidden Population Siz... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_densestbayes r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/scam sci-CRAN/coda sci-CRAN/RDS virtual/KernSmooth r_suggests_densestbayes? ( sci-CRAN/densEstBayes ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sspse_1.1.0-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=325d7c0a848bef47a0505590b52ef449
