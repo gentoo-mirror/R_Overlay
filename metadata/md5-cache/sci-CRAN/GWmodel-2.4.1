@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 >sci-CRAN/sp-1.4.0 sci-CRAN/robustbase >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/sf sci-CRAN/spacetime sci-CRAN/spdep virtual/spatial sci-CRAN/FNN dev-lang/R:=
+DESCRIPTION=Geographically-Weighted Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gstat r_suggests_mvoutlier r_suggests_rcolorbrewer r_suggests_spdata byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 >sci-CRAN/sp-1.4.0 sci-CRAN/robustbase >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/sf sci-CRAN/spacetime sci-CRAN/spdep virtual/spatial sci-CRAN/FNN sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppEigen r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_mvoutlier? ( sci-CRAN/mvoutlier ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_spdata? ( sci-CRAN/spData ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GWmodel_2.4-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a1476da0acf665e72430ce600c305cdf
