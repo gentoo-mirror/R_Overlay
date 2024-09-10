@@ -11,10 +11,10 @@
 		the causal model of White, Royes and Best (2020)
 		doi:10.1080/10543406.2019.1684308. Sensitivity analyses to
 		departures from these assumptions can be done by the Delta
-		method of Roger. The program is derived from the 'mimix'
-		'Stata' package written by Suzie Cro, with additional coding
-		for the causal model and delta method. The reference-based
-		methods are jump to reference (J2R), copy increments in
+		method of Roger. The program uses the same algorithm as the
+		'mimix' 'Stata' package written by Suzie Cro, with additional
+		coding for the causal model and delta method. The reference-
+		based methods are jump to reference (J2R), copy increments in
 		reference (CIR), copy reference (CR), and the causal model, all
 		of which must specify the reference treatment arm. Other
 		methods are missing at random (MAR) and the last mean carried

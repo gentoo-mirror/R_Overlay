@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Imputation Procedures and Quality Tests for Fuzzy Data // Special
+		procedures for the imputation of missing fuzzy numbers are
+		still underdeveloped. The goal of the package is to provide the
+		new d-imputation method (DIMP for short, Romaniuk, M. and
+		Grzegorzewski, P. "Fuzzy Data Imputation with DIMP and FGAIN"
+		RB/23/2023 (2023)) and covert some classical ones applied in R
+		packages ('missForest','miceRanger','knn') for use with fuzzy
+		datasets. Additionally, specially tailored benchmarking tests
+		are provided to check and compare these imputation procedures
+		with fuzzy datasets.
+	</longdescription>
+</pkgmetadata>

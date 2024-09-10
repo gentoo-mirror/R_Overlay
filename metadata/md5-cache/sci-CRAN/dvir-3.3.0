@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/pedtools-2.6.0 >=sci-CRAN/forrel-1.5.2 >=dev-lang/R-4.1.0 sci-CRAN/pedFamilias sci-CRAN/pbapply >=sci-CRAN/pedprobr-0.8.0 sci-CRAN/ribd >=sci-CRAN/verbalisr-0.7.1 dev-lang/R:=
+DESCRIPTION=Disaster Victim Identification
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/pedtools-2.6.0 >=sci-CRAN/forrel-1.5.2 >=dev-lang/R-4.1.0 sci-CRAN/pedFamilias sci-CRAN/pbapply >=sci-CRAN/pedprobr-0.8.0 sci-CRAN/ribd >=sci-CRAN/verbalisr-0.7.1 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dvir_3.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a2ecac3fdcc0805afc5068693faff9f2

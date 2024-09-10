@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-BIOC/biomaRt sci-BIOC/SNPRelate sci-CRAN/magrittr sci-BIOC/gdsfmt sci-CRAN/data_table >=sci-BIOC/GWASTools-1.10.1 sci-CRAN/ggplot2 sci-CRAN/ggrepel sci-CRAN/reshape2 >=dev-lang/R-2.15 sci-CRAN/cowplot sci-CRAN/knitr sci-CRAN/gtable dev-lang/R:=
+DESCRIPTION=Single Nucleotide Polymorphisms ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-BIOC/biomaRt sci-BIOC/SNPRelate sci-CRAN/magrittr sci-BIOC/gdsfmt sci-CRAN/data_table >=sci-BIOC/GWASTools-1.10.1 sci-CRAN/ggplot2 sci-CRAN/ggrepel sci-CRAN/reshape2 >=dev-lang/R-2.15 sci-CRAN/cowplot sci-CRAN/knitr sci-CRAN/gtable r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/snplinkage_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=408b48432ff7eba8f946cf686087bd14

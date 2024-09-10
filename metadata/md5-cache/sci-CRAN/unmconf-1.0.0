@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/janitor sci-CRAN/coda sci-CRAN/glue sci-CRAN/rjags dev-lang/R:=
+DESCRIPTION=Modeling with Unmeasured Confounding
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bayesplot r_suggests_dplyr r_suggests_ggplot2 r_suggests_knitr r_suggests_posterior r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/janitor sci-CRAN/coda sci-CRAN/glue sci-CRAN/rjags sci-mathematics/jags r_suggests_bayesplot? ( sci-CRAN/bayesplot ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_posterior? ( sci-CRAN/posterior ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/unmconf_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dcb3e9559773a5df0e89af6b3c020c42
