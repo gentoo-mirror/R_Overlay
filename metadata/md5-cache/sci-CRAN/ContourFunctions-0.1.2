@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/lhs sci-CRAN/rmarkdown sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Create Contour Plots from Data or a Function
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_lagp r_suggests_locfit r_suggests_mgcv r_suggests_mlegp r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/lhs sci-CRAN/rmarkdown sci-CRAN/rlang r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lagp? ( sci-CRAN/laGP ) r_suggests_locfit? ( sci-CRAN/locfit ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_mlegp? ( sci-CRAN/mlegp ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ContourFunctions_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6bf8df47b4ab13adb4e0c422be5e2388

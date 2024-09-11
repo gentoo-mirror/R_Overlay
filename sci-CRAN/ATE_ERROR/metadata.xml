@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimating ATE with Misclassified Outcomes and Mismeasured
+		Covariates // Addressing measurement error in covariates and
+		misclassification in binary outcome variables within causal
+		inference, the 'ATE.ERROR' package implements inverse
+		probability weighted estimation methods proposed by Shu and Yi
+		(2017, doi:10.1177/0962280217743777; 2019,
+		doi:10.1002/sim.8073). These methods correct errors to
+		accurately estimate average treatment effects (ATE). The
+		package includes two main functions: ATE.ERROR.Y() for handling
+		misclassification in the outcome variable and ATE.ERROR.XY()
+		for correcting both outcome misclassification and covariate
+		measurement error. It employs logistic regression for treatment
+		assignment and uses bootstrap sampling to calculate standard
+		errors and confidence intervals, with simulated datasets
+		provided for practical demonstration.
+	</longdescription>
+</pkgmetadata>

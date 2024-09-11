@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shinyjs sci-CRAN/golem sci-CRAN/bslib >=dev-lang/R-4.1.0 sci-CRAN/config sci-CRAN/DT sci-CRAN/MALDIquant >=sci-CRAN/markdown-1.5.0 sci-CRAN/plyr sci-CRAN/shiny >=sci-CRAN/shinyalert-3.1 dev-lang/R:=
+DESCRIPTION=Analyze Isotope Ratios in a Shiny-App
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_shinytest2 r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/shinyjs sci-CRAN/golem sci-CRAN/bslib >=dev-lang/R-4.1.0 sci-CRAN/config sci-CRAN/DT sci-CRAN/MALDIquant >=sci-CRAN/markdown-1.5.0 sci-CRAN/plyr sci-CRAN/shiny >=sci-CRAN/shinyalert-3.1 r_suggests_shinytest2? ( sci-CRAN/shinytest2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/IsoCor_0.2.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b622094771b35212ef24a09aef89db92
