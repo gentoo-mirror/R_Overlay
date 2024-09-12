@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Rasch Models -- eXtensions // Extend Rasch and Item Response
+		Theory (IRT) analyses by providing tools for post-processing
+		the output from five major IRT packages (i.e., 'eRm',
+		'psychotools', 'ltm', 'mirt', and 'TAM'). The current version
+		provides the plotPIccc() function, which extracts from the
+		return object of the originating package all information
+		required to draw an extended Person-Item-Map (PIccc), showing
+		any combination of * category characteristic curves (CCCs), *
+		threshold characteristic curves (TCCs), * item characteristic
+		curves (ICCs), * category information functions (CIFs), * item
+		information functions (IIFs), * test information function
+		(TIF), and the * standard error curve (S.E.). for uni- and
+		multidimensional models (as far as supported by each package).
+		It allows for selecting dimensions, items, and categories to
+		plot and offers numerous options to adapt the output. The
+		return object contains all calculated values for further
+		processing.
+	</longdescription>
+</pkgmetadata>
