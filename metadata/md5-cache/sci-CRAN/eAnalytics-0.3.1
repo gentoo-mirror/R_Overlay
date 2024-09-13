@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/energyr sci-CRAN/DT sci-CRAN/leaflet sci-CRAN/dplyr sci-CRAN/googleVis >=sci-CRAN/plotly-4.5.2 sci-CRAN/shiny sci-CRAN/shinydashboard sci-CRAN/shinyWidgets dev-lang/R:=
+DESCRIPTION=Dynamic Web-Based Analytics for ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/energyr sci-CRAN/DT sci-CRAN/leaflet sci-CRAN/dplyr sci-CRAN/googleVis >=sci-CRAN/plotly-4.5.2 sci-CRAN/shiny sci-CRAN/shinydashboard sci-CRAN/shinyWidgets r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/eAnalytics_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=198a2d4a33be61a3cdd4c7233ae9de01

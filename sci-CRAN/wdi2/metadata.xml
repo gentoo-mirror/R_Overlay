@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Download World Development Indicators from the World Bank
+		Indicators API // A modern, flexible interface for accessing
+		the World Banks World Development Indicators (WDI) API https://
+		datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-
+		the-indicators-api-documentation. Similar to the existing 'WDI'
+		package, 'wdi2' allows users to download, process, and analyze
+		indicator data for multiple countries and years. However,
+		'wdi2' differs by relying on 'httr2' for multi-page request and
+		error handling, providing support for downloading multiple
+		indicators with a single function call, using progress bars to
+		keep users informed about the data processing, and returning
+		the processed data in a tidy data format in line with Wickham
+		(2014) doi:10.18637/jss.v059.i10.
+	</longdescription>
+</pkgmetadata>
