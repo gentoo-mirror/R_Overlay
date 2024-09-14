@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Differentially Expressed Heterogeneous Overdispersion Gene Test
+		for Count Data // Implements a generalized linear model
+		approach for detecting differentially expressed genes across
+		treatment groups in count data. The package supports both
+		quasi-Poisson and negative binomial models to handle over-
+		dispersion, ensuring robust identification of differential
+		expression. It allows for the inclusion of treatment effects
+		and gene-wise covariates, as well as normalization factors for
+		accurate scaling across samples. Additionally, it incorporates
+		statistical significance testing with options for p-value
+		adjustment and log2 fold range thresholds, making it suitable
+		for RNA-seq analysis as described in by Xu et al., (2024)
+		doi:10.1371/journal.pone.0300565.
+	</longdescription>
+</pkgmetadata>

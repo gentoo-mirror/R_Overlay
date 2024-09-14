@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Double Constrained Correspondence Analysis for Trait-Environment
+		Analysis in Ecology // Double constrained correspondence
+		analysis (dc-CA) analyzes (multi-)trait (multi-)environment
+		ecological data by using the 'vegan' package and native R code.
+		Throughout the two step algorithm of ter Braak et al. (2018) is
+		used. This algorithm combines and extends community- (sample-)
+		and species-level analyses, i.e. the usual community weighted
+		means (CWM)-based regression analysis and the species-level
+		analysis of species-niche centroids (SNC)-based regression
+		analysis. The two steps use canonical correspondence analysis
+		to regress the abundance data on to the traits and (weighted)
+		redundancy analysis to regress the CWM of the orthonormalized
+		traits on to the environmental predictors. The function dc_CA()
+		has an option to divide the abundance data of a site by the
+		site total, giving equal site weights. This division has the
+		advantage that the multivariate analysis corresponds with an
+		unweighted (multi-trait) community-level analysis, instead of
+		being weighted. The first step of the algorithm uses
+		vegan::cca(). The second step uses wrda() but vegan::rda() if
+		the site weights are equal. This version has a predict()
+		function. For details see ter Braak et al. 2018
+		doi:10.1007/s10651-017-0395-x.
+	</longdescription>
+</pkgmetadata>

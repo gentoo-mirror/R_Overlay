@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Miniature Logistic-Normal Multinomial Models // Logistic-normal
+		Multinomial (LNM) models are common in problems with
+		multivariate count data. This package gives a simple
+		implementation with a 30 line 'Stan' script. This lightweight
+		implementation makes it an easy starting point for other
+		projects, in particular for downstream tasks that require
+		analysis of "compositional" data. It can be applied whenever a
+		multinomial probability parameter is thought to depend linearly
+		on inputs in a transformed, log ratio space. Additional
+		utilities make it easy to inspect, create predictions, and draw
+		samples using the fitted models. More about the LNM can be
+		found in Xia et al. (2013) "A Logistic Normal Multinomial
+		Regression Model for Microbiome Compositional Data Analysis"
+		doi:10.1111/biom.12079 and Sankaran and Holmes (2023)
+		"Generative Models: An Interdisciplinary Perspective"
+		doi:10.1146/annurev-statistics-033121-110134.
+	</longdescription>
+</pkgmetadata>
