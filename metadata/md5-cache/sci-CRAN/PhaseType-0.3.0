@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/coda sci-CRAN/reshape sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Inference for Phase-Type Distributions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_actuar byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/coda sci-CRAN/reshape sci-CRAN/ggplot2 r_suggests_actuar? ( sci-CRAN/actuar ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PhaseType_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=416572b7f881e5a7b65ab9235d09e548
