@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generalized Additive Mixed Model Interface // An interface for
+		fitting generalized additive models (GAMs) and generalized
+		additive mixed models (GAMMs) using the 'lme4' package as the
+		computational engine, as described in Helwig (2024)
+		doi:10.3390/stats7010003. Supports default and formula methods
+		for model specification, additive and tensor product splines
+		for capturing nonlinear effects, and automatic determination of
+		spline type based on the class of each predictor. Includes an
+		S3 plot method for visualizing the (nonlinear) model terms, an
+		S3 predict method for forming predictions from a fit model, and
+		an S3 summary method for conducting significance testing using
+		the Bayesian interpretation of a smoothing spline.
+	</longdescription>
+</pkgmetadata>

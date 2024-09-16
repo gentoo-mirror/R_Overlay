@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Create Longitudinal Google Trends Data // 'Google Trends'
+		provides cross-sectional and time-series data on searches, but
+		lacks readily available longitudinal data. Researchers, who
+		want to create longitudinal 'Google Trends' on their own, face
+		practical challenges, such as normalized counts that make it
+		difficult to combine cross-sectional and time-series data and
+		limitations in data formats and timelines that limit data
+		granularity over extended time periods. This package addresses
+		these issues and enables researchers to generate longitudinal
+		'Google Trends' data. This package is built on 'pytrends', a
+		Python library that acts as the unofficial 'Google Trends API'
+		to collect 'Google Trends' data. As long as the 'Google Trends
+		API', 'pytrends' and all their dependencies are working, this
+		package will work. During testing, we noticed that for the same
+		input (keyword, topic, data_format, timeline), the output index
+		can vary from time to time. Besides, if the keyword is not very
+		popular, then the resulting dataset will contain a lot of
+		zeros, which will greatly affect the final result. While this
+		package has no control over the accuracy or quality of 'Google
+		Trends' data, once the data is created, this package coverts it
+		to longitudinal data. In addition, the user may encounter a 429
+		Too Many Requests error when using cross_section() and
+		time_series() to collect 'Google Trends' data. This error
+		indicates that the user has exceeded the rate limits set by the
+		'Google Trends API'. For more information about the 'Google
+		Trends API' - 'pytrends', visit
+		https://pypi.org/project/pytrends/.
+	</longdescription>
+</pkgmetadata>

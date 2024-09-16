@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Equivalent Estimation Balanced Split Plot Designs // In
+		agricultural, post-harvest and processing, engineering and
+		industrial experiments factors are often differentiated with
+		ease with which they can change from experimental run to
+		experimental run. This is due to the fact that one or more
+		factors may be expensive or time consuming to change i.e. hard-
+		to-change factors. These factors restrict the use of complete
+		randomization as it may make the experiment expensive and time
+		consuming. Split plot designs can be used for such situations.
+		In general model estimation of split plot designs require the
+		use of generalized least squares (GLS). However for some split-
+		plot designs ordinary least squares (OLS) estimates are
+		equivalent to generalized least squares (GLS) estimates. These
+		types of designs are known in literature as equivalent-
+		estimation split-plot design. For method details see, Macharia,
+		H. and Goos, P.(2010)
+		doi:10.1080/00224065.2010.11917833.Balanced split plot designs
+		are designs which have an equal number of subplots within every
+		whole plot. This package used to construct equivalent
+		estimation balanced split plot designs for different
+		experimental set ups along with different statistical criteria
+		to measure the performance of these designs. It consist of the
+		function equivalent_BSPD().
+	</longdescription>
+</pkgmetadata>
