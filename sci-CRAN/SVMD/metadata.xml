@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Spearman Variational Mode Decomposition // In practice, it is
+		difficult to determine the number of decomposition modes, K,
+		for Variational Mode Decomposition (VMD). To overcome this
+		issue, this study offers Spearman Variational Mode
+		Decomposition (SVMD), a method that uses the Spearman
+		correlation coefficient to calculate the ideal mode number.
+		Unlike the Pearson correlation coefficient, which only returns
+		a perfect value when X and Y are linearly connected, the
+		Spearman correlation can be calculated without knowing the
+		probability distributions of X and Y. The Spearman correlation
+		coefficient, also called Spearman's rank correlation
+		coefficient, is a subset of a wider correlation coefficient. As
+		VMD decomposes a signal, the Spearman correlation coefficient
+		between the reconstructed and original sequences rises as the
+		mode number K increases. Once the signal has been fully
+		decomposed, subsequent increases in K cause the correlation to
+		gradually level off. When the correlation reaches a specific
+		level, VMD is said to have adequately decomposed the signal.
+		Numerous experiments revealed that a threshold of 0.997
+		produces the best denoising effect, so the threshold is set at
+		0.997. This package has been developed using concept of Yang et
+		al. (2021)doi:10.1016/j.aej.2021.01.055.
+	</longdescription>
+</pkgmetadata>

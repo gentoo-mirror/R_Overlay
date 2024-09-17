@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/VMDecomp dev-lang/R:=
+DESCRIPTION=Spearman Variational Mode Decomposition
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/VMDecomp dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SVMD_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=efc20c1e986d55f01a7ca70627f18e4d
