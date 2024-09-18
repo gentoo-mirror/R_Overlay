@@ -4,12 +4,12 @@
 	<longdescription>
 		Estimation of Cell Infiltration Based on Cell Crosstalk // A
 		systematic biology tool was developed to identify cell
-		infiltration via Individualized Cell-Cell interaction network.
-		'CITMIC' first constructed a weighted cell interaction network
-		through integrating Cell-target interaction information,
-		molecular function data from Gene Ontology (GO) database and
-		gene transcriptomic data in specific sample, and then, it used
-		a network propagation algorithm on the network to identify cell
+		infiltration via an Individualized Cell crosstalk network.
+		'CITMIC' first constructed a weighted cell crosstalk network by
+		integrating Cell-target interaction information, biological
+		process data from the Gene Ontology (GO) database, and gene
+		transcriptomic data in a specific sample, and then, it used a
+		network propagation algorithm on the network to identify cell
 		infiltration for the sample. Ultimately, cell infiltration in
 		the patient dataset was obtained by normalizing the centrality
 		scores of the cells.

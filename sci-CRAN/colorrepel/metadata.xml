@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Repel Visually Similar Colors for Colorblind Users in Various
+		Plots // Iterate and repel visually similar colors away in
+		various 'ggplot2' plots. When many groups are plotted at the
+		same time on multiple axes, for instance stacked bars or
+		scatter plots, effectively ordering colors becomes difficult.
+		This tool iterates through color combinations to find the best
+		solution to maximize visual distinctness of nearby groups, so
+		plots are more friendly toward colorblind users. This is
+		achieved by two distance measurements, distance between groups
+		within the plot, and CIELAB color space distances between
+		colors as described in Carter et al., (2018)
+		doi:10.25039/TR.015.2018.
+	</longdescription>
+</pkgmetadata>

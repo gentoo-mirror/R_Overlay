@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'DEXi' Library // A software package for using 'DEXi' models.
+		'DEXi' models are hierarchical qualitative multi-criteria
+		decision models developed according to the method DEX (Decision
+		EXpert,
+		https://dex.ijs.si/documentation/DEX_Method/DEX_Method.html),
+		using the program 'DEXi'
+		(https://kt.ijs.si/MarkoBohanec/dexi.html) or 'DEXiWin'
+		(https://dex.ijs.si/dexisuite/dexiwin.html). A typical workflow
+		with 'DEXiR' consists of: (1) reading a '.dxi' file, previously
+		made using the 'DEXi' software (function read_dexi()), (2)
+		making a data frame containing input values of one or more
+		decision alternatives, (3) evaluating those alternatives
+		(function evaluate()), (4) analyzing alternatives
+		(selective_explanation(), plus_minus(),
+		compare_alternatives()), (5) drawing charts. 'DEXiR' is
+		restricted to using models produced externally by the 'DEXi'
+		software and does not provide functionality for creating and/or
+		editing 'DEXi' models directly in 'R'.
+	</longdescription>
+</pkgmetadata>

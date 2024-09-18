@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation of Jacquard's Genetic Identity Coefficients //
+		Contains procedures to estimate the nine condensed Jacquard
+		genetic identity coefficients (Jacquard, 1974)
+		doi:10.1007/978-3-642-88415-3 by constrained least squares
+		(Graffelman et al., 2024) doi:10.1101/2024.03.25.586682 and by
+		the method of moments (Csuros, 2014)
+		doi:10.1016/j.tpb.2013.11.001. These procedures require
+		previous estimation of the allele frequencies. Functions are
+		supplied that estimate relationship parameters that derive from
+		the Jacquard coefficients, such as individual inbreeding
+		coefficients and kinship coefficients.
+	</longdescription>
+</pkgmetadata>
