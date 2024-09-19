@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Clear Monitor and Graphing Software Processing Gaussian .log File
+		// Self-Consistent Field(SCF) calculation method is one of the
+		most important steps in the calculation methods of quantum
+		chemistry. Ehrenreich, H.,  Cohen, M. H. (1959).
+		doi:10.1103/PhysRev.115.786 However, the most prevailing
+		software in this area, 'Gaussian''s SCF convergence process is
+		hard to monitor, especially while the job is still running,
+		causing researchers difficulty in knowing whether the
+		oscillation has started or not, wasting time and energy on
+		useless configurations or abandoning the jobs that can actually
+		work. M.J. Frisch, G.W. Trucks, H.B. Schlegel et al. (2016).
+		https://gaussian.com 'SCFMonitor' enables 'Gaussian' quantum
+		chemistry calculation software users to easily read the
+		'Gaussian' .log files and monitor the SCF convergence and
+		geometry optimization process with little effort and clear,
+		beautiful, and clean outputs. It can generate graphs using
+		'tidyverse' to let users check SCF convergence and geometry
+		optimization processes in real-time. The software supports
+		processing .log files remotely using with rbase::url(). This
+		software is a suitcase for saving time and energy for the
+		researchers, supporting multiple versions of 'Gaussian'.
+	</longdescription>
+</pkgmetadata>

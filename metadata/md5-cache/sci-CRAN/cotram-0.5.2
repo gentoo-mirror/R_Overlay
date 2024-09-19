@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/qrng >=dev-lang/R-3.5.0 >=sci-CRAN/mlt-1.4.7 >=sci-CRAN/tram-1.0.0 >=sci-CRAN/variables-1.0.2 >=sci-CRAN/basefun-1.0.5 sci-CRAN/alabama virtual/Matrix virtual/survival dev-lang/R:=
+DESCRIPTION=Count Transformation Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_colorspace r_suggests_knitr r_suggests_lattice r_suggests_multcomp r_suggests_mvtnorm r_suggests_numderiv r_suggests_th_data byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/qrng >=dev-lang/R-3.5.0 >=sci-CRAN/mlt-1.4.7 >=sci-CRAN/tram-1.0.0 >=sci-CRAN/variables-1.0.2 >=sci-CRAN/basefun-1.0.5 sci-CRAN/alabama virtual/Matrix virtual/survival r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_multcomp? ( sci-CRAN/multcomp ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_th_data? ( sci-CRAN/TH_data ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cotram_0.5-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ad9481dc816148ba5525e29d2cf8b7c6
