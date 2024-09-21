@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 >=sci-CRAN/bit-4.0.0 dev-lang/R:=
+DESCRIPTION=Memory-Efficient Storage of Larg... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biglm r_suggests_markdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.4.0 >=sci-CRAN/bit-4.0.0 r_suggests_biglm? ( sci-CRAN/biglm ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ff_4.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bf6afd237d2a76c84364fba857a4ba55

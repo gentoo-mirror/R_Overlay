@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2 sci-CRAN/httr2 sci-CRAN/mime sci-CRAN/base64enc sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=SendGrid Email API Client
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.2 sci-CRAN/httr2 sci-CRAN/mime sci-CRAN/base64enc sci-CRAN/rlang dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sg_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=39883cd2d903c09790c50a15749c578a

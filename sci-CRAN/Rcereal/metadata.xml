@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		C++11 Header Files for 'cereal' // To facilitate using 'cereal'
-		with Rcpp. 'cereal' is a header-only C++11 serialization
-		library. 'cereal' takes arbitrary data types and reversibly
-		turns them into different representations, such as compact
-		binary encodings, XML, or JSON. 'cereal' was designed to be
-		fast, light-weight, and easy to extend - it has no external
-		dependencies and can be easily bundled with other code or used
-		standalone. Please see http://uscilab.github.io/cereal for more
-		information.
+		"Cereal Headers for R and C++ Serialization" // To facilitate
+		using 'cereal' with R via 'cpp11' or 'Rcpp'. 'cereal' is a
+		header-only C++11 serialization library. 'cereal' takes
+		arbitrary data types and reversibly turns them into different
+		representations, such as compact binary encodings, 'XML', or
+		'JSON'. 'cereal' was designed to be fast, light-weight, and
+		easy to extend - it has no external dependencies and can be
+		easily bundled with other code or used standalone. Please see
+		https://uscilab.github.io/cereal/ for more information.
 	</longdescription>
 </pkgmetadata>

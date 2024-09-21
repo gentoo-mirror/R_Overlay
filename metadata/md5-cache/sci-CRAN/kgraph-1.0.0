@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/rsvd sci-CRAN/amap sci-CRAN/RColorBrewer sci-CRAN/reshape2 sci-CRAN/text2vec sci-CRAN/data_table sci-CRAN/DT sci-CRAN/htmltools sci-CRAN/plyr sci-CRAN/shiny >=dev-lang/R-3.5.0 sci-CRAN/bslib sci-CRAN/magrittr sci-CRAN/pROC sci-CRAN/igraph virtual/Matrix sci-CRAN/sgraph dev-lang/R:=
+DESCRIPTION=Knowledge Graphs Constructions and Visualizations
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/rsvd sci-CRAN/amap sci-CRAN/RColorBrewer sci-CRAN/reshape2 sci-CRAN/text2vec sci-CRAN/data_table sci-CRAN/DT sci-CRAN/htmltools sci-CRAN/plyr sci-CRAN/shiny >=dev-lang/R-3.5.0 sci-CRAN/bslib sci-CRAN/magrittr sci-CRAN/pROC sci-CRAN/igraph virtual/Matrix sci-CRAN/sgraph r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/kgraph_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=35acbd7adcc5a0884427053175fd1460
