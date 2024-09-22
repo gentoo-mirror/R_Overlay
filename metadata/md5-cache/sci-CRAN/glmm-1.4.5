@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/doParallel sci-CRAN/trust virtual/Matrix sci-CRAN/mvtnorm sci-CRAN/foreach sci-CRAN/itertools dev-lang/R:=
+DESCRIPTION=Generalized Linear Mixed Models ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_v8 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/doParallel sci-CRAN/trust virtual/Matrix sci-CRAN/mvtnorm sci-CRAN/foreach sci-CRAN/itertools r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_v8? ( sci-CRAN/V8 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/glmm_1.4.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3cd5c2ede648f31c5bac966353c2f894
