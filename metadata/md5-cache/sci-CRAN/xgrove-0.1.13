@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gbm virtual/rpart sci-CRAN/dplyr virtual/rpart dev-lang/R:=
+DESCRIPTION=Explanation Groves
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_pdp r_suggests_randomforest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/gbm virtual/rpart sci-CRAN/dplyr virtual/rpart r_suggests_pdp? ( sci-CRAN/pdp ) r_suggests_randomforest? ( sci-CRAN/randomForest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/xgrove_0.1-13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=008ed0aad75cc7f885677d2128800ebe

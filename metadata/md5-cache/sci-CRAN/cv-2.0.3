@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/car >=dev-lang/R-3.5.0 sci-CRAN/glmmTMB sci-CRAN/lme4 sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/gtools sci-CRAN/insight virtual/lattice virtual/nlme dev-lang/R:=
+DESCRIPTION=Cross-Validating Regression Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_cardata r_suggests_dplyr r_suggests_effects r_suggests_islr2 r_suggests_knitr r_suggests_lattice r_suggests_leaps r_suggests_metrics r_suggests_nnet r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/MASS sci-CRAN/car >=dev-lang/R-3.5.0 sci-CRAN/glmmTMB sci-CRAN/lme4 sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/gtools sci-CRAN/insight virtual/lattice virtual/nlme r_suggests_boot? ( virtual/boot ) r_suggests_cardata? ( sci-CRAN/carData ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_effects? ( sci-CRAN/effects ) r_suggests_islr2? ( sci-CRAN/ISLR2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_leaps? ( sci-CRAN/leaps ) r_suggests_metrics? ( sci-CRAN/Metrics ) r_suggests_nnet? ( virtual/nnet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cv_2.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=92d94c0d224d806b57119ddc242bf56c

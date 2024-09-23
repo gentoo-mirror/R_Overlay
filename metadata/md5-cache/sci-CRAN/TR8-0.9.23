@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny sci-CRAN/XML sci-CRAN/RCurl sci-CRAN/readxl >=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/plyr sci-CRAN/reshape sci-CRAN/rappdirs dev-lang/R:=
+DESCRIPTION=A Tool for Downloading Functiona... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/shiny sci-CRAN/XML sci-CRAN/RCurl sci-CRAN/readxl >=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/plyr sci-CRAN/reshape sci-CRAN/rappdirs dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TR8_0.9.23.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=044fbdf79e8b677dc061b7de9c83ab19
