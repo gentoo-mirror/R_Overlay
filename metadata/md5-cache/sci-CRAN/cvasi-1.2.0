@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/furrr sci-CRAN/ggplot2 sci-CRAN/deSolve >=dev-lang/R-3.5.0 sci-CRAN/GGally sci-CRAN/glue sci-CRAN/stringr sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/lifecycle sci-CRAN/magrittr sci-CRAN/tidyr sci-CRAN/lemna sci-CRAN/cli sci-CRAN/purrr sci-CRAN/gridExtra sci-CRAN/units sci-CRAN/lubridate sci-CRAN/attempt dev-lang/R:=
+DESCRIPTION=Calibration, Validation, and Sim... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_future r_suggests_knitr r_suggests_rmarkdown r_suggests_roxyglobals r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/furrr sci-CRAN/ggplot2 sci-CRAN/deSolve >=dev-lang/R-3.5.0 sci-CRAN/GGally sci-CRAN/glue sci-CRAN/stringr sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/lifecycle sci-CRAN/magrittr sci-CRAN/tidyr sci-CRAN/lemna sci-CRAN/cli sci-CRAN/purrr sci-CRAN/gridExtra sci-CRAN/units sci-CRAN/lubridate sci-CRAN/attempt r_suggests_future? ( sci-CRAN/future ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxyglobals? ( sci-CRAN/roxyglobals ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cvasi_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4737e37b6e2b6806926336422fd9847e

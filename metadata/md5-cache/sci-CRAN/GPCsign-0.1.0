@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DiceKriging >=sci-CRAN/TruncatedNormal-2.3 sci-CRAN/tmvtnorm sci-CRAN/future sci-CRAN/future_apply dev-lang/R:=
+DESCRIPTION=Gaussian Process Classification ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dicedesign r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/DiceKriging >=sci-CRAN/TruncatedNormal-2.3 sci-CRAN/tmvtnorm sci-CRAN/future sci-CRAN/future_apply r_suggests_dicedesign? ( sci-CRAN/DiceDesign ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GPCsign_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=505939123aabe086ef5d70e3566f5cd1

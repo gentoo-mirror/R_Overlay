@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Dividing Local Gaussian Processes for Online Learning Regression
+		// We implement and extend the Dividing Local Gaussian Process
+		algorithm by Lederer et al. (2020)
+		doi:10.48550/arXiv.2006.09446. Its main use case is in online
+		learning where it is used to train a network of local GPs
+		(referred to as tree) by cleverly partitioning the input space.
+		In contrast to a single GP, 'GPTreeO' is able to deal with
+		larger amounts of data. The package includes methods to create
+		the tree and set its parameter, incorporating data points from
+		a data stream as well as making joint predictions based on all
+		relevant local GPs.
+	</longdescription>
+</pkgmetadata>

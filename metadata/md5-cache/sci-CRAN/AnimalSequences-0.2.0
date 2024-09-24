@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/cluster sci-CRAN/kernlab sci-CRAN/igraph sci-CRAN/tidytext sci-CRAN/fpc sci-CRAN/ranger sci-CRAN/ggraph >=dev-lang/R-4.0.0 sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/ggplot2 sci-CRAN/dbscan sci-CRAN/magrittr sci-CRAN/tidyr sci-CRAN/naivebayes sci-CRAN/mclust sci-CRAN/dplyr sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Analyse Animal Sequential Behavi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=virtual/cluster sci-CRAN/kernlab sci-CRAN/igraph sci-CRAN/tidytext sci-CRAN/fpc sci-CRAN/ranger sci-CRAN/ggraph >=dev-lang/R-4.0.0 sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/ggplot2 sci-CRAN/dbscan sci-CRAN/magrittr sci-CRAN/tidyr sci-CRAN/naivebayes sci-CRAN/mclust sci-CRAN/dplyr sci-CRAN/tibble r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AnimalSequences_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec322aba24169f9fb27889db9c951550

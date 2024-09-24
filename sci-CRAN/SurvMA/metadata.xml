@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Model Averaging Prediction of Personalized Survival Probabilities
+		// Provide model averaging-based approaches that can be used to
+		predict personalized survival probabilities. The key underlying
+		idea is to approximate the conditional survival function using
+		a weighted average of multiple candidate models. Two scenarios
+		of candidate models are allowed: (Scenario 1) partial linear
+		Cox model and (Scenario 2) time-varying coefficient Cox model.
+		A reference of the underlying methods is Li and Wang (2023)
+		doi:10.1016/j.csda.2023.107759.
+	</longdescription>
+</pkgmetadata>

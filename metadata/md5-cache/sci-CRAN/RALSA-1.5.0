@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shinyFiles sci-CRAN/shinyWidgets sci-CRAN/haven sci-CRAN/shinyjs >=dev-lang/R-4.0.0 sci-CRAN/DT virtual/foreign sci-CRAN/ggplot2 sci-CRAN/import sci-CRAN/openxlsx sci-CRAN/stringr sci-CRAN/rclipboard sci-CRAN/rstudioapi sci-CRAN/shiny sci-CRAN/shinydashboard sci-CRAN/data_table sci-CRAN/Hmisc sci-CRAN/stringi sci-CRAN/readr dev-lang/R:=
+DESCRIPTION=R Analyzer for Large-Scale Assessments
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/shinyFiles sci-CRAN/shinyWidgets sci-CRAN/haven sci-CRAN/shinyjs >=dev-lang/R-4.0.0 sci-CRAN/DT virtual/foreign sci-CRAN/ggplot2 sci-CRAN/import sci-CRAN/openxlsx sci-CRAN/stringr sci-CRAN/rclipboard sci-CRAN/rstudioapi sci-CRAN/shiny sci-CRAN/shinydashboard sci-CRAN/data_table sci-CRAN/Hmisc sci-CRAN/stringi sci-CRAN/readr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RALSA_1.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3f9013e2f6889f23ff9fe94923716138
