@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/TMB >=sci-CRAN/ggplot2-2.0.0 sci-CRAN/gplots >=sci-CRAN/dplyr-0.5.0 >=dev-lang/R-3.4.0 >=sci-CRAN/reshape2-1.4.1 dev-lang/R:=
+DESCRIPTION=Mean Length-Based Estimators of ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/TMB >=sci-CRAN/ggplot2-2.0.0 sci-CRAN/gplots >=sci-CRAN/dplyr-0.5.0 >=dev-lang/R-3.4.0 >=sci-CRAN/reshape2-1.4.1 sci-CRAN/TMB sci-CRAN/RcppEigen r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MLZ_0.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1708f969b083ee0fc1c633b09738fdb8

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Full Consistency Method (FUCOM) // Full Consistency Method
+		(FUCOM) for multi-criteria decision-making (MCDM), developed by
+		Dragam Pamucar in 2018 (doi:10.3390/sym10090393). The goal of
+		the method is to determine the weights of criteria such that
+		the deviation from full consistency is minimized. Users provide
+		a character vector specifying the ranking of each criterion
+		according to its significance, starting from the criterion
+		expected to have the highest weight to the least significant
+		one. Additionally, users provide a numeric vector specifying
+		the priority values for each criterion. The comparison is made
+		with respect to the first-ranked (most significant) criterion.
+		The function returns the optimized weights for each criterion
+		(summing to 1), the comparative priority (Phi) values, the
+		mathematical transitivity condition (w) value, and the minimum
+		deviation from full consistency (DFC).
+	</longdescription>
+</pkgmetadata>

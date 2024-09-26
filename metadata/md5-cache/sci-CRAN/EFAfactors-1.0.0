@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/xgboost sci-CRAN/RcppArmadillo sci-CRAN/Rcpp >=dev-lang/R-4.1.0 sci-CRAN/ineq sci-CRAN/reticulate sci-CRAN/SimCorMultRes sci-CRAN/ddpcr sci-CRAN/BBmisc virtual/MASS virtual/Matrix sci-CRAN/mlr sci-CRAN/psych sci-CRAN/proxy sci-CRAN/ranger sci-CRAN/ParamHelpers dev-lang/R:=
+DESCRIPTION=Determining the Number of Factor... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/xgboost sci-CRAN/RcppArmadillo sci-CRAN/Rcpp >=dev-lang/R-4.1.0 sci-CRAN/ineq sci-CRAN/reticulate sci-CRAN/SimCorMultRes sci-CRAN/ddpcr sci-CRAN/BBmisc virtual/MASS virtual/Matrix sci-CRAN/mlr sci-CRAN/psych sci-CRAN/proxy sci-CRAN/ranger sci-CRAN/ParamHelpers sci-CRAN/Rcpp sci-CRAN/RcppArmadillo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EFAfactors_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f14fb7ce7dbf8411860a9e4dcc5505a2

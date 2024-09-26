@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/combinat sci-CRAN/FRACTION >=sci-CRAN/igraph-1.0.1 sci-CRAN/actuar sci-CRAN/mcmc >=sci-CRAN/PhaseType-0.2.0 sci-CRAN/sfsmisc dev-lang/R:=
+DESCRIPTION=Structural Reliability Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_reshape2 r_suggests_testthat r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/combinat sci-CRAN/FRACTION >=sci-CRAN/igraph-1.0.1 sci-CRAN/actuar sci-CRAN/mcmc >=sci-CRAN/PhaseType-0.2.0 sci-CRAN/sfsmisc r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ReliabilityTheory_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8887e59fbb8a4053570d2f83527e5666

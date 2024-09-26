@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Ranking of Alternatives with the RAFSI Method // Ranking of
+		Alternatives through Functional mapping of criterion sub-
+		intervals into a Single Interval Method is designed to perform
+		multi-criteria decision-making (MCDM), developed by Malia iovic
+		in 2020 (doi:10.3390/math8061015). It calculates the final
+		sorted rankings based on a decision matrix where rows represent
+		alternatives and columns represent criteria. The method uses: -
+		A numeric vector of weights for each criterion (the sum of
+		weights must be 1). - A numeric vector of ideal values for each
+		criterion. - A numeric vector of anti-ideal values for each
+		criterion. - Numeric values representing the extent to which
+		the ideal value is preferred over the anti-ideal value, and the
+		extent to which the anti-ideal value is considered worse. The
+		function standardizes the decision matrix, normalizes the data,
+		applies weights, and returns the final sorted rankings.
+	</longdescription>
+</pkgmetadata>
