@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Dual Feature Reduction for SGL // Implementation of the Dual
+		Feature Reduction (DFR) approach for the Sparse Group Lasso
+		(SGL) and the Adaptive Sparse Group Lasso (aSGL) (Feser and
+		Evangelou (2024) doi:10.48550/arXiv.2405.17094). The DFR
+		approach is a feature reduction approach that applies strong
+		screening to reduce the feature space before optimisation,
+		leading to speed-up improvements for fitting SGL (Simon et al.
+		(2013) doi:10.1080/10618600.2012.681250) and aSGL (Mendez-
+		Civieta et al. (2020) doi:10.1007/s11634-020-00413-8 and
+		Poignard (2020) doi:10.1007/s10463-018-0692-7) models. DFR is
+		implemented using the Adaptive Three Operator Splitting (ATOS)
+		(Pedregosa and Gidel (2018) doi:10.48550/arXiv.1804.02339)
+		algorithm, with linear and logistic SGL models supported, both
+		of which can be fit using k-fold cross-validation. Dense and
+		sparse input matrices are supported.
+	</longdescription>
+</pkgmetadata>

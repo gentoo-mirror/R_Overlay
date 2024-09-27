@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/misc3d sci-CRAN/spatstat_explore sci-CRAN/spatstat_univar sci-CRAN/sparr sci-CRAN/spatstat_geom sci-CRAN/spatstat_random sci-CRAN/spatstat_utils virtual/nnet dev-lang/R:=
+DESCRIPTION=Adaptive Kernel Estimators for P... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/misc3d sci-CRAN/spatstat_explore sci-CRAN/spatstat_univar sci-CRAN/sparr sci-CRAN/spatstat_geom sci-CRAN/spatstat_random sci-CRAN/spatstat_utils virtual/nnet r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/kernstadapt_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d44d6b70548239fb322e6011bbff880c

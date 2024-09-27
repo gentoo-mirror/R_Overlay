@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>sci-CRAN/mixopt-0.1.0 sci-CRAN/numDeriv sci-CRAN/rmarkdown sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/R6 sci-CRAN/lbfgs dev-lang/R:=
+DESCRIPTION=Gaussian Process Fitting
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_contourfunctions r_suggests_dplyr r_suggests_ggrepel r_suggests_gridextra r_suggests_knitr r_suggests_lhs r_suggests_mass r_suggests_rlang r_suggests_splitfngr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>sci-CRAN/mixopt-0.1.0 sci-CRAN/numDeriv sci-CRAN/rmarkdown sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/R6 sci-CRAN/lbfgs sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_contourfunctions? ( sci-CRAN/ContourFunctions ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lhs? ( sci-CRAN/lhs ) r_suggests_mass? ( virtual/MASS ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_splitfngr? ( sci-CRAN/splitfngr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GauPro_0.2.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=41fa2f20f9e2c1a627133e8555d83f52

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Progress Bars and Messages for Parallel Processes // Tools for
+		monitoring progress during parallel processing. Lightweight
+		package which acts as a wrapper around mclapply() and adds a
+		progress bar to it in 'RStudio' or 'Linux' environments. Simply
+		replace your original call to mclapply() with pmclapply(). A
+		progress bar can also be displayed during parallelisation via
+		the 'foreach' package. Also included are functions to safely
+		print messages (including error messages) from within
+		parallelised code, which can be useful for debugging
+		parallelised R code.
+	</longdescription>
+</pkgmetadata>

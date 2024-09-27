@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/glmnet virtual/Matrix virtual/survival dev-lang/R:=
+DESCRIPTION=Sparse Regression with Paired Covariates
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ashr r_suggests_edger r_suggests_knitr r_suggests_proc r_suggests_remotes r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/glmnet virtual/Matrix virtual/survival r_suggests_ashr? ( sci-CRAN/ashr ) r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/palasso_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4400818608b5143d134c3076ae6081d0
