@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/lifecycle sci-CRAN/curl >=dev-lang/R-3.4 sci-CRAN/zip sci-CRAN/fs sci-CRAN/rstac sci-CRAN/xml2 sci-CRAN/rvest sci-CRAN/httr2 sci-CRAN/pxweb sci-CRAN/tibble sci-CRAN/janitor sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Get Data from the Swiss Federal Statistical Office
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/dplyr sci-CRAN/lifecycle sci-CRAN/curl >=dev-lang/R-3.4 sci-CRAN/zip sci-CRAN/fs sci-CRAN/rstac sci-CRAN/xml2 sci-CRAN/rvest sci-CRAN/httr2 sci-CRAN/pxweb sci-CRAN/tibble sci-CRAN/janitor sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/sf r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BFS_0.5.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fc74bb6e260e36a3780e85172e99b25c

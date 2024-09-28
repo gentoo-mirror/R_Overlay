@@ -2,14 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multivariate Elastic Net Regression // Implements high-
-		dimensional multivariate regression by stacked generalisation
-		(Rauschenberger 2021 doi:10.1093/bioinformatics/btab576). For
-		positively correlated outcomes, a single multivariate
-		regression is typically more predictive than multiple
-		univariate regressions. Includes functions for model fitting,
-		extracting coefficients, outcome prediction, and performance
-		measurement. If required, install MRCE or remMap from GitHub
-		(https://github.com/cran/MRCE, https://github.com/cran/remMap).
+		Penalised Multivariate Regression ('Multi-Target Learning') //
+		Implements penalised multivariate regression (i.e., for
+		multiple outcomes and many features) by stacked generalisation
+		(doi:10.1093/bioinformatics/btab576). For positively correlated
+		outcomes, a single multivariate regression is typically more
+		predictive than multiple univariate regressions. Includes
+		functions for model fitting, extracting coefficients, outcome
+		prediction, and performance measurement. For optional
+		comparisons, install 'remMap' from GitHub
+		(https://github.com/cran/remMap).
 	</longdescription>
 </pkgmetadata>

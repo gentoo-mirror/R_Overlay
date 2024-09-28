@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/curl sci-CRAN/jsonlite sci-CRAN/xml2 sci-CRAN/memoise sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Supplementary Tools for R Packages Developers
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mockery r_suggests_pkgsearch r_suggests_remotes r_suggests_renv r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/curl sci-CRAN/jsonlite sci-CRAN/xml2 sci-CRAN/memoise sci-CRAN/stringi r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_pkgsearch? ( sci-CRAN/pkgsearch ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_renv? ( sci-CRAN/renv ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pacs_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=22464af4dd111e1bb4d0f60b21417ff8

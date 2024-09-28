@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/cornet sci-CRAN/glmnet sci-CRAN/palasso dev-lang/R:=
+DESCRIPTION=Penalised Multivariate Regressio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_earth r_suggests_gpm r_suggests_knitr r_suggests_mass r_suggests_mcen r_suggests_mice r_suggests_mrce r_suggests_mtps r_suggests_multivariaterandomforest r_suggests_remmap r_suggests_rmarkdown r_suggests_rmtl r_suggests_sier r_suggests_spls r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/cornet sci-CRAN/glmnet sci-CRAN/palasso r_suggests_earth? ( sci-CRAN/earth ) r_suggests_gpm? ( sci-CRAN/GPM ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_mcen? ( sci-CRAN/mcen ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_mrce? ( sci-CRAN/MRCE ) r_suggests_mtps? ( sci-CRAN/MTPS ) r_suggests_multivariaterandomforest? ( sci-CRAN/MultivariateRandomForest ) r_suggests_remmap? ( sci-CRAN/remMap ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rmtl? ( sci-CRAN/RMTL ) r_suggests_sier? ( sci-CRAN/SiER ) r_suggests_spls? ( sci-CRAN/spls ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/joinet_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ac6c13cc53b077beb4b179f3d8106769
