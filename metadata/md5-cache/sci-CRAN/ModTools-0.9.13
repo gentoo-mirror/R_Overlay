@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/rpart virtual/lattice sci-CRAN/relaimpo virtual/class virtual/MASS >=dev-lang/R-3.5.0 sci-CRAN/robustbase sci-CRAN/AER sci-CRAN/pROC sci-CRAN/lmtest virtual/boot sci-CRAN/e1071 virtual/nnet virtual/survival sci-CRAN/C50 sci-CRAN/randomForest sci-CRAN/DescTools sci-CRAN/sandwich sci-CRAN/naivebayes sci-CRAN/car virtual/rpart sci-CRAN/pscl sci-CRAN/NeuralNetTools dev-lang/R:=
+DESCRIPTION=Building Regression and Classification Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_vgam byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/rpart virtual/lattice sci-CRAN/relaimpo virtual/class virtual/MASS >=dev-lang/R-3.5.0 sci-CRAN/robustbase sci-CRAN/AER sci-CRAN/pROC sci-CRAN/lmtest virtual/boot sci-CRAN/e1071 virtual/nnet virtual/survival sci-CRAN/C50 sci-CRAN/randomForest sci-CRAN/DescTools sci-CRAN/sandwich sci-CRAN/naivebayes sci-CRAN/car virtual/rpart sci-CRAN/pscl sci-CRAN/NeuralNetTools r_suggests_vgam? ( sci-CRAN/VGAM ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ModTools_0.9.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=653ebc55e5cc453ad4115bf1c1b967a7
