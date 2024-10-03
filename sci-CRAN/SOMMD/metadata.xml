@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Self Organising Maps for the Analysis of Molecular Dynamics Data
+		// Processes data from Molecular Dynamics simulations using
+		Self Organising Maps. Features include the ability to read
+		different input formats. Trajectories can be analysed to
+		identify groups of important frames. Output visualisation can
+		be generated for maps and pathways. Methodological details can
+		be found in Motta S et al (2022) doi:10.1021/acs.jctc.1c01163.
+		I/O functions for xtc format files were implemented using the
+		'xdrfile' library available under open source license. The
+		relevant information can be found in inst/COPYRIGHT.
+	</longdescription>
+</pkgmetadata>

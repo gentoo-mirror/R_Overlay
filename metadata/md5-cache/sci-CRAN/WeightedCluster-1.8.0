@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/vegclust sci-CRAN/RColorBrewer >=sci-CRAN/TraMineR-2.0.6 virtual/cluster >=dev-lang/R-3.0.0 sci-CRAN/foreach sci-CRAN/progressr sci-CRAN/future sci-CRAN/doFuture virtual/nnet virtual/cluster dev-lang/R:=
+DESCRIPTION=Clustering of Weighted Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_isotone r_suggests_knitr r_suggests_lattice r_suggests_progress r_suggests_runit r_suggests_vegan byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/vegclust sci-CRAN/RColorBrewer >=sci-CRAN/TraMineR-2.0.6 virtual/cluster >=dev-lang/R-3.0.0 sci-CRAN/foreach sci-CRAN/progressr sci-CRAN/future sci-CRAN/doFuture virtual/nnet virtual/cluster r_suggests_isotone? ( sci-CRAN/isotone ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_progress? ( sci-CRAN/progress ) r_suggests_runit? ( sci-CRAN/RUnit ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/WeightedCluster_1.8-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b524ff7406cf004a02acd10320c32d74

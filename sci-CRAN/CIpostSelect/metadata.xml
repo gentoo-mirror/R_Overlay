@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Confidence Interval Post-Selection of Variable // Calculates
+		confidence intervals after variable selection using repeated
+		data splits. The package offers methods to address the
+		challenges of post-selection inference, ensuring more accurate
+		confidence intervals in models involving variable selection.
+		The two main functions are 'lmps', which records the different
+		models selected across multiple data splits as well as the
+		corresponding coefficient estimates, and 'cips', which takes
+		the lmps object as input to select variables and perform
+		inferences using two types of voting.
+	</longdescription>
+</pkgmetadata>

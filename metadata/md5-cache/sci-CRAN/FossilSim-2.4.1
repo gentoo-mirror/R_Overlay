@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-BIOC/ggtree sci-CRAN/tidytree sci-CRAN/ape sci-CRAN/ggplot2 sci-CRAN/ggfun sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Simulation and Plots for Fossil and Taxonomy Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_ggrepel r_suggests_knitr r_suggests_paleotree r_suggests_rmarkdown r_suggests_treeio r_suggests_treesim byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-BIOC/ggtree sci-CRAN/tidytree sci-CRAN/ape sci-CRAN/ggplot2 sci-CRAN/ggfun sci-CRAN/rlang r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_paleotree? ( sci-CRAN/paleotree ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_treeio? ( sci-BIOC/treeio ) r_suggests_treesim? ( sci-CRAN/TreeSim ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FossilSim_2.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a66ba3842dbfcbae6ca1e144f638c757

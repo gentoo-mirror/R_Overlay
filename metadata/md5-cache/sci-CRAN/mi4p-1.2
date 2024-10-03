@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/foreach sci-CRAN/imp4p sci-BIOC/impute sci-CRAN/emmeans sci-BIOC/limma sci-CRAN/mice sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Multiple Imputation for Proteomics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biobase r_suggests_knitr r_suggests_markdown r_suggests_proteomm r_suggests_r_rsp r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/foreach sci-CRAN/imp4p sci-BIOC/impute sci-CRAN/emmeans sci-BIOC/limma sci-CRAN/mice sci-CRAN/stringr r_suggests_biobase? ( sci-BIOC/Biobase ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_proteomm? ( sci-BIOC/ProteoMM ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mi4p_1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cb3cf2206d555b838ce2599cd703ef2d
