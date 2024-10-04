@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multiple RMTL-Based Tests for Competing Risks Data in General
+		Factorial Designs // We implemented multiple tests based on the
+		restricted mean time lost (RMTL) for general factorial designs
+		as described in Munko et al. (2024)
+		doi:10.48550/arXiv.2409.07917. Therefore, an asymptotic test
+		and a permutation test are incorporated with a Wald-type test
+		statistic. The asymptotic test takes the asymptotic exact
+		dependence structure of the test statistics into account to
+		gain more power. Furthermore, confidence intervals for RMTL
+		contrasts can be calculated and plotted and a stepwise
+		extension that can improve the power of the multiple tests is
+		available.
+	</longdescription>
+</pkgmetadata>
