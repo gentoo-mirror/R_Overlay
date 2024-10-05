@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/vctrs sci-CRAN/cli >=dev-lang/R-4.1 sci-CRAN/lifecycle sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/pillar sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Read and Convert Japanese Municipality Codes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tibble sci-CRAN/vctrs sci-CRAN/cli >=dev-lang/R-4.1 sci-CRAN/lifecycle sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/pillar sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/stringr r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/jpcity_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=973775ab0d3b4a5827c5099090491bf9

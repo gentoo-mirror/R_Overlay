@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/V8 >=sci-CRAN/curl-2.7 sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=JSON for Linking Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spelling byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=sci-CRAN/V8 >=sci-CRAN/curl-2.7 sci-CRAN/jsonlite r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/jsonld_2.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2a0dd9803f7ddb32fa200db9bea45ff3

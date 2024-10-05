@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/ggplot2 sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/glmnet sci-CRAN/magrittr sci-CRAN/mlbench sci-CRAN/tictoc dev-lang/R:=
+DESCRIPTION=Confidence Interval Post-Selection of Variable
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/MASS sci-CRAN/ggplot2 sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/glmnet sci-CRAN/magrittr sci-CRAN/mlbench sci-CRAN/tictoc dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CIpostSelect_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7f486d0024a797aa588e4ce63c7fef6c

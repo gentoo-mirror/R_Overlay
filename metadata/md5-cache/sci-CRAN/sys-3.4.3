@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Powerful and Reliable Tools for ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spelling r_suggests_testthat r_suggests_unix byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_unix? ( >=sci-CRAN/unix-1.4 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sys_3.4.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=672d010a2bd4c984a9ca181fba766a5c

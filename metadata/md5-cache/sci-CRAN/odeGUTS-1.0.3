@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/deSolve sci-CRAN/zoo sci-CRAN/tidyr sci-CRAN/magrittr sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Solve ODE for GUTS-RED-SD and GU... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_morse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/deSolve sci-CRAN/zoo sci-CRAN/tidyr sci-CRAN/magrittr sci-CRAN/dplyr r_suggests_morse? ( sci-CRAN/morse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/odeGUTS_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=210b456c91894c704cb4ef89ca70221f
