@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0 virtual/KernSmooth sci-CRAN/gtools sci-CRAN/caTools dev-lang/R:=
+DESCRIPTION=Various R Programming Tools for Plotting Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mass r_suggests_nlme r_suggests_r2d2 r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.0 virtual/KernSmooth sci-CRAN/gtools sci-CRAN/caTools r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_nlme? ( virtual/nlme ) r_suggests_r2d2? ( sci-CRAN/r2d2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gplots_3.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e9a964cb31d774032ae2ac1ab7366a0f

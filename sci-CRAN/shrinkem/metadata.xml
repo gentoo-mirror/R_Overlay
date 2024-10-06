@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Approximate Bayesian Regularization for Parsimonious Estimates //
+		Approximate Bayesian regularization using Gaussian
+		approximations. The input is a vector of estimates and a
+		Gaussian error covariance matrix of the key parameters.
+		Bayesian shrinkage is then applied to obtain parsimonious
+		solutions. The method is described on Karimova, van Erp,
+		Leenders, and Mulder (2024) DOI:10.31234/osf.io/2g8qm. Gibbs
+		samplers are used for model fitting. The shrinkage priors that
+		are supported are Gaussian (ridge) priors, Laplace (lasso)
+		priors (Park and Casella, 2008 DOI:10.1198/016214508000000337),
+		and horseshoe priors (Carvalho, et al., 2010;
+		DOI:10.1093/biomet/asq017). These priors include an option for
+		grouped regularization of different subsets of parameters
+		(Meier et al., 2008; DOI:10.1111/j.1467-9868.2007.00627.x). F
+		priors are used for the penalty parameters lambda^2 (Mulder and
+		Pericchi, 2018 DOI:10.1214/17-BA1092). This correspond to half-
+		Cauchy priors on lambda (Carvalho, Polson, Scott, 2010
+		DOI:10.1093/biomet/asq017).
+	</longdescription>
+</pkgmetadata>

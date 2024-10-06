@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.4 sci-CRAN/cli sci-CRAN/e1071 sci-CRAN/pracma dev-lang/R:=
+DESCRIPTION=Functions for Wayne W. Daniels B... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bsda r_suggests_car r_suggests_desctools r_suggests_mblm r_suggests_psych r_suggests_reshape2 r_suggests_robslopes r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.4 sci-CRAN/cli sci-CRAN/e1071 sci-CRAN/pracma r_suggests_bsda? ( sci-CRAN/BSDA ) r_suggests_car? ( sci-CRAN/car ) r_suggests_desctools? ( sci-CRAN/DescTools ) r_suggests_mblm? ( sci-CRAN/mblm ) r_suggests_psych? ( sci-CRAN/psych ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_robslopes? ( sci-CRAN/robslopes ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DanielBiostatistics10th_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3732aa94e88567bda0bb3b6331dfe3de
