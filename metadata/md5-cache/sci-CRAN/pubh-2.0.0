@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/jtools sci-CRAN/ggplot2 virtual/survival sci-CRAN/performance sci-CRAN/sjlabelled sci-CRAN/tidyselect sci-CRAN/sjmisc sci-CRAN/tibble >=dev-lang/R-4.4.0 sci-CRAN/car sci-CRAN/ggformula sci-CRAN/emmeans sci-CRAN/Epi sci-CRAN/epitools sci-CRAN/lmtest sci-CRAN/sandwich dev-lang/R:=
+DESCRIPTION=A Toolbox for Public Health and Epidemiology
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_broom r_suggests_broom_helpers r_suggests_cardx r_suggests_crosstable r_suggests_easystats r_suggests_effectsize r_suggests_ggeffects r_suggests_iswr r_suggests_knitr r_suggests_mass r_suggests_nlme r_suggests_rstatix byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/dplyr sci-CRAN/jtools sci-CRAN/ggplot2 virtual/survival sci-CRAN/performance sci-CRAN/sjlabelled sci-CRAN/tidyselect sci-CRAN/sjmisc sci-CRAN/tibble >=dev-lang/R-4.4.0 sci-CRAN/car sci-CRAN/ggformula sci-CRAN/emmeans sci-CRAN/Epi sci-CRAN/epitools sci-CRAN/lmtest sci-CRAN/sandwich r_suggests_broom? ( sci-CRAN/broom ) r_suggests_broom_helpers? ( sci-CRAN/broom_helpers ) r_suggests_cardx? ( sci-CRAN/cardx ) r_suggests_crosstable? ( sci-CRAN/crosstable ) r_suggests_easystats? ( sci-CRAN/easystats ) r_suggests_effectsize? ( sci-CRAN/effectsize ) r_suggests_ggeffects? ( sci-CRAN/ggeffects ) r_suggests_iswr? ( sci-CRAN/ISwR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_nlme? ( virtual/nlme ) r_suggests_rstatix? ( sci-CRAN/rstatix ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pubh_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1bce59b60ed27c2a30f1448f2cb0f8d7
