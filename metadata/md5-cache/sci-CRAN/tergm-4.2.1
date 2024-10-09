@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS >=sci-CRAN/ergm-4.7.0 >=sci-CRAN/coda-0.19.4.1 >=sci-CRAN/networkDynamic-0.11.4 >=sci-CRAN/network-1.18.2 >=sci-CRAN/robustbase-0.95 >=sci-CRAN/statnet_common-4.10.0 >=sci-CRAN/ergm_multi-0.2.1 >=sci-CRAN/purrr-1.0.2 virtual/nlme dev-lang/R:=
+DESCRIPTION=Fit, Simulate and Diagnose Model... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_lattice r_suggests_networklite r_suggests_rlang r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/MASS >=sci-CRAN/ergm-4.7.0 >=sci-CRAN/coda-0.19.4.1 >=sci-CRAN/networkDynamic-0.11.4 >=sci-CRAN/network-1.18.2 >=sci-CRAN/robustbase-0.95 >=sci-CRAN/statnet_common-4.10.0 >=sci-CRAN/ergm_multi-0.2.1 >=sci-CRAN/purrr-1.0.2 virtual/nlme sci-CRAN/ergm r_suggests_covr? ( >=sci-CRAN/covr-3.6.4 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.48 ) r_suggests_lattice? ( virtual/lattice ) r_suggests_networklite? ( >=sci-CRAN/networkLite-1.0.5 ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.28 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.2.1.1 ) r_suggests_tibble? ( >=sci-CRAN/tibble-3.2.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tergm_4.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2d23869f0d2bd5c7628a2e2320b72059
