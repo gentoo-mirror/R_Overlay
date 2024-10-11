@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Background Resource Logging // Intense parallel workloads can be
+		difficult to monitor. Packages 'crew.cluster', 'clustermq', and
+		'future.batchtools' distribute hundreds of worker processes
+		over multiple computers. If a worker process exhausts its
+		available memory, it may terminate silently, leaving the
+		underlying problem difficult to detect or troubleshoot. Using
+		the 'autometric' package, a worker can proactively monitor
+		itself in a detached background thread. The worker process
+		itself runs normally, and the thread writes to a log every few
+		seconds. If the worker terminates unexpectedly, 'autometric'
+		can read and visualize the log file to reveal potential
+		resource-related reasons for the crash. The 'autometric'
+		package borrows heavily from the methods of packages 'ps'
+		doi:10.32614/CRAN.package.ps and 'psutil'.
+	</longdescription>
+</pkgmetadata>

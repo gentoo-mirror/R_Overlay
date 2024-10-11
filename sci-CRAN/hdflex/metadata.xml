@@ -3,13 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		High-Dimensional Aggregate Density Forecasts // Provides a
-		forecasting method that maps vast numbers of (scalar-valued)
-		signals of any type into an aggregate density forecast in a
+		forecasting method that efficiently maps vast numbers of
+		(scalar-valued) signals into an aggregate density forecast in a
 		time-varying and computationally fast manner. The method
 		proceeds in two steps: First, it transforms a predictive signal
-		into a density forecast. Second, it combines the generated
-		candidate density forecasts into an ultimate density forecast.
-		The methods are explained in detail in Adaemmer et al. (2023)
-		doi:10.2139/ssrn.4342487.
+		into a density forecast and, second, it combines the resulting
+		candidate density forecasts into an ultimate aggregate density
+		forecast. For a detailed explanation of the method, please
+		refer to Adaemmer et al. (2023) doi:10.2139/ssrn.4342487.
 	</longdescription>
 </pkgmetadata>

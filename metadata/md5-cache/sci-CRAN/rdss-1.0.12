@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/readr sci-CRAN/randomizr >=sci-CRAN/rlang-1.0.0 sci-CRAN/ggplot2 sci-CRAN/purrr sci-CRAN/estimatr sci-CRAN/dplyr sci-CRAN/generics sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/dataverse sci-CRAN/broom sci-CRAN/marginaleffects dev-lang/R:=
+DESCRIPTION=Companion Datasets and Functions... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_broom_mixed r_suggests_causalqueries r_suggests_cjoint r_suggests_curl r_suggests_declaredesign r_suggests_didmultiplegt r_suggests_grf r_suggests_lme4 r_suggests_metafor r_suggests_rdrobust r_suggests_rstanarm r_suggests_spdep r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/readr sci-CRAN/randomizr >=sci-CRAN/rlang-1.0.0 sci-CRAN/ggplot2 sci-CRAN/purrr sci-CRAN/estimatr sci-CRAN/dplyr sci-CRAN/generics sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/dataverse sci-CRAN/broom sci-CRAN/marginaleffects r_suggests_broom_mixed? ( sci-CRAN/broom_mixed ) r_suggests_causalqueries? ( sci-CRAN/CausalQueries ) r_suggests_cjoint? ( sci-CRAN/cjoint ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_declaredesign? ( sci-CRAN/DeclareDesign ) r_suggests_didmultiplegt? ( sci-CRAN/DIDmultiplegt ) r_suggests_grf? ( sci-CRAN/grf ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_metafor? ( sci-CRAN/metafor ) r_suggests_rdrobust? ( sci-CRAN/rdrobust ) r_suggests_rstanarm? ( sci-CRAN/rstanarm ) r_suggests_spdep? ( sci-CRAN/spdep ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rdss_1.0.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=730254fc04ff08f5619528ac8c0d5455
