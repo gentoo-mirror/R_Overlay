@@ -2,26 +2,26 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tools to Standardize Phytoplankton Taxonomic Data and Perform
-		Functional Group Classifications // Functions that facilitate
-		the use of accepted taxonomic nomenclature, collection of
-		functional trait data, and assignment of functional group
-		classifications to phytoplankton species. Possible
-		classifications include Morpho-functional group (MFG; Salmaso
-		et al. 2015 doi:10.1111/fwb.12520) and CSR (Reynolds 1988;
-		Functional morphology and the adaptive strategies of
-		phytoplankton. In C.D. Sandgren (ed). Growth and reproductive
-		strategies of freshwater phytoplankton, 388-433. Cambridge
-		University Press, New York). Versions 2.0.0 and later includes
-		new functions for querying the algaebase online taxonomic
-		database (www.algaebase.org), however these functions require a
-		valid API key that must be acquired from the algaebase admin.
-		Note that none of the algaeClassify authors are affiliated with
+		Tools to Query the Algaebase Online Database, Standardize
+		Phytoplankton Taxonomic Data, and Perform Functional Group
+		Classifications // Functions that facilitate the use of
+		accepted taxonomic nomenclature, collection of functional trait
+		data, and assignment of functional group classifications to
+		phytoplankton species. Possible classifications include Morpho-
+		functional group (MFG; Salmaso et al. 2015
+		doi:10.1111/fwb.12520) and CSR (Reynolds 1988; Functional
+		morphology and the adaptive strategies of phytoplankton. In
+		C.D. Sandgren (ed). Growth and reproductive strategies of
+		freshwater phytoplankton, 388-433. Cambridge University Press,
+		New York). Versions 2.0.0 and later includes new functions for
+		querying the algaebase online taxonomic database
+		(www.algaebase.org), however these functions require a valid
+		API key that must be acquired from the algaebase admin. Note
+		that none of the algaeClassify authors are affiliated with
 		algaebase in any way. Taxonomic names can also be checked
-		against a variety of taxonomic databases using the geographic
-		name resolution service (GNRS) via wrapper functions for the
-		taxize package, with convenient output format and unlikely
-		names for phytoplankton taxa removed. In addition, currently
+		against a variety of taxonomic databases using the Global Names
+		Resolver service via its API
+		(https://resolver.globalnames.org/api). In addition, currently
 		accepted and outdated synonyms, and higher taxonomy, can be
 		extracted for lists of species from the ITIS database using
 		wrapper functions for the ritis package. The algaeClassify

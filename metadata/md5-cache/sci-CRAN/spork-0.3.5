@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/latexpdf sci-CRAN/png sci-CRAN/kableExtra dev-lang/R:=
+DESCRIPTION=Generalized Label Formatting
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_magrittr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/latexpdf sci-CRAN/png sci-CRAN/kableExtra r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spork_0.3.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4063e3f06342455d31ae0291ee772b98

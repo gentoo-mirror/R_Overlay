@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Penalized Linear Mixed Models for Correlated Data // Fits
+		penalized linear mixed models that correct for unobserved
+		confounding factors. 'plmmr' infers and corrects for the
+		presence of unobserved confounding effects such as population
+		stratification and environmental heterogeneity. It then fits a
+		linear model via penalized maximum likelihood. Originally
+		designed for the multivariate analysis of single nucleotide
+		polymorphisms (SNPs) measured in a genome-wide association
+		study (GWAS), 'plmmr' eliminates the need for subpopulation-
+		specific analyses and post-analysis p-value adjustments.
+		Functions for the appropriate processing of 'PLINK' files are
+		also supplied. For examples, see the package homepage.
+		https://pbreheny.github.io/plmmr/.
+	</longdescription>
+</pkgmetadata>

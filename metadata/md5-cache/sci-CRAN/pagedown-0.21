@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/websocket >=dev-lang/R-3.5.0 >=sci-CRAN/bookdown-0.8 sci-CRAN/jsonlite >=sci-CRAN/rmarkdown-2.13 sci-CRAN/htmltools >=sci-CRAN/later-1.0.0 sci-CRAN/processx >=sci-CRAN/servr-0.31 sci-CRAN/httpuv sci-CRAN/xfun dev-lang/R:=
+DESCRIPTION=Paginate the HTML Output of R Ma... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_pdftools r_suggests_promises r_suggests_revealjs r_suggests_testit r_suggests_xaringan r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/websocket >=dev-lang/R-3.5.0 >=sci-CRAN/bookdown-0.8 sci-CRAN/jsonlite >=sci-CRAN/rmarkdown-2.13 sci-CRAN/htmltools >=sci-CRAN/later-1.0.0 sci-CRAN/processx >=sci-CRAN/servr-0.31 sci-CRAN/httpuv sci-CRAN/xfun app-text/pandoc r_suggests_covr? ( sci-CRAN/covr ) r_suggests_pdftools? ( sci-CRAN/pdftools ) r_suggests_promises? ( sci-CRAN/promises ) r_suggests_revealjs? ( sci-CRAN/revealjs ) r_suggests_testit? ( sci-CRAN/testit ) r_suggests_xaringan? ( sci-CRAN/xaringan ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pagedown_0.21.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7b319f82cc24cf7afc24b69690b9aeb9
