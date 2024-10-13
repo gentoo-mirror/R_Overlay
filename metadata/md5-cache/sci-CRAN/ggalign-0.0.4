@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-3.3.0 sci-CRAN/data_table sci-CRAN/gtable >=sci-CRAN/rlang-1.1.0 sci-CRAN/cli sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=A ggplot2 Extension for Consistent Axis Alignment
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_ggrastr r_suggests_gridgraphics r_suggests_knitr r_suggests_patchwork r_suggests_ragg r_suggests_rmarkdown r_suggests_scales r_suggests_seriation r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/ggplot2-3.3.0 sci-CRAN/data_table sci-CRAN/gtable >=sci-CRAN/rlang-1.1.0 sci-CRAN/cli sci-CRAN/vctrs r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_ggrastr? ( sci-CRAN/ggrastr ) r_suggests_gridgraphics? ( sci-CRAN/gridGraphics ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_ragg? ( sci-CRAN/ragg ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_seriation? ( sci-CRAN/seriation ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggalign_0.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=669c1c82dce32d12291e434a278b327c
