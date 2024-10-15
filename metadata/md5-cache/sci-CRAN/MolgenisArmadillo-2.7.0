@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/httr2 >=sci-CRAN/MolgenisAuth-0.0.25 sci-CRAN/rlist sci-CRAN/httr >=dev-lang/R-3.6 sci-CRAN/arrow sci-CRAN/readr sci-CRAN/urltools sci-CRAN/base64enc sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Armadillo Client for the Armadillo Service
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mockery r_suggests_rmarkdown r_suggests_stringi r_suggests_testthat r_suggests_webmockr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1+
+RDEPEND=sci-CRAN/tibble sci-CRAN/httr2 >=sci-CRAN/MolgenisAuth-0.0.25 sci-CRAN/rlist sci-CRAN/httr >=dev-lang/R-3.6 sci-CRAN/arrow sci-CRAN/readr sci-CRAN/urltools sci-CRAN/base64enc sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/cli r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringi? ( sci-CRAN/stringi ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_webmockr? ( sci-CRAN/webmockr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MolgenisArmadillo_2.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=674c67eb79aa9b681a9b5e12ebb53c98

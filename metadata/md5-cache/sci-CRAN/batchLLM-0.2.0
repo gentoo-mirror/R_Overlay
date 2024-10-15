@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shinyWidgets sci-CRAN/shinydashboard sci-CRAN/readr sci-CRAN/readxl sci-CRAN/jsonlite sci-CRAN/httr sci-CRAN/shinyjs sci-CRAN/openai sci-CRAN/gemini_R sci-CRAN/rlang sci-CRAN/digest sci-CRAN/dplyr sci-CRAN/spsComps sci-CRAN/shiny sci-CRAN/DT dev-lang/R:=
+DESCRIPTION=Batch Process LLM Text Completio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/shinyWidgets sci-CRAN/shinydashboard sci-CRAN/readr sci-CRAN/readxl sci-CRAN/jsonlite sci-CRAN/httr sci-CRAN/shinyjs sci-CRAN/openai sci-CRAN/gemini_R sci-CRAN/rlang sci-CRAN/digest sci-CRAN/dplyr sci-CRAN/spsComps sci-CRAN/shiny sci-CRAN/DT dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/batchLLM_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=58433d1bdf453dd95ec392d21a243b83

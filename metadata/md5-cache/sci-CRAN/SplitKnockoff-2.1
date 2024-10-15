@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/MASS sci-CRAN/glmnet sci-CRAN/RSpectra sci-CRAN/latex2exp sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Split Knockoffs for Structural Sparsity
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 virtual/MASS sci-CRAN/glmnet sci-CRAN/RSpectra sci-CRAN/latex2exp sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/mvtnorm r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SplitKnockoff_2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=96bec5e418ae769e644f3861d7ae5960

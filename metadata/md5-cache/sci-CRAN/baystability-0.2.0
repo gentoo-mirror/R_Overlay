@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1 sci-CRAN/dplyr virtual/MASS sci-CRAN/lme4 sci-CRAN/ggplot2 sci-CRAN/rstiefel sci-CRAN/rlang sci-CRAN/scales sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Bayesian Stability Analysis of G... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.1 sci-CRAN/dplyr virtual/MASS sci-CRAN/lme4 sci-CRAN/ggplot2 sci-CRAN/rstiefel sci-CRAN/rlang sci-CRAN/scales sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/baystability_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c2da055058ceb11b6b32e38d70276ff6

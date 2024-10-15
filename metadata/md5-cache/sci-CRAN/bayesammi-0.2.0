@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/scales sci-CRAN/tidyr >=dev-lang/R-3.1 sci-CRAN/lme4 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/magrittr virtual/MASS sci-CRAN/mvtnorm sci-CRAN/rlang sci-CRAN/rstiefel sci-CRAN/tibble sci-CRAN/tmvtnorm dev-lang/R:=
+DESCRIPTION=Bayesian Estimation of the Addit... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/scales sci-CRAN/tidyr >=dev-lang/R-3.1 sci-CRAN/lme4 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/magrittr virtual/MASS sci-CRAN/mvtnorm sci-CRAN/rlang sci-CRAN/rstiefel sci-CRAN/tibble sci-CRAN/tmvtnorm dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bayesammi_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a92591dab7b781ef624675b9ecd9593a
