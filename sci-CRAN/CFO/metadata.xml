@@ -12,8 +12,8 @@
 		package facilitates the implementation of dose-finding trials
 		by utilizing calibration-free odds type (CFO-type) designs.
 		Specifically, it encompasses the calibration-free odds (CFO)
-		(Jin and Yin (2022) doi:10.1177/09622802221079353), two-
-		dimensional CFO (2dCFO) (Wang et al. (2023)
+		(Jin and Yin (2022) doi:10.1177/09622802221079353), randomized
+		CFO (rCFO), two-dimensional CFO (2dCFO) (Wang et al. (2023)
 		doi:10.3389/fonc.2023.1294258), time-to-event CFO (TITE-CFO)
 		(Jin and Yin (2023) doi:10.1002/pst.2304), fractional CFO
 		(fCFO), accumulative CFO (aCFO), TITE-aCFO, and f-aCFO designs
@@ -33,6 +33,7 @@
 		choose different distributions, thresholds, and cohort sizes
 		among others for their specific needs. The output of the 'CFO'
 		package can be summary statistics as well as various plots for
-		better visualization.
+		better visualization. An interactive web application for CFO is
+		available at the provided URL.
 	</longdescription>
 </pkgmetadata>

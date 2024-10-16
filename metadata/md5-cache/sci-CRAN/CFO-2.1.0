@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/Iso sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/pbapply sci-CRAN/RColorBrewer sci-CRAN/scales dev-lang/R:=
+DESCRIPTION=CFO-Type Designs in Phase I/II Clinical Trials
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/survival sci-CRAN/Iso sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/pbapply sci-CRAN/RColorBrewer sci-CRAN/scales dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CFO_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=21542ef458f9eb52684e2630e3d2a126

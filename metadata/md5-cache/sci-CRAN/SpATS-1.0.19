@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fields sci-CRAN/data_table sci-CRAN/spam dev-lang/R:=
+DESCRIPTION=Spatial Analysis of Field Trials with Splines
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/fields sci-CRAN/data_table sci-CRAN/spam dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SpATS_1.0-19.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d03f1654d7d88b1d3971c3ffabee5efb
