@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Microbiome Analysis Tools // We provide functions for identifying
+		the core community phylogeny in any microbiome, drawing
+		phylogenetic Venn diagrams, calculating the core Faiths PD for
+		a set of communities, and calculating the core UniFrac distance
+		between two sets of communities. All functions rely on
+		construction of a core community phylogeny, which is a
+		phylogeny where branches are defined based on their presence in
+		multiple samples from a single type of habitat. Our package
+		provides two options for constructing the core community
+		phylogeny, a tip-based approach, where the core community
+		phylogeny is identified based on incidence of leaf nodes and a
+		branch-based approach, where the core community phylogeny is
+		identified based on incidence of individual branches. We
+		suggest use of the microViz package, which can be downloaded
+		from the website provided under Additional repositories.
+	</longdescription>
+</pkgmetadata>

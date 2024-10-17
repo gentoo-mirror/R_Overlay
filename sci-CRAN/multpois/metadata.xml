@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analyze Nominal Response Data with the Multinomial-Poisson Trick
+		// Dichotomous responses having two categories can be analyzed
+		with stats::glm() or lme4::glmer() using the family=binomial
+		option. Unfortunately, polytomous responses with three or more
+		unordered categories cannot be analyzed similarly because there
+		is no analogous family=multinomial option. For between-subjects
+		data, nnet::multinom() can address this need, but it cannot
+		handle random factors and therefore cannot handle repeated
+		measures. To address this gap, we implement the multinomial-
+		Poisson trick (Baker 1994) doi:10.2307/2348134, which
+		transforms nominal response data into counts for each
+		categorical alternative. These counts are then analyzed using
+		(mixed) Poisson regression. Omnibus analyses of variance can be
+		run along with post hoc pairwise comparisons. For users wishing
+		to analyze nominal responses from surveys or experiments, the
+		functions in this package essentially act as though
+		stats::glm() or lme4::glmer() had a family=multinomial option.
+	</longdescription>
+</pkgmetadata>

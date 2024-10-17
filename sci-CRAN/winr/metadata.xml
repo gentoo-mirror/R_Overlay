@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Randomization-Based Covariance Adjustment of Win Statistics // A
+		multi-visit clinical trial may collect participant responses on
+		an ordinal scale and may utilize a stratified design, such as
+		randomization within centers, to assess treatment efficacy
+		across multiple visits. Baseline characteristics may be
+		strongly associated with the outcome, and adjustment for them
+		can improve power. The win ratio (ignores ties) and the win
+		odds (accounts for ties) can be useful when analyzing these
+		types of data from randomized controlled trials. This package
+		provides straightforward functions for adjustment of the win
+		ratio and win odds for stratification and baseline covariates,
+		facilitating the comparison of test and control treatments in
+		multi-visit clinical trials. For additional information
+		concerning the methodologies and applied examples within this
+		package, please refer to the following publications: 1.
+		Weideman, A.M.K., Kowalewski, E.K.,  Koch, G.G. (2024).
+		Randomization-based covariance adjustment of win ratios and win
+		odds for  randomized multi-visit studies with ordinal outcomes.
+		Journal of Statistical Research, 58(1), 3348.
+		doi:10.3329/jsr.v58i1.75411. 2. Kowalewski, E.K., Weideman,
+		A.M.K.,  Koch, G.G. (2023). SAS macro for randomization-based
+		methods for covariance and stratified adjustment  of win ratios
+		and win odds for ordinal outcomes. SESUG 2023 Proceedings,
+		Paper 139-2023.
+	</longdescription>
+</pkgmetadata>
