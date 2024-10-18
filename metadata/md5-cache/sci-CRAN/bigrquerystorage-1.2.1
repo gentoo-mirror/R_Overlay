@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/nanoarrow-0.6.0 sci-CRAN/rlang sci-CRAN/lifecycle sci-CRAN/assertthat sci-CRAN/Rcpp sci-CRAN/bit64 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=An Interface to Googles BigQuery Storage API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_base64enc r_suggests_bigrquery r_suggests_blob r_suggests_hms r_suggests_testthat r_suggests_tzdb r_suggests_wk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=sci-CRAN/nanoarrow-0.6.0 sci-CRAN/rlang sci-CRAN/lifecycle sci-CRAN/assertthat sci-CRAN/Rcpp sci-CRAN/bit64 sci-CRAN/tibble sci-CRAN/Rcpp r_suggests_base64enc? ( sci-CRAN/base64enc ) r_suggests_bigrquery? ( sci-CRAN/bigrquery ) r_suggests_blob? ( sci-CRAN/blob ) r_suggests_hms? ( sci-CRAN/hms ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tzdb? ( sci-CRAN/tzdb ) r_suggests_wk? ( >=sci-CRAN/wk-0.3.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bigrquerystorage_1.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3a4df0e1a29a0fde3f76ee39e1d5b827

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/httr >=sci-CRAN/purrr-1.0.0 sci-CRAN/sf sci-CRAN/stringr sci-CRAN/cli sci-CRAN/units sci-CRAN/vctrs sci-CRAN/memoise sci-CRAN/xml2 sci-CRAN/curl sci-CRAN/cachem sci-CRAN/tidyr sci-CRAN/assertthat sci-CRAN/jsonlite >=sci-CRAN/dplyr-1.0.0 sci-CRAN/glue sci-CRAN/lubridate sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Access to Spanish Meteorological Stations Services
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggforce r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/httr >=sci-CRAN/purrr-1.0.0 sci-CRAN/sf sci-CRAN/stringr sci-CRAN/cli sci-CRAN/units sci-CRAN/vctrs sci-CRAN/memoise sci-CRAN/xml2 sci-CRAN/curl sci-CRAN/cachem sci-CRAN/tidyr sci-CRAN/assertthat sci-CRAN/jsonlite >=sci-CRAN/dplyr-1.0.0 sci-CRAN/glue sci-CRAN/lubridate sci-CRAN/rlang r_suggests_ggforce? ( sci-CRAN/ggforce ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/meteospain_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=53bb2de085fff14c5ba6435fc25698bb

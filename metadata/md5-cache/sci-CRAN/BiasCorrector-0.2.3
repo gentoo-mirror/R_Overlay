@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DT sci-CRAN/data_table sci-CRAN/shiny >=sci-CRAN/rBiasCorrection-0.3.4 sci-CRAN/magrittr sci-CRAN/shinydashboard sci-CRAN/shinyjs dev-lang/R:=
+DESCRIPTION=A GUI to Correct Measurement Bia... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lintr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/DT sci-CRAN/data_table sci-CRAN/shiny >=sci-CRAN/rBiasCorrection-0.3.4 sci-CRAN/magrittr sci-CRAN/shinydashboard sci-CRAN/shinyjs r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BiasCorrector_0.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bab0c722976ae2e809e1a8587dd673c6
