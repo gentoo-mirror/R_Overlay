@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Solve Least Squares with GMRES(k) // Solves a least squares
+		system Ax~=b (dim(A)=(m,n) with m = n) with a precondition
+		matrix B: BAx=Bb (dim(B)=(n,m)). Implemented method is based on
+		GMRES (Saad, Youcef; Schultz, Martin H. (1986). "GMRES: A
+		Generalized Minimal Residual Algorithm for Solving Nonsymmetric
+		Linear Systems" doi:10.1137/0907058) with callback functions,
+		i.e. no explicit A, B or b are required.
+	</longdescription>
+</pkgmetadata>

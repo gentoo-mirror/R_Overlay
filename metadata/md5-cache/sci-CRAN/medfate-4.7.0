@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/ggplot2-3.0.0 >=sci-CRAN/meteoland-2.0.0 sci-CRAN/shiny >=sci-CRAN/Rcpp-1.0.6 dev-lang/R:=
+DESCRIPTION=Mediterranean Forest Simulation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2+ LGPL-3+ )
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/ggplot2-3.0.0 >=sci-CRAN/meteoland-2.0.0 sci-CRAN/shiny >=sci-CRAN/Rcpp-1.0.6 sci-CRAN/Rcpp sci-CRAN/meteoland r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/medfate_4.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e0fd6c975353936c8e204121f6928564
