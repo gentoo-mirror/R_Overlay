@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=A Collection of Database, Data S... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_rsqlite byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=r_suggests_mass? ( virtual/MASS ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/caroline_0.9.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7ac9b1917722d954af77d41b478382dd
