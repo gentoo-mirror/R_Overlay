@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/KernSmooth virtual/MASS sci-CRAN/sp dev-lang/R:=
+DESCRIPTION=Bivariate (Two-Dimensional) Conf... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lattice byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/KernSmooth virtual/MASS sci-CRAN/sp r_suggests_lattice? ( virtual/lattice ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/r2d2_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9ddad36a6bb8fb65a46c9785d6023e14
