@@ -3,16 +3,20 @@
 <pkgmetadata>
 	<longdescription>
 		Methods for Analyzing Multiple Response Categorical Variables
-		(MRCVs) // The MRCV package provides functions for analyzing
-		the association between one single response categorical
-		variable (SRCV) and one multiple response categorical variable
-		(MRCV), or between two or three MRCVs.  A modified Pearson chi-
-		square statistic can be used to test for marginal independence
-		for the one or two MRCV case, or a more general loglinear
-		modeling approach can be used to examine various other
-		structures of association for the two or three MRCV case.
-		Bootstrap- and asymptotic-based standardized residuals and
-		model-predicted odds ratios are available, in addition to other
-		descriptive information.
+		(MRCVs) // Provides functions for analyzing the association
+		between one single response categorical variable (SRCV) and one
+		multiple response categorical variable (MRCV), or between two
+		or three MRCVs.  A modified Pearson chi-square statistic can be
+		used to test for marginal independence for the one or two MRCV
+		case, or a more general loglinear modeling approach can be used
+		to examine various other structures of association for the two
+		or three MRCV case.  Bootstrap- and asymptotic-based
+		standardized residuals and model-predicted odds ratios are
+		available, in addition to other descriptive information.
+		Statisical methods implemented are described in Bilder et al.
+		(2000) doi:10.1080/03610910008813665, Bilder and Loughin (2004)
+		doi:10.1111/j.0006-341X.2004.00147.x, Bilder and Loughin (2007)
+		doi:10.1080/03610920600974419, and Koziol and Bilder (2014)
+		https://journal.r-project.org/articles/RJ-2014-014/.
 	</longdescription>
 </pkgmetadata>

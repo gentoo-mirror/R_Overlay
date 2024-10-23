@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/kohonen >=dev-lang/R-3.5 sci-CRAN/igraph virtual/class sci-CRAN/umap >=sci-CRAN/Thresher-1.1 virtual/KernSmooth virtual/cluster sci-CRAN/Rtsne sci-CRAN/dendextend sci-CRAN/flexmix sci-CRAN/Polychrome dev-lang/R:=
+DESCRIPTION=Clustering and Visualizing Distance Matrices
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=sci-CRAN/kohonen >=dev-lang/R-3.5 sci-CRAN/igraph virtual/class sci-CRAN/umap >=sci-CRAN/Thresher-1.1 virtual/KernSmooth virtual/cluster sci-CRAN/Rtsne sci-CRAN/dendextend sci-CRAN/flexmix sci-CRAN/Polychrome r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Mercator_1.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3e6b793dae66e6889e1adb94d617d16f

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sf sci-CRAN/spdep virtual/spatial sci-CRAN/ggplot2 >=dev-lang/R-3.5.0 virtual/spatial sci-CRAN/sp sci-CRAN/rlang sci-CRAN/performance sci-CRAN/dplyr sci-CRAN/NbClust dev-lang/R:=
+DESCRIPTION=Spatially-Clustered Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/sf sci-CRAN/spdep virtual/spatial sci-CRAN/ggplot2 >=dev-lang/R-3.5.0 virtual/spatial sci-CRAN/sp sci-CRAN/rlang sci-CRAN/performance sci-CRAN/dplyr sci-CRAN/NbClust r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SCDA_0.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b49e71085be709df4aec39aa0e25f4b2

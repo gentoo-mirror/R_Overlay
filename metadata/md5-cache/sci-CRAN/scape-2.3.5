@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Hmisc virtual/lattice sci-CRAN/coda dev-lang/R:=
+DESCRIPTION=Statistical Catch-at-Age Plotting Environment
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gdata byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/Hmisc virtual/lattice sci-CRAN/coda r_suggests_gdata? ( sci-CRAN/gdata ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/scape_2.3.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8c199ebc5fe1cc3b31ceb2786e76181b

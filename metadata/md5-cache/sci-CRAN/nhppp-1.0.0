@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lifecycle sci-CRAN/rstream >=sci-CRAN/Rcpp-1.0.12 dev-lang/R:=
+DESCRIPTION=Simulating Nonhomogeneous Poisson Point Processes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_knitr r_suggests_rlecuyer r_suggests_rmarkdown r_suggests_testthat r_suggests_tictoc r_suggests_truncnorm r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/lifecycle sci-CRAN/rstream >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/Rcpp r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rlecuyer? ( sci-CRAN/rlecuyer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tictoc? ( sci-CRAN/tictoc ) r_suggests_truncnorm? ( sci-CRAN/truncnorm ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nhppp_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c62091e322fc98e5fdbbd7573c7b8ff3

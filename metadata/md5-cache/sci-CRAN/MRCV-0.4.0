@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.4.0 sci-CRAN/tables dev-lang/R:=
+DESCRIPTION=Methods for Analyzing Multiple R... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geepack byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.4.0 sci-CRAN/tables r_suggests_geepack? ( sci-CRAN/geepack ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MRCV_0.4-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=569d4a142e01aba30a150acad6c4d785

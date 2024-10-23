@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/png >=sci-CRAN/sf-0.9.5 sci-CRAN/digest sci-CRAN/curl sci-CRAN/terra sci-CRAN/slippymath dev-lang/R:=
+DESCRIPTION=Download and Display Map Tiles
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/png >=sci-CRAN/sf-0.9.5 sci-CRAN/digest sci-CRAN/curl sci-CRAN/terra sci-CRAN/slippymath r_suggests_covr? ( sci-CRAN/covr ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/maptiles_0.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a6eef172ee840a137c6b6fa220c82cb4
