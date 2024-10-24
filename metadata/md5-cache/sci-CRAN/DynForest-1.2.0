@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lcmm sci-CRAN/pec sci-CRAN/zoo sci-CRAN/prodlim sci-CRAN/pbapply sci-CRAN/DescTools >=dev-lang/R-4.4.0 sci-CRAN/cmprsk sci-CRAN/doParallel sci-CRAN/cli sci-CRAN/doRNG sci-CRAN/foreach sci-CRAN/ggplot2 virtual/survival sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Random Forest with Multivariate ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3+
+RDEPEND=sci-CRAN/lcmm sci-CRAN/pec sci-CRAN/zoo sci-CRAN/prodlim sci-CRAN/pbapply sci-CRAN/DescTools >=dev-lang/R-4.4.0 sci-CRAN/cmprsk sci-CRAN/doParallel sci-CRAN/cli sci-CRAN/doRNG sci-CRAN/foreach sci-CRAN/ggplot2 virtual/survival sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DynForest_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9fca02b9389634899cff055f7ced3773

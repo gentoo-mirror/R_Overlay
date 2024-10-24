@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/cowplot sci-CRAN/doParallel sci-CRAN/foreach >=dev-lang/R-3.4.0 sci-CRAN/magrittr sci-CRAN/gridExtra >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/rstan-2.26.0 >=sci-CRAN/rstantools-2.1.1 sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/odeGUTS dev-lang/R:=
+DESCRIPTION=General Unified Threshold Model ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/cowplot sci-CRAN/doParallel sci-CRAN/foreach >=dev-lang/R-3.4.0 sci-CRAN/magrittr sci-CRAN/gridExtra >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/rstan-2.26.0 >=sci-CRAN/rstantools-2.1.1 sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/odeGUTS >=sci-CRAN/BH-1.66.0 >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/RcppEigen-0.3.3.3.0 >=sci-CRAN/rstan-2.26.0 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BeeGUTS_1.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dcfec1c184d8785cfa616cb7c5f71078
