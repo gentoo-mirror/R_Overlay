@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/tsmethods sci-CRAN/data_table sci-CRAN/Rdpack sci-CRAN/flextable sci-CRAN/car sci-CRAN/ks sci-CRAN/xts dev-lang/R:=
+DESCRIPTION=Time Series Goodness of Fit and ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_sandwich r_suggests_testthat r_suggests_tsdistributions r_suggests_tsgarch byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/tsmethods sci-CRAN/data_table sci-CRAN/Rdpack sci-CRAN/flextable sci-CRAN/car sci-CRAN/ks sci-CRAN/xts r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tsdistributions? ( sci-CRAN/tsdistributions ) r_suggests_tsgarch? ( sci-CRAN/tsgarch ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tstests_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fef2ff232a1a8eaf13bb2e0b1c08a3f5
