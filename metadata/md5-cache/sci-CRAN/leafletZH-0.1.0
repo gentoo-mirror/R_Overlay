@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/geojsonsf sci-CRAN/htmltools sci-CRAN/htmlwidgets sci-CRAN/leaflet sci-CRAN/leaflet_extras sci-CRAN/sf sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Adds a Chinese Choropleth Leaflet Map
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/geojsonsf sci-CRAN/htmltools sci-CRAN/htmlwidgets sci-CRAN/leaflet sci-CRAN/leaflet_extras sci-CRAN/sf sci-CRAN/stringr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/leafletZH_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9969790a4340b26a63ee6cd3da5e2ee1

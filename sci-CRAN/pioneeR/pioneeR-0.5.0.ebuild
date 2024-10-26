@@ -1,0 +1,39 @@
+# Copyright 1999-2024 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Productivity and Efficiency Analysis using DEA'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/pioneeR_0.5.0.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_dear r_suggests_knitr r_suggests_rmarkdown
+	r_suggests_testthat r_suggests_tibble r_suggests_withr"
+R_SUGGESTS="
+	r_suggests_dear? ( sci-CRAN/deaR )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+	r_suggests_tibble? ( sci-CRAN/tibble )
+	r_suggests_withr? ( sci-CRAN/withr )
+"
+DEPEND=">=sci-CRAN/haven-2.5.0
+	sci-CRAN/markdown
+	sci-CRAN/htmltools
+	>=sci-CRAN/rlang-1.1.0
+	sci-CRAN/scales
+	>=dev-lang/R-4.1.0
+	>=sci-CRAN/reactable-0.4.0
+	sci-CRAN/writexl
+	>=sci-CRAN/bslib-0.6.0
+	sci-CRAN/bsicons
+	>=sci-CRAN/cli-3.6.0
+	>=sci-CRAN/shiny-1.7.0
+	>=sci-CRAN/ggplot2-3.3.0
+	>=sci-CRAN/lpSolveAPI-5.5.2
+	sci-CRAN/readxl
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

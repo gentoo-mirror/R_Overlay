@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Graphical Evidence // Computes marginal likelihood in Gaussian
+		graphical models through a novel telescoping block
+		decomposition of the precision matrix which allows estimation
+		of model evidence. The top level function used to estimate
+		marginal likelihood is called evidence, which expects the prior
+		name, data, and relevant prior specific parameters. This
+		package also provides an MCMC prior sampler using the same
+		underlying approach, implemented in prior_sampling, which
+		expects a prior name and prior specific parameters. Both
+		functions also expect the number of burn-in iterations and the
+		number of sampling iterations for the underlying MCMC sampler.
+	</longdescription>
+</pkgmetadata>

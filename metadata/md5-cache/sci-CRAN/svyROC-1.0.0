@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/survey sci-CRAN/svyVarSel dev-lang/R:=
+DESCRIPTION=Estimation of the ROC Curve and ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/survey sci-CRAN/svyVarSel dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/svyROC_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4baca25033954c2e16dbf3b1f21f5187
