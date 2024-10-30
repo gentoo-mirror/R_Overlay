@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.4 sci-CRAN/Rcpp sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Tools for Interactive Data Exploration
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_blorr r_suggests_data_table r_suggests_descriptr r_suggests_dt r_suggests_haven r_suggests_highcharter r_suggests_jsonlite r_suggests_magrittr r_suggests_olsrr r_suggests_plotly r_suggests_readr r_suggests_readxl r_suggests_rfm r_suggests_shinybs r_suggests_shinycssloaders r_suggests_standby r_suggests_vistributions byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.2.4 sci-CRAN/Rcpp sci-CRAN/shiny sci-CRAN/Rcpp r_suggests_blorr? ( sci-CRAN/blorr ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_descriptr? ( sci-CRAN/descriptr ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_haven? ( sci-CRAN/haven ) r_suggests_highcharter? ( sci-CRAN/highcharter ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_olsrr? ( sci-CRAN/olsrr ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rfm? ( sci-CRAN/rfm ) r_suggests_shinybs? ( sci-CRAN/shinyBS ) r_suggests_shinycssloaders? ( sci-CRAN/shinycssloaders ) r_suggests_standby? ( sci-CRAN/standby ) r_suggests_vistributions? ( sci-CRAN/vistributions ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/xplorerr_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fdf0c3606ecd0b5fcf9bc2b1b89b409b
