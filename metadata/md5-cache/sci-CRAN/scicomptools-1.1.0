@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/tidyxl sci-CRAN/ggwordcloud sci-CRAN/SemNetCleaner sci-CRAN/readxl sci-CRAN/tidytext sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/chromote sci-CRAN/gitcreds sci-CRAN/data_tree sci-CRAN/googledrive sci-CRAN/ggplot2 sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Tools Developed by the NCEAS Sci... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ecodist r_suggests_knitr r_suggests_lme4 r_suggests_lmertest r_suggests_nlme r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/tidyxl sci-CRAN/ggwordcloud sci-CRAN/SemNetCleaner sci-CRAN/readxl sci-CRAN/tidytext sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/chromote sci-CRAN/gitcreds sci-CRAN/data_tree sci-CRAN/googledrive sci-CRAN/ggplot2 sci-CRAN/dplyr r_suggests_ecodist? ( sci-CRAN/ecodist ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_lmertest? ( sci-CRAN/lmerTest ) r_suggests_nlme? ( virtual/nlme ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/scicomptools_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3b2bc30c369d1c2f2389bd63ad27cdb2

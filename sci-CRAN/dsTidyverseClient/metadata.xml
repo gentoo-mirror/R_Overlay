@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'DataSHIELD' 'Tidyverse' Clientside Package // Implementation of
+		selected 'Tidyverse' functions within 'DataSHIELD', an open-
+		source federated analysis solution in R. Currently,
+		'DataSHIELD' contains very limited tools for data manipulation,
+		so the aim of this package is to improve the researcher
+		experience by implementing essential functions for data
+		manipulation, including subsetting, filtering, grouping, and
+		renaming variables. This is the clientside package which should
+		be installed locally, and is used in conjuncture with the
+		serverside package 'dsTidyverse' which is installed on the
+		remote server holding the data. For more information, see
+		https://www.tidyverse.org/, https://datashield.org/ and
+		https://github.com/molgenis/ds-tidyverse.
+	</longdescription>
+</pkgmetadata>
