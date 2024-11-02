@@ -2,15 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Regression Model on Network-Linked Data with Statistical
-		Inference // Linear regression model with nonparametric network
-		effects on network-linked observations. The model is proposed
-		by Le and Li (2022) arXiv:2007.00803 and is assumed on
-		observations that are connected by a network or similar
-		relational data structure. The model does not assume that the
-		relational data or network structure to be precisely observed;
-		thus, the method is provably robust to a certain level of
-		perturbation of the network structure. The package contains the
-		estimation and inference function for the model.
+		Generalized Linear Regression Models on Network-Linked Data with
+		Statistical Inference // Linear regression model and
+		generalized linear models with nonparametric network effects on
+		network-linked observations. The model is originally proposed
+		by Le and Li (2022) doi:10.48550/arXiv.2007.00803 and is
+		assumed on observations that are connected by a network or
+		similar relational data structure. A more recent work by Wang,
+		Le and Li (2024) doi:10.48550/arXiv.2410.01163 further extends
+		the framework to generalized linear models. All these models
+		are implemented in the current package. The model does not
+		assume that the relational data or network structure to be
+		precisely observed; thus, the method is provably robust to a
+		certain level of perturbation of the network structure. The
+		package contains the estimation and inference function for the
+		model.
 	</longdescription>
 </pkgmetadata>
