@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Confusion Matrix // Thematic quality indices are provided to
+		facilitate the evaluation and quality control of geospatial
+		data products (e.g. thematic maps, remote sensing
+		classifications, etc.). The indices offered are based on the
+		so-called confusion matrix. This matrix is constructed by
+		comparing the assigned classes or attributes of a set of pairs
+		of positions or objects in the product and the ground truth. In
+		this package it is considered that the classes of the ground
+		truth correspond to the columns and that the classes of the
+		product to be valued correspond to the rows. The package offers
+		two object classes with their methods: 'ConfMatrix' (Confusion
+		matrix) and 'QCCS' (Quality Control Columns Set). The
+		'ConfMatrix' class of objects offers more than 20 methods based
+		on the confusion matrix. The 'QCCS' class of objects offers a
+		different perspective in which the ground truth is considered
+		to allow the values of the column marginals to be fixed, see
+		Ariza Lpez et al. (2019) doi:10.3390/app9204240 and Canran Liu
+		et al. (2007) doi:10.1016/j.rse.2006.10.010 for more details.
+		The package was created with 'R6'.
+	</longdescription>
+</pkgmetadata>

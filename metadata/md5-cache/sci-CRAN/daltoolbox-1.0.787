@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/dbscan sci-CRAN/ggplot2 sci-CRAN/tree sci-CRAN/randomForest sci-CRAN/reticulate virtual/nnet sci-CRAN/FNN virtual/cluster virtual/class sci-CRAN/MLmetrics sci-CRAN/caret sci-CRAN/e1071 sci-CRAN/reshape sci-CRAN/elmNNRcpp sci-CRAN/forecast dev-lang/R:=
+DESCRIPTION=Leveraging Experiment Lines to Data Analytics
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/dbscan sci-CRAN/ggplot2 sci-CRAN/tree sci-CRAN/randomForest sci-CRAN/reticulate virtual/nnet sci-CRAN/FNN virtual/cluster virtual/class sci-CRAN/MLmetrics sci-CRAN/caret sci-CRAN/e1071 sci-CRAN/reshape sci-CRAN/elmNNRcpp sci-CRAN/forecast dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/daltoolbox_1.0.787.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b5d98bbda28b07fea07121fe1ba30d8b

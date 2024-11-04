@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/magrittr sci-CRAN/hutils sci-CRAN/data_table dev-lang/R:=
+DESCRIPTION=Miscellaneous Functions in C++
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bench r_suggests_covr r_suggests_texcheckr r_suggests_tinytest r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/magrittr sci-CRAN/hutils sci-CRAN/data_table r_suggests_bench? ( sci-CRAN/bench ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_texcheckr? ( sci-CRAN/TeXCheckR ) r_suggests_tinytest? ( sci-CRAN/tinytest ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hutilscpp_0.10.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=60d98a894ef689612836ea4fb88dafbd
