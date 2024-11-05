@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Mapping First Moment and C-Statistic to the Parameters of
+		Distributions for Risk // Provides a series of numerical
+		methods for extracting parameters of distributions for risks
+		based on knowing the expected value and c-statistics (e.g.,
+		from a published report on the performance of a risk prediction
+		model). This package implements the methodology described in
+		Sadatsafavi et al (2024) doi:10.48550/arXiv.2409.09178. The
+		core of the package is mcmap(), which takes a pair of (mean,
+		c-statistic) and the distribution type requested. This function
+		provides a generic interface to more customized functions
+		(mcmap_beta(), mcmap_logitnorm(), mcmap_probitnorm()) for
+		specific distributions.
+	</longdescription>
+</pkgmetadata>

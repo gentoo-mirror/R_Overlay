@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Regularized Random Forest
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_rcolorbrewer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=r_suggests_mass? ( virtual/MASS ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RRF_1.9.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=de0a6da26f9f45762cf130baf9a3ece6

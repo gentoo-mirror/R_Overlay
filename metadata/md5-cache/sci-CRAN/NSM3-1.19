@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/coin sci-CRAN/agricolae virtual/survival sci-CRAN/Hmisc sci-CRAN/metafor sci-CRAN/BSDA sci-CRAN/fANCOVA sci-CRAN/nortest sci-CRAN/np sci-CRAN/SuppDists sci-CRAN/combinat sci-CRAN/ash sci-CRAN/binom sci-CRAN/km_ci sci-CRAN/gtools sci-CRAN/partitions virtual/MASS sci-CRAN/waveslim sci-CRAN/quantreg sci-CRAN/Rfit dev-lang/R:=
+DESCRIPTION=Functions and Datasets to Accomp... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/coin sci-CRAN/agricolae virtual/survival sci-CRAN/Hmisc sci-CRAN/metafor sci-CRAN/BSDA sci-CRAN/fANCOVA sci-CRAN/nortest sci-CRAN/np sci-CRAN/SuppDists sci-CRAN/combinat sci-CRAN/ash sci-CRAN/binom sci-CRAN/km_ci sci-CRAN/gtools sci-CRAN/partitions virtual/MASS sci-CRAN/waveslim sci-CRAN/quantreg sci-CRAN/Rfit dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/NSM3_1.19.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=892a7c54ea16f2c8b6f3bf0fa44c47d1

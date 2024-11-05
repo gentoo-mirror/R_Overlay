@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/caTools sci-CRAN/doBy sci-CRAN/fda sci-CRAN/npcure sci-CRAN/StatMatch dev-lang/R:=
+DESCRIPTION=Single-Index Mixture Cure Models
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/caTools sci-CRAN/doBy sci-CRAN/fda sci-CRAN/npcure sci-CRAN/StatMatch dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sicure_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6f28d1ce91229f7d5a85ede0f0a18be9

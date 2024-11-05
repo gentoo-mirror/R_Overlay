@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/SphericalCubature sci-CRAN/ptinpoly sci-CRAN/RiemBase sci-CRAN/rotations sci-CRAN/truncnorm sci-CRAN/fields sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/dplyr sci-CRAN/pracma >=dev-lang/R-4.0.0 sci-CRAN/rgl sci-CRAN/Morpho sci-CRAN/shapes sci-CRAN/RSpincalc sci-CRAN/matlib sci-CRAN/Rvcg sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Analysis of Elliptical Tubes Und... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/SphericalCubature sci-CRAN/ptinpoly sci-CRAN/RiemBase sci-CRAN/rotations sci-CRAN/truncnorm sci-CRAN/fields sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/dplyr sci-CRAN/pracma >=dev-lang/R-4.0.0 sci-CRAN/rgl sci-CRAN/Morpho sci-CRAN/shapes sci-CRAN/RSpincalc sci-CRAN/matlib sci-CRAN/Rvcg sci-CRAN/reshape2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ETRep_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d980359c74e793f6bc2031dcc27b9dd8
