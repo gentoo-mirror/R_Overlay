@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/forecast virtual/Matrix sci-CRAN/fastglm sci-CRAN/glmnet >=sci-CRAN/Rcpp-0.11.0 sci-CRAN/tseries dev-lang/R:=
+DESCRIPTION=Fast Change Point Detection via ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_abind r_suggests_dplyr r_suggests_ggplot2 r_suggests_gridextra r_suggests_knitr r_suggests_lubridate r_suggests_matrix r_suggests_mockthat r_suggests_mvtnorm r_suggests_numderiv r_suggests_rcppclock r_suggests_reshape2 r_suggests_rmarkdown r_suggests_testthat r_suggests_xml2 r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/forecast virtual/Matrix sci-CRAN/fastglm sci-CRAN/glmnet >=sci-CRAN/Rcpp-0.11.0 sci-CRAN/tseries sci-CRAN/progress sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/testthat sci-CRAN/RcppClock r_suggests_abind? ( sci-CRAN/abind ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_mockthat? ( sci-CRAN/mockthat ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_rcppclock? ( sci-CRAN/RcppClock ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xml2? ( sci-CRAN/xml2 ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fastcpd_0.14.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=72f98f58e3b43b3a776a8c33f936f6fb

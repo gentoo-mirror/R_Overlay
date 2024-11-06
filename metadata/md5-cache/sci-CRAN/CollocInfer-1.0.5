@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 sci-CRAN/fda virtual/Matrix sci-CRAN/spam virtual/MASS sci-CRAN/deSolve dev-lang/R:=
+DESCRIPTION=Collocation Inference for Dynamic Systems
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_maxlik r_suggests_pomp r_suggests_sparsem r_suggests_subplex r_suggests_trust byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.3.0 sci-CRAN/fda virtual/Matrix sci-CRAN/spam virtual/MASS sci-CRAN/deSolve r_suggests_maxlik? ( sci-CRAN/maxLik ) r_suggests_pomp? ( sci-CRAN/pomp ) r_suggests_sparsem? ( sci-CRAN/SparseM ) r_suggests_subplex? ( sci-CRAN/subplex ) r_suggests_trust? ( sci-CRAN/trust ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CollocInfer_1.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ad2e0d7ae9bf7ff8e50ec3c820fbcdeb

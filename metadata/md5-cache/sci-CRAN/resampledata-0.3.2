@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Data Sets for Mathematical Stati... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_resample byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=r_suggests_resample? ( >=sci-CRAN/resample-0.4 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/resampledata_0.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=111878f5b95579ae0de575b84d1c197d
