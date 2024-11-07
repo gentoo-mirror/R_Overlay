@@ -1,0 +1,60 @@
+# Copyright 1999-2024 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='ATLAS Formatting Functions and Templates'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/ratlas_0.1.0.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_covr r_suggests_cowplot r_suggests_dichromat
+	r_suggests_english r_suggests_here r_suggests_kableextra
+	r_suggests_lintr r_suggests_magick r_suggests_pkgdown
+	r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat
+	r_suggests_tinytex r_suggests_usethis r_suggests_vdiffr
+	r_suggests_viridis r_suggests_withr"
+R_SUGGESTS="
+	r_suggests_covr? ( >=sci-CRAN/covr-3.2.1 )
+	r_suggests_cowplot? ( >=sci-CRAN/cowplot-1.0.0 )
+	r_suggests_dichromat? ( >=sci-CRAN/dichromat-2.0.0 )
+	r_suggests_english? ( >=sci-CRAN/english-1.2.3 )
+	r_suggests_here? ( >=sci-CRAN/here-0.1 )
+	r_suggests_kableextra? ( >=sci-CRAN/kableExtra-1.1.0 )
+	r_suggests_lintr? ( >=sci-CRAN/lintr-1.0.3 )
+	r_suggests_magick? ( >=sci-CRAN/magick-2.2 )
+	r_suggests_pkgdown? ( >=sci-CRAN/pkgdown-2.0.7 )
+	r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.12 )
+	r_suggests_spelling? ( >=sci-CRAN/spelling-2.1 )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 )
+	r_suggests_tinytex? ( >=sci-CRAN/tinytex-0.13 )
+	r_suggests_usethis? ( >=sci-CRAN/usethis-1.6.0 )
+	r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-0.3.1 )
+	r_suggests_viridis? ( >=sci-CRAN/viridis-0.5.1 )
+	r_suggests_withr? ( >=sci-CRAN/withr-2.2.0 )
+"
+DEPEND=">=sci-CRAN/xfun-0.12
+	>=sci-CRAN/xaringan-0.11
+	>=sci-CRAN/hrbrthemes-0.6.0
+	>=sci-CRAN/officedown-0.2.2
+	>=sci-CRAN/purrr-0.3.4
+	>=sci-CRAN/stringr-1.4.0
+	>=sci-CRAN/dplyr-0.8.1
+	>=sci-CRAN/colorspace-1.4.1
+	>=sci-CRAN/ggplot2-3.3.2
+	>=sci-CRAN/ggtext-0.1.1
+	>=sci-CRAN/rlang-0.3.4
+	>=dev-lang/R-3.5.0
+	>=sci-CRAN/bookdown-0.9
+	>=sci-CRAN/extrafont-0.17
+	>=sci-CRAN/glue-1.3.1
+	>=sci-CRAN/magrittr-1.5
+	>=sci-CRAN/fs-1.2.7
+	>=sci-CRAN/knitr-1.22
+	>=sci-CRAN/tibble-2.1.3
+	>=sci-CRAN/scales-1.0.0
+	>=sci-CRAN/tidyr-0.8.3
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

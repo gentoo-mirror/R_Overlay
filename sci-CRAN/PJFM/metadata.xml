@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variational Inference for High-Dimensional Joint Frailty Model //
+		Joint frailty models have been widely used to study the
+		associations between recurrent events and a survival outcome.
+		However, existing joint frailty models only consider one or a
+		few recurrent events and cannot deal with high-dimensional
+		recurrent events. This package can be used to fit our recently
+		developed penalized joint frailty model that can handle high-
+		dimensional recurrent events. Specifically, an adaptive lasso
+		penalty is imposed on the parameters for the effects of the
+		recurrent events on the survival outcome, which allows for
+		variable selection. Also, our algorithm is computationally
+		efficient, which is based on the Gaussian variational
+		approximation method.
+	</longdescription>
+</pkgmetadata>

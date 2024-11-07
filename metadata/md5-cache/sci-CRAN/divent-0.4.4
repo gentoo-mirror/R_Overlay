@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/ape >=dev-lang/R-3.5 sci-CRAN/ggplot2 sci-CRAN/vegan sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/EntropyEstimation sci-CRAN/RColorBrewer sci-CRAN/Rdpack sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Entropy Partitioning to Measure Diversity
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ade4 r_suggests_knitr r_suggests_pkgdown r_suggests_rmarkdown r_suggests_species r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/ape >=dev-lang/R-3.5 sci-CRAN/ggplot2 sci-CRAN/vegan sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/EntropyEstimation sci-CRAN/RColorBrewer sci-CRAN/Rdpack sci-CRAN/tidyr app-text/pandoc r_suggests_ade4? ( sci-CRAN/ade4 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_species? ( sci-CRAN/SPECIES ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/divent_0.4-4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0a34cce9eda44f246c624aea4057d95c
