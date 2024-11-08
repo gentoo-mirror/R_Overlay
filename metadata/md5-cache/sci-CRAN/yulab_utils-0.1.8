@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cli sci-CRAN/fs sci-CRAN/digest sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Supporting Functions for Package... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_httr2 r_suggests_jsonlite r_suggests_openssl r_suggests_rappdirs byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/cli sci-CRAN/fs sci-CRAN/digest sci-CRAN/rlang r_suggests_httr2? ( sci-CRAN/httr2 ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_openssl? ( sci-CRAN/openssl ) r_suggests_rappdirs? ( sci-CRAN/rappdirs ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/yulab.utils_0.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4eba720a5f73614f94f3a9b8b57f3381
