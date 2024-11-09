@@ -2,16 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Seamless Multicollinearity Management // System for seamless
-		management of multicollinearity in data frames with numeric
-		and/or categorical variables for statistical analysis and
-		machine learning modeling. The package combines bivariate
-		correlation (Pearson, Spearman, and Cramer's V) with variance
-		inflation factor analysis, target encoding to transform
-		categorical variables into numeric (Micci-Barreca, D. 2001
-		DOI:10.1145/507533.507538), and a flexible feature
-		prioritization method, to deliver a comprehensive
-		multicollinearity management tool covering a wide range of use
-		cases.
+		Automated Multicollinearity Management // Effortless
+		multicollinearity management in data frames with both numeric
+		and categorical variables for statistical and machine learning
+		applications. The package simplifies multicollinearity analysis
+		by combining four robust methods: 1) target encoding for
+		categorical variables (Micci-Barreca, D. 2001
+		doi:10.1145/507533.507538); 2) automated feature prioritization
+		to prevent key variable loss during filtering; 3) pairwise
+		correlation for all variable combinations (numeric-numeric,
+		numeric-categorical, categorical-categorical); and 4) fast
+		computation of variance inflation factors.
 	</longdescription>
 </pkgmetadata>

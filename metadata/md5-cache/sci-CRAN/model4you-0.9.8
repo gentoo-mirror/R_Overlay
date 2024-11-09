@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 sci-CRAN/Formula sci-CRAN/ggplot2 sci-CRAN/sandwich >=sci-CRAN/partykit-1.2.6 sci-CRAN/gridExtra virtual/survival dev-lang/R:=
+DESCRIPTION=Stratified and Personalised Mode... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggbeeswarm r_suggests_knitr r_suggests_mass r_suggests_mvtnorm r_suggests_plyr r_suggests_psychotools r_suggests_strucchange r_suggests_th_data byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.1.0 sci-CRAN/Formula sci-CRAN/ggplot2 sci-CRAN/sandwich >=sci-CRAN/partykit-1.2.6 sci-CRAN/gridExtra virtual/survival r_suggests_ggbeeswarm? ( sci-CRAN/ggbeeswarm ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_psychotools? ( sci-CRAN/psychotools ) r_suggests_strucchange? ( sci-CRAN/strucchange ) r_suggests_th_data? ( sci-CRAN/TH_data ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/model4you_0.9-8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8b30760c2b28ccb0312a8a24f8a6098f
