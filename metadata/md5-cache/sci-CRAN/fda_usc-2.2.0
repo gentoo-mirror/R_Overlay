@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme virtual/mgcv sci-CRAN/foreach >=dev-lang/R-3.5.0 sci-CRAN/kSamples virtual/MASS sci-CRAN/fda sci-CRAN/knitr sci-CRAN/iterators sci-CRAN/doParallel dev-lang/R:=
+DESCRIPTION=Functional Data Analysis and Uti... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/nlme virtual/mgcv sci-CRAN/foreach >=dev-lang/R-3.5.0 sci-CRAN/kSamples virtual/MASS sci-CRAN/fda sci-CRAN/knitr sci-CRAN/iterators sci-CRAN/doParallel r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fda.usc_2.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c4e848daf8432cb8d3f81362ebbda1f2

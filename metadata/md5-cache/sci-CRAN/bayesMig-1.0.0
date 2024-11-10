@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/wpp2019 >=sci-CRAN/bayesTFR-7.4.4 sci-CRAN/truncnorm sci-CRAN/coda sci-CRAN/data_table dev-lang/R:=
+DESCRIPTION=Bayesian Projection of Migration
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/wpp2019 >=sci-CRAN/bayesTFR-7.4.4 sci-CRAN/truncnorm sci-CRAN/coda sci-CRAN/data_table dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bayesMig_1.0-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7f16af6ba1e4d3c5b1fd4febe20bb3d2
