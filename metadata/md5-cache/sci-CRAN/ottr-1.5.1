@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/testthat sci-CRAN/zip sci-CRAN/jsonlite sci-CRAN/R6 dev-lang/R:=
+DESCRIPTION=An R Autograding Extension for Otter-Grader
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_irdisplay r_suggests_irkernel r_suggests_mockery r_suggests_rmarkdown r_suggests_stringr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/testthat sci-CRAN/zip sci-CRAN/jsonlite sci-CRAN/R6 r_suggests_irdisplay? ( sci-CRAN/IRdisplay ) r_suggests_irkernel? ( sci-R/IRkernel ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ottr_1.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=39162bb433e8686953d465f4e3d64cee
