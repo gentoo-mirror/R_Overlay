@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-BIOC/Biobase sci-CRAN/ggplot2 sci-CRAN/data_table sci-CRAN/optparse dev-lang/R:=
+DESCRIPTION=A Single Cell Transcriptomics Ba... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggtern r_suggests_music r_suggests_randomforest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-BIOC/Biobase sci-CRAN/ggplot2 sci-CRAN/data_table sci-CRAN/optparse r_suggests_ggtern? ( sci-CRAN/ggtern ) r_suggests_music? ( sci-CRAN/music ) r_suggests_randomforest? ( sci-CRAN/randomForest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/seAMLess_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5a63292aaa3ec68d6bf37df4c144fbf3

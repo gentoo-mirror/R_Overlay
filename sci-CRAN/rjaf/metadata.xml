@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regularized Joint Assignment Forest with Treatment Arm Clustering
+		// Personalized assignment to one of many treatment arms via
+		regularized and clustered joint assignment forests as described
+		in Ladhania, Spiess, Ungar, and Wu (2023)
+		doi:10.48550/arXiv.2311.00577. The algorithm pools information
+		across treatment arms: it considers a regularized forest-based
+		assignment algorithm based on greedy recursive partitioning
+		that shrinks effect estimates across arms; and it incorporates
+		a clustering scheme that combines treatment arms with
+		consistently similar outcomes.
+	</longdescription>
+</pkgmetadata>

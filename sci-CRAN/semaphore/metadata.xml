@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Shared Memory Atomic Operations // Implements named semaphores
+		from the 'boost' 'C++' library https://www.boost.org/. A
+		semaphore object is shared amongst several processes. This
+		integer value can be safely incremented or decremented by each
+		processes. Processes can also wait (blocking) for the value to
+		become non-zero.
+	</longdescription>
+</pkgmetadata>

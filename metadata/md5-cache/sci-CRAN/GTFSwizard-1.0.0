@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/stplanr sci-CRAN/hms sci-CRAN/gtfstools sci-CRAN/lubridate >=dev-lang/R-3.5.0 sci-CRAN/data_table sci-CRAN/shiny sci-CRAN/leaflet sci-CRAN/checkmate sci-CRAN/forcats sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/geosphere sci-CRAN/gtfsio sci-CRAN/crayon sci-CRAN/leaflet_extras sci-CRAN/ggplot2 sci-CRAN/sf sci-CRAN/tidytransit sci-CRAN/tidyr sci-CRAN/hrbrthemes sci-CRAN/stringr sci-CRAN/glue sci-CRAN/plotly sci-CRAN/sfnetworks dev-lang/R:=
+DESCRIPTION=Exploring and Manipulating GTFS Files
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tibble sci-CRAN/stplanr sci-CRAN/hms sci-CRAN/gtfstools sci-CRAN/lubridate >=dev-lang/R-3.5.0 sci-CRAN/data_table sci-CRAN/shiny sci-CRAN/leaflet sci-CRAN/checkmate sci-CRAN/forcats sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/geosphere sci-CRAN/gtfsio sci-CRAN/crayon sci-CRAN/leaflet_extras sci-CRAN/ggplot2 sci-CRAN/sf sci-CRAN/tidytransit sci-CRAN/tidyr sci-CRAN/hrbrthemes sci-CRAN/stringr sci-CRAN/glue sci-CRAN/plotly sci-CRAN/sfnetworks dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GTFSwizard_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=faa29ddf94edc87c80ab309a2d8b5dd3
