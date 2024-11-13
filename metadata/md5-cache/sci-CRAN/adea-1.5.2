@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lpSolveAPI sci-CRAN/ROI sci-CRAN/ROI_plugin_lpsolve >=dev-lang/R-3.5.0 sci-CRAN/slam sci-CRAN/parallelly sci-mathematics/glpk sci-CRAN/rmarkdown sci-CRAN/ROI_plugin_symphony sci-CRAN/combinat sci-CRAN/knitr dev-lang/R:=
+DESCRIPTION=Alternate DEA Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/lpSolveAPI sci-CRAN/ROI sci-CRAN/ROI_plugin_lpsolve >=dev-lang/R-3.5.0 sci-CRAN/slam sci-CRAN/parallelly sci-mathematics/glpk sci-CRAN/rmarkdown sci-CRAN/ROI_plugin_symphony sci-CRAN/combinat sci-CRAN/knitr r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/adea_1.5.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6733e7bfdd1e7d2fb4e7a4b665b75625
