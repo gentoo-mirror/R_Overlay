@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/CircStats sci-CRAN/circular virtual/mgcv sci-CRAN/RTMB >=dev-lang/R-3.5.0 virtual/Matrix sci-CRAN/Rcpp virtual/MASS sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Fast Numerical Maximum Likelihoo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mswm r_suggests_phsmm r_suggests_rmarkdown r_suggests_scales r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/CircStats sci-CRAN/circular virtual/mgcv sci-CRAN/RTMB >=dev-lang/R-3.5.0 virtual/Matrix sci-CRAN/Rcpp virtual/MASS sci-CRAN/mvtnorm sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mswm? ( sci-CRAN/MSwM ) r_suggests_phsmm? ( sci-CRAN/PHSMM ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LaMa_2.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b5bd1b0df3528429c9924483f0732bb7

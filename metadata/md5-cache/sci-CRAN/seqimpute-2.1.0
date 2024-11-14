@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Amelia sci-CRAN/dplyr virtual/cluster sci-CRAN/dfidx sci-CRAN/mlr sci-CRAN/ranger sci-CRAN/doRNG sci-CRAN/foreach sci-CRAN/stringr sci-CRAN/doSNOW sci-CRAN/mice sci-CRAN/rms sci-CRAN/TraMineR sci-CRAN/TraMineRextras >=dev-lang/R-3.5.0 sci-CRAN/plyr virtual/nnet dev-lang/R:=
+DESCRIPTION=Imputation of Missing Data in Sequence Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_r_rsp r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/Amelia sci-CRAN/dplyr virtual/cluster sci-CRAN/dfidx sci-CRAN/mlr sci-CRAN/ranger sci-CRAN/doRNG sci-CRAN/foreach sci-CRAN/stringr sci-CRAN/doSNOW sci-CRAN/mice sci-CRAN/rms sci-CRAN/TraMineR sci-CRAN/TraMineRextras >=dev-lang/R-3.5.0 sci-CRAN/plyr virtual/nnet r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/seqimpute_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c2f9c12be46f74a39c078f0ffd7e0e60

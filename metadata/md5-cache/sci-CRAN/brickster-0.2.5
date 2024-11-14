@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/purrr sci-CRAN/jsonlite sci-CRAN/reticulate >=dev-lang/R-4.1.0 sci-CRAN/rlang >=sci-CRAN/R6-2.4.0 sci-CRAN/arrow sci-CRAN/curl sci-CRAN/base64enc sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/glue sci-CRAN/httr2 sci-CRAN/ini sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=R Toolkit for Databricks
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_htmltools r_suggests_knitr r_suggests_magick r_suggests_rmarkdown r_suggests_rstudioapi r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/purrr sci-CRAN/jsonlite sci-CRAN/reticulate >=dev-lang/R-4.1.0 sci-CRAN/rlang >=sci-CRAN/R6-2.4.0 sci-CRAN/arrow sci-CRAN/curl sci-CRAN/base64enc sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/glue sci-CRAN/httr2 sci-CRAN/ini sci-CRAN/tibble r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/brickster_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=57d684aeaab2c47be704c7394d4fce6c

@@ -3,12 +3,11 @@
 <pkgmetadata>
 	<longdescription>
 		Non-Ordered Vectors // Functionality for manipulating values of
-		associative maps.  The package is designed to be used with the
-		'mvp' class of packages that use the STL map class: its purpose
-		is to trap plausible idiom that is ill-defined (implementation-
-		specific) and return an informative error, rather than
-		returning a possibly incorrect result.  To cite the package in
-		publications please use Hankin (2022)
-		doi:10.48550/ARXIV.2210.03856.
+		associative maps.  The package is a dependency for mvp-type
+		packages that use the STL map class: it traps plausible idiom
+		that is ill-defined (implementation-specific) and returns an
+		informative error, rather than returning a possibly incorrect
+		result.  To cite the package in publications please use Hankin
+		(2022) doi:10.48550/ARXIV.2210.03856.
 	</longdescription>
 </pkgmetadata>
