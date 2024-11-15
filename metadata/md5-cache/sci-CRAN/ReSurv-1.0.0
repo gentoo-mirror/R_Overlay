@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dtplyr sci-CRAN/xgboost sci-CRAN/forecast virtual/rpart sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/SHAPforxgboost sci-CRAN/tidyverse sci-CRAN/SynthETIC sci-CRAN/dplyr sci-CRAN/fastDummies sci-CRAN/data_table sci-CRAN/tidyr sci-CRAN/reticulate sci-CRAN/bshazard virtual/survival dev-lang/R:=
+DESCRIPTION=Machine Learning Models for Pred... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/dtplyr sci-CRAN/xgboost sci-CRAN/forecast virtual/rpart sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/SHAPforxgboost sci-CRAN/tidyverse sci-CRAN/SynthETIC sci-CRAN/dplyr sci-CRAN/fastDummies sci-CRAN/data_table sci-CRAN/tidyr sci-CRAN/reticulate sci-CRAN/bshazard virtual/survival dev-lang/python r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ReSurv_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0049b330ed0a9fa85ded287db63507ed

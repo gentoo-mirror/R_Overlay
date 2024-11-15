@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny sci-CRAN/officer sci-CRAN/tibble sci-CRAN/htmltools sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/DT sci-CRAN/agricolae sci-CRAN/rlang sci-CRAN/ggcorrplot sci-CRAN/corrplot sci-CRAN/bslib sci-CRAN/flextable sci-CRAN/patchwork sci-CRAN/readxl sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Shiny-Based Statistical Solution... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_extrafont r_suggests_shinytest2 r_suggests_testthat r_suggests_writexl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/shiny sci-CRAN/officer sci-CRAN/tibble sci-CRAN/htmltools sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/DT sci-CRAN/agricolae sci-CRAN/rlang sci-CRAN/ggcorrplot sci-CRAN/corrplot sci-CRAN/bslib sci-CRAN/flextable sci-CRAN/patchwork sci-CRAN/readxl sci-CRAN/ggplot2 r_suggests_extrafont? ( sci-CRAN/extrafont ) r_suggests_shinytest2? ( sci-CRAN/shinytest2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_writexl? ( sci-CRAN/writexl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/visvaR_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=991a9706bfcdbbe63b67aa2433fdb13a

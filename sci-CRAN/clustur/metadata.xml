@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Clustering // A tool that implements the clustering algorithms
+		from 'mothur' (Schloss PD et al. (2009)
+		doi:10.1128/AEM.01541-09). 'clustur' make use of the cluster()
+		and make.shared() command from 'mothur'. Our cluster() function
+		has five different algorithms implemented: 'OptiClust',
+		'furthest', 'nearest', 'average', and 'weighted'. 'OptiClust'
+		is an optimized clustering method for Operational Taxonomic
+		Units, and you can learn more here, (Westcott SL, Schloss PD
+		(2017) doi:10.1128/mspheredirect.00073-17). The make.shared()
+		command is always applied at the end of the clustering command.
+		This functionality allows us to generate and create clustering
+		and abundance data efficiently.
+	</longdescription>
+</pkgmetadata>
