@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/Rdpack sci-CRAN/sf sci-CRAN/tibble >=dev-lang/R-4.0.0 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/ggrepel sci-CRAN/rlang virtual/class sci-CRAN/stringr sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Countries of the World
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_purrr r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/magrittr sci-CRAN/Rdpack sci-CRAN/sf sci-CRAN/tibble >=dev-lang/R-4.0.0 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/ggrepel sci-CRAN/rlang virtual/class sci-CRAN/stringr sci-CRAN/stringi r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/necountries_0.1-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b99f183bc9231c90a4265ab20ccfe2f7
