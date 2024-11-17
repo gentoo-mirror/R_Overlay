@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/reticulate sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/scatterpie sci-CRAN/sf >=dev-lang/R-4.1.0 >=sci-CRAN/sdsfun-0.4.3 sci-CRAN/forcats sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/patchwork virtual/rpart sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Analysis of Spatial Stratified Heterogeneity
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cowplot r_suggests_knitr r_suggests_rcpp r_suggests_readr r_suggests_rmarkdown r_suggests_terra r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/reticulate sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/scatterpie sci-CRAN/sf >=dev-lang/R-4.1.0 >=sci-CRAN/sdsfun-0.4.3 sci-CRAN/forcats sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/patchwork virtual/rpart sci-CRAN/tidyr sci-CRAN/Rcpp r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcpp? ( sci-CRAN/Rcpp ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gdverse_1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bcaf43b2b3c0667c1ee13ecef0329faa
