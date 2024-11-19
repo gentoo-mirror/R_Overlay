@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Effect Plots // High-performance implementation of various effect
+		plots useful for regression and probabilistic classification
+		tasks.  The package includes partial dependence plots
+		(Friedman, 2021, doi:10.1214/aos/1013203451), accumulated local
+		effect plots and M-plots (both from Apley and Zhu, 2016,
+		doi:10.1111/rssb.12377), as well as plots that describe the
+		statistical associations between model response and features.
+		It supports visualizations with either 'ggplot2' or 'plotly',
+		and is compatible with most models, including 'Tidymodels',
+		models wrapped in 'DALEX' explainers, or models with case
+		weights.
+	</longdescription>
+</pkgmetadata>
