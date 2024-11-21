@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/jsonlite sci-CRAN/httr sci-CRAN/purrr sci-CRAN/cli sci-CRAN/R6 sci-CRAN/rlang sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Interface for LaminDB
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_anndata r_suggests_knitr r_suggests_nanoparquet r_suggests_readr r_suggests_reticulate r_suggests_s3 r_suggests_seurat r_suggests_testthat r_suggests_withr r_suggests_yaml byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/jsonlite sci-CRAN/httr sci-CRAN/purrr sci-CRAN/cli sci-CRAN/R6 sci-CRAN/rlang sci-CRAN/tibble r_suggests_anndata? ( sci-CRAN/anndata ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nanoparquet? ( sci-CRAN/nanoparquet ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_reticulate? ( sci-CRAN/reticulate ) r_suggests_s3? ( >=sci-CRAN/s3-1.1.0 ) r_suggests_seurat? ( sci-CRAN/Seurat ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) r_suggests_yaml? ( sci-CRAN/yaml ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/laminr_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e536f3d41c65c1cb054823bcfc62d963

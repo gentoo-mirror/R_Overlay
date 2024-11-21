@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/abind >=sci-CRAN/geomorph-3.0.2 sci-CRAN/reshape2 sci-CRAN/plot3D sci-CRAN/seewave sci-CRAN/tuneR sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Sound Waves Onto Morphometric Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_vegan byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/abind >=sci-CRAN/geomorph-3.0.2 sci-CRAN/reshape2 sci-CRAN/plot3D sci-CRAN/seewave sci-CRAN/tuneR sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_vegan? ( sci-CRAN/vegan ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SoundShape_1.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0590ac6e5e4b77f4e09cc539dbe3caf2

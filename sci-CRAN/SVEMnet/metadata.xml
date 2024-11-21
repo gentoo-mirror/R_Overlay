@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Self-Validated Ensemble Models with Elastic Net Regression //
+		Implements Self-Validated Ensemble Models (SVEM, Lemkus et al.
+		(2021) doi:10.1016/j.chemolab.2021.104439) using Elastic Net
+		regression via 'glmnet' (Friedman et al.
+		doi:10.18637/jss.v033.i01). SVEM averages predictions from
+		multiple models fitted to fractionally weighted bootstraps of
+		the data, tuned with anti-correlated validation weights. Also
+		implements the randomized permutation whole model test for SVEM
+		(Karl (2024) doi:10.1016/j.chemolab.2024.105122). Code for the
+		whole model test was taken from the supplementary material of
+		Karl (2024). Development of this package was assisted by 'GPT
+		o1-preview' for code structure and documentation.
+	</longdescription>
+</pkgmetadata>
