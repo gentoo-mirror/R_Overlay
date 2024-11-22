@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/forcats >=dev-lang/R-4.1.0 >=sci-CRAN/sdsfun-0.4.3 sci-CRAN/tibble sci-CRAN/dplyr >=sci-CRAN/gdverse-1.3 sci-CRAN/ggplot2 sci-CRAN/ggraph sci-CRAN/igraph sci-CRAN/purrr sci-CRAN/magrittr sci-CRAN/RColorBrewer sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=A Correlation Indicator Based on Spatial Patterns
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tidyr sci-CRAN/forcats >=dev-lang/R-4.1.0 >=sci-CRAN/sdsfun-0.4.3 sci-CRAN/tibble sci-CRAN/dplyr >=sci-CRAN/gdverse-1.3 sci-CRAN/ggplot2 sci-CRAN/ggraph sci-CRAN/igraph sci-CRAN/purrr sci-CRAN/magrittr sci-CRAN/RColorBrewer sci-CRAN/sf r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cisp_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b4d6de3ae3b31115d19204cbf952f465

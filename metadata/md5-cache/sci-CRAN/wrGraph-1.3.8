@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 virtual/lattice sci-CRAN/RColorBrewer sci-CRAN/wrMisc dev-lang/R:=
+DESCRIPTION=Graphics in the Context of Analy... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_factoextra r_suggests_factominer r_suggests_ggpubr r_suggests_knitr r_suggests_limma r_suggests_rmarkdown r_suggests_sm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1.0 virtual/lattice sci-CRAN/RColorBrewer sci-CRAN/wrMisc r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_factoextra? ( sci-CRAN/factoextra ) r_suggests_factominer? ( sci-CRAN/FactoMineR ) r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sm? ( sci-CRAN/sm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/wrGraph_1.3.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=08114cedcaca8e961cde0bcdc55097a8

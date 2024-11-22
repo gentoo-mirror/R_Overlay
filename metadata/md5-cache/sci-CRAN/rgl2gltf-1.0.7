@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/R6 >=sci-CRAN/rgl-0.108.43 sci-CRAN/base64enc dev-lang/R:=
+DESCRIPTION=Read and Write .gltf and .glb Files
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_jpeg r_suggests_knitr r_suggests_misc3d r_suggests_png r_suggests_rmarkdown r_suggests_rstudio r_suggests_v8 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/R6 >=sci-CRAN/rgl-0.108.43 sci-CRAN/base64enc r_suggests_jpeg? ( sci-CRAN/jpeg ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_misc3d? ( sci-CRAN/misc3d ) r_suggests_png? ( sci-CRAN/png ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudio? ( sci-mathematics/rstudio ) r_suggests_v8? ( sci-CRAN/V8 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rgl2gltf_1.0.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=126759136ec4ddcfdfcd512416a50e1a
