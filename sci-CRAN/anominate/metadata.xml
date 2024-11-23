@@ -2,10 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Alpha-NOMINATE Ideal Point Estimator // Fits ideal point model
-		described in Carroll, Lewis, Lo, Poole and Rosenthal (2013),
-		"The Structure of Utility in Models of Spatial Voting,"
-		American Journal of Political Science 57(4): 1008--1028,
-		doi:10.1111/ajps.12029.
+		Alpha-NOMINATE Ideal Point Estimator // Provides functions to
+		estimate and interpret the alpha-NOMINATE ideal point model
+		developed in Carroll et al. (2013, doi:10.1111/ajps.12029).
+		alpha-NOMINATE extends traditional spatial voting frameworks by
+		allowing for a mixture of Gaussian and quadratic utility
+		functions, providing flexibility in modeling political actors'
+		preferences. The package uses Markov Chain Monte Carlo (MCMC)
+		methods for parameter estimation, supporting robust inference
+		about individuals' ideological positions and the shape of their
+		utility functions. It also contains functions to simulate data
+		from the model and to calculate the probability of a vote
+		passing given the ideal points of the legislators/voters and
+		the estimated location of the choice alternatives.
 	</longdescription>
 </pkgmetadata>

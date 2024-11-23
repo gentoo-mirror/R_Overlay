@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.13.0 sci-CRAN/gridExtra sci-CRAN/scales sci-CRAN/dplyr sci-CRAN/reshape2 sci-CRAN/ggplot2 sci-CRAN/kernlab dev-lang/R:=
+DESCRIPTION=Implementation of the SVM-Maj Algorithm
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_magrittr r_suggests_testthat r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-2.13.0 sci-CRAN/gridExtra sci-CRAN/scales sci-CRAN/dplyr sci-CRAN/reshape2 sci-CRAN/ggplot2 sci-CRAN/kernlab r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SVMMaj_0.2.9.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1b4a6473e505df3d7c6081188c9908ee
