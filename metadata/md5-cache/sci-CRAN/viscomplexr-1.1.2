@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2 sci-CRAN/foreach sci-CRAN/plotrix >=sci-CRAN/doParallel-1.0.15 sci-CRAN/scales sci-CRAN/Rdpack sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Phase Portraits of Functions in ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cairo r_suggests_covr r_suggests_knitr r_suggests_pracma r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.2 sci-CRAN/foreach sci-CRAN/plotrix >=sci-CRAN/doParallel-1.0.15 sci-CRAN/scales sci-CRAN/Rdpack sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_cairo? ( sci-CRAN/Cairo ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pracma? ( sci-CRAN/pracma ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/viscomplexr_1.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=68c52dc3e90f83d86a0dcb6aeee6fe15

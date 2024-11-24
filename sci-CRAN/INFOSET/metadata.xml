@@ -17,6 +17,15 @@
 		the change point" of the mixture. The process concludes when no
 		further change points are detected. The outcome encompasses
 		parameters of the leftmost mixture distributions and change
-		points of the analyzed financial time series.
+		points of the analyzed financial time series. The
+		functionalities of the INFOSET package include: (i) modelling
+		asset distribution detecting the parameters which describe left
+		tail behaviour (infoset function), (ii) clustering, (iii)
+		labeling of the financial series for predictive and
+		classification purposes through a Left Risk measure based on
+		the first change point (LR_cp function) (iv) portfolio
+		construction (ptf_construction function). The package also
+		provide a specific function to construct rolling windows of
+		different length size and overlapping time.
 	</longdescription>
 </pkgmetadata>
