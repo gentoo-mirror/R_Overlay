@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Machine Learning Method Based on Isolation Kernel Mean Embedding
+		// Incorporates Approximate Bayesian Computation to get a
+		posterior distribution and to select a model optimal parameter
+		for an observation point. Additionally, the meta-sampling
+		heuristic algorithm is realized for parameter estimation, which
+		requires no model runs and is dimension-independent. A sampling
+		scheme is also presented that allows model runs and uses the
+		meta-sampling for point generation. A predictor is realized as
+		the meta-sampling for the model output. All the algorithms
+		leverage a machine learning method utilizing the maxima
+		weighted Isolation Kernel approach, or 'MaxWiK'. The method
+		involves transforming raw data to a Hilbert space (mapping) and
+		measuring the similarity between simulated points and the
+		maxima weighted Isolation Kernel mapping corresponding to the
+		observation point. Comprehensive details of the methodology can
+		be found in the papers Iurii Nagornov (2024)
+		doi:10.1007/978-3-031-66431-1_16 and Iurii Nagornov (2023)
+		doi:10.1007/978-3-031-29168-5_18.
+	</longdescription>
+</pkgmetadata>

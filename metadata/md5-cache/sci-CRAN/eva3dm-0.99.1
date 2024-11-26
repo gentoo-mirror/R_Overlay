@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/terra sci-CRAN/ncdf4 dev-lang/R:=
+DESCRIPTION=Evaluation of 3D Meteorological ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_riem r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/terra sci-CRAN/ncdf4 r_suggests_riem? ( sci-CRAN/riem ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/eva3dm_0.99.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=85c9602aabf5c7512671ec37c03d7c68
