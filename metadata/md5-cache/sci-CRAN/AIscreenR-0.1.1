@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tictoc sci-CRAN/purrr >=dev-lang/R-4.1.0 sci-CRAN/tibble sci-CRAN/jsonlite sci-CRAN/lifecycle sci-CRAN/httr2 sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/furrr sci-CRAN/tidyr sci-CRAN/askpass sci-CRAN/curl dev-lang/R:=
+DESCRIPTION=AI Screening Tools in R for Systematic Reviewing
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_future r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/tictoc sci-CRAN/purrr >=dev-lang/R-4.1.0 sci-CRAN/tibble sci-CRAN/jsonlite sci-CRAN/lifecycle sci-CRAN/httr2 sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/furrr sci-CRAN/tidyr sci-CRAN/askpass sci-CRAN/curl r_suggests_future? ( sci-CRAN/future ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AIscreenR_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7cd542e7129e452cac0cff3b5d1db117
