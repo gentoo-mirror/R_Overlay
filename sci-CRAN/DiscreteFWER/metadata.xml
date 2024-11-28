@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		FWER-Based Multiple Testing Procedures with Adaptation for
+		Discrete Tests // Implementations of several multiple testing
+		procedures that control the family-wise error rate (FWER)
+		designed specifically for discrete tests. Included are discrete
+		adaptations of the Bonferroni, Holm, Hochberg and idk
+		procedures as described in the papers Dhler (2010) "Validation
+		of credit default probabilities using multiple-testing
+		procedures" doi:10.21314/JRMV.2010.062 and Zhu  Guo (2019)
+		"Family-Wise Error Rate Controlling Procedures for Discrete
+		Data" doi:10.1080/19466315.2019.1654912. The main procedures of
+		this package take as input the results of a test procedure from
+		package 'DiscreteTests' or a set of observed p-values and their
+		discrete support under their nulls. A shortcut function to
+		apply discrete procedures directly to data is also provided.
+	</longdescription>
+</pkgmetadata>
