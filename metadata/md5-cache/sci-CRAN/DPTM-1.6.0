@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/BayesianTools sci-CRAN/purrr virtual/MASS sci-CRAN/coda sci-CRAN/parabar dev-lang/R:=
+DESCRIPTION=Dynamic Panel Multiple Threshold... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.3.0 >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/BayesianTools sci-CRAN/purrr virtual/MASS sci-CRAN/coda sci-CRAN/parabar sci-CRAN/Rcpp sci-CRAN/RcppEigen dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DPTM_1.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c47f2788878329d4c95909b20dc91d44

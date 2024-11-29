@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Hydro Thermal Time Analysis of Seed Germination Using Generalised
+		Linear Model // Seed germinates through the physical process of
+		water uptake by dry seed driven by the difference in water
+		potential between the seed and the water. There exists seed-to-
+		seed variability in the base seed water potential. Hence, there
+		is a need for a distribution such that a viable seed with its
+		base seed water potential germinates if and only if the soil
+		water potential is more than the base seed water potential.
+		This package estimates the stress tolerance and uniformity
+		parameters of the seed lot for germination under various
+		temperatures by using the hydro-time model of counts of
+		germinated seeds under various water potentials. The
+		distribution of base seed water potential has been considered
+		to follow Normal, Logistic and Extreme value distribution. The
+		estimated proportion of germinated seeds along with the
+		estimates of stress and uniformity parameters are obtained
+		using a generalised linear model. The significance test of the
+		above parameters for within and between temperatures is also
+		performed in the analysis. Details can be found in Kebreab and
+		Murdoch (1999) doi:10.1093/jxb/50.334.655 and Bradford (2002)
+		https://www.jstor.org/stable/4046371.
+	</longdescription>
+</pkgmetadata>

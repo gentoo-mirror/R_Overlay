@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/boot sci-CRAN/CircStats virtual/MASS sci-CRAN/dtw sci-CRAN/fields dev-lang/R:=
+DESCRIPTION=Weather Forecast Verification Utilities
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/boot sci-CRAN/CircStats virtual/MASS sci-CRAN/dtw sci-CRAN/fields dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/verification_1.44.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4adb4debbbd67fd6b89a6561465e99f5
