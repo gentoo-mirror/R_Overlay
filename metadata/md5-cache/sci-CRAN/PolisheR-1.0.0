@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/shiny sci-CRAN/NaileR dev-lang/R:=
+DESCRIPTION=Interfacing NaileR with Shiny
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_sensominer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/shiny sci-CRAN/NaileR r_suggests_sensominer? ( sci-CRAN/SensoMineR ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PolisheR_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=57f1548303e1735ff507a0df41505809
