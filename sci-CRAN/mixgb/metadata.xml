@@ -4,15 +4,11 @@
 	<longdescription>
 		Multiple Imputation Through 'XGBoost' // Multiple imputation
 		using 'XGBoost', subsampling, and predictive mean matching as
-		described in Deng and Lumley (2023) arXiv:2106.01574. Our
-		method utilizes the capabilities of XGBoost, a highly efficient
-		implementation of gradient boosted trees, to capture
-		interactions and non-linear relations automatically. Moreover,
-		we have integrated subsampling and predictive mean matching to
-		minimize bias and reflect appropriate imputation variability.
-		This package supports various types of variables and offers
-		flexible settings for subsampling and predictive mean matching.
-		Additionally, it includes diagnostic tools for evaluating the
-		quality of the imputed values.
+		described in Deng and Lumley (2023)
+		doi:10.1080/10618600.2023.2252501.  The package supports
+		various types of variables, offers flexible settings, and
+		enables saving an imputation model to impute new data. Data
+		processing and memory usage have been optimised to speed up the
+		imputation process.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.1 >=sci-CRAN/cheapr-0.9.91 >=sci-CRAN/dplyr-1.1.0 >=sci-CRAN/collapse-2.0.0 sci-CRAN/lifecycle sci-CRAN/magrittr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyselect >=sci-CRAN/vctrs-0.6.0 dev-lang/R:=
+DESCRIPTION=Fast Alternatives to tidyverse Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_nycflights13 r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6.1 >=sci-CRAN/cheapr-0.9.91 >=sci-CRAN/dplyr-1.1.0 >=sci-CRAN/collapse-2.0.0 sci-CRAN/lifecycle sci-CRAN/magrittr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyselect >=sci-CRAN/vctrs-0.6.0 sci-CRAN/cpp11 r_suggests_nycflights13? ( sci-CRAN/nycflights13 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fastplyr_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2b240404dcf90500220ad5bc87f5413e

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/future >=sci-CRAN/manynet-1.0.5 >=sci-CRAN/dplyr-1.1.0 sci-CRAN/furrr sci-CRAN/generics sci-CRAN/ggplot2 sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Univariate and Multivariate Test... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/future >=sci-CRAN/manynet-1.0.5 >=sci-CRAN/dplyr-1.1.0 sci-CRAN/furrr sci-CRAN/generics sci-CRAN/ggplot2 sci-CRAN/purrr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/migraph_1.4.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ce2799dd663dc050dea62bcb562dc171
