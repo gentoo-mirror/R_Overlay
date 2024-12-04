@@ -2,9 +2,21 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Recovering a Basic Space from Issue Scales // Conducts Aldrich-
-		McKelvey and Blackbox Scaling (Poole et al 2016)
-		doi:10.18637/jss.v069.i07 to recover latent dimensions of
-		judgment.
+		Recovering a Basic Space from Issue Scales // Provides functions
+		to estimate latent dimensions of choice and judgment using
+		Aldrich-McKelvey and Blackbox scaling methods, as described in
+		Poole et al. (2016, doi:10.18637/jss.v069.i07). These
+		techniques allow researchers (particularly those analyzing
+		political attitudes, public opinion, and legislative behavior)
+		to recover spatial estimates of political actors' ideal points
+		and stimuli from issue scale data, accounting for perceptual
+		bias, multidimensional spaces, and missing data. The package
+		uses singular value decomposition and alternating least squares
+		(ALS) procedures to scale self-placement and perceptual data
+		into a common latent space for the analysis of ideological or
+		evaluative dimensions. Functionality also include tools for
+		assessing model fit, handling complex survey data structures,
+		and reproducing simulated datasets for methodological
+		validation.
 	</longdescription>
 </pkgmetadata>

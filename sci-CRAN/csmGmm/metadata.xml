@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Conditionally Symmetric Multidimensional Gaussian Mixture Model
+		// Implements the conditionally symmetric multidimensional
+		Gaussian mixture model (csmGmm) for large-scale testing of
+		composite null hypotheses in genetic association applications
+		such as mediation analysis, pleiotropy analysis, and
+		replication analysis. In such analyses, we typically have J
+		sets of K test statistics where K is a small number (e.g. 2 or
+		3) and J is large (e.g. 1 million). For each one of the J sets,
+		we want to know if we can reject all K individual nulls. Please
+		see the vignette for a quickstart guide. The paper describing
+		these methods is "Testing a Large Number of Composite Null
+		Hypotheses Using Conditionally Symmetric Multidimensional
+		Gaussian Mixtures in Genome-Wide Studies" by Sun R, McCaw Z,
+		Lin X (2024, doi:10.1080/01621459.2024.2422124). The paper is
+		accepted and published online (but not yet in print) in the
+		Journal of the American Statistical Association as of Dec 1
+		2024.
+	</longdescription>
+</pkgmetadata>
