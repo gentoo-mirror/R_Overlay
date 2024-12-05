@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/venn sci-CRAN/shiny sci-CRAN/declared >sci-CRAN/admisc-0.35 sci-CRAN/lpSolve dev-lang/R:=
+DESCRIPTION=Qualitative Comparative Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/venn sci-CRAN/shiny sci-CRAN/declared >sci-CRAN/admisc-0.35 sci-CRAN/lpSolve dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/QCA_3.23.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=20fdfba4a49b6136b49f4d880f5f00b4
