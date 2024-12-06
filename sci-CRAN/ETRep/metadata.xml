@@ -13,9 +13,13 @@
 		doi:10.13140/RG.2.2.34500.23685. Key features include
 		constructing discrete elliptical tubes, calculating
 		transformations, validating structures under the Relative
-		Curvature Condition, computing means, and generating
+		Curvature Condition (RCC), computing means, and generating
 		simulations. Supports intrinsic and non-intrinsic mean
 		calculations and transformations, size estimation, plotting,
-		and random sample generation based on a reference tube.
+		and random sample generation based on a reference tube. The
+		intrinsic approach relies on the interior path of the original
+		non-convex space, incorporating the RCC, while the non-
+		intrinsic approach uses a basic robotic arm transformation that
+		disregards the RCC.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lme4 sci-CRAN/mice sci-CRAN/VIM sci-CRAN/ggeffects sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/readr sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Impute Missing Values and Fittin... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/lme4 sci-CRAN/mice sci-CRAN/VIM sci-CRAN/ggeffects sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/readr sci-CRAN/reshape2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MIGEE_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=059791aa6df321e3509cf8c6033252ab

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 virtual/MASS sci-CRAN/Rfast2 sci-CRAN/Rfast dev-lang/R:=
+DESCRIPTION=Robust Quadratic Discriminant Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mvcauchy byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0 virtual/MASS sci-CRAN/Rfast2 sci-CRAN/Rfast r_suggests_mvcauchy? ( sci-CRAN/mvcauchy ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/robqda_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cde2a7895f35670c365a4d38eb3ce212

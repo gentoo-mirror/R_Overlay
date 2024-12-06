@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/stringdist sci-CRAN/beeswarm sci-CRAN/future sci-CRAN/future_apply dev-lang/R:=
+DESCRIPTION=Semi-Automatic Preprocessing of ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/stringdist sci-CRAN/beeswarm sci-CRAN/future sci-CRAN/future_apply dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clickR_0.9.45.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6bc3ff3c8656a84bf581547b4166b862

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/curl sci-CRAN/pbapply sci-CRAN/data_table sci-CRAN/jsonlite >=dev-lang/R-3.6 sci-CRAN/downloader sci-CRAN/httr sci-CRAN/R_utils sci-CRAN/tidyr sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Utilities for Working with NEON Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fasttime r_suggests_rhdf5 r_suggests_terra r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/curl sci-CRAN/pbapply sci-CRAN/data_table sci-CRAN/jsonlite >=dev-lang/R-3.6 sci-CRAN/downloader sci-CRAN/httr sci-CRAN/R_utils sci-CRAN/tidyr sci-CRAN/stringr r_suggests_fasttime? ( sci-CRAN/fasttime ) r_suggests_rhdf5? ( sci-BIOC/rhdf5 ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/neonUtilities_2.4.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=34aa2563ef67846145d64ea6a8c54c68

@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/timereg sci-CRAN/future sci-CRAN/cli sci-CRAN/future_apply sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/mets sci-CRAN/purrr sci-CRAN/reda virtual/survival sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Random Survival Forest for Recurrent Events
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_frailtypack r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/timereg sci-CRAN/future sci-CRAN/cli sci-CRAN/future_apply sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/mets sci-CRAN/purrr sci-CRAN/reda virtual/survival sci-CRAN/tibble r_suggests_frailtypack? ( sci-CRAN/frailtypack ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/recforest_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=83588837707eab9bbebff795bc2d20ef
