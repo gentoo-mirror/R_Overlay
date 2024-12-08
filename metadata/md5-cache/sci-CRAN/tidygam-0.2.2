@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/cli sci-CRAN/glue sci-CRAN/tidyselect sci-CRAN/dplyr sci-CRAN/insight sci-CRAN/magrittr virtual/mgcv sci-CRAN/rlang sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Tidy Prediction and Plotting of ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/cli sci-CRAN/glue sci-CRAN/tidyselect sci-CRAN/dplyr sci-CRAN/insight sci-CRAN/magrittr virtual/mgcv sci-CRAN/rlang sci-CRAN/tidyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tidygam_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=83b44e10b427253af01bc194239ac064

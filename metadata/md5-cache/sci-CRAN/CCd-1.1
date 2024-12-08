@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/Rfast dev-lang/R:=
+DESCRIPTION=The Cauchy-Cacoullos (Discrete C... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rfast2 r_suggests_skellam byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/Rfast r_suggests_rfast2? ( sci-CRAN/Rfast2 ) r_suggests_skellam? ( sci-CRAN/skellam ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CCd_1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1b6e307adb0edcc8d33e5b339ac74880
