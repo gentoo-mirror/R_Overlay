@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 virtual/cluster sci-CRAN/RColorBrewer sci-CRAN/colorspace virtual/boot sci-CRAN/vegan dev-lang/R:=
+DESCRIPTION=Trajectory Miner: a Sequence Analysis Toolkit
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cluster r_suggests_traminerextras r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 virtual/cluster sci-CRAN/RColorBrewer sci-CRAN/colorspace virtual/boot sci-CRAN/vegan r_suggests_cluster? ( virtual/cluster ) r_suggests_traminerextras? ( sci-CRAN/TraMineRextras ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TraMineR_2.2-11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1fbd05ad1ac7a58629ef143a87ff1cd2
