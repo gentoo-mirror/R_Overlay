@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/quantreg-5.36 >=sci-CRAN/ggplot2-3.3.0 virtual/boot >=sci-CRAN/robustbase-0.92.7 >=sci-CRAN/sn-1.5.4 dev-lang/R:=
+DESCRIPTION=(Robust) Mediation Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/quantreg-5.36 >=sci-CRAN/ggplot2-3.3.0 virtual/boot >=sci-CRAN/robustbase-0.92.7 >=sci-CRAN/sn-1.5.4 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/robmed_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c98e69c427a0c239d61880d8606aac93

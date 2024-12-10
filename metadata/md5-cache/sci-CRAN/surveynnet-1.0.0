@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nnet sci-CRAN/survey sci-CRAN/PracTools virtual/survival sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Neural Network for Complex Survey Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/nnet sci-CRAN/survey sci-CRAN/PracTools virtual/survival sci-CRAN/dplyr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/surveynnet_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=33abcca6396e24017aa17c47c9628eb9

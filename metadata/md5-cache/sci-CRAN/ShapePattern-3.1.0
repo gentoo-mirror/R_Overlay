@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 sci-CRAN/igraph sci-CRAN/sp sci-CRAN/terra sci-CRAN/landscapemetrics sci-CRAN/raster dev-lang/R:=
+DESCRIPTION=Tools for Analyzing Shapes and Patterns
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.3.0 sci-CRAN/igraph sci-CRAN/sp sci-CRAN/terra sci-CRAN/landscapemetrics sci-CRAN/raster dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ShapePattern_3.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=aef609a30312f6b69c242f58fc4cc9a1

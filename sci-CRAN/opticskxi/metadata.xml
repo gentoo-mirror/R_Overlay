@@ -2,9 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		OPTICS K-Xi Density-Based Clustering // Provides a novel density-
-		based cluster extraction method, OPTICS k-Xi, and a framework
-		to compare k-Xi models using distance-based metrics to
-		investigate datasets with unknown number of clusters.
+		OPTICS K-Xi Density-Based Clustering // Density-based clustering
+		methods are well adapted to the clustering of high-dimensional
+		data and enable the discovery of core groups of various shapes
+		despite large amounts of noise. This package provides a novel
+		density-based cluster extraction method, OPTICS k-Xi, and a
+		framework to compare k-Xi models using distance-based metrics
+		to investigate datasets with unknown number of clusters. The
+		vignette first introduces density-based algorithms with
+		simulated datasets, then presents and evaluates the k-Xi
+		cluster extraction method. Finally, the models comparison
+		framework is described and experimented on 2 genetic datasets
+		to identify groups and their discriminating features. The k-Xi
+		algorithm is a novel OPTICS cluster extraction method that
+		specifies directly the number of clusters and does not require
+		fine-tuning of the steepness parameter as the OPTICS Xi method.
+		Combined with a framework that compares models with varying
+		parameters, the OPTICS k-Xi method can identify groups in noisy
+		datasets with unknown number of clusters. Results on summarized
+		genetic data of 1,200 patients are in Charlon T. (2019)
+		doi:10.13097/archive-ouverte/unige:161795.
 	</longdescription>
 </pkgmetadata>

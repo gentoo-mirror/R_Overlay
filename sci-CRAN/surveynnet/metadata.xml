@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Neural Network for Complex Survey Data // The goal of
+		'surveynnet' is to extend the functionality of 'nnet', which
+		already supports survey weights, by enabling it to handle
+		clustered and stratified data. It achieves this by
+		incorporating design effects through the use of effective
+		sample sizes as outlined by Chen and Rust (2017),
+		doi:10.1093/jssam/smw036, and performed by 'deffCR' in the
+		package 'PracTools' (Valliant, Dever, and Kreuter (2018),
+		doi:10.1007/978-3-319-93632-1).
+	</longdescription>
+</pkgmetadata>
