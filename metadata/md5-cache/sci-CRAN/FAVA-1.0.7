@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Quantify Compositional Variabili... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ape r_suggests_gridextra r_suggests_kableextra r_suggests_patchwork r_suggests_phyloseq r_suggests_purrr r_suggests_rmarkdown r_suggests_testthat r_suggests_viridis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/rlang r_suggests_ape? ( sci-CRAN/ape ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_patchwork? ( >=sci-CRAN/patchwork-1.2.0 ) r_suggests_phyloseq? ( sci-BIOC/phyloseq ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FAVA_1.0.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d71942272bda5a6c7bf2e56eaa9fd2a4

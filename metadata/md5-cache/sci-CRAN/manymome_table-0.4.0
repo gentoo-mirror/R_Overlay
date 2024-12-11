@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/manymome sci-CRAN/flextable dev-lang/R:=
+DESCRIPTION=Publication-Ready Tables for manymome Results
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_lavaan r_suggests_officer r_suggests_rmarkdown r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/manymome sci-CRAN/flextable r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lavaan? ( sci-CRAN/lavaan ) r_suggests_officer? ( sci-CRAN/officer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/manymome.table_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3ab14234e23f8f1f909284920caaf819

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/base64enc >sci-CRAN/declared-0.24 sci-CRAN/digest >sci-CRAN/admisc-0.36 sci-CRAN/xml2 sci-CRAN/haven sci-CRAN/readxl sci-CRAN/writexl dev-lang/R:=
+DESCRIPTION=DDI with R
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/base64enc >sci-CRAN/declared-0.24 sci-CRAN/digest >sci-CRAN/admisc-0.36 sci-CRAN/xml2 sci-CRAN/haven sci-CRAN/readxl sci-CRAN/writexl dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DDIwR_0.19.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec4490ba5a5136a7710d2d5008d5fa9b
