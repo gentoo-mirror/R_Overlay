@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Statistical Evaluation of UMAP Dimensionality Reductions // A
+		metric expressing the quality of a UMAP layout. This is a
+		package that contains the Saturn_coefficient() function that
+		reads an input matrix, its dimensionality reduction produced by
+		UMAP, and evaluates the quality of this dimensionality
+		reduction by producing a real value in the [0; 1] interval. We
+		call this real value Saturn coefficient. A higher value means
+		better dimensionality reduction; a lower value means worse
+		dimensionality reduction. Reference: Davide Chicco et al. "The
+		Saturn coefficient for evaluating the quality of UMAP
+		dimensionality reduction results" (2025, in preparation).
+	</longdescription>
+</pkgmetadata>
