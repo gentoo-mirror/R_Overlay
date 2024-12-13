@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/nleqslv sci-CRAN/EnvStats sci-CRAN/numDeriv sci-CRAN/pbivnorm virtual/survival sci-CRAN/doParallel virtual/MASS sci-CRAN/OpenMx sci-CRAN/copula sci-CRAN/nloptr virtual/Matrix sci-CRAN/foreach sci-CRAN/mvtnorm sci-CRAN/stringr virtual/Matrix sci-CRAN/rafalib sci-CRAN/rvinecopulib dev-lang/R:=
+DESCRIPTION=Statistical Methods for Survival... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/nleqslv sci-CRAN/EnvStats sci-CRAN/numDeriv sci-CRAN/pbivnorm virtual/survival sci-CRAN/doParallel virtual/MASS sci-CRAN/OpenMx sci-CRAN/copula sci-CRAN/nloptr virtual/Matrix sci-CRAN/foreach sci-CRAN/mvtnorm sci-CRAN/stringr virtual/Matrix sci-CRAN/rafalib sci-CRAN/rvinecopulib r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/depCensoring_0.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=226bda8dfef9ed12c5b792eeb08c2dfc

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/bittermelon-1.1.2 dev-lang/R:=
+DESCRIPTION=GNU Unifont Hex Fonts
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_oblicubes r_suggests_rmarkdown r_suggests_testthat r_suggests_unicode byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/bittermelon-1.1.2 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_oblicubes? ( sci-CRAN/oblicubes ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_unicode? ( sci-CRAN/Unicode ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hexfont_0.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8b8b771e413c85d4efa7ca814f4e59de

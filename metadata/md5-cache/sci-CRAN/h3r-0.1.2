@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/h3lib-0.1.4 dev-lang/R:=
+DESCRIPTION=Hexagonal Hierarchical Geospatial Indexing System
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/h3lib-0.1.4 sci-CRAN/h3lib r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/h3r_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3b3a91c786db821af85cf6ee2b6a65b2
