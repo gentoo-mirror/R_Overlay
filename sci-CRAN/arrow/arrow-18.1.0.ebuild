@@ -54,6 +54,6 @@ DEPEND="sci-CRAN/vctrs
 "
 RDEPEND="${DEPEND-}
 	>=sci-CRAN/cpp11-0.4.2
-	dev-util/cmake
+	dev-build/cmake
 	${R_SUGGESTS-}
 "
