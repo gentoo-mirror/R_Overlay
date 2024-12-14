@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/lme4 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Bias Diagnostic for Linear Mixed Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_plm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/lme4 virtual/Matrix r_suggests_plm? ( sci-CRAN/plm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mixedbiastest_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=31eb287bb6224d2f6a7c8456f5000b88
