@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lmerTest sci-CRAN/mathjaxr sci-CRAN/magrittr sci-CRAN/tibble sci-CRAN/patchwork >=sci-CRAN/rlang-0.4.11 >=dev-lang/R-4.1.0 sci-CRAN/tidyr sci-CRAN/GGally >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/ggplot2-3.3.0 sci-CRAN/ggforce sci-CRAN/ggrepel sci-CRAN/lme4 >=sci-CRAN/tidyselect-1.0.0 sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Multi Environment Trials Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dt r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_rstudioapi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/lmerTest sci-CRAN/mathjaxr sci-CRAN/magrittr sci-CRAN/tibble sci-CRAN/patchwork >=sci-CRAN/rlang-0.4.11 >=dev-lang/R-4.1.0 sci-CRAN/tidyr sci-CRAN/GGally >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/ggplot2-3.3.0 sci-CRAN/ggforce sci-CRAN/ggrepel sci-CRAN/lme4 >=sci-CRAN/tidyselect-1.0.0 sci-CRAN/purrr r_suggests_dt? ( sci-CRAN/DT ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/metan_1.19.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=133bbfa13d646d7f3339117e7dadd126
