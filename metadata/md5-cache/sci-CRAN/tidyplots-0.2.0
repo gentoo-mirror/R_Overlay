@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyselect sci-CRAN/ggrepel sci-CRAN/glue sci-CRAN/stringr sci-CRAN/lifecycle sci-CRAN/scales sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/forcats sci-CRAN/tidyr sci-CRAN/ggbeeswarm sci-CRAN/patchwork sci-CRAN/htmltools >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/Hmisc sci-CRAN/ggrastr sci-CRAN/ggpubr dev-lang/R:=
+DESCRIPTION=Tidy Plots for Scientific Papers
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tidyselect sci-CRAN/ggrepel sci-CRAN/glue sci-CRAN/stringr sci-CRAN/lifecycle sci-CRAN/scales sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/forcats sci-CRAN/tidyr sci-CRAN/ggbeeswarm sci-CRAN/patchwork sci-CRAN/htmltools >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/Hmisc sci-CRAN/ggrastr sci-CRAN/ggpubr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tidyplots_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c43d259981994b4d433fc41852e0b692
