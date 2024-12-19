@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/zoo sci-CRAN/epsiwal virtual/Matrix dev-lang/R:=
+DESCRIPTION=Statistical Significance of the Sharpe Ratio
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mass r_suggests_quantmod r_suggests_sandwich r_suggests_testthat r_suggests_timeseries r_suggests_ttr r_suggests_txtplot r_suggests_xtable r_suggests_xts byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/zoo sci-CRAN/epsiwal virtual/Matrix r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_quantmod? ( sci-CRAN/quantmod ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_timeseries? ( sci-CRAN/timeSeries ) r_suggests_ttr? ( sci-CRAN/TTR ) r_suggests_txtplot? ( sci-CRAN/txtplot ) r_suggests_xtable? ( sci-CRAN/xtable ) r_suggests_xts? ( sci-CRAN/xts ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SharpeR_1.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a521a2df54f1be86380a65acacac9302

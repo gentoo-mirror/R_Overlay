@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mathjaxr sci-CRAN/Rdpack sci-CRAN/mnonr dev-lang/R:=
+DESCRIPTION=Statistical Methods for Psychologists
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/mathjaxr sci-CRAN/Rdpack sci-CRAN/mnonr r_suggests_mass? ( virtual/MASS ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/statpsych_1.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e431a5423a179f8cfd38e89f256423d7

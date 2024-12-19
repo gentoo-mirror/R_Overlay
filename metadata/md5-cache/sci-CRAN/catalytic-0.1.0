@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/coda sci-CRAN/rstan sci-CRAN/rlang >=dev-lang/R-3.5.0 sci-CRAN/invgamma sci-CRAN/truncnorm virtual/MASS sci-CRAN/lme4 sci-CRAN/quadform dev-lang/R:=
+DESCRIPTION=Tools for Applying Catalytic Pri... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_proc r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/survival sci-CRAN/coda sci-CRAN/rstan sci-CRAN/rlang >=dev-lang/R-3.5.0 sci-CRAN/invgamma sci-CRAN/truncnorm virtual/MASS sci-CRAN/lme4 sci-CRAN/quadform r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/catalytic_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6053da77acca1601987c62dd15294626
