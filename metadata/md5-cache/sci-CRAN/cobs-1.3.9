@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/SparseM-1.6 >=sci-CRAN/quantreg-4.65 dev-lang/R:=
+DESCRIPTION=Constrained B-Splines (Sparse Matrix Based)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_matrix byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/SparseM-1.6 >=sci-CRAN/quantreg-4.65 r_suggests_matrix? ( virtual/Matrix ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cobs_1.3-9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c0f8c99d21460f35b2d0f7127b12affd

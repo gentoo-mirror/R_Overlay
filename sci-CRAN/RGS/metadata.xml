@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Recursive Gradient Scanning Algorithm // Provides a recursive
+		gradient scanning algorithm for discretizing continuous
+		variables in Logistic and Cox regression models. This algorithm
+		is especially effective in identifying optimal cut-points for
+		variables with U-shaped relationships to 'lnOR' (the natural
+		logarithm of the odds ratio) or 'lnHR' (the natural logarithm
+		of the hazard ratio), thereby enhancing model fit,
+		interpretability, and predictive power. By iteratively scanning
+		and calculating gradient changes, the method accurately
+		pinpoints critical cut-points within nonlinear relationships,
+		transforming continuous variables into categorical ones. This
+		approach improves risk classification and regression analysis
+		performance, increasing interpretability and practical
+		relevance in clinical and risk management settings.
+	</longdescription>
+</pkgmetadata>

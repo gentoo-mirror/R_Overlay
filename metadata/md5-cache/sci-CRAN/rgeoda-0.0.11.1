@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/Rcpp-1.0.1 sci-CRAN/digest sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=R Library for Spatial Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_sp r_suggests_wkb byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/Rcpp-1.0.1 sci-CRAN/digest sci-CRAN/sf sci-CRAN/Rcpp >=sci-CRAN/BH-1.87.0.1 r_suggests_sp? ( sci-CRAN/sp ) r_suggests_wkb? ( sci-CRAN/wkb ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rgeoda_0.0.11-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5d6af544deb88cee9ad16a711d085b81
