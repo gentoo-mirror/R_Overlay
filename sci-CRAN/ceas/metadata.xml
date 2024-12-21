@@ -2,17 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Cellular Energetics Analysis Software // Analysis and
-		visualization of cellular energetics data from Agilent Seahorse
-		XF96. Cellular energetics is how cells make, use, and
-		distribute units of energy (primarily ATP). Measuring real-time
-		cellular energetics is essential to understanding a tissue or
-		cells bioenergetic state and fuel dependencies. The Seahorse
-		machine measures a cells or matrixs oxygen consumption rate
-		(OCR)  a proxy of oxidative phosphorylation  and extracellular
-		acidification rate  a proxy of glycolysis. This package offers
-		flexible and fast analysis and plotting capabilities for such
-		data using the methods described by Mookerjee et al. (2017)
+		Cellular Energetics Analysis Software // Measuring cellular
+		energetics is essential to understanding a matrixs (e.g. cell,
+		tissue or biofluid) metabolic state. The Agilent Seahorse
+		machine is a common method to measure real-time cellular
+		energetics, but existing analysis tools are highly manual or
+		lack functionality. The Cellular Energetics Analysis Software
+		(ceas) R package fills this analytical gap by providing modular
+		and automated Seahorse data analysis and visualization using
+		the methods described by Mookerjee et al. (2017)
 		doi:10.1074/jbc.m116.774471.
 	</longdescription>
 </pkgmetadata>

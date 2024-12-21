@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/rstudioapi sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Didactic Econometrics Starter Kit
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_wooldridge byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/rstudioapi sci-CRAN/cli r_suggests_wooldridge? ( sci-CRAN/wooldridge ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/desk_1.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0c7e9b598470b2c2c586b2db01971afc
