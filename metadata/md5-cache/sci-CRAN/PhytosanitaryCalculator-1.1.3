@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny sci-CRAN/AcceptanceSampling sci-CRAN/rmarkdown sci-CRAN/htmltools dev-lang/R:=
+DESCRIPTION=Phytosanitary Calculator for Ins... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_rlang r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/shiny sci-CRAN/AcceptanceSampling sci-CRAN/rmarkdown sci-CRAN/htmltools r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PhytosanitaryCalculator_1.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b4c8047bb27fb228a927f7def8a34b4e
