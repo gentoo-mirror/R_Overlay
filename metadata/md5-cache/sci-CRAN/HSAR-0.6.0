@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 virtual/spatial sci-CRAN/spdep dev-lang/R:=
+DESCRIPTION=Hierarchical Spatial Autoregressive Model
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_matrix r_suggests_rcolorbrewer r_suggests_rcpp r_suggests_rcpparmadillo r_suggests_rmarkdown r_suggests_sdsfun r_suggests_sf r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5 virtual/spatial sci-CRAN/spdep sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rcpp? ( sci-CRAN/Rcpp ) r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sdsfun? ( sci-CRAN/sdsfun ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/HSAR_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1595161685a5c98ec866a9830a1a7bd6
