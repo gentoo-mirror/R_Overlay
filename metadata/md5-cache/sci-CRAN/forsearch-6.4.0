@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 >=sci-CRAN/formula_tools-1.7.1 >=sci-CRAN/Cairo-1.6.2 >=sci-CRAN/ggplot2-3.5.1 >=sci-CRAN/Hmisc-5.2.1 virtual/nlme >=sci-CRAN/rlang-1.1.4 virtual/survival >=sci-CRAN/tibble-3.2.1 dev-lang/R:=
+DESCRIPTION=Diagnostic Analysis Using Forwar... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.3.0 >=sci-CRAN/formula_tools-1.7.1 >=sci-CRAN/Cairo-1.6.2 >=sci-CRAN/ggplot2-3.5.1 >=sci-CRAN/Hmisc-5.2.1 virtual/nlme >=sci-CRAN/rlang-1.1.4 virtual/survival >=sci-CRAN/tibble-3.2.1 dev-libs/gmp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/forsearch_6.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=283a5d27c2bc23fafa402b1c7f2b0ad2

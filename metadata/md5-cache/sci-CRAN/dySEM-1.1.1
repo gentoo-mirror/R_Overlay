@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lavaan sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/lifecycle sci-CRAN/gt sci-CRAN/rlang sci-CRAN/semPlot sci-CRAN/stringr sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Dyadic Structural Equation Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/lavaan sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/lifecycle sci-CRAN/gt sci-CRAN/rlang sci-CRAN/semPlot sci-CRAN/stringr sci-CRAN/tibble r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dySEM_1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1ac2fcd523e99b6a1f8ccf9e644e8a53

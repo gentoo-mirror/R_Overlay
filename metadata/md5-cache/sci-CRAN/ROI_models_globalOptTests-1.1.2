@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ROI-0.3.0 sci-CRAN/globalOptTests dev-lang/R:=
+DESCRIPTION=ROI Optimization Problems Based on globalOptTests
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glpk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/ROI-0.3.0 sci-CRAN/globalOptTests r_suggests_glpk? ( sci-mathematics/glpk ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ROI.models.globalOptTests_1.1-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=12072783b0d904280ec17b64e0eec2f8
