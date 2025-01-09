@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Construct Explainable Nomogram for a Machine Learning Model //
+		Construct an explainable nomogram for a machine learning (ML)
+		model to improve availability of an ML prediction model in
+		addition to a computer application, particularly in a situation
+		where a computer, a mobile phone, an internet connection, or
+		the application accessibility are unreliable. This package
+		enables a nomogram creation for any ML prediction models, which
+		is conventionally limited to only a linear/logistic regression
+		model. This nomogram may indicate the explainability value per
+		feature, e.g., the Shapley additive explanation value, for each
+		individual. However, this package only allows a nomogram
+		creation for a model using categorical without or with single
+		numerical predictors. Detailed methodologies and examples are
+		documented in our vignette, available at https://htmlpreview.gi
+		thub.io/?https://github.com/herdiantrisufriyana/rmlnomogram/blo
+		b/master/doc/ml_nomogram_exemplar.html.
+	</longdescription>
+</pkgmetadata>

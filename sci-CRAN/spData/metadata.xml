@@ -7,8 +7,9 @@
 		It includes R data of class sf (defined by the package 'sf'),
 		Spatial ('sp'), and nb ('spdep'). Unlike other spatial data
 		packages such as 'rnaturalearth' and 'maps', it also contains
-		data stored in a range of file formats including GeoJSON, ESRI
-		Shapefile and GeoPackage. Some of the datasets are designed to
+		data stored in a range of file formats including GeoJSON and
+		GeoPackage, but from version 2.3.4, no longer ESRI Shapefile -
+		use GeoPackage instead. Some of the datasets are designed to
 		illustrate specific analysis techniques. cycle_hire() and
 		cycle_hire_osm(), for example, is designed to illustrate point
 		pattern analysis techniques.

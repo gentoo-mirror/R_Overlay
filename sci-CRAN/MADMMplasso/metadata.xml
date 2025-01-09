@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi Variate Multi Response ADMM with Interaction Effects //
+		This system allows one to model a multi-variate, multi-response
+		problem with interaction effects. It combines the usual squared
+		error loss for the multi-response problem with some penalty
+		terms to encourage responses that correlate to form groups and
+		also allow for modeling main and interaction effects that exit
+		within the covariates. The optimization method employed is the
+		Alternating Direction Method of Multipliers (ADMM). The
+		implementation is based on the methodology presented on Quachie
+		Asenso, T.,  Zucknick, M. (2023) doi:10.48550/arXiv.2303.11155.
+	</longdescription>
+</pkgmetadata>

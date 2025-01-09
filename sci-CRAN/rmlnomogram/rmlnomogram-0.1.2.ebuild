@@ -1,0 +1,32 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Construct Explainable Nomogram f... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/rmlnomogram_0.1.2.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_caret r_suggests_iml r_suggests_knitr
+	r_suggests_randomforest r_suggests_testthat r_suggests_tidyverse"
+R_SUGGESTS="
+	r_suggests_caret? ( sci-CRAN/caret )
+	r_suggests_iml? ( sci-CRAN/iml )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_randomforest? ( sci-CRAN/randomForest )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+	r_suggests_tidyverse? ( sci-CRAN/tidyverse )
+"
+DEPEND=">=dev-lang/R-4.4
+	sci-CRAN/dplyr
+	sci-CRAN/ggplot2
+	sci-CRAN/purrr
+	sci-CRAN/broom
+	sci-CRAN/ggpubr
+	sci-CRAN/stringr
+	sci-CRAN/tidyr
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

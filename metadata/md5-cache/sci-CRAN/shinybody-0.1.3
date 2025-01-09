@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools sci-CRAN/crosstalk >=sci-CRAN/htmlwidgets-0.8 dev-lang/R:=
+DESCRIPTION=An Interactive Anatomography Widget for shiny
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_shiny byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/htmltools sci-CRAN/crosstalk >=sci-CRAN/htmlwidgets-0.8 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/shinybody_0.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=04742a5e67c3fc9937436bea70814caf

@@ -2,20 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Assessing Dissimilarity Between Multivariate Time Series //
-		Provides tools to assess the dissimilarity between multivariate
-		time-series. It is based on the psi measure described  by Birks
-		and Gordon (1985 doi:10.1002/jqs.3390020110), which computes
-		dissimilarity between irregular time-series constrained by
-		sample order. However, in this package the original idea has
-		been extended to work with any kind of multivariate time-
-		series, no matter whether they are regular, irregular, aligned
-		or unaligned. Furthermore, the package allows to assess the
-		significance of dissimilarity values by applying a restricted
-		permutation test, allows to measure the contribution of
-		individual variables to dissimilarity, and offers tools to
-		transfer attributes (generally time or age, but other are
-		possible) between sequences based on the similarity of their
-		samples.
+		Advanced Toolset for Efficient Time Series Dissimilarity Analysis
+		// Fast C++ implementation of Dynamic Time Warping for time
+		series dissimilarity analysis, with applications in
+		environmental monitoring and sensor data analysis, climate
+		science, signal processing and pattern recognition, and
+		financial data analysis. Built upon the ideas presented in
+		Benito and Birks (2020) doi:10.1111/ecog.04895, provides tools
+		for analyzing time series of varying lengths and structures,
+		including irregular multivariate time series. Key features
+		include individual variable contribution analysis, restricted
+		permutation tests for statistical significance, and imputation
+		of missing data via GAMs. Additionally, the package provides an
+		ample set of tools to prepare and manage time series data.
 	</longdescription>
 </pkgmetadata>

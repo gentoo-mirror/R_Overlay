@@ -4,10 +4,13 @@
 	<longdescription>
 		Calculate Distance Measures for a Given List of Data Frames with
 		Factors // It provides functions that calculate Mahalanobis
-		distance, Euclidean distance, Manhattan distance and Chebyshev
-		distance between each pair of species in a list of data frames.
-		These metrics are fundamental in various fields, such as
-		cluster analysis, classification, and other applications of
+		distance, Euclidean distance, Manhattan distance, Chebyshev
+		distance, Hamming distance, Canberra distance, Minkowski
+		distance, Cosine distance, Bhattacharyya distance, Jaccard
+		distance, Hellinger distance, Bray-Curtis distance, Sorensen-
+		Dice distance between each pair of species in a list of data
+		frames. These metrics are fundamental in various fields, such
+		as cluster analysis, classification, and other applications of
 		machine learning and data mining, where assessing similarity or
 		dissimilarity between data is crucial. The package is designed
 		to be flexible and easily integrated into data analysis

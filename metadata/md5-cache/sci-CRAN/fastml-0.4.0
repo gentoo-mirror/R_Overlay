@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RColorBrewer sci-CRAN/htmlwidgets sci-CRAN/workflows sci-CRAN/plsmod sci-CRAN/janitor sci-CRAN/GGally sci-CRAN/rlang sci-CRAN/bonsai sci-CRAN/doFuture sci-CRAN/finetune sci-CRAN/recipes sci-CRAN/discrim sci-CRAN/pROC sci-CRAN/dials sci-CRAN/tune sci-CRAN/rsample sci-CRAN/UpSetR sci-CRAN/gridExtra sci-CRAN/moments sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/DALEX sci-CRAN/scales sci-CRAN/stringr sci-CRAN/knitr sci-CRAN/parsnip sci-CRAN/patchwork sci-CRAN/VIM sci-CRAN/kableExtra sci-CRAN/skimr sci-CRAN/ggpubr sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/future sci-CRAN/tibble sci-CRAN/reshape2 sci-CRAN/viridisLite sci-CRAN/dbscan sci-CRAN/yardstick sci-CRAN/naniar sci-CRAN/broom sci-CRAN/plotly sci-CRAN/DT sci-CRAN/rmarkdown sci-CRAN/baguette dev-lang/R:=
+DESCRIPTION=Fast Machine Learning Model Trai... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_c50 r_suggests_crayon r_suggests_glmnet r_suggests_kernlab r_suggests_kknn r_suggests_klar r_suggests_lightgbm r_suggests_mixomics r_suggests_ranger r_suggests_rstanarm r_suggests_testthat r_suggests_xgboost byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/RColorBrewer sci-CRAN/htmlwidgets sci-CRAN/workflows sci-CRAN/plsmod sci-CRAN/janitor sci-CRAN/GGally sci-CRAN/rlang sci-CRAN/bonsai sci-CRAN/doFuture sci-CRAN/finetune sci-CRAN/recipes sci-CRAN/discrim sci-CRAN/pROC sci-CRAN/dials sci-CRAN/tune sci-CRAN/rsample sci-CRAN/UpSetR sci-CRAN/gridExtra sci-CRAN/moments sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/DALEX sci-CRAN/scales sci-CRAN/stringr sci-CRAN/knitr sci-CRAN/parsnip sci-CRAN/patchwork sci-CRAN/VIM sci-CRAN/kableExtra sci-CRAN/skimr sci-CRAN/ggpubr sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/future sci-CRAN/tibble sci-CRAN/reshape2 sci-CRAN/viridisLite sci-CRAN/dbscan sci-CRAN/yardstick sci-CRAN/naniar sci-CRAN/broom sci-CRAN/plotly sci-CRAN/DT sci-CRAN/rmarkdown sci-CRAN/baguette r_suggests_c50? ( sci-CRAN/C50 ) r_suggests_crayon? ( sci-CRAN/crayon ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_kknn? ( sci-CRAN/kknn ) r_suggests_klar? ( sci-CRAN/klaR ) r_suggests_lightgbm? ( sci-CRAN/lightgbm ) r_suggests_mixomics? ( sci-BIOC/mixOmics ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rstanarm? ( sci-CRAN/rstanarm ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fastml_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=81b01e3d352d797af3915d75ca0e9d4c
