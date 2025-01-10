@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sequential Change Point Detection for High-Dimensional VAR Models
+		// Implements the algorithm introduced in Tian, Y., and
+		Safikhani, A. (2024) doi:10.5705/ss.202024.0182, "Sequential
+		Change Point Detection in High-dimensional Vector Auto-
+		regressive Models". This package provides tools for detecting
+		change points in the transition matrices of Vector Auto-
+		Regressive (VAR) models, effectively identifying shifts in
+		temporal and cross-correlations within high-dimensional time
+		series data. The package includes functions to generate
+		synthetic VAR data, detect change points in high-dimensional
+		time series, and analyze real-world data. It also demonstrates
+		an application to financial data: the daily log returns of 186
+		SP 500 stocks from 2004-02-06 to 2016-03-02.
+	</longdescription>
+</pkgmetadata>

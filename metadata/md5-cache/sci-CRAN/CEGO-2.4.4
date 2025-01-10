@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/DEoptim sci-CRAN/quadprog virtual/Matrix virtual/MASS sci-CRAN/fastmatch sci-CRAN/anticlust dev-lang/R:=
+DESCRIPTION=Combinatorial Efficient Global Optimization
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_nloptr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/DEoptim sci-CRAN/quadprog virtual/Matrix virtual/MASS sci-CRAN/fastmatch sci-CRAN/anticlust r_suggests_nloptr? ( sci-CRAN/nloptr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CEGO_2.4.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dcfa0a856bc3857ecd5b7f18ef96df0a

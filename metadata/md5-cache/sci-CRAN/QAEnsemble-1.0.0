@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Ensemble Quadratic and Affine In... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_coda r_suggests_diagram r_suggests_expm r_suggests_knitr r_suggests_rmarkdown r_suggests_svmisc byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=r_suggests_coda? ( sci-CRAN/coda ) r_suggests_diagram? ( sci-CRAN/diagram ) r_suggests_expm? ( sci-CRAN/expm ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_svmisc? ( sci-CRAN/svMisc ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/QAEnsemble_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0b03fd2539667010fbe05c30bf588237

@@ -8,6 +8,11 @@
 		points to see where specific points are located and click
 		points on/off to easily label them. Labels can be dragged
 		around the plot to place them optimally. Plots can be exported
-		directly to PDF for publication.
+		directly to PDF for publication. For plots with large numbers
+		of points, points can optionally be rasterized as a bitmap,
+		while all other elements (axes, text, labels  lines) are
+		preserved as vector objects. This can dramatically reduce file
+		size for plots with millions of points such as Manhattan plots,
+		and is ideal for publication.
 	</longdescription>
 </pkgmetadata>

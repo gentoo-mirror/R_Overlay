@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Execute R in a 'Docker' Context // The goal of 'jetty' is to
+		execute R functions and code snippets in an isolated R
+		subprocess within a 'Docker' container and return the evaluated
+		results to the local R session. 'jetty' can install necessary
+		packages at runtime and seamlessly propagates errors and
+		outputs from the 'Docker' subprocess back to the main session.
+		'jetty' is primarily designed for sandboxed testing and quick
+		execution of example code.
+	</longdescription>
+</pkgmetadata>

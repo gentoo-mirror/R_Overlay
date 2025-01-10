@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.1 sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/minpack_lm sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/lhs sci-CRAN/cli sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Robust Non-Linear Regression using AIC Scores
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_broom r_suggests_ggplot2 r_suggests_nlstools r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.2.1 sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/minpack_lm sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/lhs sci-CRAN/cli sci-CRAN/rlang r_suggests_broom? ( sci-CRAN/broom ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_nlstools? ( sci-CRAN/nlstools ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nls.multstart_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=09a00f69bdbc3dea1b0720f29dba07ac
