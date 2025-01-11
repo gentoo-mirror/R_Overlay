@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/glmmTMB virtual/Matrix sci-CRAN/brms sci-CRAN/future sci-CRAN/MCMCpack sci-CRAN/furrr virtual/nlme sci-CRAN/parallelly sci-CRAN/tidyr sci-CRAN/posterior dev-lang/R:=
+DESCRIPTION=Utility Functions for Multilevel... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bh r_suggests_boot r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/glmmTMB virtual/Matrix sci-CRAN/brms sci-CRAN/future sci-CRAN/MCMCpack sci-CRAN/furrr virtual/nlme sci-CRAN/parallelly sci-CRAN/tidyr sci-CRAN/posterior r_suggests_bh? ( sci-CRAN/BH ) r_suggests_boot? ( virtual/boot ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/multilevelmediation_0.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0fb581919ea1d26de84bf1ba27371de9

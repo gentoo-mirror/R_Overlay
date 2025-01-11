@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Create Large Scale Repeated Regression Summary Statistics Dataset
+		and Visualization Seamlessly // Mapping, spatial analysis, and
+		statistical modeling of microdata from sources such as the
+		Demographic and Health Surveys https://www.dhsprogram.com/ and
+		Integrated Public Use Microdata Series https://www.ipums.org/.
+		It can also be extended to other datasets. The package supports
+		spatial correlation index construction and visualization, along
+		with empirical Bayes approximation of regression coefficients
+		in a multistage setup.  The main functionality is repeated
+		regression  for example, if we have to run regression for n
+		groups, the group ID should be vertically composed into the
+		variable for the parameter `location_var`. It can perform
+		various kinds of regression, such as Generalized Regression
+		Models, logit, probit, and more. Additionally, it can
+		incorporate interaction effects. The key benefit of the package
+		is its ability to store the regression results performed
+		repeatedly on a dataset by the group ID, along with respective
+		p-values and map those estimates.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringi sci-CRAN/glue sci-CRAN/zip sci-CRAN/rlang sci-CRAN/forcats >=dev-lang/R-4.2.0 sci-CRAN/fs sci-CRAN/cli sci-CRAN/vctrs sci-CRAN/tidyselect sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/bcrypt sci-CRAN/rstudioapi sci-CRAN/yaml dev-lang/R:=
+DESCRIPTION=Base Tools for Semi-Automatic Re... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_haven r_suggests_labelled r_suggests_purrr r_suggests_qs r_suggests_readr r_suggests_spelling r_suggests_srvyr r_suggests_testthat r_suggests_tibble r_suggests_usethis r_suggests_withr r_suggests_writexl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/stringi sci-CRAN/glue sci-CRAN/zip sci-CRAN/rlang sci-CRAN/forcats >=dev-lang/R-4.2.0 sci-CRAN/fs sci-CRAN/cli sci-CRAN/vctrs sci-CRAN/tidyselect sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/bcrypt sci-CRAN/rstudioapi sci-CRAN/yaml r_suggests_covr? ( sci-CRAN/covr ) r_suggests_haven? ( sci-CRAN/haven ) r_suggests_labelled? ( sci-CRAN/labelled ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_qs? ( sci-CRAN/qs ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_srvyr? ( sci-CRAN/srvyr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_usethis? ( sci-CRAN/usethis ) r_suggests_withr? ( sci-CRAN/withr ) r_suggests_writexl? ( sci-CRAN/writexl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/saros.base_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ac2e5d72b55bb917e9c11b92265572ea

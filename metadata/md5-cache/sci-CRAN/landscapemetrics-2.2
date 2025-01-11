@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 >=sci-CRAN/Rcpp-0.11.0 sci-CRAN/terra sci-CRAN/cli sci-CRAN/ggplot2 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Landscape Metrics for Categorical Map Patterns
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_knitr r_suggests_raster r_suggests_rmarkdown r_suggests_sf r_suggests_sp r_suggests_stars r_suggests_stringr r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6 >=sci-CRAN/Rcpp-0.11.0 sci-CRAN/terra sci-CRAN/cli sci-CRAN/ggplot2 sci-CRAN/tibble sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_stars? ( sci-CRAN/stars ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/landscapemetrics_2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dd97bdac9ef83dd4e173556d294b8366
