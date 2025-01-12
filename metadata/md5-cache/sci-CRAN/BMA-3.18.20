@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/robustbase sci-CRAN/rrcov sci-CRAN/leaps sci-CRAN/inline dev-lang/R:=
+DESCRIPTION=Bayesian Model Averaging
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/survival sci-CRAN/robustbase sci-CRAN/rrcov sci-CRAN/leaps sci-CRAN/inline r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BMA_3.18.20.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=18c921783f593c8ffaa8e6c46a3011ac
