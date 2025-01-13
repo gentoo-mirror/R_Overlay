@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/memoise sci-CRAN/glue sci-CRAN/purrr sci-CRAN/httr >=dev-lang/R-4.0 sci-CRAN/stringr sci-CRAN/jsonlite sci-CRAN/dplyr >=sci-CRAN/duckdbfs-0.0.9 sci-CRAN/rlang sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=R Interface to FishBase
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_curl r_suggests_knitr r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/memoise sci-CRAN/glue sci-CRAN/purrr sci-CRAN/httr >=dev-lang/R-4.0 sci-CRAN/stringr sci-CRAN/jsonlite sci-CRAN/dplyr >=sci-CRAN/duckdbfs-0.0.9 sci-CRAN/rlang sci-CRAN/magrittr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rfishbase_5.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ae62f6a6de76cabeae53f460b28fc72f
