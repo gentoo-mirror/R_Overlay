@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/tuneR dev-lang/R:=
+DESCRIPTION=A Simple Sequencer for Data Sonification
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_gganimate r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/tuneR r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_gganimate? ( sci-CRAN/gganimate ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sequenceR_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=59a9e1c63a6edd4803b291fab289276e

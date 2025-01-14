@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fda sci-CRAN/sp sci-CRAN/raster sci-CRAN/gdistance virtual/Matrix dev-lang/R:=
+DESCRIPTION=Modeling Animal Movement with Co... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mgcv byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/fda sci-CRAN/sp sci-CRAN/raster sci-CRAN/gdistance virtual/Matrix r_suggests_mgcv? ( virtual/mgcv ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ctmcmove_1.2.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bbc0d5c0e6c6c69b67a7238b82b91b78

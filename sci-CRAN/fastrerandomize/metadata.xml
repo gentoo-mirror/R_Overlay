@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Hardware-Accelerated Rerandomization for Improved Balance //
+		Provides hardware-accelerated tools for performing
+		rerandomization and randomization testing in experimental
+		research. Using a 'JAX' backend, the package enables exact
+		rerandomization inference even for large experiments with
+		hundreds of billions of possible randomizations. Key
+		functionalities include generating pools of acceptable
+		rerandomizations based on covariate balance, conducting exact
+		randomization tests, and performing pre-analysis evaluations to
+		determine optimal rerandomization acceptance thresholds. The
+		package supports various hardware acceleration frameworks
+		including 'CPU', 'CUDA', and 'METAL', making it versatile
+		across accelerated computing environments. This allows
+		researchers to efficiently implement stringent rerandomization
+		designs and conduct valid inference even with large sample
+		sizes. The package is partly based on Jerzak and Goldstein
+		(2023) doi:10.48550/arXiv.2310.00861.
+	</longdescription>
+</pkgmetadata>

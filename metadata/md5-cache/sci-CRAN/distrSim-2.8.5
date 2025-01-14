@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 >=sci-CRAN/distr-2.5.2 >=sci-CRAN/startupmsg-1.0.0 >=sci-CRAN/setRNG-2006.2.1 dev-lang/R:=
+DESCRIPTION=Simulation Classes Based on Package distr
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_distrex byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-3.4 >=sci-CRAN/distr-2.5.2 >=sci-CRAN/startupmsg-1.0.0 >=sci-CRAN/setRNG-2006.2.1 r_suggests_distrex? ( >=sci-CRAN/distrEx-2.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/distrSim_2.8.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7648247ce6a0b0a74af5522f239a6f83

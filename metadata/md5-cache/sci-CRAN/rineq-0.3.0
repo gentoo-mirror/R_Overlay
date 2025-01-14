@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=Concentration Index and Decompos... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lmtest r_suggests_mfx r_suggests_sandwich r_suggests_survey r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_mfx? ( sci-CRAN/mfx ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_survey? ( sci-CRAN/survey ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rineq_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0849ef10efac503311fc6298307d248e

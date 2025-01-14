@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/pROC sci-CRAN/PRROC sci-CRAN/plotrix sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/magrittr >=dev-lang/R-3.5.0 virtual/survival sci-CRAN/glmnet sci-CRAN/checkmate sci-CRAN/shiny sci-CRAN/tidyr sci-CRAN/broom sci-CRAN/caret sci-CRAN/cvms dev-lang/R:=
+DESCRIPTION=Comprehensive Analysis of Multi-... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ipflasso r_suggests_knitr r_suggests_rlang r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/pROC sci-CRAN/PRROC sci-CRAN/plotrix sci-CRAN/tibble sci-CRAN/ggplot2 sci-CRAN/magrittr >=dev-lang/R-3.5.0 virtual/survival sci-CRAN/glmnet sci-CRAN/checkmate sci-CRAN/shiny sci-CRAN/tidyr sci-CRAN/broom sci-CRAN/caret sci-CRAN/cvms r_suggests_ipflasso? ( sci-CRAN/ipflasso ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/priorityelasticnet_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=28320905ec1080fb2a275a1a9c5f19c4

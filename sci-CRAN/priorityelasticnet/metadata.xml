@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Comprehensive Analysis of Multi-Omics Data Using an Offset-Based
+		Method // Priority-ElasticNet extends the Priority-LASSO method
+		(Klau et al. (2018) doi:10.1186/s12859-018-2344-6) by
+		incorporating the ElasticNet penalty, allowing for both L1 and
+		L2 regularization. This approach fits successive ElasticNet
+		models for several blocks of (omics) data with different
+		priorities, using the predicted values from each block as an
+		offset for the subsequent block. It also offers robust options
+		to handle block-wise missingness in multi-omics data, improving
+		the flexibility and applicability of the model in the presence
+		of incomplete datasets.
+	</longdescription>
+</pkgmetadata>

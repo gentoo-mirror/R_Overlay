@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/yaml sci-CRAN/zoo sci-CRAN/htmlwidgets >=sci-CRAN/data_table-1.9.6 >=dev-lang/R-3.2.0 sci-CRAN/htmltools sci-CRAN/pipeR sci-CRAN/knitr dev-lang/R:=
+DESCRIPTION=JavaScript Charts Tool
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_base64enc r_suggests_jsonlite r_suggests_lubridate r_suggests_magrittr r_suggests_shiny r_suggests_shinydashboard r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/yaml sci-CRAN/zoo sci-CRAN/htmlwidgets >=sci-CRAN/data_table-1.9.6 >=dev-lang/R-3.2.0 sci-CRAN/htmltools sci-CRAN/pipeR sci-CRAN/knitr r_suggests_base64enc? ( sci-CRAN/base64enc ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_shinydashboard? ( sci-CRAN/shinydashboard ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rAmCharts_2.1.16.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=be1a4b31fe64221d0f314a0fade52f7d
