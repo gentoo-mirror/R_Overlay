@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/car sci-CRAN/multcomp sci-CRAN/leaps sci-CRAN/pls sci-CRAN/pracma dev-lang/R:=
+DESCRIPTION=Mixed Model ANOVA and Statistics for Education
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_hassediagram r_suggests_lme4 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/car sci-CRAN/multcomp sci-CRAN/leaps sci-CRAN/pls sci-CRAN/pracma r_suggests_hassediagram? ( sci-CRAN/hasseDiagram ) r_suggests_lme4? ( sci-CRAN/lme4 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mixlm_1.4.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=42455a40c72d3dbead706a6769e68700

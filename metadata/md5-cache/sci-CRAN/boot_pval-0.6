@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/boot virtual/survival sci-CRAN/lme4 sci-CRAN/Rdpack sci-CRAN/car sci-CRAN/rms sci-CRAN/gt sci-CRAN/flextable dev-lang/R:=
+DESCRIPTION=Bootstrap p-Values
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/boot virtual/survival sci-CRAN/lme4 sci-CRAN/Rdpack sci-CRAN/car sci-CRAN/rms sci-CRAN/gt sci-CRAN/flextable r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/boot.pval_0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a876e9f02f742bbf884e23dc2f67243d

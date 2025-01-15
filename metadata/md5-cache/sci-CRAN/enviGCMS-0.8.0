@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/RColorBrewer sci-BIOC/BiocParallel >=sci-CRAN/animation-2.2.3 sci-BIOC/Rdisop sci-CRAN/mixtools sci-CRAN/data_table sci-CRAN/igraph dev-lang/R:=
+DESCRIPTION=GC/LC-MS Data Analysis for Environmental Science
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_crosstalk r_suggests_dt r_suggests_knitr r_suggests_plotly r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/RColorBrewer sci-BIOC/BiocParallel >=sci-CRAN/animation-2.2.3 sci-BIOC/Rdisop sci-CRAN/mixtools sci-CRAN/data_table sci-CRAN/igraph r_suggests_crosstalk? ( sci-CRAN/crosstalk ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/enviGCMS_0.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=198c812bf7570e9fd3cc003506243efd

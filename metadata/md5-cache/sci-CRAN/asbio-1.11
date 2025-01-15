@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/scatterplot3d sci-CRAN/pixmap sci-CRAN/plotrix dev-lang/R[tk] sci-CRAN/mvtnorm sci-CRAN/deSolve virtual/lattice sci-CRAN/multcompView sci-CRAN/gWidgets2 dev-lang/R[tk] dev-lang/R:=
+DESCRIPTION=A Collection of Statistical Tools for Biologists
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_r_rsp r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/scatterplot3d sci-CRAN/pixmap sci-CRAN/plotrix dev-lang/R[tk] sci-CRAN/mvtnorm sci-CRAN/deSolve virtual/lattice sci-CRAN/multcompView sci-CRAN/gWidgets2 dev-lang/R[tk] dev-tcltk/bwidget r_suggests_boot? ( virtual/boot ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/asbio_1.11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4e2ac9df51806f1aa6b1b502c08c5056

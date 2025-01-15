@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 virtual/Matrix >=sci-CRAN/Rcpp-0.10.4 sci-CRAN/spam dev-lang/R:=
+DESCRIPTION=Linear Mixed Model Solver
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_agridat r_suggests_ggplot2 r_suggests_knitr r_suggests_maps r_suggests_rmarkdown r_suggests_sf r_suggests_tidyr r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.6 virtual/Matrix >=sci-CRAN/Rcpp-0.10.4 sci-CRAN/spam sci-CRAN/Rcpp r_suggests_agridat? ( sci-CRAN/agridat ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LMMsolver_1.0.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a11c6febf15af88ffdbb3daffb90dc59

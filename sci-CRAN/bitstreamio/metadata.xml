@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Read and Write Bits from Files, Connections and Raw Vectors //
+		Bit-level reading and writing are necessary when dealing with
+		many file formats e.g. compressed data and binary files.
+		Currently, R connections are manipulated at the byte level.
+		This package wraps existing connections and raw vectors so that
+		it is possible to read bits, bit sequences, unaligned bytes and
+		low-bit representations of integers.
+	</longdescription>
+</pkgmetadata>
