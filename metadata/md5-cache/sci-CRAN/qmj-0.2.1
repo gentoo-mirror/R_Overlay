@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/rlang >=sci-CRAN/quantmod-0.4.3 sci-CRAN/dplyr sci-CRAN/reticulate dev-lang/R:=
+DESCRIPTION=Quality Scores for the Russell 3000
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/rlang >=sci-CRAN/quantmod-0.4.3 sci-CRAN/dplyr sci-CRAN/reticulate r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/qmj_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bd0abb714e2756f4999b18d5071880d2

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tidy Manipulation of Fourier Transformed Data // The 'fftab'
+		package stores Fourier coefficients in a tibble and allows
+		their manipulation in various ways. Functions are available for
+		converting between complex, rectangular ('re', 'im'), and polar
+		('mod', 'arg') representations, as well as for extracting
+		components as vectors or matrices. Inputs can include vectors,
+		time series, and arrays of arbitrary dimensions, which are
+		restored to their original form when inverting the transform.
+		Since 'fftab' stores Fourier frequencies as columns in the
+		tibble, many standard operations on spectral data can be easily
+		performed using tidy packages like 'dplyr'.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RColorBrewer sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/assertthat sci-CRAN/tibble sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/ggforce >=sci-CRAN/ggplot2-3.4.0 sci-CRAN/patchwork sci-CRAN/Rdpack sci-CRAN/purrr sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Generating Funky Heatmaps for Data Frames
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kableextra r_suggests_knitr r_suggests_magick r_suggests_readr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/RColorBrewer sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/assertthat sci-CRAN/tibble sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/ggforce >=sci-CRAN/ggplot2-3.4.0 sci-CRAN/patchwork sci-CRAN/Rdpack sci-CRAN/purrr sci-CRAN/jsonlite r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/funkyheatmap_0.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=84f95eab657d85101fcf625e8e9e0a62

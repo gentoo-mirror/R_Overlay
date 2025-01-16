@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/zoo sci-CRAN/dplyr sci-CRAN/DT sci-CRAN/ggrepel sci-CRAN/BiocManager sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-CRAN/markdown sci-CRAN/shiny sci-CRAN/shinythemes dev-lang/R:=
+DESCRIPTION=Multiple Ploidy Estimation Tool ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_flowcore r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/tidyr sci-CRAN/zoo sci-CRAN/dplyr sci-CRAN/DT sci-CRAN/ggrepel sci-CRAN/BiocManager sci-CRAN/ggplot2 sci-CRAN/gridExtra sci-CRAN/markdown sci-CRAN/shiny sci-CRAN/shinythemes r_suggests_flowcore? ( sci-BIOC/flowCore ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MuPETFlow_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2cb6572c5bc59f04e507fee56a1174c0

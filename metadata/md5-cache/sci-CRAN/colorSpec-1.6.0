@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/logger dev-lang/R:=
+DESCRIPTION=Color Calculations with Emphasis on Spectral Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arrangements r_suggests_knitr r_suggests_mass r_suggests_quadprog r_suggests_rgl r_suggests_rmarkdown r_suggests_rootsolve r_suggests_spacesrgb r_suggests_spacesxyz byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/logger r_suggests_arrangements? ( sci-CRAN/arrangements ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_quadprog? ( sci-CRAN/quadprog ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rootsolve? ( sci-CRAN/rootSolve ) r_suggests_spacesrgb? ( sci-CRAN/spacesRGB ) r_suggests_spacesxyz? ( sci-CRAN/spacesXYZ ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/colorSpec_1.6-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=365001eb21093b8f8e4da3a50ea60aff

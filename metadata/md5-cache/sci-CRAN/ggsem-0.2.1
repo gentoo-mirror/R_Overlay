@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/smplot2 sci-CRAN/ggplot2 sci-CRAN/lavaan >=dev-lang/R-3.4.0 sci-CRAN/cowplot sci-CRAN/DT sci-CRAN/igraph sci-CRAN/shiny sci-CRAN/colourpicker sci-CRAN/svglite sci-CRAN/Rtsne sci-CRAN/umap dev-lang/R:=
+DESCRIPTION=Interactively Visualize Structur... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_semplot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/smplot2 sci-CRAN/ggplot2 sci-CRAN/lavaan >=dev-lang/R-3.4.0 sci-CRAN/cowplot sci-CRAN/DT sci-CRAN/igraph sci-CRAN/shiny sci-CRAN/colourpicker sci-CRAN/svglite sci-CRAN/Rtsne sci-CRAN/umap r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_semplot? ( sci-CRAN/semPlot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggsem_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=57799948edd6c01a3f5bf91b962dfe4d
