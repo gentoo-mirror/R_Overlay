@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/bslib sci-CRAN/pagedown sci-CRAN/magick sci-CRAN/rmarkdown sci-CRAN/officedown sci-CRAN/xaringan dev-lang/R:=
+DESCRIPTION=UNHCR Branded Templates for R Markdown Documents
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fontawesome r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/bslib sci-CRAN/pagedown sci-CRAN/magick sci-CRAN/rmarkdown sci-CRAN/officedown sci-CRAN/xaringan r_suggests_fontawesome? ( sci-CRAN/fontawesome ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/unhcrdown_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=005199718f22bf43e68d877d75b0ee64
