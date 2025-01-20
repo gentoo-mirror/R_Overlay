@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 sci-CRAN/purrr sci-CRAN/glue sci-CRAN/cli >=sci-CRAN/httr2-1.0.0 sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/snakecase sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Wrapper for the AT Protocol Behind Bluesky
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_askpass r_suggests_curl r_suggests_dplyr r_suggests_forcats r_suggests_ggplot2 r_suggests_ggraph r_suggests_igraph r_suggests_jsonlite r_suggests_knitr r_suggests_magick r_suggests_mime r_suggests_rmarkdown r_suggests_testthat r_suggests_tidygraph r_suggests_webshot2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1 sci-CRAN/purrr sci-CRAN/glue sci-CRAN/cli >=sci-CRAN/httr2-1.0.0 sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/snakecase sci-CRAN/tibble r_suggests_askpass? ( sci-CRAN/askpass ) r_suggests_curl? ( sci-CRAN/curl ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggraph? ( sci-CRAN/ggraph ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_mime? ( sci-CRAN/mime ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidygraph? ( sci-CRAN/tidygraph ) r_suggests_webshot2? ( sci-CRAN/webshot2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/atrrr_0.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6dfaea70edfceac4414644384aa2d00f
