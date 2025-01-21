@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/data_table sci-CRAN/timechange sci-CRAN/checkmate sci-CRAN/R6 dev-lang/R:=
+DESCRIPTION=A Class for Working with Time Se... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dygraphs r_suggests_fasttime r_suggests_knitr r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_runner r_suggests_tinytest r_suggests_units byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/data_table sci-CRAN/timechange sci-CRAN/checkmate sci-CRAN/R6 r_suggests_dygraphs? ( sci-CRAN/dygraphs ) r_suggests_fasttime? ( sci-CRAN/fasttime ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_runner? ( >=sci-CRAN/runner-0.3.5 ) r_suggests_tinytest? ( sci-CRAN/tinytest ) r_suggests_units? ( sci-CRAN/units ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DTSg_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4e2e63d211453e950375d24d3911c74a

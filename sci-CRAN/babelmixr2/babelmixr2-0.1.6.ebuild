@@ -1,0 +1,50 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Use nlmixr2 to Interact with Ope... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/babelmixr2_0.1.6.tar.gz"
+LICENSE='GPL-3+'
+
+IUSE="${IUSE-} r_suggests_dplyr r_suggests_nlmixr2data r_suggests_pknca
+	r_suggests_poped r_suggests_rmarkdown r_suggests_spelling
+	r_suggests_testthat r_suggests_units r_suggests_vdiffr
+	r_suggests_withr"
+R_SUGGESTS="
+	r_suggests_dplyr? ( sci-CRAN/dplyr )
+	r_suggests_nlmixr2data? ( sci-CRAN/nlmixr2data )
+	r_suggests_pknca? ( >=sci-CRAN/PKNCA-0.10.0 )
+	r_suggests_poped? ( sci-CRAN/PopED )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_spelling? ( sci-CRAN/spelling )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+	r_suggests_units? ( sci-CRAN/units )
+	r_suggests_vdiffr? ( sci-CRAN/vdiffr )
+	r_suggests_withr? ( sci-CRAN/withr )
+"
+DEPEND=">=sci-CRAN/monolix2rx-0.0.3
+	>=sci-CRAN/rxode2-3.0.2
+	sci-CRAN/qs
+	sci-CRAN/digest
+	>=dev-lang/R-3.5
+	sci-CRAN/rex
+	sci-CRAN/cli
+	sci-CRAN/checkmate
+	>=sci-CRAN/nlmixr2-3.0.1
+	sci-CRAN/lotri
+	>=sci-CRAN/nlmixr2est-3.0.1
+	>=sci-CRAN/nonmem2rx-0.1.5
+"
+RDEPEND="${DEPEND-}
+	sci-CRAN/Rcpp
+	sci-CRAN/rxode2
+	sci-CRAN/RcppArmadillo
+	sci-CRAN/RcppEigen
+	${R_SUGGESTS-}
+"
+
+_UNRESOLVED_PACKAGES=( 'lixoftConnectors' )

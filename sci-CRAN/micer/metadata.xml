@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Map Image Classification Efficacy // Map image classification
+		efficacy (MICE) adjusts the accuracy rate relative to a random
+		classification baseline (Shao et al.
+		(2021)doi:10.1109/ACCESS.2021.3116526 and Tang et al.
+		(2024)doi:10.1109/TGRS.2024.3446950). Only the proportions from
+		the reference labels are considered, as opposed to the
+		proportions from the reference and predictions, as is the case
+		for the Kappa statistic. This package offers means to calculate
+		MICE and adjusted versions of class-level user's accuracy
+		(i.e., precision) and producer's accuracy (i.e., recall) and
+		F1-scores. Class-level metrics are aggregated using macro-
+		averaging. Functions are also made available to estimate
+		confidence intervals using bootstrapping and statistically
+		compare two classification results.
+	</longdescription>
+</pkgmetadata>
