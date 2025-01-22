@@ -7,10 +7,12 @@
 		sequencing read coverage using a 2D pattern-matching algorithm.
 		'ProActive' detects, characterizes and visualizes read coverage
 		patterns in both genomes and metagenomes. Optionally, users may
-		provide gene predictions associated with their genome or
+		provide gene annotations associated with their genome or
 		metagenome in the form of a .gff file. In this case,
 		'ProActive' will generate an additional output table containing
-		the gene predictions found within the detected regions of
-		gapped and elevated read coverage.
+		the gene annotations found within the detected regions of
+		gapped and elevated read coverage. Additionally, users can
+		search for gene annotations of interest in the output read
+		coverage plots.
 	</longdescription>
 </pkgmetadata>
