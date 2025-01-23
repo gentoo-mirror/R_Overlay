@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/tibble virtual/MASS dev-lang/R:=
+DESCRIPTION=Block, Assign, and Diagnose Pote... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_nbpmatching r_suggests_ritools r_suggests_testthat r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/tibble virtual/MASS r_suggests_nbpmatching? ( sci-CRAN/nbpMatching ) r_suggests_ritools? ( sci-CRAN/RItools ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/blockTools_0.6.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4dd6b04dc2395b8a293cc7eee38637f4

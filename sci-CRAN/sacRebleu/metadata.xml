@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Metrics for Assessing the Quality of Generated Text //
+		Implementation of the BLEU-Score in 'C++' to evaluate the
+		quality of generated text. The BLEU-Score, introduced by
+		Papineni et al. (2002) doi:10.3115/1073083.1073135, is a metric
+		for evaluating the quality of generated text. It is based on
+		the n-gram overlap between the generated text and reference
+		texts. Additionally, the package provides some smoothing
+		methods as described in Chen and Cherry (2014)
+		doi:10.3115/v1/W14-3346.
+	</longdescription>
+</pkgmetadata>

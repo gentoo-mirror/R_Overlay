@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Presmoothed Landmark Aalen-Johansen Estimator of Transition
+		Probabilities for Complex Multi-State Models // Multi-state
+		models are essential tools in longitudinal data analysis. One
+		primary goal of these models is the estimation of transition
+		probabilities, a critical metric for predicting clinical
+		prognosis across various stages of diseases or medical
+		conditions. Traditionally, inference in multi-state models
+		relies on the Aalen-Johansen (AJ) estimator which is consistent
+		under the Markov assumption. However, in many practical
+		applications, the Markovian nature of the process is often not
+		guaranteed, limiting the applicability of the AJ estimator in
+		more complex scenarios. This package extends the landmark
+		Aalen-Johansen estimator (Putter, H, Spitoni, C (2018)
+		doi:10.1177/0962280216674497) incorporating presmoothing
+		techniques described by Soutinho, Meira-Machado and Oliveira
+		(2020) doi:10.1080/03610918.2020.1762895, offering a robust
+		alternative for estimating transition probabilities in non-
+		Markovian multi-state models with multiple states and potential
+		reversible transitions.
+	</longdescription>
+</pkgmetadata>
