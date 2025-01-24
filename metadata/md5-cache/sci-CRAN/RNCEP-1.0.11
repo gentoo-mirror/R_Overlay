@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fields sci-CRAN/tgp sci-CRAN/RColorBrewer sci-CRAN/maps sci-CRAN/abind dev-lang/R[tk] sci-CRAN/sp dev-lang/R:=
+DESCRIPTION=Obtain, Organize, and Visualize NCEP Weather Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/fields sci-CRAN/tgp sci-CRAN/RColorBrewer sci-CRAN/maps sci-CRAN/abind dev-lang/R[tk] sci-CRAN/sp dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RNCEP_1.0.11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3e2ff87960510a157c3b8d5137a26900

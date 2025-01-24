@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 sci-CRAN/Rcpp sci-CRAN/doFuture sci-CRAN/foreach sci-CRAN/zoo sci-CRAN/future_apply sci-CRAN/lubridate sci-CRAN/progressr dev-lang/R:=
+DESCRIPTION=Advanced Toolset for Efficient T... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lwgeom r_suggests_roxyglobals r_suggests_sf r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1 sci-CRAN/Rcpp sci-CRAN/doFuture sci-CRAN/foreach sci-CRAN/zoo sci-CRAN/future_apply sci-CRAN/lubridate sci-CRAN/progressr sci-CRAN/Rcpp r_suggests_lwgeom? ( sci-CRAN/lwgeom ) r_suggests_roxyglobals? ( sci-CRAN/roxyglobals ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/distantia_2.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=743f72ee85d4f2da3094e84ec497a3d8

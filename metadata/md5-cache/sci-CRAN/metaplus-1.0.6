@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lme4 sci-CRAN/metafor sci-CRAN/bbmle >=dev-lang/R-3.2.0 sci-CRAN/foreach virtual/boot sci-CRAN/numDeriv virtual/MASS sci-CRAN/fastGHQuad sci-CRAN/doParallel sci-CRAN/Rfast dev-lang/R:=
+DESCRIPTION=Robust Meta-Analysis and Meta-Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/lme4 sci-CRAN/metafor sci-CRAN/bbmle >=dev-lang/R-3.2.0 sci-CRAN/foreach virtual/boot sci-CRAN/numDeriv virtual/MASS sci-CRAN/fastGHQuad sci-CRAN/doParallel sci-CRAN/Rfast r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/metaplus_1.0-6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7021c94a4b9cddceea062701646d8b76
