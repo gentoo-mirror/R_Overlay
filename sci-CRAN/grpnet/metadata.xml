@@ -8,13 +8,14 @@
 		doi:10.1080/10618600.2024.2362232. Implements group LASSO,
 		group MCP, and group SCAD with an optional group ridge penalty.
 		Computes the regularization path for linear regression
-		(gaussian), logistic regression (binomial), multinomial
-		logistic regression (multinomial), log-linear count regression
-		(poisson and negative.binomial), and log-linear continuous
-		regression (gamma and inverse gaussian). Supports default and
-		formula methods for model specification, k-fold cross-
-		validation for tuning the regularization parameters, and
-		nonparametric regression via tensor product reproducing kernel
-		(smoothing spline) basis function expansion.
+		(gaussian), multivariate regression (multigaussian), logistic
+		regression (binomial), multinomial logistic regression
+		(multinomial), log-linear count regression (poisson and
+		negative.binomial), and log-linear continuous regression (gamma
+		and inverse gaussian). Supports default and formula methods for
+		model specification, k-fold cross-validation for tuning the
+		regularization parameters, and nonparametric regression via
+		tensor product reproducing kernel (smoothing spline) basis
+		function expansion.
 	</longdescription>
 </pkgmetadata>
