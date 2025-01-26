@@ -7,7 +7,7 @@
 		days and date time objects), time zones, and posix time
 		('ptime') is provided by using 'Rcpp modules'. The posix time
 		implementation can support high-resolution of up to nano-second
-		precision by using 96 bits (instead of R's 64) to present a
+		precision by using 96 bits (instead of 64 with R) to present a
 		'ptime' object (but this needs recompilation with a #define
 		set).
 	</longdescription>
