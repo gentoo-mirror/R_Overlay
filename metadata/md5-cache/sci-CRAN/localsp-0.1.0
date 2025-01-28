@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/gdverse sci-CRAN/dplyr sci-CRAN/sdsfun sci-CRAN/purrr sci-CRAN/sf sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Local Indicator of Stratified Power
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_automap r_suggests_gstat r_suggests_knitr r_suggests_readr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/gdverse sci-CRAN/dplyr sci-CRAN/sdsfun sci-CRAN/purrr sci-CRAN/sf sci-CRAN/tibble sci-CRAN/tidyr r_suggests_automap? ( sci-CRAN/automap ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/localsp_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0e3e1c6612cc94c2880921af75a07bf0

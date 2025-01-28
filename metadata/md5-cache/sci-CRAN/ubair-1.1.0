@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ranger sci-CRAN/lightgbm >=dev-lang/R-4.4.0 sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/data_table sci-CRAN/ggplot2 sci-CRAN/forecast sci-CRAN/lubridate sci-CRAN/tidyr sci-CRAN/yaml dev-lang/R:=
+DESCRIPTION=Effects of External Conditions on Air Quality
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_deepnet r_suggests_fastshap r_suggests_knitr r_suggests_rmarkdown r_suggests_shapviz r_suggests_testthat r_suggests_treeshap byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ranger sci-CRAN/lightgbm >=dev-lang/R-4.4.0 sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/data_table sci-CRAN/ggplot2 sci-CRAN/forecast sci-CRAN/lubridate sci-CRAN/tidyr sci-CRAN/yaml r_suggests_deepnet? ( sci-CRAN/deepnet ) r_suggests_fastshap? ( sci-CRAN/fastshap ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shapviz? ( sci-CRAN/shapviz ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_treeshap? ( sci-CRAN/treeshap ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ubair_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=57ebdccceaae2dcad659d8b372a49931
