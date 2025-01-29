@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Statistical Tools for Balanced and Unbalanced Ranked Set Sampling
+		// Ranked Set Sampling (RSS) is a stratified sampling method
+		known for its efficiency compared to Simple Random Sampling
+		(SRS). When sample allocation is equal across strata, it is
+		referred to as balanced RSS (BRSS) whereas unequal allocation
+		is called unbalanced RSS (URSS), which is particularly
+		effective for asymmetric or skewed distributions. This package
+		offers practical statistical tools and sampling methods for
+		both BRSS and URSS, emphasizing flexible sampling designs and
+		inference for population means, medians, proportions, and Area
+		Under the Curve (AUC). It incorporates parametric and
+		nonparametric tests, including empirical likelihood ratio (LR)
+		methods. The package provides ranked set sampling methods from
+		a given population, including sampling with imperfect ranking
+		using auxiliary variables. Furthermore, it provides tools for
+		efficient sample allocation in URSS, ensuring greater
+		efficiency than SRS and BRSS. For more details, refer e.g. to
+		Chen et al. (2003) doi:10.1007/978-0-387-21664-5, Ahn et al.
+		(2022) doi:10.1007/978-3-031-14525-4_3, and Ahn et al. (2024)
+		doi:10.1111/insr.12589.
+	</longdescription>
+</pkgmetadata>

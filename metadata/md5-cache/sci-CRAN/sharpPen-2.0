@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/KernSmooth sci-CRAN/locpol sci-CRAN/glmnet virtual/Matrix sci-CRAN/np dev-lang/R:=
+DESCRIPTION=Penalized Data Sharpening for Lo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=virtual/KernSmooth sci-CRAN/locpol sci-CRAN/glmnet virtual/Matrix sci-CRAN/np dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sharpPen_2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=89070e791ab93f4b65de81d01634c19e
