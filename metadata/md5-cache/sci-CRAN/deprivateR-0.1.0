@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/tidyr >=dev-lang/R-3.5 virtual/class sci-CRAN/english sci-CRAN/dplyr sci-CRAN/ndi sci-CRAN/rlang sci-CRAN/sf sci-CRAN/sociome sci-CRAN/stringr sci-CRAN/tidycensus sci-CRAN/tidyselect sci-CRAN/zippeR dev-lang/R:=
+DESCRIPTION=Calculating and Analyzing Measur... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_measurements r_suggests_testthat r_suggests_tigris byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/tibble sci-CRAN/tidyr >=dev-lang/R-3.5 virtual/class sci-CRAN/english sci-CRAN/dplyr sci-CRAN/ndi sci-CRAN/rlang sci-CRAN/sf sci-CRAN/sociome sci-CRAN/stringr sci-CRAN/tidycensus sci-CRAN/tidyselect sci-CRAN/zippeR r_suggests_measurements? ( sci-CRAN/measurements ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tigris? ( sci-CRAN/tigris ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/deprivateR_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d8c27304ac7ac00fa709db6085b8b44b

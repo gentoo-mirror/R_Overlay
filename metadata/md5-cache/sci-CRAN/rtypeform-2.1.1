@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/dplyr-1.0.0 sci-CRAN/jsonlite sci-CRAN/glue sci-CRAN/lubridate sci-CRAN/httr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Interface to typeform Results
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=sci-CRAN/dplyr-1.0.0 sci-CRAN/jsonlite sci-CRAN/glue sci-CRAN/lubridate sci-CRAN/httr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tidyr r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rtypeform_2.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6baca122e62d6ea5752019f5a3abb0ab

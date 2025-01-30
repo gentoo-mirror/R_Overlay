@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival virtual/survival virtual/rpart sci-CRAN/date >=dev-lang/R-4.0.0 virtual/MASS sci-CRAN/glmnet sci-CRAN/caret sci-CRAN/flexsurv sci-CRAN/randomForestSRC sci-CRAN/hdnom sci-CRAN/glmnetUtils sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Super Learner for Survival Predi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_reticulate r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/survival virtual/survival virtual/rpart sci-CRAN/date >=dev-lang/R-4.0.0 virtual/MASS sci-CRAN/glmnet sci-CRAN/caret sci-CRAN/flexsurv sci-CRAN/randomForestSRC sci-CRAN/hdnom sci-CRAN/glmnetUtils sci-CRAN/dplyr r_suggests_reticulate? ( sci-CRAN/reticulate ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/survivalSL_0.97.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bfeb3fad32f3b3c20f400841f9002c4c

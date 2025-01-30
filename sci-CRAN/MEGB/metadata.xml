@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gradient Boosting for Longitudinal Data // Gradient boosting is a
+		powerful statistical learning method known for its ability to
+		model complex relationships between predictors and outcomes
+		while performing inherent variable selection. However,
+		traditional gradient boosting methods lack flexibility in
+		handling longitudinal data where within-subject correlations
+		play a critical role. In this package, we propose a novel
+		approach Mixed Effect Gradient Boosting ('MEGB'), designed
+		specifically for high-dimensional longitudinal data. 'MEGB'
+		incorporates a flexible semi-parametric model that embeds
+		random effects within the gradient boosting framework, allowing
+		it to account for within-individual covariance over time.
+		Additionally, the method efficiently handles scenarios where
+		the number of predictors greatly exceeds the number of
+		observations (pn) making it particularly suitable for genomics
+		data and other large-scale biomedical studies.
+	</longdescription>
+</pkgmetadata>

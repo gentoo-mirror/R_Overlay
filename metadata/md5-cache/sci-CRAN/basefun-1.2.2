@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/variables-1.1.0 >=dev-lang/R-3.2.0 sci-CRAN/orthopolynom sci-CRAN/polynom virtual/Matrix dev-lang/R:=
+DESCRIPTION=Infrastructure for Computing with Basis Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_quadprog byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/variables-1.1.0 >=dev-lang/R-3.2.0 sci-CRAN/orthopolynom sci-CRAN/polynom virtual/Matrix r_suggests_quadprog? ( sci-CRAN/quadprog ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/basefun_1.2-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=973957cedddb856cc129e71b7ef33bfb

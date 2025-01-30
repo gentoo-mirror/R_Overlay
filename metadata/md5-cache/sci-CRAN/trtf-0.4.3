@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/mlt-1.4.1 sci-CRAN/Formula sci-CRAN/sandwich >=sci-CRAN/partykit-1.2.1 sci-CRAN/tram sci-CRAN/variables sci-CRAN/libcoin dev-lang/R:=
+DESCRIPTION=Transformation Trees and Forests
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_appliedpredictivemodeling r_suggests_atr r_suggests_coin r_suggests_colorspace r_suggests_inum r_suggests_lattice r_suggests_matrix r_suggests_memisc r_suggests_mlbench r_suggests_multcomp r_suggests_quantregforest r_suggests_survival r_suggests_th_data byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/mlt-1.4.1 sci-CRAN/Formula sci-CRAN/sandwich >=sci-CRAN/partykit-1.2.1 sci-CRAN/tram sci-CRAN/variables sci-CRAN/libcoin r_suggests_appliedpredictivemodeling? ( sci-CRAN/AppliedPredictiveModeling ) r_suggests_atr? ( sci-CRAN/ATR ) r_suggests_coin? ( sci-CRAN/coin ) r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_inum? ( sci-CRAN/inum ) r_suggests_lattice? ( virtual/lattice virtual/lattice ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_memisc? ( sci-CRAN/memisc ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_multcomp? ( sci-CRAN/multcomp ) r_suggests_quantregforest? ( sci-CRAN/quantregForest ) r_suggests_survival? ( virtual/survival ) r_suggests_th_data? ( sci-CRAN/TH_data ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/trtf_0.4-3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=64f5ed2b4c3d3e2e0843cc6e7dbdf8b1
