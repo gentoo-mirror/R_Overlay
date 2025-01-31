@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/bigmemory sci-CRAN/jsonlite virtual/MASS virtual/Matrix sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Data Simulation for Life Science and Breeding
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_igraph r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/bigmemory sci-CRAN/jsonlite virtual/MASS virtual/Matrix sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/bigmemory sci-CRAN/RcppArmadillo sci-CRAN/RcppProgress sci-CRAN/BH r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/simer_0.9.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2e422db66343cf7bb3ed4e09a286aba5

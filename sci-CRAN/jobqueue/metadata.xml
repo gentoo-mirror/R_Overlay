@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Run Interruptible Code Asynchronously // Takes an R expression
+		and returns a Job object with a $stop() method which can be
+		called to terminate the background job. Also provides timeouts
+		and other mechanisms for automatically terminating a background
+		job. The result of the expression is available synchronously
+		via $result or asynchronously with callbacks or through the
+		'promises' package framework.
+	</longdescription>
+</pkgmetadata>

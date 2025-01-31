@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/numDeriv-2016.8.1.1 >=sci-CRAN/TruncatedNormal-2.2.2 virtual/MASS >=dev-lang/R-4.2 >=sci-CRAN/rstan-2.26.23 >=sci-CRAN/tmvtnorm-1.5 >=sci-CRAN/mvtnorm-1.2.3 >=sci-CRAN/mnormt-2.1.1 >=sci-CRAN/LaplacesDemon-16.1.6 dev-lang/R:=
+DESCRIPTION=Scale Mixture of Normal Distribu... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/numDeriv-2016.8.1.1 >=sci-CRAN/TruncatedNormal-2.2.2 virtual/MASS >=dev-lang/R-4.2 >=sci-CRAN/rstan-2.26.23 >=sci-CRAN/tmvtnorm-1.5 >=sci-CRAN/mvtnorm-1.2.3 >=sci-CRAN/mnormt-2.1.1 >=sci-CRAN/LaplacesDemon-16.1.6 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SMNlmec_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bb57d2ec1d8d87be1399fdb070e0cfe4
