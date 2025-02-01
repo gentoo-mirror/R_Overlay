@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/glmnet sci-CRAN/ranger virtual/survival sci-CRAN/Formula sci-CRAN/coin dev-lang/R:=
+DESCRIPTION=Covariance Measure Tests for Con... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggplot2 r_suggests_testthat r_suggests_tidyr r_suggests_xgboost byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/glmnet sci-CRAN/ranger virtual/survival sci-CRAN/Formula sci-CRAN/coin r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/comets_0.1-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=94292092e794d7252ea8e02b7a4dfeab

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Easy Encryption of R Objects using Strong Modern Cryptography //
+		Encrypt R objects to a raw vector or file using modern
+		cryptographic techniques.  Password-based key derivation is
+		with 'Argon2' (https://en.wikipedia.org/wiki/Argon2). Objects
+		are serialized and then encrypted using 'XChaCha20-Poly1305'
+		(https://en.wikipedia.org/wiki/ChaCha20-Poly1305) which follows
+		RFC 8439 for authenticated encryption
+		(https://en.wikipedia.org/wiki/Authenticated_encryption).
+		Cryptographic functions are provided by the included
+		'monocypher' 'C' library (https://monocypher.org).
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/qdapRegex sci-CRAN/stringr sci-CRAN/gdtools sci-CRAN/rvest sci-CRAN/base64enc sci-CRAN/stringi >=sci-CRAN/dplyr-1.0.0 sci-CRAN/ggiraph sci-CRAN/gfonts sci-CRAN/ggplot2 sci-CRAN/ggsoccer sci-CRAN/glue sci-CRAN/highcharter sci-CRAN/jsonlite sci-CRAN/tibble sci-CRAN/readr dev-lang/R:=
+DESCRIPTION=Plotting Expected Goals (xG) Sta... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/qdapRegex sci-CRAN/stringr sci-CRAN/gdtools sci-CRAN/rvest sci-CRAN/base64enc sci-CRAN/stringi >=sci-CRAN/dplyr-1.0.0 sci-CRAN/ggiraph sci-CRAN/gfonts sci-CRAN/ggplot2 sci-CRAN/ggsoccer sci-CRAN/glue sci-CRAN/highcharter sci-CRAN/jsonlite sci-CRAN/tibble sci-CRAN/readr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggfootball_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2da34a4517b364fd8f957d9de2690b05

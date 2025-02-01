@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generate Compilation Database for Use with 'Clang' Tools // Many
+		modern C/C++ development tools in the 'clang' toolchain, such
+		as 'clang-tidy' or 'clangd', rely on the presence of a
+		compilation database in JSON format
+		https://clang.llvm.org/docs/JSONCompilationDatabase.html. This
+		package temporarily injects additional build flags into the R
+		build process to generate such a compilation database.
+	</longdescription>
+</pkgmetadata>

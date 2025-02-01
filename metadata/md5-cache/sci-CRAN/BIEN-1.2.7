@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/ape sci-CRAN/sf sci-CRAN/DBI sci-CRAN/RPostgreSQL sci-CRAN/terra sci-CRAN/doParallel sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Tools for Accessing the Botanica... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_maps r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/ape sci-CRAN/sf sci-CRAN/DBI sci-CRAN/RPostgreSQL sci-CRAN/terra sci-CRAN/doParallel sci-CRAN/foreach r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BIEN_1.2.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b10e29a14cc30a2ab3bcd703a4c855ff

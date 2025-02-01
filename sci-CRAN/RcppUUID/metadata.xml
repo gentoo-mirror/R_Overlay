@@ -2,10 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Generating Universally Unique Identificators // Provides
-		functions to generating a vector of Universally Unique
-		Identifiers (UUID). Used implementation from the Boost C++
-		library. Supported random (version 4) and name (version 5)
-		UUIDs.
+		Generating Universally Unique Identificators // Using the
+		implementation in Boost C++ library, functions are provided to
+		generate vectors of 'Universally Unique Identifiers (UUID)'
+		from R supporting random (version 4) and name (version 5)
+		'UUIDs'. The initial repository was
+		https://gitlab.com/artemklevtsov/rcppuuid.
 	</longdescription>
 </pkgmetadata>
