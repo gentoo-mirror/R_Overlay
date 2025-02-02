@@ -4,8 +4,11 @@
 	<longdescription>
 		Superefficient Estimation of Future Conditional Hazards Based on
 		Marker Information // Provides a nonparametric smoothed kernel
-		density estimator for the future conditional hazard when time-
-		dependent covariates are present. It also provides pointwise
-		and uniform confidence bands and a bandwidth selection.
+		estimator for the future conditional hazard rate function when
+		time-dependent covariates are present, a bandwidth selector for
+		the estimator's implementation and pointwise and uniform
+		confidence bands. Methods used in the package refer to
+		Bagkavos, Isakson, Mammen, Nielsen and Proust-Lima (2025)
+		doi:10.1093/biomet/asaf008.
 	</longdescription>
 </pkgmetadata>
