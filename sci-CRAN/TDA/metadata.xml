@@ -2,16 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Statistical Tools for Topological Data Analysis // Tools for the
-		statistical analysis of persistent homology and for density
-		clustering. For that, this package provides an R interface for
-		the efficient algorithms of the C++ libraries 'GUDHI'
+		Statistical Tools for Topological Data Analysis // Tools for
+		Topological Data Analysis. The package focuses on statistical
+		analysis of persistent homology and density clustering. For
+		that, this package provides an R interface for the efficient
+		algorithms of the C++ libraries 'GUDHI'
 		https://project.inria.fr/gudhi/software/, 'Dionysus'
 		https://www.mrzv.org/software/dionysus/, and 'PHAT'
 		https://bitbucket.org/phat-code/phat/. This package also
-		implements the methods in Fasy et al. (2014)
-		doi:10.1214/14-AOS1252 and Chazal et al. (2014)
-		doi:10.1145/2582112.2582128  for analyzing the statistical
+		implements methods from Fasy et al. (2014)
+		doi:10.1214/14-AOS1252 and Chazal et al. (2015)
+		doi:10.20382/jocg.v6i2a8  for analyzing the statistical
 		significance of persistent homology features.
 	</longdescription>
 </pkgmetadata>
