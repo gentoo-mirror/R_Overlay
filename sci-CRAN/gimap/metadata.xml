@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculate Genetic Interactions for Paired CRISPR Targets // Helps
+		find meaningful patterns in complex genetic experiments. First
+		gimap takes data from paired CRISPR (Clustered regularly
+		interspaced short palindromic repeats) screens that has been
+		pre-processed to counts table of paired gRNA (guide Ribonucleic
+		Acid) reads. The input data will have cell counts for how well
+		cells grow (or don't grow) when different genes or pairs of
+		genes are disabled. The output of the 'gimap' package is
+		genetic interaction scores which are  the distance between the
+		observed CRISPR score and the expected CRISPR score. The
+		expected CRISPR scores are what we expect for the CRISPR values
+		to be for two unrelated genes. The further away an observed
+		CRISPR score is from its expected score the more we suspect
+		genetic interaction. The work in this package is based off of
+		original research from the Alice Berger lab at Fred Hutchinson
+		Cancer Center (2021) doi:10.1016/j.celrep.2021.109597.
+	</longdescription>
+</pkgmetadata>

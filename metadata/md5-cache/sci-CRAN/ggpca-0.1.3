@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/config-0.3.2 >=sci-CRAN/golem-0.4.1 >=sci-CRAN/shiny-1.8.1.1 sci-CRAN/Rtsne sci-CRAN/rlang sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/umap dev-lang/R:=
+DESCRIPTION=Publication-Ready PCA, t-SNE, and UMAP Plots
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/config-0.3.2 >=sci-CRAN/golem-0.4.1 >=sci-CRAN/shiny-1.8.1.1 sci-CRAN/Rtsne sci-CRAN/rlang sci-CRAN/cowplot sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/umap r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggpca_0.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5daa5d8f45b209b537394a1774eb58c3
