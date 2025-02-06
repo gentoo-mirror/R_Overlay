@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/tmle-2.0 dev-lang/R:=
+DESCRIPTION=Targeted Maximum Likelihood Esti... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dbarts r_suggests_glmnet byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/tmle-2.0 r_suggests_dbarts? ( >=sci-CRAN/dbarts-0.9.18 ) r_suggests_glmnet? ( sci-CRAN/glmnet ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/twoStageDesignTMLE_1.0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=36c0b2e40a3102546cfff0fa4facd354

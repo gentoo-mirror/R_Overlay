@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme virtual/MASS sci-CRAN/RcppArmadillo >=dev-lang/R-3.6.0 >=sci-CRAN/lme4-1.1.8 sci-CRAN/tibble sci-CRAN/foreach sci-CRAN/generics virtual/survival sci-CRAN/cobs sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/mvtnorm sci-CRAN/randtoolbox >=sci-CRAN/Rcpp-0.12.7 sci-CRAN/doParallel dev-lang/R:=
+DESCRIPTION=Joint Modelling of Multivariate ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bindrcpp r_suggests_dplyr r_suggests_jm r_suggests_joiner r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/nlme virtual/MASS sci-CRAN/RcppArmadillo >=dev-lang/R-3.6.0 >=sci-CRAN/lme4-1.1.8 sci-CRAN/tibble sci-CRAN/foreach sci-CRAN/generics virtual/survival sci-CRAN/cobs sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/mvtnorm sci-CRAN/randtoolbox >=sci-CRAN/Rcpp-0.12.7 sci-CRAN/doParallel sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_bindrcpp? ( sci-CRAN/bindrcpp ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_jm? ( sci-CRAN/JM ) r_suggests_joiner? ( sci-CRAN/joineR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/joineRML_0.4.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1359c7364f6d60b24fef97594d461e3e

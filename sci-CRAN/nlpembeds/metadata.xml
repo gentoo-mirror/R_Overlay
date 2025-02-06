@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Natural Language Processing Embeddings // Provides efficient
+		methods to compute co-occurrence matrices, pointwise mutual
+		information (PMI) and singular value decomposition (SVD). In
+		the biomedical and clinical settings, one challenge is the huge
+		size of databases, e.g. when analyzing data of millions of
+		patients over tens of years. To address this, this package
+		provides functions to efficiently compute monthly co-occurrence
+		matrices, which is the computational bottleneck of the
+		analysis, by using the 'RcppAlgos' package and sparse matrices.
+		Furthermore, the functions can be called on 'SQL' databases,
+		enabling the computation of co-occurrence matrices of tens of
+		gigabytes of data, representing millions of patients over tens
+		of years. Partly based on Hong C. (2021)
+		doi:10.1038/s41746-021-00519-z.
+	</longdescription>
+</pkgmetadata>

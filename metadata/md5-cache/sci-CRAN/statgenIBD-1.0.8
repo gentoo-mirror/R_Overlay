@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/rlang sci-CRAN/data_table sci-CRAN/Rcpp >=sci-CRAN/statgenGWAS-1.0.9 sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Calculation of IBD Probabilities
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_r_utils r_suggests_rmarkdown r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/rlang sci-CRAN/data_table sci-CRAN/Rcpp >=sci-CRAN/statgenGWAS-1.0.9 sci-CRAN/stringi sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/statgenIBD_1.0.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cafbd2eeda3805075867d6eb0716bf12

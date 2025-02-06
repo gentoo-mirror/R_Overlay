@@ -1,0 +1,69 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Estimation of Model-Based Predic... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/modelbased_0.9.0.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_bh r_suggests_brms r_suggests_coda
+	r_suggests_collapse r_suggests_correlation r_suggests_curl
+	r_suggests_easystats r_suggests_effectsize r_suggests_emmeans
+	r_suggests_formula r_suggests_gamm4 r_suggests_gganimate
+	r_suggests_ggplot2 r_suggests_glmmtmb r_suggests_httr2
+	r_suggests_knitr r_suggests_lme4 r_suggests_lmertest
+	r_suggests_logspline r_suggests_marginaleffects r_suggests_mass
+	r_suggests_mgcv r_suggests_nanoparquet r_suggests_patchwork
+	r_suggests_pbkrtest r_suggests_performance r_suggests_poorman
+	r_suggests_rcppeigen r_suggests_report r_suggests_rmarkdown
+	r_suggests_rstanarm r_suggests_rtdists r_suggests_see
+	r_suggests_testthat r_suggests_vdiffr r_suggests_withr"
+R_SUGGESTS="
+	r_suggests_bh? ( sci-CRAN/BH )
+	r_suggests_brms? ( sci-CRAN/brms )
+	r_suggests_coda? ( sci-CRAN/coda )
+	r_suggests_collapse? ( sci-CRAN/collapse )
+	r_suggests_correlation? ( sci-CRAN/correlation )
+	r_suggests_curl? ( sci-CRAN/curl )
+	r_suggests_easystats? ( sci-CRAN/easystats )
+	r_suggests_effectsize? ( >=sci-CRAN/effectsize-1.0.0 )
+	r_suggests_emmeans? ( >=sci-CRAN/emmeans-1.10.2 )
+	r_suggests_formula? ( sci-CRAN/Formula )
+	r_suggests_gamm4? ( sci-CRAN/gamm4 )
+	r_suggests_gganimate? ( sci-CRAN/gganimate )
+	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
+	r_suggests_glmmtmb? ( sci-CRAN/glmmTMB )
+	r_suggests_httr2? ( sci-CRAN/httr2 )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_lme4? ( sci-CRAN/lme4 )
+	r_suggests_lmertest? ( sci-CRAN/lmerTest )
+	r_suggests_logspline? ( sci-CRAN/logspline )
+	r_suggests_marginaleffects? ( >=sci-CRAN/marginaleffects-0.25.0 )
+	r_suggests_mass? ( virtual/MASS )
+	r_suggests_mgcv? ( virtual/mgcv )
+	r_suggests_nanoparquet? ( sci-CRAN/nanoparquet )
+	r_suggests_patchwork? ( sci-CRAN/patchwork )
+	r_suggests_pbkrtest? ( sci-CRAN/pbkrtest )
+	r_suggests_performance? ( >=sci-CRAN/performance-0.13.0 )
+	r_suggests_poorman? ( sci-CRAN/poorman )
+	r_suggests_rcppeigen? ( sci-CRAN/RcppEigen )
+	r_suggests_report? ( sci-CRAN/report )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_rstanarm? ( sci-CRAN/rstanarm )
+	r_suggests_rtdists? ( sci-CRAN/rtdists )
+	r_suggests_see? ( >=sci-CRAN/see-0.9.0 )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.2.1 )
+	r_suggests_vdiffr? ( sci-CRAN/vdiffr )
+	r_suggests_withr? ( sci-CRAN/withr )
+"
+DEPEND=">=dev-lang/R-3.6
+	>=sci-CRAN/insight-1.0.1
+	>=sci-CRAN/parameters-0.24.1
+	>=sci-CRAN/bayestestR-0.15.1
+	>=sci-CRAN/datawizard-1.0.0
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

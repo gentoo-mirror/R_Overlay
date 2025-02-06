@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr virtual/Matrix >=dev-lang/R-4.0.0 virtual/MASS >=sci-CRAN/meta-8.0.1 sci-CRAN/metafor sci-CRAN/mvtnorm sci-CRAN/magic sci-CRAN/igraph sci-BIOC/Rgraphviz sci-CRAN/colorspace sci-BIOC/graph sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Network Meta-Analysis using Frequentist Methods
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_brglm2 r_suggests_cccp r_suggests_gridextra r_suggests_r_rsp r_suggests_rgl r_suggests_tictoc r_suggests_writexl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/dplyr virtual/Matrix >=dev-lang/R-4.0.0 virtual/MASS >=sci-CRAN/meta-8.0.1 sci-CRAN/metafor sci-CRAN/mvtnorm sci-CRAN/magic sci-CRAN/igraph sci-BIOC/Rgraphviz sci-CRAN/colorspace sci-BIOC/graph sci-CRAN/magrittr r_suggests_brglm2? ( sci-CRAN/brglm2 ) r_suggests_cccp? ( sci-CRAN/cccp ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_tictoc? ( sci-CRAN/tictoc ) r_suggests_writexl? ( sci-CRAN/writexl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/netmeta_3.1-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7330f152ef915322e9570c550b8c408a
