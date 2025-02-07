@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Visualize Spatiotemporal Tumor Evolution with Jellyfish Plots //
+		Generates interactive Jellyfish plots to visualize
+		spatiotemporal tumor evolution by integrating sample and
+		phylogenetic trees into a unified plot. This approach provides
+		an intuitive way to analyze tumor heterogeneity and evolution
+		over time and across anatomical locations. The Jellyfish plot
+		visualization design was first introduced by Lahtinen, Lavikka,
+		et al. (2023, doi:10.1016/j.ccell.2023.04.017). This package
+		also supports visualizing ClonEvol results, a tool developed by
+		Dang, et al. (2017, doi:10.1093/annonc/mdx517), for analyzing
+		clonal evolution from multi-sample sequencing data. The
+		'clonevol' package is not available on CRAN but can be
+		installed from its GitHub repository
+		(https://github.com/hdng/clonevol).
+	</longdescription>
+</pkgmetadata>
