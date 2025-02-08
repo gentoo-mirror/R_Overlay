@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/shinycssloaders sci-CRAN/DT sci-CRAN/summarytools sci-CRAN/rmarkdown sci-CRAN/shinythemes sci-CRAN/shinyjs sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/ggrepel virtual/MASS sci-CRAN/flextable sci-CRAN/cowplot sci-CRAN/ggcorrplot sci-CRAN/tidyr sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Stepwise Regression Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biocstyle r_suggests_kableextra r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/survival sci-CRAN/shinycssloaders sci-CRAN/DT sci-CRAN/summarytools sci-CRAN/rmarkdown sci-CRAN/shinythemes sci-CRAN/shinyjs sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/ggrepel virtual/MASS sci-CRAN/flextable sci-CRAN/cowplot sci-CRAN/ggcorrplot sci-CRAN/tidyr sci-CRAN/shiny r_suggests_biocstyle? ( sci-BIOC/BiocStyle ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/StepReg_1.5.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1e707985bbd0fa56a857d9d255c78b26

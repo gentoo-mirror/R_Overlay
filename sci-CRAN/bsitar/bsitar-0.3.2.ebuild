@@ -1,0 +1,78 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Bayesian Super Imposition by Tra... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/bsitar_0.3.2.tar.gz"
+LICENSE='GPL-2'
+
+IUSE="${IUSE-} r_suggests_bookdown r_suggests_cheapr r_suggests_checkmate
+	r_suggests_dofuture r_suggests_doparallel r_suggests_dtplyr
+	r_suggests_extradistr r_suggests_fastplyr r_suggests_forcats
+	r_suggests_foreach r_suggests_future r_suggests_future_apply
+	r_suggests_ggplot2 r_suggests_ggtext r_suggests_glue r_suggests_here
+	r_suggests_hmisc r_suggests_jtools r_suggests_kableextra
+	r_suggests_knitr r_suggests_nlme r_suggests_patchwork
+	r_suggests_posterior r_suggests_pracma r_suggests_purrr
+	r_suggests_r_rsp r_suggests_rmarkdown r_suggests_spelling
+	r_suggests_splines2 r_suggests_testthat r_suggests_tibble
+	r_suggests_tidyr"
+R_SUGGESTS="
+	r_suggests_bookdown? ( sci-CRAN/bookdown )
+	r_suggests_cheapr? ( >=sci-CRAN/cheapr-0.9.8 )
+	r_suggests_checkmate? ( >=sci-CRAN/checkmate-2.3.1 )
+	r_suggests_dofuture? ( >=sci-CRAN/doFuture-1.0.1 )
+	r_suggests_doparallel? ( >=sci-CRAN/doParallel-1.0.17 )
+	r_suggests_dtplyr? ( >=sci-CRAN/dtplyr-1.3.1 )
+	r_suggests_extradistr? ( sci-CRAN/extraDistr )
+	r_suggests_fastplyr? ( >=sci-CRAN/fastplyr-0.2.0 )
+	r_suggests_forcats? ( sci-CRAN/forcats )
+	r_suggests_foreach? ( >=sci-CRAN/foreach-1.5.2 )
+	r_suggests_future? ( sci-CRAN/future )
+	r_suggests_future_apply? ( sci-CRAN/future_apply )
+	r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.4.0 )
+	r_suggests_ggtext? ( sci-CRAN/ggtext )
+	r_suggests_glue? ( sci-CRAN/glue )
+	r_suggests_here? ( sci-CRAN/here )
+	r_suggests_hmisc? ( sci-CRAN/Hmisc )
+	r_suggests_jtools? ( >=sci-CRAN/jtools-2.2.2 )
+	r_suggests_kableextra? ( sci-CRAN/kableExtra )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_nlme? ( virtual/nlme )
+	r_suggests_patchwork? ( sci-CRAN/patchwork )
+	r_suggests_posterior? ( >=sci-CRAN/posterior-1.3.1 )
+	r_suggests_pracma? ( sci-CRAN/pracma )
+	r_suggests_purrr? ( sci-CRAN/purrr )
+	r_suggests_r_rsp? ( sci-CRAN/R_rsp )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_spelling? ( sci-CRAN/spelling )
+	r_suggests_splines2? ( >=sci-CRAN/splines2-0.5.3 )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+	r_suggests_tibble? ( sci-CRAN/tibble )
+	r_suggests_tidyr? ( sci-CRAN/tidyr )
+"
+DEPEND=">=sci-CRAN/marginaleffects-0.25.0
+	sci-CRAN/magrittr
+	>=sci-CRAN/dplyr-1.1.3
+	>=sci-CRAN/brms-2.22.0
+	>=dev-lang/R-3.6
+	>=sci-CRAN/rstan-2.32.6
+	>=sci-CRAN/loo-2.7.0
+	>=sci-CRAN/rlang-1.1.2
+	>=sci-CRAN/Rdpack-2.6.2
+	>=sci-CRAN/insight-1.0.1
+	>=sci-CRAN/data_table-1.16.4
+	>=sci-CRAN/collapse-2.0.19
+	sci-CRAN/sitar
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+
+_UNRESOLVED_PACKAGES=(
+	'>=sci-CRAN/bayesplot-1.11.0'
+	'>=sci-CRAN/ggridges-0.5.6'
+	'parallel (>= 4.3.1)'
+)
