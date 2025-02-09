@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/config-0.3.2 sci-CRAN/ggplot2 >=sci-CRAN/golem-0.4.1 sci-CRAN/ggrepel >=sci-CRAN/shiny-1.8.1.1 dev-lang/R:=
+DESCRIPTION=Publication-Ready Volcano Plots
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/config-0.3.2 sci-CRAN/ggplot2 >=sci-CRAN/golem-0.4.1 sci-CRAN/ggrepel >=sci-CRAN/shiny-1.8.1.1 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggvolcano_0.1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f07e04da0578bcb41b334dd001b0862d

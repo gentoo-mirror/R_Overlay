@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/purrr virtual/mgcv sci-CRAN/tidyselect sci-CRAN/tibble sci-CRAN/cli >=dev-lang/R-4.1.0 sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/glue sci-CRAN/gsignal sci-CRAN/magrittr sci-CRAN/readr sci-CRAN/pracma sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Ultrasound Tongue Imaging
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rcartocolor r_suggests_rmarkdown r_suggests_stringr r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/purrr virtual/mgcv sci-CRAN/tidyselect sci-CRAN/tibble sci-CRAN/cli >=dev-lang/R-4.1.0 sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/glue sci-CRAN/gsignal sci-CRAN/magrittr sci-CRAN/readr sci-CRAN/pracma sci-CRAN/tidyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcartocolor? ( sci-CRAN/rcartocolor ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rticulate_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0f8f3f381807214ffe5709ac9377709c
