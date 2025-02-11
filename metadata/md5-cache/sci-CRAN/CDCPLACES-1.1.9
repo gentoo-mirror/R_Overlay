@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/curl sci-CRAN/sf sci-CRAN/yyjsonr sci-CRAN/tigris sci-CRAN/zctaCrosswalk dev-lang/R:=
+DESCRIPTION=Access the CDC PLACES API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/curl sci-CRAN/sf sci-CRAN/yyjsonr sci-CRAN/tigris sci-CRAN/zctaCrosswalk r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CDCPLACES_1.1.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4c75fd9a76134e7359d4dbb2bea56361

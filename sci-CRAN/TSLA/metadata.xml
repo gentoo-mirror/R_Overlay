@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tree-Guided Rare Feature Selection and Logic Aggregation //
+		Implementation of the tree-guided feature selection and logic
+		aggregation approach introduced in Chen et al. (2024)
+		doi:10.1080/01621459.2024.2326621. The method enables the
+		selection and aggregation of large-scale rare binary features
+		with a known hierarchical structure using a convex, linearly-
+		constrained regularized regression framework. The package
+		facilitates the application of this method to both linear
+		regression and binary classification problems by solving the
+		optimization problem via the smoothing proximal gradient
+		descent algorithm (Chen et al. (2012) doi:10.1214/11-AOAS514).
+	</longdescription>
+</pkgmetadata>

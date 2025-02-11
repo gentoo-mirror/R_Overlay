@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/hexbin sci-CRAN/spatstat_geom dev-lang/R:=
+DESCRIPTION=Fast Kernel Density Estimation with Hexagonal Grid
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/hexbin sci-CRAN/spatstat_geom r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hexDensity_1.4.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=190a9b5ef31a2433c8af9c292aa15ec6

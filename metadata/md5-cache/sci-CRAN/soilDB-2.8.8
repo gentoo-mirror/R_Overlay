@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/aqp-2.0.2 sci-CRAN/curl sci-CRAN/data_table sci-CRAN/DBI dev-lang/R:=
+DESCRIPTION=Soil Database Interface
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_httr r_suggests_jsonlite r_suggests_knitr r_suggests_odbc r_suggests_raster r_suggests_rmarkdown r_suggests_rsqlite r_suggests_rvest r_suggests_sf r_suggests_terra r_suggests_testthat r_suggests_wk r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/aqp-2.0.2 sci-CRAN/curl sci-CRAN/data_table sci-CRAN/DBI r_suggests_httr? ( sci-CRAN/httr ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_odbc? ( sci-CRAN/odbc ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_rvest? ( sci-CRAN/rvest ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_wk? ( sci-CRAN/wk ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/soilDB_2.8.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8c839c6017973dfa30fe06e25cfd7a5c

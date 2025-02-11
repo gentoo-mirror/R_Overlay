@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/readr sci-CRAN/gridExtra sci-CRAN/patchwork sci-CRAN/ggplot2 sci-CRAN/rmarkdown dev-lang/R:=
+DESCRIPTION=Estimate User-Based Tagging Mort... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/readr sci-CRAN/gridExtra sci-CRAN/patchwork sci-CRAN/ggplot2 sci-CRAN/rmarkdown dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/retmort_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=30b0c9f143987552c6e5b0e6369900b5
