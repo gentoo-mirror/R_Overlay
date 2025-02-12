@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/data_table sci-CRAN/stringr sci-CRAN/lubridate sci-CRAN/shinyWidgets sci-CRAN/rstudioapi sci-CRAN/openxlsx sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/shiny sci-CRAN/R_utils dev-lang/R:=
+DESCRIPTION=Feel at Home using R, Thanks to ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/magrittr sci-CRAN/data_table sci-CRAN/stringr sci-CRAN/lubridate sci-CRAN/shinyWidgets sci-CRAN/rstudioapi sci-CRAN/openxlsx sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/shiny sci-CRAN/R_utils dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/R.AlphA.Home_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8d6a5d07f8b2b19bb628afd0f3db65c0

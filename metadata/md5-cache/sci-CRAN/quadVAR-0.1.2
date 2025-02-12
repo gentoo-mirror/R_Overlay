@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/ncvreg sci-CRAN/ggplot2 sci-CRAN/qgraph sci-CRAN/RAMP sci-CRAN/rlang sci-CRAN/shinythemes sci-CRAN/shiny sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Quadratic Vector Autoregression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_nonlineartseries r_suggests_remotes r_suggests_sis r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/ncvreg sci-CRAN/ggplot2 sci-CRAN/qgraph sci-CRAN/RAMP sci-CRAN/rlang sci-CRAN/shinythemes sci-CRAN/shiny sci-CRAN/tidyr r_suggests_nonlineartseries? ( sci-CRAN/nonlinearTseries ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_sis? ( sci-CRAN/SIS ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/quadVAR_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0c2e1018028d3d61fbf4279c8be5614f
