@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Unbiased Distances for Mixed-Type Data // A comprehensive
+		framework for calculating unbiased distances in datasets
+		containing mixed-type variables (numerical and categorical).
+		The package implements a general formulation that ensures
+		multivariate additivity and commensurability, meaning that
+		variables contribute equally to the overall distance regardless
+		of their type, scale, or distribution. Supports multiple
+		distance measures including Gower's distance, Euclidean
+		distance, Manhattan distance, and various categorical variable
+		distances such as simple matching, Eskin, occurrence frequency,
+		and association-based distances. Provides tools for variable
+		scaling (standard deviation, range, robust range, and principal
+		component scaling), and handles both independent and
+		association-based category dissimilarities. Implements methods
+		to correct for biases that typically arise from different
+		variable types, distributions, and number of categories.
+		Particularly useful for cluster analysis, data visualization,
+		and other distance-based methods when working with mixed data.
+		Methods based on van de Velden et al. (2024)
+		doi:10.48550/arXiv.2411.00429 "Unbiased mixed variables
+		distance".
+	</longdescription>
+</pkgmetadata>

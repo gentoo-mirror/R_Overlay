@@ -5,8 +5,18 @@
 		Fast and Exact Computation of Gaussian Stochastic Process //
 		Implements fast and exact computation of Gaussian stochastic
 		process with the Matern kernel using forward filtering and
-		backward smoothing algorithm. It allows for the cases with or
-		without a noise.  See the reference: Mengyang Gu and Yanxun Xu,
-		2020, Journal of Computational and Graphical Statistics.
+		backward smoothing algorithm. It includes efficient
+		implementations of the inverse Kalman filter, with applications
+		such as estimating particle interaction functions. These tools
+		support models with or without noise. Additionally, the package
+		offers algorithms for fast parameter estimation in latent
+		factor models, where the factor loading matrix is orthogonal,
+		and latent processes are modeled by Gaussian processes.  See
+		the references: 1) Mengyang Gu and Yanxun Xu (2020), Journal of
+		Computational and Graphical Statistics; 2) Xinyi Fang and
+		Mengyang Gu (2024), doi:10.48550/arXiv.2407.10089; 3) Mengyang
+		Gu and Weining Shen (2020), Journal of Machine Learning
+		Research; 4) Yizi Lin, Xubo Liu, Paul Segall and Mengyang Gu
+		(2025), doi:10.48550/arXiv.2501.01324.
 	</longdescription>
 </pkgmetadata>

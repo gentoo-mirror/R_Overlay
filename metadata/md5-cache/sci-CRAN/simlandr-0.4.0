@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lifecycle sci-CRAN/htmlwidgets sci-CRAN/coda sci-CRAN/bigmemory >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/ks sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/Sim_DiffProc sci-CRAN/gganimate sci-CRAN/forcats sci-CRAN/tidyr sci-CRAN/furrr sci-CRAN/plotly sci-CRAN/progress sci-CRAN/magrittr sci-CRAN/digest virtual/MASS sci-CRAN/dplyr sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Simulation-Based Landscape Const... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/lifecycle sci-CRAN/htmlwidgets sci-CRAN/coda sci-CRAN/bigmemory >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/ks sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/Sim_DiffProc sci-CRAN/gganimate sci-CRAN/forcats sci-CRAN/tidyr sci-CRAN/furrr sci-CRAN/plotly sci-CRAN/progress sci-CRAN/magrittr sci-CRAN/digest virtual/MASS sci-CRAN/dplyr sci-CRAN/rlang r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/simlandr_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=999472c8504c6bf150ca985f4d68d98e
