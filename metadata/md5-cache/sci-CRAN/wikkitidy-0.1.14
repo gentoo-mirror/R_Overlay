@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/purrr sci-CRAN/glue sci-CRAN/coro sci-CRAN/dplyr >=dev-lang/R-4.1.0 sci-CRAN/cli sci-CRAN/httr2 sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/openssl >=sci-CRAN/rlang-0.4.11 sci-CRAN/tibble sci-CRAN/webfakes sci-CRAN/pillar sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=Tidy Analysis of Wikipedia
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_igraph r_suggests_roxygen2 r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/stringr sci-CRAN/purrr sci-CRAN/glue sci-CRAN/coro sci-CRAN/dplyr >=dev-lang/R-4.1.0 sci-CRAN/cli sci-CRAN/httr2 sci-CRAN/lubridate sci-CRAN/magrittr sci-CRAN/openssl >=sci-CRAN/rlang-0.4.11 sci-CRAN/tibble sci-CRAN/webfakes sci-CRAN/pillar sci-CRAN/vctrs r_suggests_covr? ( sci-CRAN/covr ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/wikkitidy_0.1.14.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bf6767f7c5812a15044c0eec0df88ebc

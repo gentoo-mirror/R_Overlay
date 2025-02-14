@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Predictions Using Item-Focused Tree Models // This function
+		predicts item response probabilities and item responses using
+		the item-focused tree model. The item-focused tree model
+		combines logistic regression with recursive partitioning to
+		detect Differential Item Functioning in dichotomous items. The
+		model applies partitioning rules to the data, splitting it into
+		homogeneous subgroups, and uses logistic regression within each
+		subgroup to explain the data. Differential Item Functioning
+		detection is achieved by examining potential group differences
+		in item response patterns. This method is useful for
+		understanding how different predictors, such as demographic or
+		psychological factors, influence item responses across
+		subgroups.
+	</longdescription>
+</pkgmetadata>

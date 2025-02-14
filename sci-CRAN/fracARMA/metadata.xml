@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fractionally Integrated ARMA Model // Implements fractional
+		differencing with Autoregressive Moving Average models to
+		analyse long-memory       time series data. Traditional ARIMA
+		models typically use integer values for differencing, which are
+		suitable for time series with short memory or anti-persistent
+		behaviour. In contrast, the Fractional ARIMA      model allows
+		fractional differencing, enabling it to effectively capture
+		long memory characteristics in         time series data. The
+		fracARMA package is user-friendly and allows users to manually
+		input the  fractional differencing parameter, which can be
+		obtained using various estimators such as the GPH
+		estimator, Sperio method, or Wavelet method and many.
+		Additionally, the package enables users to directly       feed
+		the time series data, AR order, MA order, fractional
+		differencing parameter, and the proportion of         training
+		data as a split ratio, all in a single command. The package is
+		based on the reference from the         paper of Irshad and
+		others (2024, doi:10.22271/maths.2024.v9.i6b.1906).
+	</longdescription>
+</pkgmetadata>

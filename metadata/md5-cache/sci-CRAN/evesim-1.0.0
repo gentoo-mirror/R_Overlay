@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.4.0 sci-CRAN/RcppParallel sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Evolution Emulator: Species Dive... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.4.0 sci-CRAN/RcppParallel sci-CRAN/Rcpp >=sci-CRAN/Rcpp-1.0.11 sci-CRAN/RcppParallel dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/evesim_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e14310431fd1d0560846b481f27ca9f0
