@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RCurl sci-CRAN/httr sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Fixing Data Made Easy for Statistical Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/RCurl sci-CRAN/httr sci-CRAN/xml2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fixr_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ff7637c24002a24b64d05859df4b7589
