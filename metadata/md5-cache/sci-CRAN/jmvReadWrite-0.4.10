@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/zip dev-lang/R:=
+DESCRIPTION=Read and Write jamovi Files (.omv)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_foreign r_suggests_haven r_suggests_jmv r_suggests_jmvcore r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/jsonlite sci-CRAN/zip r_suggests_foreign? ( virtual/foreign ) r_suggests_haven? ( sci-CRAN/haven ) r_suggests_jmv? ( sci-CRAN/jmv ) r_suggests_jmvcore? ( >=sci-CRAN/jmvcore-2.4.7 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/jmvReadWrite_0.4.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b28f1cac98d64757070eb5e54ba79fb0

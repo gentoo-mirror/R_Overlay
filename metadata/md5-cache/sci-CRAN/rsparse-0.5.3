@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/Rcpp-0.11 virtual/Matrix >=sci-CRAN/data_table-1.10.0 virtual/Matrix >=sci-CRAN/float-0.2.2 sci-CRAN/RhpcBLASctl >=sci-CRAN/lgr-0.2 dev-lang/R:=
+DESCRIPTION=Statistical Learning on Sparse Matrices
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/Rcpp-0.11 virtual/Matrix >=sci-CRAN/data_table-1.10.0 virtual/Matrix >=sci-CRAN/float-0.2.2 sci-CRAN/RhpcBLASctl >=sci-CRAN/lgr-0.2 sci-CRAN/Rcpp >=sci-CRAN/RcppArmadillo-0.9.100.5.0 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rsparse_0.5.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f316180fd3c7d4cad026b569d5b03f37
