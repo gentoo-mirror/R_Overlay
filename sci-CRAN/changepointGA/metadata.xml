@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Changepoint Detection via Modified Genetic Algorithm // The
+		Genetic Algorithm (GA) is used to perform changepoint analysis
+		in time series data. The package also includes an extended
+		island version of GA, as described in Lu, Lund, and Lee (2010,
+		doi:10.1214/09-AOAS289). By mimicking the principles of natural
+		selection and evolution, GA provides a powerful stochastic
+		search technique for solving combinatorial optimization
+		problems. In 'changepointGA', each chromosome represents a
+		changepoint configuration, including the number and locations
+		of changepoints, hyperparameters, and model parameters. The
+		package employs genetic operatorsselection, crossover, and
+		mutationto iteratively improve solutions based on the given
+		fitness (objective) function. Key features of 'changepointGA'
+		include encoding changepoint configurations in an integer
+		format, enabling dynamic and simultaneous estimation of model
+		hyperparameters, changepoint configurations, and associated
+		parameters. The detailed algorithmic implementation can be
+		found in the package vignettes and in the paper of Li (2024,
+		doi:10.48550/arXiv.2410.15571).
+	</longdescription>
+</pkgmetadata>
