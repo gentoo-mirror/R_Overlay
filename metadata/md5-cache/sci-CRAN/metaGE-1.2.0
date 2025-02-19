@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gplots sci-CRAN/stringr sci-CRAN/ks sci-CRAN/dplyr sci-CRAN/tibble >=dev-lang/R-3.0.2 sci-CRAN/data_table sci-CRAN/emdbook sci-CRAN/furrr sci-CRAN/ggplot2 sci-CRAN/Rfast sci-CRAN/yarrr sci-CRAN/purrr sci-CRAN/viridis sci-CRAN/future sci-CRAN/ggrepel sci-CRAN/qqman sci-CRAN/tidyr sci-CRAN/corrplot dev-lang/R:=
+DESCRIPTION=Meta-Analysis for Detecting Geno... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dt r_suggests_knitr r_suggests_rmarkdown r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/gplots sci-CRAN/stringr sci-CRAN/ks sci-CRAN/dplyr sci-CRAN/tibble >=dev-lang/R-3.0.2 sci-CRAN/data_table sci-CRAN/emdbook sci-CRAN/furrr sci-CRAN/ggplot2 sci-CRAN/Rfast sci-CRAN/yarrr sci-CRAN/purrr sci-CRAN/viridis sci-CRAN/future sci-CRAN/ggrepel sci-CRAN/qqman sci-CRAN/tidyr sci-CRAN/corrplot r_suggests_dt? ( sci-CRAN/DT ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/metaGE_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=237fa8df774e6bdeb8fe96d0b7ff9354

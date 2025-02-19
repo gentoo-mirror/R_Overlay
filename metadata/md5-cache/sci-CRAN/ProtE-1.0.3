@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/UniprotR sci-CRAN/VIM sci-CRAN/tidyr sci-CRAN/stringr sci-BIOC/limma sci-CRAN/dplyr sci-CRAN/forcats sci-CRAN/ggpubr sci-CRAN/vegan sci-CRAN/missRanger sci-CRAN/car sci-CRAN/openxlsx sci-CRAN/pheatmap sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/broom dev-lang/R:=
+DESCRIPTION=Processing Proteomics Data, Stat... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biocmanager r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/UniprotR sci-CRAN/VIM sci-CRAN/tidyr sci-CRAN/stringr sci-BIOC/limma sci-CRAN/dplyr sci-CRAN/forcats sci-CRAN/ggpubr sci-CRAN/vegan sci-CRAN/missRanger sci-CRAN/car sci-CRAN/openxlsx sci-CRAN/pheatmap sci-CRAN/ggplot2 sci-CRAN/reshape2 sci-CRAN/broom r_suggests_biocmanager? ( sci-CRAN/BiocManager ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ProtE_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2d8c60b82ababb8f9f3248d14ff4a980
