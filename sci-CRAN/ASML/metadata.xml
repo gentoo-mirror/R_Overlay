@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Algorithm Portfolio Selection with Machine Learning // A wrapper
+		for machine learning (ML) methods to select among a portfolio
+		of algorithms based on the value of a key performance indicator
+		(KPI). A number of features is used to adjust a model to
+		predict the value of the KPI for each algorithm, then, for a
+		new value of the features the KPI is estimated and the
+		algorithm with the best one is chosen. To learn it can use the
+		regression methods in 'caret' package or a custom function
+		defined by the user. Several graphics available to analyze the
+		results obtained. This library has been used in Ghaddar et al.
+		(2023) doi:10.1287/ijoc.2022.0090).
+	</longdescription>
+</pkgmetadata>

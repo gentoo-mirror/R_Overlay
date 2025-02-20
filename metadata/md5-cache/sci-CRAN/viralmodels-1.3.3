@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/workflowsets sci-CRAN/parsnip sci-CRAN/dplyr sci-CRAN/dials sci-CRAN/workflows sci-CRAN/hardhat sci-CRAN/purrr sci-CRAN/recipes sci-CRAN/rsample sci-CRAN/tidyselect sci-CRAN/tune dev-lang/R:=
+DESCRIPTION=Viral Load and CD4 Lymphocytes Regression Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_baguette r_suggests_cubist r_suggests_earth r_suggests_glmnet r_suggests_kernlab r_suggests_kknn r_suggests_ranger r_suggests_rules r_suggests_testthat r_suggests_tidyverse r_suggests_vdiffr r_suggests_viraldomain byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/workflowsets sci-CRAN/parsnip sci-CRAN/dplyr sci-CRAN/dials sci-CRAN/workflows sci-CRAN/hardhat sci-CRAN/purrr sci-CRAN/recipes sci-CRAN/rsample sci-CRAN/tidyselect sci-CRAN/tune r_suggests_baguette? ( sci-CRAN/baguette ) r_suggests_cubist? ( sci-CRAN/Cubist ) r_suggests_earth? ( sci-CRAN/earth ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_kknn? ( sci-CRAN/kknn ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rules? ( sci-CRAN/rules ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_viraldomain? ( sci-CRAN/viraldomain ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/viralmodels_1.3.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=442f16cff6356be732b5b52a5d49ca77

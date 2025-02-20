@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/scales sci-CRAN/rlang >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/caret sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/reshape2 sci-CRAN/Polychrome dev-lang/R:=
+DESCRIPTION=Algorithm Portfolio Selection wi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_snow byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/scales sci-CRAN/rlang >=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/caret sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/tidyr sci-CRAN/reshape2 sci-CRAN/Polychrome r_suggests_snow? ( sci-CRAN/snow ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ASML_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6759b332918aa08d914d36d7e5e8917a
