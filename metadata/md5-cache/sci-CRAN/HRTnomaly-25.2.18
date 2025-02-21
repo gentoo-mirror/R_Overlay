@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Historical, Relational, and Tail... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cellwise r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/tidyr r_suggests_cellwise? ( sci-CRAN/cellWise ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/HRTnomaly_25.2.18.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=65b75ea8574fc1fca26cbc817b0fa819
