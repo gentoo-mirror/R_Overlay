@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Wrapper for 'run_examples()' // Captures errors encountered when
+		running 'run_examples()', and processes and archives them. The
+		function 'run_examples()' within the 'devtools' package allows
+		batch execution of all of the examples within a given package.
+		This is much more convenient than testing each example
+		manually. However, a major inconvenience is that if an error is
+		encountered, the program stops and does not complete testing
+		the remaining examples. Also, there is not a systematic record
+		of the results, namely which package functions had no examples,
+		which had examples that failed, and which had examples that
+		succeeded. The current package provides the missing
+		functionality.
+	</longdescription>
+</pkgmetadata>
