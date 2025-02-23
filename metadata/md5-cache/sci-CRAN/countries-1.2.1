@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/httr sci-CRAN/viridis sci-CRAN/stringdist sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/knitr sci-CRAN/fastmatch sci-CRAN/lubridate sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Deal with Country Data in an Easy Way
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_data_table r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/httr sci-CRAN/viridis sci-CRAN/stringdist sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/knitr sci-CRAN/fastmatch sci-CRAN/lubridate sci-CRAN/jsonlite r_suggests_curl? ( sci-CRAN/curl ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/countries_1.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c7b810582e3e595d5fb2c314519610a1

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fGarch sci-CRAN/pcaPP sci-CRAN/strucchange virtual/MASS sci-CRAN/LaplacesDemon sci-CRAN/ROOPSD >=dev-lang/R-3.5.0 sci-CRAN/forecast sci-CRAN/vars sci-CRAN/psych sci-CRAN/sde sci-CRAN/e1071 virtual/KernSmooth sci-CRAN/fdapace sci-CRAN/rainbow sci-CRAN/colorspace sci-CRAN/evgam virtual/cluster sci-CRAN/glue sci-CRAN/ecp sci-CRAN/fda virtual/boot dev-lang/R:=
+DESCRIPTION=Functional Time Series Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_fds byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/fGarch sci-CRAN/pcaPP sci-CRAN/strucchange virtual/MASS sci-CRAN/LaplacesDemon sci-CRAN/ROOPSD >=dev-lang/R-3.5.0 sci-CRAN/forecast sci-CRAN/vars sci-CRAN/psych sci-CRAN/sde sci-CRAN/e1071 virtual/KernSmooth sci-CRAN/fdapace sci-CRAN/rainbow sci-CRAN/colorspace sci-CRAN/evgam virtual/cluster sci-CRAN/glue sci-CRAN/ecp sci-CRAN/fda virtual/boot r_suggests_boot? ( virtual/boot ) r_suggests_fds? ( sci-CRAN/fds ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ftsa_6.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=669fdf99b430d5b2b7710e300217a400
