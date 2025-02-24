@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.12.12 sci-CRAN/catdata virtual/MASS >=sci-CRAN/glmnet-4.0 >=dev-lang/R-3.4 virtual/Matrix virtual/mgcv sci-CRAN/RColorBrewer dev-lang/R:=
+DESCRIPTION=Sparse Multi-Type Regularized Feature Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-0.12.12 sci-CRAN/catdata virtual/MASS >=sci-CRAN/glmnet-4.0 >=dev-lang/R-3.4 virtual/Matrix virtual/mgcv sci-CRAN/RColorBrewer sci-CRAN/Rcpp >=sci-CRAN/RcppArmadillo-0.8.300.1.0 r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-6.0.0 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/smurf_1.1.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c1c05c80f63fca3a672b25952be3f428
