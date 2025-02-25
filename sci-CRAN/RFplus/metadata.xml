@@ -2,12 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Progressive Bias Correction of Satellite Environmental Data //
-		Implements a bias correction method that combines Random Forest
-		models with Quantile Mapping to improve the accuracy of
-		satellite-derived environmental datasets. The model corrects
-		biases in meteorological variables, such as precipitation and
-		temperature, by integrating in situ measurements and a Digital
-		Elevation Model (DEM).
+		Machine Learning for Merging Satellite and Ground Precipitation
+		Data // A machine learning algorithm that merges satellite and
+		ground precipitation data using Random Forest for spatial
+		prediction, residual modeling for bias correction, and quantile
+		mapping for adjustment, ensuring accurate estimates across
+		temporal scales and regions.
 	</longdescription>
 </pkgmetadata>
