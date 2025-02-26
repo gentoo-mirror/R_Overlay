@@ -2,12 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Dyadic Mixed Model for Pedigree Data // Dyadic mixed model
-		analysis with multi-trait responses and pedigree-based
-		partitioning of individual variation into a range of
+		Dyadic Mixed Model for Pedigree Data // Mixed model analysis for
+		quantitative genetics with multi-trait responses and pedigree-
+		based partitioning of individual variation into a range of
 		environmental and genetic variance components for individual
 		and maternal effects. Method documented in dmmOverview.pdf; dmm
 		is an implementation of dispersion mean model described by
-		Searle et al. (1992) "Variance Components", Wiley, NY.
+		Searle et al. (1992) "Variance Components", Wiley, NY. 'DMM'
+		can do 'MINQUE', 'bias-corrected-ML', and 'REML'  variance
+		component estimates.
 	</longdescription>
 </pkgmetadata>
