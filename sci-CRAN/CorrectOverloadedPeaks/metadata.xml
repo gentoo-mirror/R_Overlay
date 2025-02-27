@@ -3,15 +3,15 @@
 <pkgmetadata>
 	<longdescription>
 		Correct Overloaded Peaks from GC-APCI-MS Data // Analyzes and
-		modifies metabolomics raw data (generated using GC-APCI-MS, Gas
+		modifies metabolomics raw data (generated using Gas
 		Chromatography-Atmospheric Pressure Chemical Ionization-Mass
 		Spectrometry) to correct overloaded signals, i.e. ion
 		intensities exceeding detector saturation leading to a cut-off
-		peak. Data in xcmsRaw format are accepted as input and mzXML
-		files can be processed alternatively. Overloaded signals are
-		detected automatically and modified using an Gaussian or
-		Isotopic-Ratio approach, QC plots are generated and corrected
-		data are stored within the original xcmsRaw or mzXML
-		respectively to allow further processing.
+		peak. Data in 'xcmsRaw' format are accepted as input and
+		'mzXML' files can be processed alternatively. Overloaded
+		signals are detected automatically and modified using an
+		Gaussian or an Isotopic-Ratio approach. Quality control plots
+		are generated and corrected data are stored within the original
+		'xcmsRaw' or 'mzXML' respectively to allow further processing.
 	</longdescription>
 </pkgmetadata>

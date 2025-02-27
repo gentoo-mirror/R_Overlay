@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/slider sci-CRAN/tidyr sci-CRAN/janitor >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/openxlsx sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/readxl sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=RT-QuIC Data Formatting and Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/slider sci-CRAN/tidyr sci-CRAN/janitor >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/openxlsx sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/readxl sci-CRAN/reshape2 r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/quicR_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c1e3f0e829969f2118d2cac0d630a8de
