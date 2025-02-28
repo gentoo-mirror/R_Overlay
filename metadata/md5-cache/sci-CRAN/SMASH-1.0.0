@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp sci-CRAN/ggplot2 sci-CRAN/smarter sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Subclone Multiplicity Allocation... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/Rcpp sci-CRAN/ggplot2 sci-CRAN/smarter sci-CRAN/reshape2 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SMASH_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2c125c5fbb3da62f7d1812f2d2b20705

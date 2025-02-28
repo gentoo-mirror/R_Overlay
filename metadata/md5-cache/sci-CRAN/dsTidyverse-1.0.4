@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=DataSHIELD Tidyverse Serverside Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_dsi r_suggests_dslite r_suggests_mockery r_suggests_purrr r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1+
+RDEPEND=sci-CRAN/rlang sci-CRAN/cli r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_dsi? ( sci-CRAN/DSI ) r_suggests_dslite? ( sci-CRAN/DSLite ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dsTidyverse_1.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=90db205de7bfa10532c4f88190d475c3
