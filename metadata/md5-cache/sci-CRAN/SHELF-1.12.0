@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny sci-CRAN/ggridges sci-CRAN/scales >=dev-lang/R-3.5.0 sci-CRAN/Hmisc sci-CRAN/flexsurv sci-CRAN/ggExtra sci-CRAN/rmarkdown sci-CRAN/sn sci-CRAN/survminer virtual/survival virtual/Matrix sci-CRAN/tidyr sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Tools to Support the Sheffield E... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggally r_suggests_knitr r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/shiny sci-CRAN/ggridges sci-CRAN/scales >=dev-lang/R-3.5.0 sci-CRAN/Hmisc sci-CRAN/flexsurv sci-CRAN/ggExtra sci-CRAN/rmarkdown sci-CRAN/sn sci-CRAN/survminer virtual/survival virtual/Matrix sci-CRAN/tidyr sci-CRAN/ggplot2 r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SHELF_1.12.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=aa9fcd02a20acaf8c7b2fe1bacc1e314

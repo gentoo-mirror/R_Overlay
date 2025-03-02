@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/animation sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/igraph sci-CRAN/tidyselect sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/lubridate sci-CRAN/ggplot2 sci-CRAN/mvtnorm >=dev-lang/R-3.5.0 sci-CRAN/sf sci-CRAN/crawl sci-CRAN/ggmap virtual/mgcv sci-CRAN/ellipse sci-CRAN/RColorBrewer dev-lang/R:=
+DESCRIPTION=Animation of Multiple Trajectori... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_terra r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/animation sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/igraph sci-CRAN/tidyselect sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/lubridate sci-CRAN/ggplot2 sci-CRAN/mvtnorm >=dev-lang/R-3.5.0 sci-CRAN/sf sci-CRAN/crawl sci-CRAN/ggmap virtual/mgcv sci-CRAN/ellipse sci-CRAN/RColorBrewer r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/anipaths_0.10.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6c3dfd193da8428e3b0774e28bf19064
