@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Assessing the Numerical Feasibility for Conducting a Matching-
-		Adjusted Indirect Comparison (MAIC) // A collection of easy-to-
-		implement tools for checking whether a MAIC can be conducted.
-		An alternative way of calculating weights is also included.
-		These methods are introduced in Glimm  Yau (2021)
-		arXiv:2108.01896.
+		Exact Matching and Matching-Adjusted Indirect Comparison (MAIC)
+		// The second version (0.2.0) contains implementation for exact
+		matching which is an alternative to propensity score matching
+		(see Glimm  Yau (2025)). The initial version (0.1.2) contains a
+		collection of easy-to-implement tools for checking whether a
+		MAIC can be conducted, as well as an alternative way of
+		calculating weights (see Glimm  Yau (2021)
+		doi:10.1002/pst.2210.)
 	</longdescription>
 </pkgmetadata>

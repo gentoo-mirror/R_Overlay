@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Output Results from 'rms' Models for Medical Journals // This
+		takes the output of models performed using the 'rms' package
+		and returns a dataframe with the results. This output is in the
+		format required by medical journals. For example for cox
+		regression models, the hazard ratios, their 95% confidence
+		intervals, and p values will be provided. There are additional
+		functions for outputs when the model included restricted cubic
+		spline (RCS) terms. Models using imputed data (eg from
+		aregimpute()) and fitted used fit.mult.impute() can also be
+		processed. The dataframe which is returned can easily be turned
+		into a publication ready table with packages 'flextable' and
+		'officer'.
+	</longdescription>
+</pkgmetadata>

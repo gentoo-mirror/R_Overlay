@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=The Echelon Analysis and the Det... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_sf r_suggests_spdata byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_sf? ( sci-CRAN/sf ) r_suggests_spdata? ( sci-CRAN/spData ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/echelon_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ed61231265a7dc98b3c008cbfbcd4b3d

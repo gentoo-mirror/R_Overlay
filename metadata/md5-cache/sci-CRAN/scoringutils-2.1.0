@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/checkmate >=sci-CRAN/data_table-1.16.0 sci-CRAN/cli >=sci-CRAN/ggplot2-3.4.0 sci-CRAN/Metrics sci-CRAN/purrr sci-CRAN/scoringRules dev-lang/R:=
+DESCRIPTION=Utilities for Scoring and Assessing Predictions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggdist r_suggests_kableextra r_suggests_knitr r_suggests_magrittr r_suggests_rmarkdown r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/checkmate >=sci-CRAN/data_table-1.16.0 sci-CRAN/cli >=sci-CRAN/ggplot2-3.4.0 sci-CRAN/Metrics sci-CRAN/purrr sci-CRAN/scoringRules r_suggests_ggdist? ( sci-CRAN/ggdist ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.9 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/scoringutils_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c6a21adb54040e2aeaeb76c306b96abd

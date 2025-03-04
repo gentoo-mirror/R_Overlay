@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/pbapply sci-CRAN/chk sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Fractional Weighted Bootstrap
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_knitr r_suggests_lmtest r_suggests_nnet r_suggests_rmarkdown r_suggests_sandwich r_suggests_survival r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/pbapply sci-CRAN/chk sci-CRAN/rlang r_suggests_boot? ( virtual/boot ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_nnet? ( virtual/nnet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sandwich? ( >=sci-CRAN/sandwich-2.4.0 ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fwb_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5828d70985823eaf6a516e9a500c14c3

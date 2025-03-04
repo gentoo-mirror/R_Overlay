@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rms dev-lang/R:=
+DESCRIPTION=Output Results from rms Models f... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_dplyr r_suggests_flextable r_suggests_knitr r_suggests_mass r_suggests_officer r_suggests_rmarkdown r_suggests_survival r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rms r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_flextable? ( sci-CRAN/flextable ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_officer? ( sci-CRAN/officer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rmsMD_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=837a6b71d5e6c8e5093026331403a4cd

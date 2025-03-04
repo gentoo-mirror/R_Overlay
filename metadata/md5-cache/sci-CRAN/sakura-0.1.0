@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 dev-lang/R:=
+DESCRIPTION=Extension to R Serialization
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arrow byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5 r_suggests_arrow? ( sci-CRAN/arrow ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sakura_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=96df140266c1d428c117deea0d898ef1

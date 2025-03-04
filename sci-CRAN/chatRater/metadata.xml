@@ -2,13 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Rating Text Using Large Language Models // Generates ratings for
-		textual stimuli using large language models. It allows users to
-		evaluate idioms and similar texts by combining context,
-		prompts, and stimulus inputs. The package supports both
-		'OpenAI' and 'DeepSeek' APIs by enabling users to switch models
-		simply by specifying the model parameter. It implements methods
-		for constructing the request payload and parsing numeric
-		ratings from the model outputs.
+		Rating and Evaluating Texts Using Large Language Models //
+		Generates ratings and psycholinguistic metrics for textual
+		stimuli using large language models. It enables users to
+		evaluate idioms and other language materials by combining
+		context, prompts, and stimulus inputs. It supports multiple LLM
+		APIs (such as 'OpenAI', 'DeepSeek', 'Anthropic', 'Cohere',
+		'Google PaLM', and 'Ollama') by allowing users to switch models
+		with a single parameter. In addition to generating numeric
+		ratings, 'chatRater' provides functions for obtaining detailed
+		psycholinguistic metrics including word frequency (with
+		optional corpus input), lexical coverage (with customizable
+		vocabulary size and test basis), Zipf metric, Levenshtein
+		distance, and semantic transparency.
 	</longdescription>
 </pkgmetadata>

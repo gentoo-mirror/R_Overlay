@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Extension to R Serialization // Extends the functionality of R
+		serialization by augmenting the built-in reference hook system.
+		This enhanced implementation allows optimal, one-pass
+		integrated serialization that combines R serialization with
+		third-party serialization methods. Facilitates the
+		serialization of even complex R objects, which contain non-
+		system reference objects, such as those accessed via external
+		pointers, for use in parallel and distributed computing.
+	</longdescription>
+</pkgmetadata>
