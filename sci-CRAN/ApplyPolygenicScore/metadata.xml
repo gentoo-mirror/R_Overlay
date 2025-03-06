@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Utilities for the Application of a Polygenic Score to a VCF //
+		Simple and transparent parsing of genotype/dosage data from an
+		input Variant Call Format (VCF) file, matching of genotype
+		coordinates to the component Single Nucleotide Polymorphisms
+		(SNPs) of an existing polygenic score (PGS), and application of
+		SNP weights to dosages for the calculation of a polygenic score
+		for each individual in accordance with the additive weighted
+		sum of dosages model. Methods are designed in reference to best
+		practices described by Collister, Liu, and Clifton (2022)
+		doi:10.3389/fgene.2022.818574.
+	</longdescription>
+</pkgmetadata>

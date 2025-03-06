@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 virtual/Matrix >=sci-CRAN/bigmemory-4.5.0 >=sci-CRAN/Rcpp-0.12.1 sci-CRAN/ncvreg dev-lang/R:=
+DESCRIPTION=Extending Lasso Model Fitting to Big Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glmnet r_suggests_knitr r_suggests_rmarkdown r_suggests_survival r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.2.0 virtual/Matrix >=sci-CRAN/bigmemory-4.5.0 >=sci-CRAN/Rcpp-0.12.1 sci-CRAN/ncvreg sci-CRAN/Rcpp >=sci-CRAN/RcppArmadillo-0.8.600 sci-CRAN/BH sci-CRAN/bigmemory r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survival? ( virtual/survival ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/biglasso_1.6.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dfa70daac583ed30fcaaa8bbd042debc
