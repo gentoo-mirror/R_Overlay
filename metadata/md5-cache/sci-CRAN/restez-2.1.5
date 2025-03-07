@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/cli sci-CRAN/rentrez >=sci-CRAN/DBI-1.0.0 sci-CRAN/curl sci-CRAN/crayon sci-CRAN/stringi sci-CRAN/duckdb sci-CRAN/fs sci-CRAN/ape sci-CRAN/assertthat dev-lang/R:=
+DESCRIPTION=Create and Query a Local Copy of GenBank in R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mockery r_suggests_r_utils r_suggests_rmarkdown r_suggests_sessioninfo r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/cli sci-CRAN/rentrez >=sci-CRAN/DBI-1.0.0 sci-CRAN/curl sci-CRAN/crayon sci-CRAN/stringi sci-CRAN/duckdb sci-CRAN/fs sci-CRAN/ape sci-CRAN/assertthat r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sessioninfo? ( sci-CRAN/sessioninfo ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/restez_2.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1b50b427a2b7e33e3c3556557000ac9c

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gert sci-CRAN/gitcreds sci-CRAN/pkgbuild sci-CRAN/glue sci-CRAN/processx sci-CRAN/R6 sci-CRAN/rematch sci-CRAN/rappdirs sci-CRAN/rprojroot sci-CRAN/whoami >=dev-lang/R-4.0 sci-CRAN/desc sci-CRAN/curl sci-CRAN/callr sci-CRAN/jsonlite sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Tools for R Package Developers
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_asciicast r_suggests_debugme r_suggests_knitr r_suggests_mockery r_suggests_pillar r_suggests_rmarkdown r_suggests_testthat r_suggests_webfakes r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/gert sci-CRAN/gitcreds sci-CRAN/pkgbuild sci-CRAN/glue sci-CRAN/processx sci-CRAN/R6 sci-CRAN/rematch sci-CRAN/rappdirs sci-CRAN/rprojroot sci-CRAN/whoami >=dev-lang/R-4.0 sci-CRAN/desc sci-CRAN/curl sci-CRAN/callr sci-CRAN/jsonlite sci-CRAN/cli r_suggests_asciicast? ( sci-CRAN/asciicast ) r_suggests_debugme? ( sci-CRAN/debugme ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_pillar? ( sci-CRAN/pillar ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_webfakes? ( sci-CRAN/webfakes ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rhub_2.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=24296643d50e17b58b28d612445a8592
