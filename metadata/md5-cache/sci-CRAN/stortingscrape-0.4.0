@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/httr2 sci-CRAN/rvest sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Access Data from the Norwegian Parliament API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_magick r_suggests_pscl r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/httr2 sci-CRAN/rvest sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_pscl? ( sci-CRAN/pscl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stortingscrape_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ca78ac1396713c06e5a22cac283f5661

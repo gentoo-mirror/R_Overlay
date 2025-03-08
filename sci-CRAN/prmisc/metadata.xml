@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Miscellaneous Printing of Numeric and Statistical Output in R
+		Markdown and Quarto Documents // Miscellaneous printing of
+		numeric or statistical results in R Markdown or Quarto
+		documents according to guidelines of the "Publication Manual"
+		of the American Psychological Association (2020, ISBN:
+		978-1-4338-3215-4). These guidelines are usually referred to as
+		APA style (https://apastyle.apa.org/) and include specific
+		rules on the formatting of numbers and statistical test
+		results. APA style has to be implemented when submitting
+		scientific reports in a wide range of research fields,
+		especially in the social sciences. The default output of
+		numbers in the R console or R Markdown and Quarto documents
+		does not meet the APA style requirements, and reformatting
+		results manually can be cumbersome and error-prone. This
+		package covers the automatic conversion of R objects to textual
+		representations that meet the APA style requirements, which can
+		be included in R Markdown or Quarto documents. It covers some
+		basic statistical tests (t-test, ANOVA, correlation, chi-
+		squared test, Wilcoxon test) as well as some basic number
+		printing manipulations (formatting p-values, removing leading
+		zeros for numbers that cannot be greater than one, and others).
+		Other packages exist for formatting numbers and tests according
+		to the APA style guidelines, such as 'papaja'
+		(https://cran.r-project.org/package=papaja) and 'apa'
+		(https://cran.r-project.org/package=apa), but they do not offer
+		all convenience functionality included in 'prmisc'. The
+		vignette has an overview of most of the functions included in
+		the package.
+	</longdescription>
+</pkgmetadata>
