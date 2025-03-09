@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/clustree sci-CRAN/magrittr sci-CRAN/Seurat sci-CRAN/ggplot2 sci-CRAN/stringr virtual/Matrix sci-CRAN/dplyr sci-CRAN/patchwork dev-lang/R:=
+DESCRIPTION=A Pipeline to Process Single Cell RNAseq Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dbi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/clustree sci-CRAN/magrittr sci-CRAN/Seurat sci-CRAN/ggplot2 sci-CRAN/stringr virtual/Matrix sci-CRAN/dplyr sci-CRAN/patchwork r_suggests_dbi? ( sci-CRAN/DBI ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/scRNAstat_0.1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5ab795e19c45897ebc78ee64f44c3419

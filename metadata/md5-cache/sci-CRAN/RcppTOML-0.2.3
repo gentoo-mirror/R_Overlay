@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/Rcpp-1.0.8 dev-lang/R:=
+DESCRIPTION=Rcpp Bindings to Parser for Toms... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/Rcpp-1.0.8 sci-CRAN/Rcpp r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcppTOML_0.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9fb44814aa4be4ff3841939c3882a47f
