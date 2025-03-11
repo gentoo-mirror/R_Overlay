@@ -1,0 +1,26 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Spatial Analysis in Archaeology ... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/archeofrag.gui_1.0.0.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_rbgl"
+R_SUGGESTS="r_suggests_rbgl? ( sci-BIOC/RBGL )"
+DEPEND="sci-CRAN/shinythemes
+	sci-CRAN/archeofrag
+	sci-CRAN/dendextend
+	sci-CRAN/DT
+	sci-CRAN/doParallel
+	sci-CRAN/doRNG
+	sci-CRAN/foreach
+	sci-CRAN/ggplot2
+	sci-CRAN/igraph
+	sci-CRAN/shiny
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

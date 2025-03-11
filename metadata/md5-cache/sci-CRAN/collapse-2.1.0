@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/Rcpp-1.0.1 dev-lang/R:=
+DESCRIPTION=Advanced and Fast Data Transformation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bit64 r_suggests_covr r_suggests_data_table r_suggests_dplyr r_suggests_fastverse r_suggests_fixest r_suggests_ggplot2 r_suggests_kit r_suggests_knitr r_suggests_magrittr r_suggests_plm r_suggests_rcpparmadillo r_suggests_rcppeigen r_suggests_rmarkdown r_suggests_scales r_suggests_testthat r_suggests_tibble r_suggests_vars r_suggests_withr r_suggests_xts r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/Rcpp-1.0.1 sci-CRAN/Rcpp r_suggests_bit64? ( sci-CRAN/bit64 ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_fastverse? ( sci-CRAN/fastverse ) r_suggests_fixest? ( sci-CRAN/fixest ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_kit? ( sci-CRAN/kit ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_plm? ( sci-CRAN/plm ) r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo ) r_suggests_rcppeigen? ( sci-CRAN/RcppEigen ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_vars? ( sci-CRAN/vars ) r_suggests_withr? ( sci-CRAN/withr ) r_suggests_xts? ( sci-CRAN/xts ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/collapse_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d736d2288c26dcf27ea63e4fe952a5f3

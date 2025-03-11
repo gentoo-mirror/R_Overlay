@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Consider Ambiguity in Probabilistic Descriptions Using Density
+		Ratio Classes // Consider ambiguity in probabilistic
+		descriptions by replacing a parametric probabilistic
+		description of uncertainty by a non-parametric set of
+		probability distributions in the form of a Density Ratio Class.
+		This is of particular interest in Bayesian inference. The
+		Density Ratio Class is particularly suited for this purpose as
+		it is invariant under Bayesian inference, marginalization, and
+		propagation through a deterministic model. Here, invariant
+		means that the result of the operation applied to a Density
+		Ratio Class is again a Density Ratio Class. In particular the
+		invariance under Bayesian inference thus enables iterative
+		learning within the same framework of Density Ratio Classes.
+		The use of imprecise probabilities in general, and Density
+		Ratio Classes in particular, lead to intervals of
+		characteristics of probability distributions, such as
+		cumulative distribution functions, quantiles, and means. The
+		package is based on a sample of the distribution proportional
+		to the upper bound of the class. Typically this will be a
+		sample from the posterior in Bayesian inference. Based on such
+		a sample, the package provides functions to calculate lower and
+		upper class boundaries and lower and upper bounds of cumulative
+		distribution functions, and quantiles. Rinderknecht, S.L.,
+		Albert, C., Borsuk, M.E., Schuwirth, N., Kuensch, H.R. and
+		Reichert, P. (2014) "The effect of ambiguous prior knowledge on
+		Bayesian model parameter inference and prediction."
+		Environmental Modelling  Software. 62, 300-315, 2014.
+		doi:10.1016/j.envsoft.2014.08.020. Sriwastava, A. and Reichert,
+		P. "Robust Bayesian Estimation of Value Function Parameters
+		using Imprecise Priors." Submitted.
+		https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4973574.
+	</longdescription>
+</pkgmetadata>

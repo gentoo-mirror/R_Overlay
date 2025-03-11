@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 virtual/KernSmooth sci-CRAN/colorspace sci-CRAN/RColorBrewer sci-CRAN/withr dev-lang/R:=
+DESCRIPTION=Just Analysis Methods Base
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_crayon r_suggests_farver r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0.0 virtual/KernSmooth sci-CRAN/colorspace sci-CRAN/RColorBrewer sci-CRAN/withr r_suggests_crayon? ( sci-CRAN/crayon ) r_suggests_farver? ( sci-CRAN/farver ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/jamba_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ecc11d6d788c518c47a22f7a99bcd903
