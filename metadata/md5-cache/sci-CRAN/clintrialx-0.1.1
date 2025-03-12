@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/lubridate sci-CRAN/readr sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/progress sci-CRAN/RPostgreSQL sci-CRAN/tibble sci-CRAN/DBI sci-CRAN/rmarkdown dev-lang/R:=
+DESCRIPTION=Connect and Work with Clinical Trials Data Sources
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/lubridate sci-CRAN/readr sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/progress sci-CRAN/RPostgreSQL sci-CRAN/tibble sci-CRAN/DBI sci-CRAN/rmarkdown r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clintrialx_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=424be398a49134f3524728eaef9cfe74

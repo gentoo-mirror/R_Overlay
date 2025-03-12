@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/mvtnorm virtual/lattice dev-lang/R:=
+DESCRIPTION=Planning and Analyzing Dose Finding Experiments
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mass r_suggests_multcomp r_suggests_nlme r_suggests_numderiv r_suggests_quadprog r_suggests_rbest r_suggests_rmarkdown r_suggests_rsolnp r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/mvtnorm virtual/lattice r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_multcomp? ( sci-CRAN/multcomp ) r_suggests_nlme? ( virtual/nlme ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_quadprog? ( sci-CRAN/quadprog ) r_suggests_rbest? ( sci-CRAN/RBesT ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsolnp? ( sci-CRAN/Rsolnp ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DoseFinding_1.3-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=65bc19715686e9492f042714db3fd277
