@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.12.0 sci-CRAN/PCICt sci-CRAN/abind sci-CRAN/ncdf4 dev-lang/R:=
+DESCRIPTION=Helper Functions for Use with the ncdf4 Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_proj4 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-lang/R-2.12.0 sci-CRAN/PCICt sci-CRAN/abind sci-CRAN/ncdf4 r_suggests_proj4? ( sci-CRAN/proj4 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ncdf4.helpers_0.3-7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=60548399e477a5817ed14d6bb4bc38b8

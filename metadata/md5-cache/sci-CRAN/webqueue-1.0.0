@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/webutils sci-CRAN/httpuv sci-CRAN/cli >=dev-lang/R-4.2.0 sci-CRAN/jobqueue sci-CRAN/jsonlite sci-CRAN/later sci-CRAN/parallelly sci-CRAN/promises sci-CRAN/R6 sci-CRAN/semaphore dev-lang/R:=
+DESCRIPTION=Multicore HTTP Server
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_httr2 r_suggests_knitr r_suggests_rcurl r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rlang sci-CRAN/webutils sci-CRAN/httpuv sci-CRAN/cli >=dev-lang/R-4.2.0 sci-CRAN/jobqueue sci-CRAN/jsonlite sci-CRAN/later sci-CRAN/parallelly sci-CRAN/promises sci-CRAN/R6 sci-CRAN/semaphore r_suggests_httr2? ( sci-CRAN/httr2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/webqueue_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=daa9c1faeca59fd2336381f304140206

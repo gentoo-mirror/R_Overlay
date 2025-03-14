@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table >=sci-CRAN/tourr-1.2.4 sci-CRAN/reticulate dev-lang/R:=
+DESCRIPTION=Interactive tourr Using python
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_colorspace r_suggests_dplyr r_suggests_flexclust r_suggests_ggbeeswarm r_suggests_ggplot2 r_suggests_gridextra r_suggests_knitr r_suggests_markdown r_suggests_mvtnorm r_suggests_patchwork r_suggests_randomforest r_suggests_rmarkdown r_suggests_tidyverse r_suggests_viridis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table >=sci-CRAN/tourr-1.2.4 sci-CRAN/reticulate r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_flexclust? ( sci-CRAN/flexclust ) r_suggests_ggbeeswarm? ( sci-CRAN/ggbeeswarm ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lionfish_1.0.27.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=59479bf5b49c8a81c1b46036f573297b

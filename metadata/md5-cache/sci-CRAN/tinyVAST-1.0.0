@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sf sci-CRAN/sem sci-CRAN/checkmate sci-CRAN/abind >=sci-CRAN/TMB-1.9.17 >=dev-lang/R-4.1.0 sci-CRAN/units sci-CRAN/corpcor sci-CRAN/igraph sci-CRAN/fmesher virtual/Matrix virtual/mgcv sci-CRAN/sdmTMB sci-CRAN/sfnetworks dev-lang/R:=
+DESCRIPTION=Multivariate Spatio-Temporal Mod... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dharma r_suggests_dsem r_suggests_ggplot2 r_suggests_glmmtmb r_suggests_knitr r_suggests_lattice r_suggests_mvtnorm r_suggests_pdp r_suggests_plyr r_suggests_rmarkdown r_suggests_rnaturalearth r_suggests_rnaturalearthdata r_suggests_testthat r_suggests_tibble r_suggests_tweedie r_suggests_viridislite r_suggests_visreg byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/sf sci-CRAN/sem sci-CRAN/checkmate sci-CRAN/abind >=sci-CRAN/TMB-1.9.17 >=dev-lang/R-4.1.0 sci-CRAN/units sci-CRAN/corpcor sci-CRAN/igraph sci-CRAN/fmesher virtual/Matrix virtual/mgcv sci-CRAN/sdmTMB sci-CRAN/sfnetworks sci-CRAN/RcppEigen sci-CRAN/TMB r_suggests_dharma? ( sci-CRAN/DHARMa ) r_suggests_dsem? ( >=sci-CRAN/dsem-1.1.0 ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_glmmtmb? ( sci-CRAN/glmmTMB ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_pdp? ( sci-CRAN/pdp ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rnaturalearth? ( sci-CRAN/rnaturalearth ) r_suggests_rnaturalearthdata? ( sci-CRAN/rnaturalearthdata ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_tweedie? ( sci-CRAN/tweedie ) r_suggests_viridislite? ( sci-CRAN/viridisLite ) r_suggests_visreg? ( sci-CRAN/visreg ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tinyVAST_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=91c64473406d54c4bf2a1aa4d6a6fdab

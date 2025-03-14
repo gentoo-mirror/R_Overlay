@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tanaka sci-CRAN/terra sci-CRAN/rlang >=dev-lang/R-3.5 sci-CRAN/threejs sci-CRAN/elevatr sci-CRAN/TSP sci-CRAN/geosphere sci-CRAN/curl >=sci-CRAN/deldir-1.0.2 >=sci-CRAN/HistData-0.7.8 sci-CRAN/igraph sci-CRAN/RColorBrewer virtual/KernSmooth sci-CRAN/sp sci-CRAN/pracma sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Amend, Augment and Aid Analysis ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/tanaka sci-CRAN/terra sci-CRAN/rlang >=dev-lang/R-3.5 sci-CRAN/threejs sci-CRAN/elevatr sci-CRAN/TSP sci-CRAN/geosphere sci-CRAN/curl >=sci-CRAN/deldir-1.0.2 >=sci-CRAN/HistData-0.7.8 sci-CRAN/igraph sci-CRAN/RColorBrewer virtual/KernSmooth sci-CRAN/sp sci-CRAN/pracma sci-CRAN/viridisLite r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cholera_0.9.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d8fa596eef306d848c69824fc2c25469

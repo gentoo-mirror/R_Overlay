@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulation-Based Inference using a Metamodel for Log-Likelihood
+		Estimator // Parameter inference methods for models defined
+		implicitly using a random simulator. Inference is carried out
+		using simulation-based estimates of the log-likelihood of the
+		data. The inference methods implemented in this package are
+		explained in Park, J. (2025) doi:10.48550/arxiv.2311.09446.
+		These methods are built on a simulation metamodel which assumes
+		that the estimates of the log-likelihood are approximately
+		normally distributed with the mean function that is locally
+		quadratic around its maximum. Parameter estimation and
+		uncertainty quantification can be carried out using the ht()
+		function (for hypothesis testing) and the ci() function (for
+		constructing a confidence interval for one-dimensional
+		parameters).
+	</longdescription>
+</pkgmetadata>
