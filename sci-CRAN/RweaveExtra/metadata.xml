@@ -9,8 +9,9 @@
 		ignored on weaving are not parsed, yet are written out verbatim
 		on tangling. Chunks ignored on tangling may be evaluated as
 		usual on weaving, but are completely left out of the tangled
-		scripts. The driver RtangleExtra also provides an option to
-		specify the extension of the file name (or remove it entirely)
-		when splitting is selected on tangling.
+		scripts. The driver RtangleExtra also provides options to
+		control the separation between code chunks in the tangled
+		script, and to specify the extension of the file name (or
+		remove it entirely) when splitting is selected.
 	</longdescription>
 </pkgmetadata>
