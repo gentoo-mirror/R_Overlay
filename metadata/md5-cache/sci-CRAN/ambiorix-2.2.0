@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fs sci-CRAN/cli sci-CRAN/glue sci-CRAN/httpuv sci-CRAN/log sci-CRAN/assertthat >=sci-CRAN/webutils-1.2.0 >=sci-CRAN/yyjsonr-0.1.20 dev-lang/R:=
+DESCRIPTION=Web Framework Inspired by Express.js
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_commonmark r_suggests_ggplot2 r_suggests_htmltools r_suggests_htmlwidgets r_suggests_jsonlite r_suggests_mime r_suggests_promises r_suggests_readr r_suggests_readxl r_suggests_testthat r_suggests_websocket byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/fs sci-CRAN/cli sci-CRAN/glue sci-CRAN/httpuv sci-CRAN/log sci-CRAN/assertthat >=sci-CRAN/webutils-1.2.0 >=sci-CRAN/yyjsonr-0.1.20 r_suggests_commonmark? ( sci-CRAN/commonmark ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_mime? ( sci-CRAN/mime ) r_suggests_promises? ( sci-CRAN/promises ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_websocket? ( sci-CRAN/websocket ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ambiorix_2.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6a8491303f4b0ebf11dab2d1b46e1647

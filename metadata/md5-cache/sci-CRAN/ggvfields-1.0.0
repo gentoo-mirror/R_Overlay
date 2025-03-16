@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/farver >=sci-CRAN/ggplot2-3.3.0 sci-CRAN/tibble sci-CRAN/numDeriv sci-CRAN/deSolve sci-CRAN/scales sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Vector Field Visualizations with ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggdensity r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/farver >=sci-CRAN/ggplot2-3.3.0 sci-CRAN/tibble sci-CRAN/numDeriv sci-CRAN/deSolve sci-CRAN/scales sci-CRAN/cli r_suggests_ggdensity? ( sci-CRAN/ggdensity ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggvfields_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c9bf7382f9cd821ce86f22f183f7ef78

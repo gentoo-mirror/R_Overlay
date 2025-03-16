@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/raster dev-lang/R:=
+DESCRIPTION=Statistical Disclosure Control for Spatial Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fnn r_suggests_knitr r_suggests_rmarkdown r_suggests_sf r_suggests_sp r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/raster r_suggests_fnn? ( sci-CRAN/FNN ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sdcSpatial_0.6.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5e46567e4a6028fe5638b07ba7756918
