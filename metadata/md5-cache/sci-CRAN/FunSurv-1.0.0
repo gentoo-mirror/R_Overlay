@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/MASS virtual/Matrix sci-CRAN/MFPCA sci-CRAN/funData sci-CRAN/ggplot2 >=sci-CRAN/reda-0.5.0 dev-lang/R:=
+DESCRIPTION=Modeling Time-to-Event Data with... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 virtual/MASS virtual/Matrix sci-CRAN/MFPCA sci-CRAN/funData sci-CRAN/ggplot2 >=sci-CRAN/reda-0.5.0 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FunSurv_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6271a865016ae38527fef74e4750642e

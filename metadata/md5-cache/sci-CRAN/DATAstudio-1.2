@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/scales sci-CRAN/data_table sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=The Research Data Warehouse of Miguel de Carvalho
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_extremis r_suggests_spearmanci byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/scales sci-CRAN/data_table sci-CRAN/ggplot2 r_suggests_extremis? ( sci-CRAN/extremis ) r_suggests_spearmanci? ( sci-CRAN/spearmanCI ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DATAstudio_1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=35784eda53936ac5c32b3e0f9ef5903d

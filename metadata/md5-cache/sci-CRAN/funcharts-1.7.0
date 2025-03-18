@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/Rcpp sci-CRAN/stringr sci-CRAN/fda_usc sci-CRAN/rrcov sci-CRAN/rofanova >=dev-lang/R-3.6.0 sci-CRAN/ggplot2 sci-CRAN/robustbase sci-CRAN/tidyr virtual/mgcv sci-CRAN/patchwork sci-CRAN/dplyr sci-CRAN/fda sci-CRAN/rlang sci-CRAN/RSpectra sci-CRAN/roahd virtual/Matrix virtual/Matrix sci-CRAN/Rfast sci-CRAN/scam sci-CRAN/spatstat_univar dev-lang/R:=
+DESCRIPTION=Functional Control Charts
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/MASS sci-CRAN/Rcpp sci-CRAN/stringr sci-CRAN/fda_usc sci-CRAN/rrcov sci-CRAN/rofanova >=dev-lang/R-3.6.0 sci-CRAN/ggplot2 sci-CRAN/robustbase sci-CRAN/tidyr virtual/mgcv sci-CRAN/patchwork sci-CRAN/dplyr sci-CRAN/fda sci-CRAN/rlang sci-CRAN/RSpectra sci-CRAN/roahd virtual/Matrix virtual/Matrix sci-CRAN/Rfast sci-CRAN/scam sci-CRAN/spatstat_univar sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/funcharts_1.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5e907624d66345dc05d569ca0d69b146

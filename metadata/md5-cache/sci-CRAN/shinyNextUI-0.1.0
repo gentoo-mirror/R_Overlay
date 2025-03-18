@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny_react sci-CRAN/htmltools sci-CRAN/shiny sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=HeroUI React Template for shiny Apps
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_purrr r_suggests_roxy_shinylive r_suggests_shiny_router r_suggests_shinytest2 r_suggests_testthat r_suggests_thematic byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/shiny_react sci-CRAN/htmltools sci-CRAN/shiny sci-CRAN/jsonlite r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_roxy_shinylive? ( sci-CRAN/roxy_shinylive ) r_suggests_shiny_router? ( sci-CRAN/shiny_router ) r_suggests_shinytest2? ( sci-CRAN/shinytest2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_thematic? ( sci-CRAN/thematic ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/shinyNextUI_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8612982f9117ceefd4e9cc807ceaa466
