@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generate Simple yet Effective Metric of Feature Importance for
+		Classification Problems // An intuitive and explainable metric
+		of Feature Importance for Classification Problems. Resolution
+		Index measures the extent to which a Feature clusters different
+		classes when data is sorted on it. User provides a DataFrame,
+		column name of the Class, sample size and number of iterations
+		used for calculation. Resolution Index for each Feature is
+		returned, which can be effectively used to rank Features and
+		reduce Dimensionality of Training data. For more details on
+		Feature Selection see Theng and Bhoyar (2023)
+		doi:10.1007/s10115-023-02010-5.
+	</longdescription>
+</pkgmetadata>

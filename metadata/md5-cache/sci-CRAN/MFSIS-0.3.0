@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/doParallel sci-CRAN/Ball sci-CRAN/reticulate virtual/MASS virtual/survival sci-CRAN/crayon sci-CRAN/cli sci-CRAN/dr sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Model-Free Sure Independent Screening Procedures
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_pkgdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/doParallel sci-CRAN/Ball sci-CRAN/reticulate virtual/MASS virtual/survival sci-CRAN/crayon sci-CRAN/cli sci-CRAN/dr sci-CRAN/foreach dev-lang/python r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MFSIS_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=eed4dd6b31c2ee28e30f3200a607544f

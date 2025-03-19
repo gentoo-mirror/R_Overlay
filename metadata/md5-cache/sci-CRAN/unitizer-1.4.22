@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/diffobj-0.1.5.9000 >=sci-CRAN/crayon-1.3.2 dev-lang/R:=
+DESCRIPTION=Interactive R Unit Tests
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=sci-CRAN/diffobj-0.1.5.9000 >=sci-CRAN/crayon-1.3.2 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/unitizer_1.4.22.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=30e35657e86326415d24bfb563694ed5

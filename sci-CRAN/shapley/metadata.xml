@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Weighted Mean SHAP for Feature Selection in ML Grid and Ensemble
-		// This R package introduces Weighted Mean SHapley Additive
-		exPlanations (WMSHAP), an innovative method for calculating
-		SHAP values for a grid of fine-tuned base-learner machine
-		learning models as well as stacked ensembles, a method not
-		previously available due to the common reliance on single best-
-		performing models. By integrating the weighted mean SHAP values
-		from individual base-learners comprising the ensemble or
+		Weighted Mean SHAP and CI for Robust Feature Assessment in ML
+		Grid // This R package introduces Weighted Mean SHapley
+		Additive exPlanations (WMSHAP), an innovative method for
+		calculating SHAP values for a grid of fine-tuned base-learner
+		machine learning models as well as stacked ensembles, a method
+		not previously available due to the common reliance on single
+		best-performing models. By integrating the weighted mean SHAP
+		values from individual base-learners comprising the ensemble or
 		individual base-learners in a tuning grid search, the package
 		weights SHAP contributions according to each model's
 		performance, assessed by multiple either R squared (for both

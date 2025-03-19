@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 virtual/class dev-lang/R:=
+DESCRIPTION=Eating the Liver of Data Science
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_forcats r_suggests_knitr r_suggests_mltools r_suggests_proc r_suggests_rmarkdown r_suggests_skimr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 virtual/class r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mltools? ( sci-CRAN/mltools ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_skimr? ( sci-CRAN/skimr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/liver_1.19.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4d3eebf347de787ba9e3448a660b3bd4

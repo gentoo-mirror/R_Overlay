@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/broom sci-CRAN/ggplot2 sci-CRAN/fixest sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Tools for Creating and Visualizi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/broom sci-CRAN/ggplot2 sci-CRAN/fixest sci-CRAN/dplyr sci-CRAN/tibble sci-CRAN/rlang r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fixes_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=11dd32397b3187e1eb45df2f23bbe54c

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=Split-Apply-Combine with Dynamic Groups
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_simplermarkdown r_suggests_tinytest r_suggests_validate byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=EUPL-1.1
+RDEPEND=>=dev-lang/R-3.5.0 r_suggests_simplermarkdown? ( sci-CRAN/simplermarkdown ) r_suggests_tinytest? ( sci-CRAN/tinytest ) r_suggests_validate? ( sci-CRAN/validate ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/accumulate_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a21a4239a61acee279ae27bd59be4afc

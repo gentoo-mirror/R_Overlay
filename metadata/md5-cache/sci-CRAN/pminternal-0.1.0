@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/pbapply sci-CRAN/insight sci-CRAN/marginaleffects sci-CRAN/dcurves sci-CRAN/purrr sci-CRAN/pmcalibration sci-CRAN/pROC dev-lang/R:=
+DESCRIPTION=Internal Validation of Clinical Prediction Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gbm r_suggests_ggplot2 r_suggests_glmnet r_suggests_hmisc r_suggests_knitr r_suggests_mgcv r_suggests_mice r_suggests_ranger r_suggests_rmarkdown r_suggests_rms byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/pbapply sci-CRAN/insight sci-CRAN/marginaleffects sci-CRAN/dcurves sci-CRAN/purrr sci-CRAN/pmcalibration sci-CRAN/pROC r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rms? ( sci-CRAN/rms ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pminternal_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=47ea40c91790ec6ce73a38ad0884fb9d
