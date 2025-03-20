@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automatic Database Normalisation for Data Frames // Automatic
+		normalisation of a data frame to third normal form, with the
+		intention of easing the process of data cleaning. (Usage to
+		design your actual database for you is not advised.) Originally
+		inspired by the 'AutoNormalize' library for 'Python' by
+		'Alteryx' (https://github.com/alteryx/autonormalize), with
+		various changes and improvements. Automatic discovery of
+		functional or approximate dependencies, normalisation based on
+		those, and plotting of the resulting "database" via 'Graphviz',
+		with options to exclude some attributes at discovery time, or
+		remove discovered dependencies at normalisation time.
+	</longdescription>
+</pkgmetadata>
