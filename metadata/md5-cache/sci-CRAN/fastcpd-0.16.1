@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix >=sci-CRAN/Rcpp-0.11.0 sci-CRAN/glmnet dev-lang/R:=
+DESCRIPTION=Fast Change Point Detection via ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_gridextra r_suggests_knitr r_suggests_matrix r_suggests_mvtnorm r_suggests_rmarkdown r_suggests_testthat r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/Matrix >=sci-CRAN/Rcpp-0.11.0 sci-CRAN/glmnet sci-CRAN/progress sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppEigen sci-CRAN/testthat r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fastcpd_0.16.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f319e21b2b8202264e87c0e4e5e8665f

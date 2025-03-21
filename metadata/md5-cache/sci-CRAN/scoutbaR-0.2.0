@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools sci-CRAN/reactR sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=A Spotlight React Widget for shiny Apps
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_shinytest2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/htmltools sci-CRAN/reactR sci-CRAN/shiny r_suggests_shinytest2? ( sci-CRAN/shinytest2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/scoutbaR_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=89b5020b5e4cb4ff5920b10008f3704c
