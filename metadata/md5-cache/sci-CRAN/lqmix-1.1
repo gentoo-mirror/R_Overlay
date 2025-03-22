@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/quantreg sci-CRAN/diagram sci-CRAN/doParallel sci-CRAN/Rdpack sci-CRAN/foreach sci-CRAN/doSNOW dev-lang/R:=
+DESCRIPTION=Linear Quantile Mixture Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/quantreg sci-CRAN/diagram sci-CRAN/doParallel sci-CRAN/Rdpack sci-CRAN/foreach sci-CRAN/doSNOW r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lqmix_1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e22b4260288fc7e29a2a06125051cabd
