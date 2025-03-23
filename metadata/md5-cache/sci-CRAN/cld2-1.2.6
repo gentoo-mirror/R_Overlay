@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Googles Compact Language Detector 2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_readtext r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_readtext? ( sci-CRAN/readtext ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cld2_1.2.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4d0937de3c647d007c3679002846eed6

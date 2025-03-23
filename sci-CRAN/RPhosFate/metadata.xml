@@ -5,14 +5,16 @@
 		Soil and Chemical Substance Emission and Transport Model // An
 		enhanced version of the semi-empirical, spatially distributed
 		emission and transport model PhosFate implemented in 'R' and
-		'C++'. It currently supports suspended solids (SS) and
-		particulate phosphorus (PP). A major feature is the allocation
-		of substance loads entering surface waters to their sources of
-		origin, which is a basic requirement for the identification of
-		critical source areas and in consequence a cost-effective
-		implementation of mitigation measures. References: Hepp et al.
-		(2022) doi:10.1016/j.jenvman.2022.114514; Hepp and Zessner
-		(2019) doi:10.3390/w11102161; Kovacs (2013)
+		'C++'. It is based on the D-infinity, but also supports the D8
+		flow method. The currently available substances are suspended
+		solids (SS) and particulate phosphorus (PP). A major feature is
+		the allocation of substance loads entering surface waters to
+		their sources of origin, which is a basic requirement for the
+		identification of critical source areas and in consequence a
+		cost-effective implementation of mitigation measures.
+		References: Hepp et al. (2022)
+		doi:10.1016/j.jenvman.2022.114514; Hepp and Zessner (2019)
+		doi:10.3390/w11102161; Kovacs (2013)
 		http://hdl.handle.net/20.500.12708/9468.
 	</longdescription>
 </pkgmetadata>
