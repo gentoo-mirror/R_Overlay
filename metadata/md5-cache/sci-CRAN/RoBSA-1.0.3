@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rdpack >=sci-CRAN/BayesTools-0.2.14 virtual/survival sci-CRAN/rjags >=dev-lang/R-4.0.0 sci-CRAN/runjags sci-CRAN/scales sci-CRAN/coda sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Robust Bayesian Survival Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_flexsurv r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/Rdpack >=sci-CRAN/BayesTools-0.2.14 virtual/survival sci-CRAN/rjags >=dev-lang/R-4.0.0 sci-CRAN/runjags sci-CRAN/scales sci-CRAN/coda sci-CRAN/rlang sci-mathematics/jags r_suggests_covr? ( sci-CRAN/covr ) r_suggests_flexsurv? ( sci-CRAN/flexsurv ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RoBSA_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e397ae67fa4f49951c25e547fd3e4379

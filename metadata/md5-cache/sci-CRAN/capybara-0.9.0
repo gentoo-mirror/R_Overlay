@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table sci-CRAN/Formula sci-CRAN/generics sci-CRAN/ggplot2 sci-CRAN/kendallknight virtual/MASS dev-lang/R:=
+DESCRIPTION=Fast and Memory Efficient Fittin... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_broom r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_units byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table sci-CRAN/Formula sci-CRAN/generics sci-CRAN/ggplot2 sci-CRAN/kendallknight virtual/MASS sci-CRAN/cpp11 sci-CRAN/cpp11armadillo r_suggests_broom? ( sci-CRAN/broom ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_units? ( sci-CRAN/units ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/capybara_0.9.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7eac85ce96e436380916cb8ed4dcabf8
