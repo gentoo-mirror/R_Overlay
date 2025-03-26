@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/tidyselect sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Batch IP Data Retrieval and Stor... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mockery r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/tidyselect sci-CRAN/jsonlite r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ip2location.io_0.0.0-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=69a6765adefd662934fd54e0bedc97fe

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Heterogeneous Treatment Effects in Regression Discontinuity
+		Designs // Understanding heterogeneous causal effects based on
+		pretreatment covariates is a crucial step in modern empirical
+		work in data science. Building on the recent developments in
+		Calonico et al (2025)
+		https://rdpackages.github.io/references/Calonico-Cattaneo-
+		Farrell-Palomba-Titiunik_2025_HTERD.pdf, this package provides
+		tools for estimation and inference of heterogeneous treatment
+		effects in Regression Discontinuity (RD) Designs. The package
+		includes two main commands: 'rdhte' to conduct estimation and
+		robust bias-corrected inference for conditional RD treatment
+		effects (given choice of bandwidth parameter); and 'rdbwhte',
+		which implements automatic bandwidth selection methods.
+	</longdescription>
+</pkgmetadata>

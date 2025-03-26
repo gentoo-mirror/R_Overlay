@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/rlang-1.1.2 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/lubridate-1.9.3 >=sci-CRAN/ggplot2-3.4.4 >=sci-CRAN/suncalc-0.5.1 dev-lang/R:=
+DESCRIPTION=Plot Records per Time of Day
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_readr r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/rlang-1.1.2 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/lubridate-1.9.3 >=sci-CRAN/ggplot2-3.4.4 >=sci-CRAN/suncalc-0.5.1 r_suggests_readr? ( >=sci-CRAN/readr-2.1.4 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gghourglass_0.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c19c0a06dd2938a223d7417a6b1c3f09

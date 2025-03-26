@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/SingleCaseES sci-CRAN/Kendall virtual/MASS sci-CRAN/modifiedmk sci-CRAN/TTR sci-CRAN/psych sci-CRAN/MAd sci-CRAN/metafor sci-CRAN/retrodesign dev-lang/R:=
+DESCRIPTION=Functions to Analyze Single System Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/SingleCaseES sci-CRAN/Kendall virtual/MASS sci-CRAN/modifiedmk sci-CRAN/TTR sci-CRAN/psych sci-CRAN/MAd sci-CRAN/metafor sci-CRAN/retrodesign dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SSDforR_1.5.39.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d49cfedf4fad8c0f1c63882886124348
