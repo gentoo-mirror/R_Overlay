@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/airt virtual/cluster sci-CRAN/psych sci-CRAN/EstCRM dev-lang/R:=
+DESCRIPTION=A Collection of Outlier Ensemble Algorithms
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dbscan r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/airt virtual/cluster sci-CRAN/psych sci-CRAN/EstCRM r_suggests_dbscan? ( sci-CRAN/dbscan ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/outlierensembles_0.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cde84e3a06f31f7b4024e891b6b62cfd

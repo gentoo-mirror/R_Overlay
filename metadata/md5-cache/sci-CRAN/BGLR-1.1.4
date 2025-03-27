@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/truncnorm virtual/MASS dev-lang/R:=
+DESCRIPTION=Bayesian Generalized Linear Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_matrix r_suggests_proc r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/truncnorm virtual/MASS r_suggests_matrix? ( virtual/Matrix ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BGLR_1.1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=95873f3720c1c455cc50827441005a25

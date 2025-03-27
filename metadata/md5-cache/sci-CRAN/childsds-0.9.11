@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/interp sci-CRAN/reshape2 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/tidyr virtual/class sci-CRAN/scales sci-CRAN/DescTools sci-CRAN/tidyselect sci-CRAN/gamlss sci-CRAN/magrittr virtual/boot sci-CRAN/tibble sci-CRAN/VGAM sci-CRAN/purrrlyr sci-CRAN/purrr sci-CRAN/gamlss_dist >=dev-lang/R-4.2.0 sci-CRAN/colorspace sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Data and Methods Around Referenc... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/interp sci-CRAN/reshape2 sci-CRAN/ggplot2 sci-CRAN/dplyr sci-CRAN/lubridate sci-CRAN/tidyr virtual/class sci-CRAN/scales sci-CRAN/DescTools sci-CRAN/tidyselect sci-CRAN/gamlss sci-CRAN/magrittr virtual/boot sci-CRAN/tibble sci-CRAN/VGAM sci-CRAN/purrrlyr sci-CRAN/purrr sci-CRAN/gamlss_dist >=dev-lang/R-4.2.0 sci-CRAN/colorspace sci-CRAN/rlang r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/childsds_0.9.11.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=002555cbb6f788c99cab237cdfb90f8b

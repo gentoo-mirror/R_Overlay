@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Diagnostic Tools for Asymptotic Theory
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glmmtmb r_suggests_lme4 r_suggests_mass r_suggests_matrix r_suggests_rlang r_suggests_sandwich r_suggests_survival r_suggests_testthat r_suggests_vctrs r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/cli r_suggests_glmmtmb? ( sci-CRAN/glmmTMB ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_mass? ( virtual/MASS ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vctrs? ( sci-CRAN/vctrs ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/asympDiag_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b2a79716cb11584e04c828e9d4fae7ae

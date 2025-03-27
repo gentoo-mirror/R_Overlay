@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 virtual/Matrix sci-CRAN/Formula >=sci-CRAN/pROC-1.9 >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/ade4 sci-CRAN/rlang sci-CRAN/pls dev-lang/R:=
+DESCRIPTION=Supervised Component Generalized Linear Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_future r_suggests_future_apply r_suggests_progressr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.0.0 virtual/Matrix sci-CRAN/Formula >=sci-CRAN/pROC-1.9 >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/ade4 sci-CRAN/rlang sci-CRAN/pls r_suggests_future? ( sci-CRAN/future ) r_suggests_future_apply? ( sci-CRAN/future_apply ) r_suggests_progressr? ( sci-CRAN/progressr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SCGLR_3.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e1d5791c688d472bb637c3f265ac46be
