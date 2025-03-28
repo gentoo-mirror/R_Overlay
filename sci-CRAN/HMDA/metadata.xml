@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Holistic Multimodel Domain Analysis for Exploratory Machine
+		Learning // Holistic Multimodel Domain Analysis (HMDA) is a
+		robust and transparent framework designed for exploratory
+		machine learning research, aiming to enhance the process of
+		feature assessment and selection. HMDA addresses key
+		limitations of traditional machine learning methods by
+		evaluating the consistency across multiple high-performing
+		models within a fine-tuned modeling grid, thereby improving the
+		interpretability and reliability of feature importance
+		assessments. Specifically, it computes Weighted Mean SHapley
+		Additive exPlanations (WMSHAP), which aggregate feature
+		contributions from multiple models based on weighted
+		performance metrics. HMDA also provides confidence intervals to
+		demonstrate the stability of these feature importance
+		estimates. This framework is particularly beneficial for
+		analyzing complex, multidimensional datasets common in health
+		research, supporting reliable exploration of mental health
+		outcomes such as suicidal ideation, suicide attempts, and other
+		psychological conditions. Additionally, HMDA includes automated
+		procedures for feature selection based on WMSHAP ratios and
+		performs dimension reduction analyses to identify underlying
+		structures among features. For more details see Haghish (2025)
+		doi:10.13140/RG.2.2.32473.63846.
+	</longdescription>
+</pkgmetadata>

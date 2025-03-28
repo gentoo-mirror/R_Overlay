@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/nleqslv sci-CRAN/doParallel sci-CRAN/survey virtual/Matrix >=dev-lang/R-4.0.0 sci-CRAN/formula_tools sci-CRAN/maxLik virtual/MASS sci-CRAN/ncvreg sci-CRAN/RANN >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Inference Based on Non-Probability Samples
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_sampling r_suggests_spelling r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/nleqslv sci-CRAN/doParallel sci-CRAN/survey virtual/Matrix >=dev-lang/R-4.0.0 sci-CRAN/formula_tools sci-CRAN/maxLik virtual/MASS sci-CRAN/ncvreg sci-CRAN/RANN >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/foreach sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_sampling? ( sci-CRAN/sampling ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nonprobsvy_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e0dbb56431e7fa875c97c7eb9a85abcf

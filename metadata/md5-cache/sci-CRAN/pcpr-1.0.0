@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/furrr sci-CRAN/checkmate sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/future sci-CRAN/magrittr sci-CRAN/progressr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tidyselect dev-lang/R:=
+DESCRIPTION=Principal Component Pursuit for ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggally r_suggests_ggplot2 r_suggests_knitr r_suggests_lubridate r_suggests_metr r_suggests_rmarkdown r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/furrr sci-CRAN/checkmate sci-CRAN/dplyr sci-CRAN/foreach sci-CRAN/future sci-CRAN/magrittr sci-CRAN/progressr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tidyselect r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_metr? ( sci-CRAN/metR ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pcpr_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4697b2121ea3687efa7ded6337703f8a

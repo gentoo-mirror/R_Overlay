@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Rcpp sci-CRAN/xml2 virtual/Matrix sci-CRAN/igraph sci-CRAN/tikzDevice dev-lang/R:=
+DESCRIPTION=Bayesian Seemingly Unrelated Reg... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bdgraph r_suggests_data_table r_suggests_knitr r_suggests_plyr r_suggests_r_rsp r_suggests_rmarkdown r_suggests_scrime byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Rcpp sci-CRAN/xml2 virtual/Matrix sci-CRAN/igraph sci-CRAN/tikzDevice sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_bdgraph? ( sci-CRAN/BDgraph ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scrime? ( sci-CRAN/scrime ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BayesSUR_2.3-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b575b5e70aea1d7098a2cc1ed2133faf
