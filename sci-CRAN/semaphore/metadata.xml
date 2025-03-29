@@ -3,10 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Shared Memory Atomic Operations // Implements named semaphores
-		from the 'boost' 'C++' library https://www.boost.org/. A
-		semaphore object is shared amongst several processes. This
-		integer value can be safely incremented or decremented by each
-		process. Processes can also wait (blocking) for the value to
-		become positive.
+		from the 'boost' 'C++' library https://www.boost.org/ for
+		interprocess communication. Multiple 'R' sessions on the same
+		host can block (with optional timeout) on a semaphore until it
+		becomes positive, then atomically decrement it and unblock. Any
+		session can increment the semaphore.
 	</longdescription>
 </pkgmetadata>

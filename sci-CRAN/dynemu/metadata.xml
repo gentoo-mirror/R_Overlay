@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Emulation of Dynamic Simulators via One-Step-Ahead Approach //
+		Performs emulation of dynamic simulators using Gaussian process
+		via one-step ahead approach. The package implements a flexible
+		framework for approximating time-dependent outputs from
+		computationally expensive dynamic systems. It is specifically
+		designed for nonlinear dynamic systems where full simulations
+		may be costly. The underlying Gaussian process model accounts
+		for temporal dependency through the one-step-ahead formulation,
+		allowing for accurate emulation of complex dynamics.
+		Hyperparameters are estimated via maximum likelihood. See Heo
+		(2025, doi:10.48550/arXiv.2503.20250) for exact method, and
+		Mohammadi, Challenor, and Goodfellow (2019,
+		doi:10.1016/j.csda.2019.05.006) for methodological details.
+	</longdescription>
+</pkgmetadata>
