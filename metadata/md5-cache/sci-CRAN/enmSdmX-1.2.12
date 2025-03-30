@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/predicts sci-CRAN/AICcmodavg virtual/boot sci-CRAN/gbm sci-CRAN/DT sci-CRAN/maxnet sci-CRAN/scales sci-CRAN/sf sci-CRAN/terra sci-CRAN/doParallel sci-CRAN/cowplot sci-CRAN/omnibus sci-CRAN/ranger sci-CRAN/rJava >=dev-lang/R-4.0.0 sci-CRAN/sp sci-CRAN/statisfactory virtual/mgcv sci-CRAN/data_table sci-CRAN/shiny sci-CRAN/ggplot2 sci-CRAN/ks sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=Species Distribution Modeling an... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/predicts sci-CRAN/AICcmodavg virtual/boot sci-CRAN/gbm sci-CRAN/DT sci-CRAN/maxnet sci-CRAN/scales sci-CRAN/sf sci-CRAN/terra sci-CRAN/doParallel sci-CRAN/cowplot sci-CRAN/omnibus sci-CRAN/ranger sci-CRAN/rJava >=dev-lang/R-4.0.0 sci-CRAN/sp sci-CRAN/statisfactory virtual/mgcv sci-CRAN/data_table sci-CRAN/shiny sci-CRAN/ggplot2 sci-CRAN/ks sci-CRAN/foreach dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/enmSdmX_1.2.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=250d95cf6fd9cecdd7b16c37b027de57
