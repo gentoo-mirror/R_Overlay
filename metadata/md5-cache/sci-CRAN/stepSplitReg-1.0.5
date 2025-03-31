@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-1.0.7 sci-CRAN/SplitGLM sci-CRAN/nnls dev-lang/R:=
+DESCRIPTION=Stepwise Split Regularized Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mvnfast r_suggests_testthat r_suggests_vctrs byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-1.0.7 sci-CRAN/SplitGLM sci-CRAN/nnls sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_mvnfast? ( sci-CRAN/mvnfast ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vctrs? ( sci-CRAN/vctrs ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stepSplitReg_1.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e276fc57d43e3db17c7c7410ee44c63d
