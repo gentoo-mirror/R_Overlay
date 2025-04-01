@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/xml2 sci-CRAN/webshot2 sci-CRAN/jsonlite sci-CRAN/dplyr sci-CRAN/openssl sci-CRAN/stringr sci-CRAN/gitcreds sci-CRAN/knitr sci-CRAN/purrr sci-CRAN/spelling sci-CRAN/readr sci-CRAN/httr sci-CRAN/rvest sci-CRAN/rprojroot sci-CRAN/tidyr sci-CRAN/R_utils sci-CRAN/rmarkdown sci-CRAN/googledrive sci-CRAN/yaml dev-lang/R:=
+DESCRIPTION=Companion Tools for Open-Source ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/xml2 sci-CRAN/webshot2 sci-CRAN/jsonlite sci-CRAN/dplyr sci-CRAN/openssl sci-CRAN/stringr sci-CRAN/gitcreds sci-CRAN/knitr sci-CRAN/purrr sci-CRAN/spelling sci-CRAN/readr sci-CRAN/httr sci-CRAN/rvest sci-CRAN/rprojroot sci-CRAN/tidyr sci-CRAN/R_utils sci-CRAN/rmarkdown sci-CRAN/googledrive sci-CRAN/yaml r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ottrpal_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4e6debbeb6874f696d011d50233fe694
