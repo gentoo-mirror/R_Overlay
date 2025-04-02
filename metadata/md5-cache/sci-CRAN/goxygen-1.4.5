@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/pander sci-CRAN/withr >=sci-CRAN/gms-0.26.3 sci-CRAN/citation sci-CRAN/stringi sci-CRAN/yaml dev-lang/R:=
+DESCRIPTION=In-Code Documentation for GAMS
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_qgraph r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD-2
+RDEPEND=sci-CRAN/pander sci-CRAN/withr >=sci-CRAN/gms-0.26.3 sci-CRAN/citation sci-CRAN/stringi sci-CRAN/yaml app-text/pandoc app-text/pandoc r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_qgraph? ( sci-CRAN/qgraph ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/goxygen_1.4.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ce3335b6fcda97b8f462ad62a486c289

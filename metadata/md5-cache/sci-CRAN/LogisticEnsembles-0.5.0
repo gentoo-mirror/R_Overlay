@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/e1071 sci-CRAN/doParallel sci-CRAN/tree virtual/MASS sci-CRAN/purrr sci-CRAN/ggplot2 sci-CRAN/pROC sci-CRAN/ipred sci-CRAN/gt sci-CRAN/adabag sci-CRAN/car sci-CRAN/gridExtra sci-CRAN/klaR sci-CRAN/xgboost sci-CRAN/gam sci-CRAN/corrplot sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/pls virtual/rpart sci-CRAN/scales sci-CRAN/reactable sci-CRAN/randomForest sci-CRAN/readr sci-CRAN/mda sci-CRAN/ggplotify sci-CRAN/C50 sci-CRAN/brnn sci-CRAN/reactablefmtr sci-CRAN/arm sci-CRAN/tidyr sci-CRAN/Cubist sci-CRAN/ranger sci-CRAN/gbm dev-lang/R:=
+DESCRIPTION=Automatically Runs 36 Logistic M... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/e1071 sci-CRAN/doParallel sci-CRAN/tree virtual/MASS sci-CRAN/purrr sci-CRAN/ggplot2 sci-CRAN/pROC sci-CRAN/ipred sci-CRAN/gt sci-CRAN/adabag sci-CRAN/car sci-CRAN/gridExtra sci-CRAN/klaR sci-CRAN/xgboost sci-CRAN/gam sci-CRAN/corrplot sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/pls virtual/rpart sci-CRAN/scales sci-CRAN/reactable sci-CRAN/randomForest sci-CRAN/readr sci-CRAN/mda sci-CRAN/ggplotify sci-CRAN/C50 sci-CRAN/brnn sci-CRAN/reactablefmtr sci-CRAN/arm sci-CRAN/tidyr sci-CRAN/Cubist sci-CRAN/ranger sci-CRAN/gbm r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LogisticEnsembles_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=035adf68afd4d01e9f2b4befb27deabb

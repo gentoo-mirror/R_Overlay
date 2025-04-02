@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/TMB sci-CRAN/fishMod virtual/Matrix virtual/MASS virtual/mgcv sci-CRAN/alabama sci-CRAN/nloptr dev-lang/R:=
+DESCRIPTION=Generalized Linear Latent Variable Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ape r_suggests_corrplot r_suggests_gclus r_suggests_knitr r_suggests_lattice r_suggests_mvabund r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/TMB sci-CRAN/fishMod virtual/Matrix virtual/MASS virtual/mgcv sci-CRAN/alabama sci-CRAN/nloptr sci-CRAN/TMB sci-CRAN/RcppEigen r_suggests_ape? ( sci-CRAN/ape ) r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_gclus? ( sci-CRAN/gclus ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_mvabund? ( sci-CRAN/mvabund ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gllvm_2.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0568da69dbfd2af435a4db6fa56a92f6

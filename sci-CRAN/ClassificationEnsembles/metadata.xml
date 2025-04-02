@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automatically Builds 20 Classification Models // Automatically
+		builds 20 classification models from data. The package returns
+		26 plots, 5 tables and a summary report. The package
+		automatically builds 12 individual classification models,
+		including error (RMSE) and predictions. That data is used to
+		create an ensemble, which is then modeled using 8 methods. The
+		process is repeated as many times as the user requests. The
+		mean of the results are presented in a summary table. The
+		package returns the confusion matrices for all 20 models,
+		tables of the correlation of the numeric data, the results of
+		the variance inflation process, the head of the ensemble and
+		the head of the data frame.
+	</longdescription>
+</pkgmetadata>

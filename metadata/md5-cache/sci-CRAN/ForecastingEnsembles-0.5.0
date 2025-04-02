@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/fable_prophet sci-CRAN/tibble sci-CRAN/fracdiff sci-CRAN/feasts sci-CRAN/doParallel sci-CRAN/gt sci-CRAN/readr sci-CRAN/tsibble sci-CRAN/urca sci-CRAN/fable sci-CRAN/fabletools sci-CRAN/dplyr sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Time Series Forecasting Using 23 Individual Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/fable_prophet sci-CRAN/tibble sci-CRAN/fracdiff sci-CRAN/feasts sci-CRAN/doParallel sci-CRAN/gt sci-CRAN/readr sci-CRAN/tsibble sci-CRAN/urca sci-CRAN/fable sci-CRAN/fabletools sci-CRAN/dplyr sci-CRAN/magrittr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ForecastingEnsembles_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3ada9b9925af09ae14c6050802d2406d

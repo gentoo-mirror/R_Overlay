@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.4 sci-CRAN/cli sci-CRAN/pracma virtual/Matrix virtual/nlme sci-CRAN/spatstat_explore sci-CRAN/spatstat_geom dev-lang/R:=
+DESCRIPTION=Grouped Hyper Data Frame: An Ext... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_spatstat_data r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.4 sci-CRAN/cli sci-CRAN/pracma virtual/Matrix virtual/nlme sci-CRAN/spatstat_explore sci-CRAN/spatstat_geom r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spatstat_data? ( sci-CRAN/spatstat_data ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/groupedHyperframe_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=960b38b1c8e53f6fe59cd3e2d6b3996a

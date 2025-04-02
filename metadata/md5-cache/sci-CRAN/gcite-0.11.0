@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/xml2 sci-CRAN/rvest sci-CRAN/data_table sci-CRAN/pbapply sci-CRAN/httr sci-CRAN/wordcloud sci-CRAN/tm dev-lang/R:=
+DESCRIPTION=Google Citation Parser
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/xml2 sci-CRAN/rvest sci-CRAN/data_table sci-CRAN/pbapply sci-CRAN/httr sci-CRAN/wordcloud sci-CRAN/tm r_suggests_covr? ( sci-CRAN/covr ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gcite_0.11.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=de7b1f6cfcae6ae01ad4aa37bbbff3b2

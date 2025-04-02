@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools sci-CRAN/rlang sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Bindings to the Calcite Design S... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/htmltools sci-CRAN/rlang sci-CRAN/shiny dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/calcite_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=390ad282449228706a1a10383f88810d
