@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.4 sci-CRAN/spatstat_geom virtual/rpart sci-CRAN/caret dev-lang/R:=
+DESCRIPTION=Additional Predictor with Maximum Effect Size
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_groupedhyperframe r_suggests_knitr r_suggests_rmarkdown r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.4 sci-CRAN/spatstat_geom virtual/rpart sci-CRAN/caret r_suggests_groupedhyperframe? ( sci-CRAN/groupedHyperframe ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/maxEff_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=57ddd87a9ff7eec41c6cd60c3fbb91e1

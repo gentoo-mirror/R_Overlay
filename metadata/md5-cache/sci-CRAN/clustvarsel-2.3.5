@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2 virtual/Matrix >=sci-CRAN/mclust-5.3 >=sci-CRAN/BMA-3.18 sci-CRAN/foreach sci-CRAN/iterators dev-lang/R:=
+DESCRIPTION=Variable Selection for Gaussian ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_knitr r_suggests_mass r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2 virtual/Matrix >=sci-CRAN/mclust-5.3 >=sci-CRAN/BMA-3.18 sci-CRAN/foreach sci-CRAN/iterators r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.12 ) r_suggests_mass? ( virtual/MASS ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-0.9 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clustvarsel_2.3.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0f8d5bae1a6b7819a75a085f632cdf16

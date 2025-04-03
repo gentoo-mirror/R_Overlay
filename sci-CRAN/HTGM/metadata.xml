@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		High Throughput 'GoMiner' // Two papers published in the early
+		2000's (Zeeberg, B.R., Feng, W., Wang, G. et al. (2003)
+		doi:10.1186/gb-2003-4-4-r28) and (Zeeberg, B.R., Qin, H.,
+		Narashimhan, S., et al. (2005) doi:10.1186/1471-2105-6-168)
+		implement 'GoMiner' and 'High Throughput GoMiner' ('HTGM') to
+		map lists of genes to the Gene Ontology (GO)
+		https://geneontology.org. Until recently, these were hosted on
+		a server at The National Cancer Institute (NCI). In order to
+		continue providing these services to the bio-medical community,
+		I have developed stand-alone versions. The current package
+		'HTGM' builds upon my recent package 'GoMiner'. The output of
+		'GoMiner' is a heatmap showing the relationship of a single
+		list of genes and the significant categories into which they
+		map. 'High Throughput GoMiner' ('HTGM') integrates the results
+		of the individual 'GoMiner' analyses. The output of 'HTGM' is a
+		heatmap showing the relationship of the significant categories
+		derived from each gene list. The heatmap has only 2 axes, so
+		the identity of the genes are unfortunately "integrated out of
+		the equation." Because the graphic for the heatmap is
+		implemented in Scalable Vector Graphics (SVG) technology, it is
+		relatively easy to hyperlink each picture element to the
+		relevant list of genes. By clicking on the desired picture
+		element, the user can recover the "lost" genes.
+	</longdescription>
+</pkgmetadata>

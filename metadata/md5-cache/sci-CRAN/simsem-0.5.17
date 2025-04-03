@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 >=sci-CRAN/lavaan-0.6.12 dev-lang/R:=
+DESCRIPTION=SIMulated Structural Equation Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_copula r_suggests_kernsmooth r_suggests_lavaan_mi r_suggests_openmx r_suggests_quantreg r_suggests_semtools byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.4 >=sci-CRAN/lavaan-0.6.12 r_suggests_copula? ( sci-CRAN/copula ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_lavaan_mi? ( sci-CRAN/lavaan_mi ) r_suggests_openmx? ( >=sci-CRAN/OpenMx-2.0.0 ) r_suggests_quantreg? ( sci-CRAN/quantreg ) r_suggests_semtools? ( >=sci-CRAN/semTools-0.5.7 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/simsem_0.5-17.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=235658792b7073a1ce58ef910e08648a
