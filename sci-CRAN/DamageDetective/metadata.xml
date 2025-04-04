@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Detecting Damaged Cells in Single-Cell RNA Sequencing Data //
+		Detects and filters damaged cells in single-cell RNA sequencing
+		(scRNA-seq) data using a novel approach inspired by
+		'DoubletFinder'. Damage is detected by measuring the extent to
+		which cells deviate from artificially damaged profiles of
+		themselves, simulated through the probabilistic escape of
+		cytoplasmic RNA. As output, a damage score ranging from 0 to 1
+		is given for each cell providing an intuitive scale for
+		filtering that is standardised across cell types, samples, and
+		experiments.
+	</longdescription>
+</pkgmetadata>

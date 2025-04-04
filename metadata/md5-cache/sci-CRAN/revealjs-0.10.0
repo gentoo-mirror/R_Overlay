@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0 >=sci-CRAN/rmarkdown-1.7 dev-lang/R:=
+DESCRIPTION=R Markdown Format for reveal.js Presentations
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bslib r_suggests_testthat r_suggests_withr r_suggests_xfun r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0 >=sci-CRAN/rmarkdown-1.7 r_suggests_bslib? ( sci-CRAN/bslib ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( >=sci-CRAN/withr-2.4.2 ) r_suggests_xfun? ( >=sci-CRAN/xfun-0.21 ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/revealjs_0.10.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f30bf71b1d23609800243978cb251d24

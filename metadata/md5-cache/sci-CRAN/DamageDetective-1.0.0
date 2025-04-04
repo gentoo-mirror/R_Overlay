@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/ggplot2 >=dev-lang/R-4.4.0 sci-CRAN/ggpubr sci-CRAN/dplyr sci-CRAN/cowplot virtual/Matrix sci-CRAN/patchwork sci-CRAN/scales sci-CRAN/RcppHNSW sci-CRAN/rlang sci-CRAN/withr dev-lang/R:=
+DESCRIPTION=Detecting Damaged Cells in Singl... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_seurat r_suggests_spelling byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/tidyr sci-CRAN/ggplot2 >=dev-lang/R-4.4.0 sci-CRAN/ggpubr sci-CRAN/dplyr sci-CRAN/cowplot virtual/Matrix sci-CRAN/patchwork sci-CRAN/scales sci-CRAN/RcppHNSW sci-CRAN/rlang sci-CRAN/withr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_seurat? ( sci-CRAN/Seurat ) r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DamageDetective_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b23937296328e2a66f0b2482344643c5

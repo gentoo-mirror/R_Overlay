@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.1 sci-CRAN/glm2 sci-CRAN/itertools2 >=sci-CRAN/turboEM-2021.1 virtual/Matrix sci-CRAN/iterators dev-lang/R:=
+DESCRIPTION=Relative Risk Regression Using t... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_vctrs byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.1 sci-CRAN/glm2 sci-CRAN/itertools2 >=sci-CRAN/turboEM-2021.1 virtual/Matrix sci-CRAN/iterators r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vctrs? ( sci-CRAN/vctrs ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/logbin_2.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=157d215c34991a39769315c15b3123b1
