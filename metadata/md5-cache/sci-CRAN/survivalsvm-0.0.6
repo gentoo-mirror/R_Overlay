@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/kernlab sci-CRAN/pracma virtual/Matrix sci-CRAN/Hmisc dev-lang/R:=
+DESCRIPTION=Survival Support Vector Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_quadprog r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/survival sci-CRAN/kernlab sci-CRAN/pracma virtual/Matrix sci-CRAN/Hmisc r_suggests_quadprog? ( sci-CRAN/quadprog ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/survivalsvm_0.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6e9e1114d0000707f3020aa8bff29790

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.12.10 sci-CRAN/iterators sci-CRAN/foreach sci-CRAN/doParallel dev-lang/R:=
+DESCRIPTION=Stationarity Test Based on Unsys... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rcpparmadillo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/Rcpp-0.12.10 sci-CRAN/iterators sci-CRAN/foreach sci-CRAN/doParallel sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/unsystation_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9b6627ac3e259bdbc53db837737a4b74
