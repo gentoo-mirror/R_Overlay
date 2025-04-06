@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-BIOC/rhdf5 sci-CRAN/sf sci-CRAN/fields >=sci-CRAN/dplyr-1.1.0 sci-CRAN/assertthat sci-CRAN/jsonlite sci-CRAN/raster sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/viridis >=dev-lang/R-4.0.0 sci-CRAN/viridisLite sci-CRAN/glue sci-CRAN/readr sci-CRAN/suntools sci-CRAN/curl sci-CRAN/sp sci-CRAN/lubridate sci-CRAN/ggplot2 sci-CRAN/lutz sci-CRAN/tidyselect dev-lang/R:=
+DESCRIPTION=Biological Analysis and Visualiz... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aws_s3 r_suggests_knitr r_suggests_prettymapr r_suggests_rmarkdown r_suggests_rosm r_suggests_spatial r_suggests_testthat r_suggests_vdiffr r_suggests_vol2birdr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-BIOC/rhdf5 sci-CRAN/sf sci-CRAN/fields >=sci-CRAN/dplyr-1.1.0 sci-CRAN/assertthat sci-CRAN/jsonlite sci-CRAN/raster sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/viridis >=dev-lang/R-4.0.0 sci-CRAN/viridisLite sci-CRAN/glue sci-CRAN/readr sci-CRAN/suntools sci-CRAN/curl sci-CRAN/sp sci-CRAN/lubridate sci-CRAN/ggplot2 sci-CRAN/lutz sci-CRAN/tidyselect r_suggests_aws_s3? ( sci-CRAN/aws_s3 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_prettymapr? ( sci-CRAN/prettymapr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rosm? ( sci-CRAN/rosm ) r_suggests_spatial? ( virtual/spatial ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_vol2birdr? ( >=sci-CRAN/vol2birdR-1.0.9 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bioRad_0.9.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=aa3742cbd115ed403962fc2b373f71e8
