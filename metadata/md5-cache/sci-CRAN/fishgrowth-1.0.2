@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RTMB dev-lang/R:=
+DESCRIPTION=Fit Growth Curves to Fish Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_areaplot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/RTMB r_suggests_areaplot? ( sci-CRAN/areaplot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fishgrowth_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fb7332cb265cea51b7a6766212cd0895

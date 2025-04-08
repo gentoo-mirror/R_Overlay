@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=CDISC SDTM Controlled Terminology
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/tibble dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sdtm.terminology_2025-3-25.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f8a7c36378d4c3422e3e9d10e997542c

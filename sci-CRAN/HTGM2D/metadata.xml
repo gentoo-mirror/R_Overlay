@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Two Dimensional High Throughput 'GoMiner' // The Gene Ontology
+		(GO) Consortium https://geneontology.org/ organizes genes into
+		hierarchical categories based on biological process (BP),
+		molecular function (MF) and cellular component (CC, i.e.,
+		subcellular localization). Tools such as 'GoMiner' (see
+		Zeeberg, B.R., Feng, W., Wang, G. et al. (2003)
+		doi:10.1186/gb-2003-4-4-r28) can leverage GO to perform
+		ontological analysis of microarray and proteomics studies,
+		typically generating a list of significant functional
+		categories. Microarray studies are usually analyzed with BP,
+		whereas proteomics researchers often prefer CC. To capture the
+		benefit of both of those ontologies, I developed a two-
+		dimensional version of 'High-Throughput GoMiner' ('HTGM2D'). I
+		generate a 2D heat map whose axes are any two of BP, MF, or CC,
+		and the value within a picture element of the heat map reflects
+		the Jaccard metric p-value for the number of genes in common
+		for the corresponding pair.
+	</longdescription>
+</pkgmetadata>

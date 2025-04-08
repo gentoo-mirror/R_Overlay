@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/memoise sci-CRAN/cachem sci-CRAN/data_table sci-CRAN/reticulate sci-CRAN/rstudioapi sci-CRAN/tidyselect >=sci-CRAN/tidytable-0.7.2 dev-lang/R:=
+DESCRIPTION=Access to Large Language Model Predictions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_brms r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_tictoc byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/memoise sci-CRAN/cachem sci-CRAN/data_table sci-CRAN/reticulate sci-CRAN/rstudioapi sci-CRAN/tidyselect >=sci-CRAN/tidytable-0.7.2 r_suggests_brms? ( sci-CRAN/brms ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tictoc? ( sci-CRAN/tictoc ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pangoling_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5b5d59a2d8a3b0727bdfa41549bc6b37
