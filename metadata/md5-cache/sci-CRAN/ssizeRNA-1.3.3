@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.3 sci-BIOC/Biobase sci-BIOC/limma sci-BIOC/edgeR virtual/MASS sci-BIOC/qvalue sci-CRAN/ssize_fdr dev-lang/R:=
+DESCRIPTION=Sample Size Calculation for RNA-... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2.3 sci-BIOC/Biobase sci-BIOC/limma sci-BIOC/edgeR virtual/MASS sci-BIOC/qvalue sci-CRAN/ssize_fdr r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ssizeRNA_1.3.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d4c9d7297ed8f51b4c6a463748c1c5c6

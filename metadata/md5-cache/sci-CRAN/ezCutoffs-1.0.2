@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.15.1 sci-CRAN/lavaan sci-CRAN/ggplot2 sci-CRAN/doSNOW sci-CRAN/foreach sci-CRAN/moments sci-CRAN/progress dev-lang/R:=
+DESCRIPTION=Fit Measure Cutoffs in SEM
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-2.15.1 sci-CRAN/lavaan sci-CRAN/ggplot2 sci-CRAN/doSNOW sci-CRAN/foreach sci-CRAN/moments sci-CRAN/progress r_suggests_boot? ( virtual/boot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ezCutoffs_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2b813879ea5c97672fe5e93be7535814

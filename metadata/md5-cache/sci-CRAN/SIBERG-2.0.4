@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mclust dev-lang/R:=
+DESCRIPTION=Systematic Identification of Bim... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_edger byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=sci-CRAN/mclust r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_edger? ( sci-BIOC/edgeR ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SIBERG_2.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=200605622541c3f099bfd5de87913cd9

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gplots sci-CRAN/purrr sci-CRAN/ggrepel sci-CRAN/DescTools sci-CRAN/stringr sci-CRAN/rstatix >=dev-lang/R-3.2.3 sci-CRAN/plm sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/gdata sci-CRAN/rlang sci-CRAN/formula_tools sci-CRAN/ggpubr dev-lang/R:=
+DESCRIPTION=Simplified Statistical Procedure... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/gplots sci-CRAN/purrr sci-CRAN/ggrepel sci-CRAN/DescTools sci-CRAN/stringr sci-CRAN/rstatix >=dev-lang/R-3.2.3 sci-CRAN/plm sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/gdata sci-CRAN/rlang sci-CRAN/formula_tools sci-CRAN/ggpubr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vannstats_1.5.4.07.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ce47fd77aebac798e925ebba775e6a44
