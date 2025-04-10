@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/insight sci-CRAN/cli sci-CRAN/univariateML sci-CRAN/progressr sci-CRAN/rlang sci-CRAN/staccuracy sci-CRAN/tidyr sci-CRAN/broom sci-CRAN/future sci-CRAN/ggplot2 sci-CRAN/patchwork sci-CRAN/stringr >=dev-lang/R-4.2.0 sci-CRAN/dplyr sci-CRAN/furrr sci-CRAN/S7 sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Interpretable Machine Learning a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aleplot r_suggests_gbm r_suggests_knitr r_suggests_mgcv r_suggests_nnet r_suggests_readr r_suggests_rmarkdown r_suggests_testthat r_suggests_yaimpute byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/insight sci-CRAN/cli sci-CRAN/univariateML sci-CRAN/progressr sci-CRAN/rlang sci-CRAN/staccuracy sci-CRAN/tidyr sci-CRAN/broom sci-CRAN/future sci-CRAN/ggplot2 sci-CRAN/patchwork sci-CRAN/stringr >=dev-lang/R-4.2.0 sci-CRAN/dplyr sci-CRAN/furrr sci-CRAN/S7 sci-CRAN/purrr r_suggests_aleplot? ( sci-CRAN/ALEPlot ) r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_nnet? ( virtual/nnet ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_yaimpute? ( sci-CRAN/yaImpute ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ale_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=12414a52ea7a39bc1606e2dca6c7fcc7

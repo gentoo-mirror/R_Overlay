@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.1 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Robust Change-Point Tests
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cumstats r_suggests_mass r_suggests_mvtnorm r_suggests_pracma r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.3.1 sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_cumstats? ( sci-CRAN/cumstats ) r_suggests_mass? ( virtual/MASS ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_pracma? ( sci-CRAN/pracma ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/robcp_0.3.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9d6ae5881b8d26a88d8f23cb758ac18d

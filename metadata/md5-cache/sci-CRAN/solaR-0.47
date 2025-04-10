@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice sci-CRAN/RColorBrewer sci-CRAN/zoo virtual/lattice dev-lang/R:=
+DESCRIPTION=Radiation and Photovoltaic Systems
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_meteoforecast r_suggests_raster r_suggests_rastervis r_suggests_sp r_suggests_tdr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/lattice sci-CRAN/RColorBrewer sci-CRAN/zoo virtual/lattice r_suggests_meteoforecast? ( sci-CRAN/meteoForecast ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rastervis? ( sci-CRAN/rasterVis ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_tdr? ( sci-CRAN/tdr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/solaR_0.47.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=142ac690608cc6fe52e5e5c7855ce2d9

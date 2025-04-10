@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/archeofrag sci-CRAN/DT sci-CRAN/doParallel sci-CRAN/dendextend sci-CRAN/doRNG sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/shiny sci-CRAN/shinythemes dev-lang/R:=
+DESCRIPTION=Spatial Analysis in Archaeology ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rbgl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/archeofrag sci-CRAN/DT sci-CRAN/doParallel sci-CRAN/dendextend sci-CRAN/doRNG sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/igraph sci-CRAN/shiny sci-CRAN/shinythemes r_suggests_rbgl? ( sci-BIOC/RBGL ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/archeofrag.gui_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=47e01e3a94355009bae5504527f7e286

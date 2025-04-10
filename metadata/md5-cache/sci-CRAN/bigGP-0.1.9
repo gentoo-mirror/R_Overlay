@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/Rmpi-0.6.2 dev-lang/R:=
+DESCRIPTION=Distributed Gaussian Process Calculations
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fields r_suggests_rlecuyer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/Rmpi-0.6.2 virtual/mpi r_suggests_fields? ( sci-CRAN/fields ) r_suggests_rlecuyer? ( sci-CRAN/rlecuyer ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bigGP_0.1.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b1f7d46210c8476e965c37d34c9c1c62
