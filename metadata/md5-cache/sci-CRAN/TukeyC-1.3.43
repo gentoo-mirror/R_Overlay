@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/doBy sci-CRAN/xtable dev-lang/R:=
+DESCRIPTION=Conventional Tukey Test
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lme4 r_suggests_pbkrtest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/doBy sci-CRAN/xtable r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_pbkrtest? ( >=sci-CRAN/pbkrtest-0.4.6 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TukeyC_1.3-43.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b858d2542b530662b339fcea0399acfd

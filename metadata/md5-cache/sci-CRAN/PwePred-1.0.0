@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/fastmatch sci-CRAN/doSNOW sci-CRAN/foreach sci-CRAN/segmented dev-lang/R:=
+DESCRIPTION=Event/Timeline Prediction Model ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rcolorbrewer r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/survival sci-CRAN/fastmatch sci-CRAN/doSNOW sci-CRAN/foreach sci-CRAN/segmented r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PwePred_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4ea3ad2235e712dfb3f7cbe51729dcf2

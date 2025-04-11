@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gtools >=sci-CRAN/lme4-1.0 sci-CRAN/qvcalc sci-CRAN/brglm dev-lang/R:=
+DESCRIPTION=Bradley-Terry Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_knitr r_suggests_litedown r_suggests_prefmod r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/gtools >=sci-CRAN/lme4-1.0 sci-CRAN/qvcalc sci-CRAN/brglm r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_litedown? ( sci-CRAN/litedown ) r_suggests_prefmod? ( sci-CRAN/prefmod ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BradleyTerry2_1.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=93eac90be00ae5176da561479280a4bb

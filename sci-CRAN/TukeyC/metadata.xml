@@ -2,7 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Conventional Tukey Test // Perform the conventional Tukey test
-		from formula, lm, aov, aovlist and lmer objects.
+		Conventional Tukey Test // Provides tools to perform multiple
+		comparison analyses, based on the well-known Tukey's "Honestly
+		Significant Difference" (HSD) test. In models involving
+		interactions, 'TukeyC' stands out from other R packages by
+		implementing intuitive and easy-to-use functions. In addition
+		to accommodating traditional R methods such as lm() and aov(),
+		it has also been extended to objects of the lmer() class, that
+		is, mixed models with fixed effects. For more details see Tukey
+		(1949) doi:10.2307/3001913.
 	</longdescription>
 </pkgmetadata>
