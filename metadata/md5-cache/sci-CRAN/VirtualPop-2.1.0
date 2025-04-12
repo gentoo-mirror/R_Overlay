@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 sci-CRAN/HMDHFDplus sci-CRAN/msm dev-lang/R:=
+DESCRIPTION=Simulation of Populations by Sam... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_eha r_suggests_foreign r_suggests_ggplot2 r_suggests_kableextra r_suggests_knitr r_suggests_lubridate r_suggests_rmarkdown r_suggests_survival r_suggests_survminer r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.3.0 sci-CRAN/HMDHFDplus sci-CRAN/msm r_suggests_eha? ( sci-CRAN/eha ) r_suggests_foreign? ( virtual/foreign ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survival? ( virtual/survival ) r_suggests_survminer? ( sci-CRAN/survminer ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/VirtualPop_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=40a5a2a8bc896ebd459bb528d532babb

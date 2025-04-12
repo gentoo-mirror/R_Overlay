@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmltools sci-CRAN/shiny sci-CRAN/argonR dev-lang/R:=
+DESCRIPTION=Argon Shiny Dashboard Template
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_magrittr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/htmltools sci-CRAN/shiny sci-CRAN/argonR r_suggests_magrittr? ( sci-CRAN/magrittr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/argonDash_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=daf251e089369833dc50b633ebdd7f92

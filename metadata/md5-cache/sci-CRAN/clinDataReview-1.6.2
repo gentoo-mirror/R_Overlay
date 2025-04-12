@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/crosstalk >=sci-CRAN/clinUtils-0.1.0 sci-CRAN/jsonvalidate sci-CRAN/bookdown sci-CRAN/ggplot2 sci-CRAN/haven sci-CRAN/htmltools sci-CRAN/knitr sci-CRAN/yaml sci-CRAN/xml2 sci-CRAN/data_table sci-CRAN/rmarkdown sci-CRAN/htmlwidgets sci-CRAN/base64enc sci-CRAN/plotly sci-CRAN/stringr sci-CRAN/plyr sci-CRAN/xfun sci-CRAN/jsonlite dev-lang/R:=
+DESCRIPTION=Clinical Data Review Tool
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_countrycode r_suggests_dt r_suggests_intextsummarytable r_suggests_patientprofilesvis r_suggests_scales r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/crosstalk >=sci-CRAN/clinUtils-0.1.0 sci-CRAN/jsonvalidate sci-CRAN/bookdown sci-CRAN/ggplot2 sci-CRAN/haven sci-CRAN/htmltools sci-CRAN/knitr sci-CRAN/yaml sci-CRAN/xml2 sci-CRAN/data_table sci-CRAN/rmarkdown sci-CRAN/htmlwidgets sci-CRAN/base64enc sci-CRAN/plotly sci-CRAN/stringr sci-CRAN/plyr sci-CRAN/xfun sci-CRAN/jsonlite app-text/pandoc r_suggests_countrycode? ( sci-CRAN/countrycode ) r_suggests_dt? ( sci-CRAN/DT ) r_suggests_intextsummarytable? ( >=sci-CRAN/inTextSummaryTable-3.1.0 ) r_suggests_patientprofilesvis? ( >=sci-CRAN/patientProfilesVis-0.12.0 ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clinDataReview_1.6.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=26473b7cd5ca96372c42d40a1bdbb94c

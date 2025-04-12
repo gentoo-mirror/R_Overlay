@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.2 >=sci-CRAN/BBmisc-1.11 >=sci-CRAN/checkmate-1.8.2 sci-CRAN/shape >=sci-CRAN/mlr-2.11 sci-CRAN/TeachingDemos dev-lang/R:=
+DESCRIPTION=The Residual-Based Predictiveness Curve
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mlbench r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.0.2 >=sci-CRAN/BBmisc-1.11 >=sci-CRAN/checkmate-1.8.2 sci-CRAN/shape >=sci-CRAN/mlr-2.11 sci-CRAN/TeachingDemos r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RBPcurve_1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fb668bd297b3a2e54d1c13dbc040e063
