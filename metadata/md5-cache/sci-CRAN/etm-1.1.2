@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 virtual/lattice sci-CRAN/data_table >=sci-CRAN/Rcpp-0.11.4 virtual/survival dev-lang/R:=
+DESCRIPTION=Empirical Transition Matrix
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geepack r_suggests_ggplot2 r_suggests_kmi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0.0 virtual/lattice sci-CRAN/data_table >=sci-CRAN/Rcpp-0.11.4 virtual/survival sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_geepack? ( sci-CRAN/geepack ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_kmi? ( sci-CRAN/kmi ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/etm_1.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f453ab5ba8a42c146bba25ec7566546d
