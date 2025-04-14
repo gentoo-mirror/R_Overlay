@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice virtual/KernSmooth dev-lang/R:=
+DESCRIPTION=Data Sets from Montgomery, Peck and Vining
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=virtual/lattice virtual/KernSmooth dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MPV_2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=669a2e66bf831b53a8acc26a8b3ecc0c

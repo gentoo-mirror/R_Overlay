@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.4.0 sci-CRAN/ggplot2 sci-CRAN/geomtextpath sci-CRAN/officer sci-CRAN/flextable sci-CRAN/scales dev-lang/R:=
+DESCRIPTION=Visualize Simons Two-Stage Design
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_clinfun r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.4.0 sci-CRAN/ggplot2 sci-CRAN/geomtextpath sci-CRAN/officer sci-CRAN/flextable sci-CRAN/scales r_suggests_clinfun? ( sci-CRAN/clinfun ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/VisualizeSimon2Stage_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cf355782ac42d5bc5336352fffa4fe64

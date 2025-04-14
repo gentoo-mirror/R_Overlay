@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/igraph sci-CRAN/magrittr virtual/Matrix sci-CRAN/dplyr sci-CRAN/ggrepel sci-CRAN/scales sci-CRAN/rlang sci-CRAN/Seurat sci-CRAN/pbmcapply sci-CRAN/pROC sci-CRAN/withr sci-CRAN/tibble sci-CRAN/uwot sci-CRAN/Rcpp >=dev-lang/R-3.5.0 sci-CRAN/irlba sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Core Utilities for Single-Cell RNA-Seq
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggrastr r_suggests_jsonlite r_suggests_rmumps r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/igraph sci-CRAN/magrittr virtual/Matrix sci-CRAN/dplyr sci-CRAN/ggrepel sci-CRAN/scales sci-CRAN/rlang sci-CRAN/Seurat sci-CRAN/pbmcapply sci-CRAN/pROC sci-CRAN/withr sci-CRAN/tibble sci-CRAN/uwot sci-CRAN/Rcpp >=dev-lang/R-3.5.0 sci-CRAN/irlba sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppProgress sci-CRAN/RcppEigen r_suggests_ggrastr? ( >=sci-CRAN/ggrastr-0.1.7 ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_rmumps? ( sci-CRAN/rmumps ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sccore_1.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=77dbe4702f34a148ac432223925166b2

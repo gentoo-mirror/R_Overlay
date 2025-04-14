@@ -2,13 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Generating Multi-Omics Datasets // Designed to generate multi-
-		omics datasets that closely reflect biological complexity, the
-		package allows for testing, validation, and benchmarking of
-		multi-omics integrative methods. The simulated data includes
-		one or multiple predefined signals (latent/unobserved factors),
-		giving users complete control over the data-generated
-		characteristics. Tini, Giulia, et al (2019)
-		doi:10.1093/bib/bbx167.
+		Generating Multi-Omics Datasets for Testing and Benchmarking //
+		Provides tools to simulate multi-omics datasets with predefined
+		signal structures. The generated data can be used for testing,
+		validating, and benchmarking integrative analysis methods such
+		as factor models and clustering approaches. This version
+		includes enhanced signal customization, visualization tools
+		(scatter, histogram, 3D), MOFA-based analysis pipelines,
+		PowerPoint export, and statistical profiling of datasets.
+		Designed for both method development and teaching, SUMO
+		supports real and synthetic data pipelines with interpretable
+		outputs. Tini, Giulia, et al (2019) doi:10.1093/bib/bbx167.
 	</longdescription>
 </pkgmetadata>
