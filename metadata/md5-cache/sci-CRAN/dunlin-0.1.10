@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/yaml-2.1.15 >=sci-CRAN/glue-1.0.0 >=sci-CRAN/checkmate-2.1.0 >=dev-lang/R-4.0.0 >=sci-CRAN/dplyr-1.1.0 >=sci-CRAN/forcats-1.0.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/rlang-1.0.0 >=sci-CRAN/stringr-1.4.1 >=sci-CRAN/tibble-1.2 dev-lang/R:=
+DESCRIPTION=Preprocessing Tools for Clinical Trial Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=>=sci-CRAN/yaml-2.1.15 >=sci-CRAN/glue-1.0.0 >=sci-CRAN/checkmate-2.1.0 >=dev-lang/R-4.0.0 >=sci-CRAN/dplyr-1.1.0 >=sci-CRAN/forcats-1.0.0 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/rlang-1.0.0 >=sci-CRAN/stringr-1.4.1 >=sci-CRAN/tibble-1.2 r_suggests_knitr? ( >=sci-CRAN/knitr-1.42 ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.23 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.4 ) r_suggests_withr? ( >=sci-CRAN/withr-2.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dunlin_0.1.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f9ca936f2e9996528e2ba1e318b4cdaf

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gamlss_dist sci-CRAN/gamlss dev-lang/R:=
+DESCRIPTION=Fitting Mixed (Inflated and Adju... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gamlss_cens r_suggests_gamlss_tr r_suggests_mass r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/gamlss_dist sci-CRAN/gamlss r_suggests_gamlss_cens? ( sci-CRAN/gamlss_cens ) r_suggests_gamlss_tr? ( sci-CRAN/gamlss_tr ) r_suggests_mass? ( virtual/MASS ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gamlss.inf_1.0-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=91eb3a4b0fbfd570752980ddd9513413
