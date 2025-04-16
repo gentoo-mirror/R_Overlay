@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/pracma sci-CRAN/Rcpp >=sci-CRAN/RcppParallel-5.1.4 dev-lang/R:=
+DESCRIPTION=Density Estimation and Visualiza... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cluster r_suggests_datavisualizations r_suggests_fcps r_suggests_ggextra r_suggests_ggplot2 r_suggests_paralleldist r_suggests_plotly byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/pracma sci-CRAN/Rcpp >=sci-CRAN/RcppParallel-5.1.4 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppParallel r_suggests_cluster? ( virtual/cluster ) r_suggests_datavisualizations? ( sci-CRAN/DataVisualizations ) r_suggests_fcps? ( sci-CRAN/FCPS ) r_suggests_ggextra? ( sci-CRAN/ggExtra ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_paralleldist? ( sci-CRAN/parallelDist ) r_suggests_plotly? ( sci-CRAN/plotly ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ScatterDensity_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fcf7ccfd9ca3c2d10b13072a544888cb

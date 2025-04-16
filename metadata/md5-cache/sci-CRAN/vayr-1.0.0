@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/withr-2.1.1 >=sci-CRAN/ggplot2-3.0.0 >=sci-CRAN/packcircles-0.3.7 dev-lang/R:=
+DESCRIPTION=Extensions for ggplot2 to Visual... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_estimatr r_suggests_knitr r_suggests_patchwork r_suggests_randomizr r_suggests_rmarkdown r_suggests_sessioninfo r_suggests_testthat r_suggests_tibble r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/withr-2.1.1 >=sci-CRAN/ggplot2-3.0.0 >=sci-CRAN/packcircles-0.3.7 r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_estimatr? ( sci-CRAN/estimatr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_randomizr? ( sci-CRAN/randomizr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sessioninfo? ( sci-CRAN/sessioninfo ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vayr_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b8cbead5b8096447f537d3027131b4e7
