@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Partial Identification of Causal Effects with Mostly Invalid
+		Instruments // A tuneable and interpretable method for relaxing
+		the instrumental variables (IV) assumptions to infer treatment
+		effects in the presence of unobserved confounding. For a
+		treatment-associated covariate to be a valid IV, it must be (a)
+		unconfounded with the outcome and (b) have a causal effect on
+		the outcome that is exclusively mediated by the exposure. There
+		is no general test of the validity of these IV assumptions for
+		any particular pre-treatment covariate. However, if different
+		pre-treatment covariates give differing causal effect estimates
+		when treated as IVs, then we know at least some of the
+		covariates violate these assumptions. 'budgetIVr' exploits this
+		fact by taking as input a minimum budget of pre-treatment
+		covariates assumed to be valid IVs and idenfiying the set of
+		causal effects that are consistent with the user's data and
+		budget assumption. The following generalizations of this
+		principle can be used in this package: (1) a vector of multiple
+		budgets can be assigned alongside corresponding thresholds that
+		model degrees of IV invalidity; (2) budgets and thresholds can
+		be chosen using specialist knowledge or varied in a principled
+		sensitivity analysis; (3) treatment effects can be nonlinear
+		and/or depend on multiple exposures (at a computational cost).
+		The methods in this package require only summary statistics.
+		Confidence sets are constructed under the "no measurement
+		error" (NOME) assumption from the Mendelian randomization
+		literature. For further methodological details, please refer to
+		Penn et al. (2024) doi:10.48550/arXiv.2411.06913.
+	</longdescription>
+</pkgmetadata>

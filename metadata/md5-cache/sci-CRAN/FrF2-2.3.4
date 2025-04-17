@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.13.0 >=sci-CRAN/DoE_base-0.25 >=sci-CRAN/igraph-0.7 >=sci-CRAN/sfsmisc-1.0.26 sci-CRAN/scatterplot3d dev-lang/R:=
+DESCRIPTION=Fractional Factorial Designs with 2-Level Factors
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bsmd r_suggests_doe_wrapper r_suggests_frf2_catlg128 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.13.0 >=sci-CRAN/DoE_base-0.25 >=sci-CRAN/igraph-0.7 >=sci-CRAN/sfsmisc-1.0.26 sci-CRAN/scatterplot3d r_suggests_bsmd? ( sci-CRAN/BsMD ) r_suggests_doe_wrapper? ( sci-CRAN/DoE_wrapper ) r_suggests_frf2_catlg128? ( sci-CRAN/FrF2_catlg128 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FrF2_2.3-4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c21b824bdd2bc31d2d1d998056421636
