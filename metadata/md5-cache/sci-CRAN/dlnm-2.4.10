@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.4 virtual/nlme virtual/mgcv sci-CRAN/tsModel dev-lang/R:=
+DESCRIPTION=Distributed Lag Non-Linear Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gee r_suggests_geepack r_suggests_lme4 r_suggests_mixmeta r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.4 virtual/nlme virtual/mgcv sci-CRAN/tsModel r_suggests_gee? ( sci-CRAN/gee ) r_suggests_geepack? ( sci-CRAN/geepack ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_mixmeta? ( sci-CRAN/mixmeta ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dlnm_2.4.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ac20503ec2f0d3039bf36fe7e690e9fb
