@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimators and Plots for Gamma and Pareto Tail Detection //
+		Estimators for two functionals used to detect Gamma or Pareto
+		distributions, as well as distributions exhibiting similar tail
+		behavior, as introduced by Iwashita and Klar (2023)
+		doi:10.1111/stan.12316 and Klar (2024)
+		doi:10.1080/00031305.2024.2413081. One of these functionals, g,
+		originally proposed by Asmussen and Lehtomaa (2017)
+		doi:10.3390/risks5010010, distinguishes between log-convex and
+		log-concave tail behavior. The package also includes methods
+		for visualizing these estimators and their associated
+		confidence intervals across various threshold values.
+	</longdescription>
+</pkgmetadata>

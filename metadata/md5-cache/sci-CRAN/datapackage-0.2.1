@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/jsonlite sci-CRAN/iso8601 sci-CRAN/yaml dev-lang/R:=
+DESCRIPTION=Creating and Reading Data Packages
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_codelist r_suggests_data_table r_suggests_laf r_suggests_simplermarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/jsonlite sci-CRAN/iso8601 sci-CRAN/yaml r_suggests_codelist? ( sci-CRAN/codelist ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_laf? ( sci-CRAN/LaF ) r_suggests_simplermarkdown? ( sci-CRAN/simplermarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/datapackage_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8fd73ac046a57f8f58b6118c9adb7776
