@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/plyr sci-CRAN/FNN sci-CRAN/zoo sci-CRAN/stinepack sci-CRAN/futile_logger dev-lang/R:=
+DESCRIPTION=Methods for Smart Meter Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_dplyr r_suggests_knitr r_suggests_randomforest r_suggests_rmarkdown r_suggests_rocr r_suggests_stringr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/plyr sci-CRAN/FNN sci-CRAN/zoo sci-CRAN/stinepack sci-CRAN/futile_logger r_suggests_caret? ( sci-CRAN/caret ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rocr? ( sci-CRAN/ROCR ) r_suggests_stringr? ( sci-CRAN/stringr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SmartMeterAnalytics_1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b642588e8e18515b3e3be022b0d199b7

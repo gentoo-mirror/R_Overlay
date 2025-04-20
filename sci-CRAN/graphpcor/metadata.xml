@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Models for Correlation Matrices Based on Graphs // Implement some
+		models for correlation/covariance matrices including two
+		approaches to model correlation matrices from a graphical
+		structure. One use latent parent variables as proposed in
+		Sterrantino et. al. (2024) doi:10.48550/arXiv.2312.06289. The
+		other uses a graph to specify conditional relations between the
+		variables. The graphical structure makes correlation matrices
+		interpretable and avoids the quadratic increase of parameters
+		as a function of the dimension. In the first approach a natural
+		sequence of simpler models along with a complexity penalization
+		is used. The second penalizes deviations from a base model.
+		These can be used as prior for model parameters, considering C
+		code through the 'cgeneric' interface for the 'INLA' package
+		(https://www.r-inla.org). This allows one to use these models
+		as building blocks combined and to other latent Gaussian models
+		in order to build complex data models.
+	</longdescription>
+</pkgmetadata>
