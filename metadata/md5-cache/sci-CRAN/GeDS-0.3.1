@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rmpfr sci-CRAN/foreach >=dev-lang/R-3.0.1 sci-CRAN/doParallel sci-CRAN/TH_data virtual/Matrix sci-CRAN/future sci-CRAN/mboost sci-CRAN/plot3D virtual/MASS >=sci-CRAN/Rcpp-1.0.0 sci-CRAN/mi sci-CRAN/doRNG sci-CRAN/doFuture dev-lang/R:=
+DESCRIPTION=Geometrically Designed Spline Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_r_rsp r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/Rmpfr sci-CRAN/foreach >=dev-lang/R-3.0.1 sci-CRAN/doParallel sci-CRAN/TH_data virtual/Matrix sci-CRAN/future sci-CRAN/mboost sci-CRAN/plot3D virtual/MASS >=sci-CRAN/Rcpp-1.0.0 sci-CRAN/mi sci-CRAN/doRNG sci-CRAN/doFuture sci-CRAN/Rcpp r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GeDS_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cd7a1c395ebb994d75cd8258fd900734

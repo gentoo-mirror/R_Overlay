@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/R6-2.2.0 >=sci-CRAN/htmltools-0.3.5 >=sci-CRAN/data_table-1.10.0 >=sci-CRAN/dplyr-0.5.0 >=sci-CRAN/htmlwidgets-0.8 dev-lang/R:=
+DESCRIPTION=Create Pivot Tables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_basictabler r_suggests_ggplot2 r_suggests_jsonlite r_suggests_knitr r_suggests_listviewer r_suggests_lubridate r_suggests_openxlsx r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.3.0 >=sci-CRAN/R6-2.2.0 >=sci-CRAN/htmltools-0.3.5 >=sci-CRAN/data_table-1.10.0 >=sci-CRAN/dplyr-0.5.0 >=sci-CRAN/htmlwidgets-0.8 r_suggests_basictabler? ( >=sci-CRAN/basictabler-1.0.2 ) r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-2.2.0 ) r_suggests_jsonlite? ( >=sci-CRAN/jsonlite-1.1 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_listviewer? ( >=sci-CRAN/listviewer-1.4.0 ) r_suggests_lubridate? ( >=sci-CRAN/lubridate-1.5.0 ) r_suggests_openxlsx? ( >=sci-CRAN/openxlsx-4.0.17 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pivottabler_1.5.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=812cb380c9ca10f829771ec9996c3779

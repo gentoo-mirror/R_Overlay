@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/bench sci-CRAN/dde sci-CRAN/ggplot2 sci-CRAN/lomb virtual/Matrix sci-CRAN/odin sci-CRAN/rlang sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Streamlined Simulation of Circadian Gene Networks
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/bench sci-CRAN/dde sci-CRAN/ggplot2 sci-CRAN/lomb virtual/Matrix sci-CRAN/odin sci-CRAN/rlang sci-CRAN/tidyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clockSim_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cfe2508c7db6cd6ef6af15b37868c62a
