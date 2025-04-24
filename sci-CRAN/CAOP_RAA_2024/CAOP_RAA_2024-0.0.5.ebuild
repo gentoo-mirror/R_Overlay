@@ -21,9 +21,9 @@ R_SUGGESTS="
 "
 DEPEND=">=dev-lang/R-3.5
 	sci-CRAN/dplyr
+	sci-CRAN/sf
 	sci-CRAN/readr
 	sci-CRAN/tibble
-	sci-CRAN/sf
 	sci-CRAN/stringi
 	sci-CRAN/glue
 "

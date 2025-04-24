@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Distribution Fitting with Calibrating Priors for Commonly Used
+		Distributions // Generates predictive distributions based on
+		calibrating priors for various commonly used statistical
+		models, including models with predictors. Routines for
+		densities, probabilities, quantiles, random deviates and the
+		parameter posterior are provided. The predictions are generated
+		from the Bayesian prediction integral, with priors chosen to
+		give good reliability (also known as calibration). For
+		homogeneous models, the prior is set to the right Haar prior,
+		giving predictions which are exactly reliable. As a result, in
+		repeated testing, the frequencies of out-of-sample outcomes and
+		the probabilities from the predictions agree. For other models,
+		the prior is chosen to give good reliability. Where possible,
+		the Bayesian prediction integral is solved exactly. Where exact
+		solutions are not possible, the Bayesian prediction integral is
+		solved using the Datta-Mukerjee-Ghosh-Sweeting (DMGS)
+		asymptotic expansion. Optionally, the prediction integral can
+		also be solved using posterior samples generated using Paul
+		Northrop's ratio of uniforms sampling package ('rust'). Results
+		are also generated based on maximum likelihood, for comparison
+		purposes. Various model selection diagnostics and testing
+		routines are included. Based on "Reducing reliability bias in
+		assessments of extreme weather risk using calibrating priors",
+		Jewson, S., Sweeting, T. and Jewson, L. (2024);
+		doi:10.5194/ascmo-11-1-2025.
+	</longdescription>
+</pkgmetadata>

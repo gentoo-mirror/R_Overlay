@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/cli >=sci-CRAN/httr2-1.0.0 sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Query the GTEx Portal API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_httptest2 r_suggests_knitr r_suggests_rmarkdown r_suggests_spelling r_suggests_stringr r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/cli >=sci-CRAN/httr2-1.0.0 sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/tidyr r_suggests_curl? ( sci-CRAN/curl ) r_suggests_httptest2? ( sci-CRAN/httptest2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gtexr_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=32e8d24c157168e4e55cbbab7172ee69

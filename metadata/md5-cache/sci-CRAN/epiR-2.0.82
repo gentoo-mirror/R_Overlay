@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/pander sci-CRAN/sf sci-CRAN/BiasedUrn virtual/survival sci-CRAN/lubridate sci-CRAN/zoo sci-CRAN/flextable sci-CRAN/officer dev-lang/R:=
+DESCRIPTION=Tools for the Analysis of Epidemiological Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_foreign r_suggests_ggplot2 r_suggests_knitr r_suggests_mass r_suggests_plyr r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_scales r_suggests_sp r_suggests_spatstat r_suggests_spdata r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/pander sci-CRAN/sf sci-CRAN/BiasedUrn virtual/survival sci-CRAN/lubridate sci-CRAN/zoo sci-CRAN/flextable sci-CRAN/officer r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_foreign? ( virtual/foreign ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_plyr? ( sci-CRAN/plyr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_spatstat? ( sci-CRAN/spatstat ) r_suggests_spdata? ( >=sci-CRAN/spData-2.3.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/epiR_2.0.82.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a615cc3d91cae03ae2c36289385f5589
