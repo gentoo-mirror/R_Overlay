@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/e1071 sci-CRAN/Kendall sci-CRAN/pracma sci-CRAN/reshape2 sci-CRAN/xts sci-CRAN/gridExtra sci-CRAN/zoo sci-CRAN/randomForest sci-CRAN/foreach sci-CRAN/reshape sci-CRAN/qmap sci-CRAN/terra sci-CRAN/xgboost sci-CRAN/neuralnet sci-CRAN/geosphere sci-CRAN/doParallel virtual/lattice sci-CRAN/car sci-CRAN/BreakPoints dev-lang/R:=
+DESCRIPTION=Reconstruction of Daily Data - Precipitation
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/e1071 sci-CRAN/Kendall sci-CRAN/pracma sci-CRAN/reshape2 sci-CRAN/xts sci-CRAN/gridExtra sci-CRAN/zoo sci-CRAN/randomForest sci-CRAN/foreach sci-CRAN/reshape sci-CRAN/qmap sci-CRAN/terra sci-CRAN/xgboost sci-CRAN/neuralnet sci-CRAN/geosphere sci-CRAN/doParallel virtual/lattice sci-CRAN/car sci-CRAN/BreakPoints dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/reddPrec_3.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2891a65255ef844f7a90d624ea751eeb

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/forecast sci-CRAN/mFilter sci-CRAN/DescTools sci-CRAN/hht sci-CRAN/wavelets sci-CRAN/KFAS sci-CRAN/daltoolbox dev-lang/R:=
+DESCRIPTION=Time Series Prediction with Integrated Tuning
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/forecast sci-CRAN/mFilter sci-CRAN/DescTools sci-CRAN/hht sci-CRAN/wavelets sci-CRAN/KFAS sci-CRAN/daltoolbox dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tspredit_1.1.707.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c4af83591f37959fb75e95743c22e40b

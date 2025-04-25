@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme sci-CRAN/abind sci-CRAN/foreach sci-CRAN/bigmemory >=dev-lang/R-3.3.0 sci-CRAN/reformulas sci-CRAN/logging dev-lang/R:=
+DESCRIPTION=Moment-Based Estimation for Hierarchical Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lme4 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=virtual/nlme sci-CRAN/abind sci-CRAN/foreach sci-CRAN/bigmemory >=dev-lang/R-3.3.0 sci-CRAN/reformulas sci-CRAN/logging r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mbest_0.6.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f435fa9b417019faa751ba0d480eaf80

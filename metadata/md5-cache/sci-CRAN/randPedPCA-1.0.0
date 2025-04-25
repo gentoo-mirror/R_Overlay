@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/spam virtual/Matrix >=dev-lang/R-3.5 sci-CRAN/pedigreeTools dev-lang/R:=
+DESCRIPTION=Fast PCA for Large Pedigrees
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rgl r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/spam virtual/Matrix >=dev-lang/R-3.5 sci-CRAN/pedigreeTools r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/randPedPCA_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e99f79af071b1908bb8d93b8fc699484

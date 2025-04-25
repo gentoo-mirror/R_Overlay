@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Stochastic 3D Structure Model for Binder-Conductive Additive
+		Phase // Simulation of the stochastic 3D structure model for
+		the nanoporous binder-conductive additive phase in battery
+		cathodes introduced in P. Grfensteiner, M. Osenberg, A. Hilger,
+		N. Bohn, J. R. Binder, I. Manke, V. Schmidt, M. Neumann (2024)
+		doi:10.48550/arXiv.2409.11080. The model is developed for a
+		binder-conductive additive phase of consisting of carbon black,
+		polyvinylidene difluoride binder and graphite particles. For
+		its stochastic 3D modeling, a three-step procedure based on
+		methods from stochastic geometry is used. First, the graphite
+		particles are described by a Boolean model with ellipsoidal
+		grains. Second, the mixture of carbon black and binder is
+		modeled by an excursion set of a Gaussian random field in the
+		complement of the graphite particles. Third, large pore regions
+		within the mixture of carbon black and binder are described by
+		a Boolean model with spherical grains.
+	</longdescription>
+</pkgmetadata>

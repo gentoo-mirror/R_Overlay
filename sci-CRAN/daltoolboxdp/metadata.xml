@@ -2,16 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Data Pre-Processing Extensions // An important aspect of data
-		analytics is related to data management support for artificial
-		intelligence. It is related to preparing data correctly. This
-		package provides extensions to support data preparation in
-		terms of both data sampling and data engineering. Overall, the
-		package provides researchers with a comprehensive set of
-		functionalities for data science based on experiment lines,
-		promoting ease of use, extensibility, and integration with
-		various tools and libraries. Information on Experiment Line is
-		based on Ogasawara et al. (2009)
-		doi:10.1007/978-3-642-02279-1_20.
+		Python-Based Extensions for Data Analytics Workflows // Provides
+		Python-based extensions to enhance data analytics workflows,
+		particularly for tasks involving data preprocessing and
+		predictive modeling. Includes tools for data sampling,
+		transformation, feature selection, balancing strategies (e.g.,
+		SMOTE), and model construction. These capabilities leverage
+		Python libraries via the reticulate interface, enabling
+		seamless integration with a broader machine learning ecosystem.
+		Supports instance selection and hybrid workflows that combine R
+		and Python functionalities for flexible and reproducible
+		analytical pipelines. The architecture is inspired by the
+		Experiment Lines approach, which promotes modularity,
+		extensibility, and interoperability across tools. More
+		information on Experiment Lines is available in Ogasawara et
+		al. (2009) doi:10.1007/978-3-642-02279-1_20.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/tidyselect >=sci-CRAN/dplyr-1.1 sci-CRAN/broom sci-CRAN/ggraph >=sci-CRAN/ggupset-0.4.1 >=sci-CRAN/ggplot2-3.5.2 sci-CRAN/igraph >=dev-lang/R-3.6 >=sci-CRAN/magrittr-1.5 sci-CRAN/Rdpack >=sci-CRAN/multiverse-0.6.2 sci-CRAN/rlang sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Tidy Multiverse Analysis Made Simple
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_kableextra r_suggests_knitr r_suggests_mass r_suggests_pkgdown r_suggests_purrr r_suggests_rmarkdown r_suggests_scales r_suggests_spelling r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/tidyr sci-CRAN/tidyselect >=sci-CRAN/dplyr-1.1 sci-CRAN/broom sci-CRAN/ggraph >=sci-CRAN/ggupset-0.4.1 >=sci-CRAN/ggplot2-3.5.2 sci-CRAN/igraph >=dev-lang/R-3.6 >=sci-CRAN/magrittr-1.5 sci-CRAN/Rdpack >=sci-CRAN/multiverse-0.6.2 sci-CRAN/rlang sci-CRAN/stringr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_pkgdown? ( >=sci-CRAN/pkgdown-1.5.1 ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mverse_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f9cca918b0962f930475e38133af35e0

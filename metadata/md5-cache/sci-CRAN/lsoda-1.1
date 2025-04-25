@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-1.0.12 dev-lang/R:=
+DESCRIPTION=C++ Header Library for Ordinary ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_desolve r_suggests_rcpparmadillo r_suggests_rcppeigen byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/Rcpp-1.0.12 sci-CRAN/Rcpp r_suggests_desolve? ( sci-CRAN/deSolve ) r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo ) r_suggests_rcppeigen? ( sci-CRAN/RcppEigen ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lsoda_1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=af049e59d5506360c3a4761dc9977ed8

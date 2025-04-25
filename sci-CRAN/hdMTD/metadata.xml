@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Inference for High-Dimensional Mixture Transition Distribution
+		Models // Estimates parameters in Mixture Transition
+		Distribution (MTD) models, a class of high-order Markov chains.
+		The set of relevant pasts (lags) is selected using either the
+		Bayesian Information Criterion or the Forward Stepwise and Cut
+		algorithms. Other model parameters (e.g. transition
+		probabilities and oscillations) can be estimated via maximum
+		likelihood estimation or the Expectation-Maximization
+		algorithm. Additionally, 'hdMTD' includes a perfect sampling
+		algorithm that generates samples of an MTD model from its
+		invariant distribution. For theory, see Ost  Takahashi (2023)
+		http://jmlr.org/papers/v24/22-0266.html.
+	</longdescription>
+</pkgmetadata>
