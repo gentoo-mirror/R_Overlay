@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-2.0.0 sci-CRAN/rlang sci-CRAN/gtable sci-CRAN/xtable sci-CRAN/knitr sci-CRAN/dplyr >=sci-CRAN/readr-0.2.2 sci-CRAN/lazyeval sci-CRAN/PopED sci-CRAN/rmarkdown sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/bookdown sci-CRAN/magrittr >=sci-CRAN/gridExtra-2.0.0 sci-CRAN/scales sci-CRAN/reshape2 >=dev-lang/R-2.15.3 dev-lang/R:=
+DESCRIPTION=NCA Calculations and Population Model Diagnosis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/ggplot2-2.0.0 sci-CRAN/rlang sci-CRAN/gtable sci-CRAN/xtable sci-CRAN/knitr sci-CRAN/dplyr >=sci-CRAN/readr-0.2.2 sci-CRAN/lazyeval sci-CRAN/PopED sci-CRAN/rmarkdown sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/bookdown sci-CRAN/magrittr >=sci-CRAN/gridExtra-2.0.0 sci-CRAN/scales sci-CRAN/reshape2 >=dev-lang/R-2.15.3 r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ncappc_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0a784e8f2a53bcdceee3462fd27fab7f

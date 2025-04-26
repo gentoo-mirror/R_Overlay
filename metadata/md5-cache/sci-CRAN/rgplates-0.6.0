@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=R Interface for the GPlates Web ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_chronosphere r_suggests_geojsonsf r_suggests_httr2 r_suggests_knitr r_suggests_rmarkdown r_suggests_sp r_suggests_terra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/sf r_suggests_chronosphere? ( sci-CRAN/chronosphere ) r_suggests_geojsonsf? ( sci-CRAN/geojsonsf ) r_suggests_httr2? ( sci-CRAN/httr2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_terra? ( sci-CRAN/terra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rgplates_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=43e99c7b381d49d7f2da700b3c56194e

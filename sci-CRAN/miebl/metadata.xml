@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Performance Criteria Modeler for Discrete Trial Training //
+		Provides a tool for computing probabilities and other
+		quantities that are relevant in selecting performance criteria
+		for discrete trial training. The main function, miebl(),
+		computes Bayesian and frequentist probabilities and bounds for
+		each of n possible performance criterion choices when
+		attempting to determine a student's true mastery level by
+		counting their number of successful attempts at displaying
+		learning among n trials. The reporting function miebl_re()
+		takes output from miebl() and prepares it into a brief report
+		for a specific criterion. miebl_cp() combines 2 to 5
+		distributions of true mastery level given performance criterion
+		in one plot for comparison. Ramos (2025)
+		doi:10.1007/s40617-025-01058-9.
+	</longdescription>
+</pkgmetadata>
