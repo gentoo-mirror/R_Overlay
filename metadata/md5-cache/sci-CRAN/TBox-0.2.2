@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 sci-CRAN/checkmate sci-CRAN/clipr sci-CRAN/knitr sci-CRAN/rmarkdown dev-lang/R:=
+DESCRIPTION=Useful Functions for Programming... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_htm2txt r_suggests_pdftools r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6 sci-CRAN/checkmate sci-CRAN/clipr sci-CRAN/knitr sci-CRAN/rmarkdown r_suggests_htm2txt? ( sci-CRAN/htm2txt ) r_suggests_pdftools? ( sci-CRAN/pdftools ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TBox_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d61e50227d0e3f07245a7ba996d6ddb0
