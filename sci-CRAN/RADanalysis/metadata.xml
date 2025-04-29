@@ -2,12 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Normalization and Study of Rank Abundance Distributions // It has
-		tools for normalization of rank abundance distributions (RAD)
-		to a desired number of ranks using MaxRank Normalization
-		method. RADs are commonly used in biology/ecology and
-		mathematically equivalent to complementary cumulative
-		distributions (CCDFs) which are used in physics, linguistics
-		and sociology and more generally in data science.
+		Normalization and Analysis of Rank Abundance Distributions //
+		Implementation of the MaxRank normalization method, which
+		enables standardization of Rank Abundance Distributions (RADs)
+		to a specified number of ranks. Rank abundance distributions
+		are widely used in biology and ecology to describe species
+		abundances, and are mathematically equivalent to complementary
+		cumulative distribution functions (CCDFs) used in physics,
+		linguistics, sociology, and other fields. The method is
+		described in Saeedghalati et al. (2017)
+		doi:10.1371/journal.pcbi.1005362.
 	</longdescription>
 </pkgmetadata>

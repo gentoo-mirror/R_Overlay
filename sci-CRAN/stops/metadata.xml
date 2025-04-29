@@ -33,6 +33,10 @@
 		functions for optimization, specifically the adaptive Luus-
 		Jaakola algorithm and a wrapper for Bayesian optimization with
 		treed Gaussian process with jumps to linear models, and
-		functions for various c-structuredness indices.
+		functions for various c-structuredness indices. Hyperparameter
+		optimization can be done with a number of techniques but we
+		recommend either Bayesian optimization or particle swarm. For
+		using "Kriging", users need to install a version of the
+		archived 'DiceOptim' R package.
 	</longdescription>
 </pkgmetadata>

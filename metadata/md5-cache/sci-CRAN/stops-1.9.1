@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/nloptr sci-CRAN/pomp sci-CRAN/acepack >=dev-lang/R-3.5.0 sci-CRAN/clue sci-CRAN/tgp sci-CRAN/cmaes sci-CRAN/cordillera sci-CRAN/dfoptim sci-CRAN/energy sci-CRAN/minerva sci-CRAN/registry sci-CRAN/scagnostics sci-CRAN/pso sci-CRAN/vegan dev-lang/R:=
+DESCRIPTION=Structure Optimized Proximity Scaling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dicekriging r_suggests_diceoptim r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/nloptr sci-CRAN/pomp sci-CRAN/acepack >=dev-lang/R-3.5.0 sci-CRAN/clue sci-CRAN/tgp sci-CRAN/cmaes sci-CRAN/cordillera sci-CRAN/dfoptim sci-CRAN/energy sci-CRAN/minerva sci-CRAN/registry sci-CRAN/scagnostics sci-CRAN/pso sci-CRAN/vegan r_suggests_dicekriging? ( sci-CRAN/DiceKriging ) r_suggests_diceoptim? ( sci-CRAN/DiceOptim ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stops_1.9-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3ee6b63600a4ad15e48136e576f4af9f

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/wordcloud2 sci-CRAN/ggplot2 sci-CRAN/xml2 sci-CRAN/stringr sci-CRAN/DT sci-CRAN/rvest >=dev-lang/R-4.1 sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/tidytext sci-CRAN/lubridate sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Scraping Chilean Media
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rcmdcheck byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/wordcloud2 sci-CRAN/ggplot2 sci-CRAN/xml2 sci-CRAN/stringr sci-CRAN/DT sci-CRAN/rvest >=dev-lang/R-4.1 sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/magrittr sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/tidytext sci-CRAN/lubridate sci-CRAN/purrr r_suggests_rcmdcheck? ( sci-CRAN/rcmdcheck ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/datamedios_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e1651dbaeeda0a2abbac375d1df7f5c8
