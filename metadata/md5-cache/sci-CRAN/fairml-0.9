@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/glmnet dev-lang/R:=
+DESCRIPTION=Fair Models in Machine Learning
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cccp r_suggests_cvxr r_suggests_gridextra r_suggests_lattice r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/glmnet r_suggests_cccp? ( sci-CRAN/cccp ) r_suggests_cvxr? ( sci-CRAN/CVXR ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_lattice? ( virtual/lattice ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fairml_0.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bdff1c0f0531ac7193c8f7e6fece09a0

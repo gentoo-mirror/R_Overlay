@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/hexView >=sci-CRAN/XML-1.0.0 sci-CRAN/vroom dev-lang/R:=
+DESCRIPTION=Read Unisens Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3+
+RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/hexView >=sci-CRAN/XML-1.0.0 sci-CRAN/vroom r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/unisensR_0.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9ff8f1aa70e1d46264b528e787ee3797

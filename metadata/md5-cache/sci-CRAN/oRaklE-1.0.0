@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/countrycode sci-CRAN/glmnet sci-CRAN/lubridate sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/ggthemes sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/scales sci-CRAN/R_utils sci-CRAN/caret sci-CRAN/MuMIn sci-CRAN/patchwork >=dev-lang/R-3.5 sci-CRAN/doParallel virtual/mgcv sci-CRAN/ggplot2 sci-CRAN/MLmetrics sci-CRAN/zoo virtual/survival sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Multi-Horizon Electricity Demand... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/countrycode sci-CRAN/glmnet sci-CRAN/lubridate sci-CRAN/purrr sci-CRAN/dplyr sci-CRAN/ggthemes sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/scales sci-CRAN/R_utils sci-CRAN/caret sci-CRAN/MuMIn sci-CRAN/patchwork >=dev-lang/R-3.5 sci-CRAN/doParallel virtual/mgcv sci-CRAN/ggplot2 sci-CRAN/MLmetrics sci-CRAN/zoo virtual/survival sci-CRAN/xml2 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.2.3 ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/oRaklE_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=309c34a6dd6f8ec8cc7938100c5d3c4a

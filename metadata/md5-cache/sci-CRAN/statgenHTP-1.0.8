@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/animation sci-CRAN/gridExtra >=sci-CRAN/SpATS-1.0.13 sci-CRAN/spam sci-CRAN/rlang sci-CRAN/scales sci-CRAN/LMMsolver sci-CRAN/reshape2 >=dev-lang/R-3.6 >=sci-CRAN/ggplot2-3.3.0 sci-CRAN/ggforce sci-CRAN/factoextra sci-CRAN/locfit sci-CRAN/ggnewscale sci-CRAN/lubridate virtual/Matrix dev-lang/R:=
+DESCRIPTION=High Throughput Phenotyping (HTP) Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/animation sci-CRAN/gridExtra >=sci-CRAN/SpATS-1.0.13 sci-CRAN/spam sci-CRAN/rlang sci-CRAN/scales sci-CRAN/LMMsolver sci-CRAN/reshape2 >=dev-lang/R-3.6 >=sci-CRAN/ggplot2-3.3.0 sci-CRAN/ggforce sci-CRAN/factoextra sci-CRAN/locfit sci-CRAN/ggnewscale sci-CRAN/lubridate virtual/Matrix r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tinytest? ( >=sci-CRAN/tinytest-1.2.4 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/statgenHTP_1.0.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1014e50ad1b92a14f63d0078c799bad0

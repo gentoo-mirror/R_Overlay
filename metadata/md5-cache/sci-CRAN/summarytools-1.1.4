@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/dplyr >=dev-lang/R-3.5 sci-CRAN/rapportools sci-CRAN/base64enc sci-CRAN/checkmate sci-CRAN/htmltools sci-CRAN/lubridate sci-CRAN/magick sci-CRAN/pander sci-CRAN/pryr dev-lang/R[tk] dev-lang/R:=
+DESCRIPTION=Tools to Quickly and Neatly Summarize Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_backports r_suggests_forcats r_suggests_formatr r_suggests_haven r_suggests_kableextra r_suggests_knitr r_suggests_magrittr r_suggests_rmarkdown r_suggests_rstudioapi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/Matrix sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/dplyr >=dev-lang/R-3.5 sci-CRAN/rapportools sci-CRAN/base64enc sci-CRAN/checkmate sci-CRAN/htmltools sci-CRAN/lubridate sci-CRAN/magick sci-CRAN/pander sci-CRAN/pryr dev-lang/R[tk] r_suggests_backports? ( sci-CRAN/backports ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_formatr? ( sci-CRAN/formatR ) r_suggests_haven? ( sci-CRAN/haven ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/summarytools_1.1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=beeb61ebe3820526c6075800c2caf762

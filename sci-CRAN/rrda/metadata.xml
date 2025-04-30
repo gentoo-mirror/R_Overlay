@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Ridge Redundancy Analysis for High-Dimensional Omics Data //
+		Efficient framework for ridge redundancy analysis (rrda),
+		tailored for high-dimensional omics datasets where the number
+		of predictors exceeds the number of samples. The method
+		leverages Singular Value Decomposition (SVD) to avoid direct
+		inversion of the covariance matrix, enhancing scalability and
+		performance. It also introduces a memory-efficient storage
+		strategy for coefficient matrices, enabling practical use in
+		large-scale applications. The package supports cross-validation
+		for selecting regularization parameters and reduced-rank
+		dimensions, making it a robust and flexible tool for
+		multivariate analysis in omics research. Please refer to our
+		article (Yoshioka et al., 2025) for more details.
+	</longdescription>
+</pkgmetadata>

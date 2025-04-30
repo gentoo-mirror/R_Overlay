@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/rmarkdown sci-CRAN/knitr sci-CRAN/base64enc dev-lang/R:=
+DESCRIPTION=Automatic Generation of Exams in R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_clipr r_suggests_magick r_suggests_openxlsx r_suggests_png r_suggests_qpdf r_suggests_rcurl r_suggests_rjsonio r_suggests_tinytex r_suggests_tth r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/rmarkdown sci-CRAN/knitr sci-CRAN/base64enc app-text/pandoc r_suggests_clipr? ( sci-CRAN/clipr ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_openxlsx? ( sci-CRAN/openxlsx ) r_suggests_png? ( sci-CRAN/png ) r_suggests_qpdf? ( sci-CRAN/qpdf ) r_suggests_rcurl? ( sci-CRAN/RCurl ) r_suggests_rjsonio? ( sci-CRAN/RJSONIO ) r_suggests_tinytex? ( sci-CRAN/tinytex ) r_suggests_tth? ( sci-CRAN/tth ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/exams_2.4-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c2c8aa4333b3244646c0e1fb2344fa06
