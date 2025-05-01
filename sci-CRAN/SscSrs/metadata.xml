@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sample Size Calculator for Estimation of Population Mean and
+		Proportion under SRS // It helps in determination of sample
+		size for estimation of population mean and proportion based
+		upon the availability of prior information on coefficient of
+		variation (CV) of the population under Simple Random Sampling
+		(SRS) with or without replacement sampling design. If there is
+		no prior information on the population CV, then a small
+		preliminary sample of size is selected to estimate the
+		population CV which is then used for determination of final
+		sample size. If the final sample size is more than the
+		preliminary sample size, then the preliminary sample is
+		augmented by drawing additional units from the remaining
+		population units so that the size of the augmented sample is
+		equal to the final sample size. On the other hand, if the
+		preliminary sample size is larger than the final sample size,
+		then the preliminary sample is considered as the final sample.
+	</longdescription>
+</pkgmetadata>

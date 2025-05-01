@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/jsonlite >=dev-lang/R-3.5.0 sci-CRAN/tidyr sci-CRAN/janitor sci-CRAN/stringr sci-CRAN/readr sci-CRAN/rmarkdown sci-CRAN/dplyr sci-CRAN/vroom sci-CRAN/ggplot2 sci-CRAN/httr sci-CRAN/pheatmap sci-CRAN/openssl sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Calculate Genetic Interactions f... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kableextra r_suggests_knitr r_suggests_roxygen2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/magrittr sci-CRAN/jsonlite >=dev-lang/R-3.5.0 sci-CRAN/tidyr sci-CRAN/janitor sci-CRAN/stringr sci-CRAN/readr sci-CRAN/rmarkdown sci-CRAN/dplyr sci-CRAN/vroom sci-CRAN/ggplot2 sci-CRAN/httr sci-CRAN/pheatmap sci-CRAN/openssl sci-CRAN/purrr r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gimap_1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=91bbec9c74110ff281f4e2c3a9271663
