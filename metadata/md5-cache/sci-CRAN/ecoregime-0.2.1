@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/data_table sci-CRAN/ecotraj sci-CRAN/ape sci-CRAN/shape sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Analysis of Ecological Dynamic Regimes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_plotrix r_suggests_primer r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_testthat r_suggests_vegan r_suggests_viridis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/data_table sci-CRAN/ecotraj sci-CRAN/ape sci-CRAN/shape sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plotrix? ( sci-CRAN/plotrix ) r_suggests_primer? ( sci-CRAN/primer ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vegan? ( sci-CRAN/vegan ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ecoregime_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ad02482ae471dd9f7032edee4cb26dcf

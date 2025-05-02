@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/png sci-CRAN/base64enc sci-CRAN/geojsonsf >=dev-lang/R-3.1.0 sci-CRAN/htmlwidgets >=sci-CRAN/htmltools-0.3 sci-CRAN/jsonlite >=sci-CRAN/leaflet-2.0.1 sci-CRAN/raster sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=leaflet Extensions for mapview
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_clipr r_suggests_fontawesome r_suggests_leafgl r_suggests_lwgeom r_suggests_mapdeck r_suggests_plainview r_suggests_stars r_suggests_terra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/png sci-CRAN/base64enc sci-CRAN/geojsonsf >=dev-lang/R-3.1.0 sci-CRAN/htmlwidgets >=sci-CRAN/htmltools-0.3 sci-CRAN/jsonlite >=sci-CRAN/leaflet-2.0.1 sci-CRAN/raster sci-CRAN/sf r_suggests_clipr? ( sci-CRAN/clipr ) r_suggests_fontawesome? ( sci-CRAN/fontawesome ) r_suggests_leafgl? ( sci-CRAN/leafgl ) r_suggests_lwgeom? ( sci-CRAN/lwgeom ) r_suggests_mapdeck? ( sci-CRAN/mapdeck ) r_suggests_plainview? ( sci-CRAN/plainview ) r_suggests_stars? ( sci-CRAN/stars ) r_suggests_terra? ( sci-CRAN/terra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/leafem_0.2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f1c2169c7389610429d74bcc70f34161

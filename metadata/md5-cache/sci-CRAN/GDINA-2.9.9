@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny virtual/MASS sci-CRAN/alabama sci-CRAN/ggplot2 >=dev-lang/R-3.5 sci-CRAN/numDeriv sci-CRAN/nloptr >=sci-CRAN/Rcpp-0.12.1 sci-CRAN/Rsolnp sci-CRAN/shinydashboard dev-lang/R:=
+DESCRIPTION=The Generalized DINA Model Framework
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cdm r_suggests_cdmtools r_suggests_knitr r_suggests_matrix r_suggests_polca r_suggests_rmarkdown r_suggests_stringr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/shiny virtual/MASS sci-CRAN/alabama sci-CRAN/ggplot2 >=dev-lang/R-3.5 sci-CRAN/numDeriv sci-CRAN/nloptr >=sci-CRAN/Rcpp-0.12.1 sci-CRAN/Rsolnp sci-CRAN/shinydashboard sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_cdm? ( sci-CRAN/CDM ) r_suggests_cdmtools? ( sci-CRAN/cdmTools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_polca? ( sci-CRAN/poLCA ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GDINA_2.9.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4c52f15db2548872945d2e98045083a9
