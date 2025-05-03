@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvtnorm virtual/survival >=sci-CRAN/tidyr-1.1 sci-CRAN/eha >=dev-lang/R-3.4.0 sci-CRAN/tibble sci-CRAN/forcats sci-CRAN/broom sci-CRAN/dplyr sci-CRAN/ggplot2 >=sci-CRAN/lifecycle-0.2.0 sci-CRAN/purrr >=sci-CRAN/magrittr-1.5 sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Parametric Survival Simulation w... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_flexsurv r_suggests_knitr r_suggests_rmarkdown r_suggests_survminer r_suggests_testthat r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/mvtnorm virtual/survival >=sci-CRAN/tidyr-1.1 sci-CRAN/eha >=dev-lang/R-3.4.0 sci-CRAN/tibble sci-CRAN/forcats sci-CRAN/broom sci-CRAN/dplyr sci-CRAN/ggplot2 >=sci-CRAN/lifecycle-0.2.0 sci-CRAN/purrr >=sci-CRAN/magrittr-1.5 sci-CRAN/rlang r_suggests_flexsurv? ( >=sci-CRAN/flexsurv-2.2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survminer? ( sci-CRAN/survminer ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/survParamSim_0.1.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0f4e8751b41aa7eefa277cd9a8bc4f9e

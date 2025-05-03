@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Mutexes, Semaphores, and Message Queues // Provides access to
+		low-level operating system mechanisms for performing atomic
+		operations on shared data structures. Mutexes provide shared
+		and exclusive locks. Semaphores act as counters. Message queues
+		move text strings from one process to another. All these
+		interprocess communication (IPC) tools can optionally block
+		with or without a timeout. Implemented using the cross-platform
+		'boost' 'C++' library
+		https://www.boost.org/doc/libs/release/libs/interprocess/.
+	</longdescription>
+</pkgmetadata>

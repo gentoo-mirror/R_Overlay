@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/exactRankTests-0.8.23 >=sci-CRAN/mvtnorm-0.5.10 dev-lang/R:=
+DESCRIPTION=Maximally Selected Rank Statistics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_survival r_suggests_th_data byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/exactRankTests-0.8.23 >=sci-CRAN/mvtnorm-0.5.10 r_suggests_survival? ( virtual/survival ) r_suggests_th_data? ( sci-CRAN/TH_data ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/maxstat_0.7-26.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=17fcd36cfb66c0913a186b0583c3311d
