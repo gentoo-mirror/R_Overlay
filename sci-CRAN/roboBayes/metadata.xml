@@ -4,13 +4,14 @@
 	<longdescription>
 		Robust Online Bayesian Monitoring // An implementation of
 		Bayesian online changepoint detection (Adams and MacKay (2007)
-		arXiv:0710.3742) with an option for probability based outlier
-		detection and removal (Wendelberger et. al. (2021)
-		arXiv:2112.12899). Building on the independent multivariate
-		constant mean model implemented in the 'R' package 'ocp', this
-		package models multivariate data as multivariate normal about a
-		linear trend, defined by user input covariates, with an
-		unstructured error covariance. Changepoints are identified
-		based on a probability threshold for windows of points.
+		doi:10.48550/arXiv.0710.3742) with an option for probability
+		based outlier detection and removal (Wendelberger et. al.
+		(2021) doi:10.48550/arXiv.2112.12899). Building on the
+		independent multivariate constant mean model implemented in the
+		'R' package 'ocp', this package models multivariate data as
+		multivariate normal about a linear trend, defined by user input
+		covariates, with an unstructured error covariance. Changepoints
+		are identified based on a probability threshold for windows of
+		points.
 	</longdescription>
 </pkgmetadata>

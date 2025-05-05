@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fitdistrplus sci-CRAN/lmomco dev-lang/R:=
+DESCRIPTION=Standardized Climate Indices Suc... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_evd byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/fitdistrplus sci-CRAN/lmomco r_suggests_evd? ( sci-CRAN/evd ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SCI_1.0-3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=be62dad504aabe550d7377adee6f96ff

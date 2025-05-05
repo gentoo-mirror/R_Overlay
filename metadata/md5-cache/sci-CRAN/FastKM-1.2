@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rARPACK dev-lang/R:=
+DESCRIPTION=A Fast Multiple-Kernel Method Ba... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_skat r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/rARPACK r_suggests_skat? ( sci-CRAN/SKAT ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FastKM_1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5f965850ee2e983d376644ee99dbce29
