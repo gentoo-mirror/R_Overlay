@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simultaneous Analysis of Multiplexed Metabarcodes // A
+		comprehensive set of wrapper functions for the analysis of
+		multiplex metabarcode data. It includes robust wrappers for
+		'Cutadapt' and 'DADA2' to trim primers, filter reads, perform
+		amplicon sequence variant (ASV) inference, and assign taxonomy.
+		The package can handle single metabarcode datasets, datasets
+		with two pooled metabarcodes, or multiple datasets
+		simultaneously. The final output is a matrix per metabarcode,
+		containing both ASV abundance data and associated taxonomic
+		assignments. An optional function converts these matrices into
+		'phyloseq' and 'taxmap' objects. For more information on
+		'DADA2', including information on how DADA2 infers samples
+		sequences, see Callahan et al. (2016) doi:10.1038/nmeth.3869.
+		For more details on the demulticoder R package see Sudermann et
+		al. (2025) doi:10.1094/PHYTO-02-25-0043-FI.
+	</longdescription>
+</pkgmetadata>

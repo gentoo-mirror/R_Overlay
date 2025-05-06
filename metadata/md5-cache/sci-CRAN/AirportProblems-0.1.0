@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/plotly sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Analysis of Cost Allocation for Airport Problems
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/plotly sci-CRAN/magrittr r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AirportProblems_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=53cf5bd7a1cc19d23a2b04f928e8ab51

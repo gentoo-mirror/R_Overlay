@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2 sci-CRAN/httr sci-CRAN/sf sci-CRAN/terra sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Interface to the HWSD Web Services
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_markdown r_suggests_ncdf4 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=>=dev-lang/R-4.2 sci-CRAN/httr sci-CRAN/sf sci-CRAN/terra sci-CRAN/dplyr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_ncdf4? ( sci-CRAN/ncdf4 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hwsdr_1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=103f8dec36064389171d649665680e70

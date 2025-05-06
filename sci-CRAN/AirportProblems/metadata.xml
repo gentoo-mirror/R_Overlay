@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Analysis of Cost Allocation for Airport Problems // Airport
+		problems, introduced by Littlechild and Owen (1973)
+		https://www.jstor.org/stable/2629727, are cost allocation
+		problems where agents share the cost of a facility (or service)
+		based on their ordered needs. Valid allocations must satisfy
+		no-subsidy constraints, meaning that no group of agents
+		contributes more than the highest cost of its members (i.e., no
+		agent is allowed to subsidize another). A rule is a mechanism
+		that selects an allocation vector for a given problem. This
+		package computes several rules proposed in the literature,
+		including both standard rules and their variants, such as
+		weighted versions, rules for clones, and rules based on the
+		agents hierarchy order. These rules can be applied to various
+		problems of interest, including the allocation of liabilities
+		and the maintenance of irrigation systems, among others.
+		Moreover, the package provides functions for graphical
+		representation, enabling users to visually compare the outcomes
+		produced by each rule, or to display the no-subsidy set. In
+		addition, it includes four datasets illustrating different
+		applications and examples of airport problems. For a more
+		detailed explanation of all concepts, see Thomson (2024)
+		doi:10.1016/j.mathsocsci.2024.03.007.
+	</longdescription>
+</pkgmetadata>

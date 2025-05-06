@@ -2,18 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Impute and Analyze Data with BLOQ Observations // It includes
-		estimating the area under the concentrations versus time curve
-		(AUC) and its standard error for data with Below the Limit of
-		Quantification (BLOQ) observations. Two approaches are
-		implemented: direct estimation using censored maximum
-		likelihood, also by first imputing the BLOQ's using various
-		methods, then compute AUC and its standard error using imputed
-		data. Technical details can found in Barnett, Helen Yvette,
-		Helena Geys, Tom Jacobs, and Thomas Jaki. "Methods for Non-
+		Methods to Impute and Analyze Data with BLOQ Observations //
+		Provides methods for estimating the area under the
+		concentration versus time curve (AUC) and its standard error in
+		the presence of Below the Limit of Quantification (BLOQ)
+		observations. Two approaches are implemented: direct estimation
+		using censored maximum likelihood, and a two-step approach that
+		first imputes BLOQ values using various methods and then
+		computes the AUC using the imputed data. Technical details are
+		described in Barnett et al. (2020), "Methods for Non-
 		Compartmental Pharmacokinetic Analysis With Observations Below
-		the Limit of Quantification." Statistics in Biopharmaceutical
-		Research (2020): 1-12. (available online: https://www.tandfonli
-		ne.com/doi/full/10.1080/19466315.2019.1701546).
+		the Limit of Quantification," Statistics in Biopharmaceutical
+		Research. doi:10.1080/19466315.2019.1701546.
 	</longdescription>
 </pkgmetadata>
