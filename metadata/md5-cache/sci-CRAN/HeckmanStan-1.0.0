@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/loo >=sci-CRAN/mvtnorm-1.2.3 >=sci-CRAN/rstan-2.26.23 dev-lang/R:=
+DESCRIPTION=Heckman Selection Models Based o... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/loo >=sci-CRAN/mvtnorm-1.2.3 >=sci-CRAN/rstan-2.26.23 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/HeckmanStan_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=eea9e482595a3cc18d7ac3505fcc1e26

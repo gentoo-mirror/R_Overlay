@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/terra dev-lang/R:=
+DESCRIPTION=Spatial Prediction Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_disdat r_suggests_rjava byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/terra r_suggests_disdat? ( sci-CRAN/disdat ) r_suggests_rjava? ( sci-CRAN/rJava ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/predicts_0.1-19.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2c3e9f296de68ce9281831ead9068595
