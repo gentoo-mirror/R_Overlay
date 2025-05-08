@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 virtual/MASS sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/jsonlite sci-CRAN/dygraphs sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Electric Vehicle Charging Sessions Simulation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5 virtual/MASS sci-CRAN/lubridate sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/jsonlite sci-CRAN/dygraphs sci-CRAN/ggplot2 r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/evsim_1.6.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=add8e602e36278e083d6009047d8827f

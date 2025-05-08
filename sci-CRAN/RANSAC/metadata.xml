@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Robust Model Fitting Using the RANSAC Algorithm // Provides tools
+		for robust regression model fitting using the RANSAC (Random
+		Sample Consensus) algorithm. RANSAC is an iterative method to
+		estimate parameters of a model from a dataset that contains
+		outliers. This package allows fitting both linear lm and
+		nonlinear nls models using RANSAC, helping users obtain more
+		reliable models in the presence of noisy or corrupted data. The
+		methods are particularly useful in contexts where traditional
+		least squares regression fails due to the influence of
+		outliers. Implementations include support for performance
+		metrics such as RMSE, MAE, and R based on the inlier subset.
+		For further details, see Fischler and Bolles (1981)
+		doi:10.1145/358669.358692.
+	</longdescription>
+</pkgmetadata>

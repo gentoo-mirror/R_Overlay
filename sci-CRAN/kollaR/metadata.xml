@@ -2,14 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Filtering, Visualization and Analysis of Eye Tracking Data //
-		Functions for analysing eye tracking data, including event
-		detection (I-VT, I-DT and two means clustering), visualizations
-		and area of interest (AOI) based analyses. See separate
+		Event Classification, Visualization and Analysis of Eye Tracking
+		Data // Functions for analysing eye tracking data, including
+		event detection, visualizations and area of interest (AOI)
+		based analyses. The package includes implementations of the
+		IV-T, I-DT, adaptive velocity threshold, and Identification by
+		two means clustering (I2MC) algorithms. See separate
 		documentation for each function. The principles underlying I-VT
-		and I-DT filters are described in Salvucci  Goldberg
+		and I-DT algorithms are described in   Salvucci  Goldberg
 		(2000,\doi{10.1145/355017.355028}). Two-means clustering is
 		described in Hessels et al. (2017,
-		\doi{10.3758/s13428-016-0822-1}).
+		\doi{10.3758/s13428-016-0822-1}). The adaptive velocity
+		threshold algorithm is described in Nystrm  Holmqvist
+		(2010,\doi{10.3758/BRM.42.1.188}). See a demonstration in the
+		URL.
 	</longdescription>
 </pkgmetadata>
