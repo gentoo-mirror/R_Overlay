@@ -4,14 +4,18 @@
 	<longdescription>
 		Sequential Permutation Testing of Random Forest Variable
 		Importance Measures // Sequential permutation testing for
-		statistical significance of predictors in random forests. The
-		main function of the package is rfvimptest(), which allows to
-		test for the statistical significance of predictors in random
-		forests using different (sequential) permutation test
-		strategies. The advantage of sequential over conventional
-		permutation tests is that they are computationally considerably
-		less intensive, as the sequential procedure is stopped as soon
-		as there is sufficient evidence for either the null or the
-		alternative hypothesis.
+		statistical significance of predictors in random forests and
+		other prediction methods. The main function of the package is
+		rfvimptest(), which allows to test for the   statistical
+		significance of predictors in random forests using different
+		(sequential) permutation test strategies [1]. The advantage of
+		sequential over conventional permutation tests is that they are
+		computationally considerably less intensive, as the sequential
+		procedure is stopped as soon as there is sufficient evidence
+		for either the null or the alternative hypothesis. Reference:
+		[1] Hapfelmeier, A., Hornung, R.  Haller, B. (2023) Efficient
+		permutation testing of variable importance measures by the
+		example of random forests. Computational Statistics  Data
+		Analysis 181:107689, doi:10.1016/j.csda.2022.107689.
 	</longdescription>
 </pkgmetadata>

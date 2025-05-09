@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/lme4-1.0 sci-CRAN/crayon virtual/Matrix dev-lang/R:=
+DESCRIPTION=Relationship-Based Mixed-Effects Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_orthopolynom r_suggests_rmarkdown r_suggests_rspectra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 >=sci-CRAN/lme4-1.0 sci-CRAN/crayon virtual/Matrix r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_orthopolynom? ( sci-CRAN/orthopolynom ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rspectra? ( sci-CRAN/RSpectra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lme4breeding_1.0.62.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b094ca0f2b3858f76d7b0ef307144c7b

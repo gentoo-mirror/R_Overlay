@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/cluster sci-CRAN/xts sci-CRAN/sp sci-CRAN/spacetime sci-CRAN/lme4 dev-lang/R:=
+DESCRIPTION=Model-Based Detection of Disease Clusters
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gridextra r_suggests_lattice r_suggests_pscl r_suggests_rcolorbrewer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 virtual/cluster sci-CRAN/xts sci-CRAN/sp sci-CRAN/spacetime sci-CRAN/lme4 r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_lattice? ( virtual/lattice ) r_suggests_pscl? ( sci-CRAN/pscl ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DClusterm_1.0-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b8dc61b23c6d2d8a64a9d2c608f7f143
