@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variational Multivariate Spatial Small Area Estimation //
+		Variational Autoencoded Multivariate Spatial Fay-Herriot models
+		are designed to efficiently estimate population parameters in
+		small area estimation. This package implements the variational
+		generalized multivariate spatial Fay-Herriot model (VGMSFH)
+		using 'NumPyro' and 'PyTorch' backends, as demonstrated by
+		Wang, Parker, and Holan (2025) doi:10.48550/arXiv.2503.14710.
+		The 'vmsae' package provides utility functions to load weights
+		of the pretrained variational autoencoders (VAEs) as well as
+		tools to train custom VAEs tailored to users specific
+		applications.
+	</longdescription>
+</pkgmetadata>

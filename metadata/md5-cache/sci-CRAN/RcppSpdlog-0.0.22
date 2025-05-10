@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=R and C++ Interfaces to spdlog C... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_simplermarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_simplermarkdown? ( sci-CRAN/simplermarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcppSpdlog_0.0.22.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2db77a02b1b54f6bd8101c2b74d1bb76

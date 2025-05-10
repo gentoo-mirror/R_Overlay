@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/dplyr >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/cli sci-CRAN/forcats sci-CRAN/glue sci-CRAN/ISOweek sci-CRAN/lubridate sci-CRAN/rlang >=sci-CRAN/scales-1.4.0 sci-CRAN/tidyselect sci-CRAN/tidyr sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Tools for Outbreak Investigation... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggrepel r_suggests_hmisc r_suggests_knitr r_suggests_outbreaks r_suggests_plotly r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_tsibble r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/dplyr >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/cli sci-CRAN/forcats sci-CRAN/glue sci-CRAN/ISOweek sci-CRAN/lubridate sci-CRAN/rlang >=sci-CRAN/scales-1.4.0 sci-CRAN/tidyselect sci-CRAN/tidyr sci-CRAN/stringr r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_outbreaks? ( sci-CRAN/outbreaks ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tsibble? ( sci-CRAN/tsibble ) r_suggests_vdiffr? ( >=sci-CRAN/vdiffr-1.0.8 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggsurveillance_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=89a64a812f531401f7dbcdf8baa9d368
