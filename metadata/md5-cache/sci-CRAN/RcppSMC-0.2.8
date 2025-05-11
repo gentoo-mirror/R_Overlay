@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.11.0 sci-CRAN/FKF dev-lang/R:=
+DESCRIPTION=Rcpp Bindings for Sequential Monte Carlo
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_pkgkitten byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-0.11.0 sci-CRAN/FKF sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_pkgkitten? ( >=sci-CRAN/pkgKitten-0.2.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcppSMC_0.2.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2317dc3ccc374b74322a80163ce572e4
