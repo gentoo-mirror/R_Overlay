@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/Rsolnp virtual/nnet virtual/nlme virtual/MASS dev-lang/R:=
+DESCRIPTION=Dependent Mixture Models - Hidde... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gamlss r_suggests_gamlss_dist byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/Rsolnp virtual/nnet virtual/nlme virtual/MASS r_suggests_gamlss? ( sci-CRAN/gamlss ) r_suggests_gamlss_dist? ( sci-CRAN/gamlss_dist ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/depmixS4_1.5-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fd6dc246bd14c25026a3d7402f30025d
