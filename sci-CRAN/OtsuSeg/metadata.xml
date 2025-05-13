@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Raster Thresholding Using Otsus Algorithm // Provides tools to
+		process raster data and apply Otsu-based thresholding for
+		burned area mapping and other image segmentation tasks.
+		Implements the method described by Otsu (1979)
+		doi:10.1109/TSMC.1979.4310076, a data-driven technique that
+		determines an optimal threshold by maximizing the inter-class
+		variance of pixel intensities. It includes validation functions
+		to assess segmentation accuracy against reference data using
+		standard accuracy metrics such as precision, recall, and
+		F1-score.
+	</longdescription>
+</pkgmetadata>

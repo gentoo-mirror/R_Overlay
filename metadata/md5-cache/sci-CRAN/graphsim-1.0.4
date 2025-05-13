@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix virtual/Matrix sci-CRAN/igraph sci-CRAN/gplots sci-CRAN/mvtnorm dev-lang/R:=
+DESCRIPTION=Simulate Expression Data from igraph Networks
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr r_suggests_markdown r_suggests_prettydoc r_suggests_r_rsp r_suggests_rmarkdown r_suggests_scales r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix virtual/Matrix sci-CRAN/igraph sci-CRAN/gplots sci-CRAN/mvtnorm r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.5 ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/graphsim_1.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=511b5167650dada0d576d7ac79f565f9
