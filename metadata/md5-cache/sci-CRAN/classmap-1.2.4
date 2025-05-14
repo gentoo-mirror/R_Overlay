@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/rpart sci-CRAN/randomForest sci-CRAN/robustbase >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/e1071 sci-CRAN/cellWise virtual/cluster sci-CRAN/kernlab sci-CRAN/gridExtra dev-lang/R:=
+DESCRIPTION=Visualizing Classification Results
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_nnet r_suggests_reshape2 r_suggests_robcompositions r_suggests_rpart r_suggests_svd byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/rpart sci-CRAN/randomForest sci-CRAN/robustbase >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/e1071 sci-CRAN/cellWise virtual/cluster sci-CRAN/kernlab sci-CRAN/gridExtra r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nnet? ( virtual/nnet ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_robcompositions? ( sci-CRAN/robCompositions ) r_suggests_rpart? ( virtual/rpart ) r_suggests_svd? ( sci-CRAN/svd ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/classmap_1.2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=92315af1fd6d9324739f2a6c9f9d18aa

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rugarch sci-CRAN/RcppHungarian sci-CRAN/tspredit sci-CRAN/wavelets sci-CRAN/daltoolbox sci-CRAN/strucchange >=dev-lang/R-4.1.0 sci-CRAN/dtwclust sci-CRAN/dplyr sci-CRAN/changepoint sci-CRAN/forecast sci-CRAN/ggplot2 sci-CRAN/hht sci-CRAN/tsmp sci-CRAN/zoo sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=A Unified Time Series Event Detection Framework
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rugarch sci-CRAN/RcppHungarian sci-CRAN/tspredit sci-CRAN/wavelets sci-CRAN/daltoolbox sci-CRAN/strucchange >=dev-lang/R-4.1.0 sci-CRAN/dtwclust sci-CRAN/dplyr sci-CRAN/changepoint sci-CRAN/forecast sci-CRAN/ggplot2 sci-CRAN/hht sci-CRAN/tsmp sci-CRAN/zoo sci-CRAN/stringr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/harbinger_1.2.707.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bf5f7f8380bff69fc095d6b4d1083afe
