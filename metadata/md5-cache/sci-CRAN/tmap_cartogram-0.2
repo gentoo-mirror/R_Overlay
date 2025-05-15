@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/sf >=sci-CRAN/tmap-4.1 sci-CRAN/cartogram dev-lang/R:=
+DESCRIPTION=Extension to tmap for Creating Cartograms
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_transformr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/sf >=sci-CRAN/tmap-4.1 sci-CRAN/cartogram r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_transformr? ( sci-CRAN/transformr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tmap.cartogram_0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4ac92414c903b8d64a0bba3c7dc9bc13

@@ -2,11 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Transfer 'REDCap' Data to 'DuckDB' // Provides a single function
-		to transfer 'REDCap' (Research Electronic Data Capture) data to
-		a 'DuckDB' database. Processes data in chunks to handle large
-		datasets while minimizing memory usage. Features include
-		resuming incomplete transfers, converting column types,
-		tracking progress, logging operations in the database.
+		Transfer 'REDCap' Data to Database // Transfer 'REDCap' (Research
+		Electronic Data Capture) data to a database with additional
+		support for 'DuckDB'. Processes data in chunks to handle large
+		datasets without exceeding available memory. Features include
+		resuming incomplete transfers, automatically converting data
+		types for 'DuckDB', tracking progress, and logging operations
+		in the database.
 	</longdescription>
 </pkgmetadata>

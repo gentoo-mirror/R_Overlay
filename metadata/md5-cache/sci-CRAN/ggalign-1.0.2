@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-3.5.0 sci-CRAN/rlang sci-CRAN/gtable >=sci-CRAN/vctrs-0.5.0 sci-CRAN/cli sci-CRAN/scales sci-CRAN/lifecycle dev-lang/R:=
+DESCRIPTION=A ggplot2 Extension for Consistent Axis Alignment
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gridgraphics r_suggests_magick r_suggests_ragg r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/ggplot2-3.5.0 sci-CRAN/rlang sci-CRAN/gtable >=sci-CRAN/vctrs-0.5.0 sci-CRAN/cli sci-CRAN/scales sci-CRAN/lifecycle r_suggests_gridgraphics? ( sci-CRAN/gridGraphics ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_ragg? ( sci-CRAN/ragg ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggalign_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8f19c80c176a1b6cf8e687b6fcf189e1
