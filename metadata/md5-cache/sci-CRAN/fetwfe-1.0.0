@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/expm sci-CRAN/grpreg sci-CRAN/glmnet virtual/Matrix dev-lang/R:=
+DESCRIPTION=Fused Extended Two-Way Fixed Effects
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bacondecomp r_suggests_dplyr r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/expm sci-CRAN/grpreg sci-CRAN/glmnet virtual/Matrix r_suggests_bacondecomp? ( sci-CRAN/bacondecomp ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fetwfe_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=06a08437f9982513d82ad8f16dc74c67

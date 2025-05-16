@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.2 sci-CRAN/spatstat_geom sci-CRAN/spatstat_random sci-CRAN/spatstat_explore dev-lang/R:=
+DESCRIPTION=Pseudo Anova for K-Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devore7 r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2.2 sci-CRAN/spatstat_geom sci-CRAN/spatstat_random sci-CRAN/spatstat_explore r_suggests_devore7? ( sci-CRAN/Devore7 ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/kanova_0.3-17.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5bae36670768482017aec39af3f5d760

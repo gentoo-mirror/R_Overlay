@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/numDeriv-2006.4.1 >=sci-CRAN/deSolve-1.10.6 >=sci-CRAN/mathjaxr-0.8.3 dev-lang/R:=
+DESCRIPTION=Time-Dependent Sensitivity Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/numDeriv-2006.4.1 >=sci-CRAN/deSolve-1.10.6 >=sci-CRAN/mathjaxr-0.8.3 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tdsa_1.1-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=327f4240d4fef81a529b5310ea23fe86

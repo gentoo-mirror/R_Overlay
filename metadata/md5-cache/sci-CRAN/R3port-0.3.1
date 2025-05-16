@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/plyr sci-CRAN/tinytex sci-CRAN/whisker sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Report Functions to Create HTML and PDF Files
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_lifecycle r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/plyr sci-CRAN/tinytex sci-CRAN/whisker sci-CRAN/reshape2 r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lifecycle? ( sci-CRAN/lifecycle ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/R3port_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b1793cff7d4571e72a7671a159337bfc
