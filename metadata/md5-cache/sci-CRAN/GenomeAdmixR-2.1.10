@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/ggridges sci-CRAN/RcppParallel sci-CRAN/hierfstat sci-CRAN/Rcpp sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/vcfR dev-lang/R:=
+DESCRIPTION=Simulate Admixture of Genomes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_junctions r_suggests_knitr r_suggests_magrittr r_suggests_pbapply r_suggests_rmarkdown r_suggests_testit r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/ggridges sci-CRAN/RcppParallel sci-CRAN/hierfstat sci-CRAN/Rcpp sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tibble sci-CRAN/vcfR sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppParallel r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_junctions? ( sci-CRAN/junctions ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_pbapply? ( sci-CRAN/pbapply ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testit? ( sci-CRAN/testit ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GenomeAdmixR_2.1.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f111bc839034d34cae76486819e26701

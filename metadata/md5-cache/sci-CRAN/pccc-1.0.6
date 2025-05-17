@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/Rcpp-1.0.11 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Pediatric Complex Chronic Conditions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_readr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/Rcpp-1.0.11 sci-CRAN/tibble >=sci-CRAN/Rcpp-1.0.11 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pccc_1.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=14bb776d2f09034de8fff3dd18c8b8c1

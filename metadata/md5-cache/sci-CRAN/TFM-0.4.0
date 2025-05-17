@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/MASS sci-CRAN/SOPC sci-CRAN/mvtnorm sci-CRAN/relliptical virtual/Matrix dev-lang/R:=
+DESCRIPTION=Sparse Online Principal Componen... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_psych r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 virtual/MASS sci-CRAN/SOPC sci-CRAN/mvtnorm sci-CRAN/relliptical virtual/Matrix r_suggests_psych? ( sci-CRAN/psych ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TFM_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=eb6906c5219f7b4eea5f01e795ba8767

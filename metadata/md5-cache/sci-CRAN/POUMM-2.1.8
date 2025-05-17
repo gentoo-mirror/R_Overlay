@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/adaptMCMC sci-CRAN/Rcpp >=dev-lang/R-3.1.0 >=sci-CRAN/data_table-1.13.2 sci-CRAN/ape sci-CRAN/coda sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/lamW dev-lang/R:=
+DESCRIPTION=The Phylogenetic Ornstein-Uhlenbeck Mixed Model
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_knitr r_suggests_lmtest r_suggests_mvtnorm r_suggests_rmarkdown r_suggests_rmpfr r_suggests_testthat r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/adaptMCMC sci-CRAN/Rcpp >=dev-lang/R-3.1.0 >=sci-CRAN/data_table-1.13.2 sci-CRAN/ape sci-CRAN/coda sci-CRAN/foreach sci-CRAN/ggplot2 sci-CRAN/lamW sci-CRAN/Rcpp r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rmpfr? ( sci-CRAN/Rmpfr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/POUMM_2.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f26728ad69986cdd2e118b770e14ebd4

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Density Equality Testing // Methods for testing the equality
+		between groups of estimated density functions. The package
+		implements FDET (Fourier-based Density Equality Testing) and
+		MDET (Moment-based Density Equality Testing), two new
+		approaches introduced by the author. Both methods extend an
+		earlier testing approach by Delicado (2007), "Functional
+		k-sample problem when data are density functions"
+		doi:10.1007/s00180-007-0047-y, which is referred to as DET
+		(Density Equality Testing) in this package for clarity. FDET
+		compares groups of densities based on their global shape using
+		Fourier transforms, while MDET tests for differences in
+		distributional moments. All methods are described in Anarat,
+		Krutmann and Schwender (2025), "Testing for Differences in
+		Extrinsic Skin Aging Based on Density Functions" (Submitted).
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/checkmate >=sci-CRAN/Rcpp-1.0.7 dev-lang/R:=
+DESCRIPTION=HiGHS Optimization Solver
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/checkmate >=sci-CRAN/Rcpp-1.0.7 sci-CRAN/Rcpp dev-util/cmake virtual/pkgconfig r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/highs_1.10.0-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3a98155aac47a26faba3ae74c1f46d79

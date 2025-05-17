@@ -4,10 +4,12 @@
 	<longdescription>
 		Gradient Boosting for Generalized Additive Mixed Models //
 		Provides a novel framework to estimate mixed models via
-		gradient boosting. The implemented functions are based on
-		'mboost' and 'lme4'. Hence, the family range is predetermined
-		by 'lme4'. A correction mechanism for cluster-constant
-		covariates is implemented as well as an estimation of random
-		effects' covariance.
+		gradient boosting. The implemented functions are based on the
+		'mboost' and 'lme4' packages, and the family range is therefore
+		determined by 'lme4'. A correction mechanism for cluster-
+		constant covariates is implemented, as well as estimation of
+		the covariance of random effects. These methods are described
+		in the accompanying publication; see
+		doi:10.1007/s11222-025-10612-y for details.
 	</longdescription>
 </pkgmetadata>
