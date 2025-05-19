@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/geos sci-CRAN/isoband >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/colorspace >=sci-CRAN/ks-1.15.0 sci-CRAN/lwgeom sci-CRAN/mapsf sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=Tidy and Geospatial Kernel Smoothing
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggquiver r_suggests_ggthemes r_suggests_knitr r_suggests_mass r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=sci-CRAN/dplyr sci-CRAN/geos sci-CRAN/isoband >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/colorspace >=sci-CRAN/ks-1.15.0 sci-CRAN/lwgeom sci-CRAN/mapsf sci-CRAN/sf r_suggests_ggquiver? ( sci-CRAN/ggquiver ) r_suggests_ggthemes? ( sci-CRAN/ggthemes ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/eks_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=692f1c4148a73af1372fadb3cd04cf70

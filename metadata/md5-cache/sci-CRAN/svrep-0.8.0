@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/mvtnorm virtual/Matrix sci-CRAN/sampling sci-CRAN/DBI >=sci-CRAN/survey-4.1 dev-lang/R:=
+DESCRIPTION=Tools for Creating, Updating, an... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_knitr r_suggests_prettydoc r_suggests_rmarkdown r_suggests_rsqlite r_suggests_srvyr r_suggests_testthat r_suggests_tidycensus r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/mvtnorm virtual/Matrix sci-CRAN/sampling sci-CRAN/DBI >=sci-CRAN/survey-4.1 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_srvyr? ( sci-CRAN/srvyr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidycensus? ( sci-CRAN/tidycensus ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/svrep_0.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=128d964287ca3e97e6603245d4b504a2
