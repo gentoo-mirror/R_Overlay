@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/httr2 sci-CRAN/cli sci-CRAN/lifecycle sci-CRAN/glue sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Calculate Standardized Morphine ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_httptest2 r_suggests_spelling r_suggests_testthat r_suggests_tibble r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/httr2 sci-CRAN/cli sci-CRAN/lifecycle sci-CRAN/glue sci-CRAN/rlang r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_httptest2? ( >=sci-CRAN/httptest2-1.1.0 ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mmequiv_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e6f78bf914c39849581bf5edc8b936d3
