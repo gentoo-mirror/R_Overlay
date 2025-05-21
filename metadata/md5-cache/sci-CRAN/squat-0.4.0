@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/future_apply sci-CRAN/fdasrvf sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/roahd sci-CRAN/tibble sci-CRAN/rlang sci-CRAN/Rcpp sci-CRAN/MFPCA sci-CRAN/progressr >=dev-lang/R-4.2.0 virtual/cluster sci-CRAN/dbscan sci-CRAN/dtw sci-CRAN/funData sci-CRAN/ggrepel sci-CRAN/scales sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Statistics for Quaternion Temporal Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_future r_suggests_gganimate r_suggests_gghighlight r_suggests_testthat r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/future_apply sci-CRAN/fdasrvf sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/roahd sci-CRAN/tibble sci-CRAN/rlang sci-CRAN/Rcpp sci-CRAN/MFPCA sci-CRAN/progressr >=dev-lang/R-4.2.0 virtual/cluster sci-CRAN/dbscan sci-CRAN/dtw sci-CRAN/funData sci-CRAN/ggrepel sci-CRAN/scales sci-CRAN/cli sci-CRAN/Rcpp sci-CRAN/RcppEigen sci-CRAN/RcppArmadillo virtual/cluster r_suggests_covr? ( sci-CRAN/covr ) r_suggests_future? ( sci-CRAN/future ) r_suggests_gganimate? ( sci-CRAN/gganimate ) r_suggests_gghighlight? ( sci-CRAN/gghighlight ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/squat_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a5d02c5079014e894cf20b82bdfb8bd2

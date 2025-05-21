@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 sci-CRAN/dplyr sci-CRAN/DiagrammeR sci-CRAN/gtools sci-CRAN/data_tree virtual/MASS sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/tidyselect dev-lang/R:=
+DESCRIPTION=Perform the Weighted Multiplier Method on Trees
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.3.0 sci-CRAN/dplyr sci-CRAN/DiagrammeR sci-CRAN/gtools sci-CRAN/data_tree virtual/MASS sci-CRAN/rlang sci-CRAN/magrittr sci-CRAN/tidyselect r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AutoWMM_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=767513b06b11b674df940362f1efd805

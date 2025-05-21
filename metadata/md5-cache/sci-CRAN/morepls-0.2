@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/pls sci-CRAN/ggrepel dev-lang/R:=
+DESCRIPTION=Interpretation Tools for Partial... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggforce r_suggests_plsvarsel byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/ggplot2 sci-CRAN/rlang sci-CRAN/pls sci-CRAN/ggrepel r_suggests_ggforce? ( sci-CRAN/ggforce ) r_suggests_plsvarsel? ( sci-CRAN/plsVarSel ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/morepls_0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=00ed9b71f1909f0f9c4f39cd0e33e9ca

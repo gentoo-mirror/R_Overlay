@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/polyclip-1.10 >=sci-CRAN/spatstat_utils-3.1.4 >=sci-CRAN/spatstat_univar-3.1 >=dev-lang/R-3.5.0 >=sci-CRAN/spatstat_data-3.1 >=sci-CRAN/deldir-1.0.2 dev-lang/R:=
+DESCRIPTION=Geometrical Functionality of the spatstat Family
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fftwtools r_suggests_nnet r_suggests_spatial r_suggests_spatstat r_suggests_spatstat_explore r_suggests_spatstat_model r_suggests_spatstat_random byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/polyclip-1.10 >=sci-CRAN/spatstat_utils-3.1.4 >=sci-CRAN/spatstat_univar-3.1 >=dev-lang/R-3.5.0 >=sci-CRAN/spatstat_data-3.1 >=sci-CRAN/deldir-1.0.2 r_suggests_fftwtools? ( >=sci-CRAN/fftwtools-0.9.8 ) r_suggests_nnet? ( virtual/nnet ) r_suggests_spatial? ( virtual/spatial ) r_suggests_spatstat? ( >=sci-CRAN/spatstat-3.3 ) r_suggests_spatstat_explore? ( >=sci-CRAN/spatstat_explore-3.3 ) r_suggests_spatstat_model? ( >=sci-CRAN/spatstat_model-3.3 ) r_suggests_spatstat_random? ( >=sci-CRAN/spatstat_random-3.3 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatstat.geom_3.4-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=07267141f19d530f48995de4cdf4bea1
