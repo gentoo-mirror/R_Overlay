@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Chauvenet-Type Boxplot // Provides a modified boxplot with a new
+		fence coefficient determined by Lin et al. (2025). The
+		traditional fence coefficient k=1.5 in Tukey's boxplot is
+		replaced by a coefficient based on Chauvenet's criterion, as
+		described in their formula (9). The new boxplot can be
+		implemented in 'base R' with function chau_boxplot(), and in
+		'ggplot2' with function geom_chau_boxplot().
+	</longdescription>
+</pkgmetadata>

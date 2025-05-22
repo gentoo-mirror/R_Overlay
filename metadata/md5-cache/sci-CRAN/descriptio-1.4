@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/ggplot2 virtual/MASS sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Descriptive Statistical Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_broom_helpers r_suggests_cardx r_suggests_ggally r_suggests_ggpattern r_suggests_gt r_suggests_gtsummary r_suggests_marginaleffects r_suggests_paletteer r_suggests_parameters r_suggests_scales r_suggests_survey byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/ggplot2 virtual/MASS sci-CRAN/rlang r_suggests_broom_helpers? ( sci-CRAN/broom_helpers ) r_suggests_cardx? ( >=sci-CRAN/cardx-0.2.4 ) r_suggests_ggally? ( sci-CRAN/GGally ) r_suggests_ggpattern? ( sci-CRAN/ggpattern ) r_suggests_gt? ( sci-CRAN/gt ) r_suggests_gtsummary? ( sci-CRAN/gtsummary ) r_suggests_marginaleffects? ( sci-CRAN/marginaleffects ) r_suggests_paletteer? ( sci-CRAN/paletteer ) r_suggests_parameters? ( sci-CRAN/parameters ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_survey? ( sci-CRAN/survey ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/descriptio_1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d87bce3316eb1e9ce8bd4d5a3d7a5b34
