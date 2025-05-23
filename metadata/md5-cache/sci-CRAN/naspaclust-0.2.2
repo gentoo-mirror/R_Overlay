@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/stabledist sci-CRAN/Rdpack sci-CRAN/rdist sci-CRAN/beepr dev-lang/R:=
+DESCRIPTION=Nature-Inspired Spatial Clustering
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cluster r_suggests_ggplot2 r_suggests_ppclust byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/stabledist sci-CRAN/Rdpack sci-CRAN/rdist sci-CRAN/beepr r_suggests_cluster? ( virtual/cluster ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ppclust? ( sci-CRAN/ppclust ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/naspaclust_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=991327a0e417be9d0e61e8a302a48d1c

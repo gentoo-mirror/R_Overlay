@@ -2,14 +2,9 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Reduce the Number of Holes in the School Timetable // If a
-		teacher was assigned, say, hours 1, 2, 4, 6 for his lessons on
-		the current day, then he got two "gaps" (or "holes"), in hours
-		3 and 5. If the total number of holes in the existing daily
-		schedule is too large (exceeding, say, 6% of the total
-		lessons), then the problem arises of reallocating the
-		respective lessons by hours (respecting the constraints induced
-		by the existence of coupled lessons) so that the total number
-		of holes is as small as possible.
+		Reduce the Number of Holes in the School Timetable //
+		Reallocating the respective lessons by hours (respecting the
+		constraints induced by the existence of coupled lessons) so
+		that the total number of gaps is as small as possible.
 	</longdescription>
 </pkgmetadata>

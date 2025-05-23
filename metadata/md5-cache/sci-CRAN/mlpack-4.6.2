@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 >=sci-CRAN/Rcpp-0.12.12 dev-lang/R:=
+DESCRIPTION=Rcpp Integration for the mlpack Library
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=>=dev-lang/R-4.3.0 >=sci-CRAN/Rcpp-0.12.12 sci-CRAN/Rcpp >=sci-CRAN/RcppArmadillo-0.10.8.2 >=sci-CRAN/RcppEnsmallen-0.2.10.0 r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlpack_4.6.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b29d8c2e203d80162a33bbd317558b24

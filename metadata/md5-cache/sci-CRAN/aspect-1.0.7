@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 dev-lang/R:=
+DESCRIPTION=A General Framework for Multivar... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_polycor r_suggests_sem byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.0.0 r_suggests_polycor? ( sci-CRAN/polycor ) r_suggests_sem? ( sci-CRAN/sem ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/aspect_1.0-7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b2e4ecb53509130262b387157551612a

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/foreach-1.5.0 sci-CRAN/iterators >=sci-CRAN/future-1.49.0 sci-CRAN/globals sci-CRAN/future_apply dev-lang/R:=
+DESCRIPTION=Use Foreach to Parallelize via t... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dorng r_suggests_markdown r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1+
+RDEPEND=>=sci-CRAN/foreach-1.5.0 sci-CRAN/iterators >=sci-CRAN/future-1.49.0 sci-CRAN/globals sci-CRAN/future_apply r_suggests_dorng? ( >=sci-CRAN/doRNG-1.8.2 ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/doFuture_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e62b9118054afb2a06ea56bdf17c45cb
