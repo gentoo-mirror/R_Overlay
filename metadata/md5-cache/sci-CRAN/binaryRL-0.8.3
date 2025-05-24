@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/doRNG sci-CRAN/future sci-CRAN/doFuture sci-CRAN/foreach sci-CRAN/progressr dev-lang/R:=
+DESCRIPTION=Reinforcement Learning Tools for... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cmaes r_suggests_deoptim r_suggests_dicekriging r_suggests_ga r_suggests_gensa r_suggests_lhs r_suggests_mlr r_suggests_mlrmbo r_suggests_nloptr r_suggests_paramhelpers r_suggests_pso r_suggests_rgenoud r_suggests_smoof r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/doRNG sci-CRAN/future sci-CRAN/doFuture sci-CRAN/foreach sci-CRAN/progressr r_suggests_cmaes? ( sci-CRAN/cmaes ) r_suggests_deoptim? ( sci-CRAN/DEoptim ) r_suggests_dicekriging? ( sci-CRAN/DiceKriging ) r_suggests_ga? ( sci-CRAN/GA ) r_suggests_gensa? ( sci-CRAN/GenSA ) r_suggests_lhs? ( sci-CRAN/lhs ) r_suggests_mlr? ( sci-CRAN/mlr ) r_suggests_mlrmbo? ( sci-CRAN/mlrMBO ) r_suggests_nloptr? ( sci-CRAN/nloptr ) r_suggests_paramhelpers? ( sci-CRAN/ParamHelpers ) r_suggests_pso? ( sci-CRAN/pso ) r_suggests_rgenoud? ( sci-CRAN/rgenoud ) r_suggests_smoof? ( sci-CRAN/smoof ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/binaryRL_0.8.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=69ae7f14d3a123bde3eb2597f5a0dd2c

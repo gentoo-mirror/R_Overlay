@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<longdescription>
 		Run Interruptible Code Asynchronously // Takes an R expression
-		and returns a Job object with a $stop() method which can be
+		and returns a job object with a $stop() method which can be
 		called to terminate the background job. Also provides timeouts
 		and other mechanisms for automatically terminating a background
 		job. The result of the expression is available synchronously

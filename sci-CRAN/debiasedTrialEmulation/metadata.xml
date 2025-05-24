@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Pipeline for Debiased Target Trial Emulation // Supports
+		propensity score-based methodsincluding matching,
+		stratification, and weightingfor estimating causal treatment
+		effects. It also implements calibration using negative control
+		outcomes to enhance robustness. 'debiasedTrialEmulation'
+		facilitates effect estimation for both binary and time-to-event
+		outcomes, supporting risk ratio (RR), odds ratio (OR), and
+		hazard ratio (HR) as effect measures. It integrates statistical
+		modeling and visualization tools to assess covariate balance,
+		equipoise, and bias calibration. Additional methodsincluding
+		approaches to address immortal time bias, information bias,
+		selection bias, and informative censoringare under development.
+		Users interested in these extended features are encouraged to
+		contact the package authors.
+	</longdescription>
+</pkgmetadata>
