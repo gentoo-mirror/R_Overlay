@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/jagsUI sci-CRAN/crayon sci-CRAN/checkmate sci-CRAN/knitr dev-lang/R:=
+DESCRIPTION=Site Occupancy Modeling for Envi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_tibble r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/jagsUI sci-CRAN/crayon sci-CRAN/checkmate sci-CRAN/knitr sci-mathematics/jags r_suggests_covr? ( sci-CRAN/covr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/occumb_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec2d7249d68311a890c0566a554215bb

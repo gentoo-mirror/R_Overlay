@@ -7,12 +7,20 @@
 		statistical hypothesis tests between a response and a feature
 		variable in a data frame. The choice of test depends on the
 		class, distribution, and sample size of the input variables, as
-		well as the user-defined 'conf.level'. Well suited for web-
-		based or server-side R applications. Implemented tests:
-		t.test(), wilcox.test(), aov(), oneway.test(), kruskal.test(),
-		lm(), fisher.test(), chisq.test(). Tests for normality:
-		shapiro.test(), ad.test(). Tests for equal variances:
-		bartlett.test(). Post-hoc tests: TukeyHSD(),
+		well as the user-defined 'conf.level'. The package focuses on
+		visualising the selected test using appropriate plots such as
+		box plots, bar charts, regression lines with confidence bands,
+		mosaic plots, residual plots and QQ plots. Each plot is
+		annotated with relevant test statistics and, where applicable,
+		assumption checks and post-hoc results. The scripted workflow
+		is particularly well suited for interactive interfaces where
+		users access data only through a graphical front end backed by
+		server-side R sessions, as well as for quick data exploration,
+		for example, in statistical consulting contexts. Implemented
+		tests: t.test(), wilcox.test(), aov(), oneway.test(),
+		kruskal.test(), lm(), fisher.test(), chisq.test(). Tests for
+		normality: shapiro.test(), ad.test(). Tests for equal
+		variances: bartlett.test(). Post-hoc tests: TukeyHSD(),
 		pairwise.wilcox.test().
 	</longdescription>
 </pkgmetadata>
