@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3.0 sci-CRAN/R6 sci-CRAN/httr sci-CRAN/keyring sci-CRAN/openssl >=sci-CRAN/XML-3.96.1.1 >=sci-CRAN/geometa-0.7.1 sci-CRAN/sf sci-CRAN/terra sci-CRAN/crayon dev-lang/R:=
+DESCRIPTION=Interface to OGC Web-Services (OWS)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_markdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.3.0 sci-CRAN/R6 sci-CRAN/httr sci-CRAN/keyring sci-CRAN/openssl >=sci-CRAN/XML-3.96.1.1 >=sci-CRAN/geometa-0.7.1 sci-CRAN/sf sci-CRAN/terra sci-CRAN/crayon r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ows4R_0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=945d6a3aab799d3c7a065cf24232f4b1

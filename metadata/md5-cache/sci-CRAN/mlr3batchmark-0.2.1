@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/batchtools-0.9.17 sci-CRAN/lgr sci-CRAN/checkmate sci-CRAN/data_table >=sci-CRAN/mlr3-0.19.0 sci-CRAN/mlr3misc sci-CRAN/uuid dev-lang/R:=
+DESCRIPTION=Batch Experiments for mlr3
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_renv r_suggests_rpart r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/batchtools-0.9.17 sci-CRAN/lgr sci-CRAN/checkmate sci-CRAN/data_table >=sci-CRAN/mlr3-0.19.0 sci-CRAN/mlr3misc sci-CRAN/uuid r_suggests_renv? ( sci-CRAN/renv ) r_suggests_rpart? ( virtual/rpart ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlr3batchmark_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ad97cc74e05ebb5a82939aef29d9a285

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/reshape2 >=dev-lang/R-4.1.0 sci-CRAN/kinship2 sci-CRAN/ggplot2 sci-CRAN/BGmisc sci-CRAN/ggrepel sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/plotly dev-lang/R:=
+DESCRIPTION=Visualizing Pedigrees with ggplot2 and plotly
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_corrplot r_suggests_discord r_suggests_htmlwidgets r_suggests_knitr r_suggests_nlsylinks r_suggests_openmx r_suggests_readxl r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble r_suggests_tidyverse r_suggests_viridis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/reshape2 >=dev-lang/R-4.1.0 sci-CRAN/kinship2 sci-CRAN/ggplot2 sci-CRAN/BGmisc sci-CRAN/ggrepel sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/plotly r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_discord? ( sci-CRAN/discord ) r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_nlsylinks? ( sci-CRAN/NlsyLinks ) r_suggests_openmx? ( sci-CRAN/OpenMx ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggpedigree_0.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cebe56815375fd31b3a225bab5d75071

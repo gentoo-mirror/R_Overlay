@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/broom sci-CRAN/lubridate sci-CRAN/R_cache sci-CRAN/dplyr sci-CRAN/urltools sci-CRAN/httr2 sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/ggplot2 sci-CRAN/tibble >=dev-lang/R-4.1.0 sci-CRAN/tidyr sci-CRAN/highcharter sci-CRAN/curl sci-CRAN/PTXQC sci-CRAN/keyring sci-CRAN/magrittr sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=KorAP Web Service Client Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_htmlwidgets r_suggests_kableextra r_suggests_knitr r_suggests_lifecycle r_suggests_purrrlyr r_suggests_raster r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat r_suggests_tidyverse r_suggests_vcd byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD-2
+RDEPEND=sci-CRAN/broom sci-CRAN/lubridate sci-CRAN/R_cache sci-CRAN/dplyr sci-CRAN/urltools sci-CRAN/httr2 sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/ggplot2 sci-CRAN/tibble >=dev-lang/R-4.1.0 sci-CRAN/tidyr sci-CRAN/highcharter sci-CRAN/curl sci-CRAN/PTXQC sci-CRAN/keyring sci-CRAN/magrittr sci-CRAN/purrr r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lifecycle? ( sci-CRAN/lifecycle ) r_suggests_purrrlyr? ( sci-CRAN/purrrlyr ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) r_suggests_vcd? ( sci-CRAN/vcd ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RKorAPClient_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=76049b02ba522051c14268dfdb37dc25

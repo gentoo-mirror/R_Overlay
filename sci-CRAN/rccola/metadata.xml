@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Safely Manage API Keys and Load Data from a REDCap or Other
+		Source // The handling of an API key (misnomer for password)
+		for protected data can be difficult. This package provides
+		secure convenience functions for entering / handling API keys
+		and pulling data directly into memory. By default it will load
+		from REDCap instances, but other sources are injectable via
+		inversion of control.
+	</longdescription>
+</pkgmetadata>
