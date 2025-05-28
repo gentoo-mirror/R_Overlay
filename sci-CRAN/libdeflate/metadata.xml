@@ -2,11 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		DEFLATE Compression Static Library and Headers // Provides the
-		'libdeflate' static library (see
-		https://github.com/ebiggers/libdeflate) and 'C' headers for
-		whole-buffer DEFLATE-based compression and decompression, along
-		with an R interface for compressing and decompressing raw
-		vectors.
+		DEFLATE Compression and Static Library // Whole-buffer DEFLATE-
+		based compression and decompression of raw vectors using the
+		'libdeflate' library (see
+		https://github.com/ebiggers/libdeflate). Provides the user with
+		additional control over the speed and the quality of DEFLATE
+		compression compared to the fixed level of compression offered
+		in R's 'memCompress()' function. Also provides the 'libdeflate'
+		static library and 'C' headers along with a 'CMake' target and
+		'packageconfig' file that ease linking of 'libdeflate' in
+		packages that compile and statically link bundled libraries
+		using 'CMake'.
 	</longdescription>
 </pkgmetadata>

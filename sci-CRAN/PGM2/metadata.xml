@@ -2,11 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Nested Resolvable Designs and their Associated Uniform Designs //
-		Construction method of nested resolvable designs from a
-		projective geometry defined on Galois field of order 2. The
-		obtained Resolvable designs are used to build uniform design.
-		The presented results are based on https://eudml.org/doc/219563
-		and A. Boudraa et al. (See references).
+		Recursive Construction of Nested Resolvable Designs and
+		Associated Uniform Designs // Implements recursive construction
+		methods for balanced incomplete block designs (BIBDs), their
+		second generation, resolvable BIBDs (RBIBDs), and uniform
+		designs (UDs) derived from projective geometries over GF(2). It
+		enables extraction of nested structures in multiple stages and
+		supports recursive resolution processes, as introduced in
+		Boudraa et al. (2013).
 	</longdescription>
 </pkgmetadata>

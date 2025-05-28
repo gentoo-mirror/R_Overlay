@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rootSolve sci-CRAN/SQUAREM sci-CRAN/truncSP virtual/survival dev-lang/R:=
+DESCRIPTION=Transformation-Based Regression ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/rootSolve sci-CRAN/SQUAREM sci-CRAN/truncSP virtual/survival r_suggests_boot? ( virtual/boot ) r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tranSurv_1.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a43b9d7fc9f0346f94788a3bfc97a7ff

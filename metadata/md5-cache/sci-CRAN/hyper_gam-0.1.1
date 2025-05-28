@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.5 sci-CRAN/caret sci-CRAN/cli virtual/mgcv virtual/nlme sci-CRAN/plotly sci-CRAN/groupedHyperframe dev-lang/R:=
+DESCRIPTION=Generalized Additive Models with Hyper Column
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_htmlwidgets r_suggests_knitr r_suggests_matrix r_suggests_rmarkdown r_suggests_spatstat_geom r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.5 sci-CRAN/caret sci-CRAN/cli virtual/mgcv virtual/nlme sci-CRAN/plotly sci-CRAN/groupedHyperframe r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spatstat_geom? ( sci-CRAN/spatstat_geom ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hyper.gam_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0db682fe258990039ac63389e7776243

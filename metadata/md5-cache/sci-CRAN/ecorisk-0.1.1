@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/geomtextpath sci-CRAN/colorspace sci-CRAN/ggnewscale >=dev-lang/R-4.1.0 sci-CRAN/forecast sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/gridExtra virtual/mgcv dev-lang/R:=
+DESCRIPTION=Risk Assessments for Ecosystems ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_kableextra r_suggests_knitr r_suggests_rmarkdown r_suggests_stringr r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/geomtextpath sci-CRAN/colorspace sci-CRAN/ggnewscale >=dev-lang/R-4.1.0 sci-CRAN/forecast sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/gridExtra virtual/mgcv r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ecorisk_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1054571957bb79ab73ac6589878b2880

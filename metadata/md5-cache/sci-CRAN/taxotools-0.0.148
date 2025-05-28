@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/taxize sci-CRAN/wikitaxa sci-CRAN/stringr sci-CRAN/sqldf sci-CRAN/plyr sci-CRAN/stringdist sci-CRAN/rmarkdown sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Taxonomic List Processing
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/taxize sci-CRAN/wikitaxa sci-CRAN/stringr sci-CRAN/sqldf sci-CRAN/plyr sci-CRAN/stringdist sci-CRAN/rmarkdown sci-CRAN/stringi dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/taxotools_0.0.148.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e57d80373e599d35d3b4079f23e0b8c6

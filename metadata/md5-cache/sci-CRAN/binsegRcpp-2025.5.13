@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Efficient Implementation of Binary Segmentation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_changepoint r_suggests_covr r_suggests_directlabels r_suggests_ggplot2 r_suggests_knitr r_suggests_markdown r_suggests_neuroblastoma r_suggests_penaltylearning r_suggests_quadprog r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/data_table sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_changepoint? ( sci-CRAN/changepoint ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_directlabels? ( sci-CRAN/directlabels ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_neuroblastoma? ( sci-CRAN/neuroblastoma ) r_suggests_penaltylearning? ( sci-CRAN/penaltyLearning ) r_suggests_quadprog? ( sci-CRAN/quadprog ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/binsegRcpp_2025.5.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e36141c647c11db8b262bd0bb82ba995

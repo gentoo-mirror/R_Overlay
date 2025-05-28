@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regularized Bayesian Estimator for Two-Level Latent Variable
+		Models // Implements a regularized Bayesian estimator that
+		optimizes the estimation of between-group coefficients for
+		multilevel latent variable models by minimizing mean squared
+		error (MSE) and balancing variance and bias. The package
+		provides more reliable estimates in scenarios with limited
+		data, offering a robust solution for accurate parameter
+		estimation in two-level latent variable models. It is designed
+		for researchers in psychology, education, and related fields
+		who face challenges in estimating between-group effects under
+		small sample sizes and low intraclass correlation coefficients.
+		Dashuk et al. (2024) doi:10.13140/RG.2.2.18148.39048 derived
+		the optimal regularized Bayesian estimator; Dashuk et al.
+		(2024) doi:10.13140/RG.2.2.34350.01604 extended it to the
+		multivariate case; and Luedtke et al. (2008)
+		doi:10.1037/a0012869 formalized the two-level latent variable
+		framework.
+	</longdescription>
+</pkgmetadata>
