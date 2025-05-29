@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		'SplitWise': Hybrid Stepwise Regression with Single-Split Dummy
+		Encoding // Implements 'SplitWise', a hybrid regression
+		approach that transforms numeric variables into either single-
+		split (0/1) dummy variables or retains them as continuous
+		predictors. The transformation is followed by stepwise
+		selection to identify the most relevant variables. The default
+		'iterative' mode adaptively explores partial synergies among
+		variables to enhance model performance, while an alternative
+		'univariate' mode applies simpler transformations independently
+		to each predictor. For details, see Kurbucz et al. (2025)
+		doi:10.48550/arXiv.2505.15423.
+	</longdescription>
+</pkgmetadata>
