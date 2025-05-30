@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Time-Varying Minimum Variance Portfolio // Provides the
+		estimation of a time-dependent covariance matrix of returns
+		with the intended use for portfolio optimization. The package
+		offers methods for determining the optimal number of factors to
+		be used in the covariance estimation, a hypothesis test of
+		time-varying covariance, and user-friendly functions for
+		portfolio optimization and rolling window evaluation. The local
+		PCA method, method for determining the number of factors, and
+		associated hypothesis test are based on Su and Wang (2017)
+		doi:10.1016/j.jeconom.2016.12.004. The approach to time-varying
+		portfolio optimization follows Fan et al. (2024)
+		doi:10.1016/j.jeconom.2022.08.007. The regularisation applied
+		to the residual covariance matrix adopts the technique
+		introduced by Chen et al. (2019)
+		doi:10.1016/j.jeconom.2019.04.025.
+	</longdescription>
+</pkgmetadata>

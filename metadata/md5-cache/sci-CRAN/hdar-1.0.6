@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/R6 sci-CRAN/magrittr sci-CRAN/htmltools sci-CRAN/jsonlite sci-CRAN/httr2 sci-CRAN/stringr sci-CRAN/scales sci-CRAN/progress dev-lang/R:=
+DESCRIPTION=REST API Client for Accessing Data on WEkEO HDA V2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/R6 sci-CRAN/magrittr sci-CRAN/htmltools sci-CRAN/jsonlite sci-CRAN/httr2 sci-CRAN/stringr sci-CRAN/scales sci-CRAN/progress r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hdar_1.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5b84d740c797d598bb302b90f4026f95

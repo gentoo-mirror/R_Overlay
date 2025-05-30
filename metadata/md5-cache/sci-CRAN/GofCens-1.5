@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/actuar virtual/survival sci-CRAN/fitdistrplus sci-CRAN/ggplot2 sci-CRAN/gridExtra virtual/boot dev-lang/R:=
+DESCRIPTION=Goodness-of-Fit Methods for Right-Censored Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_rms byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/actuar virtual/survival sci-CRAN/fitdistrplus sci-CRAN/ggplot2 sci-CRAN/gridExtra virtual/boot r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rms? ( sci-CRAN/rms ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GofCens_1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=25fb843bbc4e31de917d7487f3fa1d80

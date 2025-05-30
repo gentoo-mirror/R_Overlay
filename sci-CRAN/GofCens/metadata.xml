@@ -2,16 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Goodness-of-Fit Methods for Complete and Right-Censored Data //
-		Graphical tools and goodness-of-fit tests for complete and
-		right-censored data: 1. Kolmogorov-Smirnov, Cramr-von Mises,
-		and Anderson-Darling tests, which utilize the empirical
-		distribution function for complete data and are extended to
-		handle right-censored data. 2. Generalized chi-squared-type
-		test, which is based on the squared differences between
-		observed and expected counts using random cells with right-
-		censored data. 3. Graphical tools, such as probability and
-		cumulative hazard plots, to help guide decisions about the most
-		appropriate parametric model for the data.
+		Goodness-of-Fit Methods for Right-Censored Data // Graphical
+		tools and goodness-of-fit tests for right-censored data: 1.
+		Kolmogorov-Smirnov, Cramr-von Mises, and Anderson-Darling
+		tests, which use the empirical distribution function for
+		complete data and are extended for right-censored data. 2.
+		Generalized chi-squared-type test, which is based on the
+		squared differences between observed and expected counts using
+		random cells with right-censored data. 3. A series of graphical
+		tools such as probability or cumulative hazard plots to guide
+		the decision about the most suitable parametric model for the
+		data. These functions share several features as they can handle
+		both complete and right-censored data, and they provide
+		parameter estimates for the distributions under study.
 	</longdescription>
 </pkgmetadata>

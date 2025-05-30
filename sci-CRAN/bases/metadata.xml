@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Basis Expansions for Regression Modeling // Provides various
+		basis expansions for flexible regression modeling, including
+		random Fourier features (Rahimi  Recht, 2007) https://proceedin
+		gs.neurips.cc/paper_files/paper/2007/file/013a006f03dbc5392effe
+		b8f18fda755-Paper.pdf, exact kernel / Gaussian process feature
+		maps, Bayesian Additive Regression Trees (BART) (Chipman et
+		al., 2010) doi:10.1214/09-AOAS285 prior features, and a helpful
+		interface for n-way interactions. The provided functions may be
+		used within any modeling formula, allowing the use of kernel
+		methods and other basis expansions in modeling functions that
+		do not otherwise support them. Along with the basis expansions,
+		a number of kernel functions are also provided, which support
+		kernel arithmetic to form new kernels. Basic ridge regression
+		functionality is included as well.
+	</longdescription>
+</pkgmetadata>

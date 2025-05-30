@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/raster sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/viridis virtual/MASS sci-CRAN/rmarkdown sci-CRAN/htmlwidgets >=dev-lang/R-3.5.0 sci-CRAN/shinyBS sci-CRAN/shinyjs sci-CRAN/shiny sci-CRAN/shinythemes sci-CRAN/gridExtra sci-CRAN/DT sci-CRAN/plotly sci-CRAN/shinyWidgets sci-CRAN/readxl dev-lang/R:=
+DESCRIPTION=Spatial Exploration of ArcHaeolo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/raster sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/viridis virtual/MASS sci-CRAN/rmarkdown sci-CRAN/htmlwidgets >=dev-lang/R-3.5.0 sci-CRAN/shinyBS sci-CRAN/shinyjs sci-CRAN/shiny sci-CRAN/shinythemes sci-CRAN/gridExtra sci-CRAN/DT sci-CRAN/plotly sci-CRAN/shinyWidgets sci-CRAN/readxl r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SEAHORS_1.9.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d7c59a85a3e98a18ce64002e3f3e47c6
