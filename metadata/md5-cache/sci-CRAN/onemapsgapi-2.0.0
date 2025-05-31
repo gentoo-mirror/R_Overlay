@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/httr2 sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/future sci-CRAN/furrr dev-lang/R:=
+DESCRIPTION=R Wrapper for the OneMap.Sg API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_googlepolylines r_suggests_knitr r_suggests_rmarkdown r_suggests_sf byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/httr2 sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/future sci-CRAN/furrr r_suggests_googlepolylines? ( sci-CRAN/googlePolylines ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/onemapsgapi_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6e7af7b0b1070557b94d5ef4cf553f58

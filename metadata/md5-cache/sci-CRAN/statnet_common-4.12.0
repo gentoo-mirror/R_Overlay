@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 virtual/Matrix sci-CRAN/coda dev-lang/R:=
+DESCRIPTION=Common R Scripts and Utilities U... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_mass r_suggests_purrr r_suggests_rlang r_suggests_roxygen2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1 virtual/Matrix sci-CRAN/coda r_suggests_covr? ( sci-CRAN/covr ) r_suggests_mass? ( virtual/MASS ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rlang? ( >=sci-CRAN/rlang-1.1.1 ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/statnet.common_4.12.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b16263ce228237dc032faffae6a22cf0

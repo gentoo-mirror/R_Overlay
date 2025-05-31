@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Time-Varying Garch Models Through a State-Space Representation //
+		Estimates the time-varying (tv) parameters of the GARCH(1,1)
+		model, enabling the modeling of non-stationary volatilities by
+		allowing the model parameters to change gradually over time.
+		The estimation and prediction processes are facilitated through
+		the application of the Kalman filter and state-space equations.
+		This package supports the estimation of tv parameters for
+		various deterministic functions, which can be identified
+		through exploratory analysis of different time periods or
+		segments of return data. The methodology is grounded in the
+		framework presented by Ferreira et al. (2017)
+		doi:10.1080/00949655.2017.1334778.
+	</longdescription>
+</pkgmetadata>

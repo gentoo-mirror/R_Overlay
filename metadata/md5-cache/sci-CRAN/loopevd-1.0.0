@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/terra sci-CRAN/evd sci-CRAN/ncdf4 dev-lang/R:=
+DESCRIPTION=Loop Functions for Extreme Value Distributions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_ozmaps r_suggests_raster r_suggests_rmarkdown r_suggests_sp r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/terra sci-CRAN/evd sci-CRAN/ncdf4 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_ozmaps? ( sci-CRAN/ozmaps ) r_suggests_raster? ( sci-CRAN/raster ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/loopevd_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1f69ecae9ba67cf1d0d66c9e2a0d24c7

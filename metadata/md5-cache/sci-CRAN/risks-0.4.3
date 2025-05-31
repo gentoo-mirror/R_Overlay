@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/boot sci-CRAN/dplyr virtual/boot sci-CRAN/broom sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/sandwich sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Estimate Risk Ratios and Risk Di... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_addreg r_suggests_covr r_suggests_knitr r_suggests_logbin r_suggests_mass r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 virtual/boot sci-CRAN/dplyr virtual/boot sci-CRAN/broom sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/sandwich sci-CRAN/tibble sci-CRAN/tidyr r_suggests_addreg? ( sci-CRAN/addreg ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_logbin? ( sci-CRAN/logbin ) r_suggests_mass? ( virtual/MASS ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/risks_0.4.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7eb492c0113dfd4d2e973f5e29d79382
