@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix >=dev-lang/R-4.5.0 sci-CRAN/registry virtual/Matrix >=sci-CRAN/arules-1.7.11 >=sci-CRAN/proxy-0.4.26 sci-CRAN/irlba sci-CRAN/recosystem dev-lang/R:=
+DESCRIPTION=Lab for Developing and Testing R... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/Matrix >=dev-lang/R-4.5.0 sci-CRAN/registry virtual/Matrix >=sci-CRAN/arules-1.7.11 >=sci-CRAN/proxy-0.4.26 sci-CRAN/irlba sci-CRAN/recosystem r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/recommenderlab_1.0.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bfdb44d10f9fdb231d102a779f0dca90
