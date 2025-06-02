@@ -1,0 +1,59 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='A Template for Creating Reproduc... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/shinyscholar_0.4.2.tar.gz"
+LICENSE='GPL-3'
+
+IUSE="${IUSE-} r_suggests_dplyr r_suggests_dt r_suggests_httr2
+	r_suggests_knitcitations r_suggests_leaflet_extras
+	r_suggests_markdown r_suggests_mirai r_suggests_r6
+	r_suggests_rcolorbrewer r_suggests_renv r_suggests_rintrojs
+	r_suggests_rmarkdown r_suggests_shinyace r_suggests_shinyalert
+	r_suggests_shinybusy r_suggests_shinyjs r_suggests_shinytest2
+	r_suggests_shinywidgets r_suggests_terra r_suggests_testthat
+	r_suggests_withr r_suggests_xml2"
+R_SUGGESTS="
+	r_suggests_dplyr? ( >=sci-CRAN/dplyr-1.0.2 )
+	r_suggests_dt? ( >=sci-CRAN/DT-0.5 )
+	r_suggests_httr2? ( sci-CRAN/httr2 )
+	r_suggests_knitcitations? ( sci-CRAN/knitcitations )
+	r_suggests_leaflet_extras? ( >=sci-CRAN/leaflet_extras-1.0.0 )
+	r_suggests_markdown? ( sci-CRAN/markdown )
+	r_suggests_mirai? ( sci-CRAN/mirai )
+	r_suggests_r6? ( sci-CRAN/R6 )
+	r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer )
+	r_suggests_renv? ( sci-CRAN/renv )
+	r_suggests_rintrojs? ( sci-CRAN/rintrojs )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_shinyace? ( sci-CRAN/shinyAce )
+	r_suggests_shinyalert? ( sci-CRAN/shinyalert )
+	r_suggests_shinybusy? ( sci-CRAN/shinybusy )
+	r_suggests_shinyjs? ( sci-CRAN/shinyjs )
+	r_suggests_shinytest2? ( sci-CRAN/shinytest2 )
+	r_suggests_shinywidgets? ( >=sci-CRAN/shinyWidgets-0.6.0 )
+	r_suggests_terra? ( sci-CRAN/terra )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+	r_suggests_withr? ( sci-CRAN/withr )
+	r_suggests_xml2? ( sci-CRAN/xml2 )
+"
+DEPEND="sci-CRAN/zip
+	>=dev-lang/R-4.1.0
+	sci-CRAN/bslib
+	>=sci-CRAN/shiny-1.8.1
+	>=sci-CRAN/leaflet-2.0.2
+	sci-CRAN/gargoyle
+	sci-CRAN/curl
+	sci-CRAN/devtools
+	sci-CRAN/glue
+	sci-CRAN/knitr
+"
+RDEPEND="${DEPEND-}
+	app-text/pandoc
+	${R_SUGGESTS-}
+"

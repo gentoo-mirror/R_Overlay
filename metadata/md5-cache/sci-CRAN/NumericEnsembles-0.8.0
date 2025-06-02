@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/leaps >=dev-lang/R-4.1.0 sci-CRAN/randomForest sci-CRAN/tidyr sci-CRAN/tree sci-CRAN/glmnet sci-CRAN/e1071 virtual/nnet sci-CRAN/Cubist sci-CRAN/Metrics sci-CRAN/brnn sci-CRAN/pls sci-CRAN/readr sci-CRAN/arm sci-CRAN/gridExtra sci-CRAN/doParallel sci-CRAN/dplyr virtual/rpart sci-CRAN/reactable sci-CRAN/reactablefmtr sci-CRAN/gbm sci-CRAN/broom sci-CRAN/car sci-CRAN/caret sci-CRAN/corrplot sci-CRAN/earth sci-CRAN/ggplot2 sci-CRAN/xgboost sci-CRAN/purrr sci-CRAN/ipred sci-CRAN/gam dev-lang/R:=
+DESCRIPTION=Automatically Runs 23 Individual... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/leaps >=dev-lang/R-4.1.0 sci-CRAN/randomForest sci-CRAN/tidyr sci-CRAN/tree sci-CRAN/glmnet sci-CRAN/e1071 virtual/nnet sci-CRAN/Cubist sci-CRAN/Metrics sci-CRAN/brnn sci-CRAN/pls sci-CRAN/readr sci-CRAN/arm sci-CRAN/gridExtra sci-CRAN/doParallel sci-CRAN/dplyr virtual/rpart sci-CRAN/reactable sci-CRAN/reactablefmtr sci-CRAN/gbm sci-CRAN/broom sci-CRAN/car sci-CRAN/caret sci-CRAN/corrplot sci-CRAN/earth sci-CRAN/ggplot2 sci-CRAN/xgboost sci-CRAN/purrr sci-CRAN/ipred sci-CRAN/gam r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/NumericEnsembles_0.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=791145c3bad2182d3e291827b356d905
