@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.1 sci-CRAN/LambertW dev-lang/R:=
+DESCRIPTION=Estimates Economic Variables for... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.0.1 sci-CRAN/LambertW dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/WordOfMouth_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c0a26667de2636b8fb3345fc7ca0f522

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Functionalities for the 'INLA' Package // Contain code to work
+		with latent Gaussian Markov random field (GMRF) models. Queries
+		for the 'cgeneric' interface, specified as a way to implement
+		new GMRF models to be fitted as model components in the 'INLA'
+		package (https://www.r-inla.org). The implemented
+		functionalities leverage the use of 'cgeneric' models and
+		provide a way to debug the code as well to work with the prior
+		for the model parameters and to sample from it. A Kronecker
+		product method is also implemented to work with the four
+		possible combinations between a 'cgeneric' and a 'rgeneric'
+		model.
+	</longdescription>
+</pkgmetadata>

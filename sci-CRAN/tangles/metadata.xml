@@ -2,15 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Anonymization of Spatial Point Patterns and Raster Objects //
-		Spatial data anonymization preserves confidentiality. Using
-		methods described in Zandbergen (2014) doi:10.1155/2014/567049,
-		spatial data anonymization is achieved by dithering original
-		spatial coordinates with combinations of randomized vertical,
-		horizontal and rotational shifts. This can apply to non-grid
-		spatial point patterns and raster objects, and the methods
-		preserve the same spatial characteristics and relationships of
-		the original data. Unique hash keying enables data subjected to
-		anonymization sequences to be re-identified where required.
+		Anonymisation of Spatial Point Patterns and Grids // Methods for
+		anonymisation of spatial datasets while preserving spatial
+		structure and relationships. Original coordinates or raster
+		geometries are transformed using randomized or predefined
+		vertical shifts, horizontal shifts, and rotations. Compatible
+		with point-based data in 'matrix', 'data.frame', or 'sf'
+		formats, as well as 'terra' raster objects. Supports reversible
+		anonymisation workflows, hash-based validation, shapefile
+		export, and consistent tangling across related datasets using
+		stored transformation sequences. Approach informed by the De-
+		Identification Decision Making Framework (CM OKeefe, S
+		Otorepec, M Elliot, E Mackey, and K OHara 2017)
+		doi:10.4225/08/59c169433efd4.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 virtual/Matrix sci-CRAN/Rcpp virtual/Matrix sci-CRAN/car dev-lang/R:=
+DESCRIPTION=Causal Modeling with Coincidence Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_causalhypergraph r_suggests_dplyr r_suggests_frscore byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1.0 virtual/Matrix sci-CRAN/Rcpp virtual/Matrix sci-CRAN/car sci-CRAN/Rcpp r_suggests_causalhypergraph? ( sci-CRAN/causalHyperGraph ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_frscore? ( sci-CRAN/frscore ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cna_4.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2fa3b83a99a61c1c8f61a9d17405bcbc

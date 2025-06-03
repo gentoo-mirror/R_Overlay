@@ -2,17 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Clustering of Multiple Censored Time-to-Event Endpoints //
-		Provides basic tools for computing clusters of instances
-		described by multiple time-to-event censored endpoints. From
-		long-format datasets, where one instance is described by one or
-		more records of events, a procedure is used to compute state
-		matrices. Then, from state matrices, a procedure provides
-		optimised computation of the Jaccard distance between
-		instances. The library is currently in development, and more
-		options and tools allowing graphical representation of
-		typologies are expected. For methodological details, see our
-		methodological paper: Delord M, Douiri A (2025)
-		doi:10.1186/s12874-025-02476-7.
+		Unsupervised Clustering of Multiple Censored Time-to-Event
+		Endpoints // Provides basic tools and wrapper functions for
+		computing clusters of instances described by multiple time-to-
+		event censored endpoints. From long-format datasets, where one
+		instance is described by one or more dated records, the main
+		function, `make_state_matrices()`, creates state matrices.
+		Based on these matrices, optimised procedures using the Jaccard
+		distance between instances enable the construction of
+		longitudinal typologies. The package is under active
+		development, with additional tools for graphical representation
+		of typologies planned. For methodological details, see our
+		accompanying paper: `Delord M, Douiri A (2025)
+		doi:10.1186/s12874-025-02476-7`.
 	</longdescription>
 </pkgmetadata>

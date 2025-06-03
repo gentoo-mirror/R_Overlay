@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/evd sci-CRAN/LNPar sci-CRAN/EnvStats sci-CRAN/Rdpack dev-lang/R:=
+DESCRIPTION=Estimation of a Lognormal - Gene... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/evd sci-CRAN/LNPar sci-CRAN/EnvStats sci-CRAN/Rdpack dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lognGPD_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9f2fee1c252cc42d6759c405adf7a3d7
