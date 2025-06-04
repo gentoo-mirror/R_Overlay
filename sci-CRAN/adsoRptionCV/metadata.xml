@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Cross-Validation Methods for Adsorption Isotherm Models //
+		Provides cross-validation tools for adsorption isotherm models,
+		supporting both linear and non-linear forms. Current methods
+		cover commonly used isotherms including the Freundlich,
+		Langmuir, and Temkin models. This package implements K-fold and
+		leave-one-out cross-validation (LOOCV) with optional
+		clustering-based fold assignment to preserve underlying data
+		structures during validation. Model predictive performance is
+		assessed using mean squared error (MSE), with optional
+		graphical visualization of fold-wise MSEs to support intuitive
+		evaluation of model accuracy. This package is intended to
+		facilitate rigorous model validation in adsorption studies and
+		aid researchers in selecting robust isotherm models. For more
+		details, see Montgomery et al. (2012) isbn: 978-0-470-54281-1,
+		Lumumba et al. (2024) doi:10.11648/j.ajtas.20241305.13, and
+		Yates et al. (2022) doi:10.1002/ecm.1557.
+	</longdescription>
+</pkgmetadata>
