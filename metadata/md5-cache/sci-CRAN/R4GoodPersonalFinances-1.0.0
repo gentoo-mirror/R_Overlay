@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lubridate sci-CRAN/purrr >=dev-lang/R-4.1.0 sci-CRAN/ggrepel sci-CRAN/furrr sci-CRAN/cli sci-CRAN/ggtext sci-CRAN/glue sci-CRAN/PrettyCols sci-CRAN/scales sci-CRAN/tidyr sci-CRAN/fs sci-CRAN/shiny sci-CRAN/stringr sci-CRAN/nloptr sci-CRAN/future sci-CRAN/progressr sci-CRAN/memoise sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/bslib sci-CRAN/bsicons sci-CRAN/rlang sci-CRAN/readr sci-CRAN/cachem dev-lang/R:=
+DESCRIPTION=Make Optimal Financial Decisions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spelling r_suggests_testthat r_suggests_tibble r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/lubridate sci-CRAN/purrr >=dev-lang/R-4.1.0 sci-CRAN/ggrepel sci-CRAN/furrr sci-CRAN/cli sci-CRAN/ggtext sci-CRAN/glue sci-CRAN/PrettyCols sci-CRAN/scales sci-CRAN/tidyr sci-CRAN/fs sci-CRAN/shiny sci-CRAN/stringr sci-CRAN/nloptr sci-CRAN/future sci-CRAN/progressr sci-CRAN/memoise sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/bslib sci-CRAN/bsicons sci-CRAN/rlang sci-CRAN/readr sci-CRAN/cachem r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/R4GoodPersonalFinances_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bf76e147d9237b9716fa721a8dd893cb

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr >=dev-lang/R-4.3.0 sci-CRAN/sf sci-CRAN/abind sci-CRAN/spatstat_geom sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/ggrepel sci-CRAN/HDInterval sci-CRAN/kknn sci-CRAN/tibble sci-CRAN/rlang sci-CRAN/modeest dev-lang/R:=
+DESCRIPTION=Miscellaneous Functions for Sout... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_coda r_suggests_rstan r_suggests_runjags byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/tidyr >=dev-lang/R-4.3.0 sci-CRAN/sf sci-CRAN/abind sci-CRAN/spatstat_geom sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/ggrepel sci-CRAN/HDInterval sci-CRAN/kknn sci-CRAN/tibble sci-CRAN/rlang sci-CRAN/modeest r_suggests_coda? ( sci-CRAN/coda ) r_suggests_rstan? ( sci-CRAN/rstan ) r_suggests_runjags? ( sci-CRAN/runjags ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/swfscMisc_1.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=64f6b7b06c0c33c4a045669931ad058f

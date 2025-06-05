@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table sci-CRAN/snowfall dev-lang/R:=
+DESCRIPTION=A Universal Approach for Causal Mediation Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fixest r_suggests_lme4 r_suggests_mass r_suggests_ordinal r_suggests_pglm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/data_table sci-CRAN/snowfall r_suggests_fixest? ( sci-CRAN/fixest ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_mass? ( virtual/MASS ) r_suggests_ordinal? ( sci-CRAN/ordinal ) r_suggests_pglm? ( sci-CRAN/pglm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/unvs.med_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a93324a2cdc7e6213e13e50c15f5a0ec

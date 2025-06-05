@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Transformed and Relative Lorenz Curves for Survey Weighted Data
+		// Functions for constructing Transformed and Relative Lorenz
+		curves with survey sampling weights. Given a variable of
+		interest measured in two groups with scaled survey weights so
+		that their hypothetical populations are of equal size,
+		tlorenz() computes the proportion of members of the group with
+		smaller values (ordered from smallest to largest) needed for
+		their sum to match the sum of the top qth percentile of the
+		group with higher values. rlorenz() shows the fraction of the
+		total value of the group with larger values held by the pth
+		percentile of those in the group with smaller values. Fd() is a
+		survey weighted cumulative distribution function and Eps() is a
+		survey weighted inverse cdf used in rlorenz(). Ramos, Graubard,
+		and Gastwirth (2025) doi:10.1093/jrsssa/qnaf044.
+	</longdescription>
+</pkgmetadata>

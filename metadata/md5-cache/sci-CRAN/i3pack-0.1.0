@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/readr-2.1.5 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/magrittr-2.0.3 >=sci-CRAN/gbm-2.2.2 >=sci-CRAN/rlang-1.1.6 >=sci-CRAN/STV-1.0.2 >=sci-CRAN/tidyr-1.3.1 dev-lang/R:=
+DESCRIPTION=Incentives for Inter- And Intra-... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/readr-2.1.5 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/magrittr-2.0.3 >=sci-CRAN/gbm-2.2.2 >=sci-CRAN/rlang-1.1.6 >=sci-CRAN/STV-1.0.2 >=sci-CRAN/tidyr-1.3.1 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/i3pack_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5f09df44a63dda0b75dd59e21fac2bc7
