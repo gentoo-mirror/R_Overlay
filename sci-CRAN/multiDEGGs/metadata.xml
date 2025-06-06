@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Multi-Omic Differentially Expressed Gene-Gene Pairs // Performs
+		multi-omic differential network analysis by revealing
+		differential interactions between molecular entities (genes,
+		proteins, transcription factors, or other biomolecules) across
+		the omic datasets provided. For each omic dataset, a
+		differential network is constructed where links represent
+		statistically significant differential interactions between
+		entities. These networks are then integrated into a
+		comprehensive visualization using distinct colors to
+		distinguish interactions from different omic layers. This
+		unified display allows interactive exploration of cross-omic
+		patterns, such as differential interactions present at both
+		transcript and protein levels. For each link, users can access
+		differential statistical significance metrics (p values or
+		adjusted p values, calculated via robust or traditional linear
+		regression with interaction term) and differential regression
+		plots. The methods implemented in this package are described in
+		Sciacca et al. (2023) doi:10.1093/bioinformatics/btad192.
+	</longdescription>
+</pkgmetadata>

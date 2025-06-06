@@ -3,13 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		A Future API for Parallel and Distributed Processing using
-		'batchtools' // Implementation of the Future API on top of the
-		'batchtools' package. This allows you to process futures, as
-		defined by the 'future' package, in parallel out of the box,
-		not only on your local machine or ad-hoc cluster of machines,
-		but also via high-performance compute ('HPC') job schedulers
-		such as 'LSF', 'OpenLava', 'Slurm', 'SGE', and 'TORQUE' /
-		'PBS', e.g. 'y - future.apply::future_lapply(files, FUN =
-		process)'.
+		'batchtools' // Implementation of the Future API
+		doi:10.32614/RJ-2021-048 on top of the 'batchtools' package.
+		This allows you to process futures, as defined by the 'future'
+		package, in parallel out of the box, not only on your local
+		machine or ad-hoc cluster of machines, but also via high-
+		performance compute ('HPC') job schedulers such as 'LSF',
+		'OpenLava', 'Slurm', 'SGE', and 'TORQUE' / 'PBS', e.g. 'y -
+		future.apply::future_lapply(files, FUN = process)'.
 	</longdescription>
 </pkgmetadata>

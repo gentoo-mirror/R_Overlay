@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DCchoice sci-CRAN/Rcmdr sci-CRAN/ISOcodes dev-lang/R:=
+DESCRIPTION=R Commander Plug-in for Dichotom... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/DCchoice sci-CRAN/Rcmdr sci-CRAN/ISOcodes dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RcmdrPlugin.DCCV_0.2-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a794ad082d04462acc380735235c0612

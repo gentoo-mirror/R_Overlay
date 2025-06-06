@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/pscl sci-CRAN/TeachingDemos dev-lang/R:=
+DESCRIPTION=Bayesian Sample Size for Binomial Proportions
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/pscl sci-CRAN/TeachingDemos dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bssbinom_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b088904c26d98c26947c1d06c6e21e4d
