@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Compare C-Statistics (Concordance) Between Survival Models //
+		Compare C-statistics (concordance statistics) between two
+		survival models, using either bootstrap resampling (Harrell's
+		C) or Uno's C with perturbation-resampling (from the survC1
+		package). Returns confidence intervals and a p-value for the
+		difference in C-statistics. Useful for evaluating and comparing
+		predictive performance of survival models. Methods implemented
+		for Uno's C are described in Uno et al. (2011)
+		doi:10.1002/sim.4154.
+	</longdescription>
+</pkgmetadata>

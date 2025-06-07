@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=Access Datasets from the Rdatasets Archive
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_nanoparquet r_suggests_rstudioapi r_suggests_tibble r_suggests_tinytable r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_nanoparquet? ( sci-CRAN/nanoparquet ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_tinytable? ( sci-CRAN/tinytable ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Rdatasets_0.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=153c30558efd9d2b9687fbcb3a40e6e9

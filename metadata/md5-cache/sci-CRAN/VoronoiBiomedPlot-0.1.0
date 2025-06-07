@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggrepel sci-CRAN/deldir sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Projection Visualization Plots f... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggrepel sci-CRAN/deldir sci-CRAN/ggplot2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/VoronoiBiomedPlot_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9c153e9b13cbd660aaeeca0ca8a7c51d
