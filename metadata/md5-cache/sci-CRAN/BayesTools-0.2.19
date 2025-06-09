@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/coda sci-CRAN/ggplot2 sci-CRAN/bridgesampling sci-CRAN/extraDistr sci-CRAN/mvtnorm sci-CRAN/Rdpack sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Tools for Bayesian Analyses
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bayesfactor r_suggests_covr r_suggests_knitr r_suggests_rjags r_suggests_rmarkdown r_suggests_robma r_suggests_rstan r_suggests_runjags r_suggests_scales r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/coda sci-CRAN/ggplot2 sci-CRAN/bridgesampling sci-CRAN/extraDistr sci-CRAN/mvtnorm sci-CRAN/Rdpack sci-CRAN/rlang sci-mathematics/jags r_suggests_bayesfactor? ( sci-CRAN/BayesFactor ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rjags? ( sci-CRAN/rjags ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_robma? ( sci-CRAN/RoBMA ) r_suggests_rstan? ( sci-CRAN/rstan ) r_suggests_runjags? ( sci-CRAN/runjags ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BayesTools_0.2.19.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1a03155d434af74d892eeeb239aee37f

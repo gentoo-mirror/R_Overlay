@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/blob-1.2.0 sci-CRAN/bit64 >=sci-CRAN/DBI-1.2.0 sci-CRAN/memoise virtual/pkgconfig sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=SQLite Interface for R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_callr r_suggests_cli r_suggests_dbitest r_suggests_decor r_suggests_gert r_suggests_gh r_suggests_hms r_suggests_knitr r_suggests_magrittr r_suggests_rmarkdown r_suggests_rvest r_suggests_testthat r_suggests_withr r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1+
+RDEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/blob-1.2.0 sci-CRAN/bit64 >=sci-CRAN/DBI-1.2.0 sci-CRAN/memoise virtual/pkgconfig sci-CRAN/rlang >=sci-CRAN/plogr-0.2.0 >=sci-CRAN/cpp11-0.4.0 r_suggests_callr? ( sci-CRAN/callr ) r_suggests_cli? ( sci-CRAN/cli ) r_suggests_dbitest? ( >=sci-CRAN/DBItest-1.8.0 ) r_suggests_decor? ( sci-CRAN/decor ) r_suggests_gert? ( sci-CRAN/gert ) r_suggests_gh? ( sci-CRAN/gh ) r_suggests_hms? ( sci-CRAN/hms ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rvest? ( sci-CRAN/rvest ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RSQLite_2.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3a62716e9e94656a5f009334915c28c5
