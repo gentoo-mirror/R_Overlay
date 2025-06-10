@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/AlgDesign sci-CRAN/ggplot2 sci-CRAN/broom virtual/cluster sci-CRAN/fpc sci-CRAN/ggfortify dev-lang/R:=
+DESCRIPTION=An Implementation of Conjoint Analysis Method
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/AlgDesign sci-CRAN/ggplot2 sci-CRAN/broom virtual/cluster sci-CRAN/fpc sci-CRAN/ggfortify dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/conjoint_1.42.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=91fddc30fca79bbf3dd3477c43d42e7a

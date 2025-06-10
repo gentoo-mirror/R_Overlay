@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/statmod >=sci-CRAN/Rcpp-0.11.5 virtual/nlme virtual/survival dev-lang/R:=
+DESCRIPTION=Semiparametric Joint Modeling of... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/statmod >=sci-CRAN/Rcpp-0.11.5 virtual/nlme virtual/survival sci-CRAN/Rcpp sci-CRAN/RcppEigen r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/JSM_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2e9e260ceb5228a1ead6881703dd9be9
