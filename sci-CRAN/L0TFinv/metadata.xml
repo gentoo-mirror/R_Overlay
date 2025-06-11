@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Splicing Approach to the Inverse Problem of L0 Trend Filtering
+		// Trend filtering is a widely used nonparametric method for
+		knot detection. This package provides an efficient solution for
+		L0 trend filtering, avoiding the traditional methods of using
+		Lagrange duality or Alternating Direction Method of Multipliers
+		algorithms. It employ a splicing approach that minimizes
+		L0-regularized sparse approximation by transforming the L0
+		trend filtering problem. The package excels in both efficiency
+		and accuracy of trend estimation and changepoint detection in
+		segmented functions. References: Wen et al. (2020)
+		doi:10.18637/jss.v094.i04; Zhu et al.
+		(2020)doi:10.1073/pnas.2014241117; Wen et al. (2023)
+		doi:10.1287/ijoc.2021.0313.
+	</longdescription>
+</pkgmetadata>

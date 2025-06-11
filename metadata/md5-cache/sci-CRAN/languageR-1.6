@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.2 dev-lang/R:=
+DESCRIPTION=Data Sets and Functions with Ana... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cluster r_suggests_e1071 r_suggests_hmisc r_suggests_lattice r_suggests_lme4 r_suggests_lmertest r_suggests_mass r_suggests_multcomp r_suggests_optimx r_suggests_rms r_suggests_rpart r_suggests_zipfr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.2 r_suggests_cluster? ( virtual/cluster ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_lattice? ( virtual/lattice ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_lmertest? ( sci-CRAN/lmerTest ) r_suggests_mass? ( virtual/MASS ) r_suggests_multcomp? ( sci-CRAN/multcomp ) r_suggests_optimx? ( sci-CRAN/optimx ) r_suggests_rms? ( sci-CRAN/rms ) r_suggests_rpart? ( virtual/rpart ) r_suggests_zipfr? ( sci-CRAN/zipfR ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/languageR_1.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=861f00f119e30db328c085235d8d4781

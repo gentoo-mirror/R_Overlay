@@ -1,0 +1,83 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Fast Machine Learning Model Trai... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/fastml_0.6.1.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_c50 r_suggests_crayon r_suggests_glmnet
+	r_suggests_kernlab r_suggests_kknn r_suggests_klar
+	r_suggests_lightgbm r_suggests_mixomics r_suggests_ranger
+	r_suggests_rstanarm r_suggests_testthat r_suggests_xgboost"
+R_SUGGESTS="
+	r_suggests_c50? ( sci-CRAN/C50 )
+	r_suggests_crayon? ( sci-CRAN/crayon )
+	r_suggests_glmnet? ( sci-CRAN/glmnet )
+	r_suggests_kernlab? ( sci-CRAN/kernlab )
+	r_suggests_kknn? ( sci-CRAN/kknn )
+	r_suggests_klar? ( sci-CRAN/klaR )
+	r_suggests_lightgbm? ( sci-CRAN/lightgbm )
+	r_suggests_mixomics? ( sci-BIOC/mixOmics )
+	r_suggests_ranger? ( sci-CRAN/ranger )
+	r_suggests_rstanarm? ( sci-CRAN/rstanarm )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+	r_suggests_xgboost? ( sci-CRAN/xgboost )
+"
+DEPEND="sci-CRAN/finetune
+	sci-CRAN/yardstick
+	sci-CRAN/ggplot2
+	sci-CRAN/future
+	sci-CRAN/skimr
+	sci-CRAN/ggpubr
+	sci-CRAN/magrittr
+	sci-CRAN/scales
+	sci-CRAN/doFuture
+	sci-CRAN/dplyr
+	sci-CRAN/reshape2
+	sci-CRAN/rsample
+	sci-CRAN/parsnip
+	sci-CRAN/UpSetR
+	sci-CRAN/baguette
+	sci-CRAN/recipes
+	sci-CRAN/workflows
+	sci-CRAN/tibble
+	>=dev-lang/R-3.5.0
+	sci-CRAN/discrim
+	sci-CRAN/purrr
+	sci-CRAN/tune
+	sci-CRAN/patchwork
+	sci-CRAN/broom
+	sci-CRAN/mice
+	sci-CRAN/plsmod
+	sci-CRAN/knitr
+	sci-CRAN/rmarkdown
+	sci-CRAN/viridisLite
+	sci-CRAN/RColorBrewer
+	sci-CRAN/stringr
+	sci-CRAN/pROC
+	sci-CRAN/dbscan
+	sci-CRAN/missForest
+	sci-CRAN/naniar
+	sci-CRAN/bonsai
+	sci-CRAN/plotly
+	sci-CRAN/rlang
+	sci-CRAN/janitor
+	sci-CRAN/gridExtra
+	sci-CRAN/VIM
+	sci-CRAN/kableExtra
+	sci-CRAN/htmlwidgets
+	sci-CRAN/dials
+	sci-CRAN/DT
+	sci-CRAN/GGally
+	sci-CRAN/tidyr
+	sci-CRAN/moments
+	sci-CRAN/DALEX
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+
+_UNRESOLVED_PACKAGES=( 'sci-CRAN/keras' )

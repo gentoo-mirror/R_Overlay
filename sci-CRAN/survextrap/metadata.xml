@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Flexible Parametric Survival Modelling and Extrapolation
+		// Survival analysis using a flexible Bayesian model for
+		individual-level right-censored data, optionally combined with
+		aggregate data on counts of survivors in different periods of
+		time. An M-spline is used to describe the hazard function, with
+		a prior on the coefficients that controls over-fitting.
+		Proportional hazards or flexible non-proportional hazards
+		models can be used to relate survival to predictors. Additive
+		hazards (relative survival) models, waning treatment effects,
+		and mixture cure models are also supported. Priors can be
+		customised and calibrated to substantive beliefs. Posterior
+		distributions are estimated using 'Stan', and outputs are
+		arranged in a tidy format. See Jackson (2023)
+		doi:10.1186/s12874-023-02094-1.
+	</longdescription>
+</pkgmetadata>

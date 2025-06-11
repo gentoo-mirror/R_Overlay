@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.10.3 virtual/Matrix >=sci-CRAN/geiger-2.0 sci-CRAN/mnormt >=sci-CRAN/ape-3.0.6 sci-CRAN/phytools sci-CRAN/coda >=dev-lang/R-2.15.0 sci-CRAN/assertthat sci-CRAN/denstrip sci-CRAN/foreach sci-CRAN/fitdistrplus virtual/MASS dev-lang/R:=
+DESCRIPTION=Bayesian Fitting of Ornstein-Uhl... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-0.10.3 virtual/Matrix >=sci-CRAN/geiger-2.0 sci-CRAN/mnormt >=sci-CRAN/ape-3.0.6 sci-CRAN/phytools sci-CRAN/coda >=dev-lang/R-2.15.0 sci-CRAN/assertthat sci-CRAN/denstrip sci-CRAN/foreach sci-CRAN/fitdistrplus virtual/MASS sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bayou_2.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=76b007989c81cfcf189d00812ddf2890

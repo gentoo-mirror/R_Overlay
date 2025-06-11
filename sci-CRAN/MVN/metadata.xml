@@ -2,11 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Multivariate Normality Tests // A suite of multivariate normality
-		tests (Mardia, HenzeZirkler, Royston, DoornikHansen, Energy),
-		univariate diagnostics, robust outlier detection, bivariate
-		density plots, and BoxCox transformations (Korkmaz et al,
-		(2014), https://journal.r-project.org/archive/2014-2/korkmaz-
-		goksuluk-zararsiz.pdf).
+		Multivariate Normality Tests // A comprehensive suite for
+		assessing multivariate normality using six statistical tests
+		(Mardia, HenzeZirkler, HenzeWagner, Royston, DoornikHansen,
+		Energy). Also includes univariate diagnostics, bivariate
+		density visualization, robust outlier detection, power
+		transformations (e.g., BoxCox, YeoJohnson), and imputation
+		strategies ("mean", "median", "mice") for handling missing
+		data. Bootstrap resampling is supported for selected tests to
+		improve p-value accuracy in small samples. Diagnostic plots are
+		available via both 'ggplot2' and interactive 'plotly'
+		visualizations. See Korkmaz et al. (2014)
+		https://journal.r-project.org/archive/2014-2/korkmaz-goksuluk-
+		zararsiz.pdf.
 	</longdescription>
 </pkgmetadata>
