@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/geosphere >=sci-CRAN/PAMmisc-1.12.4 sci-CRAN/purrr sci-CRAN/future_apply sci-CRAN/ncdf4 sci-CRAN/tuneR >=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/lubridate >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/sf sci-CRAN/scales sci-CRAN/tidyr sci-CRAN/httr sci-CRAN/DT sci-CRAN/rlang sci-CRAN/signal sci-CRAN/shiny sci-CRAN/data_table sci-CRAN/tdigest dev-lang/R:=
+DESCRIPTION=Tools for Summarising and Analys... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/geosphere >=sci-CRAN/PAMmisc-1.12.4 sci-CRAN/purrr sci-CRAN/future_apply sci-CRAN/ncdf4 sci-CRAN/tuneR >=dev-lang/R-3.5.0 sci-CRAN/dplyr sci-CRAN/lubridate >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/sf sci-CRAN/scales sci-CRAN/tidyr sci-CRAN/httr sci-CRAN/DT sci-CRAN/rlang sci-CRAN/signal sci-CRAN/shiny sci-CRAN/data_table sci-CRAN/tdigest r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PAMscapes_0.14.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=44b099a096ce2f7ff41e847d474ef905

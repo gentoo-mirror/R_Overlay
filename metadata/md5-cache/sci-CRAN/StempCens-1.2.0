@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp sci-CRAN/mvtnorm sci-CRAN/ggplot2 sci-CRAN/MCMCglmm sci-CRAN/tmvtnorm sci-CRAN/Rdpack dev-lang/R:=
+DESCRIPTION=Spatio-Temporal Estimation and P... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/Rcpp sci-CRAN/mvtnorm sci-CRAN/ggplot2 sci-CRAN/MCMCglmm sci-CRAN/tmvtnorm sci-CRAN/Rdpack sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/StempCens_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d92cd5aca991625c1eb7b1bb627cce52

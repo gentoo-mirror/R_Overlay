@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/spdep sci-CRAN/plm sci-CRAN/quantreg virtual/spatial sci-CRAN/GWmodel dev-lang/R:=
+DESCRIPTION=Spatial Constrained Clusterwise Regression
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/spdep sci-CRAN/plm sci-CRAN/quantreg virtual/spatial sci-CRAN/GWmodel r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SpatialRegimes_1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a6c3456399c532a6dd21a4ba19121dec

@@ -3,15 +3,14 @@
 <pkgmetadata>
 	<longdescription>
 		Spatio-Temporal Estimation and Prediction for Censored/Missing
-		Responses // It estimates the parameters of a censored or
-		missing data in spatio-temporal models using the SAEM algorithm
+		Responses // It estimates the parameters of spatio-temporal
+		models with censored or missing data using the SAEM algorithm
 		(Delyon et al., 1999). This algorithm is a stochastic
-		approximation of the widely used EM algorithm and an important
-		tool for models in which the E-step does not have an analytic
-		form. Besides the expressions obtained to estimate the
-		parameters to the proposed model, we include the calculations
-		for the observed information matrix using the method developed
-		by Louis (1982). To examine the performance of the fitted
-		model, case-deletion measure are provided.
+		approximation of the widely used EM algorithm and is
+		particularly valuable for models in which the E-step lacks a
+		closed-form expression. It also provides a function to compute
+		the observed information matrix using the method developed by
+		Louis (1982). To assess the performance of the fitted model,
+		case-deletion diagnostics are provided.
 	</longdescription>
 </pkgmetadata>
