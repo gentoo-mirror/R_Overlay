@@ -6,6 +6,12 @@
 		Function // Implements a two-stage estimation approach for Cox
 		regression using five-parameter M-spline functions to model the
 		baseline hazard. It allows for flexible hazard shapes and model
-		selection based on log-likelihood criteria.
+		selection based on log-likelihood criteria as described in
+		Teranishi et al.(2025). In addition, the package provides
+		functions for constructing and evaluating B-spline copulas
+		based on five M-spline or I-spline basis functions, allowing
+		users to flexibly model and compute bivariate dependence
+		structures. Both the copula function and its density can be
+		evaluated.
 	</longdescription>
 </pkgmetadata>

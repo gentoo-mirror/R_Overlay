@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/logger dev-lang/R:=
+DESCRIPTION=Compute Maps and Properties of Polar Zonoids
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_equatags r_suggests_flextable r_suggests_knitr r_suggests_magick r_suggests_pdftools r_suggests_rgl r_suggests_rmarkdown r_suggests_zonohedra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/logger r_suggests_equatags? ( sci-CRAN/equatags ) r_suggests_flextable? ( sci-CRAN/flextable ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_pdftools? ( sci-CRAN/pdftools ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_zonohedra? ( sci-CRAN/zonohedra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/polarzonoid_0.1-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e1da705afd98b8946e8192770b0eae0c

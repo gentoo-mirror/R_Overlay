@@ -3,17 +3,18 @@
 <pkgmetadata>
 	<longdescription>
 		Quantitative Polymerase Chain Reaction (qPCR) Data Mining and
-		Machine Learning Toolkit // Extracts features from
-		amplification curve data of quantitative Polymerase Chain
-		Reactions (qPCR) (Pabinger S. et al. (2014)
-		doi:10.1016/j.bdq.2014.08.002) for machine learning purposes.
-		Helper functions prepare the amplification curve data for
-		processing as functional data (e.g., Hausdorff distance) or
-		enable the plotting of amplification curve classes (negative,
-		ambiguous, positive). The hookreg() and hookregNL() functions
-		(Burdukiewicz M. et al. (2018) doi:10.1016/j.bdq.2018.08.001)
-		can be used to predict amplification curves with an hook
-		effect-like curvature. The pcrfit_single() function can be used
-		to extract features from an amplification curve.
+		Machine Learning Toolkit as Described in Burdukiewicz (2022)
+		doi:10.21105/Joss.04407 // Extracts features from amplification
+		curve data of quantitative Polymerase Chain Reactions (qPCR)
+		according to Pabinger et al. 2014 doi:10.1016/j.bdq.2014.08.002
+		for machine learning purposes. Helper functions prepare the
+		amplification curve data for processing as functional data
+		(e.g., Hausdorff distance) or enable the plotting of
+		amplification curve classes (negative, ambiguous, positive).
+		The hookreg() and hookregNL() functions of Burdukiewicz et al.
+		(2018) doi:10.1016/j.bdq.2018.08.001 can be used to predict
+		amplification curves with an hook effect-like curvature. The
+		pcrfit_single() function can be used to extract features from
+		an amplification curve.
 	</longdescription>
 </pkgmetadata>
