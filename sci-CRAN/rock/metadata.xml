@@ -5,13 +5,20 @@
 		Reproducible Open Coding Kit // The Reproducible Open Coding Kit
 		('ROCK', and this package, 'rock') was developed to facilitate
 		reproducible and open coding, specifically geared towards
-		qualitative research methods. Although it is a general-purpose
-		toolkit, three specific applications have been implemented,
-		specifically an interface to the 'rENA' package that implements
-		Epistemic Network Analysis ('ENA'), means to process notes from
-		Cognitive Interviews ('CIs'), and means to work with
-		decentralized construct taxonomies ('DCTs'). The 'ROCK' and
-		this 'rock' package are described in the ROCK book
-		https:rockbook.org.
+		qualitative research methods. It was developed to be both
+		human- and machine-readable, in the spirit of MarkDown and
+		'YAML'. The idea is that this makes it relatively easy to write
+		other functions and packages to process 'ROCK' files. The
+		'rock' package contains functions for basic coding and
+		analysis, such as collecting and showing coded fragments and
+		prettifying sources, as well as a number of advanced analyses
+		such as the Qualitative Network Approach and
+		Qualitative/Unified Exploration of State Transitions. The
+		'ROCK' and this 'rock' package are described in the ROCK book
+		(Zrg  Peters, 2022; https://rockbook.org), in Zrg  Peters
+		(2024) doi:10.1080/21642850.2022.2119144 and Peters, Zrg and
+		van der Maas (2022) doi:10.31234/osf.io/cvf52, and more
+		information and tutorials are available at
+		https://rock.science.
 	</longdescription>
 </pkgmetadata>

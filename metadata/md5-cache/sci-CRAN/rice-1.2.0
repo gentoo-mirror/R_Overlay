@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/rlang >=sci-CRAN/rintcal-1.2.1 >=sci-CRAN/maps-3.4.2.1 dev-lang/R:=
+DESCRIPTION=Radiocarbon Equations
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_copernicusmarine r_suggests_devtools r_suggests_htmltools r_suggests_knitr r_suggests_leaflet r_suggests_remotes r_suggests_rmarkdown r_suggests_rnaturalearthdata r_suggests_sf r_suggests_testthat r_suggests_utf8 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/rlang >=sci-CRAN/rintcal-1.2.1 >=sci-CRAN/maps-3.4.2.1 r_suggests_copernicusmarine? ( sci-CRAN/CopernicusMarine ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_htmltools? ( sci-CRAN/htmltools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_remotes? ( sci-CRAN/remotes ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rnaturalearthdata? ( sci-CRAN/rnaturalearthdata ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_utf8? ( sci-CRAN/utf8 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rice_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ccd89f80a74c660a4e3dce03b0d2d815
