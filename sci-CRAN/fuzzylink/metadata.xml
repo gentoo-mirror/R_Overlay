@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Probabilistic Record Linkage Using Pretrained Text Embeddings //
+		Links datasets through fuzzy string matching using pretrained
+		text embeddings. Produces more accurate record linkage when
+		lexical string distance metrics are a poor guide to match
+		quality (e.g., "Patricia" is more lexically similar to
+		"Patrick" than it is to "Trish"). Capable of performing
+		multilingual record linkage. Methods are described in Ornstein
+		(2025)
+		https://joeornstein.github.io/publications/fuzzylink.pdf.
+	</longdescription>
+</pkgmetadata>

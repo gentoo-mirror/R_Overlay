@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rstudioapi >=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/arrow sci-CRAN/doSNOW sci-CRAN/foreach sci-CRAN/progress sci-CRAN/data_table sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Simulation of Life Reinsurance w... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rstudioapi >=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/magrittr sci-CRAN/arrow sci-CRAN/doSNOW sci-CRAN/foreach sci-CRAN/progress sci-CRAN/data_table sci-CRAN/stringr r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/volrisk_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bcee401ffc2870e24c544cb648522e35
