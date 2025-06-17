@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 sci-CRAN/igraph sci-CRAN/Rcpp sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/pracma sci-CRAN/gsl dev-lang/R:=
+DESCRIPTION=Network Analysis of Dependencies of CRAN Packages
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_tibble r_suggests_visnetwork byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.4 sci-CRAN/igraph sci-CRAN/Rcpp sci-CRAN/dplyr sci-CRAN/stringr sci-CRAN/pracma sci-CRAN/gsl sci-CRAN/Rcpp app-text/pandoc sci-CRAN/RcppArmadillo r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_visnetwork? ( sci-CRAN/visNetwork ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/crandep_0.3.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a168c0b5305432607d49558d6c13b01a

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/crayon sci-CRAN/ggplot2 sci-CRAN/ggbeeswarm sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Contextual Importance and Utility
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_gbm r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/crayon sci-CRAN/ggplot2 sci-CRAN/ggbeeswarm sci-CRAN/Rcpp r_suggests_caret? ( sci-CRAN/caret ) r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ciu_0.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5bfbcfa0bbccae5d071ea241bbbf2a25
