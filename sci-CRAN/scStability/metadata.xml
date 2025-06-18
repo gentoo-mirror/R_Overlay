@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Measuring the Stability of Dimension Reduction and Cluster
+		Assignment in scRNA-Seq Experiments // Provides functions for
+		evaluating the stability of low-dimensional embeddings and
+		cluster assignments in singlecell RNA sequencing (scRNAseq)
+		datasets. Starting from a principal component analysis (PCA)
+		object, users can generate multiple replicates of tDistributed
+		Stochastic Neighbor Embedding (tSNE) or Uniform Manifold
+		Approximation and Projection (UMAP) embeddings. Embedding
+		stability is quantified by computing pairwise Kendalls Tau
+		correlations across replicates and summarizing the distribution
+		of correlation coefficients. In addition to dimensionality
+		reduction, 'scStability' assesses clustering consistency using
+		either Louvain or Leiden algorithms and calculating the
+		Normalized Mutual Information (NMI) between all pairs of
+		cluster assignments. For background on UMAP and t-SNE
+		algorithms, see McInnes et al. (2020, doi:10.21105/joss.00861)
+		and van der Maaten  Hinton (2008,
+		https://lvdmaaten.github.io/tsne/), respectively.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/httr2 sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/memoise sci-CRAN/prettyunits sci-CRAN/purrr sci-CRAN/readr sci-CRAN/stringr sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Import Human Gene Nomenclature
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lubridate r_suggests_spelling r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/httr2 sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/memoise sci-CRAN/prettyunits sci-CRAN/purrr sci-CRAN/readr sci-CRAN/stringr sci-CRAN/tibble r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hgnc_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=93321e73615ba1569a8d4906d77d6840

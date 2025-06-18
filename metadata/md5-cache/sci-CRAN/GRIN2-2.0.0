@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/data_table sci-CRAN/circlize sci-CRAN/stringr >=dev-lang/R-4.2.0 sci-CRAN/dplyr sci-CRAN/forcats sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/tidyselect sci-CRAN/writexl virtual/survival dev-lang/R:=
+DESCRIPTION=Genomic Random Interval (GRIN)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biomart r_suggests_gridgraphics r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/tibble sci-CRAN/data_table sci-CRAN/circlize sci-CRAN/stringr >=dev-lang/R-4.2.0 sci-CRAN/dplyr sci-CRAN/forcats sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/tidyselect sci-CRAN/writexl virtual/survival r_suggests_biomart? ( sci-BIOC/biomaRt ) r_suggests_gridgraphics? ( sci-CRAN/gridGraphics ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GRIN2_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dc9308de2bdf4b087497934fec4691d8

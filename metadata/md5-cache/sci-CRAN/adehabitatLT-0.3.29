@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ade4 sci-CRAN/adehabitatMA sci-CRAN/sp dev-lang/R:=
+DESCRIPTION=Analysis of Animal Movements
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_tkrplot byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ade4 sci-CRAN/adehabitatMA sci-CRAN/sp r_suggests_mass? ( virtual/MASS ) r_suggests_tkrplot? ( sci-CRAN/tkrplot ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/adehabitatLT_0.3.29.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=627a8672820c7dea79e3fe00901d62d1
