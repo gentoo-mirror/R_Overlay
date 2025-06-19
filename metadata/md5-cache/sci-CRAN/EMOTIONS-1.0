@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2 sci-CRAN/orthopolynom sci-CRAN/minpack_lm sci-CRAN/dplyr sci-CRAN/quantreg sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/ggridges sci-CRAN/parameters sci-CRAN/rlang sci-CRAN/tidyselect dev-lang/R:=
+DESCRIPTION=EMOTIONS: Ensemble Models for Lactation Curves
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.2 sci-CRAN/orthopolynom sci-CRAN/minpack_lm sci-CRAN/dplyr sci-CRAN/quantreg sci-CRAN/tidyr sci-CRAN/ggplot2 sci-CRAN/ggridges sci-CRAN/parameters sci-CRAN/rlang sci-CRAN/tidyselect r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EMOTIONS_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c0f2fc04e08df7afa10d0b2bf7b71d36

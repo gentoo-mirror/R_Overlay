@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 virtual/Matrix sci-CRAN/stabledist sci-CRAN/mvtnorm sci-CRAN/libstable4u sci-CRAN/cubature virtual/Matrix dev-lang/R:=
+DESCRIPTION=Multivariate Product Distributio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_expint r_suggests_invgamma r_suggests_knitr r_suggests_lnpar r_suggests_rgl r_suggests_rmarkdown r_suggests_scales r_suggests_testthat r_suggests_uniformly r_suggests_vgamextra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.4.0 virtual/Matrix sci-CRAN/stabledist sci-CRAN/mvtnorm sci-CRAN/libstable4u sci-CRAN/cubature virtual/Matrix r_suggests_expint? ( sci-CRAN/expint ) r_suggests_invgamma? ( sci-CRAN/invgamma ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lnpar? ( sci-CRAN/LNPar ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_uniformly? ( sci-CRAN/uniformly ) r_suggests_vgamextra? ( sci-CRAN/VGAMextra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mvpd_0.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=85605a403ed001c6645a2d119a53e6b2

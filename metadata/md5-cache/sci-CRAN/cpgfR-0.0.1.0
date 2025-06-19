@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/data_table sci-CRAN/lubridate sci-CRAN/osfr sci-CRAN/stringr sci-CRAN/deflateBR sci-CRAN/curl dev-lang/R:=
+DESCRIPTION=Consolidates Information from th... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/data_table sci-CRAN/lubridate sci-CRAN/osfr sci-CRAN/stringr sci-CRAN/deflateBR sci-CRAN/curl dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cpgfR_0.0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=26a761fcafe799c867986e1f01ad63a5

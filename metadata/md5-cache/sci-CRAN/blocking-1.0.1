@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix >=dev-lang/R-4.1.0 sci-CRAN/RcppAnnoy sci-CRAN/RcppHNSW sci-CRAN/tokenizers sci-CRAN/text2vec sci-CRAN/mlpack sci-CRAN/rnndescent sci-CRAN/igraph sci-CRAN/data_table sci-CRAN/readr dev-lang/R:=
+DESCRIPTION=Various Blocking Methods for Entity Resolution
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_reclin2 r_suggests_rmarkdown r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix >=dev-lang/R-4.1.0 sci-CRAN/RcppAnnoy sci-CRAN/RcppHNSW sci-CRAN/tokenizers sci-CRAN/text2vec sci-CRAN/mlpack sci-CRAN/rnndescent sci-CRAN/igraph sci-CRAN/data_table sci-CRAN/readr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_reclin2? ( sci-CRAN/reclin2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/blocking_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=783e00cefaaeb78503636f42cb50b69f

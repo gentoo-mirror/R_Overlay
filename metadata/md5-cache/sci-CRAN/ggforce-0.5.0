@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/polyclip sci-CRAN/withr sci-CRAN/systemfonts sci-CRAN/tidyselect >=dev-lang/R-3.3.0 sci-CRAN/lifecycle >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/scales virtual/MASS >=sci-CRAN/tweenr-0.1.5 sci-CRAN/gtable sci-CRAN/rlang sci-CRAN/cli sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=Accelerating ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_deldir r_suggests_latex2exp r_suggests_reshape2 r_suggests_sessioninfo r_suggests_units byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/polyclip sci-CRAN/withr sci-CRAN/systemfonts sci-CRAN/tidyselect >=dev-lang/R-3.3.0 sci-CRAN/lifecycle >=sci-CRAN/ggplot2-3.5.0 sci-CRAN/scales virtual/MASS >=sci-CRAN/tweenr-0.1.5 sci-CRAN/gtable sci-CRAN/rlang sci-CRAN/cli sci-CRAN/vctrs sci-CRAN/cpp11 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_latex2exp? ( sci-CRAN/latex2exp ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_sessioninfo? ( sci-CRAN/sessioninfo ) r_suggests_units? ( >=sci-CRAN/units-0.8.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggforce_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=af8310615ba335de91c0c4821522c861

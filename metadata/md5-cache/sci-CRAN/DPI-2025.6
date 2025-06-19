@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/glue sci-CRAN/cli sci-CRAN/ggplot2 sci-CRAN/crayon sci-CRAN/qgraph dev-lang/R:=
+DESCRIPTION=The Directed Prediction Index
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_brucer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/glue sci-CRAN/cli sci-CRAN/ggplot2 sci-CRAN/crayon sci-CRAN/qgraph r_suggests_brucer? ( sci-CRAN/bruceR ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DPI_2025.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c51e5904f17ee1a4c7e670fdfaf6c1fc
