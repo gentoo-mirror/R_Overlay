@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		"Register In- and Outputs for Workflow Visualization" // Provides
+		tools for extracting and processing structured annotations from
+		'R' and 'Python' source files to facilitate workflow
+		visualization. The package scans source files for special 'PUT'
+		annotations that define nodes, connections, and metadata within
+		a data processing workflow. These annotations can then be used
+		to generate visual representations of data flows and processing
+		steps across polyglot software environments. Builds on concepts
+		from literate programming Knuth (1984)
+		doi:10.1093/comjnl/27.2.97 and utilizes directed acyclic graph
+		(DAG) theory for workflow representation Foraita, Spallek, and
+		Zeeb (2014) doi:10.1007/978-0-387-09834-0_65. Diagram
+		generation powered by 'Mermaid' Sveidqvist (2014)
+		https://mermaid.js.org/.
+	</longdescription>
+</pkgmetadata>

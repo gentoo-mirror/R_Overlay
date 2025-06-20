@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bivariate Additive Marginal Regression for Categorical Responses
+		// Bivariate additive categorical regression via penalized
+		maximum likelihood. Under a multinomial framework, the method
+		fits bivariate models where both responses are nominal,
+		ordinal, or a mix of the two. Partial proportional odds models
+		are supported, with flexible (non-)uniform association
+		structures. Various logit types and parametrizations can be
+		specified for both marginals and the association, including
+		Dales model. The association structure can be regularized using
+		polynomial-type penalty terms. Additive effects are modeled
+		using P-splines. Standard methods such as summary(),
+		residuals(), and predict() are available.
+	</longdescription>
+</pkgmetadata>

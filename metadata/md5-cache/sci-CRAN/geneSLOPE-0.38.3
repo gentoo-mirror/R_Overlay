@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.3 sci-CRAN/SLOPE sci-CRAN/ggplot2 sci-CRAN/bigmemory dev-lang/R:=
+DESCRIPTION=Genome-Wide Association Study with SLOPE
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1.3 sci-CRAN/SLOPE sci-CRAN/ggplot2 sci-CRAN/bigmemory r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/geneSLOPE_0.38.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2512adacc2ce63248292ceeeb69cc5ee

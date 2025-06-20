@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/rdd dev-lang/R:=
+DESCRIPTION=Equivalence Testing Functions
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/data_table sci-CRAN/rdd dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/eqtesting_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d46c58f13f7c1c9c40788031c7ebaae2
