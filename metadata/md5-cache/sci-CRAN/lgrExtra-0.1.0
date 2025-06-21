@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/lgr sci-CRAN/R6 dev-lang/R:=
+DESCRIPTION=Extra Appenders for lgr
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dbi r_suggests_elastic r_suggests_gmailr r_suggests_httr2 r_suggests_jsonlite r_suggests_knitr r_suggests_paws_management r_suggests_pool r_suggests_rmarkdown r_suggests_rpostgres r_suggests_rsqlite r_suggests_rsyslog r_suggests_sendmailr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/data_table sci-CRAN/lgr sci-CRAN/R6 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dbi? ( sci-CRAN/DBI ) r_suggests_elastic? ( sci-CRAN/elastic ) r_suggests_gmailr? ( sci-CRAN/gmailr ) r_suggests_httr2? ( sci-CRAN/httr2 ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_paws_management? ( >=sci-CRAN/paws_management-0.4.0 ) r_suggests_pool? ( sci-CRAN/pool ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpostgres? ( sci-CRAN/RPostgres ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_rsyslog? ( sci-CRAN/rsyslog ) r_suggests_sendmailr? ( sci-CRAN/sendmailR ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lgrExtra_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5c5106bbe0c6b3f793c1d86f073bbffa

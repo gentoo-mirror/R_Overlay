@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gridExtra sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/rootSolve sci-CRAN/cubature sci-CRAN/Rdpack virtual/nlme sci-CRAN/patchwork sci-CRAN/scales sci-CRAN/ggplot2 sci-CRAN/future_apply dev-lang/R:=
+DESCRIPTION=Non-Linear Mixed Effects Model B... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/gridExtra sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/rootSolve sci-CRAN/cubature sci-CRAN/Rdpack virtual/nlme sci-CRAN/patchwork sci-CRAN/scales sci-CRAN/ggplot2 sci-CRAN/future_apply dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gammaFuncModel_5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2ba6ef2f9d21a470653dc8fbc7603a6e
