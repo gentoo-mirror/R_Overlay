@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS virtual/lattice dev-lang/R:=
+DESCRIPTION=Functions and Datasets for Forest Analytics with R
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/MASS virtual/lattice dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FAwR_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0ae21656b808e7259e4f1b0c59e27177
