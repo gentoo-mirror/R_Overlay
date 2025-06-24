@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.5.0 dev-lang/R:=
+DESCRIPTION=Nonparametric Kernel Estimation ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_chron r_suggests_date r_suggests_evir byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.5.0 r_suggests_chron? ( sci-CRAN/chron ) r_suggests_date? ( sci-CRAN/date ) r_suggests_evir? ( sci-CRAN/evir ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/kerdiest_1.3-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=42846c95d6d66375fac2ee83c359613c

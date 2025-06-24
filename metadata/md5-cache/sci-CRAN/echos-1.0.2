@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/fabletools-0.3.0 sci-CRAN/tsibble >=sci-CRAN/Rcpp-1.0.3 sci-CRAN/RcppArmadillo sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/rlang sci-CRAN/distributional dev-lang/R:=
+DESCRIPTION=Echo State Networks for Time Ser... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fable r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/fabletools-0.3.0 sci-CRAN/tsibble >=sci-CRAN/Rcpp-1.0.3 sci-CRAN/RcppArmadillo sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/rlang sci-CRAN/distributional sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_fable? ( sci-CRAN/fable ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/echos_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7e3ca17850832552866296f421221809

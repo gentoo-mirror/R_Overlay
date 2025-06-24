@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Diffusion Non-Additive Model with Tunable Precision // Performs
+		Diffusion Non-Additive (DNA) model proposed by Heo, Boutelet,
+		and Sung (2025+) doi:10.48550/arXiv.2506.08328 for multi-
+		fidelity computer experiments with tuning parameters. The DNA
+		model captures nonlinear dependencies across fidelity levels
+		using Gaussian process priors and is particularly effective
+		when simulations at different fidelity levels are nonlinearly
+		correlated. The DNA model targets not only interpolation across
+		given fidelity levels but also extrapolation to smaller tuning
+		parameters including the exact solution corresponding to a
+		zero-valued tuning parameter, leveraging a nonseparable
+		covariance kernel structure that models interactions between
+		the tuning parameter and input variables. Closed-form
+		expressions for the predictive mean and variance enable
+		efficient inference and uncertainty quantification.
+		Hyperparameters in the model are estimated via maximum
+		likelihood estimation.
+	</longdescription>
+</pkgmetadata>
