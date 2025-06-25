@@ -14,6 +14,11 @@
 		analyses. The package was designed for screening daily
 		streamflow time series from Water Survey Canada and the United
 		States Geological Survey but will also work with streamflow
-		time series from many other agencies.
+		time series from many other agencies. Package update to version
+		2.0 made updates to read.flows function to allow loading of
+		GRDC and ROBIN streamflow record formats. This package uses the
+		`changepoint` package for change point detection. For more
+		information on change point methods, see the changepoint
+		package at https://cran.r-project.org/package=changepoint.
 	</longdescription>
 </pkgmetadata>
