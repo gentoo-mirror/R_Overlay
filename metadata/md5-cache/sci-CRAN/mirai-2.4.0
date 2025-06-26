@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 dev-lang/R:=
+DESCRIPTION=Minimalist Async Evaluation Framework for R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cli r_suggests_litedown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6 r_suggests_cli? ( sci-CRAN/cli ) r_suggests_litedown? ( sci-CRAN/litedown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mirai_2.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f7fe7d5357dff6fe257386741a4fe8dc

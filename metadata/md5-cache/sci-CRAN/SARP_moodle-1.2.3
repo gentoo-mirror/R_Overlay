@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/base64enc sci-CRAN/magick dev-lang/R:=
+DESCRIPTION=XML Output Functions for Easy Cr... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_openxlsx r_suggests_readods byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=sci-CRAN/base64enc sci-CRAN/magick r_suggests_openxlsx? ( sci-CRAN/openxlsx ) r_suggests_readods? ( sci-CRAN/readODS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SARP.moodle_1.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=219403e902e6cc2aa9a09193f823018d
