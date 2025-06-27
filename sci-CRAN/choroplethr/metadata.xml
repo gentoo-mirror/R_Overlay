@@ -2,15 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Simplify the Creation of Choropleth Maps // Choropleths are
-		thematic maps where geographic regions, such as states, are
-		colored according to some metric, such as the number of people
-		who live in that state. This package simplifies this process by
-		1. Providing ready-made functions for creating choropleths of
-		common maps. 2. Providing data and API connections to
-		interesting data sources for making choropleths. 3. Providing a
-		framework for creating choropleths from arbitrary shapefiles.
-		4. Overlaying those maps over reference maps from 'Google
-		Maps'.
+		Create Color-Coded Choropleth Maps in R // Easily create color-
+		coded (choropleth) maps in R. No knowledge of cartography or
+		shapefiles needed; go directly from your geographically
+		identified data to a highly customizable map with a single line
+		of code! Supported geographies: U.S. states, counties, and
+		census tracts, world countries and sub-country regions (e.g.,
+		provinces, prefectures, etc.). One of the suggested packages,
+		rnaturalearthhires, is not available on CRAN owing to its
+		larger filesize (40MB). It can be installed from GitHub using r
+		emotes::install_github("https://github.com/ropensci/rnaturalear
+		thhires"). This package contains higher resolution sub-country
+		maps and is only needed for the choropleth_admin1() function.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ucminf sci-CRAN/cli >=dev-lang/R-4.0.0 sci-CRAN/lbfgsb3c sci-CRAN/checkmate sci-CRAN/numDeriv >=sci-CRAN/oeli-0.7.2 sci-CRAN/pracma sci-CRAN/R6 sci-CRAN/TestFunctions dev-lang/R:=
+DESCRIPTION=Unified Framework for Numerical Optimizers
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ucminf sci-CRAN/cli >=dev-lang/R-4.0.0 sci-CRAN/lbfgsb3c sci-CRAN/checkmate sci-CRAN/numDeriv >=sci-CRAN/oeli-0.7.2 sci-CRAN/pracma sci-CRAN/R6 sci-CRAN/TestFunctions r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/optimizeR_1.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fa7f364d06f28d96b67a243902f612de

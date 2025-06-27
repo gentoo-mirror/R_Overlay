@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS >=sci-CRAN/lavaan-0.6.17 >=dev-lang/R-3.5.0 >=sci-CRAN/igraph-1.0.0 sci-CRAN/data_tree >=sci-CRAN/qgraph-1.9.8 >=sci-CRAN/MIIVsem-0.5.4 >=sci-CRAN/imputeTS-3.0 sci-CRAN/nloptr sci-CRAN/tseries dev-lang/R:=
+DESCRIPTION=Group Iterative Multiple Model Estimation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/MASS >=sci-CRAN/lavaan-0.6.17 >=dev-lang/R-3.5.0 >=sci-CRAN/igraph-1.0.0 sci-CRAN/data_tree >=sci-CRAN/qgraph-1.9.8 >=sci-CRAN/MIIVsem-0.5.4 >=sci-CRAN/imputeTS-3.0 sci-CRAN/nloptr sci-CRAN/tseries r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gimme_0.9.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0a99e1ad454648138513e162c5a21b92
