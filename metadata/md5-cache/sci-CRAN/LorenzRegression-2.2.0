@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-0.11.0 >=dev-lang/R-3.3.1 virtual/boot sci-CRAN/ggplot2 sci-CRAN/parsnip sci-CRAN/rsample sci-CRAN/doParallel sci-CRAN/foreach virtual/MASS sci-CRAN/GA sci-CRAN/Rearrangement sci-CRAN/progress dev-lang/R:=
+DESCRIPTION=Lorenz and Penalized Lorenz Regressions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/Rcpp-0.11.0 >=dev-lang/R-3.3.1 virtual/boot sci-CRAN/ggplot2 sci-CRAN/parsnip sci-CRAN/rsample sci-CRAN/doParallel sci-CRAN/foreach virtual/MASS sci-CRAN/GA sci-CRAN/Rearrangement sci-CRAN/progress sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LorenzRegression_2.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a1e1713cedac5585eaf1811ad6d9f4fd

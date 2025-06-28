@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/sandwich dev-lang/R:=
+DESCRIPTION=GCC Estimation of the Multilevel Factor Model
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_plm byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/stringr sci-CRAN/sandwich r_suggests_plm? ( sci-CRAN/plm ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GCCfactor_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=aff4aa9930021c1ad5aa2dd6fcf99627

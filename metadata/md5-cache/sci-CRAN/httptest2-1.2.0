@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/digest sci-CRAN/rlang sci-CRAN/jsonlite sci-CRAN/testthat sci-CRAN/httr2 dev-lang/R:=
+DESCRIPTION=Test Helpers for httr2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_knitr r_suggests_pkgload r_suggests_rmarkdown r_suggests_spelling r_suggests_webfakes r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/digest sci-CRAN/rlang sci-CRAN/jsonlite sci-CRAN/testthat sci-CRAN/httr2 r_suggests_curl? ( sci-CRAN/curl ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pkgload? ( sci-CRAN/pkgload ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_webfakes? ( sci-CRAN/webfakes ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/httptest2_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fad56951d31dc609d75a7fb3421f509d
