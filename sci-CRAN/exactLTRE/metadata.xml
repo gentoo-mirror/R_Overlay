@@ -14,15 +14,13 @@
 		method that directly calculates the impact on lambda of changes
 		in matrix elements, for matrix elements and their interactions.
 		The equations and descriptions for the classical methods of
-		LTRE analysis can be found in "Matrix Population Models:
-		Construction, Analysis, and Interpretation (2nd edition)"
-		Caswell (2001, ISBN: 0878930965), and the fANOVA-based exact
-		methods will be published in a forthcoming paper. We also
-		provide some demographic functions, including generation time
-		from Bienvenu and Legendre (2015) doi:10.1086/681104. For
-		implementation of exactLTRE where all possible interactions are
-		calculated, we use an operator matrix presented in Poelwijk,
-		Krishna, and Ranganathan (2016)
-		doi:10.1371/journal.pcbi.1004771.
+		LTRE analysis can be found in Caswell (2001, ISBN: 0878930965),
+		and the fANOVA-based exact methods are described in Hernandez
+		et al. (2023) doi:10.1111/2041-210X.14065. We also provide some
+		demographic functions, including generation time from Bienvenu
+		and Legendre (2015) doi:10.1086/681104. For implementation of
+		exactLTRE where all possible interactions are calculated, we
+		use an operator matrix presented in Poelwijk, Krishna, and
+		Ranganathan (2016) doi:10.1371/journal.pcbi.1004771.
 	</longdescription>
 </pkgmetadata>
