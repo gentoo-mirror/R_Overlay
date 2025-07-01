@@ -2,21 +2,22 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Risk Difference Estimation with Multiple Link Functions //
-		Calculates risk differences (or prevalence differences for
-		cross-sectional data) using generalized linear models with
-		automatic link function selection. Provides robust model
-		fitting with fallback methods, support for stratification and
-		adjustment variables, inverse probability of treatment
-		weighting (IPTW) for causal inference, and publication-ready
-		output formatting. Handles model convergence issues gracefully
-		and provides confidence intervals using multiple approaches.
-		Methods are based on approaches described in Mark W. Donoghoe
-		and Ian C. Marschner (2018) "logbin: An R Package for Relative
-		Risk Regression Using the Log-Binomial Model"
-		doi:10.18637/jss.v086.i09 for robust GLM fitting, Peter C.
-		Austin (2011) "An Introduction to Propensity Score Methods for
-		Reducing the Effects of Confounding in Observational Studies"
+		Risk Difference Estimation with Multiple Link Functions and
+		Inverse Probability of Treatment Weighting // Calculates risk
+		differences (or prevalence differences for cross-sectional
+		data) using generalized linear models with automatic link
+		function selection. Provides robust model fitting with fallback
+		methods, support for stratification and adjustment variables,
+		inverse probability of treatment weighting (IPTW) for causal
+		inference, and publication-ready output formatting. Handles
+		model convergence issues gracefully and provides confidence
+		intervals using multiple approaches. Methods are based on
+		approaches described in Mark W. Donoghoe and Ian C. Marschner
+		(2018) "logbin: An R Package for Relative Risk Regression Using
+		the Log-Binomial Model" doi:10.18637/jss.v086.i09 for robust
+		GLM fitting, Peter C. Austin (2011) "An Introduction to
+		Propensity Score Methods for Reducing the Effects of
+		Confounding in Observational Studies"
 		doi:10.1080/00273171.2011.568786 for IPTW methods, and standard
 		epidemiological methods for risk difference estimation as
 		described in Kenneth J. Rothman, Sander Greenland and Timothy
