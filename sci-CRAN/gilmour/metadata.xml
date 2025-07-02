@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		The Interpretation of Adjusted Cp Statistic // Several methods
+		may be found for selecting a subset of regressors from a set of
+		k candidate variables in multiple linear regression. One
+		possibility is to evaluate all possible regression models and
+		comparing them using Mallows's Cp statistic (Cp) according to
+		Gilmour original study. Full model is calculated, all possible
+		combinations of regressors are generated, adjusted Cp for each
+		submodel are computed, and the submodel with the minimum
+		adjusted value Cp (ModelMin) is calculated. To identify the
+		final model, the package applies a sequence of hypothesis tests
+		on submodels nested within ModelMin, following the approach
+		outlined in Gilmour's original paper. For more details see the
+		help of the function final_model() and the original study
+		(1996) doi:10.2307/2348411.
+	</longdescription>
+</pkgmetadata>

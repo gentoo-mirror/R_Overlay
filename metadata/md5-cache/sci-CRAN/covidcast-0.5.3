@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/ggplot2 sci-CRAN/MMWRweek sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/sf sci-CRAN/tidyr sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Client for Delphis COVIDcast Epidata API
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gridextra r_suggests_httptest r_suggests_knitr r_suggests_mockery r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/ggplot2 sci-CRAN/MMWRweek sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/sf sci-CRAN/tidyr sci-CRAN/xml2 r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_httptest? ( sci-CRAN/httptest ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/covidcast_0.5.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=08433747f2e857d18b6655079d9cf2f1

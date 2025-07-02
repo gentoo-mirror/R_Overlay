@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/jsonlite-1.6.1 >=sci-CRAN/purrr-0.3.3 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/httr-1.4.1 >=sci-CRAN/tidyr-1.0.0 >=sci-CRAN/plyr-1.8.6 >=sci-CRAN/tidyselect-1.2.0 dev-lang/R:=
+DESCRIPTION=Connect to Your Zendesk Data
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=>=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/jsonlite-1.6.1 >=sci-CRAN/purrr-0.3.3 >=sci-CRAN/magrittr-1.5 >=sci-CRAN/httr-1.4.1 >=sci-CRAN/tidyr-1.0.0 >=sci-CRAN/plyr-1.8.6 >=sci-CRAN/tidyselect-1.2.0 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/zdeskR_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f8ef5381d73e091181ebf22031a7067d
