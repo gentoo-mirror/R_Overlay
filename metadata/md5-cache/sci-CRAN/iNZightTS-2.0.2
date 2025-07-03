@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/patchwork sci-CRAN/fable sci-CRAN/colorspace sci-CRAN/fabletools >=dev-lang/R-4.1 sci-CRAN/rlang sci-CRAN/evaluate sci-CRAN/stringr sci-CRAN/urca sci-CRAN/glue sci-CRAN/tsibble sci-CRAN/ggtext sci-CRAN/feasts sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/lubridate >=sci-CRAN/dplyr-1.1.0 sci-CRAN/forcats dev-lang/R:=
+DESCRIPTION=Time Series for iNZight
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tibble sci-CRAN/patchwork sci-CRAN/fable sci-CRAN/colorspace sci-CRAN/fabletools >=dev-lang/R-4.1 sci-CRAN/rlang sci-CRAN/evaluate sci-CRAN/stringr sci-CRAN/urca sci-CRAN/glue sci-CRAN/tsibble sci-CRAN/ggtext sci-CRAN/feasts sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/lubridate >=sci-CRAN/dplyr-1.1.0 sci-CRAN/forcats r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/iNZightTS_2.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9d9b84535c85af0c2689e22acf26dccd

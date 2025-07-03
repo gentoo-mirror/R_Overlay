@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-BIOC/limma sci-CRAN/VSURF virtual/nnet >=dev-lang/R-4.0 sci-CRAN/glmnet sci-CRAN/mltools sci-CRAN/cp4p sci-CRAN/e1071 sci-BIOC/mixOmics sci-CRAN/ggplot2 sci-CRAN/xgboost sci-CRAN/car sci-CRAN/metap sci-CRAN/MALDIquant sci-CRAN/MALDIrppa sci-CRAN/caret virtual/foreign sci-CRAN/statmod sci-CRAN/reshape2 sci-CRAN/Boruta sci-CRAN/mclust sci-CRAN/randomForest sci-CRAN/vita sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Automated Classification of Mass Spectra
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-BIOC/limma sci-CRAN/VSURF virtual/nnet >=dev-lang/R-4.0 sci-CRAN/glmnet sci-CRAN/mltools sci-CRAN/cp4p sci-CRAN/e1071 sci-BIOC/mixOmics sci-CRAN/ggplot2 sci-CRAN/xgboost sci-CRAN/car sci-CRAN/metap sci-CRAN/MALDIquant sci-CRAN/MALDIrppa sci-CRAN/caret virtual/foreign sci-CRAN/statmod sci-CRAN/reshape2 sci-CRAN/Boruta sci-CRAN/mclust sci-CRAN/randomForest sci-CRAN/vita sci-CRAN/dplyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MSclassifR_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d166739afabc4dd6441a49ba8eb11fe1

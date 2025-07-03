@@ -9,13 +9,14 @@
 		eliminates bias inherent in conventional two-way fixed effects
 		estimators, while also employing a novel bridge regression
 		regularization approach to improve efficiency and yield valid
-		standard errors. Provides flexible tuning parameters (including
-		user-specified or data-driven choices for penalty parameters),
-		detailed output including overall and cohort-specific treatment
-		effects with confidence intervals, and extensive diagnostic
-		tools. Also provides functions for generating simulated panel
-		data formatted for estimating FETWFE, and running and
-		evaluating simulations. See details in Faletto (2025)
+		standard errors. Also implements extended TWFE (etwfe) and
+		bridge-penalized ETWFE (betwfe). Provides S3 classes for
+		streamlined workflow and supports flexible tuning (ridge and
+		rank-condition guarantees), automatic covariate
+		centering/scaling, and detailed overall and cohort-specific
+		effect estimates with valid standard errors. Includes
+		simulation and formatting utilities, extensive diagnostic
+		tools, vignettes, and examples. See Faletto (2025)
 		(doi:10.48550/arXiv.2312.05985).
 	</longdescription>
 </pkgmetadata>

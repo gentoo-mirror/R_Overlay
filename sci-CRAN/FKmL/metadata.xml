@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Frchet Distance-Based K-Means and Extensions for Longitudinal
+		Data // Implements shape-based clustering algorithms for
+		multidimensional longitudinal data based on the Frchet
+		distance. It implements two main methods: MFKmL
+		(Multidimensional Frchet distance-based K-means for
+		Longitudinal data), an extension of the K-means algorithm using
+		the Frchet distance originally developed in the 'kmlShape'
+		package, adapted for multidimensional trajectories; and SFKmL
+		(Sparse multidimensional Frchet distance-based K-medoids for
+		Longitudinal data), a K-medoids-based clustering algorithm that
+		incorporates variable selection. These tools are designed to
+		enhance clustering performance in high-dimensional longitudinal
+		data settings, particularly those with time delays, variations
+		in trajectory speed, irregular sampling intervals, and noise.
+		This package implements methods derived from Kang et al. (2023)
+		doi:10.1007/s11222-023-10237-z.
+	</longdescription>
+</pkgmetadata>
