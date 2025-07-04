@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/yacca virtual/boot sci-CRAN/plotrix sci-CRAN/miscTools dev-lang/R:=
+DESCRIPTION=Interpreting Regression Effects
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mbess byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/yacca virtual/boot sci-CRAN/plotrix sci-CRAN/miscTools r_suggests_mbess? ( sci-CRAN/MBESS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/yhat_2.0-5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6714cf1c974dd20179c7a3ff4a892a85

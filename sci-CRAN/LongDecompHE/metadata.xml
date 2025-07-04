@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Longitudinal Decomposition of Health Expectancy by Age and Cause
+		// Provides tools to decompose differences in cohort health
+		expectancy (HE) by age and cause using longitudinal data. The
+		package implements a novel longitudinal attribution method
+		based on a semiparametric additive hazards model with time-
+		dependent covariates, specifically designed to address interval
+		censoring and semi-competing risks via a copula framework. The
+		resulting age-cause-specific contributions to disability
+		prevalence and death probability can be used to quantify and
+		decompose differences in cohort HE between groups. The package
+		supports stepwise replacement decomposition algorithms and is
+		applicable to cohort-based health disparity research across
+		diverse populations. Related methods include Sun et al. (2023)
+		doi:10.1177/09622802221133552.
+	</longdescription>
+</pkgmetadata>
