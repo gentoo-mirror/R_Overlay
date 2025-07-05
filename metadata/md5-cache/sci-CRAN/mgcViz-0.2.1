@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 >=sci-CRAN/qgam-1.2.3 sci-CRAN/gamm4 virtual/mgcv sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/viridis sci-CRAN/GGally virtual/KernSmooth sci-CRAN/gridExtra sci-CRAN/plyr dev-lang/R:=
+DESCRIPTION=Visualisations for Generalized Additive Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mass r_suggests_miniui r_suggests_rgl r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat r_suggests_webshot2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0 >=sci-CRAN/qgam-1.2.3 sci-CRAN/gamm4 virtual/mgcv sci-CRAN/ggplot2 virtual/Matrix sci-CRAN/viridis sci-CRAN/GGally virtual/KernSmooth sci-CRAN/gridExtra sci-CRAN/plyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_miniui? ( sci-CRAN/miniUI ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_webshot2? ( sci-CRAN/webshot2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mgcViz_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e45ea53e89e0097026e6669da4722030

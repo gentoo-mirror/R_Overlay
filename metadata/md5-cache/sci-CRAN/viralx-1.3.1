@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/DALEX sci-CRAN/DALEXtra sci-CRAN/recipes sci-CRAN/parsnip sci-CRAN/workflows dev-lang/R:=
+DESCRIPTION=Explainers for Regression Models in HIV Research
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cubist r_suggests_dplyr r_suggests_earth r_suggests_kknn r_suggests_rsample r_suggests_rules r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/DALEX sci-CRAN/DALEXtra sci-CRAN/recipes sci-CRAN/parsnip sci-CRAN/workflows r_suggests_cubist? ( sci-CRAN/Cubist ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_earth? ( sci-CRAN/earth ) r_suggests_kknn? ( sci-CRAN/kknn ) r_suggests_rsample? ( sci-CRAN/rsample ) r_suggests_rules? ( sci-CRAN/rules ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/viralx_1.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7f2d9a7ded27668a4f9472a366203ee2
