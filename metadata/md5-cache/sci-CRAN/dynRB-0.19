@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/corrplot sci-CRAN/RColorBrewer sci-CRAN/ggplot2 sci-CRAN/vegan sci-CRAN/reshape2 virtual/foreign sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Dynamic Range Boxes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/corrplot sci-CRAN/RColorBrewer sci-CRAN/ggplot2 sci-CRAN/vegan sci-CRAN/reshape2 virtual/foreign sci-CRAN/dplyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dynRB_0.19.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=38fab36fa133b700dc9c4baf0b13dbbc
