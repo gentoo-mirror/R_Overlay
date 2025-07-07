@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/purrr sci-CRAN/lubridate sci-CRAN/dplyr >=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/stringi sci-CRAN/tibble sci-CRAN/DBI dev-lang/R:=
+DESCRIPTION=Query Data from U.S. National Li... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/Matrix sci-CRAN/purrr sci-CRAN/lubridate sci-CRAN/dplyr >=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/stringi sci-CRAN/tibble sci-CRAN/DBI r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ctrialsgov_0.2.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d09beed64841622e98abaa03328d88c0
