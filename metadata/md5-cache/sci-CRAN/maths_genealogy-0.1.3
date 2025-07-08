@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/jsonlite sci-CRAN/cli sci-CRAN/checkmate sci-CRAN/httr2 sci-CRAN/later sci-CRAN/rlang sci-CRAN/rvest sci-CRAN/websocket dev-lang/R:=
+DESCRIPTION=Mathematics PhD Genealogy Data and Plotting
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_diagrammer r_suggests_diagrammersvg r_suggests_ggenealogy r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_svgpanzoom byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/jsonlite sci-CRAN/cli sci-CRAN/checkmate sci-CRAN/httr2 sci-CRAN/later sci-CRAN/rlang sci-CRAN/rvest sci-CRAN/websocket r_suggests_diagrammer? ( sci-CRAN/DiagrammeR ) r_suggests_diagrammersvg? ( sci-CRAN/DiagrammeRsvg ) r_suggests_ggenealogy? ( sci-CRAN/ggenealogy ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_svgpanzoom? ( sci-CRAN/svgPanZoom ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/maths.genealogy_0.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=85665ffb84ffb9a55bac28d706c7e8f0

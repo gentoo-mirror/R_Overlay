@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Determining the Number of Factors in Exploratory Factor Analysis
+		by LSTM // A method for factor retention using a pre-trained
+		Long Short Term Memory (LSTM) Network, which is originally
+		developed by Hochreiter and Schmidhuber (1997)
+		doi:10.1162/neco.1997.9.8.1735, is provided. The sample size of
+		the dataset used to train the LSTM model is 1,000,000. Each
+		sample is a batch of simulated response data with a specific
+		latent factor structure. The eigenvalues of these response data
+		will be used as sequential data to train the LSTM. The pre-
+		trained LSTM is capable of factor retention for real response
+		data with a true latent factor number ranging from 1 to 10,
+		that is, determining the number of factors.
+	</longdescription>
+</pkgmetadata>

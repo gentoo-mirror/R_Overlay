@@ -7,7 +7,8 @@
 		by age-cohort, age-period or cohort-period. The data can
 		include dose and response or just doses. The statistical model
 		is a generalized linear model (GLM) allowing for 3,2,1 or 0 of
-		the age-period-cohort factors. Individual-level data should
+		the age-period-cohort factors. 2-sample analysis is possible.
+		Mixed frequency data are possible. Individual-level data should
 		have a row for each individual and columns for each of age,
 		period, and cohort. The statistical model for repeated cross-
 		section is a generalized linear model. The statistical model
