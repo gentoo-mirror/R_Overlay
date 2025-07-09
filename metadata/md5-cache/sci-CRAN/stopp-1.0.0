@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/fields sci-CRAN/plot3D virtual/nnet virtual/mgcv virtual/KernSmooth sci-CRAN/spatstat_utils virtual/MASS sci-CRAN/sparr sci-CRAN/spatstat_explore sci-CRAN/optimx sci-CRAN/stlnpp sci-CRAN/spatstat_model sci-CRAN/spatstat_random sci-CRAN/spatstat_univar sci-CRAN/spatstat_geom sci-CRAN/splancs sci-CRAN/stpp dev-lang/R:=
+DESCRIPTION=Spatio-Temporal Point Pattern Me... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/fields sci-CRAN/plot3D virtual/nnet virtual/mgcv virtual/KernSmooth sci-CRAN/spatstat_utils virtual/MASS sci-CRAN/sparr sci-CRAN/spatstat_explore sci-CRAN/optimx sci-CRAN/stlnpp sci-CRAN/spatstat_model sci-CRAN/spatstat_random sci-CRAN/spatstat_univar sci-CRAN/spatstat_geom sci-CRAN/splancs sci-CRAN/stpp dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stopp_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a4d953880fdbb33700b349e1f33e7300
