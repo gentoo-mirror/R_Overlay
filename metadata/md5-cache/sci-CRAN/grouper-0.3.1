@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/magrittr virtual/cluster sci-CRAN/ompr sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/yaml dev-lang/R:=
+DESCRIPTION=Optimal Assignment of Students to Groups
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glpk r_suggests_knitr r_suggests_ompr_roi r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/magrittr virtual/cluster sci-CRAN/ompr sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/yaml r_suggests_glpk? ( sci-mathematics/glpk ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_ompr_roi? ( sci-CRAN/ompr_roi ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/grouper_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a5ecb83296365c9962b01bbfeafe675a

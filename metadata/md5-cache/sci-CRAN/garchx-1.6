@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=Flexible and Robust GARCH-X Modelling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lgarch r_suggests_tvgarch byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/zoo r_suggests_lgarch? ( sci-CRAN/lgarch ) r_suggests_tvgarch? ( sci-CRAN/tvgarch ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/garchx_1.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6080b40b64f456052b71da607cfc81ad

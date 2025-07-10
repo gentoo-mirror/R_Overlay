@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A 'ggplot2' Extension for Geometric Data Analysis // A variety of
+		multivariable data summary statistics and constructions have
+		been proposed, either to generalize univariable analogs or to
+		exploit multivariable properties. Notable among these are the
+		bivariate peelings surveyed by Green (1981,
+		ISBN:978-0-471-28039-2), the bag-and-bolster plots proposed by
+		Rousseeuw al (1999) doi:10.1080/00031305.1999.10474494, and the
+		minimum spanning trees used by Jolliffe (2002)
+		doi:10.1007/b98835 to represent high-dimensional relationships
+		among data in a low-dimensional plot. Additionally, biplots of
+		singular value--decomposed tabular data, such as from principal
+		components analysis, make use of vectors, calibrated axes, and
+		other representations of variable elements to complement point
+		markers for case elements; see Gabriel (1971)
+		doi:10.1093/biomet/58.3.453 and Gower  Harding (1988)
+		doi:10.1093/biomet/75.3.445 for original proposals. Because
+		they treat the abscissa and ordinate as commensurate or the
+		data elements themselves as point masses or unit vectors, these
+		multivariable tools can be thought of as belonging to geometric
+		data analysis; see Podani (2000, ISBN:90-5782-067-6) for
+		techniques and applications and Le Roux  Rouanet (2005)
+		doi:10.1007/1-4020-2236-0 for foundations. 'gggda' extends
+		Wickham's (2010) doi:10.1198/jcgs.2009.07098 layered grammar of
+		graphics with statistical transformation ("stat") and geometric
+		construction ("geom") layers for many of these tools, as well
+		as convenience coordinate systems to emphasize intrinsic
+		geometry of the data.
+	</longdescription>
+</pkgmetadata>

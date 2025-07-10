@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/generics sci-CRAN/Rdpack sci-CRAN/Formula sci-CRAN/sandwich sci-CRAN/numDeriv virtual/survival sci-CRAN/Rcpp sci-CRAN/CompQuadForm sci-CRAN/dfidx dev-lang/R:=
+DESCRIPTION=Microeconometrics with R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aer r_suggests_censreg r_suggests_ggplot2 r_suggests_lmtest r_suggests_mass r_suggests_mlogit r_suggests_modelsummary r_suggests_sampleselection r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/generics sci-CRAN/Rdpack sci-CRAN/Formula sci-CRAN/sandwich sci-CRAN/numDeriv virtual/survival sci-CRAN/Rcpp sci-CRAN/CompQuadForm sci-CRAN/dfidx sci-CRAN/Rcpp r_suggests_aer? ( sci-CRAN/AER ) r_suggests_censreg? ( sci-CRAN/censReg ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_mass? ( virtual/MASS ) r_suggests_mlogit? ( sci-CRAN/mlogit ) r_suggests_modelsummary? ( sci-CRAN/modelsummary ) r_suggests_sampleselection? ( sci-CRAN/sampleSelection ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/micsr_0.1-3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9fa39663c650a7a23287e31643a6cfbe

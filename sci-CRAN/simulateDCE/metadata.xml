@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulate Data for Discrete Choice Experiments // Supports
+		simulating choice experiment data for given designs. It helps
+		to quickly test different designs against each other and
+		compare the performance of new models. The goal of
+		'simulateDCE' is to make it easy to simulate choice experiment
+		datasets using designs from 'NGENE', 'idefix' or 'spdesign'.
+		You have to store the design file(s) in a sub-directory and
+		need to specify certain parameters and the utility functions
+		for the data generating process. For more details on choice
+		experiments see Mariel et al. (2021)
+		doi:10.1007/978-3-030-62669-3.
+	</longdescription>
+</pkgmetadata>
