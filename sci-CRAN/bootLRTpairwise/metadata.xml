@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bootstrap Hypothesis Tests for Treatment Effects in One-Way ANOVA
+		with Unequal Variances // Implements three test procedures
+		using bootstrap resampling techniques for assessing treatment
+		effects in one-way ANOVA models with unequal variances
+		(heteroscedasticity). It includes a parametric bootstrap
+		likelihood ratio test (PB_LRT()), a pairwise parametric
+		bootstrap mean test (PPBMT()), and a Rademacher wild pairwise
+		non-parametric bootstrap test (RWPNPBT()). These methods
+		provide robust alternatives to classical ANOVA and standard
+		pairwise comparisons when the assumption of homogeneity of
+		variances is violated.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Modeling: Estimate a Computer Model and Make Uncertain
+		Predictions // An interface to the 'BaM' (Bayesian Modeling)
+		engine, a 'Fortran'-based executable aimed at estimating a
+		model with a Bayesian approach and using it for prediction,
+		with a particular focus on uncertainty quantification. Classes
+		are defined for the various building blocks of 'BaM' inference
+		(model, data, error models, Markov Chain Monte Carlo (MCMC)
+		samplers, predictions). The typical usage is as follows: (1)
+		specify the model to be estimated; (2) specify the inference
+		setting (dataset, parameters, error models...); (3) perform
+		Bayesian-MCMC inference; (4) read, analyse and use MCMC
+		samples; (5) perform prediction experiments. Technical details
+		are available (in French) in Renard (2017)
+		https://hal.science/hal-02606929v1. Examples of applications
+		include Mansanarez et al. (2019) doi:10.1029/2018WR023389, Le
+		Coz et al. (2021) doi:10.1002/hyp.14169, Perret et al. (2021)
+		doi:10.1029/2020WR027745, Darienzo et al. (2021)
+		doi:10.1029/2020WR028607 and Perret et al. (2023)
+		doi:10.1061/JHEND8.HYENG-13101.
+	</longdescription>
+</pkgmetadata>

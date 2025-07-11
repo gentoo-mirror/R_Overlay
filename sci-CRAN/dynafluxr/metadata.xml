@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Retrieve Reaction Rate Dynamics from Metabolite Concentration
+		Time Courses // Reaction rate dynamics can be retrieved from
+		metabolite concentration time courses. User has to provide
+		corresponding stoichiometric matrix but not a regulation model
+		(Michaelis-Menten or similar). Instead of solving an ordinary
+		differential equation (ODE) system describing the evolution of
+		concentrations, we use B-splines to catch the concentration and
+		rate dynamics then solve a least square problem on their
+		coefficients with non-negativity (and optionally monotonicity)
+		constraints. Constraints can be also set on initial values of
+		concentration. The package 'dynafluxr' can be used as a library
+		but also as an application with command line interface
+		dynafluxr::cli("-h") or graphical user interface
+		dynafluxr::gui().
+	</longdescription>
+</pkgmetadata>
