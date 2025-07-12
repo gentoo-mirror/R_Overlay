@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fused Partitioned Regression for Clinical and Omics Data // Fit
+		(generalized) linear regression models in each leaf node of a
+		tree. The tree is constructed using clinical variables only.
+		The linear regression models are constructed using (high-
+		dimensional) omics variables only. The leaf-node-specific
+		regression models are estimated using the penalized likelihood
+		including a standard ridge (L2) penalty and a fusion penalty
+		that links the leaf-node-specific regression models to one
+		another. The intercepts of the leaf nodes reflect the effects
+		of the clinical variables and are left unpenalized. The tree,
+		fitted with the clinical variables only, should be constructed
+		outside of the package with the 'rpart' 'R' package. See
+		Goedhart and others (2024) doi:10.48550/arXiv.2411.02396 for
+		details on the method.
+	</longdescription>
+</pkgmetadata>

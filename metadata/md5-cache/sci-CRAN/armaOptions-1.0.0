@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/forecast dev-lang/R:=
+DESCRIPTION=ARMA Models to Value Stock Options
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/forecast dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/armaOptions_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1b4ef66f4bee5bf000f62d671e78c336

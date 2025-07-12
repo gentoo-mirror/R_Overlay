@@ -2,10 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Create Non-Confidential Multi-Resolution Grids // Functionality
-		for creating gridded data, respecting the confidentiality
-		rules, such as a minimum number of units and dominance by one
-		or more units in the grid cell. The functions also include the
-		possibility for contextual suppression of data.
+		Create Non-Confidential Multi-Resolution Grids // The need for
+		anonymization of individual survey responses often leads to
+		many suppressed grid cells in a regular grid. Here we provide
+		functionality for creating multi-resolution gridded data,
+		respecting the confidentiality rules, such as a minimum number
+		of units and dominance by one or more units for each  grid
+		cell. The functions also include the possibility for contextual
+		suppression of data. For more details see Skoien et al. (2025)
+		doi:10.48550/arXiv.2410.17601.
 	</longdescription>
 </pkgmetadata>

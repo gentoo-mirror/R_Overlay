@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/mvtnorm virtual/survival >=sci-CRAN/rstan-2.18.1 >=sci-CRAN/sn-2.1.1 >=sci-CRAN/rstantools-2.4.0 >=sci-CRAN/RcppParallel-5.0.1 >=dev-lang/R-3.4.0 sci-CRAN/GofCens sci-CRAN/DescTools >=sci-CRAN/flexsurv-2.2.2 sci-CRAN/cubature sci-CRAN/moments >=sci-CRAN/VineCopula-2.4.5 >=sci-CRAN/Rcpp-0.12.0 dev-lang/R:=
+DESCRIPTION=Parametric Time-Dependent Receiv... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/Matrix sci-CRAN/mvtnorm virtual/survival >=sci-CRAN/rstan-2.18.1 >=sci-CRAN/sn-2.1.1 >=sci-CRAN/rstantools-2.4.0 >=sci-CRAN/RcppParallel-5.0.1 >=dev-lang/R-3.4.0 sci-CRAN/GofCens sci-CRAN/DescTools >=sci-CRAN/flexsurv-2.2.2 sci-CRAN/cubature sci-CRAN/moments >=sci-CRAN/VineCopula-2.4.5 >=sci-CRAN/Rcpp-0.12.0 >=sci-CRAN/BH-1.66.0 >=sci-CRAN/RcppEigen-0.3.3.3.0 >=sci-CRAN/rstan-2.18.1 >=sci-CRAN/RcppParallel-5.0.1 >=sci-CRAN/Rcpp-0.12.0 r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/parTimeROC_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=022d82bc9fffe6bb3edd640342959d8e

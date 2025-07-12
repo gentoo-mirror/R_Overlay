@@ -3,18 +3,18 @@
 <pkgmetadata>
 	<longdescription>
 		Bayesian Geostatistics Using Predictive Stacking // Fits Bayesian
-		hierarchical spatial process models for point-referenced
-		Gaussian, Poisson, binomial, and binary data using stacking of
-		predictive densities. It involves sampling from analytically
-		available posterior distributions conditional upon some
-		candidate values of the spatial process parameters and,
+		hierarchical spatial and spatial-temporal process models for
+		point-referenced Gaussian, Poisson, binomial, and binary data
+		using stacking of predictive densities. It involves sampling
+		from analytically available posterior distributions conditional
+		upon candidate values of the spatial process parameters and,
 		subsequently assimilate inference from these individual
 		posterior distributions using Bayesian predictive stacking. Our
 		algorithm is highly parallelizable and hence, much faster than
 		traditional Markov chain Monte Carlo algorithms while
 		delivering competitive predictive performance. See Zhang, Tang,
-		and Banerjee (2024) doi:10.48550/arXiv.2304.12414, and, Pan,
-		Zhang, Bradley, and Banerjee (2024)
+		and Banerjee (2025) doi:10.48550/arXiv.2304.12414, and, Pan,
+		Zhang, Bradley, and Banerjee (2025)
 		doi:10.48550/arXiv.2406.04655 for details.
 	</longdescription>
 </pkgmetadata>
