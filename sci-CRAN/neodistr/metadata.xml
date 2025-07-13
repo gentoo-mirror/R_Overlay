@@ -2,20 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Neo-Normal Distribution // Provides functions for calculating the
-		density, cumulative distribution, quantile, and random number
-		of neo-normal distribution. It also interfaces with the 'brms'
-		package, allowing the use of the neo-normal distribution as a
-		custom family. This integration enables the application of
-		various 'brms' formulas for neo-normal regression. The package
-		implements the following distributions: Modified to be Stable
-		as Normal from Burr (MSNBurr), Modified to be Stable as Normal
-		from Burr-IIa (MSNBurr-IIa), Generalized of MSNBurr (GMSNBurr),
-		and Jones-Faddy Skew-t. References: Choir, A. S.
-		(2020).Unpublished Dissertation. Iriawan, N. (2000).Unpublished
-		Dissertation. Jones,  M. C. and Faddy,M. J.
-		(2003).doi:10.1111/1467-9868.00378. Rigby, R. A.,
-		Stasinopoulos, M. D., Heller, G. Z.,  Bastiani, F. D. (2019)
-		doi:10.1201/9780429298547.
+		Neo-Normal Distribution // Calculating the density, cumulative
+		distribution, quantile, and random number of neo-normal
+		distribution. It also interfaces with the 'brms' package,
+		allowing the use of the neo-normal distribution as a custom
+		family. This integration enables the application of various
+		'brms' formulas for neo-normal regression.  Modified to be
+		Stable as Normal from Burr (MSNBurr), Modified to be Stable as
+		Normal from Burr-IIa (MSNBurr-IIa), Generalized of MSNBurr
+		(GMSNBurr), Jones-Faddy Skew-t, Fernandez-Osiewalski-Steel Skew
+		Exponential Power, and Jones Skew Exponential Power
+		distributions are supported. References: Choir, A. S.
+		(2020).Unpublished Dissertation, Iriawan, N. (2000).Unpublished
+		Dissertation, Rigby, R. A., Stasinopoulos, M. D., Heller, G.
+		Z.,  Bastiani, F. D. (2019) doi:10.1201/9780429298547.
 	</longdescription>
 </pkgmetadata>
