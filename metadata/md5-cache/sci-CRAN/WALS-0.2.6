@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/Rdpack-2.1.3 >=sci-CRAN/Formula-1.2.3 virtual/MASS dev-lang/R:=
+DESCRIPTION=Weighted-Average Least Squares Model Averaging
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aer r_suggests_bayesvarsel r_suggests_bms r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/Rdpack-2.1.3 >=sci-CRAN/Formula-1.2.3 virtual/MASS r_suggests_aer? ( sci-CRAN/AER ) r_suggests_bayesvarsel? ( sci-CRAN/BayesVarSel ) r_suggests_bms? ( sci-CRAN/BMS ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.10 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/WALS_0.2.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=be548abe9787c1332523d816f9490fdb
