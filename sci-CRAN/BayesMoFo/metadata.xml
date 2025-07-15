@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Bayesian Mortality Forecasting // Carry out Bayesian estimation
+		and forecasting for a variety of stochastic mortality models
+		using vague prior distributions. Models supported include
+		numerous well-established approaches introduced in the
+		actuarial and demographic literature, such as the Lee-Carter
+		(1992) doi:10.1080/01621459.1992.10475265, the Cairns-Blake-
+		Dowd (2009) doi:10.1080/10920277.2009.10597538, the Li-Lee
+		(2005) doi:10.1353/dem.2005.0021, and the Plat (2009)
+		doi:10.1016/j.insmatheco.2009.08.006 models. The package is
+		designed to analyse stratified mortality data structured as a
+		3-dimensional array of dimensions p  A  T (strata  age  year).
+		Stratification can represent factors such as cause of death,
+		country, deprivation level, sex, geographic region, insurance
+		product, marital status, socioeconomic group, or smoking
+		behavior. While the primary focus is on analysing stratified
+		data (p  1), the package can also handle mortality data that
+		are not stratified (p = 1). Model selection via the Deviance
+		Information Criterion (DIC) is supported.
+	</longdescription>
+</pkgmetadata>

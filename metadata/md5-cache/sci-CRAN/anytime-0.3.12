@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 >=sci-CRAN/Rcpp-1.0.8 dev-lang/R:=
+DESCRIPTION=Anything to POSIXct or Date Converter
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gettz r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2.0 >=sci-CRAN/Rcpp-1.0.8 >=sci-CRAN/Rcpp-1.0.8 sci-CRAN/BH r_suggests_gettz? ( sci-CRAN/gettz ) r_suggests_tinytest? ( >=sci-CRAN/tinytest-1.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/anytime_0.3.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=11fd28f2dac168baca67a08ed08f551c

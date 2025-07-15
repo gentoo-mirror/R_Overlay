@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/jsonlite sci-CRAN/mime sci-CRAN/cli sci-CRAN/curl >=sci-CRAN/httr-1.0.0 sci-CRAN/keyring dev-lang/R:=
+DESCRIPTION=USGS ScienceBase Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_sf r_suggests_testthat r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/jsonlite sci-CRAN/mime sci-CRAN/cli sci-CRAN/curl >=sci-CRAN/httr-1.0.0 sci-CRAN/keyring r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sbtools_1.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=39973776525bce74f09dd1f32f56836f

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Argmin Inference over a Discrete Candidate Set // Provides
+		methods to construct frequentist confidence sets with valid
+		marginal coverage for identifying the population-level argmin
+		or argmax based on IID data. For instance, given an n by p loss
+		matrixwhere n is the sample size and p is the number of
+		modelsthe CS.argmin() method produces a discrete confidence set
+		that contains the model with the minimal (best) expected risk
+		with desired probability. The argmin.HT() method helps check if
+		a specific model should be included in such a confidence set.
+		The main implemented method is proposed by Tianyu Zhang, Hao
+		Lee and Jing Lei (2024) "Winners with confidence: Discrete
+		argmin inference with an application to model selection".
+	</longdescription>
+</pkgmetadata>

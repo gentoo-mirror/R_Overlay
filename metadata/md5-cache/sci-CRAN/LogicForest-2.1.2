@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/LogicReg dev-lang/R:=
+DESCRIPTION=Logic Forest
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/survival sci-CRAN/LogicReg r_suggests_data_table? ( sci-CRAN/data_table ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LogicForest_2.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=aa947ed67e8da4da18935e8e57defd33

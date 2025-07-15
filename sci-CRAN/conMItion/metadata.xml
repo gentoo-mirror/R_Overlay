@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Conditional Mutual Information Estimation for Multi-Omics Data //
+		The biases introduced in association measures, particularly
+		mutual information, are influenced by factors such as tumor
+		purity, mutation burden, and hypermethylation. This package
+		provides the estimation of conditional mutual information (CMI)
+		and its statistical significance with a focus on its
+		application to multi-omics data. Utilizing B-spline functions
+		(inspired by Daub et al. (2004) doi:10.1186/1471-2105-5-118),
+		the package offers tools to estimate the association between
+		heterogeneous multi- omics data, while removing the effects of
+		confounding factors. This helps to unravel complex biological
+		interactions. In addition, it includes methods to evaluate the
+		statistical significance of these associations, providing a
+		robust framework for multi-omics data integration and analysis.
+		This package is ideal for researchers in computational biology,
+		bioinformatics, and systems biology seeking a comprehensive
+		tool for understanding interdependencies in omics data.
+	</longdescription>
+</pkgmetadata>

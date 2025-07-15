@@ -3,20 +3,24 @@
 <pkgmetadata>
 	<longdescription>
 		Visualizing Classification Results // Tools to visualize the
-		results of a classification of cases. The graphical displays
-		include stacked plots, silhouette plots, quasi residual plots,
-		and class maps. Implements the techniques described and
-		illustrated in Raymaekers J., Rousseeuw P.J., Hubert M. (2021).
+		results of a classification or a regression. The graphical
+		displays include stacked plots, silhouette plots, quasi
+		residual plots, class maps, predictions plots, and predictions
+		correlation plots. Implements the techniques described and
+		illustrated in Raymaekers J., Rousseeuw P.J., Hubert M. (2022).
 		Class maps for visualizing classification results.
 		\emph{Technometrics}, 64(2), 151165.
-		\doi{10.1080/00401706.2021.1927849} (open access) and
-		Raymaekers J., Rousseeuw P.J.(2021). Silhouettes and quasi
-		residual plots for neural nets and tree-based classifiers.
-		\emph{Journal of Computational and Graphical Statistics},
-		31(4), 13321343. \doi{10.1080/10618600.2022.2050249}. Examples
-		can be found in the vignettes: "Discriminant_analysis_examples"
-		,"K_nearest_neighbors_examples",
+		\doi{10.1080/00401706.2021.1927849} (open access), Raymaekers
+		J., Rousseeuw P.J.(2022). Silhouettes and quasi residual plots
+		for neural nets and tree-based classifiers. \emph{Journal of
+		Computational and Graphical Statistics}, 31(4), 13321343.
+		\doi{10.1080/10618600.2022.2050249}, and Rousseeuw, P.J.
+		(2025). Explainable Linear and Generalized Linear Models by the
+		Predictions Plot. doi:10.48550/arXiv.2412.16980 (open access).
+		Examples can be found in the vignettes: "Discriminant_analysis_
+		examples","K_nearest_neighbors_examples",
 		"Support_vector_machine_examples", "Rpart_examples",
-		"Random_forest_examples", and "Neural_net_examples".
+		"Random_forest_examples", "Neural_net_examples", and
+		"predsplot_examples".
 	</longdescription>
 </pkgmetadata>
