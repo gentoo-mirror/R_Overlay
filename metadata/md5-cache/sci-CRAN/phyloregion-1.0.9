@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/colorspace sci-CRAN/vegan sci-CRAN/predicts sci-CRAN/smoothr sci-CRAN/terra sci-CRAN/maptpx >=dev-lang/R-4.1.0 sci-CRAN/phangorn sci-CRAN/ape virtual/Matrix sci-CRAN/betapart sci-CRAN/igraph sci-CRAN/clustMixType dev-lang/R:=
+DESCRIPTION=Biogeographic Regionalization and Macroecology
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mapproj r_suggests_phyloseq r_suggests_rjava r_suggests_rmarkdown r_suggests_survival r_suggests_tinytest r_suggests_v8 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/colorspace sci-CRAN/vegan sci-CRAN/predicts sci-CRAN/smoothr sci-CRAN/terra sci-CRAN/maptpx >=dev-lang/R-4.1.0 sci-CRAN/phangorn sci-CRAN/ape virtual/Matrix sci-CRAN/betapart sci-CRAN/igraph sci-CRAN/clustMixType r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mapproj? ( sci-CRAN/mapproj ) r_suggests_phyloseq? ( sci-BIOC/phyloseq ) r_suggests_rjava? ( sci-CRAN/rJava ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_survival? ( virtual/survival ) r_suggests_tinytest? ( sci-CRAN/tinytest ) r_suggests_v8? ( sci-CRAN/V8 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/phyloregion_1.0.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=57e7a08763ee41d9440ff5dbd2e9f177

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dimensionsR sci-CRAN/ca sci-CRAN/visNetwork virtual/Matrix sci-CRAN/igraph sci-CRAN/ggrepel sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/plotly >=sci-CRAN/shinycssloaders-1.1.0 sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/DT sci-CRAN/shiny sci-CRAN/openxlsx sci-CRAN/pubmedR sci-CRAN/readr sci-CRAN/openalexR sci-CRAN/SnowballC sci-CRAN/readxl sci-CRAN/rscopus sci-CRAN/purrr >=dev-lang/R-3.3.0 sci-CRAN/stringi sci-CRAN/tibble sci-CRAN/bibliometrixData sci-CRAN/stringdist sci-CRAN/tidytext sci-CRAN/forcats dev-lang/R:=
+DESCRIPTION=Comprehensive Science Mapping Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_wordcloud2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dimensionsR sci-CRAN/ca sci-CRAN/visNetwork virtual/Matrix sci-CRAN/igraph sci-CRAN/ggrepel sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/plotly >=sci-CRAN/shinycssloaders-1.1.0 sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/DT sci-CRAN/shiny sci-CRAN/openxlsx sci-CRAN/pubmedR sci-CRAN/readr sci-CRAN/openalexR sci-CRAN/SnowballC sci-CRAN/readxl sci-CRAN/rscopus sci-CRAN/purrr >=dev-lang/R-3.3.0 sci-CRAN/stringi sci-CRAN/tibble sci-CRAN/bibliometrixData sci-CRAN/stringdist sci-CRAN/tidytext sci-CRAN/forcats r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_wordcloud2? ( sci-CRAN/wordcloud2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bibliometrix_5.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6d689c3e673c26f266c9cf7b0983bf39

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Split and Coalesce Duplicated Records // Deduplicates datasets by
+		retaining the most complete and informative records. Identifies
+		duplicated entries based on a specified key column, calculates
+		completeness scores for each row, and compares values within
+		groups. When differences between duplicates exceed a user-
+		defined threshold, records are split into unique IDs;
+		otherwise, they are coalesced into a single, most complete
+		entry. Returns a list containing the original duplicates, the
+		split entries, and the final coalesced dataset. Useful for
+		cleaning survey or administrative data where duplicated IDs may
+		reflect minor data entry inconsistencies.
+	</longdescription>
+</pkgmetadata>
