@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Regression Coefficients Estimation Using the Generalized Cross
+		Entropy // Estimation and inference using the Generalized
+		Maximum Entropy (GME) and Generalized Cross Entropy (GCE)
+		framework, a flexible method for solving ill-posed inverse
+		problems and parameter estimation under uncertainty (Golan,
+		Judge, and Miller (1996, ISBN:978-0471145925) "Maximum Entropy
+		Econometrics: Robust Estimation with Limited Data"). The
+		package includes routines for generalized cross entropy
+		estimation of linear models including the implementation of a
+		GME-GCE two steps approach. Diagnostic tools, and options to
+		incorporate prior information through support and prior
+		distributions are available (Macedo, Cabral, Afreixo, Macedo
+		and Angelelli (2025) doi:10.1007/978-3-031-97589-9_21). In
+		particular, support spaces can be defined by the user or be
+		internally computed based on the ridge trace or on the
+		distribution of standardized regression coefficients. Different
+		optimization methods for the objective function can be used. An
+		adaptation of the normalized entropy aggregation (Macedo and
+		Costa (2019) doi:10.1007/978-3-030-26036-1_2 "Normalized
+		entropy aggregation for inhomogeneous large-scale data") and a
+		two-stage maximum entropy approach for time series regression
+		(Macedo (2022) doi:10.1080/03610918.2022.2057540) are also
+		available. Suitable for applications in econometrics, health,
+		signal processing, and other fields requiring robust estimation
+		under data constraints.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/nortest sci-CRAN/multcompView sci-CRAN/DHARMa sci-CRAN/rstudioapi sci-CRAN/stringr sci-CRAN/crayon sci-CRAN/knitr sci-CRAN/multcomp sci-CRAN/this_path sci-CRAN/pander sci-CRAN/writexl sci-CRAN/bestNormalize sci-CRAN/ggplot2 >=dev-lang/R-4.4.0 sci-CRAN/MuMIn sci-CRAN/emmeans sci-CRAN/magick sci-CRAN/rstatix sci-CRAN/rmarkdown sci-CRAN/xfun dev-lang/R:=
+DESCRIPTION=Provides Batch Functions and Vis... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/nortest sci-CRAN/multcompView sci-CRAN/DHARMa sci-CRAN/rstudioapi sci-CRAN/stringr sci-CRAN/crayon sci-CRAN/knitr sci-CRAN/multcomp sci-CRAN/this_path sci-CRAN/pander sci-CRAN/writexl sci-CRAN/bestNormalize sci-CRAN/ggplot2 >=dev-lang/R-4.4.0 sci-CRAN/MuMIn sci-CRAN/emmeans sci-CRAN/magick sci-CRAN/rstatix sci-CRAN/rmarkdown sci-CRAN/xfun app-text/pandoc dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rfriend_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=78c14c2ad4007c1d44c999491aa7fc30

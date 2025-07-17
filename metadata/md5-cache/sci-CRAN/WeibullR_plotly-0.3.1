@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/plotly sci-CRAN/WeibullR sci-CRAN/ReliaGrowR dev-lang/R:=
+DESCRIPTION=Interactive Weibull Probability Plots
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat r_suggests_weibullr_learnr r_suggests_weibullr_shiny byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/plotly sci-CRAN/WeibullR sci-CRAN/ReliaGrowR r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_weibullr_learnr? ( sci-CRAN/WeibullR_learnr ) r_suggests_weibullr_shiny? ( sci-CRAN/WeibullR_shiny ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/WeibullR.plotly_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b53d0ec24120bb6e0509a68448dfb194
