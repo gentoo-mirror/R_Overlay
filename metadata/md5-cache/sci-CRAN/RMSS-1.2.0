@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Rcpp-1.0.9 sci-CRAN/robustbase sci-CRAN/srlars sci-CRAN/robStepSplitReg sci-CRAN/cellWise dev-lang/R:=
+DESCRIPTION=Robust Multi-Model Subset Selection
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mvnfast r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Rcpp-1.0.9 sci-CRAN/robustbase sci-CRAN/srlars sci-CRAN/robStepSplitReg sci-CRAN/cellWise sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_mvnfast? ( sci-CRAN/mvnfast ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RMSS_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3cfae75cbedbbe4215b215ba36e77fbb

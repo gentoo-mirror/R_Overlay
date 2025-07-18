@@ -2,12 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Implementation of Estimating Binary Dependency from Marginal Data
-		// Provides a maximum likelihood estimation method to recover
-		the joint distribution of two binary variables using only
-		marginal summary data from multiple studies. This approach
-		allows for privacy-preserving estimation in settings where
-		individual-level data are unavailable. The method is fully
+		Estimating Bivariate Dependency from Marginal Data // Provides
+		maximum likelihood methods to estimate bivariate dependency
+		(correlation) from marginal summary statistics in multi-study
+		settings. The package supports both binary and continuous
+		variables assumed to follow a bivariate normal distribution,
+		enabling privacy-preserving joint estimation when individual-
+		level data are unavailable. The binary method is fully
 		described in the manuscript by Shang, Tsao and Zhang (2025)
 		doi:10.48550/arXiv.2505.03995: "Estimating the Joint
 		Distribution of Two Binary Variables from Their Marginal

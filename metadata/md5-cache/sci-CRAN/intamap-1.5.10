@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/foreach >=dev-lang/R-2.14.0 sci-CRAN/sf >=sci-CRAN/sp-0.9.0 >=sci-CRAN/gstat-0.9.36 sci-CRAN/automap sci-CRAN/MBA sci-CRAN/mvtnorm virtual/MASS sci-CRAN/evd sci-CRAN/doParallel dev-lang/R:=
+DESCRIPTION=Procedures for Automated Interpolation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rworldmap byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/foreach >=dev-lang/R-2.14.0 sci-CRAN/sf >=sci-CRAN/sp-0.9.0 >=sci-CRAN/gstat-0.9.36 sci-CRAN/automap sci-CRAN/MBA sci-CRAN/mvtnorm virtual/MASS sci-CRAN/evd sci-CRAN/doParallel r_suggests_rworldmap? ( sci-CRAN/rworldmap ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/intamap_1.5-10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7f32ec7080b9d805c632cbfeed7356fe

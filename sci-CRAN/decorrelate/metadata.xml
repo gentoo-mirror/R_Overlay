@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Decorrelation Projection Scalable to High Dimensional Data //
+		Data whitening is a widely used preprocessing step to remove
+		correlation structure since statistical models often assume
+		independence. Here we use a probabilistic model of the observed
+		data to apply a whitening transformation. Our Gaussian Inverse
+		Wishart Empirical Bayes model substantially reduces
+		computational complexity, and regularizes the eigen-values of
+		the sample covariance matrix to improve out-of-sample
+		performance.
+	</longdescription>
+</pkgmetadata>

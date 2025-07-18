@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lavaan sci-CRAN/cocor >=dev-lang/R-4.1.0 sci-CRAN/EnvStats >=sci-CRAN/SimDesign-2.20.0 sci-CRAN/car sci-CRAN/polycor sci-CRAN/parallelly sci-CRAN/ggplot2 sci-CRAN/plotly dev-lang/R:=
+DESCRIPTION=Power Analyses using Monte Carlo Simulations
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_copula r_suggests_knitr r_suggests_pwr r_suggests_rmarkdown r_suggests_vgam byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/lavaan sci-CRAN/cocor >=dev-lang/R-4.1.0 sci-CRAN/EnvStats >=sci-CRAN/SimDesign-2.20.0 sci-CRAN/car sci-CRAN/polycor sci-CRAN/parallelly sci-CRAN/ggplot2 sci-CRAN/plotly r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_copula? ( sci-CRAN/copula ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pwr? ( sci-CRAN/pwr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_vgam? ( sci-CRAN/VGAM ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Spower_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4a502821cb85bb323f74b8130c90cd1d

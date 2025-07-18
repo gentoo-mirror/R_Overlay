@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tclust dev-lang/R:=
+DESCRIPTION=Cluster Analysis with Trimming
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fpc byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/tclust r_suggests_fpc? ( sci-CRAN/fpc ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/trimcluster_0.2-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ef0f3e84b3190c354b0cad30059318da
