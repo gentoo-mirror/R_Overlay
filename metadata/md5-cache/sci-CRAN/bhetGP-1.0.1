@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvtnorm sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/GpGp sci-CRAN/laGP sci-CRAN/GPvecchia virtual/Matrix sci-CRAN/Rcpp sci-CRAN/FNN sci-CRAN/hetGP dev-lang/R:=
+DESCRIPTION=Bayesian Heteroskedastic Gaussian Processes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_interp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3+
+RDEPEND=sci-CRAN/mvtnorm sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/GpGp sci-CRAN/laGP sci-CRAN/GPvecchia virtual/Matrix sci-CRAN/Rcpp sci-CRAN/FNN sci-CRAN/hetGP sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_interp? ( sci-CRAN/interp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bhetGP_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e6ce29e326b9c859d4467dd414cb166b
