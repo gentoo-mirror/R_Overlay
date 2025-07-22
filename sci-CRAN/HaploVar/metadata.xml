@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Defining Local Haplotype Variants for Use in Trait Association
+		and Trait Prediction Analyses // A local haplotyping tool for
+		use in trait association and trait prediction analyses
+		pipelines. 'HaploVar' enables users take single nucleotide
+		polymorphisms (SNPs) (in VCF format) and a linkage
+		disequilibrium (LD) matrix, calculate local haplotypes and
+		format the output to be compatible with a wide range of trait
+		association and trait prediction tools. The local haplotypes
+		are calculated from the LD matrix using a clustering algorithm
+		called density-based spatial clustering of applications with
+		noise ('DBSCAN') (Ester et al., 1996) ISBN: 1577350049.
+	</longdescription>
+</pkgmetadata>

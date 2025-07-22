@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/shiny sci-CRAN/dplyr sci-CRAN/DT sci-CRAN/shinyjs sci-CRAN/labelled sci-CRAN/forcats sci-CRAN/stringr sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/datamods sci-CRAN/htmlwidgets dev-lang/R:=
+DESCRIPTION=An Interactive and Feature-Rich Data Viewer
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_shinytest2 r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/shiny sci-CRAN/dplyr sci-CRAN/DT sci-CRAN/shinyjs sci-CRAN/labelled sci-CRAN/forcats sci-CRAN/stringr sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/datamods sci-CRAN/htmlwidgets r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shinytest2? ( sci-CRAN/shinytest2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dataviewR_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=58010f0e063a341ac4b2eb0405b7e8cc
