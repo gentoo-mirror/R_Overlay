@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/purrr >=sci-CRAN/rlang-1.1.0 sci-CRAN/cli sci-CRAN/S7 sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Desirability Functions for Multi... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_spelling r_suggests_testthat r_suggests_tune byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/purrr >=sci-CRAN/rlang-1.1.0 sci-CRAN/cli sci-CRAN/S7 sci-CRAN/tibble r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tune? ( sci-CRAN/tune ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/desirability2_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=34ea58a79ecec047cf0d4f6ffba93b2f

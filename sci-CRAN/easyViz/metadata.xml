@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Easy Visualization of Conditional Effects from Regression Models
+		// Offers a flexible and user-friendly interface for
+		visualizing conditional effects from a broad range of
+		regression models, including mixed-effects and generalized
+		additive (mixed) models. Compatible model types include lm(),
+		rlm(), glm(), glm.nb(), and gam() (from 'mgcv'); nonlinear
+		models via nls(); and generalized least squares via gls().
+		Mixed-effects models with random intercepts and/or slopes can
+		be fitted using lmer(), glmer(), glmer.nb(), glmmTMB(), or
+		gam() (from 'mgcv', via smooth terms). Plots are rendered using
+		base R graphics with extensive customization options. Robust
+		standard errors for rlm() are computed using the sandwich
+		estimator (Zeileis 2004) doi:10.18637/jss.v011.i10. For mixed
+		models using 'glmmTMB', see Brooks et al. (2017)
+		doi:10.32614/RJ-2017-066. For linear mixed-effects models with
+		'lme4', see Bates et al. (2015) doi:10.18637/jss.v067.i01.
+		Methods for generalized additive models follow Wood (2017)
+		doi:10.1201/9781315370279.
+	</longdescription>
+</pkgmetadata>

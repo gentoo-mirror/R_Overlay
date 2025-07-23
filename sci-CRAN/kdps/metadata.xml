@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Kinship Decouple and Phenotype Selection (KDPS) // A phenotype-
+		aware algorithm for resolving cryptic relatedness in genetic
+		studies. It removes related individuals based on kinship or
+		identity-by-descent (IBD) scores while prioritizing subjects
+		with phenotypes of interest. This approach helps maximize the
+		retention of informative subjects, particularly for rare or
+		valuable traits, and improves statistical power in genetic and
+		epidemiological studies. KDPS supports both categorical and
+		quantitative phenotypes, composite scoring, and customizable
+		pruning strategies using a fuzziness parameter. Benchmark
+		results show improved phenotype retention and high
+		computational efficiency on large-scale datasets like the UK
+		Biobank. Methods used include Manichaikul et al. (2010)
+		doi:10.1093/bioinformatics/btq559 for kinship estimation,
+		Purcell et al. (2007) doi:10.1086/519795 for IBD estimation,
+		and Bycroft et al. (2018) doi:10.1038/s41586-018-0579-z for UK
+		Biobank data reference.
+	</longdescription>
+</pkgmetadata>

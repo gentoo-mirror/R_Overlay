@@ -2,8 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Meta-Analysis of Correlation Coefficients // Implement the
-		DerSimonian-Laird (DSL) and Olkin-Pratt (OP) meta-analytical
-		approaches with correlation coefficients as effect sizes.
+		Meta-Analytic Effect Size Calculation for Pre-Post Designs with
+		Correlation Imputation // Tools for the calculation of effect
+		sizes (standardised mean difference) and mean difference in
+		pre-post controlled studies, including robust imputation of
+		missing variances (standard deviation of changes) and
+		correlations (Pearson correlation coefficient). The main
+		function metacor_dual() implements several methods for imputing
+		missing standard deviation of changes or Pearson correlation
+		coefficient, and generates transparent imputation reports.
+		Designed for meta-analyses with incomplete summary statistics.
+		For more details on the methods, see Higgins et al. (2023) and
+		Fu et al. (2013).
 	</longdescription>
 </pkgmetadata>

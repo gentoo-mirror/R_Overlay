@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ade4 sci-CRAN/sp sci-CRAN/gdistance sci-CRAN/vegan sci-CRAN/raster dev-lang/R:=
+DESCRIPTION=Spatial Pattern Detection in Gen... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_adegenet r_suggests_geosphere r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ade4 sci-CRAN/sp sci-CRAN/gdistance sci-CRAN/vegan sci-CRAN/raster r_suggests_adegenet? ( sci-CRAN/adegenet ) r_suggests_geosphere? ( sci-CRAN/geosphere ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/memgene_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=311d963f1b7de110af55711ac5256b15
