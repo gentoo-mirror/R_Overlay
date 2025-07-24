@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/raster virtual/MASS sci-CRAN/sp sci-CRAN/float sci-CRAN/bit64 sci-CRAN/randtoolbox sci-CRAN/Rcpp sci-CRAN/plotrix sci-CRAN/pracma sci-CRAN/celestial sci-CRAN/data_table sci-CRAN/png sci-CRAN/jpeg sci-CRAN/FNN sci-CRAN/cubature sci-CRAN/hdf5r dev-lang/R:=
+DESCRIPTION=Practical Tools for Scientific C... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ebimage byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/raster virtual/MASS sci-CRAN/sp sci-CRAN/float sci-CRAN/bit64 sci-CRAN/randtoolbox sci-CRAN/Rcpp sci-CRAN/plotrix sci-CRAN/pracma sci-CRAN/celestial sci-CRAN/data_table sci-CRAN/png sci-CRAN/jpeg sci-CRAN/FNN sci-CRAN/cubature sci-CRAN/hdf5r sci-CRAN/Rcpp r_suggests_ebimage? ( sci-BIOC/EBImage ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cooltools_2.18.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=afd0fd966db580dbb5e3410616c0f71f

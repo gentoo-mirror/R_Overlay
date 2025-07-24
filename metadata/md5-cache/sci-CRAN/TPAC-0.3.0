@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 sci-CRAN/data_table virtual/MASS sci-CRAN/TPACData dev-lang/R:=
+DESCRIPTION=Tissue-Adjusted Pathway Analysis of Cancer (TPAC)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.6.0 sci-CRAN/data_table virtual/MASS sci-CRAN/TPACData dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TPAC_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cf789957494916af383ec9d2aaa5e8d8

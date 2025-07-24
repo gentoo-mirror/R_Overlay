@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/isoband sci-CRAN/sf sci-CRAN/raster sci-CRAN/sp dev-lang/R:=
+DESCRIPTION=Spatial Position Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cartography r_suggests_doparallel r_suggests_foreach r_suggests_knitr r_suggests_lwgeom r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/isoband sci-CRAN/sf sci-CRAN/raster sci-CRAN/sp r_suggests_cartography? ( sci-CRAN/cartography ) r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lwgeom? ( sci-CRAN/lwgeom ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SpatialPosition_2.1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a174eb7391873768f8a5bdedc274380c

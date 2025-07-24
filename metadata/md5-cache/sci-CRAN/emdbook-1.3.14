@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/bbmle sci-CRAN/coda virtual/lattice sci-CRAN/plyr dev-lang/R:=
+DESCRIPTION=Support Functions and Data for E... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ellipse r_suggests_numderiv r_suggests_rgl r_suggests_suppdists r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/MASS sci-CRAN/bbmle sci-CRAN/coda virtual/lattice sci-CRAN/plyr r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_suppdists? ( sci-CRAN/SuppDists ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/emdbook_1.3.14.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1f4c16286d14c4b94793a66e838d5e4c

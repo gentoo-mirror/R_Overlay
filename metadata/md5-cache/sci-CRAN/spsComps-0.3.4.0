@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/R6 >=sci-CRAN/shiny-1.5.0 >=dev-lang/R-4.0.0 sci-CRAN/assertthat >=sci-CRAN/glue-1.4.0 sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/shinytoastr sci-CRAN/shinyAce sci-CRAN/htmltools sci-CRAN/crayon dev-lang/R:=
+DESCRIPTION=systemPipeShiny UI and Server Components
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_shinyjqui r_suggests_spsutil r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/R6 >=sci-CRAN/shiny-1.5.0 >=dev-lang/R-4.0.0 sci-CRAN/assertthat >=sci-CRAN/glue-1.4.0 sci-CRAN/stringr sci-CRAN/magrittr sci-CRAN/shinytoastr sci-CRAN/shinyAce sci-CRAN/htmltools sci-CRAN/crayon r_suggests_shinyjqui? ( sci-CRAN/shinyjqui ) r_suggests_spsutil? ( >=sci-CRAN/spsUtil-0.2.0 ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spsComps_0.3.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8c083558e719617e8cdabaf45fcc388a

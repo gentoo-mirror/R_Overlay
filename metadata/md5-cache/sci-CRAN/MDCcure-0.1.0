@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp sci-CRAN/RcppParallel sci-CRAN/gridExtra sci-CRAN/ggtext sci-CRAN/ggplot2 sci-CRAN/future sci-CRAN/future_apply sci-CRAN/smcure sci-CRAN/npcure virtual/survival dev-lang/R:=
+DESCRIPTION=Martingale Dependence Tools and ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_pinp r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/Rcpp sci-CRAN/RcppParallel sci-CRAN/gridExtra sci-CRAN/ggtext sci-CRAN/ggplot2 sci-CRAN/future sci-CRAN/future_apply sci-CRAN/smcure sci-CRAN/npcure virtual/survival sci-CRAN/Rcpp dev-cpp/tbb sci-CRAN/RcppArmadillo sci-CRAN/RcppParallel r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pinp? ( sci-CRAN/pinp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MDCcure_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6ca8252dd86e54f23e21418a58b97201

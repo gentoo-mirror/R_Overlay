@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/tibble sci-CRAN/stopwords sci-CRAN/stringi sci-CRAN/stringdist dev-lang/R:=
+DESCRIPTION=Text Processing Tools for Turkish E-Commerce Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/tibble sci-CRAN/stopwords sci-CRAN/stringi sci-CRAN/stringdist r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/shoppingwords_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d631cc237faa28c4d171fce0a7669e83

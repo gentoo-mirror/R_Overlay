@@ -5,11 +5,13 @@
 		A Comprehensive Microbiome Data Processing Pipeline // Provides
 		tools for cleaning, processing, and preparing microbiome
 		sequencing data (e.g., 16S rRNA) for downstream analysis.
-		Supports CSV, TXT, and 'Excel' file formats. The main function,
+		Supports CSV, TXT, and Excel file formats. The main function,
 		ezclean(), automates microbiome data transformation, including
 		format validation, transposition, numeric conversion, and
-		metadata integration. Also ensures efficient handling of
-		taxonomic levels, resolves duplicated taxa entries, and outputs
-		a well-structured, analysis-ready dataset.
+		metadata integration. It also handles taxonomic levels
+		efficiently, resolves duplicated taxa entries, and outputs a
+		well-structured, analysis-ready dataset. The companion
+		functions ezstat() run statistical tests and summarize results,
+		while ezviz() produces publication-ready visualizations.
 	</longdescription>
 </pkgmetadata>
