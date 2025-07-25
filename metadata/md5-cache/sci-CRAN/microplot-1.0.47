@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/Hmisc-4.1.1 sci-CRAN/officer sci-CRAN/HH virtual/lattice >=sci-CRAN/flextable-0.5.11 sci-CRAN/ggplot2 sci-CRAN/htmltools sci-CRAN/cowplot dev-lang/R:=
+DESCRIPTION=Microplots (Sparklines) in LaTeX... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_htmltable r_suggests_knitr r_suggests_lattice r_suggests_markdown r_suggests_reshape2 r_suggests_rmarkdown r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/Hmisc-4.1.1 sci-CRAN/officer sci-CRAN/HH virtual/lattice >=sci-CRAN/flextable-0.5.11 sci-CRAN/ggplot2 sci-CRAN/htmltools sci-CRAN/cowplot r_suggests_htmltable? ( sci-CRAN/htmlTable ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lattice? ( virtual/lattice ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/microplot_1.0-47.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1731b6e504d9cae548899c288499a74c

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/mvtnorm-1.0.3 >=sci-CRAN/lava-1.4.1 >=sci-CRAN/prodlim-1.4.9 dev-lang/R:=
+DESCRIPTION=Estimation of Smooth Hazard Mode... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/mvtnorm-1.0.3 >=sci-CRAN/lava-1.4.1 >=sci-CRAN/prodlim-1.4.9 r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SmoothHazard_2025.07.24.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fa1700dee5bf6308493cf5d2dc3aa969

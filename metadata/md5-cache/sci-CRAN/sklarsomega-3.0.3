@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/extraDistr sci-CRAN/LaplacesDemon virtual/Matrix sci-CRAN/hash sci-CRAN/mcmcse sci-CRAN/numDeriv sci-CRAN/spam sci-CRAN/dfoptim dev-lang/R:=
+DESCRIPTION=Measuring Agreement Using Sklars Omega Coefficient
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lattice r_suggests_pbapply byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/extraDistr sci-CRAN/LaplacesDemon virtual/Matrix sci-CRAN/hash sci-CRAN/mcmcse sci-CRAN/numDeriv sci-CRAN/spam sci-CRAN/dfoptim r_suggests_lattice? ( virtual/lattice ) r_suggests_pbapply? ( sci-CRAN/pbapply ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/sklarsomega_3.0-3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=28ed345b54f23c40404d5ca0e0a16a86

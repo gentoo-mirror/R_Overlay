@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/spatstat_random-3.4.1 >=sci-CRAN/spatstat_univar-3.1.4 >=sci-CRAN/spatstat_data-3.1.6 >=sci-CRAN/spatstat_geom-3.5.0 >=sci-CRAN/spatstat_explore-3.5.2 >=sci-CRAN/spatstat_model-3.4.0 virtual/nnet >=sci-CRAN/spatstat_utils-3.1.5 dev-lang/R:=
+DESCRIPTION=Spatial Point Pattern Analysis, ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/spatstat_random-3.4.1 >=sci-CRAN/spatstat_univar-3.1.4 >=sci-CRAN/spatstat_data-3.1.6 >=sci-CRAN/spatstat_geom-3.5.0 >=sci-CRAN/spatstat_explore-3.5.2 >=sci-CRAN/spatstat_model-3.4.0 virtual/nnet >=sci-CRAN/spatstat_utils-3.1.5 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatstat_3.4-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=39d162fe9b5f9b87ec930da34440f7f0
