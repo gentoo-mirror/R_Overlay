@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp sci-CRAN/igraph sci-CRAN/mvtnorm >=dev-lang/R-3.5.0 sci-CRAN/dplyr virtual/Matrix sci-CRAN/data_table sci-CRAN/RSQLite sci-CRAN/lme4 sci-CRAN/ordinal virtual/survival sci-CRAN/RcppParallel dev-lang/R:=
+DESCRIPTION=Genome-Wide Robust Analysis for ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dbplyr r_suggests_optparse r_suggests_r_utils r_suggests_skat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/Rcpp sci-CRAN/igraph sci-CRAN/mvtnorm >=dev-lang/R-3.5.0 sci-CRAN/dplyr virtual/Matrix sci-CRAN/data_table sci-CRAN/RSQLite sci-CRAN/lme4 sci-CRAN/ordinal virtual/survival sci-CRAN/RcppParallel sci-CRAN/Rcpp sci-CRAN/RcppParallel sci-CRAN/RcppArmadillo sci-CRAN/BH r_suggests_dbplyr? ( sci-CRAN/dbplyr ) r_suggests_optparse? ( sci-CRAN/optparse ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_skat? ( sci-CRAN/SKAT ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GRAB_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec3e1a202211a15d2ff581895c4128c1

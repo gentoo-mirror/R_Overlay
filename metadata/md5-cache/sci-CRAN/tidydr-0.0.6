@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/cluster sci-CRAN/rlang sci-CRAN/ggfun sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Unify Dimensionality Reduction Results
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_prettydoc r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=virtual/cluster sci-CRAN/rlang sci-CRAN/ggfun sci-CRAN/ggplot2 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tidydr_0.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8e2805c871e96de381057a9fc18338ee

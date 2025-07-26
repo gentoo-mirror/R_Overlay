@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/abind sci-CRAN/abc sci-CRAN/Hmisc sci-CRAN/plyr dev-lang/R:=
+DESCRIPTION=Tools for ABC Analyses
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_abc_data r_suggests_ggplot2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/abind sci-CRAN/abc sci-CRAN/Hmisc sci-CRAN/plyr r_suggests_abc_data? ( sci-CRAN/abc_data ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/abctools_1.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5c9ff720cf526666737a386fd27953c8

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Hopfield Artificial Neural Networks // Builds and optimizes
+		Hopfield artificial neural networks (Hopfield, 1982,
+		doi:10.1073/pnas.79.8.2554). One-layer and three-layer models
+		are implemented. The energy of the Hopfield network is
+		minimized with formula from Krotov and Hopfield (2016,
+		doi:10.48550/ARXIV.1606.01164). Optimization (supervised
+		learning) is done through a gradient-based method.
+		Classification is done with S3 methods predict().
+		Parallelization with 'OpenMP' is used if available during
+		compilation.
+	</longdescription>
+</pkgmetadata>

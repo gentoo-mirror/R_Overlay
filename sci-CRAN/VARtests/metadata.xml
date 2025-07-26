@@ -2,14 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Tests for Error Autocorrelation, ARCH Errors, and Cointegration
-		in Vector Autoregressive Models // Implements the Wild
-		bootstrap tests for autocorrelation in vector autoregressive
-		models of Ahlgren, N.  Catani, P. (2016,
-		doi:10.1007/s00362-016-0744-0), the Combined LM test for ARCH
-		in VAR models of Catani, P.  Ahlgren, N. (2016,
-		doi:10.1016/j.ecosta.2016.10.006), and Bootstrap determination
-		of the co-integration rank (Cavaliere, G., Rahbek, A.,  Taylor,
-		A. M. R., 2012, 2014).
+		Bootstrap Tests for Cointegration and Autocorrelation in VARs //
+		Implements wild bootstrap tests for autocorrelation in Vector
+		Autoregressive (VAR) models based on Ahlgren and Catani (2016)
+		doi:10.1007/s00362-016-0744-0, a combined Lagrange Multiplier
+		(LM) test for Autoregressive Conditional Heteroskedasticity
+		(ARCH) in VAR models from Catani and Ahlgren (2016)
+		doi:10.1016/j.ecosta.2016.10.006, and bootstrap-based methods
+		for determining the cointegration rank from Cavaliere, Rahbek,
+		and Taylor (2012) doi:10.3982/ECTA9099 and Cavaliere, Rahbek,
+		and Taylor (2014) doi:10.1080/07474938.2013.825175.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix dev-lang/R:=
+DESCRIPTION=Generalized and Classical Blockm... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doparallel r_suggests_dorng r_suggests_foreach r_suggests_sna byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/Matrix r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_dorng? ( sci-CRAN/doRNG ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_sna? ( sci-CRAN/sna ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/blockmodeling_1.1.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ff80b057410fcec804a53d2aa6373dfa

@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<longdescription>
 		Bayesian Penalized Quantile Regression // Bayesian regularized
-		quantile regression utilizing sparse priors to impose exact
+		quantile regression utilizing sparse priors to promote exact
 		sparsity leads to efficient Bayesian shrinkage estimation,
 		variable selection and statistical inference. In this package,
 		we have implemented robust Bayesian variable selection with
@@ -14,9 +14,10 @@
 		doi:10.1016/j.csda.2023.107808). In particular, valid robust
 		Bayesian inferences under both models in the presence of heavy-
 		tailed errors can be validated on finite samples. Additional
-		models including robust Bayesian group LASSO and robust
-		Bayesian binary LASSO are also included. The Markov Chain Monte
-		Carlo (MCMC) algorithms of the proposed and alternative models
-		are implemented in C++.
+		models with spike-and-slab priors include robust Bayesian group
+		LASSO and robust binary Bayesian LASSO (Fan and Wu (2025)
+		doi:10.1002/sta4.70078). The Markov Chain Monte Carlo (MCMC)
+		algorithms of the proposed and alternative models are
+		implemented in C++.
 	</longdescription>
 </pkgmetadata>

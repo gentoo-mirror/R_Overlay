@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggdendro sci-CRAN/biotools sci-CRAN/candisc sci-CRAN/corrplot sci-CRAN/crayon sci-CRAN/ggplot2 sci-CRAN/PCAmixdata sci-CRAN/ecodist sci-CRAN/plotly sci-CRAN/NbClust sci-CRAN/factoextra sci-CRAN/gridExtra sci-CRAN/magrittr sci-CRAN/rstudioapi dev-lang/R:=
+DESCRIPTION=Pacote Para Analise Multivariada
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggdendro sci-CRAN/biotools sci-CRAN/candisc sci-CRAN/corrplot sci-CRAN/crayon sci-CRAN/ggplot2 sci-CRAN/PCAmixdata sci-CRAN/ecodist sci-CRAN/plotly sci-CRAN/NbClust sci-CRAN/factoextra sci-CRAN/gridExtra sci-CRAN/magrittr sci-CRAN/rstudioapi r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MultivariateAnalysis_0.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=77ac786302fe56942a7c7d6d89563055

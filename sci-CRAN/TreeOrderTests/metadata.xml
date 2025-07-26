@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Tests for Tree Ordered Alternatives in One-Way ANOVA //
+		Implements a likelihood ratio test and two pairwise
+		standardized mean difference tests for testing equality of
+		means against tree ordered alternatives in one-way ANOVA. The
+		null hypothesis assumes all group means are equal, while the
+		alternative assumes the control mean is less than or equal to
+		each treatment mean with at least one strict inequality. Inputs
+		are a list of numeric vectors (groups) and a significance
+		level; outputs include the test statistic, critical value, and
+		decision. Methods described in "Testing Against Tree Ordered
+		Alternatives in One-way ANOVA" doi:10.48550/arXiv.2507.17229.
+	</longdescription>
+</pkgmetadata>
