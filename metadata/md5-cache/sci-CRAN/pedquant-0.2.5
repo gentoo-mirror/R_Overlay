@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lubridate sci-CRAN/stringi sci-CRAN/readxl sci-CRAN/htmlwidgets sci-CRAN/readr sci-CRAN/jsonlite sci-CRAN/echarts4r >=dev-lang/R-4.1.0 sci-CRAN/zoo sci-CRAN/PerformanceAnalytics sci-CRAN/TTR sci-CRAN/data_table sci-CRAN/httr sci-CRAN/curl >sci-CRAN/xefun-0.1.3 sci-CRAN/rvest dev-lang/R:=
+DESCRIPTION=Public Economic Data and Quantitative Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/lubridate sci-CRAN/stringi sci-CRAN/readxl sci-CRAN/htmlwidgets sci-CRAN/readr sci-CRAN/jsonlite sci-CRAN/echarts4r >=dev-lang/R-4.1.0 sci-CRAN/zoo sci-CRAN/PerformanceAnalytics sci-CRAN/TTR sci-CRAN/data_table sci-CRAN/httr sci-CRAN/curl >sci-CRAN/xefun-0.1.3 sci-CRAN/rvest r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pedquant_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4233de0dc0ff76c8e6761a6ebe63d54d

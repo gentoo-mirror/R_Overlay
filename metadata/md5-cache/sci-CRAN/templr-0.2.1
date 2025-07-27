@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/remotes sci-CRAN/jsonlite sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=MASCOTNUM / RT-UQ Algorithms Template Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_future r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/remotes sci-CRAN/jsonlite sci-CRAN/xml2 r_suggests_future? ( sci-CRAN/future ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/templr_0.2-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3d4793529020656262ecfc718e1199e3
