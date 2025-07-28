@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Tests for Rotational Symmetry on the Hypersphere
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_scatterplot3d r_suggests_testthat r_suggests_viridislite byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_scatterplot3d? ( sci-CRAN/scatterplot3d ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_viridislite? ( sci-CRAN/viridisLite ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rotasym_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b1c94d0b27afb09b6d0c0aaa66a1743a
