@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/purrr sci-CRAN/reactable sci-CRAN/knitr >=dev-lang/R-4.1.0 sci-CRAN/htmltools sci-CRAN/rmarkdown >=sci-CRAN/dplyr-1.1.1 sci-CRAN/tidyr sci-CRAN/dygraphs sci-CRAN/xts dev-lang/R:=
+DESCRIPTION=Multiple Time Series Scanner
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_testthat r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/purrr sci-CRAN/reactable sci-CRAN/knitr >=dev-lang/R-4.1.0 sci-CRAN/htmltools sci-CRAN/rmarkdown >=sci-CRAN/dplyr-1.1.1 sci-CRAN/tidyr sci-CRAN/dygraphs sci-CRAN/xts r_suggests_covr? ( sci-CRAN/covr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mantis_0.4.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=95eee4cc7820f849ce8c27156f8cfbc6

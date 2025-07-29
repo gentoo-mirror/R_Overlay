@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix >=sci-CRAN/spdep-1.1.1 sci-CRAN/maxLik sci-CRAN/sp virtual/spatial dev-lang/R:=
+DESCRIPTION=Spatial Stochastic Frontier Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix >=sci-CRAN/spdep-1.1.1 sci-CRAN/maxLik sci-CRAN/sp virtual/spatial r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ssfa_1.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=524a315f3c9c1c050ad762a032d9ca85

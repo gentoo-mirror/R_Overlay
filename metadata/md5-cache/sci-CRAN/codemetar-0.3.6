@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr sci-CRAN/commonmark sci-CRAN/remotes sci-CRAN/urltools sci-CRAN/xml2 sci-CRAN/crul sci-CRAN/gert >=sci-CRAN/jsonlite-1.6 sci-CRAN/memoise sci-CRAN/purrr sci-CRAN/sessioninfo sci-CRAN/cli sci-CRAN/pingr >=dev-lang/R-3.2.0 sci-CRAN/gh sci-CRAN/codemeta sci-CRAN/desc dev-lang/R:=
+DESCRIPTION=Generate CodeMeta Metadata for R Packages
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_details r_suggests_dplyr r_suggests_jsonld r_suggests_jsonvalidate r_suggests_knitr r_suggests_printr r_suggests_rmarkdown r_suggests_testthat r_suggests_usethis r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/magrittr sci-CRAN/commonmark sci-CRAN/remotes sci-CRAN/urltools sci-CRAN/xml2 sci-CRAN/crul sci-CRAN/gert >=sci-CRAN/jsonlite-1.6 sci-CRAN/memoise sci-CRAN/purrr sci-CRAN/sessioninfo sci-CRAN/cli sci-CRAN/pingr >=dev-lang/R-3.2.0 sci-CRAN/gh sci-CRAN/codemeta sci-CRAN/desc r_suggests_covr? ( sci-CRAN/covr ) r_suggests_details? ( sci-CRAN/details ) r_suggests_dplyr? ( >=sci-CRAN/dplyr-0.7.0 ) r_suggests_jsonld? ( sci-CRAN/jsonld ) r_suggests_jsonvalidate? ( sci-CRAN/jsonvalidate ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_printr? ( sci-CRAN/printr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_usethis? ( sci-CRAN/usethis ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/codemetar_0.3.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ed4ae1b97968aa45b525dca6a18ae9aa

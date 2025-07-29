@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Age Band Decomposition Method for Tree Ring Standardization //
+		Implements the Age Band Decomposition (ABD) method for
+		standardizing tree ring width data while preserving both low
+		and high frequency variability. Unlike traditional detrending
+		approaches that can distort long term growth trends, ABD
+		decomposes ring width series into multiple age classes,
+		detrends each class separately, and then recombines them to
+		create standardized chronologies. This approach improves the
+		detection of growth signals linked to past climatic and
+		environmental factors, making it particularly valuable for
+		dendroecological and dendroclimatological studies. The package
+		provides functions to perform ABD-based standardization,
+		compare results with other common methods (e.g., BAI, C method,
+		RCS), and facilitate the interpretation of growth patterns
+		under current and future climate variability.
+	</longdescription>
+</pkgmetadata>

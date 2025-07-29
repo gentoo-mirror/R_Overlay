@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/dplyr-1.0.0 sci-CRAN/usethis >=dev-lang/R-4.0.0 >=sci-CRAN/StratigrapheR-1.1.1 sci-CRAN/tictoc sci-CRAN/hexbin sci-CRAN/colorRamps dev-lang/R:=
+DESCRIPTION=Empirical Mode Decomposition for Cyclostratigraphy
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_astrochron r_suggests_emd r_suggests_rssa byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/dplyr-1.0.0 sci-CRAN/usethis >=dev-lang/R-4.0.0 >=sci-CRAN/StratigrapheR-1.1.1 sci-CRAN/tictoc sci-CRAN/hexbin sci-CRAN/colorRamps r_suggests_astrochron? ( sci-CRAN/astrochron ) r_suggests_emd? ( sci-CRAN/EMD ) r_suggests_rssa? ( sci-CRAN/Rssa ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DecomposeR_1.0.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=38c8961f53f8fd1a924c5776471c81e7

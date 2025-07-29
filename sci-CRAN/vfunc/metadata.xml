@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Manipulate Virtual Functions // If f - function(x){x^2} and g -
+		function(x){x+1} it is a constant source of annoyance that
+		"f+g" is not defined. Package 'vfunc' allows you to do this,
+		and we have (f+g)(2) returning 5.  The other arithmetic
+		operators are similarly implemented.  A wide class of coding
+		bugs is eliminated.
+	</longdescription>
+</pkgmetadata>

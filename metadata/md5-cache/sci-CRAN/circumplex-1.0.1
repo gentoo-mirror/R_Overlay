@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4 virtual/boot >=sci-CRAN/ggplot2-3.3.0 >=sci-CRAN/htmlTable-1.13.3 >=sci-CRAN/ggforce-0.3.0 sci-CRAN/Rcpp sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Analysis and Visualization of Circular Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_ggrepel r_suggests_kableextra r_suggests_knitr r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.4 virtual/boot >=sci-CRAN/ggplot2-3.3.0 >=sci-CRAN/htmlTable-1.13.3 >=sci-CRAN/ggforce-0.3.0 sci-CRAN/Rcpp sci-CRAN/rlang sci-CRAN/Rcpp >=sci-CRAN/RcppArmadillo-0.11 r_suggests_covr? ( >=sci-CRAN/covr-3.5.0 ) r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_kableextra? ( >=sci-CRAN/kableExtra-1.1.0 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.28 ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.1 ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.1.0 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/circumplex_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=95916d6805cc23067e0852b6bfbb791f

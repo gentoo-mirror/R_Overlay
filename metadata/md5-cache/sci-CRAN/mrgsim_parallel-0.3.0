@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mrgsolve sci-CRAN/future_apply sci-CRAN/dplyr sci-CRAN/future >=dev-lang/R-3.5.0 sci-CRAN/callr sci-CRAN/fst dev-lang/R:=
+DESCRIPTION=Simulate with mrgsolve in Parallel
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arrow r_suggests_knitr r_suggests_qs r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mrgsolve sci-CRAN/future_apply sci-CRAN/dplyr sci-CRAN/future >=dev-lang/R-3.5.0 sci-CRAN/callr sci-CRAN/fst r_suggests_arrow? ( sci-CRAN/arrow ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_qs? ( sci-CRAN/qs ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mrgsim.parallel_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ac36386e7fb29d5718a522457a5cc65a

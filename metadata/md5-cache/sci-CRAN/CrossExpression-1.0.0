@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/RANN virtual/Matrix sci-CRAN/Rfast sci-CRAN/dplyr sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Cross-Expression Analysis of Spa... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/RANN virtual/Matrix sci-CRAN/Rfast sci-CRAN/dplyr sci-CRAN/stringr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CrossExpression_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=01580c2317014c9ccdb1a332b41b8ce4
