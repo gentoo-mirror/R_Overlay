@@ -15,13 +15,18 @@
 		multiple study characteristics like number of included studies,
 		statistical methods used, alpha error, power, statistical
 		results, correction method for multiple testing, software used.
-		An estimation of the involved sample size is performed based on
-		reports within the abstract and the reported degrees of freedom
-		within statistical results. In addition, the package contains
-		some useful functions to process text (text2sentences(),
-		text2num(), ngram(), strsplit2(), grep2()). See Bschen, I.
-		(2021) doi:10.1007/s11192-021-04162-z Bschen, I. (2021)
-		doi:10.1038/s41598-021-98782-3 and Bschen, I (2023)
-		doi:10.1038/s41598-022-27085-y.
+		The function get.stats() extracts all statistical results from
+		text and recomputes p-values for many standard test statistics.
+		It performs a consistency check of the reported with the
+		recalculated p-values. An estimation of the involved sample
+		size is performed based on textual reports within the abstract
+		and the reported degrees of freedom within statistical results.
+		In addition, the package contains some useful functions to
+		process text (text2sentences(), text2num(), ngram(),
+		strsplit2(), grep2()). See Bschen, I. (2021)
+		doi:10.1007/s11192-021-04162-z Bschen, I. (2021)
+		doi:10.1038/s41598-021-98782-3, Bschen, I. (2023)
+		doi:10.1038/s41598-022-27085-y, and Bschen, I. (2024)
+		doi:10.48550/arXiv.2408.07948.
 	</longdescription>
 </pkgmetadata>

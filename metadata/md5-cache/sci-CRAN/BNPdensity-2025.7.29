@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/coda sci-CRAN/gridExtra virtual/survival sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/viridis dev-lang/R:=
+DESCRIPTION=Ferguson-Klass Type Algorithm fo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bnpmix r_suggests_gmp r_suggests_greedyepl r_suggests_knitr r_suggests_rmarkdown r_suggests_rmpfr r_suggests_salso r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/ggplot2 sci-CRAN/coda sci-CRAN/gridExtra virtual/survival sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/viridis r_suggests_bnpmix? ( sci-CRAN/BNPmix ) r_suggests_gmp? ( sci-CRAN/gmp ) r_suggests_greedyepl? ( sci-CRAN/GreedyEPL ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rmpfr? ( sci-CRAN/Rmpfr ) r_suggests_salso? ( sci-CRAN/salso ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BNPdensity_2025.7.29.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e6f804b1ed2e48ad2a1957bd0e456ac4

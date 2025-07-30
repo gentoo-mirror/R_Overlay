@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Numerical Solution of Integral Equations // An R implementation
+		of Matthew Thomas's 'Python' library 'inteq'. First, this
+		solves Fredholm integral equations of the first kind ($f(s) =
+		\int_a^b K(s, y) g(y) dy$) using methods described by Twomey
+		(1963) doi:10.1145/321150.321157. Second, this solves Volterra
+		integral equations of the first kind ($f(s) = \int_0^s K(s,y)
+		g(t) dt$) using methods from Betto and Thomas (2021)
+		doi:10.48550/arXiv.2106.08496. Third, this solves Voltera
+		integral equations of the second kind ($g(s) = f(s) + \int_a^s
+		K(s,y) g(y) dy$) using methods from Linz (1969)
+		doi:10.1137/0706034.
+	</longdescription>
+</pkgmetadata>

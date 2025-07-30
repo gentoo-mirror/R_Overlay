@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/mgcv sci-CRAN/poweRlaw virtual/Matrix sci-CRAN/AUC sci-CRAN/sparseFLMM sci-CRAN/RSpectra sci-CRAN/irlba sci-CRAN/pracma sci-CRAN/nnls sci-CRAN/data_table sci-CRAN/Rcpp sci-CRAN/entropy dev-lang/R:=
+DESCRIPTION=Random Network Model Estimation,... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/mgcv sci-CRAN/poweRlaw virtual/Matrix sci-CRAN/AUC sci-CRAN/sparseFLMM sci-CRAN/RSpectra sci-CRAN/irlba sci-CRAN/pracma sci-CRAN/nnls sci-CRAN/data_table sci-CRAN/Rcpp sci-CRAN/entropy sci-CRAN/Rcpp sci-CRAN/RcppEigen dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/randnet_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cf10636afb06fec5ffb7f771b535bcc2

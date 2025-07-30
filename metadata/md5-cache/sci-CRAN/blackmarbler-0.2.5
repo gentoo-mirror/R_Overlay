@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/readr sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/lubridate sci-CRAN/terra sci-CRAN/sf sci-CRAN/exactextractr sci-CRAN/stringr sci-CRAN/httr2 dev-lang/R:=
+DESCRIPTION=Black Marble Data and Statistics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geodata r_suggests_ggplot2 r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/readr sci-CRAN/dplyr sci-CRAN/purrr sci-CRAN/tidyr sci-CRAN/lubridate sci-CRAN/terra sci-CRAN/sf sci-CRAN/exactextractr sci-CRAN/stringr sci-CRAN/httr2 r_suggests_geodata? ( sci-CRAN/geodata ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/blackmarbler_0.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b789b1f33970c29eabe3b197bd31f7f0

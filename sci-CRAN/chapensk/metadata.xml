@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimation of Gas Properties from the Lennard-Jones Potential //
+		Estimation of gas transport properties (viscosity, diffusion,
+		thermal conductivity) using Chapman-Enskok theory (Chapman and
+		Larmor 1918, doi:10.1098/rsta.1918.0005) and of the second
+		virial coefficient (Vargas et al. 2001,
+		doi:10.1016/s0378-4371(00)00362-9) using the Lennard-Jones
+		(12-6) potential. Up to the third order correction is taken
+		into account for viscosity and thermal conductivity. It is also
+		possible to calculate the binary diffusion coefficients of
+		polar and non-polar gases in non-polar bath gases (Brown et al.
+		2011, doi:10.1016/j.pecs.2010.12.001). 16 collision integrals
+		are calculated with four digit accuracy over the reduced
+		temperature range [0.3, 400] using an interpolation function of
+		Kim and Monroe (2014, doi:10.1016/j.jcp.2014.05.018).
+	</longdescription>
+</pkgmetadata>

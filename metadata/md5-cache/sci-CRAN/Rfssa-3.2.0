@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tibble sci-CRAN/ftsa >=dev-lang/R-4.0.0 virtual/lattice sci-CRAN/rainbow sci-CRAN/plotly sci-CRAN/Rcpp sci-CRAN/fda sci-CRAN/shiny sci-CRAN/Rssa sci-CRAN/ggplot2 sci-CRAN/RSpectra sci-CRAN/dplyr sci-CRAN/markdown dev-lang/R:=
+DESCRIPTION=Functional Singular Spectrum Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tibble sci-CRAN/ftsa >=dev-lang/R-4.0.0 virtual/lattice sci-CRAN/rainbow sci-CRAN/plotly sci-CRAN/Rcpp sci-CRAN/fda sci-CRAN/shiny sci-CRAN/Rssa sci-CRAN/ggplot2 sci-CRAN/RSpectra sci-CRAN/dplyr sci-CRAN/markdown sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppEigen r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Rfssa_3.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=aeeddb25f1c4f88bcd1734c1fb8147b6

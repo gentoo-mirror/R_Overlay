@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Wrangle and Analyze Growth Curve Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_cellranger r_suggests_ggplot2 r_suggests_knitr r_suggests_lubridate r_suggests_mgcv r_suggests_readxl r_suggests_rmarkdown r_suggests_sf r_suggests_testthat r_suggests_xlsx byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/rlang r_suggests_caret? ( sci-CRAN/caret ) r_suggests_cellranger? ( sci-CRAN/cellranger ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_mgcv? ( virtual/mgcv ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xlsx? ( sci-CRAN/xlsx ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gcplyr_1.12.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f3cb9b0eb6ef403d55a2458d0534aed8

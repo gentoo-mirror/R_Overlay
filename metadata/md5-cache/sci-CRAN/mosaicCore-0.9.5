@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/rlang sci-CRAN/tidyr virtual/MASS sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Common Utilities for Other MOSAIC-Family Packages
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggformula r_suggests_mosaic r_suggests_mosaiccalc r_suggests_mosaicdata r_suggests_nhanes r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/rlang sci-CRAN/tidyr virtual/MASS sci-CRAN/dplyr r_suggests_ggformula? ( sci-CRAN/ggformula ) r_suggests_mosaic? ( sci-CRAN/mosaic ) r_suggests_mosaiccalc? ( >=sci-CRAN/mosaicCalc-0.5.9 ) r_suggests_mosaicdata? ( sci-CRAN/mosaicData ) r_suggests_nhanes? ( sci-CRAN/NHANES ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mosaicCore_0.9.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0fc62c6bcda68c45358e3fc7c683fe1b
