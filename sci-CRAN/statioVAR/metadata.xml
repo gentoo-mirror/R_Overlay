@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Trend Removal for Vector Autoregressive Workflows // Detrending
+		multivariate time-series to approximate stationarity when
+		dealing with intensive longitudinal data, prior to Vector
+		Autoregressive (VAR) or multilevel-VAR estimation. Classical
+		VAR assumes weak stationarity (constant first two moments), and
+		deterministic trends inflate spurious autocorrelation, biasing
+		Granger-causality and impulse-response analyses. All functions
+		operate on raw panel data and write detrended columns back to
+		the data set, but differ in the level at which the trend is
+		estimated. See, for instance, Wang  Maxwell (2015)
+		doi:10.1037/met0000030; Burger et al. (2022)
+		doi:10.4324/9781003111238-13; Epskamp et al. (2018)
+		doi:10.1177/2167702617744325.
+	</longdescription>
+</pkgmetadata>

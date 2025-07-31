@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/metafor sci-CRAN/ggplot2 sci-CRAN/gtable sci-CRAN/data_table sci-CRAN/ranger sci-CRAN/metadat dev-lang/R:=
+DESCRIPTION=Exploring Heterogeneity in Meta-... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/metafor sci-CRAN/ggplot2 sci-CRAN/gtable sci-CRAN/data_table sci-CRAN/ranger sci-CRAN/metadat r_suggests_caret? ( sci-CRAN/caret ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/metaforest_0.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b0cefaf915e23c6757e925defde34725

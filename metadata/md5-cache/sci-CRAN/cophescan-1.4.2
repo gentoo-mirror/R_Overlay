@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/magrittr >=dev-lang/R-3.5.0 sci-CRAN/coloc sci-CRAN/ggplot2 sci-CRAN/data_table >=sci-CRAN/Rcpp-1.0.7 sci-CRAN/ggrepel sci-CRAN/pheatmap sci-CRAN/viridis sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Adaptation of the Coloc Method for PheWAS
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggpubr r_suggests_knitr r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix sci-CRAN/magrittr >=dev-lang/R-3.5.0 sci-CRAN/coloc sci-CRAN/ggplot2 sci-CRAN/data_table >=sci-CRAN/Rcpp-1.0.7 sci-CRAN/ggrepel sci-CRAN/pheatmap sci-CRAN/viridis sci-CRAN/dplyr sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cophescan_1.4.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=27999f70aff5bdfc2ce4809944e6a648
