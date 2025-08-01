@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Feature Screening via Adaptive Iterative Ridge (Air-HOLP and Air-
+		OLS) // Implements two complementary high-dimensional feature
+		screening methods, Adaptive Iterative Ridge High-dimensional
+		Ordinary Least-squares Projection (Air-HOLP, suitable when the
+		number of predictors p is greater than or equal to the sample
+		size n) and Adaptive Iterative Ridge Ordinary Least Squares
+		(Air-OLS, for n greater than p). Also  provides helper
+		functions to generate compound-symmetry and AR(1) correlated
+		data, plus a unified Air() front end and a summary method. For
+		methodological details see Joudah, Muller and Zhu (2025)
+		doi:10.1007/s11222-025-10599-6.
+	</longdescription>
+</pkgmetadata>

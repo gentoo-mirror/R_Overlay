@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/DT virtual/KernSmooth sci-CRAN/ggplot2 sci-CRAN/shiny sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Analyze Dose-Volume Histograms a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bs4dash r_suggests_knitr r_suggests_markdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/DT virtual/KernSmooth sci-CRAN/ggplot2 sci-CRAN/shiny sci-CRAN/reshape2 r_suggests_bs4dash? ( sci-CRAN/bs4Dash ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DVHmetrics_0.4.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=318b5ff8d0fdd0d1395d356aebc5850e

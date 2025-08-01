@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.14 >=sci-CRAN/Rcpp-0.11.1 dev-lang/R:=
+DESCRIPTION=Display and Analyze ROC Curves
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_logcondens r_suggests_mass r_suggests_rlang r_suggests_testthat r_suggests_tk r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-2.14 >=sci-CRAN/Rcpp-0.11.1 sci-CRAN/Rcpp r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_logcondens? ( sci-CRAN/logcondens ) r_suggests_mass? ( virtual/MASS ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tk? ( dev-lang/R[tk] ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pROC_1.19.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dd68dbf4756f60039d2f02cfae48f7dd

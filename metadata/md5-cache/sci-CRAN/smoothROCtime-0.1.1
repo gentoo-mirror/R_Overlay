@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ks dev-lang/R:=
+DESCRIPTION=Smooth Time-Dependent ROC Curve Estimation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kmsurv r_suggests_lattice r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/ks r_suggests_kmsurv? ( sci-CRAN/KMsurv ) r_suggests_lattice? ( virtual/lattice ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/smoothROCtime_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9e4a309fe6718cecf4917dc3a6bb3a4d
