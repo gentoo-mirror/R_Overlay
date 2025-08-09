@@ -20,10 +20,10 @@ R_SUGGESTS="
 	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
 "
 DEPEND=">=dev-lang/R-3.5
-	sci-CRAN/sf
-	sci-CRAN/readr
-	sci-CRAN/tibble
 	sci-CRAN/dplyr
+	sci-CRAN/readr
+	sci-CRAN/sf
+	sci-CRAN/tibble
 	sci-CRAN/stringi
 	sci-CRAN/glue
 "
