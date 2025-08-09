@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/sf-1.0 sci-CRAN/cppRouting >=sci-CRAN/dplyr-1.0.0 sci-CRAN/geosphere >=dev-lang/R-4.1.0 sci-CRAN/data_table sci-CRAN/ggplot2 sci-CRAN/lwgeom sci-CRAN/purrr sci-CRAN/s2 sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Find Routes for Supersonic Aircraft
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_airportr r_suggests_covr r_suggests_cowplot r_suggests_knitr r_suggests_progress r_suggests_rmarkdown r_suggests_rnaturalearthdata r_suggests_scales r_suggests_spelling r_suggests_stringr r_suggests_testthat r_suggests_units r_suggests_viridis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/sf-1.0 sci-CRAN/cppRouting >=sci-CRAN/dplyr-1.0.0 sci-CRAN/geosphere >=dev-lang/R-4.1.0 sci-CRAN/data_table sci-CRAN/ggplot2 sci-CRAN/lwgeom sci-CRAN/purrr sci-CRAN/s2 sci-CRAN/tidyr r_suggests_airportr? ( sci-CRAN/airportr ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_progress? ( sci-CRAN/progress ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rnaturalearthdata? ( sci-CRAN/rnaturalearthdata ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0 ) r_suggests_units? ( sci-CRAN/units ) r_suggests_viridis? ( sci-CRAN/viridis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/himach_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fd828353674b93d7ef470748c442b7b9

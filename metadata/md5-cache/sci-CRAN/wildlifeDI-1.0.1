@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/adehabitatLT sci-CRAN/move2 sci-CRAN/sp sci-CRAN/sf sci-CRAN/dplyr sci-CRAN/units sci-CRAN/lwgeom dev-lang/R:=
+DESCRIPTION=Calculate Indices of Dynamic Int... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_igraph r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/adehabitatLT sci-CRAN/move2 sci-CRAN/sp sci-CRAN/sf sci-CRAN/dplyr sci-CRAN/units sci-CRAN/lwgeom r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/wildlifeDI_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=645e7d9c56b0b8f53d9ea92e824d28ac

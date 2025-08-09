@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/censable sci-CRAN/fs sci-CRAN/readr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Citizen Voting Age Population
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1 sci-CRAN/cli sci-CRAN/dplyr sci-CRAN/censable sci-CRAN/fs sci-CRAN/readr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cvap_0.1.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c74e3963ed836cd4982652e8757569ef

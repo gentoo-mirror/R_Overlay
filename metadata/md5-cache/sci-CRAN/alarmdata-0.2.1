@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rappdirs sci-CRAN/dataverse sci-CRAN/redistmetrics sci-CRAN/curl sci-CRAN/dplyr sci-CRAN/tinytiger >=dev-lang/R-3.10 sci-CRAN/rlang sci-CRAN/cli sci-CRAN/readr sci-CRAN/stringr sci-CRAN/sf sci-CRAN/censable sci-CRAN/tidyselect >=sci-CRAN/geomander-2.1.0 >=sci-CRAN/redist-4.2.0 dev-lang/R:=
+DESCRIPTION=Download, Merge, and Process Redistricting Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rstudioapi r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rappdirs sci-CRAN/dataverse sci-CRAN/redistmetrics sci-CRAN/curl sci-CRAN/dplyr sci-CRAN/tinytiger >=dev-lang/R-3.10 sci-CRAN/rlang sci-CRAN/cli sci-CRAN/readr sci-CRAN/stringr sci-CRAN/sf sci-CRAN/censable sci-CRAN/tidyselect >=sci-CRAN/geomander-2.1.0 >=sci-CRAN/redist-4.2.0 r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/alarmdata_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a13a1fc7499b5243bfe3f2187cb43c3e

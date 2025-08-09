@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/units-0.8.0 >=sci-CRAN/assertthat-0.2.1 >=sci-CRAN/terra-1.6.17 >=sci-CRAN/rJava-1.0.6 sci-CRAN/magrittr >=sci-CRAN/crayon-1.4.1 dev-lang/R:=
+DESCRIPTION=Ecological Restoration Planning
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cluster r_suggests_ggthemes r_suggests_knitr r_suggests_landscapemetrics r_suggests_paletteer r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat r_suggests_vegan byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/units-0.8.0 >=sci-CRAN/assertthat-0.2.1 >=sci-CRAN/terra-1.6.17 >=sci-CRAN/rJava-1.0.6 sci-CRAN/magrittr >=sci-CRAN/crayon-1.4.1 virtual/jdk r_suggests_cluster? ( virtual/cluster ) r_suggests_ggthemes? ( sci-CRAN/ggthemes ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.2.0 ) r_suggests_landscapemetrics? ( >=sci-CRAN/landscapemetrics-1.5.4 ) r_suggests_paletteer? ( sci-CRAN/paletteer ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-1.10 ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-6.1.1 ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.1 ) r_suggests_vegan? ( >=sci-CRAN/vegan-2.5.7 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/restoptr_1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e23444762b0441b448963347de25dfe5

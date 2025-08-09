@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/terra-1.7 >=dev-lang/R-4.0.0 >=sci-CRAN/data_table-1.14.8 sci-CRAN/DT >=sci-CRAN/omnibus-1.2.15 >=sci-CRAN/rgrass-0.3.9 sci-CRAN/sf sci-CRAN/shiny dev-lang/R:=
+DESCRIPTION=Faster Raster and Spatial Vector... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/terra-1.7 >=dev-lang/R-4.0.0 >=sci-CRAN/data_table-1.14.8 sci-CRAN/DT >=sci-CRAN/omnibus-1.2.15 >=sci-CRAN/rgrass-0.3.9 sci-CRAN/sf sci-CRAN/shiny sci-geosciences/grass r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fasterRaster_8.4.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e52cdf0e7bf4152fde916c36e9e14d96

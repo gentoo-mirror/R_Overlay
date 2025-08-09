@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simulate Spatial Bernoulli Networks // Social network analysis is
+		becoming commonplace in many social science disciplines, but
+		access to useful network data, especially among marginalized
+		populations, still remains a formidable challenge. This package
+		mitigates that problem by providing tools to simulate spatial
+		Bernoulli networks as proposed in Carter T. Butts (2002,
+		ISBN:978-0-493-72676-2), "Spatial models of large-scale
+		interpersonal networks." Using this package, network analysts
+		can simulate a spatial point process or sequence with a given
+		number of nodes inside a geographical boundary and estimate the
+		probability of a tie formation between all node pairs. When
+		simulating a network, an analyst can choose between five
+		spatial interaction functions. The package also enables quick
+		comparison of summary statistics for simulated networks and
+		provides simple to use plotting methods for its classes that
+		return plots which can be further refined with the 'ggplot2'
+		package.
+	</longdescription>
+</pkgmetadata>

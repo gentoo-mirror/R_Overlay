@@ -4,18 +4,26 @@
 	<longdescription>
 		Constrained, Covariance-Matching Constrained and Universal Point
 		or Block Kriging // Provides functions for efficient
-		computations of nonlinear spatial predictions with local change
-		of support. This package supplies functions for tow-dimensional
-		spatial interpolation by constrained, covariance-matching
-		constrained and universal (external drift) kriging for points
-		or block of any shape for data with a nonstationary mean
-		function and an isotropic weakly stationary variogram. The
-		linear spatial interpolation methods, constrained and
-		covariance-matching constrained kriging, provide approximately
-		unbiased prediction for nonlinear target values under change of
-		support. This package extends the range of geostatistical tools
-		available in R and provides a veritable alternative to
-		conditional simulation for nonlinear spatial prediction
-		problems with local change of support.
+		computation of non-linear spatial predictions with local change
+		of support (Hofer, C. and Papritz, A. (2011)
+		"constrainedKriging: An R-package for customary, constrained
+		and covariance-matching constrained point or block kriging"
+		doi:10.1016/j.cageo.2011.02.009).  This package supplies
+		functions for two-dimensional spatial interpolation by
+		constrained (Cressie, N. (1993) "Aggregation in geostatistical
+		problems" doi:10.1007/978-94-011-1739-5_3), covariance-matching
+		constrained (Aldworth, J. and Cressie, N. (2003) "Prediction of
+		nonlinear spatial functionals"
+		doi:10.1016/S0378-3758(02)00321-X) and universal (external
+		drift) Kriging for points or blocks of any shape from data with
+		a non-stationary mean function and an isotropic weakly
+		stationary covariance function.  The linear spatial
+		interpolation methods, constrained and covariance-matching
+		constrained Kriging, provide approximately unbiased prediction
+		for non-linear target values under change of support.  This
+		package extends the range of tools for spatial predictions
+		available in R and provides an alternative to conditional
+		simulation for non-linear spatial prediction problems with
+		local change of support.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.3 sci-CRAN/dplyr sci-CRAN/purrr >=sci-CRAN/sf-0.9 sci-CRAN/units sci-CRAN/mapview dev-lang/R:=
+DESCRIPTION=Obtain Suggested Coordinate Refe... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_tidycensus r_suggests_tigris byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.3 sci-CRAN/dplyr sci-CRAN/purrr >=sci-CRAN/sf-0.9 sci-CRAN/units sci-CRAN/mapview r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_tidycensus? ( sci-CRAN/tidycensus ) r_suggests_tigris? ( sci-CRAN/tigris ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/crsuggest_0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e19ec3c56f9aef39a13d6a7c7141be2f

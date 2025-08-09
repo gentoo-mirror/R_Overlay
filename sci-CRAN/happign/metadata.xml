@@ -2,10 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		R Interface to 'IGN' Web Services // Interface to easily access
-		the National Institute of Geographic and Forestry Information
-		open-source data for any area of interest in France via WFS
-		(shapefile) and WMS (raster) web services
-		https://geoservices.ign.fr/services-web-experts.
+		R Interface to 'IGN' Web Services // Automatic open data
+		acquisition from resources of IGN ('Institut National de
+		Information Geographique et forestiere') (https://www.ign.fr/).
+		Available datasets include various types of raster and vector
+		data, such as digital elevation models, state borders, spatial
+		databases, cadastral parcels, and more. 'happign' also provide
+		access to API Carto (https://apicarto.ign.fr/api/doc/).
 	</longdescription>
 </pkgmetadata>

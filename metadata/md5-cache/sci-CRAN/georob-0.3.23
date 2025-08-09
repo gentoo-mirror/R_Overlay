@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/quantreg >=dev-lang/R-2.14 >=sci-CRAN/sp-0.9.60 >=sci-CRAN/robustbase-0.90.2 sci-CRAN/snowfall >=sci-CRAN/constrainedKriging-0.2.7 sci-CRAN/fields sci-CRAN/abind sci-CRAN/lmtest virtual/nlme sci-CRAN/nleqslv dev-lang/R:=
+DESCRIPTION=Robust Geostatistical Analysis of Spatial Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gstat r_suggests_lattice r_suggests_multcomp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/quantreg >=dev-lang/R-2.14 >=sci-CRAN/sp-0.9.60 >=sci-CRAN/robustbase-0.90.2 sci-CRAN/snowfall >=sci-CRAN/constrainedKriging-0.2.7 sci-CRAN/fields sci-CRAN/abind sci-CRAN/lmtest virtual/nlme sci-CRAN/nleqslv r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_lattice? ( virtual/lattice ) r_suggests_multcomp? ( sci-CRAN/multcomp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/georob_0.3-23.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=990ee51f40ab7b5b8cd3e00fa52d76b0

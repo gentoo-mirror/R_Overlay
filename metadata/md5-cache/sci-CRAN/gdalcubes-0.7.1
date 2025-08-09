@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/jsonlite sci-CRAN/Rcpp sci-CRAN/ncdf4 dev-lang/R:=
+DESCRIPTION=Earth Observation Data Cubes fro... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_lubridate r_suggests_rmarkdown r_suggests_sf r_suggests_stars r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/jsonlite sci-CRAN/Rcpp sci-CRAN/ncdf4 sci-CRAN/Rcpp sci-libs/netcdf sci-libs/gdal sci-CRAN/BH sci-libs/proj dev-db/sqlite r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_stars? ( sci-CRAN/stars ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gdalcubes_0.7.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1aeac441c4422070a6699d50d78ad387

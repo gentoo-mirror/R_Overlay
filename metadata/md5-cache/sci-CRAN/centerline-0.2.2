@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/geos-0.2.4 >=sci-CRAN/wk-0.9 >=sci-CRAN/sfnetworks-0.6 >=sci-CRAN/sf-1.0 sci-CRAN/checkmate dev-lang/R:=
+DESCRIPTION=Extract Centerline from Closed Polygons
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geomtextpath r_suggests_ggplot2 r_suggests_igraph r_suggests_raybevel r_suggests_smoothr r_suggests_terra r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/geos-0.2.4 >=sci-CRAN/wk-0.9 >=sci-CRAN/sfnetworks-0.6 >=sci-CRAN/sf-1.0 sci-CRAN/checkmate r_suggests_geomtextpath? ( >=sci-CRAN/geomtextpath-0.1.0 ) r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-3.1.0 ) r_suggests_igraph? ( >=sci-CRAN/igraph-2.0.0 ) r_suggests_raybevel? ( >=sci-CRAN/raybevel-0.2.0 ) r_suggests_smoothr? ( >=sci-CRAN/smoothr-1.0.0 ) r_suggests_terra? ( >=sci-CRAN/terra-1.7 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/centerline_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dd71d6b8e64cf10b97106591ce55813e

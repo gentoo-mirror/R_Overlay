@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.3 >=sci-CRAN/raster-3.5.21 >=sci-CRAN/terra-1.5.34 >=sci-CRAN/sp-1.4.5 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Species Distribution Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_deldir r_suggests_gbm r_suggests_gstat r_suggests_jsonlite r_suggests_kernlab r_suggests_randomforest r_suggests_rjava r_suggests_rocr r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.6.3 >=sci-CRAN/raster-3.5.21 >=sci-CRAN/terra-1.5.34 >=sci-CRAN/sp-1.4.5 sci-CRAN/Rcpp sci-CRAN/Rcpp virtual/jdk r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_gbm? ( >=sci-CRAN/gbm-2.1.1 ) r_suggests_gstat? ( sci-CRAN/gstat ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rjava? ( >=sci-CRAN/rJava-0.9.7 ) r_suggests_rocr? ( sci-CRAN/ROCR ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dismo_1.3-16.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ef120ce1371ce22fe9198d0857ab976e

@@ -6,14 +6,15 @@
 		Implements a class of univariate and multivariate spatial
 		generalised linear mixed models for areal unit data, with
 		inference in a Bayesian setting using Markov chain Monte Carlo
-		(MCMC) simulation. The response variable can be binomial,
-		Gaussian, multinomial, Poisson or zero-inflated Poisson (ZIP),
-		and spatial autocorrelation is modelled by a set of random
-		effects that are assigned a conditional autoregressive (CAR)
-		prior distribution. A number of different models are available
-		for univariate spatial data, including models with no random
-		effects as well as random effects modelled by different types
-		of CAR prior, including the BYM model (Besag et al., 1991,
+		(MCMC) simulation using a single or multiple Markov chains. The
+		response variable can be binomial, Gaussian, multinomial,
+		Poisson or zero-inflated Poisson (ZIP), and spatial
+		autocorrelation is modelled by a set of random effects that are
+		assigned a conditional autoregressive (CAR) prior distribution.
+		A number of different models are available for univariate
+		spatial data, including models with no random effects as well
+		as random effects modelled by different types of CAR prior,
+		including the BYM model (Besag et al., 1991,
 		doi:10.1007/BF00116466) and Leroux model (Leroux et al., 2000,
 		doi:10.1007/978-1-4612-1284-3_4). Additionally,  a multivariate
 		CAR (MCAR) model for multivariate spatial data is available, as

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/stars-0.5.5 >=sci-CRAN/move-4.1.6 >=sci-CRAN/lubridate-1.8.0 >=sci-CRAN/rlang-1.0.2 >=dev-lang/R-4.1.0 >=sci-CRAN/magick-2.8.2 >=sci-CRAN/terra-1.7.39 >=sci-CRAN/tidyselect-1.2.0 >=sci-CRAN/viridis-0.6.4 >=sci-CRAN/knitr-1.45 >=sci-CRAN/sf-1.0.7 >=sci-CRAN/raster-3.5.15 >=sci-CRAN/purrr-1.0.2 >=sci-CRAN/ggplot2-3.3.5 >=sci-CRAN/ggmap-3.0.0 >=sci-CRAN/beepr-1.3 >=sci-CRAN/sp-1.4.6 >=sci-CRAN/stringr-1.4.0 >=sci-CRAN/dplyr-1.0.8 >=sci-CRAN/tidyr-1.2.0 >=sci-CRAN/starsExtra-0.2.7 dev-lang/R:=
+DESCRIPTION=Visualizing and Quantifying Spac... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/stars-0.5.5 >=sci-CRAN/move-4.1.6 >=sci-CRAN/lubridate-1.8.0 >=sci-CRAN/rlang-1.0.2 >=dev-lang/R-4.1.0 >=sci-CRAN/magick-2.8.2 >=sci-CRAN/terra-1.7.39 >=sci-CRAN/tidyselect-1.2.0 >=sci-CRAN/viridis-0.6.4 >=sci-CRAN/knitr-1.45 >=sci-CRAN/sf-1.0.7 >=sci-CRAN/raster-3.5.15 >=sci-CRAN/purrr-1.0.2 >=sci-CRAN/ggplot2-3.3.5 >=sci-CRAN/ggmap-3.0.0 >=sci-CRAN/beepr-1.3 >=sci-CRAN/sp-1.4.6 >=sci-CRAN/stringr-1.4.0 >=sci-CRAN/dplyr-1.0.8 >=sci-CRAN/tidyr-1.2.0 >=sci-CRAN/starsExtra-0.2.7 r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/movegroup_2024.03.05.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6b3e5d6be5f2f51ab531a8d3024bb03d

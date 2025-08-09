@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Read Census Privacy Protected Microdata Files // Implements data
+		processing described in doi:10.1126/sciadv.abk3283 to align
+		modern differentially private data with formatting of older US
+		Census data releases. The primary goal is to read in Census
+		Privacy Protected Microdata Files data in a reproducible way.
+		This includes tools for aggregating to relevant levels of
+		geography by creating geographic identifiers which match the US
+		Census Bureau's numbering. Additionally, there are tools for
+		grouping race numeric identifiers into categories, consistent
+		with OMB (Office of Management and Budget) classifications.
+		Functions exist for downloading and linking to existing sources
+		of privacy protected microdata.
+	</longdescription>
+</pkgmetadata>

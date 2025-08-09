@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/secr-4.2.0 sci-CRAN/sf sci-CRAN/kofnGA sci-CRAN/abind >=sci-CRAN/Rcpp-0.12.14 dev-lang/R:=
+DESCRIPTION=Sampling Design for Spatially Ex... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ipsecr r_suggests_secrlinear r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/secr-4.2.0 sci-CRAN/sf sci-CRAN/kofnGA sci-CRAN/abind >=sci-CRAN/Rcpp-0.12.14 sci-CRAN/BH sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_ipsecr? ( >=sci-CRAN/ipsecr-1.4.0 ) r_suggests_secrlinear? ( sci-CRAN/secrlinear ) r_suggests_testthat? ( >=sci-CRAN/testthat-0.11.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/secrdesign_2.10.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=39d71044be27d6d72abafe00151e9d87

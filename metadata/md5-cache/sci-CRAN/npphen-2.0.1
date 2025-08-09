@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/terra-1.5.17 sci-CRAN/ks sci-CRAN/lubridate dev-lang/R:=
+DESCRIPTION=Vegetation Phenological Cycle an... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_leaflet r_suggests_sf r_suggests_tk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/terra-1.5.17 sci-CRAN/ks sci-CRAN/lubridate r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_tk? ( dev-lang/R[tk] ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/npphen_2.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8ec3dc88e21d78bfa074c5d0cf55bfa9

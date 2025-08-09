@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/sf-1.0.11 dev-lang/R:=
+DESCRIPTION=Wrappers for GDAL Utilities Executables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_rcolorbrewer r_suggests_stars r_suggests_terra r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=sci-CRAN/sf-1.0.11 r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_stars? ( sci-CRAN/stars ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gdalUtilities_1.2.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=921e99e7b89aeb5fa3d8c81691802a4f
