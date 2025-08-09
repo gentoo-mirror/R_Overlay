@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/foreach >=sci-CRAN/sp-1.4.2 virtual/Matrix sci-CRAN/lifecycle dev-lang/R:=
+DESCRIPTION=Full Bayesian Analysis of Latent... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_deldir r_suggests_deriv r_suggests_devtools r_suggests_doparallel r_suggests_dplyr r_suggests_ecdat r_suggests_evd r_suggests_fields r_suggests_ggplot2 r_suggests_graph r_suggests_gridextra r_suggests_gsl r_suggests_hkprocess r_suggests_inlaspacetime r_suggests_knitr r_suggests_markdown r_suggests_matrix r_suggests_mlogit r_suggests_mvtnorm r_suggests_numderiv r_suggests_pixmap r_suggests_rgl r_suggests_rgraphviz r_suggests_rmarkdown r_suggests_sf r_suggests_shiny r_suggests_sn r_suggests_spdep r_suggests_splancs r_suggests_terra r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/foreach >=sci-CRAN/sp-1.4.2 virtual/Matrix sci-CRAN/lifecycle r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_deriv? ( sci-CRAN/Deriv ) r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ecdat? ( sci-CRAN/Ecdat ) r_suggests_evd? ( sci-CRAN/evd ) r_suggests_fields? ( sci-CRAN/fields ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_graph? ( sci-BIOC/graph ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_gsl? ( sci-CRAN/gsl ) r_suggests_hkprocess? ( sci-CRAN/HKprocess ) r_suggests_inlaspacetime? ( sci-CRAN/INLAspacetime ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_matrix? ( virtual/Matrix virtual/Matrix ) r_suggests_mlogit? ( sci-CRAN/mlogit ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_numderiv? ( sci-CRAN/numDeriv ) r_suggests_pixmap? ( sci-CRAN/pixmap ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_sn? ( sci-CRAN/sn ) r_suggests_spdep? ( sci-CRAN/spdep ) r_suggests_splancs? ( sci-CRAN/splancs ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=https://inla.r-inla-download.org/R/stable/src/contrib/INLA_23.04.24.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dacbfac1baa0466e70df053fc5fb6caf

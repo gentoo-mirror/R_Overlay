@@ -1,0 +1,63 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Full Bayesian Analysis of Latent... (see metadata)'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="https://inla.r-inla-download.org/R/stable/src/contrib/INLA_21.02.23.tar.gz"
+LICENSE='GPL-2+'
+
+IUSE="${IUSE-} r_suggests_deldir r_suggests_deriv r_suggests_devtools
+	r_suggests_doparallel r_suggests_dplyr r_suggests_ecdat
+	r_suggests_evd r_suggests_fields r_suggests_ggplot2 r_suggests_graph
+	r_suggests_gridextra r_suggests_hkprocess r_suggests_knitr
+	r_suggests_markdown r_suggests_matrix r_suggests_mlogit
+	r_suggests_mpoly r_suggests_mvtnorm r_suggests_numderiv
+	r_suggests_orthopolynom r_suggests_pixmap r_suggests_rgeos
+	r_suggests_rgl r_suggests_rgraphviz r_suggests_rmarkdown
+	r_suggests_shiny r_suggests_sn r_suggests_spdep r_suggests_splancs
+	r_suggests_symmoments r_suggests_testthat"
+R_SUGGESTS="
+	r_suggests_deldir? ( sci-CRAN/deldir )
+	r_suggests_deriv? ( sci-CRAN/Deriv )
+	r_suggests_devtools? ( sci-CRAN/devtools )
+	r_suggests_doparallel? ( sci-CRAN/doParallel )
+	r_suggests_dplyr? ( sci-CRAN/dplyr )
+	r_suggests_ecdat? ( sci-CRAN/Ecdat )
+	r_suggests_evd? ( sci-CRAN/evd )
+	r_suggests_fields? ( sci-CRAN/fields )
+	r_suggests_ggplot2? ( sci-CRAN/ggplot2 )
+	r_suggests_graph? ( sci-BIOC/graph )
+	r_suggests_gridextra? ( sci-CRAN/gridExtra )
+	r_suggests_hkprocess? ( sci-CRAN/HKprocess )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_markdown? ( sci-CRAN/markdown )
+	r_suggests_matrix? ( virtual/Matrix virtual/Matrix )
+	r_suggests_mlogit? ( sci-CRAN/mlogit )
+	r_suggests_mpoly? ( sci-CRAN/mpoly )
+	r_suggests_mvtnorm? ( sci-CRAN/mvtnorm )
+	r_suggests_numderiv? ( sci-CRAN/numDeriv )
+	r_suggests_orthopolynom? ( sci-CRAN/orthopolynom )
+	r_suggests_pixmap? ( sci-CRAN/pixmap )
+	r_suggests_rgeos? ( sci-CRAN/rgeos )
+	r_suggests_rgl? ( sci-CRAN/rgl )
+	r_suggests_rgraphviz? ( sci-BIOC/Rgraphviz )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_shiny? ( sci-CRAN/shiny )
+	r_suggests_sn? ( sci-CRAN/sn )
+	r_suggests_spdep? ( sci-CRAN/spdep )
+	r_suggests_splancs? ( sci-CRAN/splancs )
+	r_suggests_symmoments? ( sci-CRAN/symmoments )
+	r_suggests_testthat? ( sci-CRAN/testthat )
+"
+DEPEND=">=dev-lang/R-3.2
+	sci-CRAN/foreach
+	virtual/Matrix
+	sci-CRAN/sp
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"
+
+_UNRESOLVED_PACKAGES=( 'rgdal' )
