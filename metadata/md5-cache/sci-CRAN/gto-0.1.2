@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/gt-0.8.0 sci-CRAN/xml2 sci-CRAN/officer sci-CRAN/magrittr sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Insert gt Tables into Word Documents
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=sci-CRAN/gt-0.8.0 sci-CRAN/xml2 sci-CRAN/officer sci-CRAN/magrittr sci-CRAN/rlang r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gto_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=46c78fe44dd705020d3f626a09aeea3d

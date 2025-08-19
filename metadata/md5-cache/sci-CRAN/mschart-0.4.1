@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cellranger sci-CRAN/writexl >=sci-CRAN/xml2-1.1.0 >=sci-CRAN/officer-0.3.6 sci-CRAN/data_table sci-CRAN/htmltools sci-CRAN/scales dev-lang/R:=
+DESCRIPTION=Chart Generation for Microsoft W... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_doconv r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/cellranger sci-CRAN/writexl >=sci-CRAN/xml2-1.1.0 >=sci-CRAN/officer-0.3.6 sci-CRAN/data_table sci-CRAN/htmltools sci-CRAN/scales r_suggests_doconv? ( sci-CRAN/doconv ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mschart_0.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3240e202de4e952a1f5259c6c445cf89

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny >=dev-lang/R-4.1.0 sci-CRAN/htmlwidgets sci-CRAN/sf sci-CRAN/geojsonsf sci-CRAN/rlang sci-CRAN/htmltools sci-CRAN/base64enc sci-CRAN/terra virtual/class sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Interactive Maps with Mapbox GL ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_leaflet r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/shiny >=dev-lang/R-4.1.0 sci-CRAN/htmlwidgets sci-CRAN/sf sci-CRAN/geojsonsf sci-CRAN/rlang sci-CRAN/htmltools sci-CRAN/base64enc sci-CRAN/terra virtual/class sci-CRAN/viridisLite r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mapgl_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=db797009c1c5041542eceec18d331194

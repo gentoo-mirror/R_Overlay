@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/glmmTMB sci-CRAN/broom_mixed virtual/nnet sci-CRAN/see sci-CRAN/patchwork sci-CRAN/correlation sci-CRAN/htmltools sci-CRAN/tidyverse sci-CRAN/knitr sci-CRAN/compositions sci-CRAN/kableExtra sci-CRAN/performance sci-CRAN/rstatix virtual/MASS sci-CRAN/fontawesome sci-CRAN/shinyscreenshot sci-CRAN/MVN sci-CRAN/brglm2 sci-CRAN/sjPlot sci-CRAN/broom sci-CRAN/modelbased sci-CRAN/shiny sci-CRAN/shinyjs sci-CRAN/shinyBS sci-CRAN/bslib sci-CRAN/lmerTest sci-CRAN/car sci-CRAN/bestNormalize sci-CRAN/effectsize sci-CRAN/DHARMa sci-CRAN/DT sci-CRAN/coin dev-lang/R:=
+DESCRIPTION=shiny Application for Statistica... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/glmmTMB sci-CRAN/broom_mixed virtual/nnet sci-CRAN/see sci-CRAN/patchwork sci-CRAN/correlation sci-CRAN/htmltools sci-CRAN/tidyverse sci-CRAN/knitr sci-CRAN/compositions sci-CRAN/kableExtra sci-CRAN/performance sci-CRAN/rstatix virtual/MASS sci-CRAN/fontawesome sci-CRAN/shinyscreenshot sci-CRAN/MVN sci-CRAN/brglm2 sci-CRAN/sjPlot sci-CRAN/broom sci-CRAN/modelbased sci-CRAN/shiny sci-CRAN/shinyjs sci-CRAN/shinyBS sci-CRAN/bslib sci-CRAN/lmerTest sci-CRAN/car sci-CRAN/bestNormalize sci-CRAN/effectsize sci-CRAN/DHARMa sci-CRAN/DT sci-CRAN/coin dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/AssumpSure_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b21c7afa0a95bc993e6d6a5ccfc39796

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/YatchewTest-1.1.0 sci-CRAN/plm sci-CRAN/rnames sci-CRAN/ggplot2 sci-CRAN/nprobust sci-CRAN/haven sci-CRAN/rlang sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Difference-in-Differences in Het... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/YatchewTest-1.1.0 sci-CRAN/plm sci-CRAN/rnames sci-CRAN/ggplot2 sci-CRAN/nprobust sci-CRAN/haven sci-CRAN/rlang sci-CRAN/dplyr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DIDHAD_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4e11bb59604b40cf163738380ed8df56

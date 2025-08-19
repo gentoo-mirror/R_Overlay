@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 dev-lang/R:=
+DESCRIPTION=Classification and Regression Trees
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_islr2 r_suggests_mass byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=dev-lang/R-3.6.0 r_suggests_islr2? ( sci-CRAN/ISLR2 ) r_suggests_mass? ( virtual/MASS ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tree_1.0-45.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e30f4af29df9e2dd5bfd5f3341b51b77

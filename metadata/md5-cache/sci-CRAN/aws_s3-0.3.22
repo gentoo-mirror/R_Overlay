@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/httr >sci-CRAN/xml2-1.0.0 sci-CRAN/curl sci-CRAN/digest sci-CRAN/base64enc >=sci-CRAN/aws_signature-0.3.7 dev-lang/R:=
+DESCRIPTION=AWS S3 Client Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/httr >sci-CRAN/xml2-1.0.0 sci-CRAN/curl sci-CRAN/digest sci-CRAN/base64enc >=sci-CRAN/aws_signature-0.3.7 r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/aws.s3_0.3.22.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8f12638c24697796c5168b4a5b6bdf93

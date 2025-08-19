@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Easily Access US Census Bureau Survey and Geographic Data // The
+		key function 'get_vintage_data()' returns a dataframe and is
+		the window into the Census Bureau API requiring just a dataset
+		name, vintage(year), and vector of variable names for survey
+		estimates/percentages. Other functions assist in searching for
+		available datasets, geographies, group/variable concepts of
+		interest.  Also provided are functions to access and layer (via
+		standard piping) displayable geometries for the US, states,
+		counties, blocks/tracts, roads, landmarks, places, and bodies
+		of water. Joining survey data with many of the geometry
+		functions is built-in to produce choropleth maps.
+	</longdescription>
+</pkgmetadata>

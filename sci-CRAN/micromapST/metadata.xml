@@ -23,15 +23,23 @@
 		indexing table between area names, abbreviations, numeric
 		identification and alias matching strings for the specific
 		geographic area.  By specifying a border group, the package
-		create linked micromap plots for any geographic region.  The
+		create linked micromap plots for any geographic region. The
 		user can create and provide their own border group dataset for
-		any area beyond the areas contained within the package.
-		References: Carr and Pickle, Chapman and Hall/CRC, Visualizing
-		Data Patterns with Micromaps, CRC Press, 2010. Pickle, Pearson,
-		and Carr (2015), micromapST: Exploring and Communicating
-		Geospatial Patterns in US State Data., Journal of Statistical
-		Software, 63(3), 1-25., https://www.jstatsoft.org/v63/i03/.
-		Copyrighted 2013, 2014, 2015, 2016, and 2022 by Carr, Pearson
-		and Pickle.
+		any area beyond the areas contained within the package with the
+		'BuildBorderGroup' function. In April of 2022, it was announced
+		that 'maptools', 'rgdal', and 'rgeos' R packages would be
+		retired in middle to end of 2023 and removed from the CRAN
+		libraries. The 'BuildBorderGroup' function was dependent on
+		these packages. 'micromapST' functions were not impacted by the
+		retired R packages. Upgrading of 'BuildBorderGroup' function
+		was completed and released with version 3.0.0 on August 10,
+		2023 using the 'sf' R package. References: Carr and Pickle,
+		Chapman and Hall/CRC, Visualizing Data Patterns with Micromaps,
+		CRC Press, 2010. Pickle, Pearson, and Carr (2015), micromapST:
+		Exploring and Communicating Geospatial Patterns in US State
+		Data., Journal of Statistical Software, 63(3), 1-25.,
+		https://www.jstatsoft.org/v63/i03/. Copyrighted 2013, 2014,
+		2015, 2016, 2022, 2023, 2024, and 2025 by Carr, Pearson and
+		Pickle.
 	</longdescription>
 </pkgmetadata>

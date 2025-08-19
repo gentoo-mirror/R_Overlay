@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/stringr sci-CRAN/jsonlite sci-CRAN/signal sci-CRAN/numDeriv sci-CRAN/abind sci-CRAN/pracma sci-CRAN/minpack_lm sci-CRAN/ptw sci-CRAN/fields sci-CRAN/RNiftyReg sci-CRAN/irlba sci-CRAN/RNifti sci-CRAN/mmand sci-CRAN/plyr >=sci-CRAN/expm-1.0.0 sci-CRAN/nloptr dev-lang/R:=
+DESCRIPTION=MR Spectroscopy Analysis Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_car r_suggests_digest r_suggests_divest r_suggests_doparallel r_suggests_ggplot2 r_suggests_kableextra r_suggests_knitr r_suggests_miniui r_suggests_ragg r_suggests_readxl r_suggests_rmarkdown r_suggests_shiny r_suggests_testthat r_suggests_viridislite byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/stringr sci-CRAN/jsonlite sci-CRAN/signal sci-CRAN/numDeriv sci-CRAN/abind sci-CRAN/pracma sci-CRAN/minpack_lm sci-CRAN/ptw sci-CRAN/fields sci-CRAN/RNiftyReg sci-CRAN/irlba sci-CRAN/RNifti sci-CRAN/mmand sci-CRAN/plyr >=sci-CRAN/expm-1.0.0 sci-CRAN/nloptr r_suggests_car? ( sci-CRAN/car ) r_suggests_digest? ( sci-CRAN/digest ) r_suggests_divest? ( sci-CRAN/divest ) r_suggests_doparallel? ( sci-CRAN/doParallel ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_miniui? ( sci-CRAN/miniUI ) r_suggests_ragg? ( sci-CRAN/ragg ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_viridislite? ( sci-CRAN/viridisLite ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spant_3.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0f288fca83d0c9afb1db0abb444e6e88
