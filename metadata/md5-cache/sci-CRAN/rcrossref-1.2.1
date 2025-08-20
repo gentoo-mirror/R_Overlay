@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DT >=sci-CRAN/xml2-1.1.1 >=sci-CRAN/jsonlite-1.5 sci-CRAN/plyr >=sci-CRAN/crul-0.7.4 >=sci-CRAN/dplyr-0.7.4 sci-CRAN/tibble sci-CRAN/R6 sci-CRAN/shiny sci-CRAN/miniUI sci-CRAN/rlang sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Client for Various CrossRef APIs
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bibtex r_suggests_knitr r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_testthat r_suggests_vcr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/DT >=sci-CRAN/xml2-1.1.1 >=sci-CRAN/jsonlite-1.5 sci-CRAN/plyr >=sci-CRAN/crul-0.7.4 >=sci-CRAN/dplyr-0.7.4 sci-CRAN/tibble sci-CRAN/R6 sci-CRAN/shiny sci-CRAN/miniUI sci-CRAN/rlang sci-CRAN/stringr r_suggests_bibtex? ( sci-CRAN/bibtex ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( >=sci-CRAN/roxygen2-7.1.0 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vcr? ( >=sci-CRAN/vcr-0.2.6 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rcrossref_1.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=75e21b692f6deb23f0e29f674233b518

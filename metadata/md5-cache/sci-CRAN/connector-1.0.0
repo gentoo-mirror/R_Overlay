@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/vroom sci-CRAN/arrow sci-CRAN/DBI sci-CRAN/glue sci-CRAN/fs sci-CRAN/readxl sci-CRAN/rlang sci-CRAN/yaml >=sci-CRAN/zephyr-0.1.1 sci-CRAN/haven sci-CRAN/lifecycle >=sci-CRAN/R6-2.4.0 sci-CRAN/readr sci-CRAN/checkmate sci-CRAN/purrr sci-CRAN/writexl sci-CRAN/cli sci-CRAN/jsonlite >=dev-lang/R-4.1 sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Streamlining Data Access in Clinical Research
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dbplyr r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_rpostgres r_suggests_rsqlite r_suggests_spelling r_suggests_testthat r_suggests_tibble r_suggests_usethis r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/vroom sci-CRAN/arrow sci-CRAN/DBI sci-CRAN/glue sci-CRAN/fs sci-CRAN/readxl sci-CRAN/rlang sci-CRAN/yaml >=sci-CRAN/zephyr-0.1.1 sci-CRAN/haven sci-CRAN/lifecycle >=sci-CRAN/R6-2.4.0 sci-CRAN/readr sci-CRAN/checkmate sci-CRAN/purrr sci-CRAN/writexl sci-CRAN/cli sci-CRAN/jsonlite >=dev-lang/R-4.1 sci-CRAN/dplyr r_suggests_dbplyr? ( sci-CRAN/dbplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpostgres? ( sci-CRAN/RPostgres ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_usethis? ( sci-CRAN/usethis ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/connector_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b5131ec2a3ff82887f709263fee0cf97

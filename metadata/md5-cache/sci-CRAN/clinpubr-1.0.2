@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rlang sci-CRAN/ggplot2 sci-CRAN/rms virtual/survival sci-CRAN/broom sci-CRAN/stringr sci-CRAN/survminer sci-CRAN/tidyr sci-CRAN/DescTools sci-CRAN/dplyr sci-CRAN/car sci-CRAN/fBasics sci-CRAN/forestploter sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Clinical Publication
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_dcurves r_suggests_dtplyr r_suggests_proc r_suggests_resourceselection r_suggests_rstatix r_suggests_tableone r_suggests_testthat r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rlang sci-CRAN/ggplot2 sci-CRAN/rms virtual/survival sci-CRAN/broom sci-CRAN/stringr sci-CRAN/survminer sci-CRAN/tidyr sci-CRAN/DescTools sci-CRAN/dplyr sci-CRAN/car sci-CRAN/fBasics sci-CRAN/forestploter sci-CRAN/stringi r_suggests_caret? ( sci-CRAN/caret ) r_suggests_dcurves? ( sci-CRAN/dcurves ) r_suggests_dtplyr? ( sci-CRAN/dtplyr ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_resourceselection? ( sci-CRAN/ResourceSelection ) r_suggests_rstatix? ( sci-CRAN/rstatix ) r_suggests_tableone? ( sci-CRAN/tableone ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clinpubr_1.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=14f54b457f1cd82f0089d9a72f1e3147

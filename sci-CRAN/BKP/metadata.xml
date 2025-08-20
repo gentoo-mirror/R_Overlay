@@ -2,18 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Beta and Dirichlet Kernel Processes for Binomial and Multinomial
-		Modeling // Provides methods for nonparametric modeling of
-		binomial and multinomial success probabilities via the Beta
-		Kernel Process and its extension, the Dirichlet Kernel Process.
-		Supports model fitting, predictive inference with uncertainty
-		quantification, posterior simulation, and visualization in one-
-		and two-dimensional input spaces. The package implements
-		multiple kernel functions (Gaussian, Matern 5/2, and Matern
-		3/2), and performs hyperparameter optimization using multi-
-		start gradient-based search. Applications include spatial
-		statistics, probabilistic classification, and Bayesian
-		experimental design. For more details, see MacKenzie, Trafalis,
-		and Barker (2014) doi:10.1002/sam.11241.
+		Beta Kernel Process Modeling // Implements the Beta Kernel
+		Process (BKP) for nonparametric modeling of spatially varying
+		binomial probabilities, together with its extension, the
+		Dirichlet Kernel Process (DKP), for categorical or multinomial
+		data. The package provides functions for model fitting,
+		predictive inference with uncertainty quantification, posterior
+		simulation, and visualization in one-and two-dimensional input
+		spaces. Multiple kernel functions (Gaussian, Matern 5/2, and
+		Matern 3/2) are supported, with hyperparameters optimized
+		through multi-start gradient-based search. For more details,
+		see Zhao, Qing, and Xu (2025) doi:10.48550/arXiv.2508.10447.
 	</longdescription>
 </pkgmetadata>

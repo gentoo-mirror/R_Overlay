@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 dev-lang/R:=
+DESCRIPTION=Data for Mathematical Modeling a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mosaic r_suggests_mosaiccalc r_suggests_plotly byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.1 r_suggests_mosaic? ( sci-CRAN/mosaic ) r_suggests_mosaiccalc? ( sci-CRAN/mosaicCalc ) r_suggests_plotly? ( sci-CRAN/plotly ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MMAC_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e59e33f8094eea217c2e5da013abfcbb

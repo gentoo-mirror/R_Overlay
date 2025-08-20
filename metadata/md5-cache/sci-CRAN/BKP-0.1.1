@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/lattice sci-CRAN/optimx sci-CRAN/gridExtra sci-CRAN/tgp dev-lang/R:=
+DESCRIPTION=Beta Kernel Process Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mlbench r_suggests_rmarkdown r_suggests_rticles r_suggests_testthat r_suggests_tinytex byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 virtual/lattice sci-CRAN/optimx sci-CRAN/gridExtra sci-CRAN/tgp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rticles? ( sci-CRAN/rticles ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tinytex? ( sci-CRAN/tinytex ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BKP_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ca71f37a5234260b64aa9492a7c2cfbe

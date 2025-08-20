@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tuneR dev-lang/R:=
+DESCRIPTION=Sound Analysis and Synthesis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_audio r_suggests_circlize r_suggests_factominer r_suggests_fftw r_suggests_ggplot2 r_suggests_phontools r_suggests_rgl r_suggests_rpanel r_suggests_signal byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/tuneR media-libs/libsndfile r_suggests_audio? ( sci-CRAN/audio ) r_suggests_circlize? ( sci-CRAN/circlize ) r_suggests_factominer? ( sci-CRAN/FactoMineR ) r_suggests_fftw? ( sci-CRAN/fftw ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_phontools? ( sci-CRAN/phonTools ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_rpanel? ( sci-CRAN/rpanel ) r_suggests_signal? ( sci-CRAN/signal ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/seewave_2.2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2b90fb8091a0f420e4eaaabbcb8e75ac

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/broom_helpers sci-CRAN/forestploter sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/glue sci-CRAN/parameters sci-CRAN/R6 >=sci-CRAN/rlang-0.4.11 virtual/survival dev-lang/R:=
+DESCRIPTION=Regression Model Processing Port
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_roxygen2 r_suggests_see r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/broom_helpers sci-CRAN/forestploter sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/glue sci-CRAN/parameters sci-CRAN/R6 >=sci-CRAN/rlang-0.4.11 virtual/survival r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_see? ( sci-CRAN/see ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/regport_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5c81b928c9ccb5977639fc72fff09667

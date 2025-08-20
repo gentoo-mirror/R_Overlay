@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmlwidgets virtual/lattice sci-CRAN/raster sci-CRAN/htmltools sci-CRAN/png sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Plot Raster Images Interactively... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_sf r_suggests_shiny r_suggests_sp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/htmlwidgets virtual/lattice sci-CRAN/raster sci-CRAN/htmltools sci-CRAN/png sci-CRAN/viridisLite r_suggests_sf? ( sci-CRAN/sf ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_sp? ( sci-CRAN/sp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/plainview_0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=61e1a1459e023d75aafefa8ede62b8fa

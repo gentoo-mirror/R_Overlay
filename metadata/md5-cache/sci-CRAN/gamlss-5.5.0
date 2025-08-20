@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS >=sci-CRAN/gamlss_data-5.0.0 >=dev-lang/R-4.1.0 virtual/nlme >=sci-CRAN/gamlss_dist-4.3.1 virtual/survival dev-lang/R:=
+DESCRIPTION=Generalized Additive Models for ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_distributions3 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=virtual/MASS >=sci-CRAN/gamlss_data-5.0.0 >=dev-lang/R-4.1.0 virtual/nlme >=sci-CRAN/gamlss_dist-4.3.1 virtual/survival r_suggests_distributions3? ( >=sci-CRAN/distributions3-0.2.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gamlss_5.5-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4c39f20ef7c8b1fc1657962fc71936ad

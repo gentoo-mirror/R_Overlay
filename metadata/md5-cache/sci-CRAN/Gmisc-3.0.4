@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice sci-CRAN/yaml sci-CRAN/magrittr sci-CRAN/stringr sci-CRAN/knitr >=sci-CRAN/Rcpp-0.11.4 >=sci-CRAN/htmlTable-2.0.0 sci-CRAN/rmarkdown sci-CRAN/forestplot sci-CRAN/Hmisc sci-CRAN/glue sci-CRAN/XML sci-CRAN/lubridate >=dev-lang/R-4.1.0 sci-CRAN/abind sci-CRAN/rlang sci-CRAN/checkmate dev-lang/R:=
+DESCRIPTION=Descriptive Statistics, Transition Plots, and More
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_jsonlite r_suggests_testthat r_suggests_tidyselect byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=virtual/lattice sci-CRAN/yaml sci-CRAN/magrittr sci-CRAN/stringr sci-CRAN/knitr >=sci-CRAN/Rcpp-0.11.4 >=sci-CRAN/htmlTable-2.0.0 sci-CRAN/rmarkdown sci-CRAN/forestplot sci-CRAN/Hmisc sci-CRAN/glue sci-CRAN/XML sci-CRAN/lubridate >=dev-lang/R-4.1.0 sci-CRAN/abind sci-CRAN/rlang sci-CRAN/checkmate sci-CRAN/Rcpp r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tidyselect? ( sci-CRAN/tidyselect ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Gmisc_3.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=04485d464ef4320fe4e5e69531217ae8

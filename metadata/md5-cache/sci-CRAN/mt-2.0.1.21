@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.0 sci-CRAN/randomForest virtual/MASS sci-CRAN/e1071 virtual/class sci-CRAN/pls sci-CRAN/ellipse virtual/lattice virtual/lattice dev-lang/R:=
+DESCRIPTION=Metabolomics Data Analysis Toolbox
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.0 sci-CRAN/randomForest virtual/MASS sci-CRAN/e1071 virtual/class sci-CRAN/pls sci-CRAN/ellipse virtual/lattice virtual/lattice dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mt_2.0-1.21.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f9754dfb9af0d854ab97238b15af7f00

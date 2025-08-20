@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/readxl sci-CRAN/coda >=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/runjags sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/Rdpack dev-lang/R:=
+DESCRIPTION=In Vitro Toxicokinetic Data Proc... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_flextable r_suggests_gridextra r_suggests_gridtext r_suggests_knitr r_suggests_magrittr r_suggests_r_rsp r_suggests_rmarkdown r_suggests_stringr r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/readxl sci-CRAN/coda >=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/runjags sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/Rdpack r_suggests_flextable? ( sci-CRAN/flextable ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_gridtext? ( sci-CRAN/gridtext ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/invitroTKstats_0.0.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4697b71116bf64d697f97c1e4176efd9
