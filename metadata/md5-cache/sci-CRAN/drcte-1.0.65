@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mclust virtual/survival sci-CRAN/multcomp virtual/MASS sci-CRAN/tidyr sci-CRAN/lmtest sci-CRAN/tibble sci-CRAN/dplyr >=dev-lang/R-4.0.0 sci-CRAN/drc sci-CRAN/plyr sci-CRAN/nor1mix sci-CRAN/sandwich sci-CRAN/car dev-lang/R:=
+DESCRIPTION=Statistical Approaches for Time-... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mclust virtual/survival sci-CRAN/multcomp virtual/MASS sci-CRAN/tidyr sci-CRAN/lmtest sci-CRAN/tibble sci-CRAN/dplyr >=dev-lang/R-4.0.0 sci-CRAN/drc sci-CRAN/plyr sci-CRAN/nor1mix sci-CRAN/sandwich sci-CRAN/car dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/drcte_1.0.65.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cfba68b41e3afb21bf68b7e942c3536c

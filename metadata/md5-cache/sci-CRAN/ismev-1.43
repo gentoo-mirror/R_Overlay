@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/mgcv dev-lang/R:=
+DESCRIPTION=An Introduction to Statistical M... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/mgcv dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ismev_1.43.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=624e4127b8c38a755b7326327d29c0d7

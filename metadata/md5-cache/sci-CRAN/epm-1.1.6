@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/terra-1.5.21 sci-CRAN/ape sci-CRAN/sf sci-CRAN/viridisLite sci-CRAN/pbapply >=sci-CRAN/Rcpp-0.12.9 sci-CRAN/RcppProgress dev-lang/R:=
+DESCRIPTION=EcoPhyloMapper
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_exactextractr r_suggests_spdep r_suggests_tmap byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/terra-1.5.21 sci-CRAN/ape sci-CRAN/sf sci-CRAN/viridisLite sci-CRAN/pbapply >=sci-CRAN/Rcpp-0.12.9 sci-CRAN/RcppProgress sci-CRAN/Rcpp sci-CRAN/RcppProgress r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_exactextractr? ( sci-CRAN/exactextractr ) r_suggests_spdep? ( sci-CRAN/spdep ) r_suggests_tmap? ( sci-CRAN/tmap ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/epm_1.1.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fc562a6ee6b7f870bff2777a49cfdf4c

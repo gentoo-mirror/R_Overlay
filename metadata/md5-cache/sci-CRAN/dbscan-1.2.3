@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 >=sci-CRAN/Rcpp-1.0.0 sci-CRAN/generics dev-lang/R:=
+DESCRIPTION=Density-Based Spatial Clustering... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dendextend r_suggests_fpc r_suggests_igraph r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.2.0 >=sci-CRAN/Rcpp-1.0.0 sci-CRAN/generics sci-CRAN/Rcpp r_suggests_dendextend? ( sci-CRAN/dendextend ) r_suggests_fpc? ( sci-CRAN/fpc ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dbscan_1.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c90bc5151e7648069c40aa05d05ea960

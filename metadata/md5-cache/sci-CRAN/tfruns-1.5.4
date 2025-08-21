@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/rstudioapi-0.7 sci-CRAN/yaml >=dev-lang/R-3.1 >=sci-CRAN/jsonlite-1.2 sci-CRAN/base64enc sci-CRAN/config sci-CRAN/magrittr sci-CRAN/whisker sci-CRAN/tidyselect sci-CRAN/rlang sci-CRAN/reticulate dev-lang/R:=
+DESCRIPTION=Training Run Tools for TensorFlow
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_here r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=>=sci-CRAN/rstudioapi-0.7 sci-CRAN/yaml >=dev-lang/R-3.1 >=sci-CRAN/jsonlite-1.2 sci-CRAN/base64enc sci-CRAN/config sci-CRAN/magrittr sci-CRAN/whisker sci-CRAN/tidyselect sci-CRAN/rlang sci-CRAN/reticulate r_suggests_here? ( sci-CRAN/here ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tfruns_1.5.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5e31ce028dfa1b7f829af4a457b8bf52
