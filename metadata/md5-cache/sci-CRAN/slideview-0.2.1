@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/htmlwidgets sci-CRAN/raster sci-CRAN/terra virtual/lattice sci-CRAN/htmltools sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Compare Raster Images Side by Side with a Slider
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_jpeg byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/htmlwidgets sci-CRAN/raster sci-CRAN/terra virtual/lattice sci-CRAN/htmltools sci-CRAN/viridisLite r_suggests_jpeg? ( sci-CRAN/jpeg ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/slideview_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0d4e7047a5d37590961c641e930f9d28

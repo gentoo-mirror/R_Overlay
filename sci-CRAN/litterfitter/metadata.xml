@@ -2,18 +2,13 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fit a Collection of Curves to Single Cohort Decomposition Data //
-		There is a long tradition of studying the flux of carbon from
-		the biosphere to the atmosphere by following a particular
-		cohort of litter (wood, leaves, roots, or other organic
-		material) through time.  The resulting data are mass remaining
-		and time. A variety of functional forms may be used to fit the
-		resulting data. Some work better empirically. Some are better
-		connected to a process-based understanding.  Some have a small
-		number of free parameters; others have more. This package
-		matches decomposition data to a family of these curves using
-		likelihood--based fitting. This package is based on published
-		research by Cornwell  Weedon (2013)
-		doi:10.1111/2041-210X.12138.
+		Fits a Collection of Curves to Single-Cohort Decomposition Data
+		// Fit different model forms to single-cohort litter
+		decomposition data (mass remaining through time) using
+		likelihood-based estimation. Models span simple empirical to
+		process-motivated forms with differing numbers of free
+		parameters. Provides parameter estimates, uncertainty, and
+		tools for model comparison/selection. Based on Cornwell  Weedon
+		(2013) doi:10.1111/2041-210X.12138.
 	</longdescription>
 </pkgmetadata>

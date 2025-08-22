@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Vincent Van Gogh Colour Palette Generator
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_colorspace r_suggests_jsonlite r_suggests_knitr r_suggests_rmarkdown r_suggests_scales byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/rlang r_suggests_colorspace? ( sci-CRAN/colorspace ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_scales? ( sci-CRAN/scales ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vangogh_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f85e922e56fe6da13fdb910f608918c3

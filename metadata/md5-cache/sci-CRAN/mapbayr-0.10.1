@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr >=sci-CRAN/ggplot2-3.4.0 sci-CRAN/progress >=sci-CRAN/mrgsolve-1.0.8 sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=MAP-Bayesian Estimation of PK Parameters
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_lubridate r_suggests_minqa r_suggests_scales r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr >=sci-CRAN/ggplot2-3.4.0 sci-CRAN/progress >=sci-CRAN/mrgsolve-1.0.8 sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tidyr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_minqa? ( sci-CRAN/minqa ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mapbayr_0.10.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3b66e3aea27fa5fec95fc002487fdeb1

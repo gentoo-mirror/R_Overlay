@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		User-Friendly PostgreSQL Connection Management // Provides a
+		user-friendly interface for managing PostgreSQL database
+		connection settings.  The package supplies helper functions to
+		create, edit and load connection and option configuration files
+		stored in a user-specific directory using the 'odbc' and
+		'RPostgres' back ends.  These helpers make it easy to construct
+		a reproducible connection string from a configuration file,
+		either by reading user-defined YAML files or by parsing an
+		environment variable.
+	</longdescription>
+</pkgmetadata>

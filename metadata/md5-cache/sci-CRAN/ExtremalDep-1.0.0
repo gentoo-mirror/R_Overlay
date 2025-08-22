@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvtnorm sci-CRAN/foreach virtual/cluster sci-CRAN/evd sci-CRAN/sn >=dev-lang/R-3.5.0 sci-CRAN/quadprog sci-CRAN/numDeriv sci-CRAN/copula sci-CRAN/nloptr sci-CRAN/gtools sci-CRAN/doParallel sci-CRAN/fda dev-lang/R:=
+DESCRIPTION=Extremal Dependence Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_extradistr r_suggests_fields byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mvtnorm sci-CRAN/foreach virtual/cluster sci-CRAN/evd sci-CRAN/sn >=dev-lang/R-3.5.0 sci-CRAN/quadprog sci-CRAN/numDeriv sci-CRAN/copula sci-CRAN/nloptr sci-CRAN/gtools sci-CRAN/doParallel sci-CRAN/fda r_suggests_extradistr? ( sci-CRAN/extraDistr ) r_suggests_fields? ( sci-CRAN/fields ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ExtremalDep_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=095b4b3ef831f2ed63b2e6e4bb9457c5

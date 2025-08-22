@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Standardization-Based Effect Estimation with Optional Prior
+		Covariance Adjustment // The Prognostic Regression Offsets with
+		Propagation of ERrors (for Treatment Effect Estimation) package
+		facilitates direct adjustment for experiments and observational
+		studies that is compatible with a range of study designs and
+		covariance adjustment strategies. It uses explicit
+		specification of clusters, blocks and treatment allocations to
+		furnish probability of assignment-based weights targeting any
+		of several average treatment effect parameters, and for
+		standard error calculations reflecting these design parameters.
+		For covariance adjustment of its Hajek and (one-way) fixed
+		effects estimates, it enables offsetting the outcome against
+		predictions from a dedicated covariance model, with standard
+		error calculations propagating error as appropriate from the
+		covariance model.
+	</longdescription>
+</pkgmetadata>

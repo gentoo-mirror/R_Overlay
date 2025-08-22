@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Exact sci-CRAN/ggplot2 sci-CRAN/fBasics sci-CRAN/bayestestR sci-CRAN/data_table >=dev-lang/R-3.6.0 sci-CRAN/viridis sci-CRAN/pROC sci-CRAN/MBESS sci-CRAN/car sci-CRAN/ez sci-CRAN/logspline sci-CRAN/ggpubr sci-CRAN/BayesFactor dev-lang/R:=
+DESCRIPTION=Neat and Painless Statistical Reporting
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_rstudioapi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD-2
+RDEPEND=sci-CRAN/Exact sci-CRAN/ggplot2 sci-CRAN/fBasics sci-CRAN/bayestestR sci-CRAN/data_table >=dev-lang/R-3.6.0 sci-CRAN/viridis sci-CRAN/pROC sci-CRAN/MBESS sci-CRAN/car sci-CRAN/ez sci-CRAN/logspline sci-CRAN/ggpubr sci-CRAN/BayesFactor r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/neatStats_1.13.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7a1ca1141f43205e478cae5d71eed34e

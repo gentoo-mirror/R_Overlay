@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice sci-CRAN/stars sci-CRAN/htmlwidgets sci-CRAN/htmltools sci-CRAN/base64enc sci-CRAN/svglite sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=View 3D Raster Cubes Interactively
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_raster r_suggests_shiny r_suggests_terra byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/lattice sci-CRAN/stars sci-CRAN/htmlwidgets sci-CRAN/htmltools sci-CRAN/base64enc sci-CRAN/svglite sci-CRAN/viridisLite r_suggests_raster? ( sci-CRAN/raster ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_terra? ( sci-CRAN/terra ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cubeview_0.4.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a4df81003c76739e9920dfa68331bce0
