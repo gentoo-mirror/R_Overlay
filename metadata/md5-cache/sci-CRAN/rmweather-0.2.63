@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ranger sci-CRAN/tibble >=dev-lang/R-3.2.0 sci-CRAN/tidyr sci-CRAN/viridis sci-CRAN/cli >=sci-CRAN/dplyr-1.0.1 sci-CRAN/magrittr sci-CRAN/ggplot2 sci-CRAN/lubridate sci-CRAN/pdp >=sci-CRAN/purrr-1.0.0 sci-CRAN/stringr sci-CRAN/strucchange dev-lang/R:=
+DESCRIPTION=Tools to Conduct Meteorological ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_openair r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ranger sci-CRAN/tibble >=dev-lang/R-3.2.0 sci-CRAN/tidyr sci-CRAN/viridis sci-CRAN/cli >=sci-CRAN/dplyr-1.0.1 sci-CRAN/magrittr sci-CRAN/ggplot2 sci-CRAN/lubridate sci-CRAN/pdp >=sci-CRAN/purrr-1.0.0 sci-CRAN/stringr sci-CRAN/strucchange r_suggests_openair? ( sci-CRAN/openair ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rmweather_0.2.63.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6f56147a7d6e0a98e482a3b27fd7c0b4

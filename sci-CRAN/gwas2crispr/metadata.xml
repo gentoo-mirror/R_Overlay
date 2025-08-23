@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		GWAS-to-CRISPR Data Pipeline for High-Throughput SNP Target
+		Extraction // Provides a reproducible pipeline to conduct
+		genomewide association studies (GWAS) and extract
+		singlenucleotide polymorphisms (SNPs) for a human trait or
+		disease. Given aggregated GWAS dataset(s) and a userdefined
+		significance threshold, the package retrieves significant SNPs
+		from the GWAS Catalog and the Experimental Factor Ontology
+		(EFO), annotates their gene context, and can write a harmonised
+		metadata table in comma-separated values (CSV) format, genomic
+		intervals in the Browser Extensible Data (BED) format, and
+		sequences in the FASTA (text-based sequence) format with user-
+		defined flanking regions for clustered regularly interspaced
+		short palindromic repeats (CRISPR) guide design. For details on
+		the resources and methods see: Buniello et al. (2019)
+		doi:10.1093/nar/gky1120; Sollis et al. (2023)
+		doi:10.1093/nar/gkac1010; Jinek et al. (2012)
+		doi:10.1126/science.1225829; Malone et al. (2010)
+		doi:10.1093/bioinformatics/btq099; Experimental Factor Ontology
+		(EFO) https://www.ebi.ac.uk/efo.
+	</longdescription>
+</pkgmetadata>

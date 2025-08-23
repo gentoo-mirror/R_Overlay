@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/xegaGeGene sci-CRAN/xegaPopulation sci-CRAN/parallelly sci-CRAN/filelock sci-CRAN/xegaPermGene >=dev-lang/R-3.5.0 sci-CRAN/xegaSelectGene sci-CRAN/xegaBNF sci-CRAN/xegaDerivationTrees sci-CRAN/xegaGaGene sci-CRAN/xegaGpGene sci-CRAN/xegaDfGene dev-lang/R:=
+DESCRIPTION=Extended Evolutionary and Genetic Algorithms
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/xegaGeGene sci-CRAN/xegaPopulation sci-CRAN/parallelly sci-CRAN/filelock sci-CRAN/xegaPermGene >=dev-lang/R-3.5.0 sci-CRAN/xegaSelectGene sci-CRAN/xegaBNF sci-CRAN/xegaDerivationTrees sci-CRAN/xegaGaGene sci-CRAN/xegaGpGene sci-CRAN/xegaDfGene r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/xega_0.9.0.17.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=27d69a9844ba4ac4f73aaf570f9b7616

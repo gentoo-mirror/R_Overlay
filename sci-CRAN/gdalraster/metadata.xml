@@ -11,17 +11,15 @@
 		and Python APIs provided by the 'GDAL' project. Class
 		'GDALRaster' encapsulates a 'GDALDataset' and its raster band
 		objects. Class 'GDALVector' encapsulates an 'OGRLayer' and the
-		'GDALDataset' that contains it. Class 'VSIFile' provides
-		bindings to the 'GDAL' 'VSIVirtualHandle' API. Additional
-		classes include 'CmbTable' for counting unique combinations of
-		integers, and 'RunningStats' for computing summary statistics
-		efficiently on large data streams. C++ stand-alone functions
-		provide bindings to most 'GDAL' raster and vector utilities
-		including 'OGR' facilities for vector geoprocessing, several
-		algorithms, the Geometry API ('GEOS' via 'GDAL' headers), the
+		'GDALDataset' that contains it. Initial bindings are provided
+		to the unified 'gdal' command line interface added in 'GDAL'
+		3.11. C++ stand-alone functions provide bindings to most 'GDAL'
+		"traditional" raster and vector utilities, including 'OGR'
+		facilities for vector geoprocessing, several algorithms, as
+		well as the Geometry API ('GEOS' via 'GDAL' headers), the
 		Spatial Reference Systems API, and methods for coordinate
 		transformation. Bindings to the Virtual Systems Interface
-		('VSI') API implement standard file system operations,
+		('VSI') API implement standard file system operations
 		abstracted for URLs, cloud storage services,
 		'Zip'/'GZip'/'7z'/'RAR', in-memory files, as well as regular
 		local file systems. This provides a single interface for

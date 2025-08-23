@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/estimatr sci-CRAN/ggplot2 sci-CRAN/ggrepel sci-CRAN/kableExtra sci-CRAN/metR sci-CRAN/rlang sci-CRAN/survey sci-CRAN/WeightIt dev-lang/R:=
+DESCRIPTION=Sensitivity Analysis for Weighted Estimators
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_pkgload r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/estimatr sci-CRAN/ggplot2 sci-CRAN/ggrepel sci-CRAN/kableExtra sci-CRAN/metR sci-CRAN/rlang sci-CRAN/survey sci-CRAN/WeightIt r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pkgload? ( sci-CRAN/pkgload ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/senseweight_0.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ea773dd1a7b0f9864585a886829566ff
