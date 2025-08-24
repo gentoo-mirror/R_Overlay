@@ -9,12 +9,17 @@
 		obtained from simulated ecological communities with prep_data()
 		which formats and arranges the initial data, and then the
 		optimization follows the following procedure of four functions:
-		(1) scompvar() calculates the variation components necessary
-		for (2) sim_cbo() to calculate the optimal combination of
-		number of sites and samples depending on either an economic
-		budget or on a desired statistical accuracy. Additionally, (3)
-		sim_beta() estimates statistical power and type 2 error by
-		using Permutational Multivariate Analysis of Variance, and (6)
-		plot_power() represents the results of the previous function.
+		(1) prep_data() takes the original dataset and creates
+		simulated sets that can be used as a basis for estimating
+		statistical power and type II error. (2) sim_beta() is used to
+		estimate the statistical power for the different sampling
+		efforts specified by the user. (3) sim_cbo() calculates then
+		the optimal sampling effort, based on the statistical power and
+		the sampling costs. Additionally, (4) scompvar() calculates the
+		variation components necessary for (5) Underwood_cbo() to
+		calculate the optimal combination of number of sites and
+		samples depending on either an economic budget or on a desired
+		statistical accuracy. Lastly, (6) plot_power() helps the user
+		visualize the results of sim_beta().
 	</longdescription>
 </pkgmetadata>

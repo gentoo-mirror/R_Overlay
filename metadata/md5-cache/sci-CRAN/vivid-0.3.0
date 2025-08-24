@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/gtable sci-CRAN/colorspace sci-CRAN/GGally sci-CRAN/RColorBrewer sci-CRAN/condvis2 sci-CRAN/ggplot2 sci-CRAN/DendSer sci-CRAN/dplyr sci-CRAN/igraph sci-CRAN/flashlight sci-CRAN/sp sci-CRAN/ggnewscale dev-lang/R:=
+DESCRIPTION=Variable Importance and Variable... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_caret r_suggests_covr r_suggests_e1071 r_suggests_gbm r_suggests_gridextra r_suggests_intergraph r_suggests_labeling r_suggests_mass r_suggests_mlr r_suggests_mlr3 r_suggests_mlr3learners r_suggests_network r_suggests_randomforest r_suggests_ranger r_suggests_scales r_suggests_sna r_suggests_testthat r_suggests_tidymodels r_suggests_vip r_suggests_xgboost r_suggests_zenplots byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/gtable sci-CRAN/colorspace sci-CRAN/GGally sci-CRAN/RColorBrewer sci-CRAN/condvis2 sci-CRAN/ggplot2 sci-CRAN/DendSer sci-CRAN/dplyr sci-CRAN/igraph sci-CRAN/flashlight sci-CRAN/sp sci-CRAN/ggnewscale r_suggests_caret? ( sci-CRAN/caret ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_gbm? ( sci-CRAN/gbm ) r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_intergraph? ( >=sci-CRAN/intergraph-2.0.2 ) r_suggests_labeling? ( sci-CRAN/labeling ) r_suggests_mass? ( virtual/MASS ) r_suggests_mlr? ( sci-CRAN/mlr ) r_suggests_mlr3? ( sci-CRAN/mlr3 ) r_suggests_mlr3learners? ( sci-CRAN/mlr3learners ) r_suggests_network? ( >=sci-CRAN/network-1.12.0 ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_sna? ( >=sci-CRAN/sna-2.3.2 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidymodels? ( sci-CRAN/tidymodels ) r_suggests_vip? ( sci-CRAN/vip ) r_suggests_xgboost? ( sci-CRAN/xgboost ) r_suggests_zenplots? ( sci-CRAN/zenplots ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vivid_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=83776ea04f09e28c6f65647787bb808b
