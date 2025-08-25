@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/dplyr sci-CRAN/ggnewscale sci-CRAN/dendextend >=sci-CRAN/rlang-1.1.0 sci-CRAN/cli dev-lang/R:=
+DESCRIPTION=Make Flexible ggplot2 Correlation Heatmaps
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/scales sci-CRAN/dplyr sci-CRAN/ggnewscale sci-CRAN/dendextend >=sci-CRAN/rlang-1.1.0 sci-CRAN/cli r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggcorrheatmap_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1ce839b778f1bd972721fd5ac1ed12dc

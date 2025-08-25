@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.3.0 >=sci-CRAN/spatstat_geom-2.4.0 >=sci-CRAN/bmp-0.3 dev-lang/R:=
+DESCRIPTION=Biological Geometries
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.3.0 >=sci-CRAN/spatstat_geom-2.4.0 >=sci-CRAN/bmp-0.3 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/biogeom_1.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9f1a278a780c2220ea3a3a09ea93b7e8

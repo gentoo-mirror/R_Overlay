@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/magick sci-CRAN/gridGraphics sci-CRAN/showtext sci-CRAN/ggplot2 sci-CRAN/sysfonts dev-lang/R:=
+DESCRIPTION=Create Meme
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cowplot r_suggests_ggimage r_suggests_knitr r_suggests_prettydoc r_suggests_rmarkdown r_suggests_shadowtext byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Artistic-2
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/magick sci-CRAN/gridGraphics sci-CRAN/showtext sci-CRAN/ggplot2 sci-CRAN/sysfonts r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_ggimage? ( sci-CRAN/ggimage ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_prettydoc? ( sci-CRAN/prettydoc ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shadowtext? ( sci-CRAN/shadowtext ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/meme_0.2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=61ab97134d39dc370460a92f48350eb9

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/scam sci-CRAN/plotly sci-CRAN/Seurat sci-CRAN/resample sci-CRAN/dplyr sci-CRAN/xgboost sci-CRAN/magrittr sci-CRAN/rayshader sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=A Bootstrap-Based Power Estimati... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_boot r_suggests_fields r_suggests_knitr r_suggests_patchwork r_suggests_rayrender r_suggests_rmarkdown r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/scam sci-CRAN/plotly sci-CRAN/Seurat sci-CRAN/resample sci-CRAN/dplyr sci-CRAN/xgboost sci-CRAN/magrittr sci-CRAN/rayshader sci-CRAN/ggplot2 r_suggests_boot? ( virtual/boot ) r_suggests_fields? ( sci-CRAN/fields ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_rayrender? ( sci-CRAN/rayrender ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PoweREST_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c915a97056502ff9a50239e51883cbfa
