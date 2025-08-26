@@ -2,13 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Fixed Effects Counterfactuals // Estimates causal effects with
-		panel data using the counterfactual methods. It is suitable for
-		panel or time-series cross-sectional analysis with binary
-		treatments under (hypothetically) baseline randomization.It
-		allows a treatment to switch on and off and limited carryover
-		effects. It supports linear factor models, a generalization of
-		gsynth and the matrix completion method. Implementation details
-		can be found in Liu, Wang and Xu (2022) arXiv:2107.00856.
+		Fixed Effects Counterfactual Estimators // Provides tools for
+		estimating causal effects in panel data using counterfactual
+		methods, as well as other modern DID estimators. It is designed
+		for causal panel analysis with binary treatments under the
+		parallel trends assumption. The package supports scenarios
+		where treatments can switch on and off and allows for limited
+		carryover effects. It includes several imputation estimators,
+		such as Gsynth (Xu 2017), linear factor models, and the matrix
+		completion method. Detailed methodology is described in Liu,
+		Wang, and Xu (2024) doi:10.48550/arXiv.2107.00856 and Chiu et
+		al. (2025) doi:10.48550/arXiv.2309.15983. Optionally integrates
+		with the "HonestDiDFEct" package for sensitivity analyses
+		compatible with imputation estimators. "HonestDiDFEct" is not
+		on CRAN but can be obtained from
+		https://github.com/lzy318/HonestDiDFEct.
 	</longdescription>
 </pkgmetadata>

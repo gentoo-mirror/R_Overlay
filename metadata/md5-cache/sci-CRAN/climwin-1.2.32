@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RcppRoll >=sci-CRAN/ggplot2-3.5.2 sci-CRAN/evd sci-CRAN/gridExtra >=dev-lang/R-3.5.0 virtual/Matrix sci-CRAN/lubridate sci-CRAN/lme4 sci-CRAN/MuMIn sci-CRAN/reshape sci-CRAN/numDeriv virtual/nlme dev-lang/R:=
+DESCRIPTION=Climate Window Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/RcppRoll >=sci-CRAN/ggplot2-3.5.2 sci-CRAN/evd sci-CRAN/gridExtra >=dev-lang/R-3.5.0 virtual/Matrix sci-CRAN/lubridate sci-CRAN/lme4 sci-CRAN/MuMIn sci-CRAN/reshape sci-CRAN/numDeriv virtual/nlme r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/climwin_1.2.32.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b1458c183f296a71207913f1ac52fcb0

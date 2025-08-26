@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.4.0 sci-CRAN/irlba dev-lang/R:=
+DESCRIPTION=Supervised Dimensional Reduction... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fields r_suggests_geigen r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.4.0 sci-CRAN/irlba r_suggests_fields? ( sci-CRAN/fields ) r_suggests_geigen? ( sci-CRAN/geigen ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/guidedPLS_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=823b2876db62bc8b6d8ecdec0a674db8

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimating Remaining Useful Life with Linear Mixed Effects Models
+		// Provides tools for estimating the Remaining Useful Life
+		(RUL) of degrading systems using linear mixed-effects models
+		and creating a health index. It supports both univariate and
+		multivariate degradation signals. For multivariate inputs, the
+		signals are merged into a univariate health index prior to
+		modeling. Linear and exponential degradation trajectories are
+		supported (the latter using a log transformation). Remaining
+		Useful Life (RUL) distributions are estimated using Bayesian
+		updating for new units, enabling on-site predictive
+		maintenance. Based on the methodology of Liu and Huang (2016)
+		doi:10.1109/TASE.2014.2349733.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/zoo >=sci-CRAN/ggmap-4.0.0 >=dev-lang/R-3.5 sci-CRAN/tibble sci-CRAN/curl sci-CRAN/ggplot2 sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/sf dev-lang/R:=
+DESCRIPTION=UK National River Flow Archive Data from R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dt r_suggests_dygraphs r_suggests_knitr r_suggests_leaflet r_suggests_rmarkdown r_suggests_spelling r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/zoo >=sci-CRAN/ggmap-4.0.0 >=dev-lang/R-3.5 sci-CRAN/tibble sci-CRAN/curl sci-CRAN/ggplot2 sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/lubridate sci-CRAN/sf r_suggests_dt? ( sci-CRAN/DT ) r_suggests_dygraphs? ( sci-CRAN/dygraphs ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rnrfa_2.1.0.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=64eced7d37f3ffb867e6c9d52cc34e82

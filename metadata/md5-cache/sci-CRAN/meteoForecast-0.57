@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/raster sci-CRAN/XML sci-CRAN/sp sci-CRAN/zoo sci-CRAN/ncdf4 dev-lang/R:=
+DESCRIPTION=Numerical Weather Predictions
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lattice r_suggests_rastervis r_suggests_sf byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/raster sci-CRAN/XML sci-CRAN/sp sci-CRAN/zoo sci-CRAN/ncdf4 r_suggests_lattice? ( virtual/lattice ) r_suggests_rastervis? ( sci-CRAN/rasterVis ) r_suggests_sf? ( sci-CRAN/sf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/meteoForecast_0.57.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8a454bc640bde9dc963cc05d204cc07d
