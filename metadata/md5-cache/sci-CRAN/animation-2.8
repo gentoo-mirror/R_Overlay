@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.14.0 sci-CRAN/magick dev-lang/R:=
+DESCRIPTION=A Gallery of Animations in Stati... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cairo r_suggests_class r_suggests_fimport r_suggests_mass r_suggests_rgl r_suggests_testit r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.14.0 sci-CRAN/magick || ( media-gfx/imagemagick media-gfx/graphicsmagick ) app-text/texlive media-gfx/swftools virtual/ffmpeg r_suggests_cairo? ( sci-CRAN/Cairo ) r_suggests_class? ( virtual/class ) r_suggests_fimport? ( sci-CRAN/fImport ) r_suggests_mass? ( virtual/MASS ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_testit? ( sci-CRAN/testit ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/animation_2.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4cbc1e1f3d3cbb85186f87af0d74e7ee

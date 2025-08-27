@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/strucchange sci-CRAN/partykit sci-CRAN/zoo >=dev-lang/R-3.1.0 sci-CRAN/ucminf virtual/nlme virtual/rpart sci-CRAN/formula_tools sci-CRAN/numDeriv sci-CRAN/sandwich dev-lang/R:=
+DESCRIPTION=Tree-Based Varying Coefficient R... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ecdat r_suggests_mlbench r_suggests_rweka r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/strucchange sci-CRAN/partykit sci-CRAN/zoo >=dev-lang/R-3.1.0 sci-CRAN/ucminf virtual/nlme virtual/rpart sci-CRAN/formula_tools sci-CRAN/numDeriv sci-CRAN/sandwich r_suggests_ecdat? ( sci-CRAN/Ecdat ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_rweka? ( sci-CRAN/RWeka ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vcrpart_1.0-7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3179311b0b0dc9cca543ace4d582baba

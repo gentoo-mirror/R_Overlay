@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/openssl sci-CRAN/stringr sci-CRAN/zip sci-CRAN/uuid dev-lang/R:=
+DESCRIPTION=Encryption and Decryption of Fil... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/openssl sci-CRAN/stringr sci-CRAN/zip sci-CRAN/uuid dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EQUALencrypt_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cb2882c10149911c9b71d615a3be14d7

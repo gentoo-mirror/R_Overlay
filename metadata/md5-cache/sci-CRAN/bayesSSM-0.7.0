@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/future sci-CRAN/dplyr sci-CRAN/Rcpp sci-CRAN/future_apply sci-CRAN/checkmate dev-lang/R:=
+DESCRIPTION=Bayesian Methods for State Space Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_expm r_suggests_extradistr r_suggests_ggplot2 r_suggests_knitr r_suggests_rlang r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/MASS sci-CRAN/future sci-CRAN/dplyr sci-CRAN/Rcpp sci-CRAN/future_apply sci-CRAN/checkmate sci-CRAN/Rcpp r_suggests_expm? ( sci-CRAN/expm ) r_suggests_extradistr? ( sci-CRAN/extraDistr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bayesSSM_0.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=47b7e41afe5275ec07b449fa52650aa8
