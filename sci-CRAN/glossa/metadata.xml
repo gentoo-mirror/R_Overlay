@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		User-Friendly 'shiny' App for Bayesian Species Distribution
+		Models // A user-friendly 'shiny' application for Bayesian
+		machine learning analysis of marine species distributions.
+		GLOSSA (Global Ocean Species Spatio-temporal Analysis) uses
+		Bayesian Additive Regression Trees (BART; Chipman, George, and
+		McCulloch (2010) doi:10.1214/09-AOAS285) to model species
+		distributions with intuitive workflows for data upload,
+		processing, model fitting, and result visualization. It
+		supports presence-absence and presence-only data (with pseudo-
+		absence generation), spatial thinning, cross-validation, and
+		scenario-based projections. GLOSSA is designed to facilitate
+		ecological research by providing easy-to-use tools for
+		analyzing and visualizing marine species distributions across
+		different spatial and temporal scales. Optionally, pseudo-
+		absences can be generated within the environmental space using
+		the external package 'flexsdm' (not on CRAN), which can be
+		downloaded from https://github.com/sjevelazco/flexsdm; this
+		functionality is used conditionally when available and all core
+		features work without it.
+	</longdescription>
+</pkgmetadata>

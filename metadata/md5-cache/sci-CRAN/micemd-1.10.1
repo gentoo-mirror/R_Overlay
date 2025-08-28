@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/GJRM-0.2.6.4 virtual/MASS sci-CRAN/lme4 virtual/nlme >=sci-CRAN/mvmeta-0.4.7 >=sci-CRAN/jomo-2.6.3 sci-CRAN/digest sci-CRAN/mixmeta sci-CRAN/pbivnorm sci-CRAN/mvtnorm >=sci-CRAN/mice-2.42 >=dev-lang/R-3.5.0 sci-CRAN/abind virtual/Matrix virtual/mgcv dev-lang/R:=
+DESCRIPTION=Multiple Imputation by Chained E... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_broom_mixed r_suggests_data_table r_suggests_ggplot2 r_suggests_vim byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=|| ( GPL-2 GPL-3 )
+RDEPEND=>=sci-CRAN/GJRM-0.2.6.4 virtual/MASS sci-CRAN/lme4 virtual/nlme >=sci-CRAN/mvmeta-0.4.7 >=sci-CRAN/jomo-2.6.3 sci-CRAN/digest sci-CRAN/mixmeta sci-CRAN/pbivnorm sci-CRAN/mvtnorm >=sci-CRAN/mice-2.42 >=dev-lang/R-3.5.0 sci-CRAN/abind virtual/Matrix virtual/mgcv r_suggests_broom_mixed? ( sci-CRAN/broom_mixed ) r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_vim? ( sci-CRAN/VIM ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/micemd_1.10.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=892bebc3b64f2260492d90ff08bcd90b

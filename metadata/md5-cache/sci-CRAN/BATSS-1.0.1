@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/abind sci-CRAN/rlang sci-CRAN/plyr sci-CRAN/cli sci-CRAN/R_utils dev-lang/R:=
+DESCRIPTION=Bayesian Adaptive Trial Simulato... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_inla byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/abind sci-CRAN/rlang sci-CRAN/plyr sci-CRAN/cli sci-CRAN/R_utils r_suggests_inla? ( sci-INLA/INLA ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BATSS_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8768700966f9dd402c8317fda0cb67bf

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sample Size Calculator under Complex Survey Design // It helps in
+		determination of sample size for estimating population mean or
+		proportion under simple random sampling with or without
+		replacement and stratified random sampling without replacement.
+		When prior information on the population coefficient of
+		variation (CV) is unavailable, then a preliminary sample is
+		drawn to estimate the CV which is used to compute the final
+		sample size. If the final size exceeds the preliminary sample
+		size, then additional units are drawn; otherwise, the
+		preliminary sample size is considered as final sample size. For
+		stratified random sampling without replacement design, it also
+		calculates the sample size in each stratum under different
+		allocation methods for estimation of population mean and
+		proportion based upon the availability of prior information on
+		sizes of the strata, standard deviations of the strata and
+		costs of drawing a sampling unit in the strata.For details on
+		sampling methodology, see, Cochran (1977) "Sampling Techniques"
+		https://archive.org/details/samplingtechniqu0000coch_t4x6.
+	</longdescription>
+</pkgmetadata>
