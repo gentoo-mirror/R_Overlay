@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Biologically Informed Metabolomic Databases from 'PubChem' // All
+		'PubChem' compounds are downloaded to a local computer, but for
+		each compound, only partial records are used.  The data are
+		organized into small files referenced by 'PubChem' CID.  This
+		package also contains functions to parse the biologically
+		relevant compounds from all 'PubChem' compounds, using
+		biological database sources, pathway presence, and taxonomic
+		relationships. Taxonomy is used to generate a lowest common
+		ancestor taxonomy ID (NCBI) for each biological metabolite,
+		which then enables creation of taxonomically specific
+		metabolome databases for any taxon.
+	</longdescription>
+</pkgmetadata>

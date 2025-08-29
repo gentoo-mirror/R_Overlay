@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Visualizing Decomposition of Differences in Rate Metrics //
+		Provides tools for decomposing differences in rate metrics
+		between two groups into contributions from individual subgroups
+		and visualizing them as a "Theseus Plot". Inspired by the story
+		of the Ship of Theseus, the method replaces subgroup data from
+		one group with that of another step by step, recalculating the
+		overall metric at each stage to quantify subgroup
+		contributions. A Theseus Plot combines the stepwise progression
+		of a waterfall plot with the comparative bars of a bar chart,
+		offering an intuitive way to understand subgroup-level effects.
+	</longdescription>
+</pkgmetadata>

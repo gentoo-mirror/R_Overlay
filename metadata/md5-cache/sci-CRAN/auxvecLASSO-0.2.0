@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.5.0 sci-CRAN/doParallel sci-CRAN/glmnet virtual/Matrix sci-CRAN/parallelly sci-CRAN/survey sci-CRAN/pROC sci-CRAN/crayon dev-lang/R:=
+DESCRIPTION=LASSO Auxiliary Variable Selecti... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_foreach r_suggests_knitr r_suggests_rmarkdown r_suggests_sampling r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.5.0 sci-CRAN/doParallel sci-CRAN/glmnet virtual/Matrix sci-CRAN/parallelly sci-CRAN/survey sci-CRAN/pROC sci-CRAN/crayon r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_foreach? ( sci-CRAN/foreach ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sampling? ( sci-CRAN/sampling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/auxvecLASSO_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0b7c5f93976687fdbb142f073e125567

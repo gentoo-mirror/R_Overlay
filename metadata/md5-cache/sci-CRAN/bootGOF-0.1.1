@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/checkmate-2.0.0 >=sci-CRAN/R6-2.4.1 dev-lang/R:=
+DESCRIPTION=Bootstrap Based Goodness-of-Fit Tests
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_mass r_suggests_minpack_lm r_suggests_mockery r_suggests_pkgdown r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/checkmate-2.0.0 >=sci-CRAN/R6-2.4.1 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_minpack_lm? ( sci-CRAN/minpack_lm ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_pkgdown? ( sci-CRAN/pkgdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bootGOF_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=76a8ba6767b5b15851be01dc4580a43e

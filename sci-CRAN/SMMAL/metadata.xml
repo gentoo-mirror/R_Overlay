@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Semi-Supervised Estimation of Average Treatment Effects //
+		Provides a pipeline for estimating the average treatment effect
+		via semi-supervised learning. Outcome regression is fit with
+		cross-fitting using various machine learning method or user
+		customized function. Doubly robust ATE estimation leverages
+		both labeled and unlabeled data under a semi-supervised
+		missing-data framework. For more details see Hou et al. (2021)
+		doi:10.48550/arxiv.2110.12336. A detailed vignette is included.
+	</longdescription>
+</pkgmetadata>
