@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/here-1.0.0 sci-CRAN/yaml sci-CRAN/roxygen2 sci-CRAN/attachment sci-CRAN/desc sci-CRAN/devtools sci-CRAN/cli sci-CRAN/glue sci-CRAN/magrittr >=sci-CRAN/usethis-2.0.0 sci-CRAN/tibble sci-CRAN/stringi sci-CRAN/pkgload sci-CRAN/tidyr sci-CRAN/lightparser dev-lang/R:=
+DESCRIPTION=Build a Package from Rmarkdown Files
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_gert r_suggests_knitr r_suggests_rcmdcheck r_suggests_rmarkdown r_suggests_rstudioapi r_suggests_styler r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/here-1.0.0 sci-CRAN/yaml sci-CRAN/roxygen2 sci-CRAN/attachment sci-CRAN/desc sci-CRAN/devtools sci-CRAN/cli sci-CRAN/glue sci-CRAN/magrittr >=sci-CRAN/usethis-2.0.0 sci-CRAN/tibble sci-CRAN/stringi sci-CRAN/pkgload sci-CRAN/tidyr sci-CRAN/lightparser r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gert? ( sci-CRAN/gert ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rcmdcheck? ( sci-CRAN/rcmdcheck ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( sci-CRAN/rstudioapi ) r_suggests_styler? ( sci-CRAN/styler ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.2.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fusen_0.7.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=eb2a5f8dfefd99a690fe8f2dd21ff317

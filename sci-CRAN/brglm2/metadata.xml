@@ -5,12 +5,12 @@
 		Bias Reduction in Generalized Linear Models // Estimation and
 		inference from generalized linear models based on various
 		methods for bias reduction and maximum penalized likelihood
-		with powers of the Jeffreys prior as penalty. The 'brglmFit'
+		with powers of the Jeffreys prior as penalty. The 'brglmFit()'
 		fitting method can achieve reduction of estimation bias by
 		solving either the mean bias-reducing adjusted score equations
 		in Firth (1993) doi:10.1093/biomet/80.1.27 and Kosmidis and
 		Firth (2009) doi:10.1093/biomet/asp055, or the median bias-
-		reduction adjusted score equations in Kenne et al. (2017)
+		reducing adjusted score equations in Kenne et al. (2017)
 		doi:10.1093/biomet/asx046, or through the direct subtraction of
 		an estimate of the bias of the maximum likelihood estimator
 		from the maximum likelihood estimates as in Cordeiro and
@@ -27,6 +27,12 @@
 		the maximum likelihood estimates are infinite (e.g. complete
 		and quasi-complete separation; see Kosmidis and Firth, 2020
 		doi:10.1093/biomet/asaa052, for a proof for mean bias reduction
-		in logistic regression).
+		in logistic regression). The 'mdyplFit()' fitting method fits
+		logistic regression models using maximum Diaconis-Ylvisaker
+		prior penalized likelihood, which also guarantees finite
+		estimates. High-dimensionality corrections under proportional
+		asymptotics can be applied to the resulting objects; see
+		Sterzinger and Kosmidis (2024) doi:10.48550/arXiv.2311.07419
+		for details.
 	</longdescription>
 </pkgmetadata>

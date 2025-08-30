@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stopwords virtual/Matrix sci-CRAN/stringr >=dev-lang/R-4.00 sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/textmineR sci-CRAN/ggplot2 sci-CRAN/ggwordcloud sci-CRAN/tibble sci-CRAN/readr sci-CRAN/ngram sci-CRAN/ggforce sci-CRAN/rlang sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Creating and Significance Testin... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_glmnet r_suggests_knitr r_suggests_mallet r_suggests_rjava r_suggests_rmarkdown r_suggests_testthat r_suggests_text r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/stopwords virtual/Matrix sci-CRAN/stringr >=dev-lang/R-4.00 sci-CRAN/data_table sci-CRAN/dplyr sci-CRAN/tidyr sci-CRAN/textmineR sci-CRAN/ggplot2 sci-CRAN/ggwordcloud sci-CRAN/tibble sci-CRAN/readr sci-CRAN/ngram sci-CRAN/ggforce sci-CRAN/rlang sci-CRAN/purrr dev-lang/python r_suggests_covr? ( sci-CRAN/covr ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mallet? ( sci-CRAN/mallet ) r_suggests_rjava? ( sci-CRAN/rJava ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_text? ( sci-CRAN/text ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/topics_0.62.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fdbd7d2a9a132cf5ffb84b9b7d9a26fb

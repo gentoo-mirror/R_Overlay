@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/gt-0.11.1 sci-CRAN/lifecycle virtual/survival >=sci-CRAN/rlang-1.1.5 >=sci-CRAN/tidyr-1.3.0 >=sci-CRAN/cards-0.7.0 >=sci-CRAN/gtsummary-2.4.0 >=sci-CRAN/broom-1.0.8 >=dev-lang/R-4.2 >=sci-CRAN/cardx-0.3.0 >=sci-CRAN/cli-3.6.4 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/glue-1.8.0 >=sci-CRAN/flextable-0.9.7 dev-lang/R:=
+DESCRIPTION=Supplements the gtsummary Packag... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_labelled r_suggests_pharmaverseadam r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=Apache-2.0
+RDEPEND=>=sci-CRAN/gt-0.11.1 sci-CRAN/lifecycle virtual/survival >=sci-CRAN/rlang-1.1.5 >=sci-CRAN/tidyr-1.3.0 >=sci-CRAN/cards-0.7.0 >=sci-CRAN/gtsummary-2.4.0 >=sci-CRAN/broom-1.0.8 >=dev-lang/R-4.2 >=sci-CRAN/cardx-0.3.0 >=sci-CRAN/cli-3.6.4 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/glue-1.8.0 >=sci-CRAN/flextable-0.9.7 r_suggests_labelled? ( sci-CRAN/labelled ) r_suggests_pharmaverseadam? ( sci-CRAN/pharmaverseadam ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( >=sci-CRAN/withr-3.0.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/crane_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e536d18b6b63bcea39c578c737e8fc37

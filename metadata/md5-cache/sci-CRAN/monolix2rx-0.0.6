@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp sci-CRAN/cli sci-CRAN/checkmate sci-CRAN/withr sci-CRAN/dparser sci-CRAN/ggplot2 sci-CRAN/ggforce sci-CRAN/stringi sci-CRAN/crayon sci-CRAN/lotri sci-CRAN/magrittr >=sci-CRAN/rxode2-3.0.4 dev-lang/R:=
+DESCRIPTION=Converts Monolix Models to rxode2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_testthat r_suggests_vdiffr r_suggests_xgxr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/Rcpp sci-CRAN/cli sci-CRAN/checkmate sci-CRAN/withr sci-CRAN/dparser sci-CRAN/ggplot2 sci-CRAN/ggforce sci-CRAN/stringi sci-CRAN/crayon sci-CRAN/lotri sci-CRAN/magrittr >=sci-CRAN/rxode2-3.0.4 sci-CRAN/dparser sci-CRAN/Rcpp sci-CRAN/rxode2 r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_xgxr? ( sci-CRAN/xgxr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/monolix2rx_0.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3f614e1341857d987cadecc6c8f10525

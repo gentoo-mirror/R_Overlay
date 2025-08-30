@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/shinyFiles sci-CRAN/shinydashboard sci-CRAN/shinyjs >=sci-CRAN/shiny-1.7.0 sci-CRAN/data_tree sci-CRAN/jsonlite sci-CRAN/DT sci-CRAN/readtext sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Interactive Text Annotation Tool with shiny GUI
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dplyr r_suggests_ggplot2 r_suggests_ggraph r_suggests_igraph r_suggests_knitr r_suggests_mockery r_suggests_plotly r_suggests_quanteda r_suggests_quanteda_textstats r_suggests_rmarkdown r_suggests_testthat r_suggests_tidytext byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/shinyFiles sci-CRAN/shinydashboard sci-CRAN/shinyjs >=sci-CRAN/shiny-1.7.0 sci-CRAN/data_tree sci-CRAN/jsonlite sci-CRAN/DT sci-CRAN/readtext sci-CRAN/magrittr r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_ggraph? ( sci-CRAN/ggraph ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mockery? ( sci-CRAN/mockery ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_quanteda? ( sci-CRAN/quanteda ) r_suggests_quanteda_textstats? ( sci-CRAN/quanteda_textstats ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidytext? ( sci-CRAN/tidytext ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/textAnnotatoR_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=03196b95cff30e09068a4aa2346b9878
