@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/FactoMineR sci-CRAN/googlesheets4 sci-CRAN/shiny sci-CRAN/ggplot2 sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/dplyr >=dev-lang/R-4.1.0 sci-CRAN/lme4 sci-CRAN/agricolae sci-CRAN/emmeans sci-CRAN/purrr sci-CRAN/DT dev-lang/R:=
+DESCRIPTION=Tools and Statistical Procedures in Plant Science
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cowplot r_suggests_gsheet r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/FactoMineR sci-CRAN/googlesheets4 sci-CRAN/shiny sci-CRAN/ggplot2 sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/dplyr >=dev-lang/R-4.1.0 sci-CRAN/lme4 sci-CRAN/agricolae sci-CRAN/emmeans sci-CRAN/purrr sci-CRAN/DT r_suggests_cowplot? ( sci-CRAN/cowplot ) r_suggests_gsheet? ( sci-CRAN/gsheet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/inti_0.6.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ad967e88b4d4610500681d7ebc9d9d1b
