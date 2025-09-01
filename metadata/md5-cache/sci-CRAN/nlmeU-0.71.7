@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/nlme dev-lang/R:=
+DESCRIPTION=Functions and Data Supporting Li... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ellipse r_suggests_lattice r_suggests_reshape r_suggests_roxygen2 r_suggests_testthat r_suggests_wwgbook byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 virtual/nlme r_suggests_ellipse? ( sci-CRAN/ellipse ) r_suggests_lattice? ( virtual/lattice ) r_suggests_reshape? ( sci-CRAN/reshape ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_wwgbook? ( sci-CRAN/WWGbook ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/nlmeU_0.71.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0b78076dd30537e3dd8f12c0822abeb9

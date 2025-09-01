@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggpubr >=dev-lang/R-4.3 >=sci-CRAN/Luminescence-1.1.0 sci-CRAN/minpack_lm sci-CRAN/DEoptim sci-CRAN/gridExtra sci-CRAN/ggplot2 sci-CRAN/rmarkdown sci-CRAN/scales dev-lang/R:=
+DESCRIPTION=Signal Component Analysis for Op... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kableextra r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggpubr >=dev-lang/R-4.3 >=sci-CRAN/Luminescence-1.1.0 sci-CRAN/minpack_lm sci-CRAN/DEoptim sci-CRAN/gridExtra sci-CRAN/ggplot2 sci-CRAN/rmarkdown sci-CRAN/scales r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/OSLdecomposition_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b35bb8c1ad858a5108a00ca41263348d
