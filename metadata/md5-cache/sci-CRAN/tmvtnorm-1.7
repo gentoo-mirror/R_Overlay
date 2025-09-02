@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvtnorm virtual/Matrix sci-CRAN/gmm dev-lang/R:=
+DESCRIPTION=Truncated Multivariate Normal an... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lattice r_suggests_rgl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mvtnorm virtual/Matrix sci-CRAN/gmm r_suggests_lattice? ( virtual/lattice ) r_suggests_rgl? ( sci-CRAN/rgl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tmvtnorm_1.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=268194eb2ee44ff684aa91a7847c10e1

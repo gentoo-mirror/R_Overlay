@@ -2,14 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Machine Learning Forest Simulator // Climate-sensitive forest
-		simulator based on the principles of machine learning. It
-		stimulates all key processes in the forest: radial growth,
-		height growth, mortality, crown recession, regeneration and
-		harvesting. The method for predicting tree heights was
-		described by Skudnik and Jevenak (2022)
-		doi:10.1016/j.foreco.2022.120017, while the method for
-		predicting basal area increments (BAI) was described by Jevenak
-		and Skudnik (2021) doi:10.1016/j.foreco.2020.118601.
+		Machine Learning Forest Simulator // Climate-sensitive, single-
+		tree forest simulator based on data-driven machine learning. It
+		simulates the main forest processes radial growth, height
+		growth, mortality, crown recession, regeneration, and
+		harvestingso users can assess stand development under climate
+		and management scenarios. The height model is described by
+		Skudnik and Jevenak (2022) doi:10.1016/j.foreco.2022.120017,
+		the basal-area increment model by Jevenak and Skudnik (2021)
+		doi:10.1016/j.foreco.2020.118601, and an overview of the MLFS
+		package, workflow, and applications is provided by Jevenak,
+		Arni, Krajnc, and Skudnik (2023), Ecological Informatics
+		doi:10.1016/j.ecoinf.2023.102115.
 	</longdescription>
 </pkgmetadata>

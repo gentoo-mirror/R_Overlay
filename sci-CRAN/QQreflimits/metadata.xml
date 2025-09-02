@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Reference Limits using QQ Methodology // A collection of routines
+		for finding reference limits using, where appropriate, QQ
+		methodology.  All use a data vector X of cases from the
+		reference population. The default is to get the central 95%
+		reference range of the population, namely the 2.5 and 97.5
+		percentile, with optional adjustment of the range.  Along with
+		the reference limits, we want confidence intervals which, for
+		historical reasons, are typically at 90% confidence.  A full
+		analysis provides six numbers:  the upper and the lower
+		reference limits, and - each of their confidence intervals. For
+		application details, see Hawkins and Esquivel (2024)
+		doi:10.1093/jalm/jfad109.
+	</longdescription>
+</pkgmetadata>

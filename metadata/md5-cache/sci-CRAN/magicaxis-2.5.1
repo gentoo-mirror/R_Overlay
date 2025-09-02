@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/celestial-1.4.1 sci-CRAN/mapproj sci-CRAN/plotrix virtual/MASS sci-CRAN/sm sci-CRAN/RANN dev-lang/R:=
+DESCRIPTION=Pretty Scientific Plotting with ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fst r_suggests_imager byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/celestial-1.4.1 sci-CRAN/mapproj sci-CRAN/plotrix virtual/MASS sci-CRAN/sm sci-CRAN/RANN r_suggests_fst? ( sci-CRAN/fst ) r_suggests_imager? ( sci-CRAN/imager ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/magicaxis_2.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6f639eff88c483059ffe88e5ad58f6fa
