@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/vpc-1.2.2 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/ggforce-0.5.0 >=sci-CRAN/purrr-1.0.4 >=dev-lang/R-4.2.0 >=sci-CRAN/ggplot2-3.5.2 >=sci-CRAN/readr-2.1.5 >=sci-CRAN/rlang-1.1.6 >=sci-CRAN/stringr-1.5.1 >=sci-CRAN/tibble-3.3.0 >=sci-CRAN/tidyr-1.3.1 dev-lang/R:=
+DESCRIPTION=Diagnostics for Pharmacometric Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gridextra r_suggests_here r_suggests_knitr r_suggests_mvtnorm r_suggests_plotly r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=sci-CRAN/vpc-1.2.2 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/ggforce-0.5.0 >=sci-CRAN/purrr-1.0.4 >=dev-lang/R-4.2.0 >=sci-CRAN/ggplot2-3.5.2 >=sci-CRAN/readr-2.1.5 >=sci-CRAN/rlang-1.1.6 >=sci-CRAN/stringr-1.5.1 >=sci-CRAN/tibble-3.3.0 >=sci-CRAN/tidyr-1.3.1 r_suggests_gridextra? ( sci-CRAN/gridExtra ) r_suggests_here? ( sci-CRAN/here ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/xpose_0.4.20.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=414756a6d210ea4533570020936ea1f1

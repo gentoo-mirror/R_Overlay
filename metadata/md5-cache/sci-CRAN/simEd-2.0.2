@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/rstream sci-CRAN/shape dev-lang/R:=
+DESCRIPTION=Simulation Education
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_magick byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/rstream sci-CRAN/shape r_suggests_magick? ( sci-CRAN/magick ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/simEd_2.0.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a25aed7df368ed1427de59cdd062e7c4

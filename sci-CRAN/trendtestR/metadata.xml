@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Exploratory Trend Analysis and Visualization for Time-Series and
+		Grouped Data // Provides a set of exploratory data analysis
+		(EDA) tools for visualizing trends, diagnosing data types for
+		beginner-friendly workflows, and automatically routing to
+		suitable statistical tests or trend exploration models.
+		Includes unified plotting functions for trend lines, grouped
+		boxplots, and comparative scatterplots; automated statistical
+		testing (e.g., t-test, Wilcoxon, ANOVA, Kruskal-Wallis, Tukey,
+		Dunn) with optional effect size calculation; and model-based
+		trend analysis using generalized additive models (GAM) for
+		count data, generalized linear models (GLM) for continuous
+		data, and zero-inflated models (ZIP/ZINB) for count data with
+		potential zero-inflation. Also supports time-window continuity
+		checks, cross-year handling in compare_monthly_cases(), and
+		ARIMA-ready preparation with stationarity diagnostics, ensuring
+		consistent parameter styles for reproducible research and user-
+		friendly workflows.Methods are based on R Core Team (2024)
+		https://www.R-project.org/, Wood, S.N.(2017,
+		ISBN:978-1498728331), Hyndman RJ, Khandakar Y (2008)
+		doi:10.18637/jss.v027.i03, Simon Jackman (2024)
+		https://github.com/atahk/pscl/, Achim Zeileis, Christian
+		Kleiber, Simon Jackman (2008) doi:10.18637/jss.v027.i08.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/assertthat >=sci-CRAN/Rcpp-1.0.4 sci-CRAN/pkgbuild sci-CRAN/rlang sci-CRAN/withr dev-lang/R:=
+DESCRIPTION=Vertical Profiles of Biological ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/assertthat >=sci-CRAN/Rcpp-1.0.4 sci-CRAN/pkgbuild sci-CRAN/rlang sci-CRAN/withr sci-CRAN/Rcpp sci-libs/gsl sci-CRAN/RcppGSL sci-libs/proj sci-libs/hdf5 r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/vol2birdR_1.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=50e92dac64cb0a96364b0c8f84759ff6

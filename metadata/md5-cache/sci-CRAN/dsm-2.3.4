@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/mgcv >=sci-CRAN/mrds-2.1.16 sci-CRAN/numDeriv virtual/nlme sci-CRAN/ggplot2 sci-CRAN/plyr sci-CRAN/statmod dev-lang/R:=
+DESCRIPTION=Density Surface Modelling of Dis... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_distance r_suggests_sp r_suggests_testthat r_suggests_tweedie byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 virtual/mgcv >=sci-CRAN/mrds-2.1.16 sci-CRAN/numDeriv virtual/nlme sci-CRAN/ggplot2 sci-CRAN/plyr sci-CRAN/statmod r_suggests_distance? ( sci-CRAN/Distance ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tweedie? ( sci-CRAN/tweedie ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dsm_2.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b67b67a1fed118642ef7675eb1852bef

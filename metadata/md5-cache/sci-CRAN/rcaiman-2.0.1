@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lidR sci-CRAN/magrittr dev-lang/R[tk] >=dev-lang/R-3.5 sci-CRAN/filenamer sci-CRAN/terra sci-CRAN/testthat sci-CRAN/pracma sci-CRAN/Rdpack virtual/spatial sci-CRAN/doParallel sci-CRAN/foreach dev-lang/R:=
+DESCRIPTION=CAnopy IMage ANalysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_autothresholdr r_suggests_ebimage r_suggests_hemispher r_suggests_imager r_suggests_reticulate byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/lidR sci-CRAN/magrittr dev-lang/R[tk] >=dev-lang/R-3.5 sci-CRAN/filenamer sci-CRAN/terra sci-CRAN/testthat sci-CRAN/pracma sci-CRAN/Rdpack virtual/spatial sci-CRAN/doParallel sci-CRAN/foreach r_suggests_autothresholdr? ( sci-CRAN/autothresholdr ) r_suggests_ebimage? ( sci-BIOC/EBImage ) r_suggests_hemispher? ( sci-CRAN/hemispheR ) r_suggests_imager? ( sci-CRAN/imager ) r_suggests_reticulate? ( sci-CRAN/reticulate ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rcaiman_2.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0b0c2ca0306840e6260d5fefa05ec03c

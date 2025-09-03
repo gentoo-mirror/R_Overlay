@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/stringr sci-CRAN/assertthat sci-CRAN/dplyr sci-CRAN/remotes >=dev-lang/R-3.0.0 sci-CRAN/desc sci-CRAN/crayon sci-CRAN/magrittr virtual/Matrix >=sci-CRAN/proxyC-0.3.3 sci-CRAN/Rcpp sci-CRAN/tibble sci-CRAN/purrr dev-lang/R:=
+DESCRIPTION=Common Functionality for the dynverse Packages
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_ggplot2 r_suggests_hdf5r r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/stringr sci-CRAN/assertthat sci-CRAN/dplyr sci-CRAN/remotes >=dev-lang/R-3.0.0 sci-CRAN/desc sci-CRAN/crayon sci-CRAN/magrittr virtual/Matrix >=sci-CRAN/proxyC-0.3.3 sci-CRAN/Rcpp sci-CRAN/tibble sci-CRAN/purrr sci-CRAN/Rcpp r_suggests_covr? ( sci-CRAN/covr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_hdf5r? ( >=sci-CRAN/hdf5r-1.3.4 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dynutils_1.0.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f3b4c909609157dcdaa8dd67e39fdcbd

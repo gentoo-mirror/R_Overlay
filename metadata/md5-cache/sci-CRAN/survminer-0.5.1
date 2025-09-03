@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggtext-0.1.0 >=sci-CRAN/ggplot2-3.4.0 sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/dplyr >=sci-CRAN/gridExtra-2.0 >=sci-CRAN/ggpubr-0.1.6 sci-CRAN/maxstat sci-CRAN/scales virtual/survival sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/survMisc sci-CRAN/rlang sci-CRAN/broom dev-lang/R:=
+DESCRIPTION=Drawing Survival Curves using ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cmprsk r_suggests_flexsurv r_suggests_knitr r_suggests_markdown r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/ggtext-0.1.0 >=sci-CRAN/ggplot2-3.4.0 sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/dplyr >=sci-CRAN/gridExtra-2.0 >=sci-CRAN/ggpubr-0.1.6 sci-CRAN/maxstat sci-CRAN/scales virtual/survival sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/survMisc sci-CRAN/rlang sci-CRAN/broom r_suggests_cmprsk? ( sci-CRAN/cmprsk ) r_suggests_flexsurv? ( sci-CRAN/flexsurv ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/survminer_0.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=667e134f9124d79d05abfcd813051d5a

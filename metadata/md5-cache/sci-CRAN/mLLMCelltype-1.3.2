@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr >=sci-CRAN/digest-0.6.25 >=sci-CRAN/jsonlite-1.7.0 >=sci-CRAN/R6-2.5.0 >=sci-CRAN/httr-1.4.0 sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Cell Type Annotation Using Large Language Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_seurat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr >=sci-CRAN/digest-0.6.25 >=sci-CRAN/jsonlite-1.7.0 >=sci-CRAN/R6-2.5.0 >=sci-CRAN/httr-1.4.0 sci-CRAN/magrittr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_seurat? ( sci-CRAN/Seurat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mLLMCelltype_1.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec4282353d91752637878cf921403c5e
