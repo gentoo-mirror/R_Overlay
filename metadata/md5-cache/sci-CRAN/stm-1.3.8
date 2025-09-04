@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/quadprog sci-CRAN/slam sci-CRAN/stringr >=dev-lang/R-3.5.0 sci-CRAN/quanteda sci-CRAN/glmnet >=sci-CRAN/Rcpp-0.11.3 sci-CRAN/data_table sci-CRAN/lda virtual/Matrix dev-lang/R:=
+DESCRIPTION=Estimation of the Structural Topic Model
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_clue r_suggests_geometry r_suggests_huge r_suggests_hunspell r_suggests_igraph r_suggests_kernsmooth r_suggests_ldavis r_suggests_nlp r_suggests_rsvd r_suggests_rtsne r_suggests_snowballc r_suggests_spelling r_suggests_testthat r_suggests_tm r_suggests_wordcloud byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/Matrix sci-CRAN/quadprog sci-CRAN/slam sci-CRAN/stringr >=dev-lang/R-3.5.0 sci-CRAN/quanteda sci-CRAN/glmnet >=sci-CRAN/Rcpp-0.11.3 sci-CRAN/data_table sci-CRAN/lda virtual/Matrix sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_clue? ( sci-CRAN/clue ) r_suggests_geometry? ( sci-CRAN/geometry ) r_suggests_huge? ( sci-CRAN/huge ) r_suggests_hunspell? ( sci-CRAN/hunspell ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_ldavis? ( sci-CRAN/LDAvis ) r_suggests_nlp? ( sci-CRAN/NLP ) r_suggests_rsvd? ( sci-CRAN/rsvd ) r_suggests_rtsne? ( sci-CRAN/Rtsne ) r_suggests_snowballc? ( sci-CRAN/SnowballC ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_tm? ( >=sci-CRAN/tm-0.6 ) r_suggests_wordcloud? ( sci-CRAN/wordcloud ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stm_1.3.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=23a9d0b76af4823e3e0f3925678bfcb0

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Univariate and Multivariate Trend Testing // With foundations on
+		the work by Goutali and Chebana (2024)
+		doi:10.1016/j.envsoft.2024.106090, this package contains
+		various univariate and multivariate trend tests. The main
+		functions regard the Multivariate Dependence Trend and
+		Multivariate Overall Trend tests as proposed by Goutali and
+		Chebana (2024), as well as a plotting function that proves
+		useful as a summary and complement of the tests. Although many
+		packages and methods carry univariate tests, the Mann-Kendall
+		and Spearman's rho test implementations are included in the
+		package with an adapted version to hydrological formulation
+		(e.g. as in Rao and Hamed 1998
+		doi:10.1016/S0022-1694(97)00125-X or Chebana 2022
+		doi:10.1016/C2021-0-01317-1). For better understanding of the
+		example use of the functions, three datasets are included.
+		These are synthetic data and shouldn't be used beyond that
+		purpose.
+	</longdescription>
+</pkgmetadata>

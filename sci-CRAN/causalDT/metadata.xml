@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Causal Distillation Trees // Causal Distillation Tree (CDT) is a
+		novel machine learning method for estimating interpretable
+		subgroups with heterogeneous treatment effects. CDT allows
+		researchers to fit any machine learning model (or metalearner)
+		to estimate heterogeneous treatment effects for each
+		individual, and then "distills" these predicted heterogeneous
+		treatment effects into interpretable subgroups by fitting an
+		ordinary decision tree to predict the previously-estimated
+		heterogeneous treatment effects. This package provides tools to
+		estimate causal distillation trees (CDT), as detailed in Huang,
+		Tang, and Kenney (2025) doi:10.48550/arXiv.2502.07275.
+	</longdescription>
+</pkgmetadata>

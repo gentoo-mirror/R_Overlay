@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/braidrm-1.0.0 >=dev-lang/R-3.0 sci-CRAN/basicdrm sci-CRAN/ggplot2 sci-CRAN/cowplot sci-CRAN/gtable sci-CRAN/scales dev-lang/R:=
+DESCRIPTION=Visualize Combined Action Respon... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_mass r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=sci-CRAN/braidrm-1.0.0 >=dev-lang/R-3.0 sci-CRAN/basicdrm sci-CRAN/ggplot2 sci-CRAN/cowplot sci-CRAN/gtable sci-CRAN/scales r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/braidReports_1.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3e1fe04e7679f8eb85872805d22aa78b

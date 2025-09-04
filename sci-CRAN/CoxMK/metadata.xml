@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		A Model-X Knockoff Method for Genome-Wide Survival Association
+		Analysis // A genome-wide survival framework that integrates
+		sequential conditional independent tuples and saddlepoint
+		approximation method, to provide SNP-level false discovery rate
+		control while improving power, particularly for biobank-scale
+		survival analyses with low event rates. The method is based on
+		model-X knockoffs as described in Barber and Candes (2015)
+		doi:10.1214/15-AOS1337 and fast survival analysis methods from
+		Bi et al. (2020) doi:10.1016/j.ajhg.2020.06.003. A shrinkage
+		algorithmic leveraging accelerates multiple knockoffs
+		generation in large genetic cohorts. This CRAN version uses
+		standard Cox regression for association testing. For enhanced
+		performance on very large datasets, users may optionally
+		install the 'SPACox' package from GitHub which provides
+		saddlepoint approximation methods for survival analysis.
+	</longdescription>
+</pkgmetadata>

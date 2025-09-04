@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Probabilistic Spelling Correction in a Character Vector //
+		Automatically replaces "misspelled" words in a character vector
+		based on their string distance from a list of words sorted by
+		their frequency in a corpus. The default word list provided in
+		the package comes from the Corpus of Contemporary American
+		English. Uses the Jaro-Winkler distance metric for string
+		similarity as implemented in van der Loo (2014)
+		doi:10.32614/RJ-2014-011. The word frequency data is derived
+		from Davies (2008-) "The Corpus of Contemporary American
+		English (COCA)" https://www.english-corpora.org/coca/.
+	</longdescription>
+</pkgmetadata>

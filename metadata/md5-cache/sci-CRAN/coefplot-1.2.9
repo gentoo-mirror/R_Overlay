@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-2.0.0 >=sci-CRAN/dplyr-0.6.0 sci-CRAN/plyr sci-CRAN/reshape2 sci-CRAN/useful sci-CRAN/dygraphs sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/plotly dev-lang/R:=
+DESCRIPTION=Plots Coefficients from Fitted Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_glmnet r_suggests_knitr r_suggests_maxlik r_suggests_parsnip r_suggests_rmarkdown r_suggests_testthat r_suggests_workflows r_suggests_xgboost byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD
+RDEPEND=>=sci-CRAN/ggplot2-2.0.0 >=sci-CRAN/dplyr-0.6.0 sci-CRAN/plyr sci-CRAN/reshape2 sci-CRAN/useful sci-CRAN/dygraphs sci-CRAN/tibble sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/plotly r_suggests_covr? ( sci-CRAN/covr ) r_suggests_glmnet? ( sci-CRAN/glmnet ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_maxlik? ( sci-CRAN/maxLik ) r_suggests_parsnip? ( sci-CRAN/parsnip ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.0 ) r_suggests_workflows? ( sci-CRAN/workflows ) r_suggests_xgboost? ( sci-CRAN/xgboost ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/coefplot_1.2.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7b5e4b8a174113002f19713d7d6cd921
