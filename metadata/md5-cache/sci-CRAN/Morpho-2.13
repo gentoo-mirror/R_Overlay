@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/doParallel-1.0.6 sci-CRAN/bezier >=sci-CRAN/Rvcg-0.7 sci-CRAN/Rcpp sci-CRAN/mclust sci-CRAN/crayon sci-CRAN/jsonlite >=dev-lang/R-3.2.0 virtual/Matrix >=sci-CRAN/rgl-0.100.18 >=sci-CRAN/foreach-1.4.0 virtual/MASS sci-CRAN/colorRamps dev-lang/R:=
+DESCRIPTION=Calculations and Visualisations ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_car r_suggests_desctools r_suggests_lattice r_suggests_sf r_suggests_shapes r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=sci-CRAN/doParallel-1.0.6 sci-CRAN/bezier >=sci-CRAN/Rvcg-0.7 sci-CRAN/Rcpp sci-CRAN/mclust sci-CRAN/crayon sci-CRAN/jsonlite >=dev-lang/R-3.2.0 virtual/Matrix >=sci-CRAN/rgl-0.100.18 >=sci-CRAN/foreach-1.4.0 virtual/MASS sci-CRAN/colorRamps sci-CRAN/Rcpp >=sci-CRAN/RcppArmadillo-0.4 r_suggests_car? ( sci-CRAN/car ) r_suggests_desctools? ( sci-CRAN/DescTools ) r_suggests_lattice? ( virtual/lattice ) r_suggests_sf? ( sci-CRAN/sf ) r_suggests_shapes? ( sci-CRAN/shapes ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Morpho_2.13.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1f6a3740cb79e7db8ad2bbbe313cf7a7

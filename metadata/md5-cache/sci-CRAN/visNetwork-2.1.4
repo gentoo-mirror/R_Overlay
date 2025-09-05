@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0 sci-CRAN/jsonlite sci-CRAN/htmlwidgets sci-CRAN/htmltools sci-CRAN/magrittr dev-lang/R:=
+DESCRIPTION=Network Visualization using vis.js Library
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_colourpicker r_suggests_flashclust r_suggests_ggraph r_suggests_igraph r_suggests_knitr r_suggests_rmarkdown r_suggests_rpart r_suggests_shiny r_suggests_shinywidgets r_suggests_sparkline r_suggests_tidygraph byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.0 sci-CRAN/jsonlite sci-CRAN/htmlwidgets sci-CRAN/htmltools sci-CRAN/magrittr r_suggests_colourpicker? ( sci-CRAN/colourpicker ) r_suggests_flashclust? ( sci-CRAN/flashClust ) r_suggests_ggraph? ( sci-CRAN/ggraph ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rpart? ( virtual/rpart ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_shinywidgets? ( sci-CRAN/shinyWidgets ) r_suggests_sparkline? ( sci-CRAN/sparkline ) r_suggests_tidygraph? ( sci-CRAN/tidygraph ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/visNetwork_2.1.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=93b00fd71d17294504c2dc2ec1397a74

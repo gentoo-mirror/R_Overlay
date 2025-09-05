@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/ggplot2-3.4.2 sci-CRAN/gtable sci-CRAN/plyr sci-CRAN/gridExtra >=sci-CRAN/knitr-1.12 virtual/lattice sci-CRAN/scales dev-lang/R:=
+DESCRIPTION=Freshing Up your ggplot2 Plots
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_diffviewer r_suggests_dplyr r_suggests_ggh4x r_suggests_rmarkdown r_suggests_stringr r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/ggplot2-3.4.2 sci-CRAN/gtable sci-CRAN/plyr sci-CRAN/gridExtra >=sci-CRAN/knitr-1.12 virtual/lattice sci-CRAN/scales r_suggests_diffviewer? ( sci-CRAN/diffviewer ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggh4x? ( sci-CRAN/ggh4x ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lemon_0.5.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=293c1d3ceac87d7acd29b993c1cdc2e9
