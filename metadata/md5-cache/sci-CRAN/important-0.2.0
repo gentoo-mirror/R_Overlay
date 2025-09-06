@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/vctrs >=sci-CRAN/rlang-1.1.0 sci-CRAN/withr sci-CRAN/S7 sci-CRAN/tidyr >=dev-lang/R-4.1.0 sci-CRAN/tibble sci-CRAN/workflows sci-CRAN/cli >=sci-CRAN/recipes-1.1.0 >=sci-CRAN/desirability2-0.2.0 sci-CRAN/dplyr >=sci-CRAN/filtro-0.2.0 sci-CRAN/generics sci-CRAN/ggplot2 >=sci-CRAN/hardhat-1.4.1 sci-CRAN/purrr sci-CRAN/tune dev-lang/R:=
+DESCRIPTION=Supervised Feature Selection
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_censored r_suggests_future r_suggests_future_apply r_suggests_mirai r_suggests_modeldata r_suggests_parsnip r_suggests_ranger r_suggests_spelling r_suggests_survival r_suggests_testthat r_suggests_yardstick byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/vctrs >=sci-CRAN/rlang-1.1.0 sci-CRAN/withr sci-CRAN/S7 sci-CRAN/tidyr >=dev-lang/R-4.1.0 sci-CRAN/tibble sci-CRAN/workflows sci-CRAN/cli >=sci-CRAN/recipes-1.1.0 >=sci-CRAN/desirability2-0.2.0 sci-CRAN/dplyr >=sci-CRAN/filtro-0.2.0 sci-CRAN/generics sci-CRAN/ggplot2 >=sci-CRAN/hardhat-1.4.1 sci-CRAN/purrr sci-CRAN/tune r_suggests_censored? ( sci-CRAN/censored ) r_suggests_future? ( sci-CRAN/future ) r_suggests_future_apply? ( sci-CRAN/future_apply ) r_suggests_mirai? ( sci-CRAN/mirai ) r_suggests_modeldata? ( sci-CRAN/modeldata ) r_suggests_parsnip? ( sci-CRAN/parsnip ) r_suggests_ranger? ( sci-CRAN/ranger ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_survival? ( virtual/survival ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_yardstick? ( sci-CRAN/yardstick ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/important_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dde49ed9cddad846951bd969d27a535f

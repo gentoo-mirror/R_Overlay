@@ -1,0 +1,66 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Species Distribution Models with Tidymodels'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/tidysdm_1.0.3.tar.gz"
+LICENSE='AGPL-3'
+
+IUSE="${IUSE-} r_suggests_blockcv r_suggests_dalextra r_suggests_data_table
+	r_suggests_doparallel r_suggests_earth r_suggests_ggpattern
+	r_suggests_kernlab r_suggests_knitr r_suggests_mgcv
+	r_suggests_overlapping r_suggests_pastclim r_suggests_ranger
+	r_suggests_rgbif r_suggests_rhpcblasctl r_suggests_rmarkdown
+	r_suggests_spelling r_suggests_stacks r_suggests_testthat
+	r_suggests_tidyterra r_suggests_vdiffr"
+R_SUGGESTS="
+	r_suggests_blockcv? ( sci-CRAN/blockCV )
+	r_suggests_dalextra? ( sci-CRAN/DALEXtra )
+	r_suggests_data_table? ( sci-CRAN/data_table )
+	r_suggests_doparallel? ( sci-CRAN/doParallel )
+	r_suggests_earth? ( sci-CRAN/earth )
+	r_suggests_ggpattern? ( sci-CRAN/ggpattern )
+	r_suggests_kernlab? ( sci-CRAN/kernlab )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_mgcv? ( virtual/mgcv )
+	r_suggests_overlapping? ( sci-CRAN/overlapping )
+	r_suggests_pastclim? ( >=sci-CRAN/pastclim-2.0.0 )
+	r_suggests_ranger? ( sci-CRAN/ranger )
+	r_suggests_rgbif? ( sci-CRAN/rgbif )
+	r_suggests_rhpcblasctl? ( sci-CRAN/RhpcBLASctl )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_spelling? ( sci-CRAN/spelling )
+	r_suggests_stacks? ( sci-CRAN/stacks )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 )
+	r_suggests_tidyterra? ( sci-CRAN/tidyterra )
+	r_suggests_vdiffr? ( sci-CRAN/vdiffr )
+"
+DEPEND="sci-CRAN/patchwork
+	sci-CRAN/dials
+	sci-CRAN/dplyr
+	>=dev-lang/R-3.5.0
+	sci-CRAN/DALEX
+	sci-CRAN/ggplot2
+	sci-CRAN/maxnet
+	sci-CRAN/tibble
+	sci-CRAN/xgboost
+	sci-CRAN/workflows
+	sci-CRAN/yardstick
+	sci-CRAN/stars
+	sci-CRAN/terra
+	sci-CRAN/tidymodels
+	sci-CRAN/recipes
+	sci-CRAN/rsample
+	sci-CRAN/tune
+	sci-CRAN/parsnip
+	sci-CRAN/sf
+	virtual/spatial
+	sci-CRAN/lubridate
+	sci-CRAN/workflowsets
+	>=sci-CRAN/rlang-1.0.0
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

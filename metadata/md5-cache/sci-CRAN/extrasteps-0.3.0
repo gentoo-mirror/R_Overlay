@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6 >=sci-CRAN/recipes-1.0.7 sci-CRAN/dplyr sci-CRAN/generics sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/vctrs dev-lang/R:=
+DESCRIPTION=More Miscellaneous Steps for the recipes Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_almanac r_suggests_ggplot2 r_suggests_modeldata r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6 >=sci-CRAN/recipes-1.0.7 sci-CRAN/dplyr sci-CRAN/generics sci-CRAN/magrittr sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tibble sci-CRAN/vctrs r_suggests_almanac? ( sci-CRAN/almanac ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_modeldata? ( sci-CRAN/modeldata ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/extrasteps_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=84cfe37134ef2704dd6c656cacda5963

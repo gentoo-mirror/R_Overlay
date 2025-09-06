@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/BB sci-CRAN/numDeriv dev-lang/R:=
+DESCRIPTION=Tools for Antitrust Practitioners
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_competitiontoolbox r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/BB sci-CRAN/numDeriv r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_competitiontoolbox? ( sci-CRAN/competitiontoolbox ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/antitrust_0.99.29.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f88292693ad1f58db047fad4f702dc10

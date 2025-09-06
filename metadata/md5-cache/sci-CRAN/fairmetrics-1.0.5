@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 dev-lang/R:=
+DESCRIPTION=Fairness Evaluation Metrics with... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_corrplot r_suggests_dplyr r_suggests_kableextra r_suggests_knitr r_suggests_magrittr r_suggests_naniar r_suggests_proc r_suggests_randomforest r_suggests_rmarkdown r_suggests_specsverification r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5.0 r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_naniar? ( sci-CRAN/naniar ) r_suggests_proc? ( sci-CRAN/pROC ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_specsverification? ( sci-CRAN/SpecsVerification ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fairmetrics_1.0.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e94c07987cb24dcbb77c079d51067374
