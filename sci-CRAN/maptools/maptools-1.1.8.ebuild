@@ -7,7 +7,7 @@ inherit R-packages
 
 DESCRIPTION='Tools for Handling Spatial Objects'
 KEYWORDS="~amd64"
-SRC_URI="http://cran.r-project.org/src/contrib/maptools_1.1-8.tar.gz"
+SRC_URI="http://cran.r-project.org/src/contrib/Archive/${PN}/${PN}_1.1-8.tar.gz"
 LICENSE='GPL-2+'
 
 IUSE="${IUSE-} r_suggests_maps r_suggests_nnet r_suggests_pbsmapping
