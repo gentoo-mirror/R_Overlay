@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/antitrust-0.99.11 dev-lang/R:=
+DESCRIPTION=Tools for Trade Practitioners
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bb r_suggests_bookdown r_suggests_competitiontoolbox r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=>=sci-CRAN/antitrust-0.99.11 r_suggests_bb? ( sci-CRAN/BB ) r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_competitiontoolbox? ( sci-CRAN/competitiontoolbox ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/trade_0.8.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=83f2d9c7d63dde9478ca1f0e68bfa06d

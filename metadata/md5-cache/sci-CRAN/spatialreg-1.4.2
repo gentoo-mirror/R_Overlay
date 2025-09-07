@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/multcomp >=sci-CRAN/spdep-1.4.1 virtual/nlme sci-CRAN/sf >=dev-lang/R-3.3 virtual/Matrix >=sci-CRAN/spData-2.3.1 sci-CRAN/coda virtual/MASS virtual/boot sci-CRAN/LearnBayes dev-lang/R:=
+DESCRIPTION=Spatial Regression Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_codingmatrices r_suggests_expm r_suggests_foreign r_suggests_igraph r_suggests_knitr r_suggests_lmtest r_suggests_rmarkdown r_suggests_rspectra r_suggests_sandwich r_suggests_spam r_suggests_tinytest r_suggests_tmap byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/multcomp >=sci-CRAN/spdep-1.4.1 virtual/nlme sci-CRAN/sf >=dev-lang/R-3.3 virtual/Matrix >=sci-CRAN/spData-2.3.1 sci-CRAN/coda virtual/MASS virtual/boot sci-CRAN/LearnBayes r_suggests_codingmatrices? ( sci-CRAN/codingMatrices ) r_suggests_expm? ( sci-CRAN/expm ) r_suggests_foreign? ( virtual/foreign ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lmtest? ( sci-CRAN/lmtest ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rspectra? ( sci-CRAN/RSpectra ) r_suggests_sandwich? ( sci-CRAN/sandwich ) r_suggests_spam? ( sci-CRAN/spam ) r_suggests_tinytest? ( sci-CRAN/tinytest ) r_suggests_tmap? ( sci-CRAN/tmap ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spatialreg_1.4-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8464ec6ba7a57fa56ad36df098ad4d27

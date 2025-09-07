@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/actuar virtual/survival sci-CRAN/nloptr sci-CRAN/tidyselect sci-CRAN/patchwork sci-CRAN/data_table >=dev-lang/R-4.1.0 sci-CRAN/dplyr >=sci-CRAN/rlang-0.4.11 sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/plotly sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/broom sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Functions for Tidy Analysis and ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_envstats r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/actuar virtual/survival sci-CRAN/nloptr sci-CRAN/tidyselect sci-CRAN/patchwork sci-CRAN/data_table >=dev-lang/R-4.1.0 sci-CRAN/dplyr >=sci-CRAN/rlang-0.4.11 sci-CRAN/ggplot2 sci-CRAN/magrittr sci-CRAN/plotly sci-CRAN/tidyr sci-CRAN/purrr sci-CRAN/broom sci-CRAN/stringr r_suggests_envstats? ( sci-CRAN/EnvStats ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/TidyDensity_1.5.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=503dfc1c7402c1c9e3faf3a2e36ed916
