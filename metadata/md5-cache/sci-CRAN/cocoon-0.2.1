@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/cli sci-CRAN/dplyr >=sci-CRAN/rlang-1.1.0 sci-CRAN/lifecycle dev-lang/R:=
+DESCRIPTION=Extract, Format, and Print Statistical Output
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bayesfactor r_suggests_correlation r_suggests_knitr r_suggests_lme4 r_suggests_lmertest r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/cli sci-CRAN/dplyr >=sci-CRAN/rlang-1.1.0 sci-CRAN/lifecycle r_suggests_bayesfactor? ( sci-CRAN/BayesFactor ) r_suggests_correlation? ( sci-CRAN/correlation ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_lmertest? ( sci-CRAN/lmerTest ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/cocoon_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6fed3c620e87b8c153d2f3312b26c879
