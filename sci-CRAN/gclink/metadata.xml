@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Gene-Cluster Discovery, Annotation and Visualization // Performs
+		end-to-end analysis of gene clusterssuch as photosynthesis,
+		carbon/nitrogen/sulfur cycling, carotenoid, antibiotic, or
+		viral marker genes (e.g., capsid, polymerase, integrase)from
+		genomes and metagenomes. It parses Basic Local Alignment Search
+		Tool (BLAST) results in tab-delimited format produced by tools
+		like NCBI BLAST+ and Diamond BLASTp, filters Open Reading
+		Frames (ORFs) by length, detects contiguous clusters of
+		reference genes, optionally extracts genomic coordinates,
+		merges functional annotations, and generates publication-ready
+		arrow plots. The package works seamlessly with or without the
+		coding sequences input and skips plotting when no functional
+		groups are found. For more details see Li et al. (2023)
+		doi:10.1038/s41467-023-42193-7.
+	</longdescription>
+</pkgmetadata>

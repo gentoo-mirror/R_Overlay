@@ -4,10 +4,10 @@
 	<longdescription>
 		'SQL' Case Statement Generator // Includes built-in methods for
 		generating long 'SQL' CASE statements, and other 'SQL'
-		statements that may otherwise be arduous to construct by hand.
-		The generated statement can easily be concatenated to string
-		literals to form queries to 'SQL'-like databases, such as when
-		using the 'RODBC' package. The current methods include
+		statements that may otherwise be arduous to construct by
+		hand.The generated statement can easily be concatenated to
+		string literals to form queries to 'SQL'-like databases, such
+		as when using the 'RODBC' package. The current methods include
 		casewhen() for building CASE statements, inlist() for building
 		IN statements, and updatetable() for building UPDATE
 		statements.

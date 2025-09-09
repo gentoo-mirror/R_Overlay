@@ -2,17 +2,20 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Sediment Source Fingerprinting // Quantifies the provenance of
-		the sediments in a catchment or study area. Based on a
-		comprehensive characterization of the sediment sources and the
-		end sediment mixtures a mixing model algorithm is applied to
-		the sediment mixtures in order to estimate the relative
+		A Comprehensive Package for Sediment Source Unmixing // "This
+		package quantifies the provenance of sediments in a catchment
+		or study area. Based on a characterization of the sediment
+		sources and the end sediment mixtures, a mixing model algorithm
+		is applied to the sediment mixtures to estimate the relative
 		contribution of each potential source. The package includes
-		several statistical methods such as Kruskal-Wallis test,
-		discriminant function analysis ('DFA'), principal component
-		plot ('PCA') to select the optimal subset of tracer properties.
-		The variability within each sediment source is also considered
-		to estimate the statistical distribution of the sources
-		contribution.
+		several graphs to help users in their data understanding, such
+		as box plots, correlation, PCA, and LDA graphs. In addition,
+		new developments such as the Consensus Ranking (CR), Consistent
+		Tracer Selection (CTS), and Linear Variability Propagation
+		(LVP) methods are included to correctly apply the
+		fingerprinting technique and increase dataset and model
+		understanding. A new method based on Conservative Balance (CB)
+		method has also been included to enable the use of isotopic
+		tracers."
 	</longdescription>
 </pkgmetadata>

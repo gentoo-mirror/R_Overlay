@@ -2,10 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Self-Validated Ensemble Models with Elastic Net Regression //
-		Implements Self-Validated Ensemble Models (SVEM, Lemkus et al.
-		(2021) doi:10.1016/j.chemolab.2021.104439) using Elastic Net
-		regression via 'glmnet' (Friedman et al.
+		Self-Validated Ensemble Models with Lasso and Relaxed-Elastic Net
+		Regression // Implements Self-Validated Ensemble Models (SVEM,
+		Lemkus et al. (2021) doi:10.1016/j.chemolab.2021.104439) using
+		Elastic Net regression via 'glmnet' (Friedman et al.
 		doi:10.18637/jss.v033.i01). SVEM averages predictions from
 		multiple models fitted to fractionally weighted bootstraps of
 		the data, tuned with anti-correlated validation weights. Also

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/magrittr >=sci-CRAN/readJDX-0.6 >=sci-CRAN/ChemoSpecUtils-1.0 sci-CRAN/reshape2 >=dev-lang/R-3.5 sci-CRAN/patchwork sci-CRAN/ggplot2 sci-CRAN/plotly virtual/lattice dev-lang/R:=
+DESCRIPTION=Exploratory Chemometrics for Spectroscopy
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_amap r_suggests_baseline r_suggests_chemometrics r_suggests_cluster r_suggests_elasticnet r_suggests_idpmisc r_suggests_irlba r_suggests_js r_suggests_jsonlite r_suggests_mass r_suggests_mclust r_suggests_nbclust r_suggests_pcapp r_suggests_pls r_suggests_r_utils r_suggests_rcolorbrewer r_suggests_roxut r_suggests_seriation r_suggests_signal r_suggests_speaq r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/magrittr >=sci-CRAN/readJDX-0.6 >=sci-CRAN/ChemoSpecUtils-1.0 sci-CRAN/reshape2 >=dev-lang/R-3.5 sci-CRAN/patchwork sci-CRAN/ggplot2 sci-CRAN/plotly virtual/lattice r_suggests_amap? ( sci-CRAN/amap ) r_suggests_baseline? ( sci-CRAN/baseline ) r_suggests_chemometrics? ( sci-CRAN/chemometrics ) r_suggests_cluster? ( virtual/cluster ) r_suggests_elasticnet? ( sci-CRAN/elasticnet ) r_suggests_idpmisc? ( sci-CRAN/IDPmisc ) r_suggests_irlba? ( sci-CRAN/irlba ) r_suggests_js? ( sci-CRAN/js ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_mass? ( virtual/MASS ) r_suggests_mclust? ( sci-CRAN/mclust ) r_suggests_nbclust? ( sci-CRAN/NbClust ) r_suggests_pcapp? ( sci-CRAN/pcaPP ) r_suggests_pls? ( sci-CRAN/pls ) r_suggests_r_utils? ( sci-CRAN/R_utils ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_roxut? ( sci-CRAN/roxut ) r_suggests_seriation? ( sci-CRAN/seriation ) r_suggests_signal? ( sci-CRAN/signal ) r_suggests_speaq? ( sci-CRAN/speaq ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ChemoSpec_6.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ba233491f3bd188589c58b76b0b5c306

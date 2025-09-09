@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/numDeriv sci-CRAN/autoimage >=dev-lang/R-3.5.0 sci-CRAN/gaussquad sci-CRAN/stringr sci-CRAN/car virtual/survival sci-CRAN/DEoptim sci-CRAN/GA sci-CRAN/BBmisc >=sci-CRAN/Rdpack-0.7 virtual/boot dev-lang/R:=
+DESCRIPTION=Maximum Likelihood Estimation fo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_adequacymodel r_suggests_covr r_suggests_gamlss_dist r_suggests_knitr r_suggests_lifecycle r_suggests_lintr r_suggests_matrix r_suggests_readr r_suggests_rmarkdown r_suggests_rmpfr r_suggests_spelling r_suggests_testthat r_suggests_v8 r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/numDeriv sci-CRAN/autoimage >=dev-lang/R-3.5.0 sci-CRAN/gaussquad sci-CRAN/stringr sci-CRAN/car virtual/survival sci-CRAN/DEoptim sci-CRAN/GA sci-CRAN/BBmisc >=sci-CRAN/Rdpack-0.7 virtual/boot r_suggests_adequacymodel? ( sci-CRAN/AdequacyModel ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_gamlss_dist? ( sci-CRAN/gamlss_dist ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lifecycle? ( sci-CRAN/lifecycle ) r_suggests_lintr? ( sci-CRAN/lintr ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rmpfr? ( sci-CRAN/Rmpfr ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_v8? ( sci-CRAN/V8 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/EstimationTools_4.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7b8f6782e3ca2c4adc39e846a533a26e

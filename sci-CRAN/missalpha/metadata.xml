@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Find Range of Cronbach Alpha with a Dataset Including Missing
+		Data // Provides functions to calculate the minimum and maximum
+		possible values of Cronbach's alpha when item-level missing
+		data are present. Cronbach's alpha (Cronbach, 1951
+		doi:10.1007/BF02310555) is one of the most widely used measures
+		of internal consistency in the social, behavioral, and medical
+		sciences (Bland  Altman, 1997 doi:10.1136/bmj.314.7080.572;
+		Tavakol  Dennick, 2011 doi:10.5116/ijme.4dfb.8dfd). However,
+		conventional implementations assume complete data, and listwise
+		deletion is often applied when missingness occurs, which can
+		lead to biased or overly optimistic reliability estimates
+		(Enders, 2003 doi:10.1037/1082-989X.8.3.322). This package
+		implements computational strategies including enumeration,
+		Monte Carlo sampling, and optimization algorithms (e.g.,
+		Genetic Algorithm, Differential Evolution, Sequential Least
+		Squares Programming) to obtain sharp lower and upper bounds of
+		Cronbach's alpha under arbitrary missing data patterns. The
+		approach is motivated by Manski's partial identification
+		framework and pessimistic bounding ideas from optimization
+		literature.
+	</longdescription>
+</pkgmetadata>

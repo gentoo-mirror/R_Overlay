@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/miniUI-0.1.1 >=sci-CRAN/ggplot2-2.2.0 >=sci-CRAN/gtable-0.2.0 >=sci-CRAN/colourpicker-1.0 >=sci-CRAN/scales-0.2.0 >=sci-CRAN/shiny-0.13.0 >=sci-CRAN/shinyjs-0.5.2 sci-CRAN/R6 dev-lang/R:=
+DESCRIPTION=Add Marginal Histograms to ggplo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_fontquiver r_suggests_knitr r_suggests_rmarkdown r_suggests_rstudioapi r_suggests_svglite r_suggests_testthat r_suggests_vdiffr r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/miniUI-0.1.1 >=sci-CRAN/ggplot2-2.2.0 >=sci-CRAN/gtable-0.2.0 >=sci-CRAN/colourpicker-1.0 >=sci-CRAN/scales-0.2.0 >=sci-CRAN/shiny-0.13.0 >=sci-CRAN/shinyjs-0.5.2 sci-CRAN/R6 app-text/pandoc r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_fontquiver? ( sci-CRAN/fontquiver ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.7 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rstudioapi? ( >=sci-CRAN/rstudioapi-0.5 ) r_suggests_svglite? ( sci-CRAN/svglite ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggExtra_0.11.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5b890183a765bd7646b1800a0d9e6197

@@ -4,10 +4,12 @@
 	<longdescription>
 		Zigzag Expanded Navigation Plots // Graphical tools for
 		visualizing high-dimensional data along a path of alternating
-		one- and two-dimensional plots. Note that this includes
-		interactive graphics plots based on 'loon' in turn based on
-		'tcltk' (included as part of the standard R distribution).  It
-		also requires 'graph' from Bioconductor. For more detail on use
-		and algorithms, see doi:10.18637/jss.v095.i04.
+		one- and two-dimensional plots. Includes optional interactive
+		graphics via 'loon' (which uses 'tcltk' from base R). Support
+		is provided for constructing graph structures and, when
+		available, plotting them with Bioconductor packages (e.g.,
+		'graph', 'Rgraphviz'); these are optional and
+		examples/vignettes are skipped if they are not installed. For
+		algorithms and further details, see doi:10.18637/jss.v095.i04.
 	</longdescription>
 </pkgmetadata>

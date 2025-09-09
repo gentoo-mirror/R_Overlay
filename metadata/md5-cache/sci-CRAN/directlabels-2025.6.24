@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/quadprog dev-lang/R:=
+DESCRIPTION=Direct Labels for Multicolor Plots
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_alphahull r_suggests_dplyr r_suggests_ggplot2 r_suggests_ggthemes r_suggests_inlinedocs r_suggests_knitr r_suggests_lars r_suggests_lattice r_suggests_markdown r_suggests_mass r_suggests_nlme r_suggests_rcolorbrewer r_suggests_rlang r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/quadprog r_suggests_alphahull? ( sci-CRAN/alphahull ) r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( >=sci-CRAN/ggplot2-2.0 ) r_suggests_ggthemes? ( sci-CRAN/ggthemes ) r_suggests_inlinedocs? ( sci-CRAN/inlinedocs ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lars? ( sci-CRAN/lars ) r_suggests_lattice? ( virtual/lattice virtual/lattice ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mass? ( virtual/MASS ) r_suggests_nlme? ( virtual/nlme ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rlang? ( sci-CRAN/rlang ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/directlabels_2025.6.24.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e2d1c10955ffdcf302ac45e2bd6ffe59
