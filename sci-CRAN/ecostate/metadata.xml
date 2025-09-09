@@ -4,10 +4,10 @@
 	<longdescription>
 		State-Space Mass-Balance Model for Marine Ecosystems // Fits a
 		state-space mass-balance model for marine ecosystems, which
-		implements dynamics derived from 'Ecopath with Ecosim'
+		implements dynamics derived from 'Ecopath with Ecosim' ('EwE')
 		https://ecopath.org/ while fitting to time-series of fishery
 		catch, biomass indices, age-composition samples, and weight-at-
-		age data. Package 'ecostate' fits biological parameters (e.g.,
+		age data. 'Ecostate' fits biological parameters (e.g.,
 		equilibrium mass) and measurement parameters (e.g.,
 		catchability coefficients) jointly with residual variation in
 		process errors, and can include Bayesian priors for parameters.

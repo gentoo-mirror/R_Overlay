@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/maps sci-CRAN/RColorBrewer sci-CRAN/spam sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Tools for Spatial Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mapproj byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/maps sci-CRAN/RColorBrewer sci-CRAN/spam sci-CRAN/viridisLite r_suggests_mapproj? ( sci-CRAN/mapproj ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fields_17.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=76bcab9af6eeffa2a6a75f4dc3d1270c

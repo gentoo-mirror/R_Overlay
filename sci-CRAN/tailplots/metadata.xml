@@ -3,14 +3,16 @@
 <pkgmetadata>
 	<longdescription>
 		Estimators and Plots for Gamma and Pareto Tail Detection //
-		Estimators for two functionals used to detect Gamma or Pareto
-		distributions, as well as distributions exhibiting similar tail
-		behavior, as introduced by Iwashita and Klar (2023)
-		doi:10.1111/stan.12316 and Klar (2024)
+		Estimators for two functionals used to detect Gamma, Pareto or
+		Lognormal distributions, as well as distributions exhibiting
+		similar tail behavior, as introduced by Iwashita and Klar
+		(2023) doi:10.1111/stan.12316 and Klar (2024)
 		doi:10.1080/00031305.2024.2413081. One of these functionals, g,
 		originally proposed by Asmussen and Lehtomaa (2017)
 		doi:10.3390/risks5010010, distinguishes between log-convex and
-		log-concave tail behavior. The package also includes methods
+		log-concave tail behavior. Furthermore the characterization of
+		the lognormal distribution is based on the work of Mosimann
+		(1970) doi:10.2307/2284599. The package also includes methods
 		for visualizing these estimators and their associated
 		confidence intervals across various threshold values.
 	</longdescription>
