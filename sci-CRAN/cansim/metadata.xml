@@ -3,12 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Accessing Statistics Canada Data Table and Vectors // Searches
-		for, accesses, and retrieves new-format and old-format
-		Statistics Canada data tables, as well as individual vectors,
-		as tidy data frames. This package deals with encoding issues,
+		for, accesses, and retrieves Statistics Canada data tables, as
+		well as individual vectors, as tidy data frames. This package
+		enriches the tables with metadata, deals with encoding issues,
 		allows for bilingual English or French language data retrieval,
 		and bundles convenience functions to make it easier to work
-		with retrieved table data. Optional caching features are
-		provided.
+		with retrieved table data. For more efficient data access the
+		package allows for caching data in a local database and
+		database level filtering, data manipulation and summarizing.
 	</longdescription>
 </pkgmetadata>

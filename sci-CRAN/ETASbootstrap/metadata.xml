@@ -13,8 +13,13 @@
 		or short, the standard errors based on the Hessian matrix may
 		be inaccurate. It follows that the asymptotic confidence
 		intervals for parameters may not always be reliable. As an
-		alternative, this package allows the building of bootstrap
-		confidence intervals based on empirical quantiles for the
-		parameters of the 2-D spatial and temporal 'ETAS' model.
+		alternative, this package allows for the construction of
+		bootstrap confidence intervals based on empirical quantiles for
+		the parameters of the 2-D spatial and temporal 'ETAS' model.
+		This version improves on Version 0.1.0 of the package by
+		enabling the study space window (renamed 'study region') to be
+		polygonal rather than merely rectangular. A Japan earthquake
+		data catalog is used in a second example to illustrate this new
+		feature.
 	</longdescription>
 </pkgmetadata>

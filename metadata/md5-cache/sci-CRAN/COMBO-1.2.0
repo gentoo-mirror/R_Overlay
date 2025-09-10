@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 virtual/Matrix >=sci-CRAN/dplyr-1.0.10 >=sci-CRAN/tidyr-1.2.1 >=sci-CRAN/rjags-4.13 >=sci-CRAN/turboEM-2021.1 >=sci-CRAN/SAMBA-0.9.0 dev-lang/R:=
+DESCRIPTION=Correcting Misclassified Binary ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_testthat r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.2.0 virtual/Matrix >=sci-CRAN/dplyr-1.0.10 >=sci-CRAN/tidyr-1.2.1 >=sci-CRAN/rjags-4.13 >=sci-CRAN/turboEM-2021.1 >=sci-CRAN/SAMBA-0.9.0 sci-mathematics/jags r_suggests_knitr? ( >=sci-CRAN/knitr-1.40 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_xtable? ( >=sci-CRAN/xtable-1.8.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/COMBO_1.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bb267b413f8ab8a9a3c2ed414a66d15e

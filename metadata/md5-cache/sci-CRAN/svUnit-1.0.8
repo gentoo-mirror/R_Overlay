@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=dev-lang/R:=
+DESCRIPTION=SciViews::R - Unit, Integration and System Testing
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_knitr r_suggests_rmarkdown r_suggests_runit r_suggests_spelling r_suggests_svgui r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=r_suggests_covr? ( >=sci-CRAN/covr-3.5.0 ) r_suggests_knitr? ( >=sci-CRAN/knitr-1.42 ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.21 ) r_suggests_runit? ( >=sci-CRAN/RUnit-0.4.30 ) r_suggests_spelling? ( >=sci-CRAN/spelling-2.2.1 ) r_suggests_svgui? ( >=sci-CRAN/svGUI-1.0.0 ) r_suggests_xml? ( >=sci-CRAN/XML-3.99.0.10 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/svUnit_1.0.8.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=05b31d1860c26f2d2c64bfa6814580d1
