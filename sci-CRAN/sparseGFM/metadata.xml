@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Sparse Generalized Factor Models with Multiple Penalty Functions
+		// Implements sparse generalized factor models (sparseGFM) for
+		dimension reduction and variable selection in high-dimensional
+		data with automatic adaptation to weak factor scenarios. The
+		package supports multiple data types (continuous, count,
+		binary) through generalized linear model frameworks and handles
+		missing values automatically. It provides 12 different penalty
+		functions including Least Absolute Shrinkage and Selection
+		Operator (Lasso), adaptive Lasso, Smoothly Clipped Absolute
+		Deviation (SCAD), Minimax Concave Penalty (MCP), group Lasso,
+		and their adaptive versions for inducing row-wise sparsity in
+		factor loadings. Key features include cross-validation for
+		regularization parameter selection using Sparsity Information
+		Criterion (SIC), automatic determination of the number of
+		factors via multiple information criteria, and specialized
+		algorithms for row-sparse loading structures. The methodology
+		employs alternating minimization with Singular Value
+		Decomposition (SVD)-based identifiability constraints and is
+		particularly effective for high-dimensional applications in
+		genomics, economics, and social sciences where interpretable
+		sparse dimension reduction is crucial. For penalty functions,
+		see Tibshirani (1996) doi:10.1111/j.2517-6161.1996.tb02080.x,
+		Fan and Li (2001) doi:10.1198/016214501753382273, and Zhang
+		(2010) doi:10.1214/09-AOS729.
+	</longdescription>
+</pkgmetadata>

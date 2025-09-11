@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/sendmailR >=dev-lang/R-3.0.0 >=sci-CRAN/BBmisc-1.9 >=sci-CRAN/backports-1.1.1 sci-CRAN/brew >=sci-CRAN/checkmate-1.8.0 >=sci-CRAN/data_table-1.9.6 sci-CRAN/DBI sci-CRAN/digest >=sci-CRAN/RSQLite-1.0.9011 >=sci-CRAN/stringi-0.4.1 dev-lang/R:=
+DESCRIPTION=Batch Computing with R
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mass r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=BSD-2
+RDEPEND=sci-CRAN/sendmailR >=dev-lang/R-3.0.0 >=sci-CRAN/BBmisc-1.9 >=sci-CRAN/backports-1.1.1 sci-CRAN/brew >=sci-CRAN/checkmate-1.8.0 >=sci-CRAN/data_table-1.9.6 sci-CRAN/DBI sci-CRAN/digest >=sci-CRAN/RSQLite-1.0.9011 >=sci-CRAN/stringi-0.4.1 r_suggests_mass? ( virtual/MASS ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BatchJobs_1.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=15efe1a628279e4567aaca3dd41d5c7b

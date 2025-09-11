@@ -1,0 +1,36 @@
+# Copyright 1999-2025 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+inherit R-packages
+
+DESCRIPTION='Data Table Back-End for dplyr'
+KEYWORDS="~amd64 ~x64-macos ~arm64-macos"
+SRC_URI="http://cran.r-project.org/src/contrib/dtplyr_1.3.2.tar.gz"
+LICENSE='MIT'
+
+IUSE="${IUSE-} r_suggests_bench r_suggests_covr r_suggests_knitr
+	r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyr
+	r_suggests_waldo"
+R_SUGGESTS="
+	r_suggests_bench? ( sci-CRAN/bench )
+	r_suggests_covr? ( sci-CRAN/covr )
+	r_suggests_knitr? ( sci-CRAN/knitr )
+	r_suggests_rmarkdown? ( sci-CRAN/rmarkdown )
+	r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.2 )
+	r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.1.0 )
+	r_suggests_waldo? ( >=sci-CRAN/waldo-0.3.1 )
+"
+DEPEND=">=dev-lang/R-4.0
+	>=sci-CRAN/data_table-1.13.0
+	sci-CRAN/glue
+	>=sci-CRAN/cli-3.4.0
+	>=sci-CRAN/dplyr-1.1.0
+	sci-CRAN/lifecycle
+	>=sci-CRAN/rlang-1.0.4
+	sci-CRAN/tibble
+	>=sci-CRAN/tidyselect-1.2.0
+	>=sci-CRAN/vctrs-0.4.1
+"
+RDEPEND="${DEPEND-} ${R_SUGGESTS-}"

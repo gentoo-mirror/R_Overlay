@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/mvtnorm >=sci-CRAN/generics-0.1.2 >=sci-CRAN/KFAS-1.0.1 virtual/nlme dev-lang/R:=
+DESCRIPTION=Multivariate Autoregressive State-Space Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_forecast r_suggests_ggplot2 r_suggests_hmisc r_suggests_knitr r_suggests_lme4 r_suggests_maps r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/mvtnorm >=sci-CRAN/generics-0.1.2 >=sci-CRAN/KFAS-1.0.1 virtual/nlme r_suggests_forecast? ( sci-CRAN/forecast ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_maps? ( sci-CRAN/maps ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MARSS_3.11.10.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=06cb4df200ba46089f6a69965a9ca6cb

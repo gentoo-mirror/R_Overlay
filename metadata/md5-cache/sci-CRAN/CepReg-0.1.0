@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/MASS sci-CRAN/rrpack sci-CRAN/psych sci-CRAN/Renvlp dev-lang/R:=
+DESCRIPTION=A Cepstral Model for Covariate-D... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=virtual/MASS sci-CRAN/rrpack sci-CRAN/psych sci-CRAN/Renvlp dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CepReg_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8a635589d138abda7bdfcc0a4cd3de5b

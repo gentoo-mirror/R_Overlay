@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggforce sci-CRAN/ggplot2 sci-CRAN/cowplot sci-CRAN/nortest sci-CRAN/dplyr sci-CRAN/plotly sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Graphical Visualizations Related... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggforce sci-CRAN/ggplot2 sci-CRAN/cowplot sci-CRAN/nortest sci-CRAN/dplyr sci-CRAN/plotly sci-CRAN/reshape2 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GPflexViz_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dcfab3a91e6de848ecae6fae5b024bf6
