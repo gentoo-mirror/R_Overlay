@@ -2,14 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Precomputed Dataset Collection Used in 'exams.forge' // The
-		dataset collection supports Pearson correlation and linear
-		regression analysis, with datasets for n=100,200,400,800,1000,
-		where n is the sum of squared values in x. Each dataset has x
-		values summing to zero, with sample sizes (observations in x)
-		ranging from 2 to 10. Additional data frames include variables
-		with German names and measurement levels, and distribution
-		details with R function names, LaTeX names, discreteness, and
-		package origins.
+		Sample and Precomputed Data for Use with 'exams.forge' //
+		Provides a small collection of datasets supporting Pearson
+		correlation and linear regression analysis. It includes the
+		precomputed dataset 'sos100', with integer values summing to
+		zero and squared sum equal to 100. For other values of 'n' and
+		user-defined parameters, the 'sos()' function from the
+		'exams.forge' package can be used to generate datasets on the
+		fly. In addition, the package contains around 500 R Markdown
+		exercises that illustrate the usage of 'exams.forge' commands.
 	</longdescription>
 </pkgmetadata>

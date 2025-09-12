@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lubridate sci-CRAN/tidyselect sci-CRAN/haven sci-CRAN/tidyr sci-CRAN/progress sci-CRAN/purrr sci-CRAN/forcats >=dev-lang/R-4.1 sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/zoo sci-CRAN/purrrlyr sci-CRAN/lifecycle sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/ggforce sci-CRAN/broom dev-lang/R:=
+DESCRIPTION=Ecosystem Gas Fluxes Calculation... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fs r_suggests_knitr r_suggests_licoread r_suggests_readr r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyverse r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/lubridate sci-CRAN/tidyselect sci-CRAN/haven sci-CRAN/tidyr sci-CRAN/progress sci-CRAN/purrr sci-CRAN/forcats >=dev-lang/R-4.1 sci-CRAN/rlang sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/zoo sci-CRAN/purrrlyr sci-CRAN/lifecycle sci-CRAN/tibble sci-CRAN/stringr sci-CRAN/ggforce sci-CRAN/broom r_suggests_fs? ( sci-CRAN/fs ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_licoread? ( sci-CRAN/licoread ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fluxible_1.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e0b3cde39dd94ce90652a5f034c4a002

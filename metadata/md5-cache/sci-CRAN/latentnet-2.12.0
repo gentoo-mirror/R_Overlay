@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/network-1.19.0 >=sci-CRAN/mvtnorm-1.3.3 >=sci-CRAN/sna-2.8 >=sci-CRAN/ergm-4.10.1 >=sci-CRAN/abind-1.4.8 >=sci-CRAN/coda-0.19.4.1 >=sci-CRAN/statnet_common-4.12.0 dev-lang/R:=
+DESCRIPTION=Latent Position and Cluster Mode... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_heplots r_suggests_kernsmooth r_suggests_rgl r_suggests_rlecuyer r_suggests_snowft byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/network-1.19.0 >=sci-CRAN/mvtnorm-1.3.3 >=sci-CRAN/sna-2.8 >=sci-CRAN/ergm-4.10.1 >=sci-CRAN/abind-1.4.8 >=sci-CRAN/coda-0.19.4.1 >=sci-CRAN/statnet_common-4.12.0 r_suggests_covr? ( >=sci-CRAN/covr-3.6.4 ) r_suggests_heplots? ( >=sci-CRAN/heplots-1.7.8 ) r_suggests_kernsmooth? ( virtual/KernSmooth ) r_suggests_rgl? ( >=sci-CRAN/rgl-1.3.24 ) r_suggests_rlecuyer? ( >=sci-CRAN/rlecuyer-0.3.8 ) r_suggests_snowft? ( >=sci-CRAN/snowFT-1.6.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/latentnet_2.12.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b9851197477fc1ce9ca95b99af5e500d

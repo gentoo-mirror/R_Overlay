@@ -2,13 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Spatially Smoothed MRCD Estimator // Estimation of the Spatially
-		Smoothed Minimum Regularized Determinant (ssMRCD) estimator and
-		its usage in an ssMRCD-based outlier detection method as
-		described in Puchhammer and Filzmoser (2023)
-		doi:10.1080/10618600.2023.2277875 and for sparse robust PCA for
-		multi-source data described in Puchhammer, Wilms and Filzmoser
-		(2024) doi:10.48550/arXiv.2407.16299. Included are also
+		Robust Estimators for Multi-Group and Spatial Data // Estimation
+		of robust estimators for multi-group and spatial data including
+		the casewise robust Spatially Smoothed Minimum Regularized
+		Determinant (ssMRCD) estimator and its usage for local outlier
+		detection as described in Puchhammer and Filzmoser (2023)
+		doi:10.1080/10618600.2023.2277875 as well as for sparse robust
+		PCA for multi-source data described in Puchhammer, Wilms and
+		Filzmoser (2024) doi:10.48550/arXiv.2407.16299. Moreover, a
+		cellwise robust multi-group Gaussian mixture model (MG-GMM) is
+		implemented as described in Puchhammer, Wilms and Filzmoser
+		(2024) doi:10.48550/arXiv.2504.02547. Included are also
 		complementary visualization and parameter tuning tools.
 	</longdescription>
 </pkgmetadata>

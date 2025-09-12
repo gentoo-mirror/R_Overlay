@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/rrcov sci-CRAN/Rcpp virtual/Matrix sci-CRAN/DescTools sci-CRAN/cellWise sci-CRAN/rootSolve >=dev-lang/R-4.0.0 sci-CRAN/scales sci-CRAN/robustbase sci-CRAN/ellipse sci-CRAN/dbscan sci-CRAN/expm sci-CRAN/RcppArmadillo dev-lang/R:=
+DESCRIPTION=Robust Estimators for Multi-Group and Spatial Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggridges r_suggests_knitr r_suggests_rmarkdown r_suggests_rnaturalearth r_suggests_rnaturalearthdata r_suggests_testthat r_suggests_tidyr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/rrcov sci-CRAN/Rcpp virtual/Matrix sci-CRAN/DescTools sci-CRAN/cellWise sci-CRAN/rootSolve >=dev-lang/R-4.0.0 sci-CRAN/scales sci-CRAN/robustbase sci-CRAN/ellipse sci-CRAN/dbscan sci-CRAN/expm sci-CRAN/RcppArmadillo sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggridges? ( sci-CRAN/ggridges ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rnaturalearth? ( sci-CRAN/rnaturalearth ) r_suggests_rnaturalearthdata? ( sci-CRAN/rnaturalearthdata ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyr? ( sci-CRAN/tidyr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ssMRCD_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=276dee59874540719e0af98510b304d0

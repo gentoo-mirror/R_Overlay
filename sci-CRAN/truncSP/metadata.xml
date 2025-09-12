@@ -2,8 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Semi-parametric estimators of truncated regression models //
-		Semi-parametric estimation of truncated linear regression
-		models
+		Semi-Parametric Estimators of Truncated Regression Models //
+		Estimators for semi-parametric linear regression models with
+		truncated response variables (fixed truncation point). The
+		estimators implemented are the Symmetrically Trimmed Least
+		Squares (STLS) estimator introduced by Powell (1986)
+		doi:10.2307/1914308, the Quadratic Mode (QME) estimator
+		introduced by Lee (1993) doi:10.1016/0304-4076(93)90056-B, and
+		the Left Truncated (LT) estimator introduced by Karlsson (2006)
+		doi:10.1007/s00184-005-0023-x.
 	</longdescription>
 </pkgmetadata>

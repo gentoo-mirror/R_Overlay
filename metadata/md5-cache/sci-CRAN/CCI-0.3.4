@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/progress >=dev-lang/R-3.5 sci-CRAN/ggplot2 sci-CRAN/caret sci-CRAN/xgboost sci-CRAN/dplyr sci-CRAN/ranger sci-CRAN/data_table sci-CRAN/e1071 sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Computational Test for Conditional Independence
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/progress >=dev-lang/R-3.5 sci-CRAN/ggplot2 sci-CRAN/caret sci-CRAN/xgboost sci-CRAN/dplyr sci-CRAN/ranger sci-CRAN/data_table sci-CRAN/e1071 sci-CRAN/rlang r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CCI_0.3.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=34376ad0f5e0c0160f47d32cc17b984b
