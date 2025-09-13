@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/Rcpp >=dev-lang/R-3.5.0 sci-CRAN/fastglm sci-CRAN/r2r sci-CRAN/GenSA sci-CRAN/BAS sci-CRAN/tolerance dev-lang/R:=
+DESCRIPTION=Flexible Bayesian Model Selectio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_caic4 r_suggests_kernlab r_suggests_knitr r_suggests_lme4 r_suggests_markdown r_suggests_mvtnorm r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/Rcpp >=dev-lang/R-3.5.0 sci-CRAN/fastglm sci-CRAN/r2r sci-CRAN/GenSA sci-CRAN/BAS sci-CRAN/tolerance sci-CRAN/Rcpp r_suggests_caic4? ( sci-CRAN/cAIC4 ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_mvtnorm? ( sci-CRAN/mvtnorm ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FBMS_1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=1ec1a05e3bb31f164bc9a0c4dc94a4e6

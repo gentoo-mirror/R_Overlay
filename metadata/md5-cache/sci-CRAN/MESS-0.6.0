@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mvtnorm virtual/MASS sci-CRAN/clipr >=dev-lang/R-4.1 virtual/Matrix sci-CRAN/Rcpp sci-CRAN/geepack sci-CRAN/geeM sci-CRAN/ggplot2 sci-CRAN/ggformula sci-CRAN/glmnet sci-CRAN/kinship2 dev-lang/R:=
+DESCRIPTION=Miscellaneous Esoteric Statistical Scripts
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_lme4 r_suggests_magrittr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/mvtnorm virtual/MASS sci-CRAN/clipr >=dev-lang/R-4.1 virtual/Matrix sci-CRAN/Rcpp sci-CRAN/geepack sci-CRAN/geeM sci-CRAN/ggplot2 sci-CRAN/ggformula sci-CRAN/glmnet sci-CRAN/kinship2 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppParallel r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MESS_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=93b67112e33bd81c1b795018e2a03cd4

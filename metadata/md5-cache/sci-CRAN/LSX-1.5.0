@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/proxyC sci-CRAN/ggrepel sci-CRAN/quanteda_textstats sci-CRAN/reshape2 sci-CRAN/locfit >=dev-lang/R-3.5.0 >=sci-CRAN/quanteda-2.0 sci-CRAN/stringi sci-CRAN/digest virtual/Matrix sci-CRAN/RSpectra sci-CRAN/ggplot2 dev-lang/R:=
+DESCRIPTION=Semi-Supervised Algorithm for Document Scaling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_irlba r_suggests_knitr r_suggests_rmarkdown r_suggests_rsparse r_suggests_rsvd r_suggests_spelling r_suggests_testthat r_suggests_wordvector byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/proxyC sci-CRAN/ggrepel sci-CRAN/quanteda_textstats sci-CRAN/reshape2 sci-CRAN/locfit >=dev-lang/R-3.5.0 >=sci-CRAN/quanteda-2.0 sci-CRAN/stringi sci-CRAN/digest virtual/Matrix sci-CRAN/RSpectra sci-CRAN/ggplot2 r_suggests_irlba? ( sci-CRAN/irlba ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsparse? ( sci-CRAN/rsparse ) r_suggests_rsvd? ( sci-CRAN/rsvd ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_wordvector? ( sci-CRAN/wordvector ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/LSX_1.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=54bceb414ac982080eb8c9100281b5dc
