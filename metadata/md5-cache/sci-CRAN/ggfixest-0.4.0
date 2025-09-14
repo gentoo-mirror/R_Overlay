@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ggplot2-4.0.0 >=sci-CRAN/marginaleffects-0.10.0 sci-CRAN/dreamerr >=sci-CRAN/fixest-0.13.2 sci-CRAN/scales >=sci-CRAN/legendry-0.2.3 dev-lang/R:=
+DESCRIPTION=Dedicated ggplot2 Methods for fixest Objects
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_data_table r_suggests_fontquiver r_suggests_knitr r_suggests_magick r_suggests_rmarkdown r_suggests_svglite r_suggests_tinysnapshot r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/ggplot2-4.0.0 >=sci-CRAN/marginaleffects-0.10.0 sci-CRAN/dreamerr >=sci-CRAN/fixest-0.13.2 sci-CRAN/scales >=sci-CRAN/legendry-0.2.3 r_suggests_data_table? ( sci-CRAN/data_table ) r_suggests_fontquiver? ( sci-CRAN/fontquiver ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_svglite? ( >=sci-CRAN/svglite-2.2.0 ) r_suggests_tinysnapshot? ( >=sci-CRAN/tinysnapshot-0.0.3 ) r_suggests_tinytest? ( >=sci-CRAN/tinytest-1.4.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggfixest_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=242e4d996ae8121daa85c0846c4cb119
