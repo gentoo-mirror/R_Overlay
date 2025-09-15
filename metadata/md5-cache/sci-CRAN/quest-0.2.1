@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/boot sci-CRAN/MBESS virtual/nlme sci-CRAN/multilevel sci-CRAN/lavaan >=dev-lang/R-4.0.0 sci-CRAN/str2str sci-CRAN/abind sci-CRAN/checkmate sci-CRAN/plyr sci-CRAN/car sci-CRAN/psych sci-CRAN/lme4 dev-lang/R:=
+DESCRIPTION=Prepare Questionnaire Data for Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lmeinfo r_suggests_psychtools r_suggests_reshape r_suggests_semtools byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/boot sci-CRAN/MBESS virtual/nlme sci-CRAN/multilevel sci-CRAN/lavaan >=dev-lang/R-4.0.0 sci-CRAN/str2str sci-CRAN/abind sci-CRAN/checkmate sci-CRAN/plyr sci-CRAN/car sci-CRAN/psych sci-CRAN/lme4 r_suggests_lmeinfo? ( sci-CRAN/lmeInfo ) r_suggests_psychtools? ( sci-CRAN/psychTools ) r_suggests_reshape? ( sci-CRAN/reshape ) r_suggests_semtools? ( sci-CRAN/semTools ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/quest_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a3c1a9222cabd50c903992a7c26ae5f3

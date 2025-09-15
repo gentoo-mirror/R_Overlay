@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/lubridate sci-CRAN/yaml sci-CRAN/writexl dev-lang/R:=
+DESCRIPTION=Manipulate EpiTrax Data and Generate Reports
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dt r_suggests_kableextra r_suggests_knitr r_suggests_readxl r_suggests_rmarkdown r_suggests_shiny r_suggests_shinyjs r_suggests_stringr r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/lubridate sci-CRAN/yaml sci-CRAN/writexl r_suggests_dt? ( sci-CRAN/DT ) r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_shiny? ( sci-CRAN/shiny ) r_suggests_shinyjs? ( sci-CRAN/shinyjs ) r_suggests_stringr? ( sci-CRAN/stringr ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/epitraxr_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=558b55d270f865f15202f125f4c520e9

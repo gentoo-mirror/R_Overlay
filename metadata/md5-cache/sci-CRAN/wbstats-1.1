@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/magrittr sci-CRAN/jsonlite sci-CRAN/dplyr >=dev-lang/R-3.2 sci-CRAN/tidyselect sci-CRAN/httr sci-CRAN/lubridate sci-CRAN/readr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tibble dev-lang/R:=
+DESCRIPTION=Programmatic Access to Data and ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_markdown r_suggests_rmarkdown r_suggests_testthat r_suggests_vcr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/tidyr sci-CRAN/magrittr sci-CRAN/jsonlite sci-CRAN/dplyr >=dev-lang/R-3.2 sci-CRAN/tidyselect sci-CRAN/httr sci-CRAN/lubridate sci-CRAN/readr sci-CRAN/rlang sci-CRAN/stringr sci-CRAN/tibble r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vcr? ( sci-CRAN/vcr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/wbstats_1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=087c4fd6fd9aa35882518b01888a221b
