@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 >=sci-CRAN/Rcpp-1.0.10 sci-CRAN/openxlsx dev-lang/R:=
+DESCRIPTION=Biotic Ligand Model Engine
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.5 >=sci-CRAN/Rcpp-1.0.10 sci-CRAN/openxlsx sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BLMEngineInR_0.1.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7e85bbda78b39b267a7a582373cf1996

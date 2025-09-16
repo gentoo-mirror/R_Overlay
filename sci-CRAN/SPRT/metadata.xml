@@ -2,10 +2,19 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Wald's Sequential Probability Ratio Test // Perform Wald's
-		Sequential Probability Ratio Test on variables with a Normal,
-		Bernoulli, Exponential and Poisson distribution. Plot
-		acceptance and continuation regions, or create your own with
-		the help of closures.
+		Sequential Probability Ratio Test (SPRT) Method // Provides
+		functions to perform the Sequential Probability Ratio Test
+		(SPRT) for hypothesis testing in Binomial, Poisson and Normal
+		distributions. The package allows users to specify Type I and
+		Type II error probabilities, decision thresholds, and compare
+		null and alternative hypotheses sequentially as data
+		accumulate. It includes visualization tools for plotting the
+		likelihood ratio path and decision boundaries, making it easier
+		to interpret results. The methods are based on Wald (1945)
+		doi:10.1214/aoms/1177731118, who introduced the SPRT as one of
+		the earliest and most powerful sequential analysis techniques.
+		This package is useful in quality control, clinical trials, and
+		other applications requiring early decision-making.The term
+		'SPRT' is an abbreviation and used intentionally.
 	</longdescription>
 </pkgmetadata>

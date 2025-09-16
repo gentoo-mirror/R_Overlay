@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/survidm dev-lang/R:=
+DESCRIPTION=Time-Dependent Precision-Recall ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/survidm dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tdPRC_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ea48e6258d9f8d3240af763c89a38865

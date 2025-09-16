@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/xgboost sci-CRAN/party >=dev-lang/R-3.2.0 sci-CRAN/purrr sci-CRAN/randomForest >=sci-CRAN/cli-1.1.0 >=sci-CRAN/dplyr-0.7.6 virtual/MASS sci-CRAN/tidyselect sci-CRAN/future virtual/rpart sci-CRAN/rlang sci-CRAN/MLmetrics sci-CRAN/parallelly sci-CRAN/ROCR sci-CRAN/ranger sci-CRAN/caTools >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/dlookr sci-CRAN/glmnet sci-CRAN/tibble sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Model Classifier for Binary Classification
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_islr r_suggests_knitr r_suggests_mice r_suggests_mlbench r_suggests_rmarkdown r_suggests_stringi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=sci-CRAN/xgboost sci-CRAN/party >=dev-lang/R-3.2.0 sci-CRAN/purrr sci-CRAN/randomForest >=sci-CRAN/cli-1.1.0 >=sci-CRAN/dplyr-0.7.6 virtual/MASS sci-CRAN/tidyselect sci-CRAN/future virtual/rpart sci-CRAN/rlang sci-CRAN/MLmetrics sci-CRAN/parallelly sci-CRAN/ROCR sci-CRAN/ranger sci-CRAN/caTools >=sci-CRAN/ggplot2-3.0.0 sci-CRAN/dlookr sci-CRAN/glmnet sci-CRAN/tibble sci-CRAN/tidyr r_suggests_islr? ( sci-CRAN/ISLR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mice? ( sci-CRAN/mice ) r_suggests_mlbench? ( sci-CRAN/mlbench ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_stringi? ( sci-CRAN/stringi ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/alookr_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=cb840fadf32f5ed08131c445d72cf6f7

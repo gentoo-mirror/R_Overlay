@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Common Argument Checks for 'r-dcm' Packages // Many packages in
+		the 'r-dcm' family take similar arguments, which are checked
+		for expected structures and values. Rather than duplicating
+		code across several packages, commonly used check functions are
+		included here.  This package can then be imported to access the
+		check functions in other packages.
+	</longdescription>
+</pkgmetadata>

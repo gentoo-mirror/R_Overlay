@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Biotic Ligand Model Engine // A chemical speciation and toxicity
+		prediction model for the toxicity of metals to aquatic
+		organisms. The Biotic Ligand Model (BLM) engine was originally
+		programmed in 'PowerBasic' by Robert Santore and others. The
+		main way the BLM can be used is to predict the toxicity of a
+		metal to an organism with a known sensitivity (i.e., it is
+		known how much of that metal must accumulate on that organism's
+		biotic ligand to cause a physiological effect in a certain
+		percentage of the population, such as a 20% loss in
+		reproduction or a 50% mortality rate). The second way the BLM
+		can be used is to estimate the chemical speciation of the metal
+		and other constituents in water, including estimating the
+		amount of metal accumulated to an organism's biotic ligand
+		during a toxicity test. In the first application of the BLM,
+		the amount of metal associated with a toxicity endpoint, or
+		regulatory limit will be predicted, while in the second
+		application, the amount of metal is known and the portions of
+		that metal that exist in various forms will be determined. This
+		version of the engine has been re-structured to perform the
+		calculations in a different way that will make it more
+		efficient in R, while also making it more flexible and easier
+		to maintain in the future. Because of this, it does not
+		currently match the desktop model exactly, but we hope to
+		improve this comparability in the future.
+	</longdescription>
+</pkgmetadata>
