@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Self-Similarity Test for Normality // Implements the Self-
+		Similarity Test for Normality (SSTN), a new statistical test
+		designed to assess whether a given sample originates from a
+		normal distribution. The procedure is based on iteratively
+		estimating the characteristic function of the sum of
+		standardized i.i.d. random variables and comparing it to the
+		characteristic function of the standard normal distribution. A
+		Monte Carlo procedure is used to determine the empirical
+		distribution of the test statistic under the null hypothesis.
+		Details of the methodology are described in Anarat and
+		Schwender (2025), "A normality test based on self-similarity"
+		(Submitted).
+	</longdescription>
+</pkgmetadata>

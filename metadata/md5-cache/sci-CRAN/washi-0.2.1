@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/cli sci-CRAN/ggplot2 sci-CRAN/officer sci-CRAN/flextable sci-CRAN/scales sci-CRAN/systemfonts dev-lang/R:=
+DESCRIPTION=Washington Soil Health Initiative Branding
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_forcats r_suggests_ragg r_suggests_testthat r_suggests_vdiffr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/cli sci-CRAN/ggplot2 sci-CRAN/officer sci-CRAN/flextable sci-CRAN/scales sci-CRAN/systemfonts r_suggests_covr? ( sci-CRAN/covr ) r_suggests_forcats? ( sci-CRAN/forcats ) r_suggests_ragg? ( sci-CRAN/ragg ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_vdiffr? ( sci-CRAN/vdiffr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/washi_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d227e10e2f09833bc515a7f60372b90d

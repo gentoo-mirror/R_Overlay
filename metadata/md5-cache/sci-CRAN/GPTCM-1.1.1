@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/scales >=dev-lang/R-4.1.0 sci-CRAN/Rcpp virtual/survival sci-CRAN/ggplot2 sci-CRAN/riskRegression sci-CRAN/ggridges sci-CRAN/miCoPTCM sci-CRAN/loo sci-CRAN/mvnfast dev-lang/R:=
+DESCRIPTION=Generalized Promotion Time Cure ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_survminer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix sci-CRAN/scales >=dev-lang/R-4.1.0 sci-CRAN/Rcpp virtual/survival sci-CRAN/ggplot2 sci-CRAN/riskRegression sci-CRAN/ggridges sci-CRAN/miCoPTCM sci-CRAN/loo sci-CRAN/mvnfast sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_survminer? ( sci-CRAN/survminer ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GPTCM_1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f9e9456d4f9a518e1aa7fbd315840f06

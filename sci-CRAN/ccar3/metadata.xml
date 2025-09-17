@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Canonical Correlation Analysis via Reduced Rank Regression //
+		Canonical correlation analysis (CCA) via reduced-rank
+		regression with support for regularization and cross-
+		validation. Several methods for estimating CCA in high-
+		dimensional settings are implemented. The first set of methods,
+		cca_rrr() (and variants: cca_group_rrr() and cca_graph_rrr()),
+		assumes that one dataset is high-dimensional and the other is
+		low-dimensional, while the second, ecca() (for Efficient CCA)
+		assumes that both datasets are high-dimensional. For both
+		methods, standard l1 regularization as well as group-lasso
+		regularization are available. cca_graph_rrr further supports
+		total variation regularization when there is a known graph
+		structure among the variables of the high-dimensional dataset.
+		In this case, the loadings of the canonical directions of the
+		high-dimensional dataset are assumed  to be smooth on the
+		graph. For more details see Donnat and Tuzhilina (2024)
+		doi:10.48550/arXiv.2405.19539 and Wu, Tuzhilina and Donnat
+		(2025) doi:10.48550/arXiv.2507.11160.
+	</longdescription>
+</pkgmetadata>
