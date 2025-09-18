@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/jsonlite-1.7 >=sci-CRAN/httr-1.4.2 >=sci-CRAN/maps-3.3 sci-CRAN/rnaturalearth >=sci-CRAN/tidyr-1.1.1 >=sci-CRAN/vegan-2.5.7 sci-CRAN/reshape2 >=sci-CRAN/sf-0.9.4 >=dev-lang/R-4.0.0 >=sci-CRAN/ape-5.5 >=sci-CRAN/BAT-2.0 >=sci-CRAN/dplyr-1.0.1 >=sci-CRAN/data_table-1.13 >=sci-CRAN/skimr-2.1.2 >=sci-CRAN/ggplot2-3.3.2 dev-lang/R:=
+DESCRIPTION=Retrieve, Transform and Analyze ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_biocmanager r_suggests_biostrings r_suggests_msa r_suggests_muscle byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/jsonlite-1.7 >=sci-CRAN/httr-1.4.2 >=sci-CRAN/maps-3.3 sci-CRAN/rnaturalearth >=sci-CRAN/tidyr-1.1.1 >=sci-CRAN/vegan-2.5.7 sci-CRAN/reshape2 >=sci-CRAN/sf-0.9.4 >=dev-lang/R-4.0.0 >=sci-CRAN/ape-5.5 >=sci-CRAN/BAT-2.0 >=sci-CRAN/dplyr-1.0.1 >=sci-CRAN/data_table-1.13 >=sci-CRAN/skimr-2.1.2 >=sci-CRAN/ggplot2-3.3.2 r_suggests_biocmanager? ( sci-CRAN/BiocManager ) r_suggests_biostrings? ( sci-BIOC/Biostrings ) r_suggests_msa? ( sci-BIOC/msa ) r_suggests_muscle? ( sci-BIOC/muscle ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BOLDconnectR_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9e38a6c2303bedc2a2bd4d116ec8f75a
