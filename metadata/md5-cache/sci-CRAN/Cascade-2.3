@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/lattice sci-BIOC/limma virtual/survival sci-CRAN/tnet sci-CRAN/VGAM sci-CRAN/nnls >=dev-lang/R-3.5.0 sci-CRAN/animation sci-CRAN/abind virtual/cluster sci-CRAN/igraph sci-CRAN/lars sci-CRAN/magic dev-lang/R:=
+DESCRIPTION=Selection, Reverse-Engineering a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cascadedata r_suggests_knitr r_suggests_r_rsp r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/lattice sci-BIOC/limma virtual/survival sci-CRAN/tnet sci-CRAN/VGAM sci-CRAN/nnls >=dev-lang/R-3.5.0 sci-CRAN/animation sci-CRAN/abind virtual/cluster sci-CRAN/igraph sci-CRAN/lars sci-CRAN/magic r_suggests_cascadedata? ( sci-CRAN/CascadeData ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/Cascade_2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=253309a22852e4bfede269aaae1d0d5b

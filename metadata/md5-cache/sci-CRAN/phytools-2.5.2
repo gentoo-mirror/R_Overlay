@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/coda sci-CRAN/combinat >=sci-CRAN/phangorn-2.3.1 >=dev-lang/R-3.5.0 sci-CRAN/numDeriv virtual/nlme virtual/cluster virtual/MASS sci-CRAN/maps sci-CRAN/DEoptim sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/optimParallel sci-CRAN/scatterplot3d >=sci-CRAN/ape-5.7 sci-CRAN/expm sci-CRAN/mnormt dev-lang/R:=
+DESCRIPTION=Phylogenetic Tools for Comparati... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_animation r_suggests_geiger r_suggests_plotrix r_suggests_rcolorbrewer r_suggests_rgl byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/coda sci-CRAN/combinat >=sci-CRAN/phangorn-2.3.1 >=dev-lang/R-3.5.0 sci-CRAN/numDeriv virtual/nlme virtual/cluster virtual/MASS sci-CRAN/maps sci-CRAN/DEoptim sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/optimParallel sci-CRAN/scatterplot3d >=sci-CRAN/ape-5.7 sci-CRAN/expm sci-CRAN/mnormt r_suggests_animation? ( sci-CRAN/animation ) r_suggests_geiger? ( sci-CRAN/geiger ) r_suggests_plotrix? ( sci-CRAN/plotrix ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rgl? ( sci-CRAN/rgl ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/phytools_2.5-2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=91f988380c2068ae38b5cd0b4447c806
