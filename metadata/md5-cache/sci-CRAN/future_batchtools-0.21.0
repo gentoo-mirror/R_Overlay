@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.2.0 sci-CRAN/parallelly sci-CRAN/checkmate >=sci-CRAN/future-1.58.0 >=sci-CRAN/batchtools-0.9.17 sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=A Future API for Parallel and Di... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_future_apply r_suggests_globals r_suggests_listenv r_suggests_markdown r_suggests_r_rsp byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-2.1+
+RDEPEND=>=dev-lang/R-3.2.0 sci-CRAN/parallelly sci-CRAN/checkmate >=sci-CRAN/future-1.58.0 >=sci-CRAN/batchtools-0.9.17 sci-CRAN/stringi r_suggests_future_apply? ( sci-CRAN/future_apply ) r_suggests_globals? ( sci-CRAN/globals ) r_suggests_listenv? ( sci-CRAN/listenv ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/future.batchtools_0.21.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=26f9dd356a70f6ce4754653113f61eda
