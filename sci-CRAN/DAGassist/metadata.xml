@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Test Robustness with Directed Acyclic Graphs // Provides
+		robustness checks driven by directed acyclic graphs (DAGs).
+		Given a 'dagitty' DAG object and a model specification,
+		'DAGassist' classifies variables by causal roles, flags
+		problematic controls, and generates a report comparing the
+		original model with minimal and canonical adjustment sets.
+		Exports publication-grade reports in 'LaTeX', 'Word', 'Excel',
+		or plain text. 'DAGassist' is built on 'dagitty', an 'R'
+		package that uses the 'DAGitty' web tool (https://dagitty.net/)
+		for creating and analyzing DAGs. Methods draw on Pearl (2009)
+		doi:10.1017/CBO9780511803161 and Textor et al. (2016)
+		doi:10.1093/ije/dyw341.
+	</longdescription>
+</pkgmetadata>

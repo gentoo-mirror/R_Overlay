@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/cli sci-CRAN/crayon sci-CRAN/dagitty sci-CRAN/broom sci-CRAN/magrittr sci-CRAN/writexl dev-lang/R:=
+DESCRIPTION=Test Robustness with Directed Acyclic Graphs
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fixest r_suggests_ggdag r_suggests_knitr r_suggests_modelsummary r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/cli sci-CRAN/crayon sci-CRAN/dagitty sci-CRAN/broom sci-CRAN/magrittr sci-CRAN/writexl r_suggests_fixest? ( sci-CRAN/fixest ) r_suggests_ggdag? ( sci-CRAN/ggdag ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_modelsummary? ( sci-CRAN/modelsummary ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DAGassist_0.2.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8914e3917774cf9708c2b0b529184fea

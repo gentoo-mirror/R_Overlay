@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Neural AutoRegressive Fractionally Integrated Moving Average
+		Model // Methods and tools for forecasting univariate time
+		series using the NARFIMA (Neural AutoRegressive Fractionally
+		Integrated Moving Average) model. It combines neural networks
+		with fractional differencing to capture both nonlinear patterns
+		and long-term dependencies. The NARFIMA model supports seasonal
+		adjustment, Box-Cox transformations, optional exogenous
+		variables, and the computation of prediction intervals. In
+		addition to the NARFIMA model, this package provides
+		alternative forecasting models including NARIMA (Neural ARIMA),
+		NBSTS (Neural Bayesian Structural Time Series), and NNaive
+		(Neural Naive) for performance comparison across different
+		modeling approaches. The methods are based on algorithms
+		introduced by Chakraborty et al. (2025)
+		doi:10.48550/arXiv.2509.06697.
+	</longdescription>
+</pkgmetadata>

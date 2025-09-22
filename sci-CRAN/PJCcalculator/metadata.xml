@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		PROs-Joint Contrast (PJC) Calculator // Computes the Patient-
+		Reported Outcomes (PROs) Joint Contrast (PJC), a residual-based
+		summary that captures information left over after accounting
+		for the clinical Disease Activity index for Psoriatic Arthritis
+		(cDAPSA). PROs (pain and patient global assessment) and joint
+		counts (swollen and tender) are standardized, then each
+		component is adjusted for standardized cDAPSA using natural
+		spline coefficients that were derived from previously published
+		models. The resulting residuals are standardized and combined
+		using fixed principal component loadings, to yield a continuous
+		PJC score and quartile groupings. This package provides a
+		calculator for applying those published coefficients to new
+		datasets; it does not itself estimate spline models or
+		principal components.
+	</longdescription>
+</pkgmetadata>

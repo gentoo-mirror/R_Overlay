@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mclust sci-CRAN/ncvreg virtual/Matrix >=dev-lang/R-2.14.0 sci-CRAN/glmnet sci-CRAN/mvtnorm sci-CRAN/dplyr >=sci-CRAN/Rcpp-0.12.16 sci-CRAN/huge sci-CRAN/intervals virtual/Matrix sci-CRAN/pracma virtual/survival virtual/mgcv dev-lang/R:=
+DESCRIPTION=High-Dimensional Model Selection
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_patrick r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/mclust sci-CRAN/ncvreg virtual/Matrix >=dev-lang/R-2.14.0 sci-CRAN/glmnet sci-CRAN/mvtnorm sci-CRAN/dplyr >=sci-CRAN/Rcpp-0.12.16 sci-CRAN/huge sci-CRAN/intervals virtual/Matrix sci-CRAN/pracma virtual/survival virtual/mgcv sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_patrick? ( sci-CRAN/patrick ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/modelSelection_1.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8a7bd32c2b9cb3099bc5c1827745ee00
