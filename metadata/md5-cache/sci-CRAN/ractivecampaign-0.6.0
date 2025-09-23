@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/pbapply sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/cli sci-CRAN/retry dev-lang/R:=
+DESCRIPTION=Loading Data from ActiveCampaign API v3
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/dplyr sci-CRAN/httr sci-CRAN/pbapply sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/cli sci-CRAN/retry dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ractivecampaign_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ed597a6fba33169adb933f302bee1aa7

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Kernel Ridge Regression using 'RcppArmadillo' // Provides core
+		computational operations in C++ via 'RcppArmadillo', enabling
+		faster performance than pure R, improved numerical stability,
+		and parallel execution with OpenMP where available. On systems
+		without OpenMP support, the package automatically falls back to
+		single-threaded execution with no user configuration required.
+		For efficient model selection, it integrates with 'CVST' to
+		provide sequential-testing cross-validation that identifies
+		competitive hyperparameters without exhaustive grid search. The
+		package offers a unified interface for exact kernel ridge
+		regression and three scalable approximationsNystrm, Pivoted
+		Cholesky, and Random Fourier Featuresallowing analyses with
+		substantially larger sample sizes than are feasible with exact
+		KRR. It also integrates with the 'tidymodels' ecosystem via the
+		'parsnip' model specification 'krr_reg', the S3 method
+		tunable.krr_reg(), and the direct fitting helper fit_krr(). To
+		understand the theoretical background, one can refer to
+		Wainwright (2019) doi:10.1017/9781108627771.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/bbmle sci-CRAN/mvtnorm sci-CRAN/cubature dev-lang/R:=
+DESCRIPTION=Simulation of Discrete Random Va... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix sci-CRAN/bbmle sci-CRAN/mvtnorm sci-CRAN/cubature dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/GenOrd_2.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=f7b7c80c694eab8d816516e1d50a82c9

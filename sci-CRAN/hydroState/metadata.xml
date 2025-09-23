@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Hidden Markov Modelling of Hydrological State Change //
+		Identifies regime changes in streamflow runoff not explained by
+		variations in precipitation. The package builds a flexible set
+		of Hidden Markov Models of annual, seasonal or monthly
+		streamflow runoff with precipitation as a predictor. Suites of
+		models can be built for a single site, ranging from one to
+		three states and each with differing combinations of error
+		models and auto-correlation terms. The most parsimonious model
+		is easily identified by AIC, and useful for understanding
+		catchment drought non-recovery: Peterson TJ, Saft M, Peel MC
+		John A (2021) doi:10.1126/science.abd5085.
+	</longdescription>
+</pkgmetadata>

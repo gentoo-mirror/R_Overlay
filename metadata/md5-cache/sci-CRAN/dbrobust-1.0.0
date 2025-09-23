@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/RColorBrewer sci-CRAN/qgraph sci-CRAN/vegan sci-CRAN/proxy >=dev-lang/R-4.5 sci-CRAN/GGally sci-CRAN/ggplot2 sci-CRAN/Rdpack virtual/MASS sci-CRAN/ade4 sci-CRAN/dbstats sci-CRAN/StatMatch sci-CRAN/pheatmap dev-lang/R:=
+DESCRIPTION=Robust Distance-Based Visualizat... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/RColorBrewer sci-CRAN/qgraph sci-CRAN/vegan sci-CRAN/proxy >=dev-lang/R-4.5 sci-CRAN/GGally sci-CRAN/ggplot2 sci-CRAN/Rdpack virtual/MASS sci-CRAN/ade4 sci-CRAN/dbstats sci-CRAN/StatMatch sci-CRAN/pheatmap r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dbrobust_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7aa01ac6a3994dc68360c9c41a4cb2d0
