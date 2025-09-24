@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fast Multiscale Raster Extraction and Moving Window Analysis with
+		FFT // Provides fast moving-window ("focal") and buffer-based
+		extraction for raster data using the 'terra' package.
+		Automatically selects between a 'C++' backend (via 'terra') and
+		a Fast Fourier Transform (FFT) backend depending on problem
+		size. The FFT backend supports sum and mean, while other
+		statistics (e.g., median, min, max, standard deviation) are
+		handled by the 'terra' backend. Supports multiple kernel types
+		(e.g., circle, rectangle, gaussian), with NA handling
+		consistent with 'terra' via 'na.rm' and 'na.policy'. Operates
+		on 'SpatRaster' objects and returns results with the same
+		geometry.
+	</longdescription>
+</pkgmetadata>

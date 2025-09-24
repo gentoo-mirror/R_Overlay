@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/xml2-1.3.6 >=sci-CRAN/scales-1.3.0 >=sci-CRAN/magrittr-2.0.3 >=sci-CRAN/markdown-1.13 >=dev-lang/R-3.6.0 >=sci-CRAN/base64enc-0.1.3 >=sci-CRAN/bitops-1.0.7 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/glue-1.8.0 >=sci-CRAN/reactable-0.4.4 sci-CRAN/vctrs >=sci-CRAN/fs-1.6.4 >=sci-CRAN/bigD-0.2 >=sci-CRAN/sass-0.4.9 >=sci-CRAN/htmlwidgets-1.6.4 >=sci-CRAN/cli-3.6.3 >=sci-CRAN/commonmark-1.9.1 >=sci-CRAN/htmltools-0.5.8.1 >=sci-CRAN/tidyselect-1.2.1 >=sci-CRAN/juicyjuice-0.1.0 >=sci-CRAN/rlang-1.1.4 dev-lang/R:=
+DESCRIPTION=Easily Create Presentation-Ready Display Tables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_farver r_suggests_fontawesome r_suggests_ggplot2 r_suggests_gtable r_suggests_katex r_suggests_knitr r_suggests_lubridate r_suggests_magick r_suggests_paletteer r_suggests_rcolorbrewer r_suggests_rmarkdown r_suggests_rvest r_suggests_shiny r_suggests_testthat r_suggests_tidyr r_suggests_webshot2 r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=sci-CRAN/xml2-1.3.6 >=sci-CRAN/scales-1.3.0 >=sci-CRAN/magrittr-2.0.3 >=sci-CRAN/markdown-1.13 >=dev-lang/R-3.6.0 >=sci-CRAN/base64enc-0.1.3 >=sci-CRAN/bitops-1.0.7 >=sci-CRAN/dplyr-1.1.4 >=sci-CRAN/glue-1.8.0 >=sci-CRAN/reactable-0.4.4 sci-CRAN/vctrs >=sci-CRAN/fs-1.6.4 >=sci-CRAN/bigD-0.2 >=sci-CRAN/sass-0.4.9 >=sci-CRAN/htmlwidgets-1.6.4 >=sci-CRAN/cli-3.6.3 >=sci-CRAN/commonmark-1.9.1 >=sci-CRAN/htmltools-0.5.8.1 >=sci-CRAN/tidyselect-1.2.1 >=sci-CRAN/juicyjuice-0.1.0 >=sci-CRAN/rlang-1.1.4 r_suggests_farver? ( sci-CRAN/farver ) r_suggests_fontawesome? ( >=sci-CRAN/fontawesome-0.5.2 ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_gtable? ( >=sci-CRAN/gtable-0.3.6 ) r_suggests_katex? ( >=sci-CRAN/katex-1.4.1 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lubridate? ( sci-CRAN/lubridate ) r_suggests_magick? ( sci-CRAN/magick ) r_suggests_paletteer? ( sci-CRAN/paletteer ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_rmarkdown? ( >=sci-CRAN/rmarkdown-2.20 ) r_suggests_rvest? ( sci-CRAN/rvest ) r_suggests_shiny? ( >=sci-CRAN/shiny-1.9.1 ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.9 ) r_suggests_tidyr? ( >=sci-CRAN/tidyr-1.0.0 ) r_suggests_webshot2? ( >=sci-CRAN/webshot2-0.1.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gt_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=209aa214eabe89287d9c140211322424

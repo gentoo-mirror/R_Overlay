@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/websocket sci-CRAN/pingr sci-CRAN/htmlwidgets sci-CRAN/base64enc sci-CRAN/stringi >=sci-CRAN/httr2-1.2.0 sci-CRAN/later sci-CRAN/knitr sci-CRAN/rmarkdown sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/bookdown sci-CRAN/htmltools sci-CRAN/rvest sci-CRAN/digest sci-CRAN/settings dev-lang/R:=
+DESCRIPTION=R Interface for TiddlyWiki
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dplyr r_suggests_ggplot2 r_suggests_leaflet r_suggests_processx r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/websocket sci-CRAN/pingr sci-CRAN/htmlwidgets sci-CRAN/base64enc sci-CRAN/stringi >=sci-CRAN/httr2-1.2.0 sci-CRAN/later sci-CRAN/knitr sci-CRAN/rmarkdown sci-CRAN/jsonlite sci-CRAN/stringr sci-CRAN/bookdown sci-CRAN/htmltools sci-CRAN/rvest sci-CRAN/digest sci-CRAN/settings r_suggests_dplyr? ( sci-CRAN/dplyr ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_leaflet? ( sci-CRAN/leaflet ) r_suggests_processx? ( sci-CRAN/processx ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rtiddlywiki_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c7ed1d09a7c816d20f31d2f44e0a9f80

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Variant Effect Calibration to ACMG/AMP Evidence Strength //
+		Provides a function to calibrate variant effect scores against
+		evidence strength categories defined by the American College of
+		Medical Genetics and Genomics (ACMG) and the Association for
+		Molecular Pathology (AMP) guidelines. The method computes
+		likelihood ratios of pathogenicity via kernel density
+		estimation of pathogenic and benign score distributions, and
+		derives score intervals corresponding to ACMG/AMP evidence
+		levels. This enables researchers and clinical geneticists to
+		interpret functional and computational variant scores in a
+		reproducible and standardised manner. For details, see Badonyi
+		and Marsh (2025) doi:10.1093/bioinformatics/btaf503.
+	</longdescription>
+</pkgmetadata>

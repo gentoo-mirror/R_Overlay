@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/R6 sci-CRAN/shiny sci-CRAN/htmltools dev-lang/R:=
+DESCRIPTION=Loading Screen for Shiny
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_httr r_suggests_knitr r_suggests_packer r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/R6 sci-CRAN/shiny sci-CRAN/htmltools r_suggests_httr? ( sci-CRAN/httr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_packer? ( sci-CRAN/packer ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/waiter_0.2.5.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ca5c63d2a3d6c30ee376de8b3a342e95

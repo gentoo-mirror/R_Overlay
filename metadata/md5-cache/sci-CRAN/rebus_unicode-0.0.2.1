@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/rebus_base-0.0.2 dev-lang/R:=
+DESCRIPTION=Unicode Extensions for the rebus Package
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_stringi byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=dev-lang/R-3.1.0 >=sci-CRAN/rebus_base-0.0.2 r_suggests_stringi? ( sci-CRAN/stringi ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rebus.unicode_0.0-2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=7b4976ce5dbbe1fa7852ed36316f3363

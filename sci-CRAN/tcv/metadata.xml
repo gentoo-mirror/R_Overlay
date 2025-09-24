@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Determining the Number of Factors in Poisson Factor Models via
+		Thinning Cross-Validation // Implements methods for selecting
+		the number of factors in Poisson factor models, with a primary
+		focus on Thinning Cross-Validation (TCV). The TCV method is
+		based on the 'data thinning' technique, which probabilistically
+		partitions each count observation into training and test sets
+		while preserving the underlying factor structure. The Poisson
+		factor model is then fit on the training set, and model
+		selection is performed by comparing predictive performance on
+		the test set. This toolkit is designed for researchers working
+		with high-dimensional count data in fields such as genomics,
+		text mining, and social sciences. The data thinning methodology
+		is detailed in Dharamshi et al. (2025)
+		doi:10.1080/01621459.2024.2353948 and Wang et al. (2025)
+		doi:10.1080/01621459.2025.2546577.
+	</longdescription>
+</pkgmetadata>
