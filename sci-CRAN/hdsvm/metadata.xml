@@ -3,12 +3,13 @@
 <pkgmetadata>
 	<longdescription>
 		Fast Algorithm for Support Vector Machine // Implements an
-		efficient algorithm to fit and tune penalized Support Vector
-		Machine models using the generalized coordinate descent
-		algorithm. Designed to handle high-dimensional datasets
-		effectively, with emphasis on precision and computational
-		efficiency. This package implements the algorithms proposed in
-		Tang, Q., Zhang, Y.,  Wang, B. (2022)
+		efficient algorithm for fitting the entire regularization path
+		of support vector machine models with elastic-net penalties
+		using a generalized coordinate descent scheme. The framework
+		also supports SCAD and MCP penalties. It is designed for high-
+		dimensional datasets and emphasizes numerical accuracy and
+		computational efficiency. This package implements the
+		algorithms proposed in Tang, Q., Zhang, Y.,  Wang, B. (2022)
 		https://openreview.net/pdf?id=RvwMTDYTOb.
 	</longdescription>
 </pkgmetadata>

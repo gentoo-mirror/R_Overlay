@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Causal Effect Identification fro... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_dagitty r_suggests_diagrammer r_suggests_dot r_suggests_igraph r_suggests_knitr r_suggests_mockr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/Rcpp sci-CRAN/Rcpp r_suggests_covr? ( sci-CRAN/covr ) r_suggests_dagitty? ( sci-CRAN/dagitty ) r_suggests_diagrammer? ( sci-CRAN/DiagrammeR ) r_suggests_dot? ( sci-CRAN/DOT ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mockr? ( sci-CRAN/mockr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/dosearch_1.0.12.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2cf3a5664fff10c80887192ed1b135fc

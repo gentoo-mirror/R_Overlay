@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Rcpp-1.0.10 dev-lang/R:=
+DESCRIPTION=Spatial Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_deldir r_suggests_htmlwidgets r_suggests_leaflet r_suggests_ncdf4 r_suggests_sf r_suggests_tinytest r_suggests_xml byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/Rcpp-1.0.10 sci-CRAN/Rcpp sci-libs/gdal sci-libs/geos sci-libs/proj dev-cpp/tbb dev-db/sqlite r_suggests_deldir? ( sci-CRAN/deldir ) r_suggests_htmlwidgets? ( sci-CRAN/htmlwidgets ) r_suggests_leaflet? ( >=sci-CRAN/leaflet-2.2.1 ) r_suggests_ncdf4? ( sci-CRAN/ncdf4 ) r_suggests_sf? ( >=sci-CRAN/sf-0.9.8 ) r_suggests_tinytest? ( sci-CRAN/tinytest ) r_suggests_xml? ( sci-CRAN/XML ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/terra_1.8-70.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d478dac4c9cd20e969b4d6a70b6a3f0b
