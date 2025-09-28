@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.0.2 >=sci-CRAN/Rcpp-0.12.6 >=sci-CRAN/RcppParallel-4.3.20 dev-lang/R:=
+DESCRIPTION=Parallel Distance Matrix Computa... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_dtw r_suggests_ggplot2 r_suggests_proxy r_suggests_rcpparmadillo r_suggests_rcppxptrutils r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.0.2 >=sci-CRAN/Rcpp-0.12.6 >=sci-CRAN/RcppParallel-4.3.20 sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/RcppParallel r_suggests_dtw? ( sci-CRAN/dtw ) r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_proxy? ( sci-CRAN/proxy ) r_suggests_rcpparmadillo? ( sci-CRAN/RcppArmadillo ) r_suggests_rcppxptrutils? ( sci-CRAN/RcppXPtrUtils ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/parallelDist_0.2.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=648a374db3206fbdf584eba29bed6e5b

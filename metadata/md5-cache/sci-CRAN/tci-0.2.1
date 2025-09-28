@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/reshape sci-CRAN/mvtnorm sci-CRAN/knitr dev-lang/R:=
+DESCRIPTION=Target Controlled Infusion (TCI)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mrgsolve r_suggests_reshape2 r_suggests_rmarkdown r_suggests_testthat r_suggests_truncnorm r_suggests_xtable byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/reshape sci-CRAN/mvtnorm sci-CRAN/knitr sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_mrgsolve? ( sci-CRAN/mrgsolve ) r_suggests_reshape2? ( sci-CRAN/reshape2 ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_truncnorm? ( sci-CRAN/truncnorm ) r_suggests_xtable? ( sci-CRAN/xtable ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tci_0.2.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=28bce95fbeb15971c9d3852de15fa206

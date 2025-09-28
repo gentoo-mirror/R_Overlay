@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/cli sci-CRAN/data_table sci-CRAN/R6 sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/treemapify sci-CRAN/viridis dev-lang/R:=
+DESCRIPTION=Correction of Preprocessed MS Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_corrplot r_suggests_ggdendro r_suggests_ggtext r_suggests_hmisc r_suggests_knitr r_suggests_plotly r_suggests_rmarkdown r_suggests_testthat r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/cli sci-CRAN/data_table sci-CRAN/R6 sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/treemapify sci-CRAN/viridis sci-CRAN/Rcpp r_suggests_corrplot? ( sci-CRAN/corrplot ) r_suggests_ggdendro? ( sci-CRAN/ggdendro ) r_suggests_ggtext? ( sci-CRAN/ggtext ) r_suggests_hmisc? ( sci-CRAN/Hmisc ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plotly? ( sci-CRAN/plotly ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mpactr_0.3.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=9de6c4258b3cf3256f992cd0e763d049
