@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/markdown sci-CRAN/rlang sci-CRAN/shiny sci-CRAN/dplyr sci-CRAN/shinyjs sci-CRAN/DBI sci-CRAN/shinyWidgets sci-CRAN/dbplyr sci-CRAN/RSQLite sci-CRAN/magrittr sci-CRAN/stringr dev-lang/R:=
+DESCRIPTION=Shiny Module for Taking Free-Form Notes
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/markdown sci-CRAN/rlang sci-CRAN/shiny sci-CRAN/dplyr sci-CRAN/shinyjs sci-CRAN/DBI sci-CRAN/shinyWidgets sci-CRAN/dbplyr sci-CRAN/RSQLite sci-CRAN/magrittr sci-CRAN/stringr r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/shinyNotes_0.0.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=143586999dd5929ffe909f60ee84cb92

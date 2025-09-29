@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/quanteda-4.0.0 >=sci-CRAN/proxyC-0.3.1 virtual/Matrix dev-lang/R:=
+DESCRIPTION=Seeded Sequential LDA for Topic Modeling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_spelling r_suggests_testthat r_suggests_topicmodels byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/quanteda-4.0.0 >=sci-CRAN/proxyC-0.3.1 virtual/Matrix sci-CRAN/Rcpp sci-CRAN/testthat >=sci-CRAN/RcppArmadillo-0.7.600.1.0 sci-CRAN/quanteda r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_topicmodels? ( sci-CRAN/topicmodels ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/seededlda_1.4.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4fba70c116d160edc30f989c6827435b
