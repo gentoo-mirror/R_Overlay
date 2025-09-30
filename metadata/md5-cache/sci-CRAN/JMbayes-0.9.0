@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/nlme virtual/MASS virtual/survival sci-CRAN/doParallel sci-CRAN/rstan sci-CRAN/foreach sci-CRAN/Rcpp sci-CRAN/jagsUI sci-CRAN/xtable sci-CRAN/shiny sci-CRAN/Hmisc dev-lang/R:=
+DESCRIPTION=Joint Modeling of Longitudinal a... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/nlme virtual/MASS virtual/survival sci-CRAN/doParallel sci-CRAN/rstan sci-CRAN/foreach sci-CRAN/Rcpp sci-CRAN/jagsUI sci-CRAN/xtable sci-CRAN/shiny sci-CRAN/Hmisc sci-CRAN/Rcpp sci-mathematics/jags sci-CRAN/RcppArmadillo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/JMbayes_0.9-0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=33abad7bdc9fb7e323f1748649e33fa7

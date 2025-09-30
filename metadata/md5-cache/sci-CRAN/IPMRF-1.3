@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/party sci-CRAN/randomForest sci-CRAN/gbm dev-lang/R:=
+DESCRIPTION=Intervention in Prediction Measu... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_mlbench byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/party sci-CRAN/randomForest sci-CRAN/gbm r_suggests_mlbench? ( sci-CRAN/mlbench ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/IPMRF_1.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=baa7f71fce5e0cb62fe32c43a9db19b9

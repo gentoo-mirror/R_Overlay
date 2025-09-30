@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/xgboost sci-CRAN/SHAPforxgboost virtual/Matrix sci-CRAN/caret dev-lang/R:=
+DESCRIPTION=The SHAPBoost Feature Selection Algorithm
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_flare r_suggests_survival byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/xgboost sci-CRAN/SHAPforxgboost virtual/Matrix sci-CRAN/caret r_suggests_flare? ( sci-CRAN/flare ) r_suggests_survival? ( virtual/survival ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SHAPBoost_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=98100db6ff32bfb6378b36a09eeccba3
