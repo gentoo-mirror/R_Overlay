@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/rgl-0.100.19 dev-lang/R:=
+DESCRIPTION=3D Radial Visualization
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_gtools r_suggests_mixsim byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5.0 >=sci-CRAN/rgl-0.100.19 r_suggests_gtools? ( sci-CRAN/gtools ) r_suggests_mixsim? ( sci-CRAN/MixSim ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/radviz3d_2.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4d73d33955a7997cb9f807bb8368aa7a

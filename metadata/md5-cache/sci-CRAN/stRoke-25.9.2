@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/ggplot2 >=dev-lang/R-4.1.0 sci-CRAN/calendar sci-CRAN/gtsummary sci-CRAN/lubridate virtual/MASS sci-CRAN/rankinPlot sci-CRAN/tidyselect dev-lang/R:=
+DESCRIPTION=Clinical Stroke Research
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_here r_suggests_knitr r_suggests_pak r_suggests_rmarkdown r_suggests_roxygen2 r_suggests_spelling r_suggests_testthat r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/tidyr sci-CRAN/tibble sci-CRAN/dplyr sci-CRAN/ggplot2 >=dev-lang/R-4.1.0 sci-CRAN/calendar sci-CRAN/gtsummary sci-CRAN/lubridate virtual/MASS sci-CRAN/rankinPlot sci-CRAN/tidyselect r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_here? ( sci-CRAN/here ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pak? ( sci-CRAN/pak ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_roxygen2? ( sci-CRAN/roxygen2 ) r_suggests_spelling? ( sci-CRAN/spelling ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/stRoke_25.9.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e834975af5f0575d84a529778c5b6776

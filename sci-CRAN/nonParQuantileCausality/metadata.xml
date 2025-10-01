@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Nonparametric Causality in Quantiles Test // Implements the
+		nonparametric causality-in-quantiles test (in mean or
+		variance), returning a test object with an S3 plot() method.
+		The current implementation uses one lag of each series (first-
+		order Granger causality setup). Methodology is based on
+		Balcilar, Gupta, and Pierdzioch (2016a)
+		doi:10.1016/j.resourpol.2016.04.004 and Balcilar et al. (2016)
+		doi:10.1007/s11079-016-9388-x.
+	</longdescription>
+</pkgmetadata>

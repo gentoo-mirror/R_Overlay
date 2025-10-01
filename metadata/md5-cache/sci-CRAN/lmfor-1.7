@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 virtual/MASS sci-CRAN/magic virtual/nlme sci-CRAN/spatstat virtual/Matrix sci-CRAN/spatstat_geom dev-lang/R:=
+DESCRIPTION=Functions for Forest Biometrics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_lme4 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 virtual/MASS sci-CRAN/magic virtual/nlme sci-CRAN/spatstat virtual/Matrix sci-CRAN/spatstat_geom r_suggests_lme4? ( sci-CRAN/lme4 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/lmfor_1.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bddc0b45a47ccf6f772a2948e96a56ed

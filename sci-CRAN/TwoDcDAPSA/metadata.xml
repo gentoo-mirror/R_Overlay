@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Calculate TwoDcDAPSA: PROs-Joint Contrast (PJC) Score and
+		Quartiles // Provides a calculator for the two-dimensional
+		clinical Disease Activity index for Psoriatic Arthritis
+		(TwoDcDAPSA), a principal component-derived measure that
+		complements the conventional clinical DAPSA score. The
+		TwoDcDAPSA captures residual variation in patient-reported
+		outcomes (pain and patient global assessment) and joint counts
+		(swollen and tender) after adjusting for standardized cDAPSA
+		using natural spline coefficients derived from published
+		models. Residuals are standardized and combined with fixed
+		principal component loadings to yield a continuous PROs-Joint
+		Contrast (PJC) score and quartile groupings. The package
+		applies pre-specified coefficients and loadings to new datasets
+		but does not estimate spline models or principal components
+		itself.
+	</longdescription>
+</pkgmetadata>

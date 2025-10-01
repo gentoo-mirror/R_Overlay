@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0 sci-CRAN/ggplot2 sci-CRAN/GGally sci-CRAN/Rcpp virtual/MASS virtual/survival sci-CRAN/riskRegression dev-lang/R:=
+DESCRIPTION=Penalized Semiparametric Bayesian Cox Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0 sci-CRAN/ggplot2 sci-CRAN/GGally sci-CRAN/Rcpp virtual/MASS virtual/survival sci-CRAN/riskRegression sci-CRAN/Rcpp >=sci-CRAN/RcppArmadillo-0.9.000 r_suggests_knitr? ( sci-CRAN/knitr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/psbcSpeedUp_2.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dc51d22ef4e783755a30220ca66b6e4d
