@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/fastmap sci-CRAN/units >=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/data_table sci-CRAN/sf sci-CRAN/pbapply sci-CRAN/tidyr sci-CRAN/rlang sci-CRAN/RANN dev-lang/R:=
+DESCRIPTION=Utilities to Weave Hydrologic Fabrics
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_future r_suggests_future_apply r_suggests_geos r_suggests_knitr r_suggests_lwgeom r_suggests_mapview r_suggests_nhdplustools r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=CC0-1.0
+RDEPEND=sci-CRAN/fastmap sci-CRAN/units >=dev-lang/R-4.1.0 sci-CRAN/dplyr sci-CRAN/data_table sci-CRAN/sf sci-CRAN/pbapply sci-CRAN/tidyr sci-CRAN/rlang sci-CRAN/RANN r_suggests_future? ( sci-CRAN/future ) r_suggests_future_apply? ( sci-CRAN/future_apply ) r_suggests_geos? ( sci-CRAN/geos ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_lwgeom? ( sci-CRAN/lwgeom ) r_suggests_mapview? ( sci-CRAN/mapview ) r_suggests_nhdplustools? ( sci-CRAN/nhdplusTools ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/hydroloom_1.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bf38e57db8cc99b3706cd207b6c50de8

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 sci-CRAN/palette sci-CRAN/scales sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Scales, Geometries, and Extensio... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_geos r_suggests_redist r_suggests_sf byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggplot2 sci-CRAN/palette sci-CRAN/scales sci-CRAN/rlang r_suggests_geos? ( sci-CRAN/geos ) r_suggests_redist? ( sci-CRAN/redist ) r_suggests_sf? ( sci-CRAN/sf ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggredist_0.0.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5040e66b3c6074c757247489e319d986

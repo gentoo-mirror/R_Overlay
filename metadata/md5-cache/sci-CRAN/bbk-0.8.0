@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/checkmate sci-CRAN/curl >=sci-CRAN/data_table-1.17.0 >=sci-CRAN/httr2-1.0.0 sci-CRAN/jsonlite sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Client for Central Bank APIs
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_scales r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/checkmate sci-CRAN/curl >=sci-CRAN/data_table-1.17.0 >=sci-CRAN/httr2-1.0.0 sci-CRAN/jsonlite sci-CRAN/xml2 r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/bbk_0.8.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec9479f2a324434562cad7dce9c3b2a8

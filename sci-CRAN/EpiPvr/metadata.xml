@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Estimating Plant Pathogen Epidemiology Parameters from Laboratory
+		Assays // Provides functions for estimating plant pathogen
+		parameters from access period (AP) experiments. Separate
+		functions are implemented for semi-persistently transmitted
+		(SPT) and persistently transmitted (PT) pathogens. The common
+		AP experiment exposes insect cohorts to infected source plants,
+		healthy test plants, and intermediate plants (for PT
+		pathogens). The package allows estimation of acquisition and
+		inoculation rates during feeding, recovery rates, and latent
+		progression rates (for PT pathogens). Additional functions
+		support inference of epidemic risk from pathogen and local
+		parameters, and also simulate AP experiment data. The functions
+		implement probability models for epidemiological analysis, as
+		derived in Donnelly et al. (2025), doi:10.32942/X29K9P. These
+		models were originally implemented in the 'EpiPv' 'GitHub'
+		package.
+	</longdescription>
+</pkgmetadata>

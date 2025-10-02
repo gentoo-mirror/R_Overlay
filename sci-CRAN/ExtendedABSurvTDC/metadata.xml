@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Survival Analysis using Indicators under Time Dependent
+		Covariates // Survival analysis is employed to model time-to-
+		event data. This package examines the relationship between
+		survival and one or more predictors, termed as covariates,
+		which can include both treatment variables (e.g., season of
+		birth, represented by indicator functions) and continuous
+		variables. To this end, the Cox-proportional hazard (Cox-PH)
+		model, introduced by Cox in 1972, is a widely applicable and
+		commonly used method for survival analysis. This package
+		enables the estimation of the effect of randomization for the
+		treatment variable to account for potential confounders,
+		providing adjustment when estimating the association with
+		exposure. It accommodates both fixed and time-dependent
+		covariates and computes survival probabilities for lactation
+		periods in dairy animals. The package is built upon the
+		algorithm developed by Klein and Moeschberger (2003)
+		DOI:10.1007/b97377.
+	</longdescription>
+</pkgmetadata>

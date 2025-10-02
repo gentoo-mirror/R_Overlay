@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1 sci-CRAN/future_apply >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/progressr sci-CRAN/ROI sci-CRAN/transport sci-CRAN/slam sci-CRAN/rrapply dev-lang/R:=
+DESCRIPTION=Optimal Transport Based Testing ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_future r_suggests_glpk byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-4.1 sci-CRAN/future_apply >=sci-CRAN/Rcpp-1.0.12 sci-CRAN/progressr sci-CRAN/ROI sci-CRAN/transport sci-CRAN/slam sci-CRAN/rrapply sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_future? ( sci-CRAN/future ) r_suggests_glpk? ( sci-mathematics/glpk ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FDOTT_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=14904aa846fc0725c7f4576fdc4347d2

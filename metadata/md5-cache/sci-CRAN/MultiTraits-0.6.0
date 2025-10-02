@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/dplyr sci-CRAN/ggraph sci-CRAN/ape virtual/rpart sci-CRAN/scatterplot3d sci-CRAN/magrittr sci-CRAN/rlang sci-CRAN/ggplot2 >=dev-lang/R-4.0.0 sci-CRAN/igraph sci-CRAN/vegan sci-CRAN/Hmisc sci-CRAN/corrplot sci-CRAN/ggrepel sci-CRAN/ggsci dev-lang/R:=
+DESCRIPTION=Analyzing and Visualizing Multid... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/dplyr sci-CRAN/ggraph sci-CRAN/ape virtual/rpart sci-CRAN/scatterplot3d sci-CRAN/magrittr sci-CRAN/rlang sci-CRAN/ggplot2 >=dev-lang/R-4.0.0 sci-CRAN/igraph sci-CRAN/vegan sci-CRAN/Hmisc sci-CRAN/corrplot sci-CRAN/ggrepel sci-CRAN/ggsci r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/MultiTraits_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5ab7a08051c07bd070c0c50a2952ccc7

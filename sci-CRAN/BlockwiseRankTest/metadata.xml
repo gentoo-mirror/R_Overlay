@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Block-Wise Rank in Similarity Graph Edge-Count Two-Sample Test
+		(BRISE) // Implements the Block-wise Rank in Similarity Graph
+		Edge-count test (BRISE), a rank-based two-sample test designed
+		for block-wise missing data. The method constructs (pattern)
+		pair-wise similarity graphs and derives quadratic test
+		statistics with asymptotic chi-square distribution or
+		permutation-based p-values. It provides both vectorized and
+		congregated versions for flexible inference. The methodology is
+		described in Zhang, Liang, Maile, and Zhou (2025)
+		doi:10.48550/arXiv.2508.17411.
+	</longdescription>
+</pkgmetadata>
