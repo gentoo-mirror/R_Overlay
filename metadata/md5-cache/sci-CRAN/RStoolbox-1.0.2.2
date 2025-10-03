@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lifecycle sci-CRAN/exactextractr >=dev-lang/R-3.5.0 >=sci-CRAN/caret-6.0.79 sci-CRAN/XML sci-CRAN/sf >=sci-CRAN/terra-1.6.41 sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/reshape2 sci-CRAN/magrittr sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Remote Sensing Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_e1071 r_suggests_kernlab r_suggests_lattice r_suggests_pls r_suggests_randomforest r_suggests_rose r_suggests_testthat r_suggests_themis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/lifecycle sci-CRAN/exactextractr >=dev-lang/R-3.5.0 >=sci-CRAN/caret-6.0.79 sci-CRAN/XML sci-CRAN/sf >=sci-CRAN/terra-1.6.41 sci-CRAN/dplyr sci-CRAN/ggplot2 sci-CRAN/tidyr sci-CRAN/reshape2 sci-CRAN/magrittr sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_e1071? ( sci-CRAN/e1071 ) r_suggests_kernlab? ( sci-CRAN/kernlab ) r_suggests_lattice? ( virtual/lattice ) r_suggests_pls? ( sci-CRAN/pls ) r_suggests_randomforest? ( sci-CRAN/randomForest ) r_suggests_rose? ( sci-CRAN/ROSE ) r_suggests_testthat? ( sci-CRAN/testthat ) r_suggests_themis? ( sci-CRAN/themis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/RStoolbox_1.0.2.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ec2a427c9e141c685a4c71a20bc7d22b

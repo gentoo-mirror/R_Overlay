@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/data_table-1.15.0 sci-CRAN/ggplot2 sci-CRAN/httr2 sci-CRAN/checkmate sci-CRAN/R6 sci-CRAN/xml2 dev-lang/R:=
+DESCRIPTION=Comprehensive Single-Cell Annota... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_edger r_suggests_fgsea r_suggests_geoquery r_suggests_ggrepel r_suggests_limma r_suggests_litedown r_suggests_patchwork r_suggests_seurat r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 >=sci-CRAN/data_table-1.15.0 sci-CRAN/ggplot2 sci-CRAN/httr2 sci-CRAN/checkmate sci-CRAN/R6 sci-CRAN/xml2 r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_fgsea? ( sci-BIOC/fgsea ) r_suggests_geoquery? ( sci-BIOC/GEOquery ) r_suggests_ggrepel? ( sci-CRAN/ggrepel ) r_suggests_limma? ( sci-BIOC/limma ) r_suggests_litedown? ( sci-CRAN/litedown ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_seurat? ( sci-CRAN/Seurat ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/easybio_1.2.3.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=3871a335579ff0d10fa8874e1e6303d8

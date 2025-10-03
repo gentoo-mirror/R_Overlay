@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lme4 sci-BIOC/qvalue sci-CRAN/car >=dev-lang/R-3.6.0 sci-CRAN/kableExtra sci-CRAN/plotly sci-CRAN/emmeans sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/glmmTMB virtual/MASS sci-CRAN/lmerTest sci-CRAN/pbapply sci-CRAN/mcprogress dev-lang/R:=
+DESCRIPTION=General Linear Mixed Models for ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_edger r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/lme4 sci-BIOC/qvalue sci-CRAN/car >=dev-lang/R-3.6.0 sci-CRAN/kableExtra sci-CRAN/plotly sci-CRAN/emmeans sci-CRAN/ggplot2 sci-CRAN/ggpubr sci-CRAN/glmmTMB virtual/MASS sci-CRAN/lmerTest sci-CRAN/pbapply sci-CRAN/mcprogress r_suggests_edger? ( sci-BIOC/edgeR ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/glmmSeq_0.5.7.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e297192a7780f92447c6fb8e03be7fbf

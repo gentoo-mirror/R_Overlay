@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/survival sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=L1 (Lasso and Fused Lasso) and L... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_globaltest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=virtual/survival sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_globaltest? ( sci-BIOC/globaltest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/penalized_0.9-53.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=ab44d9d72d026448268d88f7e3b8f96c

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/tidyr-1.1.0 sci-CRAN/ggplot2 >=sci-CRAN/GGally-1.1.0 virtual/MASS dev-lang/R:=
+DESCRIPTION=Tools for Analyzing MCMC Simulat... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_cairo r_suggests_coda r_suggests_extrafont r_suggests_ggthemes r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5 >=sci-CRAN/dplyr-1.0.0 >=sci-CRAN/tidyr-1.1.0 sci-CRAN/ggplot2 >=sci-CRAN/GGally-1.1.0 virtual/MASS r_suggests_cairo? ( sci-CRAN/Cairo ) r_suggests_coda? ( sci-CRAN/coda ) r_suggests_extrafont? ( sci-CRAN/extrafont ) r_suggests_ggthemes? ( sci-CRAN/ggthemes ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggmcmc_1.5.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=077e04c4ba6bf7b7ca9a559ddc44a079

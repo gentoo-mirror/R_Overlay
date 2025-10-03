@@ -4,9 +4,12 @@
 	<longdescription>
 		Broadcasted Array Operations Like 'NumPy' // Implements efficient
 		'NumPy'-like broadcasted operations for atomic and recursive
-		arrays. Besides linking to 'Rcpp', 'broadcast' does not use any
-		external libraries in any way; 'broadcast' was essentially made
-		from scratch and can be installed out-of-the-box. The
+		arrays. In the context of operations involving 2 (or more)
+		arrays, broadcasting refers to efficiently recycling array
+		dimensions without allocating additional memory. Besides
+		linking to 'Rcpp', 'broadcast' does not use any external
+		libraries in any way; 'broadcast' was essentially made from
+		scratch and can be installed out-of-the-box. The
 		implementations available in 'broadcast' include, but are not
 		limited to, the following. 1) Broadcasted element-wise
 		operations on any 2 arrays; they support a large set of
@@ -19,6 +22,6 @@
 		lists, and vice-versa. 5) A few linear algebra functions for
 		statistics. The functions in the 'broadcast' package strive to
 		minimize computation time and memory usage (which is not just
-		good for efficient computing, but also for the environment).
+		better for efficient computing, but also for the environment).
 	</longdescription>
 </pkgmetadata>
