@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/Matrix sci-CRAN/Rcpp sci-CRAN/mvtnorm sci-CRAN/rlang sci-CRAN/cli >=dev-lang/R-4.3.0 sci-CRAN/viridisLite sci-CRAN/tolerance sci-CRAN/coda sci-CRAN/fields sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/lpSolve sci-CRAN/minpack_lm dev-lang/R:=
+DESCRIPTION=Elastic Functional Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_interp r_suggests_plot3d r_suggests_plot3drgl r_suggests_rgl r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=virtual/Matrix sci-CRAN/Rcpp sci-CRAN/mvtnorm sci-CRAN/rlang sci-CRAN/cli >=dev-lang/R-4.3.0 sci-CRAN/viridisLite sci-CRAN/tolerance sci-CRAN/coda sci-CRAN/fields sci-CRAN/doParallel sci-CRAN/foreach sci-CRAN/lpSolve sci-CRAN/minpack_lm sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_covr? ( sci-CRAN/covr ) r_suggests_interp? ( sci-CRAN/interp ) r_suggests_plot3d? ( sci-CRAN/plot3D ) r_suggests_plot3drgl? ( sci-CRAN/plot3Drgl ) r_suggests_rgl? ( sci-CRAN/rgl ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/fdasrvf_2.4.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=842eb20e5a4a831129502f3556dac53b

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mclust >=sci-CRAN/Rcpp-1.0.5 sci-CRAN/spatstat_geom sci-CRAN/Seurat sci-CRAN/CompQuadForm >=dev-lang/R-4.0.0 sci-CRAN/irlba sci-CRAN/cowplot sci-CRAN/ggplot2 virtual/MASS virtual/Matrix sci-CRAN/purrr sci-BIOC/S4Vectors sci-CRAN/RColorBrewer dev-lang/R:=
+DESCRIPTION=Joint Dimension Reduction and Spatial Clustering
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/mclust >=sci-CRAN/Rcpp-1.0.5 sci-CRAN/spatstat_geom sci-CRAN/Seurat sci-CRAN/CompQuadForm >=dev-lang/R-4.0.0 sci-CRAN/irlba sci-CRAN/cowplot sci-CRAN/ggplot2 virtual/MASS virtual/Matrix sci-CRAN/purrr sci-BIOC/S4Vectors sci-CRAN/RColorBrewer sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DR.SC_3.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c00927e236b4ec8f3a3aae591291209a
