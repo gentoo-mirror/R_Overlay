@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/rsvd virtual/Matrix sci-CRAN/magrittr sci-CRAN/Ckmeans_1d_dp sci-CRAN/Seurat dev-lang/R:=
+DESCRIPTION=Receptor Abundance Estimation us... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_knitr r_suggests_rmarkdown r_suggests_seuratobject r_suggests_usethis byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/rsvd virtual/Matrix sci-CRAN/magrittr sci-CRAN/Ckmeans_1d_dp sci-CRAN/Seurat r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_seuratobject? ( sci-CRAN/SeuratObject ) r_suggests_usethis? ( sci-CRAN/usethis ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/SPECK_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5af18e7b0ae3624ca9c735704c300589

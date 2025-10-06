@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Angle-Based Classification
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_glpk r_suggests_matrix r_suggests_qpmadr r_suggests_tinytest byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/Rcpp sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_glpk? ( sci-mathematics/glpk ) r_suggests_matrix? ( virtual/Matrix ) r_suggests_qpmadr? ( sci-CRAN/qpmadr ) r_suggests_tinytest? ( sci-CRAN/tinytest ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/abclass_0.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=5639aad870dfd34ba01bd1f0998a744d

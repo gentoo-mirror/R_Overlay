@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2 sci-CRAN/rlang >=sci-CRAN/ggplot2-3.4.0 dev-lang/R:=
+DESCRIPTION=Blending and Compositing Algebra for ggplot2
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_covr r_suggests_fontquiver r_suggests_ggnewscale r_suggests_scales r_suggests_showtext r_suggests_sysfonts r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.2 sci-CRAN/rlang >=sci-CRAN/ggplot2-3.4.0 r_suggests_covr? ( sci-CRAN/covr ) r_suggests_fontquiver? ( sci-CRAN/fontquiver ) r_suggests_ggnewscale? ( sci-CRAN/ggnewscale ) r_suggests_scales? ( sci-CRAN/scales ) r_suggests_showtext? ( sci-CRAN/showtext ) r_suggests_sysfonts? ( sci-CRAN/sysfonts ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ggblend_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=475ecc1cf4c70a217eaaa4d9f065dad2
