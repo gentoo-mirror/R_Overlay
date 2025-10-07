@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>Edge Selection // Implementation of the Edge Selection Algorithm</longdescription>
+	<longdescription>
+		Edge Selection // Implementation of the Edge Selection Algorithm
+		for undirected graph selection.  The least angle regression-
+		based algorithm selects edges of an undirected graph based on
+		the projection of the current residuals on the two dimensional
+		edge-planes.  The algorithm selects symmetric adjacency matrix,
+		which many other regression-based undirected graph selection
+		procedures cannot do.
+	</longdescription>
 </pkgmetadata>

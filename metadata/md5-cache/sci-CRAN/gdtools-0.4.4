@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/Rcpp-0.12.12 >=sci-CRAN/fontquiver-0.2.0 sci-CRAN/htmltools >=sci-CRAN/systemfonts-1.3.1 dev-lang/R:=
+DESCRIPTION=Utilities for Graphical Renderin... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_curl r_suggests_gfonts r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0.0 >=sci-CRAN/Rcpp-0.12.12 >=sci-CRAN/fontquiver-0.2.0 sci-CRAN/htmltools >=sci-CRAN/systemfonts-1.3.1 sci-CRAN/Rcpp media-libs/freetype x11-libs/cairo media-libs/fontconfig r_suggests_curl? ( sci-CRAN/curl ) r_suggests_gfonts? ( sci-CRAN/gfonts ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/gdtools_0.4.4.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e032c1291fa5a55b4a2be41946597284
