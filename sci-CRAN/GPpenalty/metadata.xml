@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Penalized Likelihood in Gaussian Processes // Implements maximum
+		likelihood estimation for Gaussian processes, supporting both
+		isotropic and separable models with predictive capabilities.
+		Includes penalized likelihood estimation following Li and
+		Sudjianto (2005, doi:10.1198/004017004000000671), using score-
+		based metrics that account for uncertainty (See Gneiting and
+		Raftery 2007, doi:10.1198/016214506000001437). Includes cross
+		validation techniques for tuning parameter selection. Designed
+		specifically for small datasets.
+	</longdescription>
+</pkgmetadata>

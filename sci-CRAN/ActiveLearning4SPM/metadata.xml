@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Active Learning for Process Monitoring // Implements the
+		methodology introduced in Capezza, Lepore, and Paynabar (2025)
+		doi:10.1080/00401706.2025.2561744 for process monitoring with
+		limited labeling resources. The package provides functions to
+		(i) simulate data streams with true latent states and
+		multivariate Gaussian observations as done in the paper, (ii)
+		fit partially hidden Markov models (pHMMs) using a constrained
+		Baum-Welch algorithm with partial labels, and (iii) perform
+		stream-based active learning that balances exploration and
+		exploitation to decide whether to request labels in real time.
+		The methodology is particularly suited for statistical process
+		monitoring in industrial applications where labeling is costly.
+	</longdescription>
+</pkgmetadata>

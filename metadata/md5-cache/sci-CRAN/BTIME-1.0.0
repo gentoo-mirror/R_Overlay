@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5 sci-CRAN/coda sci-CRAN/rjags sci-CRAN/VGAM sci-CRAN/runjags sci-CRAN/matlib dev-lang/R:=
+DESCRIPTION=Bayesian Hierarchical Models for... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.5 sci-CRAN/coda sci-CRAN/rjags sci-CRAN/VGAM sci-CRAN/runjags sci-CRAN/matlib r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BTIME_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4e2d09e57a7f42129f78bfb9c1b9a840

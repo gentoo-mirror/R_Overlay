@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/quantreg sci-CRAN/ellipse sci-CRAN/SyScSelection sci-CRAN/forcats sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/dplyr >=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/plotly sci-CRAN/magrittr sci-CRAN/sn sci-CRAN/nloptr sci-CRAN/tidyr virtual/MASS sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=Factor-Augmented Regression Scenarios
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr r_suggests_markdown r_suggests_openxlsx r_suggests_r_rsp r_suggests_readxl r_suggests_rmarkdown r_suggests_zoo byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/quantreg sci-CRAN/ellipse sci-CRAN/SyScSelection sci-CRAN/forcats sci-CRAN/ggplot2 sci-CRAN/stringr sci-CRAN/dplyr >=dev-lang/R-3.5.0 sci-CRAN/rlang sci-CRAN/plotly sci-CRAN/magrittr sci-CRAN/sn sci-CRAN/nloptr sci-CRAN/tidyr virtual/MASS sci-CRAN/reshape2 r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_openxlsx? ( sci-CRAN/openxlsx ) r_suggests_r_rsp? ( sci-CRAN/R_rsp ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_zoo? ( sci-CRAN/zoo ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FARS_0.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d76e3fbf94d0c6cdd119541f2e9dc153
