@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Revert Excel Serial Dates Back to Intended Day.Month Numerics //
+		Detects values imported from spreadsheets that were auto-
+		converted to Excel date serials and reconstructs the originally
+		intended day.month decimals (for example, '30.3' that Excel
+		displayed as '30/03/2025'). The functions work in a vectorized
+		manner, preserve non-serial values, and support both the 1900
+		and 1904 date systems.
+	</longdescription>
+</pkgmetadata>

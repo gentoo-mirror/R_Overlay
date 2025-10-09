@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/terra sci-CRAN/sf sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/ggplot2 >=dev-lang/R-4.2 sci-CRAN/geosphere sci-CRAN/BayesianTools sci-CRAN/skylight sci-CRAN/cli sci-CRAN/circular sci-CRAN/memoise sci-CRAN/plotly sci-CRAN/mapview sci-CRAN/patchwork dev-lang/R:=
+DESCRIPTION=A Sky Illuminance Location Tracker
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_covr r_suggests_knitr r_suggests_multidplyr r_suggests_rmarkdown r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=AGPL-3
+RDEPEND=sci-CRAN/terra sci-CRAN/sf sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/dplyr sci-CRAN/ggplot2 >=dev-lang/R-4.2 sci-CRAN/geosphere sci-CRAN/BayesianTools sci-CRAN/skylight sci-CRAN/cli sci-CRAN/circular sci-CRAN/memoise sci-CRAN/plotly sci-CRAN/mapview sci-CRAN/patchwork r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_multidplyr? ( sci-CRAN/multidplyr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/skytrackr_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bfe5b011f2a7a6b3d0d047f1b55ebde2

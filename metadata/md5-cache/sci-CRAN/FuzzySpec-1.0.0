@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/mclust sci-CRAN/mvtnorm sci-CRAN/Thresher sci-CRAN/fclust sci-CRAN/np sci-CRAN/ggplot2 sci-CRAN/viridisLite dev-lang/R:=
+DESCRIPTION=Fuzzy Spectral Clustering with V... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_devtools r_suggests_knitr r_suggests_mass r_suggests_patchwork r_suggests_rmarkdown r_suggests_spelling byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/mclust sci-CRAN/mvtnorm sci-CRAN/Thresher sci-CRAN/fclust sci-CRAN/np sci-CRAN/ggplot2 sci-CRAN/viridisLite r_suggests_devtools? ( sci-CRAN/devtools ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_mass? ( virtual/MASS ) r_suggests_patchwork? ( sci-CRAN/patchwork ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_spelling? ( sci-CRAN/spelling ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/FuzzySpec_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=240d985590b2bdfd256bcc88cd14045f

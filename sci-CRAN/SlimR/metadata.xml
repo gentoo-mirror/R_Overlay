@@ -2,23 +2,21 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Marker-Based Package for Single-Cell and Spatial-Transcriptomic
-		Annotation // Annotating single-cell and spatial-transcriptomic
-		(ST) data based on the Marker dataset. It supports the creation
-		of a unified marker list, Markers_list, using sources
-		including: the package's built-in curated species-specific cell
-		type and marker reference databases (e.g., 'Cellmarker2',
-		'PanglaoDB', 'scIBD', 'TCellSI'), Seurat objects containing
-		cell label information, or user-provided Excel tables mapping
-		cell types to markers. Based on the Markers_list, 'SlimR' can
+		Machine Learning-Assisted, Marker-Based Tool for Single-Cell and
+		Spatial Transcriptomics Annotation // Annotates single-cell and
+		spatial-transcriptomic (ST) data using marker datasets.
+		Supports unified markers list ('Markers_list') creation from
+		built-in databases (e.g., 'Cellmarker2', 'PanglaoDB', 'scIBD',
+		'TCellSI'), Seurat objects, or user-supplied Excel files. SlimR
+		can predict calculate parameters by machine learning algorithms
+		(e.g., 'Random Forest', 'Gradient Boosting', 'Support Vector
+		Machine', 'Ensemble Learning'), and based on Markers_list,
 		calculate gene expression of different cell types and predict
-		annotation information and calculate corresponding AUC by
-		'Celltype_Calculate()', and annotate it by
-		'Celltype_Annotation()', then verify it by
-		'Celltype_Verification()'. At the same time, it can calculate
-		gene expression corresponding to the cell type to generate the
-		corresponding annotation reference map for manual annotation
-		(e.g., 'Heatmap', 'Features plot', 'Combined plot'). For more
-		details see Kabacoff (2020, ISBN:9787115420572).
+		annotation information and calculate corresponding AUC and
+		annotate it, then verify it. At the same time, it can calculate
+		gene expression corresponding to the cell type to generate a
+		reference map for manual annotation (e.g., 'Heat Map', 'Feature
+		Plots', 'Combined Plots'). For more details see Kabacoff (2020,
+		ISBN:9787115420572).
 	</longdescription>
 </pkgmetadata>
