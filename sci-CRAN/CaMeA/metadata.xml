@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Causal Meta-Analysis for Aggregated Data // A tool for causal
+		meta-analysis. This package implements the aggregation formulas
+		and inference methods proposed in Berenfeld et al. (2025)
+		doi:10.48550/arXiv.2505.20168. Users can input aggregated data
+		across multiple studies and compute causally meaningful
+		aggregated effects of their choice (risk difference, risk
+		ratio, odds ratio, etc) under user-specified population
+		weighting. The built-in function camea() allows to obtain
+		precise variance estimates for these effects and to compare the
+		latter to a classical meta-analysis aggregate, the random
+		effect model, as implemented in the 'metafor' package
+		https://CRAN.R-project.org/package=metafor.
+	</longdescription>
+</pkgmetadata>

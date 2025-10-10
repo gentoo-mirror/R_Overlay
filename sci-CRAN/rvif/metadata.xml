@@ -5,11 +5,15 @@
 		Collinearity Detection using Redefined Variance Inflation Factor
 		and Graphical Methods // The detection of troubling approximate
 		collinearity in a multiple linear regression model is a
-		classical problem in Econometrics. The objective of this
-		package is to detect it using the variance inflation factor
-		redefined and the scatterplot between the variance inflation
-		factor and the coefficient of variation. For more details see
-		Salmern R., Garca C.B. and Garca J. (2018)
+		classical problem in Econometrics. This package is focused on
+		determining whether or not the degree of approximate
+		multicollinearity in a multiple linear regression model is of
+		concern, meaning that it affects the statistical analysis (i.e.
+		individual significance tests) of the model. This objective is
+		achieved by using the variance inflation factor redefined and
+		the scatterplot between the variance inflation factor and the
+		coefficient of variation. For more details see Salmern R.,
+		Garca C.B. and Garca J. (2018)
 		doi:10.1080/00949655.2018.1463376, Salmern, R., Rodrguez, A.
 		and Garca C. (2020) doi:10.1007/s00180-019-00922-x, Salmern,
 		R., Garca, C.B, Rodrguez, A. and Garca, C. (2022)
@@ -18,8 +22,9 @@
 		Garca, C.B, Garca J. (2023, working paper)
 		doi:10.48550/arXiv.2005.02245. You can also view the package
 		vignette using 'browseVignettes("rvif")', the package website
-		using 'browseURL(system.file("docs/index.html", package =
-		"rvif"))' or version control on GitHub
+		(https://www.ugr.es/local/romansg/rvif/index.html) using
+		'browseURL(system.file("docs/index.html", package = "rvif"))'
+		or version control on GitHub
 		(https://github.com/rnoremlas/rvif_package).
 	</longdescription>
 </pkgmetadata>

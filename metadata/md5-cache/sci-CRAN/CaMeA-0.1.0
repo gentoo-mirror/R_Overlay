@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/metafor sci-CRAN/dplyr dev-lang/R:=
+DESCRIPTION=Causal Meta-Analysis for Aggregated Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kableextra r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/purrr sci-CRAN/tibble sci-CRAN/metafor sci-CRAN/dplyr r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/CaMeA_0.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2623152f8a8b40173e66fb20eb40dad2

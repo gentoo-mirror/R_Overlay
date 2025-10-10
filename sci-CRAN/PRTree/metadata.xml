@@ -2,15 +2,18 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Probabilistic Regression Trees // Probabilistic Regression Trees
-		(PRTree). Functions for fitting and predicting PRTree models
-		with some adaptations to handle missing values. The main
-		calculations are performed in 'FORTRAN', resulting in highly
-		efficient algorithms. This package's implementation is based on
-		the PRTree methodology described in Alkhoury, S.; Devijver, E.;
-		Clausel, M.; Tami, M.; Gaussier, E.; Oppenheim, G. (2020) -
-		"Smooth And Consistent Probabilistic Regression Trees" https://
-		proceedings.neurips.cc/paper_files/paper/2020/file/8289889263db
-		4a40463e3f358bb7c7a1-Paper.pdf.
+		Probabilistic Regression Trees // Implementation of Probabilistic
+		Regression Trees (PRTree), providing functions for model
+		fitting and prediction, with specific adaptations to handle
+		missing values. The main computations are implemented in
+		'Fortran' for high efficiency. The package is based on the
+		PRTree methodology described in Alkhoury et al. (2020), "Smooth
+		and Consistent Probabilistic Regression Trees" https://proceedi
+		ngs.neurips.cc/paper_files/paper/2020/file/8289889263db4a40463e
+		3f358bb7c7a1-Paper.pdf. Details on the treatment of missing
+		data and implementation aspects are presented in Prass, T.S.;
+		Neimaier, A.S.; Pumi, G. (2025), "Handling Missing Data in
+		Probabilistic Regression Trees: Methods and Implementation in
+		R" doi:10.48550/arXiv.2510.03634.
 	</longdescription>
 </pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2.0 sci-CRAN/car sci-CRAN/xtable sci-CRAN/rgl virtual/MASS sci-CRAN/dplyr sci-CRAN/knitr sci-CRAN/rmarkdown sci-CRAN/rstudioapi dev-lang/R:=
+DESCRIPTION=Matrix Functions for Teaching an... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_cardata r_suggests_clipr r_suggests_markdown r_suggests_webshot2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.2.0 sci-CRAN/car sci-CRAN/xtable sci-CRAN/rgl virtual/MASS sci-CRAN/dplyr sci-CRAN/knitr sci-CRAN/rmarkdown sci-CRAN/rstudioapi r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_cardata? ( sci-CRAN/carData ) r_suggests_clipr? ( sci-CRAN/clipr ) r_suggests_markdown? ( sci-CRAN/markdown ) r_suggests_webshot2? ( sci-CRAN/webshot2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/matlib_1.0.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=dd08ddab8cd1b8b13f66a49769ed3210

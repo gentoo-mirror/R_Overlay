@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/audio sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/DBI sci-CRAN/dbplyr sci-CRAN/duckdb sci-CRAN/httr2 sci-CRAN/labelled sci-CRAN/readr sci-CRAN/rlang dev-lang/R:=
+DESCRIPTION=Transfer REDCap Data to Database
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_arrow r_suggests_keyring r_suggests_pak r_suggests_rsqlite r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/audio sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/DBI sci-CRAN/dbplyr sci-CRAN/duckdb sci-CRAN/httr2 sci-CRAN/labelled sci-CRAN/readr sci-CRAN/rlang r_suggests_arrow? ( sci-CRAN/arrow ) r_suggests_keyring? ( sci-CRAN/keyring ) r_suggests_pak? ( sci-CRAN/pak ) r_suggests_rsqlite? ( sci-CRAN/RSQLite ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/redquack_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=12c7517651b1a5382113421519c33081

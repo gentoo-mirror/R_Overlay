@@ -3,11 +3,10 @@
 <pkgmetadata>
 	<longdescription>
 		Transfer 'REDCap' Data to Database // Transfer 'REDCap' (Research
-		Electronic Data Capture) data to a database with additional
-		support for 'DuckDB'. Processes data in chunks to handle large
-		datasets without exceeding available memory. Features include
-		resuming incomplete transfers, automatically converting data
-		types for 'DuckDB', tracking progress, and logging operations
-		in the database.
+		Electronic Data Capture) data to a database, specifically
+		optimized for 'DuckDB'. Processes data in chunks to handle
+		large datasets without exceeding available memory. Features
+		include data labeling, coded value conversion, and hearing a
+		"quack" sound on success.
 	</longdescription>
 </pkgmetadata>

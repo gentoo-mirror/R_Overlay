@@ -2,12 +2,16 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Diagnostic Index Expectation Maximisation in R // Likelihood-
-		based genome polarisation finds which alleles of genomic
-		markers belong to which side of the barrier. Co-estimates which
-		individuals belong to either side of the barrier and barrier
-		strength. Uses expectation maximisation in likelihood
-		framework. The method is described in Baird et al. (2023)
-		doi:10.1111/2041-210X.14010.
+		Genome Polarization via Diagnostic Index Expectation Maximization
+		// Implements a likelihood-based method for genome
+		polarization, identifying which alleles of SNV markers belong
+		to either side of a barrier to gene flow. The approach co-
+		estimates individual assignment, barrier strength, and
+		divergence between sides, with direct application to studies of
+		hybridization. Includes VCF-to-diem conversion and input
+		checks, support for mixed ploidy and parallelization, and tools
+		for visualization and diagnostic outputs. Based on diagnostic
+		index expectation maximization as described in Baird et al.
+		(2023) doi:10.1111/2041-210X.14010.
 	</longdescription>
 </pkgmetadata>

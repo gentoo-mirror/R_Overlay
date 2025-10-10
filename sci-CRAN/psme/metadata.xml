@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Penalized Splines Mixed-Effects Models // Fit penalized splines
+		mixed-effects models (a special case of additive models) for
+		large longitudinal datasets. The package includes a psme()
+		function that (1) relies on package 'mgcv' for constructing
+		population and subject smooth functions as penalized splines,
+		(2) transforms the constructed additive model to a linear
+		mixed-effects model, (3) exploits package 'lme4' for model
+		estimation and (4) backtransforms the estimated linear mixed-
+		effects model to the additive model for interpretation and
+		visualization. See Pedersen et al. (2019)
+		doi:10.7717/peerj.6876 and Bates et al. (2015)
+		doi:10.18637/jss.v067.i01 for an introduction. Unlike the
+		gamm() function in 'mgcv', the psme() function is fast and
+		memory-efficient, able to handle datasets with millions of
+		observations.
+	</longdescription>
+</pkgmetadata>

@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/survminer sci-CRAN/data_table sci-CRAN/flexsurv sci-CRAN/flexsurvcure >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/muhaz sci-CRAN/rmarkdown sci-CRAN/rms sci-CRAN/sft virtual/survival dev-lang/R:=
+DESCRIPTION=Parametric Survival Model Select... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_kableextra r_suggests_knitr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/survminer sci-CRAN/data_table sci-CRAN/flexsurv sci-CRAN/flexsurvcure >=dev-lang/R-4.1.0 sci-CRAN/ggplot2 sci-CRAN/muhaz sci-CRAN/rmarkdown sci-CRAN/rms sci-CRAN/sft virtual/survival r_suggests_kableextra? ( sci-CRAN/kableExtra ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.1.2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PERSUADE_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c45d2c1351b74b7bf895fa531d3ed4d4

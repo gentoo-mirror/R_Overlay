@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generates Mixture Graphs from Dense and Sparse Graphons //
+		Generates (U,W) mixture graphs where U is a line graph graphon
+		and W is a dense graphon. Graphons are graph limits and graphon
+		U can be written as sequence of positive numbers adding to 1.
+		Graphs are sampled from U and W and joined randomly to obtain
+		the mixture graph. Given a mixture graph, U can be inferred.
+		Kandanaarachchi and Ong (2025) doi:10.48550/arXiv.2505.13864.
+	</longdescription>
+</pkgmetadata>
