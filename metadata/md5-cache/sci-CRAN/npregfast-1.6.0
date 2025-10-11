@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/ggplot2 >=dev-lang/R-3.2.0 sci-CRAN/shiny sci-CRAN/doParallel sci-CRAN/foreach virtual/mgcv sci-CRAN/sfsmisc sci-CRAN/shinyjs sci-CRAN/wesanderson dev-lang/R:=
+DESCRIPTION=Nonparametric Estimation of Regr... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/ggplot2 >=dev-lang/R-3.2.0 sci-CRAN/shiny sci-CRAN/doParallel sci-CRAN/foreach virtual/mgcv sci-CRAN/sfsmisc sci-CRAN/shinyjs sci-CRAN/wesanderson dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/npregfast_1.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=72636b13c8c5e5f5a0365dd8716582f6
