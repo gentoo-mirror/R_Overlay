@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/tree sci-CRAN/randomForest sci-CRAN/C50 sci-CRAN/doParallel sci-CRAN/e1071 sci-CRAN/gt sci-CRAN/purrr sci-CRAN/reactablefmtr sci-CRAN/scales sci-CRAN/tidyr sci-CRAN/corrplot sci-CRAN/caret sci-CRAN/dplyr sci-CRAN/ipred sci-CRAN/reactable sci-CRAN/car sci-CRAN/ggplot2 sci-CRAN/ranger sci-CRAN/magrittr sci-CRAN/pls dev-lang/R:=
+DESCRIPTION=Automatically Builds 12 Classification Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/tree sci-CRAN/randomForest sci-CRAN/C50 sci-CRAN/doParallel sci-CRAN/e1071 sci-CRAN/gt sci-CRAN/purrr sci-CRAN/reactablefmtr sci-CRAN/scales sci-CRAN/tidyr sci-CRAN/corrplot sci-CRAN/caret sci-CRAN/dplyr sci-CRAN/ipred sci-CRAN/reactable sci-CRAN/car sci-CRAN/ggplot2 sci-CRAN/ranger sci-CRAN/magrittr sci-CRAN/pls r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/ClassificationEnsembles_0.7.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=16560d00ea2a4a67c9921b07d5224f72
