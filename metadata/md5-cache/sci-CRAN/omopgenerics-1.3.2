@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/lifecycle sci-CRAN/rlang sci-CRAN/tidyr >=dev-lang/R-4.1 sci-CRAN/vctrs sci-CRAN/snakecase sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/generics >=sci-CRAN/dbplyr-2.5.1 sci-CRAN/glue sci-CRAN/purrr sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Methods and Classes for the OMOP Common Data Model
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bit64 r_suggests_cdmconnector r_suggests_covr r_suggests_duckdb r_suggests_gt r_suggests_here r_suggests_jsonlite r_suggests_knitr r_suggests_omock r_suggests_readr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=sci-CRAN/lifecycle sci-CRAN/rlang sci-CRAN/tidyr >=dev-lang/R-4.1 sci-CRAN/vctrs sci-CRAN/snakecase sci-CRAN/stringr sci-CRAN/dplyr sci-CRAN/cli sci-CRAN/generics >=sci-CRAN/dbplyr-2.5.1 sci-CRAN/glue sci-CRAN/purrr sci-CRAN/stringi r_suggests_bit64? ( sci-CRAN/bit64 ) r_suggests_cdmconnector? ( sci-CRAN/CDMConnector ) r_suggests_covr? ( sci-CRAN/covr ) r_suggests_duckdb? ( sci-CRAN/duckdb ) r_suggests_gt? ( sci-CRAN/gt ) r_suggests_here? ( sci-CRAN/here ) r_suggests_jsonlite? ( sci-CRAN/jsonlite ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_omock? ( sci-CRAN/omock ) r_suggests_readr? ( sci-CRAN/readr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/omopgenerics_1.3.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=6327d1058fc1f8e0b0d91b3ad807a526
