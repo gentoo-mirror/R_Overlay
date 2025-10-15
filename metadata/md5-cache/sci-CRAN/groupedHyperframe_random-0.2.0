@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.5 sci-CRAN/spatstat_geom >=sci-CRAN/groupedHyperframe-0.3.0 virtual/MASS sci-CRAN/cli sci-CRAN/spatstat_random dev-lang/R:=
+DESCRIPTION=Simulated Grouped Hyper Data Frame
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_magrittr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=>=dev-lang/R-4.5 sci-CRAN/spatstat_geom >=sci-CRAN/groupedHyperframe-0.3.0 virtual/MASS sci-CRAN/cli sci-CRAN/spatstat_random r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_magrittr? ( sci-CRAN/magrittr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/groupedHyperframe.random_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=68bef3b89469caea077cfd8a274e06a5

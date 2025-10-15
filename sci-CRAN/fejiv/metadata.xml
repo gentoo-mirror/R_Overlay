@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Fixed Effect Jackknife Instrumental Variables Estimation //
+		Implements the Fixed Effect Jackknife Instrumental Variables
+		('FEJIV') estimator of Chao, Swanson, and Woutersen (2023)
+		doi:10.1016/j.jeconom.2022.12.011, allowing consistent IV
+		estimation with many (possibly weak) instruments, cluster fixed
+		effects, heteroskedastic errors, and many exogenous covariates.
+		The estimator is recommended by Soczyski (2024)
+		doi:10.48550/arXiv.2011.06695 as an alternative to two-stage
+		least squares when estimating the interacted specification of
+		Angrist and Imbens (1995) doi:10.1080/01621459.1995.10476535.
+	</longdescription>
+</pkgmetadata>

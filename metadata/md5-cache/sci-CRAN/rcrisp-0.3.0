@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/sf-0.9.0 sci-CRAN/stringr >=dev-lang/R-4.1.0 sci-CRAN/dbscan sci-CRAN/checkmate sci-CRAN/visor sci-CRAN/dplyr sci-CRAN/lwgeom sci-CRAN/osmdata sci-CRAN/rcoins sci-CRAN/rlang sci-CRAN/sfnetworks sci-CRAN/rstac sci-CRAN/terra sci-CRAN/units sci-CRAN/tidygraph dev-lang/R:=
+DESCRIPTION=Automate the Delineation of Urban River Spaces
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_purrr r_suggests_rmarkdown r_suggests_testthat r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+RDEPEND=>=sci-CRAN/sf-0.9.0 sci-CRAN/stringr >=dev-lang/R-4.1.0 sci-CRAN/dbscan sci-CRAN/checkmate sci-CRAN/visor sci-CRAN/dplyr sci-CRAN/lwgeom sci-CRAN/osmdata sci-CRAN/rcoins sci-CRAN/rlang sci-CRAN/sfnetworks sci-CRAN/rstac sci-CRAN/terra sci-CRAN/units sci-CRAN/tidygraph r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_purrr? ( sci-CRAN/purrr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rcrisp_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4c50bfcf7cfa1170c294b65d2b2acc2c

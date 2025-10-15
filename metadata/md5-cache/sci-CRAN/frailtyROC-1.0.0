@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.2 virtual/survival sci-CRAN/frailtypack sci-CRAN/xpectr dev-lang/R:=
+DESCRIPTION=Time-Dependent ROC Curve Estimat... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-4.2 virtual/survival sci-CRAN/frailtypack sci-CRAN/xpectr dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/frailtyROC_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=fa8dc0e926ff04baa30496c03c8e8b1a
