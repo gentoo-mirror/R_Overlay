@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mipfp sci-CRAN/yaml sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/zoo sci-CRAN/withr sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/readr >=dev-lang/R-4.2.0 sci-CRAN/dplyr sci-CRAN/FAOSTAT sci-CRAN/cli sci-CRAN/fs sci-CRAN/nanoparquet sci-CRAN/pins sci-CRAN/httr dev-lang/R:=
+DESCRIPTION=Processing Agro-Environmental Data
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggplot2 r_suggests_googlesheets4 r_suggests_here r_suggests_knitr r_suggests_pointblank r_suggests_rmarkdown r_suggests_testthat r_suggests_tibble byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/mipfp sci-CRAN/yaml sci-CRAN/rlang sci-CRAN/purrr sci-CRAN/zoo sci-CRAN/withr sci-CRAN/tidyr sci-CRAN/stringr sci-CRAN/readr >=dev-lang/R-4.2.0 sci-CRAN/dplyr sci-CRAN/FAOSTAT sci-CRAN/cli sci-CRAN/fs sci-CRAN/nanoparquet sci-CRAN/pins sci-CRAN/httr r_suggests_ggplot2? ( sci-CRAN/ggplot2 ) r_suggests_googlesheets4? ( sci-CRAN/googlesheets4 ) r_suggests_here? ( sci-CRAN/here ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_pointblank? ( sci-CRAN/pointblank ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/whep_0.2.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=938b705e64f14de3e064686d92abfa91

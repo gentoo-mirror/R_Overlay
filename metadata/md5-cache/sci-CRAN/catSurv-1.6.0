@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/ltm-1.1.1 >=dev-lang/R-3.4 sci-CRAN/jsonlite >=sci-CRAN/Rcpp-1.0.1 sci-CRAN/plyr sci-CRAN/RcppParallel dev-lang/R:=
+DESCRIPTION=Computerized Adaptive Testing for Survey Research
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_catirt r_suggests_catr r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/ltm-1.1.1 >=dev-lang/R-3.4 sci-CRAN/jsonlite >=sci-CRAN/Rcpp-1.0.1 sci-CRAN/plyr sci-CRAN/RcppParallel >=sci-CRAN/BH-1.69.0.1 sci-CRAN/RcppArmadillo >=sci-CRAN/Rcpp-1.0.1 >=sci-CRAN/RcppGSL-0.3.6 sci-CRAN/RcppParallel r_suggests_catirt? ( >=sci-CRAN/catIrt-0.5.0 ) r_suggests_catr? ( >=sci-CRAN/catR-3.16 ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.0.1 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/catSurv_1.6.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=bbad835a3b8350d09ca0ae7f069d2859

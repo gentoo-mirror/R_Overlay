@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Optimisation of the Analysis of AND-OR Decision Trees // A
+		decision support tool to strategically prioritise evidence
+		gathering in complex, hierarchical AND-OR decision trees. It is
+		designed for situations with incomplete or uncertain
+		information where the goal is to reach a confident conclusion
+		as efficiently as possible (responding to the minimum number of
+		questions, and only spending resources on generating improved
+		evidence when it is of significant value to the final
+		decision). The framework excels in complex analyses with
+		multiple potential successful pathways to a conclusion ('OR'
+		nodes). Key features include a dynamic influence index to guide
+		users to the most impactful question, a system for propagating
+		answers and semi-quantitative confidence scores (0-5) up the
+		tree, and post-conclusion guidance to identify the best actions
+		to increase the final confidence. These components are brought
+		together in an interactive command-line workflow that guides
+		the analysis from start to finish.
+	</longdescription>
+</pkgmetadata>

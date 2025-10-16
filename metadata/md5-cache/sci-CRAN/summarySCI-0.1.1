@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.1.0 sci-CRAN/cardx >=sci-CRAN/gtsummary-2.3.0 sci-CRAN/Hmisc sci-CRAN/dplyr sci-CRAN/forcats sci-CRAN/labelled sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/officer sci-CRAN/flextable dev-lang/R:=
+DESCRIPTION=Produces Publication-Ready Summary Tables
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_survival r_suggests_tidyverse byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=dev-lang/R-4.1.0 sci-CRAN/cardx >=sci-CRAN/gtsummary-2.3.0 sci-CRAN/Hmisc sci-CRAN/dplyr sci-CRAN/forcats sci-CRAN/labelled sci-CRAN/purrr sci-CRAN/rlang sci-CRAN/tidyr sci-CRAN/officer sci-CRAN/flextable r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_survival? ( virtual/survival ) r_suggests_tidyverse? ( sci-CRAN/tidyverse ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/summarySCI_0.1.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=54252a1a417ec630ad2c9f1094a5e26c

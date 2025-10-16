@@ -2,18 +2,15 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription>
-		Simultaneous Confidence Interval for Multinomial Proportion //
-		Methods for obtaining simultaneous confidence interval for
-		multinomial proportion have been proposed by many authors and
-		the present study include a variety of widely applicable
-		procedures. Seven classical methods (Wilson, Quesenberry and
-		Hurst, Goodman, Wald with and without continuity correction,
-		Fitzpatrick and Scott, Sison and Glaz) and Bayesian Dirichlet
-		models are included in the package. The advantage of MCMC pack
-		has been exploited to derive the Dirichlet posterior directly
-		and this also helps in handling the Dirichlet prior parameters.
-		This package is prepared to have equal and unequal values for
-		the Dirichlet prior distribution that will provide better scope
-		for data analysis and associated sensitivity analysis.
+		Simultaneous Confidence Intervals for Multinomial Proportions //
+		Several authors have proposed methods for constructing
+		simultaneous confidence intervals for multinomial proportions.
+		The package implements seven classical approachesWilson,
+		Quesenberry and Hurst, Goodman, Wald (with and without
+		continuity correction), Fitzpatrick and Scott, and Sison and
+		Glazalong with Bayesian methods based on Dirichlet models. Both
+		equal and unequal Dirichlet priors are supported, providing a
+		broad framework for inference, data analysis, and sensitivity
+		evaluation.
 	</longdescription>
 </pkgmetadata>

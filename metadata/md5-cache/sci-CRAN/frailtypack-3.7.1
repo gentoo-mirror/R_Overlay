@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/shiny virtual/boot sci-CRAN/doBy >=dev-lang/R-3.5.0 sci-CRAN/survC1 virtual/MASS virtual/survival virtual/Matrix virtual/nlme sci-CRAN/rootSolve sci-CRAN/statmod dev-lang/R:=
+DESCRIPTION=Shared, Joint (Generalized) Frai... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_timereg byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/shiny virtual/boot sci-CRAN/doBy >=dev-lang/R-3.5.0 sci-CRAN/survC1 virtual/MASS virtual/survival virtual/Matrix virtual/nlme sci-CRAN/rootSolve sci-CRAN/statmod r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_timereg? ( sci-CRAN/timereg ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/frailtypack_3.7.1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=431e6f3174633378c3a0407e24e44462

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		R Client for the 'ChEA3' Transcription Factor Enrichment API //
+		Interface to the 'ChEA3' transcription factor enrichment API.
+		'ChEA3' integrates evidence from ChIP-seq, co-expression, and
+		literature resources to prioritize transcription factors
+		regulating a given set of genes. This package provides
+		convenient R functions to query the API, retrieve ranked
+		results across collections (including integrated scores), and
+		standardize output for downstream analysis in R/Bioconductor
+		workflows. See https://maayanlab.cloud/chea3/ or Keenan (2019)
+		doi:10.1093/nar/gkz446 for further details.
+	</longdescription>
+</pkgmetadata>

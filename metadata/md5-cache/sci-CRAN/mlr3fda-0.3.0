@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/mlr3-0.14.0 >=sci-CRAN/mlr3pipelines-0.5.2 >=dev-lang/R-4.1.0 sci-CRAN/checkmate sci-CRAN/data_table sci-CRAN/lgr >=sci-CRAN/mlr3misc-0.14.0 sci-CRAN/paradox sci-CRAN/R6 >=sci-CRAN/tf-0.3.4 dev-lang/R:=
+DESCRIPTION=Extending mlr3 to Functional Data Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_fdboost r_suggests_lme4 r_suggests_mboost r_suggests_rpart r_suggests_testthat r_suggests_tsfeatures r_suggests_wavelets r_suggests_withr byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=LGPL-3
+RDEPEND=>=sci-CRAN/mlr3-0.14.0 >=sci-CRAN/mlr3pipelines-0.5.2 >=dev-lang/R-4.1.0 sci-CRAN/checkmate sci-CRAN/data_table sci-CRAN/lgr >=sci-CRAN/mlr3misc-0.14.0 sci-CRAN/paradox sci-CRAN/R6 >=sci-CRAN/tf-0.3.4 r_suggests_fdboost? ( sci-CRAN/FDboost ) r_suggests_lme4? ( sci-CRAN/lme4 ) r_suggests_mboost? ( sci-CRAN/mboost ) r_suggests_rpart? ( virtual/rpart ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.2.0 ) r_suggests_tsfeatures? ( sci-CRAN/tsfeatures ) r_suggests_wavelets? ( sci-CRAN/wavelets ) r_suggests_withr? ( sci-CRAN/withr ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mlr3fda_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=df6b9a74f7a4a5bbdd88c529c0deee6b

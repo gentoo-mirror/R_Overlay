@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Running Local LLMs with 'llama.cpp' Backend // The 'localLLM'
+		package provides R bindings to the 'llama.cpp' library for
+		running large language models. The package uses a lightweight
+		architecture where the C++ backend library is downloaded at
+		runtime rather than bundled with the package. Package features
+		include text generation, reproducible generation, and parallel
+		inference.
+	</longdescription>
+</pkgmetadata>

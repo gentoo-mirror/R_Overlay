@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/pbapply virtual/MASS sci-CRAN/scales >=sci-CRAN/svars-1.3.4 >=dev-lang/R-3.5.0 sci-CRAN/steadyICA sci-CRAN/vars sci-CRAN/copula sci-CRAN/clue sci-CRAN/DEoptim sci-CRAN/expm sci-CRAN/ggplot2 sci-CRAN/reshape2 dev-lang/R:=
+DESCRIPTION=VAR Modeling for Heterogeneous Panels
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_ggfortify r_suggests_ggpubr r_suggests_knitr r_suggests_plm r_suggests_rcolorbrewer r_suggests_testthat r_suggests_tikzdevice r_suggests_urca byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/pbapply virtual/MASS sci-CRAN/scales >=sci-CRAN/svars-1.3.4 >=dev-lang/R-3.5.0 sci-CRAN/steadyICA sci-CRAN/vars sci-CRAN/copula sci-CRAN/clue sci-CRAN/DEoptim sci-CRAN/expm sci-CRAN/ggplot2 sci-CRAN/reshape2 r_suggests_ggfortify? ( sci-CRAN/ggfortify ) r_suggests_ggpubr? ( sci-CRAN/ggpubr ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_plm? ( sci-CRAN/plm ) r_suggests_rcolorbrewer? ( sci-CRAN/RColorBrewer ) r_suggests_testthat? ( >=sci-CRAN/testthat-2.1.0 ) r_suggests_tikzdevice? ( sci-CRAN/tikzDevice ) r_suggests_urca? ( sci-CRAN/urca ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/pvars_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=d5b6441e8186f6f510bc87d9d9f93e4c
