@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Generate Plots for All Variables in Descriptive Tables //
+		Visualizes variables from descriptive tables produced by
+		'descsuppR::buildDescrTbl()' using 'ggstatsplot'. It
+		automatically maps each variable to a suitable 'ggstatsplot'
+		plotting function based on the applied or suggested statistical
+		test. Users can override the automatic mapping via a named list
+		of plot specifications. The package supports grouped and
+		ungrouped tables, and forwards additional arguments to the
+		underlying 'ggstatsplot' functions, providing quick,
+		reproducible, and customizable default visualizations for
+		descriptive summaries.
+	</longdescription>
+</pkgmetadata>

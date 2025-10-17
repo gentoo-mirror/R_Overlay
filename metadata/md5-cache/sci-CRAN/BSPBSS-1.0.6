@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/svd sci-CRAN/neurobase sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/ica sci-CRAN/oro_nifti >=dev-lang/R-3.4.0 sci-CRAN/rstiefel sci-CRAN/movMF sci-CRAN/glmnet sci-CRAN/gplots sci-CRAN/BayesGPfit sci-CRAN/gtools dev-lang/R:=
+DESCRIPTION=Bayesian Spatial Blind Source Separation
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/svd sci-CRAN/neurobase sci-CRAN/ggplot2 sci-CRAN/Rcpp sci-CRAN/ica sci-CRAN/oro_nifti >=dev-lang/R-3.4.0 sci-CRAN/rstiefel sci-CRAN/movMF sci-CRAN/glmnet sci-CRAN/gplots sci-CRAN/BayesGPfit sci-CRAN/gtools sci-CRAN/Rcpp sci-CRAN/RcppArmadillo r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/BSPBSS_1.0.6.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=4e54c1ee56513ef4502b220fc6542b98

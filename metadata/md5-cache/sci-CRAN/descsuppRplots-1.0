@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=sci-CRAN/descsuppR-1.1 sci-CRAN/tibble sci-CRAN/descutils sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/ggplot2 >=sci-CRAN/ggstatsplot-0.12.0 sci-CRAN/ggsignif sci-CRAN/zoo dev-lang/R:=
+DESCRIPTION=Generate Plots for All Variables... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=sci-CRAN/descsuppR-1.1 sci-CRAN/tibble sci-CRAN/descutils sci-CRAN/dplyr sci-CRAN/rlang sci-CRAN/ggplot2 >=sci-CRAN/ggstatsplot-0.12.0 sci-CRAN/ggsignif sci-CRAN/zoo dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/descsuppRplots_1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=205ed0f141c97e19cbcc7281f7eb21af
