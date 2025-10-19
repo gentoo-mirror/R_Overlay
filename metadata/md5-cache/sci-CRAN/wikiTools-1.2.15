@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.5.0 sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/collections sci-CRAN/curl sci-CRAN/netCoin dev-lang/R:=
+DESCRIPTION=Tools for Wikidata and Wikipedia
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-3.5.0 sci-CRAN/httr sci-CRAN/jsonlite sci-CRAN/collections sci-CRAN/curl sci-CRAN/netCoin r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/wikiTools_1.2.15.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2f17dbdedac9fbba07cf0eb3b2fb7276
