@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/data_table sci-CRAN/MBA >=dev-lang/R-3.5.0 sci-CRAN/e1071 sci-CRAN/gbm virtual/nnet sci-CRAN/randomForest virtual/MASS sci-CRAN/magrittr >=sci-CRAN/FactoMineR-2.3 >=sci-CRAN/ggplot2-3.3.0 sci-CRAN/dplyr sci-CRAN/mltools sci-CRAN/pROC sci-CRAN/ggrepel dev-lang/R:=
+DESCRIPTION=Visualization 2D of Binary Classification Models
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_egg r_suggests_knitr r_suggests_markdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/data_table sci-CRAN/MBA >=dev-lang/R-3.5.0 sci-CRAN/e1071 sci-CRAN/gbm virtual/nnet sci-CRAN/randomForest virtual/MASS sci-CRAN/magrittr >=sci-CRAN/FactoMineR-2.3 >=sci-CRAN/ggplot2-3.3.0 sci-CRAN/dplyr sci-CRAN/mltools sci-CRAN/pROC sci-CRAN/ggrepel r_suggests_egg? ( sci-CRAN/egg ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_markdown? ( sci-CRAN/markdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/visualpred_0.1.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b48e013ba9649b58b28c5712747012bd
