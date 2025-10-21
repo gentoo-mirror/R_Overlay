@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/DT sci-CRAN/tibble >=dev-lang/R-4.1.0 sci-CRAN/psych sci-CRAN/shinydashboard sci-CRAN/dplyr sci-CRAN/shiny sci-CRAN/plotly sci-CRAN/readxl sci-CRAN/forecast sci-CRAN/corrplot sci-CRAN/zoo sci-CRAN/ggplot2 sci-CRAN/missForest sci-CRAN/networkD3 sci-CRAN/tidyr dev-lang/R:=
+DESCRIPTION=Composite Index Builder & Analytics shiny App
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=sci-CRAN/DT sci-CRAN/tibble >=dev-lang/R-4.1.0 sci-CRAN/psych sci-CRAN/shinydashboard sci-CRAN/dplyr sci-CRAN/shiny sci-CRAN/plotly sci-CRAN/readxl sci-CRAN/forecast sci-CRAN/corrplot sci-CRAN/zoo sci-CRAN/ggplot2 sci-CRAN/missForest sci-CRAN/networkD3 sci-CRAN/tidyr r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/compIndexBuilder_1.0.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c325d16f566046aaac62d125e38ffdec

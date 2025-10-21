@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Treatment Effect Estimation for Time-to-Event Data with
+		Intercurrent Events // Analyzing treatment effects in clinical
+		trials with time-to-event outcomes is complicated by
+		intercurrent events. This package implements methods for
+		estimating and inferring the cumulative incidence functions for
+		time-to-event (TTE) outcomes with intercurrent events (ICEs)
+		under the five strategies outlined in the ICH E9 (R1) addendum,
+		see Deng (2025)doi:10.1002/sim.70091. This package can be used
+		for analyzing data from both randomized controlled trials and
+		observational studies. In general, we have a primary outcome
+		event and possibly an intercurrent event. Two data structures
+		are allowed: competing risks, where only the time to the first
+		event is recorded, and semicompeting risks, where the times to
+		both the primary outcome event and intercurrent event (or
+		censoring) are recorded. For estimation methods, users can
+		choose nonparametric estimation (which does not use covariates)
+		and semiparametrically efficient estimation.
+	</longdescription>
+</pkgmetadata>

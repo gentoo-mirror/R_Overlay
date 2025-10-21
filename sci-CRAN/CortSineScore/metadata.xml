@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Compute Cortisol Sine Score (CSS) for Diurnal Cortisol Analysis
+		// Computes a single scalar metric for diurnal cortisol cycle
+		analysis, the Cortisol Sine Score (CSS). The score is
+		calculated as the sum over time points of concentration
+		multiplied by sin(2 * pi * time / 24), giving positive weights
+		to morning time points and negative weights to evening ones.
+		The method is model-free, robust, and suitable for regression,
+		classification, clustering, and biomarker research.
+	</longdescription>
+</pkgmetadata>

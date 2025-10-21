@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-2.14.0 sci-CRAN/raster sci-CRAN/reshape2 sci-CRAN/ggplot2 sci-CRAN/sf sci-CRAN/plyr virtual/cluster sci-CRAN/Rcpp dev-lang/R:=
+DESCRIPTION=Conditioned Latin Hypercube Sampling
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown r_suggests_sp r_suggests_terra r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=>=dev-lang/R-2.14.0 sci-CRAN/raster sci-CRAN/reshape2 sci-CRAN/ggplot2 sci-CRAN/sf sci-CRAN/plyr virtual/cluster sci-CRAN/Rcpp sci-CRAN/RcppArmadillo sci-CRAN/Rcpp r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_sp? ( sci-CRAN/sp ) r_suggests_terra? ( sci-CRAN/terra ) r_suggests_testthat? ( sci-CRAN/testthat ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/clhs_0.9.2.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=c5aa8d65a025161d9306897f36ad0ca3

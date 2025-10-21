@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Simultaneous Prediction and Confidence Bands for Time Series Data
+		// Provides methods to compute simultaneous prediction and
+		confidence bands for dense time series data. The implementation
+		builds on the functional bootstrap approach proposed by Lenhoff
+		et al. (1999) doi:10.1016/S0966-6362(98)00043-5 and extended by
+		Koska et al. (2023) doi:10.1016/j.jbiomech.2023.111506 to
+		support both independent and clustered (hierarchical) data.
+		Includes a simple API (see band()) and an 'Rcpp' backend for
+		performance.
+	</longdescription>
+</pkgmetadata>
