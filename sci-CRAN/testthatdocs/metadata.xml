@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Automated and Idempotent Unit Tests Documentation for
+		Reproducible Quality Assurance // Automates documentation of
+		test_that() calls within R test files. The package scans test
+		sources, extracts human-readable test titles (even when
+		composed with functions like paste() or glue::glue(), ...
+		etc.), and generates reproducible roxygen2-style listings that
+		can be inserted both globally and per-section. It ensures
+		idempotent updates and supports customizable numbering
+		templates with hierarchical indices. Designed for developers,
+		QA teams, and package maintainers seeking consistent, self-
+		documenting test inventories.
+	</longdescription>
+</pkgmetadata>

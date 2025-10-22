@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Compositional Statistical Framework for RNA Fractionation
+		Analysis // A compositional statistical framework for absolute
+		proportion estimation between fractions in RNA sequencing data.
+		'FracFixR' addresses the fundamental challenge in fractionated
+		RNA-seq experiments where library preparation and sequencing
+		depth obscure the original proportions of RNA fractions. It
+		reconstructs original fraction proportions using non-negative
+		linear regression, estimates the "lost" unrecoverable fraction,
+		corrects individual transcript frequencies, and performs
+		differential proportion testing between conditions. Supports
+		any RNA fractionation protocol including polysome profiling,
+		sub-cellular localization, and RNA-protein complex isolation.
+	</longdescription>
+</pkgmetadata>
