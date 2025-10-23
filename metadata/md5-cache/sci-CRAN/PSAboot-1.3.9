@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/party sci-CRAN/modeltools sci-CRAN/TriMatch sci-CRAN/psych sci-CRAN/ggplot2 sci-CRAN/reshape2 virtual/rpart >=dev-lang/R-4.1.0 sci-CRAN/ggthemes sci-CRAN/PSAgraphics sci-CRAN/Matching sci-CRAN/MatchIt dev-lang/R:=
+DESCRIPTION=Bootstrapping for Propensity Score Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_knitr r_suggests_rmarkdown byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2+
+RDEPEND=sci-CRAN/party sci-CRAN/modeltools sci-CRAN/TriMatch sci-CRAN/psych sci-CRAN/ggplot2 sci-CRAN/reshape2 virtual/rpart >=dev-lang/R-4.1.0 sci-CRAN/ggthemes sci-CRAN/PSAgraphics sci-CRAN/Matching sci-CRAN/MatchIt r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/PSAboot_1.3.9.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=e75ade6842647428caed3244b0628574

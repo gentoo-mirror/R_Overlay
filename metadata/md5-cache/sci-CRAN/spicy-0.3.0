@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/labelled sci-CRAN/stringr >=dev-lang/R-4.1.0 sci-CRAN/tibble sci-CRAN/cli sci-CRAN/tidyselect sci-CRAN/collapse sci-CRAN/dplyr sci-CRAN/clipr sci-CRAN/DT sci-CRAN/haven sci-CRAN/rlang sci-CRAN/stringi dev-lang/R:=
+DESCRIPTION=Descriptive Statistics and Data Management Tools
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_testthat byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/labelled sci-CRAN/stringr >=dev-lang/R-4.1.0 sci-CRAN/tibble sci-CRAN/cli sci-CRAN/tidyselect sci-CRAN/collapse sci-CRAN/dplyr sci-CRAN/clipr sci-CRAN/DT sci-CRAN/haven sci-CRAN/rlang sci-CRAN/stringi r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/spicy_0.3.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=b42922435f922dd8739b9643f6b1f36c

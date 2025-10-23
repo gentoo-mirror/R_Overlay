@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/mc2d sci-CRAN/dplyr >=dev-lang/R-3.5 dev-lang/R:=
+DESCRIPTION=Modular Monte Carlo Risk Analysis
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_bookdown r_suggests_igraph r_suggests_knitr r_suggests_rmarkdown r_suggests_testthat r_suggests_visnetwork byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3+
+RDEPEND=sci-CRAN/mc2d sci-CRAN/dplyr >=dev-lang/R-3.5 r_suggests_bookdown? ( sci-CRAN/bookdown ) r_suggests_igraph? ( sci-CRAN/igraph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_visnetwork? ( sci-CRAN/visNetwork ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/mcmodule_1.1.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=a517760ba0c94f69da2dca81c9effede
