@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=sci-CRAN/chromote sci-CRAN/doParallel >=sci-CRAN/curl-6.3.0 sci-CRAN/shinyjs >=sci-CRAN/shinycssloaders-1.1.0 sci-CRAN/igraph sci-CRAN/httr2 sci-CRAN/purrr sci-CRAN/later sci-CRAN/openxlsx sci-CRAN/shiny sci-CRAN/base64enc sci-CRAN/DT sci-CRAN/ca sci-CRAN/shinyWidgets sci-CRAN/plotly sci-CRAN/fontawesome sci-CRAN/readr sci-CRAN/word2vec sci-CRAN/promises >=sci-CRAN/Rcpp-1.0.3 >=dev-lang/R-3.5.0 sci-CRAN/tidygraph >=sci-CRAN/pdftools-3.6.0 sci-CRAN/readtext sci-CRAN/ggraph sci-CRAN/udpipe sci-CRAN/shinydashboardPlus sci-CRAN/shinyFiles sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/textrank sci-CRAN/strucchange sci-CRAN/topicmodels sci-CRAN/sparkline sci-CRAN/pagedown sci-CRAN/jsonlite sci-CRAN/RSpectra sci-CRAN/rlang sci-CRAN/readxl sci-CRAN/visNetwork >=sci-CRAN/dplyr-1.1.0 sci-CRAN/umap dev-lang/R:=
+DESCRIPTION=Text Analysis for All
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=sci-CRAN/chromote sci-CRAN/doParallel >=sci-CRAN/curl-6.3.0 sci-CRAN/shinyjs >=sci-CRAN/shinycssloaders-1.1.0 sci-CRAN/igraph sci-CRAN/httr2 sci-CRAN/purrr sci-CRAN/later sci-CRAN/openxlsx sci-CRAN/shiny sci-CRAN/base64enc sci-CRAN/DT sci-CRAN/ca sci-CRAN/shinyWidgets sci-CRAN/plotly sci-CRAN/fontawesome sci-CRAN/readr sci-CRAN/word2vec sci-CRAN/promises >=sci-CRAN/Rcpp-1.0.3 >=dev-lang/R-3.5.0 sci-CRAN/tidygraph >=sci-CRAN/pdftools-3.6.0 sci-CRAN/readtext sci-CRAN/ggraph sci-CRAN/udpipe sci-CRAN/shinydashboardPlus sci-CRAN/shinyFiles sci-CRAN/stringr sci-CRAN/tidyr sci-CRAN/textrank sci-CRAN/strucchange sci-CRAN/topicmodels sci-CRAN/sparkline sci-CRAN/pagedown sci-CRAN/jsonlite sci-CRAN/RSpectra sci-CRAN/rlang sci-CRAN/readxl sci-CRAN/visNetwork >=sci-CRAN/dplyr-1.1.0 sci-CRAN/umap sci-CRAN/Rcpp dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/tall_0.4.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=07585ece6728753c1aeeddacd14b6d4d

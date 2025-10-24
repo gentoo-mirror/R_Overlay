@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=virtual/rpart sci-CRAN/xgboost sci-CRAN/glmnet sci-CRAN/adabag sci-CRAN/kernlab sci-CRAN/Cubist sci-CRAN/plotrix sci-CRAN/kknn virtual/nnet virtual/lattice sci-CRAN/pls virtual/MASS sci-CRAN/mda sci-CRAN/randomForest sci-CRAN/party sci-CRAN/e1071 dev-lang/R:=
+DESCRIPTION=Machine Learning Classification ... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-2
+RDEPEND=virtual/rpart sci-CRAN/xgboost sci-CRAN/glmnet sci-CRAN/adabag sci-CRAN/kernlab sci-CRAN/Cubist sci-CRAN/plotrix sci-CRAN/kknn virtual/nnet virtual/lattice sci-CRAN/pls virtual/MASS sci-CRAN/mda sci-CRAN/randomForest sci-CRAN/party sci-CRAN/e1071 dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/rminer_1.5.0.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=8d44cc64fd18e0a2c0c2dc967db35ae6

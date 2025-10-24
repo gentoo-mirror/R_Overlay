@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-4.0.0 sci-CRAN/crayon sci-CRAN/cli sci-CRAN/ggplot2 sci-CRAN/glue sci-CRAN/cowplot sci-CRAN/qgraph sci-CRAN/bnlearn virtual/MASS dev-lang/R:=
+DESCRIPTION=The Directed Prediction Index fo... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_aplot r_suggests_bayestestr r_suggests_brucer byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=GPL-3
+RDEPEND=>=dev-lang/R-4.0.0 sci-CRAN/crayon sci-CRAN/cli sci-CRAN/ggplot2 sci-CRAN/glue sci-CRAN/cowplot sci-CRAN/qgraph sci-CRAN/bnlearn virtual/MASS r_suggests_aplot? ( sci-CRAN/aplot ) r_suggests_bayestestr? ( sci-CRAN/bayestestR ) r_suggests_brucer? ( sci-CRAN/bruceR ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/DPI_2025.10-1.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=0d7b2a5bae73c1863cb84f31f9db1fa1
