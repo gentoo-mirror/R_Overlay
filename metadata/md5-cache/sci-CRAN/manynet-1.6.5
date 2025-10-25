@@ -1,0 +1,14 @@
+BDEPEND=dev-lang/R:=
+DEFINED_PHASES=compile configure install postinst unpack
+DEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/dplyr-1.1.0 sci-CRAN/network sci-CRAN/cli >=sci-CRAN/igraph-2.1.0 sci-CRAN/pillar sci-CRAN/tidygraph dev-lang/R:=
+DESCRIPTION=Many Ways to Make, Modify, Mark,... (see metadata)
+EAPI=8
+INHERIT=R-packages
+IUSE=r_suggests_autograph r_suggests_knitr r_suggests_learnr r_suggests_netdiffuser r_suggests_readxl r_suggests_rmarkdown r_suggests_rsiena r_suggests_sna r_suggests_testthat r_suggests_tibble r_suggests_xml2 byte-compile
+KEYWORDS=~amd64 ~x64-macos ~arm64-macos
+LICENSE=MIT
+RDEPEND=>=dev-lang/R-3.6.0 >=sci-CRAN/dplyr-1.1.0 sci-CRAN/network sci-CRAN/cli >=sci-CRAN/igraph-2.1.0 sci-CRAN/pillar sci-CRAN/tidygraph r_suggests_autograph? ( sci-CRAN/autograph ) r_suggests_knitr? ( sci-CRAN/knitr ) r_suggests_learnr? ( sci-CRAN/learnr ) r_suggests_netdiffuser? ( sci-CRAN/netdiffuseR ) r_suggests_readxl? ( sci-CRAN/readxl ) r_suggests_rmarkdown? ( sci-CRAN/rmarkdown ) r_suggests_rsiena? ( sci-CRAN/RSiena ) r_suggests_sna? ( sci-CRAN/sna ) r_suggests_testthat? ( >=sci-CRAN/testthat-3.0.0 ) r_suggests_tibble? ( sci-CRAN/tibble ) r_suggests_xml2? ( sci-CRAN/xml2 ) dev-lang/R:=
+SLOT=0
+SRC_URI=http://cran.r-project.org/src/contrib/manynet_1.6.5.tar.gz
+_eclasses_=R-packages	c088b06cf55077a562d4980a0ff9a9b7
+_md5_=2d77f5e68b0673e087e448e9c2eeea94
